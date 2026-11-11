@@ -35,7 +35,12 @@
       "home": "Ahuja household",
       "color": "#d38a58",
       "husband": "rohan",
-      "sourceStatus": "CURRENT_ATLAS"
+      "sourceStatus": "CURRENT_ATLAS",
+      "appearanceReference": "./assets/shivani-2026-01-01-school-portrait.jpg",
+      "appearanceReferenceStatus": "PROVISIONAL_TEACHER_SAREE_REFERENCE_NOT_2026_01_01_OUTFIT",
+      "episodeWorkingTitle": "The Winter Holiday Secret",
+      "jan1Setting": "Haryana school winter vacation, 1–15 Jan 2026: no in-person school attendance scheduled. School staff contact, if any, needs its own approved home-based scene.",
+      "jan1ContinuityNote": "Rohan is at Gulmohar Heights walking path 06:20–06:37 with Ankita and Nikhil; Shivani is not placed there during that window. No contradictory Rohan gym or home scene."
     },
     {
       "id": "taniya",
