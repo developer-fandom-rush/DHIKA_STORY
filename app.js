@@ -121,7 +121,7 @@ function search(){
   if(f.topic!=="all"&&!ps.some(x=>x.tags.includes(f.topic)))return false;
   return true;
  };
- if(pair&&["indexed","same","dialogue","discussed"].includes(f.mode)){
+ if(pair&&["indexed","same","dialogue","discussed","ambiguous"].includes(f.mode)){
   const add=(items,evidence)=>{
    for(const row of items){
     const ep=library.find(e=>e.n===row[0]);if(!ep)continue;
@@ -133,6 +133,7 @@ function search(){
   if(f.mode==="indexed"||f.mode==="same")add(pair.direct,"same-paragraph co-mention");
   if(f.mode==="indexed"||f.mode==="dialogue")add(pair.dialogue,"speaker exchange candidate");
   if(f.mode==="indexed"||f.mode==="discussed")add(pair.thirdParty,"third-party discussion");
+  if(f.mode==="ambiguous")add(pair.ambiguousScene||[],"scene transition — unverified exchange");
  }else{
   for(const ep of library){
    if(f.episode!=="all"&&String(ep.n)!==f.episode)continue;
@@ -215,12 +216,12 @@ function network(){
   if(b===a)continue;
   const p=PAIR_INDEX?.pairs[[a,b].sort().join("__")];
   if(!p)continue;
-  const count=p.counts.coMention+p.counts.speakerExchange+p.counts.thirdPartyDiscussion;
+  const count=p.counts.coMention+p.counts.speakerExchange+p.counts.thirdPartyDiscussion+(p.counts.sceneTransitionCandidate||0);
   items.push({b,count,counts:p.counts,eps:p.episodes.map(x=>"EP"+String(x).padStart(2,"0"))});
  }
  items.sort((x,y)=>y.count-x.count||x.b.localeCompare(y.b));
  el("network-summary").innerHTML='<div class="network-info"><strong>Relationship evidence, not inferred encounters.</strong> Direct co-mentions, consecutive speaker turns, and third-party discussion are indexed separately. The Twins label requires the literal collective word or BOTH brothers named in one paragraph. Ron is not automatically the same person as John.</div>';
- el("network-grid").innerHTML=items.map(x=>'<button class="network-card" data-other="'+x.b+'"><div class="pair">'+caps(a)+' <strong>×</strong> '+caps(x.b)+'</div><div class="count">'+x.count.toLocaleString()+' evidence entries · '+x.eps.length+' episodes</div><div class="episodes">Same paragraph: '+x.counts.coMention+' · Speaker exchange: '+x.counts.speakerExchange+' · Third-party: '+x.counts.thirdPartyDiscussion+'<br>'+esc(x.eps.slice(0,14).join(" · "))+(x.eps.length>14?" · …":"")+'</div></button>').join("");
+ el("network-grid").innerHTML=items.map(x=>'<button class="network-card" data-other="'+x.b+'"><div class="pair">'+caps(a)+' <strong>×</strong> '+caps(x.b)+'</div><div class="count">'+x.count.toLocaleString()+' evidence entries · '+x.eps.length+' episodes</div><div class="episodes">Same paragraph: '+x.counts.coMention+' · Speaker exchange: '+x.counts.speakerExchange+' · Third-party: '+x.counts.thirdPartyDiscussion+' · Review: '+(x.counts.sceneTransitionCandidate||0)+'<br>'+esc(x.eps.slice(0,14).join(" · "))+(x.eps.length>14?" · …":"")+'</div></button>').join("");
 }
 async function start(){
  try{
