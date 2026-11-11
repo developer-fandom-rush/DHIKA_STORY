@@ -22,9 +22,9 @@ textarea{width:100%;resize:vertical;margin-top:8px;border:1px solid #e0e5eb;bord
 <header><div><h1>Society Wives · Character Questions</h1><div class="muted">Office character design · Attraction directions · First cracks · Continuity checklist</div></div>
 <nav class="navs"><a class="nav" href="./index.html">Relationship Atlas</a><a class="nav" href="./arc-planner.html">Mini-Arc Planner</a><button id="export">Export review</button><button id="clear">Clear my answers</button></nav></header>
 <main class="wrap">
-<div class="tip"><strong>DRAFT, not locked canon.</strong> The original 36 questions are saved in this GitHub repository for all five women. Your individual checkmarks and notes save locally in <strong>this browser</strong>; they are not automatically uploaded to GitHub. Use Export review to keep/share them. Nothing on this page changes relationship-atlas scores.</div>
+<div class="tip"><strong>DRAFT, not locked canon.</strong> The reusable character questions are saved in this GitHub repository for all five women. Your individual checkmarks and notes save locally in <strong>this browser</strong>; they are not automatically uploaded to GitHub. Use Export review to keep/share them. Nothing on this page changes relationship-atlas scores.</div>
 <div class="controls"><label for="lead">Female lead</label><select id="lead"><option>Ankita</option><option>Shivani</option><option>Taniya</option><option>Meenakshi</option><option>Shreya</option></select><input id="search" type="search" placeholder="Find a question or topic" aria-label="Search questions"><span class="count" id="progress"></span></div>
-<div class="two"><section><div class="card"><h2>Starting answers</h2><div id="summary" class="summary">Loading...</div></div><div class="card"><h2>Reading this audit</h2><div class="summary">Every adult relationship has two separate directions: male → female and female → male. Physical interest, brief attraction, romantic feelings and professional admiration are different types. A person's body and appearance are only one part of the design; confidence, competence and interaction history matter too.</div></div></section><section id="questions"><div class="card">Loading saved question bank...</div></section></div>
+<div class="two"><section><div class="card"><h2>Proposed character map</h2><label class="muted" for="world">Explore world</label> <select id="world" style="width:100%;margin:8px 0 12px"><option value="office">Office women + men</option><option value="society">Society and cross-visits</option><option value="husbands">Other husbands</option><option value="family">Husband, devars and FIL</option><option value="types">Attraction categories</option><option value="overview">Overview</option></select><div id="summary" class="summary">Loading...</div></div><div class="card"><h2>Reading this audit</h2><div class="summary">Every adult relationship has two separate directions: male → female and female → male. Physical interest, brief attraction, romantic feelings and professional admiration are different types. A person's body and appearance are only one part of the design; confidence, competence and interaction history matter too.</div></div></section><section id="questions"><div class="card">Loading saved question bank...</div></section></div>
 </main>
 <script>
 const KEY="society-wives-character-audit-v1";
@@ -38,15 +38,32 @@ function render(){
  const lead=$("lead").value, query=$("search").value.trim().toLowerCase(),state=leadState();
  const summary=$("summary");summary.replaceChildren();
  if(lead==="Ankita"){
- const a=bank.ankitaOfficeDraft;
- const line=[
- "Office women (proposed): "+a.femaleColleagues.map(p=>p.name+" — "+p.role).join("; "),
- "Visual concept: "+a.visualDesign,
- "Men's proposed interest: "+a.maleInterest.map(p=>p.name+" ("+p.type+")").join("; "),
- "Ankita's own possible interests: "+a.ankitaInterests.join("; "),
- "Status: "+a.limits
- ];summary.textContent=line.join("\n\n");
- }else{summary.textContent=lead+" office audit has not been drafted yet. Use the same question bank to define her workplace characters, attractions and arc progression.";}
+ const a=bank.ankitaOfficeDraft, x=bank.ankitaExpandedWorldDraft, view=$("world").value;
+ const formatPerson=(p,add)=>p.name+(p.age?" ("+p.age+")":"")+" — "+(add(p)||"");
+ let lines=[];
+ if(view==="office"){
+   lines=["OFFICE WOMEN — 8 PROPOSED TEAMMATES / HR",...x.officeFemaleTeam.map(p=>formatPerson(p,k=>k.role)),
+      "OFFICE MEN — INTEREST TOWARD ANKITA + HER REACTION",
+      ...x.officeMen.map(p=>p.name+" — "+p.route+" | Why: "+p.reason+" | Ankita → him: "+p.ankitaToHim)];
+ }else if(view==="society"){
+   lines=["SOCIETY CONTACTS / CROSS-HOUSE PAIRS",...x.societyMen.map(p=>p.name+" — "+p.role+" | How: "+p.interaction+" | Interest: "+p.interest)];
+ }else if(view==="husbands"){
+   lines=["OTHER WOMEN'S HUSBANDS + SONIYA'S HUSBAND",...x.otherHusbands.map(p=>p.name+" — "+p.role+" | Visits: "+p.interaction+" | Interest: "+p.interest)];
+ }else if(view==="family"){
+   lines=["ANKITA'S HOME — HUSBAND, FATHER-IN-LAW AND DEVARS",...x.familyMen.map(p=>p.name+" — "+p.role+" | Position: "+p.interest)];
+ }else if(view==="types"){
+   lines=["SIX DIFFERENT RELATIONSHIP-INTENT CATEGORIES",...x.relationshipTypes.map(p=>p.type+" — "+p.meaning)];
+ }else{
+   lines=["Ankita's office currently includes "+x.officeFemaleTeam.length+" women and "+x.officeMen.length+" men.",
+          "Society male contacts / cross-visits: "+x.societyMen.length+".",
+          "Other husbands' social routes: "+x.otherHusbands.length+".",
+          "Her own household male routes: "+x.familyMen.length+".",
+          "Visual concept: "+a.visualDesign,
+          "Her own possible interests: "+a.ankitaInterests.join("; ")];
+ }
+ lines.push("STATUS: "+x.rules,"EXISTING ATLAS: "+x.chartUpdate);
+ summary.textContent=lines.join("\\n\\n");
+ }else{summary.textContent=lead+" expansion is not drafted yet. Reuse this question bank to define her office, society, other husbands, family and attraction routes.";}
  const root=$("questions");root.replaceChildren();
  const available=bank.questions.filter(q=>!query||(q.group+" "+q.question).toLowerCase().includes(query));
  const finished=bank.questions.filter(q=>state[q.id]?.done).length;
@@ -65,7 +82,7 @@ function render(){
  }root.append(card);
  }
 }
-$("lead").onchange=render;$("search").oninput=render;
+$("lead").onchange=render;$("world").onchange=render;$("search").oninput=render;
 $("export").onclick=()=>{const blob=new Blob([JSON.stringify({source:"Society Wives Draft Character Audit",questions:bank.questions,reviews:notes},null,2)],{type:"application/json"}),url=URL.createObjectURL(blob),a=document.createElement("a");a.href=url;a.download="society-wives-character-audit-review.json";a.click();setTimeout(()=>URL.revokeObjectURL(url),1000)};
 $("clear").onclick=()=>{const lead=$("lead").value;if(confirm("Clear local review answers only for "+lead+"?")){notes[lead]={};save();render()}};
 fetch("./character-audit-questions.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("HTTP "+r.status);return r.json()}).then(d=>{bank=d;render()}).catch(e=>{$("questions").textContent="Could not load the question bank: "+e.message});
