@@ -108,7 +108,8 @@ for key, entry in index["pairs"].items():
     total_refs += sum(entry["counts"].values())
 
 assert index["pairs"]["bantu__uncle"]["counts"] == {
-    "coMention": 0, "speakerExchange": 0, "thirdPartyDiscussion": 0
+    "coMention": 0, "speakerExchange": 0, "thirdPartyDiscussion": 0,
+    "sceneTransitionCandidate": 0
 }
 assert index["pairs"]["bantu__sharmi"]["counts"]["coMention"] == 0
 assert index["pairs"]["bobby__sharmi"]["counts"]["coMention"] == 0
