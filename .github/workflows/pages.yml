@@ -1,0 +1,60 @@
+name: Deploy Story Intelligence to Pages
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Verify archive and JavaScript
+        shell: bash
+        run: |
+          node --check app.js
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          d=json.loads(Path('data/corpus.json').read_text(encoding='utf-8'))
+          assert len(d['episodes'])==41, 'Expected 41 episodes'
+          assert sum(len(e['lines']) for e in d['episodes'])==10450, 'Expected 10,450 source paragraphs'
+          assert sum(e['parts'] for e in d['episodes'])==55, 'Expected 55 source parts'
+          assert all(e['lines'] for e in d['episodes']), 'Empty episode!'
+          assert all(Path(x).exists() for x in ('index.html','styles.css','app.js'))
+          print('Verified 41 episodes, 10,450 paragraphs, 55 parts.')
+          PY
+
+      - name: Prepare static site
+        shell: bash
+        run: |
+          mkdir -p _site/data
+          cp index.html app.js styles.css _site/
+          cp data/corpus.json _site/data/
+          touch _site/.nojekyll
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+
+      - name: Deploy GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
