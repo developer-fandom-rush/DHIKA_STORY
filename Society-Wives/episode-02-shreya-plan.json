@@ -745,7 +745,10 @@
       "filename": "Shreya-2026-01-01-Police-Station.png",
       "driveId": "1dVeTBdVexSpfvVFR4bA6IzaAnV5JndEd",
       "role": "Police Inspector briefing a senior colleague",
-      "source": "generated current conversation"
+      "source": "generated current conversation",
+      "uiSrc": "./assets/shreya/shreya-police-station.jpg",
+      "uiSource": "GITHUB_PAGES_LOCAL",
+      "galleryLink": "./assets/shreya/shreya-police-station.jpg"
     },
     {
       "id": "fitness",
@@ -753,7 +756,10 @@
       "filename": "Shreya-2026-01-01-Gym-Workout.png",
       "driveId": "1YAgOUQWJWUHkgqmGJ0Rz0mA6XTIntCuJ",
       "role": "Morning workout and sports duo",
-      "source": "generated current conversation"
+      "source": "generated current conversation",
+      "uiSrc": "./assets/shreya/shreya-society-gym.jpg",
+      "uiSource": "GITHUB_PAGES_LOCAL",
+      "galleryLink": "./assets/shreya/shreya-society-gym.jpg"
     },
     {
       "id": "collage",
@@ -761,9 +767,12 @@
       "filename": "Shreya-2026-01-01-Visual-Collage.png",
       "driveId": "1v3PZmX_jSJy41sea1Gux8BGy9ERo3C_g",
       "role": "Concept collage; fine print and labels are not canonical",
-      "source": "generated current conversation"
+      "source": "generated current conversation",
+      "uiSrc": "./assets/shreya/shreya-story-collage.jpg",
+      "uiSource": "GITHUB_PAGES_LOCAL",
+      "galleryLink": "./assets/shreya/shreya-story-collage.jpg"
     }
   ],
-  "imagePolicy": "Only three successfully generated images are uploaded. No Shruti portrait exists yet. Generated illustrations are concepts; not all face details, badges and collage labels are story canon.",
+  "imagePolicy": "Three successfully generated images remain archived at Drive, and GitHub-hosted JPG previews load directly from ./assets/shreya/. Shruti portrait pending; collage labels and minor face variations are conceptual, not canon. No new images generated.",
   "approvedPolicy": "The user called the plot great and requested publication in common Episode 02. This is a user-accepted working plot, not final prose or authorization for new explicit scenes."
 }
