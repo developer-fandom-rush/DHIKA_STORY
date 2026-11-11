@@ -231,7 +231,15 @@ $('promptKind').addEventListener('change',renderPrompts);
 $('promptScene').addEventListener('change',renderPrompts);
 $('copyPromptBtn').addEventListener('click',copyCurrentPrompt);
 $('meenakshiSearch').addEventListener('input',()=>{if(plans.meenakshi)renderMeenakshiEncounters();});
-document.querySelectorAll('[data-tab]').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('[data-tab]').forEach(x=>{x.classList.toggle('active',x===b);x.setAttribute('aria-selected',String(x===b))});document.querySelectorAll('[data-panel]').forEach(p=>p.classList.toggle('hidden',p.dataset.panel!==b.dataset.tab));}));
+function activateTab(tabName){
+ const b=document.querySelector('[data-tab="'+tabName+'"]');
+ if(!b)return;
+ document.querySelectorAll('[data-tab]').forEach(x=>{x.classList.toggle('active',x===b);x.setAttribute('aria-selected',String(x===b))});
+ document.querySelectorAll('[data-panel]').forEach(p=>p.classList.toggle('hidden',p.dataset.panel!==b.dataset.tab));
+}
+document.querySelectorAll('[data-tab]').forEach(b=>b.addEventListener('click',()=>activateTab(b.dataset.tab)));
+const selectedTab=new URLSearchParams(location.search).get('tab')||location.hash.slice(1);
+if(selectedTab)activateTab(selectedTab);
 ['clockLead','clockLane','clockQuery'].forEach(id=>$(id).addEventListener(id==='clockQuery'?'input':'change',renderClock));
 ['viewLead','viewQuery'].forEach(id=>$(id).addEventListener(id==='viewQuery'?'input':'change',renderLead));
 ['house','group','personQuery'].forEach(id=>$(id).addEventListener(id==='personQuery'?'input':'change',renderPeople));
