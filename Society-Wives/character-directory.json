@@ -10,7 +10,8 @@
       "Recent explicitly marked proposals"
     ],
     "excluded": "Old Society_Story Drive/archive canon is excluded. Dhika only a storytelling analogy.",
-    "changePolicy": "Never silently turn a proposal into a locked relationship, add a twin relationship, change relatives, or bypass direct user corrections. Flag actual continuity conflicts and get user decision."
+    "changePolicy": "Never silently turn a proposal into a locked relationship, add a twin relationship, change relatives, or bypass direct user corrections. Flag actual continuity conflicts and get user decision.",
+    "lastCorrection": "2026-11-11: Shivani teaches adult undergraduates at college, NOT school. Harsh/Laksh are her favorite 22-year-old twin students, not staff. School-holiday plot discarded; college day and erotic-themed title proposed, nothing approved."
   },
   "leads": [
     {
@@ -30,17 +31,25 @@
     {
       "id": "shivani",
       "name": "Shivani",
-      "role": "Teacher",
+      "role": "College Lecturer · Adult Undergraduate Students",
       "age": 31,
       "home": "Ahuja household",
       "color": "#d38a58",
       "husband": "rohan",
       "sourceStatus": "CURRENT_ATLAS",
       "appearanceReference": "./assets/shivani-2026-01-01-school-portrait.jpg",
-      "appearanceReferenceStatus": "PROVISIONAL_TEACHER_SAREE_REFERENCE_NOT_2026_01_01_OUTFIT",
-      "episodeWorkingTitle": "The Winter Holiday Secret",
-      "jan1Setting": "Haryana school winter vacation, 1–15 Jan 2026: no in-person school attendance scheduled. School staff contact, if any, needs its own approved home-based scene.",
-      "jan1ContinuityNote": "Rohan is at Gulmohar Heights walking path 06:20–06:37 with Ankita and Nikhil; Shivani is not placed there during that window. No contradictory Rohan gym or home scene."
+      "appearanceReferenceStatus": "PROVISIONAL_COLLEGE_FACULTY_SAREE_STYLE_NOT_LOCKED_FOR_JAN1",
+      "episodeWorkingTitle": "The Red Pallu — An Erotic College Secret",
+      "jan1Setting": "College teaching/academic schedule is active in the fictional 01 Jan 2026 plot; school winter vacation does not apply. Campus scenes, adult students and colleagues are for discussion, not approved plot.",
+      "jan1ContinuityNote": "Rohan at society park 06:20–06:37, returns no earlier than ~06:45. Om occupied with shared committee/parcel 10:37–10:50 and 12:30–12:50. Ankita at Cyber City office, her POV paused at 13:00. Shivani at college from ~08:45 to ~15:45 in proposed schedule.",
+      "profession": "College lecturer / faculty member",
+      "workplace": "Gurgaon-based degree college (institution name not yet fixed)",
+      "workday20260101": "WORKING_COLLEGE_DAY_USER_DIRECTED",
+      "holidayNote": "Prior school winter-vacation assumption is invalid and discarded. Fictional college is active for 01 Jan; exact institutional holiday/calendar not source-verified.",
+      "proposedCollegeHours": "09:00–15:30 (draft, user review required)",
+      "proposedCommute": "Own scooty, 08:20 depart / 08:45 arrive / 15:45 depart / ~16:15 reach home (draft, traffic dependent)",
+      "episodeTitleStatus": "PROPOSAL_ONLY_NOT_APPROVED",
+      "discardedWorkingPlot": "The Winter Holiday Secret (all-home school-holiday Shivani schedule) is NOT CANON and must not be reused."
     },
     {
       "id": "taniya",
@@ -550,37 +559,41 @@
       "id": "sunny",
       "name": "Sunny",
       "age": 22,
-      "role": "School office/lab assistant",
+      "role": "College academic office / AV lab assistant",
       "group": "office",
       "house": "shivani",
       "sourceStatus": "CURRENT_ATLAS",
-      "notes": "Original new-universe Atlas roster, subject to user refinements"
+      "notes": "Formerly mislabeled school staff; updated for college campus."
     },
     {
       "id": "harsh",
       "name": "Harsh",
-      "age": 24,
-      "role": "School coaching/admin duo · proposed",
-      "group": "office",
+      "age": 22,
+      "role": "Undergraduate student · favorite student of Shivani · expressive twin brother of Laksh",
+      "group": "college-student",
       "house": "shivani",
-      "sourceStatus": "CURRENT_ATLAS",
-      "notes": "Original new-universe Atlas roster, subject to user refinements"
+      "sourceStatus": "USER_DIRECTED_2026_11_11",
+      "notes": "Adult student, age 22. Confident, witty and playful; may offer light flirtatious compliments in non-graphic plot discussions. Faculty-student power dynamics remain acknowledged; no approved romantic or sexual episode event.",
+      "status": "USER_DIRECTED_ADULT_STUDENT_TWIN",
+      "classGroup": "College undergraduate, exact program/semester TBD"
     },
     {
       "id": "laksh",
       "name": "Laksh",
-      "age": 24,
-      "role": "School coaching/admin duo · proposed",
-      "group": "office",
+      "age": 22,
+      "role": "Undergraduate student · favorite student of Shivani · reserved twin brother of Harsh",
+      "group": "college-student",
       "house": "shivani",
-      "sourceStatus": "CURRENT_ATLAS",
-      "notes": "Original new-universe Atlas roster, subject to user refinements"
+      "sourceStatus": "USER_DIRECTED_2026_11_11",
+      "notes": "Adult student, age 22. Quieter, observant, academically sincere and slightly shy; Bobby-like personality contrast only, not copied story scenes. No approved romance/sexual event.",
+      "status": "USER_DIRECTED_ADULT_STUDENT_TWIN",
+      "classGroup": "College undergraduate, exact program/semester TBD"
     },
     {
       "id": "dheeraj",
       "name": "Dheeraj",
       "age": 52,
-      "role": "School principal",
+      "role": "College principal · campus academic administration",
       "group": "office",
       "house": "shivani",
       "sourceStatus": "CURRENT_ATLAS",
@@ -590,7 +603,7 @@
       "id": "nitin",
       "name": "Nitin",
       "age": 46,
-      "role": "School vice principal",
+      "role": "College vice principal / academic dean",
       "group": "office",
       "house": "shivani",
       "sourceStatus": "CURRENT_ATLAS",
@@ -600,7 +613,7 @@
       "id": "trustee",
       "name": "Trustee Malhotra",
       "age": 60,
-      "role": "School trustee",
+      "role": "College trustee / governing-body member",
       "group": "office",
       "house": "shivani",
       "sourceStatus": "CURRENT_ATLAS",
@@ -870,17 +883,17 @@
       "id": "shivani_woman_01",
       "name": "Pooja",
       "age": 23,
-      "role": "Assistant Teacher",
+      "role": "Assistant Professor · Shivani's faculty colleague",
       "group": "office",
       "house": "shivani",
       "sourceStatus": "PROPOSED",
-      "notes": "From recent new-universe character discussion; not yet confirmed for on-page episodes."
+      "notes": "Proposed female faculty colleague; no student-teacher confusion."
     },
     {
       "id": "shivani_woman_02",
       "name": "Kriti",
       "age": 24,
-      "role": "Activity Coordinator",
+      "role": "College event / cultural coordinator · staff colleague",
       "group": "office",
       "house": "shivani",
       "sourceStatus": "PROPOSED",
@@ -890,7 +903,7 @@
       "id": "shivani_woman_03",
       "name": "Radhika",
       "age": 34,
-      "role": "Counsellor",
+      "role": "College student counsellor · staff colleague",
       "group": "office",
       "house": "shivani",
       "sourceStatus": "PROPOSED",
@@ -900,7 +913,7 @@
       "id": "shivani_woman_04",
       "name": "Mrs. Bedi",
       "age": 39,
-      "role": "School HR/Admin",
+      "role": "College HR / administration · staff colleague",
       "group": "office",
       "house": "shivani",
       "sourceStatus": "PROPOSED",
@@ -1048,6 +1061,36 @@
       "house": "shivani",
       "sourceStatus": "USER_REQUESTED_UNMAPPED",
       "notes": "A provisional character-map entry requested for Shivani. This is not an import of original Dhika canon, and does not establish an encounter, attraction, biological relationship or adult age. Clarify exact identity and role before writing scenes."
+    },
+    {
+      "id": "shivani_student_nandini",
+      "name": "Nandini",
+      "age": 22,
+      "role": "Female undergraduate student · Shivani's favorite scholar, confident class representative",
+      "group": "college-student",
+      "house": "shivani",
+      "sourceStatus": "PROPOSED_FOR_COLLEGE_CAST",
+      "notes": "Independent academic goals, capable class representative, supportive friend to peers; not part of erotic interest routes."
+    },
+    {
+      "id": "shivani_student_ritika",
+      "name": "Ritika",
+      "age": 22,
+      "role": "Female undergraduate student · curious, candid and witty",
+      "group": "college-student",
+      "house": "shivani",
+      "sourceStatus": "PROPOSED_FOR_COLLEGE_CAST",
+      "notes": "Adds peer-to-peer student dialogue and campus social realism; independent character, not just an observer of twins."
+    },
+    {
+      "id": "shivani_student_arjun",
+      "name": "Arjun Mehta",
+      "age": 23,
+      "role": "Undergraduate student · student cultural committee representative",
+      "group": "college-student",
+      "house": "shivani",
+      "sourceStatus": "PROPOSED_FOR_COLLEGE_CAST",
+      "notes": "Optional non-twin classmate; organizational student contact; no romantic interest assumed."
     }
   ],
   "relations": [
@@ -1354,7 +1397,7 @@
       "fromWoman": 0,
       "fromMan": 1,
       "importance": 3,
-      "how": "School lab/office assistant.",
+      "how": "College AV lab/academic office assistant assisting lectures and event equipment.",
       "why": "Professional admiration.",
       "kind": "office",
       "state": "proposal"
@@ -1362,24 +1405,24 @@
     {
       "w": "shivani",
       "man": "harsh",
-      "fromWoman": 2,
-      "fromMan": 1,
+      "fromWoman": 0,
+      "fromMan": 2,
       "importance": 3,
-      "how": "School sports/admin support pair (draft-only).",
-      "why": "She appreciates his upbeat creative energy; no action.",
-      "kind": "office",
-      "state": "proposal"
+      "how": "Shivani's 22-year-old adult undergraduate student, her expressive favorite and Laksh's twin; class discussions, academic help and student-organized events.",
+      "why": "Tentative one-sided student crush and light spoken admiration/flirtation in future discussion only; professor-student boundary remains. Nothing approved as a scene.",
+      "kind": "college-student",
+      "state": "proposed"
     },
     {
       "w": "shivani",
       "man": "laksh",
       "fromWoman": 0,
-      "fromMan": 1,
+      "fromMan": 2,
       "importance": 2,
-      "how": "School pair colleague (draft-only).",
-      "why": "Friendly work rapport only.",
-      "kind": "office",
-      "state": "proposal"
+      "how": "Shivani's 22-year-old adult undergraduate student, her quieter favorite and Harsh's twin.",
+      "why": "Quiet one-sided admiration; shy interest is a potential slow-burn character trait, not an established romantic encounter.",
+      "kind": "college-student",
+      "state": "proposed"
     },
     {
       "w": "shivani",
@@ -1387,7 +1430,7 @@
       "fromWoman": 0,
       "fromMan": 1,
       "importance": 4,
-      "how": "Principal and school leader.",
+      "how": "College principal reviewing academic programs and faculty schedules.",
       "why": "Professional respect, no romantic interest proposed.",
       "kind": "office",
       "state": "proposal"
@@ -1398,7 +1441,7 @@
       "fromWoman": 1,
       "fromMan": 1,
       "importance": 3,
-      "how": "Vice principal and curriculum collaborator.",
+      "how": "College vice principal/academic dean, curriculum and timetable collaboration.",
       "why": "Mutual intellectual respect.",
       "kind": "office",
       "state": "proposal"
@@ -1409,7 +1452,7 @@
       "fromWoman": 0,
       "fromMan": 1,
       "importance": 2,
-      "how": "Trustee attends school cultural functions.",
+      "how": "College trustee at governing/cultural events.",
       "why": "Social attention, not confirmed attraction.",
       "kind": "office",
       "state": "proposal"
@@ -2149,15 +2192,15 @@
     },
     {
       "id": "pair06",
-      "label": "Harsh & Laksh",
+      "label": "Harsh & Laksh — 22-year-old college student twins",
       "people": [
         "harsh",
         "laksh"
       ],
       "house": "shivani",
-      "lane": "office",
-      "classification": "WORKPLACE_DUO_NOT_TWINS",
-      "reason": "Co-workers / coaching-admin duo"
+      "lane": "college-student",
+      "classification": "CONFIRMED_TWINS",
+      "reason": "Direct user correction: Shivani's two favorite adult undergraduate students, age 22, are twin brothers; formerly incorrectly registered as 24-year-old school/admin duo."
     },
     {
       "id": "pair07",
@@ -2214,7 +2257,7 @@
       "devars": [
         "manav"
       ],
-      "comment": "Rohan is Shivani's husband; Om is FIL; Manav is a single devar, not twins. Kavya (younger sister) and Tara (young child, family-only) appear in the extended family list. Ayaan and Armaan are a society duo, biological sibling/twin status not confirmed."
+      "comment": "Shivani, 31, is a college lecturer (not school teacher); Rohan husband, Om FIL, Manav single devar, Kavya sister, Tara young daughter. Two separate favorite college students Harsh and Laksh, 22, are confirmed twins; Ayaan/Armaan remain UNCONFIRMED society duo."
     },
     {
       "lead": "taniya",
@@ -2465,17 +2508,17 @@
       {
         "id": "sunny",
         "category": "PROFESSIONAL_ADMIRATION_ONLY",
-        "why": "School office assistant, professional admiration."
+        "why": "College AV/office assistant; professional admiration, not a confirmed romance."
       },
       {
         "id": "harsh",
-        "category": "FRIENDLY_WORKPLACE_ONLY",
-        "why": "School duo; she appreciates his energy, but he has no attraction documented."
+        "category": "ADULT_STUDENT_TENTATIVE_CRUSH",
+        "why": "22-year-old expressive favorite college student, twin brother of Laksh; future teasing/flirting proposed only, not a completed interaction."
       },
       {
         "id": "laksh",
-        "category": "FRIENDLY_WORKPLACE_ONLY",
-        "why": "School duo; friendly rapport only."
+        "category": "ADULT_STUDENT_QUIET_CURIOSITY",
+        "why": "22-year-old reserved favorite college student, twin brother of Harsh; future shy admiration proposed only."
       },
       {
         "id": "chotu_shivani",
@@ -2489,15 +2532,85 @@
       "olderSchoolOrSocietyAttractionConfirmed": 0,
       "youngerOrPeerTentativeSocietyInterest": 2,
       "crossHouseLatentInterestProposals": 1,
-      "registeredBiologicalTwinsSpecificToShivani": 0,
-      "confirmedBiologicalTwinPairsInWholeAtlas": 1
+      "registeredBiologicalTwinsSpecificToShivani": 1,
+      "confirmedBiologicalTwinPairsInWholeAtlas": 2
     },
     "continuity": {
       "anchor": "2026-01-01",
       "rohan": "06:20–06:37 walking path encounter with Ankita. Do not place him at home/gym simultaneously.",
       "kabir": "At home for Ankita's pre-office breakfast / farewell; do not simultaneously send him to gym.",
-      "shivani": "Her own January 1 timeline not yet approved; cast list does not schedule scenes.",
-      "officeNote": "No new later-day adult office scenes scheduled here. Continue only on user's instruction."
+      "shivani": "User-corrected college lecturer; working on-campus schedule proposed 08:45–15:45, 1 Jan 2026. No school winter holiday arc; plot not approved.",
+      "officeNote": "College day user-directed; physical faculty, adult student and twin interactions are under discussion. Nothing about earlier winter-vacation schedule is canon."
     }
+  },
+  "shivaniCollege": {
+    "status": "USER_DIRECTED_ROSTER_WITH_UNAPPROVED_SCENE_SCHEDULE",
+    "correctionDate": "2026-11-11",
+    "setting": "Fictional Gurgaon college, adult undergraduate classroom. Exact college name/course to decide.",
+    "teachingHoursProposed": "09:00–15:30",
+    "commuteProposed": {
+      "mode": "scooty",
+      "leaveHome": "08:20",
+      "arriveCollege": "08:45",
+      "leaveCollege": "15:45",
+      "arriveHome": "16:15"
+    },
+    "roster": {
+      "favoriteAdultStudentTwins": [
+        "harsh",
+        "laksh"
+      ],
+      "otherAdultStudents": [
+        "shivani_student_nandini",
+        "shivani_student_ritika",
+        "shivani_student_arjun"
+      ],
+      "academicFaculty": [
+        "shivani_woman_01",
+        "shivani_woman_02",
+        "shivani_woman_03",
+        "shivani_woman_04"
+      ],
+      "supportAdministration": [
+        "sunny",
+        "dheeraj",
+        "nitin",
+        "trustee"
+      ]
+    },
+    "attractionPlans": [
+      {
+        "id": "harsh",
+        "state": "PROPOSED_GENTLE_TEASING_AND_CRUSH",
+        "notes": "Adult student 22; respectful playful compliments. No approved physical intimacy, grading favoritism or reciprocated relationship."
+      },
+      {
+        "id": "laksh",
+        "state": "PROPOSED_SHY_ONE_SIDED_INTEREST",
+        "notes": "Adult student 22; warm but reserved attention, contrasts Harsh's confidence. No approved romance/sex."
+      }
+    ],
+    "draftStorySequence": [
+      {
+        "phase": "BEFORE_COLLEGE",
+        "time": "06:05–08:20",
+        "setting": "Gulmohar Heights, Gurgaon",
+        "notes": "Home/family and Rohan walk cross-clock. Shivani not in park with Rohan during 06:20–06:37. Beats unapproved."
+      },
+      {
+        "phase": "COLLEGE",
+        "time": "08:45–15:45",
+        "setting": "Gurgaon college",
+        "notes": "Undergrad lecture, adult twin students, two female favorites, faculty colleague/AV support, campus event hook. Plot and dialogue pending user discussion."
+      },
+      {
+        "phase": "BACK_HOME",
+        "time": "16:15 onward",
+        "setting": "Gulmohar Heights",
+        "notes": "Rohan, Tara, Manav, Om and society contacts can recur with tracked transit; Om busy with Ankita parcel subplot 10:37–10:50 and 12:30–12:50."
+      }
+    ],
+    "theme": "Adult slow-burn erotica-flavored attraction may be discussed at plot-level without graphic scene mechanics; preserve teacher–student boundaries, consent, story causality and character agency.",
+    "discarded": "Former school winter-vacation all-home sequence and title, not approved."
   }
 }
