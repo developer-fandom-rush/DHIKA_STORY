@@ -21,7 +21,11 @@
       "home": "Malhotra household",
       "color": "#db4f83",
       "husband": "kabir",
-      "sourceStatus": "CURRENT_ATLAS"
+      "sourceStatus": "CURRENT_ATLAS",
+      "appearanceReference": "https://drive.google.com/file/d/1y5-YMWLqT1SV4qWD1nqxCu1PzwztUbQ6/view",
+      "fitness": "Daily 25–30 min brisk walk and mobility stretches at Gulmohar Heights park; group trainer Vivek Rao is recurring society contact.",
+      "dailyRoutine": "06:05 wake-up; 06:20–06:52 fitness; 07:03 breakfast; 07:19 getting ready; 08:05 company cab on 2026-01-01.",
+      "storyStatus": "EP02_WORKING_DRAFT"
     },
     {
       "id": "shivani",
@@ -73,7 +77,9 @@
       "group": "family",
       "house": "ankita",
       "sourceStatus": "CURRENT_ATLAS",
-      "notes": "Original new-universe Atlas roster, subject to user refinements"
+      "notes": "Original new-universe Atlas roster, subject to user refinements",
+      "residence": "Shared Gulmohar Heights family apartment.",
+      "storyStatus": "NEW_EP02_WORKING_DECISION"
     },
     {
       "id": "karan",
@@ -83,7 +89,11 @@
       "group": "family",
       "house": "ankita",
       "sourceStatus": "CURRENT_ATLAS",
-      "notes": "Original new-universe Atlas roster, subject to user refinements"
+      "notes": "Original new-universe Atlas roster, subject to user refinements",
+      "residence": "Lives with Kabir, Ankita, Rajeev and twin Aman in the shared Gulmohar Heights family apartment.",
+      "currentOccupation": "MBA/management entrance preparation; occasional freelance work.",
+      "personality": "Outgoing, talkative, playful, compliments Ankita openly.",
+      "storyStatus": "NEW_EP02_WORKING_DECISION"
     },
     {
       "id": "aman",
@@ -93,7 +103,11 @@
       "group": "family",
       "house": "ankita",
       "sourceStatus": "CURRENT_ATLAS",
-      "notes": "Original new-universe Atlas roster, subject to user refinements"
+      "notes": "Original new-universe Atlas roster, subject to user refinements",
+      "residence": "Lives with Kabir, Ankita, Rajeev and twin Karan in the shared Gulmohar Heights family apartment.",
+      "currentOccupation": "Preparing for Java/backend job interviews.",
+      "personality": "Reserved, observant, relies on Ankita for interview guidance.",
+      "storyStatus": "NEW_EP02_WORKING_DECISION"
     },
     {
       "id": "rajeev",
@@ -103,7 +117,9 @@
       "group": "family",
       "house": "ankita",
       "sourceStatus": "CURRENT_ATLAS",
-      "notes": "Original new-universe Atlas roster, subject to user refinements"
+      "notes": "Original new-universe Atlas roster, subject to user refinements",
+      "residence": "Shared Gulmohar Heights family apartment.",
+      "storyStatus": "NEW_EP02_WORKING_DECISION"
     },
     {
       "id": "rhea",
@@ -1013,7 +1029,10 @@
       "group": "society",
       "house": "shared",
       "sourceStatus": "USER_NAMED_EP02",
-      "notes": "From recent new-universe character discussion; not yet confirmed for on-page episodes."
+      "notes": "From recent new-universe character discussion; not yet confirmed for on-page episodes.",
+      "residence": "On duty at Gulmohar Heights society gate; home residence not established.",
+      "currentOccupation": "Society watchman, parcel-register custodian",
+      "storyStatus": "USER_DIRECTED"
     }
   ],
   "relations": [
@@ -2171,7 +2190,7 @@
         "karan",
         "aman"
       ],
-      "comment": "Karan & Aman are the only explicitly confirmed family twins."
+      "comment": "Karan and Aman are confirmed twins (22), both reside in the shared Ankita/Kabir/Rajeev home in the Jan 1 working draft; Karan MBA/freelancing, Aman Java interview preparation."
     },
     {
       "lead": "shivani",
@@ -2349,6 +2368,7 @@
     },
     "episodePlan": "episode-02-ankita-plan.json",
     "episodeReader": "episode-02-ankita.html",
-    "versionNote": "Updated after user established household residence, morning exercise, other husbands, gym-trainer appearance and 01 Jan 2026 office/parcel parallel timeline."
+    "versionNote": "Updated after user established household residence, morning exercise, other husbands, gym-trainer appearance and 01 Jan 2026 office/parcel parallel timeline.",
+    "referenceImage": "Society-Wives/assets/ankita-2026-01-01-morning.png"
   }
 }
