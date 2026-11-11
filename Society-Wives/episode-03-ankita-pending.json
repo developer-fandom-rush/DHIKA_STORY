@@ -1,0 +1,324 @@
+{
+  "id": "SW-EP03-ANKITA-DEFERRED-CONTINUATION",
+  "status": "PARKED_FOR_NEXT_EPISODE_UNAPPROVED",
+  "episode": "03",
+  "part": "Ankita continuation",
+  "title": "Ankita — Deferred Office and Return Home (Scene Archive)",
+  "subtitle": "Original seven scenes preserved verbatim at scene-record level; not yet assigned to final chronology",
+  "sourceEpisode": "SW-EP02-ANKITA-2026-01-01",
+  "sourcePath": "Society-Wives/episode-02-ankita-plan.json",
+  "originalDraftDate": "2026-01-01",
+  "dateStatus": "DATES_TIMES_PROVISIONAL_NOT_CANON",
+  "tz": "Asia/Kolkata",
+  "scope": "All original post-1 PM Ankita beats, moved intact from EP02 into a separate continuation draft. They are NOT approved as having occurred on January 1. Ankita remains at office at EP02 cutoff. Office-side adult encounters and any later return are to be rescheduled/decided in next episode.",
+  "originalStatus": "WORKING_DRAFT_USER_DIRECTED",
+  "continuityRules": [
+    "Keep all seven original draft scene records without deleting dialogue, action, internal thoughts or hooks.",
+    "EP02 is fixed to 2026-01-01 through 13:00. Ankita is still in Cyber City office at cutoff.",
+    "Postcutoff Ankita events have not occurred in EP02. Do not assert 17:30 homecoming or any later event as canon.",
+    "User will decide clothing/dressing sequence later; any styling in draft is a placeholder.",
+    "Additional office adults' planned sequences move to the next day as directed.",
+    "Original time stamps below are historical draft timestamps only and must be revisited before approval."
+  ],
+  "baseline": {
+    "ankita": "30, confident IT tech lead, maintains fitness through park mobility/yoga and walking; professional and approachable.",
+    "kabir": "Ankita's husband, playful affection and a supportive relationship.",
+    "rajeev": "Kabir's father; household elder; current Atlas has unreciprocated private attraction as proposal.",
+    "karan": "22, Kabir's younger twin brother, lives in the same family home; outgoing, preparing for MBA/management roles and freelances.",
+    "aman": "22, Karan's twin, lives in same family home; more reserved, preparing for Java/backend job interviews.",
+    "home": "Gulmohar Heights, Gurgaon; Ankita, Kabir, Rajeev, Karan, Aman share a home. This residency is newly established in this working draft.",
+    "work": "New Year's Day office on-call production-release support; holiday exception, not routine attendance.",
+    "commute": "Company carpool cab booked for 08:05; she is not driving herself today.",
+    "fitness": "She does 25–30 minutes of brisk walking and group mobility/stretching in the society park before work. No gym membership or personal trainer has been assumed; gym/PT can get an independent later arc."
+  },
+  "plotObject": {
+    "visual": "Six pink innerwear sets, one pink personal adult item and instruction leaflet in a private parcel",
+    "readerSecret": "Ankita and Kabir ordered together; do not reveal that reason to readers in EP02.",
+    "factualClarification": "An adult personal item does not mean a person is dissatisfied with their marriage. That belief is a false assumption by the intruding men.",
+    "distribution": "Six sets: Gopal 1, Mahendra 1, Om 1, Subhash 1, Mohan 1, Arvind 1. Rajeev receives the remaining parcel, personal item, paperwork and damaged packaging (zero sets remain).",
+    "propertyNote": "Each removal is unauthorized and independently concealed. None of the six has evidence of another's removal, though elders may know contents were exposed.",
+    "consent": "Opening, retaining items or exploiting private information are violations; they should not be framed as consensual seduction or evidence of Ankita's wishes."
+  },
+  "timeline": [
+    {
+      "id": "A11",
+      "start": "13:10",
+      "end": "13:25",
+      "lane": "OFFICE",
+      "where": "Ankita's desk",
+      "cast": [
+        "Ankita",
+        "Rajeev"
+      ],
+      "title": "The First Call About the Parcel",
+      "action": "Ankita notices a delayed delivery message. Rajeev confirms the package is with him; she asks why security gave it to the committee. He avoids specifics but agrees to give it to her when she returns.",
+      "dialogue": [
+        [
+          "Ankita",
+          "Papa, courier ka notification aaya. Gopal ne kisko de diya?"
+        ],
+        [
+          "Rajeev (phone)",
+          "Mere paas aa gaya hai beta. Main rakh deta hoon."
+        ],
+        [
+          "Ankita",
+          "Okay, but seal check kar lena. Main shaam ko dekhungi."
+        ]
+      ],
+      "herReaction": "Mildly puzzled, not yet aware her privacy has been invaded.",
+      "privateThought": "Rajeev realises her practical question may expose the handling chain.",
+      "hooks": [
+        "A recordable discrepancy: one request to Gopal, many unauthorized handoffs."
+      ]
+    },
+    {
+      "id": "A12",
+      "start": "15:05",
+      "end": "15:30",
+      "lane": "OFFICE",
+      "where": "Release wrap-up meeting",
+      "cast": [
+        "Ankita",
+        "Mr. Bhalla",
+        "Sandeep Khurana",
+        "Vivan",
+        "Reyansh"
+      ],
+      "title": "A Compliment at Sign-Off",
+      "action": "Sandeep authorises closure after tests pass. Mr. Bhalla praises Ankita's composure again. Vivan offers a light joke about making the holiday shift worth it. Ankita receives each comment differently and goes home without engaging in anything personal.",
+      "dialogue": [
+        [
+          "Sandeep Khurana",
+          "Deployment complete. Everyone can sign off."
+        ],
+        [
+          "Mr. Bhalla",
+          "Ankita, crisp leadership today."
+        ],
+        [
+          "Vivan",
+          "Happy New Year officially, then?"
+        ],
+        [
+          "Ankita",
+          "Officially, once the monitoring window ends."
+        ]
+      ],
+      "herReaction": "Proud of successful work; appreciates praise but knows it is not evidence of a relationship.",
+      "privateThought": "The office older man's private interest stays hidden and unacted on.",
+      "hooks": [
+        "Three distinct office male viewpoints: expressive junior, reserved colleague, senior consultant."
+      ]
+    },
+    {
+      "id": "A13",
+      "start": "17:30",
+      "end": "17:52",
+      "lane": "SOCIETY",
+      "where": "Gulmohar Heights gate / committee path",
+      "cast": [
+        "Ankita",
+        "Gopal",
+        "Mahendra Suri"
+      ],
+      "title": "Two Strange Offers of Help",
+      "action": "Ankita arrives back by cab. Gopal offers unusually personal help in a double-meaning manner; she treats the first remark as an awkward joke. Mahendra asks whether everything at home is fine, prompting her to wonder why two unrelated men have made strange comments.",
+      "dialogue": [
+        [
+          "Gopal",
+          "Madam, kuch bhi personal help chahiye ho toh bol dijiyega."
+        ],
+        [
+          "Ankita",
+          "Mujhe sirf parcel ki receipt chahiye, Gopal ji."
+        ],
+        [
+          "Mahendra Suri",
+          "Sab theek chal raha hai ghar par?"
+        ],
+        [
+          "Ankita",
+          "Ji, bilkul. Aap kyun pooch rahe hain?"
+        ],
+        [
+          "Mahendra Suri",
+          "Bas, New Year par sabka haal pooch raha tha."
+        ]
+      ],
+      "herReaction": "First comment dismissed; second raises suspicion. She does not flirt back.",
+      "privateThought": "Both men try to conceal their prior unauthorized actions.",
+      "hooks": [
+        "Two independent interactions cause Ankita to start connecting clues."
+      ]
+    },
+    {
+      "id": "A14",
+      "start": "18:00",
+      "end": "18:25",
+      "lane": "HOME",
+      "where": "Living room",
+      "cast": [
+        "Ankita",
+        "Rajeev",
+        "Karan",
+        "Aman"
+      ],
+      "title": "The Box at Home",
+      "action": "Rajeev hands over the visibly resealed package. Karan jokes about the endless New Year's parcels, and Aman notices a mismatch on the delivery timestamp without knowing the contents. Ankita does not open it in front of family.",
+      "dialogue": [
+        [
+          "Rajeev",
+          "Ye raha tumhara parcel. Seal thoda damaged tha."
+        ],
+        [
+          "Ankita",
+          "Kisne khola?"
+        ],
+        [
+          "Rajeev",
+          "Pata nahi. Chairman ke office se aaya."
+        ],
+        [
+          "Karan",
+          "Bhabhi, aaj toh sab online shopping kar rahe hain."
+        ],
+        [
+          "Aman",
+          "Delivery slip pe 10 baje ka time hai, lekin receipt late mark hui hai."
+        ],
+        [
+          "Ankita",
+          "Haan. Main register check karungi."
+        ]
+      ],
+      "herReaction": "Controlled irritation and growing concern about privacy, without public embarrassment.",
+      "privateThought": "The twins' casual presence is maintained; neither knows the contents from this scene.",
+      "hooks": [
+        "Aman can help trace digital delivery logs; Karan's social contacts can create a separate path."
+      ]
+    },
+    {
+      "id": "A15",
+      "start": "19:05",
+      "end": "19:32",
+      "lane": "HOME",
+      "where": "Dinner table",
+      "cast": [
+        "Ankita",
+        "Kabir",
+        "Rajeev",
+        "Karan",
+        "Aman"
+      ],
+      "title": "A Family That Does Not Know the Rumour",
+      "action": "They eat dinner. Kabir asks about the release; Karan jokes about fresh resolutions; Aman requests resume feedback. Rajeev hides how unsettling the elders' conversation was. Ankita remains warm with Kabir and the family.",
+      "dialogue": [
+        [
+          "Kabir",
+          "Release green?"
+        ],
+        [
+          "Ankita",
+          "Green. Dinner bhi bach gaya."
+        ],
+        [
+          "Karan",
+          "Ab meri New Year resolution: no missed walk tomorrow."
+        ],
+        [
+          "Ankita",
+          "I'm holding you to it."
+        ],
+        [
+          "Aman",
+          "Resume bhej diya hai."
+        ],
+        [
+          "Ankita",
+          "Dinner ke baad dekhenge."
+        ]
+      ],
+      "herReaction": "Affectionate and engaged; her privacy concern does not erase the warmth of her family.",
+      "privateThought": "Rajeev has not told anyone about the elders' inappropriate assumptions.",
+      "hooks": [
+        "The reader knows a rumor is forming despite a functional marriage."
+      ]
+    },
+    {
+      "id": "A16",
+      "start": "20:35",
+      "end": "21:05",
+      "lane": "HOME",
+      "where": "Private room / phone",
+      "cast": [
+        "Ankita"
+      ],
+      "title": "Inventory and the Missing Sets",
+      "action": "Ankita finally checks the parcel privately. She finds the seal broken and six clothing sets missing; the other contents remain. She saves the order screen, courier notification and delivery receipt and decides not to accuse anyone without evidence.",
+      "dialogue": [
+        [
+          "Ankita (to herself)",
+          "Six missing? This isn't a delivery mistake anymore."
+        ]
+      ],
+      "herReaction": "Surprised, angry and increasingly determined to trace what happened.",
+      "privateThought": "She does not reveal the joint purchase reason to the reader in this chapter; the missing sets are now a concrete mystery.",
+      "hooks": [
+        "Future investigation, security logs, Rajeev's testimony, and a possibility of social manipulation or attempted blackmail."
+      ]
+    },
+    {
+      "id": "A17",
+      "start": "21:15",
+      "end": "21:40",
+      "lane": "HOME",
+      "where": "Couple's bedroom",
+      "cast": [
+        "Ankita",
+        "Kabir"
+      ],
+      "title": "The Question Not Yet Answered",
+      "action": "Kabir returns to check on Ankita. She tells him the delivery was tampered with but does not explain every detail to the reader. He supports her decision to request CCTV and access logs. They exchange an affectionate reassurance.",
+      "dialogue": [
+        [
+          "Kabir",
+          "Tum itni quiet kyun ho?"
+        ],
+        [
+          "Ankita",
+          "Mera private parcel kisi ne khola, aur items missing hain."
+        ],
+        [
+          "Kabir",
+          "Then we ask for the delivery records. No guessing."
+        ],
+        [
+          "Ankita",
+          "Exactly. Kal subah pehle register."
+        ]
+      ],
+      "herReaction": "Trusts Kabir and acts to protect her privacy.",
+      "privateThought": "Their shared knowledge about the purchase remains unrevealed to the audience, reinforcing the falsehood of the elders' gossip.",
+      "hooks": [
+        "Episode 03 can begin with two opposing plans: Ankita's investigation versus the intruders' attempts to hide evidence."
+      ]
+    }
+  ],
+  "planningQuestions": [
+    "When will Ankita's office question and waiting beat resume in next episode?",
+    "Which next episode/day will contain the office wrap-up and adults' further scenes?",
+    "When should Ankita return home? Not yet established.",
+    "What final dressing choice does user approve? Still open."
+  ],
+  "continuity": {
+    "previousEpisode": "EP01 — Five Doors, Eleven Worlds; dates to be anchored separately as 2025-12-31 if continuity requires.",
+    "noSimultaneousPresence": "Ankita is at Cyber City from ~08:50 to 15:30 and not physically present for any parcel-office scenes between 09:55 and 12:50.",
+    "actorIndependence": "Four elders visit committee office sequentially; each secretly removes a set, unaware that others did likewise.",
+    "tally": "6 clothing sets initially; removals Gopal, Mahendra, Om, Subhash, Mohan, Arvind = 6; Rajeev receives 0 clothing sets plus remaining other contents.",
+    "sharedCast": "Sharmi has a brief 07:47 lobby interaction before Ankita's 08:05 departure, connecting the shared society friend without forcing her into parcel knowledge.",
+    "currentEpisodeCutoff": "2026-01-01 13:00",
+    "activeEpisode": "episode-02-ankita.html",
+    "note": "Seven postcutoff scenes are preserved with original draft times; none are active canon."
+  }
+}
