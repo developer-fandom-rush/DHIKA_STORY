@@ -38,6 +38,7 @@ jobs:
           assert all(Path(x).exists() for x in ('index.html','styles.css','app.js'))
           print('Verified 41 episodes, 10,450 paragraphs, 55 parts.')
           PY
+          python tests/validate_archive.py
 
       - name: Prepare static site
         shell: bash
