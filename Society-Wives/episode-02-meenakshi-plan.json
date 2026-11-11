@@ -211,6 +211,20 @@
       "approval": "WORKING_PLOT_UNAPPROVED",
       "notes": [
         "The two incidental workers remain unnamed; no new character record or relationship is invented."
+      ],
+      "incidentalRoles": [
+        {
+          "role": "Elderly ward attendant",
+          "age": null,
+          "identity": "Not named in user source",
+          "presence": "Unintended brief observation; withdrew"
+        },
+        {
+          "role": "Floor cleaner",
+          "age": null,
+          "identity": "Not named in user source",
+          "presence": "Unintended brief observation; withdrew"
+        }
       ]
     },
     {
