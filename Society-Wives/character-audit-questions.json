@@ -1,0 +1,252 @@
+{
+  "schemaVersion": "1.0",
+  "title": "Society Wives — Character Attraction & Relationship Audit",
+  "status": "DRAFT_QUESTIONS",
+  "scope": "Reusable for office worlds of Ankita, Shivani, Taniya, Meenakshi and Shreya. Start with Ankita.",
+  "questions": [
+    {
+      "id": "Q01",
+      "group": "Office setup",
+      "question": "Is she the only woman in her team, or who are the other female colleagues?"
+    },
+    {
+      "id": "Q02",
+      "group": "Office setup",
+      "question": "What is her exact job title, reporting line and daily team structure?"
+    },
+    {
+      "id": "Q03",
+      "group": "Office setup",
+      "question": "Who reports to her and who has authority over her?"
+    },
+    {
+      "id": "Q04",
+      "group": "Office setup",
+      "question": "Which colleagues are teammates, mentors, rivals or friends?"
+    },
+    {
+      "id": "Q05",
+      "group": "Office setup",
+      "question": "Which characters genuinely need a work reason to interact with her?"
+    },
+    {
+      "id": "Q06",
+      "group": "Look and presence",
+      "question": "Is she considered beautiful or striking in this fictional world, and by whom?"
+    },
+    {
+      "id": "Q07",
+      "group": "Look and presence",
+      "question": "What visible features stand out: face, hair, figure, bust, waist, hips, posture or saree styling?"
+    },
+    {
+      "id": "Q08",
+      "group": "Look and presence",
+      "question": "What office outfits and personal style choices fit her profession?"
+    },
+    {
+      "id": "Q09",
+      "group": "Look and presence",
+      "question": "Which qualities beyond looks make her attractive: confidence, humour, kindness or skill?"
+    },
+    {
+      "id": "Q10",
+      "group": "Look and presence",
+      "question": "Do different characters notice different aspects of her appearance and presence?"
+    },
+    {
+      "id": "Q11",
+      "group": "Male to female attraction",
+      "question": "Which adult men are physically attracted to her, and how strong is it?"
+    },
+    {
+      "id": "Q12",
+      "group": "Male to female attraction",
+      "question": "Which men have genuine romantic feelings rather than only an occasional attraction?"
+    },
+    {
+      "id": "Q13",
+      "group": "Male to female attraction",
+      "question": "Which men experience only a brief, one-time impression?"
+    },
+    {
+      "id": "Q14",
+      "group": "Male to female attraction",
+      "question": "Which men admire her professionally without romantic or sexual interest?"
+    },
+    {
+      "id": "Q15",
+      "group": "Male to female attraction",
+      "question": "What is each man's personal reason for being attracted to her?"
+    },
+    {
+      "id": "Q16",
+      "group": "Male to female attraction",
+      "question": "Is any attraction one-sided, secret, mistaken or mutually acknowledged?"
+    },
+    {
+      "id": "Q17",
+      "group": "Male to female attraction",
+      "question": "Does an attraction originate from office contact, society contact or a cross-house introduction?"
+    },
+    {
+      "id": "Q18",
+      "group": "Male to female attraction",
+      "question": "Has anyone acted on his feelings, or is everything still latent?"
+    },
+    {
+      "id": "Q19",
+      "group": "Female to male attraction",
+      "question": "Whom does she find physically attractive, and why?"
+    },
+    {
+      "id": "Q20",
+      "group": "Female to male attraction",
+      "question": "Whose personality or intellect might intrigue her romantically?"
+    },
+    {
+      "id": "Q21",
+      "group": "Female to male attraction",
+      "question": "Who is important to her but does not attract her?"
+    },
+    {
+      "id": "Q22",
+      "group": "Female to male attraction",
+      "question": "Can her interest change independently from a man's feelings?"
+    },
+    {
+      "id": "Q23",
+      "group": "Female to male attraction",
+      "question": "What would make her notice or reconsider a person without crossing boundaries?"
+    },
+    {
+      "id": "Q24",
+      "group": "Progression and mini-arcs",
+      "question": "What is the first believable interaction for every pair?"
+    },
+    {
+      "id": "Q25",
+      "group": "Progression and mini-arcs",
+      "question": "What is the first small crack: a compliment, private joke, gratitude or accidental misunderstanding?"
+    },
+    {
+      "id": "Q26",
+      "group": "Progression and mini-arcs",
+      "question": "How many ordinary encounters are needed before a potential romance feels earned?"
+    },
+    {
+      "id": "Q27",
+      "group": "Progression and mini-arcs",
+      "question": "What distinct mini-arc title and episode titles belong to each character pair?"
+    },
+    {
+      "id": "Q28",
+      "group": "Progression and mini-arcs",
+      "question": "What event could move a one-time impression into repeated curiosity?"
+    },
+    {
+      "id": "Q29",
+      "group": "Progression and mini-arcs",
+      "question": "What happens if the interest stays unrequited or fades?"
+    },
+    {
+      "id": "Q30",
+      "group": "Progression and mini-arcs",
+      "question": "How will other coworkers notice changes and what realistic workplace consequences might follow?"
+    },
+    {
+      "id": "Q31",
+      "group": "Continuity and boundaries",
+      "question": "How do work seniority, supervision and power differences constrain every romance?"
+    },
+    {
+      "id": "Q32",
+      "group": "Continuity and boundaries",
+      "question": "Is any contact unwanted, and how does she set or enforce a boundary?"
+    },
+    {
+      "id": "Q33",
+      "group": "Continuity and boundaries",
+      "question": "Where are the characters at the same time on the shared story calendar?"
+    },
+    {
+      "id": "Q34",
+      "group": "Continuity and boundaries",
+      "question": "Does a character's appearance in this episode match their approved prior timeline?"
+    },
+    {
+      "id": "Q35",
+      "group": "Continuity and boundaries",
+      "question": "What information is canon, user-approved draft, or an unapproved suggestion?"
+    },
+    {
+      "id": "Q36",
+      "group": "Continuity and boundaries",
+      "question": "Which relationships and scenes should remain purely professional?"
+    }
+  ],
+  "ankitaOfficeDraft": {
+    "status": "PROPOSED_NOT_APPROVED",
+    "femaleColleagues": [
+      {
+        "name": "Priya Nair",
+        "age": 29,
+        "role": "QA Lead; trusted office friend"
+      },
+      {
+        "name": "Aditi Shah",
+        "age": 26,
+        "role": "Business Analyst; outgoing and observant"
+      },
+      {
+        "name": "Ira Mehta",
+        "age": 32,
+        "role": "Product Designer; confident professional peer"
+      }
+    ],
+    "visualDesign": "Attractive adult IT lead, expressive eyes, warm smile, curvy figure with fuller bust, defined waist and rounded hips; elegant workwear and occasional sarees.",
+    "maleInterest": [
+      {
+        "name": "Rohit",
+        "type": "Young crush",
+        "why": "Appearance and encouraging mentorship",
+        "reciprocity": "not established"
+      },
+      {
+        "name": "Vivan",
+        "type": "Physical and potential romantic",
+        "why": "Style, intelligence and creativity",
+        "reciprocity": "Mild curiosity from Ankita proposed"
+      },
+      {
+        "name": "Reyansh",
+        "type": "Physical curiosity",
+        "why": "Looks and playful personality",
+        "reciprocity": "Not established"
+      },
+      {
+        "name": "Sandeep Khurana",
+        "type": "Subtle",
+        "why": "Maturity and leadership",
+        "reciprocity": "Not established"
+      },
+      {
+        "name": "Armaan Sethi",
+        "type": "Intellectual and possible romantic",
+        "why": "Independence and thoughtful discussions",
+        "reciprocity": "Intellectual fascination from Ankita proposed"
+      },
+      {
+        "name": "Mr. Bhalla",
+        "type": "Brief admiration",
+        "why": "Elegance and professional presence",
+        "reciprocity": "Not established"
+      }
+    ],
+    "ankitaInterests": [
+      "Vivan: mild creative and physical curiosity",
+      "Armaan Sethi: intellectual fascination, romance uncertain"
+    ],
+    "limits": "No boundaries crossed. Senior-junior power differences need explicit scrutiny. Existing atlas scores remain unchanged until user approval."
+  }
+}
