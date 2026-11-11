@@ -1,0 +1,319 @@
+{
+  "id": "SW-MEENAKSHI-CAST-BASELINE",
+  "status": "DIRECTORY-VERIFIED CAST ONLY — NO EPISODE PLOT",
+  "sourcePath": "Society-Wives/character-directory.json",
+  "sourceBlobSHA": "31abae77cae194174959060b516687f84778ed72",
+  "lead": {
+    "id": "meenakshi",
+    "name": "Meenakshi",
+    "role": "Doctor",
+    "age": 32,
+    "home": "Kapoor household",
+    "color": "#328f87",
+    "husband": "nikhil",
+    "sourceStatus": "CURRENT_ATLAS"
+  },
+  "family": [
+    {
+      "id": "nikhil",
+      "name": "Nikhil",
+      "age": 35,
+      "role": "Meenakshi’s husband",
+      "group": "family",
+      "house": "meenakshi",
+      "sourceStatus": "CURRENT_ATLAS",
+      "notes": "Original new-universe Atlas roster, subject to user refinements"
+    },
+    {
+      "id": "dev",
+      "name": "Dev",
+      "age": 24,
+      "role": "Meenakshi’s devar",
+      "group": "family",
+      "house": "meenakshi",
+      "sourceStatus": "CURRENT_ATLAS",
+      "notes": "Original new-universe Atlas roster, subject to user refinements"
+    },
+    {
+      "id": "ishita",
+      "name": "Ishita",
+      "age": 23,
+      "role": "Meenakshi’s younger sister",
+      "group": "family",
+      "house": "meenakshi",
+      "sourceStatus": "CURRENT_ATLAS",
+      "notes": "Original new-universe Atlas roster, subject to user refinements"
+    },
+    {
+      "id": "mohan",
+      "name": "Mohan",
+      "age": 64,
+      "role": "Meenakshi’s father-in-law",
+      "group": "family",
+      "house": "meenakshi",
+      "sourceStatus": "CURRENT_ATLAS",
+      "notes": "Original new-universe Atlas roster, subject to user refinements"
+    },
+    {
+      "id": "vihaan",
+      "name": "Vihaan",
+      "age": 1.5,
+      "role": "Meenakshi’s son · family-only",
+      "group": "family",
+      "house": "meenakshi",
+      "sourceStatus": "CURRENT_ATLAS",
+      "notes": "Original new-universe Atlas roster, subject to user refinements"
+    }
+  ],
+  "society": [
+    {
+      "id": "babloo",
+      "name": "Babloo",
+      "age": 23,
+      "role": "Society helper / pharmacy pickups",
+      "group": "society",
+      "house": "meenakshi",
+      "sourceStatus": "CURRENT_ATLAS",
+      "notes": "Original new-universe Atlas roster, subject to user refinements"
+    },
+    {
+      "id": "uday",
+      "name": "Uday",
+      "age": 24,
+      "role": "Wellness society pair · draft-only",
+      "group": "society",
+      "house": "meenakshi",
+      "sourceStatus": "CURRENT_ATLAS",
+      "notes": "Original new-universe Atlas roster, subject to user refinements"
+    },
+    {
+      "id": "utkarsh",
+      "name": "Utkarsh",
+      "age": 24,
+      "role": "Wellness society pair · draft-only",
+      "group": "society",
+      "house": "meenakshi",
+      "sourceStatus": "CURRENT_ATLAS",
+      "notes": "Original new-universe Atlas roster, subject to user refinements"
+    }
+  ],
+  "hospital": [
+    {
+      "id": "naveen",
+      "name": "Naveen",
+      "age": 22,
+      "role": "Hospital admin assistant",
+      "group": "office",
+      "house": "meenakshi",
+      "sourceStatus": "CURRENT_ATLAS",
+      "notes": "Original new-universe Atlas roster, subject to user refinements"
+    },
+    {
+      "id": "avi",
+      "name": "Avi",
+      "age": 24,
+      "role": "Hospital trainee duo · proposed",
+      "group": "office",
+      "house": "meenakshi",
+      "sourceStatus": "CURRENT_ATLAS",
+      "notes": "Original new-universe Atlas roster, subject to user refinements"
+    },
+    {
+      "id": "yash",
+      "name": "Yash",
+      "age": 24,
+      "role": "Hospital trainee duo · proposed",
+      "group": "office",
+      "house": "meenakshi",
+      "sourceStatus": "CURRENT_ATLAS",
+      "notes": "Original new-universe Atlas roster, subject to user refinements"
+    },
+    {
+      "id": "ritesh",
+      "name": "Dr. Ritesh Anand",
+      "age": 45,
+      "role": "Senior doctor",
+      "group": "office",
+      "house": "meenakshi",
+      "sourceStatus": "CURRENT_ATLAS",
+      "notes": "Original new-universe Atlas roster, subject to user refinements"
+    },
+    {
+      "id": "kunal",
+      "name": "Dr. Kunal Bedi",
+      "age": 52,
+      "role": "Hospital senior",
+      "group": "office",
+      "house": "meenakshi",
+      "sourceStatus": "CURRENT_ATLAS",
+      "notes": "Original new-universe Atlas roster, subject to user refinements"
+    },
+    {
+      "id": "khurana",
+      "name": "Dr. S. P. Khurana",
+      "age": 61,
+      "role": "Hospital chairman",
+      "group": "office",
+      "house": "meenakshi",
+      "sourceStatus": "CURRENT_ATLAS",
+      "notes": "Original new-universe Atlas roster, subject to user refinements"
+    },
+    {
+      "id": "meenakshi_woman_01",
+      "name": "Dr. Aditi",
+      "age": 24,
+      "role": "Junior Resident",
+      "group": "office",
+      "house": "meenakshi",
+      "sourceStatus": "PROPOSED",
+      "notes": "From recent new-universe character discussion; not yet confirmed for on-page episodes."
+    },
+    {
+      "id": "meenakshi_woman_02",
+      "name": "Rupa",
+      "age": 26,
+      "role": "Nurse",
+      "group": "office",
+      "house": "meenakshi",
+      "sourceStatus": "PROPOSED",
+      "notes": "From recent new-universe character discussion; not yet confirmed for on-page episodes."
+    },
+    {
+      "id": "meenakshi_woman_03",
+      "name": "Parnika",
+      "age": 32,
+      "role": "Hospital HR",
+      "group": "office",
+      "house": "meenakshi",
+      "sourceStatus": "PROPOSED",
+      "notes": "From recent new-universe character discussion; not yet confirmed for on-page episodes."
+    },
+    {
+      "id": "meenakshi_woman_04",
+      "name": "Dr. Leena",
+      "age": 39,
+      "role": "Senior Physician",
+      "group": "office",
+      "house": "meenakshi",
+      "sourceStatus": "PROPOSED",
+      "notes": "From recent new-universe character discussion; not yet confirmed for on-page episodes."
+    }
+  ],
+  "sharedRelationIds": [
+    "rajeev",
+    "kabir",
+    "rohan",
+    "karan"
+  ],
+  "relationships": [
+    {
+      "personId": "nikhil",
+      "kind": "family",
+      "sourceDescription": "Married and raising Vihaan together.",
+      "sourceState": "established"
+    },
+    {
+      "personId": "dev",
+      "kind": "family",
+      "sourceDescription": "Devar seeks health career guidance.",
+      "sourceState": "proposal"
+    },
+    {
+      "personId": "mohan",
+      "kind": "family",
+      "sourceDescription": "Father-in-law and family elder.",
+      "sourceState": "proposal"
+    },
+    {
+      "personId": "babloo",
+      "kind": "society",
+      "sourceDescription": "Society helper; errands and pharmacy pickups.",
+      "sourceState": "proposal"
+    },
+    {
+      "personId": "uday",
+      "kind": "society",
+      "sourceDescription": "Wellness society volunteer (draft-only pair).",
+      "sourceState": "proposal"
+    },
+    {
+      "personId": "utkarsh",
+      "kind": "society",
+      "sourceDescription": "Other society wellness volunteer (draft-only).",
+      "sourceState": "proposal"
+    },
+    {
+      "personId": "naveen",
+      "kind": "office",
+      "sourceDescription": "Hospital admin assistant coordinating shifts.",
+      "sourceState": "proposal"
+    },
+    {
+      "personId": "avi",
+      "kind": "office",
+      "sourceDescription": "Young hospital trainee (draft-only pair).",
+      "sourceState": "proposal"
+    },
+    {
+      "personId": "yash",
+      "kind": "office",
+      "sourceDescription": "Hospital trainee (draft-only pair).",
+      "sourceState": "proposal"
+    },
+    {
+      "personId": "ritesh",
+      "kind": "office",
+      "sourceDescription": "Senior doctor and recurring medical colleague.",
+      "sourceState": "proposal"
+    },
+    {
+      "personId": "kunal",
+      "kind": "office",
+      "sourceDescription": "Senior hospital colleague.",
+      "sourceState": "proposal"
+    },
+    {
+      "personId": "khurana",
+      "kind": "office",
+      "sourceDescription": "Hospital chairman attends reviews.",
+      "sourceState": "proposal"
+    },
+    {
+      "personId": "rajeev",
+      "kind": "cross",
+      "sourceDescription": "Ankita’s FIL; society welfare/health-camp work.",
+      "sourceState": "proposal"
+    },
+    {
+      "personId": "kabir",
+      "kind": "cross",
+      "sourceDescription": "Ankita’s husband and longtime group friend.",
+      "sourceState": "proposal"
+    },
+    {
+      "personId": "rohan",
+      "kind": "cross",
+      "sourceDescription": "Shivani’s husband; common family gatherings.",
+      "sourceState": "proposal"
+    },
+    {
+      "personId": "mahendra",
+      "kind": "society",
+      "sourceDescription": "Society chairman in health camp planning.",
+      "sourceState": "proposal"
+    },
+    {
+      "personId": "karan",
+      "kind": "cross",
+      "sourceDescription": "Visits with Ankita/Kabir during group events.",
+      "sourceState": "proposal"
+    }
+  ],
+  "rules": [
+    "Meenakshi's husband is Nikhil; father-in-law is Mohan; one adult devar Dev is not a twin.",
+    "Vihaan is a minor and family-only; no attraction or adult-intimacy routes.",
+    "Uday–Utkarsh are not canon-confirmed twins; Avi–Yash are a proposed hospital duo.",
+    "Proposed female hospital colleagues remain PROPOSED, not confirmed episode appearances.",
+    "No Meenakshi episode plot, dates, scenes or dialogue are invented in this baseline."
+  ]
+}
