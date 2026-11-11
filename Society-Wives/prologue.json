@@ -821,7 +821,10 @@
       "action": "Offers tea, jokes about deadlines.",
       "attendance": "Both present",
       "status": "PROPOSED_NOT_CONFIRMED",
-      "boundary": "No intimacy or boundary crossing"
+      "boundary": "No intimacy or boundary crossing",
+      "femaleReaction": "Ankita replies with playful affection; existing marriage, no new attraction arc.",
+      "fantasyTag": "NONE",
+      "storyEvidence": "This proposed EP00 scene only; not a claim about prior canon."
     },
     {
       "id": "L02",
@@ -836,7 +839,10 @@
       "action": "Playful teasing about car keys.",
       "attendance": "Both present",
       "status": "PROPOSED_NOT_CONFIRMED",
-      "boundary": "No intimacy or boundary crossing"
+      "boundary": "No intimacy or boundary crossing",
+      "femaleReaction": "Shivani jokes back; established, mutually affectionate marriage.",
+      "fantasyTag": "NONE",
+      "storyEvidence": "This proposed EP00 scene only; not a claim about prior canon."
     },
     {
       "id": "L03",
@@ -851,7 +857,10 @@
       "action": "Returns an event notice; no flirt.",
       "attendance": "Both present",
       "status": "PROPOSED_NOT_CONFIRMED",
-      "boundary": "No intimacy or boundary crossing"
+      "boundary": "No intimacy or boundary crossing",
+      "femaleReaction": "Shivani thanks Deepu for the work; no attraction implied.",
+      "fantasyTag": "NONE",
+      "storyEvidence": "This proposed EP00 scene only; not a claim about prior canon."
     },
     {
       "id": "L04",
@@ -866,7 +875,10 @@
       "action": "Playful call about wedding plans.",
       "attendance": "Phone call",
       "status": "PROPOSED_NOT_CONFIRMED",
-      "boundary": "No intimacy or boundary crossing"
+      "boundary": "No intimacy or boundary crossing",
+      "femaleReaction": "Taniya jokes with Aditya and remains enthusiastic about their engagement.",
+      "fantasyTag": "NONE",
+      "storyEvidence": "This proposed EP00 scene only; not a claim about prior canon."
     },
     {
       "id": "L05",
@@ -881,7 +893,10 @@
       "action": "Courier delivery, polite thanks.",
       "attendance": "Both present",
       "status": "PROPOSED_NOT_CONFIRMED",
-      "boundary": "No intimacy or boundary crossing"
+      "boundary": "No intimacy or boundary crossing",
+      "femaleReaction": "Taniya thanks Guddu and treats it as a courier task only.",
+      "fantasyTag": "NONE",
+      "storyEvidence": "This proposed EP00 scene only; not a claim about prior canon."
     },
     {
       "id": "L06",
@@ -896,7 +911,10 @@
       "action": "Breakfast and dinner planning.",
       "attendance": "Both present",
       "status": "PROPOSED_NOT_CONFIRMED",
-      "boundary": "No intimacy or boundary crossing"
+      "boundary": "No intimacy or boundary crossing",
+      "femaleReaction": "Meenakshi appreciates Nikhil's care; committed relationship.",
+      "fantasyTag": "NONE",
+      "storyEvidence": "This proposed EP00 scene only; not a claim about prior canon."
     },
     {
       "id": "L07",
@@ -911,7 +929,10 @@
       "action": "Pharmacy parcel confirmation.",
       "attendance": "Both present",
       "status": "PROPOSED_NOT_CONFIRMED",
-      "boundary": "No intimacy or boundary crossing"
+      "boundary": "No intimacy or boundary crossing",
+      "femaleReaction": "Meenakshi gives Babloo clear delivery instructions; no romance.",
+      "fantasyTag": "NONE",
+      "storyEvidence": "This proposed EP00 scene only; not a claim about prior canon."
     },
     {
       "id": "L08",
@@ -926,7 +947,10 @@
       "action": "Jokes about breakfast and duty.",
       "attendance": "Both present",
       "status": "PROPOSED_NOT_CONFIRMED",
-      "boundary": "No intimacy or boundary crossing"
+      "boundary": "No intimacy or boundary crossing",
+      "femaleReaction": "Shreya returns Vikram's joke and prioritises family.",
+      "fantasyTag": "NONE",
+      "storyEvidence": "This proposed EP00 scene only; not a claim about prior canon."
     },
     {
       "id": "L09",
@@ -941,7 +965,10 @@
       "action": "Gate register discussion.",
       "attendance": "Both present",
       "status": "PROPOSED_NOT_CONFIRMED",
-      "boundary": "No intimacy or boundary crossing"
+      "boundary": "No intimacy or boundary crossing",
+      "femaleReaction": "Shreya takes Chintu's report seriously; no flirtation.",
+      "fantasyTag": "NONE",
+      "storyEvidence": "This proposed EP00 scene only; not a claim about prior canon."
     },
     {
       "id": "L10",
@@ -956,7 +983,10 @@
       "action": "Compliments her presentation in a lightly flirtatious way.",
       "attendance": "Both present",
       "status": "PROPOSED_NOT_CONFIRMED",
-      "boundary": "No intimacy or boundary crossing"
+      "boundary": "No intimacy or boundary crossing",
+      "femaleReaction": "Ankita smiles but redirects Vivan to QA. She is mildly flattered and curious.",
+      "fantasyTag": "NONE",
+      "storyEvidence": "This proposed EP00 scene only; not a claim about prior canon."
     },
     {
       "id": "L11",
@@ -971,7 +1001,10 @@
       "action": "No expressed invitation; stays on technical work.",
       "attendance": "Both present; private thought unseen",
       "status": "PROPOSED_NOT_CONFIRMED",
-      "boundary": "No intimacy or boundary crossing"
+      "boundary": "No intimacy or boundary crossing",
+      "femaleReaction": "Ankita does not know Reyansh's private thought; no reaction or consent.",
+      "fantasyTag": "PRIVATE_THOUGHT",
+      "storyEvidence": "This proposed EP00 scene only; not a claim about prior canon."
     },
     {
       "id": "L12",
@@ -986,7 +1019,10 @@
       "action": "Support work in the office, no sexual talk.",
       "attendance": "Offstage supporting role",
       "status": "PROPOSED_NOT_CONFIRMED",
-      "boundary": "No intimacy or boundary crossing"
+      "boundary": "No intimacy or boundary crossing",
+      "femaleReaction": "Ankita treats Rohit as a junior teammate; no romantic response.",
+      "fantasyTag": "NONE",
+      "storyEvidence": "This proposed EP00 scene only; not a claim about prior canon."
     },
     {
       "id": "L13",
@@ -1001,7 +1037,10 @@
       "action": "Keeps meeting focused; playful response.",
       "attendance": "Both present",
       "status": "PROPOSED_NOT_CONFIRMED",
-      "boundary": "No intimacy or boundary crossing"
+      "boundary": "No intimacy or boundary crossing",
+      "femaleReaction": "Ankita finds Vivan creative and engaging; keeps professional limits.",
+      "fantasyTag": "NONE",
+      "storyEvidence": "This proposed EP00 scene only; not a claim about prior canon."
     },
     {
       "id": "L14",
@@ -1016,7 +1055,10 @@
       "action": "Compliments her problem solving.",
       "attendance": "Both present",
       "status": "PROPOSED_NOT_CONFIRMED",
-      "boundary": "No intimacy or boundary crossing"
+      "boundary": "No intimacy or boundary crossing",
+      "femaleReaction": "Shivani laughs at Harsh's praise, then returns to the rehearsal; she has no romantic plans.",
+      "fantasyTag": "NONE",
+      "storyEvidence": "This proposed EP00 scene only; not a claim about prior canon."
     },
     {
       "id": "L15",
@@ -1031,7 +1073,10 @@
       "action": "Moves the projector, no flirt.",
       "attendance": "Both present",
       "status": "PROPOSED_NOT_CONFIRMED",
-      "boundary": "No intimacy or boundary crossing"
+      "boundary": "No intimacy or boundary crossing",
+      "femaleReaction": "Shivani thanks Laksh for safe technical help; no attraction inferred.",
+      "fantasyTag": "NONE",
+      "storyEvidence": "This proposed EP00 scene only; not a claim about prior canon."
     },
     {
       "id": "L16",
@@ -1046,7 +1091,10 @@
       "action": "A playful coffee wager.",
       "attendance": "Both present",
       "status": "PROPOSED_NOT_CONFIRMED",
-      "boundary": "No intimacy or boundary crossing"
+      "boundary": "No intimacy or boundary crossing",
+      "femaleReaction": "Taniya jokes back about coffee. She likes Raghav's wit but does not invite him privately.",
+      "fantasyTag": "NONE",
+      "storyEvidence": "This proposed EP00 scene only; not a claim about prior canon."
     },
     {
       "id": "L17",
@@ -1061,7 +1109,10 @@
       "action": "Laughs at the accounting joke; no proposal.",
       "attendance": "Both present; private thought unseen",
       "status": "PROPOSED_NOT_CONFIRMED",
-      "boundary": "No intimacy or boundary crossing"
+      "boundary": "No intimacy or boundary crossing",
+      "femaleReaction": "Taniya is unaware of Chirag's one-night wish and feels no reciprocal short-term interest.",
+      "fantasyTag": "PRIVATE_THOUGHT",
+      "storyEvidence": "This proposed EP00 scene only; not a claim about prior canon."
     },
     {
       "id": "L18",
@@ -1076,7 +1127,10 @@
       "action": "Accepts the banter; no personal invitation.",
       "attendance": "Both present",
       "status": "PROPOSED_NOT_CONFIRMED",
-      "boundary": "No intimacy or boundary crossing"
+      "boundary": "No intimacy or boundary crossing",
+      "femaleReaction": "Taniya enjoys the challenge and keeps the discussion inside the team.",
+      "fantasyTag": "NONE",
+      "storyEvidence": "This proposed EP00 scene only; not a claim about prior canon."
     },
     {
       "id": "L19",
@@ -1091,7 +1145,10 @@
       "action": "Explicitly praises her decision.",
       "attendance": "Both present",
       "status": "PROPOSED_NOT_CONFIRMED",
-      "boundary": "No intimacy or boundary crossing"
+      "boundary": "No intimacy or boundary crossing",
+      "femaleReaction": "Meenakshi accepts the compliment but credits Rupa and the team; some intellectual curiosity.",
+      "fantasyTag": "NONE",
+      "storyEvidence": "This proposed EP00 scene only; not a claim about prior canon."
     },
     {
       "id": "L20",
@@ -1106,7 +1163,10 @@
       "action": "Processes paperwork.",
       "attendance": "Both present",
       "status": "PROPOSED_NOT_CONFIRMED",
-      "boundary": "No intimacy or boundary crossing"
+      "boundary": "No intimacy or boundary crossing",
+      "femaleReaction": "Meenakshi sees Naveen as a reliable administrator and is unaware of any crush.",
+      "fantasyTag": "NONE",
+      "storyEvidence": "This proposed EP00 scene only; not a claim about prior canon."
     },
     {
       "id": "L21",
@@ -1121,7 +1181,10 @@
       "action": "Praises correct procedural choice.",
       "attendance": "Both present",
       "status": "PROPOSED_NOT_CONFIRMED",
-      "boundary": "No intimacy or boundary crossing"
+      "boundary": "No intimacy or boundary crossing",
+      "femaleReaction": "Shreya acknowledges Chauhan's support as professional respect, not an invitation.",
+      "fantasyTag": "NONE",
+      "storyEvidence": "This proposed EP00 scene only; not a claim about prior canon."
     },
     {
       "id": "L22",
@@ -1136,7 +1199,10 @@
       "action": "Attaches reports.",
       "attendance": "Both present",
       "status": "PROPOSED_NOT_CONFIRMED",
-      "boundary": "No intimacy or boundary crossing"
+      "boundary": "No intimacy or boundary crossing",
+      "femaleReaction": "Shreya gives Javed clear instructions; no romantic response.",
+      "fantasyTag": "NONE",
+      "storyEvidence": "This proposed EP00 scene only; not a claim about prior canon."
     },
     {
       "id": "L23",
@@ -1151,7 +1217,10 @@
       "action": "Smiles privately after he leaves.",
       "attendance": "Female alone after the exchange",
       "status": "PROPOSED_NOT_CONFIRMED",
-      "boundary": "No intimacy or boundary crossing"
+      "boundary": "No intimacy or boundary crossing",
+      "femaleReaction": "Ankita smiles after Vivan leaves, but assigns no definite meaning to it.",
+      "fantasyTag": "NONE",
+      "storyEvidence": "This proposed EP00 scene only; not a claim about prior canon."
     },
     {
       "id": "L24",
@@ -1166,7 +1235,10 @@
       "action": "A brief glance, no approach.",
       "attendance": "Both in courtyard; target unaware",
       "status": "PROPOSED_NOT_CONFIRMED",
-      "boundary": "No intimacy or boundary crossing"
+      "boundary": "No intimacy or boundary crossing",
+      "femaleReaction": "Shivani does not notice Rajeev's private glance; no reciprocal interest.",
+      "fantasyTag": "NONE",
+      "storyEvidence": "This proposed EP00 scene only; not a claim about prior canon."
     },
     {
       "id": "L25",
@@ -1181,7 +1253,10 @@
       "action": "A neutral compliment to the committee.",
       "attendance": "Both present; thought private",
       "status": "PROPOSED_NOT_CONFIRMED",
-      "boundary": "No intimacy or boundary crossing"
+      "boundary": "No intimacy or boundary crossing",
+      "femaleReaction": "Ankita takes Rahul's comment as friendly society banter and knows nothing of his private curiosity.",
+      "fantasyTag": "PRIVATE_THOUGHT",
+      "storyEvidence": "This proposed EP00 scene only; not a claim about prior canon."
     },
     {
       "id": "L26",
@@ -1196,7 +1271,10 @@
       "action": "Assigns committee roles.",
       "attendance": "Shared event",
       "status": "PROPOSED_NOT_CONFIRMED",
-      "boundary": "No intimacy or boundary crossing"
+      "boundary": "No intimacy or boundary crossing",
+      "femaleReaction": "All five women cooperate on a society task; no romance implied.",
+      "fantasyTag": "NONE",
+      "storyEvidence": "This proposed EP00 scene only; not a claim about prior canon."
     },
     {
       "id": "L27",
@@ -1211,7 +1289,10 @@
       "action": "Playful committee banter.",
       "attendance": "Shared event",
       "status": "PROPOSED_NOT_CONFIRMED",
-      "boundary": "No intimacy or boundary crossing"
+      "boundary": "No intimacy or boundary crossing",
+      "femaleReaction": "All five enjoy Sharmi's friendship; no sexual or romantic inference.",
+      "fantasyTag": "NONE",
+      "storyEvidence": "This proposed EP00 scene only; not a claim about prior canon."
     },
     {
       "id": "L28",
@@ -1226,7 +1307,10 @@
       "action": "No message, no action.",
       "attendance": "Vivan absent",
       "status": "PROPOSED_NOT_CONFIRMED",
-      "boundary": "No intimacy or boundary crossing"
+      "boundary": "No intimacy or boundary crossing",
+      "femaleReaction": "Ankita remembers Vivan's joke briefly; no message or action.",
+      "fantasyTag": "NONE",
+      "storyEvidence": "This proposed EP00 scene only; not a claim about prior canon."
     },
     {
       "id": "L29",
@@ -1241,7 +1325,10 @@
       "action": "Mentions his school joke to Rohan.",
       "attendance": "Harsh absent",
       "status": "PROPOSED_NOT_CONFIRMED",
-      "boundary": "No intimacy or boundary crossing"
+      "boundary": "No intimacy or boundary crossing",
+      "femaleReaction": "Shivani mentions Harsh's school humour to Rohan; no relationship develops.",
+      "fantasyTag": "NONE",
+      "storyEvidence": "This proposed EP00 scene only; not a claim about prior canon."
     },
     {
       "id": "L30",
@@ -1256,7 +1343,10 @@
       "action": "Reads group chat, no private invitation.",
       "attendance": "Raghav absent",
       "status": "PROPOSED_NOT_CONFIRMED",
-      "boundary": "No intimacy or boundary crossing"
+      "boundary": "No intimacy or boundary crossing",
+      "femaleReaction": "Taniya remembers Raghav's challenge, but the coffee wager stays within the group.",
+      "fantasyTag": "NONE",
+      "storyEvidence": "This proposed EP00 scene only; not a claim about prior canon."
     },
     {
       "id": "L31",
@@ -1271,7 +1361,10 @@
       "action": "Describes shift to Nikhil.",
       "attendance": "Ritesh absent",
       "status": "PROPOSED_NOT_CONFIRMED",
-      "boundary": "No intimacy or boundary crossing"
+      "boundary": "No intimacy or boundary crossing",
+      "femaleReaction": "Meenakshi values professional appreciation and speaks openly with Nikhil.",
+      "fantasyTag": "NONE",
+      "storyEvidence": "This proposed EP00 scene only; not a claim about prior canon."
     },
     {
       "id": "L32",
@@ -1286,7 +1379,10 @@
       "action": "No personal action.",
       "attendance": "Chauhan absent",
       "status": "PROPOSED_NOT_CONFIRMED",
-      "boundary": "No intimacy or boundary crossing"
+      "boundary": "No intimacy or boundary crossing",
+      "femaleReaction": "Shreya thinks about the work decision, then returns her attention to Vikram and Anaya.",
+      "fantasyTag": "NONE",
+      "storyEvidence": "This proposed EP00 scene only; not a claim about prior canon."
     }
   ],
   "metadata": {
@@ -1300,7 +1396,8 @@
       "Male private fantasy is a narrative thought, not consent or reciprocal attraction.",
       "No explicit sexual descriptions. No intimate or non-consensual actions occur in this prologue.",
       "All younger adults are 18+; children remain family-only.",
-      "Prologue anchors only first impressions; future events require separate episode approval."
+      "Prologue anchors only first impressions; future events require separate episode approval.",
+      "Ledger intentionally separates attraction from affection, friendship and work respect; private wish does not indicate another person's consent."
     ]
   }
 }
