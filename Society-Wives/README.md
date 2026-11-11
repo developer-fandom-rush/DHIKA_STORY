@@ -35,6 +35,19 @@ These are **11 narrative lanes**, not eleven predetermined romances.
 - Children appear in family contexts only, never attraction routes.
 - Existing archived Drive or GitHub originals have **not been physically deleted**; this project's canon simply excludes them.
 
+## Unified Episode 02 workspace (1 January 2026)
+
+**Primary UI:** `episode-02.html` (also the destination of `index.html`).
+
+- Ankita (IT), Shivani (college), Taniya (CA) and Soniya (home/gym) share one chronological event feed with character and location filters. Each source's approval status is preserved; scenes and dialogue are not silently rewritten.
+- **All characters** from the existing five-household directory can be searched and filtered in the same page; Soniya remains a separate supporting lead associated with Taniya's household.
+- Reader knowledge, character knowledge, consent and garment ownership have their own non-graphic views.
+- Original relationship-graph UI is preserved as `relationship-atlas.html`; the old EP02 single-character pages remain source snapshots with a link to the unified page.
+- User-identified gym portraits are `assets/soniya-2026-01-01-gym-portrait.svg` (first supplied image) and `assets/taniya-2026-01-01-gym-portrait.svg` (second supplied image). They embed compact thumbnails of the supplied images, not generated replacement faces.
+- **Ankita EP03 is deliberately separate and untouched:** `episode-03-ankita-pending.html` and `episode-03-ankita-pending.json`. No Ankita post-13:00 scene has been moved into EP02.
+- Inputs retained as source data: `episode-02-ankita-plan.json`, `episode-02-shivani-plan.json`, `episode-02-taniya-soniya-plan.json`, `character-directory.json`. The Meenakshi cast-only record is `meenakshi-cast-baseline.json`; no episode plot for her was written.
+- Proposed transfers between the society flat and committee office remain flagged as tight but plausible; no new overlaps are introduced.
+
 ## New-universe Episode 01
 
 **Title:** Five Doors, Eleven Worlds
