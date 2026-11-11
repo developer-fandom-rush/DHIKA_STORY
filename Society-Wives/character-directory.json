@@ -2259,10 +2259,10 @@
   "planning": {
     "id": "ANKITA_EP02_PARCEL",
     "title": "The Little Pink Lace Secrets",
-    "status": "USER_DIRECTED_PLOT_NOT_YET_EPISODE_CANON",
-    "when": "After Ankita leaves for work; all parcel transfers are within the society, not her office",
+    "status": "USER_DIRECTED_SCENE_ARCHITECTURE_WITH_WORKING_DETAILS",
+    "when": "Thursday 2026-01-01, after Ankita's 08:05 departure, while she is in the Cyber City office",
     "contents": {
-      "setsOfPinkInnerwear": "5–6 sets (user-confirmed approximate quantity)",
+      "setsOfPinkInnerwear": "6 pink innerwear sets chosen to satisfy six private removals",
       "adultPersonalItem": "One pink adult personal item, plus instructions, from the user-approved plot",
       "orderReason": "Ankita and Kabir chose it together; keep this hidden from the reader initially"
     },
@@ -2270,50 +2270,66 @@
       {
         "id": "P1",
         "holder": "gopal",
-        "action": "Receives the private parcel at the society gate, opens it without permission, retains one set",
-        "knowledge": "Private contents seen; he draws an unfounded conclusion about Ankita's marriage",
-        "reaction": "Personal fantasy / uninvited sexual speculation",
-        "presence": "Ankita absent, at work"
+        "action": "Guard receives Ankita's delivery, unauthorized opening and one set secretly retained.",
+        "knowledge": "Private contents seen; wrongly speculates about marital dissatisfaction.",
+        "reaction": "Hidden sexualized curiosity (non-graphic tag); later insinuating remarks.",
+        "presence": "Ankita at office"
       },
       {
         "id": "P2",
         "holder": "mahendra",
-        "action": "Receives opened parcel from Gopal and retains one set",
-        "knowledge": "Sees private contents and interprets them without context",
-        "reaction": "Private attraction and false assumption",
-        "presence": "Ankita absent, at work"
+        "action": "Chairman receives damaged parcel; privately retains one set.",
+        "knowledge": "Misinterprets private order and conceals unauthorized handling.",
+        "reaction": "Private interest/false conclusion; later asks personal questions.",
+        "presence": "Ankita at office"
       },
       {
         "id": "P3",
-        "holder": "other FILs",
-        "action": "Parcel passes to other fathers-in-law; each selected participant retains one set, with count requiring reconciliation",
-        "knowledge": "They share versions of the same unfounded assumption",
-        "reaction": "Private sexual curiosity, one-sided; no reciprocal interest known",
-        "presence": "Ankita absent, at work"
+        "holder": "om",
+        "action": "Comes to committee office for visitor log; secretly retains one set while alone.",
+        "knowledge": "Knows parcel private; other elders don't know of his removal.",
+        "reaction": "New inappropriate one-sided interest; unspoken.",
+        "presence": "Ankita at office"
       },
       {
         "id": "P4",
-        "holder": "rajeev",
-        "action": "Receives remainder; other elders ask whether Kabir and Ankita's marriage is going well",
-        "knowledge": "He hears speculation; does not know the actual reason for the order",
-        "reaction": "Doubt and existing one-sided attraction coexist",
-        "presence": "Ankita absent, at work"
+        "holder": "subhash",
+        "action": "Comes for society accounting paperwork; secretly retains one set.",
+        "knowledge": "Conceals his removal from all others.",
+        "reaction": "False inference and private attraction; unspoken.",
+        "presence": "Ankita at office"
       },
       {
         "id": "P5",
-        "holder": "mahendra",
-        "action": "Follow-up transfer/discussion through Mahendra as stated by user; exact physical custody after Rajeev is not yet resolved",
-        "knowledge": "His opinion may change with new information",
-        "reaction": "Later curiosity noted by user; the subject of 'he' is to be confirmed",
-        "presence": "Ankita absent until she contacts the society"
+        "holder": "mohan",
+        "action": "Community health-camp paperwork visit; secretly retains one set.",
+        "knowledge": "Conceals unauthorized removal.",
+        "reaction": "Private interest; no consent or relationship.",
+        "presence": "Ankita at office"
       },
       {
         "id": "P6",
-        "holder": "ankita",
-        "action": "Informed about delayed parcel; later approaches men and encounters double-meaning comments or overly personal questions",
-        "knowledge": "She does not know all parcel handlers or what they retained",
-        "reaction": "She may dismiss first remark as a joke, then grow suspicious",
-        "presence": "Ankita present for these later conversations"
+        "holder": "arvind",
+        "action": "Maintenance-notice visit; secretly retains sixth/final innerwear set.",
+        "knowledge": "Unaware others have done the same.",
+        "reaction": "Private inappropriate attraction; future encounter seed.",
+        "presence": "Ankita at office"
+      },
+      {
+        "id": "P7",
+        "holder": "rajeev",
+        "action": "Collects damaged parcel containing remaining private item and paperwork; four elders and Mahendra question whether Kabir-Ankita marriage is fine.",
+        "knowledge": "Already privately interested; cannot legitimately infer anything about her marriage.",
+        "reaction": "Doubt and information withholding; her awareness absent.",
+        "presence": "Ankita at office"
+      },
+      {
+        "id": "P8",
+        "holder": "mahendra",
+        "action": "Later follow-up to Rajeev and overly personal question to Ankita when she returns.",
+        "knowledge": "His private action remains hidden.",
+        "reaction": "Attempt to exploit false belief; Ankita grows suspicious.",
+        "presence": "Ankita back in society"
       }
     ],
     "userRules": [
@@ -2325,13 +2341,14 @@
       "Final chapter and any physical action remain unapproved until discussed"
     ],
     "continuityIssue": {
-      "description": "With 5–6 innerwear sets, Gopal retains 1, Mahendra retains 1, and four other FILs retain 1 each: that consumes 6 sets before Rajeev. To leave one for Rajeev, either at least 7 sets are needed or fewer than four other FILs can retain sets.",
+      "description": "Working resolution: exactly six sets, all six secretly removed; Rajeev receives zero clothing sets, but the remaining item and paperwork are in the parcel. This solves the quantity tally without changing the six-men sequence. Still requires user approval for final prose.",
       "options": [
-        "A: Keep 6 sets: Gopal 1 + Mahendra 1 + 3 other FILs 1 each + Rajeev receives 1. Fourth other FIL can see parcel but not retain a set.",
-        "B: Keep 7 sets: Gopal 1 + Mahendra 1 + all 4 other FILs 1 each + Rajeev receives 1.",
-        "C: Keep 5 sets: Gopal 1 + Mahendra 1 + 2 other FILs 1 each + Rajeev receives 1."
+        "Working count: 6 sets consumed (Gopal, Mahendra, Om, Subhash, Mohan, Arvind), 0 remaining for Rajeev"
       ],
-      "decision": "UNRESOLVED_CHOOSE_BEFORE_FINAL_SCENE_TIMELINE"
-    }
+      "decision": "WORKING_RESOLUTION_NOT_YET_USER_APPROVED"
+    },
+    "episodePlan": "episode-02-ankita-plan.json",
+    "episodeReader": "episode-02-ankita.html",
+    "versionNote": "Updated after user established household residence, morning exercise, other husbands, gym-trainer appearance and 01 Jan 2026 office/parcel parallel timeline."
   }
 }
