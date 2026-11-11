@@ -11,7 +11,8 @@
     ],
     "excluded": "Old Society_Story Drive/archive canon is excluded. Dhika only a storytelling analogy.",
     "changePolicy": "Never silently turn a proposal into a locked relationship, add a twin relationship, change relatives, or bypass direct user corrections. Flag actual continuity conflicts and get user decision.",
-    "lastCorrection": "2026-11-12: Meenakshi EP02 working plot supplied; Uday–Utkarsh confirmed twins/flirtation, Mohan one-sided interest, Aditi/Rupa/Leena existing hospital staff. Plot incidents remain unapproved; earlier Ankita/Shivani/Taniya/Soniya canon preserved."
+    "lastCorrection": "2026-11-12: Meenakshi EP02 working plot supplied; Uday–Utkarsh confirmed twins/flirtation, Mohan one-sided interest, Aditi/Rupa/Leena existing hospital staff. Plot incidents remain unapproved; earlier Ankita/Shivani/Taniya/Soniya canon preserved.",
+    "shreyaCorrection": "2026-11-12: Shruti (23) replaces prior Naina sister record, Shreya 33 Police Inspector, Samar/Shaan 24 twins. EP02 working plot published to common UI, cutoff 13:15 station; no final prose."
   },
   "leads": [
     {
@@ -80,7 +81,12 @@
       "home": "Rathore household",
       "color": "#6c77c9",
       "husband": "vikram",
-      "sourceStatus": "CURRENT_ATLAS"
+      "sourceStatus": "CURRENT_ATLAS",
+      "episode02Title": "The Inspector's Red Sports Bra & the Cellblock Bet",
+      "episode02Status": "USER_ACCEPTED_WORKING_PLOT_STOPS_1315",
+      "portraitSource": "Saved Shreya face reference only; three existing generated 2026-01-01 illustrations uploaded to project Drive folder",
+      "sister": "shruti",
+      "sisterImageStatus": "USER_TO_SUPPLY_LATER"
     }
   ],
   "people": [
@@ -319,14 +325,14 @@
       "notes": "Original new-universe Atlas roster, subject to user refinements"
     },
     {
-      "id": "naina",
-      "name": "Naina",
+      "id": "shruti",
+      "name": "Shruti",
       "age": 23,
-      "role": "Shreya’s sister",
+      "role": "Shreya’s younger sister",
       "group": "family",
       "house": "shreya",
-      "sourceStatus": "CURRENT_ATLAS",
-      "notes": "Original new-universe Atlas roster, subject to user refinements"
+      "sourceStatus": "USER_CONFIRMED_NAME_2026_11_12",
+      "notes": "Name corrected by user: Shruti, not Naina. Portrait will be supplied later; do not invent or substitute her face."
     },
     {
       "id": "arvind",
@@ -448,21 +454,21 @@
       "id": "samar",
       "name": "Samar",
       "age": 24,
-      "role": "Society sports pair · draft-only",
+      "role": "Society sports pair · Shreya twin",
       "group": "society",
       "house": "shreya",
       "sourceStatus": "CURRENT_ATLAS",
-      "notes": "Original new-universe Atlas roster, subject to user refinements"
+      "notes": "24-year-old confirmed twin brother in Shreya's society fitness scene. Interests tentative; no mutual relationship approved."
     },
     {
       "id": "shaan",
       "name": "Shaan",
       "age": 24,
-      "role": "Society sports pair · draft-only",
+      "role": "Society sports pair · Shreya twin",
       "group": "society",
       "house": "shreya",
       "sourceStatus": "CURRENT_ATLAS",
-      "notes": "Original new-universe Atlas roster, subject to user refinements"
+      "notes": "24-year-old confirmed twin brother in Shreya's society fitness scene. Interests tentative; no mutual relationship approved."
     },
     {
       "id": "mahendra",
@@ -2212,15 +2218,15 @@
     },
     {
       "id": "pair04",
-      "label": "Samar & Shaan",
+      "label": "Samar & Shaan — society sports twins",
       "people": [
         "samar",
         "shaan"
       ],
       "house": "shreya",
       "lane": "society",
-      "classification": "PAIR_TWINS_UNCONFIRMED",
-      "reason": "Sports pair; twin relationship not confirmed"
+      "classification": "CONFIRMED_TWINS",
+      "reason": "Shreya storyline's adult sports twin pair, age 24; user accepted working twin setup."
     },
     {
       "id": "pair05",
