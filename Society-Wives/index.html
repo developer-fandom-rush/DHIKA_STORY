@@ -26,7 +26,7 @@
     {
       "id": "shivani",
       "name": "Shivani",
-      "role": "Teacher",
+      "role": "College Lecturer (Adults 18+)",
       "age": 31,
       "home": "Ahuja household",
       "color": "#d38a58",
@@ -433,31 +433,31 @@
       "id": "sunny",
       "name": "Sunny",
       "age": 22,
-      "role": "School office/lab assistant",
+      "role": "College AV/academic office assistant",
       "group": "office",
       "house": "shivani"
     },
     {
       "id": "harsh",
       "name": "Harsh",
-      "age": 24,
-      "role": "School coaching/admin duo · proposed",
-      "group": "office",
+      "age": 22,
+      "role": "Favorite college undergraduate student · expressive twin of Laksh",
+      "group": "college-student",
       "house": "shivani"
     },
     {
       "id": "laksh",
       "name": "Laksh",
-      "age": 24,
-      "role": "School coaching/admin duo · proposed",
-      "group": "office",
+      "age": 22,
+      "role": "Favorite college undergraduate student · shy twin of Harsh",
+      "group": "college-student",
       "house": "shivani"
     },
     {
       "id": "dheeraj",
       "name": "Dheeraj",
       "age": 52,
-      "role": "School principal",
+      "role": "College principal",
       "group": "office",
       "house": "shivani"
     },
@@ -465,7 +465,7 @@
       "id": "nitin",
       "name": "Nitin",
       "age": 46,
-      "role": "School vice principal",
+      "role": "College vice principal / academic dean",
       "group": "office",
       "house": "shivani"
     },
@@ -473,7 +473,7 @@
       "id": "trustee",
       "name": "Trustee Malhotra",
       "age": 60,
-      "role": "School trustee",
+      "role": "College trustee",
       "group": "office",
       "house": "shivani"
     },
@@ -620,6 +620,30 @@
       "role": "Senior police official",
       "group": "office",
       "house": "shreya"
+    },
+    {
+      "id": "shivani_student_nandini",
+      "name": "Nandini",
+      "age": 22,
+      "role": "Female undergraduate student · favorite class representative",
+      "group": "college-student",
+      "house": "shivani"
+    },
+    {
+      "id": "shivani_student_ritika",
+      "name": "Ritika",
+      "age": 22,
+      "role": "Female undergraduate student · witty favorite",
+      "group": "college-student",
+      "house": "shivani"
+    },
+    {
+      "id": "shivani_student_arjun",
+      "name": "Arjun Mehta",
+      "age": 23,
+      "role": "Adult undergraduate student · campus events",
+      "group": "college-student",
+      "house": "shivani"
     }
   ],
   "relationships": [
@@ -926,7 +950,7 @@
       "fromWoman": 0,
       "fromMan": 1,
       "importance": 3,
-      "how": "School lab/office assistant.",
+      "how": "College AV/office assistant, campus lectures and event support.",
       "why": "Professional admiration.",
       "kind": "office",
       "state": "proposal"
@@ -934,23 +958,23 @@
     {
       "w": "shivani",
       "man": "harsh",
-      "fromWoman": 2,
-      "fromMan": 1,
+      "fromWoman": 0,
+      "fromMan": 2,
       "importance": 3,
-      "how": "School sports/admin support pair (draft-only).",
-      "why": "She appreciates his upbeat creative energy; no action.",
-      "kind": "office",
+      "how": "Adult favorite student at Shivani's college (22), expressive twin of Laksh; lecture/campus cultural event interactions.",
+      "why": "One-sided student crush and playful verbal admiration proposed; not an approved relationship or scene.",
+      "kind": "college-student",
       "state": "proposal"
     },
     {
       "w": "shivani",
       "man": "laksh",
       "fromWoman": 0,
-      "fromMan": 1,
+      "fromMan": 2,
       "importance": 2,
-      "how": "School pair colleague (draft-only).",
-      "why": "Friendly work rapport only.",
-      "kind": "office",
+      "how": "Adult favorite student at Shivani's college (22), quieter twin of Harsh.",
+      "why": "Shy admiration proposed; no mutual romance or scene approved.",
+      "kind": "college-student",
       "state": "proposal"
     },
     {
@@ -959,7 +983,7 @@
       "fromWoman": 0,
       "fromMan": 1,
       "importance": 4,
-      "how": "Principal and school leader.",
+      "how": "College principal and senior academic leader.",
       "why": "Professional respect, no romantic interest proposed.",
       "kind": "office",
       "state": "proposal"
@@ -970,7 +994,7 @@
       "fromWoman": 1,
       "fromMan": 1,
       "importance": 3,
-      "how": "Vice principal and curriculum collaborator.",
+      "how": "College vice principal and academic planning collaborator.",
       "why": "Mutual intellectual respect.",
       "kind": "office",
       "state": "proposal"
@@ -981,7 +1005,7 @@
       "fromWoman": 0,
       "fromMan": 1,
       "importance": 2,
-      "how": "Trustee attends school cultural functions.",
+      "how": "College trustee at campus functions.",
       "why": "Social attention, not confirmed attraction.",
       "kind": "office",
       "state": "proposal"
@@ -1784,7 +1808,7 @@
 };
 const $=id=>document.getElementById(id),NS='http://www.w3.org/2000/svg';
 const WOMEN=Object.fromEntries(DATA.women.map(w=>[w.id,w])); const PEOPLE=Object.fromEntries(DATA.people.map(p=>[p.id,p])); const RELS=DATA.relationships;const GUIDES=DATA.guidance;
-const GROUPS={family:{color:'#4777ca',name:'Family'},society:{color:'#8a69b9',name:'Society'},office:{color:'#d88b39',name:'Office'},cross:{color:'#2b9a8b',name:'Cross-home'}};
+const GROUPS={family:{color:'#4777ca',name:'Family'},society:{color:'#8a69b9',name:'Society'},office:{color:'#d88b39',name:'College staff / Office'},'college-student':{color:'#a17b52',name:'Adult college student'},cross:{color:'#2b9a8b',name:'Cross-home'}};
 const FEMALE_PEOPLE=new Set(['rhea','kavya','soniya','ishita','naina','sharmi']);const CHILDREN=new Set(['tara','vihaan','anaya']);const DRAFT_PAIRS=new Set(['ayaan','armaan_s','uday','utkarsh','samar','shaan','harsh','laksh','avi','yash','rohas','lokesh']);
 let selectedWoman='ankita', selectedPerson='rajeev',mode='world',layers={family:true,society:true,office:true,cross:true},view={x:0,y:0,w:1000,h:700};let graphNodes=[];let hoveredId=null;let drag=null;
 function el(name,attrs={},text){const n=document.createElementNS(NS,name);for(const [k,v] of Object.entries(attrs))n.setAttribute(k,v); if(text!=null)n.textContent=text;return n}
