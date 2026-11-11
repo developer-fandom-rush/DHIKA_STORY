@@ -1033,6 +1033,16 @@
       "residence": "On duty at Gulmohar Heights society gate; home residence not established.",
       "currentOccupation": "Society watchman, parcel-register custodian",
       "storyStatus": "USER_DIRECTED"
+    },
+    {
+      "id": "chotu_shivani",
+      "name": "Chotu",
+      "age": null,
+      "role": "Requested society helper · exact role, age and Shivani connection not yet established",
+      "group": "society",
+      "house": "shivani",
+      "sourceStatus": "USER_REQUESTED_UNMAPPED",
+      "notes": "A provisional character-map entry requested for Shivani. This is not an import of original Dhika canon, and does not establish an encounter, attraction, biological relationship or adult age. Clarify exact identity and role before writing scenes."
     }
   ],
   "relations": [
@@ -2199,7 +2209,7 @@
       "devars": [
         "manav"
       ],
-      "comment": "Manav is one adult devar, not a twin pair."
+      "comment": "Rohan is Shivani's husband; Om is FIL; Manav is a single devar, not twins. Kavya (younger sister) and Tara (young child, family-only) appear in the extended family list. Ayaan and Armaan are a society duo, biological sibling/twin status not confirmed."
     },
     {
       "lead": "taniya",
@@ -2370,5 +2380,119 @@
     "episodeReader": "episode-02-ankita.html",
     "versionNote": "Updated after user established household residence, morning exercise, other husbands, gym-trainer appearance and 01 Jan 2026 office/parcel parallel timeline.",
     "referenceImage": "Society-Wives/assets/ankita-2026-01-01-morning.png"
+  },
+  "shivaniInterestAudit": {
+    "status": "CHARACTER_MAP_PROPOSAL_NOT_CANON_SCENE",
+    "reviewedAgainst": "Current new-universe Relationship Atlas directional links. No plot development beyond user's episode cutoff is inferred.",
+    "elderMen": [
+      {
+        "id": "om",
+        "category": "FAMILY_RESPECT_NO_ATTRACTION",
+        "why": "Shivani's own FIL. Original Atlas records care/family respect (fromMan 1/5), not sexual or romantic interest."
+      },
+      {
+        "id": "rajeev",
+        "category": "ONE_SIDED_INTEREST_PROPOSED",
+        "why": "Ankita's FIL (61); Atlas says privately drawn to Shivani's warmth (fromMan 2/5), without reciprocity or action."
+      },
+      {
+        "id": "mahendra",
+        "category": "COMMUNITY_ADMIRATION_ONLY",
+        "why": "Society chairman; admires community leadership. No direct attraction recorded."
+      },
+      {
+        "id": "dheeraj",
+        "category": "PROFESSIONAL_RESPECT_ONLY",
+        "why": "School principal; professional leadership respect, no romantic direction."
+      },
+      {
+        "id": "nitin",
+        "category": "PROFESSIONAL_RESPECT_ONLY",
+        "why": "Vice Principal; mutual intellectual respect, no romantic direction."
+      },
+      {
+        "id": "trustee",
+        "category": "SOCIAL_ATTENTION_ONLY",
+        "why": "School trustee; social attention at cultural functions, not confirmed attraction."
+      }
+    ],
+    "otherMen": [
+      {
+        "id": "rohan",
+        "category": "ESTABLISHED_SPOUSAL_AFFECTION",
+        "why": "Husband and father of Tara. Distinct from proposed new attraction routes."
+      },
+      {
+        "id": "ayaan",
+        "category": "TENTATIVE_ONE_SIDED_CURIOSITY",
+        "why": "Society event/printing duo, fromMan 2/5. Drawn to Shivani's kindness; no actual event or reciprocity established."
+      },
+      {
+        "id": "armaan_s",
+        "category": "TENTATIVE_ONE_SIDED_CURIOSITY",
+        "why": "Society event/printing duo, fromMan 2/5. Notices her confidence; no actual event or reciprocity established."
+      },
+      {
+        "id": "kabir",
+        "category": "POSSIBLE_MUTUAL_LATENT_PROPOSAL",
+        "why": "Ankita's husband; reciprocal witty/charming impression proposed in Atlas, not a completed interaction."
+      },
+      {
+        "id": "manav",
+        "category": "FAMILY_AND_MENTORSHIP_ONLY",
+        "why": "Shivani's devar; existing record is familial support, not attraction."
+      },
+      {
+        "id": "karan",
+        "category": "STUDY_MENTORSHIP_ONLY",
+        "why": "Ankita's younger confirmed twin devar; no attraction toward Shivani established."
+      },
+      {
+        "id": "aman",
+        "category": "STUDY_MENTORSHIP_ONLY",
+        "why": "Ankita's other confirmed twin devar; no attraction toward Shivani established."
+      },
+      {
+        "id": "deepu",
+        "category": "COMMUNITY_RESPECT_ONLY",
+        "why": "Society cultural helper; pleased by her encouragement, no romantic interest recorded."
+      },
+      {
+        "id": "sunny",
+        "category": "PROFESSIONAL_ADMIRATION_ONLY",
+        "why": "School office assistant, professional admiration."
+      },
+      {
+        "id": "harsh",
+        "category": "FRIENDLY_WORKPLACE_ONLY",
+        "why": "School duo; she appreciates his energy, but he has no attraction documented."
+      },
+      {
+        "id": "laksh",
+        "category": "FRIENDLY_WORKPLACE_ONLY",
+        "why": "School duo; friendly rapport only."
+      },
+      {
+        "id": "chotu_shivani",
+        "category": "UNMAPPED_NO_ATTRACTION",
+        "why": "User-requested placeholder; exact role and age still pending, no interest invented."
+      }
+    ],
+    "confirmationRule": "fromMan/fromWoman numeric Atlas scores are proposals, not automatic proof of attraction, consent or encounters.",
+    "counts": {
+      "olderFilWithOneSidedProposedInterest": 1,
+      "olderSchoolOrSocietyAttractionConfirmed": 0,
+      "youngerOrPeerTentativeSocietyInterest": 2,
+      "crossHouseLatentInterestProposals": 1,
+      "registeredBiologicalTwinsSpecificToShivani": 0,
+      "confirmedBiologicalTwinPairsInWholeAtlas": 1
+    },
+    "continuity": {
+      "anchor": "2026-01-01",
+      "rohan": "06:20–06:37 walking path encounter with Ankita. Do not place him at home/gym simultaneously.",
+      "kabir": "At home for Ankita's pre-office breakfast / farewell; do not simultaneously send him to gym.",
+      "shivani": "Her own January 1 timeline not yet approved; cast list does not schedule scenes.",
+      "officeNote": "No new later-day adult office scenes scheduled here. Continue only on user's instruction."
+    }
   }
 }
