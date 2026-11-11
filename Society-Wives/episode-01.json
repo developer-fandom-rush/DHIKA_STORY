@@ -3,14 +3,14 @@
   "universe": "Society Wives — Five Veils of Desire",
   "storyId": "SOCIETY_WIVES_NEW_UNIVERSE",
   "canonPolicy": "INDEPENDENT_NEW_STORY__NO_LEGACY_SOCIETY_STORY_CONTINUITY",
-  "status": "EP01_PROLOGUE_DRAFT_FOR_REVIEW",
+  "status": "EP01_PROLOGUE_DRAFT_FOR_REVIEW__SHIVANI_COLLEGE_CORRECTION_APPLIED__NOT_APPROVED",
   "episode": {
     "number": "01",
     "title": "Five Doors, Eleven Worlds",
     "subtitle": "An Ordinary Day of Unordinary Impressions",
     "day": "Day 1 · unspecified weekday",
     "timezone": "Asia/Kolkata",
-    "setting": "Gurgaon · Gulmohar Heights / Cyber City / school / CA firm / hospital / police station",
+    "setting": "Gurgaon · Gulmohar Heights / Cyber City / college / CA firm / hospital / police station",
     "laneDefinition": "Five personal society/home lanes + five professional lanes + one shared crossover lane = eleven story environments"
   },
   "leads": [
@@ -28,11 +28,11 @@
       "id": "shivani",
       "name": "Shivani",
       "age": 31,
-      "role": "Teacher",
+      "role": "College Lecturer",
       "partner": "Rohan",
       "society": "Deepu, event circle, Sharmi and family",
-      "workplace": "Harsh, Laksh, Pooja and school staff",
-      "visual": "Warm smile, graceful manner, practical kurta and saree styling."
+      "workplace": "Adult student twins Harsh/Laksh (22), favorite female students Nandini/Ritika (22), Pooja (faculty), Kriti (staff), Sunny (AV), college administration",
+      "visual": "Warm smile, graceful manner, practical kurta and saree styling. Old school references are superseded; faculty saree/kurta look only, outfit not locked."
     },
     {
       "id": "taniya",
@@ -116,9 +116,9 @@
       "lane": "Society — Shivani",
       "lead": "Shivani",
       "location": "Tower C · Ahuja flat / lift",
-      "title": "Two minutes before the bell",
+      "title": "Two minutes before the lecture",
       "narration": [
-        "Shivani, a teacher, has already revised Tara's homework and put a red kurta under a light dupatta. Rohan is searching for his car keys. Their warm morning chaos is familiar, not a newly introduced marriage.",
+        "Shivani, a college lecturer, has already revised Tara's morning things and put a red kurta under a light dupatta. Rohan is searching for his car keys. Their warm morning chaos is familiar, not a newly introduced marriage.",
         "Deepu, the society event helper, returns a misplaced notice board clip at the door and smiles at her efficient organisation. She thanks him politely; there is no flirtation here."
       ],
       "dialogue": [
@@ -144,7 +144,7 @@
         },
         {
           "speaker": "Shivani",
-          "line": "After school. Please check with Sharmi too."
+          "line": "After college. Please check with Sharmi too."
         }
       ],
       "internal": [
@@ -342,40 +342,44 @@
       "time": "09:40",
       "lane": "Workplace — Shivani",
       "lead": "Shivani",
-      "location": "School · staffroom / auditorium",
-      "title": "The rehearsal that would not fit",
+      "location": "College · faculty staffroom / campus auditorium",
+      "title": "The college rehearsal that would not fit",
       "narration": [
-        "Shivani's colleague Pooja brings the rehearsal schedule. Harsh and Laksh are helping coordinate stage logistics. Shivani knows Harsh enjoys making her laugh during long days; she does not mistake it for a commitment.",
-        "Her smile and organised manner make her noticeable. Her reaction to attention depends on whether it comes with respect for her work."
+        "Pooja (Assistant Professor and faculty colleague) brings the college event rehearsal schedule. Shivani is a lecturer teaching adult undergraduate students. Her favorite 22-year-old students Harsh and Laksh, who are twin brothers, have volunteered to help with stage logistics.",
+        "Harsh is playful and expressive while Laksh is quieter and responsible. Nandini and Ritika, two 22-year-old female student favorites, also contribute; none of these proposed moments establishes an actual romance or approved event."
       ],
       "dialogue": [
         {
-          "speaker": "Pooja",
-          "line": "We have twenty minutes less than the plan."
+          "speaker": "Pooja (Assistant Professor)",
+          "line": "Student event rehearsal mein twenty minutes kam ho gaye hain."
+        },
+        {
+          "speaker": "Shivani (College Lecturer)",
+          "line": "Then we shorten the program, not the safety check or exam work."
+        },
+        {
+          "speaker": "Harsh (22, favorite twin student)",
+          "line": "Ma'am, aapne timetable humse pehle solve kar liya."
         },
         {
           "speaker": "Shivani",
-          "line": "Then we lose a song, not the children’s safety checks."
+          "line": "You were busy preparing your opening speech."
         },
         {
-          "speaker": "Harsh",
-          "line": "You solved the whole rehearsal before I found a marker."
+          "speaker": "Laksh (22, favorite twin student)",
+          "line": "Ma'am, projector main setup kar deta hoon, cable safe side se jayegi."
         },
         {
-          "speaker": "Shivani",
-          "line": "That's because you looked for a speech first."
+          "speaker": "Nandini (22, class representative)",
+          "line": "Ma'am, attendance aur rehearsal list mere paas hai."
         },
         {
-          "speaker": "Laksh",
-          "line": "I'll move the projector. The cable is safer on the left."
-        },
-        {
-          "speaker": "Shivani",
-          "line": "Perfect. Thank you."
+          "speaker": "Ritika (22, student)",
+          "line": "Aur Harsh ki speech ko three minutes se zyada mat dena!"
         }
       ],
       "internal": [
-        "She is amused by Harsh and appreciates Laksh's reliability. She doesn't yet feel romantic attraction to either."
+        "Harsh's teasing stays a proposed adult student's light one-sided crush, not an approved mutual romantic encounter. Laksh's quieter admiration and two female students' active contributions help give the campus a real ensemble. Shivani retains faculty boundaries."
       ],
       "signalIds": [
         "L14",
@@ -670,7 +674,7 @@
       "location": "Ahuja flat · kitchen",
       "title": "A compliment with no conclusion",
       "narration": [
-        "Rohan helps tidy up while Shivani checks the school rehearsal photos. Harsh's exaggerated praise has become a funny office memory; she has not invited anything personal.",
+        "Rohan helps tidy up while Shivani checks the college rehearsal photos. Harsh's exaggerated praise has become a funny student interaction; she has not invited anything personal.",
         "Rohan sees a tired wife relieved by a successful rehearsal and makes her laugh."
       ],
       "dialogue": [
@@ -680,7 +684,7 @@
         },
         {
           "speaker": "Shivani",
-          "line": "Mostly. Harsh nearly made the projector a cast member."
+          "line": "Mostly. Harsh nearly made the projector a cast member in the college rehearsal."
         },
         {
           "speaker": "Rohan",
@@ -692,7 +696,7 @@
         }
       ],
       "internal": [
-        "She is fond of Rohan; a colleague's admiration stays an ordinary, slightly flattering memory."
+        "She is fond of Rohan; a student's praise stays an ordinary, slightly flattering memory."
       ],
       "signalIds": [
         "L29"
@@ -1051,14 +1055,14 @@
       "focus": "Warm smile and capable leadership",
       "reciprocated": "Not romantic yet",
       "knows": "Yes; hears praise",
-      "thought": "He enjoys making her laugh.",
+      "thought": "Harsh, 22, a favorite college student, is fond of making lecturer Shivani smile; one-sided interest proposal.",
       "action": "Compliments her problem solving.",
-      "attendance": "Both present",
+      "attendance": "Adult student and lecturer both present in hypothetical draft",
       "status": "PROPOSED_NOT_CONFIRMED",
-      "boundary": "No intimacy or boundary crossing",
+      "boundary": "Professional faculty-student relationship; no physical intimacy, grade favoritism, or approved romantic scene.",
       "femaleReaction": "Shivani laughs at Harsh's praise, then returns to the rehearsal; she has no romantic plans.",
       "fantasyTag": "NONE",
-      "storyEvidence": "This proposed EP01 scene only; not a claim about prior canon."
+      "storyEvidence": "Provisional adult college student setup; Harsh and Laksh are age 22 and twins. This scene is NOT approved canon."
     },
     {
       "id": "L15",
@@ -1069,14 +1073,14 @@
       "focus": "Trust in her decisions",
       "reciprocated": "Not romantic",
       "knows": "Yes",
-      "thought": "He respects her organisation.",
+      "thought": "Laksh, 22, Harsh's twin and favorite college student, quietly admires Shivani as a lecturer.",
       "action": "Moves the projector, no flirt.",
-      "attendance": "Both present",
+      "attendance": "Adult student and lecturer both present in hypothetical draft",
       "status": "PROPOSED_NOT_CONFIRMED",
-      "boundary": "No intimacy or boundary crossing",
+      "boundary": "Professional faculty-student relationship; no physical intimacy, grade favoritism, or approved romantic scene.",
       "femaleReaction": "Shivani thanks Laksh for safe technical help; no attraction inferred.",
       "fantasyTag": "NONE",
-      "storyEvidence": "This proposed EP01 scene only; not a claim about prior canon."
+      "storyEvidence": "Provisional adult college student setup; Harsh and Laksh are age 22 and twins. This scene is NOT approved canon."
     },
     {
       "id": "L16",
@@ -1321,14 +1325,14 @@
       "focus": "His cheerful humour",
       "reciprocated": "He has a mild crush",
       "knows": "No",
-      "thought": "She remembers the joke, not a romance.",
-      "action": "Mentions his school joke to Rohan.",
+      "thought": "She recalls Harsh's college joke from a faculty-student interaction, not a colleague's flirtation.",
+      "action": "Mentions her adult students' campus humor to Rohan, in a proposed unapproved scene.",
       "attendance": "Harsh absent",
       "status": "PROPOSED_NOT_CONFIRMED",
-      "boundary": "No intimacy or boundary crossing",
+      "boundary": "Professional faculty-student relationship; no physical intimacy, grade favoritism, or approved romantic scene.",
       "femaleReaction": "Shivani mentions Harsh's school humour to Rohan; no relationship develops.",
       "fantasyTag": "NONE",
-      "storyEvidence": "This proposed EP01 scene only; not a claim about prior canon."
+      "storyEvidence": "Provisional adult college student setup; Harsh and Laksh are age 22 and twins. This scene is NOT approved canon."
     },
     {
       "id": "L30",
@@ -1400,6 +1404,7 @@
       "Ledger intentionally separates attraction from affection, friendship and work respect; private wish does not indicate another person's consent.",
       "Rohit is professional admiration only in EP01; any later romantic change requires an approved scene.",
       "Previous EP01 prologue was renumbered to EP01 at the user's explicit direction. This change does not authorize Episode 02 canon."
-    ]
+    ],
+    "shivaniCorrection": "Shivani is a college lecturer, not school teacher. Harsh/Laksh are confirmed 22-year-old adult student twins, not faculty colleagues; Nandini/Ritika are proposed favorite 22-year-old female students. Prior proposed holiday plot discarded; no episode prose approved."
   }
 }
