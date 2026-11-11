@@ -39,7 +39,7 @@ footer{margin-top:16px;font-size:11px;color:#78869a;line-height:1.5}.nohide{disp
 <input type="search" id="search" placeholder="Search character, role or relation…"><button id="clear" class="btn">Reset</button></div>
 <div class="layout"><section id="content" class="maincol"><div class="empty">Loading character register…</div></section><aside class="aside">
 <div class="card"><h3>Selected character</h3><div id="characterDetails" class="detail">Tap any name to inspect role, age, home, and relations across the five women.</div></div>
-<div class="card"><h3>Understand the labels</h3>
+<div class="card"><h3>Latest Ankita planning</h3><p class="muted">Thursday, 1 January 2026 · Morning routine, Kabir, Rajeev, Karan–Aman, other husbands, office and parcel scenes.</p><p><a class="btn primary" href="./episode-02-ankita.html">Open 26-scene Ankita Timeline</a></p></div><div class="card"><h3>Understand the labels</h3>
 <span class="tag confirm">CONFIRMED TWIN</span><p class="muted">Only when the character roster explicitly calls two people twins.</p>
 <span class="tag proposed">PROPOSED PAIR</span><p class="muted">A linked duo does not automatically mean siblings or biological twins.</p>
 <span class="tag caution">NOT ESTABLISHED</span><p class="muted">A possible direction for discussion, not an approved sexual or romantic interest.</p>
@@ -67,7 +67,7 @@ function showCharacter(id){
  if(!who){root.textContent="Character not found";return}
  const card=mk("div","identity");card.append(mk("h3",null,who.name),mk("div","muted",String(who.age??"Age not established")+" · "+(who.role||"Lead woman")));
  root.append(card,tag((who.sourceStatus||"CURRENT_ATLAS").replaceAll("_"," ")));
- const lines=[["Group",who.group||"Lead female"],["Home / network",lead(who.house)?.name||who.house||who.home||"Not assigned"]];
+ const lines=[["Group",who.group||"Lead female"],["Home / network",lead(who.house)?.name||who.house||who.home||"Not assigned"],["Residence",who.residence||"Not yet established"],["Current occupation",who.currentOccupation||who.role||"Not yet established"],["Personality",who.personality||"See episode plan"]];
  for(const [label,value] of lines){const row=mk("div","rule");row.append(mk("b",null,label+": "),document.createTextNode(value));root.append(row)}
  const related=db.relations.filter(x=>x.man===id||x.w===id).slice(0,30);
  const own=db.pairs.filter(x=>x.people.includes(id));
