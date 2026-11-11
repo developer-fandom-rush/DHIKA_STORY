@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#0b1320">
+<title>Dhika — Story Intelligence</title>
+<meta name="description" content="A source-grounded 41-episode searchable story reader. Find characters, relationships, thoughts and original lines.">
+<link rel="stylesheet" href="./styles.css"></head>
+<body>
+<div id="app">
+<aside class="sidebar">
+  <div class="brand"><span class="brand-mark">D</span><div><b>DHIKA</b><small>STORY INTELLIGENCE</small></div></div>
+  <div class="sidebar-group"><span class="section-label">WORKSPACE</span>
+    <button class="nav-item active" data-view="search"><span class="nav-icon">⌕</span> Evidence Search</button>
+    <button class="nav-item" data-view="reader"><span class="nav-icon">▤</span> Episode Reader</button>
+    <button class="nav-item" data-view="network"><span class="nav-icon">◎</span> Relationship Atlas</button>
+  </div>
+  <div class="sidebar-group episodes-group">
+    <div class="side-between"><span class="section-label">EPISODES</span><span id="episode-count">41</span></div>
+    <input id="episode-filter" class="small-input" type="search" placeholder="Find an episode…" aria-label="Filter episodes">
+    <div id="episode-nav" class="episode-nav"><span class="muted small">Loading archive…</span></div>
+  </div>
+  <div class="sidebar-foot"><span class="status-dot"></span><span>Source-first archive</span><small id="data-size"></small></div>
+</aside>
+<div class="workspace">
+  <header class="topbar">
+    <div class="breadcrumb"><span class="light-mark">◆</span> RESEARCH DESK <span class="slash">/</span><strong id="page-crumb">Evidence Search</strong></div>
+    <div class="top-actions"><a id="doc-link" href="https://docs.google.com/document/d/1CSST1VjhIivB1X2pPM93JEHhTJAjyiV0nLCOnMXKbIA/edit" target="_blank" rel="noopener">Original Google Doc ↗</a><span class="edition">v1.0</span></div>
+  </header>
+  <main class="main">
+    <div id="loading" class="loading"><div class="spinner"></div><h2>Opening the complete archive…</h2><p>Loading all 41 episodes and their original source lines.</p></div>
+    <section id="search-view" class="view hidden">
+      <div class="eyebrow"><span class="line"></span> THE EVIDENCE LIBRARY</div>
+      <div class="hero"><div><h1>Search the story.<br><em>Keep every line.</em></h1><p>Trace any character, conversation, memory or event across the entire source. Results show verbatim paragraphs—not AI summaries.</p></div><div class="hero-glyph" aria-hidden="true">D<span>↗</span></div></div>
+      <div id="stats" class="stats"></div>
+      <div class="panel search-panel">
+        <div class="panel-title"><div><h2>Find original evidence</h2><p>Names and filters are lexical clues; nearby text is not proof of interaction.</p></div><span class="panel-kicker">SOURCE SEARCH</span></div>
+        <div class="search-main"><label for="query">Words or phrase</label><div class="search-field"><span>⌕</span><input id="query" type="search" placeholder="Search any dialogue, action, thought, phrase…" autocomplete="off"><kbd>Enter</kbd></div></div>
+        <div class="filter-grid">
+          <div class="field"><label for="person-a">Character A</label><select id="person-a"></select></div>
+          <div class="field"><label for="person-b">Character B</label><select id="person-b"></select></div>
+          <div class="field"><label for="episode-select">Episode scope</label><select id="episode-select"></select></div>
+          <div class="field"><label for="evidence-mode">Pair evidence</label><select id="evidence-mode"><option value="nearby">Nearby named references ±4 lines</option><option value="same">Both names in same line</option><option value="broad">Broad: either character mentioned</option></select></div>
+          <div class="field"><label for="reference-mode">Reference mode</label><select id="reference-mode"><option value="all">Any mode</option><option value="dialogue">Direct dialogue</option><option value="memory">Memory / recall cue</option><option value="thought">Inner thought cue</option><option value="imagined">Imagined / dream cue</option><option value="physical">Physical scene cue</option><option value="mentioned">Explicit name mention</option></select></div>
+          <div class="field"><label for="topic-mode">Topic / action</label><select id="topic-mode"><option value="all">All topics</option><option value="gaze">Looking / gaze</option><option value="touch">Touch / physical action</option><option value="flirting">Flirting / teasing</option><option value="romance">Romance / affection</option><option value="psychological">Psychology / feelings</option><option value="anatomical">Anatomy / clothing</option><option value="sexual">Sexual content references</option></select></div>
+        </div>
+        <div class="search-actions"><div id="quick-pairs" class="quick-pairs"></div><button id="search-btn" class="primary-btn">Search evidence <span>→</span></button></div>
+      </div>
+      <div class="results-heading"><div><span class="eyebrow small">THE SOURCE RECORD</span><h2 id="result-title">Evidence matches</h2><p id="result-subtitle">Select a pair or enter a search term.</p></div><div class="result-buttons"><button class="ghost-btn" id="clear-btn">Reset</button><button class="ghost-btn" id="export-btn">↓ Export JSON</button></div></div>
+      <div id="results" class="results"></div><div id="loadmore-wrap"></div>
+    </section>
+    <section id="reader-view" class="view hidden">
+      <div class="eyebrow"><span class="line"></span> ORIGINAL EPISODES</div><div class="hero slim"><div><h1>Read the archive.<br><em>Unchanged source lines.</em></h1><p>Paragraph-by-paragraph access with stable IDs, Google Docs offsets and original post links.</p></div></div>
+      <div class="reader-toolbar"><div><label for="reader-episode">CHOOSE EPISODE</label><select id="reader-episode"></select></div><div class="reader-control"><label for="reader-find">FIND IN EPISODE</label><input id="reader-find" placeholder="Highlight text in this episode…" type="search"></div><button id="reader-copy" class="ghost-btn">↓ Export episode</button></div>
+      <div class="reader-heading"><span id="reader-number">EP 01</span><h2 id="reader-title"></h2><p id="reader-detail"></p></div>
+      <div id="reader-body" class="reader-body"></div>
+    </section>
+    <section id="network-view" class="view hidden">
+      <div class="eyebrow"><span class="line"></span> CROSS-EPISODE REFERENCE ATLAS</div><div class="hero slim"><div><h1>Connect the cast.<br><em>Follow the evidence.</em></h1><p>Character pairs across 41 episodes. Counts show named-reference proximity, not confirmed romantic or physical encounters.</p></div></div>
+      <div class="network-toolbar"><label for="network-person">FOCUS CHARACTER</label><select id="network-person"></select></div>
+      <div id="network-summary"></div><div id="network-grid" class="network-grid"></div>
+    </section>
+    <footer class="footer"><span>DHIKA / STORY INTELLIGENCE</span><span>Source excerpts preserved. Automated tags are hints, not verified facts.</span></footer>
+  </main>
+</div>
+</div>
+<script src="./app.js" defer></script>
+</body></html>
