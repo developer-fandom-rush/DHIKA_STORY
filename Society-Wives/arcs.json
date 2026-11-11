@@ -1,9 +1,9 @@
 {
   "schemaVersion": "1.0",
   "title": "Society Wives — Draft Mini-Arc Planner",
-  "status": "PROPOSAL_NOT_CANON",
+  "status": "INDEPENDENT_NEW_UNIVERSE__PROPOSED_ARCS",
   "basedOn": "Dhika episode progression patterns: introductions, helper/twins encounters, friend-group visits, travel, and aftermath.",
-  "scope": "Narrative plot/titles only. No established boundary-crossing events at opening.",
+  "scope": "New Society Wives universe only. Prior Society_Story archives are excluded from story continuity. Dhika may inform storytelling structure but is not a shared story world.",
   "arcs": [
     {
       "id": "A01",
@@ -11,7 +11,7 @@
       "week": "W0",
       "lead": "Shared",
       "kind": "World",
-      "title": "Five Doors, One Society",
+      "title": "Five Doors, Eleven Worlds",
       "people": [
         "Ankita",
         "Shivani",
@@ -23,8 +23,8 @@
       "episodes": [
         {
           "number": "A01-1",
-          "title": "EP 00 — Five Doors",
-          "plot": "Five women's distinct home, marriage, profession and friendship worlds are established in Gulmohar Heights."
+          "title": "EP 00 — Five Doors, Eleven Worlds",
+          "plot": "An independent story opens across five personal society/home settings, five workplaces and one shared crossover gathering. Attraction is recorded by perspective, intention, knowledge and response; no new boundary is crossed."
         },
         {
           "number": "A01-2",
