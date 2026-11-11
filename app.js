@@ -1,6 +1,6 @@
 "use strict";
 const DOC="https://docs.google.com/document/d/1CSST1VjhIivB1X2pPM93JEHhTJAjyiV0nLCOnMXKbIA/edit";
-const CAST={dhika:["Dhika"],uncle:["Uncle","Uncleji"],bantu:["Bantu"],bobby:["Bobby"],twins:["Twin","Twins","Bantu","Bobby"],john:["John","Ron"],chotu:["Chotu","Babu"],sharmi:["Sharmi"],raj:["Raj"],aunty:["Aunty","Auntie"],pappu:["Pappu"],maami:["Maami","Bindu"],leo:["Leo"],iroh:["Iroh"],zuko:["Zuko"],stacy:["Stacy"],jared:["Jared"],kate:["Kate"],scott:["Scott"],stranger:["Stranger"]};
+const CAST={dhika:["Dhika","Dhka"],uncle:["Uncle","Uncleji"],aunty:["Aunty","Auntie"],bantu:["Bantu","Banty"],bobby:["Bobby"],twins:["Twin","Twins"],john:["John"],ron:["Ron"],chotu:["Chotu","Babu"],sharmi:["Sharmi","Shamri"],raj:["Raj"],pappu:["Pappu"],maami:["Maami","Bindu"],leo:["Leo"],iroh:["Iroh"],zuko:["Zuko"],stacy:["Stacy"],jared:["Jared"],kate:["Kate"],scott:["Scott"],stranger:["Stranger"]};
 const FLAGS={
  dialogue:/^\s*(?:Dhika|John|Ron|Uncle|Aunty|Bantu|Bobby|Chotu|Babu|Sharmi|Raj|Maami|Leo|Pappu|Scott|Stacy|Kate)\s*:/i,
  memory:/remember|recalled|flashback|used to|earlier|back then/i,
@@ -21,7 +21,7 @@ const esc=s=>String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"
 const rex=s=>s.replace(/[|\\{}()[\]^$+*?.-]/g,"\\$&");
 const RE=Object.fromEntries(Object.entries(CAST).map(pair=>[pair[0],new RegExp("\\b(?:"+pair[1].map(rex).join("|")+")\\b","i")]));
 const QUICK=[["Uncle","uncle"],["Twins","twins"],["Bantu","bantu"],["Bobby","bobby"],["Chotu","chotu"],["John / Ron","john"],["Sharmi","sharmi"],["Raj","raj"]];
-let library=[],index=new Map(),results=[],limit=50,episodeNumber=1;
+let library=[],index=new Map(),results=[],limit=50,episodeNumber=1,PAIR_INDEX=null;
 function kind(ep,i,s){
  const t=s.trim();if(!i)return "heading";
  if(ep.n===1&&i>=1&&i<=4)return "note";
@@ -36,6 +36,7 @@ function parseArchive(data){
   const passages=ep.lines.map((line,i)=>{
    const raw=line[0]||"",txt=raw.replace(/\n$/,"");
    const p={id:ep.id+"-P"+String(i+1).padStart(4,"0"),i,raw,txt,offset:line[1],url:line[2],kind:kind(ep,i,txt),chars:Object.keys(RE).filter(c=>RE[c].test(txt)),tags:Object.keys(FLAGS).filter(x=>FLAGS[x].test(txt))};
+   if(p.chars.includes("bantu")&&p.chars.includes("bobby")&&!p.chars.includes("twins"))p.chars.push("twins");
    return p;
   });
   const record={...ep,passages};
@@ -110,21 +111,44 @@ function pairEvidence(ep,p,a,b,mode){
 function settings(){return {phrase:el("query").value.trim(),a:el("person-a").value,b:el("person-b").value,episode:el("episode-select").value,mode:el("evidence-mode").value,reference:el("reference-mode").value,topic:el("topic-mode").value};}
 function search(){
  const f=settings();results=[];
- for(const ep of library){
-  if(f.episode!=="all"&&String(ep.n)!==f.episode)continue;
-  for(const p of ep.passages){
-   if(p.kind!=="story"&&!f.phrase)continue;
-   if(f.phrase&&!p.txt.toLocaleLowerCase().includes(f.phrase.toLocaleLowerCase()))continue;
-   const evidence=pairEvidence(ep,p,f.a,f.b,f.mode);
-   if(!evidence)continue;
-   if(f.reference!=="all"&&!(f.reference==="mentioned"?p.chars.length>0:p.tags.includes(f.reference)))continue;
-   if(f.topic!=="all"&&!p.tags.includes(f.topic))continue;
-   results.push({ep,p,evidence});
+ const pairKey=f.a&&f.b&&f.a!==f.b?[f.a,f.b].sort().join("__"):null;
+ const pair=pairKey?PAIR_INDEX?.pairs[pairKey]:null;
+ const scope=(ep,p,other)=>{
+  if(f.episode!=="all"&&String(ep.n)!==f.episode)return false;
+  if(f.phrase&&![p.txt,other?.txt||""].some(x=>x.toLocaleLowerCase().includes(f.phrase.toLocaleLowerCase())))return false;
+  const ps=other?[p,other]:[p];
+  if(f.reference!=="all"&&!ps.some(x=>f.reference==="mentioned"?x.chars.length>0:x.tags.includes(f.reference)))return false;
+  if(f.topic!=="all"&&!ps.some(x=>x.tags.includes(f.topic)))return false;
+  return true;
+ };
+ if(pair&&["indexed","same","dialogue","discussed"].includes(f.mode)){
+  const add=(items,evidence)=>{
+   for(const row of items){
+    const ep=library.find(e=>e.n===row[0]);if(!ep)continue;
+    const p=ep.passages[row[1]],other=row.length>2?ep.passages[row[2]]:null;
+    if(!p||p.kind!=="story"||!scope(ep,p,other))continue;
+    results.push({ep,p,other,evidence});
+   }
+  };
+  if(f.mode==="indexed"||f.mode==="same")add(pair.direct,"same-paragraph co-mention");
+  if(f.mode==="indexed"||f.mode==="dialogue")add(pair.dialogue,"speaker exchange candidate");
+  if(f.mode==="indexed"||f.mode==="discussed")add(pair.thirdParty,"third-party discussion");
+ }else{
+  for(const ep of library){
+   if(f.episode!=="all"&&String(ep.n)!==f.episode)continue;
+   for(const p of ep.passages){
+    if(p.kind!=="story")continue;
+    if(!scope(ep,p,null))continue;
+    const a=f.a===f.b?f.a:f.a,b=f.a===f.b?"":f.b;
+    const evidence=pairEvidence(ep,p,a,b,f.mode==="broad"?"broad":"nearby");
+    if(evidence)results.push({ep,p,other:null,evidence:evidence==="nearby named references"?"proximity only — NOT an encounter":evidence});
+   }
   }
  }
+ results.sort((x,y)=>x.ep.n-y.ep.n||x.p.i-y.p.i||((x.evidence==="same-paragraph co-mention"?0:1)-(y.evidence==="same-paragraph co-mention"?0:1)));
  const name=f.a&&f.b?caps(f.a)+" × "+caps(f.b):caps(f.a||f.b)||"Entire archive";
- el("result-title").textContent=name+" — "+results.length.toLocaleString()+" matches";
- el("result-subtitle").textContent="Showing verbatim Google Docs passages. Named-reference proximity is not proof that two characters physically interacted.";
+ el("result-title").textContent=name+" — "+results.length.toLocaleString()+" evidence entries";
+ el("result-subtitle").textContent="Exact source text with evidence classes. A mention, dialogue cue, or third-party discussion is NOT a verified physical encounter. No source passage has been removed.";
  limit=50;renderResults();
 }
 function hilite(text,q){
@@ -132,10 +156,11 @@ function hilite(text,q){
  return h.replace(new RegExp("("+rex(esc(q))+")","gi"),"<mark>$1</mark>");
 }
 function card(x){
- const ep=x.ep,p=x.p,f=settings();
- const tags=p.tags.slice(0,6).map(t=>'<span class="pill'+(t==="psychological"?" mental":"")+'">'+esc(t)+"</span>").join("");
+ const ep=x.ep,p=x.p,f=settings(),other=x.other;
+ const tags=[...new Set([...p.tags,...(other?.tags||[])])].slice(0,7).map(t=>'<span class="pill'+(t==="psychological"?" mental":"")+'">'+esc(t)+"</span>").join("");
  const url=DOC+"?tab="+encodeURIComponent(ep.tabId);
- return '<article class="result-card"><div class="result-head"><div><span class="episode-chip">'+ep.id+'</span> <span class="episode-text">'+esc(ep.title)+'</span></div><span class="evidence">'+esc(x.evidence)+'</span></div><div class="result-body"><div class="quote-line"><span class="line-id">'+p.id.split("-").pop()+'</span><p class="raw-line">'+hilite(p.raw,f.phrase)+'</p></div><div class="pills">'+tags+'</div><div id="ctx-'+p.id+'" class="quote-context hidden"></div><div class="result-foot"><div><button class="text-button" data-context="'+p.id+'">+ Source context</button> · <button class="text-button" data-reader-link="'+ep.n+'">Read full episode</button></div><div><a href="'+url+'" target="_blank" rel="noopener">Google Doc ↗</a> '+(p.url?'<a href="'+esc(p.url)+'" target="_blank" rel="noopener">Forum post ↗</a>':"")+'</div></div></div></article>';
+ const secondary=other?'<div class="quote-line" style="margin-top:13px;padding-top:11px;border-top:1px dashed #40546a"><span class="line-id">'+other.id.split("-").pop()+'</span><p class="raw-line">'+hilite(other.raw,f.phrase)+'</p></div>':"";
+ return '<article class="result-card"><div class="result-head"><div><span class="episode-chip">'+ep.id+'</span> <span class="episode-text">'+esc(ep.title)+'</span></div><span class="evidence">'+esc(x.evidence)+'</span></div><div class="result-body"><div class="quote-line"><span class="line-id">'+p.id.split("-").pop()+'</span><p class="raw-line">'+hilite(p.raw,f.phrase)+'</p></div>'+secondary+'<div class="pills">'+tags+'</div><div id="ctx-'+p.id+'" class="quote-context hidden"></div><div class="result-foot"><div><button class="text-button" data-context="'+p.id+'">+ Source context</button> · <button class="text-button" data-reader-link="'+ep.n+'">Read full episode</button></div><div><a href="'+url+'" target="_blank" rel="noopener">Google Doc ↗</a> '+(p.url?'<a href="'+esc(p.url)+'" target="_blank" rel="noopener">Forum post ↗</a>':"")+'</div></div></div></article>';
 }
 function renderResults(){
  el("results").innerHTML=results.length?results.slice(0,limit).map(card).join(""):'<div class="no-results"><h3>No matching source lines</h3><p>Try broader pair evidence or remove topic and reference filters. No encounter is invented when a match is absent.</p></div>';
@@ -158,8 +183,14 @@ function download(name,obj){
 function exportSearch(){
  const f=settings();
  download("DHIKA_evidence_"+(f.a||"all")+"_"+(f.b||"all")+".json",{
-  source:DOC,filters:f,matchCount:results.length,warning:"Proximity and automatic tags are candidate references; semantic classifications are not human verified.",
-  matches:results.map(({ep,p,evidence})=>({episode:ep.id,title:ep.title,passageId:p.id,googleDocOffset:p.offset,sourceUrl:p.url,evidence,charactersMentioned:p.chars,tags:p.tags,rawText:p.raw,context:ep.passages.slice(Math.max(0,p.i-3),p.i+4).map(x=>({passageId:x.id,rawText:x.raw}))}))
+  source:DOC,sourceCorpus:"data/corpus.json",pairIndexVersion:PAIR_INDEX?.schemaVersion,filters:f,matchCount:results.length,
+  warning:"Evidence categories are textual. Same-line co-mentions, speaker exchanges and third-party discussions are not proof of physical presence, romantic action, consent or relationship.",
+  matches:results.map(({ep,p,other,evidence})=>({
+    episode:ep.id,title:ep.title,passageId:p.id,googleDocOffset:p.offset,sourceUrl:p.url,evidence,
+    charactersMentioned:p.chars,tags:p.tags,rawText:p.raw,
+    supportingPassage:other?{passageId:other.id,rawText:other.raw,googleDocOffset:other.offset,sourceUrl:other.url}:null,
+    context:ep.passages.slice(Math.max(0,p.i-3),Math.max(p.i+4,(other?.i||p.i)+2)).map(x=>({passageId:x.id,rawText:x.raw}))
+  }))
  });
 }
 function reader(){
@@ -180,26 +211,23 @@ function exportEpisode(){
 function network(){
  const a=el("network-person").value,items=[];
  for(const b of Object.keys(CAST)){
-  if(b===a)continue;let count=0;const eps=[];
-  for(const ep of library){
-   let n=0;
-   for(const p of ep.passages){
-    if(p.kind!=="story")continue;
-    if(p.chars.includes(a)&&p.chars.includes(b)||p.chars.includes(a)&&nearby(ep,p,b)||p.chars.includes(b)&&nearby(ep,p,a))n++;
-   }
-   if(n){count+=n;eps.push(ep.id);}
-  }
-  items.push({b,count,eps});
+  if(b===a)continue;
+  const p=PAIR_INDEX?.pairs[[a,b].sort().join("__")];
+  if(!p)continue;
+  const count=p.counts.coMention+p.counts.speakerExchange+p.counts.thirdPartyDiscussion;
+  items.push({b,count,counts:p.counts,eps:p.episodes.map(x=>"EP"+String(x).padStart(2,"0"))});
  }
- items.sort((a,b)=>b.count-a.count);
- el("network-summary").innerHTML='<div class="network-info">Relationship Atlas counts <strong>named-reference proximity (±4 paragraphs)</strong>. These are candidates to review—not verified interactions, consent assessments, or physical encounters. Click any pair to inspect exact lines.</div>';
- el("network-grid").innerHTML=items.map(x=>'<button class="network-card" data-other="'+x.b+'"><div class="pair">'+caps(a)+' <strong>×</strong> '+caps(x.b)+'</div><div class="count">'+x.count.toLocaleString()+' reference candidates · '+x.eps.length+' episodes</div><div class="episodes">'+esc(x.eps.slice(0,14).join(" · "))+(x.eps.length>14?" · …":"")+'</div></button>').join("");
+ items.sort((x,y)=>y.count-x.count||x.b.localeCompare(y.b));
+ el("network-summary").innerHTML='<div class="network-info"><strong>Relationship evidence, not inferred encounters.</strong> Direct co-mentions, consecutive speaker turns, and third-party discussion are indexed separately. The Twins label requires the literal collective word or BOTH brothers named in one paragraph. Ron is not automatically the same person as John.</div>';
+ el("network-grid").innerHTML=items.map(x=>'<button class="network-card" data-other="'+x.b+'"><div class="pair">'+caps(a)+' <strong>×</strong> '+caps(x.b)+'</div><div class="count">'+x.count.toLocaleString()+' evidence entries · '+x.eps.length+' episodes</div><div class="episodes">Same paragraph: '+x.counts.coMention+' · Speaker exchange: '+x.counts.speakerExchange+' · Third-party: '+x.counts.thirdPartyDiscussion+'<br>'+esc(x.eps.slice(0,14).join(" · "))+(x.eps.length>14?" · …":"")+'</div></button>').join("");
 }
 async function start(){
  try{
-  const response=await fetch("./data/corpus.json",{cache:"no-cache"});
-  if(!response.ok)throw Error("HTTP "+response.status);
-  const data=await response.json();
+  const [response,pairResponse]=await Promise.all([fetch("./data/corpus.json",{cache:"no-cache"}),fetch("./data/pair_evidence_v2.json",{cache:"no-cache"})]);
+  if(!response.ok||!pairResponse.ok)throw Error("Archive HTTP "+response.status+" / pair index HTTP "+pairResponse.status);
+  const [data,pairs]=await Promise.all([response.json(),pairResponse.json()]);
+  PAIR_INDEX=pairs;
+  if(pairs.summary.paragraphs!==10450||Object.keys(pairs.pairs).length!==210)throw Error("Relationship index integrity check failed");
   library=parseArchive(data);
   if(library.length!==41)throw Error("Incomplete archive: "+library.length+" episodes");
   el("loading").classList.add("hidden");el("search-view").classList.remove("hidden");
