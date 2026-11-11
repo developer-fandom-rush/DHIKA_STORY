@@ -1,6 +1,6 @@
 "use strict";
 const DOC="https://docs.google.com/document/d/1CSST1VjhIivB1X2pPM93JEHhTJAjyiV0nLCOnMXKbIA/edit";
-const CAST={dhika:["Dhika"],uncle:["Uncle","Uncleji"],bantu:["Bantu"],bobby:["Bobby"],twins:["Twin","Twins"],john:["John","Ron"],chotu:["Chotu","Babu"],sharmi:["Sharmi"],raj:["Raj"],aunty:["Aunty","Auntie"],pappu:["Pappu"],maami:["Maami","Bindu"],leo:["Leo"],iroh:["Iroh"],zuko:["Zuko"],stacy:["Stacy"],jared:["Jared"],kate:["Kate"],scott:["Scott"],stranger:["Stranger"]};
+const CAST={dhika:["Dhika"],uncle:["Uncle","Uncleji"],bantu:["Bantu"],bobby:["Bobby"],twins:["Twin","Twins","Bantu","Bobby"],john:["John","Ron"],chotu:["Chotu","Babu"],sharmi:["Sharmi"],raj:["Raj"],aunty:["Aunty","Auntie"],pappu:["Pappu"],maami:["Maami","Bindu"],leo:["Leo"],iroh:["Iroh"],zuko:["Zuko"],stacy:["Stacy"],jared:["Jared"],kate:["Kate"],scott:["Scott"],stranger:["Stranger"]};
 const FLAGS={
  dialogue:/^\s*(?:Dhika|John|Ron|Uncle|Aunty|Bantu|Bobby|Chotu|Babu|Sharmi|Raj|Maami|Leo|Pappu|Scott|Stacy|Kate)\s*:/i,
  memory:/remember|recalled|flashback|used to|earlier|back then/i,
