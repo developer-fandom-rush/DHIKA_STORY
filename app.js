@@ -1,8 +1,8 @@
 "use strict";
 const DOC="https://docs.google.com/document/d/1CSST1VjhIivB1X2pPM93JEHhTJAjyiV0nLCOnMXKbIA/edit";
-const CAST={dhika:["Dhika","Dhka"],uncle:["Uncle","Uncleji"],aunty:["Aunty","Auntie"],bantu:["Bantu","Banty"],bobby:["Bobby"],twins:["Twin","Twins"],john:["John"],ron:["Ron"],chotu:["Chotu","Babu"],sharmi:["Sharmi","Shamri"],raj:["Raj"],pappu:["Pappu"],maami:["Maami","Bindu"],leo:["Leo"],iroh:["Iroh"],zuko:["Zuko"],stacy:["Stacy"],jared:["Jared"],kate:["Kate"],scott:["Scott"],stranger:["Stranger"]};
+const CAST={dhika:["Dhika","Dhka"],uncle:["Uncle","Uncleji"],aunty:["Aunty","Auntie"],bantu:["Bantu","Banty"],bobby:["Bobby"],twins:["Twin","Twins"],john:["John"],ron:["Ron"],chotu:["Chotu","Babu"],sharmi:["Sharmi","Shamri"],raj:["Raj"],pappu:["Pappu"],maami:["Maami","Bindu"],leo:["Leo"],iroh:["Iroh","Old man"],zuko:["Zuko","Young one"],stacy:["Stacy"],jared:["Jared"],kate:["Kate"],scott:["Scott"],stranger:["Stranger"]};
 const FLAGS={
- dialogue:/^\s*(?:Dhika|John|Ron|Uncle|Aunty|Bantu|Bobby|Chotu|Babu|Sharmi|Raj|Maami|Leo|Pappu|Scott|Stacy|Kate)\s*:/i,
+ dialogue:/^\s*(?:Dhika|John|Ron|Uncle(?: Iroh)?|Old Man|Young one|Aunty|Bantu|Bobby|Chotu|Babu|Sharmi|Raj|Maami|Leo|Zuko|Iroh|Pappu|Scott|Stacy|Kate)\s*:/i,
  memory:/remember|recalled|flashback|used to|earlier|back then/i,
  thought:/\bthought\b|\bwondered\b|\bsecretly\b|in (?:his|her) mind|thinking/i,
  imagined:/imagin|fantas|dream(?:ing|t)?\b/i,
@@ -19,7 +19,7 @@ const el=id=>document.getElementById(id);
 const caps=s=>s?s.charAt(0).toUpperCase()+s.slice(1):"";
 const esc=s=>String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/'/g,"&#39;");
 const rex=s=>s.replace(/[|\\{}()[\]^$+*?.-]/g,"\\$&");
-const RE=Object.fromEntries(Object.entries(CAST).map(pair=>[pair[0],new RegExp("\\b(?:"+pair[1].map(rex).join("|")+")\\b","i")]));
+const RE=Object.fromEntries(Object.entries(CAST).map(pair=>[pair[0],pair[0]==="uncle"?/\bUncle(?:ji)?\b(?!\s+Iroh\b)/i:new RegExp("\\b(?:"+pair[1].map(rex).join("|")+")\\b","i")]));
 const QUICK=[["Uncle","uncle"],["Twins","twins"],["Bantu","bantu"],["Bobby","bobby"],["Chotu","chotu"],["John / Ron","john"],["Sharmi","sharmi"],["Raj","raj"]];
 let library=[],index=new Map(),results=[],limit=50,episodeNumber=1,PAIR_INDEX=null;
 function kind(ep,i,s){
