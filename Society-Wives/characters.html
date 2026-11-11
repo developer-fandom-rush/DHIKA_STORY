@@ -33,13 +33,13 @@ footer{margin-top:16px;font-size:11px;color:#78869a;line-height:1.5}.nohide{disp
 <main><div class="intro"><b>New universe only.</b> Older Society_Story/Drive characters do not apply. Names from the current Atlas are shown as <b>Atlas roster</b>; recently suggested additions are clearly marked <b>Proposed</b>. Your corrected parcel sequence is marked <b>User-directed plot</b>. None of those discussion notes automatically become approved episode prose. <b>Twin</b> is not interchangeable with <b>duo</b>.</div>
 <div class="stats"><div class="stat"><b>5</b><span>Lead women / families</span></div><div class="stat"><b id="peopleCount">—</b><span>Supporting characters</span></div><div class="stat"><b>1</b><span>Explicitly confirmed twin pair</span></div><div class="stat"><b>9</b><span>Total registered pairs (incl. duos)</span></div></div>
 <div class="tabs" role="tablist" aria-label="Directory sections">
-<button data-tab="families" class="active">Five Families</button><button data-tab="twins">Twins vs Duos</button><button data-tab="directory">Everyone</button><button data-tab="interests">Ankita & FILs</button><button data-tab="planning">EP02 Discussion</button></div>
+<button data-tab="families" class="active">Five Families</button><button data-tab="shivani">Shivani · Full Cast</button><button data-tab="twins">Twins vs Duos</button><button data-tab="directory">Everyone</button><button data-tab="interests">Ankita & FILs</button><button data-tab="planning">EP02 Discussion</button></div>
 <div class="filters" id="filterBar"><label class="muted" for="leadFilter">Family / world</label><select id="leadFilter"><option value="all">All worlds</option><option value="ankita">Ankita</option><option value="shivani">Shivani</option><option value="taniya">Taniya</option><option value="meenakshi">Meenakshi</option><option value="shreya">Shreya</option><option value="shared">Shared society</option></select>
 <label class="muted" for="groupFilter">Category</label><select id="groupFilter"><option value="all">All categories</option><option value="family">Family</option><option value="society">Society</option><option value="office">Workplace</option><option value="cross">Cross-house</option></select>
 <input type="search" id="search" placeholder="Search character, role or relation…"><button id="clear" class="btn">Reset</button></div>
 <div class="layout"><section id="content" class="maincol"><div class="empty">Loading character register…</div></section><aside class="aside">
 <div class="card"><h3>Selected character</h3><div id="characterDetails" class="detail">Tap any name to inspect role, age, home, and relations across the five women.</div></div>
-<div class="card"><h3>Latest Ankita planning</h3><p class="muted">Thursday, 1 January 2026 · Morning routine, Kabir, Rajeev, Karan–Aman, other husbands, office and parcel scenes.</p><p><a class="btn primary" href="./episode-02-ankita.html">Open 26-scene Ankita Timeline</a></p></div><div class="card"><h3>Understand the labels</h3>
+<div class="card"><h3>Latest Ankita planning</h3><p class="muted">Thursday, 1 January 2026 · Morning routine, Kabir, Rajeev, Karan–Aman, other husbands, office and parcel scenes.</p><p><a class="btn primary" href="./episode-02-ankita.html">Open Ankita EP02 · 1 PM pause</a></p></div><div class="card"><h3>Understand the labels</h3>
 <span class="tag confirm">CONFIRMED TWIN</span><p class="muted">Only when the character roster explicitly calls two people twins.</p>
 <span class="tag proposed">PROPOSED PAIR</span><p class="muted">A linked duo does not automatically mean siblings or biological twins.</p>
 <span class="tag caution">NOT ESTABLISHED</span><p class="muted">A possible direction for discussion, not an approved sexual or romantic interest.</p>
@@ -50,7 +50,7 @@ footer{margin-top:16px;font-size:11px;color:#78869a;line-height:1.5}.nohide{disp
 "use strict";
 const $=id=>document.getElementById(id),mk=(t,c,txt)=>{const e=document.createElement(t);if(c)e.className=c;if(txt!==undefined)e.textContent=txt;return e};
 const NOTE_KEY="sw-independent-ep02-review-v1";
-let db=null,tab="families",selected=null,local={};
+let db=null,tab=new URLSearchParams(location.search).get("view")==="shivani"?"shivani":"families",selected=null,local={};
 try{local=JSON.parse(localStorage.getItem(NOTE_KEY)||"{}")}catch(e){local={}};
 function save(){try{localStorage.setItem(NOTE_KEY,JSON.stringify(local))}catch(e){}}
 function lead(id){return db.leads.find(x=>x.id===id)}
@@ -82,6 +82,8 @@ function familyCard(f){
  const leadObj=lead(f.lead),card=mk("article","card");card.append(mk("h3",null,leadObj.name+" · "+leadObj.role));
  card.append(tag("Partner"),button(f.spouse),mk("span","muted"," "),tag("FIL"),button(f.fil));
  const row=mk("div","rule");row.append(mk("b",null,"Adult devar(s): "));f.devars.forEach(id=>row.append(button(id)));card.append(row);
+ const extra=db.people.filter(z=>z.house===f.lead&&z.group==="family"&&![f.spouse,f.fil,...f.devars].includes(z.id));
+ if(extra.length){const more=mk("div","rule");more.append(mk("b",null,"Other family (including sisters/children): "));extra.forEach(z=>more.append(button(z.id)));card.append(more)}
  card.append(mk("p","muted",f.comment));return card
 }
 function families(root){
@@ -113,6 +115,64 @@ function directory(root){
  card.onclick=()=>showCharacter(x.id);wrap.append(card)});root.append(wrap);
  if(!list.length)root.append(mk("div","empty","No matching characters."));
 }
+
+function shivaniWorld(root){
+ const focus=db.leads.find(z=>z.id==="shivani");
+ const audit=db.shivaniInterestAudit;
+ root.append(heading("Shivani · Complete Character Map","Gulmohar Heights, Gurgaon · new-universe Atlas · 1 January 2026 planning"));
+ const intro=mk("article","card");
+ intro.append(mk("h2",null,"Shivani Ahuja · Teacher"),mk("p","detail","This is a cast and relationship register, not a claim that all listed characters appear together on 1 January. All attraction links are proposals unless explicitly marked established. The child has family-only status."));
+ intro.append(tag("Rohan = husband","confirm"),tag("Om = own FIL"),tag("Manav = one devar"),tag("Kavya = sister"),tag("Tara = child, family-only","caution"));
+ root.append(intro);
+ const sections=[
+  ["Family & household","family",false],
+  ["School / workplace","office",false],
+  ["Shivani society circle","society",false],
+  ["Shared society contacts","society",true]
+ ];
+ for(const [headingText,group,isShared] of sections){
+   const records=db.people.filter(z=>z.group===group&&(isShared?z.house==="shared":z.house==="shivani"));
+   root.append(heading(headingText,records.length+" existing/provisional registered characters"));
+   const grid=mk("div","cards");
+   for(const z of records){
+     const card=mk("article","card");
+     card.append(mk("h3",null,z.name+" · "+(z.age??"age to confirm")),mk("p","detail",z.role));
+     const status=z.sourceStatus==="CURRENT_ATLAS"?"Atlas roster":z.sourceStatus==="USER_REQUESTED_UNMAPPED"?"User-requested placeholder":"Proposed";
+     card.append(tag(status,z.sourceStatus==="CURRENT_ATLAS"?"confirm":"proposed"),mk("span","muted"," "),button(z.id));
+     grid.append(card);
+   }
+   root.append(grid);
+ }
+ const clarification=mk("article","card");
+ clarification.append(mk("h3",null,"Chotu, twins and family separation"));
+ clarification.append(mk("p","detail","Chotu has been added as a user-requested, unmapped placeholder in Shivani's society circle. His exact identity, age, role and involvement are not approved yet. No attraction or encounter is assigned."));
+ clarification.append(mk("p","detail","Ayaan + Armaan: society event/printing duo; being twins is UNCONFIRMED. Harsh + Laksh: school co-workers, not registered twins. Karan + Aman: confirmed biological twins, but they are Ankita's devars, not Shivani's."));
+ root.append(clarification);
+ if(audit){
+   root.append(heading("Older men / FIL interest audit","Only one older FIL one-sided attraction is proposed, not confirmed as an event"));
+   const elder=mk("div","cards");
+   for(const r of audit.elderMen){
+     const card=mk("article","card");
+     card.append(mk("h3",null,personLabel(r.id)),tag(r.category.replaceAll("_"," "),r.category.includes("INTEREST")?"proposed":"caution"),mk("p","detail",r.why),button(r.id));
+     elder.append(card);
+   }
+   root.append(elder);
+   root.append(heading("Younger men, duos and cross-house links","Separate tentative curiosity from friendship, mentorship and established marriage"));
+   const others=mk("div","cards");
+   for(const r of audit.otherMen){
+     const card=mk("article","card");
+     card.append(mk("h3",null,personLabel(r.id)),tag(r.category.replaceAll("_"," "),r.category.includes("CURIOSITY")||r.category.includes("LATENT")?"proposed":"caution"),mk("p","detail",r.why),button(r.id));
+     others.append(card);
+   }
+   root.append(others);
+   root.append(heading("Shared clock · 01 Jan 2026","Avoid any person appearing in two places at once"));
+   const t=mk("article","card");
+   for(const [name,value] of Object.entries(audit.continuity)){t.append(mk("p","detail",name+": "+value))}
+   t.append(mk("p","muted","No new Shivani scene has been scheduled here; the cast cards are references only."));
+   root.append(t);
+ }
+}
+
 function interests(root){
  root.append(heading("Which FIL is interested in Ankita?","Source distinctions preserved"));
  const grid=mk("div","cards");
@@ -134,7 +194,7 @@ function planning(root){
  const r=mk("div","row");const copy=mk("button","btn primary","Copy this discussion");copy.onclick=()=>{const idx=local.parcelDistribution;const val=(idx===undefined?"Unresolved":d.continuityIssue.options[Number(idx)]);const msg="Society Wives Ankita EP02: "+d.title+"\nParcel source sequence: "+d.correctedSequence.map(x=>x.holder+" — "+x.action).join("\n")+"\nDistribution: "+val+"\nMy notes: "+(local.notes||"");navigator.clipboard?.writeText(msg).then(()=>alert("Copied discussion notes")).catch(()=>alert("Use Export discussion instead"))};r.append(copy);notes.append(r);root.append(notes);
  const rules=mk("article","card");rules.append(mk("h3",null,"Planning rules"));d.userRules.forEach(x=>rules.append(mk("p","detail","• "+x)));root.append(rules);
 }
-function render(){if(!db)return;document.querySelectorAll(".tabs button").forEach(b=>b.classList.toggle("active",b.dataset.tab===tab));const root=$("content");root.replaceChildren();$("filterBar").style.display=tab==="planning"?"none":"flex";if(tab==="families")families(root);else if(tab==="twins")pairs(root);else if(tab==="directory")directory(root);else if(tab==="interests")interests(root);else planning(root);}
+function render(){if(!db)return;document.querySelectorAll(".tabs button").forEach(b=>b.classList.toggle("active",b.dataset.tab===tab));const root=$("content");root.replaceChildren();$("filterBar").style.display=tab==="planning"||tab==="shivani"?"none":"flex";if(tab==="families")families(root);else if(tab==="shivani")shivaniWorld(root);else if(tab==="twins")pairs(root);else if(tab==="directory")directory(root);else if(tab==="interests")interests(root);else planning(root);}
 document.querySelectorAll(".tabs button").forEach(b=>b.onclick=()=>{tab=b.dataset.tab;render()});
 ["leadFilter","groupFilter"].forEach(id=>$(id).onchange=render);$("search").oninput=render;
 $("clear").onclick=()=>{$("leadFilter").value=$("groupFilter").value="all";$("search").value="";render()};
