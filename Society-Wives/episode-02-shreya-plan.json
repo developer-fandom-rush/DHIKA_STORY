@@ -1,0 +1,769 @@
+{
+  "schemaVersion": "1.0",
+  "id": "EP02_SHREYA",
+  "episode": "02",
+  "title": "The Inspector's Red Sports Bra & the Cellblock Bet",
+  "date": "2026-01-01",
+  "weekday": "Thursday",
+  "timezone": "Asia/Kolkata",
+  "lead": "shreya",
+  "leadName": "Shreya Rathore",
+  "leadAge": 33,
+  "profession": "Police Inspector",
+  "status": "USER_ACCEPTED_WORKING_PLOT; SCENE PROSE NOT APPROVED",
+  "stopRule": "End at 13:15, Shreya still at police station; no evening scenes.",
+  "characterCorrections": [
+    {
+      "oldName": "Naina",
+      "newName": "Shruti",
+      "age": 23,
+      "relation": "Shreya's younger sister",
+      "imageStatus": "USER_WILL_SUPPLY_LATER"
+    },
+    {
+      "people": [
+        "samar",
+        "shaan"
+      ],
+      "ages": [
+        24,
+        24
+      ],
+      "relation": "society sports brothers; twin framing accepted for current working plot",
+      "status": "WORKING_TWIN_PAIR"
+    },
+    {
+      "people": [
+        "rohas",
+        "lokesh"
+      ],
+      "ages": [
+        24,
+        24
+      ],
+      "relation": "police trainee duo, not brothers"
+    }
+  ],
+  "roster": {
+    "family": [
+      {
+        "id": "vikram",
+        "role": "husband",
+        "age": 36
+      },
+      {
+        "id": "arvind",
+        "role": "father-in-law",
+        "age": 65
+      },
+      {
+        "id": "sameer",
+        "role": "devar",
+        "age": 24
+      },
+      {
+        "id": "shruti",
+        "role": "younger sister",
+        "age": 23
+      },
+      {
+        "id": "anaya",
+        "role": "daughter, family-only",
+        "age": 1.7
+      }
+    ],
+    "society": [
+      {
+        "id": "samar",
+        "role": "sports twin",
+        "age": 24
+      },
+      {
+        "id": "shaan",
+        "role": "sports twin",
+        "age": 24
+      },
+      {
+        "id": "vivek_rao",
+        "role": "fitness trainer",
+        "age": 30
+      },
+      {
+        "id": "chintu",
+        "role": "security helper",
+        "age": 23
+      },
+      {
+        "id": "mahendra",
+        "role": "society chairman",
+        "age": 61
+      },
+      {
+        "id": "rajeev",
+        "role": "Ankita's father-in-law",
+        "age": 61
+      },
+      {
+        "id": "karan",
+        "role": "Ankita's twin devar",
+        "age": 22
+      },
+      {
+        "id": "aman",
+        "role": "Ankita's twin devar",
+        "age": 22
+      }
+    ],
+    "station": [
+      {
+        "id": "rohas",
+        "role": "trainee officer",
+        "age": 24
+      },
+      {
+        "id": "lokesh",
+        "role": "trainee officer",
+        "age": 24
+      },
+      {
+        "id": "javed",
+        "role": "station support",
+        "age": 22
+      },
+      {
+        "id": "chauhan",
+        "role": "Inspector Chauhan",
+        "age": 42
+      },
+      {
+        "id": "acp",
+        "role": "ACP Verma",
+        "age": 50
+      },
+      {
+        "id": "dcp",
+        "role": "DCP Rathod",
+        "age": 58
+      },
+      {
+        "id": "shreya_woman_01",
+        "role": "Kavita, Constable",
+        "age": 23
+      },
+      {
+        "id": "shreya_woman_02",
+        "role": "Meera, Trainee",
+        "age": 24
+      },
+      {
+        "id": "shreya_woman_03",
+        "role": "Poonam, Sub-Inspector",
+        "age": 29
+      },
+      {
+        "id": "shreya_woman_04",
+        "role": "Anjali, Admin",
+        "age": 36
+      }
+    ]
+  },
+  "timeline": [
+    {
+      "id": "SR01",
+      "start": "06:55",
+      "end": "07:28",
+      "lane": "GYM",
+      "location": "Gulmohar Heights fitness corner",
+      "title": "A disciplined New Year workout",
+      "characters": [
+        "shreya",
+        "samar",
+        "shaan",
+        "vivek_rao"
+      ],
+      "summary": "Shreya trains in fitted red sportwear after Ankita's earlier park session ends; Samar and Shaan join a friendly timed challenge.",
+      "beats": [
+        "Run/warm-up, lunges and timed planks show Shreya's active police fitness routine.",
+        "Samar's teasing and Shaan's quieter praise reveal distinct adult attraction, not reciprocation.",
+        "Vivek provides form coaching while keeping training professional."
+      ],
+      "dialogue": [
+        [
+          "Samar (24, society sports twin)",
+          "Inspector madam, aaj bhi hum dono ko race mein harane ka plan hai?"
+        ],
+        [
+          "Shreya (33, Police Inspector)",
+          "Plan nahi. Result pata hai."
+        ],
+        [
+          "Shaan (24, society sports twin)",
+          "Aaj apna best time beat karenge."
+        ]
+      ],
+      "notes": [
+        "No scene with Ankita in this workout; her exercise session ended at 06:52."
+      ],
+      "approval": "USER_ACCEPTED_WORKING_PLOT"
+    },
+    {
+      "id": "SR02",
+      "start": "07:35",
+      "end": "07:58",
+      "lane": "HOME",
+      "location": "Rathore flat",
+      "title": "Between training and the uniform",
+      "characters": [
+        "shreya",
+        "vikram",
+        "arvind",
+        "sameer"
+      ],
+      "summary": "Shreya returns home and prepares for duty; Vikram, her husband, is affectionate and playful; Arvind maintains a respectable outward manner.",
+      "beats": [
+        "Shreya changes into graceful home saree for breakfast, then duty attire; her gym bag stays in the family's outer storage.",
+        "Vikram's affection is established and mutual; Arvind's private one-sided attraction is improper and concealed.",
+        "Anaya (young child) is family-only background and never included in sexualized material."
+      ],
+      "dialogue": [
+        [
+          "Vikram (36, husband)",
+          "Inspector madam, aaj toast missing hai—investigation hogi?"
+        ],
+        [
+          "Shreya",
+          "Ghar ka case mein tum primary suspect ho."
+        ]
+      ],
+      "notes": [
+        "Vikram returns after his 06:38–06:52 Ankita/Vivek park checkpoint."
+      ],
+      "approval": "USER_ACCEPTED_WORKING_PLOT"
+    },
+    {
+      "id": "SR03",
+      "start": "07:58",
+      "end": "08:06",
+      "lane": "SOCIETY",
+      "location": "Gulmohar Heights Tower lobby",
+      "title": "The elder's New Year compliment",
+      "characters": [
+        "shreya",
+        "rajeev"
+      ],
+      "summary": "Rajeev, Ankita's 61-year-old father-in-law, greets Shreya after his 07:19–07:34 family event. He notices her poise and uniform in a brief exchange.",
+      "beats": [
+        "One-sided interest is a possibility, not a confirmed reciprocal relationship.",
+        "Rajeev has no parcel-committee obligations until 12:03, so he is free at this moment."
+      ],
+      "dialogue": [
+        [
+          "Rajeev (61, Ankita's FIL)",
+          "Inspector sahiba, New Year mein bhi duty?"
+        ],
+        [
+          "Shreya",
+          "Ji, sir. Safety ko holiday nahi milta."
+        ]
+      ],
+      "notes": [],
+      "approval": "USER_ACCEPTED_WORKING_PLOT"
+    },
+    {
+      "id": "SR04",
+      "start": "08:06",
+      "end": "08:12",
+      "lane": "SOCIETY",
+      "location": "Society security desk",
+      "title": "The register mismatch",
+      "characters": [
+        "shreya",
+        "chintu",
+        "mahendra"
+      ],
+      "summary": "Shreya gives Chintu, a 23-year-old security helper, practical guidance about a visitor-register discrepancy; Mahendra Suri, 61, is there on society safety business.",
+      "beats": [
+        "Mahendra observes her calm authority; the encounter establishes community respect, not consent to personal attention.",
+        "Keep Mahendra at Soniya's flat 10:07–10:12 and committee office 10:15–10:33; these do not overlap."
+      ],
+      "dialogue": [
+        [
+          "Chintu (23, society security)",
+          "Madam, entry time aur vehicle slip match nahi kar rahe."
+        ],
+        [
+          "Shreya",
+          "Original record preserve karo; guess karke rewrite mat karna."
+        ]
+      ],
+      "notes": [],
+      "approval": "USER_ACCEPTED_WORKING_PLOT"
+    },
+    {
+      "id": "SR05",
+      "start": "08:12",
+      "end": "08:15",
+      "lane": "SOCIETY",
+      "location": "Parking gate",
+      "title": "Two familiar twins, one uniform",
+      "characters": [
+        "shreya",
+        "karan",
+        "aman"
+      ],
+      "summary": "Karan and Aman, Ankita's 22-year-old confirmed twin devars, briefly greet Shreya before their 08:16–08:20 Shivani parking interaction.",
+      "beats": [
+        "Karan's playful admiration contrasts with Aman's reserved curiosity about government recruitment."
+      ],
+      "dialogue": [
+        [
+          "Karan (22, Ankita's devar)",
+          "Inspector ji, New Year mein bhi fitness score top?"
+        ],
+        [
+          "Aman (22, Ankita's devar)",
+          "Police physical test ke liye koi practice tip milegi?"
+        ],
+        [
+          "Shreya",
+          "Consistency. Aur shortcut mat dhoondhna."
+        ]
+      ],
+      "notes": [
+        "No Ankita meeting here; she departed at 08:05."
+      ],
+      "approval": "USER_ACCEPTED_WORKING_PLOT"
+    },
+    {
+      "id": "SR06",
+      "start": "08:20",
+      "end": "08:50",
+      "lane": "TRANSIT",
+      "location": "Gulmohar Heights → police station",
+      "title": "To the police station",
+      "characters": [
+        "shreya"
+      ],
+      "summary": "Shreya travels by car to station, arriving around 08:50.",
+      "beats": [
+        "She keeps her regular duty discipline, not an invented late arrival."
+      ],
+      "dialogue": [],
+      "notes": [
+        "Twin Karan/Aman have already moved to their Shivani and Taniya gym thread."
+      ],
+      "approval": "USER_ACCEPTED_WORKING_PLOT"
+    },
+    {
+      "id": "SR07",
+      "start": "09:00",
+      "end": "09:35",
+      "lane": "OFFICE",
+      "location": "Police station briefing room",
+      "title": "Eyes on the report",
+      "characters": [
+        "shreya",
+        "rohas",
+        "lokesh",
+        "javed",
+        "shreya_woman_01",
+        "shreya_woman_02",
+        "shreya_woman_03"
+      ],
+      "summary": "Shreya assigns tasks to trainee duo Rohas and Lokesh and hears Kavita/Meera/Poonam's updates.",
+      "beats": [
+        "Rohas requests an extra fitness session; Lokesh admires her skills more quietly.",
+        "Female officers have substantive procedural input rather than only admiration dialogue.",
+        "Rohas and Lokesh are police trainees, not biological twins."
+      ],
+      "dialogue": [
+        [
+          "Poonam (29, Sub-Inspector)",
+          "Ma'am, first statement aur log time mismatch hai."
+        ],
+        [
+          "Shreya",
+          "Flag both, original entry overwrite mat karna."
+        ],
+        [
+          "Rohas (24, trainee)",
+          "Ma'am, physical assessment ke liye extra drill?"
+        ],
+        [
+          "Shreya",
+          "Duty complete karo; phir schedule discuss karenge."
+        ]
+      ],
+      "notes": [],
+      "approval": "USER_ACCEPTED_WORKING_PLOT"
+    },
+    {
+      "id": "SR08",
+      "start": "09:20",
+      "end": "09:40",
+      "lane": "HOME",
+      "location": "Rathore flat, outer storage",
+      "title": "The gym bag someone opened",
+      "characters": [
+        "arvind"
+      ],
+      "summary": "A parallel reader-only event: Arvind (65, Shreya's FIL) crosses a boundary by looking into Shreya's personal sportswear pouch without permission.",
+      "beats": [
+        "He retains a loose retail tag while putting the garment back; Shreya has no knowledge of the intrusion.",
+        "Arvind's one-sided fascination and outward traditional-elder role are in tension.",
+        "Do not represent misconduct as consent or glamorize an intrusion."
+      ],
+      "dialogue": [],
+      "notes": [
+        "Arvind is back at committee office 11:20–11:35 and 12:30–12:50; preserve those fixed times."
+      ],
+      "approval": "USER_ACCEPTED_WORKING_PLOT"
+    },
+    {
+      "id": "SR09",
+      "start": "09:40",
+      "end": "10:15",
+      "lane": "OFFICE",
+      "location": "Police station administrative corridor",
+      "title": "An unnecessarily long conversation",
+      "characters": [
+        "shreya",
+        "chauhan"
+      ],
+      "summary": "Inspector Chauhan (42) praises Shreya's sound judgment and prolongs a coffee conversation beyond the report's needs.",
+      "beats": [
+        "Observed personal interest: he creates extra one-to-one time, then drafts but deletes an overly familiar message.",
+        "Shreya remains focused on case evidence."
+      ],
+      "dialogue": [
+        [
+          "Chauhan (42, Inspector)",
+          "Aapki report handling impressive thi."
+        ],
+        [
+          "Shreya",
+          "Team ne details preserve kiye. Ab next witness statement dekhte hain."
+        ]
+      ],
+      "notes": [],
+      "approval": "USER_ACCEPTED_WORKING_PLOT"
+    },
+    {
+      "id": "SR10",
+      "start": "10:30",
+      "end": "11:10",
+      "lane": "OFFICE",
+      "location": "Police station team briefing room",
+      "title": "ACP's unusual preference",
+      "characters": [
+        "shreya",
+        "acp",
+        "shreya_woman_03"
+      ],
+      "summary": "ACP Verma (50) repeatedly asks Shreya for an individual briefing rather than the normal group one. Poonam notices the change.",
+      "beats": [
+        "This is observable preferential attention, not an approved romantic relationship.",
+        "Shreya maintains normal transparent reporting with her team."
+      ],
+      "dialogue": [
+        [
+          "ACP Verma (50, senior official)",
+          "Inspector, is point par mujhe separately brief kar dijiye."
+        ],
+        [
+          "Shreya",
+          "Ji sir, Poonam ke relevant logs ke saath report le aati hoon."
+        ]
+      ],
+      "notes": [],
+      "approval": "USER_ACCEPTED_WORKING_PLOT"
+    },
+    {
+      "id": "SR11",
+      "start": "11:30",
+      "end": "11:40",
+      "lane": "OFFICE",
+      "location": "District police reporting area",
+      "title": "The DCP review",
+      "characters": [
+        "shreya",
+        "dcp"
+      ],
+      "summary": "DCP Rathod (58) completes a performance review; any private attraction remains an unconfirmed future proposal.",
+      "beats": [
+        "Do not silently canonize DCP attraction as established; observe before escalating."
+      ],
+      "dialogue": [
+        [
+          "DCP Rathod (58, senior official)",
+          "Good documentation, Inspector."
+        ],
+        [
+          "Shreya",
+          "Thank you, sir. Originals preserve kiye hain."
+        ]
+      ],
+      "notes": [],
+      "approval": "USER_ACCEPTED_WORKING_PLOT"
+    },
+    {
+      "id": "SR12",
+      "start": "11:40",
+      "end": "12:15",
+      "lane": "OFFICE",
+      "location": "Authorized interview room",
+      "title": "The cellblock bet",
+      "characters": [
+        "shreya",
+        "inmate_a",
+        "inmate_b"
+      ],
+      "summary": "Two adult inmates privately bet that one can win Shreya's personal attention through charm and flattery during authorized questioning.",
+      "beats": [
+        "Both inmates are adults; no sexual relationship occurs in custody.",
+        "Shreya identifies and redirects personal questions, maintaining police boundaries.",
+        "The bet is unknown to Shreya, but known to the reader; future consequence is a manipulation attempt, not romance."
+      ],
+      "dialogue": [
+        [
+          "Adult inmate (30)",
+          "Madam, aap duty ke bahar bhi itni strict hain?"
+        ],
+        [
+          "Shreya",
+          "Yahaan sawaal case ke hain. Personal life ke nahi."
+        ]
+      ],
+      "notes": [],
+      "approval": "USER_ACCEPTED_WORKING_PLOT"
+    },
+    {
+      "id": "SR13",
+      "start": "12:20",
+      "end": "13:15",
+      "lane": "OFFICE",
+      "location": "Police station records desk",
+      "title": "A pattern Poonam notices",
+      "characters": [
+        "shreya",
+        "chauhan",
+        "shreya_woman_03"
+      ],
+      "summary": "Shreya returns to paperwork. Poonam quietly flags Chauhan's unusual invitations and the changes in officer attention.",
+      "beats": [
+        "A small documentation discrepancy and Poonam's observation create future investigation hooks.",
+        "Shreya does not discover Arvind's gym bag intrusion or the inmates' private bet before the cutoff.",
+        "No return-home or evening scenes are written yet."
+      ],
+      "dialogue": [
+        [
+          "Poonam (29, Sub-Inspector)",
+          "Ma'am, yeh follow-up request routine se alag hai."
+        ],
+        [
+          "Shreya",
+          "Noted. Process mein hi handle karenge."
+        ]
+      ],
+      "notes": [],
+      "approval": "USER_ACCEPTED_WORKING_PLOT"
+    }
+  ],
+  "secrets": [
+    {
+      "holder": "Arvind (65, Shreya's FIL)",
+      "target": "Shreya",
+      "knowledge": "Concealed one-sided attraction and access to personal gym-bag pouch; he holds loose retail tag.",
+      "targetKnows": false,
+      "consent": "No consent to opening belongings",
+      "later": "Gym-bag detail becomes a possible clue"
+    },
+    {
+      "holder": "Samar & Shaan (24, society sports twins)",
+      "target": "Shreya",
+      "knowledge": "Distinct admiration and private attraction emerging after timed workout",
+      "targetKnows": false,
+      "consent": "Flirtation is not a relationship",
+      "later": "Friendly fitness rematch"
+    },
+    {
+      "holder": "Chauhan (42, police Inspector)",
+      "target": "Shreya",
+      "knowledge": "Personal admiration beyond work; unsent draft compliment",
+      "targetKnows": false,
+      "consent": "No workplace intimacy implied",
+      "later": "Poonam notices repeated one-to-one preference"
+    },
+    {
+      "holder": "ACP Verma (50)",
+      "target": "Shreya",
+      "knowledge": "Unusual personal attention shown by individual briefing requests",
+      "targetKnows": false,
+      "consent": "Reporting hierarchy is not permission",
+      "later": "Professional favoritism/conflict"
+    },
+    {
+      "holder": "Adult inmates (30,35)",
+      "target": "Shreya",
+      "knowledge": "Private charm/attention bet",
+      "targetKnows": false,
+      "consent": "No sexual engagement in custody",
+      "later": "Manipulative outreach attempt"
+    },
+    {
+      "holder": "DCP Rathod (58)",
+      "target": "Shreya",
+      "knowledge": "Currently professional review only; future attraction unconfirmed",
+      "targetKnows": false,
+      "consent": "No relationship",
+      "later": "Decide after an actual scene"
+    }
+  ],
+  "continuityLocks": [
+    {
+      "at": "06:20–06:37",
+      "characters": [
+        "ankita",
+        "rohan",
+        "nikhil"
+      ],
+      "requirement": "Park walk from Ankita plan; no new Shreya encounter with these people in that slot."
+    },
+    {
+      "at": "06:38–06:52",
+      "characters": [
+        "ankita",
+        "vivek_rao",
+        "vikram"
+      ],
+      "requirement": "Ankita and Vivek mobility session, Vikram cooldown. Shreya workout starts 06:55, not earlier."
+    },
+    {
+      "at": "07:03–07:18",
+      "characters": [
+        "ankita",
+        "karan",
+        "aman",
+        "rajeev"
+      ],
+      "requirement": "Ankita family breakfast; Karan/Aman are not with Shreya at this time."
+    },
+    {
+      "at": "07:19–07:34",
+      "characters": [
+        "ankita",
+        "kabir",
+        "rajeev"
+      ],
+      "requirement": "Rajeev in family corridor; only joins Shreya lobby at 07:58."
+    },
+    {
+      "at": "07:35–07:47",
+      "characters": [
+        "ankita",
+        "ayaan",
+        "armaan_s"
+      ],
+      "requirement": "Ankita lift; no Shreya meeting with her then."
+    },
+    {
+      "at": "07:50–08:05",
+      "characters": [
+        "ankita",
+        "gopal"
+      ],
+      "requirement": "Ankita cab pickup/departure; no Ankita encounter after 08:05."
+    },
+    {
+      "at": "08:12–08:15",
+      "characters": [
+        "shreya",
+        "karan",
+        "aman"
+      ],
+      "requirement": "Twins brief Shreya meeting."
+    },
+    {
+      "at": "08:16–08:20",
+      "characters": [
+        "shivani",
+        "karan",
+        "aman"
+      ],
+      "requirement": "Twins next meet Shivani; Shreya has left the gate."
+    },
+    {
+      "at": "08:25–09:05",
+      "characters": [
+        "taniya",
+        "soniya",
+        "karan",
+        "aman"
+      ],
+      "requirement": "Twins gym with sisters; no Shreya gym overlap."
+    },
+    {
+      "at": "10:07–10:12",
+      "characters": [
+        "soniya",
+        "mahendra"
+      ],
+      "requirement": "Mahendra visits Soniya; separate from 08:06 Shreya security desk."
+    },
+    {
+      "at": "10:15–10:33",
+      "characters": [
+        "gopal",
+        "mahendra"
+      ],
+      "requirement": "Ankita parcel committee; no Shreya meeting with Mahendra now."
+    },
+    {
+      "at": "11:20–11:35",
+      "characters": [
+        "arvind"
+      ],
+      "requirement": "Ankita parcel committee door; Arvind no longer at Shreya residence."
+    },
+    {
+      "at": "12:30–12:50",
+      "characters": [
+        "om",
+        "subhash",
+        "mohan",
+        "arvind",
+        "rajeev",
+        "mahendra"
+      ],
+      "requirement": "Elders committee meeting, no new overlaps."
+    }
+  ],
+  "images": [
+    {
+      "id": "police",
+      "label": "Police-station look",
+      "filename": "Shreya-2026-01-01-Police-Station.png",
+      "driveId": "1dVeTBdVexSpfvVFR4bA6IzaAnV5JndEd",
+      "role": "Police Inspector briefing a senior colleague",
+      "source": "generated current conversation"
+    },
+    {
+      "id": "fitness",
+      "label": "Society fitness",
+      "filename": "Shreya-2026-01-01-Gym-Workout.png",
+      "driveId": "1YAgOUQWJWUHkgqmGJ0Rz0mA6XTIntCuJ",
+      "role": "Morning workout and sports duo",
+      "source": "generated current conversation"
+    },
+    {
+      "id": "collage",
+      "label": "Story board collage",
+      "filename": "Shreya-2026-01-01-Visual-Collage.png",
+      "driveId": "1v3PZmX_jSJy41sea1Gux8BGy9ERo3C_g",
+      "role": "Concept collage; fine print and labels are not canonical",
+      "source": "generated current conversation"
+    }
+  ],
+  "imagePolicy": "Only three successfully generated images are uploaded. No Shruti portrait exists yet. Generated illustrations are concepts; not all face details, badges and collage labels are story canon.",
+  "approvedPolicy": "The user called the plot great and requested publication in common Episode 02. This is a user-accepted working plot, not final prose or authorization for new explicit scenes."
+}
