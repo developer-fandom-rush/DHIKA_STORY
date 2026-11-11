@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Society Wives — Draft Mini-Arc Planner</title>
+<style>
+:root{--ink:#20304d;--sub:#667690;--line:#dfe5ed;--bg:#f4f6fa;--rose:#bb4377;--purple:#7c5baa}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif}
+button,input,select{font:inherit}button{cursor:pointer}a{color:var(--rose);text-decoration:none}h1{font-size:24px;letter-spacing:-.7px;margin:0 0 4px}h2{font-size:18px}h3{margin:8px 0 6px;font-size:17px}
+.top{background:linear-gradient(115deg,#fff,#fff1f6);border-bottom:1px solid #eadce3;padding:18px max(16px,calc((100vw - 1300px)/2));display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+.identity{display:flex;align-items:center;gap:12px}.logo{width:45px;height:45px;border-radius:14px;background:linear-gradient(135deg,#ca5586,#8457a4);display:grid;place-items:center;color:white;font-size:24px}
+.sub{color:var(--sub);font-size:12px}.actions{display:flex;flex-wrap:wrap;gap:8px}
+.btn{border:1px solid var(--line);border-radius:10px;background:#fff;padding:9px 12px;font-size:12px;font-weight:750;color:#354563}
+.btn:hover{background:#f8f9fc}.btn.danger{color:#b43e57;border-color:#ebcdd7;background:#fff8fa}.btn.primary{background:var(--rose);color:white;border-color:var(--rose)}
+.btn:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #8cb8f0;outline-offset:2px}
+.main{max-width:1350px;margin:auto;padding:17px 16px 38px}.note{background:#fff9ea;border:1px solid #ead9b0;padding:13px;border-radius:13px;color:#725d35;line-height:1.55;font-size:12px;margin-bottom:15px}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:11px;margin-bottom:15px}.stat{background:white;border:1px solid var(--line);border-radius:13px;padding:15px}.stat b{display:block;font-size:27px}.stat span{color:var(--sub);font-size:11px}
+.filters{display:flex;align-items:center;gap:9px;flex-wrap:wrap;background:white;border:1px solid var(--line);padding:14px;border-radius:14px}
+input,select{border:1px solid var(--line);padding:10px 11px;border-radius:9px;background:white;color:var(--ink);min-width:155px}
+input{flex:1;min-width:180px}.label{font-size:11px;color:var(--sub)}.phase{display:flex;align-items:center;justify-content:space-between;margin:21px 2px 9px;gap:10px}.phase h2{margin:0}.phase small{color:var(--sub)}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}
+.arc{border:1px solid var(--line);border-radius:16px;background:white;overflow:hidden;box-shadow:0 2px 8px #24406409}
+.arc-head{padding:15px 16px 12px;display:flex;align-items:start;justify-content:space-between;gap:8px}
+.tag{display:inline-block;font-size:10px;font-weight:800;background:#f2f4fa;color:#67748c;padding:5px 8px;border-radius:99px;margin:0 4px 4px 0}.tag.lead{color:#a63969;background:#fcebf2}.tag.week{color:#237e79;background:#e9f6f3}
+.cast{font-size:11px;color:var(--sub);padding:0 16px 12px;line-height:1.5}
+.beats{border-top:1px solid #edf0f5;padding:5px 16px 10px}.beat{display:grid;grid-template-columns:27px 1fr;gap:9px;padding:10px 0;border-bottom:1px dashed #e7ebf1}.beat:last-child{border-bottom:none}
+.beatnum{width:26px;height:26px;border-radius:9px;background:#f5edf9;color:#8e5b9b;font-size:11px;font-weight:850;display:grid;place-items:center}
+.beat strong{font-size:12px}.beat p{margin:4px 0 0;line-height:1.55;font-size:12px;color:#62728c}
+.empty{background:white;border:1px dashed #c6d2e0;padding:40px;border-radius:14px;text-align:center;color:var(--sub)}footer{padding:25px 0 0;color:#8190a3;font-size:11px;line-height:1.5}
+#toast{display:none;position:fixed;bottom:16px;right:16px;background:#20304b;color:white;padding:12px 15px;border-radius:10px;box-shadow:0 12px 30px #0002;max-width:90vw}
+@media(max-width:760px){.grid{grid-template-columns:1fr}.stats{grid-template-columns:repeat(2,1fr)}.top{padding:16px}.main{padding:14px 12px 30px}}
+</style></head>
+<body>
+<header class="top"><div class="identity"><span class="logo">✦</span><div><h1>Society Wives · Mini-Arc Planner</h1><div class="sub">Five female leads · Story development studio · Draft only</div></div></div>
+<nav class="actions"><a class="btn" href="./index.html">← Relationship Atlas</a><button class="btn" id="export">Export JSON</button><button class="btn" id="undo">Undo last delete</button><button class="btn" id="restore">Restore all</button></nav></header>
+<main class="main">
+<div class="note"><strong>PROPOSAL — NOT FINAL CANON.</strong> Dhika's progression is a structural reference: introduction → recurring interactions → distinct mini-arcs → group events → retreat → aftermath. Plot and episode titles are original suggestions for Society Wives. Delete/undo saves changes <strong>only in this browser</strong>; it does not alter GitHub or another reader's draft. Children remain family-only characters and no initial boundary crossing is assumed.</div>
+<div class="stats"><div class="stat"><b id="arcCount">—</b><span>Visible mini-arcs</span></div><div class="stat"><b id="epCount">—</b><span>Episode plot beats</span></div><div class="stat"><b>5</b><span>Main female leads</span></div><div class="stat"><b id="deletedCount">0</b><span>Deleted drafts (this browser)</span></div></div>
+<div class="filters">
+<input id="query" type="search" aria-label="Search arcs" placeholder="Search arc, character, episode or plot...">
+<label class="label" for="lead">Lead</label><select id="lead"><option>All</option><option>Ankita</option><option>Shivani</option><option>Taniya</option><option>Meenakshi</option><option>Shreya</option><option>Shared</option></select>
+<label class="label" for="phase">Stage</label><select id="phase"><option>All</option><option>Foundation</option><option>First Cracks</option><option>Independent Mini-Arcs</option><option>Crossover &amp; Travel</option><option>Consequences</option></select>
+<button class="btn" id="clear">Clear filters</button>
+</div>
+<div id="content" aria-live="polite"><div class="empty">Loading draft arcs…</div></div>
+<footer>Timeline is an early 10-week proposal with staggered arcs. A plot involving a mentor and student does not imply romance. Feelings marked as possibilities are not established events. After you review, the approved draft can be updated in the shared repository.</footer>
+</main><div id="toast" role="status" aria-live="polite"></div>
+<script>
+"use strict";
+const KEY="society-wives-arc-planner-deleted-v1",PHASES=["Foundation","First Cracks","Independent Mini-Arcs","Crossover & Travel","Consequences"];
+const $=x=>document.getElementById(x);
+const elem=(tag,cls,txt)=>{const e=document.createElement(tag);if(cls)e.className=cls;if(txt!==undefined)e.textContent=txt;return e;};
+let data=[],deleted=new Set(),history=[];
+try{const arr=JSON.parse(localStorage.getItem(KEY)||"[]");if(Array.isArray(arr))deleted=new Set(arr.filter(x=>typeof x==="string"));}catch(e){}
+function save(){try{localStorage.setItem(KEY,JSON.stringify([...deleted]));}catch(e){notice("Browser storage unavailable; deletion may not persist.");}}
+let toastTimer;function notice(s){const t=$("toast");t.textContent=s;t.style.display="block";clearTimeout(toastTimer);toastTimer=setTimeout(()=>t.style.display="none",3100);}
+function active(a){if(deleted.has(a.id))return false;
+ if($("lead").value!=="All"&&a.lead!==$("lead").value)return false;
+ if($("phase").value!=="All"&&a.phase!==$("phase").value)return false;
+ let q=$("query").value.trim().toLowerCase();
+ return !q||[a.title,a.lead,a.phase,a.week,a.kind,...a.people,...a.episodes.flatMap(e=>[e.title,e.plot])].join(" ").toLowerCase().includes(q);}
+function show(){
+const visible=data.filter(active),root=$("content");root.replaceChildren();
+$("arcCount").textContent=visible.length;$("epCount").textContent=visible.reduce((n,a)=>n+a.episodes.length,0);$("deletedCount").textContent=[...deleted].filter(id=>data.some(a=>a.id===id)).length;
+if(!visible.length){root.append(elem("div","empty","No matching arcs. Change filters or restore deleted drafts."));return;}
+for(const stageName of PHASES){
+ const rows=visible.filter(a=>a.phase===stageName);if(!rows.length)continue;
+ const bar=elem("div","phase");bar.append(elem("h2",null,stageName),elem("small",null,rows.length+" arcs · "+rows.length*3+" episode beats"));root.append(bar);
+ const grid=elem("div","grid");
+ for(const a of rows){
+  const card=elem("article","arc"),head=elem("div","arc-head"),left=elem("div");
+  left.append(elem("span","tag lead",a.lead),elem("span","tag week",a.week),elem("span","tag",a.kind),elem("h3",null,a.id+" · "+a.title));
+  const del=elem("button","btn danger","Delete");del.type="button";del.setAttribute("aria-label","Delete "+a.title);
+  del.onclick=()=>{if(confirm('Delete the draft mini-arc "'+a.title+'"?\nYou can undo or restore it later.')){deleted.add(a.id);history.push(a.id);save();show();notice("Deleted: "+a.title);}};
+  head.append(left,del);card.append(head,elem("div","cast","Characters: "+a.people.join(" · ")));
+  const beats=elem("div","beats");
+  a.episodes.forEach((ep,i)=>{const row=elem("div","beat"),body=elem("div");
+   body.append(elem("strong",null,ep.title),elem("p",null,ep.plot));row.append(elem("span","beatnum",String(i+1)),body);beats.append(row);});
+  card.append(beats);grid.append(card);
+ }root.append(grid);
+}}
+["query","lead","phase"].forEach(id=>$(id).addEventListener(id==="query"?"input":"change",show));
+$("clear").onclick=()=>{$("query").value="";$("lead").value=$("phase").value="All";show();};
+$("undo").onclick=()=>{while(history.length){const id=history.pop();if(deleted.has(id)){deleted.delete(id);save();show();notice("Last deletion undone.");return;}}notice("No recent deletion to undo. Use Restore all.");};
+$("restore").onclick=()=>{if(!deleted.size){notice("Nothing to restore.");return;}if(confirm("Restore all deleted arcs in this browser?")){deleted.clear();history=[];save();show();notice("All proposed arcs restored.");}};
+$("export").onclick=()=>{const json={title:"Society Wives — Draft Mini-Arcs",status:"PROPOSAL_NOT_CANON",exported:new Date().toISOString(),arcs:data.filter(a=>!deleted.has(a.id)),deletedIds:[...deleted]};const url=URL.createObjectURL(new Blob([JSON.stringify(json,null,2)],{type:"application/json"}));const a=document.createElement("a");a.href=url;a.download="society-wives-mini-arcs-draft.json";a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);};
+fetch("./arcs.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("HTTP "+r.status);return r.json();}).then(j=>{if(!Array.isArray(j.arcs))throw Error("Missing arcs");data=j.arcs;show();}).catch(e=>{$("content").replaceChildren(elem("div","empty","Unable to load draft arcs: "+e.message+". Open the published GitHub Pages URL, not the raw local HTML."));});
+</script></body></html>
