@@ -1092,6 +1092,16 @@
       "house": "shivani",
       "sourceStatus": "PROPOSED_FOR_COLLEGE_CAST",
       "notes": "Optional non-twin classmate; organizational student contact; no romantic interest assumed."
+    },
+    {
+      "id": "shivani_faculty_aarav",
+      "name": "Dr. Aarav Sethi",
+      "age": 35,
+      "role": "Assistant Professor · English faculty colleague of Shivani",
+      "group": "office",
+      "house": "shivani",
+      "sourceStatus": "PROPOSED_FOR_COLLEGE_CAST",
+      "notes": "Peer faculty colleague, not an adult student. Friendly staffroom banter and a possible flirtatious interest are proposed only; no relationship or episode scene approved."
     }
   ],
   "relations": [
@@ -2128,6 +2138,17 @@
       "why": "Professional admiration.",
       "kind": "society",
       "state": "proposal"
+    },
+    {
+      "w": "shivani",
+      "man": "shivani_faculty_aarav",
+      "fromWoman": 1,
+      "fromMan": 2,
+      "importance": 3,
+      "how": "Same college Literature department, co-teaching and academic event planning in faculty room.",
+      "why": "Warm professional familiarity and tentative peer-to-peer flirtation can grow naturally; no approved relationship or intimacy.",
+      "kind": "office",
+      "state": "proposal"
     }
   ],
   "pairs": [
@@ -2525,6 +2546,11 @@
         "id": "chotu_shivani",
         "category": "UNMAPPED_NO_ATTRACTION",
         "why": "User-requested placeholder; exact role and age still pending, no interest invented."
+      },
+      {
+        "id": "shivani_faculty_aarav",
+        "category": "ADULT_FACULTY_PEER_TENTATIVE_INTEREST",
+        "why": "35-year-old Assistant Professor and colleague; subtle flirtation possible, proposed only, distinct from 22-year-old students."
       }
     ],
     "confirmationRule": "fromMan/fromWoman numeric Atlas scores are proposals, not automatic proof of attraction, consent or encounters.",
@@ -2570,7 +2596,8 @@
         "shivani_woman_01",
         "shivani_woman_02",
         "shivani_woman_03",
-        "shivani_woman_04"
+        "shivani_woman_04",
+        "shivani_faculty_aarav"
       ],
       "supportAdministration": [
         "sunny",
@@ -2643,7 +2670,7 @@
       {
         "time": "10:45–11:15",
         "where": "Faculty room",
-        "people": "Shivani; Pooja (Assistant Professor); Sunny (AV assistant)",
+        "people": "Shivani; Pooja (Assistant Professor); Sunny (AV assistant); Dr. Aarav Sethi (35, Assistant Professor)",
         "note": "College faculty and student groups not conflated"
       },
       {
@@ -2678,6 +2705,7 @@
       }
     ],
     "rohanProposedChildcare": "For 01 January only, Rohan's holiday/day-off is PROPOSED: after his known 06:20–06:37 walk he remains home supervising Tara during Shivani's college shift. No gym or office role is assumed.",
-    "plotApproval": "ZERO scenes approved for Shivani 01 January as of this correction. All times, college subject, commute, names of proposed additional students and romantic/erotic subtext await user discussion."
+    "plotApproval": "ZERO scenes approved for Shivani 01 January as of this correction. All times, college subject, commute, names of proposed additional students and romantic/erotic subtext await user discussion.",
+    "staffroomFlirting": "Dr. Aarav Sethi (35, faculty peer) is proposed for subtle adult colleague flirting, completely distinct from Harsh/Laksh (22, adult STUDENTS). Student-professor boundary and grading conflicts must be kept explicit in future plot decisions."
   }
 }
