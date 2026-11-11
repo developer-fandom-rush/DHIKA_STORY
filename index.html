@@ -33,13 +33,13 @@
       <div class="hero"><div><h1>Search the story.<br><em>Keep every line.</em></h1><p>Trace any character, conversation, memory or event across the entire source. Results show verbatim paragraphs—not AI summaries.</p></div><div class="hero-glyph" aria-hidden="true">D<span>↗</span></div></div>
       <div id="stats" class="stats"></div>
       <div class="panel search-panel">
-        <div class="panel-title"><div><h2>Find original evidence</h2><p>Names and filters are lexical clues; nearby text is not proof of interaction.</p></div><span class="panel-kicker">SOURCE SEARCH</span></div>
+        <div class="panel-title"><div><h2>Find original evidence</h2><p>Direct name mentions, speaker exchanges, and third-party discussion are labeled separately. Nearby names do not prove an encounter.</p></div><span class="panel-kicker">SOURCE SEARCH</span></div>
         <div class="search-main"><label for="query">Words or phrase</label><div class="search-field"><span>⌕</span><input id="query" type="search" placeholder="Search any dialogue, action, thought, phrase…" autocomplete="off"><kbd>Enter</kbd></div></div>
         <div class="filter-grid">
           <div class="field"><label for="person-a">Character A</label><select id="person-a"></select></div>
           <div class="field"><label for="person-b">Character B</label><select id="person-b"></select></div>
           <div class="field"><label for="episode-select">Episode scope</label><select id="episode-select"></select></div>
-          <div class="field"><label for="evidence-mode">Pair evidence</label><select id="evidence-mode"><option value="nearby">Nearby named references ±4 lines</option><option value="same">Both names in same line</option><option value="broad">Broad: either character mentioned</option></select></div>
+          <div class="field"><label for="evidence-mode">Pair evidence</label><select id="evidence-mode"><option value="indexed">Audited references: all 3 evidence classes</option><option value="same">Both names in same paragraph</option><option value="dialogue">Explicit speaker exchange candidates</option><option value="discussed">Third-party discussion only</option><option value="nearby">Nearby mentions — review only (±4)</option><option value="broad">Either person mentioned — not pair evidence</option></select></div>
           <div class="field"><label for="reference-mode">Reference mode</label><select id="reference-mode"><option value="all">Any mode</option><option value="dialogue">Direct dialogue</option><option value="memory">Memory / recall cue</option><option value="thought">Inner thought cue</option><option value="imagined">Imagined / dream cue</option><option value="physical">Physical scene cue</option><option value="mentioned">Explicit name mention</option></select></div>
           <div class="field"><label for="topic-mode">Topic / action</label><select id="topic-mode"><option value="all">All topics</option><option value="gaze">Looking / gaze</option><option value="touch">Touch / physical action</option><option value="flirting">Flirting / teasing</option><option value="romance">Romance / affection</option><option value="psychological">Psychology / feelings</option><option value="anatomical">Anatomy / clothing</option><option value="sexual">Sexual content references</option></select></div>
         </div>
@@ -55,11 +55,11 @@
       <div id="reader-body" class="reader-body"></div>
     </section>
     <section id="network-view" class="view hidden">
-      <div class="eyebrow"><span class="line"></span> CROSS-EPISODE REFERENCE ATLAS</div><div class="hero slim"><div><h1>Connect the cast.<br><em>Follow the evidence.</em></h1><p>Character pairs across 41 episodes. Counts show named-reference proximity, not confirmed romantic or physical encounters.</p></div></div>
+      <div class="eyebrow"><span class="line"></span> CROSS-EPISODE REFERENCE ATLAS</div><div class="hero slim"><div><h1>Connect the cast.<br><em>Follow the evidence.</em></h1><p>All 210 character-pair combinations across 41 episodes. Evidence counts are not verified physical encounters.</p></div></div>
       <div class="network-toolbar"><label for="network-person">FOCUS CHARACTER</label><select id="network-person"></select></div>
       <div id="network-summary"></div><div id="network-grid" class="network-grid"></div>
     </section>
-    <footer class="footer"><span>DHIKA / STORY INTELLIGENCE</span><span>Source excerpts preserved. Automated tags are hints, not verified facts.</span></footer>
+    <footer class="footer"><span>DHIKA / STORY INTELLIGENCE</span><span>Source excerpts preserved. Pair evidence is source-linked; automatic tags are hints, not verified facts.</span></footer>
   </main>
 </div>
 </div>
