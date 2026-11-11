@@ -77,7 +77,7 @@ function setup(){
  el("search-btn").addEventListener("click",search);
  el("query").addEventListener("keydown",e=>{if(e.key==="Enter")search();});
  ["person-a","person-b","episode-select","evidence-mode","reference-mode","topic-mode"].forEach(id=>el(id).addEventListener("change",search));
- el("clear-btn").addEventListener("click",()=>{el("query").value="";el("person-a").value="dhika";el("person-b").value="uncle";el("episode-select").value="all";el("evidence-mode").value="nearby";el("reference-mode").value="all";el("topic-mode").value="all";search();});
+ el("clear-btn").addEventListener("click",()=>{el("query").value="";el("person-a").value="dhika";el("person-b").value="uncle";el("episode-select").value="all";el("evidence-mode").value="indexed";el("reference-mode").value="all";el("topic-mode").value="all";search();});
  el("export-btn").addEventListener("click",exportSearch);
  el("loadmore-wrap").addEventListener("click",e=>{if(e.target.closest("[data-more]")){limit+=50;renderResults();}});
  el("results").addEventListener("click",e=>{
@@ -149,6 +149,7 @@ function search(){
  const name=f.a&&f.b?caps(f.a)+" × "+caps(f.b):caps(f.a||f.b)||"Entire archive";
  el("result-title").textContent=name+" — "+results.length.toLocaleString()+" evidence entries";
  el("result-subtitle").textContent="Exact source text with evidence classes. A mention, dialogue cue, or third-party discussion is NOT a verified physical encounter. No source passage has been removed.";
+ results.forEach((r,i)=>r.uiId="match"+i);
  limit=50;renderResults();
 }
 function hilite(text,q){
@@ -160,7 +161,7 @@ function card(x){
  const tags=[...new Set([...p.tags,...(other?.tags||[])])].slice(0,7).map(t=>'<span class="pill'+(t==="psychological"?" mental":"")+'">'+esc(t)+"</span>").join("");
  const url=DOC+"?tab="+encodeURIComponent(ep.tabId);
  const secondary=other?'<div class="quote-line" style="margin-top:13px;padding-top:11px;border-top:1px dashed #40546a"><span class="line-id">'+other.id.split("-").pop()+'</span><p class="raw-line">'+hilite(other.raw,f.phrase)+'</p></div>':"";
- return '<article class="result-card"><div class="result-head"><div><span class="episode-chip">'+ep.id+'</span> <span class="episode-text">'+esc(ep.title)+'</span></div><span class="evidence">'+esc(x.evidence)+'</span></div><div class="result-body"><div class="quote-line"><span class="line-id">'+p.id.split("-").pop()+'</span><p class="raw-line">'+hilite(p.raw,f.phrase)+'</p></div>'+secondary+'<div class="pills">'+tags+'</div><div id="ctx-'+p.id+'" class="quote-context hidden"></div><div class="result-foot"><div><button class="text-button" data-context="'+p.id+'">+ Source context</button> · <button class="text-button" data-reader-link="'+ep.n+'">Read full episode</button></div><div><a href="'+url+'" target="_blank" rel="noopener">Google Doc ↗</a> '+(p.url?'<a href="'+esc(p.url)+'" target="_blank" rel="noopener">Forum post ↗</a>':"")+'</div></div></div></article>';
+ return '<article class="result-card"><div class="result-head"><div><span class="episode-chip">'+ep.id+'</span> <span class="episode-text">'+esc(ep.title)+'</span></div><span class="evidence">'+esc(x.evidence)+'</span></div><div class="result-body"><div class="quote-line"><span class="line-id">'+p.id.split("-").pop()+'</span><p class="raw-line">'+hilite(p.raw,f.phrase)+'</p></div>'+secondary+'<div class="pills">'+tags+'</div><div id="ctx-'+x.uiId+'" class="quote-context hidden"></div><div class="result-foot"><div><button class="text-button" data-context="'+p.id+'" data-area="ctx-'+x.uiId+'">+ Source context</button> · <button class="text-button" data-reader-link="'+ep.n+'">Read full episode</button></div><div><a href="'+url+'" target="_blank" rel="noopener">Google Doc ↗</a> '+(p.url?'<a href="'+esc(p.url)+'" target="_blank" rel="noopener">Forum post ↗</a>':"")+'</div></div></div></article>';
 }
 function renderResults(){
  el("results").innerHTML=results.length?results.slice(0,limit).map(card).join(""):'<div class="no-results"><h3>No matching source lines</h3><p>Try broader pair evidence or remove topic and reference filters. No encounter is invented when a match is absent.</p></div>';
@@ -169,10 +170,10 @@ function renderResults(){
 function context(button){
  const rec=index.get(button.dataset.context);
  if(!rec)return;
- const area=el("ctx-"+rec.p.id);
+ const area=el(button.dataset.area||("ctx-"+rec.p.id));
  if(!area)return;
  if(!area.classList.contains("hidden")){area.classList.add("hidden");button.textContent="+ Source context";return;}
- const first=Math.max(0,rec.p.i-3),last=Math.min(rec.ep.passages.length,rec.p.i+4);
+ const first=Math.max(0,rec.p.i-3),last=Math.min(rec.ep.passages.length,rec.p.i+7);
  area.innerHTML='<div class="section-label">CONTEXT — THREE PARAGRAPHS BEFORE AND AFTER</div>'+rec.ep.passages.slice(first,last).map(p=>'<div class="context-row'+(p.id===rec.p.id?" current":"")+'"><span class="line-id">'+p.id.split("-").pop()+'</span><div class="raw-line">'+hilite(p.raw,settings().phrase)+'</div></div>').join("");
  area.classList.remove("hidden");button.textContent="− Hide context";
 }
