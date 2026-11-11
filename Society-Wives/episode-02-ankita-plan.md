@@ -83,6 +83,18 @@
 - Ankita: Great, then humari committee bach jayegi.
 **Next hooks:** Future society duo contacts can recur without confusing this duo with Karan–Aman.
 
+### 07:47–07:50 · Sharmi's New Year Tease [SOCIETY]
+**Place:** Tower C lobby / lift exit · **Cast:** Ankita, Sharmi
+**Action:** Sharmi, the shared society friend for all five women, greets Ankita on the way to her cab. She compliments her elegant office look and asks for committee help after the release.
+**Ankita reaction:** Amused and comfortable with her friend's familiar teasing.
+**Unspoken / dramatic irony:** Neither knows about the parcel violation that will happen after Ankita leaves.
+**Dialogue ideas:**
+- Sharmi: Ankita, New Year aur tum office-ready? Society ke liye bhi thoda time bachana.
+- Ankita: Release green ho jaye, phir tumhari committee ki poori duniya sambhal lungi.
+- Sharmi: Deal. Aur look very elegant today.
+- Ankita: Thank you, madam coordinator. Ab cab miss mat karwana.
+**Next hooks:** Sharmi remains the common social connector and can notice suspicious society behavior later.
+
 ### 07:50–08:05 · The Package She Hasn't Seen [SOCIETY]
 **Place:** Gate / designated cab pickup · **Cast:** Ankita, Gopal
 **Action:** Ankita asks society watchman Gopal to receive a private delivery if it arrives later in the morning. He has not seen its contents and agrees to log it. She enters a company cab and departs.
