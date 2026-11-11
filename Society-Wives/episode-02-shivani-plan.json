@@ -1,0 +1,543 @@
+{
+  "schema": "society-wives.episode-plan.v1",
+  "title": "Shivani — Three Men, One Private Photograph",
+  "series": "Society Wives — Five Veils of Desire",
+  "lead": "Shivani",
+  "lead_age": 31,
+  "profession": "College lecturer",
+  "date": "2026-01-01",
+  "weekday": "Thursday",
+  "city": "Gurgaon",
+  "status": "Approved core structure — episode stops at 13:20–13:30",
+  "genre_tags": [
+    "adult relationship drama",
+    "secrecy",
+    "temptation",
+    "privacy violation",
+    "interconnected society/college"
+  ],
+  "source": "User's MASTER HANDOFF — SHIVANI EPISODE 02 (11 Nov 2026); no invented verbatim dialogue",
+  "cast": [
+    {
+      "name": "Shivani",
+      "age": 31,
+      "role": "College lecturer; episode lead"
+    },
+    {
+      "name": "Rohan",
+      "age": 34,
+      "role": "Shivani's husband"
+    },
+    {
+      "name": "Tara",
+      "age": 2,
+      "role": "Shivani and Rohan's daughter; family context only"
+    },
+    {
+      "name": "Om",
+      "age": 63,
+      "role": "Shivani's father-in-law"
+    },
+    {
+      "name": "Manav",
+      "age": 23,
+      "role": "Shivani's devar"
+    },
+    {
+      "name": "Kavya",
+      "age": 24,
+      "role": "Shivani's younger sister"
+    },
+    {
+      "name": "Karan",
+      "age": 22,
+      "role": "Ankita's outgoing devar; twin of Aman"
+    },
+    {
+      "name": "Aman",
+      "age": 22,
+      "role": "Ankita's reserved devar; twin of Karan"
+    },
+    {
+      "name": "Harsh",
+      "age": 22,
+      "role": "Shivani's expressive adult undergraduate student; twin of Laksh"
+    },
+    {
+      "name": "Laksh",
+      "age": 22,
+      "role": "Shivani's shy adult undergraduate student; twin of Harsh"
+    },
+    {
+      "name": "Nandini",
+      "age": 22,
+      "role": "Shivani's favorite female undergraduate student"
+    },
+    {
+      "name": "Ritika",
+      "age": 22,
+      "role": "Shivani's favorite female undergraduate student"
+    },
+    {
+      "name": "Pooja",
+      "age": 23,
+      "role": "College faculty colleague"
+    },
+    {
+      "name": "Kriti",
+      "age": 24,
+      "role": "College cultural coordinator"
+    },
+    {
+      "name": "Aarav Sethi",
+      "age": 35,
+      "role": "Assistant Professor; Shivani's male faculty colleague"
+    },
+    {
+      "name": "Sunny",
+      "age": 22,
+      "role": "College audiovisual assistant"
+    },
+    {
+      "name": "Dheeraj",
+      "age": 52,
+      "role": "College principal"
+    },
+    {
+      "name": "Trustee Malhotra",
+      "age": 60,
+      "role": "College trustee"
+    },
+    {
+      "name": "Ankita",
+      "age": 30,
+      "role": "IT Tech Lead; separate concurrent Episode 02"
+    },
+    {
+      "name": "Nikhil",
+      "age": null,
+      "role": "Meenakshi's husband; morning walking participant"
+    },
+    {
+      "name": "Ayaan",
+      "age": null,
+      "role": "Society lift duo; not established as twins"
+    },
+    {
+      "name": "Armaan",
+      "age": null,
+      "role": "Society lift duo; not established as twins"
+    },
+    {
+      "name": "Sharmi",
+      "age": null,
+      "role": "Ankita's separate morning encounter"
+    }
+  ],
+  "parts": [
+    {
+      "id": "A",
+      "title": "Before college"
+    },
+    {
+      "id": "B",
+      "title": "College introduction"
+    },
+    {
+      "id": "C",
+      "title": "The private photograph incident"
+    },
+    {
+      "id": "D",
+      "title": "Episode cutoff"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "A01",
+      "part": "A",
+      "time": "06:20–06:37",
+      "location": "Society morning walking path",
+      "title": "Rohan's established morning walk",
+      "participants": [
+        "Rohan",
+        "Ankita",
+        "Nikhil"
+      ],
+      "approved_beats": [
+        "Rohan participates in his already-established morning walk with Ankita and Nikhil. Shivani remains at home."
+      ],
+      "continuity_notes": [
+        "Rohan is NOT home during this slot."
+      ]
+    },
+    {
+      "id": "A02",
+      "part": "A",
+      "time": "around 06:45–07:10",
+      "location": "Shivani and Rohan's home",
+      "title": "A New Year surprise interrupted",
+      "participants": [
+        "Shivani",
+        "Rohan"
+      ],
+      "approved_beats": [
+        "Rohan returns home around 06:45.",
+        "Shivani plans to surprise her husband privately in her burgundy saree and blouse.",
+        "Before Rohan sees her fully ready, an urgent work call comes. Rohan leaves around 07:10.",
+        "Shivani is disappointed but does not abandon the surprise."
+      ],
+      "continuity_notes": []
+    },
+    {
+      "id": "A03",
+      "part": "A",
+      "time": "after 07:10, before departure",
+      "location": "Home — Shivani's personal phone",
+      "title": "One private non-nude photograph",
+      "participants": [
+        "Shivani"
+      ],
+      "approved_beats": [
+        "Shivani takes a private non-nude photograph in her burgundy surprise outfit.",
+        "The image is kept ONLY in the local gallery of her own phone; she does not print, forward, cloud-upload or send it to Rohan.",
+        "She subsequently changes to professional college attire. Her burgundy photograph outfit is NOT her campus outfit."
+      ],
+      "continuity_notes": [
+        "The intended audience of the photo is her husband, but she does not send it."
+      ]
+    },
+    {
+      "id": "A04",
+      "part": "A",
+      "time": "around 08:10",
+      "location": "Shivani's home",
+      "title": "Childcare handoff",
+      "participants": [
+        "Shivani",
+        "Kavya",
+        "Tara"
+      ],
+      "approved_beats": [
+        "Kavya, Shivani's younger sister, arrives to help care for Tara, Shivani and Rohan's two-year-old daughter."
+      ],
+      "continuity_notes": [
+        "Tara appears only in family/childcare context."
+      ]
+    },
+    {
+      "id": "A05",
+      "part": "A",
+      "time": "08:16–08:20",
+      "location": "Society parking area",
+      "title": "Twins' playful send-off",
+      "participants": [
+        "Shivani",
+        "Karan",
+        "Aman"
+      ],
+      "approved_beats": [
+        "Shivani encounters Karan and Aman, Ankita's adult devar twins.",
+        "Karan is outgoing and Aman more reserved.",
+        "They offer playful compliments and tease Shivani about her appearance and New Year work schedule; Shivani responds with confidence and humor."
+      ],
+      "continuity_notes": [
+        "Ankita is NOT present; her cab departed at 08:05.",
+        "No verbatim dialogue is supplied in the approved handoff."
+      ]
+    },
+    {
+      "id": "A06",
+      "part": "A",
+      "time": "08:20",
+      "location": "Society → college",
+      "title": "Scooty departure",
+      "participants": [
+        "Shivani"
+      ],
+      "approved_beats": [
+        "Shivani leaves the society for college on her scooty."
+      ],
+      "continuity_notes": []
+    },
+    {
+      "id": "B01",
+      "part": "B",
+      "time": "08:45",
+      "location": "College campus",
+      "title": "Arrival",
+      "participants": [
+        "Shivani"
+      ],
+      "approved_beats": [
+        "Shivani arrives at college wearing professional college attire."
+      ],
+      "continuity_notes": []
+    },
+    {
+      "id": "B02",
+      "part": "B",
+      "time": "09:00–10:30",
+      "location": "College undergraduate classroom",
+      "title": "Classroom friendships and discussion",
+      "participants": [
+        "Shivani",
+        "Harsh",
+        "Laksh",
+        "Nandini",
+        "Ritika"
+      ],
+      "approved_beats": [
+        "Shivani teaches her adult undergraduate class.",
+        "Harsh, an expressive 22-year-old student, and Laksh, his shyer 22-year-old twin, exchange humor, compliments, teasing and class discussion with Shivani.",
+        "Nandini and Ritika participate actively with their own compliments, jokes and class-related questions; give them independent personalities."
+      ],
+      "continuity_notes": [
+        "Harsh and Laksh are students, not college employees.",
+        "Conversational energy may echo an earlier work's tone, but must not copy dialogue or events.",
+        "No exact class dialogue was included in the handoff."
+      ]
+    },
+    {
+      "id": "B03",
+      "part": "B",
+      "time": "10:45–11:30",
+      "location": "College faculty room",
+      "title": "Colleagues' introduction",
+      "participants": [
+        "Shivani",
+        "Pooja",
+        "Kriti",
+        "Aarav Sethi"
+      ],
+      "approved_beats": [
+        "Pooja, a college faculty colleague, Kriti, the cultural coordinator, and Aarav Sethi, an Assistant Professor, interact naturally with Shivani.",
+        "Include smiles, professional conversation, light teasing and admiration.",
+        "Aarav's tentative private attraction is separate from the students and is only a seed, not an enacted relationship."
+      ],
+      "continuity_notes": [
+        "No verbatim dialogue is supplied."
+      ]
+    },
+    {
+      "id": "C01",
+      "part": "C",
+      "time": "around 13:00",
+      "location": "College presentation/AV area",
+      "title": "Presentation preparation",
+      "participants": [
+        "Shivani",
+        "Sunny"
+      ],
+      "approved_beats": [
+        "AV setup for a legitimate presentation review is underway.",
+        "Shivani hands her unlocked personal phone to Sunny, the AV assistant, so he can connect it to the presentation system; she trusts him from prior work.",
+        "She has temporarily forgotten the private photograph stored in the local gallery.",
+        "Sunny briefly glimpses something uncertain during setup and cannot identify clearly what he saw."
+      ],
+      "continuity_notes": [
+        "Sunny's brief glimpse is not equivalent to knowing or making a copy."
+      ]
+    },
+    {
+      "id": "C02",
+      "part": "C",
+      "time": "shortly after 13:00",
+      "location": "College presentation/AV area",
+      "title": "Shivani steps out",
+      "participants": [
+        "Shivani",
+        "Sunny"
+      ],
+      "approved_beats": [
+        "Shivani steps out temporarily for academic paperwork or presentation materials.",
+        "Sunny moves away to tend to AV equipment."
+      ],
+      "continuity_notes": []
+    },
+    {
+      "id": "C03",
+      "part": "C",
+      "time": "shortly after 13:00",
+      "location": "College presentation review room",
+      "title": "The photograph appears on screen",
+      "participants": [
+        "Aarav Sethi",
+        "Dheeraj",
+        "Trustee Malhotra"
+      ],
+      "approved_beats": [
+        "Aarav Sethi (colleague), Dheeraj (principal) and Trustee Malhotra (trustee) are present for the legitimate presentation review.",
+        "Shivani's private glamour photograph becomes visible on the connected display.",
+        "All three see an image not intended for them."
+      ],
+      "continuity_notes": [
+        "The exposure is unintended by Shivani."
+      ]
+    },
+    {
+      "id": "C04",
+      "part": "C",
+      "time": "shortly after exposure",
+      "location": "College presentation review room",
+      "title": "Three separate decisions to retain the image",
+      "participants": [
+        "Aarav Sethi",
+        "Dheeraj",
+        "Trustee Malhotra"
+      ],
+      "approved_beats": [
+        "Instead of protecting Shivani's privacy, the three men intentionally capture and retain copies with their own phones.",
+        "They return the display to the college presentation material.",
+        "Their private reactions must be individual: Aarav's response is a colleague's; Dheeraj has administrative authority; Malhotra has the institutional status of an older trustee.",
+        "Their fascination, secrecy and subsequent conduct are deferred future plot seeds."
+      ],
+      "continuity_notes": [
+        "This is a nonconsensual privacy violation, not Shivani's approval or invitation.",
+        "Do not invent any additional physical/sexual incident."
+      ]
+    },
+    {
+      "id": "C05",
+      "part": "C",
+      "time": "after presentation setup",
+      "location": "College presentation/AV area",
+      "title": "Phone returned; knowledge uneven",
+      "participants": [
+        "Sunny",
+        "Shivani"
+      ],
+      "approved_beats": [
+        "Sunny returns to the area.",
+        "Shivani retrieves her personal phone.",
+        "Shivani does not know her photograph was displayed or captured by three men.",
+        "Sunny remains uncertain about his early glimpse."
+      ],
+      "continuity_notes": []
+    },
+    {
+      "id": "D01",
+      "part": "D",
+      "time": "approximately 13:20–13:30",
+      "location": "College campus",
+      "title": "POV cutoff — an unshared secret",
+      "participants": [
+        "Shivani",
+        "Aarav Sethi",
+        "Dheeraj",
+        "Trustee Malhotra",
+        "Sunny"
+      ],
+      "approved_beats": [
+        "Shivani remains on college premises preparing for her next academic responsibility.",
+        "Her phone is back with her and she remains unaware of the exposure or retained copies.",
+        "Aarav, Dheeraj and Malhotra have a concealed and uncomfortable shared secret.",
+        "Sunny has only an uncertain partial glimpse.",
+        "STOP Shivani's point of view here."
+      ],
+      "continuity_notes": [
+        "No leaving campus, return home, dinner, Om encounter, Rohan disclosure or photo decision within this episode."
+      ]
+    }
+  ],
+  "global_clock_protections": [
+    {
+      "time": "06:20–06:37",
+      "rule": "Rohan walks with Ankita and Nikhil, not at home."
+    },
+    {
+      "time": "07:35–07:47",
+      "rule": "Ankita's separate lift encounter with Ayaan–Armaan; no Shivani overlap invented."
+    },
+    {
+      "time": "07:47–07:50",
+      "rule": "Ankita's separate Sharmi encounter."
+    },
+    {
+      "time": "08:05",
+      "rule": "Ankita's company cab leaves the society."
+    },
+    {
+      "time": "08:16–08:20",
+      "rule": "Shivani meets Karan–Aman alone (Ankita absent)."
+    },
+    {
+      "time": "10:37–10:50",
+      "rule": "Om is occupied by Ankita's separate parcel sequence."
+    },
+    {
+      "time": "12:30–12:50",
+      "rule": "Om again occupied by Ankita's parcel sequence."
+    },
+    {
+      "time": "about 13:00",
+      "rule": "Ankita remains at Cyber City office and her separate EP02 POV stops; no return-home beat."
+    },
+    {
+      "time": "13:20–13:30",
+      "rule": "Shivani POV stops while still at college."
+    }
+  ],
+  "character_distinctions": [
+    "Karan–Aman: Ankita's devar twins",
+    "Harsh–Laksh: Shivani's adult student twins",
+    "Ayaan–Armaan: society lift duo; not confirmed twins"
+  ],
+  "privacy_canon": {
+    "photo_is_non_nude": true,
+    "photo_original_storage_in_story": "Shivani's personal phone local gallery only",
+    "photo_is_sent_to_rohan": false,
+    "photo_is_cloud_uploaded_in_story": false,
+    "photo_copies": "Aarav, Dheeraj and Malhotra deliberately and without consent capture it on separate phones",
+    "consent_to_exposure_or_copies": false,
+    "editorial_asset_publication_is_not_in_world_story_event": true
+  },
+  "stop_rule": "STOP Shivani POV at college by approximately 13:20–13:30 on 1 January 2026.",
+  "excluded_future_beats": [
+    "Shivani leaving college",
+    "travelling home",
+    "meeting Om after return",
+    "dinner",
+    "telling Rohan",
+    "choosing what to do with image",
+    "additional college or romance scenes"
+  ],
+  "image_manifest": [
+    {
+      "id": "glamour-1",
+      "name": "Shivani’s Rain-Soaked Profile.png",
+      "library_file_id": "file_000000003c64820ba4a6249ec26dbc87",
+      "use": "Glamour moodboard only; image text and measurements not canon",
+      "github_asset": "assets/shivani/rain-soaked-profile.png",
+      "drive_url": "https://drive.google.com/file/d/1NDs0aJppKdwnzUhsIcV0Vvv3P487Jkn4/view?usp=drivesdk",
+      "status": "uploaded-original"
+    },
+    {
+      "id": "glamour-2",
+      "name": "Rain-Soaked Shivani Profile Portrait.png",
+      "library_file_id": "file_0000000077b4820b9208df76e3c704b4",
+      "use": "Glamour moodboard only; generated measurements and age unverified",
+      "status": "connector egress blocked; retain original in ChatGPT Library"
+    },
+    {
+      "id": "professional",
+      "name": "Shivani, Warm Corridor Portrait.png",
+      "library_file_id": "file_000000006df881faa0a7777285520fd4",
+      "use": "Preferred professional college lecturer portrait; ignore pictured school badge",
+      "status": "connector egress blocked; retain original in ChatGPT Library"
+    },
+    {
+      "id": "private-photo",
+      "name": "Shivani, Private Blouse Photo.png",
+      "library_file_id": "file_000000001fc4820baf993abaa66a6d9d",
+      "use": "Episode 02's private photograph prop; separate from college wardrobe",
+      "status": "connector egress blocked; retain original in ChatGPT Library"
+    }
+  ],
+  "existing_legacy_asset": {
+    "path": "assets/shivani-2026-01-01-school-portrait.jpg",
+    "drive_url": "https://drive.google.com/file/d/1GrS_kwzA-nvv8gtOJ76LVgNwGKWqGbSd/view?usp=drivesdk",
+    "label": "Old school-label reference, not college-lecturer canon; preserve for archive"
+  },
+  "dialogue_note": "The source specifies the topics and tones of conversations, but does not contain verbatim dialogue. None is fabricated here."
+}
