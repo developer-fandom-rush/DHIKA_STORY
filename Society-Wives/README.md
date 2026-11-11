@@ -26,16 +26,16 @@ These are **11 narrative lanes**, not eleven predetermined romances.
 
 ### Draft and approval rules
 
-- `prologue.html` and `prologue.json`: new independent EP00, currently **DRAFT FOR REVIEW**.
+- `episode-01.html` and `episode-01.json`: new independent EP01, currently **DRAFT FOR REVIEW**.
 - `index.html`: relationship atlas; older draft scores within this new universe must still be reconciled as individual arcs are approved.
 - `character-audit.html` / `character-audit-questions.json`: question bank; proposed character attractions do not become events automatically.
 - `arc-planner.html` / `arcs.json`: proposals, not approved episode prose.
 - Every attraction has two independent directions, awareness, action and reaction. Fleeting admiration, a private fantasy, flirtation, consent and actual intimacy are separate.
-- No boundary crossing occurs automatically in EP00.
+- No boundary crossing occurs automatically in EP01.
 - Children appear in family contexts only, never attraction routes.
 - Existing archived Drive or GitHub originals have **not been physically deleted**; this project's canon simply excludes them.
 
-## New-universe Episode 00
+## New-universe Episode 01
 
 **Title:** Five Doors, Eleven Worlds
 
