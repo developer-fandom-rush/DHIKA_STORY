@@ -1,8 +1,8 @@
 {
   "id": "SW-MEENAKSHI-CAST-BASELINE",
-  "status": "DIRECTORY-VERIFIED CAST ONLY — NO EPISODE PLOT",
+  "status": "DIRECTORY_VERIFIED_BASELINE_WITH_EP02_WORKING_PLAN_LINK",
   "sourcePath": "Society-Wives/character-directory.json",
-  "sourceBlobSHA": "31abae77cae194174959060b516687f84778ed72",
+  "sourceBlobSHA": "41b58b5916d4adf858e0b527ab705282f015ad86",
   "lead": {
     "id": "meenakshi",
     "name": "Meenakshi",
@@ -51,8 +51,10 @@
       "role": "Meenakshi’s father-in-law",
       "group": "family",
       "house": "meenakshi",
-      "sourceStatus": "CURRENT_ATLAS",
-      "notes": "Original new-universe Atlas roster, subject to user refinements"
+      "sourceStatus": "USER_CONFIRMED_CHARACTER_DIRECTION",
+      "notes": "Original new-universe Atlas roster, subject to user refinements",
+      "characterDirection": "Concealed one-sided sexual interest toward Meenakshi; Meenakshi does not reciprocate",
+      "storyStatus": "USER_CONFIRMED_INTEREST; UNAPPROVED_EP02_ACTIONS"
     },
     {
       "id": "vihaan",
@@ -80,21 +82,27 @@
       "id": "uday",
       "name": "Uday",
       "age": 24,
-      "role": "Wellness society pair · draft-only",
+      "role": "Society wellness volunteer · Utkarsh’s confirmed twin",
       "group": "society",
       "house": "meenakshi",
-      "sourceStatus": "CURRENT_ATLAS",
-      "notes": "Original new-universe Atlas roster, subject to user refinements"
+      "sourceStatus": "USER_CONFIRMED_EP02",
+      "notes": "Original new-universe Atlas roster, subject to user refinements",
+      "relationship": "Utkarsh’s twin brother",
+      "characterDirection": "More confident and teasing; playful flirting confirmed as user direction",
+      "storyStatus": "CONFIRMED_TWIN_FLIRTING; EP02_SCENES_WORKING"
     },
     {
       "id": "utkarsh",
       "name": "Utkarsh",
       "age": 24,
-      "role": "Wellness society pair · draft-only",
+      "role": "Society wellness volunteer · Uday’s confirmed twin",
       "group": "society",
       "house": "meenakshi",
-      "sourceStatus": "CURRENT_ATLAS",
-      "notes": "Original new-universe Atlas roster, subject to user refinements"
+      "sourceStatus": "USER_CONFIRMED_EP02",
+      "notes": "Original new-universe Atlas roster, subject to user refinements",
+      "relationship": "Uday’s twin brother",
+      "characterDirection": "Quieter and observant; playful flirting confirmed as user direction",
+      "storyStatus": "CONFIRMED_TWIN_FLIRTING; EP02_SCENES_WORKING"
     }
   ],
   "hospital": [
@@ -162,11 +170,11 @@
       "id": "meenakshi_woman_01",
       "name": "Dr. Aditi",
       "age": 24,
-      "role": "Junior Resident",
+      "role": "Junior resident",
       "group": "office",
       "house": "meenakshi",
-      "sourceStatus": "PROPOSED",
-      "notes": "From recent new-universe character discussion; not yet confirmed for on-page episodes."
+      "sourceStatus": "USER_CONFIRMED_EXISTING",
+      "notes": "Existing adult hospital staff, confirmed by Meenakshi EP02 master prompt; scenes remain a working plot"
     },
     {
       "id": "meenakshi_woman_02",
@@ -175,8 +183,8 @@
       "role": "Nurse",
       "group": "office",
       "house": "meenakshi",
-      "sourceStatus": "PROPOSED",
-      "notes": "From recent new-universe character discussion; not yet confirmed for on-page episodes."
+      "sourceStatus": "USER_CONFIRMED_EXISTING",
+      "notes": "Existing adult hospital staff, confirmed by Meenakshi EP02 master prompt; scenes remain a working plot"
     },
     {
       "id": "meenakshi_woman_03",
@@ -192,11 +200,11 @@
       "id": "meenakshi_woman_04",
       "name": "Dr. Leena",
       "age": 39,
-      "role": "Senior Physician",
+      "role": "Senior physician",
       "group": "office",
       "house": "meenakshi",
-      "sourceStatus": "PROPOSED",
-      "notes": "From recent new-universe character discussion; not yet confirmed for on-page episodes."
+      "sourceStatus": "USER_CONFIRMED_EXISTING",
+      "notes": "Existing adult hospital staff, confirmed by Meenakshi EP02 master prompt; scenes remain a working plot"
     }
   ],
   "sharedRelationIds": [
@@ -221,8 +229,8 @@
     {
       "personId": "mohan",
       "kind": "family",
-      "sourceDescription": "Father-in-law and family elder.",
-      "sourceState": "proposal"
+      "sourceDescription": "Meenakshi's father-in-law; lives in Kapoor household.",
+      "sourceState": "confirmed_one_sided_interest_proposed_scene"
     },
     {
       "personId": "babloo",
@@ -233,14 +241,14 @@
     {
       "personId": "uday",
       "kind": "society",
-      "sourceDescription": "Wellness society volunteer (draft-only pair).",
-      "sourceState": "proposal"
+      "sourceDescription": "Society wellness volunteer and Utkarsh’s confirmed twin; confident flirtation.",
+      "sourceState": "flirting_character_direction_confirmed_scene_working"
     },
     {
       "personId": "utkarsh",
       "kind": "society",
-      "sourceDescription": "Other society wellness volunteer (draft-only).",
-      "sourceState": "proposal"
+      "sourceDescription": "Society wellness volunteer and Uday’s confirmed twin; quieter flirtation.",
+      "sourceState": "flirting_character_direction_confirmed_scene_working"
     },
     {
       "personId": "naveen",
@@ -307,13 +315,21 @@
       "kind": "cross",
       "sourceDescription": "Visits with Ankita/Kabir during group events.",
       "sourceState": "proposal"
+    },
+    {
+      "personId": "gopal",
+      "kind": "society",
+      "sourceDescription": "Gate guard; proposed brief conversation about hospital duty and pharmacy delivery.",
+      "sourceState": "proposed_conversation_only"
     }
   ],
   "rules": [
-    "Meenakshi's husband is Nikhil; father-in-law is Mohan; one adult devar Dev is not a twin.",
-    "Vihaan is a minor and family-only; no attraction or adult-intimacy routes.",
-    "Uday–Utkarsh are not canon-confirmed twins; Avi–Yash are a proposed hospital duo.",
-    "Proposed female hospital colleagues remain PROPOSED, not confirmed episode appearances.",
-    "No Meenakshi episode plot, dates, scenes or dialogue are invented in this baseline."
-  ]
+    "Nikhil husband; Mohan FIL with one-sided interest confirmed but Meenakshi does not reciprocate; Dev single adult devar.",
+    "Vihaan (1½) family-only, no attraction routes.",
+    "Uday and Utkarsh confirmed society twin brothers (24); flirting approved, no intimacy assumed.",
+    "Avi and Yash remain hospital trainee duo, not confirmed twins.",
+    "Dr. Aditi, Rupa and Dr. Leena confirmed existing hospital staff; Parnika remains proposed.",
+    "Refer to episode-02-meenakshi-plan.json for dated scenes; all scenes are unapproved working plot."
+  ],
+  "episode02PlanPath": "episode-02-meenakshi-plan.json"
 }
