@@ -62,7 +62,7 @@ function render(){
           "Her own possible interests: "+a.ankitaInterests.join("; ")];
  }
  lines.push("STATUS: "+x.rules,"EXISTING ATLAS: "+x.chartUpdate);
- summary.textContent=lines.join("\\n\\n");
+ summary.textContent=lines.join("\n\n");
  }else{summary.textContent=lead+" expansion is not drafted yet. Reuse this question bank to define her office, society, other husbands, family and attraction routes.";}
  const root=$("questions");root.replaceChildren();
  const available=bank.questions.filter(q=>!query||(q.group+" "+q.question).toLowerCase().includes(query));
