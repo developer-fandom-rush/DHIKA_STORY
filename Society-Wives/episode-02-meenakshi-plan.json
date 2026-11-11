@@ -1,0 +1,445 @@
+{
+  "schemaVersion": "1.0",
+  "id": "SW-EP02-MEENAKSHI-2026-01-01",
+  "episode": 2,
+  "title": "The Black Lace Beneath the White Coat",
+  "date": "2026-01-01",
+  "weekday": "Thursday",
+  "timezone": "Asia/Kolkata",
+  "leadId": "meenakshi",
+  "status": "WORKING_PLOT_FOR_REVIEW_NOT_APPROVED_PROSE",
+  "sourcePriority": "Direct user master prompt for Meenakshi EP02; preserve other existing EP02 material and the separate Ankita EP03 saved plot",
+  "characterIds": [
+    "meenakshi",
+    "nikhil",
+    "mohan",
+    "dev",
+    "ishita",
+    "vihaan",
+    "uday",
+    "utkarsh",
+    "gopal",
+    "babloo",
+    "avi",
+    "yash",
+    "naveen",
+    "ritesh",
+    "kunal",
+    "khurana",
+    "meenakshi_woman_01",
+    "meenakshi_woman_02",
+    "meenakshi_woman_04"
+  ],
+  "confirmedDecisions": {
+    "profile": {
+      "lead": {
+        "age": 32,
+        "profession": "Doctor"
+      },
+      "spouse": {
+        "id": "nikhil",
+        "age": 35
+      },
+      "fil": {
+        "id": "mohan",
+        "age": 64,
+        "attraction": "PRIVATE_ONE_SIDED_CONFIRMED",
+        "reciprocal": false
+      },
+      "devar": "dev",
+      "youngerSister": "ishita",
+      "child": {
+        "id": "vihaan",
+        "ageYears": 1.5,
+        "role": "FAMILY_ONLY"
+      }
+    },
+    "societyTwins": {
+      "people": [
+        "uday",
+        "utkarsh"
+      ],
+      "ages": [
+        24,
+        24
+      ],
+      "twins": "CONFIRMED_BY_USER",
+      "flirting": "APPROVED",
+      "mutualIntimacy": "NOT_APPROVED"
+    },
+    "hospitalDuo": {
+      "people": [
+        "avi",
+        "yash"
+      ],
+      "twins": "NOT_CONFIRMED"
+    },
+    "guard": {
+      "id": "gopal",
+      "conversationStatus": "PROPOSED"
+    },
+    "hospitalWomen": {
+      "existing": [
+        "meenakshi_woman_01",
+        "meenakshi_woman_02",
+        "meenakshi_woman_04"
+      ],
+      "remainingProposal": [
+        "meenakshi_woman_03"
+      ]
+    }
+  },
+  "imageManifest": [
+    {
+      "id": "professional",
+      "title": "Professional Hospital Look",
+      "assetPath": "assets/meenakshi/confident_doctor_in_a_hospital_corridor.svg",
+      "sourceAttachment": "image(3).png",
+      "setting": "hospital corridor",
+      "use": "Official doctor profile and hospital scenes",
+      "status": "USER_SUPPLIED"
+    },
+    {
+      "id": "glamour",
+      "title": "Black Lace Beneath the White Coat",
+      "assetPath": "assets/meenakshi/glamorous_doctor_in_dressing_room.svg",
+      "sourceAttachment": "image(4).png",
+      "setting": "private dressing room",
+      "use": "Private glamour and wardrobe visual; not for clinical scene representation",
+      "status": "USER_SUPPLIED"
+    }
+  ],
+  "timeline": [
+    {
+      "id": "M00",
+      "start": "06:20",
+      "end": "06:37",
+      "lane": "SOCIETY",
+      "location": "Gulmohar Heights morning walking path",
+      "characters": [
+        "nikhil",
+        "ankita",
+        "rohan"
+      ],
+      "title": "Nikhil's morning walk",
+      "summary": "Nikhil walks with Ankita and Rohan.",
+      "detail": "Reference to existing Ankita episode A02. Do not render a duplicate scene or change the existing beat.",
+      "approval": "EXISTING_CANON_REFERENCE",
+      "notes": []
+    },
+    {
+      "id": "M01",
+      "start": "06:40",
+      "end": "07:40",
+      "lane": "HOME",
+      "location": "Kapoor household",
+      "characters": [
+        "meenakshi",
+        "nikhil",
+        "mohan",
+        "dev",
+        "ishita",
+        "vihaan"
+      ],
+      "title": "New Year at home",
+      "summary": "Meenakshi and Nikhil share a playful married-life conversation; she prepares a private evening surprise.",
+      "detail": "Mohan privately notices her clothing and develops one-sided attraction. His unauthorized inspection of a personal clothing pouch creates a secret. This violation is not known or permitted by Meenakshi. Vihaan appears only in family/maternal care context.",
+      "approval": "WORKING_PLOT_UNAPPROVED",
+      "notes": [
+        "Mohan's parallel private subplot is 07:00–07:40, within this household window, not an additional location."
+      ]
+    },
+    {
+      "id": "M02",
+      "start": "07:45",
+      "end": "08:10",
+      "lane": "SOCIETY",
+      "location": "Society wellness area",
+      "characters": [
+        "meenakshi",
+        "uday",
+        "utkarsh"
+      ],
+      "title": "Two contrasting wellness twins",
+      "summary": "Uday and Utkarsh meet Meenakshi. Uday teases confidently; Utkarsh is quieter.",
+      "detail": "Compliments and light banter are approved as character dynamics. No touch or reciprocal romance is presumed.",
+      "approval": "WORKING_PLOT_UNAPPROVED",
+      "notes": [
+        "Uday–Utkarsh are confirmed twin brothers, 24; distinct from hospital trainees Avi–Yash."
+      ]
+    },
+    {
+      "id": "M03",
+      "start": "08:10",
+      "end": "08:15",
+      "lane": "SOCIETY",
+      "location": "Society gate",
+      "characters": [
+        "meenakshi",
+        "gopal"
+      ],
+      "title": "Gate and pharmacy delivery",
+      "summary": "Meenakshi talks with society guard Gopal about hospital duty and pharmacy delivery.",
+      "detail": "Conversation placement is working/proposed; do not treat it as a confirmed relationship direction.",
+      "approval": "PROPOSED_CONVERSATION",
+      "notes": []
+    },
+    {
+      "id": "M04",
+      "start": "08:15",
+      "end": "08:45",
+      "lane": "TRANSIT",
+      "location": "Gulmohar Heights to hospital",
+      "characters": [
+        "meenakshi"
+      ],
+      "title": "Morning commute",
+      "summary": "Meenakshi drives to the hospital.",
+      "detail": "No other society encounter is scheduled during her transit.",
+      "approval": "WORKING_PLOT_UNAPPROVED",
+      "notes": []
+    },
+    {
+      "id": "M05",
+      "start": "08:45",
+      "end": "09:05",
+      "lane": "HOSPITAL",
+      "location": "Private staff changing area",
+      "characters": [
+        "meenakshi"
+      ],
+      "title": "Preparation before rounds",
+      "summary": "Meenakshi arrives, attends to her maternal-care routine and changes into professional hospital attire.",
+      "detail": "An elderly ward attendant and floor cleaner briefly see an unintended private moment through an unsecured doorway and withdraw. The exposure is accidental; no invitation or permission is implied. Meenakshi secures her belongings in her locker. Neither worker has an established identity in the directory.",
+      "approval": "WORKING_PLOT_UNAPPROVED",
+      "notes": [
+        "The two incidental workers remain unnamed; no new character record or relationship is invented."
+      ]
+    },
+    {
+      "id": "M06",
+      "start": "09:05",
+      "end": "10:15",
+      "lane": "HOSPITAL",
+      "location": "Hospital rounds",
+      "characters": [
+        "meenakshi",
+        "meenakshi_woman_02",
+        "meenakshi_woman_01",
+        "avi",
+        "yash",
+        "naveen"
+      ],
+      "title": "Morning rounds",
+      "summary": "Meenakshi works with nurse Rupa, junior resident Dr. Aditi, trainees Avi/Yash and administrator Naveen.",
+      "detail": "Keep this a clinical work sequence. Avi and Yash are a work duo and are NOT confirmed twins.",
+      "approval": "WORKING_PLOT_UNAPPROVED",
+      "notes": []
+    },
+    {
+      "id": "M07",
+      "start": "10:20",
+      "end": "10:45",
+      "lane": "HOSPITAL",
+      "location": "Hospital consultation area",
+      "characters": [
+        "meenakshi",
+        "ritesh"
+      ],
+      "title": "Senior doctor consultation",
+      "summary": "Professional interaction with Dr. Ritesh Anand.",
+      "detail": "Tentative attraction is a working interpretation; not approved as mutual intimacy.",
+      "approval": "WORKING_PLOT_UNAPPROVED",
+      "notes": [
+        "Keep Ritesh's role separate from later unauthorized locker incident."
+      ]
+    },
+    {
+      "id": "M08",
+      "start": "11:00",
+      "end": "11:40",
+      "lane": "HOSPITAL",
+      "location": "Senior review conference",
+      "characters": [
+        "meenakshi",
+        "kunal",
+        "khurana",
+        "meenakshi_woman_04"
+      ],
+      "title": "Senior review",
+      "summary": "Dr. Kunal Bedi and chairman Dr. S. P. Khurana join administrative and departmental discussions; Dr. Leena is an existing clinician in the roster.",
+      "detail": "No additional private interactions invented.",
+      "approval": "WORKING_PLOT_UNAPPROVED",
+      "notes": []
+    },
+    {
+      "id": "M09",
+      "start": "12:20",
+      "end": "12:35",
+      "lane": "HOSPITAL",
+      "location": "Staff locker area",
+      "characters": [
+        "ritesh"
+      ],
+      "title": "Ritesh's unauthorized locker access",
+      "summary": "Ritesh enters Meenakshi's locker using an unauthorized duplicate key.",
+      "detail": "Privacy breach; he is interrupted and leaves without properly securing the locker. Meenakshi is absent and does not consent.",
+      "approval": "WORKING_PLOT_UNAPPROVED",
+      "notes": [
+        "No explicit sexual detail or unapproved physical encounter."
+      ]
+    },
+    {
+      "id": "M10",
+      "start": "12:36",
+      "end": "12:50",
+      "lane": "HOSPITAL",
+      "location": "Staff locker area",
+      "characters": [
+        "kunal"
+      ],
+      "title": "Kunal finds the locker open",
+      "summary": "Kunal notices the unsecured locker and intrudes into Meenakshi's personal belongings.",
+      "detail": "Second distinct privacy violation; items are left disturbed. Meenakshi remains unaware.",
+      "approval": "WORKING_PLOT_UNAPPROVED",
+      "notes": []
+    },
+    {
+      "id": "M11",
+      "start": "12:51",
+      "end": "13:05",
+      "lane": "HOSPITAL",
+      "location": "Staff locker area",
+      "characters": [
+        "khurana"
+      ],
+      "title": "Khurana closes the locker",
+      "summary": "Khurana discovers the locker left open, observes evidence of interference, rearranges the belongings and closes it.",
+      "detail": "He does not report the incident, forming a separate secret. Do not imply Meenakshi approved any access.",
+      "approval": "WORKING_PLOT_UNAPPROVED",
+      "notes": []
+    },
+    {
+      "id": "M12",
+      "start": "13:10",
+      "end": "13:15",
+      "lane": "HOSPITAL",
+      "location": "Staff locker area",
+      "characters": [
+        "meenakshi"
+      ],
+      "title": "Unease at the locker",
+      "summary": "Meenakshi notices some belongings seem displaced.",
+      "detail": "She cannot identify who entered or what occurred. POV ends at 13:15 with no evening scene.",
+      "approval": "WORKING_PLOT_UNAPPROVED",
+      "notes": [
+        "STOP: do not generate evening surprise, homecoming or disclosure."
+      ]
+    }
+  ],
+  "secrets": [
+    {
+      "id": "MS01",
+      "actorId": "mohan",
+      "targetId": "meenakshi",
+      "window": "07:00–07:40",
+      "knowledge": "Mohan knows his one-sided attraction and unauthorized pouch inspection; Meenakshi does not",
+      "consent": "NO_PERMISSION",
+      "consequence": "Unresolved family secret; not a reciprocal relationship",
+      "status": "ONE_SIDED_ATTRACTION_CONFIRMED_ACTION_WORKING"
+    },
+    {
+      "id": "MS02",
+      "actorId": "ritesh",
+      "targetId": "meenakshi",
+      "window": "12:20–12:35",
+      "knowledge": "Ritesh knows he entered with an unauthorized duplicate; Meenakshi does not",
+      "consent": "NO_PERMISSION",
+      "consequence": "Locker left unsecured",
+      "status": "WORKING_PLOT"
+    },
+    {
+      "id": "MS03",
+      "actorId": "kunal",
+      "targetId": "meenakshi",
+      "window": "12:36–12:50",
+      "knowledge": "Kunal knows he entered an open locker; Meenakshi does not",
+      "consent": "NO_PERMISSION",
+      "consequence": "Personal belongings left displaced",
+      "status": "WORKING_PLOT"
+    },
+    {
+      "id": "MS04",
+      "actorId": "khurana",
+      "targetId": "meenakshi",
+      "window": "12:51–13:05",
+      "knowledge": "Khurana notices interference but keeps silent; Meenakshi does not know who was present",
+      "consent": "NO_PERMISSION_TO_INSPECT",
+      "consequence": "Locker closed; potential evidence not reported",
+      "status": "WORKING_PLOT"
+    },
+    {
+      "id": "MS05",
+      "actorId": "meenakshi",
+      "targetId": "locker",
+      "window": "13:10–13:15",
+      "knowledge": "Sees signs of displacement only; no culprit knowledge",
+      "consent": "VICTIM_UNAWARE",
+      "consequence": "Unresolved suspicion at the end of EP02",
+      "status": "WORKING_PLOT"
+    }
+  ],
+  "globalClockLocks": [
+    {
+      "id": "A02",
+      "at": "06:20–06:37",
+      "characters": [
+        "nikhil",
+        "ankita",
+        "rohan"
+      ],
+      "requirement": "Existing walk reference; do not duplicate"
+    },
+    {
+      "id": "MO01",
+      "at": "07:00–07:40",
+      "characters": [
+        "mohan"
+      ],
+      "requirement": "At Kapoor household, private subplot inside M01"
+    },
+    {
+      "id": "AP05",
+      "at": "11:06–11:19",
+      "characters": [
+        "mohan"
+      ],
+      "requirement": "At committee office in Ankita parcel sequence"
+    },
+    {
+      "id": "AP08",
+      "at": "12:30–12:50",
+      "characters": [
+        "mohan"
+      ],
+      "requirement": "At existing elders meeting; no return to Kapoor home assumed"
+    },
+    {
+      "id": "CUT",
+      "at": "13:15",
+      "characters": [
+        "meenakshi"
+      ],
+      "requirement": "At hospital, no evening continuation"
+    }
+  ],
+  "issuesToReview": [
+    "Two unnamed incidental hospital staff are scene-only supporting roles, not new directory identities.",
+    "07:00–07:40 Mohan's private action overlaps the household window intentionally in the same location.",
+    "User confirmed Uday–Utkarsh as twins; the character directory and atlas require the corresponding update.",
+    "Potential 12:30–12:50 concurrency: Mohan is in committee scene only; other men are in hospital locker scene. No same-person collision.",
+    "The two supplied wardrobe images are reference visuals, not images proving an in-story event."
+  ],
+  "cutoff": "2026-01-01T13:15:00",
+  "next": "Await user approval for prose or evening continuation. No automatic expansion."
+}
