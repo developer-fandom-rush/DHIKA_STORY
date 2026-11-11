@@ -3,7 +3,7 @@
   "title": "Society Wives — Draft Mini-Arc Planner",
   "status": "INDEPENDENT_NEW_UNIVERSE__PROPOSED_ARCS",
   "basedOn": "Dhika episode progression patterns: introductions, helper/twins encounters, friend-group visits, travel, and aftermath.",
-  "scope": "New Society Wives universe only. Prior Society_Story archives are excluded from story continuity. Dhika may inform storytelling structure but is not a shared story world.",
+  "scope": "Renumbered independent-new-universe episode proposals beginning at EP01. EP02 is a working title and plot under review, not approved prose. Dhika is structural inspiration only.",
   "arcs": [
     {
       "id": "A01",
@@ -23,17 +23,17 @@
       "episodes": [
         {
           "number": "A01-1",
-          "title": "EP 00 — Five Doors, Eleven Worlds",
-          "plot": "An independent story opens across five personal society/home settings, five workplaces and one shared crossover gathering. Attraction is recorded by perspective, intention, knowledge and response; no new boundary is crossed."
+          "title": "EP 01 — Five Doors, Eleven Worlds",
+          "plot": "Independent new-universe opening: five women, five homes, five workplaces and one shared gathering over a single day. Tracks male intent, woman awareness, family connection, spoken attraction and private recollection without premature intimacy."
         },
         {
           "number": "A01-2",
-          "title": "EP 01 — Morning Lift",
-          "plot": "An ordinary shared morning introduces couples, parenting routines and the ease of old friendships."
+          "title": "EP 02 — The Pallu and the Stolen Glances (Working Title)",
+          "plot": "Draft only: each of five women experiences an overlapping society/home, family and workplace sequence. Male attention can be spoken flirt, private attraction or professional admiration; female reactions vary. Family dynamics remain individually grounded; final scene map pending user review."
         },
         {
           "number": "A01-3",
-          "title": "EP 02 — The Chairman's Notice",
+          "title": "EP 03 — The Chairman's Notice",
           "plot": "Mahendra announces society plans that bring younger helpers and elders into the same setting."
         }
       ]
@@ -55,17 +55,17 @@
       "episodes": [
         {
           "number": "A02-1",
-          "title": "EP 03 — Before Duty Calls",
+          "title": "EP 04 — Before Duty Calls",
           "plot": "Five households juggle office departures, childcare and engagement planning on one calendar."
         },
         {
           "number": "A02-2",
-          "title": "EP 04 — Dinner Without Invitations",
+          "title": "EP 05 — Dinner Without Invitations",
           "plot": "An unscheduled group evening reveals how much all the couples trust one another."
         },
         {
           "number": "A02-3",
-          "title": "EP 05 — Small Private Impressions",
+          "title": "EP 06 — Small Private Impressions",
           "plot": "Each wife notices a different quality in a friend's husband without assuming a romance."
         }
       ]
@@ -92,17 +92,17 @@
       "episodes": [
         {
           "number": "A03-1",
-          "title": "EP 06 — Forms and Admit Cards",
+          "title": "EP 07 — Forms and Admit Cards",
           "plot": "Adult devars and sisters seek exam and career help from the five professional women."
         },
         {
           "number": "A03-2",
-          "title": "EP 07 — Saturday Guidance",
+          "title": "EP 08 — Saturday Guidance",
           "plot": "Shreya hosts police preparation, Ankita assists interviews and Shivani structures revision."
         },
         {
           "number": "A03-3",
-          "title": "EP 08 — Two Seats at the Table",
+          "title": "EP 09 — Two Seats at the Table",
           "plot": "Young adult students meet across families; one light crush develops inside the peer group."
         }
       ]
@@ -123,17 +123,17 @@
       "episodes": [
         {
           "number": "A04-1",
-          "title": "EP 09 — Volunteers Required",
+          "title": "EP 10 — Volunteers Required",
           "plot": "Sharmi assigns the five women different society event responsibilities."
         },
         {
           "number": "A04-2",
-          "title": "EP 10 — The Recently Married Guests",
+          "title": "EP 11 — The Recently Married Guests",
           "plot": "Soniya and Rahul visit and become recurring social participants rather than background relatives."
         },
         {
           "number": "A04-3",
-          "title": "EP 11 — Everyone Knows Everyone",
+          "title": "EP 12 — Everyone Knows Everyone",
           "plot": "A dinner shows the existing friendly teasing, mutual support and clear boundaries."
         }
       ]
@@ -156,17 +156,17 @@
       "episodes": [
         {
           "number": "A05-1",
-          "title": "EP 12 — Two Mock Interviews",
+          "title": "EP 13 — Two Mock Interviews",
           "plot": "Karan and Aman ask their bhabhi for help while preparing for Shreya's coaching session."
         },
         {
           "number": "A05-2",
-          "title": "EP 13 — Rinku's Repair Visit",
+          "title": "EP 14 — Rinku's Repair Visit",
           "plot": "A society helper becomes familiar through recurring maintenance work and respectful conversation."
         },
         {
           "number": "A05-3",
-          "title": "EP 14 — A Compliment Remembered",
+          "title": "EP 15 — A Compliment Remembered",
           "plot": "Ankita notices a small moment of attention but keeps it separate from her marriage and daily routine."
         }
       ]
@@ -188,17 +188,17 @@
       "episodes": [
         {
           "number": "A06-1",
-          "title": "EP 15 — Two New Collaborators",
+          "title": "EP 16 — Two New Collaborators",
           "plot": "Vivan and Reyansh join Ankita's project with contrasting work styles."
         },
         {
           "number": "A06-2",
-          "title": "EP 16 — Twenty Minutes Offline",
+          "title": "EP 17 — Twenty Minutes Offline",
           "plot": "A production incident creates intense teamwork and unexpected appreciation."
         },
         {
           "number": "A06-3",
-          "title": "EP 17 — The Unsent Message",
+          "title": "EP 18 — The Unsent Message",
           "plot": "Ankita privately questions why an ordinary colleague's compliment stayed in her mind."
         }
       ]
@@ -220,17 +220,17 @@
       "episodes": [
         {
           "number": "A07-1",
-          "title": "EP 18 — Last Period",
+          "title": "EP 19 — Last Period",
           "plot": "Shivani prepares a school cultural function while arranging Tara's childcare."
         },
         {
           "number": "A07-2",
-          "title": "EP 19 — The Rehearsal Rescue",
+          "title": "EP 20 — The Rehearsal Rescue",
           "plot": "School staff help with a technical mishap, developing professional trust."
         },
         {
           "number": "A07-3",
-          "title": "EP 20 — After the Applause",
+          "title": "EP 21 — After the Applause",
           "plot": "An admirer makes a gentle, awkward impression that Shivani does not pursue."
         }
       ]
@@ -252,17 +252,17 @@
       "episodes": [
         {
           "number": "A08-1",
-          "title": "EP 21 — Three Calendars",
+          "title": "EP 22 — Three Calendars",
           "plot": "Audit deadlines and wedding planning collide as Soniya arrives to help."
         },
         {
           "number": "A08-2",
-          "title": "EP 22 — The Article Assistant",
+          "title": "EP 23 — The Article Assistant",
           "plot": "Punit earns Taniya's respect during a difficult audit."
         },
         {
           "number": "A08-3",
-          "title": "EP 23 — Soniya's Question",
+          "title": "EP 24 — Soniya's Question",
           "plot": "Soniya raises a candid question about attraction, commitment and independence."
         }
       ]
@@ -284,17 +284,17 @@
       "episodes": [
         {
           "number": "A09-1",
-          "title": "EP 24 — Night Shift",
+          "title": "EP 25 — Night Shift",
           "plot": "Meenakshi balances hospital duty with a missed family dinner."
         },
         {
           "number": "A09-2",
-          "title": "EP 25 — A Reliable Assistant",
+          "title": "EP 26 — A Reliable Assistant",
           "plot": "Naveen handles an urgent logistics issue and earns professional confidence."
         },
         {
           "number": "A09-3",
-          "title": "EP 26 — The Unexpected Thanks",
+          "title": "EP 27 — The Unexpected Thanks",
           "plot": "Meenakshi reflects on being seen as a person beyond her responsibilities."
         }
       ]
@@ -317,17 +317,17 @@
       "episodes": [
         {
           "number": "A10-1",
-          "title": "EP 27 — Two New Trainees",
+          "title": "EP 28 — Two New Trainees",
           "plot": "A police trainee pair joins Shreya's unit and begins to learn her leadership style."
         },
         {
           "number": "A10-2",
-          "title": "EP 28 — A Long Report",
+          "title": "EP 29 — A Long Report",
           "plot": "Teamwork during a demanding duty shift reveals trust and admiration."
         },
         {
           "number": "A10-3",
-          "title": "EP 29 — The Line of Respect",
+          "title": "EP 30 — The Line of Respect",
           "plot": "Shreya notices personal admiration but maintains clear authority and boundaries."
         }
       ]
@@ -353,17 +353,17 @@
       "episodes": [
         {
           "number": "A11-1",
-          "title": "EP 30 — Six Men at Breakfast",
+          "title": "EP 31 — Six Men at Breakfast",
           "plot": "Fathers-in-law and the chairman form a recurring society committee."
         },
         {
           "number": "A11-2",
-          "title": "EP 31 — A Courtesy Visit",
+          "title": "EP 32 — A Courtesy Visit",
           "plot": "Rajeev visits another family's home on genuine committee business and notices an unspoken attraction."
         },
         {
           "number": "A11-3",
-          "title": "EP 32 — The Things Unsaid",
+          "title": "EP 33 — The Things Unsaid",
           "plot": "Older men's private admiration remains one-sided, with no assumed response from the women."
         }
       ]
@@ -385,17 +385,17 @@
       "episodes": [
         {
           "number": "A12-1",
-          "title": "EP 33 — Two Solutions",
+          "title": "EP 34 — Two Solutions",
           "plot": "The office pair compete over a design choice and reveal distinct personalities."
         },
         {
           "number": "A12-2",
-          "title": "EP 34 — Lift After Hours",
+          "title": "EP 35 — Lift After Hours",
           "plot": "A short after-work conversation feels unexpectedly personal to Ankita."
         },
         {
           "number": "A12-3",
-          "title": "EP 35 — The Next Sprint",
+          "title": "EP 36 — The Next Sprint",
           "plot": "Ankita decides how to keep professional collaboration uncomplicated while feelings remain uncertain."
         }
       ]
@@ -417,17 +417,17 @@
       "episodes": [
         {
           "number": "A13-1",
-          "title": "EP 36 — Identical Names on the Roster",
+          "title": "EP 37 — Identical Names on the Roster",
           "plot": "Twin event coordinators Ayaan and Armaan assist Shivani with society preparations."
         },
         {
           "number": "A13-2",
-          "title": "EP 37 — The Poster Room",
+          "title": "EP 38 — The Poster Room",
           "plot": "Shivani gets to know each twin individually during a supervised planning session."
         },
         {
           "number": "A13-3",
-          "title": "EP 38 — The Unfinished Compliment",
+          "title": "EP 39 — The Unfinished Compliment",
           "plot": "One twin's quiet crush becomes visible; Shivani remains kind and clear about boundaries."
         }
       ]
@@ -449,17 +449,17 @@
       "episodes": [
         {
           "number": "A14-1",
-          "title": "EP 39 — The Ledger Problem",
+          "title": "EP 40 — The Ledger Problem",
           "plot": "Taniya and two young colleagues correct a difficult set of accounts."
         },
         {
           "number": "A14-2",
-          "title": "EP 40 — Coffee After Closing",
+          "title": "EP 41 — Coffee After Closing",
           "plot": "Friendly debates reveal the two colleagues' contrasting admiration for her."
         },
         {
           "number": "A14-3",
-          "title": "EP 41 — Client Dinner",
+          "title": "EP 42 — Client Dinner",
           "plot": "A senior partner invites the team to a work event, creating a separate professional tension thread."
         }
       ]
@@ -481,17 +481,17 @@
       "episodes": [
         {
           "number": "A15-1",
-          "title": "EP 42 — A New Health Programme",
+          "title": "EP 43 — A New Health Programme",
           "plot": "Two wellness-coach twins seek medical oversight for a society initiative."
         },
         {
           "number": "A15-2",
-          "title": "EP 43 — The Trial Session",
+          "title": "EP 44 — The Trial Session",
           "plot": "Working together in public lets Meenakshi notice their different temperaments."
         },
         {
           "number": "A15-3",
-          "title": "EP 44 — The Quiet Crush",
+          "title": "EP 45 — The Quiet Crush",
           "plot": "One twin develops an unspoken interest while Meenakshi sees mostly professional enthusiasm."
         }
       ]
@@ -513,17 +513,17 @@
       "episodes": [
         {
           "number": "A16-1",
-          "title": "EP 45 — Saturday Mock Interviews",
+          "title": "EP 46 — Saturday Mock Interviews",
           "plot": "Shreya coaches police aspirants Karan and Aman, joined by Manav."
         },
         {
           "number": "A16-2",
-          "title": "EP 46 — The Unexpected Question",
+          "title": "EP 47 — The Unexpected Question",
           "plot": "The students' different reactions make the group feel more personal and familiar."
         },
         {
           "number": "A16-3",
-          "title": "EP 47 — Mentor First",
+          "title": "EP 48 — Mentor First",
           "plot": "Shreya handles a carefully worded compliment without confusing mentoring with romance."
         }
       ]
@@ -544,17 +544,17 @@
       "episodes": [
         {
           "number": "A17-1",
-          "title": "EP 48 — The Second Service Call",
+          "title": "EP 49 — The Second Service Call",
           "plot": "Recurring apartment repairs introduce an everyday support-person storyline."
         },
         {
           "number": "A17-2",
-          "title": "EP 49 — A Corridor Joke",
+          "title": "EP 50 — A Corridor Joke",
           "plot": "A friendly exchange is noticed by someone else and misinterpreted."
         },
         {
           "number": "A17-3",
-          "title": "EP 50 — A Different Kind of Attention",
+          "title": "EP 51 — A Different Kind of Attention",
           "plot": "Ankita thinks about the difference between appreciation, flattery and attraction."
         }
       ]
@@ -576,17 +576,17 @@
       "episodes": [
         {
           "number": "A18-1",
-          "title": "EP 51 — The Missing Props",
+          "title": "EP 52 — The Missing Props",
           "plot": "A school-stage mishap creates another shared professional challenge."
         },
         {
           "number": "A18-2",
-          "title": "EP 52 — The Photograph",
+          "title": "EP 53 — The Photograph",
           "plot": "A harmless photograph triggers teasing and an unexpectedly private reaction."
         },
         {
           "number": "A18-3",
-          "title": "EP 53 — After the Function",
+          "title": "EP 54 — After the Function",
           "plot": "Shivani considers whether familiarity has changed how one colleague sees her."
         }
       ]
@@ -608,17 +608,17 @@
       "episodes": [
         {
           "number": "A19-1",
-          "title": "EP 54 — The Returning Sister",
+          "title": "EP 55 — The Returning Sister",
           "plot": "Recently married Soniya takes an active role in wedding preparations."
         },
         {
           "number": "A19-2",
-          "title": "EP 55 — Rhea's Visit",
+          "title": "EP 56 — Rhea's Visit",
           "plot": "Rhea seeks career guidance while Rahul joins household conversations, opening a new crossover route."
         },
         {
           "number": "A19-3",
-          "title": "EP 56 — Two Marriages, Two Questions",
+          "title": "EP 57 — Two Marriages, Two Questions",
           "plot": "Taniya and Soniya discuss emotional expectations without equating attraction with betrayal."
         }
       ]
@@ -640,17 +640,17 @@
       "episodes": [
         {
           "number": "A20-1",
-          "title": "EP 57 — The Volunteer Call",
+          "title": "EP 58 — The Volunteer Call",
           "plot": "Meenakshi organises a medical camp and Babloo coordinates supplies."
         },
         {
           "number": "A20-2",
-          "title": "EP 58 — The Missing Box",
+          "title": "EP 59 — The Missing Box",
           "plot": "An ordinary logistics problem creates a memorable teamwork moment."
         },
         {
           "number": "A20-3",
-          "title": "EP 59 — When the Guests Leave",
+          "title": "EP 60 — When the Guests Leave",
           "plot": "Meenakshi reflects on becoming more visible in the larger society circle."
         }
       ]
@@ -672,17 +672,17 @@
       "episodes": [
         {
           "number": "A21-1",
-          "title": "EP 60 — Field Exercise",
+          "title": "EP 61 — Field Exercise",
           "plot": "Shreya leads the trainee pair in a difficult operational test."
         },
         {
           "number": "A21-2",
-          "title": "EP 61 — Unexpected Backup",
+          "title": "EP 62 — Unexpected Backup",
           "plot": "A colleague supports her during a difficult day, strengthening professional trust."
         },
         {
           "number": "A21-3",
-          "title": "EP 62 — Roll-Call Rumour",
+          "title": "EP 63 — Roll-Call Rumour",
           "plot": "Unwanted gossip tests Shreya's authority and reinforces her boundaries."
         }
       ]
@@ -709,17 +709,17 @@
       "episodes": [
         {
           "number": "A22-1",
-          "title": "EP 63 — Study Room Sunday",
+          "title": "EP 64 — Study Room Sunday",
           "plot": "Younger adults from different households prepare together for interviews and exams."
         },
         {
           "number": "A22-2",
-          "title": "EP 64 — Two Seats by the Window",
+          "title": "EP 65 — Two Seats by the Window",
           "plot": "A possible peer-to-peer romance develops between two unattached adults."
         },
         {
           "number": "A22-3",
-          "title": "EP 65 — Before the Rumours",
+          "title": "EP 66 — Before the Rumours",
           "plot": "Friends clarify their feelings and try to protect the wider study circle from gossip."
         }
       ]
@@ -742,17 +742,17 @@
       "episodes": [
         {
           "number": "A23-1",
-          "title": "EP 66 — Everyone Brings Something",
+          "title": "EP 67 — Everyone Brings Something",
           "plot": "A rotating dinner brings friends and spouses together in a smaller setting."
         },
         {
           "number": "A23-2",
-          "title": "EP 67 — The Compliment That Travelled",
+          "title": "EP 68 — The Compliment That Travelled",
           "plot": "A joke is interpreted differently by three people, exposing the limits of shared familiarity."
         },
         {
           "number": "A23-3",
-          "title": "EP 68 — Two Drives Home",
+          "title": "EP 69 — Two Drives Home",
           "plot": "Two couples talk honestly about boundaries, attraction and trust in different ways."
         }
       ]
@@ -774,17 +774,17 @@
       "episodes": [
         {
           "number": "A24-1",
-          "title": "EP 69 — Names on the List",
+          "title": "EP 70 — Names on the List",
           "plot": "A weekend outing is planned only after duty rosters, childcare and travel logistics are settled."
         },
         {
           "number": "A24-2",
-          "title": "EP 70 — The Resort Arrival",
+          "title": "EP 71 — The Resort Arrival",
           "plot": "A new setting changes the conversational pairings without changing established relationships overnight."
         },
         {
           "number": "A24-3",
-          "title": "EP 71 — The Evening Walk",
+          "title": "EP 72 — The Evening Walk",
           "plot": "Private conversations reveal different emotional directions for each lead."
         }
       ]
@@ -807,17 +807,17 @@
       "episodes": [
         {
           "number": "A25-1",
-          "title": "EP 72 — Breakfast by the Pool",
+          "title": "EP 73 — Breakfast by the Pool",
           "plot": "After the first evening, several people reflect on harmless moments that nevertheless felt important."
         },
         {
           "number": "A25-2",
-          "title": "EP 73 — The Lost Room Key",
+          "title": "EP 74 — The Lost Room Key",
           "plot": "An ordinary mix-up pairs unexpected friends for an illuminating short conversation."
         },
         {
           "number": "A25-3",
-          "title": "EP 74 — The Ride Back",
+          "title": "EP 75 — The Ride Back",
           "plot": "Each woman returns with a distinct unresolved question that belongs to her own story."
         }
       ]
@@ -838,17 +838,17 @@
       "episodes": [
         {
           "number": "A26-1",
-          "title": "EP 75 — Different Mondays",
+          "title": "EP 76 — Different Mondays",
           "plot": "The five women return to different professions and process the weekend separately."
         },
         {
           "number": "A26-2",
-          "title": "EP 76 — The Message Not Sent",
+          "title": "EP 77 — The Message Not Sent",
           "plot": "A few characters choose restraint, clarity or distance over impulsive escalation."
         },
         {
           "number": "A26-3",
-          "title": "EP 77 — The Sisters' Pact",
+          "title": "EP 78 — The Sisters' Pact",
           "plot": "The women reaffirm friendship while admitting that not all feelings can be planned."
         }
       ]
@@ -871,20 +871,21 @@
       "episodes": [
         {
           "number": "A27-1",
-          "title": "EP 78 — The Next Release",
+          "title": "EP 79 — The Next Release",
           "plot": "Ankita's office pair returns to a new assignment, setting up a possible second mini-arc."
         },
         {
           "number": "A27-2",
-          "title": "EP 79 — Four Different Invitations",
+          "title": "EP 80 — Four Different Invitations",
           "plot": "The other four women receive distinct work and society opportunities tied to existing people."
         },
         {
           "number": "A27-3",
-          "title": "EP 80 — Another Society Sunday",
+          "title": "EP 81 — Another Society Sunday",
           "plot": "One gathering opens the door to later parts without forcing all relationships forward together."
         }
       ]
     }
-  ]
+  ],
+  "versionNote": "The former EP00 is now official Episode 01. All later draft episode numbers were shifted +1 to preserve unique continuity."
 }
