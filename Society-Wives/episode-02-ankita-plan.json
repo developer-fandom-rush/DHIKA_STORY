@@ -253,6 +253,42 @@
       ]
     },
     {
+      "id": "A06B",
+      "start": "07:47",
+      "end": "07:50",
+      "lane": "SOCIETY",
+      "where": "Tower C lobby / lift exit",
+      "cast": [
+        "Ankita",
+        "Sharmi"
+      ],
+      "title": "Sharmi's New Year Tease",
+      "action": "Sharmi, the shared society friend for all five women, intercepts Ankita briefly on the way to her cab. She notices Ankita's polished appearance and teases her about dressing up even for a holiday shift. Ankita laughs and promises to answer the committee message later.",
+      "dialogue": [
+        [
+          "Sharmi",
+          "Ankita, New Year aur tum office-ready? Society ke liye bhi thoda time bachana."
+        ],
+        [
+          "Ankita",
+          "Release green ho jaye, phir tumhari committee ki poori duniya sambhal lungi."
+        ],
+        [
+          "Sharmi",
+          "Deal. Aur look very elegant today."
+        ],
+        [
+          "Ankita",
+          "Thank you, madam coordinator. Ab cab miss mat karwana."
+        ]
+      ],
+      "herReaction": "Easy woman-to-woman friendship, amused and at ease; no private parcel knowledge.",
+      "privateThought": "Sharmi notices her friend's confidence and work demands. She has no reason to suspect what will later happen to the package.",
+      "hooks": [
+        "Common society friend is in the day naturally and can help question strange society behavior in later episodes."
+      ]
+    },
+    {
       "id": "A07",
       "start": "07:50",
       "end": "08:05",
@@ -901,7 +937,7 @@
     "noSimultaneousPresence": "Ankita is at Cyber City from ~08:50 to 15:30 and not physically present for any parcel-office scenes between 09:55 and 12:50.",
     "actorIndependence": "Four elders visit committee office sequentially; each secretly removes a set, unaware that others did likewise.",
     "tally": "6 clothing sets initially; removals Gopal, Mahendra, Om, Subhash, Mohan, Arvind = 6; Rajeev receives 0 clothing sets plus remaining other contents.",
-    "sharedCast": "Sharmi remains shared society friend but is not forced into a morning scene; she can later notice suspicious behavior in EP03."
+    "sharedCast": "Sharmi has a brief 07:47 lobby interaction before Ankita's 08:05 departure, connecting the shared society friend without forcing her into parcel knowledge."
   },
   "planningQuestions": [
     "Should Kabir join the park walk occasionally or remain at home cooking breakfast?",
