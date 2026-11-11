@@ -34,6 +34,8 @@ def original(ep, row):
     return episodes[ep]["lines"][row][0]
 
 def has_name(text, person):
+    if person == "uncle":
+        return bool(re.search(r"\bUncle(?:ji)?\b(?!\s+Iroh\b)", text, re.I))
     if person == "twins":
         return (
             bool(re.search(r"\btwins?\b", text, re.I))
@@ -48,6 +50,10 @@ def speaker(text):
     if not m:
         return None
     name = m.group(1).strip().lower()
+    if name in ("angel dhika", "angle dhika", "devil dhika"):
+        return None
+    if name == "uncle iroh":
+        return "iroh"
     for person, aliases in people.items():
         if person != "twins" and name in [a.lower() for a in aliases]:
             return person
@@ -98,6 +104,9 @@ assert index["pairs"]["bantu__uncle"]["counts"] == {
 }
 assert index["pairs"]["bantu__sharmi"]["counts"]["coMention"] == 0
 assert index["pairs"]["bobby__sharmi"]["counts"]["coMention"] == 0
+assert index["pairs"]["iroh__zuko"]["counts"]["coMention"] > 0
+assert index["aliases"]["iroh"] == ["Iroh", "Old man"]
+assert index["aliases"]["zuko"] == ["Zuko", "Young one"]
 assert index["pairs"]["john__ron"]["counts"]["coMention"] == 0
 assert 37 in index["pairs"]["sharmi__uncle"]["episodes"]
 assert index["pairs"]["bantu__dhika"]["counts"]["speakerExchange"] > 0
@@ -114,4 +123,5 @@ print(f"PASS: all {len(pair_ids)} character-pair indexes internally consistent")
 print(f"PASS: {total_refs:,} source-linked evidence pointers checked")
 print("PASS: no editorial metadata counted as direct pair evidence")
 print("PASS: distinct brothers, collective Twins, separate John and Ron")
+print("PASS: disambiguated explicit Uncle Iroh, mapped Old Man and Young one")
 print("CAUTION: textual evidence is not independently verified physical interaction.")
