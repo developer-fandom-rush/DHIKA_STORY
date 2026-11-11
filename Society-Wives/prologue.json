@@ -1011,11 +1011,11 @@
       "scene": "S06",
       "observer": "Rohit",
       "target": "Ankita",
-      "type": "Young admiration",
+      "type": "Professional admiration",
       "focus": "Competence and elegance",
       "reciprocated": "Not reciprocal",
       "knows": "Only notices respect",
-      "thought": "He finds her impressive, with a possible mild crush not acted on.",
+      "thought": "He finds her leadership and polished style impressive; for now his response is admiration rather than a defined romantic crush.",
       "action": "Support work in the office, no sexual talk.",
       "attendance": "Offstage supporting role",
       "status": "PROPOSED_NOT_CONFIRMED",
@@ -1397,7 +1397,8 @@
       "No explicit sexual descriptions. No intimate or non-consensual actions occur in this prologue.",
       "All younger adults are 18+; children remain family-only.",
       "Prologue anchors only first impressions; future events require separate episode approval.",
-      "Ledger intentionally separates attraction from affection, friendship and work respect; private wish does not indicate another person's consent."
+      "Ledger intentionally separates attraction from affection, friendship and work respect; private wish does not indicate another person's consent.",
+      "Rohit is professional admiration only in EP00; any later romantic change requires an approved scene."
     ]
   }
 }
