@@ -1,8 +1,8 @@
 {
-  "schemaVersion": "1.0",
+  "schemaVersion": "1.1",
   "title": "Society Wives — Character Attraction & Relationship Audit",
   "status": "DRAFT_QUESTIONS",
-  "scope": "Reusable for office worlds of Ankita, Shivani, Taniya, Meenakshi and Shreya. Start with Ankita.",
+  "scope": "Reusable for all five women's office, society, family, friends' husbands and short-term attraction routes. Start with Ankita.",
   "questions": [
     {
       "id": "Q01",
@@ -183,6 +183,156 @@
       "id": "Q36",
       "group": "Continuity and boundaries",
       "question": "Which relationships and scenes should remain purely professional?"
+    },
+    {
+      "id": "Q37",
+      "group": "One-night and short-term interest",
+      "question": "Does this man want a one-time encounter, a brief casual relationship, or only have a fleeting attraction?"
+    },
+    {
+      "id": "Q38",
+      "group": "One-night and short-term interest",
+      "question": "Does the woman independently want any short-term intimacy, or is the desire entirely one-sided?"
+    },
+    {
+      "id": "Q39",
+      "group": "One-night and short-term interest",
+      "question": "Is the one-night interest a private wish, a verbal invitation, or an agreed event?"
+    },
+    {
+      "id": "Q40",
+      "group": "One-night and short-term interest",
+      "question": "What would make the characters discuss expectations, clear consent and boundaries before any encounter?"
+    },
+    {
+      "id": "Q41",
+      "group": "One-night and short-term interest",
+      "question": "If a one-night encounter never happens, how does the person respond without pressure or resentment?"
+    },
+    {
+      "id": "Q42",
+      "group": "Female colleagues and HR",
+      "question": "Which women work with the lead, including younger developers, testers, analysts and managers?"
+    },
+    {
+      "id": "Q43",
+      "group": "Female colleagues and HR",
+      "question": "Who is the HR executive and who is the senior HR business partner?"
+    },
+    {
+      "id": "Q44",
+      "group": "Female colleagues and HR",
+      "question": "Are the female colleagues friends, mentors, rivals or merely acquaintances of the lead?"
+    },
+    {
+      "id": "Q45",
+      "group": "Female colleagues and HR",
+      "question": "Which female colleagues have independent romantic storylines with adult office men?"
+    },
+    {
+      "id": "Q46",
+      "group": "Female colleagues and HR",
+      "question": "Who has authority over hiring, ratings, promotions and complaints, and how do those boundaries affect office relationships?"
+    },
+    {
+      "id": "Q47",
+      "group": "Society and everyday contacts",
+      "question": "Which society helpers, gym trainers, event coordinators and elders interact with the lead in person?"
+    },
+    {
+      "id": "Q48",
+      "group": "Society and everyday contacts",
+      "question": "Which visitors enter through genuinely established events rather than implausible accidental meetings?"
+    },
+    {
+      "id": "Q49",
+      "group": "Society and everyday contacts",
+      "question": "Which society men feel physical, romantic, short-term or no attraction toward her?"
+    },
+    {
+      "id": "Q50",
+      "group": "Society and everyday contacts",
+      "question": "Who does the lead notice in her society, and what is the reason for any reciprocal interest?"
+    },
+    {
+      "id": "Q51",
+      "group": "Society and everyday contacts",
+      "question": "Which other lead's society twins or helpers know her, and through which specific event?"
+    },
+    {
+      "id": "Q52",
+      "group": "Other husbands and married friends",
+      "question": "Which of the other four women's husbands interact with this lead, and where do they meet?"
+    },
+    {
+      "id": "Q53",
+      "group": "Other husbands and married friends",
+      "question": "How does Soniya's husband join the shared couples' friendship circle?"
+    },
+    {
+      "id": "Q54",
+      "group": "Other husbands and married friends",
+      "question": "Which married men experience admiration, physical curiosity, short-term desire or romantic feelings for her?"
+    },
+    {
+      "id": "Q55",
+      "group": "Other husbands and married friends",
+      "question": "Does she feel anything toward these men, or only value their friendship and reliability?"
+    },
+    {
+      "id": "Q56",
+      "group": "Other husbands and married friends",
+      "question": "What social consequences would follow if a married friend's one-sided attraction became obvious?"
+    },
+    {
+      "id": "Q57",
+      "group": "Family, devars and elders",
+      "question": "Which younger adult devars and sisters live in or visit the lead's household?"
+    },
+    {
+      "id": "Q58",
+      "group": "Family, devars and elders",
+      "question": "Are any adult family members privately attracted to the lead, and is it strictly one-sided?"
+    },
+    {
+      "id": "Q59",
+      "group": "Family, devars and elders",
+      "question": "Which fathers-in-law or older family friends have cross-household admiration or attraction routes?"
+    },
+    {
+      "id": "Q60",
+      "group": "Family, devars and elders",
+      "question": "How do the characters preserve family roles and avoid reading ordinary caregiving as consent?"
+    },
+    {
+      "id": "Q61",
+      "group": "Family, devars and elders",
+      "question": "Are children included only for everyday family and childcare context, separate from all adult attraction routes?"
+    },
+    {
+      "id": "Q62",
+      "group": "Attraction ladder and continuity",
+      "question": "How do we score each direction separately: female-to-male and male-to-female?"
+    },
+    {
+      "id": "Q63",
+      "group": "Attraction ladder and continuity",
+      "question": "Which contacts are professional admiration only, with no sexual or romantic intent?"
+    },
+    {
+      "id": "Q64",
+      "group": "Attraction ladder and continuity",
+      "question": "Which proposed route is one-time, recurring crush, romantic, mutual or unreciprocated?"
+    },
+    {
+      "id": "Q65",
+      "group": "Attraction ladder and continuity",
+      "question": "How many ordinary meetings occur before the first visible emotional change?"
+    },
+    {
+      "id": "Q66",
+      "group": "Attraction ladder and continuity",
+      "question": "Is each attraction's reason, event entry point, approval status and next episode clearly recorded?"
     }
   ],
   "ankitaOfficeDraft": {
@@ -202,6 +352,31 @@
         "name": "Ira Mehta",
         "age": 32,
         "role": "Product Designer; confident professional peer"
+      },
+      {
+        "name": "Nisha Gupta",
+        "age": 22,
+        "role": "Junior Java Developer; curious and eager to learn"
+      },
+      {
+        "name": "Diya Sen",
+        "age": 23,
+        "role": "UI Developer; creative, sociable teammate"
+      },
+      {
+        "name": "Sana Khan",
+        "age": 24,
+        "role": "QA Automation Engineer; practical, straightforward"
+      },
+      {
+        "name": "Kavita Rao",
+        "age": 24,
+        "role": "HR Executive; onboarding, employee engagement and policy"
+      },
+      {
+        "name": "Ayesha Malik",
+        "age": 31,
+        "role": "HR Business Partner; workplace conduct and senior HR decisions"
       }
     ],
     "visualDesign": "Attractive adult IT lead, expressive eyes, warm smile, curvy figure with fuller bust, defined waist and rounded hips; elegant workwear and occasional sarees.",
@@ -248,5 +423,220 @@
       "Armaan Sethi: intellectual fascination, romance uncertain"
     ],
     "limits": "No boundaries crossed. Senior-junior power differences need explicit scrutiny. Existing atlas scores remain unchanged until user approval."
+  },
+  "ankitaExpandedWorldDraft": {
+    "status": "PROPOSED_NOT_APPROVED",
+    "officeFemaleTeam": [
+      {
+        "name": "Priya Nair",
+        "age": 29,
+        "role": "QA Lead; trusted office friend"
+      },
+      {
+        "name": "Aditi Shah",
+        "age": 26,
+        "role": "Business Analyst; outgoing and observant"
+      },
+      {
+        "name": "Ira Mehta",
+        "age": 32,
+        "role": "Product Designer; confident professional peer"
+      },
+      {
+        "name": "Nisha Gupta",
+        "age": 22,
+        "role": "Junior Java Developer; curious and eager to learn"
+      },
+      {
+        "name": "Diya Sen",
+        "age": 23,
+        "role": "UI Developer; creative, sociable teammate"
+      },
+      {
+        "name": "Sana Khan",
+        "age": 24,
+        "role": "QA Automation Engineer; practical, straightforward"
+      },
+      {
+        "name": "Kavita Rao",
+        "age": 24,
+        "role": "HR Executive; onboarding, employee engagement and policy"
+      },
+      {
+        "name": "Ayesha Malik",
+        "age": 31,
+        "role": "HR Business Partner; workplace conduct and senior HR decisions"
+      }
+    ],
+    "officeMen": [
+      {
+        "name": "Rohit",
+        "age": 22,
+        "route": "Young crush",
+        "reason": "Ankita's confident leadership and appearance",
+        "ankitaToHim": "None proposed"
+      },
+      {
+        "name": "Vivan",
+        "age": 24,
+        "route": "Physical + possible romance",
+        "reason": "Shared project successes and Ankita's personality",
+        "ankitaToHim": "Mild curiosity proposed"
+      },
+      {
+        "name": "Reyansh",
+        "age": 24,
+        "route": "Short-term / possible one-night interest",
+        "reason": "Attracted to her looks and playful wit; not a planned encounter",
+        "ankitaToHim": "Friendly, no reciprocal short-term interest established"
+      },
+      {
+        "name": "Sandeep Khurana",
+        "age": 38,
+        "route": "Subtle attention",
+        "reason": "Admiration of maturity and competence",
+        "ankitaToHim": "Professional respect only"
+      },
+      {
+        "name": "Armaan Sethi",
+        "age": 44,
+        "route": "Intellectual and romantic possibility",
+        "reason": "Thoughtful leadership conversations",
+        "ankitaToHim": "Intellectual fascination, romance uncertain"
+      },
+      {
+        "name": "Mr. Bhalla",
+        "age": 58,
+        "route": "Fleeting admiration",
+        "reason": "Her elegant professional presence",
+        "ankitaToHim": "None proposed"
+      }
+    ],
+    "societyMen": [
+      {
+        "name": "Rinku",
+        "age": 23,
+        "role": "Society helper",
+        "interaction": "Scheduled repairs and corridor greetings",
+        "interest": "Young admiration; romance not established"
+      },
+      {
+        "name": "Vivek Rao",
+        "age": 30,
+        "role": "Gym trainer",
+        "interaction": "Gym induction and society fitness events",
+        "interest": "Not defined yet; proposed social contact only"
+      },
+      {
+        "name": "Mahendra Suri",
+        "age": 61,
+        "role": "Society chairman",
+        "interaction": "Volunteer committee",
+        "interest": "Respect and social admiration only"
+      },
+      {
+        "name": "Ayaan & Armaan",
+        "age": 23,
+        "role": "Shivani's proposed society-event twins",
+        "interaction": "Festival IT signup assistance",
+        "interest": "Cross-contact only; no attraction presumed"
+      },
+      {
+        "name": "Uday & Utkarsh",
+        "age": 24,
+        "role": "Meenakshi's proposed wellness twins",
+        "interaction": "Society health-camp registration",
+        "interest": "Cross-contact only; no attraction presumed"
+      },
+      {
+        "name": "Samar & Shaan",
+        "age": 24,
+        "role": "Shreya's proposed sports twins",
+        "interaction": "Sports/event signups",
+        "interest": "Cross-contact only; no attraction presumed"
+      }
+    ],
+    "otherHusbands": [
+      {
+        "name": "Rohan",
+        "role": "Shivani's husband",
+        "interaction": "Group dinners and childcare-friendly gatherings",
+        "interest": "Possible fleeting admiration only"
+      },
+      {
+        "name": "Aditya",
+        "role": "Taniya's fiancé",
+        "interaction": "Wedding event planning",
+        "interest": "Friendly social contact; no attraction proposed"
+      },
+      {
+        "name": "Nikhil",
+        "role": "Meenakshi's husband",
+        "interaction": "Couples' health-camp volunteering",
+        "interest": "Friendship and trust, no attraction proposed"
+      },
+      {
+        "name": "Vikram",
+        "role": "Shreya's husband",
+        "interaction": "Society safety and group dinners",
+        "interest": "Professional respect, no attraction proposed"
+      },
+      {
+        "name": "Rahul",
+        "role": "Soniya's husband",
+        "interaction": "Taniya/Soniya visits",
+        "interest": "Possible brief physical interest, one-sided and unacted"
+      }
+    ],
+    "familyMen": [
+      {
+        "name": "Kabir",
+        "role": "Husband",
+        "interest": "Established love and physical attraction; not a new first crack"
+      },
+      {
+        "name": "Rajeev",
+        "role": "Father-in-law",
+        "interest": "Possible unspoken one-sided attraction; sensitive family boundary, no action"
+      },
+      {
+        "name": "Karan",
+        "role": "Adult twin devar",
+        "interest": "Mild one-sided admiration/crush; Ankita treats him as family"
+      },
+      {
+        "name": "Aman",
+        "role": "Adult twin devar",
+        "interest": "Admiration rather than a defined sexual interest"
+      }
+    ],
+    "relationshipTypes": [
+      {
+        "type": "Fleeting physical attraction",
+        "meaning": "Momentary observation without intent to pursue"
+      },
+      {
+        "type": "One-night interest",
+        "meaning": "A one-time, no-commitment possibility one or both adults might consider; not an event"
+      },
+      {
+        "type": "Casual ongoing",
+        "meaning": "Potential repeated connection without committed romance, only if mutually agreed"
+      },
+      {
+        "type": "Romantic",
+        "meaning": "Interest in emotional connection rather than a one-off encounter"
+      },
+      {
+        "type": "Established",
+        "meaning": "Existing committed relationship, tracked separately"
+      },
+      {
+        "type": "Professional/family only",
+        "meaning": "Connection without romantic or sexual interest"
+      }
+    ],
+    "rules": "All adult attractions begin as proposals; initial boundary crossings: none. Contact is not attraction. Each person's interest direction is separately tracked. No sexualization of children. Professional power differences and family roles remain boundaries.",
+    "chartUpdate": "The existing relationship Atlas still holds Draft V1 scores. This expanded proposal is stored separately pending user decisions."
   }
 }
