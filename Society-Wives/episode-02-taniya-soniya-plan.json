@@ -1,0 +1,888 @@
+{
+  "schemaVersion": "1.0",
+  "id": "SW-EP02-TANIYA-SONIYA-2026-01-01",
+  "episode": "02",
+  "lead": [
+    "taniya",
+    "soniya"
+  ],
+  "title": "The Second Bra in the Bridal Drawer",
+  "date": "2026-01-01",
+  "day": "Thursday",
+  "tz": "Asia/Kolkata",
+  "project": "Society-Wives",
+  "repository": "developer-fandom-rush/DHIKA_STORY",
+  "status": "USER-DIRECTED WORKING PLOT — UNAPPROVED; NOT FINAL PROSE",
+  "source": "User's uploaded MASTER PROMPT — Episode 02 Taniya & Soniya",
+  "baseline": "Self-contained additive planning record. Does not overwrite Ankita, Shivani or global directory records. Proposed content stays unapproved.",
+  "cutoff": {
+    "time": "13:15",
+    "taniya": "At CA office",
+    "soniya": "At shared flat",
+    "ankita": "At Cyber City office at own approximately 13:00 cutoff",
+    "shivani": "At college until 13:20–13:30 per existing Shivani episode"
+  },
+  "cast": [
+    {
+      "id": "taniya",
+      "name": "Taniya",
+      "age": 23,
+      "role": "Engaged CA professional; younger sister; episode lead"
+    },
+    {
+      "id": "soniya",
+      "name": "Soniya",
+      "age": 24,
+      "role": "Taniya’s married elder sister; Rahul’s wife; episode lead"
+    },
+    {
+      "id": "rahul",
+      "name": "Rahul",
+      "age": 28,
+      "role": "Soniya’s husband; Taniya’s brother-in-law (jiju)"
+    },
+    {
+      "id": "aditya",
+      "name": "Aditya",
+      "age": 26,
+      "role": "Taniya’s fiancé, not husband"
+    },
+    {
+      "id": "subhash",
+      "name": "Subhash",
+      "age": 59,
+      "role": "Aditya’s father; Taniya’s future father-in-law"
+    },
+    {
+      "id": "mihir",
+      "name": "Mihir",
+      "age": 22,
+      "role": "Aditya’s younger brother; Taniya’s future devar"
+    },
+    {
+      "id": "karan",
+      "name": "Karan",
+      "age": 22,
+      "role": "Ankita’s outgoing devar; Aman’s twin brother"
+    },
+    {
+      "id": "aman",
+      "name": "Aman",
+      "age": 22,
+      "role": "Ankita’s reserved devar; Karan’s twin brother"
+    },
+    {
+      "id": "vivek_rao",
+      "name": "Vivek Rao",
+      "age": 30,
+      "role": "Society gym trainer"
+    },
+    {
+      "id": "mahendra",
+      "name": "Mahendra Suri",
+      "age": 61,
+      "role": "Society chairman"
+    },
+    {
+      "id": "raghav",
+      "name": "Raghav",
+      "age": 24,
+      "role": "CA-office article assistant; Chirag’s work duo, not twin"
+    },
+    {
+      "id": "chirag",
+      "name": "Chirag",
+      "age": 24,
+      "role": "CA-office article assistant; Raghav’s work duo, not twin"
+    },
+    {
+      "id": "punit",
+      "name": "Punit",
+      "age": 22,
+      "role": "CA-office trainee"
+    },
+    {
+      "id": "pradeep",
+      "name": "Pradeep Khanna",
+      "age": 48,
+      "role": "Senior chartered accountant"
+    },
+    {
+      "id": "vivek_suri",
+      "name": "Vivek Suri",
+      "age": 55,
+      "role": "CA-firm partner"
+    },
+    {
+      "id": "mehra",
+      "name": "Mr. Mehra",
+      "age": 60,
+      "role": "Senior client advisor"
+    },
+    {
+      "id": "neha",
+      "name": "Neha",
+      "age": 22,
+      "role": "CA-office articled assistant"
+    },
+    {
+      "id": "riya",
+      "name": "Riya",
+      "age": 23,
+      "role": "CA-office audit associate"
+    },
+    {
+      "id": "megha",
+      "name": "Megha",
+      "age": 28,
+      "role": "CA-office tax manager"
+    },
+    {
+      "id": "saloni",
+      "name": "Saloni",
+      "age": 26,
+      "role": "CA-office HR / people operations"
+    },
+    {
+      "id": "ankita",
+      "name": "Ankita",
+      "age": 30,
+      "role": "IT tech lead; cross-episode clock anchor; remains at Cyber City office"
+    },
+    {
+      "id": "shivani",
+      "name": "Shivani",
+      "age": 31,
+      "role": "College lecturer; cross-episode clock anchor"
+    },
+    {
+      "id": "gopal",
+      "name": "Gopal",
+      "age": null,
+      "role": "Society gate watchman; Ankita parcel sequence anchor"
+    },
+    {
+      "id": "om",
+      "name": "Om",
+      "age": null,
+      "role": "Shivani’s father-in-law; Ankita parcel sequence anchor"
+    },
+    {
+      "id": "rajeev",
+      "name": "Rajeev",
+      "age": 61,
+      "role": "Ankita’s father-in-law; committee sequence anchor"
+    }
+  ],
+  "portraits": [
+    {
+      "character": "taniya",
+      "identityReference": "Original saved Taniya face",
+      "wardrobe": "Fitted burgundy/plum athletic top and high-waisted leggings",
+      "assetPath": null,
+      "status": "UNVERIFIED_PREVIOUS_GYM_PORTRAIT; do not substitute or publish a new identity"
+    },
+    {
+      "character": "soniya",
+      "identityReference": "Original saved Soniya face",
+      "wardrobe": "Elegant coordinated gym outfit, distinct silhouette",
+      "assetPath": null,
+      "status": "UNVERIFIED_PREVIOUS_GYM_PORTRAIT; do not substitute or publish a new identity"
+    }
+  ],
+  "garmentOwnership": [
+    {
+      "id": "SET-A",
+      "actualOwner": "soniya",
+      "subhashBelief": "soniya",
+      "quantity": 1,
+      "description": "one bra-and-panty pair",
+      "permission": "not given",
+      "currentHolder": "subhash",
+      "revealState": "hidden at cutoff"
+    },
+    {
+      "id": "SET-B",
+      "actualOwner": "taniya",
+      "subhashBelief": "soniya",
+      "quantity": 1,
+      "description": "one bra-and-panty pair",
+      "permission": "not given",
+      "currentHolder": "subhash",
+      "revealState": "hidden at cutoff"
+    }
+  ],
+  "timeline": [
+    {
+      "id": "TS01",
+      "start": "06:55",
+      "end": "07:25",
+      "lane": "HOME",
+      "location": "Taniya–Soniya–Rahul shared flat",
+      "participants": [
+        "taniya",
+        "soniya",
+        "rahul"
+      ],
+      "title": "New Year breakfast and engagement plans",
+      "beats": [
+        "Two glamorous adult sisters have distinct styling and personalities; establish breakfast routine, upcoming engagement and gym plan.",
+        "Rahul's concealed attraction is directed specifically at Taniya; she is unaware. He remains outwardly normal."
+      ],
+      "classification": "HIDDEN_ONE_SIDED_ATTRACTION",
+      "source": "USER-DIRECTED",
+      "sampleDialogue": [
+        "Soniya (elder sister): 'New Year pe gym miss mat karna, madam.'",
+        "Taniya (engaged CA): 'Engagement ke fittings aur audit deadlines, dono ko time chahiye.'"
+      ]
+    },
+    {
+      "id": "TS02",
+      "start": "07:25",
+      "end": "07:50",
+      "lane": "HOME",
+      "location": "Shared flat, private changing area",
+      "participants": [
+        "taniya",
+        "soniya",
+        "rahul"
+      ],
+      "title": "Gym preparation and Rahul's covert observation",
+      "beats": [
+        "Both sisters prepare workout clothes while Rahul remains at home.",
+        "Rahul knowingly watches Taniya changing without permission; later commits a separate private sexual act, recorded only as a non-graphic event.",
+        "Taniya does not observe or consent to the covert watching. No shared knowledge is established."
+      ],
+      "classification": "NON_CONSENSUAL_OBSERVATION",
+      "source": "USER-DIRECTED",
+      "sampleDialogue": []
+    },
+    {
+      "id": "TS03",
+      "start": "07:55",
+      "end": "07:55",
+      "lane": "TRANSIT",
+      "location": "Shared flat → Rahul’s workplace",
+      "participants": [
+        "rahul"
+      ],
+      "title": "Rahul departs for work",
+      "beats": [
+        "Rahul leaves at 07:55; proposed 09:00–18:00 office schedule.",
+        "No Rahul return-home scene during the morning."
+      ],
+      "classification": "SCHEDULE_LOCK",
+      "source": "USER-DIRECTED",
+      "sampleDialogue": []
+    },
+    {
+      "id": "X-SH01",
+      "start": "08:16",
+      "end": "08:20",
+      "lane": "CROSSOVER",
+      "location": "Society parking area",
+      "participants": [
+        "shivani",
+        "karan",
+        "aman"
+      ],
+      "title": "Previously approved Shivani encounter — reference only",
+      "beats": [
+        "Karan and Aman meet Shivani at parking; do not replay or rewrite this event.",
+        "Ankita is absent, already on office cab since 08:05; Shivani leaves for college at 08:20."
+      ],
+      "classification": "EXISTING_CANON_REFERENCE",
+      "source": "EXISTING-SHIVANI",
+      "sampleDialogue": []
+    },
+    {
+      "id": "TS04",
+      "start": "08:25",
+      "end": "08:45",
+      "lane": "GYM",
+      "location": "Gulmohar Heights society gym",
+      "participants": [
+        "taniya",
+        "soniya",
+        "vivek_rao"
+      ],
+      "title": "Quiet holiday gym and guided form",
+      "beats": [
+        "Taniya wears a fitted burgundy/plum athletic top and high-waisted leggings; Soniya wears an elegant, distinctly styled coordinated outfit.",
+        "Athletic trainer Vivek Rao gives leg, back and core/waist alignment guidance with clearly requested/permitted corrections.",
+        "Both women notice his physique; mutual playful flirting is possible, without treating trainer authority as permission."
+      ],
+      "classification": "CONSENSUAL_GUIDANCE_WITH_FLIRTING",
+      "source": "USER-DIRECTED",
+      "sampleDialogue": [
+        "Vivek Rao (gym trainer): 'Shoulders relax rakhiye—form pe focus.'",
+        "Soniya (elder sister): 'Form pe lecture kitna lamba chalega, coach?'"
+      ]
+    },
+    {
+      "id": "TS05",
+      "start": "08:45",
+      "end": "08:55",
+      "lane": "GYM",
+      "location": "Society gym",
+      "participants": [
+        "taniya",
+        "soniya",
+        "karan",
+        "aman"
+      ],
+      "title": "Karan and Aman's contrasting banter",
+      "beats": [
+        "Ankita’s adult twin devars join after their 08:16–08:20 Shivani encounter.",
+        "Karan is direct and playfully complimentary; Aman reserved and observant.",
+        "The sisters reply with wit; any mutual attraction remains a discussion status, not an assumed physical progression."
+      ],
+      "classification": "FLIRTING_NOT_CONSENT_TO_TOUCH",
+      "source": "USER-DIRECTED",
+      "sampleDialogue": [
+        "Karan (Ankita's outgoing devar): 'New Year discipline toh aap dono se seekhni padegi.'",
+        "Aman (Ankita's reserved devar): 'Routine maintain karna hi actual challenge hai.'"
+      ]
+    },
+    {
+      "id": "TS06",
+      "start": "08:55",
+      "end": "09:03",
+      "lane": "GYM",
+      "location": "Society gym exit",
+      "participants": [
+        "taniya",
+        "soniya",
+        "mahendra"
+      ],
+      "title": "Chairman's discreet first impression",
+      "beats": [
+        "Mahendra chats briefly after the workout, outwardly respectable.",
+        "Mahendra develops a concealed one-sided interest specifically in Soniya; she is unaware."
+      ],
+      "classification": "HIDDEN_ONE_SIDED_ATTRACTION",
+      "source": "USER-DIRECTED",
+      "sampleDialogue": []
+    },
+    {
+      "id": "TS07",
+      "start": "09:05",
+      "end": "09:35",
+      "lane": "HOME",
+      "location": "Shared flat",
+      "participants": [
+        "taniya",
+        "soniya"
+      ],
+      "title": "Home again; the sisters separate",
+      "beats": [
+        "Both finish hygiene/changing routines.",
+        "Taniya prepares CA-office attire; Soniya remains home.",
+        "Taniya departs for work at 09:35."
+      ],
+      "classification": "ORDINARY_ROUTINE",
+      "source": "USER-DIRECTED",
+      "sampleDialogue": []
+    },
+    {
+      "id": "TS08",
+      "start": "09:35",
+      "end": "10:10",
+      "lane": "TRANSIT",
+      "location": "Shared flat → CA office",
+      "participants": [
+        "taniya"
+      ],
+      "title": "Taniya's office commute",
+      "beats": [
+        "Proposed commute 09:35–10:10; work begins 10:30.",
+        "She is not present for Subhash’s later visit to her sister."
+      ],
+      "classification": "SCHEDULE_LOCK",
+      "source": "PROPOSED",
+      "sampleDialogue": []
+    },
+    {
+      "id": "TS09",
+      "start": "09:40",
+      "end": "09:53",
+      "lane": "HOME",
+      "location": "Shared flat, bathroom and changing/storage area",
+      "participants": [
+        "soniya"
+      ],
+      "title": "Soniya's private post-gym routine",
+      "beats": [
+        "Soniya is the only resident home after Taniya and Rahul leave.",
+        "Post-workout clothing and shared personal-garment storage are present; routine is not an invitation to visitors."
+      ],
+      "classification": "PRIVATE_SPACE",
+      "source": "USER-DIRECTED",
+      "sampleDialogue": []
+    },
+    {
+      "id": "TS10",
+      "start": "09:55",
+      "end": "10:06",
+      "lane": "HOME",
+      "location": "Shared flat, bathroom/laundry-side area",
+      "participants": [
+        "soniya",
+        "subhash"
+      ],
+      "title": "Subhash's visit and two-set ownership mistake",
+      "beats": [
+        "Subhash visits legitimately for wedding documents or fabric samples; Rahul and Taniya are absent.",
+        "He forms a private inappropriate interest in Soniya; knowingly handles and smells personal garments without permission and steals two matching bra-and-panty sets.",
+        "Set A belongs to Soniya. Set B belongs to Taniya. Subhash incorrectly believes both are Soniya's.",
+        "An unexpected post-bath encounter occurs as Soniya finishes getting ready; he apologizes 'Sorry, beta.' She accepts the awkward accident only, unaware of the earlier theft.",
+        "Subhash completes the visit's legitimate task and leaves by 10:06."
+      ],
+      "classification": "THEFT_AND_NONCONSENSUAL_PRIVACY_VIOLATION",
+      "source": "USER-DIRECTED",
+      "sampleDialogue": [
+        "Subhash (Taniya's future father-in-law): 'Sorry, beta.'",
+        "Soniya (Taniya's elder sister): 'Koi baat nahi, Uncle.'"
+      ]
+    },
+    {
+      "id": "TS11",
+      "start": "10:07",
+      "end": "10:12",
+      "lane": "HOME",
+      "location": "Shared flat",
+      "participants": [
+        "soniya",
+        "mahendra"
+      ],
+      "title": "Mahendra's separate society follow-up",
+      "beats": [
+        "Mahendra visits for a gym-facility or society-event query, hoping to see Soniya again.",
+        "Conversation stays casual; he sees no exposure or garment theft.",
+        "He departs by 10:12 for the committee-office appointment."
+      ],
+      "classification": "ONE_SIDED_INTEREST_NO_VIOLATION",
+      "source": "USER-DIRECTED",
+      "sampleDialogue": []
+    },
+    {
+      "id": "TS15",
+      "start": "10:12",
+      "end": "13:15",
+      "lane": "HOME",
+      "location": "Shared flat",
+      "participants": [
+        "soniya"
+      ],
+      "title": "Soniya at home — background lane until cutoff",
+      "beats": [
+        "Soniya remains home after Mahendra leaves.",
+        "She knows nothing of the deliberate two-set theft; no discovery or invented reveal before cutoff."
+      ],
+      "classification": "KNOWLEDGE_LOCK",
+      "source": "USER-DIRECTED",
+      "sampleDialogue": []
+    },
+    {
+      "id": "X-AN01",
+      "start": "10:15",
+      "end": "10:33",
+      "lane": "CROSSOVER",
+      "location": "Gulmohar Heights committee office",
+      "participants": [
+        "mahendra",
+        "gopal"
+      ],
+      "title": "Ankita parcel: chairman's separate commitment",
+      "beats": [
+        "Existing Ankita P02 parcel scene, not re-enacted here.",
+        "Mahendra is in committee office 10:15–10:33; no simultaneous Soniya visit."
+      ],
+      "classification": "EXISTING_CANON_REFERENCE",
+      "source": "EXISTING-ANKITA",
+      "sampleDialogue": []
+    },
+    {
+      "id": "TS12",
+      "start": "10:30",
+      "end": "10:59",
+      "lane": "OFFICE",
+      "location": "CA firm's floor",
+      "participants": [
+        "taniya",
+        "raghav",
+        "chirag",
+        "punit",
+        "neha",
+        "riya"
+      ],
+      "title": "Office re-entry, colleagues and teasing",
+      "beats": [
+        "Natural work first: audit files, New Year greetings, assignment handoff.",
+        "Raghav confident banter; Chirag differently paced one-sided interest; Punit quiet crush.",
+        "Neha and Riya contribute substantive discussion, not just reactions.",
+        "No photo scandal, revealing clothing mishap or projector analogue."
+      ],
+      "classification": "WORKPLACE_FLIRTATION_DRAFT",
+      "source": "USER-DIRECTED",
+      "sampleDialogue": [
+        "Neha (articled assistant): 'New year, old reconciliations?'",
+        "Taniya (CA): 'Haan, but is baar team ki coffee budget approval pehle.'"
+      ]
+    },
+    {
+      "id": "X-AN02",
+      "start": "10:51",
+      "end": "11:05",
+      "lane": "CROSSOVER",
+      "location": "Committee office back desk",
+      "participants": [
+        "subhash"
+      ],
+      "title": "Subhash's separate committee window",
+      "beats": [
+        "Existing Ankita P04 parcel appointment, distinct from the 09:55–10:06 flat visit."
+      ],
+      "classification": "EXISTING_CANON_REFERENCE",
+      "source": "EXISTING-ANKITA",
+      "sampleDialogue": []
+    },
+    {
+      "id": "TS13",
+      "start": "11:00",
+      "end": "11:45",
+      "lane": "OFFICE",
+      "location": "CA firm — audit workstation",
+      "participants": [
+        "taniya",
+        "raghav",
+        "chirag",
+        "punit",
+        "megha"
+      ],
+      "title": "Working rhythm, team rapport",
+      "beats": [
+        "Professional deadline exchange and playful compliments; Taniya’s agency and responses stay explicit.",
+        "Raghav's mutual chemistry is a possibility, not a committed outcome.",
+        "Megha supports the tax/audit conversation."
+      ],
+      "classification": "WORKPLACE_RELATIONSHIP_PROPOSAL",
+      "source": "PROPOSED",
+      "sampleDialogue": []
+    },
+    {
+      "id": "TS14",
+      "start": "11:45",
+      "end": "12:25",
+      "lane": "OFFICE",
+      "location": "CA firm — conference and corridor",
+      "participants": [
+        "taniya",
+        "pradeep",
+        "vivek_suri",
+        "mehra",
+        "riya",
+        "saloni"
+      ],
+      "title": "Senior review and distinct older-colleague tracks",
+      "beats": [
+        "Pradeep Khanna reviews actual CA work professionally.",
+        "Vivek Suri and Mr. Mehra retain separate possible concealed-interest tracks only; no confirmed advance.",
+        "Riya and Saloni have meaningful work/people-operations exchanges.",
+        "No duplicate of Shivani's projector incident."
+      ],
+      "classification": "PROFESSIONAL_INTERACTION_WITH_POSSIBLE_ATTRACTION",
+      "source": "PROPOSED",
+      "sampleDialogue": []
+    },
+    {
+      "id": "X-AN03",
+      "start": "12:30",
+      "end": "12:50",
+      "lane": "CROSSOVER",
+      "location": "Committee office veranda",
+      "participants": [
+        "mahendra",
+        "subhash",
+        "om",
+        "rajeev"
+      ],
+      "title": "Previously established elders' meeting",
+      "beats": [
+        "Ankita P08 includes additional elders Mohan and Arvind, not recreated here.",
+        "Mahendra and Subhash must be physically available, and no overlapping visit at Soniya's flat is allowed."
+      ],
+      "classification": "EXISTING_CANON_REFERENCE",
+      "source": "EXISTING-ANKITA",
+      "sampleDialogue": []
+    },
+    {
+      "id": "TS16",
+      "start": "12:50",
+      "end": "13:15",
+      "lane": "OFFICE",
+      "location": "CA firm",
+      "participants": [
+        "taniya",
+        "raghav",
+        "chirag",
+        "neha"
+      ],
+      "title": "Taniya's 13:15 cutoff",
+      "beats": [
+        "Taniya continues working in the CA office as the episode ends.",
+        "No trip home, romantic escalation or discovery of Subhash's secret at cutoff."
+      ],
+      "classification": "CUTOFF",
+      "source": "USER-DIRECTED",
+      "sampleDialogue": []
+    }
+  ],
+  "secrets": [
+    {
+      "id": "SEC-R",
+      "actor": "rahul",
+      "target": "taniya",
+      "time": "07:25–07:50",
+      "location": "Shared flat",
+      "happened": "Concealed attraction; unauthorized changing-area observation and later private sexual act, non-graphically registered",
+      "actorBelieves": "He conceals it from the household",
+      "targetKnows": "Taniya unaware",
+      "boundaryClassification": "NON_CONSENSUAL_COVERT_OBSERVATION",
+      "immediateReaction": "Rahul outwardly behaves normally",
+      "futureHook": "Secret knowledge/possible accountability",
+      "source": "USER-DIRECTED"
+    },
+    {
+      "id": "SEC-VR",
+      "actor": "vivek_rao",
+      "target": "taniya, soniya",
+      "time": "08:25–08:45",
+      "location": "Society gym",
+      "happened": "Playful flirtation and consent-based form coaching",
+      "actorBelieves": "Both women are receptive to guidance",
+      "targetKnows": "Both aware of flirtation and can set boundaries",
+      "boundaryClassification": "CONSENSUAL_GUIDANCE; flirtation does not grant blanket consent",
+      "immediateReaction": "Playful responses, no implied escalation",
+      "futureHook": "Potential future rapport",
+      "source": "USER-DIRECTED"
+    },
+    {
+      "id": "SEC-K",
+      "actor": "karan",
+      "target": "taniya, soniya",
+      "time": "08:45–08:55",
+      "location": "Gym",
+      "happened": "Outgoing compliments to both sisters",
+      "actorBelieves": "Interest may be visible",
+      "targetKnows": "Sisters see the overt banter",
+      "boundaryClassification": "ONE_SIDED_ATTRACTION / MUTUAL_RESPONSE_NOT_ASSUMED",
+      "immediateReaction": "Witty replies",
+      "futureHook": "Contrast with Aman's style",
+      "source": "USER-DIRECTED"
+    },
+    {
+      "id": "SEC-A",
+      "actor": "aman",
+      "target": "taniya, soniya",
+      "time": "08:45–08:55",
+      "location": "Gym",
+      "happened": "Quieter admiration",
+      "actorBelieves": "Interest mostly internal",
+      "targetKnows": "Partly visible; no assumed reciprocal interest",
+      "boundaryClassification": "ONE_SIDED_ATTRACTION",
+      "immediateReaction": "Reserved remarks",
+      "futureHook": "Slow-burn contrast",
+      "source": "USER-DIRECTED"
+    },
+    {
+      "id": "SEC-M",
+      "actor": "mahendra",
+      "target": "soniya",
+      "time": "08:55–09:03; 10:07–10:12",
+      "location": "Gym exit; later shared flat",
+      "happened": "Private one-sided interest and a socially plausible follow-up visit",
+      "actorBelieves": "He hopes for another respectful interaction",
+      "targetKnows": "Soniya not aware of concealed attraction",
+      "boundaryClassification": "ONE_SIDED_ATTRACTION; no private exposure witnessed",
+      "immediateReaction": "Ordinary society conversation",
+      "futureHook": "Separate from Subhash's misconduct",
+      "source": "USER-DIRECTED"
+    },
+    {
+      "id": "SEC-S",
+      "actor": "subhash",
+      "target": "soniya, taniya",
+      "time": "09:55–10:06",
+      "location": "Shared flat",
+      "happened": "Unauthorized smelling/handling and theft of two personal-garment pairs; unexpected post-bath encounter separately followed by apology",
+      "actorBelieves": "Believes both stolen sets belong to Soniya",
+      "targetKnows": "Soniya knows only of accidental awkward encounter; Taniya knows nothing",
+      "boundaryClassification": "THEFT_NONCONSENSUAL_PRIVACY_VIOLATION; apology accepted only for accidental encounter",
+      "immediateReaction": "Soniya says it is okay regarding surprise encounter",
+      "futureHook": "Two-set ownership mistake and delayed discovery",
+      "source": "USER-DIRECTED"
+    },
+    {
+      "id": "SEC-RAG",
+      "actor": "raghav",
+      "target": "taniya",
+      "time": "10:30–13:15",
+      "location": "CA office",
+      "happened": "Confident professional banter and possible mutual chemistry",
+      "actorBelieves": "Her response may be playful",
+      "targetKnows": "Taniya aware of banter, not any future outcome",
+      "boundaryClassification": "PROPOSED_FLIRTATION",
+      "immediateReaction": "Collegial dialogue",
+      "futureHook": "Potential office slow burn",
+      "source": "USER-DIRECTED"
+    },
+    {
+      "id": "SEC-C",
+      "actor": "chirag",
+      "target": "taniya",
+      "time": "10:30–13:15",
+      "location": "CA office",
+      "happened": "Distinct quieter one-sided office interest",
+      "actorBelieves": "Not clearly reciprocated",
+      "targetKnows": "Taniya not fully aware",
+      "boundaryClassification": "PROPOSED_ONE_SIDED_ATTRACTION",
+      "immediateReaction": "Normal team workflow",
+      "futureHook": "Differentiated from Raghav",
+      "source": "USER-DIRECTED"
+    },
+    {
+      "id": "SEC-P",
+      "actor": "punit",
+      "target": "taniya",
+      "time": "10:30–13:15",
+      "location": "CA office",
+      "happened": "Reserved crush",
+      "actorBelieves": "Keeps feelings unspoken",
+      "targetKnows": "Taniya unaware",
+      "boundaryClassification": "ONE_SIDED_ATTRACTION",
+      "immediateReaction": "Quiet workplace presence",
+      "futureHook": "Future choice only, no action",
+      "source": "USER-DIRECTED"
+    },
+    {
+      "id": "SEC-OLD",
+      "actor": "vivek_suri, mehra",
+      "target": "taniya",
+      "time": "11:45–12:25",
+      "location": "CA office",
+      "happened": "Possible concealed attraction tracks; no concrete crossing",
+      "actorBelieves": "Not established",
+      "targetKnows": "Not established",
+      "boundaryClassification": "PROPOSED_ONLY",
+      "immediateReaction": "Professional exchange only",
+      "futureHook": "Needs user confirmation",
+      "source": "PROPOSED"
+    }
+  ],
+  "continuity": [
+    {
+      "checkpoint": "08:16–08:20",
+      "characters": [
+        "karan",
+        "aman"
+      ],
+      "status": "MATCHED",
+      "note": "Previous Shivani parking encounter completed; gym begins 08:25."
+    },
+    {
+      "checkpoint": "08:25",
+      "characters": [
+        "karan",
+        "aman"
+      ],
+      "status": "TIGHT_BUT_PLAUSIBLE",
+      "note": "Five minutes between parking and gym; confirm venue proximity in future prose."
+    },
+    {
+      "checkpoint": "09:35",
+      "characters": [
+        "taniya"
+      ],
+      "status": "MATCHED",
+      "note": "Leaves home; cannot witness Subhash at 09:55."
+    },
+    {
+      "checkpoint": "09:55–10:06",
+      "characters": [
+        "subhash"
+      ],
+      "status": "MATCHED",
+      "note": "Subhash at shared flat while separate Ankita parcel events proceed elsewhere without him."
+    },
+    {
+      "checkpoint": "10:07–10:12 → 10:15",
+      "characters": [
+        "mahendra"
+      ],
+      "status": "TIGHT_BUT_PLAUSIBLE",
+      "note": "Only three minutes between flat and committee office; same-society walking route must be short."
+    },
+    {
+      "checkpoint": "10:15–10:33",
+      "characters": [
+        "mahendra"
+      ],
+      "status": "MATCHED",
+      "note": "Ankita P02 community-office scene."
+    },
+    {
+      "checkpoint": "10:51–11:05",
+      "characters": [
+        "subhash"
+      ],
+      "status": "MATCHED",
+      "note": "Ankita P04 committee scene after ample travel from flat."
+    },
+    {
+      "checkpoint": "12:30–12:50",
+      "characters": [
+        "mahendra",
+        "subhash"
+      ],
+      "status": "MATCHED",
+      "note": "Existing elders' meeting with Om, Mohan, Arvind and Rajeev."
+    },
+    {
+      "checkpoint": "~13:00",
+      "characters": [
+        "ankita"
+      ],
+      "status": "LOCKED_UNTOUCHED",
+      "note": "Ankita still at Cyber City office; no return home or parcel inspection."
+    },
+    {
+      "checkpoint": "13:15",
+      "characters": [
+        "taniya",
+        "soniya"
+      ],
+      "status": "CUTOFF_LOCKED",
+      "note": "Taniya at CA office; Soniya at home."
+    },
+    {
+      "checkpoint": "13:20–13:30",
+      "characters": [
+        "shivani"
+      ],
+      "status": "LOCKED_UNTOUCHED",
+      "note": "Shivani still at college; her existing cutoff stands."
+    }
+  ],
+  "openQuestions": [
+    "Earlier Taniya and Soniya gym portrait image files were not found in repository; identities remain locked until verified original assets are available.",
+    "New Year's Day CA-office attendance is established in this user-directed plan; exact holiday work reason remains open.",
+    "Mahendra's three-minute transfer from flat to committee office should be confirmed against building layout.",
+    "No explicit further prose or attraction arcs approved yet."
+  ],
+  "nextLead": {
+    "name": "Meenakshi",
+    "status": "CAST-ONLY DIRECTORY RETRIEVAL; DO NOT WRITE EPISODE PLOT",
+    "sourcePath": "Society-Wives/character-directory.json"
+  }
+}
