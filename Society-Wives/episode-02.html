@@ -83,7 +83,7 @@ button:focus-visible,input:focus-visible,select:focus-visible,a:focus-visible{ou
 <div class="sectionhead"><h2>Meenakshi · 32 · Doctor</h2><span class="chip proposed">Working plot — unapproved</span></div>
 <p class="muted">Mohan (64) · father-in-law, confirmed one-sided interest (not reciprocal). Uday–Utkarsh (24) · confirmed society twins; Avi–Yash (24) · hospital duo, NOT confirmed twins. Vihaan is family-only.</p>
 <div class="controls"><label for="meenakshiSearch">Find encounter</label><input id="meenakshiSearch" type="search" placeholder="Character, time, location or relationship"></div>
-<div class="tablewrap"><table><thead><tr><th>Time</th><th>Scene / location</th><th>Characters (identity)</th><th>Relationship / approval</th></tr></thead><tbody id="meenakshiEncounters"></tbody></table></div>
+<div class="tablewrap"><table><thead><tr><th>Time</th><th>Scene / location</th><th>Characters (age, role, relationship)</th><th>Scene approval</th></tr></thead><tbody id="meenakshiEncounters"></tbody></table></div>
 </section>
 <section class="surface hidden" data-panel="gallery">
 <div class="sectionhead"><h2>Episode 02 · Image Gallery</h2><span class="chip">User-provided Meenakshi images</span></div>
@@ -163,7 +163,19 @@ function renderSecrets(){
  $('meenakshiIssues').innerHTML=plans.meenakshi.issuesToReview.map(v=>'<li>'+esc(v)+'</li>').join('');
  $('checkRows').innerHTML=checks.map(c=>'<tr><td>'+esc(c.checkpoint)+'</td><td>'+esc(c.characters.join(', '))+'</td><td>'+badge(c.status)+'</td><td>'+esc(c.note)+'</td></tr>').join('');
 }
-function renderMeenakshiEncounters(){const q=$('meenakshiSearch').value.trim().toLowerCase();const data=plans.meenakshi.timeline.filter(s=>s.approval!=='EXISTING_CANON_REFERENCE');const arr=data.filter(s=>!q||JSON.stringify(s).toLowerCase().includes(q)||s.characters.some(id=>JSON.stringify(findPerson(id)||{}).toLowerCase().includes(q)));$('meenakshiEncounters').innerHTML=arr.map(s=>'<tr><td>'+esc(s.start+'–'+s.end)+'</td><td><b>'+esc(s.title)+'</b><div class="tiny">'+esc(s.location)+'</div></td><td>'+peopleString(s.characters)+'</td><td>'+badge(s.approval,s.approval.includes('PROPOSED')?'proposed':'')+'<div class="tiny">'+esc(s.summary)+'</div></td></tr>').join('')||'<tr><td colspan="4">No matching encounters.</td></tr>';}
+function renderMeenakshiEncounters(){
+ const q=$('meenakshiSearch').value.trim().toLowerCase();
+ const data=plans.meenakshi.timeline.filter(x=>x.approval!=='EXISTING_CANON_REFERENCE');
+ const displayId=id=>{
+  const person=findPerson(id);
+  const rel=directory.relations.find(x=>x.w==='meenakshi'&&x.man===id);
+  const label=person?person.name+' ('+(person.age??'age not established')+') — '+person.role:id;
+  const state=id==='meenakshi'?'Episode lead':rel?(rel.how+' ['+rel.state+']'):(person?.group==='office'?'Hospital colleague / existing roster':person?.group==='family'?'Kapoor family':'Role-based contact only');
+  return '<li><b>'+esc(label)+'</b><div class="tiny">'+esc(state)+'</div></li>';
+ };
+ const arr=data.filter(x=>!q||JSON.stringify(x).toLowerCase().includes(q)||x.characters.some(id=>JSON.stringify(findPerson(id)||{}).toLowerCase().includes(q)));
+ $('meenakshiEncounters').innerHTML=arr.map(x=>'<tr><td>'+esc(x.start+'–'+x.end)+'</td><td><b>'+esc(x.title)+'</b><div class="tiny">'+esc(x.location)+'</div></td><td><ul style="padding-left:16px;margin:0">'+x.characters.map(displayId).join('')+'</ul></td><td>'+badge(x.approval,x.approval.includes('PROPOSED')?'proposed':'')+'<div class="tiny">'+esc(x.summary)+'</div></td></tr>').join('')||'<tr><td colspan="4">No matching encounters.</td></tr>';
+}
 function setMeenakshiPortrait(kind){const images={professional:'./assets/meenakshi/confident_doctor_in_a_hospital_corridor.svg',glamour:'./assets/meenakshi/glamorous_doctor_in_dressing_room.svg'};if(!images[kind])return;const hero=$('meenakshiHeroImage');hero.src=images[kind];hero.alt=kind==='professional'?'Meenakshi in her professional hospital look':'Meenakshi in private glamour wardrobe';document.querySelectorAll('[data-meena-image]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.meenaImage===kind)));}
 document.querySelectorAll('[data-meena-image]').forEach(b=>b.addEventListener('click',()=>setMeenakshiPortrait(b.dataset.meenaImage)));
 $('meenakshiSearch').addEventListener('input',()=>{if(plans.meenakshi)renderMeenakshiEncounters();});
