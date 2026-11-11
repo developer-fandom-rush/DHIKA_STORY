@@ -31,15 +31,15 @@ footer{margin-top:16px;font-size:11px;color:#78869a;line-height:1.5}.nohide{disp
 <header><div class="brand"><div class="mark">SW</div><div><h1>Society Wives · Character Directory</h1><div class="small">Five households · Society · Workplaces · Twins & pairs · Pre-episode planning</div></div></div>
 <div class="nav"><a class="btn" href="./episode-02-ankita.html">Ankita EP02 · Timeline</a><a class="btn" href="./episode-01.html">Read EP01</a><a class="btn" href="./index.html">Attraction Atlas</a><a class="btn" href="./arc-planner.html">Mini-Arcs</a><a class="btn" href="./character-audit.html">Questions</a><button class="btn primary" id="export">Export discussion</button></div></header>
 <main><div class="intro"><b>New universe only.</b> Older Society_Story/Drive characters do not apply. Names from the current Atlas are shown as <b>Atlas roster</b>; recently suggested additions are clearly marked <b>Proposed</b>. Your corrected parcel sequence is marked <b>User-directed plot</b>. None of those discussion notes automatically become approved episode prose. <b>Twin</b> is not interchangeable with <b>duo</b>.</div>
-<div class="stats"><div class="stat"><b>5</b><span>Lead women / families</span></div><div class="stat"><b id="peopleCount">—</b><span>Supporting characters</span></div><div class="stat"><b>1</b><span>Explicitly confirmed twin pair</span></div><div class="stat"><b>9</b><span>Total registered pairs (incl. duos)</span></div></div>
+<div class="stats"><div class="stat"><b>5</b><span>Lead women / families</span></div><div class="stat"><b id="peopleCount">—</b><span>Supporting characters</span></div><div class="stat"><b id="confirmedTwinCount">—</b><span>Confirmed twin pairs</span></div><div class="stat"><b>9</b><span>Total registered pairs (incl. duos)</span></div></div>
 <div class="tabs" role="tablist" aria-label="Directory sections">
 <button data-tab="families" class="active">Five Families</button><button data-tab="shivani">Shivani · Full Cast</button><button data-tab="twins">Twins vs Duos</button><button data-tab="directory">Everyone</button><button data-tab="interests">Ankita & FILs</button><button data-tab="planning">EP02 Discussion</button></div>
 <div class="filters" id="filterBar"><label class="muted" for="leadFilter">Family / world</label><select id="leadFilter"><option value="all">All worlds</option><option value="ankita">Ankita</option><option value="shivani">Shivani</option><option value="taniya">Taniya</option><option value="meenakshi">Meenakshi</option><option value="shreya">Shreya</option><option value="shared">Shared society</option></select>
-<label class="muted" for="groupFilter">Category</label><select id="groupFilter"><option value="all">All categories</option><option value="family">Family</option><option value="society">Society</option><option value="office">Workplace</option><option value="cross">Cross-house</option></select>
+<label class="muted" for="groupFilter">Category</label><select id="groupFilter"><option value="all">All categories</option><option value="family">Family</option><option value="society">Society</option><option value="office">Faculty / College staff</option><option value="college-student">Adult college students</option><option value="cross">Cross-house</option></select>
 <input type="search" id="search" placeholder="Search character, role or relation…"><button id="clear" class="btn">Reset</button></div>
 <div class="layout"><section id="content" class="maincol"><div class="empty">Loading character register…</div></section><aside class="aside">
 <div class="card"><h3>Selected character</h3><div id="characterDetails" class="detail">Tap any name to inspect role, age, home, and relations across the five women.</div></div>
-<div class="card"><h3>Shivani school-look reference</h3><a href="./assets/shivani-2026-01-01-school-portrait.jpg" target="_blank" rel="noopener"><img style="width:100%;max-height:310px;object-fit:contain;border-radius:10px;background:#f4edf0" src="./assets/shivani-2026-01-01-school-portrait.jpg" alt="Shivani in a maroon school-appropriate saree with notebook and school ID, provisional teacher portrait"></a><p class="muted">Teacher portrait only. 1 January 2026 is a winter holiday—not a school-attendance scene.</p><p><a href="./characters.html?view=shivani">View full Shivani cast and calendar</a></p></div><div class="card"><h3>Latest Ankita planning</h3><p class="muted">Thursday, 1 January 2026 · Morning routine, Kabir, Rajeev, Karan–Aman, other husbands, office and parcel scenes.</p><p><a class="btn primary" href="./episode-02-ankita.html">Open Ankita EP02 · 1 PM pause</a></p></div><div class="card"><h3>Understand the labels</h3>
+<div class="card"><h3>Shivani visual reference (wardrobe only)</h3><a href="./assets/shivani-2026-01-01-school-portrait.jpg" target="_blank" rel="noopener"><img style="width:100%;max-height:310px;object-fit:contain;border-radius:10px;background:#f4edf0" src="./assets/shivani-2026-01-01-school-portrait.jpg" alt="Provisional maroon saree portrait. Printed school badge is obsolete; Shivani is a college lecturer."></a><p class="muted">ARCHIVED styling reference only: the generated school ID/badge is incorrect. Shivani is a college lecturer, and 1 January is planned as an active college day; campus wardrobe is not approved.</p><p><a href="./characters.html?view=shivani">View full Shivani cast and calendar</a></p></div><div class="card"><h3>Latest Ankita planning</h3><p class="muted">Thursday, 1 January 2026 · Morning routine, Kabir, Rajeev, Karan–Aman, other husbands, office and parcel scenes.</p><p><a class="btn primary" href="./episode-02-ankita.html">Open Ankita EP02 · 1 PM pause</a></p></div><div class="card"><h3>Understand the labels</h3>
 <span class="tag confirm">CONFIRMED TWIN</span><p class="muted">Only when the character roster explicitly calls two people twins.</p>
 <span class="tag proposed">PROPOSED PAIR</span><p class="muted">A linked duo does not automatically mean siblings or biological twins.</p>
 <span class="tag caution">NOT ESTABLISHED</span><p class="muted">A possible direction for discussion, not an approved sexual or romantic interest.</p>
@@ -94,7 +94,7 @@ function families(root){
  ["sharmi","gopal","mahendra"].forEach(id=>card.append(button(id)));root.append(card);
 }
 function pairs(root){
- root.append(heading("Twin registry: explicit vs unconfirmed","9 registered groups; only 1 explicitly confirmed as twins"));
+ root.append(heading("Twin registry: explicit vs unconfirmed",db.pairs.length+" registered pairs; "+db.pairs.filter(x=>x.classification==="CONFIRMED_TWINS").length+" confirmed twin pairs"));
  const cls=[
  ["CONFIRMED_TWINS","Actual confirmed twins"],
  ["PAIR_TWINS_UNCONFIRMED","Society pairs: sibling status unresolved"],
@@ -104,7 +104,7 @@ function pairs(root){
  const grid=mk("div","cards");rows.forEach(x=>{const c=mk("article","card");c.append(mk("h3",null,x.label),tag(x.lane.toUpperCase()),tag(type.replaceAll("_"," "),type==="CONFIRMED_TWINS"?"confirm":"proposed"));
  const a=mk("div","row");x.people.forEach(id=>a.append(button(id)));c.append(a,mk("p","muted",x.reason));grid.append(c)});root.append(grid);}
  const info=mk("article","card");info.append(mk("h3",null,"Not registered as twin pairs"));
- info.append(mk("p","detail","Shivani's devar Manav, Taniya's future devar Mihir, Meenakshi's devar Dev, and Shreya's devar Sameer are individually listed. No second family twin has been confirmed for these four households."));root.append(info);
+ info.append(mk("p","detail","Shivani's devar Manav, Taniya's future devar Mihir, Meenakshi's devar Dev, and Shreya's devar Sameer are individually listed. Shivani also has confirmed favorite *college-student* twins Harsh and Laksh (22), who are not her devars; no other family twin has been confirmed for these four households."));root.append(info);
 }
 function directory(root){
  const people=[...db.leads.map(x=>({...x,group:"lead",house:x.id,sourceStatus:"CURRENT_ATLAS"})),...db.people];
@@ -119,15 +119,16 @@ function directory(root){
 function shivaniWorld(root){
  const focus=db.leads.find(z=>z.id==="shivani");
  const audit=db.shivaniInterestAudit;
- root.append(heading("Shivani · Complete Character Map","Gulmohar Heights, Gurgaon · new-universe Atlas · 1 January 2026 planning"));
+ root.append(heading("Shivani · College Lecturer & Complete Cast","Gulmohar Heights, Gurgaon · 1 January 2026 · character setup confirmed, scene plots NOT approved"));
  const intro=mk("article","card");
- const portrait=mk("img","shivani-photo");portrait.src=focus.appearanceReference||"./assets/shivani-2026-01-01-school-portrait.jpg";portrait.alt="Shivani in a maroon printed saree, holding a notebook on a school corridor, provisional teacher portrait";portrait.loading="lazy";portrait.style.cssText="width:min(240px,100%);aspect-ratio:4/5;object-fit:cover;border-radius:12px;float:right;margin:0 0 12px 16px";
- intro.append(portrait,mk("h2",null,"Shivani Ahuja · Teacher"),tag("Working title: The Winter Holiday Secret","proposed"),mk("p","detail","Thursday, 1 January 2026 — SCHOOL HOLIDAY. Haryana winter vacations covered January 1–15; Shivani remains on a home/society track, not at school. The maroon saree is a teacher-style reference for later school scenes, NOT a locked January 1 outfit."),mk("p","detail","This is a cast and relationship register, not a claim that all listed characters appear together on 1 January. All attraction links are proposals unless explicitly marked established. The child has family-only status."));
+ const portrait=mk("img","shivani-photo");portrait.src=focus.appearanceReference||"./assets/shivani-2026-01-01-school-portrait.jpg";portrait.alt="Shivani in maroon saree; old school-badge label is incorrect, reference retained for styling only";portrait.loading="lazy";portrait.style.cssText="width:min(240px,100%);aspect-ratio:4/5;object-fit:cover;border-radius:12px;float:right;margin:0 0 12px 16px";
+ intro.append(portrait,mk("h2",null,"Shivani Ahuja · College Lecturer"),tag("Title proposal: The Red Pallu — An Erotic College Secret","proposed"),mk("p","detail","Thursday, 1 January 2026 — user-directed ACTIVE COLLEGE DAY. Previous school winter-holiday plot discarded. Proposed: campus 09:00–15:30, scooty commute, working day before-college / college / home. Time and outfit still under review. Earlier image includes an incorrect school badge and is styling-only."),mk("p","detail","This is a cast and relationship register, not a claim that all listed characters appear together on 1 January. All attraction links are proposals unless explicitly marked established. The child has family-only status."));
  intro.append(tag("Rohan = husband","confirm"),tag("Om = own FIL"),tag("Manav = one devar"),tag("Kavya = sister"),tag("Tara = child, family-only","caution"));
  root.append(intro);
  const sections=[
   ["Family & household","family",false],
-  ["School / workplace","office",false],
+  ["College teaching staff & administration","office",false],
+  ["Favorite adult undergraduate students (22+)","college-student",false],
   ["Shivani society circle","society",false],
   ["Shared society contacts","society",true]
  ];
@@ -147,7 +148,7 @@ function shivaniWorld(root){
  const clarification=mk("article","card");
  clarification.append(mk("h3",null,"Chotu, twins and family separation"));
  clarification.append(mk("p","detail","Chotu has been added as a user-requested, unmapped placeholder in Shivani's society circle. His exact identity, age, role and involvement are not approved yet. No attraction or encounter is assigned."));
- clarification.append(mk("p","detail","Ayaan + Armaan: society event/printing duo; being twins is UNCONFIRMED. Harsh + Laksh: school co-workers, not registered twins. Karan + Aman: confirmed biological twins, but they are Ankita's devars, not Shivani's."));
+ clarification.append(mk("p","detail","Ayaan + Armaan: society event/printing duo; twins status UNCONFIRMED. Harsh + Laksh: CONFIRMED 22-year-old twin brothers and Shivani\'s favorite college students, not employees. Karan + Aman: confirmed twins and Ankita\'s devars, not Shivani\'s. Nandini and Ritika: proposed favorite female college students."));
  root.append(clarification);
  if(audit){
    root.append(heading("Older men / FIL interest audit","Only one older FIL one-sided attraction is proposed, not confirmed as an event"));
@@ -166,7 +167,7 @@ function shivaniWorld(root){
      others.append(card);
    }
    root.append(others);
-   root.append(heading("Shared clock · 01 Jan 2026","Avoid any person appearing in two places at once"));
+   root.append(heading("Proposed 01 January college schedule","Before college / campus / back home · no scene approvals"));const school=db.shivaniCollege;if(school){const clock=mk("article","card");clock.append(mk("h3",null,"Proposed: "+school.teachingHoursProposed+" · Commute: "+school.commuteProposed.mode));for(const phase of school.draftStorySequence)clock.append(mk("p","detail",phase.time+" · "+phase.phase.replaceAll("_"," ")+": "+phase.notes));clock.append(mk("p","muted","Adults: Harsh & Laksh (22, twins), Nandini & Ritika (22, female favorites), Arjun Mehta (23), separate teaching staff. Flirting is only a speculative adult campus relationship seed; no intimate scene has been approved."));root.append(clock)}root.append(heading("Shared clock · 01 Jan 2026","Avoid any person appearing in two places at once"));
    const t=mk("article","card");
    for(const [name,value] of Object.entries(audit.continuity)){t.append(mk("p","detail",name+": "+value))}
    t.append(mk("p","muted","No new Shivani scene has been scheduled here; the cast cards are references only."));
@@ -200,5 +201,5 @@ document.querySelectorAll(".tabs button").forEach(b=>b.onclick=()=>{tab=b.datase
 ["leadFilter","groupFilter"].forEach(id=>$(id).onchange=render);$("search").oninput=render;
 $("clear").onclick=()=>{$("leadFilter").value=$("groupFilter").value="all";$("search").value="";render()};
 $("export").onclick=()=>{const content={universe:db?.title,localReview:local,userDirectedSourceId:db?.planning.id,sourceOfTruth:db?.sourceOfTruth,exportedForDiscussion:true};const blob=new Blob([JSON.stringify(content,null,2)],{type:"application/json"}),url=URL.createObjectURL(blob),a=document.createElement("a");a.href=url;a.download="sw-ep02-discussion-decisions.json";a.click();setTimeout(()=>URL.revokeObjectURL(url),1000)};
-fetch("./character-directory.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("HTTP "+r.status);return r.json()}).then(x=>{if(x.people.length<90||x.pairs.length!==9)throw Error("Incomplete directory");db=x;$("peopleCount").textContent=db.people.length;render()}).catch(e=>$("content").replaceChildren(mk("div","empty","Could not load character directory: "+e.message)));
+fetch("./character-directory.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("HTTP "+r.status);return r.json()}).then(x=>{if(x.people.length<90||x.pairs.length!==9)throw Error("Incomplete directory");db=x;$("peopleCount").textContent=db.people.length;$("confirmedTwinCount").textContent=db.pairs.filter(y=>y.classification==="CONFIRMED_TWINS").length;render()}).catch(e=>$("content").replaceChildren(mk("div","empty","Could not load character directory: "+e.message)));
 </script></body></html>
