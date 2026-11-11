@@ -46,6 +46,7 @@ jobs:
           mkdir -p _site/data
           cp index.html app.js styles.css _site/
           cp data/corpus.json _site/data/
+          cp -r Society-Wives _site/
           touch _site/.nojekyll
 
       - name: Configure GitHub Pages
