@@ -530,8 +530,9 @@
       "id": "private-photo",
       "name": "Shivani, Private Blouse Photo.png",
       "library_file_id": "file_000000001fc4820baf993abaa66a6d9d",
-      "use": "Episode 02's private photograph prop; separate from college wardrobe",
-      "status": "connector egress blocked; retain original in ChatGPT Library"
+      "use": "Private non-nude photo intended only for husband Rohan, not sent; image prop for Episode 02. In-story unauthorized screen exposure is a privacy violation.",
+      "status": "thumbnail available in public fictional episode UI; source original retained in ChatGPT Library",
+      "github_asset": "assets/shivani/private-photo-to-rohan-thumbnail.svg"
     }
   ],
   "existing_legacy_asset": {
