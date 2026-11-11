@@ -49,7 +49,8 @@
       "proposedCollegeHours": "09:00–15:30 (draft, user review required)",
       "proposedCommute": "Own scooty, 08:20 depart / 08:45 arrive / 15:45 depart / ~16:15 reach home (draft, traffic dependent)",
       "episodeTitleStatus": "PROPOSAL_ONLY_NOT_APPROVED",
-      "discardedWorkingPlot": "The Winter Holiday Secret (all-home school-holiday Shivani schedule) is NOT CANON and must not be reused."
+      "discardedWorkingPlot": "The Winter Holiday Secret (all-home school-holiday Shivani schedule) is NOT CANON and must not be reused.",
+      "subjectProposal": "English Literature — BA final-year lecture group (proposal; not user-approved)"
     },
     {
       "id": "taniya",
@@ -2611,6 +2612,72 @@
       }
     ],
     "theme": "Adult slow-burn erotica-flavored attraction may be discussed at plot-level without graphic scene mechanics; preserve teacher–student boundaries, consent, story causality and character agency.",
-    "discarded": "Former school winter-vacation all-home sequence and title, not approved."
+    "discarded": "Former school winter-vacation all-home sequence and title, not approved.",
+    "departmentProposed": "English Literature / undergraduate BA final-year seminar (subject proposal only; not canon)",
+    "institutionType": "Degree college with active adult 18+ undergraduate timetable",
+    "dayTimetableProposed": [
+      {
+        "time": "06:05–06:40",
+        "where": "Ahuja flat",
+        "people": "Shivani (lecturer), Tara (daughter), Om (FIL, if at home)",
+        "note": "Rohan away on fixed 06:20–06:37 society walk with Ankita/Nikhil"
+      },
+      {
+        "time": "06:50–07:35",
+        "where": "Ahuja flat",
+        "people": "Shivani, Rohan (husband), Tara",
+        "note": "Rohan back from walk; breakfast and college preparation"
+      },
+      {
+        "time": "08:20–08:45",
+        "where": "Society gate → college",
+        "people": "Shivani",
+        "note": "Proposed scooty commute; she is not in society while Ankita remains at Cyber City"
+      },
+      {
+        "time": "09:00–10:45",
+        "where": "BA lecture rooms",
+        "people": "Shivani, Harsh/Laksh (22, favorite twins), Nandini/Ritika (22, female students)",
+        "note": "Actual lesson discussion (subject/course TBD); playful remarks can be seeds but no reciprocal teacher-student romance approved"
+      },
+      {
+        "time": "10:45–11:15",
+        "where": "Faculty room",
+        "people": "Shivani; Pooja (Assistant Professor); Sunny (AV assistant)",
+        "note": "College faculty and student groups not conflated"
+      },
+      {
+        "time": "11:15–12:45",
+        "where": "Classroom / literature seminar",
+        "people": "Shivani and adult students",
+        "note": "Academic discussion, cultural committee logistics"
+      },
+      {
+        "time": "12:45–13:30",
+        "where": "College cafeteria/faculty office",
+        "people": "Shivani and female colleagues",
+        "note": "Tara supervised by Rohan at home (proposed). Om at committee in Ankita parcel thread"
+      },
+      {
+        "time": "13:30–15:30",
+        "where": "College auditorium/classroom",
+        "people": "Shivani and campus team",
+        "note": "University-college event discussion, lecture wrap-up and student question/waiting beat if approved"
+      },
+      {
+        "time": "15:45–16:15",
+        "where": "College → society",
+        "people": "Shivani",
+        "note": "Proposed scooty return"
+      },
+      {
+        "time": "16:15–19:00",
+        "where": "Ahuja home / society",
+        "people": "Shivani; Rohan; Tara; possibly Manav or Kavya",
+        "note": "Family and independent society interactions to plan; no teleportation / duplicate park events"
+      }
+    ],
+    "rohanProposedChildcare": "For 01 January only, Rohan's holiday/day-off is PROPOSED: after his known 06:20–06:37 walk he remains home supervising Tara during Shivani's college shift. No gym or office role is assumed.",
+    "plotApproval": "ZERO scenes approved for Shivani 01 January as of this correction. All times, college subject, commute, names of proposed additional students and romantic/erotic subtext await user discussion."
   }
 }
