@@ -24,3 +24,7 @@ No AI-generated summaries or plot lines are inserted into the story source. Sear
 ## Privacy
 
 **This GitHub repository and GitHub Pages website are public.** Story source is shipped with the site and can be downloaded by visitors. Do not publish confidential text in this repository.
+
+## Live-site smoke test
+
+When the Pages workflow finishes, open the website and confirm that the 41-episode counter, Evidence Search, Episode Reader, Relationship Atlas, and raw-source JSON export load successfully. The source corpus is public because the repository is public.
