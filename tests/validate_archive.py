@@ -25,6 +25,7 @@ pair_ids = {"__".join(pair) for pair in itertools.combinations(sorted(people), 2
 assert set(index["pairs"]) == pair_ids, "Missing or unexpected character pair"
 assert len(pair_ids) == 210
 assert index["summary"]["paragraphs"] == 10450
+assert index["summary"]["sceneTransitionCandidates"] == 5
 assert index["summary"]["parts"] == 55
 assert index["summary"]["episodes"] == 41
 
@@ -74,6 +75,7 @@ for key, entry in index["pairs"].items():
     assert entry["counts"]["coMention"] == len(entry["direct"])
     assert entry["counts"]["speakerExchange"] == len(entry["dialogue"])
     assert entry["counts"]["thirdPartyDiscussion"] == len(entry["thirdParty"])
+    assert entry["counts"]["sceneTransitionCandidate"] == len(entry["ambiguousScene"])
     candidate_eps = set()
     for ep, row in entry["direct"]:
         text = original(ep, row)
@@ -96,6 +98,12 @@ for key, entry in index["pairs"].items():
         mentioned = a if answer_speaker == b else b
         assert has_name(original(ep, row), mentioned), ("not mentioned", key, ep, row)
         candidate_eps.add(ep)
+    for ep, row, follow in entry["ambiguousScene"]:
+        assert 0 < follow - row <= 6, (key, ep, row, follow)
+        assert story_row(ep, row) and story_row(ep, follow)
+        assert {speaker(original(ep, row)), speaker(original(ep, follow))} == {a, b}, (
+            "ambiguous speaker mismatch", key, ep, row, follow)
+        candidate_eps.add(ep)
     assert entry["episodes"] == sorted(candidate_eps), ("episode count mismatch", key)
     total_refs += sum(entry["counts"].values())
 
@@ -104,6 +112,8 @@ assert index["pairs"]["bantu__uncle"]["counts"] == {
 }
 assert index["pairs"]["bantu__sharmi"]["counts"]["coMention"] == 0
 assert index["pairs"]["bobby__sharmi"]["counts"]["coMention"] == 0
+assert index["pairs"]["bobby__sharmi"]["counts"]["speakerExchange"] == 0
+assert index["pairs"]["bobby__sharmi"]["counts"]["sceneTransitionCandidate"] == 1
 assert index["pairs"]["iroh__zuko"]["counts"]["coMention"] > 0
 assert index["aliases"]["iroh"] == ["Iroh", "Old man"]
 assert index["aliases"]["zuko"] == ["Zuko", "Young one"]
