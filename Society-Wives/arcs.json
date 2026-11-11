@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
   "title": "Society Wives — Draft Mini-Arc Planner",
-  "status": "INDEPENDENT_NEW_UNIVERSE__PROPOSED_ARCS",
+  "status": "INDEPENDENT_NEW_UNIVERSE__PROPOSED_ARCS__SHIVANI_COLLEGE_CORRECTION",
   "basedOn": "Dhika episode progression patterns: introductions, helper/twins encounters, friend-group visits, travel, and aftermath.",
   "scope": "Renumbered independent-new-universe episode proposals beginning at EP01. EP02 is a working title and plot under review, not approved prose. Dhika is structural inspiration only.",
   "arcs": [
@@ -208,30 +208,32 @@
       "phase": "First Cracks",
       "week": "W2",
       "lead": "Shivani",
-      "kind": "School",
-      "title": "Shivani — Lessons After School",
+      "kind": "College",
+      "title": "Shivani — Favorite Adult Students & College Rehearsals",
       "people": [
-        "Shivani",
-        "Rohan",
-        "Sunny",
-        "Harsh",
-        "Laksh"
+        "Shivani (college lecturer)",
+        "Rohan (husband)",
+        "Sunny (college AV assistant)",
+        "Harsh (22, favorite twin student)",
+        "Laksh (22, favorite twin student)",
+        "Nandini (22, female student)",
+        "Pooja (faculty)"
       ],
       "episodes": [
         {
           "number": "A07-1",
           "title": "EP 19 — Last Period",
-          "plot": "Shivani prepares a school cultural function while arranging Tara's childcare."
+          "plot": "Proposed: Shivani balances her undergraduate college lecture schedule with campus cultural rehearsals and family responsibilities; no school holiday assumption."
         },
         {
           "number": "A07-2",
           "title": "EP 20 — The Rehearsal Rescue",
-          "plot": "School staff help with a technical mishap, developing professional trust."
+          "plot": "Proposed: Harsh and Laksh, 22-year-old favorite undergraduate student twins, assist with a college event; faculty colleagues handle their own roles."
         },
         {
           "number": "A07-3",
           "title": "EP 21 — After the Applause",
-          "plot": "An admirer makes a gentle, awkward impression that Shivani does not pursue."
+          "plot": "Proposed: a student's playful compliment is noticed, without treating teacher-student boundaries as permission for an encounter."
         }
       ]
     },
@@ -406,7 +408,7 @@
       "week": "W4",
       "lead": "Shivani",
       "kind": "Society",
-      "title": "Shivani & the Event Twins — Part I",
+      "title": "Shivani & the Society Event Duo — Part I (Twin Status Unconfirmed)",
       "people": [
         "Shivani",
         "Ayaan",
@@ -418,17 +420,17 @@
         {
           "number": "A13-1",
           "title": "EP 37 — Identical Names on the Roster",
-          "plot": "Twin event coordinators Ayaan and Armaan assist Shivani with society preparations."
+          "plot": "Ayaan and Armaan, an adult society event/printing DUO (not confirmed biological twins), assist with society preparations."
         },
         {
           "number": "A13-2",
           "title": "EP 38 — The Poster Room",
-          "plot": "Shivani gets to know each twin individually during a supervised planning session."
+          "plot": "Shivani gets to know each society coordinator separately; no biological twin relationship established."
         },
         {
           "number": "A13-3",
           "title": "EP 39 — The Unfinished Compliment",
-          "plot": "One twin's quiet crush becomes visible; Shivani remains kind and clear about boundaries."
+          "plot": "A possible quiet crush remains only a draft; Shivani's response and consent not pre-decided."
         }
       ]
     },
@@ -564,30 +566,31 @@
       "phase": "Independent Mini-Arcs",
       "week": "W5",
       "lead": "Shivani",
-      "kind": "School",
-      "title": "Shivani & the Rehearsal Team — Part II",
+      "kind": "College",
+      "title": "Shivani — College Event Ensemble (Proposed)",
       "people": [
-        "Shivani",
-        "Sunny",
-        "Harsh",
-        "Laksh",
-        "Rohan"
+        "Shivani (college lecturer)",
+        "Sunny (college AV)",
+        "Harsh (22, twin student)",
+        "Laksh (22, twin student)",
+        "Ritika (22, female student)",
+        "Rohan (husband)"
       ],
       "episodes": [
         {
           "number": "A18-1",
           "title": "EP 52 — The Missing Props",
-          "plot": "A school-stage mishap creates another shared professional challenge."
+          "plot": "A college cultural event setup has missing props; adult students assist, faculty remains responsible."
         },
         {
           "number": "A18-2",
           "title": "EP 53 — The Photograph",
-          "plot": "A harmless photograph triggers teasing and an unexpectedly private reaction."
+          "plot": "A proposed college-group photo prompts friendly teasing and different private reactions; no intimate event approved."
         },
         {
           "number": "A18-3",
           "title": "EP 54 — After the Function",
-          "plot": "Shivani considers whether familiarity has changed how one colleague sees her."
+          "plot": "Shivani reflects on the student-faculty rapport after a college function, keeping boundaries distinct from attraction."
         }
       ]
     },
@@ -887,5 +890,6 @@
       ]
     }
   ],
-  "versionNote": "The former EP00 is now official Episode 01. All later draft episode numbers were shifted +1 to preserve unique continuity."
+  "versionNote": "The former EP00 is now official Episode 01. All later draft episode numbers were shifted +1 to preserve unique continuity.",
+  "shivaniPlotStatus": "Original school-winter-holiday home sequence discarded; 01 Jan college routine is a NEW proposal to discuss. No new erotic or physical scene approved."
 }
