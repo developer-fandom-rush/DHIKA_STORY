@@ -177,17 +177,17 @@
   "portraits": [
     {
       "character": "taniya",
-      "identityReference": "Original saved Taniya face",
+      "identityReference": "User-identified Taniya: second supplied gym portrait",
       "wardrobe": "Fitted burgundy/plum athletic top and high-waisted leggings",
-      "assetPath": null,
-      "status": "UNVERIFIED_PREVIOUS_GYM_PORTRAIT; do not substitute or publish a new identity"
+      "assetPath": "assets/taniya-2026-01-01-gym-portrait.svg",
+      "status": "USER_PROVIDED_PORTRAIT_THUMBNAIL_COMMITTED"
     },
     {
       "character": "soniya",
-      "identityReference": "Original saved Soniya face",
+      "identityReference": "User-identified Soniya: first supplied gym portrait",
       "wardrobe": "Elegant coordinated gym outfit, distinct silhouette",
-      "assetPath": null,
-      "status": "UNVERIFIED_PREVIOUS_GYM_PORTRAIT; do not substitute or publish a new identity"
+      "assetPath": "assets/soniya-2026-01-01-gym-portrait.svg",
+      "status": "USER_PROVIDED_PORTRAIT_THUMBNAIL_COMMITTED"
     }
   ],
   "garmentOwnership": [
@@ -875,7 +875,7 @@
     }
   ],
   "openQuestions": [
-    "Earlier Taniya and Soniya gym portrait image files were not found in repository; identities remain locked until verified original assets are available.",
+    "Thumbnail versions of supplied portraits have been committed; the original full-size images are retained in user files rather than GitHub assets.",
     "New Year's Day CA-office attendance is established in this user-directed plan; exact holiday work reason remains open.",
     "Mahendra's three-minute transfer from flat to committee office should be confirmed against building layout.",
     "No explicit further prose or attraction arcs approved yet."
