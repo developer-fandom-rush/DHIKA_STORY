@@ -102,9 +102,9 @@ function showCharacter(id){
 }
 function familyCard(f){
  const leadObj=lead(f.lead),card=mk("article","card");card.append(mk("h3",null,leadObj.name+" · "+leadObj.role));
- card.append(tag("Partner"),button(f.spouse),mk("span","muted"," "),tag("FIL"),button(f.fil));
+ card.append(tag("Partner"),button(f.spouse),mk("span","muted"," "),tag("Social elder"),button(f.socialElder));
  const row=mk("div","rule");row.append(mk("b",null,"Adult devar(s): "));f.devars.forEach(id=>row.append(button(id)));card.append(row);
- const extra=db.people.filter(z=>z.house===f.lead&&z.group==="family"&&![f.spouse,f.fil,...f.devars].includes(z.id));
+ const extra=db.people.filter(z=>z.house===f.lead&&z.group==="family"&&![f.spouse,f.socialElder,...f.devars].includes(z.id));
  if(extra.length){const more=mk("div","rule");more.append(mk("b",null,"Other family (including sisters/children): "));extra.forEach(z=>more.append(button(z.id)));card.append(more)}
  card.append(mk("p","muted",f.comment));return card
 }
@@ -145,7 +145,7 @@ function shivaniWorld(root){
  const intro=mk("article","card");
  const portrait=mk("img","shivani-photo");portrait.src=focus.appearanceReference||"./assets/shivani-2026-01-01-school-portrait.jpg";portrait.alt="Shivani in maroon saree; old school-badge label is incorrect, reference retained for styling only";portrait.loading="lazy";portrait.style.cssText="width:min(240px,100%);aspect-ratio:4/5;object-fit:cover;border-radius:12px;float:right;margin:0 0 12px 16px";
  intro.append(portrait,mk("h2",null,"Shivani Ahuja · College Lecturer"),tag("Title proposal: The Red Pallu — An Erotic College Secret","proposed"),mk("p","detail","Thursday, 1 January 2026 — user-directed ACTIVE COLLEGE DAY. Previous school winter-holiday plot discarded. Proposed: campus 09:00–15:30, scooty commute, working day before-college / college / home. Time and outfit still under review. Earlier image includes an incorrect school badge and is styling-only."),mk("p","detail","This is a cast and relationship register, not a claim that all listed characters appear together on 1 January. All attraction links are proposals unless explicitly marked established. The child has family-only status."));
- intro.append(tag("Rohan = husband","confirm"),tag("Om = own FIL"),tag("Manav = one devar"),tag("Kavya = sister"),tag("Tara = child, family-only","caution"));
+ intro.append(tag("Rohan = husband","confirm"),tag("Om = socially presented elder (not actual FIL)"),tag("Manav = one devar"),tag("Kavya = sister"),tag("Tara = child, family-only","caution"));
  root.append(intro);
  const sections=[
   ["Family & household","family",false],
@@ -173,7 +173,7 @@ function shivaniWorld(root){
  clarification.append(mk("p","detail","Ayaan + Armaan: society event/printing duo; twins status UNCONFIRMED. Harsh + Laksh: CONFIRMED 22-year-old twin brothers and Shivani\'s favorite college students, not employees. Karan + Aman: confirmed twins and Ankita\'s devars, not Shivani\'s. Nandini and Ritika: proposed favorite female college students."));
  root.append(clarification);
  if(audit){
-   root.append(heading("Older men / FIL interest audit","Only one older FIL one-sided attraction is proposed, not confirmed as an event"));
+   root.append(heading("Older men / social-elder interest audit","Older family-role associates are not actual fathers-in-law; relationship direction requires explicit canon"));
    const elder=mk("div","cards");
    for(const r of audit.elderMen){
      const card=mk("article","card");
@@ -198,9 +198,9 @@ function shivaniWorld(root){
 }
 
 function interests(root){
- root.append(heading("Which FIL is interested in Ankita?","Source distinctions preserved"));
+ root.append(heading("Which older household associate is interested in Ankita?","Source distinctions preserved"));
  const grid=mk("div","cards");
- db.ankitaFILInterests.filter(x=>visibleHouse(x.lead)).forEach(x=>{const card=mk("article","card");card.append(mk("h3",null,personLabel(x.id)),tag(lead(x.lead).name+"'s FIL"));
+ db.ankitaFILInterests.filter(x=>visibleHouse(x.lead)).forEach(x=>{const card=mk("article","card");card.append(mk("h3",null,personLabel(x.id)),tag(lead(x.lead).name+" household elder · not actual FIL"));
  card.append(tag(x.directInterestedInAnkita==="PROPOSED_LATENT_ONE_SIDED"?"ONE-SIDED ATTRACTION PROPOSED":"NO DIRECT ATTRACTION DEFINED",x.directInterestedInAnkita==="PROPOSED_LATENT_ONE_SIDED"?"proposed":"caution"));
  card.append(mk("p","muted",x.currentDescription));card.append(button(x.id));grid.append(card)});root.append(grid);
  const help=mk("article","card");help.append(mk("h3",null,"How to read this"));
