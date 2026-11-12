@@ -11,7 +11,7 @@
     ],
     "excluded": "Old Society_Story Drive/archive canon is excluded. Dhika only a storytelling analogy.",
     "changePolicy": "Never silently turn a proposal into a locked relationship, add a twin relationship, change relatives, or bypass direct user corrections. Flag actual continuity conflicts and get user decision.",
-    "lastCorrection": "2026-11-12: Meenakshi EP02 working plot supplied; Uday–Utkarsh confirmed twins/flirtation, Mohan one-sided interest, Aditi/Rupa/Leena existing hospital staff. Plot incidents remain unapproved; earlier Ankita/Shivani/Taniya/Soniya canon preserved.",
+    "lastCorrection": "2026-11-12: Mohan (64) corrected to unrelated guest from old-age home, called Uncle ji by Meenakshi. Not Nikhil's father or Meenakshi's FIL. Background should not yet be revealed to readers.",
     "shreyaCorrection": "2026-11-12: Shruti (23) replaces prior Naina sister record, Shreya 33 Police Inspector, Samar/Shaan 24 twins. EP02 working plot published to common UI, cutoff 13:15 station; no final prose."
   },
   "leads": [
@@ -286,13 +286,14 @@
       "id": "mohan",
       "name": "Mohan",
       "age": 64,
-      "role": "Meenakshi’s father-in-law",
+      "role": "Unrelated older household guest (addressed as Uncle ji)",
       "group": "family",
       "house": "meenakshi",
       "sourceStatus": "USER_CONFIRMED_CHARACTER_DIRECTION",
-      "notes": "Original new-universe Atlas roster, subject to user refinements",
+      "notes": "Older man from an old-age home, accepted into the household; not a blood relative or father-in-law. His background is a reader-facing secret for now.",
       "characterDirection": "Concealed one-sided sexual interest toward Meenakshi; Meenakshi does not reciprocate",
-      "storyStatus": "USER_CONFIRMED_INTEREST; UNAPPROVED_EP02_ACTIONS"
+      "storyStatus": "USER_CONFIRMED_INTEREST; UNAPPROVED_EP02_ACTIONS",
+      "relationshipToMeenakshi": "Familiar household guest; she calls him Uncle ji"
     },
     {
       "id": "vihaan",
@@ -1774,9 +1775,9 @@
       "fromWoman": 0,
       "fromMan": 2,
       "importance": 4,
-      "how": "Meenakshi's father-in-law; lives in Kapoor household.",
+      "how": "Unrelated old-age-home guest treated as a familiar household elder; Meenakshi calls him Uncle ji.",
       "why": "User-confirmed concealed, one-sided interest. No reciprocal attraction; his private belongings inspection is an unauthorized boundary crossing in an unapproved EP02 working scene.",
-      "kind": "family",
+      "kind": "household",
       "state": "confirmed_one_sided_interest_proposed_scene",
       "userConfirmedDirection": true
     },
@@ -2321,11 +2322,11 @@
     {
       "lead": "meenakshi",
       "spouse": "nikhil",
-      "fil": "mohan",
       "devars": [
         "dev"
       ],
-      "comment": "Nikhil husband, Mohan FIL with confirmed one-sided private attraction, Dev one adult devar, Ishita younger sister, Vihaan toddler family-only. Uday & Utkarsh are confirmed society twins, not devars; Avi & Yash remain an unconfirmed hospital duo."
+      "comment": "Nikhil is husband; Mohan is an unrelated, adopted-in household guest called Uncle ji, not father-in-law. His one-sided interest is reader-only; Dev remains adult devar, Ishita younger sister, Vihaan toddler family-only. Uday and Utkarsh are society twins.",
+      "householdGuest": "mohan"
     },
     {
       "lead": "shreya",
@@ -2360,7 +2361,7 @@
       "id": "mohan",
       "lead": "meenakshi",
       "directInterestedInAnkita": "NOT_DEFINED_IN_ATLAS",
-      "currentDescription": "Another woman's FIL; no established direction toward Ankita"
+      "currentDescription": "Unrelated older guest in Meenakshi's household, NOT her father-in-law; no established direction toward Ankita"
     },
     {
       "id": "arvind",
@@ -2746,6 +2747,6 @@
       "assets/meenakshi/confident_doctor_in_a_hospital_corridor.svg",
       "assets/meenakshi/glamorous_doctor_in_dressing_room.svg"
     ],
-    "note": "Confirmed character directions do not approve detailed working scene actions; do not treat locker/privacy violations as consent."
+    "note": "Mohan is unrelated guest called Uncle ji; M01 prose is user-supplied and separately published. His private fantasy is not actual Meenakshi behaviour. Hospital incidents remain working plot."
   }
 }
