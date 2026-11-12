@@ -224,17 +224,55 @@
         "soniya",
         "rahul"
       ],
-      "title": "New Year breakfast and engagement plans",
+      "title": "The Morning Glimpse — Family Chemistry and New-Feeling Banter",
       "beats": [
-        "Two glamorous adult sisters have distinct styling and personalities; establish breakfast routine, upcoming engagement and gym plan.",
-        "Rahul's concealed attraction is directed specifically at Taniya; she is unaware. He remains outwardly normal."
+        "Taniya wakes in loose cotton nightwear, notices Soniya and her husband Rahul sharing ordinary affectionate married-life banter; her curiosity about her own future with fiancé Aditya is internal only.",
+        "Soniya temporarily steps away. Taniya and Rahul exchange newly bold, double-meaning accounting/audit jokes in ordinary spoken conversation; this is not a sexual invitation or authorization for private access.",
+        "No breakfast before the 08:25 gym session; sisters plan their workout and prepare separately.",
+        "Canonical complete prose is published in unified Episode 02 as a user-requested draft, not deemed finally approved."
       ],
       "classification": "HIDDEN_ONE_SIDED_ATTRACTION",
       "source": "USER-DIRECTED",
       "sampleDialogue": [
-        "Soniya (elder sister): 'New Year pe gym miss mat karna, madam.'",
-        "Taniya (engaged CA): 'Engagement ke fittings aur audit deadlines, dono ko time chahiye.'"
-      ]
+        [
+          "Taniya",
+          "Jiju, New Year ki subah hi itna romance? Gym toh aap dono ghar pe hi complete kar loge."
+        ],
+        [
+          "Rahul",
+          "Tumhari audit duty bhi shuru ho gayi? Kuch cheezein private accounts mein rehti hain."
+        ],
+        [
+          "Taniya",
+          "Private accounts hi toh sabse suspicious hote hain. Especially jab entries itni interesting ho. Aaj subah kitni baar entry hui?"
+        ],
+        [
+          "Rahul",
+          "Toh audit carefully karna. Har cheez ka jawab balance sheet mein nahi milta. Kuch cheezein sirf deep dive se pata chalti hain."
+        ],
+        [
+          "Taniya",
+          "Interesting. Aaj pehli baar aapne seedha jawab dene se bachne ke bajaye question aur difficult bana diya. Matlab aap chahte hain main properly check karun… kitna deep jaana padega?"
+        ],
+        [
+          "Rahul",
+          "Jitna deep jaogi, utna clear picture milegi. Bas dekhna, kahin overload na ho jaye."
+        ],
+        [
+          "Taniya",
+          "Overload se dar nahi lagta, Jiju. Bas yeh bataiye… aapke private account mein abhi bhi space hai, ya already full ho chuka hai?"
+        ],
+        [
+          "Rahul",
+          "Space toh hai. Lekin late entry par penalty lag sakti hai."
+        ],
+        [
+          "Taniya",
+          "Penalty bhi accept hai… agar interest rate achha ho."
+        ]
+      ],
+      "proseStatus": "PUBLISHED_USER_REQUESTED_DRAFT",
+      "proseAnchor": "taniya-soniya-ts01"
     },
     {
       "id": "TS02",
@@ -247,15 +285,19 @@
         "soniya",
         "rahul"
       ],
-      "title": "Gym preparation and Rahul's covert observation",
+      "title": "Gym Preparation — The Unseen Privacy Violation",
       "beats": [
-        "Both sisters prepare workout clothes while Rahul remains at home.",
-        "Rahul knowingly watches Taniya changing without permission; later commits a separate private sexual act, recorded only as a non-graphic event.",
-        "Taniya does not observe or consent to the covert watching. No shared knowledge is established."
+        "Soniya and Taniya get ready in separate bedrooms for society gym, choosing different existing workout outfits. Taniya is in burgundy/plum sportswear and matching leggings.",
+        "Rahul passes the corridor and notices Taniya changing behind a partially open bedroom door. Recognizing it as private, he nonetheless deliberately stops and looks without her permission. Depict the event non-graphically.",
+        "Taniya remains unaware of the unauthorized observation; her earlier witty conversation conveys no consent and does not imply reciprocal attraction.",
+        "Rahul retreats to the living area; the sisters finish preparing and make their way to gym. Rahul leaves the flat for work at 07:55, a distinct TS03 beat.",
+        "The submitted 07:05 changing-room clock is adjusted into TS02 after 07:25 to preserve the published shared chronology."
       ],
       "classification": "NON_CONSENSUAL_OBSERVATION",
       "source": "USER-DIRECTED",
-      "sampleDialogue": []
+      "sampleDialogue": [],
+      "proseStatus": "PUBLISHED_USER_REQUESTED_DRAFT",
+      "proseAnchor": "taniya-soniya-ts02"
     },
     {
       "id": "TS03",
@@ -645,11 +687,11 @@
       "target": "taniya",
       "time": "07:25–07:50",
       "location": "Shared flat",
-      "happened": "Concealed attraction; unauthorized changing-area observation and later private sexual act, non-graphically registered",
+      "happened": "Rahul knowingly and without permission observes Taniya changing through her partially open bedroom door; the event is recorded non-graphically.",
       "actorBelieves": "He conceals it from the household",
       "targetKnows": "Taniya unaware",
       "boundaryClassification": "NON_CONSENSUAL_COVERT_OBSERVATION",
-      "immediateReaction": "Rahul outwardly behaves normally",
+      "immediateReaction": "Rahul retreats; Taniya remains entirely unaware; prior family banter is not permission.",
       "futureHook": "Secret knowledge/possible accountability",
       "source": "USER-DIRECTED"
     },
@@ -878,7 +920,8 @@
     "Thumbnail versions of supplied portraits have been committed; the original full-size images are retained in user files rather than GitHub assets.",
     "New Year's Day CA-office attendance is established in this user-directed plan; exact holiday work reason remains open.",
     "Mahendra's three-minute transfer from flat to committee office should be confirmed against building layout.",
-    "No explicit further prose or attraction arcs approved yet."
+    "No explicit further prose or attraction arcs approved yet.",
+    "TS01 and TS02 are published user-requested drafts; final scene-level approval remains separate."
   ],
   "nextLead": {
     "name": "Meenakshi",
