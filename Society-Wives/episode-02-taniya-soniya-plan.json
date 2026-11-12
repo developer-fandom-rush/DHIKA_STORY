@@ -51,7 +51,7 @@
       "id": "subhash",
       "name": "Subhash",
       "age": 59,
-      "role": "Aditya’s father; Taniya’s future father-in-law"
+      "role": "Aditya's socially presented older household associate; not an actual father or future FIL"
     },
     {
       "id": "mihir",
@@ -165,13 +165,13 @@
       "id": "om",
       "name": "Om",
       "age": null,
-      "role": "Shivani’s father-in-law; Ankita parcel sequence anchor"
+      "role": "Shivani's socially presented older household associate (not an actual FIL); Ankita parcel sequence anchor"
     },
     {
       "id": "rajeev",
       "name": "Rajeev",
       "age": 61,
-      "role": "Ankita’s father-in-law; committee sequence anchor"
+      "role": "Ankita's socially presented older household associate (not an actual FIL); committee sequence anchor"
     }
   ],
   "portraits": [
@@ -486,7 +486,7 @@
       "classification": "THEFT_AND_NONCONSENSUAL_PRIVACY_VIOLATION",
       "source": "USER-DIRECTED",
       "sampleDialogue": [
-        "Subhash (Taniya's future father-in-law): 'Sorry, beta.'",
+        "Subhash (socially presented elder, not Taniya's actual future FIL): 'Sorry, beta.'",
         "Soniya (Taniya's elder sister): 'Koi baat nahi, Uncle.'"
       ]
     },
