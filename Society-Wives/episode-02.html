@@ -92,7 +92,7 @@ body>.sw-sitebar+header p{margin:3px 0}
 <a class="sw-logo" href="./index.html">SOCIETY WIVES</a>
 <div class="sw-links">
 <a href="./index.html" data-sw-top="home">Home</a>
-<a href="./episode-01.html" data-sw-top="prologue">Prologue · EP01</a>
+<a href="./episode-01.html" data-sw-top="prologue">Prologue</a>
 <a href="?tab=cast" data-sw-top="cast">Characters</a>
 <a href="?tab=gallery" data-sw-top="gallery">Image Gallery</a>
 <details class="sw-episodes" id="sw-episodes-menu"><summary>Episodes ▾</summary><div class="sw-drop">
@@ -1149,7 +1149,7 @@ function swRenderDashboard(){
      const rows=selected.filter(e=>swGroup(e)===group);
      if(document.getElementById('sw-lead-filter').value&&group!==document.getElementById('sw-lead-filter').value)continue;
      output+='<section class="sw-group"><div class="sw-group-header"><h3>'+esc(swLabels[group])+'</h3><span class="sw-count">'+rows.length+' left / review</span></div>'+
-      (rows.length?rows.map(swTask).join(''):'<p class="muted">No pending records under this filter.</p>')+'</section>';
+      (rows.length?'<div class="sw-kicker" style="margin:4px 0 2px">Next to handle</div>'+rows.slice(0,2).map(swTask).join('')+(rows.length>2?'<details style="margin-top:10px"><summary style="cursor:pointer;color:#905276;font-size:12px;font-weight:800">Show remaining '+(rows.length-2)+' planned / review records</summary>'+rows.slice(2).map(swTask).join('')+'</details>':''):'<p class="muted">No pending records under this filter.</p>')+'</section>';
    }
    output+='</div>';
    output+='<p class="muted" style="margin-top:13px">Crossovers and parallel activity may overlap on the shared clock. SR05 (Shreya × Karan/Aman, 08:12–08:15) remains pending, so Shivani A05 (08:16–08:20) is on hold. A04 is completed as a two-line transition.</p>';
