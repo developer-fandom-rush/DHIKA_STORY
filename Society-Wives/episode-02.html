@@ -1709,7 +1709,7 @@ swScrollToHash();
    else if(sceneToFocus.startsWith('meenakshi-'))$('meenakshiSearch').value=sceneToFocus.slice(10);
    else{
      const target=items.find(x=>x.id===sceneToFocus);
-     if(target){$('viewLead').value=target.lead==='sisters'?'taniya':target.lead;$('viewQuery').value=sceneToFocus.split('-').slice(1).join('-');}
+     if(target){$('viewLead').value=target.lead==='sisters'?'':target.lead;$('viewQuery').value=sceneToFocus.split('-').slice(1).join('-');}
    }
  }
  renderClock();renderLead();renderPeople();renderSecrets();renderMeenakshiEncounters();renderShreya();renderPrompts();swInitDashboard();
