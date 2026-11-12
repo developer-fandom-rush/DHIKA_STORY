@@ -503,53 +503,76 @@
       "prose": [
         {
           "type": "narration",
-          "text": "10:15. Chairman Mahendra Suri community office mein committee register dekh rahe the. Gopal partly open carton lekar aaya. Bahar se label readable tha.",
-          "highlight": false
+          "text": "10:15. Gopal ne runner se chairman ko message bhejwaya aur khud damaged parcel lekar community office pahunch gaya."
         },
         {
           "type": "dialogue",
           "speaker": "Mahendra",
-          "text": "Ankita Malhotra? Ismein address verify karne ko kya bacha?",
-          "highlight": false
+          "text": "“Gopal, address toh clearly likha hai. Phir verification kis baat ki?”"
         },
         {
           "type": "dialogue",
           "speaker": "Gopal",
-          "text": "Seal loose hai, sir. Aapki custody mein safe rahega. Main register update kar deta hoon.",
-          "highlight": false
+          "text": "“Sir, seal damaged hai. Isliye socha aapki custody mein safe rahega.”"
         },
         {
           "type": "narration",
-          "text": "Gopal ke jaane ke baad Mahendra ne flap uthaya. Uske saamne private clothing, sealed personal item aur booklet thi. Woh kuch seconds ruka, phir ek clothing set lekar apni file bag mein rakh diya.",
-          "highlight": true
+          "text": "Mahendra ne carton inspect kiya. Gopal ne apni duty bag ko desk ke peeche rakha aur nazrein neeche kar li."
         },
         {
           "type": "dialogue",
-          "speaker": "Mahendra (quietly)",
-          "text": "Committee ke naam par parcel khola aur ab yeh…",
-          "highlight": false
-        },
-        {
-          "type": "private_thought",
-          "text": "Ankita ki community-meeting wali clear awaaz uske dimaag mein aayi. Ek lamhe ko usne kalpana ki ki woh uski taraf personally advice ke liye aaye; us imagination ne usse apni umar ke bawajood ajeeb sa interested bana diya.",
-          "highlight": true
-        },
-        {
-          "type": "private_thought",
-          "text": "Phir usne item dekhkar Ankita aur Kabir ki marriage ke baare mein bina evidence ki assumption bana li. Usse pata nahi tha Gopal pehle hi ek set nikaal chuka hai.",
-          "highlight": true
+          "speaker": "Mahendra",
+          "text": "“Register mein damage note karo. Aur aage se personal delivery mein unnecessary handling nahi.”"
         },
         {
           "type": "narration",
-          "text": "10:33. Mahendra ne box ko file stack ke paas rakha. Om aane wala tha; Mahendra ne khud ko normal committee mode mein laane ki koshish ki.",
-          "highlight": false
+          "text": "Gopal chala gaya."
+        },
+        {
+          "type": "narration",
+          "text": "Mahendra ne flap uthaya. Andar private clothing sets aur ek personal adult item tha."
+        },
+        {
+          "type": "narration",
+          "text": "Usne ek pink set apni file bag mein alag rakh diya."
+        },
+        {
+          "type": "reader_only_fantasy",
+          "label": "FANTASY INSERT",
+          "text": "Mahendra ne aankhein band ki. Mann mein Ankita uske office mein aayi, cream kurti mein. Woh uske saamne khadi thi, confident smile ke saath. Usne socha kaise woh uske shoulders par haath rakh kar use paas kheenchta, uske **breasts** ko kurti ke upar se mehsoos karta. Woh dheere se uski awaaz mein uska naam leti, advice maangti. Sirf uska private khayal tha.",
+          "highlight": true
+        },
+        {
+          "type": "private_thought",
+          "speaker": "Mahendra's thought",
+          "text": "“Ankita ka confidence alag hi hai. Shayad uski personal life mein kuch aisa hai jo bahar se dikhai nahi deta.”"
+        },
+        {
+          "type": "narration",
+          "text": "Yeh uska assumption tha, fact nahi."
+        },
+        {
+          "type": "future_hook",
+          "text": "Mahendra committee matters ke through Ankita ko personally jaanne ka mauka dhoondhne ka sochta hai."
+        },
+        {
+          "type": "narration",
+          "text": "10:33. Usne carton file stack ke paas rakh diya. Om ka visitor-log appointment aane wala tha."
         }
       ],
-      "sceneStatus": "DRAFT_AWAITING_USER_REVIEW_NOT_APPROVED",
+      "sceneStatus": "USER_APPROVED_PROSE_PUBLISHED",
       "sceneContinuity": "Ankita off-screen at office. Every clothing removal independent; no one knows other removals. Reader-only imagination is not mutual attraction.",
       "reviewNotes": [
         "The current prose is a working draft pending explicit user scene-by-scene review; the planned action/dialogue is retained as source for comparison."
-      ]
+      ],
+      "rawUserApprovedText": "10:15. Gopal ne runner se chairman ko message bhejwaya aur khud damaged parcel lekar community office pahunch gaya.\n\nMahendra: “Gopal, address toh clearly likha hai. Phir verification kis baat ki?”\n\nGopal: “Sir, seal damaged hai. Isliye socha aapki custody mein safe rahega.”\n\nMahendra ne carton inspect kiya. Gopal ne apni duty bag ko desk ke peeche rakha aur nazrein neeche kar li.\n\nMahendra: “Register mein damage note karo. Aur aage se personal delivery mein unnecessary handling nahi.”\n\nGopal chala gaya.\n\nMahendra ne flap uthaya. Andar private clothing sets aur ek personal adult item tha.\n\nUsne ek pink set apni file bag mein alag rakh diya.\n\n[FANTASY INSERT]\nMahendra ne aankhein band ki. Mann mein Ankita uske office mein aayi, cream kurti mein. Woh uske saamne khadi thi, confident smile ke saath. Usne socha kaise woh uske shoulders par haath rakh kar use paas kheenchta, uske **breasts** ko kurti ke upar se mehsoos karta. Woh dheere se uski awaaz mein uska naam leti, advice maangti. Sirf uska private khayal tha.\n\nMahendra's thought: “Ankita ka confidence alag hi hai. Shayad uski personal life mein kuch aisa hai jo bahar se dikhai nahi deta.”\n\nYeh uska assumption tha, fact nahi.\n\nFuture hook: Mahendra committee matters ke through Ankita ko personally jaanne ka mauka dhoondhne ka sochta hai.\n\n10:33. Usne carton file stack ke paas rakh diya. Om ka visitor-log appointment aane wala tha.",
+      "inventoryAfter": {
+        "setsIn": 6,
+        "setsRemoved": 1,
+        "setsRemain": 5
+      },
+      "readerOnlyImagination": true,
+      "origin": "User-provided Grok five-part merged output, kept intact in rawUserApprovedText"
     },
     {
       "id": "P03",
@@ -581,59 +604,73 @@
       "prose": [
         {
           "type": "narration",
-          "text": "10:37. Om visitor-log correction ke liye committee office pahuncha. Mahendra ne parcel ka partly open side dikhakar address label check karne ko kaha.",
-          "highlight": false
+          "text": "10:37. Om office mein aaya."
         },
         {
           "type": "dialogue",
           "speaker": "Om",
-          "text": "Malhotra flat. Ye toh hamare building ka hi hai. Courier ko gate register se match kar lena chahiye tha.",
-          "highlight": false
+          "text": "“Mahendra ji, visitor register ka duplicate entry clear karna tha.”"
         },
         {
           "type": "dialogue",
           "speaker": "Mahendra",
-          "text": "Theek. Main chairman stamp lekar aata hoon. Aap slip dekh lo.",
-          "highlight": false
-        },
-        {
-          "type": "narration",
-          "text": "Mahendra dusre room mein gaya. Om ne flap se jhankta pink fabric dekha. Usne ek set nikaal liya aur apni paperwork folder ke neeche chhupa diya; carton ko phir waise hi rakh diya.",
-          "highlight": true
-        },
-        {
-          "type": "private_thought",
-          "text": "Om ko Ankita ka society noticeboard sambhalte waqt ka confident andaaz yaad aaya. Usne kalpana ki ek din woh use alag se pehchaane, naam se bulaye, aur personal baat shuru kare.",
-          "highlight": true
-        },
-        {
-          "type": "private_thought",
-          "text": "Usne turant us imagined warmth ko reality samajhne ki galti karni shuru ki. Yeh sirf uska thought tha; Ankita wahan thi hi nahi.",
-          "highlight": true
-        },
-        {
-          "type": "dialogue",
-          "speaker": "Mahendra (returning)",
-          "text": "Address mil gaya?",
-          "highlight": false
+          "text": "“Haan. Gate entry mein flat code incomplete hai. Yeh parcel bhi Tower C ka hai. Ek baar cross-check kar dijiye.”"
         },
         {
           "type": "dialogue",
           "speaker": "Om",
-          "text": "Haan. Tower C. Bas register update kar dijiye.",
-          "highlight": false
+          "text": "“Ankita Malhotra? Inka flat toh mujhe pata hai.”"
         },
         {
           "type": "narration",
-          "text": "10:50. Om nikal gaya. Mahendra ko Om ke hidden removal ka pata nahi chala; Om bhi pehle ki dono removals se anjaan raha.",
-          "highlight": false
+          "text": "Mahendra stamp lene adjoining room mein gaya."
+        },
+        {
+          "type": "narration",
+          "text": "Om ne partially open carton dekha. Usne ek pink set quietly apne folder mein rakh liya."
+        },
+        {
+          "type": "reader_only_fantasy",
+          "label": "FANTASY INSERT",
+          "text": "Om ne folder band karte hue socha. Ankita society corridor mein usse milti, uski taraf muskuraati. Woh uske peeche khada hota, uski **ass** ko dheere se touch karta lace ke through. Woh palat kar uski aankhon mein dekhti, koi shikayat nahi karti. Sirf uska chhupa hua khayal.",
+          "highlight": true
+        },
+        {
+          "type": "narration",
+          "text": "Om ne folder band kiya. Uska outward expression bilkul normal tha."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Mahendra",
+          "text": "“Address confirm?”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Om",
+          "text": "“Haan. Tower C. Entry correct kar dijiye.”"
+        },
+        {
+          "type": "future_hook",
+          "text": "Om future mein Ankita ki kisi society-related concern mein personally helpful hone ki possibility sochta hai."
+        },
+        {
+          "type": "narration",
+          "text": "10:50. Om chala gaya. Mahendra ko uske secret ka pata nahi tha."
         }
       ],
-      "sceneStatus": "DRAFT_AWAITING_USER_REVIEW_NOT_APPROVED",
+      "sceneStatus": "USER_APPROVED_PROSE_PUBLISHED",
       "sceneContinuity": "Ankita off-screen at office. Every clothing removal independent; no one knows other removals. Reader-only imagination is not mutual attraction.",
       "reviewNotes": [
         "The current prose is a working draft pending explicit user scene-by-scene review; the planned action/dialogue is retained as source for comparison."
-      ]
+      ],
+      "rawUserApprovedText": "10:37. Om office mein aaya.\n\nOm: “Mahendra ji, visitor register ka duplicate entry clear karna tha.”\n\nMahendra: “Haan. Gate entry mein flat code incomplete hai. Yeh parcel bhi Tower C ka hai. Ek baar cross-check kar dijiye.”\n\nOm: “Ankita Malhotra? Inka flat toh mujhe pata hai.”\n\nMahendra stamp lene adjoining room mein gaya.\n\nOm ne partially open carton dekha. Usne ek pink set quietly apne folder mein rakh liya.\n\n[FANTASY INSERT]\nOm ne folder band karte hue socha. Ankita society corridor mein usse milti, uski taraf muskuraati. Woh uske peeche khada hota, uski **ass** ko dheere se touch karta lace ke through. Woh palat kar uski aankhon mein dekhti, koi shikayat nahi karti. Sirf uska chhupa hua khayal.\n\nOm ne folder band kiya. Uska outward expression bilkul normal tha.\n\nMahendra: “Address confirm?”\n\nOm: “Haan. Tower C. Entry correct kar dijiye.”\n\nFuture hook: Om future mein Ankita ki kisi society-related concern mein personally helpful hone ki possibility sochta hai.\n\n10:50. Om chala gaya. Mahendra ko uske secret ka pata nahi tha.",
+      "inventoryAfter": {
+        "setsIn": 5,
+        "setsRemoved": 1,
+        "setsRemain": 4
+      },
+      "readerOnlyImagination": true,
+      "origin": "User-provided Grok five-part merged output, kept intact in rawUserApprovedText"
     },
     {
       "id": "P04",
@@ -660,59 +697,81 @@
       "prose": [
         {
           "type": "narration",
-          "text": "10:51. Subhash accounting papers sign karwane office pahuncha. Counter par wahi carton ab bhi partly closed tha. Koi clerk andar ledger dhoondhne gaya hua tha.",
-          "highlight": false
+          "text": "10:51. Subhash accounting paperwork ke liye pahuncha."
         },
         {
           "type": "dialogue",
           "speaker": "Subhash",
-          "text": "Aaj New Year par bhi audit kaam khatam nahi ho raha?",
-          "highlight": false
+          "text": "“New Year par bhi accounts close nahi hue?”"
         },
         {
           "type": "dialogue",
-          "speaker": "Clerk (inside)",
-          "text": "Do minute, sir. Receipt file le aata hoon.",
-          "highlight": false
+          "speaker": "Clerk",
+          "text": "“Ek receipt file reh gayi hai, sir. Abhi laata hoon.”"
         },
         {
           "type": "narration",
-          "text": "Subhash ne parcel ka naam padha. Loose flap ko uthaya; ek clothing set uski nazar mein aaya. Woh use chupke se apni leather folder mein rakhkar carton ko shelf par saraka gaya.",
+          "text": "Clerk andar gaya."
+        },
+        {
+          "type": "narration",
+          "text": "Subhash ki nazar damaged parcel par padi. Naam padhte hi woh ruka."
+        },
+        {
+          "type": "narration",
+          "text": "Usne ek set apni leather folder mein rakh liya."
+        },
+        {
+          "type": "reader_only_fantasy",
+          "label": "FANTASY INSERT",
+          "text": "Subhash ne socha Ankita uske saamne baithti, files discuss karti. Phir woh jhukti, uski **pussy** lace panty se clearly outline hoti. Woh uski taraf haath badhata, woh rukti nahi. Sirf uska calculated imagination.",
           "highlight": true
         },
         {
-          "type": "private_thought",
-          "text": "Subhash ne Ankita ko ek society meeting mein sabko seedhe jawab dete yaad kiya. Uske mann mein ek selfish khayal aaya: kaash woh kabhi isse personal request kare aur baat meeting se aage chale.",
-          "highlight": true
+          "type": "narration",
+          "text": "Usne parcel ko dobara counter ke kone mein rakh diya."
         },
         {
           "type": "private_thought",
-          "text": "Usne apne imagination aur uski actual marzi ka farq sochne se bachne ki koshish ki. Kisi ne usse parcel chhoone ko nahi kaha tha.",
-          "highlight": true
+          "speaker": "Subhash's thought",
+          "text": "“Shayad ghar mein kuch tension hai.”"
+        },
+        {
+          "type": "narration",
+          "text": "Uske paas is assumption ka koi evidence nahi tha."
         },
         {
           "type": "dialogue",
-          "speaker": "Clerk (returning)",
-          "text": "Ye signatures please.",
-          "highlight": false
+          "speaker": "Clerk",
+          "text": "“Sir, signatures?”"
         },
         {
           "type": "dialogue",
           "speaker": "Subhash",
-          "text": "Haan, bas yahin.",
-          "highlight": false
+          "text": "“Haan. Aur personal parcels ko accounts desk se hatao. Audit room koi storage nahi hai.”"
+        },
+        {
+          "type": "future_hook",
+          "text": "Society records aur paperwork future mein Subhash aur Ankita ke encounter ka reason ban sakte hain."
         },
         {
           "type": "narration",
-          "text": "11:05. Subhash file sign karke chala gaya. Uske liye yeh sirf uska chhupaya hua secret tha; baaki teen removals ki use khabar nahi thi.",
-          "highlight": false
+          "text": "11:05. Subhash nikal gaya."
         }
       ],
-      "sceneStatus": "DRAFT_AWAITING_USER_REVIEW_NOT_APPROVED",
+      "sceneStatus": "USER_APPROVED_PROSE_PUBLISHED",
       "sceneContinuity": "Ankita off-screen at office. Every clothing removal independent; no one knows other removals. Reader-only imagination is not mutual attraction.",
       "reviewNotes": [
         "The current prose is a working draft pending explicit user scene-by-scene review; the planned action/dialogue is retained as source for comparison."
-      ]
+      ],
+      "rawUserApprovedText": "10:51. Subhash accounting paperwork ke liye pahuncha.\n\nSubhash: “New Year par bhi accounts close nahi hue?”\n\nClerk: “Ek receipt file reh gayi hai, sir. Abhi laata hoon.”\n\nClerk andar gaya.\n\nSubhash ki nazar damaged parcel par padi. Naam padhte hi woh ruka.\n\nUsne ek set apni leather folder mein rakh liya.\n\n[FANTASY INSERT]\nSubhash ne socha Ankita uske saamne baithti, files discuss karti. Phir woh jhukti, uski **pussy** lace panty se clearly outline hoti. Woh uski taraf haath badhata, woh rukti nahi. Sirf uska calculated imagination.\n\nUsne parcel ko dobara counter ke kone mein rakh diya.\n\nSubhash's thought: “Shayad ghar mein kuch tension hai.”\n\nUske paas is assumption ka koi evidence nahi tha.\n\nClerk: “Sir, signatures?”\n\nSubhash: “Haan. Aur personal parcels ko accounts desk se hatao. Audit room koi storage nahi hai.”\n\nFuture hook: Society records aur paperwork future mein Subhash aur Ankita ke encounter ka reason ban sakte hain.\n\n11:05. Subhash nikal gaya.",
+      "inventoryAfter": {
+        "setsIn": 4,
+        "setsRemoved": 1,
+        "setsRemain": 3
+      },
+      "readerOnlyImagination": true,
+      "origin": "User-provided Grok five-part merged output, kept intact in rawUserApprovedText"
     },
     {
       "id": "P05",
@@ -739,53 +798,73 @@
       "prose": [
         {
           "type": "narration",
-          "text": "11:06. Mohan health-camp volunteer boxes check karne sorting table par aaya. Ankita ka damaged parcel unke bagal mein rakha tha. Label par uska naam dekhkar woh ek second ko ruka.",
-          "highlight": false
+          "text": "11:06. Mohan community health-camp ke volunteer boxes inspect karne aaya."
         },
         {
           "type": "dialogue",
           "speaker": "Mohan",
-          "text": "Yahan personal parcel kyun rakha hai? Health-camp stock ke saath mix ho jayega.",
-          "highlight": false
+          "text": "“Personal parcel yahan health-camp stock ke saath kyun rakha hai?”"
         },
         {
           "type": "dialogue",
-          "speaker": "Office helper",
-          "text": "Chairman ne address verify karna hai. Main notice photocopy karke aata hoon.",
-          "highlight": false
+          "speaker": "Helper",
+          "text": "“Chairman ka hai verification ke liye. Main notice ki copy lekar aata hoon.”"
         },
         {
           "type": "narration",
-          "text": "Helper gaya toh Mohan ne flap aur khol diya. Bachi clothing sets mein se ek usne apne cloth bag mein rakh li, phir register uske aage kar diya jaise kuch hua hi nahi.",
+          "text": "Mohan ne label par Ankita ka naam dekha."
+        },
+        {
+          "type": "narration",
+          "text": "Woh kuch pal ruka. Usne ek pink set apne cloth bag mein rakh liya."
+        },
+        {
+          "type": "reader_only_fantasy",
+          "label": "FANTASY INSERT",
+          "text": "Mohan ne aankhein band ki. Ankita uske paas baithi thi, soft awaaz mein baat kar rahi thi. Woh uski god mein sir rakh deti. Usne socha kaise woh use apne **lund** se dheere chodta, woh uska naam leti. Sirf uska akela khayal.",
           "highlight": true
         },
         {
           "type": "private_thought",
-          "text": "Mohan ko Ankita ka lift mein kabhi di hui polite greeting yaad aayi. Usne mann hi mann socha, agar ek din woh usse dil kholkar baat kare toh shayad woh important mehsoos kare.",
-          "highlight": true
-        },
-        {
-          "type": "private_thought",
-          "text": "Woh isi khayal mein ek ek-tarfa ruchi ko badha raha tha. Ankita ki taraf se koi signal ya invitation tha hi nahi.",
-          "highlight": true
-        },
-        {
-          "type": "dialogue",
-          "speaker": "Mohan (to returning helper)",
-          "text": "Boxes count kar liye. Personal carton ko separate rakhna.",
-          "highlight": false
+          "speaker": "Mohan's thought",
+          "text": "“Kabhi woh mujhse normal greeting se aage baat kare toh…”"
         },
         {
           "type": "narration",
-          "text": "11:19. Mohan apna bag lekar chala gaya. Usne kisi ko nahi bataya ki ek aur set gaayab ho gaya.",
-          "highlight": false
+          "text": "Usne apna bag band kiya."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Helper",
+          "text": "“Boxes check ho gaye?”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Mohan",
+          "text": "“Haan. Personal carton alag rakh dena.”"
+        },
+        {
+          "type": "future_hook",
+          "text": "Health-camp volunteer duties future mein Mohan aur Ankita ko same setting mein la sakti hain."
+        },
+        {
+          "type": "narration",
+          "text": "11:19. Mohan chala gaya."
         }
       ],
-      "sceneStatus": "DRAFT_AWAITING_USER_REVIEW_NOT_APPROVED",
+      "sceneStatus": "USER_APPROVED_PROSE_PUBLISHED",
       "sceneContinuity": "Ankita off-screen at office. Every clothing removal independent; no one knows other removals. Reader-only imagination is not mutual attraction.",
       "reviewNotes": [
         "The current prose is a working draft pending explicit user scene-by-scene review; the planned action/dialogue is retained as source for comparison."
-      ]
+      ],
+      "rawUserApprovedText": "11:06. Mohan community health-camp ke volunteer boxes inspect karne aaya.\n\nMohan: “Personal parcel yahan health-camp stock ke saath kyun rakha hai?”\n\nHelper: “Chairman ka hai verification ke liye. Main notice ki copy lekar aata hoon.”\n\nMohan ne label par Ankita ka naam dekha.\n\nWoh kuch pal ruka. Usne ek pink set apne cloth bag mein rakh liya.\n\n[FANTASY INSERT]\nMohan ne aankhein band ki. Ankita uske paas baithi thi, soft awaaz mein baat kar rahi thi. Woh uski god mein sir rakh deti. Usne socha kaise woh use apne **lund** se dheere chodta, woh uska naam leti. Sirf uska akela khayal.\n\nMohan's thought: “Kabhi woh mujhse normal greeting se aage baat kare toh…”\n\nUsne apna bag band kiya.\n\nHelper: “Boxes check ho gaye?”\n\nMohan: “Haan. Personal carton alag rakh dena.”\n\nFuture hook: Health-camp volunteer duties future mein Mohan aur Ankita ko same setting mein la sakti hain.\n\n11:19. Mohan chala gaya.",
+      "inventoryAfter": {
+        "setsIn": 3,
+        "setsRemoved": 1,
+        "setsRemain": 2
+      },
+      "readerOnlyImagination": true,
+      "origin": "User-provided Grok five-part merged output, kept intact in rawUserApprovedText"
     },
     {
       "id": "P06",
@@ -807,46 +886,75 @@
       "herReaction": "Ankita absent and unaware.",
       "privateThought": "Arvind's private attraction is newly created by the incident and remains unreciprocated and hidden.",
       "hooks": [
-        "Six of six sets now removed; outer box still contains the other personal item and paperwork."
+        "Six of seven sets now removed; one complete set, personal item and manual remain in the box for P07."
       ],
       "prose": [
         {
           "type": "narration",
-          "text": "11:20. Arvind maintenance notice dene committee office aaya. Counter par koi nahi tha. Notice rakhte hue use damaged parcel ki andar ki cheezein dikh gayin.",
-          "highlight": false
+          "text": "11:20. Arvind society maintenance notice lekar office pahuncha."
+        },
+        {
+          "type": "narration",
+          "text": "Counter unattended tha."
         },
         {
           "type": "dialogue",
-          "speaker": "Arvind (quietly)",
-          "text": "Naam Ankita ka… is box ko yahan kisne chhoda?",
-          "highlight": false
+          "speaker": "Arvind",
+          "text": "“Notice yahin rakh deta hoon.”"
         },
         {
           "type": "narration",
-          "text": "Arvind ne bina poochhe flap uthaya. Do bache hue pink clothing sets mein se ek dikha; woh usne apni folded newspaper ke neeche rakh li. Carton mein ab ek pink clothing set bacha tha.",
-          "highlight": true
+          "text": "Uski nazar damaged carton par padi. Label par Ankita ka naam tha."
         },
         {
-          "type": "private_thought",
-          "text": "Uske mann mein Ankita ki assured baaton aur muskurahat ki yaad ubhri. Kuch pal ke liye usne kalpana ki woh uski taraf wohi muskurahat sirf uske liye rakhe.",
-          "highlight": true
+          "type": "narration",
+          "text": "Flap kholne par do pink sets bache hue the."
         },
         {
-          "type": "private_thought",
-          "text": "Phir imagination mein usne ek future personal conversation ka bahaana socha. Asal mein aisa koi moment hua nahi tha.",
+          "type": "narration",
+          "text": "Arvind ne ek set newspaper ke neeche rakh liya."
+        },
+        {
+          "type": "reader_only_fantasy",
+          "label": "FANTASY INSERT",
+          "text": "Arvind ne newspaper fold karte hue socha. Ankita maintenance issue discuss karne aati. Woh uske kareeb khadi hoti. Usne kalpana ki kaise woh use wall ke against khada karke **lund se chudai** karta, woh uski aankhein band kar leti. Sirf uska private soch.",
           "highlight": true
         },
         {
           "type": "narration",
-          "text": "11:35. Arvind ne notice chhodkar parcel ko logged shelf par rakh diya. Ab andar ek pink clothing set, sealed adult personal item aur booklet the; chhe clothing sets, chhe alag logon ne bina ek doosre ko jaane le liye the.",
-          "highlight": false
+          "text": "Arvind ne newspaper fold kiya."
+        },
+        {
+          "type": "private_thought",
+          "speaker": "Arvind's thought",
+          "text": "“Ankita hamesha itni composed rehti hai. Kabhi usse office aur society responsibilities ke alawa bhi baat karni chahiye.”"
+        },
+        {
+          "type": "future_hook",
+          "text": "Maintenance ya society facilities ka koi future issue unki conversation ka natural occasion ban sakta hai."
+        },
+        {
+          "type": "narration",
+          "text": "11:35. Arvind notice chhodkar chala gaya."
+        },
+        {
+          "type": "narration",
+          "text": "Carton mein ab 1 pink lace set + personal adult item + manual bacha tha."
         }
       ],
-      "sceneStatus": "DRAFT_AWAITING_USER_REVIEW_NOT_APPROVED",
+      "sceneStatus": "USER_APPROVED_PROSE_PUBLISHED",
       "sceneContinuity": "Ankita off-screen at office. Every clothing removal independent; no one knows other removals. Reader-only imagination is not mutual attraction.",
       "reviewNotes": [
         "The current prose is a working draft pending explicit user scene-by-scene review; the planned action/dialogue is retained as source for comparison."
-      ]
+      ],
+      "rawUserApprovedText": "11:20. Arvind society maintenance notice lekar office pahuncha.\n\nCounter unattended tha.\n\nArvind: “Notice yahin rakh deta hoon.”\n\nUski nazar damaged carton par padi. Label par Ankita ka naam tha.\n\nFlap kholne par do pink sets bache hue the.\n\nArvind ne ek set newspaper ke neeche rakh liya.\n\n[FANTASY INSERT]\nArvind ne newspaper fold karte hue socha. Ankita maintenance issue discuss karne aati. Woh uske kareeb khadi hoti. Usne kalpana ki kaise woh use wall ke against khada karke **lund se chudai** karta, woh uski aankhein band kar leti. Sirf uska private soch.\n\nArvind ne newspaper fold kiya.\n\nArvind's thought: “Ankita hamesha itni composed rehti hai. Kabhi usse office aur society responsibilities ke alawa bhi baat karni chahiye.”\n\nFuture hook: Maintenance ya society facilities ka koi future issue unki conversation ka natural occasion ban sakta hai.\n\n11:35. Arvind notice chhodkar chala gaya.\n\nCarton mein ab 1 pink lace set + personal adult item + manual bacha tha.",
+      "inventoryAfter": {
+        "setsIn": 2,
+        "setsRemoved": 1,
+        "setsRemain": 1
+      },
+      "readerOnlyImagination": true,
+      "origin": "User-provided Grok five-part merged output, kept intact in rawUserApprovedText"
     },
     {
       "id": "P07",
@@ -1099,7 +1207,7 @@
       "uiInstruction": "Remove from Jan 1 EP02 clock and do not publish until future episode chosen."
     },
     "parcelPublication": {
-      "status": "P01_P08_WORKING_PROSE_DRAFT_NOT_APPROVED",
+      "status": "P01_P06_USER_APPROVED_P07_P08_DRAFT",
       "ui": "episode-02.html?tab=ankita-prose#parcel-p01",
       "officeActorsAbsent": "Ankita physically absent 09:55–12:50",
       "womenKnowledge": "Ankita unaware of parcel opening or removals",
@@ -1117,7 +1225,19 @@
         "initialSets": 7,
         "removedSets": 6,
         "setsInBoxWithRajeev": 1
-      }
+      },
+      "completedIds": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06"
+      ],
+      "reviewPendingIds": [
+        "P07",
+        "P08"
+      ]
     },
     "parcelReviewPriority": [
       "P01 narrative linkage with A07 and P02",
