@@ -87,7 +87,24 @@ body>.sw-sitebar+header h1{font-size:clamp(24px,3.2vw,34px)}
 body>.sw-sitebar+header p{margin:3px 0}
 @media(max-width:900px){.sw-grid{grid-template-columns:1fr}.sw-metrics{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:650px){.sw-sitebar{position:sticky;top:0;padding:7px 9px;align-items:center}.sw-logo{font-size:12px}.sw-links{gap:1px}.sw-links a,.sw-sitebar summary{font-size:11px;padding:8px 7px}.sw-links a:nth-child(1){display:none}.sw-modes{width:100%}.sw-modes button{flex:1;padding:10px 5px;font-size:11px}.sw-controlbar select{flex:1}.sw-story-top{gap:8px}.sw-story-time{width:60px;flex-basis:60px}.sw-metric b{font-size:21px}.sw-dash h2{font-size:20px}.sw-reader-slot .a02-scene{padding:10px}.archive-menu{padding:0 10px}}
-</style></head>
+</style><style id="sw-unified-female-ui">
+.meena-jumps,.sw-lead-jump{display:flex;flex-wrap:wrap;gap:9px;margin:12px 0 18px}
+.meena-jumps a{padding:8px 12px;border-radius:9px;border:1px solid #d8c4d3;background:#fff7fc;color:#7c3e65;font-weight:800;text-decoration:none}
+.meena-embedded .story{border:1px solid #e7d8e5;border-radius:14px;background:#fff;padding:clamp(14px,2.5vw,30px);margin:0 0 21px;scroll-margin-top:24px;box-shadow:0 4px 16px #2b16220d}
+.meena-embedded .story h2{font-size:21px;margin:20px 0 14px;color:#733f69;line-height:1.32;border-bottom:1px solid #e7d8e5;padding-bottom:10px}
+.meena-embedded .story p{font:16px/1.78 Georgia,serif;margin:0 0 14px}
+.meena-embedded .story .meta{font:13px/1.5 system-ui,sans-serif;color:#7a7180;margin:0 0 16px}
+.meena-embedded .story .speech,.meena-embedded .story .dialogue{font:15px/1.7 system-ui,sans-serif;background:#fcf6fa;padding:10px 13px;margin:9px 0;border-left:3px solid #b977a3;border-radius:6px}
+.meena-embedded .story mark{background:#fff0a9;color:#342e37;font-weight:700;padding:1px 3px;border-radius:3px}
+.meena-embedded .story figure{max-width:100%;margin:0 0 16px}
+.meena-embedded .story img{max-width:100%;height:auto}
+.sw-lead-jump{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:14px 0 20px}
+.sw-lead-jump a{display:flex;flex-direction:column;gap:3px;min-width:0;border:1px solid #e3d3df;border-radius:12px;padding:12px;background:#fff;color:#7a3c61;text-decoration:none;font-weight:800}
+.sw-lead-jump a:hover,.meena-jumps a:hover{background:#f9eefa}
+.sw-lead-jump a small{font-weight:500;color:#74677a;font-size:11px}
+@media(max-width:700px){.sw-lead-jump{grid-template-columns:repeat(2,minmax(0,1fr))}.meena-embedded .story p{font-size:15px}}
+</style>
+</head>
 <body><div class="sw-sitebar" role="navigation" aria-label="Society Wives primary navigation">
 <a class="sw-logo" href="./index.html">SOCIETY WIVES</a>
 <div class="sw-links">
@@ -145,7 +162,7 @@ body>.sw-sitebar+header p{margin:3px 0}
 
 <button role="tab" data-tab="taniya-soniya-prose" aria-selected="false">Taniya + Soniya · TS01–TS02</button>
 <button role="tab" data-tab="leads" aria-selected="false">Story by Character</button>
-<button role="tab" data-tab="cast" aria-selected="false">All Characters</button><button role="tab" data-tab="meenakshi-m01" aria-selected="false">Meenakshi · M01–M05 Full Story</button><button role="tab" data-tab="meenakshi-m02" aria-selected="false">Meenakshi · M02–M03 Prose</button><button role="tab" data-tab="meenakshi" aria-selected="false">Meenakshi · Encounters</button><button role="tab" data-tab="shreya-prose" aria-selected="false">Shreya · SR01 + SR02A/B Prose</button><button role="tab" data-tab="shreya" aria-selected="false">Shreya · Plot</button><button role="tab" data-tab="gallery" aria-selected="false">Image Gallery</button><button role="tab" data-tab="prompts" aria-selected="false">Writing Prompts</button>
+<button role="tab" data-tab="cast" aria-selected="false">All Characters</button><button role="tab" data-tab="meenakshi-m01" aria-selected="false">Meenakshi · M01–M05 Inline Reader</button><button role="tab" data-tab="meenakshi-m02" aria-selected="false">Meenakshi · M02–M03 Focus</button><button role="tab" data-tab="meenakshi" aria-selected="false">Meenakshi · Encounters</button><button role="tab" data-tab="shreya-prose" aria-selected="false">Shreya · SR01 + SR02A/B Prose</button><button role="tab" data-tab="shreya" aria-selected="false">Shreya · Plot</button><button role="tab" data-tab="gallery" aria-selected="false">Image Gallery</button><button role="tab" data-tab="prompts" aria-selected="false">Writing Prompts</button>
 <button role="tab" data-tab="secrets" aria-selected="false">Secrets &amp; Ownership</button>
 <button role="tab" data-tab="continuity" aria-selected="false">Continuity &amp; EP03</button>
 </div></details>
@@ -154,6 +171,14 @@ body>.sw-sitebar+header p{margin:3px 0}
 <div class="sw-kicker">Episode navigator · One global clock</div>
 <div class="sw-headrow"><div><h2>Episode 02 · The Story So Far</h2>
 <p class="sw-dash-sub">1 January 2026 · Gurgaon. Five writing lanes covering six women. Completed or published scenes stay on the chronological reader; only scenes still needing work appear under Next Scenes.</p></div><span class="chip approved">Live progress index</span></div>
+<nav class="sw-lead-jump" aria-label="Read all female leads on the same episode page">
+<a href="?tab=ankita-prose">Ankita<small>A02–A08 · Completed</small></a>
+<a href="?tab=shivani-prose">Shivani<small>A02–A03 · Published</small></a>
+<a href="?tab=taniya-soniya-prose">Taniya<small>TS01–TS02 · Shared story</small></a>
+<a href="?tab=taniya-soniya-prose">Soniya<small>TS01–TS02 · Shared story</small></a>
+<a href="?tab=meenakshi-m01">Meenakshi<small>M01–M05 · Read inline</small></a>
+<a href="?tab=shreya-prose">Shreya<small>SR01–SR02B · Published</small></a>
+</nav>
 <div class="sw-episode-nav"><a href="./episode-01.html">Episode 01 · Prologue (combined)</a><a href="?tab=episode-dashboard" aria-current="page">Episode 02 · Six Perspectives</a><a href="./episode-03-ankita-pending.html">Episode 03 · Planned</a></div>
 <div class="sw-metrics"><div class="sw-metric"><b id="sw-done-count">–</b><small>Written / published</small></div><div class="sw-metric"><b id="sw-pending-count">–</b><small>Still to write</small></div><div class="sw-metric"><b id="sw-review-count">–</b><small>Review or timing hold</small></div><div class="sw-metric"><b id="sw-lane-count">5</b><small>Writing lanes · 6 leads</small></div></div>
 <div class="sw-controlbar">
@@ -931,21 +956,214 @@ body>.sw-sitebar+header p{margin:3px 0}
 <div class="controls"><select id="house"><option value="">All five households</option><option value="ankita">Ankita household</option><option value="shivani">Shivani household</option><option value="taniya">Taniya / Soniya household</option><option value="meenakshi">Meenakshi household</option><option value="shreya">Shreya household</option></select><select id="group"><option value="">All roles</option><option value="family">Family</option><option value="society">Society</option><option value="office">Workplace</option></select><input id="personQuery" type="search" placeholder="Search characters, names or relationships"></div><div id="people" class="gridpeople"></div></section>
 
 <section class="surface hidden" data-panel="meenakshi-m01" id="meenakshi-m01-reader">
-<div class="sectionhead"><h2>Meenakshi · Complete Morning Story: M01–M05</h2><span class="chip proposed">User-supplied scene · published for review</span></div>
-<p class="muted">1 January 2026 · 06:40–09:05 AM · M01 secret, M01-F02 bath and getting ready, M02 twins, M03 Gopal, M04 commute and M05 hospital staff preparation. Mohan remains an unrelated household guest.</p>
-<p><a href="./episode-02-meenakshi.html" target="_blank" rel="noopener"><strong>Open complete M01–M05 story in full reader view</strong></a></p>
-<p><a href="./episode-02-meenakshi.html#m05" target="_blank" rel="noopener"><strong>Jump directly to M05 · Hospital preparation</strong></a></p><iframe loading="lazy" title="Meenakshi complete M01 through M05 story" src="./episode-02-meenakshi.html" style="width:100%;height:2800px;border:1px solid #e7deeb;border-radius:13px;background:#fff"></iframe>
+<div class="sectionhead"><h2>Meenakshi · M01–M05 · Complete Inline Reader</h2><span class="chip approved">M01 REVIEW · M02–M05 PUBLISHED</span></div>
+<p class="muted">1 January 2026 · 06:40–09:05 AM · The full canonical published M01–M05 story is now inside the original unified Episode 02 page. M01 remains user-supplied and published for review; M02–M05 are published. No source dialogue rewritten.</p>
+<nav class="meena-jumps" aria-label="Meenakshi scene jumps"><a href="#meenakshi-m01-story" data-inline-scroll="m01">M01</a><a href="#meenakshi-m02-story" data-inline-scroll="m02">M02</a><a href="#meenakshi-m03-story" data-inline-scroll="m03">M03</a><a href="#meenakshi-m04-story" data-inline-scroll="m04">M04</a><a href="#meenakshi-m05-story" data-inline-scroll="m05">M05</a></nav>
+<div class="meena-embedded"><article id="meenakshi-m01-story" class="story"><h2>C — A surprise meant for Nikhil</h2>
+<p>January ki subah thi. Gurgaon ki thand bedroom ki band khidkiyon ke baahar abhi bhi bani hui thi.</p>
+<p>Meenakshi dressing table ke saamne baithi thi. Uska hospital bag taiyaar tha, lekin nikalne se pehle kuch personal kaam baaki the.</p>
+<p>Vihaan abhi chhota tha aur Meenakshi breastfeeding continue kar rahi thi. Hospital ki long shifts ke chalte woh apna milk-expression routine carefully manage karti thi.</p>
+<p>Aaj bhi usne privacy mein pumping complete ki, expressed milk properly store kiya, aur phir fresh hokar morning clothes pehen liye.</p>
+<p>Usne soft plum-coloured front-button cotton kurta, cream palazzo aur grey cardigan pehna. Dupatta shoulders par adjust kiya aur baal loosely baandh liye.</p>
+<p>Dressing table ke drawer se usne ek personal pouch nikala.</p>
+<p>Andar Nikhil ke liye uska private surprise tha: <mark>ek bold “fuck-me” style adult roleplay costume — sheer black lace teddy jismein deep plunging neckline, barely-there cups jo nipples clearly outline karte, open crotch design, matching crotchless panties, aur ek soft black silk blindfold</mark>.</p>
+<p>Woh costume ko dekhkar khud muskurayi, fingers se lace ko halka sa stretch karti hui.</p>
+<p>“Mr. Kapoor, aaj shaam dekhte hain tumhara confidence kitna tikta hai.”</p>
+<p>Usne dono cheezein carefully pouch mein arrange ki aur zip band kar di.</p>
+<p>Shaam ki planning abhi ek secret thi.</p>
+<h2>D — Uncle ji's familiar teasing</h2>
+<p>06:56 AM.</p>
+<p>Meenakshi pouch haath mein lekar bedroom se nikli toh corridor mein Mohan mil gaye.</p>
+<div class="dialogue"><mark>Mohan:</mark> “Good morning, Doctor sahiba. Naya saal mubarak.”</div>
+<div class="dialogue"><mark>Meenakshi:</mark> “Happy New Year, Uncle ji! Aap itni subah ready bhi ho gaye?”</div>
+<div class="dialogue"><mark>Mohan:</mark> “Budhape mein neend kam aur observations zyada ho jaate hain.”</div>
+<p>Meenakshi hans di.</p>
+<div class="dialogue"><mark>Meenakshi:</mark> “Observations? Achha, bataiye aaj kya observe kiya?”</div>
+<p><mark>Mohan ne uski taraf dekha. Plum kurta ke front buttons thode loose the, aur cardigan ke neeche se uske full, heavy breasts clearly outline ho rahe the. Unki nazar ek pal zarurat se zyada uske cleavage aur breast par thahri, jaise woh unke shape aur movement ko absorb kar rahe hon.</mark></p>
+<div class="dialogue"><mark>Mohan:</mark> “Yahi ki aaj Doctor sahiba kaafi khoobsurat lag rahi hain. Yeh rang tum par bahut achha lagta hai.”</div>
+<div class="dialogue"><mark>Meenakshi:</mark> “Thank you! Aap toh New Year par compliments baant rahe hain.”</div>
+<div class="dialogue"><mark>Mohan:</mark> “Compliment sahi jagah dena chahiye.”</div>
+<p>Meenakshi ne muskurakar dupatta theek kiya, lekin usse pehle Mohan ki nazar ek baar aur uske chest se nahi hati.</p>
+<div class="dialogue"><mark>Meenakshi:</mark> “Wah, Uncle ji. Aaj aap full charming mood mein hain!”</div>
+<div class="dialogue"><mark>Mohan:</mark> “Aur tum? Hospital jaane ki taiyaari ke beech itni khush kaise ho?”</div>
+<div class="dialogue"><mark>Meenakshi:</mark> “New Year hai. Khush nahi ho sakti?”</div>
+<div class="dialogue"><mark>Mohan:</mark> “Bilkul. Waise Vihaan ne aaj doodh ki duty time par poori ki, ya doctor mummy ko phir busy rakha?”</div>
+<p>Meenakshi ekdum hans padi. Uske gaalon par laali aa gayi.</p>
+<div class="dialogue"><mark>Meenakshi:</mark> “Uncle ji! Ab aap mere feeding schedule ka bhi audit karenge?”</div>
+<div class="dialogue"><mark>Mohan:</mark> “Arre, tumhare hospital mein sabki duty hoti hai. Ghar mein bhi toh honi chahiye!”</div>
+<div class="dialogue"><mark>Meenakshi:</mark> “Aapko ek din hospital le jaakar poori duty charting sikhaungi. Phir pata chalega!”</div>
+<p>Dono hans diye.</p>
+<p>Mohan ko uski teasing ka jawab dene ka andaaz pasand tha. Yeh koi nayi baat nahi thi. Woh pehle bhi uske saath aasani se baat karte aaye the.</p>
+<p>Lekin unke mann mein uske liye jo attraction tha, woh ek alag baat thi—jiska Meenakshi ko koi andaaza nahi tha. <mark>Unki nazar baar-baar uske breasts par ja rahi thi, jaise woh soch rahe hon ki woh kitne soft aur full hain.</mark></p>
+<p>Tabhi Mohan ki nazar uske haath mein pakde pouch par gayi.</p>
+<div class="dialogue"><mark>Mohan:</mark> “Achha, yeh kya hai? Subah-subah koi gift pack kar rahi ho?”</div>
+<p>Meenakshi ne pouch ko apne paas kar liya.</p>
+<div class="dialogue"><mark>Meenakshi:</mark> “Kuch nahi, Uncle ji. Personal cheezein hain.”</div>
+<div class="dialogue"><mark>Mohan:</mark> “Personal? Ab toh curiosity badh gayi.”</div>
+<div class="dialogue"><mark>Meenakshi:</mark> “Aap bhi na!”</div>
+<div class="dialogue"><mark>Mohan:</mark> “Kisi ke liye surprise hai?”</div>
+<p>Meenakshi phir sharma gayi.</p>
+<div class="dialogue"><mark>Meenakshi:</mark> “Haan… lekin naam aur details dono confidential hain.”</div>
+<div class="dialogue"><mark>Mohan:</mark> “Accha! Toh Doctor sahiba secrets bhi rakhti hain?”</div>
+<div class="dialogue"><mark>Meenakshi:</mark> “Sirf unse jo bahut questions poochte hain.”</div>
+<p>Mohan hans diye.</p>
+<p>Meenakshi ne pouch apne bedroom mein rakh diya aur hospital ki baaki preparation mein lag gayi.</p>
+<p>Uske liye conversation wahi khatam ho gayi.</p>
+<p>Mohan ke liye nahi.</p>
+<h2>E — The secret inside the pouch</h2>
+<p>07:15 AM.</p>
+<p>Meenakshi ghar ke doosre hisse mein busy thi.</p>
+<p>Mohan ko baar-baar wahi pouch yaad aa raha tha.</p>
+<p>Uske baare mein poochne par Meenakshi ka sharmana. Uska secretive smile. Aur woh ek jumla—naam aur details dono confidential hain.</p>
+<p>Mohan ko pata tha ki kisi ki personal belongings inspect karna galat hai.</p>
+<p>Phir bhi woh Meenakshi ke bedroom tak chale gaye.</p>
+<p>Pouch wahi rakha tha.</p>
+<p>Unhone kuch pal socha, phir bina permission uski zip khol di.</p>
+<p><mark>Andar rakha bold “fuck-me” style sheer black lace teddy — deep plunging neckline, barely-there cups, open crotch design, crotchless panties aur black silk blindfold — dekhkar woh ruk gaye.</mark></p>
+<p>Ab unhe samajh aa gaya tha ki Meenakshi ne Nikhil ke liye kis tarah ka private surprise plan kiya tha.</p>
+<p>Unhone costume ko haath mein uthaya. Lace soft aur transparent thi. Unke mann mein turant Meenakshi ko us outfit mein dekhne ki ichchha jaagi.</p>
+<p>Woh jaante the ki yeh surprise unke liye nahi tha. Meenakshi ne unhe kabhi aisa koi signal nahi diya tha.</p>
+<p>Lekin pouch ki discovery ne unke pehle se maujood attraction ko aur personal bana diya.</p>
+<h2>E-F01 — Mohan's uninterrupted private fantasy</h2>
+<p>Mohan akela bedroom mein khada tha. Pouch khula hua uske saamne tha. Costume uske haathon mein.</p>
+<p>Usne aankhein band ki.</p>
+<p>Manas mein Meenakshi uske saamne khadi thi — <mark>wahi sheer black lace teddy pehne hue, deep neckline se uske full, heavy breasts almost completely exposed, nipples lace ke against hard aur clearly visible. Open crotch se uski body ka har inch dikh raha tha. Blindfold uski aankhon par baandha hua.</mark></p>
+<p>Woh dheere se uske paas aaya. Uski ungliyon se uske collarbone ko trace kiya, phir neeche ki taraf, lace ke edge se breast ke upper curve ko chhua. Meenakshi ki saans tez ho gayi. Usne uske shoulders ko pakda aur use bed ki taraf ghuma diya.</p>
+<p>“Uncle ji…” uski awaaz mein halki si kaanp thi, lekin woh ruk nahi rahi thi.</p>
+<p>Mohan ne blindfold ko theek kiya, phir uske peeche se uske breasts ko dono haathon se pakda. Soft, heavy, warm. Usne unhe dheere se squeeze kiya, thumbs se nipples ko lace ke upar se circle kiya. Meenakshi ne sir peeche kiya, uski gardan uske lips ke paas aa gayi.</p>
+<p>Usne uski gardan par soft kiss kiya, phir neeche, cleavage ke beech. Costume ke straps uske shoulders se slip ho gaye. Ab uske breasts completely bare the. Mohan ne ek nipple ko muh mein liya, dheere se suck kiya, tongue se tease kiya. Meenakshi ki ungliyan uske baalon mein ghus gayi.</p>
+<p>Woh bed par baith gayi, taange khol di. Open crotch se uski body completely accessible thi. Mohan ne uski thighs ko spread kiya, fingers se uske wetness ko feel kiya. Woh already soaked thi.</p>
+<p>“Yeh sirf Nikhil ke liye nahi hona chahiye tha,” usne socha, aur apni fingers uske andar dhaal di. Meenakshi moan kar uthi. Usne uske clit ko thumb se rub kiya, fingers ko andar-bahar kiya, jab tak woh uski ungliyon par nahi aa gayi.</p>
+<p>Phir usne apna lund nikaala. Hard, throbbing. Usne use uske open entrance par rub kiya, phir dheere se andar dhaal diya. Meenakshi ne apni taange uske waist ke around wrap kar li. Woh dheere dheere thrust karne laga, uske breasts ko haathon se pakde hue, nipples ko pinch karte hue.</p>
+<p>Har thrust ke saath uske full breasts bounce ho rahe the. Woh uske muh mein apni ungliyan daal raha tha, aur woh unhe suck kar rahi thi. Blindfold ke neeche se uski aankhein band thi, lekin uska body poora respond kar raha tha.</p>
+<p>Mohan ne uske andar deep thrust kiya, uske clit ko continuously rub karte hue, jab tak woh uske andar nahi aa gaya. Meenakshi uske neeche kaanp rahi thi, uska naam lete hue.</p>
+<p>Fantasy toot gayi.</p>
+<p><mark>Mohan ne aankhein kholi. Woh abhi bhi akela tha. Costume uske haathon mein. Meenakshi kahin nahi thi.</mark></p>
+<p>Kuch der baad Mohan ne pouch ki zip band kar di aur use usi jagah rakh diya.</p>
+<p>Unhe ab bhi subah ki conversation yaad aa rahi thi.</p>
+<p>Lekin ek cheez badal chuki thi.</p>
+<p>Pehle woh apni attraction ko private thoughts tak seemit rakhte the. Ab unhone sochna shuru kiya ki Meenakshi ke saath apni ordinary conversations ko aur personal kaise banaya jaaye.</p>
+<p>Woh uska attention jeetna chahte the.</p>
+<p>Unhone mann hi mann decide kiya ki agle maukon par woh apni flirting mein thode zyada deliberate honge.</p>
+<p>Yeh iraada abhi sirf unke mann mein tha.</p>
+<p>Meenakshi ko na pouch khulne ka pata tha, na Mohan ki badalti intentions ka.</p>
+
+<h2 id="m01-f02">M01-F02 — Bathroom Transition &amp; Getting Ready (07:24–07:40)</h2>
+<p>07:24 AM. Mohan ne costume pouch mein rakhkar zip band ki. Door ke paar bathroom se Meenakshi ki halki gungunahat sunai di. Usne apne khayaalon aur haqeeqat ke beech ka farq mehsoos kiya: Meenakshi apni rozmarra ki taiyaari mein lagi thi aur unki private soch se anjaan thi.</p>
+<p>Corridor mein pada ek saaf hand towel uthaate hue Mohan bathroom ke paas aaye. Frosted glass par kisi ke hilne ka bas ek dhundhla sa saaya dikha; koi chehra ya body detail saaf nazar nahi aayi. Unhe samajh aa gaya ki Meenakshi andar hai. Kuch lamhon baad woh wahan se hatkar chale gaye.</p>
+<p><strong>Reader-only viewpoint:</strong> Meenakshi ne unhe nahi dekha. Unke pehle waale khayaal fantasy the; bathroom ke bahar ka yeh lamha actual tha, aur uski privacy ka sawaal alag.</p>
+<p>07:37 AM. Shower ke baad Meenakshi ne apni practical, lactation-friendly nursing bra ke saath <mark>plum front-button kurta, cream palazzo aur khula grey cardigan</mark> pehna. Dupatta ek shoulder par set kiya. Towel se baal sukhaaye, simple earrings aur wristwatch pehni, aur hospital bag ki zaroori cheezein check ki.</p>
+<p>Usne apne evening surprise ke liye rakha <mark>black lace costume set aur blindfold pouch mein hi chhod diya</mark>. Woh hospital ke liye nahi tha. Medical duty ke liye uske professional kapde aur white coat hospital mein agle preparation scene ka hissa honge.</p>
+<p>07:40 AM tak woh nikalne ke liye taiyaar thi. Mohan ke private actions ka use koi andaaza nahi tha.</p>
+<p>Uske liye yeh ek normal New Year morning thi.</p>
+<p>Mohan ke paas ab ek aisa secret tha jo sirf reader aur woh khud jaante the.</p></article>
+<section id="meenakshi-m02-story" class="story"><h2>M02 — Two Contrasting Wellness Twins</h2><div class="meta">07:45–08:10 AM · Society wellness area</div><p>07:45 AM. Tower C se nikalte hi Meenakshi ne society ke wellness corner ki taraf kadam badhaye. Agle health camp ke volunteer register ka quick check baaki tha. Uday aur Utkarsh wahin supplies ki list dekh rahe the.</p>
+<p>Dono bhaiyon ko woh kareeb ek saal se jaanti thi. Medical camps mein unhone chairs, registration desk aur basic supplies sambhalne mein kaafi madad ki thi. Uday hamesha zyada khulkar bolta; Utkarsh kam, lekin sochkar. Shuru mein dono ke jokes use kuch zyada lagte the. Ab woh unki reliability aur unke teasing andaaz, dono ko achhi tarah pehchaan gayi thi.</p>
+<p class="speech"><b>Uday:</b> Good morning, Doctor sahiba! Aaj white coat ke bina?</p>
+<p class="speech"><b>Meenakshi:</b> White coat hospital mein pehnungi. Yahan volunteer register lene aayi hoon. Tum dono ne ready kiya?</p>
+<p class="speech"><b>Utkarsh:</b> List ready hai. Lekin Uday ko aaj morning fashion ki bhi ek report deni thi.</p>
+<p class="speech"><b>Meenakshi:</b> Achha? Woh kab se dress consultant ban gaya?</p>
+<p class="speech"><b>Uday:</b> Consultant nahi. Bas itna keh raha hoon ki plum kurta aur grey cardigan ka combination dangerous hai. <mark>Cardigan cover kar raha hai, lekin kurte ki fitting saara secret nahi chhupa rahi.</mark></p>
+<p>Meenakshi ne eyebrow uthayi. Woh samajh gayi ki Uday kis taraf ishara kar raha hai. Ek saal pehle shayad isi line par use chup kara deti; aaj usne register ke bajay uski taraf dekhkar muskurana chuna.</p>
+<p class="speech"><b>Meenakshi:</b> <mark>Toh ab tum dono mere kapdon ki fitting bhi evaluate karoge?</mark></p>
+<p class="speech"><b>Utkarsh:</b> Main toh ise rok raha tha. Aapne khud pooch liya, ab detailed report rokna mushkil hai.</p>
+<p class="speech"><b>Meenakshi:</b> Aur tumhari report? Itne seedhe mat bano.</p>
+<p class="speech"><b>Utkarsh:</b> <mark>Meri report simple hai: aaj aapne hume notice karne ka mauka diya, aur phir khud notice kar liya ki hum notice kar rahe hain.</mark></p>
+<p class="speech"><b>Meenakshi:</b> Tum chup rehkar zyada dangerous ho, Utkarsh.</p>
+<p class="speech"><b>Uday:</b> Ek saal pehle toh aap hamari aisi baaton par seedha lecture deti thi.</p>
+<p class="speech"><b>Meenakshi:</b> Haan, kyunki tab tum dono ko tameez nahi thi. Aur camp ki inventory mein bhi har baar ek na ek column missing hota tha.</p>
+<p class="speech"><b>Utkarsh:</b> Ab inventory complete hai. Tameez ka status?</p>
+<p class="speech"><b>Meenakshi:</b> <mark>Tameez thodi aa gayi hai. Lekin tumhari nazron ka treatment abhi baaki hai.</mark></p>
+<p class="speech"><b>Uday:</b> Toh treatment kab start hoga?</p>
+<p class="speech"><b>Meenakshi:</b> <mark>Jab tum dono decide kar loge ki tumhe doctor ki advice chahiye ya doctor ka attention. Dono alag cheezein hain.</mark></p>
+<p class="speech"><b>Utkarsh:</b> Phir toh Uday ko second opinion chahiye hoga.</p>
+<p class="speech"><b>Uday:</b> Aur tum? Tum itni der se bilkul healthy behave kar rahe ho?</p>
+<p class="speech"><b>Meenakshi:</b> Dono ko diagnosis mil chuka hai: excessive talking. Ab dekho supplies list.</p>
+<p>Teenon hans diye. Baatein dobara gloves, registration sheets aur next camp ke practical kaam par aa gayin. Utkarsh ne register handover kiya aur Meenakshi ne missing items ke aage chhoti si tick lagayi. Uday ne bina kisi aur comment ke list verify karne mein madad ki.</p>
+<p>08:09. Gate ki taraf chalte hue Meenakshi ko Utkarsh ki ek line yaad reh gayi: <mark>“Aaj aapne hume notice karne ka mauka diya.”</mark> Woh khud se muskurayi. Aaj usne unki attention se bachne ki koshish nahi ki thi. Kya usse ab unke agle clever jawab ka intezaar rehne laga tha? Is khayal ko usne turant koi naam nahi diya.</p></section>
+<section id="meenakshi-m03-story" class="story"><h2>M03 — A Brief Stop at the Society Gate</h2><div class="meta">08:10–08:15 AM · Gulmohar Heights gate</div><p>08:10 AM. Gate par Gopal ne Meenakshi ki gaadi dekhi aur routine delivery register ke saath aage aaya.</p>
+<p class="speech"><b>Gopal:</b> Good morning, Doctor madam. Pharmacy delivery ka confirmation mil gaya. Receipt mein family member ka naam bhi hai.</p>
+<p class="speech"><b>Meenakshi:</b> Good. Jo naam form par hai, packet sirf unhi ko dena. Kisi aur ke haath mat bhejna.</p>
+<p class="speech"><b>Gopal:</b> Ji madam. Aaj bhi hospital duty?</p>
+<p class="speech"><b>Meenakshi:</b> Haan. Aur tumne New Year par bhi duty le li?</p>
+<p class="speech"><b>Gopal:</b> Madam, society ke log chhutti le sakte hain. Gate ko toh chhutti nahi milti.</p>
+<p class="speech"><b>Meenakshi:</b> <mark>Toh agle health camp mein tumhara bhi check-up due hai. Bahane nahi chalenge.</mark></p>
+<p class="speech"><b>Gopal:</b> Aap khud check karengi toh zaroor aaunga.</p>
+<p class="speech"><b>Meenakshi:</b> Health camp hai, special appointment counter nahi!</p>
+<p>Gopal muskuraya aur barrier hata diya. Meenakshi ne haath hilaaya aur gaadi aage badha di.</p>
+<p>Gopal ki private nazar mein Meenakshi hamesha se khoobsurat thi. Maa banne ke baad uski appearance mein aaye badlav bhi usse nazar aate the. Aaj ka plum kurta uske dimaag mein reh gaya. <mark>“Madam ko dekh kar din achha lagta hai. Hamari kismat mein toh bas good morning hi hai.”</mark> Usne yeh soch khud tak rakhi aur wapas register mein entry karne laga.</p>
+<p>08:15 AM. Meenakshi hospital commute par thi. Uday–Utkarsh ki spoken flirting, Gopal ki unspoken admiration, aur Mohan ki alag private secrecy — teen alag knowledge states the. Meenakshi ko Mohan aur Gopal ke man ki baat ka pata nahi tha.</p></section>
+<section id="meenakshi-m04-story" class="story"><h2>M04 — The Morning Commute</h2><div class="meta">08:15–08:45 AM · Gulmohar Heights → Hospital</div><p>08:15 AM. Society gate ka barrier uthte hi Meenakshi ne Gopal ko ek chhoti si smile di aur car main road ki taraf mod di.</p>
+<p>Gurgaon ki January morning mein thandi hawa aur halka fog sadkon par abhi bhi tha. Traffic dheere-dheere badh raha tha. Car ke andar heater chal raha tha. Meenakshi ne rear-view mirror adjust kiya aur hospital ki taraf badhne lagi.</p>
+<p>Kuch minutes baad uske dimaag mein Utkarsh ki baat phir aayi: <mark>“Aaj aapne hume notice karne ka mauka diya… aur phir khud notice kar liya ki hum notice kar rahe hain.”</mark></p>
+<p>Meenakshi ke chehre par halki muskaan aa gayi. <i>“Yeh dono bhi na… ek saal pehle kitne irritating lagte the. Aur ab?”</i> Uday ke bold comments aur Utkarsh ke unexpectedly clever answers mein farq tha. Dono medical camps mein dependable the. Shayad isi wajah se ab woh unke saath zyada relaxed mehsoos karti thi.</p>
+<p><i>“Utkarsh toh chup rehkar bhi achha jawab de jaata hai.”</i> Woh phir muskurayi.</p>
+<p>Agle traffic signal par uska dhyaan hospital duty par aa gaya. Aaj rounds, pending reports aur departmental review tha. Ek patient ki previous investigation bhi recheck karni thi. Usne mentally morning priorities arrange ki: <mark>“Pehle rounds. Phir baaki sab.”</mark></p>
+<p>08:45 AM. Hospital parking mein car rok kar Meenakshi ne bag uthaya, cardigan adjust kiya aur staff entrance ki taraf badh gayi.</p></section>
+<section id="meenakshi-m05-story" class="story"><h2>M05 — Preparation Before Rounds</h2><div class="meta">08:45–09:05 AM · Hospital staff changing area</div><p>08:46 AM. Hospital ke staff corridor mein subah ki usual activity shuru ho chuki thi. Meenakshi ne phone par duty schedule dekha. Rounds 09:05 se shuru hone the.</p>
+<p>Women's staff changing area ke bahar yellow board rakha tha: <mark>CLEANING IN PROGRESS — PLEASE WAIT</mark>. Duty schedule aur apne personal routine ke chakkar mein Meenakshi ne board notice nahi kiya aur andar chali gayi.</p>
+<p>Room ke ek side par lockers aur bench the; doosri taraf changing cubicles aur ek partitioned service section. Usne bag bench par rakha, phone silent kiya aur wristwatch utaarkar bag ki pocket mein rakh di.</p>
+<p><i>“Rounds se pehle routine complete kar leti hoon. Phir kaafi der break nahi milega.”</i> Breastfeeding continue karne ki wajah se milk-expression aur storage manage karna uski practical daily routine ka hissa tha. Usne clean pumping kit aur storage bottles nikali.</p>
+<p>Meenakshi ne privacy samajhkar apna plum front-button kurta aur bra utaare aur pumping equipment carefully set kiya. Pump ko comfortable position mein adjust karke machine on ki. Suction dheere se steady rhythm par aaya aur expressed milk storage bottles mein collect hone laga.</p>
+<p>Woh thodi hurry mein thi, isliye ek haath se equipment ka fit check karte hue doosre se bottle aur time dekhti rahi. Kareeb aath–das minute mein routine complete hua. Usne pump band kiya, flanges hataaye, skin saaf ki aur milk ko safe storage ke liye prepare kiya. Pressure kam hone se use aaram mehsoos hua.</p>
+<p><strong>Harish Pal (62)</strong>, senior ward attendant, aur <strong>Sunil Yadav (46)</strong>, housekeeping cleaner, partition ke doosri taraf cleaning supplies arrange kar rahe the. Dono Meenakshi ke enter karne se pehle wahin maujood the.</p>
+<p><strong>Sunil (dheemi awaaz mein):</strong> “Harish ji, lagta hai doctor madam aa gayi hain.”</p>
+<p>Harish ne uski taraf dekha. Dono jaante the ki changing area ki privacy ke liye unhe apni presence saaf-saaf announce karke bahar nikalna chahiye.</p>
+<p><strong>Sunil (thodi oonchi awaaz mein):</strong> “Madam, cleaning chal rahi hai… ek minute.”</p>
+<p>Meenakshi ko uski baat clearly sunai nahi di. Woh pumping routine aur 09:05 ke rounds ki timing par focused thi.</p>
+<p>Dono workers kuch pal hichkichaaye. Complaint aur awkward confrontation ke darr se woh turant saamne aa kar baat nahi kar paaye; lekin wahan rukna aur Meenakshi ki privacy ko dekhte rehna unka galat faisla tha. <mark>Meenakshi ne unki presence ko notice nahi kiya.</mark></p>
+<p>Routine ke baad Meenakshi ne fresh undergarments aur professional hospital attire pehna. White coat uthakar mirror mein baal aur ID card theek kiye.</p>
+<p>Usne apne personal kapde, pump kit aur baaki belongings assigned locker mein rakhe. Locker band karke lock properly check kiya. Ab stethoscope, coat aur rounds ki preparation complete thi.</p>
+<p><i>“Perfect. Ab rounds.”</i></p>
+<p>09:05 AM. Meenakshi changing area se nikal kar ward ki taraf chali gayi. Use cleaning board miss karne ka dhyaan nahi aaya tha. Use yeh bhi nahi pata tha ki wahan Harish aur Sunil maujood the.</p>
+<p><strong>Continuity lock:</strong> Harish aur Sunil ko apni presence aur privacy breach ka pata hai; Meenakshi unaware hai. Later ek colleague use batayegi, lekin woh reveal abhi M05 ka hissa nahi. Locker 09:05 tak securely locked tha.</p></section></div>
+<p class="muted"><strong>Story cutoff:</strong> M05 at 09:05. M06 onward are working plot, not complete prose.</p>
 </section>
 <section class="surface hidden" data-panel="meenakshi-m02" id="meenakshi-m02-reader">
-<div class="sectionhead"><h2>Meenakshi · M02 Wellness Twins + M03 Gopal</h2><span class="chip approved">User-approved dialogue · Published</span></div>
-<p class="muted">Thursday, 1 January 2026 · 07:45–08:15 AM · Uday and Utkarsh's one-year medical-camp familiarity, double-meaning teasing, Meenakshi's witty comebacks, and Gopal's short gate interaction.</p>
-<p><a href="./episode-02-meenakshi-m02-m03.html" target="_blank" rel="noopener"><strong>Read M02–M03 in full reader view</strong></a> · <a href="./episode-02-meenakshi-m01.html#m01-f02"><strong>Previously: M01 bath / getting ready</strong></a></p>
-<iframe loading="lazy" title="Meenakshi M02 M03 dialogue scenes" src="./episode-02-meenakshi-m02-m03.html" style="width:100%;height:2000px;border:1px solid #e7deeb;border-radius:13px;background:#fff"></iframe>
+<div class="sectionhead"><h2>Meenakshi · M02–M03 · Focus Reader</h2><span class="chip approved">USER-APPROVED · PUBLISHED</span></div>
+<p class="muted">07:45–08:15 AM · Same published scenes as the complete M01–M05 reader; this focused view does not open another HTML page.</p>
+<div class="meena-embedded"><section id="meenakshi-focus-m02" class="story"><h2>M02 — Two Contrasting Wellness Twins</h2><div class="meta">07:45–08:10 AM · Society wellness area</div><p>07:45 AM. Tower C se nikalte hi Meenakshi ne society ke wellness corner ki taraf kadam badhaye. Agle health camp ke volunteer register ka quick check baaki tha. Uday aur Utkarsh wahin supplies ki list dekh rahe the.</p>
+<p>Dono bhaiyon ko woh kareeb ek saal se jaanti thi. Medical camps mein unhone chairs, registration desk aur basic supplies sambhalne mein kaafi madad ki thi. Uday hamesha zyada khulkar bolta; Utkarsh kam, lekin sochkar. Shuru mein dono ke jokes use kuch zyada lagte the. Ab woh unki reliability aur unke teasing andaaz, dono ko achhi tarah pehchaan gayi thi.</p>
+<p class="speech"><b>Uday:</b> Good morning, Doctor sahiba! Aaj white coat ke bina?</p>
+<p class="speech"><b>Meenakshi:</b> White coat hospital mein pehnungi. Yahan volunteer register lene aayi hoon. Tum dono ne ready kiya?</p>
+<p class="speech"><b>Utkarsh:</b> List ready hai. Lekin Uday ko aaj morning fashion ki bhi ek report deni thi.</p>
+<p class="speech"><b>Meenakshi:</b> Achha? Woh kab se dress consultant ban gaya?</p>
+<p class="speech"><b>Uday:</b> Consultant nahi. Bas itna keh raha hoon ki plum kurta aur grey cardigan ka combination dangerous hai. <mark>Cardigan cover kar raha hai, lekin kurte ki fitting saara secret nahi chhupa rahi.</mark></p>
+<p>Meenakshi ne eyebrow uthayi. Woh samajh gayi ki Uday kis taraf ishara kar raha hai. Ek saal pehle shayad isi line par use chup kara deti; aaj usne register ke bajay uski taraf dekhkar muskurana chuna.</p>
+<p class="speech"><b>Meenakshi:</b> <mark>Toh ab tum dono mere kapdon ki fitting bhi evaluate karoge?</mark></p>
+<p class="speech"><b>Utkarsh:</b> Main toh ise rok raha tha. Aapne khud pooch liya, ab detailed report rokna mushkil hai.</p>
+<p class="speech"><b>Meenakshi:</b> Aur tumhari report? Itne seedhe mat bano.</p>
+<p class="speech"><b>Utkarsh:</b> <mark>Meri report simple hai: aaj aapne hume notice karne ka mauka diya, aur phir khud notice kar liya ki hum notice kar rahe hain.</mark></p>
+<p class="speech"><b>Meenakshi:</b> Tum chup rehkar zyada dangerous ho, Utkarsh.</p>
+<p class="speech"><b>Uday:</b> Ek saal pehle toh aap hamari aisi baaton par seedha lecture deti thi.</p>
+<p class="speech"><b>Meenakshi:</b> Haan, kyunki tab tum dono ko tameez nahi thi. Aur camp ki inventory mein bhi har baar ek na ek column missing hota tha.</p>
+<p class="speech"><b>Utkarsh:</b> Ab inventory complete hai. Tameez ka status?</p>
+<p class="speech"><b>Meenakshi:</b> <mark>Tameez thodi aa gayi hai. Lekin tumhari nazron ka treatment abhi baaki hai.</mark></p>
+<p class="speech"><b>Uday:</b> Toh treatment kab start hoga?</p>
+<p class="speech"><b>Meenakshi:</b> <mark>Jab tum dono decide kar loge ki tumhe doctor ki advice chahiye ya doctor ka attention. Dono alag cheezein hain.</mark></p>
+<p class="speech"><b>Utkarsh:</b> Phir toh Uday ko second opinion chahiye hoga.</p>
+<p class="speech"><b>Uday:</b> Aur tum? Tum itni der se bilkul healthy behave kar rahe ho?</p>
+<p class="speech"><b>Meenakshi:</b> Dono ko diagnosis mil chuka hai: excessive talking. Ab dekho supplies list.</p>
+<p>Teenon hans diye. Baatein dobara gloves, registration sheets aur next camp ke practical kaam par aa gayin. Utkarsh ne register handover kiya aur Meenakshi ne missing items ke aage chhoti si tick lagayi. Uday ne bina kisi aur comment ke list verify karne mein madad ki.</p>
+<p>08:09. Gate ki taraf chalte hue Meenakshi ko Utkarsh ki ek line yaad reh gayi: <mark>“Aaj aapne hume notice karne ka mauka diya.”</mark> Woh khud se muskurayi. Aaj usne unki attention se bachne ki koshish nahi ki thi. Kya usse ab unke agle clever jawab ka intezaar rehne laga tha? Is khayal ko usne turant koi naam nahi diya.</p></section>
+<section id="meenakshi-focus-m03" class="story"><h2>M03 — A Brief Stop at the Society Gate</h2><div class="meta">08:10–08:15 AM · Gulmohar Heights gate</div><p>08:10 AM. Gate par Gopal ne Meenakshi ki gaadi dekhi aur routine delivery register ke saath aage aaya.</p>
+<p class="speech"><b>Gopal:</b> Good morning, Doctor madam. Pharmacy delivery ka confirmation mil gaya. Receipt mein family member ka naam bhi hai.</p>
+<p class="speech"><b>Meenakshi:</b> Good. Jo naam form par hai, packet sirf unhi ko dena. Kisi aur ke haath mat bhejna.</p>
+<p class="speech"><b>Gopal:</b> Ji madam. Aaj bhi hospital duty?</p>
+<p class="speech"><b>Meenakshi:</b> Haan. Aur tumne New Year par bhi duty le li?</p>
+<p class="speech"><b>Gopal:</b> Madam, society ke log chhutti le sakte hain. Gate ko toh chhutti nahi milti.</p>
+<p class="speech"><b>Meenakshi:</b> <mark>Toh agle health camp mein tumhara bhi check-up due hai. Bahane nahi chalenge.</mark></p>
+<p class="speech"><b>Gopal:</b> Aap khud check karengi toh zaroor aaunga.</p>
+<p class="speech"><b>Meenakshi:</b> Health camp hai, special appointment counter nahi!</p>
+<p>Gopal muskuraya aur barrier hata diya. Meenakshi ne haath hilaaya aur gaadi aage badha di.</p>
+<p>Gopal ki private nazar mein Meenakshi hamesha se khoobsurat thi. Maa banne ke baad uski appearance mein aaye badlav bhi usse nazar aate the. Aaj ka plum kurta uske dimaag mein reh gaya. <mark>“Madam ko dekh kar din achha lagta hai. Hamari kismat mein toh bas good morning hi hai.”</mark> Usne yeh soch khud tak rakhi aur wapas register mein entry karne laga.</p>
+<p>08:15 AM. Meenakshi hospital commute par thi. Uday–Utkarsh ki spoken flirting, Gopal ki unspoken admiration, aur Mohan ki alag private secrecy — teen alag knowledge states the. Meenakshi ko Mohan aur Gopal ke man ki baat ka pata nahi tha.</p></section></div>
+<p class="muted"><a href="?tab=meenakshi-m01">Read M01–M05 in order within this UI</a></p>
 </section>
 <section class="surface hidden" data-panel="meenakshi">
 <div class="sectionhead"><h2>Meenakshi · Episode 02: The Black Lace Beneath the White Coat</h2><span class="chip proposed">Working plot — unapproved</span></div>
 <p class="muted">Meenakshi (32), doctor. Mohan (64) · unrelated household guest, addressed as Uncle ji; one-sided interest (not reciprocal). Uday–Utkarsh (24) · confirmed society twins; Avi–Yash (24) · hospital duo, NOT confirmed twins. Vihaan is family-only.</p><div class="two"><div class="box"><h3>Confirmed character decisions</h3><p>Nikhil is husband; Mohan is an unrelated older household guest called Uncle ji, with one-sided interest; Uday and Utkarsh are confirmed twins with playful flirting. Dr. Aditi, Rupa and Dr. Leena are existing hospital staff.</p></div><div class="box"><h3>Working plot, not approved prose</h3><p>Locker incidents, accidental changing-area privacy exposure and all hospital time beats are discussion records. No one-sided interest implies consent, and no evening continuation is included.</p></div></div>
-<p><a href="?tab=meenakshi-m01"><strong>Read full Meenakshi M01–M03 story</strong></a> · <a href="?tab=meenakshi-m02"><strong>Read M02–M03 — wellness twins and gate</strong></a></p><div class="controls"><label for="meenakshiSearch">Find encounter</label><input id="meenakshiSearch" type="search" placeholder="Character, time, location or relationship"></div>
+<p><a href="?tab=meenakshi-m01"><strong>Read full Meenakshi M01–M05 story</strong></a> · <a href="?tab=meenakshi-m02"><strong>Read M02–M03 — wellness twins and gate</strong></a></p><div class="controls"><label for="meenakshiSearch">Find encounter</label><input id="meenakshiSearch" type="search" placeholder="Character, time, location or relationship"></div>
 <div class="tablewrap"><table><thead><tr><th>Time</th><th>Scene / location</th><th>Characters (age, role, relationship)</th><th>Scene approval</th></tr></thead><tbody id="meenakshiEncounters"></tbody></table></div>
 </section>
 
