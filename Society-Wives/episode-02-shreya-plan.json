@@ -10,7 +10,7 @@
   "leadName": "Shreya Rathore",
   "leadAge": 33,
   "profession": "Police Inspector",
-  "status": "SR01 AND SR02A PROSE PUBLISHED; SR02 HOME PART 2 PENDING DISCUSSION AND RETIMING; SR03–SR13 WORKING PLOT",
+  "status": "SR01, SR02A, SR02B PROSE PUBLISHED; SR03–SR13 WORKING PLOT",
   "stopRule": "End at 13:15, Shreya still at police station; no evening scenes.",
   "characterCorrections": [
     {
@@ -256,44 +256,67 @@
       }
     },
     {
-      "id": "SR02",
-      "start": "07:35",
-      "end": "07:58",
+      "id": "SR02B",
+      "start": "07:57",
+      "end": "08:12",
       "lane": "HOME",
-      "location": "Rathore flat (Part 2 pending)",
-      "title": "Between training and the uniform",
+      "location": "Rathore residence",
+      "title": "The Uncle's Unexpected Compliment — Home after Vivek",
       "characters": [
         "shreya",
-        "vikram",
         "arvind",
-        "sameer"
+        "anaya",
+        "vikram"
       ],
-      "summary": "Original proposed home beat, not published; timing superseded by SR02A ending 07:52. Uncle Arvind is an unrelated elderly guest, not father-in-law.",
+      "summary": "Shreya returns still excited and thoughtful after Vivek's consensual attraction-resistance challenge. An unrelated family guest called Uncle Arvind, who helps care for Anaya, notices her red workout outfit and blurts an inappropriate compliment. Shreya addresses his gaze; he apologizes and leaves. She attends to Anaya's needs and changes into duty uniform, leaving at 08:12.",
       "beats": [
-        "Shreya changes into graceful home saree for breakfast, then duty attire; her gym bag stays in the family's outer storage.",
-        "Vikram's affection is established and mutual; Arvind's private one-sided attraction is improper and concealed.",
-        "Anaya (young child) is family-only background and never included in sexualized material."
+        "SR02A ends at 07:52; Shreya reaches home at 07:57. Do not reuse the superseded 07:35 arrival.",
+        "Shreya privately recalls Vivek's toned abs, momentary loss of concentration, kiss, and his respectful food-date invitation that includes husband Vikram.",
+        "Arvind is not a father-in-law, not related by blood, and is called Uncle; connection through Vikram-associated accident/hospitalization and subsequent household support.",
+        "Arvind's gaze and double-entendre about discipline prompt an unexpected 'sexy' compliment. Shreya notices, verbally sets a boundary, and Arvind apologizes. Interest is unilateral.",
+        "Anaya's ordinary childcare and feeding needs are kept separate from adult flirtation and body comments.",
+        "Shreya is still wearing red workout clothes upon arrival. She attends to Anaya and changes into police uniform before departing home at 08:12."
       ],
       "dialogue": [
         [
-          "Vikram (36, husband)",
-          "Inspector madam, aaj toast missing hai—investigation hogi?"
+          "Arvind",
+          "Uniform mein toh tum sabko discipline sikhaati ho. Aaj lagta hai saamne waalon ka discipline hi test ho jaaye."
         ],
         [
           "Shreya",
-          "Ghar ka case mein tum primary suspect ho."
+          "Uncle! Aaj aap bhi gym waalon ki tarah double-meaning baatein karne lage?"
+        ],
+        [
+          "Arvind",
+          "Bas... tum aaj bahut sexy lag rahi ho."
+        ],
+        [
+          "Shreya",
+          "Uncle, meri taraf dekhiye. Aapki nazar baar-baar neeche ja rahi hai."
+        ],
+        [
+          "Arvind",
+          "Sorry, Shreya. Mujhe aise nahi dekhna chahiye tha."
         ]
       ],
       "notes": [
-        "Vikram returns after his 06:38–06:52 Ankita/Vivek park checkpoint.",
-        "SUPERSEDED CLOCK: 07:35–07:58 home is not feasible after newly published gym SR02A ending 07:52. Home timing and content require Part 2 discussion before being treated as canon."
+        "Published immediately after SR02A; no shower/saree intermediate outfit before the Uncle encounter.",
+        "Previous 07:35–07:58 home draft superseded.",
+        "The child does not participate in sexual or flirtatious interactions.",
+        "Next scene is SR03, society lobby Rajeev greeting at 08:12–08:13."
       ],
-      "approval": "WORKING_PLOT_ON_HOLD_RETIMING"
+      "approval": "USER_REQUESTED_PROSE_PUBLISHED",
+      "publishedScene": {
+        "uiTab": "shreya-prose",
+        "uiHref": "./episode-02.html?tab=shreya-prose#shreya-sr02b-home",
+        "images": [],
+        "publication": "USER_REQUESTED_PUBLISHED_SR02B"
+      }
     },
     {
       "id": "SR03",
-      "start": "07:58",
-      "end": "08:06",
+      "start": "08:12",
+      "end": "08:13",
       "lane": "SOCIETY",
       "location": "Gulmohar Heights Tower lobby",
       "title": "The elder's New Year compliment",
@@ -316,13 +339,15 @@
           "Ji, sir. Safety ko holiday nahi milta."
         ]
       ],
-      "notes": [],
+      "notes": [
+        "Retimed after published SR02B; Rajeev's short lobby greeting must finish by 08:13, before Karan/Aman gate exchange."
+      ],
       "approval": "USER_ACCEPTED_WORKING_PLOT"
     },
     {
       "id": "SR04",
-      "start": "08:06",
-      "end": "08:12",
+      "start": "08:15",
+      "end": "08:20",
       "lane": "SOCIETY",
       "location": "Society security desk",
       "title": "The register mismatch",
@@ -346,12 +371,14 @@
           "Original record preserve karo; guess karke rewrite mat karna."
         ]
       ],
-      "notes": [],
+      "notes": [
+        "Retimed security desk 08:15–08:20 after the twins' gate greeting; Shreya leaves for station at 08:20."
+      ],
       "approval": "USER_ACCEPTED_WORKING_PLOT"
     },
     {
       "id": "SR05",
-      "start": "08:12",
+      "start": "08:13",
       "end": "08:15",
       "lane": "SOCIETY",
       "location": "Parking gate",
@@ -380,7 +407,7 @@
         ]
       ],
       "notes": [
-        "No Ankita meeting here; she departed at 08:05."
+        "Retimed 08:13–08:15 after SR03; Karan/Aman then meet Shivani 08:16–08:20, then Taniya/Soniya at gym from 08:25."
       ],
       "approval": "USER_ACCEPTED_WORKING_PLOT"
     },
@@ -457,7 +484,7 @@
       "characters": [
         "arvind"
       ],
-      "summary": "A parallel reader-only event: Arvind (65, Shreya's FIL) crosses a boundary by looking into Shreya's personal sportswear pouch without permission.",
+      "summary": "A parallel reader-only event: Arvind (65, the unrelated household elder Uncle Arvind) crosses a boundary by looking into Shreya's personal sportswear pouch without permission.",
       "beats": [
         "He retains a loose retail tag while putting the garment back; Shreya has no knowledge of the intrusion.",
         "Arvind's one-sided fascination and outward traditional-elder role are in tension.",
@@ -621,7 +648,7 @@
   ],
   "secrets": [
     {
-      "holder": "Arvind (65, Shreya's FIL)",
+      "holder": "Arvind (65, unrelated household guest called Uncle)",
       "target": "Shreya",
       "knowledge": "Concealed one-sided attraction and access to personal gym-bag pouch; he holds loose retail tag.",
       "targetKnows": false,
@@ -705,7 +732,7 @@
         "kabir",
         "rajeev"
       ],
-      "requirement": "Rajeev in family corridor; only joins Shreya lobby at 07:58."
+      "requirement": "Rajeev in family corridor; only joins Shreya lobby at 08:12."
     },
     {
       "at": "07:35–07:47",
@@ -725,13 +752,13 @@
       "requirement": "Ankita cab pickup/departure; no Ankita encounter after 08:05."
     },
     {
-      "at": "08:12–08:15",
+      "at": "08:13–08:15",
       "characters": [
         "shreya",
         "karan",
         "aman"
       ],
-      "requirement": "Twins brief Shreya meeting."
+      "requirement": "Twins' brief Shreya gate meeting after the 08:12–08:13 lobby greeting."
     },
     {
       "at": "08:16–08:20",
@@ -758,7 +785,7 @@
         "soniya",
         "mahendra"
       ],
-      "requirement": "Mahendra visits Soniya; separate from 08:06 Shreya security desk."
+      "requirement": "Mahendra visits Soniya; separate from 08:15–08:20 Shreya security desk."
     },
     {
       "at": "10:15–10:33",
@@ -841,9 +868,14 @@
   },
   "timelineReconciliation": {
     "publishedGymExit": "07:52",
-    "part2HomeStatus": "PENDING",
-    "oldHomeProposedTime": "07:35–07:58 (superseded)",
+    "part2HomeStatus": "PUBLISHED",
+    "homeArrival": "07:57",
+    "homeDeparture": "08:12",
+    "lobby": "08:12–08:13",
+    "twins": "08:13–08:15",
+    "security": "08:15–08:20",
+    "stationDeparture": "08:20",
     "nextOtherLeadSlot": "Taniya–Soniya gym 08:25",
-    "notes": "Shift Shreya home, lobby and station departures after SR02A; do not assert previous time slots until Part 2 is approved."
+    "notes": "SR01 ends 07:28, SR02A gym 07:28–07:52, SR02B home 07:57–08:12; planned SR03–SR05 retimed sequentially without duplicating people across overlapping venues."
   }
 }
