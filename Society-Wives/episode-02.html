@@ -115,7 +115,7 @@ body>.sw-sitebar+header p{margin:3px 0}
 <details class="sw-episodes" id="sw-episodes-menu"><summary>Episodes ▾</summary><div class="sw-drop">
 <a href="./episode-01.html">EP01 · Prologue</a>
 <a href="?tab=episode-dashboard">EP02 · Combined Timeline</a>
-<a href="./episode-03-ankita-pending.html">EP03 · Ankita planning</a>
+<a href="?tab=continuity">Future Ankita scenes (deferred)</a>
 </div></details>
 <a href="?tab=episode-dashboard&view=pending" data-sw-top="next">Next Scenes</a>
 </div>
@@ -170,7 +170,7 @@ body>.sw-sitebar+header p{margin:3px 0}
 <section class="surface sw-dash" data-panel="episode-dashboard" id="sw-episode-dashboard">
 <div class="sw-kicker">Episode navigator · One global clock</div>
 <div class="sw-headrow"><div><h2>Episode 02 · The Story So Far</h2>
-<p class="sw-dash-sub">1 January 2026 · Gurgaon. Five writing lanes covering six women. Completed or published scenes stay on the chronological reader; only scenes still needing work appear under Next Scenes.</p></div><span class="chip approved">Live progress index</span></div>
+<p class="sw-dash-sub">1 January 2026 · Gurgaon · Six women, five writing lanes, one continuous Episode 02 page. Switch between pending, completed and all scenes without leaving this reader.</p></div><span class="chip approved">Live progress index</span></div>
 <nav class="sw-lead-jump" aria-label="Read all female leads on the same episode page">
 <a href="?tab=ankita-prose">Ankita<small>A02–A08 · Completed</small></a>
 <a href="?tab=shivani-prose">Shivani<small>A02–A03 · Published</small></a>
@@ -179,7 +179,7 @@ body>.sw-sitebar+header p{margin:3px 0}
 <a href="?tab=meenakshi-m01">Meenakshi<small>M01–M05 · Read inline</small></a>
 <a href="?tab=shreya-prose">Shreya<small>SR01–SR02B · Published</small></a>
 </nav>
-<div class="sw-episode-nav"><a href="./episode-01.html">Episode 01 · Prologue (combined)</a><a href="?tab=episode-dashboard" aria-current="page">Episode 02 · Six Perspectives</a><a href="./episode-03-ankita-pending.html">Episode 03 · Planned</a></div>
+<div class="sw-episode-nav"><a href="./episode-01.html">Episode 01 · Prologue (combined)</a><a href="?tab=episode-dashboard" aria-current="page">Episode 02 · Six Perspectives</a><a href="?tab=continuity">Future scenes · episode TBD</a></div>
 <div class="sw-metrics"><div class="sw-metric"><b id="sw-done-count">–</b><small>Written / published</small></div><div class="sw-metric"><b id="sw-pending-count">–</b><small>Still to write</small></div><div class="sw-metric"><b id="sw-review-count">–</b><small>Review or timing hold</small></div><div class="sw-metric"><b id="sw-lane-count">5</b><small>Writing lanes · 6 leads</small></div></div>
 <div class="sw-controlbar">
 <div class="sw-modes" role="group" aria-label="Scene status filter">
@@ -190,7 +190,7 @@ body>.sw-sitebar+header p{margin:3px 0}
 <select id="sw-lead-filter" aria-label="Filter by lead"><option value="">All five lanes</option><option value="ankita">Ankita</option><option value="shivani">Shivani</option><option value="sisters">Taniya + Soniya</option><option value="meenakshi">Meenakshi</option><option value="shreya">Shreya</option></select>
 <input id="sw-scene-search" type="search" placeholder="Find scene ID, character, time, title…" aria-label="Search Episode 02 scenes">
 </div>
-<div class="sw-nextnotice" id="sw-progress-note">Only completed prose is included in the reading timeline. A published draft is marked as such; it is not silently treated as final approval. Shreya SR02B home scene is now published; SR03 and SR05 are next planned story beats.</div>
+<div class="sw-nextnotice" id="sw-progress-note">Published scenes for all six women are available in this page. Published drafts awaiting review remain marked Review, not silently approved. Ankita A08 and parcel P01–P08 are complete; Meenakshi M01–M05 and Shreya SR01–SR02B are included in the same reader.</div>
 <div id="sw-dashboard-content" aria-live="polite"><p class="muted">Loading scene status from the project master files…</p></div>
 </section>
 <section class="surface hidden" data-panel="clock">
@@ -1623,7 +1623,7 @@ function swRenderDashboard(){
     const sceneId=detail.dataset.swReader;const s=swPublished[sceneId]||swSpecial[sceneId];if(!s)return;
     if(s.parts){if(sceneId.startsWith('meenakshi-'))slot.classList.add('meena-embedded');for(const partId of s.parts){const source=document.getElementById(partId);if(source){const copy=source.cloneNode(true);copy.removeAttribute('id');slot.appendChild(copy);}else{const p=document.createElement('p');p.className='muted';p.textContent='Original scene not found in this page: '+partId;slot.appendChild(p);}}}
     if(s.mini){const p=document.createElement('p');p.className='a02-narration';p.textContent=s.mini;slot.appendChild(p);}
-    if(s.url){const f=document.createElement('iframe');f.loading='lazy';f.title='Published scene — '+sceneId;f.src=s.url;slot.appendChild(f);const a=document.createElement('a');a.href=s.url;a.target='_blank';a.rel='noopener noreferrer';a.textContent='Open full original story page';slot.appendChild(a);}
+   
     slot.dataset.loaded='true';
    }));
  }
@@ -1641,7 +1641,7 @@ function swInitDashboard(){
 
 function activateTab(tabName){
  const crumb=document.getElementById('sw-current-label');
- if(crumb){const labels={'episode-dashboard':'Progress dashboard',clock:'Combined planning clock','ankita-prose':'Ankita published scenes','shivani-prose':'Shivani A02','shivani-a03-prose':'Shivani A03','taniya-soniya-prose':'Taniya + Soniya morning','shreya-prose':'Shreya published scenes','meenakshi-m01':'Meenakshi M01–M03','meenakshi-m02':'Meenakshi M02–M03',cast:'Characters',gallery:'Image gallery',leads:'Story by character',continuity:'Continuity checks',prompts:'Writing prompts',secrets:'Knowledge boundaries'};crumb.textContent=labels[tabName]||tabName;}
+ if(crumb){const labels={'episode-dashboard':'Progress dashboard',clock:'Combined planning clock','ankita-prose':'Ankita published scenes','shivani-prose':'Shivani A02','shivani-a03-prose':'Shivani A03','taniya-soniya-prose':'Taniya + Soniya morning','shreya-prose':'Shreya published scenes','meenakshi-m01':'Meenakshi M01–M05','meenakshi-m02':'Meenakshi M02–M03','parcel-prose':'Ankita · Parcel P01–P08',cast:'Characters',gallery:'Image gallery',leads:'Story by character',continuity:'Continuity checks',prompts:'Writing prompts',secrets:'Knowledge boundaries'};crumb.textContent=labels[tabName]||tabName;}
  document.querySelectorAll('[data-sw-top]').forEach(a=>{const match=(a.dataset.swTop==='cast'&&tabName==='cast')||(a.dataset.swTop==='gallery'&&tabName==='gallery')||(a.dataset.swTop==='next'&&tabName==='episode-dashboard');if(match)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');});
 
  const b=document.querySelector('[data-tab="'+tabName+'"]');
@@ -1649,10 +1649,31 @@ function activateTab(tabName){
  document.querySelectorAll('[data-tab]').forEach(x=>{x.classList.toggle('active',x===b);x.setAttribute('aria-selected',String(x===b))});
  document.querySelectorAll('[data-panel]').forEach(p=>p.classList.toggle('hidden',p.dataset.panel!==b.dataset.tab));
 }
-document.querySelectorAll('[data-tab]').forEach(b=>b.addEventListener('click',()=>{activateTab(b.dataset.tab);history.pushState({tab:b.dataset.tab},'', '?tab='+encodeURIComponent(b.dataset.tab));document.getElementById('sw-current-location')?.scrollIntoView({block:'start'});}));
-window.addEventListener('popstate',()=>{const t=new URLSearchParams(location.search).get('tab')||'episode-dashboard';activateTab(t);if(t==='episode-dashboard')swRenderDashboard();});
-const selectedTab=new URLSearchParams(location.search).get('tab')||location.hash.slice(1)||'episode-dashboard';
+document.querySelectorAll('[data-tab]').forEach(b=>b.addEventListener('click',()=>{
+ activateTab(b.dataset.tab);
+ const u=new URL(location.href);
+ u.searchParams.set('tab',b.dataset.tab);
+ u.hash='';
+ history.pushState({tab:b.dataset.tab},'',u.pathname+u.search);
+ document.getElementById('sw-current-location')?.scrollIntoView({block:'start'});
+}));
+function swScrollToHash(){
+ const anchor=decodeURIComponent(location.hash.slice(1));
+ if(!anchor)return;
+ requestAnimationFrame(()=>document.getElementById(anchor)?.scrollIntoView({block:'start'}));
+}
+window.addEventListener('popstate',()=>{
+ const q=new URLSearchParams(location.search);
+ const t=q.get('tab')||'episode-dashboard';
+ const mode=q.get('view')||'pending';
+ swMode=['pending','done','all'].includes(mode)?mode:'pending';
+ activateTab(t);
+ if(t==='episode-dashboard')swRenderDashboard();
+ swScrollToHash();
+});
+const selectedTab=new URLSearchParams(location.search).get('tab')||'episode-dashboard';
 activateTab(selectedTab);
+swScrollToHash();
 ['clockLead','clockLane','clockQuery'].forEach(id=>$(id).addEventListener(id==='clockQuery'?'input':'change',renderClock));
 ['viewLead','viewQuery'].forEach(id=>$(id).addEventListener(id==='viewQuery'?'input':'change',renderLead));
 ['house','group','personQuery'].forEach(id=>$(id).addEventListener(id==='personQuery'?'input':'change',renderPeople));
