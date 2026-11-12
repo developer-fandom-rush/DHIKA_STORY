@@ -213,11 +213,12 @@
       "characters": [
         "meenakshi"
       ],
-      "title": "Morning commute",
-      "summary": "Meenakshi drives to the hospital.",
-      "detail": "No other society encounter is scheduled during her transit.",
-      "approval": "WORKING_PLOT_UNAPPROVED",
-      "notes": []
+      "title": "The Morning Commute — A Thought from Utkarsh",
+      "summary": "At 08:15 Meenakshi leaves the gate after Gopal's conversation and drives alone to the hospital. Utkarsh's teasing line about being noticed returns as a private memory, followed by attention to rounds and clinical workload.",
+      "detail": "No other society encounter on the route. Gurgaon winter morning; mild fog, car heater, duties and pending reports; hospital parking arrival by 08:45.",
+      "approval": "USER_ACCEPTED_PROSE_PUBLISHED",
+      "notes": [],
+      "publishedPath": "episode-02-meenakshi.html#m04"
     },
     {
       "id": "M05",
@@ -226,29 +227,38 @@
       "lane": "HOSPITAL",
       "location": "Private staff changing area",
       "characters": [
-        "meenakshi"
+        "meenakshi",
+        "harish_pal",
+        "sunil_yadav"
       ],
-      "title": "Preparation before rounds",
-      "summary": "Meenakshi arrives, attends to her maternal-care routine and changes into professional hospital attire.",
-      "detail": "An elderly ward attendant and floor cleaner briefly see an unintended private moment through an unsecured doorway and withdraw. The exposure is accidental; no invitation or permission is implied. Meenakshi secures her belongings in her locker. Neither worker has an established identity in the directory.",
-      "approval": "WORKING_PLOT_UNAPPROVED",
+      "title": "Preparation Before Rounds — Cleaning Sign and Unnoticed Presence",
+      "summary": "Meenakshi overlooks the Cleaning in Progress board and uses the women's staff changing area for an approximately eight-to-ten-minute milk-expression routine and change into hospital attire. Harish and Sunil are present behind the service partition; Sunil calls out, but she does not hear clearly. She secures her locker and departs for rounds at 09:05, unaware.",
+      "detail": "At 08:46 a yellow CLEANING IN PROGRESS — PLEASE WAIT notice stands at the door. She is focused on rounds and her practical lactation/storage routine. Senior ward attendant Harish Pal (62) and floor cleaner Sunil Yadav (46) are arranging cleaning supplies behind partition. Sunil softly tells Harish that doctor madam has entered, then calls louder to announce cleaning; she does not clearly hear. The workers hesitate because of fear of confrontation/complaint, do not promptly exit or safeguard privacy, and remain. No explicit sexualized depiction; their decision to remain is a privacy violation and not consent. Milk expression is described clinically, followed by changing to professional attire, white coat and ID check. Her personal belongings and pump kit are secured in the locked locker by 09:05. Later a colleague will inform her, source and time to be defined in a later scene.",
+      "approval": "USER_SUPPLIED_REVISED_PROSE_PUBLISHED",
       "notes": [
-        "The two incidental workers remain unnamed; no new character record or relationship is invented."
+        "Yellow cleaning board was overlooked by Meenakshi; this does not permit others to watch or remain.",
+        "Harish/Sunil identity user-accepted from prior proposal and revised scene; they are not pre-existing source roster.",
+        "Workers know they were present; Meenakshi remains unaware; revelation by a colleague is deferred.",
+        "Milk-expression routine is non-erotic care; 8–10 minute duration fits within 08:45–09:05 window.",
+        "Locker is secured at 09:05; later unauthorized locker entry remains a separate unresolved working beat."
       ],
       "incidentalRoles": [
         {
-          "role": "Elderly ward attendant",
-          "age": null,
-          "identity": "Not named in user source",
-          "presence": "Unintended brief observation; withdrew"
+          "role": "Senior ward attendant",
+          "age": 62,
+          "id": "harish_pal",
+          "identity": "Harish Pal",
+          "presence": "Cleaning service area; noticed her presence; remained without promptly protecting privacy"
         },
         {
-          "role": "Floor cleaner",
-          "age": null,
-          "identity": "Not named in user source",
-          "presence": "Unintended brief observation; withdrew"
+          "role": "Housekeeping / floor cleaner",
+          "age": 46,
+          "id": "sunil_yadav",
+          "identity": "Sunil Yadav",
+          "presence": "Warned about cleaning without being clearly heard; stayed in service area"
         }
-      ]
+      ],
+      "publishedPath": "episode-02-meenakshi.html#m05"
     },
     {
       "id": "M06",
@@ -467,7 +477,6 @@
     }
   ],
   "issuesToReview": [
-    "Two unnamed incidental hospital staff are scene-only supporting roles, not new directory identities.",
     "User confirmed Uday–Utkarsh as twins; the character directory and atlas require the corresponding update.",
     "Potential 12:30–12:50 concurrency: Mohan is in committee scene only; other men are in hospital locker scene. No same-person collision.",
     "The two supplied wardrobe images are reference visuals, not images proving an in-story event.",
@@ -476,5 +485,6 @@
   "cutoff": "2026-01-01T13:15:00",
   "next": "Await user approval for prose or evening continuation. No automatic expansion.",
   "publishedM01Extension": "episode-02-meenakshi-m01.html#m01-f02",
-  "publishedM02M03": "episode-02-meenakshi-m02-m03.html"
+  "publishedM02M03": "episode-02-meenakshi-m02-m03.html",
+  "publishedM04M05": "episode-02-meenakshi.html#m04"
 }
