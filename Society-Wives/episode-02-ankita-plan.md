@@ -312,7 +312,7 @@
 ## Character foundations
 - **ankita:** 30, confident IT tech lead, maintains fitness through park mobility/yoga and walking; professional and approachable.
 - **kabir:** Ankita's husband, playful affection and a supportive relationship.
-- **rajeev:** Kabir's father; household elder; current Atlas has unreciprocated private attraction as proposal.
+- **rajeev:** Kabir's socially presented older household associate (not his actual father or Ankita's FIL); current Atlas has unreciprocated private attraction as proposal.
 - **karan:** 22, Kabir's younger twin brother, lives in the same family home; outgoing, preparing for MBA/management roles and freelances.
 - **aman:** 22, Karan's twin, lives in same family home; more reserved, preparing for Java/backend job interviews.
 - **home:** Gulmohar Heights, Gurgaon; Ankita, Kabir, Rajeev, Karan, Aman share a home. This residency is newly established in this working draft.
@@ -333,3 +333,6 @@
 3. Which of the four elders will first approach Ankita again after the parcel incident?
 4. Does Ankita ask Gopal for CCTV immediately or first investigate privately with Kabir and Aman?
 5. Should Sharmi learn the truth from Ankita, or first notice the older men's strange behavior independently?
+
+## Canon correction (2026-11-12)
+All older male household associates called Papa/Uncle or apparent FIL in dialogue are NOT actual biological/legal fathers-in-law. They are socially presented as family for distinct, as-yet-unrevealed reasons. Do not invent a biological family relation from an honorific.
