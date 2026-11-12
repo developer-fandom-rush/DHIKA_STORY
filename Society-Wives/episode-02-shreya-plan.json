@@ -429,7 +429,9 @@
       "publishedScene": {
         "uiTab": "shreya-prose",
         "uiHref": "./episode-02.html?tab=shreya-prose#shreya-sr05-first-button",
-        "images": [],
+        "images": [
+          "./assets/shreya/shreya-sr05-first-button-storyboard.svg"
+        ],
         "publication": "USER_REQUESTED_PUBLISHED_SR05"
       }
     },
@@ -870,6 +872,16 @@
       "uiSrc": "./assets/shreya/shreya-story-collage.jpg",
       "uiSource": "GITHUB_PAGES_LOCAL",
       "galleryLink": "./assets/shreya/shreya-story-collage.jpg"
+    },
+    {
+      "id": "sr05-first-button",
+      "label": "Shreya SR05 — First Button parking storyboard",
+      "filename": "shreya-sr05-first-button-storyboard.svg",
+      "role": "Inspector Shreya deliberately loosens top uniform collar, adult twins Karan and Aman react at parking gate",
+      "source": "Composite editorial illustration from existing Shreya project police image + vector-drawn figures; not a photorealistic scene capture",
+      "uiSrc": "./assets/shreya/shreya-sr05-first-button-storyboard.svg",
+      "uiSource": "GITHUB_PAGES_LOCAL",
+      "galleryLink": "./assets/shreya/shreya-sr05-first-button-storyboard.svg"
     }
   ],
   "imagePolicy": "SR01 images are repository-hosted in assets/shreya/, with Drive originals. Signs visible in AI concept images are non-canon. Other Shreya archived images remain available. No other scenes automatically approved.",
