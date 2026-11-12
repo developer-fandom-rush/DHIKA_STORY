@@ -22,10 +22,10 @@
     "fitness": "She does 25–30 minutes of brisk walking and group mobility/stretching in the society park before work. No gym membership or personal trainer has been assumed; gym/PT can get an independent later arc."
   },
   "plotObject": {
-    "visual": "Six pink innerwear sets, one pink personal adult item and instruction leaflet in a private parcel",
+    "visual": "Seven pink lace bra-and-panty sets, one adult personal item and instruction leaflet in a private parcel.",
     "readerSecret": "Ankita and Kabir ordered together; do not reveal that reason to readers in EP02.",
     "factualClarification": "An adult personal item does not mean a person is dissatisfied with their marriage. That belief is a false assumption by the intruding men.",
-    "distribution": "Six sets: Gopal 1, Mahendra 1, Om 1, Subhash 1, Mohan 1, Arvind 1. Rajeev receives the remaining parcel, personal item, paperwork and damaged packaging (zero sets remain).",
+    "distribution": "Seven sets initially. Gopal, Mahendra, Om, Subhash, Mohan and Arvind each remove one (six missing). One remains in the damaged box that Rajeev collects; he removes none.",
     "propertyNote": "Each removal is unauthorized and independently concealed. None of the six has evidence of another's removal, though elders may know contents were exposed.",
     "consent": "Opening, retaining items or exploiting private information are violations; they should not be framed as consensual seduction or evidence of Ankita's wishes."
   },
@@ -377,7 +377,7 @@
         "Gopal"
       ],
       "title": "First Broken Seal",
-      "action": "Courier arrives while Ankita is at work. Gopal opens the clearly private parcel without permission, discovers its contents, and secretly removes one pink innerwear set. He closes the box badly.",
+      "action": "Delivery arrives sealed. Gopal breaches the seal himself and privately removes one of seven pink clothing sets. His user-authored private fantasy, misconception and pledge follow; Ankita is unaware.",
       "dialogue": [
         [
           "Courier",
@@ -396,56 +396,82 @@
       "prose": [
         {
           "type": "narration",
-          "text": "09:55. Delivery van Gulmohar Heights ke gate par ruki. Ankita ka naam aur Tower C ka flat number parcel label par clearly tha. Gopal ko subah ki instruction yaad thi: bina bataye kisi ko hand over nahi karna.",
-          "highlight": false
+          "text": "09:55. Delivery van Gulmohar Heights ke gate par ruki. Parcel par Ankita ka naam aur Tower C ka flat number clearly likha tha."
         },
         {
           "type": "dialogue",
           "speaker": "Courier",
-          "text": "Signature yahin chahiye. Personal delivery hai.",
-          "highlight": false
+          "text": "Signature yahin chahiye. Personal delivery hai."
         },
         {
           "type": "dialogue",
           "speaker": "Gopal",
-          "text": "Madam office gayi hain. Main entry kar leta hoon.",
-          "highlight": false
+          "text": "Madam office gayi hain. Main entry kar leta hoon."
         },
         {
           "type": "narration",
-          "text": "Courier nikal gaya. Gopal ne carton par ungli phirai; ek side ki tape intact thi. Usne duty register khola, phir aas-paas dekhkar khud seal kaat di.",
-          "highlight": false
+          "text": "Courier chala gaya. Carton abhi sealed tha — ek side ki tape bhi band thi. Gopal ne aas-paas dekha, phir khud tape kaatkar flap uthaya."
         },
         {
           "type": "narration",
-          "text": "Andar chhe pink clothing sets, ek sealed adult personal item aur instruction leaflet the. Gopal ne ek set alag karke apni duty bag ke andar daba diya. Usne baaki samaan wapas rakhkar box ko jaldi se band kiya.",
-          "highlight": true
-        },
-        {
-          "type": "dialogue",
-          "speaker": "Gopal (under his breath)",
-          "text": "Itna personal parcel… aur mujhe specifically chup-chaap rakhne ko kaha tha.",
-          "highlight": false
-        },
-        {
-          "type": "private_thought",
-          "text": "Ek pal ko usne Ankita ka subah ka confident smile yaad kiya. Socha, kabhi woh khud usse aise personal andaaz mein baat kare toh? Phir usne mann hi mann ek galat kahaani bana li ki shayad uske ghar mein sab theek nahi.",
-          "highlight": true
+          "text": "Andar **7 pink lace bra and panty sets** the. Saath mein ek realistic dildo aur uska instruction manual."
         },
         {
           "type": "narration",
-          "text": "10:12. Community office ka runner gate se guzra. Gopal ne kaha ki address verification mein help chahiye aur damaged parcel chairman ke paas bhejne ka faisla kiya. Usne apni nikali hui cheez ka zikr nahi kiya.",
-          "highlight": false
+          "text": "Gopal ne ek complete set (bra + panty) alag karke apni duty bag mein daal liya. Baaki 6 sets, dildo aur manual wapas rakhkar box band kar diya. Register mein usne exact count nahi likha."
+        },
+        {
+          "type": "narration",
+          "text": "Uske dimaag mein Ankita ka subah wala confident smile aa gaya. Imagination bold ho gayi."
+        },
+        {
+          "type": "narration",
+          "text": "**Fantasy:**\nAnkita usi pink lace bra aur panty mein bed par leti hai. Bra ke cups uske full breasts ko tightly hold kiye hue hain, cleavage deep hai, nipples lace ke against hard dikh rahe hain. Panty crotch se thodi side ho gayi hai. Woh instruction manual padh rahi hai, phir dildo haath mein leti hai. Usne use apni panty ke upar se rub kiya, phir side karke dheere-dheere apni wet pussy ke andar daalna shuru kiya. Uske muh se halki moan nikli, hips utha kar move karne lagi. Dildo andar-bahar ho raha tha, lace panty completely soaked ho rahi thi."
+        },
+        {
+          "type": "narration",
+          "text": "Gopal ne dildo dekha aur apne lund se compare kiya. Dildo average size ka tha. Uska lund usse clearly mota aur lamba tha — thick shaft, badi head, veins clearly ubhri hui, tip se precum nikal raha tha. Usne socha, *“Yeh dildo toh chhota hai mere lund ke saamne. Ankita madam ko asli cheez chahiye.”*"
+        },
+        {
+          "type": "narration",
+          "text": "Uske mann mein misconception aa gaya — *“Shayad pati se khush nahi hain isliye aisa parcel mangaya. Kabir sahab unhe satisfy nahi kar paate.”*"
+        },
+        {
+          "type": "narration",
+          "text": "Woh duty room ke kone mein gaya. Bag se pink panty nikaali, usse apne hard lund par wrap kiya. Panty ka soft lace uske shaft par ragad kha raha tha. Woh tez strokes maarne laga — base se tip tak, thumb se head rub karte hue — Ankita ko doggy style mein pakad kar apna mota lund uski pussy mein daalte hue fantasy dekhte hue. Fantasy mein woh moan kar rahi thi, “aur andar”. Kuch hi der mein uska lund phatne laga, thick cum nikal kar panty ke andar spread ho gaya. Woh haanf raha tha, lund abhi bhi sensitive tha."
+        },
+        {
+          "type": "narration",
+          "text": "**Self Pledge:**\nSaans lete hue usne mann hi mann decide kiya — *“Ab toh Ankita madam ko seduce karke apna banaunga. Force nahi karunga. Unhe khud meri taraf attract karunga, unka dil jeetunga, phir unhe chodunga. Woh khud chahegi.”*"
+        },
+        {
+          "type": "narration",
+          "text": "Sirf usne aur reader ne yeh socha aur kiya. Ankita ko kuch pata nahi."
+        },
+        {
+          "type": "narration",
+          "text": "10:12. Runner aaya. Gopal ne damaged parcel chairman ke paas bhejne ki baat ki. Apni nikali hui cheez aur asli count ka zikr nahi kiya."
+        },
+        {
+          "type": "editor_note",
+          "text": "**Continuity:** Ankita off-screen at office. Gopal ne ek set rakha, exact count chhupaya. Fantasy, size comparison, misconception, masturbation aur seduction pledge — sab reader-only hai. No force."
         }
       ],
-      "sceneStatus": "DRAFT_AWAITING_USER_REVIEW_NOT_APPROVED",
+      "sceneStatus": "USER_APPROVED_FINAL_P01",
       "sceneContinuity": "Ankita off-screen at office. Every clothing removal independent; no one knows other removals. Reader-only imagination is not mutual attraction.",
       "reviewNotes": [
         "A07 to P01 Gopal continuity currently underdeveloped: the private last line and his earlier interest need a causal connection, not just a generic memory of Ankita's smile.",
         "Original courier dialogue Flat C-704 is not reflected verbatim in current draft.",
         "Explain Gopal's choice to open an intact seal and his pretext for shifting custody to Mahendra; exact psychology is for user discussion, not silently invented.",
         "Do not call this scene FINAL before user review."
-      ]
+      ],
+      "rawUserApprovedText": "09:55. Delivery van Gulmohar Heights ke gate par ruki. Parcel par Ankita ka naam aur Tower C ka flat number clearly likha tha.\n\nCourier: Signature yahin chahiye. Personal delivery hai.\n\nGopal: Madam office gayi hain. Main entry kar leta hoon.\n\nCourier chala gaya. Carton abhi sealed tha — ek side ki tape bhi band thi. Gopal ne aas-paas dekha, phir khud tape kaatkar flap uthaya.\n\nAndar **7 pink lace bra and panty sets** the. Saath mein ek realistic dildo aur uska instruction manual.\n\nGopal ne ek complete set (bra + panty) alag karke apni duty bag mein daal liya. Baaki 6 sets, dildo aur manual wapas rakhkar box band kar diya. Register mein usne exact count nahi likha.\n\nUske dimaag mein Ankita ka subah wala confident smile aa gaya. Imagination bold ho gayi.\n\n**Fantasy:**\nAnkita usi pink lace bra aur panty mein bed par leti hai. Bra ke cups uske full breasts ko tightly hold kiye hue hain, cleavage deep hai, nipples lace ke against hard dikh rahe hain. Panty crotch se thodi side ho gayi hai. Woh instruction manual padh rahi hai, phir dildo haath mein leti hai. Usne use apni panty ke upar se rub kiya, phir side karke dheere-dheere apni wet pussy ke andar daalna shuru kiya. Uske muh se halki moan nikli, hips utha kar move karne lagi. Dildo andar-bahar ho raha tha, lace panty completely soaked ho rahi thi.\n\nGopal ne dildo dekha aur apne lund se compare kiya. Dildo average size ka tha. Uska lund usse clearly mota aur lamba tha — thick shaft, badi head, veins clearly ubhri hui, tip se precum nikal raha tha. Usne socha, *“Yeh dildo toh chhota hai mere lund ke saamne. Ankita madam ko asli cheez chahiye.”*\n\nUske mann mein misconception aa gaya — *“Shayad pati se khush nahi hain isliye aisa parcel mangaya. Kabir sahab unhe satisfy nahi kar paate.”*\n\nWoh duty room ke kone mein gaya. Bag se pink panty nikaali, usse apne hard lund par wrap kiya. Panty ka soft lace uske shaft par ragad kha raha tha. Woh tez strokes maarne laga — base se tip tak, thumb se head rub karte hue — Ankita ko doggy style mein pakad kar apna mota lund uski pussy mein daalte hue fantasy dekhte hue. Fantasy mein woh moan kar rahi thi, “aur andar”. Kuch hi der mein uska lund phatne laga, thick cum nikal kar panty ke andar spread ho gaya. Woh haanf raha tha, lund abhi bhi sensitive tha.\n\n**Self Pledge:**\nSaans lete hue usne mann hi mann decide kiya — *“Ab toh Ankita madam ko seduce karke apna banaunga. Force nahi karunga. Unhe khud meri taraf attract karunga, unka dil jeetunga, phir unhe chodunga. Woh khud chahegi.”*\n\nSirf usne aur reader ne yeh socha aur kiya. Ankita ko kuch pata nahi.\n\n10:12. Runner aaya. Gopal ne damaged parcel chairman ke paas bhejne ki baat ki. Apni nikali hui cheez aur asli count ka zikr nahi kiya.\n\n**Continuity:** Ankita off-screen at office. Gopal ne ek set rakha, exact count chhupaya. Fantasy, size comparison, misconception, masturbation aur seduction pledge — sab reader-only hai. No force.",
+      "continuityCorrection": "Original user merged draft said the carton arrived damaged; adjusted only this opening to show Gopal breaking an intact seal, matching the First Broken Seal title and A07 instructions.",
+      "inventoryAfter": {
+        "setsIn": 7,
+        "setsRemoved": 1,
+        "setsRemain": 6
+      }
     },
     {
       "id": "P02",
@@ -771,7 +797,7 @@
         "Arvind"
       ],
       "title": "The Last Unseen Removal",
-      "action": "Arvind visits to deliver a society maintenance notice. With the counter unattended he glimpses private contents and covertly keeps the last remaining innerwear set. He returns the damaged parcel to the logged shelf.",
+      "action": "Arvind visits to deliver a society maintenance notice. With the counter unattended he glimpses private contents and covertly keeps the one of the two remaining innerwear sets. He returns the damaged parcel to the logged shelf.",
       "dialogue": [
         [
           "Arvind",
@@ -797,7 +823,7 @@
         },
         {
           "type": "narration",
-          "text": "Arvind ne bina poochhe flap uthaya. Ek aakhri pink clothing set dikha; woh usne apni folded newspaper ke neeche rakh li. Carton mein ab clothing sets ka koi piece nahi bacha tha.",
+          "text": "Arvind ne bina poochhe flap uthaya. Do bache hue pink clothing sets mein se ek dikha; woh usne apni folded newspaper ke neeche rakh li. Carton mein ab ek pink clothing set bacha tha.",
           "highlight": true
         },
         {
@@ -812,7 +838,7 @@
         },
         {
           "type": "narration",
-          "text": "11:35. Arvind ne notice chhodkar parcel ko logged shelf par rakh diya. Ab andar sealed adult personal item aur booklet hi the; chhe clothing sets, chhe alag logon ne bina ek doosre ko jaane le liye the.",
+          "text": "11:35. Arvind ne notice chhodkar parcel ko logged shelf par rakh diya. Ab andar ek pink clothing set, sealed adult personal item aur booklet the; chhe clothing sets, chhe alag logon ne bina ek doosre ko jaane le liye the.",
           "highlight": false
         }
       ],
@@ -833,7 +859,7 @@
         "Mahendra Suri"
       ],
       "title": "Rajeev Receives the Remainder",
-      "action": "Mahendra calls Rajeev to collect Ankita's delayed private delivery. The packaging is visibly damaged and the clothing sets are missing, though the adult personal item and booklet remain inside. Rajeev is curious and unsettled but has no right to interpret the items as evidence about her marriage. He takes the package home for Ankita.",
+      "action": "Mahendra calls Rajeev to collect Ankita's delayed private delivery. The packaging is visibly damaged and six clothing sets are missing but one remains, though the adult personal item and booklet remain inside. Rajeev is curious and unsettled but has no right to interpret the items as evidence about her marriage. He takes the package home for Ankita.",
       "dialogue": [
         [
           "Mahendra Suri",
@@ -879,7 +905,7 @@
         },
         {
           "type": "narration",
-          "text": "Rajeev ne carton khola nahi, lekin loose edge se sealed personal item aur leaflet ke corners dikh gaye. Clothing sets ke baare mein use kuch pata nahi tha. Usne box apne bag mein carefully rakh liya.",
+          "text": "Rajeev ne carton khola nahi, lekin loose edge se sealed personal item aur leaflet ke corners dikh gaye. Original total count aur chhe missing sets ke baare mein use kuch pata nahi tha; ek set box mein abhi tha. Usne box apne bag mein carefully rakh liya.",
           "highlight": true
         },
         {
@@ -906,7 +932,7 @@
         },
         {
           "type": "narration",
-          "text": "12:26. Rajeev box lekar ghar ki taraf gaya. Uske paas kisi bhi clothing set ka hissa nahi tha; sirf damaged outer parcel, personal item aur papers the.",
+          "text": "12:26. Rajeev box lekar ghar ki taraf gaya. Uske paas damaged outer parcel ke andar ek bacha hua clothing set, personal item aur papers the. Usne khud koi set nahi nikala.",
           "highlight": false
         }
       ],
@@ -1046,7 +1072,7 @@
     "previousEpisode": "EP01 — Five Doors, Eleven Worlds; dates to be anchored separately as 2025-12-31 if continuity requires.",
     "noSimultaneousPresence": "Ankita physically at Cyber City from ~08:50 through 13:00, never present in society parcel handoffs after 08:05. No Ankita homecoming occurs in current EP02.",
     "actorIndependence": "Four elders visit committee office sequentially; each secretly removes a set, unaware that others did likewise.",
-    "tally": "6 clothing sets initially; removals Gopal, Mahendra, Om, Subhash, Mohan, Arvind = 6; Rajeev receives 0 clothing sets plus remaining other contents.",
+    "tally": "7 sets initially; 6 separate removals (Gopal, Mahendra, Om, Subhash, Mohan, Arvind = 1 each); 1 set remains in Rajeev's box. Rajeev individually removes 0.",
     "sharedCast": "Sharmi has a brief 07:47 lobby interaction before Ankita's 08:05 departure, connecting the shared society friend without forcing her into parcel knowledge.",
     "currentEpisodeCutoff": "2026-01-01 13:00",
     "lastVisibleScene": "P08 12:30–12:50 (working draft, not approved)",
@@ -1086,7 +1112,12 @@
         "Arvind": 1,
         "Rajeev": 0
       },
-      "approval": "AWAITING_USER_DISCUSSION_SCENE_BY_SCENE"
+      "approval": "AWAITING_USER_DISCUSSION_SCENE_BY_SCENE",
+      "finalInventory": {
+        "initialSets": 7,
+        "removedSets": 6,
+        "setsInBoxWithRajeev": 1
+      }
     },
     "parcelReviewPriority": [
       "P01 narrative linkage with A07 and P02",
