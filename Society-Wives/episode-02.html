@@ -1585,8 +1585,10 @@ function swPanelFor(e){
  return 'episode-dashboard';
 }
 function swSceneLink(e){
- const st=swStatus(e),tab=swPanelFor(e),anchor=st.parts&&st.parts[0]?'#'+encodeURIComponent(st.parts[0]):'';
- return '?tab='+encodeURIComponent(tab)+anchor;
+ const st=swStatus(e);
+ if(st.parts&&st.parts[0])return '?tab='+encodeURIComponent(swPanelFor(e))+'#'+encodeURIComponent(st.parts[0]);
+ const g=swGroup(e),tab=g==='shreya'?'shreya':g==='meenakshi'?'meenakshi':'leads';
+ return '?tab='+encodeURIComponent(tab)+'&scene='+encodeURIComponent(e.id);
 }
 function swValidItems(){
  return items.filter(e=>['ankita','shivani','sisters','meenakshi','shreya'].includes(swGroup(e))&&
@@ -1700,7 +1702,17 @@ swScrollToHash();
  $('promptScene').innerHTML=plans.shreya.timeline.map(v=>'<option value="'+esc(v.id)+'">'+esc(v.start+' · '+v.title)+'</option>').join('');
  const all=[...directory.leads,...directory.people,...plans.sisters.cast];
  all.forEach(p=>{if(p.id)roleIndex[String(p.id).toLowerCase()]=p;if(p.name)roleIndex[p.name.toLowerCase()]=p});
- items=normalize();renderClock();renderLead();renderPeople();renderSecrets();renderMeenakshiEncounters();renderShreya();renderPrompts();swInitDashboard();
+ items=normalize();
+ const sceneToFocus=new URLSearchParams(location.search).get('scene');
+ if(sceneToFocus){
+   if(sceneToFocus.startsWith('shreya-'))$('shreyaSearch').value=sceneToFocus.slice(7);
+   else if(sceneToFocus.startsWith('meenakshi-'))$('meenakshiSearch').value=sceneToFocus.slice(10);
+   else{
+     const target=items.find(x=>x.id===sceneToFocus);
+     if(target){$('viewLead').value=target.lead==='sisters'?'taniya':target.lead;$('viewQuery').value=sceneToFocus.split('-').slice(1).join('-');}
+   }
+ }
+ renderClock();renderLead();renderPeople();renderSecrets();renderMeenakshiEncounters();renderShreya();renderPrompts();swInitDashboard();
 }catch(e){$('clockFeed').innerHTML='<p class="fail">Unable to load episode data: '+esc(e.message)+'. Use the published Pages URL instead of opening the file locally.</p>';}
 })();
 </script></body></html>
