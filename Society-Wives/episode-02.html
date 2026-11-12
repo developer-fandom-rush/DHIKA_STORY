@@ -31,12 +31,82 @@ button:focus-visible,input:focus-visible,select:focus-visible,a:focus-visible{ou
 </style><style id="a02-approved-design">
 .a02-banner{display:flex;justify-content:space-between;align-items:center;gap:14px;flex-wrap:wrap;margin:12px 0 17px;padding:17px 19px;background:#fff;border:1px solid #d8b6c9;border-left:5px solid #a64170;border-radius:13px;box-shadow:0 4px 18px #482a4110}.a02-banner strong{font-size:16px}.a02-banner p{margin:5px 0;color:#6d5a6b;font-size:13px}.a02-banner a{display:inline-block;padding:10px 14px;background:#9a3967;color:white;border-radius:9px;text-decoration:none;font-size:13px;font-weight:800}
 .a02-rule{border:1px solid #ebd8af;background:#fffaf0;padding:13px 15px;border-radius:10px;line-height:1.65;margin:13px 0 22px;color:#584a45}.a02-rule mark,.a02-prose mark{background:#fff0a8;color:#302638;box-decoration-break:clone;-webkit-box-decoration-break:clone;padding:2px 3px;border-radius:3px;font-weight:700}.a02-scene{border:1px solid #e4d2df;background:#fffdfd;border-radius:16px;margin:20px 0 25px;padding:clamp(15px,3vw,24px);scroll-margin-top:24px}.a02-scene-head{display:flex;align-items:start;justify-content:space-between;gap:12px;flex-wrap:wrap}.a02-scene h3{font-size:22px;margin:7px 0}.a02-scene figure{margin:13px auto 20px;max-width:760px}.a02-scene img{display:block;width:100%;max-height:440px;object-fit:cover;border-radius:12px;background:#f3ecf0;box-shadow:0 5px 20px #33172c10}.a02-scene figcaption{font-size:12px;color:#766575;margin-top:8px;text-align:center}.a02-prose{max-width:780px;margin:auto}.a02-dialogue{background:#fcf6f9;border-left:3px solid #c989a8;border-radius:5px;padding:10px 14px;margin:9px 0;line-height:1.75;font-size:15px}.a02-dialogue strong{color:#8d3965}.a02-narration{font:16px/1.75 Georgia,serif;margin:16px 4px;color:#3b2e3e}.a02-highlight-note{background:#fffdf4;border-radius:8px;padding:8px 12px}@media(max-width:630px){.a02-banner a{width:100%;text-align:center}.a02-scene img{max-height:330px}}
+</style>
+<style id="sw-navigation-redesign">
+html{scroll-behavior:smooth;scroll-padding-top:85px}
+body{overflow-x:hidden}
+.sw-sitebar{position:sticky;top:0;z-index:99;display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;padding:9px max(12px,calc((100vw - 1320px)/2));background:#fff;box-shadow:0 2px 12px #2e203419;border-bottom:1px solid #e8e0e8}
+.sw-logo{color:#4d3045;font-size:15px;font-weight:900;white-space:nowrap}
+.sw-links{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+.sw-links a,.sw-sitebar summary{display:inline-flex;align-items:center;gap:5px;padding:8px 11px;border-radius:9px;color:#5e495d;font-size:12px;font-weight:750;border:1px solid transparent;line-height:1.2;cursor:pointer;text-decoration:none}
+.sw-links a:hover,.sw-sitebar summary:hover,.sw-links a[aria-current=page]{background:#f5edf2;color:#8c3865}
+.sw-episodes{position:relative}.sw-episodes summary{list-style:none}.sw-episodes summary::-webkit-details-marker{display:none}
+.sw-drop{position:absolute;right:0;top:100%;min-width:205px;display:grid;background:white;border:1px solid #e9dce6;box-shadow:0 14px 28px #241a2b20;border-radius:10px;padding:8px;z-index:100}
+.sw-drop a{display:block;padding:11px 12px}
+.sw-breadcrumb{max-width:1340px;margin:8px auto 10px;padding:0 16px;display:flex;align-items:center;flex-wrap:wrap;gap:7px;font-size:12px;color:#695d72}
+.sw-breadcrumb a{font-weight:800;color:#95446e}
+.archive-menu{max-width:1340px;margin:0 auto 10px;padding:0 16px}
+.archive-menu>summary{cursor:pointer;border-radius:10px;border:1px solid #e6dfeb;background:#fff;padding:9px 12px;font-size:12px;font-weight:800;color:#706076}
+.archive-menu .tabs{margin-top:8px}
+.shell>.leads,.shell>.a02-banner,.shell>.info[aria-label="Shivani story photograph reference"]{display:none}
+.sw-dash h2{font-size:24px;letter-spacing:-.03em;margin:0}
+.sw-dash-sub{color:#6e6170;font-size:13px;max-width:850px;margin:4px 0 16px}
+.sw-metrics{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:9px;margin-bottom:16px}
+.sw-metric{background:#faf7fa;border:1px solid #e9e1e8;border-radius:12px;padding:12px;min-width:0}
+.sw-metric b{display:block;font-size:23px;color:#4d3148;font-variant-numeric:tabular-nums}.sw-metric small{font-size:11px;color:#756875;font-weight:700}
+.sw-controlbar{display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin:14px 0 18px}
+.sw-modes{display:flex;gap:4px;padding:4px;border:1px solid #e9dde6;background:#f7f2f6;border-radius:12px}
+.sw-modes button{border:0;background:transparent;border-radius:8px;padding:10px 12px;font-size:12px;font-weight:850;color:#6b596c}
+.sw-modes button[aria-pressed="true"]{background:#fff;color:#933a6c;box-shadow:0 1px 7px #2d1c331a}
+.sw-controlbar input,.sw-controlbar select{padding:10px;border-radius:9px;border:1px solid #ded4e0;min-width:130px;max-width:100%;color:#4d4050;background:#fff}
+.sw-controlbar input{flex:1;min-width:180px}
+.sw-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.sw-group{border:1px solid #e7dfeb;border-radius:13px;padding:14px;min-width:0;background:#fff}
+.sw-group-header{display:flex;align-items:center;justify-content:space-between;gap:9px;margin-bottom:10px}.sw-group-header h3{font-size:17px;margin:0}.sw-count{font-size:11px;background:#f0e8f3;padding:3px 8px;border-radius:30px;color:#6a4b6e}
+.sw-task{display:grid;grid-template-columns:74px minmax(0,1fr);gap:10px;padding:10px 0;border-top:1px solid #f0ebf2;align-items:start}
+.sw-task:first-of-type{border-top:0}.sw-time{color:#925176;font-size:12px;font-weight:850}
+.sw-task strong{display:block;font-size:13px;line-height:1.35;color:#392e3e}
+.sw-task small{display:block;color:#85768a;font-size:11px;margin-top:3px}
+.sw-status{display:inline-block;font-size:10px;font-weight:800;color:#856027;background:#fff2d9;border-radius:7px;padding:2px 6px}
+.sw-status.done{color:#206b5e;background:#eaf5ef}.sw-status.review{color:#99642b;background:#fff1dc}.sw-status.hold{color:#915560;background:#fff0f1}
+.sw-story{border:1px solid #e7dfec;border-left:4px solid #986283;border-radius:12px;margin-bottom:10px;padding:13px;background:white;scroll-margin-top:100px;min-width:0}
+.sw-story-top{display:flex;align-items:start;gap:13px}.sw-story-time{width:74px;flex:0 0 74px;font-size:12px;font-weight:900;color:#965072}.sw-story-main{min-width:0;flex:1}
+.sw-story h3{font-size:15px;margin:3px 0}.sw-story p{margin:3px 0 7px;color:#75667b;font-size:11px}
+.sw-read{margin:9px 0 1px}.sw-read>summary{cursor:pointer;display:inline-block;padding:7px 10px;background:#f5e9f1;color:#8d3d69;border-radius:8px;font-weight:800;font-size:12px}
+.sw-read[open]{border-top:1px solid #f1eaf0;padding-top:12px}.sw-reader-slot{margin:10px 0;max-width:100%}
+.sw-reader-slot>.a02-scene{margin:0 auto}.sw-reader-slot iframe{border:1px solid #e5d9e5;border-radius:11px;width:100%;min-height:70vh}
+.sw-headrow{display:flex;justify-content:space-between;gap:10px;align-items:center;flex-wrap:wrap}
+.sw-nextnotice{margin:13px 0;padding:12px 13px;border-left:3px solid #b78a62;background:#fcf8f4;color:#5e4f53;border-radius:8px;font-size:12px}
+.sw-empty{padding:18px 14px;border:1px dashed #d4c4d3;border-radius:12px;color:#746775}
+.sw-episode-nav{display:flex;gap:10px;flex-wrap:wrap;margin:12px 0 20px}.sw-episode-nav a{padding:12px 14px;border:1px solid #e4d7e3;border-radius:11px;background:#fff;color:#7a4561;font-size:12px;font-weight:800}
+.sw-episode-nav a[aria-current=page]{border-color:#b686a9;background:#f8eef5}
+.sw-kicker{font-size:11px;letter-spacing:.11em;color:#a45d87;font-weight:900;text-transform:uppercase}
+body>.sw-sitebar+header{padding-top:17px;padding-bottom:15px}
+body>.sw-sitebar+header nav{display:none}
+body>.sw-sitebar+header h1{font-size:clamp(24px,3.2vw,34px)}
+body>.sw-sitebar+header p{margin:3px 0}
+@media(max-width:900px){.sw-grid{grid-template-columns:1fr}.sw-metrics{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:650px){.sw-sitebar{position:sticky;top:0;padding:7px 9px;align-items:center}.sw-logo{font-size:12px}.sw-links{gap:1px}.sw-links a,.sw-sitebar summary{font-size:11px;padding:8px 7px}.sw-links a:nth-child(1){display:none}.sw-modes{width:100%}.sw-modes button{flex:1;padding:10px 5px;font-size:11px}.sw-controlbar select{flex:1}.sw-story-top{gap:8px}.sw-story-time{width:60px;flex-basis:60px}.sw-metric b{font-size:21px}.sw-dash h2{font-size:20px}.sw-reader-slot .a02-scene{padding:10px}.archive-menu{padding:0 10px}}
 </style></head>
-<body><header>
+<body><div class="sw-sitebar" role="navigation" aria-label="Society Wives primary navigation">
+<a class="sw-logo" href="./index.html">SOCIETY WIVES</a>
+<div class="sw-links">
+<a href="./index.html" data-sw-top="home">Home</a>
+<a href="./episode-01.html" data-sw-top="prologue">Prologue · EP01</a>
+<a href="?tab=cast" data-sw-top="cast">Characters</a>
+<a href="?tab=gallery" data-sw-top="gallery">Image Gallery</a>
+<details class="sw-episodes" id="sw-episodes-menu"><summary>Episodes ▾</summary><div class="sw-drop">
+<a href="./episode-01.html">EP01 · Prologue</a>
+<a href="?tab=episode-dashboard">EP02 · Combined Timeline</a>
+<a href="./episode-03-ankita-pending.html">EP03 · Ankita planning</a>
+</div></details>
+<a href="?tab=episode-dashboard&view=pending" data-sw-top="next">Next Scenes</a>
+</div>
+</div><header>
 <div class="kicker">Society Wives · Five Veils of Desire · Unified Episode Workspace</div>
 <h1>Episode 02 · One Day, Six Perspectives</h1>
 <p>Thursday, 1 January 2026 · Gurgaon · One global clock, separate points of view, and a single shared character directory.</p>
-<nav><a href="?tab=taniya-soniya-prose">Taniya + Soniya · TS01–TS02</a><a href="?tab=shreya-prose">Shreya SR01 · Read</a><a href="./episode-02-meenakshi.html">Meenakshi · Read Full M01–M03</a><a href="?tab=meenakshi-m02">M02–M03 tab</a><a href="?tab=meenakshi-m01">Meenakshi M01 · Read</a><a href="?tab=ankita-prose">Ankita · Scenes 1–5</a><a href="./relationship-atlas.html">Relationship Atlas</a><a href="./episode-01.html">EP01</a><a href="?tab=ankita-prose#flirting-rule">Flirting Rule</a><a href="./characters.html">Full Atlas Editor</a><a href="./episode-03-ankita-pending.html">Ankita EP03 · Saved Next Part</a></nav>
+
 </header>
 <main class="shell">
 <div class="info"><div class="top"><span><strong>One unified review page.</strong> Use the global timeline or the character tabs to see all overlapping events. Events stay source-labeled; planning and approved scenes are not silently merged into final prose.</span><span class="stamp">EP03 ANKITA PRESERVED SEPARATELY</span></div></div>
@@ -62,8 +132,11 @@ button:focus-visible,input:focus-visible,select:focus-visible,a:focus-visible{ou
     </div>
   </div>
 </section>
-<div class="tabs" role="tablist" aria-label="Unified episode tabs">
-<button class="active" role="tab" data-tab="clock" aria-selected="true">Combined Clock</button>
+<div class="sw-breadcrumb" id="sw-current-location"><a href="?tab=episode-dashboard">Episode 02</a><span>›</span><span id="sw-current-label">Progress dashboard</span></div>
+<details class="archive-menu" id="sw-advanced-tabs"><summary>Additional views · full prose, gallery, plans &amp; tools</summary><div class="tabs" role="tablist" aria-label="Unified episode tabs">
+<button class="active" role="tab" data-tab="episode-dashboard" aria-selected="true">EP02 Progress Dashboard</button>
+
+<button role="tab" data-tab="clock" aria-selected="false">Combined Clock</button>
 <button role="tab" data-tab="ankita-prose" aria-selected="false">Ankita · Scenes 1–7 (A06–A07 Approved)</button>
 <button role="tab" data-tab="shivani-prose" aria-selected="false">Shivani · A02 Approved Prose</button>
 <button role="tab" data-tab="shivani-a03-prose" aria-selected="false">Shivani · A03 Photo &amp; Story</button>
@@ -73,8 +146,27 @@ button:focus-visible,input:focus-visible,select:focus-visible,a:focus-visible{ou
 <button role="tab" data-tab="cast" aria-selected="false">All Characters</button><button role="tab" data-tab="meenakshi-m01" aria-selected="false">Meenakshi · M01–M03 Full Story</button><button role="tab" data-tab="meenakshi-m02" aria-selected="false">Meenakshi · M02–M03 Prose</button><button role="tab" data-tab="meenakshi" aria-selected="false">Meenakshi · Encounters</button><button role="tab" data-tab="shreya-prose" aria-selected="false">Shreya · SR01 + SR02A Prose</button><button role="tab" data-tab="shreya" aria-selected="false">Shreya · Plot</button><button role="tab" data-tab="gallery" aria-selected="false">Image Gallery</button><button role="tab" data-tab="prompts" aria-selected="false">Writing Prompts</button>
 <button role="tab" data-tab="secrets" aria-selected="false">Secrets &amp; Ownership</button>
 <button role="tab" data-tab="continuity" aria-selected="false">Continuity &amp; EP03</button>
+</div></details>
+
+<section class="surface sw-dash" data-panel="episode-dashboard" id="sw-episode-dashboard">
+<div class="sw-kicker">Episode navigator · One global clock</div>
+<div class="sw-headrow"><div><h2>Episode 02 · The Story So Far</h2>
+<p class="sw-dash-sub">1 January 2026 · Gurgaon. Five writing lanes covering six women. Completed or published scenes stay on the chronological reader; only scenes still needing work appear under Next Scenes.</p></div><span class="chip approved">Live progress index</span></div>
+<div class="sw-episode-nav"><a href="./episode-01.html">Episode 01 · Prologue (combined)</a><a href="?tab=episode-dashboard" aria-current="page">Episode 02 · Six Perspectives</a><a href="./episode-03-ankita-pending.html">Episode 03 · Planned</a></div>
+<div class="sw-metrics"><div class="sw-metric"><b id="sw-done-count">–</b><small>Written / published</small></div><div class="sw-metric"><b id="sw-pending-count">–</b><small>Still to write</small></div><div class="sw-metric"><b id="sw-review-count">–</b><small>Review or timing hold</small></div><div class="sw-metric"><b id="sw-lane-count">5</b><small>Writing lanes · 6 leads</small></div></div>
+<div class="sw-controlbar">
+<div class="sw-modes" role="group" aria-label="Scene status filter">
+<button type="button" data-sw-mode="pending" aria-pressed="true">Next / Pending</button>
+<button type="button" data-sw-mode="done" aria-pressed="false">Completed Timeline</button>
+<button type="button" data-sw-mode="all" aria-pressed="false">All Scenes</button>
 </div>
-<section class="surface" data-panel="clock">
+<select id="sw-lead-filter" aria-label="Filter by lead"><option value="">All five lanes</option><option value="ankita">Ankita</option><option value="shivani">Shivani</option><option value="sisters">Taniya + Soniya</option><option value="meenakshi">Meenakshi</option><option value="shreya">Shreya</option></select>
+<input id="sw-scene-search" type="search" placeholder="Find scene ID, character, time, title…" aria-label="Search Episode 02 scenes">
+</div>
+<div class="sw-nextnotice" id="sw-progress-note">Only completed prose is included in the reading timeline. A published draft is marked as such; it is not silently treated as final approval. Shreya SR02/SR02A timing needs reconciliation, and SR05 is still planned—not written.</div>
+<div id="sw-dashboard-content" aria-live="polite"><p class="muted">Loading scene status from the project master files…</p></div>
+</section>
+<section class="surface hidden" data-panel="clock">
 <div class="sectionhead"><h2>Thursday · One shared timeline</h2><span id="total" class="chip">Loading…</span></div>
 <p class="muted">Events from Ankita, Shivani, Taniya–Soniya, Meenakshi and Shreya working files are merged on one clock. Cross-reference checkpoints are not silently duplicated as new scenes.</p>
 <div class="controls"><select id="clockLead" aria-label="Character"><option value="">All six perspectives</option><option value="ankita">Ankita</option><option value="shivani">Shivani</option><option value="taniya">Taniya</option><option value="soniya">Soniya</option><option value="meenakshi">Meenakshi</option><option value="shreya">Shreya</option></select><select id="clockLane" aria-label="Location"><option value="">Every location</option><option value="HOME">Home</option><option value="GYM">Gym / park</option><option value="OFFICE">Workplace</option><option value="SOCIETY">Society / committee</option><option value="TRANSIT">Transit</option><option value="OTHER">Other</option></select><input id="clockQuery" type="search" placeholder="Search a name, location, line or event"></div>
@@ -990,15 +1082,115 @@ $('promptKind').addEventListener('change',renderPrompts);
 $('promptScene').addEventListener('change',renderPrompts);
 $('copyPromptBtn').addEventListener('click',copyCurrentPrompt);
 $('meenakshiSearch').addEventListener('input',()=>{if(plans.meenakshi)renderMeenakshiEncounters();});
+
+/* Source-based workflow status registry. Status counts are prose progress, not implied canon approval. */
+const swPublished={
+ 'ankita-A02':{kind:'done',text:'Approved',parts:['ankita-a02-scene-1','ankita-a02-scene-2']},
+ 'ankita-A03':{kind:'done',text:'Approved',parts:['ankita-a03-scene-3']},
+ 'ankita-A04':{kind:'done',text:'Approved',parts:['ankita-a04-scene-4']},
+ 'ankita-A06':{kind:'done',text:'Approved',parts:['ankita-a06-scene-6']},
+ 'ankita-A07':{kind:'done',text:'Approved',parts:['ankita-a07-scene-7']},
+ 'shivani-A02':{kind:'done',text:'Approved',parts:['shivani-a02-prose']},
+ 'shivani-A03':{kind:'done',text:'Approved + image',parts:['shivani-a03-photo-story']},
+ 'shivani-A04':{kind:'done',text:'Two-line scene completed',mini:'08:10 AM — Kavya ghar pahunchi aur Tara ki childcare responsibility sambhal li. Shivani ne college bag uthaya, dono ko goodbye kaha aur 08:15 par parking ki taraf nikal gayi.'},
+ 'sisters-TS01':{kind:'done',text:'Published draft · review',parts:['taniya-soniya-ts01']},
+ 'sisters-TS02':{kind:'done',text:'Published draft · review',parts:['taniya-soniya-ts02']},
+ 'meenakshi-M01':{kind:'done',text:'Published for review',url:'./episode-02-meenakshi.html'},
+ 'meenakshi-M02':{kind:'done',text:'Approved',url:'./episode-02-meenakshi-m02-m03.html'},
+ 'meenakshi-M03':{kind:'done',text:'Approved',url:'./episode-02-meenakshi-m02-m03.html'},
+ 'shreya-SR01':{kind:'done',text:'Published · revised',parts:['shreya-sr01-scene']},
+ 'shreya-SR02A':{kind:'done',text:'Part 1 published',parts:['shreya-sr02a-vivek']}
+};
+const swSpecial={
+ 'ankita-A05':{kind:'review',text:'User-submitted · incomplete review',parts:['ankita-a05-scene-5']},
+ 'shreya-SR02':{kind:'hold',text:'Retiming needed · overlaps SR02A'},
+ 'shivani-A05':{kind:'hold',text:'Draft discussed · wait for SR05 continuity'}
+};
+const swLabels={ankita:'Ankita',shivani:'Shivani',sisters:'Taniya + Soniya',meenakshi:'Meenakshi',shreya:'Shreya'};
+let swMode=(new URLSearchParams(location.search).get('view')||'pending');
+if(!['pending','done','all'].includes(swMode))swMode='pending';
+const swGroup=e=>(e.lead==='taniya'||e.lead==='soniya'||e.lead==='sisters')?'sisters':e.lead;
+const swStatus=e=>swPublished[e.id]||swSpecial[e.id]||{kind:'pending',text:'Planned · prose pending'};
+function swValidItems(){
+ return items.filter(e=>['ankita','shivani','sisters','meenakshi','shreya'].includes(swGroup(e))&&
+ e.id!=='ankita-A01' && !/^sisters-X-/.test(e.id));
+}
+function swMatches(e){
+ const lead=document.getElementById('sw-lead-filter')?.value||'',q=document.getElementById('sw-scene-search')?.value.toLowerCase().trim()||'';
+ if(lead&&swGroup(e)!==lead)return false;
+ if(q&&!((e.id+' '+e.time+' '+e.title+' '+(e.place||'')+' '+(e.cast||[]).join(' ')+' '+swLabels[swGroup(e)]).toLowerCase().includes(q)))return false;
+ const state=swStatus(e).kind;
+ return swMode==='all'||(swMode==='done'?state==='done':state!=='done');
+}
+function swTime(e){const m=String(e.time||'').match(/\d{1,2}:\d{2}/);return m?m[0].padStart(5,'0'):'99:99';}
+function swSorted(arr){return arr.slice().sort((a,b)=>swTime(a).localeCompare(swTime(b))||a.id.localeCompare(b.id));}
+function swTask(e){
+ const s=swStatus(e), cls=s.kind==='hold'?'hold':s.kind==='review'?'review':'';
+ return '<div class="sw-task"><span class="sw-time">'+esc(swTime(e))+'</span><div><strong>'+esc(e.id.split('-').slice(1).join('-'))+' · '+esc(e.title)+'</strong><small>'+esc(e.place||'')+'</small><span class="sw-status '+cls+'">'+esc(s.text)+'</span>'+(s.parts?'<span class="tiny"> · <a href="?tab=ankita-prose">View submitted draft</a></span>':'')+'</div></div>';
+}
+function swCard(e){
+ const s=swStatus(e),cls=s.kind==='done'?'done':s.kind==='review'?'review':s.kind==='hold'?'hold':'';
+ const parts=s.parts||[];
+ const hasStory=parts.length||s.url||s.mini;
+ const reader=hasStory?'<details class="sw-read" data-sw-reader="'+esc(e.id)+'"><summary>'+(s.kind==='done'?'Read completed scene':'Open submitted draft')+'</summary><div class="sw-reader-slot"></div></details>':'';
+ return '<article class="sw-story" id="sw-scene-'+esc(e.id)+'"><div class="sw-story-top"><div class="sw-story-time">'+esc(swTime(e))+'</div><div class="sw-story-main"><span class="sw-status '+cls+'">'+esc(s.text)+'</span> <span class="tiny">'+esc(swLabels[swGroup(e)])+'</span><h3>'+esc(e.id.split('-').slice(1).join('-'))+' · '+esc(e.title)+'</h3><p>'+esc(e.place||'')+' · '+esc(e.time||'')+'</p>'+reader+'</div></div></article>';
+}
+function swRenderDashboard(){
+ const root=document.getElementById('sw-dashboard-content');if(!root||!items.length)return;
+ const all=swValidItems();const done=all.filter(e=>swStatus(e).kind==='done').length,review=all.filter(e=>['review','hold'].includes(swStatus(e).kind)).length,pending=all.length-done-review;
+ document.getElementById('sw-done-count').textContent=done;
+ document.getElementById('sw-review-count').textContent=review;
+ document.getElementById('sw-pending-count').textContent=pending;
+ document.querySelectorAll('[data-sw-mode]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.swMode===swMode)));
+ const selected=swSorted(all.filter(swMatches));
+ if(swMode==='pending'){
+   let output='<div class="sw-grid">';
+   for(const group of ['ankita','shivani','sisters','meenakshi','shreya']){
+     const rows=selected.filter(e=>swGroup(e)===group);
+     if(document.getElementById('sw-lead-filter').value&&group!==document.getElementById('sw-lead-filter').value)continue;
+     output+='<section class="sw-group"><div class="sw-group-header"><h3>'+esc(swLabels[group])+'</h3><span class="sw-count">'+rows.length+' left / review</span></div>'+
+      (rows.length?rows.map(swTask).join(''):'<p class="muted">No pending records under this filter.</p>')+'</section>';
+   }
+   output+='</div>';
+   output+='<p class="muted" style="margin-top:13px">Crossovers and parallel activity may overlap on the shared clock. SR05 (Shreya × Karan/Aman, 08:12–08:15) remains pending, so Shivani A05 (08:16–08:20) is on hold. A04 is completed as a two-line transition.</p>';
+   root.innerHTML=output;
+ }else{
+   root.innerHTML='<div class="sw-headrow"><h3 style="margin:0 0 13px">'+(swMode==='done'?'Published scenes · Global chronology':'All recorded scenes · Global chronology')+'</h3><span class="tiny">'+selected.length+' scenes · same-day parallel POVs</span></div>'+
+   (selected.length?selected.map(swCard).join(''):'<div class="sw-empty">No scenes match this search.</div>');
+   root.querySelectorAll('details[data-sw-reader]').forEach(detail=>detail.addEventListener('toggle',()=>{if(!detail.open)return;const slot=detail.querySelector('.sw-reader-slot');if(slot.dataset.loaded)return;
+    const sceneId=detail.dataset.swReader;const s=swPublished[sceneId]||swSpecial[sceneId];if(!s)return;
+    if(s.parts){for(const partId of s.parts){const source=document.getElementById(partId);if(source){const copy=source.cloneNode(true);copy.removeAttribute('id');slot.appendChild(copy);}else{const p=document.createElement('p');p.className='muted';p.textContent='Original scene not found in this page: '+partId;slot.appendChild(p);}}}
+    if(s.mini){const p=document.createElement('p');p.className='a02-narration';p.textContent=s.mini;slot.appendChild(p);}
+    if(s.url){const f=document.createElement('iframe');f.loading='lazy';f.title='Published scene — '+sceneId;f.src=s.url;slot.appendChild(f);const a=document.createElement('a');a.href=s.url;a.target='_blank';a.rel='noopener noreferrer';a.textContent='Open full original story page';slot.appendChild(a);}
+    slot.dataset.loaded='true';
+   }));
+ }
+ const selectedId=new URLSearchParams(location.search).get('scene');
+ if(selectedId&&swMode!=='pending'){const target=document.getElementById('sw-scene-'+selectedId);if(target){target.style.outline='2px solid #d5b7cb';}}
+}
+function swInitDashboard(){
+ document.querySelectorAll('[data-sw-mode]').forEach(b=>b.addEventListener('click',()=>{
+ swMode=b.dataset.swMode;const u=new URL(location.href);u.searchParams.set('tab','episode-dashboard');u.searchParams.set('view',swMode);history.replaceState({tab:'episode-dashboard'},'',u.pathname+u.search);swRenderDashboard();
+ }));
+ document.getElementById('sw-lead-filter').addEventListener('change',swRenderDashboard);
+ document.getElementById('sw-scene-search').addEventListener('input',swRenderDashboard);
+ swRenderDashboard();
+}
+
 function activateTab(tabName){
+ const crumb=document.getElementById('sw-current-label');
+ if(crumb){const labels={'episode-dashboard':'Progress dashboard',clock:'Combined planning clock','ankita-prose':'Ankita published scenes','shivani-prose':'Shivani A02','shivani-a03-prose':'Shivani A03','taniya-soniya-prose':'Taniya + Soniya morning','shreya-prose':'Shreya published scenes','meenakshi-m01':'Meenakshi M01–M03','meenakshi-m02':'Meenakshi M02–M03',cast:'Characters',gallery:'Image gallery',leads:'Story by character',continuity:'Continuity checks',prompts:'Writing prompts',secrets:'Knowledge boundaries'};crumb.textContent=labels[tabName]||tabName;}
+ document.querySelectorAll('[data-sw-top]').forEach(a=>{const match=(a.dataset.swTop==='cast'&&tabName==='cast')||(a.dataset.swTop==='gallery'&&tabName==='gallery')||(a.dataset.swTop==='next'&&tabName==='episode-dashboard');if(match)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');});
+
  const b=document.querySelector('[data-tab="'+tabName+'"]');
  if(!b)return;
  document.querySelectorAll('[data-tab]').forEach(x=>{x.classList.toggle('active',x===b);x.setAttribute('aria-selected',String(x===b))});
  document.querySelectorAll('[data-panel]').forEach(p=>p.classList.toggle('hidden',p.dataset.panel!==b.dataset.tab));
 }
-document.querySelectorAll('[data-tab]').forEach(b=>b.addEventListener('click',()=>activateTab(b.dataset.tab)));
-const selectedTab=new URLSearchParams(location.search).get('tab')||location.hash.slice(1);
-if(selectedTab)activateTab(selectedTab);
+document.querySelectorAll('[data-tab]').forEach(b=>b.addEventListener('click',()=>{activateTab(b.dataset.tab);history.pushState({tab:b.dataset.tab},'', '?tab='+encodeURIComponent(b.dataset.tab));document.getElementById('sw-current-location')?.scrollIntoView({block:'start'});}));
+window.addEventListener('popstate',()=>{const t=new URLSearchParams(location.search).get('tab')||'episode-dashboard';activateTab(t);if(t==='episode-dashboard')swRenderDashboard();});
+const selectedTab=new URLSearchParams(location.search).get('tab')||location.hash.slice(1)||'episode-dashboard';
+activateTab(selectedTab);
 ['clockLead','clockLane','clockQuery'].forEach(id=>$(id).addEventListener(id==='clockQuery'?'input':'change',renderClock));
 ['viewLead','viewQuery'].forEach(id=>$(id).addEventListener(id==='viewQuery'?'input':'change',renderLead));
 ['house','group','personQuery'].forEach(id=>$(id).addEventListener(id==='personQuery'?'input':'change',renderPeople));
@@ -1009,7 +1201,7 @@ if(selectedTab)activateTab(selectedTab);
  $('promptScene').innerHTML=plans.shreya.timeline.map(v=>'<option value="'+esc(v.id)+'">'+esc(v.start+' · '+v.title)+'</option>').join('');
  const all=[...directory.leads,...directory.people,...plans.sisters.cast];
  all.forEach(p=>{if(p.id)roleIndex[String(p.id).toLowerCase()]=p;if(p.name)roleIndex[p.name.toLowerCase()]=p});
- items=normalize();renderClock();renderLead();renderPeople();renderSecrets();renderMeenakshiEncounters();renderShreya();renderPrompts();
+ items=normalize();renderClock();renderLead();renderPeople();renderSecrets();renderMeenakshiEncounters();renderShreya();renderPrompts();swInitDashboard();
 }catch(e){$('clockFeed').innerHTML='<p class="fail">Unable to load episode data: '+esc(e.message)+'. Use the published Pages URL instead of opening the file locally.</p>';}
 })();
 </script></body></html>
