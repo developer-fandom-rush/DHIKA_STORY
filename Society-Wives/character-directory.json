@@ -2399,36 +2399,36 @@
     {
       "id": "rajeev",
       "lead": "ankita",
-      "directInterestedInAnkita": "PROPOSED_LATENT_ONE_SIDED",
-      "currentDescription": "Ankita's socially presented older household associate (NOT actual FIL); one-sided attraction proposal",
+      "directInterestedInAnkita": "ESTABLISHED_ONE_SIDED_UNSPOKEN_ATTRACTION",
+      "currentDescription": "Ankita's socially presented older household associate (NOT actual FIL); one-sided interest seeded in P01–P08, entirely private",
       "actualFIL": false
     },
     {
       "id": "om",
       "lead": "shivani",
-      "directInterestedInAnkita": "NOT_DEFINED_IN_ATLAS",
-      "currentDescription": "Another household's socially presented elder (NOT actual FIL); no established direction toward Ankita",
+      "directInterestedInAnkita": "USER_APPROVED_PRIVATE_ATTRACTION_SEE_PARCEL_ARC",
+      "currentDescription": "Another household's socially presented elder (NOT actual FIL); one-sided interest seeded in P01–P08, entirely private",
       "actualFIL": false
     },
     {
       "id": "subhash",
       "lead": "taniya",
-      "directInterestedInAnkita": "NOT_DEFINED_IN_ATLAS",
-      "currentDescription": "Another household's socially presented elder (NOT actual FIL); no established direction toward Ankita",
+      "directInterestedInAnkita": "USER_APPROVED_PRIVATE_ATTRACTION_SEE_PARCEL_ARC",
+      "currentDescription": "Another household's socially presented elder (NOT actual FIL); one-sided interest seeded in P01–P08, entirely private",
       "actualFIL": false
     },
     {
       "id": "mohan",
       "lead": "meenakshi",
-      "directInterestedInAnkita": "NOT_DEFINED_IN_ATLAS",
-      "currentDescription": "Unrelated older guest in Meenakshi's household, NOT her actual father-in-law; no established direction toward Ankita",
+      "directInterestedInAnkita": "USER_APPROVED_PRIVATE_ATTRACTION_SEE_PARCEL_ARC",
+      "currentDescription": "Unrelated older guest in Meenakshi's household, NOT her actual father-in-law; one-sided interest seeded in P01–P08, entirely private",
       "actualFIL": false
     },
     {
       "id": "arvind",
       "lead": "shreya",
-      "directInterestedInAnkita": "NOT_DEFINED_IN_ATLAS",
-      "currentDescription": "Another household's socially presented elder (NOT actual FIL); no established direction toward Ankita",
+      "directInterestedInAnkita": "USER_APPROVED_PRIVATE_ATTRACTION_SEE_PARCEL_ARC",
+      "currentDescription": "Another household's socially presented elder (NOT actual FIL); one-sided interest seeded in P01–P08, entirely private",
       "actualFIL": false
     }
   ],
@@ -2452,7 +2452,7 @@
     "status": "USER_DIRECTED_SCENE_ARCHITECTURE_WITH_WORKING_DETAILS",
     "when": "Thursday 2026-01-01, after Ankita's 08:05 departure, while she is in the Cyber City office",
     "contents": {
-      "setsOfPinkInnerwear": "7 sets initially (P01 confirmed); six independent removals, one set remains with Rajeev.",
+      "setsOfPinkInnerwear": "7 sets: Gopal, Mahendra, Om, Subhash, Mohan, Arvind each remove 1; one remains with Rajeev (he removes 0).",
       "adultPersonalItem": "One pink adult personal item, plus instructions, from the user-approved plot",
       "orderReason": "Ankita and Kabir chose it together; keep this hidden from the reader initially"
     },
@@ -2737,7 +2737,7 @@
       {
         "time": "06:05–06:40",
         "where": "Ahuja flat",
-        "people": "Shivani (lecturer), Tara (daughter), Om (FIL, if at home)",
+        "people": "Shivani (lecturer), Tara (daughter), Om (socially presented elder, not actual FIL, if at home)",
         "note": "Rohan away on fixed 06:20–06:37 society walk with Ankita/Nikhil"
       },
       {
@@ -2831,5 +2831,63 @@
     ],
     "existingExceptions": "Shreya/Arvind hospitalization connection and Meenakshi/Mohan old-age-home guest connection remain preserved where previously established. Husband/wife relationships are not changed by this instruction.",
     "oldSchemaNote": "Legacy interest-array field 'ankitaFILInterests' is retained for UI/data compatibility ONLY; 'FIL' in its name is no longer a factual relationship claim."
-  }
+  },
+  "olderMenInterestSeeds": [
+    {
+      "id": "gopal",
+      "scene": "P01",
+      "interest": "One-sided attraction/curiosity established privately",
+      "actualFIL": false,
+      "notKnownToAnkita": true,
+      "futureAction": "NONE_CONFIRMED"
+    },
+    {
+      "id": "mahendra",
+      "scene": "P02",
+      "interest": "One-sided attraction/curiosity established privately",
+      "actualFIL": false,
+      "notKnownToAnkita": true,
+      "futureAction": "NONE_CONFIRMED"
+    },
+    {
+      "id": "om",
+      "scene": "P03",
+      "interest": "One-sided attraction/curiosity established privately",
+      "actualFIL": false,
+      "notKnownToAnkita": true,
+      "futureAction": "NONE_CONFIRMED"
+    },
+    {
+      "id": "subhash",
+      "scene": "P04",
+      "interest": "One-sided attraction/curiosity established privately",
+      "actualFIL": false,
+      "notKnownToAnkita": true,
+      "futureAction": "NONE_CONFIRMED"
+    },
+    {
+      "id": "mohan",
+      "scene": "P05",
+      "interest": "One-sided attraction/curiosity established privately",
+      "actualFIL": false,
+      "notKnownToAnkita": true,
+      "futureAction": "NONE_CONFIRMED"
+    },
+    {
+      "id": "arvind",
+      "scene": "P06",
+      "interest": "One-sided attraction/curiosity established privately",
+      "actualFIL": false,
+      "notKnownToAnkita": true,
+      "futureAction": "NONE_CONFIRMED"
+    },
+    {
+      "id": "rajeev",
+      "scene": "A04/P07",
+      "interest": "One-sided attraction/curiosity established privately",
+      "actualFIL": false,
+      "notKnownToAnkita": true,
+      "futureAction": "NONE_CONFIRMED"
+    }
+  ]
 }
