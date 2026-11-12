@@ -1,6 +1,6 @@
 {
   "id": "SW-EP02-ANKITA-2026-01-01",
-  "status": "WORKING_DRAFT_PAUSED_AT_13_00",
+  "status": "EP02_PARCEL_ARC_FINAL_P01_P08",
   "episode": "02",
   "chapter": "Ankita",
   "title": "The Little Pink Lace Secrets",
@@ -392,7 +392,54 @@
       "privateThought": "Gopal draws the unsupported conclusion that the order reveals marital dissatisfaction, and privately speculates about Ankita.",
       "hooks": [
         "Unauthorized access; missing first set; concealment; later double-meaning comments."
-      ]
+      ],
+      "prose": [
+        {
+          "type": "narration",
+          "text": "09:55. Delivery van Gulmohar Heights ke gate par ruki. Ankita ka naam aur Tower C ka flat number parcel label par clearly tha. Gopal ko subah ki instruction yaad thi: bina bataye kisi ko hand over nahi karna.",
+          "highlight": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Courier",
+          "text": "Signature yahin chahiye. Personal delivery hai.",
+          "highlight": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Gopal",
+          "text": "Madam office gayi hain. Main entry kar leta hoon.",
+          "highlight": false
+        },
+        {
+          "type": "narration",
+          "text": "Courier nikal gaya. Gopal ne carton par ungli phirai; ek side ki tape intact thi. Usne duty register khola, phir aas-paas dekhkar khud seal kaat di.",
+          "highlight": false
+        },
+        {
+          "type": "narration",
+          "text": "Andar chhe pink clothing sets, ek sealed adult personal item aur instruction leaflet the. Gopal ne ek set alag karke apni duty bag ke andar daba diya. Usne baaki samaan wapas rakhkar box ko jaldi se band kiya.",
+          "highlight": true
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Gopal (under his breath)",
+          "text": "Itna personal parcel… aur mujhe specifically chup-chaap rakhne ko kaha tha.",
+          "highlight": false
+        },
+        {
+          "type": "private_thought",
+          "text": "Ek pal ko usne Ankita ka subah ka confident smile yaad kiya. Socha, kabhi woh khud usse aise personal andaaz mein baat kare toh? Phir usne mann hi mann ek galat kahaani bana li ki shayad uske ghar mein sab theek nahi.",
+          "highlight": true
+        },
+        {
+          "type": "narration",
+          "text": "10:12. Community office ka runner gate se guzra. Gopal ne kaha ki address verification mein help chahiye aur damaged parcel chairman ke paas bhejne ka faisla kiya. Usne apni nikali hui cheez ka zikr nahi kiya.",
+          "highlight": false
+        }
+      ],
+      "sceneStatus": "WRITTEN_EP02_PARCEL_ARC_FINAL",
+      "sceneContinuity": "Ankita off-screen at office. Every clothing removal independent; no one knows other removals. Reader-only imagination is not mutual attraction."
     },
     {
       "id": "P02",
@@ -420,45 +467,54 @@
       "privateThought": "Mahendra takes the items as a basis for a false personal assumption; his future intrusive concern is set up.",
       "hooks": [
         "Second unauthorized removal; Mahendra controls the temporary custody trail."
-      ]
-    },
-    {
-      "id": "A09",
-      "start": "10:35",
-      "end": "11:00",
-      "lane": "OFFICE",
-      "where": "Small conference room",
-      "cast": [
-        "Ankita",
-        "Vivan",
-        "Reyansh",
-        "Mr. Bhalla"
       ],
-      "title": "The Senior Consultant's Silence",
-      "action": "Mr. Bhalla (58) joins as the senior client-side consultant to review the release results. He admires Ankita's appearance and leadership but offers only professional feedback. His private interest stays unrevealed to her; there is no proposition or sexual action.",
-      "dialogue": [
-        [
-          "Mr. Bhalla",
-          "You managed the rollback risk well. Was the fallback tested?"
-        ],
-        [
-          "Ankita",
-          "Twice. We can show both logs."
-        ],
-        [
-          "Vivan",
-          "I have the test report here."
-        ],
-        [
-          "Mr. Bhalla",
-          "Good. Send me the signed version."
-        ]
+      "prose": [
+        {
+          "type": "narration",
+          "text": "10:15. Chairman Mahendra Suri community office mein committee register dekh rahe the. Gopal partly open carton lekar aaya. Bahar se label readable tha.",
+          "highlight": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Mahendra",
+          "text": "Ankita Malhotra? Ismein address verify karne ko kya bacha?",
+          "highlight": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Gopal",
+          "text": "Seal loose hai, sir. Aapki custody mein safe rahega. Main register update kar deta hoon.",
+          "highlight": false
+        },
+        {
+          "type": "narration",
+          "text": "Gopal ke jaane ke baad Mahendra ne flap uthaya. Uske saamne private clothing, sealed personal item aur booklet thi. Woh kuch seconds ruka, phir ek clothing set lekar apni file bag mein rakh diya.",
+          "highlight": true
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Mahendra (quietly)",
+          "text": "Committee ke naam par parcel khola aur ab yeh…",
+          "highlight": false
+        },
+        {
+          "type": "private_thought",
+          "text": "Ankita ki community-meeting wali clear awaaz uske dimaag mein aayi. Ek lamhe ko usne kalpana ki ki woh uski taraf personally advice ke liye aaye; us imagination ne usse apni umar ke bawajood ajeeb sa interested bana diya.",
+          "highlight": true
+        },
+        {
+          "type": "private_thought",
+          "text": "Phir usne item dekhkar Ankita aur Kabir ki marriage ke baare mein bina evidence ki assumption bana li. Usse pata nahi tha Gopal pehle hi ek set nikaal chuka hai.",
+          "highlight": true
+        },
+        {
+          "type": "narration",
+          "text": "10:33. Mahendra ne box ko file stack ke paas rakha. Om aane wala tha; Mahendra ne khud ko normal committee mode mein laane ki koshish ki.",
+          "highlight": false
+        }
       ],
-      "herReaction": "Professional, attentive; unaware of any private thoughts.",
-      "privateThought": "Bhalla imagines a closer personal acquaintance, not an established relationship; he chooses to say nothing.",
-      "hooks": [
-        "Office older-man lane gets a distinct hidden interest, separate from the parcel."
-      ]
+      "sceneStatus": "WRITTEN_EP02_PARCEL_ARC_FINAL",
+      "sceneContinuity": "Ankita off-screen at office. Every clothing removal independent; no one knows other removals. Reader-only imagination is not mutual attraction."
     },
     {
       "id": "P03",
@@ -486,7 +542,60 @@
       "privateThought": "Om's newly emerging one-sided sexual curiosity conflicts with his public role as a respected elder.",
       "hooks": [
         "One set missing; Om's private possession is unknown to other elders."
-      ]
+      ],
+      "prose": [
+        {
+          "type": "narration",
+          "text": "10:37. Om visitor-log correction ke liye committee office pahuncha. Mahendra ne parcel ka partly open side dikhakar address label check karne ko kaha.",
+          "highlight": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Om",
+          "text": "Malhotra flat. Ye toh hamare building ka hi hai. Courier ko gate register se match kar lena chahiye tha.",
+          "highlight": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Mahendra",
+          "text": "Theek. Main chairman stamp lekar aata hoon. Aap slip dekh lo.",
+          "highlight": false
+        },
+        {
+          "type": "narration",
+          "text": "Mahendra dusre room mein gaya. Om ne flap se jhankta pink fabric dekha. Usne ek set nikaal liya aur apni paperwork folder ke neeche chhupa diya; carton ko phir waise hi rakh diya.",
+          "highlight": true
+        },
+        {
+          "type": "private_thought",
+          "text": "Om ko Ankita ka society noticeboard sambhalte waqt ka confident andaaz yaad aaya. Usne kalpana ki ek din woh use alag se pehchaane, naam se bulaye, aur personal baat shuru kare.",
+          "highlight": true
+        },
+        {
+          "type": "private_thought",
+          "text": "Usne turant us imagined warmth ko reality samajhne ki galti karni shuru ki. Yeh sirf uska thought tha; Ankita wahan thi hi nahi.",
+          "highlight": true
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Mahendra (returning)",
+          "text": "Address mil gaya?",
+          "highlight": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Om",
+          "text": "Haan. Tower C. Bas register update kar dijiye.",
+          "highlight": false
+        },
+        {
+          "type": "narration",
+          "text": "10:50. Om nikal gaya. Mahendra ko Om ke hidden removal ka pata nahi chala; Om bhi pehle ki dono removals se anjaan raha.",
+          "highlight": false
+        }
+      ],
+      "sceneStatus": "WRITTEN_EP02_PARCEL_ARC_FINAL",
+      "sceneContinuity": "Ankita off-screen at office. Every clothing removal independent; no one knows other removals. Reader-only imagination is not mutual attraction."
     },
     {
       "id": "P04",
@@ -509,7 +618,60 @@
       "privateThought": "Subhash privately imagines a personal opportunity with Ankita, based on a wrong interpretation of the parcel; no mutual interest exists.",
       "hooks": [
         "Subhash's private action creates future secrecy and possible social pressure."
-      ]
+      ],
+      "prose": [
+        {
+          "type": "narration",
+          "text": "10:51. Subhash accounting papers sign karwane office pahuncha. Counter par wahi carton ab bhi partly closed tha. Koi clerk andar ledger dhoondhne gaya hua tha.",
+          "highlight": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Subhash",
+          "text": "Aaj New Year par bhi audit kaam khatam nahi ho raha?",
+          "highlight": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Clerk (inside)",
+          "text": "Do minute, sir. Receipt file le aata hoon.",
+          "highlight": false
+        },
+        {
+          "type": "narration",
+          "text": "Subhash ne parcel ka naam padha. Loose flap ko uthaya; ek clothing set uski nazar mein aaya. Woh use chupke se apni leather folder mein rakhkar carton ko shelf par saraka gaya.",
+          "highlight": true
+        },
+        {
+          "type": "private_thought",
+          "text": "Subhash ne Ankita ko ek society meeting mein sabko seedhe jawab dete yaad kiya. Uske mann mein ek selfish khayal aaya: kaash woh kabhi isse personal request kare aur baat meeting se aage chale.",
+          "highlight": true
+        },
+        {
+          "type": "private_thought",
+          "text": "Usne apne imagination aur uski actual marzi ka farq sochne se bachne ki koshish ki. Kisi ne usse parcel chhoone ko nahi kaha tha.",
+          "highlight": true
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Clerk (returning)",
+          "text": "Ye signatures please.",
+          "highlight": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Subhash",
+          "text": "Haan, bas yahin.",
+          "highlight": false
+        },
+        {
+          "type": "narration",
+          "text": "11:05. Subhash file sign karke chala gaya. Uske liye yeh sirf uska chhupaya hua secret tha; baaki teen removals ki use khabar nahi thi.",
+          "highlight": false
+        }
+      ],
+      "sceneStatus": "WRITTEN_EP02_PARCEL_ARC_FINAL",
+      "sceneContinuity": "Ankita off-screen at office. Every clothing removal independent; no one knows other removals. Reader-only imagination is not mutual attraction."
     },
     {
       "id": "P05",
@@ -532,7 +694,54 @@
       "privateThought": "Mohan becomes privately preoccupied with an improper assumption about Ankita, though his public manner stays conventional.",
       "hooks": [
         "New private attraction seed; another missing set, invisible to others."
-      ]
+      ],
+      "prose": [
+        {
+          "type": "narration",
+          "text": "11:06. Mohan health-camp volunteer boxes check karne sorting table par aaya. Ankita ka damaged parcel unke bagal mein rakha tha. Label par uska naam dekhkar woh ek second ko ruka.",
+          "highlight": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Mohan",
+          "text": "Yahan personal parcel kyun rakha hai? Health-camp stock ke saath mix ho jayega.",
+          "highlight": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Office helper",
+          "text": "Chairman ne address verify karna hai. Main notice photocopy karke aata hoon.",
+          "highlight": false
+        },
+        {
+          "type": "narration",
+          "text": "Helper gaya toh Mohan ne flap aur khol diya. Bachi clothing sets mein se ek usne apne cloth bag mein rakh li, phir register uske aage kar diya jaise kuch hua hi nahi.",
+          "highlight": true
+        },
+        {
+          "type": "private_thought",
+          "text": "Mohan ko Ankita ka lift mein kabhi di hui polite greeting yaad aayi. Usne mann hi mann socha, agar ek din woh usse dil kholkar baat kare toh shayad woh important mehsoos kare.",
+          "highlight": true
+        },
+        {
+          "type": "private_thought",
+          "text": "Woh isi khayal mein ek ek-tarfa ruchi ko badha raha tha. Ankita ki taraf se koi signal ya invitation tha hi nahi.",
+          "highlight": true
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Mohan (to returning helper)",
+          "text": "Boxes count kar liye. Personal carton ko separate rakhna.",
+          "highlight": false
+        },
+        {
+          "type": "narration",
+          "text": "11:19. Mohan apna bag lekar chala gaya. Usne kisi ko nahi bataya ki ek aur set gaayab ho gaya.",
+          "highlight": false
+        }
+      ],
+      "sceneStatus": "WRITTEN_EP02_PARCEL_ARC_FINAL",
+      "sceneContinuity": "Ankita off-screen at office. Every clothing removal independent; no one knows other removals. Reader-only imagination is not mutual attraction."
     },
     {
       "id": "P06",
@@ -555,45 +764,42 @@
       "privateThought": "Arvind's private attraction is newly created by the incident and remains unreciprocated and hidden.",
       "hooks": [
         "Six of six sets now removed; outer box still contains the other personal item and paperwork."
-      ]
-    },
-    {
-      "id": "A10",
-      "start": "11:40",
-      "end": "12:00",
-      "lane": "OFFICE",
-      "where": "Office pantry / IT floor",
-      "cast": [
-        "Ankita",
-        "Vivan",
-        "Priya",
-        "Nisha"
       ],
-      "title": "The Coffee Nobody Owed",
-      "action": "A milestone test passes. Vivan brings the team coffee, not a private gift; Priya asks Ankita to review a remaining bug. Ankita enjoys the easy group laughter while refusing to assume romantic intent.",
-      "dialogue": [
-        [
-          "Vivan",
-          "New Year coffee, meri taraf se."
-        ],
-        [
-          "Ankita",
-          "Only if the service stays healthy after the next run."
-        ],
-        [
-          "Priya",
-          "If it doesn't, all coffees are cancelled."
-        ],
-        [
-          "Nisha",
-          "Then I'll watch the dashboard."
-        ]
+      "prose": [
+        {
+          "type": "narration",
+          "text": "11:20. Arvind maintenance notice dene committee office aaya. Counter par koi nahi tha. Notice rakhte hue use damaged parcel ki andar ki cheezein dikh gayin.",
+          "highlight": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Arvind (quietly)",
+          "text": "Naam Ankita ka… is box ko yahan kisne chhoda?",
+          "highlight": false
+        },
+        {
+          "type": "narration",
+          "text": "Arvind ne bina poochhe flap uthaya. Ek aakhri pink clothing set dikha; woh usne apni folded newspaper ke neeche rakh li. Carton mein ab clothing sets ka koi piece nahi bacha tha.",
+          "highlight": true
+        },
+        {
+          "type": "private_thought",
+          "text": "Uske mann mein Ankita ki assured baaton aur muskurahat ki yaad ubhri. Kuch pal ke liye usne kalpana ki woh uski taraf wohi muskurahat sirf uske liye rakhe.",
+          "highlight": true
+        },
+        {
+          "type": "private_thought",
+          "text": "Phir imagination mein usne ek future personal conversation ka bahaana socha. Asal mein aisa koi moment hua nahi tha.",
+          "highlight": true
+        },
+        {
+          "type": "narration",
+          "text": "11:35. Arvind ne notice chhodkar parcel ko logged shelf par rakh diya. Ab andar sealed adult personal item aur booklet hi the; chhe clothing sets, chhe alag logon ne bina ek doosre ko jaane le liye the.",
+          "highlight": false
+        }
       ],
-      "herReaction": "Warm, mildly flattered, and openly professional.",
-      "privateThought": "The men at the society office are entirely absent from Ankita's thoughts at this time.",
-      "hooks": [
-        "Split-screen contrast: harmless office banter vs private parcel misconduct."
-      ]
+      "sceneStatus": "WRITTEN_EP02_PARCEL_ARC_FINAL",
+      "sceneContinuity": "Ankita off-screen at office. Every clothing removal independent; no one knows other removals. Reader-only imagination is not mutual attraction."
     },
     {
       "id": "P07",
@@ -625,7 +831,66 @@
       "privateThought": "Rajeev's previously established one-sided attraction mixes with suspicion; he does not know the joint purchase explanation.",
       "hooks": [
         "The parcel is with Rajeev; no clothing sets remain. Marriage speculation becomes a future family conflict."
-      ]
+      ],
+      "prose": [
+        {
+          "type": "narration",
+          "text": "12:03. Mahendra ne Rajeev ko phone kiya. Damaged parcel ab kai baar desks badal chuka tha; bahar Ankita ka naam ab bhi clearly tha.",
+          "highlight": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Mahendra",
+          "text": "Rajeev ji, aapki bahu ka personal courier yahan custody mein hai. Seal damage ho gaya tha. Aap le jaayein?",
+          "highlight": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Rajeev",
+          "text": "Maine toh suna tha gate par hi rakhna tha. Committee office mein kaise pahuncha?",
+          "highlight": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Mahendra",
+          "text": "Address verification ka issue ho gaya. Main box aapko de raha hoon.",
+          "highlight": false
+        },
+        {
+          "type": "narration",
+          "text": "Rajeev ne carton khola nahi, lekin loose edge se sealed personal item aur leaflet ke corners dikh gaye. Clothing sets ke baare mein use kuch pata nahi tha. Usne box apne bag mein carefully rakh liya.",
+          "highlight": true
+        },
+        {
+          "type": "private_thought",
+          "text": "Rajeev ko breakfast ki Ankita ki assured smile yaad aayi. Uski pehle se dabayi ek-tarfa ruchi ab is private parcel ko dekhkar aur uljhan mein badal gayi.",
+          "highlight": true
+        },
+        {
+          "type": "private_thought",
+          "text": "Ek pal ko usne socha ki shayad woh Ankita ke private life ko samajhta hai. Phir bhi uske paas us marriage ke baare mein koi haqeeqat ya explanation nahi thi.",
+          "highlight": true
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Rajeev",
+          "text": "Theek hai. Main Ankita ko de dunga. Seal kiske paas se damaged mila tha, register mein note karwa dijiye.",
+          "highlight": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Mahendra",
+          "text": "Haan, dekh lenge.",
+          "highlight": false
+        },
+        {
+          "type": "narration",
+          "text": "12:26. Rajeev box lekar ghar ki taraf gaya. Uske paas kisi bhi clothing set ka hissa nahi tha; sirf damaged outer parcel, personal item aur papers the.",
+          "highlight": false
+        }
+      ],
+      "sceneStatus": "WRITTEN_EP02_PARCEL_ARC_FINAL",
+      "sceneContinuity": "Ankita off-screen at office. Every clothing removal independent; no one knows other removals. Reader-only imagination is not mutual attraction."
     },
     {
       "id": "P08",
@@ -665,7 +930,89 @@
       "privateThought": "Each man now has a different self-serving interpretation of private information; none has evidence of an unhappy marriage.",
       "hooks": [
         "They are all aware something private was exposed, but unaware of each other's secret removals. Rajeev begins suspecting impropriety."
-      ]
+      ],
+      "prose": [
+        {
+          "type": "narration",
+          "text": "12:30. Committee-office veranda mein Mahendra, Om, Subhash, Mohan, Arvind aur Rajeev ek routine society discussion ke liye mile. Gopal gate duty par hi tha; woh iss meeting mein nahi aaya.",
+          "highlight": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Om",
+          "text": "Subah courier-log mein itna confusion kis baat ka tha?",
+          "highlight": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Mahendra",
+          "text": "Address problem tha. Rajeev ji ne parcel collect kar liya.",
+          "highlight": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Subhash",
+          "text": "Personal parcels ko committee table par rakhna hi nahi chahiye.",
+          "highlight": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Mohan",
+          "text": "Haan, warna log apne-apne matlab nikaalte hain.",
+          "highlight": false
+        },
+        {
+          "type": "narration",
+          "text": "Kisi ne doosre ke bag ki taraf nahi dekha. Har ek aadmi ke paas apna chhupaya hua reason tha ki conversation jaldi khatam ho.",
+          "highlight": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Arvind",
+          "text": "Naam aate hi log sawal poochne lagte hain. Kabir aur Ankita ke ghar ki baat bhi chhed denge.",
+          "highlight": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Rajeev",
+          "text": "Ghar ki koi problem mere saamne nahi hai. Bina jaane kuch assume mat kariye.",
+          "highlight": true
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Mahendra",
+          "text": "Bilkul. Lekin personal baatein personal hi rahni chahiye.",
+          "highlight": false
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Om",
+          "text": "Tab toh humein sabse pehle apne hi questions bandh karne chahiye.",
+          "highlight": false
+        },
+        {
+          "type": "narration",
+          "text": "Ek pal ke liye sab chup rahe. Subhash ne file band ki; Mohan ne cup seedha kiya. Mahendra ne register ki taraf dekhna shuru kar diya, jaise waqt se pehle discussion khatam karna chahta ho.",
+          "highlight": false
+        },
+        {
+          "type": "private_thought",
+          "text": "Mahendra ko apni private curiosity yaad thi; Om, Subhash, Mohan aur Arvind apne-apne secret ko normal chehron ke peeche chhupa rahe the. Rajeev ghar ki taraf se sach jaane bina sochta raha. Gopal door gate par akela apni hi kalpana mein tha.",
+          "highlight": true
+        },
+        {
+          "type": "private_thought",
+          "text": "Saat alag minds, saat ek-tarfa attractions—lekin Ankita ko inmein se kisi ki private soch, kisi removal, kisi gossip ka pata nahi tha.",
+          "highlight": true
+        },
+        {
+          "type": "narration",
+          "text": "12:50. Meeting toot gayi. Kisi ko nahi pata chala ki doosre ne bhi clothing set liya hai. Ankita Cyber City office mein thi, abhi bhi production-release work par focused; reader ke paas saat alag future hooks aur ek missing-parcel mystery reh gayi.",
+          "highlight": true
+        }
+      ],
+      "sceneStatus": "WRITTEN_EP02_PARCEL_ARC_FINAL",
+      "sceneContinuity": "Ankita off-screen at office. Every clothing removal independent; no one knows other removals. Reader-only imagination is not mutual attraction."
     }
   ],
   "continuity": {
@@ -675,8 +1022,8 @@
     "tally": "6 clothing sets initially; removals Gopal, Mahendra, Om, Subhash, Mohan, Arvind = 6; Rajeev receives 0 clothing sets plus remaining other contents.",
     "sharedCast": "Sharmi has a brief 07:47 lobby interaction before Ankita's 08:05 departure, connecting the shared society friend without forcing her into parcel knowledge.",
     "currentEpisodeCutoff": "2026-01-01 13:00",
-    "lastVisibleScene": "P08 12:30–12:50",
-    "ankitaEndState": "At Cyber City office, still awaiting later decisions. No scenes after 13:00 on this page.",
+    "lastVisibleScene": "P08 12:30–12:50 (full prose)",
+    "ankitaEndState": "At Cyber City office through the Jan 1 13:00 cutoff. No A09 or A10 on Jan 1; those are deferred to Jan 2, episode TBD.",
     "deferredFile": "episode-03-ankita-pending.json",
     "deferredIds": [
       "A11",
@@ -686,7 +1033,33 @@
       "A15",
       "A16",
       "A17"
-    ]
+    ],
+    "officeScenesRescheduled": {
+      "ids": [
+        "A09",
+        "A10"
+      ],
+      "date": "2026-01-02",
+      "episode": "TBD",
+      "sourceFile": "Society-Wives/ankita-office-next-day-hold.json",
+      "clockTimes": "PROVISIONAL_FOR_FUTURE_DAY",
+      "uiInstruction": "Remove from Jan 1 EP02 clock and do not publish until future episode chosen."
+    },
+    "parcelPublication": {
+      "status": "P01_P08_FULL_PROSE",
+      "ui": "episode-02.html?tab=parcel-prose",
+      "officeActorsAbsent": "Ankita physically absent 09:55–12:50",
+      "womenKnowledge": "Ankita unaware of parcel opening or removals",
+      "concealedRemovals": {
+        "Gopal": 1,
+        "Mahendra Suri": 1,
+        "Om": 1,
+        "Subhash": 1,
+        "Mohan": 1,
+        "Arvind": 1,
+        "Rajeev": 0
+      }
+    }
   },
   "planningQuestions": [
     "Shivani is next to discuss for 2026-01-01: which morning / home / society routine overlaps Rohan's 06:20–06:37 park walk?",
