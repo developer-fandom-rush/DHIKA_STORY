@@ -97,6 +97,16 @@
   },
   "imageManifest": [
     {
+      "id": "m01_morning",
+      "title": "M01 Morning Outfit — Plum Kurta",
+      "assetPath": null,
+      "driveUrl": "https://drive.google.com/file/d/1jsH48xPAULCX_My6q1g4o_cG9iBTXWtf/view?usp=drivesdk",
+      "setting": "Kapoor household, morning",
+      "use": "M01 wardrobe visual reference only",
+      "status": "USER_REQUESTED_GENERATED_IMAGE_DRIVE_UPLOADED",
+      "note": "Image shows decorative lights and wet hair; visual reference for outfit, not literal 1 January morning chronology."
+    },
+    {
       "id": "professional",
       "title": "Professional Hospital Look",
       "assetPath": "assets/meenakshi/confident_doctor_in_a_hospital_corridor.svg",
