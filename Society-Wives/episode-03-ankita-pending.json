@@ -32,10 +32,10 @@
     "fitness": "She does 25–30 minutes of brisk walking and group mobility/stretching in the society park before work. No gym membership or personal trainer has been assumed; gym/PT can get an independent later arc."
   },
   "plotObject": {
-    "visual": "Six pink innerwear sets, one pink personal adult item and instruction leaflet in a private parcel",
+    "visual": "Seven pink lace bra-and-panty sets, one adult personal item and instruction leaflet in a private parcel.",
     "readerSecret": "Ankita and Kabir ordered together; do not reveal that reason to readers in EP02.",
     "factualClarification": "An adult personal item does not mean a person is dissatisfied with their marriage. That belief is a false assumption by the intruding men.",
-    "distribution": "Six sets: Gopal 1, Mahendra 1, Om 1, Subhash 1, Mohan 1, Arvind 1. Rajeev receives the remaining parcel, personal item, paperwork and damaged packaging (zero sets remain).",
+    "distribution": "Seven sets initially. Gopal, Mahendra, Om, Subhash, Mohan and Arvind each remove one (six missing). One remains in the damaged box that Rajeev collects; he removes none.",
     "propertyNote": "Each removal is unauthorized and independently concealed. None of the six has evidence of another's removal, though elders may know contents were exposed.",
     "consent": "Opening, retaining items or exploiting private information are violations; they should not be framed as consensual seduction or evidence of Ankita's wishes."
   },
@@ -165,7 +165,7 @@
         "Aman"
       ],
       "title": "The Box at Home",
-      "action": "Rajeev hands over the visibly resealed package. Karan jokes about the endless New Year's parcels, and Aman notices a mismatch on the delivery timestamp without knowing the contents. Ankita does not open it in front of family.",
+      "action": "Rajeev hands over the visibly resealed package with one of seven clothing sets remaining inside. Karan jokes about the endless New Year's parcels, and Aman notices a mismatch on the delivery timestamp without knowing the contents. Ankita does not open it in front of family.",
       "dialogue": [
         [
           "Rajeev",
@@ -255,7 +255,7 @@
         "Ankita"
       ],
       "title": "Inventory and the Missing Sets",
-      "action": "Ankita finally checks the parcel privately. She finds the seal broken and six clothing sets missing; the other contents remain. She saves the order screen, courier notification and delivery receipt and decides not to accuse anyone without evidence.",
+      "action": "Ankita finally checks the parcel privately. She finds the seal broken and six of the seven clothing sets missing; one set and the other contents remain. She saves the order screen, courier notification and delivery receipt and decides not to accuse anyone without evidence.",
       "dialogue": [
         [
           "Ankita (to herself)",
@@ -315,7 +315,7 @@
     "previousEpisode": "EP01 — Five Doors, Eleven Worlds; dates to be anchored separately as 2025-12-31 if continuity requires.",
     "noSimultaneousPresence": "Ankita is at Cyber City from ~08:50 to 15:30 and not physically present for any parcel-office scenes between 09:55 and 12:50.",
     "actorIndependence": "Four elders visit committee office sequentially; each secretly removes a set, unaware that others did likewise.",
-    "tally": "6 clothing sets initially; removals Gopal, Mahendra, Om, Subhash, Mohan, Arvind = 6; Rajeev receives 0 clothing sets plus remaining other contents.",
+    "tally": "7 sets initially; 6 separate removals (Gopal, Mahendra, Om, Subhash, Mohan, Arvind = 1 each); 1 set remains in Rajeev's box. Rajeev individually removes 0.",
     "sharedCast": "Sharmi has a brief 07:47 lobby interaction before Ankita's 08:05 departure, connecting the shared society friend without forcing her into parcel knowledge.",
     "currentEpisodeCutoff": "2026-01-01 13:00",
     "activeEpisode": "episode-02-ankita.html",
