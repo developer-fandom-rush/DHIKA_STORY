@@ -75,7 +75,7 @@
       "title": "The pin and the morning call",
       "narration": [
         "Ankita stood by the hallway mirror, checking a cream kurti beneath her blazer. She was an IT tech lead; her presentation bag was heavy with a laptop, charger and a notebook covered in project sketches. Kabir had already put two cups of tea on the counter.",
-        "Rajeev, Kabir's father, read the newspaper by the window. Ankita spoke easily with him about the society notice. His attention was familial in this scene; no attraction is inferred from everyday care."
+        "Rajeev, the household elder socially addressed as Kabir's father, read the newspaper by the window. Ankita spoke easily with him about the society notice. His attention was familial in this scene; no attraction is inferred from everyday care."
       ],
       "dialogue": [
         {
@@ -1406,5 +1406,21 @@
       "Previous EP01 prologue was renumbered to EP01 at the user's explicit direction. This change does not authorize Episode 02 canon."
     ],
     "shivaniCorrection": "Shivani is a college lecturer, not school teacher. Harsh/Laksh are confirmed 22-year-old adult student twins, not faculty colleagues; Nandini/Ritika are proposed favorite 22-year-old female students. Prior proposed holiday plot discarded; no episode prose approved."
+  },
+  "socialFamilyCanon": {
+    "version": "2026-11-12-SOCIAL-FAMILY-NOT-BIOLOGICAL",
+    "writerCanon": "No older male 'Uncle', 'Papa', or apparent father-in-law associated with any of the female leads is her actual biological, legal, or marital father-in-law. They have distinct, currently undisclosed reasons for sharing a home or presenting as family. Public forms of address (Papa, Uncle ji, bahu, FIL) are social performance, not evidence of legal or blood relationships.",
+    "socialStatus": "ASSUMED_OR_PRETENDED_FAMILY_ROLE",
+    "actualRelation": "NO_ACTUAL_FATHER_IN_LAW",
+    "backstories": "INDIVIDUAL_REASONS_UNDISCLOSED; do not invent before user establishes",
+    "scope": [
+      "rajeev",
+      "om",
+      "subhash",
+      "mohan",
+      "arvind"
+    ],
+    "existingExceptions": "Shreya/Arvind hospitalization connection and Meenakshi/Mohan old-age-home guest connection remain preserved where previously established. Husband/wife relationships are not changed by this instruction.",
+    "oldSchemaNote": "Legacy interest-array field 'ankitaFILInterests' is retained for UI/data compatibility ONLY; 'FIL' in its name is no longer a factual relationship claim."
   }
 }
