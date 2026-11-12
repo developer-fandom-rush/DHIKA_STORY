@@ -10,7 +10,7 @@
   "leadName": "Shreya Rathore",
   "leadAge": 33,
   "profession": "Police Inspector",
-  "status": "SR01 PROSE PUBLISHED; SR02–SR13 USER-ACCEPTED WORKING PLOT",
+  "status": "SR01 AND SR02A PROSE PUBLISHED; SR02 HOME PART 2 PENDING DISCUSSION AND RETIMING; SR03–SR13 WORKING PLOT",
   "stopRule": "End at 13:15, Shreya still at police station; no evening scenes.",
   "characterCorrections": [
     {
@@ -53,8 +53,9 @@
       },
       {
         "id": "arvind",
-        "role": "father-in-law",
-        "age": 65
+        "role": "unrelated elderly family guest; Shreya calls him Uncle",
+        "age": 65,
+        "connection": "Arvind is not Vikram's or Shreya's blood relative or father-in-law; after a past accident and hospitalization Vikram's household helped him; sometimes helps care for Anaya"
       },
       {
         "id": "sameer",
@@ -181,7 +182,7 @@
         "shaan",
         "vivek_rao"
       ],
-      "summary": "Shreya exercises in supportive fitted red sportswear with longtime workout companions Samar and Shaan; she wins plank and balance challenges and accepts only conditional, voluntary future bets.",
+      "summary": "Shreya wins twins' two workout challenges; Samar and Shaan leave at 07:28. Shreya remains for private attraction-resistance session with Vivek in SR02A.",
       "beats": [
         "Established longtime workout familiarity: Shreya formerly stopped Samar's suggestive jokes; now she freely responds with wit and occasional initiated teasing.",
         "Vivek coaches verbally; warm-up, lunges, a two-minute plank and single-leg balance contest keep a plausible 06:55–07:28 clock.",
@@ -191,7 +192,8 @@
       ],
       "dialogue": [],
       "notes": [
-        "No scene with Ankita in this workout; her exercise session ended at 06:52."
+        "No scene with Ankita in this workout; her exercise session ended at 06:52.",
+        "SR01 now closes at 07:28 with Samar and Shaan leaving; Shreya stays in gym until 07:52 for SR02A."
       ],
       "approval": "USER_APPROVED_PROSE_PUBLISHED",
       "publishedScene": {
@@ -201,7 +203,56 @@
           "./assets/shreya/shreya-sr01-plank.png",
           "./assets/shreya/shreya-sr01-post-challenge.png"
         ],
-        "publication": "USER_REQUESTED_PUBLISHED_SR01"
+        "publication": "USER_REQUESTED_PUBLISHED_SR01",
+        "nextSceneId": "SR02A"
+      }
+    },
+    {
+      "id": "SR02A",
+      "start": "07:28",
+      "end": "07:52",
+      "lane": "GYM",
+      "location": "Gulmohar Heights fitness corner",
+      "title": "The Attraction-Resistance Challenge — Shreya and Vivek",
+      "characters": [
+        "shreya",
+        "vivek_rao"
+      ],
+      "summary": "After Samar and Shaan depart, Shreya and Vivek resume their established voluntary private composure and proximity practice. Shreya attempts to distract Vivek; Vivek counters and Shreya loses balance after her focus wavers at his defined muscular physique. They share a brief mutually welcomed kiss. Vivek invites Shreya and husband Vikram to dinner; both agree to a higher-stakes rematch within agreed boundaries.",
+      "beats": [
+        "Ankita's earlier playful interaction leaves Vivek mildly distracted, but his conduct remains professional during sessions.",
+        "Their special training is informal personal practice, not a standard police-approved undercover technique.",
+        "Previously agreed shoulder/forearm/upper-back positioning and clear 'pause' or double shoulder tap stop signal; no unlimited future consent.",
+        "Shreya leads her round with close eye contact and teasing; Vivek stays balanced.",
+        "Vivek's abs and cuts trigger Shreya's established weakness; she loses her stance safely.",
+        "After a brief mutually welcomed kiss, Vivek offers a dinner with both Shreya and Vikram, deepening respect.",
+        "At 07:52 Shreya leaves. Taniya and Soniya arrive for their distinct scheduled session at 08:25."
+      ],
+      "dialogue": [
+        [
+          "Shreya",
+          "Longer hold. More distractions. Aur main khud choose karungi tumhara toughest scenario."
+        ],
+        [
+          "Vivek",
+          "Deal. Bas hamare established contact rules wahi rahenge—routine mein baar-baar permission speeches nahi, lekin 'pause' ka matlab immediate stop."
+        ],
+        [
+          "Shreya",
+          "Agreed. Aur tum apni shirt se mujhe har baar surprise nahi kar sakte."
+        ]
+      ],
+      "notes": [
+        "Back-home Part 2 timing is not yet approved; old 07:35 home plan and subsequent society slots require reconciliation after 07:52 gym exit.",
+        "Physical workout dampness and a practical nursing-pad check are non-erotic details, not sexualized bodily fluid descriptions.",
+        "Do not depict Taniya and Soniya physically present before 08:25."
+      ],
+      "approval": "USER_REQUESTED_PROSE_PUBLISHED",
+      "publishedScene": {
+        "uiTab": "shreya-prose",
+        "uiHref": "./episode-02.html?tab=shreya-prose#shreya-sr02a-vivek",
+        "publication": "PUBLISHED_2026_11_12",
+        "images": []
       }
     },
     {
@@ -209,7 +260,7 @@
       "start": "07:35",
       "end": "07:58",
       "lane": "HOME",
-      "location": "Rathore flat",
+      "location": "Rathore flat (Part 2 pending)",
       "title": "Between training and the uniform",
       "characters": [
         "shreya",
@@ -217,7 +268,7 @@
         "arvind",
         "sameer"
       ],
-      "summary": "Shreya returns home and prepares for duty; Vikram, her husband, is affectionate and playful; Arvind maintains a respectable outward manner.",
+      "summary": "Original proposed home beat, not published; timing superseded by SR02A ending 07:52. Uncle Arvind is an unrelated elderly guest, not father-in-law.",
       "beats": [
         "Shreya changes into graceful home saree for breakfast, then duty attire; her gym bag stays in the family's outer storage.",
         "Vikram's affection is established and mutual; Arvind's private one-sided attraction is improper and concealed.",
@@ -234,9 +285,10 @@
         ]
       ],
       "notes": [
-        "Vikram returns after his 06:38–06:52 Ankita/Vivek park checkpoint."
+        "Vikram returns after his 06:38–06:52 Ankita/Vivek park checkpoint.",
+        "SUPERSEDED CLOCK: 07:35–07:58 home is not feasible after newly published gym SR02A ending 07:52. Home timing and content require Part 2 discussion before being treated as canon."
       ],
-      "approval": "USER_ACCEPTED_WORKING_PLOT"
+      "approval": "WORKING_PLOT_ON_HOLD_RETIMING"
     },
     {
       "id": "SR03",
@@ -786,5 +838,12 @@
       "shaan"
     ],
     "flirtingHistory": "Longtime gym partners; initial dislike of bold jokes has developed into mutually playful, consciously welcomed banter; no affair assumed."
+  },
+  "timelineReconciliation": {
+    "publishedGymExit": "07:52",
+    "part2HomeStatus": "PENDING",
+    "oldHomeProposedTime": "07:35–07:58 (superseded)",
+    "nextOtherLeadSlot": "Taniya–Soniya gym 08:25",
+    "notes": "Shift Shreya home, lobby and station departures after SR02A; do not assert previous time slots until Part 2 is approved."
   }
 }
