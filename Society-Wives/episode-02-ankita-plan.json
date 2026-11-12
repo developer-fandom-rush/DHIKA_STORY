@@ -1,6 +1,6 @@
 {
   "id": "SW-EP02-ANKITA-2026-01-01",
-  "status": "EP02_PARCEL_ARC_FINAL_P01_P08",
+  "status": "EP02_ANKITA_A08_APPROVED_PARCEL_P01_P08_DRAFT_AWAITING_USER_REVIEW",
   "episode": "02",
   "chapter": "Ankita",
   "title": "The Little Pink Lace Secrets",
@@ -438,8 +438,14 @@
           "highlight": false
         }
       ],
-      "sceneStatus": "WRITTEN_EP02_PARCEL_ARC_FINAL",
-      "sceneContinuity": "Ankita off-screen at office. Every clothing removal independent; no one knows other removals. Reader-only imagination is not mutual attraction."
+      "sceneStatus": "DRAFT_AWAITING_USER_REVIEW_NOT_APPROVED",
+      "sceneContinuity": "Ankita off-screen at office. Every clothing removal independent; no one knows other removals. Reader-only imagination is not mutual attraction.",
+      "reviewNotes": [
+        "A07 to P01 Gopal continuity currently underdeveloped: the private last line and his earlier interest need a causal connection, not just a generic memory of Ankita's smile.",
+        "Original courier dialogue Flat C-704 is not reflected verbatim in current draft.",
+        "Explain Gopal's choice to open an intact seal and his pretext for shifting custody to Mahendra; exact psychology is for user discussion, not silently invented.",
+        "Do not call this scene FINAL before user review."
+      ]
     },
     {
       "id": "P02",
@@ -513,8 +519,11 @@
           "highlight": false
         }
       ],
-      "sceneStatus": "WRITTEN_EP02_PARCEL_ARC_FINAL",
-      "sceneContinuity": "Ankita off-screen at office. Every clothing removal independent; no one knows other removals. Reader-only imagination is not mutual attraction."
+      "sceneStatus": "DRAFT_AWAITING_USER_REVIEW_NOT_APPROVED",
+      "sceneContinuity": "Ankita off-screen at office. Every clothing removal independent; no one knows other removals. Reader-only imagination is not mutual attraction.",
+      "reviewNotes": [
+        "The current prose is a working draft pending explicit user scene-by-scene review; the planned action/dialogue is retained as source for comparison."
+      ]
     },
     {
       "id": "P03",
@@ -594,8 +603,11 @@
           "highlight": false
         }
       ],
-      "sceneStatus": "WRITTEN_EP02_PARCEL_ARC_FINAL",
-      "sceneContinuity": "Ankita off-screen at office. Every clothing removal independent; no one knows other removals. Reader-only imagination is not mutual attraction."
+      "sceneStatus": "DRAFT_AWAITING_USER_REVIEW_NOT_APPROVED",
+      "sceneContinuity": "Ankita off-screen at office. Every clothing removal independent; no one knows other removals. Reader-only imagination is not mutual attraction.",
+      "reviewNotes": [
+        "The current prose is a working draft pending explicit user scene-by-scene review; the planned action/dialogue is retained as source for comparison."
+      ]
     },
     {
       "id": "P04",
@@ -670,8 +682,11 @@
           "highlight": false
         }
       ],
-      "sceneStatus": "WRITTEN_EP02_PARCEL_ARC_FINAL",
-      "sceneContinuity": "Ankita off-screen at office. Every clothing removal independent; no one knows other removals. Reader-only imagination is not mutual attraction."
+      "sceneStatus": "DRAFT_AWAITING_USER_REVIEW_NOT_APPROVED",
+      "sceneContinuity": "Ankita off-screen at office. Every clothing removal independent; no one knows other removals. Reader-only imagination is not mutual attraction.",
+      "reviewNotes": [
+        "The current prose is a working draft pending explicit user scene-by-scene review; the planned action/dialogue is retained as source for comparison."
+      ]
     },
     {
       "id": "P05",
@@ -740,8 +755,11 @@
           "highlight": false
         }
       ],
-      "sceneStatus": "WRITTEN_EP02_PARCEL_ARC_FINAL",
-      "sceneContinuity": "Ankita off-screen at office. Every clothing removal independent; no one knows other removals. Reader-only imagination is not mutual attraction."
+      "sceneStatus": "DRAFT_AWAITING_USER_REVIEW_NOT_APPROVED",
+      "sceneContinuity": "Ankita off-screen at office. Every clothing removal independent; no one knows other removals. Reader-only imagination is not mutual attraction.",
+      "reviewNotes": [
+        "The current prose is a working draft pending explicit user scene-by-scene review; the planned action/dialogue is retained as source for comparison."
+      ]
     },
     {
       "id": "P06",
@@ -798,8 +816,11 @@
           "highlight": false
         }
       ],
-      "sceneStatus": "WRITTEN_EP02_PARCEL_ARC_FINAL",
-      "sceneContinuity": "Ankita off-screen at office. Every clothing removal independent; no one knows other removals. Reader-only imagination is not mutual attraction."
+      "sceneStatus": "DRAFT_AWAITING_USER_REVIEW_NOT_APPROVED",
+      "sceneContinuity": "Ankita off-screen at office. Every clothing removal independent; no one knows other removals. Reader-only imagination is not mutual attraction.",
+      "reviewNotes": [
+        "The current prose is a working draft pending explicit user scene-by-scene review; the planned action/dialogue is retained as source for comparison."
+      ]
     },
     {
       "id": "P07",
@@ -889,8 +910,11 @@
           "highlight": false
         }
       ],
-      "sceneStatus": "WRITTEN_EP02_PARCEL_ARC_FINAL",
-      "sceneContinuity": "Ankita off-screen at office. Every clothing removal independent; no one knows other removals. Reader-only imagination is not mutual attraction."
+      "sceneStatus": "DRAFT_AWAITING_USER_REVIEW_NOT_APPROVED",
+      "sceneContinuity": "Ankita off-screen at office. Every clothing removal independent; no one knows other removals. Reader-only imagination is not mutual attraction.",
+      "reviewNotes": [
+        "The current prose is a working draft pending explicit user scene-by-scene review; the planned action/dialogue is retained as source for comparison."
+      ]
     },
     {
       "id": "P08",
@@ -1011,8 +1035,11 @@
           "highlight": true
         }
       ],
-      "sceneStatus": "WRITTEN_EP02_PARCEL_ARC_FINAL",
-      "sceneContinuity": "Ankita off-screen at office. Every clothing removal independent; no one knows other removals. Reader-only imagination is not mutual attraction."
+      "sceneStatus": "DRAFT_AWAITING_USER_REVIEW_NOT_APPROVED",
+      "sceneContinuity": "Ankita off-screen at office. Every clothing removal independent; no one knows other removals. Reader-only imagination is not mutual attraction.",
+      "reviewNotes": [
+        "The current prose is a working draft pending explicit user scene-by-scene review; the planned action/dialogue is retained as source for comparison."
+      ]
     }
   ],
   "continuity": {
@@ -1022,7 +1049,7 @@
     "tally": "6 clothing sets initially; removals Gopal, Mahendra, Om, Subhash, Mohan, Arvind = 6; Rajeev receives 0 clothing sets plus remaining other contents.",
     "sharedCast": "Sharmi has a brief 07:47 lobby interaction before Ankita's 08:05 departure, connecting the shared society friend without forcing her into parcel knowledge.",
     "currentEpisodeCutoff": "2026-01-01 13:00",
-    "lastVisibleScene": "P08 12:30–12:50 (full prose)",
+    "lastVisibleScene": "P08 12:30–12:50 (working draft, not approved)",
     "ankitaEndState": "At Cyber City office through the Jan 1 13:00 cutoff. No A09 or A10 on Jan 1; those are deferred to Jan 2, episode TBD.",
     "deferredFile": "episode-03-ankita-pending.json",
     "deferredIds": [
@@ -1046,8 +1073,8 @@
       "uiInstruction": "Remove from Jan 1 EP02 clock and do not publish until future episode chosen."
     },
     "parcelPublication": {
-      "status": "P01_P08_FULL_PROSE",
-      "ui": "episode-02.html?tab=parcel-prose",
+      "status": "P01_P08_WORKING_PROSE_DRAFT_NOT_APPROVED",
+      "ui": "episode-02.html?tab=ankita-prose#parcel-p01",
       "officeActorsAbsent": "Ankita physically absent 09:55–12:50",
       "womenKnowledge": "Ankita unaware of parcel opening or removals",
       "concealedRemovals": {
@@ -1058,8 +1085,14 @@
         "Mohan": 1,
         "Arvind": 1,
         "Rajeev": 0
-      }
-    }
+      },
+      "approval": "AWAITING_USER_DISCUSSION_SCENE_BY_SCENE"
+    },
+    "parcelReviewPriority": [
+      "P01 narrative linkage with A07 and P02",
+      "P07 unfinished Mahendra question",
+      "P08 original marriage-related inquiry and location timing"
+    ]
   },
   "planningQuestions": [
     "Shivani is next to discuss for 2026-01-01: which morning / home / society routine overlaps Rohan's 06:20–06:37 park walk?",
