@@ -34,17 +34,13 @@
     "profile": {
       "lead": {
         "age": 32,
-        "profession": "Doctor"
+        "profession": "Doctor",
+        "lactating": true,
+        "maternalRoutine": "private milk expression and safe storage"
       },
       "spouse": {
         "id": "nikhil",
         "age": 35
-      },
-      "fil": {
-        "id": "mohan",
-        "age": 64,
-        "attraction": "PRIVATE_ONE_SIDED_CONFIRMED",
-        "reciprocal": false
       },
       "devar": "dev",
       "youngerSister": "ishita",
@@ -52,6 +48,16 @@
         "id": "vihaan",
         "ageYears": 1.5,
         "role": "FAMILY_ONLY"
+      },
+      "householdGuest": {
+        "id": "mohan",
+        "age": 64,
+        "origin": "old-age-home",
+        "relationship": "unrelated guest accepted into household",
+        "addressedAs": "Uncle ji",
+        "backstoryReaderDisclosure": "NOT_YET",
+        "attraction": "PRIVATE_ONE_SIDED_CONFIRMED",
+        "reciprocal": false
       }
     },
     "societyTwins": {
@@ -135,15 +141,17 @@
       "location": "Kapoor household",
       "characters": [
         "meenakshi",
-        "nikhil",
         "mohan"
       ],
-      "title": "New Year at home",
-      "summary": "Meenakshi and Nikhil share a playful married-life conversation; she prepares a private evening surprise.",
-      "detail": "Mohan privately notices her clothing and develops one-sided attraction. His unauthorized inspection of a personal clothing pouch creates a secret. This violation is not known or permitted by Meenakshi. Vihaan is an existing family-only character but does not receive an invented appearance in this scene.",
-      "approval": "WORKING_PLOT_UNAPPROVED",
+      "title": "The New Year's Secret — C → D → E → E-F01",
+      "summary": "Meenakshi privately prepares Nikhil's evening roleplay surprise while managing her lactation routine. Mohan, an unrelated household guest, notices her morning dress and the pouch; his one-sided curiosity culminates in unauthorized inspection and reader-only fantasy.",
+      "detail": "C (06:40–06:55): plum front-button kurta, cream palazzo, grey cardigan; private milk-expression routine; pouch with bold black-lace adult roleplay costume set (teddy plus matching panties) and silk blindfold, intended for husband Nikhil. D (~06:56–07:10): familiar Uncle ji teasing; Mohan's gaze lingers on Meenakshi's chest and he jokes about Vihaan's feeding schedule; she blushes with amusement, not reciprocal attraction. He sees the pouch and asks; she shyly deflects. E (07:15–07:40): Mohan enters her room and opens the pouch without consent, later imagines her in costume while alone; the fantasy ends explicitly with a return to reality. Meenakshi is not physically present and is unaware.",
+      "approval": "USER_SUPPLIED_PROSE_PUBLISHED_FOR_REVIEW",
       "notes": [
-        "Mohan's parallel private subplot is 07:00–07:40, within this household window, not an additional location."
+        "Beat B removed per user; only C → D → E → E-F01 are included.",
+        "Mohan is not father-in-law. She calls him Uncle ji. Old-age-home backstory remains unrevealed in reader prose.",
+        "Exact user-authored M01 published separately as episode-02-meenakshi-m01.html.",
+        "Mohan's personal-pouch inspection occurs within 07:00–07:40; not a reciprocal relationship or invitation."
       ]
     },
     {
@@ -355,8 +363,8 @@
       "window": "07:00–07:40",
       "knowledge": "Mohan knows his one-sided attraction and unauthorized pouch inspection; Meenakshi does not",
       "consent": "NO_PERMISSION",
-      "consequence": "Unresolved family secret; not a reciprocal relationship",
-      "status": "ONE_SIDED_ATTRACTION_CONFIRMED_ACTION_WORKING"
+      "consequence": "Unresolved household guest's secret; not reciprocal involvement",
+      "status": "ONE_SIDED_ATTRACTION_CONFIRMED_USER_SUPPLIED_M01"
     },
     {
       "id": "MS02",
@@ -445,10 +453,10 @@
   ],
   "issuesToReview": [
     "Two unnamed incidental hospital staff are scene-only supporting roles, not new directory identities.",
-    "07:00–07:40 Mohan's private action overlaps the household window intentionally in the same location.",
     "User confirmed Uday–Utkarsh as twins; the character directory and atlas require the corresponding update.",
     "Potential 12:30–12:50 concurrency: Mohan is in committee scene only; other men are in hospital locker scene. No same-person collision.",
-    "The two supplied wardrobe images are reference visuals, not images proving an in-story event."
+    "The two supplied wardrobe images are reference visuals, not images proving an in-story event.",
+    "Mohan is an unrelated household guest (not FIL); old-age-home backstory withheld from reader-facing M01."
   ],
   "cutoff": "2026-01-01T13:15:00",
   "next": "Await user approval for prose or evening continuation. No automatic expansion."
