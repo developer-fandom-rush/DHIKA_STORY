@@ -155,13 +155,14 @@
       ],
       "title": "The New Year's Secret — C → D → E → E-F01",
       "summary": "Meenakshi privately prepares Nikhil's evening roleplay surprise while managing her lactation routine. Mohan, an unrelated household guest, notices her morning dress and the pouch; his one-sided curiosity culminates in unauthorized inspection and reader-only fantasy.",
-      "detail": "C (06:40–06:55): plum front-button kurta, cream palazzo, grey cardigan; private milk-expression routine; pouch with bold black-lace adult roleplay costume set (teddy plus matching panties) and silk blindfold, intended for husband Nikhil. D (~06:56–07:10): familiar Uncle ji teasing; Mohan's gaze lingers on Meenakshi's chest and he jokes about Vihaan's feeding schedule; she blushes with amusement, not reciprocal attraction. He sees the pouch and asks; she shyly deflects. E (07:15–07:40): Mohan enters her room and opens the pouch without consent, later imagines her in costume while alone; the fantasy ends explicitly with a return to reality. Meenakshi is not physically present and is unaware.",
+      "detail": "C (06:40–06:55): plum front-button kurta, cream palazzo, grey cardigan; private milk-expression routine; pouch with bold black-lace adult roleplay costume set (teddy plus matching panties) and silk blindfold, intended for husband Nikhil. D (~06:56–07:10): familiar Uncle ji teasing; Mohan's gaze lingers on Meenakshi's chest and he jokes about Vihaan's feeding schedule; she blushes with amusement, not reciprocal attraction. He sees the pouch and asks; she shyly deflects. E (07:15–07:24): Mohan enters her room and opens the pouch without consent, later imagines her in costume while alone; the fantasy ends explicitly with a return to reality. Meenakshi is not physically present and is unaware. M01-F02 (07:24–07:37) after the fantasy and return to reality: Meenakshi hums inside the bathroom; Mohan near the corridor observes only an indistinct shadow through frosted glass, with no clear body view, then leaves. Meenakshi is unaware. Getting ready (07:37–07:40): nursing bra, plum front-button kurta, cream palazzo, open grey cardigan, one-shoulder dupatta, earrings, watch, hospital bag. Costume set and blindfold remain in private pouch for Nikhil, never hospital attire.",
       "approval": "USER_SUPPLIED_PROSE_PUBLISHED_FOR_REVIEW",
       "notes": [
         "Beat B removed per user; only C → D → E → E-F01 are included.",
         "Mohan is not father-in-law. She calls him Uncle ji. Old-age-home backstory remains unrevealed in reader prose.",
         "Exact user-authored M01 published separately as episode-02-meenakshi-m01.html.",
-        "Mohan's personal-pouch inspection occurs within 07:00–07:40; not a reciprocal relationship or invitation."
+        "Mohan's personal-pouch inspection occurs within 07:00–07:40; not a reciprocal relationship or invitation.",
+        "M01-F02 approved and published within the M01 reader before the pre-existing 07:40 ending; no physical encounter occurs."
       ]
     },
     {
@@ -175,12 +176,13 @@
         "uday",
         "utkarsh"
       ],
-      "title": "Two contrasting wellness twins",
-      "summary": "Uday and Utkarsh meet Meenakshi. Uday teases confidently; Utkarsh is quieter.",
-      "detail": "Compliments and light banter are approved as character dynamics. No touch or reciprocal romance is presumed.",
-      "approval": "WORKING_PLOT_UNAPPROVED",
+      "title": "A year of camp volunteering — Uday and Utkarsh's double-meaning teasing",
+      "summary": "Meenakshi collects medical-camp volunteer register at society wellness area. Uday comments playfully on kurta fitting; Utkarsh offers understated double meanings. Meenakshi responds with clever medical-themed comebacks, notices she increasingly enjoys their attention, and moves on toward gate by 08:10.",
+      "detail": "Uday and Utkarsh, 24-year-old well-known twins, have helped with medical camps for about one year. At first Meenakshi disliked their teasing, but reliable collaboration fostered familiarity; she now often enjoys witty remarks. At 07:45 she checks camp supply register. Spoken physical-appearance compliments / double meanings remain playful; Meenakshi takes conversational initiative. Memory loop: 'Doctor ki advice chahiye ya doctor ka attention?' First crack is her recognition of her own curiosity, not physical intimacy.",
+      "approval": "USER_APPROVED_PROSE_PUBLISHED",
       "notes": [
-        "Uday–Utkarsh are confirmed twin brothers, 24; distinct from hospital trainees Avi–Yash."
+        "One-year prior camp collaboration approved by user; distinguish Uday as outspoken and Utkarsh as restrained.",
+        "Draft prose published in episode-02-meenakshi-m02-m03.html; no reciprocal physical relationship is established."
       ]
     },
     {
@@ -194,10 +196,13 @@
         "gopal"
       ],
       "title": "Gate and pharmacy delivery",
-      "summary": "Meenakshi talks with society guard Gopal about hospital duty and pharmacy delivery.",
-      "detail": "Conversation placement is working/proposed; do not treat it as a confirmed relationship direction.",
-      "approval": "PROPOSED_CONVERSATION",
-      "notes": []
+      "summary": "At the society gate Meenakshi confirms pharmacy delivery recipient with Gopal, jokes about his health check-up, then leaves for hospital at 08:15. Gopal privately admires her appearance.",
+      "detail": "Normal, short security/pharmacy-delivery communication. Gopal privately notices Meenakshi's beauty and the change in her appearance after motherhood; his interest remains reader-only. Meenakshi knows nothing of it; no invitation or romance.",
+      "approval": "USER_APPROVED_PROSE_PUBLISHED",
+      "notes": [
+        "Reader-only internal observation distinct from twins' spoken flirting.",
+        "Published in episode-02-meenakshi-m02-m03.html."
+      ]
     },
     {
       "id": "M04",
@@ -469,5 +474,7 @@
     "Mohan is an unrelated household guest (not FIL); old-age-home backstory withheld from reader-facing M01."
   ],
   "cutoff": "2026-01-01T13:15:00",
-  "next": "Await user approval for prose or evening continuation. No automatic expansion."
+  "next": "Await user approval for prose or evening continuation. No automatic expansion.",
+  "publishedM01Extension": "episode-02-meenakshi-m01.html#m01-f02",
+  "publishedM02M03": "episode-02-meenakshi-m02-m03.html"
 }
