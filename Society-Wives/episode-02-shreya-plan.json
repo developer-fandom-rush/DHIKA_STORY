@@ -10,7 +10,7 @@
   "leadName": "Shreya Rathore",
   "leadAge": 33,
   "profession": "Police Inspector",
-  "status": "USER_ACCEPTED_WORKING_PLOT; SCENE PROSE NOT APPROVED",
+  "status": "SR01 PROSE PUBLISHED; SR02–SR13 USER-ACCEPTED WORKING PLOT",
   "stopRule": "End at 13:15, Shreya still at police station; no evening scenes.",
   "characterCorrections": [
     {
@@ -181,30 +181,28 @@
         "shaan",
         "vivek_rao"
       ],
-      "summary": "Shreya trains in fitted red sportwear after Ankita's earlier park session ends; Samar and Shaan join a friendly timed challenge.",
+      "summary": "Shreya exercises in supportive fitted red sportswear with longtime workout companions Samar and Shaan; she wins plank and balance challenges and accepts only conditional, voluntary future bets.",
       "beats": [
-        "Run/warm-up, lunges and timed planks show Shreya's active police fitness routine.",
-        "Samar's teasing and Shaan's quieter praise reveal distinct adult attraction, not reciprocation.",
-        "Vivek provides form coaching while keeping training professional."
+        "Established longtime workout familiarity: Shreya formerly stopped Samar's suggestive jokes; now she freely responds with wit and occasional initiated teasing.",
+        "Vivek coaches verbally; warm-up, lunges, a two-minute plank and single-leg balance contest keep a plausible 06:55–07:28 clock.",
+        "Shreya wins both competitions; Samar's future coffee bet and Shaan's conditional saree/get-together suggestion await possible rematches and remain under Shreya's explicit conditions.",
+        "Shreya's red supportive sports bra and matching high-waisted leggings are her workout costume. Police uniform begins later.",
+        "Vivek's Anaya compliment is ordinary family warmth, not sexual teasing."
       ],
-      "dialogue": [
-        [
-          "Samar (24, society sports twin)",
-          "Inspector madam, aaj bhi hum dono ko race mein harane ka plan hai?"
-        ],
-        [
-          "Shreya (33, Police Inspector)",
-          "Plan nahi. Result pata hai."
-        ],
-        [
-          "Shaan (24, society sports twin)",
-          "Aaj apna best time beat karenge."
-        ]
-      ],
+      "dialogue": [],
       "notes": [
         "No scene with Ankita in this workout; her exercise session ended at 06:52."
       ],
-      "approval": "USER_ACCEPTED_WORKING_PLOT"
+      "approval": "USER_APPROVED_PROSE_PUBLISHED",
+      "publishedScene": {
+        "uiTab": "shreya-prose",
+        "uiHref": "./episode-02.html?tab=shreya-prose",
+        "images": [
+          "./assets/shreya/shreya-sr01-plank.png",
+          "./assets/shreya/shreya-sr01-post-challenge.png"
+        ],
+        "publication": "USER_REQUESTED_PUBLISHED_SR01"
+      }
     },
     {
       "id": "SR02",
@@ -581,10 +579,10 @@
     {
       "holder": "Samar & Shaan (24, society sports twins)",
       "target": "Shreya",
-      "knowledge": "Distinct admiration and private attraction emerging after timed workout",
+      "knowledge": "Longtime exercise partners; each admires Shreya and her confident replies. SR01 includes friendly, mutually playful banter, but no established sexual or romantic relationship.",
       "targetKnows": false,
       "consent": "Flirtation is not a relationship",
-      "later": "Friendly fitness rematch"
+      "later": "Two separately negotiated, conditional rematch bets"
     },
     {
       "holder": "Chauhan (42, police Inspector)",
@@ -773,6 +771,20 @@
       "galleryLink": "./assets/shreya/shreya-story-collage.jpg"
     }
   ],
-  "imagePolicy": "Three successfully generated images remain archived at Drive, and GitHub-hosted JPG previews load directly from ./assets/shreya/. Shruti portrait pending; collage labels and minor face variations are conceptual, not canon. No new images generated.",
-  "approvedPolicy": "The user called the plot great and requested publication in common Episode 02. This is a user-accepted working plot, not final prose or authorization for new explicit scenes."
+  "imagePolicy": "SR01 images are repository-hosted in assets/shreya/, with Drive originals. Signs visible in AI concept images are non-canon. Other Shreya archived images remain available. No other scenes automatically approved.",
+  "approvedPolicy": "The user called the plot great and requested publication in common Episode 02. This is a user-accepted working plot, not final prose or authorization for new explicit scenes.",
+  "leadDetails": {
+    "breastfeedingMotherOf": "Anaya",
+    "sr01Outfit": {
+      "sportsBra": "supportive red, proposed 36DD fictional costume fit",
+      "leggings": "red high-waisted",
+      "hair": "high ponytail",
+      "footwear": "white trainers"
+    },
+    "workoutPartners": [
+      "samar",
+      "shaan"
+    ],
+    "flirtingHistory": "Longtime gym partners; initial dislike of bold jokes has developed into mutually playful, consciously welcomed banter; no affair assumed."
+  }
 }
