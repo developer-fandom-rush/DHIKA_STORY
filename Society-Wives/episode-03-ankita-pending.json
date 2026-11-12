@@ -23,7 +23,7 @@
   "baseline": {
     "ankita": "30, confident IT tech lead, maintains fitness through park mobility/yoga and walking; professional and approachable.",
     "kabir": "Ankita's husband, playful affection and a supportive relationship.",
-    "rajeev": "Kabir's father; household elder; current Atlas has unreciprocated private attraction as proposal.",
+    "rajeev": "Rajeev (61) is the older household associate socially addressed as Papa/Uncle; NOT Kabir's actual father and NOT Ankita's actual FIL. Their public family presentation is not a literal legal/biological relation; their precise arrangement/backstory is TBD.",
     "karan": "22, Kabir's younger twin brother, lives in the same family home; outgoing, preparing for MBA/management roles and freelances.",
     "aman": "22, Karan's twin, lives in same family home; more reserved, preparing for Java/backend job interviews.",
     "home": "Gulmohar Heights, Gurgaon; Ankita, Kabir, Rajeev, Karan, Aman share a home. This residency is newly established in this working draft.",
@@ -320,5 +320,21 @@
     "currentEpisodeCutoff": "2026-01-01 13:00",
     "activeEpisode": "episode-02-ankita.html",
     "note": "Seven postcutoff scenes are preserved with original draft times; none are active canon."
+  },
+  "socialFamilyCanon": {
+    "version": "2026-11-12-SOCIAL-FAMILY-NOT-BIOLOGICAL",
+    "writerCanon": "No older male 'Uncle', 'Papa', or apparent father-in-law associated with any of the female leads is her actual biological, legal, or marital father-in-law. They have distinct, currently undisclosed reasons for sharing a home or presenting as family. Public forms of address (Papa, Uncle ji, bahu, FIL) are social performance, not evidence of legal or blood relationships.",
+    "socialStatus": "ASSUMED_OR_PRETENDED_FAMILY_ROLE",
+    "actualRelation": "NO_ACTUAL_FATHER_IN_LAW",
+    "backstories": "INDIVIDUAL_REASONS_UNDISCLOSED; do not invent before user establishes",
+    "scope": [
+      "rajeev",
+      "om",
+      "subhash",
+      "mohan",
+      "arvind"
+    ],
+    "existingExceptions": "Shreya/Arvind hospitalization connection and Meenakshi/Mohan old-age-home guest connection remain preserved where previously established. Husband/wife relationships are not changed by this instruction.",
+    "oldSchemaNote": "Legacy interest-array field 'ankitaFILInterests' is retained for UI/data compatibility ONLY; 'FIL' in its name is no longer a factual relationship claim."
   }
 }
