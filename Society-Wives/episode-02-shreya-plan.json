@@ -10,7 +10,7 @@
   "leadName": "Shreya Rathore",
   "leadAge": 33,
   "profession": "Police Inspector",
-  "status": "SR01, SR02A, SR02B, SR05 PROSE PUBLISHED; SR03–SR04 AND SR06–SR13 WORKING PLOT",
+  "status": "SR01, SR02A, SR02B, SR04, SR05 PROSE PUBLISHED; SR03 AND SR06–SR13 WORKING PLOT",
   "stopRule": "End at 13:15, Shreya still at police station; no evening scenes.",
   "characterCorrections": [
     {
@@ -352,51 +352,145 @@
       "end": "08:20",
       "lane": "SOCIETY",
       "location": "Society security desk",
-      "title": "Mahendra Suri — The Chairman's Compliment",
+      "title": "The Chairman's Weak Spot — Shreya and Mahendra",
       "characters": [
         "shreya",
         "mahendra"
       ],
-      "summary": "Shreya, fresh from the Karan–Aman parking encounter, meets society chairman Mahendra Suri at the security desk. Mahendra brings a legitimate visitor-register discrepancy to her attention and mixes respectful observations about her command presence with seasoned, playful double meanings. Shreya is amused but remains in charge and corrects the record protocol. Chintu is deliberately offscreen and deferred to the next Shreya episode.",
+      "summary": "Shreya, fresh from Karan and Aman's reactions, meets Mahendra Suri with an actual visitor-register mismatch. She initiates mischievous banter and repeatedly teases his wandering attention. Mahendra responds with mature playful compliments. She identifies a 07:40 vs 07:55 vehicle entry discrepancy, instructs preserving the original, and leaves for police duty at 08:20. Chintu remains reserved for the next episode.",
       "beats": [
-        "08:15–08:20 after SR05 (Karan/Aman), before 08:20 departure; no new Chintu appearance in EP02.",
-        "Mahendra (61) is society chairman, confident and observant. His flirting is measured, witty and distinct from Rajeev's more direct compliments.",
-        "Register/vehicle-slip timing discrepancy provides organic reason for speaking; do not turn the scene into five minutes of nothing but flirting.",
-        "Shreya notices his admiration and returns a sharp, deliberately double-meaning response; she chooses whether to entertain the banter.",
-        "Mahendra does not learn about Rajeev's advice or Vivek's kiss, and no new sexual contact is implied.",
-        "Shreya explains to preserve the original visitor and vehicle records, then leaves for duty at 08:20."
+        "At 08:15 Shreya arrives from the SR05 Karan/Aman parking encounter and keeps her polished police-uniform look.",
+        "Mahendra Suri is 61 and society chairman; the vehicle entry at 07:40 does not match the register time of 07:55.",
+        "Shreya starts the playful provocation about a problem in the register or Mahendra's heart, and points out his expressions.",
+        "Mahendra admits admiration with witty double meanings; she tests him verbally by asking how often his gaze left the register.",
+        "Shreya makes clear the record discrepancy needs proper correction while preserving original entries; she departs at 08:20.",
+        "Chintu does not appear and his Shreya arc is postponed to the next episode."
       ],
       "dialogue": [
         [
           "Mahendra",
-          "Inspector Rathore, ek minute. Ek visitor slip aur register time match nahi kar rahe. Aur ek baat—uniform aaj aap par bahut commanding lag rahi hai."
+          "Good morning, Inspector Rathore. Ek chhoti si problem hai."
         ],
         [
           "Shreya",
-          "Chairman sahab, pehle register ka case. Compliments ki inquiry baad mein."
+          "Good morning, Chairman sahab. Problem register mein hai ya aapke dil mein?"
         ],
         [
           "Mahendra",
-          "Aap jab sawaal poochti hain, log shayad jawab dene se pehle hi seedhe khade ho jaate honge."
+          "Arre wah! Aaj toh aap bade romantic mood mein hain."
         ],
         [
           "Shreya",
-          "Jo sach bolte hain, unhe itna nervous hone ki zaroorat nahi."
+          "Aapne abhi tak problem batayi hi nahi. Kahin mujhe dekhkar bhool toh nahi gaye?"
         ],
         [
           "Mahendra",
-          "Aur jo aapko impress karna chahte hain?"
+          "Sach kahun? Thoda sa."
         ],
         [
           "Shreya",
-          "Unhe register sahi rakhna chahiye. First impression wahi se shuru hota hai."
+          "Achha ji? Itni jaldi concentration lose kar diya?"
+        ],
+        [
+          "Mahendra",
+          "Dekhiye, entry time aur vehicle slip match nahi kar rahe."
+        ],
+        [
+          "Shreya",
+          "Yeh dekhiye. Vehicle 07:40 par enter hui, lekin register mein 07:55 likha hai."
+        ],
+        [
+          "Mahendra",
+          "Aapki nazar bahut tez hai."
+        ],
+        [
+          "Shreya",
+          "Sirf nazar nahi, Chairman sahab. Main logon ke expressions bhi notice karti hoon."
+        ],
+        [
+          "Mahendra",
+          "Toh mere expression mein kya dikh raha hai?"
+        ],
+        [
+          "Shreya",
+          "Ek gentleman jo official kaam ke bahaane personal compliments dena chahta hai."
+        ],
+        [
+          "Mahendra",
+          "Aap toh bina interrogation ke hi sab pakad leti hain."
+        ],
+        [
+          "Shreya",
+          "Abhi toh maine interrogation shuru bhi nahi kiya."
+        ],
+        [
+          "Mahendra",
+          "Aur agar kar diya?"
+        ],
+        [
+          "Shreya",
+          "Phir aapko mere har sawaal ka sach-sach jawab dena padega."
+        ],
+        [
+          "Mahendra",
+          "Aap sawaal poochiye. Main ready hoon."
+        ],
+        [
+          "Shreya",
+          "Achha? Toh bataiye, Chairman sahab... aapki nazar kitni baar register se hatkar meri taraf gayi?"
+        ],
+        [
+          "Mahendra",
+          "Inspector sahiba, itna difficult sawaal mat poochiye."
+        ],
+        [
+          "Shreya",
+          "Kyun? Counting bhool gaye?"
+        ],
+        [
+          "Mahendra",
+          "Counting toh yaad hai. Bas answer dene mein sharam aa rahi hai."
+        ],
+        [
+          "Shreya",
+          "Waah! Itni age mein bhi sharmaate hain aap?"
+        ],
+        [
+          "Mahendra",
+          "Kuch logon ke saamne umar ka experience bhi kaam nahi aata."
+        ],
+        [
+          "Shreya",
+          "Phir toh aapko apni concentration par kaam karna padega. Varna agli baar main aur tough questions poochungi."
+        ],
+        [
+          "Mahendra",
+          "Aur main jawab dene ke liye phir haazir ho jaunga."
+        ],
+        [
+          "Shreya",
+          "Dekhte hain. Filhaal visitor register correct karwa dijiye."
+        ],
+        [
+          "Shreya",
+          "Aur Chairman sahab... agli baar mujhe dekhkar apna kaam mat bhooliyega."
+        ],
+        [
+          "Mahendra",
+          "Koshish karunga. Guarantee nahi de sakta."
         ]
       ],
       "notes": [
         "CHINTU DEFERRED: adult 23-year-old society security helper gets his own recurring Shreya arc from next episode, not this SR04.",
         "Retimed security desk 08:15–08:20 after the twins' gate greeting; Shreya leaves for station at 08:20."
       ],
-      "approval": "USER_DIRECTION_WORKING_PLOT_NOT_PROSE"
+      "approval": "USER_APPROVED_PROSE_PUBLISHED",
+      "publishedScene": {
+        "uiTab": "shreya-prose",
+        "uiHref": "./episode-02.html?tab=shreya-prose#shreya-sr04-mahendra",
+        "images": [],
+        "publication": "USER_REQUESTED_PUBLISHED_SR04"
+      }
     },
     {
       "id": "SR05",
