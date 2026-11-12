@@ -2800,7 +2800,7 @@
     "staffroomFlirting": "Dr. Aarav Sethi (35, faculty peer) is proposed for subtle adult colleague flirting, completely distinct from Harsh/Laksh (22, adult STUDENTS). Student-professor boundary and grading conflicts must be kept explicit in future plot decisions."
   },
   "meenakshiEpisode02": {
-    "status": "WORKING_PLOT_UNAPPROVED",
+    "status": "M01_M05_USER_APPROVED_PUBLISHED_M06_ONWARD_WORKING",
     "date": "2026-01-01",
     "planPath": "episode-02-meenakshi-plan.json",
     "leadId": "meenakshi",
@@ -2809,10 +2809,12 @@
       "assets/meenakshi/confident_doctor_in_a_hospital_corridor.svg",
       "assets/meenakshi/glamorous_doctor_in_dressing_room.svg"
     ],
-    "note": "Mohan is unrelated guest called Uncle ji. M01-M05 morning sequence published; M05 Harish/Sunil remain reader-known, Meenakshi unaware. Later hospital incidents remain working plot.",
+    "note": "M01–M05 approved and published. M05 updated with user's detailed milk-expression, changing, clothing, cleaning-board, Harish/Sunil and single 09:05 exit text. Meenakshi thinks room empty, but workers stayed behind partition; she is unaware. M06+ remain unapproved.",
     "m02m03ProsePath": "episode-02-meenakshi-m02-m03.html",
     "m01F02InReader": "episode-02-meenakshi-m01.html#m01-f02",
-    "m04m05ProsePath": "episode-02-meenakshi.html#m04"
+    "m04m05ProsePath": "episode-02-meenakshi.html#m04",
+    "approvedThrough": "M05",
+    "approvedUIUrl": "episode-02.html?tab=meenakshi-m01#meenakshi-m05-story"
   },
   "socialFamilyCanon": {
     "version": "2026-11-12-SOCIAL-FAMILY-NOT-BIOLOGICAL",
