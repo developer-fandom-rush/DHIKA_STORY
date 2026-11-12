@@ -1,0 +1,92 @@
+{
+  "id": "ANKITA_FUTURE_OFFICE_DAY_SCENES_HOLD",
+  "status": "PARKED_NEXT_OFFICE_DAY_NOT_PUBLISHED",
+  "date": "2026-01-02",
+  "dateStatus": "USER_REQUESTED_DAY_2_JANUARY",
+  "episodeNumber": "TO_BE_DECIDED",
+  "note": "User explicitly removed A09 and A10 from 1 Jan 2026 EP02; place on next office day Jan 2 in an unspecified future episode. Their previous 10:35 and 11:40 time slots are provisional and not canon until rescheduled.",
+  "origin": "Society-Wives/episode-02-ankita-plan.json",
+  "scenes": [
+    {
+      "id": "A09",
+      "start": "10:35",
+      "end": "11:00",
+      "lane": "OFFICE",
+      "where": "Small conference room",
+      "cast": [
+        "Ankita",
+        "Vivan",
+        "Reyansh",
+        "Mr. Bhalla"
+      ],
+      "title": "The Senior Consultant's Silence",
+      "action": "Mr. Bhalla (58) joins as the senior client-side consultant to review the release results. He admires Ankita's appearance and leadership but offers only professional feedback. His private interest stays unrevealed to her; there is no proposition or sexual action.",
+      "dialogue": [
+        [
+          "Mr. Bhalla",
+          "You managed the rollback risk well. Was the fallback tested?"
+        ],
+        [
+          "Ankita",
+          "Twice. We can show both logs."
+        ],
+        [
+          "Vivan",
+          "I have the test report here."
+        ],
+        [
+          "Mr. Bhalla",
+          "Good. Send me the signed version."
+        ]
+      ],
+      "herReaction": "Professional, attentive; unaware of any private thoughts.",
+      "privateThought": "Bhalla imagines a closer personal acquaintance, not an established relationship; he chooses to say nothing.",
+      "hooks": [
+        "Office older-man lane gets a distinct hidden interest, separate from the parcel."
+      ]
+    },
+    {
+      "id": "A10",
+      "start": "11:40",
+      "end": "12:00",
+      "lane": "OFFICE",
+      "where": "Office pantry / IT floor",
+      "cast": [
+        "Ankita",
+        "Vivan",
+        "Priya",
+        "Nisha"
+      ],
+      "title": "The Coffee Nobody Owed",
+      "action": "A milestone test passes. Vivan brings the team coffee, not a private gift; Priya asks Ankita to review a remaining bug. Ankita enjoys the easy group laughter while refusing to assume romantic intent.",
+      "dialogue": [
+        [
+          "Vivan",
+          "New Year coffee, meri taraf se."
+        ],
+        [
+          "Ankita",
+          "Only if the service stays healthy after the next run."
+        ],
+        [
+          "Priya",
+          "If it doesn't, all coffees are cancelled."
+        ],
+        [
+          "Nisha",
+          "Then I'll watch the dashboard."
+        ]
+      ],
+      "herReaction": "Warm, mildly flattered, and openly professional.",
+      "privateThought": "The men at the society office are entirely absent from Ankita's thoughts at this time.",
+      "hooks": [
+        "Split-screen contrast: harmless office banter vs private parcel misconduct."
+      ]
+    }
+  ],
+  "dependencies": [
+    "Do not overlap Ankita with Jan 1 committee parcel arc",
+    "Do not introduce Mr. Bhalla or coffee A10 as on-page scenes on Jan 1",
+    "Future office day should reuse A08 Reyansh/Vivan first-crack results only as prior-day continuity"
+  ]
+}
