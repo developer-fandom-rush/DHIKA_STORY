@@ -48,7 +48,7 @@
       "id": "mohan",
       "name": "Mohan",
       "age": 64,
-      "role": "Meenakshi’s father-in-law",
+      "role": "Meenakshi's unrelated older household guest (not actual FIL)",
       "group": "family",
       "house": "meenakshi",
       "sourceStatus": "USER_CONFIRMED_CHARACTER_DIRECTION",
@@ -229,7 +229,7 @@
     {
       "personId": "mohan",
       "kind": "family",
-      "sourceDescription": "Meenakshi's father-in-law; lives in Kapoor household.",
+      "sourceDescription": "Meenakshi's unrelated older guest called Uncle ji; lives in Kapoor household (not an actual FIL).",
       "sourceState": "confirmed_one_sided_interest_proposed_scene"
     },
     {
@@ -289,7 +289,7 @@
     {
       "personId": "rajeev",
       "kind": "cross",
-      "sourceDescription": "Ankita’s FIL; society welfare/health-camp work.",
+      "sourceDescription": "Ankita's socially presented household elder (not an actual FIL); society welfare/health-camp work.",
       "sourceState": "proposal"
     },
     {
@@ -324,12 +324,17 @@
     }
   ],
   "rules": [
-    "Nikhil husband; Mohan FIL with one-sided interest confirmed but Meenakshi does not reciprocate; Dev single adult devar.",
+    "Nikhil husband; Mohan is unrelated older household guest called Uncle ji (NOT FIL), with one-sided interest confirmed but Meenakshi does not reciprocate; Dev single adult devar.",
     "Vihaan (1½) family-only, no attraction routes.",
     "Uday and Utkarsh confirmed society twin brothers (24); flirting approved, no intimacy assumed.",
     "Avi and Yash remain hospital trainee duo, not confirmed twins.",
     "Dr. Aditi, Rupa and Dr. Leena confirmed existing hospital staff; Parnika remains proposed.",
     "Refer to episode-02-meenakshi-plan.json for dated scenes; all scenes are unapproved working plot."
   ],
-  "episode02PlanPath": "episode-02-meenakshi-plan.json"
+  "episode02PlanPath": "episode-02-meenakshi-plan.json",
+  "socialFamilyCanon": {
+    "actualOlderFIL": false,
+    "role": "Social/assumed family ties, not literal legal or biological father-in-law",
+    "backstories": "Existing Mohan guest history remains, other reasons undisclosed"
+  }
 }
