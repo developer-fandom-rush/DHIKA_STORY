@@ -1,0 +1,89 @@
+{
+  "title": "Society Wives — Flirting Style Reference",
+  "status": "WRITER_REFERENCE_NOT_APPROVED_CANON",
+  "scene": "EP02-A02",
+  "date": "2026-01-01",
+  "time": "06:29-06:37",
+  "purpose": "Dialogue-first, grown-up double-entendre flirting with a memory-loop seed, without presuming later romantic consent or changing plot authority.",
+  "terms": [
+    "sexual innuendo",
+    "double entendre",
+    "suggestive teasing",
+    "playful rivalry",
+    "memory-loop cue",
+    "hypothetical gossip joke"
+  ],
+  "rhythm": [
+    "innocent observation",
+    "one cheeky double meaning",
+    "self-aware comeback",
+    "distinct second voice",
+    "specific outfit compliment",
+    "short fluster and conscious reset",
+    "recallable final line"
+  ],
+  "characterVoices": {
+    "rohan": "34; Shivani's husband; social, cheeky and expressive; black fitted sports tee suggestion",
+    "nikhil": "35; Meenakshi's husband; observant, calm, dry wit; midnight-blue sleeveless performance top suggestion",
+    "ankita": "30; confident and witty, shy for a beat then reclaims agency; neither outfit promise nor implied affair"
+  },
+  "continuity": [
+    "Both men are married adults, not boys.",
+    "A02 takes place on Gulmohar Heights walking track at 06:20–06:37.",
+    "Ankita remains in her fitted athletic jacket and running tights during A02.",
+    "No weather change, removing jacket, touch, proposal, or implied mutual affair.",
+    "Rumor is a joke about hypothetical society gossip; nobody actually circulates gossip.",
+    "Do not imply reader-only thoughts are known to other characters.",
+    "Flirting style is a writer reference; the master plot remains the authority.",
+    "No A03 prose is approved or written by this reference."
+  ],
+  "draftDialogue": [
+    {
+      "speaker": "Rohan",
+      "text": "Ek din jacket ke bina black fitted sports tee mein walk karna. Phir dekhna, society ki morning attendance double ho jayegi.",
+      "tag": "Rohan · cheeky innuendo"
+    },
+    {
+      "speaker": "Ankita",
+      "text": "Achha ji? Fitness advice de rahe ho ya mere kapdon par research kar rahe ho?",
+      "tag": "Ankita · witty challenge"
+    },
+    {
+      "speaker": "Nikhil",
+      "text": "Meri choice alag hai—midnight-blue sleeveless performance top. Tumhari shoulder definition aur posture clearly dikhega. You've worked for that fitness.",
+      "tag": "Nikhil · understated flirt"
+    },
+    {
+      "speaker": "Rohan",
+      "text": "Dekha, Ankita? Dono agree karte hain ki jacket ke bina look impressive hoga.",
+      "tag": "Agreement · no outfit change"
+    },
+    {
+      "speaker": "Ankita",
+      "text": "Wah! Ek fashion critic, ek fitness auditor. Dono married gentlemen hain, zara yaad rahe!",
+      "tag": "Marriage acknowledged"
+    },
+    {
+      "speaker": "Nikhil",
+      "text": "Bilkul yaad hai. Aur Rohan ko toh apni running se zyada tumhari jacket mein interest lag raha hai.",
+      "tag": "Nikhil · dry humor"
+    },
+    {
+      "speaker": "Rohan",
+      "text": "Arre, main toh bas soch raha tha—kal society mein rumor na fail jaaye ki morning walkers fitness se zyada fashion ke liye aa rahe hain.",
+      "tag": "Rumor-style joke · hypothetical"
+    },
+    {
+      "speaker": "Ankita",
+      "text": "Jacket meri hai, suspense tum dono ka.",
+      "tag": "Memory-loop seed"
+    },
+    {
+      "speaker": "Nikhil",
+      "text": "Well played, Ankita.",
+      "tag": "Reset"
+    }
+  ],
+  "staging": "Ankita touches her jacket zipper, briefly catches her lower lip, feels a moment of pleased self-consciousness, and departs toward the exercise corner without changing clothes.",
+  "memoryLoop": "Jacket meri hai, suspense tum dono ka."
+}
