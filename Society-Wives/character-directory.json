@@ -423,10 +423,10 @@
       "group": "society",
       "house": "meenakshi",
       "sourceStatus": "USER_CONFIRMED_EP02",
-      "notes": "Original new-universe Atlas roster, subject to user refinements",
+      "notes": "Well-known society wellness volunteer; has helped Meenakshi with medical camps for about one year. Early teasing annoyed her, but sustained reliable cooperation increased familiarity and made recent double-meaning banter welcome.",
       "relationship": "Utkarsh’s twin brother",
       "characterDirection": "More confident and teasing; playful flirting confirmed as user direction",
-      "storyStatus": "CONFIRMED_TWIN_FLIRTING; EP02_SCENES_WORKING"
+      "storyStatus": "CONFIRMED_TWIN_FLIRTING; M02_USER_APPROVED_PUBLISHED"
     },
     {
       "id": "utkarsh",
@@ -436,10 +436,10 @@
       "group": "society",
       "house": "meenakshi",
       "sourceStatus": "USER_CONFIRMED_EP02",
-      "notes": "Original new-universe Atlas roster, subject to user refinements",
+      "notes": "Well-known society wellness volunteer; has helped Meenakshi with medical camps for about one year. Early teasing annoyed her, but sustained reliable cooperation increased familiarity and made recent double-meaning banter welcome.",
       "relationship": "Uday’s twin brother",
       "characterDirection": "Quieter and observant; playful flirting confirmed as user direction",
-      "storyStatus": "CONFIRMED_TWIN_FLIRTING; EP02_SCENES_WORKING"
+      "storyStatus": "CONFIRMED_TWIN_FLIRTING; M02_USER_APPROVED_PUBLISHED"
     },
     {
       "id": "chintu",
@@ -1798,10 +1798,10 @@
       "fromWoman": 2,
       "fromMan": 2,
       "importance": 3,
-      "how": "Society wellness volunteer and Utkarsh’s confirmed twin; confident flirtation.",
-      "why": "Playful flirting approved by user; not a relationship or consent to more.",
+      "how": "Known for about one year through society medical camps; outspoken compliments and double-meaning jokes.",
+      "why": "Meenakshi initially disliked their teasing but now enjoys much of it; M02 first on-page curiosity, no physical relationship.",
       "kind": "society",
-      "state": "flirting_character_direction_confirmed_scene_working",
+      "state": "M02_PUBLISHED_PLAYFUL_FLIRTING",
       "userConfirmedDirection": true
     },
     {
@@ -1810,10 +1810,10 @@
       "fromWoman": 0,
       "fromMan": 2,
       "importance": 3,
-      "how": "Society wellness volunteer and Uday’s confirmed twin; quieter flirtation.",
-      "why": "Playful flirting approved by user; not a relationship or consent to more.",
+      "how": "Known for about one year through society medical camps; quieter, unexpectedly clever double-meaning jokes.",
+      "why": "Meenakshi initially disliked their teasing but now enjoys much of it; M02 first on-page curiosity, no physical relationship.",
       "kind": "society",
-      "state": "flirting_character_direction_confirmed_scene_working",
+      "state": "M02_PUBLISHED_PLAYFUL_FLIRTING",
       "userConfirmedDirection": true
     },
     {
@@ -2747,6 +2747,8 @@
       "assets/meenakshi/confident_doctor_in_a_hospital_corridor.svg",
       "assets/meenakshi/glamorous_doctor_in_dressing_room.svg"
     ],
-    "note": "Mohan is unrelated guest called Uncle ji; M01 prose is user-supplied and separately published. His private fantasy is not actual Meenakshi behaviour. Hospital incidents remain working plot."
+    "note": "Mohan is unrelated guest called Uncle ji; M01 prose is user-supplied and separately published. His private fantasy is not actual Meenakshi behaviour. Hospital incidents remain working plot.",
+    "m02m03ProsePath": "episode-02-meenakshi-m02-m03.html",
+    "m01F02InReader": "episode-02-meenakshi-m01.html#m01-f02"
   }
 }
