@@ -10,7 +10,7 @@
   "leadName": "Shreya Rathore",
   "leadAge": 33,
   "profession": "Police Inspector",
-  "status": "SR01, SR02A, SR02B, SR04, SR05 PROSE PUBLISHED; SR03 AND SR06–SR13 WORKING PLOT",
+  "status": "SR01, SR02A, SR02B, SR04, SR05, SR06, SR07 PROSE PUBLISHED; SR03 AND SR08–SR13 WORKING PLOT",
   "stopRule": "End at 13:15, Shreya still at police station; no evening scenes.",
   "characterCorrections": [
     {
@@ -557,19 +557,29 @@
       "end": "08:50",
       "lane": "TRANSIT",
       "location": "Gulmohar Heights → police station",
-      "title": "To the police station",
+      "title": "The Drive to Duty — Memories of the Morning",
       "characters": [
         "shreya"
       ],
-      "summary": "Shreya travels by car to station, arriving around 08:50.",
+      "summary": "Shreya leaves Anaya at home under unrelated Uncle Arvind's care, then drives from Gulmohar Heights at 08:20, remembering Vivek's abs and kiss, Rajeev's advice, Karan/Aman and Mahendra's teasing. She considers telling Vikram about the dinner invitation and kiss. She still has exactly the first/top uniform button open. She reaches station by 08:50.",
       "beats": [
-        "She keeps her regular duty discipline, not an invented late arrival."
+        "08:20–08:50 transit only; no fresh encounter during the drive.",
+        "One line establishes Anaya is at home with Arvind Uncle, not in Shreya's car or station.",
+        "Vivek kiss and body, Rajeev advice, twins' reaction and Mahendra's smile are memory callbacks.",
+        "Shreya weighs whether to tell husband Vikram about the kiss; do not claim she has told him.",
+        "Top uniform button remains open from SR05 into SR04, SR06 and SR07; no second button opened."
       ],
       "dialogue": [],
       "notes": [
         "Twin Karan/Aman have already moved to their Shivani and Taniya gym thread."
       ],
-      "approval": "USER_ACCEPTED_WORKING_PLOT"
+      "approval": "USER_REQUESTED_PROSE_PUBLISHED",
+      "publishedScene": {
+        "uiTab": "shreya-prose",
+        "uiHref": "./episode-02.html?tab=shreya-prose#shreya-sr06-drive",
+        "images": [],
+        "publication": "USER_REQUESTED_PUBLISHED_SR06"
+      }
     },
     {
       "id": "SR07",
@@ -577,7 +587,7 @@
       "end": "09:35",
       "lane": "OFFICE",
       "location": "Police station briefing room",
-      "title": "Eyes on the report",
+      "title": "The Inspector's Favourite Troublemakers",
       "characters": [
         "shreya",
         "rohas",
@@ -587,32 +597,181 @@
         "shreya_woman_02",
         "shreya_woman_03"
       ],
-      "summary": "Shreya assigns tasks to trainee duo Rohas and Lokesh and hears Kavita/Meera/Poonam's updates.",
+      "summary": "Shreya arrives at the police station with first/top uniform button still open. Trainees Rohas and Lokesh banter about stamina, training and individual attention. Her accidentally suggestive line prompts a tongue-bite, surprise and blush; she enjoys their double meanings. At 09:12, Poonam (29, Sub-Inspector) interrupts with a 15-minute case-log discrepancy. Shreya restores focus and assigns CCTV/time verification through 09:35.",
       "beats": [
-        "Rohas requests an extra fitness session; Lokesh admires her skills more quietly.",
-        "Female officers have substantive procedural input rather than only admiration dialogue.",
-        "Rohas and Lokesh are police trainees, not biological twins."
+        "Top button open from SR05, SR04, SR06, SR07; second button never opens.",
+        "Rohas (24) is more openly mischievous; Lokesh (24) is quieter but sharper. They are colleagues, not biological twins.",
+        "Shreya says 'Pehle dekhna padega tum dono mein stamina kitna hai. Kahin do minute mein hi surrender na kar do' then bites her tongue on realizing double meaning.",
+        "Rohas responds about lambi innings; Lokesh says one-by-one challenges and winks; Shreya is flustered, surprised and enjoys playful banter.",
+        "Poonam (29) is a Sub-Inspector in Shreya's unit, not a new romance participant; she enters around 09:12 to deliver report.",
+        "Witness statement and vehicle log show 15-minute discrepancy; originals are retained and CCTV timestamps assigned to Kavita, independent timeline to Meera.",
+        "Teasing ends ~09:15; procedural work continues to 09:35; Shreya remains at station."
       ],
       "dialogue": [
         [
-          "Poonam (29, Sub-Inspector)",
-          "Ma'am, first statement aur log time mismatch hai."
+          "Rohas",
+          "Good morning, ma'am! Aaj hum dono ke liye koi special training hai?"
         ],
         [
           "Shreya",
-          "Flag both, original entry overwrite mat karna."
+          "Good morning. Tum dono ko dekhkar toh lag raha hai extra training ki bahut zaroorat hai."
         ],
         [
-          "Rohas (24, trainee)",
-          "Ma'am, physical assessment ke liye extra drill?"
+          "Lokesh",
+          "Training se problem nahi hai, ma'am. Bas instructor achhi honi chahiye."
         ],
         [
           "Shreya",
-          "Duty complete karo; phir schedule discuss karenge."
+          "Instructor ki tension mat lo. Main tum dono ko achhe se handle kar sakti hoon."
+        ],
+        [
+          "Rohas",
+          "Dono ko ek saath, ma'am? Itna confidence!"
+        ],
+        [
+          "Shreya",
+          "Kyun? Tum dono ke liye alag-alag sessions rakhne padenge?"
+        ],
+        [
+          "Lokesh",
+          "Individual attention mile toh performance naturally better hoti hai."
+        ],
+        [
+          "Shreya",
+          "Achha? Toh asli demand individual attention ki hai?"
+        ],
+        [
+          "Rohas",
+          "Demand nahi, ma'am. Bas dekhna hai aapka attention kitni der hold kar sakte hain."
+        ],
+        [
+          "Shreya",
+          "Pehle dekhna padega tum dono mein stamina kitna hai. Kahin do minute mein hi surrender na kar do."
+        ],
+        [
+          "Rohas",
+          "Do minute? Ma'am, hamare stamina ko itna underestimate mat kijiye. Hum toh lambi innings ke liye aaye hain."
+        ],
+        [
+          "Lokesh",
+          "Aur agar hum dono ek-ek karke aaye, toh sochiye... aap hum dono ke challenges jhel paayengi?"
+        ],
+        [
+          "Shreya",
+          "Excuse me! Tum dono training ki baat kar rahe ho na?"
+        ],
+        [
+          "Rohas",
+          "Bilkul, ma'am. Aap kis training ke baare mein soch rahi hain?"
+        ],
+        [
+          "Lokesh",
+          "Lagta hai ma'am ne hamari innocent baat ka koi aur matlab nikaal liya."
+        ],
+        [
+          "Shreya",
+          "Oh, really? Tum dono bahut shaatir hote ja rahe ho."
+        ],
+        [
+          "Rohas",
+          "Aapki training ka effect hai, ma'am."
+        ],
+        [
+          "Shreya",
+          "Toh phir ek baat yaad rakhna. Main challenge dene ke baad aasani se peeche nahi hatt-ti."
+        ],
+        [
+          "Lokesh",
+          "Aur hum bhi easily give up nahi karte."
+        ],
+        [
+          "Shreya",
+          "Achha, Mr. Stamina aur Mr. Confidence. Ab batao, physical assessment kaun pehle dega?"
+        ],
+        [
+          "Rohas",
+          "Ladies first?"
+        ],
+        [
+          "Shreya",
+          "Main examiner hoon!"
+        ],
+        [
+          "Lokesh",
+          "Toh phir Rohas first. Main observe karunga ki ma'am ise kitni jaldi haraati hain."
+        ],
+        [
+          "Rohas",
+          "Bhai, tu mera partner hai ya opposition?"
+        ],
+        [
+          "Shreya",
+          "Relax, gentlemen. Tum dono ko poora mauka milega. Lekin meri training mein shortcuts nahi chalte."
+        ],
+        [
+          "Rohas",
+          "Yes, ma'am. Full dedication."
+        ],
+        [
+          "Lokesh",
+          "Aur full concentration."
+        ],
+        [
+          "Shreya",
+          "Woh toh abhi se doubtful lag rahi hai!"
+        ],
+        [
+          "Poonam",
+          "Ma'am, sorry to interrupt. Witness statement aur vehicle movement log mein fifteen-minute mismatch mila hai."
+        ],
+        [
+          "Shreya",
+          "Original entries preserve karo. Kavita se CCTV timestamps verify karwao, Meera se independent timeline banwao."
+        ],
+        [
+          "Poonam",
+          "Yes, ma'am. Aur Rohas-Lokesh?"
+        ],
+        [
+          "Shreya",
+          "In dono ko bhi kaam do. Inka stamina aaj bahut discuss ho raha hai."
+        ],
+        [
+          "Poonam",
+          "Fine. Dono evidence review mein help karenge."
+        ],
+        [
+          "Shreya",
+          "Perfect. Dekhte hain kaun kitni der concentrate kar paata hai."
+        ],
+        [
+          "Rohas",
+          "Bhai, lagta hai aaj sach mein test hone wala hai."
+        ],
+        [
+          "Lokesh",
+          "Maine pehle hi kaha tha. Inspector madam ke saath challenge soch-samajhkar accept karna."
+        ],
+        [
+          "Shreya",
+          "I can hear you, gentlemen."
+        ],
+        [
+          "Rohas & Lokesh",
+          "Sorry, ma'am!"
         ]
       ],
-      "notes": [],
-      "approval": "USER_ACCEPTED_WORKING_PLOT"
+      "notes": [
+        "SR07 is fiction; all adults; workplace hierarchy remains part of story conflict.",
+        "Shreya's nursing care is a separate family reality, not part of workplace flirtation."
+      ],
+      "approval": "USER_REQUESTED_PROSE_PUBLISHED",
+      "publishedScene": {
+        "uiTab": "shreya-prose",
+        "uiHref": "./episode-02.html?tab=shreya-prose#shreya-sr07-favourite-trainees",
+        "images": [],
+        "publication": "USER_REQUESTED_PUBLISHED_SR07"
+      }
     },
     {
       "id": "SR08",
@@ -1044,5 +1203,16 @@
         "Plan encounter history before escalating or claiming any relationship."
       ]
     }
-  ]
+  ],
+  "uniformContinuity": {
+    "from": "SR05",
+    "through": [
+      "SR04",
+      "SR06",
+      "SR07"
+    ],
+    "firstTopButton": "OPEN",
+    "secondButton": "CLOSED",
+    "status": "USER_LOCKED"
+  }
 }
