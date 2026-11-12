@@ -1117,6 +1117,28 @@
       "house": "shivani",
       "sourceStatus": "PROPOSED_FOR_COLLEGE_CAST",
       "notes": "Peer faculty colleague, not an adult student. Friendly staffroom banter and a possible flirtatious interest are proposed only; no relationship or episode scene approved."
+    },
+    {
+      "id": "harish_pal",
+      "name": "Harish Pal",
+      "age": 62,
+      "role": "Senior ward attendant",
+      "group": "office",
+      "house": "meenakshi",
+      "sourceStatus": "USER_ACCEPTED_M05_NAMING",
+      "notes": "Hospital staff changing-area service worker present on 1 January 2026 08:45–09:05. Worker remains during an unnoticed privacy incident; no romantic relationship established.",
+      "storyStatus": "M05_PUBLISHED_SCENE"
+    },
+    {
+      "id": "sunil_yadav",
+      "name": "Sunil Yadav",
+      "age": 46,
+      "role": "Housekeeping / floor cleaner",
+      "group": "office",
+      "house": "meenakshi",
+      "sourceStatus": "USER_ACCEPTED_M05_NAMING",
+      "notes": "Hospital changing-area cleaner, working with Harish Pal. Tries to announce cleaning, Meenakshi does not clearly hear; incident remains a privacy concern.",
+      "storyStatus": "M05_PUBLISHED_SCENE"
     }
   ],
   "relations": [
@@ -2747,8 +2769,9 @@
       "assets/meenakshi/confident_doctor_in_a_hospital_corridor.svg",
       "assets/meenakshi/glamorous_doctor_in_dressing_room.svg"
     ],
-    "note": "Mohan is unrelated guest called Uncle ji; M01 prose is user-supplied and separately published. His private fantasy is not actual Meenakshi behaviour. Hospital incidents remain working plot.",
+    "note": "Mohan is unrelated guest called Uncle ji. M01-M05 morning sequence published; M05 Harish/Sunil remain reader-known, Meenakshi unaware. Later hospital incidents remain working plot.",
     "m02m03ProsePath": "episode-02-meenakshi-m02-m03.html",
-    "m01F02InReader": "episode-02-meenakshi-m01.html#m01-f02"
+    "m01F02InReader": "episode-02-meenakshi-m01.html#m01-f02",
+    "m04m05ProsePath": "episode-02-meenakshi.html#m04"
   }
 }
