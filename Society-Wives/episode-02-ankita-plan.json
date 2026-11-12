@@ -961,13 +961,13 @@
       "start": "12:03",
       "end": "12:26",
       "lane": "PARCEL",
-      "where": "Community office / Rajeev residence",
+      "where": "Community office / veranda",
       "cast": [
         "Rajeev",
         "Mahendra Suri"
       ],
       "title": "Rajeev Receives the Remainder",
-      "action": "Mahendra calls Rajeev to collect Ankita's delayed private delivery. The packaging is visibly damaged and six clothing sets are missing but one remains, though the adult personal item and booklet remain inside. Rajeev is curious and unsettled but has no right to interpret the items as evidence about her marriage. He takes the package home for Ankita.",
+      "action": "Mahendra calls Rajeev to collect damaged parcel. Six sets are missing, one remains together with dildo and manual. Rajeev takes custody, does not remove a set, and stays through the 12:30 meeting before going home.",
       "dialogue": [
         [
           "Mahendra Suri",
@@ -985,70 +985,77 @@
       "herReaction": "Ankita is at the office and unaware.",
       "privateThought": "Rajeev's previously established one-sided attraction mixes with suspicion; he does not know the joint purchase explanation.",
       "hooks": [
-        "The parcel is with Rajeev; no clothing sets remain. Marriage speculation becomes a future family conflict."
+        "Rajeev holds the box with one remaining lace set, personal item and manual; morning interrupted remark returns privately. He does not know six removals or the reason for order."
       ],
       "prose": [
         {
           "type": "narration",
-          "text": "12:03. Mahendra ne Rajeev ko phone kiya. Damaged parcel ab kai baar desks badal chuka tha; bahar Ankita ka naam ab bhi clearly tha.",
-          "highlight": false
+          "text": "12:03. Mahendra ne Rajeev ko phone kiya."
         },
         {
           "type": "dialogue",
           "speaker": "Mahendra",
-          "text": "Rajeev ji, aapki bahu ka personal courier yahan custody mein hai. Seal damage ho gaya tha. Aap le jaayein?",
-          "highlight": false
+          "text": "Rajeev ji, aapki bahu ka personal courier yahan custody mein hai. Seal damage ho gaya tha. Aap le jaayein?"
         },
         {
           "type": "dialogue",
           "speaker": "Rajeev",
-          "text": "Maine toh suna tha gate par hi rakhna tha. Committee office mein kaise pahuncha?",
-          "highlight": false
+          "text": "Maine toh suna tha gate par hi rakhna tha. Committee office mein kaise pahuncha?"
         },
         {
           "type": "dialogue",
           "speaker": "Mahendra",
-          "text": "Address verification ka issue ho gaya. Main box aapko de raha hoon.",
-          "highlight": false
+          "text": "Address verification ka issue ho gaya. Main box aapko de raha hoon."
         },
         {
           "type": "narration",
-          "text": "Rajeev ne carton khola nahi, lekin loose edge se sealed personal item aur leaflet ke corners dikh gaye. Original total count aur chhe missing sets ke baare mein use kuch pata nahi tha; ek set box mein abhi tha. Usne box apne bag mein carefully rakh liya.",
+          "text": "Rajeev ne carton nahi khola, lekin loose edge se ek pink lace set, dildo aur instruction manual ke corners dikh gaye. Use pata nahi tha ki pehle 6 sets nikal chuke hain."
+        },
+        {
+          "type": "narration",
+          "text": "Usne box bag mein carefully rakh liya."
+        },
+        {
+          "type": "private_thought",
+          "text": "Breakfast ka scene yaad aa gaya — Ankita ka fitted tee, uski nazar uske chest par, aur woh adhoora jumla jo Ankita ne beech mein rok diya tha. *“Please stop, Uncle.”*",
           "highlight": true
         },
         {
           "type": "private_thought",
-          "text": "Rajeev ko breakfast ki Ankita ki assured smile yaad aayi. Uski pehle se dabayi ek-tarfa ruchi ab is private parcel ko dekhkar aur uljhan mein badal gayi.",
+          "text": "Ab yeh parcel dekhkar uski pehle se dabayi ruchi aur strong ho gayi. Usne socha, *“Shayad main sahi tha. Woh fitness ka khayal rakhti hai… aur shayad ghar mein kuch missing hai.”*",
           "highlight": true
         },
         {
-          "type": "private_thought",
-          "text": "Ek pal ko usne socha ki shayad woh Ankita ke private life ko samajhta hai. Phir bhi uske paas us marriage ke baare mein koi haqeeqat ya explanation nahi thi.",
-          "highlight": true
+          "type": "narration",
+          "text": "Phir bhi usne khud koi set nahi nikala."
         },
         {
           "type": "dialogue",
           "speaker": "Rajeev",
-          "text": "Theek hai. Main Ankita ko de dunga. Seal kiske paas se damaged mila tha, register mein note karwa dijiye.",
-          "highlight": false
+          "text": "Theek hai. Main Ankita ko de dunga. Register mein damage note karwa dijiye."
         },
         {
           "type": "dialogue",
           "speaker": "Mahendra",
-          "text": "Haan, dekh lenge.",
-          "highlight": false
+          "text": "Haan, dekh lenge."
         },
         {
           "type": "narration",
-          "text": "12:26. Rajeev box lekar ghar ki taraf gaya. Uske paas damaged outer parcel ke andar ek bacha hua clothing set, personal item aur papers the. Usne khud koi set nahi nikala.",
-          "highlight": false
+          "text": "12:26. Rajeev box lekar community office ke veranda ki taraf badha. 12:30 ki meeting ke baad hi woh ise ghar le jayega. Andar 1 lace set + dildo + manual bacha hua tha."
+        },
+        {
+          "type": "editor_note",
+          "text": "**Continuity:** Ankita off-screen. Rajeev ne kuch nahi nikala. Morning interruption ab uske private thoughts se linked hai. Reader-only. “Bahu” aur “Uncle” social address hain, actual FIL relation nahi."
         }
       ],
-      "sceneStatus": "DRAFT_AWAITING_USER_REVIEW_NOT_APPROVED",
+      "sceneStatus": "USER_APPROVED_PROSE_PUBLISHED",
       "sceneContinuity": "Ankita off-screen at office. Every clothing removal independent; no one knows other removals. Reader-only imagination is not mutual attraction.",
       "reviewNotes": [
         "The current prose is a working draft pending explicit user scene-by-scene review; the planned action/dialogue is retained as source for comparison."
-      ]
+      ],
+      "rawUserApprovedText": "12:03. Mahendra ne Rajeev ko phone kiya.\n\nMahendra: Rajeev ji, aapki bahu ka personal courier yahan custody mein hai. Seal damage ho gaya tha. Aap le jaayein?\n\nRajeev: Maine toh suna tha gate par hi rakhna tha. Committee office mein kaise pahuncha?\n\nMahendra: Address verification ka issue ho gaya. Main box aapko de raha hoon.\n\nRajeev ne carton nahi khola, lekin loose edge se ek pink lace set, dildo aur instruction manual ke corners dikh gaye. Use pata nahi tha ki pehle 6 sets nikal chuke hain.\n\nUsne box bag mein carefully rakh liya.\n\nBreakfast ka scene yaad aa gaya — Ankita ka fitted tee, uski nazar uske chest par, aur woh adhoora jumla jo Ankita ne beech mein rok diya tha. *“Please stop, Uncle.”*\n\nAb yeh parcel dekhkar uski pehle se dabayi ruchi aur strong ho gayi. Usne socha, *“Shayad main sahi tha. Woh fitness ka khayal rakhti hai… aur shayad ghar mein kuch missing hai.”*\n\nPhir bhi usne khud koi set nahi nikala.\n\nRajeev: Theek hai. Main Ankita ko de dunga. Register mein damage note karwa dijiye.\n\nMahendra: Haan, dekh lenge.\n\n12:26. Rajeev box lekar community office ke veranda ki taraf badha. 12:30 ki meeting ke baad hi woh ise ghar le jayega. Andar 1 lace set + dildo + manual bacha hua tha.\n\n**Continuity:** Ankita off-screen. Rajeev ne kuch nahi nikala. Morning interruption ab uske private thoughts se linked hai. Reader-only. “Bahu” aur “Uncle” social address hain, actual FIL relation nahi.",
+      "origin": "User-submitted P07–P08 revised final with minimal corrected Rajeev handoff timing and social-family role metadata",
+      "readerOnlyThoughts": true
     },
     {
       "id": "P08",
@@ -1065,7 +1072,7 @@
         "Mahendra Suri"
       ],
       "title": "Six Men, Six Different Secrets",
-      "action": "In a committee gathering the five fathers-in-law and chairman discuss an improper rumour about Kabir and Ankita's marriage. The four visiting elders have each kept a separate set and hide that fact from everyone else. Rajeev hears suggestive questions without learning the theft chain. Mahendra avoids acknowledging his own removal.",
+      "action": "Six adults socially presented as household elders or committee figures discuss the private parcel and possible marital rumour; none are actual biological/legal FIL. Gopal remains on gate duty. They conceal their independent secrets; Rajeev takes the box home after 12:50.",
       "dialogue": [
         [
           "Om",
@@ -1087,93 +1094,84 @@
       "herReaction": "Ankita absent and unaware of gossip.",
       "privateThought": "Each man now has a different self-serving interpretation of private information; none has evidence of an unhappy marriage.",
       "hooks": [
-        "They are all aware something private was exposed, but unaware of each other's secret removals. Rajeev begins suspecting impropriety."
+        "Seven separate one-sided thoughts, six concealed clothing removals, one remaining set with Rajeev. No shared conspiracy; Ankita is unaware."
       ],
       "prose": [
         {
           "type": "narration",
-          "text": "12:30. Committee-office veranda mein Mahendra, Om, Subhash, Mohan, Arvind aur Rajeev ek routine society discussion ke liye mile. Gopal gate duty par hi tha; woh iss meeting mein nahi aaya.",
-          "highlight": false
+          "text": "12:30. Veranda par routine meeting. Gopal gate par tha."
         },
         {
           "type": "dialogue",
           "speaker": "Om",
-          "text": "Subah courier-log mein itna confusion kis baat ka tha?",
-          "highlight": false
+          "text": "Subah courier-log mein itna confusion kis baat ka tha?"
         },
         {
           "type": "dialogue",
           "speaker": "Mahendra",
-          "text": "Address problem tha. Rajeev ji ne parcel collect kar liya.",
-          "highlight": false
+          "text": "Address problem tha. Rajeev ji ne parcel collect kar liya."
         },
         {
           "type": "dialogue",
           "speaker": "Subhash",
-          "text": "Personal parcels ko committee table par rakhna hi nahi chahiye.",
-          "highlight": false
+          "text": "Personal parcels ko committee table par rakhna hi nahi chahiye."
         },
         {
           "type": "dialogue",
           "speaker": "Mohan",
-          "text": "Haan, warna log apne-apne matlab nikaalte hain.",
-          "highlight": false
+          "text": "Haan, warna log apne-apne matlab nikaalte hain."
         },
         {
           "type": "narration",
-          "text": "Kisi ne doosre ke bag ki taraf nahi dekha. Har ek aadmi ke paas apna chhupaya hua reason tha ki conversation jaldi khatam ho.",
-          "highlight": false
+          "text": "Kisi ne doosre ke bag ki taraf nahi dekha."
         },
         {
           "type": "dialogue",
           "speaker": "Arvind",
-          "text": "Naam aate hi log sawal poochne lagte hain. Kabir aur Ankita ke ghar ki baat bhi chhed denge.",
-          "highlight": false
+          "text": "Naam aate hi log sawal poochne lagte hain. Kabir aur Ankita ke ghar ki baat bhi chhed denge."
         },
         {
           "type": "dialogue",
-          "speaker": "Rajeev",
-          "text": "Ghar ki koi problem mere saamne nahi hai. Bina jaane kuch assume mat kariye.",
-          "highlight": true
+          "speaker": "Rajeev (thoda tight)",
+          "text": "Ghar ki koi problem mere saamne nahi hai. Bina jaane kuch assume mat kariye."
         },
         {
           "type": "dialogue",
           "speaker": "Mahendra",
-          "text": "Bilkul. Lekin personal baatein personal hi rahni chahiye.",
-          "highlight": false
+          "text": "Bilkul. Personal baatein personal hi rahni chahiye."
         },
         {
           "type": "dialogue",
           "speaker": "Om",
-          "text": "Tab toh humein sabse pehle apne hi questions bandh karne chahiye.",
-          "highlight": false
-        },
-        {
-          "type": "narration",
-          "text": "Ek pal ke liye sab chup rahe. Subhash ne file band ki; Mohan ne cup seedha kiya. Mahendra ne register ki taraf dekhna shuru kar diya, jaise waqt se pehle discussion khatam karna chahta ho.",
-          "highlight": false
+          "text": "Tab toh humein apne hi questions bandh karne chahiye."
         },
         {
           "type": "private_thought",
-          "text": "Mahendra ko apni private curiosity yaad thi; Om, Subhash, Mohan aur Arvind apne-apne secret ko normal chehron ke peeche chhupa rahe the. Rajeev ghar ki taraf se sach jaane bina sochta raha. Gopal door gate par akela apni hi kalpana mein tha.",
+          "text": "Ek pal sab chup rahe.\nMahendra ko apni file bag yaad thi. Om, Subhash, Mohan, Arvind apne-apne chhupaye sets ke baare mein soch rahe the. Rajeev breakfast wale interrupted moment aur ab box ke andar ki cheezon ko yaad kar raha tha. Gopal door akela tha.",
           "highlight": true
         },
         {
           "type": "private_thought",
-          "text": "Saat alag minds, saat ek-tarfa attractions—lekin Ankita ko inmein se kisi ki private soch, kisi removal, kisi gossip ka pata nahi tha.",
+          "text": "Saat alag minds. Saat ek-tarfa soch. Ankita ko kisi baat ka pata nahi tha.",
           "highlight": true
         },
         {
           "type": "narration",
-          "text": "12:50. Meeting toot gayi. Kisi ko nahi pata chala ki doosre ne bhi clothing set liya hai. Ankita Cyber City office mein thi, abhi bhi production-release work par focused; reader ke paas saat alag future hooks aur ek missing-parcel mystery reh gayi.",
-          "highlight": true
+          "text": "12:50. Meeting toot gayi. Kisi ko nahi pata chala ki doosre ne bhi set liya hai. Rajeev ab box lekar ghar ki taraf nikla."
+        },
+        {
+          "type": "editor_note",
+          "text": "**Continuity:** Ankita off-screen. No one knows others’ removals. Rajeev’s morning history quietly linked. Reader-only. All apparent elder–woman family roles are social, not actual father-in-law relationships."
         }
       ],
-      "sceneStatus": "DRAFT_AWAITING_USER_REVIEW_NOT_APPROVED",
+      "sceneStatus": "USER_APPROVED_PROSE_PUBLISHED",
       "sceneContinuity": "Ankita off-screen at office. Every clothing removal independent; no one knows other removals. Reader-only imagination is not mutual attraction.",
       "reviewNotes": [
         "The current prose is a working draft pending explicit user scene-by-scene review; the planned action/dialogue is retained as source for comparison."
-      ]
+      ],
+      "rawUserApprovedText": "12:30. Veranda par routine meeting. Gopal gate par tha.\n\nOm: Subah courier-log mein itna confusion kis baat ka tha?\n\nMahendra: Address problem tha. Rajeev ji ne parcel collect kar liya.\n\nSubhash: Personal parcels ko committee table par rakhna hi nahi chahiye.\n\nMohan: Haan, warna log apne-apne matlab nikaalte hain.\n\nKisi ne doosre ke bag ki taraf nahi dekha.\n\nArvind: Naam aate hi log sawal poochne lagte hain. Kabir aur Ankita ke ghar ki baat bhi chhed denge.\n\nRajeev (thoda tight): Ghar ki koi problem mere saamne nahi hai. Bina jaane kuch assume mat kariye.\n\nMahendra: Bilkul. Personal baatein personal hi rahni chahiye.\n\nOm: Tab toh humein apne hi questions bandh karne chahiye.\n\nEk pal sab chup rahe.\nMahendra ko apni file bag yaad thi. Om, Subhash, Mohan, Arvind apne-apne chhupaye sets ke baare mein soch rahe the. Rajeev breakfast wale interrupted moment aur ab box ke andar ki cheezon ko yaad kar raha tha. Gopal door akela tha.\n\nSaat alag minds. Saat ek-tarfa soch. Ankita ko kisi baat ka pata nahi tha.\n\n12:50. Meeting toot gayi. Kisi ko nahi pata chala ki doosre ne bhi set liya hai. Rajeev ab box lekar ghar ki taraf nikla.\n\n**Continuity:** Ankita off-screen. No one knows others’ removals. Rajeev’s morning history quietly linked. Reader-only. All apparent elder–woman family roles are social, not actual father-in-law relationships.",
+      "origin": "User-submitted P07–P08 revised final with minimal corrected Rajeev handoff timing and social-family role metadata",
+      "readerOnlyThoughts": true
     }
   ],
   "continuity": {
@@ -1183,7 +1181,7 @@
     "tally": "7 sets initially; 6 separate removals (Gopal, Mahendra, Om, Subhash, Mohan, Arvind = 1 each); 1 set remains in Rajeev's box. Rajeev individually removes 0.",
     "sharedCast": "Sharmi has a brief 07:47 lobby interaction before Ankita's 08:05 departure, connecting the shared society friend without forcing her into parcel knowledge.",
     "currentEpisodeCutoff": "2026-01-01 13:00",
-    "lastVisibleScene": "P08 12:30–12:50 (working draft, not approved)",
+    "lastVisibleScene": "P08 12:30–12:50 (USER APPROVED), Rajeev leaves after committee ends",
     "ankitaEndState": "At Cyber City office through the Jan 1 13:00 cutoff. No A09 or A10 on Jan 1; those are deferred to Jan 2, episode TBD.",
     "deferredFile": "episode-03-ankita-pending.json",
     "deferredIds": [
@@ -1207,7 +1205,7 @@
       "uiInstruction": "Remove from Jan 1 EP02 clock and do not publish until future episode chosen."
     },
     "parcelPublication": {
-      "status": "P01_P06_USER_APPROVED_P07_P08_DRAFT",
+      "status": "P01_P08_USER_APPROVED_FINAL",
       "ui": "episode-02.html?tab=ankita-prose#parcel-p01",
       "officeActorsAbsent": "Ankita physically absent 09:55–12:50",
       "womenKnowledge": "Ankita unaware of parcel opening or removals",
@@ -1220,7 +1218,7 @@
         "Arvind": 1,
         "Rajeev": 0
       },
-      "approval": "AWAITING_USER_DISCUSSION_SCENE_BY_SCENE",
+      "approval": "P01–P08 user-provided/corrected final scenes, social elder relationship corrected",
       "finalInventory": {
         "initialSets": 7,
         "removedSets": 6,
@@ -1232,12 +1230,11 @@
         "P03",
         "P04",
         "P05",
-        "P06"
-      ],
-      "reviewPendingIds": [
+        "P06",
         "P07",
         "P08"
-      ]
+      ],
+      "reviewPendingIds": []
     },
     "parcelReviewPriority": [
       "P01 narrative linkage with A07 and P02",
