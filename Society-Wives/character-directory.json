@@ -11,7 +11,7 @@
     ],
     "excluded": "Old Society_Story Drive/archive canon is excluded. Dhika only a storytelling analogy.",
     "changePolicy": "Never silently turn a proposal into a locked relationship, add a twin relationship, change relatives, or bypass direct user corrections. Flag actual continuity conflicts and get user decision.",
-    "lastCorrection": "2026-11-12: Mohan (64) corrected to unrelated guest from old-age home, called Uncle ji by Meenakshi. Not Nikhil's father or Meenakshi's FIL. Background should not yet be revealed to readers.",
+    "lastCorrection": "2026-11-12: User corrected all older male apparent FIL roles to assumed/pretended family relationships, NO actual biological/legal FIL; older specific backstories not invented. Earlier Mohan/Arvind unrelated-guest corrections remain valid.",
     "shreyaCorrection": "2026-11-12: Shruti (23) replaces prior Naina sister record, Shreya 33 Police Inspector, Samar/Shaan 24 twins. EP02 working plot published to common UI, cutoff 13:15 station; no final prose."
   },
   "leads": [
@@ -134,13 +134,18 @@
       "id": "rajeev",
       "name": "Rajeev",
       "age": 61,
-      "role": "Ankita’s father-in-law",
+      "role": "Older household associate, socially addressed as Papa/Uncle; not Kabir's actual father or Ankita's father-in-law",
       "group": "family",
       "house": "ankita",
       "sourceStatus": "CURRENT_ATLAS",
       "notes": "Original new-universe Atlas roster, subject to user refinements",
       "residence": "Shared Gulmohar Heights family apartment.",
-      "storyStatus": "NEW_EP02_WORKING_DECISION"
+      "storyStatus": "NEW_EP02_WORKING_DECISION",
+      "actualFil": false,
+      "actualBiologicalOrLegalFatherOfPartner": false,
+      "inStoryFamilyRole": "Socially assumed elder/uncle role; household's presented family story is not literal",
+      "exactReasonForArrangement": "TBD: Do not invent",
+      "roleCorrection": "2026-11-12 direct user instruction"
     },
     {
       "id": "rhea",
@@ -186,11 +191,16 @@
       "id": "om",
       "name": "Om",
       "age": 63,
-      "role": "Shivani’s father-in-law",
+      "role": "Older household associate, socially treated as Shivani's family elder; not Rohan's actual father or Shivani's father-in-law",
       "group": "family",
       "house": "shivani",
       "sourceStatus": "CURRENT_ATLAS",
-      "notes": "Original new-universe Atlas roster, subject to user refinements"
+      "notes": "Original new-universe Atlas roster, subject to user refinements",
+      "actualFil": false,
+      "actualBiologicalOrLegalFatherOfPartner": false,
+      "inStoryFamilyRole": "Socially assumed elder/uncle role; household's presented family story is not literal",
+      "exactReasonForArrangement": "TBD: Do not invent",
+      "roleCorrection": "2026-11-12 direct user instruction"
     },
     {
       "id": "tara",
@@ -246,11 +256,16 @@
       "id": "subhash",
       "name": "Subhash",
       "age": 59,
-      "role": "Aditya’s father / future FIL",
+      "role": "Older household associate presented as Aditya's father; not his actual father or Taniya's future father-in-law",
       "group": "family",
       "house": "taniya",
       "sourceStatus": "CURRENT_ATLAS",
-      "notes": "Original new-universe Atlas roster, subject to user refinements"
+      "notes": "Original new-universe Atlas roster, subject to user refinements",
+      "actualFil": false,
+      "actualBiologicalOrLegalFatherOfPartner": false,
+      "inStoryFamilyRole": "Socially assumed elder/uncle role; household's presented family story is not literal",
+      "exactReasonForArrangement": "TBD: Do not invent",
+      "roleCorrection": "2026-11-12 direct user instruction"
     },
     {
       "id": "nikhil",
@@ -286,14 +301,19 @@
       "id": "mohan",
       "name": "Mohan",
       "age": 64,
-      "role": "Unrelated older household guest (addressed as Uncle ji)",
+      "role": "Unrelated older household guest called Uncle ji; not Nikhil's father or Meenakshi's father-in-law",
       "group": "family",
       "house": "meenakshi",
       "sourceStatus": "USER_CONFIRMED_CHARACTER_DIRECTION",
       "notes": "Older man from an old-age home, accepted into the household; not a blood relative or father-in-law. His background is a reader-facing secret for now.",
       "characterDirection": "Concealed one-sided sexual interest toward Meenakshi; Meenakshi does not reciprocate",
       "storyStatus": "USER_CONFIRMED_INTEREST; UNAPPROVED_EP02_ACTIONS",
-      "relationshipToMeenakshi": "Familiar household guest; she calls him Uncle ji"
+      "relationshipToMeenakshi": "Familiar household guest; she calls him Uncle ji",
+      "actualFil": false,
+      "actualBiologicalOrLegalFatherOfPartner": false,
+      "inStoryFamilyRole": "Socially assumed elder/uncle role; household's presented family story is not literal",
+      "exactReasonForArrangement": "Old-age-home guest accepted into household (established); full background unrevealed",
+      "roleCorrection": "2026-11-12 direct user instruction"
     },
     {
       "id": "vihaan",
@@ -339,11 +359,16 @@
       "id": "arvind",
       "name": "Arvind",
       "age": 65,
-      "role": "Shreya’s father-in-law",
+      "role": "Older household associate addressed as Uncle; not Vikram's father or Shreya's father-in-law",
       "group": "family",
       "house": "shreya",
       "sourceStatus": "CURRENT_ATLAS",
-      "notes": "Original new-universe Atlas roster, subject to user refinements"
+      "notes": "Original new-universe Atlas roster, subject to user refinements",
+      "actualFil": false,
+      "actualBiologicalOrLegalFatherOfPartner": false,
+      "inStoryFamilyRole": "Socially assumed elder/uncle role; household's presented family story is not literal",
+      "exactReasonForArrangement": "Past accident/hospitalization and household support (established); further details unrevealed",
+      "roleCorrection": "2026-11-12 direct user instruction"
     },
     {
       "id": "anaya",
@@ -1181,7 +1206,7 @@
       "fromWoman": 0,
       "fromMan": 2,
       "importance": 4,
-      "how": "Her father-in-law; family gatherings and shared household.",
+      "how": "Socially presented elder (not actual FIL); family gatherings and shared household.",
       "why": "Proposed one-sided latent attraction to her mature confidence; Ankita’s side is family respect only.",
       "kind": "family",
       "state": "proposal"
@@ -1401,7 +1426,7 @@
       "fromWoman": 0,
       "fromMan": 1,
       "importance": 4,
-      "how": "Father-in-law and family elder.",
+      "how": "Socially presented household elder (not actual FIL).",
       "why": "Care and family respect, not an attraction arc.",
       "kind": "family",
       "state": "proposal"
@@ -1522,7 +1547,7 @@
       "fromWoman": 0,
       "fromMan": 2,
       "importance": 3,
-      "how": "Ankita’s FIL; cultural committee and family events.",
+      "how": "Ankita's socially addressed older household associate (not actual FIL); cultural committee and family events.",
       "why": "Rajeev is privately drawn to Shivani’s warmth.",
       "kind": "cross",
       "state": "proposal"
@@ -1621,7 +1646,7 @@
       "fromWoman": 0,
       "fromMan": 1,
       "importance": 3,
-      "how": "Future father-in-law.",
+      "how": "Socially presented future household elder (not an actual FIL).",
       "why": "Family respect; no attraction proposed.",
       "kind": "family",
       "state": "proposal"
@@ -1910,7 +1935,7 @@
       "fromWoman": 0,
       "fromMan": 2,
       "importance": 3,
-      "how": "Ankita’s FIL; society welfare/health-camp work.",
+      "how": "Ankita's socially addressed older household associate (not actual FIL); society welfare/health-camp work.",
       "why": "Rajeev quietly appreciates her compassionate confidence.",
       "kind": "cross",
       "state": "proposal"
@@ -1987,7 +2012,7 @@
       "fromWoman": 0,
       "fromMan": 1,
       "importance": 4,
-      "how": "Father-in-law; retired service network.",
+      "how": "Socially addressed uncle (not actual FIL); retired service network.",
       "why": "Mutual family regard, no romance proposed.",
       "kind": "family",
       "state": "proposal"
@@ -2152,7 +2177,7 @@
       "fromWoman": 0,
       "fromMan": 1,
       "importance": 3,
-      "how": "Ankita’s FIL at community safety meetings.",
+      "how": "Ankita's socially addressed older household associate (not actual FIL) at community safety meetings.",
       "why": "He admires her authority, but romantic interest is not proposed yet.",
       "kind": "cross",
       "state": "proposal"
@@ -2316,30 +2341,36 @@
     {
       "lead": "ankita",
       "spouse": "kabir",
-      "fil": "rajeev",
       "devars": [
         "karan",
         "aman"
       ],
-      "comment": "Karan and Aman are confirmed twins (22), both reside in the shared Ankita/Kabir/Rajeev home in the Jan 1 working draft; Karan MBA/freelancing, Aman Java interview preparation."
+      "comment": "Karan and Aman are confirmed twins (22), both reside in the shared Ankita/Kabir/Rajeev home in the Jan 1 working draft; Karan MBA/freelancing, Aman Java interview preparation.",
+      "socialElder": "rajeev",
+      "elderRoleIsActualFIL": false,
+      "socialFamilyNote": "Older man is presented/addressed as family, but NOT an actual father or father-in-law. Exact association story not fully disclosed."
     },
     {
       "lead": "shivani",
       "spouse": "rohan",
-      "fil": "om",
       "devars": [
         "manav"
       ],
-      "comment": "Shivani, 31, is a college lecturer (not school teacher); Rohan husband, Om FIL, Manav single devar, Kavya sister, Tara young daughter. Two separate favorite college students Harsh and Laksh, 22, are confirmed twins; Ayaan/Armaan remain UNCONFIRMED society duo."
+      "comment": "Shivani, 31, is a college lecturer (not school teacher); Rohan husband, Om is socially regarded as the family elder (not an actual FIL), Manav single devar, Kavya sister, Tara young daughter. Two separate favorite college students Harsh and Laksh, 22, are confirmed twins; Ayaan/Armaan remain UNCONFIRMED society duo.",
+      "socialElder": "om",
+      "elderRoleIsActualFIL": false,
+      "socialFamilyNote": "Older man is presented/addressed as family, but NOT an actual father or father-in-law. Exact association story not fully disclosed."
     },
     {
       "lead": "taniya",
       "spouse": "aditya",
-      "fil": "subhash",
       "devars": [
         "mihir"
       ],
-      "comment": "Aditya is a fiancé; Subhash and Mihir are future in-laws."
+      "comment": "Aditya is a fiancé; Subhash is a socially presented elder, not an actual future in-law; Mihir's other role is unchanged.",
+      "socialElder": "subhash",
+      "elderRoleIsActualFIL": false,
+      "socialFamilyNote": "Older man is presented/addressed as family, but NOT an actual father or father-in-law. Exact association story not fully disclosed."
     },
     {
       "lead": "meenakshi",
@@ -2348,16 +2379,20 @@
         "dev"
       ],
       "comment": "Nikhil is husband; Mohan is an unrelated, adopted-in household guest called Uncle ji, not father-in-law. His one-sided interest is reader-only; Dev remains adult devar, Ishita younger sister, Vihaan toddler family-only. Uday and Utkarsh are society twins.",
-      "householdGuest": "mohan"
+      "householdGuest": "mohan",
+      "elderRoleIsActualFIL": false,
+      "socialFamilyNote": "Older man is presented/addressed as family, but NOT an actual father or father-in-law. Exact association story not fully disclosed."
     },
     {
       "lead": "shreya",
       "spouse": "vikram",
-      "fil": "arvind",
       "devars": [
         "sameer"
       ],
-      "comment": "Sameer is one adult devar, not a twin pair."
+      "comment": "Sameer is one adult devar, not a twin pair.",
+      "socialElder": "arvind",
+      "elderRoleIsActualFIL": false,
+      "socialFamilyNote": "Older man is presented/addressed as family, but NOT an actual father or father-in-law. Exact association story not fully disclosed."
     }
   ],
   "ankitaFILInterests": [
@@ -2365,31 +2400,36 @@
       "id": "rajeev",
       "lead": "ankita",
       "directInterestedInAnkita": "PROPOSED_LATENT_ONE_SIDED",
-      "currentDescription": "Ankita's own FIL; one-sided attraction proposal"
+      "currentDescription": "Ankita's socially presented older household associate (NOT actual FIL); one-sided attraction proposal",
+      "actualFIL": false
     },
     {
       "id": "om",
       "lead": "shivani",
       "directInterestedInAnkita": "NOT_DEFINED_IN_ATLAS",
-      "currentDescription": "Another woman's FIL; no established direction toward Ankita"
+      "currentDescription": "Another household's socially presented elder (NOT actual FIL); no established direction toward Ankita",
+      "actualFIL": false
     },
     {
       "id": "subhash",
       "lead": "taniya",
       "directInterestedInAnkita": "NOT_DEFINED_IN_ATLAS",
-      "currentDescription": "Another woman's FIL; no established direction toward Ankita"
+      "currentDescription": "Another household's socially presented elder (NOT actual FIL); no established direction toward Ankita",
+      "actualFIL": false
     },
     {
       "id": "mohan",
       "lead": "meenakshi",
       "directInterestedInAnkita": "NOT_DEFINED_IN_ATLAS",
-      "currentDescription": "Unrelated older guest in Meenakshi's household, NOT her father-in-law; no established direction toward Ankita"
+      "currentDescription": "Unrelated older guest in Meenakshi's household, NOT her actual father-in-law; no established direction toward Ankita",
+      "actualFIL": false
     },
     {
       "id": "arvind",
       "lead": "shreya",
       "directInterestedInAnkita": "NOT_DEFINED_IN_ATLAS",
-      "currentDescription": "Another woman's FIL; no established direction toward Ankita"
+      "currentDescription": "Another household's socially presented elder (NOT actual FIL); no established direction toward Ankita",
+      "actualFIL": false
     }
   ],
   "sharedCharacters": [
@@ -2412,7 +2452,7 @@
     "status": "USER_DIRECTED_SCENE_ARCHITECTURE_WITH_WORKING_DETAILS",
     "when": "Thursday 2026-01-01, after Ankita's 08:05 departure, while she is in the Cyber City office",
     "contents": {
-      "setsOfPinkInnerwear": "6 pink innerwear sets chosen to satisfy six private removals",
+      "setsOfPinkInnerwear": "7 sets initially (P01 confirmed); six independent removals, one set remains with Rajeev.",
       "adultPersonalItem": "One pink adult personal item, plus instructions, from the user-approved plot",
       "orderReason": "Ankita and Kabir chose it together; keep this hidden from the reader initially"
     },
@@ -2509,12 +2549,12 @@
       {
         "id": "om",
         "category": "FAMILY_RESPECT_NO_ATTRACTION",
-        "why": "Shivani's own FIL. Original Atlas records care/family respect (fromMan 1/5), not sexual or romantic interest."
+        "why": "Shivani's socially presented elder (NOT actual FIL). Original Atlas records care/family respect (fromMan 1/5), not sexual or romantic interest."
       },
       {
         "id": "rajeev",
         "category": "ONE_SIDED_INTEREST_PROPOSED",
-        "why": "Ankita's FIL (61); Atlas says privately drawn to Shivani's warmth (fromMan 2/5), without reciprocity or action."
+        "why": "Ankita household's socially presented elder (NOT actual FIL) (61); Atlas says privately drawn to Shivani's warmth (fromMan 2/5), without reciprocity or action."
       },
       {
         "id": "mahendra",
@@ -2773,5 +2813,21 @@
     "m02m03ProsePath": "episode-02-meenakshi-m02-m03.html",
     "m01F02InReader": "episode-02-meenakshi-m01.html#m01-f02",
     "m04m05ProsePath": "episode-02-meenakshi.html#m04"
+  },
+  "socialFamilyCanon": {
+    "version": "2026-11-12-SOCIAL-FAMILY-NOT-BIOLOGICAL",
+    "writerCanon": "No older male 'Uncle', 'Papa', or apparent father-in-law associated with any of the female leads is her actual biological, legal, or marital father-in-law. They have distinct, currently undisclosed reasons for sharing a home or presenting as family. Public forms of address (Papa, Uncle ji, bahu, FIL) are social performance, not evidence of legal or blood relationships.",
+    "socialStatus": "ASSUMED_OR_PRETENDED_FAMILY_ROLE",
+    "actualRelation": "NO_ACTUAL_FATHER_IN_LAW",
+    "backstories": "INDIVIDUAL_REASONS_UNDISCLOSED; do not invent before user establishes",
+    "scope": [
+      "rajeev",
+      "om",
+      "subhash",
+      "mohan",
+      "arvind"
+    ],
+    "existingExceptions": "Shreya/Arvind hospitalization connection and Meenakshi/Mohan old-age-home guest connection remain preserved where previously established. Husband/wife relationships are not changed by this instruction.",
+    "oldSchemaNote": "Legacy interest-array field 'ankitaFILInterests' is retained for UI/data compatibility ONLY; 'FIL' in its name is no longer a factual relationship claim."
   }
 }
