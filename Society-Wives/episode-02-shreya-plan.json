@@ -101,7 +101,7 @@
       },
       {
         "id": "rajeev",
-        "role": "Ankita's father-in-law",
+        "role": "Ankita's socially addressed older household associate (not an actual FIL)",
         "age": 61
       },
       {
@@ -324,14 +324,14 @@
         "shreya",
         "rajeev"
       ],
-      "summary": "Rajeev, Ankita's 61-year-old father-in-law, greets Shreya after his 07:19–07:34 family event. He notices her poise and uniform in a brief exchange.",
+      "summary": "Rajeev, 61, an older associate socially presented as Ankita's household elder (not actual FIL), greets Shreya after his 07:19–07:34 family event. He notices her poise and uniform in a brief exchange.",
       "beats": [
         "One-sided interest is a possibility, not a confirmed reciprocal relationship.",
         "Rajeev has no parcel-committee obligations until 12:03, so he is free at this moment."
       ],
       "dialogue": [
         [
-          "Rajeev (61, Ankita's FIL)",
+          "Rajeev (61, Ankita household's socially presented elder)",
           "Inspector sahiba, New Year mein bhi duty?"
         ],
         [
