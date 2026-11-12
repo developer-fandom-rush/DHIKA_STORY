@@ -474,7 +474,10 @@
       "group": "society",
       "house": "shreya",
       "sourceStatus": "CURRENT_ATLAS",
-      "notes": "Original new-universe Atlas roster, subject to user refinements"
+      "notes": "User reserved Chintu for Shreya next episode; no current EP02 SR04 encounter. Build rapport from scratch, not by copying Dhika–Chotu history.",
+      "storyStatus": "USER_MARKED_NEXT_EPISODE_SHREYA_RECURRING_ARC",
+      "nextEpisode": "Shreya Episode 03",
+      "arcRole": "Recurring young adult society helper; loose Dhika–Chotu-type narrative role with Shreya, separate identity and independent history."
     },
     {
       "id": "samar",
@@ -2023,10 +2026,10 @@
       "fromWoman": 0,
       "fromMan": 1,
       "importance": 3,
-      "how": "Society security and operations helper.",
-      "why": "Professional respect and community rapport.",
+      "how": "Next-episode recurring Shreya × Chintu arc via society helper duties; deliberately deferred from EP02 SR04.",
+      "why": "User-requested emerging rapport and admiration (Dhika–Chotu archetype parallel); no existing intimacy assumed.",
       "kind": "society",
-      "state": "proposal"
+      "state": "USER_MARKED_EP03_PENDING"
     },
     {
       "w": "shreya",
