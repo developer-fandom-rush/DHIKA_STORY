@@ -1447,11 +1447,13 @@ function normalize(){
  return [...a,...sh,...ts,...me,...sr].sort((x,y)=>x.sort.localeCompare(y.sort)||x.title.localeCompare(y.title));
 }
 function oneCard(e){
- const words=[e.lead==='sisters'?'Taniya + Soniya':sourceLabel(e.lead),e.status];
+ const actual=swStatus(e),group=swGroup(e),who=swLabels[group]||sourceLabel(e.lead);
  const details=[...(e.beats||[]),...(e.notes||[])];
  const dialogue=(e.dialogue||[]).map(x=>Array.isArray(x)?'<b>'+esc(x[0])+':</b> '+esc(x[1]):esc(x));
  const expandable=(details.length||dialogue.length)?'<details class="details"><summary>Dialogue, reactions &amp; continuity ('+(details.length+dialogue.length)+')</summary>'+(details.length?'<ul>'+details.map(x=>'<li>'+esc(x)+'</li>').join('')+'</ul>':'')+(dialogue.length?'<div class="dialogue">'+dialogue.join('<div style="margin-top:6px"></div>')+'</div>':'')+'</details>':'';
- return '<article class="entry" data-lead="'+esc(e.lead)+'"><div><div class="when">'+esc(e.time)+'</div><div class="lane">'+esc(e.lane)+'</div></div><div><div>'+badge(words[0])+' '+badge(words[1],/^APPROVED/.test(e.status)?'approved':/PROPOSED/.test(e.status)?'proposed':'')+'</div><h3>'+esc(e.title)+'</h3><div class="cast">'+esc(e.place||'')+' · '+peopleString(e.cast)+'</div><p>'+esc(e.summary||'')+'</p>'+expandable+(e.id==='shreya-SR01'?'<p><a href="?tab=shreya-prose"><strong>Read Shreya SR01 — illustrated full prose</strong></a></p>':'')+((e.id==='ankita-A02'||e.id==='ankita-A03'||e.id==='ankita-A04'||e.id==='ankita-A05'||e.id==='ankita-A06'||e.id==='ankita-A07'||e.id==='ankita-A08')?'<p><a href="?tab=ankita-prose"><strong>Read Ankita Scenes 1–8 (A05 submitted)</strong></a></p>':/^ankita-P0[1-8]$/.test(e.id)?'<p><a href="?tab=parcel-prose#parcel-'+e.id.slice(-3).toLowerCase()+'"><strong>Read full parcel scene '+esc(e.id.slice(-3))+'</strong></a></p>':'')+'</div></article>';
+ const kind=actual.kind==='done'?'approved':actual.kind==='review'?'proposed':'';
+ const link='<p><a href="'+swSceneLink(e)+'"><strong>'+(actual.parts?'Read published story in this UI':'Open this lead in the same UI')+'</strong></a></p>';
+ return '<article class="entry" data-lead="'+esc(e.lead)+'"><div><div class="when">'+esc(e.time)+'</div><div class="lane">'+esc(e.lane)+'</div></div><div><div>'+badge(who)+' '+badge(actual.text,kind)+'</div><h3>'+esc(e.title)+'</h3><div class="cast">'+esc(e.place||'')+' · '+peopleString(e.cast)+'</div><p>'+esc(e.summary||'')+'</p>'+expandable+link+'</div></article>';
 }
 function matchesLead(e,lead){if(!lead)return true;if(e.lead===lead)return true;if(e.lead==='sisters'&&(lead==='taniya'||lead==='soniya'))return (e.cast||[]).map(x=>String(x).toLowerCase()).includes(lead);return false}
 function renderClock(){
@@ -1524,20 +1526,31 @@ const swPublished={
  'ankita-A04':{kind:'done',text:'Approved',parts:['ankita-a04-scene-4']},
  'ankita-A06':{kind:'done',text:'Approved',parts:['ankita-a06-scene-6']},
  'ankita-A07':{kind:'done',text:'Approved',parts:['ankita-a07-scene-7']},
+ 'ankita-A08':{kind:'done',text:'Final user-authored prose',parts:['ankita-a08-scene-8']},
+ 'ankita-P01':{kind:'done',text:'Completed parcel story',parts:['parcel-p01']},
+ 'ankita-P02':{kind:'done',text:'Completed parcel story',parts:['parcel-p02']},
+ 'ankita-P03':{kind:'done',text:'Completed parcel story',parts:['parcel-p03']},
+ 'ankita-P04':{kind:'done',text:'Completed parcel story',parts:['parcel-p04']},
+ 'ankita-P05':{kind:'done',text:'Completed parcel story',parts:['parcel-p05']},
+ 'ankita-P06':{kind:'done',text:'Completed parcel story',parts:['parcel-p06']},
+ 'ankita-P07':{kind:'done',text:'Completed parcel story',parts:['parcel-p07']},
+ 'ankita-P08':{kind:'done',text:'Completed parcel story',parts:['parcel-p08']},
  'shivani-A02':{kind:'done',text:'Approved',parts:['shivani-a02-prose']},
  'shivani-A03':{kind:'done',text:'Approved + image',parts:['shivani-a03-photo-story']},
  'shivani-A04':{kind:'done',text:'Two-line scene completed',mini:'08:10 AM — Kavya ghar pahunchi aur Tara ki childcare responsibility sambhal li. Shivani ne college bag uthaya, dono ko goodbye kaha aur 08:15 par parking ki taraf nikal gayi.'},
- 'sisters-TS01':{kind:'done',text:'Published draft · review',parts:['taniya-soniya-ts01']},
- 'sisters-TS02':{kind:'done',text:'Published draft · review',parts:['taniya-soniya-ts02']},
- 'meenakshi-M01':{kind:'done',text:'Published for review',url:'./episode-02-meenakshi.html'},
- 'meenakshi-M02':{kind:'done',text:'Approved',url:'./episode-02-meenakshi-m02-m03.html'},
- 'meenakshi-M03':{kind:'done',text:'Approved',url:'./episode-02-meenakshi-m02-m03.html'},
+ 'meenakshi-M02':{kind:'done',text:'Approved',parts:['meenakshi-m02-story']},
+ 'meenakshi-M03':{kind:'done',text:'Approved',parts:['meenakshi-m03-story']},
+ 'meenakshi-M04':{kind:'done',text:'User-accepted prose published',parts:['meenakshi-m04-story']},
  'shreya-SR01':{kind:'done',text:'Published · revised',parts:['shreya-sr01-scene']},
  'shreya-SR02A':{kind:'done',text:'Part 1 published',parts:['shreya-sr02a-vivek']},
  'shreya-SR02B':{kind:'done',text:'Part 2 published',parts:['shreya-sr02b-home']}
 };
 const swSpecial={
- 'ankita-A05':{kind:'review',text:'User-submitted · incomplete review',parts:['ankita-a05-scene-5']},
+ 'ankita-A05':{kind:'review',text:'User-submitted · continuity review',parts:['ankita-a05-scene-5']},
+ 'sisters-TS01':{kind:'review',text:'Published user draft · review',parts:['taniya-soniya-ts01']},
+ 'sisters-TS02':{kind:'review',text:'Published user draft · review',parts:['taniya-soniya-ts02']},
+ 'meenakshi-M01':{kind:'review',text:'User-supplied prose · review',parts:['meenakshi-m01-story']},
+ 'meenakshi-M05':{kind:'review',text:'User-revised prose published · review',parts:['meenakshi-m05-story']},
  'shivani-A05':{kind:'hold',text:'Draft discussed · wait for SR05 continuity'}
 };
 const swLabels={ankita:'Ankita',shivani:'Shivani',sisters:'Taniya + Soniya',meenakshi:'Meenakshi',shreya:'Shreya'};
@@ -1545,6 +1558,20 @@ let swMode=(new URLSearchParams(location.search).get('view')||'pending');
 if(!['pending','done','all'].includes(swMode))swMode='pending';
 const swGroup=e=>(e.lead==='taniya'||e.lead==='soniya'||e.lead==='sisters')?'sisters':e.lead;
 const swStatus=e=>swPublished[e.id]||swSpecial[e.id]||{kind:'pending',text:'Planned · prose pending'};
+function swPanelFor(e){
+ const id=e.id||'',g=swGroup(e);
+ if(/^ankita-P0[1-8]$/.test(id))return 'parcel-prose';
+ if(g==='ankita')return 'ankita-prose';
+ if(g==='shivani')return id==='shivani-A03'?'shivani-a03-prose':/shivani-A0[24]/.test(id)?'shivani-prose':'leads';
+ if(g==='sisters')return /^sisters-TS0[12]$/.test(id)?'taniya-soniya-prose':'leads';
+ if(g==='meenakshi')return /^meenakshi-M0[1-5]$/.test(id)?'meenakshi-m01':'meenakshi';
+ if(g==='shreya')return /^shreya-SR0(?:1|2A|2B)$/.test(id)?'shreya-prose':'shreya';
+ return 'episode-dashboard';
+}
+function swSceneLink(e){
+ const st=swStatus(e),tab=swPanelFor(e),anchor=st.parts&&st.parts[0]?'#'+encodeURIComponent(st.parts[0]):'';
+ return '?tab='+encodeURIComponent(tab)+anchor;
+}
 function swValidItems(){
  return items.filter(e=>['ankita','shivani','sisters','meenakshi','shreya'].includes(swGroup(e))&&
  e.id!=='ankita-A01' && !/^sisters-X-/.test(e.id));
@@ -1559,8 +1586,9 @@ function swMatches(e){
 function swTime(e){const m=String(e.time||'').match(/\d{1,2}:\d{2}/);return m?m[0].padStart(5,'0'):'99:99';}
 function swSorted(arr){return arr.slice().sort((a,b)=>swTime(a).localeCompare(swTime(b))||a.id.localeCompare(b.id));}
 function swTask(e){
- const s=swStatus(e), cls=s.kind==='hold'?'hold':s.kind==='review'?'review':'';
- return '<div class="sw-task"><span class="sw-time">'+esc(swTime(e))+'</span><div><strong>'+esc(e.id.split('-').slice(1).join('-'))+' · '+esc(e.title)+'</strong><small>'+esc(e.place||'')+'</small><span class="sw-status '+cls+'">'+esc(s.text)+'</span>'+(s.parts?'<span class="tiny"> · <a href="?tab=ankita-prose">View submitted draft</a></span>':'')+'</div></div>';
+ const st=swStatus(e),cls=st.kind==='hold'?'hold':st.kind==='review'?'review':'';
+ const action=st.parts?'Read published draft in this UI':'Open scene planning in this UI';
+ return '<div class="sw-task"><span class="sw-time">'+esc(swTime(e))+'</span><div><strong>'+esc(e.id.split('-').slice(1).join('-'))+' · '+esc(e.title)+'</strong><small>'+esc(e.place||'')+'</small><span class="sw-status '+cls+'">'+esc(st.text)+'</span><span class="tiny"> · <a href="'+swSceneLink(e)+'">'+esc(action)+'</a></span></div></div>';
 }
 function swCard(e){
  const s=swStatus(e),cls=s.kind==='done'?'done':s.kind==='review'?'review':s.kind==='hold'?'hold':'';
@@ -1593,7 +1621,7 @@ function swRenderDashboard(){
    (selected.length?selected.map(swCard).join(''):'<div class="sw-empty">No scenes match this search.</div>');
    root.querySelectorAll('details[data-sw-reader]').forEach(detail=>detail.addEventListener('toggle',()=>{if(!detail.open)return;const slot=detail.querySelector('.sw-reader-slot');if(slot.dataset.loaded)return;
     const sceneId=detail.dataset.swReader;const s=swPublished[sceneId]||swSpecial[sceneId];if(!s)return;
-    if(s.parts){for(const partId of s.parts){const source=document.getElementById(partId);if(source){const copy=source.cloneNode(true);copy.removeAttribute('id');slot.appendChild(copy);}else{const p=document.createElement('p');p.className='muted';p.textContent='Original scene not found in this page: '+partId;slot.appendChild(p);}}}
+    if(s.parts){if(sceneId.startsWith('meenakshi-'))slot.classList.add('meena-embedded');for(const partId of s.parts){const source=document.getElementById(partId);if(source){const copy=source.cloneNode(true);copy.removeAttribute('id');slot.appendChild(copy);}else{const p=document.createElement('p');p.className='muted';p.textContent='Original scene not found in this page: '+partId;slot.appendChild(p);}}}
     if(s.mini){const p=document.createElement('p');p.className='a02-narration';p.textContent=s.mini;slot.appendChild(p);}
     if(s.url){const f=document.createElement('iframe');f.loading='lazy';f.title='Published scene — '+sceneId;f.src=s.url;slot.appendChild(f);const a=document.createElement('a');a.href=s.url;a.target='_blank';a.rel='noopener noreferrer';a.textContent='Open full original story page';slot.appendChild(a);}
     slot.dataset.loaded='true';
