@@ -92,7 +92,9 @@
       {
         "id": "chintu",
         "role": "security helper",
-        "age": 23
+        "age": 23,
+        "arcStatus": "DEFERRED_TO_NEXT_SHREYA_EPISODE",
+        "futureRole": "Recurring young adult society helper with a distinctive Shreya connection, requested as a loose Dhika–Chotu archetype parallel; not the same character or inherited events."
       },
       {
         "id": "mahendra",
@@ -350,31 +352,51 @@
       "end": "08:20",
       "lane": "SOCIETY",
       "location": "Society security desk",
-      "title": "The register mismatch",
+      "title": "Mahendra Suri — The Chairman's Compliment",
       "characters": [
         "shreya",
-        "chintu",
         "mahendra"
       ],
-      "summary": "Shreya gives Chintu, a 23-year-old security helper, practical guidance about a visitor-register discrepancy; Mahendra Suri, 61, is there on society safety business.",
+      "summary": "Shreya, fresh from the Karan–Aman parking encounter, meets society chairman Mahendra Suri at the security desk. Mahendra brings a legitimate visitor-register discrepancy to her attention and mixes respectful observations about her command presence with seasoned, playful double meanings. Shreya is amused but remains in charge and corrects the record protocol. Chintu is deliberately offscreen and deferred to the next Shreya episode.",
       "beats": [
-        "Mahendra observes her calm authority; the encounter establishes community respect, not consent to personal attention.",
-        "Keep Mahendra at Soniya's flat 10:07–10:12 and committee office 10:15–10:33; these do not overlap."
+        "08:15–08:20 after SR05 (Karan/Aman), before 08:20 departure; no new Chintu appearance in EP02.",
+        "Mahendra (61) is society chairman, confident and observant. His flirting is measured, witty and distinct from Rajeev's more direct compliments.",
+        "Register/vehicle-slip timing discrepancy provides organic reason for speaking; do not turn the scene into five minutes of nothing but flirting.",
+        "Shreya notices his admiration and returns a sharp, deliberately double-meaning response; she chooses whether to entertain the banter.",
+        "Mahendra does not learn about Rajeev's advice or Vivek's kiss, and no new sexual contact is implied.",
+        "Shreya explains to preserve the original visitor and vehicle records, then leaves for duty at 08:20."
       ],
       "dialogue": [
         [
-          "Chintu (23, society security)",
-          "Madam, entry time aur vehicle slip match nahi kar rahe."
+          "Mahendra",
+          "Inspector Rathore, ek minute. Ek visitor slip aur register time match nahi kar rahe. Aur ek baat—uniform aaj aap par bahut commanding lag rahi hai."
         ],
         [
           "Shreya",
-          "Original record preserve karo; guess karke rewrite mat karna."
+          "Chairman sahab, pehle register ka case. Compliments ki inquiry baad mein."
+        ],
+        [
+          "Mahendra",
+          "Aap jab sawaal poochti hain, log shayad jawab dene se pehle hi seedhe khade ho jaate honge."
+        ],
+        [
+          "Shreya",
+          "Jo sach bolte hain, unhe itna nervous hone ki zaroorat nahi."
+        ],
+        [
+          "Mahendra",
+          "Aur jo aapko impress karna chahte hain?"
+        ],
+        [
+          "Shreya",
+          "Unhe register sahi rakhna chahiye. First impression wahi se shuru hota hai."
         ]
       ],
       "notes": [
+        "CHINTU DEFERRED: adult 23-year-old society security helper gets his own recurring Shreya arc from next episode, not this SR04.",
         "Retimed security desk 08:15–08:20 after the twins' gate greeting; Shreya leaves for station at 08:20."
       ],
-      "approval": "USER_ACCEPTED_WORKING_PLOT"
+      "approval": "USER_DIRECTION_WORKING_PLOT_NOT_PROSE"
     },
     {
       "id": "SR05",
@@ -911,5 +933,22 @@
     "stationDeparture": "08:20",
     "nextOtherLeadSlot": "Taniya–Soniya gym 08:25",
     "notes": "SR01 ends 07:28, SR02A gym 07:28–07:52, SR02B home 07:57–08:12; planned SR03–SR05 retimed sequentially without duplicating people across overlapping venues."
-  }
+  },
+  "nextEpisodeSeeds": [
+    {
+      "id": "SHREYA_CHINTU_ARC",
+      "lead": "shreya",
+      "counterpart": "chintu",
+      "age": 23,
+      "earliestEpisode": "03",
+      "status": "USER_REQUESTED_RESERVED_NOT_WRITTEN",
+      "desiredArc": "Chintu becomes a recurring young adult confidant / admiring society helper for Shreya, analogous in narrative role to Dhika's Chotu. Build encounters and trust gradually; no events from Dhika automatically imported.",
+      "constraints": [
+        "Distinct characters: Chintu (23) is not Dhika's Chotu.",
+        "Do not write Chintu into current EP02 SR04.",
+        "Adult, consensual, standalone character progression.",
+        "Plan encounter history before escalating or claiming any relationship."
+      ]
+    }
+  ]
 }
