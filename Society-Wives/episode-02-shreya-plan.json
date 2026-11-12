@@ -10,7 +10,7 @@
   "leadName": "Shreya Rathore",
   "leadAge": 33,
   "profession": "Police Inspector",
-  "status": "SR01, SR02A, SR02B PROSE PUBLISHED; SR03–SR13 WORKING PLOT",
+  "status": "SR01, SR02A, SR02B, SR05 PROSE PUBLISHED; SR03–SR04 AND SR06–SR13 WORKING PLOT",
   "stopRule": "End at 13:15, Shreya still at police station; no evening scenes.",
   "characterCorrections": [
     {
@@ -382,34 +382,56 @@
       "end": "08:15",
       "lane": "SOCIETY",
       "location": "Parking gate",
-      "title": "Two familiar twins, one uniform",
+      "title": "The First Button — Karan and Aman",
       "characters": [
         "shreya",
         "karan",
         "aman"
       ],
-      "summary": "Karan and Aman, Ankita's 22-year-old confirmed twin devars, briefly greet Shreya before their 08:16–08:20 Shivani parking interaction.",
+      "summary": "After Rajeev's suggestive comment, Shreya silently tests her own confidence by casually loosening the top button of her police uniform while chatting with adult twins Karan and Aman at the parking gate. The men notice and tease her; she privately enjoys the reaction but keeps the source of her experiment to herself. This scene is romantic banter, not a police interrogation.",
       "beats": [
-        "Karan's playful admiration contrasts with Aman's reserved curiosity about government recruitment."
+        "SR05 follows the working SR03 Rajeev suggestion at 08:12–08:13, without requiring the twins to know its source.",
+        "Shreya privately recalls Vivek's abs and kiss; her new attraction and confidence are carried forward.",
+        "She opens exactly ONE top shirt button (loose collar); neither a second button nor any explicit display belongs in SR05.",
+        "Karan is openly teasing; Aman observant and witty. Shreya briefly bends to collect her bag, then responds to their gaze with pointed dialogue.",
+        "She leaves at 08:15 for SR04, feeling curious and secretly pleased. Not an experiment she explains to the men."
       ],
       "dialogue": [
         [
-          "Karan (22, Ankita's devar)",
-          "Inspector ji, New Year mein bhi fitness score top?"
-        ],
-        [
-          "Aman (22, Ankita's devar)",
-          "Police physical test ke liye koi practice tip milegi?"
+          "Karan",
+          "Madam, ek baat kahun? Aaj aapka uniform look kuch zyada hi distracting hai."
         ],
         [
           "Shreya",
-          "Consistency. Aur shortcut mat dhoondhna."
+          "Karan, tumhari concentration itni weak hai?"
+        ],
+        [
+          "Aman",
+          "Main soch raha hoon ki bhai ko aaj bina interrogation ke hi sab sach bolna pad jayega."
+        ],
+        [
+          "Shreya",
+          "Karan, meri file dekh rahe ho ya mujhe?"
+        ],
+        [
+          "Karan",
+          "File toh band hai, madam. Aapko ignore karna thoda mushkil hai."
+        ],
+        [
+          "Shreya",
+          "Interesting answer, Aman. Tum apne bhai se zyada dangerous nikle."
         ]
       ],
       "notes": [
         "Retimed 08:13–08:15 after SR03; Karan/Aman then meet Shivani 08:16–08:20, then Taniya/Soniya at gym from 08:25."
       ],
-      "approval": "USER_ACCEPTED_WORKING_PLOT"
+      "approval": "USER_REQUESTED_PROSE_PUBLISHED",
+      "publishedScene": {
+        "uiTab": "shreya-prose",
+        "uiHref": "./episode-02.html?tab=shreya-prose#shreya-sr05-first-button",
+        "images": [],
+        "publication": "USER_REQUESTED_PUBLISHED_SR05"
+      }
     },
     {
       "id": "SR06",
