@@ -1,0 +1,1191 @@
+{
+  "schema": "verbatim-entity-continuity-v1",
+  "series": "Society Wives — Five Veils of Desire",
+  "episode": "01",
+  "lead": "Meenakshi",
+  "approval_status_exact": "EP01_PROLOGUE_DRAFT_FOR_REVIEW__SHIVANI_COLLEGE_CORRECTION_APPLIED__NOT_APPROVED",
+  "WARNING": "EPISODE 01 SOURCE ITSELF SAYS NOT APPROVED. These are preserved source drafts and must not be presented as approved canon.",
+  "update_rule": "Only update after an episode and when the user explicitly says to update the JSON.",
+  "fidelity": "source_json_lines_exact joined with newline reconstructs the original scene object byte-for-byte; complete_source_object text values are unchanged.",
+  "source": {
+    "repository": "developer-fandom-rush/DHIKA_STORY",
+    "path": "Society-Wives/episode-01.json",
+    "blob_sha": "9ec9f7ccad1691f4408dcfa3fd91bf0f6e2f9214"
+  },
+  "scenes": [
+    {
+      "scene_id": "S04",
+      "lead_exact": "Meenakshi",
+      "title_exact": "Before the hospital shift",
+      "source_position": {
+        "start": 7763,
+        "end": 9314
+      },
+      "source_json_lines_exact": [
+        "{",
+        "      \"id\": \"S04\",",
+        "      \"time\": \"07:42\",",
+        "      \"lane\": \"Society — Meenakshi\",",
+        "      \"lead\": \"Meenakshi\",",
+        "      \"location\": \"Tower C · Kapoor flat / parking\",",
+        "      \"title\": \"Before the hospital shift\",",
+        "      \"narration\": [",
+        "        \"Meenakshi finishes a brief conversation with Vihaan about his school schedule. Nikhil has prepared breakfast, knowing she may not be able to eat at the hospital.\",",
+        "        \"Babloo, who helps coordinate pharmacy deliveries for the society, confirms a neighbour's prescription parcel. Meenakshi thanks him for handling the request responsibly. The attention here is professional trust, not romantic interest.\"",
+        "      ],",
+        "      \"dialogue\": [",
+        "        {",
+        "          \"speaker\": \"Nikhil\",",
+        "          \"line\": \"Can we count on you for dinner?\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Meenakshi\",",
+        "          \"line\": \"If the ward lets me leave on time, absolutely.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Nikhil\",",
+        "          \"line\": \"Then I'll keep your portion warm.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Meenakshi\",",
+        "          \"line\": \"You always do.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Babloo\",",
+        "          \"line\": \"Doctor madam, the parcel is with security.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Meenakshi\",",
+        "          \"line\": \"Good. Please hand it only to the family member on the form.\"",
+        "        }",
+        "      ],",
+        "      \"internal\": [",
+        "        \"She notices Nikhil's care and the small relief of being understood, even as duty takes priority.\"",
+        "      ],",
+        "      \"signalIds\": [",
+        "        \"L06\",",
+        "        \"L07\"",
+        "      ]",
+        "    }"
+      ],
+      "prose_line_records": [
+        {
+          "id": "S04-L001",
+          "kind": "narration",
+          "text_exact": "Meenakshi finishes a brief conversation with Vihaan about his school schedule. Nikhil has prepared breakfast, knowing she may not be able to eat at the hospital.",
+          "speaker_exact": null,
+          "explicit_names": [
+            "Nikhil",
+            "Vihaan",
+            "Meenakshi"
+          ]
+        },
+        {
+          "id": "S04-L002",
+          "kind": "narration",
+          "text_exact": "Babloo, who helps coordinate pharmacy deliveries for the society, confirms a neighbour's prescription parcel. Meenakshi thanks him for handling the request responsibly. The attention here is professional trust, not romantic interest.",
+          "speaker_exact": null,
+          "explicit_names": [
+            "Babloo",
+            "Meenakshi"
+          ]
+        },
+        {
+          "id": "S04-L003",
+          "kind": "dialogue",
+          "text_exact": "Can we count on you for dinner?",
+          "speaker_exact": "Nikhil",
+          "explicit_names": [
+            "Nikhil"
+          ]
+        },
+        {
+          "id": "S04-L004",
+          "kind": "dialogue",
+          "text_exact": "If the ward lets me leave on time, absolutely.",
+          "speaker_exact": "Meenakshi",
+          "explicit_names": [
+            "Meenakshi"
+          ]
+        },
+        {
+          "id": "S04-L005",
+          "kind": "dialogue",
+          "text_exact": "Then I'll keep your portion warm.",
+          "speaker_exact": "Nikhil",
+          "explicit_names": [
+            "Nikhil"
+          ]
+        },
+        {
+          "id": "S04-L006",
+          "kind": "dialogue",
+          "text_exact": "You always do.",
+          "speaker_exact": "Meenakshi",
+          "explicit_names": [
+            "Meenakshi"
+          ]
+        },
+        {
+          "id": "S04-L007",
+          "kind": "dialogue",
+          "text_exact": "Doctor madam, the parcel is with security.",
+          "speaker_exact": "Babloo",
+          "explicit_names": [
+            "Babloo"
+          ]
+        },
+        {
+          "id": "S04-L008",
+          "kind": "dialogue",
+          "text_exact": "Good. Please hand it only to the family member on the form.",
+          "speaker_exact": "Meenakshi",
+          "explicit_names": [
+            "Meenakshi"
+          ]
+        },
+        {
+          "id": "S04-L009",
+          "kind": "internal",
+          "text_exact": "She notices Nikhil's care and the small relief of being understood, even as duty takes priority.",
+          "speaker_exact": null,
+          "explicit_names": [
+            "Nikhil"
+          ]
+        }
+      ],
+      "complete_source_object": {
+        "id": "S04",
+        "time": "07:42",
+        "lane": "Society — Meenakshi",
+        "lead": "Meenakshi",
+        "location": "Tower C · Kapoor flat / parking",
+        "title": "Before the hospital shift",
+        "narration": [
+          "Meenakshi finishes a brief conversation with Vihaan about his school schedule. Nikhil has prepared breakfast, knowing she may not be able to eat at the hospital.",
+          "Babloo, who helps coordinate pharmacy deliveries for the society, confirms a neighbour's prescription parcel. Meenakshi thanks him for handling the request responsibly. The attention here is professional trust, not romantic interest."
+        ],
+        "dialogue": [
+          {
+            "speaker": "Nikhil",
+            "line": "Can we count on you for dinner?"
+          },
+          {
+            "speaker": "Meenakshi",
+            "line": "If the ward lets me leave on time, absolutely."
+          },
+          {
+            "speaker": "Nikhil",
+            "line": "Then I'll keep your portion warm."
+          },
+          {
+            "speaker": "Meenakshi",
+            "line": "You always do."
+          },
+          {
+            "speaker": "Babloo",
+            "line": "Doctor madam, the parcel is with security."
+          },
+          {
+            "speaker": "Meenakshi",
+            "line": "Good. Please hand it only to the family member on the form."
+          }
+        ],
+        "internal": [
+          "She notices Nikhil's care and the small relief of being understood, even as duty takes priority."
+        ],
+        "signalIds": [
+          "L06",
+          "L07"
+        ]
+      },
+      "approved_by_source": false,
+      "integrity": {
+        "source_char_length": 1551,
+        "raw_reconstruction_verified": true
+      }
+    },
+    {
+      "scene_id": "S09",
+      "lead_exact": "Meenakshi",
+      "title_exact": "The doctor who stays calm",
+      "source_position": {
+        "start": 16789,
+        "end": 18322
+      },
+      "source_json_lines_exact": [
+        "{",
+        "      \"id\": \"S09\",",
+        "      \"time\": \"10:55\",",
+        "      \"lane\": \"Workplace — Meenakshi\",",
+        "      \"lead\": \"Meenakshi\",",
+        "      \"location\": \"Hospital · ward desk\",",
+        "      \"title\": \"The doctor who stays calm\",",
+        "      \"narration\": [",
+        "        \"Nurse Rupa updates the ward chart as Meenakshi reviews a medication discrepancy. Naveen from hospital administration brings a corrected form. Dr. Ritesh Anand joins her to check the safest solution.\",",
+        "        \"Her composure draws Dr. Ritesh's interest beyond simple appearance: he appreciates how she listens, thinks and acts under pressure.\"",
+        "      ],",
+        "      \"dialogue\": [",
+        "        {",
+        "          \"speaker\": \"Rupa\",",
+        "          \"line\": \"The earlier chart was printed before the correction.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Meenakshi\",",
+        "          \"line\": \"Then we confirm it with the treating team before anything changes.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Dr. Ritesh\",",
+        "          \"line\": \"You caught that before the round. Good judgment.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Meenakshi\",",
+        "          \"line\": \"Rupa caught it. We checked it together.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Naveen\",",
+        "          \"line\": \"I'll replace the form at the desk.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Meenakshi\",",
+        "          \"line\": \"Thank you, Naveen.\"",
+        "        }",
+        "      ],",
+        "      \"internal\": [",
+        "        \"Meenakshi recognises Ritesh's support and feels seen as a capable doctor. She has not defined that feeling as romance.\"",
+        "      ],",
+        "      \"signalIds\": [",
+        "        \"L19\",",
+        "        \"L20\"",
+        "      ]",
+        "    }"
+      ],
+      "prose_line_records": [
+        {
+          "id": "S09-L001",
+          "kind": "narration",
+          "text_exact": "Nurse Rupa updates the ward chart as Meenakshi reviews a medication discrepancy. Naveen from hospital administration brings a corrected form. Dr. Ritesh Anand joins her to check the safest solution.",
+          "speaker_exact": null,
+          "explicit_names": [
+            "Naveen",
+            "Dr. Ritesh Anand",
+            "Rupa",
+            "Meenakshi"
+          ]
+        },
+        {
+          "id": "S09-L002",
+          "kind": "narration",
+          "text_exact": "Her composure draws Dr. Ritesh's interest beyond simple appearance: he appreciates how she listens, thinks and acts under pressure.",
+          "speaker_exact": null,
+          "explicit_names": []
+        },
+        {
+          "id": "S09-L003",
+          "kind": "dialogue",
+          "text_exact": "The earlier chart was printed before the correction.",
+          "speaker_exact": "Rupa",
+          "explicit_names": [
+            "Rupa"
+          ]
+        },
+        {
+          "id": "S09-L004",
+          "kind": "dialogue",
+          "text_exact": "Then we confirm it with the treating team before anything changes.",
+          "speaker_exact": "Meenakshi",
+          "explicit_names": [
+            "Meenakshi"
+          ]
+        },
+        {
+          "id": "S09-L005",
+          "kind": "dialogue",
+          "text_exact": "You caught that before the round. Good judgment.",
+          "speaker_exact": "Dr. Ritesh",
+          "explicit_names": []
+        },
+        {
+          "id": "S09-L006",
+          "kind": "dialogue",
+          "text_exact": "Rupa caught it. We checked it together.",
+          "speaker_exact": "Meenakshi",
+          "explicit_names": [
+            "Rupa",
+            "Meenakshi"
+          ]
+        },
+        {
+          "id": "S09-L007",
+          "kind": "dialogue",
+          "text_exact": "I'll replace the form at the desk.",
+          "speaker_exact": "Naveen",
+          "explicit_names": [
+            "Naveen"
+          ]
+        },
+        {
+          "id": "S09-L008",
+          "kind": "dialogue",
+          "text_exact": "Thank you, Naveen.",
+          "speaker_exact": "Meenakshi",
+          "explicit_names": [
+            "Naveen",
+            "Meenakshi"
+          ]
+        },
+        {
+          "id": "S09-L009",
+          "kind": "internal",
+          "text_exact": "Meenakshi recognises Ritesh's support and feels seen as a capable doctor. She has not defined that feeling as romance.",
+          "speaker_exact": null,
+          "explicit_names": [
+            "Meenakshi"
+          ]
+        }
+      ],
+      "complete_source_object": {
+        "id": "S09",
+        "time": "10:55",
+        "lane": "Workplace — Meenakshi",
+        "lead": "Meenakshi",
+        "location": "Hospital · ward desk",
+        "title": "The doctor who stays calm",
+        "narration": [
+          "Nurse Rupa updates the ward chart as Meenakshi reviews a medication discrepancy. Naveen from hospital administration brings a corrected form. Dr. Ritesh Anand joins her to check the safest solution.",
+          "Her composure draws Dr. Ritesh's interest beyond simple appearance: he appreciates how she listens, thinks and acts under pressure."
+        ],
+        "dialogue": [
+          {
+            "speaker": "Rupa",
+            "line": "The earlier chart was printed before the correction."
+          },
+          {
+            "speaker": "Meenakshi",
+            "line": "Then we confirm it with the treating team before anything changes."
+          },
+          {
+            "speaker": "Dr. Ritesh",
+            "line": "You caught that before the round. Good judgment."
+          },
+          {
+            "speaker": "Meenakshi",
+            "line": "Rupa caught it. We checked it together."
+          },
+          {
+            "speaker": "Naveen",
+            "line": "I'll replace the form at the desk."
+          },
+          {
+            "speaker": "Meenakshi",
+            "line": "Thank you, Naveen."
+          }
+        ],
+        "internal": [
+          "Meenakshi recognises Ritesh's support and feels seen as a capable doctor. She has not defined that feeling as romance."
+        ],
+        "signalIds": [
+          "L19",
+          "L20"
+        ]
+      },
+      "approved_by_source": false,
+      "integrity": {
+        "source_char_length": 1533,
+        "raw_reconstruction_verified": true
+      }
+    },
+    {
+      "scene_id": "S12",
+      "lead_exact": "Shared",
+      "title_exact": "Five people, five versions of the evening",
+      "source_position": {
+        "start": 21381,
+        "end": 24117
+      },
+      "source_json_lines_exact": [
+        "{",
+        "      \"id\": \"S12\",",
+        "      \"time\": \"19:25\",",
+        "      \"lane\": \"Crossover — Shared Society\",",
+        "      \"lead\": \"Shared\",",
+        "      \"location\": \"Gulmohar Heights · courtyard\",",
+        "      \"title\": \"Five people, five versions of the evening\",",
+        "      \"narration\": [",
+        "        \"Sharmi's event message brings the five women to the courtyard at staggered moments. Ankita arrives from office, Shivani after checking Tara's dinner, Taniya with a wedding-planning call still pending, Meenakshi after her hospital shift, and Shreya after changing out of her work clothes.\",",
+        "        \"Mahendra Suri introduces the community-week schedule. Rohan and Kabir arrive as spouses, Nikhil checks on Meenakshi, and Vikram offers to organise safety volunteers. Aditya joins by phone because he is not yet part of Taniya's household. Soniya and Rahul stop by on their way home.\",",
+        "        \"Rajeev briefly notices Shivani's graceful confidence while she manages the noticeboard. She is unaware of this fleeting attention. Rahul admires Ankita's quick problem-solving and privately wonders about getting to know her better outside a group setting; Ankita interprets his comments as routine courtesy. Neither thought is treated as a mutual relationship.\"",
+        "      ],",
+        "      \"dialogue\": [",
+        "        {",
+        "          \"speaker\": \"Sharmi\",",
+        "          \"line\": \"I need five different brains, not five people agreeing with Mahendra-ji.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Mahendra\",",
+        "          \"line\": \"I heard that.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Ankita\",",
+        "          \"line\": \"I'll handle registrations if the data is actually organised.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Shivani\",",
+        "          \"line\": \"I'll coordinate the children's programme.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Taniya\",",
+        "          \"line\": \"Accounts and vendor payments are mine.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Meenakshi\",",
+        "          \"line\": \"I'll check the health-camp requirements.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Shreya\",",
+        "          \"line\": \"And please, one actual entry register for volunteers.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Rahul\",",
+        "          \"line\": \"That sounds like the most efficient committee in Gurgaon.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Ankita\",",
+        "          \"line\": \"Ask us again after the first spreadsheet.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Rohan\",",
+        "          \"line\": \"I'm keeping the first-aid kit for the committee debates.\"",
+        "        }",
+        "      ],",
+        "      \"internal\": [",
+        "        \"Everyone enjoys the comfortable group atmosphere. Several private impressions coexist, but no woman is obligated to recognise or return any man's interest.\"",
+        "      ],",
+        "      \"signalIds\": [",
+        "        \"L24\",",
+        "        \"L25\",",
+        "        \"L26\",",
+        "        \"L27\"",
+        "      ]",
+        "    }"
+      ],
+      "prose_line_records": [
+        {
+          "id": "S12-L001",
+          "kind": "narration",
+          "text_exact": "Sharmi's event message brings the five women to the courtyard at staggered moments. Ankita arrives from office, Shivani after checking Tara's dinner, Taniya with a wedding-planning call still pending, Meenakshi after her hospital shift, and Shreya after changing out of her work clothes.",
+          "speaker_exact": null,
+          "explicit_names": [
+            "Tara",
+            "Sharmi",
+            "Ankita",
+            "Shivani",
+            "Taniya",
+            "Meenakshi",
+            "Shreya"
+          ]
+        },
+        {
+          "id": "S12-L002",
+          "kind": "narration",
+          "text_exact": "Mahendra Suri introduces the community-week schedule. Rohan and Kabir arrive as spouses, Nikhil checks on Meenakshi, and Vikram offers to organise safety volunteers. Aditya joins by phone because he is not yet part of Taniya's household. Soniya and Rahul stop by on their way home.",
+          "speaker_exact": null,
+          "explicit_names": [
+            "Kabir",
+            "Rohan",
+            "Aditya",
+            "Soniya",
+            "Rahul",
+            "Nikhil",
+            "Vikram",
+            "Mahendra Suri",
+            "Taniya",
+            "Meenakshi"
+          ]
+        },
+        {
+          "id": "S12-L003",
+          "kind": "narration",
+          "text_exact": "Rajeev briefly notices Shivani's graceful confidence while she manages the noticeboard. She is unaware of this fleeting attention. Rahul admires Ankita's quick problem-solving and privately wonders about getting to know her better outside a group setting; Ankita interprets his comments as routine courtesy. Neither thought is treated as a mutual relationship.",
+          "speaker_exact": null,
+          "explicit_names": [
+            "Rajeev",
+            "Rahul",
+            "Ankita",
+            "Shivani"
+          ]
+        },
+        {
+          "id": "S12-L004",
+          "kind": "dialogue",
+          "text_exact": "I need five different brains, not five people agreeing with Mahendra-ji.",
+          "speaker_exact": "Sharmi",
+          "explicit_names": [
+            "Sharmi"
+          ]
+        },
+        {
+          "id": "S12-L005",
+          "kind": "dialogue",
+          "text_exact": "I heard that.",
+          "speaker_exact": "Mahendra",
+          "explicit_names": []
+        },
+        {
+          "id": "S12-L006",
+          "kind": "dialogue",
+          "text_exact": "I'll handle registrations if the data is actually organised.",
+          "speaker_exact": "Ankita",
+          "explicit_names": [
+            "Ankita"
+          ]
+        },
+        {
+          "id": "S12-L007",
+          "kind": "dialogue",
+          "text_exact": "I'll coordinate the children's programme.",
+          "speaker_exact": "Shivani",
+          "explicit_names": [
+            "Shivani"
+          ]
+        },
+        {
+          "id": "S12-L008",
+          "kind": "dialogue",
+          "text_exact": "Accounts and vendor payments are mine.",
+          "speaker_exact": "Taniya",
+          "explicit_names": [
+            "Taniya"
+          ]
+        },
+        {
+          "id": "S12-L009",
+          "kind": "dialogue",
+          "text_exact": "I'll check the health-camp requirements.",
+          "speaker_exact": "Meenakshi",
+          "explicit_names": [
+            "Meenakshi"
+          ]
+        },
+        {
+          "id": "S12-L010",
+          "kind": "dialogue",
+          "text_exact": "And please, one actual entry register for volunteers.",
+          "speaker_exact": "Shreya",
+          "explicit_names": [
+            "Shreya"
+          ]
+        },
+        {
+          "id": "S12-L011",
+          "kind": "dialogue",
+          "text_exact": "That sounds like the most efficient committee in Gurgaon.",
+          "speaker_exact": "Rahul",
+          "explicit_names": [
+            "Rahul"
+          ]
+        },
+        {
+          "id": "S12-L012",
+          "kind": "dialogue",
+          "text_exact": "Ask us again after the first spreadsheet.",
+          "speaker_exact": "Ankita",
+          "explicit_names": [
+            "Ankita"
+          ]
+        },
+        {
+          "id": "S12-L013",
+          "kind": "dialogue",
+          "text_exact": "I'm keeping the first-aid kit for the committee debates.",
+          "speaker_exact": "Rohan",
+          "explicit_names": [
+            "Rohan"
+          ]
+        },
+        {
+          "id": "S12-L014",
+          "kind": "internal",
+          "text_exact": "Everyone enjoys the comfortable group atmosphere. Several private impressions coexist, but no woman is obligated to recognise or return any man's interest.",
+          "speaker_exact": null,
+          "explicit_names": []
+        }
+      ],
+      "complete_source_object": {
+        "id": "S12",
+        "time": "19:25",
+        "lane": "Crossover — Shared Society",
+        "lead": "Shared",
+        "location": "Gulmohar Heights · courtyard",
+        "title": "Five people, five versions of the evening",
+        "narration": [
+          "Sharmi's event message brings the five women to the courtyard at staggered moments. Ankita arrives from office, Shivani after checking Tara's dinner, Taniya with a wedding-planning call still pending, Meenakshi after her hospital shift, and Shreya after changing out of her work clothes.",
+          "Mahendra Suri introduces the community-week schedule. Rohan and Kabir arrive as spouses, Nikhil checks on Meenakshi, and Vikram offers to organise safety volunteers. Aditya joins by phone because he is not yet part of Taniya's household. Soniya and Rahul stop by on their way home.",
+          "Rajeev briefly notices Shivani's graceful confidence while she manages the noticeboard. She is unaware of this fleeting attention. Rahul admires Ankita's quick problem-solving and privately wonders about getting to know her better outside a group setting; Ankita interprets his comments as routine courtesy. Neither thought is treated as a mutual relationship."
+        ],
+        "dialogue": [
+          {
+            "speaker": "Sharmi",
+            "line": "I need five different brains, not five people agreeing with Mahendra-ji."
+          },
+          {
+            "speaker": "Mahendra",
+            "line": "I heard that."
+          },
+          {
+            "speaker": "Ankita",
+            "line": "I'll handle registrations if the data is actually organised."
+          },
+          {
+            "speaker": "Shivani",
+            "line": "I'll coordinate the children's programme."
+          },
+          {
+            "speaker": "Taniya",
+            "line": "Accounts and vendor payments are mine."
+          },
+          {
+            "speaker": "Meenakshi",
+            "line": "I'll check the health-camp requirements."
+          },
+          {
+            "speaker": "Shreya",
+            "line": "And please, one actual entry register for volunteers."
+          },
+          {
+            "speaker": "Rahul",
+            "line": "That sounds like the most efficient committee in Gurgaon."
+          },
+          {
+            "speaker": "Ankita",
+            "line": "Ask us again after the first spreadsheet."
+          },
+          {
+            "speaker": "Rohan",
+            "line": "I'm keeping the first-aid kit for the committee debates."
+          }
+        ],
+        "internal": [
+          "Everyone enjoys the comfortable group atmosphere. Several private impressions coexist, but no woman is obligated to recognise or return any man's interest."
+        ],
+        "signalIds": [
+          "L24",
+          "L25",
+          "L26",
+          "L27"
+        ]
+      },
+      "approved_by_source": false,
+      "integrity": {
+        "source_char_length": 2736,
+        "raw_reconstruction_verified": true
+      }
+    },
+    {
+      "scene_id": "S16",
+      "lead_exact": "Meenakshi",
+      "title_exact": "The person who noticed",
+      "source_position": {
+        "start": 27656,
+        "end": 28762
+      },
+      "source_json_lines_exact": [
+        "{",
+        "      \"id\": \"S16\",",
+        "      \"time\": \"20:56\",",
+        "      \"lane\": \"Society — Meenakshi\",",
+        "      \"lead\": \"Meenakshi\",",
+        "      \"location\": \"Kapoor flat · living room\",",
+        "      \"title\": \"The person who noticed\",",
+        "      \"narration\": [",
+        "        \"Nikhil listens as Meenakshi describes a difficult shift. Dr. Ritesh's praise remains a kind moment from work, but the person she talks to about it is her husband.\",",
+        "        \"She values being appreciated by colleagues and understood at home. The emotions are separate.\"",
+        "      ],",
+        "      \"dialogue\": [",
+        "        {",
+        "          \"speaker\": \"Nikhil\",",
+        "          \"line\": \"You did the right thing.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Meenakshi\",",
+        "          \"line\": \"The whole team did.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Nikhil\",",
+        "          \"line\": \"You can say you did a good job too.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Meenakshi\",",
+        "          \"line\": \"I'll try.\"",
+        "        }",
+        "      ],",
+        "      \"internal\": [",
+        "        \"She finds Ritesh's calm judgment interesting, but has no intention to turn that into a romantic plan.\"",
+        "      ],",
+        "      \"signalIds\": [",
+        "        \"L31\"",
+        "      ]",
+        "    }"
+      ],
+      "prose_line_records": [
+        {
+          "id": "S16-L001",
+          "kind": "narration",
+          "text_exact": "Nikhil listens as Meenakshi describes a difficult shift. Dr. Ritesh's praise remains a kind moment from work, but the person she talks to about it is her husband.",
+          "speaker_exact": null,
+          "explicit_names": [
+            "Nikhil",
+            "Meenakshi"
+          ]
+        },
+        {
+          "id": "S16-L002",
+          "kind": "narration",
+          "text_exact": "She values being appreciated by colleagues and understood at home. The emotions are separate.",
+          "speaker_exact": null,
+          "explicit_names": []
+        },
+        {
+          "id": "S16-L003",
+          "kind": "dialogue",
+          "text_exact": "You did the right thing.",
+          "speaker_exact": "Nikhil",
+          "explicit_names": [
+            "Nikhil"
+          ]
+        },
+        {
+          "id": "S16-L004",
+          "kind": "dialogue",
+          "text_exact": "The whole team did.",
+          "speaker_exact": "Meenakshi",
+          "explicit_names": [
+            "Meenakshi"
+          ]
+        },
+        {
+          "id": "S16-L005",
+          "kind": "dialogue",
+          "text_exact": "You can say you did a good job too.",
+          "speaker_exact": "Nikhil",
+          "explicit_names": [
+            "Nikhil"
+          ]
+        },
+        {
+          "id": "S16-L006",
+          "kind": "dialogue",
+          "text_exact": "I'll try.",
+          "speaker_exact": "Meenakshi",
+          "explicit_names": [
+            "Meenakshi"
+          ]
+        },
+        {
+          "id": "S16-L007",
+          "kind": "internal",
+          "text_exact": "She finds Ritesh's calm judgment interesting, but has no intention to turn that into a romantic plan.",
+          "speaker_exact": null,
+          "explicit_names": []
+        }
+      ],
+      "complete_source_object": {
+        "id": "S16",
+        "time": "20:56",
+        "lane": "Society — Meenakshi",
+        "lead": "Meenakshi",
+        "location": "Kapoor flat · living room",
+        "title": "The person who noticed",
+        "narration": [
+          "Nikhil listens as Meenakshi describes a difficult shift. Dr. Ritesh's praise remains a kind moment from work, but the person she talks to about it is her husband.",
+          "She values being appreciated by colleagues and understood at home. The emotions are separate."
+        ],
+        "dialogue": [
+          {
+            "speaker": "Nikhil",
+            "line": "You did the right thing."
+          },
+          {
+            "speaker": "Meenakshi",
+            "line": "The whole team did."
+          },
+          {
+            "speaker": "Nikhil",
+            "line": "You can say you did a good job too."
+          },
+          {
+            "speaker": "Meenakshi",
+            "line": "I'll try."
+          }
+        ],
+        "internal": [
+          "She finds Ritesh's calm judgment interesting, but has no intention to turn that into a romantic plan."
+        ],
+        "signalIds": [
+          "L31"
+        ]
+      },
+      "approved_by_source": false,
+      "integrity": {
+        "source_char_length": 1106,
+        "raw_reconstruction_verified": true
+      }
+    }
+  ],
+  "approved_scene_ids": [],
+  "draft_scene_ids": [
+    "S04",
+    "S09",
+    "S12",
+    "S16"
+  ],
+  "character_name_index": [
+    {
+      "name": "Kabir",
+      "matches": [
+        {
+          "scene_id": "S12",
+          "evidence_line_ids": [
+            "S12-L002"
+          ],
+          "full_scene_for_context": "S12"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Rajeev",
+      "matches": [
+        {
+          "scene_id": "S12",
+          "evidence_line_ids": [
+            "S12-L003"
+          ],
+          "full_scene_for_context": "S12"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Rohan",
+      "matches": [
+        {
+          "scene_id": "S12",
+          "evidence_line_ids": [
+            "S12-L002",
+            "S12-L013"
+          ],
+          "full_scene_for_context": "S12"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Tara",
+      "matches": [
+        {
+          "scene_id": "S12",
+          "evidence_line_ids": [
+            "S12-L001"
+          ],
+          "full_scene_for_context": "S12"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Aditya",
+      "matches": [
+        {
+          "scene_id": "S12",
+          "evidence_line_ids": [
+            "S12-L002"
+          ],
+          "full_scene_for_context": "S12"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Soniya",
+      "matches": [
+        {
+          "scene_id": "S12",
+          "evidence_line_ids": [
+            "S12-L002"
+          ],
+          "full_scene_for_context": "S12"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Rahul",
+      "matches": [
+        {
+          "scene_id": "S12",
+          "evidence_line_ids": [
+            "S12-L002",
+            "S12-L003",
+            "S12-L011"
+          ],
+          "full_scene_for_context": "S12"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Nikhil",
+      "matches": [
+        {
+          "scene_id": "S04",
+          "evidence_line_ids": [
+            "S04-L001",
+            "S04-L003",
+            "S04-L005",
+            "S04-L009"
+          ],
+          "full_scene_for_context": "S04"
+        },
+        {
+          "scene_id": "S12",
+          "evidence_line_ids": [
+            "S12-L002"
+          ],
+          "full_scene_for_context": "S12"
+        },
+        {
+          "scene_id": "S16",
+          "evidence_line_ids": [
+            "S16-L001",
+            "S16-L003",
+            "S16-L005"
+          ],
+          "full_scene_for_context": "S16"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Vihaan",
+      "matches": [
+        {
+          "scene_id": "S04",
+          "evidence_line_ids": [
+            "S04-L001"
+          ],
+          "full_scene_for_context": "S04"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Vikram",
+      "matches": [
+        {
+          "scene_id": "S12",
+          "evidence_line_ids": [
+            "S12-L002"
+          ],
+          "full_scene_for_context": "S12"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Babloo",
+      "matches": [
+        {
+          "scene_id": "S04",
+          "evidence_line_ids": [
+            "S04-L002",
+            "S04-L007"
+          ],
+          "full_scene_for_context": "S04"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Mahendra Suri",
+      "matches": [
+        {
+          "scene_id": "S12",
+          "evidence_line_ids": [
+            "S12-L002"
+          ],
+          "full_scene_for_context": "S12"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Sharmi",
+      "matches": [
+        {
+          "scene_id": "S12",
+          "evidence_line_ids": [
+            "S12-L001",
+            "S12-L004"
+          ],
+          "full_scene_for_context": "S12"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Naveen",
+      "matches": [
+        {
+          "scene_id": "S09",
+          "evidence_line_ids": [
+            "S09-L001",
+            "S09-L007",
+            "S09-L008"
+          ],
+          "full_scene_for_context": "S09"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Dr. Ritesh Anand",
+      "matches": [
+        {
+          "scene_id": "S09",
+          "evidence_line_ids": [
+            "S09-L001"
+          ],
+          "full_scene_for_context": "S09"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Rupa",
+      "matches": [
+        {
+          "scene_id": "S09",
+          "evidence_line_ids": [
+            "S09-L001",
+            "S09-L003",
+            "S09-L006"
+          ],
+          "full_scene_for_context": "S09"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Ankita",
+      "matches": [
+        {
+          "scene_id": "S12",
+          "evidence_line_ids": [
+            "S12-L001",
+            "S12-L003",
+            "S12-L006",
+            "S12-L012"
+          ],
+          "full_scene_for_context": "S12"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Shivani",
+      "matches": [
+        {
+          "scene_id": "S12",
+          "evidence_line_ids": [
+            "S12-L001",
+            "S12-L003",
+            "S12-L007"
+          ],
+          "full_scene_for_context": "S12"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Taniya",
+      "matches": [
+        {
+          "scene_id": "S12",
+          "evidence_line_ids": [
+            "S12-L001",
+            "S12-L002",
+            "S12-L008"
+          ],
+          "full_scene_for_context": "S12"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Meenakshi",
+      "matches": [
+        {
+          "scene_id": "S04",
+          "evidence_line_ids": [
+            "S04-L001",
+            "S04-L002",
+            "S04-L004",
+            "S04-L006",
+            "S04-L008"
+          ],
+          "full_scene_for_context": "S04"
+        },
+        {
+          "scene_id": "S09",
+          "evidence_line_ids": [
+            "S09-L001",
+            "S09-L004",
+            "S09-L006",
+            "S09-L008",
+            "S09-L009"
+          ],
+          "full_scene_for_context": "S09"
+        },
+        {
+          "scene_id": "S12",
+          "evidence_line_ids": [
+            "S12-L001",
+            "S12-L002",
+            "S12-L009"
+          ],
+          "full_scene_for_context": "S12"
+        },
+        {
+          "scene_id": "S16",
+          "evidence_line_ids": [
+            "S16-L001",
+            "S16-L004",
+            "S16-L006"
+          ],
+          "full_scene_for_context": "S16"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Shreya",
+      "matches": [
+        {
+          "scene_id": "S12",
+          "evidence_line_ids": [
+            "S12-L001",
+            "S12-L010"
+          ],
+          "full_scene_for_context": "S12"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    }
+  ],
+  "integrity": {
+    "scene_count": 4,
+    "source_objects_verified": true,
+    "verbatim_character_count": 6926
+  }
+}
