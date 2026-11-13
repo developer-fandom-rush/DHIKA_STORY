@@ -7103,7 +7103,6 @@
     }
   ],
   "missing_prose_scene_ids": [
-    "TS07",
     "TS15",
     "TS12",
     "TS13",
@@ -7114,5 +7113,6 @@
     "scenes_found": 18,
     "source_characters_preserved": 70533,
     "each_scene_reconstruction_verified": true
-  }
+  },
+  "continuity_note": "TS07 is present as three exact source subdivisions TS07A, TS07B and TS07C; do not mark TS07 as wholly missing. TS12–TS16 remain plan-only where source prose was not found."
 }
