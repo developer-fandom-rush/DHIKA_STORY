@@ -32,6 +32,14 @@ button:focus-visible,input:focus-visible,select:focus-visible,a:focus-visible{ou
 .a02-banner{display:flex;justify-content:space-between;align-items:center;gap:14px;flex-wrap:wrap;margin:12px 0 17px;padding:17px 19px;background:#fff;border:1px solid #d8b6c9;border-left:5px solid #a64170;border-radius:13px;box-shadow:0 4px 18px #482a4110}.a02-banner strong{font-size:16px}.a02-banner p{margin:5px 0;color:#6d5a6b;font-size:13px}.a02-banner a{display:inline-block;padding:10px 14px;background:#9a3967;color:white;border-radius:9px;text-decoration:none;font-size:13px;font-weight:800}
 .a02-rule{border:1px solid #ebd8af;background:#fffaf0;padding:13px 15px;border-radius:10px;line-height:1.65;margin:13px 0 22px;color:#584a45}.a02-rule mark,.a02-prose mark{background:#fff0a8;color:#302638;box-decoration-break:clone;-webkit-box-decoration-break:clone;padding:2px 3px;border-radius:3px;font-weight:700}.a02-scene{border:1px solid #e4d2df;background:#fffdfd;border-radius:16px;margin:20px 0 25px;padding:clamp(15px,3vw,24px);scroll-margin-top:24px}.a02-scene-head{display:flex;align-items:start;justify-content:space-between;gap:12px;flex-wrap:wrap}.a02-scene h3{font-size:22px;margin:7px 0}.a02-scene figure{margin:13px auto 20px;max-width:760px}.a02-scene img{display:block;width:100%;max-height:440px;object-fit:cover;border-radius:12px;background:#f3ecf0;box-shadow:0 5px 20px #33172c10}.a02-scene figcaption{font-size:12px;color:#766575;margin-top:8px;text-align:center}.a02-prose{max-width:780px;margin:auto}.a02-dialogue{background:#fcf6f9;border-left:3px solid #c989a8;border-radius:5px;padding:10px 14px;margin:9px 0;line-height:1.75;font-size:15px}.a02-dialogue strong{color:#8d3965}.a02-narration{font:16px/1.75 Georgia,serif;margin:16px 4px;color:#3b2e3e}.a02-highlight-note{background:#fffdf4;border-radius:8px;padding:8px 12px}@media(max-width:630px){.a02-banner a{width:100%;text-align:center}.a02-scene img{max-height:330px}}
 </style>
+<style id="shivani-continuation-css">
+.shivani-scene-index{display:flex;gap:7px;flex-wrap:wrap;margin:14px 0 18px}
+.shivani-scene-index a{font-size:12px;line-height:1.2;font-weight:800;padding:8px 10px;border-radius:8px;background:#fff;border:1px solid #e5d7e1}
+.shivani-grok-slot{min-height:220px;border:2px dashed #c78ca8;background:#fff8fc;border-radius:14px;padding:18px 19px;margin:22px 0;text-align:left}
+.shivani-grok-slot h4{font-size:17px;margin:8px 0;color:#683451}
+.shivani-grok-slot p{margin:8px 0;font-size:13px;line-height:1.65;color:#67586a}
+@media(max-width:630px){.shivani-scene-index a{padding:7px 8px}.shivani-grok-slot{min-height:195px;padding:15px}}
+</style>
 <style id="sw-navigation-redesign">
 html{scroll-behavior:smooth;scroll-padding-top:85px}
 body{overflow-x:hidden}
@@ -160,7 +168,7 @@ body>.sw-sitebar+header p{margin:3px 0}
 <a href="?tab=episode-dashboard&view=pending">All leads</a>
 <a href="?tab=ankita-prose">Ankita</a>
 <a href="?tab=ankita-prose">Ankita parcel drafts</a>
-<a href="?tab=shivani-prose">Shivani</a>
+<a href="?tab=shivani-continuation">Shivani</a>
 <a href="?tab=taniya-soniya-prose">Taniya</a>
 <a href="?tab=taniya-soniya-prose">Soniya</a>
 <a href="?tab=meenakshi-m01">Meenakshi</a>
@@ -174,6 +182,7 @@ body>.sw-sitebar+header p{margin:3px 0}
 <button role="tab" data-tab="ankita-prose" aria-selected="false">Ankita · Scenes 1–8 (A08 Final)</button>
 <button role="tab" data-tab="shivani-prose" aria-selected="false">Shivani · A02 Approved Prose</button>
 <button role="tab" data-tab="shivani-a03-prose" aria-selected="false">Shivani · A03 Photo &amp; Story</button>
+<button role="tab" data-tab="shivani-continuation" aria-selected="false">Shivani · A04–D01 Completed</button>
 
 <button role="tab" data-tab="taniya-soniya-prose" aria-selected="false">Taniya + Soniya · TS01–TS02</button>
 <button role="tab" data-tab="leads" aria-selected="false">Story by Character</button>
@@ -188,7 +197,7 @@ body>.sw-sitebar+header p{margin:3px 0}
 <p class="sw-dash-sub">1 January 2026 · Gurgaon · Six women, five writing lanes, one continuous Episode 02 page. Switch between pending, completed and all scenes without leaving this reader.</p></div><span class="chip approved">Live progress index</span></div>
 <nav class="sw-lead-jump" aria-label="Read all female leads on the same episode page">
 <a href="?tab=ankita-prose">Ankita<small>A02–A08 · Completed</small></a>
-<a href="?tab=shivani-prose">Shivani<small>A02–A03 · Published</small></a>
+<a href="?tab=shivani-continuation">Shivani<small>A02–D01 · Published; Grok slot</small></a>
 <a href="?tab=taniya-soniya-prose">Taniya<small>TS01–TS02 · Shared story</small></a>
 <a href="?tab=taniya-soniya-prose">Soniya<small>TS01–TS02 · Shared story</small></a>
 <a href="?tab=meenakshi-m01">Meenakshi<small>M01–M05 · Read inline</small></a>
@@ -1011,6 +1020,197 @@ Mahendra ko apni file bag yaad thi. Om, Subhash, Mohan, Arvind apne-apne chhupay
 </div></article>
 <p class="muted"><strong>Continuity:</strong> Rohan left at 07:10. Shivani's non-nude private photo remains on her own phone, unsent; college attire is different from the burgundy home look. The next scene A04 begins around 08:10 with Kavya and Tara.</p>
 </section>
+<section class="surface hidden" data-panel="shivani-continuation" id="shivani-continuation-a04-d01">
+<div class="sectionhead"><h2>Shivani · EP02 — Morning to College Cutoff</h2><span class="chip approved">STORY PUBLISHED · GROK INSERT PENDING</span></div>
+<p class="muted">1 January 2026 · 08:10 AM–01:30 PM · Gurgaon. Approved B03 banter; compact transitions; C03–C04 privacy-reveal suspense. One visual insert slot remains open for user-supplied Grok description. The original A03 selfie is available in its own tab.</p>
+<nav class="shivani-scene-index" aria-label="Shivani scene jump links"><a href="?tab=shivani-prose">A02 Surprise</a><a href="?tab=shivani-a03-prose">A03 Selfie</a><a href="#shivani-a04-scene">A04</a><a href="#shivani-a05-scene">A05</a><a href="#shivani-a06-scene">A06</a><a href="#shivani-b01-scene">B01</a><a href="#shivani-b02-scene">B02</a><a href="#shivani-b03-scene">B03</a><a href="#shivani-c01-scene">C01</a><a href="#shivani-c02-scene">C02</a><a href="#shivani-c03-scene">C03</a><a href="#shivani-c04-scene">C04</a><a href="#shivani-c05-scene">C05</a><a href="#shivani-d01-scene">D01</a></nav>
+<article class="a02-scene" id="shivani-a04-scene"><div class="a02-scene-head"><div><div class="stamp">SHIVANI · A04 · 08:10–08:15</div><h3>A04 — Childcare Handoff</h3></div><span class="chip approved">PUBLISHED</span></div><div class="a02-prose">
+<p class="a02-narration">08:10 AM — Kavya ghar pahunchi aur Tara ki childcare responsibility sambhal li.</p>
+<p class="a02-narration">Shivani ne college bag uthaya, dono ko goodbye kaha aur 08:15 par parking ki taraf nikal gayi.</p>
+</div></article>
+<article class="a02-scene" id="shivani-a05-scene"><div class="a02-scene-head"><div><div class="stamp">SHIVANI · A05 · 08:16–08:20</div><h3>A05 — Private Biology Lessons</h3></div><span class="chip approved">PUBLISHED</span></div><div class="a02-prose">
+<p class="a02-narration">Shivani apni scooty ke paas helmet nikaal rahi thi. Karan aur Aman saamne se aa rahe the.</p>
+<p class="a02-dialogue"><strong>Karan:</strong> Good morning, Shivani madam! New Year pe bhi college? Students toh bade lucky hain.</p>
+<p class="a02-dialogue"><strong>Shivani:</strong> Good morning! Tum dono ki padhai kaisi chal rahi hai?</p>
+<p class="a02-dialogue"><strong>Aman:</strong> Theek hai madam. Bas kuch subjects mein revision ki zaroorat hai.</p>
+<p class="a02-dialogue"><strong>Shivani:</strong> Achha? Kaunsa subject?</p>
+<p class="a02-dialogue"><strong>Karan:</strong> Biology, madam. Especially human biology.</p>
+<p class="a02-dialogue"><strong>Shivani:</strong> Really? Tumhara toh MBA chal raha tha, Karan!</p>
+<p class="a02-dialogue"><strong>Karan:</strong> <mark><strong>MBA toh chal raha hai, lekin biology mein kuch topics aise hain jo theory se bilkul samajh nahi aate.</strong></mark></p>
+<p class="a02-narration">Shivani hans padi.</p>
+<p class="a02-dialogue"><strong>Shivani:</strong> Tum dono ko toh lagta hai biology ke lessons dobara padhane padenge.</p>
+<p class="a02-dialogue"><strong>Aman:</strong> <mark><strong>Lessons ke saath practical sessions bhi hone chahiye, madam. Warna concepts clear kaise honge?</strong></mark></p>
+<p class="a02-dialogue"><strong>Shivani:</strong> Oh! Ab tum bhi shuru ho gaye?</p>
+<p class="a02-dialogue"><strong>Karan:</strong> <mark><strong>Aur practical session kam se kam aadha ghanta, kabhi ek ghanta toh hona hi chahiye. Itni jaldi mein proper learning thodi hoti hai!</strong></mark></p>
+<p class="a02-narration">Shivani ne eyebrows raise kiye.</p>
+<p class="a02-dialogue"><strong>Shivani:</strong> Achha ji? Dono ne poora timetable bhi bana liya?</p>
+<p class="a02-dialogue"><strong>Aman:</strong> Timetable flexible hai, madam. Bas teacher experienced honi chahiye.</p>
+<p class="a02-dialogue"><strong>Karan:</strong> <mark><strong>Toh private tuition available hai kya? One-to-one sessions bhi arrange ho sakte hain?</strong></mark></p>
+<p class="a02-dialogue"><strong>Shivani:</strong> Tum dono ko private tuition se pehle discipline ki zaroorat hai.</p>
+<p class="a02-dialogue"><strong>Aman:</strong> <mark><strong>Discipline bhi seekh lenge, madam. Bas lessons interesting hone chahiye.</strong></mark></p>
+<p class="a02-narration">Shivani ne dono ko dekha. Unki shararat samajh aa chuki thi.</p>
+<p class="a02-dialogue"><strong>Shivani:</strong> <mark><strong>Biology ke naam par tum dono ki chemistry kuch zyada hi active lag rahi hai.</strong></mark></p>
+<p class="a02-narration">Dono hans pade. Phir Shivani ne ghadi dekhi aur serious ho gayi.</p>
+<p class="a02-dialogue"><strong>Shivani:</strong> Achha, jokes apart. Agar genuinely revision chahiye toh topics bhej dena. Main apna schedule check karke sochungi.</p>
+<p class="a02-dialogue"><strong>Karan:</strong> Matlab private tuition ki possibility hai?</p>
+<p class="a02-dialogue"><strong>Shivani:</strong> <mark><strong>Maine kaha na, soch ke batati hoon. Abhi koi promise nahi.</strong></mark></p>
+<p class="a02-dialogue"><strong>Aman:</strong> Okay madam. No pressure.</p>
+<p class="a02-dialogue"><strong>Shivani:</strong> Good. Ab mujhe college ke liye late mat karwana.</p>
+<p class="a02-dialogue"><strong>Karan:</strong> Happy New Year, Shivani madam!</p>
+<p class="a02-dialogue"><strong>Shivani:</strong> Happy New Year, dono ko!</p>
+<p class="a02-narration">Shivani ne helmet pehna. 08:20 par uski scooty college ki taraf nikal gayi.</p>
+<p class="muted">Continuity: Ankita 08:05 par nikal chuki hai. Karan–Aman ka Shreya SR05 checkpoint 08:12–08:15 mein already separate hai. Koi actual private lesson book nahi hua.</p>
+</div></article>
+<article class="a02-scene" id="shivani-a06-scene"><div class="a02-scene-head"><div><div class="stamp">SHIVANI · A06 · 08:20</div><h3>A06 — Scooty Departure</h3></div><span class="chip approved">PUBLISHED</span></div><div class="a02-prose">
+<p class="a02-narration">Shivani ne Karan aur Aman ko goodbye kaha, helmet pehna aur scooty lekar college ke liye nikal gayi.</p>
+</div></article>
+<article class="a02-scene" id="shivani-b01-scene"><div class="a02-scene-head"><div><div class="stamp">SHIVANI · B01 · 08:45</div><h3>B01 — College Arrival</h3></div><span class="chip approved">PUBLISHED</span></div><div class="a02-prose">
+<p class="a02-narration">Shivani college pahunchi, scooty park ki aur apne professional outfit mein bag lekar classroom ki taraf badhi.</p>
+</div></article>
+<article class="a02-scene" id="shivani-b02-scene"><div class="a02-scene-head"><div><div class="stamp">SHIVANI · B02 · 09:00–10:30</div><h3>B02 — The Biology of Attention</h3></div><span class="chip approved">PUBLISHED DRAFT</span></div><div class="a02-prose">
+<p class="a02-narration">09:00 AM — Shivani classroom mein enter hui. Harsh aur Laksh front row ke paas baithe the; Nandini notes aur Ritika board ka previous topic check kar rahi thi.</p>
+<p class="a02-dialogue"><strong>Shivani:</strong> Good morning, everyone. Happy New Year!</p>
+<p class="a02-dialogue"><strong>Class:</strong> Happy New Year, ma'am!</p>
+<p class="a02-dialogue"><strong>Harsh:</strong> Ma'am, New Year ke first day bhi class? Humne toh socha tha aaj relaxation milega.</p>
+<p class="a02-dialogue"><strong>Shivani:</strong> Harsh, tum relaxation ko bhi full-time career banana chahte ho?</p>
+<p class="a02-dialogue"><strong>Harsh:</strong> <mark><strong>Ma'am, career toh serious hai. Bas aapki class miss karna afford nahi kar sakte.</strong></mark></p>
+<p class="a02-dialogue"><strong>Shivani:</strong> Interesting. Padhai ki wajah se?</p>
+<p class="a02-dialogue"><strong>Laksh:</strong> Ma'am, iska answer check kar lijiye. Yeh kabhi-kabhi question se zyada creative ho jaata hai.</p>
+<p class="a02-dialogue"><strong>Nandini:</strong> Ma'am, kal isi ne kaha tha New Year se serious student banega.</p>
+<p class="a02-dialogue"><strong>Ritika:</strong> Aaj practical demonstration mil raha hai ki resolution kitni jaldi fail hota hai.</p>
+<p class="a02-narration">Sab hans pade. Shivani ne board par HOMEOSTASIS — NEGATIVE FEEDBACK likha.</p>
+<p class="a02-dialogue"><strong>Shivani:</strong> Body apna temperature normal kaise maintain karti hai?</p>
+<p class="a02-dialogue"><strong>Nandini:</strong> Temperature badhne par sweating se cooling hoti hai.</p>
+<p class="a02-dialogue"><strong>Ritika:</strong> Temperature girne par shivering muscles se heat generate karne mein help karti hai.</p>
+<p class="a02-dialogue"><strong>Shivani:</strong> Excellent. Harsh, tum example do.</p>
+<p class="a02-dialogue"><strong>Harsh:</strong> <mark><strong>Ma'am, kabhi-kabhi kisi special person ke saamne heartbeat badh jaati hai. Woh bhi biological reaction hai na?</strong></mark></p>
+<p class="a02-dialogue"><strong>Shivani:</strong> Heartbeat exercise, anxiety aur excitement—kai reasons se badh sakti hai. Sirf ek reaction se conclusion nahi nikalte.</p>
+<p class="a02-dialogue"><strong>Laksh:</strong> Matlab proper observation aur evidence chahiye.</p>
+<p class="a02-dialogue"><strong>Harsh:</strong> Toh theory ke saath practical sessions bhi hone chahiye.</p>
+<p class="a02-dialogue"><strong>Shivani:</strong> <mark><strong>Practical mein observation, procedure aur result chahiye, Harsh. Sirf imagination se marks nahi milenge.</strong></mark></p>
+<p class="a02-dialogue"><strong>Ritika:</strong> Ma'am, iska imagination section toh already full marks le aaya.</p>
+<p class="a02-dialogue"><strong>Laksh:</strong> Bas actual answer likhne mein problem hai.</p>
+<p class="a02-narration">09:50 AM — Students ne heart rate aur temperature regulation ki case exercise solve ki. Laksh ne feedback response, Nandini ne recovery observations aur Ritika ne emotional arousal versus physical exertion ka difference explain kiya.</p>
+<p class="a02-dialogue"><strong>Shivani:</strong> Jab jokes ke saath actual concepts bhi revise karte ho, class productive hoti hai.</p>
+<p class="a02-dialogue"><strong>Harsh:</strong> Toh jokes allowed hain?</p>
+<p class="a02-dialogue"><strong>Shivani:</strong> Relevant hon toh.</p>
+<p class="a02-dialogue"><strong>Harsh:</strong> <mark><strong>Reaction samajhne se pehle situation samajhna zaroori hai.</strong></mark></p>
+<p class="a02-dialogue"><strong>Laksh:</strong> Ma'am, isko bonus marks mat dena. Poore lecture mein isi moment ka wait kar raha tha.</p>
+<p class="a02-narration">10:25 AM — Shivani ne five revision questions likhe.</p>
+<p class="a02-dialogue"><strong>Ritika:</strong> Ma'am, next class mein application-based questions bhi karenge?</p>
+<p class="a02-dialogue"><strong>Shivani:</strong> Haan. Nandini, tum case study ready rakhna. Harsh aur Laksh, aaj ke five questions solve karna.</p>
+<p class="a02-dialogue"><strong>Harsh:</strong> Ma'am, thoda mercy?</p>
+<p class="a02-dialogue"><strong>Shivani:</strong> <mark><strong>Class mein chemistry create karna aasaan hai, Harsh. Biology pass karna thodi mehnat maangta hai.</strong></mark></p>
+<p class="a02-narration">10:30 AM — Shivani notes lekar classroom se nikli; class apne assignments discuss karne lagi.</p>
+<p class="muted">EP01 rehearsal familiarity retained. Harsh–Laksh adult undergraduate twins; Nandini and Ritika independent students, not faculty. Classroom scene remains a working draft accepted as the sequence advanced.</p>
+</div></article>
+<article class="a02-scene" id="shivani-b03-scene"><div class="a02-scene-head"><div><div class="stamp">SHIVANI · B03 · 10:45–11:30</div><h3>B03 — Four-Way Faculty Room Banter</h3></div><span class="chip approved">APPROVED</span></div><div class="a02-prose">
+<p class="a02-narration">10:45 AM — Faculty room mein Shivani ke saath Pooja, Kriti aur Dr. Aarav Sethi the. Aarav ke clever compliments se Pooja aur Kriti pehle se familiar the; aaj unki shared teasing ek step zyada mischievous ho gayi.</p>
+<p class="a02-narration"><strong>Part 1 — Pooja × Aarav</strong></p>
+<p class="a02-dialogue"><strong>Aarav:</strong> Pooja, aap har baar mujhe dekhkar smile kyun karti hain? Kuch kehna hai toh privately bhi keh sakti hain.</p>
+<p class="a02-dialogue"><strong>Pooja:</strong> <mark><strong>Private mein bulaoge toh sirf baatein karoge, Dr. Sethi?</strong></mark></p>
+<p class="a02-narration">Aarav hansa. Pooja apne jawab par blush kar gayi, lekin nazar nahi hatayi.</p>
+<p class="a02-narration"><strong>Part 2 — Kriti × Aarav</strong></p>
+<p class="a02-dialogue"><strong>Kriti:</strong> Aarav, tumhe har conversation ko interesting banana zaroori lagta hai?</p>
+<p class="a02-dialogue"><strong>Aarav:</strong> <mark><strong>Interesting company mile toh main time ka hisaab bhool jaata hoon.</strong></mark></p>
+<p class="a02-dialogue"><strong>Kriti:</strong> <mark><strong>Phir stamina bhi achha hona chahiye. Har interesting conversation jaldi khatam nahi hoti.</strong></mark></p>
+<p class="a02-dialogue"><strong>Aarav:</strong> Kriti, mujhe lag raha hai tum mujhe deliberately challenge kar rahi ho.</p>
+<p class="a02-dialogue"><strong>Kriti:</strong> <mark><strong>Challenge samajhna hai ya invitation, woh tumhari interpretation hai.</strong></mark></p>
+<p class="a02-narration">Pooja hans padi. Kriti ne coffee cup ke peeche apni smile chhupayi.</p>
+<p class="a02-narration"><strong>Part 3 — Shivani × Aarav</strong></p>
+<p class="a02-dialogue"><strong>Aarav:</strong> Shivani, aap itni composed kaise rehti hain? Kabhi kisi ne aapko genuinely nervous kiya?</p>
+<p class="a02-dialogue"><strong>Shivani:</strong> Koshish bahuton ne ki hai.</p>
+<p class="a02-dialogue"><strong>Aarav:</strong> <mark><strong>Toh mujhe bhi ek chance milega? Main challenges aadhe mein chhodne ka aadmi nahi hoon.</strong></mark></p>
+<p class="a02-dialogue"><strong>Shivani:</strong> <mark><strong>Chance lene se pehle yaad rakhna, Aarav. Main expectations bhi high rakhti hoon aur evaluation bhi strict karti hoon.</strong></mark></p>
+<p class="a02-narration">Pooja aur Kriti ne ek doosre ko dekha. Ab chaaron ek hi playful exchange mein shamil the.</p>
+<p class="a02-narration"><strong>Part 4 — Common conversation; everyone joins</strong></p>
+<p class="a02-dialogue"><strong>Kriti:</strong> Ek minute! Aarav, tum teenon ko individually impress karne ki koshish kar rahe ho?</p>
+<p class="a02-dialogue"><strong>Aarav:</strong> Main toh bas interesting company enjoy kar raha hoon.</p>
+<p class="a02-dialogue"><strong>Pooja:</strong> <mark><strong>Achha? Teen confident women ek saath hon toh pressure handle kar loge?</strong></mark></p>
+<p class="a02-dialogue"><strong>Aarav:</strong> <mark><strong>Pressure se problem nahi. Bas mujhe cheezein jaldi mein karna pasand nahi.</strong></mark></p>
+<p class="a02-dialogue"><strong>Kriti:</strong> Oho! Matlab patience bhi hai?</p>
+<p class="a02-dialogue"><strong>Shivani:</strong> Pooja, Kriti, tum dono iski interview panel ban gayi ho kya?</p>
+<p class="a02-dialogue"><strong>Pooja:</strong> <mark><strong>Bilkul! Candidate ko experience, patience aur stamina—teenon prove karne padenge.</strong></mark></p>
+<p class="a02-dialogue"><strong>Aarav:</strong> Aur agar candidate saare rounds clear kar de?</p>
+<p class="a02-dialogue"><strong>Kriti:</strong> <mark><strong>Toh final decision hum teenon milkar lenge.</strong></mark></p>
+<p class="a02-narration">Pooja ki hansi chhoot gayi. Kriti ne coffee cup uthaya.</p>
+<p class="a02-dialogue"><strong>Shivani:</strong> <mark><strong>Tum logon ne toh faculty room ko interview room bana diya. Aarav, pehle written test pass kar lo. Practical ki permission baad mein milegi.</strong></mark></p>
+<p class="a02-dialogue"><strong>Aarav:</strong> Teen examiners? Yeh toh unfair advantage hai.</p>
+<p class="a02-dialogue"><strong>Pooja:</strong> Abhi toh humne difficult questions poochhe bhi nahi.</p>
+<p class="a02-narration">Aarav ek pal ke liye chup hua. Teenon women hans padi. Unke playful exchanges voluntary aur mutually understood the; koi actual private appointment ya invitation agree nahi hua.</p>
+<p class="a02-narration"><strong>Presentation coordination request</strong></p>
+<p class="a02-narration">Kriti ke paas 1 PM ke presentation review ke liye connectivity request aa gayi.</p>
+<p class="a02-dialogue"><strong>Kriti:</strong> Achha, jokes over. Shivani, 1 PM ke presentation review mein phone connectivity check karni hogi.</p>
+<p class="a02-dialogue"><strong>Shivani:</strong> Okay. Main AV desk par phone lekar aa jaungi.</p>
+<p class="a02-narration">Conversation professional mode mein laut aayi.</p>
+<p class="muted">Aarav's playful history here is lightly established staffroom familiarity, not an invented prior affair. Shivani's actual personal phone is handed over only around 13:00 in C01.</p>
+</div></article>
+<article class="a02-scene" id="shivani-c01-scene"><div class="a02-scene-head"><div><div class="stamp">SHIVANI · C01 · 12:58–13:02</div><h3>C01 — The Setup</h3></div><span class="chip approved">PUBLISHED</span></div><div class="a02-prose">
+<p class="a02-narration">Sunny presentation system connect kar raha tha. Shivani ne apna personal phone unlock karke use diya; screen transition mein Sunny ko ek unclear image preview ki pal-bhar jhalak mili, jise woh pehchaan nahi paaya.</p>
+<p class="a02-dialogue"><strong>Shivani:</strong> Sunny, phone connected rehne dena. Main documents lekar aati hoon.</p>
+<p class="muted">Photo local gallery mein thi; Sunny ne jaanbujhkar na use khola, na copy kiya.</p>
+</div></article>
+<article class="a02-scene" id="shivani-c02-scene"><div class="a02-scene-head"><div><div class="stamp">SHIVANI · C02 · After 13:00</div><h3>C02 — The Empty Moment</h3></div><span class="chip approved">PUBLISHED</span></div><div class="a02-prose">
+<p class="a02-narration">Shivani academic paperwork collect karne bahar gayi, aur Sunny equipment ke side area mein shift ho gaya.</p>
+<p class="a02-narration">Aarav, Principal Dheeraj aur Trustee Malhotra legitimate presentation review ke liye room mein the.</p>
+</div></article>
+<article class="a02-scene" id="shivani-c03-scene"><div class="a02-scene-head"><div><div class="stamp">SHIVANI · C03 · 13:05–13:08</div><h3>C03 — The Photograph on the Big Screen</h3></div><span class="chip approved">PUBLISHED</span></div><div class="a02-prose">
+<p class="a02-narration">13:06 PM — Conference room ki white projector light mein presentation slide ki jagah <strong>Shivani ki private burgundy-saree mirror photograph</strong> ekdum se aa gayi. Teeno men ne ek hi moment mein screen dekhi.</p>
+<!-- SHIVANI_C03_GROK_GRAPHICAL_INSERT_START: REPLACE ONLY CONTENT INSIDE THIS SLOT AFTER USER REVIEW -->
+<div id="shivani-c03-grok-slot" class="shivani-grok-slot" data-status="awaiting-user-supplied-grok-insert" aria-label="Reserved graphical insert for Shivani HD projector photograph">
+ <div class="stamp">RESERVED · USER GRAPHICAL INSERT</div>
+ <h4>HD projector photograph — Grok visual description goes here</h4>
+ <p>Placeholder intentionally left blank. Insert the reviewed user-supplied description of the already-existing non-nude burgundy-saree mirror photograph here. Keep the shared reaction immediately after this slot and preserve the scene's chronology.</p>
+ <p><a href="?tab=shivani-a03-prose">Reference: A03 original mirror photograph</a></p>
+</div>
+<!-- SHIVANI_C03_GROK_GRAPHICAL_INSERT_END -->
+<p class="a02-narration">HD display par saree ki golden embroidery, draping, earrings, bindi, confident smile aur graceful silhouette clearly nazar aa rahe the. <mark><strong>Roz ki composed, traditional college lecturer aur uski private glamorous image ka contrast itna unexpected tha ki teeno ki baat ek saath ruk gayi.</strong></mark></p>
+<p class="a02-narration">Lagbhag ek minute tak unke beech khamoshi thi. Aarav ki abhi-abhi hui faculty-room flirting ka echo, Dheeraj ki professional duty aur Malhotra ki silent curiosity—teen alag reactions ek hi screen se shuru hue.</p>
+<p class="a02-dialogue"><strong>Aarav (dheere se):</strong> Wait... yeh Shivani hain?</p>
+<p class="a02-dialogue"><strong>Dheeraj:</strong> Yeh presentation ka part nahi hai.</p>
+<p class="a02-dialogue"><strong>Malhotra:</strong> Nahi. Personal photograph lag rahi hai.</p>
+<p class="a02-narration"><strong>Aarav — Morning conversation ka echo</strong></p>
+<p class="a02-narration">Aarav ko Shivani ka direct comeback yaad aaya: <mark><strong>Attention earn karni padegi, Aarav.</strong></mark></p>
+<p class="a02-narration"><em>Subah usne mujhe apni baat se roka tha. Ab uski private photo mere saamne hai. Maine yeh attention earn nahi ki; usne kabhi mujhe yeh dikhane ka faisla bhi nahi kiya. Phir bhi nazar kyun nahi hata paa raha?</em></p>
+<p class="a02-narration">Aarav ko Rohan ka khayal aaya. <em>Shayad yeh photograph unke liye li gayi thi.</em> Uski curiosity uske professional judgement se aage badh rahi thi.</p>
+<p class="a02-dialogue"><strong>Aarav:</strong> She looks... very different.</p>
+<p class="a02-narration"><strong>Dheeraj — Duty versus desire</strong></p>
+<p class="a02-narration">Dheeraj ne projector controls ki taraf haath badhaya. <em>Principal hone ke naate mujhe abhi screen band karwani chahiye. Shivani yahan hoti toh kya woh kisi ko yeh photo dekhne deti? Bilkul nahi.</em></p>
+<p class="a02-narration">Phir uski nazar ek baar dobara photograph par gayi. <em>College mein hamesha formally dressed rehne wali Shivani ka yeh personal side...</em> Uska haath ruk gaya.</p>
+<p class="a02-narration"><mark><strong>Use pata tha ki sahi kaam kya tha. Phir bhi usne woh kaam turant nahi kiya.</strong></mark></p>
+<p class="a02-narration"><strong>Malhotra — Deliberate silence</strong></p>
+<p class="a02-narration">Malhotra ne na compliment diya, na sawaal poochha. Pehle Aarav aur Dheeraj ke expressions dekhe, phir photograph par nazar jama di.</p>
+<p class="a02-narration"><em>Ek personal photograph. Teen witnesses. Filhaal koi explanation nahi.</em></p>
+<p class="a02-narration"><mark><strong>Uski khamoshi surprise nahi thi; woh jaanbujhkar apni curiosity aur intentions chhupa raha tha.</strong></mark></p>
+<p class="muted">Shivani room mein present nahi hai. Photo ka appearance accidental hai aur teenon ke internal thoughts uski taraf se invitation ya consent nahi hain.</p>
+</div></article>
+<article class="a02-scene" id="shivani-c04-scene"><div class="a02-scene-head"><div><div class="stamp">SHIVANI · C04 · 13:08–13:12</div><h3>C04 — Three Separate Secrets</h3></div><span class="chip approved">PUBLISHED</span></div><div class="a02-prose">
+<p class="a02-narration">13:09 PM — Photograph abhi bhi screen par thi. Teenon ke paas use turant remove karwane ka mauka tha, lekin unhone alag-alag, conscious decisions liye.</p>
+<p class="a02-narration"><strong>Aarav</strong></p>
+<p class="a02-narration">Aarav ne phone nikala. <em>Usne kaha tha attention earn karni padegi. Yeh attention mujhe di nahi gayi. Phir bhi main us memory ko apne paas rakhna chahta hoon.</em></p>
+<p class="a02-narration">Usne image ki unauthorized copy capture kar li. Yeh faculty room ki flirtation ka consensual continuation nahi, ek privacy boundary crossing thi.</p>
+<p class="a02-narration"><strong>Dheeraj</strong></p>
+<p class="a02-narration">Dheeraj ne projector aur room ke dusre occupants ko dekha. <em>Principal hone ke naate mujhe photo protect karni chahiye thi.</em></p>
+<p class="a02-narration">Uski professional responsibility aur curiosity ke conflict ke bawajood usne bhi apne phone par photograph retain kar li.</p>
+<p class="a02-narration"><strong>Malhotra</strong></p>
+<p class="a02-narration">Malhotra ne expression almost unchanged rakha. Bina kisi discussion ke usne separately copy rakh li; phir apne notes ki taraf dekhne laga.</p>
+<p class="a02-narration"><em>Yeh unka personal moment hai. Isko dekhna bhi mere liye intended nahi tha.</em></p>
+<p class="a02-narration">Teeno ne apni copies ke baare mein kisi se kuch nahi kaha. Display wapas official slide par aa gaya.</p>
+<p class="a02-dialogue"><strong>Dheeraj:</strong> Let's continue with the review.</p>
+<p class="a02-dialogue"><strong>Aarav:</strong> Yes, sir.</p>
+<p class="a02-narration">Malhotra ne halka sa sir hilaya. <mark><strong>Teen alag phones mein Shivani ki private photograph ki unauthorized copies thi.</strong></mark></p>
+<p class="muted">All three copies are deliberate, independently retained privacy violations. Sunny has not copied the image. No public confrontation or additional physical incident occurs.</p>
+</div></article>
+<article class="a02-scene" id="shivani-c05-scene"><div class="a02-scene-head"><div><div class="stamp">SHIVANI · C05 · 13:12–13:20</div><h3>C05 — The Unaware Return</h3></div><span class="chip approved">PUBLISHED</span></div><div class="a02-prose">
+<p class="a02-narration">Sunny AV area mein wapas aaya aur Shivani ne apna phone retrieve kar liya; usse nahi pata tha ki photo screen par aayi aur teen unauthorized copies ban chuki hain.</p>
+<p class="a02-narration">Sunny apni pehli unclear glimpse ko lekar uncertain raha, jabki Shivani normal academic responsibilities mein laut gayi.</p>
+</div></article>
+<article class="a02-scene" id="shivani-d01-scene"><div class="a02-scene-head"><div><div class="stamp">SHIVANI · D01 · 13:20–13:30</div><h3>D01 — POV Cutoff — An Unshared Secret</h3></div><span class="chip approved">PUBLISHED</span></div><div class="a02-prose">
+<p class="a02-narration">Shivani college premises par agle academic task mein busy rahi, phone safely uske paas tha aur unauthorized photo exposure se woh poori tarah unaware thi. Aarav, Dheeraj aur Malhotra apna secret chhupaye rahe; Sunny ke paas sirf ek uncertain glimpse thi. <mark><strong>Shivani EP02 POV yahin end hota hai.</strong></mark></p>
+<p class="muted">No campus departure, Rohan disclosure, home return, evening scenes or photo-reveal confrontation in this episode.</p>
+</div></article>
+<p class="muted"><strong>Publishing note:</strong> Grok visual description has not been inserted yet. Existing A02/A03 source text and mirror image remain unchanged. B02 is displayed as a working draft for continuity; C03's visual insert needs the user's reviewed final text.</p>
+</section>
 <section class="surface hidden" data-panel="leads">
 <div class="sectionhead"><h2>Character-wise Episode 02</h2><span class="chip">Source-aware</span></div>
 <p class="muted">Select a viewpoint to read its scheduled beats; each record retains its approved or working status. Taniya and Soniya share a home and gym lane but have distinct knowledge and end locations.</p>
@@ -1783,7 +1983,7 @@ function peopleString(names){return [...new Set((names||[]).map(x=>{const p=find
 function defaultLane(v){v=(v||'').toUpperCase();if(/PARCEL|COMMITTEE OFFICE|COMMUNITY OFFICE/.test(v))return 'SOCIETY';if(/GYM|PARK|FITNESS/.test(v))return 'GYM';if(/OFFICE|COLLEGE|HOSPITAL|WORK/.test(v))return 'OFFICE';if(/COMMITTEE|SOCIETY|GATE|PARKING/.test(v))return 'SOCIETY';if(/COMMUTE|TRANSIT|CAB|LIFT|SCOOTY|ROAD/.test(v))return 'TRANSIT';if(/HOME|FLAT|BEDROOM|KITCHEN/.test(v))return 'HOME';return 'OTHER'}
 function normalize(){
  const a=plans.ankita.timeline.filter(s=>s.id!=='A01').map(s=>({id:'ankita-'+s.id,lead:'ankita',time:clockLabel(s),sort:chrono(s.start),end:chrono(s.end),lane:defaultLane(s.lane+' '+(s.where||'')),place:s.where,title:s.title,cast:s.cast,summary:s.id==='A02'?'Approved A02 dialogue split into Scene 1 (Rohan) and Scene 2 (Nikhil joins), with key dialogue highlighted and both images embedded in this UI.':s.id==='A03'?'Approved A03 outdoor fitness scene: Ankita with Vivek and Vikram. Read Scene 3 in the same Ankita tab with highlighted dialogue.':s.id==='A04'?'Approved A04 breakfast scene with Karan, Aman and Rajeev; includes push-up bet and an interrupted private-family remark, without revealing its meaning.':s.id==='A05'?'User-submitted A05 shower and cream-kurti mirror prose, highlighted in Ankita tab; additional master A05 beats require continuity review.':s.id==='A06'?'User-corrected A06 lift/lobby dialogue with Ayaan and Armaan; original edits retained, two images and highlights in reader.':s.id==='A07'?'Approved A07 gate scene: Gopal receives explicit courier instructions and has a private final gaze and one-sided remark.':s.id==='A08'?'Final user-authored A08 Office Double Take, with API deployment setup, 09:05–09:10 mirror timing and a closing Reyansh curiosity hook.':/^P0[1-8]$/.test(s.id)?'Working parcel plot with unapproved prose and handoffs; read the draft in Ankita’s chronological story below.':s.action,beats:[],dialogue:(s.id==='A02'||s.id==='A03'||s.id==='A04'||s.id==='A05'||s.id==='A06'||s.id==='A07'||s.id==='A08')?[]:(s.dialogue||[]),notes:(s.id==='A02'||s.id==='A03'||s.id==='A04'||s.id==='A05'||s.id==='A06'||s.id==='A07'||s.id==='A08')?['Read approved scenes in the Ankita tab on this page. Planning text is superseded only for these approved scenes.']:[s.herReaction,s.privateThought,...(s.hooks||[])].filter(Boolean),status:s.id==='A02'?'APPROVED A02 SCENES':s.id==='A03'?'APPROVED A03 SCENE':s.id==='A04'?'APPROVED A04 SCENE':s.id==='A05'?'USER-SUBMITTED A05 PROSE':s.id==='A06'?'APPROVED A06 SCENE':s.id==='A07'?'APPROVED A07 SCENE':s.id==='A08'?'FINAL A08 SCENE':/^P0[1-8]$/.test(s.id)?'PARCEL DRAFT · REVIEW REQUIRED':'USER-DIRECTED WORKING',source:'Ankita EP02 plan'}));
- const sh=plans.shivani.scenes.filter(s=>!(s.id==='A01'&&s.time.includes('06:20'))).map(s=>({id:'shivani-'+s.id,lead:'shivani',time:s.time,sort:chrono(s.time),end:'',lane:defaultLane(s.location),place:s.location,title:s.title,cast:s.participants,summary:(s.approved_beats||[])[0]||'',beats:(s.approved_beats||[]).slice(1),dialogue:[],notes:s.continuity_notes||[],status:s.id==='A02'?'APPROVED A02 PROSE · SHIVANI TAB':s.id==='A03'?'APPROVED A03 PROSE & PHOTO · SHIVANI TAB':'APPROVED PLOT · NOT FINAL PROSE',source:'Shivani EP02 plan'}));
+ const sh=plans.shivani.scenes.filter(s=>!(s.id==='A01'&&s.time.includes('06:20'))).map(s=>({id:'shivani-'+s.id,lead:'shivani',time:s.time,sort:chrono(s.time),end:'',lane:defaultLane(s.location),place:s.location,title:s.title,cast:s.participants,summary:(s.approved_beats||[])[0]||'',beats:(s.approved_beats||[]).slice(1),dialogue:[],notes:s.continuity_notes||[],status:s.id==='A02'?'APPROVED A02 PROSE · SHIVANI TAB':s.id==='A03'?'APPROVED A03 PROSE & PHOTO · SHIVANI TAB':s.id==='B02'?'PUBLISHED WORKING DRAFT · SHIVANI CONTINUATION':s.id==='C03'?'PUBLISHED STORY · GROK VISUAL INSERT PENDING':'PUBLISHED · SHIVANI CONTINUATION',source:'Shivani EP02 plan'}));
  const ts=plans.sisters.timeline.filter(s=>!s.id.startsWith('X-')).map(s=>({id:'sisters-'+s.id,lead:(s.participants.includes('taniya')&&s.participants.includes('soniya'))?'sisters':s.participants.includes('taniya')?'taniya':s.participants.includes('soniya')?'soniya':'sisters',time:clockLabel(s),sort:chrono(s.start),end:chrono(s.end),lane:defaultLane(s.lane+' '+s.location),place:s.location,title:s.title,cast:s.participants,summary:(s.beats||[])[0]||'',beats:(s.beats||[]).slice(1),dialogue:s.sampleDialogue||[],notes:[],status:s.proseStatus==='PUBLISHED_USER_REQUESTED_DRAFT'?'PUBLISHED DRAFT · TANIYA + SONIYA TAB':s.source==='PROPOSED'?'PROPOSED · UNAPPROVED':'USER-DIRECTED · UNAPPROVED',source:'Taniya/Soniya EP02 plan'}));
  const me=plans.meenakshi.timeline.filter(s=>s.approval!=='EXISTING_CANON_REFERENCE').map(s=>({id:'meenakshi-'+s.id,lead:'meenakshi',time:clockLabel(s),sort:chrono(s.start),end:chrono(s.end),lane:defaultLane(s.lane+' '+s.location),place:s.location,title:s.title,cast:s.characters,summary:s.summary,beats:[s.detail],dialogue:[],notes:s.notes||[],status:s.approval==='PROPOSED_CONVERSATION'?'PROPOSED · UNAPPROVED':'WORKING PLOT · UNAPPROVED',source:'Meenakshi EP02 plan'}));
  const sr=plans.shreya.timeline.map(v=>({id:'shreya-'+v.id,lead:'shreya',time:clockLabel(v),sort:chrono(v.start),end:chrono(v.end),lane:defaultLane(v.lane+' '+v.location),place:v.location,title:v.title,cast:v.characters,summary:v.summary,beats:v.beats||[],dialogue:v.dialogue||[],notes:v.notes||[],status:v.id==='SR01'?'PUBLISHED SR01 PROSE':'USER-ACCEPTED WORKING · NOT FINAL PROSE',source:'Shreya EP02 plan'}));
@@ -1880,7 +2080,18 @@ const swPublished={
  'ankita-P08':{kind:'done',text:'P08 · user-revised final',parts:['parcel-p08']},
  'shivani-A02':{kind:'done',text:'Approved',parts:['shivani-a02-prose']},
  'shivani-A03':{kind:'done',text:'Approved + image',parts:['shivani-a03-photo-story']},
- 'shivani-A04':{kind:'done',text:'Two-line scene completed',mini:'08:10 AM — Kavya ghar pahunchi aur Tara ki childcare responsibility sambhal li. Shivani ne college bag uthaya, dono ko goodbye kaha aur 08:15 par parking ki taraf nikal gayi.'},
+ 'shivani-A04':{kind:'done',text:'Two-line scene completed',parts:['shivani-a04-scene']},
+ 'shivani-A05':{kind:'done',text:'Biology banter approved',parts:['shivani-a05-scene']},
+ 'shivani-A06':{kind:'done',text:'One-line departure',parts:['shivani-a06-scene']},
+ 'shivani-B01':{kind:'done',text:'One-line arrival',parts:['shivani-b01-scene']},
+ 'shivani-B02':{kind:'review',text:'Published working classroom draft',parts:['shivani-b02-scene']},
+ 'shivani-B03':{kind:'done',text:'Approved faculty banter',parts:['shivani-b03-scene']},
+ 'shivani-C01':{kind:'done',text:'Compact AV setup',parts:['shivani-c01-scene']},
+ 'shivani-C02':{kind:'done',text:'Compact transition',parts:['shivani-c02-scene']},
+ 'shivani-C03':{kind:'review',text:'Published · Grok insert pending',parts:['shivani-c03-scene']},
+ 'shivani-C04':{kind:'done',text:'Revised privacy suspense',parts:['shivani-c04-scene']},
+ 'shivani-C05':{kind:'done',text:'Two-line ending',parts:['shivani-c05-scene']},
+ 'shivani-D01':{kind:'done',text:'POV cutoff',parts:['shivani-d01-scene']},
  'meenakshi-M02':{kind:'done',text:'Approved',parts:['meenakshi-m02-story']},
  'meenakshi-M03':{kind:'done',text:'Approved',parts:['meenakshi-m03-story']},
  'meenakshi-M04':{kind:'done',text:'User-accepted prose published',parts:['meenakshi-m04-story']},
@@ -1902,7 +2113,7 @@ const swSpecial={
  'meenakshi-M05':{kind:'done',text:'Approved · M05',parts:['meenakshi-m05-story']},
  'meenakshi-M06':{kind:'review',text:'New prose · review needed',parts:['meenakshi-m06-story']},
  'meenakshi-M07':{kind:'review',text:'New prose · review needed',parts:['meenakshi-m07-story']},
- 'shivani-A05':{kind:'hold',text:'Draft discussed · wait for SR05 continuity'}
+
 };
 const swLabels={ankita:'Ankita',shivani:'Shivani',sisters:'Taniya + Soniya',meenakshi:'Meenakshi',shreya:'Shreya'};
 let swMode=(new URLSearchParams(location.search).get('view')||'pending');
@@ -1913,7 +2124,7 @@ function swPanelFor(e){
  const id=e.id||'',g=swGroup(e);
  if(/^ankita-P0[1-8]$/.test(id))return 'ankita-prose';
  if(g==='ankita')return 'ankita-prose';
- if(g==='shivani')return id==='shivani-A03'?'shivani-a03-prose':/shivani-A0[24]/.test(id)?'shivani-prose':'leads';
+ if(g==='shivani')return id==='shivani-A03'?'shivani-a03-prose':id==='shivani-A02'?'shivani-prose':'shivani-continuation';
  if(g==='sisters')return /^sisters-TS0[12]$/.test(id)?'taniya-soniya-prose':'leads';
  if(g==='meenakshi')return /^meenakshi-M0[1-7]$/.test(id)?'meenakshi-m01':'meenakshi';
  if(g==='shreya')return /^shreya-SR0(?:1|2A|2B)$/.test(id)?'shreya-prose':'shreya';
@@ -1967,7 +2178,7 @@ function swRenderDashboard(){
       (rows.length?'<div class="sw-kicker" style="margin:4px 0 2px">Next to handle</div>'+rows.slice(0,2).map(swTask).join('')+(rows.length>2?'<details style="margin-top:10px"><summary style="cursor:pointer;color:#905276;font-size:12px;font-weight:800">Show remaining '+(rows.length-2)+' planned / review records</summary>'+rows.slice(2).map(swTask).join('')+'</details>':''):'<p class="muted">No pending records under this filter.</p>')+'</section>';
    }
    output+='</div>';
-   output+='<p class="muted" style="margin-top:13px">Crossovers and parallel activity may overlap on the shared clock. SR05 (Shreya × Karan/Aman, 08:12–08:15) remains pending, so Shivani A05 (08:16–08:20) is on hold. A04 is completed as a two-line transition.</p>';
+   output+='<p class="muted" style="margin-top:13px">Crossovers and parallel activity may overlap on the shared clock. Shreya SR05 precedes Shivani A05 (08:16–08:20); the sequence is now published. Shivani C03 retains a clearly marked graphical insert pending user-supplied Grok prose.</p>';
    root.innerHTML=output;
  }else{
    root.innerHTML='<div class="sw-headrow"><h3 style="margin:0 0 13px">'+(swMode==='done'?'Published scenes · Global chronology':'All recorded scenes · Global chronology')+'</h3><span class="tiny">'+selected.length+' scenes · same-day parallel POVs</span></div>'+
@@ -1995,7 +2206,7 @@ function swInitDashboard(){
 function activateTab(tabName){
  if(tabName==='parcel-prose')tabName='ankita-prose'; // legacy deep links remain valid
  const crumb=document.getElementById('sw-current-label');
- if(crumb){const labels={'episode-dashboard':'Progress dashboard',clock:'Combined planning clock','ankita-prose':'Ankita published scenes','shivani-prose':'Shivani A02','shivani-a03-prose':'Shivani A03','taniya-soniya-prose':'Taniya + Soniya morning','shreya-prose':'Shreya published scenes','meenakshi-m01':'Meenakshi M01–M05','meenakshi-m02':'Meenakshi M02–M03','parcel-prose':'Ankita · Parcel P01–P08',cast:'Characters',gallery:'Image gallery',leads:'Story by character',continuity:'Continuity checks',prompts:'Writing prompts',secrets:'Knowledge boundaries'};crumb.textContent=labels[tabName]||tabName;}
+ if(crumb){const labels={'episode-dashboard':'Progress dashboard',clock:'Combined planning clock','ankita-prose':'Ankita published scenes','shivani-prose':'Shivani A02','shivani-a03-prose':'Shivani A03','shivani-continuation':'Shivani A04–D01','taniya-soniya-prose':'Taniya + Soniya morning','shreya-prose':'Shreya published scenes','meenakshi-m01':'Meenakshi M01–M05','meenakshi-m02':'Meenakshi M02–M03','parcel-prose':'Ankita · Parcel P01–P08',cast:'Characters',gallery:'Image gallery',leads:'Story by character',continuity:'Continuity checks',prompts:'Writing prompts',secrets:'Knowledge boundaries'};crumb.textContent=labels[tabName]||tabName;}
  document.querySelectorAll('[data-sw-top]').forEach(a=>{const match=(a.dataset.swTop==='cast'&&tabName==='cast')||(a.dataset.swTop==='gallery'&&tabName==='gallery')||(a.dataset.swTop==='next'&&tabName==='episode-dashboard');if(match)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');});
 
  const b=document.querySelector('[data-tab="'+tabName+'"]');
