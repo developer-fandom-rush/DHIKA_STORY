@@ -10,7 +10,7 @@
   "leadName": "Shreya Rathore",
   "leadAge": 33,
   "profession": "Police Inspector",
-  "status": "SR01, SR02A, SR02B, SR04, SR05, SR06, SR07 PROSE PUBLISHED; SR03 AND SR08–SR13 WORKING PLOT",
+  "status": "SR01, SR02A, SR02B, SR04, SR05, SR06, SR07, SR08 PROSE PUBLISHED; SR03 AND SR09–SR13 WORKING PLOT",
   "stopRule": "End at 13:15, Shreya still at police station; no evening scenes.",
   "characterCorrections": [
     {
@@ -779,21 +779,35 @@
       "end": "09:40",
       "lane": "HOME",
       "location": "Rathore flat, outer storage",
-      "title": "The gym bag someone opened",
+      "title": "SR08 — Arvind’s Forbidden Thoughts",
       "characters": [
         "arvind"
       ],
-      "summary": "A parallel reader-only event: Arvind (65, the unrelated household elder Uncle Arvind) crosses a boundary by looking into Shreya's personal sportswear pouch without permission.",
+      "summary": "Arvind initially moves Shreya's half-open gym bag while adjusting fabric stuck in the zip, notices her used red sports bra and matching pants, and privately crosses into sexually fixated behaviour and fantasy while Shreya remains away at the police station. Exact user-supplied prose published unchanged; no invented retail tag or permission confrontation.",
       "beats": [
-        "He retains a loose retail tag while putting the garment back; Shreya has no knowledge of the intrusion.",
-        "Arvind's one-sided fascination and outward traditional-elder role are in tension.",
-        "Do not represent misconduct as consent or glamorize an intrusion."
+        "Bag is half-open and catches a piece of cloth. Arvind goes to reposition the bag on its shelf before he knows the bag's contents.",
+        "Clothes remain damp after Shreya's workout; the sports bra shows a nursing-related milk mark.",
+        "Subsequent sexualized behaviour and imagined Shreya are depicted solely in Arvind's private point of view, with no physical Shreya encounter.",
+        "Arvind returns the clothes, zips the bag and leaves. Shreya is still at the police station and unaware.",
+        "Arvind is a non-related elder called Uncle, not Shreya's father-in-law. Preserve 09:20–09:40 and later committee clock locks."
       ],
       "dialogue": [],
       "notes": [
-        "Arvind is back at committee office 11:20–11:35 and 12:30–12:50; preserve those fixed times."
+        "USER APPROVED: publish SR08 verbatim exactly as supplied, no narrative rewriting.",
+        "Corrected opening: adjusting a half-open bag with stuck fabric, no pre-existing knowledge of contents.",
+        "No forced permission discussion or retail tag is part of this approved scene.",
+        "Arvind has no FIL or biological family relation to Shreya; user requested correction."
       ],
-      "approval": "USER_ACCEPTED_WORKING_PLOT"
+      "approval": "USER_APPROVED_VERBATIM_PROSE_PUBLISHED",
+      "publishedScene": {
+        "uiTab": "shreya-prose",
+        "uiHref": "./episode-02.html?tab=shreya-prose#shreya-sr08-arvind",
+        "publication": "USER_SUBMITTED_VERBATIM_SR08",
+        "source": "USER_PROVIDED_RAW_TEXT",
+        "rawText": "**SR08 — Arvind’s Forbidden Thoughts**  \n09:20–09:40 AM · Rathore residence · Outer storage area  \n*Arvind’s private POV — Shreya physically absent, on duty at police station*\n\nArvind outer storage area mein aaya. Wahan Shreya ka gym bag thoda ajeeb angle se pada tha, zip half open, aur kuch kapda andar se bahar nikal ke atka hua tha. Woh bag ko utha ke theek se shelf pe rakhne laga.\n\nJab usne stuck kapda andar theek kiya, tab usko feel hua ki fabric thoda damp hai. Bag ke andar se subah ke workout clothes dikh gaye — red sports bra aur matching pants. Kapda abhi bhi paseene se geela tha. Sports bra ke andar wale hisse pe milk leakage ka halka white mark bhi saaf dikh raha tha.\n\nArvind ne bag ko shelf pe rakh diya, lekin haath ruk gaya. Usne bra ko ek second ke liye haath mein liya. Kapda garam aur thoda chipchipa laga. Usne pehle naram sa smell liya — fresh workout sweat aur uski body ka scent. Saans tez ho gayi. Phir dheere se usne bra ko munh ke paas laaya aur milk stain wale hisse ko lick kiya. Ek dheemi groan nikal gayi.\n\nSubah wali Shreya turant dimaag mein aa gayi — red outfit mein confident, thodi si sweat se chamakti hui, uski taraf muskura ke dekh rahi thi. Imagination mein woh uske saamne bra utaar rahi thi, milky breasts fully exposed, nipples thode stiff, milk ki halki leakage abhi bhi.\n\nPhir usne pants bhi haath mein liye. Intimate area ke damp fabric ko usne deeply smell kiya, phir tongue se lick kiya. Doosri groan tez ho gayi.\n\nUske mind mein scene aur gahra ho gaya. Shreya gym mein forward bend kar rahi hai, pants tight aur sweat se chipki hui, aur woh usse dekh ke jaanti hai ki woh kahan dekh raha hai. Phir woh uske paas aati hai, uski haath pakad ke apni bra ke andar le jaati hai, uski ungliyon ko milk-damp skin pe feel karwati hai.\n\nArvind ne aankhein kholi. Woh abhi bhi akela tha. Bag ab theek se shelf pe pada tha. Shreya police station mein thi, bilkul unaware.\n\nUsne clothes wapas bag mein rakh diye, zip band ki, aur room se nikal gaya. Lekin andar jo obsession jaag gayi thi, woh ab easily nahi jaane wali thi.",
+        "paragraphCount": 8,
+        "images": []
+      }
     },
     {
       "id": "SR09",
@@ -949,10 +963,9 @@
     {
       "holder": "Arvind (65, unrelated household guest called Uncle)",
       "target": "Shreya",
-      "knowledge": "Concealed one-sided attraction and access to personal gym-bag pouch; he holds loose retail tag.",
+      "knowledge": "One-sided private sexual fixation after inadvertently discovering gym garments while repositioning Shreya's half-open bag; no retail tag. Shreya remains unaware.",
       "targetKnows": false,
-      "consent": "No consent to opening belongings",
-      "later": "Gym-bag detail becomes a possible clue"
+      "later": "Shreya currently has no knowledge of this private, reader-only incident."
     },
     {
       "holder": "Samar & Shaan (24, society sports twins)",
