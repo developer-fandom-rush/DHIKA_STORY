@@ -100,9 +100,21 @@
       "relatedPaths": [
         "episode-03-ankita-pending.html",
         "episode-03-meenakshi-plan.json",
-        "episode-03-shreya-plan.json"
+        "episode-03-shreya-plan.json",
+        "episode-03-meenakshi-planning.html"
       ],
-      "note": "M08 Senior Review on 2 Jan; Shreya SR10–SR13 deferred to 3 Jan; no single unified Episode 03 reader yet."
+      "note": "Meenakshi detailed Jan 2 planner linked with scene/beat/source mapping, still unapproved. Existing M08 Senior Review retained. Ankita continuation separate; Shreya SR10–SR13 reserved Jan 3. No unified final EP03 reader.",
+      "chapters": [
+        {
+          "lead": "Meenakshi",
+          "title": "The Ride, the Glances & the Second Knock",
+          "date": "2026-01-02",
+          "status": "DRAFT_SCENE_PLAN_FOR_DISCUSSION",
+          "mainPath": "episode-03-meenakshi-planning.html",
+          "dataPath": "episode-03-meenakshi-plan.json",
+          "description": "14 chronological slots incl retained M08; 60 microbeats; hospital Avi/Yash/Aditi, Naveen; car ride; society Uday/Utkarsh and Babloo; second knock."
+        }
+      ]
     }
   ]
 }
