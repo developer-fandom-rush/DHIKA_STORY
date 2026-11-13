@@ -305,23 +305,6 @@
       "publishedPath": "episode-02.html?tab=meenakshi-m01#meenakshi-m07-story"
     },
     {
-      "id": "M08",
-      "start": "11:00",
-      "end": "11:40",
-      "lane": "HOSPITAL",
-      "location": "Senior review conference",
-      "characters": [
-        "meenakshi",
-        "kunal",
-        "khurana"
-      ],
-      "title": "Senior review",
-      "summary": "Dr. Kunal Bedi and chairman Dr. S. P. Khurana join administrative and departmental discussions; Dr. Leena is an existing clinician in the roster.",
-      "detail": "Administrative and departmental discussions only. Dr. Leena remains an existing hospital staff member in the directory; her appearance in this particular meeting is not assumed.",
-      "approval": "WORKING_PLOT_UNAPPROVED",
-      "notes": []
-    },
-    {
       "id": "M09",
       "start": "12:20",
       "end": "12:35",
@@ -489,11 +472,21 @@
     "Mohan is an unrelated household guest (not FIL); old-age-home backstory withheld from reader-facing M01."
   ],
   "cutoff": "2026-01-01T13:15:00",
-  "next": "M08 Senior Review remains prose pending. M01–M05 approved. M06 and M07 are revised drafts for user review.",
+  "next": "M08 Senior Review moved to 2 Jan Episode 03. EP02 resumes after M07 at M09 (Ritesh locker breach), followed by M10–M12. M01–M05 approved; M06–M07 review pending.",
   "publishedM01Extension": "episode-02-meenakshi-m01.html#m01-f02",
   "publishedM02M03": "episode-02-meenakshi-m02-m03.html",
   "publishedM04M05": "episode-02.html?tab=meenakshi-m01#meenakshi-m05-story",
   "confirmedApprovedThrough": "M05",
   "currentProseCutoff": "M07 — 10:45",
-  "revisedReviewText": "episode-02-meenakshi-m06-m07-review.txt"
+  "revisedReviewText": "episode-02-meenakshi-m06-m07-review.txt",
+  "deferredToNextDay": [
+    {
+      "sceneId": "M08",
+      "date": "2026-01-02",
+      "planPath": "episode-03-meenakshi-plan.json",
+      "title": "Senior Review",
+      "previously": "2026-01-01T11:00–11:40",
+      "status": "USER_DIRECTED_MOVE"
+    }
+  ]
 }
