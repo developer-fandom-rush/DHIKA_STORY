@@ -1,0 +1,536 @@
+{
+  "schema": "verbatim-entity-continuity-v1",
+  "series": "Society Wives — Five Veils of Desire",
+  "episode": "01",
+  "lead": "Soniya",
+  "approval_status_exact": "EP01_PROLOGUE_DRAFT_FOR_REVIEW__SHIVANI_COLLEGE_CORRECTION_APPLIED__NOT_APPROVED",
+  "WARNING": "EPISODE 01 SOURCE ITSELF SAYS NOT APPROVED. These are preserved source drafts and must not be presented as approved canon.",
+  "update_rule": "Only update after an episode and when the user explicitly says to update the JSON.",
+  "fidelity": "source_json_lines_exact joined with newline reconstructs the original scene object byte-for-byte; complete_source_object text values are unchanged.",
+  "source": {
+    "repository": "developer-fandom-rush/DHIKA_STORY",
+    "path": "Society-Wives/episode-01.json",
+    "blob_sha": "9ec9f7ccad1691f4408dcfa3fd91bf0f6e2f9214"
+  },
+  "scenes": [
+    {
+      "scene_id": "S12",
+      "lead_exact": "Shared",
+      "title_exact": "Five people, five versions of the evening",
+      "source_position": {
+        "start": 21381,
+        "end": 24117
+      },
+      "source_json_lines_exact": [
+        "{",
+        "      \"id\": \"S12\",",
+        "      \"time\": \"19:25\",",
+        "      \"lane\": \"Crossover — Shared Society\",",
+        "      \"lead\": \"Shared\",",
+        "      \"location\": \"Gulmohar Heights · courtyard\",",
+        "      \"title\": \"Five people, five versions of the evening\",",
+        "      \"narration\": [",
+        "        \"Sharmi's event message brings the five women to the courtyard at staggered moments. Ankita arrives from office, Shivani after checking Tara's dinner, Taniya with a wedding-planning call still pending, Meenakshi after her hospital shift, and Shreya after changing out of her work clothes.\",",
+        "        \"Mahendra Suri introduces the community-week schedule. Rohan and Kabir arrive as spouses, Nikhil checks on Meenakshi, and Vikram offers to organise safety volunteers. Aditya joins by phone because he is not yet part of Taniya's household. Soniya and Rahul stop by on their way home.\",",
+        "        \"Rajeev briefly notices Shivani's graceful confidence while she manages the noticeboard. She is unaware of this fleeting attention. Rahul admires Ankita's quick problem-solving and privately wonders about getting to know her better outside a group setting; Ankita interprets his comments as routine courtesy. Neither thought is treated as a mutual relationship.\"",
+        "      ],",
+        "      \"dialogue\": [",
+        "        {",
+        "          \"speaker\": \"Sharmi\",",
+        "          \"line\": \"I need five different brains, not five people agreeing with Mahendra-ji.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Mahendra\",",
+        "          \"line\": \"I heard that.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Ankita\",",
+        "          \"line\": \"I'll handle registrations if the data is actually organised.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Shivani\",",
+        "          \"line\": \"I'll coordinate the children's programme.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Taniya\",",
+        "          \"line\": \"Accounts and vendor payments are mine.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Meenakshi\",",
+        "          \"line\": \"I'll check the health-camp requirements.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Shreya\",",
+        "          \"line\": \"And please, one actual entry register for volunteers.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Rahul\",",
+        "          \"line\": \"That sounds like the most efficient committee in Gurgaon.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Ankita\",",
+        "          \"line\": \"Ask us again after the first spreadsheet.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Rohan\",",
+        "          \"line\": \"I'm keeping the first-aid kit for the committee debates.\"",
+        "        }",
+        "      ],",
+        "      \"internal\": [",
+        "        \"Everyone enjoys the comfortable group atmosphere. Several private impressions coexist, but no woman is obligated to recognise or return any man's interest.\"",
+        "      ],",
+        "      \"signalIds\": [",
+        "        \"L24\",",
+        "        \"L25\",",
+        "        \"L26\",",
+        "        \"L27\"",
+        "      ]",
+        "    }"
+      ],
+      "prose_line_records": [
+        {
+          "id": "S12-L001",
+          "kind": "narration",
+          "text_exact": "Sharmi's event message brings the five women to the courtyard at staggered moments. Ankita arrives from office, Shivani after checking Tara's dinner, Taniya with a wedding-planning call still pending, Meenakshi after her hospital shift, and Shreya after changing out of her work clothes.",
+          "speaker_exact": null,
+          "explicit_names": [
+            "Tara",
+            "Sharmi",
+            "Ankita",
+            "Shivani",
+            "Taniya",
+            "Meenakshi",
+            "Shreya"
+          ]
+        },
+        {
+          "id": "S12-L002",
+          "kind": "narration",
+          "text_exact": "Mahendra Suri introduces the community-week schedule. Rohan and Kabir arrive as spouses, Nikhil checks on Meenakshi, and Vikram offers to organise safety volunteers. Aditya joins by phone because he is not yet part of Taniya's household. Soniya and Rahul stop by on their way home.",
+          "speaker_exact": null,
+          "explicit_names": [
+            "Kabir",
+            "Rohan",
+            "Aditya",
+            "Soniya",
+            "Rahul",
+            "Nikhil",
+            "Vikram",
+            "Mahendra Suri",
+            "Taniya",
+            "Meenakshi"
+          ]
+        },
+        {
+          "id": "S12-L003",
+          "kind": "narration",
+          "text_exact": "Rajeev briefly notices Shivani's graceful confidence while she manages the noticeboard. She is unaware of this fleeting attention. Rahul admires Ankita's quick problem-solving and privately wonders about getting to know her better outside a group setting; Ankita interprets his comments as routine courtesy. Neither thought is treated as a mutual relationship.",
+          "speaker_exact": null,
+          "explicit_names": [
+            "Rajeev",
+            "Rahul",
+            "Ankita",
+            "Shivani"
+          ]
+        },
+        {
+          "id": "S12-L004",
+          "kind": "dialogue",
+          "text_exact": "I need five different brains, not five people agreeing with Mahendra-ji.",
+          "speaker_exact": "Sharmi",
+          "explicit_names": [
+            "Sharmi"
+          ]
+        },
+        {
+          "id": "S12-L005",
+          "kind": "dialogue",
+          "text_exact": "I heard that.",
+          "speaker_exact": "Mahendra",
+          "explicit_names": []
+        },
+        {
+          "id": "S12-L006",
+          "kind": "dialogue",
+          "text_exact": "I'll handle registrations if the data is actually organised.",
+          "speaker_exact": "Ankita",
+          "explicit_names": [
+            "Ankita"
+          ]
+        },
+        {
+          "id": "S12-L007",
+          "kind": "dialogue",
+          "text_exact": "I'll coordinate the children's programme.",
+          "speaker_exact": "Shivani",
+          "explicit_names": [
+            "Shivani"
+          ]
+        },
+        {
+          "id": "S12-L008",
+          "kind": "dialogue",
+          "text_exact": "Accounts and vendor payments are mine.",
+          "speaker_exact": "Taniya",
+          "explicit_names": [
+            "Taniya"
+          ]
+        },
+        {
+          "id": "S12-L009",
+          "kind": "dialogue",
+          "text_exact": "I'll check the health-camp requirements.",
+          "speaker_exact": "Meenakshi",
+          "explicit_names": [
+            "Meenakshi"
+          ]
+        },
+        {
+          "id": "S12-L010",
+          "kind": "dialogue",
+          "text_exact": "And please, one actual entry register for volunteers.",
+          "speaker_exact": "Shreya",
+          "explicit_names": [
+            "Shreya"
+          ]
+        },
+        {
+          "id": "S12-L011",
+          "kind": "dialogue",
+          "text_exact": "That sounds like the most efficient committee in Gurgaon.",
+          "speaker_exact": "Rahul",
+          "explicit_names": [
+            "Rahul"
+          ]
+        },
+        {
+          "id": "S12-L012",
+          "kind": "dialogue",
+          "text_exact": "Ask us again after the first spreadsheet.",
+          "speaker_exact": "Ankita",
+          "explicit_names": [
+            "Ankita"
+          ]
+        },
+        {
+          "id": "S12-L013",
+          "kind": "dialogue",
+          "text_exact": "I'm keeping the first-aid kit for the committee debates.",
+          "speaker_exact": "Rohan",
+          "explicit_names": [
+            "Rohan"
+          ]
+        },
+        {
+          "id": "S12-L014",
+          "kind": "internal",
+          "text_exact": "Everyone enjoys the comfortable group atmosphere. Several private impressions coexist, but no woman is obligated to recognise or return any man's interest.",
+          "speaker_exact": null,
+          "explicit_names": []
+        }
+      ],
+      "complete_source_object": {
+        "id": "S12",
+        "time": "19:25",
+        "lane": "Crossover — Shared Society",
+        "lead": "Shared",
+        "location": "Gulmohar Heights · courtyard",
+        "title": "Five people, five versions of the evening",
+        "narration": [
+          "Sharmi's event message brings the five women to the courtyard at staggered moments. Ankita arrives from office, Shivani after checking Tara's dinner, Taniya with a wedding-planning call still pending, Meenakshi after her hospital shift, and Shreya after changing out of her work clothes.",
+          "Mahendra Suri introduces the community-week schedule. Rohan and Kabir arrive as spouses, Nikhil checks on Meenakshi, and Vikram offers to organise safety volunteers. Aditya joins by phone because he is not yet part of Taniya's household. Soniya and Rahul stop by on their way home.",
+          "Rajeev briefly notices Shivani's graceful confidence while she manages the noticeboard. She is unaware of this fleeting attention. Rahul admires Ankita's quick problem-solving and privately wonders about getting to know her better outside a group setting; Ankita interprets his comments as routine courtesy. Neither thought is treated as a mutual relationship."
+        ],
+        "dialogue": [
+          {
+            "speaker": "Sharmi",
+            "line": "I need five different brains, not five people agreeing with Mahendra-ji."
+          },
+          {
+            "speaker": "Mahendra",
+            "line": "I heard that."
+          },
+          {
+            "speaker": "Ankita",
+            "line": "I'll handle registrations if the data is actually organised."
+          },
+          {
+            "speaker": "Shivani",
+            "line": "I'll coordinate the children's programme."
+          },
+          {
+            "speaker": "Taniya",
+            "line": "Accounts and vendor payments are mine."
+          },
+          {
+            "speaker": "Meenakshi",
+            "line": "I'll check the health-camp requirements."
+          },
+          {
+            "speaker": "Shreya",
+            "line": "And please, one actual entry register for volunteers."
+          },
+          {
+            "speaker": "Rahul",
+            "line": "That sounds like the most efficient committee in Gurgaon."
+          },
+          {
+            "speaker": "Ankita",
+            "line": "Ask us again after the first spreadsheet."
+          },
+          {
+            "speaker": "Rohan",
+            "line": "I'm keeping the first-aid kit for the committee debates."
+          }
+        ],
+        "internal": [
+          "Everyone enjoys the comfortable group atmosphere. Several private impressions coexist, but no woman is obligated to recognise or return any man's interest."
+        ],
+        "signalIds": [
+          "L24",
+          "L25",
+          "L26",
+          "L27"
+        ]
+      },
+      "approved_by_source": false,
+      "integrity": {
+        "source_char_length": 2736,
+        "raw_reconstruction_verified": true
+      }
+    }
+  ],
+  "approved_scene_ids": [],
+  "draft_scene_ids": [
+    "S12"
+  ],
+  "character_name_index": [
+    {
+      "name": "Kabir",
+      "matches": [
+        {
+          "scene_id": "S12",
+          "evidence_line_ids": [
+            "S12-L002"
+          ],
+          "full_scene_for_context": "S12"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Rajeev",
+      "matches": [
+        {
+          "scene_id": "S12",
+          "evidence_line_ids": [
+            "S12-L003"
+          ],
+          "full_scene_for_context": "S12"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Rohan",
+      "matches": [
+        {
+          "scene_id": "S12",
+          "evidence_line_ids": [
+            "S12-L002",
+            "S12-L013"
+          ],
+          "full_scene_for_context": "S12"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Tara",
+      "matches": [
+        {
+          "scene_id": "S12",
+          "evidence_line_ids": [
+            "S12-L001"
+          ],
+          "full_scene_for_context": "S12"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Aditya",
+      "matches": [
+        {
+          "scene_id": "S12",
+          "evidence_line_ids": [
+            "S12-L002"
+          ],
+          "full_scene_for_context": "S12"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Soniya",
+      "matches": [
+        {
+          "scene_id": "S12",
+          "evidence_line_ids": [
+            "S12-L002"
+          ],
+          "full_scene_for_context": "S12"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Rahul",
+      "matches": [
+        {
+          "scene_id": "S12",
+          "evidence_line_ids": [
+            "S12-L002",
+            "S12-L003",
+            "S12-L011"
+          ],
+          "full_scene_for_context": "S12"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Nikhil",
+      "matches": [
+        {
+          "scene_id": "S12",
+          "evidence_line_ids": [
+            "S12-L002"
+          ],
+          "full_scene_for_context": "S12"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Vikram",
+      "matches": [
+        {
+          "scene_id": "S12",
+          "evidence_line_ids": [
+            "S12-L002"
+          ],
+          "full_scene_for_context": "S12"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Mahendra Suri",
+      "matches": [
+        {
+          "scene_id": "S12",
+          "evidence_line_ids": [
+            "S12-L002"
+          ],
+          "full_scene_for_context": "S12"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Sharmi",
+      "matches": [
+        {
+          "scene_id": "S12",
+          "evidence_line_ids": [
+            "S12-L001",
+            "S12-L004"
+          ],
+          "full_scene_for_context": "S12"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Ankita",
+      "matches": [
+        {
+          "scene_id": "S12",
+          "evidence_line_ids": [
+            "S12-L001",
+            "S12-L003",
+            "S12-L006",
+            "S12-L012"
+          ],
+          "full_scene_for_context": "S12"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Shivani",
+      "matches": [
+        {
+          "scene_id": "S12",
+          "evidence_line_ids": [
+            "S12-L001",
+            "S12-L003",
+            "S12-L007"
+          ],
+          "full_scene_for_context": "S12"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Taniya",
+      "matches": [
+        {
+          "scene_id": "S12",
+          "evidence_line_ids": [
+            "S12-L001",
+            "S12-L002",
+            "S12-L008"
+          ],
+          "full_scene_for_context": "S12"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Meenakshi",
+      "matches": [
+        {
+          "scene_id": "S12",
+          "evidence_line_ids": [
+            "S12-L001",
+            "S12-L002",
+            "S12-L009"
+          ],
+          "full_scene_for_context": "S12"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Shreya",
+      "matches": [
+        {
+          "scene_id": "S12",
+          "evidence_line_ids": [
+            "S12-L001",
+            "S12-L010"
+          ],
+          "full_scene_for_context": "S12"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    }
+  ],
+  "integrity": {
+    "scene_count": 1,
+    "source_objects_verified": true,
+    "verbatim_character_count": 2736
+  }
+}
