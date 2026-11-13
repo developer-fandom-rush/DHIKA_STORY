@@ -318,7 +318,12 @@
       ],
       "classification": "SCHEDULE_LOCK",
       "source": "USER-DIRECTED",
-      "sampleDialogue": []
+      "sampleDialogue": [],
+      "publishedTransition": {
+        "status": "USER_REQUESTED_PUBLISHED",
+        "text": "07:55 AM. Rahul apni office files aur car keys lekar flat se nikal gaya. Taniya aur Soniya pehle hi society gym ke raste mein thi.",
+        "uiAnchor": "taniya-soniya-ts03"
+      }
     },
     {
       "id": "X-SH01",
@@ -362,7 +367,18 @@
       "sampleDialogue": [
         "Vivek Rao (gym trainer): 'Shoulders relax rakhiye—form pe focus.'",
         "Soniya (elder sister): 'Form pe lecture kitna lamba chalega, coach?'"
-      ]
+      ],
+      "publishedParts": [
+        {
+          "id": "TS04-PART1",
+          "start": "08:25",
+          "end": "08:32",
+          "status": "USER_SUPPLIED_PUBLISHED_PARTIAL",
+          "uiAnchor": "taniya-soniya-ts04-part1",
+          "verbatimText": "**TS04 — 08:25 AM, Society Gym**\n\nGym ka door khulta hai. Taniya aur Soniya andar aati hain. Taniya ne tight black yoga pants aur cropped tank top pehna hai, midriff exposed. Soniya ne olive-green set — top thoda low-cut, pants snug. Vivek already mat ke paas khada hai, shirtless, sweat uske chest, abs aur lower stomach par chamak raha hai. Uske shorts thode tight hain.\n\n**Taniya (Vivek ko dekhte hi):** “Aaj toh aap pehle se ready hain. Shirt already off?”\n\n**Vivek:** “Pehle sessions mein garmi zyada thi. Aaj bhi lag raha hai load heavy hoga.”\n\nSoniya ne apna towel mat pe rakha aur seedha Vivek ki taraf dekha. Uske nazar uske torso se neeche, shorts ke outline tak gayi, phir wapas aankhon mein.\n\n**Soniya:** “Heavy load dikh raha hai. Control rakh paoge aaj?”\n\n**Vivek (halki smile):** “Control tabhi rehta hai jab dono side se clear response aaye.”\n\n**08:27 AM**\n\nVivek ne unhe planks aur resistance-band squats start karaye. Taniya ne plank position li. Vivek aage aaya, uske lower back aur hips ko adjust kiya. Uske haath uske waist pe firm the.\n\n**Vivek:** “Hips neeche. Core tight rakhna.”\n\n**Taniya:** “Tight toh already hai. Bas aapka haath thoda zyada der ruk raha hai… balance sheet confuse ho rahi hai.”\n\nVivek ne thoda sa pressure badhaya, phir haath hata diya. Taniya ne piche mudkar uski taraf dekha aur soft laugh ki.\n\nSoniya ne band set kiya aur squats shuru kiye. Movement slow thi. Vivek uske peeche aaya, uske hips se lightly guide kiya. Uske haath uski ass ke upper side tak gaye, phir thighs.\n\n**Vivek:** “Depth maintain karo. Force control se aayegi.”\n\n**Soniya (seedha aage dekhte hue, lekin awaaz low):** “Force already feel ho rahi hai. Aapka… pressure clearly aa raha hai peeche se.”\n\nVivek ne saans thodi deep li. Uske shorts mein outline thoda clearly dikhne laga. Soniya ne ek squat ke bottom mein thoda aur peeche press kiya — deliberately. Uske ass ne Vivek ke front ko lightly touch kiya.\n\n**Soniya:** “Feel ho raha hai aapko bhi?”\n\n**Vivek:** “Haan. Clear signal mil raha hai.”\n\n**08:30 AM**\n\nTaniya ne yeh dekh liya. Usne apna set complete kiya aur side mein baith gayi, towel se neck wipe karte hue. Uske nazar Soniya aur Vivek ke beech ke closeness par thi.\n\n**Taniya:** “Didi, aaj aapki form thodi… personal lag rahi hai. Trainer ka haath zyada der ruk raha hai.”\n\n**Soniya (Vivek se nazar nahi hataate hue):** “Personal tabhi hota hai jab dono side se welcome ho. Abhi toh sirf guidance hai.”\n\nVivek ne Soniya ke waist ko dono haathon se hold kiya, usko upright laane ke liye. Unke bodies almost touch ho gaye. Soniya ke lower back ne Vivek ke hard outline ko clearly feel kiya. Usne softly saans chhodi.\n\n**Soniya (almost whisper):** “Yeh guidance se zyada feel ho raha hai. Aapka… lund already hard hai na?”\n\n**Vivek (low):** “Tumne hi trigger kiya. Ab control kam ho raha hai.”\n\nTaniya ne yeh sun liya. Usne apni bottle uthayi — almost empty — aur khadi hui.\n\n**Taniya:** “Main bottle refill kar aati hoon. Aap dono… stretch complete kar lo. Main jaldi aati hoon.”\n\nUsne door ki taraf badhna shuru kiya. Jaate waqt usne piche dekha — Soniya ab seedhi khadi thi, Vivek uske peeche, dono ke bodies pressed. Taniya ne kuch nahi kaha, bas nikal gayi."
+        }
+      ],
+      "publishingStatus": "PART1_PUBLISHED_REMAINDER_NOT_PROVIDED"
     },
     {
       "id": "TS05",
@@ -925,7 +941,8 @@
     "Mahendra's three-minute transfer from flat to committee office should be confirmed against building layout.",
     "No explicit further prose or attraction arcs approved yet.",
     "TS01 and TS02 are published user-requested drafts; final scene-level approval remains separate.",
-    "Resolve user-supplied TS02 passage's 07:05 clock versus the 07:25–07:50 TS02 master window; text currently preserved verbatim by request."
+    "Resolve user-supplied TS02 passage's 07:05 clock versus the 07:25–07:50 TS02 master window; text currently preserved verbatim by request.",
+    "TS04 part 1 user-supplied clothing (Taniya black yoga pants/cropped tank; Soniya olive-green set) differs from older TS04 plan and TS02 outfit choices; preserve exact submitted prose, reconcile after all parts arrive."
   ],
   "nextLead": {
     "name": "Meenakshi",
