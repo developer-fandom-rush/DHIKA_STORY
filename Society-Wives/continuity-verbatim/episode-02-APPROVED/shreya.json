@@ -1,0 +1,2155 @@
+{
+  "schema": "verbatim-entity-continuity-v1",
+  "series": "Society Wives — Five Veils of Desire",
+  "episode": "02",
+  "lead": "Shreya",
+  "mode": "APPROVED_ONLY_STRICT_SOURCE_EVIDENCE",
+  "update_rule": "Only update after an episode and when the user explicitly says to update the JSON; do not auto-refresh or silently revise approved source.",
+  "fidelity": "source_html_lines_exact.join('\\n') reproduces the exact original HTML scene fragment, including every paragraph, word, punctuation mark and markup; prose_line_records are a secondary search view and cannot replace source_html_lines_exact.",
+  "source": {
+    "repository": "developer-fandom-rush/DHIKA_STORY",
+    "path": "Society-Wives/episode-02.html",
+    "blob_sha": "91f5c2a92282cc01be7497cd8e12c97a41241aed"
+  },
+  "approval_policy": "Approved scenes are marked only when exact source plan signals approval; published drafts remain indexed separately and must not be used as approved canon.",
+  "all_published_archive_path": "Society-Wives/continuity-verbatim/episode-02/shreya.json",
+  "scenes": [
+    {
+      "scene_id": "SR01",
+      "source_anchor": "shreya-sr01-scene",
+      "source_position": {
+        "start": 289659,
+        "end": 299417
+      },
+      "ui_badge_text_exact": "REVISED &amp; PUBLISHED",
+      "plan_approval_text_exact": "USER_APPROVED_PROSE_PUBLISHED",
+      "approved_by_source_plan": true,
+      "source_html_lines_exact": [
+        "<article class=\"a02-scene\" id=\"shreya-sr01-scene\">",
+        "<div class=\"a02-scene-head\"><div><div class=\"stamp\">SHREYA · SCENE SR01 · RED SPORTWEAR</div><h3>Plank, Balance and Two Bets</h3><p class=\"muted\">Outfit: supportive red sports bra (36DD fictional costume fit), matching high-waisted leggings, white trainers, high ponytail. Shreya is Anaya's breastfeeding mother; no police uniform in this scene.</p></div><span class=\"chip approved\">REVISED &amp; PUBLISHED</span></div>",
+        "<div class=\"a02-rule\"><strong>Scene continuity:</strong> Shreya and society twins Samar–Shaan (24) have an established workout routine. What she once disliked as overly bold joking has developed into comfortable, voluntary mutual teasing. These twins are <strong>not</strong> Ankita's Karan–Aman. Vivek's coaching stays professional. The two proposed rewards remain conditional; Shreya wins both challenges today.</div>",
+        "<div class=\"shreya-scene-photo\" style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(225px,1fr));gap:14px;margin:16px 0\"><figure style=\"margin:0;min-width:0\"><a href=\"./assets/shreya/ep02-sr01-red-gym-workout.png\" target=\"_blank\" rel=\"noopener\"><img src=\"./assets/shreya/ep02-sr01-red-gym-workout.png\" loading=\"lazy\" alt=\"Red sports bra, matching leggings, white trainers\" style=\"width:100%;height:245px;object-fit:cover;object-position:top;border-radius:10px\"></a><figcaption style=\"font-size:.88rem;margin-top:6px\"><strong>SR01 · Red gym outfit</strong> · Red sports bra, matching leggings, white trainers</figcaption></figure>",
+        "<figure style=\"margin:0;min-width:0\"><a href=\"./assets/shreya/ep02-sr01-post-workout-red-gym.png\" target=\"_blank\" rel=\"noopener\"><img src=\"./assets/shreya/ep02-sr01-post-workout-red-gym.png\" loading=\"lazy\" alt=\"Morning workout portrait in matching red gym wear\" style=\"width:100%;height:245px;object-fit:cover;object-position:top;border-radius:10px\"></a><figcaption style=\"font-size:.88rem;margin-top:6px\"><strong>SR01 · Post workout</strong> · Morning workout portrait in matching red gym wear</figcaption></figure></div>",
+        "<div class=\"a02-prose\"><p class=\"a02-narration\">January ki thandi subah Shreya Rathore apni mat lekar Gulmohar Heights ke outdoor fitness corner pahunchi. Red supportive sports bra (36DD fit), matching high-waisted leggings, white trainers, smartwatch aur high ponytail uska familiar workout look tha. Shreya ne sportswear ka fit check kiya aur mat bichhayi.</p>",
+        "<p class=\"a02-narration\">Vivek Rao pehle se warm-up karwa raha tha. Samar aur Shaan stretching complete kar rahe the. Teeno kaafi mahino se ek saath exercise karte aaye the.</p>",
+        "<p class=\"a02-dialogue\"><strong>Vivek:</strong> Shreya, shoulders thode aur open rakho. Lower back neutral.</p>",
+        "<p class=\"a02-narration a02-highlight-note\"><mark>Vivek ne khud posture demonstrate kiya; Shreya ne bina physical adjustment ke form correct kar li. Kuch mahine pehle Samar ke bold jokes par woh seedha use chup kara deti thi. Ab itni familiarity aur trust ho chuka tha ki kabhi-kabhi khud teasing initiate kar deti. Use Samar se zyada apni badalti response surprise karti thi.</mark></p>",
+        "<figure><a href=\"./assets/shreya/shreya-sr01-plank.png\" target=\"_blank\" rel=\"noopener\"><img src=\"./assets/shreya/shreya-sr01-plank.png\" alt=\"Shreya in red sportswear holds a forearm plank while Vivek coaches and Samar and Shaan watch at the outdoor fitness corner\" loading=\"lazy\"></a><figcaption>SR01 visual 1 · Red outfit and plank challenge · <a href=\"https://drive.google.com/file/d/1MYx9dSLQeGrPxNnoEsEmGzTSMIpB2ff0/view\" target=\"_blank\" rel=\"noopener noreferrer\">Drive original</a>. Visual concept only; background signage is non-canon.</figcaption></figure>",
+        "<p class=\"a02-narration\">Lunges ke kuch rounds ke baad Samar ne smartwatch timer on kiya.</p>",
+        "<p class=\"a02-dialogue\"><strong>Samar:</strong> Inspector madam, aaj dekhte hain kaun kitni der hold kar sakta hai.</p>",
+        "<p class=\"a02-dialogue\"><strong>Shreya:</strong> Pehle apna control check kar lo, Samar.</p>",
+        "<p class=\"a02-dialogue\"><strong>Samar:</strong> <mark>Mere control par doubt hai? Meri capacity 45–50 minutes ki hai. Kabhi aazma ke dekh lena.</mark></p>",
+        "<p class=\"a02-narration\">Shreya uski mischievous smile pehchan gayi. Woh ek pal chup rahi, phir khud unexpectedly bold jawab de baithi.</p>",
+        "<p class=\"a02-dialogue\"><strong>Shreya:</strong> <mark>Achha ji? Toh kisi din zaroor aazma ke dekhenge—</mark></p>",
+        "<p class=\"a02-narration a02-highlight-note\"><mark>Woh ruk gayi. Apne reply ka doosra matlab samajhkar self-conscious smile aayi. <em>Yeh maine hi kaha?</em></mark></p>",
+        "<p class=\"a02-dialogue\"><strong>Shreya:</strong> Mera matlab fitness challenge tha. Pehle do minute ka plank toh complete kar lo.</p>",
+        "<p class=\"a02-dialogue\"><strong>Shaan:</strong> Bhai, tumne toh abhi se extra confidence dikha diya.</p>",
+        "<p class=\"a02-narration\">Vivek ne countdown shuru kiya. Samar ne ninety-five seconds tak plank hold kiya; Shaan ne ek minute ikyawan seconds. Shreya ne poore do minute hold karke dono ko hara diya. Woh uthi, saans sambhali aur Samar ke shoulder par friendly thapki di.</p>",
+        "<p class=\"a02-dialogue\"><strong>Shreya:</strong> Haar gaye, Mister.</p>",
+        "<p class=\"a02-dialogue\"><strong>Samar:</strong> <mark>Aaj ki jeet aapki. Lekin meri 45–50 minutes wali baat yaad rakhna.</mark></p>",
+        "<p class=\"a02-narration\">Shreya uski taraf dekhkar halki muskurayi. Us line ka double meaning samajh aaya, lekin woh usse ek aur mauka nahi dena chahti thi.</p>",
+        "<p class=\"a02-dialogue\"><strong>Samar:</strong> Pichhli baar bhi main jeet jaata. Madam ne smile karke cheating ki thi.</p>",
+        "<p class=\"a02-dialogue\"><strong>Shreya:</strong> <mark>Meri smile se tum gir gaye the? Problem meri smile mein nahi, tumhari concentration mein hai.</mark></p>",
+        "<p class=\"a02-narration\">Samar ki nazar ek pal uske red workout outfit par gayi; Shaan ne uski confident stance note ki. Shreya ne unka dhyaan pakad liya.</p>",
+        "<p class=\"a02-dialogue\"><strong>Shreya:</strong> <mark>Gentlemen, timer idhar hai. Dhyaan bhatka toh meri smile ko blame mat karna.</mark></p>",
+        "<p class=\"a02-narration\">Shaan ne single-leg balance challenge rakha. Samar ne stopwatch sambhala. Shaan ne ek baar footing badli, jabki Shreya steady rahi; second challenge bhi usne jeeta.</p>",
+        "<p class=\"a02-dialogue\"><strong>Shaan:</strong> Aapka balance impressive hai. Har direction se.</p>",
+        "<p class=\"a02-dialogue\"><strong>Shreya:</strong> <mark>Har direction? Tum exercise ka balance dekh rahe ho ya koi aur analysis?</mark></p>",
+        "<p class=\"a02-dialogue\"><strong>Shaan:</strong> Maine toh technique ki tareef ki. Interpretation aapki hai.</p>",
+        "<p class=\"a02-dialogue\"><strong>Shreya:</strong> <mark>Tum kam bolte ho, Shaan, lekin Samar se zyada shaatir nikle.</mark></p>",
+        "<p class=\"a02-narration\">Samar ki nazar uske confident athletic look ki taraf phir gayi. Dono ki playful curiosity Shreya se chhupi nahi thi; woh iss baar khud hansi.</p>",
+        "<p class=\"a02-dialogue\"><strong>Samar:</strong> Police uniform se alag hai yeh look. Kabhi private training session bhi hona chahiye.</p>",
+        "<p class=\"a02-dialogue\"><strong>Shaan:</strong> Tab stamina aur balance ki progress aur carefully track karenge.</p>",
+        "<p class=\"a02-dialogue\"><strong>Shreya:</strong> <mark>Tum dono ki training ab mere against hi kaam aa rahi hai!</mark></p>",
+        "<figure><a href=\"./assets/shreya/shreya-sr01-post-challenge.png\" target=\"_blank\" rel=\"noopener\"><img src=\"./assets/shreya/shreya-sr01-post-challenge.png\" alt=\"Shreya smiles after winning the workout challenges, with Samar and Shaan talking and Vivek nearby\" loading=\"lazy\"></a><figcaption>SR01 visual 2 · Challenge win, playful bets and cooldown · <a href=\"https://drive.google.com/file/d/1p25pP2DGyk-7QnY2qLj5hg1oAnFgG3i7/view\" target=\"_blank\" rel=\"noopener noreferrer\">Drive original</a>. Visual concept only; background signage is non-canon.</figcaption></figure>",
+        "<p class=\"a02-narration\"><strong>Samar ki bet</strong></p>",
+        "<p class=\"a02-dialogue\"><strong>Samar:</strong> Agar kisi din main plank mein jeet gaya, toh society café mein mere saath coffee. Aadhe ghante ke liye Inspector madam nahi, sirf Shreya.</p>",
+        "<p class=\"a02-dialogue\"><strong>Shreya:</strong> <mark>Deal. Lekin terms main decide karungi. Tab tak Inspector madam hi bulaoge.</mark></p>",
+        "<p class=\"a02-narration\"><strong>Shaan ki bet</strong></p>",
+        "<p class=\"a02-dialogue\"><strong>Shaan:</strong> Agar main balance challenge jeeta, toh ek din aapko saree mein dekhna chahunga. Ek chhota get-together — aap, main aur Samar. Duty ya exercise nahi, bas conversation aur aapki khoobsurti ki tareef.</p>",
+        "<p class=\"a02-narration\">Shreya uski unexpected himmat par ek second ko chup hui. Phir woh apni usual decisive smile ke saath boli.</p>",
+        "<p class=\"a02-dialogue\"><strong>Shreya:</strong> <mark>Invitation meri marzi se hogi, jab main comfortable hoon. Aur sirf baatein — koi extra demand nahi.</mark></p>",
+        "<p class=\"a02-dialogue\"><strong>Shaan:</strong> Fair enough. Aapki conditions.</p>",
+        "<p class=\"a02-narration\">Dono bets future rematches ke liye accept hui. Aaj ke plank aur balance contests ka winner Shreya thi; twins ke rewards abhi pending the.</p>",
+        "<p class=\"a02-narration\">Cooldown ke dauraan Vivek ne towel dete hue poocha ki Shreya ka routine aur Anaya ki subah kaisi chal rahi hai.</p>",
+        "<p class=\"a02-dialogue\"><strong>Vivek:</strong> Aapki baby bahut lucky hai. Itni strong mummy mili hai.</p>",
+        "<p class=\"a02-dialogue\"><strong>Shreya:</strong> Thank you, Vivek. Ab in dono ko bhi thoda discipline sikha dena!</p>",
+        "<p class=\"a02-narration\">07:28 AM par Samar aur Shaan haste hue fitness corner se chale gaye. Shreya apne towel aur mat ke saath kuch der aur ruki; Vivek equipment pack kar raha tha. Twins ki teasing abhi bhi uske chehre par smile bankar thi, aur yahin se uski established private attraction-resistance training shuru hui.</p></div></article>"
+      ],
+      "prose_line_records": [
+        {
+          "id": "SR01-L001",
+          "html_exact": "<p class=\"muted\">Outfit: supportive red sports bra (36DD fictional costume fit), matching high-waisted leggings, white trainers, high ponytail. Shreya is Anaya's breastfeeding mother; no police uniform in this scene.</p>",
+          "text_for_lookup": "Outfit: supportive red sports bra (36DD fictional costume fit), matching high-waisted leggings, white trainers, high ponytail. Shreya is Anaya's breastfeeding mother; no police uniform in this scene.",
+          "source_start_in_scene": 180,
+          "explicit_names": [
+            "Anaya",
+            "Shreya"
+          ],
+          "speaker_label_exact": "Outfit"
+        },
+        {
+          "id": "SR01-L002",
+          "html_exact": "<p class=\"a02-narration\">January ki thandi subah Shreya Rathore apni mat lekar Gulmohar Heights ke outdoor fitness corner pahunchi. Red supportive sports bra (36DD fit), matching high-waisted leggings, white trainers, smartwatch aur high ponytail uska familiar workout look tha. Shreya ne sportswear ka fit check kiya aur mat bichhayi.</p>",
+          "text_for_lookup": "January ki thandi subah Shreya Rathore apni mat lekar Gulmohar Heights ke outdoor fitness corner pahunchi. Red supportive sports bra (36DD fit), matching high-waisted leggings, white trainers, smartwatch aur high ponytail uska familiar workout look tha. Shreya ne sportswear ka fit check kiya aur mat bichhayi.",
+          "source_start_in_scene": 2079,
+          "explicit_names": [
+            "Shreya"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "SR01-L003",
+          "html_exact": "<p class=\"a02-narration\">Vivek Rao pehle se warm-up karwa raha tha. Samar aur Shaan stretching complete kar rahe the. Teeno kaafi mahino se ek saath exercise karte aaye the.</p>",
+          "text_for_lookup": "Vivek Rao pehle se warm-up karwa raha tha. Samar aur Shaan stretching complete kar rahe the. Teeno kaafi mahino se ek saath exercise karte aaye the.",
+          "source_start_in_scene": 2419,
+          "explicit_names": [
+            "Samar",
+            "Shaan",
+            "Vivek Rao"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "SR01-L004",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Vivek:</strong> Shreya, shoulders thode aur open rakho. Lower back neutral.</p>",
+          "text_for_lookup": "Vivek: Shreya, shoulders thode aur open rakho. Lower back neutral.",
+          "source_start_in_scene": 2597,
+          "explicit_names": [
+            "Shreya"
+          ],
+          "speaker_label_exact": "Vivek"
+        },
+        {
+          "id": "SR01-L005",
+          "html_exact": "<p class=\"a02-narration a02-highlight-note\"><mark>Vivek ne khud posture demonstrate kiya; Shreya ne bina physical adjustment ke form correct kar li. Kuch mahine pehle Samar ke bold jokes par woh seedha use chup kara deti thi. Ab itni familiarity aur trust ho chuka tha ki kabhi-kabhi khud teasing initiate kar deti. Use Samar se zyada apni badalti response surprise karti thi.</mark></p>",
+          "text_for_lookup": "Vivek ne khud posture demonstrate kiya; Shreya ne bina physical adjustment ke form correct kar li. Kuch mahine pehle Samar ke bold jokes par woh seedha use chup kara deti thi. Ab itni familiarity aur trust ho chuka tha ki kabhi-kabhi khud teasing initiate kar deti. Use Samar se zyada apni badalti response surprise karti thi.",
+          "source_start_in_scene": 2709,
+          "explicit_names": [
+            "Samar",
+            "Shreya"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "SR01-L006",
+          "html_exact": "<p class=\"a02-narration\">Lunges ke kuch rounds ke baad Samar ne smartwatch timer on kiya.</p>",
+          "text_for_lookup": "Lunges ke kuch rounds ke baad Samar ne smartwatch timer on kiya.",
+          "source_start_in_scene": 3661,
+          "explicit_names": [
+            "Samar"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "SR01-L007",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Samar:</strong> Inspector madam, aaj dekhte hain kaun kitni der hold kar sakta hai.</p>",
+          "text_for_lookup": "Samar: Inspector madam, aaj dekhte hain kaun kitni der hold kar sakta hai.",
+          "source_start_in_scene": 3755,
+          "explicit_names": [
+            "Samar"
+          ],
+          "speaker_label_exact": "Samar"
+        },
+        {
+          "id": "SR01-L008",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Shreya:</strong> Pehle apna control check kar lo, Samar.</p>",
+          "text_for_lookup": "Shreya: Pehle apna control check kar lo, Samar.",
+          "source_start_in_scene": 3875,
+          "explicit_names": [
+            "Samar",
+            "Shreya"
+          ],
+          "speaker_label_exact": "Shreya"
+        },
+        {
+          "id": "SR01-L009",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Samar:</strong> <mark>Mere control par doubt hai? Meri capacity 45–50 minutes ki hai. Kabhi aazma ke dekh lena.</mark></p>",
+          "text_for_lookup": "Samar: Mere control par doubt hai? Meri capacity 45–50 minutes ki hai. Kabhi aazma ke dekh lena.",
+          "source_start_in_scene": 3968,
+          "explicit_names": [
+            "Samar"
+          ],
+          "speaker_label_exact": "Samar"
+        },
+        {
+          "id": "SR01-L010",
+          "html_exact": "<p class=\"a02-narration\">Shreya uski mischievous smile pehchan gayi. Woh ek pal chup rahi, phir khud unexpectedly bold jawab de baithi.</p>",
+          "text_for_lookup": "Shreya uski mischievous smile pehchan gayi. Woh ek pal chup rahi, phir khud unexpectedly bold jawab de baithi.",
+          "source_start_in_scene": 4123,
+          "explicit_names": [
+            "Shreya"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "SR01-L011",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Shreya:</strong> <mark>Achha ji? Toh kisi din zaroor aazma ke dekhenge—</mark></p>",
+          "text_for_lookup": "Shreya: Achha ji? Toh kisi din zaroor aazma ke dekhenge—",
+          "source_start_in_scene": 4263,
+          "explicit_names": [
+            "Shreya"
+          ],
+          "speaker_label_exact": "Shreya"
+        },
+        {
+          "id": "SR01-L012",
+          "html_exact": "<p class=\"a02-narration a02-highlight-note\"><mark>Woh ruk gayi. Apne reply ka doosra matlab samajhkar self-conscious smile aayi. <em>Yeh maine hi kaha?</em></mark></p>",
+          "text_for_lookup": "Woh ruk gayi. Apne reply ka doosra matlab samajhkar self-conscious smile aayi. Yeh maine hi kaha?",
+          "source_start_in_scene": 4378,
+          "explicit_names": [],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "SR01-L013",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Shreya:</strong> Mera matlab fitness challenge tha. Pehle do minute ka plank toh complete kar lo.</p>",
+          "text_for_lookup": "Shreya: Mera matlab fitness challenge tha. Pehle do minute ka plank toh complete kar lo.",
+          "source_start_in_scene": 4546,
+          "explicit_names": [
+            "Shreya"
+          ],
+          "speaker_label_exact": "Shreya"
+        },
+        {
+          "id": "SR01-L014",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Shaan:</strong> Bhai, tumne toh abhi se extra confidence dikha diya.</p>",
+          "text_for_lookup": "Shaan: Bhai, tumne toh abhi se extra confidence dikha diya.",
+          "source_start_in_scene": 4680,
+          "explicit_names": [
+            "Shaan",
+            "Diya Sen"
+          ],
+          "speaker_label_exact": "Shaan"
+        },
+        {
+          "id": "SR01-L015",
+          "html_exact": "<p class=\"a02-narration\">Vivek ne countdown shuru kiya. Samar ne ninety-five seconds tak plank hold kiya; Shaan ne ek minute ikyawan seconds. Shreya ne poore do minute hold karke dono ko hara diya. Woh uthi, saans sambhali aur Samar ke shoulder par friendly thapki di.</p>",
+          "text_for_lookup": "Vivek ne countdown shuru kiya. Samar ne ninety-five seconds tak plank hold kiya; Shaan ne ek minute ikyawan seconds. Shreya ne poore do minute hold karke dono ko hara diya. Woh uthi, saans sambhali aur Samar ke shoulder par friendly thapki di.",
+          "source_start_in_scene": 4785,
+          "explicit_names": [
+            "Samar",
+            "Shaan",
+            "Diya Sen",
+            "Shreya"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "SR01-L016",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Shreya:</strong> Haar gaye, Mister.</p>",
+          "text_for_lookup": "Shreya: Haar gaye, Mister.",
+          "source_start_in_scene": 5058,
+          "explicit_names": [
+            "Shreya"
+          ],
+          "speaker_label_exact": "Shreya"
+        },
+        {
+          "id": "SR01-L017",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Samar:</strong> <mark>Aaj ki jeet aapki. Lekin meri 45–50 minutes wali baat yaad rakhna.</mark></p>",
+          "text_for_lookup": "Samar: Aaj ki jeet aapki. Lekin meri 45–50 minutes wali baat yaad rakhna.",
+          "source_start_in_scene": 5130,
+          "explicit_names": [
+            "Samar"
+          ],
+          "speaker_label_exact": "Samar"
+        },
+        {
+          "id": "SR01-L018",
+          "html_exact": "<p class=\"a02-narration\">Shreya uski taraf dekhkar halki muskurayi. Us line ka double meaning samajh aaya, lekin woh usse ek aur mauka nahi dena chahti thi.</p>",
+          "text_for_lookup": "Shreya uski taraf dekhkar halki muskurayi. Us line ka double meaning samajh aaya, lekin woh usse ek aur mauka nahi dena chahti thi.",
+          "source_start_in_scene": 5262,
+          "explicit_names": [
+            "Shreya"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "SR01-L019",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Samar:</strong> Pichhli baar bhi main jeet jaata. Madam ne smile karke cheating ki thi.</p>",
+          "text_for_lookup": "Samar: Pichhli baar bhi main jeet jaata. Madam ne smile karke cheating ki thi.",
+          "source_start_in_scene": 5423,
+          "explicit_names": [
+            "Samar"
+          ],
+          "speaker_label_exact": "Samar"
+        },
+        {
+          "id": "SR01-L020",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Shreya:</strong> <mark>Meri smile se tum gir gaye the? Problem meri smile mein nahi, tumhari concentration mein hai.</mark></p>",
+          "text_for_lookup": "Shreya: Meri smile se tum gir gaye the? Problem meri smile mein nahi, tumhari concentration mein hai.",
+          "source_start_in_scene": 5547,
+          "explicit_names": [
+            "Shreya"
+          ],
+          "speaker_label_exact": "Shreya"
+        },
+        {
+          "id": "SR01-L021",
+          "html_exact": "<p class=\"a02-narration\">Samar ki nazar ek pal uske red workout outfit par gayi; Shaan ne uski confident stance note ki. Shreya ne unka dhyaan pakad liya.</p>",
+          "text_for_lookup": "Samar ki nazar ek pal uske red workout outfit par gayi; Shaan ne uski confident stance note ki. Shreya ne unka dhyaan pakad liya.",
+          "source_start_in_scene": 5707,
+          "explicit_names": [
+            "Samar",
+            "Shaan",
+            "Shreya"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "SR01-L022",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Shreya:</strong> <mark>Gentlemen, timer idhar hai. Dhyaan bhatka toh meri smile ko blame mat karna.</mark></p>",
+          "text_for_lookup": "Shreya: Gentlemen, timer idhar hai. Dhyaan bhatka toh meri smile ko blame mat karna.",
+          "source_start_in_scene": 5866,
+          "explicit_names": [
+            "Shreya"
+          ],
+          "speaker_label_exact": "Shreya"
+        },
+        {
+          "id": "SR01-L023",
+          "html_exact": "<p class=\"a02-narration\">Shaan ne single-leg balance challenge rakha. Samar ne stopwatch sambhala. Shaan ne ek baar footing badli, jabki Shreya steady rahi; second challenge bhi usne jeeta.</p>",
+          "text_for_lookup": "Shaan ne single-leg balance challenge rakha. Samar ne stopwatch sambhala. Shaan ne ek baar footing badli, jabki Shreya steady rahi; second challenge bhi usne jeeta.",
+          "source_start_in_scene": 6009,
+          "explicit_names": [
+            "Samar",
+            "Shaan",
+            "Shreya"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "SR01-L024",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Shaan:</strong> Aapka balance impressive hai. Har direction se.</p>",
+          "text_for_lookup": "Shaan: Aapka balance impressive hai. Har direction se.",
+          "source_start_in_scene": 6203,
+          "explicit_names": [
+            "Shaan"
+          ],
+          "speaker_label_exact": "Shaan"
+        },
+        {
+          "id": "SR01-L025",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Shreya:</strong> <mark>Har direction? Tum exercise ka balance dekh rahe ho ya koi aur analysis?</mark></p>",
+          "text_for_lookup": "Shreya: Har direction? Tum exercise ka balance dekh rahe ho ya koi aur analysis?",
+          "source_start_in_scene": 6303,
+          "explicit_names": [
+            "Shreya"
+          ],
+          "speaker_label_exact": "Shreya"
+        },
+        {
+          "id": "SR01-L026",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Shaan:</strong> Maine toh technique ki tareef ki. Interpretation aapki hai.</p>",
+          "text_for_lookup": "Shaan: Maine toh technique ki tareef ki. Interpretation aapki hai.",
+          "source_start_in_scene": 6442,
+          "explicit_names": [
+            "Shaan"
+          ],
+          "speaker_label_exact": "Shaan"
+        },
+        {
+          "id": "SR01-L027",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Shreya:</strong> <mark>Tum kam bolte ho, Shaan, lekin Samar se zyada shaatir nikle.</mark></p>",
+          "text_for_lookup": "Shreya: Tum kam bolte ho, Shaan, lekin Samar se zyada shaatir nikle.",
+          "source_start_in_scene": 6554,
+          "explicit_names": [
+            "Samar",
+            "Shaan",
+            "Shreya"
+          ],
+          "speaker_label_exact": "Shreya"
+        },
+        {
+          "id": "SR01-L028",
+          "html_exact": "<p class=\"a02-narration\">Samar ki nazar uske confident athletic look ki taraf phir gayi. Dono ki playful curiosity Shreya se chhupi nahi thi; woh iss baar khud hansi.</p>",
+          "text_for_lookup": "Samar ki nazar uske confident athletic look ki taraf phir gayi. Dono ki playful curiosity Shreya se chhupi nahi thi; woh iss baar khud hansi.",
+          "source_start_in_scene": 6681,
+          "explicit_names": [
+            "Samar",
+            "Shreya"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "SR01-L029",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Samar:</strong> Police uniform se alag hai yeh look. Kabhi private training session bhi hona chahiye.</p>",
+          "text_for_lookup": "Samar: Police uniform se alag hai yeh look. Kabhi private training session bhi hona chahiye.",
+          "source_start_in_scene": 6852,
+          "explicit_names": [
+            "Samar"
+          ],
+          "speaker_label_exact": "Samar"
+        },
+        {
+          "id": "SR01-L030",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Shaan:</strong> Tab stamina aur balance ki progress aur carefully track karenge.</p>",
+          "text_for_lookup": "Shaan: Tab stamina aur balance ki progress aur carefully track karenge.",
+          "source_start_in_scene": 6990,
+          "explicit_names": [
+            "Shaan"
+          ],
+          "speaker_label_exact": "Shaan"
+        },
+        {
+          "id": "SR01-L031",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Shreya:</strong> <mark>Tum dono ki training ab mere against hi kaam aa rahi hai!</mark></p>",
+          "text_for_lookup": "Shreya: Tum dono ki training ab mere against hi kaam aa rahi hai!",
+          "source_start_in_scene": 7107,
+          "explicit_names": [
+            "Shreya"
+          ],
+          "speaker_label_exact": "Shreya"
+        },
+        {
+          "id": "SR01-L032",
+          "html_exact": "<p class=\"a02-narration\"><strong>Samar ki bet</strong></p>",
+          "text_for_lookup": "Samar ki bet",
+          "source_start_in_scene": 7798,
+          "explicit_names": [
+            "Samar"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "SR01-L033",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Samar:</strong> Agar kisi din main plank mein jeet gaya, toh society café mein mere saath coffee. Aadhe ghante ke liye Inspector madam nahi, sirf Shreya.</p>",
+          "text_for_lookup": "Samar: Agar kisi din main plank mein jeet gaya, toh society café mein mere saath coffee. Aadhe ghante ke liye Inspector madam nahi, sirf Shreya.",
+          "source_start_in_scene": 7857,
+          "explicit_names": [
+            "Samar",
+            "Shreya"
+          ],
+          "speaker_label_exact": "Samar"
+        },
+        {
+          "id": "SR01-L034",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Shreya:</strong> <mark>Deal. Lekin terms main decide karungi. Tab tak Inspector madam hi bulaoge.</mark></p>",
+          "text_for_lookup": "Shreya: Deal. Lekin terms main decide karungi. Tab tak Inspector madam hi bulaoge.",
+          "source_start_in_scene": 8047,
+          "explicit_names": [
+            "Shreya"
+          ],
+          "speaker_label_exact": "Shreya"
+        },
+        {
+          "id": "SR01-L035",
+          "html_exact": "<p class=\"a02-narration\"><strong>Shaan ki bet</strong></p>",
+          "text_for_lookup": "Shaan ki bet",
+          "source_start_in_scene": 8188,
+          "explicit_names": [
+            "Shaan"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "SR01-L036",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Shaan:</strong> Agar main balance challenge jeeta, toh ek din aapko saree mein dekhna chahunga. Ek chhota get-together — aap, main aur Samar. Duty ya exercise nahi, bas conversation aur aapki khoobsurti ki tareef.</p>",
+          "text_for_lookup": "Shaan: Agar main balance challenge jeeta, toh ek din aapko saree mein dekhna chahunga. Ek chhota get-together — aap, main aur Samar. Duty ya exercise nahi, bas conversation aur aapki khoobsurti ki tareef.",
+          "source_start_in_scene": 8247,
+          "explicit_names": [
+            "Samar",
+            "Shaan"
+          ],
+          "speaker_label_exact": "Shaan"
+        },
+        {
+          "id": "SR01-L037",
+          "html_exact": "<p class=\"a02-narration\">Shreya uski unexpected himmat par ek second ko chup hui. Phir woh apni usual decisive smile ke saath boli.</p>",
+          "text_for_lookup": "Shreya uski unexpected himmat par ek second ko chup hui. Phir woh apni usual decisive smile ke saath boli.",
+          "source_start_in_scene": 8497,
+          "explicit_names": [
+            "Shreya"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "SR01-L038",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Shreya:</strong> <mark>Invitation meri marzi se hogi, jab main comfortable hoon. Aur sirf baatein — koi extra demand nahi.</mark></p>",
+          "text_for_lookup": "Shreya: Invitation meri marzi se hogi, jab main comfortable hoon. Aur sirf baatein — koi extra demand nahi.",
+          "source_start_in_scene": 8633,
+          "explicit_names": [
+            "Shreya"
+          ],
+          "speaker_label_exact": "Shreya"
+        },
+        {
+          "id": "SR01-L039",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Shaan:</strong> Fair enough. Aapki conditions.</p>",
+          "text_for_lookup": "Shaan: Fair enough. Aapki conditions.",
+          "source_start_in_scene": 8799,
+          "explicit_names": [
+            "Shaan"
+          ],
+          "speaker_label_exact": "Shaan"
+        },
+        {
+          "id": "SR01-L040",
+          "html_exact": "<p class=\"a02-narration\">Dono bets future rematches ke liye accept hui. Aaj ke plank aur balance contests ka winner Shreya thi; twins ke rewards abhi pending the.</p>",
+          "text_for_lookup": "Dono bets future rematches ke liye accept hui. Aaj ke plank aur balance contests ka winner Shreya thi; twins ke rewards abhi pending the.",
+          "source_start_in_scene": 8882,
+          "explicit_names": [
+            "Shreya"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "SR01-L041",
+          "html_exact": "<p class=\"a02-narration\">Cooldown ke dauraan Vivek ne towel dete hue poocha ki Shreya ka routine aur Anaya ki subah kaisi chal rahi hai.</p>",
+          "text_for_lookup": "Cooldown ke dauraan Vivek ne towel dete hue poocha ki Shreya ka routine aur Anaya ki subah kaisi chal rahi hai.",
+          "source_start_in_scene": 9049,
+          "explicit_names": [
+            "Anaya",
+            "Shreya"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "SR01-L042",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Vivek:</strong> Aapki baby bahut lucky hai. Itni strong mummy mili hai.</p>",
+          "text_for_lookup": "Vivek: Aapki baby bahut lucky hai. Itni strong mummy mili hai.",
+          "source_start_in_scene": 9190,
+          "explicit_names": [],
+          "speaker_label_exact": "Vivek"
+        },
+        {
+          "id": "SR01-L043",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Shreya:</strong> Thank you, Vivek. Ab in dono ko bhi thoda discipline sikha dena!</p>",
+          "text_for_lookup": "Shreya: Thank you, Vivek. Ab in dono ko bhi thoda discipline sikha dena!",
+          "source_start_in_scene": 9298,
+          "explicit_names": [
+            "Shreya"
+          ],
+          "speaker_label_exact": "Shreya"
+        },
+        {
+          "id": "SR01-L044",
+          "html_exact": "<p class=\"a02-narration\">07:28 AM par Samar aur Shaan haste hue fitness corner se chale gaye. Shreya apne towel aur mat ke saath kuch der aur ruki; Vivek equipment pack kar raha tha. Twins ki teasing abhi bhi uske chehre par smile bankar thi, aur yahin se uski established private attraction-resistance training shuru hui.</p>",
+          "text_for_lookup": "07:28 AM par Samar aur Shaan haste hue fitness corner se chale gaye. Shreya apne towel aur mat ke saath kuch der aur ruki; Vivek equipment pack kar raha tha. Twins ki teasing abhi bhi uske chehre par smile bankar thi, aur yahin se uski established private attraction-resistance training shuru hui.",
+          "source_start_in_scene": 9416,
+          "explicit_names": [
+            "Samar",
+            "Shaan",
+            "Shreya"
+          ],
+          "speaker_label_exact": null
+        }
+      ],
+      "integrity": {
+        "source_char_length": 9758,
+        "html_lines_lossless": true,
+        "prose_line_count": 44
+      }
+    },
+    {
+      "scene_id": "SR04",
+      "source_anchor": "shreya-sr04-mahendra",
+      "source_position": {
+        "start": 326647,
+        "end": 331836
+      },
+      "ui_badge_text_exact": "PUBLISHED · USER-APPROVED",
+      "plan_approval_text_exact": "USER_APPROVED_PROSE_PUBLISHED",
+      "approved_by_source_plan": true,
+      "source_html_lines_exact": [
+        "<article class=\"a02-scene\" id=\"shreya-sr04-mahendra\">",
+        "<div class=\"a02-scene-head\"><div><div class=\"stamp\">SHREYA SR04 · 08:15–08:20 AM · PUBLISHED</div><h3>The Chairman's Weak Spot — Shreya &amp; Mahendra</h3><p class=\"muted\">Gulmohar Heights security desk · 1 January 2026 · Shreya Rathore (33) and society chairman Mahendra Suri (61)</p></div><span class=\"chip approved\">PUBLISHED · USER-APPROVED</span></div>",
+        "<div class=\"a02-rule\"><strong>Continuity:</strong> SR05 twins conversation ends at 08:15. Mahendra is the only other adult present in this SR04 beat; Chintu is deliberately reserved for Shreya Episode 03. The playful dialogue occurs alongside a real register-entry discrepancy. Shreya departs for duty at 08:20.</div>",
+        "<div class=\"a02-prose\">",
+        "<p class=\"a02-narration\">Shreya parking se security desk ki taraf badhi. Karan aur Aman ki flustered reactions yaad karke uske chehre par abhi bhi ek mischievous smile thi. Mahendra Suri visitor register lekar khade the.</p>",
+        "<p class=\"a02-dialogue\"><strong>Mahendra:</strong> Good morning, Inspector Rathore. Ek chhoti si problem hai.</p>",
+        "<p class=\"a02-dialogue\"><strong>Shreya:</strong> Good morning, Chairman sahab. Problem register mein hai ya aapke dil mein?</p>",
+        "<p class=\"a02-narration\">Mahendra hans pade.</p>",
+        "<p class=\"a02-dialogue\"><strong>Mahendra:</strong> Arre wah! Aaj toh aap bade romantic mood mein hain.</p>",
+        "<p class=\"a02-dialogue\"><strong>Shreya:</strong> Aapne abhi tak problem batayi hi nahi. Kahin mujhe dekhkar bhool toh nahi gaye?</p>",
+        "<p class=\"a02-dialogue\"><strong>Mahendra:</strong> Sach kahun? Thoda sa.</p>",
+        "<p class=\"a02-dialogue\"><strong>Shreya:</strong> Achha ji? Itni jaldi concentration lose kar diya?</p>",
+        "<p class=\"a02-narration\">Mahendra ne register khola.</p>",
+        "<p class=\"a02-dialogue\"><strong>Mahendra:</strong> Dekhiye, entry time aur vehicle slip match nahi kar rahe.</p>",
+        "<p class=\"a02-narration\">Shreya unke paas aakar register dekhne lagi.</p>",
+        "<p class=\"a02-dialogue\"><strong>Shreya:</strong> Yeh dekhiye. Vehicle 07:40 par enter hui, lekin register mein 07:55 likha hai.</p>",
+        "<p class=\"a02-dialogue\"><strong>Mahendra:</strong> Aapki nazar bahut tez hai.</p>",
+        "<p class=\"a02-dialogue\"><strong>Shreya:</strong> Sirf nazar nahi, Chairman sahab. Main logon ke expressions bhi notice karti hoon.</p>",
+        "<p class=\"a02-dialogue\"><strong>Mahendra:</strong> Toh mere expression mein kya dikh raha hai?</p>",
+        "<p class=\"a02-narration\">Shreya ne register band kiya aur seedha unki aankhon mein dekha.</p>",
+        "<p class=\"a02-dialogue\"><strong>Shreya:</strong> <mark>Ek gentleman jo official kaam ke bahaane personal compliments dena chahta hai.</mark></p>",
+        "<p class=\"a02-narration\">Mahendra ek second ke liye chup ho gaye.</p>",
+        "<p class=\"a02-dialogue\"><strong>Mahendra:</strong> Aap toh bina interrogation ke hi sab pakad leti hain.</p>",
+        "<p class=\"a02-dialogue\"><strong>Shreya:</strong> Abhi toh maine interrogation shuru bhi nahi kiya.</p>",
+        "<p class=\"a02-dialogue\"><strong>Mahendra:</strong> Aur agar kar diya?</p>",
+        "<p class=\"a02-dialogue\"><strong>Shreya:</strong> Phir aapko mere har sawaal ka sach-sach jawab dena padega.</p>",
+        "<p class=\"a02-dialogue\"><strong>Mahendra:</strong> Aap sawaal poochiye. Main ready hoon.</p>",
+        "<p class=\"a02-narration\">Shreya ne shararat se eyebrow raise ki.</p>",
+        "<p class=\"a02-dialogue\"><strong>Shreya:</strong> <mark>Achha? Toh bataiye, Chairman sahab... aapki nazar kitni baar register se hatkar meri taraf gayi?</mark></p>",
+        "<p class=\"a02-narration\">Mahendra zor se hans pade.</p>",
+        "<p class=\"a02-dialogue\"><strong>Mahendra:</strong> Inspector sahiba, itna difficult sawaal mat poochiye.</p>",
+        "<p class=\"a02-dialogue\"><strong>Shreya:</strong> Kyun? Counting bhool gaye?</p>",
+        "<p class=\"a02-dialogue\"><strong>Mahendra:</strong> Counting toh yaad hai. Bas answer dene mein sharam aa rahi hai.</p>",
+        "<p class=\"a02-dialogue\"><strong>Shreya:</strong> Waah! Itni age mein bhi sharmaate hain aap?</p>",
+        "<p class=\"a02-dialogue\"><strong>Mahendra:</strong> Kuch logon ke saamne umar ka experience bhi kaam nahi aata.</p>",
+        "<p class=\"a02-narration\">Shreya muskuraayi.</p>",
+        "<p class=\"a02-dialogue\"><strong>Shreya:</strong> Phir toh aapko apni concentration par kaam karna padega. Varna agli baar main aur tough questions poochungi.</p>",
+        "<p class=\"a02-dialogue\"><strong>Mahendra:</strong> Aur main jawab dene ke liye phir haazir ho jaunga.</p>",
+        "<p class=\"a02-dialogue\"><strong>Shreya:</strong> Dekhte hain. Filhaal visitor register correct karwa dijiye.</p>",
+        "<p class=\"a02-narration\">Woh aage badhi, phir palatkar boli—</p>",
+        "<p class=\"a02-dialogue\"><strong>Shreya:</strong> <mark>Aur Chairman sahab... agli baar mujhe dekhkar apna kaam mat bhooliyega.</mark></p>",
+        "<p class=\"a02-dialogue\"><strong>Mahendra:</strong> Koshish karunga. Guarantee nahi de sakta.</p>",
+        "<p class=\"a02-narration\">Shreya hanste hue parking exit ki taraf chal di.</p>",
+        "<p class=\"a02-narration a02-internal\"><em>Yeh bhi achhe khaase confident hain. Lekin tease karne par inka expression dekhne layak tha.</em></p>",
+        "<p class=\"a02-narration\">08:20 AM — Shreya apni gaadi ki taraf badhi. Visitor log ki original entries ko preserve karke discrepancy note karne ki instruction woh Mahendra ko de chuki thi. Ab police station ke liye nikalna tha.</p>",
+        "</div>",
+        "</article>"
+      ],
+      "prose_line_records": [
+        {
+          "id": "SR04-L001",
+          "html_exact": "<p class=\"muted\">Gulmohar Heights security desk · 1 January 2026 · Shreya Rathore (33) and society chairman Mahendra Suri (61)</p>",
+          "text_for_lookup": "Gulmohar Heights security desk · 1 January 2026 · Shreya Rathore (33) and society chairman Mahendra Suri (61)",
+          "source_start_in_scene": 209,
+          "explicit_names": [
+            "Mahendra Suri",
+            "Shreya"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "SR04-L002",
+          "html_exact": "<p class=\"a02-narration\">Shreya parking se security desk ki taraf badhi. Karan aur Aman ki flustered reactions yaad karke uske chehre par abhi bhi ek mischievous smile thi. Mahendra Suri visitor register lekar khade the.</p>",
+          "text_for_lookup": "Shreya parking se security desk ki taraf badhi. Karan aur Aman ki flustered reactions yaad karke uske chehre par abhi bhi ek mischievous smile thi. Mahendra Suri visitor register lekar khade the.",
+          "source_start_in_scene": 754,
+          "explicit_names": [
+            "Karan",
+            "Aman",
+            "Mahendra Suri",
+            "Shreya"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "SR04-L003",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Mahendra:</strong> Good morning, Inspector Rathore. Ek chhoti si problem hai.</p>",
+          "text_for_lookup": "Mahendra: Good morning, Inspector Rathore. Ek chhoti si problem hai.",
+          "source_start_in_scene": 979,
+          "explicit_names": [
+            "Mahendra Suri"
+          ],
+          "speaker_label_exact": "Mahendra"
+        },
+        {
+          "id": "SR04-L004",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Shreya:</strong> Good morning, Chairman sahab. Problem register mein hai ya aapke dil mein?</p>",
+          "text_for_lookup": "Shreya: Good morning, Chairman sahab. Problem register mein hai ya aapke dil mein?",
+          "source_start_in_scene": 1093,
+          "explicit_names": [
+            "Shreya"
+          ],
+          "speaker_label_exact": "Shreya"
+        },
+        {
+          "id": "SR04-L005",
+          "html_exact": "<p class=\"a02-narration\">Mahendra hans pade.</p>",
+          "text_for_lookup": "Mahendra hans pade.",
+          "source_start_in_scene": 1221,
+          "explicit_names": [
+            "Mahendra Suri"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "SR04-L006",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Mahendra:</strong> Arre wah! Aaj toh aap bade romantic mood mein hain.</p>",
+          "text_for_lookup": "Mahendra: Arre wah! Aaj toh aap bade romantic mood mein hain.",
+          "source_start_in_scene": 1270,
+          "explicit_names": [
+            "Mahendra Suri"
+          ],
+          "speaker_label_exact": "Mahendra"
+        },
+        {
+          "id": "SR04-L007",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Shreya:</strong> Aapne abhi tak problem batayi hi nahi. Kahin mujhe dekhkar bhool toh nahi gaye?</p>",
+          "text_for_lookup": "Shreya: Aapne abhi tak problem batayi hi nahi. Kahin mujhe dekhkar bhool toh nahi gaye?",
+          "source_start_in_scene": 1377,
+          "explicit_names": [
+            "Shreya"
+          ],
+          "speaker_label_exact": "Shreya"
+        },
+        {
+          "id": "SR04-L008",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Mahendra:</strong> Sach kahun? Thoda sa.</p>",
+          "text_for_lookup": "Mahendra: Sach kahun? Thoda sa.",
+          "source_start_in_scene": 1510,
+          "explicit_names": [
+            "Mahendra Suri"
+          ],
+          "speaker_label_exact": "Mahendra"
+        },
+        {
+          "id": "SR04-L009",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Shreya:</strong> Achha ji? Itni jaldi concentration lose kar diya?</p>",
+          "text_for_lookup": "Shreya: Achha ji? Itni jaldi concentration lose kar diya?",
+          "source_start_in_scene": 1587,
+          "explicit_names": [
+            "Diya Sen",
+            "Shreya"
+          ],
+          "speaker_label_exact": "Shreya"
+        },
+        {
+          "id": "SR04-L010",
+          "html_exact": "<p class=\"a02-narration\">Mahendra ne register khola.</p>",
+          "text_for_lookup": "Mahendra ne register khola.",
+          "source_start_in_scene": 1690,
+          "explicit_names": [
+            "Mahendra Suri"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "SR04-L011",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Mahendra:</strong> Dekhiye, entry time aur vehicle slip match nahi kar rahe.</p>",
+          "text_for_lookup": "Mahendra: Dekhiye, entry time aur vehicle slip match nahi kar rahe.",
+          "source_start_in_scene": 1747,
+          "explicit_names": [
+            "Mahendra Suri"
+          ],
+          "speaker_label_exact": "Mahendra"
+        },
+        {
+          "id": "SR04-L012",
+          "html_exact": "<p class=\"a02-narration\">Shreya unke paas aakar register dekhne lagi.</p>",
+          "text_for_lookup": "Shreya unke paas aakar register dekhne lagi.",
+          "source_start_in_scene": 1860,
+          "explicit_names": [
+            "Shreya"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "SR04-L013",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Shreya:</strong> Yeh dekhiye. Vehicle 07:40 par enter hui, lekin register mein 07:55 likha hai.</p>",
+          "text_for_lookup": "Shreya: Yeh dekhiye. Vehicle 07:40 par enter hui, lekin register mein 07:55 likha hai.",
+          "source_start_in_scene": 1934,
+          "explicit_names": [
+            "Shreya"
+          ],
+          "speaker_label_exact": "Shreya"
+        },
+        {
+          "id": "SR04-L014",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Mahendra:</strong> Aapki nazar bahut tez hai.</p>",
+          "text_for_lookup": "Mahendra: Aapki nazar bahut tez hai.",
+          "source_start_in_scene": 2066,
+          "explicit_names": [
+            "Mahendra Suri"
+          ],
+          "speaker_label_exact": "Mahendra"
+        },
+        {
+          "id": "SR04-L015",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Shreya:</strong> Sirf nazar nahi, Chairman sahab. Main logon ke expressions bhi notice karti hoon.</p>",
+          "text_for_lookup": "Shreya: Sirf nazar nahi, Chairman sahab. Main logon ke expressions bhi notice karti hoon.",
+          "source_start_in_scene": 2148,
+          "explicit_names": [
+            "Shreya"
+          ],
+          "speaker_label_exact": "Shreya"
+        },
+        {
+          "id": "SR04-L016",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Mahendra:</strong> Toh mere expression mein kya dikh raha hai?</p>",
+          "text_for_lookup": "Mahendra: Toh mere expression mein kya dikh raha hai?",
+          "source_start_in_scene": 2283,
+          "explicit_names": [
+            "Mahendra Suri"
+          ],
+          "speaker_label_exact": "Mahendra"
+        },
+        {
+          "id": "SR04-L017",
+          "html_exact": "<p class=\"a02-narration\">Shreya ne register band kiya aur seedha unki aankhon mein dekha.</p>",
+          "text_for_lookup": "Shreya ne register band kiya aur seedha unki aankhon mein dekha.",
+          "source_start_in_scene": 2382,
+          "explicit_names": [
+            "Shreya"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "SR04-L018",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Shreya:</strong> <mark>Ek gentleman jo official kaam ke bahaane personal compliments dena chahta hai.</mark></p>",
+          "text_for_lookup": "Shreya: Ek gentleman jo official kaam ke bahaane personal compliments dena chahta hai.",
+          "source_start_in_scene": 2476,
+          "explicit_names": [
+            "Shreya"
+          ],
+          "speaker_label_exact": "Shreya"
+        },
+        {
+          "id": "SR04-L019",
+          "html_exact": "<p class=\"a02-narration\">Mahendra ek second ke liye chup ho gaye.</p>",
+          "text_for_lookup": "Mahendra ek second ke liye chup ho gaye.",
+          "source_start_in_scene": 2621,
+          "explicit_names": [
+            "Mahendra Suri"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "SR04-L020",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Mahendra:</strong> Aap toh bina interrogation ke hi sab pakad leti hain.</p>",
+          "text_for_lookup": "Mahendra: Aap toh bina interrogation ke hi sab pakad leti hain.",
+          "source_start_in_scene": 2691,
+          "explicit_names": [
+            "Mahendra Suri"
+          ],
+          "speaker_label_exact": "Mahendra"
+        },
+        {
+          "id": "SR04-L021",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Shreya:</strong> Abhi toh maine interrogation shuru bhi nahi kiya.</p>",
+          "text_for_lookup": "Shreya: Abhi toh maine interrogation shuru bhi nahi kiya.",
+          "source_start_in_scene": 2800,
+          "explicit_names": [
+            "Shreya"
+          ],
+          "speaker_label_exact": "Shreya"
+        },
+        {
+          "id": "SR04-L022",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Mahendra:</strong> Aur agar kar diya?</p>",
+          "text_for_lookup": "Mahendra: Aur agar kar diya?",
+          "source_start_in_scene": 2903,
+          "explicit_names": [
+            "Mahendra Suri",
+            "Diya Sen"
+          ],
+          "speaker_label_exact": "Mahendra"
+        },
+        {
+          "id": "SR04-L023",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Shreya:</strong> Phir aapko mere har sawaal ka sach-sach jawab dena padega.</p>",
+          "text_for_lookup": "Shreya: Phir aapko mere har sawaal ka sach-sach jawab dena padega.",
+          "source_start_in_scene": 2977,
+          "explicit_names": [
+            "Shreya"
+          ],
+          "speaker_label_exact": "Shreya"
+        },
+        {
+          "id": "SR04-L024",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Mahendra:</strong> Aap sawaal poochiye. Main ready hoon.</p>",
+          "text_for_lookup": "Mahendra: Aap sawaal poochiye. Main ready hoon.",
+          "source_start_in_scene": 3089,
+          "explicit_names": [
+            "Mahendra Suri"
+          ],
+          "speaker_label_exact": "Mahendra"
+        },
+        {
+          "id": "SR04-L025",
+          "html_exact": "<p class=\"a02-narration\">Shreya ne shararat se eyebrow raise ki.</p>",
+          "text_for_lookup": "Shreya ne shararat se eyebrow raise ki.",
+          "source_start_in_scene": 3182,
+          "explicit_names": [
+            "Shreya"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "SR04-L026",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Shreya:</strong> <mark>Achha? Toh bataiye, Chairman sahab... aapki nazar kitni baar register se hatkar meri taraf gayi?</mark></p>",
+          "text_for_lookup": "Shreya: Achha? Toh bataiye, Chairman sahab... aapki nazar kitni baar register se hatkar meri taraf gayi?",
+          "source_start_in_scene": 3251,
+          "explicit_names": [
+            "Shreya"
+          ],
+          "speaker_label_exact": "Shreya"
+        },
+        {
+          "id": "SR04-L027",
+          "html_exact": "<p class=\"a02-narration\">Mahendra zor se hans pade.</p>",
+          "text_for_lookup": "Mahendra zor se hans pade.",
+          "source_start_in_scene": 3414,
+          "explicit_names": [
+            "Mahendra Suri"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "SR04-L028",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Mahendra:</strong> Inspector sahiba, itna difficult sawaal mat poochiye.</p>",
+          "text_for_lookup": "Mahendra: Inspector sahiba, itna difficult sawaal mat poochiye.",
+          "source_start_in_scene": 3470,
+          "explicit_names": [
+            "Mahendra Suri"
+          ],
+          "speaker_label_exact": "Mahendra"
+        },
+        {
+          "id": "SR04-L029",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Shreya:</strong> Kyun? Counting bhool gaye?</p>",
+          "text_for_lookup": "Shreya: Kyun? Counting bhool gaye?",
+          "source_start_in_scene": 3579,
+          "explicit_names": [
+            "Shreya"
+          ],
+          "speaker_label_exact": "Shreya"
+        },
+        {
+          "id": "SR04-L030",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Mahendra:</strong> Counting toh yaad hai. Bas answer dene mein sharam aa rahi hai.</p>",
+          "text_for_lookup": "Mahendra: Counting toh yaad hai. Bas answer dene mein sharam aa rahi hai.",
+          "source_start_in_scene": 3659,
+          "explicit_names": [
+            "Mahendra Suri"
+          ],
+          "speaker_label_exact": "Mahendra"
+        },
+        {
+          "id": "SR04-L031",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Shreya:</strong> Waah! Itni age mein bhi sharmaate hain aap?</p>",
+          "text_for_lookup": "Shreya: Waah! Itni age mein bhi sharmaate hain aap?",
+          "source_start_in_scene": 3778,
+          "explicit_names": [
+            "Shreya"
+          ],
+          "speaker_label_exact": "Shreya"
+        },
+        {
+          "id": "SR04-L032",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Mahendra:</strong> Kuch logon ke saamne umar ka experience bhi kaam nahi aata.</p>",
+          "text_for_lookup": "Mahendra: Kuch logon ke saamne umar ka experience bhi kaam nahi aata.",
+          "source_start_in_scene": 3875,
+          "explicit_names": [
+            "Mahendra Suri"
+          ],
+          "speaker_label_exact": "Mahendra"
+        },
+        {
+          "id": "SR04-L033",
+          "html_exact": "<p class=\"a02-narration\">Shreya muskuraayi.</p>",
+          "text_for_lookup": "Shreya muskuraayi.",
+          "source_start_in_scene": 3990,
+          "explicit_names": [
+            "Shreya"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "SR04-L034",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Shreya:</strong> Phir toh aapko apni concentration par kaam karna padega. Varna agli baar main aur tough questions poochungi.</p>",
+          "text_for_lookup": "Shreya: Phir toh aapko apni concentration par kaam karna padega. Varna agli baar main aur tough questions poochungi.",
+          "source_start_in_scene": 4038,
+          "explicit_names": [
+            "Shreya"
+          ],
+          "speaker_label_exact": "Shreya"
+        },
+        {
+          "id": "SR04-L035",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Mahendra:</strong> Aur main jawab dene ke liye phir haazir ho jaunga.</p>",
+          "text_for_lookup": "Mahendra: Aur main jawab dene ke liye phir haazir ho jaunga.",
+          "source_start_in_scene": 4200,
+          "explicit_names": [
+            "Mahendra Suri"
+          ],
+          "speaker_label_exact": "Mahendra"
+        },
+        {
+          "id": "SR04-L036",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Shreya:</strong> Dekhte hain. Filhaal visitor register correct karwa dijiye.</p>",
+          "text_for_lookup": "Shreya: Dekhte hain. Filhaal visitor register correct karwa dijiye.",
+          "source_start_in_scene": 4306,
+          "explicit_names": [
+            "Shreya"
+          ],
+          "speaker_label_exact": "Shreya"
+        },
+        {
+          "id": "SR04-L037",
+          "html_exact": "<p class=\"a02-narration\">Woh aage badhi, phir palatkar boli—</p>",
+          "text_for_lookup": "Woh aage badhi, phir palatkar boli—",
+          "source_start_in_scene": 4419,
+          "explicit_names": [],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "SR04-L038",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Shreya:</strong> <mark>Aur Chairman sahab... agli baar mujhe dekhkar apna kaam mat bhooliyega.</mark></p>",
+          "text_for_lookup": "Shreya: Aur Chairman sahab... agli baar mujhe dekhkar apna kaam mat bhooliyega.",
+          "source_start_in_scene": 4484,
+          "explicit_names": [
+            "Shreya"
+          ],
+          "speaker_label_exact": "Shreya"
+        },
+        {
+          "id": "SR04-L039",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Mahendra:</strong> Koshish karunga. Guarantee nahi de sakta.</p>",
+          "text_for_lookup": "Mahendra: Koshish karunga. Guarantee nahi de sakta.",
+          "source_start_in_scene": 4622,
+          "explicit_names": [
+            "Mahendra Suri"
+          ],
+          "speaker_label_exact": "Mahendra"
+        },
+        {
+          "id": "SR04-L040",
+          "html_exact": "<p class=\"a02-narration\">Shreya hanste hue parking exit ki taraf chal di.</p>",
+          "text_for_lookup": "Shreya hanste hue parking exit ki taraf chal di.",
+          "source_start_in_scene": 4719,
+          "explicit_names": [
+            "Shreya"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "SR04-L041",
+          "html_exact": "<p class=\"a02-narration a02-internal\"><em>Yeh bhi achhe khaase confident hain. Lekin tease karne par inka expression dekhne layak tha.</em></p>",
+          "text_for_lookup": "Yeh bhi achhe khaase confident hain. Lekin tease karne par inka expression dekhne layak tha.",
+          "source_start_in_scene": 4797,
+          "explicit_names": [],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "SR04-L042",
+          "html_exact": "<p class=\"a02-narration\">08:20 AM — Shreya apni gaadi ki taraf badhi. Visitor log ki original entries ko preserve karke discrepancy note karne ki instruction woh Mahendra ko de chuki thi. Ab police station ke liye nikalna tha.</p>",
+          "text_for_lookup": "08:20 AM — Shreya apni gaadi ki taraf badhi. Visitor log ki original entries ko preserve karke discrepancy note karne ki instruction woh Mahendra ko de chuki thi. Ab police station ke liye nikalna tha.",
+          "source_start_in_scene": 4941,
+          "explicit_names": [
+            "Mahendra Suri",
+            "Shreya"
+          ],
+          "speaker_label_exact": null
+        }
+      ],
+      "integrity": {
+        "source_char_length": 5189,
+        "html_lines_lossless": true,
+        "prose_line_count": 42
+      }
+    },
+    {
+      "scene_id": "SR08",
+      "source_anchor": "shreya-sr08-arvind",
+      "source_position": {
+        "start": 343282,
+        "end": 345877
+      },
+      "ui_badge_text_exact": "PUBLISHED · USER-APPROVED",
+      "plan_approval_text_exact": "USER_APPROVED_VERBATIM_PROSE_PUBLISHED",
+      "approved_by_source_plan": true,
+      "source_html_lines_exact": [
+        "<article class=\"a02-scene\" id=\"shreya-sr08-arvind\">",
+        "<div class=\"a02-scene-head\"><div><div class=\"stamp\">SR08 · 09:20–09:40 AM · PUBLISHED</div><h3>SR08 — Arvind’s Forbidden Thoughts</h3><p class=\"muted\">09:20–09:40 AM · Rathore residence · Outer storage area</p><p class=\"muted\"><em>Arvind’s private POV — Shreya physically absent, on duty at police station</em></p></div><span class=\"chip approved\">PUBLISHED · USER-APPROVED</span></div>",
+        "<div class=\"a02-prose\">",
+        "<p class=\"a02-narration\">Arvind outer storage area mein aaya. Wahan Shreya ka gym bag thoda ajeeb angle se pada tha, zip half open, aur kuch kapda andar se bahar nikal ke atka hua tha. Woh bag ko utha ke theek se shelf pe rakhne laga.</p>",
+        "<p class=\"a02-narration\">Jab usne stuck kapda andar theek kiya, tab usko feel hua ki fabric thoda damp hai. Bag ke andar se subah ke workout clothes dikh gaye — red sports bra aur matching pants. Kapda abhi bhi paseene se geela tha. Sports bra ke andar wale hisse pe milk leakage ka halka white mark bhi saaf dikh raha tha.</p>",
+        "<p class=\"a02-narration\">Arvind ne bag ko shelf pe rakh diya, lekin haath ruk gaya. Usne bra ko ek second ke liye haath mein liya. Kapda garam aur thoda chipchipa laga. Usne pehle naram sa smell liya — fresh workout sweat aur uski body ka scent. Saans tez ho gayi. Phir dheere se usne bra ko munh ke paas laaya aur milk stain wale hisse ko lick kiya. Ek dheemi groan nikal gayi.</p>",
+        "<p class=\"a02-narration\">Subah wali Shreya turant dimaag mein aa gayi — red outfit mein confident, thodi si sweat se chamakti hui, uski taraf muskura ke dekh rahi thi. Imagination mein woh uske saamne bra utaar rahi thi, milky breasts fully exposed, nipples thode stiff, milk ki halki leakage abhi bhi.</p>",
+        "<p class=\"a02-narration\">Phir usne pants bhi haath mein liye. Intimate area ke damp fabric ko usne deeply smell kiya, phir tongue se lick kiya. Doosri groan tez ho gayi.</p>",
+        "<p class=\"a02-narration\">Uske mind mein scene aur gahra ho gaya. Shreya gym mein forward bend kar rahi hai, pants tight aur sweat se chipki hui, aur woh usse dekh ke jaanti hai ki woh kahan dekh raha hai. Phir woh uske paas aati hai, uski haath pakad ke apni bra ke andar le jaati hai, uski ungliyon ko milk-damp skin pe feel karwati hai.</p>",
+        "<p class=\"a02-narration\">Arvind ne aankhein kholi. Woh abhi bhi akela tha. Bag ab theek se shelf pe pada tha. Shreya police station mein thi, bilkul unaware.</p>",
+        "<p class=\"a02-narration\">Usne clothes wapas bag mein rakh diye, zip band ki, aur room se nikal gaya. Lekin andar jo obsession jaag gayi thi, woh ab easily nahi jaane wali thi.</p>",
+        "</div></article>"
+      ],
+      "prose_line_records": [
+        {
+          "id": "SR08-L001",
+          "html_exact": "<p class=\"muted\">09:20–09:40 AM · Rathore residence · Outer storage area</p>",
+          "text_for_lookup": "09:20–09:40 AM · Rathore residence · Outer storage area",
+          "source_start_in_scene": 186,
+          "explicit_names": [],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "SR08-L002",
+          "html_exact": "<p class=\"muted\"><em>Arvind’s private POV — Shreya physically absent, on duty at police station</em></p>",
+          "text_for_lookup": "Arvind’s private POV — Shreya physically absent, on duty at police station",
+          "source_start_in_scene": 262,
+          "explicit_names": [
+            "Arvind",
+            "Shreya"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "SR08-L003",
+          "html_exact": "<p class=\"a02-narration\">Arvind outer storage area mein aaya. Wahan Shreya ka gym bag thoda ajeeb angle se pada tha, zip half open, aur kuch kapda andar se bahar nikal ke atka hua tha. Woh bag ko utha ke theek se shelf pe rakhne laga.</p>",
+          "text_for_lookup": "Arvind outer storage area mein aaya. Wahan Shreya ka gym bag thoda ajeeb angle se pada tha, zip half open, aur kuch kapda andar se bahar nikal ke atka hua tha. Woh bag ko utha ke theek se shelf pe rakhne laga.",
+          "source_start_in_scene": 463,
+          "explicit_names": [
+            "Arvind",
+            "Shreya"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "SR08-L004",
+          "html_exact": "<p class=\"a02-narration\">Jab usne stuck kapda andar theek kiya, tab usko feel hua ki fabric thoda damp hai. Bag ke andar se subah ke workout clothes dikh gaye — red sports bra aur matching pants. Kapda abhi bhi paseene se geela tha. Sports bra ke andar wale hisse pe milk leakage ka halka white mark bhi saaf dikh raha tha.</p>",
+          "text_for_lookup": "Jab usne stuck kapda andar theek kiya, tab usko feel hua ki fabric thoda damp hai. Bag ke andar se subah ke workout clothes dikh gaye — red sports bra aur matching pants. Kapda abhi bhi paseene se geela tha. Sports bra ke andar wale hisse pe milk leakage ka halka white mark bhi saaf dikh raha tha.",
+          "source_start_in_scene": 702,
+          "explicit_names": [],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "SR08-L005",
+          "html_exact": "<p class=\"a02-narration\">Arvind ne bag ko shelf pe rakh diya, lekin haath ruk gaya. Usne bra ko ek second ke liye haath mein liya. Kapda garam aur thoda chipchipa laga. Usne pehle naram sa smell liya — fresh workout sweat aur uski body ka scent. Saans tez ho gayi. Phir dheere se usne bra ko munh ke paas laaya aur milk stain wale hisse ko lick kiya. Ek dheemi groan nikal gayi.</p>",
+          "text_for_lookup": "Arvind ne bag ko shelf pe rakh diya, lekin haath ruk gaya. Usne bra ko ek second ke liye haath mein liya. Kapda garam aur thoda chipchipa laga. Usne pehle naram sa smell liya — fresh workout sweat aur uski body ka scent. Saans tez ho gayi. Phir dheere se usne bra ko munh ke paas laaya aur milk stain wale hisse ko lick kiya. Ek dheemi groan nikal gayi.",
+          "source_start_in_scene": 1030,
+          "explicit_names": [
+            "Arvind",
+            "Diya Sen"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "SR08-L006",
+          "html_exact": "<p class=\"a02-narration\">Subah wali Shreya turant dimaag mein aa gayi — red outfit mein confident, thodi si sweat se chamakti hui, uski taraf muskura ke dekh rahi thi. Imagination mein woh uske saamne bra utaar rahi thi, milky breasts fully exposed, nipples thode stiff, milk ki halki leakage abhi bhi.</p>",
+          "text_for_lookup": "Subah wali Shreya turant dimaag mein aa gayi — red outfit mein confident, thodi si sweat se chamakti hui, uski taraf muskura ke dekh rahi thi. Imagination mein woh uske saamne bra utaar rahi thi, milky breasts fully exposed, nipples thode stiff, milk ki halki leakage abhi bhi.",
+          "source_start_in_scene": 1413,
+          "explicit_names": [
+            "Shreya"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "SR08-L007",
+          "html_exact": "<p class=\"a02-narration\">Phir usne pants bhi haath mein liye. Intimate area ke damp fabric ko usne deeply smell kiya, phir tongue se lick kiya. Doosri groan tez ho gayi.</p>",
+          "text_for_lookup": "Phir usne pants bhi haath mein liye. Intimate area ke damp fabric ko usne deeply smell kiya, phir tongue se lick kiya. Doosri groan tez ho gayi.",
+          "source_start_in_scene": 1720,
+          "explicit_names": [],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "SR08-L008",
+          "html_exact": "<p class=\"a02-narration\">Uske mind mein scene aur gahra ho gaya. Shreya gym mein forward bend kar rahi hai, pants tight aur sweat se chipki hui, aur woh usse dekh ke jaanti hai ki woh kahan dekh raha hai. Phir woh uske paas aati hai, uski haath pakad ke apni bra ke andar le jaati hai, uski ungliyon ko milk-damp skin pe feel karwati hai.</p>",
+          "text_for_lookup": "Uske mind mein scene aur gahra ho gaya. Shreya gym mein forward bend kar rahi hai, pants tight aur sweat se chipki hui, aur woh usse dekh ke jaanti hai ki woh kahan dekh raha hai. Phir woh uske paas aati hai, uski haath pakad ke apni bra ke andar le jaati hai, uski ungliyon ko milk-damp skin pe feel karwati hai.",
+          "source_start_in_scene": 1894,
+          "explicit_names": [
+            "Shreya"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "SR08-L009",
+          "html_exact": "<p class=\"a02-narration\">Arvind ne aankhein kholi. Woh abhi bhi akela tha. Bag ab theek se shelf pe pada tha. Shreya police station mein thi, bilkul unaware.</p>",
+          "text_for_lookup": "Arvind ne aankhein kholi. Woh abhi bhi akela tha. Bag ab theek se shelf pe pada tha. Shreya police station mein thi, bilkul unaware.",
+          "source_start_in_scene": 2237,
+          "explicit_names": [
+            "Arvind",
+            "Shreya"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "SR08-L010",
+          "html_exact": "<p class=\"a02-narration\">Usne clothes wapas bag mein rakh diye, zip band ki, aur room se nikal gaya. Lekin andar jo obsession jaag gayi thi, woh ab easily nahi jaane wali thi.</p>",
+          "text_for_lookup": "Usne clothes wapas bag mein rakh diye, zip band ki, aur room se nikal gaya. Lekin andar jo obsession jaag gayi thi, woh ab easily nahi jaane wali thi.",
+          "source_start_in_scene": 2399,
+          "explicit_names": [],
+          "speaker_label_exact": null
+        }
+      ],
+      "integrity": {
+        "source_char_length": 2595,
+        "html_lines_lossless": true,
+        "prose_line_count": 10
+      }
+    },
+    {
+      "scene_id": "SR09",
+      "source_anchor": "shreya-sr09-chauhan",
+      "source_position": {
+        "start": 345878,
+        "end": 352811
+      },
+      "ui_badge_text_exact": "PUBLISHED · USER-APPROVED",
+      "plan_approval_text_exact": "USER_APPROVED_VERBATIM_PROSE_PUBLISHED",
+      "approved_by_source_plan": true,
+      "source_html_lines_exact": [
+        "<article class=\"a02-scene\" id=\"shreya-sr09-chauhan\">",
+        "<div class=\"a02-scene-head\"><div><div class=\"stamp\">SR09 · 09:40–10:15 AM · PUBLISHED</div><h3>Inspector Chauhan’s Distracted Attention</h3><p class=\"muted\">Police station administrative corridor · Shreya × Inspector Chauhan</p></div><span class=\"chip approved\">PUBLISHED · USER-APPROVED</span></div>",
+        "<div class=\"a02-rule\"><strong>Continuity:</strong> The first/top police-uniform button is open; the second stays closed. Shreya knows Chauhan's repeated gaze and privately recalls Rajeev Uncle. This is user-supplied approved scene prose without added events.</div>",
+        "<div class=\"shreya-scene-photo\" style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(225px,1fr));gap:14px;margin:16px 0\"><figure style=\"margin:0;min-width:0\"><a href=\"./assets/shreya/ep02-sr09-chauhan-corridor.png\" target=\"_blank\" rel=\"noopener\"><img src=\"./assets/shreya/ep02-sr09-chauhan-corridor.png\" loading=\"lazy\" alt=\"Shreya's exchange with Chauhan in police corridor\" style=\"width:100%;height:245px;object-fit:cover;object-position:top;border-radius:10px\"></a><figcaption style=\"font-size:.88rem;margin-top:6px\"><strong>SR09 · Chauhan</strong> · Shreya's exchange with Chauhan in police corridor</figcaption></figure></div>",
+        "<div class=\"a02-prose\">",
+        "<p class=\"a02-narration\">Shreya apni desk se investigation file lekar nikli. Subah se uniform ka pehla button open tha, doosra closed.</p>",
+        "<p class=\"a02-narration\">Corridor mein Inspector Chauhan usse mile.</p>",
+        "<p class=\"a02-dialogue\"><strong>Chauhan:</strong> “Inspector Rathore, aapki reports mein ek problem hai.”</p>",
+        "<p class=\"a02-dialogue\"><strong>Shreya:</strong> “Sir? Kya mistake mili?”</p>",
+        "<p class=\"a02-dialogue\"><strong>Chauhan:</strong> “Mistake nahi. Report itni interesting hai ki author se personally milne ka mann karta hai.”</p>",
+        "<p class=\"a02-dialogue\"><strong>Shreya:</strong> “Achha ji? Toh aaj report discuss karni hai ya author ka interview?”</p>",
+        "<p class=\"a02-dialogue\"><strong>Chauhan:</strong> “Dono ka appointment mil sakta hai?”</p>",
+        "<p class=\"a02-narration\">Shreya hansi.</p>",
+        "<p class=\"a02-dialogue\"><strong>Shreya:</strong> “Official appointment abhi. Personal appointment ke liye reason bahut strong chahiye.”</p>",
+        "<p class=\"a02-narration\">Chauhan bhi muskura diye. Woh thoda aur paas aa gaya, bilkul uske saamne khada ho gaya.</p>",
+        "<p class=\"a02-narration\">Shreya ne file kholi, lekin ek paper neeche gir gaya. Woh use uthane ke liye halka sa forward bend hui.</p>",
+        "<p class=\"a02-narration\">Us movement se open collar aur shift ho gaya. Chauhan ko uski milky breasts ka clear, unexpected glimpse mil gaya. Unki nazar ek pal ke liye wahin atak gayi. Open button unko turant notice ho gaya.</p>",
+        "<p class=\"a02-narration\">Shreya seedhi hui. Usne Chauhan ki aankhon ka movement clearly dekh liya.</p>",
+        "<p class=\"a02-dialogue\"><strong>Shreya:</strong> “Sir, yeh witness statement dekhiye. Timing match nahi kar rahi.”</p>",
+        "<p class=\"a02-dialogue\"><strong>Chauhan:</strong> “Haan… yes, Inspector.”</p>",
+        "<p class=\"a02-narration\">Woh file ki taraf dekhne lage, lekin baat karte-karte unki nazar phir se uske open collar ke andar chali gayi. Phir se. Aur phir se. Jaise deliberately jhaankne ki koshish kar rahe hon.</p>",
+        "<p class=\"a02-narration\">Shreya ne is baar unki nazar follow kar li. Samajh gayi woh kahan aur kyun dekh rahe hain.</p>",
+        "<p class=\"a02-narration a02-internal\"><em>Arey baap re! Aaj toh Rajeev Uncle ne sach mein faswa diya!</em></p>",
+        "<p class=\"a02-narration\">Unhone sirf ek button loose rakhne ko kaha tha. Ab Chauhan sir baar-baar andar dekh rahe hain.</p>",
+        "<p class=\"a02-narration\">Uske gaalon par halka rang aa gaya. Lekin andar se secretly excited feel hua — main abhi bhi logon ka concentration itni aasani se tod sakti hoon?</p>",
+        "<p class=\"a02-narration\">Woh apni smile control karte hue Chauhan ki taraf dekhti rahi.</p>",
+        "<p class=\"a02-dialogue\"><strong>Shreya:</strong> “Sir, ek sawaal poochun?”</p>",
+        "<p class=\"a02-dialogue\"><strong>Chauhan:</strong> “Bilkul.”</p>",
+        "<p class=\"a02-dialogue\"><strong>Shreya:</strong> “Aap investigation report padh rahe hain… ya meri uniform inspect kar rahe hain?”</p>",
+        "<p class=\"a02-narration\">Chauhan ek pal ke liye awkward ho gaye.</p>",
+        "<p class=\"a02-dialogue\"><strong>Chauhan:</strong> “Arre nahi, Inspector. Main toh bas—”</p>",
+        "<p class=\"a02-dialogue\"><strong>Shreya:</strong> “Bas kya, sir? Aapki nazar ka direction main do baar observe kar chuki hoon. Aur aap bilkul saamne khade hokar andar dekhne ki koshish bhi kar rahe the.”</p>",
+        "<p class=\"a02-dialogue\"><strong>Chauhan:</strong> “Aapki observation skills toh kamaal hain.”</p>",
+        "<p class=\"a02-dialogue\"><strong>Shreya:</strong> “Observation meri duty hai. Lekin aaj lagta hai observation ka subject badal gaya.”</p>",
+        "<p class=\"a02-narration\">Chauhan hans pade.</p>",
+        "<p class=\"a02-dialogue\"><strong>Chauhan:</strong> “Aapke saamne kuch chhupana mushkil hai.”</p>",
+        "<p class=\"a02-dialogue\"><strong>Shreya:</strong> “Toh phir chhupane ki koshish kyun karte hain?”</p>",
+        "<p class=\"a02-dialogue\"><strong>Chauhan:</strong> “Kabhi-kabhi admiration ko words mein explain karna difficult hota hai.”</p>",
+        "<p class=\"a02-narration\">Shreya ne eyebrow raise ki.</p>",
+        "<p class=\"a02-dialogue\"><strong>Shreya:</strong> “Admiration? Sir, aap compliment de rahe hain ya confession?”</p>",
+        "<p class=\"a02-dialogue\"><strong>Chauhan:</strong> “Jo aap samajhna chahein.”</p>",
+        "<p class=\"a02-dialogue\"><strong>Shreya:</strong> “Careful, Chauhan sir. Main Inspector hoon. Confession ko seriously leti hoon.”</p>",
+        "<p class=\"a02-narration\">Chauhan ne file ki taraf ishara kiya.</p>",
+        "<p class=\"a02-dialogue\"><strong>Chauhan:</strong> “Phir toh ab report par concentrate karna hi safe rahega.”</p>",
+        "<p class=\"a02-dialogue\"><strong>Shreya:</strong> “Good decision.”</p>",
+        "<p class=\"a02-narration\">Usne file unke saamne rakhi.</p>",
+        "<p class=\"a02-dialogue\"><strong>Shreya:</strong> “Waise sir, ek suggestion doon?”</p>",
+        "<p class=\"a02-dialogue\"><strong>Chauhan:</strong> “Zaroor.”</p>",
+        "<p class=\"a02-dialogue\"><strong>Shreya:</strong> “Next time mujhse baat karte hue aankhon mein dekhiyega. Aapke answers zyada convincing lagenge.”</p>",
+        "<p class=\"a02-narration\">Chauhan ne apni hansi chhupa li.</p>",
+        "<p class=\"a02-dialogue\"><strong>Chauhan:</strong> “Point noted, Inspector.”</p>",
+        "<p class=\"a02-narration\">Shreya bhi muskuraayi.</p>",
+        "<p class=\"a02-narration a02-internal\"><em>Rajeev Uncle, aapki advice toh expected se zyada effective nikli.</em></p>",
+        "<p class=\"a02-narration\">Phir usne report ke mismatched timestamps par discussion shuru kar diya. Chauhan ab file ko dhyaan se padh rahe the, lekin ab bhi beech-beech mein unki nazar control karna mushkil ho raha tha.</p>",
+        "<h3 class=\"minihead\">10:15 AM — Scene ends</h3>",
+        "<p class=\"a02-narration\">Shreya ko Chauhan ki attraction ka clear pata chal gaya hai. Woh us attention se secretly flattered aur excited hai, lekin Chauhan ko uske teasing responses ke alawa kisi deeper relationship ka invitation nahi mila.</p>",
+        "</div></article>"
+      ],
+      "prose_line_records": [
+        {
+          "id": "SR09-L001",
+          "html_exact": "<p class=\"muted\">Police station administrative corridor · Shreya × Inspector Chauhan</p>",
+          "text_for_lookup": "Police station administrative corridor · Shreya × Inspector Chauhan",
+          "source_start_in_scene": 193,
+          "explicit_names": [
+            "Inspector Chauhan",
+            "Shreya"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "SR09-L002",
+          "html_exact": "<p class=\"a02-narration\">Shreya apni desk se investigation file lekar nikli. Subah se uniform ka pehla button open tha, doosra closed.</p>",
+          "text_for_lookup": "Shreya apni desk se investigation file lekar nikli. Subah se uniform ka pehla button open tha, doosra closed.",
+          "source_start_in_scene": 1286,
+          "explicit_names": [
+            "Shreya"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "SR09-L003",
+          "html_exact": "<p class=\"a02-narration\">Corridor mein Inspector Chauhan usse mile.</p>",
+          "text_for_lookup": "Corridor mein Inspector Chauhan usse mile.",
+          "source_start_in_scene": 1425,
+          "explicit_names": [
+            "Inspector Chauhan"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "SR09-L004",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Chauhan:</strong> “Inspector Rathore, aapki reports mein ek problem hai.”</p>",
+          "text_for_lookup": "Chauhan: “Inspector Rathore, aapki reports mein ek problem hai.”",
+          "source_start_in_scene": 1497,
+          "explicit_names": [
+            "Inspector Chauhan"
+          ],
+          "speaker_label_exact": "Chauhan"
+        },
+        {
+          "id": "SR09-L005",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Shreya:</strong> “Sir? Kya mistake mili?”</p>",
+          "text_for_lookup": "Shreya: “Sir? Kya mistake mili?”",
+          "source_start_in_scene": 1607,
+          "explicit_names": [
+            "Shreya"
+          ],
+          "speaker_label_exact": "Shreya"
+        },
+        {
+          "id": "SR09-L006",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Chauhan:</strong> “Mistake nahi. Report itni interesting hai ki author se personally milne ka mann karta hai.”</p>",
+          "text_for_lookup": "Chauhan: “Mistake nahi. Report itni interesting hai ki author se personally milne ka mann karta hai.”",
+          "source_start_in_scene": 1685,
+          "explicit_names": [
+            "Inspector Chauhan"
+          ],
+          "speaker_label_exact": "Chauhan"
+        },
+        {
+          "id": "SR09-L007",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Shreya:</strong> “Achha ji? Toh aaj report discuss karni hai ya author ka interview?”</p>",
+          "text_for_lookup": "Shreya: “Achha ji? Toh aaj report discuss karni hai ya author ka interview?”",
+          "source_start_in_scene": 1832,
+          "explicit_names": [
+            "Shreya"
+          ],
+          "speaker_label_exact": "Shreya"
+        },
+        {
+          "id": "SR09-L008",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Chauhan:</strong> “Dono ka appointment mil sakta hai?”</p>",
+          "text_for_lookup": "Chauhan: “Dono ka appointment mil sakta hai?”",
+          "source_start_in_scene": 1954,
+          "explicit_names": [
+            "Inspector Chauhan"
+          ],
+          "speaker_label_exact": "Chauhan"
+        },
+        {
+          "id": "SR09-L009",
+          "html_exact": "<p class=\"a02-narration\">Shreya hansi.</p>",
+          "text_for_lookup": "Shreya hansi.",
+          "source_start_in_scene": 2045,
+          "explicit_names": [
+            "Shreya"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "SR09-L010",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Shreya:</strong> “Official appointment abhi. Personal appointment ke liye reason bahut strong chahiye.”</p>",
+          "text_for_lookup": "Shreya: “Official appointment abhi. Personal appointment ke liye reason bahut strong chahiye.”",
+          "source_start_in_scene": 2088,
+          "explicit_names": [
+            "Shreya"
+          ],
+          "speaker_label_exact": "Shreya"
+        },
+        {
+          "id": "SR09-L011",
+          "html_exact": "<p class=\"a02-narration\">Chauhan bhi muskura diye. Woh thoda aur paas aa gaya, bilkul uske saamne khada ho gaya.</p>",
+          "text_for_lookup": "Chauhan bhi muskura diye. Woh thoda aur paas aa gaya, bilkul uske saamne khada ho gaya.",
+          "source_start_in_scene": 2228,
+          "explicit_names": [
+            "Inspector Chauhan"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "SR09-L012",
+          "html_exact": "<p class=\"a02-narration\">Shreya ne file kholi, lekin ek paper neeche gir gaya. Woh use uthane ke liye halka sa forward bend hui.</p>",
+          "text_for_lookup": "Shreya ne file kholi, lekin ek paper neeche gir gaya. Woh use uthane ke liye halka sa forward bend hui.",
+          "source_start_in_scene": 2345,
+          "explicit_names": [
+            "Shreya"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "SR09-L013",
+          "html_exact": "<p class=\"a02-narration\">Us movement se open collar aur shift ho gaya. Chauhan ko uski milky breasts ka clear, unexpected glimpse mil gaya. Unki nazar ek pal ke liye wahin atak gayi. Open button unko turant notice ho gaya.</p>",
+          "text_for_lookup": "Us movement se open collar aur shift ho gaya. Chauhan ko uski milky breasts ka clear, unexpected glimpse mil gaya. Unki nazar ek pal ke liye wahin atak gayi. Open button unko turant notice ho gaya.",
+          "source_start_in_scene": 2478,
+          "explicit_names": [
+            "Inspector Chauhan"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "SR09-L014",
+          "html_exact": "<p class=\"a02-narration\">Shreya seedhi hui. Usne Chauhan ki aankhon ka movement clearly dekh liya.</p>",
+          "text_for_lookup": "Shreya seedhi hui. Usne Chauhan ki aankhon ka movement clearly dekh liya.",
+          "source_start_in_scene": 2705,
+          "explicit_names": [
+            "Inspector Chauhan",
+            "Shreya"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "SR09-L015",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Shreya:</strong> “Sir, yeh witness statement dekhiye. Timing match nahi kar rahi.”</p>",
+          "text_for_lookup": "Shreya: “Sir, yeh witness statement dekhiye. Timing match nahi kar rahi.”",
+          "source_start_in_scene": 2808,
+          "explicit_names": [
+            "Shreya"
+          ],
+          "speaker_label_exact": "Shreya"
+        },
+        {
+          "id": "SR09-L016",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Chauhan:</strong> “Haan… yes, Inspector.”</p>",
+          "text_for_lookup": "Chauhan: “Haan… yes, Inspector.”",
+          "source_start_in_scene": 2927,
+          "explicit_names": [
+            "Inspector Chauhan"
+          ],
+          "speaker_label_exact": "Chauhan"
+        },
+        {
+          "id": "SR09-L017",
+          "html_exact": "<p class=\"a02-narration\">Woh file ki taraf dekhne lage, lekin baat karte-karte unki nazar phir se uske open collar ke andar chali gayi. Phir se. Aur phir se. Jaise deliberately jhaankne ki koshish kar rahe hon.</p>",
+          "text_for_lookup": "Woh file ki taraf dekhne lage, lekin baat karte-karte unki nazar phir se uske open collar ke andar chali gayi. Phir se. Aur phir se. Jaise deliberately jhaankne ki koshish kar rahe hon.",
+          "source_start_in_scene": 3005,
+          "explicit_names": [],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "SR09-L018",
+          "html_exact": "<p class=\"a02-narration\">Shreya ne is baar unki nazar follow kar li. Samajh gayi woh kahan aur kyun dekh rahe hain.</p>",
+          "text_for_lookup": "Shreya ne is baar unki nazar follow kar li. Samajh gayi woh kahan aur kyun dekh rahe hain.",
+          "source_start_in_scene": 3220,
+          "explicit_names": [
+            "Shreya"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "SR09-L019",
+          "html_exact": "<p class=\"a02-narration a02-internal\"><em>Arey baap re! Aaj toh Rajeev Uncle ne sach mein faswa diya!</em></p>",
+          "text_for_lookup": "Arey baap re! Aaj toh Rajeev Uncle ne sach mein faswa diya!",
+          "source_start_in_scene": 3340,
+          "explicit_names": [
+            "Rajeev",
+            "Diya Sen"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "SR09-L020",
+          "html_exact": "<p class=\"a02-narration\">Unhone sirf ek button loose rakhne ko kaha tha. Ab Chauhan sir baar-baar andar dekh rahe hain.</p>",
+          "text_for_lookup": "Unhone sirf ek button loose rakhne ko kaha tha. Ab Chauhan sir baar-baar andar dekh rahe hain.",
+          "source_start_in_scene": 3451,
+          "explicit_names": [
+            "Inspector Chauhan"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "SR09-L021",
+          "html_exact": "<p class=\"a02-narration\">Uske gaalon par halka rang aa gaya. Lekin andar se secretly excited feel hua — main abhi bhi logon ka concentration itni aasani se tod sakti hoon?</p>",
+          "text_for_lookup": "Uske gaalon par halka rang aa gaya. Lekin andar se secretly excited feel hua — main abhi bhi logon ka concentration itni aasani se tod sakti hoon?",
+          "source_start_in_scene": 3575,
+          "explicit_names": [],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "SR09-L022",
+          "html_exact": "<p class=\"a02-narration\">Woh apni smile control karte hue Chauhan ki taraf dekhti rahi.</p>",
+          "text_for_lookup": "Woh apni smile control karte hue Chauhan ki taraf dekhti rahi.",
+          "source_start_in_scene": 3751,
+          "explicit_names": [
+            "Inspector Chauhan"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "SR09-L023",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Shreya:</strong> “Sir, ek sawaal poochun?”</p>",
+          "text_for_lookup": "Shreya: “Sir, ek sawaal poochun?”",
+          "source_start_in_scene": 3843,
+          "explicit_names": [
+            "Shreya"
+          ],
+          "speaker_label_exact": "Shreya"
+        },
+        {
+          "id": "SR09-L024",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Chauhan:</strong> “Bilkul.”</p>",
+          "text_for_lookup": "Chauhan: “Bilkul.”",
+          "source_start_in_scene": 3922,
+          "explicit_names": [
+            "Inspector Chauhan"
+          ],
+          "speaker_label_exact": "Chauhan"
+        },
+        {
+          "id": "SR09-L025",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Shreya:</strong> “Aap investigation report padh rahe hain… ya meri uniform inspect kar rahe hain?”</p>",
+          "text_for_lookup": "Shreya: “Aap investigation report padh rahe hain… ya meri uniform inspect kar rahe hain?”",
+          "source_start_in_scene": 3986,
+          "explicit_names": [
+            "Shreya"
+          ],
+          "speaker_label_exact": "Shreya"
+        },
+        {
+          "id": "SR09-L026",
+          "html_exact": "<p class=\"a02-narration\">Chauhan ek pal ke liye awkward ho gaye.</p>",
+          "text_for_lookup": "Chauhan ek pal ke liye awkward ho gaye.",
+          "source_start_in_scene": 4121,
+          "explicit_names": [
+            "Inspector Chauhan"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "SR09-L027",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Chauhan:</strong> “Arre nahi, Inspector. Main toh bas—”</p>",
+          "text_for_lookup": "Chauhan: “Arre nahi, Inspector. Main toh bas—”",
+          "source_start_in_scene": 4190,
+          "explicit_names": [
+            "Inspector Chauhan"
+          ],
+          "speaker_label_exact": "Chauhan"
+        },
+        {
+          "id": "SR09-L028",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Shreya:</strong> “Bas kya, sir? Aapki nazar ka direction main do baar observe kar chuki hoon. Aur aap bilkul saamne khade hokar andar dekhne ki koshish bhi kar rahe the.”</p>",
+          "text_for_lookup": "Shreya: “Bas kya, sir? Aapki nazar ka direction main do baar observe kar chuki hoon. Aur aap bilkul saamne khade hokar andar dekhne ki koshish bhi kar rahe the.”",
+          "source_start_in_scene": 4282,
+          "explicit_names": [
+            "Shreya"
+          ],
+          "speaker_label_exact": "Shreya"
+        },
+        {
+          "id": "SR09-L029",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Chauhan:</strong> “Aapki observation skills toh kamaal hain.”</p>",
+          "text_for_lookup": "Chauhan: “Aapki observation skills toh kamaal hain.”",
+          "source_start_in_scene": 4489,
+          "explicit_names": [
+            "Inspector Chauhan"
+          ],
+          "speaker_label_exact": "Chauhan"
+        },
+        {
+          "id": "SR09-L030",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Shreya:</strong> “Observation meri duty hai. Lekin aaj lagta hai observation ka subject badal gaya.”</p>",
+          "text_for_lookup": "Shreya: “Observation meri duty hai. Lekin aaj lagta hai observation ka subject badal gaya.”",
+          "source_start_in_scene": 4587,
+          "explicit_names": [
+            "Shreya"
+          ],
+          "speaker_label_exact": "Shreya"
+        },
+        {
+          "id": "SR09-L031",
+          "html_exact": "<p class=\"a02-narration\">Chauhan hans pade.</p>",
+          "text_for_lookup": "Chauhan hans pade.",
+          "source_start_in_scene": 4724,
+          "explicit_names": [
+            "Inspector Chauhan"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "SR09-L032",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Chauhan:</strong> “Aapke saamne kuch chhupana mushkil hai.”</p>",
+          "text_for_lookup": "Chauhan: “Aapke saamne kuch chhupana mushkil hai.”",
+          "source_start_in_scene": 4772,
+          "explicit_names": [
+            "Inspector Chauhan"
+          ],
+          "speaker_label_exact": "Chauhan"
+        },
+        {
+          "id": "SR09-L033",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Shreya:</strong> “Toh phir chhupane ki koshish kyun karte hain?”</p>",
+          "text_for_lookup": "Shreya: “Toh phir chhupane ki koshish kyun karte hain?”",
+          "source_start_in_scene": 4868,
+          "explicit_names": [
+            "Shreya"
+          ],
+          "speaker_label_exact": "Shreya"
+        },
+        {
+          "id": "SR09-L034",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Chauhan:</strong> “Kabhi-kabhi admiration ko words mein explain karna difficult hota hai.”</p>",
+          "text_for_lookup": "Chauhan: “Kabhi-kabhi admiration ko words mein explain karna difficult hota hai.”",
+          "source_start_in_scene": 4969,
+          "explicit_names": [
+            "Inspector Chauhan"
+          ],
+          "speaker_label_exact": "Chauhan"
+        },
+        {
+          "id": "SR09-L035",
+          "html_exact": "<p class=\"a02-narration\">Shreya ne eyebrow raise ki.</p>",
+          "text_for_lookup": "Shreya ne eyebrow raise ki.",
+          "source_start_in_scene": 5096,
+          "explicit_names": [
+            "Shreya"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "SR09-L036",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Shreya:</strong> “Admiration? Sir, aap compliment de rahe hain ya confession?”</p>",
+          "text_for_lookup": "Shreya: “Admiration? Sir, aap compliment de rahe hain ya confession?”",
+          "source_start_in_scene": 5153,
+          "explicit_names": [
+            "Shreya"
+          ],
+          "speaker_label_exact": "Shreya"
+        },
+        {
+          "id": "SR09-L037",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Chauhan:</strong> “Jo aap samajhna chahein.”</p>",
+          "text_for_lookup": "Chauhan: “Jo aap samajhna chahein.”",
+          "source_start_in_scene": 5268,
+          "explicit_names": [
+            "Inspector Chauhan"
+          ],
+          "speaker_label_exact": "Chauhan"
+        },
+        {
+          "id": "SR09-L038",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Shreya:</strong> “Careful, Chauhan sir. Main Inspector hoon. Confession ko seriously leti hoon.”</p>",
+          "text_for_lookup": "Shreya: “Careful, Chauhan sir. Main Inspector hoon. Confession ko seriously leti hoon.”",
+          "source_start_in_scene": 5349,
+          "explicit_names": [
+            "Inspector Chauhan",
+            "Shreya"
+          ],
+          "speaker_label_exact": "Shreya"
+        },
+        {
+          "id": "SR09-L039",
+          "html_exact": "<p class=\"a02-narration\">Chauhan ne file ki taraf ishara kiya.</p>",
+          "text_for_lookup": "Chauhan ne file ki taraf ishara kiya.",
+          "source_start_in_scene": 5482,
+          "explicit_names": [
+            "Inspector Chauhan"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "SR09-L040",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Chauhan:</strong> “Phir toh ab report par concentrate karna hi safe rahega.”</p>",
+          "text_for_lookup": "Chauhan: “Phir toh ab report par concentrate karna hi safe rahega.”",
+          "source_start_in_scene": 5549,
+          "explicit_names": [
+            "Inspector Chauhan"
+          ],
+          "speaker_label_exact": "Chauhan"
+        },
+        {
+          "id": "SR09-L041",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Shreya:</strong> “Good decision.”</p>",
+          "text_for_lookup": "Shreya: “Good decision.”",
+          "source_start_in_scene": 5662,
+          "explicit_names": [
+            "Shreya"
+          ],
+          "speaker_label_exact": "Shreya"
+        },
+        {
+          "id": "SR09-L042",
+          "html_exact": "<p class=\"a02-narration\">Usne file unke saamne rakhi.</p>",
+          "text_for_lookup": "Usne file unke saamne rakhi.",
+          "source_start_in_scene": 5732,
+          "explicit_names": [],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "SR09-L043",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Shreya:</strong> “Waise sir, ek suggestion doon?”</p>",
+          "text_for_lookup": "Shreya: “Waise sir, ek suggestion doon?”",
+          "source_start_in_scene": 5790,
+          "explicit_names": [
+            "Shreya"
+          ],
+          "speaker_label_exact": "Shreya"
+        },
+        {
+          "id": "SR09-L044",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Chauhan:</strong> “Zaroor.”</p>",
+          "text_for_lookup": "Chauhan: “Zaroor.”",
+          "source_start_in_scene": 5876,
+          "explicit_names": [
+            "Inspector Chauhan"
+          ],
+          "speaker_label_exact": "Chauhan"
+        },
+        {
+          "id": "SR09-L045",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Shreya:</strong> “Next time mujhse baat karte hue aankhon mein dekhiyega. Aapke answers zyada convincing lagenge.”</p>",
+          "text_for_lookup": "Shreya: “Next time mujhse baat karte hue aankhon mein dekhiyega. Aapke answers zyada convincing lagenge.”",
+          "source_start_in_scene": 5940,
+          "explicit_names": [
+            "Shreya"
+          ],
+          "speaker_label_exact": "Shreya"
+        },
+        {
+          "id": "SR09-L046",
+          "html_exact": "<p class=\"a02-narration\">Chauhan ne apni hansi chhupa li.</p>",
+          "text_for_lookup": "Chauhan ne apni hansi chhupa li.",
+          "source_start_in_scene": 6091,
+          "explicit_names": [
+            "Inspector Chauhan"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "SR09-L047",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Chauhan:</strong> “Point noted, Inspector.”</p>",
+          "text_for_lookup": "Chauhan: “Point noted, Inspector.”",
+          "source_start_in_scene": 6153,
+          "explicit_names": [
+            "Inspector Chauhan"
+          ],
+          "speaker_label_exact": "Chauhan"
+        },
+        {
+          "id": "SR09-L048",
+          "html_exact": "<p class=\"a02-narration\">Shreya bhi muskuraayi.</p>",
+          "text_for_lookup": "Shreya bhi muskuraayi.",
+          "source_start_in_scene": 6233,
+          "explicit_names": [
+            "Shreya"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "SR09-L049",
+          "html_exact": "<p class=\"a02-narration a02-internal\"><em>Rajeev Uncle, aapki advice toh expected se zyada effective nikli.</em></p>",
+          "text_for_lookup": "Rajeev Uncle, aapki advice toh expected se zyada effective nikli.",
+          "source_start_in_scene": 6285,
+          "explicit_names": [
+            "Rajeev"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "SR09-L050",
+          "html_exact": "<p class=\"a02-narration\">Phir usne report ke mismatched timestamps par discussion shuru kar diya. Chauhan ab file ko dhyaan se padh rahe the, lekin ab bhi beech-beech mein unki nazar control karna mushkil ho raha tha.</p>",
+          "text_for_lookup": "Phir usne report ke mismatched timestamps par discussion shuru kar diya. Chauhan ab file ko dhyaan se padh rahe the, lekin ab bhi beech-beech mein unki nazar control karna mushkil ho raha tha.",
+          "source_start_in_scene": 6402,
+          "explicit_names": [
+            "Inspector Chauhan",
+            "Diya Sen"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "SR09-L051",
+          "html_exact": "<p class=\"a02-narration\">Shreya ko Chauhan ki attraction ka clear pata chal gaya hai. Woh us attention se secretly flattered aur excited hai, lekin Chauhan ko uske teasing responses ke alawa kisi deeper relationship ka invitation nahi mila.</p>",
+          "text_for_lookup": "Shreya ko Chauhan ki attraction ka clear pata chal gaya hai. Woh us attention se secretly flattered aur excited hai, lekin Chauhan ko uske teasing responses ke alawa kisi deeper relationship ka invitation nahi mila.",
+          "source_start_in_scene": 6672,
+          "explicit_names": [
+            "Inspector Chauhan",
+            "Shreya"
+          ],
+          "speaker_label_exact": null
+        }
+      ],
+      "integrity": {
+        "source_char_length": 6933,
+        "html_lines_lossless": true,
+        "prose_line_count": 51
+      }
+    }
+  ],
+  "approved_scene_ids": [
+    "SR01",
+    "SR04",
+    "SR08",
+    "SR09"
+  ],
+  "excluded_nonapproved_scene_ids": [
+    "SR02A",
+    "SR02B",
+    "SR05",
+    "SR06",
+    "SR07"
+  ],
+  "character_name_index": [
+    {
+      "character_id": "karan",
+      "name": "Karan",
+      "matches": [
+        {
+          "scene_id": "SR04",
+          "evidence_line_ids": [
+            "SR04-L002"
+          ],
+          "full_scene_for_context": "SR04",
+          "scene_approved": true
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_OR_UNAMBIGUOUS_ALIAS_NOT_PROOF_OF_DIRECT_INTERACTION"
+    },
+    {
+      "character_id": "aman",
+      "name": "Aman",
+      "matches": [
+        {
+          "scene_id": "SR04",
+          "evidence_line_ids": [
+            "SR04-L002"
+          ],
+          "full_scene_for_context": "SR04",
+          "scene_approved": true
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_OR_UNAMBIGUOUS_ALIAS_NOT_PROOF_OF_DIRECT_INTERACTION"
+    },
+    {
+      "character_id": "rajeev",
+      "name": "Rajeev",
+      "matches": [
+        {
+          "scene_id": "SR09",
+          "evidence_line_ids": [
+            "SR09-L019",
+            "SR09-L049"
+          ],
+          "full_scene_for_context": "SR09",
+          "scene_approved": true
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_OR_UNAMBIGUOUS_ALIAS_NOT_PROOF_OF_DIRECT_INTERACTION"
+    },
+    {
+      "character_id": "arvind",
+      "name": "Arvind",
+      "matches": [
+        {
+          "scene_id": "SR08",
+          "evidence_line_ids": [
+            "SR08-L002",
+            "SR08-L003",
+            "SR08-L005",
+            "SR08-L009"
+          ],
+          "full_scene_for_context": "SR08",
+          "scene_approved": true
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_OR_UNAMBIGUOUS_ALIAS_NOT_PROOF_OF_DIRECT_INTERACTION"
+    },
+    {
+      "character_id": "anaya",
+      "name": "Anaya",
+      "matches": [
+        {
+          "scene_id": "SR01",
+          "evidence_line_ids": [
+            "SR01-L001",
+            "SR01-L041"
+          ],
+          "full_scene_for_context": "SR01",
+          "scene_approved": true
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_OR_UNAMBIGUOUS_ALIAS_NOT_PROOF_OF_DIRECT_INTERACTION"
+    },
+    {
+      "character_id": "samar",
+      "name": "Samar",
+      "matches": [
+        {
+          "scene_id": "SR01",
+          "evidence_line_ids": [
+            "SR01-L003",
+            "SR01-L005",
+            "SR01-L006",
+            "SR01-L007",
+            "SR01-L008",
+            "SR01-L009",
+            "SR01-L015",
+            "SR01-L017",
+            "SR01-L019",
+            "SR01-L021",
+            "SR01-L023",
+            "SR01-L027",
+            "SR01-L028",
+            "SR01-L029",
+            "SR01-L032",
+            "SR01-L033",
+            "SR01-L036",
+            "SR01-L044"
+          ],
+          "full_scene_for_context": "SR01",
+          "scene_approved": true
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_OR_UNAMBIGUOUS_ALIAS_NOT_PROOF_OF_DIRECT_INTERACTION"
+    },
+    {
+      "character_id": "shaan",
+      "name": "Shaan",
+      "matches": [
+        {
+          "scene_id": "SR01",
+          "evidence_line_ids": [
+            "SR01-L003",
+            "SR01-L014",
+            "SR01-L015",
+            "SR01-L021",
+            "SR01-L023",
+            "SR01-L024",
+            "SR01-L026",
+            "SR01-L027",
+            "SR01-L030",
+            "SR01-L035",
+            "SR01-L036",
+            "SR01-L039",
+            "SR01-L044"
+          ],
+          "full_scene_for_context": "SR01",
+          "scene_approved": true
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_OR_UNAMBIGUOUS_ALIAS_NOT_PROOF_OF_DIRECT_INTERACTION"
+    },
+    {
+      "character_id": "mahendra",
+      "name": "Mahendra Suri",
+      "matches": [
+        {
+          "scene_id": "SR04",
+          "evidence_line_ids": [
+            "SR04-L001",
+            "SR04-L002",
+            "SR04-L003",
+            "SR04-L005",
+            "SR04-L006",
+            "SR04-L008",
+            "SR04-L010",
+            "SR04-L011",
+            "SR04-L014",
+            "SR04-L016",
+            "SR04-L019",
+            "SR04-L020",
+            "SR04-L022",
+            "SR04-L024",
+            "SR04-L027",
+            "SR04-L028",
+            "SR04-L030",
+            "SR04-L032",
+            "SR04-L035",
+            "SR04-L039",
+            "SR04-L042"
+          ],
+          "full_scene_for_context": "SR04",
+          "scene_approved": true
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_OR_UNAMBIGUOUS_ALIAS_NOT_PROOF_OF_DIRECT_INTERACTION"
+    },
+    {
+      "character_id": "vivek_rao",
+      "name": "Vivek Rao",
+      "matches": [
+        {
+          "scene_id": "SR01",
+          "evidence_line_ids": [
+            "SR01-L003"
+          ],
+          "full_scene_for_context": "SR01",
+          "scene_approved": true
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_OR_UNAMBIGUOUS_ALIAS_NOT_PROOF_OF_DIRECT_INTERACTION"
+    },
+    {
+      "character_id": "chauhan",
+      "name": "Inspector Chauhan",
+      "matches": [
+        {
+          "scene_id": "SR09",
+          "evidence_line_ids": [
+            "SR09-L001",
+            "SR09-L003",
+            "SR09-L004",
+            "SR09-L006",
+            "SR09-L008",
+            "SR09-L011",
+            "SR09-L013",
+            "SR09-L014",
+            "SR09-L016",
+            "SR09-L020",
+            "SR09-L022",
+            "SR09-L024",
+            "SR09-L026",
+            "SR09-L027",
+            "SR09-L029",
+            "SR09-L031",
+            "SR09-L032",
+            "SR09-L034",
+            "SR09-L037",
+            "SR09-L038",
+            "SR09-L039",
+            "SR09-L040",
+            "SR09-L044",
+            "SR09-L046",
+            "SR09-L047",
+            "SR09-L050",
+            "SR09-L051"
+          ],
+          "full_scene_for_context": "SR09",
+          "scene_approved": true
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_OR_UNAMBIGUOUS_ALIAS_NOT_PROOF_OF_DIRECT_INTERACTION"
+    },
+    {
+      "character_id": "ankita_woman_05",
+      "name": "Diya Sen",
+      "matches": [
+        {
+          "scene_id": "SR01",
+          "evidence_line_ids": [
+            "SR01-L014",
+            "SR01-L015"
+          ],
+          "full_scene_for_context": "SR01",
+          "scene_approved": true
+        },
+        {
+          "scene_id": "SR04",
+          "evidence_line_ids": [
+            "SR04-L009",
+            "SR04-L022"
+          ],
+          "full_scene_for_context": "SR04",
+          "scene_approved": true
+        },
+        {
+          "scene_id": "SR08",
+          "evidence_line_ids": [
+            "SR08-L005"
+          ],
+          "full_scene_for_context": "SR08",
+          "scene_approved": true
+        },
+        {
+          "scene_id": "SR09",
+          "evidence_line_ids": [
+            "SR09-L019",
+            "SR09-L050"
+          ],
+          "full_scene_for_context": "SR09",
+          "scene_approved": true
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_OR_UNAMBIGUOUS_ALIAS_NOT_PROOF_OF_DIRECT_INTERACTION"
+    },
+    {
+      "character_id": "shreya",
+      "name": "Shreya",
+      "matches": [
+        {
+          "scene_id": "SR01",
+          "evidence_line_ids": [
+            "SR01-L001",
+            "SR01-L002",
+            "SR01-L004",
+            "SR01-L005",
+            "SR01-L008",
+            "SR01-L010",
+            "SR01-L011",
+            "SR01-L013",
+            "SR01-L015",
+            "SR01-L016",
+            "SR01-L018",
+            "SR01-L020",
+            "SR01-L021",
+            "SR01-L022",
+            "SR01-L023",
+            "SR01-L025",
+            "SR01-L027",
+            "SR01-L028",
+            "SR01-L031",
+            "SR01-L033",
+            "SR01-L034",
+            "SR01-L037",
+            "SR01-L038",
+            "SR01-L040",
+            "SR01-L041",
+            "SR01-L043",
+            "SR01-L044"
+          ],
+          "full_scene_for_context": "SR01",
+          "scene_approved": true
+        },
+        {
+          "scene_id": "SR04",
+          "evidence_line_ids": [
+            "SR04-L001",
+            "SR04-L002",
+            "SR04-L004",
+            "SR04-L007",
+            "SR04-L009",
+            "SR04-L012",
+            "SR04-L013",
+            "SR04-L015",
+            "SR04-L017",
+            "SR04-L018",
+            "SR04-L021",
+            "SR04-L023",
+            "SR04-L025",
+            "SR04-L026",
+            "SR04-L029",
+            "SR04-L031",
+            "SR04-L033",
+            "SR04-L034",
+            "SR04-L036",
+            "SR04-L038",
+            "SR04-L040",
+            "SR04-L042"
+          ],
+          "full_scene_for_context": "SR04",
+          "scene_approved": true
+        },
+        {
+          "scene_id": "SR08",
+          "evidence_line_ids": [
+            "SR08-L002",
+            "SR08-L003",
+            "SR08-L006",
+            "SR08-L008",
+            "SR08-L009"
+          ],
+          "full_scene_for_context": "SR08",
+          "scene_approved": true
+        },
+        {
+          "scene_id": "SR09",
+          "evidence_line_ids": [
+            "SR09-L001",
+            "SR09-L002",
+            "SR09-L005",
+            "SR09-L007",
+            "SR09-L009",
+            "SR09-L010",
+            "SR09-L012",
+            "SR09-L014",
+            "SR09-L015",
+            "SR09-L018",
+            "SR09-L023",
+            "SR09-L025",
+            "SR09-L028",
+            "SR09-L030",
+            "SR09-L033",
+            "SR09-L035",
+            "SR09-L036",
+            "SR09-L038",
+            "SR09-L041",
+            "SR09-L043",
+            "SR09-L045",
+            "SR09-L048",
+            "SR09-L051"
+          ],
+          "full_scene_for_context": "SR09",
+          "scene_approved": true
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_OR_UNAMBIGUOUS_ALIAS_NOT_PROOF_OF_DIRECT_INTERACTION"
+    }
+  ],
+  "integrity": {
+    "approved_scenes_only": true,
+    "approved_scene_count": 4,
+    "source_characters_preserved": 24475,
+    "unabridged_scene_source_lines": true
+  }
+}
