@@ -1,0 +1,81 @@
+{
+  "id": "society-wives-episode-02",
+  "series": "Society Wives — Five Veils of Desire",
+  "title": "The New Year's Unspoken Secrets",
+  "subtitle": "One Day, Six Perspectives",
+  "date": "2026-01-01",
+  "location": "Gurgaon",
+  "status": "EPISODE_WINDOW_CLOSED_BY_USER",
+  "closedOn": "2026-11-13",
+  "meaning": "No further scenes in Episode 02's 1 January POV timeline; source prose, open reviews and continuity flags remain unmodified.",
+  "unifiedReader": "episode-02.html",
+  "index": "index.html",
+  "leadChapters": [
+    {
+      "lead": "Ankita",
+      "chapter": "The Little Pink Lace Secrets",
+      "lastPublished": "A08, 09:20; parcel P08, 12:50",
+      "cutoff": "~13:00 Cyber City",
+      "open": [
+        "A05 review",
+        "Some parcel continuity/review labels"
+      ]
+    },
+    {
+      "lead": "Shivani",
+      "chapter": "The Unshared Photograph",
+      "lastPublished": "D01, 13:20–13:30",
+      "cutoff": "13:20–13:30 College",
+      "open": [
+        "B02 review marker"
+      ]
+    },
+    {
+      "lead": "Taniya & Soniya",
+      "chapter": "The Second Bra in the Bridal Drawer",
+      "lastPublished": "TS02",
+      "cutoff": "13:15 distinct locations",
+      "open": [
+        "TS03 onward prose not published; working plot"
+      ]
+    },
+    {
+      "lead": "Meenakshi",
+      "chapter": "Between Rounds and the Unsecured Locker",
+      "lastPublished": "M12, 13:15",
+      "cutoff": "13:15 Hospital",
+      "open": [
+        "M09 prose missing",
+        "M06, M07, M10–M12 review pending"
+      ]
+    },
+    {
+      "lead": "Shreya",
+      "chapter": "Duty and Distraction",
+      "lastPublished": "SR09, 10:15",
+      "cutoff": "10:15 Police station",
+      "open": [
+        "SR03 referenced/unpublished"
+      ]
+    }
+  ],
+  "imageArchive": {
+    "lead": "Meenakshi",
+    "folderUrl": "https://drive.google.com/drive/folders/1NX-kruEr5mXfrGTgz-6okcgKjMpqkJ-9",
+    "archiveZipUrl": "https://drive.google.com/file/d/17P2vJmK52HxY8tLV6v7h1Km1dRnmNOmD/view?usp=drivesdk",
+    "count": 10,
+    "status": "review-images-not-final-canon"
+  },
+  "nextDayLocks": [
+    {
+      "scene": "M08 Senior Review",
+      "date": "2026-01-02",
+      "path": "episode-03-meenakshi-plan.json"
+    },
+    {
+      "scene": "Shreya SR10–SR13",
+      "date": "2026-01-03",
+      "path": "episode-03-shreya-plan.json"
+    }
+  ]
+}
