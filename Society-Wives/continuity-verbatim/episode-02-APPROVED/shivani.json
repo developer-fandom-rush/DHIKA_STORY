@@ -1,0 +1,1948 @@
+{
+  "schema": "verbatim-entity-continuity-v1",
+  "series": "Society Wives — Five Veils of Desire",
+  "episode": "02",
+  "lead": "Shivani",
+  "mode": "APPROVED_ONLY_STRICT_SOURCE_EVIDENCE",
+  "update_rule": "Only update after an episode and when the user explicitly says to update the JSON; do not auto-refresh or silently revise approved source.",
+  "fidelity": "source_html_lines_exact.join('\\n') reproduces the exact original HTML scene fragment including every paragraph, word, punctuation and markup; prose_line_records is only a secondary search view.",
+  "source": {
+    "repository": "developer-fandom-rush/DHIKA_STORY",
+    "path": "Society-Wives/episode-02.html",
+    "blob_sha": "91f5c2a92282cc01be7497cd8e12c97a41241aed"
+  },
+  "approval_policy": "UI label APPROVED or directly recorded A08 approval authorizes approved_by_ui_or_plan. PUBLISHED, FINAL or USER-SUPPLIED alone are not interpreted as blanket approval.",
+  "all_published_archive_path": "Society-Wives/continuity-verbatim/episode-02/shivani.json",
+  "scenes": [
+    {
+      "scene_id": "A02",
+      "source_anchor": "shivani-a02-prose",
+      "source_position": {
+        "start": 186999,
+        "end": 192698
+      },
+      "ui_badge_text_exact": "APPROVED",
+      "approved_by_ui_or_plan": true,
+      "source_html_lines_exact": [
+        "<article class=\"a02-scene\" id=\"shivani-a02-prose\">",
+        "<div class=\"a02-scene-head\"><div><div class=\"stamp\">SHIVANI · A02 · 06:45–07:10 AM</div><h3>A New Year Surprise Interrupted</h3><p class=\"muted\">Shivani × Rohan · Approved original Hinglish dialogue</p></div><span class=\"chip approved\">APPROVED</span></div>",
+        "<div class=\"a02-prose\">",
+        "<p class=\"a02-narration\">Narration — 06:45 AM</p>",
+        "<p class=\"a02-narration\">Main door khula. Rohan morning walk se wapas aaya, shoes utare aur kitchen se paani ka glass uthaya.</p>",
+        "<p class=\"a02-narration\">Bedroom ke andar Shivani dressing mirror ke saamne khadi thi. Burgundy saree pehen chuki thi, lekin pallu set karna aur baal banana abhi baaki tha.</p>",
+        "<p class=\"a02-dialogue\"><strong>Rohan:</strong> Madam lecturer! Happy New Year! Ghar mein koi hai ya sab vacation pe chale gaye?</p>",
+        "<p class=\"a02-dialogue\"><strong>Shivani:</strong> Kitchen mein paani hai. Aur haan, Happy New Year, Mr. Late Entry.</p>",
+        "<p class=\"a02-dialogue\"><strong>Rohan:</strong> Late? Main toh bilkul time pe aaya hoon.</p>",
+        "<p class=\"a02-dialogue\"><strong>Shivani:</strong> Tumhari ghadi ke hisaab se duniya chalti toh students ko kabhi attendance ki problem nahi hoti.</p>",
+        "<p class=\"a02-narration\">Rohan hanste hue bedroom ki taraf badha.</p>",
+        "<p class=\"a02-dialogue\"><strong>Rohan:</strong> Achha, aaj itni subah bedroom band kyun hai?</p>",
+        "<p class=\"a02-dialogue\"><strong>Shivani:</strong> Kyunki andar ek important preparation chal rahi hai.</p>",
+        "<p class=\"a02-dialogue\"><strong>Rohan:</strong> College ki?</p>",
+        "<p class=\"a02-dialogue\"><strong>Shivani:</strong> <mark><strong>Nahi. Aaj ki preparation sirf tumhare liye hai.</strong></mark></p>",
+        "<p class=\"a02-narration\">Rohan darwaze ke paas ruk gaya.</p>",
+        "<p class=\"a02-dialogue\"><strong>Rohan:</strong> Oh! Toh mujhe invitation milega ya appointment book karni padegi?</p>",
+        "<p class=\"a02-dialogue\"><strong>Shivani:</strong> Appointment nahi. Bas thoda patience.</p>",
+        "<p class=\"a02-dialogue\"><strong>Rohan:</strong> <mark><strong>Patience toh hai, lekin tum jab aise suspense banati ho na, expectations badh jaati hain.</strong></mark></p>",
+        "<p class=\"a02-dialogue\"><strong>Shivani:</strong> Phir expectations sambhal kar rakhna. Surprise kharab mat karna.</p>",
+        "<p class=\"a02-narration\">Darwaze ki halki opening se Rohan ko burgundy fabric ki ek jhalak mili.</p>",
+        "<p class=\"a02-dialogue\"><strong>Rohan:</strong> Ek minute... nayi saree?</p>",
+        "<p class=\"a02-dialogue\"><strong>Shivani:</strong> Tumne dekha kya?</p>",
+        "<p class=\"a02-dialogue\"><strong>Rohan:</strong> Bas colour. Waise burgundy tum par hamesha achha lagta hai.</p>",
+        "<p class=\"a02-narration\">Shivani mirror mein apni reflection dekhkar muskurayi.</p>",
+        "<p class=\"a02-dialogue\"><strong>Shivani:</strong> <mark><strong>Sirf colour ki tareef? Poora surprise dekhoge toh kya kahoge?</strong></mark></p>",
+        "<p class=\"a02-dialogue\"><strong>Rohan:</strong> Woh toh dekhne ke baad hi decide karunga.</p>",
+        "<p class=\"a02-dialogue\"><strong>Shivani:</strong> Toh bahar jao. Aur aankhein band rakhna.</p>",
+        "<p class=\"a02-dialogue\"><strong>Rohan:</strong> Main apne hi ghar mein guest ban gaya?</p>",
+        "<p class=\"a02-dialogue\"><strong>Shivani:</strong> Special guest. Ab jao.</p>",
+        "<p class=\"a02-narration\">Rohan hansa aur living room mein chala gaya.</p>",
+        "<p class=\"a02-narration\">Narration — 07:03 AM</p>",
+        "<p class=\"a02-narration\">Shivani ne blouse ki sleeve theek ki, pallu shoulder par set kiya aur earrings uthaye.</p>",
+        "<p class=\"a02-narration\">Living room mein achanak Rohan ka phone baja.</p>",
+        "<p class=\"a02-narration\">Uski awaaz badal gayi.</p>",
+        "<p class=\"a02-dialogue\"><strong>Rohan:</strong> Hello... haan, boliye.</p>",
+        "<p class=\"a02-narration\">Kuch pal woh chupchaap sunta raha.</p>",
+        "<p class=\"a02-dialogue\"><strong>Rohan:</strong> Okay. Samajh gaya. Main nikal raha hoon.</p>",
+        "<p class=\"a02-narration\">Shivani ne dressing rok di.</p>",
+        "<p class=\"a02-dialogue\"><strong>Shivani:</strong> Rohan? Kya hua?</p>",
+        "<p class=\"a02-narration\">Rohan bedroom ke bahar aaya.</p>",
+        "<p class=\"a02-dialogue\"><strong>Rohan:</strong> Sorry, Shivani. Urgent work call hai. Mujhe abhi jaana padega.</p>",
+        "<p class=\"a02-dialogue\"><strong>Shivani:</strong> Abhi? New Year ki subah?</p>",
+        "<p class=\"a02-dialogue\"><strong>Rohan:</strong> I know. Mujhe bhi achha nahi lag raha.</p>",
+        "<p class=\"a02-narration\">Shivani ne haath mein pakda earring dressing table par rakh diya.</p>",
+        "<p class=\"a02-dialogue\"><strong>Shivani:</strong> Main tumhare liye kuch special plan kar rahi thi.</p>",
+        "<p class=\"a02-dialogue\"><strong>Rohan:</strong> Mujhe pata hai. Aur main sach mein dekhna chahta tha.</p>",
+        "<p class=\"a02-dialogue\"><strong>Shivani:</strong> <mark><strong>Dekhna chahte the, lekin dekha toh nahi.</strong></mark></p>",
+        "<p class=\"a02-narration\">Rohan kuch seconds chup raha.</p>",
+        "<p class=\"a02-dialogue\"><strong>Rohan:</strong> Toh promise raha. Surprise pending hai, cancelled nahi.</p>",
+        "<p class=\"a02-narration\">Shivani ki halki muskurahat laut aayi.</p>",
+        "<p class=\"a02-dialogue\"><strong>Shivani:</strong> <mark><strong>Theek hai. Lekin agali baar tumhari timing meri hogi.</strong></mark></p>",
+        "<p class=\"a02-dialogue\"><strong>Rohan:</strong> Deal.</p>",
+        "<p class=\"a02-narration\">Narration — 07:10 AM</p>",
+        "<p class=\"a02-narration\">Rohan apni zaroori cheezein lekar nikal gaya.</p>",
+        "<p class=\"a02-narration\">Darwaza band hua toh Shivani kuch pal wahin khadi rahi.</p>",
+        "<p class=\"a02-narration\">Phir mirror ke paas lautkar usne burgundy pallu dobara uthaya.</p>",
+        "<p class=\"a02-dialogue\"><strong>Shivani (dheere se):</strong> Pending hai... cancelled nahi.</p>",
+        "<p class=\"a02-narration\">Usne apni adhoori taiyaari ko dekha. Surprise ka waqt badal gaya tha, uska mann nahi.</p>",
+        "<p class=\"a02-narration\"><strong>SCENE COMPLETE — Approved.</strong></p>",
+        "</div></article>"
+      ],
+      "prose_line_records": [
+        {
+          "id": "A02-L001",
+          "html_exact": "<p class=\"muted\">Shivani × Rohan · Approved original Hinglish dialogue</p>",
+          "text_for_lookup": "Shivani × Rohan · Approved original Hinglish dialogue",
+          "source_start_in_scene": 179,
+          "explicit_names": [
+            "Rohan",
+            "Shivani"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "A02-L002",
+          "html_exact": "<p class=\"a02-narration\">Narration — 06:45 AM</p>",
+          "text_for_lookup": "Narration — 06:45 AM",
+          "source_start_in_scene": 333,
+          "explicit_names": [],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "A02-L003",
+          "html_exact": "<p class=\"a02-narration\">Main door khula. Rohan morning walk se wapas aaya, shoes utare aur kitchen se paani ka glass uthaya.</p>",
+          "text_for_lookup": "Main door khula. Rohan morning walk se wapas aaya, shoes utare aur kitchen se paani ka glass uthaya.",
+          "source_start_in_scene": 383,
+          "explicit_names": [
+            "Rohan"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "A02-L004",
+          "html_exact": "<p class=\"a02-narration\">Bedroom ke andar Shivani dressing mirror ke saamne khadi thi. Burgundy saree pehen chuki thi, lekin pallu set karna aur baal banana abhi baaki tha.</p>",
+          "text_for_lookup": "Bedroom ke andar Shivani dressing mirror ke saamne khadi thi. Burgundy saree pehen chuki thi, lekin pallu set karna aur baal banana abhi baaki tha.",
+          "source_start_in_scene": 513,
+          "explicit_names": [
+            "Shivani"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "A02-L005",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Rohan:</strong> Madam lecturer! Happy New Year! Ghar mein koi hai ya sab vacation pe chale gaye?</p>",
+          "text_for_lookup": "Rohan: Madam lecturer! Happy New Year! Ghar mein koi hai ya sab vacation pe chale gaye?",
+          "source_start_in_scene": 690,
+          "explicit_names": [
+            "Rohan"
+          ],
+          "speaker_label_exact": "Rohan"
+        },
+        {
+          "id": "A02-L006",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Shivani:</strong> Kitchen mein paani hai. Aur haan, Happy New Year, Mr. Late Entry.</p>",
+          "text_for_lookup": "Shivani: Kitchen mein paani hai. Aur haan, Happy New Year, Mr. Late Entry.",
+          "source_start_in_scene": 823,
+          "explicit_names": [
+            "Shivani"
+          ],
+          "speaker_label_exact": "Shivani"
+        },
+        {
+          "id": "A02-L007",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Rohan:</strong> Late? Main toh bilkul time pe aaya hoon.</p>",
+          "text_for_lookup": "Rohan: Late? Main toh bilkul time pe aaya hoon.",
+          "source_start_in_scene": 943,
+          "explicit_names": [
+            "Rohan"
+          ],
+          "speaker_label_exact": "Rohan"
+        },
+        {
+          "id": "A02-L008",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Shivani:</strong> Tumhari ghadi ke hisaab se duniya chalti toh students ko kabhi attendance ki problem nahi hoti.</p>",
+          "text_for_lookup": "Shivani: Tumhari ghadi ke hisaab se duniya chalti toh students ko kabhi attendance ki problem nahi hoti.",
+          "source_start_in_scene": 1036,
+          "explicit_names": [
+            "Shivani"
+          ],
+          "speaker_label_exact": "Shivani"
+        },
+        {
+          "id": "A02-L009",
+          "html_exact": "<p class=\"a02-narration\">Rohan hanste hue bedroom ki taraf badha.</p>",
+          "text_for_lookup": "Rohan hanste hue bedroom ki taraf badha.",
+          "source_start_in_scene": 1186,
+          "explicit_names": [
+            "Rohan"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "A02-L010",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Rohan:</strong> Achha, aaj itni subah bedroom band kyun hai?</p>",
+          "text_for_lookup": "Rohan: Achha, aaj itni subah bedroom band kyun hai?",
+          "source_start_in_scene": 1256,
+          "explicit_names": [
+            "Rohan"
+          ],
+          "speaker_label_exact": "Rohan"
+        },
+        {
+          "id": "A02-L011",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Shivani:</strong> Kyunki andar ek important preparation chal rahi hai.</p>",
+          "text_for_lookup": "Shivani: Kyunki andar ek important preparation chal rahi hai.",
+          "source_start_in_scene": 1353,
+          "explicit_names": [
+            "Shivani"
+          ],
+          "speaker_label_exact": "Shivani"
+        },
+        {
+          "id": "A02-L012",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Rohan:</strong> College ki?</p>",
+          "text_for_lookup": "Rohan: College ki?",
+          "source_start_in_scene": 1460,
+          "explicit_names": [
+            "Rohan"
+          ],
+          "speaker_label_exact": "Rohan"
+        },
+        {
+          "id": "A02-L013",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Shivani:</strong> <mark><strong>Nahi. Aaj ki preparation sirf tumhare liye hai.</strong></mark></p>",
+          "text_for_lookup": "Shivani: Nahi. Aaj ki preparation sirf tumhare liye hai.",
+          "source_start_in_scene": 1524,
+          "explicit_names": [
+            "Shivani"
+          ],
+          "speaker_label_exact": "Shivani"
+        },
+        {
+          "id": "A02-L014",
+          "html_exact": "<p class=\"a02-narration\">Rohan darwaze ke paas ruk gaya.</p>",
+          "text_for_lookup": "Rohan darwaze ke paas ruk gaya.",
+          "source_start_in_scene": 1656,
+          "explicit_names": [
+            "Rohan"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "A02-L015",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Rohan:</strong> Oh! Toh mujhe invitation milega ya appointment book karni padegi?</p>",
+          "text_for_lookup": "Rohan: Oh! Toh mujhe invitation milega ya appointment book karni padegi?",
+          "source_start_in_scene": 1717,
+          "explicit_names": [
+            "Rohan"
+          ],
+          "speaker_label_exact": "Rohan"
+        },
+        {
+          "id": "A02-L016",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Shivani:</strong> Appointment nahi. Bas thoda patience.</p>",
+          "text_for_lookup": "Shivani: Appointment nahi. Bas thoda patience.",
+          "source_start_in_scene": 1835,
+          "explicit_names": [
+            "Shivani"
+          ],
+          "speaker_label_exact": "Shivani"
+        },
+        {
+          "id": "A02-L017",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Rohan:</strong> <mark><strong>Patience toh hai, lekin tum jab aise suspense banati ho na, expectations badh jaati hain.</strong></mark></p>",
+          "text_for_lookup": "Rohan: Patience toh hai, lekin tum jab aise suspense banati ho na, expectations badh jaati hain.",
+          "source_start_in_scene": 1927,
+          "explicit_names": [
+            "Rohan"
+          ],
+          "speaker_label_exact": "Rohan"
+        },
+        {
+          "id": "A02-L018",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Shivani:</strong> Phir expectations sambhal kar rakhna. Surprise kharab mat karna.</p>",
+          "text_for_lookup": "Shivani: Phir expectations sambhal kar rakhna. Surprise kharab mat karna.",
+          "source_start_in_scene": 2099,
+          "explicit_names": [
+            "Shivani"
+          ],
+          "speaker_label_exact": "Shivani"
+        },
+        {
+          "id": "A02-L019",
+          "html_exact": "<p class=\"a02-narration\">Darwaze ki halki opening se Rohan ko burgundy fabric ki ek jhalak mili.</p>",
+          "text_for_lookup": "Darwaze ki halki opening se Rohan ko burgundy fabric ki ek jhalak mili.",
+          "source_start_in_scene": 2218,
+          "explicit_names": [
+            "Rohan"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "A02-L020",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Rohan:</strong> Ek minute... nayi saree?</p>",
+          "text_for_lookup": "Rohan: Ek minute... nayi saree?",
+          "source_start_in_scene": 2319,
+          "explicit_names": [
+            "Rohan"
+          ],
+          "speaker_label_exact": "Rohan"
+        },
+        {
+          "id": "A02-L021",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Shivani:</strong> Tumne dekha kya?</p>",
+          "text_for_lookup": "Shivani: Tumne dekha kya?",
+          "source_start_in_scene": 2396,
+          "explicit_names": [
+            "Shivani"
+          ],
+          "speaker_label_exact": "Shivani"
+        },
+        {
+          "id": "A02-L022",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Rohan:</strong> Bas colour. Waise burgundy tum par hamesha achha lagta hai.</p>",
+          "text_for_lookup": "Rohan: Bas colour. Waise burgundy tum par hamesha achha lagta hai.",
+          "source_start_in_scene": 2467,
+          "explicit_names": [
+            "Rohan"
+          ],
+          "speaker_label_exact": "Rohan"
+        },
+        {
+          "id": "A02-L023",
+          "html_exact": "<p class=\"a02-narration\">Shivani mirror mein apni reflection dekhkar muskurayi.</p>",
+          "text_for_lookup": "Shivani mirror mein apni reflection dekhkar muskurayi.",
+          "source_start_in_scene": 2579,
+          "explicit_names": [
+            "Shivani"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "A02-L024",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Shivani:</strong> <mark><strong>Sirf colour ki tareef? Poora surprise dekhoge toh kya kahoge?</strong></mark></p>",
+          "text_for_lookup": "Shivani: Sirf colour ki tareef? Poora surprise dekhoge toh kya kahoge?",
+          "source_start_in_scene": 2663,
+          "explicit_names": [
+            "Shivani"
+          ],
+          "speaker_label_exact": "Shivani"
+        },
+        {
+          "id": "A02-L025",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Rohan:</strong> Woh toh dekhne ke baad hi decide karunga.</p>",
+          "text_for_lookup": "Rohan: Woh toh dekhne ke baad hi decide karunga.",
+          "source_start_in_scene": 2809,
+          "explicit_names": [
+            "Rohan"
+          ],
+          "speaker_label_exact": "Rohan"
+        },
+        {
+          "id": "A02-L026",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Shivani:</strong> Toh bahar jao. Aur aankhein band rakhna.</p>",
+          "text_for_lookup": "Shivani: Toh bahar jao. Aur aankhein band rakhna.",
+          "source_start_in_scene": 2903,
+          "explicit_names": [
+            "Shivani"
+          ],
+          "speaker_label_exact": "Shivani"
+        },
+        {
+          "id": "A02-L027",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Rohan:</strong> Main apne hi ghar mein guest ban gaya?</p>",
+          "text_for_lookup": "Rohan: Main apne hi ghar mein guest ban gaya?",
+          "source_start_in_scene": 2998,
+          "explicit_names": [
+            "Rohan"
+          ],
+          "speaker_label_exact": "Rohan"
+        },
+        {
+          "id": "A02-L028",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Shivani:</strong> Special guest. Ab jao.</p>",
+          "text_for_lookup": "Shivani: Special guest. Ab jao.",
+          "source_start_in_scene": 3089,
+          "explicit_names": [
+            "Shivani"
+          ],
+          "speaker_label_exact": "Shivani"
+        },
+        {
+          "id": "A02-L029",
+          "html_exact": "<p class=\"a02-narration\">Rohan hansa aur living room mein chala gaya.</p>",
+          "text_for_lookup": "Rohan hansa aur living room mein chala gaya.",
+          "source_start_in_scene": 3166,
+          "explicit_names": [
+            "Rohan"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "A02-L030",
+          "html_exact": "<p class=\"a02-narration\">Narration — 07:03 AM</p>",
+          "text_for_lookup": "Narration — 07:03 AM",
+          "source_start_in_scene": 3240,
+          "explicit_names": [],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "A02-L031",
+          "html_exact": "<p class=\"a02-narration\">Shivani ne blouse ki sleeve theek ki, pallu shoulder par set kiya aur earrings uthaye.</p>",
+          "text_for_lookup": "Shivani ne blouse ki sleeve theek ki, pallu shoulder par set kiya aur earrings uthaye.",
+          "source_start_in_scene": 3290,
+          "explicit_names": [
+            "Shivani"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "A02-L032",
+          "html_exact": "<p class=\"a02-narration\">Living room mein achanak Rohan ka phone baja.</p>",
+          "text_for_lookup": "Living room mein achanak Rohan ka phone baja.",
+          "source_start_in_scene": 3406,
+          "explicit_names": [
+            "Rohan"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "A02-L033",
+          "html_exact": "<p class=\"a02-narration\">Uski awaaz badal gayi.</p>",
+          "text_for_lookup": "Uski awaaz badal gayi.",
+          "source_start_in_scene": 3481,
+          "explicit_names": [],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "A02-L034",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Rohan:</strong> Hello... haan, boliye.</p>",
+          "text_for_lookup": "Rohan: Hello... haan, boliye.",
+          "source_start_in_scene": 3533,
+          "explicit_names": [
+            "Rohan"
+          ],
+          "speaker_label_exact": "Rohan"
+        },
+        {
+          "id": "A02-L035",
+          "html_exact": "<p class=\"a02-narration\">Kuch pal woh chupchaap sunta raha.</p>",
+          "text_for_lookup": "Kuch pal woh chupchaap sunta raha.",
+          "source_start_in_scene": 3608,
+          "explicit_names": [],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "A02-L036",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Rohan:</strong> Okay. Samajh gaya. Main nikal raha hoon.</p>",
+          "text_for_lookup": "Rohan: Okay. Samajh gaya. Main nikal raha hoon.",
+          "source_start_in_scene": 3672,
+          "explicit_names": [
+            "Rohan"
+          ],
+          "speaker_label_exact": "Rohan"
+        },
+        {
+          "id": "A02-L037",
+          "html_exact": "<p class=\"a02-narration\">Shivani ne dressing rok di.</p>",
+          "text_for_lookup": "Shivani ne dressing rok di.",
+          "source_start_in_scene": 3765,
+          "explicit_names": [
+            "Shivani"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "A02-L038",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Shivani:</strong> Rohan? Kya hua?</p>",
+          "text_for_lookup": "Shivani: Rohan? Kya hua?",
+          "source_start_in_scene": 3822,
+          "explicit_names": [
+            "Rohan",
+            "Shivani"
+          ],
+          "speaker_label_exact": "Shivani"
+        },
+        {
+          "id": "A02-L039",
+          "html_exact": "<p class=\"a02-narration\">Rohan bedroom ke bahar aaya.</p>",
+          "text_for_lookup": "Rohan bedroom ke bahar aaya.",
+          "source_start_in_scene": 3892,
+          "explicit_names": [
+            "Rohan"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "A02-L040",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Rohan:</strong> Sorry, Shivani. Urgent work call hai. Mujhe abhi jaana padega.</p>",
+          "text_for_lookup": "Rohan: Sorry, Shivani. Urgent work call hai. Mujhe abhi jaana padega.",
+          "source_start_in_scene": 3950,
+          "explicit_names": [
+            "Rohan",
+            "Shivani"
+          ],
+          "speaker_label_exact": "Rohan"
+        },
+        {
+          "id": "A02-L041",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Shivani:</strong> Abhi? New Year ki subah?</p>",
+          "text_for_lookup": "Shivani: Abhi? New Year ki subah?",
+          "source_start_in_scene": 4065,
+          "explicit_names": [
+            "Shivani"
+          ],
+          "speaker_label_exact": "Shivani"
+        },
+        {
+          "id": "A02-L042",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Rohan:</strong> I know. Mujhe bhi achha nahi lag raha.</p>",
+          "text_for_lookup": "Rohan: I know. Mujhe bhi achha nahi lag raha.",
+          "source_start_in_scene": 4144,
+          "explicit_names": [
+            "Rohan"
+          ],
+          "speaker_label_exact": "Rohan"
+        },
+        {
+          "id": "A02-L043",
+          "html_exact": "<p class=\"a02-narration\">Shivani ne haath mein pakda earring dressing table par rakh diya.</p>",
+          "text_for_lookup": "Shivani ne haath mein pakda earring dressing table par rakh diya.",
+          "source_start_in_scene": 4235,
+          "explicit_names": [
+            "Diya Sen",
+            "Shivani"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "A02-L044",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Shivani:</strong> Main tumhare liye kuch special plan kar rahi thi.</p>",
+          "text_for_lookup": "Shivani: Main tumhare liye kuch special plan kar rahi thi.",
+          "source_start_in_scene": 4330,
+          "explicit_names": [
+            "Shivani"
+          ],
+          "speaker_label_exact": "Shivani"
+        },
+        {
+          "id": "A02-L045",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Rohan:</strong> Mujhe pata hai. Aur main sach mein dekhna chahta tha.</p>",
+          "text_for_lookup": "Rohan: Mujhe pata hai. Aur main sach mein dekhna chahta tha.",
+          "source_start_in_scene": 4434,
+          "explicit_names": [
+            "Rohan"
+          ],
+          "speaker_label_exact": "Rohan"
+        },
+        {
+          "id": "A02-L046",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Shivani:</strong> <mark><strong>Dekhna chahte the, lekin dekha toh nahi.</strong></mark></p>",
+          "text_for_lookup": "Shivani: Dekhna chahte the, lekin dekha toh nahi.",
+          "source_start_in_scene": 4540,
+          "explicit_names": [
+            "Shivani"
+          ],
+          "speaker_label_exact": "Shivani"
+        },
+        {
+          "id": "A02-L047",
+          "html_exact": "<p class=\"a02-narration\">Rohan kuch seconds chup raha.</p>",
+          "text_for_lookup": "Rohan kuch seconds chup raha.",
+          "source_start_in_scene": 4665,
+          "explicit_names": [
+            "Rohan"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "A02-L048",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Rohan:</strong> Toh promise raha. Surprise pending hai, cancelled nahi.</p>",
+          "text_for_lookup": "Rohan: Toh promise raha. Surprise pending hai, cancelled nahi.",
+          "source_start_in_scene": 4724,
+          "explicit_names": [
+            "Rohan"
+          ],
+          "speaker_label_exact": "Rohan"
+        },
+        {
+          "id": "A02-L049",
+          "html_exact": "<p class=\"a02-narration\">Shivani ki halki muskurahat laut aayi.</p>",
+          "text_for_lookup": "Shivani ki halki muskurahat laut aayi.",
+          "source_start_in_scene": 4832,
+          "explicit_names": [
+            "Shivani"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "A02-L050",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Shivani:</strong> <mark><strong>Theek hai. Lekin agali baar tumhari timing meri hogi.</strong></mark></p>",
+          "text_for_lookup": "Shivani: Theek hai. Lekin agali baar tumhari timing meri hogi.",
+          "source_start_in_scene": 4900,
+          "explicit_names": [
+            "Shivani"
+          ],
+          "speaker_label_exact": "Shivani"
+        },
+        {
+          "id": "A02-L051",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Rohan:</strong> Deal.</p>",
+          "text_for_lookup": "Rohan: Deal.",
+          "source_start_in_scene": 5038,
+          "explicit_names": [
+            "Rohan"
+          ],
+          "speaker_label_exact": "Rohan"
+        },
+        {
+          "id": "A02-L052",
+          "html_exact": "<p class=\"a02-narration\">Narration — 07:10 AM</p>",
+          "text_for_lookup": "Narration — 07:10 AM",
+          "source_start_in_scene": 5096,
+          "explicit_names": [],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "A02-L053",
+          "html_exact": "<p class=\"a02-narration\">Rohan apni zaroori cheezein lekar nikal gaya.</p>",
+          "text_for_lookup": "Rohan apni zaroori cheezein lekar nikal gaya.",
+          "source_start_in_scene": 5146,
+          "explicit_names": [
+            "Rohan"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "A02-L054",
+          "html_exact": "<p class=\"a02-narration\">Darwaza band hua toh Shivani kuch pal wahin khadi rahi.</p>",
+          "text_for_lookup": "Darwaza band hua toh Shivani kuch pal wahin khadi rahi.",
+          "source_start_in_scene": 5221,
+          "explicit_names": [
+            "Shivani"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "A02-L055",
+          "html_exact": "<p class=\"a02-narration\">Phir mirror ke paas lautkar usne burgundy pallu dobara uthaya.</p>",
+          "text_for_lookup": "Phir mirror ke paas lautkar usne burgundy pallu dobara uthaya.",
+          "source_start_in_scene": 5306,
+          "explicit_names": [],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "A02-L056",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Shivani (dheere se):</strong> Pending hai... cancelled nahi.</p>",
+          "text_for_lookup": "Shivani (dheere se): Pending hai... cancelled nahi.",
+          "source_start_in_scene": 5398,
+          "explicit_names": [
+            "Shivani"
+          ],
+          "speaker_label_exact": "Shivani (dheere se)"
+        },
+        {
+          "id": "A02-L057",
+          "html_exact": "<p class=\"a02-narration\">Usne apni adhoori taiyaari ko dekha. Surprise ka waqt badal gaya tha, uska mann nahi.</p>",
+          "text_for_lookup": "Usne apni adhoori taiyaari ko dekha. Surprise ka waqt badal gaya tha, uska mann nahi.",
+          "source_start_in_scene": 5495,
+          "explicit_names": [],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "A02-L058",
+          "html_exact": "<p class=\"a02-narration\"><strong>SCENE COMPLETE — Approved.</strong></p>",
+          "text_for_lookup": "SCENE COMPLETE — Approved.",
+          "source_start_in_scene": 5610,
+          "explicit_names": [],
+          "speaker_label_exact": null
+        }
+      ],
+      "integrity": {
+        "source_char_length": 5699,
+        "html_lines_lossless": true,
+        "prose_line_count": 58
+      }
+    },
+    {
+      "scene_id": "A03",
+      "source_anchor": "shivani-a03-photo-story",
+      "source_position": {
+        "start": 193260,
+        "end": 206277
+      },
+      "ui_badge_text_exact": "APPROVED",
+      "approved_by_ui_or_plan": true,
+      "source_html_lines_exact": [
+        "<article class=\"a02-scene\" id=\"shivani-a03-photo-story\"><div class=\"a02-scene-head\"><div><div class=\"stamp\">SHIVANI · A03 · 07:12–07:45 AM</div><h3>The Unsent Photograph</h3></div><span class=\"chip approved\">APPROVED</span></div><div class=\"a02-prose\">",
+        "<p class=\"a02-narration\"><strong>Narration — 07:12 AM</strong></p>",
+        "<p class=\"a02-narration\">Rohan ke jaane ke baad bedroom mein ek ajeeb si khamoshi thi.</p>",
+        "<p class=\"a02-narration\">Shivani dressing table ke saamne khadi thi. Burgundy saree ka pallu abhi uske shoulder par loosely rakha tha. Ek earring pehen chuki thi, doosra dressing table par pada tha.</p>",
+        "<p class=\"a02-narration\">Usne mirror mein khud ko dekha.</p>",
+        "<p class=\"a02-dialogue\"><strong>Shivani (dheere se):</strong> Happy New Year, Mrs. Bad Timing.</p>",
+        "<p class=\"a02-narration\">Woh khud hi halki si hans padi.</p>",
+        "<p class=\"a02-narration\">Rohan ki baat yaad aayi.</p>",
+        "<p class=\"a02-narration\"><mark><strong>Surprise pending hai, cancelled nahi.</strong></mark></p>",
+        "<p class=\"a02-narration\">Shivani ne doosra earring uthaya.</p>",
+        "<p class=\"a02-dialogue\"><strong>Shivani:</strong> Achha, Mr. Rohan. Dekhte hain.</p>",
+        "<p class=\"a02-narration\">Usne taiyaari poori karne ka faisla kiya.</p>",
+        "<p class=\"a02-narration\"><strong>Narration — The Burgundy Look</strong></p>",
+        "<p class=\"a02-narration\">Burgundy saree ka fabric soft light mein wine-red aur deep maroon ke beech shade badal raha tha. Uski narrow woven border pallu ke kinare par subtle shine de rahi thi.</p>",
+        "<p class=\"a02-narration\">Matching blouse neatly tailored tha. Uski sleeves shoulders par smoothly baithi thi, neckline simple aur elegant thi, aur fitted waist se saree ka silhouette naturally defined ho raha tha.</p>",
+        "<p class=\"a02-narration\">Shivani ne pleats ko ek-ek karke straighten kiya. Pallu ko shoulder par arrange karke pin lagayi, phir mirror mein side se dekha ki drape symmetrical hai ya nahi.</p>",
+        "<p class=\"a02-narration\">Uske dark hair khule hue the. Usne unhe brush karke ek taraf settle kiya, jisse earrings clearly dikh rahi thi.</p>",
+        "<p class=\"a02-narration\">Makeup minimal tha: softly defined eyes, warm lipstick aur ek chhoti bindi.</p>",
+        "<p class=\"a02-dialogue\"><strong>Shivani (mirror se):</strong> <mark><strong>Ab bolna, sirf colour achha hai.</strong></mark></p>",
+        "<p class=\"a02-narration\">Yeh sochkar uske chehre par muskurahat aa gayi.</p>",
+        "<p class=\"a02-narration\">Woh Rohan ko surprise dena chahti thi. Sirf nayi saree dikhane ke liye nahi, balki New Year ki subah ka ek personal moment banane ke liye.</p>",
+        "<p class=\"a02-narration\">Lekin moment adhura reh gaya tha.</p>",
+        "<p class=\"a02-narration\"><strong>Narration — 07:22 AM</strong></p>",
+        "<p class=\"a02-narration\">Shivani ne dressing table se apna personal phone uthaya.</p>",
+        "<p class=\"a02-narration\">Camera open kiya.</p>",
+        "<p class=\"a02-narration\">Mirror ke saamne khade hokar usne pehle framing check ki. Background mein neatly made bed, curtain se aati soft winter light aur dressing table ka ek corner dikh raha tha.</p>",
+        "<p class=\"a02-narration\">Usne phone vertical rakha, thoda sa angle change kiya taaki saree ki pleats aur pallu dono frame mein aa sakein.</p>",
+        "<p class=\"a02-narration\">Ek haath mein phone tha. Doosre se usne pallu ki border halka sa straighten ki.</p>",
+        "<p class=\"a02-narration\">Uske shoulders relaxed the. Chin slightly raised, expression confident aur naturally warm.</p>",
+        "<p class=\"a02-narration\"><strong>Click.</strong></p>",
+        "<p class=\"a02-narration\">Ek photograph.</p>",
+        "<p class=\"a02-narration\"><strong>Selected A03 mirror-selfie visualization</strong></p>",
+        "<figure style=\"max-width:440px;margin:16px auto 18px\"><img src=\"data:image/webp;base64,UklGRoYUAABXRUJQVlA4IHoUAACQlgCdASoAAVUBPzGIuFUuqT+xq5RNi/AmCWNuBaFP9s+XPzx22g5jvGc9t8EOCBPST6qYziBuPQU7Z83QDe971JmX9XbVb/bKC86nVv8Iz/veqIv77/k184EI0H4Y5jCtk3/lWOoY4LdBhjk3M2SZqpNcy6HONhaO6jAtvG4A/1oLRFgsrIgq3q2Fn+YD8nTGHyja4rv9Wzk/h7qxQ/tMjLmWJxqS3W+SmrBWYWQ/qEiL7WHIYYu/SESTSwWKeQtG8OzL7APOevZz/Q98FPzdba4vqIfUFaw9gNStRvEIhIbn2pbvuLsPkfXNjt+Q00hew9Fe/OS/+rjAj1xYnE5YVR+HfDChj6DB6WZPgYryfWpPMLc00ujcf0soNxX1hCtdsmrYQ12xU+2r8Nz0wEZ0jPMRS+T8PWWnjyzz0Mojoo+ASB/usiDHL/U8Z7boC1NYZQeSDInCdPEeSbGwBU/93ljYfyAI80+NJ+uDgs+eAWwuF2uGAUCFY93GVmlr7LvXcbKpmk7jmtv++q4sHkBDrRcqpMGA1ZPYHqDAJu9NcZhajB9kDCPw1Wu+Tv9ZE3+ALo6Nwj8iMIJ2p5VKEAwkhgsMthWtpGKVHMlxWJcrR92S0Kmb96RIdJEErLpKKK7v5/Lh7MefJX4zfcek2i47QKb4k9SJN+UBDM+/OSKy1Dbv4cCSrDVPapRX+dQMlYeXhCRtLjondnBjrN4twPp+hBRDPik9N4ka0NJCwmVu8vHnNdFmJVRudjXkaqpeVe/qkTBOz6J1Q3Grl28bjp0qJEmF028GCh+6YOh/nhJsNa2+Z1HOqQzykX1WIPQOXZ+4ePhM02i5293fd5U3MKVuE1ItG4qQR3JJZUhdaX5jkywcZGvxFxc2/2uWLuKKd2f4nKxTKjN22gVeovRMypHo91E+2q17/nAsCgwpORmT8SCaoc6svjbCffyopWWkAkCI6fCOZYBNtQG9RiSKPz85bv4KPnLiTkRRvvSsuoPrjc7LG1RC/BLPwJt0qIZKMQkdFz1pUHao9aNyoiuIf9rtnzPYrQsXp+bAw6KS2sFl1bj/KnGUYhPHMBglULqSOsHYsR+5Zh0IzHqu+3ktrgYJgNbHxR429/gOTYjNJzAvCqeay1zP4ty327JZ6suyvfgWpEel5Pm9dzn+qITzp67s1LPJICDungJpL786TJm+s7o/SZxGysxK7a6aDTTlNfQ3O4wGPrCimBDxuINWKBf1XxdkbTdreN0BVL9aFasD6gBNsg/OMsd3ieFW+bwGRuXSauTp1cCHaNqapDXjDmoFMZQPz3z4GqZT8be8I2/6wAMO3DduxWqFc/5dVbMh7BW4lzVGLh1OOc8ze0LEaRBvIAGzVh3LuCThIO9kUWnFuCnGqMYiTgwV9DaZxgH0xUbZyXzeEcgypo39OQzfR1itFmLcjzBfIuRHdteVqSQp7m2mMBINcoHxFDerx7qdseE6T7Ip4aHwwEeyiCnlPS/05EpO4SMmWFH6Ou5Pm8MY73kyZuvu4fhJYJGPC6uto+d00PzmU3MbpnNsbK2+OVl2jHMbuELfpw8DYkPJPZp2S+qcUI43kvj9QrhgMmY3w1Oh6rsA9tXAhBXIvs1sAPwxPbMC1R4vTyLnhsfdiSdm3I8t7zMQkFHlPQxaCVMFQ4u+0iqH0pb52BW8XKYZStIM0QHsHKH2sk63Sd2Oh+X1Ttz2HNBoddFyRr2gyskA7CDDfXkR3H72Q9KTk1l7oM6O6c2yb5JyPfEaB3YvRhhpyxmtDBh6F6OF5Z6GIpf71KisLMLTZZuz/i1hGFltksOBUWP43cezHDfdOT635ydzgwsbUhDDSg79Ks53/j52Klc0QuFZhX/5Cd0TMc0MtFoGNd7fdxquqYlUvIXwXYwhm7SXQ1nHTAtK1J17DW/n+BafUVBanDfWLv+Vix7uGHbvhAftTOMv83Ywl/cuvzxoE1X9k91WUDBWDfJKB9klydk7JZQO86kPfF1zJHjyNkObUamqed4CGDZWw+rbo6I8NkE994YVv5nIuWd21eJpbdQ4l5kUBwxsQs5ZQHgV/a77KXKSzV188D6cfA15jZAIxEUIBBe9DTzxfN0YMZcb8srOIUz8/hVyCIBbhYmbhwFF0um3e17uJCa97oAzUI1bX5LYfsF37TEkSU+TeVTsMrufn21N7/hzm+JJYtmx/OdQyQyEt1PIMbsy6xUhJSRr3bgpddiYR8os013epnsL4z5cs8ULFlJJj9wTp18bo8tNMP16vZbFMmPnrUVHjPCwjmHlZFhwk+ajrPjEAr0C8QHrYaZxZNZ6ivlc9gZrw4XmWH3WzeGng8b8iyrNcmmPlJTUdmRrIfs4azv2GQ9ZTKPCXANMGkljatZgqKhmWpkq6OTgTiJgEFVhvpN2mJxsaq8nEZ0iOuwZUNnJq6lZAYKNJFQtjAn4fVMoN6yFoQcH/K+9srpI6QJqR8Wh3MpY1BRtx7pnS2q6gGFUGxhjrwTEsboqR1UaiqRkLS+umFEAiicbU2bmukVII5WSKbRjibxFjTGf+8llTLh7I/I41q4PU8HyvlOXJ4nThKzZhyy6HXbwrcKE9kVWaA3KUc67YTf0lRpl3mWxTPNwowJnW5RvT3SR2SirjdBck0/K7MqHkRxoagk9QZNj4bg0jNNqcWW3qsrT7z0ceoscbm6/k2PvX25S/ovRF4rjFXzww9k5yIZKeI3eXKFdq4s+vCQvH3D0z7vEdkYiipgvFDBcnhdIMR0To5wP1MR7rObDXs4aks0Gdlvuaa7n94mNFLWPqYxiuRPSI8+Jq7UbIbSxrUEMzRae5yZ9fts/AiL4yaXNLXtPZSZ0KS0ZHPeGKA9fNhCFM/6xvXV/iD5cZsl3L0NWsbrOuapFsfogbEwuliBB15WReB/I+mhsYEdkddhCdtMsbA0ceJNgdg7smm0mWnTHm/xHF1aqaNuc89n8T7KBaukqibzBkMnRa6IhcF3afewql1Fv7yaGqvKekHWZPijGkMrIHq0gcpkRfBi0PHfgigHf2AG/DRjU/KLoEoAWv6YvxUcQ+pFBAzeNJ1bwSMO//2MDhmH3Xu0IfSz8GKWmo12hP6KvK+43k23h6Qgq+lOYGMomAWPGe4iuHpcJ63h+tQVWt2+J/5TUSvQS+4LRtF8l20LjYqe/kJiU46e77A/3fUH1ugnblufz2+fm4O5khQ2wBOaiAhL9BWEWqnqBOOOXfAVQZOM+yNi6UjDmvEenj5E9/BjOTWLfU4qjZVRuyHTl+K5T/AVxG+3txwwchTJhwnUF8LX3DFAVAt+0gIG46PZz627sSojI+atLbYktLP5SoWp3e1571EkeSHoeIimsALHUhHuBw+Py5tdMLS6l1SCdSnRmcRfV0ylT1YAs/iDY6vZ2g4d5Ufxw+twbWPDxoHUrk38fpcmTeWbs+a40C3bBunARjyfnAgaJ+oixysDA2W1+NxsZYwtgZDetxp1o+D8bkKrfTnthP0ZxYBVbgRM2nEqGcLVIus0XRCf9nEUWQnw147sQHLa/i47OGcu5le3cyCVmhM+2SVFDG/UG1Dl5YlgPbrDt+2TCJ5HDRxJo+YwCF6A5EsAurES838Mk0idQRkVV6Hsk7Mf1ieu3XqjOqSgsKbe512DK2yKXEy7AMkwnBRZ7vzXm87NEgPhjqJrnELTCHDv2J4ZpHlTvDBwmoeWd9q8yiiaK/xtJC9wiA966Q8qk3T/Ox64va2X46+i/obzQpQowEhzrWL675Akk0Ved9lAtofi4NLYSSIl2PFm8pkznhka0l1iO5mHC05mmA+pbvJSvyfS/NFZNXfR+OAwnU35y6aMk7v+RsMuWt91VjtG+HgwzJaGrD/kJPEqljuOOBS7uIp0u3H4wGr49ul36l9oXFGhQfVzs9TiSLR8P6iesxQNcTnRWpN3NBWcy2J8MTxNAmnZNKPCSqGCuz+iB1cJBhh/b7G/c+js9SY9qh+tBzqfTjxG+WyBTYlCmG5S/hpMa4OvCA7L5GsOZ3ikSbPbTyRdnDIJ5oaNwVPuDlrc11gUMAyYLyyu5zz0oAl+EmVK4itW/2pcXbltwVKBawGVD+W9aGqQ3K37ZYdNtUTE/YJmxDRoSpilg99TB5Z4bUaW7WWGrLmvzP+JEcDcCwVPaR32WJ3+fh5TBFYtxJc4EZ6YGbkRtfzbXCqC47d0IRvSWWRjwef/BxCiNoxrv/8XVqzjiFj9igdXg37VJ/DFKjA/HftUDeI6jPPhmS39qC8K2ki8wChdPl8yNJIQ4L6yURhJJ3CjgfD8K2SrPIhbYVQt3n4f5KdSSPI09bIF4ZUv/AOLOINsz3n7pcDU2p88N6GAOsJFuYPqk/VSkS5yYGZAoPj7XYd1IDqtDg32NX+y5Zve+aZMoKPIsEZt/zkEsT5YpRhBK3+5KRhSINx1w/UyD0INXLehC43W5TqghVe7qT65Q02RE4tCvKAykhgYadHsOyrY3iXZDsYpaZRd5SOAQIBZ00mxIlyJMYh1JyrUQmGqO+oHXkh2eOCoctTQzuMOQrAvFxKQ/na39qEGQLjJILXHDgaH21qslf0LU/LCD41tdhTzExNdgEXsNAl2EIix1WuUOwXlXWGWPwXOD9RMEJp2pKe9Y8J+w3OrkccxN45qjcUUCCKHjfgqWY1DSRifDMmp8B0Taj3ButplBFf3r/JQ3ml++xTWYuBFtRjwRhd5fOPc0lJqXjFYlBv0wvYZLXdy70UlgryMPPN0hnsuuNg185Mm8RTkMd7fBsXp/u2kuyMkforqqcFUFDGQUaA43OZWQySpCi7zPXRz/vqAf/Xx6yUHhXtHejJO3aNIvCv/wnsP9CCZeqA+baXiVGDAUYmRYLE8tpko0DhYx6Hqe/GaH8Ao/r36OGPFVviNvecayYaXTNHcYmoXAvir/JlYzsHrtCScdWVaaNIQM3tumy7Y9J+G4+ADoF2u/TTRAYb9ufKOWUmUFApEsIp+Yo1NFt8g2JcQBclMuyOKNTDHCn3aq7nOldmolR+2e5b94B6h0hGegm7M1yM6xOS7R2C/nk1eLg/P8OAJSoiBmPMwQj4THpex7ir+X6KaVYA0PQqMw0O/P7Djs+YtcsVHHK+ZHq0wfCJv0fhNYKJqAulaReqh14P4d/cLLGCHOsUdMSVqGFkDycLR/IUcRIbWElMy3OgFeyvqvVROvUyehuBj17Y7LGJ95biiMHcosJc9pjRqzy82VhRzX2Vo1k2OtSs3k2adVAelNSelv3+r7oAkEhWWnWKtBeUJNqg+RkILKhFPRcMSkU2SjGHoSHUBLmPz8JCsascM7g3o4a6vfC2bhuJsE0KSLBDIIp+wLDnbviYApSnU696LafH9rRvqKW1eGut2Nez/7CtEh8uJSaCNAatoJoPgBSShpDjIXtrBipbQhuD3YlmVlMdlIKVbK4MxYAoyWgDJWlepOmE9R0+Hc6Dr6AUeJXLSHBSvCfQFwYzsclaAtv4Crthowhrc1ef4FI9dchm0xSooJ0U0atx2VcaFLL6sAUEoBQXPUMWQDSZR066+WEmN7dKg0g8tyJlLlBzRQR7LhFOWAZBdi3SOVeaH12g813wSiOTPIb+MMMx/+ebBotgUU0t+5db646TRPBOYEJPsK22xMOWDuR8cVI1C4q3V7B6l/hHIKlBA8GMFRbS7WSQy0Vlm727swWXsaAFQyGrx8eW6FcKYfvwc/XRMg2k0/bgkWW8mvJ7EjVJvB24WkH86gsjEmHDvhBx7YxlUYVzrJxCMz1r5ckP2/uW3GgC0MSVbz9C2n1On7pSRDbhGb1+kmtCCb1jeDIricovRm4YMToLPKyXTqYcOgTWFGBmof7Bog2a3x/jg/lGnPlMwQ7MZ2Z2dpmyqPlLslgh6CSLVvJRQtka1TFFpkKKeQXCOVdp0FfJYmj4PMg1PG2haMhxbSRHy1eNPPaLn2T2uaBSpmd6ZrmWqygk9ooziby8uEbmD8QOi8BbW5A26fNAn+F5/oq/gVUy9jRiL3PzetZI/vJBoGBWwr2qRAv0InvLY0mJFRHjzZ2WB9o+0KWewTFfr/pRwR+NhEv0BDs9lEAaAazFte9S6PPlb8KLRNq827m0TN9XRQTlm1FPUkZzDreg+Ac4va2V/uEFAzmUWLN4bJBwH04YRYctDjt9YqoYH3f3ODX7ZzrvAlZ6HZAeuD+3uDZZXw5E8jjPxTy3ElwyN8TXSQzctznlA+i3bpkPo2FUcyETv9nRW08/XQu3VYmqwKMGQfhwImxnboI4TgEAPg14KWUx07P6patvDtKTP3yXK6oqQg3jzaUmMZNjG/UoIjBRYmQVjCcat5mSJvTMX8QYS2VzK1GRhiSejmK5wTwbLorMREklMn1ZWThu645M2xQKHUbbahpe1FGa1pucmMaZFMvFA0ycZj14bBXKsxdD37gUedNhAjCEBhk1d4q72JjMJcUmI8guXov1mM9WZ9dYf9lvBO3jD9BYLcqX9pnQdWk+J+a2Bq18d7TqooCEGRDzdESjw1WixNhpHN8n2Tgf1Wtu4s6ygOcwsfyJd3UKFxEFvvuiVv5EFBMLQrI0qCmGyhdJYlxUg2eC242iOC25+lOSkmn/89sSH/EVuXeK+9CcdsFwYl7Lr52qIZotT53r4PvPbP5biti1aXSRXh3OYyPT7kCayDkU+AWJm0Q9G5FekBWWBmA5ifxGN+E0oIKlgZDnNykiAmkXcJW9mZGhz/R5Dat2wBRy1w6lk16QinWODgCeuBOJj11ycl4VufuJoMMUxZyK6Sh5/cJOKUiEEIw9ro2SqRhjlKrOcz5M270b0jO+jdHxStPKuIM2k6aQFCQbzotg9ayGNwWu647ydkbSpqHHKCaLh1aDCjRPiEJ0SavGxzrxDg2HASor9Z2v3ccXu657S/DyggpTpHIfzkB4382HUUsPhRQyk9VcVbS0mKPFh8Gy+WskuyQILSdpcBI3LqBzuYAvxHfjKeQ/9WzAAA\" alt=\"Shivani taking a burgundy saree mirror selfie in her bedroom, visual reference chosen for A03\" width=\"256\" height=\"341\" style=\"display:block;width:100%;height:auto;max-width:440px;border-radius:12px\" loading=\"lazy\"/><figcaption>Selected AI mirror-selfie visualization for Shivani A03. Editorial asset only — the photo is not sent or uploaded within the story.</figcaption></figure>",
+        "<p class=\"a02-narration\">Shivani ne gallery mein picture open ki.</p>",
+        "<p class=\"a02-narration\">Usmein burgundy saree ki rich colour, neatly styled hair aur uski soft smile clearly captured thi. Pose elegant tha, jaise kisi special occasion ke liye privately ready hui ho.</p>",
+        "<p class=\"a02-dialogue\"><strong>Shivani:</strong> Not bad, Mrs. Lecturer.</p>",
+        "<p class=\"a02-narration\">Usne photograph dobara dekhi.</p>",
+        "<p class=\"a02-narration\">Phir Rohan ka naam phone mein open karne ke baare mein socha.</p>",
+        "<p class=\"a02-dialogue\"><strong>Shivani (soch mein):</strong> Abhi bhej doon?</p>",
+        "<p class=\"a02-narration\">Uski ungli ek pal ke liye ruki.</p>",
+        "<p class=\"a02-narration\">Rohan ne kaha tha ki surprise pending hai.</p>",
+        "<p class=\"a02-narration\">Shivani ne phone neeche kar diya.</p>",
+        "<p class=\"a02-dialogue\"><strong>Shivani:</strong> <mark><strong>Nahi. Kuch surprises screen par nahi, saamne dekhne chahiye.</strong></mark></p>",
+        "<p class=\"a02-narration\">Usne photograph kisi ko send nahi ki.</p>",
+        "<p class=\"a02-narration\">Image sirf uske personal phone ki local gallery mein reh gayi—na message, na print, na cloud upload.</p>",
+        "<p class=\"a02-narration\"><strong>Narration — 07:38 AM</strong></p>",
+        "<p class=\"a02-narration\">Shivani ne saree carefully utarkar fold ki aur wardrobe mein rakhi.</p>",
+        "<p class=\"a02-narration\">Usne apne college ke liye professional outfit pehna, dupatta properly arrange kiya aur bag mein academic notes check kiye.</p>",
+        "<p class=\"a02-narration\">Mirror mein ab ek different Shivani thi: composed, practical aur din ki responsibilities ke liye ready.</p>",
+        "<p class=\"a02-narration\">Lekin Rohan ka unfinished surprise uske mann mein tha.</p>",
+        "<p class=\"a02-dialogue\"><strong>Shivani (muskurakar):</strong> <mark><strong>Pending, Mr. Rohan. Cancelled nahi.</strong></mark></p>",
+        "<p class=\"a02-narration\">Phone bag mein chala gaya.</p>",
+        "<p class=\"a02-narration\">Photograph gallery mein reh gayi.</p>",
+        "<p class=\"a02-narration\"><strong>SCENE COMPLETE — Approved.</strong></p>",
+        "</div></article>"
+      ],
+      "prose_line_records": [
+        {
+          "id": "A03-L001",
+          "html_exact": "<p class=\"a02-narration\"><strong>Narration — 07:12 AM</strong></p>",
+          "text_for_lookup": "Narration — 07:12 AM",
+          "source_start_in_scene": 253,
+          "explicit_names": [],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "A03-L002",
+          "html_exact": "<p class=\"a02-narration\">Rohan ke jaane ke baad bedroom mein ek ajeeb si khamoshi thi.</p>",
+          "text_for_lookup": "Rohan ke jaane ke baad bedroom mein ek ajeeb si khamoshi thi.",
+          "source_start_in_scene": 320,
+          "explicit_names": [
+            "Rohan"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "A03-L003",
+          "html_exact": "<p class=\"a02-narration\">Shivani dressing table ke saamne khadi thi. Burgundy saree ka pallu abhi uske shoulder par loosely rakha tha. Ek earring pehen chuki thi, doosra dressing table par pada tha.</p>",
+          "text_for_lookup": "Shivani dressing table ke saamne khadi thi. Burgundy saree ka pallu abhi uske shoulder par loosely rakha tha. Ek earring pehen chuki thi, doosra dressing table par pada tha.",
+          "source_start_in_scene": 411,
+          "explicit_names": [
+            "Shivani"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "A03-L004",
+          "html_exact": "<p class=\"a02-narration\">Usne mirror mein khud ko dekha.</p>",
+          "text_for_lookup": "Usne mirror mein khud ko dekha.",
+          "source_start_in_scene": 614,
+          "explicit_names": [],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "A03-L005",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Shivani (dheere se):</strong> Happy New Year, Mrs. Bad Timing.</p>",
+          "text_for_lookup": "Shivani (dheere se): Happy New Year, Mrs. Bad Timing.",
+          "source_start_in_scene": 675,
+          "explicit_names": [
+            "Shivani"
+          ],
+          "speaker_label_exact": "Shivani (dheere se)"
+        },
+        {
+          "id": "A03-L006",
+          "html_exact": "<p class=\"a02-narration\">Woh khud hi halki si hans padi.</p>",
+          "text_for_lookup": "Woh khud hi halki si hans padi.",
+          "source_start_in_scene": 774,
+          "explicit_names": [],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "A03-L007",
+          "html_exact": "<p class=\"a02-narration\">Rohan ki baat yaad aayi.</p>",
+          "text_for_lookup": "Rohan ki baat yaad aayi.",
+          "source_start_in_scene": 835,
+          "explicit_names": [
+            "Rohan"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "A03-L008",
+          "html_exact": "<p class=\"a02-narration\"><mark><strong>Surprise pending hai, cancelled nahi.</strong></mark></p>",
+          "text_for_lookup": "Surprise pending hai, cancelled nahi.",
+          "source_start_in_scene": 889,
+          "explicit_names": [],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "A03-L009",
+          "html_exact": "<p class=\"a02-narration\">Shivani ne doosra earring uthaya.</p>",
+          "text_for_lookup": "Shivani ne doosra earring uthaya.",
+          "source_start_in_scene": 986,
+          "explicit_names": [
+            "Shivani"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "A03-L010",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Shivani:</strong> Achha, Mr. Rohan. Dekhte hain.</p>",
+          "text_for_lookup": "Shivani: Achha, Mr. Rohan. Dekhte hain.",
+          "source_start_in_scene": 1049,
+          "explicit_names": [
+            "Rohan",
+            "Shivani"
+          ],
+          "speaker_label_exact": "Shivani"
+        },
+        {
+          "id": "A03-L011",
+          "html_exact": "<p class=\"a02-narration\">Usne taiyaari poori karne ka faisla kiya.</p>",
+          "text_for_lookup": "Usne taiyaari poori karne ka faisla kiya.",
+          "source_start_in_scene": 1134,
+          "explicit_names": [],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "A03-L012",
+          "html_exact": "<p class=\"a02-narration\"><strong>Narration — The Burgundy Look</strong></p>",
+          "text_for_lookup": "Narration — The Burgundy Look",
+          "source_start_in_scene": 1205,
+          "explicit_names": [],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "A03-L013",
+          "html_exact": "<p class=\"a02-narration\">Burgundy saree ka fabric soft light mein wine-red aur deep maroon ke beech shade badal raha tha. Uski narrow woven border pallu ke kinare par subtle shine de rahi thi.</p>",
+          "text_for_lookup": "Burgundy saree ka fabric soft light mein wine-red aur deep maroon ke beech shade badal raha tha. Uski narrow woven border pallu ke kinare par subtle shine de rahi thi.",
+          "source_start_in_scene": 1281,
+          "explicit_names": [],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "A03-L014",
+          "html_exact": "<p class=\"a02-narration\">Matching blouse neatly tailored tha. Uski sleeves shoulders par smoothly baithi thi, neckline simple aur elegant thi, aur fitted waist se saree ka silhouette naturally defined ho raha tha.</p>",
+          "text_for_lookup": "Matching blouse neatly tailored tha. Uski sleeves shoulders par smoothly baithi thi, neckline simple aur elegant thi, aur fitted waist se saree ka silhouette naturally defined ho raha tha.",
+          "source_start_in_scene": 1478,
+          "explicit_names": [],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "A03-L015",
+          "html_exact": "<p class=\"a02-narration\">Shivani ne pleats ko ek-ek karke straighten kiya. Pallu ko shoulder par arrange karke pin lagayi, phir mirror mein side se dekha ki drape symmetrical hai ya nahi.</p>",
+          "text_for_lookup": "Shivani ne pleats ko ek-ek karke straighten kiya. Pallu ko shoulder par arrange karke pin lagayi, phir mirror mein side se dekha ki drape symmetrical hai ya nahi.",
+          "source_start_in_scene": 1696,
+          "explicit_names": [
+            "Shivani"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "A03-L016",
+          "html_exact": "<p class=\"a02-narration\">Uske dark hair khule hue the. Usne unhe brush karke ek taraf settle kiya, jisse earrings clearly dikh rahi thi.</p>",
+          "text_for_lookup": "Uske dark hair khule hue the. Usne unhe brush karke ek taraf settle kiya, jisse earrings clearly dikh rahi thi.",
+          "source_start_in_scene": 1888,
+          "explicit_names": [],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "A03-L017",
+          "html_exact": "<p class=\"a02-narration\">Makeup minimal tha: softly defined eyes, warm lipstick aur ek chhoti bindi.</p>",
+          "text_for_lookup": "Makeup minimal tha: softly defined eyes, warm lipstick aur ek chhoti bindi.",
+          "source_start_in_scene": 2029,
+          "explicit_names": [],
+          "speaker_label_exact": "Makeup minimal tha"
+        },
+        {
+          "id": "A03-L018",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Shivani (mirror se):</strong> <mark><strong>Ab bolna, sirf colour achha hai.</strong></mark></p>",
+          "text_for_lookup": "Shivani (mirror se): Ab bolna, sirf colour achha hai.",
+          "source_start_in_scene": 2134,
+          "explicit_names": [
+            "Shivani"
+          ],
+          "speaker_label_exact": "Shivani (mirror se)"
+        },
+        {
+          "id": "A03-L019",
+          "html_exact": "<p class=\"a02-narration\">Yeh sochkar uske chehre par muskurahat aa gayi.</p>",
+          "text_for_lookup": "Yeh sochkar uske chehre par muskurahat aa gayi.",
+          "source_start_in_scene": 2263,
+          "explicit_names": [],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "A03-L020",
+          "html_exact": "<p class=\"a02-narration\">Woh Rohan ko surprise dena chahti thi. Sirf nayi saree dikhane ke liye nahi, balki New Year ki subah ka ek personal moment banane ke liye.</p>",
+          "text_for_lookup": "Woh Rohan ko surprise dena chahti thi. Sirf nayi saree dikhane ke liye nahi, balki New Year ki subah ka ek personal moment banane ke liye.",
+          "source_start_in_scene": 2340,
+          "explicit_names": [
+            "Rohan"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "A03-L021",
+          "html_exact": "<p class=\"a02-narration\">Lekin moment adhura reh gaya tha.</p>",
+          "text_for_lookup": "Lekin moment adhura reh gaya tha.",
+          "source_start_in_scene": 2508,
+          "explicit_names": [],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "A03-L022",
+          "html_exact": "<p class=\"a02-narration\"><strong>Narration — 07:22 AM</strong></p>",
+          "text_for_lookup": "Narration — 07:22 AM",
+          "source_start_in_scene": 2571,
+          "explicit_names": [],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "A03-L023",
+          "html_exact": "<p class=\"a02-narration\">Shivani ne dressing table se apna personal phone uthaya.</p>",
+          "text_for_lookup": "Shivani ne dressing table se apna personal phone uthaya.",
+          "source_start_in_scene": 2638,
+          "explicit_names": [
+            "Shivani"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "A03-L024",
+          "html_exact": "<p class=\"a02-narration\">Camera open kiya.</p>",
+          "text_for_lookup": "Camera open kiya.",
+          "source_start_in_scene": 2724,
+          "explicit_names": [],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "A03-L025",
+          "html_exact": "<p class=\"a02-narration\">Mirror ke saamne khade hokar usne pehle framing check ki. Background mein neatly made bed, curtain se aati soft winter light aur dressing table ka ek corner dikh raha tha.</p>",
+          "text_for_lookup": "Mirror ke saamne khade hokar usne pehle framing check ki. Background mein neatly made bed, curtain se aati soft winter light aur dressing table ka ek corner dikh raha tha.",
+          "source_start_in_scene": 2771,
+          "explicit_names": [],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "A03-L026",
+          "html_exact": "<p class=\"a02-narration\">Usne phone vertical rakha, thoda sa angle change kiya taaki saree ki pleats aur pallu dono frame mein aa sakein.</p>",
+          "text_for_lookup": "Usne phone vertical rakha, thoda sa angle change kiya taaki saree ki pleats aur pallu dono frame mein aa sakein.",
+          "source_start_in_scene": 2972,
+          "explicit_names": [],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "A03-L027",
+          "html_exact": "<p class=\"a02-narration\">Ek haath mein phone tha. Doosre se usne pallu ki border halka sa straighten ki.</p>",
+          "text_for_lookup": "Ek haath mein phone tha. Doosre se usne pallu ki border halka sa straighten ki.",
+          "source_start_in_scene": 3114,
+          "explicit_names": [],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "A03-L028",
+          "html_exact": "<p class=\"a02-narration\">Uske shoulders relaxed the. Chin slightly raised, expression confident aur naturally warm.</p>",
+          "text_for_lookup": "Uske shoulders relaxed the. Chin slightly raised, expression confident aur naturally warm.",
+          "source_start_in_scene": 3223,
+          "explicit_names": [],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "A03-L029",
+          "html_exact": "<p class=\"a02-narration\"><strong>Click.</strong></p>",
+          "text_for_lookup": "Click.",
+          "source_start_in_scene": 3343,
+          "explicit_names": [],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "A03-L030",
+          "html_exact": "<p class=\"a02-narration\">Ek photograph.</p>",
+          "text_for_lookup": "Ek photograph.",
+          "source_start_in_scene": 3396,
+          "explicit_names": [],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "A03-L031",
+          "html_exact": "<p class=\"a02-narration\"><strong>Selected A03 mirror-selfie visualization</strong></p>",
+          "text_for_lookup": "Selected A03 mirror-selfie visualization",
+          "source_start_in_scene": 3440,
+          "explicit_names": [],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "A03-L032",
+          "html_exact": "<p class=\"a02-narration\">Shivani ne gallery mein picture open ki.</p>",
+          "text_for_lookup": "Shivani ne gallery mein picture open ki.",
+          "source_start_in_scene": 11019,
+          "explicit_names": [
+            "Shivani"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "A03-L033",
+          "html_exact": "<p class=\"a02-narration\">Usmein burgundy saree ki rich colour, neatly styled hair aur uski soft smile clearly captured thi. Pose elegant tha, jaise kisi special occasion ke liye privately ready hui ho.</p>",
+          "text_for_lookup": "Usmein burgundy saree ki rich colour, neatly styled hair aur uski soft smile clearly captured thi. Pose elegant tha, jaise kisi special occasion ke liye privately ready hui ho.",
+          "source_start_in_scene": 11089,
+          "explicit_names": [],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "A03-L034",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Shivani:</strong> Not bad, Mrs. Lecturer.</p>",
+          "text_for_lookup": "Shivani: Not bad, Mrs. Lecturer.",
+          "source_start_in_scene": 11295,
+          "explicit_names": [
+            "Shivani"
+          ],
+          "speaker_label_exact": "Shivani"
+        },
+        {
+          "id": "A03-L035",
+          "html_exact": "<p class=\"a02-narration\">Usne photograph dobara dekhi.</p>",
+          "text_for_lookup": "Usne photograph dobara dekhi.",
+          "source_start_in_scene": 11373,
+          "explicit_names": [],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "A03-L036",
+          "html_exact": "<p class=\"a02-narration\">Phir Rohan ka naam phone mein open karne ke baare mein socha.</p>",
+          "text_for_lookup": "Phir Rohan ka naam phone mein open karne ke baare mein socha.",
+          "source_start_in_scene": 11432,
+          "explicit_names": [
+            "Rohan"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "A03-L037",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Shivani (soch mein):</strong> Abhi bhej doon?</p>",
+          "text_for_lookup": "Shivani (soch mein): Abhi bhej doon?",
+          "source_start_in_scene": 11523,
+          "explicit_names": [
+            "Shivani"
+          ],
+          "speaker_label_exact": "Shivani (soch mein)"
+        },
+        {
+          "id": "A03-L038",
+          "html_exact": "<p class=\"a02-narration\">Uski ungli ek pal ke liye ruki.</p>",
+          "text_for_lookup": "Uski ungli ek pal ke liye ruki.",
+          "source_start_in_scene": 11605,
+          "explicit_names": [],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "A03-L039",
+          "html_exact": "<p class=\"a02-narration\">Rohan ne kaha tha ki surprise pending hai.</p>",
+          "text_for_lookup": "Rohan ne kaha tha ki surprise pending hai.",
+          "source_start_in_scene": 11666,
+          "explicit_names": [
+            "Rohan"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "A03-L040",
+          "html_exact": "<p class=\"a02-narration\">Shivani ne phone neeche kar diya.</p>",
+          "text_for_lookup": "Shivani ne phone neeche kar diya.",
+          "source_start_in_scene": 11738,
+          "explicit_names": [
+            "Diya Sen",
+            "Shivani"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "A03-L041",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Shivani:</strong> <mark><strong>Nahi. Kuch surprises screen par nahi, saamne dekhne chahiye.</strong></mark></p>",
+          "text_for_lookup": "Shivani: Nahi. Kuch surprises screen par nahi, saamne dekhne chahiye.",
+          "source_start_in_scene": 11801,
+          "explicit_names": [
+            "Shivani"
+          ],
+          "speaker_label_exact": "Shivani"
+        },
+        {
+          "id": "A03-L042",
+          "html_exact": "<p class=\"a02-narration\">Usne photograph kisi ko send nahi ki.</p>",
+          "text_for_lookup": "Usne photograph kisi ko send nahi ki.",
+          "source_start_in_scene": 11946,
+          "explicit_names": [],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "A03-L043",
+          "html_exact": "<p class=\"a02-narration\">Image sirf uske personal phone ki local gallery mein reh gayi—na message, na print, na cloud upload.</p>",
+          "text_for_lookup": "Image sirf uske personal phone ki local gallery mein reh gayi—na message, na print, na cloud upload.",
+          "source_start_in_scene": 12013,
+          "explicit_names": [],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "A03-L044",
+          "html_exact": "<p class=\"a02-narration\"><strong>Narration — 07:38 AM</strong></p>",
+          "text_for_lookup": "Narration — 07:38 AM",
+          "source_start_in_scene": 12143,
+          "explicit_names": [],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "A03-L045",
+          "html_exact": "<p class=\"a02-narration\">Shivani ne saree carefully utarkar fold ki aur wardrobe mein rakhi.</p>",
+          "text_for_lookup": "Shivani ne saree carefully utarkar fold ki aur wardrobe mein rakhi.",
+          "source_start_in_scene": 12210,
+          "explicit_names": [
+            "Shivani"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "A03-L046",
+          "html_exact": "<p class=\"a02-narration\">Usne apne college ke liye professional outfit pehna, dupatta properly arrange kiya aur bag mein academic notes check kiye.</p>",
+          "text_for_lookup": "Usne apne college ke liye professional outfit pehna, dupatta properly arrange kiya aur bag mein academic notes check kiye.",
+          "source_start_in_scene": 12307,
+          "explicit_names": [],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "A03-L047",
+          "html_exact": "<p class=\"a02-narration\">Mirror mein ab ek different Shivani thi: composed, practical aur din ki responsibilities ke liye ready.</p>",
+          "text_for_lookup": "Mirror mein ab ek different Shivani thi: composed, practical aur din ki responsibilities ke liye ready.",
+          "source_start_in_scene": 12459,
+          "explicit_names": [
+            "Shivani"
+          ],
+          "speaker_label_exact": "Mirror mein ab ek different Shivani thi"
+        },
+        {
+          "id": "A03-L048",
+          "html_exact": "<p class=\"a02-narration\">Lekin Rohan ka unfinished surprise uske mann mein tha.</p>",
+          "text_for_lookup": "Lekin Rohan ka unfinished surprise uske mann mein tha.",
+          "source_start_in_scene": 12592,
+          "explicit_names": [
+            "Rohan"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "A03-L049",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Shivani (muskurakar):</strong> <mark><strong>Pending, Mr. Rohan. Cancelled nahi.</strong></mark></p>",
+          "text_for_lookup": "Shivani (muskurakar): Pending, Mr. Rohan. Cancelled nahi.",
+          "source_start_in_scene": 12676,
+          "explicit_names": [
+            "Rohan",
+            "Shivani"
+          ],
+          "speaker_label_exact": "Shivani (muskurakar)"
+        },
+        {
+          "id": "A03-L050",
+          "html_exact": "<p class=\"a02-narration\">Phone bag mein chala gaya.</p>",
+          "text_for_lookup": "Phone bag mein chala gaya.",
+          "source_start_in_scene": 12809,
+          "explicit_names": [],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "A03-L051",
+          "html_exact": "<p class=\"a02-narration\">Photograph gallery mein reh gayi.</p>",
+          "text_for_lookup": "Photograph gallery mein reh gayi.",
+          "source_start_in_scene": 12865,
+          "explicit_names": [],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "A03-L052",
+          "html_exact": "<p class=\"a02-narration\"><strong>SCENE COMPLETE — Approved.</strong></p>",
+          "text_for_lookup": "SCENE COMPLETE — Approved.",
+          "source_start_in_scene": 12928,
+          "explicit_names": [],
+          "speaker_label_exact": null
+        }
+      ],
+      "integrity": {
+        "source_char_length": 13017,
+        "html_lines_lossless": true,
+        "prose_line_count": 52
+      }
+    },
+    {
+      "scene_id": "B03",
+      "source_anchor": "shivani-b03-scene",
+      "source_position": {
+        "start": 217783,
+        "end": 223097
+      },
+      "ui_badge_text_exact": "APPROVED",
+      "approved_by_ui_or_plan": true,
+      "source_html_lines_exact": [
+        "<article class=\"a02-scene\" id=\"shivani-b03-scene\"><div class=\"a02-scene-head\"><div><div class=\"stamp\">SHIVANI · B03 · 10:45–11:30</div><h3>B03 — Four-Way Faculty Room Banter</h3></div><span class=\"chip approved\">APPROVED</span></div><div class=\"a02-prose\">",
+        "<p class=\"a02-narration\">10:45 AM — Faculty room mein Shivani ke saath Pooja, Kriti aur Dr. Aarav Sethi the. Aarav ke clever compliments se Pooja aur Kriti pehle se familiar the; aaj unki shared teasing ek step zyada mischievous ho gayi.</p>",
+        "<p class=\"a02-narration\"><strong>Part 1 — Pooja × Aarav</strong></p>",
+        "<p class=\"a02-dialogue\"><strong>Aarav:</strong> Pooja, aap har baar mujhe dekhkar smile kyun karti hain? Kuch kehna hai toh privately bhi keh sakti hain.</p>",
+        "<p class=\"a02-dialogue\"><strong>Pooja:</strong> <mark><strong>Private mein bulaoge toh sirf baatein karoge, Dr. Sethi?</strong></mark></p>",
+        "<p class=\"a02-narration\">Aarav hansa. Pooja apne jawab par blush kar gayi, lekin nazar nahi hatayi.</p>",
+        "<p class=\"a02-narration\"><strong>Part 2 — Kriti × Aarav</strong></p>",
+        "<p class=\"a02-dialogue\"><strong>Kriti:</strong> Aarav, tumhe har conversation ko interesting banana zaroori lagta hai?</p>",
+        "<p class=\"a02-dialogue\"><strong>Aarav:</strong> <mark><strong>Interesting company mile toh main time ka hisaab bhool jaata hoon.</strong></mark></p>",
+        "<p class=\"a02-dialogue\"><strong>Kriti:</strong> <mark><strong>Phir stamina bhi achha hona chahiye. Har interesting conversation jaldi khatam nahi hoti.</strong></mark></p>",
+        "<p class=\"a02-dialogue\"><strong>Aarav:</strong> Kriti, mujhe lag raha hai tum mujhe deliberately challenge kar rahi ho.</p>",
+        "<p class=\"a02-dialogue\"><strong>Kriti:</strong> <mark><strong>Challenge samajhna hai ya invitation, woh tumhari interpretation hai.</strong></mark></p>",
+        "<p class=\"a02-narration\">Pooja hans padi. Kriti ne coffee cup ke peeche apni smile chhupayi.</p>",
+        "<p class=\"a02-narration\"><strong>Part 3 — Shivani × Aarav</strong></p>",
+        "<p class=\"a02-dialogue\"><strong>Aarav:</strong> Shivani, aap itni composed kaise rehti hain? Kabhi kisi ne aapko genuinely nervous kiya?</p>",
+        "<p class=\"a02-dialogue\"><strong>Shivani:</strong> Koshish bahuton ne ki hai.</p>",
+        "<p class=\"a02-dialogue\"><strong>Aarav:</strong> <mark><strong>Toh mujhe bhi ek chance milega? Main challenges aadhe mein chhodne ka aadmi nahi hoon.</strong></mark></p>",
+        "<p class=\"a02-dialogue\"><strong>Shivani:</strong> <mark><strong>Chance lene se pehle yaad rakhna, Aarav. Main expectations bhi high rakhti hoon aur evaluation bhi strict karti hoon.</strong></mark></p>",
+        "<p class=\"a02-narration\">Pooja aur Kriti ne ek doosre ko dekha. Ab chaaron ek hi playful exchange mein shamil the.</p>",
+        "<p class=\"a02-narration\"><strong>Part 4 — Common conversation; everyone joins</strong></p>",
+        "<p class=\"a02-dialogue\"><strong>Kriti:</strong> Ek minute! Aarav, tum teenon ko individually impress karne ki koshish kar rahe ho?</p>",
+        "<p class=\"a02-dialogue\"><strong>Aarav:</strong> Main toh bas interesting company enjoy kar raha hoon.</p>",
+        "<p class=\"a02-dialogue\"><strong>Pooja:</strong> <mark><strong>Achha? Teen confident women ek saath hon toh pressure handle kar loge?</strong></mark></p>",
+        "<p class=\"a02-dialogue\"><strong>Aarav:</strong> <mark><strong>Pressure se problem nahi. Bas mujhe cheezein jaldi mein karna pasand nahi.</strong></mark></p>",
+        "<p class=\"a02-dialogue\"><strong>Kriti:</strong> Oho! Matlab patience bhi hai?</p>",
+        "<p class=\"a02-dialogue\"><strong>Shivani:</strong> Pooja, Kriti, tum dono iski interview panel ban gayi ho kya?</p>",
+        "<p class=\"a02-dialogue\"><strong>Pooja:</strong> <mark><strong>Bilkul! Candidate ko experience, patience aur stamina—teenon prove karne padenge.</strong></mark></p>",
+        "<p class=\"a02-dialogue\"><strong>Aarav:</strong> Aur agar candidate saare rounds clear kar de?</p>",
+        "<p class=\"a02-dialogue\"><strong>Kriti:</strong> <mark><strong>Toh final decision hum teenon milkar lenge.</strong></mark></p>",
+        "<p class=\"a02-narration\">Pooja ki hansi chhoot gayi. Kriti ne coffee cup uthaya.</p>",
+        "<p class=\"a02-dialogue\"><strong>Shivani:</strong> <mark><strong>Tum logon ne toh faculty room ko interview room bana diya. Aarav, pehle written test pass kar lo. Practical ki permission baad mein milegi.</strong></mark></p>",
+        "<p class=\"a02-dialogue\"><strong>Aarav:</strong> Teen examiners? Yeh toh unfair advantage hai.</p>",
+        "<p class=\"a02-dialogue\"><strong>Pooja:</strong> Abhi toh humne difficult questions poochhe bhi nahi.</p>",
+        "<p class=\"a02-narration\">Aarav ek pal ke liye chup hua. Teenon women hans padi. Unke playful exchanges voluntary aur mutually understood the; koi actual private appointment ya invitation agree nahi hua.</p>",
+        "<p class=\"a02-narration\"><strong>Presentation coordination request</strong></p>",
+        "<p class=\"a02-narration\">Kriti ke paas 1 PM ke presentation review ke liye connectivity request aa gayi.</p>",
+        "<p class=\"a02-dialogue\"><strong>Kriti:</strong> Achha, jokes over. Shivani, 1 PM ke presentation review mein phone connectivity check karni hogi.</p>",
+        "<p class=\"a02-dialogue\"><strong>Shivani:</strong> Okay. Main AV desk par phone lekar aa jaungi.</p>",
+        "<p class=\"a02-narration\">Conversation professional mode mein laut aayi.</p>",
+        "<p class=\"muted\">Aarav's playful history here is lightly established staffroom familiarity, not an invented prior affair. Shivani's actual personal phone is handed over only around 13:00 in C01.</p>",
+        "</div></article>"
+      ],
+      "prose_line_records": [
+        {
+          "id": "B03-L001",
+          "html_exact": "<p class=\"a02-narration\">10:45 AM — Faculty room mein Shivani ke saath Pooja, Kriti aur Dr. Aarav Sethi the. Aarav ke clever compliments se Pooja aur Kriti pehle se familiar the; aaj unki shared teasing ek step zyada mischievous ho gayi.</p>",
+          "text_for_lookup": "10:45 AM — Faculty room mein Shivani ke saath Pooja, Kriti aur Dr. Aarav Sethi the. Aarav ke clever compliments se Pooja aur Kriti pehle se familiar the; aaj unki shared teasing ek step zyada mischievous ho gayi.",
+          "source_start_in_scene": 257,
+          "explicit_names": [
+            "Pooja",
+            "Kriti",
+            "Dr. Aarav Sethi",
+            "Shivani"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "B03-L002",
+          "html_exact": "<p class=\"a02-narration\"><strong>Part 1 — Pooja × Aarav</strong></p>",
+          "text_for_lookup": "Part 1 — Pooja × Aarav",
+          "source_start_in_scene": 499,
+          "explicit_names": [
+            "Pooja",
+            "Dr. Aarav Sethi"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "B03-L003",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Aarav:</strong> Pooja, aap har baar mujhe dekhkar smile kyun karti hain? Kuch kehna hai toh privately bhi keh sakti hain.</p>",
+          "text_for_lookup": "Aarav: Pooja, aap har baar mujhe dekhkar smile kyun karti hain? Kuch kehna hai toh privately bhi keh sakti hain.",
+          "source_start_in_scene": 568,
+          "explicit_names": [
+            "Pooja",
+            "Dr. Aarav Sethi"
+          ],
+          "speaker_label_exact": "Aarav"
+        },
+        {
+          "id": "B03-L004",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Pooja:</strong> <mark><strong>Private mein bulaoge toh sirf baatein karoge, Dr. Sethi?</strong></mark></p>",
+          "text_for_lookup": "Pooja: Private mein bulaoge toh sirf baatein karoge, Dr. Sethi?",
+          "source_start_in_scene": 726,
+          "explicit_names": [
+            "Pooja"
+          ],
+          "speaker_label_exact": "Pooja"
+        },
+        {
+          "id": "B03-L005",
+          "html_exact": "<p class=\"a02-narration\">Aarav hansa. Pooja apne jawab par blush kar gayi, lekin nazar nahi hatayi.</p>",
+          "text_for_lookup": "Aarav hansa. Pooja apne jawab par blush kar gayi, lekin nazar nahi hatayi.",
+          "source_start_in_scene": 865,
+          "explicit_names": [
+            "Pooja",
+            "Dr. Aarav Sethi"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "B03-L006",
+          "html_exact": "<p class=\"a02-narration\"><strong>Part 2 — Kriti × Aarav</strong></p>",
+          "text_for_lookup": "Part 2 — Kriti × Aarav",
+          "source_start_in_scene": 969,
+          "explicit_names": [
+            "Kriti",
+            "Dr. Aarav Sethi"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "B03-L007",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Kriti:</strong> Aarav, tumhe har conversation ko interesting banana zaroori lagta hai?</p>",
+          "text_for_lookup": "Kriti: Aarav, tumhe har conversation ko interesting banana zaroori lagta hai?",
+          "source_start_in_scene": 1038,
+          "explicit_names": [
+            "Kriti",
+            "Dr. Aarav Sethi"
+          ],
+          "speaker_label_exact": "Kriti"
+        },
+        {
+          "id": "B03-L008",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Aarav:</strong> <mark><strong>Interesting company mile toh main time ka hisaab bhool jaata hoon.</strong></mark></p>",
+          "text_for_lookup": "Aarav: Interesting company mile toh main time ka hisaab bhool jaata hoon.",
+          "source_start_in_scene": 1161,
+          "explicit_names": [
+            "Dr. Aarav Sethi"
+          ],
+          "speaker_label_exact": "Aarav"
+        },
+        {
+          "id": "B03-L009",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Kriti:</strong> <mark><strong>Phir stamina bhi achha hona chahiye. Har interesting conversation jaldi khatam nahi hoti.</strong></mark></p>",
+          "text_for_lookup": "Kriti: Phir stamina bhi achha hona chahiye. Har interesting conversation jaldi khatam nahi hoti.",
+          "source_start_in_scene": 1310,
+          "explicit_names": [
+            "Kriti"
+          ],
+          "speaker_label_exact": "Kriti"
+        },
+        {
+          "id": "B03-L010",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Aarav:</strong> Kriti, mujhe lag raha hai tum mujhe deliberately challenge kar rahi ho.</p>",
+          "text_for_lookup": "Aarav: Kriti, mujhe lag raha hai tum mujhe deliberately challenge kar rahi ho.",
+          "source_start_in_scene": 1482,
+          "explicit_names": [
+            "Kriti",
+            "Dr. Aarav Sethi"
+          ],
+          "speaker_label_exact": "Aarav"
+        },
+        {
+          "id": "B03-L011",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Kriti:</strong> <mark><strong>Challenge samajhna hai ya invitation, woh tumhari interpretation hai.</strong></mark></p>",
+          "text_for_lookup": "Kriti: Challenge samajhna hai ya invitation, woh tumhari interpretation hai.",
+          "source_start_in_scene": 1606,
+          "explicit_names": [
+            "Kriti"
+          ],
+          "speaker_label_exact": "Kriti"
+        },
+        {
+          "id": "B03-L012",
+          "html_exact": "<p class=\"a02-narration\">Pooja hans padi. Kriti ne coffee cup ke peeche apni smile chhupayi.</p>",
+          "text_for_lookup": "Pooja hans padi. Kriti ne coffee cup ke peeche apni smile chhupayi.",
+          "source_start_in_scene": 1758,
+          "explicit_names": [
+            "Pooja",
+            "Kriti"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "B03-L013",
+          "html_exact": "<p class=\"a02-narration\"><strong>Part 3 — Shivani × Aarav</strong></p>",
+          "text_for_lookup": "Part 3 — Shivani × Aarav",
+          "source_start_in_scene": 1855,
+          "explicit_names": [
+            "Dr. Aarav Sethi",
+            "Shivani"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "B03-L014",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Aarav:</strong> Shivani, aap itni composed kaise rehti hain? Kabhi kisi ne aapko genuinely nervous kiya?</p>",
+          "text_for_lookup": "Aarav: Shivani, aap itni composed kaise rehti hain? Kabhi kisi ne aapko genuinely nervous kiya?",
+          "source_start_in_scene": 1926,
+          "explicit_names": [
+            "Dr. Aarav Sethi",
+            "Shivani"
+          ],
+          "speaker_label_exact": "Aarav"
+        },
+        {
+          "id": "B03-L015",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Shivani:</strong> Koshish bahuton ne ki hai.</p>",
+          "text_for_lookup": "Shivani: Koshish bahuton ne ki hai.",
+          "source_start_in_scene": 2067,
+          "explicit_names": [
+            "Shivani"
+          ],
+          "speaker_label_exact": "Shivani"
+        },
+        {
+          "id": "B03-L016",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Aarav:</strong> <mark><strong>Toh mujhe bhi ek chance milega? Main challenges aadhe mein chhodne ka aadmi nahi hoon.</strong></mark></p>",
+          "text_for_lookup": "Aarav: Toh mujhe bhi ek chance milega? Main challenges aadhe mein chhodne ka aadmi nahi hoon.",
+          "source_start_in_scene": 2148,
+          "explicit_names": [
+            "Dr. Aarav Sethi"
+          ],
+          "speaker_label_exact": "Aarav"
+        },
+        {
+          "id": "B03-L017",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Shivani:</strong> <mark><strong>Chance lene se pehle yaad rakhna, Aarav. Main expectations bhi high rakhti hoon aur evaluation bhi strict karti hoon.</strong></mark></p>",
+          "text_for_lookup": "Shivani: Chance lene se pehle yaad rakhna, Aarav. Main expectations bhi high rakhti hoon aur evaluation bhi strict karti hoon.",
+          "source_start_in_scene": 2317,
+          "explicit_names": [
+            "Dr. Aarav Sethi",
+            "Shivani"
+          ],
+          "speaker_label_exact": "Shivani"
+        },
+        {
+          "id": "B03-L018",
+          "html_exact": "<p class=\"a02-narration\">Pooja aur Kriti ne ek doosre ko dekha. Ab chaaron ek hi playful exchange mein shamil the.</p>",
+          "text_for_lookup": "Pooja aur Kriti ne ek doosre ko dekha. Ab chaaron ek hi playful exchange mein shamil the.",
+          "source_start_in_scene": 2519,
+          "explicit_names": [
+            "Pooja",
+            "Kriti"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "B03-L019",
+          "html_exact": "<p class=\"a02-narration\"><strong>Part 4 — Common conversation; everyone joins</strong></p>",
+          "text_for_lookup": "Part 4 — Common conversation; everyone joins",
+          "source_start_in_scene": 2638,
+          "explicit_names": [],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "B03-L020",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Kriti:</strong> Ek minute! Aarav, tum teenon ko individually impress karne ki koshish kar rahe ho?</p>",
+          "text_for_lookup": "Kriti: Ek minute! Aarav, tum teenon ko individually impress karne ki koshish kar rahe ho?",
+          "source_start_in_scene": 2729,
+          "explicit_names": [
+            "Kriti",
+            "Dr. Aarav Sethi"
+          ],
+          "speaker_label_exact": "Kriti"
+        },
+        {
+          "id": "B03-L021",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Aarav:</strong> Main toh bas interesting company enjoy kar raha hoon.</p>",
+          "text_for_lookup": "Aarav: Main toh bas interesting company enjoy kar raha hoon.",
+          "source_start_in_scene": 2864,
+          "explicit_names": [
+            "Dr. Aarav Sethi"
+          ],
+          "speaker_label_exact": "Aarav"
+        },
+        {
+          "id": "B03-L022",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Pooja:</strong> <mark><strong>Achha? Teen confident women ek saath hon toh pressure handle kar loge?</strong></mark></p>",
+          "text_for_lookup": "Pooja: Achha? Teen confident women ek saath hon toh pressure handle kar loge?",
+          "source_start_in_scene": 2970,
+          "explicit_names": [
+            "Pooja"
+          ],
+          "speaker_label_exact": "Pooja"
+        },
+        {
+          "id": "B03-L023",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Aarav:</strong> <mark><strong>Pressure se problem nahi. Bas mujhe cheezein jaldi mein karna pasand nahi.</strong></mark></p>",
+          "text_for_lookup": "Aarav: Pressure se problem nahi. Bas mujhe cheezein jaldi mein karna pasand nahi.",
+          "source_start_in_scene": 3123,
+          "explicit_names": [
+            "Dr. Aarav Sethi"
+          ],
+          "speaker_label_exact": "Aarav"
+        },
+        {
+          "id": "B03-L024",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Kriti:</strong> Oho! Matlab patience bhi hai?</p>",
+          "text_for_lookup": "Kriti: Oho! Matlab patience bhi hai?",
+          "source_start_in_scene": 3280,
+          "explicit_names": [
+            "Kriti"
+          ],
+          "speaker_label_exact": "Kriti"
+        },
+        {
+          "id": "B03-L025",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Shivani:</strong> Pooja, Kriti, tum dono iski interview panel ban gayi ho kya?</p>",
+          "text_for_lookup": "Shivani: Pooja, Kriti, tum dono iski interview panel ban gayi ho kya?",
+          "source_start_in_scene": 3362,
+          "explicit_names": [
+            "Pooja",
+            "Kriti",
+            "Shivani"
+          ],
+          "speaker_label_exact": "Shivani"
+        },
+        {
+          "id": "B03-L026",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Pooja:</strong> <mark><strong>Bilkul! Candidate ko experience, patience aur stamina—teenon prove karne padenge.</strong></mark></p>",
+          "text_for_lookup": "Pooja: Bilkul! Candidate ko experience, patience aur stamina—teenon prove karne padenge.",
+          "source_start_in_scene": 3477,
+          "explicit_names": [
+            "Pooja"
+          ],
+          "speaker_label_exact": "Pooja"
+        },
+        {
+          "id": "B03-L027",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Aarav:</strong> Aur agar candidate saare rounds clear kar de?</p>",
+          "text_for_lookup": "Aarav: Aur agar candidate saare rounds clear kar de?",
+          "source_start_in_scene": 3641,
+          "explicit_names": [
+            "Dr. Aarav Sethi"
+          ],
+          "speaker_label_exact": "Aarav"
+        },
+        {
+          "id": "B03-L028",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Kriti:</strong> <mark><strong>Toh final decision hum teenon milkar lenge.</strong></mark></p>",
+          "text_for_lookup": "Kriti: Toh final decision hum teenon milkar lenge.",
+          "source_start_in_scene": 3739,
+          "explicit_names": [
+            "Kriti"
+          ],
+          "speaker_label_exact": "Kriti"
+        },
+        {
+          "id": "B03-L029",
+          "html_exact": "<p class=\"a02-narration\">Pooja ki hansi chhoot gayi. Kriti ne coffee cup uthaya.</p>",
+          "text_for_lookup": "Pooja ki hansi chhoot gayi. Kriti ne coffee cup uthaya.",
+          "source_start_in_scene": 3865,
+          "explicit_names": [
+            "Pooja",
+            "Kriti"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "B03-L030",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Shivani:</strong> <mark><strong>Tum logon ne toh faculty room ko interview room bana diya. Aarav, pehle written test pass kar lo. Practical ki permission baad mein milegi.</strong></mark></p>",
+          "text_for_lookup": "Shivani: Tum logon ne toh faculty room ko interview room bana diya. Aarav, pehle written test pass kar lo. Practical ki permission baad mein milegi.",
+          "source_start_in_scene": 3950,
+          "explicit_names": [
+            "Diya Sen",
+            "Dr. Aarav Sethi",
+            "Shivani"
+          ],
+          "speaker_label_exact": "Shivani"
+        },
+        {
+          "id": "B03-L031",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Aarav:</strong> Teen examiners? Yeh toh unfair advantage hai.</p>",
+          "text_for_lookup": "Aarav: Teen examiners? Yeh toh unfair advantage hai.",
+          "source_start_in_scene": 4174,
+          "explicit_names": [
+            "Dr. Aarav Sethi"
+          ],
+          "speaker_label_exact": "Aarav"
+        },
+        {
+          "id": "B03-L032",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Pooja:</strong> Abhi toh humne difficult questions poochhe bhi nahi.</p>",
+          "text_for_lookup": "Pooja: Abhi toh humne difficult questions poochhe bhi nahi.",
+          "source_start_in_scene": 4272,
+          "explicit_names": [
+            "Pooja"
+          ],
+          "speaker_label_exact": "Pooja"
+        },
+        {
+          "id": "B03-L033",
+          "html_exact": "<p class=\"a02-narration\">Aarav ek pal ke liye chup hua. Teenon women hans padi. Unke playful exchanges voluntary aur mutually understood the; koi actual private appointment ya invitation agree nahi hua.</p>",
+          "text_for_lookup": "Aarav ek pal ke liye chup hua. Teenon women hans padi. Unke playful exchanges voluntary aur mutually understood the; koi actual private appointment ya invitation agree nahi hua.",
+          "source_start_in_scene": 4377,
+          "explicit_names": [
+            "Dr. Aarav Sethi"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "B03-L034",
+          "html_exact": "<p class=\"a02-narration\"><strong>Presentation coordination request</strong></p>",
+          "text_for_lookup": "Presentation coordination request",
+          "source_start_in_scene": 4584,
+          "explicit_names": [],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "B03-L035",
+          "html_exact": "<p class=\"a02-narration\">Kriti ke paas 1 PM ke presentation review ke liye connectivity request aa gayi.</p>",
+          "text_for_lookup": "Kriti ke paas 1 PM ke presentation review ke liye connectivity request aa gayi.",
+          "source_start_in_scene": 4664,
+          "explicit_names": [
+            "Kriti"
+          ],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "B03-L036",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Kriti:</strong> Achha, jokes over. Shivani, 1 PM ke presentation review mein phone connectivity check karni hogi.</p>",
+          "text_for_lookup": "Kriti: Achha, jokes over. Shivani, 1 PM ke presentation review mein phone connectivity check karni hogi.",
+          "source_start_in_scene": 4773,
+          "explicit_names": [
+            "Kriti",
+            "Shivani"
+          ],
+          "speaker_label_exact": "Kriti"
+        },
+        {
+          "id": "B03-L037",
+          "html_exact": "<p class=\"a02-dialogue\"><strong>Shivani:</strong> Okay. Main AV desk par phone lekar aa jaungi.</p>",
+          "text_for_lookup": "Shivani: Okay. Main AV desk par phone lekar aa jaungi.",
+          "source_start_in_scene": 4923,
+          "explicit_names": [
+            "Shivani"
+          ],
+          "speaker_label_exact": "Shivani"
+        },
+        {
+          "id": "B03-L038",
+          "html_exact": "<p class=\"a02-narration\">Conversation professional mode mein laut aayi.</p>",
+          "text_for_lookup": "Conversation professional mode mein laut aayi.",
+          "source_start_in_scene": 5023,
+          "explicit_names": [],
+          "speaker_label_exact": null
+        },
+        {
+          "id": "B03-L039",
+          "html_exact": "<p class=\"muted\">Aarav's playful history here is lightly established staffroom familiarity, not an invented prior affair. Shivani's actual personal phone is handed over only around 13:00 in C01.</p>",
+          "text_for_lookup": "Aarav's playful history here is lightly established staffroom familiarity, not an invented prior affair. Shivani's actual personal phone is handed over only around 13:00 in C01.",
+          "source_start_in_scene": 5099,
+          "explicit_names": [
+            "Dr. Aarav Sethi",
+            "Shivani"
+          ],
+          "speaker_label_exact": null
+        }
+      ],
+      "integrity": {
+        "source_char_length": 5314,
+        "html_lines_lossless": true,
+        "prose_line_count": 39
+      }
+    }
+  ],
+  "approved_scene_ids": [
+    "A02",
+    "A03",
+    "B03"
+  ],
+  "excluded_nonapproved_scene_ids": [
+    "A04",
+    "A05",
+    "A06",
+    "B01",
+    "B02",
+    "C01",
+    "C02",
+    "C03",
+    "C04",
+    "C05",
+    "D01"
+  ],
+  "character_name_index": [
+    {
+      "character_id": "rohan",
+      "name": "Rohan",
+      "matches": [
+        {
+          "scene_id": "A02",
+          "evidence_line_ids": [
+            "A02-L001",
+            "A02-L003",
+            "A02-L005",
+            "A02-L007",
+            "A02-L009",
+            "A02-L010",
+            "A02-L012",
+            "A02-L014",
+            "A02-L015",
+            "A02-L017",
+            "A02-L019",
+            "A02-L020",
+            "A02-L022",
+            "A02-L025",
+            "A02-L027",
+            "A02-L029",
+            "A02-L032",
+            "A02-L034",
+            "A02-L036",
+            "A02-L038",
+            "A02-L039",
+            "A02-L040",
+            "A02-L042",
+            "A02-L045",
+            "A02-L047",
+            "A02-L048",
+            "A02-L051",
+            "A02-L053"
+          ],
+          "full_scene_for_context": "A02",
+          "scene_approved": true
+        },
+        {
+          "scene_id": "A03",
+          "evidence_line_ids": [
+            "A03-L002",
+            "A03-L007",
+            "A03-L010",
+            "A03-L020",
+            "A03-L036",
+            "A03-L039",
+            "A03-L048",
+            "A03-L049"
+          ],
+          "full_scene_for_context": "A03",
+          "scene_approved": true
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_OR_UNAMBIGUOUS_ALIAS_NOT_PROOF_OF_DIRECT_INTERACTION"
+    },
+    {
+      "character_id": "ankita_woman_05",
+      "name": "Diya Sen",
+      "matches": [
+        {
+          "scene_id": "A02",
+          "evidence_line_ids": [
+            "A02-L043"
+          ],
+          "full_scene_for_context": "A02",
+          "scene_approved": true
+        },
+        {
+          "scene_id": "A03",
+          "evidence_line_ids": [
+            "A03-L040"
+          ],
+          "full_scene_for_context": "A03",
+          "scene_approved": true
+        },
+        {
+          "scene_id": "B03",
+          "evidence_line_ids": [
+            "B03-L030"
+          ],
+          "full_scene_for_context": "B03",
+          "scene_approved": true
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_OR_UNAMBIGUOUS_ALIAS_NOT_PROOF_OF_DIRECT_INTERACTION"
+    },
+    {
+      "character_id": "shivani_woman_01",
+      "name": "Pooja",
+      "matches": [
+        {
+          "scene_id": "B03",
+          "evidence_line_ids": [
+            "B03-L001",
+            "B03-L002",
+            "B03-L003",
+            "B03-L004",
+            "B03-L005",
+            "B03-L012",
+            "B03-L018",
+            "B03-L022",
+            "B03-L025",
+            "B03-L026",
+            "B03-L029",
+            "B03-L032"
+          ],
+          "full_scene_for_context": "B03",
+          "scene_approved": true
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_OR_UNAMBIGUOUS_ALIAS_NOT_PROOF_OF_DIRECT_INTERACTION"
+    },
+    {
+      "character_id": "shivani_woman_02",
+      "name": "Kriti",
+      "matches": [
+        {
+          "scene_id": "B03",
+          "evidence_line_ids": [
+            "B03-L001",
+            "B03-L006",
+            "B03-L007",
+            "B03-L009",
+            "B03-L010",
+            "B03-L011",
+            "B03-L012",
+            "B03-L018",
+            "B03-L020",
+            "B03-L024",
+            "B03-L025",
+            "B03-L028",
+            "B03-L029",
+            "B03-L035",
+            "B03-L036"
+          ],
+          "full_scene_for_context": "B03",
+          "scene_approved": true
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_OR_UNAMBIGUOUS_ALIAS_NOT_PROOF_OF_DIRECT_INTERACTION"
+    },
+    {
+      "character_id": "shivani_faculty_aarav",
+      "name": "Dr. Aarav Sethi",
+      "matches": [
+        {
+          "scene_id": "B03",
+          "evidence_line_ids": [
+            "B03-L001",
+            "B03-L002",
+            "B03-L003",
+            "B03-L005",
+            "B03-L006",
+            "B03-L007",
+            "B03-L008",
+            "B03-L010",
+            "B03-L013",
+            "B03-L014",
+            "B03-L016",
+            "B03-L017",
+            "B03-L020",
+            "B03-L021",
+            "B03-L023",
+            "B03-L027",
+            "B03-L030",
+            "B03-L031",
+            "B03-L033",
+            "B03-L039"
+          ],
+          "full_scene_for_context": "B03",
+          "scene_approved": true
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_OR_UNAMBIGUOUS_ALIAS_NOT_PROOF_OF_DIRECT_INTERACTION"
+    },
+    {
+      "character_id": "shivani",
+      "name": "Shivani",
+      "matches": [
+        {
+          "scene_id": "A02",
+          "evidence_line_ids": [
+            "A02-L001",
+            "A02-L004",
+            "A02-L006",
+            "A02-L008",
+            "A02-L011",
+            "A02-L013",
+            "A02-L016",
+            "A02-L018",
+            "A02-L021",
+            "A02-L023",
+            "A02-L024",
+            "A02-L026",
+            "A02-L028",
+            "A02-L031",
+            "A02-L037",
+            "A02-L038",
+            "A02-L040",
+            "A02-L041",
+            "A02-L043",
+            "A02-L044",
+            "A02-L046",
+            "A02-L049",
+            "A02-L050",
+            "A02-L054",
+            "A02-L056"
+          ],
+          "full_scene_for_context": "A02",
+          "scene_approved": true
+        },
+        {
+          "scene_id": "A03",
+          "evidence_line_ids": [
+            "A03-L003",
+            "A03-L005",
+            "A03-L009",
+            "A03-L010",
+            "A03-L015",
+            "A03-L018",
+            "A03-L023",
+            "A03-L032",
+            "A03-L034",
+            "A03-L037",
+            "A03-L040",
+            "A03-L041",
+            "A03-L045",
+            "A03-L047",
+            "A03-L049"
+          ],
+          "full_scene_for_context": "A03",
+          "scene_approved": true
+        },
+        {
+          "scene_id": "B03",
+          "evidence_line_ids": [
+            "B03-L001",
+            "B03-L013",
+            "B03-L014",
+            "B03-L015",
+            "B03-L017",
+            "B03-L025",
+            "B03-L030",
+            "B03-L036",
+            "B03-L037",
+            "B03-L039"
+          ],
+          "full_scene_for_context": "B03",
+          "scene_approved": true
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_OR_UNAMBIGUOUS_ALIAS_NOT_PROOF_OF_DIRECT_INTERACTION"
+    }
+  ],
+  "integrity": {
+    "approved_scenes_only": true,
+    "approved_scene_count": 3,
+    "source_characters_preserved": 24030,
+    "unabridged_scene_source_lines": true
+  }
+}
