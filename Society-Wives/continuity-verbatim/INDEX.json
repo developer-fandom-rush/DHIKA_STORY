@@ -1,0 +1,113 @@
+{
+  "schemaVersion": "1.0",
+  "title": "Society Wives — Verbatim Continuity Library",
+  "createdFrom": "Existing GitHub story sources, without generated dialogue, invented transitions or summarization.",
+  "repository": "developer-fandom-rush/DHIKA_STORY",
+  "episode02": {
+    "title": "The New Year's Unspoken Secrets",
+    "sourcePath": "Society-Wives/episode-02.html",
+    "sourceStatus": "USER_CLOSED_EPISODE_STORY_WINDOW; individual scenes retain source-specific approval status",
+    "files": [
+      {
+        "female": "Ankita",
+        "path": "Society-Wives/continuity-verbatim/episode-02/ankita.json",
+        "raw_url": "https://raw.githubusercontent.com/developer-fandom-rush/DHIKA_STORY/main/Society-Wives/continuity-verbatim/episode-02/ankita.json"
+      },
+      {
+        "female": "Shivani",
+        "path": "Society-Wives/continuity-verbatim/episode-02/shivani.json",
+        "raw_url": "https://raw.githubusercontent.com/developer-fandom-rush/DHIKA_STORY/main/Society-Wives/continuity-verbatim/episode-02/shivani.json"
+      },
+      {
+        "female": "Taniya",
+        "path": "Society-Wives/continuity-verbatim/episode-02/taniya.json",
+        "raw_url": "https://raw.githubusercontent.com/developer-fandom-rush/DHIKA_STORY/main/Society-Wives/continuity-verbatim/episode-02/taniya.json"
+      },
+      {
+        "female": "Soniya",
+        "path": "Society-Wives/continuity-verbatim/episode-02/soniya.json",
+        "raw_url": "https://raw.githubusercontent.com/developer-fandom-rush/DHIKA_STORY/main/Society-Wives/continuity-verbatim/episode-02/soniya.json"
+      },
+      {
+        "female": "Meenakshi",
+        "path": "Society-Wives/continuity-verbatim/episode-02/meenakshi.json",
+        "raw_url": "https://raw.githubusercontent.com/developer-fandom-rush/DHIKA_STORY/main/Society-Wives/continuity-verbatim/episode-02/meenakshi.json"
+      },
+      {
+        "female": "Shreya",
+        "path": "Society-Wives/continuity-verbatim/episode-02/shreya.json",
+        "raw_url": "https://raw.githubusercontent.com/developer-fandom-rush/DHIKA_STORY/main/Society-Wives/continuity-verbatim/episode-02/shreya.json"
+      }
+    ],
+    "known_gaps": [
+      "Meenakshi M09 is present only as planned outline; no source full prose was found.",
+      "Shreya SR03 is referenced but its full prose was not published in the unified source.",
+      "Taniya and Soniya TS12, TS13, TS14, TS15, TS16 plan scenes do not have full published prose.",
+      "Ankita A05 and other published review drafts are included verbatim but not granted approval by this archive.",
+      "Shivani published-only scenes are included verbatim; published is not automatically user-approved."
+    ]
+  },
+  "episode01": {
+    "title": "Five Doors, Eleven Worlds",
+    "sourcePath": "Society-Wives/episode-01.json",
+    "sourceApproval": "SOURCE_EXPLICITLY_MARKED_NOT_APPROVED",
+    "files": [
+      {
+        "female": "Ankita",
+        "path": "Society-Wives/continuity-verbatim/episode-01-DRAFT/ankita.json",
+        "raw_url": "https://raw.githubusercontent.com/developer-fandom-rush/DHIKA_STORY/main/Society-Wives/continuity-verbatim/episode-01-DRAFT/ankita.json"
+      },
+      {
+        "female": "Shivani",
+        "path": "Society-Wives/continuity-verbatim/episode-01-DRAFT/shivani.json",
+        "raw_url": "https://raw.githubusercontent.com/developer-fandom-rush/DHIKA_STORY/main/Society-Wives/continuity-verbatim/episode-01-DRAFT/shivani.json"
+      },
+      {
+        "female": "Taniya",
+        "path": "Society-Wives/continuity-verbatim/episode-01-DRAFT/taniya.json",
+        "raw_url": "https://raw.githubusercontent.com/developer-fandom-rush/DHIKA_STORY/main/Society-Wives/continuity-verbatim/episode-01-DRAFT/taniya.json"
+      },
+      {
+        "female": "Soniya",
+        "path": "Society-Wives/continuity-verbatim/episode-01-DRAFT/soniya.json",
+        "raw_url": "https://raw.githubusercontent.com/developer-fandom-rush/DHIKA_STORY/main/Society-Wives/continuity-verbatim/episode-01-DRAFT/soniya.json"
+      },
+      {
+        "female": "Meenakshi",
+        "path": "Society-Wives/continuity-verbatim/episode-01-DRAFT/meenakshi.json",
+        "raw_url": "https://raw.githubusercontent.com/developer-fandom-rush/DHIKA_STORY/main/Society-Wives/continuity-verbatim/episode-01-DRAFT/meenakshi.json"
+      },
+      {
+        "female": "Shreya",
+        "path": "Society-Wives/continuity-verbatim/episode-01-DRAFT/shreya.json",
+        "raw_url": "https://raw.githubusercontent.com/developer-fandom-rush/DHIKA_STORY/main/Society-Wives/continuity-verbatim/episode-01-DRAFT/shreya.json"
+      }
+    ]
+  },
+  "queryProtocol": {
+    "goal": "Use exact source wording, not summaries or assumptions.",
+    "order": [
+      "Read the requested female's episode-specific JSON.",
+      "Locate person in character_name_index. This is an explicit-mention locator, not a claim of consent, presence or direct interaction.",
+      "For each matching scene, read the entire scene's prose_line_records in original order. Continue beyond name-matching lines because nearby pronoun turns may matter.",
+      "For byte-for-byte source recall, reconstruct source_html_lines_exact with newline; no content is omitted or paraphrased.",
+      "Filter scene.approved_by_source_plan, approved_by_ui_or_plan or approved_by_ui_label only when user explicitly requests approved-only results.",
+      "If an episode or scene is missing, say the source is missing. Do not reconstruct prose from a plan, image or memory.",
+      "If speaker or pronoun referent is ambiguous, quote exact passage and state ambiguity. Never invent who is speaking, who is physically present, or whether contact was consensual."
+    ],
+    "noSummary": true,
+    "noShortcut": true,
+    "noAssumption": true,
+    "noProseOmission": true
+  },
+  "updatePolicy": {
+    "exactUserIntent": "After each episode, update these JSON files when I tell you to update them.",
+    "trigger": "ONLY_WHEN_USER_SAYS_UPDATE_THE_JSON",
+    "cadence": "After episode completion, user-commanded, never automatic",
+    "preservePastSceneText": true,
+    "revisionRequired": true,
+    "includeNewlyApprovedScenesOnlyWhenGrounded": true,
+    "logMissingAndDraftScenesSeparately": true,
+    "expectedAction": "Fetch latest approved GitHub source, compare against prior archived JSON, preserve unchanged scene records, append/update only grounded changed source text, rebuild name/speaker index, record source blob SHA and verification."
+  }
+}
