@@ -1,0 +1,6065 @@
+{
+  "schema": "verbatim-pair-lookup-v1",
+  "source": "Six complete per-female episode-02 verbatim JSON files; lookup pointers only; no story paraphrase.",
+  "warning": "A name mention in the same scene is NOT proof of direct speech, physical presence, desire, knowledge or consent. Read complete referenced source scenes before answering.",
+  "female_character_lookups": {
+    "Ankita": {
+      "Kabir": [
+        {
+          "scene_id": "A05-SCENE-5",
+          "evidence_line_ids": [
+            "A05-SCENE-5-L005",
+            "A05-SCENE-5-L008"
+          ],
+          "full_scene_for_context": "A05-SCENE-5",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/ankita.json"
+        },
+        {
+          "scene_id": "A08-SCENE-8",
+          "evidence_line_ids": [
+            "A08-SCENE-8-L038"
+          ],
+          "full_scene_for_context": "A08-SCENE-8",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/ankita.json"
+        },
+        {
+          "scene_id": "P01",
+          "evidence_line_ids": [
+            "P01-L012"
+          ],
+          "full_scene_for_context": "P01",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/ankita.json"
+        },
+        {
+          "scene_id": "P08",
+          "evidence_line_ids": [
+            "P08-L009"
+          ],
+          "full_scene_for_context": "P08",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/ankita.json"
+        }
+      ],
+      "Karan": [
+        {
+          "scene_id": "A04-SCENE-4",
+          "evidence_line_ids": [
+            "A04-SCENE-4-L001",
+            "A04-SCENE-4-L005",
+            "A04-SCENE-4-L006",
+            "A04-SCENE-4-L008",
+            "A04-SCENE-4-L010",
+            "A04-SCENE-4-L017",
+            "A04-SCENE-4-L020",
+            "A04-SCENE-4-L021",
+            "A04-SCENE-4-L023",
+            "A04-SCENE-4-L026",
+            "A04-SCENE-4-L027",
+            "A04-SCENE-4-L029",
+            "A04-SCENE-4-L031",
+            "A04-SCENE-4-L032",
+            "A04-SCENE-4-L034",
+            "A04-SCENE-4-L036",
+            "A04-SCENE-4-L038",
+            "A04-SCENE-4-L040",
+            "A04-SCENE-4-L042",
+            "A04-SCENE-4-L044",
+            "A04-SCENE-4-L045",
+            "A04-SCENE-4-L046",
+            "A04-SCENE-4-L049",
+            "A04-SCENE-4-L061",
+            "A04-SCENE-4-L070",
+            "A04-SCENE-4-L075"
+          ],
+          "full_scene_for_context": "A04-SCENE-4",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/ankita.json"
+        },
+        {
+          "scene_id": "A05-SCENE-5",
+          "evidence_line_ids": [
+            "A05-SCENE-5-L004"
+          ],
+          "full_scene_for_context": "A05-SCENE-5",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/ankita.json"
+        }
+      ],
+      "Aman": [
+        {
+          "scene_id": "A04-SCENE-4",
+          "evidence_line_ids": [
+            "A04-SCENE-4-L001",
+            "A04-SCENE-4-L012",
+            "A04-SCENE-4-L013",
+            "A04-SCENE-4-L015",
+            "A04-SCENE-4-L018",
+            "A04-SCENE-4-L024",
+            "A04-SCENE-4-L045",
+            "A04-SCENE-4-L046",
+            "A04-SCENE-4-L047",
+            "A04-SCENE-4-L048",
+            "A04-SCENE-4-L050",
+            "A04-SCENE-4-L052",
+            "A04-SCENE-4-L053",
+            "A04-SCENE-4-L054",
+            "A04-SCENE-4-L055",
+            "A04-SCENE-4-L057",
+            "A04-SCENE-4-L060",
+            "A04-SCENE-4-L061",
+            "A04-SCENE-4-L070",
+            "A04-SCENE-4-L072",
+            "A04-SCENE-4-L075"
+          ],
+          "full_scene_for_context": "A04-SCENE-4",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/ankita.json"
+        },
+        {
+          "scene_id": "A05-SCENE-5",
+          "evidence_line_ids": [
+            "A05-SCENE-5-L004"
+          ],
+          "full_scene_for_context": "A05-SCENE-5",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/ankita.json"
+        }
+      ],
+      "Rajeev": [
+        {
+          "scene_id": "A04-SCENE-4",
+          "evidence_line_ids": [
+            "A04-SCENE-4-L001",
+            "A04-SCENE-4-L063",
+            "A04-SCENE-4-L065",
+            "A04-SCENE-4-L067",
+            "A04-SCENE-4-L068",
+            "A04-SCENE-4-L070",
+            "A04-SCENE-4-L075"
+          ],
+          "full_scene_for_context": "A04-SCENE-4",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/ankita.json"
+        },
+        {
+          "scene_id": "A05-SCENE-5",
+          "evidence_line_ids": [
+            "A05-SCENE-5-L008"
+          ],
+          "full_scene_for_context": "A05-SCENE-5",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/ankita.json"
+        },
+        {
+          "scene_id": "P07",
+          "evidence_line_ids": [
+            "P07-L001",
+            "P07-L002",
+            "P07-L003",
+            "P07-L004",
+            "P07-L005",
+            "P07-L007",
+            "P07-L012",
+            "P07-L014",
+            "P07-L015",
+            "P07-L016"
+          ],
+          "full_scene_for_context": "P07",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/ankita.json"
+        },
+        {
+          "scene_id": "P08",
+          "evidence_line_ids": [
+            "P08-L001",
+            "P08-L002",
+            "P08-L005",
+            "P08-L010",
+            "P08-L013",
+            "P08-L015",
+            "P08-L016",
+            "P08-L017"
+          ],
+          "full_scene_for_context": "P08",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/ankita.json"
+        }
+      ],
+      "Rohan": [
+        {
+          "scene_id": "A02-SCENE-1",
+          "evidence_line_ids": [
+            "A02-SCENE-1-L001",
+            "A02-SCENE-1-L003",
+            "A02-SCENE-1-L005",
+            "A02-SCENE-1-L007",
+            "A02-SCENE-1-L009",
+            "A02-SCENE-1-L011",
+            "A02-SCENE-1-L012",
+            "A02-SCENE-1-L014",
+            "A02-SCENE-1-L015",
+            "A02-SCENE-1-L016",
+            "A02-SCENE-1-L018"
+          ],
+          "full_scene_for_context": "A02-SCENE-1",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/ankita.json"
+        },
+        {
+          "scene_id": "A02-SCENE-2",
+          "evidence_line_ids": [
+            "A02-SCENE-2-L001",
+            "A02-SCENE-2-L002",
+            "A02-SCENE-2-L003",
+            "A02-SCENE-2-L005",
+            "A02-SCENE-2-L008",
+            "A02-SCENE-2-L012",
+            "A02-SCENE-2-L013",
+            "A02-SCENE-2-L015",
+            "A02-SCENE-2-L018",
+            "A02-SCENE-2-L020",
+            "A02-SCENE-2-L021",
+            "A02-SCENE-2-L025"
+          ],
+          "full_scene_for_context": "A02-SCENE-2",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/ankita.json"
+        },
+        {
+          "scene_id": "A03-SCENE-3",
+          "evidence_line_ids": [
+            "A03-SCENE-3-L002",
+            "A03-SCENE-3-L006",
+            "A03-SCENE-3-L008",
+            "A03-SCENE-3-L073"
+          ],
+          "full_scene_for_context": "A03-SCENE-3",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/ankita.json"
+        },
+        {
+          "scene_id": "A04-SCENE-4",
+          "evidence_line_ids": [
+            "A04-SCENE-4-L002",
+            "A04-SCENE-4-L024",
+            "A04-SCENE-4-L072"
+          ],
+          "full_scene_for_context": "A04-SCENE-4",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/ankita.json"
+        },
+        {
+          "scene_id": "A05-SCENE-5",
+          "evidence_line_ids": [
+            "A05-SCENE-5-L004"
+          ],
+          "full_scene_for_context": "A05-SCENE-5",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/ankita.json"
+        },
+        {
+          "scene_id": "A06-SCENE-6",
+          "evidence_line_ids": [
+            "A06-SCENE-6-L002"
+          ],
+          "full_scene_for_context": "A06-SCENE-6",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/ankita.json"
+        }
+      ],
+      "Om": [
+        {
+          "scene_id": "P02",
+          "evidence_line_ids": [
+            "P02-L015"
+          ],
+          "full_scene_for_context": "P02",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/ankita.json"
+        },
+        {
+          "scene_id": "P03",
+          "evidence_line_ids": [
+            "P03-L001",
+            "P03-L003",
+            "P03-L004",
+            "P03-L006",
+            "P03-L008",
+            "P03-L009",
+            "P03-L010",
+            "P03-L012",
+            "P03-L013",
+            "P03-L014"
+          ],
+          "full_scene_for_context": "P03",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/ankita.json"
+        },
+        {
+          "scene_id": "P08",
+          "evidence_line_ids": [
+            "P08-L001",
+            "P08-L004",
+            "P08-L012",
+            "P08-L013"
+          ],
+          "full_scene_for_context": "P08",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/ankita.json"
+        }
+      ],
+      "Subhash": [
+        {
+          "scene_id": "P04",
+          "evidence_line_ids": [
+            "P04-L001",
+            "P04-L003",
+            "P04-L004",
+            "P04-L007",
+            "P04-L009",
+            "P04-L011",
+            "P04-L014",
+            "P04-L015",
+            "P04-L016"
+          ],
+          "full_scene_for_context": "P04",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/ankita.json"
+        },
+        {
+          "scene_id": "P08",
+          "evidence_line_ids": [
+            "P08-L001",
+            "P08-L006",
+            "P08-L013"
+          ],
+          "full_scene_for_context": "P08",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/ankita.json"
+        }
+      ],
+      "Nikhil": [
+        {
+          "scene_id": "A02-SCENE-1",
+          "evidence_line_ids": [
+            "A02-SCENE-1-L019"
+          ],
+          "full_scene_for_context": "A02-SCENE-1",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/ankita.json"
+        },
+        {
+          "scene_id": "A02-SCENE-2",
+          "evidence_line_ids": [
+            "A02-SCENE-2-L001",
+            "A02-SCENE-2-L002",
+            "A02-SCENE-2-L003",
+            "A02-SCENE-2-L005",
+            "A02-SCENE-2-L006",
+            "A02-SCENE-2-L008",
+            "A02-SCENE-2-L010",
+            "A02-SCENE-2-L011",
+            "A02-SCENE-2-L012",
+            "A02-SCENE-2-L014",
+            "A02-SCENE-2-L017",
+            "A02-SCENE-2-L020",
+            "A02-SCENE-2-L024"
+          ],
+          "full_scene_for_context": "A02-SCENE-2",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/ankita.json"
+        },
+        {
+          "scene_id": "A03-SCENE-3",
+          "evidence_line_ids": [
+            "A03-SCENE-3-L002",
+            "A03-SCENE-3-L006",
+            "A03-SCENE-3-L031",
+            "A03-SCENE-3-L066",
+            "A03-SCENE-3-L073"
+          ],
+          "full_scene_for_context": "A03-SCENE-3",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/ankita.json"
+        },
+        {
+          "scene_id": "A04-SCENE-4",
+          "evidence_line_ids": [
+            "A04-SCENE-4-L002",
+            "A04-SCENE-4-L024"
+          ],
+          "full_scene_for_context": "A04-SCENE-4",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/ankita.json"
+        },
+        {
+          "scene_id": "A05-SCENE-5",
+          "evidence_line_ids": [
+            "A05-SCENE-5-L004"
+          ],
+          "full_scene_for_context": "A05-SCENE-5",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/ankita.json"
+        },
+        {
+          "scene_id": "A06-SCENE-6",
+          "evidence_line_ids": [
+            "A06-SCENE-6-L002"
+          ],
+          "full_scene_for_context": "A06-SCENE-6",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/ankita.json"
+        }
+      ],
+      "Mohan": [
+        {
+          "scene_id": "P05",
+          "evidence_line_ids": [
+            "P05-L001",
+            "P05-L003",
+            "P05-L004",
+            "P05-L006",
+            "P05-L008",
+            "P05-L009",
+            "P05-L012",
+            "P05-L013",
+            "P05-L014"
+          ],
+          "full_scene_for_context": "P05",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/ankita.json"
+        },
+        {
+          "scene_id": "P08",
+          "evidence_line_ids": [
+            "P08-L001",
+            "P08-L007",
+            "P08-L013"
+          ],
+          "full_scene_for_context": "P08",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/ankita.json"
+        }
+      ],
+      "Vikram": [
+        {
+          "scene_id": "A03-SCENE-3",
+          "evidence_line_ids": [
+            "A03-SCENE-3-L001",
+            "A03-SCENE-3-L039",
+            "A03-SCENE-3-L040",
+            "A03-SCENE-3-L041",
+            "A03-SCENE-3-L042",
+            "A03-SCENE-3-L044",
+            "A03-SCENE-3-L045",
+            "A03-SCENE-3-L048",
+            "A03-SCENE-3-L051",
+            "A03-SCENE-3-L052",
+            "A03-SCENE-3-L054",
+            "A03-SCENE-3-L057",
+            "A03-SCENE-3-L058",
+            "A03-SCENE-3-L067",
+            "A03-SCENE-3-L070",
+            "A03-SCENE-3-L073"
+          ],
+          "full_scene_for_context": "A03-SCENE-3",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/ankita.json"
+        },
+        {
+          "scene_id": "A04-SCENE-4",
+          "evidence_line_ids": [
+            "A04-SCENE-4-L002",
+            "A04-SCENE-4-L024"
+          ],
+          "full_scene_for_context": "A04-SCENE-4",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/ankita.json"
+        },
+        {
+          "scene_id": "A05-SCENE-5",
+          "evidence_line_ids": [
+            "A05-SCENE-5-L004"
+          ],
+          "full_scene_for_context": "A05-SCENE-5",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/ankita.json"
+        }
+      ],
+      "Arvind": [
+        {
+          "scene_id": "P06",
+          "evidence_line_ids": [
+            "P06-L001",
+            "P06-L003",
+            "P06-L005",
+            "P06-L008",
+            "P06-L009",
+            "P06-L010",
+            "P06-L011",
+            "P06-L013"
+          ],
+          "full_scene_for_context": "P06",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/ankita.json"
+        },
+        {
+          "scene_id": "P08",
+          "evidence_line_ids": [
+            "P08-L001",
+            "P08-L009",
+            "P08-L013"
+          ],
+          "full_scene_for_context": "P08",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/ankita.json"
+        }
+      ],
+      "Ayaan": [
+        {
+          "scene_id": "A06-SCENE-6",
+          "evidence_line_ids": [
+            "A06-SCENE-6-L001",
+            "A06-SCENE-6-L007",
+            "A06-SCENE-6-L009",
+            "A06-SCENE-6-L012",
+            "A06-SCENE-6-L014",
+            "A06-SCENE-6-L016",
+            "A06-SCENE-6-L028",
+            "A06-SCENE-6-L032",
+            "A06-SCENE-6-L033",
+            "A06-SCENE-6-L035",
+            "A06-SCENE-6-L037",
+            "A06-SCENE-6-L038",
+            "A06-SCENE-6-L039",
+            "A06-SCENE-6-L046",
+            "A06-SCENE-6-L047",
+            "A06-SCENE-6-L049",
+            "A06-SCENE-6-L050",
+            "A06-SCENE-6-L052",
+            "A06-SCENE-6-L058",
+            "A06-SCENE-6-L062",
+            "A06-SCENE-6-L063",
+            "A06-SCENE-6-L065",
+            "A06-SCENE-6-L070",
+            "A06-SCENE-6-L077",
+            "A06-SCENE-6-L081",
+            "A06-SCENE-6-L086",
+            "A06-SCENE-6-L087"
+          ],
+          "full_scene_for_context": "A06-SCENE-6",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/ankita.json"
+        },
+        {
+          "scene_id": "A07-SCENE-7",
+          "evidence_line_ids": [
+            "A07-SCENE-7-L005"
+          ],
+          "full_scene_for_context": "A07-SCENE-7",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/ankita.json"
+        }
+      ],
+      "Armaan": [
+        {
+          "scene_id": "A06-SCENE-6",
+          "evidence_line_ids": [
+            "A06-SCENE-6-L001",
+            "A06-SCENE-6-L007",
+            "A06-SCENE-6-L009",
+            "A06-SCENE-6-L017",
+            "A06-SCENE-6-L018",
+            "A06-SCENE-6-L019",
+            "A06-SCENE-6-L021",
+            "A06-SCENE-6-L022",
+            "A06-SCENE-6-L025",
+            "A06-SCENE-6-L026",
+            "A06-SCENE-6-L027",
+            "A06-SCENE-6-L041",
+            "A06-SCENE-6-L043",
+            "A06-SCENE-6-L044",
+            "A06-SCENE-6-L052",
+            "A06-SCENE-6-L054",
+            "A06-SCENE-6-L056",
+            "A06-SCENE-6-L058",
+            "A06-SCENE-6-L067",
+            "A06-SCENE-6-L068",
+            "A06-SCENE-6-L073",
+            "A06-SCENE-6-L079",
+            "A06-SCENE-6-L086",
+            "A06-SCENE-6-L088"
+          ],
+          "full_scene_for_context": "A06-SCENE-6",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/ankita.json"
+        },
+        {
+          "scene_id": "A07-SCENE-7",
+          "evidence_line_ids": [
+            "A07-SCENE-7-L005"
+          ],
+          "full_scene_for_context": "A07-SCENE-7",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/ankita.json"
+        }
+      ],
+      "Mahendra Suri": [
+        {
+          "scene_id": "P02",
+          "evidence_line_ids": [
+            "P02-L001",
+            "P02-L004",
+            "P02-L006",
+            "P02-L007",
+            "P02-L009",
+            "P02-L011",
+            "P02-L012",
+            "P02-L014"
+          ],
+          "full_scene_for_context": "P02",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/ankita.json"
+        },
+        {
+          "scene_id": "P03",
+          "evidence_line_ids": [
+            "P03-L001",
+            "P03-L004",
+            "P03-L005",
+            "P03-L007",
+            "P03-L011",
+            "P03-L014"
+          ],
+          "full_scene_for_context": "P03",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/ankita.json"
+        },
+        {
+          "scene_id": "P07",
+          "evidence_line_ids": [
+            "P07-L001",
+            "P07-L003",
+            "P07-L004",
+            "P07-L006",
+            "P07-L013"
+          ],
+          "full_scene_for_context": "P07",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/ankita.json"
+        },
+        {
+          "scene_id": "P08",
+          "evidence_line_ids": [
+            "P08-L001",
+            "P08-L005",
+            "P08-L011",
+            "P08-L013"
+          ],
+          "full_scene_for_context": "P08",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/ankita.json"
+        }
+      ],
+      "Vivek Rao": [
+        {
+          "scene_id": "A03-SCENE-3",
+          "evidence_line_ids": [
+            "A03-SCENE-3-L001",
+            "A03-SCENE-3-L009"
+          ],
+          "full_scene_for_context": "A03-SCENE-3",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/ankita.json"
+        }
+      ],
+      "Vivan": [
+        {
+          "scene_id": "A08-SCENE-8",
+          "evidence_line_ids": [
+            "A08-SCENE-8-L001",
+            "A08-SCENE-8-L007",
+            "A08-SCENE-8-L016",
+            "A08-SCENE-8-L017",
+            "A08-SCENE-8-L018",
+            "A08-SCENE-8-L019",
+            "A08-SCENE-8-L035",
+            "A08-SCENE-8-L036",
+            "A08-SCENE-8-L038",
+            "A08-SCENE-8-L041",
+            "A08-SCENE-8-L042",
+            "A08-SCENE-8-L047",
+            "A08-SCENE-8-L051",
+            "A08-SCENE-8-L052",
+            "A08-SCENE-8-L061"
+          ],
+          "full_scene_for_context": "A08-SCENE-8",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/ankita.json"
+        }
+      ],
+      "Reyansh": [
+        {
+          "scene_id": "A08-SCENE-8",
+          "evidence_line_ids": [
+            "A08-SCENE-8-L001",
+            "A08-SCENE-8-L006",
+            "A08-SCENE-8-L020",
+            "A08-SCENE-8-L022",
+            "A08-SCENE-8-L024",
+            "A08-SCENE-8-L035",
+            "A08-SCENE-8-L041",
+            "A08-SCENE-8-L044",
+            "A08-SCENE-8-L055",
+            "A08-SCENE-8-L060",
+            "A08-SCENE-8-L061"
+          ],
+          "full_scene_for_context": "A08-SCENE-8",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/ankita.json"
+        }
+      ],
+      "Priya Nair": [
+        {
+          "scene_id": "A08-SCENE-8",
+          "evidence_line_ids": [
+            "A08-SCENE-8-L001",
+            "A08-SCENE-8-L003",
+            "A08-SCENE-8-L010",
+            "A08-SCENE-8-L011",
+            "A08-SCENE-8-L015",
+            "A08-SCENE-8-L027"
+          ],
+          "full_scene_for_context": "A08-SCENE-8",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/ankita.json"
+        }
+      ],
+      "Nisha Gupta": [
+        {
+          "scene_id": "A08-SCENE-8",
+          "evidence_line_ids": [
+            "A08-SCENE-8-L001",
+            "A08-SCENE-8-L005",
+            "A08-SCENE-8-L010",
+            "A08-SCENE-8-L012",
+            "A08-SCENE-8-L056",
+            "A08-SCENE-8-L057"
+          ],
+          "full_scene_for_context": "A08-SCENE-8",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/ankita.json"
+        }
+      ],
+      "Diya Sen": [
+        {
+          "scene_id": "A02-SCENE-1",
+          "evidence_line_ids": [
+            "A02-SCENE-1-L007",
+            "A02-SCENE-1-L013",
+            "A02-SCENE-1-L019"
+          ],
+          "full_scene_for_context": "A02-SCENE-1",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/ankita.json"
+        },
+        {
+          "scene_id": "A02-SCENE-2",
+          "evidence_line_ids": [
+            "A02-SCENE-2-L003"
+          ],
+          "full_scene_for_context": "A02-SCENE-2",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/ankita.json"
+        },
+        {
+          "scene_id": "A03-SCENE-3",
+          "evidence_line_ids": [
+            "A03-SCENE-3-L050"
+          ],
+          "full_scene_for_context": "A03-SCENE-3",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/ankita.json"
+        },
+        {
+          "scene_id": "A04-SCENE-4",
+          "evidence_line_ids": [
+            "A04-SCENE-4-L068"
+          ],
+          "full_scene_for_context": "A04-SCENE-4",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/ankita.json"
+        },
+        {
+          "scene_id": "A05-SCENE-5",
+          "evidence_line_ids": [
+            "A05-SCENE-5-L003",
+            "A05-SCENE-5-L005"
+          ],
+          "full_scene_for_context": "A05-SCENE-5",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/ankita.json"
+        },
+        {
+          "scene_id": "A06-SCENE-6",
+          "evidence_line_ids": [
+            "A06-SCENE-6-L017",
+            "A06-SCENE-6-L087"
+          ],
+          "full_scene_for_context": "A06-SCENE-6",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/ankita.json"
+        },
+        {
+          "scene_id": "A07-SCENE-7",
+          "evidence_line_ids": [
+            "A07-SCENE-7-L007"
+          ],
+          "full_scene_for_context": "A07-SCENE-7",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/ankita.json"
+        },
+        {
+          "scene_id": "A08-SCENE-8",
+          "evidence_line_ids": [
+            "A08-SCENE-8-L061"
+          ],
+          "full_scene_for_context": "A08-SCENE-8",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/ankita.json"
+        },
+        {
+          "scene_id": "P01",
+          "evidence_line_ids": [
+            "P01-L008"
+          ],
+          "full_scene_for_context": "P01",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/ankita.json"
+        },
+        {
+          "scene_id": "P02",
+          "evidence_line_ids": [
+            "P02-L010",
+            "P02-L015"
+          ],
+          "full_scene_for_context": "P02",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/ankita.json"
+        },
+        {
+          "scene_id": "P04",
+          "evidence_line_ids": [
+            "P04-L010"
+          ],
+          "full_scene_for_context": "P04",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/ankita.json"
+        },
+        {
+          "scene_id": "P07",
+          "evidence_line_ids": [
+            "P07-L009"
+          ],
+          "full_scene_for_context": "P07",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/ankita.json"
+        }
+      ],
+      "Gopal": [
+        {
+          "scene_id": "A07-SCENE-7",
+          "evidence_line_ids": [
+            "A07-SCENE-7-L001",
+            "A07-SCENE-7-L002",
+            "A07-SCENE-7-L008",
+            "A07-SCENE-7-L009",
+            "A07-SCENE-7-L010",
+            "A07-SCENE-7-L012",
+            "A07-SCENE-7-L014",
+            "A07-SCENE-7-L016",
+            "A07-SCENE-7-L017",
+            "A07-SCENE-7-L020",
+            "A07-SCENE-7-L022",
+            "A07-SCENE-7-L025",
+            "A07-SCENE-7-L026",
+            "A07-SCENE-7-L027",
+            "A07-SCENE-7-L030",
+            "A07-SCENE-7-L032",
+            "A07-SCENE-7-L034",
+            "A07-SCENE-7-L037",
+            "A07-SCENE-7-L039",
+            "A07-SCENE-7-L042",
+            "A07-SCENE-7-L044",
+            "A07-SCENE-7-L045",
+            "A07-SCENE-7-L048",
+            "A07-SCENE-7-L054",
+            "A07-SCENE-7-L056",
+            "A07-SCENE-7-L059",
+            "A07-SCENE-7-L063",
+            "A07-SCENE-7-L064",
+            "A07-SCENE-7-L065",
+            "A07-SCENE-7-L068"
+          ],
+          "full_scene_for_context": "A07-SCENE-7",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/ankita.json"
+        },
+        {
+          "scene_id": "P01",
+          "evidence_line_ids": [
+            "P01-L001",
+            "P01-L002",
+            "P01-L005",
+            "P01-L006",
+            "P01-L008",
+            "P01-L011",
+            "P01-L016",
+            "P01-L017"
+          ],
+          "full_scene_for_context": "P01",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/ankita.json"
+        },
+        {
+          "scene_id": "P02",
+          "evidence_line_ids": [
+            "P02-L001",
+            "P02-L003",
+            "P02-L004",
+            "P02-L005",
+            "P02-L006",
+            "P02-L008"
+          ],
+          "full_scene_for_context": "P02",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/ankita.json"
+        },
+        {
+          "scene_id": "P08",
+          "evidence_line_ids": [
+            "P08-L003",
+            "P08-L013"
+          ],
+          "full_scene_for_context": "P08",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/ankita.json"
+        }
+      ],
+      "Ankita": [
+        {
+          "scene_id": "A02-SCENE-1",
+          "evidence_line_ids": [
+            "A02-SCENE-1-L001",
+            "A02-SCENE-1-L002",
+            "A02-SCENE-1-L004",
+            "A02-SCENE-1-L005",
+            "A02-SCENE-1-L006",
+            "A02-SCENE-1-L008",
+            "A02-SCENE-1-L010",
+            "A02-SCENE-1-L012",
+            "A02-SCENE-1-L013",
+            "A02-SCENE-1-L015",
+            "A02-SCENE-1-L017",
+            "A02-SCENE-1-L019"
+          ],
+          "full_scene_for_context": "A02-SCENE-1",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/ankita.json"
+        },
+        {
+          "scene_id": "A02-SCENE-2",
+          "evidence_line_ids": [
+            "A02-SCENE-2-L001",
+            "A02-SCENE-2-L002",
+            "A02-SCENE-2-L004",
+            "A02-SCENE-2-L007",
+            "A02-SCENE-2-L009",
+            "A02-SCENE-2-L011",
+            "A02-SCENE-2-L013",
+            "A02-SCENE-2-L016",
+            "A02-SCENE-2-L019",
+            "A02-SCENE-2-L022",
+            "A02-SCENE-2-L023",
+            "A02-SCENE-2-L024",
+            "A02-SCENE-2-L026",
+            "A02-SCENE-2-L027"
+          ],
+          "full_scene_for_context": "A02-SCENE-2",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/ankita.json"
+        },
+        {
+          "scene_id": "A03-SCENE-3",
+          "evidence_line_ids": [
+            "A03-SCENE-3-L001",
+            "A03-SCENE-3-L005",
+            "A03-SCENE-3-L010",
+            "A03-SCENE-3-L011",
+            "A03-SCENE-3-L013",
+            "A03-SCENE-3-L015",
+            "A03-SCENE-3-L018",
+            "A03-SCENE-3-L020",
+            "A03-SCENE-3-L025",
+            "A03-SCENE-3-L027",
+            "A03-SCENE-3-L028",
+            "A03-SCENE-3-L030",
+            "A03-SCENE-3-L033",
+            "A03-SCENE-3-L034",
+            "A03-SCENE-3-L036",
+            "A03-SCENE-3-L041",
+            "A03-SCENE-3-L044",
+            "A03-SCENE-3-L046",
+            "A03-SCENE-3-L047",
+            "A03-SCENE-3-L049",
+            "A03-SCENE-3-L053",
+            "A03-SCENE-3-L056",
+            "A03-SCENE-3-L058",
+            "A03-SCENE-3-L059",
+            "A03-SCENE-3-L060",
+            "A03-SCENE-3-L062",
+            "A03-SCENE-3-L063",
+            "A03-SCENE-3-L065",
+            "A03-SCENE-3-L068",
+            "A03-SCENE-3-L070",
+            "A03-SCENE-3-L072"
+          ],
+          "full_scene_for_context": "A03-SCENE-3",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/ankita.json"
+        },
+        {
+          "scene_id": "A04-SCENE-4",
+          "evidence_line_ids": [
+            "A04-SCENE-4-L001",
+            "A04-SCENE-4-L002",
+            "A04-SCENE-4-L004",
+            "A04-SCENE-4-L007",
+            "A04-SCENE-4-L009",
+            "A04-SCENE-4-L011",
+            "A04-SCENE-4-L014",
+            "A04-SCENE-4-L016",
+            "A04-SCENE-4-L018",
+            "A04-SCENE-4-L020",
+            "A04-SCENE-4-L022",
+            "A04-SCENE-4-L024",
+            "A04-SCENE-4-L028",
+            "A04-SCENE-4-L030",
+            "A04-SCENE-4-L031",
+            "A04-SCENE-4-L033",
+            "A04-SCENE-4-L035",
+            "A04-SCENE-4-L037",
+            "A04-SCENE-4-L039",
+            "A04-SCENE-4-L041",
+            "A04-SCENE-4-L043",
+            "A04-SCENE-4-L052",
+            "A04-SCENE-4-L055",
+            "A04-SCENE-4-L058",
+            "A04-SCENE-4-L060",
+            "A04-SCENE-4-L063",
+            "A04-SCENE-4-L064",
+            "A04-SCENE-4-L065",
+            "A04-SCENE-4-L066",
+            "A04-SCENE-4-L068",
+            "A04-SCENE-4-L069",
+            "A04-SCENE-4-L070",
+            "A04-SCENE-4-L072"
+          ],
+          "full_scene_for_context": "A04-SCENE-4",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/ankita.json"
+        },
+        {
+          "scene_id": "A05-SCENE-5",
+          "evidence_line_ids": [
+            "A05-SCENE-5-L001",
+            "A05-SCENE-5-L003",
+            "A05-SCENE-5-L007",
+            "A05-SCENE-5-L008"
+          ],
+          "full_scene_for_context": "A05-SCENE-5",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/ankita.json"
+        },
+        {
+          "scene_id": "A06-SCENE-6",
+          "evidence_line_ids": [
+            "A06-SCENE-6-L001",
+            "A06-SCENE-6-L004",
+            "A06-SCENE-6-L009",
+            "A06-SCENE-6-L010",
+            "A06-SCENE-6-L012",
+            "A06-SCENE-6-L013",
+            "A06-SCENE-6-L015",
+            "A06-SCENE-6-L018",
+            "A06-SCENE-6-L020",
+            "A06-SCENE-6-L023",
+            "A06-SCENE-6-L026",
+            "A06-SCENE-6-L027",
+            "A06-SCENE-6-L029",
+            "A06-SCENE-6-L034",
+            "A06-SCENE-6-L036",
+            "A06-SCENE-6-L038",
+            "A06-SCENE-6-L040",
+            "A06-SCENE-6-L042",
+            "A06-SCENE-6-L045",
+            "A06-SCENE-6-L048",
+            "A06-SCENE-6-L050",
+            "A06-SCENE-6-L051",
+            "A06-SCENE-6-L053",
+            "A06-SCENE-6-L055",
+            "A06-SCENE-6-L057",
+            "A06-SCENE-6-L062",
+            "A06-SCENE-6-L064",
+            "A06-SCENE-6-L066",
+            "A06-SCENE-6-L069",
+            "A06-SCENE-6-L071",
+            "A06-SCENE-6-L072",
+            "A06-SCENE-6-L074",
+            "A06-SCENE-6-L075",
+            "A06-SCENE-6-L078",
+            "A06-SCENE-6-L080",
+            "A06-SCENE-6-L082",
+            "A06-SCENE-6-L083",
+            "A06-SCENE-6-L085",
+            "A06-SCENE-6-L087",
+            "A06-SCENE-6-L089"
+          ],
+          "full_scene_for_context": "A06-SCENE-6",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/ankita.json"
+        },
+        {
+          "scene_id": "A07-SCENE-7",
+          "evidence_line_ids": [
+            "A07-SCENE-7-L001",
+            "A07-SCENE-7-L004",
+            "A07-SCENE-7-L007",
+            "A07-SCENE-7-L009",
+            "A07-SCENE-7-L011",
+            "A07-SCENE-7-L013",
+            "A07-SCENE-7-L015",
+            "A07-SCENE-7-L018",
+            "A07-SCENE-7-L019",
+            "A07-SCENE-7-L021",
+            "A07-SCENE-7-L023",
+            "A07-SCENE-7-L024",
+            "A07-SCENE-7-L026",
+            "A07-SCENE-7-L028",
+            "A07-SCENE-7-L029",
+            "A07-SCENE-7-L031",
+            "A07-SCENE-7-L033",
+            "A07-SCENE-7-L036",
+            "A07-SCENE-7-L038",
+            "A07-SCENE-7-L040",
+            "A07-SCENE-7-L041",
+            "A07-SCENE-7-L043",
+            "A07-SCENE-7-L046",
+            "A07-SCENE-7-L047",
+            "A07-SCENE-7-L052",
+            "A07-SCENE-7-L053",
+            "A07-SCENE-7-L055",
+            "A07-SCENE-7-L057",
+            "A07-SCENE-7-L058",
+            "A07-SCENE-7-L061",
+            "A07-SCENE-7-L063",
+            "A07-SCENE-7-L065",
+            "A07-SCENE-7-L067"
+          ],
+          "full_scene_for_context": "A07-SCENE-7",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/ankita.json"
+        },
+        {
+          "scene_id": "A08-SCENE-8",
+          "evidence_line_ids": [
+            "A08-SCENE-8-L001",
+            "A08-SCENE-8-L004",
+            "A08-SCENE-8-L008",
+            "A08-SCENE-8-L009",
+            "A08-SCENE-8-L012",
+            "A08-SCENE-8-L013",
+            "A08-SCENE-8-L014",
+            "A08-SCENE-8-L018",
+            "A08-SCENE-8-L021",
+            "A08-SCENE-8-L023",
+            "A08-SCENE-8-L025",
+            "A08-SCENE-8-L026",
+            "A08-SCENE-8-L028",
+            "A08-SCENE-8-L029",
+            "A08-SCENE-8-L030",
+            "A08-SCENE-8-L035",
+            "A08-SCENE-8-L037",
+            "A08-SCENE-8-L039",
+            "A08-SCENE-8-L040",
+            "A08-SCENE-8-L043",
+            "A08-SCENE-8-L045",
+            "A08-SCENE-8-L046",
+            "A08-SCENE-8-L048",
+            "A08-SCENE-8-L050",
+            "A08-SCENE-8-L053",
+            "A08-SCENE-8-L058",
+            "A08-SCENE-8-L059",
+            "A08-SCENE-8-L060",
+            "A08-SCENE-8-L063"
+          ],
+          "full_scene_for_context": "A08-SCENE-8",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/ankita.json"
+        },
+        {
+          "scene_id": "P01",
+          "evidence_line_ids": [
+            "P01-L003",
+            "P01-L009",
+            "P01-L010",
+            "P01-L011",
+            "P01-L013",
+            "P01-L014",
+            "P01-L015",
+            "P01-L017"
+          ],
+          "full_scene_for_context": "P01",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/ankita.json"
+        },
+        {
+          "scene_id": "P02",
+          "evidence_line_ids": [
+            "P02-L011",
+            "P02-L012",
+            "P02-L014",
+            "P02-L016"
+          ],
+          "full_scene_for_context": "P02",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/ankita.json"
+        },
+        {
+          "scene_id": "P03",
+          "evidence_line_ids": [
+            "P03-L006",
+            "P03-L009",
+            "P03-L013",
+            "P03-L015"
+          ],
+          "full_scene_for_context": "P03",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/ankita.json"
+        },
+        {
+          "scene_id": "P04",
+          "evidence_line_ids": [
+            "P04-L009",
+            "P04-L015",
+            "P04-L017"
+          ],
+          "full_scene_for_context": "P04",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/ankita.json"
+        },
+        {
+          "scene_id": "P05",
+          "evidence_line_ids": [
+            "P05-L006",
+            "P05-L008",
+            "P05-L013",
+            "P05-L015"
+          ],
+          "full_scene_for_context": "P05",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/ankita.json"
+        },
+        {
+          "scene_id": "P06",
+          "evidence_line_ids": [
+            "P06-L006",
+            "P06-L009",
+            "P06-L011",
+            "P06-L015"
+          ],
+          "full_scene_for_context": "P06",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/ankita.json"
+        },
+        {
+          "scene_id": "P07",
+          "evidence_line_ids": [
+            "P07-L009",
+            "P07-L012",
+            "P07-L015"
+          ],
+          "full_scene_for_context": "P07",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/ankita.json"
+        },
+        {
+          "scene_id": "P08",
+          "evidence_line_ids": [
+            "P08-L009",
+            "P08-L014",
+            "P08-L016"
+          ],
+          "full_scene_for_context": "P08",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/ankita.json"
+        }
+      ],
+      "Shreya": [
+        {
+          "scene_id": "A03-SCENE-3",
+          "evidence_line_ids": [
+            "A03-SCENE-3-L039",
+            "A03-SCENE-3-L053",
+            "A03-SCENE-3-L054"
+          ],
+          "full_scene_for_context": "A03-SCENE-3",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/ankita.json"
+        }
+      ]
+    },
+    "Shivani": {
+      "Karan": [
+        {
+          "scene_id": "A05",
+          "evidence_line_ids": [
+            "A05-L001",
+            "A05-L002",
+            "A05-L006",
+            "A05-L007",
+            "A05-L008",
+            "A05-L013",
+            "A05-L017",
+            "A05-L024",
+            "A05-L028",
+            "A05-L031"
+          ],
+          "full_scene_for_context": "A05",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shivani.json"
+        },
+        {
+          "scene_id": "A06",
+          "evidence_line_ids": [
+            "A06-L001"
+          ],
+          "full_scene_for_context": "A06",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shivani.json"
+        }
+      ],
+      "Aman": [
+        {
+          "scene_id": "A05",
+          "evidence_line_ids": [
+            "A05-L001",
+            "A05-L004",
+            "A05-L011",
+            "A05-L016",
+            "A05-L019",
+            "A05-L026",
+            "A05-L031"
+          ],
+          "full_scene_for_context": "A05",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shivani.json"
+        },
+        {
+          "scene_id": "A06",
+          "evidence_line_ids": [
+            "A06-L001"
+          ],
+          "full_scene_for_context": "A06",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shivani.json"
+        }
+      ],
+      "Rohan": [
+        {
+          "scene_id": "A02",
+          "evidence_line_ids": [
+            "A02-L001",
+            "A02-L003",
+            "A02-L005",
+            "A02-L007",
+            "A02-L009",
+            "A02-L010",
+            "A02-L012",
+            "A02-L014",
+            "A02-L015",
+            "A02-L017",
+            "A02-L019",
+            "A02-L020",
+            "A02-L022",
+            "A02-L025",
+            "A02-L027",
+            "A02-L029",
+            "A02-L032",
+            "A02-L034",
+            "A02-L036",
+            "A02-L038",
+            "A02-L039",
+            "A02-L040",
+            "A02-L042",
+            "A02-L045",
+            "A02-L047",
+            "A02-L048",
+            "A02-L051",
+            "A02-L053"
+          ],
+          "full_scene_for_context": "A02",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shivani.json"
+        },
+        {
+          "scene_id": "A03",
+          "evidence_line_ids": [
+            "A03-L002",
+            "A03-L007",
+            "A03-L010",
+            "A03-L020",
+            "A03-L036",
+            "A03-L039",
+            "A03-L048",
+            "A03-L049"
+          ],
+          "full_scene_for_context": "A03",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shivani.json"
+        },
+        {
+          "scene_id": "C03",
+          "evidence_line_ids": [
+            "C03-L012"
+          ],
+          "full_scene_for_context": "C03",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shivani.json"
+        },
+        {
+          "scene_id": "D01",
+          "evidence_line_ids": [
+            "D01-L002"
+          ],
+          "full_scene_for_context": "D01",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shivani.json"
+        }
+      ],
+      "Kavya": [
+        {
+          "scene_id": "A04",
+          "evidence_line_ids": [
+            "A04-L001"
+          ],
+          "full_scene_for_context": "A04",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shivani.json"
+        }
+      ],
+      "Tara": [
+        {
+          "scene_id": "A04",
+          "evidence_line_ids": [
+            "A04-L001"
+          ],
+          "full_scene_for_context": "A04",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shivani.json"
+        }
+      ],
+      "Sunny": [
+        {
+          "scene_id": "C01",
+          "evidence_line_ids": [
+            "C01-L001",
+            "C01-L002",
+            "C01-L003"
+          ],
+          "full_scene_for_context": "C01",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shivani.json"
+        },
+        {
+          "scene_id": "C02",
+          "evidence_line_ids": [
+            "C02-L001"
+          ],
+          "full_scene_for_context": "C02",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shivani.json"
+        },
+        {
+          "scene_id": "C04",
+          "evidence_line_ids": [
+            "C04-L015"
+          ],
+          "full_scene_for_context": "C04",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shivani.json"
+        },
+        {
+          "scene_id": "C05",
+          "evidence_line_ids": [
+            "C05-L001",
+            "C05-L002"
+          ],
+          "full_scene_for_context": "C05",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shivani.json"
+        },
+        {
+          "scene_id": "D01",
+          "evidence_line_ids": [
+            "D01-L001"
+          ],
+          "full_scene_for_context": "D01",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shivani.json"
+        }
+      ],
+      "Harsh": [
+        {
+          "scene_id": "B02",
+          "evidence_line_ids": [
+            "B02-L001",
+            "B02-L004",
+            "B02-L005",
+            "B02-L006",
+            "B02-L015",
+            "B02-L016",
+            "B02-L019",
+            "B02-L020",
+            "B02-L025",
+            "B02-L027",
+            "B02-L031",
+            "B02-L032",
+            "B02-L033",
+            "B02-L035"
+          ],
+          "full_scene_for_context": "B02",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shivani.json"
+        }
+      ],
+      "Laksh": [
+        {
+          "scene_id": "B02",
+          "evidence_line_ids": [
+            "B02-L001",
+            "B02-L008",
+            "B02-L018",
+            "B02-L022",
+            "B02-L023",
+            "B02-L028",
+            "B02-L031",
+            "B02-L035"
+          ],
+          "full_scene_for_context": "B02",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shivani.json"
+        }
+      ],
+      "Dheeraj": [
+        {
+          "scene_id": "C02",
+          "evidence_line_ids": [
+            "C02-L002"
+          ],
+          "full_scene_for_context": "C02",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shivani.json"
+        },
+        {
+          "scene_id": "C03",
+          "evidence_line_ids": [
+            "C03-L005",
+            "C03-L007",
+            "C03-L014",
+            "C03-L015",
+            "C03-L019"
+          ],
+          "full_scene_for_context": "C03",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shivani.json"
+        },
+        {
+          "scene_id": "C04",
+          "evidence_line_ids": [
+            "C04-L005",
+            "C04-L006",
+            "C04-L012"
+          ],
+          "full_scene_for_context": "C04",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shivani.json"
+        },
+        {
+          "scene_id": "D01",
+          "evidence_line_ids": [
+            "D01-L001"
+          ],
+          "full_scene_for_context": "D01",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shivani.json"
+        }
+      ],
+      "Trustee Malhotra": [
+        {
+          "scene_id": "C02",
+          "evidence_line_ids": [
+            "C02-L002"
+          ],
+          "full_scene_for_context": "C02",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shivani.json"
+        }
+      ],
+      "Diya Sen": [
+        {
+          "scene_id": "A02",
+          "evidence_line_ids": [
+            "A02-L043"
+          ],
+          "full_scene_for_context": "A02",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shivani.json"
+        },
+        {
+          "scene_id": "A03",
+          "evidence_line_ids": [
+            "A03-L040"
+          ],
+          "full_scene_for_context": "A03",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shivani.json"
+        },
+        {
+          "scene_id": "B03",
+          "evidence_line_ids": [
+            "B03-L030"
+          ],
+          "full_scene_for_context": "B03",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shivani.json"
+        },
+        {
+          "scene_id": "C01",
+          "evidence_line_ids": [
+            "C01-L001"
+          ],
+          "full_scene_for_context": "C01",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shivani.json"
+        },
+        {
+          "scene_id": "C03",
+          "evidence_line_ids": [
+            "C03-L019"
+          ],
+          "full_scene_for_context": "C03",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shivani.json"
+        }
+      ],
+      "Pooja": [
+        {
+          "scene_id": "B03",
+          "evidence_line_ids": [
+            "B03-L001",
+            "B03-L002",
+            "B03-L003",
+            "B03-L004",
+            "B03-L005",
+            "B03-L012",
+            "B03-L018",
+            "B03-L022",
+            "B03-L025",
+            "B03-L026",
+            "B03-L029",
+            "B03-L032"
+          ],
+          "full_scene_for_context": "B03",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shivani.json"
+        }
+      ],
+      "Kriti": [
+        {
+          "scene_id": "B03",
+          "evidence_line_ids": [
+            "B03-L001",
+            "B03-L006",
+            "B03-L007",
+            "B03-L009",
+            "B03-L010",
+            "B03-L011",
+            "B03-L012",
+            "B03-L018",
+            "B03-L020",
+            "B03-L024",
+            "B03-L025",
+            "B03-L028",
+            "B03-L029",
+            "B03-L035",
+            "B03-L036"
+          ],
+          "full_scene_for_context": "B03",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shivani.json"
+        }
+      ],
+      "Nandini": [
+        {
+          "scene_id": "B02",
+          "evidence_line_ids": [
+            "B02-L001",
+            "B02-L009",
+            "B02-L013",
+            "B02-L023",
+            "B02-L031",
+            "B02-L035"
+          ],
+          "full_scene_for_context": "B02",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shivani.json"
+        }
+      ],
+      "Ritika": [
+        {
+          "scene_id": "B02",
+          "evidence_line_ids": [
+            "B02-L001",
+            "B02-L010",
+            "B02-L014",
+            "B02-L021",
+            "B02-L023",
+            "B02-L030",
+            "B02-L035"
+          ],
+          "full_scene_for_context": "B02",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shivani.json"
+        }
+      ],
+      "Dr. Aarav Sethi": [
+        {
+          "scene_id": "B03",
+          "evidence_line_ids": [
+            "B03-L001",
+            "B03-L002",
+            "B03-L003",
+            "B03-L005",
+            "B03-L006",
+            "B03-L007",
+            "B03-L008",
+            "B03-L010",
+            "B03-L013",
+            "B03-L014",
+            "B03-L016",
+            "B03-L017",
+            "B03-L020",
+            "B03-L021",
+            "B03-L023",
+            "B03-L027",
+            "B03-L030",
+            "B03-L031",
+            "B03-L033",
+            "B03-L039"
+          ],
+          "full_scene_for_context": "B03",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shivani.json"
+        },
+        {
+          "scene_id": "C02",
+          "evidence_line_ids": [
+            "C02-L002"
+          ],
+          "full_scene_for_context": "C02",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shivani.json"
+        },
+        {
+          "scene_id": "C03",
+          "evidence_line_ids": [
+            "C03-L004",
+            "C03-L005",
+            "C03-L006",
+            "C03-L009",
+            "C03-L010",
+            "C03-L012",
+            "C03-L013",
+            "C03-L019"
+          ],
+          "full_scene_for_context": "C03",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shivani.json"
+        },
+        {
+          "scene_id": "C04",
+          "evidence_line_ids": [
+            "C04-L002",
+            "C04-L003",
+            "C04-L013"
+          ],
+          "full_scene_for_context": "C04",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shivani.json"
+        },
+        {
+          "scene_id": "D01",
+          "evidence_line_ids": [
+            "D01-L001"
+          ],
+          "full_scene_for_context": "D01",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shivani.json"
+        }
+      ],
+      "Ankita": [
+        {
+          "scene_id": "A05",
+          "evidence_line_ids": [
+            "A05-L031"
+          ],
+          "full_scene_for_context": "A05",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shivani.json"
+        }
+      ],
+      "Shivani": [
+        {
+          "scene_id": "A02",
+          "evidence_line_ids": [
+            "A02-L001",
+            "A02-L004",
+            "A02-L006",
+            "A02-L008",
+            "A02-L011",
+            "A02-L013",
+            "A02-L016",
+            "A02-L018",
+            "A02-L021",
+            "A02-L023",
+            "A02-L024",
+            "A02-L026",
+            "A02-L028",
+            "A02-L031",
+            "A02-L037",
+            "A02-L038",
+            "A02-L040",
+            "A02-L041",
+            "A02-L043",
+            "A02-L044",
+            "A02-L046",
+            "A02-L049",
+            "A02-L050",
+            "A02-L054",
+            "A02-L056"
+          ],
+          "full_scene_for_context": "A02",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shivani.json"
+        },
+        {
+          "scene_id": "A03",
+          "evidence_line_ids": [
+            "A03-L003",
+            "A03-L005",
+            "A03-L009",
+            "A03-L010",
+            "A03-L015",
+            "A03-L018",
+            "A03-L023",
+            "A03-L032",
+            "A03-L034",
+            "A03-L037",
+            "A03-L040",
+            "A03-L041",
+            "A03-L045",
+            "A03-L047",
+            "A03-L049"
+          ],
+          "full_scene_for_context": "A03",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shivani.json"
+        },
+        {
+          "scene_id": "A04",
+          "evidence_line_ids": [
+            "A04-L002"
+          ],
+          "full_scene_for_context": "A04",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shivani.json"
+        },
+        {
+          "scene_id": "A05",
+          "evidence_line_ids": [
+            "A05-L001",
+            "A05-L002",
+            "A05-L003",
+            "A05-L005",
+            "A05-L007",
+            "A05-L009",
+            "A05-L010",
+            "A05-L012",
+            "A05-L014",
+            "A05-L015",
+            "A05-L018",
+            "A05-L020",
+            "A05-L021",
+            "A05-L022",
+            "A05-L023",
+            "A05-L025",
+            "A05-L027",
+            "A05-L028",
+            "A05-L029",
+            "A05-L030"
+          ],
+          "full_scene_for_context": "A05",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shivani.json"
+        },
+        {
+          "scene_id": "A06",
+          "evidence_line_ids": [
+            "A06-L001"
+          ],
+          "full_scene_for_context": "A06",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shivani.json"
+        },
+        {
+          "scene_id": "B01",
+          "evidence_line_ids": [
+            "B01-L001"
+          ],
+          "full_scene_for_context": "B01",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shivani.json"
+        },
+        {
+          "scene_id": "B02",
+          "evidence_line_ids": [
+            "B02-L001",
+            "B02-L002",
+            "B02-L005",
+            "B02-L007",
+            "B02-L011",
+            "B02-L012",
+            "B02-L015",
+            "B02-L017",
+            "B02-L020",
+            "B02-L024",
+            "B02-L026",
+            "B02-L029",
+            "B02-L031",
+            "B02-L033",
+            "B02-L034"
+          ],
+          "full_scene_for_context": "B02",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shivani.json"
+        },
+        {
+          "scene_id": "B03",
+          "evidence_line_ids": [
+            "B03-L001",
+            "B03-L013",
+            "B03-L014",
+            "B03-L015",
+            "B03-L017",
+            "B03-L025",
+            "B03-L030",
+            "B03-L036",
+            "B03-L037",
+            "B03-L039"
+          ],
+          "full_scene_for_context": "B03",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shivani.json"
+        },
+        {
+          "scene_id": "C01",
+          "evidence_line_ids": [
+            "C01-L001",
+            "C01-L002"
+          ],
+          "full_scene_for_context": "C01",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shivani.json"
+        },
+        {
+          "scene_id": "C02",
+          "evidence_line_ids": [
+            "C02-L001"
+          ],
+          "full_scene_for_context": "C02",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shivani.json"
+        },
+        {
+          "scene_id": "C03",
+          "evidence_line_ids": [
+            "C03-L001",
+            "C03-L002",
+            "C03-L006",
+            "C03-L010",
+            "C03-L015",
+            "C03-L016",
+            "C03-L022"
+          ],
+          "full_scene_for_context": "C03",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shivani.json"
+        },
+        {
+          "scene_id": "C04",
+          "evidence_line_ids": [
+            "C04-L014"
+          ],
+          "full_scene_for_context": "C04",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shivani.json"
+        },
+        {
+          "scene_id": "C05",
+          "evidence_line_ids": [
+            "C05-L001",
+            "C05-L002"
+          ],
+          "full_scene_for_context": "C05",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shivani.json"
+        },
+        {
+          "scene_id": "D01",
+          "evidence_line_ids": [
+            "D01-L001"
+          ],
+          "full_scene_for_context": "D01",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shivani.json"
+        }
+      ],
+      "Shreya": [
+        {
+          "scene_id": "A05",
+          "evidence_line_ids": [
+            "A05-L031"
+          ],
+          "full_scene_for_context": "A05",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shivani.json"
+        }
+      ]
+    },
+    "Taniya": {
+      "Karan": [
+        {
+          "scene_id": "TS04-PART3",
+          "evidence_line_ids": [
+            "TS04-PART3-L014",
+            "TS04-PART3-L015",
+            "TS04-PART3-L019"
+          ],
+          "full_scene_for_context": "TS04-PART3",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/taniya.json"
+        },
+        {
+          "scene_id": "TS05-PART1",
+          "evidence_line_ids": [
+            "TS05-PART1-L002",
+            "TS05-PART1-L003",
+            "TS05-PART1-L006",
+            "TS05-PART1-L023",
+            "TS05-PART1-L024",
+            "TS05-PART1-L028",
+            "TS05-PART1-L031"
+          ],
+          "full_scene_for_context": "TS05-PART1",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/taniya.json"
+        },
+        {
+          "scene_id": "TS05-PART2",
+          "evidence_line_ids": [
+            "TS05-PART2-L002",
+            "TS05-PART2-L003",
+            "TS05-PART2-L005",
+            "TS05-PART2-L018",
+            "TS05-PART2-L019",
+            "TS05-PART2-L031"
+          ],
+          "full_scene_for_context": "TS05-PART2",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/taniya.json"
+        },
+        {
+          "scene_id": "TS05-PART3",
+          "evidence_line_ids": [
+            "TS05-PART3-L002",
+            "TS05-PART3-L003",
+            "TS05-PART3-L005",
+            "TS05-PART3-L019",
+            "TS05-PART3-L025",
+            "TS05-PART3-L026"
+          ],
+          "full_scene_for_context": "TS05-PART3",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/taniya.json"
+        }
+      ],
+      "Aman": [
+        {
+          "scene_id": "TS04-PART3",
+          "evidence_line_ids": [
+            "TS04-PART3-L014",
+            "TS04-PART3-L019"
+          ],
+          "full_scene_for_context": "TS04-PART3",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/taniya.json"
+        },
+        {
+          "scene_id": "TS05-PART1",
+          "evidence_line_ids": [
+            "TS05-PART1-L002",
+            "TS05-PART1-L006",
+            "TS05-PART1-L013",
+            "TS05-PART1-L014",
+            "TS05-PART1-L016",
+            "TS05-PART1-L028",
+            "TS05-PART1-L031"
+          ],
+          "full_scene_for_context": "TS05-PART1",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/taniya.json"
+        },
+        {
+          "scene_id": "TS05-PART2",
+          "evidence_line_ids": [
+            "TS05-PART2-L002",
+            "TS05-PART2-L008",
+            "TS05-PART2-L009",
+            "TS05-PART2-L011",
+            "TS05-PART2-L023",
+            "TS05-PART2-L024",
+            "TS05-PART2-L026",
+            "TS05-PART2-L031"
+          ],
+          "full_scene_for_context": "TS05-PART2",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/taniya.json"
+        },
+        {
+          "scene_id": "TS05-PART3",
+          "evidence_line_ids": [
+            "TS05-PART3-L009",
+            "TS05-PART3-L010",
+            "TS05-PART3-L012",
+            "TS05-PART3-L019",
+            "TS05-PART3-L020",
+            "TS05-PART3-L021"
+          ],
+          "full_scene_for_context": "TS05-PART3",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/taniya.json"
+        }
+      ],
+      "Aditya": [
+        {
+          "scene_id": "TS01",
+          "evidence_line_ids": [
+            "TS01-L010"
+          ],
+          "full_scene_for_context": "TS01",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/taniya.json"
+        },
+        {
+          "scene_id": "TS08",
+          "evidence_line_ids": [
+            "TS08-L003",
+            "TS08-L007"
+          ],
+          "full_scene_for_context": "TS08",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/taniya.json"
+        },
+        {
+          "scene_id": "TS10-ENTRY",
+          "evidence_line_ids": [
+            "TS10-ENTRY-L006"
+          ],
+          "full_scene_for_context": "TS10-ENTRY",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/taniya.json"
+        },
+        {
+          "scene_id": "TS10-MAIN",
+          "evidence_line_ids": [
+            "TS10-MAIN-L007"
+          ],
+          "full_scene_for_context": "TS10-MAIN",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/taniya.json"
+        }
+      ],
+      "Soniya": [
+        {
+          "scene_id": "TS01",
+          "evidence_line_ids": [
+            "TS01-L001",
+            "TS01-L004",
+            "TS01-L005",
+            "TS01-L007",
+            "TS01-L009",
+            "TS01-L012",
+            "TS01-L015",
+            "TS01-L026",
+            "TS01-L028",
+            "TS01-L029"
+          ],
+          "full_scene_for_context": "TS01",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/taniya.json"
+        },
+        {
+          "scene_id": "TS02",
+          "evidence_line_ids": [
+            "TS02-L002",
+            "TS02-L003",
+            "TS02-L005",
+            "TS02-L007",
+            "TS02-L008",
+            "TS02-L020",
+            "TS02-L022",
+            "TS02-L023",
+            "TS02-L027"
+          ],
+          "full_scene_for_context": "TS02",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/taniya.json"
+        },
+        {
+          "scene_id": "TS03",
+          "evidence_line_ids": [
+            "TS03-L001"
+          ],
+          "full_scene_for_context": "TS03",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/taniya.json"
+        },
+        {
+          "scene_id": "TS04-PART1",
+          "evidence_line_ids": [
+            "TS04-PART1-L002",
+            "TS04-PART1-L005",
+            "TS04-PART1-L006",
+            "TS04-PART1-L013",
+            "TS04-PART1-L015",
+            "TS04-PART1-L016",
+            "TS04-PART1-L017",
+            "TS04-PART1-L020",
+            "TS04-PART1-L022",
+            "TS04-PART1-L023",
+            "TS04-PART1-L024",
+            "TS04-PART1-L028"
+          ],
+          "full_scene_for_context": "TS04-PART1",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/taniya.json"
+        },
+        {
+          "scene_id": "TS04-PART2",
+          "evidence_line_ids": [
+            "TS04-PART2-L003",
+            "TS04-PART2-L004",
+            "TS04-PART2-L006",
+            "TS04-PART2-L007",
+            "TS04-PART2-L008",
+            "TS04-PART2-L010",
+            "TS04-PART2-L011",
+            "TS04-PART2-L012",
+            "TS04-PART2-L014",
+            "TS04-PART2-L017",
+            "TS04-PART2-L018",
+            "TS04-PART2-L019",
+            "TS04-PART2-L021",
+            "TS04-PART2-L022",
+            "TS04-PART2-L023",
+            "TS04-PART2-L024",
+            "TS04-PART2-L026",
+            "TS04-PART2-L027",
+            "TS04-PART2-L028",
+            "TS04-PART2-L030"
+          ],
+          "full_scene_for_context": "TS04-PART2",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/taniya.json"
+        },
+        {
+          "scene_id": "TS04-PART3",
+          "evidence_line_ids": [
+            "TS04-PART3-L002",
+            "TS04-PART3-L003",
+            "TS04-PART3-L004",
+            "TS04-PART3-L005",
+            "TS04-PART3-L008",
+            "TS04-PART3-L009",
+            "TS04-PART3-L010",
+            "TS04-PART3-L011",
+            "TS04-PART3-L012",
+            "TS04-PART3-L016",
+            "TS04-PART3-L017",
+            "TS04-PART3-L019"
+          ],
+          "full_scene_for_context": "TS04-PART3",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/taniya.json"
+        },
+        {
+          "scene_id": "TS05-PART1",
+          "evidence_line_ids": [
+            "TS05-PART1-L002",
+            "TS05-PART1-L007",
+            "TS05-PART1-L008",
+            "TS05-PART1-L010",
+            "TS05-PART1-L017",
+            "TS05-PART1-L018",
+            "TS05-PART1-L020",
+            "TS05-PART1-L023",
+            "TS05-PART1-L025",
+            "TS05-PART1-L028",
+            "TS05-PART1-L031"
+          ],
+          "full_scene_for_context": "TS05-PART1",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/taniya.json"
+        },
+        {
+          "scene_id": "TS05-PART2",
+          "evidence_line_ids": [
+            "TS05-PART2-L002",
+            "TS05-PART2-L003",
+            "TS05-PART2-L004",
+            "TS05-PART2-L005",
+            "TS05-PART2-L006",
+            "TS05-PART2-L018",
+            "TS05-PART2-L019",
+            "TS05-PART2-L020",
+            "TS05-PART2-L027",
+            "TS05-PART2-L028",
+            "TS05-PART2-L030"
+          ],
+          "full_scene_for_context": "TS05-PART2",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/taniya.json"
+        },
+        {
+          "scene_id": "TS05-PART3",
+          "evidence_line_ids": [
+            "TS05-PART3-L002",
+            "TS05-PART3-L003",
+            "TS05-PART3-L004",
+            "TS05-PART3-L005",
+            "TS05-PART3-L006",
+            "TS05-PART3-L013",
+            "TS05-PART3-L014",
+            "TS05-PART3-L016",
+            "TS05-PART3-L019",
+            "TS05-PART3-L024",
+            "TS05-PART3-L027"
+          ],
+          "full_scene_for_context": "TS05-PART3",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/taniya.json"
+        },
+        {
+          "scene_id": "TS06",
+          "evidence_line_ids": [
+            "TS06-L003",
+            "TS06-L005",
+            "TS06-L007",
+            "TS06-L010",
+            "TS06-L013",
+            "TS06-L014",
+            "TS06-L015",
+            "TS06-L020",
+            "TS06-L021",
+            "TS06-L025",
+            "TS06-L026",
+            "TS06-L031",
+            "TS06-L033",
+            "TS06-L034",
+            "TS06-L037",
+            "TS06-L041",
+            "TS06-L044",
+            "TS06-L046",
+            "TS06-L048",
+            "TS06-L049",
+            "TS06-L051",
+            "TS06-L053",
+            "TS06-L055"
+          ],
+          "full_scene_for_context": "TS06",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/taniya.json"
+        },
+        {
+          "scene_id": "TS07A",
+          "evidence_line_ids": [
+            "TS07A-L005",
+            "TS07A-L007",
+            "TS07A-L008",
+            "TS07A-L010",
+            "TS07A-L012",
+            "TS07A-L014",
+            "TS07A-L016",
+            "TS07A-L018",
+            "TS07A-L020",
+            "TS07A-L022",
+            "TS07A-L024",
+            "TS07A-L026"
+          ],
+          "full_scene_for_context": "TS07A",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/taniya.json"
+        },
+        {
+          "scene_id": "TS07B",
+          "evidence_line_ids": [
+            "TS07B-L008",
+            "TS07B-L010",
+            "TS07B-L012",
+            "TS07B-L014",
+            "TS07B-L016",
+            "TS07B-L018",
+            "TS07B-L020",
+            "TS07B-L023"
+          ],
+          "full_scene_for_context": "TS07B",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/taniya.json"
+        },
+        {
+          "scene_id": "TS07C",
+          "evidence_line_ids": [
+            "TS07C-L003",
+            "TS07C-L004",
+            "TS07C-L007",
+            "TS07C-L009",
+            "TS07C-L011",
+            "TS07C-L013",
+            "TS07C-L015"
+          ],
+          "full_scene_for_context": "TS07C",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/taniya.json"
+        },
+        {
+          "scene_id": "TS09",
+          "evidence_line_ids": [
+            "TS09-L003",
+            "TS09-L004",
+            "TS09-L006",
+            "TS09-L009",
+            "TS09-L011",
+            "TS09-L013",
+            "TS09-L016"
+          ],
+          "full_scene_for_context": "TS09",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/taniya.json"
+        },
+        {
+          "scene_id": "TS10-ENTRY",
+          "evidence_line_ids": [
+            "TS10-ENTRY-L004",
+            "TS10-ENTRY-L005",
+            "TS10-ENTRY-L007",
+            "TS10-ENTRY-L008",
+            "TS10-ENTRY-L012",
+            "TS10-ENTRY-L013"
+          ],
+          "full_scene_for_context": "TS10-ENTRY",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/taniya.json"
+        },
+        {
+          "scene_id": "TS10-MAIN",
+          "evidence_line_ids": [
+            "TS10-MAIN-L001",
+            "TS10-MAIN-L003",
+            "TS10-MAIN-L004",
+            "TS10-MAIN-L006",
+            "TS10-MAIN-L008",
+            "TS10-MAIN-L009",
+            "TS10-MAIN-L011",
+            "TS10-MAIN-L013",
+            "TS10-MAIN-L015",
+            "TS10-MAIN-L017",
+            "TS10-MAIN-L018",
+            "TS10-MAIN-L019",
+            "TS10-MAIN-L021",
+            "TS10-MAIN-L023",
+            "TS10-MAIN-L027",
+            "TS10-MAIN-L029",
+            "TS10-MAIN-L030",
+            "TS10-MAIN-L033",
+            "TS10-MAIN-L034",
+            "TS10-MAIN-L036",
+            "TS10-MAIN-L040",
+            "TS10-MAIN-L042",
+            "TS10-MAIN-L044",
+            "TS10-MAIN-L046",
+            "TS10-MAIN-L047",
+            "TS10-MAIN-L049",
+            "TS10-MAIN-L051",
+            "TS10-MAIN-L053",
+            "TS10-MAIN-L054",
+            "TS10-MAIN-L057",
+            "TS10-MAIN-L058",
+            "TS10-MAIN-L061"
+          ],
+          "full_scene_for_context": "TS10-MAIN",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/taniya.json"
+        },
+        {
+          "scene_id": "TS11",
+          "evidence_line_ids": [
+            "TS11-L001",
+            "TS11-L002",
+            "TS11-L003",
+            "TS11-L005",
+            "TS11-L008",
+            "TS11-L010",
+            "TS11-L013",
+            "TS11-L014",
+            "TS11-L016",
+            "TS11-L017",
+            "TS11-L019",
+            "TS11-L021",
+            "TS11-L022",
+            "TS11-L024",
+            "TS11-L027",
+            "TS11-L028",
+            "TS11-L029",
+            "TS11-L031",
+            "TS11-L032",
+            "TS11-L033",
+            "TS11-L035",
+            "TS11-L038",
+            "TS11-L039",
+            "TS11-L041",
+            "TS11-L044",
+            "TS11-L048",
+            "TS11-L049",
+            "TS11-L050",
+            "TS11-L052",
+            "TS11-L053"
+          ],
+          "full_scene_for_context": "TS11",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/taniya.json"
+        }
+      ],
+      "Rahul": [
+        {
+          "scene_id": "TS01",
+          "evidence_line_ids": [
+            "TS01-L001",
+            "TS01-L004",
+            "TS01-L005",
+            "TS01-L006",
+            "TS01-L008",
+            "TS01-L009",
+            "TS01-L014",
+            "TS01-L017",
+            "TS01-L019",
+            "TS01-L021",
+            "TS01-L023",
+            "TS01-L025",
+            "TS01-L030"
+          ],
+          "full_scene_for_context": "TS01",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/taniya.json"
+        },
+        {
+          "scene_id": "TS02",
+          "evidence_line_ids": [
+            "TS02-L001",
+            "TS02-L012",
+            "TS02-L014",
+            "TS02-L015",
+            "TS02-L016",
+            "TS02-L017",
+            "TS02-L022",
+            "TS02-L023",
+            "TS02-L024",
+            "TS02-L026",
+            "TS02-L028"
+          ],
+          "full_scene_for_context": "TS02",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/taniya.json"
+        },
+        {
+          "scene_id": "TS03",
+          "evidence_line_ids": [
+            "TS03-L001"
+          ],
+          "full_scene_for_context": "TS03",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/taniya.json"
+        },
+        {
+          "scene_id": "TS06",
+          "evidence_line_ids": [
+            "TS06-L007",
+            "TS06-L047"
+          ],
+          "full_scene_for_context": "TS06",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/taniya.json"
+        },
+        {
+          "scene_id": "TS07A",
+          "evidence_line_ids": [
+            "TS07A-L006",
+            "TS07A-L008",
+            "TS07A-L009",
+            "TS07A-L014",
+            "TS07A-L015",
+            "TS07A-L016",
+            "TS07A-L018",
+            "TS07A-L022",
+            "TS07A-L023"
+          ],
+          "full_scene_for_context": "TS07A",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/taniya.json"
+        },
+        {
+          "scene_id": "TS07B",
+          "evidence_line_ids": [
+            "TS07B-L013",
+            "TS07B-L016"
+          ],
+          "full_scene_for_context": "TS07B",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/taniya.json"
+        },
+        {
+          "scene_id": "TS07C",
+          "evidence_line_ids": [
+            "TS07C-L008"
+          ],
+          "full_scene_for_context": "TS07C",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/taniya.json"
+        },
+        {
+          "scene_id": "TS08",
+          "evidence_line_ids": [
+            "TS08-L005"
+          ],
+          "full_scene_for_context": "TS08",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/taniya.json"
+        },
+        {
+          "scene_id": "TS09",
+          "evidence_line_ids": [
+            "TS09-L010",
+            "TS09-L014"
+          ],
+          "full_scene_for_context": "TS09",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/taniya.json"
+        },
+        {
+          "scene_id": "TS10-MAIN",
+          "evidence_line_ids": [
+            "TS10-MAIN-L041",
+            "TS10-MAIN-L059",
+            "TS10-MAIN-L060"
+          ],
+          "full_scene_for_context": "TS10-MAIN",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/taniya.json"
+        },
+        {
+          "scene_id": "TS11",
+          "evidence_line_ids": [
+            "TS11-L052"
+          ],
+          "full_scene_for_context": "TS11",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/taniya.json"
+        }
+      ],
+      "Subhash": [
+        {
+          "scene_id": "TS10-ENTRY",
+          "evidence_line_ids": [
+            "TS10-ENTRY-L006",
+            "TS10-ENTRY-L010",
+            "TS10-ENTRY-L011"
+          ],
+          "full_scene_for_context": "TS10-ENTRY",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/taniya.json"
+        },
+        {
+          "scene_id": "TS10-MAIN",
+          "evidence_line_ids": [
+            "TS10-MAIN-L003",
+            "TS10-MAIN-L005",
+            "TS10-MAIN-L007",
+            "TS10-MAIN-L009",
+            "TS10-MAIN-L012",
+            "TS10-MAIN-L014",
+            "TS10-MAIN-L016",
+            "TS10-MAIN-L018",
+            "TS10-MAIN-L020",
+            "TS10-MAIN-L025",
+            "TS10-MAIN-L027",
+            "TS10-MAIN-L031",
+            "TS10-MAIN-L032",
+            "TS10-MAIN-L035",
+            "TS10-MAIN-L041",
+            "TS10-MAIN-L043",
+            "TS10-MAIN-L045",
+            "TS10-MAIN-L047",
+            "TS10-MAIN-L050",
+            "TS10-MAIN-L052",
+            "TS10-MAIN-L054",
+            "TS10-MAIN-L056",
+            "TS10-MAIN-L058"
+          ],
+          "full_scene_for_context": "TS10-MAIN",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/taniya.json"
+        }
+      ],
+      "Mahendra Suri": [
+        {
+          "scene_id": "TS06",
+          "evidence_line_ids": [
+            "TS06-L001",
+            "TS06-L008",
+            "TS06-L009",
+            "TS06-L010",
+            "TS06-L012",
+            "TS06-L013",
+            "TS06-L014",
+            "TS06-L016",
+            "TS06-L018",
+            "TS06-L020",
+            "TS06-L022",
+            "TS06-L025",
+            "TS06-L027",
+            "TS06-L029",
+            "TS06-L031",
+            "TS06-L032",
+            "TS06-L036",
+            "TS06-L039",
+            "TS06-L040",
+            "TS06-L041",
+            "TS06-L043",
+            "TS06-L044"
+          ],
+          "full_scene_for_context": "TS06",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/taniya.json"
+        },
+        {
+          "scene_id": "TS10-MAIN",
+          "evidence_line_ids": [
+            "TS10-MAIN-L006"
+          ],
+          "full_scene_for_context": "TS10-MAIN",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/taniya.json"
+        },
+        {
+          "scene_id": "TS11",
+          "evidence_line_ids": [
+            "TS11-L001",
+            "TS11-L004",
+            "TS11-L006",
+            "TS11-L007",
+            "TS11-L009",
+            "TS11-L011",
+            "TS11-L012",
+            "TS11-L016",
+            "TS11-L018",
+            "TS11-L020",
+            "TS11-L023",
+            "TS11-L025",
+            "TS11-L026",
+            "TS11-L029",
+            "TS11-L030",
+            "TS11-L032",
+            "TS11-L034",
+            "TS11-L037",
+            "TS11-L040",
+            "TS11-L042",
+            "TS11-L043",
+            "TS11-L046",
+            "TS11-L047",
+            "TS11-L051"
+          ],
+          "full_scene_for_context": "TS11",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/taniya.json"
+        }
+      ],
+      "Diya Sen": [
+        {
+          "scene_id": "TS01",
+          "evidence_line_ids": [
+            "TS01-L020"
+          ],
+          "full_scene_for_context": "TS01",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/taniya.json"
+        },
+        {
+          "scene_id": "TS02",
+          "evidence_line_ids": [
+            "TS02-L013"
+          ],
+          "full_scene_for_context": "TS02",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/taniya.json"
+        },
+        {
+          "scene_id": "TS04-PART1",
+          "evidence_line_ids": [
+            "TS04-PART1-L012"
+          ],
+          "full_scene_for_context": "TS04-PART1",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/taniya.json"
+        },
+        {
+          "scene_id": "TS04-PART3",
+          "evidence_line_ids": [
+            "TS04-PART3-L012",
+            "TS04-PART3-L017"
+          ],
+          "full_scene_for_context": "TS04-PART3",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/taniya.json"
+        },
+        {
+          "scene_id": "TS05-PART2",
+          "evidence_line_ids": [
+            "TS05-PART2-L018"
+          ],
+          "full_scene_for_context": "TS05-PART2",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/taniya.json"
+        },
+        {
+          "scene_id": "TS05-PART3",
+          "evidence_line_ids": [
+            "TS05-PART3-L003",
+            "TS05-PART3-L019",
+            "TS05-PART3-L024"
+          ],
+          "full_scene_for_context": "TS05-PART3",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/taniya.json"
+        },
+        {
+          "scene_id": "TS06",
+          "evidence_line_ids": [
+            "TS06-L013"
+          ],
+          "full_scene_for_context": "TS06",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/taniya.json"
+        },
+        {
+          "scene_id": "TS07C",
+          "evidence_line_ids": [
+            "TS07C-L013"
+          ],
+          "full_scene_for_context": "TS07C",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/taniya.json"
+        },
+        {
+          "scene_id": "TS09",
+          "evidence_line_ids": [
+            "TS09-L007",
+            "TS09-L013"
+          ],
+          "full_scene_for_context": "TS09",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/taniya.json"
+        },
+        {
+          "scene_id": "TS10-ENTRY",
+          "evidence_line_ids": [
+            "TS10-ENTRY-L013"
+          ],
+          "full_scene_for_context": "TS10-ENTRY",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/taniya.json"
+        },
+        {
+          "scene_id": "TS10-MAIN",
+          "evidence_line_ids": [
+            "TS10-MAIN-L003",
+            "TS10-MAIN-L011",
+            "TS10-MAIN-L018",
+            "TS10-MAIN-L054"
+          ],
+          "full_scene_for_context": "TS10-MAIN",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/taniya.json"
+        },
+        {
+          "scene_id": "TS11",
+          "evidence_line_ids": [
+            "TS11-L013"
+          ],
+          "full_scene_for_context": "TS11",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/taniya.json"
+        }
+      ],
+      "Taniya": [
+        {
+          "scene_id": "TS01",
+          "evidence_line_ids": [
+            "TS01-L001",
+            "TS01-L002",
+            "TS01-L003",
+            "TS01-L004",
+            "TS01-L009",
+            "TS01-L011",
+            "TS01-L013",
+            "TS01-L015",
+            "TS01-L016",
+            "TS01-L018",
+            "TS01-L020",
+            "TS01-L022",
+            "TS01-L024",
+            "TS01-L027",
+            "TS01-L029",
+            "TS01-L030"
+          ],
+          "full_scene_for_context": "TS01",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/taniya.json"
+        },
+        {
+          "scene_id": "TS02",
+          "evidence_line_ids": [
+            "TS02-L002",
+            "TS02-L003",
+            "TS02-L004",
+            "TS02-L006",
+            "TS02-L007",
+            "TS02-L009",
+            "TS02-L010",
+            "TS02-L011",
+            "TS02-L013",
+            "TS02-L014",
+            "TS02-L015",
+            "TS02-L016",
+            "TS02-L017",
+            "TS02-L018",
+            "TS02-L019",
+            "TS02-L021",
+            "TS02-L025",
+            "TS02-L028"
+          ],
+          "full_scene_for_context": "TS02",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/taniya.json"
+        },
+        {
+          "scene_id": "TS03",
+          "evidence_line_ids": [
+            "TS03-L001"
+          ],
+          "full_scene_for_context": "TS03",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/taniya.json"
+        },
+        {
+          "scene_id": "TS04-PART1",
+          "evidence_line_ids": [
+            "TS04-PART1-L002",
+            "TS04-PART1-L003",
+            "TS04-PART1-L009",
+            "TS04-PART1-L011",
+            "TS04-PART1-L012",
+            "TS04-PART1-L020",
+            "TS04-PART1-L021",
+            "TS04-PART1-L026",
+            "TS04-PART1-L027",
+            "TS04-PART1-L028"
+          ],
+          "full_scene_for_context": "TS04-PART1",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/taniya.json"
+        },
+        {
+          "scene_id": "TS04-PART2",
+          "evidence_line_ids": [
+            "TS04-PART2-L001",
+            "TS04-PART2-L002",
+            "TS04-PART2-L026"
+          ],
+          "full_scene_for_context": "TS04-PART2",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/taniya.json"
+        },
+        {
+          "scene_id": "TS04-PART3",
+          "evidence_line_ids": [
+            "TS04-PART3-L002",
+            "TS04-PART3-L005",
+            "TS04-PART3-L006",
+            "TS04-PART3-L008",
+            "TS04-PART3-L010",
+            "TS04-PART3-L012",
+            "TS04-PART3-L016",
+            "TS04-PART3-L017",
+            "TS04-PART3-L019"
+          ],
+          "full_scene_for_context": "TS04-PART3",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/taniya.json"
+        },
+        {
+          "scene_id": "TS05-PART1",
+          "evidence_line_ids": [
+            "TS05-PART1-L002",
+            "TS05-PART1-L005",
+            "TS05-PART1-L006",
+            "TS05-PART1-L011",
+            "TS05-PART1-L013",
+            "TS05-PART1-L015",
+            "TS05-PART1-L016",
+            "TS05-PART1-L021",
+            "TS05-PART1-L026",
+            "TS05-PART1-L027",
+            "TS05-PART1-L028",
+            "TS05-PART1-L031"
+          ],
+          "full_scene_for_context": "TS05-PART1",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/taniya.json"
+        },
+        {
+          "scene_id": "TS05-PART2",
+          "evidence_line_ids": [
+            "TS05-PART2-L002",
+            "TS05-PART2-L007",
+            "TS05-PART2-L009",
+            "TS05-PART2-L010",
+            "TS05-PART2-L011",
+            "TS05-PART2-L013",
+            "TS05-PART2-L015",
+            "TS05-PART2-L016",
+            "TS05-PART2-L017",
+            "TS05-PART2-L023",
+            "TS05-PART2-L025",
+            "TS05-PART2-L026",
+            "TS05-PART2-L031"
+          ],
+          "full_scene_for_context": "TS05-PART2",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/taniya.json"
+        },
+        {
+          "scene_id": "TS05-PART3",
+          "evidence_line_ids": [
+            "TS05-PART3-L007",
+            "TS05-PART3-L009",
+            "TS05-PART3-L011",
+            "TS05-PART3-L012",
+            "TS05-PART3-L017",
+            "TS05-PART3-L019",
+            "TS05-PART3-L020",
+            "TS05-PART3-L022",
+            "TS05-PART3-L024",
+            "TS05-PART3-L028"
+          ],
+          "full_scene_for_context": "TS05-PART3",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/taniya.json"
+        },
+        {
+          "scene_id": "TS06",
+          "evidence_line_ids": [
+            "TS06-L001",
+            "TS06-L003",
+            "TS06-L004",
+            "TS06-L006",
+            "TS06-L007",
+            "TS06-L011",
+            "TS06-L017",
+            "TS06-L019",
+            "TS06-L020",
+            "TS06-L021",
+            "TS06-L023",
+            "TS06-L028",
+            "TS06-L030",
+            "TS06-L034",
+            "TS06-L035",
+            "TS06-L042",
+            "TS06-L045",
+            "TS06-L047",
+            "TS06-L050",
+            "TS06-L051",
+            "TS06-L052",
+            "TS06-L055"
+          ],
+          "full_scene_for_context": "TS06",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/taniya.json"
+        },
+        {
+          "scene_id": "TS07A",
+          "evidence_line_ids": [
+            "TS07A-L003",
+            "TS07A-L004",
+            "TS07A-L006",
+            "TS07A-L009",
+            "TS07A-L011",
+            "TS07A-L013",
+            "TS07A-L015",
+            "TS07A-L017",
+            "TS07A-L019",
+            "TS07A-L021",
+            "TS07A-L023"
+          ],
+          "full_scene_for_context": "TS07A",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/taniya.json"
+        },
+        {
+          "scene_id": "TS07B",
+          "evidence_line_ids": [
+            "TS07B-L006",
+            "TS07B-L007",
+            "TS07B-L009",
+            "TS07B-L011",
+            "TS07B-L013",
+            "TS07B-L015",
+            "TS07B-L017",
+            "TS07B-L019",
+            "TS07B-L021",
+            "TS07B-L022"
+          ],
+          "full_scene_for_context": "TS07B",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/taniya.json"
+        },
+        {
+          "scene_id": "TS07C",
+          "evidence_line_ids": [
+            "TS07C-L002",
+            "TS07C-L005",
+            "TS07C-L008",
+            "TS07C-L010",
+            "TS07C-L013",
+            "TS07C-L014"
+          ],
+          "full_scene_for_context": "TS07C",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/taniya.json"
+        },
+        {
+          "scene_id": "TS08",
+          "evidence_line_ids": [
+            "TS08-L002",
+            "TS08-L006"
+          ],
+          "full_scene_for_context": "TS08",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/taniya.json"
+        },
+        {
+          "scene_id": "TS09",
+          "evidence_line_ids": [
+            "TS09-L004",
+            "TS09-L009",
+            "TS09-L014"
+          ],
+          "full_scene_for_context": "TS09",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/taniya.json"
+        },
+        {
+          "scene_id": "TS10-MAIN",
+          "evidence_line_ids": [
+            "TS10-MAIN-L012",
+            "TS10-MAIN-L027",
+            "TS10-MAIN-L049",
+            "TS10-MAIN-L059"
+          ],
+          "full_scene_for_context": "TS10-MAIN",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/taniya.json"
+        }
+      ]
+    },
+    "Soniya": {
+      "Karan": [
+        {
+          "scene_id": "TS04-PART3",
+          "evidence_line_ids": [
+            "TS04-PART3-L014",
+            "TS04-PART3-L015",
+            "TS04-PART3-L019"
+          ],
+          "full_scene_for_context": "TS04-PART3",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/soniya.json"
+        },
+        {
+          "scene_id": "TS05-PART1",
+          "evidence_line_ids": [
+            "TS05-PART1-L002",
+            "TS05-PART1-L003",
+            "TS05-PART1-L006",
+            "TS05-PART1-L023",
+            "TS05-PART1-L024",
+            "TS05-PART1-L028",
+            "TS05-PART1-L031"
+          ],
+          "full_scene_for_context": "TS05-PART1",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/soniya.json"
+        },
+        {
+          "scene_id": "TS05-PART2",
+          "evidence_line_ids": [
+            "TS05-PART2-L002",
+            "TS05-PART2-L003",
+            "TS05-PART2-L005",
+            "TS05-PART2-L018",
+            "TS05-PART2-L019",
+            "TS05-PART2-L031"
+          ],
+          "full_scene_for_context": "TS05-PART2",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/soniya.json"
+        },
+        {
+          "scene_id": "TS05-PART3",
+          "evidence_line_ids": [
+            "TS05-PART3-L002",
+            "TS05-PART3-L003",
+            "TS05-PART3-L005",
+            "TS05-PART3-L019",
+            "TS05-PART3-L025",
+            "TS05-PART3-L026"
+          ],
+          "full_scene_for_context": "TS05-PART3",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/soniya.json"
+        }
+      ],
+      "Aman": [
+        {
+          "scene_id": "TS04-PART3",
+          "evidence_line_ids": [
+            "TS04-PART3-L014",
+            "TS04-PART3-L019"
+          ],
+          "full_scene_for_context": "TS04-PART3",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/soniya.json"
+        },
+        {
+          "scene_id": "TS05-PART1",
+          "evidence_line_ids": [
+            "TS05-PART1-L002",
+            "TS05-PART1-L006",
+            "TS05-PART1-L013",
+            "TS05-PART1-L014",
+            "TS05-PART1-L016",
+            "TS05-PART1-L028",
+            "TS05-PART1-L031"
+          ],
+          "full_scene_for_context": "TS05-PART1",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/soniya.json"
+        },
+        {
+          "scene_id": "TS05-PART2",
+          "evidence_line_ids": [
+            "TS05-PART2-L002",
+            "TS05-PART2-L008",
+            "TS05-PART2-L009",
+            "TS05-PART2-L011",
+            "TS05-PART2-L023",
+            "TS05-PART2-L024",
+            "TS05-PART2-L026",
+            "TS05-PART2-L031"
+          ],
+          "full_scene_for_context": "TS05-PART2",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/soniya.json"
+        },
+        {
+          "scene_id": "TS05-PART3",
+          "evidence_line_ids": [
+            "TS05-PART3-L009",
+            "TS05-PART3-L010",
+            "TS05-PART3-L012",
+            "TS05-PART3-L019",
+            "TS05-PART3-L020",
+            "TS05-PART3-L021"
+          ],
+          "full_scene_for_context": "TS05-PART3",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/soniya.json"
+        }
+      ],
+      "Aditya": [
+        {
+          "scene_id": "TS01",
+          "evidence_line_ids": [
+            "TS01-L010"
+          ],
+          "full_scene_for_context": "TS01",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/soniya.json"
+        },
+        {
+          "scene_id": "TS08",
+          "evidence_line_ids": [
+            "TS08-L003",
+            "TS08-L007"
+          ],
+          "full_scene_for_context": "TS08",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/soniya.json"
+        },
+        {
+          "scene_id": "TS10-ENTRY",
+          "evidence_line_ids": [
+            "TS10-ENTRY-L006"
+          ],
+          "full_scene_for_context": "TS10-ENTRY",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/soniya.json"
+        },
+        {
+          "scene_id": "TS10-MAIN",
+          "evidence_line_ids": [
+            "TS10-MAIN-L007"
+          ],
+          "full_scene_for_context": "TS10-MAIN",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/soniya.json"
+        }
+      ],
+      "Soniya": [
+        {
+          "scene_id": "TS01",
+          "evidence_line_ids": [
+            "TS01-L001",
+            "TS01-L004",
+            "TS01-L005",
+            "TS01-L007",
+            "TS01-L009",
+            "TS01-L012",
+            "TS01-L015",
+            "TS01-L026",
+            "TS01-L028",
+            "TS01-L029"
+          ],
+          "full_scene_for_context": "TS01",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/soniya.json"
+        },
+        {
+          "scene_id": "TS02",
+          "evidence_line_ids": [
+            "TS02-L002",
+            "TS02-L003",
+            "TS02-L005",
+            "TS02-L007",
+            "TS02-L008",
+            "TS02-L020",
+            "TS02-L022",
+            "TS02-L023",
+            "TS02-L027"
+          ],
+          "full_scene_for_context": "TS02",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/soniya.json"
+        },
+        {
+          "scene_id": "TS03",
+          "evidence_line_ids": [
+            "TS03-L001"
+          ],
+          "full_scene_for_context": "TS03",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/soniya.json"
+        },
+        {
+          "scene_id": "TS04-PART1",
+          "evidence_line_ids": [
+            "TS04-PART1-L002",
+            "TS04-PART1-L005",
+            "TS04-PART1-L006",
+            "TS04-PART1-L013",
+            "TS04-PART1-L015",
+            "TS04-PART1-L016",
+            "TS04-PART1-L017",
+            "TS04-PART1-L020",
+            "TS04-PART1-L022",
+            "TS04-PART1-L023",
+            "TS04-PART1-L024",
+            "TS04-PART1-L028"
+          ],
+          "full_scene_for_context": "TS04-PART1",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/soniya.json"
+        },
+        {
+          "scene_id": "TS04-PART2",
+          "evidence_line_ids": [
+            "TS04-PART2-L003",
+            "TS04-PART2-L004",
+            "TS04-PART2-L006",
+            "TS04-PART2-L007",
+            "TS04-PART2-L008",
+            "TS04-PART2-L010",
+            "TS04-PART2-L011",
+            "TS04-PART2-L012",
+            "TS04-PART2-L014",
+            "TS04-PART2-L017",
+            "TS04-PART2-L018",
+            "TS04-PART2-L019",
+            "TS04-PART2-L021",
+            "TS04-PART2-L022",
+            "TS04-PART2-L023",
+            "TS04-PART2-L024",
+            "TS04-PART2-L026",
+            "TS04-PART2-L027",
+            "TS04-PART2-L028",
+            "TS04-PART2-L030"
+          ],
+          "full_scene_for_context": "TS04-PART2",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/soniya.json"
+        },
+        {
+          "scene_id": "TS04-PART3",
+          "evidence_line_ids": [
+            "TS04-PART3-L002",
+            "TS04-PART3-L003",
+            "TS04-PART3-L004",
+            "TS04-PART3-L005",
+            "TS04-PART3-L008",
+            "TS04-PART3-L009",
+            "TS04-PART3-L010",
+            "TS04-PART3-L011",
+            "TS04-PART3-L012",
+            "TS04-PART3-L016",
+            "TS04-PART3-L017",
+            "TS04-PART3-L019"
+          ],
+          "full_scene_for_context": "TS04-PART3",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/soniya.json"
+        },
+        {
+          "scene_id": "TS05-PART1",
+          "evidence_line_ids": [
+            "TS05-PART1-L002",
+            "TS05-PART1-L007",
+            "TS05-PART1-L008",
+            "TS05-PART1-L010",
+            "TS05-PART1-L017",
+            "TS05-PART1-L018",
+            "TS05-PART1-L020",
+            "TS05-PART1-L023",
+            "TS05-PART1-L025",
+            "TS05-PART1-L028",
+            "TS05-PART1-L031"
+          ],
+          "full_scene_for_context": "TS05-PART1",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/soniya.json"
+        },
+        {
+          "scene_id": "TS05-PART2",
+          "evidence_line_ids": [
+            "TS05-PART2-L002",
+            "TS05-PART2-L003",
+            "TS05-PART2-L004",
+            "TS05-PART2-L005",
+            "TS05-PART2-L006",
+            "TS05-PART2-L018",
+            "TS05-PART2-L019",
+            "TS05-PART2-L020",
+            "TS05-PART2-L027",
+            "TS05-PART2-L028",
+            "TS05-PART2-L030"
+          ],
+          "full_scene_for_context": "TS05-PART2",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/soniya.json"
+        },
+        {
+          "scene_id": "TS05-PART3",
+          "evidence_line_ids": [
+            "TS05-PART3-L002",
+            "TS05-PART3-L003",
+            "TS05-PART3-L004",
+            "TS05-PART3-L005",
+            "TS05-PART3-L006",
+            "TS05-PART3-L013",
+            "TS05-PART3-L014",
+            "TS05-PART3-L016",
+            "TS05-PART3-L019",
+            "TS05-PART3-L024",
+            "TS05-PART3-L027"
+          ],
+          "full_scene_for_context": "TS05-PART3",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/soniya.json"
+        },
+        {
+          "scene_id": "TS06",
+          "evidence_line_ids": [
+            "TS06-L003",
+            "TS06-L005",
+            "TS06-L007",
+            "TS06-L010",
+            "TS06-L013",
+            "TS06-L014",
+            "TS06-L015",
+            "TS06-L020",
+            "TS06-L021",
+            "TS06-L025",
+            "TS06-L026",
+            "TS06-L031",
+            "TS06-L033",
+            "TS06-L034",
+            "TS06-L037",
+            "TS06-L041",
+            "TS06-L044",
+            "TS06-L046",
+            "TS06-L048",
+            "TS06-L049",
+            "TS06-L051",
+            "TS06-L053",
+            "TS06-L055"
+          ],
+          "full_scene_for_context": "TS06",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/soniya.json"
+        },
+        {
+          "scene_id": "TS07A",
+          "evidence_line_ids": [
+            "TS07A-L005",
+            "TS07A-L007",
+            "TS07A-L008",
+            "TS07A-L010",
+            "TS07A-L012",
+            "TS07A-L014",
+            "TS07A-L016",
+            "TS07A-L018",
+            "TS07A-L020",
+            "TS07A-L022",
+            "TS07A-L024",
+            "TS07A-L026"
+          ],
+          "full_scene_for_context": "TS07A",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/soniya.json"
+        },
+        {
+          "scene_id": "TS07B",
+          "evidence_line_ids": [
+            "TS07B-L008",
+            "TS07B-L010",
+            "TS07B-L012",
+            "TS07B-L014",
+            "TS07B-L016",
+            "TS07B-L018",
+            "TS07B-L020",
+            "TS07B-L023"
+          ],
+          "full_scene_for_context": "TS07B",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/soniya.json"
+        },
+        {
+          "scene_id": "TS07C",
+          "evidence_line_ids": [
+            "TS07C-L003",
+            "TS07C-L004",
+            "TS07C-L007",
+            "TS07C-L009",
+            "TS07C-L011",
+            "TS07C-L013",
+            "TS07C-L015"
+          ],
+          "full_scene_for_context": "TS07C",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/soniya.json"
+        },
+        {
+          "scene_id": "TS09",
+          "evidence_line_ids": [
+            "TS09-L003",
+            "TS09-L004",
+            "TS09-L006",
+            "TS09-L009",
+            "TS09-L011",
+            "TS09-L013",
+            "TS09-L016"
+          ],
+          "full_scene_for_context": "TS09",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/soniya.json"
+        },
+        {
+          "scene_id": "TS10-ENTRY",
+          "evidence_line_ids": [
+            "TS10-ENTRY-L004",
+            "TS10-ENTRY-L005",
+            "TS10-ENTRY-L007",
+            "TS10-ENTRY-L008",
+            "TS10-ENTRY-L012",
+            "TS10-ENTRY-L013"
+          ],
+          "full_scene_for_context": "TS10-ENTRY",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/soniya.json"
+        },
+        {
+          "scene_id": "TS10-MAIN",
+          "evidence_line_ids": [
+            "TS10-MAIN-L001",
+            "TS10-MAIN-L003",
+            "TS10-MAIN-L004",
+            "TS10-MAIN-L006",
+            "TS10-MAIN-L008",
+            "TS10-MAIN-L009",
+            "TS10-MAIN-L011",
+            "TS10-MAIN-L013",
+            "TS10-MAIN-L015",
+            "TS10-MAIN-L017",
+            "TS10-MAIN-L018",
+            "TS10-MAIN-L019",
+            "TS10-MAIN-L021",
+            "TS10-MAIN-L023",
+            "TS10-MAIN-L027",
+            "TS10-MAIN-L029",
+            "TS10-MAIN-L030",
+            "TS10-MAIN-L033",
+            "TS10-MAIN-L034",
+            "TS10-MAIN-L036",
+            "TS10-MAIN-L040",
+            "TS10-MAIN-L042",
+            "TS10-MAIN-L044",
+            "TS10-MAIN-L046",
+            "TS10-MAIN-L047",
+            "TS10-MAIN-L049",
+            "TS10-MAIN-L051",
+            "TS10-MAIN-L053",
+            "TS10-MAIN-L054",
+            "TS10-MAIN-L057",
+            "TS10-MAIN-L058",
+            "TS10-MAIN-L061"
+          ],
+          "full_scene_for_context": "TS10-MAIN",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/soniya.json"
+        },
+        {
+          "scene_id": "TS11",
+          "evidence_line_ids": [
+            "TS11-L001",
+            "TS11-L002",
+            "TS11-L003",
+            "TS11-L005",
+            "TS11-L008",
+            "TS11-L010",
+            "TS11-L013",
+            "TS11-L014",
+            "TS11-L016",
+            "TS11-L017",
+            "TS11-L019",
+            "TS11-L021",
+            "TS11-L022",
+            "TS11-L024",
+            "TS11-L027",
+            "TS11-L028",
+            "TS11-L029",
+            "TS11-L031",
+            "TS11-L032",
+            "TS11-L033",
+            "TS11-L035",
+            "TS11-L038",
+            "TS11-L039",
+            "TS11-L041",
+            "TS11-L044",
+            "TS11-L048",
+            "TS11-L049",
+            "TS11-L050",
+            "TS11-L052",
+            "TS11-L053"
+          ],
+          "full_scene_for_context": "TS11",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/soniya.json"
+        }
+      ],
+      "Rahul": [
+        {
+          "scene_id": "TS01",
+          "evidence_line_ids": [
+            "TS01-L001",
+            "TS01-L004",
+            "TS01-L005",
+            "TS01-L006",
+            "TS01-L008",
+            "TS01-L009",
+            "TS01-L014",
+            "TS01-L017",
+            "TS01-L019",
+            "TS01-L021",
+            "TS01-L023",
+            "TS01-L025",
+            "TS01-L030"
+          ],
+          "full_scene_for_context": "TS01",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/soniya.json"
+        },
+        {
+          "scene_id": "TS02",
+          "evidence_line_ids": [
+            "TS02-L001",
+            "TS02-L012",
+            "TS02-L014",
+            "TS02-L015",
+            "TS02-L016",
+            "TS02-L017",
+            "TS02-L022",
+            "TS02-L023",
+            "TS02-L024",
+            "TS02-L026",
+            "TS02-L028"
+          ],
+          "full_scene_for_context": "TS02",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/soniya.json"
+        },
+        {
+          "scene_id": "TS03",
+          "evidence_line_ids": [
+            "TS03-L001"
+          ],
+          "full_scene_for_context": "TS03",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/soniya.json"
+        },
+        {
+          "scene_id": "TS06",
+          "evidence_line_ids": [
+            "TS06-L007",
+            "TS06-L047"
+          ],
+          "full_scene_for_context": "TS06",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/soniya.json"
+        },
+        {
+          "scene_id": "TS07A",
+          "evidence_line_ids": [
+            "TS07A-L006",
+            "TS07A-L008",
+            "TS07A-L009",
+            "TS07A-L014",
+            "TS07A-L015",
+            "TS07A-L016",
+            "TS07A-L018",
+            "TS07A-L022",
+            "TS07A-L023"
+          ],
+          "full_scene_for_context": "TS07A",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/soniya.json"
+        },
+        {
+          "scene_id": "TS07B",
+          "evidence_line_ids": [
+            "TS07B-L013",
+            "TS07B-L016"
+          ],
+          "full_scene_for_context": "TS07B",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/soniya.json"
+        },
+        {
+          "scene_id": "TS07C",
+          "evidence_line_ids": [
+            "TS07C-L008"
+          ],
+          "full_scene_for_context": "TS07C",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/soniya.json"
+        },
+        {
+          "scene_id": "TS08",
+          "evidence_line_ids": [
+            "TS08-L005"
+          ],
+          "full_scene_for_context": "TS08",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/soniya.json"
+        },
+        {
+          "scene_id": "TS09",
+          "evidence_line_ids": [
+            "TS09-L010",
+            "TS09-L014"
+          ],
+          "full_scene_for_context": "TS09",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/soniya.json"
+        },
+        {
+          "scene_id": "TS10-MAIN",
+          "evidence_line_ids": [
+            "TS10-MAIN-L041",
+            "TS10-MAIN-L059",
+            "TS10-MAIN-L060"
+          ],
+          "full_scene_for_context": "TS10-MAIN",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/soniya.json"
+        },
+        {
+          "scene_id": "TS11",
+          "evidence_line_ids": [
+            "TS11-L052"
+          ],
+          "full_scene_for_context": "TS11",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/soniya.json"
+        }
+      ],
+      "Subhash": [
+        {
+          "scene_id": "TS10-ENTRY",
+          "evidence_line_ids": [
+            "TS10-ENTRY-L006",
+            "TS10-ENTRY-L010",
+            "TS10-ENTRY-L011"
+          ],
+          "full_scene_for_context": "TS10-ENTRY",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/soniya.json"
+        },
+        {
+          "scene_id": "TS10-MAIN",
+          "evidence_line_ids": [
+            "TS10-MAIN-L003",
+            "TS10-MAIN-L005",
+            "TS10-MAIN-L007",
+            "TS10-MAIN-L009",
+            "TS10-MAIN-L012",
+            "TS10-MAIN-L014",
+            "TS10-MAIN-L016",
+            "TS10-MAIN-L018",
+            "TS10-MAIN-L020",
+            "TS10-MAIN-L025",
+            "TS10-MAIN-L027",
+            "TS10-MAIN-L031",
+            "TS10-MAIN-L032",
+            "TS10-MAIN-L035",
+            "TS10-MAIN-L041",
+            "TS10-MAIN-L043",
+            "TS10-MAIN-L045",
+            "TS10-MAIN-L047",
+            "TS10-MAIN-L050",
+            "TS10-MAIN-L052",
+            "TS10-MAIN-L054",
+            "TS10-MAIN-L056",
+            "TS10-MAIN-L058"
+          ],
+          "full_scene_for_context": "TS10-MAIN",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/soniya.json"
+        }
+      ],
+      "Mahendra Suri": [
+        {
+          "scene_id": "TS06",
+          "evidence_line_ids": [
+            "TS06-L001",
+            "TS06-L008",
+            "TS06-L009",
+            "TS06-L010",
+            "TS06-L012",
+            "TS06-L013",
+            "TS06-L014",
+            "TS06-L016",
+            "TS06-L018",
+            "TS06-L020",
+            "TS06-L022",
+            "TS06-L025",
+            "TS06-L027",
+            "TS06-L029",
+            "TS06-L031",
+            "TS06-L032",
+            "TS06-L036",
+            "TS06-L039",
+            "TS06-L040",
+            "TS06-L041",
+            "TS06-L043",
+            "TS06-L044"
+          ],
+          "full_scene_for_context": "TS06",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/soniya.json"
+        },
+        {
+          "scene_id": "TS10-MAIN",
+          "evidence_line_ids": [
+            "TS10-MAIN-L006"
+          ],
+          "full_scene_for_context": "TS10-MAIN",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/soniya.json"
+        },
+        {
+          "scene_id": "TS11",
+          "evidence_line_ids": [
+            "TS11-L001",
+            "TS11-L004",
+            "TS11-L006",
+            "TS11-L007",
+            "TS11-L009",
+            "TS11-L011",
+            "TS11-L012",
+            "TS11-L016",
+            "TS11-L018",
+            "TS11-L020",
+            "TS11-L023",
+            "TS11-L025",
+            "TS11-L026",
+            "TS11-L029",
+            "TS11-L030",
+            "TS11-L032",
+            "TS11-L034",
+            "TS11-L037",
+            "TS11-L040",
+            "TS11-L042",
+            "TS11-L043",
+            "TS11-L046",
+            "TS11-L047",
+            "TS11-L051"
+          ],
+          "full_scene_for_context": "TS11",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/soniya.json"
+        }
+      ],
+      "Diya Sen": [
+        {
+          "scene_id": "TS01",
+          "evidence_line_ids": [
+            "TS01-L020"
+          ],
+          "full_scene_for_context": "TS01",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/soniya.json"
+        },
+        {
+          "scene_id": "TS02",
+          "evidence_line_ids": [
+            "TS02-L013"
+          ],
+          "full_scene_for_context": "TS02",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/soniya.json"
+        },
+        {
+          "scene_id": "TS04-PART1",
+          "evidence_line_ids": [
+            "TS04-PART1-L012"
+          ],
+          "full_scene_for_context": "TS04-PART1",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/soniya.json"
+        },
+        {
+          "scene_id": "TS04-PART3",
+          "evidence_line_ids": [
+            "TS04-PART3-L012",
+            "TS04-PART3-L017"
+          ],
+          "full_scene_for_context": "TS04-PART3",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/soniya.json"
+        },
+        {
+          "scene_id": "TS05-PART2",
+          "evidence_line_ids": [
+            "TS05-PART2-L018"
+          ],
+          "full_scene_for_context": "TS05-PART2",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/soniya.json"
+        },
+        {
+          "scene_id": "TS05-PART3",
+          "evidence_line_ids": [
+            "TS05-PART3-L003",
+            "TS05-PART3-L019",
+            "TS05-PART3-L024"
+          ],
+          "full_scene_for_context": "TS05-PART3",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/soniya.json"
+        },
+        {
+          "scene_id": "TS06",
+          "evidence_line_ids": [
+            "TS06-L013"
+          ],
+          "full_scene_for_context": "TS06",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/soniya.json"
+        },
+        {
+          "scene_id": "TS07C",
+          "evidence_line_ids": [
+            "TS07C-L013"
+          ],
+          "full_scene_for_context": "TS07C",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/soniya.json"
+        },
+        {
+          "scene_id": "TS09",
+          "evidence_line_ids": [
+            "TS09-L007",
+            "TS09-L013"
+          ],
+          "full_scene_for_context": "TS09",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/soniya.json"
+        },
+        {
+          "scene_id": "TS10-ENTRY",
+          "evidence_line_ids": [
+            "TS10-ENTRY-L013"
+          ],
+          "full_scene_for_context": "TS10-ENTRY",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/soniya.json"
+        },
+        {
+          "scene_id": "TS10-MAIN",
+          "evidence_line_ids": [
+            "TS10-MAIN-L003",
+            "TS10-MAIN-L011",
+            "TS10-MAIN-L018",
+            "TS10-MAIN-L054"
+          ],
+          "full_scene_for_context": "TS10-MAIN",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/soniya.json"
+        },
+        {
+          "scene_id": "TS11",
+          "evidence_line_ids": [
+            "TS11-L013"
+          ],
+          "full_scene_for_context": "TS11",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/soniya.json"
+        }
+      ],
+      "Taniya": [
+        {
+          "scene_id": "TS01",
+          "evidence_line_ids": [
+            "TS01-L001",
+            "TS01-L002",
+            "TS01-L003",
+            "TS01-L004",
+            "TS01-L009",
+            "TS01-L011",
+            "TS01-L013",
+            "TS01-L015",
+            "TS01-L016",
+            "TS01-L018",
+            "TS01-L020",
+            "TS01-L022",
+            "TS01-L024",
+            "TS01-L027",
+            "TS01-L029",
+            "TS01-L030"
+          ],
+          "full_scene_for_context": "TS01",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/soniya.json"
+        },
+        {
+          "scene_id": "TS02",
+          "evidence_line_ids": [
+            "TS02-L002",
+            "TS02-L003",
+            "TS02-L004",
+            "TS02-L006",
+            "TS02-L007",
+            "TS02-L009",
+            "TS02-L010",
+            "TS02-L011",
+            "TS02-L013",
+            "TS02-L014",
+            "TS02-L015",
+            "TS02-L016",
+            "TS02-L017",
+            "TS02-L018",
+            "TS02-L019",
+            "TS02-L021",
+            "TS02-L025",
+            "TS02-L028"
+          ],
+          "full_scene_for_context": "TS02",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/soniya.json"
+        },
+        {
+          "scene_id": "TS03",
+          "evidence_line_ids": [
+            "TS03-L001"
+          ],
+          "full_scene_for_context": "TS03",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/soniya.json"
+        },
+        {
+          "scene_id": "TS04-PART1",
+          "evidence_line_ids": [
+            "TS04-PART1-L002",
+            "TS04-PART1-L003",
+            "TS04-PART1-L009",
+            "TS04-PART1-L011",
+            "TS04-PART1-L012",
+            "TS04-PART1-L020",
+            "TS04-PART1-L021",
+            "TS04-PART1-L026",
+            "TS04-PART1-L027",
+            "TS04-PART1-L028"
+          ],
+          "full_scene_for_context": "TS04-PART1",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/soniya.json"
+        },
+        {
+          "scene_id": "TS04-PART2",
+          "evidence_line_ids": [
+            "TS04-PART2-L001",
+            "TS04-PART2-L002",
+            "TS04-PART2-L026"
+          ],
+          "full_scene_for_context": "TS04-PART2",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/soniya.json"
+        },
+        {
+          "scene_id": "TS04-PART3",
+          "evidence_line_ids": [
+            "TS04-PART3-L002",
+            "TS04-PART3-L005",
+            "TS04-PART3-L006",
+            "TS04-PART3-L008",
+            "TS04-PART3-L010",
+            "TS04-PART3-L012",
+            "TS04-PART3-L016",
+            "TS04-PART3-L017",
+            "TS04-PART3-L019"
+          ],
+          "full_scene_for_context": "TS04-PART3",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/soniya.json"
+        },
+        {
+          "scene_id": "TS05-PART1",
+          "evidence_line_ids": [
+            "TS05-PART1-L002",
+            "TS05-PART1-L005",
+            "TS05-PART1-L006",
+            "TS05-PART1-L011",
+            "TS05-PART1-L013",
+            "TS05-PART1-L015",
+            "TS05-PART1-L016",
+            "TS05-PART1-L021",
+            "TS05-PART1-L026",
+            "TS05-PART1-L027",
+            "TS05-PART1-L028",
+            "TS05-PART1-L031"
+          ],
+          "full_scene_for_context": "TS05-PART1",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/soniya.json"
+        },
+        {
+          "scene_id": "TS05-PART2",
+          "evidence_line_ids": [
+            "TS05-PART2-L002",
+            "TS05-PART2-L007",
+            "TS05-PART2-L009",
+            "TS05-PART2-L010",
+            "TS05-PART2-L011",
+            "TS05-PART2-L013",
+            "TS05-PART2-L015",
+            "TS05-PART2-L016",
+            "TS05-PART2-L017",
+            "TS05-PART2-L023",
+            "TS05-PART2-L025",
+            "TS05-PART2-L026",
+            "TS05-PART2-L031"
+          ],
+          "full_scene_for_context": "TS05-PART2",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/soniya.json"
+        },
+        {
+          "scene_id": "TS05-PART3",
+          "evidence_line_ids": [
+            "TS05-PART3-L007",
+            "TS05-PART3-L009",
+            "TS05-PART3-L011",
+            "TS05-PART3-L012",
+            "TS05-PART3-L017",
+            "TS05-PART3-L019",
+            "TS05-PART3-L020",
+            "TS05-PART3-L022",
+            "TS05-PART3-L024",
+            "TS05-PART3-L028"
+          ],
+          "full_scene_for_context": "TS05-PART3",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/soniya.json"
+        },
+        {
+          "scene_id": "TS06",
+          "evidence_line_ids": [
+            "TS06-L001",
+            "TS06-L003",
+            "TS06-L004",
+            "TS06-L006",
+            "TS06-L007",
+            "TS06-L011",
+            "TS06-L017",
+            "TS06-L019",
+            "TS06-L020",
+            "TS06-L021",
+            "TS06-L023",
+            "TS06-L028",
+            "TS06-L030",
+            "TS06-L034",
+            "TS06-L035",
+            "TS06-L042",
+            "TS06-L045",
+            "TS06-L047",
+            "TS06-L050",
+            "TS06-L051",
+            "TS06-L052",
+            "TS06-L055"
+          ],
+          "full_scene_for_context": "TS06",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/soniya.json"
+        },
+        {
+          "scene_id": "TS07A",
+          "evidence_line_ids": [
+            "TS07A-L003",
+            "TS07A-L004",
+            "TS07A-L006",
+            "TS07A-L009",
+            "TS07A-L011",
+            "TS07A-L013",
+            "TS07A-L015",
+            "TS07A-L017",
+            "TS07A-L019",
+            "TS07A-L021",
+            "TS07A-L023"
+          ],
+          "full_scene_for_context": "TS07A",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/soniya.json"
+        },
+        {
+          "scene_id": "TS07B",
+          "evidence_line_ids": [
+            "TS07B-L006",
+            "TS07B-L007",
+            "TS07B-L009",
+            "TS07B-L011",
+            "TS07B-L013",
+            "TS07B-L015",
+            "TS07B-L017",
+            "TS07B-L019",
+            "TS07B-L021",
+            "TS07B-L022"
+          ],
+          "full_scene_for_context": "TS07B",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/soniya.json"
+        },
+        {
+          "scene_id": "TS07C",
+          "evidence_line_ids": [
+            "TS07C-L002",
+            "TS07C-L005",
+            "TS07C-L008",
+            "TS07C-L010",
+            "TS07C-L013",
+            "TS07C-L014"
+          ],
+          "full_scene_for_context": "TS07C",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/soniya.json"
+        },
+        {
+          "scene_id": "TS08",
+          "evidence_line_ids": [
+            "TS08-L002",
+            "TS08-L006"
+          ],
+          "full_scene_for_context": "TS08",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/soniya.json"
+        },
+        {
+          "scene_id": "TS09",
+          "evidence_line_ids": [
+            "TS09-L004",
+            "TS09-L009",
+            "TS09-L014"
+          ],
+          "full_scene_for_context": "TS09",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/soniya.json"
+        },
+        {
+          "scene_id": "TS10-MAIN",
+          "evidence_line_ids": [
+            "TS10-MAIN-L012",
+            "TS10-MAIN-L027",
+            "TS10-MAIN-L049",
+            "TS10-MAIN-L059"
+          ],
+          "full_scene_for_context": "TS10-MAIN",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/soniya.json"
+        }
+      ]
+    },
+    "Meenakshi": {
+      "Nikhil": [
+        {
+          "scene_id": "M01",
+          "evidence_line_ids": [
+            "M01-L007",
+            "M01-L059",
+            "M01-L071"
+          ],
+          "full_scene_for_context": "M01",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/meenakshi.json"
+        }
+      ],
+      "Mohan": [
+        {
+          "scene_id": "M01",
+          "evidence_line_ids": [
+            "M01-L013",
+            "M01-L014",
+            "M01-L016",
+            "M01-L019",
+            "M01-L020",
+            "M01-L022",
+            "M01-L023",
+            "M01-L025",
+            "M01-L027",
+            "M01-L030",
+            "M01-L033",
+            "M01-L035",
+            "M01-L036",
+            "M01-L039",
+            "M01-L041",
+            "M01-L044",
+            "M01-L046",
+            "M01-L049",
+            "M01-L052",
+            "M01-L054",
+            "M01-L063",
+            "M01-L068",
+            "M01-L069",
+            "M01-L070",
+            "M01-L074",
+            "M01-L076",
+            "M01-L077",
+            "M01-L084",
+            "M01-L085",
+            "M01-L086",
+            "M01-L090",
+            "M01-L092"
+          ],
+          "full_scene_for_context": "M01",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/meenakshi.json"
+        },
+        {
+          "scene_id": "M03",
+          "evidence_line_ids": [
+            "M03-L012"
+          ],
+          "full_scene_for_context": "M03",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/meenakshi.json"
+        }
+      ],
+      "Vihaan": [
+        {
+          "scene_id": "M01",
+          "evidence_line_ids": [
+            "M01-L003",
+            "M01-L027"
+          ],
+          "full_scene_for_context": "M01",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/meenakshi.json"
+        }
+      ],
+      "Uday": [
+        {
+          "scene_id": "M02",
+          "evidence_line_ids": [
+            "M02-L001",
+            "M02-L002",
+            "M02-L003",
+            "M02-L005",
+            "M02-L007",
+            "M02-L008",
+            "M02-L014",
+            "M02-L018",
+            "M02-L020",
+            "M02-L021",
+            "M02-L023"
+          ],
+          "full_scene_for_context": "M02",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/meenakshi.json"
+        },
+        {
+          "scene_id": "M03",
+          "evidence_line_ids": [
+            "M03-L012"
+          ],
+          "full_scene_for_context": "M03",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/meenakshi.json"
+        },
+        {
+          "scene_id": "M04",
+          "evidence_line_ids": [
+            "M04-L004"
+          ],
+          "full_scene_for_context": "M04",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/meenakshi.json"
+        }
+      ],
+      "Utkarsh": [
+        {
+          "scene_id": "M02",
+          "evidence_line_ids": [
+            "M02-L001",
+            "M02-L002",
+            "M02-L005",
+            "M02-L010",
+            "M02-L012",
+            "M02-L013",
+            "M02-L016",
+            "M02-L020",
+            "M02-L023",
+            "M02-L024"
+          ],
+          "full_scene_for_context": "M02",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/meenakshi.json"
+        },
+        {
+          "scene_id": "M03",
+          "evidence_line_ids": [
+            "M03-L012"
+          ],
+          "full_scene_for_context": "M03",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/meenakshi.json"
+        },
+        {
+          "scene_id": "M04",
+          "evidence_line_ids": [
+            "M04-L003",
+            "M04-L004",
+            "M04-L005"
+          ],
+          "full_scene_for_context": "M04",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/meenakshi.json"
+        }
+      ],
+      "Naveen": [
+        {
+          "scene_id": "M06",
+          "evidence_line_ids": [
+            "M06-L014",
+            "M06-L030"
+          ],
+          "full_scene_for_context": "M06",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/meenakshi.json"
+        }
+      ],
+      "Avi": [
+        {
+          "scene_id": "M06",
+          "evidence_line_ids": [
+            "M06-L001",
+            "M06-L003",
+            "M06-L004",
+            "M06-L005",
+            "M06-L006",
+            "M06-L007",
+            "M06-L008",
+            "M06-L010",
+            "M06-L012",
+            "M06-L013",
+            "M06-L018",
+            "M06-L019",
+            "M06-L030",
+            "M06-L031"
+          ],
+          "full_scene_for_context": "M06",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/meenakshi.json"
+        },
+        {
+          "scene_id": "M07",
+          "evidence_line_ids": [
+            "M07-L009"
+          ],
+          "full_scene_for_context": "M07",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/meenakshi.json"
+        }
+      ],
+      "Yash": [
+        {
+          "scene_id": "M06",
+          "evidence_line_ids": [
+            "M06-L001",
+            "M06-L003",
+            "M06-L004",
+            "M06-L008",
+            "M06-L013",
+            "M06-L014",
+            "M06-L015",
+            "M06-L017",
+            "M06-L019",
+            "M06-L020",
+            "M06-L022",
+            "M06-L024",
+            "M06-L025",
+            "M06-L027",
+            "M06-L029",
+            "M06-L030",
+            "M06-L031"
+          ],
+          "full_scene_for_context": "M06",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/meenakshi.json"
+        }
+      ],
+      "Dr. Ritesh Anand": [
+        {
+          "scene_id": "M07",
+          "evidence_line_ids": [
+            "M07-L001",
+            "M07-L002",
+            "M07-L004",
+            "M07-L005",
+            "M07-L006",
+            "M07-L008",
+            "M07-L009",
+            "M07-L011",
+            "M07-L013",
+            "M07-L014",
+            "M07-L016",
+            "M07-L017",
+            "M07-L019",
+            "M07-L020",
+            "M07-L022"
+          ],
+          "full_scene_for_context": "M07",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/meenakshi.json"
+        },
+        {
+          "scene_id": "M11",
+          "evidence_line_ids": [
+            "M11-L012"
+          ],
+          "full_scene_for_context": "M11",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/meenakshi.json"
+        }
+      ],
+      "Dr. Kunal Bedi": [
+        {
+          "scene_id": "M10",
+          "evidence_line_ids": [
+            "M10-L002",
+            "M10-L004",
+            "M10-L006",
+            "M10-L007",
+            "M10-L009",
+            "M10-L012"
+          ],
+          "full_scene_for_context": "M10",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/meenakshi.json"
+        },
+        {
+          "scene_id": "M11",
+          "evidence_line_ids": [
+            "M11-L012"
+          ],
+          "full_scene_for_context": "M11",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/meenakshi.json"
+        }
+      ],
+      "Dr. S. P. Khurana": [
+        {
+          "scene_id": "M11",
+          "evidence_line_ids": [
+            "M11-L001"
+          ],
+          "full_scene_for_context": "M11",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/meenakshi.json"
+        }
+      ],
+      "Diya Sen": [
+        {
+          "scene_id": "M01",
+          "evidence_line_ids": [
+            "M01-L047",
+            "M01-L061",
+            "M01-L062",
+            "M01-L066",
+            "M01-L072",
+            "M01-L077",
+            "M01-L089"
+          ],
+          "full_scene_for_context": "M01",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/meenakshi.json"
+        },
+        {
+          "scene_id": "M02",
+          "evidence_line_ids": [
+            "M02-L012",
+            "M02-L024"
+          ],
+          "full_scene_for_context": "M02",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/meenakshi.json"
+        },
+        {
+          "scene_id": "M03",
+          "evidence_line_ids": [
+            "M03-L010"
+          ],
+          "full_scene_for_context": "M03",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/meenakshi.json"
+        },
+        {
+          "scene_id": "M04",
+          "evidence_line_ids": [
+            "M04-L003"
+          ],
+          "full_scene_for_context": "M04",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/meenakshi.json"
+        },
+        {
+          "scene_id": "M05",
+          "evidence_line_ids": [
+            "M05-L006"
+          ],
+          "full_scene_for_context": "M05",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/meenakshi.json"
+        },
+        {
+          "scene_id": "M06",
+          "evidence_line_ids": [
+            "M06-L004",
+            "M06-L005",
+            "M06-L013",
+            "M06-L030"
+          ],
+          "full_scene_for_context": "M06",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/meenakshi.json"
+        },
+        {
+          "scene_id": "M07",
+          "evidence_line_ids": [
+            "M07-L016"
+          ],
+          "full_scene_for_context": "M07",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/meenakshi.json"
+        },
+        {
+          "scene_id": "M10",
+          "evidence_line_ids": [
+            "M10-L007"
+          ],
+          "full_scene_for_context": "M10",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/meenakshi.json"
+        },
+        {
+          "scene_id": "M11",
+          "evidence_line_ids": [
+            "M11-L003",
+            "M11-L005"
+          ],
+          "full_scene_for_context": "M11",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/meenakshi.json"
+        },
+        {
+          "scene_id": "M12",
+          "evidence_line_ids": [
+            "M12-L013"
+          ],
+          "full_scene_for_context": "M12",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/meenakshi.json"
+        }
+      ],
+      "Mrs. Bedi": [
+        {
+          "scene_id": "M10",
+          "evidence_line_ids": [
+            "M10-L002"
+          ],
+          "full_scene_for_context": "M10",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/meenakshi.json"
+        }
+      ],
+      "Dr. Aditi": [
+        {
+          "scene_id": "M06",
+          "evidence_line_ids": [
+            "M06-L001"
+          ],
+          "full_scene_for_context": "M06",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/meenakshi.json"
+        }
+      ],
+      "Rupa": [
+        {
+          "scene_id": "M06",
+          "evidence_line_ids": [
+            "M06-L001",
+            "M06-L002",
+            "M06-L013",
+            "M06-L030"
+          ],
+          "full_scene_for_context": "M06",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/meenakshi.json"
+        }
+      ],
+      "Gopal": [
+        {
+          "scene_id": "M03",
+          "evidence_line_ids": [
+            "M03-L001",
+            "M03-L002",
+            "M03-L004",
+            "M03-L006",
+            "M03-L008",
+            "M03-L010",
+            "M03-L011",
+            "M03-L012"
+          ],
+          "full_scene_for_context": "M03",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/meenakshi.json"
+        },
+        {
+          "scene_id": "M04",
+          "evidence_line_ids": [
+            "M04-L001"
+          ],
+          "full_scene_for_context": "M04",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/meenakshi.json"
+        }
+      ],
+      "Harish Pal": [
+        {
+          "scene_id": "M05",
+          "evidence_line_ids": [
+            "M05-L004",
+            "M05-L009",
+            "M05-L013",
+            "M05-L014"
+          ],
+          "full_scene_for_context": "M05",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/meenakshi.json"
+        },
+        {
+          "scene_id": "M06",
+          "evidence_line_ids": [
+            "M06-L031"
+          ],
+          "full_scene_for_context": "M06",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/meenakshi.json"
+        },
+        {
+          "scene_id": "M12",
+          "evidence_line_ids": [
+            "M12-L014"
+          ],
+          "full_scene_for_context": "M12",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/meenakshi.json"
+        }
+      ],
+      "Sunil Yadav": [
+        {
+          "scene_id": "M05",
+          "evidence_line_ids": [
+            "M05-L004",
+            "M05-L005",
+            "M05-L009",
+            "M05-L013",
+            "M05-L014"
+          ],
+          "full_scene_for_context": "M05",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/meenakshi.json"
+        },
+        {
+          "scene_id": "M06",
+          "evidence_line_ids": [
+            "M06-L031"
+          ],
+          "full_scene_for_context": "M06",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/meenakshi.json"
+        },
+        {
+          "scene_id": "M12",
+          "evidence_line_ids": [
+            "M12-L014"
+          ],
+          "full_scene_for_context": "M12",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/meenakshi.json"
+        }
+      ],
+      "Meenakshi": [
+        {
+          "scene_id": "M01",
+          "evidence_line_ids": [
+            "M01-L002",
+            "M01-L003",
+            "M01-L013",
+            "M01-L015",
+            "M01-L017",
+            "M01-L018",
+            "M01-L021",
+            "M01-L023",
+            "M01-L024",
+            "M01-L026",
+            "M01-L028",
+            "M01-L029",
+            "M01-L031",
+            "M01-L034",
+            "M01-L037",
+            "M01-L038",
+            "M01-L040",
+            "M01-L042",
+            "M01-L043",
+            "M01-L045",
+            "M01-L047",
+            "M01-L051",
+            "M01-L053",
+            "M01-L055",
+            "M01-L059",
+            "M01-L060",
+            "M01-L061",
+            "M01-L065",
+            "M01-L066",
+            "M01-L068",
+            "M01-L069",
+            "M01-L071",
+            "M01-L072",
+            "M01-L074",
+            "M01-L076",
+            "M01-L080",
+            "M01-L084",
+            "M01-L085",
+            "M01-L086",
+            "M01-L087",
+            "M01-L088"
+          ],
+          "full_scene_for_context": "M01",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/meenakshi.json"
+        },
+        {
+          "scene_id": "M02",
+          "evidence_line_ids": [
+            "M02-L001",
+            "M02-L004",
+            "M02-L006",
+            "M02-L008",
+            "M02-L009",
+            "M02-L011",
+            "M02-L013",
+            "M02-L015",
+            "M02-L017",
+            "M02-L019",
+            "M02-L022",
+            "M02-L023",
+            "M02-L024"
+          ],
+          "full_scene_for_context": "M02",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/meenakshi.json"
+        },
+        {
+          "scene_id": "M03",
+          "evidence_line_ids": [
+            "M03-L001",
+            "M03-L003",
+            "M03-L005",
+            "M03-L007",
+            "M03-L009",
+            "M03-L010",
+            "M03-L011",
+            "M03-L012"
+          ],
+          "full_scene_for_context": "M03",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/meenakshi.json"
+        },
+        {
+          "scene_id": "M04",
+          "evidence_line_ids": [
+            "M04-L001",
+            "M04-L002",
+            "M04-L004",
+            "M04-L007"
+          ],
+          "full_scene_for_context": "M04",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/meenakshi.json"
+        },
+        {
+          "scene_id": "M05",
+          "evidence_line_ids": [
+            "M05-L001",
+            "M05-L002",
+            "M05-L003",
+            "M05-L004",
+            "M05-L005",
+            "M05-L009",
+            "M05-L010",
+            "M05-L012",
+            "M05-L014"
+          ],
+          "full_scene_for_context": "M05",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/meenakshi.json"
+        },
+        {
+          "scene_id": "M06",
+          "evidence_line_ids": [
+            "M06-L001",
+            "M06-L003",
+            "M06-L004",
+            "M06-L005",
+            "M06-L006",
+            "M06-L008",
+            "M06-L009",
+            "M06-L011",
+            "M06-L012",
+            "M06-L013",
+            "M06-L014",
+            "M06-L016",
+            "M06-L018",
+            "M06-L020",
+            "M06-L021",
+            "M06-L023",
+            "M06-L024",
+            "M06-L026",
+            "M06-L028",
+            "M06-L029",
+            "M06-L031"
+          ],
+          "full_scene_for_context": "M06",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/meenakshi.json"
+        },
+        {
+          "scene_id": "M07",
+          "evidence_line_ids": [
+            "M07-L001",
+            "M07-L003",
+            "M07-L004",
+            "M07-L005",
+            "M07-L007",
+            "M07-L009",
+            "M07-L010",
+            "M07-L012",
+            "M07-L013",
+            "M07-L015",
+            "M07-L016",
+            "M07-L018",
+            "M07-L021",
+            "M07-L022",
+            "M07-L023"
+          ],
+          "full_scene_for_context": "M07",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/meenakshi.json"
+        },
+        {
+          "scene_id": "M10",
+          "evidence_line_ids": [
+            "M10-L001",
+            "M10-L002",
+            "M10-L003",
+            "M10-L004",
+            "M10-L008",
+            "M10-L012"
+          ],
+          "full_scene_for_context": "M10",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/meenakshi.json"
+        },
+        {
+          "scene_id": "M11",
+          "evidence_line_ids": [
+            "M11-L002",
+            "M11-L010"
+          ],
+          "full_scene_for_context": "M11",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/meenakshi.json"
+        },
+        {
+          "scene_id": "M12",
+          "evidence_line_ids": [
+            "M12-L001",
+            "M12-L003",
+            "M12-L008",
+            "M12-L013",
+            "M12-L014"
+          ],
+          "full_scene_for_context": "M12",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/meenakshi.json"
+        }
+      ]
+    },
+    "Shreya": {
+      "Karan": [
+        {
+          "scene_id": "SR05",
+          "evidence_line_ids": [
+            "SR05-L001",
+            "SR05-L004",
+            "SR05-L005",
+            "SR05-L009",
+            "SR05-L011",
+            "SR05-L012",
+            "SR05-L013",
+            "SR05-L018",
+            "SR05-L020",
+            "SR05-L021",
+            "SR05-L022",
+            "SR05-L025"
+          ],
+          "full_scene_for_context": "SR05",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shreya.json"
+        },
+        {
+          "scene_id": "SR04",
+          "evidence_line_ids": [
+            "SR04-L002"
+          ],
+          "full_scene_for_context": "SR04",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shreya.json"
+        },
+        {
+          "scene_id": "SR06",
+          "evidence_line_ids": [
+            "SR06-L003"
+          ],
+          "full_scene_for_context": "SR06",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shreya.json"
+        }
+      ],
+      "Aman": [
+        {
+          "scene_id": "SR05",
+          "evidence_line_ids": [
+            "SR05-L001",
+            "SR05-L004",
+            "SR05-L007",
+            "SR05-L009",
+            "SR05-L014",
+            "SR05-L015",
+            "SR05-L024",
+            "SR05-L025",
+            "SR05-L026",
+            "SR05-L027"
+          ],
+          "full_scene_for_context": "SR05",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shreya.json"
+        },
+        {
+          "scene_id": "SR04",
+          "evidence_line_ids": [
+            "SR04-L002"
+          ],
+          "full_scene_for_context": "SR04",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shreya.json"
+        },
+        {
+          "scene_id": "SR06",
+          "evidence_line_ids": [
+            "SR06-L003"
+          ],
+          "full_scene_for_context": "SR06",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shreya.json"
+        }
+      ],
+      "Rajeev": [
+        {
+          "scene_id": "SR05",
+          "evidence_line_ids": [
+            "SR05-L002",
+            "SR05-L016",
+            "SR05-L030"
+          ],
+          "full_scene_for_context": "SR05",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shreya.json"
+        },
+        {
+          "scene_id": "SR06",
+          "evidence_line_ids": [
+            "SR06-L003"
+          ],
+          "full_scene_for_context": "SR06",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shreya.json"
+        },
+        {
+          "scene_id": "SR09",
+          "evidence_line_ids": [
+            "SR09-L019",
+            "SR09-L049"
+          ],
+          "full_scene_for_context": "SR09",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shreya.json"
+        }
+      ],
+      "Soniya": [
+        {
+          "scene_id": "SR02A",
+          "evidence_line_ids": [
+            "SR02A-L001",
+            "SR02A-L099"
+          ],
+          "full_scene_for_context": "SR02A",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shreya.json"
+        }
+      ],
+      "Vikram": [
+        {
+          "scene_id": "SR02A",
+          "evidence_line_ids": [
+            "SR02A-L078",
+            "SR02A-L079",
+            "SR02A-L084"
+          ],
+          "full_scene_for_context": "SR02A",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shreya.json"
+        },
+        {
+          "scene_id": "SR02B",
+          "evidence_line_ids": [
+            "SR02B-L003",
+            "SR02B-L005",
+            "SR02B-L030"
+          ],
+          "full_scene_for_context": "SR02B",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shreya.json"
+        },
+        {
+          "scene_id": "SR06",
+          "evidence_line_ids": [
+            "SR06-L005"
+          ],
+          "full_scene_for_context": "SR06",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shreya.json"
+        }
+      ],
+      "Arvind": [
+        {
+          "scene_id": "SR02B",
+          "evidence_line_ids": [
+            "SR02B-L001",
+            "SR02B-L005",
+            "SR02B-L007",
+            "SR02B-L009",
+            "SR02B-L011",
+            "SR02B-L013",
+            "SR02B-L016",
+            "SR02B-L018",
+            "SR02B-L019",
+            "SR02B-L020",
+            "SR02B-L022",
+            "SR02B-L023",
+            "SR02B-L025",
+            "SR02B-L027",
+            "SR02B-L028",
+            "SR02B-L030"
+          ],
+          "full_scene_for_context": "SR02B",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shreya.json"
+        },
+        {
+          "scene_id": "SR06",
+          "evidence_line_ids": [
+            "SR06-L002"
+          ],
+          "full_scene_for_context": "SR06",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shreya.json"
+        },
+        {
+          "scene_id": "SR08",
+          "evidence_line_ids": [
+            "SR08-L002",
+            "SR08-L003",
+            "SR08-L005",
+            "SR08-L009"
+          ],
+          "full_scene_for_context": "SR08",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shreya.json"
+        }
+      ],
+      "Anaya": [
+        {
+          "scene_id": "SR01",
+          "evidence_line_ids": [
+            "SR01-L001",
+            "SR01-L041"
+          ],
+          "full_scene_for_context": "SR01",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shreya.json"
+        },
+        {
+          "scene_id": "SR02B",
+          "evidence_line_ids": [
+            "SR02B-L001",
+            "SR02B-L005",
+            "SR02B-L007",
+            "SR02B-L027",
+            "SR02B-L030"
+          ],
+          "full_scene_for_context": "SR02B",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shreya.json"
+        },
+        {
+          "scene_id": "SR06",
+          "evidence_line_ids": [
+            "SR06-L002"
+          ],
+          "full_scene_for_context": "SR06",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shreya.json"
+        }
+      ],
+      "Chintu": [
+        {
+          "scene_id": "SR05",
+          "evidence_line_ids": [
+            "SR05-L032"
+          ],
+          "full_scene_for_context": "SR05",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shreya.json"
+        }
+      ],
+      "Samar": [
+        {
+          "scene_id": "SR01",
+          "evidence_line_ids": [
+            "SR01-L003",
+            "SR01-L005",
+            "SR01-L006",
+            "SR01-L007",
+            "SR01-L008",
+            "SR01-L009",
+            "SR01-L015",
+            "SR01-L017",
+            "SR01-L019",
+            "SR01-L021",
+            "SR01-L023",
+            "SR01-L027",
+            "SR01-L028",
+            "SR01-L029",
+            "SR01-L032",
+            "SR01-L033",
+            "SR01-L036",
+            "SR01-L044"
+          ],
+          "full_scene_for_context": "SR01",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shreya.json"
+        },
+        {
+          "scene_id": "SR02A",
+          "evidence_line_ids": [
+            "SR02A-L002",
+            "SR02A-L003"
+          ],
+          "full_scene_for_context": "SR02A",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shreya.json"
+        },
+        {
+          "scene_id": "SR07",
+          "evidence_line_ids": [
+            "SR07-L031"
+          ],
+          "full_scene_for_context": "SR07",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shreya.json"
+        }
+      ],
+      "Shaan": [
+        {
+          "scene_id": "SR01",
+          "evidence_line_ids": [
+            "SR01-L003",
+            "SR01-L014",
+            "SR01-L015",
+            "SR01-L021",
+            "SR01-L023",
+            "SR01-L024",
+            "SR01-L026",
+            "SR01-L027",
+            "SR01-L030",
+            "SR01-L035",
+            "SR01-L036",
+            "SR01-L039",
+            "SR01-L044"
+          ],
+          "full_scene_for_context": "SR01",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shreya.json"
+        },
+        {
+          "scene_id": "SR02A",
+          "evidence_line_ids": [
+            "SR02A-L002",
+            "SR02A-L005"
+          ],
+          "full_scene_for_context": "SR02A",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shreya.json"
+        },
+        {
+          "scene_id": "SR05",
+          "evidence_line_ids": [
+            "SR05-L005"
+          ],
+          "full_scene_for_context": "SR05",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shreya.json"
+        },
+        {
+          "scene_id": "SR07",
+          "evidence_line_ids": [
+            "SR07-L031"
+          ],
+          "full_scene_for_context": "SR07",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shreya.json"
+        }
+      ],
+      "Mahendra Suri": [
+        {
+          "scene_id": "SR05",
+          "evidence_line_ids": [
+            "SR05-L032"
+          ],
+          "full_scene_for_context": "SR05",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shreya.json"
+        },
+        {
+          "scene_id": "SR04",
+          "evidence_line_ids": [
+            "SR04-L001",
+            "SR04-L002",
+            "SR04-L003",
+            "SR04-L005",
+            "SR04-L006",
+            "SR04-L008",
+            "SR04-L010",
+            "SR04-L011",
+            "SR04-L014",
+            "SR04-L016",
+            "SR04-L019",
+            "SR04-L020",
+            "SR04-L022",
+            "SR04-L024",
+            "SR04-L027",
+            "SR04-L028",
+            "SR04-L030",
+            "SR04-L032",
+            "SR04-L035",
+            "SR04-L039",
+            "SR04-L042"
+          ],
+          "full_scene_for_context": "SR04",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shreya.json"
+        },
+        {
+          "scene_id": "SR06",
+          "evidence_line_ids": [
+            "SR06-L003"
+          ],
+          "full_scene_for_context": "SR06",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shreya.json"
+        }
+      ],
+      "Vivek Rao": [
+        {
+          "scene_id": "SR01",
+          "evidence_line_ids": [
+            "SR01-L003"
+          ],
+          "full_scene_for_context": "SR01",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shreya.json"
+        },
+        {
+          "scene_id": "SR02A",
+          "evidence_line_ids": [
+            "SR02A-L007"
+          ],
+          "full_scene_for_context": "SR02A",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shreya.json"
+        }
+      ],
+      "Rohas": [
+        {
+          "scene_id": "SR07",
+          "evidence_line_ids": [
+            "SR07-L001",
+            "SR07-L003",
+            "SR07-L004",
+            "SR07-L008",
+            "SR07-L013",
+            "SR07-L018",
+            "SR07-L019",
+            "SR07-L023",
+            "SR07-L027",
+            "SR07-L033",
+            "SR07-L035",
+            "SR07-L036",
+            "SR07-L038",
+            "SR07-L039",
+            "SR07-L047",
+            "SR07-L050",
+            "SR07-L053",
+            "SR07-L057"
+          ],
+          "full_scene_for_context": "SR07",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shreya.json"
+        }
+      ],
+      "Lokesh": [
+        {
+          "scene_id": "SR07",
+          "evidence_line_ids": [
+            "SR07-L001",
+            "SR07-L003",
+            "SR07-L006",
+            "SR07-L011",
+            "SR07-L020",
+            "SR07-L021",
+            "SR07-L024",
+            "SR07-L029",
+            "SR07-L035",
+            "SR07-L040",
+            "SR07-L047",
+            "SR07-L050",
+            "SR07-L054",
+            "SR07-L057"
+          ],
+          "full_scene_for_context": "SR07",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shreya.json"
+        }
+      ],
+      "Inspector Chauhan": [
+        {
+          "scene_id": "SR09",
+          "evidence_line_ids": [
+            "SR09-L001",
+            "SR09-L003",
+            "SR09-L004",
+            "SR09-L006",
+            "SR09-L008",
+            "SR09-L011",
+            "SR09-L013",
+            "SR09-L014",
+            "SR09-L016",
+            "SR09-L020",
+            "SR09-L022",
+            "SR09-L024",
+            "SR09-L026",
+            "SR09-L027",
+            "SR09-L029",
+            "SR09-L031",
+            "SR09-L032",
+            "SR09-L034",
+            "SR09-L037",
+            "SR09-L038",
+            "SR09-L039",
+            "SR09-L040",
+            "SR09-L044",
+            "SR09-L046",
+            "SR09-L047",
+            "SR09-L050",
+            "SR09-L051"
+          ],
+          "full_scene_for_context": "SR09",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shreya.json"
+        }
+      ],
+      "Diya Sen": [
+        {
+          "scene_id": "SR01",
+          "evidence_line_ids": [
+            "SR01-L014",
+            "SR01-L015"
+          ],
+          "full_scene_for_context": "SR01",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shreya.json"
+        },
+        {
+          "scene_id": "SR02A",
+          "evidence_line_ids": [
+            "SR02A-L008",
+            "SR02A-L050",
+            "SR02A-L060",
+            "SR02A-L068",
+            "SR02A-L091"
+          ],
+          "full_scene_for_context": "SR02A",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shreya.json"
+        },
+        {
+          "scene_id": "SR02B",
+          "evidence_line_ids": [
+            "SR02B-L003",
+            "SR02B-L021"
+          ],
+          "full_scene_for_context": "SR02B",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shreya.json"
+        },
+        {
+          "scene_id": "SR05",
+          "evidence_line_ids": [
+            "SR05-L009",
+            "SR05-L031"
+          ],
+          "full_scene_for_context": "SR05",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shreya.json"
+        },
+        {
+          "scene_id": "SR04",
+          "evidence_line_ids": [
+            "SR04-L009",
+            "SR04-L022"
+          ],
+          "full_scene_for_context": "SR04",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shreya.json"
+        },
+        {
+          "scene_id": "SR07",
+          "evidence_line_ids": [
+            "SR07-L017"
+          ],
+          "full_scene_for_context": "SR07",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shreya.json"
+        },
+        {
+          "scene_id": "SR08",
+          "evidence_line_ids": [
+            "SR08-L005"
+          ],
+          "full_scene_for_context": "SR08",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shreya.json"
+        },
+        {
+          "scene_id": "SR09",
+          "evidence_line_ids": [
+            "SR09-L019",
+            "SR09-L050"
+          ],
+          "full_scene_for_context": "SR09",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shreya.json"
+        }
+      ],
+      "Kavita": [
+        {
+          "scene_id": "SR07",
+          "evidence_line_ids": [
+            "SR07-L046"
+          ],
+          "full_scene_for_context": "SR07",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shreya.json"
+        }
+      ],
+      "Meera": [
+        {
+          "scene_id": "SR07",
+          "evidence_line_ids": [
+            "SR07-L046"
+          ],
+          "full_scene_for_context": "SR07",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shreya.json"
+        }
+      ],
+      "Poonam": [
+        {
+          "scene_id": "SR07",
+          "evidence_line_ids": [
+            "SR07-L001",
+            "SR07-L043",
+            "SR07-L044",
+            "SR07-L047",
+            "SR07-L050",
+            "SR07-L051",
+            "SR07-L060"
+          ],
+          "full_scene_for_context": "SR07",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shreya.json"
+        }
+      ],
+      "Ankita": [
+        {
+          "scene_id": "SR02A",
+          "evidence_line_ids": [
+            "SR02A-L007"
+          ],
+          "full_scene_for_context": "SR02A",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shreya.json"
+        },
+        {
+          "scene_id": "SR05",
+          "evidence_line_ids": [
+            "SR05-L001"
+          ],
+          "full_scene_for_context": "SR05",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shreya.json"
+        }
+      ],
+      "Taniya": [
+        {
+          "scene_id": "SR02A",
+          "evidence_line_ids": [
+            "SR02A-L001",
+            "SR02A-L099"
+          ],
+          "full_scene_for_context": "SR02A",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shreya.json"
+        }
+      ],
+      "Shreya": [
+        {
+          "scene_id": "SR01",
+          "evidence_line_ids": [
+            "SR01-L001",
+            "SR01-L002",
+            "SR01-L004",
+            "SR01-L005",
+            "SR01-L008",
+            "SR01-L010",
+            "SR01-L011",
+            "SR01-L013",
+            "SR01-L015",
+            "SR01-L016",
+            "SR01-L018",
+            "SR01-L020",
+            "SR01-L021",
+            "SR01-L022",
+            "SR01-L023",
+            "SR01-L025",
+            "SR01-L027",
+            "SR01-L028",
+            "SR01-L031",
+            "SR01-L033",
+            "SR01-L034",
+            "SR01-L037",
+            "SR01-L038",
+            "SR01-L040",
+            "SR01-L041",
+            "SR01-L043",
+            "SR01-L044"
+          ],
+          "full_scene_for_context": "SR01",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shreya.json"
+        },
+        {
+          "scene_id": "SR02A",
+          "evidence_line_ids": [
+            "SR02A-L004",
+            "SR02A-L006",
+            "SR02A-L009",
+            "SR02A-L011",
+            "SR02A-L013",
+            "SR02A-L014",
+            "SR02A-L016",
+            "SR02A-L018",
+            "SR02A-L022",
+            "SR02A-L024",
+            "SR02A-L025",
+            "SR02A-L027",
+            "SR02A-L029",
+            "SR02A-L030",
+            "SR02A-L031",
+            "SR02A-L033",
+            "SR02A-L035",
+            "SR02A-L036",
+            "SR02A-L038",
+            "SR02A-L041",
+            "SR02A-L043",
+            "SR02A-L044",
+            "SR02A-L045",
+            "SR02A-L048",
+            "SR02A-L050",
+            "SR02A-L052",
+            "SR02A-L054",
+            "SR02A-L056",
+            "SR02A-L058",
+            "SR02A-L060",
+            "SR02A-L061",
+            "SR02A-L062",
+            "SR02A-L064",
+            "SR02A-L066",
+            "SR02A-L068",
+            "SR02A-L069",
+            "SR02A-L071",
+            "SR02A-L073",
+            "SR02A-L074",
+            "SR02A-L076",
+            "SR02A-L077",
+            "SR02A-L079",
+            "SR02A-L081",
+            "SR02A-L082",
+            "SR02A-L084",
+            "SR02A-L085",
+            "SR02A-L086",
+            "SR02A-L088",
+            "SR02A-L090",
+            "SR02A-L092",
+            "SR02A-L094",
+            "SR02A-L096",
+            "SR02A-L098",
+            "SR02A-L099"
+          ],
+          "full_scene_for_context": "SR02A",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shreya.json"
+        },
+        {
+          "scene_id": "SR02B",
+          "evidence_line_ids": [
+            "SR02B-L001",
+            "SR02B-L002",
+            "SR02B-L004",
+            "SR02B-L005",
+            "SR02B-L006",
+            "SR02B-L008",
+            "SR02B-L009",
+            "SR02B-L010",
+            "SR02B-L012",
+            "SR02B-L014",
+            "SR02B-L015",
+            "SR02B-L017",
+            "SR02B-L020",
+            "SR02B-L021",
+            "SR02B-L023",
+            "SR02B-L024",
+            "SR02B-L025",
+            "SR02B-L026",
+            "SR02B-L028",
+            "SR02B-L030"
+          ],
+          "full_scene_for_context": "SR02B",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shreya.json"
+        },
+        {
+          "scene_id": "SR05",
+          "evidence_line_ids": [
+            "SR05-L001",
+            "SR05-L002",
+            "SR05-L004",
+            "SR05-L006",
+            "SR05-L008",
+            "SR05-L009",
+            "SR05-L012",
+            "SR05-L014",
+            "SR05-L016",
+            "SR05-L017",
+            "SR05-L019",
+            "SR05-L020",
+            "SR05-L021",
+            "SR05-L023",
+            "SR05-L025",
+            "SR05-L026",
+            "SR05-L028",
+            "SR05-L029",
+            "SR05-L032"
+          ],
+          "full_scene_for_context": "SR05",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shreya.json"
+        },
+        {
+          "scene_id": "SR04",
+          "evidence_line_ids": [
+            "SR04-L001",
+            "SR04-L002",
+            "SR04-L004",
+            "SR04-L007",
+            "SR04-L009",
+            "SR04-L012",
+            "SR04-L013",
+            "SR04-L015",
+            "SR04-L017",
+            "SR04-L018",
+            "SR04-L021",
+            "SR04-L023",
+            "SR04-L025",
+            "SR04-L026",
+            "SR04-L029",
+            "SR04-L031",
+            "SR04-L033",
+            "SR04-L034",
+            "SR04-L036",
+            "SR04-L038",
+            "SR04-L040",
+            "SR04-L042"
+          ],
+          "full_scene_for_context": "SR04",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shreya.json"
+        },
+        {
+          "scene_id": "SR06",
+          "evidence_line_ids": [
+            "SR06-L001",
+            "SR06-L002",
+            "SR06-L006"
+          ],
+          "full_scene_for_context": "SR06",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shreya.json"
+        },
+        {
+          "scene_id": "SR07",
+          "evidence_line_ids": [
+            "SR07-L001",
+            "SR07-L002",
+            "SR07-L003",
+            "SR07-L005",
+            "SR07-L007",
+            "SR07-L009",
+            "SR07-L010",
+            "SR07-L012",
+            "SR07-L014",
+            "SR07-L015",
+            "SR07-L016",
+            "SR07-L017",
+            "SR07-L021",
+            "SR07-L022",
+            "SR07-L025",
+            "SR07-L026",
+            "SR07-L028",
+            "SR07-L030",
+            "SR07-L032",
+            "SR07-L034",
+            "SR07-L037",
+            "SR07-L041",
+            "SR07-L043",
+            "SR07-L045",
+            "SR07-L046",
+            "SR07-L048",
+            "SR07-L049",
+            "SR07-L052",
+            "SR07-L055",
+            "SR07-L058",
+            "SR07-L060"
+          ],
+          "full_scene_for_context": "SR07",
+          "scene_approved": false,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shreya.json"
+        },
+        {
+          "scene_id": "SR08",
+          "evidence_line_ids": [
+            "SR08-L002",
+            "SR08-L003",
+            "SR08-L006",
+            "SR08-L008",
+            "SR08-L009"
+          ],
+          "full_scene_for_context": "SR08",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shreya.json"
+        },
+        {
+          "scene_id": "SR09",
+          "evidence_line_ids": [
+            "SR09-L001",
+            "SR09-L002",
+            "SR09-L005",
+            "SR09-L007",
+            "SR09-L009",
+            "SR09-L010",
+            "SR09-L012",
+            "SR09-L014",
+            "SR09-L015",
+            "SR09-L018",
+            "SR09-L023",
+            "SR09-L025",
+            "SR09-L028",
+            "SR09-L030",
+            "SR09-L033",
+            "SR09-L035",
+            "SR09-L036",
+            "SR09-L038",
+            "SR09-L041",
+            "SR09-L043",
+            "SR09-L045",
+            "SR09-L048",
+            "SR09-L051"
+          ],
+          "full_scene_for_context": "SR09",
+          "scene_approved": true,
+          "json_path": "Society-Wives/continuity-verbatim/episode-02/shreya.json"
+        }
+      ]
+    }
+  }
+}
