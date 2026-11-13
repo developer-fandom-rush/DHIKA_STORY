@@ -10,7 +10,7 @@
   "leadName": "Shreya Rathore",
   "leadAge": 33,
   "profession": "Police Inspector",
-  "status": "SR01, SR02A, SR02B, SR04, SR05, SR06, SR07, SR08 PROSE PUBLISHED; SR03 AND SR09–SR13 WORKING PLOT",
+  "status": "SR01, SR02A, SR02B AND SR04–SR09 PROSE PUBLISHED; SR03 AND SR10–SR13 WORKING PLOT",
   "stopRule": "End at 13:15, Shreya still at police station; no evening scenes.",
   "characterCorrections": [
     {
@@ -815,28 +815,143 @@
       "end": "10:15",
       "lane": "OFFICE",
       "location": "Police station administrative corridor",
-      "title": "An unnecessarily long conversation",
+      "title": "Inspector Chauhan’s Distracted Attention",
       "characters": [
         "shreya",
         "chauhan"
       ],
-      "summary": "Inspector Chauhan (42) praises Shreya's sound judgment and prolongs a coffee conversation beyond the report's needs.",
+      "summary": "User-approved SR09 verbatim: Shreya bends to retrieve a fallen file sheet, Chauhan notices her open collar and repeatedly looks down; Shreya recognizes his gaze, recalls Rajeev Uncle's advice, feels privately attractive and playfully challenges his concentration. They return to mismatched report timestamps at 10:15.",
       "beats": [
-        "Observed personal interest: he creates extra one-to-one time, then drafts but deletes an overly familiar message.",
-        "Shreya remains focused on case evidence."
+        "At 09:40–10:15 in station corridor, Shreya's first uniform button remains open and second closed.",
+        "As Shreya bends to retrieve a dropped paper, Chauhan gets an unexpected glimpse at her neckline and notices the open button.",
+        "Chauhan's repeated attempts to glance inside her shirt are noticed by Shreya, who understands why and follows his gaze.",
+        "Shreya inwardly thinks 'Aaj toh Rajeev Uncle ne sach mein faswa diya', blushes and feels secretly flattered and excited at being attractive.",
+        "She turns the glances into bold witty questioning and retains the already approved flirting dialogue.",
+        "Their discussion returns to case-report timestamps; no deeper romantic relationship is accepted or implied."
       ],
       "dialogue": [
         [
-          "Chauhan (42, Inspector)",
-          "Aapki report handling impressive thi."
+          "Chauhan",
+          "“Inspector Rathore, aapki reports mein ek problem hai.”"
         ],
         [
           "Shreya",
-          "Team ne details preserve kiye. Ab next witness statement dekhte hain."
+          "“Sir? Kya mistake mili?”"
+        ],
+        [
+          "Chauhan",
+          "“Mistake nahi. Report itni interesting hai ki author se personally milne ka mann karta hai.”"
+        ],
+        [
+          "Shreya",
+          "“Achha ji? Toh aaj report discuss karni hai ya author ka interview?”"
+        ],
+        [
+          "Chauhan",
+          "“Dono ka appointment mil sakta hai?”"
+        ],
+        [
+          "Shreya",
+          "“Official appointment abhi. Personal appointment ke liye reason bahut strong chahiye.”"
+        ],
+        [
+          "Shreya",
+          "“Sir, yeh witness statement dekhiye. Timing match nahi kar rahi.”"
+        ],
+        [
+          "Chauhan",
+          "“Haan… yes, Inspector.”"
+        ],
+        [
+          "Shreya",
+          "“Sir, ek sawaal poochun?”"
+        ],
+        [
+          "Chauhan",
+          "“Bilkul.”"
+        ],
+        [
+          "Shreya",
+          "“Aap investigation report padh rahe hain… ya meri uniform inspect kar rahe hain?”"
+        ],
+        [
+          "Chauhan",
+          "“Arre nahi, Inspector. Main toh bas—”"
+        ],
+        [
+          "Shreya",
+          "“Bas kya, sir? Aapki nazar ka direction main do baar observe kar chuki hoon. Aur aap bilkul saamne khade hokar andar dekhne ki koshish bhi kar rahe the.”"
+        ],
+        [
+          "Chauhan",
+          "“Aapki observation skills toh kamaal hain.”"
+        ],
+        [
+          "Shreya",
+          "“Observation meri duty hai. Lekin aaj lagta hai observation ka subject badal gaya.”"
+        ],
+        [
+          "Chauhan",
+          "“Aapke saamne kuch chhupana mushkil hai.”"
+        ],
+        [
+          "Shreya",
+          "“Toh phir chhupane ki koshish kyun karte hain?”"
+        ],
+        [
+          "Chauhan",
+          "“Kabhi-kabhi admiration ko words mein explain karna difficult hota hai.”"
+        ],
+        [
+          "Shreya",
+          "“Admiration? Sir, aap compliment de rahe hain ya confession?”"
+        ],
+        [
+          "Chauhan",
+          "“Jo aap samajhna chahein.”"
+        ],
+        [
+          "Shreya",
+          "“Careful, Chauhan sir. Main Inspector hoon. Confession ko seriously leti hoon.”"
+        ],
+        [
+          "Chauhan",
+          "“Phir toh ab report par concentrate karna hi safe rahega.”"
+        ],
+        [
+          "Shreya",
+          "“Good decision.”"
+        ],
+        [
+          "Shreya",
+          "“Waise sir, ek suggestion doon?”"
+        ],
+        [
+          "Chauhan",
+          "“Zaroor.”"
+        ],
+        [
+          "Shreya",
+          "“Next time mujhse baat karte hue aankhon mein dekhiyega. Aapke answers zyada convincing lagenge.”"
+        ],
+        [
+          "Chauhan",
+          "“Point noted, Inspector.”"
         ]
       ],
-      "notes": [],
-      "approval": "USER_ACCEPTED_WORKING_PLOT"
+      "notes": [
+        "Published full user-supplied SR09 narrative. Treat exact rawText as the prose source of truth; no invented additions."
+      ],
+      "approval": "USER_APPROVED_VERBATIM_PROSE_PUBLISHED",
+      "publishedScene": {
+        "uiTab": "shreya-prose",
+        "uiHref": "./episode-02.html?tab=shreya-prose#shreya-sr09-chauhan",
+        "publication": "USER_SUBMITTED_VERBATIM_SR09",
+        "source": "USER_PROVIDED_RAW_TEXT",
+        "rawText": "**SR09 — Inspector Chauhan’s Distracted Attention**  \n09:40–10:15 AM · Police station administrative corridor\n\nShreya apni desk se investigation file lekar nikli. Subah se uniform ka pehla button open tha, doosra closed.\n\nCorridor mein Inspector Chauhan usse mile.\n\nChauhan: “Inspector Rathore, aapki reports mein ek problem hai.”\n\nShreya: “Sir? Kya mistake mili?”\n\nChauhan: “Mistake nahi. Report itni interesting hai ki author se personally milne ka mann karta hai.”\n\nShreya: “Achha ji? Toh aaj report discuss karni hai ya author ka interview?”\n\nChauhan: “Dono ka appointment mil sakta hai?”\n\nShreya hansi.\n\nShreya: “Official appointment abhi. Personal appointment ke liye reason bahut strong chahiye.”\n\nChauhan bhi muskura diye. Woh thoda aur paas aa gaya, bilkul uske saamne khada ho gaya.\n\nShreya ne file kholi, lekin ek paper neeche gir gaya. Woh use uthane ke liye halka sa forward bend hui.\n\nUs movement se open collar aur shift ho gaya. Chauhan ko uski milky breasts ka clear, unexpected glimpse mil gaya. Unki nazar ek pal ke liye wahin atak gayi. Open button unko turant notice ho gaya.\n\nShreya seedhi hui. Usne Chauhan ki aankhon ka movement clearly dekh liya.\n\nShreya: “Sir, yeh witness statement dekhiye. Timing match nahi kar rahi.”\n\nChauhan: “Haan… yes, Inspector.”\n\nWoh file ki taraf dekhne lage, lekin baat karte-karte unki nazar phir se uske open collar ke andar chali gayi. Phir se. Aur phir se. Jaise deliberately jhaankne ki koshish kar rahe hon.\n\nShreya ne is baar unki nazar follow kar li. Samajh gayi woh kahan aur kyun dekh rahe hain.\n\n*Arey baap re! Aaj toh Rajeev Uncle ne sach mein faswa diya!*\n\nUnhone sirf ek button loose rakhne ko kaha tha. Ab Chauhan sir baar-baar andar dekh rahe hain.\n\nUske gaalon par halka rang aa gaya. Lekin andar se secretly excited feel hua — main abhi bhi logon ka concentration itni aasani se tod sakti hoon?\n\nWoh apni smile control karte hue Chauhan ki taraf dekhti rahi.\n\nShreya: “Sir, ek sawaal poochun?”\n\nChauhan: “Bilkul.”\n\nShreya: “Aap investigation report padh rahe hain… ya meri uniform inspect kar rahe hain?”\n\nChauhan ek pal ke liye awkward ho gaye.\n\nChauhan: “Arre nahi, Inspector. Main toh bas—”\n\nShreya: “Bas kya, sir? Aapki nazar ka direction main do baar observe kar chuki hoon. Aur aap bilkul saamne khade hokar andar dekhne ki koshish bhi kar rahe the.”\n\nChauhan: “Aapki observation skills toh kamaal hain.”\n\nShreya: “Observation meri duty hai. Lekin aaj lagta hai observation ka subject badal gaya.”\n\nChauhan hans pade.\n\nChauhan: “Aapke saamne kuch chhupana mushkil hai.”\n\nShreya: “Toh phir chhupane ki koshish kyun karte hain?”\n\nChauhan: “Kabhi-kabhi admiration ko words mein explain karna difficult hota hai.”\n\nShreya ne eyebrow raise ki.\n\nShreya: “Admiration? Sir, aap compliment de rahe hain ya confession?”\n\nChauhan: “Jo aap samajhna chahein.”\n\nShreya: “Careful, Chauhan sir. Main Inspector hoon. Confession ko seriously leti hoon.”\n\nChauhan ne file ki taraf ishara kiya.\n\nChauhan: “Phir toh ab report par concentrate karna hi safe rahega.”\n\nShreya: “Good decision.”\n\nUsne file unke saamne rakhi.\n\nShreya: “Waise sir, ek suggestion doon?”\n\nChauhan: “Zaroor.”\n\nShreya: “Next time mujhse baat karte hue aankhon mein dekhiyega. Aapke answers zyada convincing lagenge.”\n\nChauhan ne apni hansi chhupa li.\n\nChauhan: “Point noted, Inspector.”\n\nShreya bhi muskuraayi.\n\n*Rajeev Uncle, aapki advice toh expected se zyada effective nikli.*\n\nPhir usne report ke mismatched timestamps par discussion shuru kar diya. Chauhan ab file ko dhyaan se padh rahe the, lekin ab bhi beech-beech mein unki nazar control karna mushkil ho raha tha.\n\n### 10:15 AM — Scene ends\n\nShreya ko Chauhan ki attraction ka clear pata chal gaya hai. Woh us attention se secretly flattered aur excited hai, lekin Chauhan ko uske teasing responses ke alawa kisi deeper relationship ka invitation nahi mila.",
+        "paragraphCount": 51,
+        "images": []
+      }
     },
     {
       "id": "SR10",
@@ -1222,7 +1337,8 @@
     "through": [
       "SR04",
       "SR06",
-      "SR07"
+      "SR07",
+      "SR09"
     ],
     "firstTopButton": "OPEN",
     "secondButton": "CLOSED",
