@@ -8,6 +8,10 @@ This is an extraction/index of the material already published in the GitHub repo
 
 Open [INDEX.json](./INDEX.json) for the machine-readable directory and update rules.
 
+- [PAIR-LOOKUP.json](./PAIR-LOOKUP.json) — all explicit named counterpart references by female and scene, with line IDs (no inferred contact).
+- [SPEAKER-LOOKUP.json](./SPEAKER-LOOKUP.json) — source-printed speaker labels, including ambiguous/unregistered labels, and their exact line IDs.
+
+
 | Female | Episode 02 verbatim JSON | Episode 01 source draft (NOT APPROVED) |
 |---|---|---|
 | Ankita | [ankita.json](./episode-02/ankita.json) | [ankita.json](./episode-01-DRAFT/ankita.json) |
