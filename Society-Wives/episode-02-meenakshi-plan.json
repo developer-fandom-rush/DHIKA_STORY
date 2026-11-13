@@ -275,11 +275,14 @@
         "yash",
         "naveen"
       ],
-      "title": "Morning rounds",
-      "summary": "Meenakshi works with nurse Rupa, junior resident Dr. Aditi, trainees Avi/Yash and administrator Naveen.",
+      "title": "Between Rounds — Revised for Review",
+      "summary": "Clinical rounds remain serious; staff-only breaks include established Avi/Yash banter. Revised staging now includes coat adjustment, Meenakshi's visible responses, screen-side proximity and a stronger double-meaning exchange.",
       "detail": "Keep this a clinical work sequence. Avi and Yash are a work duo and are NOT confirmed twins.",
-      "approval": "WORKING_PLOT_UNAPPROVED",
-      "notes": []
+      "approval": "REVISED_DRAFT_PUBLISHED_PENDING_USER_REVIEW",
+      "notes": [
+        "Editorial update: user's specified insertion points implemented in unified UI and standalone story; source review text refreshed. No approval assumed."
+      ],
+      "publishedPath": "episode-02.html?tab=meenakshi-m01#meenakshi-m06-story"
     },
     {
       "id": "M07",
@@ -291,13 +294,15 @@
         "meenakshi",
         "ritesh"
       ],
-      "title": "Senior doctor consultation",
-      "summary": "Professional interaction with Dr. Ritesh Anand.",
+      "title": "Senior Consultation — Revised for Review",
+      "summary": "Ritesh and Meenakshi complete the clinical review first. Their later private conversation now includes stronger staging, visual awareness, a closer conversational beat and a revised ending.",
       "detail": "Tentative attraction is a working interpretation; not approved as mutual intimacy.",
-      "approval": "WORKING_PLOT_UNAPPROVED",
+      "approval": "REVISED_DRAFT_PUBLISHED_PENDING_USER_REVIEW",
       "notes": [
-        "Keep Ritesh's role separate from later unauthorized locker incident."
-      ]
+        "Keep Ritesh's role separate from later unauthorized locker incident.",
+        "Editorial update: user's specified insertion points implemented in unified UI and standalone story; source review text refreshed. No approval assumed."
+      ],
+      "publishedPath": "episode-02.html?tab=meenakshi-m01#meenakshi-m07-story"
     },
     {
       "id": "M08",
@@ -484,9 +489,11 @@
     "Mohan is an unrelated household guest (not FIL); old-age-home backstory withheld from reader-facing M01."
   ],
   "cutoff": "2026-01-01T13:15:00",
-  "next": "Await user approval for prose or evening continuation. No automatic expansion.",
+  "next": "M08 Senior Review remains prose pending. M01–M05 approved. M06 and M07 are revised drafts for user review.",
   "publishedM01Extension": "episode-02-meenakshi-m01.html#m01-f02",
   "publishedM02M03": "episode-02-meenakshi-m02-m03.html",
   "publishedM04M05": "episode-02.html?tab=meenakshi-m01#meenakshi-m05-story",
-  "confirmedApprovedThrough": "M05"
+  "confirmedApprovedThrough": "M05",
+  "currentProseCutoff": "M07 — 10:45",
+  "revisedReviewText": "episode-02-meenakshi-m06-m07-review.txt"
 }
