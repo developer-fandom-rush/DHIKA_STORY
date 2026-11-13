@@ -1,0 +1,1202 @@
+{
+  "schema": "verbatim-entity-continuity-v1",
+  "series": "Society Wives — Five Veils of Desire",
+  "episode": "01",
+  "lead": "Taniya",
+  "approval_status_exact": "EP01_PROLOGUE_DRAFT_FOR_REVIEW__SHIVANI_COLLEGE_CORRECTION_APPLIED__NOT_APPROVED",
+  "WARNING": "EPISODE 01 SOURCE ITSELF SAYS NOT APPROVED. These are preserved source drafts and must not be presented as approved canon.",
+  "update_rule": "Only update after an episode and when the user explicitly says to update the JSON.",
+  "fidelity": "source_json_lines_exact joined with newline reconstructs the original scene object byte-for-byte; complete_source_object text values are unchanged.",
+  "source": {
+    "repository": "developer-fandom-rush/DHIKA_STORY",
+    "path": "Society-Wives/episode-01.json",
+    "blob_sha": "9ec9f7ccad1691f4408dcfa3fd91bf0f6e2f9214"
+  },
+  "scenes": [
+    {
+      "scene_id": "S03",
+      "lead_exact": "Taniya",
+      "title_exact": "Two calendars, one wedding",
+      "source_position": {
+        "start": 6160,
+        "end": 7757
+      },
+      "source_json_lines_exact": [
+        "{",
+        "      \"id\": \"S03\",",
+        "      \"time\": \"07:25\",",
+        "      \"lane\": \"Society — Taniya\",",
+        "      \"lead\": \"Taniya\",",
+        "      \"location\": \"Tower C · lobby / phone\",",
+        "      \"title\": \"Two calendars, one wedding\",",
+        "      \"narration\": [",
+        "        \"Taniya has an audit file open while Aditya, her fiancé, calls about their upcoming family lunch. She is younger than the other four leads but already respected at work. Her office identity cannot be reduced to wedding planning.\",",
+        "        \"Guddu hands her a courier marked with an urgent client seal. He is respectful and lightly impressed by how confidently she deals with the mix-up; Taniya does not treat it as a romantic encounter.\"",
+        "      ],",
+        "      \"dialogue\": [",
+        "        {",
+        "          \"speaker\": \"Aditya (phone)\",",
+        "          \"line\": \"Sunday lunch with both families. Locked?\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Taniya\",",
+        "          \"line\": \"Locked, as long as nobody audits the menu.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Guddu\",",
+        "          \"line\": \"Ma'am, they brought the wrong floor number again.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Taniya\",",
+        "          \"line\": \"Then at least our building is consistent. Thank you, Guddu.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Soniya (phone)\",",
+        "          \"line\": \"Did you say yes to everything again?\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Taniya\",",
+        "          \"line\": \"No. Just the important things.\"",
+        "        }",
+        "      ],",
+        "      \"internal\": [",
+        "        \"She is excited about marrying Aditya, and equally determined not to lose her independence.\"",
+        "      ],",
+        "      \"signalIds\": [",
+        "        \"L04\",",
+        "        \"L05\"",
+        "      ]",
+        "    }"
+      ],
+      "prose_line_records": [
+        {
+          "id": "S03-L001",
+          "kind": "narration",
+          "text_exact": "Taniya has an audit file open while Aditya, her fiancé, calls about their upcoming family lunch. She is younger than the other four leads but already respected at work. Her office identity cannot be reduced to wedding planning.",
+          "speaker_exact": null,
+          "explicit_names": [
+            "Aditya",
+            "Taniya"
+          ]
+        },
+        {
+          "id": "S03-L002",
+          "kind": "narration",
+          "text_exact": "Guddu hands her a courier marked with an urgent client seal. He is respectful and lightly impressed by how confidently she deals with the mix-up; Taniya does not treat it as a romantic encounter.",
+          "speaker_exact": null,
+          "explicit_names": [
+            "Guddu",
+            "Taniya"
+          ]
+        },
+        {
+          "id": "S03-L003",
+          "kind": "dialogue",
+          "text_exact": "Sunday lunch with both families. Locked?",
+          "speaker_exact": "Aditya (phone)",
+          "explicit_names": []
+        },
+        {
+          "id": "S03-L004",
+          "kind": "dialogue",
+          "text_exact": "Locked, as long as nobody audits the menu.",
+          "speaker_exact": "Taniya",
+          "explicit_names": [
+            "Taniya"
+          ]
+        },
+        {
+          "id": "S03-L005",
+          "kind": "dialogue",
+          "text_exact": "Ma'am, they brought the wrong floor number again.",
+          "speaker_exact": "Guddu",
+          "explicit_names": [
+            "Guddu"
+          ]
+        },
+        {
+          "id": "S03-L006",
+          "kind": "dialogue",
+          "text_exact": "Then at least our building is consistent. Thank you, Guddu.",
+          "speaker_exact": "Taniya",
+          "explicit_names": [
+            "Guddu",
+            "Taniya"
+          ]
+        },
+        {
+          "id": "S03-L007",
+          "kind": "dialogue",
+          "text_exact": "Did you say yes to everything again?",
+          "speaker_exact": "Soniya (phone)",
+          "explicit_names": []
+        },
+        {
+          "id": "S03-L008",
+          "kind": "dialogue",
+          "text_exact": "No. Just the important things.",
+          "speaker_exact": "Taniya",
+          "explicit_names": [
+            "Taniya"
+          ]
+        },
+        {
+          "id": "S03-L009",
+          "kind": "internal",
+          "text_exact": "She is excited about marrying Aditya, and equally determined not to lose her independence.",
+          "speaker_exact": null,
+          "explicit_names": [
+            "Aditya"
+          ]
+        }
+      ],
+      "complete_source_object": {
+        "id": "S03",
+        "time": "07:25",
+        "lane": "Society — Taniya",
+        "lead": "Taniya",
+        "location": "Tower C · lobby / phone",
+        "title": "Two calendars, one wedding",
+        "narration": [
+          "Taniya has an audit file open while Aditya, her fiancé, calls about their upcoming family lunch. She is younger than the other four leads but already respected at work. Her office identity cannot be reduced to wedding planning.",
+          "Guddu hands her a courier marked with an urgent client seal. He is respectful and lightly impressed by how confidently she deals with the mix-up; Taniya does not treat it as a romantic encounter."
+        ],
+        "dialogue": [
+          {
+            "speaker": "Aditya (phone)",
+            "line": "Sunday lunch with both families. Locked?"
+          },
+          {
+            "speaker": "Taniya",
+            "line": "Locked, as long as nobody audits the menu."
+          },
+          {
+            "speaker": "Guddu",
+            "line": "Ma'am, they brought the wrong floor number again."
+          },
+          {
+            "speaker": "Taniya",
+            "line": "Then at least our building is consistent. Thank you, Guddu."
+          },
+          {
+            "speaker": "Soniya (phone)",
+            "line": "Did you say yes to everything again?"
+          },
+          {
+            "speaker": "Taniya",
+            "line": "No. Just the important things."
+          }
+        ],
+        "internal": [
+          "She is excited about marrying Aditya, and equally determined not to lose her independence."
+        ],
+        "signalIds": [
+          "L04",
+          "L05"
+        ]
+      },
+      "approved_by_source": false,
+      "integrity": {
+        "source_char_length": 1597,
+        "raw_reconstruction_verified": true
+      }
+    },
+    {
+      "scene_id": "S08",
+      "lead_exact": "Taniya",
+      "title_exact": "The numbers and the joke",
+      "source_position": {
+        "start": 15109,
+        "end": 16783
+      },
+      "source_json_lines_exact": [
+        "{",
+        "      \"id\": \"S08\",",
+        "      \"time\": \"10:18\",",
+        "      \"lane\": \"Workplace — Taniya\",",
+        "      \"lead\": \"Taniya\",",
+        "      \"location\": \"CA firm · audit desk\",",
+        "      \"title\": \"The numbers and the joke\",",
+        "      \"narration\": [",
+        "        \"Taniya and Neha work through a client's unusual balance. Raghav and Chirag share the next desk. Their banter is familiar enough to be playful without interrupting the work. Taniya is stylish and outgoing, but the team also knows she can spot accounting errors quickly.\",",
+        "        \"Raghav enjoys both her energy and their competitive exchanges. Chirag notices her appearance and briefly imagines an uncomplicated evening outside work, but never voices it. Taniya has no reason to know his private thought.\"",
+        "      ],",
+        "      \"dialogue\": [",
+        "        {",
+        "          \"speaker\": \"Neha\",",
+        "          \"line\": \"These two totals don't reconcile.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Taniya\",",
+        "          \"line\": \"Then we shouldn't pretend they do.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Raghav\",",
+        "          \"line\": \"One coffee says I'll find the reason first.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Taniya\",",
+        "          \"line\": \"You already owe me two coffees.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Chirag\",",
+        "          \"line\": \"I should have started keeping score.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Taniya\",",
+        "          \"line\": \"Maybe first start checking the footnotes.\"",
+        "        }",
+        "      ],",
+        "      \"internal\": [",
+        "        \"Raghav's easy humour gives her a flicker of curiosity; Chirag reads more into the playfulness than she does. She remains committed to Aditya.\"",
+        "      ],",
+        "      \"signalIds\": [",
+        "        \"L16\",",
+        "        \"L17\",",
+        "        \"L18\"",
+        "      ]",
+        "    }"
+      ],
+      "prose_line_records": [
+        {
+          "id": "S08-L001",
+          "kind": "narration",
+          "text_exact": "Taniya and Neha work through a client's unusual balance. Raghav and Chirag share the next desk. Their banter is familiar enough to be playful without interrupting the work. Taniya is stylish and outgoing, but the team also knows she can spot accounting errors quickly.",
+          "speaker_exact": null,
+          "explicit_names": [
+            "Raghav",
+            "Chirag",
+            "Neha",
+            "Taniya"
+          ]
+        },
+        {
+          "id": "S08-L002",
+          "kind": "narration",
+          "text_exact": "Raghav enjoys both her energy and their competitive exchanges. Chirag notices her appearance and briefly imagines an uncomplicated evening outside work, but never voices it. Taniya has no reason to know his private thought.",
+          "speaker_exact": null,
+          "explicit_names": [
+            "Raghav",
+            "Chirag",
+            "Taniya"
+          ]
+        },
+        {
+          "id": "S08-L003",
+          "kind": "dialogue",
+          "text_exact": "These two totals don't reconcile.",
+          "speaker_exact": "Neha",
+          "explicit_names": [
+            "Neha"
+          ]
+        },
+        {
+          "id": "S08-L004",
+          "kind": "dialogue",
+          "text_exact": "Then we shouldn't pretend they do.",
+          "speaker_exact": "Taniya",
+          "explicit_names": [
+            "Taniya"
+          ]
+        },
+        {
+          "id": "S08-L005",
+          "kind": "dialogue",
+          "text_exact": "One coffee says I'll find the reason first.",
+          "speaker_exact": "Raghav",
+          "explicit_names": [
+            "Raghav"
+          ]
+        },
+        {
+          "id": "S08-L006",
+          "kind": "dialogue",
+          "text_exact": "You already owe me two coffees.",
+          "speaker_exact": "Taniya",
+          "explicit_names": [
+            "Taniya"
+          ]
+        },
+        {
+          "id": "S08-L007",
+          "kind": "dialogue",
+          "text_exact": "I should have started keeping score.",
+          "speaker_exact": "Chirag",
+          "explicit_names": [
+            "Chirag"
+          ]
+        },
+        {
+          "id": "S08-L008",
+          "kind": "dialogue",
+          "text_exact": "Maybe first start checking the footnotes.",
+          "speaker_exact": "Taniya",
+          "explicit_names": [
+            "Taniya"
+          ]
+        },
+        {
+          "id": "S08-L009",
+          "kind": "internal",
+          "text_exact": "Raghav's easy humour gives her a flicker of curiosity; Chirag reads more into the playfulness than she does. She remains committed to Aditya.",
+          "speaker_exact": null,
+          "explicit_names": [
+            "Aditya",
+            "Raghav",
+            "Chirag"
+          ]
+        }
+      ],
+      "complete_source_object": {
+        "id": "S08",
+        "time": "10:18",
+        "lane": "Workplace — Taniya",
+        "lead": "Taniya",
+        "location": "CA firm · audit desk",
+        "title": "The numbers and the joke",
+        "narration": [
+          "Taniya and Neha work through a client's unusual balance. Raghav and Chirag share the next desk. Their banter is familiar enough to be playful without interrupting the work. Taniya is stylish and outgoing, but the team also knows she can spot accounting errors quickly.",
+          "Raghav enjoys both her energy and their competitive exchanges. Chirag notices her appearance and briefly imagines an uncomplicated evening outside work, but never voices it. Taniya has no reason to know his private thought."
+        ],
+        "dialogue": [
+          {
+            "speaker": "Neha",
+            "line": "These two totals don't reconcile."
+          },
+          {
+            "speaker": "Taniya",
+            "line": "Then we shouldn't pretend they do."
+          },
+          {
+            "speaker": "Raghav",
+            "line": "One coffee says I'll find the reason first."
+          },
+          {
+            "speaker": "Taniya",
+            "line": "You already owe me two coffees."
+          },
+          {
+            "speaker": "Chirag",
+            "line": "I should have started keeping score."
+          },
+          {
+            "speaker": "Taniya",
+            "line": "Maybe first start checking the footnotes."
+          }
+        ],
+        "internal": [
+          "Raghav's easy humour gives her a flicker of curiosity; Chirag reads more into the playfulness than she does. She remains committed to Aditya."
+        ],
+        "signalIds": [
+          "L16",
+          "L17",
+          "L18"
+        ]
+      },
+      "approved_by_source": false,
+      "integrity": {
+        "source_char_length": 1674,
+        "raw_reconstruction_verified": true
+      }
+    },
+    {
+      "scene_id": "S12",
+      "lead_exact": "Shared",
+      "title_exact": "Five people, five versions of the evening",
+      "source_position": {
+        "start": 21381,
+        "end": 24117
+      },
+      "source_json_lines_exact": [
+        "{",
+        "      \"id\": \"S12\",",
+        "      \"time\": \"19:25\",",
+        "      \"lane\": \"Crossover — Shared Society\",",
+        "      \"lead\": \"Shared\",",
+        "      \"location\": \"Gulmohar Heights · courtyard\",",
+        "      \"title\": \"Five people, five versions of the evening\",",
+        "      \"narration\": [",
+        "        \"Sharmi's event message brings the five women to the courtyard at staggered moments. Ankita arrives from office, Shivani after checking Tara's dinner, Taniya with a wedding-planning call still pending, Meenakshi after her hospital shift, and Shreya after changing out of her work clothes.\",",
+        "        \"Mahendra Suri introduces the community-week schedule. Rohan and Kabir arrive as spouses, Nikhil checks on Meenakshi, and Vikram offers to organise safety volunteers. Aditya joins by phone because he is not yet part of Taniya's household. Soniya and Rahul stop by on their way home.\",",
+        "        \"Rajeev briefly notices Shivani's graceful confidence while she manages the noticeboard. She is unaware of this fleeting attention. Rahul admires Ankita's quick problem-solving and privately wonders about getting to know her better outside a group setting; Ankita interprets his comments as routine courtesy. Neither thought is treated as a mutual relationship.\"",
+        "      ],",
+        "      \"dialogue\": [",
+        "        {",
+        "          \"speaker\": \"Sharmi\",",
+        "          \"line\": \"I need five different brains, not five people agreeing with Mahendra-ji.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Mahendra\",",
+        "          \"line\": \"I heard that.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Ankita\",",
+        "          \"line\": \"I'll handle registrations if the data is actually organised.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Shivani\",",
+        "          \"line\": \"I'll coordinate the children's programme.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Taniya\",",
+        "          \"line\": \"Accounts and vendor payments are mine.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Meenakshi\",",
+        "          \"line\": \"I'll check the health-camp requirements.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Shreya\",",
+        "          \"line\": \"And please, one actual entry register for volunteers.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Rahul\",",
+        "          \"line\": \"That sounds like the most efficient committee in Gurgaon.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Ankita\",",
+        "          \"line\": \"Ask us again after the first spreadsheet.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Rohan\",",
+        "          \"line\": \"I'm keeping the first-aid kit for the committee debates.\"",
+        "        }",
+        "      ],",
+        "      \"internal\": [",
+        "        \"Everyone enjoys the comfortable group atmosphere. Several private impressions coexist, but no woman is obligated to recognise or return any man's interest.\"",
+        "      ],",
+        "      \"signalIds\": [",
+        "        \"L24\",",
+        "        \"L25\",",
+        "        \"L26\",",
+        "        \"L27\"",
+        "      ]",
+        "    }"
+      ],
+      "prose_line_records": [
+        {
+          "id": "S12-L001",
+          "kind": "narration",
+          "text_exact": "Sharmi's event message brings the five women to the courtyard at staggered moments. Ankita arrives from office, Shivani after checking Tara's dinner, Taniya with a wedding-planning call still pending, Meenakshi after her hospital shift, and Shreya after changing out of her work clothes.",
+          "speaker_exact": null,
+          "explicit_names": [
+            "Tara",
+            "Sharmi",
+            "Ankita",
+            "Shivani",
+            "Taniya",
+            "Meenakshi",
+            "Shreya"
+          ]
+        },
+        {
+          "id": "S12-L002",
+          "kind": "narration",
+          "text_exact": "Mahendra Suri introduces the community-week schedule. Rohan and Kabir arrive as spouses, Nikhil checks on Meenakshi, and Vikram offers to organise safety volunteers. Aditya joins by phone because he is not yet part of Taniya's household. Soniya and Rahul stop by on their way home.",
+          "speaker_exact": null,
+          "explicit_names": [
+            "Kabir",
+            "Rohan",
+            "Aditya",
+            "Soniya",
+            "Rahul",
+            "Nikhil",
+            "Vikram",
+            "Mahendra Suri",
+            "Taniya",
+            "Meenakshi"
+          ]
+        },
+        {
+          "id": "S12-L003",
+          "kind": "narration",
+          "text_exact": "Rajeev briefly notices Shivani's graceful confidence while she manages the noticeboard. She is unaware of this fleeting attention. Rahul admires Ankita's quick problem-solving and privately wonders about getting to know her better outside a group setting; Ankita interprets his comments as routine courtesy. Neither thought is treated as a mutual relationship.",
+          "speaker_exact": null,
+          "explicit_names": [
+            "Rajeev",
+            "Rahul",
+            "Ankita",
+            "Shivani"
+          ]
+        },
+        {
+          "id": "S12-L004",
+          "kind": "dialogue",
+          "text_exact": "I need five different brains, not five people agreeing with Mahendra-ji.",
+          "speaker_exact": "Sharmi",
+          "explicit_names": [
+            "Sharmi"
+          ]
+        },
+        {
+          "id": "S12-L005",
+          "kind": "dialogue",
+          "text_exact": "I heard that.",
+          "speaker_exact": "Mahendra",
+          "explicit_names": []
+        },
+        {
+          "id": "S12-L006",
+          "kind": "dialogue",
+          "text_exact": "I'll handle registrations if the data is actually organised.",
+          "speaker_exact": "Ankita",
+          "explicit_names": [
+            "Ankita"
+          ]
+        },
+        {
+          "id": "S12-L007",
+          "kind": "dialogue",
+          "text_exact": "I'll coordinate the children's programme.",
+          "speaker_exact": "Shivani",
+          "explicit_names": [
+            "Shivani"
+          ]
+        },
+        {
+          "id": "S12-L008",
+          "kind": "dialogue",
+          "text_exact": "Accounts and vendor payments are mine.",
+          "speaker_exact": "Taniya",
+          "explicit_names": [
+            "Taniya"
+          ]
+        },
+        {
+          "id": "S12-L009",
+          "kind": "dialogue",
+          "text_exact": "I'll check the health-camp requirements.",
+          "speaker_exact": "Meenakshi",
+          "explicit_names": [
+            "Meenakshi"
+          ]
+        },
+        {
+          "id": "S12-L010",
+          "kind": "dialogue",
+          "text_exact": "And please, one actual entry register for volunteers.",
+          "speaker_exact": "Shreya",
+          "explicit_names": [
+            "Shreya"
+          ]
+        },
+        {
+          "id": "S12-L011",
+          "kind": "dialogue",
+          "text_exact": "That sounds like the most efficient committee in Gurgaon.",
+          "speaker_exact": "Rahul",
+          "explicit_names": [
+            "Rahul"
+          ]
+        },
+        {
+          "id": "S12-L012",
+          "kind": "dialogue",
+          "text_exact": "Ask us again after the first spreadsheet.",
+          "speaker_exact": "Ankita",
+          "explicit_names": [
+            "Ankita"
+          ]
+        },
+        {
+          "id": "S12-L013",
+          "kind": "dialogue",
+          "text_exact": "I'm keeping the first-aid kit for the committee debates.",
+          "speaker_exact": "Rohan",
+          "explicit_names": [
+            "Rohan"
+          ]
+        },
+        {
+          "id": "S12-L014",
+          "kind": "internal",
+          "text_exact": "Everyone enjoys the comfortable group atmosphere. Several private impressions coexist, but no woman is obligated to recognise or return any man's interest.",
+          "speaker_exact": null,
+          "explicit_names": []
+        }
+      ],
+      "complete_source_object": {
+        "id": "S12",
+        "time": "19:25",
+        "lane": "Crossover — Shared Society",
+        "lead": "Shared",
+        "location": "Gulmohar Heights · courtyard",
+        "title": "Five people, five versions of the evening",
+        "narration": [
+          "Sharmi's event message brings the five women to the courtyard at staggered moments. Ankita arrives from office, Shivani after checking Tara's dinner, Taniya with a wedding-planning call still pending, Meenakshi after her hospital shift, and Shreya after changing out of her work clothes.",
+          "Mahendra Suri introduces the community-week schedule. Rohan and Kabir arrive as spouses, Nikhil checks on Meenakshi, and Vikram offers to organise safety volunteers. Aditya joins by phone because he is not yet part of Taniya's household. Soniya and Rahul stop by on their way home.",
+          "Rajeev briefly notices Shivani's graceful confidence while she manages the noticeboard. She is unaware of this fleeting attention. Rahul admires Ankita's quick problem-solving and privately wonders about getting to know her better outside a group setting; Ankita interprets his comments as routine courtesy. Neither thought is treated as a mutual relationship."
+        ],
+        "dialogue": [
+          {
+            "speaker": "Sharmi",
+            "line": "I need five different brains, not five people agreeing with Mahendra-ji."
+          },
+          {
+            "speaker": "Mahendra",
+            "line": "I heard that."
+          },
+          {
+            "speaker": "Ankita",
+            "line": "I'll handle registrations if the data is actually organised."
+          },
+          {
+            "speaker": "Shivani",
+            "line": "I'll coordinate the children's programme."
+          },
+          {
+            "speaker": "Taniya",
+            "line": "Accounts and vendor payments are mine."
+          },
+          {
+            "speaker": "Meenakshi",
+            "line": "I'll check the health-camp requirements."
+          },
+          {
+            "speaker": "Shreya",
+            "line": "And please, one actual entry register for volunteers."
+          },
+          {
+            "speaker": "Rahul",
+            "line": "That sounds like the most efficient committee in Gurgaon."
+          },
+          {
+            "speaker": "Ankita",
+            "line": "Ask us again after the first spreadsheet."
+          },
+          {
+            "speaker": "Rohan",
+            "line": "I'm keeping the first-aid kit for the committee debates."
+          }
+        ],
+        "internal": [
+          "Everyone enjoys the comfortable group atmosphere. Several private impressions coexist, but no woman is obligated to recognise or return any man's interest."
+        ],
+        "signalIds": [
+          "L24",
+          "L25",
+          "L26",
+          "L27"
+        ]
+      },
+      "approved_by_source": false,
+      "integrity": {
+        "source_char_length": 2736,
+        "raw_reconstruction_verified": true
+      }
+    },
+    {
+      "scene_id": "S15",
+      "lead_exact": "Taniya",
+      "title_exact": "One coffee wager",
+      "source_position": {
+        "start": 26449,
+        "end": 27650
+      },
+      "source_json_lines_exact": [
+        "{",
+        "      \"id\": \"S15\",",
+        "      \"time\": \"20:43\",",
+        "      \"lane\": \"Society — Taniya\",",
+        "      \"lead\": \"Taniya\",",
+        "      \"location\": \"Tower C · balcony\",",
+        "      \"title\": \"One coffee wager\",",
+        "      \"narration\": [",
+        "        \"Taniya reads an audit-group message confirming that Raghav found the missing footnote. Aditya calls to ask about Sunday lunch. She replies cheerfully and does not turn the coffee wager into a private invitation.\",",
+        "        \"Her curiosity about Raghav is a small present-tense feeling, not a betrayal or a planned encounter.\"",
+        "      ],",
+        "      \"dialogue\": [",
+        "        {",
+        "          \"speaker\": \"Aditya (phone)\",",
+        "          \"line\": \"You sound pleased with yourself.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Taniya\",",
+        "          \"line\": \"We fixed a problem. Also, somebody owes me coffee.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Aditya\",",
+        "          \"line\": \"That's not a new condition.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Taniya\",",
+        "          \"line\": \"It's practically a professional benefit.\"",
+        "        }",
+        "      ],",
+        "      \"internal\": [",
+        "        \"She privately wonders why Raghav's challenge made the workday so enjoyable, then closes the chat.\"",
+        "      ],",
+        "      \"signalIds\": [",
+        "        \"L30\"",
+        "      ]",
+        "    }"
+      ],
+      "prose_line_records": [
+        {
+          "id": "S15-L001",
+          "kind": "narration",
+          "text_exact": "Taniya reads an audit-group message confirming that Raghav found the missing footnote. Aditya calls to ask about Sunday lunch. She replies cheerfully and does not turn the coffee wager into a private invitation.",
+          "speaker_exact": null,
+          "explicit_names": [
+            "Aditya",
+            "Raghav",
+            "Taniya"
+          ]
+        },
+        {
+          "id": "S15-L002",
+          "kind": "narration",
+          "text_exact": "Her curiosity about Raghav is a small present-tense feeling, not a betrayal or a planned encounter.",
+          "speaker_exact": null,
+          "explicit_names": [
+            "Raghav"
+          ]
+        },
+        {
+          "id": "S15-L003",
+          "kind": "dialogue",
+          "text_exact": "You sound pleased with yourself.",
+          "speaker_exact": "Aditya (phone)",
+          "explicit_names": []
+        },
+        {
+          "id": "S15-L004",
+          "kind": "dialogue",
+          "text_exact": "We fixed a problem. Also, somebody owes me coffee.",
+          "speaker_exact": "Taniya",
+          "explicit_names": [
+            "Taniya"
+          ]
+        },
+        {
+          "id": "S15-L005",
+          "kind": "dialogue",
+          "text_exact": "That's not a new condition.",
+          "speaker_exact": "Aditya",
+          "explicit_names": [
+            "Aditya"
+          ]
+        },
+        {
+          "id": "S15-L006",
+          "kind": "dialogue",
+          "text_exact": "It's practically a professional benefit.",
+          "speaker_exact": "Taniya",
+          "explicit_names": [
+            "Taniya"
+          ]
+        },
+        {
+          "id": "S15-L007",
+          "kind": "internal",
+          "text_exact": "She privately wonders why Raghav's challenge made the workday so enjoyable, then closes the chat.",
+          "speaker_exact": null,
+          "explicit_names": [
+            "Raghav"
+          ]
+        }
+      ],
+      "complete_source_object": {
+        "id": "S15",
+        "time": "20:43",
+        "lane": "Society — Taniya",
+        "lead": "Taniya",
+        "location": "Tower C · balcony",
+        "title": "One coffee wager",
+        "narration": [
+          "Taniya reads an audit-group message confirming that Raghav found the missing footnote. Aditya calls to ask about Sunday lunch. She replies cheerfully and does not turn the coffee wager into a private invitation.",
+          "Her curiosity about Raghav is a small present-tense feeling, not a betrayal or a planned encounter."
+        ],
+        "dialogue": [
+          {
+            "speaker": "Aditya (phone)",
+            "line": "You sound pleased with yourself."
+          },
+          {
+            "speaker": "Taniya",
+            "line": "We fixed a problem. Also, somebody owes me coffee."
+          },
+          {
+            "speaker": "Aditya",
+            "line": "That's not a new condition."
+          },
+          {
+            "speaker": "Taniya",
+            "line": "It's practically a professional benefit."
+          }
+        ],
+        "internal": [
+          "She privately wonders why Raghav's challenge made the workday so enjoyable, then closes the chat."
+        ],
+        "signalIds": [
+          "L30"
+        ]
+      },
+      "approved_by_source": false,
+      "integrity": {
+        "source_char_length": 1201,
+        "raw_reconstruction_verified": true
+      }
+    }
+  ],
+  "approved_scene_ids": [],
+  "draft_scene_ids": [
+    "S03",
+    "S08",
+    "S12",
+    "S15"
+  ],
+  "character_name_index": [
+    {
+      "name": "Kabir",
+      "matches": [
+        {
+          "scene_id": "S12",
+          "evidence_line_ids": [
+            "S12-L002"
+          ],
+          "full_scene_for_context": "S12"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Rajeev",
+      "matches": [
+        {
+          "scene_id": "S12",
+          "evidence_line_ids": [
+            "S12-L003"
+          ],
+          "full_scene_for_context": "S12"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Rohan",
+      "matches": [
+        {
+          "scene_id": "S12",
+          "evidence_line_ids": [
+            "S12-L002",
+            "S12-L013"
+          ],
+          "full_scene_for_context": "S12"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Tara",
+      "matches": [
+        {
+          "scene_id": "S12",
+          "evidence_line_ids": [
+            "S12-L001"
+          ],
+          "full_scene_for_context": "S12"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Aditya",
+      "matches": [
+        {
+          "scene_id": "S03",
+          "evidence_line_ids": [
+            "S03-L001",
+            "S03-L009"
+          ],
+          "full_scene_for_context": "S03"
+        },
+        {
+          "scene_id": "S08",
+          "evidence_line_ids": [
+            "S08-L009"
+          ],
+          "full_scene_for_context": "S08"
+        },
+        {
+          "scene_id": "S12",
+          "evidence_line_ids": [
+            "S12-L002"
+          ],
+          "full_scene_for_context": "S12"
+        },
+        {
+          "scene_id": "S15",
+          "evidence_line_ids": [
+            "S15-L001",
+            "S15-L005"
+          ],
+          "full_scene_for_context": "S15"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Soniya",
+      "matches": [
+        {
+          "scene_id": "S12",
+          "evidence_line_ids": [
+            "S12-L002"
+          ],
+          "full_scene_for_context": "S12"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Rahul",
+      "matches": [
+        {
+          "scene_id": "S12",
+          "evidence_line_ids": [
+            "S12-L002",
+            "S12-L003",
+            "S12-L011"
+          ],
+          "full_scene_for_context": "S12"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Nikhil",
+      "matches": [
+        {
+          "scene_id": "S12",
+          "evidence_line_ids": [
+            "S12-L002"
+          ],
+          "full_scene_for_context": "S12"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Vikram",
+      "matches": [
+        {
+          "scene_id": "S12",
+          "evidence_line_ids": [
+            "S12-L002"
+          ],
+          "full_scene_for_context": "S12"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Guddu",
+      "matches": [
+        {
+          "scene_id": "S03",
+          "evidence_line_ids": [
+            "S03-L002",
+            "S03-L005",
+            "S03-L006"
+          ],
+          "full_scene_for_context": "S03"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Mahendra Suri",
+      "matches": [
+        {
+          "scene_id": "S12",
+          "evidence_line_ids": [
+            "S12-L002"
+          ],
+          "full_scene_for_context": "S12"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Sharmi",
+      "matches": [
+        {
+          "scene_id": "S12",
+          "evidence_line_ids": [
+            "S12-L001",
+            "S12-L004"
+          ],
+          "full_scene_for_context": "S12"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Raghav",
+      "matches": [
+        {
+          "scene_id": "S08",
+          "evidence_line_ids": [
+            "S08-L001",
+            "S08-L002",
+            "S08-L005",
+            "S08-L009"
+          ],
+          "full_scene_for_context": "S08"
+        },
+        {
+          "scene_id": "S15",
+          "evidence_line_ids": [
+            "S15-L001",
+            "S15-L002",
+            "S15-L007"
+          ],
+          "full_scene_for_context": "S15"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Chirag",
+      "matches": [
+        {
+          "scene_id": "S08",
+          "evidence_line_ids": [
+            "S08-L001",
+            "S08-L002",
+            "S08-L007",
+            "S08-L009"
+          ],
+          "full_scene_for_context": "S08"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Neha",
+      "matches": [
+        {
+          "scene_id": "S08",
+          "evidence_line_ids": [
+            "S08-L001",
+            "S08-L003"
+          ],
+          "full_scene_for_context": "S08"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Ankita",
+      "matches": [
+        {
+          "scene_id": "S12",
+          "evidence_line_ids": [
+            "S12-L001",
+            "S12-L003",
+            "S12-L006",
+            "S12-L012"
+          ],
+          "full_scene_for_context": "S12"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Shivani",
+      "matches": [
+        {
+          "scene_id": "S12",
+          "evidence_line_ids": [
+            "S12-L001",
+            "S12-L003",
+            "S12-L007"
+          ],
+          "full_scene_for_context": "S12"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Taniya",
+      "matches": [
+        {
+          "scene_id": "S03",
+          "evidence_line_ids": [
+            "S03-L001",
+            "S03-L002",
+            "S03-L004",
+            "S03-L006",
+            "S03-L008"
+          ],
+          "full_scene_for_context": "S03"
+        },
+        {
+          "scene_id": "S08",
+          "evidence_line_ids": [
+            "S08-L001",
+            "S08-L002",
+            "S08-L004",
+            "S08-L006",
+            "S08-L008"
+          ],
+          "full_scene_for_context": "S08"
+        },
+        {
+          "scene_id": "S12",
+          "evidence_line_ids": [
+            "S12-L001",
+            "S12-L002",
+            "S12-L008"
+          ],
+          "full_scene_for_context": "S12"
+        },
+        {
+          "scene_id": "S15",
+          "evidence_line_ids": [
+            "S15-L001",
+            "S15-L004",
+            "S15-L006"
+          ],
+          "full_scene_for_context": "S15"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Meenakshi",
+      "matches": [
+        {
+          "scene_id": "S12",
+          "evidence_line_ids": [
+            "S12-L001",
+            "S12-L002",
+            "S12-L009"
+          ],
+          "full_scene_for_context": "S12"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Shreya",
+      "matches": [
+        {
+          "scene_id": "S12",
+          "evidence_line_ids": [
+            "S12-L001",
+            "S12-L010"
+          ],
+          "full_scene_for_context": "S12"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    }
+  ],
+  "integrity": {
+    "scene_count": 4,
+    "source_objects_verified": true,
+    "verbatim_character_count": 7208
+  }
+}
