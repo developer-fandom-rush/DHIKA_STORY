@@ -87,6 +87,8 @@
   "queryProtocol": {
     "goal": "Use exact source wording, not summaries or assumptions.",
     "order": [
+      "Use PAIR-LOOKUP.json for an initial female + named character lookup; locate every cited source scene.",
+      "When the person is a dialogue speaker, consult SPEAKER-LOOKUP.json for exact source speaker labels and line IDs, including labels not resolved by the directory.",
       "Read the requested female's episode-specific JSON.",
       "Locate person in character_name_index. This is an explicit-mention locator, not a claim of consent, presence or direct interaction.",
       "For each matching scene, read the entire scene's prose_line_records in original order. Continue beyond name-matching lines because nearby pronoun turns may matter.",
@@ -109,5 +111,17 @@
     "includeNewlyApprovedScenesOnlyWhenGrounded": true,
     "logMissingAndDraftScenesSeparately": true,
     "expectedAction": "Fetch latest approved GitHub source, compare against prior archived JSON, preserve unchanged scene records, append/update only grounded changed source text, rebuild name/speaker index, record source blob SHA and verification."
+  },
+  "lookupFiles": {
+    "pairLookup": "Society-Wives/continuity-verbatim/PAIR-LOOKUP.json",
+    "speakerLookup": "Society-Wives/continuity-verbatim/SPEAKER-LOOKUP.json",
+    "readme": "Society-Wives/continuity-verbatim/README.md"
+  },
+  "integrityVerification": {
+    "episode02": "Six per-lead JSONs were read back against GitHub episode-02.html. Every scene reconstructed from source_html_lines_exact was identical to its original source substring, and every named-character index reference resolved to a real source line ID.",
+    "episode01": "Six draft-only JSONs were read back against episode-01.json, with exact source JSON scene-object reconstruction.",
+    "episode02UniqueSourceScenes": 67,
+    "episode02ArchivedSceneRecordsIncludingSharedSistersDuplication": 85,
+    "indexedProseBlocksAcrossFemaleFilesIncludingSharedSistersDuplication": 2453
   }
 }
