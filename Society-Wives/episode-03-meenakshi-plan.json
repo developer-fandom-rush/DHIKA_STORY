@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "1.0",
+  "id": "meenakshi-episode-03-plan",
+  "episode": "03",
+  "title": "Meenakshi — 2 January Senior Review",
+  "date": "2026-01-02",
+  "weekday": "Friday",
+  "timezone": "Asia/Kolkata",
+  "leadId": "meenakshi",
+  "status": "WORKING_PLOT_MOVED_FROM_EP02",
+  "sourcePriority": "Direct user master prompt for Meenakshi EP02; preserve other existing EP02 material and the separate Ankita EP03 saved plot",
+  "timeline": [
+    {
+      "id": "M08",
+      "start": "11:00",
+      "end": "11:40",
+      "lane": "HOSPITAL",
+      "location": "Senior review conference",
+      "characters": [
+        "meenakshi",
+        "kunal",
+        "khurana"
+      ],
+      "title": "Senior review",
+      "summary": "Dr. Kunal Bedi and chairman Dr. S. P. Khurana join administrative and departmental discussions; Dr. Leena is an existing clinician in the roster.",
+      "detail": "Administrative and departmental discussions only. Dr. Leena remains an existing hospital staff member in the directory; her appearance in this particular meeting is not assumed.",
+      "approval": "USER_DIRECTED_NEXT_DAY_PROSE_PENDING",
+      "notes": [
+        "User moved this meeting out of 1 January Episode 02; schedule on 2 January 2026 only.",
+        "Time 11:00–11:40 is inherited from previous draft; verify with next-day global clock before prose."
+      ],
+      "date": "2026-01-02"
+    }
+  ],
+  "next": "2 Jan global clock check and M08 Senior Review prose later; do not duplicate on 1 Jan."
+}
