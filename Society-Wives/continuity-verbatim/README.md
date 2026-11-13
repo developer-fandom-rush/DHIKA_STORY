@@ -4,6 +4,14 @@
 
 This is an extraction/index of the material already published in the GitHub repository, **not a rewrite, summary, completion, or canon approval**.
 
+## Default source for a new chat: approved-only JSON
+
+For **approved/canonical scene wording**, start with the six files under **[episode-02-APPROVED](./episode-02-APPROVED/)**. These contain the full, original uncut text of only the scenes whose status was explicitly marked as approved in the audited UI/plan.
+
+The **[episode-02](./episode-02/)** folder contains **all published prose**, including drafts, final-typed-but-unapproved content and review scenes. It is archived **verbatim**, but its unapproved scenes are not canonical evidence unless the user explicitly includes them.
+
+Some older scenes are labeled merely "PUBLISHED", "USER-REQUESTED" or "FINAL"; these labels were **not guessed to mean user approval**. If the user confirms additional approvals, update both folders **only when requested**.
+
 ## Files
 
 Open [INDEX.json](./INDEX.json) for the machine-readable directory and update rules.
