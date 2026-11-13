@@ -1,0 +1,108 @@
+{
+  "series": "Society Wives — Five Veils of Desire",
+  "catalogVersion": "2026-11-13",
+  "policy": "Episode status is a story-boundary designation, not blanket approval of every scene or image.",
+  "episodes": [
+    {
+      "number": "01",
+      "title": "Five Doors, Eleven Worlds",
+      "subtitle": "The opening ensemble",
+      "status": "PUBLISHED_SOURCE",
+      "date": "Opening / prologue",
+      "mainPath": "episode-01.html",
+      "note": "Existing Episode 01 source is presented as an opening/prologue and remains unchanged."
+    },
+    {
+      "number": "02",
+      "title": "The New Year's Unspoken Secrets",
+      "subtitle": "One Day, Six Perspectives",
+      "status": "STORY_WINDOW_CLOSED_REVIEW_OPEN",
+      "date": "2026-01-01",
+      "mainPath": "episode-02.html",
+      "endRule": "No additional 1 January POV events after the established character cutoffs.",
+      "chapters": [
+        {
+          "lead": "Ankita",
+          "title": "The Little Pink Lace Secrets",
+          "tab": "ankita-prose",
+          "range": "A02–A08; parcel P01–P08",
+          "last": "A08: office, 09:20; parallel parcel P08, 12:50",
+          "cutoff": "Around 13:00, Ankita at Cyber City office",
+          "state": "Published; A05 and parcel-related review/continuity status retained."
+        },
+        {
+          "lead": "Shivani",
+          "title": "The Unshared Photograph",
+          "tab": "shivani-continuation",
+          "range": "A02–D01",
+          "last": "D01 — An Unshared Secret, 13:20–13:30",
+          "cutoff": "13:20–13:30 at college",
+          "state": "Published through narrative cutoff; B02 review marker retained."
+        },
+        {
+          "lead": "Taniya & Soniya",
+          "title": "The Second Bra in the Bridal Drawer",
+          "tab": "taniya-soniya-prose",
+          "range": "TS01–TS02 published; remainder plotted",
+          "last": "TS02 full prose in shared reader",
+          "cutoff": "13:15 (Taniya at CA office; Soniya at shared flat)",
+          "state": "Partial prose; working-plan scenes TS03+ unapproved."
+        },
+        {
+          "lead": "Meenakshi",
+          "title": "Between Rounds and the Unsecured Locker",
+          "tab": "meenakshi-m01",
+          "range": "M01–M07, M10–M12 published; M09 plot-only",
+          "last": "M12 — Unease at the Locker, 13:15",
+          "cutoff": "13:15 at hospital",
+          "state": "M01–M05 approved; M06–M07 and M10–M12 review drafts; M09 full prose missing."
+        },
+        {
+          "lead": "Shreya",
+          "title": "Duty and Distraction",
+          "tab": "shreya-prose",
+          "range": "SR01, SR02A/B, SR04–SR09 published",
+          "last": "SR09 — Inspector Chauhan’s Distracted Attention, 10:15",
+          "cutoff": "10:15 at police station",
+          "state": "User-closed at SR09; SR03 reference only, not published full prose."
+        }
+      ],
+      "illustrationArchive": {
+        "lead": "Meenakshi",
+        "status": "DRIVE_REVIEW_SET_NOT_CANON",
+        "folderUrl": "https://drive.google.com/drive/folders/1NX-kruEr5mXfrGTgz-6okcgKjMpqkJ-9",
+        "count": 10,
+        "scenes": [
+          "M01",
+          "M02",
+          "M03",
+          "M04",
+          "M05",
+          "M06",
+          "M07",
+          "M10",
+          "M11",
+          "M12"
+        ],
+        "excluded": [
+          "M08 shifted to 2 Jan",
+          "M09 full prose not written"
+        ]
+      }
+    },
+    {
+      "number": "03",
+      "title": "Continuations",
+      "subtitle": "Next-day arcs / planning",
+      "status": "PLANNING_ONLY",
+      "date": "2–3 January 2026, scene-specific dates",
+      "mainPath": null,
+      "relatedPaths": [
+        "episode-03-ankita-pending.html",
+        "episode-03-meenakshi-plan.json",
+        "episode-03-shreya-plan.json"
+      ],
+      "note": "M08 Senior Review on 2 Jan; Shreya SR10–SR13 deferred to 3 Jan; no single unified Episode 03 reader yet."
+    }
+  ]
+}
