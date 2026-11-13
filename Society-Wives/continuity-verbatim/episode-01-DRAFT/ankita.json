@@ -1,0 +1,1424 @@
+{
+  "schema": "verbatim-entity-continuity-v1",
+  "series": "Society Wives — Five Veils of Desire",
+  "episode": "01",
+  "lead": "Ankita",
+  "approval_status_exact": "EP01_PROLOGUE_DRAFT_FOR_REVIEW__SHIVANI_COLLEGE_CORRECTION_APPLIED__NOT_APPROVED",
+  "WARNING": "EPISODE 01 SOURCE ITSELF SAYS NOT APPROVED. These are preserved source drafts and must not be presented as approved canon.",
+  "update_rule": "Only update after an episode and when the user explicitly says to update the JSON.",
+  "fidelity": "source_json_lines_exact joined with newline reconstructs the original scene object byte-for-byte; complete_source_object text values are unchanged.",
+  "source": {
+    "repository": "developer-fandom-rush/DHIKA_STORY",
+    "path": "Society-Wives/episode-01.json",
+    "blob_sha": "9ec9f7ccad1691f4408dcfa3fd91bf0f6e2f9214"
+  },
+  "scenes": [
+    {
+      "scene_id": "S01",
+      "lead_exact": "Ankita",
+      "title_exact": "The pin and the morning call",
+      "source_position": {
+        "start": 2866,
+        "end": 4593
+      },
+      "source_json_lines_exact": [
+        "{",
+        "      \"id\": \"S01\",",
+        "      \"time\": \"06:45\",",
+        "      \"lane\": \"Society — Ankita\",",
+        "      \"lead\": \"Ankita\",",
+        "      \"location\": \"Tower C · Malhotra flat\",",
+        "      \"title\": \"The pin and the morning call\",",
+        "      \"narration\": [",
+        "        \"Ankita stood by the hallway mirror, checking a cream kurti beneath her blazer. She was an IT tech lead; her presentation bag was heavy with a laptop, charger and a notebook covered in project sketches. Kabir had already put two cups of tea on the counter.\",",
+        "        \"Rajeev, the household elder socially addressed as Kabir's father, read the newspaper by the window. Ankita spoke easily with him about the society notice. His attention was familial in this scene; no attraction is inferred from everyday care.\"",
+        "      ],",
+        "      \"dialogue\": [",
+        "        {",
+        "          \"speaker\": \"Kabir\",",
+        "          \"line\": \"Release day. Breakfast, or are you taking three emails for breakfast again?\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Ankita\",",
+        "          \"line\": \"You finish your tea. I'll finish the release and still come home before you.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Kabir\",",
+        "          \"line\": \"Bold claim. I'm keeping the receipt.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Ankita\",",
+        "          \"line\": \"Keep the receipt, not my charger.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Rajeev\",",
+        "          \"line\": \"The lift service is at seven. Take the other one.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Ankita\",",
+        "          \"line\": \"Noted, Papa. I will be careful.\"",
+        "        }",
+        "      ],",
+        "      \"internal\": [",
+        "        \"Ankita finds Kabir's joking reassuring. A repeated thought about workplace pressure, not another man, is what occupies her morning.\"",
+        "      ],",
+        "      \"signalIds\": [",
+        "        \"L01\"",
+        "      ]",
+        "    }"
+      ],
+      "prose_line_records": [
+        {
+          "id": "S01-L001",
+          "kind": "narration",
+          "text_exact": "Ankita stood by the hallway mirror, checking a cream kurti beneath her blazer. She was an IT tech lead; her presentation bag was heavy with a laptop, charger and a notebook covered in project sketches. Kabir had already put two cups of tea on the counter.",
+          "speaker_exact": null,
+          "explicit_names": [
+            "Kabir",
+            "Ankita"
+          ]
+        },
+        {
+          "id": "S01-L002",
+          "kind": "narration",
+          "text_exact": "Rajeev, the household elder socially addressed as Kabir's father, read the newspaper by the window. Ankita spoke easily with him about the society notice. His attention was familial in this scene; no attraction is inferred from everyday care.",
+          "speaker_exact": null,
+          "explicit_names": [
+            "Kabir",
+            "Rajeev",
+            "Ankita"
+          ]
+        },
+        {
+          "id": "S01-L003",
+          "kind": "dialogue",
+          "text_exact": "Release day. Breakfast, or are you taking three emails for breakfast again?",
+          "speaker_exact": "Kabir",
+          "explicit_names": [
+            "Kabir"
+          ]
+        },
+        {
+          "id": "S01-L004",
+          "kind": "dialogue",
+          "text_exact": "You finish your tea. I'll finish the release and still come home before you.",
+          "speaker_exact": "Ankita",
+          "explicit_names": [
+            "Ankita"
+          ]
+        },
+        {
+          "id": "S01-L005",
+          "kind": "dialogue",
+          "text_exact": "Bold claim. I'm keeping the receipt.",
+          "speaker_exact": "Kabir",
+          "explicit_names": [
+            "Kabir"
+          ]
+        },
+        {
+          "id": "S01-L006",
+          "kind": "dialogue",
+          "text_exact": "Keep the receipt, not my charger.",
+          "speaker_exact": "Ankita",
+          "explicit_names": [
+            "Ankita"
+          ]
+        },
+        {
+          "id": "S01-L007",
+          "kind": "dialogue",
+          "text_exact": "The lift service is at seven. Take the other one.",
+          "speaker_exact": "Rajeev",
+          "explicit_names": [
+            "Rajeev"
+          ]
+        },
+        {
+          "id": "S01-L008",
+          "kind": "dialogue",
+          "text_exact": "Noted, Papa. I will be careful.",
+          "speaker_exact": "Ankita",
+          "explicit_names": [
+            "Ankita"
+          ]
+        },
+        {
+          "id": "S01-L009",
+          "kind": "internal",
+          "text_exact": "Ankita finds Kabir's joking reassuring. A repeated thought about workplace pressure, not another man, is what occupies her morning.",
+          "speaker_exact": null,
+          "explicit_names": [
+            "Kabir",
+            "Ankita"
+          ]
+        }
+      ],
+      "complete_source_object": {
+        "id": "S01",
+        "time": "06:45",
+        "lane": "Society — Ankita",
+        "lead": "Ankita",
+        "location": "Tower C · Malhotra flat",
+        "title": "The pin and the morning call",
+        "narration": [
+          "Ankita stood by the hallway mirror, checking a cream kurti beneath her blazer. She was an IT tech lead; her presentation bag was heavy with a laptop, charger and a notebook covered in project sketches. Kabir had already put two cups of tea on the counter.",
+          "Rajeev, the household elder socially addressed as Kabir's father, read the newspaper by the window. Ankita spoke easily with him about the society notice. His attention was familial in this scene; no attraction is inferred from everyday care."
+        ],
+        "dialogue": [
+          {
+            "speaker": "Kabir",
+            "line": "Release day. Breakfast, or are you taking three emails for breakfast again?"
+          },
+          {
+            "speaker": "Ankita",
+            "line": "You finish your tea. I'll finish the release and still come home before you."
+          },
+          {
+            "speaker": "Kabir",
+            "line": "Bold claim. I'm keeping the receipt."
+          },
+          {
+            "speaker": "Ankita",
+            "line": "Keep the receipt, not my charger."
+          },
+          {
+            "speaker": "Rajeev",
+            "line": "The lift service is at seven. Take the other one."
+          },
+          {
+            "speaker": "Ankita",
+            "line": "Noted, Papa. I will be careful."
+          }
+        ],
+        "internal": [
+          "Ankita finds Kabir's joking reassuring. A repeated thought about workplace pressure, not another man, is what occupies her morning."
+        ],
+        "signalIds": [
+          "L01"
+        ]
+      },
+      "approved_by_source": false,
+      "integrity": {
+        "source_char_length": 1727,
+        "raw_reconstruction_verified": true
+      }
+    },
+    {
+      "scene_id": "S06",
+      "lead_exact": "Ankita",
+      "title_exact": "The woman who leads the release",
+      "source_position": {
+        "start": 10813,
+        "end": 12870
+      },
+      "source_json_lines_exact": [
+        "{",
+        "      \"id\": \"S06\",",
+        "      \"time\": \"09:05\",",
+        "      \"lane\": \"Workplace — Ankita\",",
+        "      \"lead\": \"Ankita\",",
+        "      \"location\": \"Cyber City · project floor\",",
+        "      \"title\": \"The woman who leads the release\",",
+        "      \"narration\": [",
+        "        \"At the IT office, Priya from QA checks the test evidence while Nisha, the junior Java developer, moves through a bug list. Diya brings a revised UI; Kavita from HR collects the day's onboarding notes. Ankita is not the only woman here, and the women have jobs and opinions independent of her attractiveness.\",",
+        "        \"Vivan and Reyansh have worked with Ankita before. Vivan's expressive confidence contrasts with Reyansh's quieter, more observational manner. The team knows Ankita has an eye for clean solutions and a polished personal style.\"",
+        "      ],",
+        "      \"dialogue\": [",
+        "        {",
+        "          \"speaker\": \"Priya\",",
+        "          \"line\": \"The login issue is fixed, but I still want one regression run.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Ankita\",",
+        "          \"line\": \"Agreed. No release before the evidence.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Vivan\",",
+        "          \"line\": \"The new screen looks good, but your presentation will make it look much better.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Ankita\",",
+        "          \"line\": \"You can compliment the slide after it passes QA.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Reyansh\",",
+        "          \"line\": \"I'll take the API timings. The numbers are still uneven.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Nisha\",",
+        "          \"line\": \"I can help verify the fallback.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Ankita\",",
+        "          \"line\": \"Good. Pair up and send one report, not five messages.\"",
+        "        }",
+        "      ],",
+        "      \"internal\": [",
+        "        \"Vivan's light teasing is familiar, and Ankita notices it. She likes his creative confidence a little, but does not assume he wants a relationship. Reyansh privately finds her attractive; she has no knowledge of a deeper private wish.\"",
+        "      ],",
+        "      \"signalIds\": [",
+        "        \"L10\",",
+        "        \"L11\",",
+        "        \"L12\",",
+        "        \"L13\"",
+        "      ]",
+        "    }"
+      ],
+      "prose_line_records": [
+        {
+          "id": "S06-L001",
+          "kind": "narration",
+          "text_exact": "At the IT office, Priya from QA checks the test evidence while Nisha, the junior Java developer, moves through a bug list. Diya brings a revised UI; Kavita from HR collects the day's onboarding notes. Ankita is not the only woman here, and the women have jobs and opinions independent of her attractiveness.",
+          "speaker_exact": null,
+          "explicit_names": [
+            "Kavita",
+            "Ankita"
+          ]
+        },
+        {
+          "id": "S06-L002",
+          "kind": "narration",
+          "text_exact": "Vivan and Reyansh have worked with Ankita before. Vivan's expressive confidence contrasts with Reyansh's quieter, more observational manner. The team knows Ankita has an eye for clean solutions and a polished personal style.",
+          "speaker_exact": null,
+          "explicit_names": [
+            "Vivan",
+            "Reyansh",
+            "Ankita"
+          ]
+        },
+        {
+          "id": "S06-L003",
+          "kind": "dialogue",
+          "text_exact": "The login issue is fixed, but I still want one regression run.",
+          "speaker_exact": "Priya",
+          "explicit_names": []
+        },
+        {
+          "id": "S06-L004",
+          "kind": "dialogue",
+          "text_exact": "Agreed. No release before the evidence.",
+          "speaker_exact": "Ankita",
+          "explicit_names": [
+            "Ankita"
+          ]
+        },
+        {
+          "id": "S06-L005",
+          "kind": "dialogue",
+          "text_exact": "The new screen looks good, but your presentation will make it look much better.",
+          "speaker_exact": "Vivan",
+          "explicit_names": [
+            "Vivan"
+          ]
+        },
+        {
+          "id": "S06-L006",
+          "kind": "dialogue",
+          "text_exact": "You can compliment the slide after it passes QA.",
+          "speaker_exact": "Ankita",
+          "explicit_names": [
+            "Ankita"
+          ]
+        },
+        {
+          "id": "S06-L007",
+          "kind": "dialogue",
+          "text_exact": "I'll take the API timings. The numbers are still uneven.",
+          "speaker_exact": "Reyansh",
+          "explicit_names": [
+            "Reyansh"
+          ]
+        },
+        {
+          "id": "S06-L008",
+          "kind": "dialogue",
+          "text_exact": "I can help verify the fallback.",
+          "speaker_exact": "Nisha",
+          "explicit_names": []
+        },
+        {
+          "id": "S06-L009",
+          "kind": "dialogue",
+          "text_exact": "Good. Pair up and send one report, not five messages.",
+          "speaker_exact": "Ankita",
+          "explicit_names": [
+            "Ankita"
+          ]
+        },
+        {
+          "id": "S06-L010",
+          "kind": "internal",
+          "text_exact": "Vivan's light teasing is familiar, and Ankita notices it. She likes his creative confidence a little, but does not assume he wants a relationship. Reyansh privately finds her attractive; she has no knowledge of a deeper private wish.",
+          "speaker_exact": null,
+          "explicit_names": [
+            "Vivan",
+            "Reyansh",
+            "Ankita"
+          ]
+        }
+      ],
+      "complete_source_object": {
+        "id": "S06",
+        "time": "09:05",
+        "lane": "Workplace — Ankita",
+        "lead": "Ankita",
+        "location": "Cyber City · project floor",
+        "title": "The woman who leads the release",
+        "narration": [
+          "At the IT office, Priya from QA checks the test evidence while Nisha, the junior Java developer, moves through a bug list. Diya brings a revised UI; Kavita from HR collects the day's onboarding notes. Ankita is not the only woman here, and the women have jobs and opinions independent of her attractiveness.",
+          "Vivan and Reyansh have worked with Ankita before. Vivan's expressive confidence contrasts with Reyansh's quieter, more observational manner. The team knows Ankita has an eye for clean solutions and a polished personal style."
+        ],
+        "dialogue": [
+          {
+            "speaker": "Priya",
+            "line": "The login issue is fixed, but I still want one regression run."
+          },
+          {
+            "speaker": "Ankita",
+            "line": "Agreed. No release before the evidence."
+          },
+          {
+            "speaker": "Vivan",
+            "line": "The new screen looks good, but your presentation will make it look much better."
+          },
+          {
+            "speaker": "Ankita",
+            "line": "You can compliment the slide after it passes QA."
+          },
+          {
+            "speaker": "Reyansh",
+            "line": "I'll take the API timings. The numbers are still uneven."
+          },
+          {
+            "speaker": "Nisha",
+            "line": "I can help verify the fallback."
+          },
+          {
+            "speaker": "Ankita",
+            "line": "Good. Pair up and send one report, not five messages."
+          }
+        ],
+        "internal": [
+          "Vivan's light teasing is familiar, and Ankita notices it. She likes his creative confidence a little, but does not assume he wants a relationship. Reyansh privately finds her attractive; she has no knowledge of a deeper private wish."
+        ],
+        "signalIds": [
+          "L10",
+          "L11",
+          "L12",
+          "L13"
+        ]
+      },
+      "approved_by_source": false,
+      "integrity": {
+        "source_char_length": 2057,
+        "raw_reconstruction_verified": true
+      }
+    },
+    {
+      "scene_id": "S11",
+      "lead_exact": "Ankita",
+      "title_exact": "The compliment after the fix",
+      "source_position": {
+        "start": 19876,
+        "end": 21375
+      },
+      "source_json_lines_exact": [
+        "{",
+        "      \"id\": \"S11\",",
+        "      \"time\": \"13:05\",",
+        "      \"lane\": \"Workplace — Ankita\",",
+        "      \"lead\": \"Ankita\",",
+        "      \"location\": \"IT office · meeting room\",",
+        "      \"title\": \"The compliment after the fix\",",
+        "      \"narration\": [",
+        "        \"The release passes its verification. Vivan returns the projector remote while Priya signs off the QA evidence. Reyansh has already posted the performance summary. The team begins dispersing for lunch.\",",
+        "        \"Ankita is pleased by the work and by Vivan's ability to make a stressful day feel lighter. The thought is a quiet beginning, not a decision to pursue him.\"",
+        "      ],",
+        "      \"dialogue\": [",
+        "        {",
+        "          \"speaker\": \"Vivan\",",
+        "          \"line\": \"You always look completely in control.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Ankita\",",
+        "          \"line\": \"That's because you only see the final slide.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Priya\",",
+        "          \"line\": \"For the record, she was furious at the broken test at nine.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Ankita\",",
+        "          \"line\": \"Professionally furious.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Vivan\",",
+        "          \"line\": \"Still impressive.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Ankita\",",
+        "          \"line\": \"Lunch, Vivan. Before I give you another ticket.\"",
+        "        }",
+        "      ],",
+        "      \"internal\": [",
+        "        \"Ankita smiles after he leaves, then tells herself the release went well. The smile has more than one possible cause.\"",
+        "      ],",
+        "      \"signalIds\": [",
+        "        \"L23\"",
+        "      ]",
+        "    }"
+      ],
+      "prose_line_records": [
+        {
+          "id": "S11-L001",
+          "kind": "narration",
+          "text_exact": "The release passes its verification. Vivan returns the projector remote while Priya signs off the QA evidence. Reyansh has already posted the performance summary. The team begins dispersing for lunch.",
+          "speaker_exact": null,
+          "explicit_names": [
+            "Vivan",
+            "Reyansh"
+          ]
+        },
+        {
+          "id": "S11-L002",
+          "kind": "narration",
+          "text_exact": "Ankita is pleased by the work and by Vivan's ability to make a stressful day feel lighter. The thought is a quiet beginning, not a decision to pursue him.",
+          "speaker_exact": null,
+          "explicit_names": [
+            "Vivan",
+            "Ankita"
+          ]
+        },
+        {
+          "id": "S11-L003",
+          "kind": "dialogue",
+          "text_exact": "You always look completely in control.",
+          "speaker_exact": "Vivan",
+          "explicit_names": [
+            "Vivan"
+          ]
+        },
+        {
+          "id": "S11-L004",
+          "kind": "dialogue",
+          "text_exact": "That's because you only see the final slide.",
+          "speaker_exact": "Ankita",
+          "explicit_names": [
+            "Ankita"
+          ]
+        },
+        {
+          "id": "S11-L005",
+          "kind": "dialogue",
+          "text_exact": "For the record, she was furious at the broken test at nine.",
+          "speaker_exact": "Priya",
+          "explicit_names": []
+        },
+        {
+          "id": "S11-L006",
+          "kind": "dialogue",
+          "text_exact": "Professionally furious.",
+          "speaker_exact": "Ankita",
+          "explicit_names": [
+            "Ankita"
+          ]
+        },
+        {
+          "id": "S11-L007",
+          "kind": "dialogue",
+          "text_exact": "Still impressive.",
+          "speaker_exact": "Vivan",
+          "explicit_names": [
+            "Vivan"
+          ]
+        },
+        {
+          "id": "S11-L008",
+          "kind": "dialogue",
+          "text_exact": "Lunch, Vivan. Before I give you another ticket.",
+          "speaker_exact": "Ankita",
+          "explicit_names": [
+            "Vivan",
+            "Ankita"
+          ]
+        },
+        {
+          "id": "S11-L009",
+          "kind": "internal",
+          "text_exact": "Ankita smiles after he leaves, then tells herself the release went well. The smile has more than one possible cause.",
+          "speaker_exact": null,
+          "explicit_names": [
+            "Ankita"
+          ]
+        }
+      ],
+      "complete_source_object": {
+        "id": "S11",
+        "time": "13:05",
+        "lane": "Workplace — Ankita",
+        "lead": "Ankita",
+        "location": "IT office · meeting room",
+        "title": "The compliment after the fix",
+        "narration": [
+          "The release passes its verification. Vivan returns the projector remote while Priya signs off the QA evidence. Reyansh has already posted the performance summary. The team begins dispersing for lunch.",
+          "Ankita is pleased by the work and by Vivan's ability to make a stressful day feel lighter. The thought is a quiet beginning, not a decision to pursue him."
+        ],
+        "dialogue": [
+          {
+            "speaker": "Vivan",
+            "line": "You always look completely in control."
+          },
+          {
+            "speaker": "Ankita",
+            "line": "That's because you only see the final slide."
+          },
+          {
+            "speaker": "Priya",
+            "line": "For the record, she was furious at the broken test at nine."
+          },
+          {
+            "speaker": "Ankita",
+            "line": "Professionally furious."
+          },
+          {
+            "speaker": "Vivan",
+            "line": "Still impressive."
+          },
+          {
+            "speaker": "Ankita",
+            "line": "Lunch, Vivan. Before I give you another ticket."
+          }
+        ],
+        "internal": [
+          "Ankita smiles after he leaves, then tells herself the release went well. The smile has more than one possible cause."
+        ],
+        "signalIds": [
+          "L23"
+        ]
+      },
+      "approved_by_source": false,
+      "integrity": {
+        "source_char_length": 1499,
+        "raw_reconstruction_verified": true
+      }
+    },
+    {
+      "scene_id": "S12",
+      "lead_exact": "Shared",
+      "title_exact": "Five people, five versions of the evening",
+      "source_position": {
+        "start": 21381,
+        "end": 24117
+      },
+      "source_json_lines_exact": [
+        "{",
+        "      \"id\": \"S12\",",
+        "      \"time\": \"19:25\",",
+        "      \"lane\": \"Crossover — Shared Society\",",
+        "      \"lead\": \"Shared\",",
+        "      \"location\": \"Gulmohar Heights · courtyard\",",
+        "      \"title\": \"Five people, five versions of the evening\",",
+        "      \"narration\": [",
+        "        \"Sharmi's event message brings the five women to the courtyard at staggered moments. Ankita arrives from office, Shivani after checking Tara's dinner, Taniya with a wedding-planning call still pending, Meenakshi after her hospital shift, and Shreya after changing out of her work clothes.\",",
+        "        \"Mahendra Suri introduces the community-week schedule. Rohan and Kabir arrive as spouses, Nikhil checks on Meenakshi, and Vikram offers to organise safety volunteers. Aditya joins by phone because he is not yet part of Taniya's household. Soniya and Rahul stop by on their way home.\",",
+        "        \"Rajeev briefly notices Shivani's graceful confidence while she manages the noticeboard. She is unaware of this fleeting attention. Rahul admires Ankita's quick problem-solving and privately wonders about getting to know her better outside a group setting; Ankita interprets his comments as routine courtesy. Neither thought is treated as a mutual relationship.\"",
+        "      ],",
+        "      \"dialogue\": [",
+        "        {",
+        "          \"speaker\": \"Sharmi\",",
+        "          \"line\": \"I need five different brains, not five people agreeing with Mahendra-ji.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Mahendra\",",
+        "          \"line\": \"I heard that.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Ankita\",",
+        "          \"line\": \"I'll handle registrations if the data is actually organised.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Shivani\",",
+        "          \"line\": \"I'll coordinate the children's programme.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Taniya\",",
+        "          \"line\": \"Accounts and vendor payments are mine.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Meenakshi\",",
+        "          \"line\": \"I'll check the health-camp requirements.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Shreya\",",
+        "          \"line\": \"And please, one actual entry register for volunteers.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Rahul\",",
+        "          \"line\": \"That sounds like the most efficient committee in Gurgaon.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Ankita\",",
+        "          \"line\": \"Ask us again after the first spreadsheet.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Rohan\",",
+        "          \"line\": \"I'm keeping the first-aid kit for the committee debates.\"",
+        "        }",
+        "      ],",
+        "      \"internal\": [",
+        "        \"Everyone enjoys the comfortable group atmosphere. Several private impressions coexist, but no woman is obligated to recognise or return any man's interest.\"",
+        "      ],",
+        "      \"signalIds\": [",
+        "        \"L24\",",
+        "        \"L25\",",
+        "        \"L26\",",
+        "        \"L27\"",
+        "      ]",
+        "    }"
+      ],
+      "prose_line_records": [
+        {
+          "id": "S12-L001",
+          "kind": "narration",
+          "text_exact": "Sharmi's event message brings the five women to the courtyard at staggered moments. Ankita arrives from office, Shivani after checking Tara's dinner, Taniya with a wedding-planning call still pending, Meenakshi after her hospital shift, and Shreya after changing out of her work clothes.",
+          "speaker_exact": null,
+          "explicit_names": [
+            "Tara",
+            "Sharmi",
+            "Ankita",
+            "Shivani",
+            "Taniya",
+            "Meenakshi",
+            "Shreya"
+          ]
+        },
+        {
+          "id": "S12-L002",
+          "kind": "narration",
+          "text_exact": "Mahendra Suri introduces the community-week schedule. Rohan and Kabir arrive as spouses, Nikhil checks on Meenakshi, and Vikram offers to organise safety volunteers. Aditya joins by phone because he is not yet part of Taniya's household. Soniya and Rahul stop by on their way home.",
+          "speaker_exact": null,
+          "explicit_names": [
+            "Kabir",
+            "Rohan",
+            "Aditya",
+            "Soniya",
+            "Rahul",
+            "Nikhil",
+            "Vikram",
+            "Mahendra Suri",
+            "Taniya",
+            "Meenakshi"
+          ]
+        },
+        {
+          "id": "S12-L003",
+          "kind": "narration",
+          "text_exact": "Rajeev briefly notices Shivani's graceful confidence while she manages the noticeboard. She is unaware of this fleeting attention. Rahul admires Ankita's quick problem-solving and privately wonders about getting to know her better outside a group setting; Ankita interprets his comments as routine courtesy. Neither thought is treated as a mutual relationship.",
+          "speaker_exact": null,
+          "explicit_names": [
+            "Rajeev",
+            "Rahul",
+            "Ankita",
+            "Shivani"
+          ]
+        },
+        {
+          "id": "S12-L004",
+          "kind": "dialogue",
+          "text_exact": "I need five different brains, not five people agreeing with Mahendra-ji.",
+          "speaker_exact": "Sharmi",
+          "explicit_names": [
+            "Sharmi"
+          ]
+        },
+        {
+          "id": "S12-L005",
+          "kind": "dialogue",
+          "text_exact": "I heard that.",
+          "speaker_exact": "Mahendra",
+          "explicit_names": []
+        },
+        {
+          "id": "S12-L006",
+          "kind": "dialogue",
+          "text_exact": "I'll handle registrations if the data is actually organised.",
+          "speaker_exact": "Ankita",
+          "explicit_names": [
+            "Ankita"
+          ]
+        },
+        {
+          "id": "S12-L007",
+          "kind": "dialogue",
+          "text_exact": "I'll coordinate the children's programme.",
+          "speaker_exact": "Shivani",
+          "explicit_names": [
+            "Shivani"
+          ]
+        },
+        {
+          "id": "S12-L008",
+          "kind": "dialogue",
+          "text_exact": "Accounts and vendor payments are mine.",
+          "speaker_exact": "Taniya",
+          "explicit_names": [
+            "Taniya"
+          ]
+        },
+        {
+          "id": "S12-L009",
+          "kind": "dialogue",
+          "text_exact": "I'll check the health-camp requirements.",
+          "speaker_exact": "Meenakshi",
+          "explicit_names": [
+            "Meenakshi"
+          ]
+        },
+        {
+          "id": "S12-L010",
+          "kind": "dialogue",
+          "text_exact": "And please, one actual entry register for volunteers.",
+          "speaker_exact": "Shreya",
+          "explicit_names": [
+            "Shreya"
+          ]
+        },
+        {
+          "id": "S12-L011",
+          "kind": "dialogue",
+          "text_exact": "That sounds like the most efficient committee in Gurgaon.",
+          "speaker_exact": "Rahul",
+          "explicit_names": [
+            "Rahul"
+          ]
+        },
+        {
+          "id": "S12-L012",
+          "kind": "dialogue",
+          "text_exact": "Ask us again after the first spreadsheet.",
+          "speaker_exact": "Ankita",
+          "explicit_names": [
+            "Ankita"
+          ]
+        },
+        {
+          "id": "S12-L013",
+          "kind": "dialogue",
+          "text_exact": "I'm keeping the first-aid kit for the committee debates.",
+          "speaker_exact": "Rohan",
+          "explicit_names": [
+            "Rohan"
+          ]
+        },
+        {
+          "id": "S12-L014",
+          "kind": "internal",
+          "text_exact": "Everyone enjoys the comfortable group atmosphere. Several private impressions coexist, but no woman is obligated to recognise or return any man's interest.",
+          "speaker_exact": null,
+          "explicit_names": []
+        }
+      ],
+      "complete_source_object": {
+        "id": "S12",
+        "time": "19:25",
+        "lane": "Crossover — Shared Society",
+        "lead": "Shared",
+        "location": "Gulmohar Heights · courtyard",
+        "title": "Five people, five versions of the evening",
+        "narration": [
+          "Sharmi's event message brings the five women to the courtyard at staggered moments. Ankita arrives from office, Shivani after checking Tara's dinner, Taniya with a wedding-planning call still pending, Meenakshi after her hospital shift, and Shreya after changing out of her work clothes.",
+          "Mahendra Suri introduces the community-week schedule. Rohan and Kabir arrive as spouses, Nikhil checks on Meenakshi, and Vikram offers to organise safety volunteers. Aditya joins by phone because he is not yet part of Taniya's household. Soniya and Rahul stop by on their way home.",
+          "Rajeev briefly notices Shivani's graceful confidence while she manages the noticeboard. She is unaware of this fleeting attention. Rahul admires Ankita's quick problem-solving and privately wonders about getting to know her better outside a group setting; Ankita interprets his comments as routine courtesy. Neither thought is treated as a mutual relationship."
+        ],
+        "dialogue": [
+          {
+            "speaker": "Sharmi",
+            "line": "I need five different brains, not five people agreeing with Mahendra-ji."
+          },
+          {
+            "speaker": "Mahendra",
+            "line": "I heard that."
+          },
+          {
+            "speaker": "Ankita",
+            "line": "I'll handle registrations if the data is actually organised."
+          },
+          {
+            "speaker": "Shivani",
+            "line": "I'll coordinate the children's programme."
+          },
+          {
+            "speaker": "Taniya",
+            "line": "Accounts and vendor payments are mine."
+          },
+          {
+            "speaker": "Meenakshi",
+            "line": "I'll check the health-camp requirements."
+          },
+          {
+            "speaker": "Shreya",
+            "line": "And please, one actual entry register for volunteers."
+          },
+          {
+            "speaker": "Rahul",
+            "line": "That sounds like the most efficient committee in Gurgaon."
+          },
+          {
+            "speaker": "Ankita",
+            "line": "Ask us again after the first spreadsheet."
+          },
+          {
+            "speaker": "Rohan",
+            "line": "I'm keeping the first-aid kit for the committee debates."
+          }
+        ],
+        "internal": [
+          "Everyone enjoys the comfortable group atmosphere. Several private impressions coexist, but no woman is obligated to recognise or return any man's interest."
+        ],
+        "signalIds": [
+          "L24",
+          "L25",
+          "L26",
+          "L27"
+        ]
+      },
+      "approved_by_source": false,
+      "integrity": {
+        "source_char_length": 2736,
+        "raw_reconstruction_verified": true
+      }
+    },
+    {
+      "scene_id": "S13",
+      "lead_exact": "Ankita",
+      "title_exact": "The smile that stayed",
+      "source_position": {
+        "start": 24123,
+        "end": 25288
+      },
+      "source_json_lines_exact": [
+        "{",
+        "      \"id\": \"S13\",",
+        "      \"time\": \"20:18\",",
+        "      \"lane\": \"Society — Ankita\",",
+        "      \"lead\": \"Ankita\",",
+        "      \"location\": \"Malhotra flat · dining table\",",
+        "      \"title\": \"The smile that stayed\",",
+        "      \"narration\": [",
+        "        \"Kabir asks about the release. Ankita recounts Priya's QA objections and Vivan's joke. She laughs at the memory, then returns to discussing tomorrow's work.\",",
+        "        \"She does not hide a relationship because there is no relationship to hide. Her attraction remains an untested thought.\"",
+        "      ],",
+        "      \"dialogue\": [",
+        "        {",
+        "          \"speaker\": \"Kabir\",",
+        "          \"line\": \"So did your famous release survive?\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Ankita\",",
+        "          \"line\": \"Barely. Priya saved us from an embarrassing bug.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Kabir\",",
+        "          \"line\": \"And tomorrow?\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Ankita\",",
+        "          \"line\": \"Tomorrow they'll find a new way to surprise me.\"",
+        "        }",
+        "      ],",
+        "      \"internal\": [",
+        "        \"She remembers Vivan's confidence for a moment, but her attention returns to her marriage and work.\"",
+        "      ],",
+        "      \"signalIds\": [",
+        "        \"L28\"",
+        "      ]",
+        "    }"
+      ],
+      "prose_line_records": [
+        {
+          "id": "S13-L001",
+          "kind": "narration",
+          "text_exact": "Kabir asks about the release. Ankita recounts Priya's QA objections and Vivan's joke. She laughs at the memory, then returns to discussing tomorrow's work.",
+          "speaker_exact": null,
+          "explicit_names": [
+            "Kabir",
+            "Vivan",
+            "Ankita"
+          ]
+        },
+        {
+          "id": "S13-L002",
+          "kind": "narration",
+          "text_exact": "She does not hide a relationship because there is no relationship to hide. Her attraction remains an untested thought.",
+          "speaker_exact": null,
+          "explicit_names": []
+        },
+        {
+          "id": "S13-L003",
+          "kind": "dialogue",
+          "text_exact": "So did your famous release survive?",
+          "speaker_exact": "Kabir",
+          "explicit_names": [
+            "Kabir"
+          ]
+        },
+        {
+          "id": "S13-L004",
+          "kind": "dialogue",
+          "text_exact": "Barely. Priya saved us from an embarrassing bug.",
+          "speaker_exact": "Ankita",
+          "explicit_names": [
+            "Ankita"
+          ]
+        },
+        {
+          "id": "S13-L005",
+          "kind": "dialogue",
+          "text_exact": "And tomorrow?",
+          "speaker_exact": "Kabir",
+          "explicit_names": [
+            "Kabir"
+          ]
+        },
+        {
+          "id": "S13-L006",
+          "kind": "dialogue",
+          "text_exact": "Tomorrow they'll find a new way to surprise me.",
+          "speaker_exact": "Ankita",
+          "explicit_names": [
+            "Ankita"
+          ]
+        },
+        {
+          "id": "S13-L007",
+          "kind": "internal",
+          "text_exact": "She remembers Vivan's confidence for a moment, but her attention returns to her marriage and work.",
+          "speaker_exact": null,
+          "explicit_names": [
+            "Vivan"
+          ]
+        }
+      ],
+      "complete_source_object": {
+        "id": "S13",
+        "time": "20:18",
+        "lane": "Society — Ankita",
+        "lead": "Ankita",
+        "location": "Malhotra flat · dining table",
+        "title": "The smile that stayed",
+        "narration": [
+          "Kabir asks about the release. Ankita recounts Priya's QA objections and Vivan's joke. She laughs at the memory, then returns to discussing tomorrow's work.",
+          "She does not hide a relationship because there is no relationship to hide. Her attraction remains an untested thought."
+        ],
+        "dialogue": [
+          {
+            "speaker": "Kabir",
+            "line": "So did your famous release survive?"
+          },
+          {
+            "speaker": "Ankita",
+            "line": "Barely. Priya saved us from an embarrassing bug."
+          },
+          {
+            "speaker": "Kabir",
+            "line": "And tomorrow?"
+          },
+          {
+            "speaker": "Ankita",
+            "line": "Tomorrow they'll find a new way to surprise me."
+          }
+        ],
+        "internal": [
+          "She remembers Vivan's confidence for a moment, but her attention returns to her marriage and work."
+        ],
+        "signalIds": [
+          "L28"
+        ]
+      },
+      "approved_by_source": false,
+      "integrity": {
+        "source_char_length": 1165,
+        "raw_reconstruction_verified": true
+      }
+    }
+  ],
+  "approved_scene_ids": [],
+  "draft_scene_ids": [
+    "S01",
+    "S06",
+    "S11",
+    "S12",
+    "S13"
+  ],
+  "character_name_index": [
+    {
+      "name": "Kabir",
+      "matches": [
+        {
+          "scene_id": "S01",
+          "evidence_line_ids": [
+            "S01-L001",
+            "S01-L002",
+            "S01-L003",
+            "S01-L005",
+            "S01-L009"
+          ],
+          "full_scene_for_context": "S01"
+        },
+        {
+          "scene_id": "S12",
+          "evidence_line_ids": [
+            "S12-L002"
+          ],
+          "full_scene_for_context": "S12"
+        },
+        {
+          "scene_id": "S13",
+          "evidence_line_ids": [
+            "S13-L001",
+            "S13-L003",
+            "S13-L005"
+          ],
+          "full_scene_for_context": "S13"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Rajeev",
+      "matches": [
+        {
+          "scene_id": "S01",
+          "evidence_line_ids": [
+            "S01-L002",
+            "S01-L007"
+          ],
+          "full_scene_for_context": "S01"
+        },
+        {
+          "scene_id": "S12",
+          "evidence_line_ids": [
+            "S12-L003"
+          ],
+          "full_scene_for_context": "S12"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Rohan",
+      "matches": [
+        {
+          "scene_id": "S12",
+          "evidence_line_ids": [
+            "S12-L002",
+            "S12-L013"
+          ],
+          "full_scene_for_context": "S12"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Tara",
+      "matches": [
+        {
+          "scene_id": "S12",
+          "evidence_line_ids": [
+            "S12-L001"
+          ],
+          "full_scene_for_context": "S12"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Aditya",
+      "matches": [
+        {
+          "scene_id": "S12",
+          "evidence_line_ids": [
+            "S12-L002"
+          ],
+          "full_scene_for_context": "S12"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Soniya",
+      "matches": [
+        {
+          "scene_id": "S12",
+          "evidence_line_ids": [
+            "S12-L002"
+          ],
+          "full_scene_for_context": "S12"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Rahul",
+      "matches": [
+        {
+          "scene_id": "S12",
+          "evidence_line_ids": [
+            "S12-L002",
+            "S12-L003",
+            "S12-L011"
+          ],
+          "full_scene_for_context": "S12"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Nikhil",
+      "matches": [
+        {
+          "scene_id": "S12",
+          "evidence_line_ids": [
+            "S12-L002"
+          ],
+          "full_scene_for_context": "S12"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Vikram",
+      "matches": [
+        {
+          "scene_id": "S12",
+          "evidence_line_ids": [
+            "S12-L002"
+          ],
+          "full_scene_for_context": "S12"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Mahendra Suri",
+      "matches": [
+        {
+          "scene_id": "S12",
+          "evidence_line_ids": [
+            "S12-L002"
+          ],
+          "full_scene_for_context": "S12"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Sharmi",
+      "matches": [
+        {
+          "scene_id": "S12",
+          "evidence_line_ids": [
+            "S12-L001",
+            "S12-L004"
+          ],
+          "full_scene_for_context": "S12"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Vivan",
+      "matches": [
+        {
+          "scene_id": "S06",
+          "evidence_line_ids": [
+            "S06-L002",
+            "S06-L005",
+            "S06-L010"
+          ],
+          "full_scene_for_context": "S06"
+        },
+        {
+          "scene_id": "S11",
+          "evidence_line_ids": [
+            "S11-L001",
+            "S11-L002",
+            "S11-L003",
+            "S11-L007",
+            "S11-L008"
+          ],
+          "full_scene_for_context": "S11"
+        },
+        {
+          "scene_id": "S13",
+          "evidence_line_ids": [
+            "S13-L001",
+            "S13-L007"
+          ],
+          "full_scene_for_context": "S13"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Reyansh",
+      "matches": [
+        {
+          "scene_id": "S06",
+          "evidence_line_ids": [
+            "S06-L002",
+            "S06-L007",
+            "S06-L010"
+          ],
+          "full_scene_for_context": "S06"
+        },
+        {
+          "scene_id": "S11",
+          "evidence_line_ids": [
+            "S11-L001"
+          ],
+          "full_scene_for_context": "S11"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Kavita",
+      "matches": [
+        {
+          "scene_id": "S06",
+          "evidence_line_ids": [
+            "S06-L001"
+          ],
+          "full_scene_for_context": "S06"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Ankita",
+      "matches": [
+        {
+          "scene_id": "S01",
+          "evidence_line_ids": [
+            "S01-L001",
+            "S01-L002",
+            "S01-L004",
+            "S01-L006",
+            "S01-L008",
+            "S01-L009"
+          ],
+          "full_scene_for_context": "S01"
+        },
+        {
+          "scene_id": "S06",
+          "evidence_line_ids": [
+            "S06-L001",
+            "S06-L002",
+            "S06-L004",
+            "S06-L006",
+            "S06-L009",
+            "S06-L010"
+          ],
+          "full_scene_for_context": "S06"
+        },
+        {
+          "scene_id": "S11",
+          "evidence_line_ids": [
+            "S11-L002",
+            "S11-L004",
+            "S11-L006",
+            "S11-L008",
+            "S11-L009"
+          ],
+          "full_scene_for_context": "S11"
+        },
+        {
+          "scene_id": "S12",
+          "evidence_line_ids": [
+            "S12-L001",
+            "S12-L003",
+            "S12-L006",
+            "S12-L012"
+          ],
+          "full_scene_for_context": "S12"
+        },
+        {
+          "scene_id": "S13",
+          "evidence_line_ids": [
+            "S13-L001",
+            "S13-L004",
+            "S13-L006"
+          ],
+          "full_scene_for_context": "S13"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Shivani",
+      "matches": [
+        {
+          "scene_id": "S12",
+          "evidence_line_ids": [
+            "S12-L001",
+            "S12-L003",
+            "S12-L007"
+          ],
+          "full_scene_for_context": "S12"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Taniya",
+      "matches": [
+        {
+          "scene_id": "S12",
+          "evidence_line_ids": [
+            "S12-L001",
+            "S12-L002",
+            "S12-L008"
+          ],
+          "full_scene_for_context": "S12"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Meenakshi",
+      "matches": [
+        {
+          "scene_id": "S12",
+          "evidence_line_ids": [
+            "S12-L001",
+            "S12-L002",
+            "S12-L009"
+          ],
+          "full_scene_for_context": "S12"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Shreya",
+      "matches": [
+        {
+          "scene_id": "S12",
+          "evidence_line_ids": [
+            "S12-L001",
+            "S12-L010"
+          ],
+          "full_scene_for_context": "S12"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    }
+  ],
+  "integrity": {
+    "scene_count": 5,
+    "source_objects_verified": true,
+    "verbatim_character_count": 9184
+  }
+}
