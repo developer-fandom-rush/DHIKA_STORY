@@ -1,15 +1,239 @@
 {
-  "schemaVersion": "1.0",
+  "schemaVersion": "2.0",
   "id": "meenakshi-episode-03-plan",
   "episode": "03",
-  "title": "Meenakshi — 2 January Senior Review",
+  "leadId": "meenakshi",
+  "title": "The Ride, the Glances & the Second Knock",
+  "subtitle": "Office Peers · Two Helpers · Society Twins",
   "date": "2026-01-02",
   "weekday": "Friday",
   "timezone": "Asia/Kolkata",
-  "leadId": "meenakshi",
-  "status": "WORKING_PLOT_MOVED_FROM_EP02",
-  "sourcePriority": "Direct user master prompt for Meenakshi EP02; preserve other existing EP02 material and the separate Ankita EP03 saved plot",
+  "status": "PLANNING_FOR_DISCUSSION_NOT_APPROVED_NOT_FINAL_PROSE",
+  "sourcePriority": "2026-11-13 user direction; preserve existing 2 Jan M08 senior review, 1 Jan EP02 closure, existing relationships and vehicle logic",
+  "sourceLinks": {
+    "dhikaEpisode03": "https://docs.google.com/document/d/1CSST1VjhIivB1X2pPM93JEHhTJAjyiV0nLCOnMXKbIA/edit?tab=t.h2dfrbxs4p6",
+    "dhikaEpisode04": "https://docs.google.com/document/d/1CSST1VjhIivB1X2pPM93JEHhTJAjyiV0nLCOnMXKbIA/edit?tab=t.pa2tu6iklls6",
+    "ep02Meenakshi": "./episode-02-meenakshi.html",
+    "ep02Closure": "./episode-02-closure.json",
+    "cast": "./character-directory.json"
+  },
+  "continuity": {
+    "original": "Dhika Episode 03 occurs same afternoon/evening from 4 PM to about 5 PM and ends at the second doorbell. Episode 04 opens at that same door, continues evening/night, and only later advances to next morning. Do not interpret a day break between original EP03 and EP04.",
+    "newUniverse": "Society Wives EP02 closed Jan 1 at Meenakshi M12 13:15; new EP03 proposals belong Jan 2. 2 Jan senior review M08 at 11:00–11:40 preserved.",
+    "transport": "Meenakshi drives her own car to the hospital on Jan 2 and keeps car throughout; Avi/Yash/Aditi share a realistic four-seat trip with seatbelts. No unplanned bike ride or three on a two-wheeler.",
+    "castRoles": "Office pair Avi (24, outgoing) and Yash (24, observant) are not biological twins; Dr Aditi (24) is their female peer. Society twins Uday and Utkarsh (24) are actual brothers. Hospital Chotu-role is Naveen (22), society Chotu-role Babloo (23); their roles and backstories stay distinct.",
+    "pendingMysteries": "Jan1 locker intrusion and changing-room privacy breach not resolved by new chapter; Mohan unrelated older household guest, one-sided interest concealed, and Nikhil's planned surprise remains unresolved.",
+    "interaction": "Adult fictional romance/innuendo; private admiration separated from Meenakshi's knowledge. A physical moment never proves consent to additional intimacy. Workplace hierarchy and patient context respected.",
+    "scope": "Discussion proposal only; no new scene is approved prose. Additional Jan2 events do not change Jan1 EP02."
+  },
+  "cast": [
+    {
+      "id": "meenakshi",
+      "name": "Meenakshi",
+      "age": 32,
+      "role": "Doctor; protagonist"
+    },
+    {
+      "id": "avi",
+      "name": "Avi",
+      "age": 24,
+      "role": "Confident trainee; office Bantu-style"
+    },
+    {
+      "id": "yash",
+      "name": "Yash",
+      "age": 24,
+      "role": "Reserved trainee; office Bobby-style"
+    },
+    {
+      "id": "meenakshi_woman_01",
+      "name": "Dr. Aditi",
+      "age": 24,
+      "role": "Independent peer and witty observer"
+    },
+    {
+      "id": "naveen",
+      "name": "Naveen",
+      "age": 22,
+      "role": "Hospital admin; first Chotu-role"
+    },
+    {
+      "id": "uday",
+      "name": "Uday",
+      "age": 24,
+      "role": "Confident wellness twin; society"
+    },
+    {
+      "id": "utkarsh",
+      "name": "Utkarsh",
+      "age": 24,
+      "role": "Reserved wellness twin; society"
+    },
+    {
+      "id": "babloo",
+      "name": "Babloo",
+      "age": 23,
+      "role": "Pharmacy helper; second Chotu-role"
+    },
+    {
+      "id": "kunal",
+      "name": "Dr. Kunal Bedi",
+      "age": 52,
+      "role": "Senior review; preexisting Jan2 locked scene"
+    },
+    {
+      "id": "khurana",
+      "name": "Dr. S. P. Khurana",
+      "age": 61,
+      "role": "Senior review; preexisting Jan2 locked scene"
+    }
+  ],
   "timeline": [
+    {
+      "id": "M3-01",
+      "date": "2026-01-02",
+      "start": "08:45",
+      "end": "09:10",
+      "lane": "HOSPITAL",
+      "location": "Parking, staff entry and reporting desk",
+      "title": "The Photograph from Yesterday",
+      "characters": [
+        "meenakshi",
+        "rupa"
+      ],
+      "approval": "NEW_PROPOSAL_NOT_APPROVED",
+      "beats": [
+        "She reaches hospital in her own car; parking and car keys are established for the afternoon.",
+        "Meenakshi keeps the 1 Jan 13:15 photo of the changed locker condition; she documents the concern through normal workplace process rather than publicly accusing anyone.",
+        "Meenakshi knows that her belongings shifted; she does not know about Ritesh, Kunal, Khurana or the changing-room workers.",
+        "Her composed exterior contrasts with the private unease that will surface again during ordinary conversation."
+      ],
+      "dialogue": [
+        [
+          "Meenakshi",
+          "Kal locker lock karke gayi thi. Main details record karungi, bina guess kiye."
+        ],
+        [
+          "Rupa",
+          "Photo aur time note kar lijiye. Process follow karte hain."
+        ]
+      ],
+      "arc": {
+        "physical": "Normal workday, closed wardrobe; no intimacy",
+        "emotional": "Unease and need for agency",
+        "psychological": "Grounded unresolved locker mystery"
+      },
+      "sourceBeats": [
+        "dhika-home-private-clue"
+      ],
+      "notes": [
+        "No evidence fabrication; no accusation; report outcome unapproved."
+      ]
+    },
+    {
+      "id": "M3-02",
+      "date": "2026-01-02",
+      "start": "09:10",
+      "end": "10:20",
+      "lane": "HOSPITAL",
+      "location": "Ward and team corridor",
+      "title": "Three Younger Colleagues",
+      "characters": [
+        "meenakshi",
+        "avi",
+        "yash",
+        "meenakshi_woman_01",
+        "rupa"
+      ],
+      "approval": "NEW_PROPOSAL_NOT_APPROVED",
+      "beats": [
+        "Serious ward work first: Meenakshi reviews a case; Avi is openly confident; Yash checks figures; Aditi handles a difficult follow-up independently.",
+        "Aditi (24) is their same-age female peer: witty and observant, not a prop or a presumed romantic participant.",
+        "At the file handoff, Avi compliments Meenakshi's composure; Yash is quiet but attentive; Aditi notices their different responses.",
+        "Meenakshi says thank you professionally and does not allow patient care to become flirting."
+      ],
+      "dialogue": [
+        [
+          "Aditi",
+          "Avi, file ke numbers pe bhi utna hi focus kar lo jitna apni one-liners pe."
+        ],
+        [
+          "Avi",
+          "Report bhi dekh raha hoon, Doctor sahiba ka confidence bhi notice kar raha hoon."
+        ],
+        [
+          "Meenakshi",
+          "Pehle report pass karo. Compliments ki marking baad mein."
+        ]
+      ],
+      "arc": {
+        "physical": "Appropriate professional proximity only",
+        "emotional": "Meenakshi feels seen for competence",
+        "psychological": "Aditi detects contrasting peer personalities"
+      },
+      "sourceBeats": [
+        "dhika-confident-compliments",
+        "dhika-shy-observer"
+      ],
+      "notes": [
+        "Avi/Yash are work duo, not biological twins; Aditi is 24 and has independent clinical tasks."
+      ]
+    },
+    {
+      "id": "M3-03",
+      "date": "2026-01-02",
+      "start": "10:20",
+      "end": "10:45",
+      "lane": "HOSPITAL",
+      "location": "Staff-only coffee alcove",
+      "title": "A Compliment, a Glance, and a Wink",
+      "characters": [
+        "meenakshi",
+        "avi",
+        "yash",
+        "meenakshi_woman_01"
+      ],
+      "approval": "NEW_PROPOSAL_NOT_APPROVED",
+      "beats": [
+        "After rounds the four adults pause for tea: flirting is outside patient-facing spaces.",
+        "Avi's compliment has a plausible double meaning; Meenakshi outwardly deflects but privately feels briefly flattered by attention from younger adult colleagues.",
+        "Yash quietly notices her relieved smile and evening outfit beneath the open white coat; no intrusive gaze is endorsed.",
+        "Avi catches Yash's glance, taps his shoulder and winks; Yash blushes, Aditi spots the exchange and teases both.",
+        "Meenakshi catches part of the exchange; the reader sees her private pleased-but-cautious reaction distinct from the trio's private interpretations."
+      ],
+      "dialogue": [
+        [
+          "Avi",
+          "Aaj aapke observation rounds khatam hue, ya hum abhi bhi examination mein hain?"
+        ],
+        [
+          "Meenakshi",
+          "Tum log symptoms se zyada double meanings produce kar rahe ho."
+        ],
+        [
+          "Yash",
+          "Main toh observation likh bhi nahi raha."
+        ],
+        [
+          "Aditi",
+          "Haan, aur isi liye tumhara face sab bata raha hai."
+        ]
+      ],
+      "arc": {
+        "physical": "Visible expression, eye contact and shoulder tap between peers",
+        "emotional": "Momentary blush and warmth; not a promise",
+        "psychological": "Unspoken understanding and subtle rivalry"
+      },
+      "sourceBeats": [
+        "dhika-comparison-compliment",
+        "dhika-internal-blush",
+        "dhika-silent-look",
+        "dhika-shoulder-tap-wink"
+      ],
+      "notes": [
+        "Use spoken vs reader-only reactions separately; jokes are mutually responsive, not a license for touching."
+      ]
+    },
     {
       "id": "M08",
       "start": "11:00",
@@ -27,10 +251,634 @@
       "approval": "USER_DIRECTED_NEXT_DAY_PROSE_PENDING",
       "notes": [
         "User moved this meeting out of 1 January Episode 02; schedule on 2 January 2026 only.",
-        "Time 11:00–11:40 is inherited from previous draft; verify with next-day global clock before prose."
+        "Time 11:00–11:40 is inherited from previous draft; verify with next-day global clock before prose.",
+        "Preserved untouched from pre-existing 2 January EP03 plan. Do not duplicate on 1 Jan."
       ],
-      "date": "2026-01-02"
+      "date": "2026-01-02",
+      "sourceBeats": [
+        "new-universe-locked-m08"
+      ]
+    },
+    {
+      "id": "M3-04",
+      "date": "2026-01-02",
+      "start": "11:45",
+      "end": "12:15",
+      "lane": "HOSPITAL",
+      "location": "Administration counter",
+      "title": "Naveen — The Missing Annexure",
+      "characters": [
+        "meenakshi",
+        "naveen"
+      ],
+      "approval": "NEW_PROPOSAL_NOT_APPROVED",
+      "beats": [
+        "Chotu-equivalent in the hospital is Naveen (22), an admin assistant already present in 1 Jan M06; not a newly invented stranger.",
+        "Introduce his established function and familiarity through reliable shift-sheet work; any family hardship, tuition or nickname backstory is only a proposal until accepted.",
+        "He delivers the senior-review annexure, discovers one page is missing, offers to retrieve it and returns after a short interval.",
+        "Meenakshi nicknames his speed 'express service'; his private impression is that her encouragement feels personal, while she regards it as friendly senior-colleague warmth.",
+        "The missing-document-and-second-visit mechanism is separate from Babloo's society delivery."
+      ],
+      "dialogue": [
+        [
+          "Meenakshi",
+          "Naveen, annexure mein page three kahan hai? Invisible ink?"
+        ],
+        [
+          "Naveen",
+          "Scan room mein reh gaya. Five minutes, ma'am."
+        ],
+        [
+          "Meenakshi",
+          "Express service ke saath accuracy bhi included honi chahiye."
+        ],
+        [
+          "Naveen",
+          "Aaj se double-check complimentary."
+        ]
+      ],
+      "arc": {
+        "physical": "Passing a file, hands remain respectful",
+        "emotional": "Naveen appreciates being trusted",
+        "psychological": "One-sided first impression; Meenakshi not aware of any crush"
+      },
+      "sourceBeats": [
+        "dhika-chotu-familiar-history",
+        "dhika-first-delivery",
+        "dhika-missing-item",
+        "dhika-return"
+      ],
+      "notes": [
+        "This is first focused Naveen introduction, NOT his first-ever appearance; no private locker access for Naveen."
+      ]
+    },
+    {
+      "id": "M3-05",
+      "date": "2026-01-02",
+      "start": "14:35",
+      "end": "15:05",
+      "lane": "HOSPITAL",
+      "location": "Clinical team desk",
+      "title": "Avi Requests the Ride",
+      "characters": [
+        "meenakshi",
+        "avi",
+        "yash",
+        "meenakshi_woman_01"
+      ],
+      "approval": "NEW_PROPOSAL_NOT_APPROVED",
+      "beats": [
+        "Official health-camp vendor samples must be verified on Meenakshi's already planned route toward home.",
+        "Avi initiates the lift request. His stated logistical reason is genuine, but he privately hopes to spend time with her; no false fuel story is forced.",
+        "Meenakshi checks the address, agrees because she is already driving, and invites Aditi along for the supplies checklist.",
+        "Yash is assigned directions; Aditi handles paperwork. Professional hierarchy, boundaries and freedom to decline remain explicit."
+      ],
+      "dialogue": [
+        [
+          "Avi",
+          "Doctor, vendor route mein hai. Agar aap drop kar dein toh cartons verify ho jayenge."
+        ],
+        [
+          "Meenakshi",
+          "Sirf isliye ki mera route same hai. Aditi, list tumhare paas hogi?"
+        ],
+        [
+          "Aditi",
+          "Yes. Yash GPS sambhal lega."
+        ]
+      ],
+      "arc": {
+        "physical": "No touching; ride anticipated",
+        "emotional": "Avi hopeful",
+        "psychological": "Avi sets up the ride expecting more attention"
+      },
+      "sourceBeats": [
+        "dhika-lift-request",
+        "dhika-excuse-tested"
+      ],
+      "notes": [
+        "Car belongs to Meenakshi; exact vendor address not canonized; trip is off-site team work, no patient transport."
+      ]
+    },
+    {
+      "id": "M3-06",
+      "date": "2026-01-02",
+      "start": "15:05",
+      "end": "15:20",
+      "lane": "PARKING",
+      "location": "Hospital staff parking",
+      "title": "Who Was Watching Whom?",
+      "characters": [
+        "meenakshi",
+        "avi",
+        "yash",
+        "meenakshi_woman_01"
+      ],
+      "approval": "NEW_PROPOSAL_NOT_APPROVED",
+      "beats": [
+        "Meenakshi walks ahead carrying her bag and a lightweight supply register; three younger peers follow a short distance.",
+        "Avi privately admires her confident walk and fitted but everyday departure outfit. Yash also notices; admiration is kept as a private POV, not an invitation.",
+        "Avi notices Yash's glance and gives the same private shoulder-tap and wink mechanism; Yash blushes. Aditi sees them and quietly calls out their competitiveness.",
+        "Meenakshi glances back, notices their expressions and feels a brief internal blush before returning to the practical task.",
+        "The parking-lot walking tableau is retained as an independent beat, not collapsed into 'they flirt'."
+      ],
+      "dialogue": [
+        [
+          "Aditi",
+          "Tum dono files ke saath-saath expressions bhi coordinate karte ho?"
+        ],
+        [
+          "Meenakshi",
+          "Kya secret meeting chal rahi hai?"
+        ],
+        [
+          "Avi",
+          "Seat assignment ka important discussion."
+        ]
+      ],
+      "arc": {
+        "physical": "Walking, noticed glances, peer-only shoulder tap",
+        "emotional": "She feels briefly attractive and slightly self-conscious",
+        "psychological": "Private rivalry shown before vehicle seating"
+      },
+      "sourceBeats": [
+        "dhika-parking-walk",
+        "dhika-body-language-observation",
+        "dhika-observer-catches-observer",
+        "dhika-wink-blush"
+      ],
+      "notes": [
+        "Visual body-language admiration is reader-only; no explicit body-part fixation or stalking."
+      ]
+    },
+    {
+      "id": "M3-07",
+      "date": "2026-01-02",
+      "start": "15:20",
+      "end": "15:55",
+      "lane": "CAR",
+      "location": "Meenakshi's car to vendor",
+      "title": "The Unexpected Front Seat",
+      "characters": [
+        "meenakshi",
+        "avi",
+        "yash",
+        "meenakshi_woman_01"
+      ],
+      "approval": "NEW_PROPOSAL_NOT_APPROVED",
+      "beats": [
+        "Avi requested the ride and expects the front passenger seat; Yash already has navigation open.",
+        "Meenakshi asks Yash to navigate from the front; Avi and Aditi sit in back with folders, preserving all four seatbelts.",
+        "Avi conceals disappointment; Yash quietly enjoys the unexpected position but does not use it to intrude.",
+        "Aditi quietly teases Avi; Meenakshi notices through the rear-view mirror only at a safe stop, never while navigating a turn.",
+        "Light, mutual double entendre about 'front-row attention' and medical evaluations continues without breaking safe driving."
+      ],
+      "dialogue": [
+        [
+          "Meenakshi",
+          "Yash, GPS tumhare paas hai toh front mein baitho. Avi, Aditi ke saath files check karo."
+        ],
+        [
+          "Avi",
+          "Request meri, front row kisi aur ki. Interesting system hai."
+        ],
+        [
+          "Aditi",
+          "Merit-based allocation, Avi."
+        ],
+        [
+          "Yash",
+          "Main bas directions de raha hoon."
+        ]
+      ],
+      "arc": {
+        "physical": "Side-by-side seating, no contact",
+        "emotional": "Yash quietly pleased, Avi disappointed",
+        "psychological": "Bantu/Bobby seat reversal faithfully retained"
+      },
+      "sourceBeats": [
+        "dhika-seating-order",
+        "dhika-shy-seat-first",
+        "dhika-confident-twin-jealous"
+      ],
+      "notes": [
+        "No three-person motorcycle ride; safe four-adult car trip."
+      ]
+    },
+    {
+      "id": "M3-08",
+      "date": "2026-01-02",
+      "start": "15:55",
+      "end": "16:15",
+      "lane": "VENDOR",
+      "location": "Vendor loading area",
+      "title": "The Narrow Step",
+      "characters": [
+        "meenakshi",
+        "avi",
+        "yash",
+        "meenakshi_woman_01"
+      ],
+      "approval": "NEW_PROPOSAL_NOT_APPROVED",
+      "beats": [
+        "At the supplier bay Aditi confirms seals; Avi checks inventory; Yash helps Meenakshi inspect a labelled carton.",
+        "A trolley passes across a narrow step. She asks to steady herself on his forearm, and he agrees; he supports her upper arm for two seconds while she steps across.",
+        "Close proximity and brief natural contact create surprise for both; they separate as soon as steady. No uninvited waist hold and no claim that silence means consent.",
+        "Avi sees the closeness and later privately replays the moment. Aditi redirects the group to the actual supply count.",
+        "Meenakshi's inner reaction is a small, surprising awareness of Yash's considerate behaviour, layered with professional caution."
+      ],
+      "dialogue": [
+        [
+          "Meenakshi",
+          "Step narrow hai. Main tumhara arm hold kar loon?"
+        ],
+        [
+          "Yash",
+          "Of course. Careful, trolley aa rahi hai."
+        ],
+        [
+          "Aditi",
+          "Count complete. Do boxes, seals intact."
+        ],
+        [
+          "Avi",
+          "Aur safety audit bhi complete, lagta hai."
+        ]
+      ],
+      "arc": {
+        "physical": "Asked-and-accepted forearm steady + upper-arm support, then release",
+        "emotional": "Surprise, gratitude and fleeting attraction",
+        "psychological": "Avi witnesses a moment he expected for himself"
+      },
+      "sourceBeats": [
+        "dhika-misread-grip",
+        "dhika-surprised-touch",
+        "dhika-after-touch-memory"
+      ],
+      "notes": [
+        "Original motorcycle grip cannot logically transfer to car; use credible contact at loading step, not a contrived embrace."
+      ]
+    },
+    {
+      "id": "M3-09",
+      "date": "2026-01-02",
+      "start": "16:15",
+      "end": "17:00",
+      "lane": "TRANSIT",
+      "location": "Vendor to colleague drop-off to society",
+      "title": "Four Different Memories",
+      "characters": [
+        "meenakshi",
+        "avi",
+        "yash",
+        "meenakshi_woman_01"
+      ],
+      "approval": "NEW_PROPOSAL_NOT_APPROVED",
+      "beats": [
+        "Meenakshi drops the three colleagues at a suitable public transit point, then drives herself back to society with her car.",
+        "Avi jokes about losing the front seat; Aditi responds that the work was completed and has no patience for exaggerated rivalry.",
+        "Yash keeps his thoughts private. Meenakshi recalls his calm warning at the narrow step, not an imagined romantic promise.",
+        "The group separates clearly by 16:35–16:40. Meenakshi arrives home at about 17:00."
+      ],
+      "dialogue": [
+        [
+          "Avi",
+          "Agli baar front seat ke liye application dunga."
+        ],
+        [
+          "Aditi",
+          "Pehle paperwork sahi complete karna."
+        ],
+        [
+          "Meenakshi",
+          "Application reject karne ka right mere paas hai."
+        ]
+      ],
+      "arc": {
+        "physical": "All safely separated after short ride",
+        "emotional": "Mixed curiosity, teasing, restraint",
+        "psychological": "Different POV memories; no secret romance"
+      },
+      "sourceBeats": [
+        "dhika-goodbyes",
+        "dhika-confident-jealousy",
+        "dhika-quiet-keeps-memory"
+      ],
+      "notes": [
+        "Do not imply Meenakshi drove them to their homes or that the trio lives in Gulmohar Heights."
+      ]
+    },
+    {
+      "id": "M3-10",
+      "date": "2026-01-02",
+      "start": "17:10",
+      "end": "17:35",
+      "lane": "SOCIETY",
+      "location": "Wellness noticeboard and camp table",
+      "title": "The Other Pair of Brothers",
+      "characters": [
+        "meenakshi",
+        "uday",
+        "utkarsh"
+      ],
+      "approval": "NEW_PROPOSAL_NOT_APPROVED",
+      "beats": [
+        "Meenakshi, now at society with her car parked, checks the camp register and finds Uday and Utkarsh setting up a lightweight noticeboard.",
+        "Uday resumes confident innuendo using a health-checkup metaphor; Meenakshi banters back instead of recoiling.",
+        "Utkarsh makes an understated observation; she remembers his 1 January comment about being noticed, and privately smiles.",
+        "A banner clip slips; she hands Utkarsh a clip and their fingers brush briefly during the handoff, followed by a normal, unhurried separation.",
+        "Uday sees that she focuses on Utkarsh's answer, and his playful sibling competitiveness increases. Do NOT stage a second vehicle ride the same evening."
+      ],
+      "dialogue": [
+        [
+          "Uday",
+          "Doctor sahiba, hum dono ki attention ka follow-up kab hoga?"
+        ],
+        [
+          "Meenakshi",
+          "Tumhari attendance check karungi. Attention ke extra marks nahi."
+        ],
+        [
+          "Utkarsh",
+          "Mujhe toh kal ki observation yaad hai. Doctor ne khud hume notice kiya tha."
+        ],
+        [
+          "Meenakshi",
+          "Tumhari memory ka treatment mushkil hoga."
+        ]
+      ],
+      "arc": {
+        "physical": "Brief incidental fingers-at-clip touch, no claimed intimacy",
+        "emotional": "Familiar laughter and mildly increased awareness",
+        "psychological": "Yash's quietness and Utkarsh's quietness form an internal comparison"
+      },
+      "sourceBeats": [
+        "dhika-pair-rivalry-motif",
+        "new-universe-m02-memory-loop"
+      ],
+      "notes": [
+        "Uday/Utkarsh are actual twins, not hospital colleagues. Scene contrasts office dynamic rather than duplicating ride."
+      ]
+    },
+    {
+      "id": "M3-11",
+      "date": "2026-01-02",
+      "start": "17:40",
+      "end": "17:55",
+      "lane": "HOME",
+      "location": "Kapoor household entrance",
+      "title": "Babloo — The First Box",
+      "characters": [
+        "meenakshi",
+        "babloo"
+      ],
+      "approval": "NEW_PROPOSAL_NOT_APPROVED",
+      "beats": [
+        "Society Chotu-equivalent Babloo (23), an established pharmacy pickup helper already recognised in EP01 and EP02; not Naveen under another name.",
+        "He carries a sealed heavy pharmacy-supply box, is proud to help, and respectfully asks where to put it.",
+        "Meenakshi checks items with the bill, thanks him, and gives practical lifting advice.",
+        "One labelled packet is missing. Babloo apologizes, contacts the supplier and volunteers to return shortly.",
+        "Reader sees Babloo's quiet admiration for her kindness; Meenakshi trusts his work but does not infer romantic interest."
+      ],
+      "dialogue": [
+        [
+          "Babloo",
+          "Didi, heavy carton hai. Entry par rakh doon?"
+        ],
+        [
+          "Meenakshi",
+          "Haan. Peeth seedhi rakho, hero banne ke chakkar mein injury mat kar lena."
+        ],
+        [
+          "Babloo",
+          "Aapke camp ka samaan hai; complete launga."
+        ],
+        [
+          "Meenakshi",
+          "Bill mein ek packet missing hai. Pehle supplier se verify karo."
+        ]
+      ],
+      "arc": {
+        "physical": "Practical box handoff, no deliberate intimate touch",
+        "emotional": "Established trust and gratitude",
+        "psychological": "Second Chotu-lane begins without conflating helper with hospital admin"
+      },
+      "sourceBeats": [
+        "dhika-chotu-year-familiarity",
+        "dhika-heavy-delivery",
+        "dhika-missing-item"
+      ],
+      "notes": [
+        "Duration of their acquaintance is not yet canonized; no invented hardship, and no child in attraction framing."
+      ]
+    },
+    {
+      "id": "M3-12",
+      "date": "2026-01-02",
+      "start": "17:55",
+      "end": "18:10",
+      "lane": "HOME",
+      "location": "Living room, private phone check",
+      "title": "The Smile She Cannot Explain",
+      "characters": [
+        "meenakshi"
+      ],
+      "approval": "NEW_PROPOSAL_NOT_APPROVED",
+      "beats": [
+        "Meenakshi changes into comfortable home attire and organizes camp documents; she chooses her own privacy, independently of who will ring.",
+        "She mentally compares Avi's boldness, Yash's care, Uday's humor, Utkarsh's observation, and the practical help of Naveen/Babloo without treating all attention as romance.",
+        "Her husband Nikhil remains emotionally important; the Jan1 private surprise is an unresolved strand, not silently declared completed.",
+        "A message says Babloo is bringing the missing item. She plans to verify the bill at the doorway, not assume a visitor may enter."
+      ],
+      "dialogue": [],
+      "arc": {
+        "physical": "Private boundaries intact",
+        "emotional": "Brief flattering thrill followed by reflective restraint",
+        "psychological": "Distinct relationship strands and reader-only secrets kept separate"
+      },
+      "sourceBeats": [
+        "dhika-home-change",
+        "dhika-private-self-reflection"
+      ],
+      "notes": [
+        "Mohan's Jan1 pouch secret and the hospital locker mystery remain unresolved; no child is placed in sexual subplots."
+      ]
+    },
+    {
+      "id": "M3-13",
+      "date": "2026-01-02",
+      "start": "18:10",
+      "end": "18:20",
+      "lane": "HOME",
+      "location": "Kapoor household front door",
+      "title": "The Second Knock",
+      "characters": [
+        "meenakshi",
+        "babloo"
+      ],
+      "approval": "NEW_PROPOSAL_NOT_APPROVED",
+      "beats": [
+        "The second doorbell rings while Meenakshi is checking the inventory and getting ready to answer.",
+        "She checks who is outside, adjusts her shawl for her own comfort, and asks Babloo to confirm the missing label through the door.",
+        "Reader knows Babloo returned to complete the task; Meenakshi is not granted knowledge of any hidden feelings.",
+        "End at the door opening/hand-off threshold. The next episode can continue the same evening before any next-morning transition."
+      ],
+      "dialogue": [
+        [
+          "Meenakshi",
+          "Babloo, wahi missing packet hai?"
+        ],
+        [
+          "Babloo",
+          "Ji didi. Seal bhi intact hai."
+        ]
+      ],
+      "arc": {
+        "physical": "No forced contact; private-doorway boundary",
+        "emotional": "Expectation and mild anticipation",
+        "psychological": "Second-visit cliffhanger connects original mechanism to her real routine"
+      },
+      "sourceBeats": [
+        "dhika-second-doorbell",
+        "dhika-cliffhanger"
+      ],
+      "notes": [
+        "Do not rewrite 1 Jan EP02; this is 2 Jan evening. Original EP04 resumes the same day; only later goes into the following morning."
+      ]
     }
   ],
-  "next": "2 Jan global clock check and M08 Senior Review prose later; do not duplicate on 1 Jan."
+  "sourceBeatMap": [
+    {
+      "sourceBeat": "Confident appearance compliment",
+      "adaptedTo": "M3-02/M3-03",
+      "adaptation": "Avi notices and speaks; Aditi counters",
+      "status": "MAPPED_PROPOSAL"
+    },
+    {
+      "sourceBeat": "Outward deflection vs inner blush",
+      "adaptedTo": "M3-03",
+      "adaptation": "Meenakshi's polite deflection and private self-awareness are separate",
+      "status": "MAPPED_PROPOSAL"
+    },
+    {
+      "sourceBeat": "Quiet second admirer",
+      "adaptedTo": "M3-03",
+      "adaptation": "Yash notices; reader sees his reserved response",
+      "status": "MAPPED_PROPOSAL"
+    },
+    {
+      "sourceBeat": "Clothing and walking details",
+      "adaptedTo": "M3-06",
+      "adaptation": "Parking walk and ordinary outfit/body-language observed without explicit anatomy",
+      "status": "MAPPED_PROPOSAL"
+    },
+    {
+      "sourceBeat": "One notices the other's gaze",
+      "adaptedTo": "M3-03/M3-06",
+      "adaptation": "Avi notices Yash",
+      "status": "MAPPED_PROPOSAL"
+    },
+    {
+      "sourceBeat": "Shoulder tap / wink / blush",
+      "adaptedTo": "M3-06",
+      "adaptation": "Avi taps Yash's shoulder; Yash blushes; Aditi notices",
+      "status": "MAPPED_PROPOSAL"
+    },
+    {
+      "sourceBeat": "Ride initiator's secondary motive",
+      "adaptedTo": "M3-05",
+      "adaptation": "Avi requests a reasonable on-route trip and privately hopes for time together",
+      "status": "MAPPED_PROPOSAL"
+    },
+    {
+      "sourceBeat": "Practical resistance and logistics",
+      "adaptedTo": "M3-05",
+      "adaptation": "Meenakshi verifies reason, route, paperwork, and other riders",
+      "status": "MAPPED_PROPOSAL"
+    },
+    {
+      "sourceBeat": "Preferred seat unexpectedly goes to quiet one",
+      "adaptedTo": "M3-07",
+      "adaptation": "Yash navigates in front; Avi rides in back",
+      "status": "MAPPED_PROPOSAL"
+    },
+    {
+      "sourceBeat": "Jealousy remains partly unspoken",
+      "adaptedTo": "M3-07/M3-09",
+      "adaptation": "Avi's disappointment contrasted with Yash's restrained satisfaction",
+      "status": "MAPPED_PROPOSAL"
+    },
+    {
+      "sourceBeat": "Unexpected proximity and grip misunderstanding",
+      "adaptedTo": "M3-08",
+      "adaptation": "A car has no motorcycle waist grip; consensual steadying on vendor step preserves surprise and body-language effect",
+      "status": "MAPPED_PROPOSAL"
+    },
+    {
+      "sourceBeat": "Response to unexpected contact",
+      "adaptedTo": "M3-08",
+      "adaptation": "Asked, accepted, brief contact, release, internal reaction",
+      "status": "MAPPED_PROPOSAL"
+    },
+    {
+      "sourceBeat": "Two different goodbyes",
+      "adaptedTo": "M3-09",
+      "adaptation": "Avi joke, Yash silence, Aditi independent response",
+      "status": "MAPPED_PROPOSAL"
+    },
+    {
+      "sourceBeat": "Familiar helper introduction",
+      "adaptedTo": "M3-04/M3-11",
+      "adaptation": "Two distinct roles: Naveen at hospital, Babloo in society",
+      "status": "MAPPED_PROPOSAL"
+    },
+    {
+      "sourceBeat": "Errand completed imperfectly",
+      "adaptedTo": "M3-04/M3-11",
+      "adaptation": "Missing page in hospital, missing packet at home; distinct reasons",
+      "status": "MAPPED_PROPOSAL"
+    },
+    {
+      "sourceBeat": "Second visit / return",
+      "adaptedTo": "M3-04/M3-13",
+      "adaptation": "Naveen returns same shift; Babloo returns that evening",
+      "status": "MAPPED_PROPOSAL"
+    },
+    {
+      "sourceBeat": "Home private life and modesty",
+      "adaptedTo": "M3-12",
+      "adaptation": "Clothing and privacy chosen by Meenakshi, no child implicated",
+      "status": "MAPPED_PROPOSAL"
+    },
+    {
+      "sourceBeat": "Ending at second doorbell",
+      "adaptedTo": "M3-13",
+      "adaptation": "Same-evening cliffhanger",
+      "status": "MAPPED_PROPOSAL"
+    },
+    {
+      "sourceBeat": "Original EP04 starts same evening, later next morning",
+      "adaptedTo": "next episode",
+      "adaptation": "Do not move Dhika's next day into EP03 or confuse with Society Wives Jan2",
+      "status": "MAPPED_PROPOSAL"
+    }
+  ],
+  "beatCount": 60,
+  "futureEpisodeBoundary": {
+    "sameEveningContinuation": "2026-01-02 after 18:20, if approved for next episode",
+    "firstPotentialNextMorning": "2026-01-03 Saturday, NOT in this episode",
+    "note": "The original Dhika EP04 crosses day only within EP04; Society Wives can follow analogous relative beat sequence but cannot import exact original dates."
+  },
+  "decisionPoints": [
+    "Confirm that Meenakshi's Jan2 clinic work permits the 15:05–16:15 vendor trip (currently a plotted logical reason).",
+    "Decide whether Aditi is only witty observer/confidante or has her own future flirtation thread; no sexual interest assumed now.",
+    "Decide if Naveen's deeper family/work backstory should be developed; do not invent unsupported source-canon facts.",
+    "Decide whether to extend society twins to their own later mini-arc, avoiding a second ride on the same evening."
+  ],
+  "editHistory": [
+    {
+      "date": "2026-11-13",
+      "change": "Expanded existing M08-only Episode 03 file into multi-scene, source-beat-mapped planning draft; original M08 identity/time/status retained."
+    }
+  ]
 }
