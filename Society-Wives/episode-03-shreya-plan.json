@@ -1,0 +1,192 @@
+{
+  "schemaVersion": "1.0",
+  "id": "shreya-episode-03-plan",
+  "episode": 3,
+  "title": "Society Wives — Shreya Episode 03 (Deferred scenes)",
+  "date": "2026-01-03",
+  "weekday": "Saturday",
+  "timezone": "Asia/Kolkata",
+  "lead": "shreya",
+  "leadName": "Shreya",
+  "status": "USER_RESERVED_2026-01-03; WORKING_PLOT_ONLY; NO PROSE PUBLISHED",
+  "continuityFrom": {
+    "sourceEpisode": 2,
+    "sourceDate": "2026-01-01",
+    "sourceFile": "./episode-02-shreya-plan.json",
+    "storyClosesAt": "10:15",
+    "lastPublishedScene": "SR09",
+    "lastPublishedTitle": "Inspector Chauhan’s Distracted Attention",
+    "condition": "No additional Shreya scenes in Episode 02 after SR09; preserve all published prose and first/top uniform button being open through SR09; no wardrobe carry-forward to Jan 3 without explicit new continuity."
+  },
+  "timeline": [
+    {
+      "id": "SR10",
+      "start": "10:30",
+      "end": "11:10",
+      "lane": "OFFICE",
+      "location": "Police station team briefing room",
+      "title": "ACP's unusual preference",
+      "characters": [
+        "shreya",
+        "acp",
+        "shreya_woman_03"
+      ],
+      "summary": "ACP Verma (50) repeatedly asks Shreya for an individual briefing rather than the normal group one. Poonam notices the change.",
+      "beats": [
+        "This is observable preferential attention, not an approved romantic relationship.",
+        "Shreya maintains normal transparent reporting with her team."
+      ],
+      "dialogue": [
+        [
+          "ACP Verma (50, senior official)",
+          "Inspector, is point par mujhe separately brief kar dijiye."
+        ],
+        [
+          "Shreya",
+          "Ji sir, Poonam ke relevant logs ke saath report le aati hoon."
+        ]
+      ],
+      "notes": [
+        "User-directed: moved from Jan 1 Episode 02 to Jan 3 Episode 03. Do not publish as Jan 1. Time windows are placeholders pending Jan 3 global clock reconciliation."
+      ],
+      "approval": "USER_DEFERRED_TO_EP03_WORKING_PLOT",
+      "date": "2026-01-03",
+      "weekday": "Saturday",
+      "episode": 3,
+      "scheduling": "DEFERRED_FROM_EP02_TO_2026-01-03; PROVISIONAL_TIME_WINDOWS"
+    },
+    {
+      "id": "SR11",
+      "start": "11:30",
+      "end": "11:40",
+      "lane": "OFFICE",
+      "location": "District police reporting area",
+      "title": "The DCP review",
+      "characters": [
+        "shreya",
+        "dcp"
+      ],
+      "summary": "DCP Rathod (58) completes a performance review; any private attraction remains an unconfirmed future proposal.",
+      "beats": [
+        "Do not silently canonize DCP attraction as established; observe before escalating."
+      ],
+      "dialogue": [
+        [
+          "DCP Rathod (58, senior official)",
+          "Good documentation, Inspector."
+        ],
+        [
+          "Shreya",
+          "Thank you, sir. Originals preserve kiye hain."
+        ]
+      ],
+      "notes": [
+        "User-directed: moved from Jan 1 Episode 02 to Jan 3 Episode 03. Do not publish as Jan 1. Time windows are placeholders pending Jan 3 global clock reconciliation."
+      ],
+      "approval": "USER_DEFERRED_TO_EP03_WORKING_PLOT",
+      "date": "2026-01-03",
+      "weekday": "Saturday",
+      "episode": 3,
+      "scheduling": "DEFERRED_FROM_EP02_TO_2026-01-03; PROVISIONAL_TIME_WINDOWS"
+    },
+    {
+      "id": "SR12",
+      "start": "11:40",
+      "end": "12:15",
+      "lane": "OFFICE",
+      "location": "Authorized interview room",
+      "title": "The cellblock bet",
+      "characters": [
+        "shreya",
+        "inmate_a",
+        "inmate_b"
+      ],
+      "summary": "Two adult inmates privately bet that one can win Shreya's personal attention through charm and flattery during authorized questioning.",
+      "beats": [
+        "Both inmates are adults; no sexual relationship occurs in custody.",
+        "Shreya identifies and redirects personal questions, maintaining police boundaries.",
+        "The bet is unknown to Shreya, but known to the reader; future consequence is a manipulation attempt, not romance."
+      ],
+      "dialogue": [
+        [
+          "Adult inmate (30)",
+          "Madam, aap duty ke bahar bhi itni strict hain?"
+        ],
+        [
+          "Shreya",
+          "Yahaan sawaal case ke hain. Personal life ke nahi."
+        ]
+      ],
+      "notes": [
+        "User-directed: moved from Jan 1 Episode 02 to Jan 3 Episode 03. Do not publish as Jan 1. Time windows are placeholders pending Jan 3 global clock reconciliation."
+      ],
+      "approval": "USER_DEFERRED_TO_EP03_WORKING_PLOT",
+      "date": "2026-01-03",
+      "weekday": "Saturday",
+      "episode": 3,
+      "scheduling": "DEFERRED_FROM_EP02_TO_2026-01-03; PROVISIONAL_TIME_WINDOWS"
+    },
+    {
+      "id": "SR13",
+      "start": "12:20",
+      "end": "13:15",
+      "lane": "OFFICE",
+      "location": "Police station records desk",
+      "title": "A pattern Poonam notices",
+      "characters": [
+        "shreya",
+        "chauhan",
+        "shreya_woman_03"
+      ],
+      "summary": "Shreya returns to paperwork. Poonam quietly flags Chauhan's unusual invitations and the changes in officer attention.",
+      "beats": [
+        "A small documentation discrepancy and Poonam's observation create future investigation hooks.",
+        "Shreya does not discover Arvind's gym bag intrusion or the inmates' private bet before the cutoff.",
+        "No return-home or evening scenes are written yet."
+      ],
+      "dialogue": [
+        [
+          "Poonam (29, Sub-Inspector)",
+          "Ma'am, yeh follow-up request routine se alag hai."
+        ],
+        [
+          "Shreya",
+          "Noted. Process mein hi handle karenge."
+        ]
+      ],
+      "notes": [
+        "User-directed: moved from Jan 1 Episode 02 to Jan 3 Episode 03. Do not publish as Jan 1. Time windows are placeholders pending Jan 3 global clock reconciliation."
+      ],
+      "approval": "USER_DEFERRED_TO_EP03_WORKING_PLOT",
+      "date": "2026-01-03",
+      "weekday": "Saturday",
+      "episode": 3,
+      "scheduling": "DEFERRED_FROM_EP02_TO_2026-01-03; PROVISIONAL_TIME_WINDOWS"
+    }
+  ],
+  "characterSeeds": [
+    {
+      "id": "SHREYA_CHINTU_ARC",
+      "lead": "shreya",
+      "counterpart": "chintu",
+      "age": 23,
+      "earliestEpisode": "03",
+      "status": "USER_RESERVED_2026-01-03_NOT_WRITTEN",
+      "desiredArc": "Chintu becomes a recurring young adult confidant / admiring society helper for Shreya, analogous in narrative role to Dhika's Chotu. Build encounters and trust gradually; no events from Dhika automatically imported.",
+      "constraints": [
+        "Distinct characters: Chintu (23) is not Dhika's Chotu.",
+        "Do not write Chintu into current EP02 SR04.",
+        "Adult, consensual, standalone character progression.",
+        "Plan encounter history before escalating or claiming any relationship."
+      ],
+      "date": "2026-01-03"
+    }
+  ],
+  "schedulingNotes": [
+    "Scene order SR10–SR13 preserved for continuity; 10:30–13:15 times are provisional Jan 3 planning slots, not new approved prose.",
+    "Resolve Jan 3 across all women and shared cast before writing; do not reuse Jan 1 cross-house locks as Jan 3 facts.",
+    "Jan 2 has no new Shreya scenes authored or implied.",
+    "Chintu's next-episode role is a separate planned encounter arc, not part of the completed Jan 1 Episode 02.",
+    "No publishing or extending Episode 02 beyond Jan 1 10:15 AM."
+  ]
+}
