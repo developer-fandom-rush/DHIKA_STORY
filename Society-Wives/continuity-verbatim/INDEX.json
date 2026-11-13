@@ -45,6 +45,38 @@
       "Taniya and Soniya TS12, TS13, TS14, TS15, TS16 plan scenes do not have full published prose.",
       "Ankita A05 and other published review drafts are included verbatim but not granted approval by this archive.",
       "Shivani published-only scenes are included verbatim; published is not automatically user-approved."
+    ],
+    "approvedOnlyFiles": [
+      {
+        "female": "Ankita",
+        "path": "Society-Wives/continuity-verbatim/episode-02-APPROVED/ankita.json",
+        "raw_url": "https://raw.githubusercontent.com/developer-fandom-rush/DHIKA_STORY/main/Society-Wives/continuity-verbatim/episode-02-APPROVED/ankita.json"
+      },
+      {
+        "female": "Shivani",
+        "path": "Society-Wives/continuity-verbatim/episode-02-APPROVED/shivani.json",
+        "raw_url": "https://raw.githubusercontent.com/developer-fandom-rush/DHIKA_STORY/main/Society-Wives/continuity-verbatim/episode-02-APPROVED/shivani.json"
+      },
+      {
+        "female": "Taniya",
+        "path": "Society-Wives/continuity-verbatim/episode-02-APPROVED/taniya.json",
+        "raw_url": "https://raw.githubusercontent.com/developer-fandom-rush/DHIKA_STORY/main/Society-Wives/continuity-verbatim/episode-02-APPROVED/taniya.json"
+      },
+      {
+        "female": "Soniya",
+        "path": "Society-Wives/continuity-verbatim/episode-02-APPROVED/soniya.json",
+        "raw_url": "https://raw.githubusercontent.com/developer-fandom-rush/DHIKA_STORY/main/Society-Wives/continuity-verbatim/episode-02-APPROVED/soniya.json"
+      },
+      {
+        "female": "Meenakshi",
+        "path": "Society-Wives/continuity-verbatim/episode-02-APPROVED/meenakshi.json",
+        "raw_url": "https://raw.githubusercontent.com/developer-fandom-rush/DHIKA_STORY/main/Society-Wives/continuity-verbatim/episode-02-APPROVED/meenakshi.json"
+      },
+      {
+        "female": "Shreya",
+        "path": "Society-Wives/continuity-verbatim/episode-02-APPROVED/shreya.json",
+        "raw_url": "https://raw.githubusercontent.com/developer-fandom-rush/DHIKA_STORY/main/Society-Wives/continuity-verbatim/episode-02-APPROVED/shreya.json"
+      }
     ]
   },
   "episode01": {
@@ -87,6 +119,7 @@
   "queryProtocol": {
     "goal": "Use exact source wording, not summaries or assumptions.",
     "order": [
+      "For a new chat's normal APPROVED CANON question, first open episode02.approvedOnlyFiles for the requested female; use episode02.files only when the user explicitly includes working drafts or wants published-but-not-approved material.",
       "Use PAIR-LOOKUP.json for an initial female + named character lookup; locate every cited source scene.",
       "When the person is a dialogue speaker, consult SPEAKER-LOOKUP.json for exact source speaker labels and line IDs, including labels not resolved by the directory.",
       "Read the requested female's episode-specific JSON.",
@@ -122,6 +155,8 @@
     "episode01": "Six draft-only JSONs were read back against episode-01.json, with exact source JSON scene-object reconstruction.",
     "episode02UniqueSourceScenes": 67,
     "episode02ArchivedSceneRecordsIncludingSharedSistersDuplication": 85,
-    "indexedProseBlocksAcrossFemaleFilesIncludingSharedSistersDuplication": 2453
-  }
+    "indexedProseBlocksAcrossFemaleFilesIncludingSharedSistersDuplication": 2453,
+    "strictApprovedOnlyFiles": 6
+  },
+  "preferredDefault": "episode02.approvedOnlyFiles for approved-canon continuity. episode02.files retains every published scene including unapproved drafts with exact separate status."
 }
