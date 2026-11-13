@@ -318,7 +318,8 @@
       "detail": "Privacy breach; he is interrupted and leaves without properly securing the locker. Meenakshi is absent and does not consent.",
       "approval": "WORKING_PLOT_UNAPPROVED",
       "notes": [
-        "No explicit sexual detail or unapproved physical encounter."
+        "No explicit sexual detail or unapproved physical encounter.",
+        "M09 remains plot-only; M10–M12 drafted as direct aftermath, with first scene establishing unsecured locker at 12:36."
       ]
     },
     {
@@ -330,11 +331,14 @@
       "characters": [
         "kunal"
       ],
-      "title": "Kunal finds the locker open",
-      "summary": "Kunal notices the unsecured locker and intrudes into Meenakshi's personal belongings.",
-      "detail": "Second distinct privacy violation; items are left disturbed. Meenakshi remains unaware.",
-      "approval": "WORKING_PLOT_UNAPPROVED",
-      "notes": []
+      "title": "Kunal Finds the Locker Open — Personal Boundaries Crossed",
+      "summary": "After Ritesh's 12:35 departure Kunal spots Meenakshi's unsecured locker, opens it further without permission, disturbs folded clothing and personal belongings and leaves it incompletely latched.",
+      "detail": "12:36–12:50. Kunal recognizes Meenakshi's nameplate and sees latch not engaged. He could report to security but instead checks the locker himself, moves cardigan and other personal items, fails to restore their exact arrangement and leaves without a report. Meenakshi absent. 2–5 line visual staging insert reserved for external editorial review; not yet part of approved prose.",
+      "approval": "PROSE_DRAFT_PUBLISHED_PENDING_USER_REVIEW",
+      "notes": [
+        "M10 prose published in unified and standalone reader, visual mechanics placeholder marked for Grok; no source approval yet."
+      ],
+      "publishedPath": "episode-02.html?tab=meenakshi-m01#meenakshi-m10-story"
     },
     {
       "id": "M11",
@@ -345,11 +349,14 @@
       "characters": [
         "khurana"
       ],
-      "title": "Khurana closes the locker",
-      "summary": "Khurana discovers the locker left open, observes evidence of interference, rearranges the belongings and closes it.",
-      "detail": "He does not report the incident, forming a separate secret. Do not imply Meenakshi approved any access.",
-      "approval": "WORKING_PLOT_UNAPPROVED",
-      "notes": []
+      "title": "Khurana Closes the Locker — The Unreported Clue",
+      "summary": "Khurana spots a slightly open locker in the staff passage; he notices displacement, pushes items back and closes it without making a security report.",
+      "detail": "12:51–13:05. Chairman Khurana notices a partly ajar door, recognizes Meenakshi's label and rearranges visible displaced clothing and a pouch. He does not know who accessed it earlier, does not report, and cannot confirm the lock is engaged. 2–5 line visual staging insert reserved for external editorial review.",
+      "approval": "PROSE_DRAFT_PUBLISHED_PENDING_USER_REVIEW",
+      "notes": [
+        "M11 prose published in unified and standalone reader, visual mechanics placeholder marked for Grok; no source approval yet."
+      ],
+      "publishedPath": "episode-02.html?tab=meenakshi-m01#meenakshi-m11-story"
     },
     {
       "id": "M12",
@@ -360,13 +367,15 @@
       "characters": [
         "meenakshi"
       ],
-      "title": "Unease at the locker",
-      "summary": "Meenakshi notices some belongings seem displaced.",
-      "detail": "She cannot identify who entered or what occurred. POV ends at 13:15 with no evening scene.",
-      "approval": "WORKING_PLOT_UNAPPROVED",
+      "title": "Meenakshi's Unease — The Episode 02 Cutoff",
+      "summary": "Meenakshi returns to her locker at 13:10, notices the changed fold, shifted pouch and unusual latch, photographs its condition and leaves uncertain who interfered. Her POV ends at 13:15.",
+      "detail": "13:10–13:15. Earlier 09:05 lock check is remembered. She sees cardigan and bag arrangement altered, does not identify a culprit or connect to Harish/Sunil yet. No missing item is conclusively established. She records visual condition, closes locker and takes key. Do not continue beyond 13:15 on 1 Jan. 2–5 line visual staging insert reserved for external review.",
+      "approval": "PROSE_DRAFT_PUBLISHED_PENDING_USER_REVIEW",
       "notes": [
-        "STOP: do not generate evening surprise, homecoming or disclosure."
-      ]
+        "STOP: do not generate evening surprise, homecoming or disclosure.",
+        "M12 prose published in unified and standalone reader, visual mechanics placeholder marked for Grok; no source approval yet."
+      ],
+      "publishedPath": "episode-02.html?tab=meenakshi-m01#meenakshi-m12-story"
     }
   ],
   "secrets": [
@@ -472,12 +481,12 @@
     "Mohan is an unrelated household guest (not FIL); old-age-home backstory withheld from reader-facing M01."
   ],
   "cutoff": "2026-01-01T13:15:00",
-  "next": "M08 Senior Review moved to 2 Jan Episode 03. EP02 resumes after M07 at M09 (Ritesh locker breach), followed by M10–M12. M01–M05 approved; M06–M07 review pending.",
+  "next": "M08 moved to Episode 03, 2 January 2026. M09 prose still pending. M10–M12 drafted for user review, with 2–5 line visual insertion slots awaiting external supply. Stop Meenakshi POV at 13:15.",
   "publishedM01Extension": "episode-02-meenakshi-m01.html#m01-f02",
   "publishedM02M03": "episode-02-meenakshi-m02-m03.html",
   "publishedM04M05": "episode-02.html?tab=meenakshi-m01#meenakshi-m05-story",
   "confirmedApprovedThrough": "M05",
-  "currentProseCutoff": "M07 — 10:45",
+  "currentProseCutoff": "M12 2026-01-01T13:15",
   "revisedReviewText": "episode-02-meenakshi-m06-m07-review.txt",
   "deferredToNextDay": [
     {
@@ -488,5 +497,6 @@
       "previously": "2026-01-01T11:00–11:40",
       "status": "USER_DIRECTED_MOVE"
     }
-  ]
+  ],
+  "publishedM10M12": "episode-02.html?tab=meenakshi-m01#meenakshi-m10-story"
 }
