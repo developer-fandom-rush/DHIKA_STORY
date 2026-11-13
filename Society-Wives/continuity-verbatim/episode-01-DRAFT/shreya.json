@@ -1,0 +1,1190 @@
+{
+  "schema": "verbatim-entity-continuity-v1",
+  "series": "Society Wives — Five Veils of Desire",
+  "episode": "01",
+  "lead": "Shreya",
+  "approval_status_exact": "EP01_PROLOGUE_DRAFT_FOR_REVIEW__SHIVANI_COLLEGE_CORRECTION_APPLIED__NOT_APPROVED",
+  "WARNING": "EPISODE 01 SOURCE ITSELF SAYS NOT APPROVED. These are preserved source drafts and must not be presented as approved canon.",
+  "update_rule": "Only update after an episode and when the user explicitly says to update the JSON.",
+  "fidelity": "source_json_lines_exact joined with newline reconstructs the original scene object byte-for-byte; complete_source_object text values are unchanged.",
+  "source": {
+    "repository": "developer-fandom-rush/DHIKA_STORY",
+    "path": "Society-Wives/episode-01.json",
+    "blob_sha": "9ec9f7ccad1691f4408dcfa3fd91bf0f6e2f9214"
+  },
+  "scenes": [
+    {
+      "scene_id": "S05",
+      "lead_exact": "Shreya",
+      "title_exact": "Off duty for eleven minutes",
+      "source_position": {
+        "start": 9320,
+        "end": 10807
+      },
+      "source_json_lines_exact": [
+        "{",
+        "      \"id\": \"S05\",",
+        "      \"time\": \"08:00\",",
+        "      \"lane\": \"Society — Shreya\",",
+        "      \"lead\": \"Shreya\",",
+        "      \"location\": \"Tower C · entrance\",",
+        "      \"title\": \"Off duty for eleven minutes\",",
+        "      \"narration\": [",
+        "        \"Shreya heads toward the station in a crisp practical outfit. Vikram helps Anaya with her school bag and jokes that his wife is already inspecting the society gate.\",",
+        "        \"Chintu, the society security operations helper, reports an entry-register inconsistency. Shreya explains a process rather than giving him orders. He admires her discipline, but no attraction is established.\"",
+        "      ],",
+        "      \"dialogue\": [",
+        "        {",
+        "          \"speaker\": \"Vikram\",",
+        "          \"line\": \"Inspector madam, breakfast is not an official inquiry.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Shreya\",",
+        "          \"line\": \"It is when someone stole the last toast.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Vikram\",",
+        "          \"line\": \"Anaya will never confess.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Chintu\",",
+        "          \"line\": \"Madam, yesterday's visitor record has a mismatch.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Shreya\",",
+        "          \"line\": \"Write down the vehicle number, don't guess. We can review it tonight.\"",
+        "        }",
+        "      ],",
+        "      \"internal\": [",
+        "        \"Shreya values her husband's humour. She likes being respected in the society, but she is not interested in being admired merely for her uniform.\"",
+        "      ],",
+        "      \"signalIds\": [",
+        "        \"L08\",",
+        "        \"L09\"",
+        "      ]",
+        "    }"
+      ],
+      "prose_line_records": [
+        {
+          "id": "S05-L001",
+          "kind": "narration",
+          "text_exact": "Shreya heads toward the station in a crisp practical outfit. Vikram helps Anaya with her school bag and jokes that his wife is already inspecting the society gate.",
+          "speaker_exact": null,
+          "explicit_names": [
+            "Vikram",
+            "Anaya",
+            "Shreya"
+          ]
+        },
+        {
+          "id": "S05-L002",
+          "kind": "narration",
+          "text_exact": "Chintu, the society security operations helper, reports an entry-register inconsistency. Shreya explains a process rather than giving him orders. He admires her discipline, but no attraction is established.",
+          "speaker_exact": null,
+          "explicit_names": [
+            "Chintu",
+            "Shreya"
+          ]
+        },
+        {
+          "id": "S05-L003",
+          "kind": "dialogue",
+          "text_exact": "Inspector madam, breakfast is not an official inquiry.",
+          "speaker_exact": "Vikram",
+          "explicit_names": [
+            "Vikram"
+          ]
+        },
+        {
+          "id": "S05-L004",
+          "kind": "dialogue",
+          "text_exact": "It is when someone stole the last toast.",
+          "speaker_exact": "Shreya",
+          "explicit_names": [
+            "Shreya"
+          ]
+        },
+        {
+          "id": "S05-L005",
+          "kind": "dialogue",
+          "text_exact": "Anaya will never confess.",
+          "speaker_exact": "Vikram",
+          "explicit_names": [
+            "Vikram",
+            "Anaya"
+          ]
+        },
+        {
+          "id": "S05-L006",
+          "kind": "dialogue",
+          "text_exact": "Madam, yesterday's visitor record has a mismatch.",
+          "speaker_exact": "Chintu",
+          "explicit_names": [
+            "Chintu"
+          ]
+        },
+        {
+          "id": "S05-L007",
+          "kind": "dialogue",
+          "text_exact": "Write down the vehicle number, don't guess. We can review it tonight.",
+          "speaker_exact": "Shreya",
+          "explicit_names": [
+            "Shreya"
+          ]
+        },
+        {
+          "id": "S05-L008",
+          "kind": "internal",
+          "text_exact": "Shreya values her husband's humour. She likes being respected in the society, but she is not interested in being admired merely for her uniform.",
+          "speaker_exact": null,
+          "explicit_names": [
+            "Shreya"
+          ]
+        }
+      ],
+      "complete_source_object": {
+        "id": "S05",
+        "time": "08:00",
+        "lane": "Society — Shreya",
+        "lead": "Shreya",
+        "location": "Tower C · entrance",
+        "title": "Off duty for eleven minutes",
+        "narration": [
+          "Shreya heads toward the station in a crisp practical outfit. Vikram helps Anaya with her school bag and jokes that his wife is already inspecting the society gate.",
+          "Chintu, the society security operations helper, reports an entry-register inconsistency. Shreya explains a process rather than giving him orders. He admires her discipline, but no attraction is established."
+        ],
+        "dialogue": [
+          {
+            "speaker": "Vikram",
+            "line": "Inspector madam, breakfast is not an official inquiry."
+          },
+          {
+            "speaker": "Shreya",
+            "line": "It is when someone stole the last toast."
+          },
+          {
+            "speaker": "Vikram",
+            "line": "Anaya will never confess."
+          },
+          {
+            "speaker": "Chintu",
+            "line": "Madam, yesterday's visitor record has a mismatch."
+          },
+          {
+            "speaker": "Shreya",
+            "line": "Write down the vehicle number, don't guess. We can review it tonight."
+          }
+        ],
+        "internal": [
+          "Shreya values her husband's humour. She likes being respected in the society, but she is not interested in being admired merely for her uniform."
+        ],
+        "signalIds": [
+          "L08",
+          "L09"
+        ]
+      },
+      "approved_by_source": false,
+      "integrity": {
+        "source_char_length": 1487,
+        "raw_reconstruction_verified": true
+      }
+    },
+    {
+      "scene_id": "S10",
+      "lead_exact": "Shreya",
+      "title_exact": "Command without raising her voice",
+      "source_position": {
+        "start": 18328,
+        "end": 19870
+      },
+      "source_json_lines_exact": [
+        "{",
+        "      \"id\": \"S10\",",
+        "      \"time\": \"11:30\",",
+        "      \"lane\": \"Workplace — Shreya\",",
+        "      \"lead\": \"Shreya\",",
+        "      \"location\": \"Police station · briefing room\",",
+        "      \"title\": \"Command without raising her voice\",",
+        "      \"narration\": [",
+        "        \"Shreya reviews a duty report while Poonam, a fellow officer, checks the timeline. Javed has prepared the incident summary. Inspector Chauhan joins the briefing, questioning a procedural gap.\",",
+        "        \"Chauhan notices Shreya's quick reasoning and calm authority. Shreya respects his discipline. Any further interest is only a quiet possibility, and their work hierarchy cannot be ignored.\"",
+        "      ],",
+        "      \"dialogue\": [",
+        "        {",
+        "          \"speaker\": \"Poonam\",",
+        "          \"line\": \"The entry time differs from the first statement.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Shreya\",",
+        "          \"line\": \"Good catch. Flag it, don't overwrite it.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Chauhan\",",
+        "          \"line\": \"That was the right call.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Shreya\",",
+        "          \"line\": \"The file must tell the truth, even if the truth is inconvenient.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Javed\",",
+        "          \"line\": \"I'll attach both reports.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Shreya\",",
+        "          \"line\": \"Do that. Keep the original too.\"",
+        "        }",
+        "      ],",
+        "      \"internal\": [",
+        "        \"Shreya registers Chauhan's unusual approval but is much more interested in finishing the case correctly.\"",
+        "      ],",
+        "      \"signalIds\": [",
+        "        \"L21\",",
+        "        \"L22\"",
+        "      ]",
+        "    }"
+      ],
+      "prose_line_records": [
+        {
+          "id": "S10-L001",
+          "kind": "narration",
+          "text_exact": "Shreya reviews a duty report while Poonam, a fellow officer, checks the timeline. Javed has prepared the incident summary. Inspector Chauhan joins the briefing, questioning a procedural gap.",
+          "speaker_exact": null,
+          "explicit_names": [
+            "Javed",
+            "Inspector Chauhan",
+            "Poonam",
+            "Shreya"
+          ]
+        },
+        {
+          "id": "S10-L002",
+          "kind": "narration",
+          "text_exact": "Chauhan notices Shreya's quick reasoning and calm authority. Shreya respects his discipline. Any further interest is only a quiet possibility, and their work hierarchy cannot be ignored.",
+          "speaker_exact": null,
+          "explicit_names": [
+            "Shreya"
+          ]
+        },
+        {
+          "id": "S10-L003",
+          "kind": "dialogue",
+          "text_exact": "The entry time differs from the first statement.",
+          "speaker_exact": "Poonam",
+          "explicit_names": [
+            "Poonam"
+          ]
+        },
+        {
+          "id": "S10-L004",
+          "kind": "dialogue",
+          "text_exact": "Good catch. Flag it, don't overwrite it.",
+          "speaker_exact": "Shreya",
+          "explicit_names": [
+            "Shreya"
+          ]
+        },
+        {
+          "id": "S10-L005",
+          "kind": "dialogue",
+          "text_exact": "That was the right call.",
+          "speaker_exact": "Chauhan",
+          "explicit_names": []
+        },
+        {
+          "id": "S10-L006",
+          "kind": "dialogue",
+          "text_exact": "The file must tell the truth, even if the truth is inconvenient.",
+          "speaker_exact": "Shreya",
+          "explicit_names": [
+            "Shreya"
+          ]
+        },
+        {
+          "id": "S10-L007",
+          "kind": "dialogue",
+          "text_exact": "I'll attach both reports.",
+          "speaker_exact": "Javed",
+          "explicit_names": [
+            "Javed"
+          ]
+        },
+        {
+          "id": "S10-L008",
+          "kind": "dialogue",
+          "text_exact": "Do that. Keep the original too.",
+          "speaker_exact": "Shreya",
+          "explicit_names": [
+            "Shreya"
+          ]
+        },
+        {
+          "id": "S10-L009",
+          "kind": "internal",
+          "text_exact": "Shreya registers Chauhan's unusual approval but is much more interested in finishing the case correctly.",
+          "speaker_exact": null,
+          "explicit_names": [
+            "Shreya"
+          ]
+        }
+      ],
+      "complete_source_object": {
+        "id": "S10",
+        "time": "11:30",
+        "lane": "Workplace — Shreya",
+        "lead": "Shreya",
+        "location": "Police station · briefing room",
+        "title": "Command without raising her voice",
+        "narration": [
+          "Shreya reviews a duty report while Poonam, a fellow officer, checks the timeline. Javed has prepared the incident summary. Inspector Chauhan joins the briefing, questioning a procedural gap.",
+          "Chauhan notices Shreya's quick reasoning and calm authority. Shreya respects his discipline. Any further interest is only a quiet possibility, and their work hierarchy cannot be ignored."
+        ],
+        "dialogue": [
+          {
+            "speaker": "Poonam",
+            "line": "The entry time differs from the first statement."
+          },
+          {
+            "speaker": "Shreya",
+            "line": "Good catch. Flag it, don't overwrite it."
+          },
+          {
+            "speaker": "Chauhan",
+            "line": "That was the right call."
+          },
+          {
+            "speaker": "Shreya",
+            "line": "The file must tell the truth, even if the truth is inconvenient."
+          },
+          {
+            "speaker": "Javed",
+            "line": "I'll attach both reports."
+          },
+          {
+            "speaker": "Shreya",
+            "line": "Do that. Keep the original too."
+          }
+        ],
+        "internal": [
+          "Shreya registers Chauhan's unusual approval but is much more interested in finishing the case correctly."
+        ],
+        "signalIds": [
+          "L21",
+          "L22"
+        ]
+      },
+      "approved_by_source": false,
+      "integrity": {
+        "source_char_length": 1542,
+        "raw_reconstruction_verified": true
+      }
+    },
+    {
+      "scene_id": "S12",
+      "lead_exact": "Shared",
+      "title_exact": "Five people, five versions of the evening",
+      "source_position": {
+        "start": 21381,
+        "end": 24117
+      },
+      "source_json_lines_exact": [
+        "{",
+        "      \"id\": \"S12\",",
+        "      \"time\": \"19:25\",",
+        "      \"lane\": \"Crossover — Shared Society\",",
+        "      \"lead\": \"Shared\",",
+        "      \"location\": \"Gulmohar Heights · courtyard\",",
+        "      \"title\": \"Five people, five versions of the evening\",",
+        "      \"narration\": [",
+        "        \"Sharmi's event message brings the five women to the courtyard at staggered moments. Ankita arrives from office, Shivani after checking Tara's dinner, Taniya with a wedding-planning call still pending, Meenakshi after her hospital shift, and Shreya after changing out of her work clothes.\",",
+        "        \"Mahendra Suri introduces the community-week schedule. Rohan and Kabir arrive as spouses, Nikhil checks on Meenakshi, and Vikram offers to organise safety volunteers. Aditya joins by phone because he is not yet part of Taniya's household. Soniya and Rahul stop by on their way home.\",",
+        "        \"Rajeev briefly notices Shivani's graceful confidence while she manages the noticeboard. She is unaware of this fleeting attention. Rahul admires Ankita's quick problem-solving and privately wonders about getting to know her better outside a group setting; Ankita interprets his comments as routine courtesy. Neither thought is treated as a mutual relationship.\"",
+        "      ],",
+        "      \"dialogue\": [",
+        "        {",
+        "          \"speaker\": \"Sharmi\",",
+        "          \"line\": \"I need five different brains, not five people agreeing with Mahendra-ji.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Mahendra\",",
+        "          \"line\": \"I heard that.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Ankita\",",
+        "          \"line\": \"I'll handle registrations if the data is actually organised.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Shivani\",",
+        "          \"line\": \"I'll coordinate the children's programme.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Taniya\",",
+        "          \"line\": \"Accounts and vendor payments are mine.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Meenakshi\",",
+        "          \"line\": \"I'll check the health-camp requirements.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Shreya\",",
+        "          \"line\": \"And please, one actual entry register for volunteers.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Rahul\",",
+        "          \"line\": \"That sounds like the most efficient committee in Gurgaon.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Ankita\",",
+        "          \"line\": \"Ask us again after the first spreadsheet.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Rohan\",",
+        "          \"line\": \"I'm keeping the first-aid kit for the committee debates.\"",
+        "        }",
+        "      ],",
+        "      \"internal\": [",
+        "        \"Everyone enjoys the comfortable group atmosphere. Several private impressions coexist, but no woman is obligated to recognise or return any man's interest.\"",
+        "      ],",
+        "      \"signalIds\": [",
+        "        \"L24\",",
+        "        \"L25\",",
+        "        \"L26\",",
+        "        \"L27\"",
+        "      ]",
+        "    }"
+      ],
+      "prose_line_records": [
+        {
+          "id": "S12-L001",
+          "kind": "narration",
+          "text_exact": "Sharmi's event message brings the five women to the courtyard at staggered moments. Ankita arrives from office, Shivani after checking Tara's dinner, Taniya with a wedding-planning call still pending, Meenakshi after her hospital shift, and Shreya after changing out of her work clothes.",
+          "speaker_exact": null,
+          "explicit_names": [
+            "Tara",
+            "Sharmi",
+            "Ankita",
+            "Shivani",
+            "Taniya",
+            "Meenakshi",
+            "Shreya"
+          ]
+        },
+        {
+          "id": "S12-L002",
+          "kind": "narration",
+          "text_exact": "Mahendra Suri introduces the community-week schedule. Rohan and Kabir arrive as spouses, Nikhil checks on Meenakshi, and Vikram offers to organise safety volunteers. Aditya joins by phone because he is not yet part of Taniya's household. Soniya and Rahul stop by on their way home.",
+          "speaker_exact": null,
+          "explicit_names": [
+            "Kabir",
+            "Rohan",
+            "Aditya",
+            "Soniya",
+            "Rahul",
+            "Nikhil",
+            "Vikram",
+            "Mahendra Suri",
+            "Taniya",
+            "Meenakshi"
+          ]
+        },
+        {
+          "id": "S12-L003",
+          "kind": "narration",
+          "text_exact": "Rajeev briefly notices Shivani's graceful confidence while she manages the noticeboard. She is unaware of this fleeting attention. Rahul admires Ankita's quick problem-solving and privately wonders about getting to know her better outside a group setting; Ankita interprets his comments as routine courtesy. Neither thought is treated as a mutual relationship.",
+          "speaker_exact": null,
+          "explicit_names": [
+            "Rajeev",
+            "Rahul",
+            "Ankita",
+            "Shivani"
+          ]
+        },
+        {
+          "id": "S12-L004",
+          "kind": "dialogue",
+          "text_exact": "I need five different brains, not five people agreeing with Mahendra-ji.",
+          "speaker_exact": "Sharmi",
+          "explicit_names": [
+            "Sharmi"
+          ]
+        },
+        {
+          "id": "S12-L005",
+          "kind": "dialogue",
+          "text_exact": "I heard that.",
+          "speaker_exact": "Mahendra",
+          "explicit_names": []
+        },
+        {
+          "id": "S12-L006",
+          "kind": "dialogue",
+          "text_exact": "I'll handle registrations if the data is actually organised.",
+          "speaker_exact": "Ankita",
+          "explicit_names": [
+            "Ankita"
+          ]
+        },
+        {
+          "id": "S12-L007",
+          "kind": "dialogue",
+          "text_exact": "I'll coordinate the children's programme.",
+          "speaker_exact": "Shivani",
+          "explicit_names": [
+            "Shivani"
+          ]
+        },
+        {
+          "id": "S12-L008",
+          "kind": "dialogue",
+          "text_exact": "Accounts and vendor payments are mine.",
+          "speaker_exact": "Taniya",
+          "explicit_names": [
+            "Taniya"
+          ]
+        },
+        {
+          "id": "S12-L009",
+          "kind": "dialogue",
+          "text_exact": "I'll check the health-camp requirements.",
+          "speaker_exact": "Meenakshi",
+          "explicit_names": [
+            "Meenakshi"
+          ]
+        },
+        {
+          "id": "S12-L010",
+          "kind": "dialogue",
+          "text_exact": "And please, one actual entry register for volunteers.",
+          "speaker_exact": "Shreya",
+          "explicit_names": [
+            "Shreya"
+          ]
+        },
+        {
+          "id": "S12-L011",
+          "kind": "dialogue",
+          "text_exact": "That sounds like the most efficient committee in Gurgaon.",
+          "speaker_exact": "Rahul",
+          "explicit_names": [
+            "Rahul"
+          ]
+        },
+        {
+          "id": "S12-L012",
+          "kind": "dialogue",
+          "text_exact": "Ask us again after the first spreadsheet.",
+          "speaker_exact": "Ankita",
+          "explicit_names": [
+            "Ankita"
+          ]
+        },
+        {
+          "id": "S12-L013",
+          "kind": "dialogue",
+          "text_exact": "I'm keeping the first-aid kit for the committee debates.",
+          "speaker_exact": "Rohan",
+          "explicit_names": [
+            "Rohan"
+          ]
+        },
+        {
+          "id": "S12-L014",
+          "kind": "internal",
+          "text_exact": "Everyone enjoys the comfortable group atmosphere. Several private impressions coexist, but no woman is obligated to recognise or return any man's interest.",
+          "speaker_exact": null,
+          "explicit_names": []
+        }
+      ],
+      "complete_source_object": {
+        "id": "S12",
+        "time": "19:25",
+        "lane": "Crossover — Shared Society",
+        "lead": "Shared",
+        "location": "Gulmohar Heights · courtyard",
+        "title": "Five people, five versions of the evening",
+        "narration": [
+          "Sharmi's event message brings the five women to the courtyard at staggered moments. Ankita arrives from office, Shivani after checking Tara's dinner, Taniya with a wedding-planning call still pending, Meenakshi after her hospital shift, and Shreya after changing out of her work clothes.",
+          "Mahendra Suri introduces the community-week schedule. Rohan and Kabir arrive as spouses, Nikhil checks on Meenakshi, and Vikram offers to organise safety volunteers. Aditya joins by phone because he is not yet part of Taniya's household. Soniya and Rahul stop by on their way home.",
+          "Rajeev briefly notices Shivani's graceful confidence while she manages the noticeboard. She is unaware of this fleeting attention. Rahul admires Ankita's quick problem-solving and privately wonders about getting to know her better outside a group setting; Ankita interprets his comments as routine courtesy. Neither thought is treated as a mutual relationship."
+        ],
+        "dialogue": [
+          {
+            "speaker": "Sharmi",
+            "line": "I need five different brains, not five people agreeing with Mahendra-ji."
+          },
+          {
+            "speaker": "Mahendra",
+            "line": "I heard that."
+          },
+          {
+            "speaker": "Ankita",
+            "line": "I'll handle registrations if the data is actually organised."
+          },
+          {
+            "speaker": "Shivani",
+            "line": "I'll coordinate the children's programme."
+          },
+          {
+            "speaker": "Taniya",
+            "line": "Accounts and vendor payments are mine."
+          },
+          {
+            "speaker": "Meenakshi",
+            "line": "I'll check the health-camp requirements."
+          },
+          {
+            "speaker": "Shreya",
+            "line": "And please, one actual entry register for volunteers."
+          },
+          {
+            "speaker": "Rahul",
+            "line": "That sounds like the most efficient committee in Gurgaon."
+          },
+          {
+            "speaker": "Ankita",
+            "line": "Ask us again after the first spreadsheet."
+          },
+          {
+            "speaker": "Rohan",
+            "line": "I'm keeping the first-aid kit for the committee debates."
+          }
+        ],
+        "internal": [
+          "Everyone enjoys the comfortable group atmosphere. Several private impressions coexist, but no woman is obligated to recognise or return any man's interest."
+        ],
+        "signalIds": [
+          "L24",
+          "L25",
+          "L26",
+          "L27"
+        ]
+      },
+      "approved_by_source": false,
+      "integrity": {
+        "source_char_length": 2736,
+        "raw_reconstruction_verified": true
+      }
+    },
+    {
+      "scene_id": "S17",
+      "lead_exact": "Shreya",
+      "title_exact": "Two kinds of respect",
+      "source_position": {
+        "start": 28768,
+        "end": 29874
+      },
+      "source_json_lines_exact": [
+        "{",
+        "      \"id\": \"S17\",",
+        "      \"time\": \"21:08\",",
+        "      \"lane\": \"Society — Shreya\",",
+        "      \"lead\": \"Shreya\",",
+        "      \"location\": \"Rathore flat · doorway\",",
+        "      \"title\": \"Two kinds of respect\",",
+        "      \"narration\": [",
+        "        \"Shreya comes home to Vikram and Anaya. Before dinner she sets aside the files she has been thinking about. Inspector Chauhan's approval does not alter her decisions or family obligations.\",",
+        "        \"Tomorrow the society volunteer plan will require her attention. Tonight, the family gets it.\"",
+        "      ],",
+        "      \"dialogue\": [",
+        "        {",
+        "          \"speaker\": \"Vikram\",",
+        "          \"line\": \"Still mentally at the station?\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Shreya\",",
+        "          \"line\": \"Halfway out.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Vikram\",",
+        "          \"line\": \"Then dinner is phase two of the operation.\"",
+        "        },",
+        "        {",
+        "          \"speaker\": \"Shreya\",",
+        "          \"line\": \"Approved.\"",
+        "        }",
+        "      ],",
+        "      \"internal\": [",
+        "        \"She notices that respect from Chauhan felt meaningful, but does not label it attraction.\"",
+        "      ],",
+        "      \"signalIds\": [",
+        "        \"L32\"",
+        "      ]",
+        "    }"
+      ],
+      "prose_line_records": [
+        {
+          "id": "S17-L001",
+          "kind": "narration",
+          "text_exact": "Shreya comes home to Vikram and Anaya. Before dinner she sets aside the files she has been thinking about. Inspector Chauhan's approval does not alter her decisions or family obligations.",
+          "speaker_exact": null,
+          "explicit_names": [
+            "Vikram",
+            "Anaya",
+            "Inspector Chauhan",
+            "Shreya"
+          ]
+        },
+        {
+          "id": "S17-L002",
+          "kind": "narration",
+          "text_exact": "Tomorrow the society volunteer plan will require her attention. Tonight, the family gets it.",
+          "speaker_exact": null,
+          "explicit_names": []
+        },
+        {
+          "id": "S17-L003",
+          "kind": "dialogue",
+          "text_exact": "Still mentally at the station?",
+          "speaker_exact": "Vikram",
+          "explicit_names": [
+            "Vikram"
+          ]
+        },
+        {
+          "id": "S17-L004",
+          "kind": "dialogue",
+          "text_exact": "Halfway out.",
+          "speaker_exact": "Shreya",
+          "explicit_names": [
+            "Shreya"
+          ]
+        },
+        {
+          "id": "S17-L005",
+          "kind": "dialogue",
+          "text_exact": "Then dinner is phase two of the operation.",
+          "speaker_exact": "Vikram",
+          "explicit_names": [
+            "Vikram"
+          ]
+        },
+        {
+          "id": "S17-L006",
+          "kind": "dialogue",
+          "text_exact": "Approved.",
+          "speaker_exact": "Shreya",
+          "explicit_names": [
+            "Shreya"
+          ]
+        },
+        {
+          "id": "S17-L007",
+          "kind": "internal",
+          "text_exact": "She notices that respect from Chauhan felt meaningful, but does not label it attraction.",
+          "speaker_exact": null,
+          "explicit_names": []
+        }
+      ],
+      "complete_source_object": {
+        "id": "S17",
+        "time": "21:08",
+        "lane": "Society — Shreya",
+        "lead": "Shreya",
+        "location": "Rathore flat · doorway",
+        "title": "Two kinds of respect",
+        "narration": [
+          "Shreya comes home to Vikram and Anaya. Before dinner she sets aside the files she has been thinking about. Inspector Chauhan's approval does not alter her decisions or family obligations.",
+          "Tomorrow the society volunteer plan will require her attention. Tonight, the family gets it."
+        ],
+        "dialogue": [
+          {
+            "speaker": "Vikram",
+            "line": "Still mentally at the station?"
+          },
+          {
+            "speaker": "Shreya",
+            "line": "Halfway out."
+          },
+          {
+            "speaker": "Vikram",
+            "line": "Then dinner is phase two of the operation."
+          },
+          {
+            "speaker": "Shreya",
+            "line": "Approved."
+          }
+        ],
+        "internal": [
+          "She notices that respect from Chauhan felt meaningful, but does not label it attraction."
+        ],
+        "signalIds": [
+          "L32"
+        ]
+      },
+      "approved_by_source": false,
+      "integrity": {
+        "source_char_length": 1106,
+        "raw_reconstruction_verified": true
+      }
+    }
+  ],
+  "approved_scene_ids": [],
+  "draft_scene_ids": [
+    "S05",
+    "S10",
+    "S12",
+    "S17"
+  ],
+  "character_name_index": [
+    {
+      "name": "Kabir",
+      "matches": [
+        {
+          "scene_id": "S12",
+          "evidence_line_ids": [
+            "S12-L002"
+          ],
+          "full_scene_for_context": "S12"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Rajeev",
+      "matches": [
+        {
+          "scene_id": "S12",
+          "evidence_line_ids": [
+            "S12-L003"
+          ],
+          "full_scene_for_context": "S12"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Rohan",
+      "matches": [
+        {
+          "scene_id": "S12",
+          "evidence_line_ids": [
+            "S12-L002",
+            "S12-L013"
+          ],
+          "full_scene_for_context": "S12"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Tara",
+      "matches": [
+        {
+          "scene_id": "S12",
+          "evidence_line_ids": [
+            "S12-L001"
+          ],
+          "full_scene_for_context": "S12"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Aditya",
+      "matches": [
+        {
+          "scene_id": "S12",
+          "evidence_line_ids": [
+            "S12-L002"
+          ],
+          "full_scene_for_context": "S12"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Soniya",
+      "matches": [
+        {
+          "scene_id": "S12",
+          "evidence_line_ids": [
+            "S12-L002"
+          ],
+          "full_scene_for_context": "S12"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Rahul",
+      "matches": [
+        {
+          "scene_id": "S12",
+          "evidence_line_ids": [
+            "S12-L002",
+            "S12-L003",
+            "S12-L011"
+          ],
+          "full_scene_for_context": "S12"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Nikhil",
+      "matches": [
+        {
+          "scene_id": "S12",
+          "evidence_line_ids": [
+            "S12-L002"
+          ],
+          "full_scene_for_context": "S12"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Vikram",
+      "matches": [
+        {
+          "scene_id": "S05",
+          "evidence_line_ids": [
+            "S05-L001",
+            "S05-L003",
+            "S05-L005"
+          ],
+          "full_scene_for_context": "S05"
+        },
+        {
+          "scene_id": "S12",
+          "evidence_line_ids": [
+            "S12-L002"
+          ],
+          "full_scene_for_context": "S12"
+        },
+        {
+          "scene_id": "S17",
+          "evidence_line_ids": [
+            "S17-L001",
+            "S17-L003",
+            "S17-L005"
+          ],
+          "full_scene_for_context": "S17"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Anaya",
+      "matches": [
+        {
+          "scene_id": "S05",
+          "evidence_line_ids": [
+            "S05-L001",
+            "S05-L005"
+          ],
+          "full_scene_for_context": "S05"
+        },
+        {
+          "scene_id": "S17",
+          "evidence_line_ids": [
+            "S17-L001"
+          ],
+          "full_scene_for_context": "S17"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Chintu",
+      "matches": [
+        {
+          "scene_id": "S05",
+          "evidence_line_ids": [
+            "S05-L002",
+            "S05-L006"
+          ],
+          "full_scene_for_context": "S05"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Mahendra Suri",
+      "matches": [
+        {
+          "scene_id": "S12",
+          "evidence_line_ids": [
+            "S12-L002"
+          ],
+          "full_scene_for_context": "S12"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Sharmi",
+      "matches": [
+        {
+          "scene_id": "S12",
+          "evidence_line_ids": [
+            "S12-L001",
+            "S12-L004"
+          ],
+          "full_scene_for_context": "S12"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Javed",
+      "matches": [
+        {
+          "scene_id": "S10",
+          "evidence_line_ids": [
+            "S10-L001",
+            "S10-L007"
+          ],
+          "full_scene_for_context": "S10"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Inspector Chauhan",
+      "matches": [
+        {
+          "scene_id": "S10",
+          "evidence_line_ids": [
+            "S10-L001"
+          ],
+          "full_scene_for_context": "S10"
+        },
+        {
+          "scene_id": "S17",
+          "evidence_line_ids": [
+            "S17-L001"
+          ],
+          "full_scene_for_context": "S17"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Poonam",
+      "matches": [
+        {
+          "scene_id": "S10",
+          "evidence_line_ids": [
+            "S10-L001",
+            "S10-L003"
+          ],
+          "full_scene_for_context": "S10"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Ankita",
+      "matches": [
+        {
+          "scene_id": "S12",
+          "evidence_line_ids": [
+            "S12-L001",
+            "S12-L003",
+            "S12-L006",
+            "S12-L012"
+          ],
+          "full_scene_for_context": "S12"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Shivani",
+      "matches": [
+        {
+          "scene_id": "S12",
+          "evidence_line_ids": [
+            "S12-L001",
+            "S12-L003",
+            "S12-L007"
+          ],
+          "full_scene_for_context": "S12"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Taniya",
+      "matches": [
+        {
+          "scene_id": "S12",
+          "evidence_line_ids": [
+            "S12-L001",
+            "S12-L002",
+            "S12-L008"
+          ],
+          "full_scene_for_context": "S12"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Meenakshi",
+      "matches": [
+        {
+          "scene_id": "S12",
+          "evidence_line_ids": [
+            "S12-L001",
+            "S12-L002",
+            "S12-L009"
+          ],
+          "full_scene_for_context": "S12"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    },
+    {
+      "name": "Shreya",
+      "matches": [
+        {
+          "scene_id": "S05",
+          "evidence_line_ids": [
+            "S05-L001",
+            "S05-L002",
+            "S05-L004",
+            "S05-L007",
+            "S05-L008"
+          ],
+          "full_scene_for_context": "S05"
+        },
+        {
+          "scene_id": "S10",
+          "evidence_line_ids": [
+            "S10-L001",
+            "S10-L002",
+            "S10-L004",
+            "S10-L006",
+            "S10-L008",
+            "S10-L009"
+          ],
+          "full_scene_for_context": "S10"
+        },
+        {
+          "scene_id": "S12",
+          "evidence_line_ids": [
+            "S12-L001",
+            "S12-L010"
+          ],
+          "full_scene_for_context": "S12"
+        },
+        {
+          "scene_id": "S17",
+          "evidence_line_ids": [
+            "S17-L001",
+            "S17-L004",
+            "S17-L006"
+          ],
+          "full_scene_for_context": "S17"
+        }
+      ],
+      "lookup_type": "EXPLICIT_NAME_IN_DRAFT_SOURCE_NOT_APPROVED"
+    }
+  ],
+  "integrity": {
+    "scene_count": 4,
+    "source_objects_verified": true,
+    "verbatim_character_count": 6871
+  }
+}
