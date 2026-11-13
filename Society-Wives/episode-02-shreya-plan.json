@@ -779,25 +779,21 @@
       "end": "09:40",
       "lane": "HOME",
       "location": "Rathore flat, outer storage",
-      "title": "The gym bag someone opened — Uncle Arvind's private obsession",
+      "title": "The gym bag someone opened",
       "characters": [
         "arvind"
       ],
-      "summary": "Reader-only suspense scene while Shreya is at police station. Uncle Arvind, an unrelated elderly household guest, opens Shreya's private gym bag without permission. The sportswear is damp from exercise, with a faint breastfeeding-related milk mark on a garment. Arvind recalls seeing Shreya in the red workout outfit and privately recognizes his inappropriate fixation. He disturbs a loose retail tag before returning the bag; Shreya remains unaware. Depict the intrusion non-graphically without fetishized contact or explicit sexual actions.",
+      "summary": "A parallel reader-only event: Arvind (65, the unrelated household elder Uncle Arvind) crosses a boundary by looking into Shreya's personal sportswear pouch without permission.",
       "beats": [
-        "09:20–09:40 at Rathore residence; Shreya physically at police station and unaware.",
-        "Arvind is NOT Shreya's FIL or blood relative; she calls him Uncle, and he lives with them due to Vikram's old accident/hospitalization connection.",
-        "He finds her workout bag; its garments still show ordinary workout sweat, with a discreet lactation-related milk mark mentioned as a practical childcare detail, not sexualized.",
-        "His fixation is shown through hesitation, intrusive thoughts and a brief recollection of Shreya's red workout appearance; do not depict explicit sexual acts with garments or body fluids.",
-        "He has no permission to open her bag. He leaves a trace via a loose retail tag; this could become a future clue.",
-        "Anaya is not part of or present within the adult fantasy/intrusion scene; childcare is kept entirely separate."
+        "He retains a loose retail tag while putting the garment back; Shreya has no knowledge of the intrusion.",
+        "Arvind's one-sided fascination and outward traditional-elder role are in tension.",
+        "Do not represent misconduct as consent or glamorize an intrusion."
       ],
       "dialogue": [],
       "notes": [
-        "Arvind is back at committee office 11:20–11:35 and 12:30–12:50; preserve those fixed times.",
-        "USER UPDATE: Arvind's hidden attraction/fantasy should have a darker Dhika-uncle-like suspense tone, while staying non-graphic and one-sided."
+        "Arvind is back at committee office 11:20–11:35 and 12:30–12:50; preserve those fixed times."
       ],
-      "approval": "USER_REQUESTED_REVISION_WORKING_PLOT"
+      "approval": "USER_ACCEPTED_WORKING_PLOT"
     },
     {
       "id": "SR09",
@@ -810,53 +806,23 @@
         "shreya",
         "chauhan"
       ],
-      "summary": "Inspector Chauhan (42) praises Shreya's reports and prolongs a coffee/corridor conversation. Standing face-to-face, he briefly tries to look down the opening of her police-uniform collar (only first/top button open). She notices and knows why his attention drifted, gives him a sharp teasing line about his concentration, and returns to the report. Her agency and professional authority remain intact.",
+      "summary": "Inspector Chauhan (42) praises Shreya's sound judgment and prolongs a coffee conversation beyond the report's needs.",
       "beats": [
-        "First/top uniform button OPEN since SR05; second button CLOSED; no further revealing wardrobe change in SR09.",
-        "Chauhan stands before Shreya, visibly distracted and tries to glance inside her open collar.",
-        "Shreya notices his downward gaze, understands the attraction behind it, and chooses a witty double-meaning correction; she is not oblivious.",
-        "Chauhan awkwardly recovers and steers back to casework, later drafts but deletes an overly familiar message.",
-        "No new physical contact or assumed consent; the teasing does not supersede the investigation.",
-        "Scene remains at station 09:40–10:15, with Poonam's recognition of his preferential attention possible later."
+        "Observed personal interest: he creates extra one-to-one time, then drafts but deletes an overly familiar message.",
+        "Shreya remains focused on case evidence."
       ],
       "dialogue": [
         [
-          "Chauhan",
-          "Inspector Rathore, aapki reports mein ek problem hai."
+          "Chauhan (42, Inspector)",
+          "Aapki report handling impressive thi."
         ],
         [
           "Shreya",
-          "Sir? Kya mistake mili?"
-        ],
-        [
-          "Chauhan",
-          "Mistake nahi. Report itni interesting hai ki author se personally milne ka mann karta hai."
-        ],
-        [
-          "Shreya",
-          "Sir, report meri aankhon mein nahi hai... aur neeche bhi nahi. Aapke haath mein hai."
-        ],
-        [
-          "Chauhan",
-          "Sorry, Inspector. Aaj thoda distracted ho gaya."
-        ],
-        [
-          "Shreya",
-          "Koi baat nahi, sir. Lekin aap toh senior hain. Aapka concentration itni aasani se nahi tootna chahiye."
-        ],
-        [
-          "Chauhan",
-          "Aapke saamne kabhi-kabhi mushkil ho jaata hai."
-        ],
-        [
-          "Shreya",
-          "Phir toh aapko bhi ek concentration-training session chahiye."
+          "Team ne details preserve kiye. Ab next witness statement dekhte hain."
         ]
       ],
-      "notes": [
-        "User approved the previous SR09 concept with the requested added detail of Chauhan's collar glance and Shreya's aware response. Full scene not yet published."
-      ],
-      "approval": "USER_APPROVED_WORKING_PLOT_REVISED_PROSE_NOT_PUBLISHED"
+      "notes": [],
+      "approval": "USER_ACCEPTED_WORKING_PLOT"
     },
     {
       "id": "SR10",
