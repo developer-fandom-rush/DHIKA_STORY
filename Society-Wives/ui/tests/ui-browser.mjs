@@ -77,7 +77,7 @@ try {
  await page.locator('#female-library .female-reveal-toggle').last().click();
  check(await page.locator('#female-library .female-photo').count()===0,'Generated look can be hidden again');
 
- await page.locator('label').filter({hasText:'Character'}).locator('select').selectOption('shreya');
+ await page.locator('.gallery-filters label').filter({hasText:'Character'}).locator('select').selectOption('shreya');
  await page.getByText('Poonam — sub-inspector').waitFor();
  check(await page.getByText('Poonam — sub-inspector').count()===1,'Shreya storyline filter includes public Poonam office portrait');
  await page.getByRole('button',{name:'Inspect Poonam — sub-inspector'}).click();
