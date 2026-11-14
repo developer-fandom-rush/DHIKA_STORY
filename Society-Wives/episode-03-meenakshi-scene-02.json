@@ -1,0 +1,233 @@
+{
+  "schemaVersion": "1.0",
+  "id": "SW-EP03-MEENAKSHI-SCENE-02",
+  "episode": "03",
+  "lead": "Meenakshi",
+  "scene": "02",
+  "title": "The Farmhouse Evening — Four Adults, Shifting Attention",
+  "date": "2026-01-01",
+  "start": "17:00",
+  "end": "TBD_AFTER_FARMHOUSE_AND_RETURN_TRAVEL",
+  "timezone": "Asia/Kolkata",
+  "status": "USER_APPROVED_PLOT_DIRECTION_SAVED_NO_PROSE",
+  "continuationContext": [
+    "EP03 Scene 01 Naveen × Meenakshi ends at 14:15 and is continued in EP04 from 14:15; exact EP04 emotional consequences remain unwritten. Do not assume only locker incident drives 17:00 emotional state.",
+    "Approved earlier: Aditi leads bold banter; Avi and Yash flirt with both women; mutual teasing is one step bolder than EP02 but not fixed pairings.",
+    "This is a 17:00 start only, not a claim farmhouse plus return fits 17:00–17:45. End time intentionally open."
+  ],
+  "settings": {
+    "departure": "Hospital after shift, around 17:00",
+    "outbound": "Meenakshi offers her car to Aditi, Avi and Yash; she has not drunk alcohol while driving outbound",
+    "main": "Farmhouse get-together; location and travel minutes to be verified",
+    "return": "Sober professional driver drives Meenakshi's car; Meenakshi, Avi, Yash are passengers; Aditi leaves separately by cab after witnessing seating banter",
+    "end": "Scene cuts while Meenakshi is still en route home, not arrived"
+  },
+  "wardrobe": [
+    {
+      "name": "Meenakshi",
+      "look": "Established plum kurta with cream palazzo; grey cardigan can be removed at farmhouse; no invented full change"
+    },
+    {
+      "name": "Aditi",
+      "look": "Fitted burgundy mini-dress, user reference look to confirm"
+    },
+    {
+      "name": "Avi",
+      "look": "Dark casual shirt, sleeves rolled; proposed"
+    },
+    {
+      "name": "Yash",
+      "look": "Smart-casual shirt and trousers; proposed"
+    }
+  ],
+  "drinks": [
+    {
+      "name": "Meenakshi",
+      "amount": "One glass wine only, near start of gathering, after initially refusing; she agrees to the group's playful one-glass challenge",
+      "safety": "No driving after alcohol; sober return driver; no inference that timing guarantees sobriety"
+    },
+    {
+      "name": "Aditi",
+      "amount": "More than Meenakshi, controlled amount; exact count not specified"
+    },
+    {
+      "name": "Avi",
+      "amount": "More than Meenakshi, controlled amount; exact count not specified"
+    },
+    {
+      "name": "Yash",
+      "amount": "More than Meenakshi, controlled amount; exact count not specified"
+    }
+  ],
+  "beats": [
+    {
+      "id": "F01",
+      "phase": "After-duty departure",
+      "title": "Two women, two men",
+      "detail": "The four leave together; Aditi leads bolder-than-EP02 double-meaning flirting, and Avi/Yash each tease both women. Meenakshi participates rather than just watching."
+    },
+    {
+      "id": "F02",
+      "phase": "Outbound",
+      "title": "Meenakshi offers the ride",
+      "detail": "She suggests using her own car and drives the group to the farmhouse; teasing continues en route."
+    },
+    {
+      "id": "F03",
+      "phase": "Drinks at arrival",
+      "title": "One-glass challenge",
+      "detail": "Meenakshi first refuses alcohol, then freely agrees to one glass of wine after light group encouragement. Other three drink more moderately. Her one glass is taken at the start, but does not justify driving later."
+    },
+    {
+      "id": "F04",
+      "phase": "Farmhouse",
+      "title": "Aditi sets the temperature",
+      "detail": "Aditi confidently flirts with both men and dances first. All three watch and appreciate her look; Avi's interest and the mutual teasing become more openly apparent."
+    },
+    {
+      "id": "F05",
+      "phase": "Dance",
+      "title": "Avi–Aditi chemistry",
+      "detail": "Avi joins for a close dance; hand movements, held hands, near faces, and back-to-chest positions remain consensual, with no kissing."
+    },
+    {
+      "id": "F06",
+      "phase": "Dance",
+      "title": "Yash joins",
+      "detail": "Aditi, Avi, Yash dance together with friendly close movement and playful responses; Aditi remains an active lead."
+    },
+    {
+      "id": "F07",
+      "phase": "Dance",
+      "title": "Meenakshi joins later",
+      "detail": "The group invites her and she chooses to dance. Avi notices the fitted kurta and her peach-rounded hip curve as she crosses the floor; Yash notices her hourglass waist, steps and changes of expression. Their distinct private glances are visual observations, not permission; Aditi also notices the change in the group's attention."
+    },
+    {
+      "id": "F08",
+      "phase": "Flirting",
+      "title": "Crossed attention",
+      "detail": "Bold double-meaning remarks from all four and shifting attention toward both women. Meenakshi's outward humour and inward surprise/attraction are distinguished; any exact Naveen memory depends on unwritten EP04."
+    },
+    {
+      "id": "F09",
+      "phase": "Flirting",
+      "title": "Aditi's dress and boundaries",
+      "detail": "Aditi gets styling compliments. A mischievous attempted glance beneath the mini-dress does not reveal anything; this is framed as a private boundary crossing, not as invitation or consensual exposure."
+    },
+    {
+      "id": "F10",
+      "phase": "Photographs",
+      "title": "Aditi's suggestion",
+      "detail": "She initiates multiple group and pair photographs with smiles, hand-in-hand positions and close poses. Images are private, no publication/posting presumed."
+    },
+    {
+      "id": "F11",
+      "phase": "Photographs",
+      "title": "Waist-contact trust",
+      "detail": "Avi/Aditi close poses and Yash/Meenakshi photo. Yash explicitly asks before placing his hand at Meenakshi's waist. She allows the photo pose; that permission is limited to it."
+    },
+    {
+      "id": "F12",
+      "phase": "Photographs",
+      "title": "Avi's jealousy",
+      "detail": "Avi notices Yash getting unusually comfortable with Meenakshi, privately feels jealousy. Aditi detects Avi's shift despite their earlier flirtation."
+    },
+    {
+      "id": "F13",
+      "phase": "Personal conversation",
+      "title": "Meenakshi and Yash",
+      "detail": "Their talk remains personal and flirtatious, not converted into generic concern about the locker. Meenakshi's emotional continuity must incorporate the unwritten post-14:15 Naveen scene."
+    },
+    {
+      "id": "F14",
+      "phase": "Departure",
+      "title": "Aditi must leave",
+      "detail": "Aditi has another engagement and arranges a separate cab; Avi and Yash request a drop from Meenakshi, and she agrees."
+    },
+    {
+      "id": "F15",
+      "phase": "Return parking",
+      "title": "Who sits next to Meenakshi?",
+      "detail": "With a sober driver at the wheel, the only rear seat beside Meenakshi becomes contested. Yash takes it before Avi; Avi takes the front passenger seat. Meenakshi and Aditi see the rivalry and laugh, then Aditi leaves."
+    },
+    {
+      "id": "F16",
+      "phase": "Return travel",
+      "title": "Unspoken looks",
+      "detail": "Avi catches the peach-round silhouette of Meenakshi's hips as she changes seat position; Yash separately notices the gentle hourglass line of her waist and how she adjusts her plum kurta. These are distinct, private adult-admiration metaphors; each man exchanges a teasing glance, and Meenakshi does not know exactly what was noticed."
+    },
+    {
+      "id": "F17",
+      "phase": "Return travel",
+      "title": "Fitness-flirt challenge",
+      "detail": "A playful abs/fitness conversation becomes a voluntary challenge. Meenakshi explicitly offers limited clothed abdomen contact, individually for Avi and Yash; she assumes the contact stays over clothing."
+    },
+    {
+      "id": "F18",
+      "phase": "Return travel",
+      "title": "Avi's turn",
+      "detail": "Brief, roughly 30-second clothed abdomen-contact beat; playful conversation, with Meenakshi setting the scope."
+    },
+    {
+      "id": "F19",
+      "phase": "Car safely stopped",
+      "title": "Yash's unexpected direct contact",
+      "detail": "A shift of Meenakshi's seat posture while retrieving her phone lifts the edge of the plum kurta. Yash's fingers accidentally slip just under the edge toward her abdomen, differing from her assumption of over-clothing contact. She is briefly surprised and tense; he pauses and checks her comfort. She consciously agrees to continued direct abdomen contact for up to about one minute. Her reaction is private and conflicted; do not portray her silence as consent or turn the outline into explicit prose."
+    },
+    {
+      "id": "F20",
+      "phase": "Before destination",
+      "title": "Quiet aftermath",
+      "detail": "The encounter ends; they adjust posture and say little. No escalation or kiss. The car resumes toward the drop-off."
+    },
+    {
+      "id": "F21",
+      "phase": "Drop-off",
+      "title": "Avi jokingly kicks Yash",
+      "detail": "Both men exit. Avi mock-jealously gives Yash a light, playful kick for the seating/attention rivalry; Yash jokes back. Meenakshi sees them from the car and smiles shyly."
+    },
+    {
+      "id": "F22",
+      "phase": "Final road cut",
+      "title": "Three memories — not home yet",
+      "detail": "Meenakshi continues toward home with the sober driver. Her mind moves among Naveen's unresolved afternoon continuation, Avi's open flirtation/jealousy, Yash's closer personal encounter, and her awareness of the wine. Stop before home arrival."
+    }
+  ],
+  "distinctions": [
+    "Meenakshi is a married adult; her autonomy and mixed emotions must remain visible",
+    "No inventing outcomes for EP04 Naveen after 14:15",
+    "Drinks do not imply permission or remove consent boundaries",
+    "Original Dhika's body-observation, waist-contact, silence and jealousy mechanisms are adapted as new group events; no source scene copied verbatim",
+    "Physical contact is not initiated or continued without checking consent for the new scope",
+    "No images generated or supplied specifically for this farmhouse sequence yet"
+  ],
+  "visualComparisons": [
+    {
+      "lead": "Meenakshi",
+      "focus": "hip movement / fitted kurta",
+      "descriptor": "peach-rounded curve",
+      "observer": "Avi",
+      "beat": "F07"
+    },
+    {
+      "lead": "Meenakshi",
+      "focus": "waist / posture",
+      "descriptor": "hourglass waist",
+      "observer": "Yash",
+      "beat": "F07"
+    },
+    {
+      "lead": "Meenakshi",
+      "focus": "seat-shift silhouette",
+      "descriptor": "peach-round hips",
+      "observer": "Avi",
+      "beat": "F16"
+    }
+  ],
+  "editHistory": [
+    {
+      "date": "2026-11-14",
+      "change": "Specified concrete body-image comparisons as distinct private POVs; otherwise preserved approved plot beats."
+    }
+  ]
+}

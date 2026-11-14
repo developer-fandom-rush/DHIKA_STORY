@@ -1,0 +1,199 @@
+{
+  "id": "SW-EP03-MEENAKSHI-SOCIETY-TWINS-BADMINTON",
+  "schemaVersion": "1.0",
+  "episode": "03",
+  "scene": "03 — proposed society continuation",
+  "lead": "Meenakshi",
+  "title": "The Badminton Bet",
+  "date": "2026-01-01",
+  "weekday": "Thursday",
+  "location": "Badminton court approximately five minutes' ride outside Gulmohar Heights society, Gurgaon",
+  "start": "18:15",
+  "end": "18:45_TARGET_SOCIETY_RETURN_PROVISIONAL",
+  "timeStatus": "18:15_COURT_START_AND_18:45_SOCIETY_RETURN_PROVISIONAL_PENDING_FARMHOUSE_CLOCK",
+  "status": "AUTHOR_REQUIREMENT_VERBATIM_SAVED_SCENE_BEATS_UNDER_REVIEW",
+  "continuation": [
+    "EP02 M02 is the established 07:45–08:10 morning encounter: Uday outgoing, Utkarsh observant, both familiar wellness volunteers for approximately one year, already playful with Meenakshi.",
+    "Meenakshi has not reached home at the end of the 17:00 farmhouse Scene 02. Twins encounter is placed after the return car reaches the society, before she enters her home.",
+    "A 18:15 arrival after the 17:00-start farmhouse excursion, dancing, pictures, return/drop-offs is tight. Keep the 18:15 scene slot as a proposed target, not a verified transit schedule. Requires near-route farmhouse, shortened visit and checked travel before lock.",
+    "EP04 Naveen continuation from 14:15 remains unwritten, so exact memory/effect in Meenakshi's thoughts must remain conditional. Do not reduce her evening state to locker anxiety."
+  ],
+  "personalities": {
+    "uday": "24; outwardly mischievous, direct verbal compliment, confident with gaze, visibly jealous when Utkarsh gets attention",
+    "utkarsh": "24; quieter but deliberate, catches her reactions, bolder in an unexpected short remark and careful boundary checking",
+    "meenakshi": "32; familiar with their jokes, not naïve about what they notice; actively initiates this later flirting after her own recognition of the morning chemistry"
+  },
+  "backstoryProposal": {
+    "established": "They have volunteered reliably with Meenakshi for health camps for around one year and their flirtatious banter was previously accepted in EP02.",
+    "newToApprove": "Uday and Utkarsh have a recurring evening badminton habit at the society court. Meenakshi has occasionally noticed the game in passing and is interested in trying it; no earlier on-page badminton meeting is being claimed.",
+    "future": "Deferred until a later encounter: Meenakshi, Ishita, Uday and Utkarsh can plan regular doubles; occasional Nikhil/others optional. Do not invite Ishita or schedule daily sessions in the current scene."
+  },
+  "wardrobe": {
+    "meenakshi": "Same plum kurta and cream palazzo from the farmhouse, grey cardigan in hand, hair loosened after dancing. Not yet dressed for a full workout, so only a brief stationary practice today.",
+    "twins": "Post-badminton sportswear, lightly warm from a recent practice; exact shirts and footwear for user to confirm."
+  },
+  "wine": {
+    "effect": "Meenakshi feels a mildly tipsy wine glow: freer laughter, playful confidence, some lingering warmth and stronger awareness of attention. She is alert, coherent and able to choose or redirect touch.",
+    "safety": "The sober driver brought the car back. Wine is neither the cause of consent nor a reason to assume it. No driving by Meenakshi after drinking."
+  },
+  "beats": [
+    {
+      "id": "T01",
+      "time": "18:15–18:17",
+      "title": "A familiar court, a different evening",
+      "action": "Meenakshi reaches the court walkway after the sober-driven return, before entering home. Uday and Utkarsh have finished a short rally and recognize her. Both notice the relaxed evening appearance; the woman they teased at 07:45 is now smiling at them deliberately.",
+      "gaze": "Uday watches her walk and the peach-rounded curve of her hips beneath the plum kurta; Utkarsh notices her hourglass waist, hair, eye contact and changed expression.",
+      "internal": "Meenakshi senses their interest without needing a verbal explanation. Morning's attention is familiar, evening's self-awareness stronger."
+    },
+    {
+      "id": "T02",
+      "time": "18:17–18:19",
+      "title": "Morning fashion report becomes evening challenge",
+      "action": "Uday references his morning fashion-report joke and comments on her off-duty look. Utkarsh adds an unexpectedly sharp double meaning. Meenakshi answers with a playful medical/fitness quip and openly notices the men's athletic post-game appearance.",
+      "gaze": "Meenakshi looks from Uday's expressive face to Utkarsh's restrained smile rather than pretending not to notice.",
+      "internal": "A mild wine glow makes her laugh more easily, but her choices are conscious."
+    },
+    {
+      "id": "T03",
+      "time": "18:19–18:21",
+      "title": "She asks to try badminton",
+      "action": "Meenakshi asks how long the twins have been practicing. They explain their recurring evening routine (new proposal). She requests a racket and initiates a short challenge; no full game in unsuitable clothes.",
+      "gaze": "Uday's eyes follow her stance as she steps onto the stationary practice mark; Utkarsh checks her face to see if teasing remains welcome.",
+      "internal": "She likes that she is the one asking to spend another few minutes with them."
+    },
+    {
+      "id": "T04",
+      "time": "18:21–18:24",
+      "title": "Uday: intentional waist guidance",
+      "action": "Uday demonstrates side-on stance and asks if he may guide her position. She agrees. Standing close, he places a hand at her clothed side-waist, with his other hand adjusting her racket arm. He holds the stance for a few deliberate seconds—more personal than incidental brushing. She notices and answers his teasing with a steady smile.",
+      "gaze": "Uday notices her waistline and the curve of the kurta while remaining attentive to her reaction; she catches his look and does not need to guess what he meant.",
+      "internal": "Meenakshi feels a brief flush and slight self-consciousness, then makes a deliberate choice to finish the demonstration. No unasked extra contact."
+    },
+    {
+      "id": "T05",
+      "time": "18:24–18:27",
+      "title": "Utkarsh: her invitation changes the balance",
+      "action": "Utkarsh jokes that Uday's stance is all show and no balance. Meenakshi challenges him to demonstrate. At her invitation he stands near her side and, after she confirms, rests his hand briefly across her clothed side abdomen/core to show the posture difference, then withdraws when the demonstration ends. Contact is deliberate and individually agreed, not a repeat of the car abs game.",
+      "gaze": "Utkarsh maintains eye contact before and after, noticing her small smile rather than just her body. Uday sees that she invited his quieter brother herself.",
+      "internal": "She appreciates Utkarsh's unusual confidence; his less obvious flirtation makes her hesitate a moment before her comeback."
+    },
+    {
+      "id": "T06",
+      "time": "18:27–18:29",
+      "title": "The two brothers notice the difference",
+      "action": "Uday mock-complains that Meenakshi gave Utkarsh the longer chance to teach. Utkarsh offers a calm, witty response. Meenakshi deliberately keeps the rivalry playful, instead of explaining her feelings.",
+      "gaze": "Uday looks from Utkarsh's hand back to Meenakshi's expression; Utkarsh reads his brother's jealousy and smiles.",
+      "internal": "The brothers' private motives are distinct: Uday jealous of attention, Utkarsh pleased by her invitation; Meenakshi understands the banter has a personal undercurrent."
+    }
+  ],
+  "physicalBeatCoverage": [
+    {
+      "actor": "Uday",
+      "receiver": "Meenakshi",
+      "type": "Intentionally guides her clothed side-waist and racket arm",
+      "basis": "Asks and she agrees; she observes and stays engaged",
+      "effect": "Warm flush; playful confidence; Utkarsh notices"
+    },
+    {
+      "actor": "Utkarsh",
+      "receiver": "Meenakshi",
+      "type": "Intentionally checks clothed side-abdomen/core posture",
+      "basis": "She herself invites the demonstration and confirms placement",
+      "effect": "Quieter private attraction; Uday jealous"
+    },
+    {
+      "actor": "Meenakshi",
+      "receiver": "Both twins",
+      "type": "Deliberate eye contact, verbal initiation and friendly competition",
+      "basis": "Her own choice; not inferred from drinking",
+      "effect": "She realizes she is no longer only replying to their teasing"
+    }
+  ],
+  "comparison": {
+    "uday": "peach-rounded hips",
+    "utkarsh": "hourglass waist",
+    "contrast": "Uday's direct appreciative glance versus Utkarsh's attentive, restrained observation; not a copy of the motorcycle sequence."
+  },
+  "openQuestions": [
+    "Travel / venue feasibility of arriving at court 18:15 after the entire 17:00 farmhouse sequence.",
+    "Whether to keep Uday's waist contact as written or vary it after user review.",
+    "Wardrobe specifics of the twins' badminton outfit and later proper practice outfit.",
+    "User proposed a malfunctioning car five minutes from society, a playful drive/seat rivalry, and return by 18:45; not approved, and must reconcile with an entire farmhouse outing that begins at 17:00",
+    "Possible vehicle interference by a twin would break established trust; consider a genuine mechanical failure instead",
+    "A three-person two-wheeler ride is unsafe and exceeds Indian legal pillion capacity; choose safe transport if continuing",
+    "Bike choreography and car interference are author-supplied fiction requirements preserved verbatim, not previously approved prose.",
+    "Society arrival target 18:45; farmhouse-to-court timeline remains pending."
+  ],
+  "draftOnly": true,
+  "deferredBeats": [
+    {
+      "id": "T07",
+      "time": "18:29–18:31",
+      "title": "She sets the recurring bet",
+      "action": "Meenakshi says she will return properly dressed to learn doubles and could bring Ishita. The twins suggest friendly partner rotations and a score challenge; occasional Nikhil or other society players are possibilities, not committed arrivals.",
+      "gaze": "Uday tries to win her next session as a partner; Utkarsh smiles at the fact she suggested returning first.",
+      "internal": "This plants a genuine repeatable interest beyond a one-off touch scene.",
+      "reason": "User requested move recurring-doubles invitation / Ishita setup to future encounter, not current meeting",
+      "futureSlot": "FUTURE_BADMINTON_ENCOUNTER_NOT_SCHEDULED",
+      "status": "DEFERRED_BY_USER"
+    }
+  ],
+  "retiredBeats": [
+    {
+      "id": "T08",
+      "title": "Cut before the household",
+      "reason": "Old walk-home ending superseded by user-proposed car-failure/ride continuation; ride scenario under discussion, not approved"
+    }
+  ],
+  "editHistory": [
+    {
+      "date": "2026-11-14",
+      "change": "Removed recurring-badminton invitation from current scene and deferred it to future; removed old walk-home closing beat pending new transport scenario; no new ride beats approved."
+    },
+    {
+      "date": "2026-11-14",
+      "change": "Saved user's bike-ride proposal verbatim as 'MY requirement (unfiltered)' on Scene 03 planning UI, plus separate pointers; shifted court location to five minutes outside society; preserved future doubles invitation as deferred."
+    }
+  ],
+  "authorRequirement": {
+    "label": "MY requirement (unfiltered)",
+    "source": "User's own original plot wording, copied verbatim without edits, additions, omissions or paraphrase",
+    "exactText": "ab ek chota hai plot , badminton court society se thora dur tha around 5 min ride. \ntoh when meenakshi reaches car she finds her car not working .. (setup (uday ya utkarsh mai se kisi ne kuch kiya ho)) i leave upto you .. \nand bike ride suggestion . \nshe sits in between both :\ntoh ek last small jealous argument ki kaun drive krega and kaun peeche baithega. \nthen you decide who is who :\nA) uday meekanshi utkarsh\nB) utkarsh meekankshi uday.\n\ndriver gets to feel her breast and her hands on his shoulders legs touching each other \n3 rd person gets to feel her back to chest touch legs touch her thighs ..\nposition hold kay liye shoulders assumption but (stomach pr hold and hands slip inside and circle around stomach . (last moment aarousal touched meenakshi ass )a brief moment .\n\nmeenakshi feeling: -> hards back of the driver on her breasts hands mai muscles feeling it. (wine effect ) she moves her hand as well ) . \nand from back last 10 sec arousal felt a moan escape (hot and heavy breathing on her neck and shoulder ) making her breath heavy (with a moan head rested for 1-2 sec backwords \nspeedbracker fun .. \n\nshe is feeling each moment of it ..\n\nand thanks god that ride ended (like dhika )\nnow tell it works .. so by : 6:45 back home..  ",
+    "approval": "EXPLICIT_USER_REQUEST_TO_SAVE_REQUIREMENT_IN_UI; NOT A PROSE DRAFT",
+    "recordedDate": "2026-11-14"
+  },
+  "planningPointers": [
+    {
+      "key": "original_scene",
+      "value": "Keep T01–T06 badminton encounter as an earlier part of the same scene. One-year society familiarity established in EP02; this is not a new friendship."
+    },
+    {
+      "key": "location",
+      "value": "Court is outside the society, approximately five minutes away by bike, not inside Gulmohar Heights. This corrects prior location label."
+    },
+    {
+      "key": "car_setup",
+      "value": "Meenakshi reaches her car after the badminton exchange and finds it will not start. Author permits either twin to have interfered. Assistant's preferred suspense choice from previous discussion: Utkarsh, secretly, kept as a provisional reveal and not represented as established fact."
+    },
+    {
+      "key": "bike_and_seating",
+      "value": "Author's preferred fiction setup is a five-minute bike return with Meenakshi between the two twins; Option A from prior discussion: Uday / Meenakshi / Utkarsh. The argument over who drives and who sits behind should reveal each twin's different jealousy. Exact user physical choreography is preserved separately as an unfiltered requirement, not silently replaced."
+    },
+    {
+      "key": "emotion",
+      "value": "Keep Dhika-like unexpected proximity/shyness versus outward composure and the men's distinct private motives. Meenakshi enjoys familiar flirting and experiences a mild wine glow; do not treat the wine as loss of awareness or consent."
+    },
+    {
+      "key": "duration",
+      "value": "Back at society/home by approximately 6:45 PM, with five minutes allotted to court-to-society return. A practical working breakdown: badminton around 6:15–6:29, car/seat dispute 6:29–6:40, five-minute ride 6:40–6:45. Provisional because farmhouse departure/arrival constraints remain unfixed."
+    },
+    {
+      "key": "future",
+      "value": "Defer the invitation to play recurring doubles with Ishita and any next-episode session setup. This was removed from active T07 and retained under deferredBeats."
+    },
+    {
+      "key": "status",
+      "value": "This is planning documentation preserving the user's specified details, not a published prose scene. Avoid claiming the historical source itself contains these new events."
+    }
+  ]
+}
