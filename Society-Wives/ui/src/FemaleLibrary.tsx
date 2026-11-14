@@ -29,7 +29,7 @@ function RevealSection({title,photos,person}:{title:string;photos:Photo[];person
    <span aria-hidden="true">{open?'−':'+'}</span>
   </button>
   {open&&<div id={id} className="female-photo-grid">
-   {photos.length?photos.map(p=><DriveImage key={p.url} photo={p}/>):<p className="muted">No additional generated look has been verified for this character yet.</p>}
+   {photos.length?photos.map(p=><DriveImage key={p.url} photo={p}/>):<p className="muted">{title==='Reference Face'?'Reference portrait pending — no verified image assigned.':'No verified generated look for this character yet.'}</p>}
   </div>}
  </div>;
 }
@@ -39,7 +39,7 @@ export default function FemaleLibrary({initialCharacter='ankita'}:{initialCharac
  const [person,setPerson]=useState(first);
  useEffect(()=>{if(entries.some(x=>x.id===initialCharacter))setPerson(initialCharacter)},[initialCharacter]);
  const selected:Person=entries.find(x=>x.id===person)||entries[0];
- const groups=['Five leads','Meenakshi circle','Shreya circle','Additional references'];
+ const groups=['Five leads','Ankita circle','Meenakshi circle','Shreya circle','Additional references'];
  return <section id="female-library" className="female-library" aria-label="Female reference faces and generated image library">
   <div className="female-library-head"><span className="eyebrow">Private image collection</span><h2>Female Image Library</h2>
    <p>Reference faces and generated looks, organised by character. Photos remain hidden until you reveal a section.</p></div>
@@ -48,7 +48,7 @@ export default function FemaleLibrary({initialCharacter='ankita'}:{initialCharac
     {groups.map(g=><optgroup label={g} key={g}>{entries.filter(x=>x.group===g).map(x=><option value={x.id} key={x.id}>{x.name}</option>)}</optgroup>)}
    </select>
   </label>
-  <div className="female-library-person"><strong>{selected.name}</strong><small>{selected.group} · Owner-only Google Drive images</small></div>
+  <div className="female-library-person"><strong>{selected.name}</strong><small>{selected.group} · {selected.reference.length?'Owner-only Google Drive images':'Reference face pending'}</small></div>
   <div className="female-library-sections">
    <RevealSection key={selected.id+'-reference'} person={selected.id} title="Reference Face" photos={selected.reference}/>
    <RevealSection key={selected.id+'-generated'} person={selected.id} title="Generated Looks" photos={selected.generated}/>
