@@ -116,6 +116,11 @@ check(!(await page.locator('#ep03-meenakshi-scene-04').innerText()).includes('Ep
  check(await page.locator('#ep03-meenakshi-scene-02 .episode-outline').count()===1,'Farmhouse beat-by-beat outline is discoverable');
  check(await page.locator('#ep03-meenakshi-scene-03 .author-notes').count()===1,'Author original new scene requirement is retained in planning');
  check(await page.locator('main a').count()===0,'Planning stays inside the app with no raw source links');
+ check(await page.locator('#society-wives-author-narrator-instructions').count()===1,'Narrator visual author rules available within Planning');
+ await page.locator('#society-wives-author-narrator-instructions summary').click();
+ check((await page.locator('#society-wives-author-narrator-instructions').innerText()).includes('body-shape metaphors'),'Movement and body comparison style rendered');
+ check((await page.locator('#society-wives-author-narrator-instructions').innerText()).includes('apple-rounded silhouette'),'Simile vocabulary sourced from writing style JSON');
+ await page.locator('#society-wives-author-narrator-instructions summary').click();
  check(await page.locator('.perspective-tabs button').count()===5,'Planning shows five lead selectors');
  await page.locator('.perspective-tabs button', {hasText:'Shreya'}).click();
  await page.locator('.continuity-cards').waitFor({state:'detached'});
