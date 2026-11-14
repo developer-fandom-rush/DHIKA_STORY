@@ -34,7 +34,7 @@ export default function Planning({lead}:{lead:string}){
   ...getEvents('episode-03-meenakshi-scene-01.json',current,'Meenakshi'),
   ...(farmhouse?[{id:'EP03–02',date:str(farmhouse.date),start:str(farmhouse.start),end:'',title:str(farmhouse.title),lead:'Meenakshi',location:'Farmhouse outing · Gurgaon',characters:['meenakshi','aditi','avi','yash'],status:str(farmhouse.status),source:'episode-03-meenakshi-scene-02.json',notes:'Starts 17:00; travel and return time not fixed'}]:[]),
   ...(twins?[{id:'EP03–03',date:str(twins.date),start:str(twins.start),end:'',title:str(twins.title),lead:'Meenakshi',location:'Badminton court · approximately 5-minute ride from society',characters:['meenakshi','uday','utkarsh'],status:str(twins.status),source:'episode-03-meenakshi-scene-03-twins.json',notes:'18:15 court and 18:45 return are provisional; farmhouse transit must be reconciled'}]:[]),
-  ...(bablooIntro?[{id:'EP03–04',date:str(bablooIntro.date),start:'18:45',end:'',title:str(bablooIntro.title),lead:'Meenakshi',location:'Meenakshi residence · society',characters:['meenakshi','babloo'],status:str(bablooIntro.status),source:'episode-03-meenakshi-scene-04-babloo-intro.json',notes:'After badminton and return · time provisional · doorbell cut only, no encounter'}]:[]),
+  ...(bablooIntro?[{id:'EP03–04',date:str(bablooIntro.date),start:'18:45',end:'',title:str(bablooIntro.title),lead:'Meenakshi',location:'Tower C entrance / lift lobby · society',characters:['meenakshi','babloo'],status:str(bablooIntro.status),source:'episode-03-meenakshi-scene-04-babloo-intro.json',notes:'Approved five-beat first Babloo encounter (plot only) · 18:45–19:00 target, farmhouse/court travel still provisional'}]:[]),
   ...getEvents('episode-03-meenakshi-plan.json',meenaFuture,'Meenakshi'),
   ...getEvents('episode-03-ankita-pending.json',ankitaFuture,'Ankita'),
   ...getEvents('episode-03-shreya-plan.json',shreyaFuture,'Shreya')
@@ -61,10 +61,18 @@ export default function Planning({lead}:{lead:string}){
    {authorNotes&&<details className="episode-outline author-notes"><summary>Author's original requirements (verbatim, planning only)</summary><pre>{authorNotes}</pre></details>}
    <p className="muted">The Ishita doubles invitation remains deferred to a future scene. No ride outcome or accidental car interference has been promoted to canon.</p>
   </article>
-  <article className="episode-plan-card" id="ep03-meenakshi-scene-04"><span className="eyebrow">EP 03 · Scene 04 · Ending setup only</span><h2>The Bell — Babloo's Introduction</h2>
-   <p>1 January 2026 · Around 18:45, after Meenakshi's return · Clock provisional</p>
-   {bablooIntro?<div className="babloo-intro"><p>{String(bablooIntro.introAndHistory||'')}</p><p>{String(bablooIntro.setupAndCut||'')}</p></div>:<p>{bablooIntroError||'Loading the verified ending outline…'}</p>}
-   <strong>Episode 03 ends at the doorbell. First proper Babloo encounter stays in Episode 04.</strong>
+  <article className="episode-plan-card" id="ep03-meenakshi-scene-04"><span className="eyebrow">EP 03 · Scene 04 · Author-approved plot, no prose</span><h2>The First Different Look — Babloo</h2>
+   <p>1 January 2026 · Around 18:45–19:00 · Tower C entrance and lift lobby</p>
+   <p>Babloo (23) is already Meenakshi's familiar society pharmacy pickup helper. This is their first proper personal on-page encounter, not their first-ever introduction.</p>
+   {bablooIntro?<div className="babloo-intro">
+     <p>{str(bablooIntro.introAndHistory)}</p>
+     <div className="beat-list">{(bablooIntro.beats||[]).map((b,i)=><div className="beat-item" key={b.id||i}><span className="eyebrow">{b.id||'Plot beat'}</span><h3>{b.title||'Untitled beat'}</h3><p>{str(b.action)}</p>
+       {Array.isArray(b.dialogue)&&b.dialogue.map((line,i)=><p key={i}><strong>{str(line.speaker)}:</strong> {str(line.line)}</p>)}
+       {b.internal&&<p className="muted">{str(b.internal)}</p>}
+     </div>)}</div>
+     <p><strong>EP03 Meenakshi ending:</strong> She accepts Babloo's offer to help with her car tomorrow, and parts by the lift. EP04 car recovery is a possible continuation, not written yet.</p>
+   </div>:<p>{bablooIntroError||'Loading approved Babloo outline…'}</p>}
+   <p className="muted">Five-beat author-approved plot only. Timing remains provisional pending the farmhouse-to-badminton continuity review. No missing-parcel or second-doorbell plot.</p>
   </article>
     <article><span className="eyebrow">EP 04 · Reserved continuation</span><h2>Same moment, next episode</h2><p>1 January 2026 · 14:15 onwards</p><p>No continuation prose approved or written. This marker is a handoff, not a generated scene.</p><p className="muted">This continuation will appear here once its outline is written and approved.</p></article></section>}
   <section className="planning-panel"><div className="split"><div><span className="eyebrow">Working story lane</span><h2>{titleCase(active)}</h2><p>{activePlan?.plan?.title||'No separate Episode 03 working draft is available here yet.'}</p></div></div>
