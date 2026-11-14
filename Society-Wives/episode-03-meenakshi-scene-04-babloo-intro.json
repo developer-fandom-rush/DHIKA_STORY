@@ -2,21 +2,75 @@
   "id": "SW-EP03-MEENAKSHI-SCENE-04-BABLOO-INTRO",
   "episode": "03",
   "lead": "Meenakshi",
-  "scene": "04 — ending setup only",
+  "scene": "04 — first proper Babloo encounter / Meenakshi EP03 ending",
   "date": "2026-01-01",
-  "time": "Around 18:45 or shortly after, depending on preceding scene",
-  "title": "The Bell — Babloo's Introduction",
-  "status": "USER_DIRECTED_INTRO_ONLY_FIRST_ENCOUNTER_DEFERRED_EP04",
+  "time": "18:45–19:00 target (provisional)",
+  "title": "The First Different Look — Babloo",
+  "status": "USER_APPROVED_FIVE_BEAT_PLOT_NO_PROSE",
   "introAndHistory": "Babloo (23) society mein pharmacy pickups aur deliveries sambhalta hai. Meenakshi use pehle se jaanti hai aur uski reliable service par bharosa karti hai. Woh delivery instructions carefully follow karta hai. Abhi tak unka relationship familiar doctor–helper ka hai; koi romantic encounter establish nahi hua.",
-  "setupAndCut": "Twins ke saath badminton outing ke baad Meenakshi ghar lautti hai. Usi evening Babloo ek sealed pharmacy parcel lekar aata hai. Doorbell bajti hai; Meenakshi ko pata chalta hai ki Babloo bahar hai. Episode 03 yahin cut. Na conversation, na touch, na flirting. Unka first proper encounter Episode 04 mein hoga.",
-  "noEncounterRule": "No Babloo–Meenakshi dialogue, gazes, romantic tension, touch, flirtation or direct meeting in EP03.",
-  "ep04Handoff": "First proper Babloo encounter, beginning only after the EP03 doorbell cliffhanger; no EP04 Babloo actions authored or approved yet.",
+  "ep04Handoff": "Possible next-day car recovery / assistance involving Babloo; details remain unplanned. The separate 14:15 Naveen EP04 handoff remains unresolved and unchanged.",
   "priorCanon": "Babloo's name/role are in character-directory.json. Older episode-01.json S04 was proposed, not approved or published; no Babloo meeting is confirmed in published Meenakshi EP02 scenes. Do not invent a previous personal encounter.",
-  "clockNotes": "Meenakshi's 6:45 PM society/home return is a user-desired target; exact farmhouse (from 5 PM) and badminton travel still require timeline reconciliation. The cliffhanger follows arrival, not before.",
-  "deferred": [
-    "Babloo's background beyond established role and reliable service",
-    "Any Babloo–Meenakshi interaction",
-    "All Babloo adult-romance progression until EP04 approval"
+  "clockNotes": "Approved encounter planned for approximately 18:45–19:00 Jan 1. The five-minute court-to-society ride is user-specified; the 5 PM farmhouse-to-court timeline still needs reconciliation.",
+  "structure": "Short character history + five approved encounter beats; closing after the first personal conversation.",
+  "start": "18:45",
+  "end": "19:00",
+  "location": "Gulmohar Heights · Tower C entrance and lift lobby",
+  "approval": "USER_APPROVED_SCENE_DIRECTION",
+  "previousUnapprovedDraft": {
+    "title": "The Bell — Babloo's Introduction",
+    "status": "USER_DIRECTED_INTRO_ONLY_FIRST_ENCOUNTER_DEFERRED_EP04",
+    "setupAndCut": "Twins ke saath badminton outing ke baad Meenakshi ghar lautti hai. Usi evening Babloo ek sealed pharmacy parcel lekar aata hai. Doorbell bajti hai; Meenakshi ko pata chalta hai ki Babloo bahar hai. Episode 03 yahin cut. Na conversation, na touch, na flirting. Unka first proper encounter Episode 04 mein hoga.",
+    "ep04Handoff": "First proper Babloo encounter, beginning only after the EP03 doorbell cliffhanger; no EP04 Babloo actions authored or approved yet."
+  },
+  "beats": [
+    {
+      "id": "B01",
+      "title": "Unexpected meeting",
+      "action": "At around 6:45 PM the twins have just dropped Meenakshi after badminton. Babloo is arranging pharmacy parcels near Tower C. He catches the boys’ playful goodbye but is not involved in it.",
+      "internal": "The reader already knows Babloo as a society pharmacy helper; this is the first proper personal conversation with Meenakshi."
+    },
+    {
+      "id": "B02",
+      "title": "First different look",
+      "action": "Babloo notices Meenakshi's loose hair, plum kurta’s hourglass silhouette, cheerful expression and softer-than-usual smile. His appreciative gaze holds for a moment and Meenakshi notices.",
+      "internal": "This differs from how he normally sees her at work; no hidden exposure or unwanted physical contact."
+    },
+    {
+      "id": "B03",
+      "title": "Flirtation",
+      "action": "Meenakshi starts with a teasing question. Babloo responds with an unexpectedly confident compliment; she smiles and continues the playful exchange.",
+      "dialogue": [
+        {
+          "speaker": "Meenakshi",
+          "line": "Kya hua, Babloo? Aaj pehchaan nahi paaye?"
+        },
+        {
+          "speaker": "Babloo",
+          "line": "Pehchaan toh gaya, Doctor Madam. Bas aaj aap kuch zyada hi khoobsurat lag rahi hain."
+        }
+      ],
+      "internal": "First clearly personal compliment; Meenakshi responds knowingly and playfully."
+    },
+    {
+      "id": "B04",
+      "title": "Concern beyond appearance",
+      "action": "Babloo notices that Meenakshi's own car has not returned. She explains the car stopped working near the badminton court. He genuinely offers to help check or recover it tomorrow.",
+      "internal": "His concern goes beyond her appearance and gives their next interaction a distinct practical purpose."
+    },
+    {
+      "id": "B05",
+      "title": "Closing hook",
+      "action": "Meenakshi agrees to Babloo's help with her car the following day. They part by the lift. She recalls his unusual confidence as she walks away, and Babloo remembers her positive response to his compliment.",
+      "internal": "EP03 Meenakshi viewpoint ends here; Episode 04 car-recovery scene is a potential next encounter, not already written."
+    }
   ],
-  "structure": "Exactly two short plot paragraphs, then cut. No expanded beats."
+  "summary": "Two-paragraph established helper history followed by first direct personal encounter at Tower C after badminton; five approved plot beats, with first appreciative glance and teasing compliment, car breakdown connection, and tomorrow's help offer.",
+  "ending": "Meenakshi accepts a future car-recovery help offer, leaves for the lift, and privately recalls his unexpectedly bold compliment. No second doorbell; no encounter deferred.",
+  "boundaries": [
+    "No copied Dhika groceries, noodles, or second-doorbell sequence.",
+    "No unapproved physical touch or home-interior encounter.",
+    "Approved plot only; no full narrative prose yet.",
+    "6:45 PM scene start is a target, contingent on farmhouse and badminton continuity review."
+  ],
+  "driveDraft": "https://docs.google.com/document/d/1JuZp20L_wtOMJcAHKtVti-Qlpsj38o9GiNLZ07HzbzY/edit"
 }
