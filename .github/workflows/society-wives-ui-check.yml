@@ -1,0 +1,53 @@
+name: Society Wives UI — PR verification
+on:
+  pull_request:
+    paths:
+      - 'Society-Wives/**'
+      - '.github/workflows/pages.yml'
+      - '.github/workflows/society-wives-ui-check.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install dependencies
+        run: npm install --no-audit --no-fund
+        working-directory: Society-Wives/ui
+      - name: Verify source integrity
+        run: npm run test
+        working-directory: Society-Wives/ui
+      - name: Compile React TypeScript app
+        run: npm run build
+        working-directory: Society-Wives/ui
+      - name: Install headless browser
+        run: npx playwright install chromium --with-deps
+        working-directory: Society-Wives/ui
+      - name: Browser and mobile visual smoke tests
+        shell: bash
+        run: |
+          mkdir -p .preview-site/DHIKA_STORY/Society-Wives
+          rsync -a --exclude='/ui/' Society-Wives/ .preview-site/DHIKA_STORY/Society-Wives/
+          cp -a Society-Wives/ui/dist/. .preview-site/DHIKA_STORY/Society-Wives/
+          python3 -m http.server 4173 --directory .preview-site > /tmp/sw-ui-preview-server.log 2>&1 &
+          sleep 2
+          cd Society-Wives/ui
+          npm run test:browser
+      - name: Upload desktop/mobile screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: society-wives-visual-browser-tests
+          path: Society-Wives/ui/test-screenshots
+      - name: Upload staged preview build
+        uses: actions/upload-artifact@v4
+        with:
+          name: society-wives-unified-preview
+          path: Society-Wives/ui/dist
