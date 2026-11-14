@@ -67,6 +67,7 @@ try {
  check(await page.locator('main a').count()===0,'Planning stays inside the app with no raw source links');
  check(await page.locator('.perspective-tabs button').count()===5,'Planning shows five lead selectors');
  await page.locator('.perspective-tabs button', {hasText:'Shreya'}).click();
+ await page.locator('.continuity-cards').waitFor({state:'detached'});
  check(await page.locator('.continuity-cards').count()===0,'Shreya planning view does not show unrelated Meenakshi episode cards');
  await page.locator('.perspective-tabs button', {hasText:'Meenakshi'}).click();
  await page.locator('.continuity-cards').waitFor();
