@@ -50,6 +50,15 @@ try {
  await page.locator('.profile-portrait').waitFor();
  check(await page.locator('.profile-portrait').evaluate(img=>img instanceof HTMLImageElement&&img.complete&&img.naturalWidth>100),'Poonam has a working in-app portrait');
  check(await page.locator('main a').count()===0,'Character directory has no scattered external file links');
+ await page.waitForFunction(()=>document.querySelector('#female-library select')?.value==='shreya_woman_03');
+ check(await page.locator('#female-library select').inputValue()==='shreya_woman_03','Poonam profile shows her own female reference library');
+ check(await page.locator('#female-library .female-photo').count()===0,'Character faces hidden before reveal');
+ await page.locator('#female-library .female-reveal-toggle').first().click();
+ check(await page.locator('#female-library .female-photo').count()===1,'Poonam reference face appears after reveal');
+ check(await page.locator('#female-library .female-photo img').count()===0,'Private image not requested until preview click');
+ await page.locator('#female-library .female-reveal-toggle').last().click();
+ check(await page.locator('#female-library .female-photo').count()===2,'Reference and generated look available in separate reveals');
+
  await page.screenshot({path:resolve(screenshots,'03-shreya-characters-desktop.png')});
  await page.locator('.main-nav a[href="#/characters"]').click();
  await page.locator('.perspective-tabs button', {hasText:'Meenakshi'}).click();
@@ -59,6 +68,15 @@ try {
  await page.locator('.main-nav a[href="#/gallery"]').click();
  await page.locator('.image-card').first().waitFor();
  check(await page.locator('.image-card').count()===54,'Gallery contains 54 indexed images (37 GitHub, 17 Drive)');
+ check(await page.locator('#female-library select option').count()===21,'Image Gallery indexes all 21 female reference identities');
+ check(await page.locator('#female-library .female-reveal-toggle').count()===2,'Gallery has separate Reference Face and Generated Looks reveal controls');
+ check(await page.locator('#female-library .female-photo').count()===0,'Gallery images remain hidden until explicitly revealed');
+ await page.locator('#female-library select').selectOption('meenakshi');
+ await page.locator('#female-library .female-reveal-toggle').last().click();
+ check(await page.locator('#female-library .female-photo').count()===1,'Meenakshi generated image is revealed on demand');
+ await page.locator('#female-library .female-reveal-toggle').last().click();
+ check(await page.locator('#female-library .female-photo').count()===0,'Generated look can be hidden again');
+
  await page.locator('label').filter({hasText:'Character'}).locator('select').selectOption('shreya');
  await page.getByText('Poonam — sub-inspector').waitFor();
  check(await page.getByText('Poonam — sub-inspector').count()===1,'Shreya storyline filter includes public Poonam office portrait');
