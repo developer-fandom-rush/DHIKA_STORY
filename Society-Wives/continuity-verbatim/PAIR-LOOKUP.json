@@ -4778,15 +4778,6 @@
           "full_scene_for_context": "M11",
           "scene_approved": false,
           "json_path": "Society-Wives/continuity-verbatim/episode-02/meenakshi.json"
-        },
-        {
-          "scene_id": "M12",
-          "evidence_line_ids": [
-            "M12-L013"
-          ],
-          "full_scene_for_context": "M12",
-          "scene_approved": false,
-          "json_path": "Society-Wives/continuity-verbatim/episode-02/meenakshi.json"
         }
       ],
       "Mrs. Bedi": [
@@ -4873,15 +4864,6 @@
           "full_scene_for_context": "M06",
           "scene_approved": false,
           "json_path": "Society-Wives/continuity-verbatim/episode-02/meenakshi.json"
-        },
-        {
-          "scene_id": "M12",
-          "evidence_line_ids": [
-            "M12-L014"
-          ],
-          "full_scene_for_context": "M12",
-          "scene_approved": false,
-          "json_path": "Society-Wives/continuity-verbatim/episode-02/meenakshi.json"
         }
       ],
       "Sunil Yadav": [
@@ -4904,15 +4886,6 @@
             "M06-L031"
           ],
           "full_scene_for_context": "M06",
-          "scene_approved": false,
-          "json_path": "Society-Wives/continuity-verbatim/episode-02/meenakshi.json"
-        },
-        {
-          "scene_id": "M12",
-          "evidence_line_ids": [
-            "M12-L014"
-          ],
-          "full_scene_for_context": "M12",
           "scene_approved": false,
           "json_path": "Society-Wives/continuity-verbatim/episode-02/meenakshi.json"
         }
@@ -5113,10 +5086,8 @@
           "scene_id": "M12",
           "evidence_line_ids": [
             "M12-L001",
-            "M12-L003",
-            "M12-L008",
-            "M12-L013",
-            "M12-L014"
+            "M12-L002",
+            "M12-L004"
           ],
           "full_scene_for_context": "M12",
           "scene_approved": false,
