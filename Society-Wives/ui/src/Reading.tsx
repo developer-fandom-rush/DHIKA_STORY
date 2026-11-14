@@ -13,7 +13,7 @@ export default function Reading({character,scene}:Props){
  useEffect(()=>{if(!selected)return;setVisited(prev=>({...prev,[active]:Array.from(new Set([...(prev[active]||[]),selected.scene_id]))}));},[active,selected?.scene_id]);
  const goScene=(id:string,who=active)=>openPage('reading',{character:who,scene:id});
  const html=selected?.source_html_lines_exact?.join('\n')||'';
- const safeHtml=DOMPurify.sanitize(html,{USE_PROFILES:{html:true}});
+ const safeHtml=DOMPurify.sanitize(html,{USE_PROFILES:{html:true},FORBID_ATTR:['href','target','rel']});
  const displayStatus=selected&&archive?(approvedScene(archive,selected)?'Approved source':'Published source — approval review'):null;
  return <main className="page-width">
   <header className="section-intro"><span className="eyebrow">The Story · 1 January 2026</span><h1>Episode 02</h1><p>The New Year's Unspoken Secrets · Choose whose story to read.</p></header>
