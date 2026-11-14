@@ -49,7 +49,7 @@ assert.equal(paths.size,27,'Expected complete GitHub image inventory');
 const inline=originalHtml.match(new RegExp('data:image/webp;base64,([a-zA-Z0-9+/=]+)'));
 assert.ok(inline,'Original embedded WebP source missing');
 assert.deepEqual(readFileSync(resolve(root,'assets/shivani-a03-inline-original.webp')),Buffer.from(inline[1],'base64'),'Extracted original WebP differs');
-assert.equal(gallery.images.filter(x=>x.source==='Google Drive').length,11,'Expected 11 restricted Drive image references');
+assert.equal(gallery.images.filter(x=>x.source==='Google Drive').length,21,'Expected 21 restricted Drive image references including ten Shreya office photos');
 const directory=read('character-directory.json');
 assert.equal(directory.leads.length,5);
 assert.ok(directory.people.some(x=>x.id==='soniya'),'Soniya profile missing');
@@ -57,4 +57,7 @@ assert.equal(new Set(directory.people.map(x=>x.id)).size,directory.people.length
 console.log('PASS: EP01 17 original scenes; EP02 '+total+' published source scenes in 6 archives.');
 console.log('PASS: original scene HTML present, approved-only source separate, no source rewritten.');
 console.log('PASS: Meenakshi 01 Jan 13:50-14:15; Jan2 and Jan3 planning preserved.');
-console.log('PASS: '+paths.size+' GitHub images, 10 restricted Drive references, unique character IDs.');
+const office=gallery.images.filter(x=>x.storyline==='shreya');
+assert.equal(office.length,10,'Ten Shreya office image references must be indexed');
+for(const row of office){assert.equal(row.restricted,true,'Office Drive image unexpectedly public');assert.ok(row.characters.length,'Office asset must have canonical cast tag');}
+console.log('PASS: '+paths.size+' GitHub images, 21 restricted Drive references, unique character IDs.');
