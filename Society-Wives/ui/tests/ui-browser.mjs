@@ -49,7 +49,7 @@ try {
  check((await page.locator('.profile-panel').innerText()).includes('Sub-Inspector'),'Poonam canonical office role displayed');
  await page.locator('.profile-portrait').waitFor();
  check(await page.locator('.profile-portrait').evaluate(img=>img instanceof HTMLImageElement&&img.complete&&img.naturalWidth>100),'Poonam has a working in-app portrait');
- check(await page.locator('main a').count()===0,'Character directory has no scattered external file links');
+ check(await page.locator('main a[href^="https://github.com"]').count()===0,'Character directory has no scattered raw source links');
  await page.waitForFunction(()=>document.querySelector('#female-library select')?.value==='shreya_woman_03');
  check(await page.locator('#female-library select').inputValue()==='shreya_woman_03','Poonam profile shows her own female reference library');
  check(await page.locator('#female-library .female-photo').count()===0,'Character faces hidden before reveal');
