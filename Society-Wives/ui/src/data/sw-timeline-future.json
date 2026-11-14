@@ -1,0 +1,1297 @@
+{
+  "schema": "story-universal-timeline-v1",
+  "universe": "sw",
+  "anchorDate": "2026-01-01",
+  "notes": [
+    "EP01 is an undated prologue; do not manufacture Jan 1 date.",
+    "M08 and Shreya SR10–SR13 are rescheduled, NOT cancelled/deferred.",
+    "Older Jan2 Meenakshi outline is kept separately as an archived planning proposal.",
+    "Ankita future draft dates are provisional, therefore unassigned."
+  ],
+  "events": [
+    {
+      "id": "ep01-S01",
+      "date": null,
+      "sort": "06:45",
+      "start": "06:45",
+      "end": null,
+      "timeLabel": "06:45",
+      "universe": "sw",
+      "title": "The pin and the morning call",
+      "lead": "Ankita",
+      "characters": [
+        "Ankita"
+      ],
+      "mentions": [],
+      "episode": "01",
+      "scene": "S01",
+      "kind": "prologue",
+      "state": "draft",
+      "status": "Prologue draft · calendar date unverified",
+      "source": "episode-01.json",
+      "reader": {
+        "type": "sw-prologue",
+        "scene": "S01"
+      },
+      "flags": [
+        "Prologue weekday/date not established in source"
+      ],
+      "detail": "Tower C · Malhotra flat"
+    },
+    {
+      "id": "ep01-S02",
+      "date": null,
+      "sort": "07:10",
+      "start": "07:10",
+      "end": null,
+      "timeLabel": "07:10",
+      "universe": "sw",
+      "title": "Two minutes before the lecture",
+      "lead": "Shivani",
+      "characters": [
+        "Shivani"
+      ],
+      "mentions": [],
+      "episode": "01",
+      "scene": "S02",
+      "kind": "prologue",
+      "state": "draft",
+      "status": "Prologue draft · calendar date unverified",
+      "source": "episode-01.json",
+      "reader": {
+        "type": "sw-prologue",
+        "scene": "S02"
+      },
+      "flags": [
+        "Prologue weekday/date not established in source"
+      ],
+      "detail": "Tower C · Ahuja flat / lift"
+    },
+    {
+      "id": "ep01-S03",
+      "date": null,
+      "sort": "07:25",
+      "start": "07:25",
+      "end": null,
+      "timeLabel": "07:25",
+      "universe": "sw",
+      "title": "Two calendars, one wedding",
+      "lead": "Taniya",
+      "characters": [
+        "Taniya"
+      ],
+      "mentions": [],
+      "episode": "01",
+      "scene": "S03",
+      "kind": "prologue",
+      "state": "draft",
+      "status": "Prologue draft · calendar date unverified",
+      "source": "episode-01.json",
+      "reader": {
+        "type": "sw-prologue",
+        "scene": "S03"
+      },
+      "flags": [
+        "Prologue weekday/date not established in source"
+      ],
+      "detail": "Tower C · lobby / phone"
+    },
+    {
+      "id": "ep01-S04",
+      "date": null,
+      "sort": "07:42",
+      "start": "07:42",
+      "end": null,
+      "timeLabel": "07:42",
+      "universe": "sw",
+      "title": "Before the hospital shift",
+      "lead": "Meenakshi",
+      "characters": [
+        "Meenakshi"
+      ],
+      "mentions": [],
+      "episode": "01",
+      "scene": "S04",
+      "kind": "prologue",
+      "state": "draft",
+      "status": "Prologue draft · calendar date unverified",
+      "source": "episode-01.json",
+      "reader": {
+        "type": "sw-prologue",
+        "scene": "S04"
+      },
+      "flags": [
+        "Prologue weekday/date not established in source"
+      ],
+      "detail": "Tower C · Kapoor flat / parking"
+    },
+    {
+      "id": "ep01-S05",
+      "date": null,
+      "sort": "08:00",
+      "start": "08:00",
+      "end": null,
+      "timeLabel": "08:00",
+      "universe": "sw",
+      "title": "Off duty for eleven minutes",
+      "lead": "Shreya",
+      "characters": [
+        "Shreya"
+      ],
+      "mentions": [],
+      "episode": "01",
+      "scene": "S05",
+      "kind": "prologue",
+      "state": "draft",
+      "status": "Prologue draft · calendar date unverified",
+      "source": "episode-01.json",
+      "reader": {
+        "type": "sw-prologue",
+        "scene": "S05"
+      },
+      "flags": [
+        "Prologue weekday/date not established in source"
+      ],
+      "detail": "Tower C · entrance"
+    },
+    {
+      "id": "ep01-S06",
+      "date": null,
+      "sort": "09:05",
+      "start": "09:05",
+      "end": null,
+      "timeLabel": "09:05",
+      "universe": "sw",
+      "title": "The woman who leads the release",
+      "lead": "Ankita",
+      "characters": [
+        "Ankita"
+      ],
+      "mentions": [],
+      "episode": "01",
+      "scene": "S06",
+      "kind": "prologue",
+      "state": "draft",
+      "status": "Prologue draft · calendar date unverified",
+      "source": "episode-01.json",
+      "reader": {
+        "type": "sw-prologue",
+        "scene": "S06"
+      },
+      "flags": [
+        "Prologue weekday/date not established in source"
+      ],
+      "detail": "Cyber City · project floor"
+    },
+    {
+      "id": "ep01-S07",
+      "date": null,
+      "sort": "09:40",
+      "start": "09:40",
+      "end": null,
+      "timeLabel": "09:40",
+      "universe": "sw",
+      "title": "The college rehearsal that would not fit",
+      "lead": "Shivani",
+      "characters": [
+        "Shivani"
+      ],
+      "mentions": [],
+      "episode": "01",
+      "scene": "S07",
+      "kind": "prologue",
+      "state": "draft",
+      "status": "Prologue draft · calendar date unverified",
+      "source": "episode-01.json",
+      "reader": {
+        "type": "sw-prologue",
+        "scene": "S07"
+      },
+      "flags": [
+        "Prologue weekday/date not established in source"
+      ],
+      "detail": "College · faculty staffroom / campus auditorium"
+    },
+    {
+      "id": "ep01-S08",
+      "date": null,
+      "sort": "10:18",
+      "start": "10:18",
+      "end": null,
+      "timeLabel": "10:18",
+      "universe": "sw",
+      "title": "The numbers and the joke",
+      "lead": "Taniya",
+      "characters": [
+        "Taniya"
+      ],
+      "mentions": [],
+      "episode": "01",
+      "scene": "S08",
+      "kind": "prologue",
+      "state": "draft",
+      "status": "Prologue draft · calendar date unverified",
+      "source": "episode-01.json",
+      "reader": {
+        "type": "sw-prologue",
+        "scene": "S08"
+      },
+      "flags": [
+        "Prologue weekday/date not established in source"
+      ],
+      "detail": "CA firm · audit desk"
+    },
+    {
+      "id": "ep01-S09",
+      "date": null,
+      "sort": "10:55",
+      "start": "10:55",
+      "end": null,
+      "timeLabel": "10:55",
+      "universe": "sw",
+      "title": "The doctor who stays calm",
+      "lead": "Meenakshi",
+      "characters": [
+        "Meenakshi"
+      ],
+      "mentions": [],
+      "episode": "01",
+      "scene": "S09",
+      "kind": "prologue",
+      "state": "draft",
+      "status": "Prologue draft · calendar date unverified",
+      "source": "episode-01.json",
+      "reader": {
+        "type": "sw-prologue",
+        "scene": "S09"
+      },
+      "flags": [
+        "Prologue weekday/date not established in source"
+      ],
+      "detail": "Hospital · ward desk"
+    },
+    {
+      "id": "ep01-S10",
+      "date": null,
+      "sort": "11:30",
+      "start": "11:30",
+      "end": null,
+      "timeLabel": "11:30",
+      "universe": "sw",
+      "title": "Command without raising her voice",
+      "lead": "Shreya",
+      "characters": [
+        "Shreya"
+      ],
+      "mentions": [],
+      "episode": "01",
+      "scene": "S10",
+      "kind": "prologue",
+      "state": "draft",
+      "status": "Prologue draft · calendar date unverified",
+      "source": "episode-01.json",
+      "reader": {
+        "type": "sw-prologue",
+        "scene": "S10"
+      },
+      "flags": [
+        "Prologue weekday/date not established in source"
+      ],
+      "detail": "Police station · briefing room"
+    },
+    {
+      "id": "ep01-S11",
+      "date": null,
+      "sort": "13:05",
+      "start": "13:05",
+      "end": null,
+      "timeLabel": "13:05",
+      "universe": "sw",
+      "title": "The compliment after the fix",
+      "lead": "Ankita",
+      "characters": [
+        "Ankita"
+      ],
+      "mentions": [],
+      "episode": "01",
+      "scene": "S11",
+      "kind": "prologue",
+      "state": "draft",
+      "status": "Prologue draft · calendar date unverified",
+      "source": "episode-01.json",
+      "reader": {
+        "type": "sw-prologue",
+        "scene": "S11"
+      },
+      "flags": [
+        "Prologue weekday/date not established in source"
+      ],
+      "detail": "IT office · meeting room"
+    },
+    {
+      "id": "ep01-S12",
+      "date": null,
+      "sort": "19:25",
+      "start": "19:25",
+      "end": null,
+      "timeLabel": "19:25",
+      "universe": "sw",
+      "title": "Five people, five versions of the evening",
+      "lead": "Shared",
+      "characters": [
+        "Shared"
+      ],
+      "mentions": [],
+      "episode": "01",
+      "scene": "S12",
+      "kind": "prologue",
+      "state": "draft",
+      "status": "Prologue draft · calendar date unverified",
+      "source": "episode-01.json",
+      "reader": {
+        "type": "sw-prologue",
+        "scene": "S12"
+      },
+      "flags": [
+        "Prologue weekday/date not established in source"
+      ],
+      "detail": "Gulmohar Heights · courtyard"
+    },
+    {
+      "id": "ep01-S13",
+      "date": null,
+      "sort": "20:18",
+      "start": "20:18",
+      "end": null,
+      "timeLabel": "20:18",
+      "universe": "sw",
+      "title": "The smile that stayed",
+      "lead": "Ankita",
+      "characters": [
+        "Ankita"
+      ],
+      "mentions": [],
+      "episode": "01",
+      "scene": "S13",
+      "kind": "prologue",
+      "state": "draft",
+      "status": "Prologue draft · calendar date unverified",
+      "source": "episode-01.json",
+      "reader": {
+        "type": "sw-prologue",
+        "scene": "S13"
+      },
+      "flags": [
+        "Prologue weekday/date not established in source"
+      ],
+      "detail": "Malhotra flat · dining table"
+    },
+    {
+      "id": "ep01-S14",
+      "date": null,
+      "sort": "20:30",
+      "start": "20:30",
+      "end": null,
+      "timeLabel": "20:30",
+      "universe": "sw",
+      "title": "A compliment with no conclusion",
+      "lead": "Shivani",
+      "characters": [
+        "Shivani"
+      ],
+      "mentions": [],
+      "episode": "01",
+      "scene": "S14",
+      "kind": "prologue",
+      "state": "draft",
+      "status": "Prologue draft · calendar date unverified",
+      "source": "episode-01.json",
+      "reader": {
+        "type": "sw-prologue",
+        "scene": "S14"
+      },
+      "flags": [
+        "Prologue weekday/date not established in source"
+      ],
+      "detail": "Ahuja flat · kitchen"
+    },
+    {
+      "id": "ep01-S15",
+      "date": null,
+      "sort": "20:43",
+      "start": "20:43",
+      "end": null,
+      "timeLabel": "20:43",
+      "universe": "sw",
+      "title": "One coffee wager",
+      "lead": "Taniya",
+      "characters": [
+        "Taniya"
+      ],
+      "mentions": [],
+      "episode": "01",
+      "scene": "S15",
+      "kind": "prologue",
+      "state": "draft",
+      "status": "Prologue draft · calendar date unverified",
+      "source": "episode-01.json",
+      "reader": {
+        "type": "sw-prologue",
+        "scene": "S15"
+      },
+      "flags": [
+        "Prologue weekday/date not established in source"
+      ],
+      "detail": "Tower C · balcony"
+    },
+    {
+      "id": "ep01-S16",
+      "date": null,
+      "sort": "20:56",
+      "start": "20:56",
+      "end": null,
+      "timeLabel": "20:56",
+      "universe": "sw",
+      "title": "The person who noticed",
+      "lead": "Meenakshi",
+      "characters": [
+        "Meenakshi"
+      ],
+      "mentions": [],
+      "episode": "01",
+      "scene": "S16",
+      "kind": "prologue",
+      "state": "draft",
+      "status": "Prologue draft · calendar date unverified",
+      "source": "episode-01.json",
+      "reader": {
+        "type": "sw-prologue",
+        "scene": "S16"
+      },
+      "flags": [
+        "Prologue weekday/date not established in source"
+      ],
+      "detail": "Kapoor flat · living room"
+    },
+    {
+      "id": "ep01-S17",
+      "date": null,
+      "sort": "21:08",
+      "start": "21:08",
+      "end": null,
+      "timeLabel": "21:08",
+      "universe": "sw",
+      "title": "Two kinds of respect",
+      "lead": "Shreya",
+      "characters": [
+        "Shreya"
+      ],
+      "mentions": [],
+      "episode": "01",
+      "scene": "S17",
+      "kind": "prologue",
+      "state": "draft",
+      "status": "Prologue draft · calendar date unverified",
+      "source": "episode-01.json",
+      "reader": {
+        "type": "sw-prologue",
+        "scene": "S17"
+      },
+      "flags": [
+        "Prologue weekday/date not established in source"
+      ],
+      "detail": "Rathore flat · doorway"
+    },
+    {
+      "id": "jan02-meenakshi-M3-01",
+      "date": "2026-01-02",
+      "sort": "08:45",
+      "start": "08:45",
+      "end": "09:10",
+      "timeLabel": "08:45–09:10",
+      "universe": "sw",
+      "title": "The Photograph from Yesterday",
+      "lead": "Meenakshi",
+      "characters": [
+        "meenakshi",
+        "rupa"
+      ],
+      "mentions": [],
+      "episode": "Future plan",
+      "scene": "M3-01",
+      "kind": "planned",
+      "state": "older-draft",
+      "status": "Older 2 Jan working plan · review",
+      "source": "episode-03-meenakshi-plan.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "meenakshi",
+        "scene": "M3-01"
+      },
+      "flags": [
+        "Older future-day draft — not the current Jan 1 Episode 03"
+      ],
+      "detail": "She reaches hospital in her own car; parking and car keys are established for the afternoon. Meenakshi keeps the 1 Jan 13:15 photo of the changed locker condition; she documents the concern through normal workplace process rather than publicly accusing anyone. Meenakshi knows that her belongings shifted; she does not know about Ritesh, Kunal, Khurana or the changing-room workers. Her composed exterior contrasts with the private unease that will surface again during ordinary conversation."
+    },
+    {
+      "id": "jan02-meenakshi-M3-02",
+      "date": "2026-01-02",
+      "sort": "09:10",
+      "start": "09:10",
+      "end": "10:20",
+      "timeLabel": "09:10–10:20",
+      "universe": "sw",
+      "title": "Three Younger Colleagues",
+      "lead": "Meenakshi",
+      "characters": [
+        "meenakshi",
+        "avi",
+        "yash",
+        "meenakshi_woman_01",
+        "rupa"
+      ],
+      "mentions": [],
+      "episode": "Future plan",
+      "scene": "M3-02",
+      "kind": "planned",
+      "state": "older-draft",
+      "status": "Older 2 Jan working plan · review",
+      "source": "episode-03-meenakshi-plan.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "meenakshi",
+        "scene": "M3-02"
+      },
+      "flags": [
+        "Older future-day draft — not the current Jan 1 Episode 03"
+      ],
+      "detail": "Serious ward work first: Meenakshi reviews a case; Avi is openly confident; Yash checks figures; Aditi handles a difficult follow-up independently. Aditi (24) is their same-age female peer: witty and observant, not a prop or a presumed romantic participant. At the file handoff, Avi compliments Meenakshi's composure; Yash is quiet but attentive; Aditi notices their different responses. Meenakshi says thank you professionally and does not allow patient care to become flirting."
+    },
+    {
+      "id": "jan02-meenakshi-M3-03",
+      "date": "2026-01-02",
+      "sort": "10:20",
+      "start": "10:20",
+      "end": "10:45",
+      "timeLabel": "10:20–10:45",
+      "universe": "sw",
+      "title": "A Compliment, a Glance, and a Wink",
+      "lead": "Meenakshi",
+      "characters": [
+        "meenakshi",
+        "avi",
+        "yash",
+        "meenakshi_woman_01"
+      ],
+      "mentions": [],
+      "episode": "Future plan",
+      "scene": "M3-03",
+      "kind": "planned",
+      "state": "older-draft",
+      "status": "Older 2 Jan working plan · review",
+      "source": "episode-03-meenakshi-plan.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "meenakshi",
+        "scene": "M3-03"
+      },
+      "flags": [
+        "Older future-day draft — not the current Jan 1 Episode 03"
+      ],
+      "detail": "After rounds the four adults pause for tea: flirting is outside patient-facing spaces. Avi's compliment has a plausible double meaning; Meenakshi outwardly deflects but privately feels briefly flattered by attention from younger adult colleagues. Yash quietly notices her relieved smile and evening outfit beneath the open white coat; no intrusive gaze is endorsed. Avi catches Yash's glance, taps his shoulder and winks; Yash blushes, Aditi spots the exchange and teases both. Meenakshi catches part of the exchange; the reader sees her private pleased-but-cautious reaction distinct from the trio's private interpretations."
+    },
+    {
+      "id": "jan02-meenakshi-M08",
+      "date": "2026-01-02",
+      "sort": "11:00",
+      "start": "11:00",
+      "end": "11:40",
+      "timeLabel": "11:00–11:40",
+      "universe": "sw",
+      "title": "Senior review",
+      "lead": "Meenakshi",
+      "characters": [
+        "meenakshi",
+        "kunal",
+        "khurana"
+      ],
+      "mentions": [],
+      "episode": "Future plan",
+      "scene": "M08",
+      "kind": "planned",
+      "state": "rescheduled",
+      "status": "Rescheduled to 2 Jan · writing pending",
+      "source": "episode-03-meenakshi-plan.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "meenakshi",
+        "scene": "M08"
+      },
+      "flags": [
+        "Moved from 1 Jan intentionally — not cancelled"
+      ],
+      "detail": "Dr. Kunal Bedi and chairman Dr. S. P. Khurana join administrative and departmental discussions; Dr. Leena is an existing clinician in the roster."
+    },
+    {
+      "id": "jan02-meenakshi-M3-04",
+      "date": "2026-01-02",
+      "sort": "11:45",
+      "start": "11:45",
+      "end": "12:15",
+      "timeLabel": "11:45–12:15",
+      "universe": "sw",
+      "title": "Naveen — The Missing Annexure",
+      "lead": "Meenakshi",
+      "characters": [
+        "meenakshi",
+        "naveen"
+      ],
+      "mentions": [],
+      "episode": "Future plan",
+      "scene": "M3-04",
+      "kind": "planned",
+      "state": "older-draft",
+      "status": "Older 2 Jan working plan · review",
+      "source": "episode-03-meenakshi-plan.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "meenakshi",
+        "scene": "M3-04"
+      },
+      "flags": [
+        "Older future-day draft — not the current Jan 1 Episode 03"
+      ],
+      "detail": "Chotu-equivalent in the hospital is Naveen (22), an admin assistant already present in 1 Jan M06; not a newly invented stranger. Introduce his established function and familiarity through reliable shift-sheet work; any family hardship, tuition or nickname backstory is only a proposal until accepted. He delivers the senior-review annexure, discovers one page is missing, offers to retrieve it and returns after a short interval. Meenakshi nicknames his speed 'express service'; his private impression is that her encouragement feels personal, while she regards it as friendly senior-colleague warmth. The missing-document-and-second-visit mechanism is separate from Babloo's society delivery."
+    },
+    {
+      "id": "jan02-meenakshi-M3-05",
+      "date": "2026-01-02",
+      "sort": "14:35",
+      "start": "14:35",
+      "end": "15:05",
+      "timeLabel": "14:35–15:05",
+      "universe": "sw",
+      "title": "Avi Requests the Ride",
+      "lead": "Meenakshi",
+      "characters": [
+        "meenakshi",
+        "avi",
+        "yash",
+        "meenakshi_woman_01"
+      ],
+      "mentions": [],
+      "episode": "Future plan",
+      "scene": "M3-05",
+      "kind": "planned",
+      "state": "older-draft",
+      "status": "Older 2 Jan working plan · review",
+      "source": "episode-03-meenakshi-plan.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "meenakshi",
+        "scene": "M3-05"
+      },
+      "flags": [
+        "Older future-day draft — not the current Jan 1 Episode 03"
+      ],
+      "detail": "Official health-camp vendor samples must be verified on Meenakshi's already planned route toward home. Avi initiates the lift request. His stated logistical reason is genuine, but he privately hopes to spend time with her; no false fuel story is forced. Meenakshi checks the address, agrees because she is already driving, and invites Aditi along for the supplies checklist. Yash is assigned directions; Aditi handles paperwork. Professional hierarchy, boundaries and freedom to decline remain explicit."
+    },
+    {
+      "id": "jan02-meenakshi-M3-06",
+      "date": "2026-01-02",
+      "sort": "15:05",
+      "start": "15:05",
+      "end": "15:20",
+      "timeLabel": "15:05–15:20",
+      "universe": "sw",
+      "title": "Who Was Watching Whom?",
+      "lead": "Meenakshi",
+      "characters": [
+        "meenakshi",
+        "avi",
+        "yash",
+        "meenakshi_woman_01"
+      ],
+      "mentions": [],
+      "episode": "Future plan",
+      "scene": "M3-06",
+      "kind": "planned",
+      "state": "older-draft",
+      "status": "Older 2 Jan working plan · review",
+      "source": "episode-03-meenakshi-plan.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "meenakshi",
+        "scene": "M3-06"
+      },
+      "flags": [
+        "Older future-day draft — not the current Jan 1 Episode 03"
+      ],
+      "detail": "Meenakshi walks ahead carrying her bag and a lightweight supply register; three younger peers follow a short distance. Avi privately admires her confident walk and fitted but everyday departure outfit. Yash also notices; admiration is kept as a private POV, not an invitation. Avi notices Yash's glance and gives the same private shoulder-tap and wink mechanism; Yash blushes. Aditi sees them and quietly calls out their competitiveness. Meenakshi glances back, notices their expressions and feels a brief internal blush before returning to the practical task. The parking-lot walking tableau is retained as an independent beat, not collapsed into 'they flirt'."
+    },
+    {
+      "id": "jan02-meenakshi-M3-07",
+      "date": "2026-01-02",
+      "sort": "15:20",
+      "start": "15:20",
+      "end": "15:55",
+      "timeLabel": "15:20–15:55",
+      "universe": "sw",
+      "title": "The Unexpected Front Seat",
+      "lead": "Meenakshi",
+      "characters": [
+        "meenakshi",
+        "avi",
+        "yash",
+        "meenakshi_woman_01"
+      ],
+      "mentions": [],
+      "episode": "Future plan",
+      "scene": "M3-07",
+      "kind": "planned",
+      "state": "older-draft",
+      "status": "Older 2 Jan working plan · review",
+      "source": "episode-03-meenakshi-plan.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "meenakshi",
+        "scene": "M3-07"
+      },
+      "flags": [
+        "Older future-day draft — not the current Jan 1 Episode 03"
+      ],
+      "detail": "Avi requested the ride and expects the front passenger seat; Yash already has navigation open. Meenakshi asks Yash to navigate from the front; Avi and Aditi sit in back with folders, preserving all four seatbelts. Avi conceals disappointment; Yash quietly enjoys the unexpected position but does not use it to intrude. Aditi quietly teases Avi; Meenakshi notices through the rear-view mirror only at a safe stop, never while navigating a turn. Light, mutual double entendre about 'front-row attention' and medical evaluations continues without breaking safe driving."
+    },
+    {
+      "id": "jan02-meenakshi-M3-08",
+      "date": "2026-01-02",
+      "sort": "15:55",
+      "start": "15:55",
+      "end": "16:15",
+      "timeLabel": "15:55–16:15",
+      "universe": "sw",
+      "title": "The Narrow Step",
+      "lead": "Meenakshi",
+      "characters": [
+        "meenakshi",
+        "avi",
+        "yash",
+        "meenakshi_woman_01"
+      ],
+      "mentions": [],
+      "episode": "Future plan",
+      "scene": "M3-08",
+      "kind": "planned",
+      "state": "older-draft",
+      "status": "Older 2 Jan working plan · review",
+      "source": "episode-03-meenakshi-plan.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "meenakshi",
+        "scene": "M3-08"
+      },
+      "flags": [
+        "Older future-day draft — not the current Jan 1 Episode 03"
+      ],
+      "detail": "At the supplier bay Aditi confirms seals; Avi checks inventory; Yash helps Meenakshi inspect a labelled carton. A trolley passes across a narrow step. She asks to steady herself on his forearm, and he agrees; he supports her upper arm for two seconds while she steps across. Close proximity and brief natural contact create surprise for both; they separate as soon as steady. No uninvited waist hold and no claim that silence means consent. Avi sees the closeness and later privately replays the moment. Aditi redirects the group to the actual supply count. Meenakshi's inner reaction is a small, surprising awareness of Yash's considerate behaviour, layered with professional caution."
+    },
+    {
+      "id": "jan02-meenakshi-M3-09",
+      "date": "2026-01-02",
+      "sort": "16:15",
+      "start": "16:15",
+      "end": "17:00",
+      "timeLabel": "16:15–17:00",
+      "universe": "sw",
+      "title": "Four Different Memories",
+      "lead": "Meenakshi",
+      "characters": [
+        "meenakshi",
+        "avi",
+        "yash",
+        "meenakshi_woman_01"
+      ],
+      "mentions": [],
+      "episode": "Future plan",
+      "scene": "M3-09",
+      "kind": "planned",
+      "state": "older-draft",
+      "status": "Older 2 Jan working plan · review",
+      "source": "episode-03-meenakshi-plan.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "meenakshi",
+        "scene": "M3-09"
+      },
+      "flags": [
+        "Older future-day draft — not the current Jan 1 Episode 03"
+      ],
+      "detail": "Meenakshi drops the three colleagues at a suitable public transit point, then drives herself back to society with her car. Avi jokes about losing the front seat; Aditi responds that the work was completed and has no patience for exaggerated rivalry. Yash keeps his thoughts private. Meenakshi recalls his calm warning at the narrow step, not an imagined romantic promise. The group separates clearly by 16:35–16:40. Meenakshi arrives home at about 17:00."
+    },
+    {
+      "id": "jan02-meenakshi-M3-10",
+      "date": "2026-01-02",
+      "sort": "17:10",
+      "start": "17:10",
+      "end": "17:35",
+      "timeLabel": "17:10–17:35",
+      "universe": "sw",
+      "title": "The Other Pair of Brothers",
+      "lead": "Meenakshi",
+      "characters": [
+        "meenakshi",
+        "uday",
+        "utkarsh"
+      ],
+      "mentions": [],
+      "episode": "Future plan",
+      "scene": "M3-10",
+      "kind": "planned",
+      "state": "older-draft",
+      "status": "Older 2 Jan working plan · review",
+      "source": "episode-03-meenakshi-plan.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "meenakshi",
+        "scene": "M3-10"
+      },
+      "flags": [
+        "Older future-day draft — not the current Jan 1 Episode 03"
+      ],
+      "detail": "Meenakshi, now at society with her car parked, checks the camp register and finds Uday and Utkarsh setting up a lightweight noticeboard. Uday resumes confident innuendo using a health-checkup metaphor; Meenakshi banters back instead of recoiling. Utkarsh makes an understated observation; she remembers his 1 January comment about being noticed, and privately smiles. A banner clip slips; she hands Utkarsh a clip and their fingers brush briefly during the handoff, followed by a normal, unhurried separation. Uday sees that she focuses on Utkarsh's answer, and his playful sibling competitiveness increases. Do NOT stage a second vehicle ride the same evening."
+    },
+    {
+      "id": "jan02-meenakshi-M3-11",
+      "date": "2026-01-02",
+      "sort": "17:40",
+      "start": "17:40",
+      "end": "17:55",
+      "timeLabel": "17:40–17:55",
+      "universe": "sw",
+      "title": "Babloo — The First Box",
+      "lead": "Meenakshi",
+      "characters": [
+        "meenakshi",
+        "babloo"
+      ],
+      "mentions": [],
+      "episode": "Future plan",
+      "scene": "M3-11",
+      "kind": "planned",
+      "state": "older-draft",
+      "status": "Older 2 Jan working plan · review",
+      "source": "episode-03-meenakshi-plan.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "meenakshi",
+        "scene": "M3-11"
+      },
+      "flags": [
+        "Older future-day draft — not the current Jan 1 Episode 03"
+      ],
+      "detail": "Society Chotu-equivalent Babloo (23), an established pharmacy pickup helper already recognised in EP01 and EP02; not Naveen under another name. He carries a sealed heavy pharmacy-supply box, is proud to help, and respectfully asks where to put it. Meenakshi checks items with the bill, thanks him, and gives practical lifting advice. One labelled packet is missing. Babloo apologizes, contacts the supplier and volunteers to return shortly. Reader sees Babloo's quiet admiration for her kindness; Meenakshi trusts his work but does not infer romantic interest."
+    },
+    {
+      "id": "jan02-meenakshi-M3-12",
+      "date": "2026-01-02",
+      "sort": "17:55",
+      "start": "17:55",
+      "end": "18:10",
+      "timeLabel": "17:55–18:10",
+      "universe": "sw",
+      "title": "The Smile She Cannot Explain",
+      "lead": "Meenakshi",
+      "characters": [
+        "meenakshi"
+      ],
+      "mentions": [],
+      "episode": "Future plan",
+      "scene": "M3-12",
+      "kind": "planned",
+      "state": "older-draft",
+      "status": "Older 2 Jan working plan · review",
+      "source": "episode-03-meenakshi-plan.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "meenakshi",
+        "scene": "M3-12"
+      },
+      "flags": [
+        "Older future-day draft — not the current Jan 1 Episode 03"
+      ],
+      "detail": "Meenakshi changes into comfortable home attire and organizes camp documents; she chooses her own privacy, independently of who will ring. She mentally compares Avi's boldness, Yash's care, Uday's humor, Utkarsh's observation, and the practical help of Naveen/Babloo without treating all attention as romance. Her husband Nikhil remains emotionally important; the Jan1 private surprise is an unresolved strand, not silently declared completed. A message says Babloo is bringing the missing item. She plans to verify the bill at the doorway, not assume a visitor may enter."
+    },
+    {
+      "id": "jan02-meenakshi-M3-13",
+      "date": "2026-01-02",
+      "sort": "18:10",
+      "start": "18:10",
+      "end": "18:20",
+      "timeLabel": "18:10–18:20",
+      "universe": "sw",
+      "title": "The Second Knock",
+      "lead": "Meenakshi",
+      "characters": [
+        "meenakshi",
+        "babloo"
+      ],
+      "mentions": [],
+      "episode": "Future plan",
+      "scene": "M3-13",
+      "kind": "planned",
+      "state": "older-draft",
+      "status": "Older 2 Jan working plan · review",
+      "source": "episode-03-meenakshi-plan.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "meenakshi",
+        "scene": "M3-13"
+      },
+      "flags": [
+        "Older future-day draft — not the current Jan 1 Episode 03"
+      ],
+      "detail": "The second doorbell rings while Meenakshi is checking the inventory and getting ready to answer. She checks who is outside, adjusts her shawl for her own comfort, and asks Babloo to confirm the missing label through the door. Reader knows Babloo returned to complete the task; Meenakshi is not granted knowledge of any hidden feelings. End at the door opening/hand-off threshold. The next episode can continue the same evening before any next-morning transition."
+    },
+    {
+      "id": "jan03-shreya-SR10",
+      "date": "2026-01-03",
+      "sort": "10:30",
+      "start": "10:30",
+      "end": "11:10",
+      "timeLabel": "10:30–11:10",
+      "universe": "sw",
+      "title": "ACP's unusual preference",
+      "lead": "Shreya",
+      "characters": [
+        "shreya",
+        "acp",
+        "shreya_woman_03"
+      ],
+      "mentions": [],
+      "episode": "Next",
+      "scene": "SR10",
+      "kind": "planned",
+      "state": "rescheduled",
+      "status": "Rescheduled to 3 Jan · writing pending",
+      "source": "episode-03-shreya-plan.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "shreya",
+        "scene": "SR10"
+      },
+      "flags": [
+        "Moved from Episode 02; remains planned, not removed",
+        "Time in plan is provisional"
+      ],
+      "detail": "ACP Verma (50) repeatedly asks Shreya for an individual briefing rather than the normal group one. Poonam notices the change."
+    },
+    {
+      "id": "jan03-shreya-SR11",
+      "date": "2026-01-03",
+      "sort": "11:30",
+      "start": "11:30",
+      "end": "11:40",
+      "timeLabel": "11:30–11:40",
+      "universe": "sw",
+      "title": "The DCP review",
+      "lead": "Shreya",
+      "characters": [
+        "shreya",
+        "dcp"
+      ],
+      "mentions": [],
+      "episode": "Next",
+      "scene": "SR11",
+      "kind": "planned",
+      "state": "rescheduled",
+      "status": "Rescheduled to 3 Jan · writing pending",
+      "source": "episode-03-shreya-plan.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "shreya",
+        "scene": "SR11"
+      },
+      "flags": [
+        "Moved from Episode 02; remains planned, not removed",
+        "Time in plan is provisional"
+      ],
+      "detail": "DCP Rathod (58) completes a performance review; any private attraction remains an unconfirmed future proposal."
+    },
+    {
+      "id": "jan03-shreya-SR12",
+      "date": "2026-01-03",
+      "sort": "11:40",
+      "start": "11:40",
+      "end": "12:15",
+      "timeLabel": "11:40–12:15",
+      "universe": "sw",
+      "title": "The cellblock bet",
+      "lead": "Shreya",
+      "characters": [
+        "shreya",
+        "inmate_a",
+        "inmate_b"
+      ],
+      "mentions": [],
+      "episode": "Next",
+      "scene": "SR12",
+      "kind": "planned",
+      "state": "rescheduled",
+      "status": "Rescheduled to 3 Jan · writing pending",
+      "source": "episode-03-shreya-plan.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "shreya",
+        "scene": "SR12"
+      },
+      "flags": [
+        "Moved from Episode 02; remains planned, not removed",
+        "Time in plan is provisional"
+      ],
+      "detail": "Two adult inmates privately bet that one can win Shreya's personal attention through charm and flattery during authorized questioning."
+    },
+    {
+      "id": "jan03-shreya-SR13",
+      "date": "2026-01-03",
+      "sort": "12:20",
+      "start": "12:20",
+      "end": "13:15",
+      "timeLabel": "12:20–13:15",
+      "universe": "sw",
+      "title": "A pattern Poonam notices",
+      "lead": "Shreya",
+      "characters": [
+        "shreya",
+        "chauhan",
+        "shreya_woman_03"
+      ],
+      "mentions": [],
+      "episode": "Next",
+      "scene": "SR13",
+      "kind": "planned",
+      "state": "rescheduled",
+      "status": "Rescheduled to 3 Jan · writing pending",
+      "source": "episode-03-shreya-plan.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "shreya",
+        "scene": "SR13"
+      },
+      "flags": [
+        "Moved from Episode 02; remains planned, not removed",
+        "Time in plan is provisional"
+      ],
+      "detail": "Shreya returns to paperwork. Poonam quietly flags Chauhan's unusual invitations and the changes in officer attention."
+    },
+    {
+      "id": "date-pending-ankita-A11",
+      "date": null,
+      "sort": "13:10",
+      "start": "13:10",
+      "end": "13:25",
+      "timeLabel": "13:10–13:25",
+      "universe": "sw",
+      "title": "The First Call About the Parcel",
+      "lead": "Ankita",
+      "characters": [
+        "Ankita"
+      ],
+      "mentions": [],
+      "episode": "Future plan",
+      "scene": "A11",
+      "kind": "planned",
+      "state": "date-review",
+      "status": "Date not locked · writing pending",
+      "source": "episode-03-ankita-pending.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "ankita",
+        "scene": "A11"
+      },
+      "flags": [
+        "Source plan's 1 Jan date is explicitly provisional; not assigned to Jan 1"
+      ],
+      "detail": ""
+    },
+    {
+      "id": "date-pending-ankita-A12",
+      "date": null,
+      "sort": "15:05",
+      "start": "15:05",
+      "end": "15:30",
+      "timeLabel": "15:05–15:30",
+      "universe": "sw",
+      "title": "A Compliment at Sign-Off",
+      "lead": "Ankita",
+      "characters": [
+        "Ankita"
+      ],
+      "mentions": [],
+      "episode": "Future plan",
+      "scene": "A12",
+      "kind": "planned",
+      "state": "date-review",
+      "status": "Date not locked · writing pending",
+      "source": "episode-03-ankita-pending.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "ankita",
+        "scene": "A12"
+      },
+      "flags": [
+        "Source plan's 1 Jan date is explicitly provisional; not assigned to Jan 1"
+      ],
+      "detail": ""
+    },
+    {
+      "id": "date-pending-ankita-A13",
+      "date": null,
+      "sort": "17:30",
+      "start": "17:30",
+      "end": "17:52",
+      "timeLabel": "17:30–17:52",
+      "universe": "sw",
+      "title": "Two Strange Offers of Help",
+      "lead": "Ankita",
+      "characters": [
+        "Ankita"
+      ],
+      "mentions": [],
+      "episode": "Future plan",
+      "scene": "A13",
+      "kind": "planned",
+      "state": "date-review",
+      "status": "Date not locked · writing pending",
+      "source": "episode-03-ankita-pending.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "ankita",
+        "scene": "A13"
+      },
+      "flags": [
+        "Source plan's 1 Jan date is explicitly provisional; not assigned to Jan 1"
+      ],
+      "detail": ""
+    },
+    {
+      "id": "date-pending-ankita-A14",
+      "date": null,
+      "sort": "18:00",
+      "start": "18:00",
+      "end": "18:25",
+      "timeLabel": "18:00–18:25",
+      "universe": "sw",
+      "title": "The Box at Home",
+      "lead": "Ankita",
+      "characters": [
+        "Ankita"
+      ],
+      "mentions": [],
+      "episode": "Future plan",
+      "scene": "A14",
+      "kind": "planned",
+      "state": "date-review",
+      "status": "Date not locked · writing pending",
+      "source": "episode-03-ankita-pending.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "ankita",
+        "scene": "A14"
+      },
+      "flags": [
+        "Source plan's 1 Jan date is explicitly provisional; not assigned to Jan 1"
+      ],
+      "detail": ""
+    },
+    {
+      "id": "date-pending-ankita-A15",
+      "date": null,
+      "sort": "19:05",
+      "start": "19:05",
+      "end": "19:32",
+      "timeLabel": "19:05–19:32",
+      "universe": "sw",
+      "title": "A Family That Does Not Know the Rumour",
+      "lead": "Ankita",
+      "characters": [
+        "Ankita"
+      ],
+      "mentions": [],
+      "episode": "Future plan",
+      "scene": "A15",
+      "kind": "planned",
+      "state": "date-review",
+      "status": "Date not locked · writing pending",
+      "source": "episode-03-ankita-pending.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "ankita",
+        "scene": "A15"
+      },
+      "flags": [
+        "Source plan's 1 Jan date is explicitly provisional; not assigned to Jan 1"
+      ],
+      "detail": ""
+    },
+    {
+      "id": "date-pending-ankita-A16",
+      "date": null,
+      "sort": "20:35",
+      "start": "20:35",
+      "end": "21:05",
+      "timeLabel": "20:35–21:05",
+      "universe": "sw",
+      "title": "Inventory and the Missing Sets",
+      "lead": "Ankita",
+      "characters": [
+        "Ankita"
+      ],
+      "mentions": [],
+      "episode": "Future plan",
+      "scene": "A16",
+      "kind": "planned",
+      "state": "date-review",
+      "status": "Date not locked · writing pending",
+      "source": "episode-03-ankita-pending.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "ankita",
+        "scene": "A16"
+      },
+      "flags": [
+        "Source plan's 1 Jan date is explicitly provisional; not assigned to Jan 1"
+      ],
+      "detail": ""
+    },
+    {
+      "id": "date-pending-ankita-A17",
+      "date": null,
+      "sort": "21:15",
+      "start": "21:15",
+      "end": "21:40",
+      "timeLabel": "21:15–21:40",
+      "universe": "sw",
+      "title": "The Question Not Yet Answered",
+      "lead": "Ankita",
+      "characters": [
+        "Ankita"
+      ],
+      "mentions": [],
+      "episode": "Future plan",
+      "scene": "A17",
+      "kind": "planned",
+      "state": "date-review",
+      "status": "Date not locked · writing pending",
+      "source": "episode-03-ankita-pending.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "ankita",
+        "scene": "A17"
+      },
+      "flags": [
+        "Source plan's 1 Jan date is explicitly provisional; not assigned to Jan 1"
+      ],
+      "detail": ""
+    }
+  ]
+}
