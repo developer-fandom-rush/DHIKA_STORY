@@ -1,0 +1,67 @@
+{
+  "schemaVersion": "1.0",
+  "id": "SW-EP03-MEENAKSHI-SCENE-01",
+  "episode": "03",
+  "scene": "01",
+  "lead": "Meenakshi",
+  "date": "2026-01-01",
+  "weekday": "Thursday",
+  "timezone": "Asia/Kolkata",
+  "start": "13:50",
+  "end": "14:15",
+  "title": "The Glance at the Corridor",
+  "status": "USER_DIRECTED_PLOT_OUTLINE_PUBLISHED_NOT_PROSE",
+  "continuityFrom": "EP02 Meenakshi M12 13:15 — locker disturbed; privately alert; no culprit knowledge; prior teasing during rounds remains part of her mood",
+  "characters": [
+    "meenakshi",
+    "naveen"
+  ],
+  "beats": [
+    {
+      "id": "N01",
+      "time": "13:50–13:54",
+      "title": "She isn't quite herself",
+      "external": "Naveen arrives with ordinary administrative papers. Meenakshi answers more briefly than usual.",
+      "internal": "She remains uneasy after the locker discovery; Naveen notices her subdued expression without pressing her."
+    },
+    {
+      "id": "N02",
+      "time": "13:54–13:59",
+      "title": "An unexpected laugh",
+      "external": "A familiar work-related exchange turns lightly teasing. Naveen gives an unexpectedly clever reply; Meenakshi genuinely laughs.",
+      "internal": "She gets a moment of relief; he privately appreciates the smile but does not presume romance."
+    },
+    {
+      "id": "N03",
+      "time": "13:59–14:08",
+      "title": "Normal tasks, separate spaces",
+      "external": "They part for normal duties. Naveen collects another handover copy. Meenakshi briefly visits the staff changing area, removes her white coat and adjusts her existing plum kurta and grey cardigan.",
+      "internal": "Her earlier locker concern remains unresolved. This is a mid-shift break, not her departure from the hospital."
+    },
+    {
+      "id": "N04",
+      "time": "14:08–14:15",
+      "title": "The unexpected glance — cut",
+      "external": "As Meenakshi gathers her bag, its strap catches her cardigan and briefly shifts the neckline enough to reveal an edge of inner clothing. Naveen reaches the corridor with the handover copy, notices, looks away; Meenakshi catches his glance and adjusts her outfit.",
+      "internal": "She feels briefly self-conscious while already uneasy about privacy; Naveen is surprised and deliberately avoids prolonged looking. No romantic or physical consent inferred.",
+      "cut": "STOP at 14:15 before reply, goodbye or follow-on interaction."
+    }
+  ],
+  "next": "EP04 Meenakshi × Naveen begins at 14:15 on the same date, immediately after this cut; events after 14:15 intentionally unwritten.",
+  "removed": [
+    "The earlier 16:51–16:53 goodbye sequence",
+    "16:35–16:53 evening timing",
+    "Any departure from hospital at 14:15"
+  ],
+  "assets": [
+    {
+      "path": "assets/meenakshi/confident_doctor_in_a_hospital_corridor.svg",
+      "type": "EXISTING_REFERENCE_NOT_NEW_SCENE_RENDER"
+    },
+    {
+      "path": "assets/meenakshi/glamorous_doctor_in_dressing_room.svg",
+      "type": "EXISTING_REFERENCE_NOT_NEW_SCENE_RENDER"
+    }
+  ],
+  "approvedScope": "Author-directed timing, beats and cut-point approved for posting as short plot outline only. No full prose and no subsequent EP04 encounter approved."
+}
