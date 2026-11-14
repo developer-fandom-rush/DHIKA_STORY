@@ -235,7 +235,14 @@ async function start(){
   el("loading").classList.add("hidden");el("search-view").classList.remove("hidden");
   setup();
   const ep=(location.hash.match(/episode=(\d+)/)||[])[1];
-  if(ep&&library.some(x=>x.n===Number(ep))){episodeNumber=Number(ep);el("reader-episode").value=ep;show("reader");}
+  if(ep&&library.some(x=>x.n===Number(ep))){
+   episodeNumber=Number(ep);el("reader-episode").value=ep;show("reader");
+   const paragraph=(location.hash.match(/paragraph=(EP\\d{2}-P\\d{4})/)||[])[1];
+   if(paragraph){requestAnimationFrame(()=>{
+    const line=document.getElementById(paragraph);
+    if(line){line.classList.add("timeline-target");line.scrollIntoView({behavior:"instant",block:"center"});}
+   });}
+  }
  }catch(e){
   el("loading").innerHTML='<h2>Could not load source archive</h2><p>'+esc(e.message)+'</p><p>Ensure GitHub Pages is enabled for main / (root).</p>';
   console.error(e);
