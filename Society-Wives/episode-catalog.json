@@ -109,7 +109,7 @@
         "episode-03-shreya-plan.json",
         "episode-03-meenakshi-planning.html"
       ],
-      "note": "Scene01 Jan1 13:50–14:15; Scene02 Jan1 from 17:00 farmhouse (saved approved plot direction, no prose); Scene03 same-day society twins badminton around 18:15 is review-only proposal, NOT timeline-approved until Scene02 return travel is feasible. EP04 Naveen 14:15 continuation open. Older Jan2 planner preserved. Scene03 former doubles invitation deferred and old ending removed; new travel plot remains unapproved.",
+      "note": "Scene01 Jan1 13:50–14:15; Scene02 Jan1 from 17:00 farmhouse (saved approved plot direction, no prose); Scene03 same-day society twins badminton around 18:15 is review-only proposal, NOT timeline-approved until Scene02 return travel is feasible. EP04 Naveen 14:15 continuation open. Older Jan2 planner preserved. Scene03 former doubles invitation deferred and old ending removed; new five-minute ride proposal now archived as user-verbatim planning requirement, full prose not approved.",
       "chapters": [
         {
           "lead": "Meenakshi",
@@ -135,11 +135,11 @@
           "lead": "Meenakshi",
           "title": "The Badminton Bet — Uday & Utkarsh",
           "date": "2026-01-01",
-          "time": "Approx. 18:15 start only; ending / return feasibility pending",
-          "status": "REVISED_DISCUSSION_PROPOSAL_FUTURE_INVITATION_DEFERRED",
+          "time": "Approx. 18:15 badminton to 18:45 society return; provisional",
+          "status": "USER_VERBATIM_BIKE_PLOT_SAVED_FOR_PLANNING",
           "mainPath": "episode-03-meenakshi-scene-03-twins.html",
           "dataPath": "episode-03-meenakshi-scene-03-twins.json",
-          "description": "Same-day society badminton review draft, now T01–T06 only: year-long familiarity, contrasting gazes, deliberate clothed waist/core posture contact, and playful jealousy. The Ishita doubles invitation is DEFERRED to future; old goodbye removed. Car-failure/transport idea, 18:45 arrival, and feasibility remain under discussion."
+          "description": "Society twins badminton T01–T06 plus prominently labeled 'MY requirement (unfiltered)' verbatim 5-minute bike plot: car not starting, sibling seating rivalry, Uday/Meenakshi/Utkarsh seating option, proximity/wine-emotional beats, and 18:45 target. Separate assistant planning pointers. Future Ishita doubles invitation deferred. No full prose yet."
         },
         {
           "lead": "Meenakshi",
