@@ -14,7 +14,7 @@ Change type: **non-destructive, draft PR only; not deployed**
 - Missing full published prose documented in source: **Meenakshi M09**, **Shreya SR03**; **Taniya/Soniya TS12–TS16** are not promoted from plans. These remain missing or planning-only.
 - Character directory: **5 leads and 102 person records**, one canonical person ID per record. **Soniya** exists as a separate supporting profile and shares Taniya's household continuity. Family/Office/Society grouping uses actual `group` and relation records, not invented labels. `college-student` maps to the workplace/college category.
 - Existing image folder: **26 stored asset files** on the original main branch, and **one unique embedded WebP** in the Episode 02 HTML (Shivani A03). The embedded image has been extracted byte-for-byte to a new asset on this draft branch, without changing the old HTML.
-- A connected private Google Drive folder contains **10 Meenakshi EP02 scene images and one contact sheet**. One separate legacy M01 Drive thumbnail is also referenced in standalone HTML; its Drive metadata is **not shared**. These **11** source Drive images are link-only, without changing permissions.
+- A connected private Google Drive folder contains **10 Meenakshi EP02 scene images and one contact sheet**. One separate legacy M01 Drive thumbnail is also referenced in standalone HTML; its Drive metadata is **not shared**. These **21** source Drive images and references are link-only, without changing permissions.
 - Planning: Meenakshi `episode-03-meenakshi-scene-01.json` is **2026-01-01 13:50–14:15** at the hospital, with four beats, ending at an intentional hard cut. Episode 04 starts at **14:15** without unwritten continuation. Another Meenakshi planning file is dated **2026-01-02**, with reserved M08 Senior Review. Shreya's `episode-03-shreya-plan.json` is dated **2026-01-03**. Ankita's pending Episode 03 file includes a date-review constraint and is not silently reassigned.
 - Prior HTML readers, arc planner, character audit, relationship atlas, source manuscripts, old JSON, Drive links and legacy URLs are **preserved**.
 
@@ -73,3 +73,10 @@ A new PR-only check workflow compiles the application and verifies source integr
 4. Review future-day travel and character timing. Automatic overlap detection checks direct time collisions only; travel-time feasibility still needs editorial review.
 5. Private Drive links may be visited by authorized accounts only. Public image delivery requires explicit author action, not automatic permission changes.
 6. The feature branch must remain **unmerged and unpublished** until the author approves the replacement.
+
+## 2026-11-14 visual test and Shreya office addendum
+
+- The Shreya reference folder `17r3SZwvOvPNtFtIsjkj_iPR5Ls9KAV_p` contains ten office/sister-in-uniform assets mapped to real directory character IDs: Poonam `shreya_woman_03` (3), Anjali `shreya_woman_04` (4), Meera `shreya_woman_02` (1), Shruti `shruti` (1), and Shreya+Shruti together (1). Files are private Google Drive records; the gallery lists them with links and an opt-in owner-authenticated preview attempt, preserving permissions. No user approval for individual episode inclusion has been inferred.
+- Gallery now indexes **48 distinct image records**: **27 GitHub assets** and **21 private Drive links**. Duplicate artwork already available on GitHub is not inserted again as new Drive cards.
+- A Playwright/Chromium browser suite tests Home (17 scenes), all five nav labels, Home icon, Episode 02 character tabs and Shreya direct links/refresh, Poonam character profile, Shreya office image filtering and privacy fallback, Meenakshi Episode 03/04 clock, and mobile overflow. Desktop/mobile screenshots are uploaded to the PR CI run as a `society-wives-visual-browser-tests` artifact.
+- Testing the candidate UI is **not** a production deployment. The replacement remains in a draft PR until explicit author approval.
