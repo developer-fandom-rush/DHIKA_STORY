@@ -1,6 +1,7 @@
 import { useMemo, useState } from 'react';
 import { Archive, Directory, episodePath, leadOrder, Person, openPage, titleCase, useData, assetUrl } from './lib';
 import gallery from './data/gallery.json';
+import FemaleLibrary from './FemaleLibrary';
 const categories=[{key:'family',label:'Family & household'},{key:'office',label:'Office / workplace'},{key:'society',label:'Society'}];
 function category(p:Person){return p.group==='college-student'?'office':p.group||'society'}
 function castPortrait(id:string){
@@ -46,6 +47,7 @@ export default function Characters({lead,personId}:{lead:string;personId:string|
      {selected.notes&&<p>{String(selected.notes)}</p>}
      <details className="source-footnote"><summary>Additional character details</summary><pre>{JSON.stringify(selected,null,2)}</pre></details>
     </article>}
+    <FemaleLibrary initialCharacter={selected?.id||active} />
     <section className="encounter-panel"><div className="reading-heading"><div><span className="eyebrow">Source-linked continuity</span><h2>Encounter records</h2></div></div>
      {encLoading&&<p>Loading original scene index…</p>}
      {encounterMatch?.matches.length?encounterMatch.matches.map(m=>{
