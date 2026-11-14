@@ -3,8 +3,9 @@ import gallery from './data/gallery.json';
 import { assetUrl, titleCase } from './lib';
 type ImageRecord=(typeof gallery.images)[number];
 const labelFor=(id:string)=>({shreya_woman_02:'Meera',shreya_woman_03:'Poonam',shreya_woman_04:'Anjali'} as Record<string,string>)[id]||titleCase(id);
+const authorizedDrivePreview=(url:string)=>{const id=url.match(/\\/file\\/d\\/([A-Za-z0-9_-]+)/)?.[1];return id?'https://drive.google.com/thumbnail?id='+encodeURIComponent(id)+'&sz=w1200':null;};
 export default function Gallery({initialCharacter='all'}:{initialCharacter?:string}){
- const [character,setCharacter]=useState(initialCharacter),[source,setSource]=useState('all'),[episode,setEpisode]=useState('all'),[scene,setScene]=useState('all'),[q,setQ]=useState(''),[open,setOpen]=useState<ImageRecord|null>(null),[failed,setFailed]=useState<string[]>([]);
+ const [character,setCharacter]=useState(initialCharacter),[source,setSource]=useState('all'),[episode,setEpisode]=useState('all'),[scene,setScene]=useState('all'),[q,setQ]=useState(''),[open,setOpen]=useState<ImageRecord|null>(null),[failed,setFailed]=useState<string[]>([]),[previewRequested,setPreviewRequested]=useState<string|null>(null);
  useEffect(()=>setCharacter(initialCharacter),[initialCharacter]);
  const scenes=Array.from(new Set(gallery.images.map(x=>x.scene).filter((x):x is string=>!!x))).sort();
  const images=useMemo(()=>gallery.images.filter(x=>(character==='all'||x.characters.includes(character)||('storyline' in x&&x.storyline===character))&&(source==='all'||x.source===source)&&(episode==='all'||x.episode===episode)&&(scene==='all'||x.scene===scene)&&(!q||(x.title+' '+x.scene+' '+x.characters.join(' ')).toLowerCase().includes(q.toLowerCase()))),[character,source,episode,scene,q]);
@@ -20,13 +21,17 @@ export default function Gallery({initialCharacter='all'}:{initialCharacter?:stri
   </div>
   <p className="result-count" role="status">{images.length} matching images</p>
   <div className="gallery-grid">{images.map(x=><article className="image-card" key={x.id}>
-   <button type="button" className="image-tile" onClick={()=>setOpen(x)} aria-label={'Inspect '+x.title}>{x.path&&!x.restricted&&!failed.includes(x.id)?<img src={assetUrl(x.path)} alt={x.title} loading="lazy" onError={()=>setFailed(a=>[...a,x.id])}/>:<div className="private-image"><span aria-hidden="true">◈</span><span>{x.restricted?'Private Drive reference':'Image unavailable'}</span></div>}</button>
+   <button type="button" className="image-tile" onClick={()=>{setOpen(x);setPreviewRequested(null)}} aria-label={'Inspect '+x.title}>{x.path&&!x.restricted&&!failed.includes(x.id)?<img src={assetUrl(x.path)} alt={x.title} loading="lazy" onError={()=>setFailed(a=>[...a,x.id])}/>:<div className="private-image"><span aria-hidden="true">◈</span><span>{x.restricted?'Private Drive reference':'Image unavailable'}</span></div>}</button>
    <div className="image-meta"><h2>{x.title}</h2><p>{x.characters.map(labelFor).join(' · ')}{x.scene?' · '+x.scene:''} · {x.visualCategory}</p><div className="image-foot"><span>{x.source} · {x.status}</span><button type="button" onClick={()=>setOpen(x)}>Details</button></div></div>
    </article>)}</div>
   {images.length===0&&<p className="source-note">No images match those filters. Clear search or choose another character.</p>}
   <section className="album-links"><h2>Linked review collections</h2>{gallery.albums.map(a=><p key={a.url}><a href={a.url} rel="noreferrer" target="_blank">{a.title} ↗</a> · Restricted review material</p>)}</section>
   {open&&<div className="lightbox" role="dialog" aria-modal="true" aria-label={open.title} onClick={()=>setOpen(null)}><div className="lightbox-inner" onClick={e=>e.stopPropagation()}><div className="split"><h2>{open.title}</h2><button className="close-button" type="button" onClick={()=>setOpen(null)} aria-label="Close image viewer">✕</button></div>
-   {open.path&&!open.restricted&&!failed.includes(open.id)?<img className="full-image" src={assetUrl(open.path)} alt={open.title}/>:<div className="lightbox-private">The original Drive image is not publicly embeddable. Open it with an authorized Drive account.</div>}
+   {open.path&&!open.restricted&&!failed.includes(open.id)?<img className="full-image" src={assetUrl(open.path)} alt={open.title}/>:<div className="lightbox-private">
+   {open.restricted && previewRequested===open.id && !failed.includes(open.id) && authorizedDrivePreview(open.original) && <img className="full-image" src={authorizedDrivePreview(open.original)!} alt={open.title+' — owner-authorized preview'} onError={()=>setFailed(a=>[...a,open.id])} />}
+   {open.restricted && previewRequested!==open.id && <button type="button" className="button subtle" onClick={()=>setPreviewRequested(open.id)}>Try preview with my Drive access</button>}
+   {failed.includes(open.id)?<p>Preview unavailable in this browser. Your Google Drive access may require opening the original file.</p>:<p>The original Drive image is not publicly embeddable. Open it with an authorized Drive account.</p>}
+   </div>}
    <dl className="metadata-grid"><div><dt>Characters</dt><dd>{open.characters.map(labelFor).join(', ')}</dd></div><div><dt>Episode / scene</dt><dd>{open.episode||'Unassigned'} / {open.scene||'Unassigned'}</dd></div><div><dt>Story date</dt><dd>{open.storyDate||'Not verified'}</dd></div><div><dt>Status</dt><dd>{open.status}</dd></div><div><dt>Source</dt><dd>{open.source}</dd></div><div><dt>Location</dt><dd>{open.location||'Not recorded'}</dd></div><div><dt>Visual category</dt><dd>{open.visualCategory}</dd></div></dl>
    <a className="button primary" href={open.original} rel="noreferrer" target="_blank">Open original source ↗</a></div></div>}
  </main>
