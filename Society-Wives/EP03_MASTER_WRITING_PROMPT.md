@@ -18,7 +18,7 @@ Repository: **developer-fandom-rush/DHIKA_STORY**, folder **Society-Wives/**.
 - **Ankita:** at Cyber City IT office around 13:00 on 1 Jan. A08 office encounter and P01–P08 society parcel thread exist separately. A05/review and some parcel states remain open; A11–A17 are parked next-episode beats, not automatically occurred.
 - **Shivani:** last 1 Jan point of view D01 around 13:20–13:30 at college. Her private image exposure and others' knowledge are not automatically known to her; no forced same-day disclosure.
 - **Taniya and Soniya:** maintain separate office/home locations, clocks, secrets and roles. TS11 has explicitly approved status; other published TS beats may still be working drafts. Do not auto-approve them.
-- **Meenakshi:** last Jan 1 perspective M12 at 13:15, hospital locker noticed disturbed, photograph taken, responsible people unconfirmed *to her*. M09 is plotted but lacks full published prose; M06–M07 and M10–M12 remain review drafts. Jan 1 changing-area privacy violation remains unknown to her. Mohan is an unrelated older household guest addressed as Uncle (NOT her actual FIL); his secret is one-sided, not her consent. The husband Nikhil's planned private surprise has not happened on-page by cutoff.
+- **Meenakshi:** Jan 1 M12 ends 13:15 with a passing curiosity about a different cardigan fold and shifted pouch; she puts belongings straight, closes the locker, returns to duties and soon forgets the question. No photograph, complaint or continuing anxiety; unknown intrusions remain reader-only. M09 is plotted but lacks full published prose; M06–M07 and M10–M12 remain review drafts. Jan 1 changing-area privacy violation remains unknown to her. Mohan is an unrelated older household guest addressed as Uncle (NOT her actual FIL); his secret is one-sided, not her consent. The husband Nikhil's planned private surprise has not happened on-page by cutoff.
 - **Shreya:** 1 Jan POV ends after SR09 at 10:15. SR03 is referenced but unpublished. Do not continue her Jan 1 beyond this. First/top police-uniform button was open in that Jan 1 scene; do **not** assume same wardrobe on a different date.
 - **Cross-cast:** prevent the same person from attending overlapping events in different homes/offices; distinguish public observations, internal thoughts, undisclosed knowledge and consent.
 
@@ -27,9 +27,9 @@ Repository: **developer-fandom-rush/DHIKA_STORY**, folder **Society-Wives/**.
 
 **Before writing, first give a compact date-by-date master clock and separate: (A) existing confirmed boundaries, (B) source-planned proposals, (C) unscheduled leads / decisions.** If Episode 03 includes more than one calendar date, label Day 2 (Jan 2) and Day 3 (Jan 3) clearly; do not suggest simultaneous cross-date scenes.
 
-### MEENAKSHI — CURRENT EP03 SOURCE PLAN FOR JAN 2
+### MEENAKSHI — ARCHIVED JAN 2 PROPOSALS (NOT THE CURRENT JAN 1 EP03 OPENING)
 Respect order and intended locations, but *do not mistake it for approved prose*:
-- M3-01 08:45–09:10: photograph from yesterday, Meenakshi × Rupa; no false evidence or accusation.
+- The archived Jan 2 M3-01 photographed-locker premise is discarded; do not write, revive or link to it. Current Meenakshi EP03 begins on Jan 1 at 13:50 with already-familiar coworker Naveen.
 - M3-02 09:10–10:20: clinical team with Avi, Yash, Dr Aditi, Rupa.
 - M3-03 10:20–10:45: colleague compliments/observations in staff-only coffee alcove; spoken comments and reader-only thoughts distinct.
 - M08 11:00–11:40: senior review with Kunal and Khurana (time still subject to shared clock confirmation).
