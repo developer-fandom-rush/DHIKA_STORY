@@ -12,7 +12,7 @@
     "Episode 02 A04 morning: Rajeev is a socially addressed older household associate, NOT Ankita's actual father-in-law; private admiration/unsolicited compliment happened at breakfast and Ankita stopped the unfinished remark.",
     "Episode 02 P08 12:30–12:50: Rajeev possesses damaged personal parcel (one remaining clothing set and adult personal item); he removed none of the six missing sets; left committee for home after 12:50.",
     "Episode 02 A07: Gopal was told not to hand over Ankita's personal parcel without confirming with her.",
-    "Episode 02 A08 08:50–09:20: Ankita already interacted with Vivan and Reyansh, Priya and Nisha. Sana/Kavita were proposed roster only, not on-page.",
+    "Episode 02 A08 08:50–09:20: Ankita already interacted with Vivan and Reyansh, Priya and Nisha. Sana/Aishwarya were proposed roster only, not on-page.",
     "Episode 02 Ankita 13:00 cutoff: she is still at Cyber City."
   ],
   "blocks": [
@@ -83,13 +83,13 @@
       "approval": "AUTHOR_DIRECTED_OPENING_ONLY_NOT_FULL_ENCOUNTER",
       "newlyOnPage": [
         "Sana Khan — 24, QA Automation Engineer",
-        "Kavita Rao — 24, HR Executive"
+        "Aishwarya Rao — 24, HR Executive / Event Coordination"
       ],
       "establishedOfficeContinuity": "Vivan and Reyansh have already flirted with Ankita in published A08. Priya and Nisha remain existing staff but need not join this particular five-person scene.",
       "beats": [
         {
           "id": "S01-ARRIVAL",
-          "summary": "Sana and Kavita arrive late to the New Year holiday office call-out; they were on the pre-existing proposed roster but absent from the earlier A08 on-page group. Their delay is caused by arranging a surprise for the evening; Sana also has a legitimate QA role and Kavita organizes the team celebration."
+          "summary": "Sana and Aishwarya arrive late to the New Year holiday office call-out; they were on the pre-existing proposed roster but absent from the earlier A08 on-page group. Their delay is caused by arranging a surprise for the evening; Sana also has a legitimate QA role and Aishwarya organizes the team celebration."
         },
         {
           "id": "S01-FUNNY-PENALTY",
@@ -97,7 +97,7 @@
         },
         {
           "id": "S01-FIVE-CAST",
-          "summary": "Vivan, Reyansh, Sana, Kavita and Ankita remain together for this first encounter; the group scene is NOT split into separate male/female time blocks. Evening five-person outing/ride is a future direction, route and vehicle not yet selected."
+          "summary": "Vivan, Reyansh, Sana, Aishwarya and Ankita remain together for this first encounter; the group scene is NOT split into separate male/female time blocks. Evening five-person outing/ride is a future direction, route and vehicle not yet selected."
         },
         {
           "id": "S01-PAUSE",
