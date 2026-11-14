@@ -55,6 +55,8 @@ try {
  check(await page.locator('#female-library .female-photo').count()===0,'Character faces hidden before reveal');
  await page.locator('#female-library .female-reveal-toggle').first().click();
  check(await page.locator('#female-library .female-photo').count()===1,'Poonam reference face appears after reveal');
+ await page.locator('#female-library .female-photo img').first().waitFor();
+ check(await page.locator('#female-library .female-photo img').first().evaluate(img=>img instanceof HTMLImageElement&&img.complete&&img.naturalWidth>100),'Poonam reference shows working published preview after one click');
  check(await page.locator('#female-library .female-photo-actions a').count()===1,'Revealed reference always provides authorized Drive access');
  await page.locator('#female-library .female-reveal-toggle').last().click();
  check(await page.locator('#female-library .female-photo').count()===2,'Reference and generated look available in separate reveals');
