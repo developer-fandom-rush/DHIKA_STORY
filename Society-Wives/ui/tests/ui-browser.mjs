@@ -73,6 +73,11 @@ try {
  check((await page.locator('.continuity-cards').innerText()).includes('14:15 onwards'),'Episode 04 exact cutpoint preserved');
  check((await page.locator('.continuity-cards').innerText()).includes('The Farmhouse Evening'),'New Meenakshi Scene 02 appears in Episode 03 Planning');
  check((await page.locator('.continuity-cards').innerText()).includes('The Badminton Bet'),'New Meenakshi Scene 03 appears after farmhouse');
+ check((await page.locator('.continuity-cards').innerText()).includes('The Bell — Babloo'),'Latest Meenakshi Scene 04 appears in the correct final position');
+ const orderedCards=await page.locator('.continuity-cards .episode-plan-card').evaluateAll(nodes=>nodes.map(n=>n.id));
+ check(orderedCards.join(',')==='ep03-meenakshi-scene-02,ep03-meenakshi-scene-03,ep03-meenakshi-scene-04','Episode 03 scenes 02–04 appear in chronological scene order');
+ check((await page.locator('#ep03-meenakshi-scene-04').innerText()).includes('Episode 03 ends at the doorbell'),'Scene 04 does not invent Babloo first meeting');
+ 
  check((await page.locator('.continuity-warning').innerText()).includes('18:15'),'Provisional badminton timing conflict is surfaced, not silently approved');
  check(await page.locator('#ep03-meenakshi-scene-02 .episode-outline').count()===1,'Farmhouse beat-by-beat outline is discoverable');
  check(await page.locator('#ep03-meenakshi-scene-03 .author-notes').count()===1,'Author original new scene requirement is retained in planning');
