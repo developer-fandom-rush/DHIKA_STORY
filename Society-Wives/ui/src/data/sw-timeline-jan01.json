@@ -2318,23 +2318,20 @@
       "end": "13:15",
       "timeLabel": "13:10–13:15",
       "universe": "sw",
-      "title": "M12 — Unease at the Locker",
+      "title": "M12 — A Passing Curiosity at the Locker",
       "subtitle": null,
       "lead": "Meenakshi",
       "characters": [
         "Meenakshi"
       ],
       "mentions": [
-        "Diya Sen",
-        "Harish Pal",
-        "Sunil Yadav",
         "Meenakshi"
       ],
       "episode": "02",
       "scene": "M12",
       "kind": "source-scene",
       "state": "source-review",
-      "status": "Published source · approval review",
+      "status": "Published · author-directed M12 ending synchronized",
       "source": "continuity-verbatim/episode-02/meenakshi.json",
       "reader": {
         "type": "sw-episode02",
@@ -2342,9 +2339,9 @@
         "scene": "M12"
       },
       "flags": [
-        "Locker concern unresolved"
+        "Brief curiosity; returns to duties; no photograph or investigation"
       ],
-      "detail": null
+      "detail": "At 13:10 Meenakshi noticed a different cardigan fold and slightly shifted pouch, thought she might have left them that way in the morning, put things straight, closed her locker and returned to work. By 13:15 the moment had passed. No photograph was taken."
     },
     {
       "id": "e02-shivani-C05",
@@ -2441,35 +2438,35 @@
         "scene": "01"
       },
       "flags": [],
-      "detail": "",
+      "detail": "EP02 M12 13:10–13:15 — Meenakshi briefly wondered about a different cardigan fold and shifted pouch, put them back and returned to duties; no photo, lasting anxiety or culprit knowledge. Naveen and Meenakshi already have about 1.5 years of familiar workplace rapport.",
       "beats": [
         {
           "id": "N01",
-          "title": "She isn't quite herself",
+          "title": "The Familiar Handover",
           "at": "13:50–13:54",
-          "body": "Naveen arrives with ordinary administrative papers. Meenakshi answers more briefly than usual.",
-          "internal": "She remains uneasy after the locker discovery; Naveen notices her subdued expression without pressing her."
+          "body": "Naveen brings the next duty sheet to Meenakshi as he has done routinely for about 1.5 years. Their familiar paperwork/last-minute-signature teasing resumes naturally. She is professionally engaged, not noticeably upset.",
+          "internal": "Naveen recognizes her usual quick, witty manner; he is not meeting her for the first time. The small earlier locker question has already slipped from Meenakshi's attention."
         },
         {
           "id": "N02",
           "title": "An unexpected laugh",
           "at": "13:54–13:59",
-          "body": "A familiar work-related exchange turns lightly teasing. Naveen gives an unexpectedly clever reply; Meenakshi genuinely laughs.",
-          "internal": "She gets a moment of relief; he privately appreciates the smile but does not presume romance."
+          "body": "Their well-established workplace banter becomes unexpectedly witty; Naveen answers in a new, clever way and Meenakshi genuinely laughs, then signs the handover.",
+          "internal": "Her laughter comes from the joke, not relief from a locker scare. Naveen privately appreciates her smile without assuming reciprocity."
         },
         {
           "id": "N03",
           "title": "Normal tasks, separate spaces",
           "at": "13:59–14:08",
           "body": "They part for normal duties. Naveen collects another handover copy. Meenakshi briefly visits the staff changing area, removes her white coat and adjusts her existing plum kurta and grey cardigan.",
-          "internal": "Her earlier locker concern remains unresolved. This is a mid-shift break, not her departure from the hospital."
+          "internal": "No renewed locker anxiety or investigation. Mid-shift clothing adjustment, not hospital departure."
         },
         {
           "id": "N04",
           "title": "The unexpected glance — cut",
           "at": "14:08–14:15",
           "body": "As Meenakshi gathers her bag, its strap catches her cardigan and briefly shifts the neckline enough to reveal an edge of inner clothing. Naveen reaches the corridor with the handover copy, notices, looks away; Meenakshi catches his glance and adjusts her outfit.",
-          "internal": "She feels briefly self-conscious while already uneasy about privacy; Naveen is surprised and deliberately avoids prolonged looking. No romantic or physical consent inferred."
+          "internal": "She is momentarily self-conscious at the unexpected glance; Naveen looks away. Do not attribute it to a lingering locker fear or infer physical consent."
         }
       ]
     },
@@ -2534,7 +2531,7 @@
         "Farmhouse return time unresolved",
         "Farmhouse → badminton 18:15 requires reconciliation"
       ],
-      "detail": "EP03 Scene 01 Naveen × Meenakshi ends at 14:15 and is continued in EP04 from 14:15; exact EP04 emotional consequences remain unwritten. Do not assume only locker incident drives 17:00 emotional state. Approved earlier: Aditi leads bold banter; Avi and Yash flirt with both women; mutual teasing is one step bolder than EP02 but not fixed pairings. This is a 17:00 start only, not a claim farmhouse plus return fits 17:00–17:45. End time intentionally open.",
+      "detail": "EP03 Scene 01 Naveen × Meenakshi ends at 14:15 and is continued in EP04 from 14:15; exact EP04 emotional consequences remain unwritten. The M12 locker thought was fleeting, did not persist after duties resumed, and does not drive her 17:00 mood. Approved earlier: Aditi leads bold banter; Avi and Yash flirt with both women; mutual teasing is one step bolder than EP02 but not fixed pairings. This is a 17:00 start only, not a claim farmhouse plus return fits 17:00–17:45. End time intentionally open.",
       "beats": [
         {
           "id": "F01",
