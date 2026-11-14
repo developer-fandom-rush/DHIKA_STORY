@@ -98,3 +98,33 @@ for(const row of office)assert.ok(row.characters.length,'Office image must have 
 const portraitIds=['meenakshi','meenakshi_woman_01','ishita','meenakshi_woman_02','meenakshi_woman_04','shreya_woman_01','shreya_woman_02','shreya_woman_03','shreya_woman_04','shruti'];
 for(const id of portraitIds)assert.ok(gallery.images.some(x=>x.characters.length===1&&x.characters[0]===id&&x.visualCategory==='Character portrait'&&x.path&&!x.restricted),'Missing public cast portrait for '+id);
 console.log('PASS: '+paths.size+' GitHub images, 17 restricted Drive references, 10 curated cast portraits, unique character IDs.');
+
+
+const universalJan=JSON.parse(readFileSync(resolve(ui,'src/data/sw-timeline-jan01.json'),'utf8'));
+const universalFuture=JSON.parse(readFileSync(resolve(ui,'src/data/sw-timeline-future.json'),'utf8'));
+const universalDhika=JSON.parse(readFileSync(resolve(ui,'src/data/dhika-universal-timeline.json'),'utf8'));
+assert.equal(universalJan.anchorDate,'2026-01-01','Society Wives story anchor must be Jan 1 2026');
+assert.equal(universalDhika.anchorDate,'2026-01-01','Dhika Day 1 must align to Society Wives Jan 1 2026');
+assert.equal(universalJan.events.length,74,'Expected cross-lead 67 distinct source scenes plus 7 planning/handoff events');
+assert.equal(universalJan.events.filter(e=>e.kind==='source-scene').length,67,'Shared Taniya/Soniya source scenes must only appear once');
+assert.ok(!universalJan.events.some(e=>e.date!=='2026-01-01'),'Jan 1 clock contains an event from another date');
+assert.deepEqual(universalJan.events.slice(0,2).map(e=>e.start),['06:20','06:29'],'January 1 event clock not sorted');
+assert.equal(new Set(universalJan.events.map(e=>e.id)).size,74,'January 1 duplicate source events');
+const shifted=universalFuture.events.filter(e=>e.state==='rescheduled');
+assert.equal(shifted.length,5,'Expected M08 and SR10–SR13 rescheduled rather than removed');
+assert.equal(shifted.find(e=>e.scene==='M08')?.date,'2026-01-02');
+for(const e of shifted.filter(e=>e.lead==='Shreya'))assert.equal(e.date,'2026-01-03');
+assert.ok(universalFuture.events.filter(e=>e.episode==='01').every(e=>e.date===null),'Undated prologue must not be silently placed on Jan 1');
+assert.equal(universalDhika.episodesIndexed,41,'All Dhika episodes must be indexed');
+assert.equal(new Set(universalDhika.events.map(e=>e.episode)).size,41,'Dhika episode index incomplete');
+for(let day=1;day<=11;day++)assert.ok(universalDhika.events.some(e=>e.storyDay===day&&e.date===new Date(Date.UTC(2026,0,day)).toISOString().slice(0,10)),'Dhika story Day '+day+' misaligned');
+const earlyDhika=universalDhika.events.filter(e=>e.episode==='EP04');
+assert.ok(earlyDhika.some(e=>e.date==='2026-01-01')&&earlyDhika.some(e=>e.date==='2026-01-02'),'Dhika EP04 must straddle Day 1/Day 2');
+const rootCorpus=JSON.parse(readFileSync(resolve(root,'../data/corpus.json'),'utf8'));
+for(const event of universalDhika.events){
+ const ep=rootCorpus.episodes.find(x=>x.id===event.episode);
+ assert.ok(ep&&ep.lines[event.firstLineIndex],'Invalid Dhika paragraph pointer '+event.id);
+ assert.ok(event.lastLineIndex<ep.lines.length,'Dhika range extends beyond original source '+event.id);
+ if(event.arcRelativeDay)assert.equal(event.date,null,'Arc-relative Day 1 must never reset to Jan 1');
+}
+console.log('PASS: 74 cross-lead Jan1 events, 5 rescheduled future encounters and 41 Dhika source episodes aligned without weekday or arc-day conflation.');
