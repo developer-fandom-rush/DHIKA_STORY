@@ -76,6 +76,7 @@ try {
  check((await page.locator('.continuity-cards').innerText()).includes('The First Different Look — Babloo'),'Author-approved Babloo encounter appears in the correct Scene 04 position');
  const orderedCards=await page.locator('.continuity-cards .episode-plan-card').evaluateAll(nodes=>nodes.map(n=>n.id));
  check(orderedCards.join(',')==='ep03-meenakshi-scene-02,ep03-meenakshi-scene-03,ep03-meenakshi-scene-04','Episode 03 scenes 02–04 appear in chronological scene order');
+ await page.locator('#ep03-meenakshi-scene-04 .beat-item').last().waitFor();
  check((await page.locator('#ep03-meenakshi-scene-04 .beat-item').count())===5,'Scene 04 displays five approved Babloo plot beats');
 check((await page.locator('#ep03-meenakshi-scene-04').innerText()).includes('khoobsurat lag rahi hain'),'Babloo approved compliment appears in the scene');
 check((await page.locator('#ep03-meenakshi-scene-04').innerText()).includes('car tomorrow'),'Babloo car recovery hook remains in EP03 ending');
