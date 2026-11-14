@@ -2419,7 +2419,7 @@
       "timeLabel": "13:50–14:15",
       "universe": "sw",
       "title": "The Glance at the Corridor",
-      "subtitle": "Naveen handoff",
+      "subtitle": "Meenakshi × Naveen · first focused on-screen conversation",
       "lead": "Meenakshi",
       "characters": [
         "meenakshi",
@@ -2428,9 +2428,9 @@
       "mentions": [],
       "episode": "03",
       "scene": "01",
-      "kind": "planned",
-      "state": "plot",
-      "status": "Plot outline · prose pending",
+      "kind": "published-prose",
+      "state": "approved-prose",
+      "status": "Author-approved · Published prose",
       "source": "episode-03-meenakshi-scene-01.json",
       "reader": {
         "type": "sw-plan",
@@ -2438,35 +2438,119 @@
         "scene": "01"
       },
       "flags": [],
-      "detail": "EP02 M12 13:10–13:15 — Meenakshi briefly wondered about a different cardigan fold and shifted pouch, put them back and returned to duties; no photo, lasting anxiety or culprit knowledge. Naveen and Meenakshi already have about 1.5 years of familiar workplace rapport.",
+      "detail": "1 January · 13:50–14:15. Established 1.5-year workplace familiarity, brief banter, handover copy, accidental cardigan shift and immediate glance-away. No locker anxiety, no new relationship assumption, and exact 14:15 open cut for Episode 04.",
       "beats": [
         {
-          "id": "N01",
-          "title": "The Familiar Handover",
-          "at": "13:50–13:54",
-          "body": "Naveen brings the next duty sheet to Meenakshi as he has done routinely for about 1.5 years. Their familiar paperwork/last-minute-signature teasing resumes naturally. She is professionally engaged, not noticeably upset.",
-          "internal": "Naveen recognizes her usual quick, witty manner; he is not meeting her for the first time. The small earlier locker question has already slipped from Meenakshi's attention."
+          "id": "SC01-01",
+          "title": "Narration",
+          "at": "13:50",
+          "body": "Naveen हाथ में duty-sheet लेकर Meenakshi के desk पर आया।",
+          "internal": ""
         },
         {
-          "id": "N02",
-          "title": "An unexpected laugh",
-          "at": "13:54–13:59",
-          "body": "Their well-established workplace banter becomes unexpectedly witty; Naveen answers in a new, clever way and Meenakshi genuinely laughs, then signs the handover.",
-          "internal": "Her laughter comes from the joke, not relief from a locker scare. Naveen privately appreciates her smile without assuming reciprocity."
+          "id": "SC01-02",
+          "title": "Naveen",
+          "at": null,
+          "body": "Doctor madam, ek aur signature.",
+          "internal": ""
         },
         {
-          "id": "N03",
-          "title": "Normal tasks, separate spaces",
-          "at": "13:59–14:08",
-          "body": "They part for normal duties. Naveen collects another handover copy. Meenakshi briefly visits the staff changing area, removes her white coat and adjusts her existing plum kurta and grey cardigan.",
-          "internal": "No renewed locker anxiety or investigation. Mid-shift clothing adjustment, not hospital departure."
+          "id": "SC01-03",
+          "title": "Meenakshi",
+          "at": null,
+          "body": "Naveen, tumhari files kabhi khatam bhi hoti hain?",
+          "internal": ""
         },
         {
-          "id": "N04",
-          "title": "The unexpected glance — cut",
-          "at": "14:08–14:15",
-          "body": "As Meenakshi gathers her bag, its strap catches her cardigan and briefly shifts the neckline enough to reveal an edge of inner clothing. Naveen reaches the corridor with the handover copy, notices, looks away; Meenakshi catches his glance and adjusts her outfit.",
-          "internal": "She is momentarily self-conscious at the unexpected glance; Naveen looks away. Do not attribute it to a lingering locker fear or infer physical consent."
+          "id": "SC01-04",
+          "title": "Naveen",
+          "at": null,
+          "body": "Ho jaati hain, madam. Bas aapki signatures khatam nahi hoti.",
+          "internal": ""
+        },
+        {
+          "id": "SC01-05",
+          "title": "Narration",
+          "at": null,
+          "body": "Meenakshi मुस्कुराई और file पर sign कर दिया।",
+          "internal": ""
+        },
+        {
+          "id": "SC01-06",
+          "title": "Meenakshi",
+          "at": null,
+          "body": "Aaj bade smart answers de rahe ho.",
+          "internal": ""
+        },
+        {
+          "id": "SC01-07",
+          "title": "Naveen",
+          "at": null,
+          "body": "डेढ़ साल से de raha hoon. Aapne aaj notice kiya.",
+          "internal": ""
+        },
+        {
+          "id": "SC01-08",
+          "title": "Narration",
+          "at": null,
+          "body": "Meenakshi हँस पड़ी।",
+          "internal": ""
+        },
+        {
+          "id": "SC01-09",
+          "title": "Meenakshi",
+          "at": null,
+          "body": "Achha ji! Ab jao, handover copy lekar aao.",
+          "internal": ""
+        },
+        {
+          "id": "SC01-10",
+          "title": "Narration",
+          "at": null,
+          "body": "Naveen मुस्कुराता हुआ चला गया।",
+          "internal": ""
+        },
+        {
+          "id": "SC01-11",
+          "title": "Narration",
+          "at": "14:08",
+          "body": "कुछ देर बाद Meenakshi staff changing area में गई। उसने white coat उतारा, grey cardigan ठीक किया और अपना bag उठाया।",
+          "internal": ""
+        },
+        {
+          "id": "SC01-12",
+          "title": "Narration",
+          "at": "14:14",
+          "body": "Corridor में लौटते समय Naveen handover copy लेकर सामने आया।",
+          "internal": ""
+        },
+        {
+          "id": "SC01-13",
+          "title": "Naveen",
+          "at": null,
+          "body": "Doctor madam, complete file. Aaj koi complaint nahi milegi.",
+          "internal": ""
+        },
+        {
+          "id": "SC01-14",
+          "title": "Narration",
+          "at": null,
+          "body": "Meenakshi मुस्कुराते हुए bag का strap ठीक करने लगी। Strap cardigan में अटकने से उसका neckline एक पल के लिए खिसक गया।",
+          "internal": ""
+        },
+        {
+          "id": "SC01-15",
+          "title": "Narration",
+          "at": null,
+          "body": "Naveen की नज़र अनायास वहाँ गई। Meenakshi ने notice किया। उसने cardigan ठीक किया और Naveen ने तुरंत नज़र हटा ली।",
+          "internal": ""
+        },
+        {
+          "id": "SC01-16",
+          "title": "Scene cut",
+          "at": "14:15",
+          "body": "Scene cut. अगला episode इसी moment से continue होगा; यहाँ कोई goodbye या अतिरिक्त reaction नहीं है।",
+          "internal": ""
         }
       ]
     },
