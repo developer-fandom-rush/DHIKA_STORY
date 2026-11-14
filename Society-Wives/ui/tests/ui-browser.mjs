@@ -79,7 +79,7 @@ try {
  await page.screenshot({path:resolve(screenshots,'12-ankita-aishwarya-profile.png')});
  await page.locator('.main-nav a[href="#/gallery"]').click();
  await page.locator('.image-card').first().waitFor();
- check(await page.locator('.image-card').count()===54,'Gallery contains 54 indexed images (37 GitHub, 17 Drive)');
+ check(await page.locator('.image-card').count()===53,'Gallery contains 53 indexed images (37 GitHub, 16 Drive)');
  check(await page.locator('#female-library select option').count()===22,'Image Gallery indexes 21 verified reference identities and Aishwarya pending');
  check(await page.locator('#female-library .female-reveal-toggle').count()===2,'Gallery has separate Reference Face and Generated Looks reveal controls');
  check(await page.locator('#female-library .female-photo').count()===0,'Gallery images remain hidden until explicitly revealed');
