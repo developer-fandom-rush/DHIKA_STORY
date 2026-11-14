@@ -113,6 +113,14 @@
       ]
     },
     {
+      "id": "ankita_woman_07",
+      "name": "Aishwarya Rao",
+      "group": "Ankita circle",
+      "reference": [],
+      "generated": [],
+      "referenceStatus": "PENDING_VERIFIED_FACE"
+    },
+    {
       "id": "kavya_reference",
       "name": "Kavya",
       "group": "Additional references",
