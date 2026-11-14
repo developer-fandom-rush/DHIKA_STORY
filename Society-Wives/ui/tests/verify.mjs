@@ -44,6 +44,11 @@ assert.ok(ankitaOpening.blocks[0].sequence[1].editorFlags.some(x=>x.includes('NO
 assert.deepEqual(ankitaOpening.blocks[1].cast,['ankita','vivan','reyansh','ankita_woman_06','ankita_woman_07'],'Five-person office opening must stay together');
 assert.ok(ankitaOpening.blocks[1].beats.some(b=>b.summary.includes('surprise')),'Sana and Aishwarya late-arrival surprise must be retained');
 assert.ok(ankitaOpening.blocks[1].beats.some(b=>b.summary.includes('forfeit')),'Funny late-arrival consequence must be retained');
+const writingStyle=read('flirting-style.json');
+assert.equal(writingStyle.narratorVisualDescription.status,'AUTHOR_DIRECTED_WRITING_STYLE_RULE_NOT_EPISODE_CANON','Author narrator instruction must stay style-only');
+assert.ok(writingStyle.narratorVisualDescription.methods.some(x=>x.includes('walking')),'Movement description instruction missing');
+assert.ok(writingStyle.narratorVisualDescription.methods.some(x=>x.includes('body-shape')),'Body-shape simile instruction missing');
+assert.ok(writingStyle.narratorVisualDescription.useInstructions.some(x=>x.includes('spoken compliment')),'Narrator vs dialogue POV distinction missing');
 const farmhouse=read('episode-03-meenakshi-scene-02.json');
 assert.equal(farmhouse.episode,'03');
 assert.equal(farmhouse.start,'17:00');
