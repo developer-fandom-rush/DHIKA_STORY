@@ -68,6 +68,7 @@ for(const person of females.characters){
  for(const photo of [...person.reference,...person.generated]){
   assert.ok(photo.url.startsWith('https://drive.google.com/file/d/'),'Unexpected private gallery source');
   assert.ok(photo.title,'Gallery image missing a title');
+  if(photo.previewPath)assert.ok(existsSync(resolve(root,photo.previewPath)),'Missing published cast thumbnail '+photo.previewPath);
  }
 }
 assert.ok(females.rootFolder.includes('1Ysbw22LMMabnIQRivhDJXnRmojdzdepy'),'Wrong private female gallery folder');
