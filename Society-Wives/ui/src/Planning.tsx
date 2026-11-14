@@ -60,9 +60,9 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
       {ankitaStages.filter(b=>b.id==='A11').map(b=><div key={b.id} className="beat-list">{b.sequence?.map(q=><div key={q.id} className="beat-item"><span className="eyebrow">{q.time||'Time pending'}</span><h3>{q.id==='A11-CALL'?'A short parcel call':'Rajeev alone · reader-only direction'}</h3><p>{q.summary}</p>{q.dialogue?.map((line,i)=><p key={i}><strong>{line.speaker}:</strong> {line.line}</p>)}{q.storyIntent&&<p className="muted">{q.storyIntent}</p>}</div>)}</div>)}
       <p className="muted">Continuity: Rajeev has the parcel after P08. The origin of the previously used garment is unverified. Grok's full scene expansion remains unwritten; the fantasy is not Ankita's consent.</p>
     </article>
-    <article className="episode-plan-card" id="ankita-ep03-scene01-opening"><span className="eyebrow">Ankita · EP03 · Scene 01 opening only · Discussion</span><h2>Vivan, Reyansh, Sana &amp; Kavita join Ankita</h2><p>About 13:15 · Cyber City office · Five people together</p>
+    <article className="episode-plan-card" id="ankita-ep03-scene01-opening"><span className="eyebrow">Ankita · EP03 · Scene 01 opening only · Discussion</span><h2>Vivan, Reyansh, Sana &amp; Aishwarya join Ankita</h2><p>About 13:15 · Cyber City office · Five people together</p>
       {ankitaStages.filter(b=>b.id==='SCENE01-OPENING').map(b=><div key={b.id} className="beat-list">{b.beats?.map(q=><div key={q.id} className="beat-item"><p>{q.summary}</p></div>)}</div>)}
-      <p className="muted">Sana (24, QA Automation) and Kavita (24, HR) were proposed in the cast directory, but not previously on-page in A08. They arrive late because of evening surprise preparations; the funny late-arrival forfeit is an author-directed option. No outing route, vehicle, physical interaction or later scene has been locked.</p>
+      <p className="muted">Sana (24, QA Automation) and Aishwarya (24, HR) were proposed in the cast directory, but not previously on-page in A08. They arrive late because of evening surprise preparations; the funny late-arrival forfeit is an author-directed option. No outing route, vehicle, physical interaction or later scene has been locked.</p>
     </article>
     {ankitaOpeningError&&<p role="alert">Ankita opening plot source missing: {ankitaOpeningError}</p>}
   </section>}
