@@ -22,3 +22,44 @@ h1,h2,h3{font-family:Georgia,"Times New Roman",serif;letter-spacing:-.025em}h1{f
  .scene-link span:first-child{overflow:hidden;text-overflow:ellipsis;font-size:11px}
  .scene-link .mini-dot{flex:0 0 7px}
 }
+
+/* Story-first controls: subnavigation stays inside the app rather than linking to source files. */
+.perspective-tabs button{
+  border:1px solid #e5d9de;border-radius:999px;background:#fff;color:#6c5163;
+  padding:11px 17px;font-size:13px;font-weight:750;transition:background .15s,border-color .15s;
+}
+.perspective-tabs button:hover,.perspective-tabs button.selected{
+  background:#703d56;color:#fff;border-color:#703d56
+}
+.perspective-tabs button[aria-pressed="true"]{box-shadow:0 0 0 2px #b78fa5 inset}
+.scene-link{width:100%;border:0;background:transparent;text-align:left;cursor:pointer}
+.scene-link:focus-visible,.cast-name:focus-visible{outline:2px solid #864665;outline-offset:1px}
+.cast-name{width:100%;border:0;background:transparent;text-align:left;cursor:pointer;appearance:none}
+.person-tag{color:#71415b;cursor:pointer}
+.person-tag:hover{background:#f9eaf0}
+.portrait-button{padding:0;margin:0;border:0;background:transparent;cursor:zoom-in;flex:none}
+.profile-visual-link{padding:0;border:0;background:transparent;color:#8b476a;cursor:pointer;text-decoration:underline;text-underline-offset:4px}
+.button:disabled{opacity:.38;cursor:not-allowed;box-shadow:none}
+.episode-picker{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:12px 0 18px}
+.episode-picker button,.episode-picker-current{border:1px solid #d6c5cd;padding:10px 16px;border-radius:9px;font-weight:700;font-size:13px}
+.episode-picker button{background:#fff;color:#824867}
+.episode-picker-current{background:#6d3b55;color:#fff;border-color:#6d3b55}
+.reader-intro{font-size:14px;color:#6d5b66;margin:15px 0}
+.edition-note,.gallery-help{margin:14px 0;color:#746575;font-size:12px}
+.edition-note summary,.gallery-help summary{cursor:pointer;display:inline-block;font-weight:650;color:#936a81}
+.edition-note p,.gallery-help p{margin:8px 0;max-width:730px}
+.gallery-help-inline{font-size:13px;color:#806c7a;margin:24px 0}
+.beat-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:21px 0 4px}
+.beat-item{background:#fbf7f8;border:1px solid #eadde3;border-radius:11px;padding:15px}
+.beat-item h3{font-family:Georgia,serif;font-size:17px;margin:6px 0}
+.beat-item p{font-size:13px;line-height:1.5;margin:7px 0}
+.clock-source{display:block;margin-top:9px;color:#9c8b96;font-size:11px}
+@media(max-width:700px){
+ .perspective-tabs{gap:7px}
+ .perspective-tabs button{padding:9px 11px;font-size:12px}
+ .episode-picker button,.episode-picker-current{font-size:12px}
+ .beat-list{grid-template-columns:1fr}
+ .scene-link{flex:0 0 120px;width:120px;min-width:0;white-space:nowrap}
+ .scene-link span:first-child{font-size:12px}
+ .profile-top{flex-wrap:wrap}
+}
