@@ -57,6 +57,10 @@ jobs:
       - name: Test character library, gallery, reader, and mobile UI in Chromium
         shell: bash
         run: |
+          # The source-backed Dhika reader is embedded from the repository root.
+          mkdir -p .preview-site/DHIKA_STORY/data
+          cp index.html app.js styles.css .preview-site/DHIKA_STORY/
+          cp data/corpus.json data/pair_evidence_v2.json .preview-site/DHIKA_STORY/data/
           mkdir -p .preview-site/DHIKA_STORY/Society-Wives
           rsync -a --exclude='/ui/' Society-Wives/ .preview-site/DHIKA_STORY/Society-Wives/
           cp -a Society-Wives/ui/dist/. .preview-site/DHIKA_STORY/Society-Wives/
