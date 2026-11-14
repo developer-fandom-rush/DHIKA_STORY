@@ -1,5 +1,6 @@
 import { useMemo, useState } from 'react';
-import { Archive, Directory, episodePath, leadOrder, Person, sourceUrl, titleCase, useData } from './lib';
+import { Archive, Directory, episodePath, leadOrder, Person, sourceUrl, titleCase, useData, assetUrl } from './lib';
+import gallery from './data/gallery.json';
 const categories=[{key:'family',label:'Family & household'},{key:'office',label:'Office / workplace'},{key:'society',label:'Society'}];
 function category(p:Person){return p.group==='college-student'?'office':p.group||'society'}
 export default function Characters({lead,personId}:{lead:string;personId:string|null}){
@@ -17,6 +18,7 @@ export default function Characters({lead,personId}:{lead:string;personId:string|
  const searchResult=people.filter(p=>(p.name+' '+p.role).toLowerCase().includes(q.toLowerCase())).slice(0,30);
  const encounterMatch=archive?.character_name_index?.find(x=>x.character_id===selected?.id);
  const relation=data?.relations.find(x=>x.w===active&&x.man===selected?.id);
+ const portrait=gallery.images.find(x=>x.characters.includes(selected?.id||'')&&!!x.path&&!x.restricted);
  const fileLink=sourceUrl('character-directory.json');
  return <main className="page-width">
   <header className="section-intro"><span className="eyebrow">Story Bible · canonical IDs</span><h1>Characters</h1><p>Five lead households, one shared society, five workplaces. Soniya has an independent profile.</p></header>
@@ -30,7 +32,7 @@ export default function Characters({lead,personId}:{lead:string;personId:string|
    </aside>
    <div>
     {selected&&<article className="profile-panel">
-     <span className="eyebrow">Character profile · {selected.id}</span><h2>{selected.name}</h2>
+     <div className="profile-top"><div><span className="eyebrow">Character profile · {selected.id}</span><h2>{selected.name}</h2><a className="profile-visual-link" href={'#/gallery?character='+selected.id}>View all visual references ↗</a></div>{portrait?.path&&<a href={'#/gallery?character='+selected.id}><img className="profile-portrait" src={assetUrl(portrait.path)} alt={'Existing visual reference for '+selected.name} loading="lazy" /></a>}</div>
      <p className="profile-role">{selected.role||'Role not recorded'}{typeof selected.age==='number'?' · Age '+selected.age:' · Age not verified'}</p>
      <div className="profile-grid"><div><span className="field-label">Household</span><p>{selected.house||('home'in selected?String(selected.home):'Not recorded')}</p></div><div><span className="field-label">Source status</span><p>{String(selected.sourceStatus||'Review')}</p></div><div><span className="field-label">Classification</span><p>{category(selected)}</p></div><div><span className="field-label">Relationship context</span><p>{relation?.how||'No direct relationship entry in this lead’s atlas'}</p></div></div>
      {relation&&<div className="source-note"><strong>Recorded relationship direction:</strong> {relation.why||'Not stated'} · <strong>{relation.state||'Review'}</strong>. This is a source note, not evidence of an encounter or consent.</div>}
