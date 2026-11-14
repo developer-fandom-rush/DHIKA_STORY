@@ -46,7 +46,7 @@ for(const image of gallery.images){
  else assert.equal(image.restricted,true,'Private Drive assets must never be embedded directly');
 }
 assert.equal(paths.size,27,'Expected complete GitHub image inventory');
-const inline=originalHtml.match(/data:image\\/webp;base64,([a-zA-Z0-9+/=]+)/);
+const inline=originalHtml.match(new RegExp('data:image/webp;base64,([a-zA-Z0-9+/=]+)'));
 assert.ok(inline,'Original embedded WebP source missing');
 assert.deepEqual(readFileSync(resolve(root,'assets/shivani-a03-inline-original.webp')),Buffer.from(inline[1],'base64'),'Extracted original WebP differs');
 assert.equal(gallery.images.filter(x=>x.source==='Google Drive').length,11,'Expected 11 restricted Drive image references');
