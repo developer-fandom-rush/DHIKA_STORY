@@ -100,7 +100,7 @@
       "id": "F07",
       "phase": "Dance",
       "title": "Meenakshi joins later",
-      "detail": "The group invites her and she chooses to dance. Avi and Yash separately notice her walk, outfit fit, curves, movements and appearance; their glances and reactions are distinct, and Aditi has her own reactions."
+      "detail": "The group invites her and she chooses to dance. Avi notices the fitted kurta and her peach-rounded hip curve as she crosses the floor; Yash notices her hourglass waist, steps and changes of expression. Their distinct private glances are visual observations, not permission; Aditi also notices the change in the group's attention."
     },
     {
       "id": "F08",
@@ -154,7 +154,7 @@
       "id": "F16",
       "phase": "Return travel",
       "title": "Unspoken looks",
-      "detail": "Avi and Yash independently admire Meenakshi's appearance; private glances and male-to-male teasing are kept distinct from her knowledge. No claim that her unseen reactions give permission."
+      "detail": "Avi catches the peach-round silhouette of Meenakshi's hips as she changes seat position; Yash separately notices the gentle hourglass line of her waist and how she adjusts her plum kurta. These are distinct, private adult-admiration metaphors; each man exchanges a teasing glance, and Meenakshi does not know exactly what was noticed."
     },
     {
       "id": "F17",
@@ -200,5 +200,34 @@
     "Original Dhika's body-observation, waist-contact, silence and jealousy mechanisms are adapted as new group events; no source scene copied verbatim",
     "Physical contact is not initiated or continued without checking consent for the new scope",
     "No images generated or supplied specifically for this farmhouse sequence yet"
+  ],
+  "visualComparisons": [
+    {
+      "lead": "Meenakshi",
+      "focus": "hip movement / fitted kurta",
+      "descriptor": "peach-rounded curve",
+      "observer": "Avi",
+      "beat": "F07"
+    },
+    {
+      "lead": "Meenakshi",
+      "focus": "waist / posture",
+      "descriptor": "hourglass waist",
+      "observer": "Yash",
+      "beat": "F07"
+    },
+    {
+      "lead": "Meenakshi",
+      "focus": "seat-shift silhouette",
+      "descriptor": "peach-round hips",
+      "observer": "Avi",
+      "beat": "F16"
+    }
+  ],
+  "editHistory": [
+    {
+      "date": "2026-11-14",
+      "change": "Specified concrete body-image comparisons as distinct private POVs; otherwise preserved approved plot beats."
+    }
   ]
 }
