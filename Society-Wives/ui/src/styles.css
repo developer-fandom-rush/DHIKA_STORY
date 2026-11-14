@@ -125,3 +125,5 @@ h1,h2,h3{font-family:Georgia,"Times New Roman",serif;letter-spacing:-.025em}h1{f
 .female-library-private-note{font-size:11px;color:#867783;line-height:1.65;margin:13px 0 9px}
 .female-library-folder{font-size:12px;font-weight:750;color:#864665;text-underline-offset:3px}
 @media(max-width:650px){.female-library{padding:16px}.female-photo-grid{grid-template-columns:1fr}.female-reveal-toggle{padding:14px}.female-library-person{margin:18px 0 12px}}
+
+.female-photo-preview-note{font-size:10px;color:#91828f;line-height:1.5;margin:-5px 0 9px}
