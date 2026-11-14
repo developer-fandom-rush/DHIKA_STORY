@@ -27,6 +27,25 @@ jobs:
       - name: Compile React TypeScript app
         run: npm run build
         working-directory: Society-Wives/ui
+      - name: Install headless browser
+        run: npx playwright install chromium --with-deps
+        working-directory: Society-Wives/ui
+      - name: Browser and mobile visual smoke tests
+        shell: bash
+        run: |
+          mkdir -p .preview-site/DHIKA_STORY/Society-Wives
+          rsync -a --exclude='/ui/' Society-Wives/ .preview-site/DHIKA_STORY/Society-Wives/
+          cp -a Society-Wives/ui/dist/. .preview-site/DHIKA_STORY/Society-Wives/
+          python3 -m http.server 4173 --directory .preview-site > /tmp/sw-ui-preview-server.log 2>&1 &
+          sleep 2
+          cd Society-Wives/ui
+          npm run test:browser
+      - name: Upload desktop/mobile screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: society-wives-visual-browser-tests
+          path: Society-Wives/ui/test-screenshots
       - name: Upload staged preview build
         uses: actions/upload-artifact@v4
         with:
