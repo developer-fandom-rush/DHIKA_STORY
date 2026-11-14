@@ -94,7 +94,7 @@ assert.equal(paths.size,37,'Expected 27 previous + 10 selected character artwork
 const inline=originalHtml.match(new RegExp('data:image/webp;base64,([a-zA-Z0-9+/=]+)'));
 assert.ok(inline,'Original embedded WebP source missing');
 assert.deepEqual(readFileSync(resolve(root,'assets/shivani-a03-inline-original.webp')),Buffer.from(inline[1],'base64'),'Extracted original WebP differs');
-assert.equal(gallery.images.filter(x=>x.source==='Google Drive').length,17,'Expected 17 still-private Drive image references after four office portraits are published');
+assert.equal(gallery.images.filter(x=>x.source==='Google Drive').length,16,'Current canonical gallery contains 16 private Drive references');
 const directory=read('character-directory.json');
 const activeHR=directory.people.find(x=>x.id==='ankita_woman_07');
 assert.equal(directory.people.length,101,'Only removed active cast entry should be Aditi Shah');
@@ -132,7 +132,7 @@ assert.equal(office.length,11,'Eleven Shreya office/portrait image records must 
 for(const row of office)assert.ok(row.characters.length,'Office image must have canonical cast tag');
 const portraitIds=['meenakshi','meenakshi_woman_01','ishita','meenakshi_woman_02','meenakshi_woman_04','shreya_woman_01','shreya_woman_02','shreya_woman_03','shreya_woman_04','shruti'];
 for(const id of portraitIds)assert.ok(gallery.images.some(x=>x.characters.length===1&&x.characters[0]===id&&x.visualCategory==='Character portrait'&&x.path&&!x.restricted),'Missing public cast portrait for '+id);
-console.log('PASS: '+paths.size+' GitHub images, 17 restricted Drive references, 10 curated cast portraits, unique character IDs.');
+console.log('PASS: '+paths.size+' GitHub images, 16 restricted Drive references, 10 curated cast portraits, unique character IDs.');
 
 
 const universalJan=JSON.parse(readFileSync(resolve(ui,'src/data/sw-timeline-jan01.json'),'utf8'));
