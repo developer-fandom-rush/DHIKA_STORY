@@ -1,0 +1,322 @@
+{
+  "version": "2026-11-14",
+  "source": "Copied from verified owner-visible Google Drive character imagery into a new private organization; ChatGPT Library originals not automatically exported",
+  "rootFolder": "https://drive.google.com/drive/folders/1Ysbw22LMMabnIQRivhDJXnRmojdzdepy",
+  "referenceFolder": "https://drive.google.com/drive/folders/1bUsKWy9Rf2_RN9SzDfdWqns6eimY8ZC6",
+  "generatedFolder": "https://drive.google.com/drive/folders/1Ph6YN-kfaP20GfeVhGgudf6i1UKu3q-D",
+  "privacy": "private",
+  "characters": [
+    {
+      "id": "ankita",
+      "name": "Ankita",
+      "group": "Five leads",
+      "reference": [
+        {
+          "title": "Ankita — reference portrait",
+          "url": "https://drive.google.com/file/d/1rV5C3ezD4fptRJTJDVbKNqcc4FQWlyis/view?usp=drivesdk"
+        }
+      ],
+      "generated": [
+        {
+          "title": "Rainy Emerald Saree",
+          "url": "https://drive.google.com/file/d/1-u69kUcizCPeyVZde_1nJw4EwfZCYz4j/view?usp=drivesdk"
+        }
+      ]
+    },
+    {
+      "id": "shivani",
+      "name": "Shivani",
+      "group": "Five leads",
+      "reference": [
+        {
+          "title": "Shivani — reference portrait",
+          "url": "https://drive.google.com/file/d/1JRx-30nkpCpLqgw184G9lfhsW_tm10Nf/view?usp=drivesdk"
+        }
+      ],
+      "generated": [
+        {
+          "title": "Rainy Maroon Saree",
+          "url": "https://drive.google.com/file/d/1PsKZheeD3xEfb0WKeUTxsRar0qcjFIXs/view?usp=drivesdk"
+        }
+      ]
+    },
+    {
+      "id": "taniya",
+      "name": "Taniya",
+      "group": "Five leads",
+      "reference": [
+        {
+          "title": "Taniya — reference portrait",
+          "url": "https://drive.google.com/file/d/1apKQPCTAInOgB28r7F3nf-IpzsPcxv98/view?usp=drivesdk"
+        }
+      ],
+      "generated": [
+        {
+          "title": "Rain-Kissed Cream Dress",
+          "url": "https://drive.google.com/file/d/1oMMMwMuFfrvZ669LuXnkpWEGIpuylnjV/view?usp=drivesdk"
+        }
+      ]
+    },
+    {
+      "id": "soniya",
+      "name": "Soniya",
+      "group": "Five leads",
+      "reference": [
+        {
+          "title": "Soniya — reference portrait",
+          "url": "https://drive.google.com/file/d/1SXpw3s1oHQwv5gALxXky5X6rgrSW62GB/view?usp=drivesdk"
+        }
+      ],
+      "generated": [
+        {
+          "title": "Rain-Kissed Burgundy Dress",
+          "url": "https://drive.google.com/file/d/1UWGFicxqHRQHLQyoB8Ook95JZFHI6MzF/view?usp=drivesdk"
+        }
+      ]
+    },
+    {
+      "id": "meenakshi",
+      "name": "Meenakshi",
+      "group": "Five leads",
+      "reference": [
+        {
+          "title": "Meenakshi — reference portrait",
+          "url": "https://drive.google.com/file/d/168oNisQhyKhJHBmBE2BelM6nN8JybWpy/view?usp=drivesdk"
+        }
+      ],
+      "generated": [
+        {
+          "title": "Morning Outfit",
+          "url": "https://drive.google.com/file/d/1Jl66wJsUGWX8m4C9qPwZYLJKViWkD9yq/view?usp=drivesdk"
+        }
+      ]
+    },
+    {
+      "id": "shreya",
+      "name": "Shreya",
+      "group": "Five leads",
+      "reference": [
+        {
+          "title": "Shreya — reference portrait",
+          "url": "https://drive.google.com/file/d/1FjfOgZsAmuP4CCWylkwuw8U4YXJAakYY/view?usp=drivesdk"
+        }
+      ],
+      "generated": [
+        {
+          "title": "Rain-Kissed Burgundy Dress",
+          "url": "https://drive.google.com/file/d/1MwAzLNM_rxlL-FJQigbH49ZL5xhh3xS2/view?usp=drivesdk"
+        }
+      ]
+    },
+    {
+      "id": "kavya_reference",
+      "name": "Kavya",
+      "group": "Additional references",
+      "reference": [
+        {
+          "title": "Kavya — reference portrait",
+          "url": "https://drive.google.com/file/d/1iVTtSdaX56GRxRNY0jM8MDDOop7vewMS/view?usp=drivesdk"
+        }
+      ],
+      "generated": []
+    },
+    {
+      "id": "ritika_reference",
+      "name": "Ritika",
+      "group": "Additional references",
+      "reference": [
+        {
+          "title": "Ritika — reference portrait",
+          "url": "https://drive.google.com/file/d/1NFQfomwhUTDGZrHFaFE6MOOXk82jRdnd/view?usp=drivesdk"
+        }
+      ],
+      "generated": []
+    },
+    {
+      "id": "nandini_reference",
+      "name": "Nandini",
+      "group": "Additional references",
+      "reference": [
+        {
+          "title": "Nandini — reference portrait",
+          "url": "https://drive.google.com/file/d/1IHnsBlRtVQvaBOcZFgSpxwOhp6C5jHRs/view?usp=drivesdk"
+        }
+      ],
+      "generated": []
+    },
+    {
+      "id": "kriti_reference",
+      "name": "Kriti",
+      "group": "Additional references",
+      "reference": [
+        {
+          "title": "Kriti — reference portrait",
+          "url": "https://drive.google.com/file/d/12pw_oipAesRTmPu1glxr1EwKFUiHO_WA/view?usp=drivesdk"
+        }
+      ],
+      "generated": [
+        {
+          "title": "Rainy Burgundy Balcony",
+          "url": "https://drive.google.com/file/d/1ByZALPbTECe6bE3LXvpiysErnnzDaDM3/view?usp=drivesdk"
+        }
+      ]
+    },
+    {
+      "id": "pooja_reference",
+      "name": "Pooja",
+      "group": "Additional references",
+      "reference": [
+        {
+          "title": "Pooja — reference portrait",
+          "url": "https://drive.google.com/file/d/1KrSFyLrrCP3rH4FD00BVSGrFf45RTrOL/view?usp=drivesdk"
+        }
+      ],
+      "generated": [
+        {
+          "title": "Rainy Nightwear",
+          "url": "https://drive.google.com/file/d/1VqJuSoPfTAMxxvAQX0R2nO-r5Y1cT3OC/view?usp=drivesdk"
+        }
+      ]
+    },
+    {
+      "id": "ishita",
+      "name": "Ishita",
+      "group": "Meenakshi circle",
+      "reference": [
+        {
+          "title": "Ishita — reference portrait",
+          "url": "https://drive.google.com/file/d/1jtWA31KzO50WgjiFI1Qmf9i4j93fXgq2/view?usp=drivesdk"
+        }
+      ],
+      "generated": [
+        {
+          "title": "Rain-Kissed Maroon Saree",
+          "url": "https://drive.google.com/file/d/10wAgfYwMCq7fIp1jX91H1Kym1Gp3fLfa/view?usp=drivesdk"
+        }
+      ]
+    },
+    {
+      "id": "meenakshi_woman_01",
+      "name": "Aditi",
+      "group": "Meenakshi circle",
+      "reference": [
+        {
+          "title": "Aditi — reference portrait",
+          "url": "https://drive.google.com/file/d/1zsyMwDRTofjrOB6PQShQqtGBHF0C__Sn/view?usp=drivesdk"
+        }
+      ],
+      "generated": []
+    },
+    {
+      "id": "meenakshi_woman_02",
+      "name": "Rupa",
+      "group": "Meenakshi circle",
+      "reference": [
+        {
+          "title": "Rupa — reference portrait",
+          "url": "https://drive.google.com/file/d/1nweOkpS26FN20eKJjKgJ9VU2JF_v2gfA/view?usp=drivesdk"
+        }
+      ],
+      "generated": []
+    },
+    {
+      "id": "meenakshi_woman_03",
+      "name": "Parnika (Rakul)",
+      "group": "Meenakshi circle",
+      "reference": [
+        {
+          "title": "Parnika (Rakul) — reference portrait",
+          "url": "https://drive.google.com/file/d/12YJbqn23gZDeowfsYAmz6f3Vjk685Xg3/view?usp=drivesdk"
+        }
+      ],
+      "generated": []
+    },
+    {
+      "id": "meenakshi_woman_04",
+      "name": "Leena",
+      "group": "Meenakshi circle",
+      "reference": [
+        {
+          "title": "Leena — reference portrait",
+          "url": "https://drive.google.com/file/d/1cszaAaS-F2-F6lBzLCmGrSBDXoFMKj9l/view?usp=drivesdk"
+        }
+      ],
+      "generated": []
+    },
+    {
+      "id": "shreya_woman_01",
+      "name": "Kavita",
+      "group": "Shreya circle",
+      "reference": [
+        {
+          "title": "Kavita — reference portrait",
+          "url": "https://drive.google.com/file/d/18ggIjFMkqPU4OHEH8fbtSsIXsmZ4a7JI/view?usp=drivesdk"
+        }
+      ],
+      "generated": [
+        {
+          "title": "Open-Collar Police Uniform",
+          "url": "https://drive.google.com/file/d/18Ewwr-VST6NW9BWzsLeHSpPZ977xsMgr/view?usp=drivesdk"
+        }
+      ]
+    },
+    {
+      "id": "shreya_woman_02",
+      "name": "Meera",
+      "group": "Shreya circle",
+      "reference": [
+        {
+          "title": "Meera — reference portrait",
+          "url": "https://drive.google.com/file/d/1X_QJJWMVFv9bCj-dsceBxxPzJrVoWhmh/view?usp=drivesdk"
+        }
+      ],
+      "generated": []
+    },
+    {
+      "id": "shreya_woman_03",
+      "name": "Poonam",
+      "group": "Shreya circle",
+      "reference": [
+        {
+          "title": "Poonam — reference portrait",
+          "url": "https://drive.google.com/file/d/1a4174avxf0mgpGaOufyFl3sHxoC2UE2F/view?usp=drivesdk"
+        }
+      ],
+      "generated": [
+        {
+          "title": "Police Uniform Portrait",
+          "url": "https://drive.google.com/file/d/1s1bf5oZZAzdJvsHH1fO3a-h9bQprEWDc/view?usp=drivesdk"
+        }
+      ]
+    },
+    {
+      "id": "shreya_woman_04",
+      "name": "Anjali",
+      "group": "Shreya circle",
+      "reference": [
+        {
+          "title": "Anjali — reference portrait",
+          "url": "https://drive.google.com/file/d/1ofzqXnFcMLWCREhvOXr-IqQiYETRlvpJ/view?usp=drivesdk"
+        }
+      ],
+      "generated": [
+        {
+          "title": "Fitness Uniform Portrait",
+          "url": "https://drive.google.com/file/d/1IL550f3k4sNDPB0RStebARINw-vy7Vpe/view?usp=drivesdk"
+        }
+      ]
+    },
+    {
+      "id": "shruti",
+      "name": "Shruti",
+      "group": "Shreya circle",
+      "reference": [
+        {
+          "title": "Shruti — reference portrait",
+          "url": "https://drive.google.com/file/d/1oqyXrAtKs7uw9yPFjfMaLEDvLa-aHpCw/view?usp=drivesdk"
+        }
+      ],
+      "generated": []
+    }
+  ]
+}
