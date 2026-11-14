@@ -19,12 +19,12 @@
   },
   "continuity": {
     "original": "Dhika Episode 03 occurs same afternoon/evening from 4 PM to about 5 PM and ends at the second doorbell. Episode 04 opens at that same door, continues evening/night, and only later advances to next morning. Do not interpret a day break between original EP03 and EP04.",
-    "newUniverse": "Society Wives EP02 closed Jan 1 at Meenakshi M12 13:15; new EP03 proposals belong Jan 2. 2 Jan senior review M08 at 11:00–11:40 preserved.",
+    "newUniverse": "Active Meenakshi EP03 Scene 01–04 belongs to Jan1. This file is an older archived Jan2 plan; M08 at 11:00–11:40 on Jan2 remains reserved.",
     "transport": "Meenakshi drives her own car to the hospital on Jan 2 and keeps car throughout; Avi/Yash/Aditi share a realistic four-seat trip with seatbelts. No unplanned bike ride or three on a two-wheeler.",
     "castRoles": "Office pair Avi (24, outgoing) and Yash (24, observant) are not biological twins; Dr Aditi (24) is their female peer. Society twins Uday and Utkarsh (24) are actual brothers. Hospital Chotu-role is Naveen (22), society Chotu-role Babloo (23); their roles and backstories stay distinct.",
-    "pendingMysteries": "Jan1 locker intrusion and changing-room privacy breach not resolved by new chapter; Mohan unrelated older household guest, one-sided interest concealed, and Nikhil's planned surprise remains unresolved.",
+    "pendingMysteries": "Previous unauthorized locker access remains reader-only; Meenakshi noticed a small change at 13:10 on Jan 1, set things in place and soon forgot about it. No photo, complaint or ongoing anxiety. Earlier changing-room incident remains unknown to her; Mohan's hidden interest and Nikhil's surprise are separate unresolved strands.",
     "interaction": "Adult fictional romance/innuendo; private admiration separated from Meenakshi's knowledge. A physical moment never proves consent to additional intimacy. Workplace hierarchy and patient context respected.",
-    "scope": "Discussion proposal only; no new scene is approved prose. Additional Jan2 events do not change Jan1 EP02."
+    "scope": "Retained older Jan2 proposal only; discarded M3-01 photographed-locker premise removed. Current EP03 starts Jan 1 at 13:50, with Jan2 M08 still reserved."
   },
   "cast": [
     {
@@ -89,47 +89,6 @@
     }
   ],
   "timeline": [
-    {
-      "id": "M3-01",
-      "date": "2026-01-02",
-      "start": "08:45",
-      "end": "09:10",
-      "lane": "HOSPITAL",
-      "location": "Parking, staff entry and reporting desk",
-      "title": "The Photograph from Yesterday",
-      "characters": [
-        "meenakshi",
-        "rupa"
-      ],
-      "approval": "NEW_PROPOSAL_NOT_APPROVED",
-      "beats": [
-        "She reaches hospital in her own car; parking and car keys are established for the afternoon.",
-        "Meenakshi keeps the 1 Jan 13:15 photo of the changed locker condition; she documents the concern through normal workplace process rather than publicly accusing anyone.",
-        "Meenakshi knows that her belongings shifted; she does not know about Ritesh, Kunal, Khurana or the changing-room workers.",
-        "Her composed exterior contrasts with the private unease that will surface again during ordinary conversation."
-      ],
-      "dialogue": [
-        [
-          "Meenakshi",
-          "Kal locker lock karke gayi thi. Main details record karungi, bina guess kiye."
-        ],
-        [
-          "Rupa",
-          "Photo aur time note kar lijiye. Process follow karte hain."
-        ]
-      ],
-      "arc": {
-        "physical": "Normal workday, closed wardrobe; no intimacy",
-        "emotional": "Unease and need for agency",
-        "psychological": "Grounded unresolved locker mystery"
-      },
-      "sourceBeats": [
-        "dhika-home-private-clue"
-      ],
-      "notes": [
-        "No evidence fabrication; no accusation; report outcome unapproved."
-      ]
-    },
     {
       "id": "M3-02",
       "date": "2026-01-02",
@@ -863,7 +822,7 @@
       "status": "MAPPED_PROPOSAL"
     }
   ],
-  "beatCount": 60,
+  "beatCount": 55,
   "futureEpisodeBoundary": {
     "sameEveningContinuation": "2026-01-02 after 18:20, if approved for next episode",
     "firstPotentialNextMorning": "2026-01-03 Saturday, NOT in this episode",
@@ -879,6 +838,10 @@
     {
       "date": "2026-11-13",
       "change": "Expanded existing M08-only Episode 03 file into multi-scene, source-beat-mapped planning draft; original M08 identity/time/status retained."
+    },
+    {
+      "date": "2026-11-14",
+      "change": "Removed discarded photographed-locker M3-01 and retired its Jan2 timeline slot, after author revised the Jan1 M12 ending."
     }
   ]
 }
