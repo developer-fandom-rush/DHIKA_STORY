@@ -35,7 +35,7 @@ function Summary({event}:{event:Event}){
    {event.sourceEvidence&&<p className="timeline-evidence"><strong>Source passage begins:</strong> {event.sourceEvidence}</p>}
    {event.originalWeekday&&<p className="timeline-weekday">Original Dhika weekday: <strong>{event.originalWeekday}</strong>. Calendar mapping follows your Jan 2026 anchor; original wording remains unchanged.</p>}
    {flags.length>0&&<div className="timeline-flags"><strong>Continuity review</strong><ul>{flags.map((flag,i)=><li key={i}>{flag}</li>)}</ul></div>}
-   <div className="timeline-event-actions"><button type="button" className="button primary" onClick={()=>routeTo(event)}>{event.reader.type==='dhika'?'Read in original Dhika reader':event.kind==='source-scene'?'Read original scene':event.kind==='prologue'?'Read prologue':'Open related planning'}</button></div>
+   <div className="timeline-event-actions"><button type="button" className="button primary" onClick={()=>routeTo(event)}>{event.reader.type==='dhika'?'Read in original Dhika reader':event.kind==='source-scene'?'Read original scene':event.kind==='published-prose'?'Read approved scene':event.kind==='prologue'?'Read prologue':'Open related planning'}</button></div>
   </div>
  </details>;
 }
