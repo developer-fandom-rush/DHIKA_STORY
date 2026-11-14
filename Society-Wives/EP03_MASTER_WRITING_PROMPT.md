@@ -63,6 +63,16 @@ Write clinical workflows plausibly. Do not place the child Vihaan in an adult ro
 - Preserve existing story words. Never truncate, summarize, rephrase or delete previously approved source while editing or publishing.
 - Do not claim approval, GitHub save, Drive upload or UI publication unless the relevant action succeeded and was read back.
 
+### AUTHOR-DIRECTED NARRATOR VISUAL STYLE — adult women, all future episodes
+- Carry forward the **narrator imagery technique** established by the original Dhika EP03 twins moment: a specific, visible body-shape metaphor joined to motion while walking. The original descriptor is **narration**, not a line necessarily said by a character. Do not copy Dhika sentences or transplant its plot.
+- Use precise, varied and context-sensitive **body-shape comparisons/similes, silhouette, clothing fit/drape, movement, posture and movement through space** for adult female characters. Avoid generic repetition such as “beautiful/hot/curvy” when a useful visual description exists.
+- **Walking:** a defined stride, gentle sway, how clothing responds to the step. **Standing:** stance, posture, weight shift, waist-to-shoulder silhouette. **Turning/dance:** silhouette change, fabric movement, positioning and balance. Compare only what the narrator could visually describe from the chosen viewpoint.
+- Provisional phrase vocabulary: “apple-rounded silhouette,” “athletic, sculpted outline,” “hourglass line beneath tailored clothing,” “a relaxed shift in stance,” “fabric tracing her steps.” These are **optional examples**, not preapproved anatomy canon for any named character. Write distinct, appropriate descriptions for Ankita, Sana, Aishwarya and all other adult leads; do not assign all of them the same apple comparison.
+- Keep **narrator-only observation**, **a named observer's glance**, **a spoken compliment/double entendre**, and **the woman's actual reaction** separate. The reader may know something a character does not. Do not conflate playful observation with consent or invent discomfort, embarrassment, desire or permission when no source has established it.
+- Pair the description with a relevant action and scene progression, not a catalog of body parts. Never silently omit an author-requested visual, flirt or caught-glance beat; if source or consent continuity conflicts, flag it and discuss before rewriting.
+- Reference: `Society-Wives/flirting-style.json` → `narratorVisualDescription`, and `Society-Wives/flirting-style.html#narrator-visual-style` for the matching UI reference.
+- **This is a global writer's style instruction, not approval of new episode events or prose.** Keep adult relationships, setting, and the master story clock accurate.
+
 ### WORKFLOW
 1. **Read source & produce Day 2/Day 3 master chronology** with a location/character conflict check and an explicit "known / proposed / missing" table.
 2. Give a **five-lead chapter index** (Taniya & Soniya may share a chapter but remain distinct POVs). Propose a working EP03 title, clearly labelled provisional.
