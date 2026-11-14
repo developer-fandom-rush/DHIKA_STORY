@@ -98,6 +98,8 @@
       "date": "1 January 2026 for Meenakshi Scene 01; separate 2–3 January drafts remain",
       "mainPath": "episode-03-meenakshi-scene-01.html",
       "relatedPaths": [
+        "episode-03-meenakshi-scene-03-twins.html",
+        "episode-03-meenakshi-scene-03-twins.json",
         "episode-03-meenakshi-scene-02.html",
         "episode-03-meenakshi-scene-02.json",
         "episode-03-meenakshi-scene-01.html",
@@ -107,7 +109,7 @@
         "episode-03-shreya-plan.json",
         "episode-03-meenakshi-planning.html"
       ],
-      "note": "Meenakshi Scene 01: Jan1 13:50–14:15 (cut EP04). Scene 02: Jan1 from 17:00; farmhouse outing and return journey plotted through pre-home-arrival cut; end time open. Older Jan2 plan preserved, not current. M08 review remains reserved for Jan2.",
+      "note": "Scene01 Jan1 13:50–14:15; Scene02 Jan1 from 17:00 farmhouse (saved approved plot direction, no prose); Scene03 same-day society twins badminton around 18:15 is review-only proposal, NOT timeline-approved until Scene02 return travel is feasible. EP04 Naveen 14:15 continuation open. Older Jan2 planner preserved.",
       "chapters": [
         {
           "lead": "Meenakshi",
@@ -128,6 +130,16 @@
           "mainPath": "episode-03-meenakshi-scene-02.html",
           "dataPath": "episode-03-meenakshi-scene-02.json",
           "description": "22 sequenced beats: Aditi-led bold group flirtation, Avi/Aditi dancing, Meenakshi joins, pictures, Yash waist-pose consent, Avi jealousy, return seat rivalry, individual abdomen-contact permission, playful kick, cut before home arrival. Post-14:15 Naveen emotional carryover still pending."
+        },
+        {
+          "lead": "Meenakshi",
+          "title": "The Badminton Bet — Uday & Utkarsh",
+          "date": "2026-01-01",
+          "time": "Approx. 18:15–18:33; arrival feasibility pending",
+          "status": "NEW_DISCUSSION_PROPOSAL_NOT_APPROVED_NOT_PROSE",
+          "mainPath": "episode-03-meenakshi-scene-03-twins.html",
+          "dataPath": "episode-03-meenakshi-scene-03-twins.json",
+          "description": "Same-day society badminton proposal; year-long familiarity, renewed flirting, individual gazes and peach/hourglass comparison, deliberate waist/core posture contact, jealousy, mild wine glow, future doubles with Ishita. Previous farmhouse return timing must be reconciled before locking."
         },
         {
           "lead": "Meenakshi",
