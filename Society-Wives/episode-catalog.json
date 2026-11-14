@@ -1,6 +1,6 @@
 {
   "series": "Society Wives — Five Veils of Desire",
-  "catalogVersion": "2026-11-13",
+  "catalogVersion": "2026-11-14",
   "policy": "Episode status is a story-boundary designation, not blanket approval of every scene or image.",
   "episodes": [
     {
@@ -93,28 +93,50 @@
     {
       "number": "03",
       "title": "Continuations",
-      "subtitle": "Next-day arcs / planning",
-      "status": "PLANNING_ONLY",
-      "date": "2–3 January 2026, scene-specific dates",
-      "mainPath": null,
+      "subtitle": "Meenakshi Jan 1 continuation; older future-day drafts retained",
+      "status": "PARTIAL_PLOT_SCENE_PUBLISHED_NO_FULL_PROSE",
+      "date": "1 January 2026 for Meenakshi Scene 01; separate 2–3 January drafts remain",
+      "mainPath": "episode-03-meenakshi-scene-01.html",
       "relatedPaths": [
+        "episode-03-meenakshi-scene-01.html",
+        "episode-03-meenakshi-scene-01.json",
         "episode-03-ankita-pending.html",
         "episode-03-meenakshi-plan.json",
         "episode-03-shreya-plan.json",
         "episode-03-meenakshi-planning.html"
       ],
-      "note": "Meenakshi detailed Jan 2 planner linked with scene/beat/source mapping, still unapproved. Existing M08 Senior Review retained. Ankita continuation separate; Shreya SR10–SR13 reserved Jan 3. No unified final EP03 reader.",
+      "note": "Meenakshi Scene 01 is author-directed: 1 Jan 13:50–14:15; 14:15 hard cut to EP04. Older 2 Jan Meenakshi planner is preserved but is not the active Scene 01; M08 Senior Review stays reserved for Jan 2.",
       "chapters": [
+        {
+          "lead": "Meenakshi",
+          "title": "The Glance at the Corridor — Scene 01",
+          "date": "2026-01-01",
+          "time": "13:50–14:15",
+          "status": "USER_DIRECTED_PLOT_OUTLINE_NO_PROSE",
+          "mainPath": "episode-03-meenakshi-scene-01.html",
+          "dataPath": "episode-03-meenakshi-scene-01.json",
+          "description": "Short Naveen × Meenakshi mood → teasing → separate tasks → accidental glance; cut at 14:15. References preexisting images only."
+        },
         {
           "lead": "Meenakshi",
           "title": "The Ride, the Glances & the Second Knock",
           "date": "2026-01-02",
-          "status": "DRAFT_SCENE_PLAN_FOR_DISCUSSION",
+          "status": "OLDER_UNAPPROVED_FUTURE_DAY_DRAFT",
           "mainPath": "episode-03-meenakshi-planning.html",
           "dataPath": "episode-03-meenakshi-plan.json",
-          "description": "14 chronological slots incl retained M08; 60 microbeats; hospital Avi/Yash/Aditi, Naveen; car ride; society Uday/Utkarsh and Babloo; second knock."
+          "description": "Archived earlier Jan2 proposal, not current EP03 Scene 01. 14 chronological slots incl retained M08; 60 microbeats; hospital Avi/Yash/Aditi, Naveen; car ride; society Uday/Utkarsh and Babloo; second knock."
         }
       ]
+    },
+    {
+      "number": "04",
+      "title": "Meenakshi × Naveen — Cut-Point",
+      "subtitle": "Scene to be discussed",
+      "status": "HANDOFF_ONLY_NOT_WRITTEN",
+      "date": "2026-01-01",
+      "start": "14:15",
+      "mainPath": "episode-04-meenakshi-cutpoint.html",
+      "note": "Direct continuation from EP03 Meenakshi Scene 01; no EP04 scene actions or prose have been approved."
     }
   ]
 }
