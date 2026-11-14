@@ -8,7 +8,7 @@
   "source": {
     "repository": "developer-fandom-rush/DHIKA_STORY",
     "path": "Society-Wives/episode-02.html",
-    "blob_sha": "91f5c2a92282cc01be7497cd8e12c97a41241aed"
+    "blob_sha": "9c5c8cb827b87db90973b1ab66c572db594eb0a4"
   },
   "approval_policy": "Approved scenes are marked only when exact source plan signals approval; published drafts remain indexed separately and must not be used as approved canon.",
   "scenes": [
@@ -2723,33 +2723,25 @@
       "source_anchor": "meenakshi-m12-story",
       "source_position": {
         "start": 274235,
-        "end": 276686
+        "end": 275029
       },
       "ui_badge_text_exact": null,
       "plan_approval_text_exact": "REVISED_DRAFT_PUBLISHED_PENDING_USER_REVIEW",
       "approved_by_source_plan": false,
       "source_html_lines_exact": [
-        "<section id=\"meenakshi-m12-story\" class=\"story\"><h2>M12 — Unease at the Locker</h2><div class=\"meta\">13:10–13:15 PM · Staff locker area · Episode 02 Meenakshi POV end · New draft for review</div><p>13:10 PM. Meenakshi nursing station se apna pending paperwork complete karke staff changing area mein aayi. Subah se lagataar kaam karne ke baad use kuch minute ki shaanti chahiye thi.</p>",
-        "<p>Usne apni coat ki pocket se locker key nikali. Door ke paas pahunchkar woh ek pal ruki.</p>",
-        "<p>Meenakshi locker ke seedha saamne ruki, key haath mein pakde. Door pehle jaisa firm nahi laga; latch thoda loose feel hua. Usne door khola toh gray cardigan ka fold alag direction mein tha, bag ka angle badla hua tha, aur pouch shelf ke left edge par sarki hui thi. Uski eyebrows thodi si upar uth gayi, lips press hue, aur usne pehle haath badhaya phir beech mein rok liya.</p>",
-        "<p>09:05 par usne lock carefully check kiya tha. Ab subah ka woh moment use bilkul saaf yaad aaya.</p>",
-        "<p><em>“Maine toh properly check kiya tha…”</em></p>",
-        "<p>Uski nazar ek-ek cheez par dobaara gayi; yeh sirf hastily folded cardigan ki baat nahi lag rahi thi.</p>",
-        "<p>Subah usne sab cheezein ek order mein rakhi thi—yeh uski aadat thi. Hospital mein itne saal kaam karne ke baad woh apna locker aur personal supplies carelessly chhodti nahi thi.</p>",
-        "<p><strong>Meenakshi (halke se):</strong> “Yeh fold maine toh nahi kiya.”</p>",
-        "<p>Usne bag check kiya. Ek nazar mein koi obvious cheez missing nahi dikhi, lekin usse yeh bhi clear nahi tha ki kya-kya move hua tha. Woh kisi par bina evidence accusation nahi lagana chahti thi.</p>",
-        "<p>Ek pal woh andar ki cheezon ko dekhti rahi, phir phone nikaal kar current condition ki photo le li. Key aur latch ko dekhkar use laga shayad subah jaldi mein kuch bhool gayi ho; doosri taraf uske dimaag mein apni hi woh deliberate final check ghoom raha tha.</p>",
-        "<p><em>“Nahi. Main ise lock karke hi gayi thi.”</em></p>",
-        "<p>Uske chehre ki hansi dheere-dheere khatam ho gayi. Ab woh gusse se zyada alert thi. Kisne locker khola? Kab? Aur agar kisi ne khola, toh kyun?</p>",
-        "<p>13:15 PM. Meenakshi ne door ko dheere se band kar diya, key apne paas rakhi aur ek baar corridor ko dekha. Abhi uske paas kisi ka naam nahi tha, na koi confirmed explanation.</p>",
-        "<p><strong>Meenakshi ka Episode 02 POV yahin rukta hai.</strong> Woh Harish–Sunil ke morning incident se bhi abhi unaware hai. Koi evening, ghar-waapsi ya next-day scene yahan add nahi hota.</p></section>"
+        "<section id=\"meenakshi-m12-story\" class=\"story\"><h2>M12 — A Passing Curiosity at the Locker</h2><div class=\"meta\">13:10–13:15 PM · Staff locker area · Episode 02 Meenakshi POV end · User-directed revised ending</div>",
+        "<p>13:10 PM. Meenakshi staff locker ke paas aayi. Cardigan ka fold kuch alag laga aur pouch shelf par thoda khiska hua tha.</p>",
+        "<p><strong>Meenakshi (halke se):</strong> “Arre, yeh maine yahan rakha tha kya?”</p>",
+        "<p>Usne ek pal cheezein dekhin. Sab kuch wahi maujood tha. “Shayad subah jaldi mein aise hi rakh diya hoga.” Usne cardigan theek se rakha, locker band kiya aur key apne bag mein rakh li.</p>",
+        "<p>13:15 PM. Meenakshi apne hospital duties par laut gayi. Kuch hi der mein uska dhyan agle kaam par chala gaya aur locker wali baat uske zehan se nikal gayi.</p>",
+        "</section>"
       ],
       "prose_line_records": [
         {
           "id": "M12-L001",
-          "html_exact": "<p>13:10 PM. Meenakshi nursing station se apna pending paperwork complete karke staff changing area mein aayi. Subah se lagataar kaam karne ke baad use kuch minute ki shaanti chahiye thi.</p>",
-          "text_for_lookup": "13:10 PM. Meenakshi nursing station se apna pending paperwork complete karke staff changing area mein aayi. Subah se lagataar kaam karne ke baad use kuch minute ki shaanti chahiye thi.",
-          "source_start_in_scene": 195,
+          "html_exact": "<p>13:10 PM. Meenakshi staff locker ke paas aayi. Cardigan ka fold kuch alag laga aur pouch shelf par thoda khiska hua tha.</p>",
+          "text_for_lookup": "13:10 PM. Meenakshi staff locker ke paas aayi. Cardigan ka fold kuch alag laga aur pouch shelf par thoda khiska hua tha.",
+          "source_start_in_scene": 217,
           "explicit_names": [
             "Meenakshi"
           ],
@@ -2757,124 +2749,37 @@
         },
         {
           "id": "M12-L002",
-          "html_exact": "<p>Usne apni coat ki pocket se locker key nikali. Door ke paas pahunchkar woh ek pal ruki.</p>",
-          "text_for_lookup": "Usne apni coat ki pocket se locker key nikali. Door ke paas pahunchkar woh ek pal ruki.",
-          "source_start_in_scene": 387,
-          "explicit_names": [],
-          "speaker_label_exact": null
-        },
-        {
-          "id": "M12-L003",
-          "html_exact": "<p>Meenakshi locker ke seedha saamne ruki, key haath mein pakde. Door pehle jaisa firm nahi laga; latch thoda loose feel hua. Usne door khola toh gray cardigan ka fold alag direction mein tha, bag ka angle badla hua tha, aur pouch shelf ke left edge par sarki hui thi. Uski eyebrows thodi si upar uth gayi, lips press hue, aur usne pehle haath badhaya phir beech mein rok liya.</p>",
-          "text_for_lookup": "Meenakshi locker ke seedha saamne ruki, key haath mein pakde. Door pehle jaisa firm nahi laga; latch thoda loose feel hua. Usne door khola toh gray cardigan ka fold alag direction mein tha, bag ka angle badla hua tha, aur pouch shelf ke left edge par sarki hui thi. Uski eyebrows thodi si upar uth gayi, lips press hue, aur usne pehle haath badhaya phir beech mein rok liya.",
-          "source_start_in_scene": 482,
-          "explicit_names": [
-            "Meenakshi"
-          ],
-          "speaker_label_exact": null
-        },
-        {
-          "id": "M12-L004",
-          "html_exact": "<p>09:05 par usne lock carefully check kiya tha. Ab subah ka woh moment use bilkul saaf yaad aaya.</p>",
-          "text_for_lookup": "09:05 par usne lock carefully check kiya tha. Ab subah ka woh moment use bilkul saaf yaad aaya.",
-          "source_start_in_scene": 864,
-          "explicit_names": [],
-          "speaker_label_exact": null
-        },
-        {
-          "id": "M12-L005",
-          "html_exact": "<p><em>“Maine toh properly check kiya tha…”</em></p>",
-          "text_for_lookup": "“Maine toh properly check kiya tha…”",
-          "source_start_in_scene": 967,
-          "explicit_names": [],
-          "speaker_label_exact": null
-        },
-        {
-          "id": "M12-L006",
-          "html_exact": "<p>Uski nazar ek-ek cheez par dobaara gayi; yeh sirf hastily folded cardigan ki baat nahi lag rahi thi.</p>",
-          "text_for_lookup": "Uski nazar ek-ek cheez par dobaara gayi; yeh sirf hastily folded cardigan ki baat nahi lag rahi thi.",
-          "source_start_in_scene": 1020,
-          "explicit_names": [],
-          "speaker_label_exact": null
-        },
-        {
-          "id": "M12-L007",
-          "html_exact": "<p>Subah usne sab cheezein ek order mein rakhi thi—yeh uski aadat thi. Hospital mein itne saal kaam karne ke baad woh apna locker aur personal supplies carelessly chhodti nahi thi.</p>",
-          "text_for_lookup": "Subah usne sab cheezein ek order mein rakhi thi—yeh uski aadat thi. Hospital mein itne saal kaam karne ke baad woh apna locker aur personal supplies carelessly chhodti nahi thi.",
-          "source_start_in_scene": 1128,
-          "explicit_names": [],
-          "speaker_label_exact": null
-        },
-        {
-          "id": "M12-L008",
-          "html_exact": "<p><strong>Meenakshi (halke se):</strong> “Yeh fold maine toh nahi kiya.”</p>",
-          "text_for_lookup": "Meenakshi (halke se): “Yeh fold maine toh nahi kiya.”",
-          "source_start_in_scene": 1313,
+          "html_exact": "<p><strong>Meenakshi (halke se):</strong> “Arre, yeh maine yahan rakha tha kya?”</p>",
+          "text_for_lookup": "Meenakshi (halke se): “Arre, yeh maine yahan rakha tha kya?”",
+          "source_start_in_scene": 345,
           "explicit_names": [
             "Meenakshi"
           ],
           "speaker_label_exact": "Meenakshi (halke se)"
         },
         {
-          "id": "M12-L009",
-          "html_exact": "<p>Usne bag check kiya. Ek nazar mein koi obvious cheez missing nahi dikhi, lekin usse yeh bhi clear nahi tha ki kya-kya move hua tha. Woh kisi par bina evidence accusation nahi lagana chahti thi.</p>",
-          "text_for_lookup": "Usne bag check kiya. Ek nazar mein koi obvious cheez missing nahi dikhi, lekin usse yeh bhi clear nahi tha ki kya-kya move hua tha. Woh kisi par bina evidence accusation nahi lagana chahti thi.",
-          "source_start_in_scene": 1391,
+          "id": "M12-L003",
+          "html_exact": "<p>Usne ek pal cheezein dekhin. Sab kuch wahi maujood tha. “Shayad subah jaldi mein aise hi rakh diya hoga.” Usne cardigan theek se rakha, locker band kiya aur key apne bag mein rakh li.</p>",
+          "text_for_lookup": "Usne ek pal cheezein dekhin. Sab kuch wahi maujood tha. “Shayad subah jaldi mein aise hi rakh diya hoga.” Usne cardigan theek se rakha, locker band kiya aur key apne bag mein rakh li.",
+          "source_start_in_scene": 430,
           "explicit_names": [],
           "speaker_label_exact": null
         },
         {
-          "id": "M12-L010",
-          "html_exact": "<p>Ek pal woh andar ki cheezon ko dekhti rahi, phir phone nikaal kar current condition ki photo le li. Key aur latch ko dekhkar use laga shayad subah jaldi mein kuch bhool gayi ho; doosri taraf uske dimaag mein apni hi woh deliberate final check ghoom raha tha.</p>",
-          "text_for_lookup": "Ek pal woh andar ki cheezon ko dekhti rahi, phir phone nikaal kar current condition ki photo le li. Key aur latch ko dekhkar use laga shayad subah jaldi mein kuch bhool gayi ho; doosri taraf uske dimaag mein apni hi woh deliberate final check ghoom raha tha.",
-          "source_start_in_scene": 1592,
-          "explicit_names": [],
-          "speaker_label_exact": null
-        },
-        {
-          "id": "M12-L011",
-          "html_exact": "<p><em>“Nahi. Main ise lock karke hi gayi thi.”</em></p>",
-          "text_for_lookup": "“Nahi. Main ise lock karke hi gayi thi.”",
-          "source_start_in_scene": 1858,
-          "explicit_names": [],
-          "speaker_label_exact": null
-        },
-        {
-          "id": "M12-L012",
-          "html_exact": "<p>Uske chehre ki hansi dheere-dheere khatam ho gayi. Ab woh gusse se zyada alert thi. Kisne locker khola? Kab? Aur agar kisi ne khola, toh kyun?</p>",
-          "text_for_lookup": "Uske chehre ki hansi dheere-dheere khatam ho gayi. Ab woh gusse se zyada alert thi. Kisne locker khola? Kab? Aur agar kisi ne khola, toh kyun?",
-          "source_start_in_scene": 1915,
-          "explicit_names": [],
-          "speaker_label_exact": null
-        },
-        {
-          "id": "M12-L013",
-          "html_exact": "<p>13:15 PM. Meenakshi ne door ko dheere se band kar diya, key apne paas rakhi aur ek baar corridor ko dekha. Abhi uske paas kisi ka naam nahi tha, na koi confirmed explanation.</p>",
-          "text_for_lookup": "13:15 PM. Meenakshi ne door ko dheere se band kar diya, key apne paas rakhi aur ek baar corridor ko dekha. Abhi uske paas kisi ka naam nahi tha, na koi confirmed explanation.",
-          "source_start_in_scene": 2065,
+          "id": "M12-L004",
+          "html_exact": "<p>13:15 PM. Meenakshi apne hospital duties par laut gayi. Kuch hi der mein uska dhyan agle kaam par chala gaya aur locker wali baat uske zehan se nikal gayi.</p>",
+          "text_for_lookup": "13:15 PM. Meenakshi apne hospital duties par laut gayi. Kuch hi der mein uska dhyan agle kaam par chala gaya aur locker wali baat uske zehan se nikal gayi.",
+          "source_start_in_scene": 621,
           "explicit_names": [
-            "Diya Sen",
-            "Meenakshi"
-          ],
-          "speaker_label_exact": null
-        },
-        {
-          "id": "M12-L014",
-          "html_exact": "<p><strong>Meenakshi ka Episode 02 POV yahin rukta hai.</strong> Woh Harish–Sunil ke morning incident se bhi abhi unaware hai. Koi evening, ghar-waapsi ya next-day scene yahan add nahi hota.</p>",
-          "text_for_lookup": "Meenakshi ka Episode 02 POV yahin rukta hai. Woh Harish–Sunil ke morning incident se bhi abhi unaware hai. Koi evening, ghar-waapsi ya next-day scene yahan add nahi hota.",
-          "source_start_in_scene": 2247,
-          "explicit_names": [
-            "Harish Pal",
-            "Sunil Yadav",
             "Meenakshi"
           ],
           "speaker_label_exact": null
         }
       ],
       "integrity": {
-        "source_char_length": 2451,
+        "source_char_length": 794,
         "html_lines_lossless": true,
-        "prose_line_count": 14
+        "prose_line_count": 4
       }
     }
   ],
@@ -3312,14 +3217,6 @@
           ],
           "full_scene_for_context": "M11",
           "scene_approved": false
-        },
-        {
-          "scene_id": "M12",
-          "evidence_line_ids": [
-            "M12-L013"
-          ],
-          "full_scene_for_context": "M12",
-          "scene_approved": false
         }
       ],
       "lookup_type": "EXPLICIT_NAME_OR_UNAMBIGUOUS_ALIAS_NOT_PROOF_OF_DIRECT_INTERACTION"
@@ -3424,14 +3321,6 @@
           ],
           "full_scene_for_context": "M06",
           "scene_approved": false
-        },
-        {
-          "scene_id": "M12",
-          "evidence_line_ids": [
-            "M12-L014"
-          ],
-          "full_scene_for_context": "M12",
-          "scene_approved": false
         }
       ],
       "lookup_type": "EXPLICIT_NAME_OR_UNAMBIGUOUS_ALIAS_NOT_PROOF_OF_DIRECT_INTERACTION"
@@ -3458,14 +3347,6 @@
             "M06-L031"
           ],
           "full_scene_for_context": "M06",
-          "scene_approved": false
-        },
-        {
-          "scene_id": "M12",
-          "evidence_line_ids": [
-            "M12-L014"
-          ],
-          "full_scene_for_context": "M12",
           "scene_approved": false
         }
       ],
@@ -3661,10 +3542,8 @@
           "scene_id": "M12",
           "evidence_line_ids": [
             "M12-L001",
-            "M12-L003",
-            "M12-L008",
-            "M12-L013",
-            "M12-L014"
+            "M12-L002",
+            "M12-L004"
           ],
           "full_scene_for_context": "M12",
           "scene_approved": false
@@ -3678,7 +3557,7 @@
   ],
   "integrity": {
     "scenes_found": 10,
-    "source_characters_preserved": 40673,
+    "source_characters_preserved": 39016,
     "each_scene_reconstruction_verified": true
   }
 }
