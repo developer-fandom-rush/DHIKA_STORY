@@ -70,11 +70,15 @@ try {
  await page.locator('.image-card').first().waitFor();
  const mobile=await page.evaluate(()=>({body:document.documentElement.scrollWidth,viewport:document.documentElement.clientWidth}));
  check(mobile.body<=mobile.viewport+2,'Mobile gallery does not overflow the viewport');
+ const navBoxes=await page.locator('.main-nav a').evaluateAll(nodes=>nodes.map(n=>{const r=n.getBoundingClientRect();return {left:r.left,right:r.right,width:r.width}}));
+ check(navBoxes.length===5&&navBoxes.every(r=>r.width>20&&r.left>=-1&&r.right<=391),'All five mobile navigation links are visible without scrolling');
  await page.screenshot({path:resolve(screenshots,'06-gallery-mobile.png')});
  await page.locator('.main-nav a[href="#/reading"]').click();
  await page.locator('.source-scene').waitFor();
  const mobileReader=await page.evaluate(()=>({body:document.documentElement.scrollWidth,viewport:document.documentElement.clientWidth}));
  check(mobileReader.body<=mobileReader.viewport+2,'Mobile reader does not overflow viewport');
+ const sceneScroller=await page.locator('.scene-sidebar').evaluate(el=>({scrollWidth:el.scrollWidth,clientWidth:el.clientWidth}));
+ check(sceneScroller.scrollWidth>sceneScroller.clientWidth,'Mobile reader scene chips can be swiped horizontally without label collisions');
  await page.screenshot({path:resolve(screenshots,'07-reader-mobile.png')});
  check(errors.length===0,'No uncaught browser JavaScript exceptions');
  check(missing.length===0,'No failed same-site static asset or source requests: '+missing.slice(0,4).join(', '));
