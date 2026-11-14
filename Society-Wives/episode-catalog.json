@@ -94,7 +94,7 @@
       "number": "03",
       "title": "Continuations",
       "subtitle": "Meenakshi Jan 1 continuation; older future-day drafts retained",
-      "status": "TWO_MEENAKSHI_PLOT_SCENES_PUBLISHED_NO_PROSE",
+      "status": "MEENAKSHI_SCENE_01_APPROVED_PUBLISHED_OTHER_SCENES_PLOT_ONLY",
       "date": "1 January 2026 for Meenakshi Scene 01; separate 2–3 January drafts remain",
       "mainPath": "episode-03-meenakshi-scene-01.html",
       "relatedPaths": [
@@ -111,17 +111,17 @@
         "episode-03-shreya-plan.json",
         "episode-03-meenakshi-planning.html"
       ],
-      "note": "Scene01 Jan1 13:50–14:15; M12 locker thought has passed; Naveen is a 1.5-year familiar coworker; Scene02 Jan1 from 17:00 farmhouse (saved approved plot direction, no prose); Scene03 same-day society twins badminton around 18:15 is review-only proposal, NOT timeline-approved until Scene02 return travel is feasible. EP04 Naveen 14:15 continuation open. Older Jan2 planner preserved. Scene03 former doubles invitation deferred and old ending removed; new five-minute ride proposal now archived as user-verbatim planning requirement, full prose not approved. Meenakshi EP03 now ends after Babloo B01–B05 approved first personal encounter at Tower C; next-day car assistance is a possible EP04 follow-up; no doorbell-only ending.",
+      "note": "Scene01 Jan1 13:50–14:15 now author-approved compact prose published; M12 locker thought has passed; Naveen is a 1.5-year familiar coworker; Scene02 Jan1 from 17:00 farmhouse (saved approved plot direction, no prose); Scene03 same-day society twins badminton around 18:15 is review-only proposal, NOT timeline-approved until Scene02 return travel is feasible. EP04 Naveen 14:15 continuation open, no follow-up published. Older Jan2 planner preserved. Scene03 former doubles invitation deferred and old ending removed; new five-minute ride proposal now archived as user-verbatim planning requirement, full prose not approved. Meenakshi EP03 now ends after Babloo B01–B05 approved first personal encounter at Tower C; next-day car assistance is a possible EP04 follow-up; no doorbell-only ending.",
       "chapters": [
         {
           "lead": "Meenakshi",
           "title": "The Glance at the Corridor — Scene 01",
           "date": "2026-01-01",
           "time": "13:50–14:15",
-          "status": "USER_DIRECTED_PLOT_OUTLINE_NO_PROSE",
+          "status": "USER_APPROVED_PUBLISHED_PROSE",
           "mainPath": "episode-03-meenakshi-scene-01.html",
           "dataPath": "episode-03-meenakshi-scene-01.json",
-          "description": "Short Naveen × Meenakshi mood → teasing → separate tasks → accidental glance; cut at 14:15. References preexisting images only."
+          "description": "Author-approved compact Meenakshi × Naveen conversation: 1.5-year familiarity, friendly paperwork banter, normal work, accidental glance, cut at 14:15. Exact published dialogue available in scene JSON/HTML/UI; no Episode 04 continuation written."
         },
         {
           "lead": "Meenakshi",
