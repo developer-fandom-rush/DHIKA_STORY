@@ -10,7 +10,7 @@
   "start": "13:50",
   "end": "14:15",
   "title": "The Glance at the Corridor",
-  "status": "USER_DIRECTED_PLOT_OUTLINE_PUBLISHED_NOT_PROSE",
+  "status": "USER_APPROVED_PUBLISHED_PROSE",
   "continuityFrom": "EP02 M12 13:10–13:15 — Meenakshi briefly wondered about a different cardigan fold and shifted pouch, put them back and returned to duties; no photo, lasting anxiety or culprit knowledge. Naveen and Meenakshi already have about 1.5 years of familiar workplace rapport.",
   "characters": [
     "meenakshi",
@@ -47,7 +47,7 @@
       "cut": "STOP at 14:15 before reply, goodbye or follow-on interaction."
     }
   ],
-  "next": "EP04 Meenakshi × Naveen begins at 14:15 on the same date, immediately after this cut; events after 14:15 intentionally unwritten.",
+  "next": "EP04 Meenakshi × Naveen starts at 14:15 on 1 January immediately after the glance; no subsequent reaction or conversation has been written.",
   "removed": [
     "The earlier 16:51–16:53 goodbye sequence",
     "16:35–16:53 evening timing",
@@ -63,9 +63,109 @@
       "type": "EXISTING_REFERENCE_NOT_NEW_SCENE_RENDER"
     }
   ],
-  "approvedScope": "Author-directed timing, beats and cut-point approved for posting as short plot outline only. No full prose and no subsequent EP04 encounter approved.",
+  "approvedScope": "Author expressly approved the compact Scene 01 prose and requested publication to GitHub/UI. Scope: 2026-01-01 13:50–14:15 only. EP04 continuation remains unwritten.",
   "relationshipHistory": {
     "tenure": "Approximately 1.5 years working in the same hospital (author-directed)",
     "preexisting": "Naveen has already delivered duty sheets and consultation confirmations during EP02 M06. Their established daily familiarity is shown through banter, not recast as a new introduction."
-  }
+  },
+  "publishedProse": [
+    {
+      "time": "13:50",
+      "kind": "narration",
+      "speaker": "",
+      "text": "Naveen हाथ में duty-sheet लेकर Meenakshi के desk पर आया।"
+    },
+    {
+      "time": null,
+      "kind": "dialogue",
+      "speaker": "Naveen",
+      "text": "Doctor madam, ek aur signature."
+    },
+    {
+      "time": null,
+      "kind": "dialogue",
+      "speaker": "Meenakshi",
+      "text": "Naveen, tumhari files kabhi khatam bhi hoti hain?"
+    },
+    {
+      "time": null,
+      "kind": "dialogue",
+      "speaker": "Naveen",
+      "text": "Ho jaati hain, madam. Bas aapki signatures khatam nahi hoti."
+    },
+    {
+      "time": null,
+      "kind": "narration",
+      "speaker": "",
+      "text": "Meenakshi मुस्कुराई और file पर sign कर दिया।"
+    },
+    {
+      "time": null,
+      "kind": "dialogue",
+      "speaker": "Meenakshi",
+      "text": "Aaj bade smart answers de rahe ho."
+    },
+    {
+      "time": null,
+      "kind": "dialogue",
+      "speaker": "Naveen",
+      "text": "डेढ़ साल से de raha hoon. Aapne aaj notice kiya."
+    },
+    {
+      "time": null,
+      "kind": "narration",
+      "speaker": "",
+      "text": "Meenakshi हँस पड़ी।"
+    },
+    {
+      "time": null,
+      "kind": "dialogue",
+      "speaker": "Meenakshi",
+      "text": "Achha ji! Ab jao, handover copy lekar aao."
+    },
+    {
+      "time": null,
+      "kind": "narration",
+      "speaker": "",
+      "text": "Naveen मुस्कुराता हुआ चला गया।"
+    },
+    {
+      "time": "14:08",
+      "kind": "narration",
+      "speaker": "",
+      "text": "कुछ देर बाद Meenakshi staff changing area में गई। उसने white coat उतारा, grey cardigan ठीक किया और अपना bag उठाया।"
+    },
+    {
+      "time": "14:14",
+      "kind": "narration",
+      "speaker": "",
+      "text": "Corridor में लौटते समय Naveen handover copy लेकर सामने आया।"
+    },
+    {
+      "time": null,
+      "kind": "dialogue",
+      "speaker": "Naveen",
+      "text": "Doctor madam, complete file. Aaj koi complaint nahi milegi."
+    },
+    {
+      "time": null,
+      "kind": "narration",
+      "speaker": "",
+      "text": "Meenakshi मुस्कुराते हुए bag का strap ठीक करने लगी। Strap cardigan में अटकने से उसका neckline एक पल के लिए खिसक गया।"
+    },
+    {
+      "time": null,
+      "kind": "narration",
+      "speaker": "",
+      "text": "Naveen की नज़र अनायास वहाँ गई। Meenakshi ने notice किया। उसने cardigan ठीक किया और Naveen ने तुरंत नज़र हटा ली।"
+    },
+    {
+      "time": "14:15",
+      "kind": "cut",
+      "speaker": "",
+      "text": "Scene cut. अगला episode इसी moment से continue होगा; यहाँ कोई goodbye या अतिरिक्त reaction नहीं है।"
+    }
+  ],
+  "proseVersion": "compact-author-approved-2026-11-14",
+  "storyStatus": "APPROVED_AND_PUBLISHED"
 }
