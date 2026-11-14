@@ -154,7 +154,7 @@ check(!(await page.locator('#ep03-meenakshi-scene-04').innerText()).includes('Ep
  check(await page.locator('.timeline-rescheduled').count()===4,'Shreya SR10–SR13 on January 3, still planned');
  await page.screenshot({path:resolve(screenshots,'08-sw-universal-jan03.png')});
  await page.locator('.universe-option',{hasText:'Dhika'}).click();
- await page.waitForFunction(()=>location.hash.startsWith('#/dhika-timeline'));
+ await page.waitForFunction(()=>location.hash.startsWith('#/dhika-timeline')&&document.querySelector('.section-intro .eyebrow')?.textContent.includes('DHIKA'));
  await page.locator('.timeline-event').first().waitFor();
  check((await page.locator('.section-intro .eyebrow').innerText()).includes('DHIKA'),'Dhika switch actually mounts Dhika universe, not the previous SW page');
  check((await page.locator('select[aria-label="Timeline date"]').inputValue())==='2026-01-03','Universe switch preserves selected shared calendar date');
