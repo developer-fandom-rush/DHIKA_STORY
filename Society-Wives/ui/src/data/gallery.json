@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-14",
+  "version": "2026-11-14-office-image-pass",
   "policy": "Source paths and permissions preserved; private Drive files are link-only and never hotlinked.",
   "images": [
     {
@@ -655,6 +655,187 @@
       "restricted": true,
       "original": "https://drive.google.com/file/d/1jsH48xPAULCX_My6q1g4o_cG9iBTXWtf/view?usp=drivesdk",
       "visualCategory": "Portrait / outfit"
+    },
+    {
+      "id": "dr-office-1PoRa09rqr1khxQGjIIa_UU3RW90Q4Mxq",
+      "title": "Poonam — Police Uniform (Two Buttons Open)",
+      "path": null,
+      "source": "Google Drive",
+      "characters": [
+        "shreya_woman_03"
+      ],
+      "storyline": "shreya",
+      "episode": null,
+      "scene": null,
+      "storyDate": null,
+      "location": null,
+      "visualCategory": "Police uniform",
+      "status": "Review",
+      "restricted": true,
+      "original": "https://drive.google.com/file/d/1PoRa09rqr1khxQGjIIa_UU3RW90Q4Mxq/view?usp=drivesdk"
+    },
+    {
+      "id": "dr-office-1RDzXqQZsWr2FMFC2Tgd1VK0sn8EvcLU9",
+      "title": "Poonam — Police Office Portrait 02",
+      "path": null,
+      "source": "Google Drive",
+      "characters": [
+        "shreya_woman_03"
+      ],
+      "storyline": "shreya",
+      "episode": null,
+      "scene": null,
+      "storyDate": null,
+      "location": null,
+      "visualCategory": "Police / uniform",
+      "status": "Reference",
+      "restricted": true,
+      "original": "https://drive.google.com/file/d/1RDzXqQZsWr2FMFC2Tgd1VK0sn8EvcLU9/view?usp=drivesdk"
+    },
+    {
+      "id": "dr-office-1duoxHQrWEn9c4wLS08Bw_UPpVYF9TyY9",
+      "title": "Poonam — Police Office Portrait 01",
+      "path": null,
+      "source": "Google Drive",
+      "characters": [
+        "shreya_woman_03"
+      ],
+      "storyline": "shreya",
+      "episode": null,
+      "scene": null,
+      "storyDate": null,
+      "location": null,
+      "visualCategory": "Police / uniform",
+      "status": "Reference",
+      "restricted": true,
+      "original": "https://drive.google.com/file/d/1duoxHQrWEn9c4wLS08Bw_UPpVYF9TyY9/view?usp=drivesdk"
+    },
+    {
+      "id": "dr-office-18gcTKXAw62iqg0f99hh_CsxMM0HiJoFd",
+      "title": "Anjali — Fitness Uniform Reference",
+      "path": null,
+      "source": "Google Drive",
+      "characters": [
+        "shreya_woman_04"
+      ],
+      "storyline": "shreya",
+      "episode": null,
+      "scene": null,
+      "storyDate": null,
+      "location": null,
+      "visualCategory": "Fitness / uniform",
+      "status": "Review",
+      "restricted": true,
+      "original": "https://drive.google.com/file/d/18gcTKXAw62iqg0f99hh_CsxMM0HiJoFd/view?usp=drivesdk"
+    },
+    {
+      "id": "dr-office-1mSyKLPSpwk0myZrMKdQM0vOyT7Genk7_",
+      "title": "Anjali — Full Body Police Uniform",
+      "path": null,
+      "source": "Google Drive",
+      "characters": [
+        "shreya_woman_04"
+      ],
+      "storyline": "shreya",
+      "episode": null,
+      "scene": null,
+      "storyDate": null,
+      "location": null,
+      "visualCategory": "Police / uniform",
+      "status": "Reference",
+      "restricted": true,
+      "original": "https://drive.google.com/file/d/1mSyKLPSpwk0myZrMKdQM0vOyT7Genk7_/view?usp=drivesdk"
+    },
+    {
+      "id": "dr-office-1UMpXOxcfiLJNHlmoIyCnXVsseWe_tDZ0",
+      "title": "Anjali — Police Uniform Portrait 02",
+      "path": null,
+      "source": "Google Drive",
+      "characters": [
+        "shreya_woman_04"
+      ],
+      "storyline": "shreya",
+      "episode": null,
+      "scene": null,
+      "storyDate": null,
+      "location": null,
+      "visualCategory": "Police / uniform",
+      "status": "Reference",
+      "restricted": true,
+      "original": "https://drive.google.com/file/d/1UMpXOxcfiLJNHlmoIyCnXVsseWe_tDZ0/view?usp=drivesdk"
+    },
+    {
+      "id": "dr-office-1-AzyD0YTKOTp3hpnij9gmwcZrVIAwvXR",
+      "title": "Anjali — Police Office Portrait 01",
+      "path": null,
+      "source": "Google Drive",
+      "characters": [
+        "shreya_woman_04"
+      ],
+      "storyline": "shreya",
+      "episode": null,
+      "scene": null,
+      "storyDate": null,
+      "location": null,
+      "visualCategory": "Police / uniform",
+      "status": "Reference",
+      "restricted": true,
+      "original": "https://drive.google.com/file/d/1-AzyD0YTKOTp3hpnij9gmwcZrVIAwvXR/view?usp=drivesdk"
+    },
+    {
+      "id": "dr-office-1QKLn803LHKyzqFK-1iUcvvrAyWehKJyl",
+      "title": "Meera — Police Office Portrait",
+      "path": null,
+      "source": "Google Drive",
+      "characters": [
+        "shreya_woman_02"
+      ],
+      "storyline": "shreya",
+      "episode": null,
+      "scene": null,
+      "storyDate": null,
+      "location": null,
+      "visualCategory": "Police / uniform",
+      "status": "Reference",
+      "restricted": true,
+      "original": "https://drive.google.com/file/d/1QKLn803LHKyzqFK-1iUcvvrAyWehKJyl/view?usp=drivesdk"
+    },
+    {
+      "id": "dr-office-1t1FiK-MZjucmiUuCh5N9zwRNhsGbkxTk",
+      "title": "Shruti — Police Uniform Triptych",
+      "path": null,
+      "source": "Google Drive",
+      "characters": [
+        "shruti"
+      ],
+      "storyline": "shreya",
+      "episode": null,
+      "scene": null,
+      "storyDate": null,
+      "location": null,
+      "visualCategory": "Police / uniform",
+      "status": "Reference",
+      "restricted": true,
+      "original": "https://drive.google.com/file/d/1t1FiK-MZjucmiUuCh5N9zwRNhsGbkxTk/view?usp=drivesdk"
+    },
+    {
+      "id": "dr-office-1cDQx8RX320OuhbbOOZQ1cXI3pFqoVWgz",
+      "title": "Shreya & Shruti — Uniform Sisters Reference",
+      "path": null,
+      "source": "Google Drive",
+      "characters": [
+        "shreya",
+        "shruti"
+      ],
+      "storyline": "shreya",
+      "episode": null,
+      "scene": null,
+      "storyDate": null,
+      "location": null,
+      "visualCategory": "Police / uniform",
+      "status": "Review",
+      "restricted": true,
+      "original": "https://drive.google.com/file/d/1cDQx8RX320OuhbbOOZQ1cXI3pFqoVWgz/view?usp=drivesdk"
     }
   ],
   "albums": [
@@ -668,6 +849,12 @@
       "title": "Meenakshi Episode 02 review folder",
       "source": "Google Drive",
       "url": "https://drive.google.com/drive/folders/1NX-kruEr5mXfrGTgz-6okcgKjMpqkJ-9",
+      "restricted": true
+    },
+    {
+      "title": "Shreya police & office references",
+      "source": "Google Drive",
+      "url": "https://drive.google.com/drive/folders/17r3SZwvOvPNtFtIsjkj_iPR5Ls9KAV_p",
       "restricted": true
     }
   ]
