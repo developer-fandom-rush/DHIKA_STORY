@@ -40,6 +40,14 @@ jobs:
           PY
           python tests/validate_archive.py
 
+      - name: Build and verify unified Society Wives UI
+        shell: bash
+        run: |
+          cd Society-Wives/ui
+          npm install --no-audit --no-fund
+          npm run test
+          npm run build
+
       - name: Prepare static site
         shell: bash
         run: |
@@ -47,6 +55,8 @@ jobs:
           cp index.html app.js styles.css _site/
           cp data/corpus.json _site/data/
           cp -r Society-Wives _site/
+          cp -r Society-Wives/ui/dist/. _site/Society-Wives/
+          rm -rf _site/Society-Wives/ui/node_modules _site/Society-Wives/ui/dist
           touch _site/.nojekyll
 
       - name: Configure GitHub Pages
