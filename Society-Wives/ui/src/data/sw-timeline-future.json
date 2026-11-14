@@ -5,7 +5,7 @@
   "notes": [
     "EP01 is an undated prologue; do not manufacture Jan 1 date.",
     "M08 and Shreya SR10–SR13 are rescheduled, NOT cancelled/deferred.",
-    "Older Jan2 Meenakshi outline is kept separately as an archived planning proposal.",
+    "Older Jan2 Meenakshi outline is archived; the discarded photographic opening has been removed and must not be revived.",
     "Ankita future draft dates are provisional, therefore unassigned."
   ],
   "events": [
@@ -501,37 +501,6 @@
         "Prologue weekday/date not established in source"
       ],
       "detail": "Rathore flat · doorway"
-    },
-    {
-      "id": "jan02-meenakshi-M3-01",
-      "date": "2026-01-02",
-      "sort": "08:45",
-      "start": "08:45",
-      "end": "09:10",
-      "timeLabel": "08:45–09:10",
-      "universe": "sw",
-      "title": "The Photograph from Yesterday",
-      "lead": "Meenakshi",
-      "characters": [
-        "meenakshi",
-        "rupa"
-      ],
-      "mentions": [],
-      "episode": "Future plan",
-      "scene": "M3-01",
-      "kind": "planned",
-      "state": "older-draft",
-      "status": "Older 2 Jan working plan · review",
-      "source": "episode-03-meenakshi-plan.json",
-      "reader": {
-        "type": "sw-plan",
-        "character": "meenakshi",
-        "scene": "M3-01"
-      },
-      "flags": [
-        "Older future-day draft — not the current Jan 1 Episode 03"
-      ],
-      "detail": "She reaches hospital in her own car; parking and car keys are established for the afternoon. Meenakshi keeps the 1 Jan 13:15 photo of the changed locker condition; she documents the concern through normal workplace process rather than publicly accusing anyone. Meenakshi knows that her belongings shifted; she does not know about Ritesh, Kunal, Khurana or the changing-room workers. Her composed exterior contrasts with the private unease that will surface again during ordinary conversation."
     },
     {
       "id": "jan02-meenakshi-M3-02",
