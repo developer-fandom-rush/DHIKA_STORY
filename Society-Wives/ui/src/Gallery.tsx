@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from 'react';
 import gallery from './data/gallery.json';
+import FemaleLibrary from './FemaleLibrary';
 import { assetUrl, titleCase } from './lib';
 type ImageRecord=(typeof gallery.images)[number];
 const labelFor=(id:string)=>({shreya_woman_02:'Meera',shreya_woman_03:'Poonam',shreya_woman_04:'Anjali'} as Record<string,string>)[id]||titleCase(id);
@@ -13,6 +14,7 @@ export default function Gallery({initialCharacter='all'}:{initialCharacter?:stri
  return <main className="page-width">
   <header className="section-intro"><span className="eyebrow">The visual collection</span><h1>Image Gallery</h1><p>All {gallery.images.length} image references together. Choose a character or scene to browse.</p></header>
   <details className="gallery-help"><summary>Some images are private — why?</summary><p>Private Google Drive images can be opened with your authorized Google account. The application does not change their sharing permissions.</p></details>
+  <FemaleLibrary initialCharacter={initialCharacter} />
   <div className="filter-bar gallery-filters"><label>Character<select value={character} onChange={e=>setCharacter(e.target.value)}><option value="all">All characters</option>{['ankita','shivani','taniya','soniya','meenakshi','shreya','shruti','shreya_woman_02','shreya_woman_03','shreya_woman_04','rohan','nikhil','vivek','karan','aman','chauhan','lokesh'].map(x=><option key={x} value={x}>{labelFor(x)}</option>)}</select></label>
    <label>Source<select value={source} onChange={e=>setSource(e.target.value)}><option value="all">All sources</option><option value="GitHub">GitHub</option><option value="Google Drive">Google Drive</option></select></label>
    <label>Episode<select value={episode} onChange={e=>setEpisode(e.target.value)}><option value="all">All episodes</option><option value="02">02</option></select></label>
