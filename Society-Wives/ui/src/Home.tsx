@@ -1,6 +1,8 @@
+import { useEffect } from 'react';
 import { EpisodeOne, openPage, useData } from './lib';
-export default function Home(){
+export default function Home({scene}:{scene?:string|null}){
  const {data,error,loading}=useData<EpisodeOne>('episode-01.json');
+ useEffect(()=>{if(!data||!scene)return;const id='ep01-'+scene;const timer=window.setTimeout(()=>document.getElementById(id)?.scrollIntoView({block:'center',behavior:'smooth'}),100);return()=>clearTimeout(timer)},[data,scene]);
  return <main className="reader-column">
   <section className="hero">
    <span className="eyebrow">Gulmohar Heights · Gurgaon · Prologue / Episode 01</span>
