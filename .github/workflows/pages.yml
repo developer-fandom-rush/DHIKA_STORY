@@ -55,7 +55,8 @@ jobs:
         shell: bash
         run: |
           mkdir -p Society-Wives/assets
-          find Society-Wives/assets -maxdepth 1 -type f \\( -name 'index-*.js' -o -name 'index-*.css' \\) -delete
+          find Society-Wives/assets -maxdepth 1 -type f -name 'index-*.js' -delete
+          find Society-Wives/assets -maxdepth 1 -type f -name 'index-*.css' -delete
           cp Society-Wives/ui/dist/index.html Society-Wives/index.html
           cp -a Society-Wives/ui/dist/assets/. Society-Wives/assets/
           git config user.name 'github-actions[bot]'
