@@ -73,10 +73,13 @@ try {
  check((await page.locator('.continuity-cards').innerText()).includes('14:15 onwards'),'Episode 04 exact cutpoint preserved');
  check((await page.locator('.continuity-cards').innerText()).includes('The Farmhouse Evening'),'New Meenakshi Scene 02 appears in Episode 03 Planning');
  check((await page.locator('.continuity-cards').innerText()).includes('The Badminton Bet'),'New Meenakshi Scene 03 appears after farmhouse');
- check((await page.locator('.continuity-cards').innerText()).includes('The Bell — Babloo'),'Latest Meenakshi Scene 04 appears in the correct final position');
+ check((await page.locator('.continuity-cards').innerText()).includes('The First Different Look — Babloo'),'Author-approved Babloo encounter appears in the correct Scene 04 position');
  const orderedCards=await page.locator('.continuity-cards .episode-plan-card').evaluateAll(nodes=>nodes.map(n=>n.id));
  check(orderedCards.join(',')==='ep03-meenakshi-scene-02,ep03-meenakshi-scene-03,ep03-meenakshi-scene-04','Episode 03 scenes 02–04 appear in chronological scene order');
- check((await page.locator('#ep03-meenakshi-scene-04').innerText()).includes('Episode 03 ends at the doorbell'),'Scene 04 does not invent Babloo first meeting');
+ check((await page.locator('#ep03-meenakshi-scene-04 .beat-item').count())===5,'Scene 04 displays five approved Babloo plot beats');
+check((await page.locator('#ep03-meenakshi-scene-04').innerText()).includes('khoobsurat lag rahi hain'),'Babloo approved compliment appears in the scene');
+check((await page.locator('#ep03-meenakshi-scene-04').innerText()).includes('car tomorrow'),'Babloo car recovery hook remains in EP03 ending');
+check(!(await page.locator('#ep03-meenakshi-scene-04').innerText()).includes('Episode 03 ends at the doorbell'),'Superseded doorbell-only cut is not displayed');
  
  check((await page.locator('.continuity-warning').innerText()).includes('18:15'),'Provisional badminton timing conflict is surfaced, not silently approved');
  check(await page.locator('#ep03-meenakshi-scene-02 .episode-outline').count()===1,'Farmhouse beat-by-beat outline is discoverable');
