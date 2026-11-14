@@ -9,6 +9,7 @@ const read=p=>JSON.parse(readFileSync(resolve(root,p),'utf8'));
 const ep01=read('episode-01.json');
 assert.equal(ep01.scenes.length,17,'EP01 original scene count changed');
 assert.ok(ep01.status.includes('NOT_APPROVED'),'EP01 status conflict must remain visible');
+const originalHtml=readFileSync(resolve(root,'episode-02.html'),'utf8');
 const leads=['ankita','shivani','taniya','soniya','meenakshi','shreya'];
 let total=0;
 for(const lead of leads){
@@ -21,7 +22,9 @@ for(const lead of leads){
  const ids=new Set(archive.scenes.map(s=>s.scene_id));
  for(const s of archive.scenes){
   assert.ok(s.source_html_lines_exact?.length,lead+'/'+s.scene_id+' source lines missing');
-  assert.ok(s.source_html_lines_exact.join('\n').includes('<'),lead+'/'+s.scene_id+' source HTML missing');
+  const exact=s.source_html_lines_exact.join('\n');
+  assert.ok(exact.includes('<'),lead+'/'+s.scene_id+' source HTML missing');
+  assert.ok(originalHtml.includes(exact),lead+'/'+s.scene_id+' verbatim content not present in original EP02');
  }
  for(const id of (strict.approved_scene_ids||[]))assert.ok(ids.has(id),lead+' approved ID not in full archive '+id);
  total+=archive.scenes.length;
@@ -43,6 +46,9 @@ for(const image of gallery.images){
  else assert.equal(image.restricted,true,'Private Drive assets must never be embedded directly');
 }
 assert.equal(paths.size,27,'Expected complete GitHub image inventory');
+const inline=originalHtml.match(/data:image\\/webp;base64,([a-zA-Z0-9+/=]+)/);
+assert.ok(inline,'Original embedded WebP source missing');
+assert.deepEqual(readFileSync(resolve(root,'assets/shivani-a03-inline-original.webp')),Buffer.from(inline[1],'base64'),'Extracted original WebP differs');
 assert.equal(gallery.images.filter(x=>x.source==='Google Drive').length,11,'Expected 11 restricted Drive image references');
 const directory=read('character-directory.json');
 assert.equal(directory.leads.length,5);
