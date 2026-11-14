@@ -20,7 +20,7 @@
   "continuity": {
     "original": "Dhika Episode 03 occurs same afternoon/evening from 4 PM to about 5 PM and ends at the second doorbell. Episode 04 opens at that same door, continues evening/night, and only later advances to next morning. Do not interpret a day break between original EP03 and EP04.",
     "newUniverse": "Society Wives EP02 closed Jan 1 at Meenakshi M12 13:15; new EP03 proposals belong Jan 2. 2 Jan senior review M08 at 11:00–11:40 preserved.",
-    "transport": "Meenakshi drives her own car to the hospital on Jan 2 and keeps car throughout; Avi/Yash/Aditi share a realistic four-seat trip with seatbelts. No unplanned bike ride or three on a two-wheeler.",
+    "transport": "Jan 1 Meenakshi's car fails near the badminton court. Babloo offered to help with it on Jan 2 and is reserved as the focus of the next episode, per author instruction. Exact repair, transport outcome and clock are NOT written or assumed. All Jan 2 existing own-car references remain conditional until that next-episode scene is decided; do not silently repair her car.",
     "castRoles": "Office pair Avi (24, outgoing) and Yash (24, observant) are not biological twins; Dr Aditi (24) is their female peer. Society twins Uday and Utkarsh (24) are actual brothers. Hospital Chotu-role is Naveen (22), society Chotu-role Babloo (23); their roles and backstories stay distinct.",
     "pendingMysteries": "Jan1 locker intrusion and changing-room privacy breach not resolved by new chapter; Mohan unrelated older household guest, one-sided interest concealed, and Nikhil's planned surprise remains unresolved.",
     "interaction": "Adult fictional romance/innuendo; private admiration separated from Meenakshi's knowledge. A physical moment never proves consent to additional intimacy. Workplace hierarchy and patient context respected.",
@@ -567,184 +567,6 @@
       "notes": [
         "Do not imply Meenakshi drove them to their homes or that the trio lives in Gulmohar Heights."
       ]
-    },
-    {
-      "id": "M3-10",
-      "date": "2026-01-02",
-      "start": "17:10",
-      "end": "17:35",
-      "lane": "SOCIETY",
-      "location": "Wellness noticeboard and camp table",
-      "title": "The Other Pair of Brothers",
-      "characters": [
-        "meenakshi",
-        "uday",
-        "utkarsh"
-      ],
-      "approval": "NEW_PROPOSAL_NOT_APPROVED",
-      "beats": [
-        "Meenakshi, now at society with her car parked, checks the camp register and finds Uday and Utkarsh setting up a lightweight noticeboard.",
-        "Uday resumes confident innuendo using a health-checkup metaphor; Meenakshi banters back instead of recoiling.",
-        "Utkarsh makes an understated observation; she remembers his 1 January comment about being noticed, and privately smiles.",
-        "A banner clip slips; she hands Utkarsh a clip and their fingers brush briefly during the handoff, followed by a normal, unhurried separation.",
-        "Uday sees that she focuses on Utkarsh's answer, and his playful sibling competitiveness increases. Do NOT stage a second vehicle ride the same evening."
-      ],
-      "dialogue": [
-        [
-          "Uday",
-          "Doctor sahiba, hum dono ki attention ka follow-up kab hoga?"
-        ],
-        [
-          "Meenakshi",
-          "Tumhari attendance check karungi. Attention ke extra marks nahi."
-        ],
-        [
-          "Utkarsh",
-          "Mujhe toh kal ki observation yaad hai. Doctor ne khud hume notice kiya tha."
-        ],
-        [
-          "Meenakshi",
-          "Tumhari memory ka treatment mushkil hoga."
-        ]
-      ],
-      "arc": {
-        "physical": "Brief incidental fingers-at-clip touch, no claimed intimacy",
-        "emotional": "Familiar laughter and mildly increased awareness",
-        "psychological": "Yash's quietness and Utkarsh's quietness form an internal comparison"
-      },
-      "sourceBeats": [
-        "dhika-pair-rivalry-motif",
-        "new-universe-m02-memory-loop"
-      ],
-      "notes": [
-        "Uday/Utkarsh are actual twins, not hospital colleagues. Scene contrasts office dynamic rather than duplicating ride."
-      ]
-    },
-    {
-      "id": "M3-11",
-      "date": "2026-01-02",
-      "start": "17:40",
-      "end": "17:55",
-      "lane": "HOME",
-      "location": "Kapoor household entrance",
-      "title": "Babloo — The First Box",
-      "characters": [
-        "meenakshi",
-        "babloo"
-      ],
-      "approval": "NEW_PROPOSAL_NOT_APPROVED",
-      "beats": [
-        "Society Chotu-equivalent Babloo (23), an established pharmacy pickup helper already recognised in EP01 and EP02; not Naveen under another name.",
-        "He carries a sealed heavy pharmacy-supply box, is proud to help, and respectfully asks where to put it.",
-        "Meenakshi checks items with the bill, thanks him, and gives practical lifting advice.",
-        "One labelled packet is missing. Babloo apologizes, contacts the supplier and volunteers to return shortly.",
-        "Reader sees Babloo's quiet admiration for her kindness; Meenakshi trusts his work but does not infer romantic interest."
-      ],
-      "dialogue": [
-        [
-          "Babloo",
-          "Didi, heavy carton hai. Entry par rakh doon?"
-        ],
-        [
-          "Meenakshi",
-          "Haan. Peeth seedhi rakho, hero banne ke chakkar mein injury mat kar lena."
-        ],
-        [
-          "Babloo",
-          "Aapke camp ka samaan hai; complete launga."
-        ],
-        [
-          "Meenakshi",
-          "Bill mein ek packet missing hai. Pehle supplier se verify karo."
-        ]
-      ],
-      "arc": {
-        "physical": "Practical box handoff, no deliberate intimate touch",
-        "emotional": "Established trust and gratitude",
-        "psychological": "Second Chotu-lane begins without conflating helper with hospital admin"
-      },
-      "sourceBeats": [
-        "dhika-chotu-year-familiarity",
-        "dhika-heavy-delivery",
-        "dhika-missing-item"
-      ],
-      "notes": [
-        "Duration of their acquaintance is not yet canonized; no invented hardship, and no child in attraction framing."
-      ]
-    },
-    {
-      "id": "M3-12",
-      "date": "2026-01-02",
-      "start": "17:55",
-      "end": "18:10",
-      "lane": "HOME",
-      "location": "Living room, private phone check",
-      "title": "The Smile She Cannot Explain",
-      "characters": [
-        "meenakshi"
-      ],
-      "approval": "NEW_PROPOSAL_NOT_APPROVED",
-      "beats": [
-        "Meenakshi changes into comfortable home attire and organizes camp documents; she chooses her own privacy, independently of who will ring.",
-        "She mentally compares Avi's boldness, Yash's care, Uday's humor, Utkarsh's observation, and the practical help of Naveen/Babloo without treating all attention as romance.",
-        "Her husband Nikhil remains emotionally important; the Jan1 private surprise is an unresolved strand, not silently declared completed.",
-        "A message says Babloo is bringing the missing item. She plans to verify the bill at the doorway, not assume a visitor may enter."
-      ],
-      "dialogue": [],
-      "arc": {
-        "physical": "Private boundaries intact",
-        "emotional": "Brief flattering thrill followed by reflective restraint",
-        "psychological": "Distinct relationship strands and reader-only secrets kept separate"
-      },
-      "sourceBeats": [
-        "dhika-home-change",
-        "dhika-private-self-reflection"
-      ],
-      "notes": [
-        "Mohan's Jan1 pouch secret and the hospital locker mystery remain unresolved; no child is placed in sexual subplots."
-      ]
-    },
-    {
-      "id": "M3-13",
-      "date": "2026-01-02",
-      "start": "18:10",
-      "end": "18:20",
-      "lane": "HOME",
-      "location": "Kapoor household front door",
-      "title": "The Second Knock",
-      "characters": [
-        "meenakshi",
-        "babloo"
-      ],
-      "approval": "NEW_PROPOSAL_NOT_APPROVED",
-      "beats": [
-        "The second doorbell rings while Meenakshi is checking the inventory and getting ready to answer.",
-        "She checks who is outside, adjusts her shawl for her own comfort, and asks Babloo to confirm the missing label through the door.",
-        "Reader knows Babloo returned to complete the task; Meenakshi is not granted knowledge of any hidden feelings.",
-        "End at the door opening/hand-off threshold. The next episode can continue the same evening before any next-morning transition."
-      ],
-      "dialogue": [
-        [
-          "Meenakshi",
-          "Babloo, wahi missing packet hai?"
-        ],
-        [
-          "Babloo",
-          "Ji didi. Seal bhi intact hai."
-        ]
-      ],
-      "arc": {
-        "physical": "No forced contact; private-doorway boundary",
-        "emotional": "Expectation and mild anticipation",
-        "psychological": "Second-visit cliffhanger connects original mechanism to her real routine"
-      },
-      "sourceBeats": [
-        "dhika-second-doorbell",
-        "dhika-cliffhanger"
-      ],
-      "notes": [
-        "Do not rewrite 1 Jan EP02; this is 2 Jan evening. Original EP04 resumes the same day; only later goes into the following morning."
-      ]
     }
   ],
   "sourceBeatMap": [
@@ -828,32 +650,20 @@
     },
     {
       "sourceBeat": "Familiar helper introduction",
-      "adaptedTo": "M3-04/M3-11",
-      "adaptation": "Two distinct roles: Naveen at hospital, Babloo in society",
+      "adaptedTo": "M3-04",
+      "adaptation": "Hospital admin assistant Naveen (M3-04) only; society Babloo's first personal encounter is already in Jan 1 EP03 B01–B05.",
       "status": "MAPPED_PROPOSAL"
     },
     {
       "sourceBeat": "Errand completed imperfectly",
-      "adaptedTo": "M3-04/M3-11",
-      "adaptation": "Missing page in hospital, missing packet at home; distinct reasons",
+      "adaptedTo": "M3-04",
+      "adaptation": "Missing annexure/page belongs to Naveen's hospital administration scene; the superseded Babloo parcel errand is removed.",
       "status": "MAPPED_PROPOSAL"
     },
     {
       "sourceBeat": "Second visit / return",
-      "adaptedTo": "M3-04/M3-13",
-      "adaptation": "Naveen returns same shift; Babloo returns that evening",
-      "status": "MAPPED_PROPOSAL"
-    },
-    {
-      "sourceBeat": "Home private life and modesty",
-      "adaptedTo": "M3-12",
-      "adaptation": "Clothing and privacy chosen by Meenakshi, no child implicated",
-      "status": "MAPPED_PROPOSAL"
-    },
-    {
-      "sourceBeat": "Ending at second doorbell",
-      "adaptedTo": "M3-13",
-      "adaptation": "Same-evening cliffhanger",
+      "adaptedTo": "M3-04",
+      "adaptation": "Naveen's document follow-up is the only surviving Jan 2 beat; the superseded Babloo second-doorbell is removed.",
       "status": "MAPPED_PROPOSAL"
     },
     {
@@ -863,11 +673,10 @@
       "status": "MAPPED_PROPOSAL"
     }
   ],
-  "beatCount": 60,
+  "beatCount": 42,
   "futureEpisodeBoundary": {
-    "sameEveningContinuation": "2026-01-02 after 18:20, if approved for next episode",
-    "firstPotentialNextMorning": "2026-01-03 Saturday, NOT in this episode",
-    "note": "The original Dhika EP04 crosses day only within EP04; Society Wives can follow analogous relative beat sequence but cannot import exact original dates."
+    "status": "ON_HOLD_AWAITING_USER",
+    "note": "No Jan 2 Babloo first-meeting/box/second-knock scene. Babloo's first personal encounter is already approved on Jan 1 (EP03 B01–B05); his car-help continuation will be planned when user directs it."
   },
   "decisionPoints": [
     "Confirm that Meenakshi's Jan2 clinic work permits the 15:05–16:15 vendor trip (currently a plotted logical reason).",
@@ -879,6 +688,17 @@
     {
       "date": "2026-11-13",
       "change": "Expanded existing M08-only Episode 03 file into multi-scene, source-beat-mapped planning draft; original M08 identity/time/status retained."
+    },
+    {
+      "date": "2026-11-14",
+      "change": "User requested deletion of obsolete Jan 2 duplicates M3-10 to M3-13 (twins, Babloo first box, home reflection, second knock). Deleted 4 timeline entries, cleaned stale sourceBeatMap references, corrected beat count; noted Babloo next-episode car help is reserved without writing it. Draft branch only, NO live UI publication."
     }
-  ]
+  ],
+  "carContinuityHold": {
+    "status": "USER_RESERVED_FOR_NEXT_EPISODE_DO_NOT_WRITE",
+    "lead": "Meenakshi",
+    "helper": "Babloo",
+    "what": "Babloo will help with the car; do not specify repair outcome, timing, dialogue, or new action before user continues.",
+    "dependency": "Jan 2 own-car rides M3-01/M3-05/M3-07/M3-09 remain proposals contingent on car availability."
+  }
 }
