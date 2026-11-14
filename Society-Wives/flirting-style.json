@@ -85,5 +85,48 @@
     }
   ],
   "staging": "Ankita touches her jacket zipper, briefly catches her lower lip, feels a moment of pleased self-consciousness, and departs toward the exercise corner without changing clothes.",
-  "memoryLoop": "Jacket meri hai, suspense tum dono ka."
+  "memoryLoop": "Jacket meri hai, suspense tum dono ka.",
+  "narratorVisualDescription": {
+    "status": "AUTHOR_DIRECTED_WRITING_STYLE_RULE_NOT_EPISODE_CANON",
+    "origin": "Reference technique from original Dhika EP03 (Chotu Babu intro): the narrator describes an apple-like silhouette in motion during a walk while another character notices it. This is narrator imagery, not a line spoken by the observing character.",
+    "appliesTo": "All adult female characters in Society Wives, when scene-appropriate and approved by the author",
+    "methods": [
+      "body-shape simile and metaphor",
+      "visual silhouette and proportions",
+      "outfit fit, drape and fabric movement",
+      "walking gait, steps and posture",
+      "standing stance, turn, weight shift and dance pose",
+      "observer's visible reaction when source-grounded",
+      "narrator-only private observation distinct from spoken flirt"
+    ],
+    "examplePhrases": [
+      "apple-rounded silhouette with a gentle sway as she walked",
+      "athletic, sculpted outline and confident stride",
+      "hourglass line defined by tailored clothing",
+      "elegant shoulder-to-waist taper as she turned",
+      "soft fabric following each step",
+      "a confident stance as she shifted her weight"
+    ],
+    "useInstructions": [
+      "Use specific, vivid, varied narrator descriptions rather than generic words such as beautiful, hot, curvy or sexy alone.",
+      "Link comparison to the action: walking vs standing vs turning vs dancing may reveal different visual details.",
+      "Show the relevant person's clothes, posture, movement and scene geometry; do not assume a figure description is a spoken compliment.",
+      "Distinguish narrator visual description, one person's caught glance, aloud joke and the woman's own awareness or reaction; do not merge those viewpoints.",
+      "Write distinct descriptions for Ankita, Sana, Aishwarya and other adult women; do not reuse the same apple metaphor mechanically across everyone.",
+      "If body shape/outfit has not been established, treat comparisons as optional proposal—not fixed character canon. Get author's direction before locking.",
+      "Keep all source-approved flirt, reaction and visual seeds; never quietly drop a user-specified beat. If something conflicts with canon, flag and ask before rewriting.",
+      "A glance, a smile, playful banter, accidental balancing contact and mutual interest are different narrative events; do not automatically infer any one from another.",
+      "Avoid gratuitous intrusion, underage sexualization, or sexualized family relationships. Any adult characters' boundaries and character reactions remain source-grounded."
+    ],
+    "sceneTemplate": [
+      "What adult woman wears / visible fit?",
+      "What movement is actually happening?",
+      "Which comparison or visual detail would the narrator describe?",
+      "Which observer notices what, if anyone?",
+      "Does she catch a glance? What is her established response?",
+      "Do they speak, or is this only narrator POV?",
+      "How does it return to ordinary interaction?"
+    ],
+    "writersNote": "This extends the existing flirting/double-entendre rhythm; it never overrides the story master source, approved prose or user choice."
+  }
 }
