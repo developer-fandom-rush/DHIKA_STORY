@@ -48,6 +48,30 @@ jobs:
           npm run test
           npm run build
 
+      - name: Install browser for visual smoke tests
+        shell: bash
+        run: |
+          cd Society-Wives/ui
+          npx playwright install chromium --with-deps
+
+      - name: Test character library, gallery, reader, and mobile UI in Chromium
+        shell: bash
+        run: |
+          mkdir -p .preview-site/DHIKA_STORY/Society-Wives
+          rsync -a --exclude='/ui/' Society-Wives/ .preview-site/DHIKA_STORY/Society-Wives/
+          cp -a Society-Wives/ui/dist/. .preview-site/DHIKA_STORY/Society-Wives/
+          python3 -m http.server 4173 --directory .preview-site > /tmp/sw-ui-preview-server.log 2>&1 &
+          sleep 2
+          cd Society-Wives/ui
+          npm run test:browser
+
+      - name: Upload UI smoke-test screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: society-wives-live-ui-browser-screens
+          path: Society-Wives/ui/test-screenshots
+
       # The deployed Pages artifact already uses the Vite build. Keep the committed
       # entrypoint and compiled assets in sync too, so branch-based Pages and direct
       # links cannot silently serve the previous Series Library HTML.
