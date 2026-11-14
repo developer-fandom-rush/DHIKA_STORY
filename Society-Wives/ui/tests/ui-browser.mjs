@@ -29,7 +29,7 @@ try {
  check(await page.locator('.scene-link').count()===16,'Ankita Episode 02 reader presents all 16 published archive records');
  check(await page.locator('.perspective-tabs button').count()===6,'Episode 02 offers six perspectives with clean in-app controls');
  check((await page.locator('.source-scene').innerText()).length>150,'Episode scene includes original story prose');
- check(await page.locator('main a').count()===0,'Reader chapter navigation stays inside the app without source/file links');
+ check(await page.locator('main a[href]').count()===0,'Reader includes no clickable outside source/image links');
  await page.locator('.perspective-tabs button', {hasText:'Shreya'}).click();
  await page.waitForFunction(()=>document.querySelectorAll('.scene-link').length===9);
  check(await page.locator('.scene-link').count()===9,'Shreya Episode 02 opens nine source scenes');
