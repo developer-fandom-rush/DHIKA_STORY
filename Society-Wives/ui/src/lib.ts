@@ -1,5 +1,11 @@
 import { useEffect, useState } from 'react';
 export const HOME = '#/home';
+/** Navigate inside the single-page story app; source files never become destinations. */
+export const openPage = (page:string,params:Record<string,string|undefined>={})=>{
+ const query=new URLSearchParams();
+ for(const [key,value] of Object.entries(params))if(value)query.set(key,value);
+ window.location.hash='#/'+page+(query.size?'?'+query:'');
+};
 export const peopleOrder = ['ankita','shivani','taniya','soniya','meenakshi','shreya'];
 export const leadOrder = ['ankita','shivani','taniya','meenakshi','shreya'];
 export const titleCase = (v: string) => v.charAt(0).toUpperCase()+v.slice(1);
