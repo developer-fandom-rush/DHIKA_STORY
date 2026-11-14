@@ -43,8 +43,8 @@ export default function App(){
    {page==='gallery'&&<Gallery initialCharacter={params.get('character')||'all'}/>}
    {page==='reading'&&<Reading character={params.get('character')||'ankita'} scene={params.get('scene')}/>}
    {page==='planning'&&<Planning lead={params.get('lead')||'meenakshi'} initialScene={params.get('scene')}/>}
-   {page==='timeline'&&<GlobalTimeline universe="sw" date={date} onDateChange={setDate}/>}
-   {page==='dhika-timeline'&&<GlobalTimeline universe="dhika" date={date} onDateChange={setDate}/>}
+   {page==='timeline'&&<GlobalTimeline universe="sw" date={date} onDateChange={d=>{setDate(d);openPage('timeline',{date:d})}}/>}
+   {page==='dhika-timeline'&&<GlobalTimeline universe="dhika" date={date} onDateChange={d=>{setDate(d);openPage('dhika-timeline',{date:d})}}/>}
    {page==='dhika-reader'&&<DhikaReader episode={params.get('episode')} paragraph={params.get('paragraph')}/>}
    {!valid&&<main className="page-width"><h1>Page not found</h1><p>This route is not available in the selected universe.</p><button type="button" className="button primary" onClick={()=>openPage('home')}>Return Home</button></main>}
    <footer className="site-footer"><div><strong>{isDhika?'Dhika — Original Source Archive':'Society Wives — Five Veils of Desire'}</strong><p>Independent story universes · Shared aligned story-day reference · Original source remains unchanged.</p></div></footer>
