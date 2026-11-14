@@ -19,6 +19,7 @@ export default function Reading({character,scene}:Props){
   <header className="section-intro"><span className="eyebrow">The Story · 1 January 2026</span><h1>Episode 02</h1><p>The New Year's Unspoken Secrets · Choose whose story to read.</p></header>
   <div className="episode-picker" role="group" aria-label="Choose episode"><button type="button" onClick={()=>openPage('home')}>Episode 01 · Prologue</button><span className="episode-picker-current" aria-current="page">Episode 02 · Six perspectives</span></div>
   <p className="reader-intro">Pick a character below, then continue scene by scene. Your place in this reading session is shown underneath.</p>
+  <section className="source-note"><strong>Now published: Episode 03 · Meenakshi × Naveen · Scene 01</strong><p>1 January 2026, 1:50–2:15 PM · Author-approved compact prose. The scene ends immediately before the Episode 04 continuation.</p><button type="button" className="button primary" onClick={()=>openPage('planning',{lead:'meenakshi',scene:'01'})}>Read approved Episode 03 scene →</button></section>
   <div role="group" aria-label="Choose character perspective" className="perspective-tabs">{peopleOrder.map(w=><button type="button" key={w} onClick={()=>openPage('reading',{character:w})} aria-pressed={w===active} className={w===active?'selected':''}>{titleCase(w)}</button>)}</div>
   <div className="reader-layout">
    <aside className="scene-sidebar"><p className="aside-title">{titleCase(active)} · scenes</p>
