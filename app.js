@@ -237,7 +237,7 @@ async function start(){
   const ep=(location.hash.match(/episode=(\d+)/)||[])[1];
   if(ep&&library.some(x=>x.n===Number(ep))){
    episodeNumber=Number(ep);el("reader-episode").value=ep;show("reader");
-   const paragraph=(location.hash.match(/paragraph=(EP\\d{2}-P\\d{4})/)||[])[1];
+   const paragraph=(location.hash.match(/paragraph=(EP[0-9]{2}-P[0-9]{4})/)||[])[1];
    if(paragraph){requestAnimationFrame(()=>{
     const line=document.getElementById(paragraph);
     if(line){line.classList.add("timeline-target");line.scrollIntoView({behavior:"instant",block:"center"});}
