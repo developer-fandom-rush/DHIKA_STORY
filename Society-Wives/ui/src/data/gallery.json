@@ -585,6 +585,38 @@
       "status": "Review",
       "restricted": true,
       "original": "https://drive.google.com/file/d/19ObVlbLWSAvnMC6d436kpCdb1CC9h-pw/view?usp=drivesdk"
+    },
+    {
+      "id": "gh27",
+      "title": "Shivani A03 original embedded selfie visualization",
+      "path": "assets/shivani-a03-inline-original.webp",
+      "source": "GitHub",
+      "characters": [
+        "shivani"
+      ],
+      "episode": "02",
+      "scene": "A03",
+      "storyDate": "2026-01-01",
+      "location": null,
+      "status": "Reference",
+      "restricted": false,
+      "original": "https://github.com/developer-fandom-rush/DHIKA_STORY/blob/feature/society-wives-unified-reader-20261114/Society-Wives/assets/shivani-a03-inline-original.webp"
+    },
+    {
+      "id": "dr11",
+      "title": "Meenakshi M01 morning outfit",
+      "path": null,
+      "source": "Google Drive",
+      "characters": [
+        "meenakshi"
+      ],
+      "episode": "02",
+      "scene": "M01",
+      "storyDate": "2026-01-01",
+      "location": null,
+      "status": "Review",
+      "restricted": true,
+      "original": "https://drive.google.com/file/d/1jsH48xPAULCX_My6q1g4o_cG9iBTXWtf/view?usp=drivesdk"
     }
   ],
   "albums": [
