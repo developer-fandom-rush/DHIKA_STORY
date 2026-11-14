@@ -11,7 +11,7 @@
   "end": "14:15",
   "title": "The Glance at the Corridor",
   "status": "USER_DIRECTED_PLOT_OUTLINE_PUBLISHED_NOT_PROSE",
-  "continuityFrom": "EP02 Meenakshi M12 13:15 — locker disturbed; privately alert; no culprit knowledge; prior teasing during rounds remains part of her mood",
+  "continuityFrom": "EP02 M12 13:10–13:15 — Meenakshi briefly wondered about a different cardigan fold and shifted pouch, put them back and returned to duties; no photo, lasting anxiety or culprit knowledge. Naveen and Meenakshi already have about 1.5 years of familiar workplace rapport.",
   "characters": [
     "meenakshi",
     "naveen"
@@ -20,30 +20,30 @@
     {
       "id": "N01",
       "time": "13:50–13:54",
-      "title": "She isn't quite herself",
-      "external": "Naveen arrives with ordinary administrative papers. Meenakshi answers more briefly than usual.",
-      "internal": "She remains uneasy after the locker discovery; Naveen notices her subdued expression without pressing her."
+      "title": "The Familiar Handover",
+      "external": "Naveen brings the next duty sheet to Meenakshi as he has done routinely for about 1.5 years. Their familiar paperwork/last-minute-signature teasing resumes naturally. She is professionally engaged, not noticeably upset.",
+      "internal": "Naveen recognizes her usual quick, witty manner; he is not meeting her for the first time. The small earlier locker question has already slipped from Meenakshi's attention."
     },
     {
       "id": "N02",
       "time": "13:54–13:59",
       "title": "An unexpected laugh",
-      "external": "A familiar work-related exchange turns lightly teasing. Naveen gives an unexpectedly clever reply; Meenakshi genuinely laughs.",
-      "internal": "She gets a moment of relief; he privately appreciates the smile but does not presume romance."
+      "external": "Their well-established workplace banter becomes unexpectedly witty; Naveen answers in a new, clever way and Meenakshi genuinely laughs, then signs the handover.",
+      "internal": "Her laughter comes from the joke, not relief from a locker scare. Naveen privately appreciates her smile without assuming reciprocity."
     },
     {
       "id": "N03",
       "time": "13:59–14:08",
       "title": "Normal tasks, separate spaces",
       "external": "They part for normal duties. Naveen collects another handover copy. Meenakshi briefly visits the staff changing area, removes her white coat and adjusts her existing plum kurta and grey cardigan.",
-      "internal": "Her earlier locker concern remains unresolved. This is a mid-shift break, not her departure from the hospital."
+      "internal": "No renewed locker anxiety or investigation. Mid-shift clothing adjustment, not hospital departure."
     },
     {
       "id": "N04",
       "time": "14:08–14:15",
       "title": "The unexpected glance — cut",
       "external": "As Meenakshi gathers her bag, its strap catches her cardigan and briefly shifts the neckline enough to reveal an edge of inner clothing. Naveen reaches the corridor with the handover copy, notices, looks away; Meenakshi catches his glance and adjusts her outfit.",
-      "internal": "She feels briefly self-conscious while already uneasy about privacy; Naveen is surprised and deliberately avoids prolonged looking. No romantic or physical consent inferred.",
+      "internal": "She is momentarily self-conscious at the unexpected glance; Naveen looks away. Do not attribute it to a lingering locker fear or infer physical consent.",
       "cut": "STOP at 14:15 before reply, goodbye or follow-on interaction."
     }
   ],
@@ -63,5 +63,9 @@
       "type": "EXISTING_REFERENCE_NOT_NEW_SCENE_RENDER"
     }
   ],
-  "approvedScope": "Author-directed timing, beats and cut-point approved for posting as short plot outline only. No full prose and no subsequent EP04 encounter approved."
+  "approvedScope": "Author-directed timing, beats and cut-point approved for posting as short plot outline only. No full prose and no subsequent EP04 encounter approved.",
+  "relationshipHistory": {
+    "tenure": "Approximately 1.5 years working in the same hospital (author-directed)",
+    "preexisting": "Naveen has already delivered duty sheets and consultation confirmations during EP02 M06. Their established daily familiarity is shown through banter, not recast as a new introduction."
+  }
 }
