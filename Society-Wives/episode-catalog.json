@@ -98,6 +98,8 @@
       "date": "1 January 2026 for Meenakshi Scene 01; separate 2–3 January drafts remain",
       "mainPath": "episode-03-meenakshi-scene-01.html",
       "relatedPaths": [
+        "episode-03-meenakshi-scene-04-babloo-intro.html",
+        "episode-03-meenakshi-scene-04-babloo-intro.json",
         "episode-03-meenakshi-scene-03-twins.html",
         "episode-03-meenakshi-scene-03-twins.json",
         "episode-03-meenakshi-scene-02.html",
@@ -109,7 +111,7 @@
         "episode-03-shreya-plan.json",
         "episode-03-meenakshi-planning.html"
       ],
-      "note": "Scene01 Jan1 13:50–14:15; Scene02 Jan1 from 17:00 farmhouse (saved approved plot direction, no prose); Scene03 same-day society twins badminton around 18:15 is review-only proposal, NOT timeline-approved until Scene02 return travel is feasible. EP04 Naveen 14:15 continuation open. Older Jan2 planner preserved. Scene03 former doubles invitation deferred and old ending removed; new five-minute ride proposal now archived as user-verbatim planning requirement, full prose not approved.",
+      "note": "Scene01 Jan1 13:50–14:15; Scene02 Jan1 from 17:00 farmhouse (saved approved plot direction, no prose); Scene03 same-day society twins badminton around 18:15 is review-only proposal, NOT timeline-approved until Scene02 return travel is feasible. EP04 Naveen 14:15 continuation open. Older Jan2 planner preserved. Scene03 former doubles invitation deferred and old ending removed; new five-minute ride proposal now archived as user-verbatim planning requirement, full prose not approved. Meenakshi EP03 now cuts on Babloo's doorbell after two-paragraph background only. Babloo interaction is reserved for EP04, not present in EP03.",
       "chapters": [
         {
           "lead": "Meenakshi",
@@ -143,6 +145,16 @@
         },
         {
           "lead": "Meenakshi",
+          "title": "The Bell — Babloo Introduction (EP03 Ending)",
+          "date": "2026-01-01",
+          "time": "Around 18:45 PM onward; timeline tentative",
+          "status": "USER_DIRECTED_TWO_PARAGRAPH_PLOT_NO_INTERACTION",
+          "mainPath": "episode-03-meenakshi-scene-04-babloo-intro.html",
+          "dataPath": "episode-03-meenakshi-scene-04-babloo-intro.json",
+          "description": "Exactly two compact Babloo background/introduction paragraphs; known pharmacy helper, no dialogue/flirting/touch/meeting. Doorbell cliffhanger and EP03 Meenakshi cut. First proper Babloo encounter deferred to EP04."
+        },
+        {
+          "lead": "Meenakshi",
           "title": "The Ride, the Glances & the Second Knock",
           "date": "2026-01-02",
           "status": "OLDER_UNAPPROVED_FUTURE_DAY_DRAFT",
@@ -160,7 +172,7 @@
       "date": "2026-01-01",
       "start": "14:15",
       "mainPath": "episode-04-meenakshi-cutpoint.html",
-      "note": "Direct continuation from EP03 Meenakshi Scene 01; no EP04 scene actions or prose have been approved."
+      "note": "Direct continuation from EP03 Meenakshi Scene 01; no EP04 scene actions or prose have been approved. Babloo's first full encounter is also reserved for EP04, following EP03 doorbell; kept separate from unresolved 14:15 Naveen handoff."
     }
   ]
 }
