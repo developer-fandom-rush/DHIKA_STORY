@@ -1,0 +1,22 @@
+{
+  "id": "SW-EP03-MEENAKSHI-SCENE-04-BABLOO-INTRO",
+  "episode": "03",
+  "lead": "Meenakshi",
+  "scene": "04 — ending setup only",
+  "date": "2026-01-01",
+  "time": "Around 18:45 or shortly after, depending on preceding scene",
+  "title": "The Bell — Babloo's Introduction",
+  "status": "USER_DIRECTED_INTRO_ONLY_FIRST_ENCOUNTER_DEFERRED_EP04",
+  "introAndHistory": "Babloo (23) society mein pharmacy pickups aur deliveries sambhalta hai. Meenakshi use pehle se jaanti hai aur uski reliable service par bharosa karti hai. Woh delivery instructions carefully follow karta hai. Abhi tak unka relationship familiar doctor–helper ka hai; koi romantic encounter establish nahi hua.",
+  "setupAndCut": "Twins ke saath badminton outing ke baad Meenakshi ghar lautti hai. Usi evening Babloo ek sealed pharmacy parcel lekar aata hai. Doorbell bajti hai; Meenakshi ko pata chalta hai ki Babloo bahar hai. Episode 03 yahin cut. Na conversation, na touch, na flirting. Unka first proper encounter Episode 04 mein hoga.",
+  "noEncounterRule": "No Babloo–Meenakshi dialogue, gazes, romantic tension, touch, flirtation or direct meeting in EP03.",
+  "ep04Handoff": "First proper Babloo encounter, beginning only after the EP03 doorbell cliffhanger; no EP04 Babloo actions authored or approved yet.",
+  "priorCanon": "Babloo's name/role are in character-directory.json. Older episode-01.json S04 was proposed, not approved or published; no Babloo meeting is confirmed in published Meenakshi EP02 scenes. Do not invent a previous personal encounter.",
+  "clockNotes": "Meenakshi's 6:45 PM society/home return is a user-desired target; exact farmhouse (from 5 PM) and badminton travel still require timeline reconciliation. The cliffhanger follows arrival, not before.",
+  "deferred": [
+    "Babloo's background beyond established role and reliable service",
+    "Any Babloo–Meenakshi interaction",
+    "All Babloo adult-romance progression until EP04 approval"
+  ],
+  "structure": "Exactly two short plot paragraphs, then cut. No expanded beats."
+}
