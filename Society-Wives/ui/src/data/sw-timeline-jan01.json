@@ -1,0 +1,2841 @@
+{
+  "schema": "story-universal-timeline-v1",
+  "universe": "sw",
+  "anchorDate": "2026-01-01",
+  "clockOrigin": "00:01",
+  "sourcePolicy": "Source-scene order retained; cross-lead events sorted by clock, not author approval. No prose rewritten. Taniya/Soniya source duplicates indexed once.",
+  "events": [
+    {
+      "id": "e02-ankita-A02-SCENE-1",
+      "date": "2026-01-01",
+      "sort": "06:20",
+      "start": "06:20",
+      "end": "06:29",
+      "timeLabel": "06:20–06:29 AM",
+      "universe": "sw",
+      "title": "A02.1 — Rohan: The Stamina Joke",
+      "subtitle": "ANKITA SCENE 1 · 06:20–06:29 AM",
+      "lead": "Ankita",
+      "characters": [
+        "Ankita"
+      ],
+      "mentions": [
+        "Rohan",
+        "Nikhil",
+        "Diya Sen",
+        "Ankita"
+      ],
+      "episode": "02",
+      "scene": "A02-SCENE-1",
+      "kind": "source-scene",
+      "state": "approved-prose",
+      "status": "Approved prose",
+      "source": "continuity-verbatim/episode-02/ankita.json",
+      "reader": {
+        "type": "sw-episode02",
+        "character": "ankita",
+        "scene": "A02-SCENE-1"
+      },
+      "flags": [],
+      "detail": null
+    },
+    {
+      "id": "e02-ankita-A02-SCENE-2",
+      "date": "2026-01-01",
+      "sort": "06:29",
+      "start": "06:29",
+      "end": "06:37",
+      "timeLabel": "06:29–06:37 AM",
+      "universe": "sw",
+      "title": "A02.2 — Nikhil Joins: The Jacket Suspense",
+      "subtitle": "ANKITA SCENE 2 · 06:29–06:37 AM",
+      "lead": "Ankita",
+      "characters": [
+        "Ankita"
+      ],
+      "mentions": [
+        "Rohan",
+        "Nikhil",
+        "Diya Sen",
+        "Ankita"
+      ],
+      "episode": "02",
+      "scene": "A02-SCENE-2",
+      "kind": "source-scene",
+      "state": "approved-prose",
+      "status": "Approved prose",
+      "source": "continuity-verbatim/episode-02/ankita.json",
+      "reader": {
+        "type": "sw-episode02",
+        "character": "ankita",
+        "scene": "A02-SCENE-2"
+      },
+      "flags": [],
+      "detail": null
+    },
+    {
+      "id": "e02-ankita-A03-SCENE-3",
+      "date": "2026-01-01",
+      "sort": "06:38",
+      "start": "06:38",
+      "end": "06:52",
+      "timeLabel": "06:38–06:52 AM",
+      "universe": "sw",
+      "title": "A03 — Posture and Permission",
+      "subtitle": "ANKITA SCENE 3 · 06:38–06:52 AM",
+      "lead": "Ankita",
+      "characters": [
+        "Ankita"
+      ],
+      "mentions": [
+        "Rohan",
+        "Nikhil",
+        "Vikram",
+        "Vivek Rao",
+        "Diya Sen",
+        "Ankita",
+        "Shreya"
+      ],
+      "episode": "02",
+      "scene": "A03-SCENE-3",
+      "kind": "source-scene",
+      "state": "approved-prose",
+      "status": "Approved prose",
+      "source": "continuity-verbatim/episode-02/ankita.json",
+      "reader": {
+        "type": "sw-episode02",
+        "character": "ankita",
+        "scene": "A03-SCENE-3"
+      },
+      "flags": [],
+      "detail": null
+    },
+    {
+      "id": "e02-meenakshi-M01",
+      "date": "2026-01-01",
+      "sort": "06:40",
+      "start": "06:40",
+      "end": "07:40",
+      "timeLabel": "06:40–07:40",
+      "universe": "sw",
+      "title": "C — A surprise meant for Nikhil",
+      "subtitle": null,
+      "lead": "Meenakshi",
+      "characters": [
+        "Meenakshi"
+      ],
+      "mentions": [
+        "Nikhil",
+        "Mohan",
+        "Vihaan",
+        "Diya Sen",
+        "Meenakshi"
+      ],
+      "episode": "02",
+      "scene": "M01",
+      "kind": "source-scene",
+      "state": "approved-prose",
+      "status": "Approved prose",
+      "source": "continuity-verbatim/episode-02/meenakshi.json",
+      "reader": {
+        "type": "sw-episode02",
+        "character": "meenakshi",
+        "scene": "M01"
+      },
+      "flags": [
+        "Source scene contains several sub-beats"
+      ],
+      "detail": null
+    },
+    {
+      "id": "e02-shivani-A02",
+      "date": "2026-01-01",
+      "sort": "06:45",
+      "start": "06:45",
+      "end": "07:10",
+      "timeLabel": "06:45–07:10 AM",
+      "universe": "sw",
+      "title": "A New Year Surprise Interrupted",
+      "subtitle": "SHIVANI · A02 · 06:45–07:10 AM",
+      "lead": "Shivani",
+      "characters": [
+        "Shivani"
+      ],
+      "mentions": [
+        "Rohan",
+        "Diya Sen",
+        "Shivani"
+      ],
+      "episode": "02",
+      "scene": "A02",
+      "kind": "source-scene",
+      "state": "approved-prose",
+      "status": "Approved prose",
+      "source": "continuity-verbatim/episode-02/shivani.json",
+      "reader": {
+        "type": "sw-episode02",
+        "character": "shivani",
+        "scene": "A02"
+      },
+      "flags": [],
+      "detail": null
+    },
+    {
+      "id": "e02-shreya-SR01",
+      "date": "2026-01-01",
+      "sort": "06:55",
+      "start": "06:55",
+      "end": "07:28",
+      "timeLabel": "06:55–07:28",
+      "universe": "sw",
+      "title": "Plank, Balance and Two Bets",
+      "subtitle": "SHREYA · SCENE SR01 · RED SPORTWEAR",
+      "lead": "Shreya",
+      "characters": [
+        "Shreya"
+      ],
+      "mentions": [
+        "Anaya",
+        "Samar",
+        "Shaan",
+        "Vivek Rao",
+        "Diya Sen",
+        "Shreya"
+      ],
+      "episode": "02",
+      "scene": "SR01",
+      "kind": "source-scene",
+      "state": "approved-prose",
+      "status": "Approved prose",
+      "source": "continuity-verbatim/episode-02/shreya.json",
+      "reader": {
+        "type": "sw-episode02",
+        "character": "shreya",
+        "scene": "SR01"
+      },
+      "flags": [],
+      "detail": null
+    },
+    {
+      "id": "e02-taniya-TS01",
+      "date": "2026-01-01",
+      "sort": "06:55",
+      "start": "06:55",
+      "end": "07:25",
+      "timeLabel": "06:55–07:25 AM",
+      "universe": "sw",
+      "title": "The Morning Glimpse",
+      "subtitle": "TS01 · 06:55–07:25 AM",
+      "lead": "Taniya & Soniya",
+      "characters": [
+        "Taniya",
+        "Soniya"
+      ],
+      "mentions": [
+        "Aditya",
+        "Soniya",
+        "Rahul",
+        "Diya Sen",
+        "Taniya"
+      ],
+      "episode": "02",
+      "scene": "TS01",
+      "kind": "source-scene",
+      "state": "source-review",
+      "status": "Published source · approval review",
+      "source": "continuity-verbatim/episode-02/taniya.json",
+      "reader": {
+        "type": "sw-episode02",
+        "character": "taniya",
+        "scene": "TS01"
+      },
+      "flags": [],
+      "detail": null
+    },
+    {
+      "id": "e02-ankita-A04-SCENE-4",
+      "date": "2026-01-01",
+      "sort": "07:03",
+      "start": "07:03",
+      "end": "07:18",
+      "timeLabel": "07:03–07:18 AM",
+      "universe": "sw",
+      "title": "A04 — Two Brothers, Two Ways of Noticing",
+      "subtitle": "ANKITA SCENE 4 · 07:03–07:18 AM",
+      "lead": "Ankita",
+      "characters": [
+        "Ankita"
+      ],
+      "mentions": [
+        "Karan",
+        "Aman",
+        "Rajeev",
+        "Rohan",
+        "Nikhil",
+        "Vikram",
+        "Diya Sen",
+        "Ankita"
+      ],
+      "episode": "02",
+      "scene": "A04-SCENE-4",
+      "kind": "source-scene",
+      "state": "approved-prose",
+      "status": "Approved prose",
+      "source": "continuity-verbatim/episode-02/ankita.json",
+      "reader": {
+        "type": "sw-episode02",
+        "character": "ankita",
+        "scene": "A04-SCENE-4"
+      },
+      "flags": [],
+      "detail": null
+    },
+    {
+      "id": "e02-shivani-A03",
+      "date": "2026-01-01",
+      "sort": "07:12",
+      "start": "07:12",
+      "end": "07:45",
+      "timeLabel": "07:12–07:45 AM",
+      "universe": "sw",
+      "title": "The Unsent Photograph",
+      "subtitle": "SHIVANI · A03 · 07:12–07:45 AM",
+      "lead": "Shivani",
+      "characters": [
+        "Shivani"
+      ],
+      "mentions": [
+        "Rohan",
+        "Diya Sen",
+        "Shivani"
+      ],
+      "episode": "02",
+      "scene": "A03",
+      "kind": "source-scene",
+      "state": "approved-prose",
+      "status": "Approved prose",
+      "source": "continuity-verbatim/episode-02/shivani.json",
+      "reader": {
+        "type": "sw-episode02",
+        "character": "shivani",
+        "scene": "A03"
+      },
+      "flags": [],
+      "detail": null
+    },
+    {
+      "id": "e02-ankita-A05-SCENE-5",
+      "date": "2026-01-01",
+      "sort": "07:19",
+      "start": "07:19",
+      "end": "07:34",
+      "timeLabel": "07:19–07:34 AM",
+      "universe": "sw",
+      "title": "A05 — The Cream Kurti and the Last Look",
+      "subtitle": "ANKITA SCENE 5 · 07:19–07:34 AM",
+      "lead": "Ankita",
+      "characters": [
+        "Ankita"
+      ],
+      "mentions": [
+        "Kabir",
+        "Karan",
+        "Aman",
+        "Rajeev",
+        "Rohan",
+        "Nikhil",
+        "Vikram",
+        "Diya Sen",
+        "Ankita"
+      ],
+      "episode": "02",
+      "scene": "A05-SCENE-5",
+      "kind": "source-scene",
+      "state": "source-review",
+      "status": "Published source · approval review",
+      "source": "continuity-verbatim/episode-02/ankita.json",
+      "reader": {
+        "type": "sw-episode02",
+        "character": "ankita",
+        "scene": "A05-SCENE-5"
+      },
+      "flags": [],
+      "detail": null
+    },
+    {
+      "id": "e02-taniya-TS02",
+      "date": "2026-01-01",
+      "sort": "07:25",
+      "start": "07:25",
+      "end": "07:50",
+      "timeLabel": "07:25–07:50 AM",
+      "universe": "sw",
+      "title": "Gym Preparation",
+      "subtitle": "TS02 · 07:25–07:50 AM",
+      "lead": "Taniya & Soniya",
+      "characters": [
+        "Taniya",
+        "Soniya"
+      ],
+      "mentions": [
+        "Soniya",
+        "Rahul",
+        "Diya Sen",
+        "Taniya"
+      ],
+      "episode": "02",
+      "scene": "TS02",
+      "kind": "source-scene",
+      "state": "source-review",
+      "status": "Published source · approval review",
+      "source": "continuity-verbatim/episode-02/taniya.json",
+      "reader": {
+        "type": "sw-episode02",
+        "character": "taniya",
+        "scene": "TS02"
+      },
+      "flags": [],
+      "detail": null
+    },
+    {
+      "id": "e02-shreya-SR02A",
+      "date": "2026-01-01",
+      "sort": "07:28",
+      "start": "07:28",
+      "end": "07:52",
+      "timeLabel": "07:28–07:52 AM",
+      "universe": "sw",
+      "title": "The Attraction-Resistance Challenge — Vivek & Shreya",
+      "subtitle": "SHREYA SR02A · 07:28–07:52 AM · PUBLISHED",
+      "lead": "Shreya",
+      "characters": [
+        "Shreya"
+      ],
+      "mentions": [
+        "Soniya",
+        "Vikram",
+        "Samar",
+        "Shaan",
+        "Vivek Rao",
+        "Diya Sen",
+        "Ankita",
+        "Taniya",
+        "Shreya"
+      ],
+      "episode": "02",
+      "scene": "SR02A",
+      "kind": "source-scene",
+      "state": "source-review",
+      "status": "Published source · approval review",
+      "source": "continuity-verbatim/episode-02/shreya.json",
+      "reader": {
+        "type": "sw-episode02",
+        "character": "shreya",
+        "scene": "SR02A"
+      },
+      "flags": [],
+      "detail": null
+    },
+    {
+      "id": "e02-ankita-A06-SCENE-6",
+      "date": "2026-01-01",
+      "sort": "07:35",
+      "start": "07:35",
+      "end": "07:47",
+      "timeLabel": "07:35–07:47 AM",
+      "universe": "sw",
+      "title": "A06 — Two Faces in the Lift",
+      "subtitle": "ANKITA SCENE 6 · 07:35–07:47 AM",
+      "lead": "Ankita",
+      "characters": [
+        "Ankita"
+      ],
+      "mentions": [
+        "Rohan",
+        "Nikhil",
+        "Ayaan",
+        "Armaan",
+        "Diya Sen",
+        "Ankita"
+      ],
+      "episode": "02",
+      "scene": "A06-SCENE-6",
+      "kind": "source-scene",
+      "state": "approved-prose",
+      "status": "Approved prose",
+      "source": "continuity-verbatim/episode-02/ankita.json",
+      "reader": {
+        "type": "sw-episode02",
+        "character": "ankita",
+        "scene": "A06-SCENE-6"
+      },
+      "flags": [],
+      "detail": null
+    },
+    {
+      "id": "e02-meenakshi-M02",
+      "date": "2026-01-01",
+      "sort": "07:45",
+      "start": "07:45",
+      "end": "08:10",
+      "timeLabel": "07:45–08:10",
+      "universe": "sw",
+      "title": "M02 — Two Contrasting Wellness Twins",
+      "subtitle": null,
+      "lead": "Meenakshi",
+      "characters": [
+        "Meenakshi"
+      ],
+      "mentions": [
+        "Uday",
+        "Utkarsh",
+        "Diya Sen",
+        "Meenakshi"
+      ],
+      "episode": "02",
+      "scene": "M02",
+      "kind": "source-scene",
+      "state": "approved-prose",
+      "status": "Approved prose",
+      "source": "continuity-verbatim/episode-02/meenakshi.json",
+      "reader": {
+        "type": "sw-episode02",
+        "character": "meenakshi",
+        "scene": "M02"
+      },
+      "flags": [],
+      "detail": null
+    },
+    {
+      "id": "e02-ankita-A07-SCENE-7",
+      "date": "2026-01-01",
+      "sort": "07:50",
+      "start": "07:50",
+      "end": "08:05",
+      "timeLabel": "07:50–08:05 AM",
+      "universe": "sw",
+      "title": "A07 — The Package She Hasn't Seen",
+      "subtitle": "ANKITA SCENE 7 · 07:50–08:05 AM",
+      "lead": "Ankita",
+      "characters": [
+        "Ankita"
+      ],
+      "mentions": [
+        "Ayaan",
+        "Armaan",
+        "Diya Sen",
+        "Gopal",
+        "Ankita"
+      ],
+      "episode": "02",
+      "scene": "A07-SCENE-7",
+      "kind": "source-scene",
+      "state": "approved-prose",
+      "status": "Approved prose",
+      "source": "continuity-verbatim/episode-02/ankita.json",
+      "reader": {
+        "type": "sw-episode02",
+        "character": "ankita",
+        "scene": "A07-SCENE-7"
+      },
+      "flags": [],
+      "detail": null
+    },
+    {
+      "id": "e02-taniya-TS03",
+      "date": "2026-01-01",
+      "sort": "07:55",
+      "start": "07:55",
+      "end": null,
+      "timeLabel": "07:55 AM",
+      "universe": "sw",
+      "title": "Rahul Leaves for Office",
+      "subtitle": "TS03 · 07:55 AM",
+      "lead": "Taniya & Soniya",
+      "characters": [
+        "Taniya",
+        "Soniya"
+      ],
+      "mentions": [
+        "Soniya",
+        "Rahul",
+        "Taniya"
+      ],
+      "episode": "02",
+      "scene": "TS03",
+      "kind": "source-scene",
+      "state": "source-review",
+      "status": "Published source · approval review",
+      "source": "continuity-verbatim/episode-02/taniya.json",
+      "reader": {
+        "type": "sw-episode02",
+        "character": "taniya",
+        "scene": "TS03"
+      },
+      "flags": [],
+      "detail": null
+    },
+    {
+      "id": "e02-shreya-SR02B",
+      "date": "2026-01-01",
+      "sort": "07:57",
+      "start": "07:57",
+      "end": "08:12",
+      "timeLabel": "07:57–08:12 AM",
+      "universe": "sw",
+      "title": "The Uncle's Unexpected Compliment",
+      "subtitle": "SHREYA SR02B · 07:57–08:12 AM · PUBLISHED",
+      "lead": "Shreya",
+      "characters": [
+        "Shreya"
+      ],
+      "mentions": [
+        "Vikram",
+        "Arvind",
+        "Anaya",
+        "Diya Sen",
+        "Shreya"
+      ],
+      "episode": "02",
+      "scene": "SR02B",
+      "kind": "source-scene",
+      "state": "source-review",
+      "status": "Published source · approval review",
+      "source": "continuity-verbatim/episode-02/shreya.json",
+      "reader": {
+        "type": "sw-episode02",
+        "character": "shreya",
+        "scene": "SR02B"
+      },
+      "flags": [],
+      "detail": null
+    },
+    {
+      "id": "e02-meenakshi-M03",
+      "date": "2026-01-01",
+      "sort": "08:10",
+      "start": "08:10",
+      "end": "08:15",
+      "timeLabel": "08:10–08:15",
+      "universe": "sw",
+      "title": "M03 — A Brief Stop at the Society Gate",
+      "subtitle": null,
+      "lead": "Meenakshi",
+      "characters": [
+        "Meenakshi"
+      ],
+      "mentions": [
+        "Mohan",
+        "Uday",
+        "Utkarsh",
+        "Diya Sen",
+        "Gopal",
+        "Meenakshi"
+      ],
+      "episode": "02",
+      "scene": "M03",
+      "kind": "source-scene",
+      "state": "approved-prose",
+      "status": "Approved prose",
+      "source": "continuity-verbatim/episode-02/meenakshi.json",
+      "reader": {
+        "type": "sw-episode02",
+        "character": "meenakshi",
+        "scene": "M03"
+      },
+      "flags": [],
+      "detail": null
+    },
+    {
+      "id": "e02-shivani-A04",
+      "date": "2026-01-01",
+      "sort": "08:10",
+      "start": "08:10",
+      "end": "08:15",
+      "timeLabel": "08:10–08:15",
+      "universe": "sw",
+      "title": "A04 — Childcare Handoff",
+      "subtitle": "SHIVANI · A04 · 08:10–08:15",
+      "lead": "Shivani",
+      "characters": [
+        "Shivani"
+      ],
+      "mentions": [
+        "Kavya",
+        "Tara",
+        "Shivani"
+      ],
+      "episode": "02",
+      "scene": "A04",
+      "kind": "source-scene",
+      "state": "source-review",
+      "status": "Published source · approval review",
+      "source": "continuity-verbatim/episode-02/shivani.json",
+      "reader": {
+        "type": "sw-episode02",
+        "character": "shivani",
+        "scene": "A04"
+      },
+      "flags": [],
+      "detail": null
+    },
+    {
+      "id": "e02-shreya-SR03-plan",
+      "date": "2026-01-01",
+      "sort": "08:12",
+      "start": "08:12",
+      "end": "08:13",
+      "timeLabel": "08:12–08:13",
+      "universe": "sw",
+      "title": "The elder's New Year compliment",
+      "lead": "Shreya",
+      "characters": [
+        "shreya",
+        "rajeev"
+      ],
+      "mentions": [],
+      "episode": "02",
+      "scene": "SR03",
+      "kind": "planned",
+      "state": "no-prose",
+      "status": "Working plot · full prose not published",
+      "source": "episode-02-shreya-plan.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "shreya",
+        "scene": "SR03"
+      },
+      "flags": [
+        "Missing published prose"
+      ],
+      "detail": "Rajeev, 61, an older associate socially presented as Ankita's household elder (not actual FIL), greets Shreya after his 07:19–07:34 family event. He notices her poise and uniform in a brief exchange."
+    },
+    {
+      "id": "e02-shreya-SR05",
+      "date": "2026-01-01",
+      "sort": "08:13",
+      "start": "08:13",
+      "end": "08:15",
+      "timeLabel": "08:13–08:15 AM",
+      "universe": "sw",
+      "title": "The First Button — Karan, Aman & Shreya",
+      "subtitle": "SHREYA SR05 · 08:13–08:15 AM · PUBLISHED",
+      "lead": "Shreya",
+      "characters": [
+        "Shreya"
+      ],
+      "mentions": [
+        "Karan",
+        "Aman",
+        "Rajeev",
+        "Chintu",
+        "Shaan",
+        "Mahendra Suri",
+        "Diya Sen",
+        "Ankita",
+        "Shreya"
+      ],
+      "episode": "02",
+      "scene": "SR05",
+      "kind": "source-scene",
+      "state": "source-review",
+      "status": "Published source · approval review",
+      "source": "continuity-verbatim/episode-02/shreya.json",
+      "reader": {
+        "type": "sw-episode02",
+        "character": "shreya",
+        "scene": "SR05"
+      },
+      "flags": [],
+      "detail": null
+    },
+    {
+      "id": "e02-meenakshi-M04",
+      "date": "2026-01-01",
+      "sort": "08:15",
+      "start": "08:15",
+      "end": "08:45",
+      "timeLabel": "08:15–08:45",
+      "universe": "sw",
+      "title": "M04 — The Morning Commute",
+      "subtitle": null,
+      "lead": "Meenakshi",
+      "characters": [
+        "Meenakshi"
+      ],
+      "mentions": [
+        "Uday",
+        "Utkarsh",
+        "Diya Sen",
+        "Gopal",
+        "Meenakshi"
+      ],
+      "episode": "02",
+      "scene": "M04",
+      "kind": "source-scene",
+      "state": "approved-prose",
+      "status": "Approved prose",
+      "source": "continuity-verbatim/episode-02/meenakshi.json",
+      "reader": {
+        "type": "sw-episode02",
+        "character": "meenakshi",
+        "scene": "M04"
+      },
+      "flags": [],
+      "detail": null
+    },
+    {
+      "id": "e02-shreya-SR04",
+      "date": "2026-01-01",
+      "sort": "08:15",
+      "start": "08:15",
+      "end": "08:20",
+      "timeLabel": "08:15–08:20 AM",
+      "universe": "sw",
+      "title": "The Chairman's Weak Spot — Shreya & Mahendra",
+      "subtitle": "SHREYA SR04 · 08:15–08:20 AM · PUBLISHED",
+      "lead": "Shreya",
+      "characters": [
+        "Shreya"
+      ],
+      "mentions": [
+        "Karan",
+        "Aman",
+        "Mahendra Suri",
+        "Diya Sen",
+        "Shreya"
+      ],
+      "episode": "02",
+      "scene": "SR04",
+      "kind": "source-scene",
+      "state": "approved-prose",
+      "status": "Approved prose",
+      "source": "continuity-verbatim/episode-02/shreya.json",
+      "reader": {
+        "type": "sw-episode02",
+        "character": "shreya",
+        "scene": "SR04"
+      },
+      "flags": [],
+      "detail": null
+    },
+    {
+      "id": "e02-shivani-A05",
+      "date": "2026-01-01",
+      "sort": "08:16",
+      "start": "08:16",
+      "end": "08:20",
+      "timeLabel": "08:16–08:20",
+      "universe": "sw",
+      "title": "A05 — Private Biology Lessons",
+      "subtitle": "SHIVANI · A05 · 08:16–08:20",
+      "lead": "Shivani",
+      "characters": [
+        "Shivani"
+      ],
+      "mentions": [
+        "Karan",
+        "Aman",
+        "Ankita",
+        "Shivani",
+        "Shreya"
+      ],
+      "episode": "02",
+      "scene": "A05",
+      "kind": "source-scene",
+      "state": "source-review",
+      "status": "Published source · approval review",
+      "source": "continuity-verbatim/episode-02/shivani.json",
+      "reader": {
+        "type": "sw-episode02",
+        "character": "shivani",
+        "scene": "A05"
+      },
+      "flags": [],
+      "detail": null
+    },
+    {
+      "id": "e02-shivani-A06",
+      "date": "2026-01-01",
+      "sort": "08:20",
+      "start": "08:20",
+      "end": null,
+      "timeLabel": "08:20",
+      "universe": "sw",
+      "title": "A06 — Scooty Departure",
+      "subtitle": "SHIVANI · A06 · 08:20",
+      "lead": "Shivani",
+      "characters": [
+        "Shivani"
+      ],
+      "mentions": [
+        "Karan",
+        "Aman",
+        "Shivani"
+      ],
+      "episode": "02",
+      "scene": "A06",
+      "kind": "source-scene",
+      "state": "source-review",
+      "status": "Published source · approval review",
+      "source": "continuity-verbatim/episode-02/shivani.json",
+      "reader": {
+        "type": "sw-episode02",
+        "character": "shivani",
+        "scene": "A06"
+      },
+      "flags": [],
+      "detail": null
+    },
+    {
+      "id": "e02-shreya-SR06",
+      "date": "2026-01-01",
+      "sort": "08:20",
+      "start": "08:20",
+      "end": "08:50",
+      "timeLabel": "08:20–08:50 AM",
+      "universe": "sw",
+      "title": "The Drive to Duty",
+      "subtitle": "SHREYA SR06 · 08:20–08:50 AM · PUBLISHED",
+      "lead": "Shreya",
+      "characters": [
+        "Shreya"
+      ],
+      "mentions": [
+        "Karan",
+        "Aman",
+        "Rajeev",
+        "Vikram",
+        "Arvind",
+        "Anaya",
+        "Mahendra Suri",
+        "Shreya"
+      ],
+      "episode": "02",
+      "scene": "SR06",
+      "kind": "source-scene",
+      "state": "source-review",
+      "status": "Published source · approval review",
+      "source": "continuity-verbatim/episode-02/shreya.json",
+      "reader": {
+        "type": "sw-episode02",
+        "character": "shreya",
+        "scene": "SR06"
+      },
+      "flags": [],
+      "detail": null
+    },
+    {
+      "id": "e02-taniya-TS04-PART1",
+      "date": "2026-01-01",
+      "sort": "08:25",
+      "start": "08:25",
+      "end": "08:32",
+      "timeLabel": "08:25–08:32 AM",
+      "universe": "sw",
+      "title": "Society Gym",
+      "subtitle": "TS04 · 08:25–08:32 AM · PART 1",
+      "lead": "Taniya & Soniya",
+      "characters": [
+        "Taniya",
+        "Soniya"
+      ],
+      "mentions": [
+        "Soniya",
+        "Diya Sen",
+        "Taniya"
+      ],
+      "episode": "02",
+      "scene": "TS04-PART1",
+      "kind": "source-scene",
+      "state": "source-review",
+      "status": "Published source · approval review",
+      "source": "continuity-verbatim/episode-02/taniya.json",
+      "reader": {
+        "type": "sw-episode02",
+        "character": "taniya",
+        "scene": "TS04-PART1"
+      },
+      "flags": [],
+      "detail": null
+    },
+    {
+      "id": "e02-taniya-TS04-PART2",
+      "date": "2026-01-01",
+      "sort": "08:32",
+      "start": "08:32",
+      "end": "08:40",
+      "timeLabel": "08:32–08:40 AM",
+      "universe": "sw",
+      "title": "Society Gym — Continued",
+      "subtitle": "TS04 · 08:32–08:40 AM · PART 2",
+      "lead": "Taniya & Soniya",
+      "characters": [
+        "Taniya",
+        "Soniya"
+      ],
+      "mentions": [
+        "Soniya",
+        "Taniya"
+      ],
+      "episode": "02",
+      "scene": "TS04-PART2",
+      "kind": "source-scene",
+      "state": "source-review",
+      "status": "Published source · approval review",
+      "source": "continuity-verbatim/episode-02/taniya.json",
+      "reader": {
+        "type": "sw-episode02",
+        "character": "taniya",
+        "scene": "TS04-PART2"
+      },
+      "flags": [],
+      "detail": null
+    },
+    {
+      "id": "e02-taniya-TS04-PART3",
+      "date": "2026-01-01",
+      "sort": "08:40",
+      "start": "08:40",
+      "end": "08:45",
+      "timeLabel": "08:40–08:45 AM",
+      "universe": "sw",
+      "title": "Society Gym — Return and Interruption",
+      "subtitle": "TS04 · 08:40–08:45 AM · PART 3",
+      "lead": "Taniya & Soniya",
+      "characters": [
+        "Taniya",
+        "Soniya"
+      ],
+      "mentions": [
+        "Karan",
+        "Aman",
+        "Soniya",
+        "Diya Sen",
+        "Taniya"
+      ],
+      "episode": "02",
+      "scene": "TS04-PART3",
+      "kind": "source-scene",
+      "state": "source-review",
+      "status": "Published source · approval review",
+      "source": "continuity-verbatim/episode-02/taniya.json",
+      "reader": {
+        "type": "sw-episode02",
+        "character": "taniya",
+        "scene": "TS04-PART3"
+      },
+      "flags": [],
+      "detail": null
+    },
+    {
+      "id": "e02-meenakshi-M05",
+      "date": "2026-01-01",
+      "sort": "08:45",
+      "start": "08:45",
+      "end": "09:05",
+      "timeLabel": "08:45–09:05",
+      "universe": "sw",
+      "title": "M05 — Preparation Before Rounds",
+      "subtitle": null,
+      "lead": "Meenakshi",
+      "characters": [
+        "Meenakshi"
+      ],
+      "mentions": [
+        "Diya Sen",
+        "Harish Pal",
+        "Sunil Yadav",
+        "Meenakshi"
+      ],
+      "episode": "02",
+      "scene": "M05",
+      "kind": "source-scene",
+      "state": "approved-prose",
+      "status": "Approved prose",
+      "source": "continuity-verbatim/episode-02/meenakshi.json",
+      "reader": {
+        "type": "sw-episode02",
+        "character": "meenakshi",
+        "scene": "M05"
+      },
+      "flags": [],
+      "detail": null
+    },
+    {
+      "id": "e02-shivani-B01",
+      "date": "2026-01-01",
+      "sort": "08:45",
+      "start": "08:45",
+      "end": null,
+      "timeLabel": "08:45",
+      "universe": "sw",
+      "title": "B01 — College Arrival",
+      "subtitle": "SHIVANI · B01 · 08:45",
+      "lead": "Shivani",
+      "characters": [
+        "Shivani"
+      ],
+      "mentions": [
+        "Shivani"
+      ],
+      "episode": "02",
+      "scene": "B01",
+      "kind": "source-scene",
+      "state": "source-review",
+      "status": "Published source · approval review",
+      "source": "continuity-verbatim/episode-02/shivani.json",
+      "reader": {
+        "type": "sw-episode02",
+        "character": "shivani",
+        "scene": "B01"
+      },
+      "flags": [],
+      "detail": null
+    },
+    {
+      "id": "e02-taniya-TS05-PART1",
+      "date": "2026-01-01",
+      "sort": "08:45",
+      "start": "08:45",
+      "end": "08:52",
+      "timeLabel": "08:45–08:52 AM",
+      "universe": "sw",
+      "title": "Gym — Hidden Knowledge",
+      "subtitle": "TS05 · 08:45–08:52 AM · PART 1",
+      "lead": "Taniya & Soniya",
+      "characters": [
+        "Taniya",
+        "Soniya"
+      ],
+      "mentions": [
+        "Karan",
+        "Aman",
+        "Soniya",
+        "Taniya"
+      ],
+      "episode": "02",
+      "scene": "TS05-PART1",
+      "kind": "source-scene",
+      "state": "source-review",
+      "status": "Published source · approval review",
+      "source": "continuity-verbatim/episode-02/taniya.json",
+      "reader": {
+        "type": "sw-episode02",
+        "character": "taniya",
+        "scene": "TS05-PART1"
+      },
+      "flags": [],
+      "detail": null
+    },
+    {
+      "id": "e02-ankita-A08-SCENE-8",
+      "date": "2026-01-01",
+      "sort": "08:50",
+      "start": "08:50",
+      "end": "09:20",
+      "timeLabel": "08:50–09:20 AM",
+      "universe": "sw",
+      "title": "A08 — The Office Double Take",
+      "subtitle": "ANKITA SCENE 8 · 08:50–09:20 AM",
+      "lead": "Ankita",
+      "characters": [
+        "Ankita"
+      ],
+      "mentions": [
+        "Kabir",
+        "Vivan",
+        "Reyansh",
+        "Priya Nair",
+        "Nisha Gupta",
+        "Diya Sen",
+        "Ankita"
+      ],
+      "episode": "02",
+      "scene": "A08-SCENE-8",
+      "kind": "source-scene",
+      "state": "approved-prose",
+      "status": "Approved prose",
+      "source": "continuity-verbatim/episode-02/ankita.json",
+      "reader": {
+        "type": "sw-episode02",
+        "character": "ankita",
+        "scene": "A08-SCENE-8"
+      },
+      "flags": [],
+      "detail": null
+    },
+    {
+      "id": "e02-taniya-TS05-PART2",
+      "date": "2026-01-01",
+      "sort": "08:52",
+      "start": "08:52",
+      "end": "09:00",
+      "timeLabel": "08:52–09:00 AM",
+      "universe": "sw",
+      "title": "Gym — Parallel Flirting and Form Checks",
+      "subtitle": "TS05 · 08:52–09:00 AM · PART 2",
+      "lead": "Taniya & Soniya",
+      "characters": [
+        "Taniya",
+        "Soniya"
+      ],
+      "mentions": [
+        "Karan",
+        "Aman",
+        "Soniya",
+        "Diya Sen",
+        "Taniya"
+      ],
+      "episode": "02",
+      "scene": "TS05-PART2",
+      "kind": "source-scene",
+      "state": "source-review",
+      "status": "Published source · approval review",
+      "source": "continuity-verbatim/episode-02/taniya.json",
+      "reader": {
+        "type": "sw-episode02",
+        "character": "taniya",
+        "scene": "TS05-PART2"
+      },
+      "flags": [],
+      "detail": null
+    },
+    {
+      "id": "e02-shivani-B02",
+      "date": "2026-01-01",
+      "sort": "09:00",
+      "start": "09:00",
+      "end": "10:30",
+      "timeLabel": "09:00–10:30",
+      "universe": "sw",
+      "title": "B02 — The Biology of Attention",
+      "subtitle": "SHIVANI · B02 · 09:00–10:30",
+      "lead": "Shivani",
+      "characters": [
+        "Shivani"
+      ],
+      "mentions": [
+        "Harsh",
+        "Laksh",
+        "Nandini",
+        "Ritika",
+        "Shivani"
+      ],
+      "episode": "02",
+      "scene": "B02",
+      "kind": "source-scene",
+      "state": "source-review",
+      "status": "Published source · approval review",
+      "source": "continuity-verbatim/episode-02/shivani.json",
+      "reader": {
+        "type": "sw-episode02",
+        "character": "shivani",
+        "scene": "B02"
+      },
+      "flags": [],
+      "detail": null
+    },
+    {
+      "id": "e02-shreya-SR07",
+      "date": "2026-01-01",
+      "sort": "09:00",
+      "start": "09:00",
+      "end": "09:35",
+      "timeLabel": "09:00–09:35 AM",
+      "universe": "sw",
+      "title": "The Inspector's Favourite Troublemakers — Rohas & Lokesh",
+      "subtitle": "SHREYA SR07 · 09:00–09:35 AM · PUBLISHED",
+      "lead": "Shreya",
+      "characters": [
+        "Shreya"
+      ],
+      "mentions": [
+        "Samar",
+        "Shaan",
+        "Rohas",
+        "Lokesh",
+        "Diya Sen",
+        "Kavita",
+        "Meera",
+        "Poonam",
+        "Shreya"
+      ],
+      "episode": "02",
+      "scene": "SR07",
+      "kind": "source-scene",
+      "state": "source-review",
+      "status": "Published source · approval review",
+      "source": "continuity-verbatim/episode-02/shreya.json",
+      "reader": {
+        "type": "sw-episode02",
+        "character": "shreya",
+        "scene": "SR07"
+      },
+      "flags": [],
+      "detail": null
+    },
+    {
+      "id": "e02-taniya-TS05-PART3",
+      "date": "2026-01-01",
+      "sort": "09:00",
+      "start": "09:00",
+      "end": "09:12",
+      "timeLabel": "09:00–09:12 AM",
+      "universe": "sw",
+      "title": "Gym — Jealousy Seed & Exit Hook",
+      "subtitle": "TS05 · 09:00–09:12 AM · PART 3 / FINAL",
+      "lead": "Taniya & Soniya",
+      "characters": [
+        "Taniya",
+        "Soniya"
+      ],
+      "mentions": [
+        "Karan",
+        "Aman",
+        "Soniya",
+        "Diya Sen",
+        "Taniya"
+      ],
+      "episode": "02",
+      "scene": "TS05-PART3",
+      "kind": "source-scene",
+      "state": "source-review",
+      "status": "Published source · approval review",
+      "source": "continuity-verbatim/episode-02/taniya.json",
+      "reader": {
+        "type": "sw-episode02",
+        "character": "taniya",
+        "scene": "TS05-PART3"
+      },
+      "flags": [],
+      "detail": null
+    },
+    {
+      "id": "e02-meenakshi-M06",
+      "date": "2026-01-01",
+      "sort": "09:05",
+      "start": "09:05",
+      "end": "10:15",
+      "timeLabel": "09:05–10:15",
+      "universe": "sw",
+      "title": "M06 — Between Rounds",
+      "subtitle": null,
+      "lead": "Meenakshi",
+      "characters": [
+        "Meenakshi"
+      ],
+      "mentions": [
+        "Naveen",
+        "Avi",
+        "Yash",
+        "Diya Sen",
+        "Dr. Aditi",
+        "Rupa",
+        "Harish Pal",
+        "Sunil Yadav",
+        "Meenakshi"
+      ],
+      "episode": "02",
+      "scene": "M06",
+      "kind": "source-scene",
+      "state": "source-review",
+      "status": "Published source · approval review",
+      "source": "continuity-verbatim/episode-02/meenakshi.json",
+      "reader": {
+        "type": "sw-episode02",
+        "character": "meenakshi",
+        "scene": "M06"
+      },
+      "flags": [],
+      "detail": null
+    },
+    {
+      "id": "e02-taniya-TS06",
+      "date": "2026-01-01",
+      "sort": "09:12",
+      "start": "09:12",
+      "end": "09:18",
+      "timeLabel": "09:12–09:18 AM",
+      "universe": "sw",
+      "title": "Chairman Sahab Ki Nazar",
+      "subtitle": "TS06 · 09:12–09:18 AM",
+      "lead": "Taniya & Soniya",
+      "characters": [
+        "Taniya",
+        "Soniya"
+      ],
+      "mentions": [
+        "Soniya",
+        "Rahul",
+        "Mahendra Suri",
+        "Diya Sen",
+        "Taniya"
+      ],
+      "episode": "02",
+      "scene": "TS06",
+      "kind": "source-scene",
+      "state": "source-review",
+      "status": "Published source · approval review",
+      "source": "continuity-verbatim/episode-02/taniya.json",
+      "reader": {
+        "type": "sw-episode02",
+        "character": "taniya",
+        "scene": "TS06"
+      },
+      "flags": [],
+      "detail": null
+    },
+    {
+      "id": "e02-taniya-TS07A",
+      "date": "2026-01-01",
+      "sort": "09:18",
+      "start": "09:18",
+      "end": "09:27",
+      "timeLabel": "09:18–09:27 AM",
+      "universe": "sw",
+      "title": "Back Home — The Truth",
+      "subtitle": "TS07A · 09:18–09:27 AM",
+      "lead": "Taniya & Soniya",
+      "characters": [
+        "Taniya",
+        "Soniya"
+      ],
+      "mentions": [
+        "Soniya",
+        "Rahul",
+        "Taniya"
+      ],
+      "episode": "02",
+      "scene": "TS07A",
+      "kind": "source-scene",
+      "state": "source-review",
+      "status": "Published source · approval review",
+      "source": "continuity-verbatim/episode-02/taniya.json",
+      "reader": {
+        "type": "sw-episode02",
+        "character": "taniya",
+        "scene": "TS07A"
+      },
+      "flags": [],
+      "detail": null
+    },
+    {
+      "id": "e02-shreya-SR08",
+      "date": "2026-01-01",
+      "sort": "09:20",
+      "start": "09:20",
+      "end": "09:40",
+      "timeLabel": "09:20–09:40 AM",
+      "universe": "sw",
+      "title": "SR08 — Arvind’s Forbidden Thoughts",
+      "subtitle": "SR08 · 09:20–09:40 AM · PUBLISHED",
+      "lead": "Shreya",
+      "characters": [
+        "Shreya"
+      ],
+      "mentions": [
+        "Arvind",
+        "Diya Sen",
+        "Shreya"
+      ],
+      "episode": "02",
+      "scene": "SR08",
+      "kind": "source-scene",
+      "state": "approved-prose",
+      "status": "Approved prose",
+      "source": "continuity-verbatim/episode-02/shreya.json",
+      "reader": {
+        "type": "sw-episode02",
+        "character": "shreya",
+        "scene": "SR08"
+      },
+      "flags": [],
+      "detail": null
+    },
+    {
+      "id": "e02-taniya-TS07B",
+      "date": "2026-01-01",
+      "sort": "09:27",
+      "start": "09:27",
+      "end": "09:36",
+      "timeLabel": "09:27–09:36 AM",
+      "universe": "sw",
+      "title": "Shared Shower — Recall and Boundaries",
+      "subtitle": "TS07B · 09:27–09:36 AM",
+      "lead": "Taniya & Soniya",
+      "characters": [
+        "Taniya",
+        "Soniya"
+      ],
+      "mentions": [
+        "Soniya",
+        "Rahul",
+        "Taniya"
+      ],
+      "episode": "02",
+      "scene": "TS07B",
+      "kind": "source-scene",
+      "state": "source-review",
+      "status": "Published source · approval review",
+      "source": "continuity-verbatim/episode-02/taniya.json",
+      "reader": {
+        "type": "sw-episode02",
+        "character": "taniya",
+        "scene": "TS07B"
+      },
+      "flags": [],
+      "detail": null
+    },
+    {
+      "id": "e02-taniya-TS07C",
+      "date": "2026-01-01",
+      "sort": "09:36",
+      "start": "09:36",
+      "end": "09:45",
+      "timeLabel": "09:36–09:45 AM",
+      "universe": "sw",
+      "title": "Getting Ready — Taniya Leaves",
+      "subtitle": "TS07C · 09:36–09:45 AM",
+      "lead": "Taniya & Soniya",
+      "characters": [
+        "Taniya",
+        "Soniya"
+      ],
+      "mentions": [
+        "Soniya",
+        "Rahul",
+        "Diya Sen",
+        "Taniya"
+      ],
+      "episode": "02",
+      "scene": "TS07C",
+      "kind": "source-scene",
+      "state": "source-review",
+      "status": "Published source · approval review",
+      "source": "continuity-verbatim/episode-02/taniya.json",
+      "reader": {
+        "type": "sw-episode02",
+        "character": "taniya",
+        "scene": "TS07C"
+      },
+      "flags": [],
+      "detail": null
+    },
+    {
+      "id": "e02-shreya-SR09",
+      "date": "2026-01-01",
+      "sort": "09:40",
+      "start": "09:40",
+      "end": "10:15",
+      "timeLabel": "09:40–10:15 AM",
+      "universe": "sw",
+      "title": "Inspector Chauhan’s Distracted Attention",
+      "subtitle": "SR09 · 09:40–10:15 AM · PUBLISHED",
+      "lead": "Shreya",
+      "characters": [
+        "Shreya"
+      ],
+      "mentions": [
+        "Rajeev",
+        "Inspector Chauhan",
+        "Diya Sen",
+        "Shreya"
+      ],
+      "episode": "02",
+      "scene": "SR09",
+      "kind": "source-scene",
+      "state": "approved-prose",
+      "status": "Approved prose",
+      "source": "continuity-verbatim/episode-02/shreya.json",
+      "reader": {
+        "type": "sw-episode02",
+        "character": "shreya",
+        "scene": "SR09"
+      },
+      "flags": [],
+      "detail": null
+    },
+    {
+      "id": "e02-taniya-TS08",
+      "date": "2026-01-01",
+      "sort": "09:45",
+      "start": "09:45",
+      "end": "10:20",
+      "timeLabel": "09:45–10:20 AM",
+      "universe": "sw",
+      "title": "Taniya's Office Commute",
+      "subtitle": "TS08 · 09:45–10:20 AM",
+      "lead": "Taniya & Soniya",
+      "characters": [
+        "Taniya",
+        "Soniya"
+      ],
+      "mentions": [
+        "Aditya",
+        "Rahul",
+        "Taniya"
+      ],
+      "episode": "02",
+      "scene": "TS08",
+      "kind": "source-scene",
+      "state": "source-review",
+      "status": "Published source · approval review",
+      "source": "continuity-verbatim/episode-02/taniya.json",
+      "reader": {
+        "type": "sw-episode02",
+        "character": "taniya",
+        "scene": "TS08"
+      },
+      "flags": [],
+      "detail": null
+    },
+    {
+      "id": "e02-taniya-TS09",
+      "date": "2026-01-01",
+      "sort": "09:46",
+      "start": "09:46",
+      "end": "09:53",
+      "timeLabel": "09:46–09:53 AM",
+      "universe": "sw",
+      "title": "Soniya Alone — Laundry and Documents",
+      "subtitle": "TS09 · 09:46–09:53 AM",
+      "lead": "Taniya & Soniya",
+      "characters": [
+        "Taniya",
+        "Soniya"
+      ],
+      "mentions": [
+        "Soniya",
+        "Rahul",
+        "Diya Sen",
+        "Taniya"
+      ],
+      "episode": "02",
+      "scene": "TS09",
+      "kind": "source-scene",
+      "state": "source-review",
+      "status": "Published source · approval review",
+      "source": "continuity-verbatim/episode-02/taniya.json",
+      "reader": {
+        "type": "sw-episode02",
+        "character": "taniya",
+        "scene": "TS09"
+      },
+      "flags": [],
+      "detail": null
+    },
+    {
+      "id": "e02-ankita-P01",
+      "date": "2026-01-01",
+      "sort": "09:55",
+      "start": "09:55",
+      "end": "10:12",
+      "timeLabel": "09:55–10:12",
+      "universe": "sw",
+      "title": "P01 — First Broken Seal",
+      "subtitle": "PARCEL P01 · 09:55–10:12",
+      "lead": "Ankita",
+      "characters": [
+        "Ankita"
+      ],
+      "mentions": [
+        "Kabir",
+        "Diya Sen",
+        "Gopal",
+        "Ankita"
+      ],
+      "episode": "02",
+      "scene": "P01",
+      "kind": "source-scene",
+      "state": "approved-prose",
+      "status": "Approved prose",
+      "source": "continuity-verbatim/episode-02/ankita.json",
+      "reader": {
+        "type": "sw-episode02",
+        "character": "ankita",
+        "scene": "P01"
+      },
+      "flags": [],
+      "detail": null
+    },
+    {
+      "id": "e02-taniya-TS10-ENTRY",
+      "date": "2026-01-01",
+      "sort": "09:55",
+      "start": "09:55",
+      "end": null,
+      "timeLabel": "09:55 AM",
+      "universe": "sw",
+      "title": "The Early Visitor — Subhash",
+      "subtitle": "TS10 · 09:55 AM · ENTRY ONLY",
+      "lead": "Taniya & Soniya",
+      "characters": [
+        "Taniya",
+        "Soniya"
+      ],
+      "mentions": [
+        "Aditya",
+        "Soniya",
+        "Subhash",
+        "Diya Sen"
+      ],
+      "episode": "02",
+      "scene": "TS10-ENTRY",
+      "kind": "source-scene",
+      "state": "source-review",
+      "status": "Published source · approval review",
+      "source": "continuity-verbatim/episode-02/taniya.json",
+      "reader": {
+        "type": "sw-episode02",
+        "character": "taniya",
+        "scene": "TS10-ENTRY"
+      },
+      "flags": [],
+      "detail": null
+    },
+    {
+      "id": "e02-taniya-TS10-MAIN",
+      "date": "2026-01-01",
+      "sort": "09:55",
+      "start": "09:55",
+      "end": "10:06",
+      "timeLabel": "09:55–10:06 AM",
+      "universe": "sw",
+      "title": "Subhash's Visit — The Two-Set Mistake",
+      "subtitle": "TS10 · 09:55–10:06 AM · CONTINUATION",
+      "lead": "Taniya & Soniya",
+      "characters": [
+        "Taniya",
+        "Soniya"
+      ],
+      "mentions": [
+        "Aditya",
+        "Soniya",
+        "Rahul",
+        "Subhash",
+        "Mahendra Suri",
+        "Diya Sen",
+        "Taniya"
+      ],
+      "episode": "02",
+      "scene": "TS10-MAIN",
+      "kind": "source-scene",
+      "state": "source-review",
+      "status": "Published source · approval review",
+      "source": "continuity-verbatim/episode-02/taniya.json",
+      "reader": {
+        "type": "sw-episode02",
+        "character": "taniya",
+        "scene": "TS10-MAIN"
+      },
+      "flags": [],
+      "detail": null
+    },
+    {
+      "id": "e02-taniya-TS11",
+      "date": "2026-01-01",
+      "sort": "10:07",
+      "start": "10:07",
+      "end": "10:12",
+      "timeLabel": "10:07–10:12 AM",
+      "universe": "sw",
+      "title": "Chairman's Second Visit",
+      "subtitle": "TS11 · 10:07–10:12 AM · APPROVED",
+      "lead": "Taniya & Soniya",
+      "characters": [
+        "Taniya",
+        "Soniya"
+      ],
+      "mentions": [
+        "Soniya",
+        "Rahul",
+        "Mahendra Suri",
+        "Diya Sen"
+      ],
+      "episode": "02",
+      "scene": "TS11",
+      "kind": "source-scene",
+      "state": "approved-prose",
+      "status": "Approved prose",
+      "source": "continuity-verbatim/episode-02/taniya.json",
+      "reader": {
+        "type": "sw-episode02",
+        "character": "taniya",
+        "scene": "TS11"
+      },
+      "flags": [],
+      "detail": null
+    },
+    {
+      "id": "e02-ankita-P02",
+      "date": "2026-01-01",
+      "sort": "10:15",
+      "start": "10:15",
+      "end": "10:33",
+      "timeLabel": "10:15–10:33",
+      "universe": "sw",
+      "title": "P02 — The Chairman's Discovery",
+      "subtitle": "PARCEL P02 · 10:15–10:33",
+      "lead": "Ankita",
+      "characters": [
+        "Ankita"
+      ],
+      "mentions": [
+        "Om",
+        "Mahendra Suri",
+        "Diya Sen",
+        "Gopal",
+        "Ankita"
+      ],
+      "episode": "02",
+      "scene": "P02",
+      "kind": "source-scene",
+      "state": "source-review",
+      "status": "Published source · approval review",
+      "source": "continuity-verbatim/episode-02/ankita.json",
+      "reader": {
+        "type": "sw-episode02",
+        "character": "ankita",
+        "scene": "P02"
+      },
+      "flags": [],
+      "detail": null
+    },
+    {
+      "id": "e02-meenakshi-M07",
+      "date": "2026-01-01",
+      "sort": "10:20",
+      "start": "10:20",
+      "end": "10:45",
+      "timeLabel": "10:20–10:45",
+      "universe": "sw",
+      "title": "M07 — The Senior Consultation",
+      "subtitle": null,
+      "lead": "Meenakshi",
+      "characters": [
+        "Meenakshi"
+      ],
+      "mentions": [
+        "Avi",
+        "Dr. Ritesh Anand",
+        "Diya Sen",
+        "Meenakshi"
+      ],
+      "episode": "02",
+      "scene": "M07",
+      "kind": "source-scene",
+      "state": "source-review",
+      "status": "Published source · approval review",
+      "source": "continuity-verbatim/episode-02/meenakshi.json",
+      "reader": {
+        "type": "sw-episode02",
+        "character": "meenakshi",
+        "scene": "M07"
+      },
+      "flags": [],
+      "detail": null
+    },
+    {
+      "id": "e02-ankita-P03",
+      "date": "2026-01-01",
+      "sort": "10:37",
+      "start": "10:37",
+      "end": "10:50",
+      "timeLabel": "10:37–10:50",
+      "universe": "sw",
+      "title": "P03 — Om's Private Detour",
+      "subtitle": "PARCEL P03 · 10:37–10:50",
+      "lead": "Ankita",
+      "characters": [
+        "Ankita"
+      ],
+      "mentions": [
+        "Om",
+        "Mahendra Suri",
+        "Ankita"
+      ],
+      "episode": "02",
+      "scene": "P03",
+      "kind": "source-scene",
+      "state": "source-review",
+      "status": "Published source · approval review",
+      "source": "continuity-verbatim/episode-02/ankita.json",
+      "reader": {
+        "type": "sw-episode02",
+        "character": "ankita",
+        "scene": "P03"
+      },
+      "flags": [],
+      "detail": null
+    },
+    {
+      "id": "e02-shivani-B03",
+      "date": "2026-01-01",
+      "sort": "10:45",
+      "start": "10:45",
+      "end": "11:30",
+      "timeLabel": "10:45–11:30",
+      "universe": "sw",
+      "title": "B03 — Four-Way Faculty Room Banter",
+      "subtitle": "SHIVANI · B03 · 10:45–11:30",
+      "lead": "Shivani",
+      "characters": [
+        "Shivani"
+      ],
+      "mentions": [
+        "Diya Sen",
+        "Pooja",
+        "Kriti",
+        "Dr. Aarav Sethi",
+        "Shivani"
+      ],
+      "episode": "02",
+      "scene": "B03",
+      "kind": "source-scene",
+      "state": "approved-prose",
+      "status": "Approved prose",
+      "source": "continuity-verbatim/episode-02/shivani.json",
+      "reader": {
+        "type": "sw-episode02",
+        "character": "shivani",
+        "scene": "B03"
+      },
+      "flags": [],
+      "detail": null
+    },
+    {
+      "id": "e02-ankita-P04",
+      "date": "2026-01-01",
+      "sort": "10:51",
+      "start": "10:51",
+      "end": "11:05",
+      "timeLabel": "10:51–11:05",
+      "universe": "sw",
+      "title": "P04 — Subhash and the Unasked Question",
+      "subtitle": "PARCEL P04 · 10:51–11:05",
+      "lead": "Ankita",
+      "characters": [
+        "Ankita"
+      ],
+      "mentions": [
+        "Subhash",
+        "Diya Sen",
+        "Ankita"
+      ],
+      "episode": "02",
+      "scene": "P04",
+      "kind": "source-scene",
+      "state": "source-review",
+      "status": "Published source · approval review",
+      "source": "continuity-verbatim/episode-02/ankita.json",
+      "reader": {
+        "type": "sw-episode02",
+        "character": "ankita",
+        "scene": "P04"
+      },
+      "flags": [],
+      "detail": null
+    },
+    {
+      "id": "e02-ankita-P05",
+      "date": "2026-01-01",
+      "sort": "11:06",
+      "start": "11:06",
+      "end": "11:19",
+      "timeLabel": "11:06–11:19",
+      "universe": "sw",
+      "title": "P05 — Mohan Notices the Seal",
+      "subtitle": "PARCEL P05 · 11:06–11:19",
+      "lead": "Ankita",
+      "characters": [
+        "Ankita"
+      ],
+      "mentions": [
+        "Mohan",
+        "Ankita"
+      ],
+      "episode": "02",
+      "scene": "P05",
+      "kind": "source-scene",
+      "state": "source-review",
+      "status": "Published source · approval review",
+      "source": "continuity-verbatim/episode-02/ankita.json",
+      "reader": {
+        "type": "sw-episode02",
+        "character": "ankita",
+        "scene": "P05"
+      },
+      "flags": [],
+      "detail": null
+    },
+    {
+      "id": "e02-ankita-P06",
+      "date": "2026-01-01",
+      "sort": "11:20",
+      "start": "11:20",
+      "end": "11:35",
+      "timeLabel": "11:20–11:35",
+      "universe": "sw",
+      "title": "P06 — The Last Unseen Removal",
+      "subtitle": "PARCEL P06 · 11:20–11:35",
+      "lead": "Ankita",
+      "characters": [
+        "Ankita"
+      ],
+      "mentions": [
+        "Arvind",
+        "Ankita"
+      ],
+      "episode": "02",
+      "scene": "P06",
+      "kind": "source-scene",
+      "state": "source-review",
+      "status": "Published source · approval review",
+      "source": "continuity-verbatim/episode-02/ankita.json",
+      "reader": {
+        "type": "sw-episode02",
+        "character": "ankita",
+        "scene": "P06"
+      },
+      "flags": [],
+      "detail": null
+    },
+    {
+      "id": "e02-ankita-P07",
+      "date": "2026-01-01",
+      "sort": "12:03",
+      "start": "12:03",
+      "end": "12:26",
+      "timeLabel": "12:03–12:26",
+      "universe": "sw",
+      "title": "P07 — Rajeev Receives the Remainder",
+      "subtitle": "PARCEL P07 · 12:03–12:26",
+      "lead": "Ankita",
+      "characters": [
+        "Ankita"
+      ],
+      "mentions": [
+        "Rajeev",
+        "Mahendra Suri",
+        "Diya Sen",
+        "Ankita"
+      ],
+      "episode": "02",
+      "scene": "P07",
+      "kind": "source-scene",
+      "state": "source-review",
+      "status": "Published source · approval review",
+      "source": "continuity-verbatim/episode-02/ankita.json",
+      "reader": {
+        "type": "sw-episode02",
+        "character": "ankita",
+        "scene": "P07"
+      },
+      "flags": [],
+      "detail": null
+    },
+    {
+      "id": "e02-meenakshi-M09-plan",
+      "date": "2026-01-01",
+      "sort": "12:20",
+      "start": "12:20",
+      "end": "12:35",
+      "timeLabel": "12:20–12:35",
+      "universe": "sw",
+      "title": "Ritesh's unauthorized locker access",
+      "lead": "Meenakshi",
+      "characters": [
+        "ritesh"
+      ],
+      "mentions": [],
+      "episode": "02",
+      "scene": "M09",
+      "kind": "planned",
+      "state": "no-prose",
+      "status": "Working plot · full prose not published",
+      "source": "episode-02-meenakshi-plan.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "meenakshi",
+        "scene": "M09"
+      },
+      "flags": [
+        "Missing published prose"
+      ],
+      "detail": "Ritesh enters Meenakshi's locker using an unauthorized duplicate key."
+    },
+    {
+      "id": "e02-ankita-P08",
+      "date": "2026-01-01",
+      "sort": "12:30",
+      "start": "12:30",
+      "end": "12:50",
+      "timeLabel": "12:30–12:50",
+      "universe": "sw",
+      "title": "P08 — Six Men, Six Different Secrets",
+      "subtitle": "PARCEL P08 · 12:30–12:50",
+      "lead": "Ankita",
+      "characters": [
+        "Ankita"
+      ],
+      "mentions": [
+        "Kabir",
+        "Rajeev",
+        "Om",
+        "Subhash",
+        "Mohan",
+        "Arvind",
+        "Mahendra Suri",
+        "Gopal",
+        "Ankita"
+      ],
+      "episode": "02",
+      "scene": "P08",
+      "kind": "source-scene",
+      "state": "source-review",
+      "status": "Published source · approval review",
+      "source": "continuity-verbatim/episode-02/ankita.json",
+      "reader": {
+        "type": "sw-episode02",
+        "character": "ankita",
+        "scene": "P08"
+      },
+      "flags": [],
+      "detail": null
+    },
+    {
+      "id": "e02-meenakshi-M10",
+      "date": "2026-01-01",
+      "sort": "12:36",
+      "start": "12:36",
+      "end": "12:50",
+      "timeLabel": "12:36–12:50",
+      "universe": "sw",
+      "title": "M10 — Kunal Finds the Locker Open",
+      "subtitle": null,
+      "lead": "Meenakshi",
+      "characters": [
+        "Meenakshi"
+      ],
+      "mentions": [
+        "Dr. Kunal Bedi",
+        "Diya Sen",
+        "Mrs. Bedi",
+        "Meenakshi"
+      ],
+      "episode": "02",
+      "scene": "M10",
+      "kind": "source-scene",
+      "state": "source-review",
+      "status": "Published source · approval review",
+      "source": "continuity-verbatim/episode-02/meenakshi.json",
+      "reader": {
+        "type": "sw-episode02",
+        "character": "meenakshi",
+        "scene": "M10"
+      },
+      "flags": [],
+      "detail": null
+    },
+    {
+      "id": "e02-meenakshi-M11",
+      "date": "2026-01-01",
+      "sort": "12:51",
+      "start": "12:51",
+      "end": "13:05",
+      "timeLabel": "12:51–13:05",
+      "universe": "sw",
+      "title": "M11 — Khurana Closes the Locker",
+      "subtitle": null,
+      "lead": "Meenakshi",
+      "characters": [
+        "Meenakshi"
+      ],
+      "mentions": [
+        "Dr. Ritesh Anand",
+        "Dr. Kunal Bedi",
+        "Dr. S. P. Khurana",
+        "Diya Sen",
+        "Meenakshi"
+      ],
+      "episode": "02",
+      "scene": "M11",
+      "kind": "source-scene",
+      "state": "source-review",
+      "status": "Published source · approval review",
+      "source": "continuity-verbatim/episode-02/meenakshi.json",
+      "reader": {
+        "type": "sw-episode02",
+        "character": "meenakshi",
+        "scene": "M11"
+      },
+      "flags": [],
+      "detail": null
+    },
+    {
+      "id": "e02-shivani-C01",
+      "date": "2026-01-01",
+      "sort": "12:58",
+      "start": "12:58",
+      "end": "13:02",
+      "timeLabel": "12:58–13:02",
+      "universe": "sw",
+      "title": "C01 — The Setup",
+      "subtitle": "SHIVANI · C01 · 12:58–13:02",
+      "lead": "Shivani",
+      "characters": [
+        "Shivani"
+      ],
+      "mentions": [
+        "Sunny",
+        "Diya Sen",
+        "Shivani"
+      ],
+      "episode": "02",
+      "scene": "C01",
+      "kind": "source-scene",
+      "state": "source-review",
+      "status": "Published source · approval review",
+      "source": "continuity-verbatim/episode-02/shivani.json",
+      "reader": {
+        "type": "sw-episode02",
+        "character": "shivani",
+        "scene": "C01"
+      },
+      "flags": [],
+      "detail": null
+    },
+    {
+      "id": "e02-shivani-C02",
+      "date": "2026-01-01",
+      "sort": "13:00",
+      "start": "13:00",
+      "end": null,
+      "timeLabel": "13:00",
+      "universe": "sw",
+      "title": "C02 — The Empty Moment",
+      "subtitle": "SHIVANI · C02 · After 13:00",
+      "lead": "Shivani",
+      "characters": [
+        "Shivani"
+      ],
+      "mentions": [
+        "Sunny",
+        "Dheeraj",
+        "Trustee Malhotra",
+        "Dr. Aarav Sethi",
+        "Shivani"
+      ],
+      "episode": "02",
+      "scene": "C02",
+      "kind": "source-scene",
+      "state": "source-review",
+      "status": "Published source · approval review",
+      "source": "continuity-verbatim/episode-02/shivani.json",
+      "reader": {
+        "type": "sw-episode02",
+        "character": "shivani",
+        "scene": "C02"
+      },
+      "flags": [],
+      "detail": null
+    },
+    {
+      "id": "e02-shivani-C03",
+      "date": "2026-01-01",
+      "sort": "13:05",
+      "start": "13:05",
+      "end": "13:08",
+      "timeLabel": "13:05–13:08",
+      "universe": "sw",
+      "title": "C03 — The Photograph on the Big Screen",
+      "subtitle": "SHIVANI · C03 · 13:05–13:08",
+      "lead": "Shivani",
+      "characters": [
+        "Shivani"
+      ],
+      "mentions": [
+        "Rohan",
+        "Dheeraj",
+        "Diya Sen",
+        "Dr. Aarav Sethi",
+        "Shivani"
+      ],
+      "episode": "02",
+      "scene": "C03",
+      "kind": "source-scene",
+      "state": "source-review",
+      "status": "Published source · approval review",
+      "source": "continuity-verbatim/episode-02/shivani.json",
+      "reader": {
+        "type": "sw-episode02",
+        "character": "shivani",
+        "scene": "C03"
+      },
+      "flags": [],
+      "detail": null
+    },
+    {
+      "id": "e02-shivani-C04",
+      "date": "2026-01-01",
+      "sort": "13:08",
+      "start": "13:08",
+      "end": "13:12",
+      "timeLabel": "13:08–13:12",
+      "universe": "sw",
+      "title": "C04 — Three Separate Secrets",
+      "subtitle": "SHIVANI · C04 · 13:08–13:12",
+      "lead": "Shivani",
+      "characters": [
+        "Shivani"
+      ],
+      "mentions": [
+        "Sunny",
+        "Dheeraj",
+        "Dr. Aarav Sethi",
+        "Shivani"
+      ],
+      "episode": "02",
+      "scene": "C04",
+      "kind": "source-scene",
+      "state": "source-review",
+      "status": "Published source · approval review",
+      "source": "continuity-verbatim/episode-02/shivani.json",
+      "reader": {
+        "type": "sw-episode02",
+        "character": "shivani",
+        "scene": "C04"
+      },
+      "flags": [],
+      "detail": null
+    },
+    {
+      "id": "e02-meenakshi-M12",
+      "date": "2026-01-01",
+      "sort": "13:10",
+      "start": "13:10",
+      "end": "13:15",
+      "timeLabel": "13:10–13:15",
+      "universe": "sw",
+      "title": "M12 — Unease at the Locker",
+      "subtitle": null,
+      "lead": "Meenakshi",
+      "characters": [
+        "Meenakshi"
+      ],
+      "mentions": [
+        "Diya Sen",
+        "Harish Pal",
+        "Sunil Yadav",
+        "Meenakshi"
+      ],
+      "episode": "02",
+      "scene": "M12",
+      "kind": "source-scene",
+      "state": "source-review",
+      "status": "Published source · approval review",
+      "source": "continuity-verbatim/episode-02/meenakshi.json",
+      "reader": {
+        "type": "sw-episode02",
+        "character": "meenakshi",
+        "scene": "M12"
+      },
+      "flags": [
+        "Locker concern unresolved"
+      ],
+      "detail": null
+    },
+    {
+      "id": "e02-shivani-C05",
+      "date": "2026-01-01",
+      "sort": "13:12",
+      "start": "13:12",
+      "end": "13:20",
+      "timeLabel": "13:12–13:20",
+      "universe": "sw",
+      "title": "C05 — The Unaware Return",
+      "subtitle": "SHIVANI · C05 · 13:12–13:20",
+      "lead": "Shivani",
+      "characters": [
+        "Shivani"
+      ],
+      "mentions": [
+        "Sunny",
+        "Shivani"
+      ],
+      "episode": "02",
+      "scene": "C05",
+      "kind": "source-scene",
+      "state": "source-review",
+      "status": "Published source · approval review",
+      "source": "continuity-verbatim/episode-02/shivani.json",
+      "reader": {
+        "type": "sw-episode02",
+        "character": "shivani",
+        "scene": "C05"
+      },
+      "flags": [],
+      "detail": null
+    },
+    {
+      "id": "e02-shivani-D01",
+      "date": "2026-01-01",
+      "sort": "13:20",
+      "start": "13:20",
+      "end": "13:30",
+      "timeLabel": "13:20–13:30",
+      "universe": "sw",
+      "title": "D01 — POV Cutoff — An Unshared Secret",
+      "subtitle": "SHIVANI · D01 · 13:20–13:30",
+      "lead": "Shivani",
+      "characters": [
+        "Shivani"
+      ],
+      "mentions": [
+        "Rohan",
+        "Sunny",
+        "Dheeraj",
+        "Dr. Aarav Sethi",
+        "Shivani"
+      ],
+      "episode": "02",
+      "scene": "D01",
+      "kind": "source-scene",
+      "state": "source-review",
+      "status": "Published source · approval review",
+      "source": "continuity-verbatim/episode-02/shivani.json",
+      "reader": {
+        "type": "sw-episode02",
+        "character": "shivani",
+        "scene": "D01"
+      },
+      "flags": [],
+      "detail": null
+    },
+    {
+      "id": "e03-meenakshi-01",
+      "date": "2026-01-01",
+      "sort": "13:50",
+      "start": "13:50",
+      "end": "14:15",
+      "timeLabel": "13:50–14:15",
+      "universe": "sw",
+      "title": "The Glance at the Corridor",
+      "subtitle": "Naveen handoff",
+      "lead": "Meenakshi",
+      "characters": [
+        "meenakshi",
+        "naveen"
+      ],
+      "mentions": [],
+      "episode": "03",
+      "scene": "01",
+      "kind": "planned",
+      "state": "plot",
+      "status": "Plot outline · prose pending",
+      "source": "episode-03-meenakshi-scene-01.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "meenakshi",
+        "scene": "01"
+      },
+      "flags": [],
+      "detail": "",
+      "beats": [
+        {
+          "id": "N01",
+          "title": "She isn't quite herself",
+          "at": "13:50–13:54",
+          "body": "Naveen arrives with ordinary administrative papers. Meenakshi answers more briefly than usual.",
+          "internal": "She remains uneasy after the locker discovery; Naveen notices her subdued expression without pressing her."
+        },
+        {
+          "id": "N02",
+          "title": "An unexpected laugh",
+          "at": "13:54–13:59",
+          "body": "A familiar work-related exchange turns lightly teasing. Naveen gives an unexpectedly clever reply; Meenakshi genuinely laughs.",
+          "internal": "She gets a moment of relief; he privately appreciates the smile but does not presume romance."
+        },
+        {
+          "id": "N03",
+          "title": "Normal tasks, separate spaces",
+          "at": "13:59–14:08",
+          "body": "They part for normal duties. Naveen collects another handover copy. Meenakshi briefly visits the staff changing area, removes her white coat and adjusts her existing plum kurta and grey cardigan.",
+          "internal": "Her earlier locker concern remains unresolved. This is a mid-shift break, not her departure from the hospital."
+        },
+        {
+          "id": "N04",
+          "title": "The unexpected glance — cut",
+          "at": "14:08–14:15",
+          "body": "As Meenakshi gathers her bag, its strap catches her cardigan and briefly shifts the neckline enough to reveal an edge of inner clothing. Naveen reaches the corridor with the handover copy, notices, looks away; Meenakshi catches his glance and adjusts her outfit.",
+          "internal": "She feels briefly self-conscious while already uneasy about privacy; Naveen is surprised and deliberately avoids prolonged looking. No romantic or physical consent inferred."
+        }
+      ]
+    },
+    {
+      "id": "e04-meenakshi-naveen-handoff",
+      "date": "2026-01-01",
+      "sort": "14:15",
+      "start": "14:15",
+      "end": null,
+      "timeLabel": "14:15 · handoff only",
+      "universe": "sw",
+      "title": "Naveen continuation — reserved Episode 04",
+      "lead": "Meenakshi",
+      "characters": [
+        "Meenakshi",
+        "Naveen"
+      ],
+      "mentions": [],
+      "episode": "04",
+      "scene": "handoff",
+      "kind": "reserved",
+      "state": "no-prose",
+      "status": "Unwritten handoff",
+      "source": "episode-04-meenakshi-cutpoint.html",
+      "reader": {
+        "type": "sw-plan",
+        "character": "meenakshi",
+        "scene": "01"
+      },
+      "flags": [
+        "Episode 04 continues from Episode 03 Scene 01, not from evening Scene 04"
+      ],
+      "detail": "The continuation from the 14:15 Naveen cut is not written. This is a reminder, not a source encounter."
+    },
+    {
+      "id": "e03-meenakshi-02",
+      "date": "2026-01-01",
+      "sort": "17:00",
+      "start": "17:00",
+      "end": null,
+      "timeLabel": "17:00 · provisional",
+      "universe": "sw",
+      "title": "The Farmhouse Evening — Four Adults, Shifting Attention",
+      "subtitle": "Farmhouse end/travel not locked",
+      "lead": "Meenakshi",
+      "characters": [
+        "Meenakshi"
+      ],
+      "mentions": [],
+      "episode": "03",
+      "scene": "02",
+      "kind": "planned",
+      "state": "plot",
+      "status": "Plot outline · prose pending",
+      "source": "episode-03-meenakshi-scene-02.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "meenakshi",
+        "scene": "02"
+      },
+      "flags": [
+        "Farmhouse return time unresolved",
+        "Farmhouse → badminton 18:15 requires reconciliation"
+      ],
+      "detail": "EP03 Scene 01 Naveen × Meenakshi ends at 14:15 and is continued in EP04 from 14:15; exact EP04 emotional consequences remain unwritten. Do not assume only locker incident drives 17:00 emotional state. Approved earlier: Aditi leads bold banter; Avi and Yash flirt with both women; mutual teasing is one step bolder than EP02 but not fixed pairings. This is a 17:00 start only, not a claim farmhouse plus return fits 17:00–17:45. End time intentionally open.",
+      "beats": [
+        {
+          "id": "F01",
+          "title": "Two women, two men",
+          "at": null,
+          "body": "The four leave together; Aditi leads bolder-than-EP02 double-meaning flirting, and Avi/Yash each tease both women. Meenakshi participates rather than just watching.",
+          "internal": ""
+        },
+        {
+          "id": "F02",
+          "title": "Meenakshi offers the ride",
+          "at": null,
+          "body": "She suggests using her own car and drives the group to the farmhouse; teasing continues en route.",
+          "internal": ""
+        },
+        {
+          "id": "F03",
+          "title": "One-glass challenge",
+          "at": null,
+          "body": "Meenakshi first refuses alcohol, then freely agrees to one glass of wine after light group encouragement. Other three drink more moderately. Her one glass is taken at the start, but does not justify driving later.",
+          "internal": ""
+        },
+        {
+          "id": "F04",
+          "title": "Aditi sets the temperature",
+          "at": null,
+          "body": "Aditi confidently flirts with both men and dances first. All three watch and appreciate her look; Avi's interest and the mutual teasing become more openly apparent.",
+          "internal": ""
+        },
+        {
+          "id": "F05",
+          "title": "Avi–Aditi chemistry",
+          "at": null,
+          "body": "Avi joins for a close dance; hand movements, held hands, near faces, and back-to-chest positions remain consensual, with no kissing.",
+          "internal": ""
+        },
+        {
+          "id": "F06",
+          "title": "Yash joins",
+          "at": null,
+          "body": "Aditi, Avi, Yash dance together with friendly close movement and playful responses; Aditi remains an active lead.",
+          "internal": ""
+        },
+        {
+          "id": "F07",
+          "title": "Meenakshi joins later",
+          "at": null,
+          "body": "The group invites her and she chooses to dance. Avi notices the fitted kurta and her peach-rounded hip curve as she crosses the floor; Yash notices her hourglass waist, steps and changes of expression. Their distinct private glances are visual observations, not permission; Aditi also notices the change in the group's attention.",
+          "internal": ""
+        },
+        {
+          "id": "F08",
+          "title": "Crossed attention",
+          "at": null,
+          "body": "Bold double-meaning remarks from all four and shifting attention toward both women. Meenakshi's outward humour and inward surprise/attraction are distinguished; any exact Naveen memory depends on unwritten EP04.",
+          "internal": ""
+        },
+        {
+          "id": "F09",
+          "title": "Aditi's dress and boundaries",
+          "at": null,
+          "body": "Aditi gets styling compliments. A mischievous attempted glance beneath the mini-dress does not reveal anything; this is framed as a private boundary crossing, not as invitation or consensual exposure.",
+          "internal": ""
+        },
+        {
+          "id": "F10",
+          "title": "Aditi's suggestion",
+          "at": null,
+          "body": "She initiates multiple group and pair photographs with smiles, hand-in-hand positions and close poses. Images are private, no publication/posting presumed.",
+          "internal": ""
+        },
+        {
+          "id": "F11",
+          "title": "Waist-contact trust",
+          "at": null,
+          "body": "Avi/Aditi close poses and Yash/Meenakshi photo. Yash explicitly asks before placing his hand at Meenakshi's waist. She allows the photo pose; that permission is limited to it.",
+          "internal": ""
+        },
+        {
+          "id": "F12",
+          "title": "Avi's jealousy",
+          "at": null,
+          "body": "Avi notices Yash getting unusually comfortable with Meenakshi, privately feels jealousy. Aditi detects Avi's shift despite their earlier flirtation.",
+          "internal": ""
+        },
+        {
+          "id": "F13",
+          "title": "Meenakshi and Yash",
+          "at": null,
+          "body": "Their talk remains personal and flirtatious, not converted into generic concern about the locker. Meenakshi's emotional continuity must incorporate the unwritten post-14:15 Naveen scene.",
+          "internal": ""
+        },
+        {
+          "id": "F14",
+          "title": "Aditi must leave",
+          "at": null,
+          "body": "Aditi has another engagement and arranges a separate cab; Avi and Yash request a drop from Meenakshi, and she agrees.",
+          "internal": ""
+        },
+        {
+          "id": "F15",
+          "title": "Who sits next to Meenakshi?",
+          "at": null,
+          "body": "With a sober driver at the wheel, the only rear seat beside Meenakshi becomes contested. Yash takes it before Avi; Avi takes the front passenger seat. Meenakshi and Aditi see the rivalry and laugh, then Aditi leaves.",
+          "internal": ""
+        },
+        {
+          "id": "F16",
+          "title": "Unspoken looks",
+          "at": null,
+          "body": "Avi catches the peach-round silhouette of Meenakshi's hips as she changes seat position; Yash separately notices the gentle hourglass line of her waist and how she adjusts her plum kurta. These are distinct, private adult-admiration metaphors; each man exchanges a teasing glance, and Meenakshi does not know exactly what was noticed.",
+          "internal": ""
+        },
+        {
+          "id": "F17",
+          "title": "Fitness-flirt challenge",
+          "at": null,
+          "body": "A playful abs/fitness conversation becomes a voluntary challenge. Meenakshi explicitly offers limited clothed abdomen contact, individually for Avi and Yash; she assumes the contact stays over clothing.",
+          "internal": ""
+        },
+        {
+          "id": "F18",
+          "title": "Avi's turn",
+          "at": null,
+          "body": "Brief, roughly 30-second clothed abdomen-contact beat; playful conversation, with Meenakshi setting the scope.",
+          "internal": ""
+        },
+        {
+          "id": "F19",
+          "title": "Yash's unexpected direct contact",
+          "at": null,
+          "body": "A shift of Meenakshi's seat posture while retrieving her phone lifts the edge of the plum kurta. Yash's fingers accidentally slip just under the edge toward her abdomen, differing from her assumption of over-clothing contact. She is briefly surprised and tense; he pauses and checks her comfort. She consciously agrees to continued direct abdomen contact for up to about one minute. Her reaction is private and conflicted; do not portray her silence as consent or turn the outline into explicit prose.",
+          "internal": ""
+        },
+        {
+          "id": "F20",
+          "title": "Quiet aftermath",
+          "at": null,
+          "body": "The encounter ends; they adjust posture and say little. No escalation or kiss. The car resumes toward the drop-off.",
+          "internal": ""
+        },
+        {
+          "id": "F21",
+          "title": "Avi jokingly kicks Yash",
+          "at": null,
+          "body": "Both men exit. Avi mock-jealously gives Yash a light, playful kick for the seating/attention rivalry; Yash jokes back. Meenakshi sees them from the car and smiles shyly.",
+          "internal": ""
+        },
+        {
+          "id": "F22",
+          "title": "Three memories — not home yet",
+          "at": null,
+          "body": "Meenakshi continues toward home with the sober driver. Her mind moves among Naveen's unresolved afternoon continuation, Avi's open flirtation/jealousy, Yash's closer personal encounter, and her awareness of the wine. Stop before home arrival.",
+          "internal": ""
+        }
+      ]
+    },
+    {
+      "id": "e03-meenakshi-03",
+      "date": "2026-01-01",
+      "sort": "18:15",
+      "start": "18:15",
+      "end": null,
+      "timeLabel": "18:15 · provisional",
+      "universe": "sw",
+      "title": "The Badminton Bet",
+      "subtitle": "Badminton/travel provisional",
+      "lead": "Meenakshi",
+      "characters": [
+        "Meenakshi"
+      ],
+      "mentions": [],
+      "episode": "03",
+      "scene": "03",
+      "kind": "planned",
+      "state": "review",
+      "status": "Timing/scene under review",
+      "source": "episode-03-meenakshi-scene-03-twins.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "meenakshi",
+        "scene": "03"
+      },
+      "flags": [
+        "Badminton 18:15 provisional",
+        "Vehicle transfer and court arrival unresolved"
+      ],
+      "detail": "",
+      "beats": [
+        {
+          "id": "T01",
+          "title": "A familiar court, a different evening",
+          "at": "18:15–18:17",
+          "body": "Meenakshi reaches the court walkway after the sober-driven return, before entering home. Uday and Utkarsh have finished a short rally and recognize her. Both notice the relaxed evening appearance; the woman they teased at 07:45 is now smiling at them deliberately.",
+          "internal": "Meenakshi senses their interest without needing a verbal explanation. Morning's attention is familiar, evening's self-awareness stronger."
+        },
+        {
+          "id": "T02",
+          "title": "Morning fashion report becomes evening challenge",
+          "at": "18:17–18:19",
+          "body": "Uday references his morning fashion-report joke and comments on her off-duty look. Utkarsh adds an unexpectedly sharp double meaning. Meenakshi answers with a playful medical/fitness quip and openly notices the men's athletic post-game appearance.",
+          "internal": "A mild wine glow makes her laugh more easily, but her choices are conscious."
+        },
+        {
+          "id": "T03",
+          "title": "She asks to try badminton",
+          "at": "18:19–18:21",
+          "body": "Meenakshi asks how long the twins have been practicing. They explain their recurring evening routine (new proposal). She requests a racket and initiates a short challenge; no full game in unsuitable clothes.",
+          "internal": "She likes that she is the one asking to spend another few minutes with them."
+        },
+        {
+          "id": "T04",
+          "title": "Uday: intentional waist guidance",
+          "at": "18:21–18:24",
+          "body": "Uday demonstrates side-on stance and asks if he may guide her position. She agrees. Standing close, he places a hand at her clothed side-waist, with his other hand adjusting her racket arm. He holds the stance for a few deliberate seconds—more personal than incidental brushing. She notices and answers his teasing with a steady smile.",
+          "internal": "Meenakshi feels a brief flush and slight self-consciousness, then makes a deliberate choice to finish the demonstration. No unasked extra contact."
+        },
+        {
+          "id": "T05",
+          "title": "Utkarsh: her invitation changes the balance",
+          "at": "18:24–18:27",
+          "body": "Utkarsh jokes that Uday's stance is all show and no balance. Meenakshi challenges him to demonstrate. At her invitation he stands near her side and, after she confirms, rests his hand briefly across her clothed side abdomen/core to show the posture difference, then withdraws when the demonstration ends. Contact is deliberate and individually agreed, not a repeat of the car abs game.",
+          "internal": "She appreciates Utkarsh's unusual confidence; his less obvious flirtation makes her hesitate a moment before her comeback."
+        },
+        {
+          "id": "T06",
+          "title": "The two brothers notice the difference",
+          "at": "18:27–18:29",
+          "body": "Uday mock-complains that Meenakshi gave Utkarsh the longer chance to teach. Utkarsh offers a calm, witty response. Meenakshi deliberately keeps the rivalry playful, instead of explaining her feelings.",
+          "internal": "The brothers' private motives are distinct: Uday jealous of attention, Utkarsh pleased by her invitation; Meenakshi understands the banter has a personal undercurrent."
+        }
+      ]
+    },
+    {
+      "id": "e03-meenakshi-04",
+      "date": "2026-01-01",
+      "sort": "18:45",
+      "start": "18:45",
+      "end": "19:00",
+      "timeLabel": "18:45–19:00 · provisional",
+      "universe": "sw",
+      "title": "The First Different Look — Babloo",
+      "subtitle": "Babloo first interaction, planning only",
+      "lead": "Meenakshi",
+      "characters": [
+        "Meenakshi"
+      ],
+      "mentions": [],
+      "episode": "03",
+      "scene": "04",
+      "kind": "planned",
+      "state": "approved-plot",
+      "status": "Approved plot · prose pending",
+      "source": "episode-03-meenakshi-scene-04-babloo-intro.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "meenakshi",
+        "scene": "04"
+      },
+      "flags": [
+        "18:45–19:00 target provisional",
+        "Superseded doorbell-only draft archived"
+      ],
+      "detail": "Two-paragraph established helper history followed by first direct personal encounter at Tower C after badminton; five approved plot beats, with first appreciative glance and teasing compliment, car breakdown connection, and tomorrow's help offer.",
+      "beats": [
+        {
+          "id": "B01",
+          "title": "Unexpected meeting",
+          "at": null,
+          "body": "At around 6:45 PM the twins have just dropped Meenakshi after badminton. Babloo is arranging pharmacy parcels near Tower C. He catches the boys’ playful goodbye but is not involved in it.",
+          "internal": "The reader already knows Babloo as a society pharmacy helper; this is the first proper personal conversation with Meenakshi."
+        },
+        {
+          "id": "B02",
+          "title": "First different look",
+          "at": null,
+          "body": "Babloo notices Meenakshi's loose hair, plum kurta’s hourglass silhouette, cheerful expression and softer-than-usual smile. His appreciative gaze holds for a moment and Meenakshi notices.",
+          "internal": "This differs from how he normally sees her at work; no hidden exposure or unwanted physical contact."
+        },
+        {
+          "id": "B03",
+          "title": "Flirtation",
+          "at": null,
+          "body": "Meenakshi starts with a teasing question. Babloo responds with an unexpectedly confident compliment; she smiles and continues the playful exchange.",
+          "internal": "First clearly personal compliment; Meenakshi responds knowingly and playfully."
+        },
+        {
+          "id": "B04",
+          "title": "Concern beyond appearance",
+          "at": null,
+          "body": "Babloo notices that Meenakshi's own car has not returned. She explains the car stopped working near the badminton court. He genuinely offers to help check or recover it tomorrow.",
+          "internal": "His concern goes beyond her appearance and gives their next interaction a distinct practical purpose."
+        },
+        {
+          "id": "B05",
+          "title": "Closing hook",
+          "at": null,
+          "body": "Meenakshi agrees to Babloo's help with her car the following day. They part by the lift. She recalls his unusual confidence as she walks away, and Babloo remembers her positive response to his compliment.",
+          "internal": "EP03 Meenakshi viewpoint ends here; Episode 04 car-recovery scene is a potential next encounter, not already written."
+        }
+      ]
+    }
+  ]
+}
