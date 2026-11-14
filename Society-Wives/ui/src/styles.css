@@ -11,3 +11,14 @@ h1,h2,h3{font-family:Georgia,"Times New Roman",serif;letter-spacing:-.025em}h1{f
 @media(max-width:430px){.gallery-grid{columns:1 250px}.hero{padding:30px 20px}.novel-scene{padding:23px 18px}.perspective-tabs a{padding:8px 10px}.metadata-grid{grid-template-columns:1fr}}
 
 .profile-top{display:flex;justify-content:space-between;align-items:start;gap:18px;margin-bottom:12px}.profile-portrait{width:120px;max-height:150px;object-fit:cover;border-radius:10px;border:1px solid #e8d8df;display:block}.profile-visual-link{font-size:11px;font-weight:750;display:inline-block;margin:6px 0}.profile-top h2{margin-bottom:2px}
+
+/* Mobile audit: make all five destinations visible, and prevent scene ID chip collisions. */
+@media(max-width:700px){
+ .main-nav{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:4px;overflow:visible;flex-wrap:wrap}
+ .main-nav a{min-width:0;text-align:center;white-space:normal;line-height:1.25;padding:9px 5px;font-size:11px}
+ .scene-sidebar{display:flex;flex-wrap:nowrap;gap:7px;overflow-x:auto;overflow-y:hidden;max-height:none;scroll-snap-type:x proximity;scrollbar-width:thin;padding:10px}
+ .scene-sidebar .aside-title{display:none}
+ .scene-link{flex:0 0 160px;width:160px;min-width:0;border:1px solid #e5d9de;scroll-snap-align:start;gap:8px;padding:9px 11px;white-space:nowrap}
+ .scene-link span:first-child{overflow:hidden;text-overflow:ellipsis;font-size:11px}
+ .scene-link .mini-dot{flex:0 0 7px}
+}
