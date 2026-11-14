@@ -25,6 +25,7 @@ export default function Planning({lead}:{lead:string}){
  const {data:current,error:currentError}=useData<Plan>('episode-03-meenakshi-scene-01.json');
  const {data:farmhouse,error:farmhouseError}=useData<Plan>('episode-03-meenakshi-scene-02.json');
  const {data:twins,error:twinsError}=useData<Plan>('episode-03-meenakshi-scene-03-twins.json');
+ const {data:bablooIntro,error:bablooIntroError}=useData<Plan>('episode-03-meenakshi-scene-04-babloo-intro.json');
  const {data:meenaFuture}=useData<Plan>('episode-03-meenakshi-plan.json');
  const {data:ankitaFuture}=useData<Plan>('episode-03-ankita-pending.json');
  const {data:shreyaFuture}=useData<Plan>('episode-03-shreya-plan.json');
@@ -33,10 +34,11 @@ export default function Planning({lead}:{lead:string}){
   ...getEvents('episode-03-meenakshi-scene-01.json',current,'Meenakshi'),
   ...(farmhouse?[{id:'EP03–02',date:str(farmhouse.date),start:str(farmhouse.start),end:'',title:str(farmhouse.title),lead:'Meenakshi',location:'Farmhouse outing · Gurgaon',characters:['meenakshi','aditi','avi','yash'],status:str(farmhouse.status),source:'episode-03-meenakshi-scene-02.json',notes:'Starts 17:00; travel and return time not fixed'}]:[]),
   ...(twins?[{id:'EP03–03',date:str(twins.date),start:str(twins.start),end:'',title:str(twins.title),lead:'Meenakshi',location:'Badminton court · approximately 5-minute ride from society',characters:['meenakshi','uday','utkarsh'],status:str(twins.status),source:'episode-03-meenakshi-scene-03-twins.json',notes:'18:15 court and 18:45 return are provisional; farmhouse transit must be reconciled'}]:[]),
+  ...(bablooIntro?[{id:'EP03–04',date:str(bablooIntro.date),start:'18:45',end:'',title:str(bablooIntro.title),lead:'Meenakshi',location:'Meenakshi residence · society',characters:['meenakshi','babloo'],status:str(bablooIntro.status),source:'episode-03-meenakshi-scene-04-babloo-intro.json',notes:'After badminton and return · time provisional · doorbell cut only, no encounter'}]:[]),
   ...getEvents('episode-03-meenakshi-plan.json',meenaFuture,'Meenakshi'),
   ...getEvents('episode-03-ankita-pending.json',ankitaFuture,'Ankita'),
   ...getEvents('episode-03-shreya-plan.json',shreyaFuture,'Shreya')
- ],[current,farmhouse,twins,meenaFuture,ankitaFuture,shreyaFuture]);
+ ],[current,farmhouse,twins,bablooIntro,meenaFuture,ankitaFuture,shreyaFuture]);
  const dated=events.filter(x=>date==='all'||x.date===date).sort((a,b)=>a.date.localeCompare(b.date)||a.start.localeCompare(b.start));
  const issues=useMemo(()=>overlaps(events),[events]);
  const leadPlans=[{lead:'ankita',file:'episode-03-ankita-pending.json',plan:ankitaFuture},{lead:'shivani',file:'',plan:null},{lead:'taniya',file:'',plan:null},{lead:'meenakshi',file:'episode-03-meenakshi-plan.json',plan:meenaFuture},{lead:'shreya',file:'episode-03-shreya-plan.json',plan:shreyaFuture}];
@@ -49,7 +51,7 @@ export default function Planning({lead}:{lead:string}){
   <div className="reading-heading"><div><span className="eyebrow">Choose a storyline</span><h2>What happens next?</h2></div></div>
   <div className="perspective-tabs" role="group" aria-label="Choose planning character">{leadOrder.map(w=><button type="button" aria-pressed={w===active} onClick={()=>openPage('planning',{lead:w})} className={w===active?'selected':''} key={w}>{titleCase(w)}</button>)}</div>
   {active==='meenakshi'&&<section className="continuity-cards"><article><span className="eyebrow">EP 03 · Canonical outline</span><h2>Meenakshi × Naveen</h2><p>1 January 2026 · Hospital · 13:50–14:15</p><p>Meenakshi's hospital shift continues in four short beats.</p><strong>Scene ends at 14:15 · No goodbye</strong>{current?.beats&&<div className="beat-list">{current.beats.map((b,i)=><div className="beat-item" key={b.id||i}><span className="eyebrow">{b.time||'Time pending'}</span><h3>{b.title}</h3>{b.external&&<p>{b.external}</p>}{b.internal&&<p className="muted">{b.internal}</p>}</div>)}</div>}{currentError&&<p role="alert">SOURCE MISSING: {currentError}</p>}</article>
-  <article><span className="eyebrow">EP 04 · Reserved continuation</span><h2>Same moment, next episode</h2><p>1 January 2026 · 14:15 onwards</p><p>No continuation prose approved or written. This marker is a handoff, not a generated scene.</p><p className="muted">This continuation will appear here once its outline is written and approved.</p></article>
+
   <article className="episode-plan-card" id="ep03-meenakshi-scene-02"><span className="eyebrow">EP 03 · Scene 02 · Approved plot direction, no finished prose</span><h2>The Farmhouse Evening</h2><p>1 January 2026 · From 17:00 · Meenakshi, Aditi, Avi and Yash</p><p>After duty the group heads to a farmhouse gathering. Dancing, conversations, photographs and a ride home unfold as separate beats. This remains a plot outline, not a published chapter.</p><strong>Return travel and finishing time are not yet verified.</strong>
    {farmhouse?.beats?.length?<details className="episode-outline"><summary>Read {farmhouse.beats.length} planned beats</summary><div className="beat-list">{farmhouse.beats.map((b,i)=><div key={b.id||i} className="beat-item"><span className="eyebrow">{str(b.phase)||b.id||'Plot beat'}</span><h3>{b.title||'Untitled beat'}</h3><p>{str(b.detail)}</p></div>)}</div></details>:<p>{farmhouseError||'Loading farmhouse outline…'}</p>}
   </article>
@@ -58,7 +60,13 @@ export default function Planning({lead}:{lead:string}){
    {twins?.beats?.length?<details className="episode-outline"><summary>Read {twins.beats.length} active badminton beats</summary><div className="beat-list">{twins.beats.map((b,i)=><div key={b.id||i} className="beat-item"><span className="eyebrow">{b.time||b.id||'Plot beat'}</span><h3>{b.title||'Untitled beat'}</h3><p>{str(b.action)}</p></div>)}</div></details>:<p>{twinsError||'Loading twins outline…'}</p>}
    {authorNotes&&<details className="episode-outline author-notes"><summary>Author's original requirements (verbatim, planning only)</summary><pre>{authorNotes}</pre></details>}
    <p className="muted">The Ishita doubles invitation remains deferred to a future scene. No ride outcome or accidental car interference has been promoted to canon.</p>
-  </article></section>}
+  </article>
+  <article className="episode-plan-card" id="ep03-meenakshi-scene-04"><span className="eyebrow">EP 03 · Scene 04 · Ending setup only</span><h2>The Bell — Babloo's Introduction</h2>
+   <p>1 January 2026 · Around 18:45, after Meenakshi's return · Clock provisional</p>
+   {bablooIntro?<div className="babloo-intro"><p>{String(bablooIntro.introAndHistory||'')}</p><p>{String(bablooIntro.setupAndCut||'')}</p></div>:<p>{bablooIntroError||'Loading the verified ending outline…'}</p>}
+   <strong>Episode 03 ends at the doorbell. First proper Babloo encounter stays in Episode 04.</strong>
+  </article>
+    <article><span className="eyebrow">EP 04 · Reserved continuation</span><h2>Same moment, next episode</h2><p>1 January 2026 · 14:15 onwards</p><p>No continuation prose approved or written. This marker is a handoff, not a generated scene.</p><p className="muted">This continuation will appear here once its outline is written and approved.</p></article></section>}
   <section className="planning-panel"><div className="split"><div><span className="eyebrow">Working story lane</span><h2>{titleCase(active)}</h2><p>{activePlan?.plan?.title||'No separate Episode 03 working draft is available here yet.'}</p></div></div>
    {active==='taniya'&&<p className="source-note">Soniya's independent scenes belong to Taniya's continuity lane. Their existing joint plan is preserved; those scenes have not been promoted to finished prose.</p>}
    {active==='shivani'&&<p className="source-note">Shivani's future planning is not independently indexed as an Episode 03 scene in the audited sources. Earlier plot notes are preserved in the story archive.</p>}
