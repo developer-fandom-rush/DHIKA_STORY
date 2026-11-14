@@ -1,0 +1,604 @@
+{
+  "version": "2026-11-14",
+  "policy": "Source paths and permissions preserved; private Drive files are link-only and never hotlinked.",
+  "images": [
+    {
+      "id": "gh01",
+      "title": "ankita 2026 01 01 morning",
+      "path": "assets/ankita-2026-01-01-morning.png",
+      "source": "GitHub",
+      "characters": [
+        "ankita"
+      ],
+      "episode": "02",
+      "scene": null,
+      "storyDate": "2026-01-01",
+      "location": null,
+      "status": "Reference",
+      "restricted": false,
+      "original": "https://github.com/developer-fandom-rush/DHIKA_STORY/blob/main/Society-Wives/assets/ankita-2026-01-01-morning.png"
+    },
+    {
+      "id": "gh02",
+      "title": "ankita a02 scene 01 rohan walk",
+      "path": "assets/ankita-a02-scene-01-rohan-walk.svg",
+      "source": "GitHub",
+      "characters": [
+        "ankita",
+        "rohan"
+      ],
+      "episode": null,
+      "scene": null,
+      "storyDate": null,
+      "location": null,
+      "status": "Reference",
+      "restricted": false,
+      "original": "https://github.com/developer-fandom-rush/DHIKA_STORY/blob/main/Society-Wives/assets/ankita-a02-scene-01-rohan-walk.svg"
+    },
+    {
+      "id": "gh03",
+      "title": "ankita a02 scene 02 nikhil jacket",
+      "path": "assets/ankita-a02-scene-02-nikhil-jacket.svg",
+      "source": "GitHub",
+      "characters": [
+        "ankita",
+        "nikhil"
+      ],
+      "episode": null,
+      "scene": null,
+      "storyDate": null,
+      "location": null,
+      "status": "Reference",
+      "restricted": false,
+      "original": "https://github.com/developer-fandom-rush/DHIKA_STORY/blob/main/Society-Wives/assets/ankita-a02-scene-02-nikhil-jacket.svg"
+    },
+    {
+      "id": "gh04",
+      "title": "ankita a06 scene 01 entrance",
+      "path": "assets/ankita-a06-scene-01-entrance.svg",
+      "source": "GitHub",
+      "characters": [
+        "ankita"
+      ],
+      "episode": null,
+      "scene": null,
+      "storyDate": null,
+      "location": null,
+      "status": "Reference",
+      "restricted": false,
+      "original": "https://github.com/developer-fandom-rush/DHIKA_STORY/blob/main/Society-Wives/assets/ankita-a06-scene-01-entrance.svg"
+    },
+    {
+      "id": "gh05",
+      "title": "ankita a06 scene 02 poster teasing",
+      "path": "assets/ankita-a06-scene-02-poster-teasing.svg",
+      "source": "GitHub",
+      "characters": [
+        "ankita"
+      ],
+      "episode": null,
+      "scene": null,
+      "storyDate": null,
+      "location": null,
+      "status": "Reference",
+      "restricted": false,
+      "original": "https://github.com/developer-fandom-rush/DHIKA_STORY/blob/main/Society-Wives/assets/ankita-a06-scene-02-poster-teasing.svg"
+    },
+    {
+      "id": "gh06",
+      "title": "confident doctor in a hospital corridor",
+      "path": "assets/meenakshi/confident_doctor_in_a_hospital_corridor.svg",
+      "source": "GitHub",
+      "characters": [
+        "meenakshi"
+      ],
+      "episode": null,
+      "scene": null,
+      "storyDate": null,
+      "location": null,
+      "status": "Reference",
+      "restricted": false,
+      "original": "https://github.com/developer-fandom-rush/DHIKA_STORY/blob/main/Society-Wives/assets/meenakshi/confident_doctor_in_a_hospital_corridor.svg"
+    },
+    {
+      "id": "gh07",
+      "title": "glamorous doctor in dressing room",
+      "path": "assets/meenakshi/glamorous_doctor_in_dressing_room.svg",
+      "source": "GitHub",
+      "characters": [
+        "meenakshi"
+      ],
+      "episode": null,
+      "scene": null,
+      "storyDate": null,
+      "location": null,
+      "status": "Reference",
+      "restricted": false,
+      "original": "https://github.com/developer-fandom-rush/DHIKA_STORY/blob/main/Society-Wives/assets/meenakshi/glamorous_doctor_in_dressing_room.svg"
+    },
+    {
+      "id": "gh08",
+      "title": "shivani 2026 01 01 school portrait",
+      "path": "assets/shivani-2026-01-01-school-portrait.jpg",
+      "source": "GitHub",
+      "characters": [
+        "shivani"
+      ],
+      "episode": "02",
+      "scene": null,
+      "storyDate": "2026-01-01",
+      "location": null,
+      "status": "Reference",
+      "restricted": false,
+      "original": "https://github.com/developer-fandom-rush/DHIKA_STORY/blob/main/Society-Wives/assets/shivani-2026-01-01-school-portrait.jpg"
+    },
+    {
+      "id": "gh09",
+      "title": "private photo to rohan thumbnail",
+      "path": "assets/shivani/private-photo-to-rohan-thumbnail.svg",
+      "source": "GitHub",
+      "characters": [
+        "shivani",
+        "rohan"
+      ],
+      "episode": null,
+      "scene": null,
+      "storyDate": null,
+      "location": null,
+      "status": "Reference",
+      "restricted": false,
+      "original": "https://github.com/developer-fandom-rush/DHIKA_STORY/blob/main/Society-Wives/assets/shivani/private-photo-to-rohan-thumbnail.svg"
+    },
+    {
+      "id": "gh10",
+      "title": "rain soaked profile",
+      "path": "assets/shivani/rain-soaked-profile.png",
+      "source": "GitHub",
+      "characters": [
+        "shivani"
+      ],
+      "episode": null,
+      "scene": null,
+      "storyDate": null,
+      "location": null,
+      "status": "Reference",
+      "restricted": false,
+      "original": "https://github.com/developer-fandom-rush/DHIKA_STORY/blob/main/Society-Wives/assets/shivani/rain-soaked-profile.png"
+    },
+    {
+      "id": "gh11",
+      "title": "ep02 police hallway portrait",
+      "path": "assets/shreya/ep02-police-hallway-portrait.png",
+      "source": "GitHub",
+      "characters": [
+        "shreya"
+      ],
+      "episode": null,
+      "scene": null,
+      "storyDate": null,
+      "location": null,
+      "status": "Reference",
+      "restricted": false,
+      "original": "https://github.com/developer-fandom-rush/DHIKA_STORY/blob/main/Society-Wives/assets/shreya/ep02-police-hallway-portrait.png"
+    },
+    {
+      "id": "gh12",
+      "title": "ep02 police uniform portrait",
+      "path": "assets/shreya/ep02-police-uniform-portrait.png",
+      "source": "GitHub",
+      "characters": [
+        "shreya"
+      ],
+      "episode": null,
+      "scene": null,
+      "storyDate": null,
+      "location": null,
+      "status": "Reference",
+      "restricted": false,
+      "original": "https://github.com/developer-fandom-rush/DHIKA_STORY/blob/main/Society-Wives/assets/shreya/ep02-police-uniform-portrait.png"
+    },
+    {
+      "id": "gh13",
+      "title": "ep02 sr01 post workout red gym",
+      "path": "assets/shreya/ep02-sr01-post-workout-red-gym.png",
+      "source": "GitHub",
+      "characters": [
+        "shreya"
+      ],
+      "episode": null,
+      "scene": null,
+      "storyDate": null,
+      "location": null,
+      "status": "Reference",
+      "restricted": false,
+      "original": "https://github.com/developer-fandom-rush/DHIKA_STORY/blob/main/Society-Wives/assets/shreya/ep02-sr01-post-workout-red-gym.png"
+    },
+    {
+      "id": "gh14",
+      "title": "ep02 sr01 red gym workout",
+      "path": "assets/shreya/ep02-sr01-red-gym-workout.png",
+      "source": "GitHub",
+      "characters": [
+        "shreya"
+      ],
+      "episode": null,
+      "scene": null,
+      "storyDate": null,
+      "location": null,
+      "status": "Reference",
+      "restricted": false,
+      "original": "https://github.com/developer-fandom-rush/DHIKA_STORY/blob/main/Society-Wives/assets/shreya/ep02-sr01-red-gym-workout.png"
+    },
+    {
+      "id": "gh15",
+      "title": "ep02 sr02a vivek gym kiss",
+      "path": "assets/shreya/ep02-sr02a-vivek-gym-kiss.png",
+      "source": "GitHub",
+      "characters": [
+        "shreya",
+        "vivek"
+      ],
+      "episode": null,
+      "scene": null,
+      "storyDate": null,
+      "location": null,
+      "status": "Reference",
+      "restricted": false,
+      "original": "https://github.com/developer-fandom-rush/DHIKA_STORY/blob/main/Society-Wives/assets/shreya/ep02-sr02a-vivek-gym-kiss.png"
+    },
+    {
+      "id": "gh16",
+      "title": "ep02 sr05 karan aman gate",
+      "path": "assets/shreya/ep02-sr05-karan-aman-gate.png",
+      "source": "GitHub",
+      "characters": [
+        "shreya",
+        "karan",
+        "aman"
+      ],
+      "episode": null,
+      "scene": null,
+      "storyDate": null,
+      "location": null,
+      "status": "Reference",
+      "restricted": false,
+      "original": "https://github.com/developer-fandom-rush/DHIKA_STORY/blob/main/Society-Wives/assets/shreya/ep02-sr05-karan-aman-gate.png"
+    },
+    {
+      "id": "gh17",
+      "title": "ep02 sr07 rohas lokesh briefing",
+      "path": "assets/shreya/ep02-sr07-rohas-lokesh-briefing.png",
+      "source": "GitHub",
+      "characters": [
+        "shreya",
+        "lokesh"
+      ],
+      "episode": null,
+      "scene": null,
+      "storyDate": null,
+      "location": null,
+      "status": "Reference",
+      "restricted": false,
+      "original": "https://github.com/developer-fandom-rush/DHIKA_STORY/blob/main/Society-Wives/assets/shreya/ep02-sr07-rohas-lokesh-briefing.png"
+    },
+    {
+      "id": "gh18",
+      "title": "ep02 sr09 chauhan corridor",
+      "path": "assets/shreya/ep02-sr09-chauhan-corridor.png",
+      "source": "GitHub",
+      "characters": [
+        "shreya",
+        "chauhan"
+      ],
+      "episode": null,
+      "scene": null,
+      "storyDate": null,
+      "location": null,
+      "status": "Reference",
+      "restricted": false,
+      "original": "https://github.com/developer-fandom-rush/DHIKA_STORY/blob/main/Society-Wives/assets/shreya/ep02-sr09-chauhan-corridor.png"
+    },
+    {
+      "id": "gh19",
+      "title": "shreya police station",
+      "path": "assets/shreya/shreya-police-station.jpg",
+      "source": "GitHub",
+      "characters": [
+        "shreya"
+      ],
+      "episode": null,
+      "scene": null,
+      "storyDate": null,
+      "location": null,
+      "status": "Reference",
+      "restricted": false,
+      "original": "https://github.com/developer-fandom-rush/DHIKA_STORY/blob/main/Society-Wives/assets/shreya/shreya-police-station.jpg"
+    },
+    {
+      "id": "gh20",
+      "title": "shreya society gym",
+      "path": "assets/shreya/shreya-society-gym.jpg",
+      "source": "GitHub",
+      "characters": [
+        "shreya"
+      ],
+      "episode": null,
+      "scene": null,
+      "storyDate": null,
+      "location": null,
+      "status": "Reference",
+      "restricted": false,
+      "original": "https://github.com/developer-fandom-rush/DHIKA_STORY/blob/main/Society-Wives/assets/shreya/shreya-society-gym.jpg"
+    },
+    {
+      "id": "gh21",
+      "title": "shreya sr01 plank",
+      "path": "assets/shreya/shreya-sr01-plank.png",
+      "source": "GitHub",
+      "characters": [
+        "shreya"
+      ],
+      "episode": null,
+      "scene": null,
+      "storyDate": null,
+      "location": null,
+      "status": "Reference",
+      "restricted": false,
+      "original": "https://github.com/developer-fandom-rush/DHIKA_STORY/blob/main/Society-Wives/assets/shreya/shreya-sr01-plank.png"
+    },
+    {
+      "id": "gh22",
+      "title": "shreya sr01 post challenge",
+      "path": "assets/shreya/shreya-sr01-post-challenge.png",
+      "source": "GitHub",
+      "characters": [
+        "shreya"
+      ],
+      "episode": null,
+      "scene": null,
+      "storyDate": null,
+      "location": null,
+      "status": "Reference",
+      "restricted": false,
+      "original": "https://github.com/developer-fandom-rush/DHIKA_STORY/blob/main/Society-Wives/assets/shreya/shreya-sr01-post-challenge.png"
+    },
+    {
+      "id": "gh23",
+      "title": "shreya sr05 first button storyboard",
+      "path": "assets/shreya/shreya-sr05-first-button-storyboard.svg",
+      "source": "GitHub",
+      "characters": [
+        "shreya"
+      ],
+      "episode": null,
+      "scene": null,
+      "storyDate": null,
+      "location": null,
+      "status": "Reference",
+      "restricted": false,
+      "original": "https://github.com/developer-fandom-rush/DHIKA_STORY/blob/main/Society-Wives/assets/shreya/shreya-sr05-first-button-storyboard.svg"
+    },
+    {
+      "id": "gh24",
+      "title": "shreya story collage",
+      "path": "assets/shreya/shreya-story-collage.jpg",
+      "source": "GitHub",
+      "characters": [
+        "shreya"
+      ],
+      "episode": null,
+      "scene": null,
+      "storyDate": null,
+      "location": null,
+      "status": "Reference",
+      "restricted": false,
+      "original": "https://github.com/developer-fandom-rush/DHIKA_STORY/blob/main/Society-Wives/assets/shreya/shreya-story-collage.jpg"
+    },
+    {
+      "id": "gh25",
+      "title": "soniya 2026 01 01 gym portrait",
+      "path": "assets/soniya-2026-01-01-gym-portrait.svg",
+      "source": "GitHub",
+      "characters": [
+        "soniya"
+      ],
+      "episode": "02",
+      "scene": null,
+      "storyDate": "2026-01-01",
+      "location": null,
+      "status": "Reference",
+      "restricted": false,
+      "original": "https://github.com/developer-fandom-rush/DHIKA_STORY/blob/main/Society-Wives/assets/soniya-2026-01-01-gym-portrait.svg"
+    },
+    {
+      "id": "gh26",
+      "title": "taniya 2026 01 01 gym portrait",
+      "path": "assets/taniya-2026-01-01-gym-portrait.svg",
+      "source": "GitHub",
+      "characters": [
+        "taniya"
+      ],
+      "episode": "02",
+      "scene": null,
+      "storyDate": "2026-01-01",
+      "location": null,
+      "status": "Reference",
+      "restricted": false,
+      "original": "https://github.com/developer-fandom-rush/DHIKA_STORY/blob/main/Society-Wives/assets/taniya-2026-01-01-gym-portrait.svg"
+    },
+    {
+      "id": "dr01",
+      "title": "M01 morning banter in the indian corridor",
+      "path": null,
+      "source": "Google Drive",
+      "characters": [
+        "meenakshi"
+      ],
+      "episode": "02",
+      "scene": "M01",
+      "storyDate": "2026-01-01",
+      "location": null,
+      "status": "Review",
+      "restricted": true,
+      "original": "https://drive.google.com/file/d/1qyDt11q28uUf_O2UOD2IvI2zK8-Q4uuX/view?usp=drivesdk"
+    },
+    {
+      "id": "dr02",
+      "title": "M02 playful courtyard banter trio",
+      "path": null,
+      "source": "Google Drive",
+      "characters": [
+        "meenakshi"
+      ],
+      "episode": "02",
+      "scene": "M02",
+      "storyDate": "2026-01-01",
+      "location": null,
+      "status": "Review",
+      "restricted": true,
+      "original": "https://drive.google.com/file/d/1QLnn-bdEROppKnICbz6QM0blA75TzaRl/view?usp=drivesdk"
+    },
+    {
+      "id": "dr03",
+      "title": "M03 morning farewell at the society gate",
+      "path": null,
+      "source": "Google Drive",
+      "characters": [
+        "meenakshi"
+      ],
+      "episode": "02",
+      "scene": "M03",
+      "storyDate": "2026-01-01",
+      "location": null,
+      "status": "Review",
+      "restricted": true,
+      "original": "https://drive.google.com/file/d/1c-uhMSUrqwYp9G_8Qmk3k4GAogJPTG5E/view?usp=drivesdk"
+    },
+    {
+      "id": "dr04",
+      "title": "M04 foggy gurgaon morning drive",
+      "path": null,
+      "source": "Google Drive",
+      "characters": [
+        "meenakshi"
+      ],
+      "episode": "02",
+      "scene": "M04",
+      "storyDate": "2026-01-01",
+      "location": null,
+      "status": "Review",
+      "restricted": true,
+      "original": "https://drive.google.com/file/d/1sts8AyYS6b_c6RWw5Qft5RkuzYC7fabj/view?usp=drivesdk"
+    },
+    {
+      "id": "dr05",
+      "title": "M05 preparing for hospital rounds",
+      "path": null,
+      "source": "Google Drive",
+      "characters": [
+        "meenakshi"
+      ],
+      "episode": "02",
+      "scene": "M05",
+      "storyDate": "2026-01-01",
+      "location": null,
+      "status": "Review",
+      "restricted": true,
+      "original": "https://drive.google.com/file/d/1xaMegEpqtrv1PKj1oQ2kVugJoFTh0U3Y/view?usp=drivesdk"
+    },
+    {
+      "id": "dr06",
+      "title": "M06 hospital breakroom banter",
+      "path": null,
+      "source": "Google Drive",
+      "characters": [
+        "meenakshi"
+      ],
+      "episode": "02",
+      "scene": "M06",
+      "storyDate": "2026-01-01",
+      "location": null,
+      "status": "Review",
+      "restricted": true,
+      "original": "https://drive.google.com/file/d/1VzHWpAv5O1-05PVLTk2rvPrhxS852Cp0/view?usp=drivesdk"
+    },
+    {
+      "id": "dr07",
+      "title": "M07 tense consultation in warm light",
+      "path": null,
+      "source": "Google Drive",
+      "characters": [
+        "meenakshi"
+      ],
+      "episode": "02",
+      "scene": "M07",
+      "storyDate": "2026-01-01",
+      "location": null,
+      "status": "Review",
+      "restricted": true,
+      "original": "https://drive.google.com/file/d/1Q8kGneZr3tBgk4dGu3YWU6vBoLuBFy-T/view?usp=drivesdk"
+    },
+    {
+      "id": "dr08",
+      "title": "M10 a doctor s tense locker search",
+      "path": null,
+      "source": "Google Drive",
+      "characters": [
+        "meenakshi"
+      ],
+      "episode": "02",
+      "scene": "M10",
+      "storyDate": "2026-01-01",
+      "location": null,
+      "status": "Review",
+      "restricted": true,
+      "original": "https://drive.google.com/file/d/1KhbuAHFxIgMpqnB7EVHCdSZq3TzEJ1ce/view?usp=drivesdk"
+    },
+    {
+      "id": "dr09",
+      "title": "M11 suspicion in the staff locker corridor",
+      "path": null,
+      "source": "Google Drive",
+      "characters": [
+        "meenakshi"
+      ],
+      "episode": "02",
+      "scene": "M11",
+      "storyDate": "2026-01-01",
+      "location": null,
+      "status": "Review",
+      "restricted": true,
+      "original": "https://drive.google.com/file/d/1c6i1xGr0-OEgcY0SLk0EviOAuzfvDMy7/view?usp=drivesdk"
+    },
+    {
+      "id": "dr10",
+      "title": "M12 investigating the disturbed hospital locker",
+      "path": null,
+      "source": "Google Drive",
+      "characters": [
+        "meenakshi"
+      ],
+      "episode": "02",
+      "scene": "M12",
+      "storyDate": "2026-01-01",
+      "location": null,
+      "status": "Review",
+      "restricted": true,
+      "original": "https://drive.google.com/file/d/19ObVlbLWSAvnMC6d436kpCdb1CC9h-pw/view?usp=drivesdk"
+    }
+  ],
+  "albums": [
+    {
+      "title": "Meenakshi EP02 contact sheet",
+      "source": "Google Drive",
+      "url": "https://drive.google.com/file/d/1-N897BDyMXRPIrxrh0xkp6LihmuwyMpS/view?usp=drivesdk",
+      "restricted": true
+    },
+    {
+      "title": "Meenakshi Episode 02 review folder",
+      "source": "Google Drive",
+      "url": "https://drive.google.com/drive/folders/1NX-kruEr5mXfrGTgz-6okcgKjMpqkJ-9",
+      "restricted": true
+    }
+  ]
+}
