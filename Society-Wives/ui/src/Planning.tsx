@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import { leadOrder, Plan, openPage, titleCase, useData } from './lib';
 const str=(v:unknown)=>typeof v==='string'?v:'';
+type AnkitaStage={id:string;title:string;start:string;end:string;approval:string;sequence?:{id:string;time?:string;summary:string;dialogue?:{speaker:string;line:string}[];storyIntent?:string;editorFlags?:string[]}[];beats?:{id:string;summary:string}[];openChoices?:string[];};
 export default function Planning({lead,initialScene}:{lead:string;initialScene?:string|null}){
  const active=leadOrder.includes(lead)?lead:'meenakshi';
  const {data:current,error:currentError}=useData<Plan>('episode-03-meenakshi-scene-01.json');
@@ -9,6 +10,7 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
  const {data:bablooIntro,error:bablooIntroError}=useData<Plan>('episode-03-meenakshi-scene-04-babloo-intro.json');
  const {data:meenaFuture}=useData<Plan>('episode-03-meenakshi-plan.json');
  const {data:ankitaFuture}=useData<Plan>('episode-03-ankita-pending.json');
+ const {data:ankitaOpening,error:ankitaOpeningError}=useData<Plan>('episode-03-ankita-a11-scene-01-opening.json');
  const {data:shreyaFuture}=useData<Plan>('episode-03-shreya-plan.json');
  useEffect(()=>{
   if(active!=='meenakshi'||!initialScene)return;
@@ -18,6 +20,7 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
  },[active,initialScene]);
  const leadPlans=[{lead:'ankita',file:'episode-03-ankita-pending.json',plan:ankitaFuture},{lead:'shivani',file:'',plan:null},{lead:'taniya',file:'',plan:null},{lead:'meenakshi',file:'episode-03-meenakshi-plan.json',plan:meenaFuture},{lead:'shreya',file:'episode-03-shreya-plan.json',plan:shreyaFuture}];
  const activePlan=leadPlans.find(x=>x.lead===active);
+ const ankitaStages=Array.isArray(ankitaOpening?.blocks)?ankitaOpening.blocks as AnkitaStage[]:[];
  const authorNotes=(twins?.authorRequirement as {exactText?:string}|undefined)?.exactText;
  return <main className="page-width">
   <header className="section-intro"><span className="eyebrow">Writers' room · works in progress</span><h1>Episode Planning</h1><p>Follow each character's planned scenes here. The cross-character universal timeline is a separate top-level view.</p></header>
@@ -51,6 +54,18 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
    <p className="muted">Five-beat author-approved plot only. Timing remains provisional pending the farmhouse-to-badminton continuity review. No missing-parcel or second-doorbell plot.</p>
   </article>
     <article id="ep04-meenakshi-handoff"><span className="eyebrow">EP 04 · Reserved continuation</span><h2>Same moment, next episode</h2><p>1 January 2026 · 14:15 onwards</p><p>No continuation prose approved or written. This marker is a handoff, not a generated scene.</p><p className="muted">This continuation will appear here once its outline is written and approved.</p></article></section>}
+  {active==='ankita'&&<section className="continuity-cards" id="ankita-ep03-first-block">
+    <article className="episode-plan-card" id="ankita-ep03-a11"><span className="eyebrow">Ankita · EP03 · 1 Jan 2026 · User-directed plot, no prose</span><h2>A11 — Rajeev's Call &amp; Private Afterbeat</h2>
+      <p>About 13:05–13:15 · Ankita at Cyber City; Rajeev at home (exact arrival/time provisional)</p>
+      {ankitaStages.filter(b=>b.id==='A11').map(b=><div key={b.id} className="beat-list">{b.sequence?.map(q=><div key={q.id} className="beat-item"><span className="eyebrow">{q.time||'Time pending'}</span><h3>{q.id==='A11-CALL'?'A short parcel call':'Rajeev alone · reader-only direction'}</h3><p>{q.summary}</p>{q.dialogue?.map((line,i)=><p key={i}><strong>{line.speaker}:</strong> {line.line}</p>)}{q.storyIntent&&<p className="muted">{q.storyIntent}</p>}</div>)}</div>)}
+      <p className="muted">Continuity: Rajeev has the parcel after P08. The origin of the previously used garment is unverified. Grok's full scene expansion remains unwritten; the fantasy is not Ankita's consent.</p>
+    </article>
+    <article className="episode-plan-card" id="ankita-ep03-scene01-opening"><span className="eyebrow">Ankita · EP03 · Scene 01 opening only · Discussion</span><h2>Vivan, Reyansh, Sana &amp; Kavita join Ankita</h2><p>About 13:15 · Cyber City office · Five people together</p>
+      {ankitaStages.filter(b=>b.id==='SCENE01-OPENING').map(b=><div key={b.id} className="beat-list">{b.beats?.map(q=><div key={q.id} className="beat-item"><p>{q.summary}</p></div>)}</div>)}
+      <p className="muted">Sana (24, QA Automation) and Kavita (24, HR) were proposed in the cast directory, but not previously on-page in A08. They arrive late because of evening surprise preparations; the funny late-arrival forfeit is an author-directed option. No outing route, vehicle, physical interaction or later scene has been locked.</p>
+    </article>
+    {ankitaOpeningError&&<p role="alert">Ankita opening plot source missing: {ankitaOpeningError}</p>}
+  </section>}
   <section className="planning-panel"><div className="split"><div><span className="eyebrow">Working story lane</span><h2>{titleCase(active)}</h2><p>{activePlan?.plan?.title||'No separate Episode 03 working draft is available here yet.'}</p></div></div>
    {active==='taniya'&&<p className="source-note">Soniya's independent scenes belong to Taniya's continuity lane. Their existing joint plan is preserved; those scenes have not been promoted to finished prose.</p>}
    {active==='shivani'&&<p className="source-note">Shivani's future planning is not independently indexed as an Episode 03 scene in the audited sources. Earlier plot notes are preserved in the story archive.</p>}
