@@ -3,7 +3,7 @@ import gallery from './data/gallery.json';
 import { assetUrl, titleCase } from './lib';
 type ImageRecord=(typeof gallery.images)[number];
 const labelFor=(id:string)=>({shreya_woman_02:'Meera',shreya_woman_03:'Poonam',shreya_woman_04:'Anjali'} as Record<string,string>)[id]||titleCase(id);
-const authorizedDrivePreview=(url:string)=>{const id=url.match(/\\/file\\/d\\/([A-Za-z0-9_-]+)/)?.[1];return id?'https://drive.google.com/thumbnail?id='+encodeURIComponent(id)+'&sz=w1200':null;};
+const authorizedDrivePreview=(url:string)=>{const id=url.split('/file/d/')[1]?.split('/')[0];return id?'https://drive.google.com/thumbnail?id='+encodeURIComponent(id)+'&sz=w1200':null;};
 export default function Gallery({initialCharacter='all'}:{initialCharacter?:string}){
  const [character,setCharacter]=useState(initialCharacter),[source,setSource]=useState('all'),[episode,setEpisode]=useState('all'),[scene,setScene]=useState('all'),[q,setQ]=useState(''),[open,setOpen]=useState<ImageRecord|null>(null),[failed,setFailed]=useState<string[]>([]),[previewRequested,setPreviewRequested]=useState<string|null>(null);
  useEffect(()=>setCharacter(initialCharacter),[initialCharacter]);
