@@ -344,11 +344,6 @@
         "role": "QA Lead; trusted office friend"
       },
       {
-        "name": "Aditi Shah",
-        "age": 26,
-        "role": "Business Analyst; outgoing and observant"
-      },
-      {
         "name": "Ira Mehta",
         "age": 32,
         "role": "Product Designer; confident professional peer"
@@ -369,9 +364,9 @@
         "role": "QA Automation Engineer; practical, straightforward"
       },
       {
-        "name": "Kavita Rao",
+        "name": "Aishwarya Rao",
         "age": 24,
-        "role": "HR Executive; onboarding, employee engagement and policy"
+        "role": "HR Executive / Event Coordination"
       },
       {
         "name": "Ayesha Malik",
@@ -433,11 +428,6 @@
         "role": "QA Lead; trusted office friend"
       },
       {
-        "name": "Aditi Shah",
-        "age": 26,
-        "role": "Business Analyst; outgoing and observant"
-      },
-      {
         "name": "Ira Mehta",
         "age": 32,
         "role": "Product Designer; confident professional peer"
@@ -458,9 +448,9 @@
         "role": "QA Automation Engineer; practical, straightforward"
       },
       {
-        "name": "Kavita Rao",
+        "name": "Aishwarya Rao",
         "age": 24,
-        "role": "HR Executive; onboarding, employee engagement and policy"
+        "role": "HR Executive / Event Coordination"
       },
       {
         "name": "Ayesha Malik",
