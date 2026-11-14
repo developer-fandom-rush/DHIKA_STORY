@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import { leadOrder, Plan, openPage, titleCase, useData } from './lib';
 const str=(v:unknown)=>typeof v==='string'?v:'';
+type PublishedLine={time?:string|null;kind:'narration'|'dialogue'|'cut';speaker?:string;text:string};
 type AnkitaStage={id:string;title:string;start:string;end:string;approval:string;sequence?:{id:string;time?:string;summary:string;dialogue?:{speaker:string;line:string}[];storyIntent?:string;editorFlags?:string[]}[];beats?:{id:string;summary:string}[];openChoices?:string[];};
 export default function Planning({lead,initialScene}:{lead:string;initialScene?:string|null}){
  const active=leadOrder.includes(lead)?lead:'meenakshi';
@@ -22,6 +23,7 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
  const activePlan=leadPlans.find(x=>x.lead===active);
  const ankitaStages=Array.isArray(ankitaOpening?.blocks)?ankitaOpening.blocks as AnkitaStage[]:[];
  const authorNotes=(twins?.authorRequirement as {exactText?:string}|undefined)?.exactText;
+ const publishedProse=(Array.isArray(current?.publishedProse)?current.publishedProse:[]) as PublishedLine[];
  return <main className="page-width">
   <header className="section-intro"><span className="eyebrow">Writers' room · works in progress</span><h1>Episode Planning</h1><p>Follow each character's planned scenes here. The cross-character universal timeline is a separate top-level view.</p></header>
   <button type="button" className="button subtle planning-global-link" onClick={()=>openPage('timeline')}>Open Universal Timeline</button>
@@ -29,7 +31,10 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
 
   <div className="reading-heading"><div><span className="eyebrow">Choose a storyline</span><h2>What happens next?</h2></div></div>
   <div className="perspective-tabs" role="group" aria-label="Choose planning character">{leadOrder.map(w=><button type="button" aria-pressed={w===active} onClick={()=>openPage('planning',{lead:w})} className={w===active?'selected':''} key={w}>{titleCase(w)}</button>)}</div>
-  {active==='meenakshi'&&<section className="continuity-cards"><article id="ep03-meenakshi-scene-01"><span className="eyebrow">EP 03 · Canonical outline</span><h2>Meenakshi × Naveen</h2><p>1 January 2026 · Hospital · 13:50–14:15</p><p>Meenakshi's hospital shift continues in four short beats.</p><strong>Scene ends at 14:15 · No goodbye</strong>{current?.beats&&<div className="beat-list">{current.beats.map((b,i)=><div className="beat-item" key={b.id||i}><span className="eyebrow">{b.time||'Time pending'}</span><h3>{b.title}</h3>{b.external&&<p>{b.external}</p>}{b.internal&&<p className="muted">{b.internal}</p>}</div>)}</div>}{currentError&&<p role="alert">SOURCE MISSING: {currentError}</p>}</article>
+  {active==='meenakshi'&&<section className="continuity-cards"><article id="ep03-meenakshi-scene-01"><span className="eyebrow">EP 03 · Scene 01 · Author-approved &amp; published prose</span><h2>The Glance at the Corridor — Meenakshi × Naveen</h2><p>1 January 2026 · Hospital · 13:50–14:15</p><p>Meenakshi aur Naveen ki first focused on-screen conversation hai, first meeting nahi. Their workplace familiarity is already established.</p><strong>Scene cuts at 14:15 · Episode 04 continues from exactly here</strong>
+   {publishedProse.length?<div className="source-scene prose-exact" aria-label="Approved Episode 03 Meenakshi scene">{publishedProse.map((line,i)=><div key={i}>{line.time&&<p className="scene-label"><strong>{line.time} PM</strong></p>}{line.kind==='dialogue'?<p className="dialogue"><strong>{line.speaker}:</strong> “{line.text}”</p>:<p className={line.kind==='cut'?'reader-end':''}>{line.text}</p>}</div>)}</div>:<p role="status">Loading approved scene text…</p>}
+   {currentError&&<p role="alert">SOURCE MISSING: {currentError}</p>}
+  </article>
 
   <article className="episode-plan-card" id="ep03-meenakshi-scene-02"><span className="eyebrow">EP 03 · Scene 02 · Approved plot direction, no finished prose</span><h2>The Farmhouse Evening</h2><p>1 January 2026 · From 17:00 · Meenakshi, Aditi, Avi and Yash</p><p>After duty the group heads to a farmhouse gathering. Dancing, conversations, photographs and a ride home unfold as separate beats. This remains a plot outline, not a published chapter.</p><strong>Return travel and finishing time are not yet verified.</strong>
    {farmhouse?.beats?.length?<details className="episode-outline"><summary>Read {farmhouse.beats.length} planned beats</summary><div className="beat-list">{farmhouse.beats.map((b,i)=><div key={b.id||i} className="beat-item"><span className="eyebrow">{str(b.phase)||b.id||'Plot beat'}</span><h3>{b.title||'Untitled beat'}</h3><p>{str(b.detail)}</p></div>)}</div></details>:<p>{farmhouseError||'Loading farmhouse outline…'}</p>}
