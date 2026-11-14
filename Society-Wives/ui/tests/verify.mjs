@@ -33,6 +33,18 @@ const scene=read('episode-03-meenakshi-scene-01.json');
 assert.equal(scene.date,'2026-01-01');
 assert.equal(scene.start,'13:50');assert.equal(scene.end,'14:15');
 assert.equal(scene.beats.length,4);
+
+const farmhouse=read('episode-03-meenakshi-scene-02.json');
+assert.equal(farmhouse.episode,'03');
+assert.equal(farmhouse.start,'17:00');
+assert.equal(farmhouse.status,'USER_APPROVED_PLOT_DIRECTION_SAVED_NO_PROSE');
+assert.equal(farmhouse.beats.length,22,'Farmhouse plot beats must remain unchanged');
+const twins=read('episode-03-meenakshi-scene-03-twins.json');
+assert.equal(twins.episode,'03');
+assert.equal(twins.start,'18:15');
+assert.ok(twins.status.includes('UNDER_REVIEW'),'Badminton scene must remain a review-only proposal');
+assert.equal(twins.beats.length,6,'Six active badminton plot beats must remain unchanged');
+assert.ok(twins.authorRequirement?.exactText?.includes('badminton court society se thora dur'),'Preserve author-verbatim requirements');
 const later=read('episode-03-meenakshi-plan.json');
 assert.equal(later.date,'2026-01-02','Jan2 future planning changed');
 assert.ok(JSON.stringify(later).includes('M08'),'Reserved M08 missing');
@@ -45,19 +57,21 @@ for(const image of gallery.images){
  if(image.source==='GitHub'){assert.ok(!paths.has(image.path),'Duplicate GitHub image '+image.path);paths.add(image.path);assert.ok(existsSync(resolve(root,image.path)),'Missing asset '+image.path);}
  else assert.equal(image.restricted,true,'Private Drive assets must never be embedded directly');
 }
-assert.equal(paths.size,27,'Expected complete GitHub image inventory');
+assert.equal(paths.size,37,'Expected 27 previous + 10 selected character artwork assets');
 const inline=originalHtml.match(new RegExp('data:image/webp;base64,([a-zA-Z0-9+/=]+)'));
 assert.ok(inline,'Original embedded WebP source missing');
 assert.deepEqual(readFileSync(resolve(root,'assets/shivani-a03-inline-original.webp')),Buffer.from(inline[1],'base64'),'Extracted original WebP differs');
-assert.equal(gallery.images.filter(x=>x.source==='Google Drive').length,21,'Expected 21 restricted Drive image references including ten Shreya office photos');
+assert.equal(gallery.images.filter(x=>x.source==='Google Drive').length,17,'Expected 17 still-private Drive image references after four office portraits are published');
 const directory=read('character-directory.json');
 assert.equal(directory.leads.length,5);
 assert.ok(directory.people.some(x=>x.id==='soniya'),'Soniya profile missing');
 assert.equal(new Set(directory.people.map(x=>x.id)).size,directory.people.length,'Canonical person IDs duplicated');
 console.log('PASS: EP01 17 original scenes; EP02 '+total+' published source scenes in 6 archives.');
 console.log('PASS: original scene HTML present, approved-only source separate, no source rewritten.');
-console.log('PASS: Meenakshi 01 Jan 13:50-14:15; Jan2 and Jan3 planning preserved.');
+console.log('PASS: Meenakshi 01 Jan scenes 01/02/03, with farmhouse approved plot and badminton under review; Jan2/Jan3 unchanged.');
 const office=gallery.images.filter(x=>x.storyline==='shreya');
-assert.equal(office.length,10,'Ten Shreya office image references must be indexed');
-for(const row of office){assert.equal(row.restricted,true,'Office Drive image unexpectedly public');assert.ok(row.characters.length,'Office asset must have canonical cast tag');}
-console.log('PASS: '+paths.size+' GitHub images, 21 restricted Drive references, unique character IDs.');
+assert.equal(office.length,11,'Eleven Shreya office/portrait image records must be indexed');
+for(const row of office)assert.ok(row.characters.length,'Office image must have canonical cast tag');
+const portraitIds=['meenakshi','meenakshi_woman_01','ishita','meenakshi_woman_02','meenakshi_woman_04','shreya_woman_01','shreya_woman_02','shreya_woman_03','shreya_woman_04','shruti'];
+for(const id of portraitIds)assert.ok(gallery.images.some(x=>x.characters.length===1&&x.characters[0]===id&&x.visualCategory==='Character portrait'&&x.path&&!x.restricted),'Missing public cast portrait for '+id);
+console.log('PASS: '+paths.size+' GitHub images, 17 restricted Drive references, 10 curated cast portraits, unique character IDs.');
