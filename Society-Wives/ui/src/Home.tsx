@@ -1,4 +1,4 @@
-import { EpisodeOne, HOME, useData } from './lib';
+import { EpisodeOne, useData } from './lib';
 export default function Home(){
  const {data,error,loading}=useData<EpisodeOne>('episode-01.json');
  return <main className="reader-column">
