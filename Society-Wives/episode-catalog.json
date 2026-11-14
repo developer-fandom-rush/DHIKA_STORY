@@ -94,10 +94,12 @@
       "number": "03",
       "title": "Continuations",
       "subtitle": "Meenakshi Jan 1 continuation; older future-day drafts retained",
-      "status": "PARTIAL_PLOT_SCENE_PUBLISHED_NO_FULL_PROSE",
+      "status": "TWO_MEENAKSHI_PLOT_SCENES_PUBLISHED_NO_PROSE",
       "date": "1 January 2026 for Meenakshi Scene 01; separate 2–3 January drafts remain",
       "mainPath": "episode-03-meenakshi-scene-01.html",
       "relatedPaths": [
+        "episode-03-meenakshi-scene-02.html",
+        "episode-03-meenakshi-scene-02.json",
         "episode-03-meenakshi-scene-01.html",
         "episode-03-meenakshi-scene-01.json",
         "episode-03-ankita-pending.html",
@@ -105,7 +107,7 @@
         "episode-03-shreya-plan.json",
         "episode-03-meenakshi-planning.html"
       ],
-      "note": "Meenakshi Scene 01 is author-directed: 1 Jan 13:50–14:15; 14:15 hard cut to EP04. Older 2 Jan Meenakshi planner is preserved but is not the active Scene 01; M08 Senior Review stays reserved for Jan 2.",
+      "note": "Meenakshi Scene 01: Jan1 13:50–14:15 (cut EP04). Scene 02: Jan1 from 17:00; farmhouse outing and return journey plotted through pre-home-arrival cut; end time open. Older Jan2 plan preserved, not current. M08 review remains reserved for Jan2.",
       "chapters": [
         {
           "lead": "Meenakshi",
@@ -116,6 +118,16 @@
           "mainPath": "episode-03-meenakshi-scene-01.html",
           "dataPath": "episode-03-meenakshi-scene-01.json",
           "description": "Short Naveen × Meenakshi mood → teasing → separate tasks → accidental glance; cut at 14:15. References preexisting images only."
+        },
+        {
+          "lead": "Meenakshi",
+          "title": "The Farmhouse Evening — Scene 02",
+          "date": "2026-01-01",
+          "time": "17:00 onward; ending TBD",
+          "status": "USER_APPROVED_PLOT_DIRECTION_NO_PROSE",
+          "mainPath": "episode-03-meenakshi-scene-02.html",
+          "dataPath": "episode-03-meenakshi-scene-02.json",
+          "description": "22 sequenced beats: Aditi-led bold group flirtation, Avi/Aditi dancing, Meenakshi joins, pictures, Yash waist-pose consent, Avi jealousy, return seat rivalry, individual abdomen-contact permission, playful kick, cut before home arrival. Post-14:15 Naveen emotional carryover still pending."
         },
         {
           "lead": "Meenakshi",
