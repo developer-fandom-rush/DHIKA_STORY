@@ -14,7 +14,7 @@ export default function App(){
   <nav aria-label="Primary navigation" className="main-nav">{navigation.map(([id,label])=><a key={id} href={'#/'+id} className={page===id?'current':''} aria-current={page===id?'page':undefined}>{label}</a>)}</nav></div></header>
   {page==='home'&&<Home />}
   {page==='characters'&&<Characters lead={params.get('lead')||'ankita'} personId={params.get('person')}/>}
-  {page==='gallery'&&<Gallery />}
+  {page==='gallery'&&<Gallery initialCharacter={params.get('character')||'all'} />}
   {page==='reading'&&<Reading character={params.get('character')||'ankita'} scene={params.get('scene')}/>}
   {page==='planning'&&<Planning lead={params.get('lead')||'meenakshi'}/>}
   {!navigation.some(x=>x[0]===page)&&<main className="page-width"><h1>Page not found</h1><p>The requested view is not part of this reader.</p><a className="button primary" href={HOME}>Return Home</a></main>}
