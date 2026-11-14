@@ -367,13 +367,14 @@
       "characters": [
         "meenakshi"
       ],
-      "title": "Meenakshi's Unease — The Episode 02 Cutoff",
-      "summary": "Meenakshi returns to her locker at 13:10, notices the changed fold, shifted pouch and unusual latch, photographs its condition and leaves uncertain who interfered. Her POV ends at 13:15.",
-      "detail": "13:10–13:15. Earlier 09:05 lock check is remembered. She sees cardigan and bag arrangement altered, does not identify a culprit or connect to Harish/Sunil yet. No missing item is conclusively established. She records visual condition, closes locker and takes key. Do not continue beyond 13:15 on 1 Jan. 2–5 line visual staging insert reserved for external review.",
-      "approval": "REVISED_DRAFT_PUBLISHED_PENDING_USER_REVIEW",
+      "title": "A Passing Curiosity at the Locker",
+      "summary": "At 13:10 Meenakshi briefly notices a different cardigan fold and shifted pouch, wonders whether she placed them that way, puts her things straight, closes the locker and immediately returns to her hospital duties. No photo is taken; the small question leaves her mind shortly afterward. POV ends at 13:15.",
+      "detail": "13:10 PM. Meenakshi staff locker ke paas aayi. Cardigan ka fold kuch alag laga aur pouch shelf par thoda khiska hua tha. Meenakshi (halke se): “Arre, yeh maine yahan rakha tha kya?” Usne ek pal cheezein dekhin. Sab kuch wahi maujood tha. “Shayad subah jaldi mein aise hi rakh diya hoga.” Usne cardigan theek se rakha, locker band kiya aur key apne bag mein rakh li. 13:15 PM. Meenakshi apne hospital duties par laut gayi. Kuch hi der mein uska dhyan agle kaam par chala gaya aur locker wali baat uske zehan se nikal gayi.",
+      "approval": "USER_DIRECTED_REVISED_ENDING_SYNCHRONIZED_OTHER_M10_M11_REVIEW",
       "notes": [
-        "STOP: do not generate evening surprise, homecoming or disclosure.",
-        "User-supplied Grok visual mechanism passage integrated into published draft. Duplicated locker-door, belongings and photo actions merged to preserve continuity; user approval still pending."
+        "Replacement ending approved by author for synchronization; no phone photograph, evidence log, suspicion investigation or lingering anxiety.",
+        "Reader-only prior unauthorized locker access remains separate. Meenakshi does not identify anyone and does not connect it to the earlier changing-room privacy issue.",
+        "M10/M11 remain review-only and untouched. Stop Meenakshi POV at 13:15."
       ],
       "publishedPath": "episode-02.html?tab=meenakshi-m01#meenakshi-m12-story"
     }
@@ -481,12 +482,12 @@
     "Mohan is an unrelated household guest (not FIL); old-age-home backstory withheld from reader-facing M01."
   ],
   "cutoff": "2026-01-01T13:15:00",
-  "next": "M08 Senior Review moved to 2 January. M09 full prose pending. M10–M12 visual mechanism received and integrated into revised review drafts. Stop Meenakshi's 1 January POV at 13:15.",
+  "next": "M08 Senior Review remains moved to 2 January. M09 prose pending; M10–M11 review pending. M12 now ends with a passing curiosity and return to duties, without photograph or continued locker anxiety.",
   "publishedM01Extension": "episode-02-meenakshi-m01.html#m01-f02",
   "publishedM02M03": "episode-02-meenakshi-m02-m03.html",
   "publishedM04M05": "episode-02.html?tab=meenakshi-m01#meenakshi-m05-story",
   "confirmedApprovedThrough": "M05",
-  "currentProseCutoff": "M12 2026-01-01T13:15",
+  "currentProseCutoff": "M12 2026-01-01T13:15 — fleeting curiosity, no photograph",
   "revisedReviewText": "episode-02-meenakshi-m06-m07-review.txt",
   "deferredToNextDay": [
     {
@@ -499,6 +500,6 @@
     }
   ],
   "publishedM10M12": "episode-02.html?tab=meenakshi-m01#meenakshi-m10-story",
-  "m10m12VisualStatus": "USER_SUPPLIED_VISUAL_INSERTS_INTEGRATED_PENDING_APPROVAL",
+  "m10m12VisualStatus": "M10_M11_REVIEW_ONLY_M12_REPLACED_BY_USER_DIRECTED_ENDING",
   "revisedLockerReviewText": "episode-02-meenakshi-m10-m12-grok-review.txt"
 }
