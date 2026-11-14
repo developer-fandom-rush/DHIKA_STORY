@@ -9,9 +9,9 @@
   "weekday": "Thursday",
   "location": "Gulmohar Heights society badminton court, Gurgaon",
   "start": "18:15",
-  "end": "18:33",
-  "timeStatus": "AUTHOR_REQUESTED_APPROXIMATE_SLOT_UNVERIFIED_TRAVEL",
-  "status": "PROPOSED_FOR_AUTHOR_DISCUSSION_NOT_APPROVED_NOT_PROSE",
+  "end": "TBD_AFTER_REVISED_CONTINUATION",
+  "timeStatus": "PROVISIONAL_AND_DEPENDENT_ON_FARMHOUSE_TRAVEL",
+  "status": "REVISED_AUTHOR_DIRECTED_BEAT_DEFERRED_REST_DISCUSSION_ONLY",
   "continuation": [
     "EP02 M02 is the established 07:45–08:10 morning encounter: Uday outgoing, Utkarsh observant, both familiar wellness volunteers for approximately one year, already playful with Meenakshi.",
     "Meenakshi has not reached home at the end of the 17:00 farmhouse Scene 02. Twins encounter is placed after the return car reaches the society, before she enters her home.",
@@ -26,7 +26,7 @@
   "backstoryProposal": {
     "established": "They have volunteered reliably with Meenakshi for health camps for around one year and their flirtatious banter was previously accepted in EP02.",
     "newToApprove": "Uday and Utkarsh have a recurring evening badminton habit at the society court. Meenakshi has occasionally noticed the game in passing and is interested in trying it; no earlier on-page badminton meeting is being claimed.",
-    "future": "A later regular doubles practice can involve Meenakshi, her sister Ishita (23), Uday and Utkarsh, with occasional Nikhil or other society players and friendly competitions. No specific next-day session is yet approved."
+    "future": "Deferred until a later encounter: Meenakshi, Ishita, Uday and Utkarsh can plan regular doubles; occasional Nikhil/others optional. Do not invite Ishita or schedule daily sessions in the current scene."
   },
   "wardrobe": {
     "meenakshi": "Same plum kurta and cream palazzo from the farmhouse, grey cardigan in hand, hair loosened after dancing. Not yet dressed for a full workout, so only a brief stationary practice today.",
@@ -84,22 +84,6 @@
       "action": "Uday mock-complains that Meenakshi gave Utkarsh the longer chance to teach. Utkarsh offers a calm, witty response. Meenakshi deliberately keeps the rivalry playful, instead of explaining her feelings.",
       "gaze": "Uday looks from Utkarsh's hand back to Meenakshi's expression; Utkarsh reads his brother's jealousy and smiles.",
       "internal": "The brothers' private motives are distinct: Uday jealous of attention, Utkarsh pleased by her invitation; Meenakshi understands the banter has a personal undercurrent."
-    },
-    {
-      "id": "T07",
-      "time": "18:29–18:31",
-      "title": "She sets the recurring bet",
-      "action": "Meenakshi says she will return properly dressed to learn doubles and could bring Ishita. The twins suggest friendly partner rotations and a score challenge; occasional Nikhil or other society players are possibilities, not committed arrivals.",
-      "gaze": "Uday tries to win her next session as a partner; Utkarsh smiles at the fact she suggested returning first.",
-      "internal": "This plants a genuine repeatable interest beyond a one-off touch scene."
-    },
-    {
-      "id": "T08",
-      "time": "18:31–18:33",
-      "title": "Cut before the household",
-      "action": "Meenakshi returns the racket and gives the brothers a teasing farewell. They trade one final private glance; she heads toward the residential tower while still outside her home.",
-      "gaze": "Both brothers watch her depart, this time aware she noticed their attention.",
-      "internal": "Her day has distinct memories of Naveen (continuation not yet written), Avi/Yash and the two familiar society twins, but she has not arrived home in this sequence."
     }
   ],
   "physicalBeatCoverage": [
@@ -133,7 +117,36 @@
   "openQuestions": [
     "Travel / venue feasibility of arriving at court 18:15 after the entire 17:00 farmhouse sequence.",
     "Whether to keep Uday's waist contact as written or vary it after user review.",
-    "Wardrobe specifics of the twins' badminton outfit and later proper practice outfit."
+    "Wardrobe specifics of the twins' badminton outfit and later proper practice outfit.",
+    "User proposed a malfunctioning car five minutes from society, a playful drive/seat rivalry, and return by 18:45; not approved, and must reconcile with an entire farmhouse outing that begins at 17:00",
+    "Possible vehicle interference by a twin would break established trust; consider a genuine mechanical failure instead",
+    "A three-person two-wheeler ride is unsafe and exceeds Indian legal pillion capacity; choose safe transport if continuing"
   ],
-  "draftOnly": true
+  "draftOnly": true,
+  "deferredBeats": [
+    {
+      "id": "T07",
+      "time": "18:29–18:31",
+      "title": "She sets the recurring bet",
+      "action": "Meenakshi says she will return properly dressed to learn doubles and could bring Ishita. The twins suggest friendly partner rotations and a score challenge; occasional Nikhil or other society players are possibilities, not committed arrivals.",
+      "gaze": "Uday tries to win her next session as a partner; Utkarsh smiles at the fact she suggested returning first.",
+      "internal": "This plants a genuine repeatable interest beyond a one-off touch scene.",
+      "reason": "User requested move recurring-doubles invitation / Ishita setup to future encounter, not current meeting",
+      "futureSlot": "FUTURE_BADMINTON_ENCOUNTER_NOT_SCHEDULED",
+      "status": "DEFERRED_BY_USER"
+    }
+  ],
+  "retiredBeats": [
+    {
+      "id": "T08",
+      "title": "Cut before the household",
+      "reason": "Old walk-home ending superseded by user-proposed car-failure/ride continuation; ride scenario under discussion, not approved"
+    }
+  ],
+  "editHistory": [
+    {
+      "date": "2026-11-14",
+      "change": "Removed recurring-badminton invitation from current scene and deferred it to future; removed old walk-home closing beat pending new transport scenario; no new ride beats approved."
+    }
+  ]
 }
