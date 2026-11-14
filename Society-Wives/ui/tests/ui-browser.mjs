@@ -158,6 +158,7 @@ check(!(await page.locator('#ep03-meenakshi-scene-04').innerText()).includes('Ep
  check((await page.locator('select[aria-label="Timeline date"]').inputValue())==='2026-01-03','Universe switch preserves selected shared calendar date');
  check((await page.locator('.timeline-summary').innerText()).includes('Story Day 3'),'Dhika Jan3 maps to Day3 regardless of original weekday');
  await page.locator('select[aria-label="Timeline date"]').selectOption('2026-01-01');
+ await page.waitForFunction(()=>document.querySelectorAll('.timeline-event').length===5);
  check(await page.locator('.timeline-event').count()===5,'Dhika Day1 has five anchored events across EP02–EP04');
  await page.screenshot({path:resolve(screenshots,'09-dhika-universal-day1.png')});
  await page.locator('#timeline-dhika-ep04-p0008 summary').click();
