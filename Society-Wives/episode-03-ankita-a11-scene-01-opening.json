@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "id": "SW-ANKITA-EP03-A11-SCENE01-OPENING-REVIEW",
+  "series": "Society Wives — Five Veils of Desire",
+  "episode": "03",
+  "lead": "ankita",
+  "date": "2026-01-01",
+  "timezone": "Asia/Kolkata",
+  "status": "AUTHOR_DIRECTED_PLOTTING_NOT_APPROVED_PROSE",
+  "publicationMeaning": "Planning UI direction only: no scene prose drafted or approved. Do not retcon or overwrite the archived A11/A12–A17 scenes.",
+  "sourceCanon": [
+    "Episode 02 A04 morning: Rajeev is a socially addressed older household associate, NOT Ankita's actual father-in-law; private admiration/unsolicited compliment happened at breakfast and Ankita stopped the unfinished remark.",
+    "Episode 02 P08 12:30–12:50: Rajeev possesses damaged personal parcel (one remaining clothing set and adult personal item); he removed none of the six missing sets; left committee for home after 12:50.",
+    "Episode 02 A07: Gopal was told not to hand over Ankita's personal parcel without confirming with her.",
+    "Episode 02 A08 08:50–09:20: Ankita already interacted with Vivan and Reyansh, Priya and Nisha. Sana/Kavita were proposed roster only, not on-page.",
+    "Episode 02 Ankita 13:00 cutoff: she is still at Cyber City."
+  ],
+  "blocks": [
+    {
+      "id": "A11",
+      "title": "Rajeev's call and private afterbeat",
+      "date": "2026-01-01",
+      "start": "13:05",
+      "end": "13:15",
+      "clockStatus": "PROPOSED_10_MIN_WINDOW_NOT_LOCKED",
+      "locations": [
+        "Ankita at Cyber City desk",
+        "Rajeev at home / private room (arrival after 12:50 requires confirmation)"
+      ],
+      "cast": [
+        "ankita",
+        "rajeev"
+      ],
+      "approval": "AUTHOR_DIRECTED_PLOT_DETAILS_NO_PROSE",
+      "sequence": [
+        {
+          "id": "A11-CALL",
+          "time": "13:05–13:07 target",
+          "pov": "Ankita / Rajeev over phone",
+          "summary": "Ankita notices the delayed parcel notification, asks Rajeev. Rajeev confirms he has the parcel and will keep it safely at home for her return. Keep phone exchange to one or two short lines; no 15-minute call.",
+          "dialogue": [
+            {
+              "speaker": "Ankita",
+              "line": "Papa, courier ka notification aaya. Gopal ne kisko de diya?"
+            },
+            {
+              "speaker": "Rajeev",
+              "line": "Mere paas aa gaya hai beta. Main ghar par rakh deta hoon."
+            }
+          ]
+        },
+        {
+          "id": "A11-RAJEEV-POV",
+          "time": "13:08–13:15 target",
+          "pov": "Rajeev reader-only",
+          "summary": "After the phone call, Rajeev privately revisits Ankita's parcel and the adult personal item still inside it. User directs him to take the item into a private bathroom, have the parcel set before him, and experience a secret fantasy about Ankita. A previously used undergarment is mentioned as part of the desired beat, but its source/ownership and physical presence have NOT been established. Grok will expand this later; retain only a non-graphic action/interest skeleton here.",
+          "storyIntent": "As with the early Dhika Uncle setup: reader learns private interest and an actual off-screen boundary-crossing action; Ankita knows nothing of it. This is his unilateral fantasy, not mutual interest.",
+          "nonCanonDetail": "No specific explicit sexual behavior, ownership of a used undergarment, damage to items or final inventory outcome is asserted in this planning record.",
+          "editorFlags": [
+            "Personal items used without consent are a privacy violation, not flirtation or reciprocal consent.",
+            "The 'used undergarment' is NOT accounted for by P08 inventory. Grok cannot invent it in the box or assume it belonged to Ankita without author approval.",
+            "The item must remain available for A14 handover unless author later changes the established parcel inventory.",
+            "Other elder men's private action beats may be scheduled in later episodes when their characters appear; do not fabricate them now."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SCENE01-OPENING",
+      "title": "Four colleagues join Ankita — Office group opening",
+      "date": "2026-01-01",
+      "start": "13:15",
+      "end": "TBD",
+      "clockStatus": "START_PROPOSED_NO_DURATION_LOCK",
+      "location": "Cyber City office after mid-day release monitoring",
+      "cast": [
+        "ankita",
+        "vivan",
+        "reyansh",
+        "ankita_woman_06",
+        "ankita_woman_07"
+      ],
+      "approval": "AUTHOR_DIRECTED_OPENING_ONLY_NOT_FULL_ENCOUNTER",
+      "newlyOnPage": [
+        "Sana Khan — 24, QA Automation Engineer",
+        "Kavita Rao — 24, HR Executive"
+      ],
+      "establishedOfficeContinuity": "Vivan and Reyansh have already flirted with Ankita in published A08. Priya and Nisha remain existing staff but need not join this particular five-person scene.",
+      "beats": [
+        {
+          "id": "S01-ARRIVAL",
+          "summary": "Sana and Kavita arrive late to the New Year holiday office call-out; they were on the pre-existing proposed roster but absent from the earlier A08 on-page group. Their delay is caused by arranging a surprise for the evening; Sana also has a legitimate QA role and Kavita organizes the team celebration."
+        },
+        {
+          "id": "S01-FUNNY-PENALTY",
+          "summary": "The colleagues playfully impose a harmless late-arrival forfeit, such as having the latecomers coordinate a surprise game or group photo; no formal HR punishment or coercion. They can joke about the consequences while keeping the surprise undisclosed."
+        },
+        {
+          "id": "S01-FIVE-CAST",
+          "summary": "Vivan, Reyansh, Sana, Kavita and Ankita remain together for this first encounter; the group scene is NOT split into separate male/female time blocks. Evening five-person outing/ride is a future direction, route and vehicle not yet selected."
+        },
+        {
+          "id": "S01-PAUSE",
+          "summary": "Stop here for author-by-author discussion. Do not write group physical contact, outing specifics, other helper scenes, or an EP03 ending yet."
+        }
+      ],
+      "openChoices": [
+        "Which exact office late-arrival forfeit works best?",
+        "What exactly is the evening surprise?",
+        "How should the five-person interaction evolve?",
+        "Where will the five travel and in what vehicle?"
+      ]
+    }
+  ],
+  "otherNotes": [
+    "The earlier A11 archived draft remains parked; the A11 phone conversation is compressed and private Rajeev reader-only beat added as author directive.",
+    "Old men action versus interest ledger should be maintained later as reader-only first action, never mistaken for a mutual encounter.",
+    "All other Ankita EP03 scenes, including Rohit, Karan-Aman, Rinku, return, dinner and ending are on hold."
+  ]
+}
