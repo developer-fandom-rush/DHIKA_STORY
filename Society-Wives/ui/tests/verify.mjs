@@ -58,6 +58,20 @@ assert.equal(later.date,'2026-01-02','Jan2 future planning changed');
 assert.ok(JSON.stringify(later).includes('M08'),'Reserved M08 missing');
 const shreya=read('episode-03-shreya-plan.json');
 assert.equal(shreya.date,'2026-01-03');
+const females=JSON.parse(readFileSync(resolve(ui,'src/data/female-library.json'),'utf8'));
+assert.equal(females.characters.length,21,'Expected 21 verified female character references');
+assert.equal(females.characters.reduce((sum,c)=>sum+c.reference.length,0),21,'Reference portraits missing from Drive index');
+assert.equal(females.characters.reduce((sum,c)=>sum+c.generated.length,0),12,'Generated looks missing from Drive index');
+assert.equal(new Set(females.characters.map(c=>c.id)).size,21,'Female library has duplicate IDs');
+for(const person of females.characters){
+ assert.ok(person.name&&person.group,'Female reference identity or grouping missing');
+ for(const photo of [...person.reference,...person.generated]){
+  assert.ok(photo.url.startsWith('https://drive.google.com/file/d/'),'Unexpected private gallery source');
+  assert.ok(photo.title,'Gallery image missing a title');
+ }
+}
+assert.ok(females.rootFolder.includes('1Ysbw22LMMabnIQRivhDJXnRmojdzdepy'),'Wrong private female gallery folder');
+console.log('PASS: 21 owner-only reference faces and 12 generated looks indexed without changing privacy.');
 const gallery=JSON.parse(readFileSync(resolve(ui,'src/data/gallery.json'),'utf8'));
 const paths=new Set(),ids=new Set();
 for(const image of gallery.images){
