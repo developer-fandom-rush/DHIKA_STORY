@@ -854,16 +854,6 @@
       "notes": "From recent new-universe character discussion; not yet confirmed for on-page episodes."
     },
     {
-      "id": "ankita_woman_02",
-      "name": "Aditi Shah",
-      "age": 26,
-      "role": "Business Analyst; outgoing and observant",
-      "group": "office",
-      "house": "ankita",
-      "sourceStatus": "PROPOSED",
-      "notes": "From recent new-universe character discussion; not yet confirmed for on-page episodes."
-    },
-    {
       "id": "ankita_woman_03",
       "name": "Ira Mehta",
       "age": 32,
@@ -905,13 +895,14 @@
     },
     {
       "id": "ankita_woman_07",
-      "name": "Kavita Rao",
+      "name": "Aishwarya Rao",
       "age": 24,
-      "role": "HR Executive; onboarding, employee engagement and policy",
+      "role": "HR Executive / Event Coordination",
       "group": "office",
       "house": "ankita",
-      "sourceStatus": "PROPOSED",
-      "notes": "From recent new-universe character discussion; not yet confirmed for on-page episodes."
+      "sourceStatus": "USER_CONFIRMED_IDENTITY__PLOT_PENDING",
+      "notes": "From recent new-universe character discussion; not yet confirmed for on-page episodes. Existing responsibilities include onboarding, employee engagement and policy; identity renamed without changing history or evening-surprise plan. Reference face pending.",
+      "portraitStatus": "PENDING_VERIFIED_REFERENCE"
     },
     {
       "id": "ankita_woman_08",
