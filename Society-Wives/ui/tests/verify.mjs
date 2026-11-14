@@ -42,8 +42,8 @@ for(const image of gallery.images){
  if(image.source==='GitHub'){assert.ok(!paths.has(image.path),'Duplicate GitHub image '+image.path);paths.add(image.path);assert.ok(existsSync(resolve(root,image.path)),'Missing asset '+image.path);}
  else assert.equal(image.restricted,true,'Private Drive assets must never be embedded directly');
 }
-assert.equal(paths.size,26,'Expected full GitHub image inventory');
-assert.equal(gallery.images.filter(x=>x.source==='Google Drive').length,10,'Expected 10 restricted Drive scene links');
+assert.equal(paths.size,27,'Expected complete GitHub image inventory');
+assert.equal(gallery.images.filter(x=>x.source==='Google Drive').length,11,'Expected 11 restricted Drive image references');
 const directory=read('character-directory.json');
 assert.equal(directory.leads.length,5);
 assert.ok(directory.people.some(x=>x.id==='soniya'),'Soniya profile missing');
