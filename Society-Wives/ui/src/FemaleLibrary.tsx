@@ -1,17 +1,19 @@
 import { useEffect, useId, useState } from 'react';
 import archive from './data/female-library.json';
+import { assetUrl } from './lib';
 
-type Photo={title:string;url:string};
+type Photo={title:string;url:string;previewPath?:string};
 type Person=(typeof archive.characters)[number];
 function DriveImage({photo}:{photo:Photo}){
  const [failed,setFailed]=useState(false);
  const id=photo.url.split('/file/d/')[1]?.split('/')[0];
- const preview=id?'https://drive.google.com/thumbnail?id='+encodeURIComponent(id)+'&sz=w900':null;
+ const preview=photo.previewPath?assetUrl(photo.previewPath):id?'https://drive.google.com/thumbnail?id='+encodeURIComponent(id)+'&sz=w900':null;
  return <article className="female-photo">
   <div className="female-photo-frame">
    {preview&&!failed?<img loading="lazy" src={preview} alt={photo.title} onError={()=>setFailed(true)}/>:<div className="female-photo-placeholder" aria-label="Private Drive image"><span aria-hidden="true">◈</span><span>{failed?'Preview blocked by Google Drive':'Private portrait'}</span></div>}
   </div>
   <p className="female-photo-title">{photo.title}</p>
+  {photo.previewPath&&<p className="female-photo-preview-note">Published cast preview · Drive contains original</p>}
   <div className="female-photo-actions">
    <a className="button primary" href={photo.url} target="_blank" rel="noreferrer">Open in Drive</a>
   </div>
