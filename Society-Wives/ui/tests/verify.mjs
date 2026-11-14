@@ -34,6 +34,16 @@ assert.equal(scene.date,'2026-01-01');
 assert.equal(scene.start,'13:50');assert.equal(scene.end,'14:15');
 assert.equal(scene.beats.length,4);
 
+const ankitaOpening=read('episode-03-ankita-a11-scene-01-opening.json');
+assert.equal(ankitaOpening.date,'2026-01-01','Ankita A11 continuation should be Jan 1 only');
+assert.ok(ankitaOpening.status.includes('NOT_APPROVED_PROSE'),'A11 direction must not count as approved prose');
+assert.deepEqual(ankitaOpening.blocks.map(b=>b.id),['A11','SCENE01-OPENING'],'Only the first two Ankita planning blocks should be live');
+const ankitaCall=ankitaOpening.blocks[0].sequence[0];
+assert.ok(ankitaCall.dialogue[1].line.includes('Mere paas'),'Rajeev must retain parcel custody after call');
+assert.ok(ankitaOpening.blocks[0].sequence[1].editorFlags.some(x=>x.includes('NOT accounted for')),'Used garment provenance must remain unresolved');
+assert.deepEqual(ankitaOpening.blocks[1].cast,['ankita','vivan','reyansh','ankita_woman_06','ankita_woman_07'],'Five-person office opening must stay together');
+assert.ok(ankitaOpening.blocks[1].beats.some(b=>b.summary.includes('surprise')),'Sana and Kavita late-arrival surprise must be retained');
+assert.ok(ankitaOpening.blocks[1].beats.some(b=>b.summary.includes('forfeit')),'Funny late-arrival consequence must be retained');
 const farmhouse=read('episode-03-meenakshi-scene-02.json');
 assert.equal(farmhouse.episode,'03');
 assert.equal(farmhouse.start,'17:00');
