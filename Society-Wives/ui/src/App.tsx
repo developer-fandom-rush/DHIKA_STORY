@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { HOME, useRoute } from './lib';
+import { HOME, openPage, useRoute } from './lib';
 import Home from './Home';
 import Characters from './Characters';
 import Gallery from './Gallery';
@@ -17,7 +17,7 @@ export default function App(){
   {page==='gallery'&&<Gallery initialCharacter={params.get('character')||'all'} />}
   {page==='reading'&&<Reading character={params.get('character')||'ankita'} scene={params.get('scene')}/>}
   {page==='planning'&&<Planning lead={params.get('lead')||'meenakshi'}/>}
-  {!navigation.some(x=>x[0]===page)&&<main className="page-width"><h1>Page not found</h1><p>The requested view is not part of this reader.</p><a className="button primary" href={HOME}>Return Home</a></main>}
-  <footer className="site-footer"><div><strong>Society Wives — Five Veils of Desire</strong><p>One story archive. Original source texts, characters and planning boundaries are preserved.</p></div><a href={HOME}>↑ Back to Home</a></footer>
+  {!navigation.some(x=>x[0]===page)&&<main className="page-width"><h1>Page not found</h1><p>The requested view is not part of this reader.</p><button type="button" className="button primary" onClick={()=>openPage('home')}>Return Home</button></main>}
+  <footer className="site-footer"><div><strong>Society Wives — Five Veils of Desire</strong><p>Five lives, one continuous story.</p></div></footer>
  </div>;
 }
