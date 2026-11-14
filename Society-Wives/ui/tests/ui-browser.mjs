@@ -154,12 +154,12 @@ check(!(await page.locator('#ep03-meenakshi-scene-04').innerText()).includes('Ep
  check(await page.locator('.timeline-rescheduled').count()===4,'Shreya SR10–SR13 on January 3, still planned');
  await page.screenshot({path:resolve(screenshots,'08-sw-universal-jan03.png')});
  await page.locator('.universe-option',{hasText:'Dhika'}).click();
+ await page.waitForFunction(()=>location.hash.startsWith('#/dhika-timeline'));
  await page.locator('.timeline-event').first().waitFor();
+ check((await page.locator('.section-intro .eyebrow').innerText()).includes('DHIKA'),'Dhika switch actually mounts Dhika universe, not the previous SW page');
  check((await page.locator('select[aria-label="Timeline date"]').inputValue())==='2026-01-03','Universe switch preserves selected shared calendar date');
  check((await page.locator('.timeline-summary').innerText()).includes('Story Day 3'),'Dhika Jan3 maps to Day3 regardless of original weekday');
  await page.locator('select[aria-label="Timeline date"]').selectOption('2026-01-01');
- await page.waitForTimeout(800);
- console.log('DHIKA_DAY1_DEBUG',JSON.stringify(await page.evaluate(()=>({hash:location.hash,selected:document.querySelector('select[aria-label="Timeline date"]')?.value,count:document.querySelectorAll('.timeline-event').length,summary:document.querySelector('.timeline-summary')?.textContent,ids:[...document.querySelectorAll('.timeline-event')].slice(0,6).map(e=>e.id)}))));
  await page.waitForFunction(()=>document.querySelectorAll('.timeline-event').length===5);
  check(await page.locator('.timeline-event').count()===5,'Dhika Day1 has five anchored events across EP02–EP04');
  await page.screenshot({path:resolve(screenshots,'09-dhika-universal-day1.png')});
@@ -171,6 +171,7 @@ check(!(await page.locator('#ep03-meenakshi-scene-04').innerText()).includes('Ep
  check(await inner.locator('#EP04-P0008.timeline-target').count()===1,'Dhika timeline opens exact source paragraph in existing 41-episode reader');
  await page.screenshot({path:resolve(screenshots,'10-dhika-original-reader.png')});
  await page.locator('.universe-option',{hasText:'Society Wives'}).click();
+ await page.waitForFunction(()=>location.hash.startsWith('#/timeline'));
  await page.locator('.timeline-event').first().waitFor();
  check((await page.locator('select[aria-label="Timeline date"]').inputValue())==='2026-01-01','Switching back to Society Wives keeps the same shared date');
  await page.setViewportSize({width:390,height:844});
