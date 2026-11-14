@@ -67,10 +67,20 @@ try {
  await page.getByRole('heading',{name:'Meenakshi',exact:true}).last().waitFor();
  check(await page.locator('.profile-portrait').count()===1,'Meenakshi lead has a full public portrait');
  await page.screenshot({path:resolve(screenshots,'08-meenakshi-characters-desktop.png')});
+ await page.locator('.perspective-tabs button',{hasText:'Ankita'}).click();
+ await page.locator('.cast-name',{hasText:'Aishwarya Rao'}).click();
+ await page.getByRole('heading',{name:'Aishwarya Rao',exact:true}).first().waitFor();
+ check((await page.locator('.profile-panel').innerText()).includes('HR Executive / Event Coordination'),'Ankita office HR is Aishwarya Rao');
+ check((await page.locator('.profile-panel').innerText()).includes('Age 24'),'Aishwarya retains age 24');
+ check((await page.locator('.profile-panel').innerText()).includes('Reference portrait pending'),'Aishwarya shows no invented face');
+ check(await page.locator('.cast-name',{hasText:'Aditi Shah'}).count()===0,'Aditi Shah is absent from active Ankita cast');
+ await page.waitForFunction(()=>document.querySelector('#female-library select')?.value==='ankita_woman_07');
+ check(await page.locator('#female-library select').inputValue()==='ankita_woman_07','Aishwarya stable ID preserved in UI image library');
+ await page.screenshot({path:resolve(screenshots,'12-ankita-aishwarya-profile.png')});
  await page.locator('.main-nav a[href="#/gallery"]').click();
  await page.locator('.image-card').first().waitFor();
  check(await page.locator('.image-card').count()===54,'Gallery contains 54 indexed images (37 GitHub, 17 Drive)');
- check(await page.locator('#female-library select option').count()===21,'Image Gallery indexes all 21 female reference identities');
+ check(await page.locator('#female-library select option').count()===22,'Image Gallery indexes 21 verified reference identities and Aishwarya pending');
  check(await page.locator('#female-library .female-reveal-toggle').count()===2,'Gallery has separate Reference Face and Generated Looks reveal controls');
  check(await page.locator('#female-library .female-photo').count()===0,'Gallery images remain hidden until explicitly revealed');
  await page.locator('#female-library select').selectOption('meenakshi');
@@ -114,7 +124,7 @@ check(!(await page.locator('#ep03-meenakshi-scene-04').innerText()).includes('Ep
  await page.locator('#ankita-ep03-scene01-opening .beat-item').last().waitFor();
  check(await page.locator('#ankita-ep03-a11 .beat-item').count()===2,'Ankita A11 shows short call and separate Rajeev reader-only afterbeat');
  check((await page.locator('#ankita-ep03-a11').innerText()).includes('Mere paas aa gaya hai beta'),'Rajeev parcel confirmation is present');
- check((await page.locator('#ankita-ep03-scene01-opening').innerText()).includes('Sana')&&(await page.locator('#ankita-ep03-scene01-opening').innerText()).includes('Kavita'),'Five-person opening keeps late-arrival colleagues');
+ check((await page.locator('#ankita-ep03-scene01-opening').innerText()).includes('Sana')&&(await page.locator('#ankita-ep03-scene01-opening').innerText()).includes('Aishwarya'),'Five-person opening keeps late-arrival colleagues');
  check(await page.locator('#ankita-ep03-scene01-opening .beat-item').count()===4,'Ankita group opening has four short author-directed beats');
  
  await page.locator('.perspective-tabs button', {hasText:'Meenakshi'}).click();
