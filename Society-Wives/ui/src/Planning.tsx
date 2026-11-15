@@ -37,7 +37,7 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
  const {data:ankitaScene06,error:ankitaScene06Error}=useData<AnkitaScene06>('episode-03-ankita-scene-06-dance-draft.json');
  const {data:ankitaScene07,error:ankitaScene07Error}=useData<AnkitaScene07>('episode-03-ankita-scene-07-twins-pickup-homecoming.json');
   const {data:ankitaScene08,error:ankitaScene08Error}=useData<RinkuScene08>('episode-03-ankita-scene-08-rinku-setup.json');
- const {data:rohitFirstShow,error:rohitFirstShowError}=useData<RohitFirstShow>('episode-04-ankita-rohit-first-show.json');
+ const {data:rohitFirstShow,error:rohitFirstShowError}=useData<RohitFirstShow>('ankita-rohit-jan02-future-office.json');
  const {data:writingStyle,error:writingStyleError}=useData<Plan>('flirting-style.json');
  const {data:shreyaFuture}=useData<Plan>('episode-03-shreya-plan.json');
  useEffect(()=>{
@@ -249,7 +249,7 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
     <p><strong>Separate:</strong> narrator visual description · observer's glance · spoken teasing · woman's own response. Never silently omit an author-requested beat or invent new body canon.</p>
     {narratorRule?<><p><strong>Reference technique:</strong> {narratorRule.origin}</p><div className="beat-list">{narratorRule.methods.map((method,i)=><div key={i} className="beat-item"><p>{method}</p></div>)}</div><p><strong>Example vocabulary (not established body shapes):</strong> {narratorRule.examplePhrases.join(' · ')}</p><p className="muted">{narratorRule.status.replace(/_/g,' ')}</p></>:<p className="muted">{writingStyleError||'Writer style notes loading…'}</p>}
    </details>
-   <div className="split"><div><span className="eyebrow">Working story lane</span><h2>{titleCase(active)}</h2><p>{active==='ankita'?'Current EP03 Scenes 01–04 and the separate 2 January Rohit first-show plan are shown above. Earlier competing home and parcel follow-up outlines were removed; Scene 08 Rinku setup is the final Ankita Jan 1 entry.':activePlan?.plan?.title||'No separate Episode 03 working draft is available here yet.'}</p></div></div>
+   <div className="split"><div><span className="eyebrow">Working story lane</span><h2>{titleCase(active)}</h2><p>{active==='ankita'?'Current EP03 Scenes 01–08 and the separately preserved 2 January Rohit future-office plot are shown above. Earlier competing home and parcel follow-up outlines were removed; Scene 08 Rinku setup is the final Ankita Jan 1 entry.':activePlan?.plan?.title||'No separate Episode 03 working draft is available here yet.'}</p></div></div>
    {active==='taniya'&&<p className="source-note">Soniya's independent scenes belong to Taniya's continuity lane. Their existing joint plan is preserved; those scenes have not been promoted to finished prose.</p>}
    {active==='shivani'&&<p className="source-note">Shivani's future planning is not independently indexed as an Episode 03 scene in the audited sources. Earlier plot notes are preserved in the story archive.</p>}
    {activePlan?.plan&&<><p><strong>Original status:</strong> {str(activePlan.plan.status)||'REVIEW'}</p>{active==='meenakshi'&&<p><strong>Older separate outline — 2 January 2026.</strong> This is not part of 1 January's Scene 01–03 sequence. Senior Review M08 stays on Jan 2.</p>}
