@@ -86,3 +86,9 @@ These are **11 narrative lanes**, not eleven predetermined romances.
 - Continue ordinary story prose naturally after each marker. Do not add Grok instructions into the body of the scene.
 - A scene with unfilled placeholders remains a draft until the user approves the complete result.
 - Ankita EP03 Scene01 SQL draft: `episode-03-ankita-scene-01.sql` (SQLite-compatible export; not executed against a live DB).
+
+### Rajeev — explicit household backstory correction (2026-11-15)
+
+- Rajeev (61) is not an actual father-in-law or Kabir's father. Ankita and Kabir brought him from the roadside and invited him to live with them after marriage. Do not invent why he was on the road or any other unstated history.
+- The A04 breakfast line “Please stop, Uncle. We won't discuss it. Bas.” refers to that history, which Ankita does not want to discuss; it must **never** be read as a sexual/romantic rejection or invitation. Original approved A04 dialogue remains unchanged.
+- Ankita EP03 Scene01: exact user-written graphic/fantasy/action source is preserved in `episode-03-ankita-scene-01-user-verbatim.md`, and combined with assistant-authored conversation in `episode-03-ankita-scene-01.sql`. This remains a draft, **not** published in live episode HTML.
