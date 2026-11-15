@@ -153,6 +153,10 @@
     {
       "date": "2026-11-14",
       "change": "Saved user's bike-ride proposal verbatim as 'MY requirement (unfiltered)' on Scene 03 planning UI, plus separate pointers; shifted court location to five minutes outside society; preserved future doubles invitation as deferred."
+    },
+    {
+      "date": "2026-11-15",
+      "change": "Saved author's full T01–T03 drafted prose with three targeted EP02-continuity dialogue corrections; separated from under-review T04–T06 outline. Plot clock remains provisional."
     }
   ],
   "authorRequirement": {
@@ -195,5 +199,49 @@
       "key": "status",
       "value": "This is planning documentation preserving the user's specified details, not a published prose scene. Avoid claiming the historical source itself contains these new events."
     }
-  ]
+  ],
+  "authorCorrectedProse": {
+    "title": "The Badminton Bet",
+    "date": "2026-01-01",
+    "start": "18:15",
+    "status": "AUTHOR_SUBMITTED_T01_T03_CORRECTED_PUBLISHED_FOR_REVIEW",
+    "source": "Author-supplied T01–T03 15 November 2026; exactly three continuity dialogue corrections; no other scene prose rewritten",
+    "corrections": [
+      {
+        "beat": "T01",
+        "reason": "Morning wellness area is distinct from the off-society badminton court",
+        "from": "Tum dono abhi bhi yahi pe ho. Practice khatam nahi hui?",
+        "to": "Achha, tum dono yahan practice karte ho? Khatam nahi hui abhi?"
+      },
+      {
+        "beat": "T02",
+        "reason": "Morning costume was already plum kurta and grey cardigan, not white",
+        "from": "Aaj plum kurta hai. Kal white tha. Rating badh rahi hai ya gir rahi hai?",
+        "to": "Subah cardigan ke saath plum kurta tha. Ab cardigan haath mein hai. Fashion report update karni padegi."
+      },
+      {
+        "beat": "T02",
+        "reason": "Morning Uday already commented on kurta fitting",
+        "from": "Kurta fitted hai. Subah loose tha. Shaam ko body zyada clear dikh rahi hai.",
+        "to": "Subah cardigan tha, toh fitting utni clear nahi thi. Ab difference notice ho raha hai."
+      }
+    ],
+    "beats": [
+      {
+        "id": "T01",
+        "title": "A Familiar Court, a Different Evening",
+        "raw": "Meenakshi ne car park ki aur badminton court ki taraf badhi. Plum kurta abhi bhi uspe tha, cream palazzo neeche, grey cardigan haath mein. Baal thode loose ho gaye the farmhouse ke baad. Uski chaal normal thi, lekin mann abhi bhi pehle wali shaam ke kuch moments pe atka hua tha.\n\nCourt pe Uday aur Utkarsh rally khatam kar rahe the. Dono sportswear mein the — shorts aur t-shirts, thoda pasina. Shuttle last point pe gaya. Uday ne Meenakshi ko pehle dekha.\n\n**Uday:** “Arre Meenakshi ma’am! Aap yahan? Subah ke baad phir se?”\n\nUtkarsh ne racket neeche kiya aur uski taraf dekha. Uski nazar thodi der ruki — kurta ka fit, loose baal, cardigan haath mein.\n\n**Utkarsh:** “Shaam ko alag lag rahi hain. Subah se.”\n\nMeenakshi unke paas pahunchi. Subah wala playful tone usse yaad aa gaya.\n\n**Meenakshi:** “Achha, tum dono yahan practice karte ho? Khatam nahi hui abhi?”\n\n**Uday:** “Ho gayi almost. Aap aa gayi toh extra energy aa gayi.”\n\nMeenakshi hasi. Farmhouse ki tension thodi kam hui. Woh unke saath present hone lagi.\n\n**Meenakshi:** “Energy toh tum dono mein pehle se zyada hai. Subah bhi yahi lag raha tha.”\n\nUtkarsh ne shuttle uthaya. Uski nazar abhi bhi uspe thi, lekin Uday jaisi open nahi.\n\n**Utkarsh:** “Aap thaki hui lag rahi hain. Lamba din tha kya?”\n\nMeenakshi ne cardigan side pe rakha.\n\n**Meenakshi:** “Thoda. Tum log khel rahe ho, main dekh lun?”\n\nDono ne ek doosre ko dekha. Uday hasa. Utkarsh ne racket uski taraf thoda sa uthaya, jaise offer kar raha ho. Meenakshi court ke kinare khadi ho gayi. Shaam ki hawa mein uska kurta halka sa hil raha tha."
+      },
+      {
+        "id": "T02",
+        "title": "The Morning Fashion Report Returns",
+        "raw": "Uday ne racket side pe rakha aur Meenakshi ki taraf muskuraya.\n\n**Uday:** “Ma’am, subah wala fashion report continue karein? Subah cardigan ke saath plum kurta tha. Ab cardigan haath mein hai. Fashion report update karni padegi.”\n\nMeenakshi ne uski taraf dekha.\n\n**Meenakshi:** “Tum abhi bhi wahi report de rahe ho? Badminton ke baad bhi?”\n\n**Uday:** “Haan. Professional habit hai.”\n\nUtkarsh ne towel se face pochha. Uski nazar Meenakshi ke kurta ke fit pe gayi, phir upar.\n\n**Utkarsh:** “Report mein yeh add karo. Subah cardigan tha, toh fitting utni clear nahi thi. Ab difference notice ho raha hai.”\n\nUday ruk gaya. Meenakshi ne Utkarsh ki taraf dekha. Yeh Uday jaisa open nahi tha.\n\n**Meenakshi:** “Utkarsh, tum toh subah itna bolte nahi the.”\n\n**Utkarsh:** “Subah aap jaldi mein thi. Ab time hai.”\n\nMeenakshi hasi. Usne dono ko dekha — Uday openly grinning, Utkarsh calm lekin direct. Dono ke shorts aur t-shirts pasine se chipke hue the, arms aur shoulders clearly dikh rahe the.\n\n**Meenakshi:** “Tum dono ki bhi report lun? Badminton ke baad tumhara athletic look kaafi strong lag raha hai. Especially arms.”\n\n**Uday:** “Ma’am, aap bhi notice kar rahi hain?”\n\n**Meenakshi:** “Haan. Sirf tum log hi dekhte ho kya?”\n\nUtkarsh ne halka sa smile diya.\n\n**Utkarsh:** “Aap subah se zyada relaxed lag rahi hain. Isliye zyada bol rahe hain.”\n\n**Meenakshi:** “Shayad. Tum dono ke saath maza aata hai. Subah bhi aaya tha.”\n\nUday ne Utkarsh ki taraf dekha.\n\n**Uday:** “Yeh toh aaj alag mode mein hai.”\n\nMeenakshi ne dono ke beech ki nazar pakdi aur has di. Woh unke saath comfortable ho rahi thi. Farmhouse ki baatein thodi door ho gayi thin. Court pe ab teeno ki conversation chal rahi thi, aur Meenakshi khud usme participate kar rahi thi."
+      },
+      {
+        "id": "T03",
+        "title": "The Badminton Challenge",
+        "raw": "Meenakshi ne court ki taraf dekha.\n\n**Meenakshi:** “Tum log roz shaam ko yahan khelte ho?”\n\n**Uday:** “Haan. Almost roz. Utkarsh ko lagta hai main weak hoon, isliye extra practice.”\n\n**Utkarsh:** “Tum khud kehte ho.”\n\nMeenakshi hasi.\n\n**Meenakshi:** “Mujhe bhi try karna hai. Racket doge?”\n\nDono ruke. Uday ne turant racket uthaya.\n\n**Uday:** “Aap kurta-palazzo mein khelogi?”\n\n**Meenakshi:** “Haan. Problem hai?”\n\n**Utkarsh:** “Nahi. Bas dekhte hain kitna confidence hai.”\n\nUday ne apna racket uske haath mein diya. Meenakshi ne pakda. Thoda heavy laga. Uday ne shuttle upar phenka. Meenakshi ne swing kiya. Shuttle side mein gaya.\n\n**Uday:** “Arre! Power toh hai.”\n\nMeenakshi phir se try ki. Is baar shuttle net ke upar se gaya lekin out.\n\n**Meenakshi:** “Ek aur.”\n\nUtkarsh ne shuttle uthaya aur uske saamne fenka. Meenakshi ne stance liya, kurta thoda tight hua waist pe. Swing kiya. Shuttle seedha court mein gaya.\n\n**Utkarsh:** “Yeh better tha.”\n\nMeenakshi hasi, saans thodi tez. Uday ne taali bajayi.\n\n**Uday:** “Ma’am, aap toh seekh jayengi jaldi.”\n\n**Meenakshi:** “Dekhte hain. Tum log sikhao sahi se.”\n\nWoh racket ghumati rahi. Dono usse dekh rahe the, lekin Meenakshi khud actively try kar rahi thi. Court pe ab teeno the."
+      }
+    ]
+  }
 }
