@@ -93,6 +93,15 @@ assert.equal(farmhouse.episode,'03');
 assert.equal(farmhouse.start,'17:00');
 assert.equal(farmhouse.status,'USER_APPROVED_PLOT_DIRECTION_SAVED_NO_PROSE');
 assert.equal(farmhouse.beats.length,22,'Farmhouse plot beats must remain unchanged');
+const grokOriginals=read('episode-03-meenakshi-scene-02-grok-originals.json');
+assert.deepEqual(grokOriginals.order,['F01','F02','F03','F04','F05','F06','F07','F08','F09'],'All nine Grok original beat drafts in author order');
+assert.equal(grokOriginals.order.every(id=>typeof grokOriginals.beats[id]?.raw==='string'&&grokOriginals.beats[id].raw.length>100),true,'All nine original Grok drafts stored as full raw text');
+assert.ok(grokOriginals.beats.F05.raw.includes('No-bra hone ki wajah'),'F05 raw author draft retained');
+assert.ok(grokOriginals.beats.F06.raw.includes('Yash ne pehle uski waist pe haath rakha'),'F06 original first draft retained');
+assert.ok(grokOriginals.alternates.F06.raw.includes('Music aur tez ho gayi'),'Alternate second F06 original retained');
+assert.ok(grokOriginals.addenda[0].raw.includes('chotu_avi'),'Author F08 extra passage retained separately');
+assert.ok(!grokOriginals.beats.F06.raw.includes('Hospital mein toh tum itne quiet rehte ho'),'Do not substitute GPT-written F06 for Grok original');
+
 assert.equal(farmhouse.approvedProse?.F01?.status,'AUTHOR_APPROVED_PROSE_PUBLISHED','F01 must be author-approved prose');
 assert.equal(farmhouse.proseProgress?.approved.join(','),'F01,F04','Farmhouse F01 and new F04 are both approved');
 assert.equal(farmhouse.proseProgress?.pending.length,20,'Remaining 20 beats stay pending after F04 approval');
