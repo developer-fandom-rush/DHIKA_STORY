@@ -126,11 +126,16 @@ check(!(await page.locator('#ep03-meenakshi-scene-04').innerText()).includes('Ep
  await page.locator('.continuity-cards').waitFor({state:'detached'});
  check(await page.locator('.continuity-cards').count()===0,'Shreya planning view does not show unrelated Meenakshi episode cards');
  await page.locator('.perspective-tabs button', {hasText:'Ankita'}).click();
- await page.locator('#ankita-ep03-scene01-opening .beat-item').last().waitFor();
- check(await page.locator('#ankita-ep03-a11 .beat-item').count()===2,'Ankita A11 shows short call and separate Rajeev reader-only afterbeat');
- check((await page.locator('#ankita-ep03-a11').innerText()).includes('Mere paas aa gaya hai beta'),'Rajeev parcel confirmation is present');
- check((await page.locator('#ankita-ep03-scene01-opening').innerText()).includes('Sana')&&(await page.locator('#ankita-ep03-scene01-opening').innerText()).includes('Aishwarya'),'Five-person opening keeps late-arrival colleagues');
- check(await page.locator('#ankita-ep03-scene01-opening .beat-item').count()===4,'Ankita group opening has four short author-directed beats');
+ await page.locator('#ankita-ep03-scene02 .beat-item').last().waitFor();
+ check(await page.locator('#ankita-ep03-a11 .beat-item').count()===2,'Ankita Scene 01 displays short parcel call and separate Rajeev reader-only afterbeat');
+ check((await page.locator('#ankita-ep03-a11').innerText()).includes('Mere paas aa gaya hai beta'),'Ankita Scene 01 keeps Rajeev parcel confirmation');
+ check((await page.locator('#ankita-ep03-scene02').innerText()).includes('Sana')&&(await page.locator('#ankita-ep03-scene02').innerText()).includes('Aishwarya'),'Scene 02 keeps all five colleagues');
+ check(await page.locator('#ankita-ep03-scene02 > .beat-list .beat-item').count()===10,'Ankita Scene 02 shows ten finalized plot beats');
+ check((await page.locator('#ankita-ep03-scene02').innerText()).includes('Kabir ko toh aaj tak koi complaint nahi hui'),'Ankita verbal double-meaning slip remains in UI');
+ check((await page.locator('#ankita-ep03-scene02').innerText()).includes('jiggles'),'Sana prank keeps author-directed jiggle beat');
+ check((await page.locator('#ankita-ep03-scene02').innerText()).includes('fully upright and balanced'),'Reyansh's steadying support is not cut short');
+ check((await page.locator('#ankita-ep03-scene02').innerText()).includes('SECOND distinct accident'),'Second playful fall remains distinct');
+ check((await page.locator('#ankita-ep03-scene01-opening').count())===0,'Outdated Scene 01 office-opening card not shown');
  
  await page.locator('.perspective-tabs button', {hasText:'Meenakshi'}).click();
  await page.locator('.continuity-cards').waitFor();
