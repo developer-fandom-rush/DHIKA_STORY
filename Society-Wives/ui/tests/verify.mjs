@@ -113,7 +113,7 @@ assert.equal(rohitIntro.scene,'04');
 assert.equal(rohitIntro.beats.length,7,'Intro must retain seven approved setup beats');
 assert.ok(rohitIntro.costumeContinuity.scene04Entry.includes('closing the same two kurti buttons'),'Ankita must rebutton before Rohit introduction');
 assert.ok(rohitIntro.authorLocks.some(x=>x.includes('Jan 1 Rohit is INTRODUCTION ONLY')),'No Jan 1 first show allowed');
-const rohitFirstShow=read('episode-04-ankita-rohit-first-show.json');
+const rohitFirstShow=read('ankita-rohit-jan02-future-office.json');
 assert.equal(rohitFirstShow.date,'2026-01-02','Both Rohit first show encounters are on Jan 2');
 assert.equal(rohitFirstShow.episode,'TBD_AFTER_RINKU','Rohit Jan2 office plot is no longer immediate next episode');
 assert.equal(rohitFirstShow.encounters.length,2);
@@ -194,7 +194,7 @@ assert.equal(twins.beats.length,7,'Seven active badminton plot beats in current 
 assert.ok(twins.authorRequirement?.exactText?.includes('badminton court society se thora dur'),'Preserve author-verbatim requirements');
 const ending=read('episode-03-meenakshi-scene-04-babloo-intro.json');
 assert.equal(ending.episode,'03');
-assert.equal(ending.status,'USER_APPROVED_FIVE_BEAT_PLOT_NO_PROSE','Babloo author-approved plot status must be preserved');
+assert.equal(ending.status,'B01_B05_APPROVED_PLOT_FULL_PROSE_DRAFT_SAVED_FOR_REVIEW','Babloo current five-beat plot and prose draft for review preserved');
 assert.equal(ending.beats.length,5,'Babloo first encounter must include exactly five approved beats');
 assert.deepEqual(ending.beats.map(b=>b.id),['B01','B02','B03','B04','B05'],'Approved Babloo beats should stay in order');
 assert.ok(ending.beats[2].dialogue?.some(line=>line.speaker==='Babloo'&&line.line.includes('khoobsurat')),'Approved Babloo compliment must be preserved');
