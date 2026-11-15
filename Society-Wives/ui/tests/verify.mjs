@@ -96,6 +96,11 @@ assert.equal(farmhouse.beats.length,22,'Farmhouse plot beats must remain unchang
 assert.equal(farmhouse.approvedProse?.F01?.status,'AUTHOR_APPROVED_PROSE_PUBLISHED','F01 must be author-approved prose');
 assert.equal(farmhouse.proseProgress?.approved.join(','),'F01,F04','Farmhouse F01 and new F04 are both approved');
 assert.equal(farmhouse.proseProgress?.pending.length,20,'Remaining 20 beats stay pending after F04 approval');
+assert.equal(farmhouse.publishedDrafts?.F06?.status,'AUTHOR_REQUESTED_MIXED_WORKING_VERSION_PUBLISHED_PENDING_FINAL_APPROVAL','F06 must be a published working version, not an approved beat');
+assert.equal(farmhouse.publishedDrafts.F06.paragraphs.slice(0,3).filter(p=>p.origin==='GROK_VERBATIM'&&!p.italic).length,3,'Farmhouse F06 has exactly three verbatim Grok paragraphs');
+assert.ok(farmhouse.publishedDrafts.F06.paragraphs.slice(3).every(p=>p.origin==='ASSISTANT_REVISED'&&p.italic),'Assistant continuation of F06 must be italic and provenance-labelled');
+assert.equal(farmhouse.proseProgress.fullSceneApproved,false,'F06 working publication must not imply full-scene approval');
+assert.deepEqual(farmhouse.proseProgress.approved,['F01','F04'],'Only F01 and F04 are author-approved prose');
 assert.ok(farmhouse.approvedProse.F01.paragraphs.some(p=>p.highlight&&p.speaker==='Aditi'),'Approved F01 must expose key highlighted dialogue');
 assert.ok(!farmhouse.approvedProse.F01.paragraphs.some(p=>/Tum dono peeche baithna/.test(p.text)),'F01 must not include F02 seating');
 const twins=read('episode-03-meenakshi-scene-03-twins.json');
