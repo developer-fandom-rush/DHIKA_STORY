@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { leadOrder, Plan, openPage, titleCase, useData } from './lib';
+import { assetUrl, leadOrder, Plan, openPage, titleCase, useData } from './lib';
 const str=(v:unknown)=>typeof v==='string'?v:'';
 type PublishedLine={time?:string|null;kind:'narration'|'dialogue'|'cut';speaker?:string;text:string};
 type FarmhouseF01={title:string;status:string;paragraphs:{type:'dialogue'|'narration';speaker?:string;text:string;highlight?:boolean}[];endBoundary:string;};
@@ -100,6 +100,10 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
     <article className="episode-plan-card" id="ankita-ep03-scene03"><span className="eyebrow">Ankita · EP03 · Scene 03 · 1 Jan 2026 · Writer plot for review</span>
       <h2>{ankitaScene03?.title||'The Private Briefing — Ankita’s Beauty Test'}</h2>
       <p>13:45–15:30 · Cyber City IT office · Ankita, Mr. Bhalla (58), Sandeep Khurana (38); Aishwarya at the exit cliff</p>
+      <figure className="ankita-scene03-image" style={{margin:'1rem 0'}}>
+       <img src={assetUrl('assets/ankita-ep03-scene03-private-briefing.webp')} alt="Ankita presenting the successful New Year production release in a cream embroidered kurti and beige blazer to Mr. Bhalla and Sandeep" loading="lazy" style={{width:'min(100%, 440px)',height:'auto',borderRadius:'12px',display:'block'}}/>
+       <figcaption className="muted">Scene 03 generated visual reference · office presentation · illustration, not a face-canon photograph.</figcaption>
+      </figure>
       {ankitaScene03&&<><div className="beat-list">{ankitaScene03.beats.map(q=><div className="beat-item" key={q.id}><span className="eyebrow">{q.time}</span><h3>{q.name}</h3><p>{q.plot}</p>{q.suggestedCliffDialogue&&<p><strong>Cliff:</strong> {q.suggestedCliffDialogue}</p>}</div>)}</div>
       <details className="episode-outline"><summary>Author instruction validation · 5 of 5 beats</summary><div className="beat-list">{ankitaScene03.validation.map(v=><div className="beat-item" key={v.beat}><p><strong>{v.beat} · {v.status}:</strong> {v.requirement}</p></div>)}</div></details>
       <p className="muted">{ankitaScene03.status.replace(/_/g,' ')} · {ankitaScene03.proseStatus.replace(/_/g,' ')}. Next: {ankitaScene03.nextSceneSeed}</p></>}
