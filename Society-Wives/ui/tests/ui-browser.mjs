@@ -110,6 +110,12 @@ try {
  check((await page.locator('#farmhouse-approved-F04').innerText()).includes('burgundy mini-dress'),'Aditi F04 entrance visible in UI');
  check((await page.locator('#farmhouse-approved-F04').innerText()).includes('Ab dekhna band karoge, ya dance bhi karoge?'),'Approved F04 dance invitation visible');
  check((await page.locator('#farmhouse-approved-F04 strong').count())>=3,'F04 important dialogue and reactions are highlighted');
+ await page.locator('#farmhouse-mixed-F06 .dialogue').first().waitFor();
+ check((await page.locator('#farmhouse-mixed-F06').innerText()).includes('Yash. Tum bhi aa jao.'),'F06 working draft shows Grok/assistant provenance');
+ check(await page.locator('#farmhouse-mixed-F06 .source-scene > p').count()===22,'F06 has 3 original paragraphs plus 19 assistant edits');
+ check(await page.locator('#farmhouse-mixed-F06 .source-scene > p em').count()===19,'F06 assistant paragraphs appear italic in UI');
+ check((await page.locator('#farmhouse-mixed-F06').innerText()).includes('not final author-approved prose'),'F06 remains a reviewable draft');
+
  check((await page.locator('.continuity-cards').innerText()).includes('The Badminton Bet'),'New Meenakshi Scene 03 appears after farmhouse');
  check((await page.locator('.continuity-cards').innerText()).includes('The First Different Look — Babloo'),'Author-approved Babloo encounter appears in the correct Scene 04 position');
  const orderedCards=await page.locator('.continuity-cards .episode-plan-card').evaluateAll(nodes=>nodes.map(n=>n.id));
