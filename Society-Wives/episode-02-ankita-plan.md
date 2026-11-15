@@ -312,7 +312,7 @@
 ## Character foundations
 - **ankita:** 30, confident IT tech lead, maintains fitness through park mobility/yoga and walking; professional and approachable.
 - **kabir:** Ankita's husband, playful affection and a supportive relationship.
-- **rajeev:** Kabir's socially presented older household associate (not his actual father or Ankita's FIL); current Atlas has unreciprocated private attraction as proposal.
+- **rajeev:** Socially addressed as Rajeev Uncle; NOT Kabir's father or Ankita's actual FIL. Ankita and Kabir brought him from the roadside and invited him to live with them after marriage. A04's interrupted history discussion refers ONLY to their residential backstory, not romantic/sexual meaning. His one-sided private attraction is a separate matter.
 - **karan:** 22, Kabir's younger twin brother, lives in the same family home; outgoing, preparing for MBA/management roles and freelances.
 - **aman:** 22, Karan's twin, lives in same family home; more reserved, preparing for Java/backend job interviews.
 - **home:** Gulmohar Heights, Gurgaon; Ankita, Kabir, Rajeev, Karan, Aman share a home. This residency is newly established in this working draft.
