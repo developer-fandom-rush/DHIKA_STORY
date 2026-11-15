@@ -8,7 +8,7 @@ export default function Home({scene}:{scene?:string|null}){
    <span className="eyebrow">Gulmohar Heights · Gurgaon · Prologue / Episode 01</span>
    <h1>Society Wives <em>— Five Veils of Desire</em></h1>
    <p className="hero-copy">Five women. Five lives. One society.</p>
-   <div className="hero-actions"><button type="button" className="button primary" onClick={()=>openPage('reading',{character:'ankita'})}>Continue to Episode 02 <span aria-hidden="true">→</span></button><button type="button" className="button subtle" onClick={()=>openPage('planning',{lead:'meenakshi',scene:'01'})}>Read EP03 · Meenakshi approved Scene 01</button><a className="button subtle" href={assetUrl('episode-03-meenakshi-scene-03-t01-t07.html')}>Read EP03 · Badminton T01–T07</a></div>
+   <div className="hero-actions"><button type="button" className="button primary" onClick={()=>openPage('reading',{character:'ankita'})}>Continue to Episode 02 <span aria-hidden="true">→</span></button><button type="button" className="button subtle" onClick={()=>openPage('planning',{lead:'meenakshi',scene:'01'})}>Read EP03 · Meenakshi approved Scene 01</button><a className="button subtle" href={assetUrl('episode-03-meenakshi-scene-03-t01-t07.html')}>Read EP03 · Badminton T01–T07</a><a className="button subtle" href={assetUrl('episode-03-meenakshi-scene-04-babloo-intro.html')}>Read EP03 · Babloo Scene 04 draft</a></div>
   </section>
   <div className="reading-heading">
    <div><span className="eyebrow">The original opening</span><h2>{data?.episode.title||'Episode 01 — Prologue'}</h2><p>{data?.episode.subtitle}</p></div>
