@@ -159,7 +159,7 @@ check(!(await page.locator('#ep03-meenakshi-scene-04').innerText()).includes('Ep
  check(await page.locator('.universe-option').count()===2,'Left switcher has exactly Society Wives and Dhika');
  await page.locator('.universal-top-link').click();
  await page.locator('.timeline-event').first().waitFor();
- check(await page.locator('.timeline-event').count()===74,'Society Wives Jan1 displays 74 time-ordered unique source / planning events');
+ check(await page.locator('.timeline-event').count()===75,'Society Wives Jan1 displays 75 time-ordered unique source / planning events');
  check((await page.locator('.timeline-start').innerText()).includes('00:01'),'Universal story clock begins at 00:01 without inventing an encounter');
  check((await page.locator('.timeline-event').first().innerText()).includes('06:20'),'Earliest Jan1 event is sorted to morning 06:20');
  await page.locator('#timeline-e02-meenakshi-M01 summary').click();
