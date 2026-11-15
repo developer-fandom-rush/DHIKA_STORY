@@ -258,7 +258,8 @@
   ],
   "handoff": {
     "nextScene": "07",
-    "scope": "Exit from venue, Sana and Aishwarya remain for the longer office party, Vivan and Reyansh drop Ankita at home by car (proposed 10-minute drive) and later return to the venue; later guests and after-drop continuation to discuss separately.",
-    "status": "SCENE07_NOT_YET_LOCKED"
+    "scope": "Ankita leaves the five-person party at about 17:20; Sana, Aishwarya, Vivan and Reyansh remain. Reyansh and Vivan offer to drop Ankita but she declines. She calls Karan and Aman, who arrive in about two minutes. Group photo and goodbyes; Ankita drives the car home with both twins seated behind. Gopal's slightly changed gaze at the society gate precedes arrival home before 18:00. No after-drop continuation here.",
+    "source": "episode-03-ankita-scene-07-twins-pickup-homecoming.json",
+    "status": "USER_DIRECTED_REPLACEMENT_FOR_EARLIER_COLLEAGUE_DROP_PROPOSAL"
   }
 }
