@@ -79,7 +79,7 @@ try {
  await page.screenshot({path:resolve(screenshots,'12-ankita-aishwarya-profile.png')});
  await page.locator('.main-nav a[href="#/gallery"]').click();
  await page.locator('.image-card').first().waitFor();
- check(await page.locator('.image-card').count()===53,'Gallery contains 53 indexed images (37 GitHub, 16 Drive)');
+ check(await page.locator('.image-card').count()===54,'Gallery contains 54 indexed images (38 GitHub, 16 Drive)');
  check(await page.locator('#female-library select option').count()===22,'Image Gallery indexes 21 verified reference identities and Aishwarya pending');
  check(await page.locator('#female-library .female-reveal-toggle').count()===2,'Gallery has separate Reference Face and Generated Looks reveal controls');
  check(await page.locator('#female-library .female-photo').count()===0,'Gallery images remain hidden until explicitly revealed');
@@ -143,6 +143,9 @@ check(!(await page.locator('#ep03-meenakshi-scene-04').innerText()).includes('Ep
  check(await page.locator('#ankita-ep03-scene03 > .beat-list .beat-item').count()===5,'Ankita Scene 03 displays five revised plot beats');
  check((await page.locator('#ankita-ep03-scene03').innerText()).includes('twenty minutes'),'Ankita-led twenty-minute personal presentation is visible');
  check((await page.locator('#ankita-ep03-scene03').innerText()).includes('Aishwarya'),'Aishwarya confrontation ending is visible');
+ check(await page.locator('#ankita-ep03-scene03 .ankita-scene03-image img').count()===1,'User generated release briefing picture appears in Scene 03');
+ check(await page.locator('#ankita-ep03-scene03 .ankita-scene03-image img').evaluate(img=>img instanceof HTMLImageElement&&img.complete&&img.naturalWidth>250),'Uploaded briefing image is loaded rather than broken');
+
  await page.locator('#ankita-ep03-scene04-rohit .beat-item').first().waitFor();
  check(await page.locator('#ankita-ep03-scene04-rohit .beat-item').count()===7,'Jan 1 Rohit introduction shows exactly seven setup beats');
  check((await page.locator('#ankita-ep03-scene04-rohit').innerText()).includes('closing the same two kurti buttons'),'Jan 1 Rohit intro restores closed buttons');
