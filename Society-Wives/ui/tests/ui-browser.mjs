@@ -160,6 +160,10 @@ check(!(await page.locator('#ep03-meenakshi-scene-04').innerText()).includes('Ep
  check(await page.locator('#ankita-ep03-scene03 .ankita-scene03-image img').count()===1,'User generated release briefing picture appears in Scene 03');
  check(await page.locator('#ankita-ep03-scene03 .ankita-scene03-image img').evaluate(img=>img instanceof HTMLImageElement&&img.complete&&img.naturalWidth>250),'Uploaded briefing image is loaded rather than broken');
 
+ await page.locator('#ankita-ep03-scene05 .beat-item').last().waitFor();
+ check(await page.locator('#ankita-ep03-scene05 .beat-item').count()===4,'Merged approved Scene 05 must show exactly four journey beats');
+ check((await page.locator('#ankita-ep03-scene05').innerText()).includes('Reyansh'),'Reyansh drives and owns the outing car');
+ check((await page.locator('#ankita-ep03-scene05').innerText()).includes('18:00'),'Ankita home deadline preserved in Scene 05');
  await page.locator('#ankita-ep03-scene04-rohit .beat-item').first().waitFor();
  check(await page.locator('#ankita-ep03-scene04-rohit .beat-item').count()===7,'Jan 1 Rohit introduction shows exactly seven setup beats');
  check((await page.locator('#ankita-ep03-scene04-rohit').innerText()).includes('closing the same two kurti buttons'),'Jan 1 Rohit intro restores closed buttons');
@@ -199,7 +203,7 @@ check(!(await page.locator('#ep03-meenakshi-scene-04').innerText()).includes('Ep
  check(await page.locator('.universe-option').count()===2,'Left switcher has exactly Society Wives and Dhika');
  await page.locator('.universal-top-link').click();
  await page.locator('.timeline-event').first().waitFor();
- check(await page.locator('.timeline-event').count()===79,'Society Wives Jan1 displays 79 time-ordered unique source / planning events');
+ check(await page.locator('.timeline-event').count()===80,'Society Wives Jan1 displays 80 time-ordered source / planning events');
  check(await page.locator('#timeline-ep03-ankita-scene04').count()===1,'Rohit Jan1 introduction appears in active calendar');
  check((await page.locator('.timeline-start').innerText()).includes('00:01'),'Universal story clock begins at 00:01 without inventing an encounter');
  check((await page.locator('.timeline-event').first().innerText()).includes('06:20'),'Earliest Jan1 event is sorted to morning 06:20');
