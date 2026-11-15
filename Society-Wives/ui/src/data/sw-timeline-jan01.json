@@ -2748,6 +2748,42 @@
       "detail": "Reyansh drives; Aishwarya in front; Vivan–Ankita–Sana rear; playful banter and friendly contact; nearby venue arrival. Old Scene 05+06 split proposal replaced by one Scene 05."
     },
     {
+      "id": "ep03-ankita-scene06",
+      "date": "2026-01-01",
+      "sort": "16:40",
+      "start": "16:40",
+      "end": "17:20",
+      "timeLabel": "16:40–17:20 (proposed)",
+      "universe": "sw",
+      "title": "Scene 06 — The Stamina Challenge (Dance)",
+      "lead": "Ankita",
+      "characters": [
+        "Ankita",
+        "Sana Khan",
+        "Aishwarya Rao",
+        "Vivan",
+        "Reyansh"
+      ],
+      "mentions": [],
+      "episode": "03",
+      "scene": "06",
+      "kind": "planned",
+      "state": "prose-review",
+      "status": "Author-directed prose draft · approval pending",
+      "source": "episode-03-ankita-scene-06-dance-draft.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "ankita",
+        "scene": "06"
+      },
+      "flags": [
+        "Only five named dancers; service staff stay off floor",
+        "No return drive or guest arrivals in this scene",
+        "Exact minute markers provisional"
+      ],
+      "detail": "Initial couple turns; women centered one at a time between Vivan and Reyansh; reversed turns with Reyansh/Vivan centered between women; witty double meanings and mutual reactions. Stops at 17:20."
+    },
+    {
       "id": "e03-meenakshi-02",
       "date": "2026-01-01",
       "sort": "17:00",
