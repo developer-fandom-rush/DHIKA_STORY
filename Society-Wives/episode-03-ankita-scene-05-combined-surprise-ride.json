@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "id": "SW-ANKITA-EP03-SCENE05-COMBINED-RIDE",
+  "episode": "03",
+  "scene": "05",
+  "lead": "ankita",
+  "date": "2026-01-01",
+  "title": "Three Against Two — The Surprise Ride",
+  "status": "USER_APPROVED_COMBINED_PLOT_NOT_PROSE",
+  "time": {
+    "start": "16:00",
+    "end": "16:40",
+    "certainty": "PROPOSED_MINUTE_MARKERS"
+  },
+  "source": "Author approved combining the earlier Scene 05 and Scene 06 into one compact journey/arrival plot; this file supersedes those split proposals.",
+  "cast": [
+    {
+      "id": "ankita",
+      "name": "Ankita",
+      "age": 30
+    },
+    {
+      "id": "ankita_woman_06",
+      "name": "Sana",
+      "age": 24
+    },
+    {
+      "id": "ankita_woman_07",
+      "name": "Aishwarya",
+      "age": 24
+    },
+    {
+      "id": "vivan",
+      "name": "Vivan",
+      "age": 24
+    },
+    {
+      "id": "reyansh",
+      "name": "Reyansh",
+      "age": 24
+    }
+  ],
+  "continuity": {
+    "from": "Immediately after EP03 Scene 04 Rohit office introduction (~16:00); Rohit is not on the outing.",
+    "outfits": [
+      "Ankita: cream embroidered kurti, tailored beige blazer and fitted trousers, two top buttons reclosed after Aishwarya confrontation.",
+      "Aishwarya: burgundy satin shirt over camisole, fitted black trousers and blazer.",
+      "Sana: emerald fitted blouse, high-waisted trousers and jacket."
+    ],
+    "vehicle": "Reyansh brought his own five-seat car; he is the driver.",
+    "seats": {
+      "driver": "Reyansh",
+      "frontPassenger": "Aishwarya",
+      "rearLeft": "Vivan",
+      "rearMiddle": "Ankita",
+      "rearRight": "Sana"
+    },
+    "deadline": "Ankita must return home by 18:00, so this is only a short outing close to the office, not dinner.",
+    "destination": "Nearby private rooftop/lounge-style New Year venue; actual name, booking and geographic address are not established.",
+    "rejectedImages": "Previously generated solo/group illustrations rejected by user; do not add them as official face/outfit assets."
+  },
+  "beats": [
+    {
+      "id": "S05-01",
+      "heading": "Office to car — one-line handoff",
+      "plot": "After Rohit's brief introduction, Ankita rejoins Sana, Aishwarya, Vivan and Reyansh. Aishwarya's earlier Bhalla/Sandeep briefing question remains a one-line private tease; Ankita smiles it away. They go directly to Reyansh's car, no repeated technical or new HR subplot.",
+      "dialogue": [
+        {
+          "speaker": "Aishwarya",
+          "line": "Briefing ka answer abhi pending hai."
+        },
+        {
+          "speaker": "Ankita",
+          "line": "Aur tumhara surprise abhi pending hai. Chalo!"
+        }
+      ]
+    },
+    {
+      "id": "S05-02",
+      "heading": "Reyansh's car, seating and banter",
+      "plot": "Reyansh drives; Aishwarya sits in front, Vivan-Ankita-Sana sit together behind. Sana jokes that the three-versus-two stamina challenge hasn't been settled. The friends trade bold, naughty, workplace double meanings, with Ankita actively counter-teasing instead of only blushing.",
+      "dialogue": [
+        {
+          "speaker": "Sana",
+          "line": "Teen ladkiyan, do ladke. Reyansh, gaadi ka stamina check kiya hai?"
+        },
+        {
+          "speaker": "Reyansh",
+          "line": "Engine ki guarantee hai. Tum logon ki masti ki nahi!"
+        },
+        {
+          "speaker": "Vivan",
+          "line": "Madam, middle seat ka matlab close supervision."
+        },
+        {
+          "speaker": "Ankita",
+          "line": "Supervision ke naam par misuse kiya toh appraisal cancel."
+        }
+      ]
+    },
+    {
+      "id": "S05-03",
+      "heading": "The drive — friendly deliberate contact, incidental brushes and reaction",
+      "plot": "During turns and cramped rear-seat movements, Ankita and Vivan's elbows and side waist briefly brush. One contact near her waist happens when Vivan adjusts for space; another stomach-side/elbow brush is incidental as car turns, distinguished from deliberate friendly teasing. Ankita catches his hand and jokes about her personal territory, clearly participating. Sana leans forward to exchange jokes with Aishwarya; she laughs and responds to Vivan's light side/shoulder contact, playful but without a surprise grab. Aishwarya teases from the front; when safe at a stop, Reyansh can exchange a brief affectionate hand touch with her, but keeps driving control and eyes on road. Reactions are shown in smiles, mock-scolding and witty reversals, not assumed silent consent. No prolonged physical choreography; focus remains dialogue.",
+      "dialogue": [
+        {
+          "speaker": "Ankita",
+          "line": "Tumhara elbow baar-baar meri territory mein kyun aa raha hai?"
+        },
+        {
+          "speaker": "Vivan",
+          "line": "Space kam hai, madam. Intentions pe shaq mat karo!"
+        },
+        {
+          "speaker": "Sana",
+          "line": "Intentions ka audit main karungi."
+        },
+        {
+          "speaker": "Aishwarya",
+          "line": "Complaints ke saath compliments bhi accept karungi."
+        },
+        {
+          "speaker": "Reyansh",
+          "line": "Main steering sambhaal raha hoon. Backseat ka performance review baad mein!"
+        },
+        {
+          "speaker": "Ankita",
+          "line": "Tum sabko lagta hai main phas gayi? Dekhte hain kaun kisko handle karta hai."
+        }
+      ]
+    },
+    {
+      "id": "S05-04",
+      "heading": "Arrival by around 16:40 — one clean cut",
+      "plot": "They arrive at the nearby surprise venue. Reyansh parks before anybody gets out; brief offered helping hands and one last playful joke. Ankita reminds them she must be home by 18:00. The venue entrance is reached; stop before any party interior event, which belongs to proposed Scene 06.",
+      "dialogue": [
+        {
+          "speaker": "Ankita",
+          "line": "Ab surprise dikhao. Six baje se pehle ghar bhi pahunchna hai."
+        },
+        {
+          "speaker": "Sana",
+          "line": "Stamina challenge abhi pending hai!"
+        }
+      ]
+    }
+  ],
+  "boundaries": [
+    "Merged original scene 05 parking/boarding and scene 06 journey/arrival into exactly one Scene 05.",
+    "No dinner, no new separate surprise rules, no standalone Aishwarya secret scene.",
+    "No new image canon; previous generated images were rejected.",
+    "No invented fixed venue name or exact travel time claims.",
+    "The two Jan2 Rohit encounters remain separate and untouched.",
+    "Scene 06 starts AT the venue entrance after arrival, not a second road journey."
+  ],
+  "next": "EP03 Scene 06 — short celebration at venue and homebound departure, plot NOT APPROVED",
+  "proseStatus": "NOT_WRITTEN"
+}
