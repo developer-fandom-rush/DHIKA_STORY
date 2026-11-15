@@ -2722,7 +2722,7 @@
       "timeLabel": "17:00 · provisional",
       "universe": "sw",
       "title": "The Farmhouse Evening — Four Adults, Shifting Attention",
-      "subtitle": "Original 9 beats plus F06 alternate/F08 addition archived; F10–F22 pending",
+      "subtitle": "F04 author-retained line and approved cuts; F06 second text continues first; F10-F22 still plot-only",
       "lead": "Meenakshi",
       "characters": [
         "Meenakshi"
@@ -2732,7 +2732,7 @@
       "scene": "02",
       "kind": "planned",
       "state": "plot",
-      "status": "Author Grok originals F01–F09 published; assistant versions separate",
+      "status": "F01-F04 compact Grok approved; F05-F09 source drafts with continuous F06 Part 2",
       "source": "episode-03-meenakshi-scene-02.json",
       "reader": {
         "type": "sw-plan",
