@@ -56,6 +56,14 @@ assert.ok(ankitaScene02.sequence[7].plot.includes('bum')&&ankitaScene02.sequence
 assert.ok(ankitaScene02.sequence[8].plot.includes('SECOND distinct accident'),'Chase and second fall must remain separate');
 assert.ok(ankitaScene02.sequence[9].plot.includes('whiteboard'),'Scene ends on normal board talk; no scene 03 intrusion');
 assert.ok(!ankitaScene02.sequence.some(x=>x.plot.includes('photo challenge')),'Photo challenge must not be revived');
+const ankitaScene03=read('episode-03-ankita-scene-03.json');
+assert.equal(ankitaScene03.scene,'03','Ankita private briefing must remain Scene 03');
+assert.equal(ankitaScene03.status,'USER_REVISED_PLOT_BLUEPRINT_FOR_FINAL_REVIEW_NOT_PROSE');
+assert.equal(ankitaScene03.beats.length,5,'Author five revised beats');
+assert.equal(ankitaScene03.validation.length,5,'All user beat corrections validated');
+assert.ok(ankitaScene03.beats[2].plot.includes('upper two buttons'),'Self-directed outfit test must be retained');
+assert.ok(ankitaScene03.beats[3].plot.includes('twenty minutes'),'Ankita must lead sustained personal presentation');
+assert.ok(ankitaScene03.beats[4].plot.includes('Aishwarya'),'Aishwarya confrontation cliff must remain');
 const writingStyle=read('flirting-style.json');
 assert.equal(writingStyle.narratorVisualDescription.status,'AUTHOR_DIRECTED_WRITING_STYLE_RULE_NOT_EPISODE_CANON','Author narrator instruction must stay style-only');
 assert.ok(writingStyle.narratorVisualDescription.methods.some(x=>x.includes('walking')),'Movement description instruction missing');
