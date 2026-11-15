@@ -1183,16 +1183,6 @@
     "currentEpisodeCutoff": "2026-01-01 13:00",
     "lastVisibleScene": "P08 12:30–12:50 (USER APPROVED), Rajeev leaves after committee ends",
     "ankitaEndState": "At Cyber City office through the Jan 1 13:00 cutoff. No A09 or A10 on Jan 1; those are deferred to Jan 2, episode TBD.",
-    "deferredFile": "episode-03-ankita-pending.json",
-    "deferredIds": [
-      "A11",
-      "A12",
-      "A13",
-      "A14",
-      "A15",
-      "A16",
-      "A17"
-    ],
     "officeScenesRescheduled": {
       "ids": [
         "A09",
@@ -1240,7 +1230,8 @@
       "P01 narrative linkage with A07 and P02",
       "P07 unfinished Mahendra question",
       "P08 original marriage-related inquiry and location timing"
-    ]
+    ],
+    "nextActiveAnkitaStory": "EP03 Scene01 Rajeev call (at office), Scene02–07 office and twins ride, Scene08 fresh-up/Rinku doorbell at 18:10–18:25. No parcel handover or discovery and no Gopal/elder follow-up."
   },
   "planningQuestions": [
     "Shivani is next to discuss for 2026-01-01: which morning / home / society routine overlaps Rohan's 06:20–06:37 park walk?",
