@@ -157,6 +157,10 @@
     {
       "date": "2026-11-15",
       "change": "Saved author's full T01–T03 drafted prose with three targeted EP02-continuity dialogue corrections; separated from under-review T04–T06 outline. Plot clock remains provisional."
+    },
+    {
+      "date": "2026-11-15",
+      "change": "Added author-submitted T04–T06 verbatim with three minor continuity corrections to continuation; full T01–T06 reading text available. Do not change unfinished car/return planning."
     }
   ],
   "authorRequirement": {
@@ -204,8 +208,8 @@
     "title": "The Badminton Bet",
     "date": "2026-01-01",
     "start": "18:15",
-    "status": "AUTHOR_SUBMITTED_T01_T03_CORRECTED_PUBLISHED_FOR_REVIEW",
-    "source": "Author-supplied T01–T03 15 November 2026; exactly three continuity dialogue corrections; no other scene prose rewritten",
+    "status": "AUTHOR_SUBMITTED_T01_T06_CORRECTED_PUBLISHED_FOR_REVIEW",
+    "source": "Author supplied T01–T03 and T04–T06; six tightly scoped continuity/dialogue corrections total; preserved T04–T06 originals separately; all T01–T06 prose is author-review, not locked canon",
     "corrections": [
       {
         "beat": "T01",
@@ -224,6 +228,24 @@
         "reason": "Morning Uday already commented on kurta fitting",
         "from": "Kurta fitted hai. Subah loose tha. Shaam ko body zyada clear dikh rahi hai.",
         "to": "Subah cardigan tha, toh fitting utni clear nahi thi. Ab difference notice ho raha hai."
+      },
+      {
+        "beat": "T04",
+        "from": "Uday ne racket side pe rakha aur Meenakshi ke paas aaya.",
+        "to": "Uday Meenakshi ke paas aaya.",
+        "reason": "Uday gave his racket to Meenakshi during T03, so he is not holding it at the T04 opening."
+      },
+      {
+        "beat": "T05",
+        "from": "Usne haath hataya.",
+        "to": "Usne haath hataya aur racket Meenakshi ko lauta diya.",
+        "reason": "Utkarsh took the racket to demonstrate; this restores possession before Meenakshi returns it in T06."
+      },
+      {
+        "beat": "T06",
+        "from": "Subah aap zyada bol rahe the. Aaj main.",
+        "to": "Subah tum zyada bol rahe the. Aaj main.",
+        "reason": "Utkarsh is speaking informally to his brother, not to Meenakshi."
       }
     ],
     "beats": [
@@ -241,6 +263,41 @@
         "id": "T03",
         "title": "The Badminton Challenge",
         "raw": "Meenakshi ne court ki taraf dekha.\n\n**Meenakshi:** “Tum log roz shaam ko yahan khelte ho?”\n\n**Uday:** “Haan. Almost roz. Utkarsh ko lagta hai main weak hoon, isliye extra practice.”\n\n**Utkarsh:** “Tum khud kehte ho.”\n\nMeenakshi hasi.\n\n**Meenakshi:** “Mujhe bhi try karna hai. Racket doge?”\n\nDono ruke. Uday ne turant racket uthaya.\n\n**Uday:** “Aap kurta-palazzo mein khelogi?”\n\n**Meenakshi:** “Haan. Problem hai?”\n\n**Utkarsh:** “Nahi. Bas dekhte hain kitna confidence hai.”\n\nUday ne apna racket uske haath mein diya. Meenakshi ne pakda. Thoda heavy laga. Uday ne shuttle upar phenka. Meenakshi ne swing kiya. Shuttle side mein gaya.\n\n**Uday:** “Arre! Power toh hai.”\n\nMeenakshi phir se try ki. Is baar shuttle net ke upar se gaya lekin out.\n\n**Meenakshi:** “Ek aur.”\n\nUtkarsh ne shuttle uthaya aur uske saamne fenka. Meenakshi ne stance liya, kurta thoda tight hua waist pe. Swing kiya. Shuttle seedha court mein gaya.\n\n**Utkarsh:** “Yeh better tha.”\n\nMeenakshi hasi, saans thodi tez. Uday ne taali bajayi.\n\n**Uday:** “Ma’am, aap toh seekh jayengi jaldi.”\n\n**Meenakshi:** “Dekhte hain. Tum log sikhao sahi se.”\n\nWoh racket ghumati rahi. Dono usse dekh rahe the, lekin Meenakshi khud actively try kar rahi thi. Court pe ab teeno the."
+      },
+      {
+        "id": "T04",
+        "title": "Uday Teaches Her Stance",
+        "raw": "Uday Meenakshi ke paas aaya.\n\n**Uday:** “Ma’am, stance galat hai. Main dikhata hoon.”\n\nWoh uske peeche aa gaya. Dono haath uske shoulders pe rakhe aur use side-on position mein ghuma diya. Meenakshi ne allow kiya.\n\n**Uday:** “Shoulders aise. Ek aage, ek peeche. Waist tight rakho.”\n\nUsne apna haath uski waist pe rakha aur thoda adjust kiya. Kurta ke through usne pressure feel kiya. Meenakshi ki saans thodi change hui.\n\n**Meenakshi:** “Uday, tum toh bahut serious ho gaye teaching mein.”\n\n**Uday:** “Haan. Aap seekh rahi ho na.”\n\nWoh aur close aaya. Uska chest uske back se halka sa touch hua. Racket wala haath usne Meenakshi ke haath pe rakha aur swing ka movement dikhaya. Meenakshi ne uske arms ke muscles feel kiye.\n\n**Meenakshi:** “Tumhe yeh sikhana bahut pasand aa raha hai lagta hai.”\n\n**Uday:** “Pasand aa raha hai. Aap allow kar rahi ho.”\n\nUtkarsh side se dekh raha tha. Uday ki enthusiasm usse clearly dikh rahi thi.\n\n**Utkarsh:** “Uday, zyada acting mat kar. Technique toh main better dikha sakta hoon.”\n\nMeenakshi ne Utkarsh ki taraf dekha aur has di. Uday abhi bhi uske peeche khada tha, haath uski waist pe.\n\n**Meenakshi:** “Achha? Toh dikhao.”\n\nUday ne haath hataya, lekin smile uske chehre pe thi. Utkarsh aage badha."
+      },
+      {
+        "id": "T05",
+        "title": "Utkarsh Surprises Everyone",
+        "raw": "Utkarsh aage aaya. Uday side mein hat gaya.\n\n**Utkarsh:** “Uday ne sirf position dikhayi. Balance nahi.”\n\nWoh Meenakshi ke bagal mein khada hua. Racket uske haath se liya aur khud stance dikhaya — calm, controlled.\n\n**Utkarsh:** “Core tight rakho. Weight beech mein. Aise.”\n\nUsne Meenakshi ka haath pakda aur apni taraf thoda khincha. Phir uski waist pe ek haath rakha, dheere se. Pressure Uday se kam tha, lekin zyada deliberate.\n\n**Utkarsh:** “Yahan se move hota hai. Shoulder se nahi.”\n\nMeenakshi ne uski taraf dekha. Utkarsh ki nazar seedha uski aankhon mein thi. Woh expect nahi kar rahi thi itna confident touch.\n\n**Meenakshi:** “Tum toh Uday se zyada serious lag rahe ho.”\n\n**Utkarsh:** “Serious nahi. Sahi kar raha hoon.”\n\nUsne haath hataya aur racket Meenakshi ko lauta diya. Meenakshi ki saans thodi tez thi. Uday side se dekh raha tha, expression thoda tight.\n\n**Meenakshi** (andar se): Yeh Uday jaisa nahi hai. Yeh jaan-bujh ke kar raha hai."
+      },
+      {
+        "id": "T06",
+        "title": "Twin Rivalry",
+        "raw": "Uday ne racket uthaya.\n\n**Uday:** “Utkarsh, tumhe toh aaj bahut attention mil gaya. Subah toh itna bolte nahi the.”\n\n**Utkarsh:** “Subah tum zyada bol rahe the. Aaj main.”\n\nMeenakshi ne dono ko dekha aur has di.\n\n**Meenakshi:** “Tum dono ki rivalry mujhe subah se dikh rahi hai. Ab toh clear ho gayi.”\n\n**Uday:** “Ma’am, aap uski side le rahi hain?”\n\n**Meenakshi:** “Nahi. Dono ki le rahi hoon. Tum openly sikhate ho. Yeh bina bole zyada kar leta hai.”\n\nUtkarsh ne halka sa smile diya.\n\n**Utkarsh:** “Aap notice kar leti hain.”\n\n**Uday:** “Haan, bahut zyada.”\n\nMeenakshi ne racket wapas Uday ko diya.\n\n**Meenakshi:** “Bas. Aaj ke liye itna. Tum dono practice karo. Main chalti hoon.”\n\nDono ne usse jaate dekha. Uday ne Utkarsh ki taraf dekha.\n\n**Uday:** “Aaj tum aage nikal gaye.”\n\n**Utkarsh:** “Dekhte hain.”\n\nMeenakshi court se bahar nikal gayi, cardigan haath mein. Uski chaal normal thi, lekin mann mein Utkarsh ka calm touch abhi bhi ghoom raha tha."
+      }
+    ]
+  },
+  "authorSubmittedVerbatimT04T06": {
+    "source": "User-submitted original in chat, 2026-11-15",
+    "beats": [
+      {
+        "id": "T04",
+        "title": "Uday Teaches Her Stance",
+        "raw": "Uday ne racket side pe rakha aur Meenakshi ke paas aaya.\n\n**Uday:** “Ma’am, stance galat hai. Main dikhata hoon.”\n\nWoh uske peeche aa gaya. Dono haath uske shoulders pe rakhe aur use side-on position mein ghuma diya. Meenakshi ne allow kiya.\n\n**Uday:** “Shoulders aise. Ek aage, ek peeche. Waist tight rakho.”\n\nUsne apna haath uski waist pe rakha aur thoda adjust kiya. Kurta ke through usne pressure feel kiya. Meenakshi ki saans thodi change hui.\n\n**Meenakshi:** “Uday, tum toh bahut serious ho gaye teaching mein.”\n\n**Uday:** “Haan. Aap seekh rahi ho na.”\n\nWoh aur close aaya. Uska chest uske back se halka sa touch hua. Racket wala haath usne Meenakshi ke haath pe rakha aur swing ka movement dikhaya. Meenakshi ne uske arms ke muscles feel kiye.\n\n**Meenakshi:** “Tumhe yeh sikhana bahut pasand aa raha hai lagta hai.”\n\n**Uday:** “Pasand aa raha hai. Aap allow kar rahi ho.”\n\nUtkarsh side se dekh raha tha. Uday ki enthusiasm usse clearly dikh rahi thi.\n\n**Utkarsh:** “Uday, zyada acting mat kar. Technique toh main better dikha sakta hoon.”\n\nMeenakshi ne Utkarsh ki taraf dekha aur has di. Uday abhi bhi uske peeche khada tha, haath uski waist pe.\n\n**Meenakshi:** “Achha? Toh dikhao.”\n\nUday ne haath hataya, lekin smile uske chehre pe thi. Utkarsh aage badha."
+      },
+      {
+        "id": "T05",
+        "title": "Utkarsh Surprises Everyone",
+        "raw": "Utkarsh aage aaya. Uday side mein hat gaya.\n\n**Utkarsh:** “Uday ne sirf position dikhayi. Balance nahi.”\n\nWoh Meenakshi ke bagal mein khada hua. Racket uske haath se liya aur khud stance dikhaya — calm, controlled.\n\n**Utkarsh:** “Core tight rakho. Weight beech mein. Aise.”\n\nUsne Meenakshi ka haath pakda aur apni taraf thoda khincha. Phir uski waist pe ek haath rakha, dheere se. Pressure Uday se kam tha, lekin zyada deliberate.\n\n**Utkarsh:** “Yahan se move hota hai. Shoulder se nahi.”\n\nMeenakshi ne uski taraf dekha. Utkarsh ki nazar seedha uski aankhon mein thi. Woh expect nahi kar rahi thi itna confident touch.\n\n**Meenakshi:** “Tum toh Uday se zyada serious lag rahe ho.”\n\n**Utkarsh:** “Serious nahi. Sahi kar raha hoon.”\n\nUsne haath hataya. Meenakshi ki saans thodi tez thi. Uday side se dekh raha tha, expression thoda tight.\n\n**Meenakshi** (andar se): Yeh Uday jaisa nahi hai. Yeh jaan-bujh ke kar raha hai."
+      },
+      {
+        "id": "T06",
+        "title": "Twin Rivalry",
+        "raw": "Uday ne racket uthaya.\n\n**Uday:** “Utkarsh, tumhe toh aaj bahut attention mil gaya. Subah toh itna bolte nahi the.”\n\n**Utkarsh:** “Subah aap zyada bol rahe the. Aaj main.”\n\nMeenakshi ne dono ko dekha aur has di.\n\n**Meenakshi:** “Tum dono ki rivalry mujhe subah se dikh rahi hai. Ab toh clear ho gayi.”\n\n**Uday:** “Ma’am, aap uski side le rahi hain?”\n\n**Meenakshi:** “Nahi. Dono ki le rahi hoon. Tum openly sikhate ho. Yeh bina bole zyada kar leta hai.”\n\nUtkarsh ne halka sa smile diya.\n\n**Utkarsh:** “Aap notice kar leti hain.”\n\n**Uday:** “Haan, bahut zyada.”\n\nMeenakshi ne racket wapas Uday ko diya.\n\n**Meenakshi:** “Bas. Aaj ke liye itna. Tum dono practice karo. Main chalti hoon.”\n\nDono ne usse jaate dekha. Uday ne Utkarsh ki taraf dekha.\n\n**Uday:** “Aaj tum aage nikal gaye.”\n\n**Utkarsh:** “Dekhte hain.”\n\nMeenakshi court se bahar nikal gayi, cardigan haath mein. Uski chaal normal thi, lekin mann mein Utkarsh ka calm touch abhi bhi ghoom raha tha."
       }
     ]
   }
