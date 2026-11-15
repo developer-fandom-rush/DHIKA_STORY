@@ -139,6 +139,14 @@ check(!(await page.locator('#ep03-meenakshi-scene-04').innerText()).includes('Ep
  check(await page.locator('#ankita-ep03-scene03 > .beat-list .beat-item').count()===5,'Ankita Scene 03 displays five revised plot beats');
  check((await page.locator('#ankita-ep03-scene03').innerText()).includes('twenty minutes'),'Ankita-led twenty-minute personal presentation is visible');
  check((await page.locator('#ankita-ep03-scene03').innerText()).includes('Aishwarya'),'Aishwarya confrontation ending is visible');
+ await page.locator('#ankita-ep03-scene04-rohit .beat-item').first().waitFor();
+ check(await page.locator('#ankita-ep03-scene04-rohit .beat-item').count()===7,'Jan 1 Rohit introduction shows exactly seven setup beats');
+ check((await page.locator('#ankita-ep03-scene04-rohit').innerText()).includes('closes the upper two buttons'),'Jan 1 Rohit intro restores closed buttons');
+ await page.locator('#ankita-ep04-rohit-first-show .beat-item').last().waitFor();
+ check(await page.locator('#ankita-ep04-rohit-first-show .beat-item').count()===15,'Jan 2 first show retains 15 distinct plot beats');
+ check((await page.locator('#ankita-ep04-rohit-first-show').innerText()).includes('First accidental look'),'Jan 2 initial surprise encounter visible');
+ check((await page.locator('#ankita-ep04-rohit-first-show').innerText()).includes('same office day'),'Jan 2 intentional test remains on same day');
+
 
  check((await page.locator('#ankita-ep03-scene01-opening').count())===0,'Outdated Scene 01 office-opening card not shown');
  
