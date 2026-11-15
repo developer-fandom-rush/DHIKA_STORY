@@ -3,7 +3,7 @@
   "id": "SW-ANKITA-ROHIT-INTRO-JAN01-AND-FIRST-SHOW-JAN02",
   "series": "Society Wives — Five Veils of Desire",
   "lead": "ankita",
-  "status": "USER_DIRECTED_PLOT_FINALIZED_FOR_PLANNING_ONLY_NOT_PROSE",
+  "status": "SUPERSEDED_DUPLICATE_ARCHIVE_DO_NOT_RENDER",
   "scene03Continuity": {
     "date": "2026-01-01",
     "end": "15:30",
@@ -109,5 +109,11 @@
       "No finalized time or outfit for Jan02 beyond the author-directed proposal; full prose remains unwritten."
     ]
   },
-  "proseStatus": "NOT_WRITTEN"
+  "proseStatus": "NOT_WRITTEN",
+  "uiVisibility": "ARCHIVE_ONLY",
+  "supersededBy": [
+    "episode-03-ankita-scene-04-rohit-intro.json",
+    "episode-04-ankita-rohit-first-show.json"
+  ],
+  "archivalNote": "The fuller individual source files supersede this early combined rough planning document. Retained only for provenance; do not use it to overwrite current Jan1 intro or Jan2 first-show beats."
 }
