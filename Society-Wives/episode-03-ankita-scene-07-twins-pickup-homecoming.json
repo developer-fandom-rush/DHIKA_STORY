@@ -1,0 +1,214 @@
+{
+  "schemaVersion": 1,
+  "id": "SW-ANKITA-EP03-SCENE07-TWINS-HOMECOMING",
+  "series": "Society Wives — Five Veils of Desire",
+  "episode": "03",
+  "scene": "07",
+  "lead": "ankita",
+  "date": "2026-01-01",
+  "timezone": "Asia/Kolkata",
+  "title": "Two Minutes, Two Twins — The Ride Home",
+  "status": "USER_DIRECTED_EXIT_REPLACEMENT_PLOT_FOR_REVIEW_NOT_PROSE",
+  "proseStatus": "NOT_WRITTEN",
+  "time": {
+    "start": "17:20",
+    "end": "17:45",
+    "certainty": "PROVISIONAL_TIMINGS; PICKUP_2_MINUTES_AND_DRIVE_10_MINUTES_USER_DIRECTED"
+  },
+  "replaces": "Earlier proposed Scene07 exit in which Reyansh and Vivan drive Ankita home and return to Sana/Aishwarya. That proposal is superseded and MUST NOT appear as active plot.",
+  "cast": [
+    {
+      "id": "ankita",
+      "name": "Ankita",
+      "role": "lead; exits celebration and drives home"
+    },
+    {
+      "id": "ankita_woman_06",
+      "name": "Sana Khan",
+      "role": "friend stays at party"
+    },
+    {
+      "id": "ankita_woman_07",
+      "name": "Aishwarya Rao",
+      "role": "friend stays at party"
+    },
+    {
+      "id": "vivan",
+      "name": "Vivan",
+      "role": "friend stays at party"
+    },
+    {
+      "id": "reyansh",
+      "name": "Reyansh",
+      "role": "friend stays at party; does not drop Ankita"
+    },
+    {
+      "id": "karan",
+      "name": "Karan",
+      "age": 22,
+      "role": "Kabir's younger twin brother, Ankita's devar; outgoing"
+    },
+    {
+      "id": "aman",
+      "name": "Aman",
+      "age": 22,
+      "role": "Kabir's younger twin brother, Ankita's devar; quieter, backend interview prep"
+    },
+    {
+      "id": "gopal",
+      "name": "Gopal",
+      "role": "Gulmohar Heights watchman/parcel desk guard"
+    }
+  ],
+  "sourceCanon": {
+    "twins": "Character directory and approved EP02 A04: Karan/Aman are Kabir's younger twin brothers, living in the shared apartment. Karan openly jokes with Ankita, Aman asks for Java backend interview/resume support.",
+    "earlyCommute": "Ankita left home on the company cab on 1 January; do not assume she drove her personal car to the office or took it to the outing.",
+    "guard": "Approved EP02 A07 established Ankita and Gopal's New Year morning conversation; approved P01 and P08 establish Gopal's unauthorized parcel access and private knowledge. This remains reader-only; Ankita is unaware of the reason for a changed gaze.",
+    "dhika": "Original Dhika EP03 includes twins riding on a motorbike; preserve only the idea of twins riding home with the adult female lead. For Society Wives the author specified Ankita driving and both twins sitting behind: use a car, not an unsafe three-on-one-motorbike staging."
+  },
+  "continuity": {
+    "scene06Ends": "~17:20; exactly five friends have been dancing at a private venue",
+    "otherFour": "Sana and Aishwarya stay to continue New Year celebrations with Vivan and Reyansh; further guests are not present yet and the after-drop continuation has NOT been planned.",
+    "venue": "Nearby private lounge/dance venue, specific brand/address not approved",
+    "carProposition": "Karan and Aman arrive in a car from nearby (how they were nearby and whose car it is are not established; do not invent an explanation). One initially drives to pick her up and hands over keys. Ankita takes the driver's seat, Karan and Aman sit in separate rear seats with belts on.",
+    "deadline": "Ankita must be at her Gulmohar Heights home by 18:00, with approx. 10-minute drive from pickup.",
+    "outfit": "Ankita's cream embroidered kurti, fitted trousers and beige blazer remain as established; no outfit switch."
+  },
+  "beats": [
+    {
+      "id": "S07-01",
+      "time": "17:20–17:23",
+      "heading": "Music ends, four choose to stay",
+      "plot": "The dance ends. Ankita checks her watch. Sana and Aishwarya cheerfully refuse to end their own night and say that the four of them will keep celebrating. Vivan and Reyansh agree to stay; nobody from elsewhere joins the venue during this scene. Brief banter about the women's win and the men's unsuccessful appeal.",
+      "dialogue": [
+        {
+          "speaker": "Ankita",
+          "line": "Mujhe ab chalna hoga. Chhe baje se pehle ghar pahunchna hai."
+        },
+        {
+          "speaker": "Sana",
+          "line": "Tu ja, madam. Hum chaaron abhi party continue karenge!"
+        },
+        {
+          "speaker": "Aishwarya",
+          "line": "Aur aaj ka performance review abhi khatam nahin hua!"
+        }
+      ]
+    },
+    {
+      "id": "S07-02",
+      "time": "17:23",
+      "heading": "Men offer drop; Ankita declines",
+      "plot": "Vivan and Reyansh insist they can take Ankita home in Reyansh's car. Ankita declines with a relaxed joke that she can walk outside and manage her own way home; she wants them to enjoy the evening rather than break up the group. Do not add a private or romantic three-person moment merely to delay departure.",
+      "dialogue": [
+        {
+          "speaker": "Reyansh",
+          "line": "Hum dono drop kar dete hain, Ankita."
+        },
+        {
+          "speaker": "Vivan",
+          "line": "Haan, itna toh banta hai."
+        },
+        {
+          "speaker": "Ankita",
+          "line": "Arre, tum log party karo. Main thoda walk kar lungi; ghar ka arrangement ho jayega."
+        }
+      ]
+    },
+    {
+      "id": "S07-03",
+      "time": "17:23–17:27",
+      "heading": "One-line call, two-minute pickup, two-minute goodbyes and photo",
+      "plot": "From the venue entrance Ankita makes a single short call to Karan and Aman, who are already close enough to arrive in approximately two minutes. In the brief interval the original five exchange ordinary playful jokes and take a final five-person photo. Then the friends part ways. Do not explain how the twins got so close without established source. This is not the beginning of the after-drop party plot.",
+      "dialogue": [
+        {
+          "speaker": "Ankita",
+          "line": "Karan, Aman — main venue ke bahar hoon. Aa sakte ho?"
+        },
+        {
+          "speaker": "Karan",
+          "line": "Haan, Bhabhi. Do minute."
+        },
+        {
+          "speaker": "Sana",
+          "line": "Photo mein smile proper rakhna — stamina test ka proof chahiye!"
+        }
+      ]
+    },
+    {
+      "id": "S07-04",
+      "time": "~17:27–17:38",
+      "heading": "Ankita drives; both twins ride behind",
+      "plot": "Twins arrive together in a car (vehicle provenance unestablished). Ankita takes the driving seat while Karan and Aman sit in separate rear seats with their seatbelts fastened, as directed. She drives toward Gulmohar Heights on the approximately ten-minute trip. Karan's familiar outgoing humor and Aman's understated interview/resume conversation carry the ride, rather than copying Dhika's motorbike physical-contact incident. Their earlier morning EP02 A04 conversation is the natural callback.",
+      "dialogue": [
+        {
+          "speaker": "Karan",
+          "line": "Bhabhi, aaj office ki jagah party ka overtime chal raha tha kya?"
+        },
+        {
+          "speaker": "Ankita",
+          "line": "Tum dono ki training se kam exhausting tha!"
+        },
+        {
+          "speaker": "Aman",
+          "line": "Bhabhi, resume wali baat yaad hai na?"
+        },
+        {
+          "speaker": "Ankita",
+          "line": "Bilkul. Ghar jaakar dekh lenge."
+        }
+      ]
+    },
+    {
+      "id": "S07-05",
+      "time": "~17:38–17:45",
+      "heading": "Gulmohar Heights gate — Gopal's changed gaze",
+      "plot": "At the familiar society gate Gopal notices Ankita returning with the twins and his gaze is a little too long or uncertain compared with their morning A07 exchange. He gives a routine greeting, but a small falter makes Ankita register that something has changed. The reader knows Gopal has a parcel secret from approved P01/P08; Ankita does not yet know it. Karan and Aman need not notice or interpret his glance. No parcel reveal or forced confrontation at the gate.",
+      "dialogue": [
+        {
+          "speaker": "Gopal",
+          "line": "Namaste, Ankita madam. Aa gayi aap?"
+        },
+        {
+          "speaker": "Ankita",
+          "line": "Haan, Gopal ji. Sab theek hai na?"
+        },
+        {
+          "speaker": "Gopal",
+          "line": "Ji madam, sab theek."
+        }
+      ]
+    },
+    {
+      "id": "S07-06",
+      "time": "Before 18:00",
+      "heading": "At home — stop before parcel or evening follow-on",
+      "plot": "Ankita parks and comes home with Karan and Aman. She remembers Gopal's odd look only briefly. End at her apartment arrival rather than opening the parcel, staging Rajeev, or beginning a new family chapter. The four office friends remain at the venue; their after-drop activity and any additional guests are reserved for future discussion."
+    }
+  ],
+  "authorLocks": [
+    "Scene07 replaces (not supplements) the earlier Reyansh–Vivan escort/home-drop idea.",
+    "Ankita does NOT leave with office guys; their offer is declined, and all four office friends stay at the venue.",
+    "One short call; Karan and Aman arrive in around 2 minutes; about 2 more minutes of normal talk and group photographs, then exit.",
+    "Twins are familiar house members from EP02 A04, no newly invented first meeting, cousin lineage, or romance.",
+    "Ankita drives; both men behind in a car. No three-rider motorcycle staging. Car ownership and why they were nearby remain open.",
+    "Trip is about 10 minutes and Ankita is home before 18:00.",
+    "At the society gate Gopal's gaze subtly changes; his EP02 P01/P08 secret remains reader-only, not known to Ankita or the twins.",
+    "Stop Scene07 at home arrival. No new guests or after-drop party narrative until separately discussed.",
+    "Do not edit the previously saved Scene06 33-line dance prose or change its cast."
+  ],
+  "futureHooks": [
+    {
+      "kind": "Society gate",
+      "text": "Gopal's different manner connects to P01/P08 without prematurely revealing how Ankita's parcel was handled."
+    },
+    {
+      "kind": "Home",
+      "text": "Archived A14 parcel/home beat exists but has not been canon-approved and needs separate reconciliation before writing."
+    },
+    {
+      "kind": "Office party",
+      "text": "Vivan, Reyansh, Sana, Aishwarya remain at venue; guests/activities for the rest of the night are intentionally unplanned."
+    }
+  ]
+}
