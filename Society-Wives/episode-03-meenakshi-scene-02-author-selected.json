@@ -1,0 +1,205 @@
+{
+  "schema": "sw-author-selected-reading-v1",
+  "scene": "EP03 Scene02 · The Farmhouse Evening",
+  "date": "2026-01-01",
+  "sourceArchive": "episode-03-meenakshi-scene-02-grok-originals.json",
+  "editorialPrinciple": "Original Grok raw text archived separately and unchanged. F01-F04 edits were explicitly approved by author. F05-F09 original received drafts; neither this file nor UI claims author's final approval for F05-F09.",
+  "order": [
+    "F01",
+    "F02",
+    "F03",
+    "F04",
+    "F05",
+    "F06",
+    "F07",
+    "F08",
+    "F09"
+  ],
+  "beats": {
+    "F01": {
+      "title": "Two Women, Two Men",
+      "status": "AUTHOR_APPROVED_COMPACT_REDLINE",
+      "text": "Hospital staff exit ke bahar shaam ki halki roshni mein chaaron log ikatthe hue. Aditi white coat ke neeche fitted black shirt aur straight trousers mein khadi thi, baal loosely tied, posture seedha aur nazar confidently aage. Avi dark shirt ke sleeves roll karke uske saamne aaya. Yash thodi doori pe khada tha, expression relaxed. Meenakshi plum kurta, cream palazzo aur grey cardigan mein unke paas pahunchi, keys haath mein.\n\n**Aditi:** “Avi, hospital mein toh bade disciplined rehte ho. Aaj dance floor pe meri pace match kar paoge?”\n\nAvi ne uski nazar se nazar milayi. Woh expected kar raha tha normal baat, lekin Aditi ka tone seedha aur testing tha.\n\n**Avi:** “Tum pace badhaogi toh mujhe bhi apna best dena padega.”\n\n**Aditi:** **“Best dena. Excuses mat dena. Main performance yaad rakhti hoon.”**\n\nAvi pehle jawab dena chaha, lekin Aditi ke steady eye contact ne use ek pal ke liye rok diya. Uske lips pe halki smile aayi, phir gayab ho gayi. Meenakshi ne uska badalta expression notice kiya.\n\n**Yash:** “Meenakshi ma’am, lagta hai Avi ko aaj extra training chahiye.”\n\n**Meenakshi:** **“Training se zyada concentration. Aditi abhi warm-up mein hai aur yeh already nervous hai.”**\n\n**Aditi:** “Nervous mat samajhna. Main sirf dekh rahi hoon kaun kitna der tak saath de sakta hai.”\n\n**Avi:** “Dekh lena. Main aaj sirf dekhne nahi aaya.”\n\n**Yash:** “Aditi, tum toh already floor set kar rahi ho. Hum log abhi sirf audience hain.”\n\n**Aditi:** “Audience nahi. Participants. Meenakshi drive kar rahi hain. Tum dono peeche baithna… taaki main aage se tumhe dekh sakun.”\n\nMeenakshi ne keys uthayi aur group ki taraf ishara kiya.\n\n**Meenakshi:** “Chalo. Parking door hai. Zyada der mat lagao.”\n\nAditi ne Avi ki taraf ek last, deliberate look diya aur pehle kadam badhaya. Avi uske peeche chala, lekin ab uski chaal pehle jaisi relaxed nahi thi. Yash ne Meenakshi ke saath side se chalna shuru kiya.",
+      "changes": {
+        "removed": [
+          "Aditi hasli, achha laga. Avi ne Meenakshi ki taraf dekha — ab use samajh aa gaya tha ki aaj teasing sirf ek taraf se nahi hone wali.",
+          "Yash ne dono ke beech ki nazar ka exchange dekha aur dheere se bola.",
+          "**Yash:** “Aaj Aditi ne already apna plan clear kar diya hai.”",
+          "**Meenakshi:** “Plan clear hai. Ab dekhna yeh hai kaun uske saath chal paata hai.”",
+          "Chaaron log parking ki taraf badhe. Aditi aage thi, walk mein wohi confidence jo usne abhi Avi ko challenge karte hue dikhaya tha. Avi uske peeche tha, mann mein ab sirf ek baat ghoom rahi thi — aaj dance floor pe Aditi usse sirf mazaak nahi karegi."
+        ],
+        "replaced": []
+      },
+      "origin": "GROK_ORIGINAL_WITH_AUTHOR_APPROVED_REDLINE",
+      "sourceKey": "beats.F01.raw",
+      "parts": [
+        {
+          "source": "GROK_AUTHOR_APPROVED_COMPACT",
+          "raw": "Hospital staff exit ke bahar shaam ki halki roshni mein chaaron log ikatthe hue. Aditi white coat ke neeche fitted black shirt aur straight trousers mein khadi thi, baal loosely tied, posture seedha aur nazar confidently aage. Avi dark shirt ke sleeves roll karke uske saamne aaya. Yash thodi doori pe khada tha, expression relaxed. Meenakshi plum kurta, cream palazzo aur grey cardigan mein unke paas pahunchi, keys haath mein.\n\n**Aditi:** “Avi, hospital mein toh bade disciplined rehte ho. Aaj dance floor pe meri pace match kar paoge?”\n\nAvi ne uski nazar se nazar milayi. Woh expected kar raha tha normal baat, lekin Aditi ka tone seedha aur testing tha.\n\n**Avi:** “Tum pace badhaogi toh mujhe bhi apna best dena padega.”\n\n**Aditi:** **“Best dena. Excuses mat dena. Main performance yaad rakhti hoon.”**\n\nAvi pehle jawab dena chaha, lekin Aditi ke steady eye contact ne use ek pal ke liye rok diya. Uske lips pe halki smile aayi, phir gayab ho gayi. Meenakshi ne uska badalta expression notice kiya.\n\n**Yash:** “Meenakshi ma’am, lagta hai Avi ko aaj extra training chahiye.”\n\n**Meenakshi:** **“Training se zyada concentration. Aditi abhi warm-up mein hai aur yeh already nervous hai.”**\n\n**Aditi:** “Nervous mat samajhna. Main sirf dekh rahi hoon kaun kitna der tak saath de sakta hai.”\n\n**Avi:** “Dekh lena. Main aaj sirf dekhne nahi aaya.”\n\n**Yash:** “Aditi, tum toh already floor set kar rahi ho. Hum log abhi sirf audience hain.”\n\n**Aditi:** “Audience nahi. Participants. Meenakshi drive kar rahi hain. Tum dono peeche baithna… taaki main aage se tumhe dekh sakun.”\n\nMeenakshi ne keys uthayi aur group ki taraf ishara kiya.\n\n**Meenakshi:** “Chalo. Parking door hai. Zyada der mat lagao.”\n\nAditi ne Avi ki taraf ek last, deliberate look diya aur pehle kadam badhaya. Avi uske peeche chala, lekin ab uski chaal pehle jaisi relaxed nahi thi. Yash ne Meenakshi ke saath side se chalna shuru kiya."
+        }
+      ]
+    },
+    "F02": {
+      "title": "Meenakshi Offers the Ride",
+      "status": "AUTHOR_APPROVED_COMPACT_REDLINE",
+      "text": "Meenakshi ne parking mein ruk ke group ki taraf dekha.\n\n**Meenakshi:** “Main apni car le aayi hoon. Main drive karungi. Chalo.”\n\nAditi bina der kiye front passenger seat pe baith gayi. Avi aur Yash peeche settle hue. Meenakshi ne engine start kiya aur car dheere se bahar nikal gayi.\n\nAvi ne uski taraf dekha, tone confident.\n\n**Aditi:** **“Theek hai. Pehli dance meri hogi. Tum sirf haath dena… aur dekhna main kitni der tak tumhe apne pace pe rakhti hoon.”**\n\nAvi hasa, lekin uski aankhon mein ab interest clearly dikh raha tha.\n\n**Yash:** “Aditi, tumne Avi ko already select kar liya. Main line mein hoon ya wait karun?”\n\n**Aditi:** “Line mein ho. Lekin agar tum slow ho gaye toh main tumhe skip bhi kar sakti hoon.”\n\nMeenakshi steering pe haath rakhe road dekh rahi thi. Uske lips pe halki smile thi.\n\n**Meenakshi:** **“Aditi, tum peeche baithe logon ko already dance floor pe khada kar rahi ho. Gaadi abhi road pe hai.”**\n\n**Aditi:** “Meenakshi, main sirf unhe ready kar rahi hoon. Tum drive karo. Main baaki ka kaam farmhouse pe kar lungi.”\n\nCar aage badhti rahi. Aditi front seat pe baithi thi, professional outfit mein, lekin uska tone aur nazar peeche baithe dono logon ko clearly involve kar rahi thi. Meenakshi ne mirror mein unki expressions ek baar dekhi, phir wapas road pe focus kiya. Usko unki baatein sun ke maza aa raha tha, lekin woh driving se nahi hati.",
+      "changes": {
+        "removed": [
+          "**Aditi:** “Avi, aaj dance floor pe tumhe kis ke saath shuru karna hai? Ya main already decide kar loon?”",
+          "**Avi:** “Tum decide kar lo. Main refuse nahi karunga.”",
+          "Yash ne yeh sun ke seedha Avi ki taraf dekha. Usse ab clear ho gaya tha ki aaj sirf Avi hi nahi, woh bhi Aditi ke attention ke liye compete kar raha hai.",
+          "Avi ne peeche se Aditi ki taraf dekha. Woh ab pehle jaisa relaxed nahi tha. Uske mann mein ek clear soch aa chuki thi — Aditi ne usse pehli dance ka invitation de diya hai, aur woh usse miss nahi karna chahta.",
+          "**Yash:** “Avi, lagta hai aaj tumhe competition mil gaya hai.”",
+          "**Avi:** “Competition theek hai. Main pehle se ready hoon.”",
+          "Avi peeche baitha tha, lekin ab uski nazar baar baar Aditi pe ja rahi thi. Yash uske bagal mein khamosh tha, lekin uske chehre pe ab pehle se zyada alertness thi. Group farmhouse ki taraf badh raha tha, aur teeno ke beech ki chemistry ab pehle se alag lag rahi thi."
+        ],
+        "replaced": []
+      },
+      "origin": "GROK_ORIGINAL_WITH_AUTHOR_APPROVED_REDLINE",
+      "sourceKey": "beats.F02.raw",
+      "parts": [
+        {
+          "source": "GROK_AUTHOR_APPROVED_COMPACT",
+          "raw": "Meenakshi ne parking mein ruk ke group ki taraf dekha.\n\n**Meenakshi:** “Main apni car le aayi hoon. Main drive karungi. Chalo.”\n\nAditi bina der kiye front passenger seat pe baith gayi. Avi aur Yash peeche settle hue. Meenakshi ne engine start kiya aur car dheere se bahar nikal gayi.\n\nAvi ne uski taraf dekha, tone confident.\n\n**Aditi:** **“Theek hai. Pehli dance meri hogi. Tum sirf haath dena… aur dekhna main kitni der tak tumhe apne pace pe rakhti hoon.”**\n\nAvi hasa, lekin uski aankhon mein ab interest clearly dikh raha tha.\n\n**Yash:** “Aditi, tumne Avi ko already select kar liya. Main line mein hoon ya wait karun?”\n\n**Aditi:** “Line mein ho. Lekin agar tum slow ho gaye toh main tumhe skip bhi kar sakti hoon.”\n\nMeenakshi steering pe haath rakhe road dekh rahi thi. Uske lips pe halki smile thi.\n\n**Meenakshi:** **“Aditi, tum peeche baithe logon ko already dance floor pe khada kar rahi ho. Gaadi abhi road pe hai.”**\n\n**Aditi:** “Meenakshi, main sirf unhe ready kar rahi hoon. Tum drive karo. Main baaki ka kaam farmhouse pe kar lungi.”\n\nCar aage badhti rahi. Aditi front seat pe baithi thi, professional outfit mein, lekin uska tone aur nazar peeche baithe dono logon ko clearly involve kar rahi thi. Meenakshi ne mirror mein unki expressions ek baar dekhi, phir wapas road pe focus kiya. Usko unki baatein sun ke maza aa raha tha, lekin woh driving se nahi hati."
+        }
+      ]
+    },
+    "F03": {
+      "title": "The One-Glass Challenge",
+      "status": "AUTHOR_APPROVED_COMPACT_REDLINE",
+      "text": "Farmhouse pahunchkar Aditi ne chaaron ko string lights ke neeche seating area tak lead kiya.\n\n**Aditi:** “Aao. Drinks yahan hain. Music ready hai. Guest room bhi available hai agar kisi ko change karna ho.”\n\nUsne table pe wine aur juice ke glasses set kiye. Avi aur Yash sofe pe baith gaye. Meenakshi thodi doori pe khadi rahi.\n\n**Meenakshi:** “Mujhe juice de do. Wine nahi.”\n\n**Aditi:** “Juice theek hai. Ek game khelte hain — ek glass, ek honest answer. Main sawal poochhungi; jiska mann ho, woh jawab dega.”\n\nMeenakshi ne Aditi ki taraf dekha.\n\n**Meenakshi:** “Yeh rule tumne abhi socha hai, ya pehle se plan tha?”\n\n**Aditi:** **“Abhi socha. Kyunki tumne juice maanga. Main dekhna chahti hoon tum hum sab ko kitna closely dekh rahi ho.”**\n\nAvi hasa. Yash ne glass uthaya lekin peena nahi.\n\n**Aditi:** “Toh pehla sawal. Hospital mein kaun sabse behtar hai is baat mein ki woh notice nahi kar raha… jab koi usse zyada dekh raha ho?”\n\nAvi ne seedha jawab diya.\n\n**Avi:** “Yeh toh easy hai. Yash. Woh hamesha side se dekhte rehte hain.”\n\n**Yash:** “Main side se dekh raha hoon ya tum openly baat kar rahe ho, yeh alag baat hai. Meenakshi ma’am, aap kya kehti hain?”\n\nMeenakshi ne thodi der socha, phir calmly kaha.\n\n**Meenakshi:** **“Dono alag hain. Ek openly flirt karta hai taaki doosra notice kare. Doosra quietly dekhta hai taaki pehla uncomfortable na ho. Farq yeh hai ki pehla jaanta hai usse dekha ja raha hai. Doosra sochta hai koi nahi dekh raha.”**\n\n**Aditi:** “Achha answer. Matlab tum dono ko pehle se dekh rahi thi.”\n\n**Meenakshi:** “Main doctor hoon. Logon ko observe karna meri aadat hai. Farmhouse pe bhi wahi kaam karti hoon.”\n\nAditi hasli. Usne ek glass wine uthaya aur Meenakshi ki taraf badhaya.\n\n**Aditi:** “Ab tum decide karo. Juice pe rehna hai ya ek glass leke is game mein aana hai. Koi pressure nahi.”\n\nMeenakshi ne glass dekha, phir Aditi ki nazar. Thodi der baad usne glass le liya.\n\n**Meenakshi:** “Ek glass. Sirf isliye kyunki tumne sawal poochha. Ab main bhi sunna chahti hoon tum log kya sochte ho.”\n\nAvi ne apna glass uthaya. Yash ne bhi. Teeno ne ek-ek sip liya. Meenakshi ne apna glass haath mein rakha, peena abhi nahi shuru kiya.\n\n**Aditi:** “Main thodi der ke liye guest room ja rahi hoon. Change karke aati hoon. Tum log settle ho jao. Music on hai.”\n\nWoh guest room ki taraf badhi, professional outfit abhi bhi pehne hue. Avi uske jaate hue dekhta raha. Yash ne Meenakshi ki taraf dekha — uske haath mein ab wine ka glass tha, lekin uski nazar ab bhi group pe thi. Meenakshi ne ek chhota sip liya aur sofe pe baith gayi. Farmhouse mein ab sirf teeno log the, aur Aditi ke wapas aane ka intezaar.",
+      "changes": {
+        "removed": [
+          "Avi ki smile thodi kam hui. Usse samajh aa gaya Meenakshi uski taraf ishara kar rahi hai. Yash ne glass table pe rakh diya. Usko bhi clear ho gaya ki Meenakshi uske quiet watching ko bhi catch kar chuki hai.",
+          "**Yash:** “Ma’am, aapne toh humein already expose kar diya.”",
+          "**Meenakshi:** “Expose nahi kiya. Sirf bataya ki main dekh rahi thi. Ab tum log bhi dekh lo.”",
+          "Aditi ne group ko dekha. Usko maza aa raha tha. Usne apna glass table pe rakha aur seedha kaha."
+        ],
+        "replaced": [
+          {
+            "old": "Farmhouse ke open area mein halki string lights jal rahi thin. Aditi ne car se utarte hi group ko seedha seating ki taraf le gayi. Woh abhi bhi professional outfit mein thi — white coat hataya hua, black shirt aur trousers. Meenakshi plum kurta, cream palazzo aur grey cardigan mein uske peeche chali.",
+            "new": "Farmhouse pahunchkar Aditi ne chaaron ko string lights ke neeche seating area tak lead kiya."
+          },
+          {
+            "old": "**Aditi:** “Juice theek hai. Lekin ek chhoti si baat. Aaj raat ke liye ek simple rule rakhte hain — ek glass, ek honest answer. Jo bhi pehle glass le, usse ek seedha sawal ka jawab dena hoga. Baaki log sirf sunenge.”",
+            "new": "**Aditi:** “Juice theek hai. Ek game khelte hain — ek glass, ek honest answer. Main sawal poochhungi; jiska mann ho, woh jawab dega.”"
+          }
+        ]
+      },
+      "origin": "GROK_ORIGINAL_WITH_AUTHOR_APPROVED_REDLINE",
+      "sourceKey": "beats.F03.raw",
+      "parts": [
+        {
+          "source": "GROK_AUTHOR_APPROVED_COMPACT",
+          "raw": "Farmhouse pahunchkar Aditi ne chaaron ko string lights ke neeche seating area tak lead kiya.\n\n**Aditi:** “Aao. Drinks yahan hain. Music ready hai. Guest room bhi available hai agar kisi ko change karna ho.”\n\nUsne table pe wine aur juice ke glasses set kiye. Avi aur Yash sofe pe baith gaye. Meenakshi thodi doori pe khadi rahi.\n\n**Meenakshi:** “Mujhe juice de do. Wine nahi.”\n\n**Aditi:** “Juice theek hai. Ek game khelte hain — ek glass, ek honest answer. Main sawal poochhungi; jiska mann ho, woh jawab dega.”\n\nMeenakshi ne Aditi ki taraf dekha.\n\n**Meenakshi:** “Yeh rule tumne abhi socha hai, ya pehle se plan tha?”\n\n**Aditi:** **“Abhi socha. Kyunki tumne juice maanga. Main dekhna chahti hoon tum hum sab ko kitna closely dekh rahi ho.”**\n\nAvi hasa. Yash ne glass uthaya lekin peena nahi.\n\n**Aditi:** “Toh pehla sawal. Hospital mein kaun sabse behtar hai is baat mein ki woh notice nahi kar raha… jab koi usse zyada dekh raha ho?”\n\nAvi ne seedha jawab diya.\n\n**Avi:** “Yeh toh easy hai. Yash. Woh hamesha side se dekhte rehte hain.”\n\n**Yash:** “Main side se dekh raha hoon ya tum openly baat kar rahe ho, yeh alag baat hai. Meenakshi ma’am, aap kya kehti hain?”\n\nMeenakshi ne thodi der socha, phir calmly kaha.\n\n**Meenakshi:** **“Dono alag hain. Ek openly flirt karta hai taaki doosra notice kare. Doosra quietly dekhta hai taaki pehla uncomfortable na ho. Farq yeh hai ki pehla jaanta hai usse dekha ja raha hai. Doosra sochta hai koi nahi dekh raha.”**\n\n**Aditi:** “Achha answer. Matlab tum dono ko pehle se dekh rahi thi.”\n\n**Meenakshi:** “Main doctor hoon. Logon ko observe karna meri aadat hai. Farmhouse pe bhi wahi kaam karti hoon.”\n\nAditi hasli. Usne ek glass wine uthaya aur Meenakshi ki taraf badhaya.\n\n**Aditi:** “Ab tum decide karo. Juice pe rehna hai ya ek glass leke is game mein aana hai. Koi pressure nahi.”\n\nMeenakshi ne glass dekha, phir Aditi ki nazar. Thodi der baad usne glass le liya.\n\n**Meenakshi:** “Ek glass. Sirf isliye kyunki tumne sawal poochha. Ab main bhi sunna chahti hoon tum log kya sochte ho.”\n\nAvi ne apna glass uthaya. Yash ne bhi. Teeno ne ek-ek sip liya. Meenakshi ne apna glass haath mein rakha, peena abhi nahi shuru kiya.\n\n**Aditi:** “Main thodi der ke liye guest room ja rahi hoon. Change karke aati hoon. Tum log settle ho jao. Music on hai.”\n\nWoh guest room ki taraf badhi, professional outfit abhi bhi pehne hue. Avi uske jaate hue dekhta raha. Yash ne Meenakshi ki taraf dekha — uske haath mein ab wine ka glass tha, lekin uski nazar ab bhi group pe thi. Meenakshi ne ek chhota sip liya aur sofe pe baith gayi. Farmhouse mein ab sirf teeno log the, aur Aditi ke wapas aane ka intezaar."
+        }
+      ]
+    },
+    "F04": {
+      "title": "Aditi Sets the Temperature",
+      "status": "AUTHOR_APPROVED_COMPACT_REDLINE",
+      "text": "Guest room se Aditi bahar aayi. Warm string lights uske burgundy mini-dress pe pad rahi thin. Thin straps uske shoulders pe the, deep neckline collarbones se neeche tak clearly dikh raha tha. Short hem mid-thigh ke upar tha. Jaise hi woh seating ki taraf badhi, dress ka satin fabric uske steps ke saath uski thighs pe shift hua, hem thoda sa upar uth ke wapas settle hua.\n\nAvi ne glass table pe rakh diya. Uski nazar pehle neckline pe ruki, phir waist pe, phir legs pe.\n\n**Avi:** **“Aditi… yeh dress tum pe jaan-bujh ke fit kiya hua lag raha hai. Neckline se lekar hem tak, har movement dikh rahi hai.”**\n\nAditi ne kadam dheeme rakhe; uski nazar Avi aur Yash ke expressions par thi.\n\n**Aditi:** “Jaan-bujh ke hi pehna hai. Aaj professional look nahi chahiye tha.”\n\nYash ne uske shoulders aur neatly styled updo ko notice kiya.\n\n**Yash:** “Hairstyle bhi badla hai. Yeh updo tumhara look complete kar raha hai.”\n\n**Aditi:** “Notice kiya. Achha hai.”\n\nMeenakshi sofe pe baithi thi. Usne Aditi ko junior resident se is glamorous hostess mein badalte dekha — fitted silhouette, confident walk, short hem ke movement. Kuch nahi kaha.\n\nAditi unke beech mein aayi, hips ka natural sway dress ke saath clearly dikh raha tha. Avi ab bhi usko dekh raha tha. Yash ne glass uthaya lekin nazar nahi hatayi.",
+      "changes": {
+        "removed": [
+          "**Aditi:** “Music chal raha hai. Main dance shuru karti hoon. Jo join karna chahe, aa sakta hai.”",
+          "Usne Avi ki taraf dekha. Short hem uske last step pe thoda sa upar hua. Farmhouse ki lighting ab uske body pe alag lag rahi thi. Atmosphere change ho chuka tha."
+        ],
+        "replaced": [
+          {
+            "old": "Aditi ne walk slow rakha. Ek haath wine glass ke saath, doosra side mein. Usko pata tha nazar kahan ja rahi hai.",
+            "new": "Aditi ne kadam dheeme rakhe; uski nazar Avi aur Yash ke expressions par thi."
+          },
+          {
+            "old": "Yash ne uske shoulders aur open hair pe nazar rakhi.",
+            "new": "Yash ne uske shoulders aur neatly styled updo ko notice kiya."
+          },
+          {
+            "old": "**Yash:** “Hairstyle change kiya. Pehle tied thi. Ab face aur neckline dono zyada clear hain.”",
+            "new": "**Yash:** “Hairstyle bhi badla hai. Yeh updo tumhara look complete kar raha hai.”"
+          }
+        ]
+      },
+      "origin": "GROK_ORIGINAL_WITH_AUTHOR_APPROVED_REDLINE",
+      "sourceKey": "beats.F04.raw",
+      "parts": [
+        {
+          "source": "GROK_AUTHOR_APPROVED_COMPACT",
+          "raw": "Guest room se Aditi bahar aayi. Warm string lights uske burgundy mini-dress pe pad rahi thin. Thin straps uske shoulders pe the, deep neckline collarbones se neeche tak clearly dikh raha tha. Short hem mid-thigh ke upar tha. Jaise hi woh seating ki taraf badhi, dress ka satin fabric uske steps ke saath uski thighs pe shift hua, hem thoda sa upar uth ke wapas settle hua.\n\nAvi ne glass table pe rakh diya. Uski nazar pehle neckline pe ruki, phir waist pe, phir legs pe.\n\n**Avi:** **“Aditi… yeh dress tum pe jaan-bujh ke fit kiya hua lag raha hai. Neckline se lekar hem tak, har movement dikh rahi hai.”**\n\nAditi ne kadam dheeme rakhe; uski nazar Avi aur Yash ke expressions par thi.\n\n**Aditi:** “Jaan-bujh ke hi pehna hai. Aaj professional look nahi chahiye tha.”\n\nYash ne uske shoulders aur neatly styled updo ko notice kiya.\n\n**Yash:** “Hairstyle bhi badla hai. Yeh updo tumhara look complete kar raha hai.”\n\n**Aditi:** “Notice kiya. Achha hai.”\n\nMeenakshi sofe pe baithi thi. Usne Aditi ko junior resident se is glamorous hostess mein badalte dekha — fitted silhouette, confident walk, short hem ke movement. Kuch nahi kaha.\n\nAditi unke beech mein aayi, hips ka natural sway dress ke saath clearly dikh raha tha. Avi ab bhi usko dekh raha tha. Yash ne glass uthaya lekin nazar nahi hatayi."
+        }
+      ]
+    },
+    "F05": {
+      "title": "Avi–Aditi Chemistry",
+      "status": "AUTHOR_SUBMITTED_SOURCE_PUBLISHED",
+      "origin": "GROK_ORIGINAL",
+      "parts": [
+        {
+          "source": "GROK_ORIGINAL",
+          "raw": "Music dheere se tez ho chuki thi. Aditi ne Avi ki taraf haath badhaya.\n\n**Aditi:** “Aa jao.”\n\nAvi ne uska haath pakda. Aditi ne use apni taraf khincha aur dance floor ke beech mein le aayi. Usne pehle slow turn liya, phir Avi ko apne saamne rakha. Burgundy mini-dress ka short hem uske movement ke saath thighs pe shift ho raha tha. No-bra hone ki wajah se har turn pe uske breasts soft bounce kar rahe the, neckline ke andar se shape clearly dikh raha tha.\n\nAvi ne seedha uski waist pe haath rakha. Aditi ne uska haath hataaya nahi.\n\n**Avi:** **“Tumhari waist pe haath rakhte hi dress aur tight lag rahi hai. Har step pe tumhare hips clearly move kar rahe hain.”**\n\nAditi ne uski nazar se nazar milayi aur ek aur turn liya. Is baar woh thodi peeche hui, Avi ka chest uske back se touch hua. Uske breasts forward push hue, fabric stretch hua.\n\n**Aditi:** **“Haath rakho. Main dekh rahi hoon tum kitni der tak sirf waist pe ruk paate ho.”**\n\nAvi ne pressure thoda badhaya. Uske haath ab uski waist se neeche, hips ke upper curve pe the. Aditi ne feel kiya. Woh jaanti thi Avi openly touch kar raha hai. Usne distance kam kiya, apni back uske chest se chipka di. Short hem upar uth gaya, uski rounded ass Avi ke thighs se press hui.\n\nAvi ne uske kandhe ke paas se dheere se kaha.\n\n**Avi:** “Tum jaan-bujh ke itna close aa rahi ho.”\n\n**Aditi:** “Haan. Kyunki main dekhna chahti hoon tum control rakh paate ho ya nahi.”\n\nUnka dance ab slow aur close tha. Aditi rhythm control kar rahi thi. Har hip sway pe Avi ke haath uske body ko feel kar rahe the. Uski nazar baar baar Aditi ke neckline pe ja rahi thi jahan soft movement clearly dikh raha tha. Aditi ne yeh notice kiya aur ek deliberate dip liya, phir seedha hui. Is movement mein uske breasts neckline ke against press hue.\n\nAvi ki saans tez thi, lekin woh haath nahi hata raha tha. Aditi ne uski taraf mud ke dekha. Unki chemistry ab sirf teasing nahi rahi thi. Yeh personal ho chuki thi.\n\n**Aditi:** “Bas itna hi. Abhi.”\n\nWoh thodi doori pe hat gayi, lekin Avi ka haath abhi bhi uski waist pe tha. Farmhouse ki lights unke upar thin. Avi usse dekh raha tha, aankhon mein pehle se zyada hunger. Aditi ne uska haath dheere se hataya aur Yash ki taraf dekha jo side se unhe watch kar raha tha."
+        }
+      ]
+    },
+    "F06": {
+      "title": "Yash Joins",
+      "status": "AUTHOR_SUBMITTED_SOURCE_PUBLISHED",
+      "origin": "GROK_TWO_PART_CONTINUOUS_SCENE",
+      "parts": [
+        {
+          "source": "GROK_FIRST_F06",
+          "raw": "Aditi ne Yash ki taraf haath badhaya. Woh abhi bhi Avi ke dance se thodi saans le rahi thi, burgundy dress uske body se chipka hua tha.\n\n**Aditi:** “Yash. Tum bhi aa jao.”\n\nYash ne glass side pe rakha aur aage badha. Usne kuch nahi kaha. Seedha Aditi ke peeche aa gaya. Avi abhi bhi saamne tha. Aditi beech mein sandwich ho gayi.\n\nYash ne pehle uski waist pe haath rakha — slow, deliberate. Phir dheere se neeche, hips ke curve pe. Uske haath Avi se alag the. Kam pressure, lekin zyada feel. Aditi ne turant notice kiya.\n\n**Aditi:** “Tum bolte nahi ho.”\n\n**Yash:** “Bolne ki zaroorat nahi.”\n\nUsne Aditi ko thoda peeche khincha. Ab Aditi ka back Yash ke chest se fully touch ho raha tha. Avi saamne se uski waist pe haath rakhe hue tha. Dono taraf se pressure tha. Short hem upar uth gaya. Aditi ki rounded ass Yash ke thighs se press hui. No-bra dress mein uske breasts forward push hue, neckline ke against clearly shape dikh raha tha.\n\nYash ne apna face uske kandhe ke paas le aaya. Usne kuch nahi kaha. Sirf lips uske bare shoulder pe rakhe — slow, warm, thoda open. Aditi ki saans ruk gayi.\n\n**Aditi** ne aankhein band ki. Yeh Avi jaisa open touch nahi tha. Yash ka silent haath aur shoulder kiss usse zyada andar tak feel ho raha tha.\n\nAvi ne yeh dekha. Uske haath Aditi ki waist pe tight hue.\n\n**Avi:** “Yash…”\n\nYash ne jawab nahi diya. Usne sirf Aditi ke hips pe haath aur neeche slide kiya, fabric ke through shape feel karte hue. Aditi ne mehsoos kiya. Uska body automatically thoda peeche push hua Yash ki taraf.\n\nMeenakshi sofe pe baithi thi. Usne poora sandwich dekha — Avi saamne se, Yash peeche se, Aditi beech mein pressed. Usne Yash ke silent hands aur shoulder kiss ko specially notice kiya. Uski nazar tight ho gayi. Usse bhi clear ho raha tha ki Yash Avi se zyada dangerous lag raha hai.\n\nAditi ne aankhein kholi. Yash abhi bhi uske peeche tha, haath uske hips pe. Avi saamne se dekh raha tha.\n\n**Aditi** dheere se boli, almost to herself.\n\n**Aditi:** “Tum… Avi se zyada dangerous ho.”\n\nYash ne uske shoulder pe ek aur soft kiss diya. Kuch nahi bola. Aditi ka body uske haathon mein clearly respond kar raha tha. Farmhouse ki lights un teeno pe pad rahi thin. Meenakshi ab bhi dekh rahi thi, wine ka glass haath mein, expression serious."
+        },
+        {
+          "source": "GROK_F06_CONTINUATION",
+          "raw": "Music aur tez ho gayi. Aditi beech mein thi — Avi saamne, Yash peeche. Teeno ka dance shuru ho chuka tha.\n\nAditi ne hips slow sway kiye. Short burgundy dress uske movement ke saath upar-neeche shift ho raha tha. No-bra hone ki wajah se har sway pe uske breasts soft bounce kar rahe the. Neckline ke andar se shape clearly move ho raha tha — left, right, phir forward jab woh Avi ki taraf thodi jhukti.\n\nAvi ne seedha dekha. Uske haath Aditi ki waist pe the, lekin nazar neckline pe atki hui thi.\n\n**Avi:** “Tumhari breasts… har step pe clearly move kar rahe hain.”\n\nAditi ne uski baat suni lekin ruk nahi. Usne ek sharp turn liya. Is turn mein dono breasts neckline ke against press hue, phir alag hue. Fabric stretch hua. Yash peeche se uske hips ko pakde hue tha. Jab Aditi turn complete karti, uska back Yash ke chest se aur tight chipak gaya.\n\nYash ne kuch nahi kaha. Usne sirf haath thoda upar slide kiye — waist se side ribs tak. Aditi ne mehsoos kiya. Uska body automatically respond kiya, breasts forward push hue.\n\n**Aditi** dheere se boli, saans tez.\n\n**Aditi:** “Dono taraf se… tum log mujhe feel kar rahe ho.”\n\nAvi ne uski taraf aur close aaya. Ab Aditi almost fully sandwiched thi. Har hip movement pe uski breasts Avi ke chest se lightly brush ho rahi thin, aur peeche se Yash ka pressure usse aur aage dhakel raha tha. Neckline repeatedly shift ho raha tha. Soft, full shape clearly dikh raha tha string lights ke neeche.\n\nYash ne apna face uske shoulder pe rakha. Lips skin se touch ho rahe the. Aditi ki aankhein band ho gayi ek pal ke liye. Yeh Avi ke open compliments se zyada intense lag raha tha.\n\nMeenakshi sofe se dekh rahi thi. Usne Aditi ke breasts ka movement clearly dekha — no-bra dress mein har turn aur sway pe bounce aur shift. Usne Avi aur Yash dono ke haathon ko bhi dekha. Uski nazar tight thi. Woh samajh rahi thi ki teeno ka dance ab sirf dance nahi raha.\n\nAditi ne aankhein kholi. Uska body abhi bhi dono ke beech mein move kar raha tha. Breasts har rhythm pe soft bounce kar rahe the, neckline ke edges pe shape baar baar dikh raha tha. Yash ke silent hands aur Avi ka open touch — dono alag the, lekin ab ek saath usse press kar rahe the.\n\n**Aditi** ne dheere se kaha.\n\n**Aditi:** “Bas… itna close.”\n\nLekin woh hati nahi. Dance chalu raha. Teeno ke beech mein Aditi ki movement, breast bounce aur short dress ka shift clearly dikh raha tha farmhouse ki lights mein."
+        }
+      ]
+    },
+    "F07": {
+      "title": "Meenakshi Joins Later",
+      "status": "AUTHOR_SUBMITTED_SOURCE_PUBLISHED",
+      "origin": "GROK_ORIGINAL",
+      "parts": [
+        {
+          "source": "GROK_ORIGINAL",
+          "raw": "Aditi ne Meenakshi ki taraf dekha jo abhi bhi sofe pe baithi thi.\n\n**Aditi:** “Meenakshi, tum bhi aa jao. Sirf dekhte rehna nahi.”\n\nMeenakshi ne wine ka glass side pe rakha. Thodi der socha, phir khadi hui. Plum kurta uske fitted waist pe set tha, cream palazzo neeche soft flow kar raha tha. Grey cardigan usne utaar diya. Jab woh dance floor ki taraf badhi, uski chaal measured thi. Kurta ka fabric uske hips ke rounded silhouette ko clearly follow kar raha tha.\n\nAvi ne side se dekha. Uski nazar Meenakshi ke gait aur hip movement pe ruki.\n\nYash ne alag cheez notice ki — uski waistline ka hourglass shape aur controlled steps. Uski expression calm thi, lekin rhythm ke saath thodi change ho rahi thi.\n\nAditi ne dono ki nazar ka shift dekh liya. Woh hasli.\n\n**Aditi:** “Ab attention baat rahi hai.”\n\nMeenakshi unke beech mein aayi. Aditi ne uska haath pakda aur ek slow turn diya. Meenakshi ne participate kiya, lekin apni pace pe."
+        }
+      ]
+    },
+    "F08": {
+      "title": "Crossed Attention",
+      "status": "AUTHOR_SUBMITTED_SOURCE_PUBLISHED",
+      "origin": "GROK_ORIGINAL",
+      "parts": [
+        {
+          "source": "GROK_ORIGINAL",
+          "raw": "Dance chalu raha. Aditi ne Avi ki taraf dekha.\n\n**Aditi:** “Avi, tumhari nazar ab Meenakshi pe zyada ja rahi hai. Pehle mujhpe thi.”\n\n**Avi:** “Dono ko dekh raha hoon.”\n\n**Aditi:** **“Dono ko dekh rahe ho ya compare kar rahe ho?”**\n\nAvi ne seedha jawab nahi diya. Meenakshi ne yeh suna aur calmly boli.\n\n**Meenakshi:** “Compare karne ki zaroorat nahi. Main yahan dance karne aayi hoon, judge hone nahi.”\n\nYash Meenakshi ke paas aaya. Uska tone Avi se alag tha.\n\n**Yash:** “Aap hospital mein itni strict rehti hain. Yahan bilkul alag lag rahi hain.”\n\n**Meenakshi:** **“Strict tab hoti hoon jab kaam hota hai. Yahan kaam nahi hai. Isliye alag hoon.”**\n\nAditi ne dono ko dekha. Avi thoda uncomfortable laga. Yash Meenakshi ke saath zyada comfortable dikh raha tha. Meenakshi ne sab notice kiya aur koi overreaction nahi diya. Group ab clearly aware tha ki attention shift ho raha hai."
+        }
+      ]
+    },
+    "F09": {
+      "title": "Aditi's Dress and Boundaries",
+      "status": "AUTHOR_SUBMITTED_SOURCE_PUBLISHED",
+      "origin": "GROK_ORIGINAL",
+      "parts": [
+        {
+          "source": "GROK_ORIGINAL",
+          "raw": "Aditi ne phir se dance ka lead liya. Ek turn ke baad Avi ne uski taraf dekha.\n\n**Avi:** “Tumhari dress ab bhi sabse zyada attention le rahi hai. Hem kitna short hai, clearly dikh raha hai.”\n\nAditi ne uski baat suni. Usne ek step liya. Short hem thighs ke upar tha. Avi ki nazar thodi neeche gayi, dress ke neeche dekhne ki koshish ki. Kuch nahi dikha.\n\nAditi ne turant notice kar liya. Usne dance rok diya aur seedha Avi ki aankhon mein dekha.\n\n**Aditi:** **“Neeche mat dekho. Jo dikh raha hai, wahi hai. Jo nahi dikh raha, woh tumhare liye nahi hai.”**\n\nAvi ruk gaya. Yash ne yeh exchange dekha aur kuch nahi kaha. Meenakshi side se notice kar rahi thi. Aditi ne phir se music ke saath move karna shuru kiya, lekin ab uski boundary clear thi. Admiration chal raha tha, lekin usne control apne paas rakha."
+        }
+      ]
+    }
+  },
+  "addenda": [
+    {
+      "id": "F08-extra-author-line",
+      "placement": "After F08, before F09; source addition retained separately without replacing original F08",
+      "source": "Author supplied extra beat and requested it be added as a line",
+      "raw": "Aditi beech mein thi. Avi saamne se uski waist pe haath rakhe hue tha. Ek slow sway mein Aditi ne apni ass deliberately peeche push ki — seedha Avi ke dick area pe. Short dress upar uth gaya, rounded ass uske against press hui. Avi ne clearly feel kiya.\n\n**Aditi** ne dheere se, double meaning mein kaha.\n\n**Aditi:** **“Tumhare chotu_avi toh mujhe feel ho raha hai.”**\n\nAvi ruk gaya. Uska haath tight hua, lekin woh ek pal ke liye freeze ho gaya. Aditi ne uski reaction dekhi aur turant wapas smile kar di — jaise kuch hua hi na ho.\n\n**Aditi:** “Kya hua? Ruk kyun gaye?”\n\nAvi ne saans li aur phir se move karna shuru kiya, lekin ab uska touch pehle se zyada conscious tha. Aditi ne control wapas le liya tha. Yash peeche se yeh sab dekh raha tha. Meenakshi ki nazar bhi us moment pe ruki thi.",
+      "status": "AUTHOR_SUBMITTED_NOT_YET_LINE_APPROVED"
+    }
+  ],
+  "notes": [
+    "F04 author retained 'Aditi unke beech mein aayi...' paragraph and requested removal of final invitation dialogue and closing scene-summary paragraph",
+    "F06 second Grok draft is author-confirmed continuation, not alternative. Reading order F06 Part 1 then F06 Part 2.",
+    "Meenakshi has accepted/sipped wine; later return must use sober professional driver, not her driving."
+  ]
+}
