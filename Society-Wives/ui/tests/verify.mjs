@@ -121,7 +121,7 @@ assert.ok(!selected.beats.F13.parts[0].raw.includes('Yahan hospital nahi hai'),'
 assert.equal(selected.beats.F14.status,'AUTHOR_DIRECTED_EDITORIAL_DRAFT_PENDING_APPROVAL','F14 remains a working draft');
 assert.ok(selected.beats.F14.parts[0].raw.includes('Return mein professional driver'),'F14 return driver is sober professional');
 assert.ok(selected.beats.F14.parts[0].raw.includes('Abhi woh wahin thi'),'Aditi waits until F15');
-assert.ok(!selected.beats.F14.parts[0].raw.includes('Burgundy dress mein woh exit ki taraf badhi'),'Aditi's exit remains deferred to F15');
+assert.ok(!selected.beats.F14.parts[0].raw.includes('Burgundy dress mein woh exit ki taraf badhi'),"Aditi's exit remains deferred to F15");
 
 
 
