@@ -16,7 +16,6 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
  const {data:twins,error:twinsError}=useData<Plan>('episode-03-meenakshi-scene-03-twins.json');
  const {data:bablooIntro,error:bablooIntroError}=useData<Plan>('episode-03-meenakshi-scene-04-babloo-intro.json');
  const {data:meenaFuture}=useData<Plan>('episode-03-meenakshi-plan.json');
- const {data:ankitaFuture}=useData<Plan>('episode-03-ankita-pending.json');
  const {data:ankitaOpening,error:ankitaOpeningError}=useData<Plan>('episode-03-ankita-a11-scene-01-opening.json');
  const {data:ankitaScene02,error:ankitaScene02Error}=useData<AnkitaScene02>('episode-03-ankita-scene-02.json');
  const {data:ankitaScene03,error:ankitaScene03Error}=useData<AnkitaScene03>('episode-03-ankita-scene-03.json');
@@ -25,12 +24,16 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
  const {data:writingStyle,error:writingStyleError}=useData<Plan>('flirting-style.json');
  const {data:shreyaFuture}=useData<Plan>('episode-03-shreya-plan.json');
  useEffect(()=>{
-  if(active!=='meenakshi'||!initialScene)return;
-  const id=initialScene==='01'?'ep03-meenakshi-scene-01':initialScene==='handoff'?'ep04-meenakshi-handoff':'ep03-meenakshi-scene-'+initialScene;
+  if(!initialScene)return;
+  const id=active==='ankita'
+   ?(initialScene==='01'?'ankita-ep03-a11':initialScene==='02'?'ankita-ep03-scene02':initialScene==='03'?'ankita-ep03-scene03':initialScene==='04'?'ankita-ep03-scene04-rohit':initialScene==='rohit-first-show'?'ankita-ep04-rohit-first-show':'')
+   :active==='meenakshi'
+   ?(initialScene==='01'?'ep03-meenakshi-scene-01':initialScene==='handoff'?'ep04-meenakshi-handoff':'ep03-meenakshi-scene-'+initialScene)
+   :'';
   const timer=window.setTimeout(()=>document.getElementById(id)?.scrollIntoView({behavior:'smooth',block:'start'}),130);
   return ()=>clearTimeout(timer);
  },[active,initialScene]);
- const leadPlans=[{lead:'ankita',file:'episode-03-ankita-pending.json',plan:ankitaFuture},{lead:'shivani',file:'',plan:null},{lead:'taniya',file:'',plan:null},{lead:'meenakshi',file:'episode-03-meenakshi-plan.json',plan:meenaFuture},{lead:'shreya',file:'episode-03-shreya-plan.json',plan:shreyaFuture}];
+ const leadPlans=[{lead:'ankita',file:'',plan:null},{lead:'shivani',file:'',plan:null},{lead:'taniya',file:'',plan:null},{lead:'meenakshi',file:'episode-03-meenakshi-plan.json',plan:meenaFuture},{lead:'shreya',file:'episode-03-shreya-plan.json',plan:shreyaFuture}];
  const activePlan=leadPlans.find(x=>x.lead===active);
  const ankitaStages=Array.isArray(ankitaOpening?.blocks)?ankitaOpening.blocks as AnkitaStage[]:[];
  const narratorRule=writingStyle?.narratorVisualDescription as NarratorStyleRule|undefined;
@@ -127,7 +130,7 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
     <p><strong>Separate:</strong> narrator visual description · observer's glance · spoken teasing · woman's own response. Never silently omit an author-requested beat or invent new body canon.</p>
     {narratorRule?<><p><strong>Reference technique:</strong> {narratorRule.origin}</p><div className="beat-list">{narratorRule.methods.map((method,i)=><div key={i} className="beat-item"><p>{method}</p></div>)}</div><p><strong>Example vocabulary (not established body shapes):</strong> {narratorRule.examplePhrases.join(' · ')}</p><p className="muted">{narratorRule.status.replace(/_/g,' ')}</p></>:<p className="muted">{writingStyleError||'Writer style notes loading…'}</p>}
    </details>
-   <div className="split"><div><span className="eyebrow">Working story lane</span><h2>{titleCase(active)}</h2><p>{activePlan?.plan?.title||'No separate Episode 03 working draft is available here yet.'}</p></div></div>
+   <div className="split"><div><span className="eyebrow">Working story lane</span><h2>{titleCase(active)}</h2><p>{active==='ankita'?'Current EP03 Scenes 01–04 and the separate 2 January Rohit first-show plan are shown above. Superseded A11–A17 drafts are retained in the repository archive, not presented as active plots.':activePlan?.plan?.title||'No separate Episode 03 working draft is available here yet.'}</p></div></div>
    {active==='taniya'&&<p className="source-note">Soniya's independent scenes belong to Taniya's continuity lane. Their existing joint plan is preserved; those scenes have not been promoted to finished prose.</p>}
    {active==='shivani'&&<p className="source-note">Shivani's future planning is not independently indexed as an Episode 03 scene in the audited sources. Earlier plot notes are preserved in the story archive.</p>}
    {activePlan?.plan&&<><p><strong>Original status:</strong> {str(activePlan.plan.status)||'REVIEW'}</p>{active==='meenakshi'&&<p><strong>Older separate outline — 2 January 2026.</strong> This is not part of 1 January's Scene 01–03 sequence. Senior Review M08 stays on Jan 2.</p>}
