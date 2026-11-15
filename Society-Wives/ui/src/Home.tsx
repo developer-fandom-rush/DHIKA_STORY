@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { EpisodeOne, openPage, useData } from './lib';
+import { EpisodeOne, assetUrl, openPage, useData } from './lib';
 export default function Home({scene}:{scene?:string|null}){
  const {data,error,loading}=useData<EpisodeOne>('episode-01.json');
  useEffect(()=>{if(!data||!scene)return;const id='ep01-'+scene;const timer=window.setTimeout(()=>document.getElementById(id)?.scrollIntoView({block:'center',behavior:'smooth'}),100);return()=>clearTimeout(timer)},[data,scene]);
@@ -8,7 +8,7 @@ export default function Home({scene}:{scene?:string|null}){
    <span className="eyebrow">Gulmohar Heights · Gurgaon · Prologue / Episode 01</span>
    <h1>Society Wives <em>— Five Veils of Desire</em></h1>
    <p className="hero-copy">Five women. Five lives. One society.</p>
-   <div className="hero-actions"><button type="button" className="button primary" onClick={()=>openPage('reading',{character:'ankita'})}>Continue to Episode 02 <span aria-hidden="true">→</span></button><button type="button" className="button subtle" onClick={()=>openPage('planning',{lead:'meenakshi',scene:'01'})}>Read EP03 · Meenakshi approved Scene 01</button></div>
+   <div className="hero-actions"><button type="button" className="button primary" onClick={()=>openPage('reading',{character:'ankita'})}>Continue to Episode 02 <span aria-hidden="true">→</span></button><button type="button" className="button subtle" onClick={()=>openPage('planning',{lead:'meenakshi',scene:'01'})}>Read EP03 · Meenakshi approved Scene 01</button><a className="button subtle" href={assetUrl('episode-03-meenakshi-scene-03-t01-t03.html')}>Read EP03 · Badminton T01–T03 (corrected)</a></div>
   </section>
   <div className="reading-heading">
    <div><span className="eyebrow">The original opening</span><h2>{data?.episode.title||'Episode 01 — Prologue'}</h2><p>{data?.episode.subtitle}</p></div>
