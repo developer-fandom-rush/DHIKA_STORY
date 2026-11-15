@@ -7,7 +7,7 @@
   "date": "2026-01-01",
   "timezone": "Asia/Kolkata",
   "status": "AUTHOR_DIRECTED_PLOTTING_NOT_APPROVED_PROSE",
-  "publicationMeaning": "Planning UI direction only: no scene prose drafted or approved. Do not retcon or overwrite the archived A11/A12–A17 scenes.",
+  "publicationMeaning": "Active EP03 Scene01 Rajeev phone call and reader-only private afterbeat are retained; all discarded later home/parcel proposals are excluded and not authority for any future scene.",
   "sourceCanon": [
     "Episode 02 A04 morning: Rajeev is a socially addressed older household associate, NOT Ankita's actual father-in-law; private admiration/unsolicited compliment happened at breakfast and Ankita stopped the unfinished remark.",
     "Episode 02 P08 12:30–12:50: Rajeev possesses damaged personal parcel (one remaining clothing set and adult personal item); he removed none of the six missing sets; left committee for home after 12:50.",
@@ -47,7 +47,8 @@
               "speaker": "Rajeev",
               "line": "Mere paas aa gaya hai beta. Main ghar par rakh deta hoon."
             }
-          ]
+          ],
+          "editorFlags": []
         },
         {
           "id": "A11-RAJEEV-POV",
@@ -59,7 +60,7 @@
           "editorFlags": [
             "Personal items used without consent are a privacy violation, not flirtation or reciprocal consent.",
             "The 'used undergarment' is NOT accounted for by P08 inventory. Grok cannot invent it in the box or assume it belonged to Ankita without author approval.",
-            "The item must remain available for A14 handover unless author later changes the established parcel inventory.",
+            "The parcel remains in Rajeev's own custody when Ankita returns. No later handover or inspection occurs on Jan1; preserve original P08 inventory.",
             "Other elder men's private action beats may be scheduled in later episodes when their characters appear; do not fabricate them now."
           ]
         }
@@ -114,9 +115,8 @@
     }
   ],
   "otherNotes": [
-    "The earlier A11 archived draft remains parked; the A11 phone conversation is compressed and private Rajeev reader-only beat added as author directive.",
-    "Old men action versus interest ledger should be maintained later as reader-only first action, never mistaken for a mutual encounter.",
-    "All other Ankita EP03 scenes, including Rohit, Karan-Aman, Rinku, return, dinner and ending are on hold.",
-    "Canonical Episode 03 scene ordering now: Scene 01 = A11 Rajeev call and private reader-only beat; Scene 02 = five-office-colleague sequence in episode-03-ankita-scene-02.json. Original office-opening drafting history retained as a superseded second block."
+    "Rajeev Scene01 phone call and reader-only afterbeat remain; his subsequent return belongs to a later author-directed episode. He is away during Ankita's Jan1 home arrival and retains the parcel in his own custody.",
+    "Scene02 and subsequent authored scenes have their separate active sources. EP03 Scene08 is Ankita's fresh-up, knowledge-separated day recall and Rinku service-doorbell setup; stop at 18:25.",
+    "No Gopal/elders follow-up conversation, home parcel handover, family dinner, missing-items inventory or Ankita–Kabir closure on Jan1."
   ]
 }
