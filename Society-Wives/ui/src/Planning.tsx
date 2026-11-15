@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import { leadOrder, Plan, openPage, titleCase, useData } from './lib';
 const str=(v:unknown)=>typeof v==='string'?v:'';
 type PublishedLine={time?:string|null;kind:'narration'|'dialogue'|'cut';speaker?:string;text:string};
+type FarmhouseF01={title:string;status:string;paragraphs:{type:'dialogue'|'narration';speaker?:string;text:string;highlight?:boolean}[];endBoundary:string;};
 type AnkitaStage={id:string;title:string;start:string;end:string;approval:string;sequence?:{id:string;time?:string;summary:string;dialogue?:{speaker:string;line:string}[];storyIntent?:string;editorFlags?:string[]}[];beats?:{id:string;summary:string}[];openChoices?:string[];};
 type NarratorStyleRule={status:string;origin:string;appliesTo:string;methods:string[];examplePhrases:string[];useInstructions:string[];sceneTemplate:string[];};
 type AnkitaScene02={scene:string;title:string;status:string;date:string;start:string;end:string;castNames:string[];sequence:{id:string;time:string;heading:string;plot:string;suggestedDialogue?:{speaker:string;line:string}[]}[];lockedDecisions:string[];exclusions:string[];proseStatus:string;nextScene:string;wardrobe:{character:string;look:string;status:string}[];};
@@ -35,6 +36,7 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
  const narratorRule=writingStyle?.narratorVisualDescription as NarratorStyleRule|undefined;
  const authorNotes=(twins?.authorRequirement as {exactText?:string}|undefined)?.exactText;
  const publishedProse=(Array.isArray(current?.publishedProse)?current.publishedProse:[]) as PublishedLine[];
+ const farmhouseF01=(farmhouse?.approvedProse as {F01?:FarmhouseF01}|undefined)?.F01;
  return <main className="page-width">
   <header className="section-intro"><span className="eyebrow">Writers' room · works in progress</span><h1>Episode Planning</h1><p>Follow each character's planned scenes here. The cross-character universal timeline is a separate top-level view.</p></header>
   <button type="button" className="button subtle planning-global-link" onClick={()=>openPage('timeline')}>Open Universal Timeline</button>
@@ -47,7 +49,13 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
    {currentError&&<p role="alert">SOURCE MISSING: {currentError}</p>}
   </article>
 
-  <article className="episode-plan-card" id="ep03-meenakshi-scene-02"><span className="eyebrow">EP 03 · Scene 02 · Approved plot direction, no finished prose</span><h2>The Farmhouse Evening</h2><p>1 January 2026 · From 17:00 · Meenakshi, Aditi, Avi and Yash</p><p>After duty the group heads to a farmhouse gathering. Dancing, conversations, photographs and a ride home unfold as separate beats. This remains a plot outline, not a published chapter.</p><strong>Return travel and finishing time are not yet verified.</strong>
+  <article className="episode-plan-card" id="ep03-meenakshi-scene-02"><span className="eyebrow">EP 03 · Scene 02 · F01 APPROVED &amp; PUBLISHED · F02–F22 PLOT ONLY</span><h2>The Farmhouse Evening</h2><p>1 January 2026 · From 17:00 · Meenakshi, Aditi, Avi and Yash</p><p>Beat 01 now has author-approved prose. The remaining 21 beats are still an unpublished plot outline; the complete farmhouse encounter has not been approved.</p><strong>Return travel and finishing time are not yet verified.</strong>
+   {farmhouseF01&&<section className="source-note" id="farmhouse-approved-F01" aria-label="Approved Farmhouse Beat F01">
+    <span className="eyebrow">F01 · Approved scene prose</span><h3>{farmhouseF01.title}</h3><p className="muted">1 January · Approximately 5:00 PM · Hospital staff exit</p>
+    <div className="source-scene prose-exact">{farmhouseF01.paragraphs.map((line,i)=><p key={i} className={line.type==='dialogue'?'dialogue':''}>{line.speaker&&<strong>{line.speaker}: </strong>}{line.highlight?<strong>{line.type==='dialogue'?'“'+line.text+'”':line.text}</strong>:line.type==='dialogue'?'“'+line.text+'”':line.text}</p>)}</div>
+    <p className="muted"><strong>Cut:</strong> F01 ends on the walk toward parking. Car seating and drive belong to F02.</p>
+   </section>}
+   {farmhouse&&!farmhouseF01&&<p role="alert">Approved F01 prose is missing from the farmhouse source.</p>}
    {farmhouse?.beats?.length?<details className="episode-outline"><summary>Read {farmhouse.beats.length} planned beats</summary><div className="beat-list">{farmhouse.beats.map((b,i)=><div key={b.id||i} className="beat-item"><span className="eyebrow">{str(b.phase)||b.id||'Plot beat'}</span><h3>{b.title||'Untitled beat'}</h3><p>{str(b.detail)}</p></div>)}</div></details>:<p>{farmhouseError||'Loading farmhouse outline…'}</p>}
   </article>
   <article className="episode-plan-card" id="ep03-meenakshi-scene-03"><span className="eyebrow">EP 03 · Scene 03 · Author notes and scene beats under review</span><h2>The Badminton Bet</h2><p>1 January 2026 · 18:15 proposed · Uday, Utkarsh and Meenakshi</p><p>At a badminton court about five minutes from Gulmohar Heights, the twins renew their morning banter with Meenakshi. Her original car-not-starting and return-ride proposal is preserved as author planning, not locked or finished prose.</p>
