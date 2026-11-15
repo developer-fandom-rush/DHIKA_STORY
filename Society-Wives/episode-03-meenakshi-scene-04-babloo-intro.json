@@ -6,7 +6,7 @@
   "date": "2026-01-01",
   "time": "18:45–19:00 target (provisional)",
   "title": "The First Different Look — Babloo",
-  "status": "USER_APPROVED_FIVE_BEAT_PLOT_NO_PROSE",
+  "status": "B01_B05_APPROVED_PLOT_FULL_PROSE_DRAFT_SAVED_FOR_REVIEW",
   "introAndHistory": "Babloo (23) society mein pharmacy pickups aur deliveries sambhalta hai. Meenakshi use pehle se jaanti hai aur uski reliable service par bharosa karti hai. Woh delivery instructions carefully follow karta hai. Abhi tak unka relationship familiar doctor–helper ka hai; koi romantic encounter establish nahi hua.",
   "ep04Handoff": "Possible next-day car recovery / assistance involving Babloo; details remain unplanned. The separate 14:15 Naveen EP04 handoff remains unresolved and unchanged.",
   "priorCanon": "Babloo's name/role are in character-directory.json. Older episode-01.json S04 was proposed, not approved or published; no Babloo meeting is confirmed in published Meenakshi EP02 scenes. Do not invent a previous personal encounter.",
@@ -69,8 +69,81 @@
   "boundaries": [
     "No copied Dhika groceries, noodles, or second-doorbell sequence.",
     "No unapproved physical touch or home-interior encounter.",
-    "Approved plot only; no full narrative prose yet.",
+    "Approved B01–B05 plot; full draft saved in UI for author review, not yet author-approved prose.",
     "6:45 PM scene start is a target, contingent on farmhouse and badminton continuity review."
   ],
-  "driveDraft": "https://docs.google.com/document/d/1JuZp20L_wtOMJcAHKtVti-Qlpsj38o9GiNLZ07HzbzY/edit"
+  "driveDraft": "https://docs.google.com/document/d/1JuZp20L_wtOMJcAHKtVti-Qlpsj38o9GiNLZ07HzbzY/edit",
+  "proseDraft": {
+    "title": "The First Different Look",
+    "date": "2026-01-01",
+    "time": "18:45–19:00 (provisional)",
+    "status": "USER_REQUESTED_UI_SAVED_DRAFT_PENDING_FINAL_PROSE_APPROVAL",
+    "source": "Assistant draft presented for review in current conversation, saved at user's request without story-line rewrites",
+    "beats": [
+      {
+        "id": "B01",
+        "title": "An Unexpected Meeting",
+        "raw": "Society ka gate paar karte hi Meenakshi ne apni chaal thodi dheemi kar li. Paanch minute ki bike ride khatam ho chuki thi, lekin uske mann mein Uday aur Utkarsh ke saath hui shaam ki baatein abhi bhi chal rahi thi.\n\nUsne apne plum kurte ko halka sa theek kiya. Cream palazzo ki silvatein seedhi ki aur loose baalon ko ek taraf kiya.\n\nUday ne bike rok kar uski taraf dekha.\n\n**Uday:** “Ma’am, aaj badminton ka result toh pending reh gaya.”\n\n**Meenakshi:** “Result? Tum dono ko abhi bhi lagta hai main haar gayi?”\n\n**Utkarsh:** “Haar nahi gayi. Bas abhi training baaki hai.”\n\nMeenakshi ne Utkarsh ko dekha. Uska wahi shaant expression tha jo court par Uday ki har teasing ke baad hota tha.\n\n**Meenakshi:** “Achha ji. Agli baar dekh lenge.”\n\nUday hansa.\n\n**Uday:** “Good night, ma’am. Aur haan, car ki tension mat lena.”\n\n**Meenakshi:** “Tum dono bhi ghar pahunchkar message kar dena. Good night.”\n\nUtkarsh ne muskurakar sir hilaya. Bike aage badh gayi.\n\nMeenakshi Tower C ke entrance ki taraf mudi.\n\nEntrance ke ek taraf Babloo pharmacy ke parcels arrange kar raha tha. Usne bike rukne ki awaaz suni thi aur nazar uthakar dekha bhi tha.\n\n**Uski nazar pehle jaate hue twins par gayi, phir Meenakshi par aakar ruk gayi.**"
+      },
+      {
+        "id": "B02",
+        "title": "The First Different Look",
+        "raw": "Babloo ne ek parcel rakhte-rakhte apna haath rok liya.\n\nMeenakshi ko woh pehle se jaanta tha. Pharmacy pickups, deliveries aur medical supplies ke silsile mein unki baat hoti rehti thi. Babloo instructions dhyaan se follow karta tha, aur Meenakshi uski reliability ko appreciate karti thi.\n\nLekin aaj woh kisi kaam ke silsile mein saamne nahi aayi thi.\n\nPlum kurta, cream palazzo aur khule baal. Din bhar ki busy routine ke baad bhi uske chehre par ek relaxed, cheerful expression tha.\n\nBabloo ne use pehchaan liya, lekin **aaj uski nazar routine greeting se ek pal zyada thehri.**\n\nMeenakshi ne entrance ke paas pahunchte hi uski taraf dekha.\n\nBabloo seedha khada ho gaya.\n\n**Babloo:** “Good evening, Doctor Madam.”\n\n**Meenakshi:** “Good evening, Babloo.”\n\nWoh do kadam aage badhi, phir ruk gayi.\n\nBabloo ab bhi use dekh raha tha. Usne nazar milte hi halka sa smile kiya, lekin turant kuch nahi bola.\n\nMeenakshi ki eyebrows thodi uthi.\n\n**Meenakshi (andar se):** *Yeh aaj itna chup kyun hai? Hamesha toh kaam ki poori report taiyaar rehti hai.*\n\nUske chehre par ek chhoti si teasing smile aa gayi."
+      },
+      {
+        "id": "B03",
+        "title": "The Unexpected Compliment",
+        "raw": "**Meenakshi:** “Kya hua, Babloo? Aaj pehchaan nahi paaye?”\n\nBabloo ek pal ko hansa. Phir usne seedha uski aankhon mein dekha.\n\n**Babloo:** “Pehchaan toh gaya, Doctor Madam. Bas aaj aap kuch zyada hi khoobsurat lag rahi hain.”\n\n**Meenakshi ki smile ek second ke liye ruk gayi.**\n\nCompliment ki use umeed nahi thi — khaaskar Babloo se, jo aam taur par kaam ki baat karke turant apne agle pickup ki taraf badh jaata tha.\n\n**Meenakshi:** “Achha? Toh ab tum bhi compliments dene lage?”\n\n**Babloo:** “Sach bolne mein koi problem toh nahi hai, Madam?”\n\nMeenakshi hansi.\n\n**Meenakshi:** “Problem nahi hai. Bas tumhe aaj pehli baar aise bolte suna.”\n\nBabloo ne apne haath mein rakha parcel theek kiya.\n\n**Babloo:** “Pehle kabhi kehne ka mauka hi nahi mila.”\n\nMeenakshi ne use dhyaan se dekha.\n\n**Meenakshi (andar se):** *Babloo? Itna confident? Yeh toh naya hai.*\n\nWoh jaanti thi ki Babloo apne kaam mein reliable hai. Lekin **yeh pehli baar tha jab usne Babloo ki baat mein professional politeness se alag ek personal confidence notice kiya.**\n\n**Meenakshi:** “Waise Babloo, aaj kaam kam hai kya? Itni fursat mil rahi hai?”\n\n**Babloo:** “Kaam toh hai, Madam. Bas aap saamne aa gayi toh do minute baat kar li.”\n\nMeenakshi ne muskura kar sir hilaya.\n\n**Meenakshi:** “Tum bhi na…”\n\nBabloo ne uski smile dekhi. Woh khush tha ki uski baat ko Meenakshi ne awkward nahi banaya."
+      },
+      {
+        "id": "B04",
+        "title": "A Different Kind of Concern",
+        "raw": "Kuch pal baad Babloo ki nazar entrance ki taraf gayi.\n\n**Babloo:** “Madam, ek baat poochun?”\n\n**Meenakshi:** “Haan, bolo.”\n\n**Babloo:** “Aapki car nahi dikhi. Abhi Uday bhaiya aur Utkarsh bhaiya ke saath aayi thi na?”\n\nMeenakshi ke chehre ki smile thodi badli.\n\n**Meenakshi:** “Haan yaar. Badminton court ke paas car start hi nahi hui.”\n\n**Babloo:** “Achaanak?”\n\n**Meenakshi:** “Haan. Do baar try kiya. Engine awaaz kar raha tha, lekin start nahi hua.”\n\nBabloo ne dhyaan se suna.\n\n**Babloo:** “Achha. Car wahin chhod di?”\n\n**Meenakshi:** “Haan. Aur kya karti? Society paas thi, toh un dono ne drop kar diya.”\n\nBabloo kuch sochne laga.\n\n**Babloo:** “Kal aap bolo toh main chal kar dekh leta hoon. Mechanic ki zarurat hogi toh woh bhi arrange kar lenge.”\n\nMeenakshi ne use dekha.\n\nAbhi kuch der pehle Babloo uski tareef kar raha tha. Ab uski awaaz bilkul practical thi.\n\n**Meenakshi (andar se):** *Pehle compliment, ab bina kahe help bhi offer kar raha hai.*\n\n**Meenakshi:** “Tum dekh loge?”\n\n**Babloo:** “Haan, Madam. Main check karwa dunga. Agar wahin repair nahi hui toh mechanic se recovery bhi pooch lenge.”\n\n**Meenakshi:** “Achha hai. Kal dekhte hain phir.”\n\n**Babloo:** “Aap tension mat lena.”\n\n**Meenakshi:** “Thank you, Babloo. Tum waise bhi hamesha kaam time se kar dete ho.”\n\nBabloo ke chehre par is baar pehle se alag smile thi.\n\n**Babloo:** “Aap bharosa karti hain, Madam. Isliye dhyaan rakhta hoon.”\n\nMeenakshi ki nazar uske chehre par ek pal ruki.\n\n**Usne notice kiya ki Babloo ka compliment aur uski help ki offer do alag baatein thi — lekin dono mein ek hi sincerity thi.**"
+      },
+      {
+        "id": "B05",
+        "title": "The Closing Hook",
+        "raw": "Lift lobby mein aakar Meenakshi ruk gayi.\n\nBabloo ne parcels sambhale aur entrance ke paas hi khada raha.\n\n**Meenakshi:** “Achha Babloo, kal car wala dekh lenge. Main ab chalti hoon.”\n\n**Babloo:** “Ji, Doctor Madam. Good night.”\n\nMeenakshi lift button dabane se pehle ek baar uski taraf mudi.\n\n**Meenakshi:** “Aur haan…”\n\nBabloo ne dekha.\n\n**Meenakshi:** “Aaj bahut confidence aa gaya hai tum mein.”\n\nBabloo halka sa sharmaaya, phir muskuraya.\n\n**Babloo:** “Aapne hi toh poochha tha, Madam.”\n\nMeenakshi hans padi.\n\n**Meenakshi:** “Achha baba. Good night.”\n\n**Babloo:** “Good night, Doctor Madam.”\n\nLift ka darwaaza khula.\n\nMeenakshi andar chali gayi.\n\nDarwaaza band hone se pehle uski nazar ek aakhri baar entrance ki taraf gayi. Babloo apne parcels ke paas wapas jaa chuka tha.\n\n**Meenakshi (andar se):** *Babloo toh hamesha se achha ladka hai… lekin aaj kuch alag hi confidence tha usmein.*\n\nUske chehre par halki si smile reh gayi.\n\nUdhar Babloo ne agla parcel uthaya.\n\n**Babloo (andar se):** *Doctor Madam ko meri baat buri nahi lagi. Aur kal car ke liye unki help bhi karni hai.*\n\nWoh wapas apne kaam mein lag gaya.\n\nLift upar badhne lagi.\n\n**Meenakshi ke liye ek lambi shaam khatam ho rahi thi. Babloo ke saath ek nayi personal understanding ki bas shuruaat hui thi.**"
+      }
+    ],
+    "ending": "End of Episode 03 — Meenakshi's perspective",
+    "reviewHighlights": [
+      {
+        "id": "B02",
+        "summary": "Babloo notices Meenakshi differently and she notices his gaze."
+      },
+      {
+        "id": "B03",
+        "summary": "First direct personal compliment and her playful response."
+      },
+      {
+        "id": "B04",
+        "summary": "Offer to help recover the car shows practical care beyond admiration."
+      },
+      {
+        "id": "B05",
+        "summary": "Lift-lobby conclusion. No home interior or extra doorbell."
+      }
+    ]
+  },
+  "foundationContinuityRule": {
+    "id": "MEENAKSHI_BABLOO_EP03_FOUNDATION_LOCK",
+    "scope": "Future Babloo–Meenakshi episodes; do not repeat already established introduction, foundation, or first-time beats",
+    "status": "AUTHOR_DIRECTED_CONTINUITY_RULE",
+    "established": [
+      "Babloo is already a familiar, reliable pharmacy helper; their work relationship predates this scene.",
+      "Meenakshi's baseline trust and comfort already exist; no renewed initial trust-building is needed.",
+      "Babloo makes his first personal appreciative compliment and Meenakshi knowingly responds with playful comfort.",
+      "Meenakshi notices his unexpected confidence and his sincere concern about the car.",
+      "He offers next-day assistance for her broken-down car; she accepts the offer."
+    ],
+    "prohibitions": [
+      "Never write Babloo as a stranger or a first introduction again.",
+      "Do not repeat the initial compliment or recycle the same trust/comfort proof.",
+      "Do not reset Meenakshi to unfamiliar or automatically shy around Babloo.",
+      "Avoid repeated emotional/psychological foundation narration in the next scenes.",
+      "Do not invent deep romance already existing; future developments must be earned through new events."
+    ],
+    "forwardGuidance": "Treat Episode 03 Scene 04 as a completed foundation. Future interactions must progress from existing familiarity, trust, initial personal warmth and noticed attraction, without redoing B01–B05."
+  }
 }
