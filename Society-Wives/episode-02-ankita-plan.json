@@ -13,7 +13,7 @@
   "baseline": {
     "ankita": "30, confident IT tech lead, maintains fitness through park mobility/yoga and walking; professional and approachable.",
     "kabir": "Ankita's husband, playful affection and a supportive relationship.",
-    "rajeev": "Rajeev (61) is the older household associate socially addressed as Papa/Uncle; NOT Kabir's actual father and NOT Ankita's actual FIL. Their public family presentation is not a literal legal/biological relation; their precise arrangement/backstory is TBD.",
+    "rajeev": "Ankita and her husband Kabir brought Rajeev from the roadside and, after their marriage, invited him to live with them. The circumstances of their meeting, Rajeev's prior life, and the motive beyond the invitation are not yet specified. Rajeev is not Kabir's actual father or Ankita's actual FIL.",
     "karan": "22, Kabir's younger twin brother, lives in the same family home; outgoing, preparing for MBA/management roles and freelances.",
     "aman": "22, Karan's twin, lives in same family home; more reserved, preparing for Java/backend job interviews.",
     "home": "Gulmohar Heights, Gurgaon; Ankita, Kabir, Rajeev, Karan, Aman share a home. This residency is newly established in this working draft.",
@@ -176,7 +176,9 @@
       "privateThought": "Karan's attention includes a private attraction he does not express; Aman primarily admires her competence. Ankita treats both as family.",
       "hooks": [
         "Both twins are present naturally; Karan's outward banter contrasts with Aman's quieter trust and study needs."
-      ]
+      ],
+      "revisedBackstoryMeaning": "A04 breakfast interruption 'Please stop, Uncle. We won't discuss it. Bas.' refers to the couple's history of bringing Rajeev from the roadside and inviting him to live with them after marriage; it is NOT a reply about a romantic/sexual invitation, and no implication about romantic consent should be drawn from it.",
+      "oldAssumptionForbidden": "Do not use A04 interruption as evidence of an attraction dispute, rejection, or romantic tension. Rajeev's unilateral private interest is separately established and does not define the line."
     },
     {
       "id": "A05",
@@ -1254,5 +1256,6 @@
     ],
     "existingExceptions": "Shreya/Arvind hospitalization connection and Meenakshi/Mohan old-age-home guest connection remain preserved where previously established. Husband/wife relationships are not changed by this instruction.",
     "oldSchemaNote": "Legacy interest-array field 'ankitaFILInterests' is retained for UI/data compatibility ONLY; 'FIL' in its name is no longer a factual relationship claim."
-  }
+  },
+  "rajeevA04InterruptionCanon": "A04 breakfast interruption 'Please stop, Uncle. We won't discuss it. Bas.' refers to the couple's history of bringing Rajeev from the roadside and inviting him to live with them after marriage; it is NOT a reply about a romantic/sexual invitation, and no implication about romantic consent should be drawn from it."
 }
