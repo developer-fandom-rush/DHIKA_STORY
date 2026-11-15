@@ -1,0 +1,264 @@
+{
+  "schemaVersion": 1,
+  "id": "SW-ANKITA-EP03-SCENE06-DANCE",
+  "lead": "ankita",
+  "episode": "03",
+  "scene": "06",
+  "date": "2026-01-01",
+  "timezone": "Asia/Kolkata",
+  "title": "The Stamina Challenge — The Five-Person Dance",
+  "time": {
+    "start": "16:40",
+    "end": "17:20",
+    "status": "PROPOSED_CLOCK_MATCHING_SCENE05_AND_HOME_DEADLINE"
+  },
+  "status": "AUTHOR_DIRECTED_PROSE_DRAFT_PENDING_APPROVAL",
+  "proseStatus": "DRAFT_NOT_APPROVED_NOT_PUBLISHED_AS_FINAL_CANON",
+  "setting": {
+    "venue": "Nearby private rooftop lounge/dance area, exact venue name unknown",
+    "danceFloorCast": [
+      "Ankita",
+      "Sana Khan",
+      "Aishwarya Rao",
+      "Vivan",
+      "Reyansh"
+    ],
+    "otherPeople": "No other party guests, office colleagues, friends or dancers; venue service professionals remain at the bar/door only.",
+    "partyGoal": "One short New Year outing before Ankita must be home by 18:00."
+  },
+  "wardrobe": [
+    "Ankita: cream embroidered kurti, fitted trousers; two upper buttons reclosed after Scene03; beige blazer set aside during dance.",
+    "Sana: emerald blouse, high-waist trousers, smart jacket set aside.",
+    "Aishwarya: burgundy satin shirt over camisole and black tailored trousers; blazer set aside."
+  ],
+  "originalSourceReference": {
+    "dhikaEP03": "Original Dhika EP03 includes waist/stomach physical contact during a ride, with Dhika's distinct awareness and subsequent reaction; it does not contain this group choreography.",
+    "dhikaEP41": "Original Dhika EP41 includes a private party atmosphere, shifting music, glances and dancers; it does not prescribe this exact sandwich dance sequence.",
+    "adaptationStatus": "NEW_SOCIETY_WIVES_CHOREOGRAPHY_BASED_ON_AUTHOR_DIRECTION_NOT_DHIKA_VERBATIM"
+  },
+  "choreography": [
+    {
+      "id": "D06-01",
+      "formation": "Initial pairs and Ankita joins",
+      "participants": "Reyansh+Aishwarya, Vivan+Sana, then Ankita with Vivan and Reyansh in succession",
+      "contact": "Handhold, shoulder, side waist, upper back; close step and willing separation.",
+      "reaction": "Aishwarya and Sana confidently lead their turns, Ankita turns teasing back on the men."
+    },
+    {
+      "id": "D06-02",
+      "formation": "Two men / one woman, Sana centered",
+      "participants": "Vivan in front, Sana middle, Reyansh behind",
+      "contact": "On musical beats brief chest-front/back brushing in close side-to-side turns, hand placement at shoulder/waist.",
+      "reaction": "Sana initiates, laughs and exits the middle herself."
+    },
+    {
+      "id": "D06-03",
+      "formation": "Two men / one woman, Aishwarya centered",
+      "participants": "Reyansh in front, Aishwarya middle, Vivan behind",
+      "contact": "Hand at shoulder and guided waist/upper back, turns",
+      "reaction": "Aishwarya changes direction, takes control, makes HR/filling double meaning."
+    },
+    {
+      "id": "D06-04",
+      "formation": "Two men / one woman, Ankita centered",
+      "participants": "Vivan in front, Ankita middle, Reyansh behind",
+      "contact": "Hands at side waist and upper back, chest-to-chest and chest-to-back closeness for one beat; she initiates a simultaneous partner turn.",
+      "reaction": "Ankita remains confident and witty, makes the men keep up."
+    },
+    {
+      "id": "D06-05",
+      "formation": "Two women / one man, Reyansh centered",
+      "participants": "Sana and Aishwarya outside, Reyansh middle",
+      "contact": "Shoulders, handholds, opposite turns",
+      "reaction": "Reyansh mock-protests an HR disciplinary audit."
+    },
+    {
+      "id": "D06-06",
+      "formation": "Two women / one man, Vivan centered",
+      "participants": "Ankita and Sana outside, Vivan middle",
+      "contact": "Handholds and light guiding hands on shoulders; alternating turns",
+      "reaction": "Vivan jokingly resigns and Ankita refuses the resignation."
+    },
+    {
+      "id": "D06-07",
+      "formation": "Five-person finale and cut",
+      "participants": "All five together",
+      "contact": "Group synchronized movements, final spin",
+      "reaction": "Three-versus-two result teased; no winner officially locked; stop before exit."
+    }
+  ],
+  "prose": {
+    "language": "Hinglish, Roman Hindi with English technical/HR idiom",
+    "lines": [
+      {
+        "type": "narration",
+        "text": "Private dance area mein sirf paanchon dost the. Bar counter par service staff maujood tha; dance floor par koi aur nahin. Aishwarya ne apna blazer chair par rakha, Sana ne jacket utari aur Ankita ne bhi apna beige blazer alag rakh diya. Teenon apne pehle se tay outfits mein thin."
+      },
+      {
+        "type": "dialogue",
+        "speaker": "Sana",
+        "text": "Office mein bade stamina ke claims kar rahe the. Ab dekhte hain kaun kitni der tikta hai!"
+      },
+      {
+        "type": "dialogue",
+        "speaker": "Vivan",
+        "text": "Teen examiners aur do candidates? Ye toh pehle se fixed result hai!"
+      },
+      {
+        "type": "dialogue",
+        "speaker": "Ankita",
+        "text": "Result performance se decide hoga, excuses se nahi."
+      },
+      {
+        "type": "narration",
+        "text": "Music shuru hote hi Reyansh ne Aishwarya ka haath uthakar use spin karaya. Vaapas aate waqt uska doosra haath Aishwarya ki waist par aaya. Aishwarya ne uske shoulder par haath rakha, kareeb aakar ek beat pakdi aur phir khud ghoomkar doori bana li."
+      },
+      {
+        "type": "dialogue",
+        "speaker": "Aishwarya",
+        "text": "Nice recovery, Mr. Reyansh. Lekin HR ko impress karna itna easy nahi."
+      },
+      {
+        "type": "narration",
+        "text": "Doosri taraf Vivan ne Sana ko waist se guide kiya. Sana ne uske shoulder par haath rakha, kareeb aakar turant peechhe hat gayi."
+      },
+      {
+        "type": "dialogue",
+        "speaker": "Sana",
+        "text": "Bas? Itna hi control hai?"
+      },
+      {
+        "type": "dialogue",
+        "speaker": "Vivan",
+        "text": "Tum rhythm badalogi har second toh stamina nahi, software update chahiye!"
+      },
+      {
+        "type": "narration",
+        "text": "Ankita hanste hue dono ke beech aayi. Pehle Vivan ke saath turn kiya, phir Reyansh ko bulaya. Reyansh ka haath uski waist se upper back tak gaya, jabki Ankita ne uske shoulder ko pakadkar agla step khud lead kiya."
+      },
+      {
+        "type": "dialogue",
+        "speaker": "Ankita",
+        "text": "Dopahar ko balance sambhal rahe the. Ab rhythm sambhal sakte ho?"
+      },
+      {
+        "type": "dialogue",
+        "speaker": "Reyansh",
+        "text": "Aaj aap hi challenge bhi de rahi ho aur marking bhi kar rahi ho!"
+      },
+      {
+        "type": "narration",
+        "text": "Sana ne achanak music badal diya."
+      },
+      {
+        "type": "dialogue",
+        "speaker": "Sana",
+        "text": "Ab individual performance band. Group stress test!"
+      },
+      {
+        "type": "narration",
+        "text": "Sabse pehle Sana dono men ke beech aayi—Vivan saamne, Reyansh peechhe. Side-to-side steps mein unke shoulders, chest aur back ki doori ghatti-badhti rahi. Ek pal ka chest-to-chest aur chest-to-back brush hua. Sana hanste hue ghoomkar baahar nikli."
+      },
+      {
+        "type": "dialogue",
+        "speaker": "Sana",
+        "text": "Dono milkar bhi QA test pass nahi kar paaye!"
+      },
+      {
+        "type": "narration",
+        "text": "Agli baari Aishwarya ki thi. Usne Reyansh ko saamne aur Vivan ko peechhe bulaya. Ek haath Reyansh ke shoulder par rakhte hue usne Vivan ke saath peechhe wala step match kiya. Dono men ne waist aur upper-back se turns guide kiye. Aishwarya ne achanak disha badalkar dono ko uljha diya."
+      },
+      {
+        "type": "dialogue",
+        "speaker": "Aishwarya",
+        "text": "Sandwich arrangement tumhara tha. Filling ka control mera hai!"
+      },
+      {
+        "type": "dialogue",
+        "speaker": "Vivan",
+        "text": "HR ne toh poora management hi takeover kar liya!"
+      },
+      {
+        "type": "narration",
+        "text": "Ab Ankita beech mein aayi. Vivan saamne, Reyansh peechhe. Dono ke haath uske side-waist aur upper-back par the. Close formation mein ek beat par chest-to-chest aur chest-to-back contact hua; agle hi pal Ankita ne dono ke haath pakadkar ek simultaneous turn karaya aur khud baahar nikal gayi."
+      },
+      {
+        "type": "dialogue",
+        "speaker": "Ankita",
+        "text": "Do-do log lag rahe hain aur lead phir bhi main kar rahi hoon!"
+      },
+      {
+        "type": "dialogue",
+        "speaker": "Reyansh",
+        "text": "Madam, aap competition nahi, poori selection committee ho!"
+      },
+      {
+        "type": "narration",
+        "text": "Phir challenge ulat gaya. Sana aur Aishwarya ne Reyansh ko beech mein bulaya. Dono ne uske shoulders pakadkar opposite directions mein playful turns karaye. Reyansh ne rhythm pakadne ki koshish ki, lekin dono ek saath direction badal gayin."
+      },
+      {
+        "type": "dialogue",
+        "speaker": "Reyansh",
+        "text": "Ek minute! Ye dance hai ya disciplinary hearing?"
+      },
+      {
+        "type": "dialogue",
+        "speaker": "Aishwarya",
+        "text": "Dono. Aur appeal reject!"
+      },
+      {
+        "type": "narration",
+        "text": "Aakhiri round mein Ankita aur Sana ne Vivan ko beech mein liya. Ankita ne saamne se handhold liya, Sana ne peechhe se uske shoulders par haath rakhkar next step shuru kiya. Dono ne baari-baari se use turn karaya."
+      },
+      {
+        "type": "dialogue",
+        "speaker": "Vivan",
+        "text": "Main resign kar raha hoon. Itna pressure job description mein nahi tha!"
+      },
+      {
+        "type": "dialogue",
+        "speaker": "Ankita",
+        "text": "Resignation accept nahi hua. Last round complete karo!"
+      },
+      {
+        "type": "narration",
+        "text": "Music ke aakhiri chorus par paanchon ek saath dance karne lage. Ankita ne final spin khud initiate kiya aur Sana tatha Aishwarya ne dono men ko mock bow karne par majboor kar diya."
+      },
+      {
+        "type": "dialogue",
+        "speaker": "Sana",
+        "text": "Three versus two. Winner obvious hai!"
+      },
+      {
+        "type": "dialogue",
+        "speaker": "Reyansh",
+        "text": "Result disputed!"
+      },
+      {
+        "type": "dialogue",
+        "speaker": "Ankita",
+        "text": "Appeal next New Year mein file karna!"
+      },
+      {
+        "type": "narration",
+        "text": "Sab hans pade. Music dheema hua. Ankita ne ghadi dekhi—5:20 PM hone wale the."
+      }
+    ]
+  },
+  "continuityLocks": [
+    "Scene 05 ends at venue entrance around 16:40; Scene 06 starts directly on the private dance floor.",
+    "Only five named adults dance; bartender/service personnel are background and not participants.",
+    "Do not invent extra employees as attendees here: their invite belongs to the future exit/continued party setup.",
+    "Ankita, Sana and Aishwarya each knowingly initiate/respond to the dance and change formation; all reactions remain visible and mutual.",
+    "Preserve sequential centered female trios Sana, Aishwarya, Ankita, then centered male trios Reyansh, Vivan, rather than one generic group dance.",
+    "Close-contact positions are non-graphic choreography, not a promise of later sexual contact.",
+    "The 18:00 home deadline stands; Scene 06 ends around 17:20 without showing the return drive, drop-off, or after-drop continuation.",
+    "Ankita and Rohit's next-day story remains unrelated and untouched.",
+    "The five-person New Year's dance is a new Society Wives plot, not a scene copied from Dhika."
+  ],
+  "handoff": {
+    "nextScene": "07",
+    "scope": "Exit from venue, Sana and Aishwarya remain for the longer office party, Vivan and Reyansh drop Ankita at home by car (proposed 10-minute drive) and later return to the venue; later guests and after-drop continuation to discuss separately.",
+    "status": "SCENE07_NOT_YET_LOCKED"
+  }
+}
