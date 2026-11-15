@@ -4,6 +4,8 @@ const str=(v:unknown)=>typeof v==='string'?v:'';
 type PublishedLine={time?:string|null;kind:'narration'|'dialogue'|'cut';speaker?:string;text:string};
 type FarmhouseF01={title:string;status:string;paragraphs:{type:'dialogue'|'narration';speaker?:string;text:string;highlight?:boolean}[];endBoundary:string;};
 type FarmhouseMixed={title:string;status:string;paragraphs:{type:'dialogue'|'narration';speaker?:string;text:string;highlight?:boolean;italic?:boolean;origin:string}[];endBoundary:string;};
+type GrokArchive={order:string[];beats:Record<string,{title:string;raw:string;source:string}>;alternates:Record<string,{title:string;raw:string;source:string}>;addenda:{id:string;placement:string;source:string;raw:string}[];};
+const renderGrokRaw=(raw:string)=>raw.split(/\n\s*\n/g).map((part,i)=><p key={i} style={{whiteSpace:'pre-wrap',lineHeight:1.76,margin:'12px 0'}}>{part.split(/(\*\*[^*]+\*\*)/g).map((chunk,j)=>chunk.startsWith('**')&&chunk.endsWith('**')?<strong key={j}>{chunk.slice(2,-2)}</strong>:<span key={j}>{chunk}</span>)}</p>);
 type AnkitaStage={id:string;title:string;start:string;end:string;approval:string;sequence?:{id:string;time?:string;summary:string;dialogue?:{speaker:string;line:string}[];storyIntent?:string;editorFlags?:string[]}[];beats?:{id:string;summary:string}[];openChoices?:string[];};
 type NarratorStyleRule={status:string;origin:string;appliesTo:string;methods:string[];examplePhrases:string[];useInstructions:string[];sceneTemplate:string[];};
 type AnkitaScene02={scene:string;title:string;status:string;date:string;start:string;end:string;castNames:string[];sequence:{id:string;time:string;heading:string;plot:string;suggestedDialogue?:{speaker:string;line:string}[]}[];lockedDecisions:string[];exclusions:string[];proseStatus:string;nextScene:string;wardrobe:{character:string;look:string;status:string}[];};
@@ -14,6 +16,7 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
  const active=leadOrder.includes(lead)?lead:'meenakshi';
  const {data:current,error:currentError}=useData<Plan>('episode-03-meenakshi-scene-01.json');
  const {data:farmhouse,error:farmhouseError}=useData<Plan>('episode-03-meenakshi-scene-02.json');
+ const {data:grokOriginals,error:grokOriginalsError}=useData<GrokArchive>('episode-03-meenakshi-scene-02-grok-originals.json');
  const {data:twins,error:twinsError}=useData<Plan>('episode-03-meenakshi-scene-03-twins.json');
  const {data:bablooIntro,error:bablooIntroError}=useData<Plan>('episode-03-meenakshi-scene-04-babloo-intro.json');
  const {data:meenaFuture}=useData<Plan>('episode-03-meenakshi-plan.json');
@@ -55,7 +58,19 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
    {currentError&&<p role="alert">SOURCE MISSING: {currentError}</p>}
   </article>
 
-  <article className="episode-plan-card" id="ep03-meenakshi-scene-02"><span className="eyebrow">EP 03 · Scene 02 · F01 + F04 APPROVED · F06 PUBLISHED WORKING VERSION</span><h2>The Farmhouse Evening</h2><p>1 January 2026 · From 17:00 · Meenakshi, Aditi, Avi and Yash</p><p>F01 and F04 have author-approved prose. F06 is a published working version: Grok's first 3 paragraphs verbatim, assistant continuation in italics. F02–F03, F05 and F07–F22 are plot-only. Full encounter approval is pending.</p><strong>Return travel and finishing time are not yet verified.</strong>
+  <article className="episode-plan-card" id="ep03-meenakshi-scene-02"><span className="eyebrow">EP 03 · Scene 02 · GROK ORIGINALS F01–F09 + SEPARATE GPT DRAFTS</span><h2>The Farmhouse Evening</h2><p>1 January 2026 · From 17:00 · Meenakshi, Aditi, Avi and Yash</p><p>Author-supplied Grok original text for F01–F09 is now archived and displayed in full, including F06's alternate version and an F08 addendum. GPT editorial drafts are separate. Approval status of earlier curated prose is unchanged.</p><strong>Return travel and finishing time are not yet verified.</strong>
+   <section className="source-note" id="grok-originals-F01-F09">
+    <span className="eyebrow">Author's original text · F01–F09 · no automatic edits</span>
+    <h3>Grok Original — read the entire sequence</h3>
+    <p><strong>This is your submitted text, not GPT's rewritten prose.</strong> F01–F09 appear in beat order. F06's second submitted variant and the extra F08 passage are also preserved. Existing GPT edits appear separately below.</p>
+    {grokOriginals?<div>{grokOriginals.order.map(id=>{const beat=grokOriginals.beats[id];return beat?<article key={id} id={'grok-original-'+id} className="beat-item" style={{display:'block',marginBlock:22,paddingBlock:15,borderBottom:'1px solid var(--line, #ccc)'}}>
+      <span className="eyebrow">{id} · Author-supplied Grok original</span><h3>{beat.title}</h3>
+      <div className="source-scene" style={{maxWidth:'78ch'}}>{renderGrokRaw(beat.raw)}</div>
+      {id==='F06'&&grokOriginals.alternates?.F06&&<details className="episode-outline"><summary>F06 second Grok version — preserved as alternative</summary><div className="source-scene">{renderGrokRaw(grokOriginals.alternates.F06.raw)}</div></details>}
+      {id==='F08'&&grokOriginals.addenda?.map(a=><details open className="episode-outline" key={a.id}><summary>Author's additional F08 moment — original text, separate from F08</summary><div className="source-scene">{renderGrokRaw(a.raw)}</div></details>)}
+    </article>:null})}</div>:<p role="status">{grokOriginalsError||'Loading the original Grok submissions…'}</p>}
+    <p className="muted"><strong>Source-of-truth:</strong> the separate Grok original archive file. Existing approved/GPT edited versions remain available in their own sections below; they do not replace the original text.</p>
+   </section>
    {farmhouseF01&&<section className="source-note" id="farmhouse-approved-F01" aria-label="Approved Farmhouse Beat F01">
     <span className="eyebrow">F01 · Approved scene prose</span><h3>{farmhouseF01.title}</h3><p className="muted">1 January · Approximately 5:00 PM · Hospital staff exit</p>
     <div className="source-scene prose-exact">{farmhouseF01.paragraphs.map((line,i)=><p key={i} className={line.type==='dialogue'?'dialogue':''}>{line.speaker&&<strong>{line.speaker}: </strong>}{line.highlight?<strong>{line.type==='dialogue'?'“'+line.text+'”':line.text}</strong>:line.type==='dialogue'?'“'+line.text+'”':line.text}</p>)}</div>
