@@ -102,6 +102,10 @@ try {
  check((await page.locator('.continuity-cards').innerText()).includes('13:50–14:15'),'Meenakshi Jan 1 13:50–14:15 cut preserved');
  check((await page.locator('.continuity-cards').innerText()).includes('14:15 onwards'),'Episode 04 exact cutpoint preserved');
  check((await page.locator('.continuity-cards').innerText()).includes('The Farmhouse Evening'),'New Meenakshi Scene 02 appears in Episode 03 Planning');
+ await page.locator('#farmhouse-approved-F01 .dialogue').first().waitFor();
+ check((await page.locator('#farmhouse-approved-F01').innerText()).includes('Best dena. Excuses mat dena'),'Approved F01 dialogue visible in UI');
+ check((await page.locator('#farmhouse-approved-F01 strong').count())>=3,'Important F01 dialogue and reactions are highlighted');
+ check(!(await page.locator('#farmhouse-approved-F01').innerText()).includes('Tum dono peeche baithna'),'F01 ends before car seating');
  check((await page.locator('.continuity-cards').innerText()).includes('The Badminton Bet'),'New Meenakshi Scene 03 appears after farmhouse');
  check((await page.locator('.continuity-cards').innerText()).includes('The First Different Look — Babloo'),'Author-approved Babloo encounter appears in the correct Scene 04 position');
  const orderedCards=await page.locator('.continuity-cards .episode-plan-card').evaluateAll(nodes=>nodes.map(n=>n.id));
