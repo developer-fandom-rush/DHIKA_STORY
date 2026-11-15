@@ -182,7 +182,7 @@ const twins=read('episode-03-meenakshi-scene-03-twins.json');
 assert.equal(twins.episode,'03');
 assert.equal(twins.start,'18:15');
 assert.ok(twins.status.includes('UNDER_REVIEW'),'Badminton scene must remain a review-only proposal');
-assert.equal(twins.beats.length,6,'Six active badminton plot beats must remain unchanged');
+assert.equal(twins.beats.length,7,'Seven active badminton plot beats in current source must remain intact');
 assert.ok(twins.authorRequirement?.exactText?.includes('badminton court society se thora dur'),'Preserve author-verbatim requirements');
 const ending=read('episode-03-meenakshi-scene-04-babloo-intro.json');
 assert.equal(ending.episode,'03');
