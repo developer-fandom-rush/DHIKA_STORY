@@ -94,7 +94,7 @@
       "number": "03",
       "title": "Continuations",
       "subtitle": "Meenakshi Jan 1 continuation; older future-day drafts retained",
-      "status": "MEENAKSHI_SCENE01_APPROVED_SCENE02_GROK_F01_F04_APPROVED_F05_F09_SOURCE",
+      "status": "MEENAKSHI_EP03_SCENE02_F01_F04_APPROVED_F10_F14_DRAFTS",
       "date": "1 January 2026 for Meenakshi Scene 01; separate 2–3 January drafts remain",
       "mainPath": "episode-03-meenakshi-scene-01.html",
       "relatedPaths": [
@@ -128,10 +128,10 @@
           "title": "The Farmhouse Evening — Scene 02",
           "date": "2026-01-01",
           "time": "17:00 onward; ending TBD",
-          "status": "F01_F04_AUTHOR_APPROVED_COMPACT_F06_TWO_PART_GROK_READING_F05_F09_SOURCE",
+          "status": "F01_F04_APPROVED_F05_F12_GROK_F13_F14_EDITED_WORKING",
           "mainPath": "episode-03-meenakshi-scene-02.html",
           "dataPath": "episode-03-meenakshi-scene-02.json",
-          "description": "Author approved Grok-original compact redlines F01-F04, except retained F04 natural sway paragraph and removed final F04 invitation + atmosphere summary. F06 second Grok text directly continues F06 first (not alternative). F05-F09 Grok text shown in primary reading, without final beat approval. Originals and prior GPT drafts retained separately."
+          "description": "F01-F04 approved compact original; F05-F12 Grok source drafts retained (F06 two-part continuation), F11 author removed verbal-permission requirement and original photo pose remains unchanged. F13 photo-driven conversation edited. F14 cab announcement and drop request retained; actual Aditi exit deferred to F15 after seating rivalry, with sober professional driver. Original F10-F14 text archived separately; F13/F14 not yet author-approved."
         },
         {
           "lead": "Meenakshi",
