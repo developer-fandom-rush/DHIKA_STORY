@@ -16,6 +16,7 @@ type RohitPlot={title:string;status:string;date:string;beats:{id:string;name:str
 type AnkitaScene05={title:string;status:string;date:string;time:{start:string;end:string;certainty:string};continuity:{vehicle:string;seats:{driver:string;frontPassenger:string;rearLeft:string;rearMiddle:string;rearRight:string};deadline:string;destination:string};beats:{id:string;heading:string;plot:string;dialogue?:{speaker:string;line:string}[]}[];proseStatus:string;};
 type AnkitaScene06={title:string;status:string;date:string;time:{start:string;end:string;status:string};proseStatus:string;setting:{otherPeople:string};choreography:{id:string;formation:string;participants:string;contact:string;reaction:string}[];prose:{language:string;lines:{type:'narration'|'dialogue';speaker?:string;text:string}[]};handoff:{nextScene:string;scope:string;status:string};};
 type AnkitaScene07={title:string;status:string;date:string;time:{start:string;end:string;certainty:string};continuity:{carProposition:string;deadline:string};beats:{id:string;time:string;heading:string;plot:string;dialogue?:{speaker:string;line:string}[]}[];proseStatus:string;};
+type RinkuScene08={title:string;status:string;date:string;time:{start:string;end:string;certainty:string};purpose:string;beats:{id:string;time:string;heading:string;plot:string}[];knowledgeLocks:{ankitaKnows:string;readerOnly:string;rajeev:string;rinku:string};wardrobe:{arrival:string;homeChange:string;firstRinkuView:string};nextEpisode:{focus:string;firstLook:string;date:string}};
 type RohitFirstShow={title:string;status:string;date:string;wardrobe:{jan02:string;accidental:string;deliberate:string};encounters:{id:string;title:string;phase:string;beats:{id:string;name:string;plot:string}[]}[];validation:{jan1IntroductionOnly:boolean;jan1UpperButtonsClosed:boolean;jan2AccidentFirst:boolean;jan2DeliberateFirstShowLaterSameDay:boolean;exactJan2Clock:string;jan2Wardrobe:string};};
 export default function Planning({lead,initialScene}:{lead:string;initialScene?:string|null}){
  const active=leadOrder.includes(lead)?lead:'meenakshi';
@@ -35,13 +36,14 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
  const {data:ankitaScene05,error:ankitaScene05Error}=useData<AnkitaScene05>('episode-03-ankita-scene-05-combined-surprise-ride.json');
  const {data:ankitaScene06,error:ankitaScene06Error}=useData<AnkitaScene06>('episode-03-ankita-scene-06-dance-draft.json');
  const {data:ankitaScene07,error:ankitaScene07Error}=useData<AnkitaScene07>('episode-03-ankita-scene-07-twins-pickup-homecoming.json');
+  const {data:ankitaScene08,error:ankitaScene08Error}=useData<RinkuScene08>('episode-03-ankita-scene-08-rinku-setup.json');
  const {data:rohitFirstShow,error:rohitFirstShowError}=useData<RohitFirstShow>('episode-04-ankita-rohit-first-show.json');
  const {data:writingStyle,error:writingStyleError}=useData<Plan>('flirting-style.json');
  const {data:shreyaFuture}=useData<Plan>('episode-03-shreya-plan.json');
  useEffect(()=>{
   if(!initialScene)return;
   const id=active==='ankita'
-   ?(initialScene==='01'?'ankita-ep03-a11':initialScene==='02'?'ankita-ep03-scene02':initialScene==='03'?'ankita-ep03-scene03':initialScene==='04'?'ankita-ep03-scene04-rohit':initialScene==='05'?'ankita-ep03-scene05':initialScene==='06'?'ankita-ep03-scene06':initialScene==='07'?'ankita-ep03-scene07':initialScene==='rohit-first-show'?'ankita-ep04-rohit-first-show':'')
+   ?(initialScene==='01'?'ankita-ep03-a11':initialScene==='02'?'ankita-ep03-scene02':initialScene==='03'?'ankita-ep03-scene03':initialScene==='04'?'ankita-ep03-scene04-rohit':initialScene==='05'?'ankita-ep03-scene05':initialScene==='06'?'ankita-ep03-scene06':initialScene==='07'?'ankita-ep03-scene07':initialScene==='08'?'ankita-ep03-scene08':initialScene==='rohit-first-show'?'ankita-ep04-rohit-first-show':'')
    :active==='meenakshi'
    ?(initialScene==='01'?'ep03-meenakshi-scene-01':initialScene==='handoff'?'ep04-meenakshi-handoff':'ep03-meenakshi-scene-'+initialScene)
    :'';
@@ -205,15 +207,33 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
     <article className="episode-plan-card" id="ankita-ep03-scene07">
       <span className="eyebrow">Ankita · EP03 · Scene 07 · 1 Jan 2026 · User-directed exit plot · prose pending</span>
       <h2>{ankitaScene07?.title||'Two Minutes, Two Twins — The Ride Home'}</h2>
-      <p>~17:20–17:45 · Venue exit → Karan and Aman pickup → Gulmohar Heights gate → Home. No Reyansh/Vivan drop-off.</p>
+      <p>~17:20–17:50 · Venue exit → Karan and Aman on separate two-wheelers → Gopal's silent glance → Home. No Reyansh/Vivan drop-off.</p>
       {ankitaScene07&&<>
        <p><strong>Ride:</strong> {ankitaScene07.continuity.carProposition}</p>
        <div className="beat-list">{ankitaScene07.beats.map(q=><div className="beat-item" key={q.id}><span className="eyebrow">{q.time}</span><h3>{q.heading}</h3><p>{q.plot}</p>{q.dialogue?.map((d,i)=><p key={i}><strong>{d.speaker}:</strong> {d.line}</p>)}</div>)}</div>
-       <p className="muted">Plot only. New guests or the four colleagues' after-drop party have not been planned; Ankita's home story resumes separately. {ankitaScene07.status.replace(/_/g,' ')}.</p>
+       <p className="muted">Plot only. Gopal has no conversation; Mahendra and other elders do not meet Ankita. Rajeev is away and keeps her parcel. Next: 18:10–18:25 fresh-up and Rinku setup. {ankitaScene07.status.replace(/_/g,' ')}.</p>
       </>}
       {ankitaScene07Error&&<p role="alert">Scene07 source unavailable: {ankitaScene07Error}</p>}
     </article>
-    <article className="episode-plan-card" id="ankita-ep04-rohit-first-show"><span className="eyebrow">Ankita · EP04 · 2 Jan 2026 · First accidental look + deliberate first show (same day)</span>
+    <article className="episode-plan-card" id="ankita-ep03-scene08">
+       <span className="eyebrow">Ankita · EP03 · Scene 08 · 1 Jan 2026 · 18:10–18:25 · Rinku setup plot, no prose</span>
+       <h2>{ankitaScene08?.title||'The Quiet Reset — Rinku at the Door'}</h2>
+       <p>Fresh-up → known/reader-only day recap → familiar Rinku's maintenance request → doorbell CUT. Rajeev is away; no parcel handover or discovery.</p>
+       {ankitaScene08&&<>
+         <div className="beat-list">{ankitaScene08.beats.map(q=><div className="beat-item" key={q.id}><span className="eyebrow">{q.time}</span><h3>{q.heading}</h3><p>{q.plot}</p></div>)}</div>
+         <details className="episode-outline"><summary>Knowledge and wardrobe locks</summary>
+           <p><strong>Ankita knows:</strong> {ankitaScene08.knowledgeLocks.ankitaKnows}</p>
+           <p><strong>Reader-only:</strong> {ankitaScene08.knowledgeLocks.readerOnly}</p>
+           <p><strong>Rajeev:</strong> {ankitaScene08.knowledgeLocks.rajeev}</p>
+           <p><strong>Rinku familiarity:</strong> {ankitaScene08.knowledgeLocks.rinku}</p>
+           <p><strong>Homewear:</strong> {ankitaScene08.wardrobe.homeChange}</p>
+           <p><strong>Next episode first look only:</strong> {ankitaScene08.wardrobe.firstRinkuView}</p>
+         </details>
+         <p className="muted">Last Ankita Jan 1 EP03 scene. No Gopal/Mahendra follow-up, family dinner or inventory. {ankitaScene08.status.replace(/_/g,' ')}.</p>
+       </>}
+       {ankitaScene08Error&&<p role="alert">Rinku setup source unavailable: {ankitaScene08Error}</p>}
+     </article>
+     <article className="episode-plan-card" id="ankita-ep04-rohit-first-show"><span className="eyebrow">Ankita · Future Jan 2 office plot · episode number to be assigned after Rinku</span>
       <h2>{rohitFirstShow?.title||'Rohit Babu — The Accidental Look and First Show'}</h2>
       <p>2 January · First encounter in morning, second later on the same office day · Exact clock and wardrobe color provisional</p>
       {rohitFirstShow&&<><details className="episode-outline"><summary>Next-day outfit and visual triggers (proposed)</summary><p>{rohitFirstShow.wardrobe.jan02}</p><p><strong>Accidental:</strong> {rohitFirstShow.wardrobe.accidental}</p><p><strong>Deliberate:</strong> {rohitFirstShow.wardrobe.deliberate}</p></details>
@@ -229,7 +249,7 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
     <p><strong>Separate:</strong> narrator visual description · observer's glance · spoken teasing · woman's own response. Never silently omit an author-requested beat or invent new body canon.</p>
     {narratorRule?<><p><strong>Reference technique:</strong> {narratorRule.origin}</p><div className="beat-list">{narratorRule.methods.map((method,i)=><div key={i} className="beat-item"><p>{method}</p></div>)}</div><p><strong>Example vocabulary (not established body shapes):</strong> {narratorRule.examplePhrases.join(' · ')}</p><p className="muted">{narratorRule.status.replace(/_/g,' ')}</p></>:<p className="muted">{writingStyleError||'Writer style notes loading…'}</p>}
    </details>
-   <div className="split"><div><span className="eyebrow">Working story lane</span><h2>{titleCase(active)}</h2><p>{active==='ankita'?'Current EP03 Scenes 01–04 and the separate 2 January Rohit first-show plan are shown above. Superseded A11–A17 drafts are retained in the repository archive, not presented as active plots.':activePlan?.plan?.title||'No separate Episode 03 working draft is available here yet.'}</p></div></div>
+   <div className="split"><div><span className="eyebrow">Working story lane</span><h2>{titleCase(active)}</h2><p>{active==='ankita'?'Current EP03 Scenes 01–04 and the separate 2 January Rohit first-show plan are shown above. Earlier competing home and parcel follow-up outlines were removed; Scene 08 Rinku setup is the final Ankita Jan 1 entry.':activePlan?.plan?.title||'No separate Episode 03 working draft is available here yet.'}</p></div></div>
    {active==='taniya'&&<p className="source-note">Soniya's independent scenes belong to Taniya's continuity lane. Their existing joint plan is preserved; those scenes have not been promoted to finished prose.</p>}
    {active==='shivani'&&<p className="source-note">Shivani's future planning is not independently indexed as an Episode 03 scene in the audited sources. Earlier plot notes are preserved in the story archive.</p>}
    {activePlan?.plan&&<><p><strong>Original status:</strong> {str(activePlan.plan.status)||'REVIEW'}</p>{active==='meenakshi'&&<p><strong>Older separate outline — 2 January 2026.</strong> This is not part of 1 January's Scene 01–03 sequence. Senior Review M08 stays on Jan 2.</p>}
