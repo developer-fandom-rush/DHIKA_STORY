@@ -102,7 +102,7 @@ assert.ok(grokOriginals.alternates.F06.raw.includes('Music aur tez ho gayi'),'Co
 assert.ok(grokOriginals.addenda[0].raw.includes('chotu_avi'),'Author F08 extra passage retained separately');
 assert.ok(!grokOriginals.beats.F06.raw.includes('Hospital mein toh tum itne quiet rehte ho'),'Do not substitute GPT-written F06 for Grok original');
 const selected=read('episode-03-meenakshi-scene-02-author-selected.json');
-assert.equal(selected.order.length,9,'Author-selected reading has nine ordered beats');
+assert.equal(selected.order.length,14,'Author-selected reading has fourteen ordered beats');
 assert.deepEqual(['F01','F02','F03','F04'].map(id=>selected.beats[id].status),Array(4).fill('AUTHOR_APPROVED_COMPACT_REDLINE'),'Author approves only F01-F04 compact edits');
 assert.equal(selected.beats.F06.parts.length,2,'F06 has two Grok parts as one scene');
 assert.equal(selected.beats.F06.parts[0].raw,grokOriginals.beats.F06.raw,'F06 original first part must be verbatim');
@@ -111,6 +111,18 @@ assert.ok(selected.beats.F04.text.includes('Aditi unke beech mein aayi, hips ka 
 assert.ok(!selected.beats.F04.text.includes('Music chal raha hai. Main dance shuru karti hoon.'),'Author removed F04 routine dance invitation');
 assert.ok(!selected.beats.F04.text.includes('Atmosphere change ho chuka tha.'),'Author removed F04 closing summary');
 assert.ok(grokOriginals.beats.F04.raw.includes('Music chal raha hai. Main dance shuru karti hoon.'),'Immutable original F04 archive untouched');
+const originalF10to14=read('episode-03-meenakshi-scene-02-F10-F14-author-original.json');
+assert.deepEqual(originalF10to14.beatOrder,['F10','F11','F12','F13','F14'],'Original F10-F14 archived in order');
+assert.equal(selected.beats.F11.parts[0].raw,originalF10to14.beats.F11.raw,'F11 original remains unchanged');
+assert.ok(!selected.beats.F11.parts[0].raw.includes('permission'),'Do not inject a verbal permission request into F11');
+assert.equal(selected.beats.F13.status,'AUTHOR_DIRECTED_EDITORIAL_DRAFT_PENDING_APPROVAL','F13 remains a working draft');
+assert.ok(selected.beats.F13.parts[0].raw.includes('sabse achhi kaunsi lagi'),'F13 has a fresh photography-grounded personal conversation');
+assert.ok(!selected.beats.F13.parts[0].raw.includes('Yahan hospital nahi hai'),'F13 does not repeat F08 hospital line');
+assert.equal(selected.beats.F14.status,'AUTHOR_DIRECTED_EDITORIAL_DRAFT_PENDING_APPROVAL','F14 remains a working draft');
+assert.ok(selected.beats.F14.parts[0].raw.includes('Return mein professional driver'),'F14 return driver is sober professional');
+assert.ok(selected.beats.F14.parts[0].raw.includes('Abhi woh wahin thi'),'Aditi waits until F15');
+assert.ok(!selected.beats.F14.parts[0].raw.includes('Burgundy dress mein woh exit ki taraf badhi'),'Aditi's exit remains deferred to F15');
+
 
 
 assert.equal(farmhouse.approvedProse?.F01?.status,'AUTHOR_APPROVED_PROSE_PUBLISHED','F01 must be author-approved prose');
