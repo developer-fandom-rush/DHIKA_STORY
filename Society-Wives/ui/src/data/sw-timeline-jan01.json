@@ -2722,7 +2722,7 @@
       "timeLabel": "17:00 · provisional",
       "universe": "sw",
       "title": "The Farmhouse Evening — Four Adults, Shifting Attention",
-      "subtitle": "Hospital exit F01 and Aditi's farmhouse dance entrance F04 published; other prose pending",
+      "subtitle": "F06: 3 original Grok paragraphs + assistant italic continuation; F02, F03, F05, F07–F22 pending",
       "lead": "Meenakshi",
       "characters": [
         "Meenakshi"
@@ -2732,7 +2732,7 @@
       "scene": "02",
       "kind": "planned",
       "state": "plot",
-      "status": "F01 + F04 author-approved prose · F02–F03 and F05–F22 plot-only",
+      "status": "F01 + F04 approved prose · F06 mixed working version published, approval pending",
       "source": "episode-03-meenakshi-scene-02.json",
       "reader": {
         "type": "sw-plan",
