@@ -228,6 +228,136 @@
     {
       "date": "2026-11-14",
       "change": "Specified concrete body-image comparisons as distinct private POVs; otherwise preserved approved plot beats."
+    },
+    {
+      "date": "2026-11-15",
+      "change": "Author approved F01 after three editorial fixes. Published F01 only; full Scene 02 status remains plot-only for F02–F22."
     }
-  ]
+  ],
+  "approvedProse": {
+    "F01": {
+      "beat": "F01",
+      "title": "Two Women, Two Men",
+      "status": "AUTHOR_APPROVED_PROSE_PUBLISHED",
+      "date": "2026-01-01",
+      "time": "approximately 17:00",
+      "location": "Hospital staff exit, Gurgaon",
+      "approvalNotes": "Author approved Grok revised beat with three editorial edits: remove repeated 'control' dialogue, move seating to F02, cut repetitive final internal explanation. F02–F22 remain plot-only.",
+      "paragraphs": [
+        {
+          "type": "narration",
+          "text": "Hospital staff exit ke bahar shaam ki halki roshni mein chaaron log ikatthe hue. Aditi white coat ke neeche fitted black shirt aur straight trousers mein khadi thi, baal loosely tied, posture seedha aur nazar confidently aage. Avi dark shirt ke sleeves roll karke uske saamne aaya. Yash thodi doori pe khada tha, expression relaxed. Meenakshi plum kurta, cream palazzo aur grey cardigan mein unke paas pahunchi, keys haath mein."
+        },
+        {
+          "type": "dialogue",
+          "text": "Avi, hospital mein toh bade disciplined rehte ho. Aaj dance floor pe meri pace match kar paoge?",
+          "speaker": "Aditi"
+        },
+        {
+          "type": "narration",
+          "text": "Avi ne uski nazar se nazar milayi. Woh normal baat expect kar raha tha, lekin Aditi ka tone seedha aur testing tha."
+        },
+        {
+          "type": "dialogue",
+          "text": "Tum pace badhaogi toh mujhe bhi apna best dena padega.",
+          "speaker": "Avi"
+        },
+        {
+          "type": "dialogue",
+          "text": "Best dena. Excuses mat dena. Main performance yaad rakhti hoon.",
+          "speaker": "Aditi",
+          "highlight": true
+        },
+        {
+          "type": "narration",
+          "text": "Avi jawab dene wala tha, lekin Aditi ke steady eye contact ne use ek pal ke liye rok diya. Meenakshi ne uska badalta expression notice kiya.",
+          "highlight": true
+        },
+        {
+          "type": "dialogue",
+          "text": "Meenakshi ma'am, lagta hai Avi ko aaj extra training chahiye.",
+          "speaker": "Yash"
+        },
+        {
+          "type": "dialogue",
+          "text": "Training se zyada concentration. Aditi abhi warm-up mein hai aur yeh already nervous hai.",
+          "speaker": "Meenakshi",
+          "highlight": true
+        },
+        {
+          "type": "narration",
+          "text": "Aditi hans padi. Avi ne Meenakshi ki taraf dekha—ab use samajh aa gaya tha ki aaj teasing sirf ek taraf se nahi hone wali."
+        },
+        {
+          "type": "dialogue",
+          "text": "Avi, tumhari aankhon mein confidence toh hai. Bas dance floor pe meri aankhon se nazar mat churana.",
+          "speaker": "Aditi",
+          "highlight": true
+        },
+        {
+          "type": "dialogue",
+          "text": "Tum saamne rahogi toh nazar hatane ka sawaal hi nahi.",
+          "speaker": "Avi"
+        },
+        {
+          "type": "narration",
+          "text": "Aditi ki smile gehri hui. Is baar Avi ne jawab dene mein der nahi lagayi.",
+          "highlight": true
+        },
+        {
+          "type": "dialogue",
+          "text": "Aditi, tum toh already floor set kar rahi ho. Hum log abhi sirf audience hain.",
+          "speaker": "Yash"
+        },
+        {
+          "type": "dialogue",
+          "text": "Audience nahi, Yash. Participants.",
+          "speaker": "Aditi"
+        },
+        {
+          "type": "narration",
+          "text": "Meenakshi ne keys uthayi aur group ki taraf ishara kiya."
+        },
+        {
+          "type": "dialogue",
+          "text": "Chalo. Parking door hai. Zyada der mat lagao.",
+          "speaker": "Meenakshi"
+        },
+        {
+          "type": "narration",
+          "text": "Aditi parking ki taraf badhi. Avi uske saath chalne laga. Is baar Aditi ne khud uski taraf dekha aur muskura di. Meenakshi ne woh exchange notice kiya, lekin kuch kaha nahi. Chaaron parking ki taraf badh gaye."
+        }
+      ],
+      "endBoundary": "All four walk toward parking. No car seating, engine start or drive prose yet; F02 is next."
+    }
+  },
+  "proseProgress": {
+    "approved": [
+      "F01"
+    ],
+    "pending": [
+      "F02",
+      "F03",
+      "F04",
+      "F05",
+      "F06",
+      "F07",
+      "F08",
+      "F09",
+      "F10",
+      "F11",
+      "F12",
+      "F13",
+      "F14",
+      "F15",
+      "F16",
+      "F17",
+      "F18",
+      "F19",
+      "F20",
+      "F21",
+      "F22"
+    ],
+    "fullSceneApproved": false
+  }
 }
