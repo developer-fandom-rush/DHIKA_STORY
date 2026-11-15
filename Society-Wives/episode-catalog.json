@@ -138,10 +138,10 @@
           "title": "The Badminton Bet — Uday & Utkarsh",
           "date": "2026-01-01",
           "time": "Approx. 18:15 badminton to 18:45 society return; provisional",
-          "status": "T01_T07_AUTHOR_SCENE_TEXT_PRESENT_T07_VERBATIM",
+          "status": "T01_T06_CONTINUITY_CORRECTED_T07_EDITORIAL_MERGE_FOR_REVIEW",
           "mainPath": "episode-03-meenakshi-scene-03-t01-t07.html",
           "dataPath": "episode-03-meenakshi-scene-03-twins.json",
-          "description": "All seven beats T01–T07 visible in Society Wives reader and planning UI. T01–T06 contain prior editorial continuity fixes; T07 is author-submitted original reproduced verbatim, replacing the prior review-only synopsis. Later continuity/timing decisions remain separate."
+          "description": "T01–T06 author prose retained with approved continuity corrections. T07 reader combines the existing car-failure and seating setup with the new ride passage in non-graphic editorial form, pending author approval. Original T07 submission remains archived in the JSON; transport safety, boundaries and timing remain under review."
         },
         {
           "lead": "Meenakshi",
