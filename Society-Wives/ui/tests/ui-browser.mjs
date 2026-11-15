@@ -135,6 +135,11 @@ check(!(await page.locator('#ep03-meenakshi-scene-04').innerText()).includes('Ep
  check((await page.locator('#ankita-ep03-scene02').innerText()).includes('jiggles'),'Sana prank keeps author-directed jiggle beat');
  check((await page.locator('#ankita-ep03-scene02').innerText()).includes('fully upright and balanced'),"Reyansh steadying support is not cut short");
  check((await page.locator('#ankita-ep03-scene02').innerText()).includes('SECOND distinct accident'),'Second playful fall remains distinct');
+ await page.locator('#ankita-ep03-scene03 .beat-list .beat-item').first().waitFor();
+ check(await page.locator('#ankita-ep03-scene03 > .beat-list .beat-item').count()===5,'Ankita Scene 03 displays five revised plot beats');
+ check((await page.locator('#ankita-ep03-scene03').innerText()).includes('twenty minutes'),'Ankita-led twenty-minute personal presentation is visible');
+ check((await page.locator('#ankita-ep03-scene03').innerText()).includes('Aishwarya'),'Aishwarya confrontation ending is visible');
+
  check((await page.locator('#ankita-ep03-scene01-opening').count())===0,'Outdated Scene 01 office-opening card not shown');
  
  await page.locator('.perspective-tabs button', {hasText:'Meenakshi'}).click();
