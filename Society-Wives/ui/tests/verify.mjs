@@ -98,20 +98,31 @@ assert.deepEqual(grokOriginals.order,['F01','F02','F03','F04','F05','F06','F07',
 assert.equal(grokOriginals.order.every(id=>typeof grokOriginals.beats[id]?.raw==='string'&&grokOriginals.beats[id].raw.length>100),true,'All nine original Grok drafts stored as full raw text');
 assert.ok(grokOriginals.beats.F05.raw.includes('No-bra hone ki wajah'),'F05 raw author draft retained');
 assert.ok(grokOriginals.beats.F06.raw.includes('Yash ne pehle uski waist pe haath rakha'),'F06 original first draft retained');
-assert.ok(grokOriginals.alternates.F06.raw.includes('Music aur tez ho gayi'),'Alternate second F06 original retained');
+assert.ok(grokOriginals.alternates.F06.raw.includes('Music aur tez ho gayi'),'Continuation F06 Grok part two retained');
 assert.ok(grokOriginals.addenda[0].raw.includes('chotu_avi'),'Author F08 extra passage retained separately');
 assert.ok(!grokOriginals.beats.F06.raw.includes('Hospital mein toh tum itne quiet rehte ho'),'Do not substitute GPT-written F06 for Grok original');
+const selected=read('episode-03-meenakshi-scene-02-author-selected.json');
+assert.equal(selected.order.length,9,'Author-selected reading has nine ordered beats');
+assert.deepEqual(['F01','F02','F03','F04'].map(id=>selected.beats[id].status),Array(4).fill('AUTHOR_APPROVED_COMPACT_REDLINE'),'Author approves only F01-F04 compact edits');
+assert.equal(selected.beats.F06.parts.length,2,'F06 has two Grok parts as one scene');
+assert.equal(selected.beats.F06.parts[0].raw,grokOriginals.beats.F06.raw,'F06 original first part must be verbatim');
+assert.equal(selected.beats.F06.parts[1].raw,grokOriginals.alternates.F06.raw,'F06 original second part must be verbatim continuation');
+assert.ok(selected.beats.F04.text.includes('Aditi unke beech mein aayi, hips ka natural sway dress ke saath clearly dikh raha tha.'),'Author-retained F04 original narration must remain');
+assert.ok(!selected.beats.F04.text.includes('Music chal raha hai. Main dance shuru karti hoon.'),'Author removed F04 routine dance invitation');
+assert.ok(!selected.beats.F04.text.includes('Atmosphere change ho chuka tha.'),'Author removed F04 closing summary');
+assert.ok(grokOriginals.beats.F04.raw.includes('Music chal raha hai. Main dance shuru karti hoon.'),'Immutable original F04 archive untouched');
+
 
 assert.equal(farmhouse.approvedProse?.F01?.status,'AUTHOR_APPROVED_PROSE_PUBLISHED','F01 must be author-approved prose');
-assert.equal(farmhouse.proseProgress?.approved.join(','),'F01,F04','Farmhouse F01 and new F04 are both approved');
-assert.equal(farmhouse.proseProgress?.pending.length,20,'Remaining 20 beats stay pending after F04 approval');
+assert.equal(farmhouse.proseProgress?.approved.join(','),'F01,F02,F03,F04','Author-approved Grok compact reading through F04');
+assert.equal(farmhouse.proseProgress?.pending.length,18,'Remaining 18 beats not final-approved');
 assert.equal(farmhouse.publishedDrafts?.F06?.status,'AUTHOR_REQUESTED_MIXED_WORKING_VERSION_PUBLISHED_PENDING_FINAL_APPROVAL','F06 must be a published working version, not an approved beat');
 assert.equal(farmhouse.publishedDrafts.F06.paragraphs.slice(0,3).filter(p=>p.origin==='GROK_VERBATIM'&&!p.italic).length,3,'Farmhouse F06 has exactly three verbatim Grok paragraphs');
 assert.ok(farmhouse.publishedDrafts.F06.paragraphs.slice(3).every(p=>p.origin==='ASSISTANT_REVISED'&&p.italic),'Assistant continuation of F06 must be italic and provenance-labelled');
 assert.equal(farmhouse.proseProgress.fullSceneApproved,false,'F06 working publication must not imply full-scene approval');
-assert.deepEqual(farmhouse.proseProgress.approved,['F01','F04'],'Only F01 and F04 are author-approved prose');
+assert.deepEqual(farmhouse.proseProgress.approved,['F01','F02','F03','F04'],'Only F01-F04 are author-approved compact prose');
 assert.ok(farmhouse.approvedProse.F01.paragraphs.some(p=>p.highlight&&p.speaker==='Aditi'),'Approved F01 must expose key highlighted dialogue');
-assert.ok(!farmhouse.approvedProse.F01.paragraphs.some(p=>/Tum dono peeche baithna/.test(p.text)),'F01 must not include F02 seating');
+assert.ok(farmhouse.approvedProse.F01.paragraphs.some(p=>/Tum dono peeche baithna/.test(p.text)),'Author kept Aditi seating dialogue in original F01');
 const twins=read('episode-03-meenakshi-scene-03-twins.json');
 assert.equal(twins.episode,'03');
 assert.equal(twins.start,'18:15');
