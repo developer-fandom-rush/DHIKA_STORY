@@ -99,7 +99,7 @@ assert.ok(writingStyle.narratorVisualDescription.useInstructions.some(x=>x.inclu
 const farmhouse=read('episode-03-meenakshi-scene-02.json');
 assert.equal(farmhouse.episode,'03');
 assert.equal(farmhouse.start,'17:00');
-assert.equal(farmhouse.status,'USER_APPROVED_PLOT_DIRECTION_SAVED_NO_PROSE');
+assert.equal(farmhouse.status,'SCENE02_ENDED_AFTER_F19_F18_F19_AUTHOR_APPROVED');
 assert.equal(farmhouse.beats.length,19,'Farmhouse active beats F01-F19, author discarded F20-F22');
 assert.deepEqual(farmhouse.discardedBeats.map(x=>x.id),['F20','F21','F22'],'Discarded outline beats preserved in archive but not active');
 const grokOriginals=read('episode-03-meenakshi-scene-02-grok-originals.json');
