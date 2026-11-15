@@ -174,6 +174,12 @@ check(!(await page.locator('#ep03-meenakshi-scene-04').innerText()).includes('Ep
  check((await page.locator('#ankita-ep03-scene06').innerText()).includes('Sandwich arrangement'),'Women-centered sandwich formation and HR joke retained');
  check((await page.locator('#ankita-ep03-scene06 .eyebrow').first().textContent()).includes('prose DRAFT'),'Scene06 draft status is displayed in the heading even if its eyebrow is visually hidden at this viewport');
  check((await page.locator('#ankita-ep03-scene06').innerText()).includes('17:20'),'Scene 06 ends before drop-off');
+ await page.locator('#ankita-ep03-scene07 .beat-item').last().waitFor();
+ check(await page.locator('#ankita-ep03-scene07 .beat-item').count()===6,'Scene07 shows six concise pickup and homecoming beats');
+ check((await page.locator('#ankita-ep03-scene07').innerText()).includes('Karan'),'Karan must be in twins pickup');
+ check((await page.locator('#ankita-ep03-scene07').innerText()).includes('Gopal'),'Gopal changed gaze remains in scene');
+ check((await page.locator('#ankita-ep03-scene07').innerText()).includes('driving seat'),'Ankita drives, twins sit behind');
+
 
  await page.locator('#ankita-ep03-scene04-rohit .beat-item').first().waitFor();
  check(await page.locator('#ankita-ep03-scene04-rohit .beat-item').count()===7,'Jan 1 Rohit introduction shows exactly seven setup beats');
@@ -214,7 +220,7 @@ check(!(await page.locator('#ep03-meenakshi-scene-04').innerText()).includes('Ep
  check(await page.locator('.universe-option').count()===2,'Left switcher has exactly Society Wives and Dhika');
  await page.locator('.universal-top-link').click();
  await page.locator('.timeline-event').first().waitFor();
- check(await page.locator('.timeline-event').count()===81,'Society Wives Jan1 displays 81 time-ordered source / planning events');
+ check(await page.locator('.timeline-event').count()===82,'Society Wives Jan1 displays 82 time-ordered source / planning events');
  check(await page.locator('#timeline-ep03-ankita-scene04').count()===1,'Rohit Jan1 introduction appears in active calendar');
  check((await page.locator('.timeline-start').innerText()).includes('00:01'),'Universal story clock begins at 00:01 without inventing an encounter');
  check((await page.locator('.timeline-event').first().innerText()).includes('06:20'),'Earliest Jan1 event is sorted to morning 06:20');
