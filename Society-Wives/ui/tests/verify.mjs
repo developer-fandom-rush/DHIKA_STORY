@@ -255,7 +255,7 @@ const earlyDhika=universalDhika.events.filter(e=>e.episode==='EP04');
 assert.ok(earlyDhika.some(e=>e.date==='2026-01-01')&&earlyDhika.some(e=>e.date==='2026-01-02'),'Dhika EP04 must straddle Day 1/Day 2');
 const rootCorpus=JSON.parse(readFileSync(resolve(root,'../data/corpus.json'),'utf8'));
 assert.ok(universalJan.events.some(e=>e.id==='ep03-ankita-scene04'&&e.date==='2026-01-01'),'Rohit intro must be Jan 1, before any first look');
-assert.equal(universalJan.events.filter(e=>e.id.startsWith('ep03-ankita-scene')).length,4,'Ankita current four scenes indexed in Jan 1 timeline');
+assert.equal(universalJan.events.filter(e=>e.id.startsWith('ep03-ankita-scene')).length,5,'Ankita current five scenes indexed in Jan 1 timeline');
 assert.equal(universalFuture.events.filter(e=>e.id.startsWith('date-pending-ankita-')).length,0,'Outdated A11–A17 must not appear as active timeline events');
 assert.deepEqual(universalFuture.events.filter(e=>e.id.startsWith('ep04-ankita-rohit-')).map(e=>e.date),['2026-01-02','2026-01-02'],'Rohit accident and first show must both be Jan 2');
 for(const event of universalDhika.events){
