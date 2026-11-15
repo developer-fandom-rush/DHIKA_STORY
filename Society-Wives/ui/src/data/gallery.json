@@ -937,6 +937,24 @@
       "original": "https://github.com/developer-fandom-rush/DHIKA_STORY/blob/main/Society-Wives/assets/cast/shreya-kavita.png",
       "sourceOriginal": "https://drive.google.com/file/d/13HL0x5LOFqfseDeZmw4UziH5E2MChith/view",
       "visualCategory": "Character portrait"
+    },
+    {
+      "id": "ankita-ep03-scene03-briefing-image",
+      "title": "Ankita — EP03 private release briefing",
+      "path": "assets/ankita-ep03-scene03-private-briefing.webp",
+      "source": "GitHub",
+      "characters": [
+        "ankita"
+      ],
+      "storyline": "ankita",
+      "episode": "03",
+      "scene": "03",
+      "storyDate": "2026-01-01",
+      "location": "Cyber City office, Gurgaon",
+      "status": "Generated illustration · outfit continuity reference",
+      "restricted": false,
+      "original": "https://github.com/developer-fandom-rush/DHIKA_STORY/blob/main/Society-Wives/assets/ankita-ep03-scene03-private-briefing.webp",
+      "visualCategory": "Scene illustration"
     }
   ],
   "albums": [
