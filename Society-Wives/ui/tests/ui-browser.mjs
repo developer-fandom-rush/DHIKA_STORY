@@ -103,7 +103,7 @@ try {
  check((await page.locator('.continuity-cards').innerText()).includes('14:15 onwards'),'Episode 04 exact cutpoint preserved');
  check((await page.locator('.continuity-cards').innerText()).includes('The Farmhouse Evening'),'New Meenakshi Scene 02 appears in Episode 03 Planning');
  await page.locator('#author-selected-F01 summary').first().waitFor();
- check(await page.locator('#farmhouse-author-selected-F01-F09 > div > details').count()===9,'F01-F09 author-selected beat sections available');
+ check(await page.locator('#farmhouse-author-selected-F01-F14 > div > details').count()===14,'F01-F14 author-selected beat sections available');
  check((await page.locator('#author-selected-F01').textContent()).includes('Best dena. Excuses mat dena'),'F01 approved text exists');
  check((await page.locator('#author-selected-F02').textContent()).includes('Pehli dance meri hogi'),'F02 selected compact text exists');
  check((await page.locator('#author-selected-F03').textContent()).includes('ek glass, ek honest answer'),'F03 approved game rule exists');
@@ -113,6 +113,11 @@ try {
  check((await page.locator('#author-selected-F06').textContent()).includes('F06 · Part 2 (direct continuation)'),'Second Grok F06 part shown inline as continuation');
  check((await page.locator('#author-selected-F06').textContent()).includes('Music aur tez ho gayi'),'F06 second part exact opening shown');
  check((await page.locator('#author-selected-F08').textContent()).includes('chotu_avi'),'F08 author addendum saved');
+ check((await page.locator('#author-selected-F11').textContent()).includes('Meenakshi ne hataaya nahi'),'Original F11 photo pose unchanged');
+ check((await page.locator('#author-selected-F13').textContent()).includes('In photos mein aapko sabse achhi kaunsi lagi?'),'Edited F13 new personal conversation visible');
+ check((await page.locator('#author-selected-F14').textContent()).includes('Return mein professional driver'),'F14 sober driver continuity visible');
+ check((await page.locator('#author-selected-F14').textContent()).includes('Abhi woh wahin thi'),'F14 Aditi waits for F15 car-seat rivalry');
+
  check(await page.locator('#grok-originals-F01-F09').count()===1,'Original Grok archive remains separately accessible');
  check(await page.locator('#farmhouse-editorial-history').count()===1,'Legacy GPT edited text remains separately accessible');
  check((await page.locator('.continuity-cards').innerText()).includes('The Badminton Bet'),'New Meenakshi Scene 03 appears after farmhouse');
