@@ -11,7 +11,7 @@
     ],
     "excluded": "Old Society_Story Drive/archive canon is excluded. Dhika only a storytelling analogy.",
     "changePolicy": "Never silently turn a proposal into a locked relationship, add a twin relationship, change relatives, or bypass direct user corrections. Flag actual continuity conflicts and get user decision.",
-    "lastCorrection": "2026-11-12: User corrected all older male apparent FIL roles to assumed/pretended family relationships, NO actual biological/legal FIL; older specific backstories not invented. Earlier Mohan/Arvind unrelated-guest corrections remain valid.",
+    "lastCorrection": "2026-11-15: Ankita + Kabir took Rajeev from roadside, invited him to live with them after marriage; A04 'Please stop' refers solely to their private shared-residence backstory, NOT romantic/sexual boundaries. Rajeev is no actual FIL.",
     "shreyaCorrection": "2026-11-12: Shruti (23) replaces prior Naina sister record, Shreya 33 Police Inspector, Samar/Shaan 24 twins. EP02 working plot published to common UI, cutoff 13:15 station; no final prose."
   },
   "leads": [
@@ -144,8 +144,11 @@
       "actualFil": false,
       "actualBiologicalOrLegalFatherOfPartner": false,
       "inStoryFamilyRole": "Socially assumed elder/uncle role; household's presented family story is not literal",
-      "exactReasonForArrangement": "TBD: Do not invent",
-      "roleCorrection": "2026-11-12 direct user instruction"
+      "exactReasonForArrangement": "Ankita and her husband Kabir brought Rajeev from the roadside and, after their marriage, invited him to live with them. The circumstances of their meeting, Rajeev's prior life, and the motive beyond the invitation are not yet specified. Rajeev is not Kabir's actual father or Ankita's actual FIL.",
+      "roleCorrection": "2026-11-12 direct user instruction",
+      "a04InterruptionMeaning": "A04 breakfast interruption 'Please stop, Uncle. We won't discuss it. Bas.' refers to the couple's history of bringing Rajeev from the roadside and inviting him to live with them after marriage; it is NOT a reply about a romantic/sexual invitation, and no implication about romantic consent should be drawn from it.",
+      "backstoryStatus": "USER_EXPLICITLY_CORRECTED_2026_11_15",
+      "socialAddressByAnkita": "Rajeev Uncle"
     },
     {
       "id": "rhea",
@@ -2849,7 +2852,10 @@
       "arvind"
     ],
     "existingExceptions": "Shreya/Arvind hospitalization connection and Meenakshi/Mohan old-age-home guest connection remain preserved where previously established. Husband/wife relationships are not changed by this instruction.",
-    "oldSchemaNote": "Legacy interest-array field 'ankitaFILInterests' is retained for UI/data compatibility ONLY; 'FIL' in its name is no longer a factual relationship claim."
+    "oldSchemaNote": "Legacy interest-array field 'ankitaFILInterests' is retained for UI/data compatibility ONLY; 'FIL' in its name is no longer a factual relationship claim.",
+    "knownSpecificHistory": {
+      "rajeev": "Ankita and her husband Kabir brought Rajeev from the roadside and, after their marriage, invited him to live with them. The circumstances of their meeting, Rajeev's prior life, and the motive beyond the invitation are not yet specified. Rajeev is not Kabir's actual father or Ankita's actual FIL."
+    }
   },
   "olderMenInterestSeeds": [
     {
