@@ -77,3 +77,12 @@ These are **11 narrative lanes**, not eleven predetermined romances.
 - **Assets:** User-uploaded professional portrait preview `assets/meenakshi/confident_doctor_in_a_hospital_corridor.svg`; private glamour preview `assets/meenakshi/glamorous_doctor_in_dressing_room.svg`. SVG files contain compact JPEG thumbnails from the exact supplied source images. Original high-resolution PNG attachments remain in this conversation, not GitHub; do not claim full-resolution image publication.
 - **Privacy tracker:** Unauthorized inspection or locker access is depicted only in non-graphic working-plot summaries and is not consensual. Meenakshi does not know which actor entered the locker by her 13:15 cutoff.
 - **Preservation:** Existing Ankita, Shivani, Taniya/Soniya files and `episode-03-ankita-pending.json` are retained. No evening continuation generated.
+
+### Graphical-insert handling rule (user correction, 2026-11-15)
+
+- At every story moment where a graphical passage is needed, insert only the exact literal marker `[GRAPHICAL DESCRIPTION REQUIRED]`.
+- If multiple separate graphical beats are needed in a single scene, repeat this marker at each occurrence. Do not combine distinct beats into one generic placeholder.
+- Do **not** write the graphical passage, do **not** replace it with softened/non-graphical equivalent, and do **not** narrate around it in a way that pretends the missing passage was written.
+- Continue ordinary story prose naturally after each marker. Do not add Grok instructions into the body of the scene.
+- A scene with unfilled placeholders remains a draft until the user approves the complete result.
+- Ankita EP03 Scene01 SQL draft: `episode-03-ankita-scene-01.sql` (SQLite-compatible export; not executed against a live DB).
