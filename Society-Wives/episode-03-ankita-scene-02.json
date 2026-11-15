@@ -1,0 +1,245 @@
+{
+  "schemaVersion": 1,
+  "id": "SW-ANKITA-EP03-SCENE02",
+  "series": "Society Wives — Five Veils of Desire",
+  "episode": "03",
+  "scene": "02",
+  "lead": "ankita",
+  "title": "The Five-Person Stamina Challenge",
+  "date": "2026-01-01",
+  "start": "13:15",
+  "end": "13:45",
+  "timezone": "Asia/Kolkata",
+  "status": "USER_FINALIZED_PLOT_BLUEPRINT_NOT_PROSE",
+  "authorDirection": "Scene 01 is A11: Ankita/Rajeev parcel call + Rajeev reader-only private beat. Scene 02 is this full five-person office scene. Do not call the office scene Scene 01. Preserve all spoken and narrator beats when Grok drafts; this document is a plot, not finished prose.",
+  "location": "Cyber City IT office: release-monitoring area, whiteboard, open space/dance practice, low-profile mat/backdrop stand, and lounge sofa",
+  "cast": [
+    "ankita",
+    "ankita_woman_06",
+    "ankita_woman_07",
+    "vivan",
+    "reyansh"
+  ],
+  "castNames": [
+    "Ankita",
+    "Sana Khan (QA Automation Engineer, 24)",
+    "Aishwarya Rao (HR Executive and friend, 24)",
+    "Vivan (24)",
+    "Reyansh (24)"
+  ],
+  "establishedCanon": [
+    "EP02 A08 (08:50–09:20): Priya and Nisha tease Ankita about fuller figure after marriage, particularly bust and hips; Vivan and Reyansh already share playful teasing. Sana and Aishwarya were not in the published A08 exchange.",
+    "Ankita remains at Cyber City after EP02 ~13:00; A11 occurs just before this scene.",
+    "Aishwarya Rao is Ankita's renamed HR colleague (stable ID ankita_woman_07); Shreya's police Constable Kavita is a distinct character.",
+    "Vivan and Reyansh are colleagues/duo, NOT biological twins. Rohit is not present in this scene.",
+    "Five adults are established as comfortable friends for light double-meaning group banter. Ankita has agency and playful comebacks."
+  ],
+  "wardrobe": [
+    {
+      "character": "Aishwarya",
+      "look": "Burgundy satin shirt, upper two buttons open over camisole, black tailored trousers, fitted blazer, party-ready styling and earrings; blazer later removed by her voluntarily for dance challenge",
+      "status": "SCENE02_APPROVED_DIRECTION"
+    },
+    {
+      "character": "Sana",
+      "look": "Emerald fitted blouse, high-waisted trousers, smart jacket, styled loose hair; party-ready rather than ordinary QA workwear; jacket can be set aside voluntarily for dance",
+      "status": "SCENE02_APPROVED_DIRECTION"
+    },
+    {
+      "character": "Ankita",
+      "look": "Existing light/cream office kurti/top with beige blazer/trousers (verify exact A08-to-13:15 continuity; no unapproved outfit change)",
+      "status": "EXISTING_WARDROBE_TO_VERIFY"
+    }
+  ],
+  "narratorStyle": {
+    "purpose": "Use narrator shape/motion imagery as in original Dhika EP03 twins walking observation: narrator speaks, not necessarily any character aloud.",
+    "sketchExamples": [
+      "Ankita: apple-rounded silhouette and gentle movement while walking/turning; describe actual visible outfit fit",
+      "Sana: athletic/sculpted figure and lively, agile footwork",
+      "Aishwarya: hourglass waist-to-hip line, satin fabric and confident professional posture"
+    ],
+    "controls": [
+      "Descriptions are illustrated body-shape imagery, not automatically exact measurements or new physical canon.",
+      "Keep observation, spoken double-meaning joke, reacting facial expression and physical gag distinct.",
+      "Both women must be active participants; don't turn Sana and Aishwarya into passive spectators."
+    ]
+  },
+  "sequence": [
+    {
+      "id": "S02-01",
+      "time": "13:15–13:20",
+      "heading": "Late arrival and standout party clothes",
+      "plot": "Sana and Aishwarya enter together, late because they are preparing the surprise for all five that evening. Vivan notices Aishwarya is the HR person breaking the very attendance norms she usually explains. Five remain together. After a one-line release-status check, move into banter; no lengthy project exposition."
+    },
+    {
+      "id": "S02-02",
+      "time": "13:20–13:24",
+      "heading": "Three-versus-two stamina banter",
+      "plot": "Sana actively looks toward Ankita and Aishwarya while challenging both Vivan and Reyansh: three women versus two men—can they handle the stamina challenge? Sana steps close to tease 'aazma ke toh dekho'. Aishwarya responds with clever HR double meanings; Ankita throws competitive comebacks. Comfortable humor, distinct voices, no abrupt shy-discomfort clichés.",
+      "suggestedDialogue": [
+        {
+          "speaker": "Sana",
+          "line": "Hum teen aur tum dono. Sach mein itna stamina hai ki handle kar loge?"
+        },
+        {
+          "speaker": "Vivan",
+          "line": "Teen versus two? Ye toh unfair competition hai!"
+        },
+        {
+          "speaker": "Aishwarya",
+          "line": "HR ki taraf se warning—overconfidence ka insurance nahi milta."
+        },
+        {
+          "speaker": "Ankita",
+          "line": "Tum dono planning bahut karte ho. Ab execution dekhte hain."
+        },
+        {
+          "speaker": "Reyansh",
+          "line": "Main ready hoon. Bas blame game mat shuru kar dena."
+        }
+      ]
+    },
+    {
+      "id": "S02-03",
+      "time": "13:24–13:30",
+      "heading": "Late-comer dance forfeit",
+      "plot": "Funny consequence is for the actual latecomers Sana and Aishwarya, NOT Ankita. The women voluntarily accept organizing/showing a small playful after-hours dance rehearsal, and remove their own jackets/blazers if useful. No photograph challenge. Ankita joins because she wants to; the intended evening party is not revealed yet. Include organic costume/posture/movement descriptions."
+    },
+    {
+      "id": "S02-04",
+      "time": "13:30–13:35",
+      "heading": "Dhika-style narrator description and caught looks",
+      "plot": "Narrator observes different silhouettes and movement as the three adults dance/walk, rather than speaking every comparison as dialogue. Vivan notices Ankita's rounded, apple-like walking silhouette and makes an audacious but playful figure-related compliment. Reyansh also notices Ankita during a turn; she catches the glance and gives a witty comeback. Sana and Aishwarya have distinct movement descriptions and actively tease both men; no unrelated or copied Dhika event is asserted."
+    },
+    {
+      "id": "S02-05",
+      "time": "13:35–13:42",
+      "heading": "First accident: Ankita's footing and stabilizing grip",
+      "plot": "Ankita's foot catches the backdrop stand/mat base during a close dance pose. Vivan supports her at the side waist. Reyansh reaches to steady her; his hand unexpectedly passes beneath the loose edge of her top and rests against the stomach/abdomen with a firm five-finger stabilizing grip. Crucially, he keeps holding until she is fully upright and balanced; he does NOT immediately withdraw while she is falling. Ankita feels the closeness, understands the rescue, and neither is assigned embarrassment or discomfort. When her balance is recovered, release can be playful and accompanied by a double-meaning retort. Their underlying spark can matter later; no independent reaction chapter is inserted."
+    },
+    {
+      "id": "S02-06",
+      "time": "13:42–13:43",
+      "heading": "Returning to banter: morning after-marriage figure callback",
+      "plot": "All five return to playful group jokes. Callback is specifically to the published morning EP02 A08 conversation where Priya and Nisha remarked on how Ankita's figure filled out after marriage, with attention to bust and hips. Sana and Aishwarya pick up the callback even though they were not there originally, and HR Aishwarya makes a joking appraisal reference. All jokes are friendly, the two men contribute, and Ankita becomes the focus of their wordplay.",
+      "suggestedDialogue": [
+        {
+          "speaker": "Vivan",
+          "line": "Waise ma'am, subah Priya aur Nisha ne aapki growth report banayi thi. Uska final appraisal hua kya?"
+        },
+        {
+          "speaker": "Ankita",
+          "line": "Tum log meri personal appraisal kab se karne lage?"
+        },
+        {
+          "speaker": "Aishwarya",
+          "line": "Wait! Kaisi growth? Main HR hoon, mujhe kyun nahi bataya?"
+        },
+        {
+          "speaker": "Sana",
+          "line": "Shaadi ke baad figure mein jo promotions hue hain, unki baat chal rahi hai. Apparently, results kaafi impressive hain!"
+        },
+        {
+          "speaker": "Reyansh",
+          "line": "Toh congratulations bolna chahiye ya performance bonus?"
+        }
+      ]
+    },
+    {
+      "id": "S02-07",
+      "time": "13:43–13:44",
+      "heading": "Ankita's accidental verbal double meaning backfires",
+      "plot": "Ankita innocently blurts a comment about Kabir having no complaints; she suddenly realizes the double meaning after others exploit it. This time she genuinely blushes more than earlier and is playfully cornered by friends' jokes. That reaction is author-directed and should not be replaced with generic discomfort.",
+      "suggestedDialogue": [
+        {
+          "speaker": "Ankita",
+          "line": "Arre, Kabir ko toh aaj tak koi complaint nahi hui!"
+        },
+        {
+          "speaker": "Vivan",
+          "line": "Oho! Humne toh complaint poochhi hi nahi, ma'am!"
+        },
+        {
+          "speaker": "Aishwarya",
+          "line": "Ankita! Ye information toh tumne khud voluntarily disclose ki hai!"
+        },
+        {
+          "speaker": "Sana",
+          "line": "Aur ab iska double meaning explain bhi khud hi karna padega!"
+        },
+        {
+          "speaker": "Ankita",
+          "line": "Oh God! Mera woh matlab nahi tha! Tum log na..."
+        },
+        {
+          "speaker": "Reyansh",
+          "line": "Humne toh kuch bola hi nahi. Aapne khud report submit ki hai."
+        }
+      ]
+    },
+    {
+      "id": "S02-08",
+      "time": "13:44",
+      "heading": "Sana's behind-the-back physical prank and immediate escape",
+      "plot": "As an already-close female friend, Sana approaches Ankita from behind and deliberately escalates the mischievous joking: one hand teasing/pinching Ankita's bum and the other briefly pinching her breast. The user's exact plot point is that Ankita's figure visibly jiggles/sways for an instant; Vivan and Reyansh's eyes widen in surprise, and Sana immediately runs, laughing. Preserve the author-specified action at non-graphic blueprint level; do not swap for a shoulder pinch. Ankita responds playfully, not with invented fear or offense.",
+      "suggestedDialogue": [
+        {
+          "speaker": "Sana",
+          "line": "Madam, promotion ki checking bhi toh banti hai!"
+        },
+        {
+          "speaker": "Ankita",
+          "line": "SANAAA! Tu ruk! Aaj tujhe main nahi chhodungi!"
+        }
+      ]
+    },
+    {
+      "id": "S02-09",
+      "time": "13:44–13:45",
+      "heading": "Chase, second accidental fall and comic reversal",
+      "plot": "Ankita laughingly chases Sana around the whiteboard; Sana's foot catches the edge of the practice mat and Ankita attempts to catch her. They both lose balance and tumble safely onto the nearby lounge sofa. This is a SECOND distinct accident, not the earlier support/abdomen grip. Both laugh; Aishwarya jokes about the HR stability test; Vivan and Reyansh add work-related dark/double-meaning humor.",
+      "suggestedDialogue": [
+        {
+          "speaker": "Aishwarya",
+          "line": "Excellent! HR report mein likhungi—two employees failed the stability test!"
+        },
+        {
+          "speaker": "Ankita",
+          "line": "Ab bol! Kiska stamina test kar rahi thi?"
+        },
+        {
+          "speaker": "Sana",
+          "line": "Tera nahi, madam! Lagta hai floor ka stamina kam nikla!"
+        },
+        {
+          "speaker": "Reyansh",
+          "line": "At least dono ka crash test pass ho gaya!"
+        }
+      ]
+    },
+    {
+      "id": "S02-10",
+      "time": "13:45",
+      "heading": "Natural reset and exact cut",
+      "plot": "Five friends naturally return to the whiteboard/ordinary board talk; no new explicit conclusion, no separate female reaction ledger, no invented argument. Stop the scene there. The evening party location, car/cab, transport, seats and their next conversation are deferred to Scene 03."
+    }
+  ],
+  "lockedDecisions": [
+    "Sana and Aishwarya are both active in teasing; the late-arrival forfeit belongs to those two, not Ankita.",
+    "Aishwarya is the renamed HR colleague, not Shreya's Kavita.",
+    "The funny physical prank explicitly includes a fleeting jiggle/sway beat; don't omit silently or turn it into a shoulder pinch.",
+    "Two distinct physical accidents: Ankita rescued during dance, then Ankita and Sana fall safely during chase.",
+    "Reyansh holds steady until Ankita is balanced, not an instant fearful withdrawal; neither is uncomfortable in first accident.",
+    "A08 morning after-marriage growth remark is the explicit callback; Ankita's Kabir no-complaint verbal slip backfires and she blushes.",
+    "Preserve exact playful dialogue where listed as approved plot reference; Grok may expand into prose with author's later direction.",
+    "Scene 02 ends at whiteboard return. Scene 03 transport is not decided."
+  ],
+  "exclusions": [
+    "No photo challenge or separate posed-photo subplot.",
+    "No premature evening venue reveal, vehicle/seating lock, or transport scene inside Scene 02.",
+    "No continuation of Scene 01 Rajeev private POV into office; he remains offscreen.",
+    "No rewrites to published Episode 02, other leads, or original Dhika."
+  ],
+  "proseStatus": "NOT_WRITTEN",
+  "nextScene": "03 — evening surprise/transport discussion; time, venue, vehicle, seating, and party activities TBD"
+}
