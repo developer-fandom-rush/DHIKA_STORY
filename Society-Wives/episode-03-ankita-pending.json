@@ -336,5 +336,17 @@
     ],
     "existingExceptions": "Shreya/Arvind hospitalization connection and Meenakshi/Mohan old-age-home guest connection remain preserved where previously established. Husband/wife relationships are not changed by this instruction.",
     "oldSchemaNote": "Legacy interest-array field 'ankitaFILInterests' is retained for UI/data compatibility ONLY; 'FIL' in its name is no longer a factual relationship claim."
-  }
+  },
+  "uiVisibility": "ARCHIVE_ONLY_NOT_IN_ACTIVE_PLANNING_OR_TIMELINE",
+  "supersededBeats": [
+    "A11",
+    "A12"
+  ],
+  "currentSources": [
+    "episode-03-ankita-a11-scene-01-opening.json",
+    "episode-03-ankita-scene-02.json",
+    "episode-03-ankita-scene-03.json",
+    "episode-03-ankita-scene-04-rohit-intro.json"
+  ],
+  "archivalNote": "A13–A17 remain historical parked alternatives, not user-approved chronological commitments. A11/A12 have newer active planning replacements."
 }
