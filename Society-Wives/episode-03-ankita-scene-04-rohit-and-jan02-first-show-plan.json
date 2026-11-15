@@ -54,7 +54,7 @@
     ]
   },
   "jan02": {
-    "episode": "04",
+    "episode": "TBD_AFTER_RINKU_EPISODE",
     "date": "2026-01-02",
     "title": "Rohit Babu — First Accidental Look, then the First Deliberate Show",
     "status": "AUTHOR_REQUESTED_FULL_TWO-PART_DAY2_PLOT_DIRECTION_TIMES_NOT_LOCKED",
@@ -115,5 +115,5 @@
     "episode-03-ankita-scene-04-rohit-intro.json",
     "episode-04-ankita-rohit-first-show.json"
   ],
-  "archivalNote": "The fuller individual source files supersede this early combined rough planning document. Retained only for provenance; do not use it to overwrite current Jan1 intro or Jan2 first-show beats."
+  "archivalNote": "Superseded office/Rohit source for Jan2 remains for provenance, not a current episode-number authority. The next Ankita episode focuses on Rinku; Rohit Jan2 office placement is preserved but episode numbering is TBD."
 }
