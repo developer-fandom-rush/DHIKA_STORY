@@ -17,7 +17,7 @@ export default function Gallery({initialCharacter='all'}:{initialCharacter?:stri
   <FemaleLibrary initialCharacter={initialCharacter} />
   <div className="filter-bar gallery-filters"><label>Character<select value={character} onChange={e=>setCharacter(e.target.value)}><option value="all">All characters</option>{['ankita','shivani','taniya','soniya','meenakshi','shreya','shruti','shreya_woman_02','shreya_woman_03','shreya_woman_04','rohan','nikhil','vivek','karan','aman','chauhan','lokesh'].map(x=><option key={x} value={x}>{labelFor(x)}</option>)}</select></label>
    <label>Source<select value={source} onChange={e=>setSource(e.target.value)}><option value="all">All sources</option><option value="GitHub">GitHub</option><option value="Google Drive">Google Drive</option></select></label>
-   <label>Episode<select value={episode} onChange={e=>setEpisode(e.target.value)}><option value="all">All episodes</option><option value="02">02</option></select></label>
+   <label>Episode<select value={episode} onChange={e=>setEpisode(e.target.value)}><option value="all">All episodes</option><option value="02">02</option><option value="03">03</option></select></label>
    <label>Scene<select value={scene} onChange={e=>setScene(e.target.value)}><option value="all">All scenes</option>{scenes.map(s=><option value={s} key={s}>{s}</option>)}</select></label>
    <label className="search-field">Search scenes<input type="search" value={q} onChange={e=>setQ(e.target.value)} placeholder="M12, workout, portrait…" /></label>
   </div>
