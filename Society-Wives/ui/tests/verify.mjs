@@ -90,7 +90,7 @@ assert.equal(ankitaScene07.beats.length,6,'Scene07 retains six short plot beats'
 assert.ok(ankitaScene07.beats[1].plot.includes('declines'),'Office colleagues do not drop Ankita');
 assert.ok(ankitaScene07.beats[2].plot.includes('two minutes'),'Twins pickup two-minute timing preserved');
 assert.ok(ankitaScene07.beats[3].plot.includes('driving seat'),'Ankita drives and twins sit behind');
-assert.ok(ankitaScene07.beats[4].plot.includes('Gopal'),'Guard's changed gaze not omitted');
+assert.ok(ankitaScene07.beats[4].plot.includes('Gopal'),"Guard's changed gaze not omitted");
 assert.ok(ankitaScene07.beats[5].plot.includes('apartment arrival'),'Scene cuts at home, not future party');
 const danceHandoff=read('episode-03-ankita-scene-06-dance-draft.json').handoff;
 assert.equal(danceHandoff.source,'episode-03-ankita-scene-07-twins-pickup-homecoming.json','Old colleague-drop handoff replaced');
