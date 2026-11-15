@@ -346,7 +346,9 @@
       "title": "The college rehearsal that would not fit",
       "narration": [
         "Pooja (Assistant Professor and faculty colleague) brings the college event rehearsal schedule. Shivani is a lecturer teaching adult undergraduate students. Her favorite 22-year-old students Harsh and Laksh, who are twin brothers, have volunteered to help with stage logistics.",
-        "Harsh is playful and expressive while Laksh is quieter and responsible. Nandini and Ritika, two 22-year-old female student favorites, also contribute; none of these proposed moments establishes an actual romance or approved event."
+        "Harsh is playful and expressive while Laksh is quieter and responsible. Nandini and Ritika, two 22-year-old female student favorites, also contribute; none of these proposed moments establishes an actual romance or approved event.",
+        "Established earlier campus familiarity (retrospective character foundation): Harsh and Nandini have previously tugged a sleeve or forearm during friendly rehearsal positioning; Laksh and Ritika have steered each other by the shoulder or upper arm while trading places. Their small physical gestures are already commonplace within this age-peer group and do not mark a new Episode 03 escalation.",
+        "Shivani has previously guided Harsh's forearm while correcting a stage position. During ordinary paperwork and event handoffs, Arjun Mehta has briefly touched Pooja's hand when passing a file and helped Kriti steady a box by her elbow. Arjun was an occasional student visitor, not a member of the core four-student group or cultural committee. Pooja and Kriti are younger faculty teachers, not students. These established gestures are ordinary prehistory, not the new Episode 03 turning point."
       ],
       "dialogue": [
         {
@@ -1422,5 +1424,51 @@
     ],
     "existingExceptions": "Shreya/Arvind hospitalization connection and Meenakshi/Mohan old-age-home guest connection remain preserved where previously established. Husband/wife relationships are not changed by this instruction.",
     "oldSchemaNote": "Legacy interest-array field 'ankitaFILInterests' is retained for UI/data compatibility ONLY; 'FIL' in its name is no longer a factual relationship claim."
+  },
+  "shivaniProloguePriorContact": {
+    "status": "AUTHOR_DIRECTED_RETROSPECTIVE_BASELINE_LOCK_2026_11_15",
+    "sourceScene": "S07 — The college rehearsal that would not fit",
+    "timeMeaning": "Prior to the Episode 03 staffroom ensemble; this prologue references earlier recurring habits without dating or inventing a new published episode.",
+    "normalContactAlreadyOccurred": [
+      {
+        "people": [
+          "Harsh",
+          "Nandini"
+        ],
+        "contact": "Playful sleeve/forearm tug during rehearsal positioning"
+      },
+      {
+        "people": [
+          "Laksh",
+          "Ritika"
+        ],
+        "contact": "Shoulder/upper-arm guidance while changing places"
+      },
+      {
+        "people": [
+          "Shivani",
+          "Harsh"
+        ],
+        "contact": "Forearm/stage-position guidance"
+      },
+      {
+        "people": [
+          "Arjun Mehta",
+          "Pooja"
+        ],
+        "contact": "Brief hand contact during a file handover"
+      },
+      {
+        "people": [
+          "Arjun Mehta",
+          "Kriti"
+        ],
+        "contact": "Elbow/arm support while moving a box"
+      }
+    ],
+    "meaning": "Routine, previously established gestures. None of these is a novelty, major character change or an Episode 03 physical climax.",
+    "core": "Harsh, Laksh, Nandini, Ritika (age-peer Office Twins); Sunny separately college Chotu; Deepu separately society Chotu; Pooja and Kriti junior faculty; Arjun occasional future recurring visitor.",
+    "ep03Instruction": "Remove these ordinary gesture beats from Episode 03's proposed physical escalation; the next significant contact must carry different character stakes and a distinct response. It has not been approved or plotted in prose.",
+    "sourceProtection": "No replacement of published Episode 02, no new prologue scene count or changes to other leads."
   }
 }
