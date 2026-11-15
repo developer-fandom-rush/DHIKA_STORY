@@ -1,0 +1,36 @@
+{
+  "schema": "sw-raw-author-submission-v1",
+  "scene": "EP03 Scene02 The Farmhouse Evening",
+  "date": "2026-01-01",
+  "beatOrder": [
+    "F10",
+    "F11",
+    "F12",
+    "F13",
+    "F14"
+  ],
+  "beats": {
+    "F10": {
+      "title": "Aditi's Suggestion — Group Photo",
+      "raw": "Aditi ne phone side pe rakha aur group ki taraf dekha.\n\n**Aditi:** “Chalo, kuch photos le lete hain. Private hi rahengi.”\n\nWoh unhe open area mein le gayi jahan string lights better pad rahi thin. Pehli group photo. Aditi beech mein khadi hui, burgundy mini-dress mein. Avi uske right mein, haath uski waist pe rakh diya bina kuch kahe. Yash left mein, Meenakshi ke thoda close. Meenakshi plum kurta mein thi, cardigan abhi bhi side pe pada tha.\n\n**Aditi:** “Thoda close aao. Avi, tumhara haath waist pe theek hai.”\n\nAvi ne pressure badhaya. Aditi ki short dress uske hip ke against tight hui. Photo click hui."
+    },
+    "F11": {
+      "title": "Pair Photos — Yash and Meenakshi",
+      "raw": "Phir pair photos. Aditi ne Avi ko aage bulaya.\n\n**Aditi:** “Avi, mere saath.”\n\nAvi seedha uske peeche aa gaya. Dono haath uski waist pe, thoda neeche hips ke curve pe. Aditi ne apni ass thodi peeche push ki. Avi ne clearly feel kiya.\n\n**Avi:** **“Tum jaan-bujh ke push kar rahi ho.”**\n\n**Aditi:** “Haan. Photo mein close dikhna chahiye.”\n\nYash ne Meenakshi ke saath photo li. Woh uske bagal mein khada hua, haath uski waist pe rakh diya. Meenakshi ne hataaya nahi. Kurta ka fabric uske fitted waist pe stretch hua. Yash ka haath wahan ruka."
+    },
+    "F12": {
+      "title": "Avi's Jealousy",
+      "raw": "Avi ne yeh dekha. Uski nazar Yash ke haath pe atki. Aditi ne uska expression pakad liya.\n\n**Aditi:** **“Avi, tumhari nazar Meenakshi aur Yash pe kyun atki hai? Pehle toh tum mere saath the.”**\n\nAvi ne seedha jawab nahi diya. Thodi jealousy uske chehre pe thi.\n\n**Avi:** “Kuch nahi.”\n\n**Aditi:** “Kuch nahi nahi hota. Tum dekh rahe ho.”"
+    },
+    "F13": {
+      "title": "Meenakshi and Yash — Personal Conversation",
+      "raw": "Photos ke baad group thoda scatter hua. Yash Meenakshi ke paas ruk gaya. Dono side mein khade the.\n\n**Yash:** “Aap aaj hospital wali Meenakshi nahi lag rahi.”\n\n**Meenakshi:** “Yahan hospital nahi hai. Isliye.”\n\n**Yash:** “Phir bhi. Aap zyada relaxed lag rahi hain.”\n\nMeenakshi ne uski taraf dekha. Uska tone Avi jaisa bold nahi tha. Yeh alag lag raha tha.\n\n**Meenakshi:** “Relaxed hoon. Bas itna hi.”"
+    },
+    "F14": {
+      "title": "Aditi Announces Her Cab",
+      "raw": "Aditi ko phone aaya. Usne dekha aur group ki taraf mudhi.\n\n**Aditi:** “Mujhe nikalna padega. Cab aa rahi hai.”\n\nAvi uske paas aaya.\n\n**Avi:** “Itni jaldi?”\n\n**Aditi:** “Haan. Tum log Meenakshi ke saath chale jaana. Main alag nikal rahi hoon.”\n\nUsne Avi ki taraf ek last look diya, phir Yash aur Meenakshi ko. Burgundy dress mein woh exit ki taraf badhi. Avi usse jaate hue dekhta raha. Yash Meenakshi ke bagal mein khada tha, haath abhi bhi uski waist ke paas. Meenakshi ne Aditi ko jaate dekha, phir apni car keys nikali. Return journey shuru hone wali thi."
+    }
+  },
+  "policy": "Preserve author-provided F10–F14 Grok draft separately and without editorial overwrite. Author explicitly removed F11 verbal permission requirement; editing is limited to F13 personal conversation and F14 exit timing, in author-selected layer.",
+  "source": "Author submitted F10–F14 prose in ongoing conversation"
+}
