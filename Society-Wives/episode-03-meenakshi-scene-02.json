@@ -124,7 +124,7 @@
       "id": "F11",
       "phase": "Photographs",
       "title": "Waist-contact trust",
-      "detail": "Avi/Aditi close poses and Yash/Meenakshi photo. Yash explicitly asks before placing his hand at Meenakshi's waist. She allows the photo pose; that permission is limited to it."
+      "detail": "Avi/Aditi close pair poses and Yash/Meenakshi photo. Author removed the verbal permission request: Yash simply places his hand at Meenakshi's waist during the pose; Meenakshi does not move it. Do not insert an explicit ask or rewrite the author-submitted scene."
     },
     {
       "id": "F12",
@@ -136,13 +136,13 @@
       "id": "F13",
       "phase": "Personal conversation",
       "title": "Meenakshi and Yash",
-      "detail": "Their talk remains personal and flirtatious, not converted into a locker investigation. Meenakshi's emotional continuity must incorporate the unwritten post-14:15 Naveen scene."
+      "detail": "Yash and Meenakshi continue talking after photographs, now about their favorite group photo, candid smiles and the feeling of dancing without needing to perform. Distinct personal rapport; do not repeat the earlier hospital-strict/relaxed exchange or invent the unwritten Naveen continuation."
     },
     {
       "id": "F14",
       "phase": "Departure",
       "title": "Aditi must leave",
-      "detail": "Aditi has another engagement and arranges a separate cab; Avi and Yash request a drop from Meenakshi, and she agrees."
+      "detail": "Aditi receives a call and announces a separate cab; Avi and Yash request a drop from Meenakshi, who agrees and confirms a sober professional return driver. Aditi waits and walks with the group to parking. Her actual cab departure occurs only in F15 after she witnesses the seating rivalry."
     },
     {
       "id": "F15",
@@ -248,6 +248,10 @@
     {
       "date": "2026-11-15",
       "change": "Author accepted editorial redlines through F04 with explicit F04 exceptions. F01–F04 updated to accepted Grok compact prose; F04 natural-sway paragraph retained; final invite and final summary removed; F06 second Grok draft is continuation. Older GPT prose preserved in priorPublishedEditorial; Grok source archive remains unchanged."
+    },
+    {
+      "date": "2026-11-15",
+      "change": "User removed prior F11 verbal-permission constraint; F13 personal conversation revised; F14 departure shifted to F15 after seating rivalry. F10-F14 user source archived separately; corrected F13/F14 working drafts are not final approved."
     }
   ],
   "approvedProse": {
@@ -617,7 +621,12 @@
       "F06",
       "F07",
       "F08",
-      "F09"
+      "F09",
+      "F10",
+      "F11",
+      "F12",
+      "F13",
+      "F14"
     ],
     "sourceReadingFile": "episode-03-meenakshi-scene-02-author-selected.json",
     "canonicalF06TwoPart": true
@@ -1187,5 +1196,23 @@
       ],
       "endBoundary": "F04 ends with Aditi already dancing on her own and offering Avi her hand. F05 begins with Avi joining; no close dance prose in F04."
     }
-  }
+  },
+  "authorOverrides": [
+    {
+      "date": "2026-11-15",
+      "scope": [
+        "F11",
+        "F13",
+        "F14"
+      ],
+      "source": "Direct user instruction",
+      "changes": [
+        "F11 no verbal permission question; preserve supplied waist-pose interaction as-is",
+        "F13 replace repeated 'hospital strict/relaxed' with new photo-grounded personal dialogue",
+        "F14 delay Aditi's physical exit until after F15 rear-seat rivalry; sober driver required"
+      ],
+      "originalRaw": "episode-03-meenakshi-scene-02-F10-F14-author-original.json",
+      "selected": "episode-03-meenakshi-scene-02-author-selected.json"
+    }
+  ]
 }
