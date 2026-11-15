@@ -73,6 +73,14 @@ Write clinical workflows plausibly. Do not place the child Vihaan in an adult ro
 - Reference: `Society-Wives/flirting-style.json` → `narratorVisualDescription`, and `Society-Wives/flirting-style.html#narrator-visual-style` for the matching UI reference.
 - **This is a global writer's style instruction, not approval of new episode events or prose.** Keep adult relationships, setting, and the master story clock accurate.
 
+### AUTHOR-DIRECTED PACING & SELF-QA — 15 NOV 2026
+- When the author requests an entire encounter, deliver **one cohesive scene spanning all its approved beats**; do not inflate each beat into a long standalone subscene.
+- Keep routine travel, greetings, logistics and plot glue to one or two lines unless they change character stakes. Give dialogue real space only when it changes attraction, rivalry, trust, emotions, boundaries or a future decision.
+- Double meanings must aim at a particular adult person and produce an observable reaction or emotional shift. Delete filler banter.
+- Apply approved narrator figure/outfit/motion descriptions **selectively at meaningful transitions**; distinguish narration, observers' private notice, spoken lines, and the woman's actual response.
+- Before presenting, self-audit all twenty-two beats without forcing twenty-two scene headings: time, locations, outfits, who is present, knowledge, drink/driver safety, car seats, boundary checks, open cut, downstream timeline conflicts and approval statuses. Make the author review story choices, not basic continuity mistakes.
+- Writing a draft does not automatically publish or approve it. Do not retcon Episode 04's 14:15 Naveen continuation or claim outcomes not yet written.
+
 ### WORKFLOW
 1. **Read source & produce Day 2/Day 3 master chronology** with a location/character conflict check and an explicit "known / proposed / missing" table.
 2. Give a **five-lead chapter index** (Taniya & Soniya may share a chapter but remain distinct POVs). Propose a working EP03 title, clearly labelled provisional.
