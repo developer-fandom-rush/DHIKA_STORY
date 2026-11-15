@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "id": "SW-ANKITA-EP03-SCENE03-PRIVATE-BRIEFING",
+  "episode": "03",
+  "scene": "03",
+  "lead": "ankita",
+  "date": "2026-01-01",
+  "timezone": "Asia/Kolkata",
+  "title": "The Private Briefing — Ankita's Beauty Test",
+  "start": "13:45",
+  "end": "15:30",
+  "status": "USER_REVISED_PLOT_BLUEPRINT_FOR_FINAL_REVIEW_NOT_PROSE",
+  "originalAuthorPrompt": {
+    "technical": "1:45–2:30 — Technical wrap-up (one line only) approved",
+    "meeting": "2:30 — Private briefing के लिए बुलाना good only double meaning teasing",
+    "wardrobe": "2:45 — Wardrobe और teasing moment (setup : morning se compliments and khud ka body awarness test ki mai sundar hoon ??) adn then decision ki chalo test krte hai .. then dirty dark humor exchnage eyes stuck on her body room temperature rised .. no touch just visuals se ankita leading it..(there is no timer ya rule ki bhalla ek hi compliment dega both ache compliment denge .. and self adjusting bhi pants and tie ko ..",
+    "twentyMinutes": "20 min ankita dono males ko bht jyada seducing manner mai tease kre and both sides double meaning setup ho ankita sirf blush nhi ruling the area .. presentation to puri ho gayi fir ankita khud ki presentation dene lagi .. (suddenly she snaps out and leaves ab blush and reaction aaya ) but she was not satisfied (doubt ki males reaction kya tha toh future seed ki yeah dobara hoga) self doubt ki sach mai sundar hoon (ego challenge)..",
+    "cliff": "Aishwarya confrontation cliff — after briefing, she notices Ankita's adjustment and changed demeanour; the question of what happened in the room is left unresolved.",
+    "scope": "Plot/beats and writer prompt only; Grok later writes extended scene prose; don't silently soften or delete author's specific directions."
+  },
+  "cast": [
+    {
+      "id": "ankita",
+      "name": "Ankita",
+      "age": 30,
+      "position": "IT Tech Lead",
+      "focus": "drives self-awareness experiment and controls the flirtatious exchange"
+    },
+    {
+      "id": "bhalla",
+      "name": "Mr. Bhalla",
+      "age": 58,
+      "position": "Senior client-side consultant",
+      "focus": "experienced, deliberate compliments; distinct hidden private interest; older-man arc seed"
+    },
+    {
+      "id": "sandeep",
+      "name": "Sandeep Khurana",
+      "age": 38,
+      "position": "IT delivery manager",
+      "focus": "more direct witty banter and substantive professional authority; mature-manager arc seed"
+    },
+    {
+      "id": "ankita_woman_07",
+      "name": "Aishwarya Rao",
+      "age": 24,
+      "position": "HR Executive / Event Coordination",
+      "focus": "outside-room observation and confrontation cliff only"
+    }
+  ],
+  "beats": [
+    {
+      "id": "S03-01",
+      "time": "13:45–14:30",
+      "name": "Technical wrap-up — one sentence",
+      "plot": "The Java API retry and idempotency verification, latency checks and production monitoring finish successfully, and the deployment is ready for final sign-off. Do not invent a second technical incident or spend prose time on the release.",
+      "validatedAgainst": "technical"
+    },
+    {
+      "id": "S03-02",
+      "time": "14:30–14:45",
+      "name": "Private briefing — double-meaning banter",
+      "plot": "Bhalla and Sandeep call Ankita to their office briefing room. Their release review quickly becomes a two-way, double-meaning, playful exchange. Both compliment her distinctly and actively; neither man's compliment count is restricted. Ankita gives back smart provocative jokes and keeps the initiative. Bhalla is 58 and an external senior client consultant; Sandeep is 38 and her delivery manager. Their private reactions have different voice and tempo.",
+      "validatedAgainst": "meeting"
+    },
+    {
+      "id": "S03-03",
+      "time": "14:45–15:00",
+      "name": "Morning compliment recall → beauty test",
+      "plot": "Morning comments by Priya and Nisha in approved EP02 A08, plus later reactions from other men and women, return to Ankita's mind. She wonders whether her figure is truly as striking as people say, turning curiosity into an ego challenge: 'Am I really that beautiful? Let's test it.' She deliberately relaxes the upper two buttons / fit of her existing top herself to test their gaze and response during briefing, and controls her stance and movement. Their eyes linger as the room temperature metaphorically rises. Both trade playful dirty/dark double meanings, exchange repeated body-focused compliments, and conspicuously self-adjust their ties and trousers. No physical touch; visual cues and Ankita's deliberate leading body language drive the experiment. All three are adults.",
+      "validatedAgainst": "wardrobe"
+    },
+    {
+      "id": "S03-04",
+      "time": "15:00–15:20",
+      "name": "Twenty-minute Ankita-led personal presentation",
+      "plot": "The official work presentation is already complete. Ankita jokingly turns the next twenty minutes into 'her own presentation', using confident posture, movement, fashion adjustment, sustained eye contact and bold double-meaning conversation to tease both men. Bhalla and Sandeep both actively reply, compliment and test one another's wit; their individual interpretations stay distinct. Ankita rules the room rather than spending the encounter blushing passively. Suddenly she snaps out of the experiment, brings it to an abrupt close and leaves. Only afterward do her deeper blush, racing warmth and reflective uncertainty register. She is not satisfied because she cannot fully read the men's genuine private reactions. Future seed: the unproven 'am I actually beautiful?' ego challenge makes her want to run another test at a later encounter, without a scheduled promise.",
+      "validatedAgainst": "twentyMinutes"
+    },
+    {
+      "id": "S03-05",
+      "time": "15:20–15:30",
+      "name": "Aishwarya's confrontation cliff",
+      "plot": "Ankita emerges after the release sign-off, visibly changed and still adjusting her appearance. Aishwarya notices her altered clothes, behaviour and hint of an unusual private exchange, confronts her about the meeting and the top buttons. The reader knows part of the verbal and visual exchange but not necessarily its last unspoken impressions. End on Aishwarya's direct question and Ankita's interrupted response. Do not prematurely settle what the men privately felt or what Ankita confesses.",
+      "suggestedCliffDialogue": "Aishwarya: 'Ankita, andar exactly kya hua? Aur ye buttons kisne suggest kiye?'",
+      "validatedAgainst": "cliff"
+    }
+  ],
+  "authorLocks": [
+    "Ankita is the active seducer/tease in the middle of the encounter, not a passive blush-only spectator.",
+    "Both Bhalla and Sandeep give substantial compliments and respond with double meaning; no arbitrary one-compliment rule.",
+    "The morning after-marriage body-awareness callback is the actual motivation of the beauty test.",
+    "Bhalla and Sandeep physically adjust their own ties and trousers while reacting to her confidence.",
+    "No physical contact in this private briefing: keep focus on eyes, body language, visual observations and dialogue.",
+    "After the official presentation, Ankita controls the next 20-minute playful 'personal presentation'.",
+    "Only after she snaps out does she become fully flustered and self-questioning; she remains curious about both men's true reactions.",
+    "The Aishwarya confrontation question closes the scene without revealing the full private emotional outcome.",
+    "A09 'first Bhalla introduction' remains parked for 2026-01-02 and must be reconciled if this 2026-01-01 encounter is approved as his first on-page appearance.",
+    "Office Chotu Rohit (22, IT support junior) is NOT deleted: preserve a separate upcoming encounter proposal after this scene, without inventing its finalized time."
+  ],
+  "validation": [
+    {
+      "requirement": "Technical wrap-up reduced to one line",
+      "status": "INCLUDED",
+      "beat": "S03-01"
+    },
+    {
+      "requirement": "Private briefing double-meaning exchange",
+      "status": "INCLUDED",
+      "beat": "S03-02"
+    },
+    {
+      "requirement": "Morning self-awareness → self-led beauty test, two-button adjustment, both men actively compliment and self-adjust",
+      "status": "INCLUDED",
+      "beat": "S03-03"
+    },
+    {
+      "requirement": "20 minutes Ankita leads flirting after work presentation, snaps out, blush/heat/self-doubt, future seed",
+      "status": "INCLUDED",
+      "beat": "S03-04"
+    },
+    {
+      "requirement": "Aishwarya confrontation unanswered cliff",
+      "status": "INCLUDED",
+      "beat": "S03-05"
+    }
+  ],
+  "timelineStatus": "PROPOSED_WINDOWS_NOT_CANON_UNTIL_FINAL_AUTHOR_APPROVAL",
+  "proseStatus": "NOT_WRITTEN",
+  "nextSceneSeed": "Office Chotu Rohit (22) — independent encounter still pending placement; after that, evening surprise/transport planning with five-person group"
+}
