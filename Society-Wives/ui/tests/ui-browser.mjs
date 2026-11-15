@@ -172,7 +172,7 @@ check(!(await page.locator('#ep03-meenakshi-scene-04').innerText()).includes('Ep
  await page.locator('#ankita-ep03-scene06 .source-scene .dialogue').last().waitFor();
  check(await page.locator('#ankita-ep03-scene06 .source-scene .dialogue').count()>10,'Dance draft shows detailed double-meaning dialogue');
  check((await page.locator('#ankita-ep03-scene06').innerText()).includes('Sandwich arrangement'),'Women-centered sandwich formation and HR joke retained');
- check((await page.locator('#ankita-ep03-scene06').innerText()).includes('prose DRAFT'),'Draft cannot be mistaken for approved final episode');
+ check((await page.locator('#ankita-ep03-scene06 .eyebrow').first().textContent()).includes('prose DRAFT'),'Scene06 draft status is displayed in the heading even if its eyebrow is visually hidden at this viewport');
  check((await page.locator('#ankita-ep03-scene06').innerText()).includes('17:20'),'Scene 06 ends before drop-off');
 
  await page.locator('#ankita-ep03-scene04-rohit .beat-item').first().waitFor();
