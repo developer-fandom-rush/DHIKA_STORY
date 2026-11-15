@@ -142,13 +142,13 @@ assert.equal(farmhouse.settings.return.includes('Meenakshi drives her own car'),
 
 
 assert.equal(farmhouse.approvedProse?.F01?.status,'AUTHOR_APPROVED_PROSE_PUBLISHED','F01 must be author-approved prose');
-assert.equal(farmhouse.proseProgress?.approved.join(','),'F01,F02,F03,F04','Author-approved Grok compact reading through F04');
-assert.equal(farmhouse.proseProgress?.pending.length,18,'Remaining 18 beats not final-approved');
+assert.equal(farmhouse.proseProgress?.approved.join(','),'F01,F02,F03,F04,F18,F19','Original compact F01–F04 and ending F18–F19 are approved');
+assert.equal(farmhouse.proseProgress?.pending.length,13,'Remaining 13 beats F05–F17 not yet final approved');
 assert.equal(farmhouse.publishedDrafts?.F06?.status,'AUTHOR_REQUESTED_MIXED_WORKING_VERSION_PUBLISHED_PENDING_FINAL_APPROVAL','F06 must be a published working version, not an approved beat');
 assert.equal(farmhouse.publishedDrafts.F06.paragraphs.slice(0,3).filter(p=>p.origin==='GROK_VERBATIM'&&!p.italic).length,3,'Farmhouse F06 has exactly three verbatim Grok paragraphs');
 assert.ok(farmhouse.publishedDrafts.F06.paragraphs.slice(3).every(p=>p.origin==='ASSISTANT_REVISED'&&p.italic),'Assistant continuation of F06 must be italic and provenance-labelled');
 assert.equal(farmhouse.proseProgress.fullSceneApproved,false,'F06 working publication must not imply full-scene approval');
-assert.deepEqual(farmhouse.proseProgress.approved,['F01','F02','F03','F04'],'Only F01-F04 are author-approved compact prose');
+assert.deepEqual(farmhouse.proseProgress.approved,['F01','F02','F03','F04','F18','F19'],'Author approved F01–F04 and F18–F19');
 assert.ok(farmhouse.approvedProse.F01.paragraphs.some(p=>p.highlight&&p.speaker==='Aditi'),'Approved F01 must expose key highlighted dialogue');
 assert.ok(farmhouse.approvedProse.F01.paragraphs.some(p=>/Tum dono peeche baithna/.test(p.text)),'Author kept Aditi seating dialogue in original F01');
 const twins=read('episode-03-meenakshi-scene-03-twins.json');
