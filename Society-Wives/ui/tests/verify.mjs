@@ -68,7 +68,7 @@ const rohitIntro=read('episode-03-ankita-scene-04-rohit-intro.json');
 assert.equal(rohitIntro.date,'2026-01-01','Rohit intro is on Jan 1 only');
 assert.equal(rohitIntro.scene,'04');
 assert.equal(rohitIntro.beats.length,7,'Intro must retain seven approved setup beats');
-assert.ok(rohitIntro.costumeContinuity.scene04Entry.includes('closing the upper two buttons'),'Ankita must rebutton before Rohit introduction');
+assert.ok(rohitIntro.costumeContinuity.scene04Entry.includes('closing the same two kurti buttons'),'Ankita must rebutton before Rohit introduction');
 assert.ok(rohitIntro.authorLocks.some(x=>x.includes('Jan 1 Rohit is INTRODUCTION ONLY')),'No Jan 1 first show allowed');
 const rohitFirstShow=read('episode-04-ankita-rohit-first-show.json');
 assert.equal(rohitFirstShow.date,'2026-01-02','Both Rohit first show encounters are on Jan 2');
