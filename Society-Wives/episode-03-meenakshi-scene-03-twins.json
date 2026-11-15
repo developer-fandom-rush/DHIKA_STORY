@@ -84,6 +84,21 @@
       "action": "Uday mock-complains that Meenakshi gave Utkarsh the longer chance to teach. Utkarsh offers a calm, witty response. Meenakshi deliberately keeps the rivalry playful, instead of explaining her feelings.",
       "gaze": "Uday looks from Utkarsh's hand back to Meenakshi's expression; Utkarsh reads his brother's jealousy and smiles.",
       "internal": "The brothers' private motives are distinct: Uday jealous of attention, Utkarsh pleased by her invitation; Meenakshi understands the banter has a personal undercurrent."
+    },
+    {
+      "id": "T07",
+      "time": "18:29–18:45 (provisional)",
+      "title": "The Car Won't Start — review-only continuation",
+      "action": "Author's new continuation: Meenakshi tries to start her parked car twice and discovers it will not start. Uday and Utkarsh offer a five-minute return to Gulmohar Heights. Brotherly competition over who will drive follows. The author-submitted ride includes three people on one bike and intimate contact that has not been explicitly agreed to. Transport method and boundaries must be resolved before any finished-prose publication.",
+      "status": "AUTHOR_SUBMITTED_PLOT_UNDER_REVIEW_NOT_PROSE",
+      "continuity": "Follows T06 court exit, before Babloo B01–B05 at Tower C; car remains at the off-site court and Babloo learns about the breakdown on arrival.",
+      "openIssues": [
+        "Section 128: a two-wheeled motorcycle permits only one pillion rider.",
+        "Stance coaching permission from T04/T05 does not extend to physical contact in transport.",
+        "Do not silently canonize any twin deliberately sabotaging a car.",
+        "Keep 18:45 society arrival provisional pending travel check; ensure return is consistent with farmhouse earlier that evening."
+      ],
+      "source": "Full original T07 provided by author in current discussion; this saved entry is a non-graphic planning summary, not a rewritten or approved scene."
     }
   ],
   "physicalBeatCoverage": [
@@ -161,6 +176,10 @@
     {
       "date": "2026-11-15",
       "change": "Added author-submitted T04–T06 verbatim with three minor continuity corrections to continuation; full T01–T06 reading text available. Do not change unfinished car/return planning."
+    },
+    {
+      "date": "2026-11-15",
+      "change": "Added T07 review-only non-graphic planning synopsis; car failure and Babloo handoff checked; unresolved three-up motorcycle / boundaries / timing identified. T01–T06 full prose untouched."
     }
   ],
   "authorRequirement": {
@@ -300,5 +319,17 @@
         "raw": "Uday ne racket uthaya.\n\n**Uday:** “Utkarsh, tumhe toh aaj bahut attention mil gaya. Subah toh itna bolte nahi the.”\n\n**Utkarsh:** “Subah aap zyada bol rahe the. Aaj main.”\n\nMeenakshi ne dono ko dekha aur has di.\n\n**Meenakshi:** “Tum dono ki rivalry mujhe subah se dikh rahi hai. Ab toh clear ho gayi.”\n\n**Uday:** “Ma’am, aap uski side le rahi hain?”\n\n**Meenakshi:** “Nahi. Dono ki le rahi hoon. Tum openly sikhate ho. Yeh bina bole zyada kar leta hai.”\n\nUtkarsh ne halka sa smile diya.\n\n**Utkarsh:** “Aap notice kar leti hain.”\n\n**Uday:** “Haan, bahut zyada.”\n\nMeenakshi ne racket wapas Uday ko diya.\n\n**Meenakshi:** “Bas. Aaj ke liye itna. Tum dono practice karo. Main chalti hoon.”\n\nDono ne usse jaate dekha. Uday ne Utkarsh ki taraf dekha.\n\n**Uday:** “Aaj tum aage nikal gaye.”\n\n**Utkarsh:** “Dekhte hain.”\n\nMeenakshi court se bahar nikal gayi, cardigan haath mein. Uski chaal normal thi, lekin mann mein Utkarsh ka calm touch abhi bhi ghoom raha tha."
       }
     ]
+  },
+  "scene07Review": {
+    "id": "T07",
+    "title": "The Car Won't Start",
+    "status": "AUTHOR_SUBMITTED_ORIGINAL_IN_CHAT_PLOT_UNDER_REVIEW",
+    "editorialScope": "Non-graphic synopsis saved; no changes to the author's original message or T01–T06 published prose",
+    "supportsScene04": [
+      "B01 twins' goodbye near Tower C",
+      "B04 Babloo notices Meenakshi arrived without her car",
+      "B05 Babloo offers help with vehicle the next day"
+    ],
+    "date": "2026-01-01"
   }
 }
