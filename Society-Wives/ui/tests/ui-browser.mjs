@@ -146,6 +146,7 @@ check(!(await page.locator('#ep03-meenakshi-scene-04').innerText()).includes('Ep
  await page.locator('#ankita-ep03-scene04-rohit .beat-item').first().waitFor();
  check(await page.locator('#ankita-ep03-scene04-rohit .beat-item').count()===7,'Jan 1 Rohit introduction shows exactly seven setup beats');
  check((await page.locator('#ankita-ep03-scene04-rohit').innerText()).includes('closing the same two kurti buttons'),'Jan 1 Rohit intro restores closed buttons');
+ check(!(await page.locator('.planning-panel').innerText()).includes('Original seven scenes preserved verbatim'),'Old Ankita A11–A17 archived draft not rendered as active plot');
  await page.locator('#ankita-ep04-rohit-first-show .beat-item').last().waitFor();
  check(await page.locator('#ankita-ep04-rohit-first-show .beat-item').count()===15,'Jan 2 first show retains 15 distinct plot beats');
  check((await page.locator('#ankita-ep04-rohit-first-show').innerText()).includes('First accidental look'),'Jan 2 initial surprise encounter visible');
@@ -181,7 +182,8 @@ check(!(await page.locator('#ep03-meenakshi-scene-04').innerText()).includes('Ep
  check(await page.locator('.universe-option').count()===2,'Left switcher has exactly Society Wives and Dhika');
  await page.locator('.universal-top-link').click();
  await page.locator('.timeline-event').first().waitFor();
- check(await page.locator('.timeline-event').count()===75,'Society Wives Jan1 displays 75 time-ordered unique source / planning events');
+ check(await page.locator('.timeline-event').count()===79,'Society Wives Jan1 displays 79 time-ordered unique source / planning events');
+ check(await page.locator('#timeline-ep03-ankita-scene04').count()===1,'Rohit Jan1 introduction appears in active calendar');
  check((await page.locator('.timeline-start').innerText()).includes('00:01'),'Universal story clock begins at 00:01 without inventing an encounter');
  check((await page.locator('.timeline-event').first().innerText()).includes('06:20'),'Earliest Jan1 event is sorted to morning 06:20');
  await page.locator('#timeline-e02-meenakshi-M01 summary').click();
