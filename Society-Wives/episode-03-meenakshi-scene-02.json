@@ -236,6 +236,10 @@
     {
       "date": "2026-11-15",
       "change": "Author requested publication of F04 with four agreed edits. F01/F04 approved prose; F02/F03 and F05–F22 remain outline only."
+    },
+    {
+      "date": "2026-11-15",
+      "change": "Author requested publishing hybrid F06: first 3 body paragraphs verbatim from first Grok draft, assistant-completed narrative and framed dialogue italicized. Working version, not final author-approved; original F06 outline preserved."
     }
   ],
   "approvedProse": {
@@ -437,6 +441,176 @@
       "F21",
       "F22"
     ],
-    "fullSceneApproved": false
+    "fullSceneApproved": false,
+    "workingPublished": [
+      "F06"
+    ]
+  },
+  "publishedDrafts": {
+    "F06": {
+      "beat": "F06",
+      "title": "Yash Joins",
+      "status": "AUTHOR_REQUESTED_MIXED_WORKING_VERSION_PUBLISHED_PENDING_FINAL_APPROVAL",
+      "date": "2026-01-01",
+      "time": "Farmhouse evening; exact time not fixed",
+      "location": "Farmhouse dance area",
+      "provenance": {
+        "grokVerbatimBodyParagraphs": 3,
+        "selectedVariant": "First Grok F06 version provided by author",
+        "assistantContinuationItalic": true,
+        "description": "Opening three body paragraphs reproduced verbatim; all remaining narration and dialogue newly edited by assistant and styled in italic; no implicit final author approval."
+      },
+      "paragraphs": [
+        {
+          "type": "narration",
+          "text": "Aditi ne Yash ki taraf haath badhaya. Woh abhi bhi Avi ke dance se thodi saans le rahi thi, burgundy dress uske body se chipka hua tha.",
+          "origin": "GROK_VERBATIM",
+          "italic": false
+        },
+        {
+          "type": "dialogue",
+          "text": "Yash. Tum bhi aa jao.",
+          "speaker": "Aditi",
+          "origin": "GROK_VERBATIM",
+          "italic": false
+        },
+        {
+          "type": "narration",
+          "text": "Yash ne glass side pe rakha aur aage badha. Usne kuch nahi kaha. Seedha Aditi ke peeche aa gaya. Avi abhi bhi saamne tha. Aditi beech mein sandwich ho gayi.",
+          "origin": "GROK_VERBATIM",
+          "italic": false
+        },
+        {
+          "type": "narration",
+          "text": "Aditi ne palatkar Yash ko dekha. Avi ke saath har step pe baat hoti rahi thi; Yash ki khamoshi mein kuch alag tha. Usne abhi tak ek bhi compliment nahi diya tha, phir bhi uski entry ne dance ka rhythm badal diya.",
+          "origin": "ASSISTANT_REVISED",
+          "italic": true
+        },
+        {
+          "type": "dialogue",
+          "text": "Itni der chup the. Ab bina warning ke lead lene aa gaye?",
+          "speaker": "Aditi",
+          "origin": "ASSISTANT_REVISED",
+          "italic": true,
+          "highlight": true
+        },
+        {
+          "type": "dialogue",
+          "text": "Tum dono ka dance dekh raha tha. Kab bolna hai, usse zyada zaroori tha kab aana hai.",
+          "speaker": "Yash",
+          "origin": "ASSISTANT_REVISED",
+          "italic": true,
+          "highlight": true
+        },
+        {
+          "type": "narration",
+          "text": "Yash ne Aditi ki taraf apna haath badhaya. Aditi ne khud use thaama. Agli beat par usne unhe ek saaf turn mein guide kiya; Avi ek step hatkar unke saamne aa gaya. Aditi ko surprise hua ki Yash music mein itna sure-footed hai, aur is baar woh khushi se uski lead follow karne lagi.",
+          "origin": "ASSISTANT_REVISED",
+          "italic": true
+        },
+        {
+          "type": "dialogue",
+          "text": "Hospital mein toh tum itne quiet rehte ho.",
+          "speaker": "Aditi",
+          "origin": "ASSISTANT_REVISED",
+          "italic": true
+        },
+        {
+          "type": "dialogue",
+          "text": "Wahan tum meri senior ho. Yahan tumne khud dance ke liye bulaya hai.",
+          "speaker": "Yash",
+          "origin": "ASSISTANT_REVISED",
+          "italic": true
+        },
+        {
+          "type": "narration",
+          "text": "Aditi ki hansi nikli. Avi ne bhi muskurane ki koshish ki, lekin usne pehli baar notice kiya ki Yash bina badi-badi baaton ke Aditi ko waqai surprise kar raha tha.",
+          "origin": "ASSISTANT_REVISED",
+          "italic": true,
+          "highlight": true
+        },
+        {
+          "type": "dialogue",
+          "text": "Yash, tumne toh apna best move chhupa kar rakha tha.",
+          "speaker": "Avi",
+          "origin": "ASSISTANT_REVISED",
+          "italic": true
+        },
+        {
+          "type": "dialogue",
+          "text": "Sab pehle hi dikha doon toh surprise kis baat ka?",
+          "speaker": "Yash",
+          "origin": "ASSISTANT_REVISED",
+          "italic": true
+        },
+        {
+          "type": "narration",
+          "text": "Music thoda slow hua. Yash ne agle turn ke baad Aditi ko rukne ki jagah di. Woh uski taraf mudhi, ab curious thi ki yeh shaant sa trainee aur kya unexpected kar sakta hai.",
+          "origin": "ASSISTANT_REVISED",
+          "italic": true
+        },
+        {
+          "type": "dialogue",
+          "text": "Ek chhoti si gustakhi poochh sakta hoon?",
+          "speaker": "Yash",
+          "origin": "ASSISTANT_REVISED",
+          "italic": true
+        },
+        {
+          "type": "dialogue",
+          "text": "Pehle batao kaisi.",
+          "speaker": "Aditi",
+          "origin": "ASSISTANT_REVISED",
+          "italic": true
+        },
+        {
+          "type": "narration",
+          "text": "Yash ki nazar ek pal uske kandhe ki taraf gayi. Aditi ne baat samjhi aur halki si muskurahat ke saath sir hila diya.",
+          "origin": "ASSISTANT_REVISED",
+          "italic": true
+        },
+        {
+          "type": "dialogue",
+          "text": "Ek baar. Uske baad dance pe dhyan.",
+          "speaker": "Aditi",
+          "origin": "ASSISTANT_REVISED",
+          "italic": true,
+          "highlight": true
+        },
+        {
+          "type": "narration",
+          "text": "Yash ne uske kandhe par ek halki kiss di aur turant thoda peeche ho gaya. Aditi ek pal ke liye still hui—surprise gesture se kam, Yash ke poochhne aur phir bilkul theek waqt par ruk jaane se zyada tha. Agli beat par woh khud uske saath turn mein aa gayi.",
+          "origin": "ASSISTANT_REVISED",
+          "italic": true
+        },
+        {
+          "type": "dialogue",
+          "text": "Achha, Avi. Tumne ise itna shaant samajh kaise liya?",
+          "speaker": "Aditi",
+          "origin": "ASSISTANT_REVISED",
+          "italic": true
+        },
+        {
+          "type": "dialogue",
+          "text": "Maine samjha tha yeh sirf dekhne aaya hai. Galat nikla.",
+          "speaker": "Avi",
+          "origin": "ASSISTANT_REVISED",
+          "italic": true
+        },
+        {
+          "type": "narration",
+          "text": "Meenakshi sofa se dekh rahi thi. Avi ke har emotion ka chehre par aana aasaan tha; Yash ne toh bolne se pehle poora dance dekh liya tha. Usne Aditi ki surprised smile aur Avi ki badli hui nazar, dono note kiye.",
+          "origin": "ASSISTANT_REVISED",
+          "italic": true
+        },
+        {
+          "type": "narration",
+          "text": "Aditi ne ek aur halka turn liya, phir dono men se thodi door hatkar Meenakshi ki taraf dekha. Uski muskurahat mein agle gaane ka naya khayal tha—abhi invitation nahi, bas ek nazar. Dance ka agla hissa ab kisi aur ko bhi involve kar sakta tha.",
+          "origin": "ASSISTANT_REVISED",
+          "italic": true
+        }
+      ],
+      "endBoundary": "F06 ends with Yash's unexpected active lead, one explicitly welcomed brief shoulder kiss, Avi's reaction and Aditi glancing toward Meenakshi. F07 invitation/Meenakshi dance not written."
+    }
   }
 }
