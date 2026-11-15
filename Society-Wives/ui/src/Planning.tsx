@@ -60,17 +60,17 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
    {currentError&&<p role="alert">SOURCE MISSING: {currentError}</p>}
   </article>
 
-  <article className="episode-plan-card" id="ep03-meenakshi-scene-02"><span className="eyebrow">EP 03 · Scene 02 · F01–F04 APPROVED · F06 TWO-PART GROK CONTINUATION</span><h2>The Farmhouse Evening</h2><p>1 January 2026 · From 17:00 · Meenakshi, Aditi, Avi and Yash</p><p>Author-approved F01–F04 Grok redline is the primary reading. F05–F09 source drafts follow in sequence; F06's second Grok version is its continuation, not an alternative. Original texts and GPT edits are archived separately.</p><strong>Return travel and finishing time are not yet verified.</strong>
-   <section className="source-note" id="farmhouse-author-selected-F01-F09" aria-label="Author-selected F01 to F09 reading">
-    <span className="eyebrow">EP03 · Scene02 · Author-selected primary reading · F01–F09</span>
+  <article className="episode-plan-card" id="ep03-meenakshi-scene-02"><span className="eyebrow">EP 03 · Scene 02 · F01–F04 APPROVED · F10–F14 DRAFTS</span><h2>The Farmhouse Evening</h2><p>1 January 2026 · From 17:00 · Meenakshi, Aditi, Avi and Yash</p><p>F01–F04 author-approved; F05–F12 Grok drafts; F13–F14 author-directed working edits. F06 is two consecutive parts. F11 does not contain verbal permission; Aditi remains present until F15 seating rivalry.</p><strong>Return travel and finishing time are not yet verified.</strong>
+   <section className="source-note" id="farmhouse-author-selected-F01-F14" aria-label="Author-selected F01 to F14 reading">
+    <span className="eyebrow">EP03 · Scene02 · Author-selected primary reading · F01–F14</span>
     <h3>Farmhouse Evening — selected story text</h3>
-    <p><strong>F01–F04:</strong> author-approved Grok compact edits. <strong>F05–F09:</strong> Grok source as submitted, not final prose approval. F06 contains both Grok submissions consecutively as Part 1 and Part 2. Original source and older GPT drafts are preserved separately.</p>
+    <p><strong>F01–F04:</strong> author-approved Grok compact edits. <strong>F05–F12:</strong> Grok source as submitted, not final prose approval. <strong>F13–F14:</strong> author-directed revised working drafts, with original Grok text preserved in a separate archive. F06 Part 2 continues Part 1. F11 has no verbal permission request.</p>
     {authorSelected?<div>{authorSelected.order.map(id=>{const beat=authorSelected.beats[id];return beat?<details key={id} className="episode-outline" id={'author-selected-'+id}>
-       <summary><strong>{id} — {beat.title}</strong> · {beat.status==='AUTHOR_APPROVED_COMPACT_REDLINE'?'Approved compact text':'Grok source draft'}</summary>
+       <summary><strong>{id} — {beat.title}</strong> · {beat.status==='AUTHOR_APPROVED_COMPACT_REDLINE'?'Approved compact text':beat.status==='AUTHOR_DIRECTED_EDITORIAL_DRAFT_PENDING_APPROVAL'?'Edited working draft':'Grok source draft'}</summary>
        <div className="source-scene prose-exact">{beat.parts.map((part,j)=><div key={j}>{beat.parts.length>1&&<h4>{j===0?'F06 · Part 1':'F06 · Part 2 (direct continuation)'}</h4>}{renderGrokRaw(part.raw)}</div>)}</div>
        {id==='F08'&&authorSelected.addenda?.map(a=><details key={a.id} className="episode-outline"><summary>Additional F08 passage · author text preserved</summary><div className="source-scene">{renderGrokRaw(a.raw)}</div></details>)}
       </details>:null})}</div>:<p role="alert">{authorSelectedError||'Loading author-selected farmhouse story…'}</p>}
-    <p className="muted">Original Grok source is archived without rewriting. No F10–F14 prose has been added here.</p>
+    <p className="muted">Grok originals are archived without rewriting. F10–F12 remain original drafts; F13 conversation and F14 departure timing are edited working versions. Aditi's actual exit happens in F15, not F14.</p>
    </section>
    <details className="source-note" id="grok-originals-F01-F09">
     <summary>Archive: read original Grok submissions without the author-approved cuts</summary>
