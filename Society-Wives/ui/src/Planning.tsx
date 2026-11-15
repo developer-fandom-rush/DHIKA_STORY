@@ -4,6 +4,7 @@ const str=(v:unknown)=>typeof v==='string'?v:'';
 type PublishedLine={time?:string|null;kind:'narration'|'dialogue'|'cut';speaker?:string;text:string};
 type AnkitaStage={id:string;title:string;start:string;end:string;approval:string;sequence?:{id:string;time?:string;summary:string;dialogue?:{speaker:string;line:string}[];storyIntent?:string;editorFlags?:string[]}[];beats?:{id:string;summary:string}[];openChoices?:string[];};
 type NarratorStyleRule={status:string;origin:string;appliesTo:string;methods:string[];examplePhrases:string[];useInstructions:string[];sceneTemplate:string[];};
+type AnkitaScene02={scene:string;title:string;status:string;date:string;start:string;end:string;castNames:string[];sequence:{id:string;time:string;heading:string;plot:string;suggestedDialogue?:{speaker:string;line:string}[]}[];lockedDecisions:string[];exclusions:string[];proseStatus:string;nextScene:string;wardrobe:{character:string;look:string;status:string}[];};
 export default function Planning({lead,initialScene}:{lead:string;initialScene?:string|null}){
  const active=leadOrder.includes(lead)?lead:'meenakshi';
  const {data:current,error:currentError}=useData<Plan>('episode-03-meenakshi-scene-01.json');
@@ -13,6 +14,7 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
  const {data:meenaFuture}=useData<Plan>('episode-03-meenakshi-plan.json');
  const {data:ankitaFuture}=useData<Plan>('episode-03-ankita-pending.json');
  const {data:ankitaOpening,error:ankitaOpeningError}=useData<Plan>('episode-03-ankita-a11-scene-01-opening.json');
+ const {data:ankitaScene02,error:ankitaScene02Error}=useData<AnkitaScene02>('episode-03-ankita-scene-02.json');
  const {data:writingStyle,error:writingStyleError}=useData<Plan>('flirting-style.json');
  const {data:shreyaFuture}=useData<Plan>('episode-03-shreya-plan.json');
  useEffect(()=>{
@@ -64,14 +66,19 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
     <article className="source-note" id="ep03-meenakshi-scene-HS-NIGHT"><span className="eyebrow">Future episode seed · 1 January · late night · exact hour TBD</span><h2>Harish &amp; Sunil — Outside Society</h2><p>Only after the others have left: a short reader-only scene outside Gulmohar Heights. The two workers privately consider their hidden attraction and future approach. Female staff remain unaware. This is not Scene 02 prose, and no encounter or outcome has been written.</p><p className="muted">Author-directed placement reserved in the universal timeline; write only in a future episode.</p></article>
     <article id="ep04-meenakshi-handoff"><span className="eyebrow">EP 04 · Reserved continuation</span><h2>Same moment, next episode</h2><p>1 January 2026 · 14:15 onwards</p><p>No continuation prose approved or written. This marker is a handoff, not a generated scene.</p><p className="muted">This continuation will appear here once its outline is written and approved.</p></article></section>}
   {active==='ankita'&&<section className="continuity-cards" id="ankita-ep03-first-block">
-    <article className="episode-plan-card" id="ankita-ep03-a11"><span className="eyebrow">Ankita · EP03 · 1 Jan 2026 · User-directed plot, no prose</span><h2>A11 — Rajeev's Call &amp; Private Afterbeat</h2>
-      <p>About 13:05–13:15 · Ankita at Cyber City; Rajeev at home (exact arrival/time provisional)</p>
+    <article className="episode-plan-card" id="ankita-ep03-a11"><span className="eyebrow">Ankita · EP03 · Scene 01 · 1 Jan 2026 · Plot only</span><h2>Scene 01 — Rajeev's Parcel Call &amp; Private Afterbeat</h2>
+      <p>About 13:05–13:15 · Ankita at Cyber City; Rajeev at home (time provisional)</p>
       {ankitaStages.filter(b=>b.id==='A11').map(b=><div key={b.id} className="beat-list">{b.sequence?.map(q=><div key={q.id} className="beat-item"><span className="eyebrow">{q.time||'Time pending'}</span><h3>{q.id==='A11-CALL'?'A short parcel call':'Rajeev alone · reader-only direction'}</h3><p>{q.summary}</p>{q.dialogue?.map((line,i)=><p key={i}><strong>{line.speaker}:</strong> {line.line}</p>)}{q.storyIntent&&<p className="muted">{q.storyIntent}</p>}</div>)}</div>)}
-      <p className="muted">Continuity: Rajeev has the parcel after P08. The origin of the previously used garment is unverified. Grok's full scene expansion remains unwritten; the fantasy is not Ankita's consent.</p>
+      <p className="muted">A11 source continuity: Rajeev has the parcel after P08; used-garment provenance remains unverified. Private fantasy is reader-only, not Ankita's agreement. Full prose has not been written.</p>
     </article>
-    <article className="episode-plan-card" id="ankita-ep03-scene01-opening"><span className="eyebrow">Ankita · EP03 · Scene 01 opening only · Discussion</span><h2>Vivan, Reyansh, Sana &amp; Aishwarya join Ankita</h2><p>About 13:15 · Cyber City office · Five people together</p>
-      {ankitaStages.filter(b=>b.id==='SCENE01-OPENING').map(b=><div key={b.id} className="beat-list">{b.beats?.map(q=><div key={q.id} className="beat-item"><p>{q.summary}</p></div>)}</div>)}
-      <p className="muted">Sana (24, QA Automation) and Aishwarya (24, HR) were proposed in the cast directory, but not previously on-page in A08. They arrive late because of evening surprise preparations; the funny late-arrival forfeit is an author-directed option. No outing route, vehicle, physical interaction or later scene has been locked.</p>
+    <article className="episode-plan-card" id="ankita-ep03-scene02"><span className="eyebrow">Ankita · EP03 · Scene 02 · 1 Jan 2026 · User-finalized plot, prose pending</span>
+      <h2>{ankitaScene02?.title||'Scene 02 — The Five-Person Stamina Challenge'}</h2>
+      <p>13:15–13:45 · Cyber City IT office · Ankita, Sana, Aishwarya, Vivan and Reyansh</p>
+      <p className="muted">Five-person continuous scene. Scene 01 is Rajeev's A11. Earlier short group opening is archived as superseded, not a separate scene. No photo challenge or transport conclusion.</p>
+      {ankitaScene02&&<><details className="episode-outline"><summary>Party-ready outfits · agreed scene looks</summary><div className="beat-list">{ankitaScene02.wardrobe.map(w=><div className="beat-item" key={w.character}><h3>{w.character}</h3><p>{w.look}</p></div>)}</div></details>
+      <div className="beat-list">{ankitaScene02.sequence.map(q=><div className="beat-item" key={q.id}><span className="eyebrow">{q.time}</span><h3>{q.heading}</h3><p>{q.plot}</p>{q.suggestedDialogue?.map((line,i)=><p key={i}><strong>{line.speaker}:</strong> {line.line}</p>)}</div>)}</div>
+      <p className="muted">Status: {ankitaScene02.status.replace(/_/g,' ')} · {ankitaScene02.proseStatus.replace(/_/g,' ')}. Next: {ankitaScene02.nextScene}</p></>}
+      {ankitaScene02Error&&<p role="alert">Finalized Ankita Scene 02 plot could not load: {ankitaScene02Error}</p>}
     </article>
     {ankitaOpeningError&&<p role="alert">Ankita opening plot source missing: {ankitaOpeningError}</p>}
   </section>}
