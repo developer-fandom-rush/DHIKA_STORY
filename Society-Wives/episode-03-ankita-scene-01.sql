@@ -3,7 +3,7 @@
 -- Source status: DRAFT_FOR_USER_REVIEW, not published to site
 -- SQLite-compatible story storage. SQL script saved in GitHub, not executed against a live DB.
 -- Canon: 2026-01-01; 13:05–13:15; Rajeev socially addressed as Papa/Uncle, NOT actual FIL.
--- Rule: leave every graphical passage as exactly [GRAPHICAL DESCRIPTION REQUIRED]; never automatically fill, tone down or summarize a placeholder.
+-- Rule: leave every graphical passage as the exact canonical graphical-description marker; never automatically fill, tone down or summarize a placeholder.
 -- 2 graphical passage slots in this version, other scene counts may differ as needed.
 
 CREATE TABLE IF NOT EXISTS story_scene_blocks (
