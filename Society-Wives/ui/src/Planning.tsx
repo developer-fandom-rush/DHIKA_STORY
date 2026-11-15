@@ -3,6 +3,7 @@ import { assetUrl, leadOrder, Plan, openPage, titleCase, useData } from './lib';
 const str=(v:unknown)=>typeof v==='string'?v:'';
 type PublishedLine={time?:string|null;kind:'narration'|'dialogue'|'cut';speaker?:string;text:string};
 type FarmhouseF01={title:string;status:string;paragraphs:{type:'dialogue'|'narration';speaker?:string;text:string;highlight?:boolean}[];endBoundary:string;};
+type FarmhouseMixed={title:string;status:string;paragraphs:{type:'dialogue'|'narration';speaker?:string;text:string;highlight?:boolean;italic?:boolean;origin:string}[];endBoundary:string;};
 type AnkitaStage={id:string;title:string;start:string;end:string;approval:string;sequence?:{id:string;time?:string;summary:string;dialogue?:{speaker:string;line:string}[];storyIntent?:string;editorFlags?:string[]}[];beats?:{id:string;summary:string}[];openChoices?:string[];};
 type NarratorStyleRule={status:string;origin:string;appliesTo:string;methods:string[];examplePhrases:string[];useInstructions:string[];sceneTemplate:string[];};
 type AnkitaScene02={scene:string;title:string;status:string;date:string;start:string;end:string;castNames:string[];sequence:{id:string;time:string;heading:string;plot:string;suggestedDialogue?:{speaker:string;line:string}[]}[];lockedDecisions:string[];exclusions:string[];proseStatus:string;nextScene:string;wardrobe:{character:string;look:string;status:string}[];};
@@ -41,6 +42,7 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
  const publishedProse=(Array.isArray(current?.publishedProse)?current.publishedProse:[]) as PublishedLine[];
  const farmhouseF01=(farmhouse?.approvedProse as {F01?:FarmhouseF01}|undefined)?.F01;
  const farmhouseF04=(farmhouse?.approvedProse as {F04?:FarmhouseF01}|undefined)?.F04;
+ const farmhouseF06=(farmhouse?.publishedDrafts as {F06?:FarmhouseMixed}|undefined)?.F06;
  return <main className="page-width">
   <header className="section-intro"><span className="eyebrow">Writers' room · works in progress</span><h1>Episode Planning</h1><p>Follow each character's planned scenes here. The cross-character universal timeline is a separate top-level view.</p></header>
   <button type="button" className="button subtle planning-global-link" onClick={()=>openPage('timeline')}>Open Universal Timeline</button>
@@ -53,7 +55,7 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
    {currentError&&<p role="alert">SOURCE MISSING: {currentError}</p>}
   </article>
 
-  <article className="episode-plan-card" id="ep03-meenakshi-scene-02"><span className="eyebrow">EP 03 · Scene 02 · F01 + F04 APPROVED PROSE · OTHER BEATS PLOT ONLY</span><h2>The Farmhouse Evening</h2><p>1 January 2026 · From 17:00 · Meenakshi, Aditi, Avi and Yash</p><p>Beats F01 and F04 now have author-approved prose. F02–F03 and F05–F22 remain plot-only; the complete encounter is not approved.</p><strong>Return travel and finishing time are not yet verified.</strong>
+  <article className="episode-plan-card" id="ep03-meenakshi-scene-02"><span className="eyebrow">EP 03 · Scene 02 · F01 + F04 APPROVED · F06 PUBLISHED WORKING VERSION</span><h2>The Farmhouse Evening</h2><p>1 January 2026 · From 17:00 · Meenakshi, Aditi, Avi and Yash</p><p>F01 and F04 have author-approved prose. F06 is a published working version: Grok's first 3 paragraphs verbatim, assistant continuation in italics. F02–F03, F05 and F07–F22 are plot-only. Full encounter approval is pending.</p><strong>Return travel and finishing time are not yet verified.</strong>
    {farmhouseF01&&<section className="source-note" id="farmhouse-approved-F01" aria-label="Approved Farmhouse Beat F01">
     <span className="eyebrow">F01 · Approved scene prose</span><h3>{farmhouseF01.title}</h3><p className="muted">1 January · Approximately 5:00 PM · Hospital staff exit</p>
     <div className="source-scene prose-exact">{farmhouseF01.paragraphs.map((line,i)=><p key={i} className={line.type==='dialogue'?'dialogue':''}>{line.speaker&&<strong>{line.speaker}: </strong>}{line.highlight?<strong>{line.type==='dialogue'?'“'+line.text+'”':line.text}</strong>:line.type==='dialogue'?'“'+line.text+'”':line.text}</p>)}</div>
@@ -67,6 +69,15 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
     <p className="muted"><strong>Cut:</strong> Aditi starts dancing solo and invites Avi. Their close dance belongs to F05, still unwritten.</p>
    </section>}
    {farmhouse&&!farmhouseF04&&<p role="alert">Approved F04 prose is missing from the farmhouse source.</p>}
+
+   {farmhouseF06&&<section className="source-note" id="farmhouse-mixed-F06" aria-label="Farmhouse Beat F06 mixed working version">
+    <span className="eyebrow">F06 · Working published draft · Grok opening + italic editorial continuation</span><h3>{farmhouseF06.title}</h3>
+    <p className="muted">First 3 body paragraphs: original Grok text, unedited. Following paragraphs: assistant-authored changes in <em>italics</em>. Speaker names in bold. This is not final author-approved prose.</p>
+    <p className="muted"><strong>Reading gap:</strong> F05 close dance is still pending final author approval; this working F06 follows it in story order.</p>
+    <div className="source-scene prose-exact">{farmhouseF06.paragraphs.map((line,i)=><p key={i} className={line.type==='dialogue'?'dialogue':''}>{line.italic?<em>{line.speaker&&<strong>{line.speaker}: </strong>}{line.highlight?<strong>{line.type==='dialogue'?'“'+line.text+'”':line.text}</strong>:line.type==='dialogue'?'“'+line.text+'”':line.text}</em>:<>{line.speaker&&<strong>{line.speaker}: </strong>}{line.highlight?<strong>{line.type==='dialogue'?'“'+line.text+'”':line.text}</strong>:line.type==='dialogue'?'“'+line.text+'”':line.text}</>}</p>)}</div>
+    <p className="muted"><strong>Cut:</strong> Yash surprises Aditi. Avi and Meenakshi notice the contrast. Meenakshi's invitation and dancing belong to F07.</p>
+   </section>}
+   {farmhouse&&!farmhouseF06&&<p role="alert">Published working F06 is missing from the farmhouse source.</p>}
    {farmhouse?.beats?.length?<details className="episode-outline"><summary>Read {farmhouse.beats.length} planned beats</summary><div className="beat-list">{farmhouse.beats.map((b,i)=><div key={b.id||i} className="beat-item"><span className="eyebrow">{str(b.phase)||b.id||'Plot beat'}</span><h3>{b.title||'Untitled beat'}</h3><p>{str(b.detail)}</p></div>)}</div></details>:<p>{farmhouseError||'Loading farmhouse outline…'}</p>}
   </article>
   <article className="episode-plan-card" id="ep03-meenakshi-scene-03"><span className="eyebrow">EP 03 · Scene 03 · Author notes and scene beats under review</span><h2>The Badminton Bet</h2><p>1 January 2026 · 18:15 proposed · Uday, Utkarsh and Meenakshi</p><p>At a badminton court about five minutes from Gulmohar Heights, the twins renew their morning banter with Meenakshi. Her original car-not-starting and return-ride proposal is preserved as author planning, not locked or finished prose.</p>
