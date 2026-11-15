@@ -182,7 +182,7 @@ check(!(await page.locator('#ep03-meenakshi-scene-04').innerText()).includes('Ep
   await page.locator('#ankita-ep03-scene08 .beat-item').last().waitFor();
   check(await page.locator('#ankita-ep03-scene08 .beat-item').count()===5,'Scene08 has five Rinku setup beats');
   check((await page.locator('#ankita-ep03-scene08').innerText()).includes('CUT BEFORE THE DOOR OPENS'),'Rinku first no-dupatta look must not occur in Scene08');
- check((await page.locator('#ankita-ep03-scene07').innerText()).includes("Aman's scooty"),'Ankita drives Aman's scooty and Aman rides pillion');
+ check((await page.locator('#ankita-ep03-scene07').innerText()).includes("Aman's scooty"),"Ankita drives Aman's scooty and Aman rides pillion");
 
 
  await page.locator('#ankita-ep03-scene04-rohit .beat-item').first().waitFor();
