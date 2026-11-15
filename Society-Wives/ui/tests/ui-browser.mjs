@@ -102,20 +102,19 @@ try {
  check((await page.locator('.continuity-cards').innerText()).includes('13:50–14:15'),'Meenakshi Jan 1 13:50–14:15 cut preserved');
  check((await page.locator('.continuity-cards').innerText()).includes('14:15 onwards'),'Episode 04 exact cutpoint preserved');
  check((await page.locator('.continuity-cards').innerText()).includes('The Farmhouse Evening'),'New Meenakshi Scene 02 appears in Episode 03 Planning');
- await page.locator('#farmhouse-approved-F01 .dialogue').first().waitFor();
- check((await page.locator('#farmhouse-approved-F01').innerText()).includes('Best dena. Excuses mat dena'),'Approved F01 dialogue visible in UI');
- check((await page.locator('#farmhouse-approved-F01 strong').count())>=3,'Important F01 dialogue and reactions are highlighted');
- check(!(await page.locator('#farmhouse-approved-F01').innerText()).includes('Tum dono peeche baithna'),'F01 ends before car seating');
- await page.locator('#farmhouse-approved-F04 .dialogue').first().waitFor();
- check((await page.locator('#farmhouse-approved-F04').innerText()).includes('burgundy mini-dress'),'Aditi F04 entrance visible in UI');
- check((await page.locator('#farmhouse-approved-F04').innerText()).includes('Ab dekhna band karoge, ya dance bhi karoge?'),'Approved F04 dance invitation visible');
- check((await page.locator('#farmhouse-approved-F04 strong').count())>=3,'F04 important dialogue and reactions are highlighted');
- await page.locator('#farmhouse-mixed-F06 .dialogue').first().waitFor();
- check((await page.locator('#farmhouse-mixed-F06').innerText()).includes('Yash. Tum bhi aa jao.'),'F06 working draft shows Grok/assistant provenance');
- check(await page.locator('#farmhouse-mixed-F06 .source-scene > p').count()===22,'F06 has 3 original paragraphs plus 19 assistant edits');
- check(await page.locator('#farmhouse-mixed-F06 .source-scene > p em').count()===19,'F06 assistant paragraphs appear italic in UI');
- check((await page.locator('#farmhouse-mixed-F06').innerText()).includes('not final author-approved prose'),'F06 remains a reviewable draft');
-
+ await page.locator('#author-selected-F01 summary').first().waitFor();
+ check(await page.locator('#farmhouse-author-selected-F01-F09 > div > details').count()===9,'F01-F09 author-selected beat sections available');
+ check((await page.locator('#author-selected-F01').textContent()).includes('Best dena. Excuses mat dena'),'F01 approved text exists');
+ check((await page.locator('#author-selected-F02').textContent()).includes('Pehli dance meri hogi'),'F02 selected compact text exists');
+ check((await page.locator('#author-selected-F03').textContent()).includes('ek glass, ek honest answer'),'F03 approved game rule exists');
+ check((await page.locator('#author-selected-F04').textContent()).includes('Aditi unke beech mein aayi, hips ka natural sway'),'Author-retained F04 line exists');
+ check(!(await page.locator('#author-selected-F04').textContent()).includes('Music chal raha hai. Main dance shuru karti hoon.'),'Removed F04 invitation stays removed from selected reading');
+ check((await page.locator('#author-selected-F05').textContent()).includes('Bas itna hi. Abhi.'),'F05 original text preserved');
+ check((await page.locator('#author-selected-F06').textContent()).includes('F06 · Part 2 (direct continuation)'),'Second Grok F06 part shown inline as continuation');
+ check((await page.locator('#author-selected-F06').textContent()).includes('Music aur tez ho gayi'),'F06 second part exact opening shown');
+ check((await page.locator('#author-selected-F08').textContent()).includes('chotu_avi'),'F08 author addendum saved');
+ check(await page.locator('#grok-originals-F01-F09').count()===1,'Original Grok archive remains separately accessible');
+ check(await page.locator('#farmhouse-editorial-history').count()===1,'Legacy GPT edited text remains separately accessible');
  check((await page.locator('.continuity-cards').innerText()).includes('The Badminton Bet'),'New Meenakshi Scene 03 appears after farmhouse');
  check((await page.locator('.continuity-cards').innerText()).includes('The First Different Look — Babloo'),'Author-approved Babloo encounter appears in the correct Scene 04 position');
  const orderedCards=await page.locator('.continuity-cards .episode-plan-card').evaluateAll(nodes=>nodes.map(n=>n.id));
@@ -128,11 +127,6 @@ check(!(await page.locator('#ep03-meenakshi-scene-04').innerText()).includes('Ep
  
  check((await page.locator('.continuity-warning').innerText()).includes('18:15'),'Provisional badminton timing conflict is surfaced, not silently approved');
  check(await page.locator('#ep03-meenakshi-scene-02 > .episode-outline').count()===1,'Farmhouse beat-by-beat outline is discoverable');
- check((await page.locator('#grok-originals-F01-F09').innerText()).includes('Grok Original'),'Grok original F01-F09 reading section is visible');
- check(await page.locator('#grok-originals-F01-F09 article').count()===9,'All nine original Grok beats are present in the UI');
- check((await page.locator('#grok-original-F05').innerText()).includes('Bas itna hi. Abhi.'),'F05 source draft is intact');
- check((await page.locator('#grok-original-F06').innerText()).includes('Yash ne pehle uski waist pe haath rakha'),'First Grok F06 original retained');
- check((await page.locator('#grok-original-F08').innerText()).includes('chotu_avi'),'Author F08 additional passage retained');
  check(await page.locator('#ep03-meenakshi-scene-03 .author-notes').count()===1,'Author original new scene requirement is retained in planning');
  check(await page.locator('main a').count()===0,'Planning stays inside the app with no raw source links');
  check(await page.locator('#society-wives-author-narrator-instructions').count()===1,'Narrator visual author rules available within Planning');
