@@ -118,5 +118,15 @@
     "Rajeev Scene01 phone call and reader-only afterbeat remain; his subsequent return belongs to a later author-directed episode. He is away during Ankita's Jan1 home arrival and retains the parcel in his own custody.",
     "Scene02 and subsequent authored scenes have their separate active sources. EP03 Scene08 is Ankita's fresh-up, knowledge-separated day recall and Rinku service-doorbell setup; stop at 18:25.",
     "No Gopal/elders follow-up conversation, home parcel handover, family dinner, missing-items inventory or Ankita–Kabir closure on Jan1."
-  ]
+  ],
+  "scene01DraftSql": "Society-Wives/episode-03-ankita-scene-01.sql",
+  "scene01DraftStatus": "DRAFT_FOR_USER_REVIEW_NOT_PUBLISHED",
+  "scene01GraphicalSlots": 2,
+  "scene01WriterRule": {
+    "source": "2026-11-15 direct user correction",
+    "rule": "When one or more graphical descriptions are required, leave a separate placeholder at EACH location; write exactly [GRAPHICAL DESCRIPTION REQUIRED] and continue normal story after it. Never convert a requested graphical sequence into non-graphical prose, never fill the placeholder, and do not add explanatory writing instructions inside the story.",
+    "placeholder": "[GRAPHICAL DESCRIPTION REQUIRED]",
+    "numberOfSlots": "Scene-dependent; no fixed limit, avoid artificially merging distinct graphical beats.",
+    "publication": "No webpage or canonical approved status until user reviews final scene."
+  }
 }
