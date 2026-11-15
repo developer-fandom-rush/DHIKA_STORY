@@ -240,6 +240,10 @@
     {
       "date": "2026-11-15",
       "change": "Author requested publishing hybrid F06: first 3 body paragraphs verbatim from first Grok draft, assistant-completed narrative and framed dialogue italicized. Working version, not final author-approved; original F06 outline preserved."
+    },
+    {
+      "date": "2026-11-15",
+      "change": "Author requested F07–F09 revision and UI publication. Published corrected working prose: F07 Meenakshi joins; F08 crossed attention + Aditi-initiated surprise with clear blocking; F09 explicit dress boundary. Original 22 plot beats preserved."
     }
   ],
   "approvedProse": {
@@ -443,7 +447,10 @@
     ],
     "fullSceneApproved": false,
     "workingPublished": [
-      "F06"
+      "F06",
+      "F07",
+      "F08",
+      "F09"
     ]
   },
   "publishedDrafts": {
@@ -611,6 +618,233 @@
         }
       ],
       "endBoundary": "F06 ends with Yash's unexpected active lead, one explicitly welcomed brief shoulder kiss, Avi's reaction and Aditi glancing toward Meenakshi. F07 invitation/Meenakshi dance not written."
+    },
+    "F07": {
+      "beat": "F07",
+      "title": "Meenakshi Joins Later",
+      "paragraphs": [
+        {
+          "type": "narration",
+          "text": "Aditi ne Meenakshi ki taraf dekha, jo abhi bhi sofe par baithi thi.",
+          "origin": "ASSISTANT_REVISED_USER_SUBMITTED_DRAFT"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Aditi",
+          "text": "Meena, tum bhi aa jao. Sirf dekhte rehna nahi.",
+          "origin": "ASSISTANT_REVISED_USER_SUBMITTED_DRAFT"
+        },
+        {
+          "type": "narration",
+          "text": "Meenakshi ne apna glass side par rakha. Ek pal socha, phir uth khadi hui. Plum kurta uski fitted waist par set tha, cream palazzo neeche soft flow kar raha tha. Usne grey cardigan utaar kar sofa ke paas rakh diya. Dance floor ki taraf badhte hue uski measured chaal mein kurte ka fabric uske rounded hip silhouette ke saath halka sa move hua.",
+          "origin": "ASSISTANT_REVISED_USER_SUBMITTED_DRAFT",
+          "highlight": true
+        },
+        {
+          "type": "narration",
+          "text": "Avi ki nazar Meenakshi ke gait aur kurte ki shifting silhouette par gayi. Yash ne alag cheez notice ki—hourglass waist, steps ka balance aur uske calm expression mein music ke saath aata chhota sa badlav.",
+          "origin": "ASSISTANT_REVISED_USER_SUBMITTED_DRAFT"
+        },
+        {
+          "type": "narration",
+          "text": "Aditi ne dono ki nazar ka shift pakad liya aur hansi.",
+          "origin": "ASSISTANT_REVISED_USER_SUBMITTED_DRAFT"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Aditi",
+          "text": "Achha, ab attention share ho rahi hai?",
+          "origin": "ASSISTANT_REVISED_USER_SUBMITTED_DRAFT",
+          "highlight": true
+        },
+        {
+          "type": "narration",
+          "text": "Meenakshi unke paas pahunchi. Aditi ne uska haath thaama aur ek slow turn guide kiya. Meenakshi ne apni rhythm mein steps milaye; jaldi nahin ki. Avi aur Yash unke saamne jagah banate hue dance mein saath rahe.",
+          "origin": "ASSISTANT_REVISED_USER_SUBMITTED_DRAFT"
+        },
+        {
+          "type": "narration",
+          "text": "Aditi ki hansi ab bhi sabse khulkar sunai de rahi thi. Meenakshi ko bhi is relaxed atmosphere mein shamil hona achha lag raha tha; woh ab sirf audience nahi thi.",
+          "origin": "ASSISTANT_REVISED_USER_SUBMITTED_DRAFT"
+        }
+      ],
+      "endBoundary": "Meenakshi joins by her own decision. Distinct Avi/Yash observations established; crossed-attention conversation begins in F08.",
+      "status": "AUTHOR_REQUESTED_EDITED_WORKING_PROSE_PUBLISHED_PENDING_FINAL_APPROVAL",
+      "date": "2026-01-01",
+      "time": "Farmhouse evening; exact time pending",
+      "location": "Farmhouse · Dance area",
+      "source": "Author's submitted F07–F09 Grok prose, revised for continuity, physical staging and dialogue framing. F08 includes a non-graphic author-suggested surprise moment before the F09 boundary beat.",
+      "approvalNotes": "Author instructed: fix and update UI. Published for review, not final prose approval."
+    },
+    "F08": {
+      "beat": "F08",
+      "title": "Crossed Attention",
+      "paragraphs": [
+        {
+          "type": "narration",
+          "text": "Dance chalta raha. Aditi ne Avi ki taraf dekha, jiski nazar ab kabhi uspar toh kabhi Meenakshi ki taraf ja rahi thi.",
+          "origin": "ASSISTANT_REVISED_USER_SUBMITTED_DRAFT"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Aditi",
+          "text": "Avi, tumhari nazar ab Meena par bhi ja rahi hai. Pehle poori meri taraf thi.",
+          "origin": "ASSISTANT_REVISED_USER_SUBMITTED_DRAFT"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Avi",
+          "text": "Dono dance kar rahi ho. Dekhne ko toh dono mil rahi ho.",
+          "origin": "ASSISTANT_REVISED_USER_SUBMITTED_DRAFT"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Aditi",
+          "text": "Dono ko dekh rahe ho, ya compare kar rahe ho?",
+          "origin": "ASSISTANT_REVISED_USER_SUBMITTED_DRAFT",
+          "highlight": true
+        },
+        {
+          "type": "narration",
+          "text": "Avi ek pal ke liye atak gaya. Meenakshi ne baat suni aur uski taraf dekha.",
+          "origin": "ASSISTANT_REVISED_USER_SUBMITTED_DRAFT"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Meenakshi",
+          "text": "Compare karne ki zaroorat nahi. Main yahan dance karne aayi hoon, judge hone nahi.",
+          "origin": "ASSISTANT_REVISED_USER_SUBMITTED_DRAFT",
+          "highlight": true
+        },
+        {
+          "type": "narration",
+          "text": "Yash Meenakshi ke paas aaya, magar usne baat dance ki jagah uske mood se shuru ki.",
+          "origin": "ASSISTANT_REVISED_USER_SUBMITTED_DRAFT"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Yash",
+          "text": "Hospital mein aapko itna relaxed kabhi nahi dekha. Aaj kaunsa version asli hai?",
+          "origin": "ASSISTANT_REVISED_USER_SUBMITTED_DRAFT"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Meenakshi",
+          "text": "Dono. Kaam ke waqt strict rehna padta hai. Har waqt nahi.",
+          "origin": "ASSISTANT_REVISED_USER_SUBMITTED_DRAFT"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Yash",
+          "text": "Achha hai. Phir aaj mujhe ek nayi Meenakshi se milne ka mauka mila.",
+          "origin": "ASSISTANT_REVISED_USER_SUBMITTED_DRAFT"
+        },
+        {
+          "type": "narration",
+          "text": "Meenakshi ne halki si smile di. Woh apne jawab se zyada Yash ke sawaal ki sincerity par surprised thi. Avi ne dono ko baat karte dekha; Aditi ki nazar us par laut aayi.",
+          "origin": "ASSISTANT_REVISED_USER_SUBMITTED_DRAFT"
+        },
+        {
+          "type": "narration",
+          "text": "Music ke agle phrase mein Aditi ne Avi ka haath khud pakda aur turn karte hue uske saamne se uske paas aa gayi. Ek pal ke liye usne use apni taraf guide kiya; Avi itni sudden closeness expect nahi kar raha tha. Uska step ruk gaya.",
+          "origin": "ASSISTANT_REVISED_USER_SUBMITTED_DRAFT",
+          "highlight": true
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Aditi",
+          "text": "Abhi tak toh bade confidently jawab de rahe the. Ab itne chup kyun ho?",
+          "origin": "ASSISTANT_REVISED_USER_SUBMITTED_DRAFT",
+          "highlight": true
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Avi",
+          "text": "Tumne surprise kar diya.",
+          "origin": "ASSISTANT_REVISED_USER_SUBMITTED_DRAFT"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Aditi",
+          "text": "Achha. Toh aaj ka ek surprise mera bhi sahi.",
+          "origin": "ASSISTANT_REVISED_USER_SUBMITTED_DRAFT"
+        },
+        {
+          "type": "narration",
+          "text": "Aditi ne agle beat par khud distance badha di aur phir se dance mein aa gayi. Avi ke chehre ki jhijhak dekh kar Yash muskura diya. Meenakshi ne bhi woh chhota sa exchange notice kiya: Aditi ab bhi apni marzi se dance ka rhythm aur proximity decide kar rahi thi.",
+          "origin": "ASSISTANT_REVISED_USER_SUBMITTED_DRAFT"
+        },
+        {
+          "type": "narration",
+          "text": "Chaaron ke beech attention badal rahi thi, lekin kisi ko bhi us badlav ka seedha naam dene ki jaldi nahi thi.",
+          "origin": "ASSISTANT_REVISED_USER_SUBMITTED_DRAFT"
+        }
+      ],
+      "endBoundary": "Aditi initiates a surprising brief close dance turn with Avi; positions and restored distance remain clear. F09 is a separate boundary incident.",
+      "status": "AUTHOR_REQUESTED_EDITED_WORKING_PROSE_PUBLISHED_PENDING_FINAL_APPROVAL",
+      "date": "2026-01-01",
+      "time": "Farmhouse evening; exact time pending",
+      "location": "Farmhouse · Dance area",
+      "source": "Author's submitted F07–F09 Grok prose, revised for continuity, physical staging and dialogue framing. F08 includes a non-graphic author-suggested surprise moment before the F09 boundary beat.",
+      "approvalNotes": "Author instructed: fix and update UI. Published for review, not final prose approval."
+    },
+    "F09": {
+      "beat": "F09",
+      "title": "Aditi's Dress and Boundaries",
+      "paragraphs": [
+        {
+          "type": "narration",
+          "text": "Aditi ne agla gaana bhi khud lead kiya. Ek turn ke baad Avi ne uski burgundy mini-dress ki taraf dekha.",
+          "origin": "ASSISTANT_REVISED_USER_SUBMITTED_DRAFT"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Avi",
+          "text": "Burgundy dress mein tumhari styling waqai standout kar rahi hai. Dance ke saath fabric bhi alag tarah move karta hai.",
+          "origin": "ASSISTANT_REVISED_USER_SUBMITTED_DRAFT"
+        },
+        {
+          "type": "narration",
+          "text": "Aditi ne smile ki, lekin agle hi step par Avi ki nazar dress ke hem se neeche ek aisi angle dhoondhne lagi jo ek normal compliment se alag thi. Use kuch nazar nahi aaya. Aditi ne foran notice kiya aur ruk gayi.",
+          "origin": "ASSISTANT_REVISED_USER_SUBMITTED_DRAFT"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Aditi",
+          "text": "Neeche mat dekho. Jo dikh raha hai, wahi hai. Jo nahi dikh raha, woh tumhare liye nahi hai.",
+          "origin": "ASSISTANT_REVISED_USER_SUBMITTED_DRAFT",
+          "highlight": true
+        },
+        {
+          "type": "narration",
+          "text": "Avi ne turant nazar utha li aur ek step peeche hua.",
+          "origin": "ASSISTANT_REVISED_USER_SUBMITTED_DRAFT"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Avi",
+          "text": "Sorry. Galat tha.",
+          "origin": "ASSISTANT_REVISED_USER_SUBMITTED_DRAFT"
+        },
+        {
+          "type": "narration",
+          "text": "Yash chup raha. Meenakshi ne bhi Aditi ko dekha. Woh samajh gayi thi ki dance mein Aditi ka kisi ko paas bulana aur uski personal boundary cross karna alag baatein hain.",
+          "origin": "ASSISTANT_REVISED_USER_SUBMITTED_DRAFT",
+          "highlight": true
+        },
+        {
+          "type": "narration",
+          "text": "Aditi ne ek pal baad phir se music pakda. Is baar Avi ne distance banaye rakha. Aditi ne apne steps se shaam ka mood wapas set kiya—bina apni baat wapas liye.",
+          "origin": "ASSISTANT_REVISED_USER_SUBMITTED_DRAFT"
+        }
+      ],
+      "endBoundary": "F09 boundary clearly asserted and respected. F10 photograph idea not yet written.",
+      "status": "AUTHOR_REQUESTED_EDITED_WORKING_PROSE_PUBLISHED_PENDING_FINAL_APPROVAL",
+      "date": "2026-01-01",
+      "time": "Farmhouse evening; exact time pending",
+      "location": "Farmhouse · Dance area",
+      "source": "Author's submitted F07–F09 Grok prose, revised for continuity, physical staging and dialogue framing. F08 includes a non-graphic author-suggested surprise moment before the F09 boundary beat.",
+      "approvalNotes": "Author instructed: fix and update UI. Published for review, not final prose approval."
     }
   }
 }
