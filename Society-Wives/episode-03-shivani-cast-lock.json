@@ -72,5 +72,18 @@
     "Deepu is the Society Chotu, not the College/Office Chotu or Office Twins.",
     "Do not create EP03 encounters or prose from this cast-only lock."
   ],
-  "nextWork": "Discuss Shivani Episode03 first scene after D01; no plot scene yet approved and UI must not imply otherwise."
+  "nextWork": "Scene planning starts beyond established prologue routine gestures; agree on meaningful adult character reactions and natural stakes, not recycled hand/arm contact.",
+  "prologueBaselineReference": {
+    "source": "episode-01.json",
+    "sourceScene": "S07",
+    "status": "AUTHOR_DIRECTED_RETROSPECTIVE_BASELINE_LOCK_2026_11_15",
+    "establishedPreviously": [
+      "Harsh–Nandini: playful sleeve/forearm tug",
+      "Laksh–Ritika: shoulder/upper-arm guidance",
+      "Shivani–Harsh: forearm/stage-position assistance",
+      "Arjun–Pooja: incidental hand contact during file handover",
+      "Arjun–Kriti: elbow support during box handling"
+    ],
+    "episode03Difference": "All five above are prior normalities rather than Episode 03 novel tension. No explicit new Episode 03 contact or reciprocal attraction has yet been canon-locked."
+  }
 }
