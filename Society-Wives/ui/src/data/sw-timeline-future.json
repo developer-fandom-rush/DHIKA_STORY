@@ -63,7 +63,7 @@
       "kind": "planned",
       "state": "plot-preserved-episode-open",
       "status": "Jan2 office plot preserved · episode number TBD after Rinku",
-      "source": "episode-04-ankita-rohit-first-show.json",
+      "source": "ankita-rohit-jan02-future-office.json",
       "reader": {
         "type": "sw-plan",
         "character": "ankita",
@@ -191,7 +191,7 @@
       "kind": "planned",
       "state": "plot-preserved-episode-open",
       "status": "Jan2 office plot preserved · episode number TBD after Rinku",
-      "source": "episode-04-ankita-rohit-first-show.json",
+      "source": "ankita-rohit-jan02-future-office.json",
       "reader": {
         "type": "sw-plan",
         "character": "ankita",
