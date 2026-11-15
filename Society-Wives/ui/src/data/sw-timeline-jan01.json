@@ -2722,7 +2722,7 @@
       "timeLabel": "17:00 · provisional",
       "universe": "sw",
       "title": "The Farmhouse Evening — Four Adults, Shifting Attention",
-      "subtitle": "F04 author-retained line and approved cuts; F06 second text continues first; F10-F22 still plot-only",
+      "subtitle": "F11 no verbal ask; F13 photo conversation; F14 Aditi awaits F15 seating and sober driver",
       "lead": "Meenakshi",
       "characters": [
         "Meenakshi"
@@ -2732,7 +2732,7 @@
       "scene": "02",
       "kind": "planned",
       "state": "plot",
-      "status": "F01-F04 compact Grok approved; F05-F09 source drafts with continuous F06 Part 2",
+      "status": "F01–F04 approved; F05–F12 Grok drafts; F13–F14 edited working",
       "source": "episode-03-meenakshi-scene-02.json",
       "reader": {
         "type": "sw-plan",
