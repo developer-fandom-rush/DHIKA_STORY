@@ -2955,10 +2955,10 @@
       "date": "2026-01-01",
       "sort": "17:20",
       "start": "17:20",
-      "end": "17:45",
-      "timeLabel": "17:20–17:45 (proposed)",
+      "end": "17:50",
+      "timeLabel": "17:20–17:50 (proposed)",
       "universe": "sw",
-      "title": "Scene 07 — Twins Pickup and Gopal's Changed Look",
+      "title": "Scene 07 — The Unexpected Hold (Karan, Aman & Ankita)",
       "lead": "Ankita",
       "characters": [
         "Ankita",
@@ -2975,7 +2975,7 @@
       "scene": "07",
       "kind": "planned",
       "state": "plot-review",
-      "status": "User-directed revised plot · no prose",
+      "status": "User-selected plot for UI · prose pending",
       "source": "episode-03-ankita-scene-07-twins-pickup-homecoming.json",
       "reader": {
         "type": "sw-plan",
@@ -2983,12 +2983,14 @@
         "scene": "07"
       },
       "flags": [
-        "Replaces old colleague-drop exit",
-        "Karan and Aman are Kabir's younger brothers (devars)",
-        "Pickup 2 minutes, drive 10 minutes proposed",
-        "Gopal's parcel knowledge remains reader-only"
+        "Two separate two-wheelers: Karan bike, Aman scooty",
+        "Ankita drives Aman's scooty; Aman pillion, Karan separate",
+        "Ankita corrects unexpected waist-to-stomach grip; consent not inferred",
+        "Karan's jealousy is speculation, not witnessed detail",
+        "Gopal parcel knowledge reader-only",
+        "Home before 18:00; plot only"
       ],
-      "detail": "Ankita turns down Vivan/Reyansh drop; friends take photo, Karan/Aman arrive in two minutes, Ankita drives with both in rear seats, Gopal's changed gaze precedes home arrival before 18:00. Four friends remain celebrating."
+      "detail": "Party exit and group photo; Karan arrives by bike, Aman by scooty; Ankita drives Aman's scooty with Aman pillion. His clothed balancing grip shifts from waist toward stomach and Ankita redirects his hand; Karan notices only subsequent silence and privately wonders. Gopal's changed look at the gate; home before 18:00, no parcel reveal. Prose not written."
     },
     {
       "id": "e03-meenakshi-03",
