@@ -9,7 +9,7 @@
   "status": "AUTHOR_DIRECTED_PLOTTING_NOT_APPROVED_PROSE",
   "publicationMeaning": "Active EP03 Scene01 Rajeev phone call and reader-only private afterbeat are retained; all discarded later home/parcel proposals are excluded and not authority for any future scene.",
   "sourceCanon": [
-    "Episode 02 A04 morning: Rajeev is a socially addressed older household associate, NOT Ankita's actual father-in-law; private admiration/unsolicited compliment happened at breakfast and Ankita stopped the unfinished remark.",
+    "Episode 02 A04 morning: Rajeev (socially addressed as Uncle) is NOT an actual father-in-law. Ankita and Kabir brought him from the roadside and invited him to live with them after marriage. A04 'Please stop, Uncle. We won't discuss it. Bas.' refers to that personal history only, never to a romantic/sexual implication.",
     "Episode 02 P08 12:30–12:50: Rajeev possesses damaged personal parcel (one remaining clothing set and adult personal item); he removed none of the six missing sets; left committee for home after 12:50.",
     "Episode 02 A07: Gopal was told not to hand over Ankita's personal parcel without confirming with her.",
     "Episode 02 A08 08:50–09:20: Ankita already interacted with Vivan and Reyansh, Priya and Nisha. Sana/Aishwarya were proposed roster only, not on-page.",
@@ -37,15 +37,15 @@
           "id": "A11-CALL",
           "time": "13:05–13:07 target",
           "pov": "Ankita / Rajeev over phone",
-          "summary": "Ankita notices the delayed parcel notification, asks Rajeev. Rajeev confirms he has the parcel and will keep it safely at home for her return. Keep phone exchange to one or two short lines; no 15-minute call.",
+          "summary": "Ankita sees delayed parcel notice at Cyber City and calls Rajeev, socially addressed 'Rajeev Uncle'. The conversation is brief and mundane; exact user-revised dialogue preserved.",
           "dialogue": [
             {
               "speaker": "Ankita",
-              "line": "Papa, courier ka notification aaya. Gopal ne kisko de diya?"
+              "line": "Rajeev Uncle, courier ka notification aaya. Gopal ne kisko de diya?"
             },
             {
               "speaker": "Rajeev",
-              "line": "Mere paas aa gaya hai beta. Main ghar par rakh deta hoon."
+              "line": "Mere paas aa gaya hai. Main ghar pe rakh deta hoon."
             }
           ],
           "editorFlags": []
@@ -54,14 +54,15 @@
           "id": "A11-RAJEEV-POV",
           "time": "13:08–13:15 target",
           "pov": "Rajeev reader-only",
-          "summary": "After the phone call, Rajeev privately revisits Ankita's parcel and the adult personal item still inside it. User directs him to take the item into a private bathroom, have the parcel set before him, and experience a secret fantasy about Ankita. A previously used undergarment is mentioned as part of the desired beat, but its source/ownership and physical presence have NOT been established. Grok will expand this later; retain only a non-graphic action/interest skeleton here.",
+          "summary": "User's exact private afterbeat, fantasy, parcel handling and closing actions have been saved verbatim and integrated after assistant-authored dialogue detail in the Scene01 SQL draft. Do not rewrite, dilute or add to the author's source.",
           "storyIntent": "As with the early Dhika Uncle setup: reader learns private interest and an actual off-screen boundary-crossing action; Ankita knows nothing of it. This is his unilateral fantasy, not mutual interest.",
-          "nonCanonDetail": "No specific explicit sexual behavior, ownership of a used undergarment, damage to items or final inventory outcome is asserted in this planning record.",
+          "nonCanonDetail": "No extra missing set, unrelated used undergarment, later parcel handover or a real encounter with Ankita has been established. The user's source explicitly depicts a unilateral private fantasy and item handling.",
           "editorFlags": [
-            "Personal items used without consent are a privacy violation, not flirtation or reciprocal consent.",
-            "The 'used undergarment' is NOT accounted for by P08 inventory. Grok cannot invent it in the box or assume it belonged to Ankita without author approval.",
-            "The parcel remains in Rajeev's own custody when Ankita returns. No later handover or inspection occurs on Jan1; preserve original P08 inventory.",
-            "Other elder men's private action beats may be scheduled in later episodes when their characters appear; do not fabricate them now."
+            "Rajeev's private fantasy is entirely unilateral. It does not establish Ankita's participation or consent.",
+            "User-authored scene explicitly involves handling a remaining unused clothing set, then returning it to the box; the item count stays locked at one set plus personal item and manual.",
+            "Do not introduce an additional 'previously used' garment; that was from a superseded idea, not the current submitted scene.",
+            "Rajeev retains custody of the parcel through the end of 1 January; no Jan1 handover or inspection by Ankita.",
+            "The A04 interruption is about Rajeev's roadside-to-home history, not a reaction to erotic interest."
           ]
         }
       ],
@@ -120,13 +121,18 @@
     "No Gopal/elders follow-up conversation, home parcel handover, family dinner, missing-items inventory or Ankita–Kabir closure on Jan1."
   ],
   "scene01DraftSql": "Society-Wives/episode-03-ankita-scene-01.sql",
-  "scene01DraftStatus": "DRAFT_FOR_USER_REVIEW_NOT_PUBLISHED",
-  "scene01GraphicalSlots": 2,
+  "scene01DraftStatus": "USER_AUTHORED_GRAPHIC_SEGMENTS_SAVED_AS_IS_ASSISTANT_DIALOGUE_ENRICHED_DRAFT_NOT_UI_PUBLISHED",
+  "scene01GraphicalSlots": 0,
   "scene01WriterRule": {
     "source": "2026-11-15 direct user correction",
     "rule": "When one or more graphical descriptions are required, leave a separate placeholder at EACH location; write exactly [GRAPHICAL DESCRIPTION REQUIRED] and continue normal story after it. Never convert a requested graphical sequence into non-graphical prose, never fill the placeholder, and do not add explanatory writing instructions inside the story.",
     "placeholder": "[GRAPHICAL DESCRIPTION REQUIRED]",
     "numberOfSlots": "Scene-dependent; no fixed limit, avoid artificially merging distinct graphical beats.",
-    "publication": "No webpage or canonical approved status until user reviews final scene."
-  }
+    "publication": "No webpage or canonical approved status until user reviews final scene.",
+    "currentSceneException": "Scene01 graphical/action/fantasy segments were already supplied by the user and saved verbatim. Therefore placeholders for those beats were replaced with user-authored text only; new scenes continue the marker rule wherever content is not yet supplied."
+  },
+  "scene01ResolvedGraphicSlots": 2,
+  "scene01UserAuthoredVerbatim": "Society-Wives/episode-03-ankita-scene-01-user-verbatim.md",
+  "scene01CombinedSql": "Society-Wives/episode-03-ankita-scene-01.sql",
+  "scene01HistoryCorrection": "A04 breakfast interruption 'Please stop, Uncle. We won't discuss it. Bas.' refers to the couple's history of bringing Rajeev from the roadside and inviting him to live with them after marriage; it is NOT a reply about a romantic/sexual invitation, and no implication about romantic consent should be drawn from it."
 }
