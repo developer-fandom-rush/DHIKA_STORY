@@ -188,6 +188,10 @@
     {
       "date": "2026-11-15",
       "change": "Merged updated author T07 bike-start passage with unchanged original car/seat setup, creating non-graphic reader version. Original T07 remains archived verbatim. No changes to T01–T06."
+    },
+    {
+      "date": "2026-11-15",
+      "change": "At author's request restored exact author text: original car/seat T07 until bike-start; replaced rest with revised user-supplied bike passage verbatim, without non-graphic rewriting. Previous editorial version archived."
     }
   ],
   "authorRequirement": {
@@ -235,7 +239,7 @@
     "title": "The Badminton Bet",
     "date": "2026-01-01",
     "start": "18:15",
-    "status": "T01_T06_CORRECTED_T07_MERGED_NON_GRAPHIC_EDITORIAL_DRAFT",
+    "status": "T01_T06_CORRECTED_T07_USER_VERBATIM_MERGE_UNMODIFIED",
     "source": "Author supplied T01–T03 and T04–T06; six tightly scoped continuity/dialogue corrections total; preserved T04–T06 originals separately; all T01–T06 prose is author-review, not locked canon",
     "corrections": [
       {
@@ -308,8 +312,8 @@
       },
       {
         "id": "T07",
-        "title": "The Car Won't Start — The Ride Home",
-        "raw": "Meenakshi court se apni car tak pahunchi. Cardigan haath mein tha. Usne driver seat pe baith ke key ghumayi. Engine ne awaaz di lekin start nahi hua. Dusri baar try kiya. Phir bhi nahi.\n\n**Meenakshi:** “Yeh kya ho gaya…”\n\nUday aur Utkarsh peeche aa gaye.\n\n**Uday:** “Start nahi ho rahi?”\n\n**Meenakshi:** “Nahi. Do baar try kar liya.”\n\nUtkarsh ne bonnet ki taraf dekha lekin kuch nahi kaha. Dono ne ek doosre ko dekha.\n\n**Uday:** “Ma’am, society toh paas hai. Bike se chalein?”\n\nMeenakshi ne unki taraf dekha. Bike pe teeno.\n\n**Meenakshi:** “Main beech mein baithun? Kurta-palazzo mein?”\n\n**Utkarsh:** “Paanch minute ki baat hai. Aap beech mein safe rahengi.”\n\n**Uday:** “Haan. Main chalaunga. Utkarsh peeche.”\n\nMeenakshi thodi der ruki. Koi aur option nahi tha. Usne cardigan kandhe par daala aur bike ki taraf badhi.\n\n**Uday:** “Main drive karunga.”\n\n**Utkarsh:** “Tum hamesha aage baithte ho.”\n\n**Meenakshi:** “Jaldi decide karo. Main beech mein baith rahi hoon.”\n\nUday handle pe baith gaya. Meenakshi uske peeche aayi. Utkarsh sabse peeche. Tight fit tha.\n\nBike chal padi. Meenakshi Uday ke peeche baithi thi aur Utkarsh sabse peeche. Jagah kam thi. Usne Uday ke shoulders pakde, aur road ke har chhote jhatke par apna balance sambhalne ki koshish ki.\n\n**Uday:** “Ma’am, haath tight rakhna. Road theek nahi hai.”\n\n**Meenakshi:** “Theek hai.”\n\nUtkarsh bhi bilkul paas baitha tha. Meenakshi ko ekdam ehsaas hua ki yeh arrangement jitna aasaan sunne mein laga tha, utna tha nahi. Woh seedhi baithne ki koshish karti rahi, lekin uneven road par baar-baar posture badalna pad raha tha.\n\nPehla speedbreaker aaya. Bike halki si uchhli. Meenakshi ne Uday ke shoulders aur mazbooti se pakad liye. Utkarsh ne bhi apna balance sambhala. Kuch lamhon ke liye teeno chup rahe.\n\n**Meenakshi** (andar se): Yeh… bahut close hai. Paanch minute ka safar itna lamba kyun lag raha hai?\n\nDusra speedbreaker aaya. Ek pal ke liye Meenakshi ka sar peeche Utkarsh ke shoulder ki taraf jhuka. Usne turant khud ko seedha kiya. Uday ka dhyaan sadak par tha; Utkarsh ne bhi kuch nahi kaha.\n\nMeenakshi ko society ka gate dikha toh usne dheere se saans chhodi. Bike ruki. Woh saavdhani se utri, cardigan sambhala aur gate ki taraf badhi. Uske pair kuch bhaari lag rahe the, aur woh safar ka ajeeb-sa awkwardness abhi bhi mehsoos kar rahi thi."
+        "title": "The Car Won’t Start",
+        "raw": "Meenakshi court se apni car tak pahunchi. Cardigan haath mein tha. Usne driver seat pe baith ke key ghumayi. Engine ne awaaz di lekin start nahi hua. Dusri baar try kiya. Phir bhi nahi.\n\n**Meenakshi:** “Yeh kya ho gaya…”\n\nUday aur Utkarsh peeche aa gaye.\n\n**Uday:** “Start nahi ho rahi?”\n\n**Meenakshi:** “Nahi. Do baar try kar liya.”\n\nUtkarsh ne bonnet ki taraf dekha lekin kuch nahi kaha. Dono ne ek doosre ko dekha.\n\n**Uday:** “Ma’am, society toh paas hai. Bike se chalein?”\n\nMeenakshi ne unki taraf dekha. Bike pe teeno.\n\n**Meenakshi:** “Main beech mein baithun? Kurta-palazzo mein?”\n\n**Utkarsh:** “Paanch minute ki baat hai. Aap beech mein safe rahengi.”\n\n**Uday:** “Haan. Main chalaunga. Utkarsh peeche.”\n\nMeenakshi thodi der ruki. Koi aur option nahi tha. Usne cardigan side pe rakha aur bike ki taraf badhi.\n\n**Uday:** “Main drive karunga.”\n\n**Utkarsh:** “Tum hamesha aage baithte ho.”\n\n**Meenakshi:** “Jaldi decide karo. Main beech mein baith rahi hoon.”\n\nUday handle pe baith gaya. Meenakshi uske peeche aayi. Utkarsh sabse peeche. Tight fit tha.\n\nBike chal padi. Meenakshi Uday ke peeche baithi thi, Utkarsh sabse peeche. Uske haath Uday ke shoulders pe the. Kurta ke through uske breasts Uday ki back pe press ho rahe the — soft aur warm. Har thodi si movement pe pressure change ho raha tha.\n\n**Uday:** “Ma’am, haath tight rakhna. Road theek nahi hai.”\n\n**Meenakshi:** “Theek hai.”\n\nPeeche se Utkarsh ka chest uski poori back se chipka hua tha. Uske haath pehle waist pe the, phir dheere se stomach ki taraf gaye. Thodi der baad fingers kurta ke andar slip ho gayi. Garam skin pe. Meenakshi ne feel kiya. Usne haath nahi hataya.\n\nEk speedbreaker aaya. Bike upar uthi. Meenakshi ka body aage-peeche hua. Breasts Uday ki back pe aur tight press hue. Peeche se Utkarsh ka haath uske stomach pe kas gaya. Usko clearly feel hua — Utkarsh hard tha, uski ass ke against press ho raha tha. Pressure seedha neeche tak gaya.\n\nMeenakshi ki saans tez ho gayi. Uske andar pehle se jo heat thi, woh ab clearly tingling mein badal gayi thi — neeche, uski pussy mein. Control kam ho raha tha. Uske lips se ek chhoti, involuntary awaaz nikal gayi. Uska head ek second ke liye peeche Utkarsh ke shoulder pe gaya, phir usne use seedha kiya.\n\n**Meenakshi** (andar se): Neeche… tingling ho rahi hai. Bahut zyada.\n\nUtkarsh ki garam saans uske neck pe pad rahi thi. Paanch minute lambi lag rahi thi. Har movement pe usse pata chal raha tha — aage breasts, peeche pressure, aur andar woh tingling jo ruk nahi rahi thi.\n\nJab society ka gate dikha, usne dheere se saans chhodi. Bike ruki. Meenakshi utri. Uski legs thodi heavy thi. Woh gate ki taraf badhi, lekin uske andar abhi bhi woh sensation ghoom raha tha."
       }
     ]
   },
@@ -335,10 +339,11 @@
   },
   "scene07Review": {
     "id": "T07",
-    "status": "AUTHOR_REVISION_MERGED_AS_NON_GRAPHIC_EDITORIAL_DRAFT",
+    "status": "USER_VERBATIM_T07_MERGED_FOR_REVIEW",
     "originalProsePath": "authorSubmittedVerbatimT07.raw",
     "publishedAs": "authorCorrectedProse.beats[T07]",
-    "continuityReview": "Opening from prior author T07 retained with minimal cardigan continuity fix. The updated ride segment was incorporated in non-graphic form, including road warning, speedbreakers, her discomfort and arrival. Original author T07 is archived unchanged; rider capacity/consent/timing remain open."
+    "continuityReview": "Original author T07 unchanged from opening to bike start; author revised bike portion inserted exact as supplied, no paraphrase or content alteration.",
+    "updatedRidePath": "authorSubmittedVerbatimT07Revision.raw"
   },
   "authorSubmittedVerbatimT07": {
     "id": "T07",
@@ -348,31 +353,23 @@
     "status": "AUTHOR_ORIGINAL_VERBATIM_SAVED"
   },
   "scene07MergeNotes": {
-    "status": "EDITORIAL_DRAFT_PENDING_AUTHOR_APPROVAL",
-    "base": "Original author T07 from UI",
-    "replacementScope": "From bike-start onward only",
-    "retained": [
-      "Car fails after two attempts",
-      "Uday and Utkarsh approach",
-      "Bike suggestion and seating rivalry",
-      "Uday driving; Meenakshi middle; Utkarsh rear",
-      "Five-minute target; arrival at society before Babloo"
-    ],
-    "fromUpdatedPassage": [
-      "Uday road-warning line and Meenakshi response",
-      "Two speedbreakers",
-      "Meenakshi's close-quarters discomfort and internal perspective",
-      "Momentary loss of balance and quick recovery",
-      "Arrival at gate with residual unease"
-    ],
-    "editorialChanges": [
-      "Explicit sexual body-detail omitted; intimate proximity rendered non-graphically",
-      "Cardigan held on shoulder rather than left unspecified beside car"
-    ],
-    "unresolved": [
-      "Three riders on one motorcycle is unsafe and legally noncompliant",
-      "Close physical contact does not establish permission for additional touching",
-      "Timing from farmhouse to badminton remains provisional"
-    ]
+    "status": "AUTHOR_VERBATIM_MERGED_PENDING_CANON_APPROVAL",
+    "base": "Original exact T07",
+    "replacementScope": "Bike started portion onward, as user instructed",
+    "retained": "Exact author original from car failure through tight seating, without changes",
+    "replacement": "Exact latest author-written 'Bike chal padi' paragraph onward, without changes",
+    "noEditorialRewriting": true,
+    "previousEditorialDraft": "previousEditorialT07"
+  },
+  "previousEditorialT07": {
+    "id": "T07",
+    "title": "The Car Won't Start — The Ride Home",
+    "raw": "Meenakshi court se apni car tak pahunchi. Cardigan haath mein tha. Usne driver seat pe baith ke key ghumayi. Engine ne awaaz di lekin start nahi hua. Dusri baar try kiya. Phir bhi nahi.\n\n**Meenakshi:** “Yeh kya ho gaya…”\n\nUday aur Utkarsh peeche aa gaye.\n\n**Uday:** “Start nahi ho rahi?”\n\n**Meenakshi:** “Nahi. Do baar try kar liya.”\n\nUtkarsh ne bonnet ki taraf dekha lekin kuch nahi kaha. Dono ne ek doosre ko dekha.\n\n**Uday:** “Ma’am, society toh paas hai. Bike se chalein?”\n\nMeenakshi ne unki taraf dekha. Bike pe teeno.\n\n**Meenakshi:** “Main beech mein baithun? Kurta-palazzo mein?”\n\n**Utkarsh:** “Paanch minute ki baat hai. Aap beech mein safe rahengi.”\n\n**Uday:** “Haan. Main chalaunga. Utkarsh peeche.”\n\nMeenakshi thodi der ruki. Koi aur option nahi tha. Usne cardigan kandhe par daala aur bike ki taraf badhi.\n\n**Uday:** “Main drive karunga.”\n\n**Utkarsh:** “Tum hamesha aage baithte ho.”\n\n**Meenakshi:** “Jaldi decide karo. Main beech mein baith rahi hoon.”\n\nUday handle pe baith gaya. Meenakshi uske peeche aayi. Utkarsh sabse peeche. Tight fit tha.\n\nBike chal padi. Meenakshi Uday ke peeche baithi thi aur Utkarsh sabse peeche. Jagah kam thi. Usne Uday ke shoulders pakde, aur road ke har chhote jhatke par apna balance sambhalne ki koshish ki.\n\n**Uday:** “Ma’am, haath tight rakhna. Road theek nahi hai.”\n\n**Meenakshi:** “Theek hai.”\n\nUtkarsh bhi bilkul paas baitha tha. Meenakshi ko ekdam ehsaas hua ki yeh arrangement jitna aasaan sunne mein laga tha, utna tha nahi. Woh seedhi baithne ki koshish karti rahi, lekin uneven road par baar-baar posture badalna pad raha tha.\n\nPehla speedbreaker aaya. Bike halki si uchhli. Meenakshi ne Uday ke shoulders aur mazbooti se pakad liye. Utkarsh ne bhi apna balance sambhala. Kuch lamhon ke liye teeno chup rahe.\n\n**Meenakshi** (andar se): Yeh… bahut close hai. Paanch minute ka safar itna lamba kyun lag raha hai?\n\nDusra speedbreaker aaya. Ek pal ke liye Meenakshi ka sar peeche Utkarsh ke shoulder ki taraf jhuka. Usne turant khud ko seedha kiya. Uday ka dhyaan sadak par tha; Utkarsh ne bhi kuch nahi kaha.\n\nMeenakshi ko society ka gate dikha toh usne dheere se saans chhodi. Bike ruki. Woh saavdhani se utri, cardigan sambhala aur gate ki taraf badhi. Uske pair kuch bhaari lag rahe the, aur woh safar ka ajeeb-sa awkwardness abhi bhi mehsoos kar rahi thi."
+  },
+  "authorSubmittedVerbatimT07Revision": {
+    "source": "User-submitted updated bike-start passage in chat 2026-11-15",
+    "replacementStartsAt": "Bike start hui.",
+    "raw": "Bike chal padi. Meenakshi Uday ke peeche baithi thi, Utkarsh sabse peeche. Uske haath Uday ke shoulders pe the. Kurta ke through uske breasts Uday ki back pe press ho rahe the — soft aur warm. Har thodi si movement pe pressure change ho raha tha.\n\n**Uday:** “Ma’am, haath tight rakhna. Road theek nahi hai.”\n\n**Meenakshi:** “Theek hai.”\n\nPeeche se Utkarsh ka chest uski poori back se chipka hua tha. Uske haath pehle waist pe the, phir dheere se stomach ki taraf gaye. Thodi der baad fingers kurta ke andar slip ho gayi. Garam skin pe. Meenakshi ne feel kiya. Usne haath nahi hataya.\n\nEk speedbreaker aaya. Bike upar uthi. Meenakshi ka body aage-peeche hua. Breasts Uday ki back pe aur tight press hue. Peeche se Utkarsh ka haath uske stomach pe kas gaya. Usko clearly feel hua — Utkarsh hard tha, uski ass ke against press ho raha tha. Pressure seedha neeche tak gaya.\n\nMeenakshi ki saans tez ho gayi. Uske andar pehle se jo heat thi, woh ab clearly tingling mein badal gayi thi — neeche, uski pussy mein. Control kam ho raha tha. Uske lips se ek chhoti, involuntary awaaz nikal gayi. Uska head ek second ke liye peeche Utkarsh ke shoulder pe gaya, phir usne use seedha kiya.\n\n**Meenakshi** (andar se): Neeche… tingling ho rahi hai. Bahut zyada.\n\nUtkarsh ki garam saans uske neck pe pad rahi thi. Paanch minute lambi lag rahi thi. Har movement pe usse pata chal raha tha — aage breasts, peeche pressure, aur andar woh tingling jo ruk nahi rahi thi.\n\nJab society ka gate dikha, usne dheere se saans chhodi. Bike ruki. Meenakshi utri. Uski legs thodi heavy thi. Woh gate ki taraf badhi, lekin uske andar abhi bhi woh sensation ghoom raha tha.",
+    "status": "USER_VERBATIM_UNMODIFIED"
   }
 }
