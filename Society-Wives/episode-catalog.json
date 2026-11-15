@@ -138,10 +138,10 @@
           "title": "The Badminton Bet — Uday & Utkarsh",
           "date": "2026-01-01",
           "time": "Approx. 18:15 badminton to 18:45 society return; provisional",
-          "status": "USER_VERBATIM_BIKE_PLOT_SAVED_FOR_PLANNING",
-          "mainPath": "episode-03-meenakshi-scene-03-twins.html",
+          "status": "T01_T03_AUTHOR_CORRECTED_PROSE_PUBLISHED_FOR_REVIEW_T04_T06_OUTLINE",
+          "mainPath": "episode-03-meenakshi-scene-03-t01-t03.html",
           "dataPath": "episode-03-meenakshi-scene-03-twins.json",
-          "description": "Society twins badminton T01–T06 plus prominently labeled 'MY requirement (unfiltered)' verbatim 5-minute bike plot: car not starting, sibling seating rivalry, Uday/Meenakshi/Utkarsh seating option, proximity/wine-emotional beats, and 18:45 target. Separate assistant planning pointers. Future Ishita doubles invitation deferred. No full prose yet."
+          "description": "Author-supplied T01–T03 full prose now published for review with three dialogue-only Episode 02 continuity fixes. T04–T06 still outline; original user-verbatim bike plot remains in companion planning JSON/HTML. The 18:15–18:45 time is provisional pending travel reconciliation."
         },
         {
           "lead": "Meenakshi",
