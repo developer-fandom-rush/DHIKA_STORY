@@ -2756,7 +2756,7 @@
       "timeLabel": "17:00 · provisional",
       "universe": "sw",
       "title": "The Farmhouse Evening — Four Adults, Shifting Attention",
-      "subtitle": "F11 no verbal ask; F13 photo conversation; F14 Aditi awaits F15 seating and sober driver",
+      "subtitle": "Meenakshi drives return; Yash front, Avi rear; men exit at F19 drop-off",
       "lead": "Meenakshi",
       "characters": [
         "Meenakshi"
@@ -2766,7 +2766,7 @@
       "scene": "02",
       "kind": "planned",
       "state": "plot",
-      "status": "F01–F04 approved; F05–F12 Grok drafts; F13–F14 edited working",
+      "status": "Scene 02 closes after F19; F18–F19 author-approved; F20–F22 discarded",
       "source": "episode-03-meenakshi-scene-02.json",
       "reader": {
         "type": "sw-plan",
@@ -2881,56 +2881,35 @@
           "id": "F15",
           "title": "Who sits next to Meenakshi?",
           "at": null,
-          "body": "With a sober driver at the wheel, the only rear seat beside Meenakshi becomes contested. Yash takes it before Avi; Avi takes the front passenger seat. Meenakshi and Aditi see the rivalry and laugh, then Aditi leaves.",
+          "body": "Meenakshi drives; Yash front, Avi rear; Aditi leaves after teasing seating rivalry",
           "internal": ""
         },
         {
           "id": "F16",
           "title": "Unspoken looks",
           "at": null,
-          "body": "Avi catches the peach-round silhouette of Meenakshi's hips as she changes seat position; Yash separately notices the gentle hourglass line of her waist and how she adjusts her plum kurta. These are distinct, private adult-admiration metaphors; each man exchanges a teasing glance, and Meenakshi does not know exactly what was noticed.",
+          "body": "Distinct exchanged glances; Meenakshi keeps her eyes on road",
           "internal": ""
         },
         {
           "id": "F17",
           "title": "Fitness-flirt challenge",
           "at": null,
-          "body": "A playful abs/fitness conversation becomes a voluntary challenge. Meenakshi explicitly offers limited clothed abdomen contact, individually for Avi and Yash; she assumes the contact stays over clothing.",
+          "body": "Meenakshi teasing dance-floor banter and fitness jokes, no touch",
           "internal": ""
         },
         {
           "id": "F18",
           "title": "Avi's turn",
           "at": null,
-          "body": "Brief, roughly 30-second clothed abdomen-contact beat; playful conversation, with Meenakshi setting the scope.",
+          "body": "At safely parked drop-off, Avi tests over-clothing abdomen amid ticklish laughter",
           "internal": ""
         },
         {
           "id": "F19",
           "title": "Yash's unexpected direct contact",
           "at": null,
-          "body": "A shift of Meenakshi's seat posture while retrieving her phone lifts the edge of the plum kurta. Yash's fingers accidentally slip just under the edge toward her abdomen, differing from her assumption of over-clothing contact. She is briefly surprised and tense; he pauses and checks her comfort. She consciously agrees to continued direct abdomen contact for up to about one minute. Her reaction is private and conflicted; do not portray her silence as consent or turn the outline into explicit prose.",
-          "internal": ""
-        },
-        {
-          "id": "F20",
-          "title": "Quiet aftermath",
-          "at": null,
-          "body": "The encounter ends; they adjust posture and say little. No escalation or kiss. The car resumes toward the drop-off.",
-          "internal": ""
-        },
-        {
-          "id": "F21",
-          "title": "Avi jokingly kicks Yash",
-          "at": null,
-          "body": "Both men exit. Avi mock-jealously gives Yash a light, playful kick for the seating/attention rivalry; Yash jokes back. Meenakshi sees them from the car and smiles shyly.",
-          "internal": ""
-        },
-        {
-          "id": "F22",
-          "title": "Three memories — not home yet",
-          "at": null,
-          "body": "Meenakshi continues toward home with the sober driver. Her mind moves among Naveen's unresolved afternoon continuation, Avi's open flirtation/jealousy, Yash's closer personal encounter, and her awareness of the wine. Stop before home arrival.",
+          "body": "Yash's surprising touch, Meenakshi's reaction, men's departure; she continues drive",
           "internal": ""
         }
       ]
