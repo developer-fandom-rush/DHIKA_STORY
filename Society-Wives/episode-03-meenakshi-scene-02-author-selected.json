@@ -255,13 +255,14 @@
       "parts": [
         {
           "source": "GPT_REVISION_USER_DIRECTED",
-          "raw": "Aditi ko phone aaya. Usne screen dekhi aur group ki taraf mudhi.\n\n**Aditi:** “Mujhe nikalna padega. Cab aa rahi hai.”\n\nAvi uske paas aaya.\n\n**Avi:** “Itni jaldi?”\n\n**Aditi:** “Haan. Tum log Meenakshi ke saath chale jaana. Main alag nikal rahi hoon.”\n\n**Yash:** “Meenakshi ma’am, humein drop mil jayega?”\n\n**Meenakshi:** “Haan. Return mein professional driver gaadi chalayega, main nahi.”\n\nAditi ne cab ka status dobara check kiya. Abhi woh wahin thi. Avi aur Yash Meenakshi ke saath parking ki taraf badhe; Aditi bhi cab ka intezaar karte hue unke saath chali. Car ke paas kaun kahan baithega, yeh abhi decide nahi hua tha."
+          "raw": "Aditi ko phone aaya. Usne screen dekhi aur group ki taraf mudhi.\n\n**Aditi:** “Mujhe nikalna padega. Cab aa rahi hai.”\n\nAvi uske paas aaya.\n\n**Avi:** “Itni jaldi?”\n\n**Aditi:** “Haan. Tum log Meenakshi ke saath chale jaana. Main alag nikal rahi hoon.”\n\n**Yash:** “Meenakshi ma’am, humein drop mil jayega?”\n\n**Meenakshi:** “Haan. Tum dono ko drop kar dungi.”\n\nAditi ne cab ka status dobara check kiya. Abhi woh wahin thi. Avi aur Yash Meenakshi ke saath parking ki taraf badhe; Aditi bhi cab ka intezaar karte hue unke saath chali. Car ke paas kaun kahan baithega, yeh abhi decide nahi hua tha."
         }
       ],
       "originalArchive": "episode-03-meenakshi-scene-02-F10-F14-author-original.json",
       "changes": [
         "Kept Aditi's cab announcement and waiting at parking, moved her actual exit to F15 after seating rivalry.",
-        "Added Avi/Yash drop request and sober professional driver continuity."
+        "Added Avi/Yash drop request and sober professional driver continuity.",
+        "Return-driving line corrected per author's explicit instruction that Meenakshi drives her own car. Earlier F14 Grok source remains archived; F03 wine detail remains an unresolved safety issue, not silently deleted."
       ]
     },
     "F15": {
@@ -344,6 +345,7 @@
     "Grok's original F10-F14 remains unaltered in separate raw archive.",
     "F15-F19 added in order. F18-F19 split at Yash's turn from author-approved full text; no extra or new outcome. F15-F17 chat drafts kept as working versions.",
     "In the approved F19 prose Avi/Yash exit and Meenakshi departs; pre-existing F20/F21 outline requires reconciliation, do not silently repeat it. Next substantive unaddressed beat F22.",
-    "Pending continuity: user insists Meenakshi drives her own car, whereas older F14 drafted professional-driver line and F03 wine detail remain in previously recorded source. Do not silently rewrite author-approved prose."
+    "Pending continuity: user insists Meenakshi drives her own car, whereas older F14 drafted professional-driver line and F03 wine detail remain in previously recorded source. Do not silently rewrite author-approved prose.",
+    "F14's prior assistant-invented professional driver sentence has been changed in selected reading to author-directed 'Haan. Tum dono ko drop kar dungi.' Raw F10-F14 original remains separately archived."
   ]
 }
