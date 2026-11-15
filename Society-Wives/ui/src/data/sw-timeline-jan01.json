@@ -3,8 +3,44 @@
   "universe": "sw",
   "anchorDate": "2026-01-01",
   "clockOrigin": "00:01",
-  "sourcePolicy": "Source-scene order retained; cross-lead events sorted by clock, not author approval. No prose rewritten. Taniya/Soniya source duplicates indexed once.",
+  "sourcePolicy": "Source-scene order retained; cross-lead events sorted by clock, not author approval. No prose rewritten. Taniya/Soniya source duplicates indexed once. EP03 Ankita scene-01–04 plotting entries indexed separately from approved EP02 source scenes.",
   "events": [
+    {
+      "id": "jan01-meenakshi-harish-sunil-night-future",
+      "date": "2026-01-01",
+      "sort": null,
+      "start": null,
+      "end": null,
+      "timeLabel": "Late night · after everyone has left · exact time TBD",
+      "universe": "sw",
+      "title": "Harish & Sunil — Outside Society (future-episode seed)",
+      "subtitle": "Reader-only intentions; no present-day prose or encounter",
+      "lead": "Meenakshi",
+      "characters": [
+        "Harish Pal",
+        "Sunil Yadav"
+      ],
+      "mentions": [
+        "Meenakshi"
+      ],
+      "episode": "Future plan",
+      "scene": "HS-NIGHT",
+      "kind": "planned",
+      "state": "future-proposal",
+      "status": "Author-directed night placement · plot-only · not written",
+      "source": "episode-02-meenakshi-plan.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "meenakshi",
+        "scene": "HS-NIGHT"
+      },
+      "flags": [
+        "Not an Episode 03 scene",
+        "No fixed clock time",
+        "Female staff unaware of workers' private motives"
+      ],
+      "detail": "1 January 2026, late night, outside Gulmohar Heights society after the others have gone. Harish and Sunil have a brief private reader-only POV about their hidden attraction and future plans. They have not approached Meenakshi or carried out those plans. This belongs to a future episode and must not interrupt the Farmhouse Scene 02 or 14:15 Naveen handoff."
+    },
     {
       "id": "e02-ankita-A02-SCENE-1",
       "date": "2026-01-01",
@@ -2277,6 +2313,37 @@
       "detail": null
     },
     {
+      "id": "ep03-ankita-scene01",
+      "date": "2026-01-01",
+      "sort": "13:05",
+      "start": "13:05",
+      "end": "13:15",
+      "timeLabel": "13:05–13:15",
+      "universe": "sw",
+      "title": "Scene 01 — Rajeev's parcel call / private afterbeat",
+      "lead": "Ankita",
+      "characters": [
+        "Ankita",
+        "Rajeev"
+      ],
+      "mentions": [],
+      "episode": "03",
+      "scene": "01",
+      "kind": "planned",
+      "state": "review",
+      "status": "Author-directed plot only",
+      "source": "episode-03-ankita-a11-scene-01-opening.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "ankita",
+        "scene": "01"
+      },
+      "flags": [
+        "Time proposed, not exact-locked"
+      ],
+      "detail": ""
+    },
+    {
       "id": "e02-shivani-C04",
       "date": "2026-01-01",
       "sort": "13:08",
@@ -2376,6 +2443,38 @@
       "detail": null
     },
     {
+      "id": "ep03-ankita-scene02",
+      "date": "2026-01-01",
+      "sort": "13:15",
+      "start": "13:15",
+      "end": "13:45",
+      "timeLabel": "13:15–13:45",
+      "universe": "sw",
+      "title": "Scene 02 — Five-Person Stamina Challenge",
+      "lead": "Ankita",
+      "characters": [
+        "Ankita",
+        "Sana Khan",
+        "Aishwarya Rao",
+        "Vivan",
+        "Reyansh"
+      ],
+      "mentions": [],
+      "episode": "03",
+      "scene": "02",
+      "kind": "planned",
+      "state": "plot-locked",
+      "status": "User-finalized plot · no prose",
+      "source": "episode-03-ankita-scene-02.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "ankita",
+        "scene": "02"
+      },
+      "flags": [],
+      "detail": ""
+    },
+    {
       "id": "e02-shivani-D01",
       "date": "2026-01-01",
       "sort": "13:20",
@@ -2409,6 +2508,39 @@
       },
       "flags": [],
       "detail": null
+    },
+    {
+      "id": "ep03-ankita-scene03",
+      "date": "2026-01-01",
+      "sort": "13:45",
+      "start": "13:45",
+      "end": "15:30",
+      "timeLabel": "13:45–15:30",
+      "universe": "sw",
+      "title": "Scene 03 — The Private Briefing",
+      "lead": "Ankita",
+      "characters": [
+        "Ankita",
+        "Mr. Bhalla",
+        "Sandeep Khurana",
+        "Aishwarya Rao"
+      ],
+      "mentions": [],
+      "episode": "03",
+      "scene": "03",
+      "kind": "planned",
+      "state": "review",
+      "status": "Author-revised plot · for review",
+      "source": "episode-03-ankita-scene-03.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "ankita",
+        "scene": "03"
+      },
+      "flags": [
+        "Bhalla A09 2-Jan first-introduction wording still needs continuity reconciliation"
+      ],
+      "detail": ""
     },
     {
       "id": "e03-meenakshi-01",
@@ -2584,6 +2716,38 @@
         "Episode 04 continues from Episode 03 Scene 01, not from evening Scene 04"
       ],
       "detail": "The continuation from the 14:15 Naveen cut is not written. This is a reminder, not a source encounter."
+    },
+    {
+      "id": "ep03-ankita-scene04",
+      "date": "2026-01-01",
+      "sort": "15:30",
+      "start": "15:30",
+      "end": "16:00",
+      "timeLabel": "15:30–16:00",
+      "universe": "sw",
+      "title": "Scene 04 — Rohit Babu Introduction",
+      "lead": "Ankita",
+      "characters": [
+        "Ankita",
+        "Rohit",
+        "Aishwarya Rao"
+      ],
+      "mentions": [],
+      "episode": "03",
+      "scene": "04",
+      "kind": "planned",
+      "state": "plot-locked",
+      "status": "User-directed intro-only plot · no prose",
+      "source": "episode-03-ankita-scene-04-rohit-intro.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "ankita",
+        "scene": "04"
+      },
+      "flags": [
+        "End time provisional; Jan1 has no first-show reaction"
+      ],
+      "detail": ""
     },
     {
       "id": "e03-meenakshi-02",
@@ -2917,42 +3081,6 @@
           "internal": "EP03 Meenakshi viewpoint ends here; Episode 04 car-recovery scene is a potential next encounter, not already written."
         }
       ]
-    },
-    {
-      "id": "jan01-meenakshi-harish-sunil-night-future",
-      "date": "2026-01-01",
-      "sort": null,
-      "start": null,
-      "end": null,
-      "timeLabel": "Late night · after everyone has left · exact time TBD",
-      "universe": "sw",
-      "title": "Harish & Sunil — Outside Society (future-episode seed)",
-      "subtitle": "Reader-only intentions; no present-day prose or encounter",
-      "lead": "Meenakshi",
-      "characters": [
-        "Harish Pal",
-        "Sunil Yadav"
-      ],
-      "mentions": [
-        "Meenakshi"
-      ],
-      "episode": "Future plan",
-      "scene": "HS-NIGHT",
-      "kind": "planned",
-      "state": "future-proposal",
-      "status": "Author-directed night placement · plot-only · not written",
-      "source": "episode-02-meenakshi-plan.json",
-      "reader": {
-        "type": "sw-plan",
-        "character": "meenakshi",
-        "scene": "HS-NIGHT"
-      },
-      "flags": [
-        "Not an Episode 03 scene",
-        "No fixed clock time",
-        "Female staff unaware of workers' private motives"
-      ],
-      "detail": "1 January 2026, late night, outside Gulmohar Heights society after the others have gone. Harish and Sunil have a brief private reader-only POV about their hidden attraction and future plans. They have not approached Meenakshi or carried out those plans. This belongs to a future episode and must not interrupt the Farmhouse Scene 02 or 14:15 Naveen handoff."
     }
   ]
 }
