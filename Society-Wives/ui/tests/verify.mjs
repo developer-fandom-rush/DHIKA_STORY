@@ -139,7 +139,11 @@ for(const image of gallery.images){
  if(image.source==='GitHub'){assert.ok(!paths.has(image.path),'Duplicate GitHub image '+image.path);paths.add(image.path);assert.ok(existsSync(resolve(root,image.path)),'Missing asset '+image.path);}
  else assert.equal(image.restricted,true,'Private Drive assets must never be embedded directly');
 }
-assert.equal(paths.size,37,'Expected 27 previous + 10 selected character artwork assets');
+assert.equal(paths.size,38,'Expected 37 existing plus one Ankita Scene 03 illustration asset');
+const scene03Image=gallery.images.find(x=>x.id==='ankita-ep03-scene03-briefing-image');
+assert.equal(scene03Image?.episode,'03','Illustration must be linked to Scene 03');
+assert.equal(scene03Image?.storyDate,'2026-01-01','Scene 03 visual date must be Jan1');
+assert.ok(scene03Image.path.endsWith('ankita-ep03-scene03-private-briefing.webp'),'Generated visual must be indexed');
 const inline=originalHtml.match(new RegExp('data:image/webp;base64,([a-zA-Z0-9+/=]+)'));
 assert.ok(inline,'Original embedded WebP source missing');
 assert.deepEqual(readFileSync(resolve(root,'assets/shivani-a03-inline-original.webp')),Buffer.from(inline[1],'base64'),'Extracted original WebP differs');
@@ -181,7 +185,7 @@ assert.equal(office.length,11,'Eleven Shreya office/portrait image records must 
 for(const row of office)assert.ok(row.characters.length,'Office image must have canonical cast tag');
 const portraitIds=['meenakshi','meenakshi_woman_01','ishita','meenakshi_woman_02','meenakshi_woman_04','shreya_woman_01','shreya_woman_02','shreya_woman_03','shreya_woman_04','shruti'];
 for(const id of portraitIds)assert.ok(gallery.images.some(x=>x.characters.length===1&&x.characters[0]===id&&x.visualCategory==='Character portrait'&&x.path&&!x.restricted),'Missing public cast portrait for '+id);
-console.log('PASS: '+paths.size+' GitHub images, 16 restricted Drive references, 10 curated cast portraits, unique character IDs.');
+console.log('PASS: '+paths.size+' GitHub images, 16 restricted Drive references, 10 curated cast portraits and one Ankita scene reference, unique character IDs.');
 
 
 const universalJan=JSON.parse(readFileSync(resolve(ui,'src/data/sw-timeline-jan01.json'),'utf8'));
