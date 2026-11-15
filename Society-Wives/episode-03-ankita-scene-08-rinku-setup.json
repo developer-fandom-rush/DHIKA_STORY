@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "id": "SW-ANKITA-EP03-SCENE08-RINKU-SETUP",
+  "series": "Society Wives — Five Veils of Desire",
+  "episode": "03",
+  "scene": "08",
+  "lead": "ankita",
+  "date": "2026-01-01",
+  "timezone": "Asia/Kolkata",
+  "title": "The Quiet Reset — Rinku at the Door",
+  "status": "USER_DIRECTED_SETUP_PLOT_FOR_REVIEW_NO_PROSE",
+  "proseStatus": "NOT_WRITTEN",
+  "time": {
+    "start": "18:10",
+    "end": "18:25",
+    "certainty": "USER_DIRECTED_18:10_TO_18:25_WINDOW"
+  },
+  "place": "Gulmohar Heights, Ankita's apartment",
+  "purpose": "Only short Rinku/Chotu setup and day-recall after arrival; last active Ankita Jan 1 scene. No parcel handover or discovery.",
+  "cast": [
+    {
+      "id": "ankita",
+      "name": "Ankita",
+      "role": "Lead, alone during reset"
+    },
+    {
+      "id": "rinku",
+      "name": "Rinku",
+      "age": 23,
+      "role": "Known building helper for deliveries, maintenance and errands; familiar, not a first meeting"
+    }
+  ],
+  "knowledgeLocks": {
+    "ankitaKnows": "Her own Jan 1 interactions, office celebration, ride with twins and Gopal's odd glance. She has no knowledge that P01–P06 involved unauthorized parcel access and six private removals. She knows Rajeev earlier said he had her parcel but does not receive or inspect it today.",
+    "readerOnly": "Gopal's P01 breach; Mahendra P02; Om P03; Subhash P04; Mohan P05; Arvind P06; Rajeev receiving remainder in P07 and conversation P08; Rajeev's separate private afterbeat in EP03 Scene01. Reader must not confuse these secrets with Ankita's personal memories.",
+    "rajeev": "Away when Ankita arrives; he does not meet, call, hand over any parcel or participate in home dialogue. Parcel remains in his own custody; no new possession/location invented.",
+    "rinku": "Longstanding service familiarity is grounded in character-directory relation: building delivery, maintenance and small errands. Exact months, specific past incidents and a first spoken nickname are not asserted."
+  },
+  "wardrobe": {
+    "arrival": "Cream embroidered kurti, fitted trousers and beige blazer from office/party (unchanged through Scene 07).",
+    "homeChange": "After freshening, Ankita changes into a comfortable everyday cotton kurti and relaxed trousers. No dupatta. Exact color, neckline and fit are UNCONFIRMED and should not be invented.",
+    "firstRinkuView": "No on-page Rinku view of Ankita without a dupatta in this EP03 scene. First such view is reserved for the next Ankita episode, after door-opening cut."
+  },
+  "beats": [
+    {
+      "id": "S08-01",
+      "time": "18:10–18:14",
+      "heading": "Home arrival has already happened; Rajeev is away",
+      "plot": "Ankita is back in the apartment after Scene07. Rajeev is out and does not meet her; the private parcel stays with him, not handed over. No family dinner, elders' visit, security questions or item inventory. She gets a moment alone to freshen and change clothes."
+    },
+    {
+      "id": "S08-02",
+      "time": "18:14–18:18",
+      "heading": "Fresh-up and single-day recall, with separated perspectives",
+      "plot": "In a private pause Ankita recalls what she herself experienced: morning exchanges with Kabir and society walkers/exercise companions; her household interactions with Karan, Aman and Rajeev; the lift/lobby and gate; office teammates and Rohit; the five-person party and dance; the twins' ride and her unusual awareness; Gopal's silent odd glance. Narrator separately contrasts this with EP02 P01–P08 unauthorized parcel chain and the reader-only Rajeev beat. Narrator explicitly does not put any of that hidden knowledge into Ankita's mind. Treat this as one concise cross-cut, not repeated scenes."
+    },
+    {
+      "id": "S08-03",
+      "time": "18:18–18:21",
+      "heading": "Established Rinku familiarity and ordinary maintenance need",
+      "plot": "Narration identifies Rinku as the familiar 23-year-old building helper who has handled routine errands, small deliveries and repairs for Ankita before. This relationship exists before she came back to the building; there is no first introduction, instant attraction, invented past confession or parcel connection. As she fills a glass of water she notices the kitchen water-filter tap connector needs tightening and sends Rinku a simple request for a washer/connector check once she is free."
+    },
+    {
+      "id": "S08-04",
+      "time": "18:21–18:24",
+      "heading": "Rinku's practical reply and delayed service reason",
+      "plot": "Rinku confirms he can come to check the tap with his tool pouch, but the matching replacement connector may need to be fetched later. This establishes a believable repeat-service reason rather than copying Dhika's exact grocery/noodles events. Ankita is now in a comfortable home kurti and trousers without a dupatta; neither changes the outfit nor stages a visual display. Rinku has not seen this outfit yet."
+    },
+    {
+      "id": "S08-05",
+      "time": "18:24–18:25",
+      "heading": "Doorbell cliff — first un-dupatta look deferred",
+      "plot": "Rinku reaches her door and rings the bell. Ankita, without a dupatta after freshening, moves toward the door. CUT BEFORE THE DOOR OPENS. Rinku does not see her without the dupatta in this scene; that first look and their actual service interaction belong to the next Ankita episode. End her January 1 EP03 lane at 18:25."
+    }
+  ],
+  "sourceAdaptation": {
+    "dhika": "Original Dhika EP03 after the ride: known Chotu/Babu helper, longstanding kindness/familiarity, ordinary errand, a missing item that necessitates return, home wardrobe reset and doorbell cliffhanger; first altered-dress interaction begins next episode.",
+    "societyWives": "Rinku is a building helper instead of store-delivery worker; water-filter connector check replaces grocery noodles; the first no-dupatta look is reserved after the cut, not asserted on Jan1 EP03.",
+    "doNotCopy": "No borrowed Dhika dialogue, child involvement, deep-neckline assumption or narrated first look in Scene08."
+  },
+  "exclusions": [
+    "No new Gopal dialogue or Mahendra committee visit.",
+    "No Rajeev handover or meeting, no parcel opening or missing-items discovery.",
+    "No family dinner or Kabir follow-up conversation.",
+    "No revival of deleted A13–A17 legacy outline or proposed Scene09–12.",
+    "No physical or visual Rinku-Ankita encounter until the next episode.",
+    "No assumption that the six intruders' knowledge is shared with Ankita."
+  ],
+  "nextEpisode": {
+    "lead": "Ankita",
+    "focus": "Rinku / Chotu first service encounter",
+    "firstLook": "Rinku first sees Ankita in her no-dupatta home outfit after she opens the door, NEXT EPISODE ONLY",
+    "followupHook": "Routine tap repair; matching connector may need a second visit, if author approves.",
+    "episodeNumber": "NEXT_ANKITA_EPISODE; OFFICE_ROHIT_JAN02_PLOT_RENUMBERING_PENDING",
+    "date": "TO_BE_LOCKED_WITH_CROSS_EPISODE_CLOCK"
+  }
+}
