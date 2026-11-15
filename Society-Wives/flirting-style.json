@@ -128,5 +128,18 @@
       "How does it return to ordinary interaction?"
     ],
     "writersNote": "This extends the existing flirting/double-entendre rhythm; it never overrides the story master source, approved prose or user choice."
+  },
+  "authorPacingRule": {
+    "status": "AUTHOR_DIRECTED_GLOBAL_WRITER_RULE_NOT_EPISODE_CANON",
+    "goal": "Write the full encounter in continuous prose, not 22 inflated independent mini-scenes.",
+    "decisions": [
+      "Compress travel, greetings, logistics, and routine plot transitions into one or two lines when they cause no relationship change.",
+      "Expand only dialogue, imagery, physical staging or gestures that alter attraction, trust, jealousy, boundaries, emotional state or future stakes.",
+      "A double meaning earns space when it targets a specific person and produces an identifiable outward/inward response; cut conversational filler without such effect.",
+      "Apply narrator silhouette/outfit/motion imagery selectively at meaningful visual turns, and separate observer POV from character awareness.",
+      "Preserve all approved event beats in their order, but combine adjacent beats organically instead of writing one verbose scene per beat.",
+      "Perform self-QA before presenting: dates, location, outfits, consent, cast presence, vehicle seats, sober driving, chronology and unpublished continuations; flag material contradictions yourself."
+    ],
+    "authorDirection": "As of 2026-11-15, the author requested a complete compelling encounter at once, economical beat-based pacing, and less burden on them to perform editorial QA."
   }
 }
