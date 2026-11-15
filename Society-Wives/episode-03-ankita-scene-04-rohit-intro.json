@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "SW-ANKITA-EP03-SCENE04-ROHIT-INTRO",
+  "episode": "03",
+  "scene": "04",
+  "lead": "ankita",
+  "date": "2026-01-01",
+  "timezone": "Asia/Kolkata",
+  "title": "Office Chotu — Rohit Babu's Introduction",
+  "start": "15:30",
+  "end": "16:00",
+  "timeStatus": "PROPOSED_WINDOW_NOT_LOCKED",
+  "status": "USER_DIRECTED_INTRO_ONLY_PLOT_FINALIZED_NOT_PROSE",
+  "location": "Cyber City IT office, corridor and support / inventory bay",
+  "cast": [
+    {
+      "id": "ankita",
+      "name": "Ankita",
+      "age": 30
+    },
+    {
+      "id": "rohit",
+      "name": "Rohit",
+      "age": 22
+    },
+    {
+      "id": "ankita_woman_07",
+      "name": "Aishwarya Rao",
+      "age": 24,
+      "role": "scene-opening bridge only"
+    }
+  ],
+  "costumeContinuity": {
+    "before": "On 2026-01-01, Ankita wore cream embroidered kurti, beige tailored blazer, fitted trousers and matching earrings from EP02 A06-A08. During Scene 03 she herself relaxed the upper two kurti buttons, and left her blazer open.",
+    "scene04Entry": "After Scene 03's Aishwarya confrontation is cut, Scene 04 begins with Ankita closing the same two kurti buttons and straightening the beige blazer before Rohit meets her. No wardrobe change or new open-button experiment.",
+    "promptConstraint": "Use actual cream kurti, beige blazer, fitted trousers; no sari, shirt-skirt, burgundy gown, or newly invented office dress."
+  },
+  "sourceMapping": [
+    {
+      "original": "Dhika EP03: Chotu Babu has a long-established everyday service role and is addressed with an affectionate nickname",
+      "adaptation": "Rohit, 22, is an office IT support junior; establish a normal helpful professional rapport and a playful 'Rohit Babu' nickname on-page"
+    },
+    {
+      "original": "Dhika EP03: grocery delivery/missing noodles leads to a return visit",
+      "adaptation": "Office AV equipment/inventory return slip has a pending field; administrative reason to see Rohit again on Jan 2. No Jan 1 return triggering intimacy."
+    },
+    {
+      "original": "Dhika EP04 first visible surprise",
+      "adaptation": "Not here: first accidental look and intentional 'first show' are both scheduled within Jan 2 sequence"
+    }
+  ],
+  "beats": [
+    {
+      "id": "S04-01",
+      "name": "Aishwarya's question continues as a light cliff resolution",
+      "plot": "Scene 03 concluded with Aishwarya asking what happened in the meeting and who suggested the loosened buttons. Ankita does not explain the private exchange. Their short teasing remains unresolved, and Aishwarya is summoned to evening surprise coordination, creating an exit before Rohit arrives."
+    },
+    {
+      "id": "S04-02",
+      "name": "Buttons closed before Rohit's entry",
+      "plot": "Ankita closes the upper two buttons of her existing cream embroidered kurti, adjusts her tailored beige blazer, smooths her trouser fit and collects office documents. This is a continuity anchor: Rohit sees her normally dressed, not the more daring briefing look."
+    },
+    {
+      "id": "S04-03",
+      "name": "Rohit arrives with the post-release equipment return kit",
+      "plot": "Rohit, 22, a real junior IT support/office helper already listed in the character directory, arrives for AV adapter, docking unit and office kit collection after the sign-off. Introduce his work habits, courteous manner and everyday usefulness without inventing a prior intimate relationship."
+    },
+    {
+      "id": "S04-04",
+      "name": "First nickname exchange",
+      "plot": "Ankita uses the affectionate workplace nickname 'Rohit Babu' (office Chotu) when asking for help with the kit; Rohit reacts lightly and asks why. Their ordinary exchange distinguishes him from the confident seniors Bhalla and Sandeep.",
+      "dialogue": [
+        {
+          "speaker": "Ankita",
+          "line": "Arre Rohit Babu, kit mein sab samaan aa gaya?"
+        },
+        {
+          "speaker": "Rohit",
+          "line": "Ma'am, sab Rohit bulate hain. Aap Rohit Babu kyun?"
+        },
+        {
+          "speaker": "Ankita",
+          "line": "Kyunki meri har technical emergency mein tum hi pehle aa jaate ho. Ab list check karo, Babu."
+        }
+      ]
+    },
+    {
+      "id": "S04-05",
+      "name": "Helpfulness and human familiarity",
+      "plot": "Ankita notices he has been handling holiday support despite being a junior. She thanks him, offers water/tea as a simple courtesy and briefly asks how his shift is going. Rohit responds courteously; he is not made into an inexperienced cartoon. Any family financial support backstory is not yet established and must be requested or written separately before it is treated as canon."
+    },
+    {
+      "id": "S04-06",
+      "name": "Small handover task reserved for tomorrow",
+      "plot": "The equipment inventory sheet has an incomplete asset acknowledgement, which cannot be finalized until the next office shift. Rohit agrees to bring the corrected slip on 2 Jan. This is a story scheduling dependency, not a second attempt to create an encounter today."
+    },
+    {
+      "id": "S04-07",
+      "name": "Unremarkable end-of-day goodbye",
+      "plot": "Rohit says goodbye, carrying the equipment. Ankita turns back to her colleagues' evening surprise. Stop Jan 1 here for Rohit: no accidental neckline view, no stunned silence, no first show, no teasing experiment, no extra return."
+    }
+  ],
+  "authorLocks": [
+    "Jan 1 Rohit is INTRODUCTION ONLY: do not insert an accidental first look, a nipple/cleavage observation, a conscious beauty experiment or a physical stumble.",
+    "The upper two kurti buttons from Scene 03 are CLOSED after Aishwarya meets Ankita and BEFORE Rohit first arrives.",
+    "Jan 1 costume remains cream embroidered kurti + beige blazer + fitted trousers as per approved EP02 A06-A08.",
+    "Rohit's full first accidental observation and Ankita's intentional follow-up BOTH occur on 2 January, in separate visits of the same day.",
+    "Preserve useful kindness and the nickname origin without silently inventing prior family or romantic history.",
+    "Keep the Rohit introduction separate from Ankita's five-person evening transport scene."
+  ],
+  "next": "2 January — Rohit accidental first look and later deliberate first show in one continuous episode sequence",
+  "proseStatus": "NOT_WRITTEN"
+}
