@@ -17,7 +17,7 @@ type AnkitaScene05={title:string;status:string;date:string;time:{start:string;en
 type AnkitaScene06={title:string;status:string;date:string;time:{start:string;end:string;status:string};proseStatus:string;setting:{otherPeople:string};choreography:{id:string;formation:string;participants:string;contact:string;reaction:string}[];prose:{language:string;lines:{type:'narration'|'dialogue';speaker?:string;text:string}[]};handoff:{nextScene:string;scope:string;status:string};};
 type AnkitaScene07={title:string;status:string;date:string;time:{start:string;end:string;certainty:string};continuity:{carProposition:string;deadline:string};beats:{id:string;time:string;heading:string;plot:string;dialogue?:{speaker:string;line:string}[]}[];proseStatus:string;};
 type RinkuScene08={title:string;status:string;date:string;time:{start:string;end:string;certainty:string};purpose:string;beats:{id:string;time:string;heading:string;plot:string}[];knowledgeLocks:{ankitaKnows:string;readerOnly:string;rajeev:string;rinku:string};wardrobe:{arrival:string;homeChange:string;firstRinkuView:string};nextEpisode:{focus:string;firstLook:string;date:string}};
-type ShivaniCastLock={title:string;status:string;officeTwinsStudentCore:{id:string;name:string;age:number}[];officeChotu:{name:string;age:number;role:string};societyChotu:{name:string;age:number;role:string};juniorFacultyExcluded:{name:string;age:number}[];futureOnly:{name:string;age:number;note:string};biologicalTwinsNote:string;episode02End:string;nextWork:string};
+type ShivaniCastLock={title:string;status:string;officeTwinsStudentCore:{id:string;name:string;age:number}[];officeChotu:{name:string;age:number;role:string};societyChotu:{name:string;age:number;role:string};juniorFacultyExcluded:{name:string;age:number}[];futureOnly:{name:string;age:number;note:string};biologicalTwinsNote:string;episode02End:string;nextWork:string;prologueBaselineReference?:{source:string;sourceScene:string;status:string;establishedPreviously:string[];episode03Difference:string}};
 type RohitFirstShow={title:string;status:string;date:string;wardrobe:{jan02:string;accidental:string;deliberate:string};encounters:{id:string;title:string;phase:string;beats:{id:string;name:string;plot:string}[]}[];validation:{jan1IntroductionOnly:boolean;jan1UpperButtonsClosed:boolean;jan2AccidentFirst:boolean;jan2DeliberateFirstShowLaterSameDay:boolean;exactJan2Clock:string;jan2Wardrobe:string};};
 export default function Planning({lead,initialScene}:{lead:string;initialScene?:string|null}){
  const active=leadOrder.includes(lead)?lead:'meenakshi';
@@ -256,6 +256,12 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
         <p><strong>Office Chotu:</strong> {shivaniCastLock.officeChotu.name} ({shivaniCastLock.officeChotu.age}) — college AV assistant. <strong>Society Chotu:</strong> {shivaniCastLock.societyChotu.name} ({shivaniCastLock.societyChotu.age}) — society helper.</p>
         <p><strong>Junior teachers, NOT Office Twins:</strong> {shivaniCastLock.juniorFacultyExcluded.map(c=>c.name+' ('+c.age+')').join(' · ')}. Pooja and Kriti remain faculty.</p>
         <p><strong>Future occasional appearance only:</strong> {shivaniCastLock.futureOnly.name}; no cultural committee role and excluded from the four-member group.</p>
+        {shivaniCastLock.prologueBaselineReference&&<details className="episode-outline" id="shivani-ep03-prior-contact-baseline">
+          <summary>Prologue S07 · Physical familiarity ALREADY established (not Episode 03 escalation)</summary>
+          <p>The following ordinary hand/forearm/shoulder/elbow contacts belong to earlier campus familiarity, documented in the Episode 01 Prologue.</p>
+          <div className="beat-list">{shivaniCastLock.prologueBaselineReference.establishedPreviously.map((q,i)=><div className="beat-item" key={i}><p>{q}</p></div>)}</div>
+          <p className="muted">{shivaniCastLock.prologueBaselineReference.episode03Difference}</p>
+        </details>}
         <p className="muted">{shivaniCastLock.biologicalTwinsNote} {shivaniCastLock.episode02End} This locks cast only, not a Scene 01 or written encounter.</p>
       </>:<p role="alert">Shivani cast lock not loaded: {shivaniCastLockError||'Loading…'}</p>}
     </article>
