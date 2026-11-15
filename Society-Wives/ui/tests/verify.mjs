@@ -64,6 +64,14 @@ assert.equal(ankitaScene03.validation.length,5,'All user beat corrections valida
 assert.ok(ankitaScene03.beats[2].plot.includes('upper two buttons'),'Self-directed outfit test must be retained');
 assert.ok(ankitaScene03.beats[3].plot.includes('twenty minutes'),'Ankita must lead sustained personal presentation');
 assert.ok(ankitaScene03.beats[4].plot.includes('Aishwarya'),'Aishwarya confrontation cliff must remain');
+const ankitaScene05=read('episode-03-ankita-scene-05-combined-surprise-ride.json');
+assert.equal(ankitaScene05.scene,'05');
+assert.equal(ankitaScene05.status,'USER_APPROVED_COMBINED_PLOT_NOT_PROSE');
+assert.equal(ankitaScene05.beats.length,4,'Merged ride must stay compact');
+assert.equal(ankitaScene05.continuity.seats.driver,'Reyansh');
+assert.equal(ankitaScene05.continuity.seats.rearMiddle,'Ankita');
+assert.ok(ankitaScene05.continuity.deadline.includes('18:00'),'Home deadline must be preserved');
+assert.ok(ankitaScene05.beats.at(-1).plot.includes('venue'),'Arrival closes Scene 05, not Scene 06');
 const rohitIntro=read('episode-03-ankita-scene-04-rohit-intro.json');
 assert.equal(rohitIntro.date,'2026-01-01','Rohit intro is on Jan 1 only');
 assert.equal(rohitIntro.scene,'04');
@@ -230,11 +238,11 @@ const universalFuture=JSON.parse(readFileSync(resolve(ui,'src/data/sw-timeline-f
 const universalDhika=JSON.parse(readFileSync(resolve(ui,'src/data/dhika-universal-timeline.json'),'utf8'));
 assert.equal(universalJan.anchorDate,'2026-01-01','Society Wives story anchor must be Jan 1 2026');
 assert.equal(universalDhika.anchorDate,'2026-01-01','Dhika Day 1 must align to Society Wives Jan 1 2026');
-assert.equal(universalJan.events.length,79,'67 original source scenes, 8 prior planning/handoff entries and four current Ankita plot scenes');
+assert.equal(universalJan.events.length,80,'67 original source scenes, 8 prior planning/handoff entries and five current Ankita plot scenes');
 assert.equal(universalJan.events.filter(e=>e.kind==='source-scene').length,67,'Shared Taniya/Soniya source scenes must only appear once');
 assert.ok(!universalJan.events.some(e=>e.date!=='2026-01-01'),'Jan 1 clock contains an event from another date');
 assert.deepEqual(universalJan.events.slice(0,2).map(e=>e.start),['06:20','06:29'],'January 1 event clock not sorted');
-assert.equal(new Set(universalJan.events.map(e=>e.id)).size,79,'January 1 event IDs must all be unique');
+assert.equal(new Set(universalJan.events.map(e=>e.id)).size,80,'January 1 event IDs must all be unique');
 const shifted=universalFuture.events.filter(e=>e.state==='rescheduled');
 assert.equal(shifted.length,5,'Expected M08 and SR10–SR13 rescheduled rather than removed');
 assert.equal(shifted.find(e=>e.scene==='M08')?.date,'2026-01-02');
@@ -256,4 +264,4 @@ for(const event of universalDhika.events){
  assert.ok(event.lastLineIndex<ep.lines.length,'Dhika range extends beyond original source '+event.id);
  if(event.arcRelativeDay)assert.equal(event.date,null,'Arc-relative Day 1 must never reset to Jan 1');
 }
-console.log('PASS: 79 cross-lead Jan1 events, superseded Ankita drafts hidden, 5 rescheduled future encounters and 41 Dhika source episodes aligned.');
+console.log('PASS: 80 cross-lead Jan1 events, including merged Ankita Scene05; superseded drafts remain hidden.');
