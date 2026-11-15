@@ -92,3 +92,12 @@ Write clinical workflows plausibly. Do not place the child Vihaan in an adult ro
 
 ### FIRST RESPONSE REQUIRED IN NEW CHAT
 Acknowledge the existing source and report what you verified; show **EP03's actual day/date scope and unresolved scheduling conflicts**, then give a proposed chapter list, chronological plan, and the first scene draft **if it is supported by the source plan**. Do not ask the user to re-send details already verifiable on GitHub. If connected repository is inaccessible, say so and use only verifiable user-provided content without inventing an exact canon quote.
+
+### MEENAKSHI × BABLOO — NO-RESET RELATIONSHIP CONTINUITY (EP03 SCENE 04)
+Source: `episode-03-meenakshi-scene-04-babloo-intro.json` → `proseDraft` and `foundationContinuityRule`.
+- B01–B05 full prose draft has been saved in the Society Wives UI at the author's request; this is **not yet final prose approval**. Its underlying B01–B05 plot is approved.
+- They already know one another through Babloo's reliable pharmacy pickups and deliveries. Never reintroduce him as a stranger or recreate their first trust-building interaction.
+- Scene 04 has already established familiar comfort, Meenakshi recognizing his unexpected confidence, his first personal compliment, her playful response, and an offer of next-day help with her car.
+- Future scenes must not repeat this introduction, recycle the first compliment, reset Meenakshi's familiarity, or perform the same trust-and-comfort foundation again.
+- Build future interaction on new events, choices, and changing emotional stakes. This foundation is not proof of an already deep romantic relationship.
+- Do not rewrite the existing Scene 04 prose without specific author direction; refer to the JSON story draft for exact text.
