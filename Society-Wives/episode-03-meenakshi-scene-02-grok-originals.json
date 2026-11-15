@@ -62,8 +62,8 @@
   },
   "alternates": {
     "F06": {
-      "title": "Yash Joins — Grok Second Variant",
-      "source": "Additional complete Grok F06 version provided by author. Never replace primary F06 without author selection.",
+      "title": "Yash Joins — F06 Continued (Grok Part Two)",
+      "source": "AUTHOR-CONFIRMED: SECOND GROK VERSION IS THE CONTINUATION OF F06 (NOT AN ALTERNATIVE). Its verbatim raw text must follow F06 primary raw text in the story reader.",
       "raw": "Music aur tez ho gayi. Aditi beech mein thi — Avi saamne, Yash peeche. Teeno ka dance shuru ho chuka tha.\n\nAditi ne hips slow sway kiye. Short burgundy dress uske movement ke saath upar-neeche shift ho raha tha. No-bra hone ki wajah se har sway pe uske breasts soft bounce kar rahe the. Neckline ke andar se shape clearly move ho raha tha — left, right, phir forward jab woh Avi ki taraf thodi jhukti.\n\nAvi ne seedha dekha. Uske haath Aditi ki waist pe the, lekin nazar neckline pe atki hui thi.\n\n**Avi:** “Tumhari breasts… har step pe clearly move kar rahe hain.”\n\nAditi ne uski baat suni lekin ruk nahi. Usne ek sharp turn liya. Is turn mein dono breasts neckline ke against press hue, phir alag hue. Fabric stretch hua. Yash peeche se uske hips ko pakde hue tha. Jab Aditi turn complete karti, uska back Yash ke chest se aur tight chipak gaya.\n\nYash ne kuch nahi kaha. Usne sirf haath thoda upar slide kiye — waist se side ribs tak. Aditi ne mehsoos kiya. Uska body automatically respond kiya, breasts forward push hue.\n\n**Aditi** dheere se boli, saans tez.\n\n**Aditi:** “Dono taraf se… tum log mujhe feel kar rahe ho.”\n\nAvi ne uski taraf aur close aaya. Ab Aditi almost fully sandwiched thi. Har hip movement pe uski breasts Avi ke chest se lightly brush ho rahi thin, aur peeche se Yash ka pressure usse aur aage dhakel raha tha. Neckline repeatedly shift ho raha tha. Soft, full shape clearly dikh raha tha string lights ke neeche.\n\nYash ne apna face uske shoulder pe rakha. Lips skin se touch ho rahe the. Aditi ki aankhein band ho gayi ek pal ke liye. Yeh Avi ke open compliments se zyada intense lag raha tha.\n\nMeenakshi sofe se dekh rahi thi. Usne Aditi ke breasts ka movement clearly dekha — no-bra dress mein har turn aur sway pe bounce aur shift. Usne Avi aur Yash dono ke haathon ko bhi dekha. Uski nazar tight thi. Woh samajh rahi thi ki teeno ka dance ab sirf dance nahi raha.\n\nAditi ne aankhein kholi. Uska body abhi bhi dono ke beech mein move kar raha tha. Breasts har rhythm pe soft bounce kar rahe the, neckline ke edges pe shape baar baar dikh raha tha. Yash ke silent hands aur Avi ka open touch — dono alag the, lekin ab ek saath usse press kar rahe the.\n\n**Aditi** ne dheere se kaha.\n\n**Aditi:** “Bas… itna close.”\n\nLekin woh hati nahi. Dance chalu raha. Teeno ke beech mein Aditi ki movement, breast bounce aur short dress ka shift clearly dikh raha tha farmhouse ki lights mein."
     }
   },
@@ -74,5 +74,13 @@
       "source": "Author supplied extra beat and requested it be added as a line",
       "raw": "Aditi beech mein thi. Avi saamne se uski waist pe haath rakhe hue tha. Ek slow sway mein Aditi ne apni ass deliberately peeche push ki — seedha Avi ke dick area pe. Short dress upar uth gaya, rounded ass uske against press hui. Avi ne clearly feel kiya.\n\n**Aditi** ne dheere se, double meaning mein kaha.\n\n**Aditi:** **“Tumhare chotu_avi toh mujhe feel ho raha hai.”**\n\nAvi ruk gaya. Uska haath tight hua, lekin woh ek pal ke liye freeze ho gaya. Aditi ne uski reaction dekhi aur turant wapas smile kar di — jaise kuch hua hi na ho.\n\n**Aditi:** “Kya hua? Ruk kyun gaye?”\n\nAvi ne saans li aur phir se move karna shuru kiya, lekin ab uska touch pehle se zyada conscious tha. Aditi ne control wapas le liya tha. Yash peeche se yeh sab dekh raha tha. Meenakshi ki nazar bhi us moment pe ruki thi."
     }
-  ]
+  ],
+  "continuationMapping": {
+    "F06": {
+      "first": "beats.F06.raw",
+      "then": "alternates.F06.raw",
+      "role": "AUTHOR_CONFIRMED_CONTINUATION_NOT_ALTERNATE",
+      "textPreservation": "Both submitted raw passages remain identical, displayed consecutively as F06 Part 1 and Part 2."
+    }
+  }
 }
