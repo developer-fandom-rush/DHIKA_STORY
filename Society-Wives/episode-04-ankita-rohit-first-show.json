@@ -2,12 +2,12 @@
   "schemaVersion": 1,
   "id": "SW-ANKITA-EP04-ROHIT-FIRST-SHOW",
   "series": "Society Wives — Five Veils of Desire",
-  "episode": "04",
+  "episode": "TBD_AFTER_RINKU",
   "lead": "ankita",
   "date": "2026-01-02",
   "timezone": "Asia/Kolkata",
-  "title": "Office Chotu — The Accidental Look and Ankita's First Show",
-  "status": "AUTHOR_DIRECTED_PLOT_SEQUENCE_LOCKED_WARDROBE_AND_EXACT_CLOCK_OPEN",
+  "title": "Rohit Babu — The Accidental Look and Ankita's First Show",
+  "status": "AUTHOR_DIRECTED_JAN02_PLOT_PRESERVED_EPISODE_SLOT_PENDING_AFTER_RINKU",
   "sourceBasis": [
     "Dhika original EP03 paragraphs 55–75: Chotu's existing kindness, nickname, grocery task, missing noodles, second delivery and an open-door cliff.",
     "Dhika original EP04 paragraphs 4–47: he enters with forgotten item, water/juice, an unplanned outfit-related glimpse while Dhika bends, Chotu becomes quiet and leaves without taking the money, heroine's uncertain afterthought.",
@@ -147,5 +147,6 @@
     "exactJan2Clock": "PROPOSED_NOT_LOCKED",
     "jan2Wardrobe": "PROPOSED_NOT_APPROVED"
   },
-  "next": "Any next Rohit encounter starts only after the Jan 2 afterbeat; do not automatically continue the full Dhika story into this scene."
+  "next": "Any next Rohit encounter starts only after the Jan 2 afterbeat; do not automatically continue the full Dhika story into this scene.",
+  "episodeSlotNote": "Not the immediate next Ankita episode. The next episode centers Rinku/Chotu, beginning after the 18:25 doorbell cut; this Jan2 Rohit office plot keeps its 15 beats with later episode number to be assigned."
 }
