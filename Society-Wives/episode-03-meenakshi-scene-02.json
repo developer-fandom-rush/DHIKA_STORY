@@ -9,7 +9,7 @@
   "start": "17:00",
   "end": "TBD_AFTER_FARMHOUSE_AND_RETURN_TRAVEL",
   "timezone": "Asia/Kolkata",
-  "status": "USER_APPROVED_PLOT_DIRECTION_SAVED_NO_PROSE",
+  "status": "SCENE02_ENDED_AFTER_F19_F18_F19_AUTHOR_APPROVED",
   "continuationContext": [
     "EP03 Scene 01 Naveen × Meenakshi ends at 14:15 and is continued in EP04 from 14:15; exact EP04 emotional consequences remain unwritten. The small M12 locker observation was forgotten after returning to duties; it does not drive her 17:00 mood.",
     "Approved earlier: Aditi leads bold banter; Avi and Yash flirt with both women; mutual teasing is one step bolder than EP02 but not fixed pairings.",
@@ -19,8 +19,8 @@
     "departure": "Hospital after shift, around 17:00",
     "outbound": "Meenakshi offers her car to Aditi, Avi and Yash; she has not drunk alcohol while driving outbound",
     "main": "Farmhouse get-together; location and travel minutes to be verified",
-    "return": "Sober professional driver drives Meenakshi's car; Meenakshi, Avi, Yash are passengers; Aditi leaves separately by cab after witnessing seating banter",
-    "end": "Scene cuts while Meenakshi is still en route home, not arrived"
+    "return": "Author canon: Meenakshi drives her own car on the return; Yash front passenger, Avi rear; Aditi departs by cab after seating rivalry. F03 earlier wine sip remains canon and creates a real-world safety concern; do not change that detail silently.",
+    "end": "Scene 02 ends at F19 after Avi/Yash drop-off. Meenakshi continues driving toward her next scene; no home arrival is shown."
   },
   "wardrobe": [
     {
@@ -148,49 +148,36 @@
       "id": "F15",
       "phase": "Return parking",
       "title": "Who sits next to Meenakshi?",
-      "detail": "With a sober driver at the wheel, the only rear seat beside Meenakshi becomes contested. Yash takes it before Avi; Avi takes the front passenger seat. Meenakshi and Aditi see the rivalry and laugh, then Aditi leaves."
+      "detail": "Meenakshi drives her own car from farmhouse; Yash takes the front passenger seat, Avi sits in the rear. Meenakshi and Aditi tease their playful seating rivalry; Aditi then leaves in her cab.",
+      "status": "WORKING_DRAFT_PUBLISHED"
     },
     {
       "id": "F16",
       "phase": "Return travel",
       "title": "Unspoken looks",
-      "detail": "Avi catches the peach-round silhouette of Meenakshi's hips as she changes seat position; Yash separately notices the gentle hourglass line of her waist and how she adjusts her plum kurta. These are distinct, private adult-admiration metaphors; each man exchanges a teasing glance, and Meenakshi does not know exactly what was noticed."
+      "detail": "During return journey, Meenakshi readjusts her plum kurta and driving posture; Yash notices from passenger seat and Avi from rear, exchanging a brief mischievous glance.",
+      "status": "WORKING_DRAFT_PUBLISHED"
     },
     {
       "id": "F17",
       "phase": "Return travel",
       "title": "Fitness-flirt challenge",
-      "detail": "A playful abs/fitness conversation becomes a voluntary challenge. Meenakshi explicitly offers limited clothed abdomen contact, individually for Avi and Yash; she assumes the contact stays over clothing."
+      "detail": "Meenakshi initiates extended, witty double-meaning teasing about Avi and Yash dancing with Aditi. Fitness and abs become a teasing topic, but no touch occurs in this beat.",
+      "status": "WORKING_DRAFT_PUBLISHED"
     },
     {
       "id": "F18",
       "phase": "Return travel",
       "title": "Avi's turn",
-      "detail": "Brief, roughly 30-second clothed abdomen-contact beat; playful conversation, with Meenakshi setting the scope."
+      "detail": "At their drop-off, Meenakshi parks and switches off engine. An unexpected light over-kurta tap makes her laugh; Avi briefly checks her abdomen over clothing, with her participation and playful conversation.",
+      "status": "AUTHOR_APPROVED_PROSE_PUBLISHED"
     },
     {
       "id": "F19",
       "phase": "Car safely stopped",
       "title": "Yash's unexpected direct contact",
-      "detail": "A shift of Meenakshi's seat posture while retrieving her phone lifts the edge of the plum kurta. Yash's fingers accidentally slip just under the edge toward her abdomen, differing from her assumption of over-clothing contact. She is briefly surprised and tense; he pauses and checks her comfort. She consciously agrees to continued direct abdomen contact for up to about one minute. Her reaction is private and conflicted; do not portray her silence as consent or turn the outline into explicit prose."
-    },
-    {
-      "id": "F20",
-      "phase": "Before destination",
-      "title": "Quiet aftermath",
-      "detail": "The encounter ends; they adjust posture and say little. No escalation or kiss. The car resumes toward the drop-off."
-    },
-    {
-      "id": "F21",
-      "phase": "Drop-off",
-      "title": "Avi jokingly kicks Yash",
-      "detail": "Both men exit. Avi mock-jealously gives Yash a light, playful kick for the seating/attention rivalry; Yash jokes back. Meenakshi sees them from the car and smiles shyly."
-    },
-    {
-      "id": "F22",
-      "phase": "Final road cut",
-      "title": "Three memories — not home yet",
-      "detail": "Meenakshi continues toward home with the sober driver. Her mind moves among Naveen's unresolved afternoon continuation, Avi's open flirtation/jealousy, Yash's closer personal encounter, and her awareness of the wine. Stop before home arrival."
+      "detail": "With car safely parked, Meenakshi reaches for her phone, her kurta edge shifts and Yash's fingers accidentally reach her abdomen directly. He apologizes; she accepts limited contact and experiences surprise, nervousness, curiosity. They end with jokes, Avi/Yash exit at their stop, and Meenakshi drives onward.",
+      "status": "AUTHOR_APPROVED_PROSE_PUBLISHED"
     }
   ],
   "distinctions": [
@@ -252,6 +239,10 @@
     {
       "date": "2026-11-15",
       "change": "User removed prior F11 verbal-permission constraint; F13 personal conversation revised; F14 departure shifted to F15 after seating rivalry. F10-F14 user source archived separately; corrected F13/F14 working drafts are not final approved."
+    },
+    {
+      "date": "2026-11-15",
+      "change": "Author approved F18-F19, closes Scene02 after F19 and explicitly discards F20-F22. Discarded plot beats preserved in archival field, not active UI. F15-F17 working drafts are retained without claiming final approval."
     }
   ],
   "approvedProse": {
@@ -594,7 +585,9 @@
       "F01",
       "F02",
       "F03",
-      "F04"
+      "F04",
+      "F18",
+      "F19"
     ],
     "pending": [
       "F05",
@@ -609,12 +602,7 @@
       "F14",
       "F15",
       "F16",
-      "F17",
-      "F18",
-      "F19",
-      "F20",
-      "F21",
-      "F22"
+      "F17"
     ],
     "fullSceneApproved": false,
     "workingPublished": [
@@ -626,10 +614,15 @@
       "F11",
       "F12",
       "F13",
-      "F14"
+      "F14",
+      "F15",
+      "F16",
+      "F17"
     ],
     "sourceReadingFile": "episode-03-meenakshi-scene-02-author-selected.json",
-    "canonicalF06TwoPart": true
+    "canonicalF06TwoPart": true,
+    "lastActiveBeat": "F19",
+    "sceneClosedAfter": "F19"
   },
   "publishedDrafts": {
     "F06": {
@@ -1213,6 +1206,50 @@
       ],
       "originalRaw": "episode-03-meenakshi-scene-02-F10-F14-author-original.json",
       "selected": "episode-03-meenakshi-scene-02-author-selected.json"
+    },
+    {
+      "date": "2026-11-15",
+      "source": "Author direct instruction",
+      "scope": [
+        "F15",
+        "F16",
+        "F17",
+        "F18",
+        "F19",
+        "F20",
+        "F21",
+        "F22"
+      ],
+      "changes": [
+        "User confirms Meenakshi drives her own car and Yash is in front while Avi sits rear",
+        "F18-F19 previous full draft approved by user",
+        "Author discards F20-F22 and ends Scene 02 after F19",
+        "Original discarded outline beats retained under discardedBeats solely as archive"
+      ],
+      "nextScene": "EP03 SCENE03 existing badminton plan (under review)"
+    }
+  ],
+  "discardedBeats": [
+    {
+      "id": "F20",
+      "phase": "Before destination",
+      "title": "Quiet aftermath",
+      "detail": "The encounter ends; they adjust posture and say little. No escalation or kiss. The car resumes toward the drop-off.",
+      "archiveReason": "AUTHOR_DISCARDED_ON_2026-11-15_AFTER_APPROVING_F18_F19_CLOSURE"
+    },
+    {
+      "id": "F21",
+      "phase": "Drop-off",
+      "title": "Avi jokingly kicks Yash",
+      "detail": "Both men exit. Avi mock-jealously gives Yash a light, playful kick for the seating/attention rivalry; Yash jokes back. Meenakshi sees them from the car and smiles shyly.",
+      "archiveReason": "AUTHOR_DISCARDED_ON_2026-11-15_AFTER_APPROVING_F18_F19_CLOSURE"
+    },
+    {
+      "id": "F22",
+      "phase": "Final road cut",
+      "title": "Three memories — not home yet",
+      "detail": "Meenakshi continues toward home with the sober driver. Her mind moves among Naveen's unresolved afternoon continuation, Avi's open flirtation/jealousy, Yash's closer personal encounter, and her awareness of the wine. Stop before home arrival.",
+      "archiveReason": "AUTHOR_DISCARDED_ON_2026-11-15_AFTER_APPROVING_F18_F19_CLOSURE"
     }
   ]
 }
