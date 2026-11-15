@@ -34,7 +34,7 @@ Change type: **non-destructive, draft PR only; not deployed**
 | Meenakshi EP04 marker | `episode-04-meenakshi-cutpoint.html` | 2026-01-01, 14:15 | Handoff only | Planning | Show marker, no invented scene |
 | Meenakshi future day | `episode-03-meenakshi-plan.json` | 2026-01-02 | Proposal | Planning / global clock | Preserve M08 and future-day date |
 | Shreya reserved scenes | `episode-03-shreya-plan.json` | 2026-01-03 | Proposal | Planning / global clock | Preserve date and status |
-| Ankita pending scenes | `episode-03-ankita-pending.json` | Needs date review | Unapproved | Planning | Do not silently choose a date |
+| Ankita EP03 Scene08 | `episode-03-ankita-scene-08-rinku-setup.json` | 1 January 2026, 18:10–18:25 | User-directed plot | Planning / global clock | Fresh-up, separated narrator knowledge, Rinku familiarity, doorbell cut; no parcel follow-up |
 | Older separate UI | `index.html`, `episode-*.html`, `characters.html`, `arc-planner.html` | Mixed | Mixed | Legacy kept on disk | Keep URLs/files until verified and author approves retirement |
 
 ## New architecture
@@ -80,3 +80,7 @@ A new PR-only check workflow compiles the application and verifies source integr
 - Gallery now indexes **48 distinct image records**: **27 GitHub assets** and **21 private Drive links**. Duplicate artwork already available on GitHub is not inserted again as new Drive cards.
 - A Playwright/Chromium browser suite tests Home (17 scenes), all five nav labels, Home icon, Episode 02 character tabs and Shreya direct links/refresh, Poonam character profile, Shreya office image filtering and privacy fallback, Meenakshi Episode 03/04 clock, and mobile overflow. Desktop/mobile screenshots are uploaded to the PR CI run as a `society-wives-visual-browser-tests` artifact.
 - Testing the candidate UI is **not** a production deployment. The replacement remains in a draft PR until explicit author approval.
+
+## Ankita continuity correction — 15 November 2026
+
+The previously parked home, parcel handover, Gopal/Mahendra follow-up, dinner, inventory and Kabir closing plots were deleted from the working repository, including the old pending HTML/JSON pages. The published Episode 02 parcel P01–P08 record remains unchanged. Rajeev is away when Ankita returns and the parcel remains with him. Ankita EP03 Scene07 has only Gopal's silent gate observation; Scene08 is Rinku's introductory doorbell setup ending at 18:25. Rinku's first no-dupatta look belongs to the next Ankita episode. Rohit's Jan2 office plot is retained in `ankita-rohit-jan02-future-office.json`, episode number open.
