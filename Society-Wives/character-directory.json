@@ -398,7 +398,9 @@
       "group": "society",
       "house": "shivani",
       "sourceStatus": "CURRENT_ATLAS",
-      "notes": "Original new-universe Atlas roster, subject to user refinements"
+      "notes": "Original new-universe Atlas roster, subject to user refinements",
+      "ep03ShivaniGroup": "SOCIETY_CHOTU_NOT_OFFICE_TWINS",
+      "ep03ShivaniStatus": "USER_LOCKED_2026_11_15"
     },
     {
       "id": "ayaan",
@@ -603,11 +605,13 @@
       "id": "sunny",
       "name": "Sunny",
       "age": 22,
-      "role": "College academic office / AV lab assistant",
+      "role": "College AV / academic office assistant · Shivani's Office Chotu",
       "group": "office",
       "house": "shivani",
       "sourceStatus": "CURRENT_ATLAS",
-      "notes": "Formerly mislabeled school staff; updated for college campus."
+      "notes": "Formerly mislabeled school staff; updated for college campus.",
+      "ep03ShivaniGroup": "OFFICE_CHOTU_AV_ASSISTANT_NOT_TWINS",
+      "ep03ShivaniStatus": "USER_LOCKED_2026_11_15"
     },
     {
       "id": "harsh",
@@ -619,7 +623,10 @@
       "sourceStatus": "USER_DIRECTED_2026_11_11",
       "notes": "Adult student, age 22. Confident, witty and playful; may offer light flirtatious compliments in non-graphic plot discussions. Faculty-student power dynamics remain acknowledged; no approved romantic or sexual episode event.",
       "status": "USER_DIRECTED_ADULT_STUDENT_TWIN",
-      "classGroup": "College undergraduate, exact program/semester TBD"
+      "classGroup": "College undergraduate, exact program/semester TBD",
+      "ep03ShivaniGroup": "OFFICE_TWINS_AGE_PEER_STUDENT_CORE",
+      "ep03ShivaniStatus": "USER_LOCKED_2026_11_15",
+      "memberGroupMeaning": "Office Twins is an author-defined 22-year-old college student cohort; NOT a biological twin requirement."
     },
     {
       "id": "laksh",
@@ -631,7 +638,10 @@
       "sourceStatus": "USER_DIRECTED_2026_11_11",
       "notes": "Adult student, age 22. Quieter, observant, academically sincere and slightly shy; Bobby-like personality contrast only, not copied story scenes. No approved romance/sexual event.",
       "status": "USER_DIRECTED_ADULT_STUDENT_TWIN",
-      "classGroup": "College undergraduate, exact program/semester TBD"
+      "classGroup": "College undergraduate, exact program/semester TBD",
+      "ep03ShivaniGroup": "OFFICE_TWINS_AGE_PEER_STUDENT_CORE",
+      "ep03ShivaniStatus": "USER_LOCKED_2026_11_15",
+      "memberGroupMeaning": "Office Twins is an author-defined 22-year-old college student cohort; NOT a biological twin requirement."
     },
     {
       "id": "dheeraj",
@@ -918,21 +928,25 @@
       "id": "shivani_woman_01",
       "name": "Pooja",
       "age": 23,
-      "role": "Assistant Professor · Shivani's faculty colleague",
+      "role": "Junior Assistant Professor · Shivani's younger faculty colleague (teacher, not student)",
       "group": "office",
       "house": "shivani",
-      "sourceStatus": "PROPOSED",
-      "notes": "Proposed female faculty colleague; no student-teacher confusion."
+      "sourceStatus": "USER_CONFIRMED_JUNIOR_TEACHER_2026_11_15",
+      "notes": "Young adult junior teacher; do not group with student Office Twins; existing faculty interactions preserved.",
+      "ep03ShivaniGroup": "JUNIOR_FACULTY_EXCLUDED_FROM_TWINS",
+      "ep03ShivaniStatus": "USER_LOCKED_2026_11_15"
     },
     {
       "id": "shivani_woman_02",
       "name": "Kriti",
       "age": 24,
-      "role": "College event / cultural coordinator · staff colleague",
+      "role": "Junior college teacher · cultural coordination duty · Shivani's faculty colleague",
       "group": "office",
       "house": "shivani",
-      "sourceStatus": "PROPOSED",
-      "notes": "From recent new-universe character discussion; not yet confirmed for on-page episodes."
+      "sourceStatus": "USER_CONFIRMED_JUNIOR_TEACHER_2026_11_15",
+      "notes": "Young adult junior teacher, with college cultural/event coordination duties; not a college student or Office Twins member.",
+      "ep03ShivaniGroup": "JUNIOR_FACULTY_EXCLUDED_FROM_TWINS",
+      "ep03ShivaniStatus": "USER_LOCKED_2026_11_15"
     },
     {
       "id": "shivani_woman_03",
@@ -1105,7 +1119,10 @@
       "group": "college-student",
       "house": "shivani",
       "sourceStatus": "PROPOSED_FOR_COLLEGE_CAST",
-      "notes": "Independent academic goals, capable class representative, supportive friend to peers; not part of erotic interest routes."
+      "notes": "Independent academic goals, capable class representative, supportive friend to peers; not part of erotic interest routes.",
+      "ep03ShivaniGroup": "OFFICE_TWINS_AGE_PEER_STUDENT_CORE",
+      "ep03ShivaniStatus": "USER_LOCKED_2026_11_15",
+      "memberGroupMeaning": "Office Twins is an author-defined 22-year-old college student cohort; NOT a biological twin requirement."
     },
     {
       "id": "shivani_student_ritika",
@@ -1115,17 +1132,22 @@
       "group": "college-student",
       "house": "shivani",
       "sourceStatus": "PROPOSED_FOR_COLLEGE_CAST",
-      "notes": "Adds peer-to-peer student dialogue and campus social realism; independent character, not just an observer of twins."
+      "notes": "Adds peer-to-peer student dialogue and campus social realism; independent character, not just an observer of twins.",
+      "ep03ShivaniGroup": "OFFICE_TWINS_AGE_PEER_STUDENT_CORE",
+      "ep03ShivaniStatus": "USER_LOCKED_2026_11_15",
+      "memberGroupMeaning": "Office Twins is an author-defined 22-year-old college student cohort; NOT a biological twin requirement."
     },
     {
       "id": "shivani_student_arjun",
       "name": "Arjun Mehta",
       "age": 23,
-      "role": "Undergraduate student · student cultural committee representative",
+      "role": "Adult undergraduate student · occasional future recurring appearance",
       "group": "college-student",
       "house": "shivani",
-      "sourceStatus": "PROPOSED_FOR_COLLEGE_CAST",
-      "notes": "Optional non-twin classmate; organizational student contact; no romantic interest assumed."
+      "sourceStatus": "USER_DEFERRED_FUTURE_OCCASIONAL_2026_11_15",
+      "notes": "Deferred from Shivani EP03 active Office Twins: may appear incidentally in later scenes. Cultural committee membership/responsibility is removed; do not introduce him as current cultural coordinator or core group member.",
+      "ep03ShivaniGroup": "DEFERRED_FUTURE_CAMEOS_NOT_TWINS",
+      "ep03ShivaniStatus": "NOT_IN_EP03_CORE"
     },
     {
       "id": "shivani_faculty_aarav",
@@ -2886,5 +2908,64 @@
       "notKnownToAnkita": true,
       "futureAction": "NONE_CONFIRMED"
     }
-  ]
+  ],
+  "shivaniEpisode03CastLock": {
+    "status": "AUTHOR_LOCKED_FOR_EP03_2026_11_15",
+    "definition": "Office Twins is the author's colloquial cohort label for comparable-age college candidates, not necessarily biological twins and not for every person aged 22–24. Members are the four named adult students only.",
+    "officeTwinsStudentCore": [
+      {
+        "id": "harsh",
+        "name": "Harsh",
+        "age": 22
+      },
+      {
+        "id": "laksh",
+        "name": "Laksh",
+        "age": 22
+      },
+      {
+        "id": "shivani_student_nandini",
+        "name": "Nandini",
+        "age": 22
+      },
+      {
+        "id": "shivani_student_ritika",
+        "name": "Ritika",
+        "age": 22
+      }
+    ],
+    "officeChotu": {
+      "id": "sunny",
+      "name": "Sunny",
+      "age": 22,
+      "role": "AV/academic assistant"
+    },
+    "societyChotu": {
+      "id": "deepu",
+      "name": "Deepu",
+      "age": 22,
+      "role": "Society cultural-event helper"
+    },
+    "juniorFacultyExcluded": [
+      {
+        "id": "shivani_woman_01",
+        "name": "Pooja",
+        "age": 23
+      },
+      {
+        "id": "shivani_woman_02",
+        "name": "Kriti",
+        "age": 24
+      }
+    ],
+    "futureOnly": {
+      "id": "shivani_student_arjun",
+      "name": "Arjun Mehta",
+      "age": 23,
+      "note": "Not in Office Twins; no cultural committee role; occasional future appearances only"
+    },
+    "biologicalTwinsNote": "Harsh and Laksh are also biological twins by existing canon. Nandini and Ritika are same-age peers only.",
+    "sourceProtection": "Do not retroactively rewrite or delete published Episode 02 student and staff scenes.",
+    "episode03PlotStatus": "CAST_LOCK_ONLY_NO_SCENES_APPROVED"
+  }
 }
