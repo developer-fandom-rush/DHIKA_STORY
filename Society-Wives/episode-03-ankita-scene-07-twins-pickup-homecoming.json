@@ -132,13 +132,13 @@
       "id": "S07-07",
       "time": "~17:41–17:45",
       "heading": "Karan's suspicion, not omniscient jealousy",
-      "plot": "Near the society entrance both vehicles stop safely. Karan notices Ankita and Aman are quieter than before and teases his brother. Aman does not explain the ride moment. Karan senses exclusion and rivalry but has no evidence of an intimate event. Ankita neither confirms a romance nor rewards competition between the brothers."
+      "plot": "Near the society entrance both vehicles stop safely. Karan notices Ankita and Aman are quieter than before and teases his brother. Aman does not explain the ride moment. Karan senses exclusion and rivalry but has no evidence of an intimate event. Ankita neither confirms a romance nor rewards competition between the brothers. While safely parked before reaching the building, the narrator establishes that Rinku is already Ankita's familiar building helper from regular repairs, small deliveries and errands; no new first meeting, gate conversation or same-day Rinku appearance occurs here."
     },
     {
       "id": "S07-08",
       "time": "~17:45–17:50",
-      "heading": "Gopal's changed look and apartment cut",
-      "plot": "Gopal's slightly changed gaze at Gulmohar Heights is noticed by Ankita, but the parcel secret from EP02 P01/P08 remains reader-only and unrevealed. Ankita and the twins reach home before 18:00. End at apartment arrival, without parcel opening, Rajeev confrontation, added kiss or an invented evening continuation; follow-up relationship meaning stays unresolved."
+      "heading": "Gopal silently observes — no follow-up",
+      "plot": "At the Gulmohar Heights gate Gopal notices Ankita and the twins and briefly looks away in an unusually guarded manner. Ankita catches only a changed expression, not his reader-only parcel secret from EP02 P01–P08. Gopal says NOTHING; Ankita neither questions him nor has a conversation with Mahendra or any other elder. The three proceed home and reach the apartment by ~17:50. Rajeev is away and the private parcel remains in his custody; no handover, inventory check, dinner or meeting. Scene ends at the apartment arrival, before Ankita's 18:10 private reset and Rinku setup."
     }
   ],
   "authorLocks": [
@@ -150,8 +150,10 @@
     "Clothed waist-to-stomach grip is unexpected; Ankita notices and repositions the hand. No automatic inference of reciprocal attraction or permission from mere contact.",
     "Karan is on a separate bike, so he cannot witness Aman's precise contact or know Ankita's thoughts; his jealousy is inference, not fact.",
     "Gopal's EP02 parcel knowledge remains reader-only, no premature disclosure.",
-    "Scene ends at apartment arrival before 18:00; no new parcel or after-party plot.",
-    "Plot displayed for review, prose not written; scene source and global timeline must agree."
+    "Scene07 ends at apartment arrival around 17:50; Rajeev is absent and retains parcel, with no handover, inventory, evening dinner, or elders return. Scene08 follows at 18:10.",
+    "Plot displayed for review, prose not written; scene source and global timeline must agree.",
+    "Gopal only gives a silent changed look at the gate; NO dialogue or follow-up; no Mahendra interaction.",
+    "Rinku familiarity is introduced narratively before arriving at the building; his first no-dupatta view belongs to the next episode after Scene08's doorbell cut."
   ],
   "futureHooks": [
     {
@@ -167,12 +169,12 @@
       "text": "Gopal's odd manner recalls EP02 P01/P08, reader-only parcel secret."
     },
     {
-      "kind": "Home",
-      "text": "Archived A14 parcel/home beat is separately parked, not silently activated."
-    },
-    {
       "kind": "Office party",
       "text": "Sana, Aishwarya, Vivan and Reyansh remain celebrating; later activity unplanned."
+    },
+    {
+      "kind": "Next scene",
+      "text": "Scene08 (18:10–18:25) fresh-up, day knowledge-recap, established Rinku helper and doorbell cliff. Rajeev absent with parcel in his custody; no Gopal/elder return."
     }
   ],
   "changeLog": [
@@ -181,5 +183,6 @@
       "origin": "User-requested Scene07 UI addition",
       "change": "Replaced car pickup with Karan bike and Aman scooty, Ankita driving, eight source-comparable plot beats, clothed contact and distinct reactions. Plot only; no prose."
     }
-  ]
+  ],
+  "nextScene": "episode-03-ankita-scene-08-rinku-setup.json"
 }
