@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "id": "SW-SHIVANI-EP03-CAST-LOCK",
+  "episode": "03",
+  "lead": "shivani",
+  "status": "AUTHOR_LOCKED_FOR_EP03_2026_11_15",
+  "date": "2026-01-01",
+  "timezone": "Asia/Kolkata",
+  "title": "Shivani — Office Twins (age cohort) and Chotu assignments",
+  "definition": "Office Twins is the author's colloquial cohort label for comparable-age college candidates, not necessarily biological twins and not for every person aged 22–24. Members are the four named adult students only.",
+  "officeTwinsStudentCore": [
+    {
+      "id": "harsh",
+      "name": "Harsh",
+      "age": 22
+    },
+    {
+      "id": "laksh",
+      "name": "Laksh",
+      "age": 22
+    },
+    {
+      "id": "shivani_student_nandini",
+      "name": "Nandini",
+      "age": 22
+    },
+    {
+      "id": "shivani_student_ritika",
+      "name": "Ritika",
+      "age": 22
+    }
+  ],
+  "officeChotu": {
+    "id": "sunny",
+    "name": "Sunny",
+    "age": 22,
+    "role": "AV/academic assistant"
+  },
+  "societyChotu": {
+    "id": "deepu",
+    "name": "Deepu",
+    "age": 22,
+    "role": "Society cultural-event helper"
+  },
+  "juniorFacultyExcluded": [
+    {
+      "id": "shivani_woman_01",
+      "name": "Pooja",
+      "age": 23
+    },
+    {
+      "id": "shivani_woman_02",
+      "name": "Kriti",
+      "age": 24
+    }
+  ],
+  "futureOnly": {
+    "id": "shivani_student_arjun",
+    "name": "Arjun Mehta",
+    "age": 23,
+    "note": "Not in Office Twins; no cultural committee role; occasional future appearances only"
+  },
+  "biologicalTwinsNote": "Harsh and Laksh are also biological twins by existing canon. Nandini and Ritika are same-age peers only.",
+  "sourceProtection": "Do not retroactively rewrite or delete published Episode 02 student and staff scenes.",
+  "episode03PlotStatus": "CAST_LOCK_ONLY_NO_SCENES_APPROVED",
+  "episode02End": "D01, approximately 13:20–13:30 on Jan 1: Shivani still in college, unaware of unauthorized private-photo copies. Preserve previous events.",
+  "ageCohortRule": "The Office Twins are specifically these four student peers; this is not a census of every similar-age person and not a biological-twin statement about Nandini or Ritika.",
+  "exclusions": [
+    "Arjun Mehta is not part of the active four-person EP03 Office Twins group and has no cultural committee position; he can recur briefly in future stories.",
+    "Pooja and Kriti are junior teachers (faculty), not students and not Office Twins, despite being ages 23 and 24.",
+    "Sunny is the College/Office Chotu AV assistant, not a student in Office Twins.",
+    "Deepu is the Society Chotu, not the College/Office Chotu or Office Twins.",
+    "Do not create EP03 encounters or prose from this cast-only lock."
+  ],
+  "nextWork": "Discuss Shivani Episode03 first scene after D01; no plot scene yet approved and UI must not imply otherwise."
+}
