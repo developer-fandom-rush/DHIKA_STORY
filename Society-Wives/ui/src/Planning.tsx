@@ -6,6 +6,8 @@ type AnkitaStage={id:string;title:string;start:string;end:string;approval:string
 type NarratorStyleRule={status:string;origin:string;appliesTo:string;methods:string[];examplePhrases:string[];useInstructions:string[];sceneTemplate:string[];};
 type AnkitaScene02={scene:string;title:string;status:string;date:string;start:string;end:string;castNames:string[];sequence:{id:string;time:string;heading:string;plot:string;suggestedDialogue?:{speaker:string;line:string}[]}[];lockedDecisions:string[];exclusions:string[];proseStatus:string;nextScene:string;wardrobe:{character:string;look:string;status:string}[];};
 type AnkitaScene03={title:string;status:string;start:string;end:string;beats:{id:string;time:string;name:string;plot:string;suggestedCliffDialogue?:string}[];validation:{requirement:string;status:string;beat:string}[];proseStatus:string;nextSceneSeed:string;};
+type RohitPlot={title:string;status:string;date:string;beats:{id:string;name:string;plot:string;dialogue?:{speaker:string;line:string}[]}[];costumeContinuity?:{scene04Entry:string};authorLocks?:string[];};
+type RohitFirstShow={title:string;status:string;date:string;wardrobe:{jan02:string;accidental:string;deliberate:string};encounters:{id:string;title:string;phase:string;beats:{id:string;name:string;plot:string}[]}[];validation:{jan1IntroductionOnly:boolean;jan1UpperButtonsClosed:boolean;jan2AccidentFirst:boolean;jan2DeliberateFirstShowLaterSameDay:boolean;exactJan2Clock:string;jan2Wardrobe:string};};
 export default function Planning({lead,initialScene}:{lead:string;initialScene?:string|null}){
  const active=leadOrder.includes(lead)?lead:'meenakshi';
  const {data:current,error:currentError}=useData<Plan>('episode-03-meenakshi-scene-01.json');
@@ -17,6 +19,8 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
  const {data:ankitaOpening,error:ankitaOpeningError}=useData<Plan>('episode-03-ankita-a11-scene-01-opening.json');
  const {data:ankitaScene02,error:ankitaScene02Error}=useData<AnkitaScene02>('episode-03-ankita-scene-02.json');
  const {data:ankitaScene03,error:ankitaScene03Error}=useData<AnkitaScene03>('episode-03-ankita-scene-03.json');
+ const {data:rohitIntro,error:rohitIntroError}=useData<RohitPlot>('episode-03-ankita-scene-04-rohit-intro.json');
+ const {data:rohitFirstShow,error:rohitFirstShowError}=useData<RohitFirstShow>('episode-04-ankita-rohit-first-show.json');
  const {data:writingStyle,error:writingStyleError}=useData<Plan>('flirting-style.json');
  const {data:shreyaFuture}=useData<Plan>('episode-03-shreya-plan.json');
  useEffect(()=>{
@@ -89,6 +93,23 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
       <details className="episode-outline"><summary>Author instruction validation · 5 of 5 beats</summary><div className="beat-list">{ankitaScene03.validation.map(v=><div className="beat-item" key={v.beat}><p><strong>{v.beat} · {v.status}:</strong> {v.requirement}</p></div>)}</div></details>
       <p className="muted">{ankitaScene03.status.replace(/_/g,' ')} · {ankitaScene03.proseStatus.replace(/_/g,' ')}. Next: {ankitaScene03.nextSceneSeed}</p></>}
       {ankitaScene03Error&&<p role="alert">Ankita Scene 03 plot source unavailable: {ankitaScene03Error}</p>}
+    </article>
+
+    <article className="episode-plan-card" id="ankita-ep03-scene04-rohit"><span className="eyebrow">Ankita · EP03 · 1 Jan 2026 · Scene 04 · User-finalized INTRO only</span>
+      <h2>{rohitIntro?.title||'Office Chotu — Rohit Babu Introduction'}</h2>
+      <p>After 15:30 · Cyber City IT office · Ankita and Rohit (22)</p>
+      {rohitIntro&&<><p><strong>Outfit continuity:</strong> {rohitIntro.costumeContinuity?.scene04Entry}</p>
+      <div className="beat-list">{rohitIntro.beats.map(q=><div className="beat-item" key={q.id}><h3>{q.name}</h3><p>{q.plot}</p>{q.dialogue?.map((d,i)=><p key={i}><strong>{d.speaker}:</strong> {d.line}</p>)}</div>)}</div>
+      <p className="muted">INTRO only — no accidental glance or deliberate first show on Jan 1. {rohitIntro.status.replace(/_/g,' ')}</p></>}
+      {rohitIntroError&&<p role="alert">Rohit introduction not loaded: {rohitIntroError}</p>}
+    </article>
+    <article className="episode-plan-card" id="ankita-ep04-rohit-first-show"><span className="eyebrow">Ankita · EP04 · 2 Jan 2026 · First accidental look + deliberate first show (same day)</span>
+      <h2>{rohitFirstShow?.title||'Rohit Babu — The Accidental Look and First Show'}</h2>
+      <p>2 January · First encounter in morning, second later on the same office day · Exact clock and wardrobe color provisional</p>
+      {rohitFirstShow&&<><details className="episode-outline"><summary>Next-day outfit and visual triggers (proposed)</summary><p>{rohitFirstShow.wardrobe.jan02}</p><p><strong>Accidental:</strong> {rohitFirstShow.wardrobe.accidental}</p><p><strong>Deliberate:</strong> {rohitFirstShow.wardrobe.deliberate}</p></details>
+      {rohitFirstShow.encounters.map(enc=><div key={enc.id} className="beat-list"><h3>{enc.title}</h3>{enc.beats.map(q=><div className="beat-item" key={q.id}><span className="eyebrow">{q.id} · {enc.phase}</span><h3>{q.name}</h3><p>{q.plot}</p></div>)}</div>)}
+      <p className="muted">{rohitFirstShow.status.replace(/_/g,' ')} · Clock and next-day outfit need separate author approval; no prose written.</p></>}
+      {rohitFirstShowError&&<p role="alert">Rohit Jan 2 first-show plot not loaded: {rohitFirstShowError}</p>}
     </article>
     {ankitaOpeningError&&<p role="alert">Ankita opening plot source missing: {ankitaOpeningError}</p>}
   </section>}
