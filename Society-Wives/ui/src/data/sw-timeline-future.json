@@ -6,7 +6,7 @@
     "EP01 is an undated prologue; do not manufacture Jan 1 date.",
     "M08 and Shreya SR10–SR13 are rescheduled, NOT cancelled/deferred.",
     "Older Jan2 Meenakshi outline is archived; the discarded photographic opening has been removed and must not be revived.",
-    "Superseded A11–A17 legacy plots are retained only in source archive, not rendered as active future events; Jan1 EP03 Scenes01–04 supersede A11/A12. Jan2 Rohit slots are proposed."
+    "Ankita Jan1 EP03 ends 18:25 with Rinku doorbell. Next Ankita episode focuses on Rinku's first no-dupatta look/service visit; episode date remains unassigned. Rohit Jan2 office sequence is preserved as a future episode, no longer the immediate next."
   ],
   "events": [
     {
@@ -44,7 +44,7 @@
       "detail": "Serious ward work first: Meenakshi reviews a case; Avi is openly confident; Yash checks figures; Aditi handles a difficult follow-up independently. Aditi (24) is their same-age female peer: witty and observant, not a prop or a presumed romantic participant. At the file handoff, Avi compliments Meenakshi's composure; Yash is quiet but attentive; Aditi notices their different responses. Meenakshi says thank you professionally and does not allow patient care to become flirting."
     },
     {
-      "id": "ep04-ankita-rohit-accident",
+      "id": "future-ankita-rohit-accident",
       "date": "2026-01-02",
       "sort": "09:40",
       "start": "09:40",
@@ -58,11 +58,11 @@
         "Rohit"
       ],
       "mentions": [],
-      "episode": "04",
+      "episode": "TBD_AFTER_RINKU",
       "scene": "rohit-first-show",
       "kind": "planned",
-      "state": "plot-locked",
-      "status": "User-directed EP04 plot · timing provisional",
+      "state": "plot-preserved-episode-open",
+      "status": "Jan2 office plot preserved · episode number TBD after Rinku",
       "source": "episode-04-ankita-rohit-first-show.json",
       "reader": {
         "type": "sw-plan",
@@ -70,7 +70,8 @@
         "scene": "rohit-first-show"
       },
       "flags": [
-        "Start/end proposed; next-day wardrobe not locked"
+        "Start/end proposed; next-day wardrobe not locked",
+        "Rinku gets the immediate next Ankita episode; this Rohit event must not be labelled EP04 yet"
       ],
       "detail": "First distinct Jan2 encounter; accidental look only"
     },
@@ -171,7 +172,7 @@
       "detail": "Chotu-equivalent in the hospital is Naveen (22), an admin assistant already present in 1 Jan M06; not a newly invented stranger. Introduce his established function and familiarity through reliable shift-sheet work; any family hardship, tuition or nickname backstory is only a proposal until accepted. He delivers the senior-review annexure, discovers one page is missing, offers to retrieve it and returns after a short interval. Meenakshi nicknames his speed 'express service'; his private impression is that her encouragement feels personal, while she regards it as friendly senior-colleague warmth. The missing-document-and-second-visit mechanism is separate from Babloo's society delivery."
     },
     {
-      "id": "ep04-ankita-rohit-first-show",
+      "id": "future-ankita-rohit-first-show",
       "date": "2026-01-02",
       "sort": "14:00",
       "start": "14:00",
@@ -185,11 +186,11 @@
         "Rohit"
       ],
       "mentions": [],
-      "episode": "04",
+      "episode": "TBD_AFTER_RINKU",
       "scene": "rohit-first-show",
       "kind": "planned",
-      "state": "plot-locked",
-      "status": "User-directed EP04 plot · timing provisional",
+      "state": "plot-preserved-episode-open",
+      "status": "Jan2 office plot preserved · episode number TBD after Rinku",
       "source": "episode-04-ankita-rohit-first-show.json",
       "reader": {
         "type": "sw-plan",
@@ -197,7 +198,8 @@
         "scene": "rohit-first-show"
       },
       "flags": [
-        "Start/end proposed; explicit outfit decision pending"
+        "Start/end proposed; explicit outfit decision pending",
+        "Rinku gets the immediate next Ankita episode; this Rohit event must not be labelled EP04 yet"
       ],
       "detail": "Second distinct Jan2 encounter; compliment, reflection and Ankita-led look"
     },
