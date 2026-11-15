@@ -94,7 +94,7 @@
       "number": "03",
       "title": "Continuations",
       "subtitle": "Meenakshi Jan 1 continuation; older future-day drafts retained",
-      "status": "MEENAKSHI_SCENE01_APPROVED_SCENE02_GROK_ORIGINAL_F01_F09_PUBLISHED",
+      "status": "MEENAKSHI_SCENE01_APPROVED_SCENE02_GROK_F01_F04_APPROVED_F05_F09_SOURCE",
       "date": "1 January 2026 for Meenakshi Scene 01; separate 2–3 January drafts remain",
       "mainPath": "episode-03-meenakshi-scene-01.html",
       "relatedPaths": [
@@ -111,7 +111,7 @@
         "episode-03-shreya-plan.json",
         "episode-03-meenakshi-planning.html"
       ],
-      "note": "Scene01 Jan1 13:50–14:15 now author-approved compact prose published; M12 locker thought has passed; Naveen is a 1.5-year familiar coworker; Scene02 Jan1 from 17:00: author-supplied Grok F01–F09 originals published in reading UI without editorial substitution; previously approved F01 and F04 plus working F06 GPT drafts retained separately. F10–F22 still outline only; Scene03 same-day society twins badminton around 18:15 is review-only proposal, NOT timeline-approved until Scene02 return travel is feasible. EP04 Naveen 14:15 continuation open, no follow-up published. Older Jan2 planner preserved. Scene03 former doubles invitation deferred and old ending removed; new five-minute ride proposal now archived as user-verbatim planning requirement, full prose not approved. Meenakshi EP03 now ends after Babloo B01–B05 approved first personal encounter at Tower C; next-day car assistance is a possible EP04 follow-up; no doorbell-only ending.",
+      "note": "Scene01 Jan1 13:50–14:15 now author-approved compact prose published; M12 locker thought has passed; Naveen is a 1.5-year familiar coworker; Scene02 Jan1 from 17:00: author approved Grok compact redlines F01–F04; F06 second Grok submission confirmed as direct continuation, original F05–F09 text visible as drafts. Original raw archive and prior GPT edits retained separately. F10–F22 still outline only; Scene03 same-day society twins badminton around 18:15 is review-only proposal, NOT timeline-approved until Scene02 return travel is feasible. EP04 Naveen 14:15 continuation open, no follow-up published. Older Jan2 planner preserved. Scene03 former doubles invitation deferred and old ending removed; new five-minute ride proposal now archived as user-verbatim planning requirement, full prose not approved. Meenakshi EP03 now ends after Babloo B01–B05 approved first personal encounter at Tower C; next-day car assistance is a possible EP04 follow-up; no doorbell-only ending.",
       "chapters": [
         {
           "lead": "Meenakshi",
@@ -128,10 +128,10 @@
           "title": "The Farmhouse Evening — Scene 02",
           "date": "2026-01-01",
           "time": "17:00 onward; ending TBD",
-          "status": "AUTHOR_GROK_ORIGINAL_F01_F09_PUBLISHED_GPT_VERSIONS_SEPARATE",
+          "status": "F01_F04_AUTHOR_APPROVED_COMPACT_F06_TWO_PART_GROK_READING_F05_F09_SOURCE",
           "mainPath": "episode-03-meenakshi-scene-02.html",
           "dataPath": "episode-03-meenakshi-scene-02.json",
-          "description": "Full original Grok drafts F01–F09 restored verbatim as author-supplied content in a dedicated immutable-source-style JSON, including both F06 versions and separate F08 addendum. Existing GPT editorial drafts retained as separate comparison, not overwriting originals. F10–F22 remain plot-only."
+          "description": "Author approved Grok-original compact redlines F01-F04, except retained F04 natural sway paragraph and removed final F04 invitation + atmosphere summary. F06 second Grok text directly continues F06 first (not alternative). F05-F09 Grok text shown in primary reading, without final beat approval. Originals and prior GPT drafts retained separately."
         },
         {
           "lead": "Meenakshi",
