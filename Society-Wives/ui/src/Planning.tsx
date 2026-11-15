@@ -24,6 +24,8 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
  const {data:authorSelected,error:authorSelectedError}=useData<AuthorSelected>('episode-03-meenakshi-scene-02-author-selected.json');
  const {data:twins,error:twinsError}=useData<Plan>('episode-03-meenakshi-scene-03-twins.json');
  const {data:bablooIntro,error:bablooIntroError}=useData<Plan>('episode-03-meenakshi-scene-04-babloo-intro.json');
+ const bablooProse=(bablooIntro?.proseDraft as {status?:string;beats?:{id:string;title:string;raw:string}[]}|undefined);
+ const bablooFoundation=(bablooIntro?.foundationContinuityRule as {prohibitions?:string[];forwardGuidance?:string}|undefined);
  const {data:meenaFuture}=useData<Plan>('episode-03-meenakshi-plan.json');
  const {data:ankitaOpening,error:ankitaOpeningError}=useData<Plan>('episode-03-ankita-a11-scene-01-opening.json');
  const {data:ankitaScene02,error:ankitaScene02Error}=useData<AnkitaScene02>('episode-03-ankita-scene-02.json');
@@ -123,9 +125,12 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
    {authorNotes&&<details className="episode-outline author-notes"><summary>Author's original requirements (verbatim, planning only)</summary><pre>{authorNotes}</pre></details>}
    <p className="muted">The Ishita doubles invitation is planned for a future scene (date pending), not cancelled. No ride outcome or accidental car interference has been promoted to canon.</p>
   </article>
-  <article className="episode-plan-card" id="ep03-meenakshi-scene-04"><span className="eyebrow">EP 03 · Scene 04 · Author-approved plot, no prose</span><h2>The First Different Look — Babloo</h2>
+  <article className="episode-plan-card" id="ep03-meenakshi-scene-04"><span className="eyebrow">EP 03 · Scene 04 · Full B01–B05 prose draft saved for review · Plot approved</span><h2>The First Different Look — Babloo</h2>
    <p>1 January 2026 · Around 18:45–19:00 · Tower C entrance and lift lobby</p>
    <p>Babloo (23) is already Meenakshi's familiar society pharmacy pickup helper. This is their first proper personal on-page encounter, not their first-ever introduction.</p>
+   {bablooProse?.beats?.length?<section className="source-note" id="meenakshi-babloo-full-prose"><span className="eyebrow">Read the full story · B01–B05 · Author review draft</span><p>The scene text below is the saved draft, not a newly generated revision.</p>{bablooProse.beats.map(b=><details className="episode-outline" key={b.id} open={b.id==='B01'?true:undefined}><summary><strong>{b.id} — {b.title}</strong></summary><div className="source-scene prose-exact">{renderGrokRaw(b.raw)}</div></details>)}<p><a href={assetUrl('episode-03-meenakshi-scene-04-babloo-intro.html')}>Read Scene 04 continuously</a></p></section>:null}
+   {bablooFoundation&&<details className="episode-outline" id="babloo-foundation-rule"><summary>Future-writing rule · No repeating Babloo–Meenakshi foundation</summary><p>{bablooFoundation.forwardGuidance}</p><ul>{bablooFoundation.prohibitions?.map((q,i)=><li key={i}>{q}</li>)}</ul></details>}
+
    {bablooIntro?<div className="babloo-intro">
      <p>{str(bablooIntro.introAndHistory)}</p>
      <div className="beat-list">{(bablooIntro.beats||[]).map((b,i)=><div className="beat-item" key={b.id||i}><span className="eyebrow">{b.id||'Plot beat'}</span><h3>{b.title||'Untitled beat'}</h3><p>{str(b.action)}</p>
@@ -134,7 +139,7 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
      </div>)}</div>
      <p><strong>EP03 Meenakshi ending:</strong> She accepts Babloo's offer to help with her car tomorrow, and parts by the lift. EP04 car recovery is a possible continuation, not written yet.</p>
    </div>:<p>{bablooIntroError||'Loading approved Babloo outline…'}</p>}
-   <p className="muted">Five-beat author-approved plot only. Timing remains provisional pending the farmhouse-to-badminton continuity review. No missing-parcel or second-doorbell plot.</p>
+   <p className="muted">B01–B05 plot approved, prose draft now saved for author review. Timing remains provisional pending farmhouse-to-badminton continuity. No missing-parcel or second-doorbell plot.</p>
   </article>
     <article className="source-note" id="ep03-meenakshi-scene-HS-NIGHT"><span className="eyebrow">Future episode seed · 1 January · late night · exact hour TBD</span><h2>Harish &amp; Sunil — Outside Society</h2><p>Only after the others have left: a short reader-only scene outside Gulmohar Heights. The two workers privately consider their hidden attraction and future approach. Female staff remain unaware. This is not Scene 02 prose, and no encounter or outcome has been written.</p><p className="muted">Author-directed placement reserved in the universal timeline; write only in a future episode.</p></article>
     <article id="ep04-meenakshi-handoff"><span className="eyebrow">EP 04 · Reserved continuation</span><h2>Same moment, next episode</h2><p>1 January 2026 · 14:15 onwards</p><p>No continuation prose approved or written. This marker is a handoff, not a generated scene.</p><p className="muted">This continuation will appear here once its outline is written and approved.</p></article></section>}
