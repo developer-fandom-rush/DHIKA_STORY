@@ -3,8 +3,44 @@
   "universe": "sw",
   "anchorDate": "2026-01-01",
   "clockOrigin": "00:01",
-  "sourcePolicy": "Source-scene order retained; cross-lead events sorted by clock, not author approval. No prose rewritten. Taniya/Soniya source duplicates indexed once. EP03 Ankita scene-01–04 plotting entries indexed separately from approved EP02 source scenes.",
+  "sourcePolicy": "Source-scene order retained; cross-lead events sorted by clock, not author approval. No prose rewritten. Taniya/Soniya source duplicates indexed once. EP03 Ankita scene-01–08 plotting entries indexed separately from approved EP02 source scenes. Jan1 Ankita plot ends at 18:25, no later discarded home or elders scenes.",
   "events": [
+    {
+      "id": "jan01-meenakshi-harish-sunil-night-future",
+      "date": "2026-01-01",
+      "sort": null,
+      "start": null,
+      "end": null,
+      "timeLabel": "Late night · after everyone has left · exact time TBD",
+      "universe": "sw",
+      "title": "Harish & Sunil — Outside Society (future-episode seed)",
+      "subtitle": "Reader-only intentions; no present-day prose or encounter",
+      "lead": "Meenakshi",
+      "characters": [
+        "Harish Pal",
+        "Sunil Yadav"
+      ],
+      "mentions": [
+        "Meenakshi"
+      ],
+      "episode": "Future plan",
+      "scene": "HS-NIGHT",
+      "kind": "planned",
+      "state": "future-proposal",
+      "status": "Author-directed night placement · plot-only · not written",
+      "source": "episode-02-meenakshi-plan.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "meenakshi",
+        "scene": "HS-NIGHT"
+      },
+      "flags": [
+        "Not an Episode 03 scene",
+        "No fixed clock time",
+        "Female staff unaware of workers' private motives"
+      ],
+      "detail": "1 January 2026, late night, outside Gulmohar Heights society after the others have gone. Harish and Sunil have a brief private reader-only POV about their hidden attraction and future plans. They have not approached Meenakshi or carried out those plans. This belongs to a future episode and must not interrupt the Farmhouse Scene 02 or 14:15 Naveen handoff."
+    },
     {
       "id": "e02-ankita-A02-SCENE-1",
       "date": "2026-01-01",
@@ -2958,7 +2994,7 @@
       "end": "17:50",
       "timeLabel": "17:20–17:50 (proposed)",
       "universe": "sw",
-      "title": "Scene 07 — The Unexpected Hold (Karan, Aman & Ankita)",
+      "title": "Scene 07 — Twins Ride and Gopal's Silent Observation",
       "lead": "Ankita",
       "characters": [
         "Ankita",
@@ -2983,14 +3019,59 @@
         "scene": "07"
       },
       "flags": [
-        "Two separate two-wheelers: Karan bike, Aman scooty",
-        "Ankita drives Aman's scooty; Aman pillion, Karan separate",
-        "Ankita corrects unexpected waist-to-stomach grip; consent not inferred",
-        "Karan's jealousy is speculation, not witnessed detail",
-        "Gopal parcel knowledge reader-only",
-        "Home before 18:00; plot only"
+        "Gopal silently observes; no Mahendra or elder dialogue",
+        "Rajeev is away; parcel stays in Rajeev custody",
+        "Ankita drives Aman's scooty with Aman pillion; Karan rides separately",
+        "Rinku pre-established as building helper"
       ],
-      "detail": "Party exit and group photo; Karan arrives by bike, Aman by scooty; Ankita drives Aman's scooty with Aman pillion. His clothed balancing grip shifts from waist toward stomach and Ankita redirects his hand; Karan notices only subsequent silence and privately wonders. Gopal's changed look at the gate; home before 18:00, no parcel reveal. Prose not written."
+      "detail": "Ankita drives Aman's scooty while Karan rides separately. Gopal only makes a changed silent glance at society gate; no conversation. Rinku is already a familiar building helper but not met yet. Rajeev is away with the parcel in his own custody. Home around 17:50; Scene08 starts 18:10."
+    },
+    {
+      "id": "ep03-ankita-scene08",
+      "date": "2026-01-01",
+      "sort": "18:10",
+      "start": "18:10",
+      "end": "18:25",
+      "timeLabel": "18:10–18:25",
+      "universe": "sw",
+      "title": "Scene 08 — The Quiet Reset: Rinku Doorbell Setup",
+      "lead": "Ankita",
+      "characters": [
+        "Ankita",
+        "Rinku"
+      ],
+      "mentions": [
+        "Gopal",
+        "Rajeev",
+        "Mahendra Suri",
+        "Om",
+        "Subhash",
+        "Mohan",
+        "Arvind",
+        "Karan",
+        "Aman",
+        "Kabir",
+        "Rohit"
+      ],
+      "episode": "03",
+      "scene": "08",
+      "kind": "planned",
+      "state": "plot-review",
+      "status": "User-directed plot only · final Ankita Jan1 scene",
+      "source": "episode-03-ankita-scene-08-rinku-setup.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "ankita",
+        "scene": "08"
+      },
+      "flags": [
+        "18:10–18:25 home fresh-up and day recall",
+        "Separate Ankita's known events and reader-only P01–P08",
+        "Rajeev away, retains parcel; no handover or discovery",
+        "No Gopal/elders interaction, family dinner or Kabir closing talk",
+        "Rinku doorbell cut before first view of no-dupatta outfit"
+      ],
+      "detail": "Ankita freshens, changes to no-dupatta homewear, recalls her day; narrator separates secret parcel events. Already familiar building helper Rinku comes for a routine tap maintenance check, bell at ~18:25 and cut before opening. Rinku first sees this home outfit next episode."
     },
     {
       "id": "e03-meenakshi-03",
@@ -3136,42 +3217,6 @@
           "internal": "EP03 Meenakshi viewpoint ends here; Episode 04 car-recovery scene is a potential next encounter, not already written."
         }
       ]
-    },
-    {
-      "id": "jan01-meenakshi-harish-sunil-night-future",
-      "date": "2026-01-01",
-      "sort": null,
-      "start": null,
-      "end": null,
-      "timeLabel": "Late night · after everyone has left · exact time TBD",
-      "universe": "sw",
-      "title": "Harish & Sunil — Outside Society (future-episode seed)",
-      "subtitle": "Reader-only intentions; no present-day prose or encounter",
-      "lead": "Meenakshi",
-      "characters": [
-        "Harish Pal",
-        "Sunil Yadav"
-      ],
-      "mentions": [
-        "Meenakshi"
-      ],
-      "episode": "Future plan",
-      "scene": "HS-NIGHT",
-      "kind": "planned",
-      "state": "future-proposal",
-      "status": "Author-directed night placement · plot-only · not written",
-      "source": "episode-02-meenakshi-plan.json",
-      "reader": {
-        "type": "sw-plan",
-        "character": "meenakshi",
-        "scene": "HS-NIGHT"
-      },
-      "flags": [
-        "Not an Episode 03 scene",
-        "No fixed clock time",
-        "Female staff unaware of workers' private motives"
-      ],
-      "detail": "1 January 2026, late night, outside Gulmohar Heights society after the others have gone. Harish and Sunil have a brief private reader-only POV about their hidden attraction and future plans. They have not approached Meenakshi or carried out those plans. This belongs to a future episode and must not interrupt the Farmhouse Scene 02 or 14:15 Naveen handoff."
     }
   ]
 }
