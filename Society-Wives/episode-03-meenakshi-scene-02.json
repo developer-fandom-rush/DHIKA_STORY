@@ -232,6 +232,10 @@
     {
       "date": "2026-11-15",
       "change": "Author approved F01 after three editorial fixes. Published F01 only; full Scene 02 status remains plot-only for F02–F22."
+    },
+    {
+      "date": "2026-11-15",
+      "change": "Author requested publication of F04 with four agreed edits. F01/F04 approved prose; F02/F03 and F05–F22 remain outline only."
     }
   ],
   "approvedProse": {
@@ -329,16 +333,91 @@
         }
       ],
       "endBoundary": "All four walk toward parking. No car seating, engine start or drive prose yet; F02 is next."
+    },
+    "F04": {
+      "beat": "F04",
+      "title": "Aditi Sets the Temperature",
+      "status": "AUTHOR_APPROVED_PROSE_PUBLISHED",
+      "date": "2026-01-01",
+      "time": "Farmhouse evening; exact time TBD",
+      "location": "Farmhouse · Guest-room exit and dance area",
+      "approvalNotes": "Published per author instruction after 4 agreed editorial edits: reference hairstyle updo; more natural bold compliment; Meenakshi reaction; Aditi dances solo before inviting Avi. F02–F03 remain unapproved and unpublished.",
+      "paragraphs": [
+        {
+          "type": "narration",
+          "text": "Guest room se Aditi bahar aayi. Warm string lights uske burgundy mini-dress par pad rahi thin. Thin straps uske shoulders par the; deep neckline aur fitted waist uske party look ko alag hi confidence de rahe the. Short hem mid-thigh ke upar tha. Jaise hi woh seating ki taraf badhi, satin fabric uske steps ke saath halka sa move hua, phir settle ho gaya.",
+          "highlight": true
+        },
+        {
+          "type": "narration",
+          "text": "Avi ne apna glass table par rakh diya. Uski nazar Aditi ke naye look par ruki; Yash bhi palatkar dekhne laga."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Avi",
+          "text": "Aditi, burgundy tum par kamaal lag raha hai. Aur woh neckline, fitted waist aur short hem… tumne aaj sabka attention apne naam kar liya.",
+          "highlight": true
+        },
+        {
+          "type": "narration",
+          "text": "Aditi ne ek kadam aur badhaya. Uski aankhon mein shararat thi."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Aditi",
+          "text": "Achha? Aur main toh abhi dance floor par gayi bhi nahi.",
+          "highlight": true
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Yash",
+          "text": "Aur hairstyle bhi change kiya hai. Yeh updo tumhare poore look ko aur elegant bana raha hai."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Aditi",
+          "text": "Tum details achhi notice karte ho, Yash."
+        },
+        {
+          "type": "narration",
+          "text": "Meenakshi sofe par baithi thi. Usne Aditi ko hospital ki junior resident se party ki confident hostess bante dekha—outfit alag tha, lekin uska self-assurance wahi tha."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Meenakshi",
+          "text": "Aditi, hospital wali tumhe pehchanna mushkil ho raha hai. Dress genuinely stunning hai."
+        },
+        {
+          "type": "narration",
+          "text": "Meenakshi ka compliment sunkar Aditi khush hui aur ek chhota sa turn le liya. Mini-dress ka satin hem uske movement ke saath hila. Avi ki smile aur gehri ho gayi.",
+          "highlight": true
+        },
+        {
+          "type": "narration",
+          "text": "Music ki beat badli. Aditi ne apna glass table par rakha aur dance floor ki taraf badhi. Pehle usne akele kuch confident steps liye. Ek turn ke saath uski burgundy dress ki short hemline halki si move hui. Avi aur Yash dono usse dekh rahe the."
+        },
+        {
+          "type": "narration",
+          "text": "Phir Aditi ne Avi ki taraf haath badhaya."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Aditi",
+          "text": "Ab dekhna band karoge, ya dance bhi karoge?",
+          "highlight": true
+        }
+      ],
+      "endBoundary": "F04 ends with Aditi already dancing on her own and offering Avi her hand. F05 begins with Avi joining; no close dance prose in F04."
     }
   },
   "proseProgress": {
     "approved": [
-      "F01"
+      "F01",
+      "F04"
     ],
     "pending": [
       "F02",
       "F03",
-      "F04",
       "F05",
       "F06",
       "F07",
