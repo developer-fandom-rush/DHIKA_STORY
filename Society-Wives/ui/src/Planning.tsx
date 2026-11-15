@@ -17,6 +17,7 @@ type AnkitaScene05={title:string;status:string;date:string;time:{start:string;en
 type AnkitaScene06={title:string;status:string;date:string;time:{start:string;end:string;status:string};proseStatus:string;setting:{otherPeople:string};choreography:{id:string;formation:string;participants:string;contact:string;reaction:string}[];prose:{language:string;lines:{type:'narration'|'dialogue';speaker?:string;text:string}[]};handoff:{nextScene:string;scope:string;status:string};};
 type AnkitaScene07={title:string;status:string;date:string;time:{start:string;end:string;certainty:string};continuity:{carProposition:string;deadline:string};beats:{id:string;time:string;heading:string;plot:string;dialogue?:{speaker:string;line:string}[]}[];proseStatus:string;};
 type RinkuScene08={title:string;status:string;date:string;time:{start:string;end:string;certainty:string};purpose:string;beats:{id:string;time:string;heading:string;plot:string}[];knowledgeLocks:{ankitaKnows:string;readerOnly:string;rajeev:string;rinku:string};wardrobe:{arrival:string;homeChange:string;firstRinkuView:string};nextEpisode:{focus:string;firstLook:string;date:string}};
+type ShivaniCastLock={title:string;status:string;officeTwinsStudentCore:{id:string;name:string;age:number}[];officeChotu:{name:string;age:number;role:string};societyChotu:{name:string;age:number;role:string};juniorFacultyExcluded:{name:string;age:number}[];futureOnly:{name:string;age:number;note:string};biologicalTwinsNote:string;episode02End:string;nextWork:string};
 type RohitFirstShow={title:string;status:string;date:string;wardrobe:{jan02:string;accidental:string;deliberate:string};encounters:{id:string;title:string;phase:string;beats:{id:string;name:string;plot:string}[]}[];validation:{jan1IntroductionOnly:boolean;jan1UpperButtonsClosed:boolean;jan2AccidentFirst:boolean;jan2DeliberateFirstShowLaterSameDay:boolean;exactJan2Clock:string;jan2Wardrobe:string};};
 export default function Planning({lead,initialScene}:{lead:string;initialScene?:string|null}){
  const active=leadOrder.includes(lead)?lead:'meenakshi';
@@ -39,11 +40,14 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
   const {data:ankitaScene08,error:ankitaScene08Error}=useData<RinkuScene08>('episode-03-ankita-scene-08-rinku-setup.json');
  const {data:rohitFirstShow,error:rohitFirstShowError}=useData<RohitFirstShow>('ankita-rohit-jan02-future-office.json');
  const {data:writingStyle,error:writingStyleError}=useData<Plan>('flirting-style.json');
+  const {data:shivaniCastLock,error:shivaniCastLockError}=useData<ShivaniCastLock>('episode-03-shivani-cast-lock.json');
  const {data:shreyaFuture}=useData<Plan>('episode-03-shreya-plan.json');
  useEffect(()=>{
   if(!initialScene)return;
   const id=active==='ankita'
    ?(initialScene==='01'?'ankita-ep03-a11':initialScene==='02'?'ankita-ep03-scene02':initialScene==='03'?'ankita-ep03-scene03':initialScene==='04'?'ankita-ep03-scene04-rohit':initialScene==='05'?'ankita-ep03-scene05':initialScene==='06'?'ankita-ep03-scene06':initialScene==='07'?'ankita-ep03-scene07':initialScene==='08'?'ankita-ep03-scene08':initialScene==='rohit-first-show'?'ankita-ep04-rohit-first-show':'')
+   :active==='shivani'
+   ?(initialScene==='cast'?'shivani-ep03-cast-lock':'')
    :active==='meenakshi'
    ?(initialScene==='01'?'ep03-meenakshi-scene-01':initialScene==='handoff'?'ep04-meenakshi-handoff':'ep03-meenakshi-scene-'+initialScene)
    :'';
@@ -243,7 +247,20 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
     </article>
     {ankitaOpeningError&&<p role="alert">Ankita opening plot source missing: {ankitaOpeningError}</p>}
   </section>}
-  <section className="planning-panel">
+  {active==='shivani'&&<section className="continuity-cards" id="shivani-ep03-cast-lock">
+    <article className="episode-plan-card">
+      <span className="eyebrow">Shivani · Episode 03 · Character groups locked · Scene plots pending</span>
+      <h2>Office Twins (age-cohort label) — four college students</h2>
+      {shivaniCastLock?<>
+        <p><strong>Core:</strong> {shivaniCastLock.officeTwinsStudentCore.map(c=>c.name+' ('+c.age+')').join(' · ')}.</p>
+        <p><strong>Office Chotu:</strong> {shivaniCastLock.officeChotu.name} ({shivaniCastLock.officeChotu.age}) — college AV assistant. <strong>Society Chotu:</strong> {shivaniCastLock.societyChotu.name} ({shivaniCastLock.societyChotu.age}) — society helper.</p>
+        <p><strong>Junior teachers, NOT Office Twins:</strong> {shivaniCastLock.juniorFacultyExcluded.map(c=>c.name+' ('+c.age+')').join(' · ')}. Pooja and Kriti remain faculty.</p>
+        <p><strong>Future occasional appearance only:</strong> {shivaniCastLock.futureOnly.name}; no cultural committee role and excluded from the four-member group.</p>
+        <p className="muted">{shivaniCastLock.biologicalTwinsNote} {shivaniCastLock.episode02End} This locks cast only, not a Scene 01 or written encounter.</p>
+      </>:<p role="alert">Shivani cast lock not loaded: {shivaniCastLockError||'Loading…'}</p>}
+    </article>
+   </section>}
+   <section className="planning-panel">
    <details className="episode-outline" id="society-wives-author-narrator-instructions"><summary>Author writing instructions · visual descriptions &amp; flirting style</summary>
     <p><strong>Narrator image, not a character's spoken line.</strong> Describe adult female characters using distinct body-shape metaphors/similes, walking gait, stance, silhouette, outfit fit, fabric movement and turns only when grounded in their wardrobe and scene.</p>
     <p><strong>Separate:</strong> narrator visual description · observer's glance · spoken teasing · woman's own response. Never silently omit an author-requested beat or invent new body canon.</p>
@@ -251,7 +268,7 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
    </details>
    <div className="split"><div><span className="eyebrow">Working story lane</span><h2>{titleCase(active)}</h2><p>{active==='ankita'?'Current EP03 Scenes 01–08 and the separately preserved 2 January Rohit future-office plot are shown above. Earlier competing home and parcel follow-up outlines were removed; Scene 08 Rinku setup is the final Ankita Jan 1 entry.':activePlan?.plan?.title||'No separate Episode 03 working draft is available here yet.'}</p></div></div>
    {active==='taniya'&&<p className="source-note">Soniya's independent scenes belong to Taniya's continuity lane. Their existing joint plan is preserved; those scenes have not been promoted to finished prose.</p>}
-   {active==='shivani'&&<p className="source-note">Shivani's future planning is not independently indexed as an Episode 03 scene in the audited sources. Earlier plot notes are preserved in the story archive.</p>}
+   {active==='shivani'&&<p className="source-note">Shivani's Episode 03 character groups are locked above (four Office Twins, separate Office/Society Chotu roles and junior teachers); individual scene plots have not yet been approved.</p>}
    {activePlan?.plan&&<><p><strong>Original status:</strong> {str(activePlan.plan.status)||'REVIEW'}</p>{active==='meenakshi'&&<p><strong>Older separate outline — 2 January 2026.</strong> This is not part of 1 January's Scene 01–03 sequence. Senior Review M08 stays on Jan 2.</p>}
     {active==='shreya'&&<p><strong>Date:</strong> 3 January 2026. These events were rescheduled here from 1 January. They remain writing-pending, not cancelled.</p>}
     {active==='ankita'&&<p><strong>Date:</strong> Original draft date requires review; it has not been silently assigned to the Episode 03 canonical timeline.</p>}
