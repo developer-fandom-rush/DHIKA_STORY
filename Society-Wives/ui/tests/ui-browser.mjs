@@ -106,6 +106,10 @@ try {
  check((await page.locator('#farmhouse-approved-F01').innerText()).includes('Best dena. Excuses mat dena'),'Approved F01 dialogue visible in UI');
  check((await page.locator('#farmhouse-approved-F01 strong').count())>=3,'Important F01 dialogue and reactions are highlighted');
  check(!(await page.locator('#farmhouse-approved-F01').innerText()).includes('Tum dono peeche baithna'),'F01 ends before car seating');
+ await page.locator('#farmhouse-approved-F04 .dialogue').first().waitFor();
+ check((await page.locator('#farmhouse-approved-F04').innerText()).includes('burgundy mini-dress'),'Aditi F04 entrance visible in UI');
+ check((await page.locator('#farmhouse-approved-F04').innerText()).includes('Ab dekhna band karoge, ya dance bhi karoge?'),'Approved F04 dance invitation visible');
+ check((await page.locator('#farmhouse-approved-F04 strong').count())>=3,'F04 important dialogue and reactions are highlighted');
  check((await page.locator('.continuity-cards').innerText()).includes('The Badminton Bet'),'New Meenakshi Scene 03 appears after farmhouse');
  check((await page.locator('.continuity-cards').innerText()).includes('The First Different Look — Babloo'),'Author-approved Babloo encounter appears in the correct Scene 04 position');
  const orderedCards=await page.locator('.continuity-cards .episode-plan-card').evaluateAll(nodes=>nodes.map(n=>n.id));
