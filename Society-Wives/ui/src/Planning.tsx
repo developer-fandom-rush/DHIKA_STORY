@@ -12,6 +12,7 @@ type NarratorStyleRule={status:string;origin:string;appliesTo:string;methods:str
 type AnkitaScene02={scene:string;title:string;status:string;date:string;start:string;end:string;castNames:string[];sequence:{id:string;time:string;heading:string;plot:string;suggestedDialogue?:{speaker:string;line:string}[]}[];lockedDecisions:string[];exclusions:string[];proseStatus:string;nextScene:string;wardrobe:{character:string;look:string;status:string}[];};
 type AnkitaScene03={title:string;status:string;start:string;end:string;beats:{id:string;time:string;name:string;plot:string;suggestedCliffDialogue?:string}[];validation:{requirement:string;status:string;beat:string}[];proseStatus:string;nextSceneSeed:string;};
 type RohitPlot={title:string;status:string;date:string;beats:{id:string;name:string;plot:string;dialogue?:{speaker:string;line:string}[]}[];costumeContinuity?:{scene04Entry:string};authorLocks?:string[];};
+type AnkitaScene05={title:string;status:string;date:string;time:{start:string;end:string;certainty:string};continuity:{vehicle:string;seats:{driver:string;frontPassenger:string;rearLeft:string;rearMiddle:string;rearRight:string};deadline:string;destination:string};beats:{id:string;heading:string;plot:string;dialogue?:{speaker:string;line:string}[]}[];proseStatus:string;};
 type RohitFirstShow={title:string;status:string;date:string;wardrobe:{jan02:string;accidental:string;deliberate:string};encounters:{id:string;title:string;phase:string;beats:{id:string;name:string;plot:string}[]}[];validation:{jan1IntroductionOnly:boolean;jan1UpperButtonsClosed:boolean;jan2AccidentFirst:boolean;jan2DeliberateFirstShowLaterSameDay:boolean;exactJan2Clock:string;jan2Wardrobe:string};};
 export default function Planning({lead,initialScene}:{lead:string;initialScene?:string|null}){
  const active=leadOrder.includes(lead)?lead:'meenakshi';
@@ -26,13 +27,14 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
  const {data:ankitaScene02,error:ankitaScene02Error}=useData<AnkitaScene02>('episode-03-ankita-scene-02.json');
  const {data:ankitaScene03,error:ankitaScene03Error}=useData<AnkitaScene03>('episode-03-ankita-scene-03.json');
  const {data:rohitIntro,error:rohitIntroError}=useData<RohitPlot>('episode-03-ankita-scene-04-rohit-intro.json');
+ const {data:ankitaScene05,error:ankitaScene05Error}=useData<AnkitaScene05>('episode-03-ankita-scene-05-combined-surprise-ride.json');
  const {data:rohitFirstShow,error:rohitFirstShowError}=useData<RohitFirstShow>('episode-04-ankita-rohit-first-show.json');
  const {data:writingStyle,error:writingStyleError}=useData<Plan>('flirting-style.json');
  const {data:shreyaFuture}=useData<Plan>('episode-03-shreya-plan.json');
  useEffect(()=>{
   if(!initialScene)return;
   const id=active==='ankita'
-   ?(initialScene==='01'?'ankita-ep03-a11':initialScene==='02'?'ankita-ep03-scene02':initialScene==='03'?'ankita-ep03-scene03':initialScene==='04'?'ankita-ep03-scene04-rohit':initialScene==='rohit-first-show'?'ankita-ep04-rohit-first-show':'')
+   ?(initialScene==='01'?'ankita-ep03-a11':initialScene==='02'?'ankita-ep03-scene02':initialScene==='03'?'ankita-ep03-scene03':initialScene==='04'?'ankita-ep03-scene04-rohit':initialScene==='05'?'ankita-ep03-scene05':initialScene==='rohit-first-show'?'ankita-ep04-rohit-first-show':'')
    :active==='meenakshi'
    ?(initialScene==='01'?'ep03-meenakshi-scene-01':initialScene==='handoff'?'ep04-meenakshi-handoff':'ep03-meenakshi-scene-'+initialScene)
    :'';
@@ -165,6 +167,16 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
       <div className="beat-list">{rohitIntro.beats.map(q=><div className="beat-item" key={q.id}><h3>{q.name}</h3><p>{q.plot}</p>{q.dialogue?.map((d,i)=><p key={i}><strong>{d.speaker}:</strong> {d.line}</p>)}</div>)}</div>
       <p className="muted">INTRO only — no accidental glance or deliberate first show on Jan 1. {rohitIntro.status.replace(/_/g,' ')}</p></>}
       {rohitIntroError&&<p role="alert">Rohit introduction not loaded: {rohitIntroError}</p>}
+    </article>
+    <article className="episode-plan-card" id="ankita-ep03-scene05">
+      <span className="eyebrow">Ankita · EP03 · Scene 05 · 1 Jan 2026 · Author-approved combined PLOT only</span>
+      <h2>{ankitaScene05?.title||'Three Against Two — The Surprise Ride'}</h2>
+      <p>Approx. 16:00–16:40 · Office exit → Reyansh's car → nearby surprise venue. Two earlier proposed scenes are merged here.</p>
+      {ankitaScene05&&<><p><strong>Car:</strong> {ankitaScene05.continuity.vehicle}</p>
+        <p><strong>Seating:</strong> Reyansh drives, Aishwarya front; Vivan – Ankita – Sana in the rear. Ankita must be home by 18:00.</p>
+        <div className="beat-list">{ankitaScene05.beats.map(q=><div className="beat-item" key={q.id}><h3>{q.heading}</h3><p>{q.plot}</p>{q.dialogue?.map((d,i)=><p key={i}><strong>{d.speaker}:</strong> {d.line}</p>)}</div>)}</div>
+        <p className="muted">Party venue name not yet approved. No dinner; no new outfit changes. {ankitaScene05.status.replace(/_/g,' ')} · {ankitaScene05.proseStatus.replace(/_/g,' ')}.</p></>}
+      {ankitaScene05Error&&<p role="alert">Scene 05 plot unavailable: {ankitaScene05Error}</p>}
     </article>
     <article className="episode-plan-card" id="ankita-ep04-rohit-first-show"><span className="eyebrow">Ankita · EP04 · 2 Jan 2026 · First accidental look + deliberate first show (same day)</span>
       <h2>{rohitFirstShow?.title||'Rohit Babu — The Accidental Look and First Show'}</h2>
