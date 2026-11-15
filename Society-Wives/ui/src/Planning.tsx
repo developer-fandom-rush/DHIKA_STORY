@@ -5,6 +5,7 @@ type PublishedLine={time?:string|null;kind:'narration'|'dialogue'|'cut';speaker?
 type FarmhouseF01={title:string;status:string;paragraphs:{type:'dialogue'|'narration';speaker?:string;text:string;highlight?:boolean}[];endBoundary:string;};
 type FarmhouseMixed={title:string;status:string;paragraphs:{type:'dialogue'|'narration';speaker?:string;text:string;highlight?:boolean;italic?:boolean;origin:string}[];endBoundary:string;};
 type GrokArchive={order:string[];beats:Record<string,{title:string;raw:string;source:string}>;alternates:Record<string,{title:string;raw:string;source:string}>;addenda:{id:string;placement:string;source:string;raw:string}[];};
+type AuthorSelected={order:string[];beats:Record<string,{title:string;status:string;parts:{source:string;raw:string}[]}>;addenda:{id:string;raw:string;status:string}[];};
 const renderGrokRaw=(raw:string)=>raw.split(/\n\s*\n/g).map((part,i)=><p key={i} style={{whiteSpace:'pre-wrap',lineHeight:1.76,margin:'12px 0'}}>{part.split(/(\*\*[^*]+\*\*)/g).map((chunk,j)=>chunk.startsWith('**')&&chunk.endsWith('**')?<strong key={j}>{chunk.slice(2,-2)}</strong>:<span key={j}>{chunk}</span>)}</p>);
 type AnkitaStage={id:string;title:string;start:string;end:string;approval:string;sequence?:{id:string;time?:string;summary:string;dialogue?:{speaker:string;line:string}[];storyIntent?:string;editorFlags?:string[]}[];beats?:{id:string;summary:string}[];openChoices?:string[];};
 type NarratorStyleRule={status:string;origin:string;appliesTo:string;methods:string[];examplePhrases:string[];useInstructions:string[];sceneTemplate:string[];};
@@ -17,6 +18,7 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
  const {data:current,error:currentError}=useData<Plan>('episode-03-meenakshi-scene-01.json');
  const {data:farmhouse,error:farmhouseError}=useData<Plan>('episode-03-meenakshi-scene-02.json');
  const {data:grokOriginals,error:grokOriginalsError}=useData<GrokArchive>('episode-03-meenakshi-scene-02-grok-originals.json');
+ const {data:authorSelected,error:authorSelectedError}=useData<AuthorSelected>('episode-03-meenakshi-scene-02-author-selected.json');
  const {data:twins,error:twinsError}=useData<Plan>('episode-03-meenakshi-scene-03-twins.json');
  const {data:bablooIntro,error:bablooIntroError}=useData<Plan>('episode-03-meenakshi-scene-04-babloo-intro.json');
  const {data:meenaFuture}=useData<Plan>('episode-03-meenakshi-plan.json');
@@ -58,19 +60,30 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
    {currentError&&<p role="alert">SOURCE MISSING: {currentError}</p>}
   </article>
 
-  <article className="episode-plan-card" id="ep03-meenakshi-scene-02"><span className="eyebrow">EP 03 · Scene 02 · GROK ORIGINALS F01–F09 + SEPARATE GPT DRAFTS</span><h2>The Farmhouse Evening</h2><p>1 January 2026 · From 17:00 · Meenakshi, Aditi, Avi and Yash</p><p>Author-supplied Grok original text for F01–F09 is now archived and displayed in full, including F06's alternate version and an F08 addendum. GPT editorial drafts are separate. Approval status of earlier curated prose is unchanged.</p><strong>Return travel and finishing time are not yet verified.</strong>
-   <section className="source-note" id="grok-originals-F01-F09">
-    <span className="eyebrow">Author's original text · F01–F09 · no automatic edits</span>
-    <h3>Grok Original — read the entire sequence</h3>
-    <p><strong>This is your submitted text, not GPT's rewritten prose.</strong> F01–F09 appear in beat order. F06's second submitted variant and the extra F08 passage are also preserved. Existing GPT edits appear separately below.</p>
-    {grokOriginals?<div>{grokOriginals.order.map(id=>{const beat=grokOriginals.beats[id];return beat?<article key={id} id={'grok-original-'+id} className="beat-item" style={{display:'block',marginBlock:22,paddingBlock:15,borderBottom:'1px solid var(--line, #ccc)'}}>
-      <span className="eyebrow">{id} · Author-supplied Grok original</span><h3>{beat.title}</h3>
-      <div className="source-scene" style={{maxWidth:'78ch'}}>{renderGrokRaw(beat.raw)}</div>
-      {id==='F06'&&grokOriginals.alternates?.F06&&<details className="episode-outline"><summary>F06 second Grok version — preserved as alternative</summary><div className="source-scene">{renderGrokRaw(grokOriginals.alternates.F06.raw)}</div></details>}
-      {id==='F08'&&grokOriginals.addenda?.map(a=><details open className="episode-outline" key={a.id}><summary>Author's additional F08 moment — original text, separate from F08</summary><div className="source-scene">{renderGrokRaw(a.raw)}</div></details>)}
-    </article>:null})}</div>:<p role="status">{grokOriginalsError||'Loading the original Grok submissions…'}</p>}
-    <p className="muted"><strong>Source-of-truth:</strong> the separate Grok original archive file. Existing approved/GPT edited versions remain available in their own sections below; they do not replace the original text.</p>
+  <article className="episode-plan-card" id="ep03-meenakshi-scene-02"><span className="eyebrow">EP 03 · Scene 02 · F01–F04 APPROVED · F06 TWO-PART GROK CONTINUATION</span><h2>The Farmhouse Evening</h2><p>1 January 2026 · From 17:00 · Meenakshi, Aditi, Avi and Yash</p><p>Author-approved F01–F04 Grok redline is the primary reading. F05–F09 source drafts follow in sequence; F06's second Grok version is its continuation, not an alternative. Original texts and GPT edits are archived separately.</p><strong>Return travel and finishing time are not yet verified.</strong>
+   <section className="source-note" id="farmhouse-author-selected-F01-F09" aria-label="Author-selected F01 to F09 reading">
+    <span className="eyebrow">EP03 · Scene02 · Author-selected primary reading · F01–F09</span>
+    <h3>Farmhouse Evening — selected story text</h3>
+    <p><strong>F01–F04:</strong> author-approved Grok compact edits. <strong>F05–F09:</strong> Grok source as submitted, not final prose approval. F06 contains both Grok submissions consecutively as Part 1 and Part 2. Original source and older GPT drafts are preserved separately.</p>
+    {authorSelected?<div>{authorSelected.order.map(id=>{const beat=authorSelected.beats[id];return beat?<details key={id} className="episode-outline" id={'author-selected-'+id}>
+       <summary><strong>{id} — {beat.title}</strong> · {beat.status==='AUTHOR_APPROVED_COMPACT_REDLINE'?'Approved compact text':'Grok source draft'}</summary>
+       <div className="source-scene prose-exact">{beat.parts.map((part,j)=><div key={j}>{beat.parts.length>1&&<h4>{j===0?'F06 · Part 1':'F06 · Part 2 (direct continuation)'}</h4>}{renderGrokRaw(part.raw)}</div>)}</div>
+       {id==='F08'&&authorSelected.addenda?.map(a=><details key={a.id} className="episode-outline"><summary>Additional F08 passage · author text preserved</summary><div className="source-scene">{renderGrokRaw(a.raw)}</div></details>)}
+      </details>:null})}</div>:<p role="alert">{authorSelectedError||'Loading author-selected farmhouse story…'}</p>}
+    <p className="muted">Original Grok source is archived without rewriting. No F10–F14 prose has been added here.</p>
    </section>
+   <details className="source-note" id="grok-originals-F01-F09">
+    <summary>Archive: read original Grok submissions without the author-approved cuts</summary>
+    <p>Original F01–F09 text, plus F06's second part and F08 addition, preserved for comparison only.</p>
+    {grokOriginals?<div>{grokOriginals.order.map(id=>{const beat=grokOriginals.beats[id];return beat?<article key={id} id={'grok-original-'+id} className="beat-item" style={{display:'block',marginBlock:22,paddingBlock:15,borderBottom:'1px solid var(--line, #ccc)'}}>
+      <span className="eyebrow">{id} · original archive</span><h3>{beat.title}</h3>
+      <div className="source-scene">{renderGrokRaw(beat.raw)}</div>
+      {id==='F06'&&grokOriginals.alternates?.F06&&<details className="episode-outline"><summary>F06 Grok second part — continuation</summary><div className="source-scene">{renderGrokRaw(grokOriginals.alternates.F06.raw)}</div></details>}
+      {id==='F08'&&grokOriginals.addenda?.map(a=><details className="episode-outline" key={a.id}><summary>F08 original addendum</summary><div className="source-scene">{renderGrokRaw(a.raw)}</div></details>)}
+    </article>:null})}</div>:<p>{grokOriginalsError||'Loading Grok archive…'}</p>}
+   </details>
+   <details className="source-note" id="farmhouse-editorial-history">
+    <summary>Separate approved prose / older GPT comparison sections (archived for reference)</summary>
    {farmhouseF01&&<section className="source-note" id="farmhouse-approved-F01" aria-label="Approved Farmhouse Beat F01">
     <span className="eyebrow">F01 · Approved scene prose</span><h3>{farmhouseF01.title}</h3><p className="muted">1 January · Approximately 5:00 PM · Hospital staff exit</p>
     <div className="source-scene prose-exact">{farmhouseF01.paragraphs.map((line,i)=><p key={i} className={line.type==='dialogue'?'dialogue':''}>{line.speaker&&<strong>{line.speaker}: </strong>}{line.highlight?<strong>{line.type==='dialogue'?'“'+line.text+'”':line.text}</strong>:line.type==='dialogue'?'“'+line.text+'”':line.text}</p>)}</div>
@@ -93,6 +106,7 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
     <p className="muted"><strong>Cut:</strong> Yash surprises Aditi. Avi and Meenakshi notice the contrast. Meenakshi's invitation and dancing belong to F07.</p>
    </section>}
    {farmhouse&&!farmhouseF06&&<p role="alert">Published working F06 is missing from the farmhouse source.</p>}
+   </details>
    {farmhouse?.beats?.length?<details className="episode-outline"><summary>Read {farmhouse.beats.length} planned beats</summary><div className="beat-list">{farmhouse.beats.map((b,i)=><div key={b.id||i} className="beat-item"><span className="eyebrow">{str(b.phase)||b.id||'Plot beat'}</span><h3>{b.title||'Untitled beat'}</h3><p>{str(b.detail)}</p></div>)}</div></details>:<p>{farmhouseError||'Loading farmhouse outline…'}</p>}
   </article>
   <article className="episode-plan-card" id="ep03-meenakshi-scene-03"><span className="eyebrow">EP 03 · Scene 03 · Author notes and scene beats under review</span><h2>The Badminton Bet</h2><p>1 January 2026 · 18:15 proposed · Uday, Utkarsh and Meenakshi</p><p>At a badminton court about five minutes from Gulmohar Heights, the twins renew their morning banter with Meenakshi. Her original car-not-starting and return-ride proposal is preserved as author planning, not locked or finished prose.</p>
