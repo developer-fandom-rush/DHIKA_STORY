@@ -175,16 +175,20 @@ check(!(await page.locator('#ep03-meenakshi-scene-04').innerText()).includes('Ep
  check((await page.locator('#ankita-ep03-scene06 .eyebrow').first().textContent()).includes('prose DRAFT'),'Scene06 draft status is displayed in the heading even if its eyebrow is visually hidden at this viewport');
  check((await page.locator('#ankita-ep03-scene06').innerText()).includes('17:20'),'Scene 06 ends before drop-off');
  await page.locator('#ankita-ep03-scene07 .beat-item').last().waitFor();
- check(await page.locator('#ankita-ep03-scene07 .beat-item').count()===6,'Scene07 shows six concise pickup and homecoming beats');
+ check(await page.locator('#ankita-ep03-scene07 .beat-item').count()===8,'Scene07 shows eight selected ride and homecoming beats');
  check((await page.locator('#ankita-ep03-scene07').innerText()).includes('Karan'),'Karan must be in twins pickup');
- check((await page.locator('#ankita-ep03-scene07').innerText()).includes('Gopal'),'Gopal changed gaze remains in scene');
- check((await page.locator('#ankita-ep03-scene07').innerText()).includes('driving seat'),'Ankita drives, twins sit behind');
+ check((await page.locator('#ankita-ep03-scene07').innerText()).includes('Gopal'),'Gopal silent observation remains in scene');
+  check((await page.locator('#ankita-ep03-scene07').innerText()).includes('Gopal says NOTHING'),'No Gopal dialogue or confrontation allowed');
+  await page.locator('#ankita-ep03-scene08 .beat-item').last().waitFor();
+  check(await page.locator('#ankita-ep03-scene08 .beat-item').count()===5,'Scene08 has five Rinku setup beats');
+  check((await page.locator('#ankita-ep03-scene08').innerText()).includes('CUT BEFORE THE DOOR OPENS'),'Rinku first no-dupatta look must not occur in Scene08');
+ check((await page.locator('#ankita-ep03-scene07').innerText()).includes("Aman's scooty"),'Ankita drives Aman's scooty and Aman rides pillion');
 
 
  await page.locator('#ankita-ep03-scene04-rohit .beat-item').first().waitFor();
  check(await page.locator('#ankita-ep03-scene04-rohit .beat-item').count()===7,'Jan 1 Rohit introduction shows exactly seven setup beats');
  check((await page.locator('#ankita-ep03-scene04-rohit').innerText()).includes('closing the same two kurti buttons'),'Jan 1 Rohit intro restores closed buttons');
- check(!(await page.locator('.planning-panel').innerText()).includes('Original seven scenes preserved verbatim'),'Old Ankita A11–A17 archived draft not rendered as active plot');
+ check(!(await page.locator('.planning-panel').innerText()).includes('Original seven scenes preserved verbatim'),'Discarded Ankita followup archive not rendered as active plot');
  await page.locator('#ankita-ep04-rohit-first-show .beat-item').last().waitFor();
  check(await page.locator('#ankita-ep04-rohit-first-show .beat-item').count()===15,'Jan 2 first show retains 15 distinct plot beats');
  check((await page.locator('#ankita-ep04-rohit-first-show').innerText()).includes('First accidental look'),'Jan 2 initial surprise encounter visible');
