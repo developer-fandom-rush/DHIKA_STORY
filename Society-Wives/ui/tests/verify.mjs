@@ -8,6 +8,10 @@ const ui=resolve(here,'..');
 const read=p=>JSON.parse(readFileSync(resolve(root,p),'utf8'));
 const ep01=read('episode-01.json');
 assert.equal(ep01.scenes.length,17,'EP01 original scene count changed');
+assert.equal(ep01.shivaniProloguePriorContact?.sourceScene,'S07 — The college rehearsal that would not fit','Shivani prior contact source must be Prologue S07');
+assert.equal(ep01.shivaniProloguePriorContact.normalContactAlreadyOccurred.length,5,'Five ordinary gesture baselines need original source');
+assert.ok(ep01.scenes.find(s=>s.id==='S07').narration.some(t=>t.includes('Established earlier campus familiarity')),'Physical familiarity must be visible in Prologue narration');
+
 assert.ok(ep01.status.includes('NOT_APPROVED'),'EP01 status conflict must remain visible');
 const originalHtml=readFileSync(resolve(root,'episode-02.html'),'utf8');
 const leads=['ankita','shivani','taniya','soniya','meenakshi','shreya'];
@@ -254,6 +258,8 @@ assert.equal(shivaniCastLock.officeChotu.name,'Sunny','College assistant Sunny i
 assert.equal(shivaniCastLock.societyChotu.name,'Deepu','Deepu is Society Chotu');
 assert.deepEqual(shivaniCastLock.juniorFacultyExcluded.map(x=>x.name),['Pooja','Kriti'],'Pooja and Kriti remain junior teachers, not students');
 assert.equal(shivaniCastLock.futureOnly.name,'Arjun Mehta','Arjun only future occasional appearances');
+assert.equal(shivaniCastLock.prologueBaselineReference?.sourceScene,'S07','EP03 must reference prologue baseline');
+assert.equal(shivaniCastLock.prologueBaselineReference.establishedPreviously.length,5,'EP03 must not recycle baseline physical gestures');
 assert.ok(!directory.people.find(x=>x.id==='shivani_student_arjun')?.role.includes('cultural committee'),'Arjun cultural committee role must be absent');
 assert.deepEqual(directory.shivaniEpisode03CastLock.officeTwinsStudentCore.map(x=>x.name),shivaniCastLock.officeTwinsStudentCore.map(x=>x.name),'UI cast lock and directory must match');
 const officeAudit=read('character-audit-questions.json');
