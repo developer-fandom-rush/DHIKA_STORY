@@ -247,6 +247,15 @@ assert.ok(!directory.people.some(x=>x.id==='ankita_woman_02'||x.name==='Aditi Sh
 assert.equal(directory.people.find(x=>x.id==='shreya_woman_01')?.name,'Kavita','Shreya constable must be unchanged');
 assert.equal(directory.people.find(x=>x.id==='meenakshi_woman_01')?.name,'Dr. Aditi','Meenakshi resident must be unchanged');
 assert.equal(directory.people.find(x=>x.id==='kavya')?.name,'Kavya','Shivani sister must be unchanged');
+const shivaniCastLock=read('episode-03-shivani-cast-lock.json');
+assert.deepEqual(shivaniCastLock.officeTwinsStudentCore.map(x=>x.name),['Harsh','Laksh','Nandini','Ritika'],'Shivani Office Twins must contain ONLY the four author-locked students');
+assert.ok(shivaniCastLock.officeTwinsStudentCore.every(x=>x.age===22),'Core peers are all 22');
+assert.equal(shivaniCastLock.officeChotu.name,'Sunny','College assistant Sunny is Office Chotu, not Office Twins');
+assert.equal(shivaniCastLock.societyChotu.name,'Deepu','Deepu is Society Chotu');
+assert.deepEqual(shivaniCastLock.juniorFacultyExcluded.map(x=>x.name),['Pooja','Kriti'],'Pooja and Kriti remain junior teachers, not students');
+assert.equal(shivaniCastLock.futureOnly.name,'Arjun Mehta','Arjun only future occasional appearances');
+assert.ok(!directory.people.find(x=>x.id==='shivani_student_arjun')?.role.includes('cultural committee'),'Arjun cultural committee role must be absent');
+assert.deepEqual(directory.shivaniEpisode03CastLock.officeTwinsStudentCore.map(x=>x.name),shivaniCastLock.officeTwinsStudentCore.map(x=>x.name),'UI cast lock and directory must match');
 const officeAudit=read('character-audit-questions.json');
 assert.ok(!JSON.stringify(officeAudit).includes('Aditi Shah'));
 assert.ok(!JSON.stringify(officeAudit).includes('Kavita Rao'));
