@@ -127,7 +127,12 @@ check((await page.locator('#ep03-meenakshi-scene-04').innerText()).includes('car
 check(!(await page.locator('#ep03-meenakshi-scene-04').innerText()).includes('Episode 03 ends at the doorbell'),'Superseded doorbell-only cut is not displayed');
  
  check((await page.locator('.continuity-warning').innerText()).includes('18:15'),'Provisional badminton timing conflict is surfaced, not silently approved');
- check(await page.locator('#ep03-meenakshi-scene-02 .episode-outline').count()===1,'Farmhouse beat-by-beat outline is discoverable');
+ check(await page.locator('#ep03-meenakshi-scene-02 > .episode-outline').count()===1,'Farmhouse beat-by-beat outline is discoverable');
+ check((await page.locator('#grok-originals-F01-F09').innerText()).includes('Grok Original'),'Grok original F01-F09 reading section is visible');
+ check(await page.locator('#grok-originals-F01-F09 article').count()===9,'All nine original Grok beats are present in the UI');
+ check((await page.locator('#grok-original-F05').innerText()).includes('Bas itna hi. Abhi.'),'F05 source draft is intact');
+ check((await page.locator('#grok-original-F06').innerText()).includes('Yash ne pehle uski waist pe haath rakha'),'First Grok F06 original retained');
+ check((await page.locator('#grok-original-F08').innerText()).includes('chotu_avi'),'Author F08 additional passage retained');
  check(await page.locator('#ep03-meenakshi-scene-03 .author-notes').count()===1,'Author original new scene requirement is retained in planning');
  check(await page.locator('main a').count()===0,'Planning stays inside the app with no raw source links');
  check(await page.locator('#society-wives-author-narrator-instructions').count()===1,'Narrator visual author rules available within Planning');
