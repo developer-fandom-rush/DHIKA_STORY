@@ -94,7 +94,7 @@
       "number": "03",
       "title": "Continuations",
       "subtitle": "Meenakshi Jan 1 continuation; older future-day drafts retained",
-      "status": "MEENAKSHI_SCENE_01_APPROVED_PUBLISHED_OTHER_SCENES_PLOT_ONLY",
+      "status": "MEENAKSHI_SCENE01_APPROVED_SCENE02_F01_APPROVED_OTHER_PROSE_PENDING",
       "date": "1 January 2026 for Meenakshi Scene 01; separate 2–3 January drafts remain",
       "mainPath": "episode-03-meenakshi-scene-01.html",
       "relatedPaths": [
@@ -111,7 +111,7 @@
         "episode-03-shreya-plan.json",
         "episode-03-meenakshi-planning.html"
       ],
-      "note": "Scene01 Jan1 13:50–14:15 now author-approved compact prose published; M12 locker thought has passed; Naveen is a 1.5-year familiar coworker; Scene02 Jan1 from 17:00 farmhouse (saved approved plot direction, no prose); Scene03 same-day society twins badminton around 18:15 is review-only proposal, NOT timeline-approved until Scene02 return travel is feasible. EP04 Naveen 14:15 continuation open, no follow-up published. Older Jan2 planner preserved. Scene03 former doubles invitation deferred and old ending removed; new five-minute ride proposal now archived as user-verbatim planning requirement, full prose not approved. Meenakshi EP03 now ends after Babloo B01–B05 approved first personal encounter at Tower C; next-day car assistance is a possible EP04 follow-up; no doorbell-only ending.",
+      "note": "Scene01 Jan1 13:50–14:15 now author-approved compact prose published; M12 locker thought has passed; Naveen is a 1.5-year familiar coworker; Scene02 Jan1 from 17:00 F01 approved prose published; F02–F22 plot-only; Scene03 same-day society twins badminton around 18:15 is review-only proposal, NOT timeline-approved until Scene02 return travel is feasible. EP04 Naveen 14:15 continuation open, no follow-up published. Older Jan2 planner preserved. Scene03 former doubles invitation deferred and old ending removed; new five-minute ride proposal now archived as user-verbatim planning requirement, full prose not approved. Meenakshi EP03 now ends after Babloo B01–B05 approved first personal encounter at Tower C; next-day car assistance is a possible EP04 follow-up; no doorbell-only ending.",
       "chapters": [
         {
           "lead": "Meenakshi",
@@ -128,10 +128,10 @@
           "title": "The Farmhouse Evening — Scene 02",
           "date": "2026-01-01",
           "time": "17:00 onward; ending TBD",
-          "status": "USER_APPROVED_PLOT_DIRECTION_NO_PROSE",
+          "status": "PARTIALLY_PUBLISHED_F01_APPROVED_F02_F22_PLOT_ONLY",
           "mainPath": "episode-03-meenakshi-scene-02.html",
           "dataPath": "episode-03-meenakshi-scene-02.json",
-          "description": "22 sequenced beats: Aditi-led bold group flirtation, Avi/Aditi dancing, Meenakshi joins, pictures, Yash waist-pose consent, Avi jealousy, return seat rivalry, individual abdomen-contact permission, playful kick, cut before home arrival. Post-14:15 Naveen emotional carryover still pending."
+          "description": "Beat F01 (hospital exit, Aditi/Avi/Yash/Meenakshi) approved and published with 3 edits; F02–F22 remain source plot direction, prose not written or approved. Source JSON and standalone HTML render F01."
         },
         {
           "lead": "Meenakshi",
