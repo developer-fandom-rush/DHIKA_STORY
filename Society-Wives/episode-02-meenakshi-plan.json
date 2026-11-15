@@ -501,5 +501,10 @@
   ],
   "publishedM10M12": "episode-02.html?tab=meenakshi-m01#meenakshi-m10-story",
   "m10m12VisualStatus": "M10_M11_REVIEW_ONLY_M12_REPLACED_BY_USER_DIRECTED_ENDING",
-  "revisedLockerReviewText": "episode-02-meenakshi-m10-m12-grok-review.txt"
+  "revisedLockerReviewText": "episode-02-meenakshi-m10-m12-grok-review.txt",
+  "futureHarishSunilInterlude": {
+    "status": "AUTHOR_DIRECTION_RECORDED_PLOT_ONLY_NOT_APPROVED_PROSE",
+    "relationshipToM05": "This is a proposed reader-only later POV; do not change the approved M05 scene, knowledge state or the 14:15 Naveen handoff.",
+    "note": "FUTURE INTERLUDE · PLOT-ONLY: Harish (62) aur Sunil (46) apne separate reader-only POV mein Meenakshi ko primary aur doosri adult female staff ko possible romantic/sexual interests samajhte hain; guilt express nahi karte, loneliness/sad backstories aur 'private treatment' ke pretext se sympathy/doctor-ego ko exploit karne ka cunning irada rakhte hain, unka tone assertive/rough hai; dono apni claimed 10-inch endowment aur irresistible sexual appeal ko lekar boastful hain (addiction/automatic attraction ka objective claim nahi); unki obsessive intentions female staff ko unknown hain; any future intimacy strictly adult, informed, consensual, no force."
+  }
 }
