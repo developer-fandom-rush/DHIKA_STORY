@@ -100,7 +100,8 @@ const farmhouse=read('episode-03-meenakshi-scene-02.json');
 assert.equal(farmhouse.episode,'03');
 assert.equal(farmhouse.start,'17:00');
 assert.equal(farmhouse.status,'USER_APPROVED_PLOT_DIRECTION_SAVED_NO_PROSE');
-assert.equal(farmhouse.beats.length,22,'Farmhouse plot beats must remain unchanged');
+assert.equal(farmhouse.beats.length,19,'Farmhouse active beats F01-F19, author discarded F20-F22');
+assert.deepEqual(farmhouse.discardedBeats.map(x=>x.id),['F20','F21','F22'],'Discarded outline beats preserved in archive but not active');
 const grokOriginals=read('episode-03-meenakshi-scene-02-grok-originals.json');
 assert.deepEqual(grokOriginals.order,['F01','F02','F03','F04','F05','F06','F07','F08','F09'],'All nine Grok original beat drafts in author order');
 assert.equal(grokOriginals.order.every(id=>typeof grokOriginals.beats[id]?.raw==='string'&&grokOriginals.beats[id].raw.length>100),true,'All nine original Grok drafts stored as full raw text');
@@ -110,7 +111,7 @@ assert.ok(grokOriginals.alternates.F06.raw.includes('Music aur tez ho gayi'),'Co
 assert.ok(grokOriginals.addenda[0].raw.includes('chotu_avi'),'Author F08 extra passage retained separately');
 assert.ok(!grokOriginals.beats.F06.raw.includes('Hospital mein toh tum itne quiet rehte ho'),'Do not substitute GPT-written F06 for Grok original');
 const selected=read('episode-03-meenakshi-scene-02-author-selected.json');
-assert.equal(selected.order.length,14,'Author-selected reading has fourteen ordered beats');
+assert.equal(selected.order.length,19,'Author-selected reading contains complete F01-F19 closure');
 assert.deepEqual(['F01','F02','F03','F04'].map(id=>selected.beats[id].status),Array(4).fill('AUTHOR_APPROVED_COMPACT_REDLINE'),'Author approves only F01-F04 compact edits');
 assert.equal(selected.beats.F06.parts.length,2,'F06 has two Grok parts as one scene');
 assert.equal(selected.beats.F06.parts[0].raw,grokOriginals.beats.F06.raw,'F06 original first part must be verbatim');
@@ -127,9 +128,16 @@ assert.equal(selected.beats.F13.status,'AUTHOR_DIRECTED_EDITORIAL_DRAFT_PENDING_
 assert.ok(selected.beats.F13.parts[0].raw.includes('sabse achhi kaunsi lagi'),'F13 has a fresh photography-grounded personal conversation');
 assert.ok(!selected.beats.F13.parts[0].raw.includes('Yahan hospital nahi hai'),'F13 does not repeat F08 hospital line');
 assert.equal(selected.beats.F14.status,'AUTHOR_DIRECTED_EDITORIAL_DRAFT_PENDING_APPROVAL','F14 remains a working draft');
-assert.ok(selected.beats.F14.parts[0].raw.includes('Return mein professional driver'),'F14 return driver is sober professional');
+assert.ok(selected.beats.F14.parts[0].raw.includes('Tum dono ko drop kar dungi'),'F14 matches author direction that Meenakshi drives her own car');
 assert.ok(selected.beats.F14.parts[0].raw.includes('Abhi woh wahin thi'),'Aditi waits until F15');
 assert.ok(!selected.beats.F14.parts[0].raw.includes('Burgundy dress mein woh exit ki taraf badhi'),"Aditi's exit remains deferred to F15");
+assert.equal(selected.beats.F18.status,'AUTHOR_APPROVED_PROSE_PUBLISHED','F18 explicitly approved');
+assert.equal(selected.beats.F19.status,'AUTHOR_APPROVED_PROSE_PUBLISHED','F19 explicitly approved');
+assert.ok(selected.beats.F18.parts[0].raw.includes('Car designated parking space'),'Contact occurs only once safely parked');
+assert.ok(selected.beats.F19.parts[0].raw.includes('Avi aur Yash car se utar gaye'),'Men exit by F19');
+assert.ok(!selected.beats.F20,'F20 discarded from active selected reading');
+assert.equal(farmhouse.settings.return.includes('Meenakshi drives her own car'),true,'Author fixed Meenakshi as driver');
+
 
 
 
