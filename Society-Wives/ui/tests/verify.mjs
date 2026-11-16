@@ -345,7 +345,8 @@ const universalDhika=JSON.parse(readFileSync(resolve(ui,'src/data/dhika-universa
 assert.equal(universalJan.anchorDate,'2026-01-01','Society Wives story anchor must be Jan 1 2026');
 assert.equal(universalDhika.anchorDate,'2026-01-01','Dhika Day 1 must align to Society Wives Jan 1 2026');
 assert.equal(universalJan.events.length,83,'Existing source events preserved with eight current Ankita plot scenes, including Rinku setup');
-assert.equal(universalJan.events.filter(e=>e.kind==='source-scene').length,67,'Shared Taniya/Soniya source scenes must only appear once');
+assert.equal(universalJan.events.filter(e=>e.kind==='source-scene'&&e.episode==='02').length,67,'EP02 shared Taniya/Soniya source scenes must only appear once');
+assert.equal(universalJan.events.filter(e=>e.kind==='source-scene'&&e.episode==='03').length,7,'Seven written EP03 scenes correctly promoted into prose reader');
 assert.ok(!universalJan.events.some(e=>e.date!=='2026-01-01'),'Jan 1 clock contains an event from another date');
 assert.deepEqual(universalJan.events.slice(0,2).map(e=>e.start),['06:20','06:29'],'January 1 event clock not sorted');
 assert.equal(new Set(universalJan.events.map(e=>e.id)).size,83,'January 1 event IDs must all be unique');
