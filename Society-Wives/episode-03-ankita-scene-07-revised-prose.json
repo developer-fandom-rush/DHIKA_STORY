@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "episode": "03",
+  "scene": "07",
+  "date": "2026-01-01",
+  "title": "The Unexpected Hold — Ankita, Karan & Aman",
+  "time": "17:20–17:50",
+  "status": "AUTHOR_REVISED_PROSE_IN_UI_PENDING_OVERALL_APPROVAL",
+  "sourceNote": "Prior assistant's 8-beat prose adapted only to apply user-requested additions/replacement; removed duplicate Beat7 ride question. The original Scene07 plot remains unchanged.",
+  "legend": {
+    "author": "Author-provided exact text",
+    "baseline": "Original prose retained (one signal reference updated to ride after B5 replacement; redundant question removed)"
+  },
+  "beats": [
+    {
+      "id": "B01",
+      "title": "The Last Goodbye",
+      "time": "17:20–17:23",
+      "segments": [
+        {
+          "origin": "baseline",
+          "text": "Private lounge ke bahar aate-aate Ankita ne apna phone nikala. Screen par 5:21 PM tha.\n\nDance floor ki music ab bhi glass doors ke us paar sunai de rahi thi. Andar chaaron dost ruk gaye the. Sana ne ek baar phir use rokne ki koshish ki thi, lekin Ankita apni six o'clock deadline ko lekar clear thi.\n\nAishwarya uske saath entrance tak aayi.\n\n**Aishwarya:** “Aaj ka surprise kaisa laga?”\n\n**Ankita:** “Tumhara surprise achha tha. Bas tumhare questions bahut zyada hain.”\n\n**Aishwarya:** “Aur briefing wala answer abhi bhi pending hai.”\n\n**Ankita:** “Uske liye appointment lena padega, Madam HR.”\n\nDono hans padi.\n\nVivan ne door se kaha, “Ankita, safe pahunchkar message kar dena.”\n\n**Ankita:** “Haan, aur tum log meri absence mein challenge ka result change mat kar dena.”\n\nSana ne haath hilaya.\n\n**Sana:** “Result wahi rahega. Three against two.”\n\nAnkita ne last smile di aur bahar aa gayi.\n\nOffice se nikalte waqt jo excitement thi, woh ab dheere-dheere settle ho rahi thi. Din lamba raha tha. Usse ghar pahunchna tha."
+        }
+      ]
+    },
+    {
+      "id": "B02",
+      "title": "The Call",
+      "time": "~17:23–17:27",
+      "segments": [
+        {
+          "origin": "baseline",
+          "text": "5:23 PM.\n\nAnkita ne Karan ko call lagaya.\n\n**Karan:** “Hello Bhabhi! New Year party khatam?”\n\n**Ankita:** “Haan. Tum dono kahaan ho?”\n\n**Karan:** “Aas-paas hi hain. Kya hua?”\n\n**Ankita:** “Main venue ke bahar hoon. Ghar jaana hai. Aa sakte ho?”\n\n**Karan:** “Bas do minute!”\n\nBackground mein Aman ki awaaz aayi.\n\n**Aman:** “Pehle location toh pooch lo.”\n\n**Karan:** “Bhabhi, location bhej do.”\n\nAnkita hansi.\n\n**Ankita:** “Tum logon ke do minute par mujhe bharosa nahi.”\n\n**Karan:** “Aaj time pe aayenge. Promise.”\n\nCall cut hui.\n\nWait karte waqt Sana sabko lekar entrance par aa gayi. Reyansh ne phone set kiya aur paanchon ki ek group photo click hui.\n\n**Sana:** “Ankita, kal is photo ko dekhkar mat bolna ki tumne dance nahi kiya.”\n\n**Ankita:** “Main sirf evidence preserve kar rahi hoon.”\n\nGroup photo ke baad baaki chaar dost andar laut gaye.\n\nThodi der mein do headlights entrance ki taraf mudin.\n\nKaran apni bike par tha. Aman uske saath alag scooty par aaya tha."
+        }
+      ]
+    },
+    {
+      "id": "B03",
+      "title": "The Brother Who Expected Her",
+      "time": "~17:27–17:29",
+      "segments": [
+        {
+          "origin": "baseline",
+          "text": "Karan ne helmet utara.\n\n**Karan:** “Bhabhi! Dekha? Do minute.”\n\n**Ankita:** “Tumhare phone ke clock mein do minute thode lambe hain.”\n\nKaran hans diya.\n\nWoh Ankita ko dekhkar ek second ke liye chup hua.\n\nSubah breakfast table par usne uski energy ka mazaak banaya tha. Ab shaam ke warm lights mein woh cream kurti aur beige blazer mein khadi thi, haath mein bag aur chehre par party ki thakaan ke saath halki muskurahat.\n\n**Karan:** “Subah se office, phir party. Bhabhi, aapki energy genuinely hum dono se zyada hai.”\n\n**Ankita:** “Ye baat subah bhi boli thi tumne.”\n\n**Karan:** “Tab observation tha. Ab confirmation hai.”\n\nAman ne scooty park karte hue seedha kaha:\n\n**Aman:** “Bhabhi, ghar nikalte hain? Late ho jayega.”\n\nAnkita ne uski taraf dekha.\n\n**Ankita:** “Aman, tum scooty laaye ho?”\n\n**Aman:** “Haan.”\n\n**Ankita:** “Theek hai. Scooty main chala leti hoon. Tum peeche baith jaana.”\n\nKaran ne turant react kiya.\n\n**Karan:** “Arre Bhabhi, meri bike par chalo na. Main chhod deta hoon.”\n\n**Ankita:** “Tum apni bike chalao. Main Aman ke saath aa rahi hoon.”\n\n**Karan:** “Aman ki lottery lag gayi!”\n\n**Aman:** “Lottery nahi, ghar jaana hai.”\n\nAnkita ne dono ki taraf dekha.\n\n**Ankita:** “Subah breakfast table pe bhi tum dono lad rahe the. Abhi bhi?”\n\nKaran muskuraya, lekin usne दोबारा bike par baithne ka insist nahi kiya.\n\nUsse bas itna pata tha ki Ankita ne uske offer ke badle Aman ki scooty choose ki hai. Isse zyada kuch nahi."
+        }
+      ]
+    },
+    {
+      "id": "B04",
+      "title": "A Different Kind of Familiarity",
+      "time": "~17:29–17:34",
+      "segments": [
+        {
+          "origin": "baseline",
+          "text": "5:29 PM.\n\nAnkita ne helmet pehna aur scooty sambhali. Aman bhi helmet pehenkar pillion seat par baith gaya. Karan apni bike lekar aage nikal gaya.\n\nScooty start hui.\n\nPehle kuch seconds Aman ne apne haath seat ke grab rail ke paas rakhe. Rear seat mein baithna uske liye naya nahi tha, lekin Ankita ke peeche is tarah baithna usual routine ka hissa nahi tha.\n\n**Aman:** “Bhabhi, balance theek hai?”\n\n**Ankita:** “Haan. Tum comfortable ho?”\n\n**Aman:** “Haan.”\n\nEk chhote uneven patch par scooty halki si hilli.\n\n**Ankita:** “Aman, support le lo. Warna tumhara interview toh door, hospital jaana padega.”\n\nAman halka sa hansa.\n\n**Aman:** “Aap bhi na, Bhabhi.”\n\nUsne Ankita ki clothed waist ke paas halka support liya."
+        },
+        {
+          "origin": "author",
+          "text": "Ankita ke liye yeh naya tha. Subah se log uske body ko notice kar rahe the. Ab Aman ka haath uski waist pe tha. Woh normal samajhne ki koshish kar rahi thi, lekin uska body already aware ho chuka tha."
+        },
+        {
+          "origin": "baseline",
+          "text": "Ankita ne scooty ki speed steady rakhi.\n\nYeh unke roz ke ghar wale interactions se alag tha. Breakfast table par woh saamne baithkar baat karte the. Aman doubt poochta tha, Ankita answer deti thi. Aaj kuch minute ke liye dono ki familiarity ek practical riding situation mein aa gayi thi.\n\nAman ne apne grip ko unnecessarily tight nahi kiya. Ankita ne bhi usse normal riding support samjha.\n\nPhir traffic dheere-dheere badhne laga."
+        }
+      ]
+    },
+    {
+      "id": "B05",
+      "title": "The Unexpected Shift",
+      "time": "~17:34–17:37",
+      "segments": [
+        {
+          "origin": "baseline",
+          "text": "5:34 PM."
+        },
+        {
+          "origin": "author",
+          "text": "Turn aaya. Aman ka haath waist se aage, stomach side pe shift ho gaya.\n\nAnkita ko pressure turant feel hua. Haath ab uske stomach ke side pe tha. Kurti soft thi. Usne pehle turn complete kiya.\n\n*Uske andar ek second ke liye heat gayi. Dance floor pe jo touches hue the, woh yaad aa gaye. Yeh alag tha. Yeh ghar wala ladka tha.*\n\nUsne kaha:\n\n**Ankita:** “Aman, haath thoda side mein rakho.”\n\nAman ne turant hata diya. Uske haath ka ehsaas abhi bhi tha."
+        }
+      ]
+    },
+    {
+      "id": "B06",
+      "title": "What Neither Said",
+      "time": "~17:37–17:41",
+      "segments": [
+        {
+          "origin": "baseline",
+          "text": "Agle kuch minute dono ne koi baat nahi ki.\n\nAnkita road dekh rahi thi. Uska focus driving par tha, lekin ride par hui chhoti conversation uske mind se poori tarah nahi nikli thi."
+        },
+        {
+          "origin": "author",
+          "text": "**Ankita (internal):**\n\n*Subah yeh ladka sirf interview questions poochta tha. Ab uska haath meri waist pe tha. Maine hata diya… lekin feel kyun hua?*"
+        },
+        {
+          "origin": "baseline",
+          "text": "*Subah yehi ladka concurrency ke questions pooch raha tha. Ab itni si baat par kuch bol hi nahi raha.*\n\nUsse Aman ki silence par halki si muskurahat aayi, magar usne peeche mudkar kuch nahi kaha.\n\nAman ke liye situation thodi awkward ho gayi thi.\n\nWoh Ankita se technical doubts bina soche pooch leta tha. Kabhi resume, kabhi Spring Boot, kabhi interview preparation. Lekin ab usse samajh nahi aa raha tha ki normal conversation kaise restart kare.\n\nUsse apology deni chahiye thi? Woh de chuka tha.\n\nKuch explain karna chahiye tha? Ankita ne baat khatam kar di thi."
+        },
+        {
+          "origin": "author",
+          "text": "**Aman (internal):**\n\n*Maine balance ke liye kiya tha. Phir bhi usne notice kar liya. Ab kuch bolun toh aur awkward hoga.*"
+        },
+        {
+          "origin": "baseline",
+          "text": "Isliye woh chup raha.\n\nYahan ek फर्क था जो दोनों नहीं जानते थे: Ankita उस moment को अपनी comfort और familiarity के संदर्भ में समझ रही थी। Aman इस बात में उलझा था कि कहीं उसकी वजह से वह असहज तो नहीं हुई।\n\nKaran ki bike kuch distance aage chal rahi thi.\n\nUse na signal wali conversation sunai di thi, na grip ka kuch pata tha."
+        }
+      ]
+    },
+    {
+      "id": "B07",
+      "title": "Karan Reads the Silence",
+      "time": "~17:41–17:45",
+      "segments": [
+        {
+          "origin": "baseline",
+          "text": "5:42 PM.\n\nSociety ke paas dono vehicles safely side mein ruke.\n\nKaran ne helmet uthaya aur dono ko dekha."
+        },
+        {
+          "origin": "author",
+          "text": "Karan ne dekha dono serious hain.\n\nUsne Ankita ke kurti pe nazar daali — waist area."
+        },
+        {
+          "origin": "baseline",
+          "text": "**Karan:** “Kya hua? Aaj dono bade serious lag rahe ho.”"
+        },
+        {
+          "origin": "author",
+          "text": "**Karan:** “Ride kaisi rahi, Bhabhi?”"
+        },
+        {
+          "origin": "baseline",
+          "text": "**Ankita:** “Kuch nahi. Traffic tha.”\n\n**Karan:** “Traffic mere route pe bhi tha, lekin meri smile toh gayab nahi hui.”\n\nAman ne helmet ki strap kholte hue kaha:\n\n**Aman:** “Tumhari smile ka traffic se kya relation hai?”\n\n**Karan:** “Finally! Babu ne dialogue toh bola.”\n\nAnkita hans padi.\n\nKaran ne Aman ko dekha.\n\n**Aman:** “Normal.”\n\n**Karan:** “Bas normal? Main hota toh poora raasta baatein karta.”\n\n**Ankita:** “Aur isi liye tum apni bike par the. Mujhe ghar jaldi pahunchna tha.”\n\nKaran ne mock-offended expression banaya.\n\n**Karan:** “Matlab main officially rejected?”\n\n**Ankita:** “Transport preference thi, rejection letter nahi.”\n\nAman se halki si hansi chhoot gayi.\n\nKaran ne notice kiya ki Aman ab bhi apne usual se kam bol raha hai. Usne isse apni tarah samjha—shayad bhai ko Bhabhi ke saath ride par kuch bolne ka mauka nahi mila.\n\nWoh nahi jaanta tha ki poori ride mein ek chhoti-si conversation ne Aman ko thoughtful bana diya tha.\n\nAur Aman ne bhi apne bhai ko kuch nahi bataya."
+        }
+      ]
+    },
+    {
+      "id": "B08",
+      "title": "The Gate and the Unfinished Evening",
+      "time": "~17:45–17:50",
+      "segments": [
+        {
+          "origin": "baseline",
+          "text": "5:46 PM.\n\nGulmohar Heights ke gate par Gopal duty par tha.\n\nSubah Ankita ne usi se courier ki baat ki thi. Tab dono ki conversation bilkul normal thi.\n\nAb Gopal ne unke vehicles ko gate se andar aate dekha.\n\n**Ankita:** “Good evening, Gopal ji.”\n\nGopal ne sirf halka sa sir hilaya aur register ki taraf dekhne laga.\n\nAnkita ne uska expression notice kiya.\n\n*Subah toh bade normally baat kar rahe the. Ab itne quiet kyun hain?*\n\nUsne sawal nahi kiya.\n\nGopal ke paas parcel ke baare mein kuch aisi information thi jo Ankita ko abhi nahi thi। लेकिन उसकी बदली हुई नज़र का सटीक कारण Ankita नहीं जान सकती थी।\n\nKaran bike parking ki taraf le gaya. Aman ne scooty park ki aur Ankita ko keys di.\n\n**Aman:** “Bhabhi, keys.”\n\n**Ankita:** “Thanks.”\n\n**Aman:** “Aur… ride ke liye bhi.”\n\nAnkita ne ek pal uski taraf dekha.\n\n**Ankita:** “Aman, ghar aa gaye hain. Ab interview ki preparation bhi kar lena.”\n\nAman ne halka sa nod kiya.\n\n**Aman:** “Kal questions bhej dunga.”\n\n**Ankita:** “Good.”\n\nKaran peeche se aa gaya.\n\n**Karan:** “Waah. Ride khatam aur interviews shuru. Mere liye bhi koi appointment?”\n\n**Ankita:** “Tum pehle apni MBA preparation complete karo.”\n\n**Karan:** “Aap dono ek hi team mein ho!”\n\nTeeno lift ki taraf badhe.\n\n5:50 PM ke aas-pas woh apartment pahunch gaye. Rajeev us waqt ghar par nahi tha. Private parcel ab bhi uske paas tha; Ankita ko uske baare mein koi nayi information nahi mili thi.\n\nDin ke is chhote se safar mein sabhi ke paas alag-अलग बातें थीं।\n\nKaran ko बस इतना पता था कि वह Ankita की पसंद का passenger नहीं बना।\n\nAman को एक unexpected moment और Ankita की साफ प्रतिक्रिया याद थी।\n\nAnkita के लिए सवाल यह नहीं था कि Aman ने क्या सोचा—वह जान ही नहीं सकती थी। सवाल यह था कि परिचित रिश्तों में कभी-कभी एक मामूली घटना भी इतनी अलग क्यों महसूस होने लगती है।\n\nऔर gate पर Gopal की चुप्पी उस शाम का एक दूसरा, बिल्कुल अलग unresolved सवाल बनकर रह गई।\n\n**Scene 07 ends — 17:50.**"
+        }
+      ]
+    }
+  ]
+}
