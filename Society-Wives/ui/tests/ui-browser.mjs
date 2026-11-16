@@ -104,9 +104,11 @@ try {
  check((await page.locator('#episode03-final-prose .reading-surface').innerText()).includes('Rajeev Uncle, courier ka notification aaya'),'Author-revised Ankita Scene01 dialogue visible in unified reader');
  check((await page.locator('#episode03-final-prose .reading-surface').innerText()).includes('Saans control ki'),'Author-written Scene01 content visible');
  await page.locator('#episode03-final-prose .scene-link').nth(1).click();
+ await page.waitForFunction(()=>document.querySelector('#episode03-final-prose .story-toolbar')?.textContent?.includes('Ankita · Scene 02'));
  check((await page.locator('#episode03-final-prose .reading-surface').innerText()).includes('Kabir ko toh aaj tak koi complaint nahi hui'),'Ankita Scene02 full prose visible');
  check((await page.locator('#episode03-final-prose .reading-surface').innerText()).includes('Sana ne black fitted dress pehna tha'),'Scene02 original wardrobe preserved');
  await page.locator('#episode03-final-prose .perspective-tabs button',{hasText:'Meenakshi'}).click();
+ await page.waitForFunction(()=>document.querySelector('#episode03-final-prose .story-toolbar')?.textContent?.includes('Meenakshi · Scene 01'));
  check(await page.locator('#episode03-final-prose .scene-link').count()===4,'Meenakshi prose Scenes01–04 in reader');
  check((await page.locator('#episode03-final-prose .story-toolbar').innerText()).includes('Author-approved'),'Meenakshi Scene01 approval visible');
  await page.locator('#episode03-final-prose .scene-link').nth(1).click();
@@ -118,8 +120,10 @@ try {
  check((await page.locator('#ep03-beat-F19').innerText()).includes('Avi aur Yash car se utar gaye'),'F19 ending preserved');
  check(await page.locator('#ep03-beat-F20').count()===0,'Discarded F20 absent');
  await page.locator('#episode03-final-prose .scene-link').nth(2).click();
+ await page.locator('#ep03-beat-T07').waitFor();
  check(await page.locator('#episode03-final-prose .ep03-beat').count()===7,'T01–T07 displayed');
  await page.locator('#episode03-final-prose .scene-link').nth(3).click();
+ await page.locator('#ep03-beat-B05').waitFor();
  check(await page.locator('#episode03-final-prose .ep03-beat').count()===5,'B01–B05 draft displayed');
  check((await page.locator('#episode03-final-prose .story-toolbar').innerText()).includes('author review'),'Meenakshi Babloo draft remains review');
  await page.locator('.main-nav a[href="#/planning"]').click();
