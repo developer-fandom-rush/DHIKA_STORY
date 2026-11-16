@@ -7,9 +7,9 @@
   "date": "2026-01-01",
   "timezone": "Asia/Kolkata",
   "title": "Office Chotu — Rohit Babu's Introduction",
-  "start": "15:30",
+  "start": "15:10",
   "end": "16:00",
-  "timeStatus": "PROPOSED_WINDOW_NOT_LOCKED",
+  "timeStatus": "PROPOSED_WINDOW_FROM_POST_15_00_CLIFF_NOT_LOCKED",
   "status": "USER_DIRECTED_INTRO_ONLY_PLOT_FINALIZED_NOT_PROSE",
   "location": "Cyber City IT office, corridor and support / inventory bay",
   "cast": [
@@ -31,8 +31,8 @@
     }
   ],
   "costumeContinuity": {
-    "before": "On 2026-01-01, Ankita wore cream embroidered kurti, beige tailored blazer, fitted trousers and matching earrings from EP02 A06-A08. During Scene 03 she herself relaxed the upper two kurti buttons, and left her blazer open.",
-    "scene04Entry": "After Scene 03's Aishwarya confrontation is cut, Scene 04 begins with Ankita closing the same two kurti buttons and straightening the beige blazer before Rohit meets her. No wardrobe change or new open-button experiment.",
+    "before": "On 2026-01-01, Ankita wore cream embroidered kurti, beige tailored blazer and fitted trousers. In Scene03 Beat2 she herself loosened the top two kurti buttons; at the 15:00 corridor confrontation she carried her beige blazer in hand.",
+    "scene04Entry": "After her 'Baad mein baat karte hain' exit from Aishwarya, Ankita closes the same two kurti buttons and puts on / straightens the beige blazer BEFORE Rohit meets her. No additional 20-minute private presentation; no new outfit.",
     "promptConstraint": "Use actual cream kurti, beige blazer, fitted trousers; no sari, shirt-skirt, burgundy gown, or newly invented office dress."
   },
   "sourceMapping": [
@@ -53,7 +53,7 @@
     {
       "id": "S04-01",
       "name": "Aishwarya's question continues as a light cliff resolution",
-      "plot": "Scene 03 concluded with Aishwarya asking what happened in the meeting and who suggested the loosened buttons. Ankita does not explain the private exchange. Their short teasing remains unresolved, and Aishwarya is summoned to evening surprise coordination, creating an exit before Rohit arrives."
+      "plot": "Scene03 ended with Aishwarya noticing two loosened kurti buttons and asking about Bhalla and Sandeep, while Ankita deflected with 'Baad mein baat karte hain' and walked away. In Scene04's opening, Aishwarya leaves for evening-surprise arrangements. The unfinished conversation stays unresolved; do not repeat a new full confrontation."
     },
     {
       "id": "S04-02",
