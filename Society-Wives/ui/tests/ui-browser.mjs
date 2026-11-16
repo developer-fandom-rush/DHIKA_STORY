@@ -110,7 +110,8 @@ try {
  await page.locator('#episode03-final-prose .scene-link').nth(2).click();
  await page.waitForFunction(()=>document.querySelector('#episode03-final-prose .story-toolbar')?.textContent?.includes('Ankita · Scene 03'));
  check((await page.locator('#episode03-final-prose .reading-surface').innerText()).includes('Half observations mujhe bilkul pasand nahi'),'Ankita Scene03 approved cleaned Beat1 appears in reader');
- check(await page.locator('#episode03-final-prose .ep03-beat').count()===1,'Scene03 publishes only Beat1, remaining beats stay in Planning');
+ check(await page.locator('#episode03-final-prose .ep03-beat').count()===2,'Scene03 includes author Beat1 and verbatim Beat2 only');
+ check((await page.locator('#ep03-beat-02').innerText()).includes('Strong ya distracting?'),'Ankita user-verbatim Beat2 visible without rewriting');
  check((await page.locator('#episode03-final-prose .story-toolbar').innerText()).includes('Scene 03 in progress'),'Scene03 must not display full-scene approval');
  await page.locator('#episode03-final-prose .perspective-tabs button',{hasText:'Meenakshi'}).click();
  await page.waitForFunction(()=>document.querySelector('#episode03-final-prose .story-toolbar')?.textContent?.includes('Meenakshi · Scene 01'));
