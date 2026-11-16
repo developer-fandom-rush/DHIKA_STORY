@@ -67,6 +67,23 @@ function Ep03Body({scene}:{scene:Ep03Scene}){
  if(scene.format==='lines')return <div className="source-scene prose-exact ep03-original">{(scene.lines||[]).map((line,i)=><div key={i}>{line.time&&<p className="ep03-time">{line.time} PM</p>}{line.kind==='dialogue'?<p className="dialogue"><strong>{line.speaker}:</strong> “{line.text}”</p>:<p className="ep03-paragraph">{line.text}</p>}</div>)}</div>;
  return <div className="source-scene prose-exact ep03-original">{(scene.beats||[]).map(beat=><section className="ep03-beat" key={beat.id} id={'ep03-beat-'+beat.id}><div className="ep03-beat-heading"><strong>{beat.id} · {beat.title}</strong><small>{beat.status.toLowerCase().includes('approved')?'Approved source':'Source preserved · review'}</small></div>{beat.parts.map((part,i)=><div key={i}>{beat.parts.length>1&&<p className="ep03-part">Part {i+1}</p>}<StoryParagraphs raw={part.raw}/></div>)}{beat.id==='F08'&&scene.addenda?.map(a=><details key={a.id} className="source-footnote"><summary>{a.id} · original author addendum</summary><StoryParagraphs raw={a.raw}/></details>)}</section>)}</div>;
 }
+type Scene06AuthorRevision={status:string;beats:{id:string;label:string;raw:string;reviewStatus:string}[]};
+function Scene06SubmittedRevisions(){
+ const {data:partA,error:errorA}=useData<Scene06AuthorRevision>('episode-03-ankita-scene-06-author-revision-part-a.json');
+ const {data:partB,error:errorB}=useData<Scene06AuthorRevision>('episode-03-ankita-scene-06-author-revision-part-b.json');
+ const beats=[...(partA?.beats||[]),...(partB?.beats||[])];
+ return <section className="episode-plan-card" id="scene06-author-revision-stage">
+   <h3>Scene 06 · Author-submitted revised beats (not merged)</h3>
+   <p>Original submitted text only. Beat 2 has two alternatives (A and B), neither selected. Beat 6 was not supplied. Continuity corrections are pending; existing Scene 06 prose remains separately preserved.</p>
+   {errorA&&<p role="alert">Revision Part A unavailable: {errorA}</p>}
+   {errorB&&<p role="alert">Revision Part B unavailable: {errorB}</p>}
+   {beats.map(beat=><details className="episode-outline" key={beat.id} id={'scene06-author-'+beat.id}>
+      <summary>{beat.id} · {beat.label} — original submission</summary>
+      <pre style={{whiteSpace:'pre-wrap',overflowWrap:'anywhere',fontFamily:'inherit',lineHeight:1.7}}>{beat.raw}</pre>
+   </details>)}
+   <p className="muted">B6 pending from author · unresolved partner transitions, drinks and jacket continuity not filled in.</p>
+ </section>;
+}
 function Episode03Reading({character,scene}:Props){
  const active=character==='meenakshi'?'meenakshi':'ankita';
  const {data,loading,error}=useData<Ep03Data>('episode-03-reader.json');
@@ -94,7 +111,7 @@ function Episode03Reading({character,scene}:Props){
    <div className="reading-surface">{selected&&<>
     <div className="story-toolbar"><span>{titleCase(active)} · Scene {selected.id}</span><span className="meta-pill">{storyTag(selected.status)}</span></div>
     <div className="ep03-scene-intro"><h2>{selected.title}</h2><p>{selected.date} · {selected.time} · {selected.place}</p></div>
-    <Ep03Body scene={selected}/>
+    {active==='ankita'&&selected.id==='06'?<><Scene06SubmittedRevisions/><details className="source-footnote" id="scene06-earlier-draft"><summary>Earlier Scene 06 prose draft — preserved unchanged</summary><Ep03Body scene={selected}/></details></>:<Ep03Body scene={selected}/>}
     <div className="chapter-controls"><button type="button" className="button subtle" disabled={selectedIndex<=0} onClick={()=>go(scenes[selectedIndex-1].id)}>← Previous scene</button><span>Scene {selectedIndex+1} of {scenes.length}</span><button type="button" className="button primary" disabled={selectedIndex>=scenes.length-1} onClick={()=>go(scenes[selectedIndex+1].id)}>Next scene →</button></div>
     <details className="source-footnote"><summary>About this prose edition</summary><p>This reading uses the original saved story text. Mixed review or draft status is shown without granting extra approval. Planning plots have not been substituted for prose.</p></details>
    </>}</div>
