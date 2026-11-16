@@ -2703,19 +2703,19 @@
       "mentions": [],
       "episode": "03",
       "scene": "04",
-      "kind": "planned",
-      "state": "plot-locked",
-      "status": "User-directed intro-only plot · no prose",
-      "source": "episode-03-ankita-scene-04-rohit-intro.json",
+      "kind": "source-scene",
+      "state": "author-selected-draft",
+      "status": "Rohit Babu introduction prose · selected draft; overall approval pending",
+      "source": "episode-03-ankita-scene-04-rohit-intro-prose.md",
       "reader": {
-        "type": "sw-plan",
+        "type": "sw-episode03",
         "character": "ankita",
         "scene": "04"
       },
       "flags": [
         "End time provisional; Jan1 has no first-show reaction"
       ],
-      "detail": ""
+      "detail": "Ankita rebuttons before meeting junior IT support colleague Rohit, who returns equipment and arranges tomorrow's corrected slip. Draft starts approximately 15:15; time window provisional."
     },
     {
       "id": "ep03-ankita-scene05",
