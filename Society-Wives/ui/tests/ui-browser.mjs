@@ -122,6 +122,16 @@ try {
  await page.waitForFunction(()=>document.querySelector('#episode03-final-prose .story-toolbar')?.textContent?.includes('Ankita · Scene 05'));
  check((await page.locator('#episode03-final-prose .reading-surface').innerText()).includes('Yeh pehle wale elbow se zyada deliberate laga.'),'Author Beat4 contact sentence preserved');
  check((await page.locator('#episode03-final-prose .reading-surface').innerText()).includes('16:40 ke aas-paas Reyansh ne venue ke entrance par car park ki'),'One-line venue arrival appears in Scene05');
+ await page.locator('#episode03-final-prose .scene-link').nth(5).click();
+ await page.waitForFunction(()=>document.querySelector('#episode03-final-prose .story-toolbar')?.textContent?.includes('Ankita · Scene 06'));
+ await page.locator('#scene06-author-B07').waitFor();
+ check(await page.locator('#scene06-author-revision-stage details').count()===7,'Seven author-supplied Scene06 revision entries retained, including duplicate Beat2 alternatives');
+ check(await page.locator('#scene06-author-B02-A').count()===1&&await page.locator('#scene06-author-B02-B').count()===1,'Both Beat2 drafts remain separate and undecided');
+ check(await page.locator('#scene06-author-B06').count()===0,'No invented Beat6');
+ await page.locator('#scene06-author-B04 summary').click();
+ check((await page.locator('#scene06-author-B04').innerText()).includes('Yeh thoda zyada ho raha hai.'),'Author Scene06 Beat4 wording visible unchanged');
+ check(await page.locator('#scene06-earlier-draft').count()===1,'Earlier Scene06 draft retained separately and not overwritten');
+
  await page.locator('#episode03-final-prose .perspective-tabs button',{hasText:'Meenakshi'}).click();
  await page.waitForFunction(()=>document.querySelector('#episode03-final-prose .story-toolbar')?.textContent?.includes('Meenakshi · Scene 01'));
  check(await page.locator('#episode03-final-prose .scene-link').count()===4,'Meenakshi prose Scenes01–04 in reader');
