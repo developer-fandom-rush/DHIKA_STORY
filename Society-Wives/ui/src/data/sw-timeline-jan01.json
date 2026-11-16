@@ -1838,39 +1838,6 @@
       "detail": null
     },
     {
-      "id": "e03-shreya-SR10",
-      "date": "2026-01-01",
-      "sort": "10:30",
-      "start": "10:30",
-      "end": "11:10",
-      "timeLabel": "10:30–11:10",
-      "universe": "sw",
-      "title": "ACP's unusual preference",
-      "lead": "Shreya",
-      "characters": [
-        "shreya",
-        "acp",
-        "shreya_woman_03"
-      ],
-      "mentions": [],
-      "episode": "03",
-      "scene": "SR10",
-      "kind": "planned",
-      "state": "planned",
-      "status": "Episode 03 · 1 Jan working plot · prose pending",
-      "source": "episode-03-shreya-plan.json",
-      "reader": {
-        "type": "sw-plan",
-        "character": "shreya",
-        "scene": "SR10"
-      },
-      "flags": [
-        "User explicitly moved Shreya Episode 03 to January 1, 2026",
-        "Time provisional; plot only, no authored prose"
-      ],
-      "detail": "ACP Verma (50) repeatedly asks Shreya for an individual briefing rather than the normal group one. Poonam notices the change."
-    },
-    {
       "id": "e02-ankita-P03",
       "date": "2026-01-01",
       "sort": "10:37",
@@ -2036,71 +2003,6 @@
       "detail": null
     },
     {
-      "id": "e03-shreya-SR11",
-      "date": "2026-01-01",
-      "sort": "11:30",
-      "start": "11:30",
-      "end": "11:40",
-      "timeLabel": "11:30–11:40",
-      "universe": "sw",
-      "title": "The DCP review",
-      "lead": "Shreya",
-      "characters": [
-        "shreya",
-        "dcp"
-      ],
-      "mentions": [],
-      "episode": "03",
-      "scene": "SR11",
-      "kind": "planned",
-      "state": "planned",
-      "status": "Episode 03 · 1 Jan working plot · prose pending",
-      "source": "episode-03-shreya-plan.json",
-      "reader": {
-        "type": "sw-plan",
-        "character": "shreya",
-        "scene": "SR11"
-      },
-      "flags": [
-        "User explicitly moved Shreya Episode 03 to January 1, 2026",
-        "Time provisional; plot only, no authored prose"
-      ],
-      "detail": "DCP Rathod (58) completes a performance review; any private attraction remains an unconfirmed future proposal."
-    },
-    {
-      "id": "e03-shreya-SR12",
-      "date": "2026-01-01",
-      "sort": "11:40",
-      "start": "11:40",
-      "end": "12:15",
-      "timeLabel": "11:40–12:15",
-      "universe": "sw",
-      "title": "The cellblock bet",
-      "lead": "Shreya",
-      "characters": [
-        "shreya",
-        "inmate_a",
-        "inmate_b"
-      ],
-      "mentions": [],
-      "episode": "03",
-      "scene": "SR12",
-      "kind": "planned",
-      "state": "planned",
-      "status": "Episode 03 · 1 Jan working plot · prose pending",
-      "source": "episode-03-shreya-plan.json",
-      "reader": {
-        "type": "sw-plan",
-        "character": "shreya",
-        "scene": "SR12"
-      },
-      "flags": [
-        "User explicitly moved Shreya Episode 03 to January 1, 2026",
-        "Time provisional; plot only, no authored prose"
-      ],
-      "detail": "Two adult inmates privately bet that one can win Shreya's personal attention through charm and flattery during authorized questioning."
-    },
-    {
       "id": "e02-ankita-P07",
       "date": "2026-01-01",
       "sort": "12:03",
@@ -2163,39 +2065,6 @@
         "Missing published prose"
       ],
       "detail": "Ritesh enters Meenakshi's locker using an unauthorized duplicate key."
-    },
-    {
-      "id": "e03-shreya-SR13",
-      "date": "2026-01-01",
-      "sort": "12:20",
-      "start": "12:20",
-      "end": "13:15",
-      "timeLabel": "12:20–13:15",
-      "universe": "sw",
-      "title": "A pattern Poonam notices",
-      "lead": "Shreya",
-      "characters": [
-        "shreya",
-        "chauhan",
-        "shreya_woman_03"
-      ],
-      "mentions": [],
-      "episode": "03",
-      "scene": "SR13",
-      "kind": "planned",
-      "state": "planned",
-      "status": "Episode 03 · 1 Jan working plot · prose pending",
-      "source": "episode-03-shreya-plan.json",
-      "reader": {
-        "type": "sw-plan",
-        "character": "shreya",
-        "scene": "SR13"
-      },
-      "flags": [
-        "User explicitly moved Shreya Episode 03 to January 1, 2026",
-        "Time provisional; plot only, no authored prose"
-      ],
-      "detail": "Shreya returns to paperwork. Poonam quietly flags Chauhan's unusual invitations and the changes in officer attention."
     },
     {
       "id": "e02-ankita-P08",
@@ -3357,6 +3226,384 @@
         "Female staff unaware of workers' private motives"
       ],
       "detail": "1 January 2026, late night, outside Gulmohar Heights society after the others have gone. Harish and Sunil have a brief private reader-only POV about their hidden attraction and future plans. They have not approached Meenakshi or carried out those plans. This belongs to a future episode and must not interrupt the Farmhouse Scene 02 or 14:15 Naveen handoff."
+    },
+    {
+      "id": "e03-shreya-SR10",
+      "date": "2026-01-01",
+      "sort": "10:30",
+      "start": "10:30",
+      "end": "11:10",
+      "timeLabel": "10:30–11:10",
+      "universe": "sw",
+      "title": "ACP Verma and Poonam — the awkward training test",
+      "lead": "Shreya",
+      "characters": [
+        "Shreya",
+        "ACP Verma",
+        "Poonam"
+      ],
+      "mentions": [],
+      "episode": "03",
+      "scene": "SR10",
+      "kind": "planned",
+      "state": "planned",
+      "status": "User revised · prose pending",
+      "source": "episode-03-shreya-jan01-proposed-timeline.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "shreya",
+        "scene": "SR10"
+      },
+      "flags": [
+        "Working plot, not published prose."
+      ],
+      "detail": "Shreya arrives during Poonam's close-contact training test. Poonam is lying on a mat while ACP Verma is positioned above her; they separate immediately when Shreya enters. The posture and sudden separation strike Shreya as awkward. Verma and Poonam explain that the test is part of the Vivek-linked women's training program. Verma says Shreya will be tested too; she teasingly asks whether he himself will take her test, and he replies yes. No additional physical act is established."
+    },
+    {
+      "id": "e03-shreya-S03-01",
+      "date": "2026-01-01",
+      "sort": "11:12",
+      "start": "11:12",
+      "end": "11:25",
+      "timeLabel": "11:12–11:25",
+      "universe": "sw",
+      "title": "The strong-chai moment — station Chotu",
+      "lead": "Shreya",
+      "characters": [
+        "Shreya",
+        "Station Chotu (chai wala, adult 23 provisional)",
+        "Javed (brief interruption)"
+      ],
+      "mentions": [],
+      "episode": "03",
+      "scene": "S03-01",
+      "kind": "planned",
+      "state": "planned",
+      "status": "Approved plot · unchanged",
+      "source": "episode-03-shreya-jan01-proposed-timeline.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "shreya",
+        "scene": "S03-01"
+      },
+      "flags": [
+        "Working plot, not published prose."
+      ],
+      "detail": "While she reviews a routine timetable by the counter, he hands her the correct unlabelled cup before she even orders. She playfully tests whether he remembers everyone as attentively. He replies with a sharper-than-expected flirtatious line; her expression changes for a beat. A second small tangible hook: he notices she forgot the receipt containing the counter's operating-time stamp, returns it, and she realizes he's unusually observant. No forced or staged touching; proximity is natural at the counter."
+    },
+    {
+      "id": "e03-shreya-SR11",
+      "date": "2026-01-01",
+      "sort": "11:30",
+      "start": "11:30",
+      "end": "11:40",
+      "timeLabel": "11:30–11:40",
+      "universe": "sw",
+      "title": "DCP Rathod — the review and private imagined evening",
+      "lead": "Shreya",
+      "characters": [
+        "Shreya",
+        "DCP Rathod"
+      ],
+      "mentions": [],
+      "episode": "03",
+      "scene": "SR11",
+      "kind": "planned",
+      "state": "planned",
+      "status": "Logic proposed · review pending",
+      "source": "episode-03-shreya-jan01-proposed-timeline.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "shreya",
+        "scene": "SR11"
+      },
+      "flags": [
+        "Working plot, not published prose."
+      ],
+      "detail": "During the official documentation review, Rathod challenges one of Shreya's case decisions. She calmly defends it with her evidence and independent reasoning. The exchange is professional and ends with ordinary acknowledgement."
+    },
+    {
+      "id": "e03-shreya-SR13",
+      "date": "2026-01-01",
+      "sort": "12:20",
+      "start": "12:20",
+      "end": "13:15",
+      "timeLabel": "12:20–13:15",
+      "universe": "sw",
+      "title": "Poonam's observed pattern — brief records-desk exchange",
+      "lead": "Shreya",
+      "characters": [
+        "Shreya",
+        "Poonam"
+      ],
+      "mentions": [],
+      "episode": "03",
+      "scene": "SR13",
+      "kind": "planned",
+      "state": "planned",
+      "status": "Approved · short exchange",
+      "source": "episode-03-shreya-jan01-proposed-timeline.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "shreya",
+        "scene": "SR13"
+      },
+      "flags": [
+        "Working plot, not published prose."
+      ],
+      "detail": "During the existing 12:20–13:15 station paperwork block, Poonam quickly flags Chauhan's unusual follow-up request. Shreya instructs her to handle it through process. No separate substantial scene, new Chauhan appearance, expanded investigation, or extended debrief."
+    },
+    {
+      "id": "e03-shreya-S03-02",
+      "date": "2026-01-01",
+      "sort": "13:15",
+      "start": "13:15",
+      "end": "14:05",
+      "timeLabel": "13:15–14:05",
+      "universe": "sw",
+      "title": "Lunch and official travel to training venue",
+      "lead": "Shreya",
+      "characters": [
+        "Shreya"
+      ],
+      "mentions": [],
+      "episode": "03",
+      "scene": "S03-02",
+      "kind": "planned",
+      "state": "planned",
+      "status": "Optional/unreviewed — NOT approved",
+      "source": "episode-03-shreya-jan01-proposed-timeline.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "shreya",
+        "scene": "S03-02"
+      },
+      "flags": [
+        "Off-site segment has not been reviewed or approved; it may be removed before prose."
+      ],
+      "detail": "Propose a preapproved cyber-safety/self-defense talk with official invite noted in this new plot. Commute time must be allowed; no magical appearance."
+    },
+    {
+      "id": "e03-shreya-S03-03",
+      "date": "2026-01-01",
+      "sort": "14:05",
+      "start": "14:05",
+      "end": "15:05",
+      "timeLabel": "14:05–15:05",
+      "universe": "sw",
+      "title": "The guest-officer demonstration",
+      "lead": "Shreya",
+      "characters": [
+        "Shreya",
+        "Adult trainees / invited college students",
+        "Female coordinator (identity pending)"
+      ],
+      "mentions": [],
+      "episode": "03",
+      "scene": "S03-03",
+      "kind": "planned",
+      "state": "planned",
+      "status": "Optional/unreviewed — NOT approved",
+      "source": "episode-03-shreya-jan01-proposed-timeline.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "shreya",
+        "scene": "S03-03"
+      },
+      "flags": [
+        "Off-site segment has not been reviewed or approved; it may be removed before prose."
+      ],
+      "detail": "A confident adult participant challenges a sample questioning scenario and Shreya changes the demonstration on the spot. A brief front-row exchange creates a new individual whose exact identity and next arc remain open."
+    },
+    {
+      "id": "e03-shreya-S03-04",
+      "date": "2026-01-01",
+      "sort": "15:05",
+      "start": "15:05",
+      "end": "15:40",
+      "timeLabel": "15:05–15:40",
+      "universe": "sw",
+      "title": "College return to police station",
+      "lead": "Shreya",
+      "characters": [
+        "Shreya"
+      ],
+      "mentions": [],
+      "episode": "03",
+      "scene": "S03-04",
+      "kind": "planned",
+      "state": "planned",
+      "status": "Optional/unreviewed — NOT approved",
+      "source": "episode-03-shreya-jan01-proposed-timeline.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "shreya",
+        "scene": "S03-04"
+      },
+      "flags": [
+        "Off-site segment has not been reviewed or approved; it may be removed before prose."
+      ],
+      "detail": "No new cast teleports into the journey."
+    },
+    {
+      "id": "e03-shreya-S03-05",
+      "date": "2026-01-01",
+      "sort": "15:40",
+      "start": "15:40",
+      "end": "16:05",
+      "timeLabel": "15:40–16:05",
+      "universe": "sw",
+      "title": "The Training Ground Challenge — five-person flag drill",
+      "lead": "Shreya",
+      "characters": [
+        "Shreya (33, lead instructor)",
+        "Meera (24, police trainee)",
+        "Kavita (23, constable in Shreya training group)",
+        "Rohas (24, police trainee)",
+        "Lokesh (24, police trainee)"
+      ],
+      "mentions": [],
+      "episode": "03",
+      "scene": "S03-05",
+      "kind": "planned",
+      "state": "planned",
+      "status": "Approved plot · prose pending",
+      "source": "episode-03-shreya-jan01-proposed-timeline.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "shreya",
+        "scene": "S03-05"
+      },
+      "flags": [
+        "Working plot, not published prose."
+      ],
+      "detail": "In Vivek-inspired timed pursuit/flag-control drill, Rohas calls Shreya into the competition. Meera and Kavita run the first challenge against Rohas and Lokesh; Meera's speed distracts Rohas and Kavita unexpectedly wins the flag. Shreya accepts the next challenge. She initially outmaneuvers Rohas, while quiet Lokesh predicts her pivot and takes the side training tag. During the rapid tag capture, there is one brief natural close-contact moment: Lokesh's hand near Shreya's clothed waist, Shreya steadying on his forearm, then both release. Shreya notices a different momentary awareness without declaring a relationship. Lokesh's clean win surprises her."
+    },
+    {
+      "id": "e03-shreya-S03-06",
+      "date": "2026-01-01",
+      "sort": "16:05",
+      "start": "16:05",
+      "end": "17:05",
+      "timeLabel": "16:05–17:05",
+      "universe": "sw",
+      "title": "Police closeout and homebound drive",
+      "lead": "Shreya",
+      "characters": [
+        "Shreya"
+      ],
+      "mentions": [],
+      "episode": "03",
+      "scene": "S03-06",
+      "kind": "planned",
+      "state": "planned",
+      "status": "One-line transition · proposed",
+      "source": "episode-03-shreya-jan01-proposed-timeline.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "shreya",
+        "scene": "S03-06"
+      },
+      "flags": [
+        "Working plot, not published prose."
+      ],
+      "detail": "Allow file wrap ~16:05–16:35 and safe drive ~16:35–17:05. First/top button remained open through SR09; what she does afterward must be explicitly chosen in prose, not assumed to remain through whole evening."
+    },
+    {
+      "id": "e03-shreya-S03-07",
+      "date": "2026-01-01",
+      "sort": "17:15",
+      "start": "17:15",
+      "end": "17:30",
+      "timeLabel": "17:15–17:30",
+      "universe": "sw",
+      "title": "Samar and Shaan — the two unpaid bets",
+      "lead": "Shreya",
+      "characters": [
+        "Shreya",
+        "Samar (24)",
+        "Shaan (24)"
+      ],
+      "mentions": [],
+      "episode": "03",
+      "scene": "S03-07",
+      "kind": "planned",
+      "state": "planned",
+      "status": "Proposal · approval pending",
+      "source": "episode-03-shreya-jan01-proposed-timeline.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "shreya",
+        "scene": "S03-07"
+      },
+      "flags": [
+        "Working plot, not published prose."
+      ],
+      "detail": "Twins see Shreya coming back from duty and revive their different bets. Instead of agreeing to give away either reward, she surprises them with a specific new challenge for next workout: one helps plan a real society safety demonstration, the other tracks fitness timing. Samar goes openly bold; Shaan counters with a more reserved, observant line. No manufactured second gym routine this evening."
+    },
+    {
+      "id": "e03-shreya-S03-08",
+      "date": "2026-01-01",
+      "sort": "17:35",
+      "start": "17:35",
+      "end": "17:45",
+      "timeLabel": "17:35–17:45",
+      "universe": "sw",
+      "title": "Chintu — the unfinished register question",
+      "lead": "Shreya",
+      "characters": [
+        "Shreya",
+        "Chintu (23, society security helper)"
+      ],
+      "mentions": [],
+      "episode": "03",
+      "scene": "S03-08",
+      "kind": "planned",
+      "state": "planned",
+      "status": "Proposal · not discussed",
+      "source": "episode-03-shreya-jan01-proposed-timeline.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "shreya",
+        "scene": "S03-08"
+      },
+      "flags": [
+        "Working plot, not published prose."
+      ],
+      "detail": "He now shows a corrected timestamp sheet and identifies one discrepancy that he refused to smooth over. Shreya appreciates his initiative. A brief warm, surprisingly witty comeback makes her look at him as a person beyond his station task. Unlike chai wala, this Chintu is a familiar society operations person."
+    },
+    {
+      "id": "e03-shreya-S03-09",
+      "date": "2026-01-01",
+      "sort": "17:45",
+      "start": "17:45",
+      "end": "18:00",
+      "timeLabel": "17:45–18:00",
+      "universe": "sw",
+      "title": "Home and family lane",
+      "lead": "Shreya",
+      "characters": [
+        "Shreya",
+        "Vikram",
+        "Anaya (family-only)",
+        "Arvind (if confirmed present)"
+      ],
+      "mentions": [],
+      "episode": "03",
+      "scene": "S03-09",
+      "kind": "planned",
+      "state": "planned",
+      "status": "Proposal · not discussed",
+      "source": "episode-03-shreya-jan01-proposed-timeline.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "shreya",
+        "scene": "S03-09"
+      },
+      "flags": [
+        "Working plot, not published prose."
+      ],
+      "detail": "A short real family handoff instead of an omnibus romance debrief. Confirm who is caring for Anaya before writing and whether Vikram has returned; family presence cannot be presumed from old morning time."
     }
   ]
 }
