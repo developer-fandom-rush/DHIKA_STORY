@@ -205,13 +205,13 @@ try {
  check((await page.locator('#shreya-ep03-SR12 summary').innerText()).includes('ON HOLD'),'Beat 5 inmate bet visibly held');
  check((await page.locator('#shreya-ep03-S03-01 summary').innerText()).includes('Approved plot'),'Beat 3 strong chai marked approved');
  check((await page.locator('#shreya-ep03-S03-05 > summary').innerText()).includes('Approved plot'),'Beat 10 training ground marked approved');
- check((await page.locator('#shreya-ep03-S03-03 > summary').innerText()).includes('Shreya × Karan × Aman'),'Beat 8 college crossover appears in ordered planning');
- check((await page.locator('#shreya-ep03-S03-03 > summary').innerText()).includes('scene draft'),'College meeting clearly indicates staging is still a draft');
+ check((await page.locator('#shreya-ep03-S03-03 > summary').innerText()).includes('Karan–Aman'),'Beat 8 college crossover appears in ordered planning');
+ check((await page.locator('#shreya-ep03-S03-03 > summary').innerText()).includes('author review'),'College meeting clearly indicates staging is still a draft');
  await page.locator('#shreya-ep03-S03-03 > summary').click();
  check(await page.locator('#shreya-ep03-S03-03 .beat-list > details').count()===5,'College scene includes all five reviewable mini-beats');
  await page.locator('#shreya-ep03-S03-03 .beat-list > details').nth(1).locator('summary').click();
  check((await page.locator('#shreya-ep03-S03-03 .beat-list > details').nth(1).innerText()).includes('backpack strap'),'Beat 8 accident storyboard appears in UI');
- check((await page.locator('#shreya-ep03-S03-04 > summary').innerText()).includes('uniform reset'),'Beat 9 station return and outfit continuity follows accident');
+ check((await page.locator('#shreya-ep03-S03-04 > summary').innerText()).includes('training gear change'),'Beat 9 station return and outfit continuity follows accident');
  check((await page.locator('#shreya-ep03-SR13 summary').innerText()).includes('Approved'),'Beat 6 short exchange marked approved');
  check(await page.locator('#meenakshi-ep03-prose-moved').count()===0,'Shreya Planning excludes unrelated Meenakshi episode cards');
  await page.locator('.perspective-tabs button', {hasText:'Ankita'}).click();
