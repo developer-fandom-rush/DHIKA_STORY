@@ -264,5 +264,37 @@
     "canonBaseline": "Shreya SR05 08:13–08:15; Karan MBA entrance/prep freelance; Aman Java/backend job prep; their Ankita pickup 17:20–17:50.",
     "approvalStatus": "DIRECTION_SELECTED_EXECUTION_DRAFT_NOT_APPROVED_PROSE",
     "followedBy": "S03-05 approved five-person station training ground at 15:40–16:05; then short return bridge S03-06 and proposed Samar/Shaan evening S03-07."
+  },
+  "collegeEncounterBeat7to9": {
+    "sourceFile": "episode-03-shreya-jan01-proposed-timeline.json",
+    "ids": [
+      "S03-02",
+      "S03-03",
+      "S03-04"
+    ],
+    "originalReviewBeatNumbers": [
+      7,
+      8,
+      9
+    ],
+    "cast": [
+      "Shreya (33)",
+      "Karan (22)",
+      "Aman (22)"
+    ],
+    "time": "13:15–15:40, Jan 1 2026",
+    "location": "Nearby public college, Gurgaon, open cyber-safety/career-awareness session (exact venue not canon-locked)",
+    "pastHistory": "Shreya and twins' approved Episode 02 SR05 at parking gate 08:13–08:15. Karan teasing, Aman observant, Shreya one top uniform button open.",
+    "premise": "Shreya attends as officially booked guest. Karan/MBA prep and Aman/backend interviews independently attend a public college event; all are surprised when they meet. They are not canonically college students and do not accompany her back.",
+    "event": "During credible demonstration a dropped folder and momentarily displaced open neckline causes accidental brief upper-cleavage visibility to the twins; each looks away. Shreya adjusts uniform, has a short moment of private awareness and resumes her professional session. No staged exposure, lingering gaze or touching.",
+    "exit": "Session ends 15:05, Shreya returns station 15:30 and changes into training outfit by 15:40 for preapproved five-person Beat10. Twins leave independently and stay free for Ankita ~17:23 pickup.",
+    "status": "USER_REQUESTED_PLOT_DRAFT_FOR_REVIEW_NOT_FINISHED_PROSE",
+    "continuityLocks": [
+      "No change to approved Beat 10 plot or cast.",
+      "No change to approved Episode 02 prose.",
+      "B5 three inmates remains parked and unscheduled.",
+      "Samar/Shaan separate in evening society proposal.",
+      "Venue remains proposed; not a verified real-life location."
+    ]
   }
 }
