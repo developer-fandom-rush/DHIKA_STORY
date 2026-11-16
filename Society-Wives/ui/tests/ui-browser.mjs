@@ -200,6 +200,12 @@ try {
  check((await page.locator('#shreya-ep03-jan01-timeline').innerText()).includes('1 January 2026'),'Shreya Episode03 shows January 1 date');
  check((await page.locator('#shreya-ep03-jan01-timeline').innerText()).includes('Police-station Chotu'),'Police station chai wala role shown');
  check((await page.locator('#shreya-ep03-jan01-timeline').innerText()).includes('Society Chintu'),'Society Chintu kept distinct');
+ await page.waitForFunction(()=>document.querySelectorAll('#shreya-ordered-beats > details').length===14);
+ check(await page.locator('#shreya-ordered-beats > details').count()===14,'Shreya planning keeps 14 original numbered review slots');
+ check((await page.locator('#shreya-ep03-SR12 summary').innerText()).includes('ON HOLD'),'Beat 5 inmate bet visibly held');
+ check((await page.locator('#shreya-ep03-S03-01 summary').innerText()).includes('Approved plot'),'Beat 3 strong chai marked approved');
+ check((await page.locator('#shreya-ep03-S03-05 summary').innerText()).includes('Approved plot'),'Beat 10 training ground marked approved');
+ check((await page.locator('#shreya-ep03-SR13 summary').innerText()).includes('Approved'),'Beat 6 short exchange marked approved');
  check(await page.locator('#meenakshi-ep03-prose-moved').count()===0,'Shreya Planning excludes unrelated Meenakshi episode cards');
  await page.locator('.perspective-tabs button', {hasText:'Ankita'}).click();
  await page.locator('#ankita-ep03-a11').waitFor();
@@ -276,7 +282,9 @@ try {
  check(await page.locator('.universe-option').count()===2,'Left switcher has exactly Society Wives and Dhika');
  await page.locator('.universal-top-link').click();
  await page.locator('.timeline-event').first().waitFor();
- check(await page.locator('.timeline-event').count()===87,'Society Wives Jan1 displays 87 time-ordered events including four author-retimed Shreya working scenes');
+ check(await page.locator('.timeline-event').count()===95,'Society Wives Jan1 displays all twelve Shreya active planned events, excluding inmate hold');
+ check(await page.locator('#timeline-e03-shreya-SR12').count()===0,'Held Shreya inmates are absent from January 1 universal timeline');
+ check(await page.locator('#timeline-e03-shreya-S03-05').count()===1,'Approved training ground encounter appears in correct time sequence');
  check(await page.locator('#timeline-e03-shreya-SR10').count()===1,'Shreya SR10 appears on the corrected January 1 clock');
  check(await page.locator('#timeline-ep03-ankita-scene04').count()===1,'Rohit Jan1 introduction appears in active calendar');
  check((await page.locator('.timeline-start').innerText()).includes('00:01'),'Universal story clock begins at 00:01 without inventing an encounter');
