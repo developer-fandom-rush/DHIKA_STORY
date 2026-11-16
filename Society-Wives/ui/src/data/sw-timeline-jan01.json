@@ -3157,12 +3157,12 @@
       ],
       "episode": "03",
       "scene": "08",
-      "kind": "planned",
-      "state": "plot-review",
-      "status": "User-directed plot only · final Ankita Jan1 scene",
-      "source": "episode-03-ankita-scene-08-rinku-setup.json",
+      "kind": "source-scene",
+      "state": "prose-draft-review",
+      "status": "Scene08 five-beat Rinku prose in reader · pending author review",
+      "source": "episode-03-ankita-scene-08-prose-draft.json",
       "reader": {
-        "type": "sw-plan",
+        "type": "sw-episode03",
         "character": "ankita",
         "scene": "08"
       },
@@ -3173,7 +3173,7 @@
         "No Gopal/elders interaction, family dinner or Kabir closing talk",
         "Rinku doorbell cut before first view of no-dupatta outfit"
       ],
-      "detail": "Ankita freshens, changes to no-dupatta homewear, recalls her day; narrator separates secret parcel events. Already familiar building helper Rinku comes for a routine tap maintenance check, bell at ~18:25 and cut before opening. Rinku first sees this home outfit next episode."
+      "detail": "Scene08 18:10–18:25 five-beat draft: Ankita freshens at home, remembers only her own day; narrator separately contrasts the hidden parcel chain; familiar Rinku checks a water-filter connector after a message. Doorbell at 18:25, cut before door opens, first no-dupatta view in next Ankita episode. Rajeev remains absent."
     },
     {
       "id": "e03-meenakshi-03",
