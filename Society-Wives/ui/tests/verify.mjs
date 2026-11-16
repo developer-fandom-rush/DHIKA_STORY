@@ -156,6 +156,18 @@ assert.ok(ankitaScene06.choreography[5].participants.includes('Vivan middle'),'V
 assert.equal(ankitaScene06.setting.danceFloorCast.length,5,'Private dance has exactly five named dancers');
 assert.equal(ankitaScene06.prose.lines.at(-1).text.includes('5:20 PM'),true,'Dance cut must precede the exit and home drop');
 assert.equal(ankitaScene06.prose.lines.filter(x=>x.type==='dialogue').length>10,true,'Dialogue-first dance must keep back-and-forth teasing');
+const scene06RevisionA=read('episode-03-ankita-scene-06-author-revision-part-a.json');
+const scene06RevisionB=read('episode-03-ankita-scene-06-author-revision-part-b.json');
+assert.deepEqual(scene06RevisionA.beats.map(x=>x.id),['B01','B02-A','B02-B','B03'],'Both author-submitted Beat2 versions staged separately; no automatic selection');
+assert.deepEqual(scene06RevisionB.beats.map(x=>x.id),['B04','B05','B07'],'Beats4,5,7 staged without invented Beat6');
+assert.ok(![...scene06RevisionA.beats,...scene06RevisionB.beats].some(x=>x.id==='B06'),'Missing Beat6 must remain unwritten');
+assert.ok(scene06RevisionB.beats.find(x=>x.id==='B04').raw.includes('Yeh thoda zyada ho raha hai.'),'Author's Vivan Beat4 remains unchanged');
+assert.ok(scene06RevisionB.beats.find(x=>x.id==='B05').raw.includes('Usne glass side pe rakha'),'Pending drink continuity must remain unaltered');
+assert.ok(scene06RevisionB.beats.find(x=>x.id==='B07').raw.includes('Ghar 6 baje se pehle pahunchna hai'),'Author 18:00 home deadline maintained');
+assert.equal(ep03Reader.chapters.ankita.find(x=>x.id==='06').format,'lines','Earlier Scene06 prose format retained separately from staged author revisions');
+const readerScene06Source=readFileSync(resolve(ui,'src/Reading.tsx'),'utf8');
+assert.ok(readerScene06Source.includes('Scene06SubmittedRevisions')&&readerScene06Source.includes('scene06-earlier-draft'),'Reader must show staged revisions and preserve earlier draft');
+
 const ankitaScene07=read('episode-03-ankita-scene-07-twins-pickup-homecoming.json');
 assert.equal(ankitaScene07.scene,'07','Twin pickup must be EP03 Scene07');
 assert.equal(ankitaScene07.status,'USER_SELECTED_PLOT_FOR_UI_PROSE_PENDING');
