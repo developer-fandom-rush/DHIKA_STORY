@@ -10,7 +10,7 @@
     "path": "Society-Wives/episode-02.html",
     "blob_sha": "91f5c2a92282cc01be7497cd8e12c97a41241aed"
   },
-  "approval_policy": "Approved scenes are marked only when exact source plan signals approval; published drafts remain indexed separately and must not be used as approved canon.",
+  "approval_policy": "Latest user confirmation on 16 Nov 2026 approves all nine extant Episode 02 Shreya prose scenes; original source-derived historic flags are preserved in each scene for provenance. SR03 plan is approved but full prose missing; it must not be presented as published prose.",
   "scenes": [
     {
       "scene_id": "SR01",
@@ -537,6 +537,11 @@
         "source_char_length": 9758,
         "html_lines_lossless": true,
         "prose_line_count": 44
+      },
+      "latestAuthorApproval": {
+        "status": "AUTHOR_APPROVED_PROSE",
+        "confirmed": "2026-11-16",
+        "source": "Direct current author instruction; does not replace historical source flags"
       }
     },
     {
@@ -1596,6 +1601,11 @@
         "source_char_length": 15012,
         "html_lines_lossless": true,
         "prose_line_count": 99
+      },
+      "latestAuthorApproval": {
+        "status": "AUTHOR_APPROVED_PROSE",
+        "confirmed": "2026-11-16",
+        "source": "Direct current author instruction; does not replace historical source flags"
       }
     },
     {
@@ -1968,6 +1978,11 @@
         "source_char_length": 5527,
         "html_lines_lossless": true,
         "prose_line_count": 30
+      },
+      "latestAuthorApproval": {
+        "status": "AUTHOR_APPROVED_PROSE",
+        "confirmed": "2026-11-16",
+        "source": "Direct current author instruction; does not replace historical source flags"
       }
     },
     {
@@ -2363,6 +2378,11 @@
         "source_char_length": 6686,
         "html_lines_lossless": true,
         "prose_line_count": 32
+      },
+      "latestAuthorApproval": {
+        "status": "AUTHOR_APPROVED_PROSE",
+        "confirmed": "2026-11-16",
+        "source": "Direct current author instruction; does not replace historical source flags"
       }
     },
     {
@@ -2853,6 +2873,11 @@
         "source_char_length": 5189,
         "html_lines_lossless": true,
         "prose_line_count": 42
+      },
+      "latestAuthorApproval": {
+        "status": "AUTHOR_APPROVED_PROSE",
+        "confirmed": "2026-11-16",
+        "source": "Direct current author instruction; does not replace historical source flags"
       }
     },
     {
@@ -2948,6 +2973,11 @@
         "source_char_length": 2802,
         "html_lines_lossless": true,
         "prose_line_count": 6
+      },
+      "latestAuthorApproval": {
+        "status": "AUTHOR_APPROVED_PROSE",
+        "confirmed": "2026-11-16",
+        "source": "Direct current author instruction; does not replace historical source flags"
       }
     },
     {
@@ -3646,6 +3676,11 @@
         "source_char_length": 8641,
         "html_lines_lossless": true,
         "prose_line_count": 60
+      },
+      "latestAuthorApproval": {
+        "status": "AUTHOR_APPROVED_PROSE",
+        "confirmed": "2026-11-16",
+        "source": "Direct current author instruction; does not replace historical source flags"
       }
     },
     {
@@ -3774,6 +3809,11 @@
         "source_char_length": 2595,
         "html_lines_lossless": true,
         "prose_line_count": 10
+      },
+      "latestAuthorApproval": {
+        "status": "AUTHOR_APPROVED_PROSE",
+        "confirmed": "2026-11-16",
+        "source": "Direct current author instruction; does not replace historical source flags"
       }
     },
     {
@@ -4361,22 +4401,26 @@
         "source_char_length": 6933,
         "html_lines_lossless": true,
         "prose_line_count": 51
+      },
+      "latestAuthorApproval": {
+        "status": "AUTHOR_APPROVED_PROSE",
+        "confirmed": "2026-11-16",
+        "source": "Direct current author instruction; does not replace historical source flags"
       }
     }
   ],
   "approved_scene_ids": [
     "SR01",
-    "SR04",
-    "SR08",
-    "SR09"
-  ],
-  "nonapproved_scene_ids": [
     "SR02A",
     "SR02B",
     "SR05",
+    "SR04",
     "SR06",
-    "SR07"
+    "SR07",
+    "SR08",
+    "SR09"
   ],
+  "nonapproved_scene_ids": [],
   "character_name_index": [
     {
       "character_id": "karan",
@@ -5373,5 +5417,11 @@
     "scenes_found": 9,
     "source_characters_preserved": 63143,
     "each_scene_reconstruction_verified": true
+  },
+  "authorApprovalUpdate": {
+    "confirmedBy": "Author explicit confirmation in current conversation, 2026-11-16",
+    "scope": "All nine existing SR01, SR02A, SR02B, SR05, SR04, SR06, SR07, SR08 and SR09 source prose scenes",
+    "missingProse": "SR03 remains a user-approved PLOT only; no reconstructed full prose was supplied or published.",
+    "preserveSource": "Original source_html_lines_exact, original plan approval text and source-derived provenance fields retained verbatim"
   }
 }
