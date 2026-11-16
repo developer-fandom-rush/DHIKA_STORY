@@ -3431,7 +3431,7 @@
       "scene": "S03-03",
       "kind": "planned",
       "state": "planned",
-      "status": "Author-directed college scene · plot review",
+      "status": "Author-approved college plot · prose pending",
       "source": "episode-03-shreya-jan01-proposed-timeline.json",
       "reader": {
         "type": "sw-plan",
@@ -3439,17 +3439,17 @@
         "scene": "S03-03"
       },
       "flags": [
-        "User-directed college encounter and reaction; individual lines and scene mechanics still plot-level drafts, not approved prose.",
-        "Karan and Aman attend as civilian career-prep guests, not police trainees. Neither enters Beat10 station training.",
-        "Shreya's Episode02 approved uniform and evening Ankita twin pickup timeline stay intact."
+        "Confirmed by author: all three remember the unexpected college meeting/accident and later talk with previous familiarity.",
+        "The exact prose and dialogue are still draft; no adult romance or physical incident is automatically implied.",
+        "Karan and Aman independently attend as adult career-prep visitors and leave before Ankita's evening pickup. Beat10 station cast unchanged."
       ],
-      "detail": "During a public, career-relevant cyber-safety demonstration, Shreya unexpectedly meets already-familiar society twins Karan and Aman. A loose backpack strap briefly catches a display stand, they prevent it falling, and a few of her papers drop. As she bends to retrieve them, the previously unbuttoned top collar shifts forward for an instant, unintentionally revealing a small amount of the upper breast/cleavage area to both men from the side. She immediately straightens and fixes her uniform. Karan briefly stops joking; Aman discreetly returns a folder. Shreya has a moment of private, confused awareness, then the session returns to ordinary safety instruction. No deliberate display, further touch or extended embarrassment.",
+      "detail": "During a public, career-relevant cyber-safety demonstration, Shreya unexpectedly meets already-familiar society twins Karan and Aman. A loose backpack strap briefly catches a display stand, they prevent it falling, and a few of her papers drop. As she bends to retrieve them, the previously unbuttoned first/top button collar shifts forward for an instant, unintentionally revealing a small amount of the upper breast/cleavage area to both men from the side. She immediately straightens and fixes her uniform. Karan briefly stops joking; Aman discreetly returns a folder. Shreya has a moment of private, confused awareness, then the session returns to ordinary safety instruction. No deliberate display, further touch or extended embarrassment. Shared memory: all three remember the brief incident; normal teasing resumes and it remains a discreet private observation. No intrusive callbacks.",
       "beats": [
         {
           "id": "B08-01",
           "at": "14:05–14:15",
           "title": "Unplanned reunion",
-          "body": "Shreya sees Karan by management/career guidance and Aman near technical recruitment guidance. They converge near her open-awareness session and all are surprised; nobody knew Shreya was the guest officer.",
+          "body": "Shreya sees Karan by management/career guidance and Aman near technical recruitment guidance. They converge near her open-awareness session and all are surprised; nobody knew Shreya was the guest officer. Add an easy callback to their morning parking-gate banter: all three speak with prior familiarity, not like strangers. Shreya teases their constant appearances but retains professional control.",
           "internal": "Audience ke familiar chehre dekhkar Shreya ka ek pal ke liye focus badla. Karan ki usual grin aa gayi; Aman seedha khada hokar calmly hello bola."
         },
         {
@@ -3464,20 +3464,20 @@
           "at": "14:34–14:36",
           "title": "Single accidental wardrobe moment",
           "body": "While Karan turns near the booth, his backpack strap catches the loose edge of a lightweight display stand. Aman catches the tilting stand; a few Shreya handouts fall. When Shreya bends to collect them, her already open top uniform neckline briefly shifts enough that both men unintentionally glimpse a small upper part of her breasts/cleavage from the side. No second button opens. She rises, adjusts the uniform immediately; both avert their gaze. No touching, tearing, intentional exposure or extended view.",
-          "internal": "Karan ka bag-strap stand mein atak gaya. Aman ne use girne se sambhala, par kuch papers floor par chale gaye. Shreya jhuki toh shirt ka pehle se loose upper collar ek pal ke liye aage shift hua; dono ki nazar anjaane mein pad gayi. Shreya seedhi hui, collar theek kiya aur papers le liye."
+          "internal": "Karan ka backpack strap stand mein atka aur Aman ne usse girne se bachaya. Kuch handouts neeche gire. Shreya ne jhukkar papers uthaye; uska pehle se loose top collar ek pal ko shift hua. Teeno ne incident register kiya, Shreya ne shirt set ki aur kisi ne isay badhaaya nahi. Accident ke baad baat seedha demonstration par aa gayi."
         },
         {
           "id": "B08-04",
           "at": "14:36–14:40",
           "title": "Awareness and a quick return to normal",
           "body": "Karan, normally a joker, goes briefly quiet. Aman returns Shreya's folder while looking at the printed handout. Shreya infers they may have seen the accidental glimpse, feels a short confused/private self-consciousness, and then treats it as a minor interruption instead of a public incident. She cannot know their internal thoughts, nor does this imply consent to further attention.",
-          "internal": "Shreya ko unki unusual khamoshi register hui. 'Notice kiya hoga?' khayal ek pal aaya, par usne file khol di. Uska professional rhythm wapas aa gaya."
+          "internal": "Shreya ne pal-bhar ko socha ki dono ne note kiya hoga; Karan ki unusually restrained smile aur Aman's practical help usse yaad rahi. Phir usne unko waise hi halka tease kiya jaise subah parking gate par karti thi. Karan wapas natural masti mein aa gaya aur Aman quietly focus se answer deta raha. Kisi ne awkward moment ki visibility par direct comment nahi kiya."
         },
         {
           "id": "B08-05",
           "at": "14:40–15:05",
           "title": "Session normalizes and ends",
-          "body": "Shreya completes the public cyber-safety session. Karan returns to light banter about career readiness while Aman asks an actual verification question. Their normal behavior, not additional exposure, signals that the awkward minute has passed.",
+          "body": "Shreya completes the public cyber-safety session. Karan returns to light banter about career readiness while Aman asks an actual verification question. Their normal behavior, not additional exposure, signals that the awkward minute has passed. Familiar teasing naturally returns before the goodbye; all three can recall the incident afterward without treating the wardrobe moment as a joke or an invitation to repeat it.",
           "internal": "Agle examples mein conversation phir safe links, reporting aur practical screening par aa gayi. College mein Shreya guest officer hi rahi; kisi ne accident ko topic nahi banaya."
         }
       ]
