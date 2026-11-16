@@ -157,11 +157,11 @@
       },
       {
         "id": "03",
-        "title": "The Private Briefing — Beat 1 (Scene in progress)",
+        "title": "The Private Briefing — Beats 1–2 (Scene in progress)",
         "date": "2026-01-01",
-        "time": "14:30–14:45 (Beat 1 of Scene 03)",
+        "time": "14:30–15:00 (Beats 1–2 of Scene 03)",
         "place": "Cyber City IT office · private briefing room",
-        "status": "BEAT_01_USER_LOCKED_REMAINING_BEATS_PENDING",
+        "status": "BEATS_01_02_SAVED_REMAINING_BEATS_PENDING",
         "source": "episode-03-ankita-scene-03-beat-01-clean-v3.md",
         "format": "beats",
         "beats": [
@@ -175,7 +175,22 @@
                 "origin": "CLEANED_V3_AUTHOR_REVIEW_ACCEPTED"
               }
             ]
+          },
+          {
+            "id": "02",
+            "title": "Morning Compliment Recall → Beauty Test · 14:45–15:00",
+            "status": "USER_VERBATIM_UPLOADED_TO_UI",
+            "parts": [
+              {
+                "raw": "**Beat 2: Morning Compliment Recall → Beauty Test (14:45–15:00)**\n\nAnkita ko subah ki baatein yaad aane lagi. Priya aur Nisha ke figure comments, Vivan ki nazar, Reyansh ka glance. Ab Bhalla aur Sandeep bhi wahi keh rahe the.\n\nUsne socha — *Sach mein itna noticeable hai?*\n\nUsne jaan-bujh ke apne kurti ke upper do buttons dheele kar diye. Neckline thodi aur khuli. Collarbone aur upper chest clearly dikhne laga. Woh seedhi khadi rahi, shoulders back, ek haath table pe.\n\nBhalla ki nazar turant wahan gayi. Woh kuch nahi bola, lekin uski aankhein ruk gayi.\n\nSandeep ne tie adjust kiya. Uski nazar Ankita ke neckline se neeche, phir upar aayi.\n\n**Sandeep:** “Ankita… yeh look aur strong ho gaya hai.”\n\n**Ankita:** “Strong ya distracting?”\n\n**Bhalla:** “Dono. Aur tumhe pata hai.”\n\nAnkita ne dheere se apna weight ek taraf shift kiya. Kurti ka fabric uske body pe tight hua. Hips ka curve clearly bana.\n\n**Ankita:** “Main bas dekh rahi hoon… aap log kitna notice karte ho.”\n\nSandeep ne apna posture badla. Uski nazar ab openly uske figure pe thi.\n\n**Sandeep:** “Notice toh ho raha hai. Bahut clearly.”\n\nBhalla ne halka sa saans liya. Uski awaaz abhi bhi calm thi.\n\n**Bhalla:** “Tum test kar rahi ho, Ankita.”\n\n**Ankita:** “Haan. Aur abhi tak result interesting hai.”\n\nRoom mein tension badh gayi thi. Koi touch nahi hua. Sirf Ankita ki deliberate body language aur unki nazrein thi. Ankita ke andar warmth thi, lekin control abhi bhi uske paas tha.",
+                "origin": "AUTHOR_SUBMITTED_EXACT_VERBATIM"
+              }
+            ]
           }
+        ],
+        "sourceFiles": [
+          "episode-03-ankita-scene-03-beat-01-clean-v3.md",
+          "episode-03-ankita-scene-03-beat-02-user-verbatim.md"
         ]
       },
       {
