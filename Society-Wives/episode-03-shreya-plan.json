@@ -228,5 +228,18 @@
       "originalDate": "2026-01-03",
       "originalProposedSlot": "2026-01-01 11:40–12:15"
     }
-  ]
+  ],
+  "trainingRosterClarification": {
+    "policeTrainees": [
+      "Rohas (24)",
+      "Lokesh (24)",
+      "Meera (24)"
+    ],
+    "shreyaTrainingGroupAdditional": [
+      "Kavita (23, Constable)"
+    ],
+    "shreyaGuidedGroupCount": 4,
+    "notes": "Meera is the third police trainee alongside Rohas and Lokesh. Kavita participates as Shreya's trainee in mentoring/training while retaining her formal Constable designation; she is not reclassified as a formal police trainee. Female-staff Vivek training program continues to include Kavita, Meera, Poonam and Anjali, with Shreya as lead.",
+    "authorDirectedDate": "2026-11-16"
+  }
 }
