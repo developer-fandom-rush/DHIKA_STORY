@@ -354,5 +354,18 @@
   ],
   "authorDecisions": [
     "2026-11-16: B3 strong-chai beat explicitly approved unchanged; B4 DCP Rathod one-sided private fantasy requested, proposed review logic only; B5 inmates bet moved from active Jan1 plan to unscheduled future arc with three labeled adult inmates and ego-based nonsexual challenge."
-  ]
+  ],
+  "trainingRosterClarification": {
+    "policeTrainees": [
+      "Rohas (24)",
+      "Lokesh (24)",
+      "Meera (24)"
+    ],
+    "shreyaTrainingGroupAdditional": [
+      "Kavita (23, Constable)"
+    ],
+    "shreyaGuidedGroupCount": 4,
+    "notes": "Meera is the third police trainee alongside Rohas and Lokesh. Kavita participates as Shreya's trainee in mentoring/training while retaining her formal Constable designation; she is not reclassified as a formal police trainee. Female-staff Vivek training program continues to include Kavita, Meera, Poonam and Anjali, with Shreya as lead.",
+    "authorDirectedDate": "2026-11-16"
+  }
 }
