@@ -20,7 +20,7 @@ function Episode02Reading({character,scene}:Props){
   <header className="section-intro"><span className="eyebrow">The Story · 1 January 2026</span><h1>Episode 02</h1><p>The New Year's Unspoken Secrets · Choose whose story to read.</p></header>
   <div className="episode-picker" role="group" aria-label="Choose episode"><button type="button" onClick={()=>openPage('home')}>Episode 01 · Prologue</button><span className="episode-picker-current" aria-current="page">Episode 02 · Six perspectives</span><button type="button" onClick={()=>openPage('reading',{episode:'03',character:active,scene:'01'})}>Episode 03 · Prose</button></div>
   <p className="reader-intro">Pick a character below, then continue scene by scene. Your place in this reading session is shown underneath.</p>
-  <section className="source-note"><strong>Episode 03 has its own prose chapters in this same reader.</strong><p>Read Ankita's Scenes 01–07 (including the highlighted author changes in Scene 07), or Meenakshi's four existing story-text scenes.</p><button type="button" className="button primary" onClick={()=>openPage('reading',{episode:'03',character:'ankita',scene:'01'})}>Read Episode 03 prose →</button></section>
+  <section className="source-note"><strong>Episode 03 has its own prose chapters in this same reader.</strong><p>Read Ankita's Scenes 01–08 (including highlighted changes in Scene 07 and a new Scene 08 Rinku draft), or Meenakshi's four existing story-text scenes.</p><button type="button" className="button primary" onClick={()=>openPage('reading',{episode:'03',character:'ankita',scene:'01'})}>Read Episode 03 prose →</button></section>
   <div role="group" aria-label="Choose character perspective" className="perspective-tabs">{peopleOrder.map(w=><button type="button" key={w} onClick={()=>openPage('reading',{character:w})} aria-pressed={w===active} className={w===active?'selected':''}>{titleCase(w)}</button>)}</div>
   <div className="reader-layout">
    <aside className="scene-sidebar"><p className="aside-title">{titleCase(active)} · scenes</p>
@@ -42,10 +42,11 @@ function Episode02Reading({character,scene}:Props){
 type Ep03Block={order:number;time:string;type:string;text:string};
 type Ep03Line={time?:string|null;kind?:string;speaker?:string;text:string};
 type Ep03Beat={id:string;title:string;status:string;parts:{raw:string;origin:string}[]};
-type Ep03Scene={id:string;title:string;date:string;time:string;place:string;status:string;source:string;format:'blocks'|'raw'|'lines'|'beats'|'revision';blocks?:Ep03Block[];raw?:string;lines?:Ep03Line[];beats?:Ep03Beat[];addenda?:{id:string;raw:string;status:string}[]};
+type Ep03Scene={id:string;title:string;date:string;time:string;place:string;status:string;source:string;format:'blocks'|'raw'|'lines'|'beats'|'revision'|'scene08-draft';blocks?:Ep03Block[];raw?:string;lines?:Ep03Line[];beats?:Ep03Beat[];addenda?:{id:string;raw:string;status:string}[]};
 type Ep03Data={episode:string;title:string;date:string;chapters:Record<string,Ep03Scene[]>};
 const storyTag=(status:string)=>{
  if(status==='AUTHOR_REVISED_PROSE_IN_UI_PENDING_OVERALL_APPROVAL')return 'Author revisions highlighted · review pending';
+ if(status==='ASSISTANT_AUTHORED_FULL_SCENE08_DRAFT_PENDING_USER_REVIEW')return 'Scene 08 prose draft · user review pending';
  if(status==='USER_SUBMITTED_SCENE05_PROSE_UPLOADED_UNEDITED_EXCEPT_ARRIVAL')return 'Author version · five beats with venue arrival';
  if(status==='USER_SELECTED_SCENE04_INTRO_PROSE_DRAFT_FOR_READER')return 'Rohit Babu intro · selected draft';
  if(status==='BEATS_01_02_03_SAVED_SCENE_UNDER_REVIEW')return 'Beats 1–3 saved · Scene 03 under review';
@@ -81,7 +82,21 @@ function Scene07RevisedProse(){
   <p className="muted">17:50 home arrival · Gopal's silent observation · 18:10 Scene 08 handoff unchanged.</p>
  </section>;
 }
+type Scene08DraftData={status:string;beats:{id:string;time:string;title:string;raw:string}[]};
+function Scene08DraftProse(){
+ const {data,error,loading}=useData<Scene08DraftData>('episode-03-ankita-scene-08-prose-draft.json');
+ return <section className="source-scene prose-exact ep03-original" id="scene08-draft-prose">
+   <p className="muted">Five-beat working prose · written from the existing author-directed Scene 08 outline, not yet author-approved. The door remains closed at the 18:25 cut.</p>
+   {loading&&<p role="status">Loading Scene 08 prose…</p>}
+   {error&&<p role="alert">Scene 08 prose unavailable: {error}</p>}
+   {(data?.beats||[]).map(b=><section className="ep03-beat" id={'scene08-beat-'+b.id} key={b.id}>
+      <div className="ep03-beat-heading"><strong>{b.id} · {b.title}</strong><small>{b.time}</small></div>
+      <StoryParagraphs raw={b.raw}/>
+   </section>)}
+ </section>;
+}
 function Ep03Body({scene}:{scene:Ep03Scene}){
+ if(scene.format==='scene08-draft')return <Scene08DraftProse/>;
  if(scene.format==='revision')return <Scene07RevisedProse/>;
  if(scene.format==='raw')return <div className="source-scene prose-exact ep03-original"><StoryParagraphs raw={scene.raw||''}/></div>;
  if(scene.format==='blocks')return <div className="source-scene prose-exact ep03-original">{(scene.blocks||[]).map((block,i)=><div key={block.order}>{(i===0||scene.blocks?.[i-1]?.time!==block.time)&&<p className="ep03-time">{block.time} PM</p>}<p className={block.type==='dialogue'?'dialogue':block.type.includes('thought')?'inner':'ep03-paragraph'}>{storyInline(block.text)}</p></div>)}</div>;
