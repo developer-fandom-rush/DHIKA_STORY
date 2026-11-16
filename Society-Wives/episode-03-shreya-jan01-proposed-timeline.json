@@ -142,18 +142,32 @@
       "id": "SR13",
       "time": "12:20–13:15",
       "type": "existing",
-      "status": "EXISTING_EP03_WORKING_PLOT_RETIMED",
-      "title": "Poonam's observed pattern",
+      "status": "AUTHOR_APPROVED_BRIEF_EXCHANGE_PLOT_PROSE_PENDING",
+      "title": "Poonam's observed pattern — brief records-desk exchange",
       "place": "Station records desk",
       "characters": [
         "Shreya",
-        "Poonam",
-        "Inspector Chauhan"
+        "Poonam"
       ],
-      "history": "Poonam and Chauhan have earlier Episode 02 source interactions",
-      "distinctEvent": "Poonam flags changes in case follow-up process and requests; Shreya makes documentation decision. Do not solve or invent a conspiracy merely because a flirtation happened.",
-      "reaction": "They preserve the original case records.",
-      "exit": "End late morning station block"
+      "history": "Chauhan's prior unusual attention is already established in Episode 02; Poonam secretly has a private involvement with ACP Verma, unknown to Shreya.",
+      "distinctEvent": "During the existing 12:20–13:15 station paperwork block, Poonam quickly flags Chauhan's unusual follow-up request. Shreya instructs her to handle it through process. No separate substantial scene, new Chauhan appearance, expanded investigation, or extended debrief.",
+      "reaction": "Poonam keeps her own ACP Verma connection unspoken; Shreya does not learn it here.",
+      "exit": "Return straight to routine case work; do not make this a long standalone sequence.",
+      "dialogue": [
+        [
+          "Poonam (29, Sub-Inspector)",
+          "Ma'am, yeh follow-up request routine se alag hai."
+        ],
+        [
+          "Shreya",
+          "Noted. Process mein hi handle karenge."
+        ]
+      ],
+      "authorApproval": {
+        "date": "2026-11-16",
+        "scope": "Beat 6 small Poonam–Shreya exchange only; no new extended scene",
+        "status": "PLOT_APPROVED_NOT_FULL_PROSE"
+      }
     },
     {
       "id": "S03-02",
