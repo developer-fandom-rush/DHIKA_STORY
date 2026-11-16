@@ -4,13 +4,13 @@
   "series": "Society Wives — Five Veils of Desire",
   "episode": "03",
   "lead": "Taniya",
-  "title": "The Numbers Between Us — Taniya's Office and Society Afternoon",
+  "title": "The Numbers Between Us — Taniya office/society draft (evening schedule on hold)",
   "date": "2026-01-01",
   "timezone": "Asia/Kolkata",
-  "status": "ASSISTANT_PROPOSED_FULL_PLOT_FOR_AUTHOR_REVIEW__NOT_APPROVED_PROSE",
+  "status": "ASSISTANT_DRAFT_RETIMED__OFFICE_EXIT_UNCONFIRMED__SOCIETY_SCENES_UNSCHEDULED",
   "start": "13:15",
-  "end": "17:12",
-  "goal": "Taniya-only POV, work-first CA office challenge and independent office/society male network. Soniya may enter narrative ONLY when Taniya physically reaches the sisters' home in final beat.",
+  "end": null,
+  "goal": "Taniya-only perspective after verified 13:15 CA office cutoff. Office working day continues until an as-yet UNCONFIRMED office closing time. No invented 16:05 exit, 16:42 society arrival, or 17:09 homecoming. Only after separately establishing actual exit+travel may society and Soniya doorway beats receive precise times.",
   "sourceAnchors": [
     {
       "source": "episode-02-taniya-soniya-plan.json",
@@ -92,7 +92,7 @@
   "beats": [
     {
       "id": "T03-01",
-      "time": "13:15–13:30",
+      "time": "13:15 onward · office",
       "title": "One missing reconciliation — the office task",
       "location": "CA office · audit desk",
       "cast": [
@@ -117,7 +117,7 @@
     },
     {
       "id": "T03-02",
-      "time": "13:30–14:00",
+      "time": "Office afternoon · after T03-01",
       "title": "Raghav vs Chirag — same file, different instincts",
       "location": "CA office · shared workstation",
       "cast": [
@@ -155,7 +155,7 @@
     },
     {
       "id": "T03-03",
-      "time": "14:00–14:20",
+      "time": "Office afternoon · after T03-02",
       "title": "Punit — the office Chotu-type gets his own competence",
       "location": "CA office · archive cabinet and scan desk",
       "cast": [
@@ -189,7 +189,7 @@
     },
     {
       "id": "T03-04",
-      "time": "14:20–14:50",
+      "time": "Office afternoon · after T03-03",
       "title": "Pradeep Khanna — the older mentor's challenge",
       "location": "CA office · senior review cabin",
       "cast": [
@@ -219,7 +219,7 @@
     },
     {
       "id": "T03-05",
-      "time": "14:50–15:15",
+      "time": "Office afternoon · after T03-04",
       "title": "Two senior voices, one clear answer",
       "location": "CA office · team call and partner sign-off",
       "cast": [
@@ -254,7 +254,7 @@
     },
     {
       "id": "T03-06",
-      "time": "15:15–15:50",
+      "time": "Office afternoon · after T03-05",
       "title": "Two colleagues, one changed equation",
       "location": "CA office · report desk",
       "cast": [
@@ -285,7 +285,7 @@
     },
     {
       "id": "T03-07",
-      "time": "15:50–16:05",
+      "time": "Office departure · TIME UNCONFIRMED",
       "title": "A real exit, no extra office scene",
       "location": "CA office → building lobby",
       "cast": [
@@ -293,7 +293,7 @@
         "Punit (brief)"
       ],
       "purpose": "End office action with a concrete task and commute buffer.",
-      "action": "Taniya sends the qualified report, records what confirmation remains outstanding, signs out and collects her tote. Punit hands over an ordinary printed receipt; no accidental grab or secret exchange. She heads home after the New Year's abbreviated staffing window. The reason for the shortened workday is this pre-booked client deliverable, not an invented statutory rule.",
+      "action": "Only after Taniya's normal, still-unconfirmed CA office working hours are complete, she closes and hands off the audited pack and takes her bag. Do NOT place departure at 15:50–16:05, do NOT invent a New Year half-day, and do NOT assume the office shuts before other leads' evening scenes.",
       "visual": "The firm floor thins out; Taniya closes her laptop and takes the same office clothes and bag home.",
       "dialogue": [
         {
@@ -305,27 +305,27 @@
           "line": "Good. Kal jo pending hai, clearly mark kar do. Main nikal rahi hoon."
         }
       ],
-      "turn": "She is free by 16:05; no simultaneous office appearance later.",
+      "turn": "The story holds at office pending an established exit time; the following commute is a separate conditional future beat.",
       "status": "ASSISTANT_PROPOSAL_FOR_AUTHOR_REVIEW"
     },
     {
       "id": "T03-08",
-      "time": "16:05–16:42",
+      "time": "After verified office exit · commute pending",
       "title": "Homeward — keep the shared clock honest",
       "location": "Commute · CA office → Gulmohar Heights",
       "cast": [
         "Taniya"
       ],
       "purpose": "Geographical breathing room and no forced coincidence.",
-      "action": "Taniya travels home by cab (working transport proposal, not earlier established mode). She checks a legitimate society-message notification about a sealed wedding quotation only after stopping or while riding as a passenger. Guddu is holding it at the society service desk. No Soniya on phone, narration, cutaway or screen before home arrival.",
+      "action": "Commute starts only after the actual office exit time is established. The earlier presumed 16:05–16:42 cab journey is superseded and cannot be used as canon. Transport mode and arrival time remain open.",
       "visual": "Late afternoon traffic, office lanyard in her bag; no costume swap on commute.",
       "dialogue": [],
-      "turn": "The travel slot gives twins time to return from their college engagement; she arrives society ~16:42.",
+      "turn": "Taniya may arrive society later; timing must be checked against every other lead before scheduling.",
       "status": "ASSISTANT_PROPOSAL_FOR_AUTHOR_REVIEW"
     },
     {
       "id": "T03-09",
-      "time": "16:42–16:51",
+      "time": "UNSCHEDULED · conditional twins encounter",
       "title": "Karan & Aman — a fleeting real-twins crossover",
       "location": "Gulmohar Heights · two-wheeler parking bay",
       "cast": [
@@ -334,7 +334,7 @@
         "Aman (22)"
       ],
       "purpose": "Use actual twins without colliding with Shreya's college encounter or Ankita's later pickup.",
-      "action": "Taniya finds Karan checking a bike and Aman taking a charger/helmet from his scooty storage before they head out on separate errands. She already knows both from morning gym TS05. They talk briefly in their usual different styles about her long office day and their career efforts. Nobody discusses Shreya's private college wardrobe incident, which Taniya does not know. They are free to leave society around ~17:05 for their independently planned errands, placing them near Ankita's venue by her ~17:23 call; they are not already assigned as her pickup drivers at this moment.",
+      "action": "PARKED as conditional crossover. Karan and Aman already have the Shreya public college event through ~15:05 and Ankita pickup from ~17:23, so do not presume they are available at any imagined 16:42 parking encounter. Use only if a verified free time exists after Taniya's real workday. Otherwise move their personal beat to a later episode, preserving the morning TS05 familiarity.",
       "visual": "One twin all expressive gestures by his bike, the other quieter beside his scooty; Taniya pauses with tote in hand. No engineered touch, staged collision or unnecessary rivalry.",
       "dialogue": [
         {
@@ -358,12 +358,12 @@
           "line": "Jaao. Aur actual job prep bhi kar lena."
         }
       ],
-      "turn": "Warm, brief crossover; preserves twins' independence and later Ankita scene.",
+      "turn": "Keep twins in cast map but no new Jan1 visit until physically compatible.",
       "status": "ASSISTANT_PROPOSAL_FOR_AUTHOR_REVIEW"
     },
     {
       "id": "T03-10",
-      "time": "16:51–17:00",
+      "time": "Society arrival · TIME UNCONFIRMED",
       "title": "Guddu — society Chotu-type, first substantial exchange",
       "location": "Gulmohar Heights · community service/parcel desk",
       "cast": [
@@ -371,7 +371,7 @@
         "Guddu (23, society courier/helper)"
       ],
       "purpose": "Make helper figure credible and distinguish from CA trainee Punit.",
-      "action": "Guddu has legitimately logged a sealed quotation envelope addressed to Taniya in connection with wedding arrangements. He did not open or inspect it. He points out that the attached delivery slip lists two reference numbers, asks which receipt should be acknowledged, and waits for her instruction. Taniya checks the outside labels and praises his attention; he responds with mild, clean wit. This is his first significant on-page Taniya interaction, not an invented older romantic history.",
+      "action": "POSSIBLE society encounter when Taniya actually returns: Guddu, the society courier/helper, handles a legitimate sealed wedding quotation with two external tracking numbers. Exact evening date, delivery availability and time remain proposed; he does not open her mail.",
       "visual": "Dusty courier bag, sealed packet, two clear external tracking numbers; Taniya holds the envelope herself, no body contact.",
       "dialogue": [
         {
@@ -391,12 +391,12 @@
           "line": "Bilkul. Tumhara first test clear."
         }
       ],
-      "turn": "A useful, remembered interaction can seed a later Guddu arc without making him suddenly intimate.",
+      "turn": "Potential brief new rapport when Taniya is genuinely on-site.",
       "status": "ASSISTANT_PROPOSAL_FOR_AUTHOR_REVIEW"
     },
     {
       "id": "T03-11",
-      "time": "17:00–17:09",
+      "time": "Society visit · TIME UNCONFIRMED",
       "title": "Subhash — the elder and the wedding figures",
       "location": "Gulmohar Heights · lobby near service desk",
       "cast": [
@@ -404,7 +404,7 @@
         "Subhash (59, socially presented elder; not actual future FIL)"
       ],
       "purpose": "Give older society household associate a legitimate reason to cross paths and respect reader-only unknowns.",
-      "action": "Subhash is at the lobby because he is coordinating some of Aditya's wedding paperwork. He sees the sealed quotation in Taniya's hand and asks whether the venue price is finalized. She says she will verify itemized figures with Aditya before agreeing. He is slightly surprised by her assertiveness, then switches to normal wedding talk. Do not imply Taniya knows of any covert clothing theft or Subhash's morning activities; any such secret remains a separate plot still pending source/prose reconciliation. Mahendra may be elsewhere preparing society business; he is deliberately not forced into this scene, and is free for Shivani's 17:45 encounter.",
+      "action": "POSSIBLE society older-man encounter only if Subhash can genuinely be at the lobby when Taniya arrives. His wedding quotation question and her verification response remain a working plot; time is not established and no private secret is disclosed.",
       "visual": "Age contrast established via demeanor and walking pace, not fetishized gaze; Taniya holds the quoted document between them, physical distance unchanged.",
       "dialogue": [
         {
@@ -424,12 +424,12 @@
           "line": "Aur isi liye galti jaldi pakadte hain."
         }
       ],
-      "turn": "A clean elder interaction creates tension through agency and unknowns, not instant attraction or physical crossing.",
+      "turn": "No forced coincidence; move if Subhash's other commitments make it implausible.",
       "status": "ASSISTANT_PROPOSAL_FOR_AUTHOR_REVIEW"
     },
     {
       "id": "T03-12",
-      "time": "17:09–17:12",
+      "time": "Home arrival · TIME UNCONFIRMED",
       "title": "Door opens — Soniya's first on-page entry",
       "location": "Shared sisters' flat · home entrance",
       "cast": [
@@ -437,7 +437,7 @@
         "Soniya (24, only now enters)"
       ],
       "purpose": "Honor absolute POV restriction: Soniya appears only at Taniya's home arrival.",
-      "action": "Taniya reaches home, puts the work tote down and finds Soniya there. The sisters exchange a brief natural greeting. Taniya has a question left over from their morning gym discussion, but she does NOT reopen all of Soniya's story in this scene. Rahul, Aditya and Mihir are not inserted. Stop at the moment Soniya responds; no earlier cutaways to her day, messages from her or flashback-as-scene.",
+      "action": "Only upon Taniya's ACTUAL home arrival may Soniya first enter on-page. All earlier Soniya calls, texts, intercuts and parallel narrative remain prohibited; no artificial 17:09 arrival.",
       "visual": "Taniya in her unchanged office clothes in the doorway; Soniya already at home but only enters the reader's view after the door opens.",
       "dialogue": [
         {
@@ -453,7 +453,7 @@
           "line": "Theek hai. Pehle paani le lo, phir baat karte hain."
         }
       ],
-      "turn": "End on sister-to-sister anticipation; next episode beat can begin from this boundary only after author approval.",
+      "turn": "Final sister exchange is conditional until valid office exit and commute are established.",
       "status": "ASSISTANT_PROPOSAL_FOR_AUTHOR_REVIEW"
     }
   ],
@@ -467,8 +467,115 @@
     "Avoid auto-inserting Mahendra because he has separate Shreya and Shivani plot commitments; keep him available for Shivani 17:45.",
     "Office senior figures do not initiate pressured intimacy. Any later mature-romance progression must come from earned trust, separate chosen action and valid physical context, not routine professional authority.",
     "No random falls, outfit slips, surveillance, stolen items, manufactured mystery or repetitive accidental-touch structure; the drama is professionally and emotionally grounded.",
-    "Do not present the plot as approved or finished prose; user may revise characters, dates, garments or beats first."
+    "Do not present the plot as approved or finished prose; user may revise characters, dates, garments or beats first.",
+    "Hard correction: 16:05 office exit, 16:42 society crossover and 17:09 home arrival were assistant-invented and are SUPERSEDED. Do not schedule any post-office Beat T03-07–12 until office end time is evidenced.",
+    "Morning TS08 work arrival/office start 10:30 and 13:15 still at office are documented; end-of-shift has NOT been documented. Do not silently treat New Year's Day as a half-day.",
+    "Keep Karan/Aman 17:23 Ankita pickup, Shreya college through 15:05, and known other leads intact; move T03-09 to later date if no genuine free window."
   ],
   "selectedWorkStyle": "Dialogue-rich Hinglish, event-first scenes, narrator notes that reflect atmosphere and clothing continuity without gratuitous anatomy or repeated visual clichés.",
-  "ending": "Soniya appears for the first time when Taniya opens the shared-flat door at 17:09; their substantive conversation is reserved for a separate approval step."
+  "ending": "Soniya appears at the doorway only after Taniya's real office day and commute; time is NOT yet defined.",
+  "timeIntegrity": {
+    "asOf": "2026-11-16",
+    "verifiedStart": "CA office work 10:30 AM as per revised EP02 plan",
+    "verifiedCutoff": "13:15 Jan 1, Taniya remains at office",
+    "officeEnd": "UNVERIFIED — user says the 16:05 departure was wrong",
+    "commuteAfterWork": "UNVERIFIED",
+    "societyArrival": "UNVERIFIED",
+    "soniyaFirstAppearance": "Only upon actual home arrival",
+    "supersededDraft": [
+      {
+        "id": "T03-01",
+        "time": "13:15–13:30"
+      },
+      {
+        "id": "T03-02",
+        "time": "13:30–14:00"
+      },
+      {
+        "id": "T03-03",
+        "time": "14:00–14:20"
+      },
+      {
+        "id": "T03-04",
+        "time": "14:20–14:50"
+      },
+      {
+        "id": "T03-05",
+        "time": "14:50–15:15"
+      },
+      {
+        "id": "T03-06",
+        "time": "15:15–15:50"
+      },
+      {
+        "id": "T03-07",
+        "time": "15:50–16:05"
+      },
+      {
+        "id": "T03-08",
+        "time": "16:05–16:42"
+      },
+      {
+        "id": "T03-09",
+        "time": "16:42–16:51"
+      },
+      {
+        "id": "T03-10",
+        "time": "16:51–17:00"
+      },
+      {
+        "id": "T03-11",
+        "time": "17:00–17:09"
+      },
+      {
+        "id": "T03-12",
+        "time": "17:09–17:12"
+      }
+    ],
+    "consequence": "T03-01..06 remain office events with no invented clock assignments; T03-07 is not a confirmed 16:05 departure. T03-08..12 are possible post-office scenes without dated time and must not be added to active universal timeline until verified. T03-09 Karan/Aman is especially conditional because of their Shreya college encounter and Ankita 17:23 pickup. Do not portray them as free at an arbitrary late hour."
+  },
+  "plotPhases": [
+    {
+      "key": "office",
+      "beatIds": [
+        "T03-01",
+        "T03-02",
+        "T03-03",
+        "T03-04",
+        "T03-05",
+        "T03-06"
+      ],
+      "time": "13:15 onward, ending unknown",
+      "state": "SEQUENCE_ONLY_NOT_CLOCKED"
+    },
+    {
+      "key": "departure",
+      "beatIds": [
+        "T03-07",
+        "T03-08"
+      ],
+      "time": "AFTER_CONFIRMED_OFFICE_END",
+      "state": "TIMING_ON_HOLD"
+    },
+    {
+      "key": "society",
+      "beatIds": [
+        "T03-09",
+        "T03-10",
+        "T03-11"
+      ],
+      "time": "AFTER_COMMUTE_ONLY",
+      "state": "TIMING_ON_HOLD",
+      "note": "Karan/Aman meeting conditional, not committed to Jan1 at a specific time"
+    },
+    {
+      "key": "home",
+      "beatIds": [
+        "T03-12"
+      ],
+      "time": "AFTER_SOCIETY_VISIT_ONLY",
+      "state": "TIMING_ON_HOLD",
+      "note": "Soniya appears only at the home door, no earlier cameo"
+    }
+  ]
 }
