@@ -3373,7 +3373,7 @@
       "scene": "S03-02",
       "kind": "planned",
       "state": "planned",
-      "status": "Revised college encounter · author review",
+      "status": "Author-directed college scene · plot review",
       "source": "episode-03-shreya-jan01-proposed-timeline.json",
       "reader": {
         "type": "sw-plan",
@@ -3381,8 +3381,9 @@
         "scene": "S03-02"
       },
       "flags": [
-        "Author selected Shreya x Karan x Aman college-crossover direction; exact college and accident/dialogue mechanics are unapproved working details, not published prose.",
-        "No schedule conflict: Karan and Aman are separately assigned to Ankita's later 17:20–17:50 ride; Beat10 police trainee cast remains unchanged."
+        "User-directed college encounter and reaction; individual lines and scene mechanics still plot-level drafts, not approved prose.",
+        "Karan and Aman attend as civilian career-prep guests, not police trainees. Neither enters Beat10 station training.",
+        "Shreya's Episode02 approved uniform and evening Ankita twin pickup timeline stay intact."
       ],
       "detail": "13:15–13:30 Shreya finishes work and a short lunch; 13:30–13:55 she drives to the public college under an official cyber-safety session assignment, 13:55–14:05 she signs in at the reception and prepares her demonstration notes. Karan and Aman travel independently together for an advertised open cyber-safety/career-awareness presentation; neither expects Shreya and she has not invited them personally. They see her at the venue only at Beat 8; no staged roadside pickup or magically timed meeting.",
       "beats": [
@@ -3405,7 +3406,7 @@
           "at": "13:55–14:05",
           "title": "Separate event registration",
           "body": "Shreya signs in through the invited-speaker desk. The twins sign in as open-program guests. They do not see her until the program begins.",
-          "internal": null
+          "internal": ""
         }
       ]
     },
@@ -3430,7 +3431,7 @@
       "scene": "S03-03",
       "kind": "planned",
       "state": "planned",
-      "status": "Revised college encounter · author review",
+      "status": "Author-directed college scene · plot review",
       "source": "episode-03-shreya-jan01-proposed-timeline.json",
       "reader": {
         "type": "sw-plan",
@@ -3438,8 +3439,9 @@
         "scene": "S03-03"
       },
       "flags": [
-        "Author selected Shreya x Karan x Aman college-crossover direction; exact college and accident/dialogue mechanics are unapproved working details, not published prose.",
-        "No schedule conflict: Karan and Aman are separately assigned to Ankita's later 17:20–17:50 ride; Beat10 police trainee cast remains unchanged."
+        "User-directed college encounter and reaction; individual lines and scene mechanics still plot-level drafts, not approved prose.",
+        "Karan and Aman attend as civilian career-prep guests, not police trainees. Neither enters Beat10 station training.",
+        "Shreya's Episode02 approved uniform and evening Ankita twin pickup timeline stay intact."
       ],
       "detail": "During a public, career-relevant cyber-safety demonstration, Shreya unexpectedly meets already-familiar society twins Karan and Aman. A loose backpack strap briefly catches a display stand, they prevent it falling, and a few of her papers drop. As she bends to retrieve them, the previously unbuttoned top collar shifts forward for an instant, unintentionally revealing a small amount of the upper breast/cleavage area to both men from the side. She immediately straightens and fixes her uniform. Karan briefly stops joking; Aman discreetly returns a folder. Shreya has a moment of private, confused awareness, then the session returns to ordinary safety instruction. No deliberate display, further touch or extended embarrassment.",
       "beats": [
@@ -3500,7 +3502,7 @@
       "scene": "S03-04",
       "kind": "planned",
       "state": "planned",
-      "status": "College return · continuity draft",
+      "status": "Author-directed transition · prose pending",
       "source": "episode-03-shreya-jan01-proposed-timeline.json",
       "reader": {
         "type": "sw-plan",
@@ -3508,8 +3510,9 @@
         "scene": "S03-04"
       },
       "flags": [
-        "Author selected Shreya x Karan x Aman college-crossover direction; exact college and accident/dialogue mechanics are unapproved working details, not published prose.",
-        "No schedule conflict: Karan and Aman are separately assigned to Ankita's later 17:20–17:50 ride; Beat10 police trainee cast remains unchanged."
+        "User-directed college encounter and reaction; individual lines and scene mechanics still plot-level drafts, not approved prose.",
+        "Karan and Aman attend as civilian career-prep guests, not police trainees. Neither enters Beat10 station training.",
+        "Shreya's Episode02 approved uniform and evening Ankita twin pickup timeline stay intact."
       ],
       "detail": "15:05–15:10 normal sign-out and courteous goodbye; Shreya buttons the loose upper uniform button. 15:10–15:30 she drives separately back to station, while Karan and Aman leave for their own commitments. 15:30–15:40 she changes to navy athletic T-shirt and black trousers and prepares the approved five-person station drill that starts at 15:40.",
       "beats": [
@@ -3525,7 +3528,7 @@
           "at": "15:10–15:30",
           "title": "Separate routes",
           "body": "Shreya drives alone to the police station. Karan and Aman return to their own schedule, free well before Ankita's approximately 17:23 call and pickup. The college must be close enough for this proposed 20-minute trip.",
-          "internal": null
+          "internal": ""
         },
         {
           "id": "B09-03",
