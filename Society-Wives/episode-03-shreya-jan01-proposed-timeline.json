@@ -1,0 +1,298 @@
+{
+  "schemaVersion": 1,
+  "id": "SW-SHREYA-EP03-JAN01-PLOT-PROPOSAL",
+  "title": "Shreya · Episode 03 · January 1, 2026 — Interconnected working scene timeline",
+  "status": "AUTHOR_DATE_CORRECTION_APPLIED__NEW_ENCOUNTERS_SUGGESTED_NOT_APPROVED_PROSE",
+  "date": "2026-01-01",
+  "weekday": "Thursday",
+  "timezone": "Asia/Kolkata",
+  "lead": "shreya",
+  "age": 33,
+  "profession": "Police Inspector",
+  "anchor": "Episode 02 Shreya SR09 ends 10:15 AM, 1 January 2026 at station corridor",
+  "dayScope": {
+    "start": "10:15",
+    "end": "18:00",
+    "certainty": "NEW slots suggested for review, not author-approved; existing SR10–SR13 preserved in place as previously planned"
+  },
+  "userLocks": [
+    "Author explicitly approved all nine existing SR source prose scenes in Episode 02. SR03 author-approved plot has no published full prose; do not fabricate it.",
+    "Episode 03 same day January 1 2026, not the superseded Jan 3 working date. Preserve old plan in archive.",
+    "Shreya still wearing the same police uniform from SR09 at 10:15, top/first button open and second button closed. Do not automatically repeat collar-focused attention in every subsequent encounter; later she may close the button deliberately on duty.",
+    "Office duo Rohas & Lokesh are police trainees and are not biological twins; society sports twins Samar & Shaan are distinct; Karan & Aman are Ankita's separate twins.",
+    "Society Chotu is Chintu (23), already introduced in Episode 01 prologue S05 via visitor-log discrepancy. Do not rewrite a first-ever Shreya meeting.",
+    "Office Chotu is new adult station chai wala (temporary display 'Chotu', age 23 provisional), separate from Chintu, Javed, and Sunny. His name/age will require explicit character lock; no previous exact on-page scene exists.",
+    "Arvind's privacy-violating SR08 behavior is only reader-known; Shreya doesn't know, and all of SR08 source remains untouched.",
+    "Respect the case hierarchy: ACP/DCP professional seniority, detainees not romantic opportunities. Shreya remains a police inspector during duty.",
+    "Child Anaya is family-only; if home appears, arrange a verified caregiver. Do not put the child in romantic staging.",
+    "Source tone uses one or two lines of prior familiarity, one concrete memorable incident, distinct reactions, no repeated touch checklist; do not copy Dhika's specific incidents or dialogue."
+  ],
+  "sourceReferences": {
+    "sourceEpisode02": "continuity-verbatim/episode-02/shreya.json · SR01, SR02A, SR02B, SR05, SR04, SR06, SR07, SR08, SR09",
+    "originalEpisode03": "episode-03-shreya-plan.json · working SR10–SR13 slots now dated Jan 1",
+    "archivedDate": "episode-03-shreya-plan-archive-jan03.json · superseded Jan 3 proposal",
+    "dhikaStudy": "WRITING-STYLE-DHIKA-EP01-EP03-RECALIBRATION.md",
+    "seriesStart": "episode-01.json · S05 (Chintu/visitor-log relationship), S10 (station group)",
+    "crossClock": "episode-03-ankita-scene-07-twins-pickup-homecoming.json · Karan & Aman 17:20–17:50, not reused for Shreya",
+    "authorStyle": "flirting-style.json · authorPacingRule"
+  },
+  "timeline": [
+    {
+      "id": "S03-00",
+      "time": "10:15–10:30",
+      "type": "bridge",
+      "status": "PROPOSED",
+      "title": "From Chauhan's corridor to case work",
+      "place": "Police station",
+      "characters": [
+        "Shreya",
+        "Poonam"
+      ],
+      "history": "SR09 ended with Chauhan 10:15; Poonam already handles discrepancies",
+      "distinctEvent": "Shreya collects the case timeline and deliberately returns to the current investigation. Earlier Chauhan attraction remains a known reaction, not a second same-scene repetition.",
+      "reaction": "Poonam has a new case question; Shreya gives a short assignment.",
+      "exit": "ACP briefing begins"
+    },
+    {
+      "id": "SR10",
+      "time": "10:30–11:10",
+      "type": "existing",
+      "status": "EXISTING_EP03_WORKING_PLOT_RETIMED",
+      "title": "ACP Verma's unusual preference",
+      "place": "Police team briefing room",
+      "characters": [
+        "Shreya",
+        "ACP Verma",
+        "Poonam"
+      ],
+      "history": "Already saved in EP03 working plan, originally Jan 3",
+      "distinctEvent": "ACP insists on an individual briefing. Shreya brings Poonam's documented logs into the discussion rather than making personal attention a private relationship.",
+      "reaction": "Poonam notices that request is different from normal rotation.",
+      "exit": "ACP sends the report for senior review"
+    },
+    {
+      "id": "S03-01",
+      "time": "11:12–11:25",
+      "type": "new",
+      "status": "AUTHOR_REQUESTED_OFFICE_CHOTU_ROLE__EVENT_PROPOSAL",
+      "title": "The strong-chai moment — station Chotu",
+      "place": "Police station canteen/authorized staff tea counter",
+      "characters": [
+        "Shreya",
+        "Station Chotu (chai wala, adult 23 provisional)",
+        "Javed (brief interruption)"
+      ],
+      "history": "New proposed two-sentence backfill: the young vendor has served staff tea over many shifts and has learned Shreya prefers strong chai; this familiarity is NOT an earlier sourced encounter.",
+      "distinctEvent": "While she reviews a routine timetable by the counter, he hands her the correct unlabelled cup before she even orders. She playfully tests whether he remembers everyone as attentively. He replies with a sharper-than-expected flirtatious line; her expression changes for a beat. A second small tangible hook: he notices she forgot the receipt containing the counter's operating-time stamp, returns it, and she realizes he's unusually observant. No forced or staged touching; proximity is natural at the counter.",
+      "reaction": "Shreya briefly smiles at his confidence; Javed interrupts with case paperwork. He remains respectful, no claim of existing romance.",
+      "dialogue": [
+        [
+          "Shreya",
+          "Tumhe kaise pata ye meri chai hai?"
+        ],
+        [
+          "Chotu",
+          "Madam, station ke saare orders yaad hote hain. Par kuch logon ki preference bhoolna mushkil hota hai."
+        ],
+        [
+          "Shreya",
+          "Achha? Phir tumhari memory ka ek din proper test lungi."
+        ]
+      ],
+      "exit": "Shreya leaves with the file; Chotu now has an organic recurring point of contact, not a promise of a date"
+    },
+    {
+      "id": "SR11",
+      "time": "11:30–11:40",
+      "type": "existing",
+      "status": "EXISTING_EP03_WORKING_PLOT_RETIMED",
+      "title": "DCP Rathod reviews performance",
+      "place": "District police reporting room",
+      "characters": [
+        "Shreya",
+        "DCP Rathod"
+      ],
+      "history": "Already saved in EP03 plan",
+      "distinctEvent": "Formal documentation review. Keep DCP attention as an open possibility, never falsely approved as physical or romantic interest.",
+      "reaction": "Shreya accepts case feedback.",
+      "exit": "Proceed to authorized interview"
+    },
+    {
+      "id": "SR12",
+      "time": "11:40–12:15",
+      "type": "existing",
+      "status": "EXISTING_EP03_WORKING_PLOT_RETIMED",
+      "title": "The cellblock bet",
+      "place": "Authorized interview room",
+      "characters": [
+        "Shreya",
+        "Two adult detainees"
+      ],
+      "history": "Already saved as professional interview plot",
+      "distinctEvent": "Detainees make their private manipulation bet without Shreya's knowledge; Shreya redirects to lawful case questioning. No custodial romance or intimate contact.",
+      "reaction": "Her focus stays on the case; reader knows more than she does.",
+      "exit": "File and observation notes"
+    },
+    {
+      "id": "SR13",
+      "time": "12:20–13:15",
+      "type": "existing",
+      "status": "EXISTING_EP03_WORKING_PLOT_RETIMED",
+      "title": "Poonam's observed pattern",
+      "place": "Station records desk",
+      "characters": [
+        "Shreya",
+        "Poonam",
+        "Inspector Chauhan"
+      ],
+      "history": "Poonam and Chauhan have earlier Episode 02 source interactions",
+      "distinctEvent": "Poonam flags changes in case follow-up process and requests; Shreya makes documentation decision. Do not solve or invent a conspiracy merely because a flirtation happened.",
+      "reaction": "They preserve the original case records.",
+      "exit": "End late morning station block"
+    },
+    {
+      "id": "S03-02",
+      "time": "13:15–14:05",
+      "type": "bridge",
+      "status": "NEW_SCHEDULE_PROPOSAL",
+      "title": "Lunch and official travel to training venue",
+      "place": "Station canteen → nearby police training college (offsite)",
+      "characters": [
+        "Shreya"
+      ],
+      "history": "No already published college trip for Shreya on January 1",
+      "distinctEvent": "Propose a preapproved cyber-safety/self-defense talk with official invite noted in this new plot. Commute time must be allowed; no magical appearance.",
+      "reaction": "No mandatory romantic event during transit.",
+      "exit": "College entry at 14:05"
+    },
+    {
+      "id": "S03-03",
+      "time": "14:05–15:05",
+      "type": "new",
+      "status": "OPTIONAL_NEW_COLLEGE_ARC_NOT_CANON",
+      "title": "The guest-officer demonstration",
+      "place": "Police training college / college seminar venue (specific venue not canon-locked)",
+      "characters": [
+        "Shreya",
+        "Adult trainees / invited college students",
+        "Female coordinator (identity pending)"
+      ],
+      "history": "Shreya has police instructional credibility; guest talk is a proposed new assignment, not established Episode02 history",
+      "distinctEvent": "A confident adult participant challenges a sample questioning scenario and Shreya changes the demonstration on the spot. A brief front-row exchange creates a new individual whose exact identity and next arc remain open.",
+      "reaction": "Shreya controls the exercise; the audience responds to her presence and sharpness. New mutual attraction must be developed separately, not inferred from role or appearance.",
+      "exit": "Formal session ends; travel back is reserved"
+    },
+    {
+      "id": "S03-04",
+      "time": "15:05–15:40",
+      "type": "bridge",
+      "status": "NEW_SCHEDULE_PROPOSAL",
+      "title": "College return to police station",
+      "place": "Training college → Gurgaon police station",
+      "characters": [
+        "Shreya"
+      ],
+      "history": "Transit follows proposed off-site event",
+      "distinctEvent": "No new cast teleports into the journey.",
+      "reaction": "Routine return.",
+      "exit": "Station afternoon wrap"
+    },
+    {
+      "id": "S03-05",
+      "time": "15:40–16:05",
+      "type": "new",
+      "status": "NEW_ROHAS_LOKESH_CONTINUATION",
+      "title": "Rohas and Lokesh — the real training challenge",
+      "place": "Police training/briefing area at station",
+      "characters": [
+        "Shreya",
+        "Rohas",
+        "Lokesh",
+        "Poonam (briefly)"
+      ],
+      "history": "SR07 already had double-meaning stamina and individual-attention teasing in the same station. Both men are age 24 trainees, not brothers.",
+      "distinctEvent": "Both get assigned distinct practical report-review tasks after their morning 'stamina' boasting. Rohas pushes a playful challenge; Lokesh unexpectedly solves the harder verification problem first. Shreya's brief admiring reaction changes the competitive dynamic; their familiar banter now has a real skill test, not just repeated sexual innuendo.",
+      "reaction": "Poonam notices the actual case contribution, keeps team work grounded.",
+      "exit": "Close assigned files; end station duty block"
+    },
+    {
+      "id": "S03-06",
+      "time": "16:05–17:05",
+      "type": "bridge",
+      "status": "PROPOSED",
+      "title": "Police closeout and homebound drive",
+      "place": "Station files → Gulmohar Heights",
+      "characters": [
+        "Shreya"
+      ],
+      "history": "Shreya drove morning 08:20–08:50 (30 minutes)",
+      "distinctEvent": "Allow file wrap ~16:05–16:35 and safe drive ~16:35–17:05. First/top button remained open through SR09; what she does afterward must be explicitly chosen in prose, not assumed to remain through whole evening.",
+      "reaction": "Family duty becomes important after station shift.",
+      "exit": "Arrive society gate 17:05"
+    },
+    {
+      "id": "S03-07",
+      "time": "17:15–17:30",
+      "type": "new",
+      "status": "NEW_SOCIETY_TWINS_CONTINUATION_PROPOSAL",
+      "title": "Samar and Shaan — the two unpaid bets",
+      "place": "Gulmohar Heights courtyard, by fitness corner",
+      "characters": [
+        "Shreya",
+        "Samar (24)",
+        "Shaan (24)"
+      ],
+      "history": "SR01: regular workout together for months; Samar lost plank coffee wager; Shaan lost balance saree get-together wager. Both rewards remain CONDITIONAL and Shreya's choice.",
+      "distinctEvent": "Twins see Shreya coming back from duty and revive their different bets. Instead of agreeing to give away either reward, she surprises them with a specific new challenge for next workout: one helps plan a real society safety demonstration, the other tracks fitness timing. Samar goes openly bold; Shaan counters with a more reserved, observant line. No manufactured second gym routine this evening.",
+      "reaction": "Shreya reacts to their two distinct personalities, grants no date or get-together yet.",
+      "exit": "She turns toward Tower C, where Chintu is doing a society log check"
+    },
+    {
+      "id": "S03-08",
+      "time": "17:35–17:45",
+      "type": "new",
+      "status": "NEW_SOCIETY_CHINTU_CONTINUATION_PROPOSAL",
+      "title": "Chintu — the unfinished register question",
+      "place": "Gulmohar Heights society gate / security desk",
+      "characters": [
+        "Shreya",
+        "Chintu (23, society security helper)"
+      ],
+      "history": "Episode01 S05 introduced Chintu, and Shreya instructed him to note vehicle number rather than guess. Episode02 SR04 specifically reserved him for Episode03.",
+      "distinctEvent": "He now shows a corrected timestamp sheet and identifies one discrepancy that he refused to smooth over. Shreya appreciates his initiative. A brief warm, surprisingly witty comeback makes her look at him as a person beyond his station task. Unlike chai wala, this Chintu is a familiar society operations person.",
+      "reaction": "A small observable warmth, not a suddenly approved romance. He is interested, she remains in charge of what comes next.",
+      "exit": "She takes the register note and heads upstairs"
+    },
+    {
+      "id": "S03-09",
+      "time": "17:45–18:00",
+      "type": "bridge",
+      "status": "PROPOSED",
+      "title": "Home and family lane",
+      "place": "Rathore apartment",
+      "characters": [
+        "Shreya",
+        "Vikram",
+        "Anaya (family-only)",
+        "Arvind (if confirmed present)"
+      ],
+      "history": "Morning SR02B caregiving and SR08 private Arvind activity; Shreya still unaware of SR08",
+      "distinctEvent": "A short real family handoff instead of an omnibus romance debrief. Confirm who is caring for Anaya before writing and whether Vikram has returned; family presence cannot be presumed from old morning time.",
+      "reaction": "Ordinary transition, reader retains the secrets Shreya does not know.",
+      "exit": "Cut to next chapter whenever author decides"
+    }
+  ],
+  "editorial": {
+    "sequence": "Two separate 'Chotu' characters: station tea vendor introduced in the police canteen, society Chintu encountered later. No reused Dhika incidents.",
+    "beatsAlreadyOnFile": [
+      "SR10",
+      "SR11",
+      "SR12",
+      "SR13"
+    ],
+    "approvalRule": "None of the NEW plot beats becomes published prose or canon merely by being placed in this planning file. Existing EP03 SR10–13 are earlier stored working concepts retimed by the author.",
+    "possibleAdjustment": "The off-site college/academy event remains optional; if it is removed, do not move every other plot beat earlier automatically. Check other leads' shared clock first.",
+    "destination": "Society Wives → Planning → Shreya",
+    "sourceIntegrity": "All Episode 02 prose is untouched. SR03 remains approved plot only, with full prose missing."
+  }
+}
