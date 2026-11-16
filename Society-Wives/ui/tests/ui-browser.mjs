@@ -163,7 +163,7 @@ try {
  check((await page.locator('#ankita-ep03-scene05').innerText()).includes('18:00'),'Ankita home deadline preserved in Scene 05');
  await page.locator('#ankita-ep03-scene06 button',{hasText:'Read Scene 06 complete prose'}).waitFor();
  check(await page.locator('#ankita-ep03-scene06 .source-scene').count()===0,'Scene06 prose no longer duplicated in Planning');
- check((await page.locator('#ankita-ep03-scene06').innerText()).includes('Sandwich arrangement'),'Women-centered sandwich formation and HR joke retained');
+ check((await page.locator('#ankita-ep03-scene06').innerText()).includes('Two men / one woman, Ankita centered'),'Scene06 choreography stays visible in Planning while prose lives in Reading');
  check((await page.locator('#ankita-ep03-scene06 .eyebrow').first().textContent()).includes('prose DRAFT'),'Scene06 draft status is displayed in the heading even if its eyebrow is visually hidden at this viewport');
  check((await page.locator('#ankita-ep03-scene06').innerText()).includes('17:20'),'Scene 06 ends before drop-off');
  await page.locator('#ankita-ep03-scene07 .beat-item').last().waitFor();
