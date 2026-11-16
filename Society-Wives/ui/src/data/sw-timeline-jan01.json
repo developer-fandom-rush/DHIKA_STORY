@@ -6,42 +6,6 @@
   "sourcePolicy": "Source-scene order retained; cross-lead events sorted by clock, not author approval. No prose rewritten. Taniya/Soniya source duplicates indexed once. EP03 Ankita scene-01–08 plotting entries indexed separately from approved EP02 source scenes. Jan1 Ankita plot ends at 18:25, no later discarded home or elders scenes.",
   "events": [
     {
-      "id": "jan01-meenakshi-harish-sunil-night-future",
-      "date": "2026-01-01",
-      "sort": null,
-      "start": null,
-      "end": null,
-      "timeLabel": "Late night · after everyone has left · exact time TBD",
-      "universe": "sw",
-      "title": "Harish & Sunil — Outside Society (future-episode seed)",
-      "subtitle": "Reader-only intentions; no present-day prose or encounter",
-      "lead": "Meenakshi",
-      "characters": [
-        "Harish Pal",
-        "Sunil Yadav"
-      ],
-      "mentions": [
-        "Meenakshi"
-      ],
-      "episode": "Future plan",
-      "scene": "HS-NIGHT",
-      "kind": "planned",
-      "state": "future-proposal",
-      "status": "Author-directed night placement · plot-only · not written",
-      "source": "episode-02-meenakshi-plan.json",
-      "reader": {
-        "type": "sw-plan",
-        "character": "meenakshi",
-        "scene": "HS-NIGHT"
-      },
-      "flags": [
-        "Not an Episode 03 scene",
-        "No fixed clock time",
-        "Female staff unaware of workers' private motives"
-      ],
-      "detail": "1 January 2026, late night, outside Gulmohar Heights society after the others have gone. Harish and Sunil have a brief private reader-only POV about their hidden attraction and future plans. They have not approached Meenakshi or carried out those plans. This belongs to a future episode and must not interrupt the Farmhouse Scene 02 or 14:15 Naveen handoff."
-    },
-    {
       "id": "e02-ankita-A02-SCENE-1",
       "date": "2026-01-01",
       "sort": "06:20",
@@ -3357,6 +3321,42 @@
         }
       ],
       "sourceEvidence": "Original prose present in Episode 03 unified reader; source approval shown per scene."
+    },
+    {
+      "id": "jan01-meenakshi-harish-sunil-night-future",
+      "date": "2026-01-01",
+      "sort": null,
+      "start": null,
+      "end": null,
+      "timeLabel": "Late night · after everyone has left · exact time TBD",
+      "universe": "sw",
+      "title": "Harish & Sunil — Outside Society (future-episode seed)",
+      "subtitle": "Reader-only intentions; no present-day prose or encounter",
+      "lead": "Meenakshi",
+      "characters": [
+        "Harish Pal",
+        "Sunil Yadav"
+      ],
+      "mentions": [
+        "Meenakshi"
+      ],
+      "episode": "Future plan",
+      "scene": "HS-NIGHT",
+      "kind": "planned",
+      "state": "future-proposal",
+      "status": "Author-directed night placement · plot-only · not written",
+      "source": "episode-02-meenakshi-plan.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "meenakshi",
+        "scene": "HS-NIGHT"
+      },
+      "flags": [
+        "Not an Episode 03 scene",
+        "No fixed clock time",
+        "Female staff unaware of workers' private motives"
+      ],
+      "detail": "1 January 2026, late night, outside Gulmohar Heights society after the others have gone. Harish and Sunil have a brief private reader-only POV about their hidden attraction and future plans. They have not approached Meenakshi or carried out those plans. This belongs to a future episode and must not interrupt the Farmhouse Scene 02 or 14:15 Naveen handoff."
     }
   ]
 }
