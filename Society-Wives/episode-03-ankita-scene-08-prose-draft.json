@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "series": "Society Wives — Five Veils of Desire",
+  "episode": "03",
+  "scene": "08",
+  "lead": "ankita",
+  "date": "2026-01-01",
+  "time": {
+    "start": "18:10",
+    "end": "18:25"
+  },
+  "title": "The Quiet Reset — Rinku at the Door",
+  "status": "ASSISTANT_AUTHORED_FULL_SCENE08_DRAFT_PENDING_USER_REVIEW",
+  "sourcePlot": "episode-03-ankita-scene-08-rinku-setup.json",
+  "continuityLocks": [
+    "Scene07 reaches apartment at 17:50; Scene08 starts later at 18:10.",
+    "Rajeev absent, parcel remains in his custody, no handover or discovery.",
+    "Ankita cannot know reader-only courier breach or private afterbeat.",
+    "Rinku familiar 23-year-old helper, not first meeting or invented prior episode.",
+    "Daily cotton kurti and trousers without dupatta; exact neckline/color/fit intentionally unspecified.",
+    "Doorbell at 18:25, CUT BEFORE OPENING; Rinku first look reserved for next Ankita episode."
+  ],
+  "beats": [
+    {
+      "id": "B01",
+      "time": "18:10–18:14",
+      "title": "The Apartment Has Gone Quiet",
+      "raw": "18:10 PM.\n\nAnkita ghar laut chuki thi. Living room mein aakar usne apna bag ek taraf rakha aur kuch der sofa ke paas khadi rahi. Woh 5:50 ke aas-paas Karan aur Aman ke saath apartment pahunch gayi thi; ab use kisi ko explain nahi karna tha ki party se jaldi kyun nikalna pada.\n\nCream embroidered kurti aur fitted trousers mein poora din nikal gaya tha. Beige blazer usne sambhal kar rakh diya. Bathroom ki taraf jaate hue usne phone dekha. Office group ki photograph aa chuki thi—paanch log, dance ke baad ki muskurahat, aur Sana ka chhota-sa caption.\n\n**Ankita (dheere se):** “Evidence preserve ho gaya, Madam QA.”\n\nWoh apni hi baat par muskura di.\n\nFresh hokar usne comfortable cotton kurti aur relaxed trousers pehne. Dupatta nahi liya. Yeh ghar par apne kaam karne ke liye uska simple, practical choice tha; use kisi ke aane ki expectation mein kapde chunne ki zaroorat nahi thi.\n\nRajeev ghar par nahi the. Unka koi naya call bhi nahi aaya. Afternoon mein unhone kaha tha ki courier unke paas pahunch gaya hai. Ankita ke liye abhi us information mein kuch badla nahi tha. Na usne parcel dekha tha, na kisi ne use handover kiya tha."
+    },
+    {
+      "id": "B02",
+      "time": "18:14–18:18",
+      "title": "One Day, Different Versions",
+      "raw": "18:14 PM.\n\nAnkita kitchen ki taraf jaane se pehle ek pal dining table ke paas ruk gayi. Subah wahi ghar bilkul alag lag raha tha.\n\nKabir ke breakfast waale jokes. Karan ka apni hi tareefon par hansna. Aman ka Java backend aur concurrency interview ki baat karte waqt ekdum serious ho jaana. Society ki morning walk, lift aur lobby mein mile familiar chehre. Gate par Gopal ke saath courier ka seedha-sa exchange.\n\nPhir office—Rohit Babu se hui baat, Vivan aur Reyansh ka surprise, Sana aur Aishwarya ki teasing, car ride aur dance floor ki music. Alag-alag log, ek hi din mein alag tareeke se usse baat kar rahe the.\n\nShaam ki scooty ride yaad aayi toh woh kuch seconds ke liye ruk gayi.\n\nAman ne turn par support adjust kiya tha. Usne clearly kaha tha ki haath side mein rakhe. Aman ne turant baat maan li thi. Itna toh simple tha.\n\nPhir bhi use yaad tha ki woh us moment ko turant bhool nahi paayi thi.\n\n*Shayad aaj bahut kuch ek saath hua. Aman waise bhi baat ko dil par le leta hai. Kal normal behave karega.*\n\nUsne socha ki shaam ko interview questions bhejne ki baat bhi reh gayi. Is par usse halki si hansi aa gayi. Subah jo normal family conversation thi, wohi kal phir se ho sakti thi. Kisi ek awkward moment ko usne abhi koi naam nahi diya.\n\nGate par Gopal ka chup rehna bhi uske dimaag mein ek second ke liye aaya. Subah usne register mein entry ka promise kiya tha; shaam ko bas nazar bacha li. Ankita ko us badle hue expression ka reason nahi maloom tha.\n\nLekin reader ke paas is din ka ek doosra hissa bhi tha: Gopal ki unauthorized parcel access, uske baad dusre logon tak pahunchi private information aur Rajeev ka apna alag afterbeat. Yeh sab Ankita ki memories ka hissa nahi tha. Uski nazar mein courier abhi bhi ek pending household errand tha—uske andar kya hua, woh nahi jaanti thi.\n\nAnkita ne paani ka glass bharne ke liye kitchen ki taraf kadam badhaya. Din ka recap wahin ruk gaya. Ab use ek chhota-sa ghar ka kaam nazar aa gaya tha."
+    },
+    {
+      "id": "B03",
+      "time": "18:18–18:21",
+      "title": "A Familiar Name for a Small Repair",
+      "raw": "18:18 PM.\n\nKitchen water-filter ke tap se glass bharte hue Ankita ne notice kiya ki connector apni jagah thoda loose lag raha hai. Tap chal raha tha, lekin use laga ki fitting check karwa leni chahiye. Usne glass rakha aur connector ko chhedne ke bajaay phone utha liya.\n\nContact list mein Rinku ka naam pehle se saved tha.\n\nRinku, 23, society ka familiar building helper tha. Chhoti deliveries, maintenance ke practical kaam aur zaroorat padne par errands—un sab ke liye Ankita pehle bhi usse contact karti rahi thi. Woh uske liye koi naya chehra nahi tha, aur na hi aaj ki call unki pehli conversation thi.\n\nUsne message type kiya.\n\n**Ankita (message):** “Rinku, free ho? Kitchen water-filter ka tap connector loose lag raha hai. Ek baar check kar sakte ho?”\n\nPhone counter par rakhkar usne ek baar filter ko dekha. Agar washer se kaam ho jaata toh theek. Agar part change karna pada, toh baad mein bhi ho sakta tha.\n\nMessage bhejna uske liye utna hi ordinary tha jitna society ke kisi known helper ko maintenance ke liye bulana. Iss waqt isse zyada koi meaning nahi tha."
+    },
+    {
+      "id": "B04",
+      "time": "18:21–18:24",
+      "title": "The Reply and a Reason to Return",
+      "raw": "18:21 PM.\n\nPhone vibrate hua.\n\n**Rinku (message):** “Haan madam, main dekh leta hoon. Tool pouch lekar aata hoon. Washer ya connector same size ka nahi hua toh part laana padega.”\n\nAnkita ne turant reply diya.\n\n**Ankita (message):** “Theek hai. Pehle check kar lena, koi jaldi nahi.”\n\n**Rinku (message):** “Ji. Abhi aata hoon.”\n\nAnkita ne phone rakh diya aur kitchen counter saaf karne lagi. Uski home kurti aur trousers comfortable the; kaam karte hue dupatta sambhalne ki zaroorat nahi thi. Is routine detail par usne alag se socha bhi nahi.\n\nRinku ke saath pehle ke normal maintenance interactions ki wajah se use process pata tha: pehle fitting dekhna, phir decide karna ki onsite tightening possible hai ya replacement chahiye. Agar matching connector na mila, toh dobara aana practical necessity hogi.\n\nWoh glass uthakar sink ke paas le gayi. Bahar corridor mein halki footsteps sunai di, phir awaaz thami.\n\nAnkita ne nazar door ki taraf uthayi."
+    },
+    {
+      "id": "B05",
+      "time": "18:24–18:25",
+      "title": "The Doorbell — Cut Before the Door Opens",
+      "raw": "18:24 PM.\n\nDarwaze ki bell baji.\n\nAnkita ne kitchen counter par rakha phone uthaya. Rinku ka message ab bhi screen par tha—*“Abhi aata hoon.”*\n\nWoh samajh gayi ki shayad wahi aaya hoga.\n\nUsne ek baar filter ke connector ki taraf dekha, jaise yaad kar rahi ho ki problem exactly kahan thi. Phir living room cross karke entrance ki taraf badhi.\n\nWoh ab bhi apni comfortable home kurti aur trousers mein thi, bina dupatte ke. Darwaze ke doosri taraf kaun khada tha, usse verify karna aur repair ke baare mein baat karna agla step tha.\n\nAnkita ne door ke paas pahunchkar haath aage badhaya.\n\n**CUT — 18:25 PM. Darwaza abhi khula nahi hai.**\n\nRinku ki actual entry, pehla no-dupatta view aur water-filter ki service interaction next Ankita episode mein hi honge."
+    }
+  ],
+  "proseStatus": "DRAFT_NOT_AUTHOR_APPROVED"
+}
