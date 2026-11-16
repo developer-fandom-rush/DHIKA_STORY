@@ -100,7 +100,7 @@ try {
  await page.locator('.main-nav a[href="#/reading"]').click();
  await page.getByRole('button',{name:'Episode 03 · Prose'}).click();
  await page.locator('#episode03-final-prose .scene-sidebar').waitFor();
- check(await page.locator('#episode03-final-prose .scene-link').count()===7,'Ankita reader includes Scene07 revised prose after dance');
+ check(await page.locator('#episode03-final-prose .scene-link').count()===8,'Ankita reader includes five-beat Scene08 Rinku draft');
  check((await page.locator('#episode03-final-prose .reading-surface').innerText()).includes('Rajeev Uncle, courier ka notification aaya'),'Author-revised Ankita Scene01 dialogue visible in unified reader');
  check((await page.locator('#episode03-final-prose .reading-surface').innerText()).includes('Saans control ki'),'Author-written Scene01 content visible');
  await page.locator('#episode03-final-prose .scene-link').nth(1).click();
@@ -148,6 +148,17 @@ try {
  check((await page.locator('#scene07-beat-B07 .scene07-author-highlight').last().innerText()).includes('Ride kaisi rahi, Bhabhi?'),'Author Karan dialogue highlighted');
  check((await page.locator('#scene07-beat-B08').innerText()).includes('5:50 PM'),'Gopal handoff and home arrival retained');
  check((await page.locator('#episode03-final-prose .story-toolbar').innerText()).includes('review pending'),'Scene07 remains pending overall approval');
+ await page.locator('#episode03-final-prose .scene-link').nth(7).click();
+ await page.waitForFunction(()=>document.querySelector('#episode03-final-prose .story-toolbar')?.textContent?.includes('Ankita · Scene 08'));
+ await page.locator('#scene08-beat-B05').waitFor();
+ check(await page.locator('#scene08-draft-prose .ep03-beat').count()===5,'Scene08 shows five narrated Rinku setup beats');
+ check((await page.locator('#scene08-beat-B01').innerText()).includes('Rajeev ghar par nahi the.'),'Scene08 follows earlier 17:50 home arrival with Rajeev away');
+ check((await page.locator('#scene08-beat-B02').innerText()).includes('Ankita ko inmein se kisi baat ki khabar nahi thi.'),'Hidden parcel knowledge stays narrator-only');
+ check((await page.locator('#scene08-beat-B03').innerText()).includes('society ka familiar building helper'),'Rinku is already familiar, not first introduced');
+ check((await page.locator('#scene08-beat-B04').innerText()).includes('Tool pouch lekar aata hoon'),'Rinku replies only by message');
+ check((await page.locator('#scene08-beat-B05').innerText()).includes('darwaza abhi khula nahi tha'),'Scene08 doorbell cliff ends before door opening');
+ check((await page.locator('#episode03-final-prose .story-toolbar').innerText()).includes('review pending'),'Scene08 assistant prose stays review pending');
+
 
  await page.locator('#episode03-final-prose .perspective-tabs button',{hasText:'Meenakshi'}).click();
  await page.waitForFunction(()=>document.querySelector('#episode03-final-prose .story-toolbar')?.textContent?.includes('Meenakshi · Scene 01'));
@@ -221,6 +232,7 @@ try {
   check((await page.locator('#ankita-ep03-scene07').innerText()).includes('Gopal says NOTHING'),'No Gopal dialogue or confrontation allowed');
   await page.locator('#ankita-ep03-scene08 .beat-item').last().waitFor();
   check(await page.locator('#ankita-ep03-scene08 .beat-item').count()===5,'Scene08 has five Rinku setup beats');
+ check((await page.locator('#ankita-ep03-scene08').innerText()).includes('Read Scene 08 · five-beat prose draft'),'Scene08 planning has reader navigation');
   check((await page.locator('#ankita-ep03-scene08').innerText()).includes('CUT BEFORE THE DOOR OPENS'),'Rinku first no-dupatta look must not occur in Scene08');
  check((await page.locator('#ankita-ep03-scene07').innerText()).includes("Aman's scooty"),"Ankita drives Aman's scooty and Aman rides pillion");
 
