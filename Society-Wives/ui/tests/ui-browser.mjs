@@ -124,12 +124,15 @@ try {
  check((await page.locator('#episode03-final-prose .reading-surface').innerText()).includes('16:40 ke aas-paas Reyansh ne venue ke entrance par car park ki'),'One-line venue arrival appears in Scene05');
  await page.locator('#episode03-final-prose .scene-link').nth(5).click();
  await page.waitForFunction(()=>document.querySelector('#episode03-final-prose .story-toolbar')?.textContent?.includes('Ankita · Scene 06'));
- await page.locator('#scene06-author-B07').waitFor();
- check(await page.locator('#scene06-author-revision-stage details').count()===7,'Seven author-supplied Scene06 revision entries retained, including duplicate Beat2 alternatives');
- check(await page.locator('#scene06-author-B02-A').count()===1&&await page.locator('#scene06-author-B02-B').count()===1,'Both Beat2 drafts remain separate and undecided');
- check(await page.locator('#scene06-author-B06').count()===0,'No invented Beat6');
- await page.locator('#scene06-author-B04 summary').click();
- check((await page.locator('#scene06-author-B04').innerText()).includes('Yeh thoda zyada ho raha hai.'),'Author Scene06 Beat4 wording visible unchanged');
+ await page.locator('#scene06-clean-B07').waitFor();
+ check(await page.locator('#scene06-clean-revision .ep03-beat').count()===7,'Clean Scene06 displays exactly seven beats');
+ check((await page.locator('#scene06-clean-B01').innerText()).includes('Sana aur Aishwarya apni jackets pehle hi side par rakh chuki thi'),'B1 jacket timing fixed');
+ check((await page.locator('#scene06-clean-B02').innerText()).includes('Reyansh ne apna glass side table pe rakh diya'),'B2-B Reyansh glass placement fixed');
+ check((await page.locator('#scene06-clean-B05').innerText()).includes('Sandwich break ho gaya'),'B5 Aishwarya position and transition fixed');
+ check((await page.locator('#scene06-clean-B06').innerText()).includes('meri space ka dhyan rakhna'),'Reconstructed B6 boundary acknowledged');
+ check((await page.locator('#scene06-clean-B06').innerText()).includes('Assistant reconstruction'),'New Beat6 provenance visible');
+ check((await page.locator('#scene06-clean-B07').innerText()).includes('chair se apna beige blazer aur bag uthaya'),'B7 blazer exit continuity fixed');
+ check(await page.locator('#scene06-submitted-archive').count()===1,'Original B2-A and other submitted text kept in archive');
  check(await page.locator('#scene06-earlier-draft').count()===1,'Earlier Scene06 draft retained separately and not overwritten');
 
  await page.locator('#episode03-final-prose .perspective-tabs button',{hasText:'Meenakshi'}).click();
@@ -188,7 +191,7 @@ try {
  check((await page.locator('#ankita-ep03-scene05').innerText()).includes('Read Scene 05 · Office to car'),'Scene05 planning links directly to five-beat prose');
  check((await page.locator('#ankita-ep03-scene05').innerText()).includes('Reyansh'),'Reyansh drives and owns the outing car');
  check((await page.locator('#ankita-ep03-scene05').innerText()).includes('18:00'),'Ankita home deadline preserved in Scene 05');
- await page.locator('#ankita-ep03-scene06 button',{hasText:'Read Scene 06 complete prose'}).waitFor();
+ await page.locator('#ankita-ep03-scene06 button',{hasText:'Read Scene 06 · cleaned seven-beat draft'}).waitFor();
  check(await page.locator('#ankita-ep03-scene06 .source-scene').count()===0,'Scene06 prose no longer duplicated in Planning');
  check((await page.locator('#ankita-ep03-scene06').textContent()).includes('Two men / one woman, Ankita centered'),'Scene06 choreography stays available in collapsed Planning details while prose lives in Reading');
  check((await page.locator('#ankita-ep03-scene06 .eyebrow').first().textContent()).includes('prose DRAFT'),'Scene06 draft status is displayed in the heading even if its eyebrow is visually hidden at this viewport');
