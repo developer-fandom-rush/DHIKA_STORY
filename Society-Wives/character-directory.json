@@ -1183,6 +1183,16 @@
       "sourceStatus": "USER_ACCEPTED_M05_NAMING",
       "notes": "Hospital changing-area cleaner, working with Harish Pal. Tries to announce cleaning, Meenakshi does not clearly hear; incident remains a privacy concern.",
       "storyStatus": "M05_PUBLISHED_SCENE"
+    },
+    {
+      "id": "shreya_station_chotu",
+      "name": "Chotu (station chai wala)",
+      "age": 23,
+      "role": "Police-station canteen and tea service helper — Episode03 proposed recurring character",
+      "group": "office",
+      "house": "shreya",
+      "sourceStatus": "USER_REQUESTED_EP03_NEW_CHARACTER_ROLE_2026_11_16; NAME_AGE_PROVISIONAL",
+      "notes": "Distinct from society-security Chintu (23) and station office support Javed. Adult age 23 proposed for planning; full personal name and background not established. Serves tea in station canteen/public counter or authorized break area, not evidence-interview room. Familiarity with Shreya is a PROPOSED brief backstory, not an earlier published meeting."
     }
   ],
   "relations": [
@@ -2244,6 +2254,13 @@
       "why": "Service interaction only, no romantic interest proposed.",
       "kind": "society",
       "state": "proposed_conversation_only"
+    },
+    {
+      "w": "shreya",
+      "man": "shreya_station_chotu",
+      "how": "Proposed adult police-station chai vendor, familiar from routine station tea service; no earlier published incident is established.",
+      "why": "Potential recurring lively banter; follow author-directed event-first style without importing Dhika Chotu events.",
+      "state": "NEW_EP03_PROPOSAL__NOT_ESTABLISHED_PROSE"
     }
   ],
   "pairs": [
