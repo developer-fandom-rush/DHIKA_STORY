@@ -8,15 +8,15 @@
   "timezone": "Asia/Kolkata",
   "title": "The Private Briefing — Ankita's Beauty Test",
   "start": "13:45",
-  "end": "15:30",
-  "status": "USER_REVISED_PLOT_BLUEPRINT_FOR_FINAL_REVIEW_NOT_PROSE",
+  "end": "15:10",
+  "status": "AUTHOR_UPDATED_ACTIVE_PLOT_NO_20_MIN_PRESENTATION",
   "originalAuthorPrompt": {
     "technical": "1:45–2:30 — Technical wrap-up (one line only) approved",
     "meeting": "2:30 — Private briefing के लिए बुलाना good only double meaning teasing",
     "wardrobe": "2:45 — Wardrobe और teasing moment (setup : morning se compliments and khud ka body awarness test ki mai sundar hoon ??) adn then decision ki chalo test krte hai .. then dirty dark humor exchnage eyes stuck on her body room temperature rised .. no touch just visuals se ankita leading it..(there is no timer ya rule ki bhalla ek hi compliment dega both ache compliment denge .. and self adjusting bhi pants and tie ko ..",
-    "twentyMinutes": "20 min ankita dono males ko bht jyada seducing manner mai tease kre and both sides double meaning setup ho ankita sirf blush nhi ruling the area .. presentation to puri ho gayi fir ankita khud ki presentation dene lagi .. (suddenly she snaps out and leaves ab blush and reaction aaya ) but she was not satisfied (doubt ki males reaction kya tha toh future seed ki yeah dobara hoga) self doubt ki sach mai sundar hoon (ego challenge)..",
-    "cliff": "Aishwarya confrontation cliff — after briefing, she notices Ankita's adjustment and changed demeanour; the question of what happened in the room is left unresolved.",
-    "scope": "Plot/beats and writer prompt only; Grok later writes extended scene prose; don't silently soften or delete author's specific directions."
+    "cliff": "Aishwarya confronts Ankita immediately after the 15:00 beauty test, notices two open buttons and her warm/flustered expression; Ankita deflects and walks away; unresolved.",
+    "scope": "Current Jan 1 Scene03: technical wrap-up 13:45–14:30; active Beat1 14:30–14:45; Beat2 14:45–15:00; Beat3 confrontation 15:00–15:10. Original twenty-minute self-presentation is parked for future, not current canon.",
+    "future20MinuteIdea": "Moved to episode-future-ankita-private-presentation-seed.json; not part of Jan 1 Scene03."
   },
   "cast": [
     {
@@ -72,17 +72,10 @@
     },
     {
       "id": "S03-04",
-      "time": "15:00–15:20",
-      "name": "Twenty-minute Ankita-led personal presentation",
-      "plot": "The official work presentation is already complete. Ankita jokingly turns the next twenty minutes into 'her own presentation', using confident posture, movement, fashion adjustment, sustained eye contact and bold double-meaning conversation to tease both men. Bhalla and Sandeep both actively reply, compliment and test one another's wit; their individual interpretations stay distinct. Ankita rules the room rather than spending the encounter blushing passively. Suddenly she snaps out of the experiment, brings it to an abrupt close and leaves. Only afterward do her deeper blush, racing warmth and reflective uncertainty register. She is not satisfied because she cannot fully read the men's genuine private reactions. Future seed: the unproven 'am I actually beautiful?' ego challenge makes her want to run another test at a later encounter, without a scheduled promise.",
-      "validatedAgainst": "twentyMinutes"
-    },
-    {
-      "id": "S03-05",
-      "time": "15:20–15:30",
-      "name": "Aishwarya's confrontation cliff",
-      "plot": "Ankita emerges after the release sign-off, visibly changed and still adjusting her appearance. Aishwarya notices her altered clothes, behaviour and hint of an unusual private exchange, confronts her about the meeting and the top buttons. The reader knows part of the verbal and visual exchange but not necessarily its last unspoken impressions. End on Aishwarya's direct question and Ankita's interrupted response. Do not prematurely settle what the men privately felt or what Ankita confesses.",
-      "suggestedCliffDialogue": "Aishwarya: 'Ankita, andar exactly kya hua? Aur ye buttons kisne suggest kiye?'",
+      "time": "15:00–15:10",
+      "name": "Aishwarya confrontation cliff — immediately after beauty test",
+      "plot": "Immediately after the 14:45–15:00 beauty test, Ankita leaves the briefing room with her beige blazer in hand (removed at the exit), upper two kurti buttons still loosened and a warm face. Aishwarya notices and asks about the sign-off, the buttons and Bhalla/Sandeep. Ankita says it was just compliments and deflects with 'Baad mein baat karte hain' before walking away. She is self-conscious but does not tremble or panic. No extra 20-minute meeting or personal presentation occurs. Aishwarya does not learn exactly what happened; the exchange remains unresolved.",
+      "suggestedCliffDialogue": "Aishwarya: 'Aur yeh? Buttons bhi sign-off ke saath khul gaye?' · Ankita: 'Baad mein baat karte hain.'",
       "validatedAgainst": "cliff"
     }
   ],
@@ -92,8 +85,8 @@
     "The morning after-marriage body-awareness callback is the actual motivation of the beauty test.",
     "Bhalla and Sandeep physically adjust their own ties and trousers while reacting to her confidence.",
     "No physical contact in this private briefing: keep focus on eyes, body language, visual observations and dialogue.",
-    "After the official presentation, Ankita controls the next 20-minute playful 'personal presentation'.",
-    "Only after she snaps out does she become fully flustered and self-questioning; she remains curious about both men's true reactions.",
+    "The planned 20-minute Ankita-led personal presentation is removed from Jan 1 Scene03 and preserved only as an unscheduled future plot idea.",
+    "Following the 15:00 beauty test, Ankita remains composed but self-conscious; she does not panic or tremble at the Aishwarya cliff. Her deeper reaction is not resolved on-page.",
     "The Aishwarya confrontation question closes the scene without revealing the full private emotional outcome.",
     "A09 'first Bhalla introduction' remains parked for 2026-01-02 and must be reconciled if this 2026-01-01 encounter is approved as his first on-page appearance.",
     "Office Chotu Rohit (22, IT support junior) is NOT deleted: preserve a separate upcoming encounter proposal after this scene, without inventing its finalized time."
@@ -115,24 +108,20 @@
       "beat": "S03-03"
     },
     {
-      "requirement": "20 minutes Ankita leads flirting after work presentation, snaps out, blush/heat/self-doubt, future seed",
+      "requirement": "Aishwarya confrontation immediately after Beat2 at 15:00; no twenty-minute meeting; unresolved cliff",
       "status": "INCLUDED",
       "beat": "S03-04"
-    },
-    {
-      "requirement": "Aishwarya confrontation unanswered cliff",
-      "status": "INCLUDED",
-      "beat": "S03-05"
     }
   ],
-  "timelineStatus": "PROPOSED_WINDOWS_NOT_CANON_UNTIL_FINAL_AUTHOR_APPROVAL",
-  "proseStatus": "NOT_WRITTEN",
+  "timelineStatus": "AUTHOR_UPDATED_SCENE03_END_15_10_SCENE04_START_PROPOSED",
+  "proseStatus": "BEATS_01_02_03_IN_READER_WITH_APPROVAL_STATES_SEPARATE",
   "nextSceneSeed": "Office Chotu Rohit (22) — independent encounter still pending placement; after that, evening surprise/transport planning with five-person group",
   "handoffToNextScene": {
     "scene": "04 — Office Chotu Rohit Babu Introduction",
-    "afterAishwaryaCliff": "Scene 03 ends unresolved on Aishwarya's direct question; at the opening of Scene 04, Ankita briefly deflects and Aishwarya leaves for evening-surprise arrangements.",
-    "buttons": "At Scene 04 opening, Ankita deliberately RE-BUTTONS the upper two buttons of her existing cream embroidered kurti and adjusts her beige blazer BEFORE Rohit arrives, restoring her regular office appearance.",
+    "afterAishwaryaCliff": "Scene03 ends just after 15:00 with Ankita saying 'Baad mein baat karte hain' and walking away. Aishwarya remains curious; Scene04 can begin after 15:10, when she is called to prepare the evening surprise. Do not reinsert the removed twenty-minute presentation.",
+    "buttons": "At Scene04 opening, after the corridor encounter, Ankita RE-BUTTONS the same upper two buttons of her cream embroidered kurti and puts on / straightens her beige blazer BEFORE Rohit arrives.",
     "noContinuation": "Rohit sees no accidental provocative outfit moment or beauty test on Jan 1. Both first accidental glimpse and deliberate first show are scheduled for Jan 2 in episode-04-ankita-rohit-first-show.json.",
     "image": "Use saved Ankita reference and EP02 A06-A08 outfit (cream embroidered kurti, beige blazer, fitted trousers), not generated alternative skirts or sari looks."
-  }
+  },
+  "futureParkedPlot": "episode-future-ankita-private-presentation-seed.json"
 }
