@@ -135,6 +135,16 @@ assert.equal(writingStyle.narratorVisualDescription.status,'AUTHOR_DIRECTED_WRIT
 assert.ok(writingStyle.narratorVisualDescription.methods.some(x=>x.includes('walking')),'Movement description instruction missing');
 assert.ok(writingStyle.narratorVisualDescription.methods.some(x=>x.includes('body-shape')),'Body-shape simile instruction missing');
 assert.ok(writingStyle.narratorVisualDescription.useInstructions.some(x=>x.includes('spoken compliment')),'Narrator vs dialogue POV distinction missing');
+const sourceCalibration=writingStyle.sourceGroundedNarrativeCalibration;
+assert.equal(sourceCalibration?.status,'AUTHOR_DIRECTED_STYLE_REFERENCE_NOT_EPISODE_CANON','Event-first style correction is guidance, not newly approved episode plot');
+assert.equal(sourceCalibration?.referenceFile,'WRITING-STYLE-DHIKA-EP01-EP03-RECALIBRATION.md','Source analysis reference must be linked');
+assert.ok(sourceCalibration.principles.some(x=>x.includes('Banter supports')),'Do not let repetitive double-meaning conversation replace the actual event');
+assert.ok(sourceCalibration.principles.some(x=>x.includes('Immediate precise reaction')),'Keep scene reaction precise and do not inflate a normal touch');
+assert.ok(sourceCalibration.sourceObservations.some(x=>x.includes('EP04 uses longer retrospective')),'Do not falsely claim all later Dhika reflection is absent');
+assert.equal(writingStyle.legacyRhythmReference.status,'OLDER_A02_LOCAL_DIALOGUE_EXAMPLE_ARCHIVED_NOT_GLOBAL_SCENE_TEMPLATE');
+const proseStudy=readFileSync(resolve(root,'WRITING-STYLE-DHIKA-EP01-EP03-RECALIBRATION.md'),'utf8');
+assert.ok(proseStudy.includes('B. Diagnosis of the previous Society Wives writing errors'),'Detailed writing errors study missing');
+assert.ok(proseStudy.includes('EP05 includes an extended retrospective'),'Later backfill insight missing');
 const farmhouse=read('episode-03-meenakshi-scene-02.json');
 assert.equal(farmhouse.episode,'03');
 assert.equal(farmhouse.start,'17:00');
