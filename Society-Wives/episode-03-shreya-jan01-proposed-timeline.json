@@ -637,7 +637,7 @@
       "id": "S03-04",
       "kind": "bridge",
       "title": "College exit, station return and training gear change",
-      "label": "College return · continuity draft"
+      "label": "Return & uniform-change bridge · plot review"
     },
     {
       "number": 10,
@@ -675,7 +675,7 @@
       "label": "Proposal · not discussed"
     }
   ],
-  "reviewSequencePolicy": "Original 14 review slots: Beat1 merged one-line transition, Beat5 inmate bet future hold; Beats7–9 author-directed Shreya/Karan/Aman civilian college encounter (one storyboard each; mechanics and dialogue awaiting author approval), Beat10 unchanged approved five-person station flag drill, Beat11 return bridge, Beat12 proposed Samar/Shaan society, Beat13 proposed Chintu, Beat14 proposed family.",
+  "reviewSequencePolicy": "Original 14-slot review sequence retained: B1 merged; B5 three-inmate bet remains on future hold. B7–B8 are user-requested public-college Karan/Aman scene drafts; B9 is a brief return/wardrobe-change bridge. B10 five-person station training challenge remains plot-approved and unchanged.",
   "collegeContinuityLock": {
     "sceneIds": [
       "S03-02",
