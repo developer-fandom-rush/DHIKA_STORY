@@ -359,7 +359,7 @@ assert.equal(shreyaPlot.timeline.find(x=>x.id==='SR03').approval,'AUTHOR_APPROVE
 const taniyaEp03Solo=read('episode-03-taniya-solo-proposed-timeline.json');
 assert.equal(taniyaEp03Solo.beats.length,12,'Taniya EP03 solo draft must have twelve reviewable beats');
 assert.equal(taniyaEp03Solo.start,'13:15','Taniya EP03 must begin at the TS16 cutoff');
-assert.equal(taniyaEp03Solo.beats[0].time.split('–')[0],'13:15','Taniya opening beat must start after her prior cutoff');
+assert.ok(taniyaEp03Solo.beats[0].time.startsWith('13:15'),'Taniya opening beat must start at prior cutoff without inventing a closing hour');
 assert.equal(taniyaEp03Solo.beats.at(-1).id,'T03-12','Soniya may only enter the home doorway in final beat');
 assert.ok(taniyaEp03Solo.beats.slice(0,-1).every(x=>!x.cast.some(c=>/Soniya/i.test(c))&&!x.dialogue.some(d=>/Soniya/i.test(d.speaker))),'Soniya must be absent from all prior Taniya beats');
 assert.equal(taniyaEp03Solo.beats.filter(x=>x.cast.some(y=>/^Soniya/i.test(y))).length,1,'Soniya appears only at home arrival');
