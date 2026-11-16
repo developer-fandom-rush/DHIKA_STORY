@@ -56,7 +56,15 @@ assert.ok(ankitaOpening.blocks[1].beats.some(b=>b.summary.includes('surprise')),
 assert.ok(ankitaOpening.blocks[1].beats.some(b=>b.summary.includes('forfeit')),'Funny late-arrival consequence must be retained');
 const ep03Reader=read('episode-03-reader.json');
 assert.equal(ep03Reader.episode,'03','Single Episode 03 reader index');
-assert.deepEqual(ep03Reader.chapters.ankita.map(x=>x.id),['01','02','03','04','06'],'Ankita reader includes Rohit Scene04 after Scene03');
+assert.deepEqual(ep03Reader.chapters.ankita.map(x=>x.id),['01','02','03','04','05','06'],'Ankita reader includes Scene05 car ride immediately before dance Scene06');
+const scene05Reader=ep03Reader.chapters.ankita.find(x=>x.id==='05');
+assert.equal(scene05Reader.format,'raw','Scene05 is prose, not a planning outline');
+const scene05Source=readFileSync(resolve(root,'episode-03-ankita-scene-05-user-prose.md'),'utf8');
+assert.equal(scene05Reader.raw,scene05Source,'Scene05 reader reproduces author text and only appended arrival line');
+assert.equal((scene05Source.match(/\*\*Beat [1-5]:/g)||[]).length,5,'Author five beats must be preserved');
+assert.ok(scene05Source.includes('Yeh pehle wale elbow se zyada deliberate laga.'),'User rejected rewording of second contact');
+assert.ok(scene05Source.trimEnd().endsWith('paanchon utar kar andar ki taraf badhe.'),'Venue arrival line closes Scene05');
+assert.equal(scene05Reader.time,'16:00–16:40 (proposed)','Forty-minute ride window stays unchanged');
 const scene04Prose=ep03Reader.chapters.ankita.find(x=>x.id==='04');
 assert.equal(scene04Prose.format,'raw','Rohit Scene04 contains prose, not a planning outline');
 assert.equal(scene04Prose.status,'USER_SELECTED_SCENE04_INTRO_PROSE_DRAFT_FOR_READER','Rohit intro is selected draft, not final approval');
@@ -390,7 +398,7 @@ assert.equal(universalJan.anchorDate,'2026-01-01','Society Wives story anchor mu
 assert.equal(universalDhika.anchorDate,'2026-01-01','Dhika Day 1 must align to Society Wives Jan 1 2026');
 assert.equal(universalJan.events.length,83,'Existing source events preserved with eight current Ankita plot scenes, including Rinku setup');
 assert.equal(universalJan.events.filter(e=>e.kind==='source-scene'&&e.episode==='02').length,67,'EP02 shared Taniya/Soniya source scenes must only appear once');
-assert.equal(universalJan.events.filter(e=>e.kind==='source-scene'&&e.episode==='03').length,8,'Eight EP03 source scenes including author-selected Rohit intro route to reader');
+assert.equal(universalJan.events.filter(e=>e.kind==='source-scene'&&e.episode==='03').length,9,'Nine Episode03 source events including Ankita Scene05 car ride in reader');
 assert.ok(!universalJan.events.some(e=>e.date!=='2026-01-01'),'Jan 1 clock contains an event from another date');
 assert.deepEqual(universalJan.events.slice(0,2).map(e=>e.start),['06:20','06:29'],'January 1 event clock not sorted');
 assert.equal(new Set(universalJan.events.map(e=>e.id)).size,83,'January 1 event IDs must all be unique');
