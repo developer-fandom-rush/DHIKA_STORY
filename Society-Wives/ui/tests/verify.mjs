@@ -99,13 +99,13 @@ assert.equal(ep03Reader.chapters.meenakshi[3].beats.length,5,'Meenakshi B01–B0
 const finalReaderReact=readFileSync(resolve(ui,'src/Reading.tsx'),'utf8');
 assert.ok(finalReaderReact.includes('episode-03-reader.json'),'Unified UI must fetch EP03 source');
 assert.ok(finalReaderReact.includes('Episode 03 · Prose'),'Episode 03 must have a reader selector');
+const sourcePlanning=readFileSync(resolve(ui,'src/Planning.tsx'),'utf8');
 const sourceCharacters=readFileSync(resolve(ui,'src/Characters.tsx'),'utf8');
 assert.ok(sourceCharacters.includes('Twins (people having same image)'), 'Character UI must explain the author-defined twins label');
 assert.ok(sourceCharacters.includes("['ayaan','armaan_s'].includes(selected.id)"),'Ayaan and Armaan proposed society pairing must be visible in character profiles');
 assert.ok(sourcePlanning.includes('Office Twins (people having same image)'), 'Planning label must distinguish group shorthand from biological kinship');
 assert.ok(sourcePlanning.includes('Society Twins (people having same image)'), 'Proposed Ayaan–Armaan society pair must be visible in UI');
 assert.ok(sourcePlanning.includes('5:20–5:50 PM'), 'Ankita twin ride conflict needs visible continuity warning');
-const sourcePlanning=readFileSync(resolve(ui,'src/Planning.tsx'),'utf8');
 assert.ok(sourcePlanning.includes('prose now in Reading'),'Planning must redirect written Ankita scenes');
 assert.ok(!sourcePlanning.includes('author-selected-F01'),'Planning must not duplicate Meenakshi farmhouse prose');
 
