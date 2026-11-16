@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "id": "SW-SHIVANI-EP03-S03-SOCIETY-RETURN",
+  "title": "Shivani — Episode 03 · Scene 03 — Return to Gulmohar Heights",
+  "status": "USER_DIRECTED_WORKING_PLOT_SAVED__NOT_APPROVED_PROSE",
+  "proseStatus": "NOT_WRITTEN",
+  "date": "2026-01-01",
+  "timezone": "Asia/Kolkata",
+  "time": {
+    "start": "17:20",
+    "end": "17:57",
+    "mode": "proposed precise slots; no clock change to Scene 02"
+  },
+  "location": "Gurgaon Arts & Science College → Gulmohar Heights society parking and foyer",
+  "purpose": "One coherent homebound journey. Mahendra's charged approach and existing society-printing pair Ayaan–Armaan form two naturally linked encounters; scene ends before Shivani enters her flat.",
+  "cast": [
+    "Shivani (31)",
+    "Mahendra Suri (61)",
+    "Ayaan (23)",
+    "Armaan (23)"
+  ],
+  "authorStatus": "The user asked to upload the discussed return plot; timing/lines are working author-directed notes, not published prose. Existing Shreya, Soniya and Ankita approved sources remain unchanged.",
+  "sourceReferences": {
+    "scene02": "episode-03-shivani-scene02-master-reference.json",
+    "ep01": "episode-01.json · S02 (Deepu acquaintance), S12 (Shivani coordinates children's programme; prologue date unspecified)",
+    "shivaniEp02": "continuity-verbatim/episode-02/shivani.json · A03/A04/A05/A06/B01",
+    "ankitaEp02": "continuity-verbatim/episode-02/ankita.json · A06 (Ayaan and Armaan as event/printing pair)",
+    "mahendra": "continuity-verbatim/episode-02/shreya.json · SR04; continuity-verbatim/episode-02/taniya.json · TS11",
+    "directory": "character-directory.json · people/pairs/socialFamilyCanon",
+    "cast": "episode-03-shivani-cast-lock.json",
+    "style": "flirting-style.json · authorPacingRule",
+    "ankitaEvening": "episode-03-ankita-scene-07-twins-pickup-homecoming.json · 17:20–17:50",
+    "ankitaRinku": "episode-03-ankita-scene-08-rinku-setup.json · 18:10–18:25"
+  },
+  "priorFoundation": [
+    "Shivani leaves college in her professional outfit with her helmet, college bag and scooty. Her morning departure 08:20, arrival 08:45 and privately retained burgundy selfie are Episode 02 canon; no home change yet.",
+    "Shivani knows Mahendra as society chairman and programme organizer. He has demonstrated flirty attention in Shreya SR04 and Soniya TS11; his current Shivani-directed attraction is new author direction, not falsely backdated to an earlier encounter.",
+    "Ayaan and Armaan are an established society-event/printing duo, with prior on-page Ankita A06 poster/QR-code interaction. Their functional familiarity with Shivani comes from existing society event coordination; no earlier Shivani physical contact is asserted.",
+    "Ayaan is more openly complimentary, Armaan quieter with surprisingly direct one-liners. 'Society Twins (people having same image)' is only a visual/story grouping label; biological brotherhood not established.",
+    "Deepu the society Chotu is another individual, not to be confused with college AV Sunny."
+  ],
+  "beats": [
+    {
+      "id": "S03-01",
+      "time": "17:20–17:45",
+      "title": "The same scooty ride back",
+      "cast": [
+        "Shivani"
+      ],
+      "plot": "Scene 02 ends ~17:20. Shivani walks from staffroom to her parked scooty, leaves college around 17:20 and travels home using the established morning 25-minute journey as a planning baseline. Professional campus outfit, bag, dupatta and helmet unchanged. Her husband's personal New Year surprise from morning remains pending. She has no knowledge of unauthorized copying of her unsent photo."
+    },
+    {
+      "id": "S03-02",
+      "time": "17:45–17:49",
+      "title": "Mahendra Suri — chairman's personal interest",
+      "cast": [
+        "Shivani",
+        "Mahendra Suri"
+      ],
+      "plot": "At society parking, Mahendra appears with children's programme proof sheet. The genuine society task is his plausible opener, but he uses it to hold Shivani in conversation beyond the work requirement. Narrator distinguishes his lingering, body-focused gaze (outfit line front/back and her moving silhouette) from Shivani's actual awareness. He offers a pointed, suggestive personal compliment rather than another generic 'good work' statement. Shivani recognizes the personal turn and pushes back playfully but firmly. No touch or implied consent. Mahendra privately wants another opportunity to talk to her; separate from his earlier Shreya and Soniya incidents.",
+      "dialogue": [
+        {
+          "speaker": "Mahendra",
+          "line": "Shivani ji, aaj aapki kurti ki fitting front aur back dono taraf se kaafi attention kheench rahi hai. Chairman ka concentration bhi test ho raha hai."
+        },
+        {
+          "speaker": "Shivani",
+          "line": "Chairman sahab, aapka inspection society ka hai ya mera? Aapki nazar kuch zyada personal ho rahi hai."
+        },
+        {
+          "speaker": "Mahendra",
+          "line": "Aap toh meri har baat pakad leti hain."
+        },
+        {
+          "speaker": "Shivani",
+          "line": "Phir sambhal kar bola kijiye. Children's programme ka print dikhaaiye."
+        }
+      ],
+      "reaction": "Mahendra is momentarily disarmed but still interested; Shivani keeps the agenda and ends on her own terms. Do not render sexual attention as reciprocal invitation."
+    },
+    {
+      "id": "S03-03",
+      "time": "17:49–17:51",
+      "title": "Ayaan and Armaan — re-entry without false first meeting",
+      "cast": [
+        "Shivani",
+        "Mahendra Suri",
+        "Ayaan",
+        "Armaan"
+      ],
+      "plot": "Ayaan and Armaan arrive together with revised poster proofs and a folding lightweight display stand. One-line grounding: Shivani already knows their society-printwork and remembers their attention to tiny details; readers have seen the pair in Ankita A06. Ayaan begins warmly and loudly, Armaan first presents the corrected QR print. Mahendra stays briefly to collect materials. Other society characters are not teleported into this grouping.",
+      "dialogue": [
+        {
+          "speaker": "Ayaan",
+          "line": "Shivani ma'am, aaj finally proof approve karwa hi lete hain. Hum dono ki itni mehnat kuch toh deserve karti hai."
+        },
+        {
+          "speaker": "Shivani",
+          "line": "Pehle spelling aur QR scan pass karo. Compliments ka result uske baad."
+        },
+        {
+          "speaker": "Armaan",
+          "line": "Proof perfect hai, ma'am. Aapki inspection se bachne ke liye extra checking ki hai."
+        }
+      ]
+    },
+    {
+      "id": "S03-04",
+      "time": "17:51–17:54",
+      "title": "One consequential shared-stand incident",
+      "cast": [
+        "Shivani",
+        "Ayaan",
+        "Armaan"
+      ],
+      "plot": "While opening the fold-out sample beside the wall, a loose stand leg shifts as Shivani reaches to steady the proof sheet. Armaan moves quickly and catches her by the clothed side/waist for balance while Ayaan secures the paper, then releases once she is steady. Shivani briefly grips Armaan's shoulder, steps back, and checks the stand. It is a clear new physical incident, not imagined prehistory, and their proximate looks/quick reaction matter more than a prolonged psychological speech. Armaan's surprisingly direct response catches Ayaan's attention; the trio share a charged, brief beat; Shivani stays in control.",
+      "dialogue": [
+        {
+          "speaker": "Shivani",
+          "line": "Armaan, stand pehle lock karo. Mujhe hi rehearsal prop mat bana dena."
+        },
+        {
+          "speaker": "Armaan",
+          "line": "Sorry ma'am. Aap safe hain — stand ko ab doosra chance nahi dunga."
+        },
+        {
+          "speaker": "Ayaan",
+          "line": "Armaan, tum toh silently hero ban gaye. Main abhi bhi poster pakad raha hoon."
+        }
+      ],
+      "reaction": "Shivani notices Armaan's confidence and chooses to turn the moment back to practical work; neither man invents permission to prolong touch."
+    },
+    {
+      "id": "S03-05",
+      "time": "17:54–17:57",
+      "title": "Shared future hook and home cutoff",
+      "cast": [
+        "Shivani",
+        "Ayaan",
+        "Armaan"
+      ],
+      "plot": "Shivani signs off or flags the corrections on the sample and directs them to coordinate with Sharmi/Deepu. Ayaan invites another review round; Armaan adds one well-timed teasing line. Shivani smiles at the challenge but leaves for Tower C to check on Tara and Kavya. Mahendra is no longer in the foreground. Cut before home conversation. No Karan/Aman at this time because Ankita Scene 07 occupies them from 17:20–17:50."
+    }
+  ],
+  "restrictions": [
+    "This is SCENE 03 PLOT only; never automatically publish as prose.",
+    "Do not make the new physical touch into earlier established canon. One swift incident, immediate reaction, release.",
+    "Do not overwrite the 5:00–5:20 PM staffroom master reference or female-wise author beat bank.",
+    "No Karan/Aman after 17:20 before their Ankita Scene07 concludes. No Ankita overlap.",
+    "Mahendra's one-sided attraction is clear but not Shivani's consent; no private fantasy scene in this short return.",
+    "Do not label Ayaan and Armaan actual brothers."
+  ],
+  "handoff": {
+    "nextFile": "shivani-jan01-night-next-episode-chotu-kavya-twins-om-plot.json",
+    "next": "Home relationship setup and adult night ensemble; same story date but prose intentionally deferred to next Shivani episode."
+  }
+}
