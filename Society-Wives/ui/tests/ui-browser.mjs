@@ -216,7 +216,7 @@ try {
  check(await page.locator('.universe-option').count()===2,'Left switcher has exactly Society Wives and Dhika');
  await page.locator('.universal-top-link').click();
  await page.locator('.timeline-event').first().waitFor();
- check(await page.locator('.timeline-event').count()===82,'Society Wives Jan1 displays 82 time-ordered source / planning events');
+ check(await page.locator('.timeline-event').count()===83,'Society Wives Jan1 displays 83 time-ordered source / planning events');
  check(await page.locator('#timeline-ep03-ankita-scene04').count()===1,'Rohit Jan1 introduction appears in active calendar');
  check((await page.locator('.timeline-start').innerText()).includes('00:01'),'Universal story clock begins at 00:01 without inventing an encounter');
  check((await page.locator('.timeline-event').first().innerText()).includes('06:20'),'Earliest Jan1 event is sorted to morning 06:20');
