@@ -100,7 +100,7 @@ try {
  await page.locator('.main-nav a[href="#/reading"]').click();
  await page.getByRole('button',{name:'Episode 03 · Prose'}).click();
  await page.locator('#episode03-final-prose .scene-sidebar').waitFor();
- check(await page.locator('#episode03-final-prose .scene-link').count()===5,'Ankita reader includes Scenes 01–04 and 06');
+ check(await page.locator('#episode03-final-prose .scene-link').count()===6,'Ankita reader includes Scenes 01–06 including car ride');
  check((await page.locator('#episode03-final-prose .reading-surface').innerText()).includes('Rajeev Uncle, courier ka notification aaya'),'Author-revised Ankita Scene01 dialogue visible in unified reader');
  check((await page.locator('#episode03-final-prose .reading-surface').innerText()).includes('Saans control ki'),'Author-written Scene01 content visible');
  await page.locator('#episode03-final-prose .scene-link').nth(1).click();
@@ -118,6 +118,10 @@ try {
  await page.waitForFunction(()=>document.querySelector('#episode03-final-prose .story-toolbar')?.textContent?.includes('Ankita · Scene 04'));
  check((await page.locator('#episode03-final-prose .reading-surface').innerText()).includes('अरे Rohit Babu! आओ। आज भी तुम्हारी duty लगी है?'),'Rohit selected draft visible in Episode03 reader');
  check((await page.locator('#episode03-final-prose .story-toolbar').innerText()).includes('selected draft'),'Scene04 explicitly remains draft');
+ await page.locator('#episode03-final-prose .scene-link').nth(4).click();
+ await page.waitForFunction(()=>document.querySelector('#episode03-final-prose .story-toolbar')?.textContent?.includes('Ankita · Scene 05'));
+ check((await page.locator('#episode03-final-prose .reading-surface').innerText()).includes('Yeh pehle wale elbow se zyada deliberate laga.'),'Author Beat4 contact sentence preserved');
+ check((await page.locator('#episode03-final-prose .reading-surface').innerText()).includes('16:40 ke aas-paas Reyansh ne venue ke entrance par car park ki'),'One-line venue arrival appears in Scene05');
  await page.locator('#episode03-final-prose .perspective-tabs button',{hasText:'Meenakshi'}).click();
  await page.waitForFunction(()=>document.querySelector('#episode03-final-prose .story-toolbar')?.textContent?.includes('Meenakshi · Scene 01'));
  check(await page.locator('#episode03-final-prose .scene-link').count()===4,'Meenakshi prose Scenes01–04 in reader');
@@ -171,6 +175,7 @@ try {
 
  await page.locator('#ankita-ep03-scene05 .beat-item').last().waitFor();
  check(await page.locator('#ankita-ep03-scene05 .beat-item').count()===4,'Merged approved Scene 05 must show exactly four journey beats');
+ check((await page.locator('#ankita-ep03-scene05').innerText()).includes('Read Scene 05 · Office to car'),'Scene05 planning links directly to five-beat prose');
  check((await page.locator('#ankita-ep03-scene05').innerText()).includes('Reyansh'),'Reyansh drives and owns the outing car');
  check((await page.locator('#ankita-ep03-scene05').innerText()).includes('18:00'),'Ankita home deadline preserved in Scene 05');
  await page.locator('#ankita-ep03-scene06 button',{hasText:'Read Scene 06 complete prose'}).waitFor();
