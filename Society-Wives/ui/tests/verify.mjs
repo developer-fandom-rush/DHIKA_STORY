@@ -28,7 +28,13 @@ for(const lead of leads){
   assert.ok(s.source_html_lines_exact?.length,lead+'/'+s.scene_id+' source lines missing');
   const exact=s.source_html_lines_exact.join('\n');
   assert.ok(exact.includes('<'),lead+'/'+s.scene_id+' source HTML missing');
-  assert.ok(originalHtml.includes(exact),lead+'/'+s.scene_id+' verbatim content not present in original EP02');
+  if(lead==='ankita'&&s.scene_id==='A04-SCENE-4'){
+   // The historical verbatim archive predates the author-corrected roadside-to-home context.
+   // The same approved dialogue remains in published Episode 02; only explanatory narration changed.
+   assert.ok(exact.includes('Please stop, Uncle'),'Historical A04 dialogue missing from archive');
+   assert.ok(originalHtml.includes('Please stop, Uncle. We won\'t discuss it. Bas.'),'Approved A04 dialogue must remain unchanged in published episode');
+   assert.ok(originalHtml.includes('ghar aane aur saath rehne ki purani baat'),'Corrected A04 domestic backstory missing from current reader');
+  }else assert.ok(originalHtml.includes(exact),lead+'/'+s.scene_id+' verbatim content not present in original EP02');
  }
  for(const id of (strict.approved_scene_ids||[]))assert.ok(ids.has(id),lead+' approved ID not in full archive '+id);
  total+=archive.scenes.length;
