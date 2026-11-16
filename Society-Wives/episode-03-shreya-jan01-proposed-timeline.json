@@ -12,8 +12,8 @@
   "anchor": "Episode 02 Shreya SR09 ends 10:15 AM, 1 January 2026 at station corridor",
   "dayScope": {
     "start": "10:15",
-    "end": "18:00",
-    "certainty": "14 review slots, 12 dated scenes/bridges, B1 merged, B5 parked. B7–B9 author-requested draft plot involving Karan/Aman, B10 plot-approved unchanged."
+    "end": "17:45",
+    "certainty": "14 review slots: 11 active dated entries, B1 merged, B5 inmates on hold, B14 family/home on hold. B12 & B13 beat detail drafts, B10 untouched."
   },
   "userLocks": [
     "Author explicitly approved all nine existing SR source prose scenes in Episode 02. SR03 author-approved plot has no published full prose; do not fabricate it.",
@@ -485,67 +485,270 @@
       "id": "S03-06",
       "time": "16:05–17:05",
       "type": "bridge",
-      "status": "PROPOSED",
-      "title": "Police closeout and homebound drive",
+      "status": "AUTHOR_SELECTED_SHORT_TRANSITION_PLOT_PROSE_PENDING",
+      "title": "Police closeout and return to Gulmohar Heights — short transition",
       "place": "Station files → Gulmohar Heights",
       "characters": [
         "Shreya"
       ],
-      "history": "Shreya drove morning 08:20–08:50 (30 minutes)",
-      "distinctEvent": "Allow file wrap ~16:05–16:35 and safe drive ~16:35–17:05. First/top button remained open through SR09; what she does afterward must be explicitly chosen in prose, not assumed to remain through whole evening.",
-      "reaction": "Family duty becomes important after station shift.",
-      "exit": "Arrive society gate 17:05"
+      "history": "The five-person Beat 10 ends 16:05; morning station commute was ~30 minutes. No overlap with Karan and Aman, who are independently leaving college for other business and scheduled later in Ankita's story.",
+      "distinctEvent": "After 15:40–16:05 approved training-ground drill, Shreya signs out the training checklist, winds down station work until ~16:35, and drives home by ~17:05. She chooses to keep the navy dry-fit training T-shirt, black trousers and ponytail from Beat 10, rather than inventing a second wardrobe change; her police uniform is already stored. One concise transition, not a separate intimacy or extra officer encounter.",
+      "reaction": "She is physically alert after a full day and wants to go home, but her existing acquaintance with the society sports twins makes a brief stop at the courtyard natural.",
+      "exit": "Arrives society ~17:05; pauses at sports courtyard shortly after.",
+      "dialogue": []
     },
     {
       "id": "S03-07",
-      "time": "17:15–17:30",
+      "time": "17:10–17:33",
       "type": "new",
-      "status": "NEW_SOCIETY_TWINS_CONTINUATION_PROPOSAL",
-      "title": "Samar and Shaan — the two unpaid bets",
-      "place": "Gulmohar Heights courtyard, by fitness corner",
+      "status": "AUTHOR_SELECTED_PHYSICAL_ESCALATION_DIRECTION__BEAT_PROSE_DRAFT_FOR_REVIEW",
+      "title": "Samar & Shaan — two familiar bets, two unexpected moments of contact",
+      "place": "Gulmohar Heights society fitness courtyard — New Year sports activity setup",
       "characters": [
-        "Shreya",
-        "Samar (24)",
-        "Shaan (24)"
+        "Shreya (33)",
+        "Samar (24, society sports twin)",
+        "Shaan (24, society sports twin)"
       ],
-      "history": "SR01: regular workout together for months; Samar lost plank coffee wager; Shaan lost balance saree get-together wager. Both rewards remain CONDITIONAL and Shreya's choice.",
-      "distinctEvent": "Twins see Shreya coming back from duty and revive their different bets. Instead of agreeing to give away either reward, she surprises them with a specific new challenge for next workout: one helps plan a real society safety demonstration, the other tracks fitness timing. Samar goes openly bold; Shaan counters with a more reserved, observant line. No manufactured second gym routine this evening.",
-      "reaction": "Shreya reacts to their two distinct personalities, grants no date or get-together yet.",
-      "exit": "She turns toward Tower C, where Chintu is doing a society log check"
+      "history": "EP02 SR01 06:55–07:28: Shreya and these two biological twins have trained together for months. She beat Samar's plank challenge and Shaan's balance challenge. Samar's coffee wager and Shaan's saree/get-together wager remain conditional and at her discretion. Samar is openly teasing, Shaan quieter and more observant. Their formal jobs are NOT established; both are society sports volunteers responsible for this event's kit/setup. Shreya has just completed police-station training in her navy training tee, black trousers and high ponytail.",
+      "distinctEvent": "Samar and Shaan are legitimately setting up their society's New Year fitness activity, testing resistance handles and a low marked balance strip rather than waiting around for Shreya. Shreya sees a misaligned marker and chooses to give the equipment a quick trial. Samar's palm-to-palm partner resistance feels initially familiar, but an unexpected shared step brings his hand to the outside of her upper arm as he stabilizes the strap handle; Shreya feels a brief charged surprise, notices he did not exploit the moment and keeps participating voluntarily. Shaan then quietly checks the balance strip and, after asking permission to steady her, offers his forearm and for one short shift supports the outside of her clothed waist. The stillness and trust-based proximity feel unexpectedly different to Shreya from Samar's overt competitive energy. She notices a faster heartbeat and heightened awareness, steps away on her own, and restores their ordinary teasing without revealing private feelings. No repeated falls, staged clothing accidents, chest contact or implied consent to further physical contact. Both pending bets stay conditional.",
+      "reaction": "Shreya notices two separate forms of attraction: Samar's irrepressible energy and contact during a controlled challenge; Shaan's measured support and how unusually intimate a fleeting still moment can feel. Her pulse and attention sharpen without any explicit sexual act, romantic promise or loss of professional judgment. The twins remain distinct individuals and cannot read her private thoughts.",
+      "exit": "17:33 Shreya chooses to head to society security desk; twins remain on their own sports setup. Beat 13 begins ~17:35. Personal awareness is hers alone. No coffee/get-together locked.",
+      "wardrobeContinuity": "Shreya continues in the navy fitted training T-shirt, black training trousers and ponytail from station Beat 10. Clothing lies naturally over her athletic movement, without a new exposure. Samar and Shaan wear ordinary sports volunteer exercise clothes and sneakers; exact colors are still open.",
+      "approvalScope": "AUTHOR_SELECTED_DIRECTION: two distinct non-graphic physical-contact progressions, Shreya's unexpected charged awareness, natural established flirting. Detailed dialogue, equipment and precise minute timing are working plot prose for author review, not previously authored/approved scene prose.",
+      "sceneBeats": [
+        {
+          "id": "B12-01",
+          "time": "17:10–17:13",
+          "heading": "Why they are at the courtyard",
+          "plot": "As sports volunteers, both twins are preparing the New Year society activity: Samar tests the partner-resistance bands, Shaan marks the low balance strip and checks safe clearance. After the police duty drive, Shreya walks by in the same navy training tee and black trousers, recognizes their familiar workout voices, and voluntarily stops for a quick look.",
+          "narration": "Courtyard mein resistance bands aur floor markers set ho rahe the. Samar ne Shreya ko dekhte hi smile ki, Shaan ne marker check karte hue sir uthaya. Shreya ka ponytail din bhar ki training ke baad thoda loose tha; usne file bag kandhe par adjust kiya.",
+          "dialogue": [
+            [
+              "Samar",
+              "Inspector madam! Subah humari class li thi, ab shaam ko surprise inspection?"
+            ],
+            [
+              "Shreya",
+              "Inspection ki zaroorat lag rahi hai. Ye marker straight kisne lagaya?"
+            ],
+            [
+              "Shaan",
+              "Main. Lekin abhi final check bacha hai."
+            ],
+            [
+              "Shreya",
+              "Good. At least ek toh honest hai."
+            ]
+          ]
+        },
+        {
+          "id": "B12-02",
+          "time": "17:13–17:17",
+          "heading": "The bet returns, Shreya chooses the demonstration",
+          "plot": "Samar jokes about his lost plank/coffee bet. Shaan mentions his own balance/saree wager without turning it into a demand. Shreya offers to test one partner drill to see whether the equipment is ready, not as payment for either bet.",
+          "narration": "Samar ne band ka handle uthaya aur cheeky tareeke se Shreya ki taraf badhaya. Shaan usse chhedne ke bajaye quietly anchor point dikha raha tha. Shreya ne apna bag bench par rakha; trial usne khud choose kiya.",
+          "dialogue": [
+            [
+              "Samar",
+              "Subah plank mein haara tha. Coffee ki appeal abhi pending hai."
+            ],
+            [
+              "Shreya",
+              "Appeal ka notice bhi file nahi hua, Mister Samar."
+            ],
+            [
+              "Shaan",
+              "Iski coffee se pehle meri balance rematch pending hai."
+            ],
+            [
+              "Shreya",
+              "Pehle equipment pass karwa lo, dono. Phir challenge ki baat."
+            ]
+          ]
+        },
+        {
+          "id": "B12-03",
+          "time": "17:17–17:22",
+          "heading": "Samar — competitive touch becomes unexpectedly personal",
+          "plot": "Samar and Shreya face each other for the deliberately agreed palm-to-palm partner-pressure test, feet positioned on flat ground. He matches her resistance; for two counts she leans harder than expected and changes her stance. He safely releases pressure and briefly steadies the outside of her clothed upper arm while the handle slackens. Her hand comes to rest against his forearm for one beat, and both ease apart. It is the first shift from ordinary exercise pressure to unexpected mutual proximity in this scene. Nobody makes another contact without choosing it.",
+          "narration": "Shreya ne palms set kiye aur pressure badhaya. Samar ne rhythm match ki. Jab handle ka tension halka hua, usne reflex se Shreya ke upper arm ko support diya—bas ek beat ke liye. Shreya ki ungliyan uski forearm par thamiin; uska pulse achanak tez laga. Dono ne grip release kar di. Samar ke chehre par challenge wali grin thi, lekin usne moment ka show nahi banaya.",
+          "dialogue": [
+            [
+              "Samar",
+              "Power toh inspector level ki hai. Count three tak?"
+            ],
+            [
+              "Shreya",
+              "Teen tak? Tum pehle do sambhal lo."
+            ],
+            [
+              "Samar",
+              "Steady?"
+            ],
+            [
+              "Shreya",
+              "Haan, main theek hoon. Next marker check karo."
+            ]
+          ]
+        },
+        {
+          "id": "B12-04",
+          "time": "17:22–17:26",
+          "heading": "Shaan — stillness catches Shreya by surprise",
+          "plot": "Shaan points out one crooked balance-strip marker and fixes it before testing. Unlike a risky wobbling platform, the strip is safe, flat, and low. Shreya offers to cross it in one continuous line; he asks whether she wants a spotter. She agrees. As she transitions weight onto the narrow marked strip, she takes his forearm for support and he briefly steadies her clothed side waist on her request to hold position. She can safely step away at any moment. The close, quiet coordination unexpectedly charges her awareness more than its practical purpose suggests; she finishes and steps away naturally.",
+          "narration": "Shaan ne low marker seedha kiya. 'Spotter chahiye?' usne poocha. Shreya ne haath badhaya. Ek chhote weight-shift par uski grip Shaan ki forearm par aa gayi aur usne Shreya ki clothed side waist ko ek pal support diya. Courtyard ka shor waisa hi tha, par us ek second mein Shreya ko contact unusually noticeable laga. Agle step par usne khud balance le liya aur distance bana li.",
+          "dialogue": [
+            [
+              "Shaan",
+              "Yeh strip thodi narrow hai. Spot karun?"
+            ],
+            [
+              "Shreya",
+              "Haan. Bas ek round."
+            ],
+            [
+              "Shaan",
+              "Ready?"
+            ],
+            [
+              "Shreya",
+              "Ready. Tum dono aaj kaafi serious ho."
+            ],
+            [
+              "Shaan",
+              "Equipment safe hona chahiye. Baaki jokes Samar ko de do."
+            ]
+          ]
+        },
+        {
+          "id": "B12-05",
+          "time": "17:26–17:30",
+          "heading": "A brief charged after-effect without a speech",
+          "plot": "Shreya adjusts her ponytail and sleeves, subtly grounding herself after two different contacts. Samar is already joking about being scored for the effort, Shaan is straightening equipment. She notices her quickened heartbeat and the dissonance of an ordinary training exercise feeling newly personal; she does not confide that thought, freeze or act as though a romance has begun.",
+          "narration": "Shreya ne ek baar gehri saans li aur ponytail sahi ki. Touch bas workout jitna hi tha, phir bhi do alag tareekon se uska dhyaan kheench gaya. Usne chehre par usual half-smile laayi aur dono ke results announce kar diye.",
+          "dialogue": [
+            [
+              "Shreya",
+              "Samar — energy zyada, control thoda kam."
+            ],
+            [
+              "Samar",
+              "Aur Shaan?"
+            ],
+            [
+              "Shreya",
+              "Control achha. Attitude ko aur test karna padega."
+            ],
+            [
+              "Shaan",
+              "Theek hai. Challenge aap choose kariye."
+            ]
+          ]
+        },
+        {
+          "id": "B12-06",
+          "time": "17:30–17:33",
+          "heading": "Wagers deferred, next meeting organic",
+          "plot": "The twins have tasks to finish and Shreya has a home-bound route past the security desk. Neither coffee nor saree-get-together is granted; she offers a possible safety demo challenge on a later date under her conditions. Their existing joking rhythm resumes. Shreya walks on, aware of the interactions but not pulled into a manufactured extra gym session.",
+          "narration": "Samar band fold karne laga; Shaan marker tape lapet raha tha. Shreya ne bag uthaya aur society desk ki taraf chal di. Courtyard ke corner se unki usual nok-jhonk sunai deti rahi.",
+          "dialogue": [
+            [
+              "Samar",
+              "Coffee appeal ka verdict?"
+            ],
+            [
+              "Shreya",
+              "Reserved. Agli hearing mein."
+            ],
+            [
+              "Shaan",
+              "Aur meri balance rematch?"
+            ],
+            [
+              "Shreya",
+              "Dono ka assessment pending. Next time actual society-safety challenge hoga."
+            ]
+          ]
+        }
+      ],
+      "dialogue": [],
+      "styleLock": "Event first, athletic clothing continuity from B10, non-graphic romantic charge through distinct voluntary physical contacts, paced dialogue and one short Shreya internal response. Samar is overt/competitive; Shaan quiet/observant. One changed pressure contact and one requested spot, not a repetitive accidental-fall ladder. No physical exposure, no second training challenge at station, and never presume privacy thoughts are known to twins."
     },
     {
       "id": "S03-08",
       "time": "17:35–17:45",
       "type": "new",
-      "status": "NEW_SOCIETY_CHINTU_CONTINUATION_PROPOSAL",
-      "title": "Chintu — the unfinished register question",
-      "place": "Gulmohar Heights society gate / security desk",
+      "status": "AUTHOR_SELECTED_CHINTU_CONTINUATION__BEAT_DIALOGUE_DRAFT_FOR_REVIEW",
+      "title": "Chintu — the returned register and a familiar reply",
+      "place": "Gulmohar Heights society security and visitor-register desk",
       "characters": [
         "Shreya",
         "Chintu (23, society security helper)"
       ],
-      "history": "Episode01 S05 introduced Chintu, and Shreya instructed him to note vehicle number rather than guess. Episode02 SR04 specifically reserved him for Episode03.",
-      "distinctEvent": "He now shows a corrected timestamp sheet and identifies one discrepancy that he refused to smooth over. Shreya appreciates his initiative. A brief warm, surprisingly witty comeback makes her look at him as a person beyond his station task. Unlike chai wala, this Chintu is a familiar society operations person.",
-      "reaction": "A small observable warmth, not a suddenly approved romance. He is interested, she remains in charge of what comes next.",
-      "exit": "She takes the register note and heads upstairs"
-    },
-    {
-      "id": "S03-09",
-      "time": "17:45–18:00",
-      "type": "bridge",
-      "status": "PROPOSED",
-      "title": "Home and family lane",
-      "place": "Rathore apartment",
-      "characters": [
-        "Shreya",
-        "Vikram",
-        "Anaya (family-only)",
-        "Arvind (if confirmed present)"
+      "history": "This is society security helper Chintu (23), already introduced to Shreya in prologue S05 via the visitor-log discrepancy. In that scene she instructed: 'Write down the vehicle number, don't guess.' Episode02 SR04 revisited a mismatched 07:40/07:55 register entry with Mahendra and reserved Chintu for Episode03. The station chaiwala Chotu (provisional 23) has his own approved first direct tea-counter encounter at Beat 3, and must NOT be silently merged with Chintu or introduced again.",
+      "distinctEvent": "On her path from the society sports setup toward home, Shreya sees familiar Chintu at the security desk. He has followed her earlier instruction, matching vehicle-number notes against the original visitor register and preserving rather than altering the 07:40 / 07:55 mismatch. He shows which entries still need verification rather than claiming a dramatic discovery. Shreya appreciates his method. Chintu answers one of her routine teasing questions with unexpected dry wit. No new introduction, improvised investigation, romantic touch, or overheard sports-twins secret. She acknowledges his initiative and leaves the records for proper follow-up.",
+      "reaction": "After the twins' charged athletics, this encounter restores a different, grounded tone: Chintu's quiet reliability, direct speech, and a brief shared smile. Shreya sees him as an individual who listens and learns, not an accessory. He does not know anything about her earlier personal thoughts.",
+      "exit": "17:45 Shreya leaves desk and proceeds toward home; home/family scene is HELD and not written or clock-locked.",
+      "approvalScope": "Author said Chotu encounter was already an intro: do not repeat the station Chotu Beat3. This Beat13 is society Chintu's continuation (known since EP01 S05). Exact dialogue and handling of the discrepancy are fresh working plot for review.",
+      "sceneBeats": [
+        {
+          "id": "B13-01",
+          "time": "17:35–17:38",
+          "heading": "Familiarity, not a first meeting",
+          "plot": "Shreya reaches the gate/security desk from the courtyard. Chintu recognizes her and brings up the previously flagged visitor register. They already know one another, so no self-introduction or lengthy backstory.",
+          "narration": "Chintu security desk par register aur timestamp slip ke saath tha. Shreya ko dekhkar woh seedha khada hua, phir usne khula register uski taraf ghumaya.",
+          "dialogue": [
+            [
+              "Chintu",
+              "Madam, aapne kaha tha number verify karo, guess mat karo. Maine dono entries alag mark kar di hain."
+            ],
+            [
+              "Shreya",
+              "Achha, toh aaj homework complete?"
+            ]
+          ]
+        },
+        {
+          "id": "B13-02",
+          "time": "17:38–17:42",
+          "heading": "He kept the original evidence intact",
+          "plot": "He shows the source vehicle-number note and the 07:40 vs 07:55 discrepancy without overwriting either record. Shreya instructs formal follow-up through the society office, not extrajudicial sleuthing.",
+          "narration": "Shreya ne register dekha. Original time untouched tha; Chintu ne correction ke bajaye side note attach kiya tha.",
+          "dialogue": [
+            [
+              "Chintu",
+              "Original ko change nahi kiya. Sirf mismatch aur vehicle note alag rakha hai."
+            ],
+            [
+              "Shreya",
+              "Good. Ab society office se verify karwana. Guess se case strong nahi hota."
+            ]
+          ]
+        },
+        {
+          "id": "B13-03",
+          "time": "17:42–17:45",
+          "heading": "A different kind of warm teasing and exit",
+          "plot": "She lightly teases his unusually disciplined notes, he replies with a witty callback to her instruction, both smile. She continues toward home. No staged accidental contact or instant confession.",
+          "narration": "Shreya ne pen cap band ki aur file uske saamne rakh di. Chintu ki seedhi baat par uski smile aa gayi. Woh gate se andar badh gayi.",
+          "dialogue": [
+            [
+              "Shreya",
+              "Tumhari memory bhi kaafi sharp ho rahi hai."
+            ],
+            [
+              "Chintu",
+              "Aapki instruction yaad rakhna padta hai, madam. Wrong entry pe phir aap pakad lengi."
+            ],
+            [
+              "Shreya",
+              "Tabhi toh sahi kaam seekh rahe ho."
+            ]
+          ]
+        }
       ],
-      "history": "Morning SR02B caregiving and SR08 private Arvind activity; Shreya still unaware of SR08",
-      "distinctEvent": "A short real family handoff instead of an omnibus romance debrief. Confirm who is caring for Anaya before writing and whether Vikram has returned; family presence cannot be presumed from old morning time.",
-      "reaction": "Ordinary transition, reader retains the secrets Shreya does not know.",
-      "exit": "Cut to next chapter whenever author decides"
+      "dialogue": [],
+      "styleLock": "Continuity connection to Prologue S05 and Episode02 SR04; short 3-beat practical exchange with original register intact, subtle character warmth, no touch or attraction mandate, no repetition of station Chotu strong-chai encounter."
     }
   ],
   "editorial": {
@@ -557,8 +760,8 @@
       "SR13",
       "S03-05"
     ],
-    "approvalRule": "B3, B6, B10 plot-approved as before. B7–B9 college plot direction also author-approved: morning familiarity, genuine chance meeting, brief accidental clothing shift, changed awareness, restored teasing, all three remember; exact scene dialogue still draft, no prose published. B5 held; B12–B14 future proposals.",
-    "possibleAdjustment": "College public event and address proposed; official invitation and open attendance must remain credible. Preserve station training at 15:40 and the return/uniform change window. Never show Karan or Aman at station B10.",
+    "approvalRule": "B3 B6 B10 remain approved plot; B7–B9 college author-approved plot direction. B12 Samar/Shaan sensual but non-graphic physical-contact progression supplied as writing draft with author-selected direction, NOT finished approved prose. B13 Chintu continuation draft. B5 inmates and B14 family/home held, no Jan1 scene for either.",
+    "possibleAdjustment": "Samar/Shaan occupations remain undecided (society sports volunteers only). B12 begins at 17:10 after Shreya returns ~17:05; ends 17:33 before B13 17:35. No Karan/Aman reappearance: they have Ankita commitment ~17:20–17:50.",
     "destination": "Society Wives → Planning → Shreya",
     "sourceIntegrity": "All Episode 02 prose is untouched. SR03 remains approved plot only, with full prose missing."
   },
@@ -598,6 +801,27 @@
         "status": "PROPOSED_AND_UNSCHEDULED"
       },
       "approval": "AUTHOR_REQUESTED_ARC_HOLD_NO_EP03_SCENE"
+    },
+    {
+      "id": "S03-09",
+      "time": null,
+      "type": "held",
+      "status": "ON_HOLD_BY_AUTHOR_2026_11_16_NO_HOME_FAMILY_TRANSIT_WRITING",
+      "title": "Home/family transition — ON HOLD",
+      "place": null,
+      "characters": [
+        "Shreya",
+        "Vikram",
+        "Anaya (family-only)",
+        "Arvind (if confirmed present)"
+      ],
+      "history": "Morning SR02B caregiving and SR08 private Arvind activity; Shreya still unaware of SR08",
+      "distinctEvent": "Author explicitly requested HOLD on the final family/home transition. Do not write arrival, Vikram, Anaya, Arvind, caregiving handoff or any new family interaction until the author reopens this slot. No fixed remaining Jan1 timeslot.",
+      "reaction": "No family scene reaction scripted.",
+      "exit": "HOLD — no closing scene or automatic episode cut.",
+      "previousWorkingTime": "17:45–18:00",
+      "previousWorkingPlace": "Rathore apartment",
+      "approvalScope": "Author requested to hold Beat14, not delete. Preserve original proposed family lane as historical working idea; do not treat it as an approved or scheduled scene."
     }
   ],
   "authorDecisions": [
@@ -692,31 +916,31 @@
       "id": "S03-06",
       "kind": "bridge",
       "title": "Police closeout & society return",
-      "label": "One-line transition · proposed"
+      "label": "Short transition · draft"
     },
     {
       "number": 12,
       "id": "S03-07",
       "kind": "active",
-      "title": "Samar & Shaan · pending bets",
-      "label": "Proposal · approval pending"
+      "title": "Samar & Shaan — two familiar bets, two unexpected moments of contact",
+      "label": "Physical progression · writing draft for review"
     },
     {
       "number": 13,
       "id": "S03-08",
       "kind": "active",
-      "title": "Chintu · visitor register",
-      "label": "Proposal · not discussed"
+      "title": "Chintu — the returned register and a familiar reply",
+      "label": "Existing Chintu continuation · draft"
     },
     {
       "number": 14,
       "id": "S03-09",
-      "kind": "active",
-      "title": "Home & family",
-      "label": "Proposal · not discussed"
+      "kind": "held",
+      "title": "Home/family transition — ON HOLD",
+      "label": "ON HOLD · author requested"
     }
   ],
-  "reviewSequencePolicy": "14-slot review remains ordered. B1 merged; B5 inmates future hold; B7–B9 author-approved Karan/Aman college direction with new all-three shared memory and natural banter, scene logistics/final prose pending; B10 independently approved five-person station training unchanged.",
+  "reviewSequencePolicy": "Original fourteen review slots maintained. B1 merged. B5 inmate arc held separately. B7–B9 college encounter author-approved plot direction with shared memory; B10 five-person police drill approved. B11 short duty-to-society transition. B12 sport-twins contact escalation is an author-selected writing draft for review, distinct Samar/Shaan moments. B13 is pre-existing Chintu's register continuity (station Chotu tea scene is B3). B14 family/home transit is now author-HOLD with no active Jan1 slot.",
   "collegeContinuityLock": {
     "sceneIds": [
       "S03-02",
@@ -752,5 +976,10 @@
       "sharedBanter": "Karan is spontaneous/teasing; Aman understated/observant; Shreya answers with confident familiar wit. Short banter should bracket the accident and return afterward; do not make them suddenly formal strangers."
     },
     "familiarity": "Morning EP02 SR05 familiar teasing; resumed through college meeting, temporarily muted around the accidental moment, then returned before goodbye; later subtle callbacks to bag/stand/cyber-security only."
+  },
+  "editsByAuthor20261116": {
+    "beat12": "Write physical-contact progression with Samar/Shaan in prior style, surprise and a charged but non-graphic response from Shreya; preserve separately established morning SR01 familiarity.",
+    "beat13": "Station chaiwala Chotu was already introduced at B3. Society Chintu is also pre-introduced in EP01 S05; continue him, don't start a duplicate intro.",
+    "beat14": "Hold final family/home transit; no prose or implied evening event."
   }
 }
