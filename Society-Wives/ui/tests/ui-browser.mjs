@@ -249,7 +249,8 @@ try {
  check(await page.locator('.universe-option').count()===2,'Left switcher has exactly Society Wives and Dhika');
  await page.locator('.universal-top-link').click();
  await page.locator('.timeline-event').first().waitFor();
- check(await page.locator('.timeline-event').count()===83,'Society Wives Jan1 displays 83 time-ordered source / planning events');
+ check(await page.locator('.timeline-event').count()===87,'Society Wives Jan1 displays 87 time-ordered events including four author-retimed Shreya working scenes');
+ check(await page.locator('#timeline-e03-shreya-SR10').count()===1,'Shreya SR10 appears on the corrected January 1 clock');
  check(await page.locator('#timeline-ep03-ankita-scene04').count()===1,'Rohit Jan1 introduction appears in active calendar');
  check((await page.locator('.timeline-start').innerText()).includes('00:01'),'Universal story clock begins at 00:01 without inventing an encounter');
  check((await page.locator('.timeline-event').first().innerText()).includes('06:20'),'Earliest Jan1 event is sorted to morning 06:20');
@@ -264,7 +265,7 @@ try {
  check(await page.locator('#timeline-jan02-meenakshi-M08').count()===1,'M08 is on Jan2, not indefinitely deferred');
  check((await page.locator('#timeline-jan02-meenakshi-M08').innerText()).includes('Rescheduled'),'M08 label explicitly says rescheduled');
  await page.locator('select[aria-label="Timeline date"]').selectOption('2026-01-03');
- check(await page.locator('.timeline-rescheduled').count()===4,'Shreya SR10–SR13 on January 3, still planned');
+ check(await page.locator('.timeline-rescheduled').count()===0,'Shreya SR10–SR13 are no longer wrongly scheduled on January 3');
  await page.screenshot({path:resolve(screenshots,'08-sw-universal-jan03.png')});
  await page.locator('.universe-option',{hasText:'Dhika'}).click();
  await page.waitForFunction(()=>location.hash.startsWith('#/dhika-timeline')&&document.querySelector('.section-intro .eyebrow')?.textContent.includes('DHIKA'));
