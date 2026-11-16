@@ -249,10 +249,11 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
                <summary><strong>Beat {String(slot.number).padStart(2,'0')} · {slot.title}</strong> — <span>{slot.label}</span></summary>
                {merged&&<p><strong>One-line transition ({merged.time}):</strong> {merged.text} <em>No standalone scene.</em></p>}
                {beat&&<>
-                 <p><strong>{held?'Scheduled time:':'Time:'}</strong> {held?'Not scheduled — future episode':beat.time||'Unassigned'} · <strong>Location:</strong> {held?'To be decided':beat.place||'To be decided'}</p>
+                 <p><strong>{held?'On hold · scheduled time:':'Time:'}</strong> {held?'Not scheduled (author hold)':beat.time||'Unassigned'} · <strong>Location:</strong> {held?'To be decided':beat.place||'To be decided'}</p>
                  <p><strong>Cast:</strong> {beat.characters.join(', ')}</p>
                  <p><strong>Established context:</strong> {beat.history}</p>
                  <p><strong>Event:</strong> {beat.distinctEvent}</p>
+                 {held&&<p className="source-note"><strong>AUTHOR HOLD:</strong> This slot is preserved for discussion but has no active January 1 scene. Do not write, assume, or auto-advance this scene.</p>}
                  {beat.approvalScope&&<p className="source-note"><strong>Approval boundary:</strong> {beat.approvalScope}</p>}
                  {beat.wardrobeContinuity&&<p><strong>Clothing continuity:</strong> {beat.wardrobeContinuity}</p>}
                  {beat.sceneBeats&&beat.sceneBeats.length>0&&<>
