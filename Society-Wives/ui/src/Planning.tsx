@@ -73,6 +73,8 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
      <article className="episode-plan-card" id="ankita-ep03-scene03"><span className="eyebrow">Ankita · EP03 · Scene 03 · 1 Jan 2026 · Writer plot for review</span>
       <h2>{ankitaScene03?.title||'The Private Briefing — Ankita’s Beauty Test'}</h2>
       <p>13:45–15:30 · Cyber City IT office · Ankita, Mr. Bhalla (58), Sandeep Khurana (38); Aishwarya at the exit cliff</p>
+      <p className="muted">Beat 1 (14:30–14:45) approved and available in Reading. Beats 2–5 remain planning only.</p>
+      <button type="button" className="button primary" onClick={()=>openPage('reading',{episode:'03',character:'ankita',scene:'03'})}>Read Scene 03 · Beat 1 →</button>
       <figure className="ankita-scene03-image" style={{margin:'1rem 0'}}>
        <img src={assetUrl('assets/ankita-ep03-scene03-private-briefing.webp')} alt="Ankita presenting the successful New Year production release in a cream embroidered kurti and beige blazer to Mr. Bhalla and Sandeep" loading="lazy" style={{width:'min(100%, 440px)',height:'auto',borderRadius:'12px',display:'block'}}/>
        <figcaption className="muted">Scene 03 generated visual reference · office presentation · illustration, not a face-canon photograph.</figcaption>
