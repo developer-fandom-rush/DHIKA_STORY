@@ -204,7 +204,7 @@ try {
  check(await page.locator('#shreya-ordered-beats > details').count()===14,'Shreya planning keeps 14 original numbered review slots');
  check((await page.locator('#shreya-ep03-SR12 summary').innerText()).includes('ON HOLD'),'Beat 5 inmate bet visibly held');
  check((await page.locator('#shreya-ep03-S03-01 summary').innerText()).includes('Approved plot'),'Beat 3 strong chai marked approved');
- check((await page.locator('#shreya-ep03-S03-05 summary').innerText()).includes('Approved plot'),'Beat 10 training ground marked approved');
+ check((await page.locator('#shreya-ep03-S03-05 > summary').innerText()).includes('Approved plot'),'Beat 10 training ground marked approved');
  check((await page.locator('#shreya-ep03-SR13 summary').innerText()).includes('Approved'),'Beat 6 short exchange marked approved');
  check(await page.locator('#meenakshi-ep03-prose-moved').count()===0,'Shreya Planning excludes unrelated Meenakshi episode cards');
  await page.locator('.perspective-tabs button', {hasText:'Ankita'}).click();
