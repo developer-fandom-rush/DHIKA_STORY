@@ -177,7 +177,8 @@
     "Further twins/tea vendor/society scenes should be proposed separately, not misrepresented as fixed source history.",
     "Do not invent Jan 2 or Jan 3 scenes or overlap other leads.",
     "2026-11-16: The prior B1 corridor bridge is a one-line transition inside SR10, not a standalone scene; author supplied the revised Poonam–ACP training assessment, brief Shreya dialogue and ACP reader-only fantasy. The earlier individual-briefing SR10 premise is superseded, not approved prose.",
-    "2026-11-16: Author approved the existing S03-01 Strong-Chai Moment without alteration. SR11 now contains proposed DCP reader-only fantasy logic; SR12 cellblock bet held for unscheduled future encounters (three adult inmates; competitive-ego challenge). Unassigned 11:40–12:20 is not an invented scene."
+    "2026-11-16: Author approved the existing S03-01 Strong-Chai Moment without alteration. SR11 now contains proposed DCP reader-only fantasy logic; SR12 cellblock bet held for unscheduled future encounters (three adult inmates; competitive-ego challenge). Unassigned 11:40–12:20 is not an invented scene.",
+    "2026-11-16: After approved B10, B11 only a station→society transition; B12 Shreya/Samar/Shaan physically close but non-graphic 6-step sports-volunteer scene 17:10–17:33; B13 society Chintu (not station Chotu) known-register 3-step continuation 17:35–17:45; B14 home/family lane removed from active schedule and author-HOLD."
   ],
   "retimingDecision": {
     "authorDirected": "User explicitly confirmed Episode03 date is January 1, 2026",
@@ -303,5 +304,62 @@
       "futureNote": "All three retain shared history; any later light callbacks use the career talk or backpack/stand, not comments on Shreya's body. No mind-reading; no change to morning SR05 or station B10."
     },
     "approvalBoundary": "User approved plot direction with shared memory and familiar banter; scripted lines are draft, not author-approved prose."
+  },
+  "societyReturnSequence": {
+    "sourceFile": "episode-03-shreya-jan01-proposed-timeline.json",
+    "approvedPriorBeats": [
+      "S03-05"
+    ],
+    "beat11": {
+      "id": "S03-06",
+      "time": "16:05–17:05",
+      "status": "SHORT_TRANSITION_DRAFT",
+      "summary": "Station closeout 16:05–16:35; Shreya keeps navy station-training outfit and drives alone to Gulmohar Heights, arriving ~17:05. No independent romance beat."
+    },
+    "beat12": {
+      "id": "S03-07",
+      "time": "17:10–17:33",
+      "cast": [
+        "Shreya (33)",
+        "Samar (24)",
+        "Shaan (24)"
+      ],
+      "status": "AUTHOR_SELECTED_PHYSICAL_ESCALATION_DIRECTION__BEAT_DIALOGUE_DRAFT",
+      "miniBeats": 6,
+      "summary": "Society sports volunteers Samar and Shaan prepare equipment for New Year fitness setup. Shreya chooses to check it. Samar's partner-pressure test shifts to brief forearm/upper-arm stabilizing touch; Shaan offers a separate, permission-based waist spot on flat low balance tape. Shreya feels a brief charged and confused body awareness then naturally resumes teasing. No forced contact, repeat slip, romance promise or invented professions. Morning SR01 familiarity and bets preserved."
+    },
+    "beat13": {
+      "id": "S03-08",
+      "time": "17:35–17:45",
+      "cast": [
+        "Shreya (33)",
+        "Chintu (23, SOCIETY security helper)"
+      ],
+      "status": "CONTINUATION_DRAFT_PREEXISTING_CHINTU",
+      "miniBeats": 3,
+      "summary": "Chintu follows the earlier EP01 S05 vehicle-number/visitor-register instruction, keeps 07:40/07:55 original entries intact, shows notes and has familiar witty exchange with Shreya. He is distinct from station tea vendor Chotu at approved B3."
+    },
+    "beat14": {
+      "id": "S03-09",
+      "time": null,
+      "cast": [
+        "Shreya",
+        "Vikram",
+        "Anaya",
+        "Arvind (unverified)"
+      ],
+      "status": "AUTHOR_REQUESTED_HOLD_NO_PROSE_OR_DATE",
+      "summary": "Home/family transition frozen and moved out of active Jan1 timeline; no invented caregiver, return home exchange, family scene or episode close until author reopens."
+    },
+    "continuityLocks": [
+      "Beat10 unchanged and independently plot-approved.",
+      "Shreya retains navy training outfit through society setup; no new police uniform changes.",
+      "Society sport twins are NOT Karan/Aman or Rohas/Lokesh.",
+      "Chintu society helper and Chotu station chaiwala distinct; no duplicate first introduction.",
+      "Sports volunteers' real jobs remain undecided.",
+      "B14 HOLD, do not schedule or write."
+    ],
+    "date": "2026-01-01",
+    "approval": "Author selected direction; B12 and B13 new plot prose drafts pending review; B14 author requested hold."
   }
 }
