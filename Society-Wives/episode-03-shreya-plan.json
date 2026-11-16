@@ -288,13 +288,20 @@
     "premise": "Shreya attends as officially booked guest. Karan/MBA prep and Aman/backend interviews independently attend a public college event; all are surprised when they meet. They are not canonically college students and do not accompany her back.",
     "event": "During credible demonstration a dropped folder and momentarily displaced open neckline causes accidental brief upper-cleavage visibility to the twins; each looks away. Shreya adjusts uniform, has a short moment of private awareness and resumes her professional session. No staged exposure, lingering gaze or touching.",
     "exit": "Session ends 15:05, Shreya returns station 15:30 and changes into training outfit by 15:40 for preapproved five-person Beat10. Twins leave independently and stay free for Ankita ~17:23 pickup.",
-    "status": "USER_REQUESTED_PLOT_DRAFT_FOR_REVIEW_NOT_FINISHED_PROSE",
+    "status": "AUTHOR_APPROVED_PLOT_DIRECTION__FINAL_PROSE_PENDING",
     "continuityLocks": [
       "No change to approved Beat 10 plot or cast.",
       "No change to approved Episode 02 prose.",
       "B5 three inmates remains parked and unscheduled.",
       "Samar/Shaan separate in evening society proposal.",
       "Venue remains proposed; not a verified real-life location."
-    ]
+    ],
+    "sharedMemory": {
+      "shreya": "Brief awkward glimpse remembered, then her normal familiar teasing resumes.",
+      "karan": "Knows he caused the bag/stand mishap and remembers Shreya's composure and playful bag joke.",
+      "aman": "Remembers discreet help with the stand/papers and her return to normal talk.",
+      "futureNote": "All three retain shared history; any later light callbacks use the career talk or backpack/stand, not comments on Shreya's body. No mind-reading; no change to morning SR05 or station B10."
+    },
+    "approvalBoundary": "User approved plot direction with shared memory and familiar banter; scripted lines are draft, not author-approved prose."
   }
 }
