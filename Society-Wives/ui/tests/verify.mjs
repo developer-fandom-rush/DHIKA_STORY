@@ -363,10 +363,14 @@ assert.equal(taniyaEp03Solo.beats[0].time.split('–')[0],'13:15','Taniya openin
 assert.equal(taniyaEp03Solo.beats.at(-1).id,'T03-12','Soniya may only enter the home doorway in final beat');
 assert.ok(taniyaEp03Solo.beats.slice(0,-1).every(x=>!x.cast.some(c=>/Soniya/i.test(c))&&!x.dialogue.some(d=>/Soniya/i.test(d.speaker))),'Soniya must be absent from all prior Taniya beats');
 assert.equal(taniyaEp03Solo.beats.filter(x=>x.cast.some(y=>/^Soniya/i.test(y))).length,1,'Soniya appears only at home arrival');
-assert.ok(taniyaEp03Solo.beats.find(x=>x.id==='T03-09').time==='16:42–16:51','Actual twins appear in available time slot');
+assert.equal(taniyaEp03Solo.beats.find(x=>x.id==='T03-09').time,'UNSCHEDULED · conditional twins encounter','Actual twins encounter must remain unscheduled until confirmed office exit');
+assert.equal(taniyaEp03Solo.end,null,'Taniya home arrival cannot have an invented timestamp');
+assert.ok(taniyaEp03Solo.timeIntegrity.officeEnd.includes('UNVERIFIED'),'Taniya office exit must remain unknown pending evidence');
+assert.ok(taniyaEp03Solo.beats.find(x=>x.id==='T03-07').action.includes('Do NOT place departure'),'No assistant-invented half-day office exit');
 assert.ok(taniyaEp03Solo.figureMapping.some(x=>x.group.startsWith('Office twin-like')&&x.why.includes('no invented blood relationship')),'Raghav Chirag must not be falsely classified as twins');
 assert.ok(taniyaEp03Solo.figureMapping.some(x=>x.group==='Society Chotu-type'&&x.members[0].startsWith('Guddu')),'Guddu society-helper role must be preserved');
-assert.ok(taniyaEp03Solo.status.includes('NOT_APPROVED_PROSE'),'New Taniya plan cannot be auto-approved');
+assert.ok(taniyaEp03Solo.status.includes('RETIME')||taniyaEp03Solo.status.includes('RETIMED'),'New Taniya plot must be timing-corrected and still a draft');
+assert.ok(taniyaEp03Solo.plotPhases.filter(x=>x.state==='TIMING_ON_HOLD').length===3,'All departure/society/home phases held until verified closing time');
 const shreyaEpisode03Proposal=read('episode-03-shreya-jan01-proposed-timeline.json');
 assert.equal(shreyaEpisode03Proposal.date,'2026-01-01');
 assert.equal(shreyaEpisode03Proposal.timeline.length,11,'Eleven date-scoped Shreya records after merged B1, held B5 and held B14');
