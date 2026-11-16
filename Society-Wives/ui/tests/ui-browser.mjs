@@ -100,7 +100,7 @@ try {
  await page.locator('.main-nav a[href="#/reading"]').click();
  await page.getByRole('button',{name:'Episode 03 · Prose'}).click();
  await page.locator('#episode03-final-prose .scene-sidebar').waitFor();
- check(await page.locator('#episode03-final-prose .scene-link').count()===4,'Ankita Episode03 reader includes partial Scene03 Beat1: 01,02,03,06');
+ check(await page.locator('#episode03-final-prose .scene-link').count()===5,'Ankita reader includes Scenes 01–04 and 06');
  check((await page.locator('#episode03-final-prose .reading-surface').innerText()).includes('Rajeev Uncle, courier ka notification aaya'),'Author-revised Ankita Scene01 dialogue visible in unified reader');
  check((await page.locator('#episode03-final-prose .reading-surface').innerText()).includes('Saans control ki'),'Author-written Scene01 content visible');
  await page.locator('#episode03-final-prose .scene-link').nth(1).click();
@@ -114,6 +114,10 @@ try {
  check((await page.locator('#ep03-beat-02').innerText()).includes('Strong ya distracting?'),'Ankita user-verbatim Beat2 visible without rewriting');
  check((await page.locator('#ep03-beat-03').innerText()).includes('Buttons bhi sign-off ke saath khul gaye?'),'Aishwarya Beat3 confrontation visible immediately after Beat2');
  check((await page.locator('#episode03-final-prose .story-toolbar').innerText()).includes('Scene 03 under review'),'Scene03 must remain pending whole-scene approval');
+ await page.locator('#episode03-final-prose .scene-link').nth(3).click();
+ await page.waitForFunction(()=>document.querySelector('#episode03-final-prose .story-toolbar')?.textContent?.includes('Ankita · Scene 04'));
+ check((await page.locator('#episode03-final-prose .reading-surface').innerText()).includes('अरे Rohit Babu! आओ। आज भी तुम्हारी duty लगी है?'),'Rohit selected draft visible in Episode03 reader');
+ check((await page.locator('#episode03-final-prose .story-toolbar').innerText()).includes('selected draft'),'Scene04 explicitly remains draft');
  await page.locator('#episode03-final-prose .perspective-tabs button',{hasText:'Meenakshi'}).click();
  await page.waitForFunction(()=>document.querySelector('#episode03-final-prose .story-toolbar')?.textContent?.includes('Meenakshi · Scene 01'));
  check(await page.locator('#episode03-final-prose .scene-link').count()===4,'Meenakshi prose Scenes01–04 in reader');
