@@ -370,7 +370,15 @@ assert.ok(shreyaEpisode03Proposal.timeline.find(e=>e.id==='S03-01').status.inclu
 assert.ok(shreyaEpisode03Proposal.timeline.some(x=>x.id==='S03-01'&&x.characters.some(z=>z.includes('chai wala'))),'Station tea vendor Chotu proposal missing');
 assert.ok(shreyaEpisode03Proposal.timeline.some(x=>x.id==='S03-08'&&x.characters.some(z=>z.includes('Chintu'))),'Distinct society Chintu proposal missing');
 assert.ok(shreyaEpisode03Proposal.timeline.some(x=>x.id==='S03-07'&&x.characters.includes('Samar (24)')&&x.characters.includes('Shaan (24)')),'Society twins continuity missing');
-assert.ok(shreyaEpisode03Proposal.timeline.some(x=>x.id==='S03-03'&&x.place.includes('training college')),'Optional academy/college encounter missing');
+assert.ok(shreyaEpisode03Proposal.timeline.some(x=>x.id==='S03-03'&&x.place.includes('college')&&x.characters.some(z=>z.includes('Karan'))&&x.characters.some(z=>z.includes('Aman'))),'College crossover must involve civilian Karan and Aman, not restricted police academy');
+assert.deepEqual(shreyaEpisode03Proposal.reviewBeatSequence.slice(6,9).map(b=>b.kind),['active','active','bridge'],'New author-directed college beats must be dated, not shown as unreviewed optional filler');
+assert.equal(shreyaEpisode03Proposal.timeline.find(x=>x.id==='S03-03').sceneBeats.length,5,'College encounter must have five separately reviewable mini-beats');
+assert.ok(shreyaEpisode03Proposal.timeline.find(x=>x.id==='S03-03').distinctEvent.includes('top button open'),'No newly invented uniform-button opening');
+assert.ok(shreyaEpisode03Proposal.timeline.find(x=>x.id==='S03-03').history.includes('08:13–08:15'),'College meet must refer to established morning SR05 familiarity');
+assert.ok(shreyaEpisode03Proposal.timeline.find(x=>x.id==='S03-04').distinctEvent.includes('navy athletic'),'Beat 9 must return to original approved Beat 10 navy athletic outfit');
+assert.ok(!shreyaEpisode03Proposal.timeline.find(x=>x.id==='S03-05').characters.some(x=>/Karan|Aman/.test(x)),'Do not mix civilian twins into five-member station training drill');
+assert.ok(sourcePlanning.includes('beat.sceneBeats.map'),'Planning UI must show five college mini-beats, not only summary');
+assert.equal(universalJan.events.find(x=>x.id==='e03-shreya-S03-03')?.beats?.length,5,'Universal timeline must also index all college event mini-beats');
 const archivedShreya=read('episode-03-shreya-plan-archive-jan03.json');
 assert.equal(archivedShreya.date,'2026-01-03','Superseded Shreya Jan3 working plan should remain archived');
 const females=JSON.parse(readFileSync(resolve(ui,'src/data/female-library.json'),'utf8'));
