@@ -232,3 +232,20 @@ h1,h2,h3{font-family:Georgia,"Times New Roman",serif;letter-spacing:-.025em}h1{f
  .dhika-workspace{padding:16px}
  .dhika-reader-frame{height:82vh;min-height:550px}
 }
+
+/* EP03 uses the same reading surface as EP02. */
+.ep03-scene-intro{padding:24px clamp(22px,4vw,48px) 0}
+.ep03-scene-intro h2{margin:0 0 7px;font-size:clamp(1.3rem,3vw,1.8rem)}
+.ep03-scene-intro p{color:var(--muted);font-size:12px;margin:0}
+.ep03-scene-name{display:block;font-size:11px;font-weight:400;line-height:1.4;color:#876c7f;margin:4px 7px 0 0}
+.scene-link.active .ep03-scene-name{color:#744d65}
+.ep03-planning-link{display:flex;margin-top:14px;text-align:center;white-space:normal;width:100%;font-size:11px}
+.ep03-time,.ep03-part{font:800 11px/1.5 ui-sans-serif,system-ui,sans-serif!important;letter-spacing:.08em;text-transform:uppercase;color:#a1738f!important;margin:18px 0 7px!important}
+.ep03-beat{padding:19px 0;border-bottom:1px solid #eee1e7}
+.ep03-beat:first-child{padding-top:0}
+.ep03-beat-heading{display:flex;align-items:baseline;gap:11px;justify-content:space-between;flex-wrap:wrap;margin-bottom:14px}
+.ep03-beat-heading strong{font-size:13px;color:#6c415a}
+.ep03-beat-heading small{font-size:10px;color:#947887}
+.ep03-original .ep03-paragraph{white-space:pre-wrap;overflow-wrap:anywhere}
+.ep03-original .dialogue strong{color:#713e5b}
+@media(max-width:700px){.ep03-scene-intro{padding:20px 22px 0}.ep03-beat-heading{display:block}.ep03-beat-heading small{display:block;margin-top:4px}}
