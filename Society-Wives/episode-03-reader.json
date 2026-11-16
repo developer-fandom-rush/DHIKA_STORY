@@ -157,11 +157,11 @@
       },
       {
         "id": "03",
-        "title": "The Private Briefing — Beats 1–2 (Scene in progress)",
+        "title": "The Private Briefing — Beauty Test & Aishwarya’s Cliff",
         "date": "2026-01-01",
-        "time": "14:30–15:00 (Beats 1–2 of Scene 03)",
+        "time": "14:30–15:10 (Beats 1–3; no 20-minute presentation)",
         "place": "Cyber City IT office · private briefing room",
-        "status": "BEATS_01_02_SAVED_REMAINING_BEATS_PENDING",
+        "status": "BEATS_01_02_03_SAVED_SCENE_UNDER_REVIEW",
         "source": "episode-03-ankita-scene-03-beat-01-clean-v3.md",
         "format": "beats",
         "beats": [
@@ -186,12 +186,25 @@
                 "origin": "AUTHOR_SUBMITTED_EXACT_VERBATIM"
               }
             ]
+          },
+          {
+            "id": "03",
+            "title": "Aishwarya’s Confrontation Cliff · 15:00–15:10",
+            "status": "USER_SELECTED_CLIFF_WITH_REQUESTED_CONTINUITY_EDITS",
+            "parts": [
+              {
+                "raw": "**Beat 3: Aishwarya’s Confrontation Cliff (15:00–15:10)**\n\nAnkita briefing room se bahar aayi. Darwaaze tak aate-aate usne beige blazer utaar kar haath mein le liya tha. Kurti ke upper do buttons khule hue the. Uska chehra thoda garam tha.\n\nAishwarya corridor mein khadi thi. Usne Ankita ko dekha aur ruk gayi.\n\n**Aishwarya:** “Ankita… meeting kaisi rahi?”\n\n**Ankita:** “Ho gayi. Sign-off mil gaya.”\n\nAishwarya ki nazar uske open buttons pe gayi.\n\n**Aishwarya:** “Aur yeh? Buttons bhi sign-off ke saath khul gaye?”\n\nAnkita ne turant buttons ki taraf haath badhaya, phir rok liya.\n\n**Ankita:** “Garmi lag rahi thi.”\n\n**Aishwarya:** “Garmi? Andar AC chal raha tha. Ankita, kya hua andar?”\n\nAnkita ne nazar hata li. Uski saans thodi tez thi.\n\n**Aishwarya:** “Ankita, seedha batao. Bhalla aur Sandeep ne kuch kaha?”\n\n**Ankita:** “Bas… compliments. Zyada kuch nahi.”\n\n**Aishwarya:** “Compliments se tum aise nahi nikalti. Tumhara face bata raha hai.”\n\nAnkita ne blazer pehenne ko uthaya, phir use baazu par rakh liya. Usne apni awaaz sambhali.\n\n**Aishwarya:** “Ankita—”\n\n**Ankita:** “Baad mein baat karte hain.”\n\nWoh aage badh gayi. Aishwarya uske peeche dekhti rahi. Corridor mein ab sirf Ankita ki tez chaal ki awaaz thi.",
+                "origin": "AUTHOR_CLIFF_PROVIDED_EDITORIAL_TIME_BLAZER_AND_REACTION_FIXES"
+              }
+            ]
           }
         ],
         "sourceFiles": [
           "episode-03-ankita-scene-03-beat-01-clean-v3.md",
-          "episode-03-ankita-scene-03-beat-02-user-verbatim.md"
-        ]
+          "episode-03-ankita-scene-03-beat-02-user-verbatim.md",
+          "episode-03-ankita-scene-03-beat-03-cliff-cleaned.md"
+        ],
+        "parkedFuturePlot": "episode-future-ankita-private-presentation-seed.json"
       },
       {
         "id": "06",
