@@ -41,7 +41,7 @@ export default function App(){
    {page==='home'&&<Home scene={params.get('scene')}/>}
    {page==='characters'&&<Characters lead={params.get('lead')||'ankita'} personId={params.get('person')}/>}
    {page==='gallery'&&<Gallery initialCharacter={params.get('character')||'all'}/>}
-   {page==='reading'&&<Reading character={params.get('character')||'ankita'} scene={params.get('scene')}/>}
+   {page==='reading'&&<Reading character={params.get('character')||'ankita'} scene={params.get('scene')} episode={params.get('episode')}/>}
    {page==='planning'&&<Planning lead={params.get('lead')||'meenakshi'} initialScene={params.get('scene')}/>}
    {page==='timeline'&&<GlobalTimeline universe="sw" date={date} onDateChange={d=>{setDate(d);openPage('timeline',{date:d})}}/>}
    {page==='dhika-timeline'&&<GlobalTimeline universe="dhika" date={date} onDateChange={d=>{setDate(d);openPage('dhika-timeline',{date:d})}}/>}
