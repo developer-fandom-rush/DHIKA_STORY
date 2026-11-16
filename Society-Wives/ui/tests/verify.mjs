@@ -56,7 +56,7 @@ assert.ok(ankitaOpening.blocks[1].beats.some(b=>b.summary.includes('surprise')),
 assert.ok(ankitaOpening.blocks[1].beats.some(b=>b.summary.includes('forfeit')),'Funny late-arrival consequence must be retained');
 const ep03Reader=read('episode-03-reader.json');
 assert.equal(ep03Reader.episode,'03','Single Episode 03 reader index');
-assert.deepEqual(ep03Reader.chapters.ankita.map(x=>x.id),['01','02','03','04','05','06'],'Ankita reader includes Scene05 car ride immediately before dance Scene06');
+assert.deepEqual(ep03Reader.chapters.ankita.map(x=>x.id),['01','02','03','04','05','06','07'],'Ankita reader shows Scene07 author-revised prose after Scene06');
 const scene05Reader=ep03Reader.chapters.ankita.find(x=>x.id==='05');
 assert.equal(scene05Reader.format,'raw','Scene05 is prose, not a planning outline');
 const scene05Source=readFileSync(resolve(root,'episode-03-ankita-scene-05-user-prose.md'),'utf8');
@@ -180,6 +180,24 @@ assert.ok(scene06Clean.beats.find(x=>x.id==='B06').provenance.includes('ASSISTAN
 assert.ok(scene06Clean.beats.find(x=>x.id==='B07').raw.includes('chair se apna beige blazer aur bag uthaya'),'Exit blazer returned');
 assert.ok(readerScene06Source.includes('Scene06CleanVersion')&&readerScene06Source.includes('scene06-submitted-archive'),'Reader prioritizes clean version and keeps original submissions archived');
 
+const scene07Prose=read('episode-03-ankita-scene-07-revised-prose.json');
+const scene07Reader=ep03Reader.chapters.ankita.find(x=>x.id==='07');
+assert.equal(scene07Reader.format,'revision','Scene07 reader shows separate revised prose not planning-only');
+assert.equal(scene07Reader.status,'AUTHOR_REVISED_PROSE_IN_UI_PENDING_OVERALL_APPROVAL','Scene07 author revisions not misrepresented as overall approval');
+assert.deepEqual(scene07Prose.beats.map(x=>x.id),['B01','B02','B03','B04','B05','B06','B07','B08'],'Scene07 eight beats preserve timeline order');
+assert.equal(scene07Prose.beats.flatMap(x=>x.segments.filter(seg=>seg.origin==='author')).length,6,'Six author-change blocks highlighted across B4, B5, B6, B7');
+const s07=id=>scene07Prose.beats.find(x=>x.id===id);
+assert.equal(s07('B04').segments.filter(x=>x.origin==='author').length,1,'B4 has one author paragraph added after support');
+assert.ok(s07('B04').segments[1].text.startsWith('Ankita ke liye yeh naya tha.'),'B4 user exact opening preserved');
+assert.ok(s07('B05').segments[1].text.includes('Yeh alag tha. Yeh ghar wala ladka tha.'),'B5 entire author replacement retained');
+assert.ok(s07('B05').segments[1].text.includes('Aman ne turant hata diya. Uske haath ka ehsaas abhi bhi tha.'),'B5 author ending retained');
+assert.ok(!s07('B05').segments.some(x=>x.text.includes('red signal')),'Old red-signal segment removed after B5 replacement');
+assert.ok(s07('B06').segments.filter(x=>x.origin==='author').every(x=>x.text.includes('(internal)')),'B6 both author inner thoughts displayed');
+assert.ok(s07('B06').segments.filter(x=>x.origin==='author').some(x=>x.text.includes('Maine balance ke liye kiya tha.')),'Aman internal thought is exact author source');
+assert.ok(s07('B07').segments.filter(x=>x.origin==='author').some(x=>x.text.includes('Usne Ankita ke kurti pe nazar daali — waist area.')),'Karan author gaze highlighted');
+assert.equal(s07('B07').segments.flatMap(x=>x.text.match(/Ride kaisi rahi, Bhabhi\?/g)||[]).length,1,'Ride question appears only once');
+assert.ok(s07('B08').segments[0].text.includes('5:50 PM')&&s07('B08').segments[0].text.includes('Gopal ne sirf halka sa sir hilaya'),'Home arrival and silent Gopal preserved');
+assert.ok(s07('B03').segments[0].text.includes('Aman ki scooty choose ki hai')&&s07('B04').segments[0].text.includes('Karan apni bike lekar aage nikal gaya'),'Separate two-wheeler continuity preserved');
 const ankitaScene07=read('episode-03-ankita-scene-07-twins-pickup-homecoming.json');
 assert.equal(ankitaScene07.scene,'07','Twin pickup must be EP03 Scene07');
 assert.equal(ankitaScene07.status,'USER_SELECTED_PLOT_FOR_UI_PROSE_PENDING');
@@ -472,7 +490,7 @@ assert.equal(universalJan.anchorDate,'2026-01-01','Society Wives story anchor mu
 assert.equal(universalDhika.anchorDate,'2026-01-01','Dhika Day 1 must align to Society Wives Jan 1 2026');
 assert.equal(universalJan.events.length,87,'Original January1 events retained plus four retimed Shreya EP03 working scenes');
 assert.equal(universalJan.events.filter(e=>e.kind==='source-scene'&&e.episode==='02').length,67,'EP02 shared Taniya/Soniya source scenes must only appear once');
-assert.equal(universalJan.events.filter(e=>e.kind==='source-scene'&&e.episode==='03').length,9,'Nine Episode03 source events including Ankita Scene05 car ride in reader');
+assert.equal(universalJan.events.filter(e=>e.kind==='source-scene'&&e.episode==='03').length,10,'Ten Episode03 source events including Ankita Scene07 revised prose');
 assert.ok(!universalJan.events.some(e=>e.date!=='2026-01-01'),'Jan 1 clock contains an event from another date');
 assert.deepEqual(universalJan.events.slice(0,2).map(e=>e.start),['06:20','06:29'],'January 1 event clock not sorted');
 assert.equal(new Set(universalJan.events.map(e=>e.id)).size,87,'January 1 event IDs must all be unique');
