@@ -167,6 +167,18 @@ assert.ok(scene06RevisionB.beats.find(x=>x.id==='B07').raw.includes('Ghar 6 baje
 assert.equal(ep03Reader.chapters.ankita.find(x=>x.id==='06').format,'lines','Earlier Scene06 prose format retained separately from staged author revisions');
 const readerScene06Source=readFileSync(resolve(ui,'src/Reading.tsx'),'utf8');
 assert.ok(readerScene06Source.includes('Scene06SubmittedRevisions')&&readerScene06Source.includes('scene06-earlier-draft'),'Reader must show staged revisions and preserve earlier draft');
+const scene06Clean=read('episode-03-ankita-scene-06-clean-revision.json');
+assert.deepEqual(scene06Clean.beats.map(x=>x.id),['B01','B02','B03','B04','B05','B06','B07'],'Clean Scene06 has seven beats in order');
+assert.ok(scene06Clean.beats.find(x=>x.id==='B02').raw.includes('Reyansh ne apna glass side table pe rakh diya'),'B2-B chosen with Reyansh glass put down');
+assert.ok(scene06Clean.beats.find(x=>x.id==='B01').raw.includes('Sana aur Aishwarya apni jackets pehle hi side par rakh chuki thi'),'Sana and Aishwarya jackets fixed before dancing');
+assert.ok(scene06Clean.beats.find(x=>x.id==='B01').raw.includes('beige blazer chair par rakh diya'),'Ankita blazer removed in B1');
+assert.ok(!scene06Clean.beats.find(x=>x.id==='B01').raw.includes('Drinks ka asar dikh raha tha'),'Drink-effect timing removed from B1');
+assert.ok(scene06Clean.beats.find(x=>x.id==='B04').raw.includes('Kuch der baad music aur drinks ka halka asar'),'Delayed drinks timing in B4');
+assert.ok(scene06Clean.beats.find(x=>x.id==='B05').raw.includes('Sandwich break ho gaya'),'Aishwarya exits the trio before Ankita joins');
+assert.ok(!scene06Clean.beats.find(x=>x.id==='B05').raw.includes('Usne glass side pe rakha'),'No duplicate Ankita glass in B5');
+assert.ok(scene06Clean.beats.find(x=>x.id==='B06').provenance.includes('ASSISTANT_RECONSTRUCTED'),'B6 reconstruction must not be passed off as original author prose');
+assert.ok(scene06Clean.beats.find(x=>x.id==='B07').raw.includes('chair se apna beige blazer aur bag uthaya'),'Exit blazer returned');
+assert.ok(readerScene06Source.includes('Scene06CleanVersion')&&readerScene06Source.includes('scene06-submitted-archive'),'Reader prioritizes clean version and keeps original submissions archived');
 
 const ankitaScene07=read('episode-03-ankita-scene-07-twins-pickup-homecoming.json');
 assert.equal(ankitaScene07.scene,'07','Twin pickup must be EP03 Scene07');
