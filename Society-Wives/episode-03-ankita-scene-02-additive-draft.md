@@ -28,7 +28,7 @@ Woh Ankita aur Aishwarya ke paas aa gayi.
 
 **Reyansh:** “Main ready hoon. Bas blame game mat shuru kar dena.”
 
-**Reyansh:** “Fine. Late entry ki penalty: ek chhota dance demo tum dono lead karogi.”
+Reyansh ne whiteboard ke paas rakhe speaker ki taraf ishara kiya. Latecomers ko ek chhota dance demo lead karna tha.
 
 **Sana:** “Done. Lekin phir hum teenon ko judge karne mat baith jaana.”
 
@@ -64,7 +64,7 @@ Ankita ne feel kiya. Closeness clear thi. Jab balance aa gaya, usne Reyansh ki t
 
 ---
 
-Music rukte hi Sana ne aankhein gol karke dono boys ki taraf dekha, jaise ab woh rescue ka score announce karne wali ho. Ankita ne pehle apni kurti theek ki, phir khud hi hans di. Baat ko lamba kheenchne ke bajay group ka mood phir apni purani masti mein aa gaya.
+Music ruk gaya. Sana ne aise haath utha diye jaise rescue ka score announce karne wali ho. Ankita ne kurti theek ki aur hansi rokne ki koshish ki.
 
 Sab wapas banter pe aaye.
 
