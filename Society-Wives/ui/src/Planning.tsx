@@ -197,7 +197,9 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
   {active==='shivani'&&<section className="continuity-cards" id="shivani-ep03-cast-lock">
     <article className="episode-plan-card">
       <span className="eyebrow">Shivani · Episode 03 · Character groups locked · Staffroom scene proposed</span>
-      <h2>Office Twins (age-cohort label) — four college students</h2>
+      <h2>Office Twins (people having same image) — four college students</h2>
+      <p className="source-note"><strong>UI terminology:</strong> “Twins (people having same image)” is the author's visual/story grouping label. It does NOT, by itself, establish a biological or family relationship. Harsh and Laksh are separately documented as brothers; Nandini and Ritika are close peers, not sisters.</p>
+      <p className="source-note"><strong>Society Twins (people having same image) — proposed Shivani pairing:</strong> Ayaan and Armaan, both 23, are society event/printing helpers. This is the proposed society duo for Shivani's next home-return discussion; do not substitute Karan and Aman, who are already committed to Ankita's 5:20–5:50 PM Scene 07. Ayaan and Armaan have no approved biological-twin relationship or new Shivani encounter yet.</p>
       {shivaniCastLock?<>
         <p><strong>Core:</strong> {shivaniCastLock.officeTwinsStudentCore.map(c=>c.name+' ('+c.age+')').join(' · ')}.</p>
         <p><strong>Office Chotu:</strong> {shivaniCastLock.officeChotu.name} ({shivaniCastLock.officeChotu.age}) — college AV assistant. <strong>Society Chotu:</strong> {shivaniCastLock.societyChotu.name} ({shivaniCastLock.societyChotu.age}) — society helper.</p>
@@ -209,7 +211,7 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
           <div className="beat-list">{shivaniCastLock.prologueBaselineReference.establishedPreviously.map((q,i)=><div className="beat-item" key={i}><p>{q}</p></div>)}</div>
           <p className="muted">{shivaniCastLock.prologueBaselineReference.episode03Difference}</p>
         </details>}
-        <p className="muted">{shivaniCastLock.biologicalTwinsNote} {shivaniCastLock.episode02End} This locks cast only, not a Scene 01 or written encounter.</p>
+        <p className="muted"><strong>Separate kinship canon:</strong> {shivaniCastLock.biologicalTwinsNote} {shivaniCastLock.episode02End} The “Twins” UI grouping itself makes no biological claim. This locks cast only, not a Scene 01 or written encounter.</p>
       </>:<p role="alert">Shivani cast lock not loaded: {shivaniCastLockError||'Loading…'}</p>}
     </article>
    </section>}
@@ -266,7 +268,7 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
    </details>
    <div className="split"><div><span className="eyebrow">Working story lane</span><h2>{titleCase(active)}</h2><p>{active==='ankita'?'Ankita’s Scenes 01–06 (including Scene 05’s five-beat car ride and Scene 06 draft) are in Episode Reading. Scene 03’s former twenty-minute presentation is parked for future; Scene 04’s seven-point Rohit outline remains here as continuity reference. Unwritten Scenes 07–08 and the separate 2 January Rohit plan remain in Planning. Earlier competing home and parcel follow-up outlines were removed; Scene 08 Rinku setup is the final Ankita Jan 1 entry.':activePlan?.plan?.title||'No separate Episode 03 working draft is available here yet.'}</p></div></div>
    {active==='taniya'&&<p className="source-note">Soniya's independent scenes belong to Taniya's continuity lane. Their existing joint plan is preserved; those scenes have not been promoted to finished prose.</p>}
-   {active==='shivani'&&<p className="source-note">Shivani's Episode 03 character groups are locked above (four Office Twins, separate Office/Society Chotu roles and junior teachers); a staffroom scene plot is available for review; no prose has been approved.</p>}
+   {active==='shivani'&&<p className="source-note">Shivani's Episode 03 group labels follow “Twins (people having same image)” — a visual/story shorthand, never an automatic biological relationship. College four: Harsh, Laksh, Nandini, Ritika. Proposed society duo: Ayaan, Armaan. Karan and Aman are occupied by Ankita's 5:20–5:50 PM scene. Separate Office/Society Chotu roles and junior teachers remain unchanged. The staffroom master reference above remains the source for writing; no new home-return plot prose is approved.</p>}
    {activePlan?.plan&&<><p><strong>Original status:</strong> {str(activePlan.plan.status)||'REVIEW'}</p>{active==='meenakshi'&&<p><strong>Older separate outline — 2 January 2026.</strong> This is not part of 1 January's Scene 01–03 sequence. Senior Review M08 stays on Jan 2.</p>}
     {active==='shreya'&&<p><strong>Date:</strong> 3 January 2026. These events were rescheduled here from 1 January. They remain writing-pending, not cancelled.</p>}
     {active==='ankita'&&<p><strong>Date:</strong> Original draft date requires review; it has not been silently assigned to the Episode 03 canonical timeline.</p>}
