@@ -195,6 +195,16 @@ try {
  check((await page.locator('#society-wives-author-narrator-instructions').innerText()).includes('apple-rounded silhouette'),'Simile vocabulary sourced from writing style JSON');
  await page.locator('#society-wives-author-narrator-instructions summary').click();
  check(await page.locator('.perspective-tabs button').count()===5,'Planning shows five lead selectors');
+ await page.locator('.perspective-tabs button', {hasText:'Taniya'}).click();
+ await page.waitForFunction(()=>document.querySelectorAll('#taniya-ep03-ordered-beats > details').length===12);
+ check(await page.locator('#taniya-ep03-ordered-beats > details').count()===12,'Taniya Episode 03 shows twelve draft beats');
+ check((await page.locator('#taniya-ep03-timeline').innerText()).includes('Soniya does not enter'),'Taniya solo plot explicitly holds Soniya until arrival');
+ check((await page.locator('#taniya-ep03-T03-09 > summary').innerText()).includes('Karan & Aman'),'Actual twins have independent available window');
+ check((await page.locator('#taniya-ep03-T03-10 > summary').innerText()).includes('Guddu'),'Society Chotu-type is the canon Guddu');
+ check((await page.locator('#taniya-ep03-T03-11 > summary').innerText()).includes('Subhash'),'Older household associate has society beat');
+ check((await page.locator('#taniya-ep03-T03-12 > summary').innerText()).includes('Soniya'),'Soniya first appears in final home beat');
+ check((await page.locator('#taniya-ep03-timeline').innerText()).includes('UNAPPROVED WORKING PLOT'),'Taniya plan remains author-review only');
+
  await page.locator('.perspective-tabs button', {hasText:'Shreya'}).click();
  await page.locator('#shreya-ep03-jan01-timeline').waitFor();
  check((await page.locator('#shreya-ep03-jan01-timeline').innerText()).includes('1 January 2026'),'Shreya Episode03 shows January 1 date');
