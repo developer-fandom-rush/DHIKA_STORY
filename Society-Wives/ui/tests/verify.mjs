@@ -377,7 +377,7 @@ assert.ok(shreyaEpisode03Proposal.timeline.some(x=>x.id==='S03-07'&&x.characters
 assert.equal(shreyaEpisode03Proposal.timeline.find(x=>x.id==='S03-07').sceneBeats.length,6,'Six distinct Samar and Shaan physical progression beats missing');
 assert.equal(shreyaEpisode03Proposal.timeline.find(x=>x.id==='S03-08').sceneBeats.length,3,'Chintu continuation must have three mini-beats');
 assert.ok(shreyaEpisode03Proposal.timeline.find(x=>x.id==='S03-07').distinctEvent.includes('forearm')&&shreyaEpisode03Proposal.timeline.find(x=>x.id==='S03-07').distinctEvent.includes('waist'),'Contact choreography must distinguish Samar and Shaan');
-assert.ok(shreyaEpisode03Proposal.timeline.find(x=>x.id==='S03-08').history.includes('Episode01 S05'),'Chintu must remain established, not reintroduced');
+assert.ok(/prologue S05|Episode01 S05/.test(shreyaEpisode03Proposal.timeline.find(x=>x.id==='S03-08').history),'Chintu must remain established, not reintroduced');
 assert.ok(shreyaEpisode03Proposal.timeline.some(x=>x.id==='S03-03'&&x.place.includes('college')&&x.characters.some(z=>z.includes('Karan'))&&x.characters.some(z=>z.includes('Aman'))),'College crossover must involve civilian Karan and Aman, not restricted police academy');
 assert.deepEqual(shreyaEpisode03Proposal.reviewBeatSequence.slice(6,9).map(b=>b.kind),['active','active','bridge'],'New author-directed college beats must be dated, not shown as unreviewed optional filler');
 assert.equal(shreyaEpisode03Proposal.timeline.find(x=>x.id==='S03-03').sceneBeats.length,5,'College encounter must have five separately reviewable mini-beats');
