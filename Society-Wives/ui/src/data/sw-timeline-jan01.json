@@ -2480,8 +2480,8 @@
       "date": "2026-01-01",
       "sort": "13:45",
       "start": "13:45",
-      "end": "15:30",
-      "timeLabel": "13:45–15:30",
+      "end": "15:10",
+      "timeLabel": "13:45–15:10",
       "universe": "sw",
       "title": "Scene 03 — The Private Briefing",
       "lead": "Ankita",
@@ -2496,15 +2496,16 @@
       "scene": "03",
       "kind": "planned",
       "state": "review",
-      "status": "Author-revised plot · for review",
+      "status": "Beats 1–3 saved in reader · 20-minute presentation parked for future",
       "source": "episode-03-ankita-scene-03.json",
       "reader": {
-        "type": "sw-plan",
+        "type": "sw-episode03",
         "character": "ankita",
         "scene": "03"
       },
       "flags": [
-        "Bhalla A09 2-Jan first-introduction wording still needs continuity reconciliation"
+        "Bhalla A09 2-Jan first-introduction wording still needs continuity reconciliation",
+        "Aishwarya cliff 15:00–15:10 follows Beauty Test directly; removed 15:00–15:20 personal presentation is not part of Jan1"
       ],
       "detail": ""
     },
@@ -2687,10 +2688,10 @@
     {
       "id": "ep03-ankita-scene04",
       "date": "2026-01-01",
-      "sort": "15:30",
-      "start": "15:30",
+      "sort": "15:10",
+      "start": "15:10",
       "end": "16:00",
-      "timeLabel": "15:30–16:00",
+      "timeLabel": "15:10–16:00 (proposed)",
       "universe": "sw",
       "title": "Scene 04 — Rohit Babu Introduction",
       "lead": "Ankita",
