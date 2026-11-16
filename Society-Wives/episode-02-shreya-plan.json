@@ -1362,8 +1362,8 @@
     "notes": "End the Shreya POV here; do not invent a 10:15 departure or any later Jan 1 Shreya events."
   },
   "deferredScenes": {
-    "targetDate": "2026-01-03",
-    "targetWeekday": "Saturday",
+    "targetDate": "2026-01-01",
+    "targetWeekday": "Thursday",
     "targetEpisode": 3,
     "targetFile": "./episode-03-shreya-plan.json",
     "ids": [
@@ -1372,8 +1372,13 @@
       "SR12",
       "SR13"
     ],
-    "status": "RESERVED_UNWRITTEN",
-    "notes": "Moved from EP02 to Jan 3. Times are placeholders; cross-lead global clock must be reconciled before prose."
+    "status": "EP03_SAME_DAY_JAN01_UNWRITTEN_WORKING_PLOT",
+    "notes": "SR10–SR13 remain working plot, now Episode 03 later January 1 after Shreya Episode02 ends 10:15 AM, per author correction 2026-11-16; their clock times remain provisional.",
+    "previousDate": {
+      "date": "2026-01-03",
+      "weekday": "Saturday",
+      "archive": "episode-03-shreya-plan-archive-jan03.json"
+    }
   },
   "visualGallery": {
     "status": "USER_REQUESTED_PUBLISHED_AND_VERIFIED",
