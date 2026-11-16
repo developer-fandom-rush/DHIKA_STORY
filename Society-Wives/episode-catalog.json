@@ -94,10 +94,14 @@
       "number": "03",
       "title": "Continuations",
       "subtitle": "Meenakshi Jan 1 continuation; older future-day drafts retained",
-      "status": "MEENAKSHI_SCENE02_ENDS_AT_APPROVED_F19",
+      "status": "EP03_PROSE_AVAILABLE_IN_UNIFIED_READER_MIXED_AUTHOR_REVIEW",
       "date": "1 January 2026 for Meenakshi Scene 01; separate 2–3 January drafts remain",
-      "mainPath": "episode-03-meenakshi-scene-01.html",
+      "mainPath": "index.html#/reading?episode=03&character=ankita&scene=01",
       "relatedPaths": [
+        "episode-03-reader.json",
+        "episode-03-ankita-scene-01.sql",
+        "episode-03-ankita-scene-02-additive-draft.md",
+        "episode-03-ankita-scene-06-dance-draft.json",
         "episode-03-meenakshi-scene-04-babloo-intro.html",
         "episode-03-meenakshi-scene-04-babloo-intro.json",
         "episode-03-meenakshi-scene-03-twins.html",
@@ -106,13 +110,42 @@
         "episode-03-meenakshi-scene-02.json",
         "episode-03-meenakshi-scene-01.html",
         "episode-03-meenakshi-scene-01.json",
-        "episode-03-ankita-pending.html",
         "episode-03-meenakshi-plan.json",
         "episode-03-shreya-plan.json",
         "episode-03-meenakshi-planning.html"
       ],
-      "note": "Scene01 Jan1 13:50–14:15 now author-approved compact prose published; M12 locker thought has passed; Naveen is a 1.5-year familiar coworker; Scene02 Jan1 from 17:00: author approved Grok compact redlines F01–F04; F06 second Grok submission confirmed as direct continuation, original F05–F09 text visible as drafts. Original raw archive and prior GPT edits retained separately. F10–F22 still outline only; Scene03 same-day society twins badminton around 18:15 is review-only proposal, NOT timeline-approved until Scene02 return travel is feasible. EP04 Naveen 14:15 continuation open, no follow-up published. Older Jan2 planner preserved. Scene03 former doubles invitation deferred and old ending removed; new five-minute ride proposal now archived as user-verbatim planning requirement, full prose not approved. Meenakshi EP03 now ends after Babloo B01–B05 approved first personal encounter at Tower C; next-day car assistance is a possible EP04 follow-up; no doorbell-only ending.",
+      "note": "All existing written Episode03 scene text now appears in the unified Episode Reading UI. Ankita Scenes 01,02,06; Meenakshi Scenes 01–04. Current approval/draft statuses remain per scene. Plot-only scenes continue in Episode Planning, including Meenakshi's Jan2 future plan and Ankita's other unwritten beats. Existing standalone HTML and source JSON files are archived without deletion.",
       "chapters": [
+        {
+          "lead": "Ankita",
+          "title": "Rajeev's Parcel Call & Private Afterbeat — Scene 01",
+          "date": "2026-01-01",
+          "time": "13:05–13:15",
+          "status": "AUTHOR_COMPLETED_SOURCE_WITH_ASSISTANT_DIALOGUE",
+          "readerRoute": "#/reading?episode=03&character=ankita&scene=01",
+          "dataPath": "episode-03-ankita-scene-01.sql",
+          "description": "User-written private passage preserved verbatim; assistant provides surrounding dialogue detail; no new planning-only substitution."
+        },
+        {
+          "lead": "Ankita",
+          "title": "The Five-Person Stamina Challenge — Scene 02",
+          "date": "2026-01-01",
+          "time": "13:15–13:45",
+          "status": "AUTHOR_VERBATIM_PRESERVED_ADD_ONLY_DRAFT_PENDING_APPROVAL",
+          "readerRoute": "#/reading?episode=03&character=ankita&scene=02",
+          "dataPath": "episode-03-ankita-scene-02-additive-draft.md",
+          "description": "Original author prose preserved completely; additive narration and transitions under author review."
+        },
+        {
+          "lead": "Ankita",
+          "title": "The Five-Person Dance — Scene 06",
+          "date": "2026-01-01",
+          "time": "16:40–17:20",
+          "status": "AUTHOR_DIRECTED_FULL_PROSE_DRAFT_PENDING_APPROVAL",
+          "readerRoute": "#/reading?episode=03&character=ankita&scene=06",
+          "dataPath": "episode-03-ankita-scene-06-dance-draft.json",
+          "description": "Previously saved full 33-line dance prose moved to Episode Reading without claiming approval."
+        },
         {
           "lead": "Meenakshi",
           "title": "The Glance at the Corridor — Scene 01",
@@ -121,7 +154,8 @@
           "status": "USER_APPROVED_PUBLISHED_PROSE",
           "mainPath": "episode-03-meenakshi-scene-01.html",
           "dataPath": "episode-03-meenakshi-scene-01.json",
-          "description": "Author-approved compact Meenakshi × Naveen conversation: 1.5-year familiarity, friendly paperwork banter, normal work, accidental glance, cut at 14:15. Exact published dialogue available in scene JSON/HTML/UI; no Episode 04 continuation written."
+          "description": "Author-approved compact Meenakshi × Naveen conversation: 1.5-year familiarity, friendly paperwork banter, normal work, accidental glance, cut at 14:15. Exact published dialogue available in scene JSON/HTML/UI; no Episode 04 continuation written.",
+          "readerRoute": "#/reading?episode=03&character=meenakshi&scene=01"
         },
         {
           "lead": "Meenakshi",
@@ -131,7 +165,8 @@
           "status": "F01_F04_F18_F19_AUTHOR_APPROVED_F20_F22_DISCARDED",
           "mainPath": "episode-03-meenakshi-scene-02.html",
           "dataPath": "episode-03-meenakshi-scene-02.json",
-          "description": "Farmhouse Scene02 author-closed after approved F18–F19 drop-off. F15–F17 working draft published; F18–F19 author-approved. Meenakshi drives own car, Yash front passenger, Avi rear, Aditi departs separately. F20–F22 removed from active story and archived as discarded original outline. Earlier original sources retained; Scene03 badminton remains separate under-review plan."
+          "description": "Farmhouse Scene02 author-closed after approved F18–F19 drop-off. F15–F17 working draft published; F18–F19 author-approved. Meenakshi drives own car, Yash front passenger, Avi rear, Aditi departs separately. F20–F22 removed from active story and archived as discarded original outline. Earlier original sources retained; Scene03 badminton remains separate under-review plan.",
+          "readerRoute": "#/reading?episode=03&character=meenakshi&scene=02"
         },
         {
           "lead": "Meenakshi",
@@ -141,7 +176,8 @@
           "status": "T01_T06_CONTINUITY_CORRECTED_T07_AUTHOR_VERBATIM_REVISION",
           "mainPath": "episode-03-meenakshi-scene-03-t01-t07.html",
           "dataPath": "episode-03-meenakshi-scene-03-twins.json",
-          "description": "T01–T06 remain author prose with earlier continuity corrections. T07 is the author's original car-breakdown and seating setup followed by the author's latest revised bike passage, merged without paraphrasing or altering graphic descriptions. Both original submissions are archived verbatim. Exact travel timing and transport concerns remain separate review items."
+          "description": "T01–T06 remain author prose with earlier continuity corrections. T07 is the author's original car-breakdown and seating setup followed by the author's latest revised bike passage, merged without paraphrasing or altering graphic descriptions. Both original submissions are archived verbatim. Exact travel timing and transport concerns remain separate review items.",
+          "readerRoute": "#/reading?episode=03&character=meenakshi&scene=03"
         },
         {
           "lead": "Meenakshi",
@@ -151,7 +187,8 @@
           "status": "B01_B05_APPROVED_PLOT_PROSE_DRAFT_SAVED_FOR_AUTHOR_REVIEW",
           "mainPath": "episode-03-meenakshi-scene-04-babloo-intro.html",
           "dataPath": "episode-03-meenakshi-scene-04-babloo-intro.json",
-          "description": "Approved B01–B05 Babloo and Meenakshi encounter with complete prose draft saved in story JSON, standalone Scene04 reader, and planning UI, pending final author prose approval. Tower C post-badminton goodbye, first appreciative glance, first personal compliment, car-repair offer, and lift-ending. Explicit future continuity lock: do not repeat trust, comfort, introductions or first-time flirtation in later episodes. Timing still provisional."
+          "description": "Approved B01–B05 Babloo and Meenakshi encounter with complete prose draft saved in story JSON, standalone Scene04 reader, and planning UI, pending final author prose approval. Tower C post-badminton goodbye, first appreciative glance, first personal compliment, car-repair offer, and lift-ending. Explicit future continuity lock: do not repeat trust, comfort, introductions or first-time flirtation in later episodes. Timing still provisional.",
+          "readerRoute": "#/reading?episode=03&character=meenakshi&scene=04"
         },
         {
           "lead": "Meenakshi",
@@ -162,7 +199,9 @@
           "dataPath": "episode-03-meenakshi-plan.json",
           "description": "Archived earlier Jan2 proposal, not current EP03 Scene 01. 14 chronological slots incl retained M08; 60 microbeats; hospital Avi/Yash/Aditi, Naveen; car ride; society Uday/Utkarsh and Babloo; second knock."
         }
-      ]
+      ],
+      "archivedCatalogNote": "Scene01 Jan1 13:50–14:15 now author-approved compact prose published; M12 locker thought has passed; Naveen is a 1.5-year familiar coworker; Scene02 Jan1 from 17:00: author approved Grok compact redlines F01–F04; F06 second Grok submission confirmed as direct continuation, original F05–F09 text visible as drafts. Original raw archive and prior GPT edits retained separately. F10–F22 still outline only; Scene03 same-day society twins badminton around 18:15 is review-only proposal, NOT timeline-approved until Scene02 return travel is feasible. EP04 Naveen 14:15 continuation open, no follow-up published. Older Jan2 planner preserved. Scene03 former doubles invitation deferred and old ending removed; new five-minute ride proposal now archived as user-verbatim planning requirement, full prose not approved. Meenakshi EP03 now ends after Babloo B01–B05 approved first personal encounter at Tower C; next-day car assistance is a possible EP04 follow-up; no doorbell-only ending.",
+      "readerDataPath": "episode-03-reader.json"
     },
     {
       "number": "04",
