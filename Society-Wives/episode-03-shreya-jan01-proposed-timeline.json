@@ -220,19 +220,60 @@
       "id": "S03-05",
       "time": "15:40–16:05",
       "type": "new",
-      "status": "NEW_ROHAS_LOKESH_CONTINUATION",
-      "title": "Rohas and Lokesh — the real training challenge",
-      "place": "Police training/briefing area at station",
+      "status": "AUTHOR_APPROVED_BEAT_PLOT_2026_11_16__PROSE_PENDING",
+      "title": "The Training Ground Challenge — five-person flag drill",
+      "place": "Police station training ground",
       "characters": [
-        "Shreya",
-        "Rohas",
-        "Lokesh",
-        "Poonam (briefly)"
+        "Shreya (33, lead instructor)",
+        "Meera (24, police trainee)",
+        "Kavita (23, constable in Shreya training group)",
+        "Rohas (24, police trainee)",
+        "Lokesh (24, police trainee)"
       ],
-      "history": "SR07 already had double-meaning stamina and individual-attention teasing in the same station. Both men are age 24 trainees, not brothers.",
-      "distinctEvent": "Both get assigned distinct practical report-review tasks after their morning 'stamina' boasting. Rohas pushes a playful challenge; Lokesh unexpectedly solves the harder verification problem first. Shreya's brief admiring reaction changes the competitive dynamic; their familiar banter now has a real skill test, not just repeated sexual innuendo.",
-      "reaction": "Poonam notices the actual case contribution, keeps team work grounded.",
-      "exit": "Close assigned files; end station duty block"
+      "history": "Vivek Rao's special training assignment for female staff already established in Beat 2. Rohas and Lokesh are existing male trainees (not twins); Meera is the third official trainee; Kavita participates as Shreya's trainee without changing her constable rank. The five active participants here are Shreya, Meera, Kavita, Rohas and Lokesh, not Poonam.",
+      "distinctEvent": "In Vivek-inspired timed pursuit/flag-control drill, Rohas calls Shreya into the competition. Meera and Kavita run the first challenge against Rohas and Lokesh; Meera's speed distracts Rohas and Kavita unexpectedly wins the flag. Shreya accepts the next challenge. She initially outmaneuvers Rohas, while quiet Lokesh predicts her pivot and takes the side training tag. During the rapid tag capture, there is one brief natural close-contact moment: Lokesh's hand near Shreya's clothed waist, Shreya steadying on his forearm, then both release. Shreya notices a different momentary awareness without declaring a relationship. Lokesh's clean win surprises her.",
+      "reaction": "Rohas briefly loses focus after admiring Shreya's athletic movement; Shreya catches his glance and teases him. Meera needles Rohas; Kavita enjoys her win. Lokesh wins with quiet skill; Shreya offers a competitive next-round challenge, no forced emotional monologue.",
+      "exit": "Conclude at 16:05; wrap files and drive home, then society twins.",
+      "wardrobeProposals": {
+        "approvalScope": "Author's 'Ok bro next' accepts the presented revised beat plot and visuals at planning level, not locked costume for all scenes",
+        "Shreya": "Navy fitted dry-fit training T-shirt, black training trousers, high ponytail; athletic hourglass silhouette described through stance, stride and fabric movement.",
+        "Meera": "Cobalt-blue sports T-shirt, black athletic leggings; agile movements, quick turns and playful expression.",
+        "Kavita": "Burgundy athletic polo, charcoal training joggers; strong stance and decisive directional moves.",
+        "RohasLokesh": "Practical station-approved training sportswear; exact colors not specified."
+      },
+      "dialogue": [
+        [
+          "Shreya",
+          "Rohas, nazar flag pe rakho. Ya attention kahin aur hai?"
+        ],
+        [
+          "Meera",
+          "Ma'am, isi liye toh iska reaction time slow hai!"
+        ],
+        [
+          "Kavita",
+          "Rohas, zyada confidence kabhi-kabhi mehenga padta hai."
+        ],
+        [
+          "Lokesh",
+          "Ma'am, aapka second move predict ho gaya."
+        ],
+        [
+          "Shreya",
+          "Ek round jeetne se mujhe predict karna nahi seekh gaye tum."
+        ],
+        [
+          "Lokesh",
+          "Toh ek aur chance dijiye."
+        ]
+      ],
+      "styleLock": "Event-first, non-graphic but recognizably mature attraction. Narrator shows women's athletic silhouettes through motion and specific training outfits; distinct male gazes and the single meaningful close-contact beat. Keep physical moves coherent and avoid repetitive touching or turning a small touch into a dramatic psychological speech.",
+      "authorApproval": {
+        "date": "2026-11-16",
+        "signal": "User said 'Ok bro next' after a proposed revised training beat",
+        "scope": "Beat outline with meaningful physical proximity, visible wardrobe, gaze and competitive reversal",
+        "excludes": "Not finished prose or standalone image generation"
+      }
     },
     {
       "id": "S03-06",
