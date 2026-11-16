@@ -354,7 +354,7 @@ assert.equal(shivaniReturn.time.end,'17:57');
 assert.deepEqual(shivaniReturn.beats.map(b=>b.id),['S03-01','S03-02','S03-03','S03-04','S03-05'],'Return must preserve five plotted beats');
 assert.ok(shivaniReturn.beats.some(x=>x.cast.includes('Mahendra Suri')&&x.plot.includes('gaze')),'Mahendra must have grounded attraction plot');
 assert.ok(shivaniReturn.beats.some(x=>x.cast.includes('Ayaan')&&x.cast.includes('Armaan')),'Ayaan–Armaan duo must be introduced');
-assert.ok(!shivaniReturn.beats.some(x=>x.cast.includes('Karan')||x.cast.includes('Aman')),'Karan–Aman cannot collide with Ankita's ride 17:20–17:50');
+assert.ok(!shivaniReturn.beats.some(x=>x.cast.includes('Karan')||x.cast.includes('Aman')),"Karan–Aman cannot collide with Ankita's ride 17:20–17:50");
 assert.equal(shivaniNight.date,'2026-01-01');
 assert.ok(shivaniNight.episodePlacement.startsWith('NEXT_SHIVANI_EPISODE'),'Same-day night plot must be reserved for next Shivani episode');
 assert.deepEqual(shivaniNight.beats.map(b=>b.id),['N01','N02','N03','N04','N05','N06','N07','N08'],'Om, Deepu and Kavya setup must preserve all eight beats');
