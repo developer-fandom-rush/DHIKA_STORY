@@ -3,6 +3,7 @@ import { assetUrl, leadOrder, Plan, openPage, titleCase, useData } from './lib';
 const str=(v:unknown)=>typeof v==='string'?v:'';
 type NarrativeCalibration={id:string;title:string;status:string;referenceFile:string;sourceScope:string;diagnosis:{fault:string;correction:string}[];sourceObservations:string[];principles:string[];prohibitions:string[];plotSuggestionFormat:string;proseStandard:string};
 type NarratorStyleRule={status:string;origin:string;appliesTo:string;methods:string[];examplePhrases:string[];useInstructions:string[];sceneTemplate:string[];};
+type AnkitaFuturePresentation={status:string;decision:string;planning:{idea:string;duration:string;date:string;episode:string;proseStatus:string;sceneStatus:string;characterLock:string};originalAuthorPromptVerbatim:string;originalPlotBeatVerbatim:{name:string;plot:string}};
 type AnkitaScene03={title:string;status:string;start:string;end:string;beats:{id:string;time:string;name:string;plot:string;suggestedCliffDialogue?:string}[];validation:{requirement:string;status:string;beat:string}[];proseStatus:string;nextSceneSeed:string;};
 type RohitPlot={title:string;status:string;date:string;beats:{id:string;name:string;plot:string;dialogue?:{speaker:string;line:string}[]}[];costumeContinuity?:{scene04Entry:string};authorLocks?:string[];};
 type AnkitaScene05={title:string;status:string;date:string;time:{start:string;end:string;certainty:string};continuity:{vehicle:string;seats:{driver:string;frontPassenger:string;rearLeft:string;rearMiddle:string;rearRight:string};deadline:string;destination:string};beats:{id:string;heading:string;plot:string;dialogue?:{speaker:string;line:string}[]}[];proseStatus:string;};
@@ -26,6 +27,7 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
  
  
  const {data:ankitaScene03,error:ankitaScene03Error}=useData<AnkitaScene03>('episode-03-ankita-scene-03.json');
+  const {data:ankitaFuturePresentation,error:ankitaFuturePresentationError}=useData<AnkitaFuturePresentation>('episode-future-ankita-private-presentation-seed.json');
  const {data:rohitIntro,error:rohitIntroError}=useData<RohitPlot>('episode-03-ankita-scene-04-rohit-intro.json');
  const {data:ankitaScene05,error:ankitaScene05Error}=useData<AnkitaScene05>('episode-03-ankita-scene-05-combined-surprise-ride.json');
  const {data:ankitaScene06,error:ankitaScene06Error}=useData<AnkitaScene06>('episode-03-ankita-scene-06-dance-draft.json');
@@ -72,22 +74,30 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
     <article className="episode-plan-card" id="ankita-ep03-a11"><span className="eyebrow">Ankita · EP03 · Scenes 01–02 · prose now in Reading</span><h2>Rajeev's Parcel Call &amp; The Five-Person Stamina Challenge</h2><p>Scene 01 contains the author-completed narrative. Scene 02 preserves author-original full prose with additive framing, pending review.</p><div className="hero-actions"><button type="button" className="button primary" onClick={()=>openPage('reading',{episode:'03',character:'ankita',scene:'01'})}>Read Scene 01 →</button><button type="button" className="button subtle" onClick={()=>openPage('reading',{episode:'03',character:'ankita',scene:'02'})}>Read Scene 02 →</button></div></article>
      <article className="episode-plan-card" id="ankita-ep03-scene03"><span className="eyebrow">Ankita · EP03 · Scene 03 · 1 Jan 2026 · Writer plot for review</span>
       <h2>{ankitaScene03?.title||'The Private Briefing — Ankita’s Beauty Test'}</h2>
-      <p>13:45–15:30 · Cyber City IT office · Ankita, Mr. Bhalla (58), Sandeep Khurana (38); Aishwarya at the exit cliff</p>
-      <p className="muted">Beats 1–2 are available in Reading. Beat 1 is approved; Beat 2 is preserved exactly as author-submitted. Beats 3–5 remain planning only.</p>
-      <button type="button" className="button primary" onClick={()=>openPage('reading',{episode:'03',character:'ankita',scene:'03'})}>Read Scene 03 · Beats 1–2 →</button>
+      <p>13:45–15:10 · Cyber City IT office · Ankita, Mr. Bhalla (58), Sandeep Khurana (38); Aishwarya at the exit cliff</p>
+      <p className="muted">Beats 1–3 are in Reading: Beat 1 approved, Beat 2 author-verbatim, Beat 3 confrontation cleaned per author. The former 15:00–15:20 personal presentation is parked for future only.</p>
+      <button type="button" className="button primary" onClick={()=>openPage('reading',{episode:'03',character:'ankita',scene:'03'})}>Read Scene 03 · Beats 1–3 →</button>
       <figure className="ankita-scene03-image" style={{margin:'1rem 0'}}>
        <img src={assetUrl('assets/ankita-ep03-scene03-private-briefing.webp')} alt="Ankita presenting the successful New Year production release in a cream embroidered kurti and beige blazer to Mr. Bhalla and Sandeep" loading="lazy" style={{width:'min(100%, 440px)',height:'auto',borderRadius:'12px',display:'block'}}/>
        <figcaption className="muted">Scene 03 generated visual reference · office presentation · illustration, not a face-canon photograph.</figcaption>
       </figure>
       {ankitaScene03&&<><div className="beat-list">{ankitaScene03.beats.map(q=><div className="beat-item" key={q.id}><span className="eyebrow">{q.time}</span><h3>{q.name}</h3><p>{q.plot}</p>{q.suggestedCliffDialogue&&<p><strong>Cliff:</strong> {q.suggestedCliffDialogue}</p>}</div>)}</div>
-      <details className="episode-outline"><summary>Author instruction validation · 5 of 5 beats</summary><div className="beat-list">{ankitaScene03.validation.map(v=><div className="beat-item" key={v.beat}><p><strong>{v.beat} · {v.status}:</strong> {v.requirement}</p></div>)}</div></details>
+      <details className="episode-outline"><summary>Author instruction validation · 4 active plot beats</summary><div className="beat-list">{ankitaScene03.validation.map(v=><div className="beat-item" key={v.beat}><p><strong>{v.beat} · {v.status}:</strong> {v.requirement}</p></div>)}</div></details>
       <p className="muted">{ankitaScene03.status.replace(/_/g,' ')} · {ankitaScene03.proseStatus.replace(/_/g,' ')}. Next: {ankitaScene03.nextSceneSeed}</p></>}
       {ankitaScene03Error&&<p role="alert">Ankita Scene 03 plot source unavailable: {ankitaScene03Error}</p>}
     </article>
 
+    <article className="episode-plan-card" id="ankita-future-personal-presentation">
+      <span className="eyebrow">Ankita · Future setup only · Not in Episode 03</span>
+      <h2>Parked idea: Ankita’s personal presentation</h2>
+      <p>The original twenty-minute self-presentation concept was removed from 1 January’s briefing. It is preserved as a possible future storyline, <strong>not</strong> an event that occurred and not an approved scene.</p>
+      {ankitaFuturePresentation&&<><p><strong>Future premise:</strong> {ankitaFuturePresentation.planning.idea}</p><p className="muted">Unscheduled · No date or episode assigned · Dialogue and prose to be decided later.</p>
+      <details className="episode-outline"><summary>Original author concept — preserved for future review</summary><p>{ankitaFuturePresentation.originalAuthorPromptVerbatim}</p><p><strong>Former plot:</strong> {ankitaFuturePresentation.originalPlotBeatVerbatim.plot}</p></details></>}
+      {ankitaFuturePresentationError&&<p role="alert">Future Ankita presentation seed not loaded: {ankitaFuturePresentationError}</p>}
+    </article>
     <article className="episode-plan-card" id="ankita-ep03-scene04-rohit"><span className="eyebrow">Ankita · EP03 · 1 Jan 2026 · Scene 04 · User-finalized INTRO only</span>
       <h2>{rohitIntro?.title||'Office Chotu — Rohit Babu Introduction'}</h2>
-      <p>After 15:30 · Cyber City IT office · Ankita and Rohit (22)</p>
+      <p>After 15:10 (proposed) · Cyber City IT office · Ankita and Rohit (22)</p>
       {rohitIntro&&<><p><strong>Outfit continuity:</strong> {rohitIntro.costumeContinuity?.scene04Entry}</p>
       <div className="beat-list">{rohitIntro.beats.map(q=><div className="beat-item" key={q.id}><h3>{q.name}</h3><p>{q.plot}</p>{q.dialogue?.map((d,i)=><p key={i}><strong>{d.speaker}:</strong> {d.line}</p>)}</div>)}</div>
       <p className="muted">INTRO only — no accidental glance or deliberate first show on Jan 1. {rohitIntro.status.replace(/_/g,' ')}</p></>}
