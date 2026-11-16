@@ -171,8 +171,11 @@ try {
  await page.locator('#society-wives-author-narrator-instructions summary').click();
  check(await page.locator('.perspective-tabs button').count()===5,'Planning shows five lead selectors');
  await page.locator('.perspective-tabs button', {hasText:'Shreya'}).click();
- await page.locator('.continuity-cards').waitFor({state:'detached'});
- check(await page.locator('.continuity-cards').count()===0,'Shreya planning view does not show unrelated Meenakshi episode cards');
+ await page.locator('#shreya-ep03-jan01-timeline').waitFor();
+ check((await page.locator('#shreya-ep03-jan01-timeline').innerText()).includes('1 January 2026'),'Shreya Episode03 shows January 1 date');
+ check((await page.locator('#shreya-ep03-jan01-timeline').innerText()).includes('Police-station Chotu'),'Police station chai wala role shown');
+ check((await page.locator('#shreya-ep03-jan01-timeline').innerText()).includes('Society Chintu'),'Society Chintu kept distinct');
+ check(await page.locator('#meenakshi-ep03-prose-moved').count()===0,'Shreya Planning excludes unrelated Meenakshi episode cards');
  await page.locator('.perspective-tabs button', {hasText:'Ankita'}).click();
  await page.locator('#ankita-ep03-a11').waitFor();
  check((await page.locator('#ankita-ep03-a11').innerText()).includes('Read Scene 01'),'Ankita Scene01 routed to prose');
