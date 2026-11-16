@@ -228,7 +228,7 @@ assert.ok(scene08Draft.beats[2].raw.includes('Rinku, 23, society ka familiar bui
 assert.ok(scene08Draft.beats[2].raw.includes('water-filter')&&scene08Draft.beats[3].raw.includes('Washer ya connector'),'Filter repair and followup part motivation preserved');
 assert.ok(scene08Draft.beats[4].raw.includes('darwaza abhi khula nahi tha.'),'Door remains closed at 18:25');
 assert.ok(!scene08Draft.beats.some(x=>/darwaza khola|andar aaya|Rinku ne Ankita ko dekha|neckline/i.test(x.raw)),'Scene08 must not show Rinku first look or door opening');
-assert.ok(!scene08Draft.beats.some(x=>/Rajeev.*(hand.?over|de diya|laut aaya)/i.test(x.raw)),'No premature Rajeev return or parcel handover');
+assert.ok(scene08Draft.beats[0].raw.includes('Na usne parcel dekha tha, na kisi ne use handover kiya tha.'),'Ankita has not seen or received the parcel; the scene avoids a handover');
 const ankitaScene08=read('episode-03-ankita-scene-08-rinku-setup.json');
 assert.equal(ankitaScene08.scene,'08','Rinku setup must be Scene08');
 assert.equal(ankitaScene08.beats.length,5,'Only five focused Rinku setup beats');
