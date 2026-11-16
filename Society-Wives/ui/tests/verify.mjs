@@ -364,7 +364,7 @@ assert.equal(taniyaEp03Solo.beats.at(-1).id,'T03-12','Soniya may only enter the 
 assert.ok(taniyaEp03Solo.beats.slice(0,-1).every(x=>!x.cast.some(c=>/Soniya/i.test(c))&&!x.dialogue.some(d=>/Soniya/i.test(d.speaker))),'Soniya must be absent from all prior Taniya beats');
 assert.equal(taniyaEp03Solo.beats.filter(x=>x.cast.some(y=>/^Soniya/i.test(y))).length,1,'Soniya appears only at home arrival');
 assert.ok(taniyaEp03Solo.beats.find(x=>x.id==='T03-09').time==='16:42–16:51','Actual twins appear in available time slot');
-assert.ok(taniyaEp03Solo.figureMapping.some(x=>x.group.startsWith('Office twin-like')&&x.why.includes('NOT actual')),'Raghav Chirag must not be falsely classified as twins');
+assert.ok(taniyaEp03Solo.figureMapping.some(x=>x.group.startsWith('Office twin-like')&&x.why.includes('no invented blood relationship')),'Raghav Chirag must not be falsely classified as twins');
 assert.ok(taniyaEp03Solo.figureMapping.some(x=>x.group==='Society Chotu-type'&&x.members[0].startsWith('Guddu')),'Guddu society-helper role must be preserved');
 assert.ok(taniyaEp03Solo.status.includes('NOT_APPROVED_PROSE'),'New Taniya plan cannot be auto-approved');
 const shreyaEpisode03Proposal=read('episode-03-shreya-jan01-proposed-timeline.json');
