@@ -2293,19 +2293,20 @@
       "mentions": [],
       "episode": "03",
       "scene": "01",
-      "kind": "planned",
-      "state": "review",
-      "status": "Author-directed plot only",
+      "kind": "source-scene",
+      "state": "source-review",
+      "status": "AUTHOR_COMPLETED_SOURCE_WITH_ASSISTANT_DIALOGUE",
       "source": "episode-03-ankita-a11-scene-01-opening.json",
       "reader": {
-        "type": "sw-plan",
+        "type": "sw-episode03",
         "character": "ankita",
         "scene": "01"
       },
       "flags": [
         "Time proposed, not exact-locked"
       ],
-      "detail": ""
+      "detail": "",
+      "sourceEvidence": "Original prose present in Episode 03 unified reader; source approval shown per scene."
     },
     {
       "id": "e02-shivani-C04",
@@ -2426,17 +2427,18 @@
       "mentions": [],
       "episode": "03",
       "scene": "02",
-      "kind": "planned",
-      "state": "plot-locked",
-      "status": "User-finalized plot · no prose",
+      "kind": "source-scene",
+      "state": "source-review",
+      "status": "AUTHOR_VERBATIM_PRESERVED_ADD_ONLY_DRAFT_PENDING_APPROVAL",
       "source": "episode-03-ankita-scene-02.json",
       "reader": {
-        "type": "sw-plan",
+        "type": "sw-episode03",
         "character": "ankita",
         "scene": "02"
       },
       "flags": [],
-      "detail": ""
+      "detail": "",
+      "sourceEvidence": "Original prose present in Episode 03 unified reader; source approval shown per scene."
     },
     {
       "id": "e02-shivani-D01",
@@ -2524,12 +2526,12 @@
       "mentions": [],
       "episode": "03",
       "scene": "01",
-      "kind": "published-prose",
+      "kind": "source-scene",
       "state": "approved-prose",
-      "status": "Author-approved · Published prose",
+      "status": "USER_APPROVED_PUBLISHED_PROSE",
       "source": "episode-03-meenakshi-scene-01.json",
       "reader": {
-        "type": "sw-plan",
+        "type": "sw-episode03",
         "character": "meenakshi",
         "scene": "01"
       },
@@ -2648,7 +2650,8 @@
           "body": "Scene cut. अगला episode इसी moment से continue होगा; यहाँ कोई goodbye या अतिरिक्त reaction नहीं है।",
           "internal": ""
         }
-      ]
+      ],
+      "sourceEvidence": "Original prose present in Episode 03 unified reader; source approval shown per scene."
     },
     {
       "id": "e04-meenakshi-naveen-handoff",
@@ -2767,12 +2770,12 @@
       "mentions": [],
       "episode": "03",
       "scene": "06",
-      "kind": "planned",
-      "state": "prose-review",
-      "status": "Author-directed prose draft · approval pending",
+      "kind": "source-scene",
+      "state": "source-review",
+      "status": "AUTHOR_DIRECTED_FULL_PROSE_DRAFT_PENDING_APPROVAL",
       "source": "episode-03-ankita-scene-06-dance-draft.json",
       "reader": {
-        "type": "sw-plan",
+        "type": "sw-episode03",
         "character": "ankita",
         "scene": "06"
       },
@@ -2781,7 +2784,8 @@
         "No return drive or guest arrivals in this scene",
         "Exact minute markers provisional"
       ],
-      "detail": "Initial couple turns; women centered one at a time between Vivan and Reyansh; reversed turns with Reyansh/Vivan centered between women; witty double meanings and mutual reactions. Stops at 17:20."
+      "detail": "Initial couple turns; women centered one at a time between Vivan and Reyansh; reversed turns with Reyansh/Vivan centered between women; witty double meanings and mutual reactions. Stops at 17:20.",
+      "sourceEvidence": "Original prose present in Episode 03 unified reader; source approval shown per scene."
     },
     {
       "id": "e03-meenakshi-02",
@@ -2800,12 +2804,12 @@
       "mentions": [],
       "episode": "03",
       "scene": "02",
-      "kind": "planned",
-      "state": "plot",
-      "status": "Scene 02 closes after F19; F18–F19 author-approved; F20–F22 discarded",
+      "kind": "source-scene",
+      "state": "source-review",
+      "status": "MIXED_APPROVAL_COMPLETE_SOURCE_TEXT",
       "source": "episode-03-meenakshi-scene-02.json",
       "reader": {
-        "type": "sw-plan",
+        "type": "sw-episode03",
         "character": "meenakshi",
         "scene": "02"
       },
@@ -2948,7 +2952,8 @@
           "body": "Yash's surprising touch, Meenakshi's reaction, men's departure; she continues drive",
           "internal": ""
         }
-      ]
+      ],
+      "sourceEvidence": "Original prose present in Episode 03 unified reader; source approval shown per scene."
     },
     {
       "id": "ep03-ankita-scene07",
@@ -3054,12 +3059,12 @@
       "mentions": [],
       "episode": "03",
       "scene": "03",
-      "kind": "planned",
-      "state": "review",
-      "status": "Timing/scene under review",
+      "kind": "source-scene",
+      "state": "source-review",
+      "status": "AUTHOR_SOURCE_BEATS_UNDER_REVIEW",
       "source": "episode-03-meenakshi-scene-03-twins.json",
       "reader": {
-        "type": "sw-plan",
+        "type": "sw-episode03",
         "character": "meenakshi",
         "scene": "03"
       },
@@ -3111,7 +3116,8 @@
           "body": "Uday mock-complains that Meenakshi gave Utkarsh the longer chance to teach. Utkarsh offers a calm, witty response. Meenakshi deliberately keeps the rivalry playful, instead of explaining her feelings.",
           "internal": "The brothers' private motives are distinct: Uday jealous of attention, Utkarsh pleased by her invitation; Meenakshi understands the banter has a personal undercurrent."
         }
-      ]
+      ],
+      "sourceEvidence": "Original prose present in Episode 03 unified reader; source approval shown per scene."
     },
     {
       "id": "e03-meenakshi-04",
@@ -3130,12 +3136,12 @@
       "mentions": [],
       "episode": "03",
       "scene": "04",
-      "kind": "planned",
-      "state": "approved-plot",
-      "status": "Approved plot · prose pending",
+      "kind": "source-scene",
+      "state": "source-review",
+      "status": "FULL_PROSE_DRAFT_PENDING_AUTHOR_APPROVAL",
       "source": "episode-03-meenakshi-scene-04-babloo-intro.json",
       "reader": {
-        "type": "sw-plan",
+        "type": "sw-episode03",
         "character": "meenakshi",
         "scene": "04"
       },
@@ -3180,7 +3186,8 @@
           "body": "Meenakshi agrees to Babloo's help with her car the following day. They part by the lift. She recalls his unusual confidence as she walks away, and Babloo remembers her positive response to his compliment.",
           "internal": "EP03 Meenakshi viewpoint ends here; Episode 04 car-recovery scene is a potential next encounter, not already written."
         }
-      ]
+      ],
+      "sourceEvidence": "Original prose present in Episode 03 unified reader; source approval shown per scene."
     },
     {
       "id": "jan01-meenakshi-harish-sunil-night-future",
