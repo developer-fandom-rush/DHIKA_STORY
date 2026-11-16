@@ -13,7 +13,7 @@
   "dayScope": {
     "start": "10:15",
     "end": "18:00",
-    "certainty": "12 active planning entries; B1 is a one-line transition; B3 author-approved working plot unchanged; B4 DCP fantasy execution proposed; SR12 is parked for future planning and no longer has a Jan1 timeslot."
+    "certainty": "14 numbered review slots; 12 dated active/proposed records; B1 merged as one line, B5 held separately. B7–B9 offsite sequence optional/unreviewed; B3/B6/B10 plot-approved."
   },
   "userLocks": [
     "Author explicitly approved all nine existing SR source prose scenes in Episode 02. SR03 author-approved plot has no published full prose; do not fabricate it.",
@@ -346,11 +346,12 @@
     "sequence": "Two separate 'Chotu' characters: station tea vendor introduced in the police canteen, society Chintu encountered later. No reused Dhika incidents.",
     "beatsAlreadyOnFile": [
       "SR10",
+      "S03-01",
       "SR11",
-      "SR12",
-      "SR13"
+      "SR13",
+      "S03-05"
     ],
-    "approvalRule": "None of the NEW plot beats becomes published prose or canon merely by being placed in this planning file. Existing EP03 SR10–13 are earlier stored working concepts retimed by the author.",
+    "approvalRule": "Only explicitly approved plot beats B3, B6 and B10 are locked at plot level; B2 user-directed revisions are in draft, B4 fantasy logic is proposed, B5 inmates are parked, and B7–B9 remain optional unreviewed. Nothing is newly published as prose.",
     "possibleAdjustment": "The off-site college/academy event remains optional; if it is removed, do not move every other plot beat earlier automatically. Check other leads' shared clock first.",
     "destination": "Society Wives → Planning → Shreya",
     "sourceIntegrity": "All Episode 02 prose is untouched. SR03 remains approved plot only, with full prose missing."
@@ -408,5 +409,106 @@
     "shreyaGuidedGroupCount": 4,
     "notes": "Meera is the third police trainee alongside Rohas and Lokesh. Kavita participates as Shreya's trainee in mentoring/training while retaining her formal Constable designation; she is not reclassified as a formal police trainee. Female-staff Vivek training program continues to include Kavita, Meera, Poonam and Anjali, with Shreya as lead.",
     "authorDirectedDate": "2026-11-16"
-  }
+  },
+  "reviewBeatSequence": [
+    {
+      "number": 1,
+      "id": "S03-00",
+      "kind": "merged",
+      "title": "One-line transition · B1 merged into B2",
+      "label": "Approved merge"
+    },
+    {
+      "number": 2,
+      "id": "SR10",
+      "kind": "active",
+      "title": "ACP Verma & Poonam · training test",
+      "label": "User revised · prose pending"
+    },
+    {
+      "number": 3,
+      "id": "S03-01",
+      "kind": "active",
+      "title": "Station Chotu · Strong-Chai Moment",
+      "label": "Approved plot · unchanged"
+    },
+    {
+      "number": 4,
+      "id": "SR11",
+      "kind": "active",
+      "title": "DCP Rathod · private fantasy",
+      "label": "Logic proposed · review pending"
+    },
+    {
+      "number": 5,
+      "id": "SR12",
+      "kind": "held",
+      "title": "The Cellblock Bet · three inmates",
+      "label": "ON HOLD · future encounter"
+    },
+    {
+      "number": 6,
+      "id": "SR13",
+      "kind": "active",
+      "title": "Poonam's pattern · small exchange",
+      "label": "Approved · short exchange"
+    },
+    {
+      "number": 7,
+      "id": "S03-02",
+      "kind": "optional",
+      "title": "Lunch & offsite transfer",
+      "label": "Unreviewed optional transition"
+    },
+    {
+      "number": 8,
+      "id": "S03-03",
+      "kind": "optional",
+      "title": "Guest-officer demonstration",
+      "label": "Unreviewed optional scene"
+    },
+    {
+      "number": 9,
+      "id": "S03-04",
+      "kind": "optional",
+      "title": "Return from training college",
+      "label": "Unreviewed optional transition"
+    },
+    {
+      "number": 10,
+      "id": "S03-05",
+      "kind": "active",
+      "title": "Five-person Training Ground Challenge",
+      "label": "Approved plot · prose pending"
+    },
+    {
+      "number": 11,
+      "id": "S03-06",
+      "kind": "bridge",
+      "title": "Police closeout & society return",
+      "label": "One-line transition · proposed"
+    },
+    {
+      "number": 12,
+      "id": "S03-07",
+      "kind": "active",
+      "title": "Samar & Shaan · pending bets",
+      "label": "Proposal · approval pending"
+    },
+    {
+      "number": 13,
+      "id": "S03-08",
+      "kind": "active",
+      "title": "Chintu · visitor register",
+      "label": "Proposal · not discussed"
+    },
+    {
+      "number": 14,
+      "id": "S03-09",
+      "kind": "active",
+      "title": "Home & family",
+      "label": "Proposal · not discussed"
+    }
+  ],
+  "reviewSequencePolicy": "Numbering is the original 14-slot discussion index, NOT a count of 14 active scenes. B1 is one line merged into B2; B5 inmates are ON HOLD and have no Jan1 time; B7–B9 college thread remains unreviewed/optional, not approved; B10 is the approved five-person training-ground encounter. Source episode 02 prose stays untouched."
 }
