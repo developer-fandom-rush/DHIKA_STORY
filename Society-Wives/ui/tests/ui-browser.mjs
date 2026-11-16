@@ -204,6 +204,10 @@ try {
  check((await page.locator('#taniya-ep03-T03-11 > summary').innerText()).includes('Subhash'),'Older household associate has society beat');
  check((await page.locator('#taniya-ep03-T03-12 > summary').innerText()).includes('Soniya'),'Soniya first appears in final home beat');
  check((await page.locator('#taniya-ep03-timeline').innerText()).includes('UNAPPROVED WORKING PLOT'),'Taniya plan remains author-review only');
+ check((await page.locator('#taniya-ep03-timeline').innerText()).includes('Office closing time and return-home time are NOT established'),'UI warns no verified office closing hours');
+ check((await page.locator('#taniya-ep03-T03-09 > summary').innerText()).includes('UNSCHEDULED'),'Twins crossover must be unscheduled instead of a made-up 16:42 meeting');
+ check((await page.locator('#taniya-ep03-T03-12 > summary').innerText()).includes('TIME UNCONFIRMED'),'Soniya home entry cannot be clock-locked without office exit');
+
 
  await page.locator('.perspective-tabs button', {hasText:'Shreya'}).click();
  await page.locator('#shreya-ep03-jan01-timeline').waitFor();
