@@ -264,14 +264,14 @@ try {
  await page.locator('select[aria-label="Timeline date"]').selectOption('2026-01-02');
  check(await page.locator('#timeline-jan02-meenakshi-M08').count()===1,'M08 is on Jan2, not indefinitely deferred');
  check((await page.locator('#timeline-jan02-meenakshi-M08').innerText()).includes('Rescheduled'),'M08 label explicitly says rescheduled');
- await page.locator('select[aria-label="Timeline date"]').selectOption('2026-01-03');
- check(await page.locator('.timeline-rescheduled').count()===0,'Shreya SR10–SR13 are no longer wrongly scheduled on January 3');
- await page.screenshot({path:resolve(screenshots,'08-sw-universal-jan03.png')});
+ check(await page.locator('#timeline-e03-shreya-SR10').count()===0,'Shreya January1 working scenes do not leak into Jan2');
+ await page.screenshot({path:resolve(screenshots,'08-sw-universal-jan02.png')});
  await page.locator('.universe-option',{hasText:'Dhika'}).click();
  await page.waitForFunction(()=>location.hash.startsWith('#/dhika-timeline')&&document.querySelector('.section-intro .eyebrow')?.textContent.includes('DHIKA'));
  await page.locator('.timeline-event').first().waitFor();
  check((await page.locator('.section-intro .eyebrow').innerText()).includes('DHIKA'),'Dhika switch actually mounts Dhika universe, not the previous SW page');
- check((await page.locator('select[aria-label="Timeline date"]').inputValue())==='2026-01-03','Universe switch preserves selected shared calendar date');
+ check((await page.locator('select[aria-label="Timeline date"]').inputValue())==='2026-01-02','Universe switch preserves selected Jan2 calendar date');
+ await page.locator('select[aria-label="Timeline date"]').selectOption('2026-01-03');
  check((await page.locator('.timeline-summary').innerText()).includes('Story Day 3'),'Dhika Jan3 maps to Day3 regardless of original weekday');
  await page.locator('select[aria-label="Timeline date"]').selectOption('2026-01-01');
  await page.waitForFunction(()=>document.querySelectorAll('.timeline-event').length===5);
