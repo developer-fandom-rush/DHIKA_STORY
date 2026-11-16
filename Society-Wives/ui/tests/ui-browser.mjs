@@ -187,7 +187,7 @@ try {
 
  await page.locator('#ankita-ep03-scene04-rohit .beat-item').first().waitFor();
  check(await page.locator('#ankita-ep03-scene04-rohit .beat-item').count()===7,'Jan 1 Rohit introduction shows exactly seven setup beats');
- check((await page.locator('#ankita-ep03-scene04-rohit').innerText()).includes('closing the same two kurti buttons'),'Jan 1 Rohit intro restores closed buttons');
+ check((await page.locator('#ankita-ep03-scene04-rohit').innerText()).includes('closes the same two kurti buttons'),'Jan 1 Rohit intro restores closed buttons');
  check(!(await page.locator('.planning-panel').innerText()).includes('Original seven scenes preserved verbatim'),'Discarded Ankita followup archive not rendered as active plot');
  await page.locator('#ankita-ep04-rohit-first-show .beat-item').last().waitFor();
  check(await page.locator('#ankita-ep04-rohit-first-show .beat-item').count()===15,'Jan 2 first show retains 15 distinct plot beats');
