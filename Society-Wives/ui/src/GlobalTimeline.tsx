@@ -18,6 +18,7 @@ const routeTo=(event:Event)=>{
  const r=event.reader;
  if(r.type==='dhika')return openPage('dhika-reader',{episode:String(r.episode||1),paragraph:r.paragraph});
  if(r.type==='sw-episode02')return openPage('reading',{character:r.character,scene:r.scene});
+ if(r.type==='sw-episode03')return openPage('reading',{episode:'03',character:r.character,scene:r.scene});
  if(r.type==='sw-prologue')return openPage('home',{scene:r.scene});
  return openPage('planning',{lead:r.character||'meenakshi',scene:r.scene});
 };
