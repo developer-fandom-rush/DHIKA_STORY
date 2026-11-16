@@ -155,6 +155,7 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
       <p>Approx. 16:40–17:20 · Private dance floor, after Scene 05 arrival · Only Ankita, Sana, Aishwarya, Vivan and Reyansh with venue service staff in the background.</p>
       {ankitaScene06&&<>
         <p className="muted">Working prose for author review; not canon-approved or final published episode. {ankitaScene06.setting.otherPeople}</p>
+        <p className="muted">Author's revised B1, B2-A, B2-B, B3, B4, B5 and B7 are staged separately in Reading without rewriting. B2 selection, B6 and transition fixes remain pending. The earlier draft is retained.</p>
         <button type="button" className="button primary" onClick={()=>openPage('reading',{episode:'03',character:'ankita',scene:'06'})}>Read Scene 06 complete prose →</button>
         <details className="episode-outline"><summary>Dance choreography · {ankitaScene06.choreography.length} ordered movements</summary><div className="beat-list">{ankitaScene06.choreography.map(q=><div className="beat-item" key={q.id}><h3>{q.formation}</h3><p><strong>Participants:</strong> {q.participants}</p><p><strong>Movement:</strong> {q.contact}</p><p><strong>Reaction:</strong> {q.reaction}</p></div>)}</div></details>
         <p className="muted"><strong>Cut:</strong> 17:20 after dance. Exit, Ankita home drop and the remaining four's next party belong to Scene 07 and are not written here. {ankitaScene06.status.replace(/_/g,' ')}.</p>
