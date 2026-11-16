@@ -14,6 +14,7 @@ type ShivaniSceneReference={schemaVersion:number;id:string;title:string;status:s
 type ShivaniNewBeat={id:string;time:string;title:string;cast:string[];plot:string;dialogue?:{speaker:string;line:string}[];reaction?:string;narratorDirection?:string;knowledge?:{readerOnly:boolean;shivaniAware:boolean;actualContact:boolean}};
 type ShivaniSocietyReturn={title:string;status:string;proseStatus:string;date:string;time:{start:string;end:string};priorFoundation:string[];beats:ShivaniNewBeat[];restrictions:string[]};
 type ShivaniNightPlan={title:string;status:string;proseStatus:string;date:string;episodePlacement:string;time:{firstHomeBeat:string;nightEncounter:string};beats:ShivaniNewBeat[];continuityLocks:string[];relationshipSetup:{shivaniOm:{established:string;proposedNewCharacterAngle:string;fantasyPresentation:string;tone:string};deepuShivani:{established:string;proposedTonight:string};deepuKavya:{new:string;agency:string};twinsKavya:{new:string;distinctVoices:string}};futureArc:Record<string,string>};
+type ShreyaEpisode03Proposal={title:string;status:string;date:string;weekday:string;dayScope:{start:string;end:string;certainty:string};anchor:string;userLocks:string[];timeline:{id:string;time:string;type:string;status:string;title:string;place:string;characters:string[];history:string;distinctEvent:string;reaction:string;dialogue?:string[][];exit:string}[];editorial:{approvalRule:string;sequence:string;sourceIntegrity:string}};
 type ShivaniStaffroomPlot={scene:string;status:string;date:string;start:string;end:string;location:string;purpose:string;wardrobeStatus:string;wardrobe:{name:string;age:number;role:string;outfit:string;narratorView:string;referenceColor:string}[];imageReference:{origin:string;status:string;use:string};beats:{id:string;time:string;title:string;focus:string;action:string;narrator?:string;dialogue?:{speaker:string;line:string}[];seed?:string;note?:string}[];plotLocks:string[];};
 type ShivaniCastLock={title:string;status:string;officeTwinsStudentCore:{id:string;name:string;age:number}[];officeChotu:{name:string;age:number;role:string};societyChotu:{name:string;age:number;role:string};juniorFacultyExcluded:{name:string;age:number}[];futureOnly:{name:string;age:number;note:string};biologicalTwinsNote:string;episode02End:string;nextWork:string;prologueBaselineReference?:{source:string;sourceScene:string;status:string;establishedPreviously:string[];episode03Difference:string}};
 type RohitFirstShow={title:string;status:string;date:string;wardrobe:{jan02:string;accidental:string;deliberate:string};encounters:{id:string;title:string;phase:string;beats:{id:string;name:string;plot:string}[]}[];validation:{jan1IntroductionOnly:boolean;jan1UpperButtonsClosed:boolean;jan2AccidentFirst:boolean;jan2DeliberateFirstShowLaterSameDay:boolean;exactJan2Clock:string;jan2Wardrobe:string};};
@@ -45,6 +46,7 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
  const {data:shivaniSocietyReturn,error:shivaniSocietyReturnError}=useData<ShivaniSocietyReturn>('episode-03-shivani-scene-03-society-return-plot.json');
  const {data:shivaniNightPlan,error:shivaniNightPlanError}=useData<ShivaniNightPlan>('shivani-jan01-night-next-episode-chotu-kavya-twins-om-plot.json');
  const {data:shreyaFuture}=useData<Plan>('episode-03-shreya-plan.json');
+ const {data:shreyaEpisode03Proposal,error:shreyaEpisode03ProposalError}=useData<ShreyaEpisode03Proposal>('episode-03-shreya-jan01-proposed-timeline.json');
  useEffect(()=>{
   if(!initialScene)return;
   if((active==='ankita'&&['01','02','06'].includes(initialScene))||(active==='meenakshi'&&['01','02','03','04'].includes(initialScene))){openPage('reading',{episode:'03',character:active,scene:initialScene});return;}
@@ -52,6 +54,7 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
    ?(initialScene==='01'?'ankita-ep03-a11':initialScene==='02'?'ankita-ep03-scene02':initialScene==='03'?'ankita-ep03-scene03':initialScene==='04'?'ankita-ep03-scene04-rohit':initialScene==='05'?'ankita-ep03-scene05':initialScene==='06'?'ankita-ep03-scene06':initialScene==='07'?'ankita-ep03-scene07':initialScene==='08'?'ankita-ep03-scene08':initialScene==='rohit-first-show'?'ankita-ep04-rohit-first-show':'')
    :active==='shivani'
    ?(initialScene==='cast'?'shivani-ep03-cast-lock':initialScene==='staffroom'?'shivani-ep03-staffroom-scene':initialScene==='reference'?'shivani-ep03-scene02-master-reference':initialScene==='03'?'shivani-ep03-scene03-society-return':initialScene==='night'?'shivani-jan01-night-next-episode':'')
+   :active==='shreya'?(initialScene==='timeline'?'shreya-ep03-jan01-timeline':'')
    :active==='meenakshi'
    ?(initialScene==='01'?'ep03-meenakshi-scene-01':initialScene==='handoff'?'ep04-meenakshi-handoff':'ep03-meenakshi-scene-'+initialScene)
    :'';
@@ -221,6 +224,33 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
       </>:<p role="alert">Shivani cast lock not loaded: {shivaniCastLockError||'Loading…'}</p>}
     </article>
    </section>}
+   {active==='shreya'&&<section className="continuity-cards" id="shreya-ep03-jan01-timeline">
+     <article className="episode-plan-card">
+       <span className="eyebrow">Shreya · Episode 03 · Thursday 1 January 2026 · working plot, not prose</span>
+       <h2>Episode 03 — Source-Aware Timeline, Twins &amp; Two Chotu Roles</h2>
+       <p><strong>IMPORTANT — READ BEFORE WRITING:</strong> All NINE existing Episode 02 SR prose scenes are author-approved as of 16 November 2026. SR03 is an approved plot without published full prose. Read the exact Episode 02 source and the current January 1 Episode 03 working plan before expanding. Do not replace approved passages or mistake the original January 3 archive for the active timeline.</p>
+       <p className="source-note"><strong>Two distinct helpers:</strong> Police-station Chotu is a newly proposed adult chai wala at the station canteen (age and personal name not final). Society Chintu (23) is the security/operations helper already familiar to Shreya from the Episode 01 visitor log; he was specifically reserved for Episode 03.</p>
+       <p className="source-note"><strong>Pairs are distinct:</strong> Society sports partners Samar–Shaan (24) have an established workout history and pending bets. Station trainees Rohas–Lokesh (24) have existing professional teasing but are not biological brothers. Karan–Aman are a different pair with their own concurrent Ankita commitments.</p>
+       {shreyaEpisode03Proposal?<>
+         <p><strong>Working clock:</strong> {shreyaEpisode03Proposal.dayScope.start}–{shreyaEpisode03Proposal.dayScope.end} · <strong>Anchor:</strong> {shreyaEpisode03Proposal.anchor}</p>
+         <p className="muted">All SR10–SR13 notes are existing plot concepts retimed to January 1; new chai vendor, twins, Chintu and training-college beats are proposals for author review only. No Episode 03 prose has been approved here.</p>
+         <div className="beat-list">{shreyaEpisode03Proposal.timeline.map(b=><details className="episode-outline" key={b.id} id={'shreya-ep03-'+b.id}>
+           <summary><strong>{b.time} · {b.id} · {b.title}</strong> — {b.type==='existing'?'Pre-existing working beat':b.type==='new'?'New plot proposal':'Continuity bridge'}</summary>
+           <p><strong>Location:</strong> {b.place} · <strong>Cast:</strong> {b.characters.join(', ')}</p>
+           <p><strong>Background:</strong> {b.history}</p>
+           <p><strong>Distinct incident:</strong> {b.distinctEvent}</p>
+           <p><strong>Immediate reaction:</strong> {b.reaction}</p>
+           {b.dialogue?.map((line,i)=><p className="dialogue" key={i}><strong>{line[0]}:</strong> {line[1]}</p>)}
+           <p><strong>Cut:</strong> {b.exit}</p>
+         </details>)}</div>
+         <details className="episode-outline"><summary>Source locks and writing guide</summary>
+           <div className="beat-list">{shreyaEpisode03Proposal.userLocks.map((lock,i)=><div className="beat-item" key={i}><p>{lock}</p></div>)}</div>
+           <p>{shreyaEpisode03Proposal.editorial.sequence}</p>
+         </details>
+         <p className="muted">{shreyaEpisode03Proposal.editorial.approvalRule}</p>
+       </>:<p role="status">{shreyaEpisode03ProposalError||'Loading the saved Shreya Episode 03 proposal…'}</p>}
+     </article>
+   </section>}
    {active==='shivani'&&<section className="continuity-cards" id="shivani-ep03-scene03-society-return">
     <article className="episode-plan-card">
       <span className="eyebrow">Shivani · Episode 03 · Scene 03 · Jan 1, 2026 · 5:20–5:57 PM · plot only</span>
@@ -319,7 +349,7 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
    {active==='taniya'&&<p className="source-note">Soniya's independent scenes belong to Taniya's continuity lane. Their existing joint plan is preserved; those scenes have not been promoted to finished prose.</p>}
    {active==='shivani'&&<p className="source-note">Shivani's Episode 03 group labels follow “Twins (people having same image)” — a visual/story shorthand, never an automatic biological relationship. College four: Harsh, Laksh, Nandini, Ritika. Proposed society duo: Ayaan, Armaan. Karan and Aman are occupied by Ankita's 5:20–5:50 PM scene. Separate Office/Society Chotu roles and junior teachers remain unchanged. The staffroom master reference above remains the source for writing; no new home-return plot prose is approved.</p>}
    {activePlan?.plan&&<><p><strong>Original status:</strong> {str(activePlan.plan.status)||'REVIEW'}</p>{active==='meenakshi'&&<p><strong>Older separate outline — 2 January 2026.</strong> This is not part of 1 January's Scene 01–03 sequence. Senior Review M08 stays on Jan 2.</p>}
-    {active==='shreya'&&<p><strong>Date:</strong> 3 January 2026. These events were rescheduled here from 1 January. They remain writing-pending, not cancelled.</p>}
+    {active==='shreya'&&<p><strong>Date:</strong> Thursday, 1 January 2026 (author-corrected). Existing SR10–SR13 are same-day Episode 03 working beats after 10:15 AM; they are not published prose. The superseded 3 January file is archived as historical planning only.</p>}
     {active==='ankita'&&<p><strong>Date:</strong> Original draft date requires review; it has not been silently assigned to the Episode 03 canonical timeline.</p>}
     <details><summary>Full planning notes</summary><pre>{JSON.stringify(activePlan.plan,null,2)}</pre></details></>}
   </section>
