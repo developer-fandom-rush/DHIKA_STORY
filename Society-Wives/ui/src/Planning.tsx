@@ -14,7 +14,8 @@ type ShivaniSceneReference={schemaVersion:number;id:string;title:string;status:s
 type ShivaniNewBeat={id:string;time:string;title:string;cast:string[];plot:string;dialogue?:{speaker:string;line:string}[];reaction?:string;narratorDirection?:string;knowledge?:{readerOnly:boolean;shivaniAware:boolean;actualContact:boolean}};
 type ShivaniSocietyReturn={title:string;status:string;proseStatus:string;date:string;time:{start:string;end:string};priorFoundation:string[];beats:ShivaniNewBeat[];restrictions:string[]};
 type ShivaniNightPlan={title:string;status:string;proseStatus:string;date:string;episodePlacement:string;time:{firstHomeBeat:string;nightEncounter:string};beats:ShivaniNewBeat[];continuityLocks:string[];relationshipSetup:{shivaniOm:{established:string;proposedNewCharacterAngle:string;fantasyPresentation:string;tone:string};deepuShivani:{established:string;proposedTonight:string};deepuKavya:{new:string;agency:string};twinsKavya:{new:string;distinctVoices:string}};futureArc:Record<string,string>};
-type ShreyaEpisode03Proposal={title:string;status:string;date:string;weekday:string;dayScope:{start:string;end:string;certainty:string};anchor:string;userLocks:string[];timeline:{id:string;time:string;type:string;status:string;title:string;place:string;characters:string[];history:string;distinctEvent:string;reaction:string;dialogue?:string[][];exit:string}[];editorial:{approvalRule:string;sequence:string;sourceIntegrity:string}};
+type ShreyaBeat={id:string;time:string|null;type?:string;status:string;title:string;place:string|null;characters:string[];history:string;distinctEvent:string;reaction:string;dialogue?:string[][];exit:string;readerOnlyAfterbeat?:string;readerOnlyFantasy?:{trigger:string;fantasy:string;status?:string};wardrobeProposals?:Record<string,string>;styleLock?:string;futureArc?:{coreConflict:string;nonsexualStakes:string;trajectory:string};};
+type ShreyaEpisode03Proposal={title:string;status:string;date:string;weekday:string;dayScope:{start:string;end:string;certainty:string};anchor:string;userLocks:string[];timeline:ShreyaBeat[];parkedFutureEncounters:ShreyaBeat[];mergedTransitions:{from:string;into:string;time:string;text:string;status:string}[];reviewBeatSequence:{number:number;id:string;kind:string;title:string;label:string}[];reviewSequencePolicy:string;editorial:{approvalRule:string;sequence:string;sourceIntegrity:string}};
 type ShivaniStaffroomPlot={scene:string;status:string;date:string;start:string;end:string;location:string;purpose:string;wardrobeStatus:string;wardrobe:{name:string;age:number;role:string;outfit:string;narratorView:string;referenceColor:string}[];imageReference:{origin:string;status:string;use:string};beats:{id:string;time:string;title:string;focus:string;action:string;narrator?:string;dialogue?:{speaker:string;line:string}[];seed?:string;note?:string}[];plotLocks:string[];};
 type ShivaniCastLock={title:string;status:string;officeTwinsStudentCore:{id:string;name:string;age:number}[];officeChotu:{name:string;age:number;role:string};societyChotu:{name:string;age:number;role:string};juniorFacultyExcluded:{name:string;age:number}[];futureOnly:{name:string;age:number;note:string};biologicalTwinsNote:string;episode02End:string;nextWork:string;prologueBaselineReference?:{source:string;sourceScene:string;status:string;establishedPreviously:string[];episode03Difference:string}};
 type RohitFirstShow={title:string;status:string;date:string;wardrobe:{jan02:string;accidental:string;deliberate:string};encounters:{id:string;title:string;phase:string;beats:{id:string;name:string;plot:string}[]}[];validation:{jan1IntroductionOnly:boolean;jan1UpperButtonsClosed:boolean;jan2AccidentFirst:boolean;jan2DeliberateFirstShowLaterSameDay:boolean;exactJan2Clock:string;jan2Wardrobe:string};};
@@ -54,7 +55,7 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
    ?(initialScene==='01'?'ankita-ep03-a11':initialScene==='02'?'ankita-ep03-scene02':initialScene==='03'?'ankita-ep03-scene03':initialScene==='04'?'ankita-ep03-scene04-rohit':initialScene==='05'?'ankita-ep03-scene05':initialScene==='06'?'ankita-ep03-scene06':initialScene==='07'?'ankita-ep03-scene07':initialScene==='08'?'ankita-ep03-scene08':initialScene==='rohit-first-show'?'ankita-ep04-rohit-first-show':'')
    :active==='shivani'
    ?(initialScene==='cast'?'shivani-ep03-cast-lock':initialScene==='staffroom'?'shivani-ep03-staffroom-scene':initialScene==='reference'?'shivani-ep03-scene02-master-reference':initialScene==='03'?'shivani-ep03-scene03-society-return':initialScene==='night'?'shivani-jan01-night-next-episode':'')
-   :active==='shreya'?(initialScene==='timeline'?'shreya-ep03-jan01-timeline':'')
+   :active==='shreya'?(initialScene==='timeline'?'shreya-ep03-jan01-timeline':initialScene?'shreya-ep03-'+initialScene:'')
    :active==='meenakshi'
    ?(initialScene==='01'?'ep03-meenakshi-scene-01':initialScene==='handoff'?'ep04-meenakshi-handoff':'ep03-meenakshi-scene-'+initialScene)
    :'';
@@ -230,23 +231,43 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
    </section>}
    {active==='shreya'&&<section className="continuity-cards" id="shreya-ep03-jan01-timeline">
      <article className="episode-plan-card">
-       <span className="eyebrow">Shreya · Episode 03 · Thursday 1 January 2026 · working plot, not prose</span>
-       <h2>Episode 03 — Source-Aware Timeline, Twins &amp; Two Chotu Roles</h2>
-       <p><strong>IMPORTANT — READ BEFORE WRITING:</strong> All NINE existing Episode 02 SR prose scenes are author-approved as of 16 November 2026. SR03 is an approved plot without published full prose. Read the exact Episode 02 source and the current January 1 Episode 03 working plan before expanding. Do not replace approved passages or mistake the original January 3 archive for the active timeline.</p>
-       <p className="source-note"><strong>Two distinct helpers:</strong> Police-station Chotu is a newly proposed adult chai wala at the station canteen (age and personal name not final). Society Chintu (23) is the security/operations helper already familiar to Shreya from the Episode 01 visitor log; he was specifically reserved for Episode 03.</p>
-       <p className="source-note"><strong>Pairs are distinct:</strong> Society sports partners Samar–Shaan (24) have an established workout history and pending bets. Station trainees Rohas–Lokesh (24) have existing professional teasing but are not biological brothers. Karan–Aman are a different pair with their own concurrent Ankita commitments.</p>
+       <span className="eyebrow">Shreya · Episode 03 · Thursday 1 January 2026 · numbered beat review</span>
+       <h2>Shreya · Original 14-Beat Sequence (with holds &amp; approvals)</h2>
+       <p><strong>Source continuity:</strong> Episode 02 ends with SR09 at 10:15 AM. Previously approved Episode 02 prose remains untouched. Episode 03 below is planning, not finished prose.</p>
+       <p className="source-note"><strong>Different helpers:</strong> Police-station Chotu is the station chaiwala (exact full name and age provisional). Society Chintu (23) works security and was already familiar from the visitor log. The two are not the same person.</p>
+       <p className="source-note"><strong>Training roster:</strong> Three formal police trainees: Rohas (24), Lokesh (24), Meera (24); Kavita (23) is a Constable in Shreya's training group. Society twins Samar and Shaan (24) are not station trainees.</p>
        {shreyaEpisode03Proposal?<>
-         <p><strong>Working clock:</strong> {shreyaEpisode03Proposal.dayScope.start}–{shreyaEpisode03Proposal.dayScope.end} · <strong>Anchor:</strong> {shreyaEpisode03Proposal.anchor}</p>
-         <p className="muted">All SR10–SR13 notes are existing plot concepts retimed to January 1; new chai vendor, twins, Chintu and training-college beats are proposals for author review only. No Episode 03 prose has been approved here.</p>
-         <div className="beat-list">{shreyaEpisode03Proposal.timeline.map(b=><details className="episode-outline" key={b.id} id={'shreya-ep03-'+b.id}>
-           <summary><strong>{b.time} · {b.id} · {b.title}</strong> — {b.type==='existing'?'Pre-existing working beat':b.type==='new'?'New plot proposal':'Continuity bridge'}</summary>
-           <p><strong>Location:</strong> {b.place} · <strong>Cast:</strong> {b.characters.join(', ')}</p>
-           <p><strong>Background:</strong> {b.history}</p>
-           <p><strong>Distinct incident:</strong> {b.distinctEvent}</p>
-           <p><strong>Immediate reaction:</strong> {b.reaction}</p>
-           {b.dialogue?.map((line,i)=><p className="dialogue" key={i}><strong>{line[0]}:</strong> {line[1]}</p>)}
-           <p><strong>Cut:</strong> {b.exit}</p>
-         </details>)}</div>
+         <p><strong>Episode clock:</strong> {shreyaEpisode03Proposal.dayScope.start}–{shreyaEpisode03Proposal.dayScope.end} · <strong>Anchor:</strong> {shreyaEpisode03Proposal.anchor}</p>
+         <p className="source-note"><strong>Sequence rule:</strong> {shreyaEpisode03Proposal.reviewSequencePolicy}</p>
+         <p className="muted">Green/approved labels mean approved <strong>plot</strong>, not published prose. Beat 5 is a parked future arc; optional college scenes (7–9) have not been reviewed. They are NOT required before the approved training-ground encounter.</p>
+         <div className="beat-list" id="shreya-ordered-beats">
+           {shreyaEpisode03Proposal.reviewBeatSequence.map(slot=>{
+             const beat=slot.kind==='held'?shreyaEpisode03Proposal.parkedFutureEncounters.find(b=>b.id===slot.id):shreyaEpisode03Proposal.timeline.find(b=>b.id===slot.id);
+             const merged=shreyaEpisode03Proposal.mergedTransitions.find(t=>t.from===slot.id);
+             const held=slot.kind==='held',optional=slot.kind==='optional',bridge=slot.kind==='merged'||slot.kind==='bridge';
+             return <details className={'episode-outline '+(held?'shreya-hold-beat':optional?'shreya-optional-beat':bridge?'shreya-bridge-beat':'')} key={slot.id} id={'shreya-ep03-'+slot.id}>
+               <summary><strong>Beat {String(slot.number).padStart(2,'0')} · {slot.title}</strong> — <span>{slot.label}</span></summary>
+               {merged&&<p><strong>One-line transition ({merged.time}):</strong> {merged.text} <em>No standalone scene.</em></p>}
+               {beat&&<>
+                 <p><strong>{held?'Scheduled time:':'Time:'}</strong> {held?'Not scheduled — future episode':beat.time||'Unassigned'} · <strong>Location:</strong> {held?'To be decided':beat.place||'To be decided'}</p>
+                 <p><strong>Cast:</strong> {beat.characters.join(', ')}</p>
+                 <p><strong>Established context:</strong> {beat.history}</p>
+                 <p><strong>Event:</strong> {beat.distinctEvent}</p>
+                 {!held&&<p><strong>Immediate reaction:</strong> {beat.reaction}</p>}
+                 {beat.dialogue?.map((line,i)=><p className="dialogue" key={i}><strong>{line[0]}:</strong> {line[1]}</p>)}
+                 {beat.readerOnlyAfterbeat&&<p className="source-note"><strong>Reader-only afterbeat:</strong> {beat.readerOnlyAfterbeat}</p>}
+                 {beat.readerOnlyFantasy&&<p className="source-note"><strong>DCP's reader-only fantasy — proposed:</strong> {beat.readerOnlyFantasy.trigger} {beat.readerOnlyFantasy.fantasy}</p>}
+                 {beat.wardrobeProposals&&<details className="episode-outline"><summary>Training outfits &amp; visual narration (plot-approved details)</summary>
+                   <div className="beat-list">{Object.entries(beat.wardrobeProposals).map(([person,description])=><p key={person}><strong>{person}:</strong> {description}</p>)}</div>
+                 </details>}
+                 {beat.styleLock&&<p className="muted"><strong>Writing style:</strong> {beat.styleLock}</p>}
+                 {held&&beat.futureArc&&<p className="source-note"><strong>Later arc only:</strong> {beat.futureArc.coreConflict} {beat.futureArc.nonsexualStakes} {beat.futureArc.trajectory}</p>}
+                 {!held&&<p><strong>Cut:</strong> {beat.exit}</p>}
+               </>}
+               {optional&&<p className="source-note"><strong>NOT APPROVED:</strong> This offsite college segment is retained as an optional earlier proposal. Do not treat it as an obligatory event or auto-insert it into prose.</p>}
+             </details>
+           })}
+         </div>
          <details className="episode-outline"><summary>Source locks and writing guide</summary>
            <div className="beat-list">{shreyaEpisode03Proposal.userLocks.map((lock,i)=><div className="beat-item" key={i}><p>{lock}</p></div>)}</div>
            <p>{shreyaEpisode03Proposal.editorial.sequence}</p>
