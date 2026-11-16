@@ -203,6 +203,12 @@ try {
  await page.waitForFunction(()=>document.querySelectorAll('#shreya-ordered-beats > details').length===14);
  check(await page.locator('#shreya-ordered-beats > details').count()===14,'Shreya planning keeps 14 original numbered review slots');
  check((await page.locator('#shreya-ep03-SR12 summary').innerText()).includes('ON HOLD'),'Beat 5 inmate bet visibly held');
+ check((await page.locator('#shreya-ep03-S03-09 > summary').innerText()).includes('ON HOLD'),'Beat 14 family/home marked author hold');
+ check((await page.locator('#shreya-ep03-S03-07 > summary').innerText()).includes('Physical progression'),'Beat 12 Samar Shaan scene draft listed');
+ await page.locator('#shreya-ep03-S03-07 > summary').click();
+ check(await page.locator('#shreya-ep03-S03-07 .beat-list > details').count()===6,'Six sports twin mini-beats displayed');
+ await page.locator('#shreya-ep03-S03-08 > summary').click();
+ check(await page.locator('#shreya-ep03-S03-08 .beat-list > details').count()===3,'Three Chintu continuation mini-beats displayed');
  check((await page.locator('#shreya-ep03-S03-01 summary').innerText()).includes('Approved plot'),'Beat 3 strong chai marked approved');
  check((await page.locator('#shreya-ep03-S03-05 > summary').innerText()).includes('Approved plot'),'Beat 10 training ground marked approved');
  check((await page.locator('#shreya-ep03-S03-03 > summary').innerText()).includes('Karan–Aman'),'Beat 8 college crossover appears in ordered planning');
@@ -292,8 +298,11 @@ try {
  check(await page.locator('.universe-option').count()===2,'Left switcher has exactly Society Wives and Dhika');
  await page.locator('.universal-top-link').click();
  await page.locator('.timeline-event').first().waitFor();
- check(await page.locator('.timeline-event').count()===95,'Society Wives Jan1 displays all twelve Shreya active planned events, excluding inmate hold');
+ check(await page.locator('.timeline-event').count()===94,'Society Wives Jan1 displays eleven active Shreya events, with inmates and family held');
  check(await page.locator('#timeline-e03-shreya-SR12').count()===0,'Held Shreya inmates are absent from January 1 universal timeline');
+ check(await page.locator('#timeline-e03-shreya-S03-09').count()===0,'Held Shreya family event is absent from Jan1 universal timeline');
+ check(await page.locator('#timeline-e03-shreya-S03-07').count()===1,'Samar Shaan active evening progression is indexed');
+ check(await page.locator('#timeline-e03-shreya-S03-08').count()===1,'Chintu evening continuation is indexed');
  check(await page.locator('#timeline-e03-shreya-S03-05').count()===1,'Approved training ground encounter appears in correct time sequence');
  check(await page.locator('#timeline-e03-shreya-SR10').count()===1,'Shreya SR10 appears on the corrected January 1 clock');
  check(await page.locator('#timeline-ep03-ankita-scene04').count()===1,'Rohit Jan1 introduction appears in active calendar');
