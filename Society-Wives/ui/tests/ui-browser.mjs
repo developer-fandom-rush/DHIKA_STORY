@@ -139,6 +139,10 @@ check(!(await page.locator('#ep03-meenakshi-scene-04').innerText()).includes('Ep
  check(await page.locator('#ep03-meenakshi-scene-02 > .episode-outline').count()===1,'Farmhouse beat-by-beat outline is discoverable');
  check(await page.locator('#ep03-meenakshi-scene-03 .author-notes').count()===1,'Author original new scene requirement is retained in planning');
  check(await page.locator('main a').count()===0,'Planning stays inside the app with no raw source links');
+ check(await page.locator('#society-wives-event-first-style').count()===1,'Event-first global writing guide must show in Planning');
+ await page.locator('#society-wives-event-first-style .episode-outline').first().locator('summary').click();
+ check((await page.locator('#society-wives-event-first-style').innerText()).includes('EP04'),'Dhika continuation nuance must appear');
+ check((await page.locator('#society-wives-event-first-style').innerText()).includes('Double-meaning banter is optional'),'No mandatory double-meaning ladder');
  check(await page.locator('#society-wives-author-narrator-instructions').count()===1,'Narrator visual author rules available within Planning');
  await page.locator('#society-wives-author-narrator-instructions summary').click();
  check((await page.locator('#society-wives-author-narrator-instructions').innerText()).includes('body-shape metaphors'),'Movement and body comparison style rendered');
