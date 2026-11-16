@@ -293,7 +293,7 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
        </details>
        <p><strong>Next plot suggestions:</strong> {eventFirstGuide.plotSuggestionFormat}</p>
        <p><strong>Prose:</strong> {eventFirstGuide.proseStandard}</p>
-       <p><a href="https://github.com/developer-fandom-rush/DHIKA_STORY/blob/main/Society-Wives/WRITING-STYLE-DHIKA-EP01-EP03-RECALIBRATION.md" target="_blank" rel="noreferrer">Open full source analysis and global writing standard</a></p>
+       <p className="muted">Full source study: Society-Wives/WRITING-STYLE-DHIKA-EP01-EP03-RECALIBRATION.md (GitHub). The guide is reference material, not published scene prose.</p>
      </>:<p role="status">Event-first writing guide loading…</p>}
    </article>
    <details className="episode-outline" id="society-wives-author-narrator-instructions"><summary>Author writing instructions · visual descriptions &amp; flirting style</summary>
