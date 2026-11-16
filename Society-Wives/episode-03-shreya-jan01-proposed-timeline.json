@@ -13,7 +13,7 @@
   "dayScope": {
     "start": "10:15",
     "end": "18:00",
-    "certainty": "13 active scene/transition entries after B1 one-line merge; new ACP–Poonam training setup is author-directed working plot, not approved prose."
+    "certainty": "12 active planning entries; B1 is a one-line transition; B3 author-approved working plot unchanged; B4 DCP fantasy execution proposed; SR12 is parked for future planning and no longer has a Jan1 timeslot."
   },
   "userLocks": [
     "Author explicitly approved all nine existing SR source prose scenes in Episode 02. SR03 author-approved plot has no published full prose; do not fabricate it.",
@@ -84,7 +84,7 @@
       "id": "S03-01",
       "time": "11:12–11:25",
       "type": "new",
-      "status": "AUTHOR_REQUESTED_OFFICE_CHOTU_ROLE__EVENT_PROPOSAL",
+      "status": "AUTHOR_APPROVED_PLOT_KEEP_WORDING_UNCHANGED_PROSE_NOT_COMMISSIONED",
       "title": "The strong-chai moment — station Chotu",
       "place": "Police station canteen/authorized staff tea counter",
       "characters": [
@@ -109,39 +109,34 @@
           "Achha? Phir tumhari memory ka ek din proper test lungi."
         ]
       ],
-      "exit": "Shreya leaves with the file; Chotu now has an organic recurring point of contact, not a promise of a date"
+      "exit": "Shreya leaves with the file; Chotu now has an organic recurring point of contact, not a promise of a date",
+      "authorApproval": {
+        "approvedDate": "2026-11-16",
+        "scope": "Existing strong-chai beat wording and incident; not publication of new prose",
+        "instruction": "No rewriting, no added lines."
+      }
     },
     {
       "id": "SR11",
       "time": "11:30–11:40",
       "type": "existing",
-      "status": "EXISTING_EP03_WORKING_PLOT_RETIMED",
-      "title": "DCP Rathod reviews performance",
+      "status": "USER_REQUESTED_PRIVATE_FANTASY__SUGGESTED_EXECUTION_FOR_REVIEW",
+      "title": "DCP Rathod — the review and private imagined evening",
       "place": "District police reporting room",
       "characters": [
         "Shreya",
         "DCP Rathod"
       ],
-      "history": "Already saved in EP03 plan",
-      "distinctEvent": "Formal documentation review. Keep DCP attention as an open possibility, never falsely approved as physical or romantic interest.",
-      "reaction": "Shreya accepts case feedback.",
-      "exit": "Proceed to authorized interview"
-    },
-    {
-      "id": "SR12",
-      "time": "11:40–12:15",
-      "type": "existing",
-      "status": "EXISTING_EP03_WORKING_PLOT_RETIMED",
-      "title": "The cellblock bet",
-      "place": "Authorized interview room",
-      "characters": [
-        "Shreya",
-        "Two adult detainees"
-      ],
-      "history": "Already saved as professional interview plot",
-      "distinctEvent": "Detainees make their private manipulation bet without Shreya's knowledge; Shreya redirects to lawful case questioning. No custodial romance or intimate contact.",
-      "reaction": "Her focus stays on the case; reader knows more than she does.",
-      "exit": "File and observation notes"
+      "history": "DCP Rathod (58) is Shreya's professional senior. A formal performance review was already in the active Episode03 working plan; attraction is a newly author-requested private fantasy, not prior established reciprocity.",
+      "distinctEvent": "During the official documentation review, Rathod challenges one of Shreya's case decisions. She calmly defends it with her evidence and independent reasoning. The exchange is professional and ends with ordinary acknowledgement.",
+      "reaction": "Once Shreya leaves with her file, Rathod is privately struck by her self-possession; Shreya reads the meeting simply as a work review.",
+      "exit": "Shreya returns to station work. SR12 interview slot no longer takes place on January 1; 11:40–12:20 remains unassigned in this working plan.",
+      "readerOnlyFantasy": {
+        "trigger": "Shreya respectfully challenges his scrutiny rather than automatically agreeing; her confident reply stays in Rathod's mind.",
+        "fantasy": "Alone, Rathod imagines an evening away from rank and duty where Shreya responds to him personally, they exchange equally sharp banter, and mutual interest develops into a consensual private intimate relationship. This imagined desire is unilateral reader-only interiority, not a future event or Shreya's commitment.",
+        "contrastWithACP": "ACP fantasy arose from Poonam training-test awkwardness. DCP fantasy arises from intellectual confidence during a review.",
+        "status": "AUTHOR_REQUESTED_FANTASY_LOGIC_PROPOSED_DETAIL_NEEDS_REVIEW"
+      }
     },
     {
       "id": "SR13",
@@ -313,5 +308,37 @@
       "text": "Chauhan se baat khatam karke Shreya case file lekar ACP ke training-assessment room ki taraf badhi.",
       "status": "AUTHOR_DIRECTED_MERGE_NO_STANDALONE_BEAT"
     }
+  ],
+  "parkedFutureEncounters": [
+    {
+      "id": "SR12",
+      "time": null,
+      "type": "existing",
+      "status": "ON_HOLD_UNSCHEDULED_AUTHOR_DIRECTED_FUTURE_ARC",
+      "title": "The cellblock bet — three inmates, future ego-challenge arc",
+      "place": null,
+      "characters": [
+        "Shreya (33)",
+        "Inmate 1 (30, age from earlier source)",
+        "Inmate 2 (35, age from earlier source)",
+        "Inmate 3 (27, newly suggested age pending author lock)"
+      ],
+      "history": "Earlier source had two adult inmates (30 and 35). Author now directs three unnamed distinct adult inmates labeled only Inmate 1, Inmate 2, Inmate 3. Third age is a new proposal, not canon.",
+      "distinctEvent": "Three cunning inmates develop a private competitive wager about drawing the confident Inspector Shreya into repeated conversation. They exploit her desire to solve difficult challenges, making each legitimate interaction an ego test, but she initially remains unaware of their bet. No date or future physical contact is locked.",
+      "reaction": "Her focus stays on the case; reader knows more than she does.",
+      "exit": "File and observation notes",
+      "previouslyProposedDate": "2026-01-01",
+      "previouslyProposedTime": "11:40–12:15",
+      "futureArc": {
+        "coreConflict": "Shreya's competitive pride drives her to investigate their puzzle/challenge and can eventually cause her to lose a nonsexual wager.",
+        "nonsexualStakes": "A temporary, voluntary obligation to hear their explanation or respond to a legitimate authorized question, without compromising legal procedure or removing her ability to refuse. She is never required to obey personal or sexual demands.",
+        "trajectory": "Repeated dialogue, escalating psychological competition and a possible future attraction may be planned later; any intimacy must be freely chosen, not punishment for losing, and not part of a custody quid pro quo.",
+        "status": "PROPOSED_AND_UNSCHEDULED"
+      },
+      "approval": "AUTHOR_REQUESTED_ARC_HOLD_NO_EP03_SCENE"
+    }
+  ],
+  "authorDecisions": [
+    "2026-11-16: B3 strong-chai beat explicitly approved unchanged; B4 DCP Rathod one-sided private fantasy requested, proposed review logic only; B5 inmates bet moved from active Jan1 plan to unscheduled future arc with three labeled adult inmates and ego-based nonsexual challenge."
   ]
 }
