@@ -201,35 +201,7 @@
         }
       ],
       "dialogue": [],
-      "approvalScope": "Author selected Karan/Aman unexpected college meeting and accidental glimpse direction on 2026-11-16; newly written mechanics/dialogue and venue are assistant-proposed and not separately approved as finished prose.",
-      "sequenceBeats": [
-        {
-          "id": "B07-01",
-          "time": "13:15–13:30",
-          "heading": "Records close, lunch and official message",
-          "narration": "Shreya finishes paperwork, checks the invitation from the district office for the already scheduled cyber-safety demonstration and eats a short lunch. The college engagement is new plot planning, not previously established Episode 02 canon.",
-          "dialogue": []
-        },
-        {
-          "id": "B07-02",
-          "time": "13:30–13:55",
-          "heading": "Independent travel, no engineered meeting",
-          "narration": "Shreya drives to the nearby public college. Karan and Aman are going to its open cyber-safety/career session for separate plausible career reasons; they arrive on their own and have no reason to expect the inspector.",
-          "dialogue": []
-        },
-        {
-          "id": "B07-03",
-          "time": "13:55–14:05",
-          "heading": "Separate sign-in",
-          "narration": "Shreya enters as an invited police guest. The twins enter as ordinary registered adult attendees. Their routes do not intersect until the session itself.",
-          "dialogue": []
-        }
-      ],
-      "authorDecision": {
-        "date": "2026-11-16",
-        "scope": "Requested follow-up plot with Karan and Aman; not yet approved prose or canon profession change",
-        "approval": "PLOT_SUBMITTED_FOR_AUTHOR_REVIEW"
-      }
+      "approvalScope": "Author selected Karan/Aman unexpected college meeting and accidental glimpse direction on 2026-11-16; newly written mechanics/dialogue and venue are assistant-proposed and not separately approved as finished prose."
     },
     {
       "id": "S03-03",
@@ -245,8 +217,8 @@
         "Unnamed adult public attendees (background only)"
       ],
       "history": "Shreya already knows the twins from the same society and their approved morning parking-gate encounter. Morning SR05 includes the open top uniform button; first button open and second closed remains the active wardrobe lock unless she deliberately changes it. Neither is a college student canonically; public registration does not change their career status. Karan is bold, Aman quiet. Shreya has no reason to think they were coming. The academy trainee-only framing is superseded by a public-access seminar.",
-      "distinctEvent": "During an open cyber-safety demonstration, Shreya unexpectedly spots Karan and Aman among registered visitors. Karan remarks on seeing her again but Shreya turns that familiarity into ordinary class participation, asking them to demonstrate different scam-warning judgments. At the demonstration table a folder slips from under her arm; she stoops to secure it while its strap briefly draws the already loose top of her uniform blouse forward. From the nearby side angle, both men incidentally glimpse a small portion of her upper cleavage for a moment. She immediately straightens and repositions the uniform; both redirect their gaze, and nobody comments on her body. She briefly feels self-conscious and wonders whether they noticed, then resumes the cyber-safety demo in command of the room. No prolonged exposure, deliberate display, nonconsensual touching or romance is inferred from the accident.",
-      "reaction": "Karan, usually quick with a joke, holds a remark back, showing rare tact; Aman offers the fallen folder without drawing attention. Shreya notices their unexpected restraint and has a short, private flicker of confused awareness before re-centering on her job. She does not lose authority or treat the incident as permission to flirt physically. The contact/competition in the next station training drill remains separate.",
+      "distinctEvent": "During an open career and cyber-safety session, Shreya unexpectedly spots Karan and Aman among the registered civilian visitors. The previous morning's friendly teasing produces a brief casual exchange; nobody arranged the meeting. As Karan turns, the strap of his backpack catches a freestanding display stand. Aman catches the tilting frame, a folder of handouts slides, and Shreya bends to collect the pages. Only her uniform's first/top button is loosened from the morning; the second remains closed. The bending movement briefly shifts her collar forward, giving both men a fleeting, accidental upper-cleavage glimpse (about one-third of the open neckline area). Both glance inadvertently and look away; Shreya notices a split-second hesitation, straightens and repositions the collar. Karan apologizes for the equipment mishap, Aman returns the pages, and Shreya completes a career-relevant cyber-safety demonstration. No one caused deliberate exposure, no prolonged gaze, no chest touching, and no instant romance.",
+      "reaction": "Karan briefly stops his usual jokes and apologizes for the stand; Aman responds practically and avoids making the moment public. Shreya feels a flicker of self-consciousness and confused awareness because of their earlier uniform banter, then resumes normal police-instructor authority within minutes. Both brothers contribute real questions in the cyber-safety talk; the incident is not replayed.",
       "exit": "Session ends around 15:05. Shreya departs on duty without a planned private follow-up; the twins make their own way home and are available later for Ankita's existing 17:20 pickup.",
       "wardrobeContinuity": "Shreya: official police uniform shirt, first/top button loosened from morning, second button still closed; modest upper-neckline gap occurs only when she bends during one ordinary mishap. Do not unzip or open additional buttons. She tidies her collar and fully buttons it during the departure transition, then changes into navy athletic training clothes on return before Beat 10. Karan/Aman: ordinary neat civilian career-event clothes; no locked colors.",
       "sceneBeats": [
@@ -336,125 +308,14 @@
           ]
         }
       ],
-      "dialogue": [
-        [
-          "Karan",
-          "Arre, Inspector madam? Aap yahan bhi? Yeh toh unexpected ho gaya."
-        ],
-        [
-          "Shreya",
-          "Tum dono? Yahan bhi koi challenge dene aaye ho?"
-        ],
-        [
-          "Aman",
-          "Cyber-safety session dekhne aaye hain, ma'am. College ka open event tha."
-        ],
-        [
-          "Shreya",
-          "Good. Toh batao, unknown login link aaye toh sabse pehla step kya hoga?"
-        ],
-        [
-          "Aman",
-          "Link open nahi karenge. Sender aur source independently verify karenge."
-        ],
-        [
-          "Karan",
-          "Aur har message ko urgent bolne wale scammer par bhi seedha bharosa nahi karenge."
-        ],
-        [
-          "Shreya",
-          "Exactly. Yehi point yaad rakhna."
-        ]
-      ],
+      "dialogue": [],
       "styleLock": "Mature, non-graphic attraction through a fleeting accidental neckline glimpse, gaze shifts, distinct reactions and a small moment of conflicting self-awareness; not a lingerie reveal, breast exposure, graphic focus, touching her chest, coercion, or a new love confession. No same moment repeated in prose.",
       "approvalScope": "Author selected Karan/Aman unexpected college meeting and accidental glimpse direction on 2026-11-16; newly written mechanics/dialogue and venue are assistant-proposed and not separately approved as finished prose.",
-      "sequenceBeats": [
-        {
-          "id": "B08-01",
-          "time": "14:05–14:15",
-          "heading": "Unplanned reunion in a legitimate public session",
-          "narration": "Shreya scans the audience and catches sight of two already familiar faces. The men are surprised too: the advertised open session had listed a police guest, not her name. They exchange a brief smile; she continues leading the room.",
-          "dialogue": [
-            [
-              "Karan",
-              "Arre, Inspector madam? Aap yahan bhi? Yeh toh unexpected ho gaya."
-            ],
-            [
-              "Shreya",
-              "Tum dono? Yahan bhi koi challenge dene aaye ho?"
-            ],
-            [
-              "Aman",
-              "Open cyber-safety session dekhne aaye hain, ma'am."
-            ]
-          ]
-        },
-        {
-          "id": "B08-02",
-          "time": "14:15–14:34",
-          "heading": "Career-relevant cyber-safety task",
-          "narration": "Aman answers a fake-login/unknown-link verification question in a technically grounded way. Karan spots urgency language and social-engineering tactics. Their individual capabilities, not their attraction alone, give both a reason to hold Shreya's attention.",
-          "dialogue": [
-            [
-              "Shreya",
-              "Unknown link aaye toh pehle kya check karoge?"
-            ],
-            [
-              "Aman",
-              "Sender aur source independently verify karenge. Link click nahi karna."
-            ],
-            [
-              "Karan",
-              "Urgent warning se pressure create kiya ja raha hai ya nahi, woh bhi."
-            ]
-          ]
-        },
-        {
-          "id": "B08-03",
-          "time": "14:34–14:36",
-          "heading": "Fallen folder, accidental glimpse, immediate adjustment",
-          "narration": "Near the demo desk, Shreya's folder slips and she bends to steady it. The file strap momentarily catches her already loosened shirt neckline, allowing a brief accidental glimpse of the upper cleavage. Both men, close enough to see from the side, register it for an instant and politely look away. Shreya straightens and adjusts her uniform immediately. It is neither intentionally displayed nor prolonged.",
-          "dialogue": []
-        },
-        {
-          "id": "B08-04",
-          "time": "14:36–14:40",
-          "heading": "Different reactions, private flicker of awareness",
-          "narration": "Karan unexpectedly chooses not to make his usual teasing remark. Aman returns the folder, eyes on its pages rather than her clothing. For a moment Shreya realizes they may have noticed and feels awkward, curious and unsure how to interpret their quietness. She takes a beat, then consciously resumes her normal professional manner; no touch or further physical incident is added.",
-          "dialogue": [
-            [
-              "Aman",
-              "Ma'am, aapki file."
-            ],
-            [
-              "Shreya",
-              "Thanks, Aman. Ab next example dekhte hain."
-            ]
-          ]
-        },
-        {
-          "id": "B08-05",
-          "time": "14:40–15:05",
-          "heading": "Demonstration returns to substance",
-          "narration": "Shreya finishes her cyber-safety segment with examples of suspicious links, secure reporting and official verification channels. The men participate normally. A small shared awareness remains reader-visible but does not become a public joke or power shift.",
-          "dialogue": [
-            [
-              "Shreya",
-              "Unknown link ko forward karna bhi risk hota hai. Verify first."
-            ]
-          ]
-        }
-      ],
       "visualNarration": {
-        "wardrobe": "On-duty police uniform remains consistent with SR09: first/top shirt button open, second closed. No invented second open button, no undressing, no outfit change before station return. The shirt's neckline shifts only during one brief inadvertent moment.",
-        "bodyVisibility": "User-directed accidental brief visibility of a small portion of the breasts' upper cleavage at the opened neckline; avoid quantified 'one-third' anatomy, exaggerated exposure, or lingering visual scrutiny.",
-        "gaze": "The men each notice for only a moment and look away; Shreya registers their changed body language but cannot read their thoughts.",
-        "tone": "Mature social tension, brief discomfort/curiosity, then a normalized professional interaction. No repeated body-based teasing."
-      },
-      "authorDecision": {
-        "date": "2026-11-16",
-        "scope": "User requested brief accidental visibility of upper cleavage plus changed reactions and normalisation; consent and clothing continuity preserved",
-        "approval": "PLOT_SUBMITTED_FOR_AUTHOR_REVIEW"
+        "wardrobe": "Shreya remains in her on-duty police uniform: first/top button open since the morning, second closed. The collar opens only momentarily when she bends for dropped handouts; no added buttons undone or outfit changes.",
+        "bodyVisibility": "Brief incidental partial upper-cleavage view at the open neckline; this is a momentary wardrobe angle, not an intentional sexual display, undressing or extended exposure.",
+        "gaze": "Both men briefly register the changed angle and look away; Shreya can only infer their momentary hesitation, not read their private thoughts.",
+        "tone": "One fleeting confused awareness, then the cyber-safety presentation returns to normal. Contrast with the independent physical flag drill in Beat10."
       }
     },
     {
@@ -470,7 +331,7 @@
         "Aman (22, brief farewell)"
       ],
       "history": "The college encounter was unexpected and the twins' visit independent. Karan and Aman must be free again well before their existing Ankita pickup at ~17:23; they do not accompany Shreya back to the police station. Station's next practical training drill B10 begins at 15:40.",
-      "distinctEvent": "15:05–15:10 session exit; Shreya gives a short courteous goodbye without making a date or reopening the wardrobe incident. By 15:10 she leaves the college, returning to the station by approximately 15:30 (local proximity is proposed, not geographically verified). 15:30–15:40 she changes from on-duty uniform into her navy training T-shirt and black training trousers and checks the five-person drill. She then begins the existing approved B10 session at 15:40.",
+      "distinctEvent": "15:05–15:10 public farewell to Karan and Aman; nobody discusses the earlier wardrobe accident or arranges a shared ride. 15:10–15:30 Shreya returns independently to station and fastens the already loosened top uniform button while closing her paperwork. At ~15:30–15:40 she changes into the approved navy athletic training T-shirt and black trousers, then begins Beat 10 exactly as already approved.",
       "reaction": "Aman and Karan retain distinct personalities without following her or appearing at the station. Shreya resumes duty normally. College scene has no touch that competes with Lokesh's specific approved training contact.",
       "exit": "15:40 Beat 10 begins with only Shreya, Meera, Kavita, Rohas and Lokesh; all approved flag-drill choreography remains verbatim.",
       "sceneBeats": [
@@ -487,49 +348,8 @@
           "plot": "She drives alone and changes to the approved navy fitted dry-fit training T-shirt and black trousers before the 15:40 station exercise. The temporary self-conscious feeling has normalized."
         }
       ],
-      "dialogue": [
-        [
-          "Karan",
-          "Ma'am, session interesting tha. Subah wali meeting se kaafi alag."
-        ],
-        [
-          "Shreya",
-          "Good. Useful laga toh safety rules apply karna."
-        ],
-        [
-          "Aman",
-          "Thanks, ma'am. All the best for the next assessment."
-        ]
-      ],
-      "approvalScope": "Author selected Karan/Aman unexpected college meeting and accidental glimpse direction on 2026-11-16; newly written mechanics/dialogue and venue are assistant-proposed and not separately approved as finished prose.",
-      "sequenceBeats": [
-        {
-          "id": "B09-01",
-          "time": "15:05–15:10",
-          "heading": "Normal public goodbye",
-          "narration": "Outside the seminar hall the twins exchange brief thanks with Shreya. Nobody revisits the accidental shirt moment, and nobody arranges a private ride or date.",
-          "dialogue": []
-        },
-        {
-          "id": "B09-02",
-          "time": "15:10–15:30",
-          "heading": "Separate paths",
-          "narration": "Shreya drives back to station; Karan and Aman leave independently. Allow sufficient time for travel; the exact college address must remain within a feasible commute or be rescheduled.",
-          "dialogue": []
-        },
-        {
-          "id": "B09-03",
-          "time": "15:30–15:40",
-          "heading": "Uniform-to-training change",
-          "narration": "At station Shreya changes from the police uniform into the navy dry-fit T-shirt and black training trousers already chosen for approved B10, then meets Meera, Kavita, Rohas and Lokesh.",
-          "dialogue": []
-        }
-      ],
-      "authorDecision": {
-        "date": "2026-11-16",
-        "scope": "Return bridge only; must keep approved B10 intact",
-        "approval": "PLOT_SUBMITTED_FOR_AUTHOR_REVIEW"
-      }
+      "dialogue": [],
+      "approvalScope": "Author selected Karan/Aman unexpected college meeting and accidental glimpse direction on 2026-11-16; newly written mechanics/dialogue and venue are assistant-proposed and not separately approved as finished prose."
     },
     {
       "id": "S03-05",
@@ -785,9 +605,9 @@
     {
       "number": 9,
       "id": "S03-04",
-      "kind": "active",
+      "kind": "bridge",
       "title": "College exit, station return and training gear change",
-      "label": "Revised college encounter · author review"
+      "label": "College return · continuity draft"
     },
     {
       "number": 10,
@@ -825,7 +645,7 @@
       "label": "Proposal · not discussed"
     }
   ],
-  "reviewSequencePolicy": "Original 14-slot review sequence retained: B1 merged; B5 three-inmate bet still held for an unscheduled future arc. B7–B9 now contain the user-requested unexpected public-college Karan/Aman encounter as an author-review plot (NOT published prose); B10 five-person station training challenge remains plot-approved and unchanged.",
+  "reviewSequencePolicy": "Original 14 review slots: Beat1 merged one-line transition, Beat5 inmate bet future hold; Beats7–9 author-directed Shreya/Karan/Aman civilian college encounter (one storyboard each; mechanics and dialogue awaiting author approval), Beat10 unchanged approved five-person station flag drill, Beat11 return bridge, Beat12 proposed Samar/Shaan society, Beat13 proposed Chintu, Beat14 proposed family.",
   "collegeContinuityLock": {
     "sceneIds": [
       "S03-02",
