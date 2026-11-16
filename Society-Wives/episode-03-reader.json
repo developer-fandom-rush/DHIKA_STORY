@@ -414,6 +414,16 @@
         "status": "AUTHOR_REVISED_PROSE_IN_UI_PENDING_OVERALL_APPROVAL",
         "source": "episode-03-ankita-scene-07-revised-prose.json",
         "format": "revision"
+      },
+      {
+        "id": "08",
+        "title": "The Quiet Reset — Rinku at the Door",
+        "date": "2026-01-01",
+        "time": "18:10–18:25",
+        "place": "Gulmohar Heights · Ankita apartment",
+        "status": "ASSISTANT_AUTHORED_FULL_SCENE08_DRAFT_PENDING_USER_REVIEW",
+        "source": "episode-03-ankita-scene-08-prose-draft.json",
+        "format": "scene08-draft"
       }
     ],
     "meenakshi": [
