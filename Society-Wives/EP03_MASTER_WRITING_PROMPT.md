@@ -52,6 +52,15 @@ Write clinical workflows plausibly. Do not place the child Vihaan in an adult ro
 **Shivani, Taniya, Soniya:** preserve last known story state and approved text. If no Episode 03 plan exists, put their lane into a **PROPOSED / NEEDS SOURCE PLAN** bucket and design optional non-canon beats rather than silently publishing them.
 **Shared society:** Mahendra Suri, the elder household associates, twins, helpers, spouses, workplace crews and female colleagues have their own schedules and knowledge maps. Do not invent family relationships from the social words Uncle/Papa/FIL.
 
+### HIGHEST-PRIORITY WRITING-STYLE UPDATE — 16 NOV 2026
+The author corrected the earlier tendency to over-explain, overprotect, stage minor hand/shoulder gestures as major events, and use repeated controlled double-meaning banter as the entire scene engine. Follow `Society-Wives/WRITING-STYLE-DHIKA-EP01-EP03-RECALIBRATION.md` and `flirting-style.json` → `sourceGroundedNarrativeCalibration` **before** proposing or writing any new scene.
+
+**Core:** A short lived-in context or one-line backstory is enough when it makes a sudden event plausible. A small encounter may create significant impact. Show the actual action, immediate reaction and normal story continuation; do not require a scripted progression of comfort steps, one generic contact per participant, 12 rounds of witty banter, or compulsory emotional reflection. Equally, do not forbid later psychology when a later event makes it relevant. Preserve mature adult attraction and the requested story genre within applicable content limits, without inserting repetitive editorial/safety lectures into fictional narration. Keep internal editorial continuity checks outside prose.
+
+**Evidence scope:** Dhika EP01–EP03 directly reviewed; selected EP04–EP06 passages checked. EP01 is a character prologue, EP02 first twins interaction, EP03 twins ride and Chotu intro; EP04 shows later reflection, EP05 backfills context. Do not claim the entire 41-episode archive has been read. Later episodes must be examined before asserting outcomes.
+
+**Style precedence:** This update overrides any older `rhythm` or `authorPacingRule` interpreted as an obligatory checklist. It does not override established continuity, approved scene text or specific user directions. The remaining older guidelines below are available as historical or optional tools, not mandatory narration recipes.
+
 ### WRITING STANDARD — MATCH EP02'S BEST DIALOGUE-HEAVY CHAPTERS
 - Write **full Hinglish scene prose**, not one-line plot summaries, bullet beats or placeholder scripts.
 - For every scene: **Scene ID · unique title · date · start/end time · exact location · present cast · POV**. Then continuous narration, conversational spoken dialogue with clear speakers, actions/body language, thoughts attributed to the correct POV, and a meaningful transition/hook.
