@@ -10,6 +10,7 @@ type AnkitaScene05={title:string;status:string;date:string;time:{start:string;en
 type AnkitaScene06={title:string;status:string;date:string;time:{start:string;end:string;status:string};proseStatus:string;setting:{otherPeople:string};choreography:{id:string;formation:string;participants:string;contact:string;reaction:string}[];prose:{language:string;lines:{type:'narration'|'dialogue';speaker?:string;text:string}[]};handoff:{nextScene:string;scope:string;status:string};};
 type AnkitaScene07={title:string;status:string;date:string;time:{start:string;end:string;certainty:string};continuity:{carProposition:string;deadline:string};beats:{id:string;time:string;heading:string;plot:string;dialogue?:{speaker:string;line:string}[]}[];proseStatus:string;};
 type RinkuScene08={title:string;status:string;date:string;time:{start:string;end:string;certainty:string};purpose:string;beats:{id:string;time:string;heading:string;plot:string}[];knowledgeLocks:{ankitaKnows:string;readerOnly:string;rajeev:string;rinku:string};wardrobe:{arrival:string;homeChange:string;firstRinkuView:string};nextEpisode:{focus:string;firstLook:string;date:string}};
+type ShivaniSceneReference={schemaVersion:number;id:string;title:string;status:string;source:{googleDocId:string;url:string;title:string;capturedDate:string;capturedFromRevision:string;readBeforeWriting:string};storyDate:string;sceneStart:string;sceneEnd:string;cast:string[];timeline:string[];femaleReferences:{name:string;status:string;heading:string;content:string}[];editorial:{wordForWordNote:string;sourceProtection:string;ritika:string;historicalTime:string}};
 type ShivaniStaffroomPlot={scene:string;status:string;date:string;start:string;end:string;location:string;purpose:string;wardrobeStatus:string;wardrobe:{name:string;age:number;role:string;outfit:string;narratorView:string;referenceColor:string}[];imageReference:{origin:string;status:string;use:string};beats:{id:string;time:string;title:string;focus:string;action:string;narrator?:string;dialogue?:{speaker:string;line:string}[];seed?:string;note?:string}[];plotLocks:string[];};
 type ShivaniCastLock={title:string;status:string;officeTwinsStudentCore:{id:string;name:string;age:number}[];officeChotu:{name:string;age:number;role:string};societyChotu:{name:string;age:number;role:string};juniorFacultyExcluded:{name:string;age:number}[];futureOnly:{name:string;age:number;note:string};biologicalTwinsNote:string;episode02End:string;nextWork:string;prologueBaselineReference?:{source:string;sourceScene:string;status:string;establishedPreviously:string[];episode03Difference:string}};
 type RohitFirstShow={title:string;status:string;date:string;wardrobe:{jan02:string;accidental:string;deliberate:string};encounters:{id:string;title:string;phase:string;beats:{id:string;name:string;plot:string}[]}[];validation:{jan1IntroductionOnly:boolean;jan1UpperButtonsClosed:boolean;jan2AccidentFirst:boolean;jan2DeliberateFirstShowLaterSameDay:boolean;exactJan2Clock:string;jan2Wardrobe:string};};
@@ -37,6 +38,7 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
  const {data:writingStyle,error:writingStyleError}=useData<Plan>('flirting-style.json');
   const {data:shivaniCastLock,error:shivaniCastLockError}=useData<ShivaniCastLock>('episode-03-shivani-cast-lock.json');
  const {data:shivaniStaffroomPlot,error:shivaniStaffroomError}=useData<ShivaniStaffroomPlot>('episode-03-shivani-staffroom-scene-plot.json');
+ const {data:shivaniSceneReference,error:shivaniSceneReferenceError}=useData<ShivaniSceneReference>('episode-03-shivani-scene02-master-reference.json');
  const {data:shreyaFuture}=useData<Plan>('episode-03-shreya-plan.json');
  useEffect(()=>{
   if(!initialScene)return;
@@ -44,7 +46,7 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
   const id=active==='ankita'
    ?(initialScene==='01'?'ankita-ep03-a11':initialScene==='02'?'ankita-ep03-scene02':initialScene==='03'?'ankita-ep03-scene03':initialScene==='04'?'ankita-ep03-scene04-rohit':initialScene==='05'?'ankita-ep03-scene05':initialScene==='06'?'ankita-ep03-scene06':initialScene==='07'?'ankita-ep03-scene07':initialScene==='08'?'ankita-ep03-scene08':initialScene==='rohit-first-show'?'ankita-ep04-rohit-first-show':'')
    :active==='shivani'
-   ?(initialScene==='cast'?'shivani-ep03-cast-lock':initialScene==='staffroom'?'shivani-ep03-staffroom-scene':'')
+   ?(initialScene==='cast'?'shivani-ep03-cast-lock':initialScene==='staffroom'?'shivani-ep03-staffroom-scene':initialScene==='reference'?'shivani-ep03-scene02-master-reference':'')
    :active==='meenakshi'
    ?(initialScene==='01'?'ep03-meenakshi-scene-01':initialScene==='handoff'?'ep04-meenakshi-handoff':'ep03-meenakshi-scene-'+initialScene)
    :'';
@@ -69,6 +71,31 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
 
   <div className="reading-heading"><div><span className="eyebrow">Choose a storyline</span><h2>What happens next?</h2></div></div>
   <div className="perspective-tabs" role="group" aria-label="Choose planning character">{leadOrder.map(w=><button type="button" aria-pressed={w===active} onClick={()=>openPage('planning',{lead:w})} className={w===active?'selected':''} key={w}>{titleCase(w)}</button>)}</div>
+  {active==='shivani'&&<section className="continuity-cards" id="shivani-ep03-scene02-master-reference">
+    <article className="episode-plan-card">
+      <span className="eyebrow">Shivani · Episode 03 · Scene 02 · master writing reference · 5:00–5:20 PM</span>
+      <h2>Scene 02 — Google Doc &amp; Female-wise Beat Reference</h2>
+      <p><strong>IMPORTANT — READ BEFORE WRITING:</strong> This document is the reference for Shivani Episode 03, Scene 02. When expanding this scene into prose, please read the complete document first. Follow the 5:00–5:20 PM chronological timeline for the order of events and consult each woman's female-wise beat layout for the exact established dialogue, visual description, physical moments, character reactions, and interactions. Do not delete, replace, or change an approved beat without the author's approval.</p>
+      <p><strong>Source:</strong> <a href="https://docs.google.com/document/d/1nHM10B--o9fEpjX6zfSOe6Nl_p-0gTdefkYEtr8UgVk/edit" target="_blank" rel="noreferrer">Open the master Google Doc</a> · The Google Doc is the primary editable source; the reference displayed below is a read-only snapshot.</p>
+      {shivaniSceneReference?<>
+        <p className="muted"><strong>Scene clock:</strong> {shivaniSceneReference.sceneStart}–{shivaniSceneReference.sceneEnd} on {shivaniSceneReference.storyDate}. <strong>Cast:</strong> {shivaniSceneReference.cast.join(', ')}. This is a working reference, not approved prose.</p>
+        <details className="episode-outline" id="shivani-scene02-timeline-reference" open>
+          <summary><strong>Chronological Scene Timeline — 5:00–5:20 PM</strong></summary>
+          <div className="beat-list">{shivaniSceneReference.timeline.filter(t=>/^17:/.test(t)).map((t,i)=><div className="beat-item" key={i}><p>{t}</p></div>)}</div>
+          <p className="muted">{shivaniSceneReference.editorial.historicalTime}</p>
+        </details>
+        <h3>Female-wise original beat layouts — review before prose</h3>
+        <p className="muted">The five reference sections below preserve the source beat wording. The timeline determines their interleaved reading order, not five separate female scenes.</p>
+        {shivaniSceneReference.femaleReferences.map(ref=><details className="episode-outline" id={'shivani-scene02-female-'+ref.name.toLowerCase()} key={ref.name}>
+          <summary><strong>{ref.name}</strong> — {ref.status==='AUTHOR_APPROVED'?'Author-approved beats':ref.status.includes('PROVISIONAL')?'Latest discussed version · approval pending':'Saved beat reference'}</summary>
+          <p className="muted">{ref.heading}</p>
+          <pre style={{whiteSpace:'pre-wrap',overflowWrap:'anywhere',fontFamily:'inherit',fontSize:'inherit',lineHeight:1.6}}>{ref.content}</pre>
+        </details>)}
+        <p className="muted">{shivaniSceneReference.editorial.ritika}</p>
+        <p className="muted">{shivaniSceneReference.editorial.wordForWordNote}</p>
+      </>:<p role="status">{shivaniSceneReferenceError||'Loading the complete Google Doc reference snapshot…'}</p>}
+    </article>
+   </section>}
   {active==='meenakshi'&&<section className="continuity-cards" id="meenakshi-ep03-prose-moved"><article className="episode-plan-card"><span className="eyebrow">Episode 03 · Story text moved to Episode Reading</span><h2>Meenakshi · Written scenes</h2><p>Scene 01 approved; Scene 02 complete F01–F19 source with mixed approvals; Scene 03 author T01–T07 text under review; Scene 04 B01–B05 full prose draft. Read all four in the same Episode Reading UI; source approvals are retained.</p><div className="hero-actions">{['01','02','03','04'].map(id=><button type="button" className="button subtle" key={id} onClick={()=>openPage('reading',{episode:'03',character:'meenakshi',scene:id})}>Read Scene {id} →</button>)}</div></article><article className="episode-plan-card" id="ep04-meenakshi-handoff"><span className="eyebrow">Still planning · future continuation</span><h2>Unwritten Meenakshi plans</h2><p>Jan 2 future outline, the 14:15 Naveen handoff and late-night Harish–Sunil seed remain separate planning references. No new prose was invented.</p></article></section>}
   {active==='ankita'&&<section className="continuity-cards" id="ankita-ep03-first-block">
     <article className="episode-plan-card" id="ankita-ep03-a11"><span className="eyebrow">Ankita · EP03 · Scenes 01–02 · prose now in Reading</span><h2>Rajeev's Parcel Call &amp; The Five-Person Stamina Challenge</h2><p>Scene 01 contains the author-completed narrative. Scene 02 preserves author-original full prose with additive framing, pending review.</p><div className="hero-actions"><button type="button" className="button primary" onClick={()=>openPage('reading',{episode:'03',character:'ankita',scene:'01'})}>Read Scene 01 →</button><button type="button" className="button subtle" onClick={()=>openPage('reading',{episode:'03',character:'ankita',scene:'02'})}>Read Scene 02 →</button></div></article>
@@ -186,8 +213,9 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
    </section>}
    {active==='shivani'&&<section className="continuity-cards" id="shivani-ep03-staffroom-scene">
     <article className="episode-plan-card">
-      <span className="eyebrow">Shivani · Episode 03 · Jan 1 · 2:10–2:35 PM · Working scene plot, not approved prose</span>
-      <h2>{shivaniStaffroomPlot?.scene||'The Staffroom — The Candid Frame'}</h2>
+      <span className="eyebrow">Archived earlier 2:10–2:35 PM working outline · superseded by the 5:00–5:20 PM master reference above</span>
+      <p><strong>Historical only:</strong> This earlier draft is retained for audit, not as the current scene order. Read the Google Doc and the female-wise master reference above before writing any Scene 02 prose.</p>
+      <h2>{shivaniStaffroomPlot?.scene||'The Staffroom — The Candid Frame'} — archived source draft</h2>
       {shivaniStaffroomPlot?<>
         <p><strong>Story intent:</strong> {shivaniStaffroomPlot.purpose}</p>
         <p><strong>Place:</strong> {shivaniStaffroomPlot.location} · <strong>Cast:</strong> Shivani, Pooja, Kriti, Nandini, Ritika, Harsh, Laksh, Arjun.</p>
