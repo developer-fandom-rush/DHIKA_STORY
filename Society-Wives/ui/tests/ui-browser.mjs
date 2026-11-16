@@ -100,7 +100,7 @@ try {
  await page.locator('.main-nav a[href="#/reading"]').click();
  await page.getByRole('button',{name:'Episode 03 · Prose'}).click();
  await page.locator('#episode03-final-prose .scene-sidebar').waitFor();
- check(await page.locator('#episode03-final-prose .scene-link').count()===6,'Ankita reader includes Scenes 01–06 including car ride');
+ check(await page.locator('#episode03-final-prose .scene-link').count()===7,'Ankita reader includes Scene07 revised prose after dance');
  check((await page.locator('#episode03-final-prose .reading-surface').innerText()).includes('Rajeev Uncle, courier ka notification aaya'),'Author-revised Ankita Scene01 dialogue visible in unified reader');
  check((await page.locator('#episode03-final-prose .reading-surface').innerText()).includes('Saans control ki'),'Author-written Scene01 content visible');
  await page.locator('#episode03-final-prose .scene-link').nth(1).click();
@@ -134,6 +134,20 @@ try {
  check((await page.locator('#scene06-clean-B07').innerText()).includes('chair se apna beige blazer aur bag uthaya'),'B7 blazer exit continuity fixed');
  check(await page.locator('#scene06-submitted-archive').count()===1,'Original B2-A and other submitted text kept in archive');
  check(await page.locator('#scene06-earlier-draft').count()===1,'Earlier Scene06 draft retained separately and not overwritten');
+ await page.locator('#episode03-final-prose .scene-link').nth(6).click();
+ await page.waitForFunction(()=>document.querySelector('#episode03-final-prose .story-toolbar')?.textContent?.includes('Ankita · Scene 07'));
+ await page.locator('#scene07-beat-B08').waitFor();
+ check(await page.locator('#scene07-author-revised .ep03-beat').count()===8,'All eight Scene07 prose beats rendered');
+ check(await page.locator('#scene07-author-revised .scene07-author-highlight').count()===6,'Six user supplied changes are visibly highlighted');
+ check(await page.locator('#scene07-beat-B04 .scene07-author-highlight').count()===1,'B4 added awareness paragraph highlighted');
+ check((await page.locator('#scene07-beat-B04 .scene07-author-highlight').innerText()).includes('Ab Aman ka haath uski waist pe tha'),'Exact B4 user awareness paragraph visible');
+ check((await page.locator('#scene07-beat-B05 .scene07-author-highlight').innerText()).includes('Yeh alag tha. Yeh ghar wala ladka tha.'),'Exact B5 replacement visibly highlighted');
+ check(await page.locator('#scene07-beat-B06 .scene07-author-highlight').count()===2,'Both user inner thoughts highlighted separately');
+ check((await page.locator('#scene07-beat-B06').innerText()).includes('Maine balance ke liye kiya tha.'),'Aman author internal thought visible');
+ check(await page.locator('#scene07-beat-B07 .scene07-author-highlight').count()===2,'Karan gaze and ride question highlighted');
+ check((await page.locator('#scene07-beat-B07 .scene07-author-highlight').last().innerText()).includes('Ride kaisi rahi, Bhabhi?'),'Author Karan dialogue highlighted');
+ check((await page.locator('#scene07-beat-B08').innerText()).includes('5:50 PM'),'Gopal handoff and home arrival retained');
+ check((await page.locator('#episode03-final-prose .story-toolbar').innerText()).includes('review pending'),'Scene07 remains pending overall approval');
 
  await page.locator('#episode03-final-prose .perspective-tabs button',{hasText:'Meenakshi'}).click();
  await page.waitForFunction(()=>document.querySelector('#episode03-final-prose .story-toolbar')?.textContent?.includes('Meenakshi · Scene 01'));
@@ -201,6 +215,7 @@ try {
  check((await page.locator('#ankita-ep03-scene06').innerText()).includes('17:20'),'Scene 06 ends before drop-off');
  await page.locator('#ankita-ep03-scene07 .beat-item').last().waitFor();
  check(await page.locator('#ankita-ep03-scene07 .beat-item').count()===8,'Scene07 shows eight selected ride and homecoming beats');
+ check((await page.locator('#ankita-ep03-scene07').innerText()).includes('Read Scene 07 · highlighted author revisions'),'Scene07 planning links to prose with highlighted changes');
  check((await page.locator('#ankita-ep03-scene07').innerText()).includes('Karan'),'Karan must be in twins pickup');
  check((await page.locator('#ankita-ep03-scene07').innerText()).includes('Gopal'),'Gopal silent observation remains in scene');
   check((await page.locator('#ankita-ep03-scene07').innerText()).includes('Gopal says NOTHING'),'No Gopal dialogue or confrontation allowed');
