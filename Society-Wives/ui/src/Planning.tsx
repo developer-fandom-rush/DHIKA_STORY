@@ -14,6 +14,8 @@ type ShivaniSceneReference={schemaVersion:number;id:string;title:string;status:s
 type ShivaniNewBeat={id:string;time:string;title:string;cast:string[];plot:string;dialogue?:{speaker:string;line:string}[];reaction?:string;narratorDirection?:string;knowledge?:{readerOnly:boolean;shivaniAware:boolean;actualContact:boolean}};
 type ShivaniSocietyReturn={title:string;status:string;proseStatus:string;date:string;time:{start:string;end:string};priorFoundation:string[];beats:ShivaniNewBeat[];restrictions:string[]};
 type ShivaniNightPlan={title:string;status:string;proseStatus:string;date:string;episodePlacement:string;time:{firstHomeBeat:string;nightEncounter:string};beats:ShivaniNewBeat[];continuityLocks:string[];relationshipSetup:{shivaniOm:{established:string;proposedNewCharacterAngle:string;fantasyPresentation:string;tone:string};deepuShivani:{established:string;proposedTonight:string};deepuKavya:{new:string;agency:string};twinsKavya:{new:string;distinctVoices:string}};futureArc:Record<string,string>};
+type TaniyaEpisode03Beat={id:string;time:string;title:string;location:string;cast:string[];purpose:string;action:string;visual:string;dialogue:{speaker:string;line:string}[];turn:string;status:string};
+type TaniyaEpisode03Plot={schemaVersion:number;episode:string;lead:string;title:string;date:string;start:string;end:string;status:string;goal:string;figureMapping:{group:string;members:string[];why:string}[];wardrobeStatus:string;wardrobe:string;beats:TaniyaEpisode03Beat[];authorLocks:string[];ending:string;sourceAnchors:{source:string;facts:string}[]};
 type ShreyaBeat={id:string;time:string|null;type?:string;status:string;title:string;place:string|null;characters:string[];history:string;distinctEvent:string;reaction:string;dialogue?:string[][];exit:string;readerOnlyAfterbeat?:string;readerOnlyFantasy?:{trigger:string;fantasy:string;status?:string};wardrobeProposals?:Record<string,string>;wardrobeContinuity?:string;approvalScope?:string;sceneBeats?:{id:string;time:string;heading:string;plot:string;narration?:string;dialogue?:string[][];reaction?:string}[];sharedMemory?:{status:string;event:string;shreya:string;karan:string;aman:string;laterUse:string;sharedBanter:string};styleLock?:string;futureArc?:{coreConflict:string;nonsexualStakes:string;trajectory:string};};
 type ShreyaEpisode03Proposal={title:string;status:string;date:string;weekday:string;dayScope:{start:string;end:string;certainty:string};anchor:string;userLocks:string[];timeline:ShreyaBeat[];parkedFutureEncounters:ShreyaBeat[];mergedTransitions:{from:string;into:string;time:string;text:string;status:string}[];reviewBeatSequence:{number:number;id:string;kind:string;title:string;label:string}[];reviewSequencePolicy:string;editorial:{approvalRule:string;sequence:string;sourceIntegrity:string}};
 type ShivaniStaffroomPlot={scene:string;status:string;date:string;start:string;end:string;location:string;purpose:string;wardrobeStatus:string;wardrobe:{name:string;age:number;role:string;outfit:string;narratorView:string;referenceColor:string}[];imageReference:{origin:string;status:string;use:string};beats:{id:string;time:string;title:string;focus:string;action:string;narrator?:string;dialogue?:{speaker:string;line:string}[];seed?:string;note?:string}[];plotLocks:string[];};
@@ -46,6 +48,7 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
  const {data:shivaniSceneReference,error:shivaniSceneReferenceError}=useData<ShivaniSceneReference>('episode-03-shivani-scene02-master-reference.json');
  const {data:shivaniSocietyReturn,error:shivaniSocietyReturnError}=useData<ShivaniSocietyReturn>('episode-03-shivani-scene-03-society-return-plot.json');
  const {data:shivaniNightPlan,error:shivaniNightPlanError}=useData<ShivaniNightPlan>('shivani-jan01-night-next-episode-chotu-kavya-twins-om-plot.json');
+ const {data:taniyaEpisode03Plot,error:taniyaEpisode03PlotError}=useData<TaniyaEpisode03Plot>('episode-03-taniya-solo-proposed-timeline.json');
  const {data:shreyaFuture}=useData<Plan>('episode-03-shreya-plan.json');
  const {data:shreyaEpisode03Proposal,error:shreyaEpisode03ProposalError}=useData<ShreyaEpisode03Proposal>('episode-03-shreya-jan01-proposed-timeline.json');
  useEffect(()=>{
@@ -55,6 +58,7 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
    ?(initialScene==='01'?'ankita-ep03-a11':initialScene==='02'?'ankita-ep03-scene02':initialScene==='03'?'ankita-ep03-scene03':initialScene==='04'?'ankita-ep03-scene04-rohit':initialScene==='05'?'ankita-ep03-scene05':initialScene==='06'?'ankita-ep03-scene06':initialScene==='07'?'ankita-ep03-scene07':initialScene==='08'?'ankita-ep03-scene08':initialScene==='rohit-first-show'?'ankita-ep04-rohit-first-show':'')
    :active==='shivani'
    ?(initialScene==='cast'?'shivani-ep03-cast-lock':initialScene==='staffroom'?'shivani-ep03-staffroom-scene':initialScene==='reference'?'shivani-ep03-scene02-master-reference':initialScene==='03'?'shivani-ep03-scene03-society-return':initialScene==='night'?'shivani-jan01-night-next-episode':'')
+   :active==='taniya'?(initialScene==='timeline'?'taniya-ep03-timeline':initialScene?'taniya-ep03-'+initialScene:'taniya-ep03-timeline')
    :active==='shreya'?(initialScene==='timeline'?'shreya-ep03-jan01-timeline':initialScene?'shreya-ep03-'+initialScene:'')
    :active==='meenakshi'
    ?(initialScene==='01'?'ep03-meenakshi-scene-01':initialScene==='handoff'?'ep04-meenakshi-handoff':'ep03-meenakshi-scene-'+initialScene)
@@ -80,6 +84,41 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
 
   <div className="reading-heading"><div><span className="eyebrow">Choose a storyline</span><h2>What happens next?</h2></div></div>
   <div className="perspective-tabs" role="group" aria-label="Choose planning character">{leadOrder.map(w=><button type="button" aria-pressed={w===active} onClick={()=>openPage('planning',{lead:w})} className={w===active?'selected':''} key={w}>{titleCase(w)}</button>)}</div>
+  {active==='taniya'&&<section className="continuity-cards" id="taniya-ep03-timeline">
+    <article className="episode-plan-card">
+      <span className="eyebrow">Taniya · Episode 03 · 1 January 2026 · author review draft</span>
+      <h2>Taniya — Solo Afternoon: Office → Society → Home</h2>
+      <p className="source-note"><strong>UNAPPROVED WORKING PLOT:</strong> This is a newly proposed twelve-beat layout, not author-approved prose or an active cross-lead calendar commitment. Previous Episode 02 scenes are untouched.</p>
+      <p><strong>Absolute POV boundary:</strong> Soniya does not enter the story until Taniya reaches the shared flat in the final doorway beat. There are no earlier Soniya calls, messages, cutaways or dialogue.</p>
+      {taniyaEpisode03Plot?<>
+        <p><strong>Time:</strong> {taniyaEpisode03Plot.start}–{taniyaEpisode03Plot.end} · <strong>Source cutoff:</strong> Episode 02 TS16 at 13:15 in CA office.</p>
+        <p>{taniyaEpisode03Plot.goal}</p>
+        <details className="episode-outline" open>
+          <summary><strong>Male figure roles — actual twins, office duo, helpers, senior/uncle figures</strong></summary>
+          <div className="beat-list">{taniyaEpisode03Plot.figureMapping.map(group=><div className="beat-item" key={group.group}>
+            <p><strong>{group.group}:</strong> {group.members.join(', ')}</p>
+            <p>{group.why}</p>
+          </div>)}</div>
+        </details>
+        <details className="episode-outline">
+          <summary>Wardrobe continuity and scene-writing restrictions</summary>
+          <p>{taniyaEpisode03Plot.wardrobe}</p>
+          <div className="beat-list">{taniyaEpisode03Plot.authorLocks.map((lock,i)=><p key={i}>{lock}</p>)}</div>
+        </details>
+        <div className="beat-list" id="taniya-ep03-ordered-beats">{taniyaEpisode03Plot.beats.map((beat,i)=>
+          <details className="episode-outline" key={beat.id} id={'taniya-ep03-'+beat.id}>
+            <summary><strong>{String(i+1).padStart(2,'0')} · {beat.title}</strong> — <span>{beat.time} · draft</span></summary>
+            <p><strong>Location:</strong> {beat.location} · <strong>Cast:</strong> {beat.cast.join(', ')}</p>
+            <p><strong>Reason for this beat:</strong> {beat.purpose}</p>
+            <p><strong>Plot:</strong> {beat.action}</p>
+            <p className="source-note"><strong>Visual direction:</strong> {beat.visual}</p>
+            {beat.dialogue?.map((line,j)=><p className="dialogue" key={j}><strong>{line.speaker}:</strong> {line.line}</p>)}
+            <p><strong>After-effect / transition:</strong> {beat.turn}</p>
+          </details>)}</div>
+        <p><strong>Cut at home:</strong> {taniyaEpisode03Plot.ending}</p>
+      </>:<p role="status">{taniyaEpisode03PlotError||'Loading Taniya Episode 03 working draft…'}</p>}
+    </article>
+  </section>}
   {active==='shivani'&&<section className="continuity-cards" id="shivani-ep03-scene02-master-reference">
     <article className="episode-plan-card">
       <span className="eyebrow">Shivani · Episode 03 · Scene 02 · master writing reference · 5:00–5:20 PM</span>
@@ -393,7 +432,7 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
     {narratorRule?<><p><strong>Reference technique:</strong> {narratorRule.origin}</p><div className="beat-list">{narratorRule.methods.map((method,i)=><div key={i} className="beat-item"><p>{method}</p></div>)}</div><p><strong>Example vocabulary (not established body shapes):</strong> {narratorRule.examplePhrases.join(' · ')}</p><p className="muted">{narratorRule.status.replace(/_/g,' ')}</p></>:<p className="muted">{writingStyleError||'Writer style notes loading…'}</p>}
    </details>
    <div className="split"><div><span className="eyebrow">Working story lane</span><h2>{titleCase(active)}</h2><p>{active==='ankita'?'Ankita’s Scenes 01–08 (including Scene 07’s highlighted author revisions and Scene 08’s five-beat draft) are in Episode Reading. Scene 03’s former twenty-minute presentation is parked for future; Scene 04’s seven-point Rohit outline remains here as continuity reference. Scene 08’s locked outline and the separate 2 January Rohit plan remain in Planning; Scene 07’s plot remains as continuity reference. Earlier competing home and parcel follow-up outlines were removed; Scene 08 Rinku setup is the final Ankita Jan 1 entry.':activePlan?.plan?.title||'No separate Episode 03 working draft is available here yet.'}</p></div></div>
-   {active==='taniya'&&<p className="source-note">Soniya's independent scenes belong to Taniya's continuity lane. Their existing joint plan is preserved; those scenes have not been promoted to finished prose.</p>}
+   {active==='taniya'&&<p className="source-note">Episode 03 now has a Taniya-only twelve-beat proposal in this Planning tab. Soniya enters only when Taniya physically reaches home in the last beat; this remains an author-review draft, not approved prose.</p>}
    {active==='shivani'&&<p className="source-note">Shivani's Episode 03 group labels follow “Twins (people having same image)” — a visual/story shorthand, never an automatic biological relationship. College four: Harsh, Laksh, Nandini, Ritika. Proposed society duo: Ayaan, Armaan. Karan and Aman are occupied by Ankita's 5:20–5:50 PM scene. Separate Office/Society Chotu roles and junior teachers remain unchanged. The staffroom master reference above remains the source for writing; no new home-return plot prose is approved.</p>}
    {activePlan?.plan&&<><p><strong>Original status:</strong> {str(activePlan.plan.status)||'REVIEW'}</p>{active==='meenakshi'&&<p><strong>Older separate outline — 2 January 2026.</strong> This is not part of 1 January's Scene 01–03 sequence. Senior Review M08 stays on Jan 2.</p>}
     {active==='shreya'&&<p><strong>Date:</strong> Thursday, 1 January 2026 (author-corrected). Existing SR10–SR13 are same-day Episode 03 working beats after 10:15 AM; they are not published prose. The superseded 3 January file is archived as historical planning only.</p>}
