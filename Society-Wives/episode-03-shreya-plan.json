@@ -256,5 +256,13 @@
     "approval": "AUTHOR_APPROVED_PLOT_NOT_PROSE",
     "reference": "episode-03-shreya-jan01-proposed-timeline.json#S03-05",
     "notes": "Five participants only; flag-control drill, Kavita wins first, Lokesh tag capture and one brief close-contact moment, narrator outfit/motion descriptions, no repetitive accidental touches. Prior report-verification concept superseded."
+  },
+  "collegeBeat789WorkingSelection": {
+    "reference": "episode-03-shreya-jan01-proposed-timeline.json#S03-02..S03-04",
+    "scope": "Author-selected afternoon college meeting direction: Shreya x Karan x Aman; one accidental fleeting partial-cleavage glance and immediate self-consciousness, then professional normalization, with stand accident / exact dialogue / civilian open-college event all proposed details.",
+    "timing": "13:15–15:40",
+    "canonBaseline": "Shreya SR05 08:13–08:15; Karan MBA entrance/prep freelance; Aman Java/backend job prep; their Ankita pickup 17:20–17:50.",
+    "approvalStatus": "DIRECTION_SELECTED_EXECUTION_DRAFT_NOT_APPROVED_PROSE",
+    "followedBy": "S03-05 approved five-person station training ground at 15:40–16:05; then short return bridge S03-06 and proposed Samar/Shaan evening S03-07."
   }
 }
