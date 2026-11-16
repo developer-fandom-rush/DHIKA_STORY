@@ -150,7 +150,6 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
       <p className="muted">{rohitFirstShow.status.replace(/_/g,' ')} · Clock and next-day outfit need separate author approval; no prose written.</p></>}
       {rohitFirstShowError&&<p role="alert">Rohit Jan 2 first-show plot not loaded: {rohitFirstShowError}</p>}
     </article>
-    {ankitaOpeningError&&<p role="alert">Ankita opening plot source missing: {ankitaOpeningError}</p>}
   </section>}
   {active==='shivani'&&<section className="continuity-cards" id="shivani-ep03-cast-lock">
     <article className="episode-plan-card">
