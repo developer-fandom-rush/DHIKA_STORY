@@ -282,6 +282,17 @@ assert.ok(!directory.people.some(x=>x.id==='ankita_woman_02'||x.name==='Aditi Sh
 assert.equal(directory.people.find(x=>x.id==='shreya_woman_01')?.name,'Kavita','Shreya constable must be unchanged');
 assert.equal(directory.people.find(x=>x.id==='meenakshi_woman_01')?.name,'Dr. Aditi','Meenakshi resident must be unchanged');
 assert.equal(directory.people.find(x=>x.id==='kavya')?.name,'Kavya','Shivani sister must be unchanged');
+const shivaniStaffroom=read('episode-03-shivani-staffroom-scene-plot.json');
+assert.equal(shivaniStaffroom.date,'2026-01-01','Shivani staffroom scene remains Jan 1');
+assert.equal(shivaniStaffroom.start,'14:10');assert.equal(shivaniStaffroom.end,'14:35');
+assert.equal(shivaniStaffroom.beats.length,16,'Shivani group encounter requires 16 coherent beats');
+assert.deepEqual(shivaniStaffroom.wardrobe.map(x=>x.name),['Shivani','Pooja','Kriti','Nandini','Ritika'],'Five women must each have distinct wardrobe notes');
+assert.ok(shivaniStaffroom.status.includes('NOT_APPROVED_PROSE'),'Working plot must not be published as approved prose');
+assert.equal(shivaniStaffroom.beats.find(x=>x.id==='SR11')?.focus,'Laksh × Shivani','Main physical beat remains Laksh catching Shivani');
+assert.ok(shivaniStaffroom.beats.some(x=>x.id==='SR04'&&x.focus.includes('Pooja')),'Arjun Pooja future seed absent');
+assert.ok(shivaniStaffroom.beats.some(x=>x.id==='SR05'&&x.focus.includes('Kriti')),'Arjun Kriti future seed absent');
+assert.ok(shivaniStaffroom.beats.some(x=>x.id==='SR09'&&x.focus.includes('Ritika')),'Kriti/Ritika independent scene beat absent');
+assert.ok(shivaniStaffroom.wardrobe.find(x=>x.name==='Shivani').note.includes('burgundy'),'Do not reuse private photo outfit in staffroom');
 const shivaniCastLock=read('episode-03-shivani-cast-lock.json');
 assert.deepEqual(shivaniCastLock.officeTwinsStudentCore.map(x=>x.name),['Harsh','Laksh','Nandini','Ritika'],'Shivani Office Twins must contain ONLY the four author-locked students');
 assert.ok(shivaniCastLock.officeTwinsStudentCore.every(x=>x.age===22),'Core peers are all 22');
