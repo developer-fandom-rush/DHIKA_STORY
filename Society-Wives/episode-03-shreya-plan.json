@@ -241,5 +241,20 @@
     "shreyaGuidedGroupCount": 4,
     "notes": "Meera is the third police trainee alongside Rohas and Lokesh. Kavita participates as Shreya's trainee in mentoring/training while retaining her formal Constable designation; she is not reclassified as a formal police trainee. Female-staff Vivek training program continues to include Kavita, Meera, Poonam and Anjali, with Shreya as lead.",
     "authorDirectedDate": "2026-11-16"
+  },
+  "shreyaTrainingGroundApprovedBeat": {
+    "id": "S03-05",
+    "time": "15:40–16:05",
+    "place": "Police station training ground",
+    "characters": [
+      "Shreya (33, lead instructor)",
+      "Meera (24, police trainee)",
+      "Kavita (23, constable in Shreya training group)",
+      "Rohas (24, police trainee)",
+      "Lokesh (24, police trainee)"
+    ],
+    "approval": "AUTHOR_APPROVED_PLOT_NOT_PROSE",
+    "reference": "episode-03-shreya-jan01-proposed-timeline.json#S03-05",
+    "notes": "Five participants only; flag-control drill, Kavita wins first, Lokesh tag capture and one brief close-contact moment, narrator outfit/motion descriptions, no repetitive accidental touches. Prior report-verification concept superseded."
   }
 }
