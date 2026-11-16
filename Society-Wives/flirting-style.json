@@ -1,10 +1,10 @@
 {
-  "title": "Society Wives — Flirting Style Reference",
-  "status": "WRITER_REFERENCE_NOT_APPROVED_CANON",
+  "title": "Society Wives — Event-First Mature Fiction Writing Style",
+  "status": "AUTHOR_DIRECTED_GLOBAL_STYLE_RECALIBRATION_2026_11_16_NOT_SCENE_APPROVAL",
   "scene": "EP02-A02",
   "date": "2026-01-01",
   "time": "06:29-06:37",
-  "purpose": "Dialogue-first, grown-up double-entendre flirting with a memory-loop seed, without presuming later romantic consent or changing plot authority.",
+  "purpose": "Mature adult ensemble romantic/sexual story writing: brief causal grounding, meaningful incident, natural immediate reaction, proportionate aftermath and flexible scene endings. Double meaning banter is optional, not the default engine.",
   "terms": [
     "sexual innuendo",
     "double entendre",
@@ -14,13 +14,11 @@
     "hypothetical gossip joke"
   ],
   "rhythm": [
-    "innocent observation",
-    "one cheeky double meaning",
-    "self-aware comeback",
-    "distinct second voice",
-    "specific outfit compliment",
-    "short fluster and conscious reset",
-    "recallable final line"
+    "Flexible, non-mandatory: enter the scene where something worth reading can happen",
+    "One or two lines of existing familiarity or causal context, only if needed",
+    "Let the distinct incident or meaningful change carry the scene (planned or spontaneous)",
+    "Describe visible movement, immediate effect and actual character reaction without added interpretation",
+    "End naturally or transition; reflect later only if the next story event calls for it"
   ],
   "characterVoices": {
     "rohan": "34; Shivani's husband; social, cheeky and expressive; black fitted sports tee suggestion",
@@ -130,16 +128,102 @@
     "writersNote": "This extends the existing flirting/double-entendre rhythm; it never overrides the story master source, approved prose or user choice."
   },
   "authorPacingRule": {
-    "status": "AUTHOR_DIRECTED_GLOBAL_WRITER_RULE_NOT_EPISODE_CANON",
-    "goal": "Write the full encounter in continuous prose, not 22 inflated independent mini-scenes.",
+    "status": "AUTHOR_DIRECTED_GLOBAL_WRITER_RULE_2026_11_16_SUPERSEDES_MECHANICAL_LADDER",
+    "goal": "Small encounters may have substantial effect. Match word count to dramatic event, not to number of people, pieces of contact, safety explanations or romance-stage milestones.",
     "decisions": [
-      "Compress travel, greetings, logistics, and routine plot transitions into one or two lines when they cause no relationship change.",
-      "Expand only dialogue, imagery, physical staging or gestures that alter attraction, trust, jealousy, boundaries, emotional state or future stakes.",
-      "A double meaning earns space when it targets a specific person and produces an identifiable outward/inward response; cut conversational filler without such effect.",
-      "Apply narrator silhouette/outfit/motion imagery selectively at meaningful visual turns, and separate observer POV from character awareness.",
-      "Preserve all approved event beats in their order, but combine adjacent beats organically instead of writing one verbose scene per beat.",
-      "Perform self-QA before presenting: dates, location, outfits, consent, cast presence, vehicle seats, sober driving, chronology and unpublished continuations; flag material contradictions yourself."
+      "No obligatory buildup ladder: a character may already know another person, a surprise can occur, or backstory can be introduced in one or two lines when it matters.",
+      "Do not inflate ordinary hand/forearm/shoulder actions into key erotic or romantic milestones just to make familiarity seem earned.",
+      "Do not require one physical touch, one witty comeback, one fluster and one emotional debrief per character in an ensemble.",
+      "Let a concrete incident, a sudden change in proximity, a meaningful choice, a look or an immediate character reaction earn scene attention; vary mechanisms naturally.",
+      "If an event is accidental, intentional, misunderstood or spontaneous, give only enough local causality to make it believable. Do not pre-seed every future beat.",
+      "Use double meaning banter selectively: dialogue is strongest when it naturally reflects this particular person's voice and creates an event, not when it substitutes for one.",
+      "Narrator describes bodies/clothing/movement in context when useful; distinguish observer's perspective and what the focal character actually knows.",
+      "Do not invent additional regret, fear, desire, trust or consent just because one reaction occurred; do not ban longer introspection when an actual later incident requires it.",
+      "Preserve source-approved events and timeline; no silent rewriting, no public approval claims for a draft, no copying Dhika incidents word for word.",
+      "Perform continuity checks privately. The prose itself should not read like an editor's checklist, repeated safety disclaimer or psychological interpretation.",
+      "Allow ordinary goodbyes and hard cuts. Meaningful events need not each conclude a complete relationship arc."
     ],
-    "authorDirection": "As of 2026-11-15, the author requested a complete compelling encounter at once, economical beat-based pacing, and less burden on them to perform editorial QA."
+    "authorDirection": "Author correction 16 Nov 2026: Stop overprotective and overly controlled banter/hand-touch narration. Preserve genre, vivid physical immediacy, unexpected but plausible moments and room for later discoveries."
+  },
+  "legacyRhythmReference": {
+    "status": "OLDER_A02_LOCAL_DIALOGUE_EXAMPLE_ARCHIVED_NOT_GLOBAL_SCENE_TEMPLATE",
+    "originalRhythm": [
+      "innocent observation",
+      "one cheeky double meaning",
+      "self-aware comeback",
+      "distinct second voice",
+      "specific outfit compliment",
+      "short fluster and conscious reset",
+      "recallable final line"
+    ]
+  },
+  "sourceGroundedNarrativeCalibration": {
+    "id": "dhika-ep01-ep03-event-first-2026-11-16",
+    "status": "AUTHOR_DIRECTED_STYLE_REFERENCE_NOT_EPISODE_CANON",
+    "title": "Dhika source study — compact setup, high-impact incident, optional later interpretation",
+    "referenceFile": "WRITING-STYLE-DHIKA-EP01-EP03-RECALIBRATION.md",
+    "sourceScope": "Dhika EP01–EP03 directly reviewed; selected EP04–EP06 continuation passages checked; NOT an exhaustive read of 41 archived episodes",
+    "diagnosis": [
+      {
+        "fault": "Ladder thinking",
+        "correction": "No compulsory hand-touch → comfort → emotional analysis progression. Events can arrive after one-line backstory or without foreshadowing."
+      },
+      {
+        "fault": "Banter does all the work",
+        "correction": "Keep each voice distinct, use only necessary exchanges, then let event and immediate reaction hold the scene."
+      },
+      {
+        "fault": "Action becomes a checklist",
+        "correction": "Natural clear physical staging, not body-contact route maps and one token touch per person."
+      },
+      {
+        "fault": "Overexplained aftermath",
+        "correction": "Write only reaction actually warranted now. Brief goodbyes are valid; later retrospective depth is also valid when needed."
+      },
+      {
+        "fault": "Every scene requires equal allocation",
+        "correction": "A crowded ensemble needs a coherent lived-in environment, not a five-pair escalation matrix."
+      },
+      {
+        "fault": "Future is falsely closed",
+        "correction": "Backfill history later, introduce surprise, and preserve possibilities not yet ruled out by approved source."
+      },
+      {
+        "fault": "Safety/meta language in story",
+        "correction": "Do not use repeated editorial justifications to interrupt narration; preserve factual knowledge and agency in actual action/reaction."
+      }
+    ],
+    "sourceObservations": [
+      "EP01 introduces character/world only; Bantu–Bobby's first on-page exchange is EP02.",
+      "EP02 gives Bantu–Bobby recurring familiarity in a few lines alongside immediate compliments and distinct personalities.",
+      "EP03 is a short college conversation followed by a specific journey incident, ordinary drop-off and then a separate Chotu household plot; Chotu's prior year of familiarity is summarized, not staged as many prior episodes.",
+      "EP04 uses longer retrospective feelings when a later event calls for them; never claim that Dhika never reflects.",
+      "EP05 backfills marriage history partway through the story; later history can be given at the moment it becomes dramatically useful.",
+      "Do not draw unsupported claims about later unseen episodes; inspect before assertion."
+    ],
+    "principles": [
+      "Event first; prior context in one or two lines if sufficient.",
+      "Unexpected action can be plausible without a predefined sequence of incremental gestures.",
+      "Immediate precise reaction beats lengthy generalized psychology.",
+      "Non-graphic adult physical tension is not interchangeable with a hand/shoulder touch checklist.",
+      "Banter supports, but never replaces, a memorable action.",
+      "Visual narrator observations use the chosen body's movement/wardrobe and are not a spoken dialogue by default.",
+      "Use the other characters' knowledge and secrets without forcing the heroine to know what the reader knows.",
+      "Normal cut, practical transition or later reflective chapter are all valid endings depending on what actually happens.",
+      "Preserve room for future characters, encounters and surprises; avoid dating or defining unapproved arcs.",
+      "No forced uniform episode pacing or mandatory emotional debrief."
+    ],
+    "prohibitions": [
+      "No compulsory psychological ladder or relationship-definition after every contact.",
+      "No mandatory safe hand/forearm/shoulder staging as a substitute for substantive event.",
+      "No repeated five-to-ten-turn banter merely to stretch a scene.",
+      "No unilateral rewriting of approved character thoughts, physical reactions, dates or published prose.",
+      "No blanket claim about future Dhika episodes based only on the early three.",
+      "No generic genre-softening of requested adult romantic/sexual tension into an innocuous workplace drama.",
+      "No fake future canon, reciprocal interest or unseen physical actions inferred from one glance."
+    ],
+    "plotSuggestionFormat": "If an outline is requested, return compact title/time/cast, one-line context, the distinctive new incident, immediate source-faithful reaction, and exit. These headings are optional editorial metadata, NOT required scene prose.",
+    "proseStandard": "Continuous natural Hinglish; short lived-in context; character-specific voice and body/wardrobe/motion observation when relevant; clear event, immediate effect and no compulsory explanation afterward.",
+    "previousApprovedStories": "Do not rewrite Ankita, Meenakshi, Shivani, Taniya, Soniya or Shreya approved material merely to apply a new style guide."
   }
 }
