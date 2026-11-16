@@ -2,13 +2,13 @@
   "schemaVersion": "1.0",
   "id": "shreya-episode-03-plan",
   "episode": 3,
-  "title": "Society Wives — Shreya Episode 03 (Deferred scenes)",
-  "date": "2026-01-03",
-  "weekday": "Saturday",
+  "title": "Society Wives — Shreya Episode 03 · Same Day Continuation (January 1, 2026)",
+  "date": "2026-01-01",
+  "weekday": "Thursday",
   "timezone": "Asia/Kolkata",
   "lead": "shreya",
   "leadName": "Shreya",
-  "status": "USER_RESERVED_2026-01-03; WORKING_PLOT_ONLY; NO PROSE PUBLISHED",
+  "status": "USER_CORRECTED_DATE_2026_01_01__WORKING_PLOT_ONLY_NO_PROSE",
   "continuityFrom": {
     "sourceEpisode": 2,
     "sourceDate": "2026-01-01",
@@ -16,7 +16,7 @@
     "storyClosesAt": "10:15",
     "lastPublishedScene": "SR09",
     "lastPublishedTitle": "Inspector Chauhan’s Distracted Attention",
-    "condition": "No additional Shreya scenes in Episode 02 after SR09; preserve all published prose and first/top uniform button being open through SR09; no wardrobe carry-forward to Jan 3 without explicit new continuity."
+    "condition": "Episode 02 ends on Jan 1 at 10:15 AM; Episode 03 begins later the SAME CALENDAR DAY. Preserve all nine original Episode 02 published Shreya prose scenes and top uniform button state through SR09. Scene03 new events are only working plot."
   },
   "timeline": [
     {
@@ -47,13 +47,14 @@
         ]
       ],
       "notes": [
-        "User-directed: moved from Jan 1 Episode 02 to Jan 3 Episode 03. Do not publish as Jan 1. Time windows are placeholders pending Jan 3 global clock reconciliation."
+        "User-directed: moved from Episode 02 10:15 cutoff to Episode 03 later Jan 1. Do not publish as Jan 1. Time windows are placeholders pending Jan 1 global clock reconciliation."
       ],
-      "approval": "USER_DEFERRED_TO_EP03_WORKING_PLOT",
-      "date": "2026-01-03",
-      "weekday": "Saturday",
+      "approval": "EXISTING_EP03_PLOT_RETIMED_TO_JAN01_PROSE_PENDING",
+      "date": "2026-01-01",
+      "weekday": "Thursday",
       "episode": 3,
-      "scheduling": "DEFERRED_FROM_EP02_TO_2026-01-03; PROVISIONAL_TIME_WINDOWS"
+      "scheduling": "REPOSITIONED_TO_2026_01_01_BY_AUTHOR_DATE_CORRECTION; TIME_WINDOWS_WORKING",
+      "originalDate": "2026-01-03"
     },
     {
       "id": "SR11",
@@ -81,13 +82,14 @@
         ]
       ],
       "notes": [
-        "User-directed: moved from Jan 1 Episode 02 to Jan 3 Episode 03. Do not publish as Jan 1. Time windows are placeholders pending Jan 3 global clock reconciliation."
+        "User-directed: moved from Episode 02 10:15 cutoff to Episode 03 later Jan 1. Do not publish as Jan 1. Time windows are placeholders pending Jan 1 global clock reconciliation."
       ],
-      "approval": "USER_DEFERRED_TO_EP03_WORKING_PLOT",
-      "date": "2026-01-03",
-      "weekday": "Saturday",
+      "approval": "EXISTING_EP03_PLOT_RETIMED_TO_JAN01_PROSE_PENDING",
+      "date": "2026-01-01",
+      "weekday": "Thursday",
       "episode": 3,
-      "scheduling": "DEFERRED_FROM_EP02_TO_2026-01-03; PROVISIONAL_TIME_WINDOWS"
+      "scheduling": "REPOSITIONED_TO_2026_01_01_BY_AUTHOR_DATE_CORRECTION; TIME_WINDOWS_WORKING",
+      "originalDate": "2026-01-03"
     },
     {
       "id": "SR12",
@@ -118,13 +120,14 @@
         ]
       ],
       "notes": [
-        "User-directed: moved from Jan 1 Episode 02 to Jan 3 Episode 03. Do not publish as Jan 1. Time windows are placeholders pending Jan 3 global clock reconciliation."
+        "User-directed: moved from Episode 02 10:15 cutoff to Episode 03 later Jan 1. Do not publish as Jan 1. Time windows are placeholders pending Jan 1 global clock reconciliation."
       ],
-      "approval": "USER_DEFERRED_TO_EP03_WORKING_PLOT",
-      "date": "2026-01-03",
-      "weekday": "Saturday",
+      "approval": "EXISTING_EP03_PLOT_RETIMED_TO_JAN01_PROSE_PENDING",
+      "date": "2026-01-01",
+      "weekday": "Thursday",
       "episode": 3,
-      "scheduling": "DEFERRED_FROM_EP02_TO_2026-01-03; PROVISIONAL_TIME_WINDOWS"
+      "scheduling": "REPOSITIONED_TO_2026_01_01_BY_AUTHOR_DATE_CORRECTION; TIME_WINDOWS_WORKING",
+      "originalDate": "2026-01-03"
     },
     {
       "id": "SR13",
@@ -155,13 +158,14 @@
         ]
       ],
       "notes": [
-        "User-directed: moved from Jan 1 Episode 02 to Jan 3 Episode 03. Do not publish as Jan 1. Time windows are placeholders pending Jan 3 global clock reconciliation."
+        "User-directed: moved from Episode 02 10:15 cutoff to Episode 03 later Jan 1. Do not publish as Jan 1. Time windows are placeholders pending Jan 1 global clock reconciliation."
       ],
-      "approval": "USER_DEFERRED_TO_EP03_WORKING_PLOT",
-      "date": "2026-01-03",
-      "weekday": "Saturday",
+      "approval": "EXISTING_EP03_PLOT_RETIMED_TO_JAN01_PROSE_PENDING",
+      "date": "2026-01-01",
+      "weekday": "Thursday",
       "episode": 3,
-      "scheduling": "DEFERRED_FROM_EP02_TO_2026-01-03; PROVISIONAL_TIME_WINDOWS"
+      "scheduling": "REPOSITIONED_TO_2026_01_01_BY_AUTHOR_DATE_CORRECTION; TIME_WINDOWS_WORKING",
+      "originalDate": "2026-01-03"
     }
   ],
   "characterSeeds": [
@@ -171,7 +175,7 @@
       "counterpart": "chintu",
       "age": 23,
       "earliestEpisode": "03",
-      "status": "USER_RESERVED_2026-01-03_NOT_WRITTEN",
+      "status": "USER_MOVED_TO_EP03_JAN01_NOT_WRITTEN",
       "desiredArc": "Chintu becomes a recurring young adult confidant / admiring society helper for Shreya, analogous in narrative role to Dhika's Chotu. Build encounters and trust gradually; no events from Dhika automatically imported.",
       "constraints": [
         "Distinct characters: Chintu (23) is not Dhika's Chotu.",
@@ -179,14 +183,23 @@
         "Adult, consensual, standalone character progression.",
         "Plan encounter history before escalating or claiming any relationship."
       ],
-      "date": "2026-01-03"
+      "date": "2026-01-01",
+      "priorReservedDate": "2026-01-03"
     }
   ],
   "schedulingNotes": [
-    "Scene order SR10–SR13 preserved for continuity; 10:30–13:15 times are provisional Jan 3 planning slots, not new approved prose.",
-    "Resolve Jan 3 across all women and shared cast before writing; do not reuse Jan 1 cross-house locks as Jan 3 facts.",
-    "Jan 2 has no new Shreya scenes authored or implied.",
-    "Chintu's next-episode role is a separate planned encounter arc, not part of the completed Jan 1 Episode 02.",
-    "No publishing or extending Episode 02 beyond Jan 1 10:15 AM."
-  ]
+    "Author corrected Episode 03 date from Jan 3 to Thursday January 1, 2026. Original Jan 3 version preserved separately at Society-Wives/episode-03-shreya-plan-archive-jan03.json",
+    "All nine existing SR Episode 02 prose scenes now author-approved; SR03 is approved plot with missing full prose. Episode 02 ends Jan 1 10:15 AM.",
+    "SR10–SR13 remain the existing working scene concepts, currently provisionally placed between 10:30 and 13:15 on Jan 1. This retiming does not convert them into approved prose.",
+    "Two Chotu roles must stay distinct: society security helper Chintu (23) and newly proposed police-station chai wala (adult, ID shreya_station_chotu).",
+    "Further twins/tea vendor/society scenes should be proposed separately, not misrepresented as fixed source history.",
+    "Do not invent Jan 2 or Jan 3 scenes or overlap other leads."
+  ],
+  "retimingDecision": {
+    "authorDirected": "User explicitly confirmed Episode03 date is January 1, 2026",
+    "previousDate": "2026-01-03",
+    "archivePath": "Society-Wives/episode-03-shreya-plan-archive-jan03.json",
+    "freezeUntil": "Episode 02 10:15 AM",
+    "status": "CHANGED_ACTIVE_DATE_NOT_NEW_PROSE"
+  }
 }
