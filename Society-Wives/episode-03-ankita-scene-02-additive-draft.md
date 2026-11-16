@@ -2,7 +2,7 @@
 **The Five-Person Stamina Challenge**  
 **1 January 2026 · 13:15–13:45 · Cyber City IT Office**
 
-01:15 PM. Release-monitoring screens par koi naya alert nahi tha. Team ne thodi der ke liye desks se hatkar open collaboration area mein break liya tha. Whiteboard ke paas portable speaker, ek practice mat aur event backdrop stand rakha tha—Aishwarya ne celebration ki tayari ke liye wahin chhoda tha.
+01:15 PM. Release-monitoring screens par koi naya alert nahi tha. Team ne thodi der ke liye desks se hatkar open collaboration area mein break liya tha. Whiteboard ke paas portable speaker, ek practice mat aur event backdrop stand rakha tha.
 
 Sana aur Aishwarya saath mein aayi. Dono late thi. Sana ne black fitted dress pehna tha, Aishwarya ne deep maroon blouse aur skirt. Jackets unke haath mein thi.
 
@@ -106,7 +106,7 @@ Sana peeche se aayi. Ek haath se Ankita ki bum pinch ki, doosre se breast. Ankit
 
 **Ankita:** “SANAAA! Ruk!”
 
-Sana whiteboard ke paas se ghoomi, hans kar peeche dekha. Ankita ne bhi bina ruke uska peechha kiya.
+Sana whiteboard ke paas se ghoomi aur hans kar peeche dekha.
 
 Ankita uske peeche bhaagi. Sana ka pair mat pe atka. Dono sofa pe gir padi. Hasne lagi. Office mein ab sirf unki hansi thi.
 
