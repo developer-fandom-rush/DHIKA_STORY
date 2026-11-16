@@ -1,0 +1,388 @@
+{
+  "schemaVersion": 1,
+  "id": "SW-SHIVANI-EP03-STAFFROOM-ENSEMBLE",
+  "episode": "03",
+  "lead": "shivani",
+  "status": "FINAL_WORKING_PLOT_FOR_AUTHOR_REVIEW__NOT_APPROVED_PROSE",
+  "date": "2026-01-01",
+  "timezone": "Asia/Kolkata",
+  "scene": "Staffroom · The Candid Frame",
+  "start": "14:10",
+  "end": "14:35",
+  "location": "Gurgaon Arts & Science College · faculty staffroom",
+  "continuity": {
+    "previous": "EP02 Shivani ends D01 around 13:20–13:30 on campus, not knowing three men copied her private photograph.",
+    "dependency": "Proposed EP03 presentation completes around 14:05 before this staffroom scene; user has described that sequence, but its full text is not yet published.",
+    "shivaniClothing": "The morning burgundy saree was folded away at 07:38 in EP02 A03; she changed to a professional college outfit. This new scene uses a proposed formal campus look, not the private photograph's attire.",
+    "sameDay": "Thursday, Jan 1 2026; do not infer a holiday prevents college activity because published EP02 already depicts a class and presentation.",
+    "attendance": "Shivani, Pooja, Kriti, Nandini, Ritika, Harsh, Laksh and Arjun Mehta = five women and three men; Arjun is an occasional visiting student, not Office Twins or committee.",
+    "core": "Office Twins age-cohort = Harsh, Laksh, Nandini, Ritika, four 22-year-old adults. Pooja and Kriti are teachers; Sunny/Deepu not in this encounter.",
+    "sourceKnowledge": "Shivani has not learned that Aarav, Dheeraj and Malhotra made unauthorized copies of her private photograph."
+  },
+  "purpose": "One lively integrated ensemble scene; sharp double meanings are incidental, the surprise Laksh–Shivani group-photo catch is the one main physical turning point, and Arjun obtains two distinctive future conversational hooks with Pooja and Kriti without becoming a committee member.",
+  "wardrobeStatus": "PROPOSED_ILLUSTRATIVE_REFERENCE_NOT_YET_AUTHOR_LOCKED",
+  "wardrobe": [
+    {
+      "name": "Shivani",
+      "age": 31,
+      "role": "Lecturer",
+      "outfit": "Sage green embroidered straight kurta, cream slim trousers and ivory sheer embroidered dupatta; tiny bindi, gold earrings; loose side-parted hair.",
+      "narratorView": "Graceful long straight silhouette; the dupatta slides softly as she turns to join a photograph.",
+      "referenceColor": "sage + ivory",
+      "note": "Do not portray her morning private burgundy saree as her current college outfit."
+    },
+    {
+      "name": "Pooja",
+      "age": 23,
+      "role": "Junior Assistant Professor",
+      "outfit": "Lavender-lilac floral embroidered saree, matching elbow-sleeve blouse, silver earrings, hair loose.",
+      "narratorView": "Soft lilac drape frames her relaxed stance; the embroidered pallu moves when she laughs.",
+      "referenceColor": "lavender"
+    },
+    {
+      "name": "Kriti",
+      "age": 24,
+      "role": "Junior teacher, event coordination",
+      "outfit": "Deep wine/burgundy sari with subtle gold pattern, fitted blouse, college lanyard/ID, loose waves.",
+      "narratorView": "Tailored, crisp sari pleats and swinging ID strap underscore a confident brisk stride.",
+      "referenceColor": "burgundy",
+      "note": "This is her current college outfit suggestion, unrelated to Shivani's private burgundy-saree photograph."
+    },
+    {
+      "name": "Nandini",
+      "age": 22,
+      "role": "Undergraduate student",
+      "outfit": "Cream floral embroidered salwar-kameez, teal-green dupatta, white straight trousers, delicate earrings and long hair.",
+      "narratorView": "The light teal dupatta follows her quick, self-assured steps as she directs the group.",
+      "referenceColor": "ivory + teal"
+    },
+    {
+      "name": "Ritika",
+      "age": 22,
+      "role": "Undergraduate student",
+      "outfit": "Dusty-rose embroidered festive cotton-blend saree, simple coordinating blouse, hair casually pinned up.",
+      "narratorView": "Rose-pink pleats shift as she moves between the phone and the other students, with a lively, quick smile.",
+      "referenceColor": "dusty rose"
+    }
+  ],
+  "imageReference": {
+    "origin": "ChatGPT generated five-panel wardrobe lookbook in this conversation",
+    "status": "CHAT_IMAGE_ONLY_NOT_PUBLISHED_IN_GITHUB_ASSET_LIBRARY",
+    "use": "Visual outfit inspiration for author approval; not a locked likeness or automatically accepted clothing canon."
+  },
+  "sceneRules": {
+    "rhythm": "Continuous ~25-minute scene, no obligatory micro-touch ladder or five separate sexual incidents.",
+    "romance": "Mature non-graphic attraction with witty, concise double meanings, character-specific responses and minimal explanation.",
+    "fourFriends": "Harsh–Laksh–Nandini–Ritika have established frank, flirty, friends-with-benefits-like closeness as a user-requested proposal. No four-way couple label, no exclusive pairing, no explicit intimacy or retroactive episode text.",
+    "arjun": "Arjun privately interested in all five women; outwardly confident, tactical and observant, with two memorable miniature conversational plans (Pooja candid, Kriti script).",
+    "sourceStatus": "The user's positive feedback retains the Laksh–Shivani group photo catch as the central proposed moment, but the scene is still not approved prose."
+  },
+  "beats": [
+    {
+      "id": "SR01",
+      "time": "14:10",
+      "title": "Presentation exit, three women in the room",
+      "focus": "Shivani × Pooja × Kriti",
+      "action": "Shivani arrives with her files. Pooja has tea and Kriti is arranging the New Year rehearsal sheet. Natural wardrobe narration gives each a distinct movement.",
+      "dialogue": [
+        {
+          "speaker": "Pooja",
+          "line": "Presentation khatam? Ya audience ne encore maang liya?"
+        },
+        {
+          "speaker": "Shivani",
+          "line": "Encore ka time nahi. Ab tum dono mujhe chai approve kar do."
+        }
+      ],
+      "narrator": "Shivani ka sage kurta aur ivory dupatta uske careful steps ke saath move karta hai; Pooja ki lavender saree easy drape mein hai; Kriti ki wine-red pleats aur ID lanyard practical haste ko underline karte hain."
+    },
+    {
+      "id": "SR02",
+      "time": "14:12",
+      "title": "All five students, including Arjun",
+      "focus": "Five student arrivals",
+      "action": "Harsh, Laksh, Nandini, Ritika aur Arjun enter; Kriti needs a quick photo for the New Year rehearsal notice. Arjun is present as an occasional student visitor and offers his phone, not as committee coordinator.",
+      "dialogue": [
+        {
+          "speaker": "Harsh",
+          "line": "Ma'am, five students against three teachers. Majority hamari!"
+        },
+        {
+          "speaker": "Kriti",
+          "line": "Majority tumhari hogi, decision abhi bhi hamara hai."
+        }
+      ]
+    },
+    {
+      "id": "SR03",
+      "time": "14:13",
+      "title": "Four close friends need no reintroduction",
+      "focus": "Harsh × Laksh × Nandini × Ritika",
+      "action": "Nandini straightens Harsh's crooked collar without ceremony; Ritika exchanges a private look with Laksh. The four have known each other's teasing for years; their closeness is conveyed in one natural sentence, not separate origin scenes.",
+      "dialogue": [
+        {
+          "speaker": "Nandini",
+          "line": "Harsh, pose dene se pehle collar seedha kar le."
+        },
+        {
+          "speaker": "Harsh",
+          "line": "Mere looks tumse kab chhupe hain?"
+        },
+        {
+          "speaker": "Ritika",
+          "line": "Looks nahi, excuses kabhi nahi chhupte."
+        }
+      ]
+    },
+    {
+      "id": "SR04",
+      "time": "14:15",
+      "title": "Arjun's first deliberate approach",
+      "focus": "Arjun × Pooja",
+      "action": "Arjun notices Pooja hiding her smile whenever the phone is raised. Instead of a generic compliment, he asks her to review a quick candid photo. She likes that it catches her mid-laugh; she asks for the photo.",
+      "dialogue": [
+        {
+          "speaker": "Arjun",
+          "line": "Pooja ma'am, aap formal photo mein serious rehti hain. Best angle toh tab milta hai jab aap hasti hain."
+        },
+        {
+          "speaker": "Pooja",
+          "line": "Achha? Ab tum mere photographer banoge?"
+        },
+        {
+          "speaker": "Arjun",
+          "line": "Aap muskura do, frame main sambhaal lunga."
+        }
+      ],
+      "seed": "Pooja agrees to receive the candid via the existing college group later; a new private exchange is not assumed."
+    },
+    {
+      "id": "SR05",
+      "time": "14:17",
+      "title": "Kriti refuses his easy charm",
+      "focus": "Arjun × Kriti",
+      "action": "Kriti catches Arjun looking at her handwritten rehearsal draft. He offers an unexpected punchline for the opening announcement. She doesn't give him credit yet: she tests his wit in front of everyone.",
+      "dialogue": [
+        {
+          "speaker": "Kriti",
+          "line": "Arjun, camera mein focus rakho. Meri script ka audition mat lo."
+        },
+        {
+          "speaker": "Arjun",
+          "line": "Aapki script strong hai ma'am. Bas ending mein thoda suspense badh sakta hai."
+        },
+        {
+          "speaker": "Kriti",
+          "line": "Suspense maintain kar sakte ho ya sirf create karte ho?"
+        }
+      ],
+      "seed": "Kriti is open to hearing one concrete suggestion next rehearsal; Arjun has no committee role."
+    },
+    {
+      "id": "SR06",
+      "time": "14:18",
+      "title": "Nandini sees the strategy",
+      "focus": "Arjun × Nandini",
+      "action": "Nandini quickly notices Arjun has given Pooja and Kriti two entirely different compliments. She calls him out with a grin; Arjun loses his polished rhythm for half a beat.",
+      "dialogue": [
+        {
+          "speaker": "Nandini",
+          "line": "Tum sabke liye alag script likhkar aaye ho?"
+        },
+        {
+          "speaker": "Arjun",
+          "line": "Tum toh bina script ke bhi meri rehearsal fail karwa deti ho."
+        }
+      ]
+    },
+    {
+      "id": "SR07",
+      "time": "14:19",
+      "title": "Ritika's challenge",
+      "focus": "Arjun × Ritika",
+      "action": "Ritika interrupts before he can redirect attention. She challenges him to spend an entire day without complimenting anyone; Kriti smiles at the suggestion.",
+      "dialogue": [
+        {
+          "speaker": "Ritika",
+          "line": "Challenge hai—kal poora din bina kisi ko impress kiye rehna."
+        },
+        {
+          "speaker": "Arjun",
+          "line": "Tum challenge dogi toh jeetna mushkil ho jayega."
+        },
+        {
+          "speaker": "Ritika",
+          "line": "Jeetne ka promise bhi ab mat karna."
+        }
+      ],
+      "seed": "Future Ritika–Arjun rivalry has its own voice; does not require a preplanned touch."
+    },
+    {
+      "id": "SR08",
+      "time": "14:20",
+      "title": "Arjun tries his luck with Shivani",
+      "focus": "Arjun × Shivani",
+      "action": "Shivani deliberately stands at the edge of the group. Arjun notices, invites her into the center and gets one crisp answer from her. His interest in all five remains reader-only, not a group confession.",
+      "dialogue": [
+        {
+          "speaker": "Arjun",
+          "line": "Ma'am, aap corner mein kyun? Sabse important person frame se bahar ho jayega."
+        },
+        {
+          "speaker": "Shivani",
+          "line": "Important log center mein nahi, kaam par focus karte hain. Photo lo, Arjun."
+        }
+      ]
+    },
+    {
+      "id": "SR09",
+      "time": "14:21",
+      "title": "Kriti and Ritika discover common wit",
+      "focus": "Kriti × Ritika",
+      "action": "Ritika recognizes Kriti's handwritten funny rehearsal opener. Kriti notices the student is quick enough to improve the punchline; their own creative banter becomes a future friendship seed.",
+      "dialogue": [
+        {
+          "speaker": "Ritika",
+          "line": "Ma'am, aap serious face ke peeche itni dangerous comedy chhupati hain?"
+        },
+        {
+          "speaker": "Kriti",
+          "line": "Aur tum bina permission punchline bhi chura leti ho?"
+        }
+      ],
+      "seed": "They can edit a short skit later, giving Kriti and Ritika a relationship independent of Arjun's attention."
+    },
+    {
+      "id": "SR10",
+      "time": "14:22",
+      "title": "Camera timer changes the positions",
+      "focus": "Whole ensemble",
+      "action": "Arjun places phone on a stable shelf, sets ten-second timer. Harsh steps sideways jokingly to make space; Shivani turns quickly to join the row while Laksh shifts behind her. Their paths cross unexpectedly.",
+      "dialogue": [
+        {
+          "speaker": "Harsh",
+          "line": "Ten seconds mein picture bhi set karni hai aur image bhi!"
+        }
+      ]
+    },
+    {
+      "id": "SR11",
+      "time": "14:23",
+      "title": "Laksh catches Shivani — main turning point",
+      "focus": "Laksh × Shivani",
+      "action": "Shivani loses balance for a beat. Laksh catches her near the clothed waist as she briefly braces a hand against his shoulder. Her dupatta slips sideways; she feels a sudden shiver of surprise before steadying herself. Laksh's usual quiet composure breaks for a second. The timer captures the candid.",
+      "dialogue": [
+        {
+          "speaker": "Shivani",
+          "line": "Oh—Laksh! Thanks."
+        },
+        {
+          "speaker": "Laksh",
+          "line": "You're okay, ma'am?"
+        },
+        {
+          "speaker": "Shivani",
+          "line": "Haan, bilkul."
+        }
+      ],
+      "note": "The user liked this sudden physical beat. Do not invent an explicit sensation, retrospective guilt, permanent relationship change or second mandatory touch."
+    },
+    {
+      "id": "SR12",
+      "time": "14:24",
+      "title": "The embarrassing photo is actually a great photo",
+      "focus": "Harsh × Laksh × group",
+      "action": "The shot freezes the just-ended moment. Harsh instantly teases Laksh; Nandini and Ritika join the laughter, while Shivani resumes her usual voice without an overlong internal monologue.",
+      "dialogue": [
+        {
+          "speaker": "Harsh",
+          "line": "Bhai, ek photo mein tune itni publicity le li?"
+        },
+        {
+          "speaker": "Nandini",
+          "line": "Publicity nahi, timing perfect thi!"
+        },
+        {
+          "speaker": "Shivani",
+          "line": "Tumhari timing achhi hoti toh classwork bhi time pe hota."
+        }
+      ]
+    },
+    {
+      "id": "SR13",
+      "time": "14:27",
+      "title": "Arjun notices the real competition",
+      "focus": "Arjun's private observation",
+      "action": "Arjun watches the image, momentarily bothered that Laksh became the memorable figure despite Arjun organizing the picture. He does not announce jealousy; instead, he offers a second, properly framed shot and continues to engage the whole group.",
+      "dialogue": [
+        {
+          "speaker": "Arjun",
+          "line": "Ek proper frame aur—iss baar hero banne ka chance sabko milega."
+        },
+        {
+          "speaker": "Pooja",
+          "line": "Pehle ensure karo koi frame se bhaage nahi."
+        }
+      ]
+    },
+    {
+      "id": "SR14",
+      "time": "14:30",
+      "title": "The two future hooks stay small",
+      "focus": "Arjun × Pooja, Arjun × Kriti",
+      "action": "Pooja asks Arjun to send her laughing candid to the college group. Kriti asks him to message the rehearsal punchline along with the photo. Each brief exchange offers a distinct future conversation, not appointments or guaranteed seductions.",
+      "dialogue": [
+        {
+          "speaker": "Kriti",
+          "line": "Aur haan, woh final line yaad rakhna. Sirf photo se marks nahi milenge."
+        },
+        {
+          "speaker": "Arjun",
+          "line": "Ek photo aur ek line—dono yaad rahenge, ma'am."
+        }
+      ]
+    },
+    {
+      "id": "SR15",
+      "time": "14:33",
+      "title": "The four friends bring everyone back to earth",
+      "focus": "Nandini × Ritika × Harsh × Laksh",
+      "action": "Ritika sends Harsh and Laksh toward the corridor; Nandini collects the sheets. Their longtime comfort shows in quick jokes rather than retrospective history. Arjun follows them after returning the phone.",
+      "dialogue": [
+        {
+          "speaker": "Ritika",
+          "line": "Bas, photo session over. Harsh, Laksh—chalo!"
+        },
+        {
+          "speaker": "Harsh",
+          "line": "Ritika ki command toh principal ke notice se bhi fast aati hai."
+        }
+      ]
+    },
+    {
+      "id": "SR16",
+      "time": "14:35",
+      "title": "Normal goodbye, useful seeds",
+      "focus": "Shivani × Pooja × Kriti",
+      "action": "The five students leave. Shivani puts down her cup and returns to her notes. Pooja laughs again at her candid; Kriti circles a line on her script. The photo moment is over, and the scene exits without an imposed psychological debrief.",
+      "dialogue": [
+        {
+          "speaker": "Shivani",
+          "line": "Chalo, ab sach mein kaam."
+        }
+      ]
+    }
+  ],
+  "visualDirection": "Use character-specific wardrobe and silhouette notes at actual movement points; never inventory all anatomy in a paragraph. Narrator sees more than each character knows. The fashion board is ChatGPT-only wardrobe inspiration.",
+  "plotLocks": [
+    "Five women: Shivani, Pooja, Kriti, Nandini, Ritika; three men: Harsh, Laksh, Arjun.",
+    "Four Office Twins: Harsh, Laksh, Nandini, Ritika; Arjun not a fifth core member or cultural committee representative.",
+    "The main physical beat is Laksh catching Shivani at group-photo timer. Keep it brisk.",
+    "Arjun's interest in all five is a character proposal; differentiated mini-plots with Pooja and Kriti; other three brief interactions.",
+    "Kriti × Ritika creative-friendship setup kept as an independent seed.",
+    "Sunny/Deepu not brought back into this staffroom scene.",
+    "No premature reveal of the private-photo theft.",
+    "Outfit reference suggestions do not silently become approved wardrobe canon.",
+    "No expansion into full prose unless author requests it."
+  ]
+}
