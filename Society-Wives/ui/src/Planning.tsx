@@ -14,7 +14,7 @@ type ShivaniSceneReference={schemaVersion:number;id:string;title:string;status:s
 type ShivaniNewBeat={id:string;time:string;title:string;cast:string[];plot:string;dialogue?:{speaker:string;line:string}[];reaction?:string;narratorDirection?:string;knowledge?:{readerOnly:boolean;shivaniAware:boolean;actualContact:boolean}};
 type ShivaniSocietyReturn={title:string;status:string;proseStatus:string;date:string;time:{start:string;end:string};priorFoundation:string[];beats:ShivaniNewBeat[];restrictions:string[]};
 type ShivaniNightPlan={title:string;status:string;proseStatus:string;date:string;episodePlacement:string;time:{firstHomeBeat:string;nightEncounter:string};beats:ShivaniNewBeat[];continuityLocks:string[];relationshipSetup:{shivaniOm:{established:string;proposedNewCharacterAngle:string;fantasyPresentation:string;tone:string};deepuShivani:{established:string;proposedTonight:string};deepuKavya:{new:string;agency:string};twinsKavya:{new:string;distinctVoices:string}};futureArc:Record<string,string>};
-type ShreyaBeat={id:string;time:string|null;type?:string;status:string;title:string;place:string|null;characters:string[];history:string;distinctEvent:string;reaction:string;dialogue?:string[][];exit:string;readerOnlyAfterbeat?:string;readerOnlyFantasy?:{trigger:string;fantasy:string;status?:string};wardrobeProposals?:Record<string,string>;styleLock?:string;futureArc?:{coreConflict:string;nonsexualStakes:string;trajectory:string};};
+type ShreyaBeat={id:string;time:string|null;type?:string;status:string;title:string;place:string|null;characters:string[];history:string;distinctEvent:string;reaction:string;dialogue?:string[][];exit:string;readerOnlyAfterbeat?:string;readerOnlyFantasy?:{trigger:string;fantasy:string;status?:string};wardrobeProposals?:Record<string,string>;wardrobeContinuity?:string;approvalScope?:string;sceneBeats?:{id:string;time:string;heading:string;plot:string;narration?:string;dialogue?:string[][];reaction?:string}[];styleLock?:string;futureArc?:{coreConflict:string;nonsexualStakes:string;trajectory:string};};
 type ShreyaEpisode03Proposal={title:string;status:string;date:string;weekday:string;dayScope:{start:string;end:string;certainty:string};anchor:string;userLocks:string[];timeline:ShreyaBeat[];parkedFutureEncounters:ShreyaBeat[];mergedTransitions:{from:string;into:string;time:string;text:string;status:string}[];reviewBeatSequence:{number:number;id:string;kind:string;title:string;label:string}[];reviewSequencePolicy:string;editorial:{approvalRule:string;sequence:string;sourceIntegrity:string}};
 type ShivaniStaffroomPlot={scene:string;status:string;date:string;start:string;end:string;location:string;purpose:string;wardrobeStatus:string;wardrobe:{name:string;age:number;role:string;outfit:string;narratorView:string;referenceColor:string}[];imageReference:{origin:string;status:string;use:string};beats:{id:string;time:string;title:string;focus:string;action:string;narrator?:string;dialogue?:{speaker:string;line:string}[];seed?:string;note?:string}[];plotLocks:string[];};
 type ShivaniCastLock={title:string;status:string;officeTwinsStudentCore:{id:string;name:string;age:number}[];officeChotu:{name:string;age:number;role:string};societyChotu:{name:string;age:number;role:string};juniorFacultyExcluded:{name:string;age:number}[];futureOnly:{name:string;age:number;note:string};biologicalTwinsNote:string;episode02End:string;nextWork:string;prologueBaselineReference?:{source:string;sourceScene:string;status:string;establishedPreviously:string[];episode03Difference:string}};
@@ -239,7 +239,7 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
        {shreyaEpisode03Proposal?<>
          <p><strong>Episode clock:</strong> {shreyaEpisode03Proposal.dayScope.start}–{shreyaEpisode03Proposal.dayScope.end} · <strong>Anchor:</strong> {shreyaEpisode03Proposal.anchor}</p>
          <p className="source-note"><strong>Sequence rule:</strong> {shreyaEpisode03Proposal.reviewSequencePolicy}</p>
-         <p className="muted">Green/approved labels mean approved <strong>plot</strong>, not published prose. Beat 5 is a parked future arc; optional college scenes (7–9) have not been reviewed. They are NOT required before the approved training-ground encounter.</p>
+         <p className="muted">Approved labels refer to <strong>plot</strong>, not published prose. Beat 5 is a parked future arc. Beats 7–9 now follow the author-selected Shreya × Karan × Aman college encounter direction; exact accident choreography, wardrobe and dialogue are proposed working details for review. Beat 10 remains the independently approved five-person training-ground plot.</p>
          <div className="beat-list" id="shreya-ordered-beats">
            {shreyaEpisode03Proposal.reviewBeatSequence.map(slot=>{
              const beat=slot.kind==='held'?shreyaEpisode03Proposal.parkedFutureEncounters.find(b=>b.id===slot.id):shreyaEpisode03Proposal.timeline.find(b=>b.id===slot.id);
@@ -253,6 +253,18 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
                  <p><strong>Cast:</strong> {beat.characters.join(', ')}</p>
                  <p><strong>Established context:</strong> {beat.history}</p>
                  <p><strong>Event:</strong> {beat.distinctEvent}</p>
+                 {beat.approvalScope&&<p className="source-note"><strong>Approval boundary:</strong> {beat.approvalScope}</p>}
+                 {beat.wardrobeContinuity&&<p><strong>Clothing continuity:</strong> {beat.wardrobeContinuity}</p>}
+                 {beat.sceneBeats&&beat.sceneBeats.length>0&&<>
+                   <h3>Beat-by-beat scene plan</h3>
+                   <div className="beat-list">{beat.sceneBeats.map(step=><details className="episode-outline" key={step.id}>
+                     <summary><strong>{step.id} · {step.time} · {step.heading}</strong></summary>
+                     <p><strong>Plot:</strong> {step.plot}</p>
+                     {step.narration&&<p className="source-note"><strong>Sample visual narration (draft):</strong> {step.narration}</p>}
+                     {step.dialogue?.map((line,i)=><p className="dialogue" key={i}><strong>{line[0]}:</strong> {line[1]}</p>)}
+                     {step.reaction&&<p><strong>Reaction:</strong> {step.reaction}</p>}
+                   </details>)}</div>
+                 </>}
                  {!held&&<p><strong>Immediate reaction:</strong> {beat.reaction}</p>}
                  {beat.dialogue?.map((line,i)=><p className="dialogue" key={i}><strong>{line[0]}:</strong> {line[1]}</p>)}
                  {beat.readerOnlyAfterbeat&&<p className="source-note"><strong>Reader-only afterbeat:</strong> {beat.readerOnlyAfterbeat}</p>}
