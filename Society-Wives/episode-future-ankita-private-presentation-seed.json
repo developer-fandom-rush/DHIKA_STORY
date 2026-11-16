@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "SW-ANKITA-FUTURE-SELF-PRESENTATION-PLOT-SEED",
+  "lead": "ankita",
+  "storyUniverse": "Society Wives — Five Veils of Desire",
+  "status": "PARKED_FUTURE_PLOT_ONLY_NOT_EP03_SCENE03_NOT_APPROVED_PROSE",
+  "originatingScene": "2026-01-01 · Episode 03 · Scene 03",
+  "decision": "On 2026-11-16 author removed the 15:00–15:20 personal-presentation segment from current encounter as plot-forced / potentially out of character. Preserve as optional future setup only, without assigning date, scene or canonical event.",
+  "planning": {
+    "idea": "Ankita may choose at a later, organically motivated encounter to present herself with confidence, deliberately test reactions and lead a playful personal-presentation exchange. Execution, dialogue, motivations, boundaries, partners and future placement are all undecided.",
+    "duration": "20-minute original concept retained as archived suggestion, not a required future duration",
+    "date": "UNSCHEDULED",
+    "episode": "TBD",
+    "proseStatus": "NOT_WRITTEN",
+    "sceneStatus": "NOT_CANON_NOT_PRESENT_DAY",
+    "characterLock": "Avoid forcing a 20-minute performance; her decision must follow believable character development and consent"
+  },
+  "originalAuthorPromptVerbatim": "20 min ankita dono males ko bht jyada seducing manner mai tease kre and both sides double meaning setup ho ankita sirf blush nhi ruling the area .. presentation to puri ho gayi fir ankita khud ki presentation dene lagi .. (suddenly she snaps out and leaves ab blush and reaction aaya ) but she was not satisfied (doubt ki males reaction kya tha toh future seed ki yeah dobara hoga) self doubt ki sach mai sundar hoon (ego challenge)..",
+  "originalPlotBeatVerbatim": {
+    "id": "S03-04",
+    "time": "15:00–15:20",
+    "name": "Twenty-minute Ankita-led personal presentation",
+    "plot": "The official work presentation is already complete. Ankita jokingly turns the next twenty minutes into 'her own presentation', using confident posture, movement, fashion adjustment, sustained eye contact and bold double-meaning conversation to tease both men. Bhalla and Sandeep both actively reply, compliment and test one another's wit; their individual interpretations stay distinct. Ankita rules the room rather than spending the encounter blushing passively. Suddenly she snaps out of the experiment, brings it to an abrupt close and leaves. Only afterward do her deeper blush, racing warmth and reflective uncertainty register. She is not satisfied because she cannot fully read the men's genuine private reactions. Future seed: the unproven 'am I actually beautiful?' ego challenge makes her want to run another test at a later encounter, without a scheduled promise.",
+    "validatedAgainst": "twentyMinutes"
+  }
+}
