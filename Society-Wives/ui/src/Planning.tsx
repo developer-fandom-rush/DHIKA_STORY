@@ -9,6 +9,7 @@ type AuthorSelected={order:string[];beats:Record<string,{title:string;status:str
 const renderGrokRaw=(raw:string)=>raw.split(/\n\s*\n/g).map((part,i)=><p key={i} style={{whiteSpace:'pre-wrap',lineHeight:1.76,margin:'12px 0'}}>{part.split(/(\*\*[^*]+\*\*)/g).map((chunk,j)=>chunk.startsWith('**')&&chunk.endsWith('**')?<strong key={j}>{chunk.slice(2,-2)}</strong>:<span key={j}>{chunk}</span>)}</p>);
 const renderBablooProse=(raw:string)=>raw.split(/\n\s*\n/g).map((part,i)=><p key={i} style={{whiteSpace:'pre-wrap',lineHeight:1.76,margin:'12px 0'}}>{part.split(/(\*\*[^*]+\*\*|\*[^*]+\*)/g).map((chunk,j)=>chunk.startsWith('**')&&chunk.endsWith('**')?<strong key={j}>{chunk.slice(2,-2)}</strong>:chunk.startsWith('*')&&chunk.endsWith('*')?<em key={j}>{chunk.slice(1,-1)}</em>:<span key={j}>{chunk}</span>)}</p>);
 type AnkitaStage={id:string;title:string;start:string;end:string;approval:string;sequence?:{id:string;time?:string;summary:string;dialogue?:{speaker:string;line:string}[];storyIntent?:string;editorFlags?:string[]}[];beats?:{id:string;summary:string}[];openChoices?:string[];};
+type NarrativeCalibration={id:string;title:string;status:string;referenceFile:string;sourceScope:string;diagnosis:{fault:string;correction:string}[];sourceObservations:string[];principles:string[];prohibitions:string[];plotSuggestionFormat:string;proseStandard:string};
 type NarratorStyleRule={status:string;origin:string;appliesTo:string;methods:string[];examplePhrases:string[];useInstructions:string[];sceneTemplate:string[];};
 type AnkitaScene02={scene:string;title:string;status:string;date:string;start:string;end:string;castNames:string[];sequence:{id:string;time:string;heading:string;plot:string;suggestedDialogue?:{speaker:string;line:string}[]}[];lockedDecisions:string[];exclusions:string[];proseStatus:string;nextScene:string;wardrobe:{character:string;look:string;status:string}[];};
 type AnkitaScene03={title:string;status:string;start:string;end:string;beats:{id:string;time:string;name:string;plot:string;suggestedCliffDialogue?:string}[];validation:{requirement:string;status:string;beat:string}[];proseStatus:string;nextSceneSeed:string;};
@@ -58,6 +59,7 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
  const activePlan=leadPlans.find(x=>x.lead===active);
  const ankitaStages=Array.isArray(ankitaOpening?.blocks)?ankitaOpening.blocks as AnkitaStage[]:[];
  const narratorRule=writingStyle?.narratorVisualDescription as NarratorStyleRule|undefined;
+  const eventFirstGuide=writingStyle?.sourceGroundedNarrativeCalibration as NarrativeCalibration|undefined;
  const authorNotes=(twins?.authorRequirement as {exactText?:string}|undefined)?.exactText;
  const twinsStory=(twins?.authorCorrectedProse as {status?:string;beats?:{id:string;title:string;raw:string}[]}|undefined);
  const publishedProse=(Array.isArray(current?.publishedProse)?current.publishedProse:[]) as PublishedLine[];
@@ -267,6 +269,33 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
     </article>
    </section>}
    <section className="planning-panel">
+   <article className="episode-plan-card" id="society-wives-event-first-style">
+     <span className="eyebrow">Global writer's guide · Dhika EP01–EP03 source study · 16 Nov 2026 · Style only, not scene canon</span>
+     <h2>{eventFirstGuide?.title||'Event-first writing: small encounter, meaningful impact'}</h2>
+     <p><strong>New priority:</strong> A character's history may be established in one sentence; an unexpected event can occur without a compulsory progression of minor hand/shoulder contacts. Immediate reaction matters more than an editorial explanation. Double-meaning banter is optional, not a substitute for events.</p>
+     {eventFirstGuide?<>
+       <p className="muted">{eventFirstGuide.sourceScope}</p>
+       <details className="episode-outline">
+         <summary>Source evidence — EP01–EP06 comparison ({eventFirstGuide.sourceObservations.length} findings)</summary>
+         <div className="beat-list">{eventFirstGuide.sourceObservations.map((v,i)=><div className="beat-item" key={i}><p>{v}</p></div>)}</div>
+       </details>
+       <details className="episode-outline" open>
+         <summary>Corrected writing decisions ({eventFirstGuide.principles.length})</summary>
+         <div className="beat-list">{eventFirstGuide.principles.map((v,i)=><div className="beat-item" key={i}><p>{v}</p></div>)}</div>
+       </details>
+       <details className="episode-outline">
+         <summary>Previous mistakes — what will NOT be repeated ({eventFirstGuide.diagnosis.length})</summary>
+         <div className="beat-list">{eventFirstGuide.diagnosis.map((v,i)=><div className="beat-item" key={i}><h3>{v.fault}</h3><p>{v.correction}</p></div>)}</div>
+       </details>
+       <details className="episode-outline">
+         <summary>Specific prohibitions ({eventFirstGuide.prohibitions.length})</summary>
+         <div className="beat-list">{eventFirstGuide.prohibitions.map((v,i)=><div className="beat-item" key={i}><p>{v}</p></div>)}</div>
+       </details>
+       <p><strong>Next plot suggestions:</strong> {eventFirstGuide.plotSuggestionFormat}</p>
+       <p><strong>Prose:</strong> {eventFirstGuide.proseStandard}</p>
+       <p><a href="https://github.com/developer-fandom-rush/DHIKA_STORY/blob/main/Society-Wives/WRITING-STYLE-DHIKA-EP01-EP03-RECALIBRATION.md" target="_blank" rel="noreferrer">Open full source analysis and global writing standard</a></p>
+     </>:<p role="status">Event-first writing guide loading…</p>}
+   </article>
    <details className="episode-outline" id="society-wives-author-narrator-instructions"><summary>Author writing instructions · visual descriptions &amp; flirting style</summary>
     <p><strong>Narrator image, not a character's spoken line.</strong> Describe adult female characters using distinct body-shape metaphors/similes, walking gait, stance, silhouette, outfit fit, fabric movement and turns only when grounded in their wardrobe and scene.</p>
     <p><strong>Separate:</strong> narrator visual description · observer's glance · spoken teasing · woman's own response. Never silently omit an author-requested beat or invent new body canon.</p>
