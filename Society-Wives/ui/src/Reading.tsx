@@ -20,7 +20,7 @@ function Episode02Reading({character,scene}:Props){
   <header className="section-intro"><span className="eyebrow">The Story · 1 January 2026</span><h1>Episode 02</h1><p>The New Year's Unspoken Secrets · Choose whose story to read.</p></header>
   <div className="episode-picker" role="group" aria-label="Choose episode"><button type="button" onClick={()=>openPage('home')}>Episode 01 · Prologue</button><span className="episode-picker-current" aria-current="page">Episode 02 · Six perspectives</span><button type="button" onClick={()=>openPage('reading',{episode:'03',character:active,scene:'01'})}>Episode 03 · Prose</button></div>
   <p className="reader-intro">Pick a character below, then continue scene by scene. Your place in this reading session is shown underneath.</p>
-  <section className="source-note"><strong>Episode 03 has its own prose chapters in this same reader.</strong><p>Read Ankita's Scene 01, Scene 02 draft and approved Scene 03 Beat 1, or Meenakshi's four existing story-text scenes.</p><button type="button" className="button primary" onClick={()=>openPage('reading',{episode:'03',character:'ankita',scene:'01'})}>Read Episode 03 prose →</button></section>
+  <section className="source-note"><strong>Episode 03 has its own prose chapters in this same reader.</strong><p>Read Ankita's Scene 01, Scene 02 draft, and Scene 03 Beats 1–2 (Beat 2 preserved verbatim), or Meenakshi's four existing story-text scenes.</p><button type="button" className="button primary" onClick={()=>openPage('reading',{episode:'03',character:'ankita',scene:'01'})}>Read Episode 03 prose →</button></section>
   <div role="group" aria-label="Choose character perspective" className="perspective-tabs">{peopleOrder.map(w=><button type="button" key={w} onClick={()=>openPage('reading',{character:w})} aria-pressed={w===active} className={w===active?'selected':''}>{titleCase(w)}</button>)}</div>
   <div className="reader-layout">
    <aside className="scene-sidebar"><p className="aside-title">{titleCase(active)} · scenes</p>
@@ -45,6 +45,7 @@ type Ep03Beat={id:string;title:string;status:string;parts:{raw:string;origin:str
 type Ep03Scene={id:string;title:string;date:string;time:string;place:string;status:string;source:string;format:'blocks'|'raw'|'lines'|'beats';blocks?:Ep03Block[];raw?:string;lines?:Ep03Line[];beats?:Ep03Beat[];addenda?:{id:string;raw:string;status:string}[]};
 type Ep03Data={episode:string;title:string;date:string;chapters:Record<string,Ep03Scene[]>};
 const storyTag=(status:string)=>{
+ if(status==='BEATS_01_02_SAVED_REMAINING_BEATS_PENDING')return 'Beats 1–2 saved · Scene 03 in progress';
  if(status==='BEAT_01_USER_LOCKED_REMAINING_BEATS_PENDING')return 'Beat 1 approved · Scene 03 in progress';
  if(status==='USER_APPROVED_PUBLISHED_PROSE')return 'Author-approved prose';
  if(status==='AUTHOR_COMPLETED_SOURCE_WITH_ASSISTANT_DIALOGUE')return 'Author-completed prose';
