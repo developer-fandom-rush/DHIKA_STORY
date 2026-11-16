@@ -984,6 +984,40 @@
         "Prologue weekday/date not established in source"
       ],
       "detail": "Rathore flat · doorway"
+    },
+    {
+      "id": "e03-shreya-SR12-future",
+      "date": null,
+      "sort": null,
+      "start": null,
+      "end": null,
+      "timeLabel": "On hold · no assigned date",
+      "universe": "sw",
+      "title": "The Cellblock Bet — three inmates",
+      "lead": "Shreya",
+      "characters": [
+        "Shreya (33)",
+        "Inmate 1 (30, age from earlier source)",
+        "Inmate 2 (35, age from earlier source)",
+        "Inmate 3 (27, newly suggested age pending author lock)"
+      ],
+      "mentions": [],
+      "episode": "Future plan",
+      "scene": "SR12",
+      "kind": "planned",
+      "state": "planned",
+      "status": "Author-directed future hold · NOT a Jan 1 scene",
+      "source": "episode-03-shreya-jan01-proposed-timeline.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "shreya",
+        "scene": "SR12"
+      },
+      "flags": [
+        "Moved out of Episode 03 same-day sequence at author's request.",
+        "Three inmate placeholders; exact future episode and time unassigned."
+      ],
+      "detail": "Three cunning inmates develop a private competitive wager about drawing the confident Inspector Shreya into repeated conversation. They exploit her desire to solve difficult challenges, making each legitimate interaction an ego test, but she initially remains unaware of their bet. No date or future physical contact is locked."
     }
   ],
   "sourcePolicy": " | Shreya January 3 working scenes SR10–SR13 were moved into the January 1 calendar by direct author instruction 2026-11-16, original plan archived in episode-03-shreya-plan-archive-jan03.json; no content removed from story source."
