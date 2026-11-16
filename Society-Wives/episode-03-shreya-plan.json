@@ -117,17 +117,16 @@
       "end": "13:15",
       "lane": "OFFICE",
       "location": "Police station records desk",
-      "title": "A pattern Poonam notices",
+      "title": "Poonam's observed pattern — brief records-desk exchange",
       "characters": [
         "shreya",
-        "chauhan",
         "shreya_woman_03"
       ],
-      "summary": "Shreya returns to paperwork. Poonam quietly flags Chauhan's unusual invitations and the changes in officer attention.",
+      "summary": "During the existing 12:20–13:15 station paperwork block, Poonam quickly flags Chauhan's unusual follow-up request. Shreya instructs her to handle it through process. No separate substantial scene, new Chauhan appearance, expanded investigation, or extended debrief.",
       "beats": [
-        "A small documentation discrepancy and Poonam's observation create future investigation hooks.",
-        "Shreya does not discover Arvind's gym bag intrusion or the inmates' private bet before the cutoff.",
-        "No return-home or evening scenes are written yet."
+        "Brief exchange only, within already allotted records-work window; Poonam highlights a follow-up request from Chauhan.",
+        "Poonam's private ACP Verma connection remains concealed from Shreya; no flashback or explanation.",
+        "Resume routine documents immediately; no standalone investigation or extensive scene."
       ],
       "dialogue": [
         [
@@ -140,9 +139,10 @@
         ]
       ],
       "notes": [
-        "User-directed: moved from Episode 02 10:15 cutoff to Episode 03 later Jan 1. Do not publish as Jan 1. Time windows are placeholders pending Jan 1 global clock reconciliation."
+        "User-directed: moved from Episode 02 10:15 cutoff to Episode 03 later Jan 1. Do not publish as Jan 1. Time windows are placeholders pending Jan 1 global clock reconciliation.",
+        "2026-11-16 author approval: keep SR13 to a tiny Poonam–Shreya records-desk exchange, no extended briefing or extra scene; Poonam's ACP Verma secret remains unsaid."
       ],
-      "approval": "EXISTING_EP03_PLOT_RETIMED_TO_JAN01_PROSE_PENDING",
+      "approval": "AUTHOR_APPROVED_BRIEF_EXCHANGE_PLOT_ONLY_PROSE_PENDING",
       "date": "2026-01-01",
       "weekday": "Thursday",
       "episode": 3,
