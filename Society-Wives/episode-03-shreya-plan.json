@@ -78,14 +78,17 @@
       "end": "11:40",
       "lane": "OFFICE",
       "location": "District police reporting area",
-      "title": "The DCP review",
+      "title": "DCP Rathod — the review and private imagined evening",
       "characters": [
         "shreya",
         "dcp"
       ],
-      "summary": "DCP Rathod (58) completes a performance review; any private attraction remains an unconfirmed future proposal.",
+      "summary": "During the official documentation review, Rathod challenges one of Shreya's case decisions. She calmly defends it with her evidence and independent reasoning. The exchange is professional and ends with ordinary acknowledgement.",
       "beats": [
-        "Do not silently canonize DCP attraction as established; observe before escalating."
+        "Formal performance review: DCP Rathod (58) challenges one Shreya case decision; she defends it clearly on evidence.",
+        "Shreya leaves professionally without knowledge of any private interest.",
+        "Reader-only afterbeat: DCP privately imagines a mutually chosen intimate relationship with Shreya, arising from admiration of her independent judgment, distinct from ACP's training-test fantasy.",
+        "This is proposed scene direction, not a future promise or reciprocal knowledge."
       ],
       "dialogue": [
         [
@@ -98,47 +101,10 @@
         ]
       ],
       "notes": [
-        "User-directed: moved from Episode 02 10:15 cutoff to Episode 03 later Jan 1. Do not publish as Jan 1. Time windows are placeholders pending Jan 1 global clock reconciliation."
+        "User-directed: moved from Episode 02 10:15 cutoff to Episode 03 later Jan 1. Do not publish as Jan 1. Time windows are placeholders pending Jan 1 global clock reconciliation.",
+        "2026-11-16: Author requests reader-only DCP fantasy; suggested independent-judgment trigger is under review, do not claim approved prose."
       ],
-      "approval": "EXISTING_EP03_PLOT_RETIMED_TO_JAN01_PROSE_PENDING",
-      "date": "2026-01-01",
-      "weekday": "Thursday",
-      "episode": 3,
-      "scheduling": "REPOSITIONED_TO_2026_01_01_BY_AUTHOR_DATE_CORRECTION; TIME_WINDOWS_WORKING",
-      "originalDate": "2026-01-03"
-    },
-    {
-      "id": "SR12",
-      "start": "11:40",
-      "end": "12:15",
-      "lane": "OFFICE",
-      "location": "Authorized interview room",
-      "title": "The cellblock bet",
-      "characters": [
-        "shreya",
-        "inmate_a",
-        "inmate_b"
-      ],
-      "summary": "Two adult inmates privately bet that one can win Shreya's personal attention through charm and flattery during authorized questioning.",
-      "beats": [
-        "Both inmates are adults; no sexual relationship occurs in custody.",
-        "Shreya identifies and redirects personal questions, maintaining police boundaries.",
-        "The bet is unknown to Shreya, but known to the reader; future consequence is a manipulation attempt, not romance."
-      ],
-      "dialogue": [
-        [
-          "Adult inmate (30)",
-          "Madam, aap duty ke bahar bhi itni strict hain?"
-        ],
-        [
-          "Shreya",
-          "Yahaan sawaal case ke hain. Personal life ke nahi."
-        ]
-      ],
-      "notes": [
-        "User-directed: moved from Episode 02 10:15 cutoff to Episode 03 later Jan 1. Do not publish as Jan 1. Time windows are placeholders pending Jan 1 global clock reconciliation."
-      ],
-      "approval": "EXISTING_EP03_PLOT_RETIMED_TO_JAN01_PROSE_PENDING",
+      "approval": "AUTHOR_REQUESTED_PRIVATE_FANTASY__EXECUTION_PROPOSED_NOT_APPROVED_PROSE",
       "date": "2026-01-01",
       "weekday": "Thursday",
       "episode": 3,
@@ -210,7 +176,8 @@
     "Two Chotu roles must stay distinct: society security helper Chintu (23) and newly proposed police-station chai wala (adult, ID shreya_station_chotu).",
     "Further twins/tea vendor/society scenes should be proposed separately, not misrepresented as fixed source history.",
     "Do not invent Jan 2 or Jan 3 scenes or overlap other leads.",
-    "2026-11-16: The prior B1 corridor bridge is a one-line transition inside SR10, not a standalone scene; author supplied the revised Poonam–ACP training assessment, brief Shreya dialogue and ACP reader-only fantasy. The earlier individual-briefing SR10 premise is superseded, not approved prose."
+    "2026-11-16: The prior B1 corridor bridge is a one-line transition inside SR10, not a standalone scene; author supplied the revised Poonam–ACP training assessment, brief Shreya dialogue and ACP reader-only fantasy. The earlier individual-briefing SR10 premise is superseded, not approved prose.",
+    "2026-11-16: Author approved the existing S03-01 Strong-Chai Moment without alteration. SR11 now contains proposed DCP reader-only fantasy logic; SR12 cellblock bet held for unscheduled future encounters (three adult inmates; competitive-ego challenge). Unassigned 11:40–12:20 is not an invented scene."
   ],
   "retimingDecision": {
     "authorDirected": "User explicitly confirmed Episode03 date is January 1, 2026",
@@ -218,5 +185,48 @@
     "archivePath": "Society-Wives/episode-03-shreya-plan-archive-jan03.json",
     "freezeUntil": "Episode 02 10:15 AM",
     "status": "CHANGED_ACTIVE_DATE_NOT_NEW_PROSE"
-  }
+  },
+  "parkedFutureEncounters": [
+    {
+      "id": "SR12",
+      "start": null,
+      "end": null,
+      "lane": "OFFICE",
+      "location": "Authorized interview room",
+      "title": "The cellblock bet",
+      "characters": [
+        "shreya",
+        "inmate_1",
+        "inmate_2",
+        "inmate_3"
+      ],
+      "summary": "Three cunning inmates develop a private competitive wager about drawing the confident Inspector Shreya into repeated conversation. They exploit her desire to solve difficult challenges, making each legitimate interaction an ego test, but she initially remains unaware of their bet. No date or future physical contact is locked.",
+      "beats": [
+        "Shreya's competitive pride drives her to investigate their puzzle/challenge and can eventually cause her to lose a nonsexual wager.",
+        "A temporary, voluntary obligation to hear their explanation or respond to a legitimate authorized question, without compromising legal procedure or removing her ability to refuse. She is never required to obey personal or sexual demands.",
+        "Repeated dialogue, escalating psychological competition and a possible future attraction may be planned later; any intimacy must be freely chosen, not punishment for losing, and not part of a custody quid pro quo."
+      ],
+      "dialogue": [
+        [
+          "Adult inmate (30)",
+          "Madam, aap duty ke bahar bhi itni strict hain?"
+        ],
+        [
+          "Shreya",
+          "Yahaan sawaal case ke hain. Personal life ke nahi."
+        ]
+      ],
+      "notes": [
+        "User-directed: moved from Episode 02 10:15 cutoff to Episode 03 later Jan 1. Do not publish as Jan 1. Time windows are placeholders pending Jan 1 global clock reconciliation.",
+        "2026-11-16: User placed SR12 on hold; three inmate placeholders. 30 & 35 established, third 27 proposed, final names intentionally omitted. No assigned date/time, no immediate intimate contact."
+      ],
+      "approval": "ON_HOLD_UNSCHEDULED_FUTURE_PLOT",
+      "date": "2026-01-01",
+      "weekday": "Thursday",
+      "episode": 3,
+      "scheduling": "REPOSITIONED_TO_2026_01_01_BY_AUTHOR_DATE_CORRECTION; TIME_WINDOWS_WORKING",
+      "originalDate": "2026-01-03",
+      "originalProposedSlot": "2026-01-01 11:40–12:15"
+    }
+  ]
 }
