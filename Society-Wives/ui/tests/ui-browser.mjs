@@ -209,8 +209,8 @@ try {
  check((await page.locator('#shreya-ep03-S03-03 > summary').innerText()).includes('author review'),'College meeting clearly indicates staging is still a draft');
  await page.locator('#shreya-ep03-S03-03 > summary').click();
  check(await page.locator('#shreya-ep03-S03-03 .beat-list > details').count()===5,'College scene includes all five reviewable mini-beats');
- await page.locator('#shreya-ep03-S03-03 .beat-list > details').nth(1).locator('summary').click();
- check((await page.locator('#shreya-ep03-S03-03 .beat-list > details').nth(1).innerText()).includes('backpack strap'),'Beat 8 accident storyboard appears in UI');
+ await page.locator('#shreya-ep03-S03-03 .beat-list > details').nth(2).locator('summary').click();
+ check((await page.locator('#shreya-ep03-S03-03 .beat-list > details').nth(2).innerText()).includes('backpack strap'),'Beat 8 accident storyboard appears in UI');
  check((await page.locator('#shreya-ep03-S03-04 > summary').innerText()).includes('training gear change'),'Beat 9 station return and outfit continuity follows accident');
  check((await page.locator('#shreya-ep03-SR13 summary').innerText()).includes('Approved'),'Beat 6 short exchange marked approved');
  check(await page.locator('#meenakshi-ep03-prose-moved').count()===0,'Shreya Planning excludes unrelated Meenakshi episode cards');
