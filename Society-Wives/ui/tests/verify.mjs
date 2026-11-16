@@ -56,7 +56,13 @@ assert.ok(ankitaOpening.blocks[1].beats.some(b=>b.summary.includes('surprise')),
 assert.ok(ankitaOpening.blocks[1].beats.some(b=>b.summary.includes('forfeit')),'Funny late-arrival consequence must be retained');
 const ep03Reader=read('episode-03-reader.json');
 assert.equal(ep03Reader.episode,'03','Single Episode 03 reader index');
-assert.deepEqual(ep03Reader.chapters.ankita.map(x=>x.id),['01','02','03','06'],'Ankita reader includes approved Scene03 Beat1 without changing original scene order');
+assert.deepEqual(ep03Reader.chapters.ankita.map(x=>x.id),['01','02','03','04','06'],'Ankita reader includes Rohit Scene04 after Scene03');
+const scene04Prose=ep03Reader.chapters.ankita.find(x=>x.id==='04');
+assert.equal(scene04Prose.format,'raw','Rohit Scene04 contains prose, not a planning outline');
+assert.equal(scene04Prose.status,'USER_SELECTED_SCENE04_INTRO_PROSE_DRAFT_FOR_READER','Rohit intro is selected draft, not final approval');
+const rohitSource=readFileSync(resolve(root,'episode-03-ankita-scene-04-rohit-intro-prose.md'),'utf8');
+assert.ok(rohitSource.includes(scene04Prose.raw),'Scene04 reader must preserve the selected Rohit intro draft');
+assert.ok(scene04Prose.raw.includes('asset acknowledgement')&&scene04Prose.raw.includes('कल complete होगी'),'Jan 2 slip seed must stay');
 const ankitaBeat1=ep03Reader.chapters.ankita.find(x=>x.id==='03');
 assert.equal(ankitaBeat1.format,'beats','Scene03 Beat1 is partial prose, not a completed scene');
 assert.equal(ankitaBeat1.beats.length,3,'Scene03 reader must show original Beats 1–2 followed directly by the Aishwarya cliff');
