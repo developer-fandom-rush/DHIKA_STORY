@@ -10,8 +10,8 @@
   "leadName": "Shreya Rathore",
   "leadAge": 33,
   "profession": "Police Inspector",
-  "status": "EPISODE 02 CLOSED BY USER — ENDS 2026-01-01 10:15 AM AT SR09; SR01, SR02A, SR02B, SR04–SR09 PUBLISHED; SR03 REFERENCED/UNPUBLISHED; SR10–SR13 DEFERRED TO JAN 03",
-  "stopRule": "EP02 ENDS at 10:15 AM on 2026-01-01 after SR09 (Chauhan corridor). Do not write or imply any further Shreya EP02 scene; Jan 3 pending scenes belong to Episode 03.",
+  "status": "EPISODE 02 CLOSED 2026-01-01 10:15 AT SR09; ALL NINE PRESENT SHREYA PROSE SCENES AUTHOR-APPROVED 2026-11-16; SR03 PLOT APPROVED BUT FULL PROSE NOT PRESENT; SR10–SR13 MOVED TO EP03 JAN 01",
+  "stopRule": "EP02 ENDS at 10:15 AM on Thursday 2026-01-01 after SR09. All nine actual Episode 02 Shreya prose scenes were explicitly approved by the author on 2026-11-16. SR03 is author-approved plot only, not published prose. EP03 new events on same 2026-01-01 date begin after 10:15; no silent change to existing EP02 scenes.",
   "characterCorrections": [
     {
       "oldName": "Naina",
@@ -197,7 +197,7 @@
         "No scene with Ankita in this workout; her exercise session ended at 06:52.",
         "SR01 now closes at 07:28 with Samar and Shaan leaving; Shreya stays in gym until 07:52 for SR02A."
       ],
-      "approval": "USER_APPROVED_PROSE_PUBLISHED",
+      "approval": "AUTHOR_APPROVED_PROSE_PUBLISHED_2026_11_16",
       "publishedScene": {
         "uiTab": "shreya-prose",
         "uiHref": "./episode-02.html?tab=shreya-prose",
@@ -209,7 +209,8 @@
         ],
         "publication": "USER_REQUESTED_PUBLISHED_SR01",
         "nextSceneId": "SR02A"
-      }
+      },
+      "authorConfirmationDate": "2026-11-16"
     },
     {
       "id": "SR02A",
@@ -251,7 +252,7 @@
         "Physical workout dampness and a practical nursing-pad check are non-erotic details, not sexualized bodily fluid descriptions.",
         "Do not depict Taniya and Soniya physically present before 08:25."
       ],
-      "approval": "USER_REQUESTED_PROSE_PUBLISHED",
+      "approval": "AUTHOR_APPROVED_PROSE_PUBLISHED_2026_11_16",
       "publishedScene": {
         "uiTab": "shreya-prose",
         "uiHref": "./episode-02.html?tab=shreya-prose#shreya-sr02a-vivek",
@@ -259,7 +260,8 @@
         "images": [
           "./assets/shreya/ep02-sr02a-vivek-gym-kiss.png"
         ]
-      }
+      },
+      "authorConfirmationDate": "2026-11-16"
     },
     {
       "id": "SR02B",
@@ -311,13 +313,14 @@
         "The child does not participate in sexual or flirtatious interactions.",
         "Next scene is SR03, society lobby Rajeev greeting at 08:12–08:13."
       ],
-      "approval": "USER_REQUESTED_PROSE_PUBLISHED",
+      "approval": "AUTHOR_APPROVED_PROSE_PUBLISHED_2026_11_16",
       "publishedScene": {
         "uiTab": "shreya-prose",
         "uiHref": "./episode-02.html?tab=shreya-prose#shreya-sr02b-home",
         "images": [],
         "publication": "USER_REQUESTED_PUBLISHED_SR02B"
-      }
+      },
+      "authorConfirmationDate": "2026-11-16"
     },
     {
       "id": "SR03",
@@ -348,7 +351,8 @@
       "notes": [
         "Retimed after published SR02B; Rajeev's short lobby greeting must finish by 08:13, before Karan/Aman gate exchange."
       ],
-      "approval": "USER_ACCEPTED_WORKING_PLOT"
+      "approval": "AUTHOR_APPROVED_PLOT_ONLY_FULL_PROSE_MISSING",
+      "authorConfirmationDate": "2026-11-16"
     },
     {
       "id": "SR04",
@@ -488,13 +492,14 @@
         "CHINTU DEFERRED: adult 23-year-old society security helper gets his own recurring Shreya arc from next episode, not this SR04.",
         "Retimed security desk 08:15–08:20 after the twins' gate greeting; Shreya leaves for station at 08:20."
       ],
-      "approval": "USER_APPROVED_PROSE_PUBLISHED",
+      "approval": "AUTHOR_APPROVED_PROSE_PUBLISHED_2026_11_16",
       "publishedScene": {
         "uiTab": "shreya-prose",
         "uiHref": "./episode-02.html?tab=shreya-prose#shreya-sr04-mahendra",
         "images": [],
         "publication": "USER_REQUESTED_PUBLISHED_SR04"
-      }
+      },
+      "authorConfirmationDate": "2026-11-16"
     },
     {
       "id": "SR05",
@@ -545,7 +550,7 @@
       "notes": [
         "Retimed 08:13–08:15 after SR03; Karan/Aman then meet Shivani 08:16–08:20, then Taniya/Soniya at gym from 08:25."
       ],
-      "approval": "USER_REQUESTED_PROSE_PUBLISHED",
+      "approval": "AUTHOR_APPROVED_PROSE_PUBLISHED_2026_11_16",
       "publishedScene": {
         "uiTab": "shreya-prose",
         "uiHref": "./episode-02.html?tab=shreya-prose#shreya-sr05-first-button",
@@ -554,7 +559,8 @@
           "./assets/shreya/ep02-sr05-karan-aman-gate.png"
         ],
         "publication": "USER_REQUESTED_PUBLISHED_SR05"
-      }
+      },
+      "authorConfirmationDate": "2026-11-16"
     },
     {
       "id": "SR06",
@@ -578,7 +584,7 @@
       "notes": [
         "Twin Karan/Aman have already moved to their Shivani and Taniya gym thread."
       ],
-      "approval": "USER_REQUESTED_PROSE_PUBLISHED",
+      "approval": "AUTHOR_APPROVED_PROSE_PUBLISHED_2026_11_16",
       "publishedScene": {
         "uiTab": "shreya-prose",
         "uiHref": "./episode-02.html?tab=shreya-prose#shreya-sr06-drive",
@@ -587,7 +593,8 @@
           "./assets/shreya/ep02-police-hallway-portrait.png"
         ],
         "publication": "USER_REQUESTED_PUBLISHED_SR06"
-      }
+      },
+      "authorConfirmationDate": "2026-11-16"
     },
     {
       "id": "SR07",
@@ -773,7 +780,7 @@
         "SR07 is fiction; all adults; workplace hierarchy remains part of story conflict.",
         "Shreya's nursing care is a separate family reality, not part of workplace flirtation."
       ],
-      "approval": "USER_REQUESTED_PROSE_PUBLISHED",
+      "approval": "AUTHOR_APPROVED_PROSE_PUBLISHED_2026_11_16",
       "publishedScene": {
         "uiTab": "shreya-prose",
         "uiHref": "./episode-02.html?tab=shreya-prose#shreya-sr07-favourite-trainees",
@@ -781,7 +788,8 @@
           "./assets/shreya/ep02-sr07-rohas-lokesh-briefing.png"
         ],
         "publication": "USER_REQUESTED_PUBLISHED_SR07"
-      }
+      },
+      "authorConfirmationDate": "2026-11-16"
     },
     {
       "id": "SR08",
@@ -808,7 +816,7 @@
         "No forced permission discussion or retail tag is part of this approved scene.",
         "Arvind has no FIL or biological family relation to Shreya; user requested correction."
       ],
-      "approval": "USER_APPROVED_VERBATIM_PROSE_PUBLISHED",
+      "approval": "AUTHOR_APPROVED_PROSE_PUBLISHED_2026_11_16",
       "publishedScene": {
         "uiTab": "shreya-prose",
         "uiHref": "./episode-02.html?tab=shreya-prose#shreya-sr08-arvind",
@@ -817,7 +825,8 @@
         "rawText": "**SR08 — Arvind’s Forbidden Thoughts**  \n09:20–09:40 AM · Rathore residence · Outer storage area  \n*Arvind’s private POV — Shreya physically absent, on duty at police station*\n\nArvind outer storage area mein aaya. Wahan Shreya ka gym bag thoda ajeeb angle se pada tha, zip half open, aur kuch kapda andar se bahar nikal ke atka hua tha. Woh bag ko utha ke theek se shelf pe rakhne laga.\n\nJab usne stuck kapda andar theek kiya, tab usko feel hua ki fabric thoda damp hai. Bag ke andar se subah ke workout clothes dikh gaye — red sports bra aur matching pants. Kapda abhi bhi paseene se geela tha. Sports bra ke andar wale hisse pe milk leakage ka halka white mark bhi saaf dikh raha tha.\n\nArvind ne bag ko shelf pe rakh diya, lekin haath ruk gaya. Usne bra ko ek second ke liye haath mein liya. Kapda garam aur thoda chipchipa laga. Usne pehle naram sa smell liya — fresh workout sweat aur uski body ka scent. Saans tez ho gayi. Phir dheere se usne bra ko munh ke paas laaya aur milk stain wale hisse ko lick kiya. Ek dheemi groan nikal gayi.\n\nSubah wali Shreya turant dimaag mein aa gayi — red outfit mein confident, thodi si sweat se chamakti hui, uski taraf muskura ke dekh rahi thi. Imagination mein woh uske saamne bra utaar rahi thi, milky breasts fully exposed, nipples thode stiff, milk ki halki leakage abhi bhi.\n\nPhir usne pants bhi haath mein liye. Intimate area ke damp fabric ko usne deeply smell kiya, phir tongue se lick kiya. Doosri groan tez ho gayi.\n\nUske mind mein scene aur gahra ho gaya. Shreya gym mein forward bend kar rahi hai, pants tight aur sweat se chipki hui, aur woh usse dekh ke jaanti hai ki woh kahan dekh raha hai. Phir woh uske paas aati hai, uski haath pakad ke apni bra ke andar le jaati hai, uski ungliyon ko milk-damp skin pe feel karwati hai.\n\nArvind ne aankhein kholi. Woh abhi bhi akela tha. Bag ab theek se shelf pe pada tha. Shreya police station mein thi, bilkul unaware.\n\nUsne clothes wapas bag mein rakh diye, zip band ki, aur room se nikal gaya. Lekin andar jo obsession jaag gayi thi, woh ab easily nahi jaane wali thi.",
         "paragraphCount": 8,
         "images": []
-      }
+      },
+      "authorConfirmationDate": "2026-11-16"
     },
     {
       "id": "SR09",
@@ -952,7 +961,7 @@
       "notes": [
         "Published full user-supplied SR09 narrative. Treat exact rawText as the prose source of truth; no invented additions."
       ],
-      "approval": "USER_APPROVED_VERBATIM_PROSE_PUBLISHED",
+      "approval": "AUTHOR_APPROVED_PROSE_PUBLISHED_2026_11_16",
       "publishedScene": {
         "uiTab": "shreya-prose",
         "uiHref": "./episode-02.html?tab=shreya-prose#shreya-sr09-chauhan",
@@ -963,7 +972,8 @@
         "images": [
           "./assets/shreya/ep02-sr09-chauhan-corridor.png"
         ]
-      }
+      },
+      "authorConfirmationDate": "2026-11-16"
     }
   ],
   "secrets": [
@@ -1284,7 +1294,7 @@
     }
   ],
   "imagePolicy": "SR01 images are repository-hosted in assets/shreya/, with Drive originals. Signs visible in AI concept images are non-canon. Other Shreya archived images remain available. No other scenes automatically approved.",
-  "approvedPolicy": "The user called the plot great and requested publication in common Episode 02. This is a user-accepted working plot, not final prose or authorization for new explicit scenes.",
+  "approvedPolicy": "Author correction 2026-11-16: all existing SR prose scenes are approved. The SR03 plot is approved, but its original full prose is absent and must not be invented; honor the user selection without relabeling missing content as published.",
   "leadDetails": {
     "breastfeedingMotherOf": "Anaya",
     "sr01Outfit": {
@@ -1318,7 +1328,7 @@
       "counterpart": "chintu",
       "age": 23,
       "earliestEpisode": "03",
-      "status": "USER_RESERVED_NEXT_EPISODE_2026-01-03",
+      "status": "AUTHOR_REDIRECTED_TO_EP03_2026_01_01__NOT_WRITTEN",
       "desiredArc": "Chintu becomes a recurring young adult confidant / admiring society helper for Shreya, analogous in narrative role to Dhika's Chotu. Build encounters and trust gradually; no events from Dhika automatically imported.",
       "constraints": [
         "Distinct characters: Chintu (23) is not Dhika's Chotu.",
@@ -1326,8 +1336,9 @@
         "Adult, consensual, standalone character progression.",
         "Plan encounter history before escalating or claiming any relationship."
       ],
-      "date": "2026-01-03",
-      "episode": 3
+      "date": "2026-01-01",
+      "episode": 3,
+      "priorReservedDate": "2026-01-03"
     }
   ],
   "uniformContinuity": {
@@ -1373,5 +1384,21 @@
     "episodeCutoff": "10:15",
     "lastScene": "SR09",
     "notes": "Eight generated scene-inspired images. No SR08 fantasy image; previously rejected generation not used. EP02 closure unchanged."
+  },
+  "authorApprovalUpdate": {
+    "date": "2026-11-16",
+    "authorStatement": "SR all scenes are approved",
+    "proseSceneIds": [
+      "SR01",
+      "SR02A",
+      "SR02B",
+      "SR05",
+      "SR04",
+      "SR06",
+      "SR07",
+      "SR08",
+      "SR09"
+    ],
+    "plotApprovedNoProse": "SR03"
   }
 }
