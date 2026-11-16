@@ -6,6 +6,42 @@
   "sourcePolicy": "Source-scene order retained; cross-lead events sorted by clock, not author approval. No prose rewritten. Taniya/Soniya source duplicates indexed once. EP03 Ankita scene-01–08 plotting entries indexed separately from approved EP02 source scenes. Jan1 Ankita plot ends at 18:25, no later discarded home or elders scenes.",
   "events": [
     {
+      "id": "jan01-meenakshi-harish-sunil-night-future",
+      "date": "2026-01-01",
+      "sort": null,
+      "start": null,
+      "end": null,
+      "timeLabel": "Late night · after everyone has left · exact time TBD",
+      "universe": "sw",
+      "title": "Harish & Sunil — Outside Society (future-episode seed)",
+      "subtitle": "Reader-only intentions; no present-day prose or encounter",
+      "lead": "Meenakshi",
+      "characters": [
+        "Harish Pal",
+        "Sunil Yadav"
+      ],
+      "mentions": [
+        "Meenakshi"
+      ],
+      "episode": "Future plan",
+      "scene": "HS-NIGHT",
+      "kind": "planned",
+      "state": "future-proposal",
+      "status": "Author-directed night placement · plot-only · not written",
+      "source": "episode-02-meenakshi-plan.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "meenakshi",
+        "scene": "HS-NIGHT"
+      },
+      "flags": [
+        "Not an Episode 03 scene",
+        "No fixed clock time",
+        "Female staff unaware of workers' private motives"
+      ],
+      "detail": "1 January 2026, late night, outside Gulmohar Heights society after the others have gone. Harish and Sunil have a brief private reader-only POV about their hidden attraction and future plans. They have not approached Meenakshi or carried out those plans. This belongs to a future episode and must not interrupt the Farmhouse Scene 02 or 14:15 Naveen handoff."
+    },
+    {
       "id": "e02-ankita-A02-SCENE-1",
       "date": "2026-01-01",
       "sort": "06:20",
@@ -206,7 +242,7 @@
       "scene": "SR01",
       "kind": "source-scene",
       "state": "approved-prose",
-      "status": "Approved prose",
+      "status": "Author-approved prose",
       "source": "continuity-verbatim/episode-02/shreya.json",
       "reader": {
         "type": "sw-episode02",
@@ -425,8 +461,8 @@
       "episode": "02",
       "scene": "SR02A",
       "kind": "source-scene",
-      "state": "source-review",
-      "status": "Published source · approval review",
+      "state": "approved-prose",
+      "status": "Author-approved prose",
       "source": "continuity-verbatim/episode-02/shreya.json",
       "reader": {
         "type": "sw-episode02",
@@ -599,8 +635,8 @@
       "episode": "02",
       "scene": "SR02B",
       "kind": "source-scene",
-      "state": "source-review",
-      "status": "Published source · approval review",
+      "state": "approved-prose",
+      "status": "Author-approved prose",
       "source": "continuity-verbatim/episode-02/shreya.json",
       "reader": {
         "type": "sw-episode02",
@@ -697,8 +733,8 @@
       "episode": "02",
       "scene": "SR03",
       "kind": "planned",
-      "state": "no-prose",
-      "status": "Working plot · full prose not published",
+      "state": "planned",
+      "status": "Author-approved plot · full prose not published",
       "source": "episode-02-shreya-plan.json",
       "reader": {
         "type": "sw-plan",
@@ -706,7 +742,8 @@
         "scene": "SR03"
       },
       "flags": [
-        "Missing published prose"
+        "Missing published prose",
+        "Author approved plot 16 Nov 2026; SR03 full original prose missing"
       ],
       "detail": "Rajeev, 61, an older associate socially presented as Ankita's household elder (not actual FIL), greets Shreya after his 07:19–07:34 family event. He notices her poise and uniform in a brief exchange."
     },
@@ -738,8 +775,8 @@
       "episode": "02",
       "scene": "SR05",
       "kind": "source-scene",
-      "state": "source-review",
-      "status": "Published source · approval review",
+      "state": "approved-prose",
+      "status": "Author-approved prose",
       "source": "continuity-verbatim/episode-02/shreya.json",
       "reader": {
         "type": "sw-episode02",
@@ -809,7 +846,7 @@
       "scene": "SR04",
       "kind": "source-scene",
       "state": "approved-prose",
-      "status": "Approved prose",
+      "status": "Author-approved prose",
       "source": "continuity-verbatim/episode-02/shreya.json",
       "reader": {
         "type": "sw-episode02",
@@ -914,8 +951,8 @@
       "episode": "02",
       "scene": "SR06",
       "kind": "source-scene",
-      "state": "source-review",
-      "status": "Published source · approval review",
+      "state": "approved-prose",
+      "status": "Author-approved prose",
       "source": "continuity-verbatim/episode-02/shreya.json",
       "reader": {
         "type": "sw-episode02",
@@ -1264,8 +1301,8 @@
       "episode": "02",
       "scene": "SR07",
       "kind": "source-scene",
-      "state": "source-review",
-      "status": "Published source · approval review",
+      "state": "approved-prose",
+      "status": "Author-approved prose",
       "source": "continuity-verbatim/episode-02/shreya.json",
       "reader": {
         "type": "sw-episode02",
@@ -1443,7 +1480,7 @@
       "scene": "SR08",
       "kind": "source-scene",
       "state": "approved-prose",
-      "status": "Approved prose",
+      "status": "Author-approved prose",
       "source": "continuity-verbatim/episode-02/shreya.json",
       "reader": {
         "type": "sw-episode02",
@@ -1546,7 +1583,7 @@
       "scene": "SR09",
       "kind": "source-scene",
       "state": "approved-prose",
-      "status": "Approved prose",
+      "status": "Author-approved prose",
       "source": "continuity-verbatim/episode-02/shreya.json",
       "reader": {
         "type": "sw-episode02",
@@ -1837,6 +1874,39 @@
       "detail": null
     },
     {
+      "id": "e03-shreya-SR10",
+      "date": "2026-01-01",
+      "sort": "10:30",
+      "start": "10:30",
+      "end": "11:10",
+      "timeLabel": "10:30–11:10",
+      "universe": "sw",
+      "title": "ACP's unusual preference",
+      "lead": "Shreya",
+      "characters": [
+        "shreya",
+        "acp",
+        "shreya_woman_03"
+      ],
+      "mentions": [],
+      "episode": "03",
+      "scene": "SR10",
+      "kind": "planned",
+      "state": "planned",
+      "status": "Episode 03 · 1 Jan working plot · prose pending",
+      "source": "episode-03-shreya-plan.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "shreya",
+        "scene": "SR10"
+      },
+      "flags": [
+        "User explicitly moved Shreya Episode 03 to January 1, 2026",
+        "Time provisional; plot only, no authored prose"
+      ],
+      "detail": "ACP Verma (50) repeatedly asks Shreya for an individual briefing rather than the normal group one. Poonam notices the change."
+    },
+    {
       "id": "e02-ankita-P03",
       "date": "2026-01-01",
       "sort": "10:37",
@@ -2002,6 +2072,71 @@
       "detail": null
     },
     {
+      "id": "e03-shreya-SR11",
+      "date": "2026-01-01",
+      "sort": "11:30",
+      "start": "11:30",
+      "end": "11:40",
+      "timeLabel": "11:30–11:40",
+      "universe": "sw",
+      "title": "The DCP review",
+      "lead": "Shreya",
+      "characters": [
+        "shreya",
+        "dcp"
+      ],
+      "mentions": [],
+      "episode": "03",
+      "scene": "SR11",
+      "kind": "planned",
+      "state": "planned",
+      "status": "Episode 03 · 1 Jan working plot · prose pending",
+      "source": "episode-03-shreya-plan.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "shreya",
+        "scene": "SR11"
+      },
+      "flags": [
+        "User explicitly moved Shreya Episode 03 to January 1, 2026",
+        "Time provisional; plot only, no authored prose"
+      ],
+      "detail": "DCP Rathod (58) completes a performance review; any private attraction remains an unconfirmed future proposal."
+    },
+    {
+      "id": "e03-shreya-SR12",
+      "date": "2026-01-01",
+      "sort": "11:40",
+      "start": "11:40",
+      "end": "12:15",
+      "timeLabel": "11:40–12:15",
+      "universe": "sw",
+      "title": "The cellblock bet",
+      "lead": "Shreya",
+      "characters": [
+        "shreya",
+        "inmate_a",
+        "inmate_b"
+      ],
+      "mentions": [],
+      "episode": "03",
+      "scene": "SR12",
+      "kind": "planned",
+      "state": "planned",
+      "status": "Episode 03 · 1 Jan working plot · prose pending",
+      "source": "episode-03-shreya-plan.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "shreya",
+        "scene": "SR12"
+      },
+      "flags": [
+        "User explicitly moved Shreya Episode 03 to January 1, 2026",
+        "Time provisional; plot only, no authored prose"
+      ],
+      "detail": "Two adult inmates privately bet that one can win Shreya's personal attention through charm and flattery during authorized questioning."
+    },
+    {
       "id": "e02-ankita-P07",
       "date": "2026-01-01",
       "sort": "12:03",
@@ -2064,6 +2199,39 @@
         "Missing published prose"
       ],
       "detail": "Ritesh enters Meenakshi's locker using an unauthorized duplicate key."
+    },
+    {
+      "id": "e03-shreya-SR13",
+      "date": "2026-01-01",
+      "sort": "12:20",
+      "start": "12:20",
+      "end": "13:15",
+      "timeLabel": "12:20–13:15",
+      "universe": "sw",
+      "title": "A pattern Poonam notices",
+      "lead": "Shreya",
+      "characters": [
+        "shreya",
+        "chauhan",
+        "shreya_woman_03"
+      ],
+      "mentions": [],
+      "episode": "03",
+      "scene": "SR13",
+      "kind": "planned",
+      "state": "planned",
+      "status": "Episode 03 · 1 Jan working plot · prose pending",
+      "source": "episode-03-shreya-plan.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "shreya",
+        "scene": "SR13"
+      },
+      "flags": [
+        "User explicitly moved Shreya Episode 03 to January 1, 2026",
+        "Time provisional; plot only, no authored prose"
+      ],
+      "detail": "Shreya returns to paperwork. Poonam quietly flags Chauhan's unusual invitations and the changes in officer attention."
     },
     {
       "id": "e02-ankita-P08",
@@ -3189,42 +3357,6 @@
         }
       ],
       "sourceEvidence": "Original prose present in Episode 03 unified reader; source approval shown per scene."
-    },
-    {
-      "id": "jan01-meenakshi-harish-sunil-night-future",
-      "date": "2026-01-01",
-      "sort": null,
-      "start": null,
-      "end": null,
-      "timeLabel": "Late night · after everyone has left · exact time TBD",
-      "universe": "sw",
-      "title": "Harish & Sunil — Outside Society (future-episode seed)",
-      "subtitle": "Reader-only intentions; no present-day prose or encounter",
-      "lead": "Meenakshi",
-      "characters": [
-        "Harish Pal",
-        "Sunil Yadav"
-      ],
-      "mentions": [
-        "Meenakshi"
-      ],
-      "episode": "Future plan",
-      "scene": "HS-NIGHT",
-      "kind": "planned",
-      "state": "future-proposal",
-      "status": "Author-directed night placement · plot-only · not written",
-      "source": "episode-02-meenakshi-plan.json",
-      "reader": {
-        "type": "sw-plan",
-        "character": "meenakshi",
-        "scene": "HS-NIGHT"
-      },
-      "flags": [
-        "Not an Episode 03 scene",
-        "No fixed clock time",
-        "Female staff unaware of workers' private motives"
-      ],
-      "detail": "1 January 2026, late night, outside Gulmohar Heights society after the others have gone. Harish and Sunil have a brief private reader-only POV about their hidden attraction and future plans. They have not approached Meenakshi or carried out those plans. This belongs to a future episode and must not interrupt the Farmhouse Scene 02 or 14:15 Naveen handoff."
     }
   ]
 }
