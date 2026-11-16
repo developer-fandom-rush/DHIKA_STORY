@@ -9,6 +9,7 @@ type AnkitaScene05={title:string;status:string;date:string;time:{start:string;en
 type AnkitaScene06={title:string;status:string;date:string;time:{start:string;end:string;status:string};proseStatus:string;setting:{otherPeople:string};choreography:{id:string;formation:string;participants:string;contact:string;reaction:string}[];prose:{language:string;lines:{type:'narration'|'dialogue';speaker?:string;text:string}[]};handoff:{nextScene:string;scope:string;status:string};};
 type AnkitaScene07={title:string;status:string;date:string;time:{start:string;end:string;certainty:string};continuity:{carProposition:string;deadline:string};beats:{id:string;time:string;heading:string;plot:string;dialogue?:{speaker:string;line:string}[]}[];proseStatus:string;};
 type RinkuScene08={title:string;status:string;date:string;time:{start:string;end:string;certainty:string};purpose:string;beats:{id:string;time:string;heading:string;plot:string}[];knowledgeLocks:{ankitaKnows:string;readerOnly:string;rajeev:string;rinku:string};wardrobe:{arrival:string;homeChange:string;firstRinkuView:string};nextEpisode:{focus:string;firstLook:string;date:string}};
+type ShivaniStaffroomPlot={scene:string;status:string;date:string;start:string;end:string;location:string;purpose:string;wardrobeStatus:string;wardrobe:{name:string;age:number;role:string;outfit:string;narratorView:string;referenceColor:string}[];imageReference:{origin:string;status:string;use:string};beats:{id:string;time:string;title:string;focus:string;action:string;narrator?:string;dialogue?:{speaker:string;line:string}[];seed?:string;note?:string}[];plotLocks:string[];};
 type ShivaniCastLock={title:string;status:string;officeTwinsStudentCore:{id:string;name:string;age:number}[];officeChotu:{name:string;age:number;role:string};societyChotu:{name:string;age:number;role:string};juniorFacultyExcluded:{name:string;age:number}[];futureOnly:{name:string;age:number;note:string};biologicalTwinsNote:string;episode02End:string;nextWork:string;prologueBaselineReference?:{source:string;sourceScene:string;status:string;establishedPreviously:string[];episode03Difference:string}};
 type RohitFirstShow={title:string;status:string;date:string;wardrobe:{jan02:string;accidental:string;deliberate:string};encounters:{id:string;title:string;phase:string;beats:{id:string;name:string;plot:string}[]}[];validation:{jan1IntroductionOnly:boolean;jan1UpperButtonsClosed:boolean;jan2AccidentFirst:boolean;jan2DeliberateFirstShowLaterSameDay:boolean;exactJan2Clock:string;jan2Wardrobe:string};};
 export default function Planning({lead,initialScene}:{lead:string;initialScene?:string|null}){
@@ -33,6 +34,7 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
  const {data:rohitFirstShow,error:rohitFirstShowError}=useData<RohitFirstShow>('ankita-rohit-jan02-future-office.json');
  const {data:writingStyle,error:writingStyleError}=useData<Plan>('flirting-style.json');
   const {data:shivaniCastLock,error:shivaniCastLockError}=useData<ShivaniCastLock>('episode-03-shivani-cast-lock.json');
+ const {data:shivaniStaffroomPlot,error:shivaniStaffroomError}=useData<ShivaniStaffroomPlot>('episode-03-shivani-staffroom-scene-plot.json');
  const {data:shreyaFuture}=useData<Plan>('episode-03-shreya-plan.json');
  useEffect(()=>{
   if(!initialScene)return;
@@ -40,7 +42,7 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
   const id=active==='ankita'
    ?(initialScene==='01'?'ankita-ep03-a11':initialScene==='02'?'ankita-ep03-scene02':initialScene==='03'?'ankita-ep03-scene03':initialScene==='04'?'ankita-ep03-scene04-rohit':initialScene==='05'?'ankita-ep03-scene05':initialScene==='06'?'ankita-ep03-scene06':initialScene==='07'?'ankita-ep03-scene07':initialScene==='08'?'ankita-ep03-scene08':initialScene==='rohit-first-show'?'ankita-ep04-rohit-first-show':'')
    :active==='shivani'
-   ?(initialScene==='cast'?'shivani-ep03-cast-lock':'')
+   ?(initialScene==='cast'?'shivani-ep03-cast-lock':initialScene==='staffroom'?'shivani-ep03-staffroom-scene':'')
    :active==='meenakshi'
    ?(initialScene==='01'?'ep03-meenakshi-scene-01':initialScene==='handoff'?'ep04-meenakshi-handoff':'ep03-meenakshi-scene-'+initialScene)
    :'';
@@ -152,7 +154,7 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
   </section>}
   {active==='shivani'&&<section className="continuity-cards" id="shivani-ep03-cast-lock">
     <article className="episode-plan-card">
-      <span className="eyebrow">Shivani · Episode 03 · Character groups locked · Scene plots pending</span>
+      <span className="eyebrow">Shivani · Episode 03 · Character groups locked · Staffroom scene proposed</span>
       <h2>Office Twins (age-cohort label) — four college students</h2>
       {shivaniCastLock?<>
         <p><strong>Core:</strong> {shivaniCastLock.officeTwinsStudentCore.map(c=>c.name+' ('+c.age+')').join(' · ')}.</p>
@@ -167,6 +169,23 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
         </details>}
         <p className="muted">{shivaniCastLock.biologicalTwinsNote} {shivaniCastLock.episode02End} This locks cast only, not a Scene 01 or written encounter.</p>
       </>:<p role="alert">Shivani cast lock not loaded: {shivaniCastLockError||'Loading…'}</p>}
+    </article>
+   </section>}
+   {active==='shivani'&&<section className="continuity-cards" id="shivani-ep03-staffroom-scene">
+    <article className="episode-plan-card">
+      <span className="eyebrow">Shivani · Episode 03 · Jan 1 · 2:10–2:35 PM · Working scene plot, not approved prose</span>
+      <h2>{shivaniStaffroomPlot?.scene||'The Staffroom — The Candid Frame'}</h2>
+      {shivaniStaffroomPlot?<>
+        <p><strong>Story intent:</strong> {shivaniStaffroomPlot.purpose}</p>
+        <p><strong>Place:</strong> {shivaniStaffroomPlot.location} · <strong>Cast:</strong> Shivani, Pooja, Kriti, Nandini, Ritika, Harsh, Laksh, Arjun.</p>
+        <details className="episode-outline" id="shivani-staffroom-wardrobe" open>
+         <summary>Five female outfit references · proposed wardrobe, separate from locked canon</summary>
+         <div className="beat-list">{shivaniStaffroomPlot.wardrobe.map(w=><div className="beat-item" key={w.name}><h3>{w.name} · {w.role}</h3><p><strong>Clothes:</strong> {w.outfit}</p><p><strong>Narrator visual:</strong> {w.narratorView}</p></div>)}</div>
+         <p className="muted">{shivaniStaffroomPlot.imageReference.use} Five-panel visual reference was supplied in the companion ChatGPT conversation, not added to this GitHub asset library.</p>
+        </details>
+        <div className="beat-list">{shivaniStaffroomPlot.beats.map(b=><details className="episode-outline" key={b.id} id={'shivani-staffroom-'+b.id} open={b.id==='SR11'?true:undefined}><summary><strong>{b.id} · {b.time} · {b.title}</strong></summary><p><strong>Focus:</strong> {b.focus}</p><p>{b.action}</p>{b.narrator&&<p><em>Narrator:</em> {b.narrator}</p>}{b.dialogue?.map((d,i)=><p key={i} className="dialogue"><strong>{d.speaker}:</strong> {d.line}</p>)}{b.seed&&<p><strong>Future seed:</strong> {b.seed}</p>}{b.note&&<p className="muted">{b.note}</p>}</details>)}</div>
+        <p className="muted">Status: {shivaniStaffroomPlot.status.replace(/_/g,' ')}. No episode prose is published by this plan.</p>
+      </>:<p role="status">{shivaniStaffroomError||'Loading staffroom scene plot…'}</p>}
     </article>
    </section>}
    <section className="planning-panel">
@@ -204,7 +223,7 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
    </details>
    <div className="split"><div><span className="eyebrow">Working story lane</span><h2>{titleCase(active)}</h2><p>{active==='ankita'?'Unwritten EP03 Scenes 03–05 and 07–08, Scene06 choreography, and the separately preserved 2 January Rohit plot remain here. Full written scenes are in Episode Reading. Earlier competing home and parcel follow-up outlines were removed; Scene 08 Rinku setup is the final Ankita Jan 1 entry.':activePlan?.plan?.title||'No separate Episode 03 working draft is available here yet.'}</p></div></div>
    {active==='taniya'&&<p className="source-note">Soniya's independent scenes belong to Taniya's continuity lane. Their existing joint plan is preserved; those scenes have not been promoted to finished prose.</p>}
-   {active==='shivani'&&<p className="source-note">Shivani's Episode 03 character groups are locked above (four Office Twins, separate Office/Society Chotu roles and junior teachers); individual scene plots have not yet been approved.</p>}
+   {active==='shivani'&&<p className="source-note">Shivani's Episode 03 character groups are locked above (four Office Twins, separate Office/Society Chotu roles and junior teachers); a staffroom scene plot is available for review; no prose has been approved.</p>}
    {activePlan?.plan&&<><p><strong>Original status:</strong> {str(activePlan.plan.status)||'REVIEW'}</p>{active==='meenakshi'&&<p><strong>Older separate outline — 2 January 2026.</strong> This is not part of 1 January's Scene 01–03 sequence. Senior Review M08 stays on Jan 2.</p>}
     {active==='shreya'&&<p><strong>Date:</strong> 3 January 2026. These events were rescheduled here from 1 January. They remain writing-pending, not cancelled.</p>}
     {active==='ankita'&&<p><strong>Date:</strong> Original draft date requires review; it has not been silently assigned to the Episode 03 canonical timeline.</p>}
