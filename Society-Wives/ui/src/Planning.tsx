@@ -11,6 +11,9 @@ type AnkitaScene06={title:string;status:string;date:string;time:{start:string;en
 type AnkitaScene07={title:string;status:string;date:string;time:{start:string;end:string;certainty:string};continuity:{carProposition:string;deadline:string};beats:{id:string;time:string;heading:string;plot:string;dialogue?:{speaker:string;line:string}[]}[];proseStatus:string;};
 type RinkuScene08={title:string;status:string;date:string;time:{start:string;end:string;certainty:string};purpose:string;beats:{id:string;time:string;heading:string;plot:string}[];knowledgeLocks:{ankitaKnows:string;readerOnly:string;rajeev:string;rinku:string};wardrobe:{arrival:string;homeChange:string;firstRinkuView:string};nextEpisode:{focus:string;firstLook:string;date:string}};
 type ShivaniSceneReference={schemaVersion:number;id:string;title:string;status:string;source:{googleDocId:string;url:string;title:string;capturedDate:string;capturedFromRevision:string;readBeforeWriting:string};storyDate:string;sceneStart:string;sceneEnd:string;cast:string[];timeline:string[];femaleReferences:{name:string;status:string;heading:string;content:string}[];editorial:{wordForWordNote:string;sourceProtection:string;ritika:string;historicalTime:string}};
+type ShivaniNewBeat={id:string;time:string;title:string;cast:string[];plot:string;dialogue?:{speaker:string;line:string}[];reaction?:string;narratorDirection?:string;knowledge?:{readerOnly:boolean;shivaniAware:boolean;actualContact:boolean}};
+type ShivaniSocietyReturn={title:string;status:string;proseStatus:string;date:string;time:{start:string;end:string};priorFoundation:string[];beats:ShivaniNewBeat[];restrictions:string[]};
+type ShivaniNightPlan={title:string;status:string;proseStatus:string;date:string;episodePlacement:string;time:{firstHomeBeat:string;nightEncounter:string};beats:ShivaniNewBeat[];continuityLocks:string[];relationshipSetup:{shivaniOm:{established:string;proposedNewCharacterAngle:string;fantasyPresentation:string;tone:string};deepuShivani:{established:string;proposedTonight:string};deepuKavya:{new:string;agency:string};twinsKavya:{new:string;distinctVoices:string}};futureArc:Record<string,string>};
 type ShivaniStaffroomPlot={scene:string;status:string;date:string;start:string;end:string;location:string;purpose:string;wardrobeStatus:string;wardrobe:{name:string;age:number;role:string;outfit:string;narratorView:string;referenceColor:string}[];imageReference:{origin:string;status:string;use:string};beats:{id:string;time:string;title:string;focus:string;action:string;narrator?:string;dialogue?:{speaker:string;line:string}[];seed?:string;note?:string}[];plotLocks:string[];};
 type ShivaniCastLock={title:string;status:string;officeTwinsStudentCore:{id:string;name:string;age:number}[];officeChotu:{name:string;age:number;role:string};societyChotu:{name:string;age:number;role:string};juniorFacultyExcluded:{name:string;age:number}[];futureOnly:{name:string;age:number;note:string};biologicalTwinsNote:string;episode02End:string;nextWork:string;prologueBaselineReference?:{source:string;sourceScene:string;status:string;establishedPreviously:string[];episode03Difference:string}};
 type RohitFirstShow={title:string;status:string;date:string;wardrobe:{jan02:string;accidental:string;deliberate:string};encounters:{id:string;title:string;phase:string;beats:{id:string;name:string;plot:string}[]}[];validation:{jan1IntroductionOnly:boolean;jan1UpperButtonsClosed:boolean;jan2AccidentFirst:boolean;jan2DeliberateFirstShowLaterSameDay:boolean;exactJan2Clock:string;jan2Wardrobe:string};};
@@ -39,6 +42,8 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
   const {data:shivaniCastLock,error:shivaniCastLockError}=useData<ShivaniCastLock>('episode-03-shivani-cast-lock.json');
  const {data:shivaniStaffroomPlot,error:shivaniStaffroomError}=useData<ShivaniStaffroomPlot>('episode-03-shivani-staffroom-scene-plot.json');
  const {data:shivaniSceneReference,error:shivaniSceneReferenceError}=useData<ShivaniSceneReference>('episode-03-shivani-scene02-master-reference.json');
+ const {data:shivaniSocietyReturn,error:shivaniSocietyReturnError}=useData<ShivaniSocietyReturn>('episode-03-shivani-scene-03-society-return-plot.json');
+ const {data:shivaniNightPlan,error:shivaniNightPlanError}=useData<ShivaniNightPlan>('shivani-jan01-night-next-episode-chotu-kavya-twins-om-plot.json');
  const {data:shreyaFuture}=useData<Plan>('episode-03-shreya-plan.json');
  useEffect(()=>{
   if(!initialScene)return;
@@ -46,7 +51,7 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
   const id=active==='ankita'
    ?(initialScene==='01'?'ankita-ep03-a11':initialScene==='02'?'ankita-ep03-scene02':initialScene==='03'?'ankita-ep03-scene03':initialScene==='04'?'ankita-ep03-scene04-rohit':initialScene==='05'?'ankita-ep03-scene05':initialScene==='06'?'ankita-ep03-scene06':initialScene==='07'?'ankita-ep03-scene07':initialScene==='08'?'ankita-ep03-scene08':initialScene==='rohit-first-show'?'ankita-ep04-rohit-first-show':'')
    :active==='shivani'
-   ?(initialScene==='cast'?'shivani-ep03-cast-lock':initialScene==='staffroom'?'shivani-ep03-staffroom-scene':initialScene==='reference'?'shivani-ep03-scene02-master-reference':'')
+   ?(initialScene==='cast'?'shivani-ep03-cast-lock':initialScene==='staffroom'?'shivani-ep03-staffroom-scene':initialScene==='reference'?'shivani-ep03-scene02-master-reference':initialScene==='03'?'shivani-ep03-scene03-society-return':initialScene==='night'?'shivani-jan01-night-next-episode':'')
    :active==='meenakshi'
    ?(initialScene==='01'?'ep03-meenakshi-scene-01':initialScene==='handoff'?'ep04-meenakshi-handoff':'ep03-meenakshi-scene-'+initialScene)
    :'';
@@ -213,6 +218,49 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
         </details>}
         <p className="muted"><strong>Separate kinship canon:</strong> {shivaniCastLock.biologicalTwinsNote} {shivaniCastLock.episode02End} The “Twins” UI grouping itself makes no biological claim. This locks cast only, not a Scene 01 or written encounter.</p>
       </>:<p role="alert">Shivani cast lock not loaded: {shivaniCastLockError||'Loading…'}</p>}
+    </article>
+   </section>}
+   {active==='shivani'&&<section className="continuity-cards" id="shivani-ep03-scene03-society-return">
+    <article className="episode-plan-card">
+      <span className="eyebrow">Shivani · Episode 03 · Scene 03 · Jan 1, 2026 · 5:20–5:57 PM · plot only</span>
+      <h2>Society Return — Mahendra Suri, Ayaan &amp; Armaan</h2>
+      <p><strong>Reference before prose:</strong> Read the complete Scene 02 Google Doc and the original Episode 01–02 source scene records before expanding this plot. Do not overwrite the existing Scene 02 beat bank.</p>
+      <p className="source-note"><strong>Continuity:</strong> Shivani returns on the same scooty and in her college outfit. Society chairman Mahendra openly pursues personal attention. Ayaan and Armaan are the established event-printing pair, not newly introduced strangers or confirmed biological twins. Karan and Aman remain occupied by Ankita's Scene 07 until about 5:50 PM.</p>
+      {shivaniSocietyReturn?<>
+        <p><strong>Time:</strong> {shivaniSocietyReturn.time.start}–{shivaniSocietyReturn.time.end} · <strong>Status:</strong> Working plot · NOT approved prose</p>
+        <details className="episode-outline"><summary>Established familiarity and source continuity</summary><div className="beat-list">{shivaniSocietyReturn.priorFoundation.map((line,i)=><div className="beat-item" key={i}><p>{line}</p></div>)}</div></details>
+        <div className="beat-list">{shivaniSocietyReturn.beats.map(b=><details className="episode-outline" key={b.id}>
+          <summary><strong>{b.id} · {b.time} · {b.title}</strong></summary>
+          <p><strong>Characters:</strong> {b.cast.join(' · ')}</p><p>{b.plot}</p>
+          {b.dialogue?.map((d,i)=><p className="dialogue" key={i}><strong>{d.speaker}:</strong> {d.line}</p>)}
+          {b.reaction&&<p><strong>Immediate reaction:</strong> {b.reaction}</p>}
+        </details>)}</div>
+        <p className="muted">{shivaniSocietyReturn.status.replace(/_/g,' ')} · plot only; no prose published.</p>
+      </>:<p role="status">{shivaniSocietyReturnError||'Loading society return plot…'}</p>}
+    </article>
+   </section>}
+   {active==='shivani'&&<section className="continuity-cards" id="shivani-jan01-night-next-episode">
+    <article className="episode-plan-card">
+      <span className="eyebrow">Shivani · same Jan 1 night · next Shivani episode · working plot, not prose</span>
+      <h2>Om's Private Reveal &amp; the Kavya–Deepu–Karan–Aman Romantic Setup</h2>
+      <p><strong>Time locks:</strong> Om home setup around 6:35–6:46 PM; outdoor adult ensemble 7:05–7:23 PM. Karan–Aman return from Ankita's ride by approximately 5:50 PM; Ankita's private Rinku doorbell cut remains at 6:25 PM.</p>
+      {shivaniNightPlan?<>
+        <p className="source-note"><strong>Character boundary:</strong> Om is a socially treated household uncle, not Shivani's actual father-in-law. His fantasy is a one-sided reader-only private image, not a real encounter or her consent. Society Chotu = Deepu (22), not college Sunny or Ankita's Rinku.</p>
+        <details className="episode-outline" open><summary><strong>Relationship history — Om × Shivani</strong></summary><p>{shivaniNightPlan.relationshipSetup.shivaniOm.established}</p><p>{shivaniNightPlan.relationshipSetup.shivaniOm.proposedNewCharacterAngle}</p><p><strong>Reader-only fantasy:</strong> {shivaniNightPlan.relationshipSetup.shivaniOm.fantasyPresentation}</p></details>
+        <details className="episode-outline"><summary><strong>Relationship history — Deepu, Shivani and Kavya</strong></summary><p>{shivaniNightPlan.relationshipSetup.deepuShivani.established}</p><p>{shivaniNightPlan.relationshipSetup.deepuShivani.proposedTonight}</p><p><strong>First spark:</strong> {shivaniNightPlan.relationshipSetup.deepuKavya.new}</p><p>{shivaniNightPlan.relationshipSetup.deepuKavya.agency}</p></details>
+        <details className="episode-outline"><summary><strong>Karan–Aman × Kavya — new three-way interest</strong></summary><p>{shivaniNightPlan.relationshipSetup.twinsKavya.new}</p><p>{shivaniNightPlan.relationshipSetup.twinsKavya.distinctVoices}</p></details>
+        <div className="beat-list">{shivaniNightPlan.beats.map(b=><details className="episode-outline" key={b.id}>
+          <summary><strong>{b.id} · {b.time} · {b.title}</strong></summary><p><strong>Characters:</strong> {b.cast.join(' · ')}</p><p>{b.plot}</p>
+          {b.dialogue?.map((d,i)=><p className="dialogue" key={i}><strong>{d.speaker}:</strong> {d.line}</p>)}
+          {b.reaction&&<p><strong>Immediate reaction:</strong> {b.reaction}</p>}
+          {b.narratorDirection&&<p><em>Narrator direction:</em> {b.narratorDirection}</p>}
+        </details>)}</div>
+        <details className="episode-outline"><summary>Future relationship threads and continuity locks</summary>
+         <div className="beat-list">{Object.entries(shivaniNightPlan.futureArc).map(([k,v])=><div className="beat-item" key={k}><strong>{titleCase(k)}</strong><p>{v}</p></div>)}</div>
+         <div className="beat-list">{shivaniNightPlan.continuityLocks.map((v,i)=><div className="beat-item" key={i}><p>{v}</p></div>)}</div>
+        </details>
+        <p className="muted">Working author-directed outline saved for the next Shivani episode, same calendar date. No romance, physical action or fantasy is approved as finished prose.</p>
+      </>:<p role="status">{shivaniNightPlanError||'Loading the Chotu, Kavya, twins and Om night plot…'}</p>}
     </article>
    </section>}
    {active==='shivani'&&<section className="continuity-cards" id="shivani-ep03-staffroom-scene">
