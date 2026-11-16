@@ -110,9 +110,10 @@ try {
  await page.locator('#episode03-final-prose .scene-link').nth(2).click();
  await page.waitForFunction(()=>document.querySelector('#episode03-final-prose .story-toolbar')?.textContent?.includes('Ankita · Scene 03'));
  check((await page.locator('#episode03-final-prose .reading-surface').innerText()).includes('Half observations mujhe bilkul pasand nahi'),'Ankita Scene03 approved cleaned Beat1 appears in reader');
- check(await page.locator('#episode03-final-prose .ep03-beat').count()===2,'Scene03 includes author Beat1 and verbatim Beat2 only');
+ check(await page.locator('#episode03-final-prose .ep03-beat').count()===3,'Scene03 contains Beat1, verbatim Beat2 and edited Aishwarya cliff Beat3');
  check((await page.locator('#ep03-beat-02').innerText()).includes('Strong ya distracting?'),'Ankita user-verbatim Beat2 visible without rewriting');
- check((await page.locator('#episode03-final-prose .story-toolbar').innerText()).includes('Scene 03 in progress'),'Scene03 must not display full-scene approval');
+ check((await page.locator('#ep03-beat-03').innerText()).includes('Buttons bhi sign-off ke saath khul gaye?'),'Aishwarya Beat3 confrontation visible immediately after Beat2');
+ check((await page.locator('#episode03-final-prose .story-toolbar').innerText()).includes('Scene 03 under review'),'Scene03 must remain pending whole-scene approval');
  await page.locator('#episode03-final-prose .perspective-tabs button',{hasText:'Meenakshi'}).click();
  await page.waitForFunction(()=>document.querySelector('#episode03-final-prose .story-toolbar')?.textContent?.includes('Meenakshi · Scene 01'));
  check(await page.locator('#episode03-final-prose .scene-link').count()===4,'Meenakshi prose Scenes01–04 in reader');
@@ -157,9 +158,10 @@ try {
  check((await page.locator('#ankita-ep03-a11').innerText()).includes('Read Scene 02'),'Ankita Scene02 routed to prose');
  check(await page.locator('#ankita-ep03-scene02').count()===0,'Old Scene02 plot-only duplicate removed');
  await page.locator('#ankita-ep03-scene03 .beat-list .beat-item').first().waitFor();
- check(await page.locator('#ankita-ep03-scene03 > .beat-list .beat-item').count()===5,'Ankita Scene 03 displays five revised plot beats');
- check((await page.locator('#ankita-ep03-scene03').innerText()).includes('twenty minutes'),'Ankita-led twenty-minute personal presentation is visible');
+ check(await page.locator('#ankita-ep03-scene03 > .beat-list .beat-item').count()===4,'Ankita Scene03 shows four active plot beats, not old five');
+ check((await page.locator('#ankita-ep03-scene03').innerText()).includes('15:00–15:10'),'Ankita confrontation cliff follows beauty test immediately');
  check((await page.locator('#ankita-ep03-scene03').innerText()).includes('Aishwarya'),'Aishwarya confrontation ending is visible');
+ check((await page.locator('#ankita-future-personal-presentation').innerText()).includes('Unscheduled'),'Old twenty-minute presentation concept parked in Future Setup, without a date');
  check(await page.locator('#ankita-ep03-scene03 .ankita-scene03-image img').count()===1,'User generated release briefing picture appears in Scene 03');
  check(await page.locator('#ankita-ep03-scene03 .ankita-scene03-image img').evaluate(img=>img instanceof HTMLImageElement&&img.complete&&img.naturalWidth>250),'Uploaded briefing image is loaded rather than broken');
 
