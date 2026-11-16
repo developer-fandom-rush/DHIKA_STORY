@@ -3111,12 +3111,12 @@
       "mentions": [],
       "episode": "03",
       "scene": "07",
-      "kind": "planned",
-      "state": "plot-review",
-      "status": "User-selected plot for UI · prose pending",
-      "source": "episode-03-ankita-scene-07-twins-pickup-homecoming.json",
+      "kind": "source-scene",
+      "state": "revised-prose-review",
+      "status": "Author-revised prose in reader · B4–B7 changes highlighted · approval pending",
+      "source": "episode-03-ankita-scene-07-revised-prose.json",
       "reader": {
-        "type": "sw-plan",
+        "type": "sw-episode03",
         "character": "ankita",
         "scene": "07"
       },
@@ -3126,7 +3126,7 @@
         "Ankita drives Aman's scooty with Aman pillion; Karan rides separately",
         "Rinku pre-established as building helper"
       ],
-      "detail": "Ankita drives Aman's scooty while Karan rides separately. Gopal only makes a changed silent glance at society gate; no conversation. Rinku is already a familiar building helper but not met yet. Rajeev is away with the parcel in his own custody. Home around 17:50; Scene08 starts 18:10."
+      "detail": "Author-revised eight-beat Scene07 prose (17:20–17:50) includes exact highlighted B4 waist-awareness addition, B5 full replacement, B6 two inner thoughts and B7 Karan glance/question. Karan separate bike, Ankita drives Aman scooty, Gopal silent at gate, home before 18:00; Scene08 starts 18:10."
     },
     {
       "id": "ep03-ankita-scene08",
