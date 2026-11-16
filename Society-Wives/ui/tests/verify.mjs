@@ -378,7 +378,6 @@ assert.ok(shreyaEpisode03Proposal.timeline.find(x=>x.id==='S03-03').history.incl
 assert.ok(shreyaEpisode03Proposal.timeline.find(x=>x.id==='S03-04').distinctEvent.includes('navy athletic'),'Beat 9 must return to original approved Beat 10 navy athletic outfit');
 assert.ok(!shreyaEpisode03Proposal.timeline.find(x=>x.id==='S03-05').characters.some(x=>/Karan|Aman/.test(x)),'Do not mix civilian twins into five-member station training drill');
 assert.ok(sourcePlanning.includes('beat.sceneBeats.map'),'Planning UI must show five college mini-beats, not only summary');
-assert.equal(universalJan.events.find(x=>x.id==='e03-shreya-S03-03')?.beats?.length,5,'Universal timeline must also index all college event mini-beats');
 const archivedShreya=read('episode-03-shreya-plan-archive-jan03.json');
 assert.equal(archivedShreya.date,'2026-01-03','Superseded Shreya Jan3 working plan should remain archived');
 const females=JSON.parse(readFileSync(resolve(ui,'src/data/female-library.json'),'utf8'));
@@ -515,6 +514,7 @@ console.log('PASS: '+paths.size+' GitHub images, 16 restricted Drive references,
 
 
 const universalJan=JSON.parse(readFileSync(resolve(ui,'src/data/sw-timeline-jan01.json'),'utf8'));
+assert.equal(universalJan.events.find(x=>x.id==='e03-shreya-S03-03')?.beats?.length,5,'Universal timeline must also index all college event mini-beats');
 const universalFuture=JSON.parse(readFileSync(resolve(ui,'src/data/sw-timeline-future.json'),'utf8'));
 const universalDhika=JSON.parse(readFileSync(resolve(ui,'src/data/dhika-universal-timeline.json'),'utf8'));
 assert.equal(universalJan.anchorDate,'2026-01-01','Society Wives story anchor must be Jan 1 2026');
