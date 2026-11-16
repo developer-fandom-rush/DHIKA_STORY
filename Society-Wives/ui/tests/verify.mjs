@@ -358,7 +358,7 @@ const shreyaPlot=read('episode-02-shreya-plan.json');
 assert.equal(shreyaPlot.timeline.find(x=>x.id==='SR03').approval,'AUTHOR_APPROVED_PLOT_ONLY_FULL_PROSE_MISSING');
 const shreyaEpisode03Proposal=read('episode-03-shreya-jan01-proposed-timeline.json');
 assert.equal(shreyaEpisode03Proposal.date,'2026-01-01');
-assert.equal(shreyaEpisode03Proposal.timeline.length,14,'Suggested Shreya interleaved timeline should have 14 beats');
+assert.equal(shreyaEpisode03Proposal.timeline.length,13,'Current Shreya interleaved source has thirteen proposed entries; preserve source without inventing a fourteenth');
 assert.ok(shreyaEpisode03Proposal.timeline.some(x=>x.id==='S03-01'&&x.characters.some(z=>z.includes('chai wala'))),'Station tea vendor Chotu proposal missing');
 assert.ok(shreyaEpisode03Proposal.timeline.some(x=>x.id==='S03-08'&&x.characters.some(z=>z.includes('Chintu'))),'Distinct society Chintu proposal missing');
 assert.ok(shreyaEpisode03Proposal.timeline.some(x=>x.id==='S03-07'&&x.characters.includes('Samar (24)')&&x.characters.includes('Shaan (24)')),'Society twins continuity missing');
