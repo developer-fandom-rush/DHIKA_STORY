@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "id": "SW-EP04A-ANKITA-2026JAN01-SCENE01",
+  "series": "Society Wives — Five Veils of Desire",
+  "lead": "ankita",
+  "episode": "04",
+  "part": "A",
+  "storyDate": "2026-01-01",
+  "timezone": "Asia/Kolkata",
+  "status": "PROPOSED_FOR_AUTHOR_DISCUSSION_NOT_APPROVED_PROSE",
+  "title": "Episode 04A — Ankita's January 1 Evening",
+  "continuityStart": {
+    "episode": "03",
+    "scene": "08",
+    "time": "18:25",
+    "moment": "Rinku rings the doorbell; Ankita has not opened the door.",
+    "twins": "Karan and Aman brought Ankita home by about 17:50; their ride is already in Episode 03 Scene 07, not replayed here.",
+    "officeChotu": "Rohit has been introduced on January 1 at work; no second office visit on January 1.",
+    "wardrobe": "Comfortable cotton kurti and relaxed trousers, without dupatta; exact color, neckline and fit are not locked."
+  },
+  "scenes": [
+    {
+      "id": "E04A-S01",
+      "sceneNumber": "01",
+      "title": "The Water-Filter Accident",
+      "location": "Gulmohar Heights, Ankita's apartment kitchen",
+      "start": "18:25",
+      "end": "18:45",
+      "status": "PLOT_FOR_DISCUSSION",
+      "beats": [
+        {
+          "id": "A01",
+          "time": "18:25–18:28",
+          "title": "Doorbell → repair reason",
+          "plot": "Ankita opens the door from the Episode 03 cliff. Rinku has a small tool pouch and matches the washer against the leaking water-filter connector. Established service familiarity; no re-introduction or wardrobe changes."
+        },
+        {
+          "id": "A02",
+          "time": "18:28–18:32",
+          "title": "A shared practical task",
+          "plot": "Rinku crouches by the sink cabinet; Ankita stands at the accessible shutoff valve and holds a dry towel nearby. The coupler is cracked. He warns her before releasing it; the pressure surges unexpectedly."
+        },
+        {
+          "id": "A03",
+          "time": "18:32–18:34",
+          "title": "The accidental physical moment",
+          "plot": "The coupling spits a concentrated burst of water across Ankita's cotton kurti and forearm. Stepping onto the suddenly slippery tile, she catches Rinku's clothed upper arm for balance while he braces the loose fitting. Their shoulders come close for two or three seconds; she releases once steady. Neither arranges the contact."
+        },
+        {
+          "id": "A04",
+          "time": "18:34–18:39",
+          "title": "Sightline, recognition and quiet change",
+          "plot": "The wet outer kurti temporarily makes the outline of her existing inner clothing visible through the cloth; no bare chest or exposed breast. Rinku's eyes catch the changed fabric for an instant, then turn back to the pipe. Ankita notices that he went unusually quiet, but she cannot tell whether it was the leak or her appearance. Unlike Dhika's bending event, the visual trigger is wet fabric and the physical trigger is an involuntary arm hold."
+        },
+        {
+          "id": "A05",
+          "time": "18:39–18:45",
+          "title": "Repair exit and unresolved question",
+          "plot": "Rinku secures a temporary fitting, explains that the exact replacement connector is needed for a permanent pressure check, and leaves without a new confession or staged second look. Ankita changes into dry clothing after he goes; her later feeling is a brief, self-aware shiver about the unexpected closeness and his silence, not an invented first-ever attraction."
+        }
+      ]
+    },
+    {
+      "id": "E04A-S02",
+      "sceneNumber": "02",
+      "title": "Evening household closure — reserved",
+      "status": "NOT_YET_OUTLINED",
+      "start": null,
+      "end": null,
+      "beats": [],
+      "reason": "Husband Kabir, twins Karan/Aman, and Rajeev household arrival/presence timings are not verified for this evening. Do not silently assume people are absent or invent family arrivals. Reserve this scene before claiming January 1 closed."
+    }
+  ],
+  "handoff": {
+    "date": "2026-01-02",
+    "episode": "04",
+    "part": "B",
+    "society": "Rinku's permanent connector pressure check is a separate proposed follow-up, not an accident repeated on January 1.",
+    "office": "Rohit's first accident and deliberate follow-up are reserved for January 2 AV/asset tasks; office events do not happen again on January 1.",
+    "status": "FUTURE_REVIEW_ONLY"
+  },
+  "approvalRules": [
+    "Keep the original 18:25 EP03 cut without rewriting it.",
+    "No accidental and deliberate two-stage sequence compressed into the same 20 minutes.",
+    "Only Ankita and Rinku witness kitchen incident unless later source explicitly places anyone else there.",
+    "Scene 02 household closure is genuinely pending rather than falsely completed.",
+    "The opening two buttons from the January 1 office briefing are an earlier conscious presentation; do not write this as Ankita's first boldness."
+  ]
+}
