@@ -19,7 +19,7 @@ type ShreyaEpisode04Future={title:string;episodeDate:string|null;planningStatus:
 type ShivaniStaffroomPlot={scene:string;status:string;date:string;start:string;end:string;location:string;purpose:string;wardrobeStatus:string;wardrobe:{name:string;age:number;role:string;outfit:string;narratorView:string;referenceColor:string}[];imageReference:{origin:string;status:string;use:string};beats:{id:string;time:string;title:string;focus:string;action:string;narrator?:string;dialogue?:{speaker:string;line:string}[];seed?:string;note?:string}[];plotLocks:string[];};
 type ShivaniCastLock={title:string;status:string;officeTwinsStudentCore:{id:string;name:string;age:number}[];officeChotu:{name:string;age:number;role:string};societyChotu:{name:string;age:number;role:string};juniorFacultyExcluded:{name:string;age:number}[];futureOnly:{name:string;age:number;note:string};biologicalTwinsNote:string;episode02End:string;nextWork:string;prologueBaselineReference?:{source:string;sourceScene:string;status:string;establishedPreviously:string[];episode03Difference:string}};
 type ShivaniEp04ABeat={id:string;time:string;title:string;plot:string;physical?:string;sightline?:string;reaction?:string;dialogue?:{speaker:string;line:string}[]};
-type ShivaniEp04AScene={id:string;sceneNumber:string;title:string;start:string;end:string;location:string;status:string;beats:ShivaniEp04ABeat[]};
+type ShivaniEp04AScene={id:string;sceneNumber:string;title:string;start:string;end:string;location:string;status:string;fadeToBlack?:boolean;prosePreview?:string;beats:ShivaniEp04ABeat[]};
 type ShivaniEp04A={title:string;status:string;continuity:{latestApprovedHandoff:string;morningCallback:string;twinsTransport:string;deepu:string;kavya:string;husband:string;om:string;tara:string;manav:string};scenes:ShivaniEp04AScene[];household:Record<string,{location:string;status:string;workday?:string}>;approvalRules:string[]};
 type AnkitaEp04A={episode:string;part:string;title:string;status:string;continuityStart:{episode:string;scene:string;time:string;moment:string;twins:string;officeChotu:string;wardrobe:string};scenes:{id:string;sceneNumber:string;title:string;location?:string;start:string|null;end:string|null;status:string;reason?:string;prosePreview?:string;fadeToBlack?:boolean;dialogueSample?:{speaker:string;line:string}[];beats:{id:string;time:string;title:string;plot:string}[]}[];handoff:{date:string;part:string;society:string;office:string;status:string}};
 type ChotuMoment={date:string;start:string;end:string;title:string;cause?:string;physical:string;sightline?:string;duration?:string;reaction?:string;hook?:string;choice?:string;test?:string;result?:string;after?:string};
@@ -129,15 +129,16 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
   {active==='shivani'&&<section className="continuity-cards" id="shivani-episode04a">
    <article className="episode-plan-card">
     <span className="eyebrow">SHIVANI · EPISODE 04A · 1 JANUARY 2026 · AUTHOR REVIEW</span>
-    <h2>EP04A — Shivani: Deepu Accident → Kavya → Karan &amp; Aman → Household</h2>
-    <p className="source-note"><strong>NEW SCENE PLAN · NOT APPROVED PROSE:</strong> Deepu's first private accident precedes Kavya's arrival. The twins then resume the established morning teasing at 19:11; family night follows. All times are working slots, not published events.</p>
+    <h2>EP04A — Shivani: Deepu → Kavya → Karan &amp; Aman → Om's Surprise → Rohan</h2>
+    <p className="source-note"><strong>NEW SCENE PLAN · NOT APPROVED PROSE:</strong> The first private Deepu accident precedes Kavya's arrival. Kavya's interest from Deepu, Karan and Aman comes before Shivani's 'I liked it' cliffhanger. Later Rohan briefly leaves for Om's errand; the burgundy surprise meant for him is accidentally seen by Om. The husband's private night is fade-to-black. All times are working slots, not published events.</p>
     {shivaniEp04AError&&<p>Could not load Shivani night outline: {shivaniEp04AError}</p>}
     {shivaniEp04A&&<>
      <p><strong>Earlier plot preserved:</strong> {shivaniEp04A.continuity.latestApprovedHandoff}</p>
      <p><strong>Twins timing lock:</strong> {shivaniEp04A.continuity.twinsTransport}</p>
-     <div className="beat-list">{shivaniEp04A.scenes.map(scene=><details className="episode-outline" key={scene.id} open={['02','04'].includes(scene.sceneNumber)}>
+     <div className="beat-list">{shivaniEp04A.scenes.map(scene=><details className="episode-outline" key={scene.id} open={['02','04','06','07'].includes(scene.sceneNumber)}>
       <summary><strong>Scene {scene.sceneNumber} · {scene.title}</strong> — {scene.start}–{scene.end} · {scene.beats.length} beats</summary>
       <p><strong>Location:</strong> {scene.location} · <strong>Status:</strong> {scene.status}</p>
+      {scene.fadeToBlack&&<p className="source-note"><strong>Husband-wife connection · non-graphic · fade-to-black</strong></p>}
       <div className="beat-list">{scene.beats.map(beat=><div className="beat-item" key={beat.id}>
        <p><strong>{beat.id} · {beat.time} · {beat.title}</strong></p>
        <p><strong>Plot:</strong> {beat.plot}</p>
@@ -146,6 +147,7 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
        {beat.reaction&&<p><strong>Character reaction:</strong> {beat.reaction}</p>}
        {beat.dialogue?.map((line,i)=><p key={i}><strong>{line.speaker}:</strong> {line.line}</p>)}
       </div>)}</div>
+      {scene.prosePreview&&<div className="beat-list"><p><strong>Closing prose preview · discussion only</strong></p>{scene.prosePreview.split('\n\n').map((paragraph,i)=><p key={i}>{paragraph.replace(/\*/g,'')}</p>)}</div>}
      </details>)}</div>
      <h3>Household whereabouts · night of 1 January</h3>
      <div className="beat-list">{Object.entries(shivaniEp04A.household).map(([person,state])=><div className="beat-item" key={person}>
