@@ -126,16 +126,18 @@
           "id": "SC06",
           "time": "18:15–18:29",
           "title": "Shower and private recollection",
-          "plot": "Shreya changes out of her damaged police uniform and showers alone. She recalls the mutually welcomed morning kiss with trainer Vivek Rao, feeling unusually stirred. The author specifies a moment of private self-pleasure in the shower; this remains an off-page, non-graphic fact rather than an explicit depicted act. Arvind has no knowledge that she is inside.",
-          "knowledge": "Only Shreya's own lived events appear in this recollection. Arvind's earlier unilateral feelings are unknown to her."
+          "plot": "Shreya changes out of her damaged police uniform and showers alone. Writer's exact scene-state cue: 'naked and fingering remembering Vivek Rao' (the gym trainer, not her husband). Recall the previously established morning kiss with Vivek. Treat the self-pleasure as an off-page, non-graphic plot fact, not an explicit action sequence. Arvind does not know she is inside.",
+          "knowledge": "Only Shreya's own lived events appear in this recollection. Arvind's earlier unilateral feelings are unknown to her.",
+          "writerCue": "naked and fingering remembering Vivek Rao (gym trainer) — author-specified factual state; non-graphic, do not describe the act in detail."
         },
         {
           "id": "SC07",
           "time": "18:29–18:32",
           "title": "Arvind enters by mistake; both freeze",
-          "plot": "Arvind hears shower water, wrongly assumes he can check the room, and opens the bathroom door without announcing himself. Shreya turns and the two freeze in the shock of an unexpected fully private, unclothed situation. The pause feels around thirty seconds, but there is no graphic inventory of her body or prolonged descriptive stare. Shreya is overwhelmed and tears up; Arvind brings the nearby shawl so she can cover herself and begins comforting her.",
+          "plot": "Arvind hears the shower, mistakenly opens the bathroom door without announcing himself, and unexpectedly comes upon Shreya in the precise private state identified in SC06. Both freeze in shock. The pause feels like roughly thirty seconds from Shreya's perspective; without detailed visual inspection, she becomes tearful, and Arvind brings a nearby shawl to help her cover herself. No new witness, image recording, or child in the bathroom.",
           "sightline": "One private, unexpected bathroom-door encounter; no third-party spectator, recording or exposure to the child.",
-          "reaction": "Shreya is embarrassed and distressed. Arvind stops in shock, then shifts to concern on seeing her tears. His internal reaction is not presented to Shreya as mutual attraction."
+          "reaction": "Shreya is embarrassed and distressed. Arvind stops in shock, then shifts to concern on seeing her tears. His internal reaction is not presented to Shreya as mutual attraction.",
+          "entryState": "Shreya is naked and fingering while recalling Vivek when Arvind unexpectedly opens the door; this is a concise planning cue only, not an instruction to narrate anatomy or the act."
         },
         {
           "id": "SC08",
@@ -265,6 +267,7 @@
     "Anaya is never framed within adult intimacy or as observing the bathroom incident.",
     "Sameer and Shruti's unknown schedules stay openly unresolved until user supplies them.",
     "No author approval of prose is inferred from scene planning; all time assignments beyond EP03 17:45 are draft.",
-    "User-directed non-graphic sexual facts are preserved only as brief off-page references; there must be no graphic depiction of self-pleasure, involuntary nudity, or sexual acts."
+    "User-directed non-graphic sexual facts are preserved only as brief off-page references; there must be no graphic depiction of self-pleasure, involuntary nudity, or sexual acts.",
+    "SC06/SC07 WRITER CUE: 'naked and fingering remembering Vivek Rao' is a factual staging label; the sexual act and involuntary exposure are NOT described graphically."
   ]
 }
