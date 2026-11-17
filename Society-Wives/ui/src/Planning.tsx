@@ -13,6 +13,7 @@ type TaniyaEpisode03Beat={id:string;time:string;title:string;location:string;cas
 type TaniyaEpisode03Plot={visualAssets?:{id:string;beatId:string;title:string;url:string;status:string;continuity:string}[];visualAssetFolder?:{title:string;url:string;note:string};schemaVersion:number;episode:string;lead:string;title:string;date:string;start:string;end:string|null;status:string;goal:string;timeIntegrity?:{verifiedStart:string;verifiedCutoff:string;officeEnd:string;commuteAfterWork:string;societyArrival:string;soniyaFirstAppearance:string;consequence:string};plotPhases?:{key:string;beatIds:string[];time:string;state:string;note?:string}[];interactionAudit?:{status:string;officeWomen:{name:string;age:number|null;role:string;status:string}[];males:{name:string;age:number;beatIds:string[];physical:string;relationship:string}[];femalePhysical?:{pair:string;beatId:string;contact:string;reaction:string}[];societyPhysical?:{pair:string;beatId:string;contact:string;reaction:string;romance?:string}[];taniyaReaction?:string;uncleFantasyHint?:string;note:string};figureMapping:{group:string;members:string[];why:string}[];wardrobeStatus:string;wardrobe:string;beats:TaniyaEpisode03Beat[];authorLocks:string[];ending:string;sourceAnchors:{source:string;facts:string}[]};
 type ShreyaBeat={editorialIssueToDiscuss?:{id:string;status:string;headline:string;reason:string;requiredDiscussion:string;approvalBoundary:string};id:string;time:string|null;type?:string;status:string;title:string;place:string|null;characters:string[];history:string;distinctEvent:string;reaction:string;dialogue?:string[][];exit:string;readerOnlyAfterbeat?:string;readerOnlyFantasy?:{trigger:string;fantasy:string;status?:string};wardrobeProposals?:Record<string,string>;wardrobeContinuity?:string;approvalScope?:string;sceneBeats?:{id:string;time:string;heading:string;plot:string;narration?:string;dialogue?:string[][];reaction?:string}[];sharedMemory?:{status:string;event:string;shreya:string;karan:string;aman:string;laterUse:string;sharedBanter:string};styleLock?:string;futureArc?:{coreConflict:string;nonsexualStakes:string;trajectory:string};};
 type ShreyaEpisode03Proposal={title:string;status:string;date:string;weekday:string;dayScope:{start:string;end:string;certainty:string};anchor:string;userLocks:string[];timeline:ShreyaBeat[];parkedFutureEncounters:ShreyaBeat[];mergedTransitions:{from:string;into:string;time:string;text:string;status:string}[];reviewBeatSequence:{number:number;id:string;kind:string;title:string;label:string}[];reviewSequencePolicy:string;editorial:{approvalRule:string;sequence:string;sourceIntegrity:string}};
+type ShreyaBeat10Review={title:string;time:string;status:string;sourcePlot:string;sourceApprovalBoundary:string;prose:string;timeMarks:{clock:string;moment:string}[];grokInsertions:{id:string;purpose:string;status:string}[];editorialReview:{issue:string;thisDraftChoice:string;notYetAuthorized:string;nextBeat:string;imageReferenceDirection:string;approval:string}};
 type ShreyaBeats0709Draft={title:string;date:string;status:string;sourcePlan:string;styleGuide:string;locks:{event:string;onlookers:string[];publicOnlookers:number;exactVisualFigure:string;duration:string;uniform:string;aftermath:string};beats:{id:string;number:number;time:string;title:string;status:string;raw:string}[]};
 type ShreyaEpisode04Future={title:string;episodeDate:string|null;planningStatus:string;dependency:string;futurePlots:{id:string;title:string;status:string;cast:{id:string;trainingRole:string;age:number;ageStatus:string}[];identityReveal:{truth:string;maleAwareness:string;femaleAwareness:string;readerAwareness:string};purpose:string;preservedArc:string;futureAttraction:string;episode04Continuity:string;scheduling:string}[];authorLocks:string[]};
 type ShivaniStaffroomPlot={scene:string;status:string;date:string;start:string;end:string;location:string;purpose:string;wardrobeStatus:string;wardrobe:{name:string;age:number;role:string;outfit:string;narratorView:string;referenceColor:string}[];imageReference:{origin:string;status:string;use:string};beats:{id:string;time:string;title:string;focus:string;action:string;narrator?:string;dialogue?:{speaker:string;line:string}[];seed?:string;note?:string}[];plotLocks:string[];};
@@ -44,6 +45,7 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
  const {data:shreyaEpisode03Proposal,error:shreyaEpisode03ProposalError}=useData<ShreyaEpisode03Proposal>('episode-03-shreya-jan01-proposed-timeline.json');
  const {data:shreyaEpisode04Future,error:shreyaEpisode04Error}=useData<ShreyaEpisode04Future>('episode-04-shreya-future-plan.json');
  const {data:shreyaBeats0709,error:shreyaBeats0709Error}=useData<ShreyaBeats0709Draft>('episode-03-shreya-beats-07-09-refined-draft.json');
+ const {data:shreyaBeat10,error:shreyaBeat10Error}=useData<ShreyaBeat10Review>('episode-03-shreya-beat-10-training-ground-review.json');
  useEffect(()=>{
   if(!initialScene)return;
   if((active==='ankita'&&['01','02','03','04','05','06','07','08'].includes(initialScene))||(active==='meenakshi'&&['01','02','03','04'].includes(initialScene))||(active==='shreya'&&['SR10','S03-01','SR11'].includes(initialScene))){openPage('reading',{episode:'03',character:active,scene:active==='shreya'&&initialScene==='SR10'?'10':initialScene});return;}
@@ -302,6 +304,25 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
          </details>)}</div>
          <p className="muted">KAM-G01 and KAM-G02 are now inserted verbatim from the author, inside one continuous 5–6-second private accident. They are highlighted in Beat 08. Beats 07–09 remain a revised draft pending overall author approval; approved older scenes were not rewritten.</p>
        </>:<p role="status">{shreyaBeats0709Error||'Loading refined Beats 07–09 draft…'}</p>}
+     </article>
+   </section>}
+   {active==='shreya'&&<section className="continuity-cards" id="shreya-ep03-beat-10-training-ground-review">
+     <article className="episode-plan-card">
+       <span className="eyebrow">Shreya · Episode 03 · Beat 10 · 3:40–4:05 PM · Prose draft for author review</span>
+       <h2>Training Ground — Meaningful Contest &amp; Lokesh's Clean Win</h2>
+       <p className="source-note"><strong>Original approved plot protected:</strong> Five-person flag drill, Kavita's Round 1 win, Shreya's first advantage over Rohas, Lokesh reading her second pivot and winning the tag. The single closer-contact interception below is an <strong>alternate writing proposal</strong>, not a finalized correction.</p>
+       {shreyaBeat10?<>
+          <details className="episode-outline" open><summary>Read full revised Beat 10 prose</summary>
+            <div className="source-scene prose-exact">{shreyaBeat10.prose.split(/\n\s*\n/).filter(Boolean).map((block,i)=><p key={i} style={{whiteSpace:'pre-line',lineHeight:1.7,...(block.includes('TG-G0')?{backgroundColor:'rgba(221,162,43,0.12)',borderLeft:'4px solid #c08a23',padding:'10px 12px',borderRadius:8}:{})}}>{block.replace(/^### /,'').replace(/\*\*/g,'').replace(/^\*(.*?)\*$/,'$1')}</p>)}</div>
+          </details>
+          <details className="episode-outline"><summary>Timing, contact issue &amp; Grok marker locations</summary>
+            {shreyaBeat10.timeMarks.map((time,i)=><p key={i}><strong>{time.clock}:</strong> {time.moment}</p>)}
+            <p><strong>What was weak:</strong> {shreyaBeat10.editorialReview.issue}</p>
+            <p><strong>Revised proposal:</strong> {shreyaBeat10.editorialReview.thisDraftChoice}</p>
+            {shreyaBeat10.grokInsertions.map(g=><p key={g.id}><strong>{g.id}:</strong> {g.purpose}</p>)}
+            <p className="source-note"><strong>Author approval still needed:</strong> {shreyaBeat10.editorialReview.notYetAuthorized}</p>
+          </details>
+       </>:<p role="status">{shreyaBeat10Error||'Loading Training Ground draft…'}</p>}
      </article>
    </section>}
    {active==='shreya'&&<section className="continuity-cards" id="shreya-ep04-future-plots">
