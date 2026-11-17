@@ -7,7 +7,7 @@
   "title": "The New Year Secret — Taniya & Soniya Episode 03 · Approved Plot",
   "date": "2026-01-01",
   "timezone": "Asia/Kolkata",
-  "status": "AUTHOR_APPROVED_EP03_PLOT__UI_SAVED__PROSE_DRAFT_PENDING",
+  "status": "AUTHOR_APPROVED_EP03_PLOT__SCENE01_PROSE_DRAFT_PUBLISHED_REMAINDER_PENDING",
   "start": "10:50",
   "end": null,
   "goal": "AUTHOR-APPROVED PLOT (NOT PROSE): Jan 1 episode begins 10:50 AM using deferred TS12–TS16 office material, 10:30–19:30 full CA-office shift. Office establishes Raghav/Chirag, Neha/Andrea, Punit and reader-only Vivek Suri attraction; no Taniya office romance or kiss. After 19:30, Taniya chooses Soniya's society home rather than still-active near-office rental (35–50-minute estimated commute). Compress redundant standalone travel/home exposition: Guddu (society CHOTU) wedding vendor papers at ~20:08, Karan/Aman returning event boards at ~20:16 after their 19:11–19:23 Shivani/Kavya/Deepu crossover, one accidental covered-hip contact with Karan and immediate withdrawal, then Soniya and proposed Rahul return at home ~20:25–21:00. Soniya opens the topic of morning gym Vivek Rao with Rahul; cut before long private disclosure. No private character knowledge transfers, no further intimacy.",
@@ -146,7 +146,22 @@
           "line": "Pehle apni files close karo, phir meri shaadi audit karna."
         }
       ],
-      "status": "AUTHOR_REQUESTED_UI_SAVE__PLOT_FOR_REVIEW"
+      "status": "AUTHOR_REQUESTED_UI_SAVE__PLOT_FOR_REVIEW",
+      "proseStatus": "ASSISTANT_AUTHORED_PUBLISHED_DRAFT_PENDING_AUTHOR_APPROVAL",
+      "proseSource": "episode-03-taniya-scene-01-prose.md",
+      "readerRoute": "#/reading?episode=03&character=taniya&scene=01",
+      "grokMarkers": [
+        {
+          "id": "T03-01-G01",
+          "purpose": "Adult office visual at printer: retained sky-blue formal shirt and charcoal trousers, posture and movement; no wardrobe change or invented physical encounter.",
+          "status": "OPEN_FOR_GROK_AUTHOR"
+        },
+        {
+          "id": "T03-01-G02",
+          "purpose": "Raghav's private visible reaction to confident banter; differentiate narrator-only knowledge from Taniya's awareness, without adding touch or invented romance.",
+          "status": "OPEN_FOR_GROK_AUTHOR"
+        }
+      ]
     },
     {
       "id": "T03-02",
@@ -803,5 +818,25 @@
       "new": "Arrives home ~20:40–20:50",
       "status": "PROPOSED_CLOCK; unconfirmed"
     }
-  ]
+  ],
+  "proseProgress": {
+    "writtenScenes": [
+      "T03-01"
+    ],
+    "pendingSceneIds": [
+      "T03-02",
+      "T03-03",
+      "T03-04",
+      "T03-05",
+      "T03-06",
+      "T03-07",
+      "T03-08",
+      "T03-09",
+      "T03-10",
+      "T03-11",
+      "T03-12"
+    ],
+    "lastUpdated": "2026-11-17",
+    "status": "SCENE01_PUBLISHED_DRAFT_REMAINDER_PLOT_ONLY"
+  }
 }
