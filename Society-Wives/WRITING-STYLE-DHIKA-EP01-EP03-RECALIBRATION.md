@@ -120,3 +120,16 @@ The second sample puts the event, an immediate altered reaction and a clear endi
 The **primary analyzed text** is Dhika EP01 (prologue), EP02 (twins first appearance and parallel home thread), EP03 (twins ride, Chotu intro, doorbell cliff), plus **continuation checks** in EP04–EP06. This document does **not** claim an exhaustive line-by-line study of all 41 archived episodes. Verify any episode-specific later claim against the source before writing or asserting facts.
 
 **Priority rule:** On future Society Wives scene-writing requests, this author-approved stylistic recalibration supersedes the previous `rhythm` and `authorPacingRule` insofar as they were being interpreted as a mandatory scripted ladder; factual source and current accepted story canon still control continuity.
+
+
+## I. 17 November 2026 — author corrections: private sightline, numeric fidelity and marker precision
+
+**Priority:** This is a writing-style directive from the author, not permission to rewrite approved scene prose. Existing Dhika EP01–EP03 observations remain required reference reading.
+
+- **Private is not public.** If an adult wardrobe accident is written for exactly two observers, physically stage it in a credible private area with no spectators and no public humiliation. A public seminar can precede it, but must not automatically be the accident venue.
+- **Exact numbers are author locks.** A specified fraction, duration, size, count, angle or timing must survive unchanged into the plot instructions and any visual insertion. Do not substitute phrases like "a little" for explicitly authored "one-third (1/3)"; do not enlarge it, minimize it or reinterpret it.
+- **Cause → accident → distinguishable instant reaction → cut.** A 5–6-second incident is not a justification for 6–7 explanatory paragraphs. A clear object/collar/point-of-view setup and one or two genuine responses suffice; remove the redundant dialogue loop.
+- **No marker quotas.** Use zero, one or many separate visual-insertion markers according to the author's desired content and the scene's actual need. Do not forcibly convert an author-marked visual segment to bland nonvisual narrative; mark content awaiting author insertion and protect the precise visibility/point-of-view constraints.
+- **Tone negotiation, not automatic escalation.** If an unusually dense marker layout would turn the story into an almost exclusively porn-like montage, explain the pacing/genre trade-off and suggest a more focused version; let the author choose emphasis without altering locked source behind their back.
+- **Dhika source application:** The early Dhika incident pacing is usually compact where the event is momentary, while later introspection is reserved for when it adds plot. No mandatory aftermath debrief or new-relationship thesis after every surprise.
+- **Scene-specific correction:** Shreya EP03 B07 is brief travel/arrival; B08's public cyber-safety demo concludes before a private prep-room mishap seen only by Karan and Aman, with the exact one-third author-defined visual boundary held in its marker; B09 is a short goodbye and separate drive/wardrobe change before the 15:40 training round. This is a **draft revision**, not approved prose.
