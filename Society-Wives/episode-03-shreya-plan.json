@@ -130,7 +130,17 @@
       "weekday": "Thursday",
       "episode": 3,
       "scheduling": "REPOSITIONED_TO_2026_01_01_BY_AUTHOR_DATE_CORRECTION; TIME_WINDOWS_WORKING",
-      "originalDate": "2026-01-03"
+      "originalDate": "2026-01-03",
+      "proseDraft": {
+        "file": "episode-03-reader.json",
+        "character": "shreya",
+        "sceneId": "SR11",
+        "status": "DRAFT_PUBLISHED_FOR_AUTHOR_REVIEW_2026_11_17",
+        "fantasy": "DCP-G01 user supplied, preserved verbatim",
+        "professional": "Assistant authored concise formal review grounded in existing timestamp mismatch",
+        "changeControl": "Not approved/frozen; preserve author supplied passage verbatim"
+      },
+      "proseStatus": "DRAFT_PUBLISHED_FOR_AUTHOR_REVIEW_2026_11_17"
     },
     {
       "id": "SR13",
