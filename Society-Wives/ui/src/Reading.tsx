@@ -60,8 +60,9 @@ const storyTag=(status:string)=>{
  if(status==='AUTHOR_SOURCE_BEATS_UNDER_REVIEW')return 'Author story text · review';
  return 'Full prose draft · author review';
 };
-const storyInline=(text:string)=>text.split(/(\*\*[^*]+\*\*|\*[^*]+\*)/g).map((part,i)=>
+const storyInline=(text:string)=>text.split(/(\*\*[^*]+\*\*|__[^_]+__|\*[^*]+\*)/g).map((part,i)=>
  part.startsWith('**')&&part.endsWith('**')?<strong key={i}>{part.slice(2,-2)}</strong>:
+ part.startsWith('__')&&part.endsWith('__')?<u className="ep03-story-emphasis" key={i}>{part.slice(2,-2)}</u>:
  part.startsWith('*')&&part.endsWith('*')?<em key={i}>{part.slice(1,-1)}</em>:<span key={i}>{part}</span>);
 const StoryParagraphs=({raw}:{raw:string})=><>{raw.split(/\n\s*\n/).filter(Boolean).map((part,i)=><p className={'ep03-paragraph'+(part.includes('GRAPHICAL DESCRIPTION — START')?' grok-marker-start':part.includes('GRAPHICAL DESCRIPTION WILL END HERE')?' grok-marker-end':'')} style={part.includes('GRAPHICAL DESCRIPTION — START')||part.includes('GRAPHICAL DESCRIPTION WILL END HERE')?{borderLeft:'4px solid #c08a23',backgroundColor:'rgba(221,162,43,0.14)',padding:'10px 14px',borderRadius:'8px',fontWeight:650}:undefined} key={i}>{storyInline(part)}</p>)}</>;
 type Scene07Revision={status:string;legend:{author:string;baseline:string};beats:{id:string;title:string;time:string;segments:{origin:'author'|'baseline';text:string}[]}[]};
@@ -136,21 +137,21 @@ function Scene06SubmittedRevisions(){
  </section>;
 }
 function Episode03Reading({character,scene}:Props){
- const active=['ankita','meenakshi','shreya'].includes(character)?character:'ankita';
+ const active=['ankita','meenakshi','shreya','taniya'].includes(character)?character:'ankita';
  const {data,loading,error}=useData<Ep03Data>('episode-03-reader.json');
  const scenes=data?.chapters?.[active]||[];
  const selected=scenes.find(x=>x.id===scene)||scenes[0];
  const selectedIndex=scenes.findIndex(x=>x.id===selected?.id);
  const go=(id:string,who=active)=>openPage('reading',{episode:'03',character:who,scene:id});
  return <main className="page-width" id="episode03-final-prose">
-  <header className="section-intro"><span className="eyebrow">The Story · 1 January 2026</span><h1>Episode 03 · Written Scenes</h1><p>All eight Ankita scenes and all four Meenakshi scenes have written text in this Reader. Individual author approvals are preserved; unwritten scenes remain in Planning. Shreya has three written scenes; Taniya and Shivani prose is pending.</p></header>
+  <header className="section-intro"><span className="eyebrow">The Story · 1 January 2026</span><h1>Episode 03 · Written Scenes</h1><p>All eight Ankita scenes and all four Meenakshi scenes have written text in this Reader. Individual author approvals are preserved; unwritten scenes remain in Planning. Shreya has three written scenes; Taniya Scene 01 is a published working draft, while Shivani prose remains in the reader.</p></header>
   <div className="episode-picker" role="group" aria-label="Choose episode">
    <button type="button" onClick={()=>openPage('home')}>Episode 01 · Prologue</button>
    <button type="button" onClick={()=>openPage('reading',{character:active})}>Episode 02 · Six perspectives</button>
    <span className="episode-picker-current" aria-current="page">Episode 03 · Prose</span>
   </div>
   <div className="perspective-tabs" role="group" aria-label="Choose prose character">
-   {['ankita','meenakshi','shreya'].map(w=><button key={w} type="button" className={active===w?'selected':''} aria-pressed={active===w} onClick={()=>go(w==='shreya'?'10':'01',w)}>{titleCase(w)}</button>)}
+   {['ankita','meenakshi','shreya','taniya'].map(w=><button key={w} type="button" className={active===w?'selected':''} aria-pressed={active===w} onClick={()=>go(w==='shreya'?'10':'01',w)}>{titleCase(w)}</button>)}
   </div>
   {loading&&<p role="status">Loading Episode 03 prose…</p>}
   {error&&<p role="alert" className="error">SOURCE MISSING: {error}</p>}
