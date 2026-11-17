@@ -243,7 +243,7 @@ try {
  check(await page.locator('#shreya-ep03-S03-07 .beat-list > details').count()===6,'Six sports twin mini-beats displayed');
  await page.locator('#shreya-ep03-S03-08 > summary').click();
  check(await page.locator('#shreya-ep03-S03-08 .beat-list > details').count()===3,'Three Chintu continuation mini-beats displayed');
- check((await page.locator('#shreya-ep03-S03-01 summary').innerText()).includes('Approved plot'),'Beat 3 strong chai marked approved');
+ check((await page.locator('#shreya-ep03-S03-01 summary').innerText()).includes('Approved final published prose'),'Beat 3 strong chai reflects its new approved final prose status');
  check((await page.locator('#shreya-ep03-S03-05 > summary').innerText()).includes('Approved plot'),'Beat 10 training ground marked approved');
  check((await page.locator('#shreya-ep03-S03-03 > summary').innerText()).includes('Karan–Aman'),'Beat 8 college crossover appears in ordered planning');
  check((await page.locator('#shreya-ep03-S03-03 > summary').innerText()).includes('Plot locked'),'College plot direction marked author-approved, not final prose');
