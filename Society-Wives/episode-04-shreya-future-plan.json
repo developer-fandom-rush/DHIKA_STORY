@@ -1,0 +1,135 @@
+{
+  "schemaVersion": "1.0",
+  "id": "shreya-episode-04-future-training-plan",
+  "title": "Society Wives — Shreya Episode 04 · Future Training / The Cellblock Bet",
+  "lead": "shreya",
+  "episode": "04",
+  "planningStatus": "AUTHOR_SELECTED_FUTURE_SETUP__UNSCHEDULED_NO_PROSE",
+  "episodeDate": null,
+  "sceneStart": null,
+  "sceneEnd": null,
+  "movedFrom": {
+    "episode": "03",
+    "oldBeatNumber": 5,
+    "id": "SR12",
+    "reason": "2026-11-17 author-directed move to Episode 04 future planning; no active Episode 03 scene",
+    "previouslyProposedDate": "2026-01-01",
+    "previouslyProposedWindow": "11:40–12:15",
+    "timeStatus": "DISCARDED_PROVISIONAL_SLOT_EP04_TO_BE_SCHEDULED_WHEN_WRITTEN"
+  },
+  "dependency": "Only stage the three-person role-play test after the existing Episode 03 personal-training program begins; exact timing for Episode 04 must be decided when author writes it",
+  "futurePlots": [
+    {
+      "id": "SR12",
+      "title": "The Cellblock Bet — Three Disguised Professional Trainers",
+      "status": "AUTHOR_DIRECTED_EP04_FUTURE_PLOT_HOLD",
+      "cast": [
+        {
+          "id": "inmate_1",
+          "trainingRole": "professional male trainer posing as Inmate 1",
+          "age": 30,
+          "ageStatus": "established earlier"
+        },
+        {
+          "id": "inmate_2",
+          "trainingRole": "professional male trainer posing as Inmate 2",
+          "age": 35,
+          "ageStatus": "established earlier"
+        },
+        {
+          "id": "inmate_3",
+          "trainingRole": "professional male trainer posing as Inmate 3",
+          "age": 27,
+          "ageStatus": "previous suggestion only, author has not locked it"
+        }
+      ],
+      "identityReveal": {
+        "truth": "All three men are hired/authorized professional training actors, not actual inmates.",
+        "maleAwareness": "The three men and male-side training coordinators know the disguise and assessment purpose.",
+        "femaleAwareness": "Shreya and other participating women are not aware of the men’s real trainer identities during the initial scenario.",
+        "readerAwareness": "Can be shown to readers as a separate dramatic-irony layer; timing of reveal has not been decided"
+      },
+      "purpose": "Role-play as apparent inmates, test how prepared the female trainees are after their personal training begins; gauge judgment, confidence and responses to challenging interpersonal behaviour.",
+      "preservedArc": "The original three-person private ego/competitive wager is preserved: they challenge Shreya through repeated legitimate role-play conversations, leveraging her interest in difficult puzzles. She initially does not know about their wager.",
+      "futureAttraction": "Author notes all forms of adult sexual/romantic interest may form part of a substantially later plot. No immediate romantic or sexual event, no scripted acts or outcomes, no automatic reciprocity; any real intimacy remains separate from the training assessment.",
+      "episode04Continuity": "Do not turn them back into actual detainees or inmates; 'Inmate 1/2/3' are cover roles. No real case interrogation, unlawful custody, or new inmate backstory is implied.",
+      "scheduling": "Unscheduled; date/clock/sequence will be set when Episode 04 writing starts",
+      "preservedOriginalEpisode03Proposal": {
+        "id": "SR12",
+        "start": null,
+        "end": null,
+        "lane": "OFFICE",
+        "location": "Authorized interview room",
+        "title": "The cellblock bet",
+        "characters": [
+          "shreya",
+          "inmate_1",
+          "inmate_2",
+          "inmate_3"
+        ],
+        "summary": "Three cunning inmates develop a private competitive wager about drawing the confident Inspector Shreya into repeated conversation. They exploit her desire to solve difficult challenges, making each legitimate interaction an ego test, but she initially remains unaware of their bet. No date or future physical contact is locked.",
+        "beats": [
+          "Shreya's competitive pride drives her to investigate their puzzle/challenge and can eventually cause her to lose a nonsexual wager.",
+          "A temporary, voluntary obligation to hear their explanation or respond to a legitimate authorized question, without compromising legal procedure or removing her ability to refuse. She is never required to obey personal or sexual demands.",
+          "Repeated dialogue, escalating psychological competition and a possible future attraction may be planned later; any intimacy must be freely chosen, not punishment for losing, and not part of a custody quid pro quo."
+        ],
+        "dialogue": [
+          [
+            "Adult inmate (30)",
+            "Madam, aap duty ke bahar bhi itni strict hain?"
+          ],
+          [
+            "Shreya",
+            "Yahaan sawaal case ke hain. Personal life ke nahi."
+          ]
+        ],
+        "notes": [
+          "User-directed: moved from Episode 02 10:15 cutoff to Episode 03 later Jan 1. Do not publish as Jan 1. Time windows are placeholders pending Jan 1 global clock reconciliation.",
+          "2026-11-16: User placed SR12 on hold; three inmate placeholders. 30 & 35 established, third 27 proposed, final names intentionally omitted. No assigned date/time, no immediate intimate contact."
+        ],
+        "approval": "ON_HOLD_UNSCHEDULED_FUTURE_PLOT",
+        "date": "2026-01-01",
+        "weekday": "Thursday",
+        "episode": 3,
+        "scheduling": "REPOSITIONED_TO_2026_01_01_BY_AUTHOR_DATE_CORRECTION; TIME_WINDOWS_WORKING",
+        "originalDate": "2026-01-03",
+        "originalProposedSlot": "2026-01-01 11:40–12:15"
+      },
+      "preservedOriginalTimelineArc": {
+        "id": "SR12",
+        "time": null,
+        "type": "existing",
+        "status": "ON_HOLD_UNSCHEDULED_AUTHOR_DIRECTED_FUTURE_ARC",
+        "title": "The cellblock bet — three inmates, future ego-challenge arc",
+        "place": null,
+        "characters": [
+          "Shreya (33)",
+          "Inmate 1 (30, age from earlier source)",
+          "Inmate 2 (35, age from earlier source)",
+          "Inmate 3 (27, newly suggested age pending author lock)"
+        ],
+        "history": "Earlier source had two adult inmates (30 and 35). Author now directs three unnamed distinct adult inmates labeled only Inmate 1, Inmate 2, Inmate 3. Third age is a new proposal, not canon.",
+        "distinctEvent": "Three cunning inmates develop a private competitive wager about drawing the confident Inspector Shreya into repeated conversation. They exploit her desire to solve difficult challenges, making each legitimate interaction an ego test, but she initially remains unaware of their bet. No date or future physical contact is locked.",
+        "reaction": "Her focus stays on the case; reader knows more than she does.",
+        "exit": "File and observation notes",
+        "previouslyProposedDate": "2026-01-01",
+        "previouslyProposedTime": "11:40–12:15",
+        "futureArc": {
+          "coreConflict": "Shreya's competitive pride drives her to investigate their puzzle/challenge and can eventually cause her to lose a nonsexual wager.",
+          "nonsexualStakes": "A temporary, voluntary obligation to hear their explanation or respond to a legitimate authorized question, without compromising legal procedure or removing her ability to refuse. She is never required to obey personal or sexual demands.",
+          "trajectory": "Repeated dialogue, escalating psychological competition and a possible future attraction may be planned later; any intimacy must be freely chosen, not punishment for losing, and not part of a custody quid pro quo.",
+          "status": "PROPOSED_AND_UNSCHEDULED"
+        },
+        "approval": "AUTHOR_REQUESTED_ARC_HOLD_NO_EP03_SCENE"
+      }
+    }
+  ],
+  "authorLocks": [
+    "Episode 03 SR12 (Beat 05) removed from active and held lists; preserved in this Episode 04 Future Plot section, not deleted from history",
+    "Three men are real professional trainers/actors disguised as inmates. The female trainees including Shreya do not know; male-side participants in the setup know",
+    "Training-based readiness test depends on personal training beginning in Episode 03; schedule and further progression belong to Episode 04 author planning",
+    "Existing inmate competitive-ego storyline remains as historical scenario foundation and is not replaced",
+    "Future sexual interest is a longer-term possibility only; no present-day interaction or sexual action is committed",
+    "Beat 06 SR13 remains in Episode 03, limited to a small Poonam–Shreya exchange"
+  ]
+}
