@@ -203,7 +203,14 @@ try {
  await page.waitForFunction(()=>document.querySelector('#ankita-episode04a')?.textContent?.includes('The Water-Filter Accident'));
  check((await page.locator('#ankita-episode04a').innerText()).includes('Scene 01'),'Ankita Episode 04A is labelled with Scene 01');
  check((await page.locator('#ankita-episode04a').innerText()).includes('A05'),'Ankita Episode 04A has five numbered timed beats');
- check((await page.locator('#ankita-episode04a').innerText()).includes('Scene 02'),'Household closure stays visibly reserved');
+ check((await page.locator('#ankita-episode04a').innerText()).includes('Scene 07'),'Ankita is separate with full Episode 04A night closure');
+ check(await page.locator('#ep04-chotu-planning').count()===0,'Ankita does not appear in the shared Chotu workshop');
+ await page.locator('.perspective-tabs button',{hasText:'Shivani'}).click();
+ await page.waitForFunction(()=>document.querySelector('#shivani-episode04a')?.textContent?.includes('The backdrop accident'));
+ check((await page.locator('#shivani-episode04a').innerText()).includes('Scene 04'),'Shivani EP04A scene numbering is rendered');
+ check((await page.locator('#shivani-episode04a').innerText()).includes('SH13'),'Shivani twin/Kavya ending beat is rendered');
+ check((await page.locator('#shivani-episode04a').innerText()).includes('Rohan'),'Shivani household positions are included');
+ check((await page.locator('#ep04-chotu-planning').innerText()).includes('Remaining Five Women'),'Shared workshop properly excludes Ankita');
  await page.locator('.perspective-tabs button', {hasText:'Taniya'}).click();
  await page.waitForFunction(()=>document.querySelectorAll('#ep04-chotu-planning .episode-outline').length>=2);
  check((await page.locator('#ep04-chotu-planning').innerText()).includes('Punit'),'New Chotu workshop shows the office helper for Taniya');
