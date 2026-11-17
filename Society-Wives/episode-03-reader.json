@@ -1536,6 +1536,100 @@
           "groksInserted": true
         },
         "grokMarkerCount": 2
+      },
+      {
+        "id": "06",
+        "title": "A Small Celebration — Andrea & Chirag",
+        "date": "2026-01-01",
+        "time": "14:15–15:15",
+        "place": "Gurgaon CA office · audit department",
+        "format": "raw",
+        "status": "GROK_INSERTED_DOCUMENT_DRAFT_PENDING_AUTHOR_REVIEW",
+        "source": "episode-03-taniya-scene-06-grok-merged.md",
+        "raw": "14:15 PM. Back at the audit section, revised report ki final cross-check shuru hui. Raghav subtotal verify kar raha tha, Chirag source ledger aur pivot output compare kar raha tha; Andrea aur Neha side-by-side exception worksheet pe thi.\n\nChirag: “Ek second. Yeh amount negative sign ke saath feed hua hai, lekin vendor memo credit note ka hai.”\n\nTaniya: “Show me.”\n\nChirag ne sheet zoom ki. Total difference exactly missing amount ke barabar tha.\n\nNeha: “Oh wow. Isliye summary baar-baar fail ho rahi thi.”\n\nRaghav: “Main bhi bolne wala tha.”\n\nAndrea: “Bohot convenient timing, Raghav.”\n\nTaniya: “Chirag, original line aur memo cross-reference karke corrected calculation save karo. Great catch.”\n\n14:29 PM. Correction pass hui. Team ke pending report mein green validated status aa gaya.\n\nChirag: “Ab variance zero. Supporting note ready.”\n\nRaghav: “Mera credit gaya kahaan?”\n\nNeha: “Proof Chirag ka, drama tumhara.”\n\nAndrea: “Mujhe toh winner ko trophy deni padegi.”\n\nChirag ne samjha Andrea notebook ya coffee ka joke karegi. Usne screen se nazar uthayi hi thi ki Andrea uske paas aayi, ek quick voluntary kiss uske cheek par diya aur hanste hue turant peeche hat gayi.\n\n**[T03-06-G01 — GRAPHICAL DESCRIPTION — START]**\n\n**Andrea ne Chirag ko quick cheek peck diya celebration mein. Taniya sky-blue shirt aur charcoal trousers mein side se dekh rahi thi, natural smile ke saath. Uske fitted office attire clearly visible the. No relationship declared; light, voluntary moment.**\n\n**[T03-06-G01 — GRAPHICAL DESCRIPTION WILL END HERE]**\n\nChirag ek second ke liye speechless reh gaya, phir smile ki.\n\nChirag: “Office incentive policy kab se change hui?”\n\nAndrea: “New Year special. Policy ek baar ki thi.”\n\nRaghav: “I officially protest. Main bhi report pe tha.”\n\nNeha: “Tumne report se zyada apna credit discuss kiya.”\n\nTaniya: “Celebration over. Ab figures bhejo.”\n\nSab hans pade. Taniya khud bhi muskura rahi thi; usne casually group ko screen ki taraf wapas point kiya. Chirag aur Andrea ke beech kisi ne couple-status announce nahi kiya. Andrea ka gesture spontaneous tha, aur conversation ka natural flow jaari raha.\n\n**[T03-06-G02 — GRAPHICAL DESCRIPTION — START]**\n\n**Chirag thoda surprised/amused tha. Taniya ne scene dekha aur calmly team ko wapas kaam pe lagaya. Uske sky-blue shirt mein natural reaction; no romance formed.**\n\n**[T03-06-G02 — GRAPHICAL DESCRIPTION WILL END HERE]**\n\n14:48 PM. Chirag ne final reconciliation file group drive pe upload ki. Raghav ne supporting screenshots attach kiye. Andrea Neha ko corrected exception count bhej rahi thi.\n\nTaniya: “Version two ko final mark mat karna jab tak Pradeep sir ka review note attach nahi hota.”\n\nRaghav: “Tumhara favourite word: pending.”\n\nTaniya: “Haan, kyunki completed likh kar client ke saamne awkward nahi hona.”\n\n15:05 PM. Report pack ready tha. Andrea ne cup utha kar mock-toast kiya.\n\nAndrea: “To the only team jiska party playlist Excel formulas hai!”\n\nNeha: “And to Chirag, jiska New Year apparently achha start hua.”\n\nChirag ne sir hilaaya.\n\nChirag: “Main amount reconcile karta hoon, tum log mere expressions.”\n\nTaniya: “Dono ka working paper file hona chahiye. Ab next review ke liye ready?”\n\n15:15 PM. Screens save hue, shared drive sync hua. Andrea ki chhoti celebratory impulsiveness group memory ban gayi, aaj ke liye bas itna hi.",
+        "reviewNotes": [
+          "Grok G01 briefly repeats the cheek-peck event already narrated in GPT prose; source preserved for author review."
+        ],
+        "originalDoc": {
+          "url": "https://docs.google.com/document/d/1W8GmTAD4cjrWJRt3Au9CS7AHkXezV-YJdWZegQhb7m4/edit?tab=t.1s49pp1fd3s7",
+          "tabId": "t.1s49pp1fd3s7",
+          "groksInserted": true
+        },
+        "grokMarkerCount": 2
+      },
+      {
+        "id": "07",
+        "title": "The Second Flat — An Active Address",
+        "date": "2026-01-01",
+        "time": "15:15–16:20",
+        "place": "Gurgaon CA office · audit desks",
+        "format": "raw",
+        "status": "GROK_INSERTED_DOCUMENT_DRAFT_PENDING_AUTHOR_REVIEW",
+        "source": "episode-03-taniya-scene-07-grok-merged.md",
+        "raw": "15:15 PM. Team ek naye client folder par shift ho rahi thi. Taniya ko phone par electricity-payment reminder aaya—uske near-office rented flat ka monthly bill. Woh flat usne late CA shifts ke liye liya tha; ab woh usually Soniya ke society apartment mein rehti thi, lekin rent aur keys dono active the.\n\nNeha ne screen par reminder ki heading dekh li.\n\nNeha: “Madam ka second empire ab bhi running hai?”\n\nTaniya: “Empire nahi, studio flat. Client deadlines ki wajah se useful tha, ab bhi backup hai.”\n\nAndrea: “Backup? Mere liye toh city ke beech woh escape room hai.”\n\nTaniya: “Tumhare liye har room story ka opening chapter hota hai.”\n\nNeha: “Flat ki waiting list bhi hai kya?”\n\nTaniya: “Meri permission ke bina koi booking nahi.”\n\nAndrea: “Privacy bhi audit-approved!”\n\nTaniya: “Privacy aur permission alag cheez nahi hain. Aur mere keys meri responsibility hain.”\n\n15:31 PM. Taniya ne online bill pay kar diya aur property manager ko receipt forward ki. Andrea ne quietly poochha:\n\nAndrea: “Serious question—kabhi late review ho toh kya main wahan extra hours kaam kar sakti hoon? Office ka last metro miss karne ka mood nahi.”\n\nTaniya: “Call kar dena. Flat free ho aur main okay bolun toh temporary use kar sakti ho.”\n\nNeha: “Usse permission mil gayi, mujhe rulebook milegi?”\n\nTaniya: “Tum dono ko same rulebook.”\n\nTrusted colleagues ne kabhi-kabhi Taniya ki permission se private space use ki thi, apne partners ke saath bhi. Taniya ko un sab relationships ki full history nahi pata thi, aur aaj kisi ka visit scheduled nahi tha.\n\n**[T03-07-G01 — GRAPHICAL DESCRIPTION — START]**\n\n**Taniya team conversation mein sky-blue shirt aur charcoal trousers pehne baithi thi. Usne second flat ke baare mein calmly baat ki. Posture composed; colleagues ke sightlines se uska professional look natural tha.**\n\n**[T03-07-G01 — GRAPHICAL DESCRIPTION WILL END HERE]**\n\n15:49 PM. HR se Saloni ka short message aaya: “Any late-shift guest facility request must be logged with admin.” Taniya ne message acknowledge kiya; usne kisi colleague ka naam add nahi kiya aur koi unapproved booking confirm nahi ki.\n\nAndrea: “Tumne itni serious reply kyun ki?”\n\nTaniya: “Kyunki normal space ko gossip ki jagah policy se manage karna better hai.”\n\nNeha: “Translation: lease agreement bhi isse darrta hoga.”\n\nTaniya: “Lease agreement payment time par yaad aa jata hai.”\n\n16:05 PM. Raghav ek missing worksheet ka query lekar paas aaya. Conversation naturally work par switch ho gayi.\n\nRaghav: “Client copy aur internal draft mein difference hai. Kaunsa final?”\n\nTaniya: “Internal draft working hai. Client approved file next revision ke baad jaayegi.”\n\n16:20 PM. Taniya ne second flat ki reminder app band ki aur partner review ka folder uthaya. Aaj raat woh us flat ke bajaye Soniya ke ghar jayegi—subah ki unki baat adhuri thi.",
+        "reviewNotes": [
+          "Grok G01 adds outfit and posture but does not elaborate Andrea/Neha's intended double-meaning response; kept verbatim for review."
+        ],
+        "originalDoc": {
+          "url": "https://docs.google.com/document/d/1W8GmTAD4cjrWJRt3Au9CS7AHkXezV-YJdWZegQhb7m4/edit?tab=t.zhilfpe39udy",
+          "tabId": "t.zhilfpe39udy",
+          "groksInserted": true
+        },
+        "grokMarkerCount": 1
+      },
+      {
+        "id": "08",
+        "title": "Uncle's Second Look",
+        "date": "2026-01-01",
+        "time": "16:20–17:30",
+        "place": "Gurgaon CA office · partner review room",
+        "format": "raw",
+        "status": "GROK_INSERTED_DOCUMENT_DRAFT_PENDING_AUTHOR_REVIEW",
+        "source": "episode-03-taniya-scene-08-grok-merged.md",
+        "raw": "16:20 PM. Partner review room mein Pradeep Khanna already updated evidence folder check kar rahe the. Vivek Suri ne late-afternoon review call ki thi; Chirag support ke liye remote tracker kholkar baitha tha. Taniya ne revised exception table project ki.\n\nVivek Suri: “Confirmed figures aur pending exceptions alag rakho.”\n\nTaniya: “Already marked hain. Yahan signed bank confirmation, yahan cutoff explanatory note, aur yahan missing third-party evidence.”\n\nPradeep: “Good. Audit trail original se match karta hai.”\n\nChirag: “Version three checksum bhi recorded hai, sir.”\n\nVivek ne screen se Taniya ki taraf dekha. Uski calm delivery aur clear replies ne meeting ko efficiently move kiya. Professionally woh uske analysis ko respect karta tha. Privately usse Taniya attractive lagti thi—yeh feeling uske formal questions mein zahir nahi hone di.\n\n**[T03-08-G01 — GRAPHICAL DESCRIPTION — START]**\n\n**Vivek Suri final review mein Taniya ki presentation dekh raha tha. Sky-blue shirt aur charcoal trousers mein uski confident figure reader-only attractive lagi. Professional conduct maintained; no contact or proposal. Taniya unaware.**\n\n**[T03-08-G01 — GRAPHICAL DESCRIPTION WILL END HERE]**\n\nPradeep: “Materiality note mein threshold ka reasoning aur explicit chahiye.”\n\nTaniya: “I can add one line referencing the signed planning memo.”\n\nVivek Suri: “Do that. Aur figures ko rename karne se pehle all reviewers ko version link bhejna.”\n\nTaniya: “Noted.”\n\n16:47 PM. Vivek ne report ka risk section padha. Ek paragraph mein “fully cleared” likha tha, jabki correspondence pending tha.\n\nVivek Suri: “Is wording ko change karo. We're not saying cleared until proof arrives.”\n\nTaniya: “I agree. 'Reconciled subject to external confirmation' better rahega.”\n\nPradeep: “Yes. Keep it precise.”\n\nTaniya apni file lene ke liye table ke end tak gayi. Vivek ne ek pal ko uska confident walk dekha, phir screen par laut aaya. Uske zehan mein attraction ka ek private flash tha, lekin woh usse kabhi spoken invitation ya power-based approach mein convert nahi karta. Taniya simply review complete karne mein focused thi.\n\n**[T03-08-G02 — GRAPHICAL DESCRIPTION — START]**\n\n**Reader-only: Vivek Suri privately noted Taniya's poised form in the meeting. Professional distance maintained throughout. Uncle track closes without escalation.**\n\n**[T03-08-G02 — GRAPHICAL DESCRIPTION WILL END HERE]**\n\n17:02 PM. Chirag ne remaining corrections mark ki. Pradeep ne senior notes sign off kiye; Vivek ne final acceptance ke liye evening upload ka time diya.\n\nVivek Suri: “Seven tak locked revision bhej dena. Any exception unresolved rahe toh separate list.”\n\nTaniya: “Yes, sir. Last version bhi traceable rahega.”\n\nPradeep: “Good work. Delivery clean honi chahiye.”\n\n17:20 PM. Meeting end par Taniya ne file close ki.\n\nTaniya: “Thank you. I'll circulate the final pack.”\n\nVivek Suri: “Fine. Happy New Year—and keep the team on track.”\n\nTaniya: “You too, sir.”\n\n17:30 PM. Taniya corridor mein Chirag ke saath next steps discuss karti hui nikli. Vivek Suri apne meeting notes par laut gaya. Is episode mein unki interaction work tak hi rahi; uske private interest ka Taniya ko kuch pata nahi chala.",
+        "reviewNotes": [
+          "Grok G01 and G02 both describe Vivek Suri's private interest; repeated emphasis preserved."
+        ],
+        "originalDoc": {
+          "url": "https://docs.google.com/document/d/1W8GmTAD4cjrWJRt3Au9CS7AHkXezV-YJdWZegQhb7m4/edit?tab=t.vxc3c1vrg5i",
+          "tabId": "t.vxc3c1vrg5i",
+          "groksInserted": true
+        },
+        "grokMarkerCount": 2
+      },
+      {
+        "id": "09",
+        "title": "The Last Office Hours",
+        "date": "2026-01-01",
+        "time": "17:30–19:30",
+        "place": "Gurgaon CA office · closing shift",
+        "format": "raw",
+        "status": "GROK_INSERTED_DOCUMENT_DRAFT_PENDING_AUTHOR_REVIEW",
+        "source": "episode-03-taniya-scene-09-grok-merged.md",
+        "raw": "17:30 PM. Evening lights jal chuki thi. CA office mein holiday shift ke aakhri do ghante chal rahe the. Raghav final journal index close kar raha tha; Chirag ne client exception register lock kar diya. Neha aur Andrea dono revised summary emails prepare kar rahi thi. Taniya ne partner review ke notes ko one by one cross-check kiya.\n\nTaniya: “Signed bank confirmation attached?”\n\nNeha: “Yes. Client ka acknowledgment bhi aa gaya.”\n\nTaniya: “Open exceptions?”\n\nChirag: “Do. Dono amber mark kiye hain, closure claim nahi kiya.”\n\nRaghav: “And main final binders scan kar chuka. Drawer bhi ab half-loaded hai.”\n\nAndrea: “Thank goodness. Aaj aur rescue drill afford nahi kar sakte.”\n\nTaniya ne half-smile di aur last-version folder khola.\n\nTaniya: “Jokes baad mein. Pradeep sir ko seven tak pack jaana chahiye.”\n\nRaghav: “Seven se pehle jayega. You can start thanking me.”\n\nChirag: “Client ne thanks bheja toh forward kar denge.”\n\n18:14 PM. Final files circulated hui. Punit ek short tracker report lekar aaya.\n\nPunit: “Kal ke pending verification codes list kar diye. Kuch pages cross-reference baaki hain.”\n\nTaniya: “Good. Kal morning pehle unhe cover karna. Jo nahi mile, missing hi report karna.”\n\nPunit: “Done, ma'am.”\n\nAndrea ne paani ki bottle uthayi.\n\nAndrea: “I think hamare calendars ko holiday ka matlab samjhana padega.”\n\nNeha: “Last New Year pe bhi yahin the. This is tradition now.”\n\nTaniya: “Agli baar client ko December thirty-second invent karne ko bolna.”\n\n**[T03-09-G01 — GRAPHICAL DESCRIPTION — START]**\n\n**Taniya final desks pe sky-blue shirt aur charcoal trousers mein reports close kar rahi thi. Uske posture tired but composed tha after full shift. Colleagues ke saath ordinary goodbyes; no new romantic milestone. Outfit continuity maintained, no added exposure.**\n\n**[T03-09-G01 — GRAPHICAL DESCRIPTION WILL END HERE]**\n\n18:47 PM. Taniya ne cab fares aur traffic status check kiya. Uske near-office rented studio ka address convenient tha, par aaj woh directly society jaana chahti thi. Subah Soniya ke saath gym ko lekar jo baat shuru hui thi, uske baad ghar lautna natural laga. Usne Soniya ko short message bheja: “Office 7:30 pe leave karungi. Ghar aa rahi hoon.”\n\nSoniya ka reply aaya: “Okay. Dinner warm rakhungi.”\n\n19:05 PM. Neha aur Andrea printer ke paas labels sort kar rahi thi. Chirag ne ek corrected exception note Taniya ko bheja; Raghav ne last internal source folder hand over kiya.\n\nRaghav: “All settled. Kal phir se war?”\n\nTaniya: “Kal ka war kal. Aaj ki files close karo.”\n\nAndrea: “Wedding leave ka reminder kisi ko set karna hai?”\n\nTaniya: “Mujhe ya client ko?”\n\nNeha: “Dono ko.”\n\n19:23 PM. Team ke screens finally lock hone lage.\n\nChirag: “No more last-minute slides, please.”\n\nRaghav: “Taniya, cab book ki?”\n\nTaniya: “Haan. Meri shift officially 7:30 pe hi khatam hogi.”\n\nNeha: “Kal bhi comedy schedule?”\n\nTaniya: “Pehle reconciliation, phir comedy.”\n\n19:30 PM. Taniya ne sky-blue shirt ki sleeves seedhi ki, charcoal trousers ke saath laptop bag sambhala aur office se nikli. Raghav, Chirag, Neha aur Andrea ne ordinary goodbyes kahe. Taxi stand tak chalte hue usne society ka destination confirm kiya.\n\nBheed aur traffic ke hisaab se journey 35–50 minutes ho sakti thi. Aaj usne second flat ki short route reject ki; ghar par conversation adhuri thi.",
+        "originalDoc": {
+          "url": "https://docs.google.com/document/d/1W8GmTAD4cjrWJRt3Au9CS7AHkXezV-YJdWZegQhb7m4/edit?tab=t.mxys2j5fhwci",
+          "tabId": "t.mxys2j5fhwci",
+          "groksInserted": true
+        },
+        "grokMarkerCount": 1
+      },
+      {
+        "id": "10",
+        "title": "Guddu — The Wedding Quotation",
+        "date": "2026-01-01",
+        "time": "20:08–20:15",
+        "place": "Gulmohar Heights society · service desk",
+        "format": "raw",
+        "status": "GROK_INSERTED_DOCUMENT_DRAFT_PENDING_AUTHOR_REVIEW",
+        "source": "episode-03-taniya-scene-10-grok-merged.md",
+        "raw": "20:08 PM. Cab Gulmohar Heights ke entrance par ruki. Taniya ne fare confirm kiya, laptop bag kandhe par dala aur security service desk ki taraf mud gayi. Reception ke paas event material ka register open tha. Guddu—society ka 23-year-old courier helper—wahan sealed handover packets sort kar raha tha. Woh Taniya ko pehle se jaanta tha; subah ke gym wala office trainee Punit usse bilkul alag person tha.\n\nGuddu: “Happy New Year, Taniya madam. Wedding vendor ka packet aaya hai. Register mein aapka naam hai.”\n\nTaniya: “Happy New Year. Aaj bhi delivery duty?”\n\nGuddu: “New Year pe vendor log bhi busy hain. Shaadi ka season hai na.”\n\nGuddu ne sealed quotation envelope uske saamne rakha. Taniya ne recipient aur vendor seal check ki, sign kiya, phir ek corner se papers count kiye.\n\nTaniya: “Page one, page two... page four. Page three kahaan hai?”\n\nGuddu: “Packet toh sealed hi tha, madam. Mere paas sirf dispatch slip hai.”\n\nTaniya: “Shaadi ka quotation bhi incomplete? Guddu, tumhara delivery audit pass nahin hua.”\n\nGuddu: “Madam, vendor ko bol deta hoon. Aapki shaadi mein bhi reconciliation pending hai!”\n\nTaniya hans padi. Office ka mood abhi tak uske andar tha, lekin Guddu ki quick wit distinctly different thi.\n\n**[T03-10-G01 — GRAPHICAL DESCRIPTION — START]**\n\n**Society entrance pe Taniya sky-blue shirt aur charcoal trousers mein Guddu se wedding quotation check kar rahi thi. Uske movement natural after commute. Guddu ka confident teasing reply; no personal affair. Outfit same, no exposure.**\n\n**[T03-10-G01 — GRAPHICAL DESCRIPTION WILL END HERE]**\n\nTaniya: “Chalo, tumhari entry provisional pass. Vendor se missing page kal morning mangwana.”\n\nGuddu: “Ji. Waise aapko shaadi ka budget hi tough lag raha hai ya guest list bhi?”\n\nTaniya: “Budget toh handle kar lungi. Guest list kisi aur department ka headache hai.”\n\nGuddu: “Main delivery department se hoon. Mere paas sabhi ke complaints aate hain.”\n\nTaniya: “Tab toh tumhara promotion risk management mein hona chahiye.”\n\n20:12 PM. Guddu ne handover register ka photo system mein save kiya aur vendor ko follow-up message draft kiya. Taniya ne missing-page note envelope ke cover par likha.\n\nGuddu: “Kal tak page mil gaya toh main aapko directly call kar doon?”\n\nTaniya: “Call kar dena. But packet desk pe record karke hi dena. Audit ka first rule.”\n\nGuddu: “Understood, madam. Aur congratulations advance mein.”\n\nTaniya: “Thank you. Tum apni own New Year party kab karoge?”\n\nGuddu: “Duty khatam hote hi, chai aur samosa se.”\n\n20:15 PM. Taniya packet aur laptop bag lekar lobby ki taraf chali. Guddu wapas vendor counter par lag gaya. Is meeting se ek missing-document follow-up create hua; koi romance ya secret encounter nahi.",
+        "originalDoc": {
+          "url": "https://docs.google.com/document/d/1W8GmTAD4cjrWJRt3Au9CS7AHkXezV-YJdWZegQhb7m4/edit?tab=t.50kl05bfx20t",
+          "tabId": "t.50kl05bfx20t",
+          "groksInserted": true
+        },
+        "grokMarkerCount": 1
       }
     ]
   },
