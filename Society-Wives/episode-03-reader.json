@@ -1495,6 +1495,47 @@
           "groksInserted": true
         },
         "grokMarkerCount": 2
+      },
+      {
+        "id": "04",
+        "title": "Office Chotu Punit Enters",
+        "date": "2026-01-01",
+        "time": "12:25–13:15",
+        "place": "Gurgaon CA office · corridor, records desks",
+        "status": "GROK_INSERTED_DOCUMENT_DRAFT_PENDING_CONTINUITY_AND_AUTHOR_REVIEW",
+        "source": "episode-03-taniya-scene-04-grok-merged.md",
+        "format": "raw",
+        "raw": "12:25 PM. Taniya conference room se notes lekar nikli toh Punit records trolley ke saath corridor mein mil gaya. Uske paas labelled binders, fresh stationery aur delivery register tha.\n\nPunit: “Ma'am, archived journal file aur additional index sheets le aaya.”\n\nTaniya: “Good timing. Yeh old register room mein rakho aur next quarter ke vouchers alag kar do.”\n\nPunit: “Page numbers bhi enter kar doon?”\n\nTaniya: “Haan, lekin missing pages blank mat bharna. Clearly mark karna.”\n\nNeha ne trolley dekhi aur teasing shuru kar di.\n\nNeha: “Punit, har baar Taniya ma'am ko hi report karte ho?”\n\nPunit: “Aapki report finish ho toh aapko bhi kar doon.”\n\nAndrea: “Wah. Punit ne New Year pe sarcasm update kar liya!”\n\nRaghav: “Aaj ka best comeback trainee ke naam.”\n\nTaniya ne Punit ko ek approving glance diya.\n\nTaniya: “Kaam pe focus, roast session baad mein. Aur smart answer ke bonus points timesheet mein nahi milte.”\n\nPunit: “Ji, ma'am. Main toh bas records complete karne aaya tha.”\n\n12:39 PM. Punit ne table par old vendor ledger khola. Ek entry ke neeche handwritten correction thi.\n\nPunit: “Yahan signer initials different hain. Isko exception list mein flag kar doon?”\n\nTaniya: “Bilkul. Guess nahi karna kaun sa initial hai. Original scanned copy attach karo.”\n\nPunit: “Understood.”\n\n**[T03-04-G01 — GRAPHICAL DESCRIPTION — START]**\n\n**Punit records trolley ke saath corridor mein khada tha. Taniya uske saamne sky-blue shirt aur charcoal trousers mein notes lekar nikli. Uske posture professional aur composed tha; Punit ne uski fitted office attire aur confident walk notice ki, lekin sirf reader-only shy admiration. Koi open reaction nahi.**\n\n**[T03-04-G01 — GRAPHICAL DESCRIPTION WILL END HERE]**\n\nPunit ko Taniya ki confident working style achhi lagti thi. Usne yeh baat kabhi kahi nahi; uske liye woh ek respected senior thi. Taniya ko bas uska quick attention aur improvement nazar aaya, kuch personal nahi.\n\n12:55 PM. Neha aur Andrea ke beech half-hour handover hua. Chirag ne review checklist close ki; Raghav client attachment folder sync kar raha tha.\n\nAndrea: “Punit, lunch kiya?”\n\nPunit: “Abhi nahi. Register finish karke jaunga.”\n\nTaniya: “Register lunch se zyada important nahi. Fifteen minutes le lo, phir baaki complete karna.”\n\nPunit: “Thanks, ma'am.”\n\n13:08 PM. Taniya ne next-day work allocation share kiya: archived entries verify, stationery stock check, scanned files align.\n\nTaniya: “Aaj ke liye itna. Kal tumse full verification sheet chahiye.”\n\nPunit: “Kal morning ready rahegi.”\n\n13:15 PM. Punit register le kar apni desk par laut gaya. Raghav, Chirag, Neha aur Andrea ne lunch break plan kiya. Taniya ne laptop lock karte hue kaha:\n\nTaniya: “Five minutes, then canteen. Reports bhookhe pet aur boring lagti hain.”",
+        "reviewNotes": [
+          "Grok G01 illustrates Punit and Taniya standing in the corridor, although its insertion is after the 12:39 ledger check. This is a staging/time-position mismatch for author review; the source remains unchanged."
+        ],
+        "originalDoc": {
+          "url": "https://docs.google.com/document/d/1W8GmTAD4cjrWJRt3Au9CS7AHkXezV-YJdWZegQhb7m4/edit?tab=t.5rmj8bd6ys2g",
+          "tabId": "t.5rmj8bd6ys2g",
+          "groksInserted": true
+        },
+        "grokMarkerCount": 1
+      },
+      {
+        "id": "05",
+        "title": "Lunch & Laughter",
+        "date": "2026-01-01",
+        "time": "13:15–14:15",
+        "place": "Gurgaon CA office · cafeteria",
+        "status": "GROK_INSERTED_DOCUMENT_DRAFT_PENDING_CONTINUITY_AND_AUTHOR_REVIEW",
+        "source": "episode-03-taniya-scene-05-grok-merged.md",
+        "format": "raw",
+        "raw": "13:15 PM. Office cafeteria mein holiday-shift ki wajah se aadhi tables khaali thi. Taniya tray lekar corner table tak aayi, jahan Neha already chutney ke packet se struggle kar rahi thi. Raghav ne do extra paper napkins rakhe; Chirag apna tiffin khol raha tha. Andrea ne chair peeche kheenchte hue announce kiya:\n\nAndrea: “December close survivors ki emergency reunion!”\n\nNeha: “Reunion? Kal bhi toh yahin baithe the.”\n\nAndrea: “Kal last year tha. Sentiment samjho.”\n\nTaniya ne apni lunch box open ki.\n\nTaniya: “Aaj sentimental hone se pehle koi mujhe batayega vendor schedule kisne rename kiya?”\n\nChirag: “Main nahi. Mere files ke names itne boring hain ki unhe koi chhoota bhi nahi.”\n\nRaghav: “Maine prefix add kiya. Tumhare January version se conflict ho raha tha.”\n\nTaniya: “Good. At least ek useful New Year gift mil gaya.”\n\nNeha: “Shaadi ke baad kya tum client data se bhi zyada strict hogi?”\n\nTaniya: “Main abhi bhi strict hoon. Bas tumhare jokes ko exception de deti hoon.”\n\nAndrea: “Exception toh dangerous word hai. Kisi ko extra benefit mil sakta hai.”\n\nChirag: “Aaj team mein sabse zyada benefit canteen wale ko mil raha hai.”\n\n13:31 PM. Raghav ne pehle project ki ek photo yaad dilayi—teen months pehle jab poori team midnight close ke baad bhi deadline meet nahi kar paayi thi.\n\nRaghav: “Us raat yaad hai? Chirag ne printer ko personal enemy declare kar diya tha.”\n\nChirag: “Printer jam hua tha, main nahi.”\n\nNeha: “Aur Taniya ne sabko kaha tha, ‘panic karne ka time kal milega.’”\n\nTaniya: “Haan, tabhi toh report time pe gayi.”\n\nSab hans pade. Is group ki intimacy friendship aur shared work-history ki thi; iske liye kisi artificial romantic introduction ki zaroorat nahi thi.\n\n13:44 PM. Andrea ne phone camera on kiya.\n\nAndrea: “Group photo! Audit zombies bhi smile karein.”\n\nChirag: “Raghav ki credit wali smile block karo.”\n\nRaghav: “Main toh is photo ka lead actor hoon.”\n\nNeha: “Lead accountant banne ki koshish kar lo pehle.”\n\nAndrea ne Raghav ko sleeve se halka sa kheenchkar group mein side-by-side khada kiya. Neha ne funny paper-crown canteen receipt par draw karke Andrea ke haath mein thama diya. Taniya camera ke saath ek step peeche gayi.\n\n**[T03-05-G01 — GRAPHICAL DESCRIPTION — START]**\n\n**Lunch area mein Taniya sky-blue shirt aur charcoal trousers mein baithi thi. Uske posture relaxed yet poised tha. Andrea photo lete waqt usne casually smile diya; fitted office attire naturally outline kar rahi thi without any extra exposure. Group chemistry light and collective.**\n\n**[T03-05-G01 — GRAPHICAL DESCRIPTION WILL END HERE]**\n\nTaniya: “Ek normal photo bhi mil sakti hai? Ya isko evidence exhibit banana padega?”\n\nAndrea: “Normal photo kaise hoti hai, Mrs. Future Auditor?”\n\nChirag: “Wahi jisme tumhara hand movement blurred na ho.”\n\nRaghav: “Everyone stand still. Main ready hoon.”\n\nTaniya ne teen photos liye. First mein Raghav bol raha tha, second mein Neha aankhein band kar gayi, third finally usable nikli.\n\n**[T03-05-G02 — GRAPHICAL DESCRIPTION — START]**\n\n**Group photo ke dauran Taniya ki natural smile aur fitted charcoal trousers + sky-blue shirt clearly visible the. Raghav ne side se dekha, lekin nazar jaldi hata li. No one became a pair; collective friend energy. Reader-only soft notice of her form.**\n\n**[T03-05-G02 — GRAPHICAL DESCRIPTION WILL END HERE]**\n\n14:02 PM. Andrea ne group chat mein photo bheji, caption: “2026 audit survivors.” Taniya ke phone par Aditya ka ek message bhi blink hua: “Lunch kiya?” Usne short reply bheja—“Yes. Audit team rescued me from my own spreadsheet.”\n\nNeha: “Aditya?”\n\nTaniya: “Haan. Uska lunch regular time par ho gaya. Tum log use stress mat do.”\n\nAndrea: “Hamein toh abhi invitation design check karna hai.”\n\nTaniya: “Invitation ke liye meri final approval required hai. Abhi audit ka kaam pending hai.”\n\n14:15 PM. Break khatam hua. Neha ne tray uthayi, Chirag ne phone pocket mein rakha. Sab apne desks ki taraf chale gaye; dosti ka easy mood kaam mein wapas ghul gaya.",
+        "reviewNotes": [
+          "Grok G01 says Andrea is taking the photograph and Taniya is posing, while the surrounding GPT prose has Andrea assembling the group and Taniya operating the camera.",
+          "Grok G02 describes Taniya as appearing in the group photograph, but the prose says Taniya herself takes three photos. Photographer versus subject must be reconciled before final approval."
+        ],
+        "originalDoc": {
+          "url": "https://docs.google.com/document/d/1W8GmTAD4cjrWJRt3Au9CS7AHkXezV-YJdWZegQhb7m4/edit?tab=t.qu3gjyg98c07",
+          "tabId": "t.qu3gjyg98c07",
+          "groksInserted": true
+        },
+        "grokMarkerCount": 2
       }
     ]
   },
