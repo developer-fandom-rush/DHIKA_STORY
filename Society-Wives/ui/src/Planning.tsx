@@ -481,30 +481,11 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
       </>:<p role="status">{shivaniSocietyReturnError||'Loading society return plot…'}</p>}
     </article>
    </section>}
-   {active==='shivani'&&<section className="continuity-cards" id="shivani-jan01-night-next-episode">
-    <article className="episode-plan-card">
-      <span className="eyebrow">Shivani · same Jan 1 night · next Shivani episode · working plot, not prose</span>
-      <h2>Om's Private Reveal &amp; the Kavya–Deepu–Karan–Aman Romantic Setup</h2>
-      <p><strong>Time locks:</strong> Om home setup around 6:35–6:46 PM; outdoor adult ensemble 7:05–7:23 PM. Karan–Aman return from Ankita's ride by approximately 5:50 PM; Ankita's private Rinku doorbell cut remains at 6:25 PM.</p>
-      {shivaniNightPlan?<>
-        <p className="source-note"><strong>Character boundary:</strong> Om is a socially treated household uncle, not Shivani's actual father-in-law. His fantasy is a one-sided reader-only private image, not a real encounter or her consent. Society Chotu = Deepu (22), not college Sunny or Ankita's Rinku.</p>
-        <details className="episode-outline" open><summary><strong>Relationship history — Om × Shivani</strong></summary><p>{shivaniNightPlan.relationshipSetup.shivaniOm.established}</p><p>{shivaniNightPlan.relationshipSetup.shivaniOm.proposedNewCharacterAngle}</p><p><strong>Reader-only fantasy:</strong> {shivaniNightPlan.relationshipSetup.shivaniOm.fantasyPresentation}</p></details>
-        <details className="episode-outline"><summary><strong>Relationship history — Deepu, Shivani and Kavya</strong></summary><p>{shivaniNightPlan.relationshipSetup.deepuShivani.established}</p><p>{shivaniNightPlan.relationshipSetup.deepuShivani.proposedTonight}</p><p><strong>First spark:</strong> {shivaniNightPlan.relationshipSetup.deepuKavya.new}</p><p>{shivaniNightPlan.relationshipSetup.deepuKavya.agency}</p></details>
-        <details className="episode-outline"><summary><strong>Karan–Aman × Kavya — new three-way interest</strong></summary><p>{shivaniNightPlan.relationshipSetup.twinsKavya.new}</p><p>{shivaniNightPlan.relationshipSetup.twinsKavya.distinctVoices}</p></details>
-        <div className="beat-list">{shivaniNightPlan.beats.map(b=><details className="episode-outline" key={b.id}>
-          <summary><strong>{b.id} · {b.time} · {b.title}</strong></summary><p><strong>Characters:</strong> {b.cast.join(' · ')}</p><p>{b.plot}</p>
-          {b.dialogue?.map((d,i)=><p className="dialogue" key={i}><strong>{d.speaker}:</strong> {d.line}</p>)}
-          {b.reaction&&<p><strong>Immediate reaction:</strong> {b.reaction}</p>}
-          {b.narratorDirection&&<p><em>Narrator direction:</em> {b.narratorDirection}</p>}
-        </details>)}</div>
-        <details className="episode-outline"><summary>Future relationship threads and continuity locks</summary>
-         <div className="beat-list">{Object.entries(shivaniNightPlan.futureArc).map(([k,v])=><div className="beat-item" key={k}><strong>{titleCase(k)}</strong><p>{v}</p></div>)}</div>
-         <div className="beat-list">{shivaniNightPlan.continuityLocks.map((v,i)=><div className="beat-item" key={i}><p>{v}</p></div>)}</div>
-        </details>
-        <p className="muted">Working author-directed outline saved for the next Shivani episode, same calendar date. No romance, physical action or fantasy is approved as finished prose.</p>
-      </>:<p role="status">{shivaniNightPlanError||'Loading the Chotu, Kavya, twins and Om night plot…'}</p>}
-    </article>
-   </section>}
+   {active==='shivani'&&<details className="episode-outline" id="shivani-jan01-night-next-episode">
+    <summary><strong>Archived January 1 night outline · Superseded by Episode 04A</strong></summary>
+    <p className="source-note">The earlier N01–N08 draft remains preserved for source history. Its older ordering and timing are not the active plan; read the five numbered Episode 04A scenes above for Deepu, Kavya, Karan/Aman and the household close.</p>
+    <p>{shivaniNightPlan?.status||shivaniNightPlanError||'Historical source currently loading.'}</p>
+   </details>}
    {active==='shivani'&&<section className="continuity-cards" id="shivani-ep03-staffroom-scene">
     <article className="episode-plan-card">
       <span className="eyebrow">Archived earlier 2:10–2:35 PM working outline · superseded by the 5:00–5:20 PM master reference above</span>
