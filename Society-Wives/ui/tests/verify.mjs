@@ -16,8 +16,16 @@ assert.ok(ep01.status.includes('FINAL_FROZEN')&&ep01.currentAuthorApproval?.pres
 const originalHtml=readFileSync(resolve(root,'episode-02.html'),'utf8');
 const leads=['ankita','shivani','taniya','soniya','meenakshi','shreya'];
 const chotuWorkshop=read('episode-04-chotu-six-leads-review.json');
-assert.equal(chotuWorkshop.leads.length,6,'EP04 Chotu workshop must cover six female leads including Soniya');
-assert.equal(chotuWorkshop.leads.reduce((n,lead)=>n+lead.tracks.length,0),11,'Eleven established Chotu tracks; no fabricated second Soniya office helper');
+assert.equal(chotuWorkshop.leads.length,5,'EP04 Chotu workshop must contain five remaining female leads, excluding Ankita');
+assert.equal(chotuWorkshop.leads.reduce((n,lead)=>n+lead.tracks.length,0),9,'Nine remaining Chotu tracks; Ankita moved to separate plan');
+assert.ok(chotuWorkshop.leads.every(l=>l.id!=='ankita'),'Ankita must not duplicate in lower Chotu workshop');
+const ankitaArchive=read('episode-04b-ankita-chotu-archive.json');
+assert.equal(ankitaArchive.tracks.length,2,'Both Ankita Chotu tracks preserved in dedicated archive');
+const shivaniEp04A=read('episode-04a-shivani-plan.json');
+assert.deepEqual(shivaniEp04A.scenes.map(s=>s.sceneNumber),['01','02','03','04','05'],'Shivani EP04A must have five sequential numbered scenes');
+assert.equal(shivaniEp04A.scenes.reduce((sum,s)=>sum+s.beats.length,0),16,'Sixteen new review beats for Shivani');
+assert.ok(shivaniEp04A.scenes[1].end===shivaniEp04A.scenes[2].start&&shivaniEp04A.scenes[2].end===shivaniEp04A.scenes[3].start,'Deepu accident precedes Kavya then twins without gaps');
+assert.equal(chotuWorkshop.leads.find(l=>l.id==='shivani').tracks.find(t=>t.chotu==='Deepu').a.start,'18:51','Shared Deepu A must agree with EP04A scene 02');
 assert.ok(chotuWorkshop.leads.every(lead=>lead.tracks.every(t=>t.a.date<=t.b.date&&t.b.date<='2026-01-02')),'Every Chotu A/B review finishes by Jan2');
 assert.equal(chotuWorkshop.status,'SAVED_TO_UI_FOR_DISCUSSION__NOT_APPROVED_PLOT_OR_PROSE','Review data must not be labeled as approved prose');
 
