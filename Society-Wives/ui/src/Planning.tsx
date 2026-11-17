@@ -18,6 +18,9 @@ type ShreyaBeats0709Draft={title:string;date:string;status:string;sourcePlan:str
 type ShreyaEpisode04Future={title:string;episodeDate:string|null;planningStatus:string;dependency:string;futurePlots:{id:string;title:string;status:string;cast:{id:string;trainingRole:string;age:number;ageStatus:string}[];identityReveal:{truth:string;maleAwareness:string;femaleAwareness:string;readerAwareness:string};purpose:string;preservedArc:string;futureAttraction:string;episode04Continuity:string;scheduling:string}[];authorLocks:string[]};
 type ShivaniStaffroomPlot={scene:string;status:string;date:string;start:string;end:string;location:string;purpose:string;wardrobeStatus:string;wardrobe:{name:string;age:number;role:string;outfit:string;narratorView:string;referenceColor:string}[];imageReference:{origin:string;status:string;use:string};beats:{id:string;time:string;title:string;focus:string;action:string;narrator?:string;dialogue?:{speaker:string;line:string}[];seed?:string;note?:string}[];plotLocks:string[];};
 type ShivaniCastLock={title:string;status:string;officeTwinsStudentCore:{id:string;name:string;age:number}[];officeChotu:{name:string;age:number;role:string};societyChotu:{name:string;age:number;role:string};juniorFacultyExcluded:{name:string;age:number}[];futureOnly:{name:string;age:number;note:string};biologicalTwinsNote:string;episode02End:string;nextWork:string;prologueBaselineReference?:{source:string;sourceScene:string;status:string;establishedPreviously:string[];episode03Difference:string}};
+type ShivaniEp04ABeat={id:string;time:string;title:string;plot:string;physical?:string;sightline?:string;reaction?:string;dialogue?:{speaker:string;line:string}[]};
+type ShivaniEp04AScene={id:string;sceneNumber:string;title:string;start:string;end:string;location:string;status:string;beats:ShivaniEp04ABeat[]};
+type ShivaniEp04A={title:string;status:string;continuity:{latestApprovedHandoff:string;morningCallback:string;twinsTransport:string;deepu:string;kavya:string;husband:string;om:string;tara:string;manav:string};scenes:ShivaniEp04AScene[];household:Record<string,{location:string;status:string;workday?:string}>;approvalRules:string[]};
 type AnkitaEp04A={episode:string;part:string;title:string;status:string;continuityStart:{episode:string;scene:string;time:string;moment:string;twins:string;officeChotu:string;wardrobe:string};scenes:{id:string;sceneNumber:string;title:string;location?:string;start:string|null;end:string|null;status:string;reason?:string;prosePreview?:string;fadeToBlack?:boolean;dialogueSample?:{speaker:string;line:string}[];beats:{id:string;time:string;title:string;plot:string}[]}[];handoff:{date:string;part:string;society:string;office:string;status:string}};
 type ChotuMoment={date:string;start:string;end:string;title:string;cause?:string;physical:string;sightline?:string;duration?:string;reaction?:string;hook?:string;choice?:string;test?:string;result?:string;after?:string};
 type ChotuTrack={lead:string;chotu:string;lane:string;age:number;setting:string;twinsContext:string;a:ChotuMoment;b:ChotuMoment};
@@ -37,6 +40,7 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
  const {data:meenaFuture}=useData<Plan>('episode-03-meenakshi-plan.json');
  const {data:chotuWorkshop,error:chotuWorkshopError}=useData<ChotuWorkshop>('episode-04-chotu-six-leads-review.json');
  const {data:ankitaEp04A,error:ankitaEp04AError}=useData<AnkitaEp04A>('episode-04a-ankita-plan.json');
+ const {data:shivaniEp04A,error:shivaniEp04AError}=useData<ShivaniEp04A>('episode-04a-shivani-plan.json');
  
  
   const {data:ankitaFuturePresentation,error:ankitaFuturePresentationError}=useData<AnkitaFuturePresentation>('episode-future-ankita-private-presentation-seed.json');
@@ -55,6 +59,10 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
  const {data:shreyaBeat10,error:shreyaBeat10Error}=useData<ShreyaBeat10Review>('episode-03-shreya-beat-10-training-ground-review.json');
  useEffect(()=>{
   if(!initialScene)return;
+  if(initialScene==='ep04a-shivani'){
+   const timer=window.setTimeout(()=>document.getElementById('shivani-episode04a')?.scrollIntoView({behavior:'smooth',block:'start'}),130);
+   return ()=>clearTimeout(timer);
+  }
   if(initialScene==='ep04a'){
    const timer=window.setTimeout(()=>document.getElementById('ankita-episode04a')?.scrollIntoView({behavior:'smooth',block:'start'}),130);
    return ()=>clearTimeout(timer);
@@ -118,10 +126,39 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
     </>}
    </article>
   </section>}
-  <section className="continuity-cards" id="ep04-chotu-planning">
+  {active==='shivani'&&<section className="continuity-cards" id="shivani-episode04a">
+   <article className="episode-plan-card">
+    <span className="eyebrow">SHIVANI · EPISODE 04A · 1 JANUARY 2026 · AUTHOR REVIEW</span>
+    <h2>EP04A — Shivani: Deepu Accident → Kavya → Karan &amp; Aman → Household</h2>
+    <p className="source-note"><strong>NEW SCENE PLAN · NOT APPROVED PROSE:</strong> Deepu's first private accident precedes Kavya's arrival. The twins then resume the established morning teasing at 19:11; family night follows. All times are working slots, not published events.</p>
+    {shivaniEp04AError&&<p>Could not load Shivani night outline: {shivaniEp04AError}</p>}
+    {shivaniEp04A&&<>
+     <p><strong>Earlier plot preserved:</strong> {shivaniEp04A.continuity.latestApprovedHandoff}</p>
+     <p><strong>Twins timing lock:</strong> {shivaniEp04A.continuity.twinsTransport}</p>
+     <div className="beat-list">{shivaniEp04A.scenes.map(scene=><details className="episode-outline" key={scene.id} open={['02','04'].includes(scene.sceneNumber)}>
+      <summary><strong>Scene {scene.sceneNumber} · {scene.title}</strong> — {scene.start}–{scene.end} · {scene.beats.length} beats</summary>
+      <p><strong>Location:</strong> {scene.location} · <strong>Status:</strong> {scene.status}</p>
+      <div className="beat-list">{scene.beats.map(beat=><div className="beat-item" key={beat.id}>
+       <p><strong>{beat.id} · {beat.time} · {beat.title}</strong></p>
+       <p><strong>Plot:</strong> {beat.plot}</p>
+       {beat.physical&&<p><strong>Physical action:</strong> {beat.physical}</p>}
+       {beat.sightline&&<p><strong>Visibility:</strong> {beat.sightline}</p>}
+       {beat.reaction&&<p><strong>Character reaction:</strong> {beat.reaction}</p>}
+       {beat.dialogue?.map((line,i)=><p key={i}><strong>{line.speaker}:</strong> {line.line}</p>)}
+      </div>)}</div>
+     </details>)}</div>
+     <h3>Household whereabouts · night of 1 January</h3>
+     <div className="beat-list">{Object.entries(shivaniEp04A.household).map(([person,state])=><div className="beat-item" key={person}>
+       <p><strong>{titleCase(person)}:</strong> {state.location}</p><p className="muted">{state.status}</p>
+     </div>)}</div>
+     <p className="source-note"><strong>Om continuity:</strong> {shivaniEp04A.continuity.om} · <strong>Manav:</strong> {shivaniEp04A.continuity.manav}</p>
+    </>}
+   </article>
+  </section>}
+  {active!=='ankita'&&<section className="continuity-cards" id="ep04-chotu-planning">
    <article className="episode-plan-card">
     <span className="eyebrow">Episode 04A · 1 January close | Episode 04B · 2 January fresh start · Review only</span>
-    <h2>Episode 04A / 04B — Chotu A/B Workshop · Six Women</h2>
+    <h2>Episode 04A / 04B — Chotu A/B Workshop · Remaining Five Women</h2>
     <p className="source-note"><strong>NOT APPROVED / NOT PROSE:</strong> These are discussion-ready physical encounter plots. Each A is an accident; each B is a willing, independently chosen follow-up, with a different physical setup, sightline and outcome. Existing Episode 03 scenes and twins' timelines are untouched.</p>
     <p><strong>Focus:</strong> Only the established society and workplace Chotu helpers. Twins are continuity references, not added events; Soniya is a separate selectable lead. No romantic relationship is assumed from a single physical moment.</p>
     {chotuWorkshopError&&<p className="source-note">Workshop unavailable: {chotuWorkshopError}</p>}
@@ -155,7 +192,7 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
      </details>)}
     </div>)}
    </article>
-  </section>
+  </section>}
   {active==='taniya'&&<section className="continuity-cards" id="taniya-ep03-timeline">
     <article className="episode-plan-card">
       <span className="eyebrow">Taniya · Episode 03 · 1 January 2026 · author-approved plot · prose pending</span>
