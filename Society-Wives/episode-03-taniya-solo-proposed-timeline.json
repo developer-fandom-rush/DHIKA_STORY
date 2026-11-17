@@ -4,13 +4,13 @@
   "series": "Society Wives — Five Veils of Desire",
   "episode": "03",
   "lead": "Taniya",
-  "title": "The New Year Secret — Taniya Episode 03: Office, Two Homes & Society",
+  "title": "The New Year Secret — Taniya & Soniya Episode 03 · Approved Plot",
   "date": "2026-01-01",
   "timezone": "Asia/Kolkata",
-  "status": "USER_REQUESTED_UI_SAVE__FULL_EP03_PLOT_DRAFT__NOT_PROSE",
+  "status": "AUTHOR_APPROVED_EP03_PLOT__UI_SAVED__PROSE_DRAFT_PENDING",
   "start": "10:50",
   "end": null,
-  "goal": "Official Episode 03 on-page opening at 10:50 AM uses deliberately shifted EP02 office plans TS12, TS13, TS14 and TS16 in Phase A. The full nine-hour 10:30–19:30 office shift continues through Phase B. Establish the four-person Raghav/Chirag + Neha/Andrea team, brief practical Raghav-waist support to Taniya only (NO kiss/romance), Andrea-to-Chirag one playful celebratory cheek peck, Punit office Chotu introduction, Vivek Suri's reader-only sexual attraction, and an active near-office rented flat used with Taniya's permission by select colleagues. After the 19:30 departure, she chooses to return to Soniya's society home; Karan/Aman only if legitimately there and Soniya appears first at the home doorway.",
+  "goal": "AUTHOR-APPROVED PLOT (NOT PROSE): Jan 1 episode begins 10:50 AM using deferred TS12–TS16 office material, 10:30–19:30 full CA-office shift. Office establishes Raghav/Chirag, Neha/Andrea, Punit and reader-only Vivek Suri attraction; no Taniya office romance or kiss. After 19:30, Taniya chooses Soniya's society home rather than still-active near-office rental (35–50-minute estimated commute). Compress redundant standalone travel/home exposition: Guddu (society CHOTU) wedding vendor papers at ~20:08, Karan/Aman returning event boards at ~20:16 after their 19:11–19:23 Shivani/Kavya/Deepu crossover, one accidental covered-hip contact with Karan and immediate withdrawal, then Soniya and proposed Rahul return at home ~20:25–21:00. Soniya opens the topic of morning gym Vivek Rao with Rahul; cut before long private disclosure. No private character knowledge transfers, no further intimacy.",
   "sourceAnchors": [
     {
       "source": "episode-02-taniya-soniya-plan.json",
@@ -27,6 +27,14 @@
     {
       "source": "author-directions-2026-11-17",
       "facts": "Full EP03 plot, no Taniya kiss or romance, office duos, one accidental waist support, group celebratory cheek kiss, second rented flat and uncle reader-only fantasy, full 19:30 exit, home Soniya at end."
+    },
+    {
+      "source": "shivani-jan01-night-next-episode-chotu-kavya-twins-om-plot.json",
+      "facts": "Karan/Aman at society with Shivani, Kavya, Deepu 19:11–19:23 (proposed), so Taniya foyer ~20:16 is AFTER their scene, not concurrent."
+    },
+    {
+      "source": "continuity-verbatim/episode-02/taniya.json",
+      "facts": "Rahul departed for office at 07:55 TS03; no verified Jan1 evening home return hour. TS01 Soniya/Rahul married affection; TS07A Soniya/Rahul Vivek gym disclosure obligation; secret morning Rahul action remains reader-only."
     }
   ],
   "figureMapping": [
@@ -80,12 +88,26 @@
       "why": "Ankita's devars, Kabir's younger twin brothers, familiar from Taniya TS05 morning gym. Evening cameo conditional on verified availability."
     },
     {
-      "group": "Society helpers/elders not used",
+      "group": "Society Chotu",
       "members": [
-        "Guddu (23)",
+        "Guddu (23)"
+      ],
+      "why": "Distinct from office Punit, Shivani's Deepu and Ankita's Rinku; introduced via wedding/vendor quotation pickup after ~20:08, helper duty exact clock proposed."
+    },
+    {
+      "group": "Home family",
+      "members": [
+        "Soniya (24)",
+        "Rahul (28)"
+      ],
+      "why": "Soniya first appears at final home beat. Rahul leaves for office 07:55; returns at a plausible but unverified ~20:40 time. Soniya initiates conversation about trainer Vivek Rao; Rahul has no new gym facts until told."
+    },
+    {
+      "group": "Older society figure (not scheduled)",
+      "members": [
         "Subhash (59)"
       ],
-      "why": "Retained in roster, not forcibly brought into late-evening plot."
+      "why": "Morning private actions stay reader-only and are not leaked to Taniya, Soniya or Rahul in the evening."
     }
   ],
   "wardrobeStatus": "TANIYA_EP02_VERIFIED; ANDREA_PROPOSED",
@@ -372,10 +394,10 @@
         "Punit (brief)"
       ],
       "purpose": "AUTHOR-REQUESTED FULL EP03 PLOT; approval applies to UI placement, not finished prose.",
-      "action": "The four core colleagues handle final report closeout, while Punit verifies a next-day tracker. Natural teasing continues without a new physical incident or confessional scene. Taniya finishes the entire shift at 7:30 PM and chooses to return to Soniya's society instead of stopping at her nearby rented studio.",
-      "physical": "No new intimate touch. Filing-drawer encounter is not repeated.",
+      "action": "The four core office colleagues close reports and Punit finalizes the next-day tracker. Taniya finishes her entire nine-hour shift at 19:30. Her near-office rented flat remains available, but today she chooses Soniya's society home because their morning conversation remains unfinished. She leaves directly for the estimated 35–50-minute commute. Wedding banter and ordinary goodbyes only; no new office romantic milestone.",
+      "physical": "No further intimacy. This is the last office scene; one existing accidental Raghav waist-support incident and Andrea/Chirag celebratory peck remain separate earlier beats.",
       "teasing": "Familiar wedding banter and colleague wisecracks, but work actually finishes.",
-      "turn": "Taniya remembers the brief accidental proximity and Andrea–Chirag cheek peck as separate things; none is a Taniya romantic milestone.",
+      "turn": "Official office exit 19:30, then direct commute to society, folding the old standalone 'Two Homes' beat into this transition; do not schedule her at home before ~20:05.",
       "visual": "Keep Taniya's EP02 sky-blue shirt and charcoal trousers; no added exposure.",
       "dialogue": [
         {
@@ -391,76 +413,99 @@
     },
     {
       "id": "T03-10",
-      "time": "19:30 onward · Phase C · commute ≈35–50m estimate",
-      "title": "Two Homes, One Choice",
-      "location": "Gurugram commute",
+      "time": "~20:08–20:15 · Phase C · SOCIETY CHOTU · PROPOSED",
+      "title": "Guddu — The Wedding Quotation (SOCIETY CHOTU)",
+      "location": "Society entrance / service desk, shortly after Taniya's commute",
       "cast": [
-        "Taniya"
+        "Taniya",
+        "Guddu (23; society CHOTU/courier helper)"
       ],
-      "purpose": "AUTHOR-REQUESTED FULL EP03 PLOT; approval applies to UI placement, not finished prose.",
-      "action": "The near-office rental is still active and would be convenient. Taniya decides to go to Soniya's distant society flat tonight because their morning conversation is unresolved. She leaves after 19:30; commute and society arrival estimates are not absolute canon.",
-      "physical": "None.",
-      "teasing": "No dialogue required.",
-      "turn": "Second-flat possibility is established for a later episode, no present-day visit or affair.",
-      "visual": "Keep Taniya's EP02 sky-blue shirt and charcoal trousers; no added exposure.",
-      "dialogue": [],
+      "purpose": "Merge travel into office exit and give Guddu one meaningful society-based first encounter; his exact evening duty schedule is unverified, so his presence is a grounded proposed errand, not established canon.",
+      "action": "After departing office at 19:30, Taniya reaches the society around 20:05–20:20 depending on traffic. At the service counter, Guddu is completing a New Year event/wedding-vendor document handover—not waiting especially for her. He has a sealed wedding quotation packet. Taniya checks the enclosed rate sheet and notices one page is missing; Guddu consults the handover register and says he can request the missing vendor page next day. His confident, teasing reply differs from office trainee Punit's shy nature. No need for a separate long travel beat or contrived lost object.",
+      "physical": "Only ordinary sealed-packet handover; no intimate body touch, no groping or contact escalation.",
+      "teasing": "Taniya calls his delivery work a junior audit; Guddu jokes about how even her wedding papers cannot escape reconciliation.",
+      "turn": "Guddu is introduced naturally, and the missing quotation page creates a concrete next-day follow-up without inventing a personal affair.",
+      "visual": "Taniya still has EP02 sky-blue shirt, charcoal trousers and work bag. Society paperwork/desk provides normal environment; no outfit change.",
+      "dialogue": [
+        {
+          "speaker": "Taniya",
+          "line": "Shaadi ka quotation bhi incomplete? Guddu, tumhara delivery audit pass nahin hua."
+        },
+        {
+          "speaker": "Guddu",
+          "line": "Madam, vendor ko bol deta hoon. Aapki shaadi mein bhi reconciliation pending hai!"
+        }
+      ],
       "status": "AUTHOR_REQUESTED_UI_SAVE__PLOT_FOR_REVIEW"
     },
     {
       "id": "T03-11",
-      "time": "AFTER ~20:05 · Phase C · SOCIETY TWINS CONDITIONAL",
-      "title": "Karan & Aman — Gym Callback",
-      "location": "Society parking, if genuinely present",
+      "time": "~20:16–20:24 · Phase C · SOCIETY TWINS CONDITIONAL AFTER SHIVANI 19:23",
+      "title": "Karan & Aman — The Unexpected Lobby Collision",
+      "location": "Society foyer / passage near event-material storage",
       "cast": [
         "Taniya",
-        "Karan (22, ACTUAL TWIN)",
-        "Aman (22, ACTUAL TWIN)"
+        "Karan (22; actual twin)",
+        "Aman (22; actual twin)"
       ],
-      "purpose": "AUTHOR-REQUESTED FULL EP03 PLOT; approval applies to UI placement, not finished prose.",
-      "action": "If they have naturally returned after their other commitments, Karan and Aman cross paths with Taniya by the society entrance. Karan brings up morning gym; Aman dryly mentions her long shift. They do not await her, know no office secrets, and are Kabir's younger twin brothers/Ankita's devars. If unavailable at this hour, this cameo is deferred.",
-      "physical": "No new touch or romantic incident.",
-      "teasing": "Morning gym callback; Karan outgoing, Aman quieter.",
-      "turn": "Taniya's existing gym familiarity continues with no romantic reset. No invented society twins.",
-      "visual": "Keep Taniya's EP02 sky-blue shirt and charcoal trousers; no added exposure.",
+      "purpose": "Precisely one accidental covered-body contact with Karan. Twins' timeline: Ankita ride 17:20–17:50, Shivani/Kavya/Deepu encounter 19:11–19:23, then credible return to society event-board storage at ~20:16. If a later locked event puts them elsewhere, move this cameo rather than teleport them.",
+      "action": "Having finished their earlier society-event teasing with Shivani, Kavya and Deepu by 19:23, Karan and Aman later bring lightweight folding programme boards back toward the society storage area. Taniya approaches from Guddu's service counter carrying her work bag and vendor envelope. At a narrow foyer turn, Karan backs aside with a folded board while Taniya steps through the same space. They unexpectedly bump; his free hand lands for one startled instant against the covered back of her hip/upper buttock over her charcoal trousers as he tries not to collide further. Karan removes his hand immediately and apologizes; Taniya catches his sleeve reflexively, then lets go and steps clear. Aman steadies the board rather than touching Taniya. Morning gym familiarity gives Taniya a sharp but witty response, and neither boy learns anything from her office or the earlier Shivani/Kavya private dynamics. Karan has no knowledge of Aman's earlier Ankita scooty contact.",
+      "physical": "ONE unintended instant of contact: Karan's hand on Taniya's CLOTHED BACK-OF-HIP/UPPER BUTTOCK during the cramped collision; immediate removal/apology. Taniya reflexively holds his sleeve for footing, releases. No breast exposure, no intimate gripping, no prolonged embrace or invitation. Aman keeps the board steady and has NO new contact with Taniya.",
+      "teasing": "Karan starts to recover his usual bold gym banter, but apologizes first. Taniya replies firmly with a familiar joke; Aman adds a quiet observation.",
+      "turn": "Taniya is startled by the exact unexpected contact and briefly self-conscious, but quickly regains her confident voice and ends the incident herself. Karan's first instinct is apology rather than confident flirting; Aman witnesses the collision but not Taniya's private reaction. One memorable physical moment, not a romance.",
+      "visual": "Same office clothing throughout. Practical folded programme board links the twins' earlier 19:11–19:23 Shivani/Kavya scene to this later independent encounter.",
       "dialogue": [
         {
           "speaker": "Karan",
-          "line": "Subah gym, shaam audit—kaafi workout!"
-        },
-        {
-          "speaker": "Aman",
-          "line": "Nine-hour shift ke baad bhi jokes karoge?"
+          "line": "Sorry, Taniya! Board sambhalte hue tum dikh hi nahin rahi thi."
         },
         {
           "speaker": "Taniya",
-          "line": "Tum dono se bachna bhi full-time job hai."
+          "line": "Board apna sambhalo, Karan. Gym wali training lobby mein mat repeat karna."
+        },
+        {
+          "speaker": "Aman",
+          "line": "Bhai, pehle rasta clear karna seekh lo, phir jokes."
         }
       ],
       "status": "AUTHOR_REQUESTED_UI_SAVE__PLOT_FOR_REVIEW"
     },
     {
       "id": "T03-12",
-      "time": "HOME ARRIVAL AFTER SHIFT+COMMUTE · Phase C",
-      "title": "Soniya at the Door",
-      "location": "Shared society flat",
+      "time": "~20:25–21:00 · Phase C · HOME ARRIVAL THEN RAHUL RETURN (PROPOSED)",
+      "title": "Soniya & Rahul — The Homecoming and the Unsaid Morning",
+      "location": "Shared society flat, after Taniya's full shift and commute",
       "cast": [
         "Taniya",
-        "Soniya (24; FIRST on-page EP03 appearance)"
+        "Soniya (24; FIRST on-page EP03 appearance)",
+        "Rahul (28; husband, returns after 07:55 office departure)"
       ],
-      "purpose": "AUTHOR-REQUESTED FULL EP03 PLOT; approval applies to UI placement, not finished prose.",
-      "action": "Taniya finally enters Soniya's flat after nine-hour office shift and commute. Soniya asks about her day; Taniya casually describes team wedding jokes. Morning gym conversation may remain on Taniya's mind, but nothing new is confessed. The episode ends with the sisters together and future office/team/Uncle/second-flat threads unspent.",
-      "physical": "No male contact or private sexual scene.",
-      "teasing": "Normal family teasing after long day.",
-      "turn": "End on ordinary sisterly exchange; no office affair, no unexpected Soniya earlier in episode.",
-      "visual": "Keep Taniya's EP02 sky-blue shirt and charcoal trousers; no added exposure.",
+      "purpose": "Combine sister homecoming, Rahul familiar couple interaction and disclosure opening in ONE final beat; eliminate redundant standalone private conversation. Rahul's return time is provisional, not previously source-established.",
+      "action": "Taniya reaches the flat after the office day and brief society encounters. Soniya first appears as Taniya opens the door around 20:25–20:35 (estimated). The sisters exchange short New Year/wedding-work banter, with one natural mention of the still-active near-office rental; Taniya says she chose to come home. Rahul, who departed for office at 07:55 and has no canon-locked evening return hour, is proposed to arrive around 20:40–20:50. He greets his wife Soniya with their established familiar affectionate hug and quick forehead kiss; Taniya teases Jiju in the usual light family voice. When they have a private moment, Soniya herself tells Rahul there is something about this morning's gym encounter with trainer Vivek Rao she must discuss. Taniya goes to her room; do not write the whole disclosure or make her their cover story. Reader also knows a separate previous privacy violation by Rahul, which remains entirely unknown to Taniya and does not become an erotic invitation or disclosure here. Cut before the detailed marital discussion.",
+      "physical": "Soniya ↔ Rahul only: normal voluntary married-couple hug and short forehead kiss. Rahul–Taniya: NO physical intimacy. No additional Taniya/twin contact here.",
+      "teasing": "Sisterly jokes about holiday overtime and wedding costs; light Taniya/Jiju banter; transition to a serious but brief Soniya/Rahul opening.",
+      "turn": "Soniya takes responsibility for telling Rahul about the new gym incident; Rahul knows only that she wants to talk, not its full details. Episode ends without a new standalone conversation beat.",
+      "visual": "Taniya's office outfit remains until she is home; no additional wardrobe requirement or new physical description.",
       "dialogue": [
         {
           "speaker": "Soniya",
-          "line": "New Year pe bhi poora din office?"
+          "line": "New Year pe bhi itni late? Office ke paas wala flat convenient tha na?"
         },
         {
           "speaker": "Taniya",
-          "line": "Audit ko holiday nahi milta, didi."
+          "line": "Tha, par ghar hi aana tha. Audit aur shaadi, dono ka overtime chal raha hai."
+        },
+        {
+          "speaker": "Rahul",
+          "line": "Madam Auditor, aaj ghar mein bhi checking hogi kya?"
+        },
+        {
+          "speaker": "Taniya",
+          "line": "Aaj aap dono ka private review hai, Jiju. Main files rakhne jaa rahi hoon."
+        },
+        {
+          "speaker": "Soniya",
+          "line": "Rahul, subah gym mein Vivek ke saath ek baat hui thi. Mujhe tumse khud share karni hai."
         }
       ],
       "status": "AUTHOR_REQUESTED_UI_SAVE__PLOT_FOR_REVIEW"
@@ -478,20 +523,26 @@
     "Riya, Megha, Saloni stay backend/supporting; no new private encounters without later author direction.",
     "Second near-office rental remains active from Taniya's earlier late work. Some trusted colleagues may use with her permission and their partners, some extramarital. Do not invent which named colleague has an affair.",
     "Taniya's EP02 source wardrobe remains sky-blue shirt/charcoal trousers; do not change it.",
-    "Office ends at 7:30 PM, society only after commute, Karan/Aman actual twins only if plausible after other leads, Soniya first appears at final doorway.",
-    "Plot only, no graphic prose, no forced repetitive accidental-contact ladder, no romance added by inference."
+    "AUTHOR FINALIZED TANIYA/SONIYA EP03 PLOT and instructed publication; publish planning plot, NOT unwritten prose. Previous approved office beats unchanged.",
+    "Compressed redundant travel beat into T03-09 and merged sister/home husband/disclosure setup in T03-12; do not add padding or a separate Beat 14.",
+    "Twins' distinct user-directed chronology: Ankita ride ends ~17:50; Shivani + Kavya + Deepu NIGHT encounter with twins 19:11–19:23; Taniya meets them in society ~20:16–20:24, conditional on credible return from event area.",
+    "One accidental contact only: KARAN, not Aman, briefly touches Taniya's covered back-of-hip/upper buttock during foyer board maneuver; immediate release, apology and Taniya's witty correction. No deliberate groping, exposure, romantic inference or replay; Aman helps the board.",
+    "Society Chotu Guddu's brief handover is distinct from office Chotu Punit and Shivani's Deepu; evening errand duty is a proposal, not a verified staff schedule.",
+    "Rahul left home 07:55; evening home return ~20:40–20:50 is proposed. Normal affection with his wife Soniya only. Soniya will begin telling him about gym trainer Vivek Rao; cut before prolonged conversation; morning secrets remain reader-only.",
+    "No extra Taniya kisses, affairs or sexual escalation. Keep partner Vivek Suri/CA uncle's private fantasy separate from gym trainer Vivek Rao."
   ],
   "selectedWorkStyle": "Dialogue-rich Hinglish, event-first scenes, narrator notes that reflect atmosphere and clothing continuity without gratuitous anatomy or repeated visual clichés.",
-  "ending": "After 19:30 shift Taniya chooses Soniya's society home rather than the still-active near-office rental. Possible short Karan/Aman gym callback if naturally available, then Soniya at the door. Reader holds only one practical Taniya/Raghav support touch, Andrea/Chirag playful cheek peck, the four-colleague chemistry, Punit next-day setup and Vivek Suri's hidden unacted attraction.",
+  "ending": "After 19:30 office departure and ~35–50-minute journey, the compact society sequence introduces Guddu through wedding quotation, gives Karan one immediate-release accidental covered hip contact with Taniya after his 19:11–19:23 Shivani/Kavya duties, then proceeds to the shared flat. Soniya welcomes Taniya; Rahul returns from office at a provisional ~20:40–20:50, greets wife affectionately, and Soniya herself begins disclosure of her morning gym experience with trainer Vivek Rao. Cut on that opening, with Rahul's earlier privacy violation and Subhash's earlier misconduct still unknown to Taniya. No new extraneous beat.",
   "timeIntegrity": {
     "asOf": "2026-11-17",
     "verifiedStart": "EP03 starts 10:50 AM within an established office shift that began at 10:30 AM",
     "verifiedCutoff": "13:15 is Phase A end (transferred TS16), NOT the new EP03 start",
     "officeEnd": "19:30 (7:30 PM) confirmed nine-hour office shift",
     "commuteAfterWork": "Start after 19:30; approximate 35–50 minutes only",
-    "societyArrival": "Possible ~20:05–20:20 but NOT LOCKED",
-    "soniyaFirstAppearance": "After commute at final T03-12 home entry, not before",
-    "consequence": "Earlier assistant's 13:15 EP03 start, early 16:05 exit, and 17:09 home time are superseded. Original EP02 published morning prose and planning files untouched."
+    "societyArrival": "~20:05–20:20 estimate; Guddu ~20:08–20:15; twin encounter ~20:16–20:24, both provisional",
+    "soniyaFirstAppearance": "At home ~20:25–20:35 estimated; Rahul return ~20:40–20:50 proposed (not source-confirmed)",
+    "consequence": "Current EP03 Phase C compacted into three purposeful beats: Guddu, twins, combined Soniya/Rahul. T03-09 includes commute. Twin timing follows Ankita 17:20–17:50 and Shivani/Kavya/Deepu 19:11–19:23; no overlap.",
+    "rahulDeparture": "07:55 from EP02 TS03; no later existing confirmed clock. ~20:40–20:50 remains proposal."
   },
   "plotPhases": [
     {
@@ -520,15 +571,15 @@
       "note": "Andrea's playful cheek peck to Chirag is not Taniya romance. Her rented second flat remains active; Vivek fantasy stays reader-only."
     },
     {
-      "key": "C — AFTER WORK",
+      "key": "C — SOCIETY + HOME (CONDENSED)",
       "beatIds": [
         "T03-10",
         "T03-11",
         "T03-12"
       ],
-      "time": "19:30 onward; travel approx 35–50 minutes (estimate)",
-      "state": "SOCIETY_TWINS_CONDITIONAL__SONIYA_AT_HOME_ONLY",
-      "note": "Taniya chooses Soniya's flat rather than the near-office rental. No fixed arrival timestamp."
+      "time": "19:30 shift exit + ~35–50m estimated commute → ~20:08–21:00 proposed society/home",
+      "state": "SOCIETY_TWINS_CONDITIONAL__AFTER_SHIVANI_19:23__SONIYA_AT_HOME_ONLY",
+      "note": "No standalone travel beat; two homes choice folded into T03-09. Guddu introduces missing wedding rate sheet; Karan's one immediate-release accidental covered hip contact in foyer is after Shinani/Kavya/Deepu twin slot 19:11–19:23. Sister + husband + opening disclosure merged into final T03-12."
     }
   ],
   "interactionAudit": {
@@ -628,8 +679,26 @@
         "beatIds": [
           "T03-11"
         ],
-        "physical": "No evening touch; crossover only if naturally present.",
-        "relationship": "Morning gym acquaintances; Kabir's brothers/Ankita's devars."
+        "physical": "T03-11 ~20:16–20:24: Karan accidentally contacts Taniya's CLOTHED BACK-OF-HIP/UPPER BUTTOCK in a cramped foyer while maneuvering a folded event board; immediately withdraws/apologizes. Taniya briefly catches his sleeve. Aman handles the board and has no contact. No romantic act.",
+        "relationship": "Existing TS05 gym familiarity; timing after Shivani/Kavya/Deepu 19:11–19:23. Immediate accidental contact only."
+      },
+      {
+        "name": "Guddu (society Chotu)",
+        "age": 23,
+        "beatIds": [
+          "T03-10"
+        ],
+        "physical": "Sealed wedding quotation packet handover only; no intimate touch.",
+        "relationship": "Independent society helper introduction, missing page leads to next-day follow-up."
+      },
+      {
+        "name": "Rahul (Soniya husband)",
+        "age": 28,
+        "beatIds": [
+          "T03-12"
+        ],
+        "physical": "Voluntary familiar wife/husband hug and forehead kiss with Soniya; absolutely no Rahul–Taniya intimate contact.",
+        "relationship": "Returns from work at a PROPOSED evening clock; Soniya herself begins new gym disclosure, Rahul knows no details yet."
       }
     ],
     "femalePhysical": [
@@ -658,9 +727,25 @@
         "reaction": "Supporting roles only."
       }
     ],
-    "taniyaReaction": "T03-02: Taniya startles, catches breath, grips Raghav's shirt reflexively to steady herself; on release she returns to witty work focus, no romantic feeling inferred. T03-06: watches Andrea give Chirag a quick celebratory cheek kiss, is amused, tells group to work; no jealousy or intimacy with Taniya.",
+    "taniyaReaction": "T03-02: Taniya startles, catches breath, grips Raghav's shirt reflexively to steady herself; on release she returns to witty work focus, no romantic feeling inferred. T03-06: watches Andrea give Chirag a quick celebratory cheek kiss, is amused, tells group to work; no jealousy or intimacy with Taniya. T03-11: Karan's hand inadvertently lands briefly on her covered back-of-hip/upper buttock during crowded foyer movement; she is startled, catches his sleeve to recover, then releases, responds with an unmistakably firm but witty line, and moves on. No desire or permission to repeat inferred. T03-12: sees sister/husband's normal affectionate greeting and exits for their private conversation.",
     "uncleFantasyHint": "Vivek Suri, aged 55 CA partner, privately finds engaged Taniya sexually attractive and imagines intimacy before her wedding. Only narrator/reader knows; Taniya neither knows nor reciprocates, and he takes no personal action.",
-    "note": "No Taniya kiss/affair/romantic milestone this episode. Precisely one brief practical Raghav-waist + Taniya-shirt contact and one unrelated playful Andrea/Chirag cheek peck."
+    "note": "Author-approved PLOT ONLY. Office: Raghav/Taniya one practical covered-waist stabilization; Andrea/Chirag one voluntary celebratory cheek peck. Society: Karan one non-graphic accidental covered back-of-hip/upper-buttock touch with immediate withdrawal/apology and Taniya reaction; Guddu paperwork only. Home: Rahul/Soniya familiar married affection; no Rahul/Taniya intimacy. CA office Uncle Vivek Suri desire remains reader-only, no action. No extra travel or disclosure beats.",
+    "societyPhysical": [
+      {
+        "pair": "Karan → Taniya",
+        "beatId": "T03-11",
+        "contact": "One brief accidental touch against her clothed back-of-hip/upper buttock during cramped foyer turn; immediately removed after collision.",
+        "reaction": "Taniya startled, briefly catches his sleeve, steps clear, jokes firmly; Karan apologizes; Aman has no contact and does not know her thoughts.",
+        "romance": "None"
+      },
+      {
+        "pair": "Rahul ↔ Soniya",
+        "beatId": "T03-12",
+        "contact": "Familiar voluntary married-couple hug and forehead kiss on his return home.",
+        "reaction": "Soniya welcomes him but soon initiates serious morning-gym topic; Taniya leaves them private.",
+        "romance": "Established marriage, not a newly introduced romance."
+      }
+    ]
   },
   "visualAssets": [
     {
@@ -686,5 +771,37 @@
     "title": "Taniya — Episode 03 — 2026-01-01",
     "url": "https://drive.google.com/drive/folders/1MtxEOMgTwYNyw56fCZySEkMKzc_f1hHQ",
     "note": "Drive folder is private; story planning UI exposes review links, not public image hosting."
-  }
+  },
+  "temporalCrossChecks": [
+    {
+      "person": "Taniya",
+      "earlier": "10:30–19:30 CA-office shift",
+      "new": "Departs at 19:30, ~35–50 minute commute, evening society arrival after ~20:05",
+      "status": "NO_OVERLAP"
+    },
+    {
+      "person": "Karan & Aman",
+      "earlier": "Ankita home trip 17:20–17:50; Shivani + Kavya + Deepu 19:11–19:23",
+      "new": "Society foyer event-board return and Taniya crossover ~20:16–20:24",
+      "status": "NONOVERLAPPING_PROPOSAL; later venue unverified"
+    },
+    {
+      "person": "Guddu",
+      "earlier": "Society helper, no evening duty verified",
+      "new": "Vendor/event papers at service counter around 20:08",
+      "status": "PLAUSIBLE_PROPOSAL; do not claim assigned shift"
+    },
+    {
+      "person": "Soniya",
+      "earlier": "At flat through 13:15 EP02 background lane",
+      "new": "At same home when Taniya arrives ~20:25–20:35",
+      "status": "PROPOSED; no known conflict"
+    },
+    {
+      "person": "Rahul",
+      "earlier": "Leaves home for office at 07:55 EP02 TS03",
+      "new": "Arrives home ~20:40–20:50",
+      "status": "PROPOSED_CLOCK; unconfirmed"
+    }
+  ]
 }
