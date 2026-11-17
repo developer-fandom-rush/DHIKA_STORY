@@ -15,6 +15,12 @@ assert.ok(ep01.scenes.find(s=>s.id==='S07').narration.some(t=>t.includes('Establ
 assert.ok(ep01.status.includes('FINAL_FROZEN')&&ep01.currentAuthorApproval?.preserveOriginalSceneText,'EP01 now author-approved final without modifying original scenes');
 const originalHtml=readFileSync(resolve(root,'episode-02.html'),'utf8');
 const leads=['ankita','shivani','taniya','soniya','meenakshi','shreya'];
+const chotuWorkshop=read('episode-04-chotu-six-leads-review.json');
+assert.equal(chotuWorkshop.leads.length,6,'EP04 Chotu workshop must cover six female leads including Soniya');
+assert.equal(chotuWorkshop.leads.reduce((n,lead)=>n+lead.tracks.length,0),11,'Eleven established Chotu tracks; no fabricated second Soniya office helper');
+assert.ok(chotuWorkshop.leads.every(lead=>lead.tracks.every(t=>t.a.date<=t.b.date&&t.b.date<='2026-01-02')),'Every Chotu A/B review finishes by Jan2');
+assert.equal(chotuWorkshop.status,'SAVED_TO_UI_FOR_DISCUSSION__NOT_APPROVED_PLOT_OR_PROSE','Review data must not be labeled as approved prose');
+
 let total=0;
 for(const lead of leads){
  const archive=read('continuity-verbatim/episode-02/'+lead+'.json');
