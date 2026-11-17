@@ -104,7 +104,7 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
     {ankitaEp04A&&<>
      <p><strong>EP03 → EP04A handoff:</strong> {ankitaEp04A.continuityStart.moment}</p>
      <p><strong>Twins already occurred:</strong> {ankitaEp04A.continuityStart.twins}</p>
-     <div className="beat-list">{ankitaEp04A.scenes.map(scene=><details className="episode-outline" key={scene.id} open={scene.sceneNumber==='01'}>
+     <div className="beat-list">{ankitaEp04A.scenes.map(scene=><details className="episode-outline" key={scene.id} open={['01','06','07'].includes(scene.sceneNumber)}>
       <summary><strong>Scene {scene.sceneNumber} · {scene.title}</strong> — {scene.start&&scene.end?scene.start+'–'+scene.end:'TIMING PENDING'} · {scene.status}</summary>
       {scene.location&&<p><strong>Location:</strong> {scene.location}</p>}
       {scene.fadeToBlack&&<p className="source-note"><strong>Husband-wife intimacy · non-graphic fade-to-black · caring close</strong></p>}
