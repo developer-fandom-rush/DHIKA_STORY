@@ -151,7 +151,8 @@
     "Do not label Ayaan and Armaan actual brothers."
   ],
   "handoff": {
-    "nextFile": "shivani-jan01-night-next-episode-chotu-kavya-twins-om-plot.json",
-    "next": "Home relationship setup and adult night ensemble; same story date but prose intentionally deferred to next Shivani episode."
+    "nextFile": "episode-04a-shivani-plan.json",
+    "next": "Episode 04A is the canonical Shivani next-episode plan: Om home setup, Deepu backdrop accident BEFORE Kavya first meeting, twins, home dinner, mistaken Om surprise and Rohan close; non-graphic Google Doc is a prose DRAFT, not final canon",
+    "nextProseDocUrl": "https://docs.google.com/document/d/1779t20ygHv8Q9PzJuH5u8SgxVcLHg9ZGm7cbmnXFs88/edit?usp=drivesdk"
   }
 }
