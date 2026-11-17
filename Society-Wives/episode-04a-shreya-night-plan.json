@@ -185,7 +185,7 @@
           "id": "SC11",
           "time": "19:45–20:50",
           "title": "Anaya, husband and other family positions",
-          "plot": "Shreya returns to normal family care with Anaya. Vikram's late-evening arrival from his own work is a new proposed placement around 20:40–20:50, not confirmed by older source. Sameer and Shruti have no verified evening whereabouts; keep them unplaced or briefly off-stage rather than claiming either witnessed anything. No duplicate Rajeev encounter.",
+          "plot": "Shreya returns to normal family care with Anaya. Vikram's late-evening arrival from his own work is a new proposed placement around 20:40–20:50, not confirmed by older source. Sameer and Shruti are both away throughout 1 January. Their exact locations and return dates remain open for a later episode; neither enters the home tonight or witnesses anything. No duplicate Rajeev encounter.",
           "reaction": "Shreya chooses not to tell Vikram the bathroom incident during this new night draft."
         }
       ],
@@ -247,8 +247,8 @@
     "arvind": "At home with Anaya ~18:07; one mistaken doorway encounter ~18:29; makes tea and leaves Shreya space, then own room; prior fixation already established",
     "anaya": "Safe family care while Shreya freshens up, later with Shreya/Vikram for normal childcare; never present for adult intimacy",
     "vikram": "Working/away early evening (proposed); arrives home ~20:40–20:50 (proposed); home all night",
-    "sameer": "24-year-old devar; exact Jan1 evening location remains unverified; no invented presence at the bathroom event",
-    "shruti": "23-year-old younger sister; exact Jan1 evening location remains unverified; no invented presence at the bathroom event"
+    "sameer": "24-year-old devar; away from the Rathore apartment throughout January 1 and not returning that night. His present errand/location and future return date are intentionally unspecified. Do not introduce him in any EP04A home scene.",
+    "shruti": "23-year-old younger sister; away from the Rathore apartment throughout January 1 and not returning that night. Her current commitment/location and future return date remain unspecified. Do not introduce her in any EP04A home scene."
   },
   "day2Hooks": [
     "January 2 begins as a normal workday; check uniform button repair/replacement, no magical self-repair",
@@ -265,13 +265,13 @@
     "Arvind's sexual interest is reader-only and was established earlier in EP02 SR08; do not falsely label this its first discovery or assign it to Ankita's clothing.",
     "Vikram and Shreya's marital intimacy can be acknowledged as intense and mutually enjoyable but is fade-to-black; no anatomically descriptive sex or explicit moans.",
     "Anaya is never framed within adult intimacy or as observing the bathroom incident.",
-    "Sameer and Shruti's unknown schedules stay openly unresolved until user supplies them.",
     "No author approval of prose is inferred from scene planning; all time assignments beyond EP03 17:45 are draft.",
     "User-directed non-graphic sexual facts are preserved only as brief off-page references; there must be no graphic depiction of self-pleasure, involuntary nudity, or sexual acts.",
-    "SC06/SC07 WRITER CUE: 'naked and fingering remembering Vivek Rao' is a factual staging label; the sexual act and involuntary exposure are NOT described graphically."
+    "SC06/SC07 WRITER CUE: 'naked and fingering remembering Vivek Rao' is a factual staging label; the sexual act and involuntary exposure are NOT described graphically.",
+    "Sameer and Shruti remain away the entire Jan1 night; no fixed location, reason, return date or household entrance is to be invented."
   ],
   "householdScheduleReview": {
-    "status": "NEW PROVISIONAL HOUSEHOLD LOCATIONS__NOT LOCKED_CANON__NO SCENE PROSE ALTERED",
+    "status": "AUTHOR_CORRECTION_SAMEER_SHRUTI_AWAY_JAN1__OTHER_CLOCKS_REVIEW",
     "sourceChecks": [
       "Vikram (36) is Shreya's husband. He works away from home in early evening; existing 04A source proposes return 20:40–20:50.",
       "Arvind (65) is a resident elder addressed Uncle, NOT Vikram's father or Shreya's father-in-law. Episode 02 previously established his one-sided private interest.",
@@ -299,15 +299,15 @@
       },
       {
         "person": "Sameer",
-        "when": "~19:40",
-        "where": "Returns to Rathore apartment from unspecified personal errand, briefly greets household; later in his own room from ~21:15",
-        "status": "NEW SUGGESTED CLOCK, NOT PRIORLY ESTABLISHED"
+        "when": "1 January, all evening and night",
+        "where": "Away from the Rathore apartment; reason and actual location kept unspecified. Will reappear on a future date not yet selected.",
+        "status": "AUTHOR-CORRECTED: DO NOT SCHEDULE A JAN1 RETURN"
       },
       {
         "person": "Shruti",
-        "when": "~20:10",
-        "where": "Returns to the Rathore apartment from an unspecified personal commitment, checks on Anaya/Shreya and then stays in her own room from ~21:25",
-        "status": "NEW SUGGESTED CLOCK, NOT PRIORLY ESTABLISHED"
+        "when": "1 January, all evening and night",
+        "where": "Away from the Rathore apartment; reason and actual location kept unspecified. Will reappear on a future date not yet selected.",
+        "status": "AUTHOR-CORRECTED: DO NOT SCHEDULE A JAN1 RETURN"
       },
       {
         "person": "Vikram",
@@ -329,8 +329,8 @@
       }
     ],
     "timelineNotes": [
-      "The new Sameer/Shruti returns are not facts of past episodes and must not be narrated as already agreed; review the hours before converting to prose.",
-      "Neither Sameer nor Shruti witnesses the 18:29 bathroom event; they return only later in the evening.",
+      "Sameer and Shruti's earlier proposed ~19:40/~20:10 returns are withdrawn; both remain away until an unspecified later date.",
+      "Neither Sameer nor Shruti is at home during any of the 1 January evening events; no return is scheduled.",
       "Arvind's brief departure from Anaya's play area must not leave the toddler in unsafe circumstances. Keep her safely settled and out of the bathroom; if extra caregiver is needed, adjust only after author reviews timings.",
       "Only mother-daughter caregiving context for breastfeeding. Keep the feeding distinct from Shreya's shower and adult married intimacy.",
       "Do not make Anaya a witness to adult intimacy, use her as comic interruption to sex, or invent a son."
