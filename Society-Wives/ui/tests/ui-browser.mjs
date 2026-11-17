@@ -210,6 +210,11 @@ try {
  check((await page.locator('#shivani-episode04a').innerText()).includes('Scene 04'),'Shivani EP04A scene numbering is rendered');
  check((await page.locator('#shivani-episode04a').innerText()).includes('SH13'),'Shivani twin/Kavya ending beat is rendered');
  check((await page.locator('#shivani-episode04a').innerText()).includes('Rohan'),'Shivani household positions are included');
+ check((await page.locator('#shivani-episode04a').innerText()).includes('Scene 07'),'Shivani private night closing scene rendered');
+ check((await page.locator('#shivani-episode04a').innerText()).includes('The wrong surprise'),'Om accidental surprise is visible in Shivani EP04A');
+ check((await page.locator('#shivani-episode04a').innerText()).includes('I liked it'),'Twins cliffhanger dialogue preserved');
+ check((await page.locator('#shivani-episode04a').innerText()).includes('Manav'),'Shivani devar evening location presented');
+ check((await page.locator('#shivani-episode04a').innerText()).includes('fade-to-black'),'Non-graphic wife-and-husband intimacy remains in planning');
  check((await page.locator('#ep04-chotu-planning').innerText()).includes('Remaining Five Women'),'Shared workshop properly excludes Ankita');
  await page.locator('.perspective-tabs button', {hasText:'Taniya'}).click();
  await page.waitForFunction(()=>document.querySelectorAll('#ep04-chotu-planning .episode-outline').length>=2);
