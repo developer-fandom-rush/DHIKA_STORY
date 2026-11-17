@@ -22,8 +22,12 @@ assert.ok(chotuWorkshop.leads.every(l=>l.id!=='ankita'),'Ankita must not duplica
 const ankitaArchive=read('episode-04b-ankita-chotu-archive.json');
 assert.equal(ankitaArchive.tracks.length,2,'Both Ankita Chotu tracks preserved in dedicated archive');
 const shivaniEp04A=read('episode-04a-shivani-plan.json');
-assert.deepEqual(shivaniEp04A.scenes.map(s=>s.sceneNumber),['01','02','03','04','05'],'Shivani EP04A must have five sequential numbered scenes');
-assert.equal(shivaniEp04A.scenes.reduce((sum,s)=>sum+s.beats.length,0),16,'Sixteen new review beats for Shivani');
+assert.deepEqual(shivaniEp04A.scenes.map(s=>s.sceneNumber),['01','02','03','04','05','06','07'],'Shivani EP04A must have seven sequential numbered scenes');
+assert.equal(shivaniEp04A.scenes.reduce((sum,s)=>sum+s.beats.length,0),25,'Twenty-five new review beats for Shivani');
+assert.equal(shivaniEp04A.scenes[3].beats.at(-1).dialogue.at(-1).line,'Arre, utho dono. I liked it.','The twin encounter must end with Shivani laughing and I liked it');
+assert.ok(shivaniEp04A.scenes[5].beats.some(b=>b.title.includes('Om in the living room')||b.id==='SH20'),'Shivani Om mistaken-identity surprise remains in Scene 06');
+assert.equal(shivaniEp04A.scenes[6].fadeToBlack,true,'Scene 07 acknowledges private husband-wife intimacy without explicit prose');
+assert.ok(shivaniEp04A.household.manav.location.includes('20:10'),'Manav evening return has an assigned provisional time');
 assert.ok(shivaniEp04A.scenes[1].end===shivaniEp04A.scenes[2].start&&shivaniEp04A.scenes[2].end===shivaniEp04A.scenes[3].start,'Deepu accident precedes Kavya then twins without gaps');
 assert.equal(chotuWorkshop.leads.find(l=>l.id==='shivani').tracks.find(t=>t.chotu==='Deepu').a.start,'18:51','Shared Deepu A must agree with EP04A scene 02');
 assert.ok(chotuWorkshop.leads.every(lead=>lead.tracks.every(t=>t.a.date<=t.b.date&&t.b.date<='2026-01-02')),'Every Chotu A/B review finishes by Jan2');
