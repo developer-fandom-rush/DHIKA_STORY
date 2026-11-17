@@ -4269,6 +4269,38 @@
       "sourceEvidence": "Original prose present in Episode 03 unified reader; source approval shown per scene."
     },
     {
+      "id": "ep04a-ankita-scene02",
+      "date": "2026-01-01",
+      "sort": "18:45",
+      "start": "18:45",
+      "end": "20:35",
+      "timeLabel": "18:45–20:35",
+      "universe": "sw",
+      "title": "EP04A Scene 02 · Household reset — Rajeev remains away",
+      "lead": "Ankita",
+      "characters": [
+        "Ankita"
+      ],
+      "mentions": [],
+      "episode": "04A",
+      "scene": "ep04a",
+      "kind": "planned",
+      "state": "review",
+      "status": "Night closure planning · not approved prose",
+      "source": "episode-04a-ankita-plan.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "ankita",
+        "scene": "ep04a"
+      },
+      "flags": [
+        "Time proposed, plot not author-approved",
+        "Rajeev absent on unspecified errand with own key; no new parcel disclosure",
+        "Ankita-only recall: unknown men's private behavior is not her knowledge"
+      ],
+      "detail": "N01 18:45–19:10: Dry clothes and the quiet apartment. After Rinku's temporary repair, Ankita gets into dry, comfortable home clothes and returns to her ordinary household tasks. The question raised by Rinku's abrupt quietness stays private. No second encounter or deliberate display tonight. N02 19:10–20:35: Rajeev's absence, not a new mystery. Ankita knows Rajeev has stepped out for an important errand, without an expected return time. He took his own key. She does not engage the inside bolt; the ordinary door latch can be opened using his key. His errand and the private parcel remain unseen and undiscussed. Karan and Aman are still out at pre-existing society activities, including their 19:11–19:23 Shivani and 20:16–20:24 Taniya commitments."
+    },
+    {
       "date": "2026-01-01",
       "universe": "sw",
       "mentions": [],
@@ -4465,6 +4497,171 @@
           "body": "Soniya takes responsibility for telling Rahul about the new gym incident; Rahul knows only that she wants to talk, not its full details. Episode ends without a new standalone conversation beat."
         }
       ]
+    },
+    {
+      "id": "ep04a-ankita-scene03",
+      "date": "2026-01-01",
+      "sort": "20:40",
+      "start": "20:40",
+      "end": "21:00",
+      "timeLabel": "20:40–21:00",
+      "universe": "sw",
+      "title": "EP04A Scene 03 · Karan and Aman come home",
+      "lead": "Ankita",
+      "characters": [
+        "Ankita",
+        "Karan",
+        "Aman"
+      ],
+      "mentions": [],
+      "episode": "04A",
+      "scene": "ep04a",
+      "kind": "planned",
+      "state": "review",
+      "status": "Night closure planning · not approved prose",
+      "source": "episode-04a-ankita-plan.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "ankita",
+        "scene": "ep04a"
+      },
+      "flags": [
+        "Time proposed, plot not author-approved",
+        "Rajeev absent on unspecified errand with own key; no new parcel disclosure",
+        "Ankita-only recall: unknown men's private behavior is not her knowledge"
+      ],
+      "detail": "N03 20:40–21:00: Two brothers back from society. After their established ~20:24 society event, Karan and Aman return to their shared apartment. Ordinary dinner and brief chat; Ankita does not tease them into a new intimate encounter. She can remind Aman about his Java interview notes without starting a long work scene. Neither brother knows her private Rinku thoughts."
+    },
+    {
+      "id": "ep04a-ankita-scene04",
+      "date": "2026-01-01",
+      "sort": "21:05",
+      "start": "21:05",
+      "end": "21:50",
+      "timeLabel": "21:05–21:50",
+      "universe": "sw",
+      "title": "EP04A Scene 04 · Kabir's work call and arrival",
+      "lead": "Ankita",
+      "characters": [
+        "Ankita",
+        "Kabir"
+      ],
+      "mentions": [],
+      "episode": "04A",
+      "scene": "ep04a",
+      "kind": "planned",
+      "state": "review",
+      "status": "Night closure planning · not approved prose",
+      "source": "episode-04a-ankita-plan.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "ankita",
+        "scene": "ep04a"
+      },
+      "flags": [
+        "Time proposed, plot not author-approved",
+        "Rajeev absent on unspecified errand with own key; no new parcel disclosure",
+        "Ankita-only recall: unknown men's private behavior is not her knowledge"
+      ],
+      "detail": "N04 21:05–21:12: Short reassuring call. Kabir calls from work to say his release-related office duties ran late but he is coming home tonight. Ankita asks about his tiredness and responds warmly. He does not interrogate her day; she simply says work and the New Year celebration went well. N05 21:35–21:50: Kabir returns. Kabir reaches home, is welcomed affectionately and freshens up. Do not cast him as absent for the entire night or copy Dhika/John's overnight absence. He knows nothing about Ankita's private testing of attention or other men's undisclosed thoughts."
+    },
+    {
+      "id": "ep04a-ankita-scene05",
+      "date": "2026-01-01",
+      "sort": "21:50",
+      "start": "21:50",
+      "end": "22:15",
+      "timeLabel": "21:50–22:15",
+      "universe": "sw",
+      "title": "EP04A Scene 05 · A familiar marriage, very little explanation",
+      "lead": "Ankita",
+      "characters": [
+        "Ankita",
+        "Kabir"
+      ],
+      "mentions": [],
+      "episode": "04A",
+      "scene": "ep04a",
+      "kind": "planned",
+      "state": "review",
+      "status": "Night closure planning · not approved prose",
+      "source": "episode-04a-ankita-plan.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "ankita",
+        "scene": "ep04a"
+      },
+      "flags": [
+        "Time proposed, plot not author-approved",
+        "Rajeev absent on unspecified errand with own key; no new parcel disclosure",
+        "Ankita-only recall: unknown men's private behavior is not her knowledge"
+      ],
+      "detail": "N06 21:50–22:15: Natural husband-wife warmth. Kabir asks whether Ankita enjoyed her day. She replies briefly, 'Haan, kaafi eventful tha,' without reciting Bhalla, Sandeep, the briefing buttons, the party's private moments, the Aman ride or Rinku's changed gaze. They talk about his late work, tomorrow's routine and being together. Nothing suggests their established marriage was unhappy or unsatisfying."
+    },
+    {
+      "id": "ep04a-ankita-scene06",
+      "date": "2026-01-01",
+      "sort": "22:35",
+      "start": "22:35",
+      "end": "23:00",
+      "timeLabel": "22:35–23:00",
+      "universe": "sw",
+      "title": "EP04A Scene 06 · Before bed — the day belongs to her thoughts",
+      "lead": "Ankita",
+      "characters": [
+        "Ankita"
+      ],
+      "mentions": [],
+      "episode": "04A",
+      "scene": "ep04a",
+      "kind": "planned",
+      "state": "review",
+      "status": "Night closure planning · not approved prose",
+      "source": "episode-04a-ankita-plan.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "ankita",
+        "scene": "ep04a"
+      },
+      "flags": [
+        "Time proposed, plot not author-approved",
+        "Rajeev absent on unspecified errand with own key; no new parcel disclosure",
+        "Ankita-only recall: unknown men's private behavior is not her knowledge"
+      ],
+      "detail": "N07 22:35–22:48: One vivid private recall, not a checklist. In her own thoughts Ankita remembers the morning compliments (Rohan, Nikhil and the fitness group), office comments by Priya/Nisha, her OWN decision to loosen two kurti buttons in front of Bhalla and Sandeep, the party's dancing, the unusual scooter closeness with Aman, and the kitchen accident with Rinku. The reader may understand that different men interpreted her differently, but Ankita cannot recall hidden fantasies, privacy violations or secret parcel activity she never learned about. N08 22:48–23:00: Charged feelings turn toward her husband. The day has left her unusually energized, self-aware and physically stirred. She remembers that she chose some moments of playful attention, while others surprised her. There is no assumed consent for others and no invented guilt. She wants closeness with Kabir, and decides to initiate it herself."
+    },
+    {
+      "id": "ep04a-ankita-scene07",
+      "date": "2026-01-01",
+      "sort": "23:00",
+      "start": "23:00",
+      "end": "23:15",
+      "timeLabel": "23:00–23:15",
+      "universe": "sw",
+      "title": "EP04A Scene 07 · Ankita takes the initiative — fade to black",
+      "lead": "Ankita",
+      "characters": [
+        "Ankita",
+        "Kabir"
+      ],
+      "mentions": [],
+      "episode": "04A",
+      "scene": "ep04a",
+      "kind": "planned",
+      "state": "review",
+      "status": "Night closure planning · not approved prose",
+      "source": "episode-04a-ankita-plan.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "ankita",
+        "scene": "ep04a"
+      },
+      "flags": [
+        "Time proposed, plot not author-approved",
+        "Rajeev absent on unspecified errand with own key; no new parcel disclosure",
+        "Ankita-only recall: unknown men's private behavior is not her knowledge"
+      ],
+      "detail": "N09 23:00–23:08: Confident, mutual married intimacy. Ankita approaches Kabir and initiates affectionate intimacy with noticeably more eagerness than usual. Kabir recognizes how excited and proactive she is, responds with equal affection and enthusiasm, and both willingly share an unusually intense, fulfilling night together. Do NOT describe sexual acts graphically, and do not have Ankita reveal her private day-recall to Kabir. Fade to black as the intimacy begins. N10 23:08–23:15: Tenderness and sleep. After the fade to black, briefly return only to the comfortable, loving aftermath: both are content, Kabir checks that Ankita is comfortable, and they fall asleep as caring partners. Their already-good married intimacy feels newly refreshed, not repaired from a fabricated problem."
     },
     {
       "id": "jan01-meenakshi-harish-sunil-night-future",
