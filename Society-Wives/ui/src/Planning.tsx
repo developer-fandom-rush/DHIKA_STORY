@@ -174,22 +174,12 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
    </section>}
   {active==='meenakshi'&&<section className="continuity-cards" id="meenakshi-ep03-prose-moved"><article className="episode-plan-card"><span className="eyebrow">Episode 03 · Story text moved to Episode Reading</span><h2>Meenakshi · Written scenes</h2><p>Scene 01 approved; Scene 02 complete F01–F19 source with mixed approvals; Scene 03 author T01–T07 text under review; Scene 04 B01–B05 full prose draft. Read all four in the same Episode Reading UI; source approvals are retained.</p><div className="hero-actions">{['01','02','03','04'].map(id=><button type="button" className="button subtle" key={id} onClick={()=>openPage('reading',{episode:'03',character:'meenakshi',scene:id})}>Read Scene {id} →</button>)}</div></article><article className="episode-plan-card" id="ep04-meenakshi-handoff"><span className="eyebrow">Still planning · future continuation</span><h2>Unwritten Meenakshi plans</h2><p>Jan 2 future outline, the 14:15 Naveen handoff and late-night Harish–Sunil seed remain separate planning references. No new prose was invented.</p></article></section>}
   {active==='ankita'&&<section className="continuity-cards" id="ankita-ep03-first-block">
-    <article className="episode-plan-card" id="ankita-ep03-a11"><span className="eyebrow">Ankita · EP03 · Scenes 01–02 · prose now in Reading</span><h2>Rajeev's Parcel Call &amp; The Five-Person Stamina Challenge</h2><p>Scene 01 contains the author-completed narrative. Scene 02 preserves author-original full prose with additive framing, pending review.</p><div className="hero-actions"><button type="button" className="button primary" onClick={()=>openPage('reading',{episode:'03',character:'ankita',scene:'01'})}>Read Scene 01 →</button><button type="button" className="button subtle" onClick={()=>openPage('reading',{episode:'03',character:'ankita',scene:'02'})}>Read Scene 02 →</button></div></article>
-     <article className="episode-plan-card" id="ankita-ep03-scene03"><span className="eyebrow">Ankita · EP03 · Scene 03 · 1 Jan 2026 · Writer plot for review</span>
-      <h2>{ankitaScene03?.title||'The Private Briefing — Ankita’s Beauty Test'}</h2>
-      <p>13:45–15:10 · Cyber City IT office · Ankita, Mr. Bhalla (58), Sandeep Khurana (38); Aishwarya at the exit cliff</p>
-      <p className="muted">Beats 1–3 are in Reading: Beat 1 approved, Beat 2 author-verbatim, Beat 3 confrontation cleaned per author. The former 15:00–15:20 personal presentation is parked for future only.</p>
-      <button type="button" className="button primary" onClick={()=>openPage('reading',{episode:'03',character:'ankita',scene:'03'})}>Read Scene 03 · Beats 1–3 →</button>
-      <figure className="ankita-scene03-image" style={{margin:'1rem 0'}}>
-       <img src={assetUrl('assets/ankita-ep03-scene03-private-briefing.webp')} alt="Ankita presenting the successful New Year production release in a cream embroidered kurti and beige blazer to Mr. Bhalla and Sandeep" loading="lazy" style={{width:'min(100%, 440px)',height:'auto',borderRadius:'12px',display:'block'}}/>
-       <figcaption className="muted">Scene 03 generated visual reference · office presentation · illustration, not a face-canon photograph.</figcaption>
-      </figure>
-      {ankitaScene03&&<><div className="beat-list">{ankitaScene03.beats.map(q=><div className="beat-item" key={q.id}><span className="eyebrow">{q.time}</span><h3>{q.name}</h3><p>{q.plot}</p>{q.suggestedCliffDialogue&&<p><strong>Cliff:</strong> {q.suggestedCliffDialogue}</p>}</div>)}</div>
-      <details className="episode-outline"><summary>Author instruction validation · 4 active plot beats</summary><div className="beat-list">{ankitaScene03.validation.map(v=><div className="beat-item" key={v.beat}><p><strong>{v.beat} · {v.status}:</strong> {v.requirement}</p></div>)}</div></details>
-      <p className="muted">{ankitaScene03.status.replace(/_/g,' ')} · {ankitaScene03.proseStatus.replace(/_/g,' ')}. Next: {ankitaScene03.nextSceneSeed}</p></>}
-      {ankitaScene03Error&&<p role="alert">Ankita Scene 03 plot source unavailable: {ankitaScene03Error}</p>}
+    <article className="episode-plan-card" id="ankita-ep03-written-moved">
+      <span className="eyebrow">Ankita · EP03 · written scenes in Reader</span>
+      <h2>Scenes 01–08 are already written</h2>
+      <p>All eight Ankita scenes are available in Episode Reading, including revised and review-pending versions. Their duplicate plot/beat cards are removed from Planning, and the original content remains intact. Prose approval still follows each scene's recorded author decision.</p>
+      <button type="button" className="button primary" onClick={()=>openPage('reading',{episode:'03',character:'ankita',scene:'01'})}>Read all Ankita EP03 scenes →</button>
     </article>
-
     <article className="episode-plan-card" id="ankita-future-personal-presentation">
       <span className="eyebrow">Ankita · Future setup only · Not in Episode 03</span>
       <h2>Parked idea: Ankita’s personal presentation</h2>
@@ -198,75 +188,8 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
       <details className="episode-outline"><summary>Original author concept — preserved for future review</summary><p>{ankitaFuturePresentation.originalAuthorPromptVerbatim}</p><p><strong>Former plot:</strong> {ankitaFuturePresentation.originalPlotBeatVerbatim.plot}</p></details></>}
       {ankitaFuturePresentationError&&<p role="alert">Future Ankita presentation seed not loaded: {ankitaFuturePresentationError}</p>}
     </article>
-    <article className="episode-plan-card" id="ankita-ep03-scene04-rohit"><span className="eyebrow">Ankita · EP03 · 1 Jan 2026 · Scene 04 · User-finalized INTRO only</span>
-      <h2>{rohitIntro?.title||'Office Chotu — Rohit Babu Introduction'}</h2>
-      <p>After 15:10 (proposed) · Cyber City IT office · Ankita and Rohit (22)</p>
-      <p className="muted">Rohit Babu’s introduction prose is in Episode 03 Reading as a user-selected draft. The seven-point plot below stays as continuity reference.</p>
-      <button type="button" className="button primary" onClick={()=>openPage('reading',{episode:'03',character:'ankita',scene:'04'})}>Read Scene 04 · Rohit Babu intro →</button>
-      {rohitIntro&&<><p><strong>Outfit continuity:</strong> {rohitIntro.costumeContinuity?.scene04Entry}</p>
-      <div className="beat-list">{rohitIntro.beats.map(q=><div className="beat-item" key={q.id}><h3>{q.name}</h3><p>{q.plot}</p>{q.dialogue?.map((d,i)=><p key={i}><strong>{d.speaker}:</strong> {d.line}</p>)}</div>)}</div>
-      <p className="muted">INTRO only — no accidental glance or deliberate first show on Jan 1. {rohitIntro.status.replace(/_/g,' ')}</p></>}
-      {rohitIntroError&&<p role="alert">Rohit introduction not loaded: {rohitIntroError}</p>}
-    </article>
-    <article className="episode-plan-card" id="ankita-ep03-scene05">
-      <span className="eyebrow">Ankita · EP03 · Scene 05 · 1 Jan 2026 · Original prose in Reading, approved plot below</span>
-      <p className="muted">Five author-supplied prose beats are now available in Reading. No text rewritten; one venue-arrival sentence added at 16:40. Four original outline beats remain below for reference.</p>
-      <button type="button" className="button primary" onClick={()=>openPage('reading',{episode:'03',character:'ankita',scene:'05'})}>Read Scene 05 · Office to car →</button>
-      <h2>{ankitaScene05?.title||'Three Against Two — The Surprise Ride'}</h2>
-      <p>Approx. 16:00–16:40 · Office exit → Reyansh's car → nearby surprise venue. Two earlier proposed scenes are merged here.</p>
-      {ankitaScene05&&<><p><strong>Car:</strong> {ankitaScene05.continuity.vehicle}</p>
-        <p><strong>Seating:</strong> Reyansh drives, Aishwarya front; Vivan – Ankita – Sana in the rear. Ankita must be home by 18:00.</p>
-        <div className="beat-list">{ankitaScene05.beats.map(q=><div className="beat-item" key={q.id}><h3>{q.heading}</h3><p>{q.plot}</p>{q.dialogue?.map((d,i)=><p key={i}><strong>{d.speaker}:</strong> {d.line}</p>)}</div>)}</div>
-        <p className="muted">Party venue name not yet approved. No dinner; no new outfit changes. {ankitaScene05.status.replace(/_/g,' ')} · {ankitaScene05.proseStatus.replace(/_/g,' ')}.</p></>}
-      {ankitaScene05Error&&<p role="alert">Scene 05 plot unavailable: {ankitaScene05Error}</p>}
-    </article>
-    <article className="episode-plan-card" id="ankita-ep03-scene06">
-      <span className="eyebrow">Ankita · EP03 · Scene 06 · 1 Jan 2026 · Author-directed prose DRAFT · approval pending</span>
-      <h2>{ankitaScene06?.title||'The Stamina Challenge — The Five-Person Dance'}</h2>
-      <p>Approx. 16:40–17:20 · Private dance floor, after Scene 05 arrival · Only Ankita, Sana, Aishwarya, Vivan and Reyansh with venue service staff in the background.</p>
-      {ankitaScene06&&<>
-        <p className="muted">Working prose for author review; not canon-approved or final published episode. {ankitaScene06.setting.otherPeople}</p>
-        <p className="muted">Clean seven-beat Scene 06 review draft is in Reading. B2-B selected; wardrobe, glass, partner positioning and exit continuity fixed. B6 is a short assistant-reconstructed boundary bridge, clearly marked for review because original prose was unavailable. B2-A and all earlier drafts remain archived.</p>
-        <button type="button" className="button primary" onClick={()=>openPage('reading',{episode:'03',character:'ankita',scene:'06'})}>Read Scene 06 · cleaned seven-beat draft →</button>
-        <details className="episode-outline"><summary>Dance choreography · {ankitaScene06.choreography.length} ordered movements</summary><div className="beat-list">{ankitaScene06.choreography.map(q=><div className="beat-item" key={q.id}><h3>{q.formation}</h3><p><strong>Participants:</strong> {q.participants}</p><p><strong>Movement:</strong> {q.contact}</p><p><strong>Reaction:</strong> {q.reaction}</p></div>)}</div></details>
-        <p className="muted"><strong>Cut:</strong> 17:20 after dance. Exit, Ankita home drop and the remaining four's next party belong to Scene 07 and are not written here. {ankitaScene06.status.replace(/_/g,' ')}.</p>
-      </>}
-      {ankitaScene06Error&&<p role="alert">Ankita Scene 06 working draft not loaded: {ankitaScene06Error}</p>}
-    </article>
-    <article className="episode-plan-card" id="ankita-ep03-scene07">
-      <span className="eyebrow">Ankita · EP03 · Scene 07 · 1 Jan 2026 · Author-revised prose in Reading · approval pending</span>
-      <h2>{ankitaScene07?.title||'Two Minutes, Two Twins — The Ride Home'}</h2>
-      <p>~17:20–17:50 · Venue exit → Karan and Aman on separate two-wheelers → Gopal's silent glance → Home. No Reyansh/Vivan drop-off.</p>
-      <p className="muted">Eight-beat prose is now available in Reading. Author's exact additions in Beats 4, 5, 6 and 7 are visibly highlighted; Beat 5 is replaced as requested. This original plot outline is preserved here for continuity reference.</p>
-      <button type="button" className="button primary" onClick={()=>openPage('reading',{episode:'03',character:'ankita',scene:'07'})}>Read Scene 07 · highlighted author revisions →</button>
-      {ankitaScene07&&<>
-       <p><strong>Ride:</strong> {ankitaScene07.continuity.carProposition}</p>
-       <div className="beat-list">{ankitaScene07.beats.map(q=><div className="beat-item" key={q.id}><span className="eyebrow">{q.time}</span><h3>{q.heading}</h3><p>{q.plot}</p>{q.dialogue?.map((d,i)=><p key={i}><strong>{d.speaker}:</strong> {d.line}</p>)}</div>)}</div>
-       <p className="muted">Plot only. Gopal has no conversation; Mahendra and other elders do not meet Ankita. Rajeev is away and keeps her parcel. Next: 18:10–18:25 fresh-up and Rinku setup. {ankitaScene07.status.replace(/_/g,' ')}.</p>
-      </>}
-      {ankitaScene07Error&&<p role="alert">Scene07 source unavailable: {ankitaScene07Error}</p>}
-    </article>
-    <article className="episode-plan-card" id="ankita-ep03-scene08">
-       <span className="eyebrow">Ankita · EP03 · Scene 08 · 1 Jan 2026 · 18:10–18:25 · five-beat prose draft in Reading</span>
-       <h2>{ankitaScene08?.title||'The Quiet Reset — Rinku at the Door'}</h2>
-       <p className="muted">The full five-beat Scene 08 prose is now in Reading as a working draft pending your review. The approved outline and five continuity locks remain below for comparison.</p>
-       <button type="button" className="button primary" onClick={()=>openPage('reading',{episode:'03',character:'ankita',scene:'08'})}>Read Scene 08 · five-beat prose draft →</button>
-       <p>Fresh-up → known/reader-only day recap → familiar Rinku's maintenance request → doorbell CUT. Rajeev is away; no parcel handover or discovery.</p>
-       {ankitaScene08&&<>
-         <div className="beat-list">{ankitaScene08.beats.map(q=><div className="beat-item" key={q.id}><span className="eyebrow">{q.time}</span><h3>{q.heading}</h3><p>{q.plot}</p></div>)}</div>
-         <details className="episode-outline"><summary>Knowledge and wardrobe locks</summary>
-           <p><strong>Ankita knows:</strong> {ankitaScene08.knowledgeLocks.ankitaKnows}</p>
-           <p><strong>Reader-only:</strong> {ankitaScene08.knowledgeLocks.readerOnly}</p>
-           <p><strong>Rajeev:</strong> {ankitaScene08.knowledgeLocks.rajeev}</p>
-           <p><strong>Rinku familiarity:</strong> {ankitaScene08.knowledgeLocks.rinku}</p>
-           <p><strong>Homewear:</strong> {ankitaScene08.wardrobe.homeChange}</p>
-           <p><strong>Next episode first look only:</strong> {ankitaScene08.wardrobe.firstRinkuView}</p>
-         </details>
-         <p className="muted">Last Ankita Jan 1 EP03 scene. No Gopal/Mahendra follow-up, family dinner or inventory. {ankitaScene08.status.replace(/_/g,' ')}.</p>
-       </>}
-       {ankitaScene08Error&&<p role="alert">Rinku setup source unavailable: {ankitaScene08Error}</p>}
-     </article>
-     <article className="episode-plan-card" id="ankita-ep04-rohit-first-show"><span className="eyebrow">Ankita · Future Jan 2 office plot · episode number to be assigned after Rinku</span>
+    
+    <article className="episode-plan-card" id="ankita-ep04-rohit-first-show"><span className="eyebrow">Ankita · Future Jan 2 office plot · episode number to be assigned after Rinku</span>
       <h2>{rohitFirstShow?.title||'Rohit Babu — The Accidental Look and First Show'}</h2>
       <p>2 January · First encounter in morning, second later on the same office day · Exact clock and wardrobe color provisional</p>
       {rohitFirstShow&&<><details className="episode-outline"><summary>Next-day outfit and visual triggers (proposed)</summary><p>{rohitFirstShow.wardrobe.jan02}</p><p><strong>Accidental:</strong> {rohitFirstShow.wardrobe.accidental}</p><p><strong>Deliberate:</strong> {rohitFirstShow.wardrobe.deliberate}</p></details>
@@ -274,6 +197,7 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
       <p className="muted">{rohitFirstShow.status.replace(/_/g,' ')} · Clock and next-day outfit need separate author approval; no prose written.</p></>}
       {rohitFirstShowError&&<p role="alert">Rohit Jan 2 first-show plot not loaded: {rohitFirstShowError}</p>}
     </article>
+  
   </section>}
   {active==='shivani'&&<section className="continuity-cards" id="shivani-ep03-cast-lock">
     <article className="episode-plan-card">
@@ -307,8 +231,10 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
          <p><strong>Episode clock:</strong> {shreyaEpisode03Proposal.dayScope.start}–{shreyaEpisode03Proposal.dayScope.end} · <strong>Anchor:</strong> {shreyaEpisode03Proposal.anchor}</p>
          <p className="source-note"><strong>Sequence rule:</strong> {shreyaEpisode03Proposal.reviewSequencePolicy}</p>
          <p className="muted">Approved SR10 and Strong-Chai are already published prose. Beat 05 (SR12) has moved to the Episode 04 Future Plot section below; Beat 06 numbering remains unchanged. Beats 7–9 have the author-approved Karan–Aman college plot direction: their shared incident is remembered by all three, their morning-style banter resumes, and exact prose remains pending review. Beat 10 remains the independently approved five-person training-ground plot.</p>
+         <p className="source-note"><strong>Written scenes → Reader:</strong> SR10 / Beat 02 and Strong-Chai / Beat 03 are author-approved final prose. DCP SR11 / Beat 04 has a written draft, still pending author approval. They are removed from plot cards below. Remaining scene and future-held beat numbers retain their original sequence.</p>
+         <div className="hero-actions"><button className="button subtle" type="button" onClick={()=>openPage('reading',{episode:'03',character:'shreya',scene:'10'})}>Read SR10</button><button className="button subtle" type="button" onClick={()=>openPage('reading',{episode:'03',character:'shreya',scene:'S03-01'})}>Read Strong-Chai</button><button className="button subtle" type="button" onClick={()=>openPage('reading',{episode:'03',character:'shreya',scene:'SR11'})}>Read DCP draft</button></div>
          <div className="beat-list" id="shreya-ordered-beats">
-           {shreyaEpisode03Proposal.reviewBeatSequence.map(slot=>{
+           {shreyaEpisode03Proposal.reviewBeatSequence.filter(slot=>!['SR10','S03-01','SR11'].includes(slot.id)).map(slot=>{
              const beat=slot.kind==='held'?shreyaEpisode03Proposal.parkedFutureEncounters.find(b=>b.id===slot.id):shreyaEpisode03Proposal.timeline.find(b=>b.id===slot.id);
              const merged=shreyaEpisode03Proposal.mergedTransitions.find(t=>t.from===slot.id);
              const held=slot.kind==='held',optional=slot.kind==='optional',bridge=slot.kind==='merged'||slot.kind==='bridge';
@@ -490,8 +416,8 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
     <p><strong>Separate:</strong> narrator visual description · observer's glance · spoken teasing · woman's own response. Never silently omit an author-requested beat or invent new body canon.</p>
     {narratorRule?<><p><strong>Reference technique:</strong> {narratorRule.origin}</p><div className="beat-list">{narratorRule.methods.map((method,i)=><div key={i} className="beat-item"><p>{method}</p></div>)}</div><p><strong>Example vocabulary (not established body shapes):</strong> {narratorRule.examplePhrases.join(' · ')}</p><p className="muted">{narratorRule.status.replace(/_/g,' ')}</p></>:<p className="muted">{writingStyleError||'Writer style notes loading…'}</p>}
    </details>
-   <div className="split"><div><span className="eyebrow">Working story lane</span><h2>{titleCase(active)}</h2><p>{active==='ankita'?'Ankita’s Scenes 01–08 (including Scene 07’s highlighted author revisions and Scene 08’s five-beat draft) are in Episode Reading. Scene 03’s former twenty-minute presentation is parked for future; Scene 04’s seven-point Rohit outline remains here as continuity reference. Scene 08’s locked outline and the separate 2 January Rohit plan remain in Planning; Scene 07’s plot remains as continuity reference. Earlier competing home and parcel follow-up outlines were removed; Scene 08 Rinku setup is the final Ankita Jan 1 entry.':activePlan?.plan?.title||'No separate Episode 03 working draft is available here yet.'}</p></div></div>
-   {active==='taniya'&&<p className="source-note">Episode 03 now has a Taniya-only twelve-beat proposal in this Planning tab. Soniya enters only when Taniya physically reaches home in the last beat; this remains an author-review draft, not approved prose.</p>}
+   <div className="split"><div><span className="eyebrow">Working story lane</span><h2>{titleCase(active)}</h2><p>{active==='ankita'?'Ankita’s Scenes 01–08 have written text in Episode Reading; their duplicate scene plots are removed from Planning. The separate parked personal-presentation seed and 2 January Rohit plan are preserved unchanged. Some written text is still pending prose-level approval.':activePlan?.plan?.title||'No separate Episode 03 working draft is available here yet.'}</p></div></div>
+   {active==='taniya'&&<p className="source-note">Episode 03 Taniya–Soniya plot is author-approved across twelve beats in Planning; its prose is not yet written. Soniya enters only after the full office day and society encounters.</p>}
    {active==='shivani'&&<p className="source-note">Shivani's Episode 03 group labels follow “Twins (people having same image)” — a visual/story shorthand, never an automatic biological relationship. College four: Harsh, Laksh, Nandini, Ritika. Proposed society duo: Ayaan, Armaan. Karan and Aman are occupied by Ankita's 5:20–5:50 PM scene. Separate Office/Society Chotu roles and junior teachers remain unchanged. The staffroom master reference above remains the source for writing; no new home-return plot prose is approved.</p>}
    {activePlan?.plan&&<><p><strong>Original status:</strong> {str(activePlan.plan.status)||'REVIEW'}</p>{active==='meenakshi'&&<p><strong>Older separate outline — 2 January 2026.</strong> This is not part of 1 January's Scene 01–03 sequence. Senior Review M08 stays on Jan 2.</p>}
     {active==='shreya'&&<p><strong>Date:</strong> Thursday, 1 January 2026 (author-corrected). SR10 and Strong-Chai are published and final. SR11 is a reader draft awaiting approval; SR13 is an approved short plot awaiting prose. SR12 is in Episode 04 Future Plot, unscheduled. The superseded 3 January file is archived as historical planning only.</p>}
