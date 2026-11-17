@@ -3,7 +3,7 @@
   "universe": "sw",
   "anchorDate": "2026-01-01",
   "clockOrigin": "00:01",
-  "sourcePolicy": "Source-scene order retained; cross-lead events sorted by clock, not author approval. No prose rewritten. Taniya/Soniya source duplicates indexed once. EP03 Ankita scene-01–08 plotting entries indexed separately from approved EP02 source scenes. Jan1 Ankita plot ends at 18:25, no later discarded home or elders scenes.",
+  "sourcePolicy": "Jan 1 cross-lead clock reflects latest author-approved EP01/EP02 closure, EP03 written-scene locations and Taniya/Shivani source-plotted events. Episode 03 written text remains in Reader with individual approval statuses. Future Shivani plan is INDEXED by story time here without changing future plot files; conditional times are not canon facts.",
   "events": [
     {
       "id": "e02-ankita-A02-SCENE-1",
@@ -29,7 +29,7 @@
       "scene": "A02-SCENE-1",
       "kind": "source-scene",
       "state": "approved-prose",
-      "status": "Approved prose",
+      "status": "Author-approved final · Episode 02 frozen",
       "source": "continuity-verbatim/episode-02/ankita.json",
       "reader": {
         "type": "sw-episode02",
@@ -63,7 +63,7 @@
       "scene": "A02-SCENE-2",
       "kind": "source-scene",
       "state": "approved-prose",
-      "status": "Approved prose",
+      "status": "Author-approved final · Episode 02 frozen",
       "source": "continuity-verbatim/episode-02/ankita.json",
       "reader": {
         "type": "sw-episode02",
@@ -100,7 +100,7 @@
       "scene": "A03-SCENE-3",
       "kind": "source-scene",
       "state": "approved-prose",
-      "status": "Approved prose",
+      "status": "Author-approved final · Episode 02 frozen",
       "source": "continuity-verbatim/episode-02/ankita.json",
       "reader": {
         "type": "sw-episode02",
@@ -135,7 +135,7 @@
       "scene": "M01",
       "kind": "source-scene",
       "state": "approved-prose",
-      "status": "Approved prose",
+      "status": "Author-approved final · Episode 02 frozen",
       "source": "continuity-verbatim/episode-02/meenakshi.json",
       "reader": {
         "type": "sw-episode02",
@@ -170,7 +170,7 @@
       "scene": "A02",
       "kind": "source-scene",
       "state": "approved-prose",
-      "status": "Approved prose",
+      "status": "Author-approved final · Episode 02 frozen",
       "source": "continuity-verbatim/episode-02/shivani.json",
       "reader": {
         "type": "sw-episode02",
@@ -206,7 +206,7 @@
       "scene": "SR01",
       "kind": "source-scene",
       "state": "approved-prose",
-      "status": "Author-approved prose",
+      "status": "Author-approved final · Episode 02 frozen",
       "source": "continuity-verbatim/episode-02/shreya.json",
       "reader": {
         "type": "sw-episode02",
@@ -241,8 +241,8 @@
       "episode": "02",
       "scene": "TS01",
       "kind": "source-scene",
-      "state": "source-review",
-      "status": "Published source · approval review",
+      "state": "approved-prose",
+      "status": "Author-approved final · Episode 02 frozen",
       "source": "continuity-verbatim/episode-02/taniya.json",
       "reader": {
         "type": "sw-episode02",
@@ -280,7 +280,7 @@
       "scene": "A04-SCENE-4",
       "kind": "source-scene",
       "state": "approved-prose",
-      "status": "Approved prose",
+      "status": "Author-approved final · Episode 02 frozen",
       "source": "continuity-verbatim/episode-02/ankita.json",
       "reader": {
         "type": "sw-episode02",
@@ -313,7 +313,7 @@
       "scene": "A03",
       "kind": "source-scene",
       "state": "approved-prose",
-      "status": "Approved prose",
+      "status": "Author-approved final · Episode 02 frozen",
       "source": "continuity-verbatim/episode-02/shivani.json",
       "reader": {
         "type": "sw-episode02",
@@ -351,8 +351,8 @@
       "episode": "02",
       "scene": "A05-SCENE-5",
       "kind": "source-scene",
-      "state": "source-review",
-      "status": "Published source · approval review",
+      "state": "approved-prose",
+      "status": "Author-approved final · Episode 02 frozen",
       "source": "continuity-verbatim/episode-02/ankita.json",
       "reader": {
         "type": "sw-episode02",
@@ -386,8 +386,8 @@
       "episode": "02",
       "scene": "TS02",
       "kind": "source-scene",
-      "state": "source-review",
-      "status": "Published source · approval review",
+      "state": "approved-prose",
+      "status": "Author-approved final · Episode 02 frozen",
       "source": "continuity-verbatim/episode-02/taniya.json",
       "reader": {
         "type": "sw-episode02",
@@ -426,7 +426,7 @@
       "scene": "SR02A",
       "kind": "source-scene",
       "state": "approved-prose",
-      "status": "Author-approved prose",
+      "status": "Author-approved final · Episode 02 frozen",
       "source": "continuity-verbatim/episode-02/shreya.json",
       "reader": {
         "type": "sw-episode02",
@@ -462,7 +462,7 @@
       "scene": "A06-SCENE-6",
       "kind": "source-scene",
       "state": "approved-prose",
-      "status": "Approved prose",
+      "status": "Author-approved final · Episode 02 frozen",
       "source": "continuity-verbatim/episode-02/ankita.json",
       "reader": {
         "type": "sw-episode02",
@@ -496,7 +496,7 @@
       "scene": "M02",
       "kind": "source-scene",
       "state": "approved-prose",
-      "status": "Approved prose",
+      "status": "Author-approved final · Episode 02 frozen",
       "source": "continuity-verbatim/episode-02/meenakshi.json",
       "reader": {
         "type": "sw-episode02",
@@ -531,7 +531,7 @@
       "scene": "A07-SCENE-7",
       "kind": "source-scene",
       "state": "approved-prose",
-      "status": "Approved prose",
+      "status": "Author-approved final · Episode 02 frozen",
       "source": "continuity-verbatim/episode-02/ankita.json",
       "reader": {
         "type": "sw-episode02",
@@ -564,8 +564,8 @@
       "episode": "02",
       "scene": "TS03",
       "kind": "source-scene",
-      "state": "source-review",
-      "status": "Published source · approval review",
+      "state": "approved-prose",
+      "status": "Author-approved final · Episode 02 frozen",
       "source": "continuity-verbatim/episode-02/taniya.json",
       "reader": {
         "type": "sw-episode02",
@@ -600,7 +600,7 @@
       "scene": "SR02B",
       "kind": "source-scene",
       "state": "approved-prose",
-      "status": "Author-approved prose",
+      "status": "Author-approved final · Episode 02 frozen",
       "source": "continuity-verbatim/episode-02/shreya.json",
       "reader": {
         "type": "sw-episode02",
@@ -636,7 +636,7 @@
       "scene": "M03",
       "kind": "source-scene",
       "state": "approved-prose",
-      "status": "Approved prose",
+      "status": "Author-approved final · Episode 02 frozen",
       "source": "continuity-verbatim/episode-02/meenakshi.json",
       "reader": {
         "type": "sw-episode02",
@@ -668,8 +668,8 @@
       "episode": "02",
       "scene": "A04",
       "kind": "source-scene",
-      "state": "source-review",
-      "status": "Published source · approval review",
+      "state": "approved-prose",
+      "status": "Author-approved final · Episode 02 frozen",
       "source": "continuity-verbatim/episode-02/shivani.json",
       "reader": {
         "type": "sw-episode02",
@@ -697,8 +697,8 @@
       "episode": "02",
       "scene": "SR03",
       "kind": "planned",
-      "state": "planned",
-      "status": "Author-approved plot · full prose not published",
+      "state": "approved-plot",
+      "status": "Author-approved final · Episode 02 frozen",
       "source": "episode-02-shreya-plan.json",
       "reader": {
         "type": "sw-plan",
@@ -740,7 +740,7 @@
       "scene": "SR05",
       "kind": "source-scene",
       "state": "approved-prose",
-      "status": "Author-approved prose",
+      "status": "Author-approved final · Episode 02 frozen",
       "source": "continuity-verbatim/episode-02/shreya.json",
       "reader": {
         "type": "sw-episode02",
@@ -775,7 +775,7 @@
       "scene": "M04",
       "kind": "source-scene",
       "state": "approved-prose",
-      "status": "Approved prose",
+      "status": "Author-approved final · Episode 02 frozen",
       "source": "continuity-verbatim/episode-02/meenakshi.json",
       "reader": {
         "type": "sw-episode02",
@@ -810,7 +810,7 @@
       "scene": "SR04",
       "kind": "source-scene",
       "state": "approved-prose",
-      "status": "Author-approved prose",
+      "status": "Author-approved final · Episode 02 frozen",
       "source": "continuity-verbatim/episode-02/shreya.json",
       "reader": {
         "type": "sw-episode02",
@@ -844,8 +844,8 @@
       "episode": "02",
       "scene": "A05",
       "kind": "source-scene",
-      "state": "source-review",
-      "status": "Published source · approval review",
+      "state": "approved-prose",
+      "status": "Author-approved final · Episode 02 frozen",
       "source": "continuity-verbatim/episode-02/shivani.json",
       "reader": {
         "type": "sw-episode02",
@@ -877,8 +877,8 @@
       "episode": "02",
       "scene": "A06",
       "kind": "source-scene",
-      "state": "source-review",
-      "status": "Published source · approval review",
+      "state": "approved-prose",
+      "status": "Author-approved final · Episode 02 frozen",
       "source": "continuity-verbatim/episode-02/shivani.json",
       "reader": {
         "type": "sw-episode02",
@@ -916,7 +916,7 @@
       "scene": "SR06",
       "kind": "source-scene",
       "state": "approved-prose",
-      "status": "Author-approved prose",
+      "status": "Author-approved final · Episode 02 frozen",
       "source": "continuity-verbatim/episode-02/shreya.json",
       "reader": {
         "type": "sw-episode02",
@@ -949,8 +949,8 @@
       "episode": "02",
       "scene": "TS04-PART1",
       "kind": "source-scene",
-      "state": "source-review",
-      "status": "Published source · approval review",
+      "state": "approved-prose",
+      "status": "Author-approved final · Episode 02 frozen",
       "source": "continuity-verbatim/episode-02/taniya.json",
       "reader": {
         "type": "sw-episode02",
@@ -982,8 +982,8 @@
       "episode": "02",
       "scene": "TS04-PART2",
       "kind": "source-scene",
-      "state": "source-review",
-      "status": "Published source · approval review",
+      "state": "approved-prose",
+      "status": "Author-approved final · Episode 02 frozen",
       "source": "continuity-verbatim/episode-02/taniya.json",
       "reader": {
         "type": "sw-episode02",
@@ -1018,8 +1018,8 @@
       "episode": "02",
       "scene": "TS04-PART3",
       "kind": "source-scene",
-      "state": "source-review",
-      "status": "Published source · approval review",
+      "state": "approved-prose",
+      "status": "Author-approved final · Episode 02 frozen",
       "source": "continuity-verbatim/episode-02/taniya.json",
       "reader": {
         "type": "sw-episode02",
@@ -1053,7 +1053,7 @@
       "scene": "M05",
       "kind": "source-scene",
       "state": "approved-prose",
-      "status": "Approved prose",
+      "status": "Author-approved final · Episode 02 frozen",
       "source": "continuity-verbatim/episode-02/meenakshi.json",
       "reader": {
         "type": "sw-episode02",
@@ -1083,8 +1083,8 @@
       "episode": "02",
       "scene": "B01",
       "kind": "source-scene",
-      "state": "source-review",
-      "status": "Published source · approval review",
+      "state": "approved-prose",
+      "status": "Author-approved final · Episode 02 frozen",
       "source": "continuity-verbatim/episode-02/shivani.json",
       "reader": {
         "type": "sw-episode02",
@@ -1118,8 +1118,8 @@
       "episode": "02",
       "scene": "TS05-PART1",
       "kind": "source-scene",
-      "state": "source-review",
-      "status": "Published source · approval review",
+      "state": "approved-prose",
+      "status": "Author-approved final · Episode 02 frozen",
       "source": "continuity-verbatim/episode-02/taniya.json",
       "reader": {
         "type": "sw-episode02",
@@ -1156,7 +1156,7 @@
       "scene": "A08-SCENE-8",
       "kind": "source-scene",
       "state": "approved-prose",
-      "status": "Approved prose",
+      "status": "Author-approved final · Episode 02 frozen",
       "source": "continuity-verbatim/episode-02/ankita.json",
       "reader": {
         "type": "sw-episode02",
@@ -1191,8 +1191,8 @@
       "episode": "02",
       "scene": "TS05-PART2",
       "kind": "source-scene",
-      "state": "source-review",
-      "status": "Published source · approval review",
+      "state": "approved-prose",
+      "status": "Author-approved final · Episode 02 frozen",
       "source": "continuity-verbatim/episode-02/taniya.json",
       "reader": {
         "type": "sw-episode02",
@@ -1226,8 +1226,8 @@
       "episode": "02",
       "scene": "B02",
       "kind": "source-scene",
-      "state": "source-review",
-      "status": "Published source · approval review",
+      "state": "approved-prose",
+      "status": "Author-approved final · Episode 02 frozen",
       "source": "continuity-verbatim/episode-02/shivani.json",
       "reader": {
         "type": "sw-episode02",
@@ -1266,7 +1266,7 @@
       "scene": "SR07",
       "kind": "source-scene",
       "state": "approved-prose",
-      "status": "Author-approved prose",
+      "status": "Author-approved final · Episode 02 frozen",
       "source": "continuity-verbatim/episode-02/shreya.json",
       "reader": {
         "type": "sw-episode02",
@@ -1301,8 +1301,8 @@
       "episode": "02",
       "scene": "TS05-PART3",
       "kind": "source-scene",
-      "state": "source-review",
-      "status": "Published source · approval review",
+      "state": "approved-prose",
+      "status": "Author-approved final · Episode 02 frozen",
       "source": "continuity-verbatim/episode-02/taniya.json",
       "reader": {
         "type": "sw-episode02",
@@ -1340,8 +1340,8 @@
       "episode": "02",
       "scene": "M06",
       "kind": "source-scene",
-      "state": "source-review",
-      "status": "Published source · approval review",
+      "state": "approved-prose",
+      "status": "Author-approved final · Episode 02 frozen",
       "source": "continuity-verbatim/episode-02/meenakshi.json",
       "reader": {
         "type": "sw-episode02",
@@ -1376,8 +1376,8 @@
       "episode": "02",
       "scene": "TS06",
       "kind": "source-scene",
-      "state": "source-review",
-      "status": "Published source · approval review",
+      "state": "approved-prose",
+      "status": "Author-approved final · Episode 02 frozen",
       "source": "continuity-verbatim/episode-02/taniya.json",
       "reader": {
         "type": "sw-episode02",
@@ -1410,8 +1410,8 @@
       "episode": "02",
       "scene": "TS07A",
       "kind": "source-scene",
-      "state": "source-review",
-      "status": "Published source · approval review",
+      "state": "approved-prose",
+      "status": "Author-approved final · Episode 02 frozen",
       "source": "continuity-verbatim/episode-02/taniya.json",
       "reader": {
         "type": "sw-episode02",
@@ -1444,7 +1444,7 @@
       "scene": "SR08",
       "kind": "source-scene",
       "state": "approved-prose",
-      "status": "Author-approved prose",
+      "status": "Author-approved final · Episode 02 frozen",
       "source": "continuity-verbatim/episode-02/shreya.json",
       "reader": {
         "type": "sw-episode02",
@@ -1477,8 +1477,8 @@
       "episode": "02",
       "scene": "TS07B",
       "kind": "source-scene",
-      "state": "source-review",
-      "status": "Published source · approval review",
+      "state": "approved-prose",
+      "status": "Author-approved final · Episode 02 frozen",
       "source": "continuity-verbatim/episode-02/taniya.json",
       "reader": {
         "type": "sw-episode02",
@@ -1512,8 +1512,8 @@
       "episode": "02",
       "scene": "TS07C",
       "kind": "source-scene",
-      "state": "source-review",
-      "status": "Published source · approval review",
+      "state": "approved-prose",
+      "status": "Author-approved final · Episode 02 frozen",
       "source": "continuity-verbatim/episode-02/taniya.json",
       "reader": {
         "type": "sw-episode02",
@@ -1547,7 +1547,7 @@
       "scene": "SR09",
       "kind": "source-scene",
       "state": "approved-prose",
-      "status": "Author-approved prose",
+      "status": "Author-approved final · Episode 02 frozen",
       "source": "continuity-verbatim/episode-02/shreya.json",
       "reader": {
         "type": "sw-episode02",
@@ -1580,8 +1580,8 @@
       "episode": "02",
       "scene": "TS08",
       "kind": "source-scene",
-      "state": "source-review",
-      "status": "Published source · approval review",
+      "state": "approved-prose",
+      "status": "Author-approved final · Episode 02 frozen",
       "source": "continuity-verbatim/episode-02/taniya.json",
       "reader": {
         "type": "sw-episode02",
@@ -1615,8 +1615,8 @@
       "episode": "02",
       "scene": "TS09",
       "kind": "source-scene",
-      "state": "source-review",
-      "status": "Published source · approval review",
+      "state": "approved-prose",
+      "status": "Author-approved final · Episode 02 frozen",
       "source": "continuity-verbatim/episode-02/taniya.json",
       "reader": {
         "type": "sw-episode02",
@@ -1650,7 +1650,7 @@
       "scene": "P01",
       "kind": "source-scene",
       "state": "approved-prose",
-      "status": "Approved prose",
+      "status": "Author-approved final · Episode 02 frozen",
       "source": "continuity-verbatim/episode-02/ankita.json",
       "reader": {
         "type": "sw-episode02",
@@ -1684,8 +1684,8 @@
       "episode": "02",
       "scene": "TS10-ENTRY",
       "kind": "source-scene",
-      "state": "source-review",
-      "status": "Published source · approval review",
+      "state": "approved-prose",
+      "status": "Author-approved final · Episode 02 frozen",
       "source": "continuity-verbatim/episode-02/taniya.json",
       "reader": {
         "type": "sw-episode02",
@@ -1722,8 +1722,8 @@
       "episode": "02",
       "scene": "TS10-MAIN",
       "kind": "source-scene",
-      "state": "source-review",
-      "status": "Published source · approval review",
+      "state": "approved-prose",
+      "status": "Author-approved final · Episode 02 frozen",
       "source": "continuity-verbatim/episode-02/taniya.json",
       "reader": {
         "type": "sw-episode02",
@@ -1758,7 +1758,7 @@
       "scene": "TS11",
       "kind": "source-scene",
       "state": "approved-prose",
-      "status": "Approved prose",
+      "status": "Author-approved final · Episode 02 frozen",
       "source": "continuity-verbatim/episode-02/taniya.json",
       "reader": {
         "type": "sw-episode02",
@@ -1792,8 +1792,8 @@
       "episode": "02",
       "scene": "P02",
       "kind": "source-scene",
-      "state": "source-review",
-      "status": "Published source · approval review",
+      "state": "approved-prose",
+      "status": "Author-approved final · Episode 02 frozen",
       "source": "continuity-verbatim/episode-02/ankita.json",
       "reader": {
         "type": "sw-episode02",
@@ -1826,8 +1826,8 @@
       "episode": "02",
       "scene": "M07",
       "kind": "source-scene",
-      "state": "source-review",
-      "status": "Published source · approval review",
+      "state": "approved-prose",
+      "status": "Author-approved final · Episode 02 frozen",
       "source": "continuity-verbatim/episode-02/meenakshi.json",
       "reader": {
         "type": "sw-episode02",
@@ -1859,8 +1859,8 @@
       "episode": "02",
       "scene": "P03",
       "kind": "source-scene",
-      "state": "source-review",
-      "status": "Published source · approval review",
+      "state": "approved-prose",
+      "status": "Author-approved final · Episode 02 frozen",
       "source": "continuity-verbatim/episode-02/ankita.json",
       "reader": {
         "type": "sw-episode02",
@@ -1895,7 +1895,7 @@
       "scene": "B03",
       "kind": "source-scene",
       "state": "approved-prose",
-      "status": "Approved prose",
+      "status": "Author-approved final · Episode 02 frozen",
       "source": "continuity-verbatim/episode-02/shivani.json",
       "reader": {
         "type": "sw-episode02",
@@ -1927,8 +1927,8 @@
       "episode": "02",
       "scene": "P04",
       "kind": "source-scene",
-      "state": "source-review",
-      "status": "Published source · approval review",
+      "state": "approved-prose",
+      "status": "Author-approved final · Episode 02 frozen",
       "source": "continuity-verbatim/episode-02/ankita.json",
       "reader": {
         "type": "sw-episode02",
@@ -1959,8 +1959,8 @@
       "episode": "02",
       "scene": "P05",
       "kind": "source-scene",
-      "state": "source-review",
-      "status": "Published source · approval review",
+      "state": "approved-prose",
+      "status": "Author-approved final · Episode 02 frozen",
       "source": "continuity-verbatim/episode-02/ankita.json",
       "reader": {
         "type": "sw-episode02",
@@ -1991,8 +1991,8 @@
       "episode": "02",
       "scene": "P06",
       "kind": "source-scene",
-      "state": "source-review",
-      "status": "Published source · approval review",
+      "state": "approved-prose",
+      "status": "Author-approved final · Episode 02 frozen",
       "source": "continuity-verbatim/episode-02/ankita.json",
       "reader": {
         "type": "sw-episode02",
@@ -2025,8 +2025,8 @@
       "episode": "02",
       "scene": "P07",
       "kind": "source-scene",
-      "state": "source-review",
-      "status": "Published source · approval review",
+      "state": "approved-prose",
+      "status": "Author-approved final · Episode 02 frozen",
       "source": "continuity-verbatim/episode-02/ankita.json",
       "reader": {
         "type": "sw-episode02",
@@ -2053,8 +2053,8 @@
       "episode": "02",
       "scene": "M09",
       "kind": "planned",
-      "state": "no-prose",
-      "status": "Working plot · full prose not published",
+      "state": "approved-plot",
+      "status": "Author-approved final · Episode 02 frozen",
       "source": "episode-02-meenakshi-plan.json",
       "reader": {
         "type": "sw-plan",
@@ -2094,8 +2094,8 @@
       "episode": "02",
       "scene": "P08",
       "kind": "source-scene",
-      "state": "source-review",
-      "status": "Published source · approval review",
+      "state": "approved-prose",
+      "status": "Author-approved final · Episode 02 frozen",
       "source": "continuity-verbatim/episode-02/ankita.json",
       "reader": {
         "type": "sw-episode02",
@@ -2128,8 +2128,8 @@
       "episode": "02",
       "scene": "M10",
       "kind": "source-scene",
-      "state": "source-review",
-      "status": "Published source · approval review",
+      "state": "approved-prose",
+      "status": "Author-approved final · Episode 02 frozen",
       "source": "continuity-verbatim/episode-02/meenakshi.json",
       "reader": {
         "type": "sw-episode02",
@@ -2163,8 +2163,8 @@
       "episode": "02",
       "scene": "M11",
       "kind": "source-scene",
-      "state": "source-review",
-      "status": "Published source · approval review",
+      "state": "approved-prose",
+      "status": "Author-approved final · Episode 02 frozen",
       "source": "continuity-verbatim/episode-02/meenakshi.json",
       "reader": {
         "type": "sw-episode02",
@@ -2196,8 +2196,8 @@
       "episode": "02",
       "scene": "C01",
       "kind": "source-scene",
-      "state": "source-review",
-      "status": "Published source · approval review",
+      "state": "approved-prose",
+      "status": "Author-approved final · Episode 02 frozen",
       "source": "continuity-verbatim/episode-02/shivani.json",
       "reader": {
         "type": "sw-episode02",
@@ -2231,8 +2231,8 @@
       "episode": "02",
       "scene": "C02",
       "kind": "source-scene",
-      "state": "source-review",
-      "status": "Published source · approval review",
+      "state": "approved-prose",
+      "status": "Author-approved final · Episode 02 frozen",
       "source": "continuity-verbatim/episode-02/shivani.json",
       "reader": {
         "type": "sw-episode02",
@@ -2266,8 +2266,8 @@
       "episode": "02",
       "scene": "C03",
       "kind": "source-scene",
-      "state": "source-review",
-      "status": "Published source · approval review",
+      "state": "approved-prose",
+      "status": "Author-approved final · Episode 02 frozen",
       "source": "continuity-verbatim/episode-02/shivani.json",
       "reader": {
         "type": "sw-episode02",
@@ -2332,8 +2332,8 @@
       "episode": "02",
       "scene": "C04",
       "kind": "source-scene",
-      "state": "source-review",
-      "status": "Published source · approval review",
+      "state": "approved-prose",
+      "status": "Author-approved final · Episode 02 frozen",
       "source": "continuity-verbatim/episode-02/shivani.json",
       "reader": {
         "type": "sw-episode02",
@@ -2363,8 +2363,8 @@
       "episode": "02",
       "scene": "M12",
       "kind": "source-scene",
-      "state": "source-review",
-      "status": "Published · author-directed M12 ending synchronized",
+      "state": "approved-prose",
+      "status": "Author-approved final · Episode 02 frozen",
       "source": "continuity-verbatim/episode-02/meenakshi.json",
       "reader": {
         "type": "sw-episode02",
@@ -2397,8 +2397,8 @@
       "episode": "02",
       "scene": "C05",
       "kind": "source-scene",
-      "state": "source-review",
-      "status": "Published source · approval review",
+      "state": "approved-prose",
+      "status": "Author-approved final · Episode 02 frozen",
       "source": "continuity-verbatim/episode-02/shivani.json",
       "reader": {
         "type": "sw-episode02",
@@ -2465,8 +2465,8 @@
       "episode": "02",
       "scene": "D01",
       "kind": "source-scene",
-      "state": "source-review",
-      "status": "Published source · approval review",
+      "state": "approved-prose",
+      "status": "Author-approved final · Episode 02 frozen",
       "source": "continuity-verbatim/episode-02/shivani.json",
       "reader": {
         "type": "sw-episode02",
@@ -2495,10 +2495,10 @@
       "mentions": [],
       "episode": "03",
       "scene": "03",
-      "kind": "planned",
-      "state": "review",
-      "status": "Beats 1–3 saved in reader · 20-minute presentation parked for future",
-      "source": "episode-03-ankita-scene-03.json",
+      "kind": "source-scene",
+      "state": "source-review",
+      "status": "BEATS_01_02_03_SAVED_SCENE_UNDER_REVIEW",
+      "source": "episode-03-reader.json",
       "reader": {
         "type": "sw-episode03",
         "character": "ankita",
@@ -2508,7 +2508,7 @@
         "Bhalla A09 2-Jan first-introduction wording still needs continuity reconciliation",
         "Aishwarya cliff 15:00–15:10 follows Beauty Test directly; removed 15:00–15:20 personal presentation is not part of Jan1"
       ],
-      "detail": ""
+      "detail": "Beats 1–3 are written and visible in Episode Reading; scene-level prose review persists. A separate proposed personal presentation remains parked for future."
     },
     {
       "id": "e03-meenakshi-01",
@@ -3245,19 +3245,19 @@
       "mentions": [],
       "episode": "03",
       "scene": "SR10",
-      "kind": "planned",
-      "state": "planned",
-      "status": "User revised · prose pending",
-      "source": "episode-03-shreya-jan01-proposed-timeline.json",
+      "kind": "source-scene",
+      "state": "approved-prose",
+      "status": "AUTHOR_APPROVED_FINAL_PROSE_PUBLISHED_2026_11_17",
+      "source": "episode-03-reader.json",
       "reader": {
-        "type": "sw-plan",
+        "type": "sw-episode03",
         "character": "shreya",
-        "scene": "SR10"
+        "scene": "10"
       },
       "flags": [
         "Working plot, not published prose."
       ],
-      "detail": "Shreya arrives during Poonam's close-contact training test. Poonam is lying on a mat while ACP Verma is positioned above her; they separate immediately when Shreya enters. The posture and sudden separation strike Shreya as awkward. Verma and Poonam explain that the test is part of the Vivek-linked women's training program. Verma says Shreya will be tested too; she teasingly asks whether he himself will take her test, and he replies yes. No additional physical act is established."
+      "detail": "Shreya arrives during Poonam's close-contact training test. Poonam is lying on a mat while ACP Verma is positioned above her; they separate immediately when Shreya enters. The posture and sudden separation strike Shreya as awkward. Verma and Poonam explain that the test is part of the Vivek-linked women's training program. Verma says Shreya will be tested too; she teasingly asks whether he himself will take her test, and he replies yes. No additional physical act is established. Written scene is located in the unified Episode 03 Reader; original detailed author/prose approval state is preserved."
     },
     {
       "id": "e03-shreya-S03-01",
@@ -3277,19 +3277,19 @@
       "mentions": [],
       "episode": "03",
       "scene": "S03-01",
-      "kind": "planned",
-      "state": "planned",
-      "status": "Approved plot · unchanged",
-      "source": "episode-03-shreya-jan01-proposed-timeline.json",
+      "kind": "source-scene",
+      "state": "approved-prose",
+      "status": "AUTHOR_APPROVED_FINAL_PROSE_PUBLISHED_2026_11_17",
+      "source": "episode-03-reader.json",
       "reader": {
-        "type": "sw-plan",
+        "type": "sw-episode03",
         "character": "shreya",
         "scene": "S03-01"
       },
       "flags": [
         "Working plot, not published prose."
       ],
-      "detail": "While she reviews a routine timetable by the counter, he hands her the correct unlabelled cup before she even orders. She playfully tests whether he remembers everyone as attentively. He replies with a sharper-than-expected flirtatious line; her expression changes for a beat. A second small tangible hook: he notices she forgot the receipt containing the counter's operating-time stamp, returns it, and she realizes he's unusually observant. No forced or staged touching; proximity is natural at the counter."
+      "detail": "While she reviews a routine timetable by the counter, he hands her the correct unlabelled cup before she even orders. She playfully tests whether he remembers everyone as attentively. He replies with a sharper-than-expected flirtatious line; her expression changes for a beat. A second small tangible hook: he notices she forgot the receipt containing the counter's operating-time stamp, returns it, and she realizes he's unusually observant. No forced or staged touching; proximity is natural at the counter. Written scene is located in the unified Episode 03 Reader; original detailed author/prose approval state is preserved."
     },
     {
       "id": "e03-shreya-SR11",
@@ -3308,19 +3308,19 @@
       "mentions": [],
       "episode": "03",
       "scene": "SR11",
-      "kind": "planned",
-      "state": "planned",
-      "status": "Logic proposed · review pending",
-      "source": "episode-03-shreya-jan01-proposed-timeline.json",
+      "kind": "source-scene",
+      "state": "source-review",
+      "status": "ASSISTANT_PROFESSIONAL_DRAFT_WITH_USER_SUPPLIED_DCP_G01_UNCHANGED_PENDING_APPROVAL",
+      "source": "episode-03-reader.json",
       "reader": {
-        "type": "sw-plan",
+        "type": "sw-episode03",
         "character": "shreya",
         "scene": "SR11"
       },
       "flags": [
         "Working plot, not published prose."
       ],
-      "detail": "During the official documentation review, Rathod challenges one of Shreya's case decisions. She calmly defends it with her evidence and independent reasoning. The exchange is professional and ends with ordinary acknowledgement."
+      "detail": "During the official documentation review, Rathod challenges one of Shreya's case decisions. She calmly defends it with her evidence and independent reasoning. The exchange is professional and ends with ordinary acknowledgement. Written scene is located in the unified Episode 03 Reader; original detailed author/prose approval state is preserved."
     },
     {
       "id": "e03-shreya-SR13",
@@ -3736,6 +3736,706 @@
           "internal": "Shreya ne pen cap band ki aur file uske saamne rakh di. Chintu ki seedhi baat par uski smile aa gayi. Woh gate se andar badh gayi."
         }
       ]
+    },
+    {
+      "date": "2026-01-01",
+      "universe": "sw",
+      "mentions": [],
+      "flags": [],
+      "id": "e03-taniya-T03-01",
+      "sort": "10:50",
+      "start": "10:50",
+      "end": null,
+      "timeLabel": "10:50–11:05",
+      "title": "The Wedding Girl — Four-Person Circle",
+      "subtitle": "No bodily contact. Familiar desk proximity only.",
+      "lead": "Taniya",
+      "characters": [
+        "Taniya",
+        "Raghav (male duo)",
+        "Chirag (male duo)",
+        "Neha (female duo)",
+        "Andrea (female duo)",
+        "Punit (brief)"
+      ],
+      "episode": "03",
+      "scene": "T03-01",
+      "kind": "planned",
+      "state": "approved-plot",
+      "status": "AUTHOR APPROVED PLOT · PROSE NOT WRITTEN",
+      "source": "episode-03-taniya-solo-proposed-timeline.json",
+      "reader": {
+        "type": "sw-planning",
+        "character": "taniya",
+        "scene": "T03-01"
+      },
+      "detail": "New Year's Day December close keeps the team working. Raghav and Chirag have a long familiar two-man article-assistant working partnership; Neha and Andrea are equally familiar and teasing coworkers, not biological twins. They work together around Taniya; her engagement to Aditya is already common knowledge. Propose short shared work-history references, not an elaborate flashback.",
+      "beats": [
+        {
+          "id": "T03-01-physical",
+          "title": "Contact / physical action",
+          "body": "No bodily contact. Familiar desk proximity only."
+        },
+        {
+          "id": "T03-01-effect",
+          "title": "After-effect",
+          "body": "Office group is already familiar. Raghav has latent interest but does not confess; the four colleagues' joint rhythm carries into next beat."
+        }
+      ]
+    },
+    {
+      "date": "2026-01-01",
+      "universe": "sw",
+      "mentions": [],
+      "flags": [],
+      "id": "e03-taniya-T03-02",
+      "sort": "11:05",
+      "start": "11:05",
+      "end": null,
+      "timeLabel": "11:05–11:45",
+      "title": "The Filing Drawer — A Close Call",
+      "subtitle": "Raghav hand briefly supports Taniya at CLOTHED WAIST; Taniya reflexively holds Raghav's shirt at his torso. Both immediately release. No buttock touch, kiss or lasting embrace.",
+      "lead": "Taniya",
+      "characters": [
+        "Taniya",
+        "Raghav",
+        "Chirag",
+        "Neha",
+        "Andrea"
+      ],
+      "episode": "03",
+      "scene": "T03-02",
+      "kind": "planned",
+      "state": "approved-plot",
+      "status": "AUTHOR APPROVED PLOT · PROSE NOT WRITTEN",
+      "source": "episode-03-taniya-solo-proposed-timeline.json",
+      "reader": {
+        "type": "sw-planning",
+        "character": "taniya",
+        "scene": "T03-02"
+      },
+      "detail": "While retrieving an original bank reference, a loaded filing drawer shifts. Raghav stops the drawer and instinctively steadies Taniya while she catches his shirt; both release when the drawer is stable. The three teammates are close enough to hear commotion and tease afterward. No practice groom, staged romantic embrace or kiss.",
+      "beats": [
+        {
+          "id": "T03-02-physical",
+          "title": "Contact / physical action",
+          "body": "Raghav hand briefly supports Taniya at CLOTHED WAIST; Taniya reflexively holds Raghav's shirt at his torso. Both immediately release. No buttock touch, kiss or lasting embrace."
+        },
+        {
+          "id": "T03-02-effect",
+          "title": "After-effect",
+          "body": "Taniya is briefly startled, catches breath, recognizes unexpected closeness and returns to composed humour. Raghav pauses; Chirag only knows what he witnessed. No romantic conclusions."
+        }
+      ]
+    },
+    {
+      "date": "2026-01-01",
+      "universe": "sw",
+      "mentions": [],
+      "flags": [],
+      "id": "e03-taniya-T03-03",
+      "sort": "11:45",
+      "start": "11:45",
+      "end": null,
+      "timeLabel": "11:45–12:25",
+      "title": "Senior Review — The Hidden Uncle Track",
+      "subtitle": "No body touch, no personal proposition and no senior advance.",
+      "lead": "Taniya",
+      "characters": [
+        "Taniya",
+        "Vivek Suri (55, UNCLE)",
+        "Pradeep Khanna (48)",
+        "Mr. Mehra (60, remote)",
+        "Raghav",
+        "Chirag",
+        "Neha",
+        "Andrea"
+      ],
+      "episode": "03",
+      "scene": "T03-03",
+      "kind": "planned",
+      "state": "approved-plot",
+      "status": "AUTHOR APPROVED PLOT · PROSE NOT WRITTEN",
+      "source": "episode-03-taniya-solo-proposed-timeline.json",
+      "reader": {
+        "type": "sw-planning",
+        "character": "taniya",
+        "scene": "T03-03"
+      },
+      "detail": "Taniya defends December-close audit findings. Pradeep queries evidence, Mehra joins remotely, and four staff assist. Vivek Suri chairs review professionally, but reader-only inner narration establishes he finds engaged Taniya sexually attractive and privately imagines consensual intimacy with her before her wedding. She does not know or reciprocate. Vivek Suri is NOT gym trainer Vivek Rao.",
+      "beats": [
+        {
+          "id": "T03-03-physical",
+          "title": "Contact / physical action",
+          "body": "No body touch, no personal proposition and no senior advance."
+        },
+        {
+          "id": "T03-03-effect",
+          "title": "After-effect",
+          "body": "The reader knows Vivek's unacted desire; Taniya perceives normal management review. A valid afternoon review is planned; older-man track stops later today."
+        }
+      ]
+    },
+    {
+      "date": "2026-01-01",
+      "universe": "sw",
+      "mentions": [],
+      "flags": [],
+      "id": "e03-taniya-T03-04",
+      "sort": "12:25",
+      "start": "12:25",
+      "end": null,
+      "timeLabel": "12:25–13:15",
+      "title": "Office Chotu Punit Enters",
+      "subtitle": "No intimate contact; file handovers only. Punit's actual personal encounter is deferred to the next office day.",
+      "lead": "Taniya",
+      "characters": [
+        "Taniya",
+        "Punit (22, CHOTU)",
+        "Raghav",
+        "Chirag",
+        "Neha",
+        "Andrea"
+      ],
+      "episode": "03",
+      "scene": "T03-04",
+      "kind": "planned",
+      "state": "approved-plot",
+      "status": "AUTHOR APPROVED PLOT · PROSE NOT WRITTEN",
+      "source": "episode-03-taniya-solo-proposed-timeline.json",
+      "reader": {
+        "type": "sw-planning",
+        "character": "taniya",
+        "scene": "T03-04"
+      },
+      "detail": "After a short ordinary break, Punit, a known CA trainee, brings archived files and stationery. Neha teases his formal manner, Andrea uses dry office jokes, and Punit surprises them with a witty reply. Taniya gives practical next-day assignments. Old EP02 TS15 Soniya-at-home is not imported as an office scene.",
+      "beats": [
+        {
+          "id": "T03-04-physical",
+          "title": "Contact / physical action",
+          "body": "No intimate contact; file handovers only. Punit's actual personal encounter is deferred to the next office day."
+        },
+        {
+          "id": "T03-04-effect",
+          "title": "After-effect",
+          "body": "Punit's shy admiration remains one-sided/reader-only. 13:15 concludes Phase A, not the episode."
+        }
+      ]
+    },
+    {
+      "date": "2026-01-01",
+      "universe": "sw",
+      "mentions": [],
+      "flags": [],
+      "id": "e03-taniya-T03-05",
+      "sort": "13:15",
+      "start": "13:15",
+      "end": null,
+      "timeLabel": "13:15–14:15",
+      "title": "Lunch & Laughter",
+      "subtitle": "Brief voluntary coworker group-photo closeness; Andrea draws Raghav into a pose. No Taniya intimate contact.",
+      "lead": "Taniya",
+      "characters": [
+        "Taniya",
+        "Raghav",
+        "Chirag",
+        "Neha",
+        "Andrea"
+      ],
+      "episode": "03",
+      "scene": "T03-05",
+      "kind": "planned",
+      "state": "approved-plot",
+      "status": "AUTHOR APPROVED PLOT · PROSE NOT WRITTEN",
+      "source": "episode-03-taniya-solo-proposed-timeline.json",
+      "reader": {
+        "type": "sw-planning",
+        "character": "taniya",
+        "scene": "T03-05"
+      },
+      "detail": "Staggered lunch recalls their past audit deadlines and team get-togethers. Andrea draws Raghav into a casual group photograph, Neha jokes, Chirag delivers dry replies, and Taniya takes the photo. The four cohere as an easy friend group; no one becomes Taniya's partner.",
+      "beats": [
+        {
+          "id": "T03-05-physical",
+          "title": "Contact / physical action",
+          "body": "Brief voluntary coworker group-photo closeness; Andrea draws Raghav into a pose. No Taniya intimate contact."
+        },
+        {
+          "id": "T03-05-effect",
+          "title": "After-effect",
+          "body": "Male and female duo chemistry stays collective, not two new committed couples."
+        }
+      ]
+    },
+    {
+      "date": "2026-01-01",
+      "universe": "sw",
+      "mentions": [],
+      "flags": [],
+      "id": "e03-taniya-T03-06",
+      "sort": "14:15",
+      "start": "14:15",
+      "end": null,
+      "timeLabel": "14:15–15:15",
+      "title": "A Small Celebration — Andrea & Chirag",
+      "subtitle": "ANDREA gives CHIRAG one brief playful KISS ON CHEEK. TANIYA has no kiss or romantic touch.",
+      "lead": "Taniya",
+      "characters": [
+        "Taniya",
+        "Raghav",
+        "Chirag",
+        "Neha",
+        "Andrea"
+      ],
+      "episode": "03",
+      "scene": "T03-06",
+      "kind": "planned",
+      "state": "approved-plot",
+      "status": "AUTHOR APPROVED PLOT · PROSE NOT WRITTEN",
+      "source": "episode-03-taniya-solo-proposed-timeline.json",
+      "reader": {
+        "type": "sw-planning",
+        "character": "taniya",
+        "scene": "T03-06"
+      },
+      "detail": "Team solves a tricky report discrepancy. Chirag identifies the crucial detail, Raghav jokingly claims credit and Neha calls him out. Andrea spontaneously gives Chirag a quick, voluntary cheek peck in the spirit of New Year celebration, steps away laughing; Raghav mock-protests, Neha laughs and Taniya watches before saying it is time to work. No relationship is declared.",
+      "beats": [
+        {
+          "id": "T03-06-physical",
+          "title": "Contact / physical action",
+          "body": "ANDREA gives CHIRAG one brief playful KISS ON CHEEK. TANIYA has no kiss or romantic touch."
+        },
+        {
+          "id": "T03-06-effect",
+          "title": "After-effect",
+          "body": "Chirag is briefly surprised/amused; Andrea openly playful; Taniya smiles and directs the team back to reports. No romance/couple status."
+        }
+      ]
+    },
+    {
+      "date": "2026-01-01",
+      "universe": "sw",
+      "mentions": [],
+      "flags": [],
+      "id": "e03-taniya-T03-07",
+      "sort": "15:15",
+      "start": "15:15",
+      "end": null,
+      "timeLabel": "15:15–16:20",
+      "title": "The Second Flat — An Active Address",
+      "subtitle": "No body touch or visit. Taniya retains control of keys/access.",
+      "lead": "Taniya",
+      "characters": [
+        "Taniya",
+        "Neha",
+        "Andrea",
+        "Saloni (supporting message only)"
+      ],
+      "episode": "03",
+      "scene": "T03-07",
+      "kind": "planned",
+      "state": "approved-plot",
+      "status": "AUTHOR APPROVED PLOT · PROSE NOT WRITTEN",
+      "source": "episode-03-taniya-solo-proposed-timeline.json",
+      "reader": {
+        "type": "sw-planning",
+        "character": "taniya",
+        "scene": "T03-07"
+      },
+      "detail": "Taniya still rents a near-office flat originally taken for late shifts; although she currently stays with Soniya in another society, the rent and access remain active. Select trusted colleagues sometimes ask permission to use the flat privately with romantic partners, including some extramarital relationships; she does not know every detail. Neha jokes about waiting lists; Andrea asks if it is free. Saloni can send a brief logistics message, with no newly invented affair attributed to her. No one uses the flat on-page today.",
+      "beats": [
+        {
+          "id": "T03-07-physical",
+          "title": "Contact / physical action",
+          "body": "No body touch or visit. Taniya retains control of keys/access."
+        },
+        {
+          "id": "T03-07-effect",
+          "title": "After-effect",
+          "body": "The rented studio becomes a credible future shared-location subplot rather than today's sexual encounter."
+        }
+      ]
+    },
+    {
+      "date": "2026-01-01",
+      "universe": "sw",
+      "mentions": [],
+      "flags": [],
+      "id": "e03-taniya-T03-08",
+      "sort": "16:20",
+      "start": "16:20",
+      "end": null,
+      "timeLabel": "16:20–17:30",
+      "title": "Uncle's Second Look",
+      "subtitle": "No physical contact or pressured intimacy.",
+      "lead": "Taniya",
+      "characters": [
+        "Taniya",
+        "Vivek Suri (UNCLE)",
+        "Pradeep Khanna",
+        "Chirag (support)"
+      ],
+      "episode": "03",
+      "scene": "T03-08",
+      "kind": "planned",
+      "state": "approved-plot",
+      "status": "AUTHOR APPROVED PLOT · PROSE NOT WRITTEN",
+      "source": "episode-03-taniya-solo-proposed-timeline.json",
+      "reader": {
+        "type": "sw-planning",
+        "character": "taniya",
+        "scene": "T03-08"
+      },
+      "detail": "Vivek calls a genuine final figures review, Pradeep wraps audit traceability and Taniya presents results. Reader-only sexual attraction remains part of Vivek's private perspective, but he keeps professional conduct. This closes the uncle thread for Episode 03; no approach, proposition or Taniya knowledge.",
+      "beats": [
+        {
+          "id": "T03-08-physical",
+          "title": "Contact / physical action",
+          "body": "No physical contact or pressured intimacy."
+        },
+        {
+          "id": "T03-08-effect",
+          "title": "After-effect",
+          "body": "Only reader knows his unacted fantasy; a potential future plot node, no further escalation here."
+        }
+      ]
+    },
+    {
+      "date": "2026-01-01",
+      "universe": "sw",
+      "mentions": [],
+      "flags": [],
+      "id": "e03-taniya-T03-09",
+      "sort": "17:30",
+      "start": "17:30",
+      "end": null,
+      "timeLabel": "17:30–19:30",
+      "title": "The Last Office Hours",
+      "subtitle": "No further intimacy. This is the last office scene; one existing accidental Raghav waist-support incident and Andrea/Chirag celebratory peck remain separate earlier beats.",
+      "lead": "Taniya",
+      "characters": [
+        "Taniya",
+        "Raghav",
+        "Chirag",
+        "Neha",
+        "Andrea",
+        "Punit (brief)"
+      ],
+      "episode": "03",
+      "scene": "T03-09",
+      "kind": "planned",
+      "state": "approved-plot",
+      "status": "AUTHOR APPROVED PLOT · PROSE NOT WRITTEN",
+      "source": "episode-03-taniya-solo-proposed-timeline.json",
+      "reader": {
+        "type": "sw-planning",
+        "character": "taniya",
+        "scene": "T03-09"
+      },
+      "detail": "The four core office colleagues close reports and Punit finalizes the next-day tracker. Taniya finishes her entire nine-hour shift at 19:30. Her near-office rented flat remains available, but today she chooses Soniya's society home because their morning conversation remains unfinished. She leaves directly for the estimated 35–50-minute commute. Wedding banter and ordinary goodbyes only; no new office romantic milestone.",
+      "beats": [
+        {
+          "id": "T03-09-physical",
+          "title": "Contact / physical action",
+          "body": "No further intimacy. This is the last office scene; one existing accidental Raghav waist-support incident and Andrea/Chirag celebratory peck remain separate earlier beats."
+        },
+        {
+          "id": "T03-09-effect",
+          "title": "After-effect",
+          "body": "Official office exit 19:30, then direct commute to society, folding the old standalone 'Two Homes' beat into this transition; do not schedule her at home before ~20:05."
+        }
+      ]
+    },
+    {
+      "date": "2026-01-01",
+      "universe": "sw",
+      "mentions": [],
+      "flags": [],
+      "id": "e03-taniya-T03-10",
+      "sort": "20:08",
+      "start": "20:08",
+      "end": null,
+      "timeLabel": "20:08–20:15 · proposed",
+      "title": "Guddu — The Wedding Quotation (SOCIETY CHOTU)",
+      "subtitle": "Only ordinary sealed-packet handover; no intimate body touch, no groping or contact escalation.",
+      "lead": "Taniya",
+      "characters": [
+        "Taniya",
+        "Guddu (23; society CHOTU/courier helper)"
+      ],
+      "episode": "03",
+      "scene": "T03-10",
+      "kind": "planned",
+      "state": "approved-plot",
+      "status": "AUTHOR APPROVED PLOT · PROSE NOT WRITTEN",
+      "source": "episode-03-taniya-solo-proposed-timeline.json",
+      "reader": {
+        "type": "sw-planning",
+        "character": "taniya",
+        "scene": "T03-10"
+      },
+      "detail": "After departing office at 19:30, Taniya reaches the society around 20:05–20:20 depending on traffic. At the service counter, Guddu is completing a New Year event/wedding-vendor document handover—not waiting especially for her. He has a sealed wedding quotation packet. Taniya checks the enclosed rate sheet and notices one page is missing; Guddu consults the handover register and says he can request the missing vendor page next day. His confident, teasing reply differs from office trainee Punit's shy nature. No need for a separate long travel beat or contrived lost object.",
+      "beats": [
+        {
+          "id": "T03-10-physical",
+          "title": "Contact / physical action",
+          "body": "Only ordinary sealed-packet handover; no intimate body touch, no groping or contact escalation."
+        },
+        {
+          "id": "T03-10-effect",
+          "title": "After-effect",
+          "body": "Guddu is introduced naturally, and the missing quotation page creates a concrete next-day follow-up without inventing a personal affair."
+        }
+      ]
+    },
+    {
+      "date": "2026-01-01",
+      "universe": "sw",
+      "mentions": [],
+      "flags": [
+        "Follows Shivani/Kavya/Deepu twins 19:11–19:23; event-board return is proposed"
+      ],
+      "id": "e03-taniya-T03-11",
+      "sort": "20:16",
+      "start": "20:16",
+      "end": null,
+      "timeLabel": "20:16–20:24 · conditional after Shivani 19:23",
+      "title": "Karan & Aman — The Unexpected Lobby Collision",
+      "subtitle": "ONE unintended instant of contact: Karan's hand on Taniya's CLOTHED BACK-OF-HIP/UPPER BUTTOCK during the cramped collision; immediate removal/apology. Taniya reflexively holds his sleeve for footing, releases. No breast exposure, no intimate gripping, no prolonged embrace or invitation. Aman keeps the board steady and has NO new contact with Taniya.",
+      "lead": "Taniya",
+      "characters": [
+        "Taniya",
+        "Karan (22; actual twin)",
+        "Aman (22; actual twin)"
+      ],
+      "episode": "03",
+      "scene": "T03-11",
+      "kind": "planned",
+      "state": "approved-plot",
+      "status": "AUTHOR APPROVED PLOT · PROSE NOT WRITTEN",
+      "source": "episode-03-taniya-solo-proposed-timeline.json",
+      "reader": {
+        "type": "sw-planning",
+        "character": "taniya",
+        "scene": "T03-11"
+      },
+      "detail": "Having finished their earlier society-event teasing with Shivani, Kavya and Deepu by 19:23, Karan and Aman later bring lightweight folding programme boards back toward the society storage area. Taniya approaches from Guddu's service counter carrying her work bag and vendor envelope. At a narrow foyer turn, Karan backs aside with a folded board while Taniya steps through the same space. They unexpectedly bump; his free hand lands for one startled instant against the covered back of her hip/upper buttock over her charcoal trousers as he tries not to collide further. Karan removes his hand immediately and apologizes; Taniya catches his sleeve reflexively, then lets go and steps clear. Aman steadies the board rather than touching Taniya. Morning gym familiarity gives Taniya a sharp but witty response, and neither boy learns anything from her office or the earlier Shivani/Kavya private dynamics. Karan has no knowledge of Aman's earlier Ankita scooty contact.",
+      "beats": [
+        {
+          "id": "T03-11-physical",
+          "title": "Contact / physical action",
+          "body": "ONE unintended instant of contact: Karan's hand on Taniya's CLOTHED BACK-OF-HIP/UPPER BUTTOCK during the cramped collision; immediate removal/apology. Taniya reflexively holds his sleeve for footing, releases. No breast exposure, no intimate gripping, no prolonged embrace or invitation. Aman keeps the board steady and has NO new contact with Taniya."
+        },
+        {
+          "id": "T03-11-effect",
+          "title": "After-effect",
+          "body": "Taniya is startled by the exact unexpected contact and briefly self-conscious, but quickly regains her confident voice and ends the incident herself. Karan's first instinct is apology rather than confident flirting; Aman witnesses the collision but not Taniya's private reaction. One memorable physical moment, not a romance."
+        }
+      ]
+    },
+    {
+      "date": "2026-01-01",
+      "universe": "sw",
+      "mentions": [],
+      "flags": [
+        "Rahul 20:40–20:50 arrival proposed, not source-confirmed"
+      ],
+      "id": "e03-taniya-T03-12",
+      "sort": "20:25",
+      "start": "20:25",
+      "end": null,
+      "timeLabel": "20:25–21:00 · Rahul return proposed",
+      "title": "Soniya & Rahul — The Homecoming and the Unsaid Morning",
+      "subtitle": "Soniya ↔ Rahul only: normal voluntary married-couple hug and short forehead kiss. Rahul–Taniya: NO physical intimacy. No additional Taniya/twin contact here.",
+      "lead": "Taniya & Soniya",
+      "characters": [
+        "Taniya",
+        "Soniya (24; FIRST on-page EP03 appearance)",
+        "Rahul (28; husband, returns after 07:55 office departure)"
+      ],
+      "episode": "03",
+      "scene": "T03-12",
+      "kind": "planned",
+      "state": "approved-plot",
+      "status": "AUTHOR APPROVED PLOT · PROSE NOT WRITTEN",
+      "source": "episode-03-taniya-solo-proposed-timeline.json",
+      "reader": {
+        "type": "sw-planning",
+        "character": "taniya",
+        "scene": "T03-12"
+      },
+      "detail": "Taniya reaches the flat after the office day and brief society encounters. Soniya first appears as Taniya opens the door around 20:25–20:35 (estimated). The sisters exchange short New Year/wedding-work banter, with one natural mention of the still-active near-office rental; Taniya says she chose to come home. Rahul, who departed for office at 07:55 and has no canon-locked evening return hour, is proposed to arrive around 20:40–20:50. He greets his wife Soniya with their established familiar affectionate hug and quick forehead kiss; Taniya teases Jiju in the usual light family voice. When they have a private moment, Soniya herself tells Rahul there is something about this morning's gym encounter with trainer Vivek Rao she must discuss. Taniya goes to her room; do not write the whole disclosure or make her their cover story. Reader also knows a separate previous privacy violation by Rahul, which remains entirely unknown to Taniya and does not become an erotic invitation or disclosure here. Cut before the detailed marital discussion.",
+      "beats": [
+        {
+          "id": "T03-12-physical",
+          "title": "Contact / physical action",
+          "body": "Soniya ↔ Rahul only: normal voluntary married-couple hug and short forehead kiss. Rahul–Taniya: NO physical intimacy. No additional Taniya/twin contact here."
+        },
+        {
+          "id": "T03-12-effect",
+          "title": "After-effect",
+          "body": "Soniya takes responsibility for telling Rahul about the new gym incident; Rahul knows only that she wants to talk, not its full details. Episode ends without a new standalone conversation beat."
+        }
+      ]
+    },
+    {
+      "date": "2026-01-01",
+      "universe": "sw",
+      "mentions": [],
+      "flags": [],
+      "id": "e03-shivani-scene02-master",
+      "sort": "17:00",
+      "start": "17:00",
+      "end": null,
+      "timeLabel": "17:00–17:20",
+      "title": "Shivani Scene 02 — College staffroom master sequence",
+      "lead": "Shivani",
+      "characters": [
+        "Shivani",
+        "Pooja",
+        "Kriti",
+        "Harsh",
+        "Laksh",
+        "Nandini",
+        "Ritika",
+        "Arjun Mehta"
+      ],
+      "episode": "03",
+      "scene": "S02",
+      "kind": "planned",
+      "state": "planned",
+      "status": "MASTER PLOT REFERENCE · PROSE PENDING",
+      "source": "episode-03-shivani-scene02-master-reference.json",
+      "reader": {
+        "type": "sw-planning",
+        "character": "shivani",
+        "scene": "S02"
+      },
+      "detail": "Source master female-wise five-person reference: 17:00–17:20 campus staffroom, chronological interleaved plot only; full prose not available in unified Reader."
+    },
+    {
+      "date": "2026-01-01",
+      "universe": "sw",
+      "mentions": [],
+      "flags": [],
+      "id": "e03-shivani-scene03-commute",
+      "sort": "17:20",
+      "start": "17:20",
+      "end": null,
+      "timeLabel": "17:20–17:45",
+      "title": "Shivani Scene 03 — College to society ride",
+      "lead": "Shivani",
+      "characters": [
+        "Shivani"
+      ],
+      "episode": "03",
+      "scene": "S03-01",
+      "kind": "planned",
+      "state": "planned",
+      "status": "WORKING PLOT · PROSE PENDING",
+      "source": "episode-03-shivani-scene-03-society-return-plot.json",
+      "reader": {
+        "type": "sw-planning",
+        "character": "shivani",
+        "scene": "S03-01"
+      },
+      "detail": "Scene 02 ends ~17:20. Shivani walks from staffroom to her parked scooty, leaves college around 17:20 and travels home using the established morning 25-minute journey as a planning baseline. Professional campus outfit, bag, dupatta and helmet unchanged. Her husband's personal New Year surprise from morning remains pending. She has no knowledge of unauthorized copying of her unsent photo."
+    },
+    {
+      "date": "2026-01-01",
+      "universe": "sw",
+      "mentions": [],
+      "flags": [],
+      "id": "e03-shivani-scene03-society",
+      "sort": "17:45",
+      "start": "17:45",
+      "end": null,
+      "timeLabel": "17:45–17:57",
+      "title": "Shivani Scene 03 — Mahendra, Ayaan and Armaan",
+      "lead": "Shivani",
+      "characters": [
+        "Shivani (31)",
+        "Mahendra Suri (61)",
+        "Ayaan (23)",
+        "Armaan (23)"
+      ],
+      "episode": "03",
+      "scene": "S03-02",
+      "kind": "planned",
+      "state": "planned",
+      "status": "WORKING PLOT · PROSE PENDING",
+      "source": "episode-03-shivani-scene-03-society-return-plot.json",
+      "reader": {
+        "type": "sw-planning",
+        "character": "shivani",
+        "scene": "S03-02"
+      },
+      "detail": "17:45–17:49 At society parking, Mahendra appears with children's programme proof sheet. The genuine society task is his plausible opener, but he uses it to hold Shivani in conversation beyond the work requirement. Narrator distinguishes his lingering, body-focused gaze (outfit line front/back and her moving silhouette) from Shivani's actual awareness. He offers a pointed, suggestive personal compliment rather than another generic 'good work' statement. Shivani recognizes the personal turn and pushes back playfully but firmly. No touch or implied consent. Mahendra privately wants another opportunity to talk to her; separate from his earlier Shreya and Soniya incidents. 17:49–17:51 Ayaan and Armaan arrive together with revised poster proofs and a folding lightweight display stand. One-line grounding: Shivani already knows their society-printwork and remembers their attention to tiny details; readers have seen the pair in Ankita A06. Ayaan begins warmly and loudly, Armaan first presents the corrected QR print. Mahendra stays briefly to collect materials. Other society characters are not teleported into this grouping. 17:51–17:54 While opening the fold-out sample beside the wall, a loose stand leg shifts as Shivani reaches to steady the proof sheet. Armaan moves quickly and catches her by the clothed side/waist for balance while Ayaan secures the paper, then releases once she is steady. Shivani briefly grips Armaan's shoulder, steps back, and checks the stand. It is a clear new physical incident, not imagined prehistory, and their proximate looks/quick reaction matter more than a prolonged psychological speech. Armaan's surprisingly direct response catches Ayaan's attention; the trio share a charged, brief beat; Shivani stays in control. 17:54–17:57 Shivani signs off or flags the corrections on the sample and directs them to coordinate with Sharmi/Deepu. Ayaan invites another review round; Armaan adds one well-timed teasing line. Shivani smiles at the challenge but leaves for Tower C to check on Tara and Kavya. Mahendra is no longer in the foreground. Cut before home conversation. No Karan/Aman at this time because Ankita Scene 07 occupies them from 17:20–17:50."
+    },
+    {
+      "date": "2026-01-01",
+      "universe": "sw",
+      "mentions": [],
+      "flags": [
+        "Future story placement preserved; not Episode 03 prose"
+      ],
+      "id": "future-shivani-jan01-night-home",
+      "sort": "18:35",
+      "start": "18:35",
+      "end": null,
+      "timeLabel": "18:35–18:46 · next Shivani episode",
+      "title": "Shivani future — Home return / Om reader-only interest",
+      "lead": "Shivani",
+      "characters": [
+        "Shivani",
+        "Om"
+      ],
+      "episode": "Future plan",
+      "scene": "N01",
+      "kind": "planned",
+      "state": "planned",
+      "status": "NEXT SHIVANI EPISODE · WORKING FUTURE PLOT",
+      "source": "shivani-jan01-night-next-episode-chotu-kavya-twins-om-plot.json",
+      "reader": {
+        "type": "sw-planning",
+        "character": "shivani",
+        "scene": "N01"
+      },
+      "detail": "Shivani has arrived from college. At home she finds Om checking a simple event/household list. Their interaction carries already-known household courtesy: she updates him about college timing; he remembers her society programme responsibilities. Describe Om as an unrelated, older resident accepted within the family's social arrangements, not her actual father-in-law. The source does not say why or how long he has lived there, so do not invent a rescue or biological connection. Their familiar interactions are not coded as permission for romance. After Shivani leaves the common area, Om privately registers his attraction. A concise reader-only imaginary moment shows Shivani choosing to be closer to him, perhaps a private embrace or kiss that exists solely in his mind. He realizes the imagined response is not a statement about her feelings. When Shivani actually returns to fetch her keys, he behaves ordinarily. Contrast the mental image against real household boundaries without an extended guilt monologue."
+    },
+    {
+      "date": "2026-01-01",
+      "universe": "sw",
+      "mentions": [],
+      "flags": [
+        "Ankita twin return ~17:50; Kavya/Shivani encounter 19:11–19:23; Taniya twin encounter after 20:16"
+      ],
+      "id": "future-shivani-jan01-night-event",
+      "sort": "19:05",
+      "start": "19:05",
+      "end": null,
+      "timeLabel": "19:05–19:23 · next Shivani episode",
+      "title": "Shivani future — Kavya, Deepu and Karan/Aman",
+      "lead": "Shivani",
+      "characters": [
+        "Shivani",
+        "Kavya",
+        "Deepu",
+        "Karan",
+        "Aman"
+      ],
+      "episode": "Future plan",
+      "scene": "N03",
+      "kind": "planned",
+      "state": "planned",
+      "status": "NEXT SHIVANI EPISODE · WORKING FUTURE PLOT",
+      "source": "shivani-jan01-night-next-episode-chotu-kavya-twins-om-plot.json",
+      "reader": {
+        "type": "sw-planning",
+        "character": "shivani",
+        "scene": "N03"
+      },
+      "detail": "19:05–19:08: Shivani and Kavya come downstairs for the community-event poster/children's programme check. Rohan has returned for the new night placement and stays with Tara; exact prior return timing is not invented as an earlier scene. Deepu is already handling event materials. Shivani greets him naturally by name and remembers that he handled her noticeboard clip and poster task earlier, using only one brief line of background. She introduces her adult sister Kavya for the first time. No awkward new 'Who are you?' between Shivani and Deepu. 19:08–19:11: Deepu offers Kavya a copy of the programme sheet as a natural courtesy. Their eyes meet longer than required; Kavya smiles and asks his name even though Shivani already addressed him. He speaks more softly with her than with Shivani, and she finds his sincerity attractive. Brief, reversible hand contact happens when both steady the same poster against the evening breeze; neither seizes or prolongs contact. Shivani notices the mutual interest and playfully teases Deepu. Deepu is pleased but not entitled to more. 19:11–19:14: Karan and Aman now appear in the same society common area AFTER dropping Ankita at ~17:50; no implied continuous presence from their earlier private ride. They greet Shivani, whose morning biology-lesson joke they remember. Their attention is caught by Kavya, a woman they have NOT met. Karan openly praises her beauty; Aman keeps his initial reaction to himself before surprising her with a more subtle compliment. Kavya smiles politely but her attention occasionally returns to Deepu. Shivani deliberately delays the introduction for one short teasing beat. 19:14–19:18: Shivani retorts to Karan and Aman and makes them compete verbally for the introduction. As the author proposed, she can surprise them with two quick, clearly playful cheek kisses, one on each, then step away. The brothers respond with light teasing and, if welcomed on-screen, a short friendly side embrace/waist-level pose to 'get even'; no forced groping, hidden contact or assumption that her kiss authorizes further touch. Kavya witnesses the easy prior familiarity, Deepu reacts with amusement, and both sisters keep their distinct agency. This is a newly proposed escalation, not silently assigned to the already published morning encounter. 19:18–19:21: Shivani finally introduces her sister Kavya to both brothers, referencing their known neighbour connection with Ankita without converting them into Shivani's family twins. Karan offers to help carry event materials, Aman proposes checking the poster's QR proof with Kavya, and Deepu can help with the very task Kavya first asked about. These are three different invitations, no romantic claim. Kavya speaks for herself and selects whichever practical help she actually wants — the first smile/eye-contact suggests Deepu attracts her most at this point. 19:21–19:23: After the brief exchange the three young men register overlapping interest in Kavya. Deepu and Kavya share another shy, direct look; Karan jokingly competes for the next society task, Aman offers a quieter alternative. All remain civil; the contrast is curiosity and playful jealousy, not rivalry that produces fighting, humiliation, territorial threats or coercion. Shivani notices the triangle forming and privately laughs, then the sisters leave; no one has secured a date, kiss, exclusivity or relationship. Cut at 19:23, preserving the choice for the next episode."
     }
   ]
 }
