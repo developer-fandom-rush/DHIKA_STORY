@@ -270,8 +270,8 @@
     {
       "id": "shreya",
       "name": "Shreya",
-      "endJan01": "EP03 reaches society Chintu register at 17:35–17:45 after Samar–Shaan sports. Station Chotu earlier has an approved strong-chai introduction.",
-      "twins": "Samar–Shaan are a society duo, twin status unconfirmed; Karan–Aman cross on Jan1 college duty, not inserted into Chotu scenes.",
+      "endJan01": "EP03 Chintu desk 17:35–17:45; EP04A Chintu apartment-latch accident 17:52–18:07; Arvind household incident 18:29–18:36; Vikram's private night and family sleep by 23:15. Prior Jan2 Chintu gate-first-accident sketch superseded.",
+      "twins": "Samar/Shaan are confirmed biological society sports twins (24), not Karan–Aman; their EP03 scene 17:10–17:33 remains intact.",
       "tracks": [
         {
           "lead": "shreya",
@@ -310,29 +310,31 @@
           "lane": "Society",
           "age": 23,
           "setting": "Gulmohar Heights · security gate / visitor desk",
-          "twinsContext": "Samar/Shaan society fitness scene ends Jan1 17:33; Chintu's existing Jan1 register conversation is 17:35–17:45. The new accident is Jan2, not inserted into that frozen slot.",
+          "twinsContext": "Samar and Shaan are CONFIRMED biological society sports twins; their 17:10–17:33 EP03 contact remains separate. Chintu register 17:35–17:45 and new 17:52–18:07 EP04A uniform-latch accident are distinct. Police station chaiwala Chotu is separate.",
           "a": {
-            "date": "2026-01-02",
-            "start": "07:38",
-            "end": "07:52",
-            "title": "The swinging service gate",
-            "cause": "A service cart crosses the driveway; a gust pushes the light swing gate across the desk approach as Shreya checks a visitor-register note.",
-            "physical": "Shreya grips Chintu's upper sleeve and steps close as he catches the gate, then immediately lets go when the cart passes.",
-            "sightline": "Gate-side interaction, brief contact over uniform/sleeve; no private visibility or hidden spectators.",
-            "duration": "Sleeve hold and close step ~2 seconds.",
-            "reaction": "Shreya feels a fast adrenaline jolt, while Chintu keeps his attention on the cart and her safe exit. Their previous dry-wit rapport is retained.",
-            "hook": "He has one disputed visitor time that she asks to check only against recorded evidence by evening."
+            "date": "2026-01-01",
+            "start": "17:52",
+            "end": "18:07",
+            "title": "The latch and two lost uniform buttons — first Chintu accident",
+            "cause": "After the EP03 correctly buttoned duty uniform, Shreya loosens two top buttons between 17:45 and 17:52. Her ID tab/shirt front catches the door-latch, causing two more adjacent buttons to break while Chintu steadies the door.",
+            "physical": "Sudden door and shirt-front accident, no intentional body contact. Chintu briefly sees the unexpected gap, is visibly shocked and leaves without teasing.",
+            "sightline": "Apartment entry shielded by the door; no third-party spectators. How much Chintu saw remains uncertain.",
+            "duration": "Damage happens within seconds, at 17:56–17:59; whole encounter 17:52–18:07.",
+            "reaction": "Chintu says goodbye; Shreya notices the wardrobe opening only after she is privately inside and feels embarrassed.",
+            "hook": "Chintu's further register check is a Jan2 separate follow-up, not another first accident.",
+            "source": "episode-04a-shreya-night-plan.json",
+            "scene": "SHR04A-S01"
           },
           "b": {
             "date": "2026-01-02",
             "start": "18:05",
             "end": "18:21",
             "title": "A purposeful shared register check",
-            "choice": "On returning to society Shreya deliberately stands beside Chintu at the register and asks permission to guide his pen over the discrepant number she wants rechecked.",
+            "choice": "On the day after the unexpected uniform-latch accident, Shreya deliberately stands beside Chintu at the register and asks permission to guide his pen over the discrepant number she wants rechecked.",
             "physical": "Her hand briefly covers his pen hand to trace the line, then releases; shoulder-to-shoulder while both read the record.",
             "test": "Will he respond to the unusual closeness or remain entirely absorbed in doing the register correctly?",
             "result": "Chintu accurately corrects the procedure and misses the personal implication altogether. Shreya is amused—and faintly unsettled—by her own reaction to a moment he treated as pure work.",
-            "after": "No fabricated evidence, coercive scrutiny or new attraction attributed to Chintu."
+            "after": "Her next-day register verification is her independently chosen follow-up; no repeated Jan2 'first Chintu accident'."
           }
         }
       ]
