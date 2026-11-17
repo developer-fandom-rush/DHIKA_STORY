@@ -266,7 +266,10 @@
     ],
     "approval": "AUTHOR_APPROVED_PLOT_NOT_PROSE",
     "reference": "episode-03-shreya-jan01-proposed-timeline.json#S03-05",
-    "notes": "Five participants only; flag-control drill, Kavita wins first, Lokesh tag capture and one brief close-contact moment, narrator outfit/motion descriptions, no repetitive accidental touches. Prior report-verification concept superseded."
+    "notes": "Five participants only; flag-control drill, Kavita wins first, Lokesh tag capture and one brief close-contact moment, narrator outfit/motion descriptions, no repetitive accidental touches. Prior report-verification concept superseded.",
+    "proseStatus": "GROK_SYNCED_FULL_SCENE_IN_EP03_READER_PENDING_AUTHOR_APPROVAL_2026_11_17",
+    "readerSceneId": "S03-05",
+    "reviewFile": "episode-03-shreya-beat-10-training-ground-review.json"
   },
   "collegeBeat789WorkingSelection": {
     "reference": "episode-03-shreya-jan01-proposed-timeline.json#S03-02..S03-04; review prose file episode-03-shreya-beats-07-09-refined-draft.json",
@@ -345,7 +348,8 @@
       "id": "S03-06",
       "time": "16:05–17:05",
       "status": "SHORT_TRANSITION_DRAFT",
-      "summary": "Station closeout 16:05–16:35; Shreya keeps navy station-training outfit and drives alone to Gulmohar Heights, arriving ~17:05. No independent romance beat."
+      "summary": "Station closeout 16:05–16:35 after Beat10's properly buttoned khaki-uniform return; Shreya drives alone to Gulmohar Heights arriving ~17:05. No separate romance beat.",
+      "supersededNavySummary": "Station closeout 16:05–16:35; Shreya keeps navy station-training outfit and drives alone to Gulmohar Heights, arriving ~17:05. No independent romance beat."
     },
     "beat12": {
       "id": "S03-07",
@@ -357,7 +361,8 @@
       ],
       "status": "AUTHOR_SELECTED_PHYSICAL_ESCALATION_DIRECTION__BEAT_DIALOGUE_DRAFT",
       "miniBeats": 6,
-      "summary": "Society sports volunteers Samar and Shaan prepare equipment for New Year fitness setup. Shreya chooses to check it. Samar's partner-pressure test shifts to brief forearm/upper-arm stabilizing touch; Shaan offers a separate, permission-based waist spot on flat low balance tape. Shreya feels a brief charged and confused body awareness then naturally resumes teasing. No forced contact, repeat slip, romance promise or invented professions. Morning SR01 familiarity and bets preserved."
+      "summary": "Society sports volunteers Samar and Shaan prepare equipment for New Year fitness setup. Shreya chooses to check it. Samar's partner-pressure test shifts to brief forearm/upper-arm stabilizing touch; Shaan offers a separate, permission-based waist spot on flat low balance tape. Shreya feels a brief charged and confused body awareness then naturally resumes teasing. No forced contact, repeat slip, romance promise or invented professions. Morning SR01 familiarity and bets preserved.",
+      "wardrobeContinuity": "Khaki duty uniform after Beat10 and Beat11"
     },
     "beat13": {
       "id": "S03-08",
@@ -384,7 +389,7 @@
     },
     "continuityLocks": [
       "Beat10 unchanged and independently plot-approved.",
-      "Shreya retains navy training outfit through society setup; no new police uniform changes.",
+      "Shreya changes back into properly buttoned khaki uniform after Beat10, per latest author-directed Bridge full prose; carry khaki through society-return plot unless author revises.",
       "Society sport twins are NOT Karan/Aman or Rohas/Lokesh.",
       "Chintu society helper and Chotu station chaiwala distinct; no duplicate first introduction.",
       "Sports volunteers' real jobs remain undecided.",
