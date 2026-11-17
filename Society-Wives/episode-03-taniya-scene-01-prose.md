@@ -61,7 +61,7 @@ Andrea ne screen ki taraf jhaank kar nakli seriousness dikha di.
 
 10:57 AM.
 
-Raghav ne Taniya ke haath mein revised schedule dekha. Use uski quick replies familiar thi; phir bhi uska smile ek pal ko bina joke ke reh gaya. Usne nazar wapas report par kar li. Yeh baat usne kisi se share nahi ki—aur Taniya ne us pal ko notice bhi nahi kiya.
+Raghav ne Taniya ke haath mein revised schedule dekha. __Use uski quick replies familiar thi; phir bhi uska smile ek pal ko bina joke ke reh gaya.__ Usne nazar wapas report par kar li. Yeh baat usne kisi se share nahi ki—aur Taniya ne us pal ko notice bhi nahi kiya.
 
 **[T03-01-G02 — GRAPHICAL DESCRIPTION — START]**
 
