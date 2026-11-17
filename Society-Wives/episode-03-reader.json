@@ -3,7 +3,7 @@
   "episode": "03",
   "title": "The New Year's Continuing Encounters",
   "date": "2026-01-01",
-  "description": "One unified reading surface for completed source text; approval states remain exactly as recorded. Unwritten episode plans stay in Episode Planning.",
+  "description": "Single Episode 03 reader for written prose, with Taniya Scene 01 as an assistant-authored draft pending author approval; other existing chapter statuses unchanged.",
   "chapters": {
     "ankita": [
       {
@@ -1338,6 +1338,31 @@
           "episodeEndsHere": true,
           "editorialNotesOnlyChanged": true
         }
+      }
+    ],
+    "taniya": [
+      {
+        "id": "01",
+        "title": "The Wedding Girl — Four-Person Circle",
+        "date": "2026-01-01",
+        "time": "10:50–11:05 AM",
+        "place": "Gurgaon CA firm · audit desk and filing-cabinet approach",
+        "status": "ASSISTANT_AUTHORED_SCENE01_PROSE_DRAFT_PUBLISHED_PENDING_AUTHOR_APPROVAL",
+        "source": "episode-03-taniya-scene-01-prose.md",
+        "format": "raw",
+        "raw": "**TANIYA · EPISODE 03 · SCENE 01 — THE WEDDING GIRL**\n**1 January 2026 · 10:50–11:05 AM · CA Firm, Gurgaon · Audit Desk**\n\n10:50 AM.\n\nDecember-close ka New Year shift 10:30 se chal raha tha. Taniya ne apna laptop bag chair ke paas rakha hua tha. Sky-blue formal shirt aur charcoal trousers mein woh bank-reconciliation sheet par red-marked entries cross-check kar rahi thi. Neha aur Andrea uski desk ke ek taraf, Raghav aur Chirag doosri taraf familiar team rhythm mein kaam kar rahe the.\n\n**Neha:** \"Happy New Year, future Mrs. Aditya! Aaj bhi tumne spreadsheet khol rakhi hai?\"\n\n**Taniya:** \"Happy New Year. Client ka December calendar shaadi ki dates dekh ke band nahi hota, Neha.\"\n\n**Chirag:** \"Sahi kaha. Hamara countdown twelve baje nahi, trial balance match hone pe khatam hoga.\"\n\n**Raghav:** \"Aur tumhara countdown hoga: twelve hours of overtime?\"\n\n**Andrea:** \"Raghav, please. New Year par kam se kam ek original joke toh laao.\"\n\nRaghav ne haath uthakar defeat accept ki. Yeh chaaron mahino se ek hi team mein kaam kar rahe the; aise exchanges mein kisi naye introduction ki zaroorat nahi padti thi.\n\nNeha ne screen par December 31 ki ek unmatched journal entry point ki.\n\n**Neha:** \"Yeh dekho. Payment bank mein thirty-first ko gaya, ledger mein January first show ho raha hai.\"\n\n**Taniya:** \"Date mat guess karo. Bank reference aur posting timestamp alag columns mein verify karo. Phir decide karenge exception hai ya cut-off entry.\"\n\n**Chirag:** \"Maine branch-wise reconciliation nikaali hai. Raghav, tum original reference check kar lo.\"\n\n**Raghav:** \"Ji, sir. Aur jab main check kar lunga toh credit mere naam?\"\n\n**Andrea:** \"Credit ke liye bhi evidence chahiye. Tumhari smiles audit evidence nahi hoti.\"\n\nTaniya hansi aur apni chair se uthkar printer ke paas gayi. Ek revised schedule uthate hue usne pages ko seedha kiya.\n\n**[T03-01-G01 — GRAPHICAL DESCRIPTION — START]**\n\n**[T03-01-G01 — GRAPHICAL DESCRIPTION WILL END HERE]**\n\n**Neha:** \"__Honeymoon leave bhi audit approval ke baad milegi kya?__\"\n\n**Taniya:** \"Tum pehle apni leave balance check kar lo. Meri leave ka budget already calculate ho chuka hai.\"\n\n**Andrea:** \"__Aditya ko bata dena, inki checking bahut strict hai.__\"\n\n**Raghav:** \"Aditya ko warning do ya training schedule? Taniya se koi half-filled form pass nahi hota.\"\n\n**Taniya:** \"__Pehle apni files close karo, phir meri shaadi audit karna.__\"\n\n**Chirag:** \"Record mein note ho gaya: bride-to-be refuses unofficial audit.\"\n\nNeha ne phone ki taraf haath badhaya, jaise imaginary minutes of meeting record karne wali ho.\n\n**Neha:** \"Agenda item two: shaadi ke baad Taniya madam weekend calls bhi reject karengi?\"\n\n**Taniya:** \"Agar client ne tumhe Saturday ko call kiya, toh tum mera naam mat lena.\"\n\n**Andrea:** \"Dekha? Itni confidently mana karti hai. __Aditya ko negotiation practice karni padegi.__\"\n\n**Taniya:** \"Usse meri negotiation skills ka pata hai. Tumhe apna pending voucher ka pata hai?\"\n\nAndrea ne screen ki taraf jhaank kar nakli seriousness dikha di.\n\n10:57 AM.\n\nRaghav ne Taniya ke haath mein revised schedule dekha. Use uski quick replies familiar thi; phir bhi uska smile ek pal ko bina joke ke reh gaya. Usne nazar wapas report par kar li. Yeh baat usne kisi se share nahi ki—aur Taniya ne us pal ko notice bhi nahi kiya.\n\n**[T03-01-G02 — GRAPHICAL DESCRIPTION — START]**\n\n**[T03-01-G02 — GRAPHICAL DESCRIPTION WILL END HERE]**\n\n**Chirag:** \"Raghav? Original bank ref mil gaya ya tum ab bhi celebration mode mein ho?\"\n\n**Raghav:** \"Mil jayega. Filing drawer mein December ka physical folder hona chahiye.\"\n\n**Taniya:** \"Good. Digital trail se amount match hai; physical reference missing hai. Pehle woh nikaalte hain.\"\n\n**Neha:** \"Main summary clean kar deti hoon. Andrea, tum exceptions list filter kar do.\"\n\n**Andrea:** \"Done. Lekin lunch pe wedding stories ka second round booked hai.\"\n\n**Taniya:** \"Client approval ke baad.\"\n\n**Andrea:** \"Tumhari dictionary mein romance bhi approval-dependent hai kya?\"\n\nTaniya ne file band ki aur Andrea ki taraf ek pointed smile diya.\n\n**Taniya:** \"__Tum logon ke imagination par main sign nahi karti. Workpapers par karti hoon.__\"\n\n**Chirag:** \"Finally, ek policy jo clearly written hai.\"\n\n11:03 AM.\n\nPunit audit register aur ek fresh stationery pad lekar workstations ke paas aaya. Woh team ko pehle se jaanta tha; Taniya ki desk par files chhodte hue routine update diya.\n\n**Punit:** \"Ma'am, last quarter ka binder records shelf par mil gaya. Register mein entry kar di hai.\"\n\n**Taniya:** \"Thanks, Punit. Usse wahin rakho. Noon tak mujhe journal-support index bhi chahiye.\"\n\n**Punit:** \"Noted, ma'am.\"\n\nNeha ne halka sa salute kiya. Punit ne bas sir hilaaya aur apne kaam par laut gaya. Uske saath lambi personal conversation abhi shuru nahi hui.\n\n11:05 AM.\n\nChirag ne reconciliation worksheet save ki. Raghav filing cabinet ki taraf badha, Taniya original bank reference verify karne ke liye uske saath chali. Neha aur Andrea apne screens par workpapers open rakhkar aapas mein exception list discuss karne lagin.\n\n**Taniya:** \"Raghav, drawer zara dhyaan se kholna. Last month se atak raha hai.\"\n\n**Raghav:** \"Haan. Pehle reference, phir heroics.\"\n\nTaniya ne ek eyebrow uthayi. \"Heroics\" ka matlab abhi sirf files tak tha.\n\n**Scene 01 ends · Scene 02: The Filing Drawer — A Close Call.**",
+        "grokMarkers": [
+          {
+            "id": "T03-01-G01",
+            "purpose": "Adult office visual at printer: retained sky-blue formal shirt and charcoal trousers, posture and movement; no wardrobe change or invented physical encounter.",
+            "status": "OPEN_FOR_GROK_AUTHOR"
+          },
+          {
+            "id": "T03-01-G02",
+            "purpose": "Raghav's private visible reaction to confident banter; differentiate narrator-only knowledge from Taniya's awareness, without adding touch or invented romance.",
+            "status": "OPEN_FOR_GROK_AUTHOR"
+          }
+        ]
       }
     ]
   },
