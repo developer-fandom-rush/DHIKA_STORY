@@ -10,7 +10,7 @@
   "leadName": "Shreya Rathore",
   "leadAge": 33,
   "profession": "Police Inspector",
-  "status": "EPISODE 02 CLOSED 2026-01-01 10:15 AT SR09; ALL NINE PRESENT SHREYA PROSE SCENES AUTHOR-APPROVED 2026-11-16; SR03 PLOT APPROVED BUT FULL PROSE NOT PRESENT; SR10–SR13 MOVED TO EP03 JAN 01",
+  "status": "EPISODE_02_CLOSED_AUTHOR_APPROVED_FINAL_FROZEN_2026_11_17__NO_PLOTTING_PENDING",
   "stopRule": "EP02 ENDS at 10:15 AM on Thursday 2026-01-01 after SR09. All nine actual Episode 02 Shreya prose scenes were explicitly approved by the author on 2026-11-16. SR03 is author-approved plot only, not published prose. EP03 new events on same 2026-01-01 date begin after 10:15; no silent change to existing EP02 scenes.",
   "characterCorrections": [
     {
@@ -197,7 +197,7 @@
         "No scene with Ankita in this workout; her exercise session ended at 06:52.",
         "SR01 now closes at 07:28 with Samar and Shaan leaving; Shreya stays in gym until 07:52 for SR02A."
       ],
-      "approval": "AUTHOR_APPROVED_PROSE_PUBLISHED_2026_11_16",
+      "approval": "AUTHOR_APPROVED_FINAL_FROZEN_2026_11_17",
       "publishedScene": {
         "uiTab": "shreya-prose",
         "uiHref": "./episode-02.html?tab=shreya-prose",
@@ -210,7 +210,8 @@
         "publication": "USER_REQUESTED_PUBLISHED_SR01",
         "nextSceneId": "SR02A"
       },
-      "authorConfirmationDate": "2026-11-16"
+      "authorConfirmationDate": "2026-11-16",
+      "authorFrozen": true
     },
     {
       "id": "SR02A",
@@ -252,7 +253,7 @@
         "Physical workout dampness and a practical nursing-pad check are non-erotic details, not sexualized bodily fluid descriptions.",
         "Do not depict Taniya and Soniya physically present before 08:25."
       ],
-      "approval": "AUTHOR_APPROVED_PROSE_PUBLISHED_2026_11_16",
+      "approval": "AUTHOR_APPROVED_FINAL_FROZEN_2026_11_17",
       "publishedScene": {
         "uiTab": "shreya-prose",
         "uiHref": "./episode-02.html?tab=shreya-prose#shreya-sr02a-vivek",
@@ -261,7 +262,8 @@
           "./assets/shreya/ep02-sr02a-vivek-gym-kiss.png"
         ]
       },
-      "authorConfirmationDate": "2026-11-16"
+      "authorConfirmationDate": "2026-11-16",
+      "authorFrozen": true
     },
     {
       "id": "SR02B",
@@ -313,14 +315,15 @@
         "The child does not participate in sexual or flirtatious interactions.",
         "Next scene is SR03, society lobby Rajeev greeting at 08:12–08:13."
       ],
-      "approval": "AUTHOR_APPROVED_PROSE_PUBLISHED_2026_11_16",
+      "approval": "AUTHOR_APPROVED_FINAL_FROZEN_2026_11_17",
       "publishedScene": {
         "uiTab": "shreya-prose",
         "uiHref": "./episode-02.html?tab=shreya-prose#shreya-sr02b-home",
         "images": [],
         "publication": "USER_REQUESTED_PUBLISHED_SR02B"
       },
-      "authorConfirmationDate": "2026-11-16"
+      "authorConfirmationDate": "2026-11-16",
+      "authorFrozen": true
     },
     {
       "id": "SR03",
@@ -351,8 +354,9 @@
       "notes": [
         "Retimed after published SR02B; Rajeev's short lobby greeting must finish by 08:13, before Karan/Aman gate exchange."
       ],
-      "approval": "AUTHOR_APPROVED_PLOT_ONLY_FULL_PROSE_MISSING",
-      "authorConfirmationDate": "2026-11-16"
+      "approval": "AUTHOR_APPROVED_FINAL_FROZEN_PLOT_SOURCE_PROSE_UNAVAILABLE_2026_11_17",
+      "authorConfirmationDate": "2026-11-16",
+      "authorFrozen": true
     },
     {
       "id": "SR04",
@@ -492,14 +496,15 @@
         "CHINTU DEFERRED: adult 23-year-old society security helper gets his own recurring Shreya arc from next episode, not this SR04.",
         "Retimed security desk 08:15–08:20 after the twins' gate greeting; Shreya leaves for station at 08:20."
       ],
-      "approval": "AUTHOR_APPROVED_PROSE_PUBLISHED_2026_11_16",
+      "approval": "AUTHOR_APPROVED_FINAL_FROZEN_2026_11_17",
       "publishedScene": {
         "uiTab": "shreya-prose",
         "uiHref": "./episode-02.html?tab=shreya-prose#shreya-sr04-mahendra",
         "images": [],
         "publication": "USER_REQUESTED_PUBLISHED_SR04"
       },
-      "authorConfirmationDate": "2026-11-16"
+      "authorConfirmationDate": "2026-11-16",
+      "authorFrozen": true
     },
     {
       "id": "SR05",
@@ -550,7 +555,7 @@
       "notes": [
         "Retimed 08:13–08:15 after SR03; Karan/Aman then meet Shivani 08:16–08:20, then Taniya/Soniya at gym from 08:25."
       ],
-      "approval": "AUTHOR_APPROVED_PROSE_PUBLISHED_2026_11_16",
+      "approval": "AUTHOR_APPROVED_FINAL_FROZEN_2026_11_17",
       "publishedScene": {
         "uiTab": "shreya-prose",
         "uiHref": "./episode-02.html?tab=shreya-prose#shreya-sr05-first-button",
@@ -560,7 +565,8 @@
         ],
         "publication": "USER_REQUESTED_PUBLISHED_SR05"
       },
-      "authorConfirmationDate": "2026-11-16"
+      "authorConfirmationDate": "2026-11-16",
+      "authorFrozen": true
     },
     {
       "id": "SR06",
@@ -584,7 +590,7 @@
       "notes": [
         "Twin Karan/Aman have already moved to their Shivani and Taniya gym thread."
       ],
-      "approval": "AUTHOR_APPROVED_PROSE_PUBLISHED_2026_11_16",
+      "approval": "AUTHOR_APPROVED_FINAL_FROZEN_2026_11_17",
       "publishedScene": {
         "uiTab": "shreya-prose",
         "uiHref": "./episode-02.html?tab=shreya-prose#shreya-sr06-drive",
@@ -594,7 +600,8 @@
         ],
         "publication": "USER_REQUESTED_PUBLISHED_SR06"
       },
-      "authorConfirmationDate": "2026-11-16"
+      "authorConfirmationDate": "2026-11-16",
+      "authorFrozen": true
     },
     {
       "id": "SR07",
@@ -780,7 +787,7 @@
         "SR07 is fiction; all adults; workplace hierarchy remains part of story conflict.",
         "Shreya's nursing care is a separate family reality, not part of workplace flirtation."
       ],
-      "approval": "AUTHOR_APPROVED_PROSE_PUBLISHED_2026_11_16",
+      "approval": "AUTHOR_APPROVED_FINAL_FROZEN_2026_11_17",
       "publishedScene": {
         "uiTab": "shreya-prose",
         "uiHref": "./episode-02.html?tab=shreya-prose#shreya-sr07-favourite-trainees",
@@ -789,7 +796,8 @@
         ],
         "publication": "USER_REQUESTED_PUBLISHED_SR07"
       },
-      "authorConfirmationDate": "2026-11-16"
+      "authorConfirmationDate": "2026-11-16",
+      "authorFrozen": true
     },
     {
       "id": "SR08",
@@ -816,7 +824,7 @@
         "No forced permission discussion or retail tag is part of this approved scene.",
         "Arvind has no FIL or biological family relation to Shreya; user requested correction."
       ],
-      "approval": "AUTHOR_APPROVED_PROSE_PUBLISHED_2026_11_16",
+      "approval": "AUTHOR_APPROVED_FINAL_FROZEN_2026_11_17",
       "publishedScene": {
         "uiTab": "shreya-prose",
         "uiHref": "./episode-02.html?tab=shreya-prose#shreya-sr08-arvind",
@@ -826,7 +834,8 @@
         "paragraphCount": 8,
         "images": []
       },
-      "authorConfirmationDate": "2026-11-16"
+      "authorConfirmationDate": "2026-11-16",
+      "authorFrozen": true
     },
     {
       "id": "SR09",
@@ -961,7 +970,7 @@
       "notes": [
         "Published full user-supplied SR09 narrative. Treat exact rawText as the prose source of truth; no invented additions."
       ],
-      "approval": "AUTHOR_APPROVED_PROSE_PUBLISHED_2026_11_16",
+      "approval": "AUTHOR_APPROVED_FINAL_FROZEN_2026_11_17",
       "publishedScene": {
         "uiTab": "shreya-prose",
         "uiHref": "./episode-02.html?tab=shreya-prose#shreya-sr09-chauhan",
@@ -973,7 +982,8 @@
           "./assets/shreya/ep02-sr09-chauhan-corridor.png"
         ]
       },
-      "authorConfirmationDate": "2026-11-16"
+      "authorConfirmationDate": "2026-11-16",
+      "authorFrozen": true
     }
   ],
   "secrets": [
@@ -1294,7 +1304,7 @@
     }
   ],
   "imagePolicy": "SR01 images are repository-hosted in assets/shreya/, with Drive originals. Signs visible in AI concept images are non-canon. Other Shreya archived images remain available. No other scenes automatically approved.",
-  "approvedPolicy": "Author correction 2026-11-16: all existing SR prose scenes are approved. The SR03 plot is approved, but its original full prose is absent and must not be invented; honor the user selection without relabeling missing content as published.",
+  "approvedPolicy": "Author lock 2026-11-17: All existing SR Episode 02 prose scenes final approved and frozen, original source text unchanged. SR03 missing full source prose is a frozen approved plot only, not invented or represented as published. No further plotting/review unless author explicitly reopens.",
   "leadDetails": {
     "breastfeedingMotherOf": "Anaya",
     "sr01Outfit": {
@@ -1391,19 +1401,21 @@
     "notes": "Eight generated scene-inspired images. No SR08 fantasy image; previously rejected generation not used. EP02 closure unchanged."
   },
   "authorApprovalUpdate": {
-    "date": "2026-11-16",
-    "authorStatement": "SR all scenes are approved",
+    "date": "2026-11-17",
+    "authorStatement": "All Episode 02 story scenes final approved and frozen; no plotting or verification pending",
     "proseSceneIds": [
       "SR01",
       "SR02A",
       "SR02B",
-      "SR05",
       "SR04",
+      "SR05",
       "SR06",
       "SR07",
       "SR08",
       "SR09"
     ],
-    "plotApprovedNoProse": "SR03"
+    "plotApprovedNoProse": "SR03",
+    "freeze": true,
+    "noSourceRewrite": true
   }
 }
