@@ -20,10 +20,11 @@ type ShivaniStaffroomPlot={scene:string;status:string;date:string;start:string;e
 type ShivaniCastLock={title:string;status:string;officeTwinsStudentCore:{id:string;name:string;age:number}[];officeChotu:{name:string;age:number;role:string};societyChotu:{name:string;age:number;role:string};juniorFacultyExcluded:{name:string;age:number}[];futureOnly:{name:string;age:number;note:string};biologicalTwinsNote:string;episode02End:string;nextWork:string;prologueBaselineReference?:{source:string;sourceScene:string;status:string;establishedPreviously:string[];episode03Difference:string}};
 type TaniyaSoniyaNightBeat={id:string;time:string;title:string;plot:string;physical?:string;reaction?:string;knowledge?:string;dialogue?:{speaker:string;line:string}[]};
 type TaniyaSoniyaNightScene={scene:string;start:string;end:string;title:string;location:string;beats:TaniyaSoniyaNightBeat[]};
-type TaniyaSoniyaNightReview={title:string;status:string;canonChecks:{episode02:string;episode03:string;otherKnowledge:string;sameDate:string;marriage:string;soniyaRelationship:string};scenes:TaniyaSoniyaNightScene[];day2Scope:Record<string,string>;approvalRules:string[]};
+type TaniyaSoniyaReviewIssue={beat:string;issue:string;toReview:string;tone?:string};
+type TaniyaSoniyaNightReview={title:string;status:string;canonChecks:{episode02:string;episode03:string;otherKnowledge:string;sameDate:string;marriage:string;soniyaRelationship:string};scenes:TaniyaSoniyaNightScene[];day2Scope:Record<string,string>;approvalRules:string[];writerReviewCorrections?:{status:string;taniyaRahulDream:TaniyaSoniyaReviewIssue[];soniyaGuddu:TaniyaSoniyaReviewIssue[];continuity:string[]}};
 type ShreyaEp04ABeat={id:string;time:string;title:string;plot:string;physical?:string;sightline?:string;reaction?:string;knowledge?:string;dialogue?:{speaker:string;line:string}[]};
 type ShreyaEp04AScene={id:string;number:string;title:string;start:string;end:string;location:string;beats:ShreyaEp04ABeat[];fadeToBlack?:boolean;prosePreview?:string;status:string};
-type ShreyaEp04A={title:string;status:string;canon:{handoff:string;wardrobe:string;chintu:string;arvind:string;morning:string;family:string;knowledge:string;day2:string};scenes:ShreyaEp04AScene[];household:Record<string,string>;day2Hooks:string[]};
+type ShreyaEp04A={title:string;status:string;canon:{handoff:string;wardrobe:string;chintu:string;arvind:string;morning:string;family:string;knowledge:string;day2:string};scenes:ShreyaEp04AScene[];household:Record<string,string>;day2Hooks:string[];householdScheduleReview?:{status:string;locationProposals:{person:string;when:string;where:string;status:string}[];timelineNotes:string[]};breastfeedingWriterReview?:{status:string;primaryPlacement:string;proseDirection:string;optionalSecondaryPlacement:string}};
 type ShivaniEp04ABeat={id:string;time:string;title:string;plot:string;physical?:string;sightline?:string;reaction?:string;dialogue?:{speaker:string;line:string}[]};
 type ShivaniEp04AScene={id:string;sceneNumber:string;title:string;start:string;end:string;location:string;status:string;fadeToBlack?:boolean;prosePreview?:string;beats:ShivaniEp04ABeat[]};
 type ShivaniEp04A={title:string;status:string;continuity:{latestApprovedHandoff:string;morningCallback:string;twinsTransport:string;deepu:string;kavya:string;husband:string;om:string;tara:string;manav:string};scenes:ShivaniEp04AScene[];household:Record<string,{location:string;status:string;workday?:string}>;approvalRules:string[]};
@@ -194,6 +195,12 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
        {beat.dialogue?.map((line,i)=><p key={i}><strong>{line.speaker}:</strong> {line.line}</p>)}
       </div>)}</div>
      </details>)}</div>
+     {taniyaSoniyaEp04A.writerReviewCorrections&&<details className="episode-outline" open>
+       <summary><strong>Writer-review corrections · scenes not changed</strong></summary>
+       <h3>Taniya · Rahul dream/reality</h3><div className="beat-list">{taniyaSoniyaEp04A.writerReviewCorrections.taniyaRahulDream.map((c,i)=><div className="beat-item" key={i}><p><strong>{c.beat} · Fix needed:</strong> {c.issue}</p><p><strong>Review before writing:</strong> {c.toReview}</p></div>)}</div>
+       <h3>Soniya · Guddu bold test</h3><div className="beat-list">{taniyaSoniyaEp04A.writerReviewCorrections.soniyaGuddu.map((c,i)=><div className="beat-item" key={i}><p><strong>{c.beat} · Fix needed:</strong> {c.issue}</p><p><strong>Review before writing:</strong> {c.toReview}</p></div>)}</div>
+       <p className="source-note">{taniyaSoniyaEp04A.writerReviewCorrections.status}</p>
+      </details>}
      <details className="episode-outline"><summary><strong>Episode 04B continuity warnings (Jan 2)</strong></summary>
       <div className="beat-list">{Object.entries(taniyaSoniyaEp04A.day2Scope).map(([key,value])=><p key={key}><strong>{titleCase(key)}:</strong> {value}</p>)}</div>
      </details>
@@ -226,6 +233,11 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
       </details>)}</div>
       <h3>Household — where everyone is</h3>
       <div className="beat-list">{Object.entries(shreyaEp04A.household).map(([person,where])=><div className="beat-item" key={person}><p><strong>{titleCase(person)}:</strong> {where}</p></div>)}</div>
+      {shreyaEp04A.householdScheduleReview&&<details className="episode-outline" open>
+       <summary><strong>New household location proposals · not locked canon</strong></summary>
+       <div className="beat-list">{shreyaEp04A.householdScheduleReview.locationProposals.map((item,i)=><div className="beat-item" key={i}><p><strong>{item.person} · {item.when}:</strong> {item.where}</p><p className="muted">{item.status}</p></div>)}</div>
+      </details>}
+      {shreyaEp04A.breastfeedingWriterReview&&<div className="beat-list"><p><strong>Anaya · breastfeeding / mother-daughter care:</strong> {shreyaEp04A.breastfeedingWriterReview.primaryPlacement}. {shreyaEp04A.breastfeedingWriterReview.proseDirection}</p><p className="muted">{shreyaEp04A.breastfeedingWriterReview.status}</p></div>}
       <details className="episode-outline"><summary><strong>2 January handoff — not yet approved</strong></summary><div className="beat-list">{shreyaEp04A.day2Hooks.map((item,i)=><p key={i}>{item}</p>)}</div></details>
     </>}
    </article>
