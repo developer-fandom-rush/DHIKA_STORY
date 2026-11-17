@@ -269,5 +269,79 @@
     "No author approval of prose is inferred from scene planning; all time assignments beyond EP03 17:45 are draft.",
     "User-directed non-graphic sexual facts are preserved only as brief off-page references; there must be no graphic depiction of self-pleasure, involuntary nudity, or sexual acts.",
     "SC06/SC07 WRITER CUE: 'naked and fingering remembering Vivek Rao' is a factual staging label; the sexual act and involuntary exposure are NOT described graphically."
-  ]
+  ],
+  "householdScheduleReview": {
+    "status": "NEW PROVISIONAL HOUSEHOLD LOCATIONS__NOT LOCKED_CANON__NO SCENE PROSE ALTERED",
+    "sourceChecks": [
+      "Vikram (36) is Shreya's husband. He works away from home in early evening; existing 04A source proposes return 20:40–20:50.",
+      "Arvind (65) is a resident elder addressed Uncle, NOT Vikram's father or Shreya's father-in-law. Episode 02 previously established his one-sided private interest.",
+      "Anaya (~1 year 8 months) is Shreya/Vikram's daughter, and Shreya is already established as breastfeeding/lactating in Episode 02.",
+      "Sameer (24) is Vikram's younger brother/Shreya's devar, Shruti (23) is Shreya's younger sister. No canon-confirmed Jan1 night return times exist for either."
+    ],
+    "locationProposals": [
+      {
+        "person": "Shreya",
+        "when": "17:45–23:15",
+        "where": "Chintu desk departure 17:45; own flat entry 18:07; home through sleep",
+        "status": "EP03 EXIT CONFIRMED; later 04A review"
+      },
+      {
+        "person": "Anaya",
+        "when": "17:45–~18:29",
+        "where": "At the Rathore apartment under Arvind's established childcare; settled safely in a separate child-care area while Shreya showers",
+        "status": "CARE ARRANGEMENT REVIEW; DO NOT LEAVE UNSAFE"
+      },
+      {
+        "person": "Arvind",
+        "when": "17:45–~19:45",
+        "where": "Rathore apartment with Anaya; brief bathroom mistake at ~18:29–18:32; tea and care at 18:36–19:10; withdraws to his own space afterward",
+        "status": "CURRENT EP04A REVIEW"
+      },
+      {
+        "person": "Sameer",
+        "when": "~19:40",
+        "where": "Returns to Rathore apartment from unspecified personal errand, briefly greets household; later in his own room from ~21:15",
+        "status": "NEW SUGGESTED CLOCK, NOT PRIORLY ESTABLISHED"
+      },
+      {
+        "person": "Shruti",
+        "when": "~20:10",
+        "where": "Returns to the Rathore apartment from an unspecified personal commitment, checks on Anaya/Shreya and then stays in her own room from ~21:25",
+        "status": "NEW SUGGESTED CLOCK, NOT PRIORLY ESTABLISHED"
+      },
+      {
+        "person": "Vikram",
+        "when": "~20:40–20:50",
+        "where": "Returns home from his working day; family time and shared private bedroom with Shreya later",
+        "status": "EXISTING EP04A PROPOSED ARRIVAL"
+      },
+      {
+        "person": "Anaya",
+        "when": "~21:30–21:45",
+        "where": "Private, ordinary breastfeeding by Shreya while preparing daughter for bed; no adults' intimate encounter in the child scene",
+        "status": "USER-REQUESTED ESSENTIAL FEEDING BEAT TO ADD WHEN DRAFTED"
+      },
+      {
+        "person": "Anaya",
+        "when": "~22:40–23:05 (only if wakes)",
+        "where": "Optional additional feeding/comfort after the couple's private fade-to-black, in her separate child-care area",
+        "status": "OPTIONAL REALISTIC NIGHT-CARE CALLBACK"
+      }
+    ],
+    "timelineNotes": [
+      "The new Sameer/Shruti returns are not facts of past episodes and must not be narrated as already agreed; review the hours before converting to prose.",
+      "Neither Sameer nor Shruti witnesses the 18:29 bathroom event; they return only later in the evening.",
+      "Arvind's brief departure from Anaya's play area must not leave the toddler in unsafe circumstances. Keep her safely settled and out of the bathroom; if extra caregiver is needed, adjust only after author reviews timings.",
+      "Only mother-daughter caregiving context for breastfeeding. Keep the feeding distinct from Shreya's shower and adult married intimacy.",
+      "Do not make Anaya a witness to adult intimacy, use her as comic interruption to sex, or invent a son."
+    ]
+  },
+  "breastfeedingWriterReview": {
+    "status": "REQUIRED FAMILY CARE EVENT FOR LATER PROSE__NOT A SCENE REWRITE",
+    "source": "EP02 character notes establish Shreya as a lactating/breastfeeding mother of daughter Anaya",
+    "primaryPlacement": "21:30–21:45 in existing Scene 04 SC13/early bedtime, before Vikram–Shreya fade-to-black at ~22:00",
+    "proseDirection": "Shreya feeds Anaya her breast milk in a natural, quiet mother-and-daughter moment, checks that she is comfortable, and settles her to sleep. The baby-care scene is not sexualized.",
+    "optionalSecondaryPlacement": "If Anaya wakes later, use the already existing SC15 22:35–23:15 family-care window for another brief feed or cuddle, without changing adult scene details.",
+    "approval": "Record as continuity/writer instruction; the original 4 scenes and 15 beats remain unchanged."
+  }
 }
