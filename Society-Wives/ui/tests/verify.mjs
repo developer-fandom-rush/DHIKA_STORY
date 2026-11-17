@@ -419,11 +419,11 @@ assert.equal(shreyaEpisode03Proposal.timeline.find(x=>x.id==='S03-08').sceneBeat
 assert.ok(shreyaEpisode03Proposal.timeline.find(x=>x.id==='S03-07').distinctEvent.includes('forearm')&&shreyaEpisode03Proposal.timeline.find(x=>x.id==='S03-07').distinctEvent.includes('waist'),'Contact choreography must distinguish Samar and Shaan');
 assert.ok(/prologue S05|Episode01 S05/.test(shreyaEpisode03Proposal.timeline.find(x=>x.id==='S03-08').history),'Chintu must remain established, not reintroduced');
 assert.ok(shreyaEpisode03Proposal.timeline.some(x=>x.id==='S03-03'&&x.place.includes('college')&&x.characters.some(z=>z.includes('Karan'))&&x.characters.some(z=>z.includes('Aman'))),'College crossover must involve civilian Karan and Aman, not restricted police academy');
-assert.deepEqual(shreyaEpisode03Proposal.reviewBeatSequence.slice(6,9).map(b=>b.kind),['active','active','bridge'],'New author-directed college beats must be dated, not shown as unreviewed optional filler');
+assert.deepEqual(shreyaEpisode03Proposal.reviewBeatSequence.slice(5,8).map(b=>b.kind),['active','active','bridge'],'New author-directed college beats must be dated, not shown as unreviewed optional filler');
 assert.equal(shreyaEpisode03Proposal.timeline.find(x=>x.id==='S03-03').sceneBeats.length,5,'College encounter must have five separately reviewable mini-beats');
 assert.equal(shreyaEpisode03Proposal.timeline.find(x=>x.id==='S03-03').sharedMemory?.status,'AUTHOR_CONFIRMED_ALL_THREE_REMEMBER_PLOT_2026_11_16','All three must carry the college scene forward');
 assert.ok(shreyaEpisode03Proposal.timeline.find(x=>x.id==='S03-03').sceneBeats.some(x=>x.dialogue?.some(d=>d[0]==='Shreya'&&d[1].includes('attention maangti'))),'Shreya must return to familiar teasing after the accident');
-assert.equal(shreyaEpisode03Proposal.reviewBeatSequence[7].label,'Plot locked · trio remembers incident · prose pending','Beat 8 approval label must reflect author decision');
+assert.equal(shreyaEpisode03Proposal.reviewBeatSequence[6].label,'Plot locked · trio remembers incident · prose pending','Beat 8 approval label must reflect author decision');
 assert.ok(sourcePlanning.includes('beat.sharedMemory'),'Planning UI must show explicit all-three shared memory for the college encounter');
 assert.ok(shreyaEpisode03Proposal.timeline.find(x=>x.id==='S03-03').distinctEvent.includes('first/top button'),'No newly invented uniform-button opening');
 assert.ok(shreyaEpisode03Proposal.timeline.find(x=>x.id==='S03-03').history.includes('08:13–08:15'),'College meet must refer to established morning SR05 familiarity');
