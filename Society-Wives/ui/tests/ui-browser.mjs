@@ -28,7 +28,7 @@ try {
  await page.locator('.main-nav a[href="#/reading"]').click();
  await page.locator('.scene-link').first().waitFor();
  check(await page.locator('.scene-link').count()===16,'Ankita Episode 02 reader presents all 16 published archive records');
- check((await page.locator('.section-intro').innerText()).includes('Author-approved final'),'Episode02 header says final');
+ check((await page.locator('.section-intro').textContent()).includes('Author-approved final'),'Episode02 header says final');
  check(await page.locator('.scene-sidebar .mini-dot').count()===0,'Episode02 has no stale scene-level review indicators');
  check(await page.locator('.source-scene .chip:visible').count()===0,'Episode02 historical review badge hidden in final reader');
  check(await page.locator('.perspective-tabs button').count()===6,'Episode 02 offers six perspectives with clean in-app controls');
