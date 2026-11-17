@@ -46,6 +46,7 @@ type Ep03Scene={id:string;title:string;date:string;time:string;place:string;stat
 type Ep03Data={episode:string;title:string;date:string;chapters:Record<string,Ep03Scene[]>};
 const storyTag=(status:string)=>{
  if(status==='AUTHOR_APPROVED_FINAL_PROSE_PUBLISHED_2026_11_17')return 'Final · Author approved · Published';
+ if(status==='GROK_SYNCED_FULL_PROSE_PUBLISHED_TO_UI_PENDING_AUTHOR_FINAL_APPROVAL_2026_11_17')return 'Grok-synced full prose · author review pending';
  if(status==='AUTHOR_REVISED_PROSE_IN_UI_PENDING_OVERALL_APPROVAL')return 'Author revisions highlighted · review pending';
  if(status==='ASSISTANT_AUTHORED_FULL_SCENE08_DRAFT_PENDING_USER_REVIEW')return 'Scene 08 prose draft · user review pending';
  if(status==='USER_SUBMITTED_SCENE05_PROSE_UPLOADED_UNEDITED_EXCEPT_ARRIVAL')return 'Author version · five beats with venue arrival';
@@ -144,7 +145,7 @@ function Episode03Reading({character,scene}:Props){
  const selectedIndex=scenes.findIndex(x=>x.id===selected?.id);
  const go=(id:string,who=active)=>openPage('reading',{episode:'03',character:who,scene:id});
  return <main className="page-width" id="episode03-final-prose">
-  <header className="section-intro"><span className="eyebrow">The Story · 1 January 2026</span><h1>Episode 03 · Written Scenes</h1><p>All eight Ankita scenes and all four Meenakshi scenes have written text in this Reader. Individual author approvals are preserved; unwritten scenes remain in Planning. Shreya has three written scenes; Taniya Scene 01 is a published working draft, while Shivani prose remains in the reader.</p></header>
+  <header className="section-intro"><span className="eyebrow">The Story · 1 January 2026</span><h1>Episode 03 · Written Scenes</h1><p>All eight Ankita scenes and all four Meenakshi scenes have written text in this Reader. Individual author approvals are preserved; unwritten scenes remain in Planning. Shreya has four written scenes, including the Grok-synced Training Ground review draft; Taniya Scene 01 is a published working draft, while Shivani prose remains in the reader.</p></header>
   <div className="episode-picker" role="group" aria-label="Choose episode">
    <button type="button" onClick={()=>openPage('home')}>Episode 01 · Prologue</button>
    <button type="button" onClick={()=>openPage('reading',{character:active})}>Episode 02 · Six perspectives</button>
