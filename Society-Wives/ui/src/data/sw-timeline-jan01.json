@@ -3,7 +3,7 @@
   "universe": "sw",
   "anchorDate": "2026-01-01",
   "clockOrigin": "00:01",
-  "sourcePolicy": "Jan 1 cross-lead clock reflects latest author-approved EP01/EP02 closure, EP03 written-scene locations and Taniya/Shivani source-plotted events. Episode 03 written text remains in Reader with individual approval statuses. Future Shivani plan is INDEXED by story time here without changing future plot files; conditional times are not canon facts.",
+  "sourcePolicy": "Jan 1 cross-lead clock reflects latest author-approved EP01/EP02 closure, EP03 written-scene locations and Taniya/Shivani source-plotted events. Episode 03 written text remains in Reader with individual approval statuses. Future Shivani plan is INDEXED by story time here without changing future plot files; conditional times are not canon facts. New Jan1 Chotu Phase A review slots are provisional overlays and do not approve plot/prose.",
   "events": [
     {
       "id": "e02-ankita-A02-SCENE-1",
@@ -1838,6 +1838,38 @@
       "detail": null
     },
     {
+      "id": "e03-shreya-SR10",
+      "date": "2026-01-01",
+      "sort": "10:30",
+      "start": "10:30",
+      "end": "11:10",
+      "timeLabel": "10:30–11:10",
+      "universe": "sw",
+      "title": "ACP Verma and Poonam — the awkward training test",
+      "lead": "Shreya",
+      "characters": [
+        "Shreya",
+        "ACP Verma",
+        "Poonam"
+      ],
+      "mentions": [],
+      "episode": "03",
+      "scene": "SR10",
+      "kind": "source-scene",
+      "state": "approved-prose",
+      "status": "AUTHOR_APPROVED_FINAL_PROSE_PUBLISHED_2026_11_17",
+      "source": "episode-03-reader.json",
+      "reader": {
+        "type": "sw-episode03",
+        "character": "shreya",
+        "scene": "10"
+      },
+      "flags": [
+        "Working plot, not published prose."
+      ],
+      "detail": "Shreya arrives during Poonam's close-contact training test. Poonam is lying on a mat while ACP Verma is positioned above her; they separate immediately when Shreya enters. The posture and sudden separation strike Shreya as awkward. Verma and Poonam explain that the test is part of the Vivek-linked women's training program. Verma says Shreya will be tested too; she teasingly asks whether he himself will take her test, and he replies yes. No additional physical act is established. Written scene is located in the unified Episode 03 Reader; original detailed author/prose approval state is preserved."
+    },
+    {
       "id": "e02-ankita-P03",
       "date": "2026-01-01",
       "sort": "10:37",
@@ -1906,6 +1938,52 @@
       "detail": null
     },
     {
+      "date": "2026-01-01",
+      "universe": "sw",
+      "mentions": [],
+      "flags": [],
+      "id": "e03-taniya-T03-01",
+      "sort": "10:50",
+      "start": "10:50",
+      "end": null,
+      "timeLabel": "10:50–11:05",
+      "title": "The Wedding Girl — Four-Person Circle",
+      "subtitle": "No bodily contact. Familiar desk proximity only.",
+      "lead": "Taniya",
+      "characters": [
+        "Taniya",
+        "Raghav (male duo)",
+        "Chirag (male duo)",
+        "Neha (female duo)",
+        "Andrea (female duo)",
+        "Punit (brief)"
+      ],
+      "episode": "03",
+      "scene": "T03-01",
+      "kind": "planned",
+      "state": "approved-plot",
+      "status": "AUTHOR APPROVED PLOT · PROSE NOT WRITTEN",
+      "source": "episode-03-taniya-solo-proposed-timeline.json",
+      "reader": {
+        "type": "sw-planning",
+        "character": "taniya",
+        "scene": "T03-01"
+      },
+      "detail": "New Year's Day December close keeps the team working. Raghav and Chirag have a long familiar two-man article-assistant working partnership; Neha and Andrea are equally familiar and teasing coworkers, not biological twins. They work together around Taniya; her engagement to Aditya is already common knowledge. Propose short shared work-history references, not an elaborate flashback.",
+      "beats": [
+        {
+          "id": "T03-01-physical",
+          "title": "Contact / physical action",
+          "body": "No bodily contact. Familiar desk proximity only."
+        },
+        {
+          "id": "T03-01-effect",
+          "title": "After-effect",
+          "body": "Office group is already familiar. Raghav has latent interest but does not confess; the four colleagues' joint rhythm carries into next beat."
+        }
+      ]
+    },
+    {
       "id": "e02-ankita-P04",
       "date": "2026-01-01",
       "sort": "10:51",
@@ -1937,6 +2015,51 @@
       },
       "flags": [],
       "detail": null
+    },
+    {
+      "date": "2026-01-01",
+      "universe": "sw",
+      "mentions": [],
+      "flags": [],
+      "id": "e03-taniya-T03-02",
+      "sort": "11:05",
+      "start": "11:05",
+      "end": null,
+      "timeLabel": "11:05–11:45",
+      "title": "The Filing Drawer — A Close Call",
+      "subtitle": "Raghav hand briefly supports Taniya at CLOTHED WAIST; Taniya reflexively holds Raghav's shirt at his torso. Both immediately release. No buttock touch, kiss or lasting embrace.",
+      "lead": "Taniya",
+      "characters": [
+        "Taniya",
+        "Raghav",
+        "Chirag",
+        "Neha",
+        "Andrea"
+      ],
+      "episode": "03",
+      "scene": "T03-02",
+      "kind": "planned",
+      "state": "approved-plot",
+      "status": "AUTHOR APPROVED PLOT · PROSE NOT WRITTEN",
+      "source": "episode-03-taniya-solo-proposed-timeline.json",
+      "reader": {
+        "type": "sw-planning",
+        "character": "taniya",
+        "scene": "T03-02"
+      },
+      "detail": "While retrieving an original bank reference, a loaded filing drawer shifts. Raghav stops the drawer and instinctively steadies Taniya while she catches his shirt; both release when the drawer is stable. The three teammates are close enough to hear commotion and tease afterward. No practice groom, staged romantic embrace or kiss.",
+      "beats": [
+        {
+          "id": "T03-02-physical",
+          "title": "Contact / physical action",
+          "body": "Raghav hand briefly supports Taniya at CLOTHED WAIST; Taniya reflexively holds Raghav's shirt at his torso. Both immediately release. No buttock touch, kiss or lasting embrace."
+        },
+        {
+          "id": "T03-02-effect",
+          "title": "After-effect",
+          "body": "Taniya is briefly startled, catches breath, recognizes unexpected closeness and returns to composed humour. Raghav pauses; Chirag only knows what he witnessed. No romantic conclusions."
+        }
+      ]
     },
     {
       "id": "e02-ankita-P05",
@@ -1971,6 +2094,38 @@
       "detail": null
     },
     {
+      "id": "e03-shreya-S03-01",
+      "date": "2026-01-01",
+      "sort": "11:12",
+      "start": "11:12",
+      "end": "11:25",
+      "timeLabel": "11:12–11:25",
+      "universe": "sw",
+      "title": "The strong-chai moment — station Chotu",
+      "lead": "Shreya",
+      "characters": [
+        "Shreya",
+        "Station Chotu (chai wala, adult 23 provisional)",
+        "Javed (brief interruption)"
+      ],
+      "mentions": [],
+      "episode": "03",
+      "scene": "S03-01",
+      "kind": "source-scene",
+      "state": "approved-prose",
+      "status": "AUTHOR_APPROVED_FINAL_PROSE_PUBLISHED_2026_11_17",
+      "source": "episode-03-reader.json",
+      "reader": {
+        "type": "sw-episode03",
+        "character": "shreya",
+        "scene": "S03-01"
+      },
+      "flags": [
+        "Working plot, not published prose."
+      ],
+      "detail": "While she reviews a routine timetable by the counter, he hands her the correct unlabelled cup before she even orders. She playfully tests whether he remembers everyone as attentively. He replies with a sharper-than-expected flirtatious line; her expression changes for a beat. A second small tangible hook: he notices she forgot the receipt containing the counter's operating-time stamp, returns it, and she realizes he's unusually observant. No forced or staged touching; proximity is natural at the counter. Written scene is located in the unified Episode 03 Reader; original detailed author/prose approval state is preserved."
+    },
+    {
       "id": "e02-ankita-P06",
       "date": "2026-01-01",
       "sort": "11:20",
@@ -2001,6 +2156,85 @@
       },
       "flags": [],
       "detail": null
+    },
+    {
+      "id": "e03-shreya-SR11",
+      "date": "2026-01-01",
+      "sort": "11:30",
+      "start": "11:30",
+      "end": "11:40",
+      "timeLabel": "11:30–11:40",
+      "universe": "sw",
+      "title": "DCP Rathod — the review and private imagined evening",
+      "lead": "Shreya",
+      "characters": [
+        "Shreya",
+        "DCP Rathod"
+      ],
+      "mentions": [],
+      "episode": "03",
+      "scene": "SR11",
+      "kind": "source-scene",
+      "state": "source-review",
+      "status": "ASSISTANT_PROFESSIONAL_DRAFT_WITH_USER_SUPPLIED_DCP_G01_UNCHANGED_PENDING_APPROVAL",
+      "source": "episode-03-reader.json",
+      "reader": {
+        "type": "sw-episode03",
+        "character": "shreya",
+        "scene": "SR11"
+      },
+      "flags": [
+        "Working plot, not published prose."
+      ],
+      "detail": "During the official documentation review, Rathod challenges one of Shreya's case decisions. She calmly defends it with her evidence and independent reasoning. The exchange is professional and ends with ordinary acknowledgement. Written scene is located in the unified Episode 03 Reader; original detailed author/prose approval state is preserved."
+    },
+    {
+      "date": "2026-01-01",
+      "universe": "sw",
+      "mentions": [],
+      "flags": [],
+      "id": "e03-taniya-T03-03",
+      "sort": "11:45",
+      "start": "11:45",
+      "end": null,
+      "timeLabel": "11:45–12:25",
+      "title": "Senior Review — The Hidden Uncle Track",
+      "subtitle": "No body touch, no personal proposition and no senior advance.",
+      "lead": "Taniya",
+      "characters": [
+        "Taniya",
+        "Vivek Suri (55, UNCLE)",
+        "Pradeep Khanna (48)",
+        "Mr. Mehra (60, remote)",
+        "Raghav",
+        "Chirag",
+        "Neha",
+        "Andrea"
+      ],
+      "episode": "03",
+      "scene": "T03-03",
+      "kind": "planned",
+      "state": "approved-plot",
+      "status": "AUTHOR APPROVED PLOT · PROSE NOT WRITTEN",
+      "source": "episode-03-taniya-solo-proposed-timeline.json",
+      "reader": {
+        "type": "sw-planning",
+        "character": "taniya",
+        "scene": "T03-03"
+      },
+      "detail": "Taniya defends December-close audit findings. Pradeep queries evidence, Mehra joins remotely, and four staff assist. Vivek Suri chairs review professionally, but reader-only inner narration establishes he finds engaged Taniya sexually attractive and privately imagines consensual intimacy with her before her wedding. She does not know or reciprocate. Vivek Suri is NOT gym trainer Vivek Rao.",
+      "beats": [
+        {
+          "id": "T03-03-physical",
+          "title": "Contact / physical action",
+          "body": "No body touch, no personal proposition and no senior advance."
+        },
+        {
+          "id": "T03-03-effect",
+          "title": "After-effect",
+          "body": "The reader knows Vivek's unacted desire; Taniya perceives normal management review. A valid afternoon review is planned; older-man track stops later today."
+        }
+      ]
     },
     {
       "id": "e02-ankita-P07",
@@ -2065,6 +2299,83 @@
         "Missing published prose"
       ],
       "detail": "Ritesh enters Meenakshi's locker using an unauthorized duplicate key."
+    },
+    {
+      "id": "e03-shreya-SR13",
+      "date": "2026-01-01",
+      "sort": "12:20",
+      "start": "12:20",
+      "end": "13:15",
+      "timeLabel": "12:20–13:15",
+      "universe": "sw",
+      "title": "Poonam's observed pattern — brief records-desk exchange",
+      "lead": "Shreya",
+      "characters": [
+        "Shreya",
+        "Poonam"
+      ],
+      "mentions": [],
+      "episode": "03",
+      "scene": "SR13",
+      "kind": "planned",
+      "state": "planned",
+      "status": "Approved · short exchange",
+      "source": "episode-03-shreya-jan01-proposed-timeline.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "shreya",
+        "scene": "SR13"
+      },
+      "flags": [
+        "Working plot, not published prose."
+      ],
+      "detail": "During the existing 12:20–13:15 station paperwork block, Poonam quickly flags Chauhan's unusual follow-up request. Shreya instructs her to handle it through process. No separate substantial scene, new Chauhan appearance, expanded investigation, or extended debrief."
+    },
+    {
+      "date": "2026-01-01",
+      "universe": "sw",
+      "mentions": [],
+      "flags": [],
+      "id": "e03-taniya-T03-04",
+      "sort": "12:25",
+      "start": "12:25",
+      "end": null,
+      "timeLabel": "12:25–13:15",
+      "title": "Office Chotu Punit Enters",
+      "subtitle": "No intimate contact; file handovers only. Punit's actual personal encounter is deferred to the next office day.",
+      "lead": "Taniya",
+      "characters": [
+        "Taniya",
+        "Punit (22, CHOTU)",
+        "Raghav",
+        "Chirag",
+        "Neha",
+        "Andrea"
+      ],
+      "episode": "03",
+      "scene": "T03-04",
+      "kind": "planned",
+      "state": "approved-plot",
+      "status": "AUTHOR APPROVED PLOT · PROSE NOT WRITTEN",
+      "source": "episode-03-taniya-solo-proposed-timeline.json",
+      "reader": {
+        "type": "sw-planning",
+        "character": "taniya",
+        "scene": "T03-04"
+      },
+      "detail": "After a short ordinary break, Punit, a known CA trainee, brings archived files and stationery. Neha teases his formal manner, Andrea uses dry office jokes, and Punit surprises them with a witty reply. Taniya gives practical next-day assignments. Old EP02 TS15 Soniya-at-home is not imported as an office scene.",
+      "beats": [
+        {
+          "id": "T03-04-physical",
+          "title": "Contact / physical action",
+          "body": "No intimate contact; file handovers only. Punit's actual personal encounter is deferred to the next office day."
+        },
+        {
+          "id": "T03-04-effect",
+          "title": "After-effect",
+          "body": "Punit's shy admiration remains one-sided/reader-only. 13:15 concludes Phase A, not the episode."
+        }
+      ]
     },
     {
       "id": "e02-ankita-P08",
@@ -2409,6 +2720,108 @@
       "detail": null
     },
     {
+      "id": "e03-shreya-S03-02",
+      "date": "2026-01-01",
+      "sort": "13:15",
+      "start": "13:15",
+      "end": "14:05",
+      "timeLabel": "13:15–14:05",
+      "universe": "sw",
+      "title": "Unexpected college crossing — Shreya departs on official duty",
+      "lead": "Shreya",
+      "characters": [
+        "Shreya (33)",
+        "Karan (22; management-entrance preparation)",
+        "Aman (22; Java/backend job interviews)"
+      ],
+      "mentions": [],
+      "episode": "03",
+      "scene": "S03-02",
+      "kind": "planned",
+      "state": "planned",
+      "status": "Author-directed college scene · plot review",
+      "source": "episode-03-shreya-jan01-proposed-timeline.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "shreya",
+        "scene": "S03-02"
+      },
+      "flags": [
+        "User-directed college encounter and reaction; individual lines and scene mechanics still plot-level drafts, not approved prose.",
+        "Karan and Aman attend as civilian career-prep guests, not police trainees. Neither enters Beat10 station training.",
+        "Shreya's Episode02 approved uniform and evening Ankita twin pickup timeline stay intact."
+      ],
+      "detail": "13:15–13:30 Shreya finishes work and a short lunch; 13:30–13:55 she drives to the public college under an official cyber-safety session assignment, 13:55–14:05 she signs in at the reception and prepares her demonstration notes. Karan and Aman travel independently together for an advertised open cyber-safety/career-awareness presentation; neither expects Shreya and she has not invited them personally. They see her at the venue only at Beat 8; no staged roadside pickup or magically timed meeting.",
+      "beats": [
+        {
+          "id": "B07-01",
+          "at": "13:15–13:30",
+          "title": "Official assignment & lunch",
+          "body": "Shreya completes desk work, confirms her already-booked public college cyber-safety talk and has a short lunch. The assignment is a proposed Episode03 premise, not an established older event.",
+          "internal": "Desk ki last file band karke Shreya ne official seminar note dekha. College session ke liye nikalna tha; usne phone aur briefing folder check kiya."
+        },
+        {
+          "id": "B07-02",
+          "at": "13:30–13:55",
+          "title": "Independent travel",
+          "body": "Shreya drives as invited police guest. Separately Karan seeks management/career guidance and Aman a tech/recruitment workshop at the same open event. Neither has been invited by Shreya. Both are still job-preparing adults, not newly assumed college students.",
+          "internal": "Shreya police vehicle se nahin, apni established car se venue ke liye chali. Doosri taraf Karan aur Aman apne alag career plans ke saath usi public event ki taraf the."
+        },
+        {
+          "id": "B07-03",
+          "at": "13:55–14:05",
+          "title": "Separate event registration",
+          "body": "Shreya signs in through the invited-speaker desk. The twins sign in as open-program guests. They do not see her until the program begins.",
+          "internal": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-01-01",
+      "universe": "sw",
+      "mentions": [],
+      "flags": [],
+      "id": "e03-taniya-T03-05",
+      "sort": "13:15",
+      "start": "13:15",
+      "end": null,
+      "timeLabel": "13:15–14:15",
+      "title": "Lunch & Laughter",
+      "subtitle": "Brief voluntary coworker group-photo closeness; Andrea draws Raghav into a pose. No Taniya intimate contact.",
+      "lead": "Taniya",
+      "characters": [
+        "Taniya",
+        "Raghav",
+        "Chirag",
+        "Neha",
+        "Andrea"
+      ],
+      "episode": "03",
+      "scene": "T03-05",
+      "kind": "planned",
+      "state": "approved-plot",
+      "status": "AUTHOR APPROVED PLOT · PROSE NOT WRITTEN",
+      "source": "episode-03-taniya-solo-proposed-timeline.json",
+      "reader": {
+        "type": "sw-planning",
+        "character": "taniya",
+        "scene": "T03-05"
+      },
+      "detail": "Staggered lunch recalls their past audit deadlines and team get-togethers. Andrea draws Raghav into a casual group photograph, Neha jokes, Chirag delivers dry replies, and Taniya takes the photo. The four cohere as an easy friend group; no one becomes Taniya's partner.",
+      "beats": [
+        {
+          "id": "T03-05-physical",
+          "title": "Contact / physical action",
+          "body": "Brief voluntary coworker group-photo closeness; Andrea draws Raghav into a pose. No Taniya intimate contact."
+        },
+        {
+          "id": "T03-05-effect",
+          "title": "After-effect",
+          "body": "Male and female duo chemistry stays collective, not two new committed couples."
+        }
+      ]
+    },
+    {
       "id": "ep03-ankita-scene02",
       "date": "2026-01-01",
       "sort": "13:15",
@@ -2656,6 +3069,123 @@
       "sourceEvidence": "Original prose present in Episode 03 unified reader; source approval shown per scene."
     },
     {
+      "id": "e03-shreya-S03-03",
+      "date": "2026-01-01",
+      "sort": "14:05",
+      "start": "14:05",
+      "end": "15:05",
+      "timeLabel": "14:05–15:05",
+      "universe": "sw",
+      "title": "Cyber-safety demo — unexpected Karan–Aman encounter and brief wardrobe slip",
+      "lead": "Shreya",
+      "characters": [
+        "Shreya (33, on-duty inspector)",
+        "Karan (22, adult attendee)",
+        "Aman (22, adult attendee)",
+        "Unnamed adult public attendees (background only)"
+      ],
+      "mentions": [],
+      "episode": "03",
+      "scene": "S03-03",
+      "kind": "planned",
+      "state": "planned",
+      "status": "Author-approved college plot · prose pending",
+      "source": "episode-03-shreya-jan01-proposed-timeline.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "shreya",
+        "scene": "S03-03"
+      },
+      "flags": [
+        "Confirmed by author: all three remember the unexpected college meeting/accident and later talk with previous familiarity.",
+        "The exact prose and dialogue are still draft; no adult romance or physical incident is automatically implied.",
+        "Karan and Aman independently attend as adult career-prep visitors and leave before Ankita's evening pickup. Beat10 station cast unchanged."
+      ],
+      "detail": "During a public, career-relevant cyber-safety demonstration, Shreya unexpectedly meets already-familiar society twins Karan and Aman. A loose backpack strap briefly catches a display stand, they prevent it falling, and a few of her papers drop. As she bends to retrieve them, the previously unbuttoned first/top button collar shifts forward for an instant, unintentionally revealing a small amount of the upper breast/cleavage area to both men from the side. She immediately straightens and fixes her uniform. Karan briefly stops joking; Aman discreetly returns a folder. Shreya has a moment of private, confused awareness, then the session returns to ordinary safety instruction. No deliberate display, further touch or extended embarrassment. Shared memory: all three remember the brief incident; normal teasing resumes and it remains a discreet private observation. No intrusive callbacks.",
+      "beats": [
+        {
+          "id": "B08-01",
+          "at": "14:05–14:15",
+          "title": "Unplanned reunion",
+          "body": "Shreya sees Karan by management/career guidance and Aman near technical recruitment guidance. They converge near her open-awareness session and all are surprised; nobody knew Shreya was the guest officer. Add an easy callback to their morning parking-gate banter: all three speak with prior familiarity, not like strangers. Shreya teases their constant appearances but retains professional control.",
+          "internal": "Audience ke familiar chehre dekhkar Shreya ka ek pal ke liye focus badla. Karan ki usual grin aa gayi; Aman seedha khada hokar calmly hello bola."
+        },
+        {
+          "id": "B08-02",
+          "at": "14:15–14:34",
+          "title": "A relevant demonstration",
+          "body": "Shreya's public demonstration covers suspicious recruiter emails and account safety. Aman recognizes a fraudulent technical login link; Karan notices fake time pressure in an apparent management internship offer. Both contribute without taking attention from her official work.",
+          "internal": "Shreya ne sample message screen par rakha. Aman ne fake sender-domain point out kiya aur Karan ne 'apply in five minutes' pressure catch kar liya."
+        },
+        {
+          "id": "B08-03",
+          "at": "14:34–14:36",
+          "title": "Single accidental wardrobe moment",
+          "body": "While Karan turns near the booth, his backpack strap catches the loose edge of a lightweight display stand. Aman catches the tilting stand; a few Shreya handouts fall. When Shreya bends to collect them, her already open top uniform neckline briefly shifts enough that both men unintentionally glimpse a small upper part of her breasts/cleavage from the side. No second button opens. She rises, adjusts the uniform immediately; both avert their gaze. No touching, tearing, intentional exposure or extended view.",
+          "internal": "Karan ka backpack strap stand mein atka aur Aman ne usse girne se bachaya. Kuch handouts neeche gire. Shreya ne jhukkar papers uthaye; uska pehle se loose top collar ek pal ko shift hua. Teeno ne incident register kiya, Shreya ne shirt set ki aur kisi ne isay badhaaya nahi. Accident ke baad baat seedha demonstration par aa gayi."
+        },
+        {
+          "id": "B08-04",
+          "at": "14:36–14:40",
+          "title": "Awareness and a quick return to normal",
+          "body": "Karan, normally a joker, goes briefly quiet. Aman returns Shreya's folder while looking at the printed handout. Shreya infers they may have seen the accidental glimpse, feels a short confused/private self-consciousness, and then treats it as a minor interruption instead of a public incident. She cannot know their internal thoughts, nor does this imply consent to further attention.",
+          "internal": "Shreya ne pal-bhar ko socha ki dono ne note kiya hoga; Karan ki unusually restrained smile aur Aman's practical help usse yaad rahi. Phir usne unko waise hi halka tease kiya jaise subah parking gate par karti thi. Karan wapas natural masti mein aa gaya aur Aman quietly focus se answer deta raha. Kisi ne awkward moment ki visibility par direct comment nahi kiya."
+        },
+        {
+          "id": "B08-05",
+          "at": "14:40–15:05",
+          "title": "Session normalizes and ends",
+          "body": "Shreya completes the public cyber-safety session. Karan returns to light banter about career readiness while Aman asks an actual verification question. Their normal behavior, not additional exposure, signals that the awkward minute has passed. Familiar teasing naturally returns before the goodbye; all three can recall the incident afterward without treating the wardrobe moment as a joke or an invitation to repeat it.",
+          "internal": "Agle examples mein conversation phir safe links, reporting aur practical screening par aa gayi. College mein Shreya guest officer hi rahi; kisi ne accident ko topic nahi banaya."
+        }
+      ]
+    },
+    {
+      "date": "2026-01-01",
+      "universe": "sw",
+      "mentions": [],
+      "flags": [],
+      "id": "e03-taniya-T03-06",
+      "sort": "14:15",
+      "start": "14:15",
+      "end": null,
+      "timeLabel": "14:15–15:15",
+      "title": "A Small Celebration — Andrea & Chirag",
+      "subtitle": "ANDREA gives CHIRAG one brief playful KISS ON CHEEK. TANIYA has no kiss or romantic touch.",
+      "lead": "Taniya",
+      "characters": [
+        "Taniya",
+        "Raghav",
+        "Chirag",
+        "Neha",
+        "Andrea"
+      ],
+      "episode": "03",
+      "scene": "T03-06",
+      "kind": "planned",
+      "state": "approved-plot",
+      "status": "AUTHOR APPROVED PLOT · PROSE NOT WRITTEN",
+      "source": "episode-03-taniya-solo-proposed-timeline.json",
+      "reader": {
+        "type": "sw-planning",
+        "character": "taniya",
+        "scene": "T03-06"
+      },
+      "detail": "Team solves a tricky report discrepancy. Chirag identifies the crucial detail, Raghav jokingly claims credit and Neha calls him out. Andrea spontaneously gives Chirag a quick, voluntary cheek peck in the spirit of New Year celebration, steps away laughing; Raghav mock-protests, Neha laughs and Taniya watches before saying it is time to work. No relationship is declared.",
+      "beats": [
+        {
+          "id": "T03-06-physical",
+          "title": "Contact / physical action",
+          "body": "ANDREA gives CHIRAG one brief playful KISS ON CHEEK. TANIYA has no kiss or romantic touch."
+        },
+        {
+          "id": "T03-06-effect",
+          "title": "After-effect",
+          "body": "Chirag is briefly surprised/amused; Andrea openly playful; Taniya smiles and directs the team back to reports. No romance/couple status."
+        }
+      ]
+    },
+    {
       "id": "e04-meenakshi-naveen-handoff",
       "date": "2026-01-01",
       "sort": "14:15",
@@ -2685,6 +3215,63 @@
         "Episode 04 continues from Episode 03 Scene 01, not from evening Scene 04"
       ],
       "detail": "The continuation from the 14:15 Naveen cut is not written. This is a reminder, not a source encounter."
+    },
+    {
+      "id": "e03-shreya-S03-04",
+      "date": "2026-01-01",
+      "sort": "15:05",
+      "start": "15:05",
+      "end": "15:40",
+      "timeLabel": "15:05–15:40",
+      "universe": "sw",
+      "title": "College exit, station return and training gear change",
+      "lead": "Shreya",
+      "characters": [
+        "Shreya (33)",
+        "Karan (22, brief farewell)",
+        "Aman (22, brief farewell)"
+      ],
+      "mentions": [],
+      "episode": "03",
+      "scene": "S03-04",
+      "kind": "planned",
+      "state": "planned",
+      "status": "Author-directed transition · prose pending",
+      "source": "episode-03-shreya-jan01-proposed-timeline.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "shreya",
+        "scene": "S03-04"
+      },
+      "flags": [
+        "User-directed college encounter and reaction; individual lines and scene mechanics still plot-level drafts, not approved prose.",
+        "Karan and Aman attend as civilian career-prep guests, not police trainees. Neither enters Beat10 station training.",
+        "Shreya's Episode02 approved uniform and evening Ankita twin pickup timeline stay intact."
+      ],
+      "detail": "15:05–15:10 normal sign-out and courteous goodbye; Shreya buttons the loose upper uniform button. 15:10–15:30 she drives separately back to station, while Karan and Aman leave for their own commitments. 15:30–15:40 she changes to navy athletic T-shirt and black trousers and prepares the approved five-person station drill that starts at 15:40.",
+      "beats": [
+        {
+          "id": "B09-01",
+          "at": "15:05–15:10",
+          "title": "Ordinary goodbye",
+          "body": "The audience disperses and the twins thank Shreya. Neither pursues a ride or date with her. Shreya deliberately fastens the previously loose top uniform button before leaving.",
+          "internal": "Shreya ne folder pakda, collar ko ek baar check karke upper button close kiya aur organizer se sign-out kar liya."
+        },
+        {
+          "id": "B09-02",
+          "at": "15:10–15:30",
+          "title": "Separate routes",
+          "body": "Shreya drives alone to the police station. Karan and Aman return to their own schedule, free well before Ankita's approximately 17:23 call and pickup. The college must be close enough for this proposed 20-minute trip.",
+          "internal": ""
+        },
+        {
+          "id": "B09-03",
+          "at": "15:30–15:40",
+          "title": "Wardrobe and training reset",
+          "body": "At the police station Shreya changes out of uniform into her navy fitted training T-shirt and black athletic trousers. She joins Meera, Kavita, Rohas and Lokesh for previously approved training-ground Beat10.",
+          "internal": "Uniform se training clothes mein change karke Shreya ne drill cones aur flags check kiye. College ka awkward moment ab duty routine se peeche chhoot chuka tha."
+        }
+      ]
     },
     {
       "id": "ep03-ankita-scene04",
@@ -2719,6 +3306,84 @@
       "detail": "Ankita rebuttons before meeting junior IT support colleague Rohit, who returns equipment and arranges tomorrow's corrected slip. Draft starts approximately 15:15; time window provisional."
     },
     {
+      "date": "2026-01-01",
+      "universe": "sw",
+      "mentions": [],
+      "flags": [],
+      "id": "e03-taniya-T03-07",
+      "sort": "15:15",
+      "start": "15:15",
+      "end": null,
+      "timeLabel": "15:15–16:20",
+      "title": "The Second Flat — An Active Address",
+      "subtitle": "No body touch or visit. Taniya retains control of keys/access.",
+      "lead": "Taniya",
+      "characters": [
+        "Taniya",
+        "Neha",
+        "Andrea",
+        "Saloni (supporting message only)"
+      ],
+      "episode": "03",
+      "scene": "T03-07",
+      "kind": "planned",
+      "state": "approved-plot",
+      "status": "AUTHOR APPROVED PLOT · PROSE NOT WRITTEN",
+      "source": "episode-03-taniya-solo-proposed-timeline.json",
+      "reader": {
+        "type": "sw-planning",
+        "character": "taniya",
+        "scene": "T03-07"
+      },
+      "detail": "Taniya still rents a near-office flat originally taken for late shifts; although she currently stays with Soniya in another society, the rent and access remain active. Select trusted colleagues sometimes ask permission to use the flat privately with romantic partners, including some extramarital relationships; she does not know every detail. Neha jokes about waiting lists; Andrea asks if it is free. Saloni can send a brief logistics message, with no newly invented affair attributed to her. No one uses the flat on-page today.",
+      "beats": [
+        {
+          "id": "T03-07-physical",
+          "title": "Contact / physical action",
+          "body": "No body touch or visit. Taniya retains control of keys/access."
+        },
+        {
+          "id": "T03-07-effect",
+          "title": "After-effect",
+          "body": "The rented studio becomes a credible future shared-location subplot rather than today's sexual encounter."
+        }
+      ]
+    },
+    {
+      "id": "e03-shreya-S03-05",
+      "date": "2026-01-01",
+      "sort": "15:40",
+      "start": "15:40",
+      "end": "16:05",
+      "timeLabel": "15:40–16:05",
+      "universe": "sw",
+      "title": "The Training Ground Challenge — five-person flag drill",
+      "lead": "Shreya",
+      "characters": [
+        "Shreya (33, lead instructor)",
+        "Meera (24, police trainee)",
+        "Kavita (23, constable in Shreya training group)",
+        "Rohas (24, police trainee)",
+        "Lokesh (24, police trainee)"
+      ],
+      "mentions": [],
+      "episode": "03",
+      "scene": "S03-05",
+      "kind": "planned",
+      "state": "planned",
+      "status": "Approved plot · prose pending",
+      "source": "episode-03-shreya-jan01-proposed-timeline.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "shreya",
+        "scene": "S03-05"
+      },
+      "flags": [
+        "Working plot, not published prose."
+      ],
+      "detail": "In Vivek-inspired timed pursuit/flag-control drill, Rohas calls Shreya into the competition. Meera and Kavita run the first challenge against Rohas and Lokesh; Meera's speed distracts Rohas and Kavita unexpectedly wins the flag. Shreya accepts the next challenge. She initially outmaneuvers Rohas, while quiet Lokesh predicts her pivot and takes the side training tag. During the rapid tag capture, there is one brief natural close-contact moment: Lokesh's hand near Shreya's clothed waist, Shreya steadying on his forearm, then both release. Shreya notices a different momentary awareness without declaring a relationship. Lokesh's clean win surprises her."
+    },
+    {
       "id": "ep03-ankita-scene05",
       "date": "2026-01-01",
       "sort": "16:00",
@@ -2751,6 +3416,81 @@
         "Minutes proposed, not final clock; 18:00 Ankita home deadline"
       ],
       "detail": "16:00–16:40 planned window: office departure, five-seat car, two brief seat-contact moments, teasing, then venue parking at about 16:40; original author text preserved. Scene 06 starts only after arrival."
+    },
+    {
+      "id": "e03-shreya-S03-06",
+      "date": "2026-01-01",
+      "sort": "16:05",
+      "start": "16:05",
+      "end": "17:05",
+      "timeLabel": "16:05–17:05",
+      "universe": "sw",
+      "title": "Police closeout and return to Gulmohar Heights — short transition",
+      "lead": "Shreya",
+      "characters": [
+        "Shreya"
+      ],
+      "mentions": [],
+      "episode": "03",
+      "scene": "S03-06",
+      "kind": "planned",
+      "state": "planned",
+      "status": "Transition draft · no separate encounter",
+      "source": "episode-03-shreya-jan01-proposed-timeline.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "shreya",
+        "scene": "S03-06"
+      },
+      "flags": [
+        "Duty-to-society transit only, after approved Beat10. Shreya still in navy fitness outfit."
+      ],
+      "detail": "After 15:40–16:05 approved training-ground drill, Shreya signs out the training checklist, winds down station work until ~16:35, and drives home by ~17:05. She chooses to keep the navy dry-fit training T-shirt, black trousers and ponytail from Beat 10, rather than inventing a second wardrobe change; her police uniform is already stored. One concise transition, not a separate intimacy or extra officer encounter.",
+      "beats": []
+    },
+    {
+      "date": "2026-01-01",
+      "universe": "sw",
+      "mentions": [],
+      "flags": [],
+      "id": "e03-taniya-T03-08",
+      "sort": "16:20",
+      "start": "16:20",
+      "end": null,
+      "timeLabel": "16:20–17:30",
+      "title": "Uncle's Second Look",
+      "subtitle": "No physical contact or pressured intimacy.",
+      "lead": "Taniya",
+      "characters": [
+        "Taniya",
+        "Vivek Suri (UNCLE)",
+        "Pradeep Khanna",
+        "Chirag (support)"
+      ],
+      "episode": "03",
+      "scene": "T03-08",
+      "kind": "planned",
+      "state": "approved-plot",
+      "status": "AUTHOR APPROVED PLOT · PROSE NOT WRITTEN",
+      "source": "episode-03-taniya-solo-proposed-timeline.json",
+      "reader": {
+        "type": "sw-planning",
+        "character": "taniya",
+        "scene": "T03-08"
+      },
+      "detail": "Vivek calls a genuine final figures review, Pradeep wraps audit traceability and Taniya presents results. Reader-only sexual attraction remains part of Vivek's private perspective, but he keeps professional conduct. This closes the uncle thread for Episode 03; no approach, proposition or Taniya knowledge.",
+      "beats": [
+        {
+          "id": "T03-08-physical",
+          "title": "Contact / physical action",
+          "body": "No physical contact or pressured intimacy."
+        },
+        {
+          "id": "T03-08-effect",
+          "title": "After-effect",
+          "body": "Only reader knows his unacted fantasy; a potential future plot node, no further escalation here."
+        }
+      ]
     },
     {
       "id": "ep03-ankita-scene06",
@@ -2958,6 +3698,147 @@
       "sourceEvidence": "Original prose present in Episode 03 unified reader; source approval shown per scene."
     },
     {
+      "date": "2026-01-01",
+      "universe": "sw",
+      "mentions": [],
+      "flags": [],
+      "id": "e03-shivani-scene02-master",
+      "sort": "17:00",
+      "start": "17:00",
+      "end": null,
+      "timeLabel": "17:00–17:20",
+      "title": "Shivani Scene 02 — College staffroom master sequence",
+      "lead": "Shivani",
+      "characters": [
+        "Shivani",
+        "Pooja",
+        "Kriti",
+        "Harsh",
+        "Laksh",
+        "Nandini",
+        "Ritika",
+        "Arjun Mehta"
+      ],
+      "episode": "03",
+      "scene": "S02",
+      "kind": "planned",
+      "state": "planned",
+      "status": "MASTER PLOT REFERENCE · PROSE PENDING",
+      "source": "episode-03-shivani-scene02-master-reference.json",
+      "reader": {
+        "type": "sw-planning",
+        "character": "shivani",
+        "scene": "S02"
+      },
+      "detail": "Source master female-wise five-person reference: 17:00–17:20 campus staffroom, chronological interleaved plot only; full prose not available in unified Reader."
+    },
+    {
+      "id": "e03-shreya-S03-07",
+      "date": "2026-01-01",
+      "sort": "17:10",
+      "start": "17:10",
+      "end": "17:33",
+      "timeLabel": "17:10–17:33",
+      "universe": "sw",
+      "title": "Samar & Shaan — two familiar bets, two unexpected moments of contact",
+      "lead": "Shreya",
+      "characters": [
+        "Shreya (33)",
+        "Samar (24, society sports twin)",
+        "Shaan (24, society sports twin)"
+      ],
+      "mentions": [],
+      "episode": "03",
+      "scene": "S03-07",
+      "kind": "planned",
+      "state": "planned",
+      "status": "Author-selected physical escalation · beat draft",
+      "source": "episode-03-shreya-jan01-proposed-timeline.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "shreya",
+        "scene": "S03-07"
+      },
+      "flags": [
+        "Samar/Shaan have established workouts with Shreya since EP02 SR01; their paid occupations NOT yet fixed.",
+        "All contact is brief, non-graphic and voluntary, with a short private Shreya response.",
+        "No repetition of Beat10 Lokesh and Beat8 Karan/Aman, no separate coffee/date promise."
+      ],
+      "detail": "Samar and Shaan are legitimately setting up their society's New Year fitness activity, testing resistance handles and a low marked balance strip rather than waiting around for Shreya. Shreya sees a misaligned marker and chooses to give the equipment a quick trial. Samar's palm-to-palm partner resistance feels initially familiar, but an unexpected shared step brings his hand to the outside of her upper arm as he stabilizes the strap handle; Shreya feels a brief charged surprise, notices he did not exploit the moment and keeps participating voluntarily. Shaan then quietly checks the balance strip and, after asking permission to steady her, offers his forearm and for one short shift supports the outside of her clothed waist. The stillness and trust-based proximity feel unexpectedly different to Shreya from Samar's overt competitive energy. She notices a faster heartbeat and heightened awareness, steps away on her own, and restores their ordinary teasing without revealing private feelings. No repeated falls, staged clothing accidents, chest contact or implied consent to further physical contact. Both pending bets stay conditional.",
+      "beats": [
+        {
+          "id": "B12-01",
+          "at": "17:10–17:13",
+          "title": "Why they are at the courtyard",
+          "body": "As sports volunteers, both twins are preparing the New Year society activity: Samar tests the partner-resistance bands, Shaan marks the low balance strip and checks safe clearance. After the police duty drive, Shreya walks by in the same navy training tee and black trousers, recognizes their familiar workout voices, and voluntarily stops for a quick look.",
+          "internal": "Courtyard mein resistance bands aur floor markers set ho rahe the. Samar ne Shreya ko dekhte hi smile ki, Shaan ne marker check karte hue sir uthaya. Shreya ka ponytail din bhar ki training ke baad thoda loose tha; usne file bag kandhe par adjust kiya."
+        },
+        {
+          "id": "B12-02",
+          "at": "17:13–17:17",
+          "title": "The bet returns, Shreya chooses the demonstration",
+          "body": "Samar jokes about his lost plank/coffee bet. Shaan mentions his own balance/saree wager without turning it into a demand. Shreya offers to test one partner drill to see whether the equipment is ready, not as payment for either bet.",
+          "internal": "Samar ne band ka handle uthaya aur cheeky tareeke se Shreya ki taraf badhaya. Shaan usse chhedne ke bajaye quietly anchor point dikha raha tha. Shreya ne apna bag bench par rakha; trial usne khud choose kiya."
+        },
+        {
+          "id": "B12-03",
+          "at": "17:17–17:22",
+          "title": "Samar — competitive touch becomes unexpectedly personal",
+          "body": "Samar and Shreya face each other for the deliberately agreed palm-to-palm partner-pressure test, feet positioned on flat ground. He matches her resistance; for two counts she leans harder than expected and changes her stance. He safely releases pressure and briefly steadies the outside of her clothed upper arm while the handle slackens. Her hand comes to rest against his forearm for one beat, and both ease apart. It is the first shift from ordinary exercise pressure to unexpected mutual proximity in this scene. Nobody makes another contact without choosing it.",
+          "internal": "Shreya ne palms set kiye aur pressure badhaya. Samar ne rhythm match ki. Jab handle ka tension halka hua, usne reflex se Shreya ke upper arm ko support diya—bas ek beat ke liye. Shreya ki ungliyan uski forearm par thamiin; uska pulse achanak tez laga. Dono ne grip release kar di. Samar ke chehre par challenge wali grin thi, lekin usne moment ka show nahi banaya."
+        },
+        {
+          "id": "B12-04",
+          "at": "17:22–17:26",
+          "title": "Shaan — stillness catches Shreya by surprise",
+          "body": "Shaan points out one crooked balance-strip marker and fixes it before testing. Unlike a risky wobbling platform, the strip is safe, flat, and low. Shreya offers to cross it in one continuous line; he asks whether she wants a spotter. She agrees. As she transitions weight onto the narrow marked strip, she takes his forearm for support and he briefly steadies her clothed side waist on her request to hold position. She can safely step away at any moment. The close, quiet coordination unexpectedly charges her awareness more than its practical purpose suggests; she finishes and steps away naturally.",
+          "internal": "Shaan ne low marker seedha kiya. 'Spotter chahiye?' usne poocha. Shreya ne haath badhaya. Ek chhote weight-shift par uski grip Shaan ki forearm par aa gayi aur usne Shreya ki clothed side waist ko ek pal support diya. Courtyard ka shor waisa hi tha, par us ek second mein Shreya ko contact unusually noticeable laga. Agle step par usne khud balance le liya aur distance bana li."
+        },
+        {
+          "id": "B12-05",
+          "at": "17:26–17:30",
+          "title": "A brief charged after-effect without a speech",
+          "body": "Shreya adjusts her ponytail and sleeves, subtly grounding herself after two different contacts. Samar is already joking about being scored for the effort, Shaan is straightening equipment. She notices her quickened heartbeat and the dissonance of an ordinary training exercise feeling newly personal; she does not confide that thought, freeze or act as though a romance has begun.",
+          "internal": "Shreya ne ek baar gehri saans li aur ponytail sahi ki. Touch bas workout jitna hi tha, phir bhi do alag tareekon se uska dhyaan kheench gaya. Usne chehre par usual half-smile laayi aur dono ke results announce kar diye."
+        },
+        {
+          "id": "B12-06",
+          "at": "17:30–17:33",
+          "title": "Wagers deferred, next meeting organic",
+          "body": "The twins have tasks to finish and Shreya has a home-bound route past the security desk. Neither coffee nor saree-get-together is granted; she offers a possible safety demo challenge on a later date under her conditions. Their existing joking rhythm resumes. Shreya walks on, aware of the interactions but not pulled into a manufactured extra gym session.",
+          "internal": "Samar band fold karne laga; Shaan marker tape lapet raha tha. Shreya ne bag uthaya aur society desk ki taraf chal di. Courtyard ke corner se unki usual nok-jhonk sunai deti rahi."
+        }
+      ]
+    },
+    {
+      "date": "2026-01-01",
+      "universe": "sw",
+      "mentions": [],
+      "flags": [],
+      "id": "e03-shivani-scene03-commute",
+      "sort": "17:20",
+      "start": "17:20",
+      "end": null,
+      "timeLabel": "17:20–17:45",
+      "title": "Shivani Scene 03 — College to society ride",
+      "lead": "Shivani",
+      "characters": [
+        "Shivani"
+      ],
+      "episode": "03",
+      "scene": "S03-01",
+      "kind": "planned",
+      "state": "planned",
+      "status": "WORKING PLOT · PROSE PENDING",
+      "source": "episode-03-shivani-scene-03-society-return-plot.json",
+      "reader": {
+        "type": "sw-planning",
+        "character": "shivani",
+        "scene": "S03-01"
+      },
+      "detail": "Scene 02 ends ~17:20. Shivani walks from staffroom to her parked scooty, leaves college around 17:20 and travels home using the established morning 25-minute journey as a planning baseline. Professional campus outfit, bag, dupatta and helmet unchanged. Her husband's personal New Year surprise from morning remains pending. She has no knowledge of unauthorized copying of her unsent photo."
+    },
+    {
       "id": "ep03-ankita-scene07",
       "date": "2026-01-01",
       "sort": "17:20",
@@ -2996,6 +3877,138 @@
         "Rinku pre-established as building helper"
       ],
       "detail": "Author-revised eight-beat Scene07 prose (17:20–17:50) includes exact highlighted B4 waist-awareness addition, B5 full replacement, B6 two inner thoughts and B7 Karan glance/question. Karan separate bike, Ankita drives Aman scooty, Gopal silent at gate, home before 18:00; Scene08 starts 18:10."
+    },
+    {
+      "date": "2026-01-01",
+      "universe": "sw",
+      "mentions": [],
+      "flags": [],
+      "id": "e03-taniya-T03-09",
+      "sort": "17:30",
+      "start": "17:30",
+      "end": null,
+      "timeLabel": "17:30–19:30",
+      "title": "The Last Office Hours",
+      "subtitle": "No further intimacy. This is the last office scene; one existing accidental Raghav waist-support incident and Andrea/Chirag celebratory peck remain separate earlier beats.",
+      "lead": "Taniya",
+      "characters": [
+        "Taniya",
+        "Raghav",
+        "Chirag",
+        "Neha",
+        "Andrea",
+        "Punit (brief)"
+      ],
+      "episode": "03",
+      "scene": "T03-09",
+      "kind": "planned",
+      "state": "approved-plot",
+      "status": "AUTHOR APPROVED PLOT · PROSE NOT WRITTEN",
+      "source": "episode-03-taniya-solo-proposed-timeline.json",
+      "reader": {
+        "type": "sw-planning",
+        "character": "taniya",
+        "scene": "T03-09"
+      },
+      "detail": "The four core office colleagues close reports and Punit finalizes the next-day tracker. Taniya finishes her entire nine-hour shift at 19:30. Her near-office rented flat remains available, but today she chooses Soniya's society home because their morning conversation remains unfinished. She leaves directly for the estimated 35–50-minute commute. Wedding banter and ordinary goodbyes only; no new office romantic milestone.",
+      "beats": [
+        {
+          "id": "T03-09-physical",
+          "title": "Contact / physical action",
+          "body": "No further intimacy. This is the last office scene; one existing accidental Raghav waist-support incident and Andrea/Chirag celebratory peck remain separate earlier beats."
+        },
+        {
+          "id": "T03-09-effect",
+          "title": "After-effect",
+          "body": "Official office exit 19:30, then direct commute to society, folding the old standalone 'Two Homes' beat into this transition; do not schedule her at home before ~20:05."
+        }
+      ]
+    },
+    {
+      "id": "e03-shreya-S03-08",
+      "date": "2026-01-01",
+      "sort": "17:35",
+      "start": "17:35",
+      "end": "17:45",
+      "timeLabel": "17:35–17:45",
+      "universe": "sw",
+      "title": "Chintu — the returned register and a familiar reply",
+      "lead": "Shreya",
+      "characters": [
+        "Shreya",
+        "Chintu (23, society security helper)"
+      ],
+      "mentions": [],
+      "episode": "03",
+      "scene": "S03-08",
+      "kind": "planned",
+      "state": "planned",
+      "status": "Existing Chintu continuation · plot draft",
+      "source": "episode-03-shreya-jan01-proposed-timeline.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "shreya",
+        "scene": "S03-08"
+      },
+      "flags": [
+        "Society security Chintu (23) is previously established, distinct from station tea Chotu.",
+        "Visitor-register discrepancies preserve original data; no manufactured new investigation."
+      ],
+      "detail": "On her path from the society sports setup toward home, Shreya sees familiar Chintu at the security desk. He has followed her earlier instruction, matching vehicle-number notes against the original visitor register and preserving rather than altering the 07:40 / 07:55 mismatch. He shows which entries still need verification rather than claiming a dramatic discovery. Shreya appreciates his method. Chintu answers one of her routine teasing questions with unexpected dry wit. No new introduction, improvised investigation, romantic touch, or overheard sports-twins secret. She acknowledges his initiative and leaves the records for proper follow-up.",
+      "beats": [
+        {
+          "id": "B13-01",
+          "at": "17:35–17:38",
+          "title": "Familiarity, not a first meeting",
+          "body": "Shreya reaches the gate/security desk from the courtyard. Chintu recognizes her and brings up the previously flagged visitor register. They already know one another, so no self-introduction or lengthy backstory.",
+          "internal": "Chintu security desk par register aur timestamp slip ke saath tha. Shreya ko dekhkar woh seedha khada hua, phir usne khula register uski taraf ghumaya."
+        },
+        {
+          "id": "B13-02",
+          "at": "17:38–17:42",
+          "title": "He kept the original evidence intact",
+          "body": "He shows the source vehicle-number note and the 07:40 vs 07:55 discrepancy without overwriting either record. Shreya instructs formal follow-up through the society office, not extrajudicial sleuthing.",
+          "internal": "Shreya ne register dekha. Original time untouched tha; Chintu ne correction ke bajaye side note attach kiya tha."
+        },
+        {
+          "id": "B13-03",
+          "at": "17:42–17:45",
+          "title": "A different kind of warm teasing and exit",
+          "body": "She lightly teases his unusually disciplined notes, he replies with a witty callback to her instruction, both smile. She continues toward home. No staged accidental contact or instant confession.",
+          "internal": "Shreya ne pen cap band ki aur file uske saamne rakh di. Chintu ki seedhi baat par uski smile aa gayi. Woh gate se andar badh gayi."
+        }
+      ]
+    },
+    {
+      "date": "2026-01-01",
+      "universe": "sw",
+      "mentions": [],
+      "flags": [],
+      "id": "e03-shivani-scene03-society",
+      "sort": "17:45",
+      "start": "17:45",
+      "end": null,
+      "timeLabel": "17:45–17:57",
+      "title": "Shivani Scene 03 — Mahendra, Ayaan and Armaan",
+      "lead": "Shivani",
+      "characters": [
+        "Shivani (31)",
+        "Mahendra Suri (61)",
+        "Ayaan (23)",
+        "Armaan (23)"
+      ],
+      "episode": "03",
+      "scene": "S03-02",
+      "kind": "planned",
+      "state": "planned",
+      "status": "WORKING PLOT · PROSE PENDING",
+      "source": "episode-03-shivani-scene-03-society-return-plot.json",
+      "reader": {
+        "type": "sw-planning",
+        "character": "shivani",
+        "scene": "S03-02"
+      },
+      "detail": "17:45–17:49 At society parking, Mahendra appears with children's programme proof sheet. The genuine society task is his plausible opener, but he uses it to hold Shivani in conversation beyond the work requirement. Narrator distinguishes his lingering, body-focused gaze (outfit line front/back and her moving silhouette) from Shivani's actual awareness. He offers a pointed, suggestive personal compliment rather than another generic 'good work' statement. Shivani recognizes the personal turn and pushes back playfully but firmly. No touch or implied consent. Mahendra privately wants another opportunity to talk to her; separate from his earlier Shreya and Soniya incidents. 17:49–17:51 Ayaan and Armaan arrive together with revised poster proofs and a folding lightweight display stand. One-line grounding: Shivani already knows their society-printwork and remembers their attention to tiny details; readers have seen the pair in Ankita A06. Ayaan begins warmly and loudly, Armaan first presents the corrected QR print. Mahendra stays briefly to collect materials. Other society characters are not teleported into this grouping. 17:51–17:54 While opening the fold-out sample beside the wall, a loose stand leg shifts as Shivani reaches to steady the proof sheet. Armaan moves quickly and catches her by the clothed side/waist for balance while Ayaan secures the paper, then releases once she is steady. Shivani briefly grips Armaan's shoulder, steps back, and checks the stand. It is a clear new physical incident, not imagined prehistory, and their proximate looks/quick reaction matter more than a prolonged psychological speech. Armaan's surprisingly direct response catches Ayaan's attention; the trio share a charged, brief beat; Shivani stays in control. 17:54–17:57 Shivani signs off or flags the corrections on the sample and directs them to coordinate with Sharmi/Deepu. Ayaan invites another review round; Armaan adds one well-timed teasing line. Shivani smiles at the challenge but leaves for Tower C to check on Tara and Kavya. Mahendra is no longer in the foreground. Cut before home conversation. No Karan/Aman at this time because Ankita Scene 07 occupies them from 17:20–17:50."
     },
     {
       "id": "ep03-ankita-scene08",
@@ -3122,6 +4135,69 @@
       "sourceEvidence": "Original prose present in Episode 03 unified reader; source approval shown per scene."
     },
     {
+      "id": "ep04-chotu-ankita-rinku-a",
+      "date": "2026-01-01",
+      "sort": "18:25",
+      "start": "18:25",
+      "end": "18:44",
+      "timeLabel": "18:25–18:44",
+      "universe": "sw",
+      "title": "A · Rinku — The water-filter burst",
+      "lead": "Ankita",
+      "characters": [
+        "Ankita",
+        "Rinku"
+      ],
+      "mentions": [],
+      "episode": "04 planning",
+      "scene": "chotu-review",
+      "kind": "planned",
+      "state": "review",
+      "status": "DRAFT FOR DISCUSSION · NOT APPROVED",
+      "source": "episode-04-chotu-six-leads-review.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "ankita",
+        "scene": "chotu-review"
+      },
+      "flags": [
+        "Track: Society; precise time is a review reservation",
+        "Karan–Aman (Kabir's younger brothers) have a saved Jan1 ride; no added twins encounter."
+      ],
+      "detail": "CAUSE: Resume EP03 Scene08 at 18:25 door opening. Rinku checks the loose water-filter connector. The brittle coupler slips just as Ankita reaches the shut-off valve. PHYSICAL: A brief spray soaks the front and sleeve of her ordinary cotton kurti; she steps into the narrow gap and reflexively grips the edge of Rinku's upper arm for balance before releasing it. VISIBLE: Private kitchen. Wet outer fabric outlines its existing inner layer; no bare-body exposure. Rinku briefly notices and averts his eyes; Ankita sees his changed expression, not exactly what he noticed. REACTION: She handles the leak decisively, then feels a pulse of self-conscious heat when she realizes how near they were. Rinku is more embarrassed by her startled look than by the leak."
+    },
+    {
+      "date": "2026-01-01",
+      "universe": "sw",
+      "mentions": [],
+      "flags": [
+        "Future story placement preserved; not Episode 03 prose"
+      ],
+      "id": "future-shivani-jan01-night-home",
+      "sort": "18:35",
+      "start": "18:35",
+      "end": null,
+      "timeLabel": "18:35–18:46 · next Shivani episode",
+      "title": "Shivani future — Home return / Om reader-only interest",
+      "lead": "Shivani",
+      "characters": [
+        "Shivani",
+        "Om"
+      ],
+      "episode": "Future plan",
+      "scene": "N01",
+      "kind": "planned",
+      "state": "planned",
+      "status": "NEXT SHIVANI EPISODE · WORKING FUTURE PLOT",
+      "source": "shivani-jan01-night-next-episode-chotu-kavya-twins-om-plot.json",
+      "reader": {
+        "type": "sw-planning",
+        "character": "shivani",
+        "scene": "N01"
+      },
+      "detail": "Shivani has arrived from college. At home she finds Om checking a simple event/household list. Their interaction carries already-known household courtesy: she updates him about college timing; he remembers her society programme responsibilities. Describe Om as an unrelated, older resident accepted within the family's social arrangements, not her actual father-in-law. The source does not say why or how long he has lived there, so do not invent a rescue or biological connection. Their familiar interactions are not coded as permission for romance. After Shivani leaves the common area, Om privately registers his attraction. A concise reader-only imaginary moment shows Shivani choosing to be closer to him, perhaps a private embrace or kiss that exists solely in his mind. He realizes the imagined response is not a statement about her feelings. When Shivani actually returns to fetch her keys, he behaves ordinarily. Contrast the mental image against real household boundaries without an extended guilt monologue."
+    },
+    {
       "id": "e03-meenakshi-04",
       "date": "2026-01-01",
       "sort": "18:45",
@@ -3192,959 +4268,70 @@
       "sourceEvidence": "Original prose present in Episode 03 unified reader; source approval shown per scene."
     },
     {
-      "id": "jan01-meenakshi-harish-sunil-night-future",
       "date": "2026-01-01",
-      "sort": null,
-      "start": null,
-      "end": null,
-      "timeLabel": "Late night · after everyone has left · exact time TBD",
       "universe": "sw",
-      "title": "Harish & Sunil — Outside Society (future-episode seed)",
-      "subtitle": "Reader-only intentions; no present-day prose or encounter",
-      "lead": "Meenakshi",
-      "characters": [
-        "Harish Pal",
-        "Sunil Yadav"
+      "mentions": [],
+      "flags": [
+        "Ankita twin return ~17:50; Kavya/Shivani encounter 19:11–19:23; Taniya twin encounter after 20:16"
       ],
-      "mentions": [
-        "Meenakshi"
+      "id": "future-shivani-jan01-night-event",
+      "sort": "19:05",
+      "start": "19:05",
+      "end": null,
+      "timeLabel": "19:05–19:23 · next Shivani episode",
+      "title": "Shivani future — Kavya, Deepu and Karan/Aman",
+      "lead": "Shivani",
+      "characters": [
+        "Shivani",
+        "Kavya",
+        "Deepu",
+        "Karan",
+        "Aman"
       ],
       "episode": "Future plan",
-      "scene": "HS-NIGHT",
-      "kind": "planned",
-      "state": "future-proposal",
-      "status": "Author-directed night placement · plot-only · not written",
-      "source": "episode-02-meenakshi-plan.json",
-      "reader": {
-        "type": "sw-plan",
-        "character": "meenakshi",
-        "scene": "HS-NIGHT"
-      },
-      "flags": [
-        "Not an Episode 03 scene",
-        "No fixed clock time",
-        "Female staff unaware of workers' private motives"
-      ],
-      "detail": "1 January 2026, late night, outside Gulmohar Heights society after the others have gone. Harish and Sunil have a brief private reader-only POV about their hidden attraction and future plans. They have not approached Meenakshi or carried out those plans. This belongs to a future episode and must not interrupt the Farmhouse Scene 02 or 14:15 Naveen handoff."
-    },
-    {
-      "id": "e03-shreya-SR10",
-      "date": "2026-01-01",
-      "sort": "10:30",
-      "start": "10:30",
-      "end": "11:10",
-      "timeLabel": "10:30–11:10",
-      "universe": "sw",
-      "title": "ACP Verma and Poonam — the awkward training test",
-      "lead": "Shreya",
-      "characters": [
-        "Shreya",
-        "ACP Verma",
-        "Poonam"
-      ],
-      "mentions": [],
-      "episode": "03",
-      "scene": "SR10",
-      "kind": "source-scene",
-      "state": "approved-prose",
-      "status": "AUTHOR_APPROVED_FINAL_PROSE_PUBLISHED_2026_11_17",
-      "source": "episode-03-reader.json",
-      "reader": {
-        "type": "sw-episode03",
-        "character": "shreya",
-        "scene": "10"
-      },
-      "flags": [
-        "Working plot, not published prose."
-      ],
-      "detail": "Shreya arrives during Poonam's close-contact training test. Poonam is lying on a mat while ACP Verma is positioned above her; they separate immediately when Shreya enters. The posture and sudden separation strike Shreya as awkward. Verma and Poonam explain that the test is part of the Vivek-linked women's training program. Verma says Shreya will be tested too; she teasingly asks whether he himself will take her test, and he replies yes. No additional physical act is established. Written scene is located in the unified Episode 03 Reader; original detailed author/prose approval state is preserved."
-    },
-    {
-      "id": "e03-shreya-S03-01",
-      "date": "2026-01-01",
-      "sort": "11:12",
-      "start": "11:12",
-      "end": "11:25",
-      "timeLabel": "11:12–11:25",
-      "universe": "sw",
-      "title": "The strong-chai moment — station Chotu",
-      "lead": "Shreya",
-      "characters": [
-        "Shreya",
-        "Station Chotu (chai wala, adult 23 provisional)",
-        "Javed (brief interruption)"
-      ],
-      "mentions": [],
-      "episode": "03",
-      "scene": "S03-01",
-      "kind": "source-scene",
-      "state": "approved-prose",
-      "status": "AUTHOR_APPROVED_FINAL_PROSE_PUBLISHED_2026_11_17",
-      "source": "episode-03-reader.json",
-      "reader": {
-        "type": "sw-episode03",
-        "character": "shreya",
-        "scene": "S03-01"
-      },
-      "flags": [
-        "Working plot, not published prose."
-      ],
-      "detail": "While she reviews a routine timetable by the counter, he hands her the correct unlabelled cup before she even orders. She playfully tests whether he remembers everyone as attentively. He replies with a sharper-than-expected flirtatious line; her expression changes for a beat. A second small tangible hook: he notices she forgot the receipt containing the counter's operating-time stamp, returns it, and she realizes he's unusually observant. No forced or staged touching; proximity is natural at the counter. Written scene is located in the unified Episode 03 Reader; original detailed author/prose approval state is preserved."
-    },
-    {
-      "id": "e03-shreya-SR11",
-      "date": "2026-01-01",
-      "sort": "11:30",
-      "start": "11:30",
-      "end": "11:40",
-      "timeLabel": "11:30–11:40",
-      "universe": "sw",
-      "title": "DCP Rathod — the review and private imagined evening",
-      "lead": "Shreya",
-      "characters": [
-        "Shreya",
-        "DCP Rathod"
-      ],
-      "mentions": [],
-      "episode": "03",
-      "scene": "SR11",
-      "kind": "source-scene",
-      "state": "source-review",
-      "status": "ASSISTANT_PROFESSIONAL_DRAFT_WITH_USER_SUPPLIED_DCP_G01_UNCHANGED_PENDING_APPROVAL",
-      "source": "episode-03-reader.json",
-      "reader": {
-        "type": "sw-episode03",
-        "character": "shreya",
-        "scene": "SR11"
-      },
-      "flags": [
-        "Working plot, not published prose."
-      ],
-      "detail": "During the official documentation review, Rathod challenges one of Shreya's case decisions. She calmly defends it with her evidence and independent reasoning. The exchange is professional and ends with ordinary acknowledgement. Written scene is located in the unified Episode 03 Reader; original detailed author/prose approval state is preserved."
-    },
-    {
-      "id": "e03-shreya-SR13",
-      "date": "2026-01-01",
-      "sort": "12:20",
-      "start": "12:20",
-      "end": "13:15",
-      "timeLabel": "12:20–13:15",
-      "universe": "sw",
-      "title": "Poonam's observed pattern — brief records-desk exchange",
-      "lead": "Shreya",
-      "characters": [
-        "Shreya",
-        "Poonam"
-      ],
-      "mentions": [],
-      "episode": "03",
-      "scene": "SR13",
+      "scene": "N03",
       "kind": "planned",
       "state": "planned",
-      "status": "Approved · short exchange",
-      "source": "episode-03-shreya-jan01-proposed-timeline.json",
+      "status": "NEXT SHIVANI EPISODE · WORKING FUTURE PLOT",
+      "source": "shivani-jan01-night-next-episode-chotu-kavya-twins-om-plot.json",
+      "reader": {
+        "type": "sw-planning",
+        "character": "shivani",
+        "scene": "N03"
+      },
+      "detail": "19:05–19:08: Shivani and Kavya come downstairs for the community-event poster/children's programme check. Rohan has returned for the new night placement and stays with Tara; exact prior return timing is not invented as an earlier scene. Deepu is already handling event materials. Shivani greets him naturally by name and remembers that he handled her noticeboard clip and poster task earlier, using only one brief line of background. She introduces her adult sister Kavya for the first time. No awkward new 'Who are you?' between Shivani and Deepu. 19:08–19:11: Deepu offers Kavya a copy of the programme sheet as a natural courtesy. Their eyes meet longer than required; Kavya smiles and asks his name even though Shivani already addressed him. He speaks more softly with her than with Shivani, and she finds his sincerity attractive. Brief, reversible hand contact happens when both steady the same poster against the evening breeze; neither seizes or prolongs contact. Shivani notices the mutual interest and playfully teases Deepu. Deepu is pleased but not entitled to more. 19:11–19:14: Karan and Aman now appear in the same society common area AFTER dropping Ankita at ~17:50; no implied continuous presence from their earlier private ride. They greet Shivani, whose morning biology-lesson joke they remember. Their attention is caught by Kavya, a woman they have NOT met. Karan openly praises her beauty; Aman keeps his initial reaction to himself before surprising her with a more subtle compliment. Kavya smiles politely but her attention occasionally returns to Deepu. Shivani deliberately delays the introduction for one short teasing beat. 19:14–19:18: Shivani retorts to Karan and Aman and makes them compete verbally for the introduction. As the author proposed, she can surprise them with two quick, clearly playful cheek kisses, one on each, then step away. The brothers respond with light teasing and, if welcomed on-screen, a short friendly side embrace/waist-level pose to 'get even'; no forced groping, hidden contact or assumption that her kiss authorizes further touch. Kavya witnesses the easy prior familiarity, Deepu reacts with amusement, and both sisters keep their distinct agency. This is a newly proposed escalation, not silently assigned to the already published morning encounter. 19:18–19:21: Shivani finally introduces her sister Kavya to both brothers, referencing their known neighbour connection with Ankita without converting them into Shivani's family twins. Karan offers to help carry event materials, Aman proposes checking the poster's QR proof with Kavya, and Deepu can help with the very task Kavya first asked about. These are three different invitations, no romantic claim. Kavya speaks for herself and selects whichever practical help she actually wants — the first smile/eye-contact suggests Deepu attracts her most at this point. 19:21–19:23: After the brief exchange the three young men register overlapping interest in Kavya. Deepu and Kavya share another shy, direct look; Karan jokingly competes for the next society task, Aman offers a quieter alternative. All remain civil; the contrast is curiosity and playful jealousy, not rivalry that produces fighting, humiliation, territorial threats or coercion. Shivani notices the triangle forming and privately laughs, then the sisters leave; no one has secured a date, kiss, exclusivity or relationship. Cut at 19:23, preserving the choice for the next episode."
+    },
+    {
+      "id": "ep04-chotu-shivani-deepu-a",
+      "date": "2026-01-01",
+      "sort": "19:26",
+      "start": "19:26",
+      "end": "19:38",
+      "timeLabel": "19:26–19:38",
+      "universe": "sw",
+      "title": "A · Deepu — The folded backdrop",
+      "lead": "Shivani",
+      "characters": [
+        "Shivani",
+        "Deepu"
+      ],
+      "mentions": [],
+      "episode": "04 planning",
+      "scene": "chotu-review",
+      "kind": "planned",
+      "state": "review",
+      "status": "DRAFT FOR DISCUSSION · NOT APPROVED",
+      "source": "episode-04-chotu-six-leads-review.json",
       "reader": {
         "type": "sw-plan",
-        "character": "shreya",
-        "scene": "SR13"
+        "character": "shivani",
+        "scene": "chotu-review"
       },
       "flags": [
-        "Working plot, not published prose."
+        "Track: Society; precise time is a review reservation",
+        "Karan–Aman are society acquaintances; Harsh–Laksh are college adult student twins. They remain off-stage in Chotu-only scenes."
       ],
-      "detail": "During the existing 12:20–13:15 station paperwork block, Poonam quickly flags Chauhan's unusual follow-up request. Shreya instructs her to handle it through process. No separate substantial scene, new Chauhan appearance, expanded investigation, or extended debrief."
-    },
-    {
-      "id": "e03-shreya-S03-02",
-      "date": "2026-01-01",
-      "sort": "13:15",
-      "start": "13:15",
-      "end": "14:05",
-      "timeLabel": "13:15–14:05",
-      "universe": "sw",
-      "title": "Unexpected college crossing — Shreya departs on official duty",
-      "lead": "Shreya",
-      "characters": [
-        "Shreya (33)",
-        "Karan (22; management-entrance preparation)",
-        "Aman (22; Java/backend job interviews)"
-      ],
-      "mentions": [],
-      "episode": "03",
-      "scene": "S03-02",
-      "kind": "planned",
-      "state": "planned",
-      "status": "Author-directed college scene · plot review",
-      "source": "episode-03-shreya-jan01-proposed-timeline.json",
-      "reader": {
-        "type": "sw-plan",
-        "character": "shreya",
-        "scene": "S03-02"
-      },
-      "flags": [
-        "User-directed college encounter and reaction; individual lines and scene mechanics still plot-level drafts, not approved prose.",
-        "Karan and Aman attend as civilian career-prep guests, not police trainees. Neither enters Beat10 station training.",
-        "Shreya's Episode02 approved uniform and evening Ankita twin pickup timeline stay intact."
-      ],
-      "detail": "13:15–13:30 Shreya finishes work and a short lunch; 13:30–13:55 she drives to the public college under an official cyber-safety session assignment, 13:55–14:05 she signs in at the reception and prepares her demonstration notes. Karan and Aman travel independently together for an advertised open cyber-safety/career-awareness presentation; neither expects Shreya and she has not invited them personally. They see her at the venue only at Beat 8; no staged roadside pickup or magically timed meeting.",
-      "beats": [
-        {
-          "id": "B07-01",
-          "at": "13:15–13:30",
-          "title": "Official assignment & lunch",
-          "body": "Shreya completes desk work, confirms her already-booked public college cyber-safety talk and has a short lunch. The assignment is a proposed Episode03 premise, not an established older event.",
-          "internal": "Desk ki last file band karke Shreya ne official seminar note dekha. College session ke liye nikalna tha; usne phone aur briefing folder check kiya."
-        },
-        {
-          "id": "B07-02",
-          "at": "13:30–13:55",
-          "title": "Independent travel",
-          "body": "Shreya drives as invited police guest. Separately Karan seeks management/career guidance and Aman a tech/recruitment workshop at the same open event. Neither has been invited by Shreya. Both are still job-preparing adults, not newly assumed college students.",
-          "internal": "Shreya police vehicle se nahin, apni established car se venue ke liye chali. Doosri taraf Karan aur Aman apne alag career plans ke saath usi public event ki taraf the."
-        },
-        {
-          "id": "B07-03",
-          "at": "13:55–14:05",
-          "title": "Separate event registration",
-          "body": "Shreya signs in through the invited-speaker desk. The twins sign in as open-program guests. They do not see her until the program begins.",
-          "internal": ""
-        }
-      ]
-    },
-    {
-      "id": "e03-shreya-S03-03",
-      "date": "2026-01-01",
-      "sort": "14:05",
-      "start": "14:05",
-      "end": "15:05",
-      "timeLabel": "14:05–15:05",
-      "universe": "sw",
-      "title": "Cyber-safety demo — unexpected Karan–Aman encounter and brief wardrobe slip",
-      "lead": "Shreya",
-      "characters": [
-        "Shreya (33, on-duty inspector)",
-        "Karan (22, adult attendee)",
-        "Aman (22, adult attendee)",
-        "Unnamed adult public attendees (background only)"
-      ],
-      "mentions": [],
-      "episode": "03",
-      "scene": "S03-03",
-      "kind": "planned",
-      "state": "planned",
-      "status": "Author-approved college plot · prose pending",
-      "source": "episode-03-shreya-jan01-proposed-timeline.json",
-      "reader": {
-        "type": "sw-plan",
-        "character": "shreya",
-        "scene": "S03-03"
-      },
-      "flags": [
-        "Confirmed by author: all three remember the unexpected college meeting/accident and later talk with previous familiarity.",
-        "The exact prose and dialogue are still draft; no adult romance or physical incident is automatically implied.",
-        "Karan and Aman independently attend as adult career-prep visitors and leave before Ankita's evening pickup. Beat10 station cast unchanged."
-      ],
-      "detail": "During a public, career-relevant cyber-safety demonstration, Shreya unexpectedly meets already-familiar society twins Karan and Aman. A loose backpack strap briefly catches a display stand, they prevent it falling, and a few of her papers drop. As she bends to retrieve them, the previously unbuttoned first/top button collar shifts forward for an instant, unintentionally revealing a small amount of the upper breast/cleavage area to both men from the side. She immediately straightens and fixes her uniform. Karan briefly stops joking; Aman discreetly returns a folder. Shreya has a moment of private, confused awareness, then the session returns to ordinary safety instruction. No deliberate display, further touch or extended embarrassment. Shared memory: all three remember the brief incident; normal teasing resumes and it remains a discreet private observation. No intrusive callbacks.",
-      "beats": [
-        {
-          "id": "B08-01",
-          "at": "14:05–14:15",
-          "title": "Unplanned reunion",
-          "body": "Shreya sees Karan by management/career guidance and Aman near technical recruitment guidance. They converge near her open-awareness session and all are surprised; nobody knew Shreya was the guest officer. Add an easy callback to their morning parking-gate banter: all three speak with prior familiarity, not like strangers. Shreya teases their constant appearances but retains professional control.",
-          "internal": "Audience ke familiar chehre dekhkar Shreya ka ek pal ke liye focus badla. Karan ki usual grin aa gayi; Aman seedha khada hokar calmly hello bola."
-        },
-        {
-          "id": "B08-02",
-          "at": "14:15–14:34",
-          "title": "A relevant demonstration",
-          "body": "Shreya's public demonstration covers suspicious recruiter emails and account safety. Aman recognizes a fraudulent technical login link; Karan notices fake time pressure in an apparent management internship offer. Both contribute without taking attention from her official work.",
-          "internal": "Shreya ne sample message screen par rakha. Aman ne fake sender-domain point out kiya aur Karan ne 'apply in five minutes' pressure catch kar liya."
-        },
-        {
-          "id": "B08-03",
-          "at": "14:34–14:36",
-          "title": "Single accidental wardrobe moment",
-          "body": "While Karan turns near the booth, his backpack strap catches the loose edge of a lightweight display stand. Aman catches the tilting stand; a few Shreya handouts fall. When Shreya bends to collect them, her already open top uniform neckline briefly shifts enough that both men unintentionally glimpse a small upper part of her breasts/cleavage from the side. No second button opens. She rises, adjusts the uniform immediately; both avert their gaze. No touching, tearing, intentional exposure or extended view.",
-          "internal": "Karan ka backpack strap stand mein atka aur Aman ne usse girne se bachaya. Kuch handouts neeche gire. Shreya ne jhukkar papers uthaye; uska pehle se loose top collar ek pal ko shift hua. Teeno ne incident register kiya, Shreya ne shirt set ki aur kisi ne isay badhaaya nahi. Accident ke baad baat seedha demonstration par aa gayi."
-        },
-        {
-          "id": "B08-04",
-          "at": "14:36–14:40",
-          "title": "Awareness and a quick return to normal",
-          "body": "Karan, normally a joker, goes briefly quiet. Aman returns Shreya's folder while looking at the printed handout. Shreya infers they may have seen the accidental glimpse, feels a short confused/private self-consciousness, and then treats it as a minor interruption instead of a public incident. She cannot know their internal thoughts, nor does this imply consent to further attention.",
-          "internal": "Shreya ne pal-bhar ko socha ki dono ne note kiya hoga; Karan ki unusually restrained smile aur Aman's practical help usse yaad rahi. Phir usne unko waise hi halka tease kiya jaise subah parking gate par karti thi. Karan wapas natural masti mein aa gaya aur Aman quietly focus se answer deta raha. Kisi ne awkward moment ki visibility par direct comment nahi kiya."
-        },
-        {
-          "id": "B08-05",
-          "at": "14:40–15:05",
-          "title": "Session normalizes and ends",
-          "body": "Shreya completes the public cyber-safety session. Karan returns to light banter about career readiness while Aman asks an actual verification question. Their normal behavior, not additional exposure, signals that the awkward minute has passed. Familiar teasing naturally returns before the goodbye; all three can recall the incident afterward without treating the wardrobe moment as a joke or an invitation to repeat it.",
-          "internal": "Agle examples mein conversation phir safe links, reporting aur practical screening par aa gayi. College mein Shreya guest officer hi rahi; kisi ne accident ko topic nahi banaya."
-        }
-      ]
-    },
-    {
-      "id": "e03-shreya-S03-04",
-      "date": "2026-01-01",
-      "sort": "15:05",
-      "start": "15:05",
-      "end": "15:40",
-      "timeLabel": "15:05–15:40",
-      "universe": "sw",
-      "title": "College exit, station return and training gear change",
-      "lead": "Shreya",
-      "characters": [
-        "Shreya (33)",
-        "Karan (22, brief farewell)",
-        "Aman (22, brief farewell)"
-      ],
-      "mentions": [],
-      "episode": "03",
-      "scene": "S03-04",
-      "kind": "planned",
-      "state": "planned",
-      "status": "Author-directed transition · prose pending",
-      "source": "episode-03-shreya-jan01-proposed-timeline.json",
-      "reader": {
-        "type": "sw-plan",
-        "character": "shreya",
-        "scene": "S03-04"
-      },
-      "flags": [
-        "User-directed college encounter and reaction; individual lines and scene mechanics still plot-level drafts, not approved prose.",
-        "Karan and Aman attend as civilian career-prep guests, not police trainees. Neither enters Beat10 station training.",
-        "Shreya's Episode02 approved uniform and evening Ankita twin pickup timeline stay intact."
-      ],
-      "detail": "15:05–15:10 normal sign-out and courteous goodbye; Shreya buttons the loose upper uniform button. 15:10–15:30 she drives separately back to station, while Karan and Aman leave for their own commitments. 15:30–15:40 she changes to navy athletic T-shirt and black trousers and prepares the approved five-person station drill that starts at 15:40.",
-      "beats": [
-        {
-          "id": "B09-01",
-          "at": "15:05–15:10",
-          "title": "Ordinary goodbye",
-          "body": "The audience disperses and the twins thank Shreya. Neither pursues a ride or date with her. Shreya deliberately fastens the previously loose top uniform button before leaving.",
-          "internal": "Shreya ne folder pakda, collar ko ek baar check karke upper button close kiya aur organizer se sign-out kar liya."
-        },
-        {
-          "id": "B09-02",
-          "at": "15:10–15:30",
-          "title": "Separate routes",
-          "body": "Shreya drives alone to the police station. Karan and Aman return to their own schedule, free well before Ankita's approximately 17:23 call and pickup. The college must be close enough for this proposed 20-minute trip.",
-          "internal": ""
-        },
-        {
-          "id": "B09-03",
-          "at": "15:30–15:40",
-          "title": "Wardrobe and training reset",
-          "body": "At the police station Shreya changes out of uniform into her navy fitted training T-shirt and black athletic trousers. She joins Meera, Kavita, Rohas and Lokesh for previously approved training-ground Beat10.",
-          "internal": "Uniform se training clothes mein change karke Shreya ne drill cones aur flags check kiye. College ka awkward moment ab duty routine se peeche chhoot chuka tha."
-        }
-      ]
-    },
-    {
-      "id": "e03-shreya-S03-05",
-      "date": "2026-01-01",
-      "sort": "15:40",
-      "start": "15:40",
-      "end": "16:05",
-      "timeLabel": "15:40–16:05",
-      "universe": "sw",
-      "title": "The Training Ground Challenge — five-person flag drill",
-      "lead": "Shreya",
-      "characters": [
-        "Shreya (33, lead instructor)",
-        "Meera (24, police trainee)",
-        "Kavita (23, constable in Shreya training group)",
-        "Rohas (24, police trainee)",
-        "Lokesh (24, police trainee)"
-      ],
-      "mentions": [],
-      "episode": "03",
-      "scene": "S03-05",
-      "kind": "planned",
-      "state": "planned",
-      "status": "Approved plot · prose pending",
-      "source": "episode-03-shreya-jan01-proposed-timeline.json",
-      "reader": {
-        "type": "sw-plan",
-        "character": "shreya",
-        "scene": "S03-05"
-      },
-      "flags": [
-        "Working plot, not published prose."
-      ],
-      "detail": "In Vivek-inspired timed pursuit/flag-control drill, Rohas calls Shreya into the competition. Meera and Kavita run the first challenge against Rohas and Lokesh; Meera's speed distracts Rohas and Kavita unexpectedly wins the flag. Shreya accepts the next challenge. She initially outmaneuvers Rohas, while quiet Lokesh predicts her pivot and takes the side training tag. During the rapid tag capture, there is one brief natural close-contact moment: Lokesh's hand near Shreya's clothed waist, Shreya steadying on his forearm, then both release. Shreya notices a different momentary awareness without declaring a relationship. Lokesh's clean win surprises her."
-    },
-    {
-      "id": "e03-shreya-S03-06",
-      "date": "2026-01-01",
-      "sort": "16:05",
-      "start": "16:05",
-      "end": "17:05",
-      "timeLabel": "16:05–17:05",
-      "universe": "sw",
-      "title": "Police closeout and return to Gulmohar Heights — short transition",
-      "lead": "Shreya",
-      "characters": [
-        "Shreya"
-      ],
-      "mentions": [],
-      "episode": "03",
-      "scene": "S03-06",
-      "kind": "planned",
-      "state": "planned",
-      "status": "Transition draft · no separate encounter",
-      "source": "episode-03-shreya-jan01-proposed-timeline.json",
-      "reader": {
-        "type": "sw-plan",
-        "character": "shreya",
-        "scene": "S03-06"
-      },
-      "flags": [
-        "Duty-to-society transit only, after approved Beat10. Shreya still in navy fitness outfit."
-      ],
-      "detail": "After 15:40–16:05 approved training-ground drill, Shreya signs out the training checklist, winds down station work until ~16:35, and drives home by ~17:05. She chooses to keep the navy dry-fit training T-shirt, black trousers and ponytail from Beat 10, rather than inventing a second wardrobe change; her police uniform is already stored. One concise transition, not a separate intimacy or extra officer encounter.",
-      "beats": []
-    },
-    {
-      "id": "e03-shreya-S03-07",
-      "date": "2026-01-01",
-      "sort": "17:10",
-      "start": "17:10",
-      "end": "17:33",
-      "timeLabel": "17:10–17:33",
-      "universe": "sw",
-      "title": "Samar & Shaan — two familiar bets, two unexpected moments of contact",
-      "lead": "Shreya",
-      "characters": [
-        "Shreya (33)",
-        "Samar (24, society sports twin)",
-        "Shaan (24, society sports twin)"
-      ],
-      "mentions": [],
-      "episode": "03",
-      "scene": "S03-07",
-      "kind": "planned",
-      "state": "planned",
-      "status": "Author-selected physical escalation · beat draft",
-      "source": "episode-03-shreya-jan01-proposed-timeline.json",
-      "reader": {
-        "type": "sw-plan",
-        "character": "shreya",
-        "scene": "S03-07"
-      },
-      "flags": [
-        "Samar/Shaan have established workouts with Shreya since EP02 SR01; their paid occupations NOT yet fixed.",
-        "All contact is brief, non-graphic and voluntary, with a short private Shreya response.",
-        "No repetition of Beat10 Lokesh and Beat8 Karan/Aman, no separate coffee/date promise."
-      ],
-      "detail": "Samar and Shaan are legitimately setting up their society's New Year fitness activity, testing resistance handles and a low marked balance strip rather than waiting around for Shreya. Shreya sees a misaligned marker and chooses to give the equipment a quick trial. Samar's palm-to-palm partner resistance feels initially familiar, but an unexpected shared step brings his hand to the outside of her upper arm as he stabilizes the strap handle; Shreya feels a brief charged surprise, notices he did not exploit the moment and keeps participating voluntarily. Shaan then quietly checks the balance strip and, after asking permission to steady her, offers his forearm and for one short shift supports the outside of her clothed waist. The stillness and trust-based proximity feel unexpectedly different to Shreya from Samar's overt competitive energy. She notices a faster heartbeat and heightened awareness, steps away on her own, and restores their ordinary teasing without revealing private feelings. No repeated falls, staged clothing accidents, chest contact or implied consent to further physical contact. Both pending bets stay conditional.",
-      "beats": [
-        {
-          "id": "B12-01",
-          "at": "17:10–17:13",
-          "title": "Why they are at the courtyard",
-          "body": "As sports volunteers, both twins are preparing the New Year society activity: Samar tests the partner-resistance bands, Shaan marks the low balance strip and checks safe clearance. After the police duty drive, Shreya walks by in the same navy training tee and black trousers, recognizes their familiar workout voices, and voluntarily stops for a quick look.",
-          "internal": "Courtyard mein resistance bands aur floor markers set ho rahe the. Samar ne Shreya ko dekhte hi smile ki, Shaan ne marker check karte hue sir uthaya. Shreya ka ponytail din bhar ki training ke baad thoda loose tha; usne file bag kandhe par adjust kiya."
-        },
-        {
-          "id": "B12-02",
-          "at": "17:13–17:17",
-          "title": "The bet returns, Shreya chooses the demonstration",
-          "body": "Samar jokes about his lost plank/coffee bet. Shaan mentions his own balance/saree wager without turning it into a demand. Shreya offers to test one partner drill to see whether the equipment is ready, not as payment for either bet.",
-          "internal": "Samar ne band ka handle uthaya aur cheeky tareeke se Shreya ki taraf badhaya. Shaan usse chhedne ke bajaye quietly anchor point dikha raha tha. Shreya ne apna bag bench par rakha; trial usne khud choose kiya."
-        },
-        {
-          "id": "B12-03",
-          "at": "17:17–17:22",
-          "title": "Samar — competitive touch becomes unexpectedly personal",
-          "body": "Samar and Shreya face each other for the deliberately agreed palm-to-palm partner-pressure test, feet positioned on flat ground. He matches her resistance; for two counts she leans harder than expected and changes her stance. He safely releases pressure and briefly steadies the outside of her clothed upper arm while the handle slackens. Her hand comes to rest against his forearm for one beat, and both ease apart. It is the first shift from ordinary exercise pressure to unexpected mutual proximity in this scene. Nobody makes another contact without choosing it.",
-          "internal": "Shreya ne palms set kiye aur pressure badhaya. Samar ne rhythm match ki. Jab handle ka tension halka hua, usne reflex se Shreya ke upper arm ko support diya—bas ek beat ke liye. Shreya ki ungliyan uski forearm par thamiin; uska pulse achanak tez laga. Dono ne grip release kar di. Samar ke chehre par challenge wali grin thi, lekin usne moment ka show nahi banaya."
-        },
-        {
-          "id": "B12-04",
-          "at": "17:22–17:26",
-          "title": "Shaan — stillness catches Shreya by surprise",
-          "body": "Shaan points out one crooked balance-strip marker and fixes it before testing. Unlike a risky wobbling platform, the strip is safe, flat, and low. Shreya offers to cross it in one continuous line; he asks whether she wants a spotter. She agrees. As she transitions weight onto the narrow marked strip, she takes his forearm for support and he briefly steadies her clothed side waist on her request to hold position. She can safely step away at any moment. The close, quiet coordination unexpectedly charges her awareness more than its practical purpose suggests; she finishes and steps away naturally.",
-          "internal": "Shaan ne low marker seedha kiya. 'Spotter chahiye?' usne poocha. Shreya ne haath badhaya. Ek chhote weight-shift par uski grip Shaan ki forearm par aa gayi aur usne Shreya ki clothed side waist ko ek pal support diya. Courtyard ka shor waisa hi tha, par us ek second mein Shreya ko contact unusually noticeable laga. Agle step par usne khud balance le liya aur distance bana li."
-        },
-        {
-          "id": "B12-05",
-          "at": "17:26–17:30",
-          "title": "A brief charged after-effect without a speech",
-          "body": "Shreya adjusts her ponytail and sleeves, subtly grounding herself after two different contacts. Samar is already joking about being scored for the effort, Shaan is straightening equipment. She notices her quickened heartbeat and the dissonance of an ordinary training exercise feeling newly personal; she does not confide that thought, freeze or act as though a romance has begun.",
-          "internal": "Shreya ne ek baar gehri saans li aur ponytail sahi ki. Touch bas workout jitna hi tha, phir bhi do alag tareekon se uska dhyaan kheench gaya. Usne chehre par usual half-smile laayi aur dono ke results announce kar diye."
-        },
-        {
-          "id": "B12-06",
-          "at": "17:30–17:33",
-          "title": "Wagers deferred, next meeting organic",
-          "body": "The twins have tasks to finish and Shreya has a home-bound route past the security desk. Neither coffee nor saree-get-together is granted; she offers a possible safety demo challenge on a later date under her conditions. Their existing joking rhythm resumes. Shreya walks on, aware of the interactions but not pulled into a manufactured extra gym session.",
-          "internal": "Samar band fold karne laga; Shaan marker tape lapet raha tha. Shreya ne bag uthaya aur society desk ki taraf chal di. Courtyard ke corner se unki usual nok-jhonk sunai deti rahi."
-        }
-      ]
-    },
-    {
-      "id": "e03-shreya-S03-08",
-      "date": "2026-01-01",
-      "sort": "17:35",
-      "start": "17:35",
-      "end": "17:45",
-      "timeLabel": "17:35–17:45",
-      "universe": "sw",
-      "title": "Chintu — the returned register and a familiar reply",
-      "lead": "Shreya",
-      "characters": [
-        "Shreya",
-        "Chintu (23, society security helper)"
-      ],
-      "mentions": [],
-      "episode": "03",
-      "scene": "S03-08",
-      "kind": "planned",
-      "state": "planned",
-      "status": "Existing Chintu continuation · plot draft",
-      "source": "episode-03-shreya-jan01-proposed-timeline.json",
-      "reader": {
-        "type": "sw-plan",
-        "character": "shreya",
-        "scene": "S03-08"
-      },
-      "flags": [
-        "Society security Chintu (23) is previously established, distinct from station tea Chotu.",
-        "Visitor-register discrepancies preserve original data; no manufactured new investigation."
-      ],
-      "detail": "On her path from the society sports setup toward home, Shreya sees familiar Chintu at the security desk. He has followed her earlier instruction, matching vehicle-number notes against the original visitor register and preserving rather than altering the 07:40 / 07:55 mismatch. He shows which entries still need verification rather than claiming a dramatic discovery. Shreya appreciates his method. Chintu answers one of her routine teasing questions with unexpected dry wit. No new introduction, improvised investigation, romantic touch, or overheard sports-twins secret. She acknowledges his initiative and leaves the records for proper follow-up.",
-      "beats": [
-        {
-          "id": "B13-01",
-          "at": "17:35–17:38",
-          "title": "Familiarity, not a first meeting",
-          "body": "Shreya reaches the gate/security desk from the courtyard. Chintu recognizes her and brings up the previously flagged visitor register. They already know one another, so no self-introduction or lengthy backstory.",
-          "internal": "Chintu security desk par register aur timestamp slip ke saath tha. Shreya ko dekhkar woh seedha khada hua, phir usne khula register uski taraf ghumaya."
-        },
-        {
-          "id": "B13-02",
-          "at": "17:38–17:42",
-          "title": "He kept the original evidence intact",
-          "body": "He shows the source vehicle-number note and the 07:40 vs 07:55 discrepancy without overwriting either record. Shreya instructs formal follow-up through the society office, not extrajudicial sleuthing.",
-          "internal": "Shreya ne register dekha. Original time untouched tha; Chintu ne correction ke bajaye side note attach kiya tha."
-        },
-        {
-          "id": "B13-03",
-          "at": "17:42–17:45",
-          "title": "A different kind of warm teasing and exit",
-          "body": "She lightly teases his unusually disciplined notes, he replies with a witty callback to her instruction, both smile. She continues toward home. No staged accidental contact or instant confession.",
-          "internal": "Shreya ne pen cap band ki aur file uske saamne rakh di. Chintu ki seedhi baat par uski smile aa gayi. Woh gate se andar badh gayi."
-        }
-      ]
-    },
-    {
-      "date": "2026-01-01",
-      "universe": "sw",
-      "mentions": [],
-      "flags": [],
-      "id": "e03-taniya-T03-01",
-      "sort": "10:50",
-      "start": "10:50",
-      "end": null,
-      "timeLabel": "10:50–11:05",
-      "title": "The Wedding Girl — Four-Person Circle",
-      "subtitle": "No bodily contact. Familiar desk proximity only.",
-      "lead": "Taniya",
-      "characters": [
-        "Taniya",
-        "Raghav (male duo)",
-        "Chirag (male duo)",
-        "Neha (female duo)",
-        "Andrea (female duo)",
-        "Punit (brief)"
-      ],
-      "episode": "03",
-      "scene": "T03-01",
-      "kind": "planned",
-      "state": "approved-plot",
-      "status": "AUTHOR APPROVED PLOT · PROSE NOT WRITTEN",
-      "source": "episode-03-taniya-solo-proposed-timeline.json",
-      "reader": {
-        "type": "sw-planning",
-        "character": "taniya",
-        "scene": "T03-01"
-      },
-      "detail": "New Year's Day December close keeps the team working. Raghav and Chirag have a long familiar two-man article-assistant working partnership; Neha and Andrea are equally familiar and teasing coworkers, not biological twins. They work together around Taniya; her engagement to Aditya is already common knowledge. Propose short shared work-history references, not an elaborate flashback.",
-      "beats": [
-        {
-          "id": "T03-01-physical",
-          "title": "Contact / physical action",
-          "body": "No bodily contact. Familiar desk proximity only."
-        },
-        {
-          "id": "T03-01-effect",
-          "title": "After-effect",
-          "body": "Office group is already familiar. Raghav has latent interest but does not confess; the four colleagues' joint rhythm carries into next beat."
-        }
-      ]
-    },
-    {
-      "date": "2026-01-01",
-      "universe": "sw",
-      "mentions": [],
-      "flags": [],
-      "id": "e03-taniya-T03-02",
-      "sort": "11:05",
-      "start": "11:05",
-      "end": null,
-      "timeLabel": "11:05–11:45",
-      "title": "The Filing Drawer — A Close Call",
-      "subtitle": "Raghav hand briefly supports Taniya at CLOTHED WAIST; Taniya reflexively holds Raghav's shirt at his torso. Both immediately release. No buttock touch, kiss or lasting embrace.",
-      "lead": "Taniya",
-      "characters": [
-        "Taniya",
-        "Raghav",
-        "Chirag",
-        "Neha",
-        "Andrea"
-      ],
-      "episode": "03",
-      "scene": "T03-02",
-      "kind": "planned",
-      "state": "approved-plot",
-      "status": "AUTHOR APPROVED PLOT · PROSE NOT WRITTEN",
-      "source": "episode-03-taniya-solo-proposed-timeline.json",
-      "reader": {
-        "type": "sw-planning",
-        "character": "taniya",
-        "scene": "T03-02"
-      },
-      "detail": "While retrieving an original bank reference, a loaded filing drawer shifts. Raghav stops the drawer and instinctively steadies Taniya while she catches his shirt; both release when the drawer is stable. The three teammates are close enough to hear commotion and tease afterward. No practice groom, staged romantic embrace or kiss.",
-      "beats": [
-        {
-          "id": "T03-02-physical",
-          "title": "Contact / physical action",
-          "body": "Raghav hand briefly supports Taniya at CLOTHED WAIST; Taniya reflexively holds Raghav's shirt at his torso. Both immediately release. No buttock touch, kiss or lasting embrace."
-        },
-        {
-          "id": "T03-02-effect",
-          "title": "After-effect",
-          "body": "Taniya is briefly startled, catches breath, recognizes unexpected closeness and returns to composed humour. Raghav pauses; Chirag only knows what he witnessed. No romantic conclusions."
-        }
-      ]
-    },
-    {
-      "date": "2026-01-01",
-      "universe": "sw",
-      "mentions": [],
-      "flags": [],
-      "id": "e03-taniya-T03-03",
-      "sort": "11:45",
-      "start": "11:45",
-      "end": null,
-      "timeLabel": "11:45–12:25",
-      "title": "Senior Review — The Hidden Uncle Track",
-      "subtitle": "No body touch, no personal proposition and no senior advance.",
-      "lead": "Taniya",
-      "characters": [
-        "Taniya",
-        "Vivek Suri (55, UNCLE)",
-        "Pradeep Khanna (48)",
-        "Mr. Mehra (60, remote)",
-        "Raghav",
-        "Chirag",
-        "Neha",
-        "Andrea"
-      ],
-      "episode": "03",
-      "scene": "T03-03",
-      "kind": "planned",
-      "state": "approved-plot",
-      "status": "AUTHOR APPROVED PLOT · PROSE NOT WRITTEN",
-      "source": "episode-03-taniya-solo-proposed-timeline.json",
-      "reader": {
-        "type": "sw-planning",
-        "character": "taniya",
-        "scene": "T03-03"
-      },
-      "detail": "Taniya defends December-close audit findings. Pradeep queries evidence, Mehra joins remotely, and four staff assist. Vivek Suri chairs review professionally, but reader-only inner narration establishes he finds engaged Taniya sexually attractive and privately imagines consensual intimacy with her before her wedding. She does not know or reciprocate. Vivek Suri is NOT gym trainer Vivek Rao.",
-      "beats": [
-        {
-          "id": "T03-03-physical",
-          "title": "Contact / physical action",
-          "body": "No body touch, no personal proposition and no senior advance."
-        },
-        {
-          "id": "T03-03-effect",
-          "title": "After-effect",
-          "body": "The reader knows Vivek's unacted desire; Taniya perceives normal management review. A valid afternoon review is planned; older-man track stops later today."
-        }
-      ]
-    },
-    {
-      "date": "2026-01-01",
-      "universe": "sw",
-      "mentions": [],
-      "flags": [],
-      "id": "e03-taniya-T03-04",
-      "sort": "12:25",
-      "start": "12:25",
-      "end": null,
-      "timeLabel": "12:25–13:15",
-      "title": "Office Chotu Punit Enters",
-      "subtitle": "No intimate contact; file handovers only. Punit's actual personal encounter is deferred to the next office day.",
-      "lead": "Taniya",
-      "characters": [
-        "Taniya",
-        "Punit (22, CHOTU)",
-        "Raghav",
-        "Chirag",
-        "Neha",
-        "Andrea"
-      ],
-      "episode": "03",
-      "scene": "T03-04",
-      "kind": "planned",
-      "state": "approved-plot",
-      "status": "AUTHOR APPROVED PLOT · PROSE NOT WRITTEN",
-      "source": "episode-03-taniya-solo-proposed-timeline.json",
-      "reader": {
-        "type": "sw-planning",
-        "character": "taniya",
-        "scene": "T03-04"
-      },
-      "detail": "After a short ordinary break, Punit, a known CA trainee, brings archived files and stationery. Neha teases his formal manner, Andrea uses dry office jokes, and Punit surprises them with a witty reply. Taniya gives practical next-day assignments. Old EP02 TS15 Soniya-at-home is not imported as an office scene.",
-      "beats": [
-        {
-          "id": "T03-04-physical",
-          "title": "Contact / physical action",
-          "body": "No intimate contact; file handovers only. Punit's actual personal encounter is deferred to the next office day."
-        },
-        {
-          "id": "T03-04-effect",
-          "title": "After-effect",
-          "body": "Punit's shy admiration remains one-sided/reader-only. 13:15 concludes Phase A, not the episode."
-        }
-      ]
-    },
-    {
-      "date": "2026-01-01",
-      "universe": "sw",
-      "mentions": [],
-      "flags": [],
-      "id": "e03-taniya-T03-05",
-      "sort": "13:15",
-      "start": "13:15",
-      "end": null,
-      "timeLabel": "13:15–14:15",
-      "title": "Lunch & Laughter",
-      "subtitle": "Brief voluntary coworker group-photo closeness; Andrea draws Raghav into a pose. No Taniya intimate contact.",
-      "lead": "Taniya",
-      "characters": [
-        "Taniya",
-        "Raghav",
-        "Chirag",
-        "Neha",
-        "Andrea"
-      ],
-      "episode": "03",
-      "scene": "T03-05",
-      "kind": "planned",
-      "state": "approved-plot",
-      "status": "AUTHOR APPROVED PLOT · PROSE NOT WRITTEN",
-      "source": "episode-03-taniya-solo-proposed-timeline.json",
-      "reader": {
-        "type": "sw-planning",
-        "character": "taniya",
-        "scene": "T03-05"
-      },
-      "detail": "Staggered lunch recalls their past audit deadlines and team get-togethers. Andrea draws Raghav into a casual group photograph, Neha jokes, Chirag delivers dry replies, and Taniya takes the photo. The four cohere as an easy friend group; no one becomes Taniya's partner.",
-      "beats": [
-        {
-          "id": "T03-05-physical",
-          "title": "Contact / physical action",
-          "body": "Brief voluntary coworker group-photo closeness; Andrea draws Raghav into a pose. No Taniya intimate contact."
-        },
-        {
-          "id": "T03-05-effect",
-          "title": "After-effect",
-          "body": "Male and female duo chemistry stays collective, not two new committed couples."
-        }
-      ]
-    },
-    {
-      "date": "2026-01-01",
-      "universe": "sw",
-      "mentions": [],
-      "flags": [],
-      "id": "e03-taniya-T03-06",
-      "sort": "14:15",
-      "start": "14:15",
-      "end": null,
-      "timeLabel": "14:15–15:15",
-      "title": "A Small Celebration — Andrea & Chirag",
-      "subtitle": "ANDREA gives CHIRAG one brief playful KISS ON CHEEK. TANIYA has no kiss or romantic touch.",
-      "lead": "Taniya",
-      "characters": [
-        "Taniya",
-        "Raghav",
-        "Chirag",
-        "Neha",
-        "Andrea"
-      ],
-      "episode": "03",
-      "scene": "T03-06",
-      "kind": "planned",
-      "state": "approved-plot",
-      "status": "AUTHOR APPROVED PLOT · PROSE NOT WRITTEN",
-      "source": "episode-03-taniya-solo-proposed-timeline.json",
-      "reader": {
-        "type": "sw-planning",
-        "character": "taniya",
-        "scene": "T03-06"
-      },
-      "detail": "Team solves a tricky report discrepancy. Chirag identifies the crucial detail, Raghav jokingly claims credit and Neha calls him out. Andrea spontaneously gives Chirag a quick, voluntary cheek peck in the spirit of New Year celebration, steps away laughing; Raghav mock-protests, Neha laughs and Taniya watches before saying it is time to work. No relationship is declared.",
-      "beats": [
-        {
-          "id": "T03-06-physical",
-          "title": "Contact / physical action",
-          "body": "ANDREA gives CHIRAG one brief playful KISS ON CHEEK. TANIYA has no kiss or romantic touch."
-        },
-        {
-          "id": "T03-06-effect",
-          "title": "After-effect",
-          "body": "Chirag is briefly surprised/amused; Andrea openly playful; Taniya smiles and directs the team back to reports. No romance/couple status."
-        }
-      ]
-    },
-    {
-      "date": "2026-01-01",
-      "universe": "sw",
-      "mentions": [],
-      "flags": [],
-      "id": "e03-taniya-T03-07",
-      "sort": "15:15",
-      "start": "15:15",
-      "end": null,
-      "timeLabel": "15:15–16:20",
-      "title": "The Second Flat — An Active Address",
-      "subtitle": "No body touch or visit. Taniya retains control of keys/access.",
-      "lead": "Taniya",
-      "characters": [
-        "Taniya",
-        "Neha",
-        "Andrea",
-        "Saloni (supporting message only)"
-      ],
-      "episode": "03",
-      "scene": "T03-07",
-      "kind": "planned",
-      "state": "approved-plot",
-      "status": "AUTHOR APPROVED PLOT · PROSE NOT WRITTEN",
-      "source": "episode-03-taniya-solo-proposed-timeline.json",
-      "reader": {
-        "type": "sw-planning",
-        "character": "taniya",
-        "scene": "T03-07"
-      },
-      "detail": "Taniya still rents a near-office flat originally taken for late shifts; although she currently stays with Soniya in another society, the rent and access remain active. Select trusted colleagues sometimes ask permission to use the flat privately with romantic partners, including some extramarital relationships; she does not know every detail. Neha jokes about waiting lists; Andrea asks if it is free. Saloni can send a brief logistics message, with no newly invented affair attributed to her. No one uses the flat on-page today.",
-      "beats": [
-        {
-          "id": "T03-07-physical",
-          "title": "Contact / physical action",
-          "body": "No body touch or visit. Taniya retains control of keys/access."
-        },
-        {
-          "id": "T03-07-effect",
-          "title": "After-effect",
-          "body": "The rented studio becomes a credible future shared-location subplot rather than today's sexual encounter."
-        }
-      ]
-    },
-    {
-      "date": "2026-01-01",
-      "universe": "sw",
-      "mentions": [],
-      "flags": [],
-      "id": "e03-taniya-T03-08",
-      "sort": "16:20",
-      "start": "16:20",
-      "end": null,
-      "timeLabel": "16:20–17:30",
-      "title": "Uncle's Second Look",
-      "subtitle": "No physical contact or pressured intimacy.",
-      "lead": "Taniya",
-      "characters": [
-        "Taniya",
-        "Vivek Suri (UNCLE)",
-        "Pradeep Khanna",
-        "Chirag (support)"
-      ],
-      "episode": "03",
-      "scene": "T03-08",
-      "kind": "planned",
-      "state": "approved-plot",
-      "status": "AUTHOR APPROVED PLOT · PROSE NOT WRITTEN",
-      "source": "episode-03-taniya-solo-proposed-timeline.json",
-      "reader": {
-        "type": "sw-planning",
-        "character": "taniya",
-        "scene": "T03-08"
-      },
-      "detail": "Vivek calls a genuine final figures review, Pradeep wraps audit traceability and Taniya presents results. Reader-only sexual attraction remains part of Vivek's private perspective, but he keeps professional conduct. This closes the uncle thread for Episode 03; no approach, proposition or Taniya knowledge.",
-      "beats": [
-        {
-          "id": "T03-08-physical",
-          "title": "Contact / physical action",
-          "body": "No physical contact or pressured intimacy."
-        },
-        {
-          "id": "T03-08-effect",
-          "title": "After-effect",
-          "body": "Only reader knows his unacted fantasy; a potential future plot node, no further escalation here."
-        }
-      ]
-    },
-    {
-      "date": "2026-01-01",
-      "universe": "sw",
-      "mentions": [],
-      "flags": [],
-      "id": "e03-taniya-T03-09",
-      "sort": "17:30",
-      "start": "17:30",
-      "end": null,
-      "timeLabel": "17:30–19:30",
-      "title": "The Last Office Hours",
-      "subtitle": "No further intimacy. This is the last office scene; one existing accidental Raghav waist-support incident and Andrea/Chirag celebratory peck remain separate earlier beats.",
-      "lead": "Taniya",
-      "characters": [
-        "Taniya",
-        "Raghav",
-        "Chirag",
-        "Neha",
-        "Andrea",
-        "Punit (brief)"
-      ],
-      "episode": "03",
-      "scene": "T03-09",
-      "kind": "planned",
-      "state": "approved-plot",
-      "status": "AUTHOR APPROVED PLOT · PROSE NOT WRITTEN",
-      "source": "episode-03-taniya-solo-proposed-timeline.json",
-      "reader": {
-        "type": "sw-planning",
-        "character": "taniya",
-        "scene": "T03-09"
-      },
-      "detail": "The four core office colleagues close reports and Punit finalizes the next-day tracker. Taniya finishes her entire nine-hour shift at 19:30. Her near-office rented flat remains available, but today she chooses Soniya's society home because their morning conversation remains unfinished. She leaves directly for the estimated 35–50-minute commute. Wedding banter and ordinary goodbyes only; no new office romantic milestone.",
-      "beats": [
-        {
-          "id": "T03-09-physical",
-          "title": "Contact / physical action",
-          "body": "No further intimacy. This is the last office scene; one existing accidental Raghav waist-support incident and Andrea/Chirag celebratory peck remain separate earlier beats."
-        },
-        {
-          "id": "T03-09-effect",
-          "title": "After-effect",
-          "body": "Official office exit 19:30, then direct commute to society, folding the old standalone 'Two Homes' beat into this transition; do not schedule her at home before ~20:05."
-        }
-      ]
+      "detail": "CAUSE: After the Kavya/twins encounter, Shivani returns for a forgotten event programme proof. Deepu folds the display drape; a loose edge catches both their forearms as the support bar turns. PHYSICAL: The wide fabric briefly draws them shoulder-to-shoulder. Deepu holds the bar, Shivani frees both wrists; they are closer than either expected without a fall or invented waist-grab. VISIBLE: Quiet side corridor, drape between them and the public foyer; only their faces and crossed forearms matter. No wardrobe exposure. REACTION: Shivani initiates a sharp joke, but his unusually still gaze changes her next sentence. She feels a quick shiver because the encounter was neither the twins' teasing nor her familiar control of a room."
     },
     {
       "date": "2026-01-01",
@@ -4279,163 +4466,40 @@
       ]
     },
     {
+      "id": "jan01-meenakshi-harish-sunil-night-future",
       "date": "2026-01-01",
-      "universe": "sw",
-      "mentions": [],
-      "flags": [],
-      "id": "e03-shivani-scene02-master",
-      "sort": "17:00",
-      "start": "17:00",
+      "sort": null,
+      "start": null,
       "end": null,
-      "timeLabel": "17:00–17:20",
-      "title": "Shivani Scene 02 — College staffroom master sequence",
-      "lead": "Shivani",
-      "characters": [
-        "Shivani",
-        "Pooja",
-        "Kriti",
-        "Harsh",
-        "Laksh",
-        "Nandini",
-        "Ritika",
-        "Arjun Mehta"
-      ],
-      "episode": "03",
-      "scene": "S02",
-      "kind": "planned",
-      "state": "planned",
-      "status": "MASTER PLOT REFERENCE · PROSE PENDING",
-      "source": "episode-03-shivani-scene02-master-reference.json",
-      "reader": {
-        "type": "sw-planning",
-        "character": "shivani",
-        "scene": "S02"
-      },
-      "detail": "Source master female-wise five-person reference: 17:00–17:20 campus staffroom, chronological interleaved plot only; full prose not available in unified Reader."
-    },
-    {
-      "date": "2026-01-01",
+      "timeLabel": "Late night · after everyone has left · exact time TBD",
       "universe": "sw",
-      "mentions": [],
-      "flags": [],
-      "id": "e03-shivani-scene03-commute",
-      "sort": "17:20",
-      "start": "17:20",
-      "end": null,
-      "timeLabel": "17:20–17:45",
-      "title": "Shivani Scene 03 — College to society ride",
-      "lead": "Shivani",
+      "title": "Harish & Sunil — Outside Society (future-episode seed)",
+      "subtitle": "Reader-only intentions; no present-day prose or encounter",
+      "lead": "Meenakshi",
       "characters": [
-        "Shivani"
+        "Harish Pal",
+        "Sunil Yadav"
       ],
-      "episode": "03",
-      "scene": "S03-01",
-      "kind": "planned",
-      "state": "planned",
-      "status": "WORKING PLOT · PROSE PENDING",
-      "source": "episode-03-shivani-scene-03-society-return-plot.json",
-      "reader": {
-        "type": "sw-planning",
-        "character": "shivani",
-        "scene": "S03-01"
-      },
-      "detail": "Scene 02 ends ~17:20. Shivani walks from staffroom to her parked scooty, leaves college around 17:20 and travels home using the established morning 25-minute journey as a planning baseline. Professional campus outfit, bag, dupatta and helmet unchanged. Her husband's personal New Year surprise from morning remains pending. She has no knowledge of unauthorized copying of her unsent photo."
-    },
-    {
-      "date": "2026-01-01",
-      "universe": "sw",
-      "mentions": [],
-      "flags": [],
-      "id": "e03-shivani-scene03-society",
-      "sort": "17:45",
-      "start": "17:45",
-      "end": null,
-      "timeLabel": "17:45–17:57",
-      "title": "Shivani Scene 03 — Mahendra, Ayaan and Armaan",
-      "lead": "Shivani",
-      "characters": [
-        "Shivani (31)",
-        "Mahendra Suri (61)",
-        "Ayaan (23)",
-        "Armaan (23)"
-      ],
-      "episode": "03",
-      "scene": "S03-02",
-      "kind": "planned",
-      "state": "planned",
-      "status": "WORKING PLOT · PROSE PENDING",
-      "source": "episode-03-shivani-scene-03-society-return-plot.json",
-      "reader": {
-        "type": "sw-planning",
-        "character": "shivani",
-        "scene": "S03-02"
-      },
-      "detail": "17:45–17:49 At society parking, Mahendra appears with children's programme proof sheet. The genuine society task is his plausible opener, but he uses it to hold Shivani in conversation beyond the work requirement. Narrator distinguishes his lingering, body-focused gaze (outfit line front/back and her moving silhouette) from Shivani's actual awareness. He offers a pointed, suggestive personal compliment rather than another generic 'good work' statement. Shivani recognizes the personal turn and pushes back playfully but firmly. No touch or implied consent. Mahendra privately wants another opportunity to talk to her; separate from his earlier Shreya and Soniya incidents. 17:49–17:51 Ayaan and Armaan arrive together with revised poster proofs and a folding lightweight display stand. One-line grounding: Shivani already knows their society-printwork and remembers their attention to tiny details; readers have seen the pair in Ankita A06. Ayaan begins warmly and loudly, Armaan first presents the corrected QR print. Mahendra stays briefly to collect materials. Other society characters are not teleported into this grouping. 17:51–17:54 While opening the fold-out sample beside the wall, a loose stand leg shifts as Shivani reaches to steady the proof sheet. Armaan moves quickly and catches her by the clothed side/waist for balance while Ayaan secures the paper, then releases once she is steady. Shivani briefly grips Armaan's shoulder, steps back, and checks the stand. It is a clear new physical incident, not imagined prehistory, and their proximate looks/quick reaction matter more than a prolonged psychological speech. Armaan's surprisingly direct response catches Ayaan's attention; the trio share a charged, brief beat; Shivani stays in control. 17:54–17:57 Shivani signs off or flags the corrections on the sample and directs them to coordinate with Sharmi/Deepu. Ayaan invites another review round; Armaan adds one well-timed teasing line. Shivani smiles at the challenge but leaves for Tower C to check on Tara and Kavya. Mahendra is no longer in the foreground. Cut before home conversation. No Karan/Aman at this time because Ankita Scene 07 occupies them from 17:20–17:50."
-    },
-    {
-      "date": "2026-01-01",
-      "universe": "sw",
-      "mentions": [],
-      "flags": [
-        "Future story placement preserved; not Episode 03 prose"
-      ],
-      "id": "future-shivani-jan01-night-home",
-      "sort": "18:35",
-      "start": "18:35",
-      "end": null,
-      "timeLabel": "18:35–18:46 · next Shivani episode",
-      "title": "Shivani future — Home return / Om reader-only interest",
-      "lead": "Shivani",
-      "characters": [
-        "Shivani",
-        "Om"
+      "mentions": [
+        "Meenakshi"
       ],
       "episode": "Future plan",
-      "scene": "N01",
+      "scene": "HS-NIGHT",
       "kind": "planned",
-      "state": "planned",
-      "status": "NEXT SHIVANI EPISODE · WORKING FUTURE PLOT",
-      "source": "shivani-jan01-night-next-episode-chotu-kavya-twins-om-plot.json",
+      "state": "future-proposal",
+      "status": "Author-directed night placement · plot-only · not written",
+      "source": "episode-02-meenakshi-plan.json",
       "reader": {
-        "type": "sw-planning",
-        "character": "shivani",
-        "scene": "N01"
+        "type": "sw-plan",
+        "character": "meenakshi",
+        "scene": "HS-NIGHT"
       },
-      "detail": "Shivani has arrived from college. At home she finds Om checking a simple event/household list. Their interaction carries already-known household courtesy: she updates him about college timing; he remembers her society programme responsibilities. Describe Om as an unrelated, older resident accepted within the family's social arrangements, not her actual father-in-law. The source does not say why or how long he has lived there, so do not invent a rescue or biological connection. Their familiar interactions are not coded as permission for romance. After Shivani leaves the common area, Om privately registers his attraction. A concise reader-only imaginary moment shows Shivani choosing to be closer to him, perhaps a private embrace or kiss that exists solely in his mind. He realizes the imagined response is not a statement about her feelings. When Shivani actually returns to fetch her keys, he behaves ordinarily. Contrast the mental image against real household boundaries without an extended guilt monologue."
-    },
-    {
-      "date": "2026-01-01",
-      "universe": "sw",
-      "mentions": [],
       "flags": [
-        "Ankita twin return ~17:50; Kavya/Shivani encounter 19:11–19:23; Taniya twin encounter after 20:16"
+        "Not an Episode 03 scene",
+        "No fixed clock time",
+        "Female staff unaware of workers' private motives"
       ],
-      "id": "future-shivani-jan01-night-event",
-      "sort": "19:05",
-      "start": "19:05",
-      "end": null,
-      "timeLabel": "19:05–19:23 · next Shivani episode",
-      "title": "Shivani future — Kavya, Deepu and Karan/Aman",
-      "lead": "Shivani",
-      "characters": [
-        "Shivani",
-        "Kavya",
-        "Deepu",
-        "Karan",
-        "Aman"
-      ],
-      "episode": "Future plan",
-      "scene": "N03",
-      "kind": "planned",
-      "state": "planned",
-      "status": "NEXT SHIVANI EPISODE · WORKING FUTURE PLOT",
-      "source": "shivani-jan01-night-next-episode-chotu-kavya-twins-om-plot.json",
-      "reader": {
-        "type": "sw-planning",
-        "character": "shivani",
-        "scene": "N03"
-      },
-      "detail": "19:05–19:08: Shivani and Kavya come downstairs for the community-event poster/children's programme check. Rohan has returned for the new night placement and stays with Tara; exact prior return timing is not invented as an earlier scene. Deepu is already handling event materials. Shivani greets him naturally by name and remembers that he handled her noticeboard clip and poster task earlier, using only one brief line of background. She introduces her adult sister Kavya for the first time. No awkward new 'Who are you?' between Shivani and Deepu. 19:08–19:11: Deepu offers Kavya a copy of the programme sheet as a natural courtesy. Their eyes meet longer than required; Kavya smiles and asks his name even though Shivani already addressed him. He speaks more softly with her than with Shivani, and she finds his sincerity attractive. Brief, reversible hand contact happens when both steady the same poster against the evening breeze; neither seizes or prolongs contact. Shivani notices the mutual interest and playfully teases Deepu. Deepu is pleased but not entitled to more. 19:11–19:14: Karan and Aman now appear in the same society common area AFTER dropping Ankita at ~17:50; no implied continuous presence from their earlier private ride. They greet Shivani, whose morning biology-lesson joke they remember. Their attention is caught by Kavya, a woman they have NOT met. Karan openly praises her beauty; Aman keeps his initial reaction to himself before surprising her with a more subtle compliment. Kavya smiles politely but her attention occasionally returns to Deepu. Shivani deliberately delays the introduction for one short teasing beat. 19:14–19:18: Shivani retorts to Karan and Aman and makes them compete verbally for the introduction. As the author proposed, she can surprise them with two quick, clearly playful cheek kisses, one on each, then step away. The brothers respond with light teasing and, if welcomed on-screen, a short friendly side embrace/waist-level pose to 'get even'; no forced groping, hidden contact or assumption that her kiss authorizes further touch. Kavya witnesses the easy prior familiarity, Deepu reacts with amusement, and both sisters keep their distinct agency. This is a newly proposed escalation, not silently assigned to the already published morning encounter. 19:18–19:21: Shivani finally introduces her sister Kavya to both brothers, referencing their known neighbour connection with Ankita without converting them into Shivani's family twins. Karan offers to help carry event materials, Aman proposes checking the poster's QR proof with Kavya, and Deepu can help with the very task Kavya first asked about. These are three different invitations, no romantic claim. Kavya speaks for herself and selects whichever practical help she actually wants — the first smile/eye-contact suggests Deepu attracts her most at this point. 19:21–19:23: After the brief exchange the three young men register overlapping interest in Kavya. Deepu and Kavya share another shy, direct look; Karan jokingly competes for the next society task, Aman offers a quieter alternative. All remain civil; the contrast is curiosity and playful jealousy, not rivalry that produces fighting, humiliation, territorial threats or coercion. Shivani notices the triangle forming and privately laughs, then the sisters leave; no one has secured a date, kiss, exclusivity or relationship. Cut at 19:23, preserving the choice for the next episode."
+      "detail": "1 January 2026, late night, outside Gulmohar Heights society after the others have gone. Harish and Sunil have a brief private reader-only POV about their hidden attraction and future plans. They have not approached Meenakshi or carried out those plans. This belongs to a future episode and must not interrupt the Farmhouse Scene 02 or 14:15 Naveen handoff."
     }
   ]
 }
