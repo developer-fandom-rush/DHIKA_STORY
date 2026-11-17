@@ -4179,8 +4179,8 @@
       "lead": "Shivani",
       "characters": [
         "Shivani",
-        "Rohan",
         "Om",
+        "Rohan",
         "Tara"
       ],
       "mentions": [],
@@ -4188,7 +4188,7 @@
       "scene": "ep04a-shivani",
       "kind": "planned",
       "state": "review",
-      "status": "Revised numbered Episode 04A scene plan · not approved prose",
+      "status": "Author-revised November 17 · discussion plot, not approved prose",
       "source": "episode-04a-shivani-plan.json",
       "reader": {
         "type": "sw-plan",
@@ -4196,11 +4196,11 @@
         "scene": "ep04a-shivani"
       },
       "flags": [
-        "Time proposed for author review, not canon.",
-        "Older Shivani night source file retained but marked historical to avoid duplicate timeline.",
-        "Tara is family-only, not an adult teasing participant."
+        "Times are proposed review windows, not source-approved finished prose.",
+        "Preserve Manav as provisional evening return and Om as unrelated elder.",
+        "Tara is in childcare only; adult intimacy happens separately after she sleeps."
       ],
-      "detail": "SH01 18:35–18:40: Om is at home. Shivani returns from her EP03 society pass and sees Om checking the society children's programme/event list. They exchange familiar household planning remarks, not a new introduction or attraction confession. Shivani already knows he is staying with them; exact arrangement history undisclosed. SH02 18:40–18:46: Om's reader-only private moment. After Shivani goes to check on Tara, Om privately notices his own inappropriate expectations and imagines a consensual closeness that does not occur. He collects the list and returns to everyday behavior. This is his one-sided perspective, not Shivani's wish or an event to recall later. SH03 18:46–18:50: Rohan takes over childcare. PROPOSED placement: Rohan has come home from his working day by now and is with Tara. Kavya, who helped with childcare earlier, is freshening up inside. Shivani confirms the event proof at the society notice area is still waiting and goes downstairs first. Rohan agrees to stay with Tara; no unexplained empty home."
+      "detail": "SH01 18:35–18:40: Om is at home. Shivani returns from her EP03 society pass and sees Om checking the society children's programme/event list. They exchange familiar household planning remarks, not a new introduction or attraction confession. Shivani already knows he is staying with them; exact arrangement history undisclosed. SH02 18:40–18:46: Om's reader-only private moment. In the family's ordinary household flow Om briefly reflects on his previously established one-sided interest, entirely reader-only; he neither acts on it nor learns of any private attraction from Shivani. Do not forecast his reaction to the later mistaken-identity surprise. SH03 18:46–18:50: Rohan takes over childcare. PROPOSED placement: Rohan has come home from his working day by now and is with Tara. Kavya, who helped with childcare earlier, is freshening up inside. Shivani confirms the event proof at the society notice area is still waiting and goes downstairs first. Rohan agrees to stay with Tara; no unexplained empty home."
     },
     {
       "id": "e03-meenakshi-04",
@@ -4312,7 +4312,7 @@
       "end": "19:05",
       "timeLabel": "18:51–19:05",
       "universe": "sw",
-      "title": "EP04A Shivani Scene 02 — Deepu Backdrop Accident",
+      "title": "EP04A Shivani Scene 02 — Deepu — The backdrop accident",
       "lead": "Shivani",
       "characters": [
         "Shivani",
@@ -4323,7 +4323,7 @@
       "scene": "ep04a-shivani",
       "kind": "planned",
       "state": "review",
-      "status": "Revised EP04A scene plan · discussion only",
+      "status": "Author-revised November 17 · discussion plot, not approved prose",
       "source": "episode-04a-shivani-plan.json",
       "reader": {
         "type": "sw-plan",
@@ -4331,12 +4331,11 @@
         "scene": "ep04a-shivani"
       },
       "flags": [
-        "Track: Society; precise time is a review reservation",
-        "Karan–Aman are society acquaintances; Harsh–Laksh are college adult student twins. They remain off-stage in Chotu-only scenes.",
-        "Scene 02 moved earlier to precede Kavya's arrival and Karan–Aman twins; previous 19:26 proposal is superseded.",
-        "Private accident ≠ automatic consent for future touch."
+        "Times are proposed review windows, not source-approved finished prose.",
+        "Preserve Manav as provisional evening return and Om as unrelated elder.",
+        "Tara is in childcare only; adult intimacy happens separately after she sleeps."
       ],
-      "detail": "SH04 18:51–18:55: Shivani meets familiar Deepu alone by the backstage panel to check tomorrow's child-program poster and standing backdrop. He already knows her standards and jokes she will count every misaligned clip. She confidently directs the layout. SH05 18:55–18:58: One of the backdrop's latches releases before the roll is secure. Deepu holds the padded panel upright while Shivani steps back from its path, catches the edge of his shirt for balance and unexpectedly ends up very close, front-to-front. He steadies her at the clothed upper back; both stop immediately when the panel is stable. It is a genuine accident, not a planned groping. SH06 18:58–19:05: Shivani chooses a knowing, teasing reply rather than pretending she noticed nothing. Deepu answers in a more confident voice than she expected, but does not reach for her again. She completes the banner sign-off. Kavya approaches from home only after this private exchange, so she cannot report having watched the accident."
+      "detail": "SH04 18:51–18:55: Known helper, real errand. Shivani meets familiar Deepu alone by the backstage panel to check tomorrow's child-program poster and standing backdrop. He already knows her standards and jokes she will count every misaligned clip. She confidently directs the layout. SH05 18:55–18:58: Accidental full-body nearness. One of the backdrop's latches releases before the roll is secure. Deepu holds the padded panel upright while Shivani steps back from its path, catches the edge of his shirt for balance and unexpectedly ends up very close, front-to-front. He steadies her at the clothed upper back; both stop immediately when the panel is stable. It is a genuine accident, not a planned groping. SH06 18:58–19:05: The different response. Shivani chooses a knowing, teasing reply rather than pretending she noticed nothing. Deepu answers in a more confident voice than she expected, but does not reach for her again. She completes the banner sign-off. Kavya approaches from home only after this private exchange, so she cannot report having watched the accident."
     },
     {
       "id": "ep04a-shivani-scene03",
@@ -4350,15 +4349,15 @@
       "lead": "Shivani",
       "characters": [
         "Shivani",
-        "Deepu",
-        "Kavya"
+        "Kavya",
+        "Deepu"
       ],
       "mentions": [],
       "episode": "04A",
       "scene": "ep04a-shivani",
       "kind": "planned",
       "state": "review",
-      "status": "Revised numbered Episode 04A scene plan · not approved prose",
+      "status": "Author-revised November 17 · discussion plot, not approved prose",
       "source": "episode-04a-shivani-plan.json",
       "reader": {
         "type": "sw-plan",
@@ -4366,9 +4365,9 @@
         "scene": "ep04a-shivani"
       },
       "flags": [
-        "Time proposed for author review, not canon.",
-        "Older Shivani night source file retained but marked historical to avoid duplicate timeline.",
-        "Tara is family-only, not an adult teasing participant."
+        "Times are proposed review windows, not source-approved finished prose.",
+        "Preserve Manav as provisional evening return and Om as unrelated elder.",
+        "Tara is in childcare only; adult intimacy happens separately after she sleeps."
       ],
       "detail": "SH07 19:05–19:08: Sister joins, new first meeting. Kavya comes down independently after freshening up, while Rohan remains with Tara. Shivani introduces her younger sister to Deepu, whom she herself already knows from event work. Kavya and Deepu exchange their first direct smiles. Keep her adult independence and her existing household role. SH08 19:08–19:11: Two hands on the poster, two different feelings. Kavya asks to see the programme proof. Wind lifts one corner; Deepu and Kavya both hold it in place, their hands briefly touching along the paper edge. Kavya chooses to keep talking and asks for his name even though Shivani has said it once; Shivani notices the sincere mutual spark. This is Kavya's encounter, not an extension of Shivani/Deepu's private accident."
     },
@@ -4380,13 +4379,13 @@
       "end": "19:23",
       "timeLabel": "19:11–19:23",
       "universe": "sw",
-      "title": "EP04A Shivani Scene 04 — Karan and Aman — the bold teasing moment",
+      "title": "EP04A Shivani Scene 04 — Kavya's three-way spark → Shivani and the twins",
       "lead": "Shivani",
       "characters": [
         "Shivani",
+        "Kavya",
         "Karan",
         "Aman",
-        "Kavya",
         "Deepu"
       ],
       "mentions": [],
@@ -4394,7 +4393,7 @@
       "scene": "ep04a-shivani",
       "kind": "planned",
       "state": "review",
-      "status": "Revised numbered Episode 04A scene plan · not approved prose",
+      "status": "Author-revised November 17 · discussion plot, not approved prose",
       "source": "episode-04a-shivani-plan.json",
       "reader": {
         "type": "sw-plan",
@@ -4402,27 +4401,28 @@
         "scene": "ep04a-shivani"
       },
       "flags": [
-        "Time proposed for author review, not canon.",
-        "Older Shivani night source file retained but marked historical to avoid duplicate timeline.",
-        "Tara is family-only, not an adult teasing participant."
+        "Times are proposed review windows, not source-approved finished prose.",
+        "Preserve Manav as provisional evening return and Om as unrelated elder.",
+        "Tara is in childcare only; adult intimacy happens separately after she sleeps."
       ],
-      "detail": "SH09 19:11–19:14: Twins arrive after Ankita's ride. Karan and Aman appear after their separate ~17:50 Ankita homecoming. They remember Shivani's morning 'Private Biology Lessons' joke. Karan begins an open challenge; Aman is initially quieter. Both see Kavya for the first time and react differently. Deepu remains at his real event task, not magically absent. SH10 19:14–19:17: Shivani provokes the role reversal. Shivani challenges the twins' teasing and, on her own initiative, gives each a quick playful cheek kiss as the earlier saved proposal allowed, immediately stepping away. Karan jokes about being owed a return, but Shivani sets the tone: any closer embrace must be something she welcomes. Aman surprises her by asking directly whether she really wants to continue the game. SH11 19:17–19:19: A daring physical test — not automatic permission. With mutual willingness made clear in the moment, both twins pull Shivani briefly toward them in a playful group pose. There is a moment of bolder touching at her clothed hips/rear; Shivani is surprised by the intensity and immediately ends the pose. The scene is about a deliberately chosen escalation with an unexpected boundary moment, not an eroticized description of grabbing. SH12 19:19–19:21: The apology and her chosen answer. Both twins realize they overstepped the tone and apologize plainly. In exaggerated comic fashion they crouch briefly and act as if begging forgiveness; Shivani laughs and asks them to stand up. She accepts the apology and says the daring playfulness surprised her and that she liked parts of the moment, but she explicitly makes clear that next time they must ask and stop immediately when told. Her reaction is not a standing invitation to anyone else. SH13 19:21–19:23: Kavya's independent choice and exit. Shivani introduces Kavya properly. Karan openly compliments Kavya, Aman offers quiet practical help with the QR proof, while Deepu offers to handle the actual poster she came to check. Kavya chooses to take Deepu's help, not instant romantic attention from all three. Shivani and Kavya depart together by ~19:23, leaving the boys to finish event duties. The twins are free for their ~20:16–20:24 Taniya scene."
+      "detail": "SH09 19:11–19:14: Karan and Aman first see Kavya. Karan and Aman arrive after Ankita's ~17:50 ride and greet familiar Shivani. Morning 'Private Biology Lessons' banter is a known callback, not a first meeting. They see Kavya for the first time; she has already met Deepu privately by poster work. SH10 19:14–19:16: Three separate attractions, Kavya's choice. Karan openly compliments Kavya and offers to help with lightweight event boards. Aman makes a subtler remark, then offers to check her QR-proof draft. Deepu, who has already exchanged a gentle hand touch and conversation with her, offers the practical poster help she originally wanted. Kavya smiles at the attention but accepts Deepu's help first. Shivani notices the three different men reacting to her sister. SH11 19:16–19:18: Shivani takes over the teasing. With Kavya's introductions complete, Shivani draws the twins back to their morning 'Private Biology Lessons' joke. She initiates two brief, playful cheek kisses, one per twin, then laughs at their astonished reactions. As they tease her back, the adults knowingly keep the play going. SH12 19:18–19:20: The closer-than-expected pose. The twins tease Shivani, and the three adults willingly step into a brief close, playful group pose. Karan and Aman draw her toward them; their hands briefly touch her clothed hips. She is startled by how bold the joking has become and by the possibility that someone could come around the corner; she steps away and the twins immediately release. SH13 19:20–19:23: Sorry, sorry — I liked it. Karan and Aman both apologize for having taken their joke so far. They briefly crouch in exaggerated, comic pleading at her feet, which makes Shivani laugh. She tells them to stand. With a bright smile and no further explanation, she says her exact final words, 'I liked it.' Shivani and Kavya turn and go upstairs together immediately. Scene ends on her words and exit; no speech about permission, rules or further encounter follows."
     },
     {
       "id": "ep04a-shivani-scene05",
       "date": "2026-01-01",
       "sort": "19:28",
       "start": "19:28",
-      "end": "22:40",
-      "timeLabel": "19:28–22:40",
+      "end": "21:45",
+      "timeLabel": "19:28–21:45",
       "universe": "sw",
-      "title": "EP04A Shivani Scene 05 — Household close — Rohan, Tara, Om",
+      "title": "EP04A Shivani Scene 05 — Home return, dinner, Manav and Shivani's private thoughts",
       "lead": "Shivani",
       "characters": [
         "Shivani",
         "Rohan",
         "Kavya",
         "Om",
+        "Manav",
         "Tara"
       ],
       "mentions": [],
@@ -4430,7 +4430,7 @@
       "scene": "ep04a-shivani",
       "kind": "planned",
       "state": "review",
-      "status": "Revised numbered Episode 04A scene plan · not approved prose",
+      "status": "Author-revised November 17 · discussion plot, not approved prose",
       "source": "episode-04a-shivani-plan.json",
       "reader": {
         "type": "sw-plan",
@@ -4438,11 +4438,11 @@
         "scene": "ep04a-shivani"
       },
       "flags": [
-        "Time proposed for author review, not canon.",
-        "Older Shivani night source file retained but marked historical to avoid duplicate timeline.",
-        "Tara is family-only, not an adult teasing participant."
+        "Times are proposed review windows, not source-approved finished prose.",
+        "Preserve Manav as provisional evening return and Om as unrelated elder.",
+        "Tara is in childcare only; adult intimacy happens separately after she sleeps."
       ],
-      "detail": "SH14 19:28–19:45: Back to home, different energy. Shivani and Kavya return to the family apartment. Rohan remains with Tara; Shivani takes over familiar family tasks. No sexualized presence of Tara. Om is either in his own space or doing ordinary household paperwork; no sudden confrontation, and no assertion of a return journey for him. SH15 19:45–21:15: Dinner and family positions. Rohan and Shivani have a normal warm dinner conversation. Kavya can mention that Deepu helped with the poster; neither sister invents a secret date. Tara's bedtime is handled as a family routine. Om's household presence is acknowledged without explaining his undisclosed history. Manav is a member of the household, but whether he attends dinner remains unconfirmed; do not seat him without a reason. SH16 21:15–22:40: A private thought, not a new event. After Tara is settled, Shivani has a short private thought about the different emotional charge of Deepu's involuntary rescue, Kavya's gentle spark, and the twins' much bolder game. She distinguishes what she enjoyed from what she wants better controlled next time. Rohan and Shivani spend a quiet affectionate closing moment; no contrived overnight disappearance for her husband."
+      "detail": "SH14 19:28–19:48: Sisters return, Shivani processes the courtyard. Shivani and Kavya come upstairs after the 19:23 exchange. Rohan is home with Tara; Om is doing ordinary household tasks. Back inside, Shivani privately asks herself, 'Main wahan kya kar rahi thi?' She recalls the Deepu accident, Kavya's shy smile, and the twins' unexpected boldness without confessing the details to Rohan. SH15 19:48–20:20: Manav's evening location established. Rohan helps with Tara, Kavya tells Shivani the programme proof is ready. Manav, Rohan's younger brother, returns home around 20:10 after an unspecified personal errand, greets the family and joins the household evening. No profession, companion or secret trip is invented. SH16 20:20–21:40: Dinner and the old surprise idea. Dinner with Rohan, Shivani, Kavya, Tara in her family-care setting, and Manav (presence proposed). Om may attend as ordinary household resident. A private scene with Rohan reminds Shivani that her burgundy saree-and-blouse surprise from the morning was interrupted; the original private, non-nude photo is still on her phone, never shared. She decides to wear the SAME outfit again when the house is quiet. SH17 21:40–21:45: Everyone's position before the interruption. Tara becomes restless instead of going straight to sleep. Manav retires to his own room. Kavya withdraws to her room. Shivani is in their bedroom preparing the burgundy outfit, assuming Rohan will be in the lounge later. Rohan is with Om in the common area when a request for an important errand is raised."
     },
     {
       "date": "2026-01-01",
@@ -4644,6 +4644,43 @@
       "detail": "N04 21:05–21:12: Short reassuring call. Kabir calls from work to say his release-related office duties ran late but he is coming home tonight. Ankita asks about his tiredness and responds warmly. He does not interrogate her day; she simply says work and the New Year celebration went well. N05 21:35–21:50: Kabir returns. Kabir reaches home, is welcomed affectionately and freshens up. Do not cast him as absent for the entire night or copy Dhika/John's overnight absence. He knows nothing about Ankita's private testing of attention or other men's undisclosed thoughts."
     },
     {
+      "id": "ep04a-shivani-scene06",
+      "date": "2026-01-01",
+      "sort": "21:45",
+      "start": "21:45",
+      "end": "22:20",
+      "timeLabel": "21:45–22:20",
+      "universe": "sw",
+      "title": "EP04A Shivani Scene 06 — The wrong surprise — Om in the living room",
+      "lead": "Shivani",
+      "characters": [
+        "Shivani",
+        "Om",
+        "Rohan",
+        "Tara",
+        "Manav",
+        "Kavya"
+      ],
+      "mentions": [],
+      "episode": "04A",
+      "scene": "ep04a-shivani",
+      "kind": "planned",
+      "state": "review",
+      "status": "Author-revised November 17 · discussion plot, not approved prose",
+      "source": "episode-04a-shivani-plan.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "shivani",
+        "scene": "ep04a-shivani"
+      },
+      "flags": [
+        "Times are proposed review windows, not source-approved finished prose.",
+        "Preserve Manav as provisional evening return and Om as unrelated elder.",
+        "Tara is in childcare only; adult intimacy happens separately after she sleeps."
+      ],
+      "detail": "SH18 21:45–21:52: Om's important errand sends Rohan out. Om asks Rohan to handle an important, time-sensitive household matter outside. Its precise purpose is not revealed to the readers. Rohan takes his keys and leaves; he expects to be back shortly. Tara is safely with Om in the living room for these minutes. Shivani, still in her bedroom dressing for her husband, does not hear the change of plans. SH19 21:52–22:02: Burgundy surprise outfit, no new photograph. Shivani changes into the same burgundy saree and fitted blouse that she had worn for the private, non-nude photo intended for Rohan that morning. She checks the drape and her reflection, unaware that Rohan has already left. She does not take or share a new photograph. SH20 22:02–22:05: Surprise — but not Rohan. Shivani opens the bedroom door toward the living room with a playful 'Surprise!' meant for Rohan. Instead, she sees Om sitting with Tara. Both adults realize the mistake in an instant. Om has seen her in a dressed-up outfit that she intended to reveal privately to her husband; she freezes for a moment in surprise, visibly startled. No touch, extended inspection, private fantasy or follow-on Om reaction is narrated. SH21 22:05–22:20: Tara's call ends the moment. Tara calls 'Mumma!' from the living room. Shivani responds to her daughter immediately. Om quietly excuses himself and goes to another household area; Shivani takes over childcare, comforts Tara, offers her milk and settles her in her own bed. Om does not return to the scene, and no further reaction or conversation with him is written."
+    },
+    {
       "id": "ep04a-ankita-scene05",
       "date": "2026-01-01",
       "sort": "21:50",
@@ -4675,6 +4712,39 @@
         "Ankita-only recall: unknown men's private behavior is not her knowledge"
       ],
       "detail": "N06 21:50–22:15: Natural husband-wife warmth. Kabir asks whether Ankita enjoyed her day. She replies briefly, 'Haan, kaafi eventful tha,' without reciting Bhalla, Sandeep, the briefing buttons, the party's private moments, the Aman ride or Rinku's changed gaze. They talk about his late work, tomorrow's routine and being together. Nothing suggests their established marriage was unhappy or unsatisfying."
+    },
+    {
+      "id": "ep04a-shivani-scene07",
+      "date": "2026-01-01",
+      "sort": "22:20",
+      "start": "22:20",
+      "end": "23:15",
+      "timeLabel": "22:20–23:15",
+      "universe": "sw",
+      "title": "EP04A Shivani Scene 07 — Rohan returns — loving, passionate night",
+      "lead": "Shivani",
+      "characters": [
+        "Shivani",
+        "Rohan"
+      ],
+      "mentions": [],
+      "episode": "04A",
+      "scene": "ep04a-shivani",
+      "kind": "planned",
+      "state": "review",
+      "status": "Author-revised November 17 · discussion plot, not approved prose",
+      "source": "episode-04a-shivani-plan.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "shivani",
+        "scene": "ep04a-shivani"
+      },
+      "flags": [
+        "Times are proposed review windows, not source-approved finished prose.",
+        "Preserve Manav as provisional evening return and Om as unrelated elder.",
+        "Tara is in childcare only; adult intimacy happens separately after she sleeps."
+      ],
+      "detail": "SH22 22:20–22:37: Rohan back home; surprise finally reaches him. Rohan finishes Om's errand and returns home. Tara is safely settled asleep in her own room, Manav and Kavya remain in their own rooms, and Om is elsewhere in the household. Shivani is still dressed in her original burgundy surprise outfit, ready at last for Rohan to see it. She chooses not to recount the earlier accidental meeting with Om. SH23 22:37–22:51: The day's encounters remain in Shivani's mind. Privately Shivani recalls the Deepu backdrop accident, the separate spark between Kavya and Deepu, the twins' daring teasing and her own 'I liked it', and the abrupt shock of seeing Om while wearing Rohan's intended surprise. She is unsettled by how vividly these moments stay with her, yet wants her husband and acts on that desire. No private reader-only Om thoughts are placed into her consciousness. SH24 22:51–23:00: A playful husband-wife connection — fade to black. Rohan compliments her burgundy look and answers her initiative with enthusiasm. He has a brief passing thought that he may see Ankita during the next morning's society walk, but this remains a possibility, not a scheduled meeting; the night remains focused on Shivani. Husband and wife willingly share an unusually passionate, deeply enjoyable intimate night. The narrative fades to black without describing sexual actions or erotic vocalization in detail. SH25 23:00–23:15: Loving afterglow and sleep. After the fade to black, both partners are content. Rohan checks that Shivani is comfortable, they exchange a few affectionate words and fall asleep close together. No explicit post-sex detail, no late visit by Om, no unexplained movement by Tara, Kavya or Manav. Episode 04A ends for Shivani."
     },
     {
       "id": "ep04a-ankita-scene06",
