@@ -126,14 +126,14 @@
           "id": "SC06",
           "time": "18:15–18:29",
           "title": "Shower and private recollection",
-          "plot": "Shreya changes out of her uniform, starts a shower, and privately recalls the emotionally charged morning gym kiss with Vivek Rao and other surprising moments of the day. She is alone and still affected by what she felt, without any on-page graphic sexual act or anatomically descriptive staging.",
+          "plot": "Shreya changes out of her damaged police uniform and showers alone. She recalls the mutually welcomed morning kiss with trainer Vivek Rao, feeling unusually stirred. The author specifies a moment of private self-pleasure in the shower; this remains an off-page, non-graphic fact rather than an explicit depicted act. Arvind has no knowledge that she is inside.",
           "knowledge": "Only Shreya's own lived events appear in this recollection. Arvind's earlier unilateral feelings are unknown to her."
         },
         {
           "id": "SC07",
           "time": "18:29–18:32",
           "title": "Arvind enters by mistake; both freeze",
-          "plot": "Arvind hears the water, incorrectly assumes the bathroom is unattended/needs checking and opens the door without calling out. Shreya turns and both are shocked by the sudden intrusion. The stunned pause feels prolonged to her; for roughly half a minute neither moves normally. No new person enters; no nudity is graphically described. As Shreya begins to cry, Arvind immediately moves to provide a nearby shawl, allowing her to cover herself.",
+          "plot": "Arvind hears shower water, wrongly assumes he can check the room, and opens the bathroom door without announcing himself. Shreya turns and the two freeze in the shock of an unexpected fully private, unclothed situation. The pause feels around thirty seconds, but there is no graphic inventory of her body or prolonged descriptive stare. Shreya is overwhelmed and tears up; Arvind brings the nearby shawl so she can cover herself and begins comforting her.",
           "sightline": "One private, unexpected bathroom-door encounter; no third-party spectator, recording or exposure to the child.",
           "reaction": "Shreya is embarrassed and distressed. Arvind stops in shock, then shifts to concern on seeing her tears. His internal reaction is not presented to Shreya as mutual attraction."
         },
@@ -176,7 +176,7 @@
           "id": "SC10",
           "time": "19:10–19:45",
           "title": "A private, separate Arvind reaction",
-          "plot": "Arvind withdraws alone. The story already established his private attraction in EP02 SR08; this new sighting unsettles him further. Any private sexual release or fantasy is acknowledged only as off-page, with no act described, no invented Shreya participation and no claim she knows. The author may defer its narrative reveal if preserving suspense.",
+          "plot": "Once alone, Arvind privately struggles with a surge of desire following what he saw. He has already had one-sided fantasies about Shreya in Episode 02 SR08. The author's off-page note is that he privately masturbates while remembering the incident; no act, bodily details or fantasy sequence is depicted, and Shreya never learns of it. His response is not written as Shreya's invitation or a shared memory.",
           "knowledge": "Reader-only Arvind thought track. No mutuality, no confirmation that Shreya welcomes the sighting."
         },
         {
@@ -213,7 +213,7 @@
           "id": "SC14",
           "time": "22:00–22:35",
           "title": "A mutually eager husband-wife night",
-          "plot": "After Anaya has been cared for and settled in her own room, Shreya takes the initiative to be close to Vikram. Vikram notices that she seems unusually emotionally intense tonight and responds affectionately; they share satisfying, consensual married intimacy. A moment of involuntary, fleeting memory may make her pause, but it is not a staged explicit fantasy; she returns her attention to her husband. Their intimacy is acknowledged, not anatomically narrated.",
+          "plot": "After Anaya has been cared for and settled in her own room, Shreya initiates a more impassioned, mutually welcomed night with her husband Vikram. During their intimacy she has one sudden, involuntary flash of Arvind's face from the earlier shock, which briefly surprises her; it belongs strictly to Shreya's mind, not an actual encounter. Their marital closeness remains intense and satisfying, and is treated entirely through non-graphic narration and fade-to-black.",
           "fadeToBlack": true,
           "dialogue": [
             {
@@ -224,13 +224,14 @@
               "speaker": "Shreya",
               "line": "Haan. Bas aaj tumhare paas rehna hai."
             }
-          ]
+          ],
+          "reaction": "The sudden intrusive image is an unpredictable emotional moment; Shreya remains an enthusiastic consenting partner with Vikram. Their night is fulfilling, and she is not assigned a long guilt monologue after the fade."
         },
         {
           "id": "SC15",
           "time": "22:35–23:15",
           "title": "Afterward: comfort, daughter and sleep",
-          "plot": "After the fade-to-black, Vikram and Shreya share affectionate, contented aftercare. Shreya tends to Anaya if she needs milk or settling, away from any intimate adult scene, then returns to sleep beside Vikram. By morning, the sharp embarrassment has eased but the unexpected nature of Jan1 stays as a quiet memory; do not make her retroactively ignorant of what happened."
+          "plot": "After the fade to black, Vikram and Shreya enjoy affectionate, contented quiet. Shreya tends to Anaya's ordinary milk/bedtime needs in a separate family-only context and then sleeps beside Vikram. By morning the immediate shock and guilt have eased, while a faint memory of Jan1's surprising intensity remains; she is not shown exposing the encounter to other residents."
         }
       ],
       "status": "AUTHOR-DIRECTED_NEW_SCENE_FOR_REVIEW_NOT_APPROVED_PROSE",
@@ -263,6 +264,7 @@
     "Vikram and Shreya's marital intimacy can be acknowledged as intense and mutually enjoyable but is fade-to-black; no anatomically descriptive sex or explicit moans.",
     "Anaya is never framed within adult intimacy or as observing the bathroom incident.",
     "Sameer and Shruti's unknown schedules stay openly unresolved until user supplies them.",
-    "No author approval of prose is inferred from scene planning; all time assignments beyond EP03 17:45 are draft."
+    "No author approval of prose is inferred from scene planning; all time assignments beyond EP03 17:45 are draft.",
+    "User-directed non-graphic sexual facts are preserved only as brief off-page references; there must be no graphic depiction of self-pleasure, involuntary nudity, or sexual acts."
   ]
 }
