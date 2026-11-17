@@ -249,3 +249,8 @@ h1,h2,h3{font-family:Georgia,"Times New Roman",serif;letter-spacing:-.025em}h1{f
 .ep03-original .ep03-paragraph{white-space:pre-wrap;overflow-wrap:anywhere}
 .ep03-original .dialogue strong{color:#713e5b}
 @media(max-width:700px){.ep03-scene-intro{padding:20px 22px 0}.ep03-beat-heading{display:block}.ep03-beat-heading small{display:block;margin-top:4px}}
+
+/* Episode 01/02: source-prose remains exact, while stale historical per-scene badge states are hidden in the final reader. */
+.ep02-final-reader .ep02-approved-text .chip,
+.ep02-final-reader .ep02-approved-text .status-chip,
+.ep02-final-reader .ep02-approved-text .approval-chip { display: none !important; }
