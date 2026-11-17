@@ -20,7 +20,7 @@ function Episode02Reading({character,scene}:Props){
   <header className="section-intro"><span className="eyebrow">The Story · 1 January 2026</span><h1>Episode 02</h1><p>The New Year's Unspoken Secrets · Choose whose story to read.</p></header>
   <div className="episode-picker" role="group" aria-label="Choose episode"><button type="button" onClick={()=>openPage('home')}>Episode 01 · Prologue</button><span className="episode-picker-current" aria-current="page">Episode 02 · Six perspectives</span><button type="button" onClick={()=>openPage('reading',{episode:'03',character:active,scene:'01'})}>Episode 03 · Prose</button></div>
   <p className="reader-intro">Pick a character below, then continue scene by scene. Your place in this reading session is shown underneath.</p>
-  <section className="source-note"><strong>Episode 03 has its own prose chapters in this same reader.</strong><p>Read Ankita's Scenes 01–08 (including highlighted changes in Scene 07 and a new Scene 08 Rinku draft), or Meenakshi's four existing story-text scenes.</p><button type="button" className="button primary" onClick={()=>openPage('reading',{episode:'03',character:'ankita',scene:'01'})}>Read Episode 03 prose →</button></section>
+  <section className="source-note"><strong>Episode 03 has its own prose chapters in this same reader.</strong><p>Read Ankita's Scenes 01–08, Meenakshi's story scenes, or Shreya's SR10 working draft with G01–G07 author insertions.</p><button type="button" className="button primary" onClick={()=>openPage('reading',{episode:'03',character:'ankita',scene:'01'})}>Read Episode 03 prose →</button></section>
   <div role="group" aria-label="Choose character perspective" className="perspective-tabs">{peopleOrder.map(w=><button type="button" key={w} onClick={()=>openPage('reading',{character:w})} aria-pressed={w===active} className={w===active?'selected':''}>{titleCase(w)}</button>)}</div>
   <div className="reader-layout">
    <aside className="scene-sidebar"><p className="aside-title">{titleCase(active)} · scenes</p>
@@ -62,7 +62,7 @@ const storyTag=(status:string)=>{
 const storyInline=(text:string)=>text.split(/(\*\*[^*]+\*\*|\*[^*]+\*)/g).map((part,i)=>
  part.startsWith('**')&&part.endsWith('**')?<strong key={i}>{part.slice(2,-2)}</strong>:
  part.startsWith('*')&&part.endsWith('*')?<em key={i}>{part.slice(1,-1)}</em>:<span key={i}>{part}</span>);
-const StoryParagraphs=({raw}:{raw:string})=><>{raw.split(/\n\s*\n/).filter(Boolean).map((part,i)=><p className="ep03-paragraph" key={i}>{storyInline(part)}</p>)}</>;
+const StoryParagraphs=({raw}:{raw:string})=><>{raw.split(/\n\s*\n/).filter(Boolean).map((part,i)=><p className={'ep03-paragraph'+(part.includes('GRAPHICAL DESCRIPTION — START')?' grok-marker-start':part.includes('GRAPHICAL DESCRIPTION WILL END HERE')?' grok-marker-end':'')} style={part.includes('GRAPHICAL DESCRIPTION — START')||part.includes('GRAPHICAL DESCRIPTION WILL END HERE')?{borderLeft:'4px solid #c08a23',backgroundColor:'rgba(221,162,43,0.14)',padding:'10px 14px',borderRadius:'8px',fontWeight:650}:undefined} key={i}>{storyInline(part)}</p>)}</>;
 type Scene07Revision={status:string;legend:{author:string;baseline:string};beats:{id:string;title:string;time:string;segments:{origin:'author'|'baseline';text:string}[]}[]};
 function Scene07RevisedProse(){
  const {data,loading,error}=useData<Scene07Revision>('episode-03-ankita-scene-07-revised-prose.json');
@@ -135,21 +135,21 @@ function Scene06SubmittedRevisions(){
  </section>;
 }
 function Episode03Reading({character,scene}:Props){
- const active=character==='meenakshi'?'meenakshi':'ankita';
+ const active=['ankita','meenakshi','shreya'].includes(character)?character:'ankita';
  const {data,loading,error}=useData<Ep03Data>('episode-03-reader.json');
  const scenes=data?.chapters?.[active]||[];
  const selected=scenes.find(x=>x.id===scene)||scenes[0];
  const selectedIndex=scenes.findIndex(x=>x.id===selected?.id);
  const go=(id:string,who=active)=>openPage('reading',{episode:'03',character:who,scene:id});
  return <main className="page-width" id="episode03-final-prose">
-  <header className="section-intro"><span className="eyebrow">The Story · 1 January 2026</span><h1>Episode 03 · Prose</h1><p>Read completed story text from the same Society Wives library. Source approvals remain visible; unfinished plots stay in Episode Planning.</p></header>
+  <header className="section-intro"><span className="eyebrow">The Story · 1 January 2026</span><h1>Episode 03 · Prose</h1><p>Read saved story text and review drafts from the same Society Wives library. Source approvals remain visible; unwritten plots stay in Episode Planning.</p></header>
   <div className="episode-picker" role="group" aria-label="Choose episode">
    <button type="button" onClick={()=>openPage('home')}>Episode 01 · Prologue</button>
    <button type="button" onClick={()=>openPage('reading',{character:active})}>Episode 02 · Six perspectives</button>
    <span className="episode-picker-current" aria-current="page">Episode 03 · Prose</span>
   </div>
   <div className="perspective-tabs" role="group" aria-label="Choose prose character">
-   {['ankita','meenakshi'].map(w=><button key={w} type="button" className={active===w?'selected':''} aria-pressed={active===w} onClick={()=>go('01',w)}>{titleCase(w)}</button>)}
+   {['ankita','meenakshi','shreya'].map(w=><button key={w} type="button" className={active===w?'selected':''} aria-pressed={active===w} onClick={()=>go(w==='shreya'?'10':'01',w)}>{titleCase(w)}</button>)}
   </div>
   {loading&&<p role="status">Loading Episode 03 prose…</p>}
   {error&&<p role="alert" className="error">SOURCE MISSING: {error}</p>}
