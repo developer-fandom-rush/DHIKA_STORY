@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-17-SHIVANI-EP03-THREE-SCENES-FINAL-PUBLISHED",
+  "version": "2026-11-17-SHIVANI-EP03-FINAL-EP04A-CANONICAL-HANDOFF",
   "episode": "03",
   "title": "The New Year's Continuing Encounters",
   "date": "2026-01-01",
@@ -1690,7 +1690,8 @@
       "location": "Gulmohar Heights foyer"
     },
     "societyChotuEventInEpisode03": false,
-    "futureEventSource": "shivani-jan01-night-next-episode-chotu-kavya-twins-om-plot.json",
-    "futurePlacement": "UNASSIGNED_NEXT_EPISODE_OR_NEXT_DAY_AWAIT_AUTHOR_DECISION"
+    "futureEventSource": "episode-04a-shivani-plan.json",
+    "futurePlacement": "EP04A_AUTHOR_REVISED_PLOT__PROSE_DRAFT_IN_GOOGLE_DOC",
+    "futureProseDraftUrl": "https://docs.google.com/document/d/1779t20ygHv8Q9PzJuH5u8SgxVcLHg9ZGm7cbmnXFs88/edit?usp=drivesdk"
   }
 }
