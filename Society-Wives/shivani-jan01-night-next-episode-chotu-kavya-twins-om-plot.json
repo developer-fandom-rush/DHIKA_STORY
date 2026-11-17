@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "id": "SW-SHIVANI-JAN01-NIGHT-NEXT-EPISODE",
   "title": "Shivani — Same-Day Night / Next-Episode Plot — Om, Deepu, Kavya, Karan & Aman",
-  "status": "USER_DIRECTED_WORKING_PLOT_SAVED__NOT_APPROVED_PROSE",
+  "status": "FUTURE_PLOT_SAVED__DEFERRED_BY_AUTHOR_AFTER_FINAL_EP03",
   "proseStatus": "NOT_WRITTEN",
   "date": "2026-01-01",
   "timezone": "Asia/Kolkata",
-  "episodePlacement": "NEXT_SHIVANI_EPISODE__SAME_CALENDAR_DATE__NUMBER_NOT_LOCKED",
+  "episodePlacement": "DEFERRED__NEXT_SHIVANI_EPISODE_OR_NEXT_DAY__AUTHOR_TO_ASSIGN",
   "scope": "Two connected movements: private household uncle setup/fantasy, then one outdoor society encounter with Shivani, Kavya, Deepu, Karan and Aman. Short romantic triangle formation without fighting, coercion or melodramatic jealousy.",
   "time": {
     "firstHomeBeat": "18:35–18:46",
@@ -282,5 +282,24 @@
     "jealousy": "Low-stakes mutual interest, witty competition and glances only. No physical aggression, coercion, stalking or crying."
   },
   "completion": "Shivani's Jan 1 night planning closes at the end of the 19:23 common-area encounter. Scene 02 (staffroom) remains a separate, prior Google Doc master reference; next-episode prose is NOT written or published.",
-  "preserve": "Never overwrite approved Episode 01–02 source, Ankita's pickup, or the unfinished Rinku doorbell setup."
+  "preserve": "Never overwrite approved Episode 01–02 source, Ankita's pickup, or the unfinished Rinku doorbell setup.",
+  "deferralDecision": {
+    "decisionDate": "2026-11-17",
+    "ep03Ending": "Shivani Episode 03 is final through Scene 03, 17:57 on 1 January 2026",
+    "societyChotuEventDone": false,
+    "notYetWritten": true,
+    "planningBeatsPreserved": [
+      "N01",
+      "N02",
+      "N03",
+      "N04",
+      "N05",
+      "N06",
+      "N07",
+      "N08"
+    ],
+    "scheduling": "Author will decide next day or later episode, do not treat initial Jan 1 evening proposed timings as locked future dates",
+    "related": "Society Chotu Deepu (22) knows Shivani; first meeting and attraction with Kavya is yet to be written",
+    "authorInstruction": "Remind user these Om and society night beats remain to be written. Do not add to finalized Episode 03."
+  }
 }
