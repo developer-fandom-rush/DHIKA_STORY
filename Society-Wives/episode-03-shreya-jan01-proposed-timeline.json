@@ -169,7 +169,7 @@
       "id": "SR13",
       "time": "12:20–13:15",
       "type": "existing",
-      "status": "AUTHOR_APPROVED_BRIEF_EXCHANGE_PLOT_PROSE_PENDING",
+      "status": "AUTHOR_APPROVED_BEAT06_PLOT_REVISED_2026_11_17_PROSE_NOT_YET_WRITTEN",
       "title": "Poonam's observed pattern — brief records-desk exchange",
       "place": "Station records desk",
       "characters": [
@@ -177,23 +177,42 @@
         "Poonam"
       ],
       "history": "Chauhan's prior unusual attention is already established in Episode 02; Poonam secretly has a private involvement with ACP Verma, unknown to Shreya.",
-      "distinctEvent": "During the existing 12:20–13:15 station paperwork block, Poonam quickly flags Chauhan's unusual follow-up request. Shreya instructs her to handle it through process. No separate substantial scene, new Chauhan appearance, expanded investigation, or extended debrief.",
-      "reaction": "Poonam keeps her own ACP Verma connection unspoken; Shreya does not learn it here.",
+      "distinctEvent": "During the existing 12:20–13:15 records-desk work, Poonam briefly comes to tell Shreya that Inspector Chauhan seems personally interested in her. Shreya remembers that she herself had knowingly teased Chauhan earlier; when Poonam catches her expression, Shreya blushes for a moment. Then both return to routine work. No new Chauhan visit, no extended review, no ACP Verma relationship disclosure.",
+      "reaction": "Shreya gives a short shy/blushing reaction on remembering her own teasing, then resumes normal duty. Poonam keeps her ACP Verma involvement private, and neither interprets the moment as a confirmed romance.",
       "exit": "Return straight to routine case work; do not make this a long standalone sequence.",
       "dialogue": [
         [
           "Poonam (29, Sub-Inspector)",
-          "Ma'am, yeh follow-up request routine se alag hai."
+          "Ma'am, Chauhan sir shayad aapmein interested hain."
         ],
         [
           "Shreya",
-          "Noted. Process mein hi handle karenge."
+          "Poonam... tum bhi na. Chalo, files complete karte hain."
         ]
       ],
       "authorApproval": {
-        "date": "2026-11-16",
-        "scope": "Beat 6 small Poonam–Shreya exchange only; no new extended scene",
-        "status": "PLOT_APPROVED_NOT_FULL_PROSE"
+        "date": "2026-11-17",
+        "scope": "Author-approved short Beat 06: Poonam conveys Chauhan interest; Shreya recalls her own teasing and blushes. No extended scene.",
+        "status": "PLOT_APPROVED_PROSE_PENDING"
+      },
+      "originalApprovedPlotBefore20261117": {
+        "distinctEvent": "During the existing 12:20–13:15 station paperwork block, Poonam quickly flags Chauhan's unusual follow-up request. Shreya instructs her to handle it through process. No separate substantial scene, new Chauhan appearance, expanded investigation, or extended debrief.",
+        "dialogue": [
+          [
+            "Poonam (29, Sub-Inspector)",
+            "Ma'am, yeh follow-up request routine se alag hai."
+          ],
+          [
+            "Shreya",
+            "Noted. Process mein hi handle karenge."
+          ]
+        ],
+        "reaction": "Poonam keeps her own ACP Verma connection unspoken; Shreya does not learn it here.",
+        "approval": {
+          "date": "2026-11-16",
+          "scope": "Beat 6 small Poonam–Shreya exchange only; no new extended scene",
+          "status": "PLOT_APPROVED_NOT_FULL_PROSE"
+        }
       }
     },
     {
@@ -818,33 +837,6 @@
   ],
   "parkedFutureEncounters": [
     {
-      "id": "SR12",
-      "time": null,
-      "type": "existing",
-      "status": "ON_HOLD_UNSCHEDULED_AUTHOR_DIRECTED_FUTURE_ARC",
-      "title": "The cellblock bet — three inmates, future ego-challenge arc",
-      "place": null,
-      "characters": [
-        "Shreya (33)",
-        "Inmate 1 (30, age from earlier source)",
-        "Inmate 2 (35, age from earlier source)",
-        "Inmate 3 (27, newly suggested age pending author lock)"
-      ],
-      "history": "Earlier source had two adult inmates (30 and 35). Author now directs three unnamed distinct adult inmates labeled only Inmate 1, Inmate 2, Inmate 3. Third age is a new proposal, not canon.",
-      "distinctEvent": "Three cunning inmates develop a private competitive wager about drawing the confident Inspector Shreya into repeated conversation. They exploit her desire to solve difficult challenges, making each legitimate interaction an ego test, but she initially remains unaware of their bet. No date or future physical contact is locked.",
-      "reaction": "Her focus stays on the case; reader knows more than she does.",
-      "exit": "File and observation notes",
-      "previouslyProposedDate": "2026-01-01",
-      "previouslyProposedTime": "11:40–12:15",
-      "futureArc": {
-        "coreConflict": "Shreya's competitive pride drives her to investigate their puzzle/challenge and can eventually cause her to lose a nonsexual wager.",
-        "nonsexualStakes": "A temporary, voluntary obligation to hear their explanation or respond to a legitimate authorized question, without compromising legal procedure or removing her ability to refuse. She is never required to obey personal or sexual demands.",
-        "trajectory": "Repeated dialogue, escalating psychological competition and a possible future attraction may be planned later; any intimacy must be freely chosen, not punishment for losing, and not part of a custody quid pro quo.",
-        "status": "PROPOSED_AND_UNSCHEDULED"
-      },
-      "approval": "AUTHOR_REQUESTED_ARC_HOLD_NO_EP03_SCENE"
-    },
-    {
       "id": "S03-09",
       "time": null,
       "type": "held",
@@ -869,7 +861,9 @@
   "authorDecisions": [
     "2026-11-16: B3 strong-chai beat explicitly approved unchanged; B4 DCP Rathod one-sided private fantasy requested, proposed review logic only; B5 inmates bet moved from active Jan1 plan to unscheduled future arc with three labeled adult inmates and ego-based nonsexual challenge.",
     "2026-11-17: SR10 / Beat 02 complete UI prose with G01–G07 approved final by author; no wording changes. S03-01 Strong-Chai plot remains separately approved, its short prose is a new review draft, not yet published.",
-    "2026-11-17: Author approves complete short S03-01 Strong-Chai prose as final and directly published in EP03 reader. EP02 ALL existing scenes final/frozen. SR11 DCP fantasy remains a separate proposed, not-yet-approved beat; no plot modifications."
+    "2026-11-17: Author approves complete short S03-01 Strong-Chai prose as final and directly published in EP03 reader. EP02 ALL existing scenes final/frozen. SR11 DCP fantasy remains a separate proposed, not-yet-approved beat; no plot modifications.",
+    "2026-11-17: Removed SR12 Beat 05 from EP03 held sequence and moved its exact historical arc to episode-04-shreya-future-plan.json. EP04 reveal: three apparent inmates are professional training actors; male-side setup knows, female trainees do not. No EP04 timing yet.",
+    "2026-11-17: Beat 06 SR13 remains a short approved records-desk exchange. Poonam says Chauhan appears interested in Shreya; Shreya recalls her earlier teasing and blushes briefly; ACP secret remains concealed."
   ],
   "trainingRosterClarification": {
     "policeTrainees": [
@@ -917,18 +911,12 @@
       "proseStatus": "DRAFT_PUBLISHED_FOR_AUTHOR_REVIEW_2026_11_17"
     },
     {
-      "number": 5,
-      "id": "SR12",
-      "kind": "held",
-      "title": "The Cellblock Bet · three inmates",
-      "label": "ON HOLD · future encounter"
-    },
-    {
       "number": 6,
       "id": "SR13",
       "kind": "active",
       "title": "Poonam's pattern · small exchange",
-      "label": "Approved · short exchange"
+      "label": "Approved brief Chauhan-interest note + Shreya blush",
+      "status": "AUTHOR_APPROVED_BEAT06_PLOT_REVISED_2026_11_17_PROSE_NOT_YET_WRITTEN"
     },
     {
       "number": 7,
@@ -987,7 +975,7 @@
       "label": "ON HOLD · author requested"
     }
   ],
-  "reviewSequencePolicy": "Original fourteen review slots maintained. B1 merged. B5 inmate arc held separately. B7–B9 college encounter author-approved plot direction with shared memory; B10 five-person police drill approved. B11 short duty-to-society transition. B12 sport-twins contact escalation is an author-selected writing draft for review, distinct Samar/Shaan moments. B13 is pre-existing Chintu's register continuity (station Chotu tea scene is B3). B14 family/home transit is now author-HOLD with no active Jan1 slot.",
+  "reviewSequencePolicy": "Episode 03 retains original beat numbering (Beat 05 is moved out to Episode 04 Future Plots and is not shown as an Episode 03 slot). Do not renumber Beat 06 onward. Continue directly from Beat 04 to Beat 06 in this planning surface; no fabricated 11:40–12:20 encounter. All other author locks remain as previously recorded.",
   "collegeContinuityLock": {
     "sceneIds": [
       "S03-02",
@@ -1046,5 +1034,13 @@
       "requiredDiscussion": "Keep Samar and Shaan distinct and retain their two established bets. Before prose, design a meaningful event and immediate individual aftermath rather than another staged balancing/spotter move or a prescribed number of small touches.",
       "approvalBoundary": "Only a review note on current draft; keep prior event text and user selected direction intact until author review."
     }
-  ]
+  ],
+  "futureEpisode04": {
+    "path": "episode-04-shreya-future-plan.json",
+    "id": "SR12",
+    "title": "The Cellblock Bet — Disguised Professional Trainers",
+    "episode": "04",
+    "status": "MOVED_FROM_EP03_BEAT05_FUTURE_ONLY_UNSCHEDULED",
+    "note": "Original Beat 05 moved to separate EP04 future section, without renumbering EP03 Beat 06 or other beats. The actors are professional trainers, not actual inmates; females unaware of the male-side testing setup."
+  }
 }
