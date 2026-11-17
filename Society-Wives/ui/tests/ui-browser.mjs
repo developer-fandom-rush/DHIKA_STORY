@@ -223,6 +223,10 @@ try {
  check((await page.locator('#shreya-ep03-SR12 summary').innerText()).includes('ON HOLD'),'Beat 5 inmate bet visibly held');
  check((await page.locator('#shreya-ep03-S03-09 > summary').innerText()).includes('ON HOLD'),'Beat 14 family/home marked author hold');
  check((await page.locator('#shreya-ep03-S03-07 > summary').innerText()).includes('Physical progression'),'Beat 12 Samar Shaan scene draft listed');
+ check(await page.locator('#shreya-review-issue-S03-05').count()===1,'Shreya approved training beat has an explicit editorial discussion issue');
+ check(await page.locator('#shreya-review-issue-S03-07').count()===1,'Shreya twin beat has an explicit editorial discussion issue');
+ check((await page.locator('#shreya-review-issue-S03-07').innerText()).includes('This was done incorrectly. We have to update it.'),'Exact author-requested correction note displayed');
+ check((await page.locator('#shreya-review-issue-S03-05').innerText()).includes('Preserve prior approval'),'Existing Shreya training approval is protected');
  await page.locator('#shreya-ep03-S03-07 > summary').click();
  check(await page.locator('#shreya-ep03-S03-07 .beat-list > details').count()===6,'Six sports twin mini-beats displayed');
  await page.locator('#shreya-ep03-S03-08 > summary').click();
