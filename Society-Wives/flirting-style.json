@@ -225,5 +225,45 @@
     "plotSuggestionFormat": "If an outline is requested, return compact title/time/cast, one-line context, the distinctive new incident, immediate source-faithful reaction, and exit. These headings are optional editorial metadata, NOT required scene prose.",
     "proseStandard": "Continuous natural Hinglish; short lived-in context; character-specific voice and body/wardrobe/motion observation when relevant; clear event, immediate effect and no compulsory explanation afterward.",
     "previousApprovedStories": "Do not rewrite Ankita, Meenakshi, Shivani, Taniya, Soniya or Shreya approved material merely to apply a new style guide."
+  },
+  "authorRevisionNotes20261117": {
+    "id": "SW-PRIVATE-ACCIDENT-NUMERIC-FIDELITY-GROK-MARKER-GUIDE",
+    "status": "AUTHOR_DIRECTED_GLOBAL_WRITING_STYLE_LOCK__NOT_AN_APPROVAL_OF_NEW_PROSE",
+    "reference": "WRITING-STYLE-DHIKA-EP01-EP03-RECALIBRATION.md",
+    "focus": "Short event-first accidents, private staging, exact author-provided numbers, selective graphical-insertion markers and minimal aftermath",
+    "mistakesIdentified": [
+      "Public audience staging invented for a private two-observer accident; a crowd would change the stakes into unwanted public shame",
+      "Explicit author-specified figure one-third (1/3) was omitted from the visual continuity requirements",
+      "A simple official journey and a 5–6-second mishap expanded into unnecessary filler dialogue and psychological explanation",
+      "A brief normal exit became a separate overlong aftermath; repeated explanations buried the incident",
+      "Placeholder markers treated as a fixed quota instead of matching scene-specific and author-specific visual needs",
+      "Original Dhika EP01–EP03 compression and bodily reaction examples were not followed as a pacing reference"
+    ],
+    "mandatoryRules": [
+      "Preserve every author-specified numeric quantity, exact fraction, time, physical extent, count, and spatial constraint in planning and relevant drafting; DO NOT replace 1/3 by 'small part' or an invented value. Render numerals naturally where they matter.",
+      "A private exposure or observation intended only for two named characters must be spatially private: no public sightline, crowd, third witness, staged embarrassment or involuntary shared audience. Physical cause and viewpoint must be credible.",
+      "Describe an accidental incident in a compact event-focused passage, not multi-paragraph psychology. A five-to-six-second observation is ONE continuous instant, not two inflated separate sequences.",
+      "Use one or more GROK/author visual markers solely when an identified visual, physical movement, or observation genuinely needs further user-directed insertion. There is NO fixed minimum or maximum marker count; zero, one, two or many are possible.",
+      "Do not silently convert author-marked visual material into generic non-visual prose or dilute the numbered visibility boundary. Keep the marker and the author's continuity constraints intact when the insertion itself is not yet authored.",
+      "If requested marker density would dominate the story or shift tone toward a porn-like montage, explain the tonal consequence and offer a more focused marker layout; let the author decide scene emphasis. Do not automatically insert extra visual beats.",
+      "Pace setup by causal necessity: Beat 07 a brief arrival, Beat 08 one private accident with immediate genuine reaction, Beat 09 a two-to-three-line exit plus logistical bridge to the next training beat.",
+      "Differentiate Karan's briefly broken teasing from Aman's restrained practical response; no invented lasting guilt, mutual desire, memory monologue or next-episode promise.",
+      "Follow the Dhika EP01–EP03 comparative style reference for concise build/action/response; preserve longer passages only when event stakes actually warrant them.",
+      "Existing approved prose stays immutable without explicit author instruction. A revision draft for Beats 07–09 is NOT automatic approval or publication."
+    ],
+    "shreyaB07B09Reference": {
+      "date": "2026-01-01",
+      "publicEvent": "Public cyber-safety seminar remains official and public; the wardrobe accident occurs afterward in a private adjacent prep room",
+      "allowedWitnesses": [
+        "Karan",
+        "Aman"
+      ],
+      "excludedWitnesses": "Any audience or other staff",
+      "observationWindow": "one contiguous 5–6 seconds",
+      "preciseAuthorFigure": "one-third (1/3) of one breast briefly visible in side view; not just 'a little' and not an expanded view",
+      "wardrobe": "Shreya's first/top uniform button was already open; the second stays closed; no additional buttons unfasten",
+      "memories": "A brief involuntary sight and immediate distinct visible reaction, never an extended stare or public shame",
+      "status": "AUTHOR_CORRECTED_PLOT_DIRECTION_DRAFT_PROSE_PENDING_FINAL_APPROVAL"
+    }
   }
 }
