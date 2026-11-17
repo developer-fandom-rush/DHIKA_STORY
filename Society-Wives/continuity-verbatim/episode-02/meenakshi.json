@@ -10,7 +10,7 @@
     "path": "Society-Wives/episode-02.html",
     "blob_sha": "9c5c8cb827b87db90973b1ab66c572db594eb0a4"
   },
-  "approval_policy": "Approved scenes are marked only when exact source plan signals approval; published drafts remain indexed separately and must not be used as approved canon.",
+  "approval_policy": "2026-11-17 author directive: All existing Episode 02 story scenes are FINAL, APPROVED and FROZEN; previous scene badges/flags are historical source provenance, not current approval state. Never alter exact source prose without author request.",
   "scenes": [
     {
       "scene_id": "M01",
@@ -2788,15 +2788,14 @@
     "M02",
     "M03",
     "M04",
-    "M05"
-  ],
-  "nonapproved_scene_ids": [
+    "M05",
     "M06",
     "M07",
     "M10",
     "M11",
     "M12"
   ],
+  "nonapproved_scene_ids": [],
   "character_name_index": [
     {
       "character_id": "nikhil",
@@ -3559,5 +3558,34 @@
     "scenes_found": 10,
     "source_characters_preserved": 39016,
     "each_scene_reconstruction_verified": true
-  }
+  },
+  "authorApprovalUpdate": {
+    "confirmedBy": "Author in current conversation, 2026-11-17",
+    "scope": "All extant Episode 02 meenakshi scene content: M01, M02, M03, M04, M05, M06, M07, M10, M11, M12",
+    "status": "FINAL_APPROVED_FROZEN_2026_11_17",
+    "updateType": "STATUS_ONLY_NO_PROSE_REWRITE",
+    "sourceProvenancePreserved": true,
+    "missingProseIdsPreserved": [
+      "M09"
+    ],
+    "historicalApproval": {
+      "approved": [
+        "M01",
+        "M02",
+        "M03",
+        "M04",
+        "M05"
+      ],
+      "nonapproved": [
+        "M06",
+        "M07",
+        "M10",
+        "M11",
+        "M12"
+      ],
+      "policy": "Approved scenes are marked only when exact source plan signals approval; published drafts remain indexed separately and must not be used as approved canon."
+    },
+    "changePolicy": "Do not rewrite, revise, re-open plotting or downgrade approval absent an explicit author request"
+  },
+  "finalFrozen": true
 }
