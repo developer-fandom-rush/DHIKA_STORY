@@ -10,7 +10,7 @@
     "path": "Society-Wives/episode-02.html",
     "blob_sha": "91f5c2a92282cc01be7497cd8e12c97a41241aed"
   },
-  "approval_policy": "UI label APPROVED or directly recorded A08 approval authorizes approved_by_ui_or_plan. PUBLISHED, FINAL or USER-SUPPLIED alone are not interpreted as blanket approval.",
+  "approval_policy": "2026-11-17 author directive: All existing Episode 02 story scenes are FINAL, APPROVED and FROZEN; previous scene badges/flags are historical source provenance, not current approval state. Never alter exact source prose without author request.",
   "scenes": [
     {
       "scene_id": "A02-SCENE-1",
@@ -6479,13 +6479,11 @@
     "A02-SCENE-2",
     "A03-SCENE-3",
     "A04-SCENE-4",
+    "A05-SCENE-5",
     "A06-SCENE-6",
     "A07-SCENE-7",
     "A08-SCENE-8",
-    "P01"
-  ],
-  "nonapproved_scene_ids": [
-    "A05-SCENE-5",
+    "P01",
     "P02",
     "P03",
     "P04",
@@ -6494,6 +6492,7 @@
     "P07",
     "P08"
   ],
+  "nonapproved_scene_ids": [],
   "character_name_index": [
     {
       "character_id": "kabir",
@@ -7851,5 +7850,38 @@
     "scenes_found": 16,
     "source_characters_preserved": 78204,
     "each_scene_reconstruction_verified": true
-  }
+  },
+  "authorApprovalUpdate": {
+    "confirmedBy": "Author in current conversation, 2026-11-17",
+    "scope": "All extant Episode 02 ankita scene content: A02-SCENE-1, A02-SCENE-2, A03-SCENE-3, A04-SCENE-4, A05-SCENE-5, A06-SCENE-6, A07-SCENE-7, A08-SCENE-8, P01, P02, P03, P04, P05, P06, P07, P08",
+    "status": "FINAL_APPROVED_FROZEN_2026_11_17",
+    "updateType": "STATUS_ONLY_NO_PROSE_REWRITE",
+    "sourceProvenancePreserved": true,
+    "missingProseIdsPreserved": [],
+    "historicalApproval": {
+      "approved": [
+        "A02-SCENE-1",
+        "A02-SCENE-2",
+        "A03-SCENE-3",
+        "A04-SCENE-4",
+        "A06-SCENE-6",
+        "A07-SCENE-7",
+        "A08-SCENE-8",
+        "P01"
+      ],
+      "nonapproved": [
+        "A05-SCENE-5",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08"
+      ],
+      "policy": "UI label APPROVED or directly recorded A08 approval authorizes approved_by_ui_or_plan. PUBLISHED, FINAL or USER-SUPPLIED alone are not interpreted as blanket approval."
+    },
+    "changePolicy": "Do not rewrite, revise, re-open plotting or downgrade approval absent an explicit author request"
+  },
+  "finalFrozen": true
 }
