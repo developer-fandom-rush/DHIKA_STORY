@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "id": "SW-EP04B-ANKITA-CHOTU-PRESERVED",
+  "title": "Ankita — separate EP04B Chotu planning archive, not in shared workshop",
+  "status": "SAVED_FOR_LATER_DISCUSSION_NOT_APPROVED_PROSE",
+  "source": "episode-04-chotu-six-leads-review.json",
+  "originalEndJan01": "EP03 Scene08 doorbell at 18:25; EP03 briefing already included a conscious two-button presentation test.",
+  "twins": "Karan–Aman (Kabir's younger brothers) have a saved Jan1 ride; no added twins encounter.",
+  "tracks": [
+    {
+      "lead": "ankita",
+      "chotu": "Rinku",
+      "lane": "Society",
+      "age": 23,
+      "setting": "Gulmohar Heights · Ankita's kitchen",
+      "twinsContext": "Karan and Aman drop Ankita by about 17:50 on 1 Jan; they are not spectators to the 18:25 doorbell continuation.",
+      "a": {
+        "date": "2026-01-01",
+        "start": "18:25",
+        "end": "18:45",
+        "title": "The water-filter burst",
+        "cause": "Resume EP03 Scene08 at 18:25 door opening. Rinku checks the loose water-filter connector. The brittle coupler slips just as Ankita reaches the shut-off valve.",
+        "physical": "Water bursts over Ankita's cotton kurti as she catches Rinku's clothed upper arm to stop herself sliding; shoulders briefly draw close, then they separate.",
+        "sightline": "Damp outer kurti outlines the inner layer through fabric for a moment; no bare-breast exposure. Only Rinku is present in the kitchen.",
+        "duration": "Brief contact ~2–3 seconds inside a 20-minute practical repair.",
+        "reaction": "Ankita notices his abrupt silence only after handling the leak. A brief thrill at unexpected closeness and an unanswered question about what he noticed—not her first-ever boldness.",
+        "hook": "Temporary repair only; replacement part creates a possible January 2 follow-up.",
+        "scene": "E04A-S01",
+        "beatIds": [
+          "A01",
+          "A02",
+          "A03",
+          "A04",
+          "A05"
+        ],
+        "source": "episode-04a-ankita-plan.json"
+      },
+      "b": {
+        "date": "2026-01-02",
+        "start": "19:45",
+        "end": "20:05",
+        "title": "The controlled pressure test",
+        "choice": "After changing into dry home clothes, Ankita deliberately stays beside Rinku rather than leaving him to finish alone. She asks him to show her the valve technique and, with his assent, places her hand over his for a short shared turn of the control.",
+        "physical": "Palm-over-palm at the valve, shoulders briefly alongside each other; she chooses when to release and hold his gaze.",
+        "test": "She asks calmly whether the sudden spray yesterday startled him or whether something else did. Her directness is the new test—not a re-enacted wet-clothes accident.",
+        "result": "Rinku admits the situation made him awkward and looks directly at her this time. She is surprised that candid eye contact affects her more than the previous glimpse.",
+        "after": "A quick private thrill; no kiss, confession or unapproved parcel reveal."
+      }
+    },
+    {
+      "lead": "ankita",
+      "chotu": "Rohit",
+      "lane": "Office",
+      "age": 22,
+      "setting": "Cyber City IT · private AV/equipment room",
+      "twinsContext": "Karan/Aman are Ankita's established family twins, not office staff. No twin crossover or new ride on Jan2.",
+      "a": {
+        "date": "2026-01-02",
+        "start": "09:40",
+        "end": "10:20",
+        "title": "The unplanned camera preview",
+        "cause": "Rohit returns with yesterday's incomplete AV-asset slip. During a live, non-recording conference-camera calibration, Ankita reaches past the rack to free a cable and appears unexpectedly near the low camera frame.",
+        "physical": "Her dupatta catches against an equipment handle and briefly pulls aside while she straightens it; she and Rohit simultaneously steady the monitor's cable connector, their fingers meeting for a moment.",
+        "sightline": "The monitor shows a closer upper-neckline/clothing-layer view than intended; no nudity, recording or other spectator. Rohit notices the frame before she sees it.",
+        "duration": "Unintended live-preview angle ~2 seconds; brief finger contact.",
+        "reaction": "Rohit loses his sentence and forgets the signed acknowledgment. Ankita has the observable pause but not the camera information; unlike Dhika, Ankita is already familiar with deliberately altering her presentation after her Jan1 two-button briefing.",
+        "hook": "The unfinished sign-off provides a real same-day return task."
+      },
+      "b": {
+        "date": "2026-01-02",
+        "start": "14:00",
+        "end": "14:40",
+        "title": "The chosen retake",
+        "choice": "At the next scheduled AV sign-off, Ankita knowingly checks the live framing herself instead of asking Rohit to avoid it. She controls her scarf and position, then invites him to stand beside the console for an agreed comparison shot.",
+        "physical": "They stand shoulder-to-shoulder to operate the remote; she intentionally keeps her fingers on the remote for a beat while he steadies it, then looks from preview to his face.",
+        "test": "Will Rohit acknowledge the earlier preview directly instead of hiding behind professional small talk?",
+        "result": "He admits the low camera angle was unexpectedly intrusive, corrects it in her presence and gives one sincere compliment. She values his candor and feels the jolt of her own conscious choice, not an imagined first-ever bold act.",
+        "after": "Both complete the sign-off. No recording, secret exposure, copy of Dhika's floor-cleaning or coerced response."
+      }
+    }
+  ]
+}
