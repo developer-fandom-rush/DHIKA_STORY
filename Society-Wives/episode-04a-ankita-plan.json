@@ -7,8 +7,8 @@
   "part": "A",
   "storyDate": "2026-01-01",
   "timezone": "Asia/Kolkata",
-  "status": "PROPOSED_FOR_AUTHOR_DISCUSSION_NOT_APPROVED_PROSE",
-  "title": "Episode 04A — Ankita's January 1 Evening",
+  "status": "AUTHOR_REQUESTED_EP04A_NIGHT_REVISED_REVIEW_NOT_APPROVED_PROSE",
+  "title": "Episode 04A — Ankita: Rinku, Household, Kabir & Night Closure",
   "continuityStart": {
     "episode": "03",
     "scene": "08",
@@ -63,12 +63,153 @@
     {
       "id": "E04A-S02",
       "sceneNumber": "02",
-      "title": "Evening household closure — reserved",
-      "status": "NOT_YET_OUTLINED",
-      "start": null,
-      "end": null,
-      "beats": [],
-      "reason": "Husband Kabir, twins Karan/Aman, and Rajeev household arrival/presence timings are not verified for this evening. Do not silently assume people are absent or invent family arrivals. Reserve this scene before claiming January 1 closed."
+      "title": "Household reset — Rajeev remains away",
+      "location": "Gulmohar Heights · Malhotra family apartment",
+      "start": "18:45",
+      "end": "20:35",
+      "status": "AUTHOR_REQUESTED_NIGHT_CLOSURE_REVIEW_PROSE_NOT_APPROVED",
+      "beats": [
+        {
+          "id": "N01",
+          "time": "18:45–19:10",
+          "title": "Dry clothes and the quiet apartment",
+          "plot": "After Rinku's temporary repair, Ankita gets into dry, comfortable home clothes and returns to her ordinary household tasks. The question raised by Rinku's abrupt quietness stays private. No second encounter or deliberate display tonight."
+        },
+        {
+          "id": "N02",
+          "time": "19:10–20:35",
+          "title": "Rajeev's absence, not a new mystery",
+          "plot": "Ankita knows Rajeev has stepped out for an important errand, without an expected return time. He took his own key. She does not engage the inside bolt; the ordinary door latch can be opened using his key. His errand and the private parcel remain unseen and undiscussed. Karan and Aman are still out at pre-existing society activities, including their 19:11–19:23 Shivani and 20:16–20:24 Taniya commitments."
+        }
+      ],
+      "householdLock": "Rajeev is absent on an unspecified important errand; reader is NOT told what. His return time remains open. No secret parcel handover."
+    },
+    {
+      "id": "E04A-S03",
+      "sceneNumber": "03",
+      "title": "Karan and Aman come home",
+      "location": "Gulmohar Heights · Malhotra family apartment",
+      "start": "20:40",
+      "end": "21:00",
+      "status": "AUTHOR_REQUESTED_NIGHT_CLOSURE_REVIEW_PROSE_NOT_APPROVED",
+      "beats": [
+        {
+          "id": "N03",
+          "time": "20:40–21:00",
+          "title": "Two brothers back from society",
+          "plot": "After their established ~20:24 society event, Karan and Aman return to their shared apartment. Ordinary dinner and brief chat; Ankita does not tease them into a new intimate encounter. She can remind Aman about his Java interview notes without starting a long work scene. Neither brother knows her private Rinku thoughts."
+        }
+      ],
+      "continuity": "Their return at 20:40 is PROPOSED and must be revisited if other locked overnight scenes conflict."
+    },
+    {
+      "id": "E04A-S04",
+      "sceneNumber": "04",
+      "title": "Kabir's work call and arrival",
+      "location": "Office call → Gulmohar Heights · Malhotra apartment",
+      "start": "21:05",
+      "end": "21:50",
+      "status": "AUTHOR_REQUESTED_NIGHT_CLOSURE_REVIEW_PROSE_NOT_APPROVED",
+      "beats": [
+        {
+          "id": "N04",
+          "time": "21:05–21:12",
+          "title": "Short reassuring call",
+          "plot": "Kabir calls from work to say his release-related office duties ran late but he is coming home tonight. Ankita asks about his tiredness and responds warmly. He does not interrogate her day; she simply says work and the New Year celebration went well."
+        },
+        {
+          "id": "N05",
+          "time": "21:35–21:50",
+          "title": "Kabir returns",
+          "plot": "Kabir reaches home, is welcomed affectionately and freshens up. Do not cast him as absent for the entire night or copy Dhika/John's overnight absence. He knows nothing about Ankita's private testing of attention or other men's undisclosed thoughts."
+        }
+      ],
+      "continuity": "Exact office exit and commute remain author-review proposals, not previously established workplace facts."
+    },
+    {
+      "id": "E04A-S05",
+      "sceneNumber": "05",
+      "title": "A familiar marriage, very little explanation",
+      "location": "Gulmohar Heights · Malhotra family apartment",
+      "start": "21:50",
+      "end": "22:15",
+      "status": "AUTHOR_REQUESTED_NIGHT_CLOSURE_REVIEW_PROSE_NOT_APPROVED",
+      "beats": [
+        {
+          "id": "N06",
+          "time": "21:50–22:15",
+          "title": "Natural husband-wife warmth",
+          "plot": "Kabir asks whether Ankita enjoyed her day. She replies briefly, 'Haan, kaafi eventful tha,' without reciting Bhalla, Sandeep, the briefing buttons, the party's private moments, the Aman ride or Rinku's changed gaze. They talk about his late work, tomorrow's routine and being together. Nothing suggests their established marriage was unhappy or unsatisfying."
+        }
+      ],
+      "dialogueSample": [
+        {
+          "speaker": "Kabir",
+          "line": "Aaj toh tumhari smile se lag raha hai New Year achha gaya."
+        },
+        {
+          "speaker": "Ankita",
+          "line": "Bahut eventful tha. Par ab tum aa gaye ho, bas."
+        },
+        {
+          "speaker": "Kabir",
+          "line": "Aur kal subah phir tumhari running?"
+        },
+        {
+          "speaker": "Ankita",
+          "line": "Maybe. Dekhenge."
+        }
+      ]
+    },
+    {
+      "id": "E04A-S06",
+      "sceneNumber": "06",
+      "title": "Before bed — the day belongs to her thoughts",
+      "location": "Gulmohar Heights · Malhotra family apartment",
+      "start": "22:35",
+      "end": "23:00",
+      "status": "AUTHOR_REQUESTED_NIGHT_CLOSURE_REVIEW_PROSE_NOT_APPROVED",
+      "beats": [
+        {
+          "id": "N07",
+          "time": "22:35–22:48",
+          "title": "One vivid private recall, not a checklist",
+          "plot": "In her own thoughts Ankita remembers the morning compliments (Rohan, Nikhil and the fitness group), office comments by Priya/Nisha, her OWN decision to loosen two kurti buttons in front of Bhalla and Sandeep, the party's dancing, the unusual scooter closeness with Aman, and the kitchen accident with Rinku. The reader may understand that different men interpreted her differently, but Ankita cannot recall hidden fantasies, privacy violations or secret parcel activity she never learned about."
+        },
+        {
+          "id": "N08",
+          "time": "22:48–23:00",
+          "title": "Charged feelings turn toward her husband",
+          "plot": "The day has left her unusually energized, self-aware and physically stirred. She remembers that she chose some moments of playful attention, while others surprised her. There is no assumed consent for others and no invented guilt. She wants closeness with Kabir, and decides to initiate it herself."
+        }
+      ],
+      "mentalPOV": "ANKITA_ONLY",
+      "prosePreview": "Poore din ki tasveerein ek saath laut aayin—subah ke compliments, briefing mein uske apne khole hue do buttons, party ka dance, scooty ka woh unexpected moment, aur kitchen mein Rinku ki achanak khamoshi. Kuch lamhe usne khud chune the, kuch bina soche ho gaye. Aaj woh khud ko unusually excited mehsoos kar rahi thi. Kabir uske paas tha; is waqt uska dil usi ke kareeb jaana chahta tha."
+    },
+    {
+      "id": "E04A-S07",
+      "sceneNumber": "07",
+      "title": "Ankita takes the initiative — fade to black",
+      "location": "Gulmohar Heights · Malhotra family apartment",
+      "start": "23:00",
+      "end": "23:15",
+      "status": "AUTHOR_REQUESTED_NIGHT_CLOSURE_REVIEW_PROSE_NOT_APPROVED",
+      "beats": [
+        {
+          "id": "N09",
+          "time": "23:00–23:08",
+          "title": "Confident, mutual married intimacy",
+          "plot": "Ankita approaches Kabir and initiates affectionate intimacy with noticeably more eagerness than usual. Kabir recognizes how excited and proactive she is, responds with equal affection and enthusiasm, and both willingly share an unusually intense, fulfilling night together. Do NOT describe sexual acts graphically, and do not have Ankita reveal her private day-recall to Kabir. Fade to black as the intimacy begins."
+        },
+        {
+          "id": "N10",
+          "time": "23:08–23:15",
+          "title": "Tenderness and sleep",
+          "plot": "After the fade to black, briefly return only to the comfortable, loving aftermath: both are content, Kabir checks that Ankita is comfortable, and they fall asleep as caring partners. Their already-good married intimacy feels newly refreshed, not repaired from a fabricated problem."
+        }
+      ],
+      "fadeToBlack": true,
+      "prosePreview": "Kabir ne uske chehre ki alag-si chamak aur uski aaj ki bejhijhak pehel mehsoos ki. Woh muskuraya; Ankita ne bhi usse utni hi garmahat se apne kareeb bula liya. Us raat dono ne apni shaadi ki pehle se pyaari nazdeekiyon ko ek nayi intensity ke saath jiya.\n\n*Fade to black.*\n\nBaad mein, ek-doosre ka khayal rakhte hue, dono sukoon aur pyaar ke saath so gaye. Ankita ko mehsoos hua ki aaj ki raat ne unke achhe relationship ko kuch aur khaas bana diya tha."
     }
   ],
   "handoff": {
@@ -83,7 +224,19 @@
     "Keep the original 18:25 EP03 cut without rewriting it.",
     "No accidental and deliberate two-stage sequence compressed into the same 20 minutes.",
     "Only Ankita and Rinku witness kitchen incident unless later source explicitly places anyone else there.",
-    "Scene 02 household closure is genuinely pending rather than falsely completed.",
-    "The opening two buttons from the January 1 office briefing are an earlier conscious presentation; do not write this as Ankita's first boldness."
-  ]
+    "The opening two buttons from the January 1 office briefing are an earlier conscious presentation; do not write this as Ankita's first boldness.",
+    "Scenes 02–07 are night-closure proposals for author's review. The pre-existing Scene 01 five beats are untouched.",
+    "Kabir learns only ordinary broad details, not Ankita's internal inventory or any men's private/unknown behavior.",
+    "Husband-wife sexual connection is mutually enthusiastic and off-page (fade-to-black), followed by caring sleep.",
+    "Rajeev's unspecified important errand, own key, and unbolted door remain fixed planning constraints; no arbitrary nighttime entrance.",
+    "No new intimate activity involving either devar in the household scene."
+  ],
+  "nightClosure": {
+    "kabir": "Returns from work after a short call on January 1, rather than missing overnight",
+    "twins": "Karan/Aman 20:40 return proposed after Taniya 20:24 event",
+    "rajeev": "Out on unspecified important business, has his own key, inside bolt not engaged, no return time promised",
+    "memory": "Ankita-only recollection; no disclosure of hidden/private encounter details to Kabir",
+    "intimacy": "Married couple mutually enjoy intense, enthusiastic sex; explicit actions not depicted; fade to black followed by caring, contented sleep",
+    "day2Seed": "Night closure does not require a locked outfit or a promised rendezvous with Rohan/Nikhil; optional new athletic look can be decided on the morning of January 2."
+  }
 }
