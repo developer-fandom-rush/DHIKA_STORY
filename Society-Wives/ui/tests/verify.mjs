@@ -27,6 +27,13 @@ assert.equal(taniyaSoniya04A.scenes.reduce((n,scene)=>n+scene.beats.length,0),13
 assert.ok(taniyaSoniya04A.canonChecks.episode03.includes('T03-11'),'EP03 twins scene remains in EP03, not moved to EP04A');
 assert.ok(taniyaSoniya04A.scenes[4].beats.some(b=>b.title==='The reality switch'),'Rahul's extended dream is later revealed as imagined');
 assert.ok(taniyaSoniya04A.scenes[2].beats.some(b=>b.title.includes('three-question confidence test')),'Soniya actual bold test is concrete');
+const shreyaNight=read('episode-04a-shreya-night-plan.json');
+assert.deepEqual(shreyaNight.scenes.map(s=>s.number),['01','02','03','04'],'Shreya 04A has four numbered scenes');
+assert.equal(shreyaNight.scenes.reduce((sum,scene)=>sum+scene.beats.length,0),15,'Shreya 04A has 15 new review beats');
+assert.ok(shreyaNight.scenes[0].beats.some(b=>b.id==='SC03'),'Chintu button accident is specifically represented');
+assert.ok(shreyaNight.scenes[1].beats.some(b=>b.id==='SC07'),'Arvind's accidental shower door encounter is a separate scene');
+assert.equal(shreyaNight.scenes[3].fadeToBlack,true,'Vikram married night has a non-graphic fade-to-black');
+assert.equal(chotuWorkshop.leads.find(l=>l.id==='shreya').tracks.find(t=>t.chotu==='Chintu').a.date,'2026-01-01','Chintu's first accident is on Jan1, not Jan2');
 const shivaniEp04A=read('episode-04a-shivani-plan.json');
 assert.deepEqual(shivaniEp04A.scenes.map(s=>s.sceneNumber),['01','02','03','04','05','06','07'],'Shivani EP04A must have seven sequential numbered scenes');
 assert.equal(shivaniEp04A.scenes.reduce((sum,s)=>sum+s.beats.length,0),25,'Twenty-five new review beats for Shivani');
