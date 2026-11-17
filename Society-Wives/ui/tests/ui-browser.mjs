@@ -259,6 +259,10 @@ try {
  await page.locator('#taniya-ep03-T03-02 > summary').click();
  check((await page.locator('#taniya-ep03-T03-02').innerText()).includes('CLOTHED WAIST'),'Waist support is visible within scene');
  await page.locator('.perspective-tabs button', {hasText:'Shreya'}).click();
+ await page.waitForFunction(()=>document.querySelector('#shreya-episode04a')?.textContent?.includes('SC03'));
+ check((await page.locator('#shreya-episode04a').innerText()).includes('Scene 04'),'Shreya Episode 04A four scenes visible in planning');
+ check((await page.locator('#shreya-episode04a').innerText()).includes('SC07'),'Arvind mistaken shower door event shown');
+ check((await page.locator('#shreya-episode04a').innerText()).includes('Vikram'),'Vikram spouse night shown');
  await page.locator('#shreya-ep03-jan01-timeline').waitFor();
  check((await page.locator('#shreya-ep03-jan01-timeline').innerText()).includes('1 January 2026'),'Shreya Episode03 shows January 1 date');
  check((await page.locator('#shreya-ep03-jan01-timeline').innerText()).includes('Police-station Chotu'),'Police station chai wala role shown');
