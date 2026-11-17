@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "SW-EP04-CHOTU-SIX-LEADS-REVIEW-20261117",
-  "title": "Episode 04A · 1 January | Episode 04B · 2 January · Six Women",
+  "id": "SW-EP04-CHOTU-FIVE-REMAINING-LEADS-20261117",
+  "title": "Episode 04A/04B — Remaining Five Women · Chotu workshop",
   "status": "SAVED_TO_UI_FOR_DISCUSSION__NOT_APPROVED_PLOT_OR_PROSE",
   "timezone": "Asia/Kolkata",
   "horizonEnd": "2026-01-02T23:59",
-  "scope": "Only established society and workplace Chotu-role adults, each with A=accidental and B=woman's willingly chosen follow-up. No other relationship plots, no twin encounters.",
-  "sourcePolicy": "Latest author-approved scene beats remain intact. These are proposed future encounters with exact staging for review, not claims of published prose. Previously missing or contested events remain unresolved until approval.",
+  "scope": "Only the five remaining leads Shivani, Taniya, Soniya, Meenakshi and Shreya. Ankita is now in the dedicated EP04A scene plan and separate EP04B archive.",
+  "sourcePolicy": "Latest author-approved scene beats remain intact. These are proposed future encounters with exact staging for review, not claims of published prose. Previously missing or contested events remain unresolved until approval. Ankita tracks were moved unchanged to episode-04b-ankita-chotu-archive.json; do not duplicate them in this workshop.",
   "invariants": [
     "All involved are adults; ages/identities follow existing source; station tea vendor name still provisional.",
     "A precedes B per track; B cannot be an automatic replay of A. Physical staging must be legible and voluntary actions explicitly chosen.",
@@ -16,85 +16,6 @@
     "Existing Jan2 events (Meenakshi M08 senior review 11:00–11:40, Taniya 10:30–19:30 office shift, etc.) remain in force; old speculative plans need later full collision review."
   ],
   "leads": [
-    {
-      "id": "ankita",
-      "name": "Ankita",
-      "endJan01": "EP03 Scene08 doorbell at 18:25; EP03 briefing already included a conscious two-button presentation test.",
-      "twins": "Karan–Aman (Kabir's younger brothers) have a saved Jan1 ride; no added twins encounter.",
-      "tracks": [
-        {
-          "lead": "ankita",
-          "chotu": "Rinku",
-          "lane": "Society",
-          "age": 23,
-          "setting": "Gulmohar Heights · Ankita's kitchen",
-          "twinsContext": "Karan and Aman drop Ankita by about 17:50 on 1 Jan; they are not spectators to the 18:25 doorbell continuation.",
-          "a": {
-            "date": "2026-01-01",
-            "start": "18:25",
-            "end": "18:45",
-            "title": "The water-filter burst",
-            "cause": "Resume EP03 Scene08 at 18:25 door opening. Rinku checks the loose water-filter connector. The brittle coupler slips just as Ankita reaches the shut-off valve.",
-            "physical": "Water bursts over Ankita's cotton kurti as she catches Rinku's clothed upper arm to stop herself sliding; shoulders briefly draw close, then they separate.",
-            "sightline": "Damp outer kurti outlines the inner layer through fabric for a moment; no bare-breast exposure. Only Rinku is present in the kitchen.",
-            "duration": "Brief contact ~2–3 seconds inside a 20-minute practical repair.",
-            "reaction": "Ankita notices his abrupt silence only after handling the leak. A brief thrill at unexpected closeness and an unanswered question about what he noticed—not her first-ever boldness.",
-            "hook": "Temporary repair only; replacement part creates a possible January 2 follow-up.",
-            "scene": "E04A-S01",
-            "beatIds": [
-              "A01",
-              "A02",
-              "A03",
-              "A04",
-              "A05"
-            ],
-            "source": "episode-04a-ankita-plan.json"
-          },
-          "b": {
-            "date": "2026-01-02",
-            "start": "19:45",
-            "end": "20:05",
-            "title": "The controlled pressure test",
-            "choice": "After changing into dry home clothes, Ankita deliberately stays beside Rinku rather than leaving him to finish alone. She asks him to show her the valve technique and, with his assent, places her hand over his for a short shared turn of the control.",
-            "physical": "Palm-over-palm at the valve, shoulders briefly alongside each other; she chooses when to release and hold his gaze.",
-            "test": "She asks calmly whether the sudden spray yesterday startled him or whether something else did. Her directness is the new test—not a re-enacted wet-clothes accident.",
-            "result": "Rinku admits the situation made him awkward and looks directly at her this time. She is surprised that candid eye contact affects her more than the previous glimpse.",
-            "after": "A quick private thrill; no kiss, confession or unapproved parcel reveal."
-          }
-        },
-        {
-          "lead": "ankita",
-          "chotu": "Rohit",
-          "lane": "Office",
-          "age": 22,
-          "setting": "Cyber City IT · private AV/equipment room",
-          "twinsContext": "Karan/Aman are Ankita's established family twins, not office staff. No twin crossover or new ride on Jan2.",
-          "a": {
-            "date": "2026-01-02",
-            "start": "09:40",
-            "end": "10:20",
-            "title": "The unplanned camera preview",
-            "cause": "Rohit returns with yesterday's incomplete AV-asset slip. During a live, non-recording conference-camera calibration, Ankita reaches past the rack to free a cable and appears unexpectedly near the low camera frame.",
-            "physical": "Her dupatta catches against an equipment handle and briefly pulls aside while she straightens it; she and Rohit simultaneously steady the monitor's cable connector, their fingers meeting for a moment.",
-            "sightline": "The monitor shows a closer upper-neckline/clothing-layer view than intended; no nudity, recording or other spectator. Rohit notices the frame before she sees it.",
-            "duration": "Unintended live-preview angle ~2 seconds; brief finger contact.",
-            "reaction": "Rohit loses his sentence and forgets the signed acknowledgment. Ankita has the observable pause but not the camera information; unlike Dhika, Ankita is already familiar with deliberately altering her presentation after her Jan1 two-button briefing.",
-            "hook": "The unfinished sign-off provides a real same-day return task."
-          },
-          "b": {
-            "date": "2026-01-02",
-            "start": "14:00",
-            "end": "14:40",
-            "title": "The chosen retake",
-            "choice": "At the next scheduled AV sign-off, Ankita knowingly checks the live framing herself instead of asking Rohit to avoid it. She controls her scarf and position, then invites him to stand beside the console for an agreed comparison shot.",
-            "physical": "They stand shoulder-to-shoulder to operate the remote; she intentionally keeps her fingers on the remote for a beat while he steadies it, then looks from preview to his face.",
-            "test": "Will Rohit acknowledge the earlier preview directly instead of hiding behind professional small talk?",
-            "result": "He admits the low camera angle was unexpectedly intrusive, corrects it in her presence and gives one sincere compliment. She values his candor and feels the jolt of her own conscious choice, not an imagined first-ever bold act.",
-            "after": "Both complete the sign-off. No recording, secret exposure, copy of Dhika's floor-cleaning or coerced response."
-          }
-        }
-      ]
-    },
     {
       "id": "shivani",
       "name": "Shivani",
@@ -107,18 +28,20 @@
           "lane": "Society",
           "age": 22,
           "setting": "Gulmohar Heights · community-event stage/side corridor",
-          "twinsContext": "Karan/Aman and Kavya meet Shivani/Deepu in the saved 19:05–19:23 block. This encounter starts only after that block; no invented extra twin kiss or overlap.",
+          "twinsContext": "EP04A Sh Scene04 at 19:11–19:23; follow Taniya twins event ~20:16–20:24. Day1 Chotu accident occurs BEFORE both sister and twins, not 19:26.",
           "a": {
             "date": "2026-01-01",
-            "start": "19:26",
-            "end": "19:38",
-            "title": "The folded backdrop",
-            "cause": "After the Kavya/twins encounter, Shivani returns for a forgotten event programme proof. Deepu folds the display drape; a loose edge catches both their forearms as the support bar turns.",
-            "physical": "The wide fabric briefly draws them shoulder-to-shoulder. Deepu holds the bar, Shivani frees both wrists; they are closer than either expected without a fall or invented waist-grab.",
-            "sightline": "Quiet side corridor, drape between them and the public foyer; only their faces and crossed forearms matter. No wardrobe exposure.",
-            "duration": "Unexpected near-contact ~3 seconds.",
-            "reaction": "Shivani initiates a sharp joke, but his unusually still gaze changes her next sentence. She feels a quick shiver because the encounter was neither the twins' teasing nor her familiar control of a room.",
-            "hook": "Deepu must fit the corrected event banner and position marks the following evening."
+            "start": "18:51",
+            "end": "19:05",
+            "title": "The backdrop accident — first private society Chotu contact",
+            "cause": "One of the backdrop's latches releases before the roll is secure. Deepu holds the padded panel upright while Shivani steps back from its path, catches the edge of his shirt for balance and unexpectedly ends up very close, front-to-front. He steadies her at the clothed upper back; both stop immediately when the panel is stable. It is a genuine accident, not a planned groping.",
+            "physical": "Brief front-to-front clothed contact, one hand on his shirt, one steadying hand at upper back; approximately 2–3 seconds.",
+            "sightline": "The quiet service alcove has no spectators; the doorway remains visible. No wardrobe tear, nudity, or fabricated exposure.",
+            "duration": "Front-to-front closeness ~2–3 seconds while padded backdrop is stabilized; full scene 18:51–19:05.",
+            "reaction": "Shivani, usually in control of teasing, loses her next sentence for an instant and feels a quick thrill. Deepu is startled and apologizes, first checking her safety.",
+            "hook": "Kavya joins at 19:05; twins at 19:11; the January 2 society rehearsal is separate.",
+            "scene": "E04A-SH-S02",
+            "source": "episode-04a-shivani-plan.json"
           },
           "b": {
             "date": "2026-01-02",
@@ -419,7 +342,8 @@
     "partA": {
       "date": "2026-01-01",
       "purpose": "Continue and close each lead's January 1 story without inventing household arrivals",
-      "ankita": "Scene 01 now detailed in episode-04a-ankita-plan.json; Scene 02 household closure pending"
+      "ankita": "Already separate; not rendered in shared Chotu workshop",
+      "shivani": "Dedicated first-day plan episode-04a-shivani-plan.json with Deepu accident BEFORE Kavya first meeting and Karan–Aman twins."
     },
     "partB": {
       "date": "2026-01-02",
