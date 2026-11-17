@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { leadOrder, Plan, openPage, titleCase, useData } from './lib';
+import { Plan, openPage, titleCase, useData } from './lib';
 const str=(v:unknown)=>typeof v==='string'?v:'';
 type AuthorRevisionNote={id:string;status:string;reference:string;focus:string;mistakesIdentified:string[];mandatoryRules:string[];shreyaB07B09Reference:{date:string;publicEvent:string;allowedWitnesses:string[];excludedWitnesses:string;observationWindow:string;preciseAuthorFigure:string;wardrobe:string;memories:string;status:string}};
 type NarrativeCalibration={id:string;title:string;status:string;referenceFile:string;sourceScope:string;diagnosis:{fault:string;correction:string}[];sourceObservations:string[];principles:string[];prohibitions:string[];plotSuggestionFormat:string;proseStandard:string};
@@ -53,6 +53,10 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
  const {data:shreyaBeat10,error:shreyaBeat10Error}=useData<ShreyaBeat10Review>('episode-03-shreya-beat-10-training-ground-review.json');
  useEffect(()=>{
   if(!initialScene)return;
+  if(initialScene==='chotu-review'){
+   const timer=window.setTimeout(()=>document.getElementById('ep04-chotu-planning')?.scrollIntoView({behavior:'smooth',block:'start'}),130);
+   return ()=>clearTimeout(timer);
+  }
   if((active==='ankita'&&['01','02','03','04','05','06','07','08'].includes(initialScene))||(active==='meenakshi'&&['01','02','03','04'].includes(initialScene))||(active==='shreya'&&['SR10','S03-01','SR11'].includes(initialScene))){openPage('reading',{episode:'03',character:active,scene:active==='shreya'&&initialScene==='SR10'?'10':initialScene});return;}
   const id=active==='ankita'
    ?(initialScene==='rohit-first-show'?'ankita-ep04-rohit-first-show':'ankita-ep03-written-moved')
