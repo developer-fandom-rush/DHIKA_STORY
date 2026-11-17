@@ -6,9 +6,75 @@
     "EP01 is an undated prologue; do not manufacture Jan 1 date.",
     "M08 and Shreya SR10–SR13 are rescheduled, NOT cancelled/deferred.",
     "Older Jan2 Meenakshi outline is archived; the discarded photographic opening has been removed and must not be revived.",
-    "Ankita Jan1 EP03 ends 18:25 with Rinku doorbell. Next Ankita episode focuses on Rinku's first no-dupatta look/service visit; episode date remains unassigned. Rohit Jan2 office sequence is preserved as a future episode, no longer the immediate next."
+    "Ankita Jan1 EP03 ends 18:25 with Rinku doorbell. Next Ankita episode focuses on Rinku's first no-dupatta look/service visit; episode date remains unassigned. Rohit Jan2 office sequence is preserved as a future episode, no longer the immediate next.",
+    "Jan2 Episode 04 Chotu A/B proposals are under author review; earlier Rohit and Naveen plan records are retained as historical variants without double-booking Jan2."
   ],
   "events": [
+    {
+      "id": "ep04-chotu-meenakshi-babloo-a",
+      "date": "2026-01-02",
+      "sort": "07:35",
+      "start": "07:35",
+      "end": "07:56",
+      "timeLabel": "07:35–07:56",
+      "universe": "sw",
+      "title": "A · Babloo — The stuck car hatch",
+      "lead": "Meenakshi",
+      "characters": [
+        "Meenakshi",
+        "Babloo"
+      ],
+      "mentions": [],
+      "episode": "04 planning",
+      "scene": "chotu-review",
+      "kind": "planned",
+      "state": "review",
+      "status": "DRAFT FOR DISCUSSION · NOT APPROVED",
+      "source": "episode-04-chotu-six-leads-review.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "meenakshi",
+        "scene": "chotu-review"
+      },
+      "flags": [
+        "Track: Society; precise time is a review reservation",
+        "Uday–Utkarsh are society twins, Avi–Yash a hospital duo, not twins. None added to the Chotu scenes.",
+        "Car-recovery location/commute requires verification before time lock"
+      ],
+      "detail": "CAUSE: Following Babloo's Jan1 offer to help recover the car, Meenakshi checks the luggage hatch while Babloo steadies its faulty latch; the hatch begins closing unexpectedly. PHYSICAL: She grips his upper arm to move safely aside while he supports the hatch. Their coats/shoulders press briefly before the hatch is held open. VISIBLE: Open society parking bay; no private wardrobe display. Only the two participants are within the hatch working zone. REACTION: Meenakshi is startled by how quickly she reached for him rather than by any lingering glance. Babloo focuses on the mechanical problem, then gives a bold, light reply."
+    },
+    {
+      "id": "ep04-chotu-shreya-chintu-a",
+      "date": "2026-01-02",
+      "sort": "07:38",
+      "start": "07:38",
+      "end": "07:52",
+      "timeLabel": "07:38–07:52",
+      "universe": "sw",
+      "title": "A · Chintu — The swinging service gate",
+      "lead": "Shreya",
+      "characters": [
+        "Shreya",
+        "Chintu"
+      ],
+      "mentions": [],
+      "episode": "04 planning",
+      "scene": "chotu-review",
+      "kind": "planned",
+      "state": "review",
+      "status": "DRAFT FOR DISCUSSION · NOT APPROVED",
+      "source": "episode-04-chotu-six-leads-review.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "shreya",
+        "scene": "chotu-review"
+      },
+      "flags": [
+        "Track: Society; precise time is a review reservation",
+        "Samar–Shaan are a society duo, twin status unconfirmed; Karan–Aman cross on Jan1 college duty, not inserted into Chotu scenes."
+      ],
+      "detail": "CAUSE: A service cart crosses the driveway; a gust pushes the light swing gate across the desk approach as Shreya checks a visitor-register note. PHYSICAL: Shreya grips Chintu's upper sleeve and steps close as he catches the gate, then immediately lets go when the cart passes. VISIBLE: Gate-side interaction, brief contact over uniform/sleeve; no private visibility or hidden spectators. REACTION: Shreya feels a fast adrenaline jolt, while Chintu keeps his attention on the cart and her safe exit. Their previous dry-wit rapport is retained."
+    },
     {
       "id": "jan02-meenakshi-M3-02",
       "date": "2026-01-02",
@@ -44,36 +110,132 @@
       "detail": "Serious ward work first: Meenakshi reviews a case; Avi is openly confident; Yash checks figures; Aditi handles a difficult follow-up independently. Aditi (24) is their same-age female peer: witty and observant, not a prop or a presumed romantic participant. At the file handoff, Avi compliments Meenakshi's composure; Yash is quiet but attentive; Aditi notices their different responses. Meenakshi says thank you professionally and does not allow patient care to become flirting."
     },
     {
-      "id": "future-ankita-rohit-accident",
+      "id": "ep04-chotu-soniya-guddu-a",
+      "date": "2026-01-02",
+      "sort": "09:15",
+      "start": "09:15",
+      "end": "09:31",
+      "timeLabel": "09:15–09:31",
+      "universe": "sw",
+      "title": "A · Guddu — The runaway equipment trolley",
+      "lead": "Soniya",
+      "characters": [
+        "Soniya",
+        "Guddu"
+      ],
+      "mentions": [],
+      "episode": "04 planning",
+      "scene": "chotu-review",
+      "kind": "planned",
+      "state": "review",
+      "status": "DRAFT FOR DISCUSSION · NOT APPROVED",
+      "source": "episode-04-chotu-six-leads-review.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "soniya",
+        "scene": "chotu-review"
+      },
+      "flags": [
+        "Track: Society; precise time is a review reservation",
+        "Karan–Aman gym familiarity exists; no new twins encounter. No independent office Chotu is source-confirmed for Soniya."
+      ],
+      "detail": "CAUSE: Guddu delivers a low trolley of folded community yoga mats. A wheel catches the court threshold just as Soniya moves aside for it. PHYSICAL: Soniya grips Guddu's forearm while both control the tipping trolley; they end shoulder-to-shoulder for a breath before stepping apart. VISIBLE: Covered society court, not a changing room; bodies fully dressed, emphasis on arm support, moving equipment and their immediate reactions. REACTION: Unlike inexperienced Dhika, Soniya recognizes her own quick interest immediately; Guddu is trying to prevent the mats spilling and does not make an assumption."
+    },
+    {
+      "id": "ep04-chotu-ankita-rohit-a",
       "date": "2026-01-02",
       "sort": "09:40",
       "start": "09:40",
       "end": "10:20",
       "timeLabel": "09:40–10:20",
       "universe": "sw",
-      "title": "Rohit — First Accidental Look",
+      "title": "A · Rohit — The unplanned camera preview",
       "lead": "Ankita",
       "characters": [
         "Ankita",
         "Rohit"
       ],
       "mentions": [],
-      "episode": "TBD_AFTER_RINKU",
-      "scene": "rohit-first-show",
+      "episode": "04 planning",
+      "scene": "chotu-review",
       "kind": "planned",
-      "state": "plot-preserved-episode-open",
-      "status": "Jan2 office plot preserved · episode number TBD after Rinku",
-      "source": "ankita-rohit-jan02-future-office.json",
+      "state": "review",
+      "status": "DRAFT FOR DISCUSSION · NOT APPROVED",
+      "source": "episode-04-chotu-six-leads-review.json",
       "reader": {
         "type": "sw-plan",
         "character": "ankita",
-        "scene": "rohit-first-show"
+        "scene": "chotu-review"
       },
       "flags": [
-        "Start/end proposed; next-day wardrobe not locked",
-        "Rinku gets the immediate next Ankita episode; this Rohit event must not be labelled EP04 yet"
+        "Track: Office; precise time is a review reservation",
+        "Karan–Aman (Kabir's younger brothers) have a saved Jan1 ride; no added twins encounter."
       ],
-      "detail": "First distinct Jan2 encounter; accidental look only"
+      "detail": "CAUSE: Rohit returns with yesterday's incomplete AV-asset slip. During a live, non-recording conference-camera calibration, Ankita reaches past the rack to free a cable and appears unexpectedly near the low camera frame. PHYSICAL: Her dupatta catches against an equipment handle and briefly pulls aside while she straightens it; she and Rohit simultaneously steady the monitor's cable connector, their fingers meeting for a moment. VISIBLE: The monitor shows a closer upper-neckline/clothing-layer view than intended; no nudity, recording or other spectator. Rohit notices the frame before she sees it. REACTION: Rohit loses his sentence and forgets the signed acknowledgment. Ankita has the observable pause but not the camera information; unlike Dhika, Ankita is already familiar with deliberately altering her presentation after her Jan1 two-button briefing."
+    },
+    {
+      "id": "ep04-chotu-shivani-sunny-a",
+      "date": "2026-01-02",
+      "sort": "10:05",
+      "start": "10:05",
+      "end": "10:22",
+      "timeLabel": "10:05–10:22",
+      "universe": "sw",
+      "title": "A · Sunny — The feedback shock",
+      "lead": "Shivani",
+      "characters": [
+        "Shivani",
+        "Sunny"
+      ],
+      "mentions": [],
+      "episode": "04 planning",
+      "scene": "chotu-review",
+      "kind": "planned",
+      "state": "review",
+      "status": "DRAFT FOR DISCUSSION · NOT APPROVED",
+      "source": "episode-04-chotu-six-leads-review.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "shivani",
+        "scene": "chotu-review"
+      },
+      "flags": [
+        "Track: College; precise time is a review reservation",
+        "Karan–Aman are society acquaintances; Harsh–Laksh are college adult student twins. They remain off-stage in Chotu-only scenes."
+      ],
+      "detail": "CAUSE: During a small staff-only mic check, a sudden speaker feedback burst makes Shivani and Sunny reach for the same mixing-board mute control. PHYSICAL: Their wrists cross at the mixer; Shivani's shoulder briefly brushes his as both step behind the desk to shut the sound off. VISIBLE: Staff-only AV booth, chest-up framing and visible joined hands. No undressing or imagined students witnessing an accident. REACTION: The jolt starts as surprise at the sound, then she is annoyed to notice the resulting breathless pause in his company. Sunny is focused on fixing gain levels."
+    },
+    {
+      "id": "ep04-chotu-soniya-guddu-b",
+      "date": "2026-01-02",
+      "sort": "10:12",
+      "start": "10:12",
+      "end": "10:28",
+      "timeLabel": "10:12–10:28",
+      "universe": "sw",
+      "title": "B · Guddu — The willing layout demonstration",
+      "lead": "Soniya",
+      "characters": [
+        "Soniya",
+        "Guddu"
+      ],
+      "mentions": [],
+      "episode": "04 planning",
+      "scene": "chotu-review",
+      "kind": "planned",
+      "state": "review",
+      "status": "DRAFT FOR DISCUSSION · NOT APPROVED",
+      "source": "episode-04-chotu-six-leads-review.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "soniya",
+        "scene": "chotu-review"
+      },
+      "flags": [
+        "Track: Society; precise time is a review reservation",
+        "Karan–Aman gym familiarity exists; no new twins encounter. No independent office Chotu is source-confirmed for Soniya."
+      ],
+      "detail": "CHOICE: Soniya volunteers to demonstrate the court's two-person spacing, asking Guddu to act as her partner with a clear chance to decline. He agrees. PHYSICAL: She takes his forearm to check the spacing, then briefly interlocks hands for a counted step across the painted line before releasing them. TEST: Does Guddu turn the proximity into flirtation, or show composure even after the earlier startled contact? RESULT: He meets her gaze, smiles, then returns to precise measurements. Soniya is surprised that the mixture of mutual awareness and restraint gives her a fresh rush."
     },
     {
       "id": "jan02-meenakshi-M3-03",
@@ -141,67 +303,164 @@
       "detail": "Dr. Kunal Bedi and chairman Dr. S. P. Khurana join administrative and departmental discussions; Dr. Leena is an existing clinician in the roster."
     },
     {
-      "id": "jan02-meenakshi-M3-04",
+      "id": "ep04-chotu-shreya-station-chotu-chai-vendor-name-unconfirmed-a",
+      "date": "2026-01-02",
+      "sort": "11:16",
+      "start": "11:16",
+      "end": "11:32",
+      "timeLabel": "11:16–11:32",
+      "universe": "sw",
+      "title": "A · Station Chotu (chai vendor; name unconfirmed) — The tipping kettle",
+      "lead": "Shreya",
+      "characters": [
+        "Shreya",
+        "Station Chotu (chai vendor; name unconfirmed)"
+      ],
+      "mentions": [],
+      "episode": "04 planning",
+      "scene": "chotu-review",
+      "kind": "planned",
+      "state": "review",
+      "status": "DRAFT FOR DISCUSSION · NOT APPROVED",
+      "source": "episode-04-chotu-six-leads-review.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "shreya",
+        "scene": "chotu-review"
+      },
+      "flags": [
+        "Track: Police station; precise time is a review reservation",
+        "Samar–Shaan are a society duo, twin status unconfirmed; Karan–Aman cross on Jan1 college duty, not inserted into Chotu scenes."
+      ],
+      "detail": "CAUSE: At the familiar strong-chai counter, a kettle handle slips while Chotu shifts the kettle. Shreya moves her file away from the splash. PHYSICAL: He briefly guides her wrist clear of the hot spill and immediately releases it; her uniform cuff is spotted with tea, not displaced. VISIBLE: Authorized staff-counter alcove; hot-surface safety, wrist and uniform cuff visible. No bare-body exposure or public humiliation. REACTION: Shreya, used to being the one in control, is jolted by the reflexive protective contact. Chotu checks for burns rather than playing it for a compliment."
+    },
+    {
+      "id": "ep04-chotu-meenakshi-naveen-a",
       "date": "2026-01-02",
       "sort": "11:45",
       "start": "11:45",
       "end": "12:15",
       "timeLabel": "11:45–12:15",
       "universe": "sw",
-      "title": "Naveen — The Missing Annexure",
+      "title": "A · Naveen — The loose annexure binder",
       "lead": "Meenakshi",
       "characters": [
-        "meenakshi",
-        "naveen"
+        "Meenakshi",
+        "Naveen"
       ],
       "mentions": [],
-      "episode": "Future plan",
-      "scene": "M3-04",
+      "episode": "04 planning",
+      "scene": "chotu-review",
       "kind": "planned",
-      "state": "older-draft",
-      "status": "Older 2 Jan working plan · review",
-      "source": "episode-03-meenakshi-plan.json",
+      "state": "review",
+      "status": "DRAFT FOR DISCUSSION · NOT APPROVED",
+      "source": "episode-04-chotu-six-leads-review.json",
       "reader": {
         "type": "sw-plan",
         "character": "meenakshi",
-        "scene": "M3-04"
+        "scene": "chotu-review"
       },
       "flags": [
-        "Older future-day draft — not the current Jan 1 Episode 03"
+        "Track: Hospital; precise time is a review reservation",
+        "Uday–Utkarsh are society twins, Avi–Yash a hospital duo, not twins. None added to the Chotu scenes."
       ],
-      "detail": "Chotu-equivalent in the hospital is Naveen (22), an admin assistant already present in 1 Jan M06; not a newly invented stranger. Introduce his established function and familiarity through reliable shift-sheet work; any family hardship, tuition or nickname backstory is only a proposal until accepted. He delivers the senior-review annexure, discovers one page is missing, offers to retrieve it and returns after a short interval. Meenakshi nicknames his speed 'express service'; his private impression is that her encouragement feels personal, while she regards it as friendly senior-colleague warmth. The missing-document-and-second-visit mechanism is separate from Babloo's society delivery."
+      "detail": "CAUSE: After the locked 11:00–11:40 senior review, Naveen returns with the missing annexure in a wide binder. Its clip springs as Meenakshi opens it. PHYSICAL: They reach together to catch the falling pages; their forearms cross and their shoulders briefly touch in the narrow copy room. VISIBLE: Staff-only administrative space, not a patient room or locker. No clinical exposure; visible hands, pages and momentary closeness. REACTION: She makes a quick joke, but his attentive composure lingers with her after he leaves. Naveen feels relieved his mistake did not cost trust."
     },
     {
-      "id": "future-ankita-rohit-first-show",
+      "id": "ep04-chotu-taniya-punit-a",
+      "date": "2026-01-02",
+      "sort": "12:05",
+      "start": "12:05",
+      "end": "12:20",
+      "timeLabel": "12:05–12:20",
+      "universe": "sw",
+      "title": "A · Punit — The collapsing file tray",
+      "lead": "Taniya",
+      "characters": [
+        "Taniya",
+        "Punit"
+      ],
+      "mentions": [],
+      "episode": "04 planning",
+      "scene": "chotu-review",
+      "kind": "planned",
+      "state": "review",
+      "status": "DRAFT FOR DISCUSSION · NOT APPROVED",
+      "source": "episode-04-chotu-six-leads-review.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "taniya",
+        "scene": "chotu-review"
+      },
+      "flags": [
+        "Track: CA office; precise time is a review reservation",
+        "Karan–Aman Jan1 lobby incident preserved, not duplicated. Raghav–Chirag are not biological twins."
+      ],
+      "detail": "CAUSE: Punit opens the misaligned bottom filing tray as Taniya retrieves a reconciliation binder; the overloaded tray slips forward. PHYSICAL: Both catch the binder together. Her hand closes over his fingers beneath its spine while his other forearm steadies the tray; their shoulders bump before they regain footing. VISIBLE: Closed records aisle; hands, binder and brief shoulder collision visible, not a wardrobe incident. Nobody sees the split-second contact. REACTION: Taniya initially scolds the cabinet, then recognizes the tremor in her own voice when Punit apologizes. He laughs with unexpected composure."
+    },
+    {
+      "id": "ep04-chotu-meenakshi-naveen-b",
+      "date": "2026-01-02",
+      "sort": "13:50",
+      "start": "13:50",
+      "end": "14:10",
+      "timeLabel": "13:50–14:10",
+      "universe": "sw",
+      "title": "B · Naveen — The voluntary first-aid demonstration",
+      "lead": "Meenakshi",
+      "characters": [
+        "Meenakshi",
+        "Naveen"
+      ],
+      "mentions": [],
+      "episode": "04 planning",
+      "scene": "chotu-review",
+      "kind": "planned",
+      "state": "review",
+      "status": "DRAFT FOR DISCUSSION · NOT APPROVED",
+      "source": "episode-04-chotu-six-leads-review.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "meenakshi",
+        "scene": "chotu-review"
+      },
+      "flags": [
+        "Track: Hospital; precise time is a review reservation",
+        "Uday–Utkarsh are society twins, Avi–Yash a hospital duo, not twins. None added to the Chotu scenes."
+      ],
+      "detail": "CHOICE: For volunteer orientation, Meenakshi asks Naveen to give his hand for a demonstration of safe wrist support and bandaging; he agrees. PHYSICAL: She intentionally steadies his wrist with one palm and guides the bandage with the other, staying close only for the short practical demonstration. TEST: Can a normally shy administrator respond to sustained attention without copying Babloo's spontaneous boldness? RESULT: Naveen quietly but confidently repeats the technique and returns her direct gaze. Meenakshi notices her own involuntary shiver while keeping the lesson professional."
+    },
+    {
+      "id": "ep04-chotu-ankita-rohit-b",
       "date": "2026-01-02",
       "sort": "14:00",
       "start": "14:00",
-      "end": "15:00",
-      "timeLabel": "14:00–15:00",
+      "end": "14:40",
+      "timeLabel": "14:00–14:40",
       "universe": "sw",
-      "title": "Rohit — First Deliberate Show",
+      "title": "B · Rohit — The chosen retake",
       "lead": "Ankita",
       "characters": [
         "Ankita",
         "Rohit"
       ],
       "mentions": [],
-      "episode": "TBD_AFTER_RINKU",
-      "scene": "rohit-first-show",
+      "episode": "04 planning",
+      "scene": "chotu-review",
       "kind": "planned",
-      "state": "plot-preserved-episode-open",
-      "status": "Jan2 office plot preserved · episode number TBD after Rinku",
-      "source": "ankita-rohit-jan02-future-office.json",
+      "state": "review",
+      "status": "DRAFT FOR DISCUSSION · NOT APPROVED",
+      "source": "episode-04-chotu-six-leads-review.json",
       "reader": {
         "type": "sw-plan",
         "character": "ankita",
-        "scene": "rohit-first-show"
+        "scene": "chotu-review"
       },
       "flags": [
-        "Start/end proposed; explicit outfit decision pending",
-        "Rinku gets the immediate next Ankita episode; this Rohit event must not be labelled EP04 yet"
+        "Track: Office; precise time is a review reservation",
+        "Karan–Aman (Kabir's younger brothers) have a saved Jan1 ride; no added twins encounter."
       ],
-      "detail": "Second distinct Jan2 encounter; compliment, reflection and Ankita-led look"
+      "detail": "CHOICE: At the next scheduled AV sign-off, Ankita knowingly checks the live framing herself instead of asking Rohit to avoid it. She controls her scarf and position, then invites him to stand beside the console for an agreed comparison shot. PHYSICAL: They stand shoulder-to-shoulder to operate the remote; she intentionally keeps her fingers on the remote for a beat while he steadies it, then looks from preview to his face. TEST: Will Rohit acknowledge the earlier preview directly instead of hiding behind professional small talk? RESULT: He admits the low camera angle was unexpectedly intrusive, corrects it in her presence and gives one sincere compliment. She values his candor and feels the jolt of her own conscious choice, not an imagined first-ever bold act."
     },
     {
       "id": "jan02-meenakshi-M3-05",
@@ -237,6 +496,38 @@
       "detail": "Official health-camp vendor samples must be verified on Meenakshi's already planned route toward home. Avi initiates the lift request. His stated logistical reason is genuine, but he privately hopes to spend time with her; no false fuel story is forced. Meenakshi checks the address, agrees because she is already driving, and invites Aditi along for the supplies checklist. Yash is assigned directions; Aditi handles paperwork. Professional hierarchy, boundaries and freedom to decline remain explicit."
     },
     {
+      "id": "ep04-chotu-shivani-sunny-b",
+      "date": "2026-01-02",
+      "sort": "15:05",
+      "start": "15:05",
+      "end": "15:24",
+      "timeLabel": "15:05–15:24",
+      "universe": "sw",
+      "title": "B · Sunny — The quiet rehearsal",
+      "lead": "Shivani",
+      "characters": [
+        "Shivani",
+        "Sunny"
+      ],
+      "mentions": [],
+      "episode": "04 planning",
+      "scene": "chotu-review",
+      "kind": "planned",
+      "state": "review",
+      "status": "DRAFT FOR DISCUSSION · NOT APPROVED",
+      "source": "episode-04-chotu-six-leads-review.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "shivani",
+        "scene": "chotu-review"
+      },
+      "flags": [
+        "Track: College; precise time is a review reservation",
+        "Karan–Aman are society acquaintances; Harsh–Laksh are college adult student twins. They remain off-stage in Chotu-only scenes."
+      ],
+      "detail": "CHOICE: Shivani asks Sunny to demonstrate the narrow backstage movement for the cue sheet, offering her hand so he can guide a safe two-step pass; he explicitly agrees. PHYSICAL: Hand-in-hand for the short rehearsal, a measured close pass, then separated when the cue light switches on. TEST: Will Sunny hold the charged moment or keep his strictly assistant-like composure? RESULT: Sunny carefully steps back and says the cue is ready. Shivani feels excited by the choice, but his reserve refuses to give her an easy reading; that unresolved result differs from Deepu's confident response."
+    },
+    {
       "id": "jan02-meenakshi-M3-06",
       "date": "2026-01-02",
       "sort": "15:05",
@@ -268,6 +559,38 @@
         "Older future-day draft — not the current Jan 1 Episode 03"
       ],
       "detail": "Meenakshi walks ahead carrying her bag and a lightweight supply register; three younger peers follow a short distance. Avi privately admires her confident walk and fitted but everyday departure outfit. Yash also notices; admiration is kept as a private POV, not an invitation. Avi notices Yash's glance and gives the same private shoulder-tap and wink mechanism; Yash blushes. Aditi sees them and quietly calls out their competitiveness. Meenakshi glances back, notices their expressions and feels a brief internal blush before returning to the practical task. The parking-lot walking tableau is retained as an independent beat, not collapsed into 'they flirt'."
+    },
+    {
+      "id": "ep04-chotu-shreya-station-chotu-chai-vendor-name-unconfirmed-b",
+      "date": "2026-01-02",
+      "sort": "15:10",
+      "start": "15:10",
+      "end": "15:28",
+      "timeLabel": "15:10–15:28",
+      "universe": "sw",
+      "title": "B · Station Chotu (chai vendor; name unconfirmed) — She chooses to steady his hand",
+      "lead": "Shreya",
+      "characters": [
+        "Shreya",
+        "Station Chotu (chai vendor; name unconfirmed)"
+      ],
+      "mentions": [],
+      "episode": "04 planning",
+      "scene": "chotu-review",
+      "kind": "planned",
+      "state": "review",
+      "status": "DRAFT FOR DISCUSSION · NOT APPROVED",
+      "source": "episode-04-chotu-six-leads-review.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "shreya",
+        "scene": "chotu-review"
+      },
+      "flags": [
+        "Track: Police station; precise time is a review reservation",
+        "Samar–Shaan are a society duo, twin status unconfirmed; Karan–Aman cross on Jan1 college duty, not inserted into Chotu scenes."
+      ],
+      "detail": "CHOICE: Shreya voluntarily returns during a short duty break with basic first-aid dressing and asks Chotu whether she may look at his mildly irritated hand. He agrees. PHYSICAL: She holds his hand steady while applying a small clean bandage, then releases it after asking whether it feels comfortable. TEST: Will the confident strong-chai joker keep teasing, or answer her unexpected care sincerely? RESULT: He goes quiet and thanks her without a joke. Her reaction is a brief electric shiver at the unexpected sincerity, different from his earlier teasing confidence."
     },
     {
       "id": "jan02-meenakshi-M3-07",
@@ -401,6 +724,38 @@
       "detail": "Meenakshi, now at society with her car parked, checks the camp register and finds Uday and Utkarsh setting up a lightweight noticeboard. Uday resumes confident innuendo using a health-checkup metaphor; Meenakshi banters back instead of recoiling. Utkarsh makes an understated observation; she remembers his 1 January comment about being noticed, and privately smiles. A banner clip slips; she hands Utkarsh a clip and their fingers brush briefly during the handoff, followed by a normal, unhurried separation. Uday sees that she focuses on Utkarsh's answer, and his playful sibling competitiveness increases. Do NOT stage a second vehicle ride the same evening."
     },
     {
+      "id": "ep04-chotu-taniya-punit-b",
+      "date": "2026-01-02",
+      "sort": "17:25",
+      "start": "17:25",
+      "end": "17:42",
+      "timeLabel": "17:25–17:42",
+      "universe": "sw",
+      "title": "B · Punit — The unplanned celebration she chooses",
+      "lead": "Taniya",
+      "characters": [
+        "Taniya",
+        "Punit"
+      ],
+      "mentions": [],
+      "episode": "04 planning",
+      "scene": "chotu-review",
+      "kind": "planned",
+      "state": "review",
+      "status": "DRAFT FOR DISCUSSION · NOT APPROVED",
+      "source": "episode-04-chotu-six-leads-review.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "taniya",
+        "scene": "chotu-review"
+      },
+      "flags": [
+        "Track: CA office; precise time is a review reservation",
+        "Karan–Aman Jan1 lobby incident preserved, not duplicated. Raghav–Chirag are not biological twins."
+      ],
+      "detail": "CHOICE: The reconciliation clears. Rather than giving a routine managerial nod, Taniya asks Punit for a spontaneous two-step victory turn in an empty meeting corner; he says yes. PHYSICAL: She takes both his hands and initiates a single light turn, then they separate with a startled laugh. TEST: Will her usually serious junior freeze, or answer her unexpected physical playfulness? RESULT: Punit confidently completes the step and jokes that she underestimates him. Taniya enjoys the surprise and feels an electric little thrill at having initiated something so unlike her desk persona."
+    },
+    {
       "id": "jan02-meenakshi-M3-11",
       "date": "2026-01-02",
       "sort": "17:40",
@@ -462,6 +817,71 @@
       "detail": "Meenakshi changes into comfortable home attire and organizes camp documents; she chooses her own privacy, independently of who will ring. She mentally compares Avi's boldness, Yash's care, Uday's humor, Utkarsh's observation, and the practical help of Naveen/Babloo without treating all attention as romance. Her husband Nikhil remains emotionally important; the Jan1 private surprise is an unresolved strand, not silently declared completed. A message says Babloo is bringing the missing item. She plans to verify the bill at the doorway, not assume a visitor may enter."
     },
     {
+      "id": "ep04-chotu-shreya-chintu-b",
+      "date": "2026-01-02",
+      "sort": "18:05",
+      "start": "18:05",
+      "end": "18:21",
+      "timeLabel": "18:05–18:21",
+      "universe": "sw",
+      "title": "B · Chintu — A purposeful shared register check",
+      "lead": "Shreya",
+      "characters": [
+        "Shreya",
+        "Chintu"
+      ],
+      "mentions": [],
+      "episode": "04 planning",
+      "scene": "chotu-review",
+      "kind": "planned",
+      "state": "review",
+      "status": "DRAFT FOR DISCUSSION · NOT APPROVED",
+      "source": "episode-04-chotu-six-leads-review.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "shreya",
+        "scene": "chotu-review"
+      },
+      "flags": [
+        "Track: Society; precise time is a review reservation",
+        "Samar–Shaan are a society duo, twin status unconfirmed; Karan–Aman cross on Jan1 college duty, not inserted into Chotu scenes."
+      ],
+      "detail": "CHOICE: On returning to society Shreya deliberately stands beside Chintu at the register and asks permission to guide his pen over the discrepant number she wants rechecked. PHYSICAL: Her hand briefly covers his pen hand to trace the line, then releases; shoulder-to-shoulder while both read the record. TEST: Will he respond to the unusual closeness or remain entirely absorbed in doing the register correctly? RESULT: Chintu accurately corrects the procedure and misses the personal implication altogether. Shreya is amused—and faintly unsettled—by her own reaction to a moment he treated as pure work."
+    },
+    {
+      "id": "ep04-chotu-meenakshi-babloo-b",
+      "date": "2026-01-02",
+      "sort": "18:10",
+      "start": "18:10",
+      "end": "18:28",
+      "timeLabel": "18:10–18:28",
+      "universe": "sw",
+      "title": "B · Babloo — A gratitude hug she starts",
+      "lead": "Meenakshi",
+      "characters": [
+        "Meenakshi",
+        "Babloo"
+      ],
+      "mentions": [],
+      "episode": "04 planning",
+      "scene": "chotu-review",
+      "kind": "planned",
+      "state": "review",
+      "status": "DRAFT FOR DISCUSSION · NOT APPROVED",
+      "source": "episode-04-chotu-six-leads-review.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "meenakshi",
+        "scene": "chotu-review"
+      },
+      "flags": [
+        "Track: Society; precise time is a review reservation",
+        "Uday–Utkarsh are society twins, Avi–Yash a hospital duo, not twins. None added to the Chotu scenes.",
+        "Car-recovery location/commute requires verification before time lock"
+      ],
+      "detail": "CHOICE: After confirming the recovered car is safe, Meenakshi deliberately steps forward and asks, 'Ek proper thank-you hug chalega?' Babloo agrees. PHYSICAL: One brief full, clothed embrace; she initiates it and steps back first, leaving both surprised by its warmth. TEST: Does the usually teasing Babloo return the embrace confidently or freeze? RESULT: He freezes for a heartbeat, then returns it gently. Meenakshi feels a swift physical thrill because she chose the unusually personal thanks; he is momentarily speechless for the first time."
+    },
+    {
       "id": "jan02-meenakshi-M3-13",
       "date": "2026-01-02",
       "sort": "18:10",
@@ -491,6 +911,134 @@
         "Older future-day draft — not the current Jan 1 Episode 03"
       ],
       "detail": "The second doorbell rings while Meenakshi is checking the inventory and getting ready to answer. She checks who is outside, adjusts her shawl for her own comfort, and asks Babloo to confirm the missing label through the door. Reader knows Babloo returned to complete the task; Meenakshi is not granted knowledge of any hidden feelings. End at the door opening/hand-off threshold. The next episode can continue the same evening before any next-morning transition."
+    },
+    {
+      "id": "ep04-chotu-shivani-deepu-b",
+      "date": "2026-01-02",
+      "sort": "18:35",
+      "start": "18:35",
+      "end": "18:55",
+      "timeLabel": "18:35–18:55",
+      "universe": "sw",
+      "title": "B · Deepu — A deliberate partner mark",
+      "lead": "Shivani",
+      "characters": [
+        "Shivani",
+        "Deepu"
+      ],
+      "mentions": [],
+      "episode": "04 planning",
+      "scene": "chotu-review",
+      "kind": "planned",
+      "state": "review",
+      "status": "DRAFT FOR DISCUSSION · NOT APPROVED",
+      "source": "episode-04-chotu-six-leads-review.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "shivani",
+        "scene": "chotu-review"
+      },
+      "flags": [
+        "Track: Society; precise time is a review reservation",
+        "Karan–Aman are society acquaintances; Harsh–Laksh are college adult student twins. They remain off-stage in Chotu-only scenes."
+      ],
+      "detail": "CHOICE: For the cultural rehearsal, Shivani voluntarily chooses Deepu to check a two-person blocking mark instead of doing it alone; she asks first and he accepts. PHYSICAL: They clasp palms and take two small coordinated steps into the correct light mark, briefly holding their joined hands until she gives the release cue. TEST: Can he meet her playful intensity without copying Karan's noisy teasing or Aman's reserve? RESULT: Deepu answers with an unexpectedly clear, self-assured line and lets her end the hold. Shivani feels an unmistakable rush from choosing the contact, then laughs at being momentarily wrong-footed."
+    },
+    {
+      "id": "ep04-chotu-ankita-rinku-b",
+      "date": "2026-01-02",
+      "sort": "19:45",
+      "start": "19:45",
+      "end": "20:05",
+      "timeLabel": "19:45–20:05",
+      "universe": "sw",
+      "title": "B · Rinku — The controlled pressure test",
+      "lead": "Ankita",
+      "characters": [
+        "Ankita",
+        "Rinku"
+      ],
+      "mentions": [],
+      "episode": "04 planning",
+      "scene": "chotu-review",
+      "kind": "planned",
+      "state": "review",
+      "status": "DRAFT FOR DISCUSSION · NOT APPROVED",
+      "source": "episode-04-chotu-six-leads-review.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "ankita",
+        "scene": "chotu-review"
+      },
+      "flags": [
+        "Track: Society; precise time is a review reservation",
+        "Karan–Aman (Kabir's younger brothers) have a saved Jan1 ride; no added twins encounter."
+      ],
+      "detail": "CHOICE: After changing into dry home clothes, Ankita deliberately stays beside Rinku rather than leaving him to finish alone. She asks him to show her the valve technique and, with his assent, places her hand over his for a short shared turn of the control. PHYSICAL: Palm-over-palm at the valve, shoulders briefly alongside each other; she chooses when to release and hold his gaze. TEST: She asks calmly whether the sudden spray yesterday startled him or whether something else did. Her directness is the new test—not a re-enacted wet-clothes accident. RESULT: Rinku admits the situation made him awkward and looks directly at her this time. She is surprised that candid eye contact affects her more than the previous glimpse."
+    },
+    {
+      "id": "ep04-chotu-taniya-guddu-a",
+      "date": "2026-01-02",
+      "sort": "20:12",
+      "start": "20:12",
+      "end": "20:25",
+      "timeLabel": "20:12–20:25",
+      "universe": "sw",
+      "title": "A · Guddu — The sliding sample frame",
+      "lead": "Taniya",
+      "characters": [
+        "Taniya",
+        "Guddu"
+      ],
+      "mentions": [],
+      "episode": "04 planning",
+      "scene": "chotu-review",
+      "kind": "planned",
+      "state": "review",
+      "status": "DRAFT FOR DISCUSSION · NOT APPROVED",
+      "source": "episode-04-chotu-six-leads-review.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "taniya",
+        "scene": "chotu-review"
+      },
+      "flags": [
+        "Track: Society; precise time is a review reservation",
+        "Karan–Aman Jan1 lobby incident preserved, not duplicated. Raghav–Chirag are not biological twins."
+      ],
+      "detail": "CAUSE: Guddu has the missing wedding-quotation page and a compact venue-fabric sample on a wheeled frame. A latch slips while Taniya checks the invoice. PHYSICAL: Taniya catches the rolling bar; Guddu braces the other end. Their clothed shoulders touch as they stop the frame before it tips. VISIBLE: Service sample bay; others have already cleared the counter, but no claim of secluded romance. Focus on the moving frame, shoulders and joined grip. REACTION: Taniya remembers Guddu's Jan1 teasing and finds his decisive action unexpectedly attractive; he is amused by her immediate joke about quality control."
+    },
+    {
+      "id": "ep04-chotu-taniya-guddu-b",
+      "date": "2026-01-02",
+      "sort": "20:28",
+      "start": "20:28",
+      "end": "20:42",
+      "timeLabel": "20:28–20:42",
+      "universe": "sw",
+      "title": "B · Guddu — The bride's deliberately chosen measurement",
+      "lead": "Taniya",
+      "characters": [
+        "Taniya",
+        "Guddu"
+      ],
+      "mentions": [],
+      "episode": "04 planning",
+      "scene": "chotu-review",
+      "kind": "planned",
+      "state": "review",
+      "status": "DRAFT FOR DISCUSSION · NOT APPROVED",
+      "source": "episode-04-chotu-six-leads-review.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "taniya",
+        "scene": "chotu-review"
+      },
+      "flags": [
+        "Track: Society; precise time is a review reservation",
+        "Karan–Aman Jan1 lobby incident preserved, not duplicated. Raghav–Chirag are not biological twins."
+      ],
+      "detail": "CHOICE: Taniya asks Guddu to hold the sample backdrop while she stands beside him and checks how its edge frames two adult silhouettes. She steps into the marked area willingly. PHYSICAL: Her hand rests briefly on his clothed shoulder to position the banner; he holds the frame still, then both step clear when the measurement is done. TEST: Instead of waiting for a compliment, Taniya asks whether the placement makes her look more like a client or a bride. RESULT: Guddu replies with cheerful, direct honesty rather than Punit's surprised composure. She feels a warm, self-conscious charge but walks home in control of the moment."
     },
     {
       "id": "ep01-S01",
@@ -1018,6 +1566,107 @@
         "Three inmate placeholders; exact future episode and time unassigned."
       ],
       "detail": "Three cunning inmates develop a private competitive wager about drawing the confident Inspector Shreya into repeated conversation. They exploit her desire to solve difficult challenges, making each legitimate interaction an ego test, but she initially remains unaware of their bet. No date or future physical contact is locked."
+    },
+    {
+      "id": "future-ankita-rohit-accident",
+      "date": null,
+      "sort": null,
+      "start": "09:40",
+      "end": "10:20",
+      "timeLabel": "Earlier draft · preserved for comparison",
+      "universe": "sw",
+      "title": "Rohit — First Accidental Look",
+      "lead": "Ankita",
+      "characters": [
+        "Ankita",
+        "Rohit"
+      ],
+      "mentions": [],
+      "episode": "TBD_AFTER_RINKU",
+      "scene": "rohit-first-show",
+      "kind": "planned",
+      "state": "historical-draft",
+      "status": "Historical earlier planning variant · see EP04 six-lead Chotu review",
+      "source": "ankita-rohit-jan02-future-office.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "ankita",
+        "scene": "rohit-first-show"
+      },
+      "flags": [
+        "Start/end proposed; next-day wardrobe not locked",
+        "Rinku gets the immediate next Ankita episode; this Rohit event must not be labelled EP04 yet",
+        "Not an additional scheduled encounter: updated review version indexed for Jan2",
+        "Source planning file preserved unchanged"
+      ],
+      "detail": "First distinct Jan2 encounter; accidental look only"
+    },
+    {
+      "id": "future-ankita-rohit-first-show",
+      "date": null,
+      "sort": null,
+      "start": "14:00",
+      "end": "15:00",
+      "timeLabel": "Earlier draft · preserved for comparison",
+      "universe": "sw",
+      "title": "Rohit — First Deliberate Show",
+      "lead": "Ankita",
+      "characters": [
+        "Ankita",
+        "Rohit"
+      ],
+      "mentions": [],
+      "episode": "TBD_AFTER_RINKU",
+      "scene": "rohit-first-show",
+      "kind": "planned",
+      "state": "historical-draft",
+      "status": "Historical earlier planning variant · see EP04 six-lead Chotu review",
+      "source": "ankita-rohit-jan02-future-office.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "ankita",
+        "scene": "rohit-first-show"
+      },
+      "flags": [
+        "Start/end proposed; explicit outfit decision pending",
+        "Rinku gets the immediate next Ankita episode; this Rohit event must not be labelled EP04 yet",
+        "Not an additional scheduled encounter: updated review version indexed for Jan2",
+        "Source planning file preserved unchanged"
+      ],
+      "detail": "Second distinct Jan2 encounter; compliment, reflection and Ankita-led look"
+    },
+    {
+      "id": "jan02-meenakshi-M3-04",
+      "date": null,
+      "sort": null,
+      "start": "11:45",
+      "end": "12:15",
+      "timeLabel": "Earlier draft · preserved for comparison",
+      "universe": "sw",
+      "title": "Naveen — The Missing Annexure",
+      "lead": "Meenakshi",
+      "characters": [
+        "meenakshi",
+        "naveen"
+      ],
+      "mentions": [],
+      "episode": "Future plan",
+      "scene": "M3-04",
+      "kind": "planned",
+      "state": "historical-draft",
+      "status": "Historical earlier planning variant · see EP04 six-lead Chotu review",
+      "source": "episode-03-meenakshi-plan.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "meenakshi",
+        "scene": "M3-04"
+      },
+      "flags": [
+        "Older future-day draft — not the current Jan 1 Episode 03",
+        "Not an additional scheduled encounter: updated review version indexed for Jan2",
+        "Source planning file preserved unchanged"
+      ],
+      "detail": "Chotu-equivalent in the hospital is Naveen (22), an admin assistant already present in 1 Jan M06; not a newly invented stranger. Introduce his established function and familiarity through reliable shift-sheet work; any family hardship, tuition or nickname backstory is only a proposal until accepted. He delivers the senior-review annexure, discovers one page is missing, offers to retrieve it and returns after a short interval. Meenakshi nicknames his speed 'express service'; his private impression is that her encouragement feels personal, while she regards it as friendly senior-colleague warmth. The missing-document-and-second-visit mechanism is separate from Babloo's society delivery."
     }
   ],
   "sourcePolicy": " | Shreya January 3 working scenes SR10–SR13 were moved into the January 1 calendar by direct author instruction 2026-11-16, original plan archived in episode-03-shreya-plan-archive-jan03.json; no content removed from story source."
