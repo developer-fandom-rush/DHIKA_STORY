@@ -21,6 +21,9 @@ type ShivaniCastLock={title:string;status:string;officeTwinsStudentCore:{id:stri
 type TaniyaSoniyaNightBeat={id:string;time:string;title:string;plot:string;physical?:string;reaction?:string;knowledge?:string;dialogue?:{speaker:string;line:string}[]};
 type TaniyaSoniyaNightScene={scene:string;start:string;end:string;title:string;location:string;beats:TaniyaSoniyaNightBeat[]};
 type TaniyaSoniyaNightReview={title:string;status:string;canonChecks:{episode02:string;episode03:string;otherKnowledge:string;sameDate:string;marriage:string;soniyaRelationship:string};scenes:TaniyaSoniyaNightScene[];day2Scope:Record<string,string>;approvalRules:string[]};
+type ShreyaEp04ABeat={id:string;time:string;title:string;plot:string;physical?:string;sightline?:string;reaction?:string;knowledge?:string;dialogue?:{speaker:string;line:string}[]};
+type ShreyaEp04AScene={id:string;number:string;title:string;start:string;end:string;location:string;beats:ShreyaEp04ABeat[];fadeToBlack?:boolean;prosePreview?:string;status:string};
+type ShreyaEp04A={title:string;status:string;canon:{handoff:string;wardrobe:string;chintu:string;arvind:string;morning:string;family:string;knowledge:string;day2:string};scenes:ShreyaEp04AScene[];household:Record<string,string>;day2Hooks:string[]};
 type ShivaniEp04ABeat={id:string;time:string;title:string;plot:string;physical?:string;sightline?:string;reaction?:string;dialogue?:{speaker:string;line:string}[]};
 type ShivaniEp04AScene={id:string;sceneNumber:string;title:string;start:string;end:string;location:string;status:string;fadeToBlack?:boolean;prosePreview?:string;beats:ShivaniEp04ABeat[]};
 type ShivaniEp04A={title:string;status:string;continuity:{latestApprovedHandoff:string;morningCallback:string;twinsTransport:string;deepu:string;kavya:string;husband:string;om:string;tara:string;manav:string};scenes:ShivaniEp04AScene[];household:Record<string,{location:string;status:string;workday?:string}>;approvalRules:string[]};
@@ -45,6 +48,7 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
  const {data:ankitaEp04A,error:ankitaEp04AError}=useData<AnkitaEp04A>('episode-04a-ankita-plan.json');
  const {data:shivaniEp04A,error:shivaniEp04AError}=useData<ShivaniEp04A>('episode-04a-shivani-plan.json');
  const {data:taniyaSoniyaEp04A,error:taniyaSoniyaEp04AError}=useData<TaniyaSoniyaNightReview>('episode-04a-taniya-soniya-night-review.json');
+ const {data:shreyaEp04A,error:shreyaEp04AError}=useData<ShreyaEp04A>('episode-04a-shreya-night-plan.json');
  
  
   const {data:ankitaFuturePresentation,error:ankitaFuturePresentationError}=useData<AnkitaFuturePresentation>('episode-future-ankita-private-presentation-seed.json');
@@ -63,6 +67,10 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
  const {data:shreyaBeat10,error:shreyaBeat10Error}=useData<ShreyaBeat10Review>('episode-03-shreya-beat-10-training-ground-review.json');
  useEffect(()=>{
   if(!initialScene)return;
+  if(initialScene==='ep04a-shreya'){
+   const timer=window.setTimeout(()=>document.getElementById('shreya-episode04a')?.scrollIntoView({behavior:'smooth',block:'start'}),130);
+   return ()=>clearTimeout(timer);
+  }
   if(initialScene==='ep04a-taniya-soniya'){
    const timer=window.setTimeout(()=>document.getElementById('taniya-soniya-episode04a')?.scrollIntoView({behavior:'smooth',block:'start'}),130);
    return ()=>clearTimeout(timer);
@@ -189,6 +197,36 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
      <details className="episode-outline"><summary><strong>Episode 04B continuity warnings (Jan 2)</strong></summary>
       <div className="beat-list">{Object.entries(taniyaSoniyaEp04A.day2Scope).map(([key,value])=><p key={key}><strong>{titleCase(key)}:</strong> {value}</p>)}</div>
      </details>
+    </>}
+   </article>
+  </section>}
+  {active==='shreya'&&<section className="continuity-cards" id="shreya-episode04a">
+   <article className="episode-plan-card">
+    <span className="eyebrow">SHREYA · EPISODE 04A · JANUARY 1 EVENING · AUTHOR REVIEW</span>
+    <h2>Shreya — Chintu's Uniform Latch → Arvind's Accidental Visit → Vikram's Night</h2>
+    <p className="source-note"><strong>DISCUSSION PLOT · NOT APPROVED PROSE:</strong> EP03 Shreya ends at 17:45 by Chintu's register. Two upper shirt buttons loosen only afterward; the apartment latch damages two more. Emotional home recovery and private married fade-to-black follow, without altering EP03.</p>
+    {shreyaEp04AError&&<p>Could not load Shreya Episode 04A draft: {shreyaEp04AError}</p>}
+    {shreyaEp04A&&<>
+      <p><strong>Existing source:</strong> {shreyaEp04A.canon.handoff}</p>
+      <p><strong>Earlier Arvind history:</strong> {shreyaEp04A.canon.arvind}</p>
+      <div className="beat-list">{shreyaEp04A.scenes.map(scene=><details className="episode-outline" key={scene.id} open={['01','02','04'].includes(scene.number)}>
+        <summary><strong>Scene {scene.number} · {scene.title}</strong> — {scene.start}–{scene.end} · {scene.beats.length} beats</summary>
+        <p><strong>Location:</strong> {scene.location}</p>
+        {scene.fadeToBlack&&<p className="source-note"><strong>Married intimacy · fade to black · affectionate close</strong></p>}
+        <div className="beat-list">{scene.beats.map(beat=><div className="beat-item" key={beat.id}>
+         <p><strong>{beat.id} · {beat.time} · {beat.title}</strong></p>
+         <p><strong>Plot:</strong> {beat.plot}</p>
+         {beat.physical&&<p><strong>Physical staging:</strong> {beat.physical}</p>}
+         {beat.sightline&&<p><strong>Visibility:</strong> {beat.sightline}</p>}
+         {beat.reaction&&<p><strong>Reaction:</strong> {beat.reaction}</p>}
+         {beat.knowledge&&<p><strong>Knowledge:</strong> {beat.knowledge}</p>}
+         {beat.dialogue?.map((d,i)=><p key={i}><strong>{d.speaker}:</strong> {d.line}</p>)}
+        </div>)}</div>
+        {scene.prosePreview&&<div className="beat-list"><p><strong>Preview — not final prose</strong></p>{scene.prosePreview.split('\n\n').map((txt,i)=><p key={i}>{txt.replace(/\*/g,'')}</p>)}</div>}
+      </details>)}</div>
+      <h3>Household — where everyone is</h3>
+      <div className="beat-list">{Object.entries(shreyaEp04A.household).map(([person,where])=><div className="beat-item" key={person}><p><strong>{titleCase(person)}:</strong> {where}</p></div>)}</div>
+      <details className="episode-outline"><summary><strong>2 January handoff — not yet approved</strong></summary><div className="beat-list">{shreyaEp04A.day2Hooks.map((item,i)=><p key={i}>{item}</p>)}</div></details>
     </>}
    </article>
   </section>}
