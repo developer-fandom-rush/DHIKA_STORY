@@ -661,5 +661,30 @@
     "taniyaReaction": "T03-02: Taniya startles, catches breath, grips Raghav's shirt reflexively to steady herself; on release she returns to witty work focus, no romantic feeling inferred. T03-06: watches Andrea give Chirag a quick celebratory cheek kiss, is amused, tells group to work; no jealousy or intimacy with Taniya.",
     "uncleFantasyHint": "Vivek Suri, aged 55 CA partner, privately finds engaged Taniya sexually attractive and imagines intimacy before her wedding. Only narrator/reader knows; Taniya neither knows nor reciprocates, and he takes no personal action.",
     "note": "No Taniya kiss/affair/romantic milestone this episode. Precisely one brief practical Raghav-waist + Taniya-shirt contact and one unrelated playful Andrea/Chirag cheek peck."
+  },
+  "visualAssets": [
+    {
+      "id": "T03-02-FILING-DRAWER",
+      "beatId": "T03-02",
+      "title": "Taniya × Raghav — filing-drawer close encounter",
+      "driveFileId": "10r4b9gZjlrWQWQMHBW5ASXYo7MZtBTvq",
+      "url": "https://drive.google.com/file/d/10r4b9gZjlrWQWQMHBW5ASXYo7MZtBTvq/view?usp=drivesdk",
+      "status": "GENERATED_ILLUSTRATION__AUTHOR_REVIEW",
+      "continuity": "Scene depiction only. Waist support and Taniya's shirt grip; NO kiss. Visual interpretation is more revealing than the locked wardrobe text, so do not change prose canon to match artwork."
+    },
+    {
+      "id": "T03-06-ANDREA-CHIRAG",
+      "beatId": "T03-06",
+      "title": "Andrea × Chirag — playful New Year cheek kiss",
+      "driveFileId": "15EAMxKHNGRLsnjwPYRw62-5cfKQ5oXtc",
+      "url": "https://drive.google.com/file/d/15EAMxKHNGRLsnjwPYRw62-5cfKQ5oXtc/view?usp=drivesdk",
+      "status": "GENERATED_ILLUSTRATION__AUTHOR_REVIEW",
+      "continuity": "Andrea pecks Chirag on cheek. Taniya is an observer and does NOT kiss Raghav. Illustration is visual reference, not canon facial likeness."
+    }
+  ],
+  "visualAssetFolder": {
+    "title": "Taniya — Episode 03 — 2026-01-01",
+    "url": "https://drive.google.com/drive/folders/1MtxEOMgTwYNyw56fCZySEkMKzc_f1hHQ",
+    "note": "Drive folder is private; story planning UI exposes review links, not public image hosting."
   }
 }
