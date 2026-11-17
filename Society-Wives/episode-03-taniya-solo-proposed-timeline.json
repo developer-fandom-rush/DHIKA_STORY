@@ -4,698 +4,662 @@
   "series": "Society Wives — Five Veils of Desire",
   "episode": "03",
   "lead": "Taniya",
-  "title": "The Numbers Between Us — 9-hour office shift / Taniya solo Episode 03 plot",
+  "title": "The New Year Secret — Taniya Episode 03: Office, Two Homes & Society",
   "date": "2026-01-01",
   "timezone": "Asia/Kolkata",
-  "status": "USER_CONFIRMED_9_HOUR_OFFICE_SHIFT__DRAFT_STAGING_TIMES_PROVISIONAL",
-  "start": "13:15",
+  "status": "USER_REQUESTED_UI_SAVE__FULL_EP03_PLOT_DRAFT__NOT_PROSE",
+  "start": "10:50",
   "end": null,
-  "goal": "Taniya works a nine-hour CA-office day from 10:30 AM to 7:30 PM (author confirmation), already present at the office 1:15 PM EP02 cutoff. T03-01–07 are afternoon work events continuing until 19:30, not a New Year half-day. Commute begins only after 19:30; society/twins/helper/elder/home scenes remain conditional on realistic travel and everyone else's availability. Soniya enters only on arrival at home.",
+  "goal": "Official Episode 03 on-page opening at 10:50 AM uses deliberately shifted EP02 office plans TS12, TS13, TS14 and TS16 in Phase A. The full nine-hour 10:30–19:30 office shift continues through Phase B. Establish the four-person Raghav/Chirag + Neha/Andrea team, brief practical Raghav-waist support to Taniya only (NO kiss/romance), Andrea-to-Chirag one playful celebratory cheek peck, Punit office Chotu introduction, Vivek Suri's reader-only sexual attraction, and an active near-office rented flat used with Taniya's permission by select colleagues. After the 19:30 departure, she chooses to return to Soniya's society home; Karan/Aman only if legitimately there and Soniya appears first at the home doorway.",
   "sourceAnchors": [
     {
       "source": "episode-02-taniya-soniya-plan.json",
-      "facts": "TS16 cutoff 13:15; Taniya works in CA office; Raghav/Chirag work duo not twins; Punit trainee; Pradeep/Vivek Suri/Mehra senior men; Karan/Aman morning TS05; Subhash is socially presented elder, not actual FIL; Guddu society courier."
+      "facts": "TS12 10:30–10:59, TS13 11:00–11:45, TS14 11:45–12:25, TS16 12:50–13:15 are adapted from previously deferred office plot as author directed. TS15 is Soniya-at-home lane; no edit to EP02 file."
     },
     {
-      "source": "episode-03-shreya-jan01-proposed-timeline.json",
-      "facts": "Karan/Aman independently at public college until 15:05; no Taniya knowledge of their private Shreya clothing incident; Shreya station until 17:05 and Samar/Shaan society until 17:33."
+      "source": "continuity-verbatim/episode-02/taniya.json",
+      "facts": "TS07C source-confirmed sky-blue shirt and charcoal trousers; EP02 TS05 Karan/Aman gym familiarity. Original source prose unchanged."
     },
     {
-      "source": "episode-03-ankita-scene-07-twins-pickup-homecoming.json",
-      "facts": "Ankita calls twins around 17:23 when they are already near her private venue; Karan bike and Aman scooty, arrival home by 17:50."
+      "source": "character-directory.json",
+      "facts": "Existing Raghav/Chirag, Punit, Vivek Suri, Neha/Riya/Megha/Saloni, Karan/Aman identities. Andrea is new proposed Indian colleague."
     },
     {
-      "source": "episode-03-shivani-scene-03-society-return-plot.json",
-      "facts": "Shivani uses Mahendra 17:45–17:49 and the Ayaan/Armaan later society lane; no Taniya conflict before 17:12."
+      "source": "author-directions-2026-11-17",
+      "facts": "Full EP03 plot, no Taniya kiss or romance, office duos, one accidental waist support, group celebratory cheek kiss, second rented flat and uncle reader-only fantasy, full 19:30 exit, home Soniya at end."
     }
   ],
   "figureMapping": [
     {
-      "group": "Actual twins",
-      "members": [
-        "Karan (22)",
-        "Aman (22)"
-      ],
-      "why": "Already familiar since TS05 gym, independently available after Shreya college ~15:05 and before Ankita call ~17:23; one short parking crossover at 16:42–16:51; not office workers."
-    },
-    {
-      "group": "Office twin-like duo, NOT biological twins",
+      "group": "Office male duo, NOT biological twins",
       "members": [
         "Raghav (24)",
         "Chirag (24)"
       ],
-      "why": "CA article assistants; contrasting work/play banter within legitimate office task; no invented blood relationship."
+      "why": "Existing CA article assistants, outward Raghav and restrained Chirag. Proposed shared intake and familiar work friendship; usually appear with both female teammates."
+    },
+    {
+      "group": "Office female duo, NOT biological twins",
+      "members": [
+        "Neha (22)",
+        "Andrea (Indian adult, age TBD)"
+      ],
+      "why": "Neha existing EP02 planned colleague; Andrea new author-selected EP03 colleague, NOT Riya alias or a foreigner. Bold Andrea and playful Neha work and joke together."
     },
     {
       "group": "Office Chotu-type",
       "members": [
         "Punit (22)"
       ],
-      "why": "Junior CA trainee, useful audit-retrieval task; do not call him Chotu or portray as personal servant."
+      "why": "Junior trainee already known from EP02 plan; physical/personal subplot held for next office day."
     },
     {
-      "group": "Society Chotu-type",
+      "group": "UNCLE / senior",
       "members": [
-        "Guddu (23)"
-      ],
-      "why": "Society courier and errands helper, sealed wedding quote at authorized service desk; first meaningful exchange."
-    },
-    {
-      "group": "Older office figures",
-      "members": [
-        "Pradeep Khanna (48)",
         "Vivek Suri (55)",
-        "Mr. Mehra (60)"
+        "Pradeep Khanna (48)",
+        "Mr. Mehra (60; remote)"
       ],
-      "why": "Senior review, partner decision, client advice; independent authority and dialogue, no coercive/romantic shortcut."
+      "why": "Vivek Suri (NOT 30-year-old gym trainer Vivek Rao) has reader-only private sexual attraction; no action. Pradeep professional; Mehra remote."
     },
     {
-      "group": "Older society figure",
+      "group": "Supporting women (backend only)",
       "members": [
+        "Riya (23)",
+        "Megha (28)",
+        "Saloni (26)"
+      ],
+      "why": "Retain for later plotting without active major EP03 scenes; optional one brief Saloni flat logistics message."
+    },
+    {
+      "group": "Society actual twins",
+      "members": [
+        "Karan (22)",
+        "Aman (22)"
+      ],
+      "why": "Ankita's devars, Kabir's younger twin brothers, familiar from Taniya TS05 morning gym. Evening cameo conditional on verified availability."
+    },
+    {
+      "group": "Society helpers/elders not used",
+      "members": [
+        "Guddu (23)",
         "Subhash (59)"
       ],
-      "why": "Aditya-linked socially presented elder, not actual father/FIL; legitimate wedding quotation conversation; no knowledge transfer of private prior incident."
-    },
-    {
-      "group": "Not scheduled in this plot",
-      "members": [
-        "Mahendra Suri (61)",
-        "Mihir (22)",
-        "Aditya (26)",
-        "Rahul (28)"
-      ],
-      "why": "Can recur later; do not crowd Taniya-only afternoon or collide with other leads; can be mentioned appropriately but no new action."
+      "why": "Retained in roster, not forcibly brought into late-evening plot."
     }
   ],
-  "wardrobeStatus": "PROPOSED_VISUAL_ONLY_NOT_CANON",
-  "wardrobe": "Keep Taniya's same CA-office outfit from Episode02 TS07 throughout day until she reaches home. For visual drafting, muted office blouse and dark tailored trousers with a tote/ID badge; exact color and garment cut NOT locked and must be reconciled against published TS07 prose before full writing.",
+  "wardrobeStatus": "TANIYA_EP02_VERIFIED; ANDREA_PROPOSED",
+  "wardrobe": "EP02 TS07C source-confirmed: Taniya wears a sky-blue formal shirt, charcoal trousers and office shoes with laptop bag. Proposed Andrea: adult Indian colleague with festive emerald blouse and black trousers/blazer; exact outfit/age not canon. Neha has smart office New Year wear with colors unspecified. No automatic outfit change or exposure.",
   "beats": [
     {
       "id": "T03-01",
-      "time": "13:15–13:45 · WORKING DRAFT",
-      "title": "One missing reconciliation — the office task",
-      "location": "CA office · audit desk",
+      "time": "10:50–11:05 · Phase A / deferred TS12",
+      "title": "The Wedding Girl — Four-Person Circle",
+      "location": "CA office, audit desk",
       "cast": [
         "Taniya",
-        "Neha (brief)"
+        "Raghav (male duo)",
+        "Chirag (male duo)",
+        "Neha (female duo)",
+        "Andrea (female duo)",
+        "Punit (brief)"
       ],
-      "purpose": "Start immediately where Episode02 ended, no morning recap or Soniya cutaways.",
-      "action": "A client asks for a corrected December management-report pack before its next-day board presentation. Two vendor payments look duplicated in the import; this is a reconciliation question, not asserted fraud or a legal filing deadline. Taniya assigns a clean evidence trail. Neha delivers source exports. New Year's office staffing is already part of the working plan.",
-      "visual": "Taniya is in the same CA-office clothes she changed into during TS07; proposed visual only: muted blouse, tailored dark trousers, neatly managed hair, work tote and an ID lanyard. Exact color stays unlocked.",
+      "purpose": "AUTHOR-REQUESTED FULL EP03 PLOT; approval applies to UI placement, not finished prose.",
+      "action": "New Year's Day December close keeps the team working. Raghav and Chirag have a long familiar two-man article-assistant working partnership; Neha and Andrea are equally familiar and teasing coworkers, not biological twins. They work together around Taniya; her engagement to Aditya is already common knowledge. Propose short shared work-history references, not an elaborate flashback.",
+      "physical": "No bodily contact. Familiar desk proximity only.",
+      "teasing": "Neha playful honeymoon-leave jokes, Andrea bolder double meaning, Raghav outgoing banter and Chirag dry humour; Taniya replies confidently.",
+      "turn": "Office group is already familiar. Raghav has latent interest but does not confess; the four colleagues' joint rhythm carries into next beat.",
+      "visual": "Keep Taniya's EP02 sky-blue shirt and charcoal trousers; no added exposure.",
       "dialogue": [
         {
           "speaker": "Neha",
-          "line": "Ma'am, December MIS ka vendor column do baar aa raha hai."
+          "line": "Honeymoon leave bhi audit approval ke baad milegi kya?"
+        },
+        {
+          "speaker": "Andrea",
+          "line": "Aditya ko bata dena, inki checking bahut strict hai."
         },
         {
           "speaker": "Taniya",
-          "line": "Do baar dikh raha hai ya do baar pay hua hai? Pehle evidence dekhte hain."
+          "line": "Pehle apni files close karo, phir meri shaadi audit karna."
         }
       ],
-      "turn": "Her competence, not a random personal event, drives the afternoon.",
-      "status": "ASSISTANT_PROPOSAL_FOR_AUTHOR_REVIEW"
+      "status": "AUTHOR_REQUESTED_UI_SAVE__PLOT_FOR_REVIEW"
     },
     {
       "id": "T03-02",
-      "time": "13:45–14:30 · WORKING DRAFT",
-      "title": "Raghav vs Chirag — same file, different instincts",
-      "location": "CA office · shared workstation",
-      "cast": [
-        "Taniya",
-        "Raghav (24)",
-        "Chirag (24)"
-      ],
-      "purpose": "Establish the 'office twins' narrative pairing without lying about kinship.",
-      "action": "Raghav wants to close the duplicate as an import error quickly; Chirag quietly spots that the payment reference format differs. Taniya makes them compare the source bank extract, invoice and journal. They are a familiar working duo, NOT actual brothers or twins. She has previously exchanged playful work banter with both, so introductions are skipped. The three lean over a shared screen to review but there is no staged clothing accident or forced touch.",
-      "visual": "Three chairs angled toward a laptop and marked statement; Raghav talkative and forward, Chirag precise with a pen; Taniya centered and in charge.",
-      "dialogue": [
-        {
-          "speaker": "Raghav",
-          "line": "Mere hisaab se software ka double import hai. Five-minute fix."
-        },
-        {
-          "speaker": "Chirag",
-          "line": "Reference numbers same nahi hain. Thoda ruk kar verify karte hain."
-        },
-        {
-          "speaker": "Taniya",
-          "line": "Aaj mera test nahi. Dono ka hai. Jo bolega, proof ke saath bolega."
-        },
-        {
-          "speaker": "Raghav",
-          "line": "Ma'am, New Year pe bhi viva?"
-        },
-        {
-          "speaker": "Taniya",
-          "line": "Audit mein holiday discount nahi milta."
-        }
-      ],
-      "turn": "Kinetic banter shows distinct personalities, and neither is reduced to a copy of Karan/Aman.",
-      "status": "ASSISTANT_PROPOSAL_FOR_AUTHOR_REVIEW"
-    },
-    {
-      "id": "T03-03",
-      "time": "14:30–15:00 · WORKING DRAFT",
-      "title": "Punit — the office Chotu-type gets his own competence",
-      "location": "CA office · archive cabinet and scan desk",
-      "cast": [
-        "Taniya",
-        "Punit (22)",
-        "Chirag (brief)"
-      ],
-      "purpose": "Give the younger office helper a meaningful role, not another gaze-only scene.",
-      "action": "Punit retrieves the earlier original export and its update timestamp. He does not read private files outside permission. His method establishes that one duplicate-looking row is an imported reversal, and the correct reconciliation needs a verified journal note. Taniya thanks him; his admiration remains mostly quiet and unacted. This is not a new staffer called Chotu.",
-      "visual": "Punit lays out two labeled printouts without touching Taniya's personal belongings. The office hum, stapler and ledger provide concrete texture.",
-      "dialogue": [
-        {
-          "speaker": "Punit",
-          "line": "Ma'am, original export aur revised file dono mil gaye. Time stamps bhi hain."
-        },
-        {
-          "speaker": "Taniya",
-          "line": "Good catch. Jo file use ki, uska source note bhi attach kar dena."
-        },
-        {
-          "speaker": "Punit",
-          "line": "Haan ma'am. Is baar shortcut nahi liya."
-        },
-        {
-          "speaker": "Taniya",
-          "line": "Ab toh tum audit team mein fit ho rahe ho."
-        }
-      ],
-      "turn": "A short professional compliment means something to Punit, but Taniya doesn't know his private thoughts.",
-      "status": "ASSISTANT_PROPOSAL_FOR_AUTHOR_REVIEW"
-    },
-    {
-      "id": "T03-04",
-      "time": "15:00–15:40 · WORKING DRAFT",
-      "title": "Pradeep Khanna — the older mentor's challenge",
-      "location": "CA office · senior review cabin",
-      "cast": [
-        "Taniya",
-        "Pradeep Khanna (48)",
-        "Raghav (support)"
-      ],
-      "purpose": "One old-man office figure with credible authority and a nonsexual story consequence.",
-      "action": "Pradeep asks why Taniya did not simply delete the extra line. She shows the original export and journal evidence and recommends retaining audit traceability. He initially questions whether she is overcomplicating a routine error but accepts the proof. Raghav sees her defend her conclusion without needing him to answer for her. Attraction or inappropriate touch from the senior is NOT asserted.",
-      "visual": "Taniya stays standing beside the open case file until invited to sit; Pradeep marks the supporting entry and signs off the next review step.",
-      "dialogue": [
-        {
-          "speaker": "Pradeep",
-          "line": "Ek duplicate line ke liye itna documentation?"
-        },
-        {
-          "speaker": "Taniya",
-          "line": "Sir, entry delete karna aasaan hai. Baad mein uska reason prove karna mushkil."
-        },
-        {
-          "speaker": "Pradeep",
-          "line": "Fair point. Supporting note rakho, final report tab approve karenge."
-        }
-      ],
-      "turn": "Professional reversal is the surprise; it avoids a manufactured sexual accident or abuse of authority.",
-      "status": "ASSISTANT_PROPOSAL_FOR_AUTHOR_REVIEW"
-    },
-    {
-      "id": "T03-05",
-      "time": "15:40–16:20 · WORKING DRAFT",
-      "title": "Two senior voices, one clear answer",
-      "location": "CA office · team call and partner sign-off",
-      "cast": [
-        "Taniya",
-        "Vivek Suri (55)",
-        "Mr. Mehra (60, client advisor, remote voice)",
-        "Megha (brief)"
-      ],
-      "purpose": "Differentiate firm partner from senior client advisor; do not copy Pradeep's mentor beat.",
-      "action": "Client advisor Mehra wants the revised numbers sent before the next meeting; firm partner Vivek Suri asks Taniya to distinguish an unresolved anomaly from an actual double payment. She explains the bank source and asks for the required written confirmation. Partner approves a conditional note, rather than pressuring the team to hide a finding. Both older men remain professionally grounded; no new concealed romance is claimed as canon.",
-      "visual": "Glass meeting area, video-call speaker, annotated MIS; Taniya calmly walks through evidence instead of a dramatic confrontation.",
-      "dialogue": [
-        {
-          "speaker": "Mr. Mehra",
-          "line": "Report aaj hi nikal sakti hai na?"
-        },
-        {
-          "speaker": "Taniya",
-          "line": "Preliminary pack haan. Final figures source-confirmation ke baad."
-        },
-        {
-          "speaker": "Vivek Suri",
-          "line": "Sahi. Assumption ko confirmed transaction mat likhna."
-        },
-        {
-          "speaker": "Taniya",
-          "line": "Exactly. Main qualification clear mark kar dungi."
-        }
-      ],
-      "turn": "Taniya earns room to decide how and when she completes the work.",
-      "status": "ASSISTANT_PROPOSAL_FOR_AUTHOR_REVIEW"
-    },
-    {
-      "id": "T03-06",
-      "time": "16:20–18:40 · WORKING DRAFT",
-      "title": "Two colleagues, one changed equation",
-      "location": "CA office · report desk",
+      "time": "11:05–11:45 · Phase A / deferred TS13",
+      "title": "The Filing Drawer — A Close Call",
+      "location": "CA office, adjacent file storage",
       "cast": [
         "Taniya",
         "Raghav",
         "Chirag",
-        "Punit (brief)"
+        "Neha",
+        "Andrea"
       ],
-      "purpose": "Small personality-driven tension with a work payoff, not another forced trip/fall.",
-      "action": "Report drafting, follow-up confirmations, short normal work breaks, source reconciliations and rechecks occupy the full afternoon up to ~18:40. Raghav admits Chirag's caution mattered; Chirag credits Raghav's file organizing. During a natural side-by-side screen handover Raghav is closer than usual; Taniya notices and repositions her chair comfortably. No accidental physical touch, no attraction asserted as established. Other office colleagues continue their actual roles rather than having a multi-hour flirting scene.",
-      "visual": "Taniya in profile at the desk, Raghav near a printout and Chirag by monitor, small change in eye contact instead of gratuitous body description.",
+      "purpose": "AUTHOR-REQUESTED FULL EP03 PLOT; approval applies to UI placement, not finished prose.",
+      "action": "While retrieving an original bank reference, a loaded filing drawer shifts. Raghav stops the drawer and instinctively steadies Taniya while she catches his shirt; both release when the drawer is stable. The three teammates are close enough to hear commotion and tease afterward. No practice groom, staged romantic embrace or kiss.",
+      "physical": "Raghav hand briefly supports Taniya at CLOTHED WAIST; Taniya reflexively holds Raghav's shirt at his torso. Both immediately release. No buttock touch, kiss or lasting embrace.",
+      "teasing": "Neha jokes 'rescue drill'; Andrea gives a sharper wedding/safety double meaning; Taniya counters with quick work-focused wit.",
+      "turn": "Taniya is briefly startled, catches breath, recognizes unexpected closeness and returns to composed humour. Raghav pauses; Chirag only knows what he witnessed. No romantic conclusions.",
+      "visual": "Keep Taniya's EP02 sky-blue shirt and charcoal trousers; no added exposure.",
       "dialogue": [
         {
-          "speaker": "Raghav",
-          "line": "Fine. Aaj Chirag ka slow-and-steady point valid tha."
+          "speaker": "Neha",
+          "line": "Records check ya rescue drill?"
+        },
+        {
+          "speaker": "Andrea",
+          "line": "Honeymoon safety lessons office mein?"
+        },
+        {
+          "speaker": "Taniya",
+          "line": "Drawer sambhalo, comedy baad mein."
+        }
+      ],
+      "status": "AUTHOR_REQUESTED_UI_SAVE__PLOT_FOR_REVIEW"
+    },
+    {
+      "id": "T03-03",
+      "time": "11:45–12:25 · Phase A / deferred TS14",
+      "title": "Senior Review — The Hidden Uncle Track",
+      "location": "CA office, conference room",
+      "cast": [
+        "Taniya",
+        "Vivek Suri (55, UNCLE)",
+        "Pradeep Khanna (48)",
+        "Mr. Mehra (60, remote)",
+        "Raghav",
+        "Chirag",
+        "Neha",
+        "Andrea"
+      ],
+      "purpose": "AUTHOR-REQUESTED FULL EP03 PLOT; approval applies to UI placement, not finished prose.",
+      "action": "Taniya defends December-close audit findings. Pradeep queries evidence, Mehra joins remotely, and four staff assist. Vivek Suri chairs review professionally, but reader-only inner narration establishes he finds engaged Taniya sexually attractive and privately imagines consensual intimacy with her before her wedding. She does not know or reciprocate. Vivek Suri is NOT gym trainer Vivek Rao.",
+      "physical": "No body touch, no personal proposition and no senior advance.",
+      "teasing": "Only incidental mature wedding joke, primarily professional dialogue; no mock romance.",
+      "turn": "The reader knows Vivek's unacted desire; Taniya perceives normal management review. A valid afternoon review is planned; older-man track stops later today.",
+      "visual": "Keep Taniya's EP02 sky-blue shirt and charcoal trousers; no added exposure.",
+      "dialogue": [
+        {
+          "speaker": "Pradeep",
+          "line": "Original bank trail aur journal check karo."
+        },
+        {
+          "speaker": "Taniya",
+          "line": "Correction trace preserve ki hai."
+        },
+        {
+          "speaker": "Vivek Suri",
+          "line": "Final review evening se pehle close karna hai."
+        }
+      ],
+      "status": "AUTHOR_REQUESTED_UI_SAVE__PLOT_FOR_REVIEW"
+    },
+    {
+      "id": "T03-04",
+      "time": "12:25–13:15 · Phase A / deferred TS16",
+      "title": "Office Chotu Punit Enters",
+      "location": "CA office, shared workstations",
+      "cast": [
+        "Taniya",
+        "Punit (22, CHOTU)",
+        "Raghav",
+        "Chirag",
+        "Neha",
+        "Andrea"
+      ],
+      "purpose": "AUTHOR-REQUESTED FULL EP03 PLOT; approval applies to UI placement, not finished prose.",
+      "action": "After a short ordinary break, Punit, a known CA trainee, brings archived files and stationery. Neha teases his formal manner, Andrea uses dry office jokes, and Punit surprises them with a witty reply. Taniya gives practical next-day assignments. Old EP02 TS15 Soniya-at-home is not imported as an office scene.",
+      "physical": "No intimate contact; file handovers only. Punit's actual personal encounter is deferred to the next office day.",
+      "teasing": "Female-led colleague jokes; one short Punit retort; four office peers remain mostly together.",
+      "turn": "Punit's shy admiration remains one-sided/reader-only. 13:15 concludes Phase A, not the episode.",
+      "visual": "Keep Taniya's EP02 sky-blue shirt and charcoal trousers; no added exposure.",
+      "dialogue": [
+        {
+          "speaker": "Neha",
+          "line": "Punit, har baar Taniya ma'am ko hi report karte ho?"
+        },
+        {
+          "speaker": "Punit",
+          "line": "Aapki report finish ho toh aapko bhi kar doon."
+        },
+        {
+          "speaker": "Taniya",
+          "line": "Kaam pe focus, roast session baad mein."
+        }
+      ],
+      "status": "AUTHOR_REQUESTED_UI_SAVE__PLOT_FOR_REVIEW"
+    },
+    {
+      "id": "T03-05",
+      "time": "13:15–14:15 · Phase B",
+      "title": "Lunch & Laughter",
+      "location": "CA office, staff break area",
+      "cast": [
+        "Taniya",
+        "Raghav",
+        "Chirag",
+        "Neha",
+        "Andrea"
+      ],
+      "purpose": "AUTHOR-REQUESTED FULL EP03 PLOT; approval applies to UI placement, not finished prose.",
+      "action": "Staggered lunch recalls their past audit deadlines and team get-togethers. Andrea draws Raghav into a casual group photograph, Neha jokes, Chirag delivers dry replies, and Taniya takes the photo. The four cohere as an easy friend group; no one becomes Taniya's partner.",
+      "physical": "Brief voluntary coworker group-photo closeness; Andrea draws Raghav into a pose. No Taniya intimate contact.",
+      "teasing": "Friendly rivalry, engagement jokes, playful credits and office-shift teasing.",
+      "turn": "Male and female duo chemistry stays collective, not two new committed couples.",
+      "visual": "Keep Taniya's EP02 sky-blue shirt and charcoal trousers; no added exposure.",
+      "dialogue": [
+        {
+          "speaker": "Andrea",
+          "line": "Group photo! Audit zombies bhi smile karein."
         },
         {
           "speaker": "Chirag",
-          "line": "Aur Raghav ne files time pe arrange ki. Miracles happen."
+          "line": "Raghav ki credit wali smile block karo."
+        }
+      ],
+      "status": "AUTHOR_REQUESTED_UI_SAVE__PLOT_FOR_REVIEW"
+    },
+    {
+      "id": "T03-06",
+      "time": "14:15–15:15 · Phase B",
+      "title": "A Small Celebration — Andrea & Chirag",
+      "location": "CA office, audit area",
+      "cast": [
+        "Taniya",
+        "Raghav",
+        "Chirag",
+        "Neha",
+        "Andrea"
+      ],
+      "purpose": "AUTHOR-REQUESTED FULL EP03 PLOT; approval applies to UI placement, not finished prose.",
+      "action": "Team solves a tricky report discrepancy. Chirag identifies the crucial detail, Raghav jokingly claims credit and Neha calls him out. Andrea spontaneously gives Chirag a quick, voluntary cheek peck in the spirit of New Year celebration, steps away laughing; Raghav mock-protests, Neha laughs and Taniya watches before saying it is time to work. No relationship is declared.",
+      "physical": "ANDREA gives CHIRAG one brief playful KISS ON CHEEK. TANIYA has no kiss or romantic touch.",
+      "teasing": "Mock-jealous Raghav, Neha credit jokes, Andrea bold celebratory teasing; Taniya good-natured interruption.",
+      "turn": "Chirag is briefly surprised/amused; Andrea openly playful; Taniya smiles and directs the team back to reports. No romance/couple status.",
+      "visual": "Keep Taniya's EP02 sky-blue shirt and charcoal trousers; no added exposure.",
+      "dialogue": [
+        {
+          "speaker": "Raghav",
+          "line": "Mera credit gaya kahaan?"
+        },
+        {
+          "speaker": "Neha",
+          "line": "Proof Chirag ka, drama tumhara."
         },
         {
           "speaker": "Taniya",
-          "line": "Dono ka credit note kar liya. Ab client pack bhejo before tum dono next debate start karo."
+          "line": "Celebration over. Ab figures bhejo."
         }
       ],
-      "turn": "Office duo chemistry progresses through earned respect and a subtle awareness, with no dramatic physical contact.",
-      "status": "ASSISTANT_PROPOSAL_FOR_AUTHOR_REVIEW"
+      "status": "AUTHOR_REQUESTED_UI_SAVE__PLOT_FOR_REVIEW"
     },
     {
       "id": "T03-07",
-      "time": "18:40–19:30 · EXIT AT 19:30",
-      "title": "A real exit, no extra office scene",
-      "location": "CA office → building lobby",
+      "time": "15:15–16:20 · Phase B",
+      "title": "The Second Flat — An Active Address",
+      "location": "CA office, team conversation",
       "cast": [
         "Taniya",
-        "Punit (brief)"
+        "Neha",
+        "Andrea",
+        "Saloni (supporting message only)"
       ],
-      "purpose": "End office action with a concrete task and commute buffer.",
-      "action": "Between ~18:40 and the confirmed 19:30 shift end, Taniya completes the report's qualification notes, logs pending confirmation for the next workday, checks mail and attachments with Punit, signs out at 19:30 and collects her tote. Do not end the normal working day early because of New Year.",
-      "visual": "The firm floor thins out; Taniya closes her laptop and takes the same office clothes and bag home.",
+      "purpose": "AUTHOR-REQUESTED FULL EP03 PLOT; approval applies to UI placement, not finished prose.",
+      "action": "Taniya still rents a near-office flat originally taken for late shifts; although she currently stays with Soniya in another society, the rent and access remain active. Select trusted colleagues sometimes ask permission to use the flat privately with romantic partners, including some extramarital relationships; she does not know every detail. Neha jokes about waiting lists; Andrea asks if it is free. Saloni can send a brief logistics message, with no newly invented affair attributed to her. No one uses the flat on-page today.",
+      "physical": "No body touch or visit. Taniya retains control of keys/access.",
+      "teasing": "Adult privacy and booking double meaning without revealing anyone's secrets.",
+      "turn": "The rented studio becomes a credible future shared-location subplot rather than today's sexual encounter.",
+      "visual": "Keep Taniya's EP02 sky-blue shirt and charcoal trousers; no added exposure.",
       "dialogue": [
         {
-          "speaker": "Punit",
-          "line": "Ma'am, final mail aur attachments check ho gaye. Pending confirmation tag bhi laga diya."
+          "speaker": "Neha",
+          "line": "Flat ki waiting list bhi hai kya?"
         },
         {
           "speaker": "Taniya",
-          "line": "Good. 7:30 ho gaye. Kal ka follow-up clearly assigned hai, ab main nikalti hoon."
+          "line": "Meri permission ke bina koi booking nahi."
+        },
+        {
+          "speaker": "Andrea",
+          "line": "Privacy bhi audit-approved!"
         }
       ],
-      "turn": "At 19:30 she is genuinely free to begin her commute; any society storyline starts afterward.",
-      "status": "ASSISTANT_PROPOSAL_FOR_AUTHOR_REVIEW"
+      "status": "AUTHOR_REQUESTED_UI_SAVE__PLOT_FOR_REVIEW"
     },
     {
       "id": "T03-08",
-      "time": "19:30 onward · commute ≈35–50 min proposal",
-      "title": "Homeward — keep the shared clock honest",
-      "location": "Commute · CA office → Gulmohar Heights",
+      "time": "16:20–17:30 · Phase B",
+      "title": "Uncle's Second Look",
+      "location": "CA firm, partner review",
       "cast": [
-        "Taniya"
+        "Taniya",
+        "Vivek Suri (UNCLE)",
+        "Pradeep Khanna",
+        "Chirag (support)"
       ],
-      "purpose": "Geographical breathing room and no forced coincidence.",
-      "action": "Taniya leaves work around 19:30 after a complete nine-hour 10:30–19:30 shift. Earlier EP02 plan has about 35 min morning commute; 35–50 minutes for evening is only a planning estimate, not a fixed arrival guarantee. She remains in the same CA office outfit. No Soniya scene, phone call, or appearance.",
-      "visual": "Late afternoon traffic, office lanyard in her bag; no costume swap on commute.",
-      "dialogue": [],
-      "turn": "Possible society arrival after ~20:05; avoid implying Guddu or Subhash is definitely present at that hour.",
-      "status": "ASSISTANT_PROPOSAL_FOR_AUTHOR_REVIEW"
+      "purpose": "AUTHOR-REQUESTED FULL EP03 PLOT; approval applies to UI placement, not finished prose.",
+      "action": "Vivek calls a genuine final figures review, Pradeep wraps audit traceability and Taniya presents results. Reader-only sexual attraction remains part of Vivek's private perspective, but he keeps professional conduct. This closes the uncle thread for Episode 03; no approach, proposition or Taniya knowledge.",
+      "physical": "No physical contact or pressured intimacy.",
+      "teasing": "Professional meeting. No repeated wedding joke needed.",
+      "turn": "Only reader knows his unacted fantasy; a potential future plot node, no further escalation here.",
+      "visual": "Keep Taniya's EP02 sky-blue shirt and charcoal trousers; no added exposure.",
+      "dialogue": [
+        {
+          "speaker": "Vivek Suri",
+          "line": "Confirmed figures aur pending exceptions alag rakho."
+        },
+        {
+          "speaker": "Taniya",
+          "line": "Already marked hain."
+        }
+      ],
+      "status": "AUTHOR_REQUESTED_UI_SAVE__PLOT_FOR_REVIEW"
     },
     {
       "id": "T03-09",
-      "time": "AFTER 20:05 · CONDITIONAL (twins whereabouts unverified)",
-      "title": "Karan & Aman — a fleeting real-twins crossover",
-      "location": "Gulmohar Heights · two-wheeler parking bay",
+      "time": "17:30–19:30 · Phase B · EXIT AT 19:30",
+      "title": "The Last Office Hours",
+      "location": "CA office, final desks and exit",
       "cast": [
         "Taniya",
-        "Karan (22)",
-        "Aman (22)"
+        "Raghav",
+        "Chirag",
+        "Neha",
+        "Andrea",
+        "Punit (brief)"
       ],
-      "purpose": "Use actual twins without colliding with Shreya's college encounter or Ankita's later pickup.",
-      "action": "POST-SHIFT OPTION ONLY: Taniya can exchange brief familiar gym-style teasing with Karan and Aman if they naturally happen to be near the parking bay after ~20:05. Morning TS05 and earlier Shreya 14:05–15:05/Ankita ~17:23–17:50 continuity is preserved, but nothing establishes that either twin is at society parking around 20:10. Mark as UNCONFIRMED, not automatic scene; move to a different day if unavailable. No touch is yet written.",
-      "visual": "One twin all expressive gestures by his bike, the other quieter beside his scooty; Taniya pauses with tote in hand. No engineered touch, staged collision or unnecessary rivalry.",
+      "purpose": "AUTHOR-REQUESTED FULL EP03 PLOT; approval applies to UI placement, not finished prose.",
+      "action": "The four core colleagues handle final report closeout, while Punit verifies a next-day tracker. Natural teasing continues without a new physical incident or confessional scene. Taniya finishes the entire shift at 7:30 PM and chooses to return to Soniya's society instead of stopping at her nearby rented studio.",
+      "physical": "No new intimate touch. Filing-drawer encounter is not repeated.",
+      "teasing": "Familiar wedding banter and colleague wisecracks, but work actually finishes.",
+      "turn": "Taniya remembers the brief accidental proximity and Andrea–Chirag cheek peck as separate things; none is a Taniya romantic milestone.",
+      "visual": "Keep Taniya's EP02 sky-blue shirt and charcoal trousers; no added exposure.",
       "dialogue": [
         {
-          "speaker": "Karan",
-          "line": "CA madam, New Year pe bhi audit? Tumhari office ko chhutti ka spelling nahi aata?"
+          "speaker": "Neha",
+          "line": "Kal bhi comedy schedule?"
         },
         {
           "speaker": "Taniya",
-          "line": "Tum dono ke excuses ka balance sheet banau toh pura din lag jayega."
-        },
-        {
-          "speaker": "Aman",
-          "line": "Karan ka liabilities column toh already full hai."
-        },
-        {
-          "speaker": "Karan",
-          "line": "Accha, tum dono alliance bana lo. Main ja raha hoon."
-        },
-        {
-          "speaker": "Taniya",
-          "line": "Jaao. Aur actual job prep bhi kar lena."
+          "line": "Pehle reconciliation, phir comedy."
         }
       ],
-      "turn": "Do not show both twins waiting specifically to intercept Taniya.",
-      "status": "ASSISTANT_PROPOSAL_FOR_AUTHOR_REVIEW"
+      "status": "AUTHOR_REQUESTED_UI_SAVE__PLOT_FOR_REVIEW"
     },
     {
       "id": "T03-10",
-      "time": "AFTER SOCIETY ARRIVAL · conditional availability",
-      "title": "Guddu — society Chotu-type, first substantial exchange",
-      "location": "Gulmohar Heights · community service/parcel desk",
+      "time": "19:30 onward · Phase C · commute ≈35–50m estimate",
+      "title": "Two Homes, One Choice",
+      "location": "Gurugram commute",
       "cast": [
-        "Taniya",
-        "Guddu (23, society courier/helper)"
+        "Taniya"
       ],
-      "purpose": "Make helper figure credible and distinguish from CA trainee Punit.",
-      "action": "POSSIBLE LATE SOCIETY HANDOFF ONLY if Guddu's actual service rota supports it. A sealed wedding quotation may be stored at a staffed desk and handed over by Guddu upon Taniya's arrival. If he is off-duty, the packet remains at the desk for pickup next day. No physical contact with Taniya is written.",
-      "visual": "Dusty courier bag, sealed packet, two clear external tracking numbers; Taniya holds the envelope herself, no body contact.",
-      "dialogue": [
-        {
-          "speaker": "Guddu",
-          "line": "Taniya ma'am, quotation ka packet aaya hai. Delivery slip pe do numbers hain. Kaunsa acknowledge karna hai?"
-        },
-        {
-          "speaker": "Taniya",
-          "line": "Good ki pooch liya. Dono ko note karo, original slip mat badalna."
-        },
-        {
-          "speaker": "Guddu",
-          "line": "Aapke yahan toh delivery bhi audit pass karke hi jaati hai."
-        },
-        {
-          "speaker": "Taniya",
-          "line": "Bilkul. Tumhara first test clear."
-        }
-      ],
-      "turn": "Potential brief new rapport when Taniya is genuinely on-site.",
-      "status": "ASSISTANT_PROPOSAL_FOR_AUTHOR_REVIEW"
+      "purpose": "AUTHOR-REQUESTED FULL EP03 PLOT; approval applies to UI placement, not finished prose.",
+      "action": "The near-office rental is still active and would be convenient. Taniya decides to go to Soniya's distant society flat tonight because their morning conversation is unresolved. She leaves after 19:30; commute and society arrival estimates are not absolute canon.",
+      "physical": "None.",
+      "teasing": "No dialogue required.",
+      "turn": "Second-flat possibility is established for a later episode, no present-day visit or affair.",
+      "visual": "Keep Taniya's EP02 sky-blue shirt and charcoal trousers; no added exposure.",
+      "dialogue": [],
+      "status": "AUTHOR_REQUESTED_UI_SAVE__PLOT_FOR_REVIEW"
     },
     {
       "id": "T03-11",
-      "time": "AFTER SOCIETY ARRIVAL · conditional Subhash availability",
-      "title": "Subhash — the elder and the wedding figures",
-      "location": "Gulmohar Heights · lobby near service desk",
+      "time": "AFTER ~20:05 · Phase C · SOCIETY TWINS CONDITIONAL",
+      "title": "Karan & Aman — Gym Callback",
+      "location": "Society parking, if genuinely present",
       "cast": [
         "Taniya",
-        "Subhash (59, socially presented elder; not actual future FIL)"
+        "Karan (22, ACTUAL TWIN)",
+        "Aman (22, ACTUAL TWIN)"
       ],
-      "purpose": "Give older society household associate a legitimate reason to cross paths and respect reader-only unknowns.",
-      "action": "POSSIBLE OLDER-MAN SOCIETY FOLLOW-UP ONLY if Subhash is genuinely present for a documented wedding coordination reason after Taniya's return. Do not place him waiting randomly in a late lobby. If there is no reason for him to be there, defer the quotation discussion to a later event. Taniya does not know about Subhash's private earlier conduct; no physical contact is written.",
-      "visual": "Age contrast established via demeanor and walking pace, not fetishized gaze; Taniya holds the quoted document between them, physical distance unchanged.",
+      "purpose": "AUTHOR-REQUESTED FULL EP03 PLOT; approval applies to UI placement, not finished prose.",
+      "action": "If they have naturally returned after their other commitments, Karan and Aman cross paths with Taniya by the society entrance. Karan brings up morning gym; Aman dryly mentions her long shift. They do not await her, know no office secrets, and are Kabir's younger twin brothers/Ankita's devars. If unavailable at this hour, this cameo is deferred.",
+      "physical": "No new touch or romantic incident.",
+      "teasing": "Morning gym callback; Karan outgoing, Aman quieter.",
+      "turn": "Taniya's existing gym familiarity continues with no romantic reset. No invented society twins.",
+      "visual": "Keep Taniya's EP02 sky-blue shirt and charcoal trousers; no added exposure.",
       "dialogue": [
         {
-          "speaker": "Subhash",
-          "line": "Shaadi ka estimate aa gaya? Ab toh sign karwa hi do."
+          "speaker": "Karan",
+          "line": "Subah gym, shaam audit—kaafi workout!"
+        },
+        {
+          "speaker": "Aman",
+          "line": "Nine-hour shift ke baad bhi jokes karoge?"
         },
         {
           "speaker": "Taniya",
-          "line": "Pehle line items check honge, Uncle. Shaadi hai, blank cheque nahi."
-        },
-        {
-          "speaker": "Subhash",
-          "line": "Tum accountants ko har cheez mein numbers dikhte hain."
-        },
-        {
-          "speaker": "Taniya",
-          "line": "Aur isi liye galti jaldi pakadte hain."
+          "line": "Tum dono se bachna bhi full-time job hai."
         }
       ],
-      "turn": "No forced coincidence; move if Subhash's other commitments make it implausible.",
-      "status": "ASSISTANT_PROPOSAL_FOR_AUTHOR_REVIEW"
+      "status": "AUTHOR_REQUESTED_UI_SAVE__PLOT_FOR_REVIEW"
     },
     {
       "id": "T03-12",
-      "time": "HOME ARRIVAL AFTER SHIFT+COMMUTE · Soniya first enters",
-      "title": "Door opens — Soniya's first on-page entry",
-      "location": "Shared sisters' flat · home entrance",
+      "time": "HOME ARRIVAL AFTER SHIFT+COMMUTE · Phase C",
+      "title": "Soniya at the Door",
+      "location": "Shared society flat",
       "cast": [
         "Taniya",
-        "Soniya (24, only now enters)"
+        "Soniya (24; FIRST on-page EP03 appearance)"
       ],
-      "purpose": "Honor absolute POV restriction: Soniya appears only at Taniya's home arrival.",
-      "action": "Soniya appears ONLY when Taniya physically arrives home after her complete 19:30 office shift and actual commute. If Guddu/Subhash/twins are deferred, she simply goes inside; no forced extra stop. The earlier 'aaj jaldi?' line is invalid after a full shift.",
-      "visual": "Taniya in her unchanged office clothes in the doorway; Soniya already at home but only enters the reader's view after the door opens.",
+      "purpose": "AUTHOR-REQUESTED FULL EP03 PLOT; approval applies to UI placement, not finished prose.",
+      "action": "Taniya finally enters Soniya's flat after nine-hour office shift and commute. Soniya asks about her day; Taniya casually describes team wedding jokes. Morning gym conversation may remain on Taniya's mind, but nothing new is confessed. The episode ends with the sisters together and future office/team/Uncle/second-flat threads unspent.",
+      "physical": "No male contact or private sexual scene.",
+      "teasing": "Normal family teasing after long day.",
+      "turn": "End on ordinary sisterly exchange; no office affair, no unexpected Soniya earlier in episode.",
+      "visual": "Keep Taniya's EP02 sky-blue shirt and charcoal trousers; no added exposure.",
       "dialogue": [
         {
           "speaker": "Soniya",
-          "line": "Aa gayi? Kaafi lamba din tha?"
+          "line": "New Year pe bhi poora din office?"
         },
         {
           "speaker": "Taniya",
-          "line": "Haan, poore nau ghante office mein. Subah ki ek baat bhi abhi pending hai."
-        },
-        {
-          "speaker": "Soniya",
-          "line": "Theek hai. Pehle paani le lo, phir baat karte hain."
+          "line": "Audit ko holiday nahi milta, didi."
         }
       ],
-      "turn": "Final sister exchange is conditional until valid office exit and commute are established.",
-      "status": "ASSISTANT_PROPOSAL_FOR_AUTHOR_REVIEW"
+      "status": "AUTHOR_REQUESTED_UI_SAVE__PLOT_FOR_REVIEW"
     }
   ],
   "authorLocks": [
-    "Absolutely NO on-page Soniya until the final doorway beat when Taniya actually arrives home at 17:09. No Soniya calls/texts, intercuts, earlier reactions or reader-only scenes in this proposed plot.",
-    "13:15 EP02 work cutoff is preserved; no overwrite of morning TS01–TS16 or unpublished plan details.",
-    "Karan/Aman are actual twins, NOT Raghav/Chirag. They are separately established with Shreya until 15:05 and Ankita 17:23–17:50. Do not reveal Shreya's private wardrobe incident to Taniya or invent earlier twins meeting.",
-    "The office duo Raghav/Chirag must earn attention through work; Punit's contribution is not a staged private touch.",
-    "Guddu and Punit are distinct young adult role analogues, neither canonically named Chotu; society Chintu is Shreya's distinct helper.",
-    "Subhash socially acts as Aditya's elder, but is not his father or Taniya's actual future FIL; morning privacy violations or theft remain reader-only/planning-status and cannot be revealed by Taniya without an event.",
-    "Avoid auto-inserting Mahendra because he has separate Shreya and Shivani plot commitments; keep him available for Shivani 17:45.",
-    "Office senior figures do not initiate pressured intimacy. Any later mature-romance progression must come from earned trust, separate chosen action and valid physical context, not routine professional authority.",
-    "No random falls, outfit slips, surveillance, stolen items, manufactured mystery or repetitive accidental-touch structure; the drama is professionally and emotionally grounded.",
-    "Do not present the plot as approved or finished prose; user may revise characters, dates, garments or beats first.",
-    "Keep Karan/Aman 17:23 Ankita pickup, Shreya college through 15:05, and known other leads intact; move T03-09 to later date if no genuine free window.",
-    "USER CONFIRMED: Taniya works full NINE-HOUR office shift 10:30–19:30 on Jan 1. Do not shorten it or show society arrival before commute.",
-    "No auto-confirmed evening Karan/Aman, Guddu or Subhash encounter: availability after 20:05 must be grounded. T03-09–11 conditional.",
-    "Taniya EP03 physical audit: no actual male body contact is currently in draft. Raghav close workstation proximity does not equal touch; all other proposed male scenes are no-touch until author discussion."
+    "Author directed UI save of the reviewed full-episode PLOT, not prose approval; original EP02 prose and old plan remain untouched.",
+    "EP03 officially begins at 10:50 AM inside the 10:30–19:30 nine-hour shift; deferred TS12/13/14/16 form Phase A. TS15 remains Soniya-at-home background, not office.",
+    "Never invent Taniya/Raghav kiss, romantic pose or confession now; physical contact is short practical clothed-waist stabilization and reflex shirt grip only.",
+    "Four main office colleagues Raghav/Chirag and Neha/Andrea are familiar paired DUOS, not biological twins; the group stays mostly together.",
+    "Andrea is author-selected new Indian female colleague, not a foreigner or an alias of Riya; age and specific wardrobe remain provisional.",
+    "Andrea-to-Chirag one brief voluntary celebratory CHEEK PECK is the only new kiss, and it does not establish romance/couple status; Taniya sees but does not join.",
+    "Punit is office CHOTU-like junior; major personal interaction reserved NEXT DAY.",
+    "Vivek Suri (55) UNCLE private sexual attraction is author accepted, reader-only. Do not confuse with society gym Vivek Rao (30). No advance or Taniya knowledge.",
+    "Riya, Megha, Saloni stay backend/supporting; no new private encounters without later author direction.",
+    "Second near-office rental remains active from Taniya's earlier late work. Some trusted colleagues may use with her permission and their partners, some extramarital. Do not invent which named colleague has an affair.",
+    "Taniya's EP02 source wardrobe remains sky-blue shirt/charcoal trousers; do not change it.",
+    "Office ends at 7:30 PM, society only after commute, Karan/Aman actual twins only if plausible after other leads, Soniya first appears at final doorway.",
+    "Plot only, no graphic prose, no forced repetitive accidental-contact ladder, no romance added by inference."
   ],
   "selectedWorkStyle": "Dialogue-rich Hinglish, event-first scenes, narrator notes that reflect atmosphere and clothing continuity without gratuitous anatomy or repeated visual clichés.",
-  "ending": "Soniya appears at the doorway only after Taniya's real office day and commute; time is NOT yet defined.",
+  "ending": "After 19:30 shift Taniya chooses Soniya's society home rather than the still-active near-office rental. Possible short Karan/Aman gym callback if naturally available, then Soniya at the door. Reader holds only one practical Taniya/Raghav support touch, Andrea/Chirag playful cheek peck, the four-colleague chemistry, Punit next-day setup and Vivek Suri's hidden unacted attraction.",
   "timeIntegrity": {
     "asOf": "2026-11-17",
-    "verifiedStart": "USER CONFIRMED: office nine-hour shift starts at prior working-plan 10:30 AM; end 19:30.",
-    "verifiedCutoff": "13:15 Jan 1, Taniya still working at CA office.",
-    "officeEnd": "19:30 (7:30 PM), derived from user-confirmed nine-hour shift starting 10:30",
-    "commuteAfterWork": "Begin after 19:30; morning plan used 35 min; allow ~35–50 min in evening as non-canon planning estimate",
-    "societyArrival": "Potentially ~20:05–20:20, NOT LOCKED without precise commute",
-    "soniyaFirstAppearance": "After 19:30 + actual journey + any viable society stops; no earlier appearance or correspondence",
-    "supersededDraft": [
-      {
-        "id": "T03-01",
-        "time": "13:15–13:30"
-      },
-      {
-        "id": "T03-02",
-        "time": "13:30–14:00"
-      },
-      {
-        "id": "T03-03",
-        "time": "14:00–14:20"
-      },
-      {
-        "id": "T03-04",
-        "time": "14:20–14:50"
-      },
-      {
-        "id": "T03-05",
-        "time": "14:50–15:15"
-      },
-      {
-        "id": "T03-06",
-        "time": "15:15–15:50"
-      },
-      {
-        "id": "T03-07",
-        "time": "15:50–16:05"
-      },
-      {
-        "id": "T03-08",
-        "time": "16:05–16:42"
-      },
-      {
-        "id": "T03-09",
-        "time": "16:42–16:51"
-      },
-      {
-        "id": "T03-10",
-        "time": "16:51–17:00"
-      },
-      {
-        "id": "T03-11",
-        "time": "17:00–17:09"
-      },
-      {
-        "id": "T03-12",
-        "time": "17:09–17:12"
-      }
-    ],
-    "consequence": "Working afternoon 13:15–19:30; office T03-01..07 timed as provisional workflow blocks. T03-08 after 19:30. T03-09 actual twin crossover is UNCONFIRMED at later evening; Ankita pickup concluded ~17:50 but no guaranteed whereabouts after. Guddu/Subhash society beats can occur only if they have credible evening duties/presence. Soniya first appears only at home."
+    "verifiedStart": "EP03 starts 10:50 AM within an established office shift that began at 10:30 AM",
+    "verifiedCutoff": "13:15 is Phase A end (transferred TS16), NOT the new EP03 start",
+    "officeEnd": "19:30 (7:30 PM) confirmed nine-hour office shift",
+    "commuteAfterWork": "Start after 19:30; approximate 35–50 minutes only",
+    "societyArrival": "Possible ~20:05–20:20 but NOT LOCKED",
+    "soniyaFirstAppearance": "After commute at final T03-12 home entry, not before",
+    "consequence": "Earlier assistant's 13:15 EP03 start, early 16:05 exit, and 17:09 home time are superseded. Original EP02 published morning prose and planning files untouched."
   },
   "plotPhases": [
     {
-      "key": "office",
+      "key": "A — TRANSFERRED EP02 OFFICE",
       "beatIds": [
         "T03-01",
         "T03-02",
         "T03-03",
-        "T03-04",
+        "T03-04"
+      ],
+      "time": "10:50–13:15",
+      "state": "AUTHOR_DIRECTED_10:50_EP03_START",
+      "note": "Adapt TS12/TS13/TS14/TS16, originally deferred from EP02. TS15 was a Soniya-at-home background lane, not a Taniya office beat."
+    },
+    {
+      "key": "B — OFFICE AFTERNOON",
+      "beatIds": [
         "T03-05",
         "T03-06",
-        "T03-07"
+        "T03-07",
+        "T03-08",
+        "T03-09"
       ],
-      "time": "13:15–19:30 (user-confirmed 10:30–19:30 office day)",
-      "state": "SHIFT_LOCKED; internal scene minute blocks provisional"
+      "time": "13:15–19:30",
+      "state": "FULL_9_HOUR_SHIFT_END_19:30",
+      "note": "Andrea's playful cheek peck to Chirag is not Taniya romance. Her rented second flat remains active; Vivek fantasy stays reader-only."
     },
     {
-      "key": "departure",
+      "key": "C — AFTER WORK",
       "beatIds": [
-        "T03-08"
-      ],
-      "time": "19:30 onward; travel approximately 35–50 minutes (estimate)",
-      "state": "DEPARTURE_AT_19:30; arrival estimate only"
-    },
-    {
-      "key": "society",
-      "beatIds": [
-        "T03-09",
         "T03-10",
-        "T03-11"
-      ],
-      "time": "Not before ~20:05; exact encounter times not locked",
-      "state": "ENCOUNTERS_CONDITIONAL",
-      "note": "Real twins' post-Ankita whereabouts unknown; society helper's shift and elder's whereabouts must be believable; do not wait in lobby solely for Taniya."
-    },
-    {
-      "key": "home",
-      "beatIds": [
+        "T03-11",
         "T03-12"
       ],
-      "time": "Only after actual travel and any society stops; not locked",
-      "state": "ENTRY_DEPENDENT_ON_REAL_ARRIVAL",
-      "note": "Soniya first appears at door; no parallel scenes."
+      "time": "19:30 onward; travel approx 35–50 minutes (estimate)",
+      "state": "SOCIETY_TWINS_CONDITIONAL__SONIYA_AT_HOME_ONLY",
+      "note": "Taniya chooses Soniya's flat rather than the near-office rental. No fixed arrival timestamp."
     }
   ],
   "interactionAudit": {
-    "status": "EXISTING_DRAFT_AUDITED_NO_ADDED_PHYSICAL_TOUCH",
+    "status": "AUTHOR_REQUESTED_UI_SAVE__ONE_TANIYA_SUPPORT_TOUCH_AND_ONE_COLLEAGUE_CHEEK_PECK",
     "officeWomen": [
       {
         "name": "Neha",
         "age": 22,
-        "role": "Articled assistant",
-        "status": "Appears T03-01; provides source exports"
+        "role": "FEMALE DUO · articled assistant",
+        "status": "Active T03-01/02/04/05/06/07/09; adult teasing, group photo, laughs at celebratory kiss. No new intimate touch."
+      },
+      {
+        "name": "Andrea",
+        "age": null,
+        "role": "FEMALE DUO · proposed Indian colleague",
+        "status": "Active T03-01/02/04/05/06/07/09; bold jokes, group photo, one brief consensual cheek peck with Chirag in T03-06. Age and exact outfit provisional."
       },
       {
         "name": "Riya",
         "age": 23,
-        "role": "Audit associate",
-        "status": "Established in EP02 TS12/TS14; currently NOT present in detailed EP03 beats"
+        "role": "BACKEND · audit associate",
+        "status": "Retained in old EP02 roster; no active EP03 encounter."
       },
       {
         "name": "Megha",
         "age": 28,
-        "role": "Tax manager",
-        "status": "Brief appearance in T03-05, no dedicated spoken line"
+        "role": "BACKEND · tax manager",
+        "status": "Retained; no active EP03 encounter."
       },
       {
         "name": "Saloni",
         "age": 26,
-        "role": "HR / people ops",
-        "status": "Established EP02 TS14; currently NOT present in detailed EP03 beats"
+        "role": "BACKEND · HR",
+        "status": "Optional one-line flat logistics message only; no personal affair assigned."
       }
     ],
     "males": [
       {
-        "name": "Raghav",
+        "name": "Raghav (MALE DUO)",
         "age": 24,
         "beatIds": [
-          "T03-02",
-          "T03-04",
-          "T03-06"
+          "T03-02"
         ],
-        "physical": "No touch. One side-by-side screen handover with reduced distance; Taniya adjusts chair.",
-        "relationship": "Work banter with possible mutual chemistry, no confirmed intimacy."
+        "physical": "Brief accident: catches Taniya by CLOTHED WAIST while steadying drawer; Taniya grips his shirt; both immediately release. NO kiss.",
+        "relationship": "Familiar joking; brief pause and return to work, no romance."
       },
       {
-        "name": "Chirag",
+        "name": "Chirag (MALE DUO)",
         "age": 24,
         "beatIds": [
-          "T03-02",
-          "T03-03",
           "T03-06"
         ],
-        "physical": "No touch. Shared desk/screens and handing/pointing at documents.",
-        "relationship": "Quiet, detail-focused office partner; possible one-sided admiration."
+        "physical": "Andrea gives him ONE quick consensual cheek peck; not a Taniya kiss.",
+        "relationship": "Quiet colleague, surprised/amused; no couple announcement."
       },
       {
-        "name": "Punit",
+        "name": "Punit (CHOTU)",
         "age": 22,
         "beatIds": [
-          "T03-03",
-          "T03-06",
-          "T03-07"
+          "T03-04"
         ],
-        "physical": "No touch. Gives printed records/receipt and updates.",
-        "relationship": "Respectful helper/trainee with quiet one-sided crush from older plan."
+        "physical": "No touch beyond routine handovers; substantial personal encounter reserved next office day.",
+        "relationship": "Known junior trainee with quiet unacted admiration."
+      },
+      {
+        "name": "Vivek Suri (UNCLE)",
+        "age": 55,
+        "beatIds": [
+          "T03-03",
+          "T03-08"
+        ],
+        "physical": "NO body contact. Private fantasy hint: sexually attracted to engaged Taniya and imagines pre-wedding intimacy, but takes no action; Taniya unaware.",
+        "relationship": "Firm partner, reader-only attraction, not gym trainer Vivek Rao."
       },
       {
         "name": "Pradeep Khanna",
         "age": 48,
         "beatIds": [
-          "T03-04"
+          "T03-03",
+          "T03-08"
         ],
-        "physical": "None. Desk/case-file review only.",
-        "relationship": "Senior CA professional respect; no romantic advance."
-      },
-      {
-        "name": "Vivek Suri",
-        "age": 55,
-        "beatIds": [
-          "T03-05"
-        ],
-        "physical": "None. Partner review meeting.",
-        "relationship": "Firm partner/professional."
+        "physical": "No touch; professional reviewer.",
+        "relationship": "No new romantic role."
       },
       {
         "name": "Mr. Mehra",
         "age": 60,
         "beatIds": [
-          "T03-05"
+          "T03-03"
         ],
-        "physical": "Impossible in current scene: remote voice on team call.",
+        "physical": "Remote call, no touch.",
         "relationship": "Senior client advisor."
       },
       {
-        "name": "Karan & Aman",
+        "name": "Karan & Aman (actual society twins)",
         "age": 22,
-        "beatIds": [
-          "T03-09"
-        ],
-        "physical": "None written; meeting itself UNSCHEDULED after 19:30 shift.",
-        "relationship": "Actual twins; familiar with Taniya from morning gym TS05."
-      },
-      {
-        "name": "Guddu",
-        "age": 23,
-        "beatIds": [
-          "T03-10"
-        ],
-        "physical": "No body touch. Sealed envelope handed over only if evening desk shift is plausible.",
-        "relationship": "Society courier/helper, Chotu-type analogue."
-      },
-      {
-        "name": "Subhash",
-        "age": 59,
         "beatIds": [
           "T03-11"
         ],
-        "physical": "None. Wedding estimates discussed only if present for legitimate reason.",
-        "relationship": "Socially presented elder, not actual father or future FIL."
+        "physical": "No evening touch; crossover only if naturally present.",
+        "relationship": "Morning gym acquaintances; Kabir's brothers/Ankita's devars."
       }
     ],
-    "note": "No actual body-touch or explicit romantic progression from any male is present in the saved Taniya 12-beat draft. Small proximity is not contact. Do not conflate historic EP02 Soniya/Vivek or Karan/Aman gym moments with Taniya EP03 touch."
+    "femalePhysical": [
+      {
+        "pair": "Andrea → Chirag",
+        "beatId": "T03-06",
+        "contact": "Quick voluntary celebratory kiss on cheek; no further intimacy.",
+        "reaction": "Andrea playful; Chirag surprised and amused; Neha laughs; Raghav mock protests; Taniya smiles and redirects everyone to work."
+      },
+      {
+        "pair": "Andrea ↔ Raghav (group)",
+        "beatId": "T03-05",
+        "contact": "Andrea pulls Raghav into a casual group photo pose, ordinary colleague closeness.",
+        "reaction": "Group cheerful, Taniya takes photo."
+      },
+      {
+        "pair": "Neha ↔ colleagues",
+        "beatId": "T03-01/T03-06",
+        "contact": "No distinct intimate touch proposed.",
+        "reaction": "Neha leads banter, laughs at Andrea's celebratory kiss."
+      },
+      {
+        "pair": "Riya/Megha/Saloni",
+        "beatId": "BACKEND",
+        "contact": "No EP03 physical progression.",
+        "reaction": "Supporting roles only."
+      }
+    ],
+    "taniyaReaction": "T03-02: Taniya startles, catches breath, grips Raghav's shirt reflexively to steady herself; on release she returns to witty work focus, no romantic feeling inferred. T03-06: watches Andrea give Chirag a quick celebratory cheek kiss, is amused, tells group to work; no jealousy or intimacy with Taniya.",
+    "uncleFantasyHint": "Vivek Suri, aged 55 CA partner, privately finds engaged Taniya sexually attractive and imagines intimacy before her wedding. Only narrator/reader knows; Taniya neither knows nor reciprocates, and he takes no personal action.",
+    "note": "No Taniya kiss/affair/romantic milestone this episode. Precisely one brief practical Raghav-waist + Taniya-shirt contact and one unrelated playful Andrea/Chirag cheek peck."
   }
 }
