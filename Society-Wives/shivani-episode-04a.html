@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#181725">
+<title>Shivani Episode 04A — Canonical Plan & Google Doc</title>
+<style>body{margin:0;background:#191722;color:#f5f1f4;font:16px/1.65 system-ui,sans-serif}main{max-width:860px;margin:0 auto;padding:28px 20px 90px}a{color:#efc091}h1{line-height:1.18;font-size:clamp(1.8rem,4vw,3rem)}.intro{color:#d7cbd2}.card{border:1px solid #514455;border-radius:14px;background:#282331;padding:20px;margin:14px 0}.card h2{font-size:1.2rem;margin:0 0 8px}.tag{color:#efc091;text-transform:uppercase;letter-spacing:.06em;font-size:.8rem;font-weight:700}.button{display:inline-block;background:#edb48d;color:#211523;padding:11px 17px;border-radius:9px;font-weight:700;text-decoration:none}.muted{color:#bdaebd}ul{padding-left:24px}nav{margin-bottom:24px}nav a{margin-right:18px}</style></head>
+<body><main>
+<nav><a href="./#/planning?lead=shivani&scene=ep04a-shivani">Society Wives Planning</a><a href="./#/reading?episode=03&character=shivani&scene=01">EP03 Final</a></nav>
+<div class="tag">Society Wives · Shivani · canonical next-episode source</div>
+<h1>Episode 04A — Deepu, Kavya, Twins, Om & Rohan</h1>
+<p class="intro">This page uses only <strong>episode-04a-shivani-plan.json</strong>. The superseded January 1 N01–N08 night sketch is archived; it is not a second active timeline.</p>
+<p><a class="button" href="https://docs.google.com/document/d/1779t20ygHv8Q9PzJuH5u8SgxVcLHg9ZGm7cbmnXFs88/edit?usp=drivesdk" target="_blank" rel="noreferrer">Open Google Doc — शिवानी episode 4A</a></p>
+<p class="muted">Complete non-graphic working prose draft; 12 Grok visual handovers; author review pending.</p>
+<section id="scenes" aria-live="polite"><p>Loading seven-scene plan…</p></section>
+<footer class="muted">EP03 ended at 17:57; EP04A current working plan runs 18:35–23:15. Childhood scenes are household care only. All adults remain distinct. No future January 2 event is established.</footer>
+</main>
+<script>
+fetch("./episode-04a-shivani-plan.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("HTTP "+r.status);return r.json()}).then(data=>{
+const holder=document.getElementById("scenes");holder.replaceChildren();
+(data.scenes||[]).forEach(scene=>{
+const article=document.createElement("article");article.className="card";
+const title=document.createElement("h2");title.textContent="Scene "+scene.sceneNumber+" — "+scene.title;
+const clock=document.createElement("p");clock.className="muted";clock.textContent=scene.start+"–"+scene.end+" · "+scene.location+" · "+scene.status;
+const list=document.createElement("ul");
+(scene.beats||[]).forEach(beat=>{const li=document.createElement("li");const strong=document.createElement("strong");strong.textContent=beat.id+" · "+beat.title+": ";li.appendChild(strong);li.appendChild(document.createTextNode(beat.plot||""));list.appendChild(li)});
+article.append(title,clock,list);holder.appendChild(article);
+})
+}).catch(err=>{document.getElementById("scenes").textContent="Unable to load saved canonical plan: "+err.message})
+</script></body></html>
