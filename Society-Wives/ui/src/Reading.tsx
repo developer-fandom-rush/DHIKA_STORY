@@ -45,6 +45,7 @@ type Ep03Beat={id:string;title:string;status:string;parts:{raw:string;origin:str
 type Ep03Scene={id:string;title:string;date:string;time:string;place:string;status:string;source:string;format:'blocks'|'raw'|'lines'|'beats'|'revision'|'scene08-draft';blocks?:Ep03Block[];raw?:string;lines?:Ep03Line[];beats?:Ep03Beat[];addenda?:{id:string;raw:string;status:string}[]};
 type Ep03Data={episode:string;title:string;date:string;chapters:Record<string,Ep03Scene[]>};
 const storyTag=(status:string)=>{
+ if(status==='AUTHOR_APPROVED_FINAL_PROSE_PUBLISHED_2026_11_17')return 'Final · Author approved · Published';
  if(status==='AUTHOR_REVISED_PROSE_IN_UI_PENDING_OVERALL_APPROVAL')return 'Author revisions highlighted · review pending';
  if(status==='ASSISTANT_AUTHORED_FULL_SCENE08_DRAFT_PENDING_USER_REVIEW')return 'Scene 08 prose draft · user review pending';
  if(status==='USER_SUBMITTED_SCENE05_PROSE_UPLOADED_UNEDITED_EXCEPT_ARRIVAL')return 'Author version · five beats with venue arrival';
