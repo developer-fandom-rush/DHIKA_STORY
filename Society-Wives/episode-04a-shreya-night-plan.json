@@ -1,0 +1,268 @@
+{
+  "schemaVersion": 1,
+  "id": "SW-EP04A-SHREYA-CHINTU-ARVIND-NIGHT",
+  "series": "Society Wives — Five Veils of Desire",
+  "lead": "shreya",
+  "date": "2026-01-01",
+  "episode": "04",
+  "part": "A",
+  "timezone": "Asia/Kolkata",
+  "status": "AUTHOR_DIRECTION_RECONCILED__PLOT_FOR_REVIEW__NOT_PROSE",
+  "title": "Shreya — The Door Latch, Arvind's Surprise and Vikram's Night",
+  "canon": {
+    "handoff": "EP03 Shreya S03-08 ends 17:45 at Gulmohar Heights security desk, Chintu shown original register mismatch; home scene previously ON HOLD.",
+    "wardrobe": "After station training at 16:05 Shreya switched back into correctly buttoned khaki police uniform; two upper buttons can be loosened ONLY AFTER her 17:45 desk exit and BEFORE the new house latch accident; latch then damages two adjacent lower buttons. Her tight, pressed shirt remains partly held in place, so she does not notice the damage until her private room.",
+    "chintu": "Society helper Chintu (23) is already known from Prologue and EP03 and is DISTINCT from police-station chai Chotu, whose first station tea-counter interaction was 11:12–11:25.",
+    "arvind": "Arvind (65) is an unrelated elder called Uncle, not actual father-in-law. His earlier private fixation is already shown in EP02 SR08 involving SHREYA's own red gym garments (NOT Ankita's clothes); Shreya does not know about that reader-only event.",
+    "morning": "Episode02 Shreya's mutually welcomed kiss was with gym trainer Vivek Rao, NOT Ankita's office Vivan. Samar–Shaan fitness contacts and prior gym/college encounters are part of Shreya's personal memories, but hidden male thoughts are not.",
+    "family": "Vikram (36) husband, Anaya (~20 months) daughter; Sameer (24) devar and Shruti (23) younger sister exist, but their exact evening whereabouts were not established.",
+    "knowledge": "Chintu sees an unexpected wardrobe opening that Shreya learns about only in the mirror; Arvind's later private reaction is unknown to her; Vikram receives no detailed encounter confession.",
+    "day2": "Separate fresh Jan2 day for policing and potential check of Chintu's register; old Jan2 swinging service gate must no longer be called her first Chintu accident. No new encounter with Rajeev or guaranteed romantic follow-up on this date."
+  },
+  "cast": [
+    {
+      "name": "Shreya",
+      "age": 33,
+      "role": "Police inspector, married to Vikram"
+    },
+    {
+      "name": "Chintu",
+      "age": 23,
+      "role": "Gulmohar Heights society-security helper"
+    },
+    {
+      "name": "Arvind",
+      "age": 65,
+      "role": "Unrelated elder household associate called Uncle"
+    },
+    {
+      "name": "Anaya",
+      "age": 1.7,
+      "role": "Shreya and Vikram's daughter; family care only"
+    },
+    {
+      "name": "Vikram",
+      "age": 36,
+      "role": "Shreya's husband"
+    },
+    {
+      "name": "Sameer",
+      "age": 24,
+      "role": "Shreya's adult devar; unspecified evening whereabouts"
+    },
+    {
+      "name": "Shruti",
+      "age": 23,
+      "role": "Shreya's younger sister; unspecified evening whereabouts"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "SHR04A-S01",
+      "number": "01",
+      "start": "17:45",
+      "end": "18:07",
+      "title": "Chintu — The Latch and the Loose Uniform Buttons",
+      "location": "Gulmohar Heights · Rathore flat entrance",
+      "beats": [
+        {
+          "id": "SC01",
+          "time": "17:45–17:52",
+          "title": "Directly home from register desk",
+          "plot": "After EP03 Chintu register work, Shreya walks directly to her tower. Tired from duty and a long day, she loosens the two top buttons of her tightly pressed khaki shirt while in her private apartment corridor. No retroactive unbuttoning at the 17:45 register desk.",
+          "reaction": "Morning and evening encounters still occupy her thoughts; she expects an ordinary home return."
+        },
+        {
+          "id": "SC02",
+          "time": "17:52–17:56",
+          "title": "The stuck latch",
+          "plot": "Her apartment door's latch resists turning. She asks Chintu from the society desk to inspect the jam because he assists with operations; he comes to the entrance with the small latch key, without entering a private room. Their known EP03 familiarity is acknowledged, not reintroduced.",
+          "physical": "Door hardware and badge/lanyard in close proximity."
+        },
+        {
+          "id": "SC03",
+          "time": "17:56–17:59",
+          "title": "Two more buttons fail on impact",
+          "plot": "When the latch releases unexpectedly, Shreya's clipped uniform ID tab and the shirt-front placket catch against the open latch assembly. The sharp backward pull breaks two neighboring shirt buttons below the two she had loosened. Chintu steadies the door and they separate; her pressed uniform stays close enough against her to conceal from her that the buttons are now missing.",
+          "physical": "Clothed door-latch accident, shirt-front button damage and brief proximity; no deliberate touching or graphic anatomy.",
+          "sightline": "The entrance is partly shielded by the open door, with no invented spectators.",
+          "reaction": "Chintu glimpses the sudden wardrobe gap and looks visibly startled. He does not prolong looking, tease, or disclose details. Shreya is busy with the stuck badge and does not notice his exact sightline."
+        },
+        {
+          "id": "SC04",
+          "time": "17:59–18:07",
+          "title": "Chintu's quiet goodbye; Shreya notices inside",
+          "plot": "Chintu confirms the latch works, quietly says goodbye and leaves. Shreya notices his unusually stunned expression, but assumes the latch gave him trouble. In her bedroom mirror she discovers the upper two buttons loose and two more missing below; she realizes with sudden embarrassment that Chintu probably saw more of her shirt opening than she intended, though neither she nor the narrator can quantify exactly what he saw.",
+          "reaction": "Her earlier relief at reaching home turns into self-conscious surprise. No new dialogue teasing between Chintu and Shreya.",
+          "dialogue": [
+            {
+              "speaker": "Chintu",
+              "line": "Ab latch theek hai, madam. Goodnight."
+            },
+            {
+              "speaker": "Shreya",
+              "line": "Thanks, Chintu. Goodnight."
+            }
+          ]
+        }
+      ],
+      "status": "AUTHOR-DIRECTED_NEW_SCENE_FOR_REVIEW_NOT_APPROVED_PROSE"
+    },
+    {
+      "id": "SHR04A-S02",
+      "number": "02",
+      "start": "18:07",
+      "end": "18:36",
+      "title": "Home, Anaya and the interrupted shower",
+      "location": "Rathore flat · Shreya's bedroom and attached bathroom",
+      "beats": [
+        {
+          "id": "SC05",
+          "time": "18:07–18:15",
+          "title": "Household placement, uniform off",
+          "plot": "Shreya enters home and glimpses Arvind occupied with Anaya in her separate family-care area. She is focused on the uniform damage and slips into her own attached bathroom without announcing a return; Arvind has not realized she is home. The young child remains safely in her own room under family care; do not make her a witness to adult privacy or later intimacy."
+        },
+        {
+          "id": "SC06",
+          "time": "18:15–18:29",
+          "title": "Shower and private recollection",
+          "plot": "Shreya changes out of her uniform, starts a shower, and privately recalls the emotionally charged morning gym kiss with Vivek Rao and other surprising moments of the day. She is alone and still affected by what she felt, without any on-page graphic sexual act or anatomically descriptive staging.",
+          "knowledge": "Only Shreya's own lived events appear in this recollection. Arvind's earlier unilateral feelings are unknown to her."
+        },
+        {
+          "id": "SC07",
+          "time": "18:29–18:32",
+          "title": "Arvind enters by mistake; both freeze",
+          "plot": "Arvind hears the water, incorrectly assumes the bathroom is unattended/needs checking and opens the door without calling out. Shreya turns and both are shocked by the sudden intrusion. The stunned pause feels prolonged to her; for roughly half a minute neither moves normally. No new person enters; no nudity is graphically described. As Shreya begins to cry, Arvind immediately moves to provide a nearby shawl, allowing her to cover herself.",
+          "sightline": "One private, unexpected bathroom-door encounter; no third-party spectator, recording or exposure to the child.",
+          "reaction": "Shreya is embarrassed and distressed. Arvind stops in shock, then shifts to concern on seeing her tears. His internal reaction is not presented to Shreya as mutual attraction."
+        },
+        {
+          "id": "SC08",
+          "time": "18:32–18:36",
+          "title": "Cover, comfort and distance",
+          "plot": "The situation ends when Shreya takes the shawl and asks for space. Arvind apologizes, says gently 'It's okay, beta, tum safe ho,' and leaves so she can regain privacy. Her distress is acknowledged rather than turned into banter. He does not tell anyone about the incident.",
+          "physical": "Shawl provided; no intimate touching, inspection or new prolonged closeness.",
+          "dialogue": [
+            {
+              "speaker": "Arvind",
+              "line": "Shreya, sorry beta. Mujhe pehle knock karna chahiye tha. Tum araam se fresh ho jao."
+            },
+            {
+              "speaker": "Shreya",
+              "line": "Bas, Uncle... mujhe thoda waqt chahiye."
+            }
+          ]
+        }
+      ],
+      "status": "AUTHOR-DIRECTED_NEW_SCENE_FOR_REVIEW_NOT_APPROVED_PROSE"
+    },
+    {
+      "id": "SHR04A-S03",
+      "number": "03",
+      "start": "18:36",
+      "end": "20:50",
+      "title": "Arvind's tea, household distance, Vikram's return",
+      "location": "Rathore household · living area, kitchen, family room",
+      "beats": [
+        {
+          "id": "SC09",
+          "time": "18:36–19:10",
+          "title": "Care without a second encounter",
+          "plot": "After Shreya is dressed, Arvind makes her tea or coffee and leaves it nearby, checking quietly whether she is okay. She takes some time to calm down. They have a short, compassionate exchange, then he gives her room and attends to ordinary family duties. This reinforces his household-care role without fabricating instant unquestioning trust.",
+          "reaction": "Shreya is unsettled but feels the immediate awkwardness has been handled gently."
+        },
+        {
+          "id": "SC10",
+          "time": "19:10–19:45",
+          "title": "A private, separate Arvind reaction",
+          "plot": "Arvind withdraws alone. The story already established his private attraction in EP02 SR08; this new sighting unsettles him further. Any private sexual release or fantasy is acknowledged only as off-page, with no act described, no invented Shreya participation and no claim she knows. The author may defer its narrative reveal if preserving suspense.",
+          "knowledge": "Reader-only Arvind thought track. No mutuality, no confirmation that Shreya welcomes the sighting."
+        },
+        {
+          "id": "SC11",
+          "time": "19:45–20:50",
+          "title": "Anaya, husband and other family positions",
+          "plot": "Shreya returns to normal family care with Anaya. Vikram's late-evening arrival from his own work is a new proposed placement around 20:40–20:50, not confirmed by older source. Sameer and Shruti have no verified evening whereabouts; keep them unplaced or briefly off-stage rather than claiming either witnessed anything. No duplicate Rajeev encounter.",
+          "reaction": "Shreya chooses not to tell Vikram the bathroom incident during this new night draft."
+        }
+      ],
+      "status": "AUTHOR-DIRECTED_NEW_SCENE_FOR_REVIEW_NOT_APPROVED_PROSE"
+    },
+    {
+      "id": "SHR04A-S04",
+      "number": "04",
+      "start": "20:50",
+      "end": "23:15",
+      "title": "The day in Shreya's mind; Vikram and a fade to black",
+      "location": "Rathore household · couple's private bedroom",
+      "beats": [
+        {
+          "id": "SC12",
+          "time": "20:50–21:25",
+          "title": "Normal married evening",
+          "plot": "Vikram returns and greets Shreya and their daughter. Shreya talks generally about the long day, the office and Anaya; private reactions to Vivek, Samar–Shaan, Chintu and the bathroom stay in her own mind. She does not deliver a detailed inventory of male encounters to her husband."
+        },
+        {
+          "id": "SC13",
+          "time": "21:25–22:00",
+          "title": "Day-recall without hidden information",
+          "plot": "Shreya privately revisits the Vivek kiss, Rajeev's earlier teasing, her college interactions, the training ground, the Samar–Shaan challenge, the Chintu uniform accident, and Arvind's surprise appearance. Her responses are mixed—excitement, embarrassment and the surprise of finding herself emotionally stirred. She does not know Arvind's fantasies or private actions. Her adult emotions remain her own, not a blanket judgment about another person's intentions."
+        },
+        {
+          "id": "SC14",
+          "time": "22:00–22:35",
+          "title": "A mutually eager husband-wife night",
+          "plot": "After Anaya has been cared for and settled in her own room, Shreya takes the initiative to be close to Vikram. Vikram notices that she seems unusually emotionally intense tonight and responds affectionately; they share satisfying, consensual married intimacy. A moment of involuntary, fleeting memory may make her pause, but it is not a staged explicit fantasy; she returns her attention to her husband. Their intimacy is acknowledged, not anatomically narrated.",
+          "fadeToBlack": true,
+          "dialogue": [
+            {
+              "speaker": "Vikram",
+              "line": "Aaj kuch alag lag rahi ho. Everything okay?"
+            },
+            {
+              "speaker": "Shreya",
+              "line": "Haan. Bas aaj tumhare paas rehna hai."
+            }
+          ]
+        },
+        {
+          "id": "SC15",
+          "time": "22:35–23:15",
+          "title": "Afterward: comfort, daughter and sleep",
+          "plot": "After the fade-to-black, Vikram and Shreya share affectionate, contented aftercare. Shreya tends to Anaya if she needs milk or settling, away from any intimate adult scene, then returns to sleep beside Vikram. By morning, the sharp embarrassment has eased but the unexpected nature of Jan1 stays as a quiet memory; do not make her retroactively ignorant of what happened."
+        }
+      ],
+      "status": "AUTHOR-DIRECTED_NEW_SCENE_FOR_REVIEW_NOT_APPROVED_PROSE",
+      "fadeToBlack": true,
+      "prosePreview": "Vikram ki aamad se ghar phir apni familiar rhythm mein aa gaya. Raat ko jab Anaya araam se so chuki thi, Shreya apne pati ke paas aayi. Din bhar ke ajeeb aur khoobsurat pal uske zehan mein the, lekin woh unki list Vikram ko sunaane nahi lagi.\n\nUsne khud uska haath thaama. Vikram ne uski aaj ki alag, bejhijhak nazdeeki notice ki aur usse utne hi pyaar se apne paas bula liya.\n\n*Fade to black.*\n\nBaad mein dono sukoon se saath baithe, ek-doosre ka khayal rakha aur pyaar se so gaye."
+    }
+  ],
+  "household": {
+    "shreya": "17:45 security desk exit; 17:52–18:07 apartment entry accident; home all night",
+    "chintu": "At apartment entrance for latch ~17:52–18:07 only; returns to security desk thereafter; no later private room entry",
+    "arvind": "At home with Anaya ~18:07; one mistaken doorway encounter ~18:29; makes tea and leaves Shreya space, then own room; prior fixation already established",
+    "anaya": "Safe family care while Shreya freshens up, later with Shreya/Vikram for normal childcare; never present for adult intimacy",
+    "vikram": "Working/away early evening (proposed); arrives home ~20:40–20:50 (proposed); home all night",
+    "sameer": "24-year-old devar; exact Jan1 evening location remains unverified; no invented presence at the bathroom event",
+    "shruti": "23-year-old younger sister; exact Jan1 evening location remains unverified; no invented presence at the bathroom event"
+  },
+  "day2Hooks": [
+    "January 2 begins as a normal workday; check uniform button repair/replacement, no magical self-repair",
+    "Chintu may follow up on latch and unchanged visitor-register entries, but the old Jan2 swinging-gate setup cannot be called first Chintu accident",
+    "Police station tea-counter Chotu has separate Jan2 kettle scenario; do not merge",
+    "Samar and Shaan coffee/balance wagers remain unresolved; do not force a Jan2 date",
+    "No new Rajeev encounter just because the day had contained a morning reference"
+  ],
+  "approvalRules": [
+    "This file adds only Episode 04A after the 17:45 EP03 cutoff; no EP03 reader prose is modified.",
+    "Shreya's two top buttons are loosened only AFTER the existing properly buttoned uniform in 17:45 EP03.",
+    "Do not convert Chintu's surprise into visual banter or an explicit flash scene; uncertainty about exactly what was visible is intentional.",
+    "Arvind's entry is accidental in staging; Shreya's distress and his practical assistance are explicit. The intimate nature of a bathroom is handled without graphic voyeuristic description.",
+    "Arvind's sexual interest is reader-only and was established earlier in EP02 SR08; do not falsely label this its first discovery or assign it to Ankita's clothing.",
+    "Vikram and Shreya's marital intimacy can be acknowledged as intense and mutually enjoyable but is fade-to-black; no anatomically descriptive sex or explicit moans.",
+    "Anaya is never framed within adult intimacy or as observing the bathroom incident.",
+    "Sameer and Shruti's unknown schedules stay openly unresolved until user supplies them.",
+    "No author approval of prose is inferred from scene planning; all time assignments beyond EP03 17:45 are draft."
+  ]
+}
