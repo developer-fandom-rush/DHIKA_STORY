@@ -609,7 +609,7 @@
       "id": "S03-06",
       "time": "16:05–17:05",
       "type": "bridge",
-      "status": "AUTHOR_SELECTED_SHORT_TRANSITION_PLOT_PROSE_PENDING",
+      "status": "FULL_TWO_LINE_PROSE_GROK_REVIEW_SYNCED_TO_EP03_READER_PENDING_AUTHOR_APPROVAL",
       "title": "Police closeout and return to Gulmohar Heights — short transition",
       "place": "Station files → Gulmohar Heights",
       "characters": [
@@ -624,13 +624,20 @@
         "distinctEvent": "After 15:40–16:05 approved training-ground drill, Shreya signs out the training checklist, winds down station work until ~16:35, and drives home by ~17:05. She chooses to keep the navy dry-fit training T-shirt, black trousers and ponytail from Beat 10, rather than inventing a second wardrobe change; her police uniform is already stored. One concise transition, not a separate intimacy or extra officer encounter.",
         "reason": "Earlier draft kept navy training outfit; later author-selected Bridge full prose explicitly switches to khaki uniform after 4:05 PM. Archived, not active."
       },
-      "prosePendingWardrobeLock": "ARRIVES_SOCIETY_IN_KHAKI_AFTER_BEAT10_RETURN_TO_DUTY_UNIFORM"
+      "prosePendingWardrobeLock": "ARRIVES_SOCIETY_IN_KHAKI_AFTER_BEAT10_RETURN_TO_DUTY_UNIFORM",
+      "previousPlotStatus": "AUTHOR_SELECTED_SHORT_TRANSITION_PLOT_PROSE_PENDING",
+      "proseLocation": {
+        "source": "episode-03-reader.json",
+        "sceneId": "S03-06",
+        "bridgeDoc": "1BylQpAUt-o7_X3AIfoGn6Vb9jRE2TfmY6yJUSuXB6WE",
+        "notFinal": true
+      }
     },
     {
       "id": "S03-07",
       "time": "17:10–17:33",
       "type": "new",
-      "status": "AUTHOR_SELECTED_PHYSICAL_ESCALATION_DIRECTION__BEAT_PROSE_DRAFT_FOR_REVIEW",
+      "status": "FULL_SAMAR_SHAAN_GROK_G01_G02_G03_SYNCED_TO_EP03_READER_PENDING_AUTHOR_APPROVAL",
       "title": "Samar & Shaan — two familiar bets, two unexpected moments of contact",
       "place": "Gulmohar Heights society fitness courtyard — New Year sports activity setup",
       "characters": [
@@ -815,13 +822,20 @@
         "wardrobeContinuity": "Shreya continues in the navy fitted training T-shirt, black training trousers and ponytail from station Beat 10. Clothing lies naturally over her athletic movement, without a new exposure. Samar and Shaan wear ordinary sports volunteer exercise clothes and sneakers; exact colors are still open.",
         "firstPlot": "As sports volunteers, both twins are preparing the New Year society activity: Samar tests the partner-resistance bands, Shaan marks the low balance strip and checks safe clearance. After the police duty drive, Shreya walks by in the same navy training tee and black trousers, recognizes their familiar workout voices, and voluntarily stops for a quick look.",
         "reason": "Previous navy carryover contradicted current author-requested Beat10 duty-uniform change."
+      },
+      "previousPlotStatus": "AUTHOR_SELECTED_PHYSICAL_ESCALATION_DIRECTION__BEAT_PROSE_DRAFT_FOR_REVIEW",
+      "proseLocation": {
+        "source": "episode-03-reader.json",
+        "sceneId": "S03-07",
+        "bridgeDoc": "1BylQpAUt-o7_X3AIfoGn6Vb9jRE2TfmY6yJUSuXB6WE",
+        "notFinal": true
       }
     },
     {
       "id": "S03-08",
       "time": "17:35–17:45",
       "type": "new",
-      "status": "AUTHOR_SELECTED_CHINTU_CONTINUATION__BEAT_DIALOGUE_DRAFT_FOR_REVIEW",
+      "status": "FULL_CHINTU_PROSE_GROK_NO_INSERT_SYNCED_TO_EP03_READER_PENDING_AUTHOR_APPROVAL",
       "title": "Chintu — the returned register and a familiar reply",
       "place": "Gulmohar Heights society security and visitor-register desk",
       "characters": [
@@ -891,7 +905,14 @@
         }
       ],
       "dialogue": [],
-      "styleLock": "Continuity connection to Prologue S05 and Episode02 SR04; short 3-beat practical exchange with original register intact, subtle character warmth, no touch or attraction mandate, no repetition of station Chotu strong-chai encounter."
+      "styleLock": "Continuity connection to Prologue S05 and Episode02 SR04; short 3-beat practical exchange with original register intact, subtle character warmth, no touch or attraction mandate, no repetition of station Chotu strong-chai encounter.",
+      "previousPlotStatus": "AUTHOR_SELECTED_CHINTU_CONTINUATION__BEAT_DIALOGUE_DRAFT_FOR_REVIEW",
+      "proseLocation": {
+        "source": "episode-03-reader.json",
+        "sceneId": "S03-08",
+        "bridgeDoc": "1BylQpAUt-o7_X3AIfoGn6Vb9jRE2TfmY6yJUSuXB6WE",
+        "notFinal": true
+      }
     }
   ],
   "editorial": {
@@ -1034,21 +1055,21 @@
       "id": "S03-06",
       "kind": "bridge",
       "title": "Police closeout & society return",
-      "label": "Short transition · draft"
+      "label": "Complete Grok-synced prose in Story Reader · author review pending"
     },
     {
       "number": 12,
       "id": "S03-07",
       "kind": "active",
       "title": "Samar & Shaan — two familiar bets, two unexpected moments of contact",
-      "label": "Physical progression · writing draft for review"
+      "label": "Complete Grok-synced prose in Story Reader · author review pending"
     },
     {
       "number": 13,
       "id": "S03-08",
       "kind": "active",
       "title": "Chintu — the returned register and a familiar reply",
-      "label": "Existing Chintu continuation · draft"
+      "label": "Complete Grok-synced prose in Story Reader · author review pending"
     },
     {
       "number": 14,
@@ -1125,5 +1146,24 @@
     "episode": "04",
     "status": "MOVED_FROM_EP03_BEAT05_FUTURE_ONLY_UNSCHEDULED",
     "note": "Original Beat 05 moved to separate EP04 future section, without renumbering EP03 Beat 06 or other beats. The actors are professional trainers, not actual inmates; females unaware of the male-side testing setup."
+  },
+  "shreyaEndpackSync20261117": {
+    "status": "COMPLETE_DRAFT_READER_SYNC_PENDING_AUTHOR_REVIEW",
+    "sourceDocument": "Bridge",
+    "sourceTabs": [
+      "t.h725t0tsjqm6",
+      "t.yunfgtxma4bk",
+      "t.76dyw9yi6dm"
+    ],
+    "preservationRule": "Never reinterpret future relationship plans as existing canon",
+    "grokNotes": {
+      "SH11_G01": "Two-line memory retains same meaning; no duplicated extra paragraph",
+      "SH12_G01": "Wardrobe/outfit context already in scene, no duplication",
+      "SH12_G02": "Actual Grok mechanics incorporated once, replaces shorter prior support description",
+      "SH12_G03": "Character aftermath already in prose, no duplicated reactions",
+      "SH13": "No insert as per Grok"
+    },
+    "end": "Shreya active EP03 lane closed at 17:45; S03-09 home/family ON HOLD",
+    "authorApproval": "PENDING"
   }
 }
