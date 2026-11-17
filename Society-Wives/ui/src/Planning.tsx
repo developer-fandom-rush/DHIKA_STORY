@@ -18,9 +18,13 @@ type ShreyaBeats0709Draft={title:string;date:string;status:string;sourcePlan:str
 type ShreyaEpisode04Future={title:string;episodeDate:string|null;planningStatus:string;dependency:string;futurePlots:{id:string;title:string;status:string;cast:{id:string;trainingRole:string;age:number;ageStatus:string}[];identityReveal:{truth:string;maleAwareness:string;femaleAwareness:string;readerAwareness:string};purpose:string;preservedArc:string;futureAttraction:string;episode04Continuity:string;scheduling:string}[];authorLocks:string[]};
 type ShivaniStaffroomPlot={scene:string;status:string;date:string;start:string;end:string;location:string;purpose:string;wardrobeStatus:string;wardrobe:{name:string;age:number;role:string;outfit:string;narratorView:string;referenceColor:string}[];imageReference:{origin:string;status:string;use:string};beats:{id:string;time:string;title:string;focus:string;action:string;narrator?:string;dialogue?:{speaker:string;line:string}[];seed?:string;note?:string}[];plotLocks:string[];};
 type ShivaniCastLock={title:string;status:string;officeTwinsStudentCore:{id:string;name:string;age:number}[];officeChotu:{name:string;age:number;role:string};societyChotu:{name:string;age:number;role:string};juniorFacultyExcluded:{name:string;age:number}[];futureOnly:{name:string;age:number;note:string};biologicalTwinsNote:string;episode02End:string;nextWork:string;prologueBaselineReference?:{source:string;sourceScene:string;status:string;establishedPreviously:string[];episode03Difference:string}};
+type ChotuMoment={date:string;start:string;end:string;title:string;cause?:string;physical:string;sightline?:string;duration?:string;reaction?:string;hook?:string;choice?:string;test?:string;result?:string;after?:string};
+type ChotuTrack={lead:string;chotu:string;lane:string;age:number;setting:string;twinsContext:string;a:ChotuMoment;b:ChotuMoment};
+type ChotuWorkshop={title:string;status:string;scope:string;invariants:string[];leads:{id:string;name:string;endJan01:string;twins:string;tracks:ChotuTrack[]}[]};
+const planningLeads=['ankita','shivani','taniya','soniya','meenakshi','shreya'];
 type RohitFirstShow={title:string;status:string;date:string;wardrobe:{jan02:string;accidental:string;deliberate:string};encounters:{id:string;title:string;phase:string;beats:{id:string;name:string;plot:string}[]}[];validation:{jan1IntroductionOnly:boolean;jan1UpperButtonsClosed:boolean;jan2AccidentFirst:boolean;jan2DeliberateFirstShowLaterSameDay:boolean;exactJan2Clock:string;jan2Wardrobe:string};};
 export default function Planning({lead,initialScene}:{lead:string;initialScene?:string|null}){
- const active=leadOrder.includes(lead)?lead:'meenakshi';
+ const active=planningLeads.includes(lead)?lead:'meenakshi';
  
  
  
@@ -30,6 +34,7 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
  
  
  const {data:meenaFuture}=useData<Plan>('episode-03-meenakshi-plan.json');
+ const {data:chotuWorkshop,error:chotuWorkshopError}=useData<ChotuWorkshop>('episode-04-chotu-six-leads-review.json');
  
  
   const {data:ankitaFuturePresentation,error:ankitaFuturePresentationError}=useData<AnkitaFuturePresentation>('episode-future-ankita-private-presentation-seed.json');
@@ -79,7 +84,45 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
   <details className="edition-note"><summary>How approvals work</summary><p>DRAFT → DISCUSSION → PLOT LOCKED → WRITING → APPROVED → PUBLISHED. Only the author can approve or lock content.</p></details>
 
   <div className="reading-heading"><div><span className="eyebrow">Choose a storyline</span><h2>What happens next?</h2></div></div>
-  <div className="perspective-tabs" role="group" aria-label="Choose planning character">{leadOrder.map(w=><button type="button" aria-pressed={w===active} onClick={()=>openPage('planning',{lead:w})} className={w===active?'selected':''} key={w}>{titleCase(w)}</button>)}</div>
+  <div className="perspective-tabs" role="group" aria-label="Choose planning character">{planningLeads.map(w=><button type="button" aria-pressed={w===active} onClick={()=>openPage('planning',{lead:w})} className={w===active?'selected':''} key={w}>{titleCase(w)}</button>)}</div>
+  <section className="continuity-cards" id="ep04-chotu-planning">
+   <article className="episode-plan-card">
+    <span className="eyebrow">Episode 04 · Chotu encounters · 1–2 January 2026 · Review only</span>
+    <h2>Chotu A/B Workshop — Six Women</h2>
+    <p className="source-note"><strong>NOT APPROVED / NOT PROSE:</strong> These are discussion-ready physical encounter plots. Each A is an accident; each B is a willing, independently chosen follow-up, with a different physical setup, sightline and outcome. Existing Episode 03 scenes and twins' timelines are untouched.</p>
+    <p><strong>Focus:</strong> Only the established society and workplace Chotu helpers. Twins are continuity references, not added events; Soniya is a separate selectable lead. No romantic relationship is assumed from a single physical moment.</p>
+    {chotuWorkshopError&&<p className="source-note">Workshop unavailable: {chotuWorkshopError}</p>}
+    {chotuWorkshop?.leads.filter(person=>person.id===active).map(person=><div key={person.id} className="beat-list">
+     <h3>{person.name} · A then B · by 2 January night</h3>
+     <p><strong>Existing EP03 boundary:</strong> {person.endJan01}</p>
+     <p><strong>Twins continuity:</strong> {person.twins}</p>
+     {person.tracks.map(track=><details className="episode-outline" key={person.id+'-'+track.chotu} open>
+      <summary><strong>{track.lane} Chotu — {track.chotu} ({track.age})</strong> · A {track.a.date.slice(5)} {track.a.start} → B {track.b.date.slice(5)} {track.b.start}</summary>
+      <p><strong>Location:</strong> {track.setting}</p>
+      <div className="beat-list">
+       <div className="beat-item"><p className="eyebrow">A · Accident · {track.a.date} · {track.a.start}–{track.a.end}</p>
+        <h3>{track.a.title}</h3>
+        <p><strong>Actual cause:</strong> {track.a.cause}</p>
+        <p><strong>Physical instant:</strong> {track.a.physical}</p>
+        <p><strong>Sightline / witnesses / wardrobe:</strong> {track.a.sightline}</p>
+        <p><strong>Duration:</strong> {track.a.duration}</p>
+        <p><strong>Immediate psychology:</strong> {track.a.reaction}</p>
+        <p><strong>Next-visit reason:</strong> {track.a.hook}</p>
+       </div>
+       <div className="beat-item"><p className="eyebrow">B · Willing choice · {track.b.date} · {track.b.start}–{track.b.end}</p>
+        <h3>{track.b.title}</h3>
+        <p><strong>Her decision:</strong> {track.b.choice}</p>
+        <p><strong>Physical action:</strong> {track.b.physical}</p>
+        <p><strong>Distinct test:</strong> {track.b.test}</p>
+        <p><strong>Actual result and emotional reaction:</strong> {track.b.result}</p>
+        <p><strong>Cut:</strong> {track.b.after}</p>
+       </div>
+      </div>
+      <p className="source-note"><strong>Prior twins slot protected:</strong> {track.twinsContext}</p>
+     </details>)}
+    </div>)}
+   </article>
+  </section>
   {active==='taniya'&&<section className="continuity-cards" id="taniya-ep03-timeline">
     <article className="episode-plan-card">
       <span className="eyebrow">Taniya · Episode 03 · 1 January 2026 · author-approved plot · prose pending</span>
