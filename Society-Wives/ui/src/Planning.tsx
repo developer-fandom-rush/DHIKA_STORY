@@ -300,7 +300,7 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
            <summary><strong>Beat {String(beat.number).padStart(2,'0')} · {beat.title}</strong> — {beat.time} · Draft</summary>
            <div className="source-scene prose-exact">{beat.raw.split(/\n\s*\n/).filter(Boolean).map((block,i)=><p key={i} className="ep03-paragraph" style={{whiteSpace:'pre-line',lineHeight:1.7,...(block.includes('KAM-G0')?{backgroundColor:'rgba(221,162,43,0.12)',borderLeft:'4px solid #c08a23',padding:'10px 12px',borderRadius:8}:{})}}>{block.replace(/^### /,'').replace(/\*\*/g,'').replace(/^\*(.*?)\*$/,'$1')}</p>)}</div>
          </details>)}</div>
-         <p className="muted">Grok insertion markers indicate author-supplied visual text is still pending. Draft is not approved/frozen, and no existing published prose was rewritten.</p>
+         <p className="muted">KAM-G01 and KAM-G02 are now inserted verbatim from the author, inside one continuous 5–6-second private accident. They are highlighted in Beat 08. Beats 07–09 remain a revised draft pending overall author approval; approved older scenes were not rewritten.</p>
        </>:<p role="status">{shreyaBeats0709Error||'Loading refined Beats 07–09 draft…'}</p>}
      </article>
    </section>}
