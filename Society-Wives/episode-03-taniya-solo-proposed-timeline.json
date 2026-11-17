@@ -7,7 +7,7 @@
   "title": "The New Year Secret — Taniya & Soniya Episode 03 · Approved Plot",
   "date": "2026-01-01",
   "timezone": "Asia/Kolkata",
-  "status": "AUTHOR_APPROVED_EP03_PLOT__SCENES_01_TO_05_GROK_DRAFTS_PUBLISHED_REMAINDER_PENDING",
+  "status": "AUTHOR_APPROVED_EP03_PLOT__SCENES_01_TO_10_GROK_DRAFTS_PUBLISHED__11_12_PENDING",
   "start": "10:50",
   "end": null,
   "goal": "AUTHOR-APPROVED PLOT (NOT PROSE): Jan 1 episode begins 10:50 AM using deferred TS12–TS16 office material, 10:30–19:30 full CA-office shift. Office establishes Raghav/Chirag, Neha/Andrea, Punit and reader-only Vivek Suri attraction; no Taniya office romance or kiss. After 19:30, Taniya chooses Soniya's society home rather than still-active near-office rental (35–50-minute estimated commute). Compress redundant standalone travel/home exposition: Guddu (society CHOTU) wedding vendor papers at ~20:08, Karan/Aman returning event boards at ~20:16 after their 19:11–19:23 Shivani/Kavya/Deepu crossover, one accidental covered-hip contact with Karan and immediate withdrawal, then Soniya and proposed Rahul return at home ~20:25–21:00. Soniya opens the topic of morning gym Vivek Rao with Rahul; cut before long private disclosure. No private character knowledge transfers, no further intimacy.",
@@ -363,7 +363,15 @@
           "line": "Celebration over. Ab figures bhejo."
         }
       ],
-      "status": "AUTHOR_REQUESTED_UI_SAVE__PLOT_FOR_REVIEW"
+      "status": "AUTHOR_REQUESTED_UI_SAVE__PLOT_FOR_REVIEW",
+      "proseStatus": "GROK_INSERTED_DOCUMENT_DRAFT_PENDING_AUTHOR_REVIEW",
+      "proseSource": "episode-03-taniya-scene-06-grok-merged.md",
+      "readerRoute": "#/reading?episode=03&character=taniya&scene=06",
+      "grokSourceTab": "t.1s49pp1fd3s7",
+      "grokInsertionsStatus": "GROK_ALL_2_MARKERS_FILLED",
+      "reviewNotes": [
+        "Grok G01 briefly repeats the cheek-peck event already narrated in GPT prose; source preserved for author review."
+      ]
     },
     {
       "id": "T03-07",
@@ -396,7 +404,15 @@
           "line": "Privacy bhi audit-approved!"
         }
       ],
-      "status": "AUTHOR_REQUESTED_UI_SAVE__PLOT_FOR_REVIEW"
+      "status": "AUTHOR_REQUESTED_UI_SAVE__PLOT_FOR_REVIEW",
+      "proseStatus": "GROK_INSERTED_DOCUMENT_DRAFT_PENDING_AUTHOR_REVIEW",
+      "proseSource": "episode-03-taniya-scene-07-grok-merged.md",
+      "readerRoute": "#/reading?episode=03&character=taniya&scene=07",
+      "grokSourceTab": "t.zhilfpe39udy",
+      "grokInsertionsStatus": "GROK_ALL_1_MARKERS_FILLED",
+      "reviewNotes": [
+        "Grok G01 adds outfit and posture but does not elaborate Andrea/Neha's intended double-meaning response; kept verbatim for review."
+      ]
     },
     {
       "id": "T03-08",
@@ -425,7 +441,15 @@
           "line": "Already marked hain."
         }
       ],
-      "status": "AUTHOR_REQUESTED_UI_SAVE__PLOT_FOR_REVIEW"
+      "status": "AUTHOR_REQUESTED_UI_SAVE__PLOT_FOR_REVIEW",
+      "proseStatus": "GROK_INSERTED_DOCUMENT_DRAFT_PENDING_AUTHOR_REVIEW",
+      "proseSource": "episode-03-taniya-scene-08-grok-merged.md",
+      "readerRoute": "#/reading?episode=03&character=taniya&scene=08",
+      "grokSourceTab": "t.vxc3c1vrg5i",
+      "grokInsertionsStatus": "GROK_ALL_2_MARKERS_FILLED",
+      "reviewNotes": [
+        "Grok G01 and G02 both describe Vivek Suri's private interest; repeated emphasis preserved."
+      ]
     },
     {
       "id": "T03-09",
@@ -456,7 +480,12 @@
           "line": "Pehle reconciliation, phir comedy."
         }
       ],
-      "status": "AUTHOR_REQUESTED_UI_SAVE__PLOT_FOR_REVIEW"
+      "status": "AUTHOR_REQUESTED_UI_SAVE__PLOT_FOR_REVIEW",
+      "proseStatus": "GROK_INSERTED_DOCUMENT_DRAFT_PENDING_AUTHOR_REVIEW",
+      "proseSource": "episode-03-taniya-scene-09-grok-merged.md",
+      "readerRoute": "#/reading?episode=03&character=taniya&scene=09",
+      "grokSourceTab": "t.mxys2j5fhwci",
+      "grokInsertionsStatus": "GROK_ALL_1_MARKERS_FILLED"
     },
     {
       "id": "T03-10",
@@ -483,7 +512,12 @@
           "line": "Madam, vendor ko bol deta hoon. Aapki shaadi mein bhi reconciliation pending hai!"
         }
       ],
-      "status": "AUTHOR_REQUESTED_UI_SAVE__PLOT_FOR_REVIEW"
+      "status": "AUTHOR_REQUESTED_UI_SAVE__PLOT_FOR_REVIEW",
+      "proseStatus": "GROK_INSERTED_DOCUMENT_DRAFT_PENDING_AUTHOR_REVIEW",
+      "proseSource": "episode-03-taniya-scene-10-grok-merged.md",
+      "readerRoute": "#/reading?episode=03&character=taniya&scene=10",
+      "grokSourceTab": "t.50kl05bfx20t",
+      "grokInsertionsStatus": "GROK_ALL_1_MARKERS_FILLED"
     },
     {
       "id": "T03-11",
@@ -857,25 +891,29 @@
       "T03-02",
       "T03-03",
       "T03-04",
-      "T03-05"
-    ],
-    "pendingSceneIds": [
+      "T03-05",
       "T03-06",
       "T03-07",
       "T03-08",
       "T03-09",
-      "T03-10",
+      "T03-10"
+    ],
+    "pendingSceneIds": [
       "T03-11",
       "T03-12"
     ],
     "lastUpdated": "2026-11-17",
-    "status": "SCENES_01_05_GROK_MERGED_DRAFTS_IN_READER_AUTHOR_REVIEW_PENDING",
+    "status": "SCENES_01_10_GROK_MERGED_DRAFTS_IN_READER__SCENES_11_12_MISSING_G02",
     "sourceDoc": "https://docs.google.com/document/d/1W8GmTAD4cjrWJRt3Au9CS7AHkXezV-YJdWZegQhb7m4/edit",
     "caveats": [
       "Grok insert G01, the surrounding GPT passage, and G02 all narrate the same brief contact. G02 places the hands together again after the source has already said they were released. Source text is preserved; continuity reconciliation is pending.",
       "Grok G01 illustrates Punit and Taniya standing in the corridor, although its insertion is after the 12:39 ledger check. This is a staging/time-position mismatch for author review; the source remains unchanged.",
       "Grok G01 says Andrea is taking the photograph and Taniya is posing, while the surrounding GPT prose has Andrea assembling the group and Taniya operating the camera.",
-      "Grok G02 describes Taniya as appearing in the group photograph, but the prose says Taniya herself takes three photos. Photographer versus subject must be reconciled before final approval."
+      "Grok G02 describes Taniya as appearing in the group photograph, but the prose says Taniya herself takes three photos. Photographer versus subject must be reconciled before final approval.",
+      "Grok G01 briefly repeats the cheek-peck event already narrated in GPT prose; source preserved for author review.",
+      "Grok G01 adds outfit and posture but does not elaborate Andrea/Neha's intended double-meaning response; kept verbatim for review.",
+      "Grok G01 and G02 both describe Vivek Suri's private interest; repeated emphasis preserved.",
+      "Scene 11 Grok G02 blank; Scene 12 Grok G02 blank. Neither marked complete."
     ]
   }
 }
