@@ -148,37 +148,58 @@
       "end": "13:15",
       "lane": "OFFICE",
       "location": "Police station records desk",
-      "title": "Poonam's observed pattern — brief records-desk exchange",
+      "title": "Poonam's brief Chauhan-interest observation — Shreya's shy reaction",
       "characters": [
         "shreya",
         "shreya_woman_03"
       ],
-      "summary": "During the existing 12:20–13:15 station paperwork block, Poonam quickly flags Chauhan's unusual follow-up request. Shreya instructs her to handle it through process. No separate substantial scene, new Chauhan appearance, expanded investigation, or extended debrief.",
+      "summary": "Poonam briefly tells Shreya Chauhan seems interested in her. Shreya remembers she herself had teased Chauhan earlier and blushes, then resumes her paperwork. Short records-desk exchange only; no fresh Chauhan encounter or ACP/Poonam secret disclosure.",
       "beats": [
-        "Brief exchange only, within already allotted records-work window; Poonam highlights a follow-up request from Chauhan.",
-        "Poonam's private ACP Verma connection remains concealed from Shreya; no flashback or explanation.",
-        "Resume routine documents immediately; no standalone investigation or extensive scene."
+        "Poonam enters briefly during existing records-desk work (12:20–13:15), saying Inspector Chauhan seems personally interested in Shreya.",
+        "Shreya immediately remembers her own earlier teasing in SR09 and goes shy/blushes for a beat; Poonam observes her expression.",
+        "Return to case paperwork without expanding the scene; Poonam does not disclose her relationship with ACP Verma."
       ],
       "dialogue": [
         [
-          "Poonam (29, Sub-Inspector)",
-          "Ma'am, yeh follow-up request routine se alag hai."
+          "Poonam",
+          "Ma'am, Chauhan sir shayad aapmein interested hain."
         ],
         [
           "Shreya",
-          "Noted. Process mein hi handle karenge."
+          "Poonam... tum bhi na. Chalo, files complete karte hain."
         ]
       ],
       "notes": [
         "User-directed: moved from Episode 02 10:15 cutoff to Episode 03 later Jan 1. Do not publish as Jan 1. Time windows are placeholders pending Jan 1 global clock reconciliation.",
-        "2026-11-16 author approval: keep SR13 to a tiny Poonam–Shreya records-desk exchange, no extended briefing or extra scene; Poonam's ACP Verma secret remains unsaid."
+        "2026-11-16 author approval: keep SR13 to a tiny Poonam–Shreya records-desk exchange, no extended briefing or extra scene; Poonam's ACP Verma secret remains unsaid.",
+        "2026-11-17 user-selected adjustment to Beat 06: Poonam's only point is Chauhan's apparent interest; Shreya blushes at the memory of her own teasing. Preserve short duration and no more plot."
       ],
-      "approval": "AUTHOR_APPROVED_BRIEF_EXCHANGE_PLOT_ONLY_PROSE_PENDING",
+      "approval": "AUTHOR_APPROVED_BRIEF_PLOT_WITH_INTEREST_OBSERVATION_AND_BLUSH_2026_11_17",
       "date": "2026-01-01",
       "weekday": "Thursday",
       "episode": 3,
       "scheduling": "REPOSITIONED_TO_2026_01_01_BY_AUTHOR_DATE_CORRECTION; TIME_WINDOWS_WORKING",
-      "originalDate": "2026-01-03"
+      "originalDate": "2026-01-03",
+      "originalPlotBefore20261117": {
+        "summary": "During the existing 12:20–13:15 station paperwork block, Poonam quickly flags Chauhan's unusual follow-up request. Shreya instructs her to handle it through process. No separate substantial scene, new Chauhan appearance, expanded investigation, or extended debrief.",
+        "beats": [
+          "Brief exchange only, within already allotted records-work window; Poonam highlights a follow-up request from Chauhan.",
+          "Poonam's private ACP Verma connection remains concealed from Shreya; no flashback or explanation.",
+          "Resume routine documents immediately; no standalone investigation or extensive scene."
+        ],
+        "dialogue": [
+          [
+            "Poonam (29, Sub-Inspector)",
+            "Ma'am, yeh follow-up request routine se alag hai."
+          ],
+          [
+            "Shreya",
+            "Noted. Process mein hi handle karenge."
+          ]
+        ],
+        "approval": "AUTHOR_APPROVED_BRIEF_EXCHANGE_PLOT_ONLY_PROSE_PENDING"
+      },
+      "proseStatus": "NOT_WRITTEN"
     }
   ],
   "characterSeeds": [
@@ -208,7 +229,7 @@
     "Further twins/tea vendor/society scenes should be proposed separately, not misrepresented as fixed source history.",
     "Do not invent Jan 2 or Jan 3 scenes or overlap other leads.",
     "2026-11-16 working SR10 revision has since been replaced by final author-approved SR10 prose on 2026-11-17; one-line B1 transition merged, author-supplied G01–G07 preserved verbatim.",
-    "2026-11-16: Author approved the existing S03-01 Strong-Chai Moment without alteration. SR11 now contains proposed DCP reader-only fantasy logic; SR12 cellblock bet held for unscheduled future encounters (three adult inmates; competitive-ego challenge). Unassigned 11:40–12:20 is not an invented scene.",
+    "2026-11-17: SR12 cellblock bet moved out of EP03 and into Episode 04 Future Plot; actors are professional trainers disguised as inmates and real identity remains hidden from female trainees.",
     "2026-11-16: After approved B10, B11 only a station→society transition; B12 Shreya/Samar/Shaan physically close but non-graphic 6-step sports-volunteer scene 17:10–17:33; B13 society Chintu (not station Chotu) known-register 3-step continuation 17:35–17:45; B14 home/family lane removed from active schedule and author-HOLD."
   ],
   "retimingDecision": {
@@ -218,49 +239,7 @@
     "freezeUntil": "Episode 02 10:15 AM",
     "status": "CHANGED_ACTIVE_DATE_NOT_NEW_PROSE"
   },
-  "parkedFutureEncounters": [
-    {
-      "id": "SR12",
-      "start": null,
-      "end": null,
-      "lane": "OFFICE",
-      "location": "Authorized interview room",
-      "title": "The cellblock bet",
-      "characters": [
-        "shreya",
-        "inmate_1",
-        "inmate_2",
-        "inmate_3"
-      ],
-      "summary": "Three cunning inmates develop a private competitive wager about drawing the confident Inspector Shreya into repeated conversation. They exploit her desire to solve difficult challenges, making each legitimate interaction an ego test, but she initially remains unaware of their bet. No date or future physical contact is locked.",
-      "beats": [
-        "Shreya's competitive pride drives her to investigate their puzzle/challenge and can eventually cause her to lose a nonsexual wager.",
-        "A temporary, voluntary obligation to hear their explanation or respond to a legitimate authorized question, without compromising legal procedure or removing her ability to refuse. She is never required to obey personal or sexual demands.",
-        "Repeated dialogue, escalating psychological competition and a possible future attraction may be planned later; any intimacy must be freely chosen, not punishment for losing, and not part of a custody quid pro quo."
-      ],
-      "dialogue": [
-        [
-          "Adult inmate (30)",
-          "Madam, aap duty ke bahar bhi itni strict hain?"
-        ],
-        [
-          "Shreya",
-          "Yahaan sawaal case ke hain. Personal life ke nahi."
-        ]
-      ],
-      "notes": [
-        "User-directed: moved from Episode 02 10:15 cutoff to Episode 03 later Jan 1. Do not publish as Jan 1. Time windows are placeholders pending Jan 1 global clock reconciliation.",
-        "2026-11-16: User placed SR12 on hold; three inmate placeholders. 30 & 35 established, third 27 proposed, final names intentionally omitted. No assigned date/time, no immediate intimate contact."
-      ],
-      "approval": "ON_HOLD_UNSCHEDULED_FUTURE_PLOT",
-      "date": "2026-01-01",
-      "weekday": "Thursday",
-      "episode": 3,
-      "scheduling": "REPOSITIONED_TO_2026_01_01_BY_AUTHOR_DATE_CORRECTION; TIME_WINDOWS_WORKING",
-      "originalDate": "2026-01-03",
-      "originalProposedSlot": "2026-01-01 11:40–12:15"
-    }
-  ],
+  "parkedFutureEncounters": [],
   "trainingRosterClarification": {
     "policeTrainees": [
       "Rohas (24)",
@@ -416,5 +395,15 @@
     "label": "Strong-Chai Moment",
     "status": "AUTHOR_APPROVED_FINAL_PROSE_PUBLISHED",
     "note": "Existing EP02 final/frozen and EP03 SR10 + S03-01 final/frozen. SR11 DCP remains proposed and is not modified."
+  },
+  "episode04FuturePlan": {
+    "path": "episode-04-shreya-future-plan.json",
+    "movedScene": "SR12",
+    "oldBeatNumber": 5,
+    "episode": "04",
+    "status": "MOVED_TO_FUTURE_EP04_UNSCHEDULED",
+    "identity": "Three disguised professional male trainers posing as inmates (male-side setup knows; female trainees do not)",
+    "condition": "After personal training starts in Episode 03",
+    "notes": "Old SR12 plot preserved in EP04 file; no timing assigned; retain Episode 03 Beat 06 number."
   }
 }
