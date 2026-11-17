@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "SW-EP04-CHOTU-SIX-LEADS-REVIEW-20261117",
-  "title": "EP04 Chotu Encounter Workshop · Six Women · Jan 1–2",
+  "title": "Episode 04A · 1 January | Episode 04B · 2 January · Six Women",
   "status": "SAVED_TO_UI_FOR_DISCUSSION__NOT_APPROVED_PLOT_OR_PROSE",
   "timezone": "Asia/Kolkata",
   "horizonEnd": "2026-01-02T23:59",
@@ -32,14 +32,23 @@
           "a": {
             "date": "2026-01-01",
             "start": "18:25",
-            "end": "18:44",
+            "end": "18:45",
             "title": "The water-filter burst",
             "cause": "Resume EP03 Scene08 at 18:25 door opening. Rinku checks the loose water-filter connector. The brittle coupler slips just as Ankita reaches the shut-off valve.",
-            "physical": "A brief spray soaks the front and sleeve of her ordinary cotton kurti; she steps into the narrow gap and reflexively grips the edge of Rinku's upper arm for balance before releasing it.",
-            "sightline": "Private kitchen. Wet outer fabric outlines its existing inner layer; no bare-body exposure. Rinku briefly notices and averts his eyes; Ankita sees his changed expression, not exactly what he noticed.",
-            "duration": "Water spray and close support ~3–5 seconds; no other witnesses.",
-            "reaction": "She handles the leak decisively, then feels a pulse of self-conscious heat when she realizes how near they were. Rinku is more embarrassed by her startled look than by the leak.",
-            "hook": "Temporary fix only; an exact replacement connector and a pressure test are needed on 2 Jan."
+            "physical": "Water bursts over Ankita's cotton kurti as she catches Rinku's clothed upper arm to stop herself sliding; shoulders briefly draw close, then they separate.",
+            "sightline": "Damp outer kurti outlines the inner layer through fabric for a moment; no bare-breast exposure. Only Rinku is present in the kitchen.",
+            "duration": "Brief contact ~2–3 seconds inside a 20-minute practical repair.",
+            "reaction": "Ankita notices his abrupt silence only after handling the leak. A brief thrill at unexpected closeness and an unanswered question about what he noticed—not her first-ever boldness.",
+            "hook": "Temporary repair only; replacement part creates a possible January 2 follow-up.",
+            "scene": "E04A-S01",
+            "beatIds": [
+              "A01",
+              "A02",
+              "A03",
+              "A04",
+              "A05"
+            ],
+            "source": "episode-04a-ankita-plan.json"
           },
           "b": {
             "date": "2026-01-02",
@@ -405,5 +414,16 @@
         }
       ]
     }
-  ]
+  ],
+  "structure": {
+    "partA": {
+      "date": "2026-01-01",
+      "purpose": "Continue and close each lead's January 1 story without inventing household arrivals",
+      "ankita": "Scene 01 now detailed in episode-04a-ankita-plan.json; Scene 02 household closure pending"
+    },
+    "partB": {
+      "date": "2026-01-02",
+      "purpose": "Fresh working day; preserve distinct office and society Chotu A/B events"
+    }
+  }
 }
