@@ -204,9 +204,13 @@ try {
  check((await page.locator('#taniya-ep03-T03-11 > summary').innerText()).includes('Subhash'),'Older household associate has society beat');
  check((await page.locator('#taniya-ep03-T03-12 > summary').innerText()).includes('Soniya'),'Soniya first appears in final home beat');
  check((await page.locator('#taniya-ep03-timeline').innerText()).includes('UNAPPROVED WORKING PLOT'),'Taniya plan remains author-review only');
- check((await page.locator('#taniya-ep03-timeline').innerText()).includes('Office closing time and return-home time are NOT established'),'UI warns no verified office closing hours');
- check((await page.locator('#taniya-ep03-T03-09 > summary').innerText()).includes('UNSCHEDULED'),'Twins crossover must be unscheduled instead of a made-up 16:42 meeting');
- check((await page.locator('#taniya-ep03-T03-12 > summary').innerText()).includes('TIME UNCONFIRMED'),'Soniya home entry cannot be clock-locked without office exit');
+ check((await page.locator('#taniya-ep03-timeline').innerText()).includes('10:30 AM–7:30 PM'),'UI shows verified 9-hour shift ending 7:30 PM');
+ check(await page.locator('#taniya-ep03-contact-audit').count()===1,'Taniya male contact / office women audit rendered');
+ check((await page.locator('#taniya-ep03-contact-audit').innerText()).includes('Riya'),'Missing office women called out clearly');
+ check((await page.locator('#taniya-ep03-contact-audit').innerText()).includes('Saloni'),'Saloni absence from detailed EP03 noted');
+ check((await page.locator('#taniya-ep03-contact-audit').innerText()).includes('No actual male body-touch'),'Current no-contact audit truthfully visible');
+ check((await page.locator('#taniya-ep03-T03-09 > summary').innerText()).includes('CONDITIONAL'),'Twins crossover must remain conditional rather than an automatic 16:42 meeting');
+ check((await page.locator('#taniya-ep03-T03-12 > summary').innerText()).includes('HOME ARRIVAL AFTER SHIFT'),'Soniya enters after complete shift plus commute');
 
 
  await page.locator('.perspective-tabs button', {hasText:'Shreya'}).click();
