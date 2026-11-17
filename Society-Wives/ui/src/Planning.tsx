@@ -18,6 +18,9 @@ type ShreyaBeats0709Draft={title:string;date:string;status:string;sourcePlan:str
 type ShreyaEpisode04Future={title:string;episodeDate:string|null;planningStatus:string;dependency:string;futurePlots:{id:string;title:string;status:string;cast:{id:string;trainingRole:string;age:number;ageStatus:string}[];identityReveal:{truth:string;maleAwareness:string;femaleAwareness:string;readerAwareness:string};purpose:string;preservedArc:string;futureAttraction:string;episode04Continuity:string;scheduling:string}[];authorLocks:string[]};
 type ShivaniStaffroomPlot={scene:string;status:string;date:string;start:string;end:string;location:string;purpose:string;wardrobeStatus:string;wardrobe:{name:string;age:number;role:string;outfit:string;narratorView:string;referenceColor:string}[];imageReference:{origin:string;status:string;use:string};beats:{id:string;time:string;title:string;focus:string;action:string;narrator?:string;dialogue?:{speaker:string;line:string}[];seed?:string;note?:string}[];plotLocks:string[];};
 type ShivaniCastLock={title:string;status:string;officeTwinsStudentCore:{id:string;name:string;age:number}[];officeChotu:{name:string;age:number;role:string};societyChotu:{name:string;age:number;role:string};juniorFacultyExcluded:{name:string;age:number}[];futureOnly:{name:string;age:number;note:string};biologicalTwinsNote:string;episode02End:string;nextWork:string;prologueBaselineReference?:{source:string;sourceScene:string;status:string;establishedPreviously:string[];episode03Difference:string}};
+type TaniyaSoniyaNightBeat={id:string;time:string;title:string;plot:string;physical?:string;reaction?:string;knowledge?:string;dialogue?:{speaker:string;line:string}[]};
+type TaniyaSoniyaNightScene={scene:string;start:string;end:string;title:string;location:string;beats:TaniyaSoniyaNightBeat[]};
+type TaniyaSoniyaNightReview={title:string;status:string;canonChecks:{episode02:string;episode03:string;otherKnowledge:string;sameDate:string;marriage:string;soniyaRelationship:string};scenes:TaniyaSoniyaNightScene[];day2Scope:Record<string,string>;approvalRules:string[]};
 type ShivaniEp04ABeat={id:string;time:string;title:string;plot:string;physical?:string;sightline?:string;reaction?:string;dialogue?:{speaker:string;line:string}[]};
 type ShivaniEp04AScene={id:string;sceneNumber:string;title:string;start:string;end:string;location:string;status:string;fadeToBlack?:boolean;prosePreview?:string;beats:ShivaniEp04ABeat[]};
 type ShivaniEp04A={title:string;status:string;continuity:{latestApprovedHandoff:string;morningCallback:string;twinsTransport:string;deepu:string;kavya:string;husband:string;om:string;tara:string;manav:string};scenes:ShivaniEp04AScene[];household:Record<string,{location:string;status:string;workday?:string}>;approvalRules:string[]};
@@ -41,6 +44,7 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
  const {data:chotuWorkshop,error:chotuWorkshopError}=useData<ChotuWorkshop>('episode-04-chotu-six-leads-review.json');
  const {data:ankitaEp04A,error:ankitaEp04AError}=useData<AnkitaEp04A>('episode-04a-ankita-plan.json');
  const {data:shivaniEp04A,error:shivaniEp04AError}=useData<ShivaniEp04A>('episode-04a-shivani-plan.json');
+ const {data:taniyaSoniyaEp04A,error:taniyaSoniyaEp04AError}=useData<TaniyaSoniyaNightReview>('episode-04a-taniya-soniya-night-review.json');
  
  
   const {data:ankitaFuturePresentation,error:ankitaFuturePresentationError}=useData<AnkitaFuturePresentation>('episode-future-ankita-private-presentation-seed.json');
@@ -59,6 +63,10 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
  const {data:shreyaBeat10,error:shreyaBeat10Error}=useData<ShreyaBeat10Review>('episode-03-shreya-beat-10-training-ground-review.json');
  useEffect(()=>{
   if(!initialScene)return;
+  if(initialScene==='ep04a-taniya-soniya'){
+   const timer=window.setTimeout(()=>document.getElementById('taniya-soniya-episode04a')?.scrollIntoView({behavior:'smooth',block:'start'}),130);
+   return ()=>clearTimeout(timer);
+  }
   if(initialScene==='ep04a-shivani'){
    const timer=window.setTimeout(()=>document.getElementById('shivani-episode04a')?.scrollIntoView({behavior:'smooth',block:'start'}),130);
    return ()=>clearTimeout(timer);
@@ -154,6 +162,33 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
        <p><strong>{titleCase(person)}:</strong> {state.location}</p><p className="muted">{state.status}</p>
      </div>)}</div>
      <p className="source-note"><strong>Om continuity:</strong> {shivaniEp04A.continuity.om} · <strong>Manav:</strong> {shivaniEp04A.continuity.manav}</p>
+    </>}
+   </article>
+  </section>}
+  {(active==='taniya'||active==='soniya')&&<section className="continuity-cards" id="taniya-soniya-episode04a">
+   <article className="episode-plan-card">
+    <span className="eyebrow">TANIYA + SONIYA · EPISODE 04A · JANUARY 1 · DISCUSSION ONLY</span>
+    <h2>Taniya &amp; Soniya — Guddu's Encounter, Soniya's Bold Test, Rahul's Dream/Reality</h2>
+    <p className="source-note"><strong>NEW REVIEW DRAFT · NOT APPROVED PROSE:</strong> This night begins after EP03 T03-12 (~21:00). The Karan–Aman foyer collision stays in EP03 T03-11 and is not repeated.</p>
+    {taniyaSoniyaEp04AError&&<p>Could not load joint night planning: {taniyaSoniyaEp04AError}</p>}
+    {taniyaSoniyaEp04A&&<>
+     <p><strong>Episode 03 source status:</strong> {taniyaSoniyaEp04A.canonChecks.episode03}</p>
+     <p><strong>Crucial Rahul knowledge distinction:</strong> {taniyaSoniyaEp04A.canonChecks.otherKnowledge}</p>
+     <div className="beat-list">{taniyaSoniyaEp04A.scenes.map(scene=><details className="episode-outline" key={scene.scene} open={['02','03','05'].includes(scene.scene)}>
+      <summary><strong>Scene {scene.scene} · {scene.title}</strong> — {scene.start}–{scene.end} · {scene.beats.length} beats</summary>
+      <p><strong>Location:</strong> {scene.location}</p>
+      <div className="beat-list">{scene.beats.map(beat=><div className="beat-item" key={beat.id}>
+       <p><strong>{beat.id} · {beat.time} · {beat.title}</strong></p>
+       <p><strong>Action:</strong> {beat.plot}</p>
+       {beat.physical&&<p><strong>Physical staging:</strong> {beat.physical}</p>}
+       {beat.knowledge&&<p><strong>Knowledge / dream lock:</strong> {beat.knowledge}</p>}
+       {beat.reaction&&<p><strong>Reactions:</strong> {beat.reaction}</p>}
+       {beat.dialogue?.map((line,i)=><p key={i}><strong>{line.speaker}:</strong> {line.line}</p>)}
+      </div>)}</div>
+     </details>)}</div>
+     <details className="episode-outline"><summary><strong>Episode 04B continuity warnings (Jan 2)</strong></summary>
+      <div className="beat-list">{Object.entries(taniyaSoniyaEp04A.day2Scope).map(([key,value])=><p key={key}><strong>{titleCase(key)}:</strong> {value}</p>)}</div>
+     </details>
     </>}
    </article>
   </section>}
