@@ -20,6 +20,7 @@ try {
  await page.locator('.novel-scene').first().waitFor();
  await page.locator('.novel-scene').last().waitFor();
  check(await page.locator('.novel-scene').count()===17,'Home renders all 17 Episode 01 source scenes');
+ check((await page.locator('.edition-note').textContent()).includes('author-approved and frozen'),'Episode01 displays final approval');
  check(await page.locator('.main-nav a').count()===5,'Exactly five main destinations');
  check(await page.locator('main a[href^="https://github.com"]').count()===0,'No raw GitHub source links in Home');
  check(await page.getByRole('link',{name:'Return to Home'}).count()===1,'Persistent Home icon present');
@@ -27,6 +28,9 @@ try {
  await page.locator('.main-nav a[href="#/reading"]').click();
  await page.locator('.scene-link').first().waitFor();
  check(await page.locator('.scene-link').count()===16,'Ankita Episode 02 reader presents all 16 published archive records');
+ check((await page.locator('.section-intro').innerText()).includes('Author-approved final'),'Episode02 header says final');
+ check(await page.locator('.scene-sidebar .mini-dot').count()===0,'Episode02 has no stale scene-level review indicators');
+ check(await page.locator('.source-scene .chip:visible').count()===0,'Episode02 historical review badge hidden in final reader');
  check(await page.locator('.perspective-tabs button').count()===6,'Episode 02 offers six perspectives with clean in-app controls');
  check((await page.locator('.source-scene').innerText()).length>150,'Episode scene includes original story prose');
  check(await page.locator('main a[href]').count()===0,'Reader includes no clickable outside source/image links');
@@ -230,8 +234,8 @@ try {
  check((await page.locator('#shreya-ep03-jan01-timeline').innerText()).includes('1 January 2026'),'Shreya Episode03 shows January 1 date');
  check((await page.locator('#shreya-ep03-jan01-timeline').innerText()).includes('Police-station Chotu'),'Police station chai wala role shown');
  check((await page.locator('#shreya-ep03-jan01-timeline').innerText()).includes('Society Chintu'),'Society Chintu kept distinct');
- await page.waitForFunction(()=>document.querySelectorAll('#shreya-ordered-beats > details').length===14);
- check(await page.locator('#shreya-ordered-beats > details').count()===14,'Shreya planning keeps 14 original numbered review slots');
+ await page.waitForFunction(()=>document.querySelectorAll('#shreya-ordered-beats > details').length===11);
+ check(await page.locator('#shreya-ordered-beats > details').count()===11,'Shreya keeps eleven unwritten/held slots with the original beat numbering');
  check((await page.locator('#shreya-ep03-SR12 summary').innerText()).includes('ON HOLD'),'Beat 5 inmate bet visibly held');
  check((await page.locator('#shreya-ep03-S03-09 > summary').innerText()).includes('ON HOLD'),'Beat 14 family/home marked author hold');
  check((await page.locator('#shreya-ep03-S03-07 > summary').innerText()).includes('Physical progression'),'Beat 12 Samar Shaan scene draft listed');
@@ -243,7 +247,8 @@ try {
  check(await page.locator('#shreya-ep03-S03-07 .beat-list > details').count()===6,'Six sports twin mini-beats displayed');
  await page.locator('#shreya-ep03-S03-08 > summary').click();
  check(await page.locator('#shreya-ep03-S03-08 .beat-list > details').count()===3,'Three Chintu continuation mini-beats displayed');
- check((await page.locator('#shreya-ep03-S03-01 summary').innerText()).includes('Approved final published prose'),'Beat 3 strong chai reflects its new approved final prose status');
+ check(await page.locator('#shreya-ep03-S03-01').count()===0,'Strong-Chai finalized prose no longer duplicated in Planning');
+ check((await page.locator('#shreya-ep03-jan01-timeline').innerText()).includes('Read DCP draft'),'Shreya DCP draft remains accessible in Reader');
  check((await page.locator('#shreya-ep03-S03-05 > summary').innerText()).includes('Approved plot'),'Beat 10 training ground marked approved');
  check((await page.locator('#shreya-ep03-S03-03 > summary').innerText()).includes('Karan–Aman'),'Beat 8 college crossover appears in ordered planning');
  check((await page.locator('#shreya-ep03-S03-03 > summary').innerText()).includes('Plot locked'),'College plot direction marked author-approved, not final prose');
@@ -258,45 +263,13 @@ try {
  check((await page.locator('#shreya-ep03-SR13 summary').innerText()).includes('Approved'),'Beat 6 short exchange marked approved');
  check(await page.locator('#meenakshi-ep03-prose-moved').count()===0,'Shreya Planning excludes unrelated Meenakshi episode cards');
  await page.locator('.perspective-tabs button', {hasText:'Ankita'}).click();
- await page.locator('#ankita-ep03-a11').waitFor();
- check((await page.locator('#ankita-ep03-a11').innerText()).includes('Read Scene 01'),'Ankita Scene01 routed to prose');
- check((await page.locator('#ankita-ep03-a11').innerText()).includes('Read Scene 02'),'Ankita Scene02 routed to prose');
- check(await page.locator('#ankita-ep03-scene02').count()===0,'Old Scene02 plot-only duplicate removed');
- await page.locator('#ankita-ep03-scene03 .beat-list .beat-item').first().waitFor();
- check(await page.locator('#ankita-ep03-scene03 > .beat-list .beat-item').count()===4,'Ankita Scene03 shows four active plot beats, not old five');
- check((await page.locator('#ankita-ep03-scene03').innerText()).includes('15:00–15:10'),'Ankita confrontation cliff follows beauty test immediately');
- check((await page.locator('#ankita-ep03-scene03').innerText()).includes('Aishwarya'),'Aishwarya confrontation ending is visible');
- check((await page.locator('#ankita-future-personal-presentation').innerText()).includes('Unscheduled'),'Old twenty-minute presentation concept parked in Future Setup, without a date');
- check(await page.locator('#ankita-ep03-scene03 .ankita-scene03-image img').count()===1,'User generated release briefing picture appears in Scene 03');
- check(await page.locator('#ankita-ep03-scene03 .ankita-scene03-image img').evaluate(img=>img instanceof HTMLImageElement&&img.complete&&img.naturalWidth>250),'Uploaded briefing image is loaded rather than broken');
-
- await page.locator('#ankita-ep03-scene05 .beat-item').last().waitFor();
- check(await page.locator('#ankita-ep03-scene05 .beat-item').count()===4,'Merged approved Scene 05 must show exactly four journey beats');
- check((await page.locator('#ankita-ep03-scene05').innerText()).includes('Read Scene 05 · Office to car'),'Scene05 planning links directly to five-beat prose');
- check((await page.locator('#ankita-ep03-scene05').innerText()).includes('Reyansh'),'Reyansh drives and owns the outing car');
- check((await page.locator('#ankita-ep03-scene05').innerText()).includes('18:00'),'Ankita home deadline preserved in Scene 05');
- await page.locator('#ankita-ep03-scene06 button',{hasText:'Read Scene 06 · cleaned seven-beat draft'}).waitFor();
- check(await page.locator('#ankita-ep03-scene06 .source-scene').count()===0,'Scene06 prose no longer duplicated in Planning');
- check((await page.locator('#ankita-ep03-scene06').textContent()).includes('Two men / one woman, Ankita centered'),'Scene06 choreography stays available in collapsed Planning details while prose lives in Reading');
- check((await page.locator('#ankita-ep03-scene06 .eyebrow').first().textContent()).includes('prose DRAFT'),'Scene06 draft status is displayed in the heading even if its eyebrow is visually hidden at this viewport');
- check((await page.locator('#ankita-ep03-scene06').innerText()).includes('17:20'),'Scene 06 ends before drop-off');
- await page.locator('#ankita-ep03-scene07 .beat-item').last().waitFor();
- check(await page.locator('#ankita-ep03-scene07 .beat-item').count()===8,'Scene07 shows eight selected ride and homecoming beats');
- check((await page.locator('#ankita-ep03-scene07').innerText()).includes('Read Scene 07 · highlighted author revisions'),'Scene07 planning links to prose with highlighted changes');
- check((await page.locator('#ankita-ep03-scene07').innerText()).includes('Karan'),'Karan must be in twins pickup');
- check((await page.locator('#ankita-ep03-scene07').innerText()).includes('Gopal'),'Gopal silent observation remains in scene');
-  check((await page.locator('#ankita-ep03-scene07').innerText()).includes('Gopal says NOTHING'),'No Gopal dialogue or confrontation allowed');
-  await page.locator('#ankita-ep03-scene08 .beat-item').last().waitFor();
-  check(await page.locator('#ankita-ep03-scene08 .beat-item').count()===5,'Scene08 has five Rinku setup beats');
- check((await page.locator('#ankita-ep03-scene08').innerText()).includes('Read Scene 08 · five-beat prose draft'),'Scene08 planning has reader navigation');
-  check((await page.locator('#ankita-ep03-scene08').innerText()).includes('CUT BEFORE THE DOOR OPENS'),'Rinku first no-dupatta look must not occur in Scene08');
- check((await page.locator('#ankita-ep03-scene07').innerText()).includes("Aman's scooty"),"Ankita drives Aman's scooty and Aman rides pillion");
-
-
- await page.locator('#ankita-ep03-scene04-rohit .beat-item').first().waitFor();
- check(await page.locator('#ankita-ep03-scene04-rohit .beat-item').count()===7,'Jan 1 Rohit introduction shows exactly seven setup beats');
- check((await page.locator('#ankita-ep03-scene04-rohit').innerText()).includes('closes the same two kurti buttons'),'Jan 1 Rohit intro restores closed buttons');
- check(!(await page.locator('.planning-panel').innerText()).includes('Original seven scenes preserved verbatim'),'Discarded Ankita followup archive not rendered as active plot');
+ await page.locator('#ankita-ep03-written-moved').waitFor();
+ check((await page.locator('#ankita-ep03-written-moved').innerText()).includes('Scenes 01–08 are already written'),'Ankita scenes in Reader, not repeated as Planning plot');
+ for(const duplicate of ['ankita-ep03-scene03','ankita-ep03-scene04-rohit','ankita-ep03-scene05','ankita-ep03-scene06','ankita-ep03-scene07','ankita-ep03-scene08']){
+  check(await page.locator('#'+duplicate).count()===0,'Written Ankita '+duplicate+' no longer duplicated as Planning');
+ }
+ check((await page.locator('#ankita-future-personal-presentation').innerText()).includes('Unscheduled'),'Ankita future personal presentation preserved');
+ check(await page.locator('#ankita-ep04-rohit-first-show').count()===1,'Rohit Jan2 future source preserved in Planning');
  await page.locator('#ankita-ep04-rohit-first-show .beat-item').last().waitFor();
  check(await page.locator('#ankita-ep04-rohit-first-show .beat-item').count()===15,'Jan 2 first show retains 15 distinct plot beats');
  check((await page.locator('#ankita-ep04-rohit-first-show').innerText()).includes('First accidental look'),'Jan 2 initial surprise encounter visible');
@@ -332,7 +305,10 @@ try {
  check(await page.locator('.universe-option').count()===2,'Left switcher has exactly Society Wives and Dhika');
  await page.locator('.universal-top-link').click();
  await page.locator('.timeline-event').first().waitFor();
- check(await page.locator('.timeline-event').count()===94,'Society Wives Jan1 displays eleven active Shreya events, with inmates and family held');
+ check(await page.locator('.timeline-event').count()===111,'Jan1 timeline includes all current source and planned events');
+ check(await page.locator('#timeline-e03-taniya-T03-11').count()===1,'Taniya twins encounter indexed at 20:16');
+ check(await page.locator('#timeline-e03-shivani-scene03-society').count()===1,'Shivani EP03 society return indexed');
+ check(await page.locator('#timeline-future-shivani-jan01-night-event').count()===1,'Future Shivani Kavya/Twins plot indexed but not changed');
  check(await page.locator('#timeline-e03-shreya-SR12').count()===0,'Held Shreya inmates are absent from January 1 universal timeline');
  check(await page.locator('#timeline-e03-shreya-S03-09').count()===0,'Held Shreya family event is absent from Jan1 universal timeline');
  check(await page.locator('#timeline-e03-shreya-S03-07').count()===1,'Samar Shaan active evening progression is indexed');
