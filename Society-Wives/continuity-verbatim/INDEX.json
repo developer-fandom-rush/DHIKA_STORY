@@ -6,7 +6,7 @@
   "episode02": {
     "title": "The New Year's Unspoken Secrets",
     "sourcePath": "Society-Wives/episode-02.html",
-    "sourceStatus": "USER_CLOSED_EPISODE_STORY_WINDOW; individual scenes retain source-specific approval status",
+    "sourceStatus": "AUTHOR_APPROVED_EPISODE_02_FINAL_FROZEN_ALL_EXISTING_CONTENT_2026_11_17",
     "files": [
       {
         "female": "Ankita",
@@ -77,12 +77,19 @@
         "path": "Society-Wives/continuity-verbatim/episode-02-APPROVED/shreya.json",
         "raw_url": "https://raw.githubusercontent.com/developer-fandom-rush/DHIKA_STORY/main/Society-Wives/continuity-verbatim/episode-02-APPROVED/shreya.json"
       }
-    ]
+    ],
+    "currentAuthorApproval": {
+      "status": "ALL_EXISTING_EP02_MATERIAL_AUTHOR_APPROVED_FINAL_FROZEN",
+      "effectiveDate": "2026-11-17",
+      "scope": "All existing published/archived Episode 02 scenes, not scenes for which no full prose exists",
+      "preserveText": true,
+      "metadataNote": "Historical ui_badge_text_exact and scene-specific prior approval flags are archival source data only; UI no longer presents them as active review statuses."
+    }
   },
   "episode01": {
     "title": "Five Doors, Eleven Worlds",
     "sourcePath": "Society-Wives/episode-01.json",
-    "sourceApproval": "SOURCE_EXPLICITLY_MARKED_NOT_APPROVED",
+    "sourceApproval": "AUTHOR_APPROVED_EP01_FINAL_FROZEN_2026_11_17",
     "files": [
       {
         "female": "Ankita",
@@ -114,7 +121,12 @@
         "path": "Society-Wives/continuity-verbatim/episode-01-DRAFT/shreya.json",
         "raw_url": "https://raw.githubusercontent.com/developer-fandom-rush/DHIKA_STORY/main/Society-Wives/continuity-verbatim/episode-01-DRAFT/shreya.json"
       }
-    ]
+    ],
+    "currentAuthorApproval": {
+      "status": "ALL_EP01_EXISTING_PROLOGUE_SCENES_AUTHOR_APPROVED_FINAL_FROZEN",
+      "effectiveDate": "2026-11-17",
+      "preserveText": true
+    }
   },
   "queryProtocol": {
     "goal": "Use exact source wording, not summaries or assumptions.",
@@ -158,5 +170,5 @@
     "indexedProseBlocksAcrossFemaleFilesIncludingSharedSistersDuplication": 2453,
     "strictApprovedOnlyFiles": 6
   },
-  "preferredDefault": "episode02.approvedOnlyFiles for approved-canon continuity. episode02.files retains every published scene including unapproved drafts with exact separate status."
+  "preferredDefault": "Read Episode 01 and all existing Episode 02 source text as author-approved final. For Episode 02 exact citations use episode02.files (full archives); historical approvedOnlyFiles represent an older snapshot, not the current episode-wide approval. Episode 03 statuses require separate verification."
 }
