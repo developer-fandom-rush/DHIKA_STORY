@@ -8,7 +8,7 @@
   "timezone": "Asia/Kolkata",
   "lead": "shreya",
   "leadName": "Shreya",
-  "status": "SR10_FINAL_AUTHOR_APPROVED_PROSE_PUBLISHED__REMAINING_EP03_PLAN_NOT_FULLY_LOCKED",
+  "status": "SR10_AND_S03_01_FINAL_AUTHOR_APPROVED_PUBLISHED__LATER_EP03_BEATS_NOT_FULLY_LOCKED",
   "continuityFrom": {
     "sourceEpisode": 2,
     "sourceDate": "2026-01-01",
@@ -382,5 +382,29 @@
     ],
     "date": "2026-01-01",
     "approval": "Author selected direction; B12 and B13 new plot prose drafts pending review; B14 author requested hold."
+  },
+  "approvedPublishedScenes": [
+    {
+      "id": "SR10",
+      "source": "episode-03-reader.json",
+      "chapter": "10",
+      "status": "AUTHOR_APPROVED_FINAL_PROSE_PUBLISHED_2026_11_17",
+      "frozen": true
+    },
+    {
+      "id": "S03-01",
+      "source": "episode-03-reader.json",
+      "chapter": "S03-01",
+      "status": "AUTHOR_APPROVED_FINAL_PROSE_PUBLISHED_2026_11_17",
+      "frozen": true
+    }
+  ],
+  "authorFinalLockThrough": {
+    "date": "2026-01-01",
+    "time": "11:25",
+    "sceneId": "S03-01",
+    "label": "Strong-Chai Moment",
+    "status": "AUTHOR_APPROVED_FINAL_PROSE_PUBLISHED",
+    "note": "Existing EP02 final/frozen and EP03 SR10 + S03-01 final/frozen. SR11 DCP remains proposed and is not modified."
   }
 }
