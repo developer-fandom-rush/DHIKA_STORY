@@ -203,6 +203,10 @@ try {
  check((await page.locator('#taniya-ep03-timeline').innerText()).includes('Soniya does not enter'),'Soniya only arrives on final home scene');
  check((await page.locator('#taniya-ep03-T03-02 > summary').innerText()).includes('Filing Drawer'),'Taniya/Raghav short accident, no romance');
  check((await page.locator('#taniya-ep03-T03-06 > summary').innerText()).includes('Andrea & Chirag'),'Andrea/Chirag celebratory kiss stays in Phase B');
+ await page.locator('#taniya-ep03-T03-06 > summary').click();
+ check(await page.locator('#taniya-ep03-T03-06 a[href*="drive.google.com/file/d/"]').count()===1,'Andrea–Chirag generated scene image linked from exact beat');
+ check(await page.locator('#taniya-ep03-T03-02 a[href*="drive.google.com/file/d/"]').count()===1,'Taniya–Raghav generated scene image linked from exact beat');
+ check(await page.locator('#taniya-ep03-timeline a[href*="drive.google.com/drive/folders/"]').count()===1,'Taniya Drive album linked on planning UI');
  check((await page.locator('#taniya-ep03-T03-07 > summary').innerText()).includes('Second Flat'),'Active near-office rental twist remains');
  check((await page.locator('#taniya-ep03-T03-11 > summary').innerText()).includes('Karan & Aman'),'Actual society twins conditional');
  check((await page.locator('#taniya-ep03-T03-12 > summary').innerText()).includes('Soniya'),'Soniya returns only in last beat');
