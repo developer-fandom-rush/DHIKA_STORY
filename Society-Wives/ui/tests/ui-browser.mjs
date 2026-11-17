@@ -199,6 +199,11 @@ try {
  check((await page.locator('#society-wives-author-narrator-instructions').innerText()).includes('apple-rounded silhouette'),'Simile vocabulary sourced from writing style JSON');
  await page.locator('#society-wives-author-narrator-instructions summary').click();
  check(await page.locator('.perspective-tabs button').count()===6,'Planning shows six lead selectors including Soniya');
+ await page.locator('.perspective-tabs button',{hasText:'Ankita'}).click();
+ await page.waitForFunction(()=>document.querySelector('#ankita-episode04a')?.textContent?.includes('The Water-Filter Accident'));
+ check((await page.locator('#ankita-episode04a').innerText()).includes('Scene 01'),'Ankita Episode 04A is labelled with Scene 01');
+ check((await page.locator('#ankita-episode04a').innerText()).includes('A05'),'Ankita Episode 04A has five numbered timed beats');
+ check((await page.locator('#ankita-episode04a').innerText()).includes('Scene 02'),'Household closure stays visibly reserved');
  await page.locator('.perspective-tabs button', {hasText:'Taniya'}).click();
  await page.waitForFunction(()=>document.querySelectorAll('#ep04-chotu-planning .episode-outline').length>=2);
  check((await page.locator('#ep04-chotu-planning').innerText()).includes('Punit'),'New Chotu workshop shows the office helper for Taniya');
