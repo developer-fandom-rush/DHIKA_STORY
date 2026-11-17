@@ -234,9 +234,9 @@ try {
  check((await page.locator('#shreya-ep03-jan01-timeline').innerText()).includes('1 January 2026'),'Shreya Episode03 shows January 1 date');
  check((await page.locator('#shreya-ep03-jan01-timeline').innerText()).includes('Police-station Chotu'),'Police station chai wala role shown');
  check((await page.locator('#shreya-ep03-jan01-timeline').innerText()).includes('Society Chintu'),'Society Chintu kept distinct');
- await page.waitForFunction(()=>document.querySelectorAll('#shreya-ordered-beats > details').length===11);
- check(await page.locator('#shreya-ordered-beats > details').count()===11,'Shreya keeps eleven unwritten/held slots with the original beat numbering');
- check((await page.locator('#shreya-ep03-SR12 summary').innerText()).includes('ON HOLD'),'Beat 5 inmate bet visibly held');
+ await page.waitForFunction(()=>document.querySelectorAll('#shreya-ordered-beats > details').length===10);
+ check(await page.locator('#shreya-ordered-beats > details').count()===10,'Shreya current source has ten remaining plot/held slots after removing written scenes and deprecated Beat5');
+ check(await page.locator('#shreya-ep03-SR12').count()===0,'Shreya deprecated Beat5 not resurrected after source removal');
  check((await page.locator('#shreya-ep03-S03-09 > summary').innerText()).includes('ON HOLD'),'Beat 14 family/home marked author hold');
  check((await page.locator('#shreya-ep03-S03-07 > summary').innerText()).includes('Physical progression'),'Beat 12 Samar Shaan scene draft listed');
  check(await page.locator('#shreya-review-issue-S03-05').count()===1,'Shreya approved training beat has an explicit editorial discussion issue');
