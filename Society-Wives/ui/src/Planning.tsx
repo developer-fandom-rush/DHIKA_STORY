@@ -15,7 +15,7 @@ type ShivaniNewBeat={id:string;time:string;title:string;cast:string[];plot:strin
 type ShivaniSocietyReturn={title:string;status:string;proseStatus:string;date:string;time:{start:string;end:string};priorFoundation:string[];beats:ShivaniNewBeat[];restrictions:string[]};
 type ShivaniNightPlan={title:string;status:string;proseStatus:string;date:string;episodePlacement:string;time:{firstHomeBeat:string;nightEncounter:string};beats:ShivaniNewBeat[];continuityLocks:string[];relationshipSetup:{shivaniOm:{established:string;proposedNewCharacterAngle:string;fantasyPresentation:string;tone:string};deepuShivani:{established:string;proposedTonight:string};deepuKavya:{new:string;agency:string};twinsKavya:{new:string;distinctVoices:string}};futureArc:Record<string,string>};
 type TaniyaEpisode03Beat={id:string;time:string;title:string;location:string;cast:string[];purpose:string;action:string;visual:string;dialogue:{speaker:string;line:string}[];turn:string;status:string};
-type TaniyaEpisode03Plot={schemaVersion:number;episode:string;lead:string;title:string;date:string;start:string;end:string|null;status:string;goal:string;timeIntegrity?:{verifiedStart:string;verifiedCutoff:string;officeEnd:string;commuteAfterWork:string;societyArrival:string;soniyaFirstAppearance:string;consequence:string};plotPhases?:{key:string;beatIds:string[];time:string;state:string;note?:string}[];figureMapping:{group:string;members:string[];why:string}[];wardrobeStatus:string;wardrobe:string;beats:TaniyaEpisode03Beat[];authorLocks:string[];ending:string;sourceAnchors:{source:string;facts:string}[]};
+type TaniyaEpisode03Plot={schemaVersion:number;episode:string;lead:string;title:string;date:string;start:string;end:string|null;status:string;goal:string;timeIntegrity?:{verifiedStart:string;verifiedCutoff:string;officeEnd:string;commuteAfterWork:string;societyArrival:string;soniyaFirstAppearance:string;consequence:string};plotPhases?:{key:string;beatIds:string[];time:string;state:string;note?:string}[];interactionAudit?:{status:string;officeWomen:{name:string;age:number;role:string;status:string}[];males:{name:string;age:number;beatIds:string[];physical:string;relationship:string}[];note:string};figureMapping:{group:string;members:string[];why:string}[];wardrobeStatus:string;wardrobe:string;beats:TaniyaEpisode03Beat[];authorLocks:string[];ending:string;sourceAnchors:{source:string;facts:string}[]};
 type ShreyaBeat={id:string;time:string|null;type?:string;status:string;title:string;place:string|null;characters:string[];history:string;distinctEvent:string;reaction:string;dialogue?:string[][];exit:string;readerOnlyAfterbeat?:string;readerOnlyFantasy?:{trigger:string;fantasy:string;status?:string};wardrobeProposals?:Record<string,string>;wardrobeContinuity?:string;approvalScope?:string;sceneBeats?:{id:string;time:string;heading:string;plot:string;narration?:string;dialogue?:string[][];reaction?:string}[];sharedMemory?:{status:string;event:string;shreya:string;karan:string;aman:string;laterUse:string;sharedBanter:string};styleLock?:string;futureArc?:{coreConflict:string;nonsexualStakes:string;trajectory:string};};
 type ShreyaEpisode03Proposal={title:string;status:string;date:string;weekday:string;dayScope:{start:string;end:string;certainty:string};anchor:string;userLocks:string[];timeline:ShreyaBeat[];parkedFutureEncounters:ShreyaBeat[];mergedTransitions:{from:string;into:string;time:string;text:string;status:string}[];reviewBeatSequence:{number:number;id:string;kind:string;title:string;label:string}[];reviewSequencePolicy:string;editorial:{approvalRule:string;sequence:string;sourceIntegrity:string}};
 type ShivaniStaffroomPlot={scene:string;status:string;date:string;start:string;end:string;location:string;purpose:string;wardrobeStatus:string;wardrobe:{name:string;age:number;role:string;outfit:string;narratorView:string;referenceColor:string}[];imageReference:{origin:string;status:string;use:string};beats:{id:string;time:string;title:string;focus:string;action:string;narrator?:string;dialogue?:{speaker:string;line:string}[];seed?:string;note?:string}[];plotLocks:string[];};
@@ -88,10 +88,10 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
     <article className="episode-plan-card">
       <span className="eyebrow">Taniya · Episode 03 · 1 January 2026 · author review draft</span>
       <h2>Taniya — Solo Afternoon: Office → Society → Home</h2>
-      <p className="source-note"><strong>UNAPPROVED WORKING PLOT — OFFICE TIMING CORRECTED:</strong> Twelve-beat sequence only. Post-office society meetings are UNSCHEDULED until the end of the CA shift and commute are verified. Do not treat the old afternoon homecoming times as canon. Episode 02 is untouched.</p>
+      <p className="source-note"><strong>UNAPPROVED WORKING PLOT — OFFICE TIMING CORRECTED:</strong> Twelve-beat sequence only. User confirmed a nine-hour CA-office shift: 10:30 AM–7:30 PM. Society encounters remain CONDITIONAL on actual post-shift commute and character availability. Do not treat the old afternoon homecoming times as canon. Episode 02 is untouched.</p>
       <p><strong>Absolute POV boundary:</strong> Soniya does not enter the story until Taniya reaches the shared flat in the final doorway beat. There are no earlier Soniya calls, messages, cutaways or dialogue.</p>
       {taniyaEpisode03Plot?<>
-        <p><strong>Verified:</strong> CA office starts 10:30 AM; Episode 02 cutoff 1:15 PM with Taniya still working. <strong>Office closing time and return-home time are NOT established.</strong></p>
+        <p><strong>Office shift (author-confirmed): 10:30 AM–7:30 PM (9 hours).</strong> Episode 02 ends at 1:15 PM while Taniya is still at the CA office. Society arrival is estimated only after commute, not yet locked.</p>
         <p className="source-note"><strong>AUTHOR REVIEW — TIMING CORRECTION:</strong> The earlier 4:05 PM office exit, 4:42 PM society arrival and 5:09 PM home arrival were assistant assumptions, not established canon. Those time slots are cancelled; plots remain drafts.</p>
         {taniyaEpisode03Plot.timeIntegrity&&<p><strong>Scheduling impact:</strong> {taniyaEpisode03Plot.timeIntegrity.consequence}</p>}
         {taniyaEpisode03Plot.plotPhases&&<div className="beat-list">{taniyaEpisode03Plot.plotPhases.map(phase=><div className="beat-item" key={phase.key}><p><strong>{phase.key.toUpperCase()}:</strong> {phase.time} — {phase.state}</p>{phase.note&&<p>{phase.note}</p>}</div>)}</div>}
@@ -103,6 +103,18 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
             <p>{group.why}</p>
           </div>)}</div>
         </details>
+        {taniyaEpisode03Plot.interactionAudit&&<details className="episode-outline" open id="taniya-ep03-contact-audit">
+          <summary><strong>NEW · Male-by-male physical contact audit + all four office women</strong></summary>
+          <p className="source-note"><strong>Existing draft conclusion:</strong> No actual male body-touch is written yet. The single Raghav screen handover is close proximity, not physical contact.</p>
+          <h3>Office women (presence vs missing beats)</h3>
+          <div className="beat-list">{taniyaEpisode03Plot.interactionAudit.officeWomen.map(w=><div className="beat-item" key={w.name}><p><strong>{w.name} ({w.age}) — {w.role}:</strong> {w.status}</p></div>)}</div>
+          <h3>Male interactions — exact current draft, no invented touches</h3>
+          <div className="beat-list">{taniyaEpisode03Plot.interactionAudit.males.map(m=><div className="beat-item" key={m.name}>
+            <p><strong>{m.name} ({m.age}) · {m.beatIds.join(', ')}</strong></p>
+            <p><strong>Physical:</strong> {m.physical}</p><p><strong>Relationship:</strong> {m.relationship}</p>
+          </div>)}</div>
+          <p>{taniyaEpisode03Plot.interactionAudit.note}</p>
+        </details>}
         <details className="episode-outline">
           <summary>Wardrobe continuity and scene-writing restrictions</summary>
           <p>{taniyaEpisode03Plot.wardrobe}</p>
