@@ -15,12 +15,12 @@ function Episode02Reading({character,scene}:Props){
  const goScene=(id:string,who=active)=>openPage('reading',{character:who,scene:id});
  const html=selected?.source_html_lines_exact?.join('\n')||'';
  const safeHtml=DOMPurify.sanitize(html,{USE_PROFILES:{html:true},FORBID_ATTR:['href','target','rel']});
- const displayStatus=selected&&archive?(approvedScene(archive,selected)?'Approved source':'Published source — approval review'):null;
+ const displayStatus=selected&&archive?(archive.finalFrozen?'Final · Author approved · Frozen':approvedScene(archive,selected)?'Approved source':'Published source — approval review'):null;
  return <main className="page-width">
   <header className="section-intro"><span className="eyebrow">The Story · 1 January 2026</span><h1>Episode 02</h1><p>The New Year's Unspoken Secrets · Choose whose story to read.</p></header>
   <div className="episode-picker" role="group" aria-label="Choose episode"><button type="button" onClick={()=>openPage('home')}>Episode 01 · Prologue</button><span className="episode-picker-current" aria-current="page">Episode 02 · Six perspectives</span><button type="button" onClick={()=>openPage('reading',{episode:'03',character:active,scene:'01'})}>Episode 03 · Prose</button></div>
   <p className="reader-intro">Pick a character below, then continue scene by scene. Your place in this reading session is shown underneath.</p>
-  <section className="source-note"><strong>Episode 03 has its own prose chapters in this same reader.</strong><p>Read Ankita's Scenes 01–08, Meenakshi's story scenes, or Shreya's SR10 working draft with G01–G07 author insertions.</p><button type="button" className="button primary" onClick={()=>openPage('reading',{episode:'03',character:'ankita',scene:'01'})}>Read Episode 03 prose →</button></section>
+  <section className="source-note"><strong>Episode 03 has its own prose chapters in this same reader.</strong><p>Read Ankita's Scenes 01–08, Meenakshi's scenes, or Shreya's approved SR10 and Strong-Chai scenes.</p><button type="button" className="button primary" onClick={()=>openPage('reading',{episode:'03',character:'ankita',scene:'01'})}>Read Episode 03 prose →</button></section>
   <div role="group" aria-label="Choose character perspective" className="perspective-tabs">{peopleOrder.map(w=><button type="button" key={w} onClick={()=>openPage('reading',{character:w})} aria-pressed={w===active} className={w===active?'selected':''}>{titleCase(w)}</button>)}</div>
   <div className="reader-layout">
    <aside className="scene-sidebar"><p className="aside-title">{titleCase(active)} · scenes</p>
@@ -30,6 +30,7 @@ function Episode02Reading({character,scene}:Props){
    <div className="reading-surface">
     {archive&&!scenes.length&&<div className="source-note">SOURCE MISSING — No published scenes in this archive.</div>}
     {selected&&<><div className="story-toolbar"><span>{selected.scene_id}</span><span className="meta-pill">{displayStatus}</span></div>
+     {archive?.finalFrozen&&<p className="source-note"><strong>Final · Author approved · Frozen.</strong> Older badges inside the archived source reflect historical review states; all existing Episode 02 story scenes have current final author approval.</p>}
      <div className="source-scene prose-exact" dangerouslySetInnerHTML={{__html:safeHtml}} />
      <div className="chapter-controls"><button type="button" className="button subtle" disabled={index<=0} onClick={()=>goScene(scenes[index-1].scene_id)}>← Previous scene</button><span>Scene {index+1} of {scenes.length} · {visited[active]?.length||1} visited</span><button type="button" className="button primary" disabled={index>=scenes.length-1} onClick={()=>goScene(scenes[index+1].scene_id)}>Next scene →</button></div>
      <details className="source-footnote"><summary>About this story edition</summary><p>The original scene text and order are preserved. Editorial approval states remain as recorded; unfinished scene outlines are kept in Episode Planning.</p></details>
