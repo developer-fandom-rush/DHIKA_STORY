@@ -8,7 +8,7 @@
   "timezone": "Asia/Kolkata",
   "lead": "shreya",
   "leadName": "Shreya",
-  "status": "USER_CORRECTED_DATE_2026_01_01__WORKING_PLOT_ONLY_NO_PROSE",
+  "status": "SR10_FINAL_AUTHOR_APPROVED_PROSE_PUBLISHED__REMAINING_EP03_PLAN_NOT_FULLY_LOCKED",
   "continuityFrom": {
     "sourceEpisode": 2,
     "sourceDate": "2026-01-01",
@@ -31,46 +31,67 @@
         "acp",
         "shreya_woman_03"
       ],
-      "summary": "Shreya arrives during Poonam's close-contact training test. Poonam is lying on a mat while ACP Verma is positioned above her; they separate immediately when Shreya enters. The posture and sudden separation strike Shreya as awkward. Verma and Poonam explain that the test is part of the Vivek-linked women's training program. Verma says Shreya will be tested too; she teasingly asks whether he himself will take her test, and he replies yes. No additional physical act is established.",
+      "summary": "Final author-approved EP03 SR10 prose in episode-03-reader.json (Shreya chapter 10): Poonam's ACP-led close-contact assessment has concluded before Shreya enters; assessment review, Shreya's one-button-open khaki uniform, playful dialogues and ACP's reader-only private thoughts follow. Exact original scene text G01–G07 is preserved in the reader; the former mat-restraint arrival is not part of this SR10.",
       "beats": [
-        "Chauhan se baat khatam karke Shreya case file lekar ACP ke training-assessment room ki taraf badhi.",
-        "Shreya had arranged a special training assignment with gym trainer Vivek for female station staff; ACP Verma now leads their evaluation. Other enrolled women are not automatically in the room.",
-        "On entry Shreya sees Poonam lying on a mat and ACP positioned above her; they separate promptly, explain it as a training test, and Shreya finds the moment odd without discovering their private involvement.",
-        "Verma says Shreya has a forthcoming test; Shreya playfully asks if he will administer it; he answers yes.",
-        "After Shreya and Poonam leave, Verma privately fantasizes about someday having sex with Shreya. Reader-only, unreciprocated and not acted on."
+        "One-line SR09 corridor transition into the ACP training/assessment room. EP02 ends 10:15; SR10 10:30–11:10.",
+        "G01/G02: author's submitted pre-entry assessment and recovery, with exact prose only in episode-03-reader.json.",
+        "G03/G04: Shreya enters composed, first khaki uniform button open and second closed; ACP and Poonam notice the difference; Shreya remains unaware of their private relationship.",
+        "G05: reader-only recall of preceding moments; Shreya did not witness it.",
+        "G06: Shreya's witty verbal challenge about ACP administering her future assessment; no assessment of Shreya occurs here.",
+        "G07: reader-only ACP private fantasy; Shreya does not know; this entire prose is author-approved without alterations."
       ],
-      "dialogue": [
-        [
-          "ACP Verma",
-          "Training test chal raha tha. Poonam ka assessment dekh raha tha."
-        ],
-        [
-          "Poonam",
-          "Haan ma'am, Vivek ke training module ka test hai."
-        ],
-        [
-          "ACP Verma",
-          "Shreya, tumhari bhi training hai. Tumhara test bhi hoga. Be ready."
-        ],
-        [
-          "Shreya",
-          "Haan haan, sir... lekin mera test bhi aap hi lenge?"
-        ],
-        [
-          "ACP Verma",
-          "Haan."
-        ]
-      ],
+      "dialogue": [],
       "notes": [
         "User-directed: moved from Episode 02 10:15 cutoff to Episode 03 later Jan 1. Do not publish as Jan 1. Time windows are placeholders pending Jan 1 global clock reconciliation.",
-        "2026-11-16 author-requested revision of SR10: B1 S03-00 absorbed as one-line transition; new ACP/Poonam training test and ACP reader-only private fantasy replace the prior solo-briefing scene concept. Poonam/ACP involvement has no invented detailed backstory. Existing approval remains working plot only."
+        "2026-11-16 author-requested revision of SR10: B1 S03-00 absorbed as one-line transition; new ACP/Poonam training test and ACP reader-only private fantasy replace the prior solo-briefing scene concept. Poonam/ACP involvement has no invented detailed backstory. Existing approval remains working plot only.",
+        "2026-11-17: User approved full G01–G07 reader prose as final and published. Exact text is source of truth; prior SR10 proposal and mat-position arrival were superseded. Future mat-restraint accident remains HOLD, not part of SR10."
       ],
-      "approval": "AUTHOR_REVISED_WORKING_PLOT_ONLY_PROSE_PENDING",
+      "approval": "AUTHOR_APPROVED_FINAL_PROSE_PUBLISHED_2026_11_17",
       "date": "2026-01-01",
       "weekday": "Thursday",
       "episode": 3,
       "scheduling": "REPOSITIONED_TO_2026_01_01_BY_AUTHOR_DATE_CORRECTION; TIME_WINDOWS_WORKING",
-      "originalDate": "2026-01-03"
+      "originalDate": "2026-01-03",
+      "supersededWorkingVersion": {
+        "summary": "Shreya arrives during Poonam's close-contact training test. Poonam is lying on a mat while ACP Verma is positioned above her; they separate immediately when Shreya enters. The posture and sudden separation strike Shreya as awkward. Verma and Poonam explain that the test is part of the Vivek-linked women's training program. Verma says Shreya will be tested too; she teasingly asks whether he himself will take her test, and he replies yes. No additional physical act is established.",
+        "beats": [
+          "Chauhan se baat khatam karke Shreya case file lekar ACP ke training-assessment room ki taraf badhi.",
+          "Shreya had arranged a special training assignment with gym trainer Vivek for female station staff; ACP Verma now leads their evaluation. Other enrolled women are not automatically in the room.",
+          "On entry Shreya sees Poonam lying on a mat and ACP positioned above her; they separate promptly, explain it as a training test, and Shreya finds the moment odd without discovering their private involvement.",
+          "Verma says Shreya has a forthcoming test; Shreya playfully asks if he will administer it; he answers yes.",
+          "After Shreya and Poonam leave, Verma privately fantasizes about someday having sex with Shreya. Reader-only, unreciprocated and not acted on."
+        ],
+        "dialogue": [
+          [
+            "ACP Verma",
+            "Training test chal raha tha. Poonam ka assessment dekh raha tha."
+          ],
+          [
+            "Poonam",
+            "Haan ma'am, Vivek ke training module ka test hai."
+          ],
+          [
+            "ACP Verma",
+            "Shreya, tumhari bhi training hai. Tumhara test bhi hoga. Be ready."
+          ],
+          [
+            "Shreya",
+            "Haan haan, sir... lekin mera test bhi aap hi lenge?"
+          ],
+          [
+            "ACP Verma",
+            "Haan."
+          ]
+        ],
+        "approval": "AUTHOR_REVISED_WORKING_PLOT_ONLY_PROSE_PENDING",
+        "note": "Archived working notes, including mat-position concept held for future, not the approved SR10 prose."
+      },
+      "sourceFile": "./episode-03-reader.json",
+      "sourceChapter": {
+        "character": "shreya",
+        "id": "10",
+        "status": "AUTHOR_APPROVED_FINAL_PROSE_PUBLISHED_2026_11_17"
+      }
     },
     {
       "id": "SR11",
@@ -172,11 +193,11 @@
   "schedulingNotes": [
     "Author corrected Episode 03 date from Jan 3 to Thursday January 1, 2026. Original Jan 3 version preserved separately at Society-Wives/episode-03-shreya-plan-archive-jan03.json",
     "All nine existing SR Episode 02 prose scenes now author-approved; SR03 is approved plot with missing full prose. Episode 02 ends Jan 1 10:15 AM.",
-    "SR10–SR13 remain the existing working scene concepts, currently provisionally placed between 10:30 and 13:15 on Jan 1. This retiming does not convert them into approved prose.",
+    "SR10 full prose approved and in EP03 reader as of 2026-11-17; SR11 and SR13 remain working plot/prose pending and SR12 is HOLD.",
     "Two Chotu roles must stay distinct: society security helper Chintu (23) and newly proposed police-station chai wala (adult, ID shreya_station_chotu).",
     "Further twins/tea vendor/society scenes should be proposed separately, not misrepresented as fixed source history.",
     "Do not invent Jan 2 or Jan 3 scenes or overlap other leads.",
-    "2026-11-16: The prior B1 corridor bridge is a one-line transition inside SR10, not a standalone scene; author supplied the revised Poonam–ACP training assessment, brief Shreya dialogue and ACP reader-only fantasy. The earlier individual-briefing SR10 premise is superseded, not approved prose.",
+    "2026-11-16 working SR10 revision has since been replaced by final author-approved SR10 prose on 2026-11-17; one-line B1 transition merged, author-supplied G01–G07 preserved verbatim.",
     "2026-11-16: Author approved the existing S03-01 Strong-Chai Moment without alteration. SR11 now contains proposed DCP reader-only fantasy logic; SR12 cellblock bet held for unscheduled future encounters (three adult inmates; competitive-ego challenge). Unassigned 11:40–12:20 is not an invented scene.",
     "2026-11-16: After approved B10, B11 only a station→society transition; B12 Shreya/Samar/Shaan physically close but non-graphic 6-step sports-volunteer scene 17:10–17:33; B13 society Chintu (not station Chotu) known-register 3-step continuation 17:35–17:45; B14 home/family lane removed from active schedule and author-HOLD."
   ],
