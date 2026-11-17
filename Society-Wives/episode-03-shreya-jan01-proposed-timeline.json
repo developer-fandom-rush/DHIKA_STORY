@@ -595,7 +595,15 @@
         "reason": "The training ground plot over-relies on a brief waist/forearm stabilization and declares a charged effect without a sufficiently distinctive event or individualized immediate reaction. The approved five-person drill and Lokesh result must be preserved; physical staging and its consequence need a dedicated author-led review before prose.",
         "requiredDiscussion": "Decide what materially changes for Shreya, Lokesh and Rohas during this existing competitive drill. Do not automatically add a longer shoulder/hand-touch ladder or rewrite approved drill beats.",
         "approvalBoundary": "Editorial critique only. Do not revoke the prior plot approval, rewrite accepted dialogue, or silently introduce new intimate actions."
-      }
+      },
+      "proseStatus": "GROK_SYNCED_COMPLETE_PROSE_IN_READER_AWAITING_AUTHOR_APPROVAL_2026_11_17",
+      "sourceChapter": {
+        "file": "episode-03-reader.json",
+        "id": "S03-05",
+        "status": "READER_DRAFT_NOT_FINAL"
+      },
+      "sourceReviewFile": "episode-03-shreya-beat-10-training-ground-review.json",
+      "approvedResultUnchanged": true
     },
     {
       "id": "S03-06",
@@ -608,10 +616,15 @@
         "Shreya"
       ],
       "history": "The five-person Beat 10 ends 16:05; morning station commute was ~30 minutes. No overlap with Karan and Aman, who are independently leaving college for other business and scheduled later in Ankita's story.",
-      "distinctEvent": "After 15:40–16:05 approved training-ground drill, Shreya signs out the training checklist, winds down station work until ~16:35, and drives home by ~17:05. She chooses to keep the navy dry-fit training T-shirt, black trousers and ponytail from Beat 10, rather than inventing a second wardrobe change; her police uniform is already stored. One concise transition, not a separate intimacy or extra officer encounter.",
+      "distinctEvent": "After the 15:40–16:05 five-person training-ground drill, Shreya changes back from her navy sportswear into a properly buttoned khaki duty uniform in the station changing room (as written in the latest author-directed consolidated Beat 10 prose). She completes checklist and remaining station closeout until about 16:35, then drives alone to Gulmohar Heights by about 17:05. One concise logistical transition, no new officer encounter or romance beat.",
       "reaction": "She is physically alert after a full day and wants to go home, but her existing acquaintance with the society sports twins makes a brief stop at the courtyard natural.",
       "exit": "Arrives society ~17:05; pauses at sports courtyard shortly after.",
-      "dialogue": []
+      "dialogue": [],
+      "supersededWardrobeContinuity": {
+        "distinctEvent": "After 15:40–16:05 approved training-ground drill, Shreya signs out the training checklist, winds down station work until ~16:35, and drives home by ~17:05. She chooses to keep the navy dry-fit training T-shirt, black trousers and ponytail from Beat 10, rather than inventing a second wardrobe change; her police uniform is already stored. One concise transition, not a separate intimacy or extra officer encounter.",
+        "reason": "Earlier draft kept navy training outfit; later author-selected Bridge full prose explicitly switches to khaki uniform after 4:05 PM. Archived, not active."
+      },
+      "prosePendingWardrobeLock": "ARRIVES_SOCIETY_IN_KHAKI_AFTER_BEAT10_RETURN_TO_DUTY_UNIFORM"
     },
     {
       "id": "S03-07",
@@ -625,18 +638,18 @@
         "Samar (24, society sports twin)",
         "Shaan (24, society sports twin)"
       ],
-      "history": "EP02 SR01 06:55–07:28: Shreya and these two biological twins have trained together for months. She beat Samar's plank challenge and Shaan's balance challenge. Samar's coffee wager and Shaan's saree/get-together wager remain conditional and at her discretion. Samar is openly teasing, Shaan quieter and more observant. Their formal jobs are NOT established; both are society sports volunteers responsible for this event's kit/setup. Shreya has just completed police-station training in her navy training tee, black trousers and high ponytail.",
+      "history": "EP02 SR01 06:55–07:28: Shreya and these two biological twins have trained together for months. She beat Samar's plank challenge and Shaan's balance challenge. Samar's coffee wager and Shaan's saree/get-together wager remain conditional and at her discretion. Samar is openly teasing, Shaan quieter and more observant. Their formal jobs are NOT established; both are society sports volunteers responsible for this event's kit/setup. Shreya completed police-station training and changed back into a properly buttoned khaki police uniform before station closeout and society return.",
       "distinctEvent": "Samar and Shaan are legitimately setting up their society's New Year fitness activity, testing resistance handles and a low marked balance strip rather than waiting around for Shreya. Shreya sees a misaligned marker and chooses to give the equipment a quick trial. Samar's palm-to-palm partner resistance feels initially familiar, but an unexpected shared step brings his hand to the outside of her upper arm as he stabilizes the strap handle; Shreya feels a brief charged surprise, notices he did not exploit the moment and keeps participating voluntarily. Shaan then quietly checks the balance strip and, after asking permission to steady her, offers his forearm and for one short shift supports the outside of her clothed waist. The stillness and trust-based proximity feel unexpectedly different to Shreya from Samar's overt competitive energy. She notices a faster heartbeat and heightened awareness, steps away on her own, and restores their ordinary teasing without revealing private feelings. No repeated falls, staged clothing accidents, chest contact or implied consent to further physical contact. Both pending bets stay conditional.",
       "reaction": "Shreya notices two separate forms of attraction: Samar's irrepressible energy and contact during a controlled challenge; Shaan's measured support and how unusually intimate a fleeting still moment can feel. Her pulse and attention sharpen without any explicit sexual act, romantic promise or loss of professional judgment. The twins remain distinct individuals and cannot read her private thoughts.",
       "exit": "17:33 Shreya chooses to head to society security desk; twins remain on their own sports setup. Beat 13 begins ~17:35. Personal awareness is hers alone. No coffee/get-together locked.",
-      "wardrobeContinuity": "Shreya continues in the navy fitted training T-shirt, black training trousers and ponytail from station Beat 10. Clothing lies naturally over her athletic movement, without a new exposure. Samar and Shaan wear ordinary sports volunteer exercise clothes and sneakers; exact colors are still open.",
+      "wardrobeContinuity": "After Beat 10, Shreya has changed into her properly buttoned khaki duty uniform for her station closeout and society return. Do not depict her in the prior navy tee during this courtyard proposal unless author later revises the outfit. Samar and Shaan remain sports volunteers in exercise clothes.",
       "approvalScope": "AUTHOR_SELECTED_DIRECTION: two distinct non-graphic physical-contact progressions, Shreya's unexpected charged awareness, natural established flirting. Detailed dialogue, equipment and precise minute timing are working plot prose for author review, not previously authored/approved scene prose.",
       "sceneBeats": [
         {
           "id": "B12-01",
           "time": "17:10–17:13",
           "heading": "Why they are at the courtyard",
-          "plot": "As sports volunteers, both twins are preparing the New Year society activity: Samar tests the partner-resistance bands, Shaan marks the low balance strip and checks safe clearance. After the police duty drive, Shreya walks by in the same navy training tee and black trousers, recognizes their familiar workout voices, and voluntarily stops for a quick look.",
+          "plot": "As sports volunteers, both twins are preparing the New Year society activity: Samar tests the partner-resistance bands, Shaan marks the low balance strip and checks safe clearance. After the police duty drive, Shreya walks by in the properly buttoned khaki duty uniform, recognizes their familiar workout voices, and voluntarily stops for a quick look.",
           "narration": "Courtyard mein resistance bands aur floor markers set ho rahe the. Samar ne Shreya ko dekhte hi smile ki, Shaan ne marker check karte hue sir uthaya. Shreya ka ponytail din bhar ki training ke baad thoda loose tha; usne file bag kandhe par adjust kiya.",
           "dialogue": [
             [
@@ -788,7 +801,7 @@
         }
       ],
       "dialogue": [],
-      "styleLock": "Event first, athletic clothing continuity from B10, non-graphic romantic charge through distinct voluntary physical contacts, paced dialogue and one short Shreya internal response. Samar is overt/competitive; Shaan quiet/observant. One changed pressure contact and one requested spot, not a repetitive accidental-fall ladder. No physical exposure, no second training challenge at station, and never presume privacy thoughts are known to twins.",
+      "styleLock": "Event first, wardrobe continuity with the later Beat10 khaki-uniform change, non-graphic romantic charge through distinct voluntary physical contacts, paced dialogue and one short Shreya internal response. Samar is overt/competitive; Shaan quiet/observant. One changed pressure contact and one requested spot, not a repetitive accidental-fall ladder. No physical exposure, no second training challenge at station, and never presume privacy thoughts are known to twins.",
       "editorialIssueToDiscuss": {
         "id": "REVIEW-S03-07-SAMAR-SHAAN-ESCALATION",
         "status": "OPEN_FOR_AUTHOR_DISCUSSION",
@@ -796,6 +809,12 @@
         "reason": "The proposed Samar–Shaan encounter currently describes multiple forearm/upper-arm/waist steadies and labels them 'charged', but the actual distinctive incident, different bodily/emotional responses and persistent memorable turning point are underdeveloped. This is the same repetitive weak-touch technique rejected by the Dhika EP01–EP03 recalibration guide.",
         "requiredDiscussion": "Keep Samar and Shaan distinct and retain their two established bets. Before prose, design a meaningful event and immediate individual aftermath rather than another staged balancing/spotter move or a prescribed number of small touches.",
         "approvalBoundary": "Only a review note on current draft; keep prior event text and user selected direction intact until author review."
+      },
+      "supersededWardrobeContinuity": {
+        "history": "EP02 SR01 06:55–07:28: Shreya and these two biological twins have trained together for months. She beat Samar's plank challenge and Shaan's balance challenge. Samar's coffee wager and Shaan's saree/get-together wager remain conditional and at her discretion. Samar is openly teasing, Shaan quieter and more observant. Their formal jobs are NOT established; both are society sports volunteers responsible for this event's kit/setup. Shreya has just completed police-station training in her navy training tee, black trousers and high ponytail.",
+        "wardrobeContinuity": "Shreya continues in the navy fitted training T-shirt, black training trousers and ponytail from station Beat 10. Clothing lies naturally over her athletic movement, without a new exposure. Samar and Shaan wear ordinary sports volunteer exercise clothes and sneakers; exact colors are still open.",
+        "firstPlot": "As sports volunteers, both twins are preparing the New Year society activity: Samar tests the partner-resistance bands, Shaan marks the low balance strip and checks safe clearance. After the police duty drive, Shreya walks by in the same navy training tee and black trousers, recognizes their familiar workout voices, and voluntarily stops for a quick look.",
+        "reason": "Previous navy carryover contradicted current author-requested Beat10 duty-uniform change."
       }
     },
     {
@@ -1008,7 +1027,7 @@
       "id": "S03-05",
       "kind": "active",
       "title": "Five-person Training Ground Challenge",
-      "label": "Approved plot · prose pending"
+      "label": "Full Grok-synced prose · in Reader · author review"
     },
     {
       "number": 11,
