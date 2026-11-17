@@ -217,10 +217,15 @@ try {
  check((await page.locator('#shivani-episode04a').innerText()).includes('fade-to-black'),'Non-graphic wife-and-husband intimacy remains in planning');
  check((await page.locator('#ep04-chotu-planning').innerText()).includes('Remaining Five Women'),'Shared workshop properly excludes Ankita');
  await page.locator('.perspective-tabs button', {hasText:'Taniya'}).click();
+ await page.waitForFunction(()=>document.querySelector('#taniya-soniya-episode04a')?.textContent?.includes('three-question confidence test'));
+ check((await page.locator('#taniya-soniya-episode04a').innerText()).includes('Scene 05'),'Joint Taniya/Soniya EP04A five-scene plan shown');
+ check((await page.locator('#taniya-soniya-episode04a').innerText()).includes('T03-11'),'Twins encounter correctly stays in EP03');
  await page.waitForFunction(()=>document.querySelectorAll('#ep04-chotu-planning .episode-outline').length>=2);
  check((await page.locator('#ep04-chotu-planning').innerText()).includes('Punit'),'New Chotu workshop shows the office helper for Taniya');
  check((await page.locator('#ep04-chotu-planning').innerText()).includes('Guddu'),'New Chotu workshop shows the society helper for Taniya');
  await page.locator('.perspective-tabs button',{hasText:'Soniya'}).click();
+ await page.waitForFunction(()=>document.querySelector('#taniya-soniya-episode04a')?.textContent?.includes('Guddu'));
+ check((await page.locator('#taniya-soniya-episode04a').innerText()).includes('Scene 03'),'Joint EP04A night plan remains visible in Soniya view');
  await page.waitForFunction(()=>document.querySelector('#ep04-chotu-planning')?.textContent?.includes('The runaway equipment trolley'));
  check((await page.locator('#ep04-chotu-planning').innerText()).includes('The willing layout demonstration'),'Soniya has a separate two-phase Chotu track');
  await page.locator('.perspective-tabs button',{hasText:'Taniya'}).click();
