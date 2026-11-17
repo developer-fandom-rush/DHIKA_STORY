@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-17-EP03-SHREYA-SR10-FINAL-APPROVED",
+  "version": "2026-11-17-EP03-SHREYA-SR10-AND-STRONGCHAI-APPROVED",
   "episode": "03",
   "title": "The New Year's Continuing Encounters",
   "date": "2026-01-01",
@@ -992,6 +992,24 @@
           "publication": "Existing Episode 03 unified reader",
           "sourceOfTruth": "episode-03-reader.json chapters.shreya id 10",
           "contentPreservedVerbatim": true
+        }
+      },
+      {
+        "id": "S03-01",
+        "title": "Beat 03 — The Strong-Chai Moment (Station Chotu)",
+        "date": "2026-01-01",
+        "time": "11:12–11:25 AM",
+        "place": "Police Station — Authorized Tea Counter",
+        "status": "AUTHOR_APPROVED_FINAL_PROSE_PUBLISHED_2026_11_17",
+        "source": "Short prose draft offered in conversation 2026-11-17, explicitly approved by author for direct UI publication",
+        "format": "raw",
+        "raw": "### S03-01 — The Strong-Chai Moment\n**11:12 AM · Police Station Tea Counter**\n\nShreya file lekar tea counter par pahunchi. Subah se chal rahe encounters ke baad usne ek moment ke liye paperwork se nazar hatayi.\n\nChotu ne bina order poochhe ek cup uske saamne rakh diya.\n\n**Shreya:** “Tumhe kaise pata ye meri chai hai?”\n\n**Chotu:** “Madam, station ke saare orders yaad hote hain. Par kuch logon ki preference bhoolna mushkil hota hai.”\n\nShreya ne eyebrow raise ki.\n\n**Shreya:** “Achha? Phir tumhari memory ka ek din proper test lungi.”\n\nChotu muskura diya.\n\n**Chotu:** “Zaroor, madam.”\n\nShreya ne chai taste ki. Strong thi, bilkul uski preference ke mutabik.\n\nWoh file utha kar jaane lagi toh Chotu ne counter par pada ek receipt notice kiya.\n\n**Chotu:** “Madam, yeh aapka receipt reh gaya.”\n\nShreya ne receipt liya. Uspar counter ka operating-time stamp tha.\n\n*Chai ki preference hi nahi, chhoti details bhi notice karta hai.*\n\nTabhi Javed paperwork lekar aa gaya.\n\n**Javed:** “Ma'am, requested file aa gayi.”\n\n**Shreya:** “Good. Chalo.”\n\nShreya file aur chai lekar wapas chal di. Chotu apne counter ke kaam mein lag gaya.\n\n**Scene ends.**",
+        "authorApproval": {
+          "date": "2026-11-17",
+          "scope": "Complete short Strong-Chai prose",
+          "frozen": true,
+          "changePolicy": "No content changes without author request",
+          "approval": "Author explicitly approved scene and requested direct UI publication"
         }
       }
     ]
