@@ -12,7 +12,7 @@ assert.equal(ep01.shivaniProloguePriorContact?.sourceScene,'S07 — The college 
 assert.equal(ep01.shivaniProloguePriorContact.normalContactAlreadyOccurred.length,5,'Five ordinary gesture baselines need original source');
 assert.ok(ep01.scenes.find(s=>s.id==='S07').narration.some(t=>t.includes('Established earlier campus familiarity')),'Physical familiarity must be visible in Prologue narration');
 
-assert.ok(ep01.status.includes('NOT_APPROVED'),'EP01 status conflict must remain visible');
+assert.ok(ep01.status.includes('FINAL_FROZEN')&&ep01.currentAuthorApproval?.preserveOriginalSceneText,'EP01 now author-approved final without modifying original scenes');
 const originalHtml=readFileSync(resolve(root,'episode-02.html'),'utf8');
 const leads=['ankita','shivani','taniya','soniya','meenakshi','shreya'];
 let total=0;
@@ -106,7 +106,7 @@ assert.ok(sourceCharacters.includes("['ayaan','armaan_s'].includes(selected.id)"
 assert.ok(sourcePlanning.includes('Office Twins (people having same image)'), 'Planning label must distinguish group shorthand from biological kinship');
 assert.ok(sourcePlanning.includes('Society Twins (people having same image)'), 'Proposed Ayaan–Armaan society pair must be visible in UI');
 assert.ok(sourcePlanning.includes('5:20–5:50 PM'), 'Ankita twin ride conflict needs visible continuity warning');
-assert.ok(sourcePlanning.includes('prose now in Reading'),'Planning must redirect written Ankita scenes');
+assert.ok(sourcePlanning.includes('ankita-ep03-written-moved')&&sourcePlanning.includes('Scenes 01–08 are already written'),'Planning must redirect all written Ankita scenes without duplicating prose plots');
 assert.ok(!sourcePlanning.includes('author-selected-F01'),'Planning must not duplicate Meenakshi farmhouse prose');
 
 const ankitaScene02=read('episode-03-ankita-scene-02.json');
@@ -571,16 +571,25 @@ console.log('PASS: '+paths.size+' GitHub images, 16 restricted Drive references,
 
 const universalJan=JSON.parse(readFileSync(resolve(ui,'src/data/sw-timeline-jan01.json'),'utf8'));
 assert.equal(universalJan.events.find(x=>x.id==='e03-shreya-S03-03')?.beats?.length,5,'Universal timeline must also index all college event mini-beats');
+assert.equal(universalJan.events.filter(e=>e.id.startsWith('e03-taniya-T03-')).length,12,'Taniya complete twelve-beat approved plot indexed in universal Jan1 timeline');
+assert.ok(universalJan.events.find(e=>e.id==='e03-taniya-T03-11')?.sort==='20:16','Karan and Aman meet Taniya after Shivani/Kavya 19:23 slot');
+assert.equal(universalJan.events.filter(e=>e.id.startsWith('e03-shivani-')).length,3,'Shivani Scene02/Scene03 proposed date-scoped plot indexed');
+assert.equal(universalJan.events.filter(e=>e.id.startsWith('future-shivani-jan01-')).length,2,'Shivani same-date future night plans indexed without changing future source');
+assert.ok(universalJan.events.find(e=>e.id==='ep03-ankita-scene03')?.reader?.type==='sw-episode03','Ankita written Scene03 links to Reader, not Plot');
+assert.ok(universalJan.events.filter(e=>e.episode==='02').every(e=>e.status.includes('approved final')&&!/pending|review/i.test(e.status)),'Episode 02 has no stale per-scene approval/review labels in global timeline');
+assert.ok(sourcePlanning.includes('ankita-future-personal-presentation')&&sourcePlanning.includes('ankita-ep04-rohit-first-show'),'Previously parked Ankita future plans must stay intact in Planning');
+assert.ok(!sourcePlanning.includes('id="ankita-ep03-scene05"')&&!sourcePlanning.includes('id="ankita-ep03-scene08"'),'Written Ankita episode03 duplicate plot cards removed');
+assert.ok(finalReaderReact.includes('ep02-final-reader')&&finalReaderReact.includes('Scenes 01–08'),'Reader reflects EP02 freeze and complete Ankita EP03 written-scene list');
 const universalFuture=JSON.parse(readFileSync(resolve(ui,'src/data/sw-timeline-future.json'),'utf8'));
 const universalDhika=JSON.parse(readFileSync(resolve(ui,'src/data/dhika-universal-timeline.json'),'utf8'));
 assert.equal(universalJan.anchorDate,'2026-01-01','Society Wives story anchor must be Jan 1 2026');
 assert.equal(universalDhika.anchorDate,'2026-01-01','Dhika Day 1 must align to Society Wives Jan 1 2026');
-assert.equal(universalJan.events.length,94,'Jan 1 calendar includes eleven active Shreya scenes, excluding held inmates and family');
+assert.equal(universalJan.events.length,111,'Jan 1 calendar syncs Taniya twelve beats plus Shivani source and future-plot appointments without altering future plans');
 assert.equal(universalJan.events.filter(e=>e.kind==='source-scene'&&e.episode==='02').length,67,'EP02 shared Taniya/Soniya source scenes must only appear once');
-assert.equal(universalJan.events.filter(e=>e.kind==='source-scene'&&e.episode==='03').length,11,'Eleven Episode03 source events including Scene08 Rinku working prose');
+assert.equal(universalJan.events.filter(e=>e.kind==='source-scene'&&e.episode==='03').length,15,'All eight Ankita, four Meenakshi and three written Shreya scenes are routed to Reader');
 assert.ok(!universalJan.events.some(e=>e.date!=='2026-01-01'),'Jan 1 clock contains an event from another date');
 assert.deepEqual(universalJan.events.slice(0,2).map(e=>e.start),['06:20','06:29'],'January 1 event clock not sorted');
-assert.equal(new Set(universalJan.events.map(e=>e.id)).size,94,'January 1 event IDs must all be unique');
+assert.equal(new Set(universalJan.events.map(e=>e.id)).size,111,'January 1 event IDs must all be unique');
 const shifted=universalFuture.events.filter(e=>e.state==='rescheduled');
 assert.equal(shifted.length,1,'Only Jan2 M08 remains in future; Shreya EP03 SR10–SR13 are now Jan1');
 assert.equal(shifted.find(e=>e.scene==='M08')?.date,'2026-01-02');
@@ -593,9 +602,9 @@ assert.equal(universalJan.events.filter(e=>e.id==='e03-shreya-S03-09').length,0,
 assert.equal(universalJan.events.find(e=>e.id==='e03-shreya-S03-07')?.beats?.length,6,'Six society sports beats must render on shared timeline');
 assert.equal(universalJan.events.find(e=>e.id==='e03-shreya-S03-08')?.beats?.length,3,'Three Chintu continuation beats must render on shared timeline');
 assert.ok(universalJan.events.filter(e=>e.lead==='Shreya'&&e.kind==='source-scene'&&e.episode==='02').every(e=>e.state==='approved-prose'),'All Shreya source scenes must have approved badges');
-assert.equal(universalJan.events.find(e=>e.scene==='SR03'&&e.lead==='Shreya')?.status,'Author-approved plot · full prose not published');
+assert.ok(universalJan.events.find(e=>e.scene==='SR03'&&e.lead==='Shreya')?.status.includes('author-approved')||universalJan.events.find(e=>e.scene==='SR03'&&e.lead==='Shreya')?.status.includes('Author-approved'),'Episode 02 approval supersedes older SR03 review label without inventing prose');
 assert.ok(sourcePlanning.includes('Different helpers:'),'Shreya Planning must distinguish society Chintu and station chai wala');
-assert.ok(sourcePlanning.includes('shreyaEpisode03Proposal.reviewBeatSequence.map'),'Shreya original 14 review slots must render in order in UI');
+assert.ok(sourcePlanning.includes("shreyaEpisode03Proposal.reviewBeatSequence.filter(slot=>!['SR10','S03-01','SR11'].includes(slot.id))"),'Shreya completed written scenes moved out of remaining plot cards without losing original numbering');
 assert.ok(sourcePlanning.includes('shreyaEpisode03Proposal.parkedFutureEncounters.find'),'UI must explicitly render held inmates in Beat 5');
 assert.ok(!sourcePlanning.includes('<strong>Date:</strong> 3 January 2026'),'UI must not show superseded active date');
 assert.ok(universalFuture.events.filter(e=>e.episode==='01').every(e=>e.date===null),'Undated prologue must not be silently placed on Jan 1');
@@ -616,4 +625,4 @@ for(const event of universalDhika.events){
  assert.ok(event.lastLineIndex<ep.lines.length,'Dhika range extends beyond original source '+event.id);
  if(event.arcRelativeDay)assert.equal(event.date,null,'Arc-relative Day 1 must never reset to Jan 1');
 }
-console.log('PASS: 94 cross-lead Jan1 indexed events; Shreya SR12 and family/home Beat14 held; society twins/Chintu staged without conflict.');
+console.log('PASS: 111 cross-lead Jan1 indexed events; EP01/02 frozen; written EP03 in reader, Taniya/Shivani plots indexed, future holds preserved.');
