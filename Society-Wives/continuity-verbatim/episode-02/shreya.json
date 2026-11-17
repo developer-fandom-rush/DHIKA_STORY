@@ -10,7 +10,7 @@
     "path": "Society-Wives/episode-02.html",
     "blob_sha": "91f5c2a92282cc01be7497cd8e12c97a41241aed"
   },
-  "approval_policy": "Latest user confirmation on 16 Nov 2026 approves all nine extant Episode 02 Shreya prose scenes; original source-derived historic flags are preserved in each scene for provenance. SR03 plan is approved but full prose missing; it must not be presented as published prose.",
+  "approval_policy": "2026-11-17 author directive: All existing Episode 02 story scenes are FINAL, APPROVED and FROZEN; previous scene badges/flags are historical source provenance, not current approval state. Never alter exact source prose without author request.",
   "scenes": [
     {
       "scene_id": "SR01",
@@ -5419,9 +5419,30 @@
     "each_scene_reconstruction_verified": true
   },
   "authorApprovalUpdate": {
-    "confirmedBy": "Author explicit confirmation in current conversation, 2026-11-16",
-    "scope": "All nine existing SR01, SR02A, SR02B, SR05, SR04, SR06, SR07, SR08 and SR09 source prose scenes",
-    "missingProse": "SR03 remains a user-approved PLOT only; no reconstructed full prose was supplied or published.",
-    "preserveSource": "Original source_html_lines_exact, original plan approval text and source-derived provenance fields retained verbatim"
-  }
+    "confirmedBy": "Author in current conversation, 2026-11-17",
+    "scope": "All extant Episode 02 shreya scene content: SR01, SR02A, SR02B, SR05, SR04, SR06, SR07, SR08, SR09",
+    "status": "FINAL_APPROVED_FROZEN_2026_11_17",
+    "updateType": "STATUS_ONLY_NO_PROSE_REWRITE",
+    "sourceProvenancePreserved": true,
+    "missingProseIdsPreserved": [
+      "SR03"
+    ],
+    "historicalApproval": {
+      "approved": [
+        "SR01",
+        "SR02A",
+        "SR02B",
+        "SR05",
+        "SR04",
+        "SR06",
+        "SR07",
+        "SR08",
+        "SR09"
+      ],
+      "nonapproved": [],
+      "policy": "Latest user confirmation on 16 Nov 2026 approves all nine extant Episode 02 Shreya prose scenes; original source-derived historic flags are preserved in each scene for provenance. SR03 plan is approved but full prose missing; it must not be presented as published prose."
+    },
+    "changePolicy": "Do not rewrite, revise, re-open plotting or downgrade approval absent an explicit author request"
+  },
+  "finalFrozen": true
 }
