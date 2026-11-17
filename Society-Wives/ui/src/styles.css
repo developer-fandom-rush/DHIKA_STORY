@@ -254,3 +254,6 @@ h1,h2,h3{font-family:Georgia,"Times New Roman",serif;letter-spacing:-.025em}h1{f
 .ep02-final-reader .ep02-approved-text .chip,
 .ep02-final-reader .ep02-approved-text .status-chip,
 .ep02-final-reader .ep02-approved-text .approval-chip { display: none !important; }
+
+/* Episode 03: author-review underlines for adult tension, selective double meanings and narrator observations. */
+.ep03-original .ep03-story-emphasis { text-decoration: underline; text-decoration-color: #a65a79; text-decoration-thickness: 2px; text-underline-offset: 3px; background: rgba(218,158,48,.13); font-weight: 650; }
