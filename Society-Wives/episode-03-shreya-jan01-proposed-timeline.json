@@ -156,6 +156,13 @@
         "fantasy": "Alone, Rathod imagines an evening away from rank and duty where Shreya responds to him personally, they exchange equally sharp banter, and mutual interest develops into a consensual private intimate relationship. This imagined desire is unilateral reader-only interiority, not a future event or Shreya's commitment.",
         "contrastWithACP": "ACP fantasy arose from Poonam training-test awkwardness. DCP fantasy arises from intellectual confidence during a review.",
         "status": "AUTHOR_REQUESTED_FANTASY_LOGIC_PROPOSED_DETAIL_NEEDS_REVIEW"
+      },
+      "proseDraft": {
+        "file": "episode-03-reader.json",
+        "character": "shreya",
+        "sceneId": "SR11",
+        "status": "DRAFT_PUBLISHED_FOR_AUTHOR_REVIEW_2026_11_17",
+        "fantasy": "DCP-G01 user supplied verbatim"
       }
     },
     {
@@ -906,7 +913,8 @@
       "id": "SR11",
       "kind": "active",
       "title": "DCP Rathod · private fantasy",
-      "label": "Logic proposed · review pending"
+      "label": "Prose draft in reader · author review pending",
+      "proseStatus": "DRAFT_PUBLISHED_FOR_AUTHOR_REVIEW_2026_11_17"
     },
     {
       "number": 5,
