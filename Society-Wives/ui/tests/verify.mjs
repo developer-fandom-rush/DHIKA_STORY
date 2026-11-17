@@ -355,7 +355,7 @@ assert.equal(shreyaArchive.nonapproved_scene_ids.length,0);
 assert.deepEqual(shreyaArchive.missing_prose_scene_ids,['SR03'],'Approved SR03 plot has no source prose; do not invent it');
 assert.ok(shreyaArchive.scenes.every(s=>s.latestAuthorApproval.status==='AUTHOR_APPROVED_PROSE'));
 const shreyaPlot=read('episode-02-shreya-plan.json');
-assert.equal(shreyaPlot.timeline.find(x=>x.id==='SR03').approval,'AUTHOR_APPROVED_PLOT_ONLY_FULL_PROSE_MISSING');
+assert.ok(['AUTHOR_APPROVED_PLOT_ONLY_FULL_PROSE_MISSING','AUTHOR_APPROVED_FINAL_FROZEN_PLOT_SOURCE_PROSE_UNAVAILABLE_2026_11_17'].includes(shreyaPlot.timeline.find(x=>x.id==='SR03').approval),'Shreya SR03 remains approved plot with prose unverified or unavailable');
 const taniyaEp03Solo=read('episode-03-taniya-solo-proposed-timeline.json');
 assert.equal(taniyaEp03Solo.beats.length,12,'Taniya full-day plot has twelve reviewable beats');
 assert.equal(taniyaEp03Solo.visualAssets?.length,2,'Two EP03 scene visual references saved in Taniya planning');
