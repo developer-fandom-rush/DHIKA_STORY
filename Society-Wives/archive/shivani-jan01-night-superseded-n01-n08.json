@@ -1,0 +1,313 @@
+{
+  "archiveNotice": {
+    "supersededBy": "Society-Wives/episode-04a-shivani-plan.json",
+    "archivedDate": "2026-11-17",
+    "reason": "Duplicate older N01–N08 planning source removed from active UI; event coverage and dialogue migrated into current 04A legacyReconciliation",
+    "noRuntimeUse": true
+  },
+  "original": {
+    "schemaVersion": 1,
+    "id": "SW-SHIVANI-JAN01-NIGHT-NEXT-EPISODE",
+    "title": "Shivani — Same-Day Night / Next-Episode Plot — Om, Deepu, Kavya, Karan & Aman",
+    "status": "FUTURE_PLOT_SAVED__DEFERRED_BY_AUTHOR_AFTER_FINAL_EP03",
+    "proseStatus": "NOT_WRITTEN",
+    "date": "2026-01-01",
+    "timezone": "Asia/Kolkata",
+    "episodePlacement": "DEFERRED__NEXT_SHIVANI_EPISODE_OR_NEXT_DAY__AUTHOR_TO_ASSIGN",
+    "scope": "Two connected movements: private household uncle setup/fantasy, then one outdoor society encounter with Shivani, Kavya, Deepu, Karan and Aman. Short romantic triangle formation without fighting, coercion or melodramatic jealousy.",
+    "time": {
+      "firstHomeBeat": "18:35–18:46",
+      "nightEncounter": "19:05–19:23",
+      "certainty": "proposal; rests after Ankita's 18:25 Chotu/Rinku cliff and Karan/Aman's 17:50 return"
+    },
+    "cast": [
+      {
+        "name": "Shivani",
+        "age": 31,
+        "role": "college lecturer, married to Rohan"
+      },
+      {
+        "name": "Kavya",
+        "age": 24,
+        "role": "Shivani's sister, assisted with Tara's care earlier in day"
+      },
+      {
+        "name": "Deepu",
+        "age": 22,
+        "role": "society Chotu, event-helper, previously known to Shivani"
+      },
+      {
+        "name": "Karan",
+        "age": 22,
+        "role": "Ankita/Kabir household twin; extroverted; already knows Shivani"
+      },
+      {
+        "name": "Aman",
+        "age": 22,
+        "role": "Ankita/Kabir household twin; quieter but capable of unexpectedly bold banter; already knows Shivani"
+      },
+      {
+        "name": "Om",
+        "age": 63,
+        "role": "unrelated older man living in Shivani's household; socially addressed as uncle, not actual father-in-law"
+      },
+      {
+        "name": "Rohan",
+        "age": 34,
+        "role": "Shivani's husband; family-only childcare placement proposed, not verified return time"
+      }
+    ],
+    "sourceReferences": {
+      "scene02": "episode-03-shivani-scene02-master-reference.json",
+      "ep01": "episode-01.json · S02 (Deepu acquaintance), S12 (Shivani coordinates children's programme; prologue date unspecified)",
+      "shivaniEp02": "continuity-verbatim/episode-02/shivani.json · A03/A04/A05/A06/B01",
+      "ankitaEp02": "continuity-verbatim/episode-02/ankita.json · A06 (Ayaan and Armaan as event/printing pair)",
+      "mahendra": "continuity-verbatim/episode-02/shreya.json · SR04; continuity-verbatim/episode-02/taniya.json · TS11",
+      "directory": "character-directory.json · people/pairs/socialFamilyCanon",
+      "cast": "episode-03-shivani-cast-lock.json",
+      "style": "flirting-style.json · authorPacingRule",
+      "ankitaEvening": "episode-03-ankita-scene-07-twins-pickup-homecoming.json · 17:20–17:50",
+      "ankitaRinku": "episode-03-ankita-scene-08-rinku-setup.json · 18:10–18:25"
+    },
+    "continuityLocks": [
+      "Shivani A04: Kavya handled Tara's childcare from 08:10, not a stranger to Shivani's household. Karan/Aman have no on-page introduction to Kavya yet.",
+      "Shivani A05: 08:16–08:20 'Private Biology Lessons' is the SAVED spoken foundation between Shivani, Karan and Aman. Resume its topic briefly, no fake fresh introduction and no actual booked tuition.",
+      "Ankita EP03 Scene07: Karan and Aman collect Ankita ~17:23 and accompany her home by ~17:50. They can appear with Shivani only LATER.",
+      "Ankita EP03 Scene08: Rinku's service setup is PRIVATE to Ankita ~18:10–18:25, ending before the door opens. Society Deepu is not Ankita's Rinku; do not swap the two or pull Ankita into Shivani's night interaction.",
+      "Society Chotu=Deepu (22), not college Sunny (22). EP01 S02 already established Deepu/Shivani familiarity involving noticeboard clips and posters. The Deepu/Kavya attraction is new and their first mutual encounter is now proposed.",
+      "Om (63) is socially treated as a senior household associate or 'Om Uncle', not a blood, legal or actual father-in-law. The precise reason and duration of living there are UNDISCLOSED and must not be fabricated.",
+      "Rohan's morning urgent call is established. For this night plot, his return before ~19:00 and taking care of Tara while Shivani and Kavya step downstairs is a PLANNING CHOICE, not past canon; before prose, ensure no other locked simultaneous event conflicts.",
+      "Tara is 2 and is only in a separate family-care context; she does not appear in any adult teasing, flirtation or Om's private fantasy.",
+      "No Karan/Aman overlap with Ankita after 17:50; keep the Karan/Aman/Ankita side of events separate from this new Kavya interest."
+    ],
+    "relationshipSetup": {
+      "shivaniOm": {
+        "established": "Om lives with the family, is respected and addressed as an older family-like uncle but is NOT Rohan's father and NOT Shivani's actual father-in-law. Shivani treats him with familiarity and household courtesy. His exact entry into the household, origin, length of stay and legal ties remain unprovided.",
+        "proposedNewCharacterAngle": "Behind his ordinary uncle-like conduct, Om develops an adult one-sided physical/romantic fascination with Shivani. She does not know this and does not return or validate it; her familiar warmth is not a private invitation. The author requests a reader-only reveal now.",
+        "fantasyPresentation": "Short, unmistakably private imagined vignette: Om pictures Shivani lingering beside him after the household has quieted, turning toward him with a deliberate intimate smile and an imagined brief embrace or kiss. Cut back to him alone holding the folded household list. His fantasy invents her willingness only in his mind, not in real events. No voyeurism, stolen belongings or real touching; never write the fantasy as fact or mutual attraction.",
+        "tone": "Om remains outwardly composed. One reader-only reveal is sufficient; don't repeat the fantasy in multiple beats or misrepresent him as father-in-law."
+      },
+      "deepuShivani": {
+        "established": "EP01 S02: Deepu brought back a noticeboard clip and checked event posters; Shivani asked him to coordinate with Sharmi. He is a known, reliable society event helper, age 22.",
+        "proposedTonight": "Shivani greets him with easy familiarity, then mischievously notices his sincere first impression of her adult sister. This is NOT Deepu's first encounter with Shivani, only with Kavya."
+      },
+      "deepuKavya": {
+        "new": "Deepu and Kavya have not been established as previously acquainted. They meet for the first time now as adults (22 and 24); there is a mutual spark in eye contact. The first attraction exists without pre-confirmed romance or promised future date.",
+        "agency": "Kavya shows direct curiosity and smiles at Deepu's unpretentious kindness. She is not instantly interested in all three men equally."
+      },
+      "twinsKavya": {
+        "new": "Karan and Aman first see Kavya in this scene. They each notice her differently and start flirting; both become romantically interested. Kavya can enjoy the attention but primarily notices Deepu at first. This is not a previously locked love triangle.",
+        "distinctVoices": "Karan takes the open, cheeky initiative; Aman initially observes and then surprises both brother and Shivani with a confident line."
+      }
+    },
+    "beats": [
+      {
+        "id": "N01",
+        "time": "18:35–18:40",
+        "title": "Shivani back home — Om's ordinary place in the household",
+        "cast": [
+          "Shivani",
+          "Om"
+        ],
+        "plot": "Shivani has arrived from college. At home she finds Om checking a simple event/household list. Their interaction carries already-known household courtesy: she updates him about college timing; he remembers her society programme responsibilities. Describe Om as an unrelated, older resident accepted within the family's social arrangements, not her actual father-in-law. The source does not say why or how long he has lived there, so do not invent a rescue or biological connection. Their familiar interactions are not coded as permission for romance.",
+        "dialogue": [
+          {
+            "speaker": "Om",
+            "line": "College ka din lamba tha? Programme ki taiyaari chal rahi hai?"
+          },
+          {
+            "speaker": "Shivani",
+            "line": "Haan Om Uncle. Bas final list check kar rahi thi. Aap chai le lijiye; hum log thodi der mein neeche jaa rahe hain."
+          }
+        ]
+      },
+      {
+        "id": "N02",
+        "time": "18:40–18:46",
+        "title": "Om's one-sided fantasy — reader-only reveal",
+        "cast": [
+          "Om"
+        ],
+        "plot": "After Shivani leaves the common area, Om privately registers his attraction. A concise reader-only imaginary moment shows Shivani choosing to be closer to him, perhaps a private embrace or kiss that exists solely in his mind. He realizes the imagined response is not a statement about her feelings. When Shivani actually returns to fetch her keys, he behaves ordinarily. Contrast the mental image against real household boundaries without an extended guilt monologue.",
+        "narratorDirection": "A short internal close-up, not physical prose of a real encounter. Her actual behaviour toward him remains respectful family-like familiarity.",
+        "knowledge": {
+          "readerOnly": true,
+          "shivaniAware": false,
+          "actualContact": false
+        }
+      },
+      {
+        "id": "N03",
+        "time": "19:05–19:08",
+        "title": "Sisters step down — Deepu known to Shivani, stranger to Kavya",
+        "cast": [
+          "Shivani",
+          "Kavya",
+          "Deepu"
+        ],
+        "plot": "Shivani and Kavya come downstairs for the community-event poster/children's programme check. Rohan has returned for the new night placement and stays with Tara; exact prior return timing is not invented as an earlier scene. Deepu is already handling event materials. Shivani greets him naturally by name and remembers that he handled her noticeboard clip and poster task earlier, using only one brief line of background. She introduces her adult sister Kavya for the first time. No awkward new 'Who are you?' between Shivani and Deepu.",
+        "dialogue": [
+          {
+            "speaker": "Shivani",
+            "line": "Deepu, tumne Sharmi se posters verify kar liye? Subah jo clip diya tha, uska matching set mila?"
+          },
+          {
+            "speaker": "Deepu",
+            "line": "Haan madam, sab ready hai. Bas final board par lagana baaki hai."
+          }
+        ]
+      },
+      {
+        "id": "N04",
+        "time": "19:08–19:11",
+        "title": "Kavya × Deepu — first eye-contact spark",
+        "cast": [
+          "Kavya",
+          "Deepu",
+          "Shivani"
+        ],
+        "plot": "Deepu offers Kavya a copy of the programme sheet as a natural courtesy. Their eyes meet longer than required; Kavya smiles and asks his name even though Shivani already addressed him. He speaks more softly with her than with Shivani, and she finds his sincerity attractive. Brief, reversible hand contact happens when both steady the same poster against the evening breeze; neither seizes or prolongs contact. Shivani notices the mutual interest and playfully teases Deepu. Deepu is pleased but not entitled to more.",
+        "dialogue": [
+          {
+            "speaker": "Kavya",
+            "line": "Aap Deepu ho? Ye saare posters aapne manage kiye?"
+          },
+          {
+            "speaker": "Deepu",
+            "line": "Team ke saath. Lekin aapko achhe lage toh mehnat safal."
+          },
+          {
+            "speaker": "Shivani",
+            "line": "Deepu, tumhari printing se zyada aaj tumhari smile improve ho gayi lagti hai."
+          }
+        ],
+        "reaction": "Kavya and Deepu exchange a second amused glance; this is the seed, not a relationship declaration."
+      },
+      {
+        "id": "N05",
+        "time": "19:11–19:14",
+        "title": "Karan and Aman arrive independently — their first Kavya impression",
+        "cast": [
+          "Shivani",
+          "Kavya",
+          "Deepu",
+          "Karan",
+          "Aman"
+        ],
+        "plot": "Karan and Aman now appear in the same society common area AFTER dropping Ankita at ~17:50; no implied continuous presence from their earlier private ride. They greet Shivani, whose morning biology-lesson joke they remember. Their attention is caught by Kavya, a woman they have NOT met. Karan openly praises her beauty; Aman keeps his initial reaction to himself before surprising her with a more subtle compliment. Kavya smiles politely but her attention occasionally returns to Deepu. Shivani deliberately delays the introduction for one short teasing beat.",
+        "dialogue": [
+          {
+            "speaker": "Karan",
+            "line": "Shivani madam! Morning ka homework ready tha, lekin aaj aapke saath ek naya syllabus bhi aa gaya kya?"
+          },
+          {
+            "speaker": "Shivani",
+            "line": "Pehle apni biology clear karo, phir introductions milenge."
+          },
+          {
+            "speaker": "Aman",
+            "line": "Bhai, pehle respectfully naam toh pooch lo. Har cheez ka practical thodi hota hai."
+          }
+        ]
+      },
+      {
+        "id": "N06",
+        "time": "19:14–19:18",
+        "title": "Shivani teases both; morning biology callback with consensual banter",
+        "cast": [
+          "Shivani",
+          "Karan",
+          "Aman",
+          "Kavya",
+          "Deepu"
+        ],
+        "plot": "Shivani retorts to Karan and Aman and makes them compete verbally for the introduction. As the author proposed, she can surprise them with two quick, clearly playful cheek kisses, one on each, then step away. The brothers respond with light teasing and, if welcomed on-screen, a short friendly side embrace/waist-level pose to 'get even'; no forced groping, hidden contact or assumption that her kiss authorizes further touch. Kavya witnesses the easy prior familiarity, Deepu reacts with amusement, and both sisters keep their distinct agency. This is a newly proposed escalation, not silently assigned to the already published morning encounter.",
+        "dialogue": [
+          {
+            "speaker": "Shivani",
+            "line": "Subah se private tuition maang rahe the. New Year pe thodi masti ki permission thi, admission nahi."
+          },
+          {
+            "speaker": "Karan",
+            "line": "Madam, aaj toh aapne hum dono ka viva bina notice ke le liya."
+          },
+          {
+            "speaker": "Aman",
+            "line": "Aur marks aap abhi bhi nahi bata rahi hain."
+          }
+        ],
+        "reaction": "Shivani sets the tone, smiles and returns to the sister introduction; Deepu and Kavya exchange a quick glance at the harmless chaos."
+      },
+      {
+        "id": "N07",
+        "time": "19:18–19:21",
+        "title": "Kavya introduced — three interested men, one independent choice",
+        "cast": [
+          "Shivani",
+          "Kavya",
+          "Deepu",
+          "Karan",
+          "Aman"
+        ],
+        "plot": "Shivani finally introduces her sister Kavya to both brothers, referencing their known neighbour connection with Ankita without converting them into Shivani's family twins. Karan offers to help carry event materials, Aman proposes checking the poster's QR proof with Kavya, and Deepu can help with the very task Kavya first asked about. These are three different invitations, no romantic claim. Kavya speaks for herself and selects whichever practical help she actually wants — the first smile/eye-contact suggests Deepu attracts her most at this point.",
+        "dialogue": [
+          {
+            "speaker": "Shivani",
+            "line": "Meet Kavya, meri sister. Aur ye Karan aur Aman — hamare society ke sabse inventive 'biology students'."
+          },
+          {
+            "speaker": "Kavya",
+            "line": "Aap log Shivani di ko roz itna tang karte ho?"
+          },
+          {
+            "speaker": "Deepu",
+            "line": "Main toh posters theek karta hoon. In dono ka syllabus alag hai."
+          }
+        ]
+      },
+      {
+        "id": "N08",
+        "time": "19:21–19:23",
+        "title": "The new gentle rivalry — exit",
+        "cast": [
+          "Kavya",
+          "Deepu",
+          "Karan",
+          "Aman",
+          "Shivani"
+        ],
+        "plot": "After the brief exchange the three young men register overlapping interest in Kavya. Deepu and Kavya share another shy, direct look; Karan jokingly competes for the next society task, Aman offers a quieter alternative. All remain civil; the contrast is curiosity and playful jealousy, not rivalry that produces fighting, humiliation, territorial threats or coercion. Shivani notices the triangle forming and privately laughs, then the sisters leave; no one has secured a date, kiss, exclusivity or relationship. Cut at 19:23, preserving the choice for the next episode."
+      }
+    ],
+    "futureArc": {
+      "kavya": "Three possible romantic interests — Deepu, Karan, Aman; Kavya herself has the strongest immediate spark with Deepu. Remain distinct individuals; do not make her a passive prize.",
+      "deepu": "Known society helper to Shivani, new emotionally engaged adult man in Kavya's orbit. Future practical event task creates another plausible meeting.",
+      "karan": "Bold flirt; late-night curiosity about Kavya; does not have privileged knowledge of Ankita's private ride emotions.",
+      "aman": "Quieter but strategically confident flirt; retains his own Ankita arc without rewriting it.",
+      "shivani": "Playful instigator, not omniscient; she notices only external smiles and banter.",
+      "om": "Only private, unreciprocated reveal now. Do not imply he owns the family, has a biological relationship, or that Shivani welcomes the fantasy.",
+      "jealousy": "Low-stakes mutual interest, witty competition and glances only. No physical aggression, coercion, stalking or crying."
+    },
+    "completion": "Shivani's Jan 1 night planning closes at the end of the 19:23 common-area encounter. Scene 02 (staffroom) remains a separate, prior Google Doc master reference; next-episode prose is NOT written or published.",
+    "preserve": "Never overwrite approved Episode 01–02 source, Ankita's pickup, or the unfinished Rinku doorbell setup.",
+    "deferralDecision": {
+      "decisionDate": "2026-11-17",
+      "ep03Ending": "Shivani Episode 03 is final through Scene 03, 17:57 on 1 January 2026",
+      "societyChotuEventDone": false,
+      "notYetWritten": true,
+      "planningBeatsPreserved": [
+        "N01",
+        "N02",
+        "N03",
+        "N04",
+        "N05",
+        "N06",
+        "N07",
+        "N08"
+      ],
+      "scheduling": "Author will decide next day or later episode, do not treat initial Jan 1 evening proposed timings as locked future dates",
+      "related": "Society Chotu Deepu (22) knows Shivani; first meeting and attraction with Kavya is yet to be written",
+      "authorInstruction": "Remind user these Om and society night beats remain to be written. Do not add to finalized Episode 03."
+    }
+  }
+}
