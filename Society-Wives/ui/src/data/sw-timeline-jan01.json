@@ -4139,32 +4139,33 @@
       "date": "2026-01-01",
       "sort": "18:25",
       "start": "18:25",
-      "end": "18:44",
-      "timeLabel": "18:25–18:44",
+      "end": "18:45",
+      "timeLabel": "18:25–18:45",
       "universe": "sw",
-      "title": "A · Rinku — The water-filter burst",
+      "title": "EP04A Scene 01 · Rinku — The Water-Filter Accident",
       "lead": "Ankita",
       "characters": [
         "Ankita",
         "Rinku"
       ],
       "mentions": [],
-      "episode": "04 planning",
-      "scene": "chotu-review",
+      "episode": "04A",
+      "scene": "ep04a",
       "kind": "planned",
       "state": "review",
       "status": "DRAFT FOR DISCUSSION · NOT APPROVED",
-      "source": "episode-04-chotu-six-leads-review.json",
+      "source": "episode-04a-ankita-plan.json",
       "reader": {
         "type": "sw-plan",
         "character": "ankita",
-        "scene": "chotu-review"
+        "scene": "ep04a"
       },
       "flags": [
         "Track: Society; precise time is a review reservation",
-        "Karan–Aman (Kabir's younger brothers) have a saved Jan1 ride; no added twins encounter."
+        "Karan–Aman (Kabir's younger brothers) have a saved Jan1 ride; no added twins encounter.",
+        "Scene 01 now has five detailed time-stamped beats (A01–A05). Scene 02 reserved, not closed."
       ],
-      "detail": "CAUSE: Resume EP03 Scene08 at 18:25 door opening. Rinku checks the loose water-filter connector. The brittle coupler slips just as Ankita reaches the shut-off valve. PHYSICAL: A brief spray soaks the front and sleeve of her ordinary cotton kurti; she steps into the narrow gap and reflexively grips the edge of Rinku's upper arm for balance before releasing it. VISIBLE: Private kitchen. Wet outer fabric outlines its existing inner layer; no bare-body exposure. Rinku briefly notices and averts his eyes; Ankita sees his changed expression, not exactly what he noticed. REACTION: She handles the leak decisively, then feels a pulse of self-conscious heat when she realizes how near they were. Rinku is more embarrassed by her startled look than by the leak."
+      "detail": "Five timed beats A01–A05: 18:25 doorbell; 18:28 filter setup; 18:32 pressure burst and brief arm hold; 18:34 wet-clothing silhouette noticed, no bare exposure; 18:39 repair exit. Scene 02 household closure still unplanned."
     },
     {
       "date": "2026-01-01",
