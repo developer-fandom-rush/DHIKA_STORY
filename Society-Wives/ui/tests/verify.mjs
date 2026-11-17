@@ -21,6 +21,12 @@ assert.equal(chotuWorkshop.leads.reduce((n,lead)=>n+lead.tracks.length,0),9,'Nin
 assert.ok(chotuWorkshop.leads.every(l=>l.id!=='ankita'),'Ankita must not duplicate in lower Chotu workshop');
 const ankitaArchive=read('episode-04b-ankita-chotu-archive.json');
 assert.equal(ankitaArchive.tracks.length,2,'Both Ankita Chotu tracks preserved in dedicated archive');
+const taniyaSoniya04A=read('episode-04a-taniya-soniya-night-review.json');
+assert.deepEqual(taniyaSoniya04A.scenes.map(scene=>scene.scene),['01','02','03','04','05'],'Taniya/Soniya night draft has five ordered discussion scenes');
+assert.equal(taniyaSoniya04A.scenes.reduce((n,scene)=>n+scene.beats.length,0),13,'Taniya/Soniya night has thirteen proposed beats');
+assert.ok(taniyaSoniya04A.canonChecks.episode03.includes('T03-11'),'EP03 twins scene remains in EP03, not moved to EP04A');
+assert.ok(taniyaSoniya04A.scenes[4].beats.some(b=>b.title==='The reality switch'),'Rahul's extended dream is later revealed as imagined');
+assert.ok(taniyaSoniya04A.scenes[2].beats.some(b=>b.title.includes('three-question confidence test')),'Soniya actual bold test is concrete');
 const shivaniEp04A=read('episode-04a-shivani-plan.json');
 assert.deepEqual(shivaniEp04A.scenes.map(s=>s.sceneNumber),['01','02','03','04','05','06','07'],'Shivani EP04A must have seven sequential numbered scenes');
 assert.equal(shivaniEp04A.scenes.reduce((sum,s)=>sum+s.beats.length,0),25,'Twenty-five new review beats for Shivani');
