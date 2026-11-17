@@ -1,0 +1,88 @@
+{
+  "schemaVersion": "1.0",
+  "id": "SW-SHREYA-EP03-B10-REVIEW",
+  "episode": "03",
+  "date": "2026-01-01",
+  "lead": "Shreya",
+  "title": "Beat 10 — The Training Ground Challenge",
+  "time": "15:40–16:05",
+  "place": "Police station training ground",
+  "status": "FULL_NON_GRAPHIC_PROSE_DRAFT_PENDING_AUTHOR_REVIEW__PRESERVE_APPROVED_FIVE_PERSON_PLOT",
+  "sourcePlot": "episode-03-shreya-jan01-proposed-timeline.json#S03-05",
+  "styleSources": [
+    "WRITING-STYLE-DHIKA-EP01-EP03-RECALIBRATION.md",
+    "flirting-style.json"
+  ],
+  "sourceApprovalBoundary": "Five-person flag drill, Kavita's first-round win, Shreya initially outmaneuvering Rohas, Lokesh's predicted second pivot/tag, short contact and competitive next-round challenge are approved as plot. Revised physical execution here is a draft proposal only; do not overwrite approved outline or publish as final.",
+  "cast": [
+    {
+      "name": "Shreya",
+      "age": 33,
+      "role": "lead instructor",
+      "outfit": "navy dry-fit training tee, black trousers, high ponytail"
+    },
+    {
+      "name": "Meera",
+      "age": 24,
+      "role": "police trainee",
+      "outfit": "cobalt-blue sports tee, black leggings"
+    },
+    {
+      "name": "Kavita",
+      "age": 23,
+      "role": "constable and trainee",
+      "outfit": "burgundy athletic polo, charcoal joggers"
+    },
+    {
+      "name": "Rohas",
+      "age": 24,
+      "role": "male trainee",
+      "outfit": "station training sportswear"
+    },
+    {
+      "name": "Lokesh",
+      "age": 24,
+      "role": "male trainee",
+      "outfit": "station training sportswear"
+    }
+  ],
+  "timeMarks": [
+    {
+      "clock": "15:40–15:47",
+      "moment": "Warm-up / flag-control setup and Meera's decoy"
+    },
+    {
+      "clock": "15:47–15:52",
+      "moment": "Kavita captures flag; Rohas challenged"
+    },
+    {
+      "clock": "15:52–16:02",
+      "moment": "Shreya vs Rohas and Lokesh, second-pivot intercept with one continuous meaningful physical contest"
+    },
+    {
+      "clock": "16:02–16:05",
+      "moment": "Clean win, differentiated reactions, short closure"
+    }
+  ],
+  "grokInsertions": [
+    {
+      "id": "TG-G01",
+      "purpose": "Clear training visual, women's athletic outfits and motion, Rohas's momentary distraction; not an added physical incident",
+      "status": "DIRECTION_ONLY_AWAIT_AUTHOR_TEXT"
+    },
+    {
+      "id": "TG-G02",
+      "purpose": "One controlled close-contact training beat with Lokesh's footwork, side training-tag, Shreya's braced forearm, natural movement and immediately different reactions; no serial accidental touches",
+      "status": "DIRECTION_ONLY_AWAIT_AUTHOR_TEXT"
+    }
+  ],
+  "prose": "### Beat 10 — The Training Ground Challenge\n**3:40–4:05 PM · Police Station Training Ground**\n\nTraining ground par teen flag markers lag chuke the. Shreya navy dry-fit T-shirt, black trousers aur high ponytail mein timer check kar rahi thi. Meera, Kavita, Rohas aur Lokesh apni positions par aa gaye.\n\n**Shreya:** “Objective simple hai. Flag lene ke liye speed chahiye, lekin usse pehle opponent ka next move samajhna padega.”\n\nPehla round shuru hua. Meera ne left marker se tezi se cut liya. Rohas uski speed ko follow karte hue ek kadam jaldi mud gaya. Usi gap se Kavita nikli aur flag le gayi.\n\n**Meera:** “Ma'am, isi liye toh iska reaction time slow hai!”\n\n**Kavita:** “Rohas, zyada confidence kabhi-kabhi mehenga padta hai.”\n\nKavita ne flag Shreya ki taraf uthaya. Rohas ne hansi mein challenge wapas kar diya.\n\n**Rohas:** “Ma'am, ab aap ek round khel ke dikhao.”\n\nShreya ne timer reset kiya aur bina extra announcement ke marker line par aa gayi.\n\n**[TG-G01 — VISUAL INSERT — START]**\n*Training movement only: Shreya's navy tee, balanced athletic stance and clean pivot; Meera and Kavita reacting from the flag line. Rohas loses focus for a beat on her movement, not on an invented wardrobe accident. Keep the visual short and grounded in the approved drill.*\n**[TG-G01 — VISUAL INSERT — END]**\n\nRohas ne pehla route block kiya. Shreya uske right se nikal kar flag ke paas pahunch gayi. Lekin uska second pivot aate hi Lokesh ne advance mein planted foot badla aur side-tag lane cover kar li.\n\nShreya ne direction change karne ki koshish ki, par Lokesh uske bilkul saamne tha. Tag ke liye uska haath Shreya ki clothed side-waist ke paas aaya; Shreya ne momentum sambhalte hue ek pal uski forearm par pressure diya. Yeh alag-alag chhote touches nahi the—ek hi fast contest ka part tha. Lokesh ne tag claim kiya aur dono next step par alag ho gaye.\n\n**[TG-G02 — VISUAL INSERT — START]**\n*One continuous competitive interception: Lokesh reads Shreya's second pivot, body positions briefly close on the flag/tag lane; his side-tag and her forearm brace happen in the same controlled move. Show distinct faces—Lokesh concentrated, Shreya surprised by a clean tactical loss—without adding falls, extra touches or a prolonged embrace. Any intimate interpretation must be explicitly author-approved.*\n**[TG-G02 — VISUAL INSERT — END]**\n\n**Lokesh:** “Ma'am, aapka second move predict ho gaya.”\n\nShreya ne flag dekha, phir uski taraf mudhi.\n\n**Shreya:** “Ek round jeetne se mujhe predict karna nahi seekh gaye tum.”\n\nRohas ab bhi uske first pivot par atka tha. Shreya ne uski taraf ek nazar daali.\n\n**Shreya:** “Rohas, nazar flag pe rakho. Ya attention kahin aur hai?”\n\nLokesh ne quietly training tag wapas rack par rakha.\n\n**Lokesh:** “Toh ek aur chance dijiye.”\n\n**Shreya:** “Next round mein.”\n\nTimer 4:05 par band hua. Kavita apni jeet se khush thi; Meera Rohas ko chhed rahi thi. Shreya ne drill sheet mark ki aur group ko dismiss kar diya.",
+  "editorialReview": {
+    "issue": "Original side-waist/forearm touch was too minimal and artificially described as emotionally charged.",
+    "thisDraftChoice": "One single tactical interception where proximity and contact are caused by competition, a clear outcome (Lokesh wins), and immediate contrasting character responses.",
+    "notYetAuthorized": "Additional intimate contact, prolonged hold, extra body-touch choreography, relationship interpretation or sexualized movement. Ask author before changing approved plot.",
+    "nextBeat": "Beat 11 duty-to-society transition around 16:05–17:05",
+    "imageReferenceDirection": "For future training image, clearly show 5 established adults, Shreya navy outfit, Meera blue, Kavita burgundy, Rohas and Lokesh in neutral sportswear, realistic flag/tag drill positioning. No costume or rank mix-ups.",
+    "approval": "DRAFT_FOR_AUTHOR_REVIEW_NO_AUTOMATIC_CANON_CHANGE"
+  }
+}
