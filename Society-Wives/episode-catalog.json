@@ -94,7 +94,7 @@
       "number": "03",
       "title": "Continuations",
       "subtitle": "Meenakshi Jan 1 continuation; older future-day drafts retained",
-      "status": "EP03_PROSE_AVAILABLE_IN_UNIFIED_READER_MIXED_AUTHOR_REVIEW",
+      "status": "EP03_WRITTEN_TEXT_IN_READER__UNWRITTEN_PLOTS_IN_PLANNING__MIXED_PROSE_APPROVAL",
       "date": "1 January 2026 for Meenakshi Scene 01; separate 2–3 January drafts remain",
       "mainPath": "index.html#/reading?episode=03&character=ankita&scene=01",
       "relatedPaths": [
@@ -114,7 +114,7 @@
         "episode-03-shreya-plan.json",
         "episode-03-meenakshi-planning.html"
       ],
-      "note": "All existing written Episode03 scene text now appears in the unified Episode Reading UI. Ankita Scenes 01,02,06; Meenakshi Scenes 01–04. Current approval/draft statuses remain per scene. Plot-only scenes continue in Episode Planning, including Meenakshi's Jan2 future plan and Ankita's other unwritten beats. Existing standalone HTML and source JSON files are archived without deletion.",
+      "note": "All written Ankita Scenes 01–08, Meenakshi Scenes 01–04 and Shreya's available written SR10/Strong-Chai/DCP scenes are in unified Episode Reading, with their existing distinct prose approval statuses preserved. Planning displays remaining unwritten EP03 story beats and future setups only. Taniya–Soniya's 12-beat plot is author-approved but prose is unwritten; Shivani Episode 03 plot remains in Planning. The global Jan1 chronology is synchronized, without rewriting source prose or future plot files.",
       "chapters": [
         {
           "lead": "Ankita",
