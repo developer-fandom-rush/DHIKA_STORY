@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import { leadOrder, Plan, openPage, titleCase, useData } from './lib';
 const str=(v:unknown)=>typeof v==='string'?v:'';
+type AuthorRevisionNote={id:string;status:string;reference:string;focus:string;mistakesIdentified:string[];mandatoryRules:string[];shreyaB07B09Reference:{date:string;publicEvent:string;allowedWitnesses:string[];excludedWitnesses:string;observationWindow:string;preciseAuthorFigure:string;wardrobe:string;memories:string;status:string}};
 type NarrativeCalibration={id:string;title:string;status:string;referenceFile:string;sourceScope:string;diagnosis:{fault:string;correction:string}[];sourceObservations:string[];principles:string[];prohibitions:string[];plotSuggestionFormat:string;proseStandard:string};
 type NarratorStyleRule={status:string;origin:string;appliesTo:string;methods:string[];examplePhrases:string[];useInstructions:string[];sceneTemplate:string[];};
 type AnkitaFuturePresentation={status:string;decision:string;planning:{idea:string;duration:string;date:string;episode:string;proseStatus:string;sceneStatus:string;characterLock:string};originalAuthorPromptVerbatim:string;originalPlotBeatVerbatim:{name:string;plot:string}};
@@ -61,6 +62,7 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
  
  const narratorRule=writingStyle?.narratorVisualDescription as NarratorStyleRule|undefined;
   const eventFirstGuide=writingStyle?.sourceGroundedNarrativeCalibration as NarrativeCalibration|undefined;
+ const authorRevisionNote=writingStyle?.authorRevisionNotes20261117 as AuthorRevisionNote|undefined;
  
  
  
@@ -398,6 +400,18 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
        <p><strong>Prose:</strong> {eventFirstGuide.proseStandard}</p>
        <p className="muted">Full source study: Society-Wives/WRITING-STYLE-DHIKA-EP01-EP03-RECALIBRATION.md (GitHub). The guide is reference material, not published scene prose.</p>
      </>:<p role="status">Event-first writing guide loading…</p>}
+   </article>
+   <article className="episode-plan-card" id="society-wives-20261117-author-revision-rules">
+      <span className="eyebrow">Author writing corrections · 17 Nov 2026 · required with Dhika style guide</span>
+      <h2>Private staging · exact numbers · variable Grok markers · short aftermath</h2>
+      <p><strong>Numeric fidelity:</strong> Preserve each author-specified count, fraction, duration or view angle exactly (for Shreya: one-third / 1/3; 5–6 seconds; two named observers). Never substitute a vague "small glimpse" or invent a new figure.</p>
+      <p><strong>Privacy:</strong> Public college session can remain public, but this accident belongs in an adjoining private prep room, witnessed only by Karan and Aman. No invented audience or humiliation.</p>
+      <p><strong>Marker selection:</strong> No fixed count: zero, one, two, ten or more if truly warranted. Keep author-specified visual segments as placeholders until supplied; do not silently convert or remove them. If too many would create a porn-like montage rather than story pacing, explain the tonal trade-off and ask which emphasis the author wants.</p>
+      <p><strong>Rhythm:</strong> Dhika EP01–EP03 is a reference for brief established familiarity, a memorable incident, distinct instant reactions and a natural cut. Beat 07 brief setup; Beat 08 only significant accident; Beat 09 minimal exit/training transition.</p>
+      {authorRevisionNote&&<details className="episode-outline"><summary>All author directives ({authorRevisionNote.mandatoryRules.length} rules)</summary>
+        <div className="beat-list">{authorRevisionNote.mandatoryRules.map((rule,i)=><div className="beat-item" key={i}><p>{rule}</p></div>)}</div>
+      </details>}
+      <p className="muted">Source: flirting-style.json + WRITING-STYLE-DHIKA-EP01-EP03-RECALIBRATION.md. This note is a writing guide, not retroactive approval of any Episode 03 draft.</p>
    </article>
    <details className="episode-outline" id="society-wives-author-narrator-instructions"><summary>Author writing instructions · visual descriptions &amp; flirting style</summary>
     <p><strong>Narrator image, not a character's spoken line.</strong> Describe adult female characters using distinct body-shape metaphors/similes, walking gait, stance, silhouette, outfit fit, fabric movement and turns only when grounded in their wardrobe and scene.</p>
