@@ -97,7 +97,7 @@
       "id": "S03-01",
       "time": "11:12–11:25",
       "type": "new",
-      "status": "AUTHOR_APPROVED_PLOT_KEEP_WORDING_UNCHANGED_PROSE_NOT_COMMISSIONED",
+      "status": "AUTHOR_APPROVED_FINAL_PROSE_PUBLISHED_2026_11_17",
       "title": "The strong-chai moment — station Chotu",
       "place": "Police station canteen/authorized staff tea counter",
       "characters": [
@@ -124,9 +124,16 @@
       ],
       "exit": "Shreya leaves with the file; Chotu now has an organic recurring point of contact, not a promise of a date",
       "authorApproval": {
-        "approvedDate": "2026-11-16",
-        "scope": "Existing strong-chai beat wording and incident; not publication of new prose",
-        "instruction": "No rewriting, no added lines."
+        "approvedDate": "2026-11-17",
+        "scope": "Complete short scene prose and existing Strong-Chai plot",
+        "instruction": "Final, frozen; do not rewrite plot/dialogue without author request",
+        "prosePublished": true
+      },
+      "sourceFile": "episode-03-reader.json",
+      "sourceScene": {
+        "character": "shreya",
+        "id": "S03-01",
+        "status": "AUTHOR_APPROVED_FINAL_PROSE_PUBLISHED_2026_11_17"
       }
     },
     {
@@ -854,7 +861,8 @@
   ],
   "authorDecisions": [
     "2026-11-16: B3 strong-chai beat explicitly approved unchanged; B4 DCP Rathod one-sided private fantasy requested, proposed review logic only; B5 inmates bet moved from active Jan1 plan to unscheduled future arc with three labeled adult inmates and ego-based nonsexual challenge.",
-    "2026-11-17: SR10 / Beat 02 complete UI prose with G01–G07 approved final by author; no wording changes. S03-01 Strong-Chai plot remains separately approved, its short prose is a new review draft, not yet published."
+    "2026-11-17: SR10 / Beat 02 complete UI prose with G01–G07 approved final by author; no wording changes. S03-01 Strong-Chai plot remains separately approved, its short prose is a new review draft, not yet published.",
+    "2026-11-17: Author approves complete short S03-01 Strong-Chai prose as final and directly published in EP03 reader. EP02 ALL existing scenes final/frozen. SR11 DCP fantasy remains a separate proposed, not-yet-approved beat; no plot modifications."
   ],
   "trainingRosterClarification": {
     "policeTrainees": [
@@ -890,7 +898,8 @@
       "id": "S03-01",
       "kind": "active",
       "title": "Station Chotu · Strong-Chai Moment",
-      "label": "Approved plot · unchanged"
+      "label": "Approved final published prose · frozen",
+      "status": "AUTHOR_APPROVED_FINAL_PROSE_PUBLISHED_2026_11_17"
     },
     {
       "number": 4,
