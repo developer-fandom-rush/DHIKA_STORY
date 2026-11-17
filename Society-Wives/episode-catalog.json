@@ -1,25 +1,25 @@
 {
   "series": "Society Wives — Five Veils of Desire",
   "catalogVersion": "2026-11-14",
-  "policy": "Episode status is a story-boundary designation, not blanket approval of every scene or image.",
+  "policy": "Episode 01 and all existing Episode 02 story material are author-approved and frozen as of 2026-11-17; historical scene-status/provenance metadata and missing prose are retained in raw sources. Episode 03 prose completeness and approval are tracked separately. Future plots are not automatically canon prose.",
   "episodes": [
     {
       "number": "01",
       "title": "Five Doors, Eleven Worlds",
       "subtitle": "The opening ensemble",
-      "status": "PUBLISHED_SOURCE",
+      "status": "AUTHOR_APPROVED_FINAL_FROZEN",
       "date": "Opening / prologue",
       "mainPath": "episode-01.html",
-      "note": "Existing Episode 01 source is presented as an opening/prologue and remains unchanged."
+      "note": "Episode 01 original source is fully approved and frozen. Current final approval supersedes historical draft/review metadata; no original scene text altered."
     },
     {
       "number": "02",
       "title": "The New Year's Unspoken Secrets",
       "subtitle": "One Day, Six Perspectives",
-      "status": "STORY_WINDOW_CLOSED_REVIEW_OPEN",
+      "status": "AUTHOR_APPROVED_FINAL_FROZEN",
       "date": "2026-01-01",
       "mainPath": "episode-02.html",
-      "endRule": "No additional 1 January POV events after the established character cutoffs.",
+      "endRule": "All existing Episode 02 published content and plot material is finalized/frozen. Previously unwritten prose remains absent, not fabricated or moved from Episode 03.",
       "chapters": [
         {
           "lead": "Ankita",
@@ -28,7 +28,7 @@
           "range": "A02–A08; parcel P01–P08",
           "last": "A08: office, 09:20; parallel parcel P08, 12:50",
           "cutoff": "Around 13:00, Ankita at Cyber City office",
-          "state": "Published; A05 and parcel-related review/continuity status retained."
+          "state": "AUTHOR APPROVED · FINAL · FROZEN — existing story material only"
         },
         {
           "lead": "Shivani",
@@ -37,7 +37,7 @@
           "range": "A02–D01",
           "last": "D01 — An Unshared Secret, 13:20–13:30",
           "cutoff": "13:20–13:30 at college",
-          "state": "Published through narrative cutoff; B02 review marker retained."
+          "state": "AUTHOR APPROVED · FINAL · FROZEN — existing story material only"
         },
         {
           "lead": "Taniya & Soniya",
@@ -46,7 +46,7 @@
           "range": "TS01–TS02 published; remainder plotted",
           "last": "TS02 full prose in shared reader",
           "cutoff": "13:15 (Taniya at CA office; Soniya at shared flat)",
-          "state": "Partial prose; working-plan scenes TS03+ unapproved."
+          "state": "AUTHOR APPROVED · FINAL · FROZEN — existing story material only"
         },
         {
           "lead": "Meenakshi",
@@ -55,7 +55,7 @@
           "range": "M01–M07, M10–M12 published; M09 plot-only",
           "last": "M12 — A Passing Curiosity at the Locker, 13:15",
           "cutoff": "13:15 at hospital",
-          "state": "M01–M05 approved; M06–M07 and M10–M11 review drafts; M12 ending revised by author (no photograph; curiosity passes); M09 full prose missing."
+          "state": "AUTHOR APPROVED · FINAL · FROZEN — existing story material only"
         },
         {
           "lead": "Shreya",
@@ -64,7 +64,7 @@
           "range": "SR01, SR02A/B, SR04–SR09 published",
           "last": "SR09 — Inspector Chauhan’s Distracted Attention, 10:15",
           "cutoff": "10:15 at police station",
-          "state": "User-closed at SR09; SR03 reference only, not published full prose."
+          "state": "AUTHOR APPROVED · FINAL · FROZEN — existing story material only"
         }
       ],
       "illustrationArchive": {
