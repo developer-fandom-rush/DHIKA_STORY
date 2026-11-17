@@ -217,5 +217,51 @@
     "Soniya is the initiator of her own bold verbal/visual outfit test with Guddu; he has a clear opportunity to respond, and there is no forced contact.",
     "Past Soniya–Rahul marital facts remain intact; future choice to have sex with another adult, when/if decided, needs its own separate scene and consensual off-page fade-to-black. Do not claim it already occurred.",
     "All newly proposed clock times remain review-only pending author approval. No prose or earlier episode is overwritten."
-  ]
+  ],
+  "writerReviewCorrections": {
+    "status": "AUTHOR_REQUESTED_REVIEW_NOTES_ONLY__NO_EXISTING_SCENES_EDITED",
+    "sourceInstruction": "Review and reconcile these directions before prose drafting; do not silently overwrite the 5 currently saved discussion scenes or claim approval.",
+    "taniyaRahulDream": [
+      {
+        "beat": "TS04A-07",
+        "issue": "Existing Scene 03 labels waking reality and Rahul's immediate exit before the imagined continuation is shown. This spoils the eventual reveal.",
+        "toReview": "At prose drafting, conceal the true version until the later reveal. The actual occurrence is only the brief accidental door opening, apology and Rahul leaving; a longer conversation is not real."
+      },
+      {
+        "beat": "TS04A-11",
+        "issue": "Current dream is too short and loses the author's intended cheeky jiju–saali power reversal, growing boldness, Rahul's response, and Taniya playfully pushing him toward the exit.",
+        "toReview": "Restage the illusion as a single uninterrupted apparent continuation of the doorway moment, with longer recognizable dialogue and the author-directed imaginary escalation; any intimate/body-exposure acts remain non-graphic and are never established as waking events."
+      },
+      {
+        "beat": "TS04A-12",
+        "issue": "A title mentioning a dream and the word 'In Taniya's dream' in upfront writer text can accidentally make its way into narration and disclose the twist early.",
+        "toReview": "Only reveal after the apparent scene ends: Taniya wakes, and the narration shows Rahul had apologized and left promptly. Keep both timeline levels distinct in internal metadata."
+      },
+      {
+        "beat": "TS04A-13",
+        "issue": "No real intimate incident with Rahul should leak from the dream into waking canon.",
+        "toReview": "End with Taniya sleeping after her long workday; maintain Episode02 secret awareness lock (Rahul's covert observation of Taniya was unknown to her)."
+      }
+    ],
+    "soniyaGuddu": [
+      {
+        "beat": "TS04A-06",
+        "issue": "Current shrug removal, gaze test, three questions and brief hand-hold are materially less bold than the author's intended visual teasing and Guddu's resulting shock.",
+        "toReview": "Author requests deliberate, distinctly more revealing outfit-based teasing: Soniya remains partially covered, knowingly displays considerably more of her appearance than the current athletic-top test, and directly challenges Guddu's reaction. Garment/coverage specifics remain for author review; do not invent nudity particulars or a physical sexual encounter.",
+        "tone": "Soniya controls her own bold presentation. This is not Taniya's accidental bag-strap incident replayed."
+      },
+      {
+        "beat": "TS04A-08",
+        "issue": "Current Guddu leaves normally after saying goodnight. Author instead specified an overwhelming surprise and abrupt retreat.",
+        "toReview": "Guddu reacts with a visibly startled, flustered expression to what Soniya has chosen to show, then quickly excuses himself and retreats from the flat. He does not turn it into a confident flirt, continue a long test, have sex or return for a fabricated apology tonight."
+      }
+    ],
+    "continuity": [
+      "Guddu in the shared flat occurs only after Taniya's 21:09–21:22 service-bay accident; keep the scene at the agreed 21:22–21:36 draft window until author fixes exact execution.",
+      "Three residents for the night: Taniya, Soniya and Rahul; Guddu is only a visitor and leaves.",
+      "Existing Jan2 workshop 'first' Guddu accidents must be reclassified if the Jan1 accident is approved.",
+      "Do not amend previously approved Episode03 Karan–Aman lobby event or change any earlier scene prose."
+    ],
+    "approval": "NOT APPROVED. The above are annotations for next writer pass, not implementation or scene rewrite."
+  }
 }
