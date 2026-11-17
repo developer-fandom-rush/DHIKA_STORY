@@ -1,0 +1,221 @@
+{
+  "schemaVersion": 1,
+  "id": "SW-EP04A-TANIYA-SONIYA-NIGHT-REVIEW-20261117",
+  "series": "Society Wives — Five Veils of Desire",
+  "episode": "04",
+  "part": "A",
+  "date": "2026-01-01",
+  "timezone": "Asia/Kolkata",
+  "title": "Episode 04A — Taniya & Soniya: Guddu, Rahul, the Night and the Dream",
+  "status": "NEW_AUTHOR_DISCUSSION_DRAFT__NOT_APPROVED_PROSE",
+  "canonChecks": {
+    "episode02": "Taniya × Karan–Aman morning gym familiarity is Episode 02 TS05, not the later lobby collision.",
+    "episode03": "T03-10 Guddu wedding quotation at ~20:08–20:15; T03-11 Karan & Aman foyer collision at ~20:16–20:24; T03-12 Soniya/Rahul shared flat ~20:25–21:00. These are AUTHOR-APPROVED EP03 PLOTS, not complete prose; T03-06–T03-12 remain pending prose.",
+    "otherKnowledge": "Episode 02 TS01: Taniya is aware of Soniya/Rahul's ordinary married flirtation. Episode 02 TS02: Rahul secretly observed Taniya changing; Taniya did NOT know of that event. Her dream cannot recall that unreported secret.",
+    "sameDate": "This EP04A review begins AFTER EP03 T03-12 ends ~21:00; no duplicate of the earlier Guddu quotation or Karan/Aman lobby collision.",
+    "marriage": "Soniya and Rahul are married; Rahul is Taniya's brother-in-law. Taniya is engaged to Aditya, not married.",
+    "soniyaRelationship": "As of EP02 TS07, past other-person kissing/closeness was known to Rahul; intercourse outside marriage had not yet occurred. Author's newer future direction is more open consensual sexual freedom, but do not retroactively claim earlier completed sex or invent their agreed limits."
+  },
+  "characters": [
+    {
+      "name": "Taniya",
+      "role": "23 · engaged CA professional; younger sister"
+    },
+    {
+      "name": "Soniya",
+      "role": "24 · Taniya's married elder sister"
+    },
+    {
+      "name": "Rahul",
+      "role": "28 · Soniya's husband and Taniya's jiju"
+    },
+    {
+      "name": "Guddu",
+      "role": "23 · Society Chotu; wedding quotation and errands helper"
+    }
+  ],
+  "scenes": [
+    {
+      "scene": "01",
+      "start": "21:00",
+      "end": "21:09",
+      "title": "Flat after the approved EP03 homecoming",
+      "location": "Shared flat",
+      "beats": [
+        {
+          "id": "TS04A-01",
+          "time": "21:00–21:09",
+          "title": "A quiet reset, with one paperwork reason",
+          "plot": "After the approved T03-12 opening of Soniya's gym-related disclosure to Rahul, Taniya sits with her quotation envelope and discovers she left its outside approval sleeve at Guddu's society counter while handling the later foyer incident. Guddu texts that it is still there and he can meet her at the service bay. Taniya steps down briefly before changing from work clothes.",
+          "knowledge": "Rahul knows Soniya wants to discuss the gym event but is not silently assumed to have agreed to any new intimacy. The twins are not summoned back."
+        }
+      ]
+    },
+    {
+      "scene": "02",
+      "start": "21:09",
+      "end": "21:22",
+      "title": "Taniya × Guddu — first actual accidental closeness",
+      "location": "Society service bay, near event supplies",
+      "beats": [
+        {
+          "id": "TS04A-02",
+          "time": "21:09–21:13",
+          "title": "Approval sleeve, not another missing quotation page",
+          "plot": "Guddu is putting away community vendor supplies; he returns Taniya's forgotten approval sleeve, not a magically completed missing quotation page. She jokes that his service counter has become her wedding-document lost-and-found."
+        },
+        {
+          "id": "TS04A-03",
+          "time": "21:13–21:16",
+          "title": "The bag-strap snag",
+          "plot": "A small stock trolley starts moving as Guddu tries to make room at the counter. Taniya's crossbody-bag strap catches its handle, drawing her unexpectedly closer. She catches his forearm for balance as he stabilizes the trolley; both separate once she unhooks the strap. No garment exposure and no planned grab.",
+          "physical": "Brief forearm grip, close shoulder proximity for a second or two, then immediate release.",
+          "reaction": "Taniya is startled and then annoyed at the trolley; she recovers with a joking 'Tumhari counter pe audit ke saath hazard test bhi hota hai?' Guddu apologizes and offers to double-check the wheels."
+        },
+        {
+          "id": "TS04A-04",
+          "time": "21:16–21:22",
+          "title": "A self-aware exit",
+          "plot": "Guddu points out the trolley brake and she gives one last teasing remark before returning to the flat. Her response is a new awareness of being caught off guard, not an automatic romantic confession. The sleeve now gives Guddu a specific next-day wedding follow-up.",
+          "reaction": "First accidental touch is complete. Do not repeat it as the 'first' accident in a Jan2 workshop."
+        }
+      ]
+    },
+    {
+      "scene": "03",
+      "start": "21:22",
+      "end": "21:36",
+      "title": "Soniya's bold test at the door / Taniya's real mix-up",
+      "location": "Shared flat · entryway and separate Taniya bedroom",
+      "beats": [
+        {
+          "id": "TS04A-05",
+          "time": "21:22–21:26",
+          "title": "Guddu returns Taniya's dropped pen",
+          "plot": "As Taniya settles back inside, Guddu comes to the flat door with her pen and a small docket she dropped in the service bay; Soniya opens, having heard about the accident. Soniya wears her own fitted, ordinary athletic/lounge top, and deliberately treats the exchange as a chance for cheeky flirtation rather than pretending to be shy.",
+          "dialogue": [
+            {
+              "speaker": "Soniya",
+              "line": "Guddu babu, Taniya ke saath accident ho gaya? Ya har kisi ko aise hi nervous kar dete ho?"
+            },
+            {
+              "speaker": "Guddu",
+              "line": "Arre didi, bag ka strap phansa tha. Sach mein."
+            }
+          ]
+        },
+        {
+          "id": "TS04A-06",
+          "time": "21:26–21:33",
+          "title": "A concrete three-question confidence test",
+          "plot": "Soniya steps into the bright entryway, takes off her loose outer shrug to show the athletic top she intentionally chose, and challenges Guddu to make eye contact, say which color he thinks suits her better, and offer one honest non-work compliment without looking at his delivery note. She lightly offers a short hand-hold when he agrees. Guddu manages a witty answer about her confidence rather than stumbling; Soniya laughs and releases his hand. The test is her chosen presentation, a direct spoken challenge and a moment of mutually welcomed physical closeness—not an accidental exposure or a repeat of Taniya's trolley.",
+          "physical": "Fully clothed self-presentation, brief hand-hold and direct gaze; no forced intimate touching or on-page sex.",
+          "dialogue": [
+            {
+              "speaker": "Soniya",
+              "line": "Teen sawaal. Aankhon mein dekh ke bolo: yeh colour mujh par suit karta hai? Main confident lag rahi hoon? Aur ek compliment — bina receipt dekhe."
+            },
+            {
+              "speaker": "Guddu",
+              "line": "Colour bhi, confidence bhi. Aur aapke sawaal... sabse zyada dangerous."
+            },
+            {
+              "speaker": "Soniya",
+              "line": "Wah, Guddu babu. Aaj audit pass."
+            }
+          ],
+          "reaction": "Soniya is openly amused and in control; Guddu is interested but practical, and leaves with no sudden commitment or invented sexual encounter."
+        },
+        {
+          "id": "TS04A-07",
+          "time": "21:26–21:29",
+          "title": "Reality: Rahul opens the wrong door and immediately leaves",
+          "plot": "In a separate simultaneous room, Taniya is changing into night clothes. Rahul, looking for a charger he thought had been left there, pushes open the door without realizing she is midway through changing. He briefly sees her in her bra and trousers, apologizes and turns away immediately, without stepping closer or touching her. The actual accident ends there. The source's earlier reader-only privacy incident remains unknown to Taniya.",
+          "knowledge": "To the reader, this first version may cut on the sudden doorway interruption. The expanded suggestive banter seen later is deliberately a dream, not reality."
+        },
+        {
+          "id": "TS04A-08",
+          "time": "21:33–21:36",
+          "title": "Soniya says goodnight to Guddu",
+          "plot": "Soniya takes the returned pen and docket. Guddu departs to finish the counter closure; Soniya goes back inside. No one is told Taniya's private room mix-up as gossip.",
+          "reaction": "Home returns to the existing three adult residents, with all three in distinct spaces."
+        }
+      ]
+    },
+    {
+      "scene": "04",
+      "start": "21:36",
+      "end": "22:45",
+      "title": "Sisters, married couple, and separate bedtime",
+      "location": "Shared flat",
+      "beats": [
+        {
+          "id": "TS04A-09",
+          "time": "21:36–22:15",
+          "title": "Normal evening, no public confession",
+          "plot": "Taniya and Soniya settle household tasks and wedding paperwork; Rahul and Soniya continue their pre-existing private conversation about the morning gym encounter without an invented list of sexual rules. Their marriage is not rewritten as a new agreement granting automatic consent to everything. Soniya's independent later romantic/sexual decisions are not a lesson Taniya must follow."
+        },
+        {
+          "id": "TS04A-10",
+          "time": "22:15–22:45",
+          "title": "Each resident retires",
+          "plot": "Taniya goes to her own bedroom; Rahul and Soniya retire as an established married couple. The home has only Taniya, Soniya and Rahul for the night. Taniya is tired after her confirmed long office shift."
+        }
+      ]
+    },
+    {
+      "scene": "05",
+      "start": "22:45",
+      "end": "23:10",
+      "title": "The doorway replays — dream and delayed reveal",
+      "location": "Taniya's sleeping mind / the actual shared flat",
+      "beats": [
+        {
+          "id": "TS04A-11",
+          "time": "22:45–22:58",
+          "title": "A continuation that initially appears real",
+          "plot": "In Taniya's dream, the earlier doorway interruption appears to continue: instead of leaving, Rahul engages in their familiar audit-style jiju-saali banter. She challenges his teasing and the conversation becomes unusually daring. The dream uses close looks, charged pauses and mischievous retorts, not graphic undressing or genital exposure. Their banter ends as she playfully ushers him toward the door; in the imagined ending there is a brief affectionate cheek kiss and hug. This is only the imagined scenario, not a real encounter or proof of Rahul's consent in waking life.",
+          "dialogue": [
+            {
+              "speaker": "Taniya",
+              "line": "Jiju, aapko sharam nahi aati?"
+            },
+            {
+              "speaker": "Rahul (dream)",
+              "line": "Tumhari audit se bachna mushkil ho raha hai, madam."
+            },
+            {
+              "speaker": "Taniya",
+              "line": "Toh aaj ka audit yahin band. Bahar jaiye."
+            }
+          ]
+        },
+        {
+          "id": "TS04A-12",
+          "time": "22:58–23:05",
+          "title": "The reality switch",
+          "plot": "Taniya wakes and recalls the actual moment correctly: Rahul had apologized and turned away as soon as he noticed she was changing. The daring conversation and imagined affectionate contact never occurred. Narrator reveals only here that the longer scene was a dream, without retroactively altering the earlier consent or secret-knowledge locks."
+        },
+        {
+          "id": "TS04A-13",
+          "time": "23:05–23:10",
+          "title": "1 January ends",
+          "plot": "She settles the bedding and sleeps, still curious about the day's surprising social encounters but with no real sexual encounter with Rahul. Soniya and Rahul are already in their own room. Fade out to the quiet apartment."
+        }
+      ]
+    }
+  ],
+  "day2Scope": {
+    "punitOffice": "First Punit accident is still Jan2 ~12:05, separate from these scenes",
+    "guddu": "The previous Jan2 Guddu first-accident slot is now a continuity conflict with the proposed Jan1 strap-snag; decide whether to make Jan2 a voluntary follow-up AFTER author approves this draft",
+    "soniya": "Her previous Jan2 morning Guddu trolley accident remains a distinct proposal until approved; if reused, ensure it is not an exact repeat of Taniya's trolley mechanism"
+  },
+  "approvalRules": [
+    "Preserve Episode 03 T03-10/11/12 as approved plot and pending prose. Never migrate the Karan/Aman foyer incident into EP04A.",
+    "Distinguish actual Rahul door-opening (brief glimpse, apology, retreat, no touch) from Taniya's imagined dream continuation (teasing, non-graphic affectionate contact). Reveal the dream only in Scene 05.",
+    "Prior EP02 Rahul secret watching is reader-only; Taniya has not learned of it. TS01 married couple banter is not a disclosure of that secret.",
+    "Soniya is the initiator of her own bold verbal/visual outfit test with Guddu; he has a clear opportunity to respond, and there is no forced contact.",
+    "Past Soniya–Rahul marital facts remain intact; future choice to have sex with another adult, when/if decided, needs its own separate scene and consensual off-page fade-to-black. Do not claim it already occurred.",
+    "All newly proposed clock times remain review-only pending author approval. No prose or earlier episode is overwritten."
+  ]
+}
