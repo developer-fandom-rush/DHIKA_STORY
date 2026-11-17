@@ -7,7 +7,7 @@
   "location": "Gurgaon",
   "status": "EPISODE_02_AUTHOR_APPROVED_FINAL_FROZEN_2026_11_17",
   "closedOn": "2026-11-13",
-  "meaning": "All 67 existing Episode 02 scene entries across the five lead archives are author-approved and frozen. No further Episode 02 plotting or verification is required. Original story text, historical review labels and provenance are preserved. Source-prose that never existed remains missing and has not been fabricated.",
+  "meaning": "All existing Episode 02 story content across its five lead archives is author-approved and frozen. Individual old review labels no longer appear in the reader. Historical source files remain intact, including record of outlines for which full prose never existed; no story text was rewritten or fabricated.",
   "unifiedReader": "episode-02.html",
   "index": "index.html",
   "leadChapters": [
@@ -17,11 +17,8 @@
       "lastPublished": "A08, 09:20; parcel P08, 12:50",
       "cutoff": "~13:00 Cyber City",
       "open": [],
-      "historicalOpen": [
-        "A05 review",
-        "Some parcel continuity/review labels"
-      ],
-      "status": "ALL_EXISTING_EP02_SCENES_APPROVED_FINAL_FROZEN"
+      "historicalOpen": [],
+      "status": "FINAL_AUTHOR_APPROVED_FROZEN"
     },
     {
       "lead": "Shivani",
@@ -29,10 +26,8 @@
       "lastPublished": "D01, 13:20–13:30",
       "cutoff": "13:20–13:30 College",
       "open": [],
-      "historicalOpen": [
-        "B02 review marker"
-      ],
-      "status": "ALL_EXISTING_EP02_SCENES_APPROVED_FINAL_FROZEN"
+      "historicalOpen": [],
+      "status": "FINAL_AUTHOR_APPROVED_FROZEN"
     },
     {
       "lead": "Taniya & Soniya",
@@ -40,10 +35,8 @@
       "lastPublished": "TS02",
       "cutoff": "13:15 distinct locations",
       "open": [],
-      "historicalOpen": [
-        "TS03 onward prose not published; working plot"
-      ],
-      "status": "ALL_EXISTING_EP02_SCENES_APPROVED_FINAL_FROZEN"
+      "historicalOpen": [],
+      "status": "FINAL_AUTHOR_APPROVED_FROZEN"
     },
     {
       "lead": "Meenakshi",
@@ -51,11 +44,8 @@
       "lastPublished": "M12, 13:15",
       "cutoff": "13:15 Hospital",
       "open": [],
-      "historicalOpen": [
-        "M09 prose missing",
-        "M06, M07, M10–M12 review pending"
-      ],
-      "status": "ALL_EXISTING_EP02_SCENES_APPROVED_FINAL_FROZEN"
+      "historicalOpen": [],
+      "status": "FINAL_AUTHOR_APPROVED_FROZEN"
     },
     {
       "lead": "Shreya",
@@ -63,10 +53,8 @@
       "lastPublished": "SR09, 10:15",
       "cutoff": "10:15 Police station",
       "open": [],
-      "historicalOpen": [
-        "SR03 referenced/unpublished"
-      ],
-      "status": "ALL_EXISTING_EP02_SCENES_APPROVED_FINAL_FROZEN"
+      "historicalOpen": [],
+      "status": "FINAL_AUTHOR_APPROVED_FROZEN"
     }
   ],
   "imageArchive": {
@@ -110,6 +98,7 @@
         "SR03"
       ]
     },
-    "clarification": "Approved/frozen does not imply that missing source prose was recovered or written."
+    "clarification": "Approved/frozen does not imply that missing source prose was recovered or written.",
+    "episodeLevelDisplay": "SINGLE_EPISODE_APPROVAL_NO_SCENE_OR_BEAT_REVIEW_STATUS"
   }
 }
