@@ -198,8 +198,15 @@ try {
  check((await page.locator('#society-wives-author-narrator-instructions').innerText()).includes('body-shape metaphors'),'Movement and body comparison style rendered');
  check((await page.locator('#society-wives-author-narrator-instructions').innerText()).includes('apple-rounded silhouette'),'Simile vocabulary sourced from writing style JSON');
  await page.locator('#society-wives-author-narrator-instructions summary').click();
- check(await page.locator('.perspective-tabs button').count()===5,'Planning shows five lead selectors');
+ check(await page.locator('.perspective-tabs button').count()===6,'Planning shows six lead selectors including Soniya');
  await page.locator('.perspective-tabs button', {hasText:'Taniya'}).click();
+ await page.waitForFunction(()=>document.querySelectorAll('#ep04-chotu-planning .episode-outline').length>=2);
+ check((await page.locator('#ep04-chotu-planning').innerText()).includes('Punit'),'New Chotu workshop shows the office helper for Taniya');
+ check((await page.locator('#ep04-chotu-planning').innerText()).includes('Guddu'),'New Chotu workshop shows the society helper for Taniya');
+ await page.locator('.perspective-tabs button',{hasText:'Soniya'}).click();
+ await page.waitForFunction(()=>document.querySelector('#ep04-chotu-planning')?.textContent?.includes('The runaway equipment trolley'));
+ check((await page.locator('#ep04-chotu-planning').innerText()).includes('The willing layout demonstration'),'Soniya has a separate two-phase Chotu track');
+ await page.locator('.perspective-tabs button',{hasText:'Taniya'}).click();
  await page.waitForFunction(()=>document.querySelectorAll('#taniya-ep03-ordered-beats > details').length===12);
  check(await page.locator('#taniya-ep03-ordered-beats > details').count()===12,'Taniya EP03 has all twelve new full-day beats');
  check((await page.locator('#taniya-ep03-timeline').innerText()).includes('10:50 AM'),'Taniya official EP03 on-page opening 10:50 AM');
