@@ -394,6 +394,9 @@ assert.ok(shreyaEpisode03Proposal.timeline.some(x=>x.id==='S03-01'&&x.characters
 assert.ok(shreyaEpisode03Proposal.timeline.some(x=>x.id==='S03-08'&&x.characters.some(z=>z.includes('Chintu'))),'Distinct society Chintu proposal missing');
 assert.ok(shreyaEpisode03Proposal.timeline.some(x=>x.id==='S03-07'&&x.characters.some(y=>y.startsWith('Samar (24'))&&x.characters.some(y=>y.startsWith('Shaan (24'))),'Society twins continuity missing');
 assert.equal(shreyaEpisode03Proposal.timeline.find(x=>x.id==='S03-07').sceneBeats.length,6,'Six distinct Samar and Shaan physical progression beats missing');
+assert.ok(['S03-05','S03-07'].every(id=>{const z=shreyaEpisode03Proposal.timeline.find(x=>x.id===id);return z.editorialIssueToDiscuss?.headline==='This was done incorrectly. We have to update it.'&&z.editorialIssueToDiscuss?.status==='OPEN_FOR_AUTHOR_DISCUSSION'}),'Shreya training and twins must show explicit author discussion review notes');
+assert.ok(shreyaEpisode03Proposal.timeline.find(x=>x.id==='S03-05').status.includes('APPROVED'),'Shreya existing plot approval remains untouched');
+assert.ok(sourcePlanning.includes("shreya-review-issue-"),'Planning UI must render specific Shreya critique notes in affected beats');
 assert.equal(shreyaEpisode03Proposal.timeline.find(x=>x.id==='S03-08').sceneBeats.length,3,'Chintu continuation must have three mini-beats');
 assert.ok(shreyaEpisode03Proposal.timeline.find(x=>x.id==='S03-07').distinctEvent.includes('forearm')&&shreyaEpisode03Proposal.timeline.find(x=>x.id==='S03-07').distinctEvent.includes('waist'),'Contact choreography must distinguish Samar and Shaan');
 assert.ok(/prologue S05|Episode01 S05/.test(shreyaEpisode03Proposal.timeline.find(x=>x.id==='S03-08').history),'Chintu must remain established, not reintroduced');
