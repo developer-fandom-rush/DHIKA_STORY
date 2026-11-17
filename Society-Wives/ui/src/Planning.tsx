@@ -8,7 +8,6 @@ type AnkitaFuturePresentation={status:string;decision:string;planning:{idea:stri
 type ShivaniSceneReference={schemaVersion:number;id:string;title:string;status:string;source:{googleDocId:string;url:string;title:string;capturedDate:string;capturedFromRevision:string;readBeforeWriting:string};storyDate:string;sceneStart:string;sceneEnd:string;cast:string[];timeline:string[];femaleReferences:{name:string;status:string;heading:string;content:string}[];editorial:{wordForWordNote:string;sourceProtection:string;ritika:string;historicalTime:string}};
 type ShivaniNewBeat={id:string;time:string;title:string;cast:string[];plot:string;dialogue?:{speaker:string;line:string}[];reaction?:string;narratorDirection?:string;knowledge?:{readerOnly:boolean;shivaniAware:boolean;actualContact:boolean}};
 type ShivaniSocietyReturn={title:string;status:string;proseStatus:string;date:string;time:{start:string;end:string};priorFoundation:string[];beats:ShivaniNewBeat[];restrictions:string[]};
-type ShivaniNightPlan={title:string;status:string;proseStatus:string;date:string;episodePlacement:string;time:{firstHomeBeat:string;nightEncounter:string};beats:ShivaniNewBeat[];continuityLocks:string[];relationshipSetup:{shivaniOm:{established:string;proposedNewCharacterAngle:string;fantasyPresentation:string;tone:string};deepuShivani:{established:string;proposedTonight:string};deepuKavya:{new:string;agency:string};twinsKavya:{new:string;distinctVoices:string}};futureArc:Record<string,string>};
 type TaniyaEpisode03Beat={id:string;time:string;title:string;location:string;cast:string[];purpose:string;action:string;physical?:string;teasing?:string;visual:string;dialogue:{speaker:string;line:string}[];turn:string;status:string};
 type TaniyaEpisode03Plot={visualAssets?:{id:string;beatId:string;title:string;url:string;status:string;continuity:string}[];visualAssetFolder?:{title:string;url:string;note:string};schemaVersion:number;episode:string;lead:string;title:string;date:string;start:string;end:string|null;status:string;goal:string;timeIntegrity?:{verifiedStart:string;verifiedCutoff:string;officeEnd:string;commuteAfterWork:string;societyArrival:string;soniyaFirstAppearance:string;consequence:string};plotPhases?:{key:string;beatIds:string[];time:string;state:string;note?:string}[];interactionAudit?:{status:string;officeWomen:{name:string;age:number|null;role:string;status:string}[];males:{name:string;age:number;beatIds:string[];physical:string;relationship:string}[];femalePhysical?:{pair:string;beatId:string;contact:string;reaction:string}[];societyPhysical?:{pair:string;beatId:string;contact:string;reaction:string;romance?:string}[];taniyaReaction?:string;uncleFantasyHint?:string;note:string};figureMapping:{group:string;members:string[];why:string}[];wardrobeStatus:string;wardrobe:string;beats:TaniyaEpisode03Beat[];authorLocks:string[];ending:string;sourceAnchors:{source:string;facts:string}[]};
 type ShreyaBeat={editorialIssueToDiscuss?:{id:string;status:string;headline:string;reason:string;requiredDiscussion:string;approvalBoundary:string};id:string;time:string|null;type?:string;status:string;title:string;place:string|null;characters:string[];history:string;distinctEvent:string;reaction:string;dialogue?:string[][];exit:string;readerOnlyAfterbeat?:string;readerOnlyFantasy?:{trigger:string;fantasy:string;status?:string};wardrobeProposals?:Record<string,string>;wardrobeContinuity?:string;approvalScope?:string;sceneBeats?:{id:string;time:string;heading:string;plot:string;narration?:string;dialogue?:string[][];reaction?:string}[];sharedMemory?:{status:string;event:string;shreya:string;karan:string;aman:string;laterUse:string;sharedBanter:string};styleLock?:string;futureArc?:{coreConflict:string;nonsexualStakes:string;trajectory:string};};
@@ -59,7 +58,6 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
  const {data:shivaniStaffroomPlot,error:shivaniStaffroomError}=useData<ShivaniStaffroomPlot>('episode-03-shivani-staffroom-scene-plot.json');
  const {data:shivaniSceneReference,error:shivaniSceneReferenceError}=useData<ShivaniSceneReference>('episode-03-shivani-scene02-master-reference.json');
  const {data:shivaniSocietyReturn,error:shivaniSocietyReturnError}=useData<ShivaniSocietyReturn>('episode-03-shivani-scene-03-society-return-plot.json');
- const {data:shivaniNightPlan,error:shivaniNightPlanError}=useData<ShivaniNightPlan>('shivani-jan01-night-next-episode-chotu-kavya-twins-om-plot.json');
  const {data:taniyaEpisode03Plot,error:taniyaEpisode03PlotError}=useData<TaniyaEpisode03Plot>('episode-03-taniya-solo-proposed-timeline.json');
  const {data:shreyaFuture}=useData<Plan>('episode-03-shreya-plan.json');
  const {data:shreyaEpisode03Proposal,error:shreyaEpisode03ProposalError}=useData<ShreyaEpisode03Proposal>('episode-03-shreya-jan01-proposed-timeline.json');
@@ -92,7 +90,7 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
   const id=active==='ankita'
    ?(initialScene==='rohit-first-show'?'ankita-ep04-rohit-first-show':'ankita-ep03-written-moved')
    :active==='shivani'
-   ?(initialScene==='cast'?'shivani-ep03-cast-lock':initialScene==='staffroom'?'shivani-ep03-staffroom-scene':initialScene==='reference'?'shivani-ep03-scene02-master-reference':initialScene==='03'?'shivani-ep03-scene03-society-return':initialScene==='night'?'shivani-jan01-night-next-episode':'')
+   ?(initialScene==='cast'?'shivani-ep03-cast-lock':initialScene==='staffroom'?'shivani-ep03-staffroom-scene':initialScene==='reference'?'shivani-ep03-scene02-master-reference':initialScene==='03'?'shivani-ep03-scene03-society-return':'')
    :active==='taniya'?(initialScene==='timeline'?'taniya-ep03-timeline':initialScene?'taniya-ep03-'+initialScene:'taniya-ep03-timeline')
    :active==='shreya'?(initialScene==='timeline'?'shreya-ep03-jan01-timeline':initialScene?'shreya-ep03-'+initialScene:'')
    :active==='meenakshi'
@@ -147,6 +145,7 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
    <article className="episode-plan-card">
     <span className="eyebrow">SHIVANI · EPISODE 04A · 1 JANUARY 2026 · AUTHOR REVIEW</span>
     <h2>EP04A — Shivani: Deepu → Kavya → Karan &amp; Aman → Om's Surprise → Rohan</h2>
+    <p><a className="button primary" target="_blank" rel="noreferrer" href="https://docs.google.com/document/d/1779t20ygHv8Q9PzJuH5u8SgxVcLHg9ZGm7cbmnXFs88/edit?usp=drivesdk">Read complete EP04A prose in Google Docs — शिवानी episode 4A</a></p>
     <p className="source-note"><strong>NEW SCENE PLAN · NOT APPROVED PROSE:</strong> The first private Deepu accident precedes Kavya's arrival. Kavya's interest from Deepu, Karan and Aman comes before Shivani's 'I liked it' cliffhanger. Later Rohan briefly leaves for Om's errand; the burgundy surprise meant for him is accidentally seen by Om. The husband's private night is fade-to-black. All times are working slots, not published events.</p>
     {shivaniEp04AError&&<p>Could not load Shivani night outline: {shivaniEp04AError}</p>}
     {shivaniEp04A&&<>
@@ -587,11 +586,6 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
       </>:<p role="status">{shivaniSocietyReturnError||'Loading society return plot…'}</p>}
     </article>
    </section>}
-   {active==='shivani'&&<details className="episode-outline" id="shivani-jan01-night-next-episode">
-    <summary><strong>Archived January 1 night outline · Superseded by Episode 04A</strong></summary>
-    <p className="source-note">The earlier N01–N08 draft remains preserved for source history. Its older ordering and timing are not the active plan; read the five numbered Episode 04A scenes above for Deepu, Kavya, Karan/Aman and the household close.</p>
-    <p>{shivaniNightPlan?.status||shivaniNightPlanError||'Historical source currently loading.'}</p>
-   </details>}
    {active==='shivani'&&<section className="continuity-cards" id="shivani-ep03-staffroom-scene">
     <article className="episode-plan-card">
       <span className="eyebrow">Archived earlier 2:10–2:35 PM working outline · superseded by the 5:00–5:20 PM master reference above</span>
