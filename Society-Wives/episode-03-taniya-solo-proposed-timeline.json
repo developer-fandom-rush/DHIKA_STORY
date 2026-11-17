@@ -7,7 +7,7 @@
   "title": "The New Year Secret — Taniya & Soniya Episode 03 · Approved Plot",
   "date": "2026-01-01",
   "timezone": "Asia/Kolkata",
-  "status": "AUTHOR_APPROVED_EP03_PLOT__SCENE01_PROSE_DRAFT_PUBLISHED_REMAINDER_PENDING",
+  "status": "AUTHOR_APPROVED_EP03_PLOT__SCENES_01_TO_03_GROK_DRAFTS_PUBLISHED_REMAINDER_PENDING",
   "start": "10:50",
   "end": null,
   "goal": "AUTHOR-APPROVED PLOT (NOT PROSE): Jan 1 episode begins 10:50 AM using deferred TS12–TS16 office material, 10:30–19:30 full CA-office shift. Office establishes Raghav/Chirag, Neha/Andrea, Punit and reader-only Vivek Suri attraction; no Taniya office romance or kiss. After 19:30, Taniya chooses Soniya's society home rather than still-active near-office rental (35–50-minute estimated commute). Compress redundant standalone travel/home exposition: Guddu (society CHOTU) wedding vendor papers at ~20:08, Karan/Aman returning event boards at ~20:16 after their 19:11–19:23 Shivani/Kavya/Deepu crossover, one accidental covered-hip contact with Karan and immediate withdrawal, then Soniya and proposed Rahul return at home ~20:25–21:00. Soniya opens the topic of morning gym Vivek Rao with Rahul; cut before long private disclosure. No private character knowledge transfers, no further intimacy.",
@@ -147,8 +147,8 @@
         }
       ],
       "status": "AUTHOR_REQUESTED_UI_SAVE__PLOT_FOR_REVIEW",
-      "proseStatus": "ASSISTANT_AUTHORED_PUBLISHED_DRAFT_PENDING_AUTHOR_APPROVAL",
-      "proseSource": "episode-03-taniya-scene-01-prose.md",
+      "proseStatus": "GROK_INSERTED_DOCUMENT_DRAFT_PENDING_AUTHOR_REVIEW",
+      "proseSource": "episode-03-taniya-scene-01-grok-merged.md",
       "readerRoute": "#/reading?episode=03&character=taniya&scene=01",
       "grokMarkers": [
         {
@@ -161,7 +161,9 @@
           "purpose": "Raghav's private visible reaction to confident banter; differentiate narrator-only knowledge from Taniya's awareness, without adding touch or invented romance.",
           "status": "OPEN_FOR_GROK_AUTHOR"
         }
-      ]
+      ],
+      "grokSourceTab": "t.0",
+      "grokInsertionsStatus": "GROK_G01_G02_PRESENT_IN_GOOGLE_DOC"
     },
     {
       "id": "T03-02",
@@ -195,7 +197,15 @@
           "line": "Drawer sambhalo, comedy baad mein."
         }
       ],
-      "status": "AUTHOR_REQUESTED_UI_SAVE__PLOT_FOR_REVIEW"
+      "status": "AUTHOR_REQUESTED_UI_SAVE__PLOT_FOR_REVIEW",
+      "proseStatus": "GROK_INSERTED_DOCUMENT_DRAFT_PENDING_CONTINUITY_AND_AUTHOR_REVIEW",
+      "proseSource": "episode-03-taniya-scene-02-grok-merged.md",
+      "readerRoute": "#/reading?episode=03&character=taniya&scene=02",
+      "grokSourceTab": "t.gj1qzidcmt5u",
+      "grokInsertionsStatus": "GROK_G01_G02_PRESENT_IN_GOOGLE_DOC",
+      "reviewNotes": [
+        "Grok insert G01, the surrounding GPT passage, and G02 all narrate the same brief contact. G02 places the hands together again after the source has already said they were released. Source text is preserved; continuity reconciliation is pending."
+      ]
     },
     {
       "id": "T03-03",
@@ -232,7 +242,12 @@
           "line": "Final review evening se pehle close karna hai."
         }
       ],
-      "status": "AUTHOR_REQUESTED_UI_SAVE__PLOT_FOR_REVIEW"
+      "status": "AUTHOR_REQUESTED_UI_SAVE__PLOT_FOR_REVIEW",
+      "proseStatus": "GROK_INSERTED_DOCUMENT_DRAFT_PENDING_AUTHOR_REVIEW",
+      "proseSource": "episode-03-taniya-scene-03-grok-merged.md",
+      "readerRoute": "#/reading?episode=03&character=taniya&scene=03",
+      "grokSourceTab": "t.glxw1jxv3rl1",
+      "grokInsertionsStatus": "GROK_G01_G02_PRESENT_IN_GOOGLE_DOC"
     },
     {
       "id": "T03-04",
@@ -821,11 +836,11 @@
   ],
   "proseProgress": {
     "writtenScenes": [
-      "T03-01"
+      "T03-01",
+      "T03-02",
+      "T03-03"
     ],
     "pendingSceneIds": [
-      "T03-02",
-      "T03-03",
       "T03-04",
       "T03-05",
       "T03-06",
@@ -837,6 +852,10 @@
       "T03-12"
     ],
     "lastUpdated": "2026-11-17",
-    "status": "SCENE01_PUBLISHED_DRAFT_REMAINDER_PLOT_ONLY"
+    "status": "SCENES_01_03_GROK_MERGED_DRAFTS_IN_READER_AUTHOR_REVIEW_PENDING",
+    "sourceDoc": "https://docs.google.com/document/d/1W8GmTAD4cjrWJRt3Au9CS7AHkXezV-YJdWZegQhb7m4/edit",
+    "caveats": [
+      "Grok insert G01, the surrounding GPT passage, and G02 all narrate the same brief contact. G02 places the hands together again after the source has already said they were released. Source text is preserved; continuity reconciliation is pending."
+    ]
   }
 }
