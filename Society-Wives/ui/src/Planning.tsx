@@ -440,6 +440,25 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
        </>:<p role="status">{shreyaBeat10Error||'Loading Training Ground draft…'}</p>}
      </article>
    </section>}
+   {active==='shreya'&&<section className="continuity-cards" id="shreya-ep03-ending-grok-sync">
+     <article className="episode-plan-card">
+       <span className="eyebrow">Shreya · Episode 03 · Grok synced · 4:05–5:45 PM</span>
+       <h2>Beats 11–13 · Complete End-of-Day Prose for Review</h2>
+       <p className="source-note"><strong>Grok reconciliation:</strong> Beat 11 remains exactly two prose lines. Beat 12 incorporates one physically coherent Samar–Shaan catch; Grok G02's actual correction is included once, while duplicated costume and reaction wording from G01/G03 is not repeated. Beat 13 closes the security-register sequence. <strong>All are review drafts; author approval and final PAR score are pending. Beat 14 stays on hold.</strong></p>
+       <div className="continuity-grid">
+         {[
+           {id:'S03-06',label:'Beat 11 · Two-line return',note:'4:05–5:05 PM · Vivek kiss recall / Rajeev and college memory, two prose lines'},
+           {id:'S03-07',label:'Beat 12 · Samar & Shaan',note:'5:10–5:33 PM · One 2–3-second coordinated resistance-band interception, post-motherhood figure, two distinct reactions and tomorrow-gym invitation'},
+           {id:'S03-08',label:'Beat 13 · Chintu & lane close',note:'5:35–5:45 PM · Register follow-up, no extra intimacy; Episode 03 Shreya active lane closes here'}
+         ].map(item=><div className="episode-plan-card" key={item.id}>
+            <strong>{item.label}</strong>
+            <p>{item.note}</p>
+            <button type="button" className="button primary" onClick={()=>openPage('reading',{episode:'03',character:'shreya',scene:item.id})}>Read complete scene · {item.id}</button>
+         </div>)}
+       </div>
+       <p className="source-note">Continuity held: Shreya's upper uniform buttons remain closed after training; she removes her belt in the parked car, untucks her shirt and opens only one lower button. Samar and Shaan are society twins, distinct from Karan/Aman and Rohas/Lokesh. Chintu is society security, distinct from station Chotu.</p>
+     </article>
+   </section>}
    {active==='shreya'&&<section className="continuity-cards" id="shreya-ep04-future-plots">
      <article className="episode-plan-card">
        <span className="eyebrow">Shreya · Episode 04 · Future Plot · Unscheduled</span>
