@@ -526,7 +526,8 @@ assert.ok(shivaniNight.beats.some(x=>x.id==='N05'&&x.cast.includes('Karan')&&x.c
 assert.ok(shivaniNight.continuityLocks.some(x=>x.includes('18:10–18:25')),'Ankita private Rinku scene must remain outside Shivani subplot');
 assert.ok(shivaniNight.futureArc.jealousy.includes('No physical aggression'),'Kavya three-suitor rivalry must be nonviolent');
 assert.ok(sourcePlanning.includes('shivaniSocietyReturn.beats.map'),'Shivani Scene 03 must render in Planning UI');
-assert.ok(sourcePlanning.includes('shivaniNightPlan.beats.map'),'Shivani next episode must render in Planning UI');
+assert.ok(sourcePlanning.includes('Archived January 1 night outline'),'Older Shivani night draft must remain discoverable but no longer duplicate EP04A in UI');
+assert.ok(sourcePlanning.includes('shivaniEp04A.scenes.map'),'New Shivani EP04A numbered scenes must render in Planning UI');
 assert.ok(sourcePlanning.includes('Relationship history — Om × Shivani'),'Om relationship and fantasy must be shown in Planning UI');
 assert.ok(sourcePlanning.includes('Relationship history — Deepu, Shivani and Kavya'),'Deepu and Kavya romance reference must be shown in Planning UI');
 const shivaniStaffroom=read('episode-03-shivani-staffroom-scene-plot.json');
