@@ -479,6 +479,14 @@
         "signal": "User said 'Ok bro next' after a proposed revised training beat",
         "scope": "Beat outline with meaningful physical proximity, visible wardrobe, gaze and competitive reversal",
         "excludes": "Not finished prose or standalone image generation"
+      },
+      "editorialIssueToDiscuss": {
+        "id": "REVIEW-S03-05-PHYSICAL-ESCALATION",
+        "status": "OPEN_FOR_AUTHOR_DISCUSSION",
+        "headline": "This was done incorrectly. We have to update it.",
+        "reason": "The training ground plot over-relies on a brief waist/forearm stabilization and declares a charged effect without a sufficiently distinctive event or individualized immediate reaction. The approved five-person drill and Lokesh result must be preserved; physical staging and its consequence need a dedicated author-led review before prose.",
+        "requiredDiscussion": "Decide what materially changes for Shreya, Lokesh and Rohas during this existing competitive drill. Do not automatically add a longer shoulder/hand-touch ladder or rewrite approved drill beats.",
+        "approvalBoundary": "Editorial critique only. Do not revoke the prior plot approval, rewrite accepted dialogue, or silently introduce new intimate actions."
       }
     },
     {
@@ -672,7 +680,15 @@
         }
       ],
       "dialogue": [],
-      "styleLock": "Event first, athletic clothing continuity from B10, non-graphic romantic charge through distinct voluntary physical contacts, paced dialogue and one short Shreya internal response. Samar is overt/competitive; Shaan quiet/observant. One changed pressure contact and one requested spot, not a repetitive accidental-fall ladder. No physical exposure, no second training challenge at station, and never presume privacy thoughts are known to twins."
+      "styleLock": "Event first, athletic clothing continuity from B10, non-graphic romantic charge through distinct voluntary physical contacts, paced dialogue and one short Shreya internal response. Samar is overt/competitive; Shaan quiet/observant. One changed pressure contact and one requested spot, not a repetitive accidental-fall ladder. No physical exposure, no second training challenge at station, and never presume privacy thoughts are known to twins.",
+      "editorialIssueToDiscuss": {
+        "id": "REVIEW-S03-07-SAMAR-SHAAN-ESCALATION",
+        "status": "OPEN_FOR_AUTHOR_DISCUSSION",
+        "headline": "This was done incorrectly. We have to update it.",
+        "reason": "The proposed Samar–Shaan encounter currently describes multiple forearm/upper-arm/waist steadies and labels them 'charged', but the actual distinctive incident, different bodily/emotional responses and persistent memorable turning point are underdeveloped. This is the same repetitive weak-touch technique rejected by the Dhika EP01–EP03 recalibration guide.",
+        "requiredDiscussion": "Keep Samar and Shaan distinct and retain their two established bets. Before prose, design a meaningful event and immediate individual aftermath rather than another staged balancing/spotter move or a prescribed number of small touches.",
+        "approvalBoundary": "Only a review note on current draft; keep prior event text and user selected direction intact until author review."
+      }
     },
     {
       "id": "S03-08",
@@ -981,5 +997,23 @@
     "beat12": "Write physical-contact progression with Samar/Shaan in prior style, surprise and a charged but non-graphic response from Shreya; preserve separately established morning SR01 familiarity.",
     "beat13": "Station chaiwala Chotu was already introduced at B3. Society Chintu is also pre-introduced in EP01 S05; continue him, don't start a duplicate intro.",
     "beat14": "Hold final family/home transit; no prose or implied evening event."
-  }
+  },
+  "authorReviewNotes": [
+    {
+      "id": "REVIEW-S03-05-PHYSICAL-ESCALATION",
+      "status": "OPEN_FOR_AUTHOR_DISCUSSION",
+      "headline": "This was done incorrectly. We have to update it.",
+      "reason": "The training ground plot over-relies on a brief waist/forearm stabilization and declares a charged effect without a sufficiently distinctive event or individualized immediate reaction. The approved five-person drill and Lokesh result must be preserved; physical staging and its consequence need a dedicated author-led review before prose.",
+      "requiredDiscussion": "Decide what materially changes for Shreya, Lokesh and Rohas during this existing competitive drill. Do not automatically add a longer shoulder/hand-touch ladder or rewrite approved drill beats.",
+      "approvalBoundary": "Editorial critique only. Do not revoke the prior plot approval, rewrite accepted dialogue, or silently introduce new intimate actions."
+    },
+    {
+      "id": "REVIEW-S03-07-SAMAR-SHAAN-ESCALATION",
+      "status": "OPEN_FOR_AUTHOR_DISCUSSION",
+      "headline": "This was done incorrectly. We have to update it.",
+      "reason": "The proposed Samar–Shaan encounter currently describes multiple forearm/upper-arm/waist steadies and labels them 'charged', but the actual distinctive incident, different bodily/emotional responses and persistent memorable turning point are underdeveloped. This is the same repetitive weak-touch technique rejected by the Dhika EP01–EP03 recalibration guide.",
+      "requiredDiscussion": "Keep Samar and Shaan distinct and retain their two established bets. Before prose, design a meaningful event and immediate individual aftermath rather than another staged balancing/spotter move or a prescribed number of small touches.",
+      "approvalBoundary": "Only a review note on current draft; keep prior event text and user selected direction intact until author review."
+    }
+  ]
 }
