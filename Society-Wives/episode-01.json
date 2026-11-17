@@ -3,7 +3,7 @@
   "universe": "Society Wives — Five Veils of Desire",
   "storyId": "SOCIETY_WIVES_NEW_UNIVERSE",
   "canonPolicy": "INDEPENDENT_NEW_STORY__NO_LEGACY_SOCIETY_STORY_CONTINUITY",
-  "status": "EP01_PROLOGUE_DRAFT_FOR_REVIEW__SHIVANI_COLLEGE_CORRECTION_APPLIED__NOT_APPROVED",
+  "status": "EP01_AUTHOR_APPROVED_FINAL_FROZEN_2026_11_17",
   "episode": {
     "number": "01",
     "title": "Five Doors, Eleven Worlds",
@@ -1470,5 +1470,12 @@
     "core": "Harsh, Laksh, Nandini, Ritika (age-peer Office Twins); Sunny separately college Chotu; Deepu separately society Chotu; Pooja and Kriti junior faculty; Arjun occasional future recurring visitor.",
     "ep03Instruction": "Remove these ordinary gesture beats from Episode 03's proposed physical escalation; the next significant contact must carry different character stakes and a distinct response. It has not been approved or plotted in prose.",
     "sourceProtection": "No replacement of published Episode 02, no new prologue scene count or changes to other leads."
+  },
+  "currentAuthorApproval": {
+    "status": "AUTHOR_APPROVED_EPISODE_01_FINAL_FROZEN",
+    "appliesTo": "All 17 existing Episode 01 scenes as authored and displayed, not later future ideas",
+    "approvedDate": "2026-11-17",
+    "scope": "Episode 01 original scene text frozen; prior signal-level draft labels are historical provenance, not current approval.",
+    "preserveOriginalSceneText": true
   }
 }
