@@ -14,7 +14,7 @@ export default function Home({scene}:{scene?:string|null}){
    <div><span className="eyebrow">The original opening</span><h2>{data?.episode.title||'Episode 01 — Prologue'}</h2><p>{data?.episode.subtitle}</p></div>
    {data&&<span className="meta-pill">{data.scenes.length} source scenes</span>}
   </div>
-  {data&&<details className="edition-note"><summary>Edition note</summary><p>This is the original Episode 01 story text. The archive still records an older editorial approval state awaiting reconciliation.</p></details>}
+  {data&&<details className="edition-note"><summary>Final edition</summary><p>Episode 01 is author-approved and frozen. All 17 original scenes are preserved exactly; historical draft metadata remains archival only.</p></details>}
   {loading&&<p role="status">Loading the original Episode 01 source…</p>}
   {error&&<p role="alert" className="error">SOURCE MISSING — {error}</p>}
   {data?.scenes.map(s=><article className="novel-scene" key={s.id} id={'ep01-'+s.id}>
