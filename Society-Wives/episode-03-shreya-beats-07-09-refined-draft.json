@@ -67,5 +67,21 @@
       "replacementPolicy": "Preserve exact supplied wording; author controls revisions.",
       "sameEventAs": "KAM-G01"
     }
-  ]
+  ],
+  "imageDirectionCorrection20261117": {
+    "status": "PREVIOUS_VISUAL_REJECTED_BY_AUTHOR__FUTURE_IMAGE_REFERENCE_ONLY",
+    "identity": "Use Shreya saved reference for the same adult character's face/hair; do not substitute a generic uniformed woman. Karan and Aman must match already established character appearances when reference images exist.",
+    "pose": "Shreya remains standing; she folds forward from hips/waist to reach the scattered papers, knees naturally soft but she does not kneel or squat.",
+    "staging": "One genuinely private closed prep room; no other attendees; Karan upright near backpack caught on stand; Aman near display stand with his hands steadying it, realistic side lines of sight, no forced crouching or face-to-camera poses.",
+    "reactions": "Karan briefly interrupts a normal teasing expression (not mouth-agape shock); Aman stays focused, practical and restrained; Shreya's expression is about collecting dropped handouts, not staged distress.",
+    "wardrobe": "Khaki uniform first button open, second closed. For non-graphic illustration, communicate slight collar shift without explicit anatomy or erotic framing.",
+    "prohibitedErrors": [
+      "No crouching/kneeling substitution for forward waist bend",
+      "No distorted face or unrelated character look",
+      "No theatrical shocked eyes or forced posing",
+      "No geometrically impossible line-of-sight composition",
+      "No public onlookers"
+    ],
+    "reference": "EP03 Shreya Beat 08 KAM private prep room; no visual approved until author accepts new image"
+  }
 }
