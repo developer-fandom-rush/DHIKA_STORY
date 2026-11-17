@@ -1,15 +1,9 @@
 import { useEffect } from 'react';
-import { assetUrl, leadOrder, Plan, openPage, titleCase, useData } from './lib';
+import { leadOrder, Plan, openPage, titleCase, useData } from './lib';
 const str=(v:unknown)=>typeof v==='string'?v:'';
 type NarrativeCalibration={id:string;title:string;status:string;referenceFile:string;sourceScope:string;diagnosis:{fault:string;correction:string}[];sourceObservations:string[];principles:string[];prohibitions:string[];plotSuggestionFormat:string;proseStandard:string};
 type NarratorStyleRule={status:string;origin:string;appliesTo:string;methods:string[];examplePhrases:string[];useInstructions:string[];sceneTemplate:string[];};
 type AnkitaFuturePresentation={status:string;decision:string;planning:{idea:string;duration:string;date:string;episode:string;proseStatus:string;sceneStatus:string;characterLock:string};originalAuthorPromptVerbatim:string;originalPlotBeatVerbatim:{name:string;plot:string}};
-type AnkitaScene03={title:string;status:string;start:string;end:string;beats:{id:string;time:string;name:string;plot:string;suggestedCliffDialogue?:string}[];validation:{requirement:string;status:string;beat:string}[];proseStatus:string;nextSceneSeed:string;};
-type RohitPlot={title:string;status:string;date:string;beats:{id:string;name:string;plot:string;dialogue?:{speaker:string;line:string}[]}[];costumeContinuity?:{scene04Entry:string};authorLocks?:string[];};
-type AnkitaScene05={title:string;status:string;date:string;time:{start:string;end:string;certainty:string};continuity:{vehicle:string;seats:{driver:string;frontPassenger:string;rearLeft:string;rearMiddle:string;rearRight:string};deadline:string;destination:string};beats:{id:string;heading:string;plot:string;dialogue?:{speaker:string;line:string}[]}[];proseStatus:string;};
-type AnkitaScene06={title:string;status:string;date:string;time:{start:string;end:string;status:string};proseStatus:string;setting:{otherPeople:string};choreography:{id:string;formation:string;participants:string;contact:string;reaction:string}[];prose:{language:string;lines:{type:'narration'|'dialogue';speaker?:string;text:string}[]};handoff:{nextScene:string;scope:string;status:string};};
-type AnkitaScene07={title:string;status:string;date:string;time:{start:string;end:string;certainty:string};continuity:{carProposition:string;deadline:string};beats:{id:string;time:string;heading:string;plot:string;dialogue?:{speaker:string;line:string}[]}[];proseStatus:string;};
-type RinkuScene08={title:string;status:string;date:string;time:{start:string;end:string;certainty:string};purpose:string;beats:{id:string;time:string;heading:string;plot:string}[];knowledgeLocks:{ankitaKnows:string;readerOnly:string;rajeev:string;rinku:string};wardrobe:{arrival:string;homeChange:string;firstRinkuView:string};nextEpisode:{focus:string;firstLook:string;date:string}};
 type ShivaniSceneReference={schemaVersion:number;id:string;title:string;status:string;source:{googleDocId:string;url:string;title:string;capturedDate:string;capturedFromRevision:string;readBeforeWriting:string};storyDate:string;sceneStart:string;sceneEnd:string;cast:string[];timeline:string[];femaleReferences:{name:string;status:string;heading:string;content:string}[];editorial:{wordForWordNote:string;sourceProtection:string;ritika:string;historicalTime:string}};
 type ShivaniNewBeat={id:string;time:string;title:string;cast:string[];plot:string;dialogue?:{speaker:string;line:string}[];reaction?:string;narratorDirection?:string;knowledge?:{readerOnly:boolean;shivaniAware:boolean;actualContact:boolean}};
 type ShivaniSocietyReturn={title:string;status:string;proseStatus:string;date:string;time:{start:string;end:string};priorFoundation:string[];beats:ShivaniNewBeat[];restrictions:string[]};
@@ -35,13 +29,7 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
  const {data:meenaFuture}=useData<Plan>('episode-03-meenakshi-plan.json');
  
  
- const {data:ankitaScene03,error:ankitaScene03Error}=useData<AnkitaScene03>('episode-03-ankita-scene-03.json');
   const {data:ankitaFuturePresentation,error:ankitaFuturePresentationError}=useData<AnkitaFuturePresentation>('episode-future-ankita-private-presentation-seed.json');
- const {data:rohitIntro,error:rohitIntroError}=useData<RohitPlot>('episode-03-ankita-scene-04-rohit-intro.json');
- const {data:ankitaScene05,error:ankitaScene05Error}=useData<AnkitaScene05>('episode-03-ankita-scene-05-combined-surprise-ride.json');
- const {data:ankitaScene06,error:ankitaScene06Error}=useData<AnkitaScene06>('episode-03-ankita-scene-06-dance-draft.json');
- const {data:ankitaScene07,error:ankitaScene07Error}=useData<AnkitaScene07>('episode-03-ankita-scene-07-twins-pickup-homecoming.json');
-  const {data:ankitaScene08,error:ankitaScene08Error}=useData<RinkuScene08>('episode-03-ankita-scene-08-rinku-setup.json');
  const {data:rohitFirstShow,error:rohitFirstShowError}=useData<RohitFirstShow>('ankita-rohit-jan02-future-office.json');
  const {data:writingStyle,error:writingStyleError}=useData<Plan>('flirting-style.json');
   const {data:shivaniCastLock,error:shivaniCastLockError}=useData<ShivaniCastLock>('episode-03-shivani-cast-lock.json');
@@ -55,9 +43,9 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
  const {data:shreyaEpisode04Future,error:shreyaEpisode04Error}=useData<ShreyaEpisode04Future>('episode-04-shreya-future-plan.json');
  useEffect(()=>{
   if(!initialScene)return;
-  if((active==='ankita'&&['01','02','06'].includes(initialScene))||(active==='meenakshi'&&['01','02','03','04'].includes(initialScene))){openPage('reading',{episode:'03',character:active,scene:initialScene});return;}
+  if((active==='ankita'&&['01','02','03','04','05','06','07','08'].includes(initialScene))||(active==='meenakshi'&&['01','02','03','04'].includes(initialScene))||(active==='shreya'&&['SR10','S03-01','SR11'].includes(initialScene))){openPage('reading',{episode:'03',character:active,scene:active==='shreya'&&initialScene==='SR10'?'10':initialScene});return;}
   const id=active==='ankita'
-   ?(initialScene==='01'?'ankita-ep03-a11':initialScene==='02'?'ankita-ep03-scene02':initialScene==='03'?'ankita-ep03-scene03':initialScene==='04'?'ankita-ep03-scene04-rohit':initialScene==='05'?'ankita-ep03-scene05':initialScene==='06'?'ankita-ep03-scene06':initialScene==='07'?'ankita-ep03-scene07':initialScene==='08'?'ankita-ep03-scene08':initialScene==='rohit-first-show'?'ankita-ep04-rohit-first-show':'')
+   ?(initialScene==='rohit-first-show'?'ankita-ep04-rohit-first-show':'ankita-ep03-written-moved')
    :active==='shivani'
    ?(initialScene==='cast'?'shivani-ep03-cast-lock':initialScene==='staffroom'?'shivani-ep03-staffroom-scene':initialScene==='reference'?'shivani-ep03-scene02-master-reference':initialScene==='03'?'shivani-ep03-scene03-society-return':initialScene==='night'?'shivani-jan01-night-next-episode':'')
    :active==='taniya'?(initialScene==='timeline'?'taniya-ep03-timeline':initialScene?'taniya-ep03-'+initialScene:'taniya-ep03-timeline')
