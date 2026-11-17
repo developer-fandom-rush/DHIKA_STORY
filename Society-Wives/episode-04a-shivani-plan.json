@@ -461,8 +461,206 @@
     ],
     "sourceAnchors": [
       "Society-Wives/episode-02-shivani-plan.json A02/A03 burgundy surprise & private non-nude photo",
-      "shivani-jan01-night-next-episode-chotu-kavya-twins-om-plot.json previous deferred night sketch",
+      "Society-Wives/archive/shivani-jan01-night-superseded-n01-n08.json · historical reference only",
       "episode-04a-shivani-plan.json previous 5-scene 16-beat review version"
     ]
+  },
+  "legacyReconciliation": {
+    "reconciledOn": "2026-11-17",
+    "status": "ALL_EIGHT_LEGACY_EVENT_ARCS_MAPPED__16_LEGACY_DIALOGUE_LINES_RETAINED_AS_ARCHIVE_CANDIDATES",
+    "legacyArchivedFile": "Society-Wives/archive/shivani-jan01-night-superseded-n01-n08.json",
+    "activeSource": "episode-04a-shivani-plan.json",
+    "coverage": [
+      {
+        "legacyBeat": "N01",
+        "newBeatIDs": [
+          "SH01",
+          "SH03"
+        ],
+        "note": "Shivani–Om home setup preserved; Rohan childcare added"
+      },
+      {
+        "legacyBeat": "N02",
+        "newBeatIDs": [
+          "SH02"
+        ],
+        "note": "Reader-only Om one-sided attraction retained; older fantasy image saved as optional strictly imaginary text"
+      },
+      {
+        "legacyBeat": "N03",
+        "newBeatIDs": [
+          "SH04",
+          "SH06",
+          "SH07"
+        ],
+        "note": "Different approach order: Shivani goes down alone; Deepu accident precedes Kavya introduction"
+      },
+      {
+        "legacyBeat": "N04",
+        "newBeatIDs": [
+          "SH08"
+        ],
+        "note": "Kavya/Deepu hand contact and mutual interest preserved"
+      },
+      {
+        "legacyBeat": "N05",
+        "newBeatIDs": [
+          "SH09"
+        ],
+        "note": "Twins meet Kavya, distinct reactions"
+      },
+      {
+        "legacyBeat": "N06",
+        "newBeatIDs": [
+          "SH11",
+          "SH12"
+        ],
+        "note": "Twin biology callback, cheek kisses, close pose split and re-sequenced"
+      },
+      {
+        "legacyBeat": "N07",
+        "newBeatIDs": [
+          "SH10",
+          "SH13"
+        ],
+        "note": "Three distinct men and Kavya choice before Shivani final line"
+      },
+      {
+        "legacyBeat": "N08",
+        "newBeatIDs": [
+          "SH10",
+          "SH13"
+        ],
+        "note": "Gentle rivalry captured; new cliff 'I liked it' and exit supersedes older final beat"
+      }
+    ],
+    "nonverbatimDetails": [
+      {
+        "legacyBeat": "N02",
+        "detail": "Older plan explicitly described a single brief imagined embrace or kiss from Om's private POV; current SH02 calls for only a brief reader-only one-sided private moment, with NO real touching and no post-surprise Om reaction.",
+        "handling": "Carry as optional private reader-only imagined flash in SH02, not fact or shared romance"
+      },
+      {
+        "legacyBeat": "N03",
+        "detail": "Older plan had both sisters arriving together; new 04A intentionally has Shivani go alone before Kavya joins after Deepu accident.",
+        "handling": "New 04A chronology wins"
+      },
+      {
+        "legacyBeat": "N06",
+        "detail": "Older plan grouped two cheek kisses and playful pose; current SH11/SH12 explicitly splits beats.",
+        "handling": "New 04A sequence wins"
+      },
+      {
+        "legacyBeat": "N08",
+        "detail": "Older plan ended with shy rivalry; current SH13 ends with Shivani's exact line 'I liked it' and immediate sisters' exit.",
+        "handling": "New 04A scene ending wins"
+      }
+    ],
+    "dialogueCandidates": [
+      {
+        "legacyBeat": "N01",
+        "speaker": "Om",
+        "line": "College ka din lamba tha? Programme ki taiyaari chal rahi hai?",
+        "usage": "SOURCE_HISTORICAL_CANDIDATE__NOT_AUTO_AUTHOR_APPROVED"
+      },
+      {
+        "legacyBeat": "N01",
+        "speaker": "Shivani",
+        "line": "Haan Om Uncle. Bas final list check kar rahi thi. Aap chai le lijiye; hum log thodi der mein neeche jaa rahe hain.",
+        "usage": "SOURCE_HISTORICAL_CANDIDATE__NOT_AUTO_AUTHOR_APPROVED"
+      },
+      {
+        "legacyBeat": "N03",
+        "speaker": "Shivani",
+        "line": "Deepu, tumne Sharmi se posters verify kar liye? Subah jo clip diya tha, uska matching set mila?",
+        "usage": "SOURCE_HISTORICAL_CANDIDATE__NOT_AUTO_AUTHOR_APPROVED"
+      },
+      {
+        "legacyBeat": "N03",
+        "speaker": "Deepu",
+        "line": "Haan madam, sab ready hai. Bas final board par lagana baaki hai.",
+        "usage": "SOURCE_HISTORICAL_CANDIDATE__NOT_AUTO_AUTHOR_APPROVED"
+      },
+      {
+        "legacyBeat": "N04",
+        "speaker": "Kavya",
+        "line": "Aap Deepu ho? Ye saare posters aapne manage kiye?",
+        "usage": "SOURCE_HISTORICAL_CANDIDATE__NOT_AUTO_AUTHOR_APPROVED"
+      },
+      {
+        "legacyBeat": "N04",
+        "speaker": "Deepu",
+        "line": "Team ke saath. Lekin aapko achhe lage toh mehnat safal.",
+        "usage": "SOURCE_HISTORICAL_CANDIDATE__NOT_AUTO_AUTHOR_APPROVED"
+      },
+      {
+        "legacyBeat": "N04",
+        "speaker": "Shivani",
+        "line": "Deepu, tumhari printing se zyada aaj tumhari smile improve ho gayi lagti hai.",
+        "usage": "SOURCE_HISTORICAL_CANDIDATE__NOT_AUTO_AUTHOR_APPROVED"
+      },
+      {
+        "legacyBeat": "N05",
+        "speaker": "Karan",
+        "line": "Shivani madam! Morning ka homework ready tha, lekin aaj aapke saath ek naya syllabus bhi aa gaya kya?",
+        "usage": "SOURCE_HISTORICAL_CANDIDATE__NOT_AUTO_AUTHOR_APPROVED"
+      },
+      {
+        "legacyBeat": "N05",
+        "speaker": "Shivani",
+        "line": "Pehle apni biology clear karo, phir introductions milenge.",
+        "usage": "SOURCE_HISTORICAL_CANDIDATE__NOT_AUTO_AUTHOR_APPROVED"
+      },
+      {
+        "legacyBeat": "N05",
+        "speaker": "Aman",
+        "line": "Bhai, pehle respectfully naam toh pooch lo. Har cheez ka practical thodi hota hai.",
+        "usage": "SOURCE_HISTORICAL_CANDIDATE__NOT_AUTO_AUTHOR_APPROVED"
+      },
+      {
+        "legacyBeat": "N06",
+        "speaker": "Shivani",
+        "line": "Subah se private tuition maang rahe the. New Year pe thodi masti ki permission thi, admission nahi.",
+        "usage": "SOURCE_HISTORICAL_CANDIDATE__NOT_AUTO_AUTHOR_APPROVED"
+      },
+      {
+        "legacyBeat": "N06",
+        "speaker": "Karan",
+        "line": "Madam, aaj toh aapne hum dono ka viva bina notice ke le liya.",
+        "usage": "SOURCE_HISTORICAL_CANDIDATE__NOT_AUTO_AUTHOR_APPROVED"
+      },
+      {
+        "legacyBeat": "N06",
+        "speaker": "Aman",
+        "line": "Aur marks aap abhi bhi nahi bata rahi hain.",
+        "usage": "SOURCE_HISTORICAL_CANDIDATE__NOT_AUTO_AUTHOR_APPROVED"
+      },
+      {
+        "legacyBeat": "N07",
+        "speaker": "Shivani",
+        "line": "Meet Kavya, meri sister. Aur ye Karan aur Aman — hamare society ke sabse inventive 'biology students'.",
+        "usage": "SOURCE_HISTORICAL_CANDIDATE__NOT_AUTO_AUTHOR_APPROVED"
+      },
+      {
+        "legacyBeat": "N07",
+        "speaker": "Kavya",
+        "line": "Aap log Shivani di ko roz itna tang karte ho?",
+        "usage": "SOURCE_HISTORICAL_CANDIDATE__NOT_AUTO_AUTHOR_APPROVED"
+      },
+      {
+        "legacyBeat": "N07",
+        "speaker": "Deepu",
+        "line": "Main toh posters theek karta hoon. In dono ka syllabus alag hai.",
+        "usage": "SOURCE_HISTORICAL_CANDIDATE__NOT_AUTO_AUTHOR_APPROVED"
+      }
+    ],
+    "new04aAdditionalBeats": [
+      "SH04–SH06 Deepu/Shivani backdrop accident",
+      "SH03 husband and Tara continuity",
+      "SH14–SH17 return, dinner, Manav",
+      "SH18–SH21 wrong surprise, Tara interruption",
+      "SH22–SH25 married intimacy fade-to-black and sleep"
+    ],
+    "rule": "Current seven-scene 04A is controlling canon planning; archive retains alternative old dialogue/imagery for traceability only. Do not put older plan into UI, runtime fetch, or timeline."
   }
 }
