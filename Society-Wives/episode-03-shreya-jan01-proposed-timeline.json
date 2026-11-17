@@ -43,7 +43,7 @@
       "id": "SR10",
       "time": "10:30–11:10",
       "type": "existing",
-      "status": "AUTHOR_REVISED_EP03_WORKING_PLOT_PROSE_PENDING",
+      "status": "AUTHOR_APPROVED_FINAL_PROSE_PUBLISHED_2026_11_17",
       "title": "ACP Verma and Poonam — the awkward training test",
       "place": "Police station training/assessment room",
       "characters": [
@@ -52,34 +52,46 @@
         "Poonam"
       ],
       "history": "Shreya previously arranged a special training assignment with gym trainer Vivek for female police-station staff; Poonam is among the trainees. Other female staff are in the program but are not silently placed in this room. Verma is leading the station-side testing. Reader-only direction: ACP Verma and Poonam have a private, not-yet-disclosed involvement.",
-      "distinctEvent": "Shreya arrives during Poonam's close-contact training test. Poonam is lying on a mat while ACP Verma is positioned above her; they separate immediately when Shreya enters. The posture and sudden separation strike Shreya as awkward. Verma and Poonam explain that the test is part of the Vivek-linked women's training program. Verma says Shreya will be tested too; she teasingly asks whether he himself will take her test, and he replies yes. No additional physical act is established.",
+      "distinctEvent": "Final user-approved SR10 saved in Episode 03 unified reader, Shreya chapter 10. G01–G07 author insertions preserved in full. ACP/Poonam assessment concludes before Shreya enters; Shreya observes reactions and banters about a future test. Former mat-arrival idea is held for a future training-ground accident, not the current SR10.",
       "reaction": "Shreya briefly finds the situation odd but has no verified knowledge of their private involvement. She and Poonam leave together. Verma's subsequent private thoughts are known to the reader only.",
       "exit": "Shreya and Poonam depart; Verma's reader-only fantasy is the scene-ending beat. Next remains the station Chotu tea-counter scene.",
       "openingTransition": "Chauhan se baat khatam karke Shreya case file lekar ACP ke training-assessment room ki taraf badhi.",
-      "dialogue": [
-        [
-          "ACP Verma",
-          "Training test chal raha tha. Poonam ka assessment dekh raha tha."
-        ],
-        [
-          "Poonam",
-          "Haan ma'am, Vivek ke training module ka test hai."
-        ],
-        [
-          "ACP Verma",
-          "Shreya, tumhari bhi training hai. Tumhara test bhi hoga. Be ready."
-        ],
-        [
-          "Shreya",
-          "Haan haan, sir... lekin mera test bhi aap hi lenge?"
-        ],
-        [
-          "ACP Verma",
-          "Haan."
-        ]
-      ],
+      "dialogue": [],
       "readerOnlyAfterbeat": "Shreya aur Poonam ke nikalne ke baad, ACP Verma privately imagines having sex with Shreya someday. This is his one-sided fantasy, not a promise, real encounter, or indication of Shreya's consent or interest.",
-      "privateContinuity": "Poonam–Verma's private angle is user-directed but its precise relationship history is not yet supplied; do not invent dates, prior incidents, or claim Shreya knows."
+      "privateContinuity": "Poonam–Verma's private angle is user-directed but its precise relationship history is not yet supplied; do not invent dates, prior incidents, or claim Shreya knows.",
+      "supersededWorkingVersion": {
+        "distinctEvent": "Shreya arrives during Poonam's close-contact training test. Poonam is lying on a mat while ACP Verma is positioned above her; they separate immediately when Shreya enters. The posture and sudden separation strike Shreya as awkward. Verma and Poonam explain that the test is part of the Vivek-linked women's training program. Verma says Shreya will be tested too; she teasingly asks whether he himself will take her test, and he replies yes. No additional physical act is established.",
+        "dialogue": [
+          [
+            "ACP Verma",
+            "Training test chal raha tha. Poonam ka assessment dekh raha tha."
+          ],
+          [
+            "Poonam",
+            "Haan ma'am, Vivek ke training module ka test hai."
+          ],
+          [
+            "ACP Verma",
+            "Shreya, tumhari bhi training hai. Tumhara test bhi hoga. Be ready."
+          ],
+          [
+            "Shreya",
+            "Haan haan, sir... lekin mera test bhi aap hi lenge?"
+          ],
+          [
+            "ACP Verma",
+            "Haan."
+          ]
+        ],
+        "status": "AUTHOR_REVISED_EP03_WORKING_PLOT_PROSE_PENDING",
+        "note": "Old plot draft; approved prose is in episode-03-reader.json."
+      },
+      "sourceFile": "episode-03-reader.json",
+      "sourceScene": {
+        "character": "shreya",
+        "id": "10",
+        "status": "AUTHOR_APPROVED_FINAL_PROSE_PUBLISHED_2026_11_17"
+      }
     },
     {
       "id": "S03-01",
@@ -841,7 +853,8 @@
     }
   ],
   "authorDecisions": [
-    "2026-11-16: B3 strong-chai beat explicitly approved unchanged; B4 DCP Rathod one-sided private fantasy requested, proposed review logic only; B5 inmates bet moved from active Jan1 plan to unscheduled future arc with three labeled adult inmates and ego-based nonsexual challenge."
+    "2026-11-16: B3 strong-chai beat explicitly approved unchanged; B4 DCP Rathod one-sided private fantasy requested, proposed review logic only; B5 inmates bet moved from active Jan1 plan to unscheduled future arc with three labeled adult inmates and ego-based nonsexual challenge.",
+    "2026-11-17: SR10 / Beat 02 complete UI prose with G01–G07 approved final by author; no wording changes. S03-01 Strong-Chai plot remains separately approved, its short prose is a new review draft, not yet published."
   ],
   "trainingRosterClarification": {
     "policeTrainees": [
@@ -869,7 +882,8 @@
       "id": "SR10",
       "kind": "active",
       "title": "ACP Verma & Poonam · training test",
-      "label": "User revised · prose pending"
+      "label": "User revised · prose pending",
+      "status": "AUTHOR_APPROVED_FINAL_PROSE_PUBLISHED_2026_11_17"
     },
     {
       "number": 3,
