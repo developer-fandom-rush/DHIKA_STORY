@@ -621,11 +621,12 @@ assert.ok(universalJan.events.some(e=>e.id==='ep03-ankita-scene04'&&e.date==='20
 assert.equal(universalJan.events.filter(e=>e.id.startsWith('ep03-ankita-scene')).length,8,'Ankita eight EP03 scenes indexed in Jan1 timeline');
 assert.ok(universalJan.events.some(e=>e.id==='ep03-ankita-scene08'&&e.start==='18:10'&&e.end==='18:25'&&e.source==='episode-03-ankita-scene-08-prose-draft.json'&&e.reader?.scene==='08'),'Rinku Scene08 prose must remain Jan1 18:10–18:25');
 assert.equal(universalFuture.events.filter(e=>e.id.startsWith('date-pending-ankita-')).length,0,'Discarded old home followups must not appear as active timeline events');
-assert.deepEqual(universalFuture.events.filter(e=>e.id.startsWith('future-ankita-rohit-')).map(e=>e.date),['2026-01-02','2026-01-02'],'Rohit accident and first show must both be Jan 2');
+assert.deepEqual(universalFuture.events.filter(e=>e.id.startsWith('future-ankita-rohit-')).map(e=>e.date),[null,null],'Earlier Rohit drafts are retained as unscheduled historical records, not duplicate Jan2 events');
+assert.deepEqual(universalFuture.events.filter(e=>e.id.startsWith('ep04-chotu-ankita-rohit-')).map(e=>e.date),['2026-01-02','2026-01-02'],'Updated Rohit accident and willing follow-up are both reserved for Jan2 review');
 for(const event of universalDhika.events){
  const ep=rootCorpus.episodes.find(x=>x.id===event.episode);
  assert.ok(ep&&ep.lines[event.firstLineIndex],'Invalid Dhika paragraph pointer '+event.id);
  assert.ok(event.lastLineIndex<ep.lines.length,'Dhika range extends beyond original source '+event.id);
  if(event.arcRelativeDay)assert.equal(event.date,null,'Arc-relative Day 1 must never reset to Jan 1');
 }
-console.log('PASS: 111 cross-lead Jan1 indexed events; EP01/02 frozen; written EP03 in reader, Taniya/Shivani plots indexed, future holds preserved.');
+console.log('PASS: cross-lead Jan1/Jan2 and six-lead Chotu A/B review indexed; original EP01/02 and EP03 sources frozen.');
