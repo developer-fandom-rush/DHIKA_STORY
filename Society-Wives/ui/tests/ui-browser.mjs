@@ -209,6 +209,13 @@ try {
  check(await page.locator('#taniya-ep03-timeline a[href*="drive.google.com/drive/folders/"]').count()===1,'Taniya Drive album linked on planning UI');
  check((await page.locator('#taniya-ep03-T03-07 > summary').innerText()).includes('Second Flat'),'Active near-office rental twist remains');
  check((await page.locator('#taniya-ep03-T03-11 > summary').innerText()).includes('Karan & Aman'),'Actual society twins conditional');
+ check((await page.locator('#taniya-ep03-T03-10 > summary').innerText()).includes('Guddu'),'Evening society Chotu Guddu appears');
+ check((await page.locator('#taniya-ep03-T03-12 > summary').innerText()).includes('Rahul'),'Soniya and husband merged into one final home beat');
+ check((await page.locator('#taniya-ep03-timeline').innerText()).includes('AUTHOR-APPROVED EP03 PLOT'),'UI accurately labels completed plot with prose pending');
+ check((await page.locator('#taniya-ep03-contact-audit').innerText()).includes('Society and home — exact physical contacts'),'Society collision and Soniya Rahul physical progression shown');
+ await page.locator('#taniya-ep03-T03-11 > summary').click();
+ check((await page.locator('#taniya-ep03-T03-11').innerText()).includes('UPPER BUTTOCK'),'Karan accident touch is explicit and reviewable');
+
  check((await page.locator('#taniya-ep03-T03-12 > summary').innerText()).includes('Soniya'),'Soniya returns only in last beat');
  check((await page.locator('#taniya-ep03-contact-audit').innerText()).includes('Raghav'),'Touch audit present');
  check((await page.locator('#taniya-ep03-contact-audit').innerText()).includes('Female-duo physical progression'),'Female contact audit shown');
