@@ -371,9 +371,9 @@ assert.ok(taniyaEp03Solo.beats.find(x=>x.id==='T03-09').time.includes('19:30'),'
 assert.ok(taniyaEp03Solo.interactionAudit.officeWomen.length===5,'Neha/Andrea active and Riya/Megha/Saloni retained backend');
 assert.ok(taniyaEp03Solo.interactionAudit.officeWomen.some(x=>x.name==='Andrea'&&x.status.includes('cheek peck')),'Andrea new female coworker is active');
 assert.ok(taniyaEp03Solo.interactionAudit.males.find(m=>m.name.startsWith('Raghav'))?.physical.includes('CLOTHED WAIST'),'Raghav waist support must be explicit');
-assert.ok(taniyaEp03Solo.interactionAudit.taniyaReaction.includes('grips Raghav'),'Taniya's real reaction auditable');
+assert.ok(taniyaEp03Solo.interactionAudit.taniyaReaction.includes('grips Raghav'),"Taniya's real reaction auditable");
 assert.ok(taniyaEp03Solo.interactionAudit.femalePhysical.some(x=>x.pair==='Andrea → Chirag'&&x.contact.includes('kiss on cheek')),'Andrea/Chirag celebratory cheek peck recorded');
-assert.ok(taniyaEp03Solo.interactionAudit.uncleFantasyHint.includes('Taniya'),'Only reader knows Vivek's private fantasy');
+assert.ok(taniyaEp03Solo.interactionAudit.uncleFantasyHint.includes('Taniya'),"Only reader knows Vivek's private fantasy");
 assert.ok(!taniyaEp03Solo.beats.some(x=>x.id==='T03-02'&&/kiss|romance/.test(x.physical.toLowerCase())&&!x.physical.includes('No buttock')),'No Taniya-Raghav kiss in first physical encounter');
 assert.ok(taniyaEp03Solo.figureMapping.some(x=>x.group.startsWith('Office female duo')&&x.members.some(y=>y.startsWith('Andrea'))),'Female duo correctly established, not biological twins');
 assert.ok(taniyaEp03Solo.figureMapping.some(x=>x.group.includes('Chotu')&&x.members.some(y=>y.startsWith('Punit'))),'Office Chotu is Punit, not society Guddu');
