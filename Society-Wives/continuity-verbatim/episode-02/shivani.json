@@ -10,7 +10,7 @@
     "path": "Society-Wives/episode-02.html",
     "blob_sha": "91f5c2a92282cc01be7497cd8e12c97a41241aed"
   },
-  "approval_policy": "UI label APPROVED or directly recorded A08 approval authorizes approved_by_ui_or_plan. PUBLISHED, FINAL or USER-SUPPLIED alone are not interpreted as blanket approval.",
+  "approval_policy": "2026-11-17 author directive: All existing Episode 02 story scenes are FINAL, APPROVED and FROZEN; previous scene badges/flags are historical source provenance, not current approval state. Never alter exact source prose without author request.",
   "scenes": [
     {
       "scene_id": "A02",
@@ -3191,14 +3191,12 @@
   "approved_scene_ids": [
     "A02",
     "A03",
-    "B03"
-  ],
-  "nonapproved_scene_ids": [
     "A04",
     "A05",
     "A06",
     "B01",
     "B02",
+    "B03",
     "C01",
     "C02",
     "C03",
@@ -3206,6 +3204,7 @@
     "C05",
     "D01"
   ],
+  "nonapproved_scene_ids": [],
   "character_name_index": [
     {
       "character_id": "karan",
@@ -3992,5 +3991,36 @@
     "scenes_found": 14,
     "source_characters_preserved": 43336,
     "each_scene_reconstruction_verified": true
-  }
+  },
+  "authorApprovalUpdate": {
+    "confirmedBy": "Author in current conversation, 2026-11-17",
+    "scope": "All extant Episode 02 shivani scene content: A02, A03, A04, A05, A06, B01, B02, B03, C01, C02, C03, C04, C05, D01",
+    "status": "FINAL_APPROVED_FROZEN_2026_11_17",
+    "updateType": "STATUS_ONLY_NO_PROSE_REWRITE",
+    "sourceProvenancePreserved": true,
+    "missingProseIdsPreserved": [],
+    "historicalApproval": {
+      "approved": [
+        "A02",
+        "A03",
+        "B03"
+      ],
+      "nonapproved": [
+        "A04",
+        "A05",
+        "A06",
+        "B01",
+        "B02",
+        "C01",
+        "C02",
+        "C03",
+        "C04",
+        "C05",
+        "D01"
+      ],
+      "policy": "UI label APPROVED or directly recorded A08 approval authorizes approved_by_ui_or_plan. PUBLISHED, FINAL or USER-SUPPLIED alone are not interpreted as blanket approval."
+    },
+    "changePolicy": "Do not rewrite, revise, re-open plotting or downgrade approval absent an explicit author request"
+  },
+  "finalFrozen": true
 }
