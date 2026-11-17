@@ -41,7 +41,7 @@ export type Lead = Person & {husband?:string;home?:string};
 export type Relation = {w:string;man:string;how?:string;why?:string;kind?:string;state?:string};
 export type Directory = {leads:Lead[];people:Person[];relations:Relation[];families:Record<string,unknown>[];pairs:Record<string,unknown>[]};
 export type ArchiveScene={scene_id:string;source_anchor?:string;ui_badge_text_exact?:string|null;source_html_lines_exact?:string[];source_position?:{start:number};prose_line_records?:Record<string,unknown>[];[k:string]:unknown};
-export type Archive={lead:string;scenes:ArchiveScene[];approved_scene_ids?:string[];nonapproved_scene_ids?:string[];excluded_nonapproved_scene_ids?:string[];character_name_index?:{character_id:string;name:string;matches:{scene_id:string;evidence_line_ids?:string[]}[]}[]};
+export type Archive={lead:string;finalFrozen?:boolean;scenes:ArchiveScene[];approved_scene_ids?:string[];nonapproved_scene_ids?:string[];excluded_nonapproved_scene_ids?:string[];character_name_index?:{character_id:string;name:string;matches:{scene_id:string;evidence_line_ids?:string[]}[]}[]};
 export type PlanBeat={id?:string;time?:string;title?:string;external?:string;internal?:string;[k:string]:unknown};
 export type Plan={title?:string;date?:string;start?:string;end?:string;status?:string;timeline?:Record<string,unknown>[];beats?:PlanBeat[];[k:string]:unknown};
 export const episodePath = (who:string) => 'continuity-verbatim/episode-02/'+who+'.json';
