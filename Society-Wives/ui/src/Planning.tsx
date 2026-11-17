@@ -18,6 +18,7 @@ type ShreyaBeats0709Draft={title:string;date:string;status:string;sourcePlan:str
 type ShreyaEpisode04Future={title:string;episodeDate:string|null;planningStatus:string;dependency:string;futurePlots:{id:string;title:string;status:string;cast:{id:string;trainingRole:string;age:number;ageStatus:string}[];identityReveal:{truth:string;maleAwareness:string;femaleAwareness:string;readerAwareness:string};purpose:string;preservedArc:string;futureAttraction:string;episode04Continuity:string;scheduling:string}[];authorLocks:string[]};
 type ShivaniStaffroomPlot={scene:string;status:string;date:string;start:string;end:string;location:string;purpose:string;wardrobeStatus:string;wardrobe:{name:string;age:number;role:string;outfit:string;narratorView:string;referenceColor:string}[];imageReference:{origin:string;status:string;use:string};beats:{id:string;time:string;title:string;focus:string;action:string;narrator?:string;dialogue?:{speaker:string;line:string}[];seed?:string;note?:string}[];plotLocks:string[];};
 type ShivaniCastLock={title:string;status:string;officeTwinsStudentCore:{id:string;name:string;age:number}[];officeChotu:{name:string;age:number;role:string};societyChotu:{name:string;age:number;role:string};juniorFacultyExcluded:{name:string;age:number}[];futureOnly:{name:string;age:number;note:string};biologicalTwinsNote:string;episode02End:string;nextWork:string;prologueBaselineReference?:{source:string;sourceScene:string;status:string;establishedPreviously:string[];episode03Difference:string}};
+type AnkitaEp04A={episode:string;part:string;title:string;status:string;continuityStart:{episode:string;scene:string;time:string;moment:string;twins:string;officeChotu:string;wardrobe:string};scenes:{id:string;sceneNumber:string;title:string;location?:string;start:string|null;end:string|null;status:string;reason?:string;beats:{id:string;time:string;title:string;plot:string}[]}[];handoff:{date:string;part:string;society:string;office:string;status:string}};
 type ChotuMoment={date:string;start:string;end:string;title:string;cause?:string;physical:string;sightline?:string;duration?:string;reaction?:string;hook?:string;choice?:string;test?:string;result?:string;after?:string};
 type ChotuTrack={lead:string;chotu:string;lane:string;age:number;setting:string;twinsContext:string;a:ChotuMoment;b:ChotuMoment};
 type ChotuWorkshop={title:string;status:string;scope:string;invariants:string[];leads:{id:string;name:string;endJan01:string;twins:string;tracks:ChotuTrack[]}[]};
@@ -35,6 +36,7 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
  
  const {data:meenaFuture}=useData<Plan>('episode-03-meenakshi-plan.json');
  const {data:chotuWorkshop,error:chotuWorkshopError}=useData<ChotuWorkshop>('episode-04-chotu-six-leads-review.json');
+ const {data:ankitaEp04A,error:ankitaEp04AError}=useData<AnkitaEp04A>('episode-04a-ankita-plan.json');
  
  
   const {data:ankitaFuturePresentation,error:ankitaFuturePresentationError}=useData<AnkitaFuturePresentation>('episode-future-ankita-private-presentation-seed.json');
@@ -53,6 +55,10 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
  const {data:shreyaBeat10,error:shreyaBeat10Error}=useData<ShreyaBeat10Review>('episode-03-shreya-beat-10-training-ground-review.json');
  useEffect(()=>{
   if(!initialScene)return;
+  if(initialScene==='ep04a'){
+   const timer=window.setTimeout(()=>document.getElementById('ankita-episode04a')?.scrollIntoView({behavior:'smooth',block:'start'}),130);
+   return ()=>clearTimeout(timer);
+  }
   if(initialScene==='chotu-review'){
    const timer=window.setTimeout(()=>document.getElementById('ep04-chotu-planning')?.scrollIntoView({behavior:'smooth',block:'start'}),130);
    return ()=>clearTimeout(timer);
@@ -89,10 +95,30 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
 
   <div className="reading-heading"><div><span className="eyebrow">Choose a storyline</span><h2>What happens next?</h2></div></div>
   <div className="perspective-tabs" role="group" aria-label="Choose planning character">{planningLeads.map(w=><button type="button" aria-pressed={w===active} onClick={()=>openPage('planning',{lead:w})} className={w===active?'selected':''} key={w}>{titleCase(w)}</button>)}</div>
+  {active==='ankita'&&<section className="continuity-cards" id="ankita-episode04a">
+   <article className="episode-plan-card">
+    <span className="eyebrow">ANKITA · EPISODE 04A · 1 JANUARY 2026 · AUTHOR REVIEW</span>
+    <h2>EP04 Part A — Ankita: Society Rinku & January 1 Closure</h2>
+    <p className="source-note"><strong>PROPOSED, NOT APPROVED:</strong> Scene 01 starts immediately after EP03 Scene 08's 18:25 doorbell. Scene 02 reserves the household night closing; no family member arrival time is invented.</p>
+    {ankitaEp04AError&&<p>Could not load EP04A scene outline: {ankitaEp04AError}</p>}
+    {ankitaEp04A&&<>
+     <p><strong>EP03 → EP04A handoff:</strong> {ankitaEp04A.continuityStart.moment}</p>
+     <p><strong>Twins already occurred:</strong> {ankitaEp04A.continuityStart.twins}</p>
+     <div className="beat-list">{ankitaEp04A.scenes.map(scene=><details className="episode-outline" key={scene.id} open={scene.sceneNumber==='01'}>
+      <summary><strong>Scene {scene.sceneNumber} · {scene.title}</strong> — {scene.start&&scene.end?scene.start+'–'+scene.end:'TIMING PENDING'} · {scene.status}</summary>
+      {scene.location&&<p><strong>Location:</strong> {scene.location}</p>}
+      {scene.beats.length>0?<div className="beat-list">{scene.beats.map(beat=><div className="beat-item" key={beat.id}>
+       <p><strong>{beat.id} · {beat.time} · {beat.title}</strong></p><p>{beat.plot}</p>
+      </div>)}</div>:<p className="source-note">{scene.reason}</p>}
+     </details>)}</div>
+     <p><strong>EP04B (2 January) reserved:</strong> {ankitaEp04A.handoff.office} {ankitaEp04A.handoff.society}</p>
+    </>}
+   </article>
+  </section>}
   <section className="continuity-cards" id="ep04-chotu-planning">
    <article className="episode-plan-card">
-    <span className="eyebrow">Episode 04 · Chotu encounters · 1–2 January 2026 · Review only</span>
-    <h2>Chotu A/B Workshop — Six Women</h2>
+    <span className="eyebrow">Episode 04A · 1 January close | Episode 04B · 2 January fresh start · Review only</span>
+    <h2>Episode 04A / 04B — Chotu A/B Workshop · Six Women</h2>
     <p className="source-note"><strong>NOT APPROVED / NOT PROSE:</strong> These are discussion-ready physical encounter plots. Each A is an accident; each B is a willing, independently chosen follow-up, with a different physical setup, sightline and outcome. Existing Episode 03 scenes and twins' timelines are untouched.</p>
     <p><strong>Focus:</strong> Only the established society and workplace Chotu helpers. Twins are continuity references, not added events; Soniya is a separate selectable lead. No romantic relationship is assumed from a single physical moment.</p>
     {chotuWorkshopError&&<p className="source-note">Workshop unavailable: {chotuWorkshopError}</p>}
@@ -104,7 +130,7 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
       <summary><strong>{track.lane} Chotu — {track.chotu} ({track.age})</strong> · A {track.a.date.slice(5)} {track.a.start} → B {track.b.date.slice(5)} {track.b.start}</summary>
       <p><strong>Location:</strong> {track.setting}</p>
       <div className="beat-list">
-       <div className="beat-item"><p className="eyebrow">A · Accident · {track.a.date} · {track.a.start}–{track.a.end}</p>
+       <div className="beat-item"><p className="eyebrow">{track.a.date==='2026-01-01'?'EP04A':'EP04B'} · A Accident · {track.a.date} · {track.a.start}–{track.a.end}</p>
         <h3>{track.a.title}</h3>
         <p><strong>Actual cause:</strong> {track.a.cause}</p>
         <p><strong>Physical instant:</strong> {track.a.physical}</p>
@@ -113,7 +139,7 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
         <p><strong>Immediate psychology:</strong> {track.a.reaction}</p>
         <p><strong>Next-visit reason:</strong> {track.a.hook}</p>
        </div>
-       <div className="beat-item"><p className="eyebrow">B · Willing choice · {track.b.date} · {track.b.start}–{track.b.end}</p>
+       <div className="beat-item"><p className="eyebrow">{track.b.date==='2026-01-01'?'EP04A':'EP04B'} · B Willing choice · {track.b.date} · {track.b.start}–{track.b.end}</p>
         <h3>{track.b.title}</h3>
         <p><strong>Her decision:</strong> {track.b.choice}</p>
         <p><strong>Physical action:</strong> {track.b.physical}</p>
