@@ -386,6 +386,16 @@ assert.ok(taniyaEp03Solo.beats.find(x=>x.id==='T03-07').action.includes('rents a
 assert.ok(taniyaEp03Solo.status.includes('UI_SAVE')&&taniyaEp03Solo.status.includes('DRAFT'),'Saved plot not treated as published prose');
 assert.equal(taniyaEp03Solo.plotPhases.length,3,'Three plot phases required');
 assert.ok(taniyaEp03Solo.plotPhases.at(-1).state.includes('SONIYA_AT_HOME'),'Soniya first appears at home');
+assert.ok(taniyaEp03Solo.status.includes('AUTHOR_APPROVED_EP03_PLOT'),'Author-finalized plot is approved while prose remains pending');
+assert.ok(taniyaEp03Solo.beats.find(x=>x.id==='T03-09').action.includes('35–50-minute commute'),'Standalone commute was folded into full office exit');
+assert.ok(taniyaEp03Solo.beats.find(x=>x.id==='T03-10').cast.some(x=>x.startsWith('Guddu')),'Society Chotu Guddu has a purposeful wedding quotation beat');
+assert.ok(taniyaEp03Solo.beats.find(x=>x.id==='T03-11').physical.includes('Karan')&&taniyaEp03Solo.beats.find(x=>x.id==='T03-11').physical.includes('UPPER BUTTOCK'),'Only Karan has an unexpected instant covered rear-hip contact');
+assert.ok(taniyaEp03Solo.beats.find(x=>x.id==='T03-11').time.includes('AFTER SHIVANI 19:23'),'Taniya twin crossover occurs after Shivani/Kavya night encounter');
+assert.ok(taniyaEp03Solo.beats.find(x=>x.id==='T03-12').cast.some(x=>x.startsWith('Rahul')),'Soniya husband Rahul shares final home beat');
+assert.ok(taniyaEp03Solo.beats.find(x=>x.id==='T03-12').action.includes('07:55'),'Rahul morning departure is honored');
+assert.ok(taniyaEp03Solo.interactionAudit.societyPhysical.some(x=>x.pair==='Karan → Taniya'),'Accidental society contact and reactions are independently auditable');
+assert.ok(taniyaEp03Solo.temporalCrossChecks.some(x=>x.person==='Karan & Aman'&&x.earlier.includes('19:11–19:23')),'Twins prior Shivani + Kavya + Deepu slot preserved');
+assert.ok(sourcePlanning.includes('AUTHOR-APPROVED EP03 PLOT'),'Planning UI must distinguish published approved plot from unwritten prose');
 const shreyaEpisode03Proposal=read('episode-03-shreya-jan01-proposed-timeline.json');
 assert.equal(shreyaEpisode03Proposal.date,'2026-01-01');
 assert.equal(shreyaEpisode03Proposal.timeline.length,11,'Eleven date-scoped Shreya records after merged B1, held B5 and held B14');
