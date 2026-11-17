@@ -42,9 +42,10 @@ function Episode02Reading({character,scene}:Props){
 type Ep03Block={order:number;time:string;type:string;text:string};
 type Ep03Line={time?:string|null;kind?:string;speaker?:string;text:string};
 type Ep03Beat={id:string;title:string;status:string;parts:{raw:string;origin:string}[]};
-type Ep03Scene={id:string;title:string;date:string;time:string;place:string;status:string;source:string;format:'blocks'|'raw'|'lines'|'beats'|'revision'|'scene08-draft';blocks?:Ep03Block[];raw?:string;lines?:Ep03Line[];beats?:Ep03Beat[];addenda?:{id:string;raw:string;status:string}[]};
+type Ep03Scene={id:string;title:string;date:string;time:string;place:string;status:string;source:string;reviewNotes?:string[];format:'blocks'|'raw'|'lines'|'beats'|'revision'|'scene08-draft';blocks?:Ep03Block[];raw?:string;lines?:Ep03Line[];beats?:Ep03Beat[];addenda?:{id:string;raw:string;status:string}[]};
 type Ep03Data={episode:string;title:string;date:string;chapters:Record<string,Ep03Scene[]>};
 const storyTag=(status:string)=>{
+ if(status.startsWith('GROK_INSERTED_DOCUMENT_DRAFT'))return 'Grok insertions included · author review pending';
  if(status==='AUTHOR_APPROVED_FINAL_PROSE_PUBLISHED_2026_11_17')return 'Final · Author approved · Published';
  if(status==='GROK_SYNCED_FULL_PROSE_PUBLISHED_TO_UI_PENDING_AUTHOR_FINAL_APPROVAL_2026_11_17')return 'Grok-synced full prose · author review pending';
  if(status==='AUTHOR_REVISED_PROSE_IN_UI_PENDING_OVERALL_APPROVAL')return 'Author revisions highlighted · review pending';
@@ -164,6 +165,7 @@ function Episode03Reading({character,scene}:Props){
    <div className="reading-surface">{selected&&<>
     <div className="story-toolbar"><span>{titleCase(active)} · Scene {selected.id}</span><span className="meta-pill">{storyTag(selected.status)}</span></div>
     <div className="ep03-scene-intro"><h2>{selected.title}</h2><p>{selected.date} · {selected.time} · {selected.place}</p></div>
+    {selected.reviewNotes?.length>0&&<section className="source-note" id="taniya-scene-continuity-flag"><strong>Source-preserved continuity review:</strong> {selected.reviewNotes.join(' ')} <em>Not final approved prose.</em></section>}
     {active==='ankita'&&selected.id==='03'&&<figure className="ankita-scene03-image" style={{margin:'1rem 0'}}><img src={assetUrl('assets/ankita-ep03-scene03-private-briefing.webp')} alt="Ankita at the office private-briefing presentation, illustrated reference" loading="lazy" style={{width:'min(100%, 440px)',height:'auto',borderRadius:'12px',display:'block'}}/><figcaption>Scene 03 illustration · now beside the written scene in Reading</figcaption></figure>}
      {active==='ankita'&&selected.id==='06'?<><Scene06CleanVersion/><details className="source-footnote" id="scene06-submitted-archive"><summary>Original submitted beat versions · preserved archive</summary><Scene06SubmittedRevisions/></details><details className="source-footnote" id="scene06-earlier-draft"><summary>Earlier Scene 06 prose draft — preserved unchanged</summary><Ep03Body scene={selected}/></details></>:<Ep03Body scene={selected}/>}
     <div className="chapter-controls"><button type="button" className="button subtle" disabled={selectedIndex<=0} onClick={()=>go(scenes[selectedIndex-1].id)}>← Previous scene</button><span>Scene {selectedIndex+1} of {scenes.length}</span><button type="button" className="button primary" disabled={selectedIndex>=scenes.length-1} onClick={()=>go(scenes[selectedIndex+1].id)}>Next scene →</button></div>
