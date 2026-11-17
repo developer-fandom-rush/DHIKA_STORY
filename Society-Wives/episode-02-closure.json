@@ -5,9 +5,9 @@
   "subtitle": "One Day, Six Perspectives",
   "date": "2026-01-01",
   "location": "Gurgaon",
-  "status": "EPISODE_WINDOW_CLOSED_BY_USER",
+  "status": "EPISODE_02_AUTHOR_APPROVED_FINAL_FROZEN_2026_11_17",
   "closedOn": "2026-11-13",
-  "meaning": "No further scenes in Episode 02's 1 January POV timeline; source prose, open reviews and continuity flags remain unmodified.",
+  "meaning": "All 67 existing Episode 02 scene entries across the five lead archives are author-approved and frozen. No further Episode 02 plotting or verification is required. Original story text, historical review labels and provenance are preserved. Source-prose that never existed remains missing and has not been fabricated.",
   "unifiedReader": "episode-02.html",
   "index": "index.html",
   "leadChapters": [
@@ -16,47 +16,57 @@
       "chapter": "The Little Pink Lace Secrets",
       "lastPublished": "A08, 09:20; parcel P08, 12:50",
       "cutoff": "~13:00 Cyber City",
-      "open": [
+      "open": [],
+      "historicalOpen": [
         "A05 review",
         "Some parcel continuity/review labels"
-      ]
+      ],
+      "status": "ALL_EXISTING_EP02_SCENES_APPROVED_FINAL_FROZEN"
     },
     {
       "lead": "Shivani",
       "chapter": "The Unshared Photograph",
       "lastPublished": "D01, 13:20–13:30",
       "cutoff": "13:20–13:30 College",
-      "open": [
+      "open": [],
+      "historicalOpen": [
         "B02 review marker"
-      ]
+      ],
+      "status": "ALL_EXISTING_EP02_SCENES_APPROVED_FINAL_FROZEN"
     },
     {
       "lead": "Taniya & Soniya",
       "chapter": "The Second Bra in the Bridal Drawer",
       "lastPublished": "TS02",
       "cutoff": "13:15 distinct locations",
-      "open": [
+      "open": [],
+      "historicalOpen": [
         "TS03 onward prose not published; working plot"
-      ]
+      ],
+      "status": "ALL_EXISTING_EP02_SCENES_APPROVED_FINAL_FROZEN"
     },
     {
       "lead": "Meenakshi",
       "chapter": "Between Rounds and the Unsecured Locker",
       "lastPublished": "M12, 13:15",
       "cutoff": "13:15 Hospital",
-      "open": [
+      "open": [],
+      "historicalOpen": [
         "M09 prose missing",
         "M06, M07, M10–M12 review pending"
-      ]
+      ],
+      "status": "ALL_EXISTING_EP02_SCENES_APPROVED_FINAL_FROZEN"
     },
     {
       "lead": "Shreya",
       "chapter": "Duty and Distraction",
       "lastPublished": "SR09, 10:15",
       "cutoff": "10:15 Police station",
-      "open": [
+      "open": [],
+      "historicalOpen": [
         "SR03 referenced/unpublished"
-      ]
+      ],
+      "status": "ALL_EXISTING_EP02_SCENES_APPROVED_FINAL_FROZEN"
     }
   ],
   "imageArchive": {
@@ -77,5 +87,29 @@
       "date": "2026-01-03",
       "path": "episode-03-shreya-plan.json"
     }
-  ]
+  ],
+  "frozenAt": "2026-11-17",
+  "authorApproval": {
+    "date": "2026-11-17",
+    "scope": "All existing episode 02 scenes across Ankita, Shivani, Taniya & Soniya, Meenakshi and Shreya",
+    "noFurtherPlotting": true,
+    "status": "AUTHOR_APPROVED_FINAL_FROZEN",
+    "existingSceneCount": 67,
+    "missingProseIdsByLead": {
+      "taniya": [
+        "TS15",
+        "TS12",
+        "TS13",
+        "TS14",
+        "TS16"
+      ],
+      "meenakshi": [
+        "M09"
+      ],
+      "shreya": [
+        "SR03"
+      ]
+    },
+    "clarification": "Approved/frozen does not imply that missing source prose was recovered or written."
+  }
 }
