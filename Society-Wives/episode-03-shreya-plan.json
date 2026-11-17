@@ -269,12 +269,13 @@
     "notes": "Five participants only; flag-control drill, Kavita wins first, Lokesh tag capture and one brief close-contact moment, narrator outfit/motion descriptions, no repetitive accidental touches. Prior report-verification concept superseded."
   },
   "collegeBeat789WorkingSelection": {
-    "reference": "episode-03-shreya-jan01-proposed-timeline.json#S03-02..S03-04",
-    "scope": "Author-selected afternoon college meeting direction: Shreya x Karan x Aman; one accidental fleeting partial-cleavage glance and immediate self-consciousness, then professional normalization, with stand accident / exact dialogue / civilian open-college event all proposed details.",
+    "reference": "episode-03-shreya-jan01-proposed-timeline.json#S03-02..S03-04; review prose file episode-03-shreya-beats-07-09-refined-draft.json",
+    "scope": "Author-directed private-view accident after public event (no bystanders), exact fraction one-third (1/3), single 5–6-second sightline and brief distinct reactions; previously public accident superseded",
     "timing": "13:15–15:40",
     "canonBaseline": "Shreya SR05 08:13–08:15; Karan MBA entrance/prep freelance; Aman Java/backend job prep; their Ankita pickup 17:20–17:50.",
-    "approvalStatus": "DIRECTION_SELECTED_EXECUTION_DRAFT_NOT_APPROVED_PROSE",
-    "followedBy": "S03-05 approved five-person station training ground at 15:40–16:05; then short return bridge S03-06 and proposed Samar/Shaan evening S03-07."
+    "approvalStatus": "AUTHOR_CORRECTED_DIRECTION__REVISED_PROSE_DRAFT_PENDING_APPROVAL",
+    "followedBy": "S03-05 approved five-person station training ground at 15:40–16:05; then short return bridge S03-06 and proposed Samar/Shaan evening S03-07.",
+    "pacingLock": "Beat 07 short arrival; Beat 08 main private accident; Beat 09 minimal exit and station training bridge"
   },
   "collegeEncounterBeat7to9": {
     "sourceFile": "episode-03-shreya-jan01-proposed-timeline.json",
@@ -297,23 +298,43 @@
     "location": "Nearby public college, Gurgaon, open cyber-safety/career-awareness session (exact venue not canon-locked)",
     "pastHistory": "Shreya and twins' approved Episode 02 SR05 at parking gate 08:13–08:15. Karan teasing, Aman observant, Shreya one top uniform button open.",
     "premise": "Shreya attends as officially booked guest. Karan/MBA prep and Aman/backend interviews independently attend a public college event; all are surprised when they meet. They are not canonically college students and do not accompany her back.",
-    "event": "During credible demonstration a dropped folder and momentarily displaced open neckline causes accidental brief upper-cleavage visibility to the twins; each looks away. Shreya adjusts uniform, has a short moment of private awareness and resumes her professional session. No staged exposure, lingering gaze or touching.",
+    "event": "A public official cyber-safety talk is followed by a genuinely PRIVATE accident in an adjoining prep room where only Karan and Aman remain to help Shreya return a small display. Karan's loose backpack strap snags the stand, Aman catches it, and Shreya bends for dropped handouts. From the two men's side-angle, the already-open top uniform collar shifts and exactly one-third (1/3) of one breast is briefly visible during one continuous 5–6-second interval. Nobody else sees, no second button opens, no deliberate exposure. Karan's teasing stops for a beat, Aman quietly handles papers, Shreya adjusts collar and exits promptly. The full story is in the separate review draft, not yet author-approved as prose.",
     "exit": "Session ends 15:05, Shreya returns station 15:30 and changes into training outfit by 15:40 for preapproved five-person Beat10. Twins leave independently and stay free for Ankita ~17:23 pickup.",
-    "status": "AUTHOR_APPROVED_PLOT_DIRECTION__FINAL_PROSE_PENDING",
+    "status": "AUTHOR_DIRECTED_PRIVATE_STAGING_EXACT_FRACTION_DRAFT_PROSE_PENDING_APPROVAL",
     "continuityLocks": [
       "No change to approved Beat 10 plot or cast.",
       "No change to approved Episode 02 prose.",
-      "B5 three inmates remains parked and unscheduled.",
+      "B5 / SR12 moved to Episode 04 Future Plot, unscheduled (professional trainers disguised as inmates); no active EP03 cellblock encounter.",
       "Samar/Shaan separate in evening society proposal.",
       "Venue remains proposed; not a verified real-life location."
     ],
     "sharedMemory": {
-      "shreya": "Brief awkward glimpse remembered, then her normal familiar teasing resumes.",
-      "karan": "Knows he caused the bag/stand mishap and remembers Shreya's composure and playful bag joke.",
-      "aman": "Remembers discreet help with the stand/papers and her return to normal talk.",
+      "shreya": "Notices shirt-collar shift and two brief changes of expression, but cannot know exact visible extent or their inner reactions.",
+      "karan": "Only he and Aman saw the brief private accident; his familiar teasing stops for one beat, without public comment.",
+      "aman": "Catches stand, returns the folder and redirects his gaze immediately; the accident is never public.",
       "futureNote": "All three retain shared history; any later light callbacks use the career talk or backpack/stand, not comments on Shreya's body. No mind-reading; no change to morning SR05 or station B10."
     },
-    "approvalBoundary": "User approved plot direction with shared memory and familiar banter; scripted lines are draft, not author-approved prose."
+    "approvalBoundary": "User approved plot direction with shared memory and familiar banter; scripted lines are draft, not author-approved prose.",
+    "supersededPublicAccidentDraft": {
+      "event": "During credible demonstration a dropped folder and momentarily displaced open neckline causes accidental brief upper-cleavage visibility to the twins; each looks away. Shreya adjusts uniform, has a short moment of private awareness and resumes her professional session. No staged exposure, lingering gaze or touching.",
+      "sharedMemory": {
+        "shreya": "Brief awkward glimpse remembered, then her normal familiar teasing resumes.",
+        "karan": "Knows he caused the bag/stand mishap and remembers Shreya's composure and playful bag joke.",
+        "aman": "Remembers discreet help with the stand/papers and her return to normal talk.",
+        "futureNote": "All three retain shared history; any later light callbacks use the career talk or backpack/stand, not comments on Shreya's body. No mind-reading; no change to morning SR05 or station B10."
+      },
+      "status": "AUTHOR_APPROVED_PLOT_DIRECTION__FINAL_PROSE_PENDING",
+      "notes": "Historical public demonstration visibility idea replaced by author private-room accident correction"
+    },
+    "sourceDraftFile": "episode-03-shreya-beats-07-09-refined-draft.json",
+    "authorRevision20261117": {
+      "privacy": "Only Karan & Aman; no public audience sightline",
+      "amount": "one-third (1/3), exact user-fixed figure",
+      "duration": "one continuous 5–6 seconds",
+      "writingStyle": "Dhika EP01–EP03 event-first, short setup and minimal aftermath",
+      "GrokMarkers": "Two selected for this revised draft, no global quota; author decides based on the scene",
+      "approval": "New prose under review"
+    }
   },
   "societyReturnSequence": {
     "sourceFile": "episode-03-shreya-jan01-proposed-timeline.json",
