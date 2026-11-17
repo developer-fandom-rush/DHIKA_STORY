@@ -421,17 +421,17 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
    </section>}
    {active==='shreya'&&<section className="continuity-cards" id="shreya-ep03-beat-10-training-ground-review">
      <article className="episode-plan-card">
-       <span className="eyebrow">Shreya · Episode 03 · Beat 10 · 3:40–4:05 PM · Prose draft for author review</span>
-       <h2>Training Ground — Meaningful Contest &amp; Lokesh's Clean Win</h2>
-       <p className="source-note"><strong>Original approved plot protected:</strong> Five-person flag drill, Kavita's Round 1 win, Shreya's first advantage over Rohas, Lokesh reading her second pivot and winning the tag. The single closer-contact interception below is an <strong>alternate writing proposal</strong>, not a finalized correction.</p>
+       <span className="eyebrow">Shreya · Episode 03 · Beat 10 · 3:40–4:05 PM · Complete Grok-synced prose in Story Reader · Author review</span>
+       <h2>Training Ground — Full Consolidated Five-Person Drill</h2>
+       <p className="source-note"><strong>Full Grok sync saved:</strong> All five participants, Meera and Kavita's four mixed-pair encounters, both approved wins, and Grok's two specific fall-recovery corrections are now in the single continuous scene. Shreya's tag-contact sequence is unchanged. <strong>Author approval still pending.</strong></p><p><button type="button" className="button primary" onClick={()=>openPage('reading',{episode:'03',character:'shreya',scene:'S03-05'})}>Read complete Beat 10 in Episode Reader</button></p>
        {shreyaBeat10?<>
-          <details className="episode-outline" open><summary>Read full revised Beat 10 prose</summary>
+          <details className="episode-outline" open><summary>Full Grok-synced Beat 10 — preview</summary>
             <div className="source-scene prose-exact">{shreyaBeat10.prose.split(/\n\s*\n/).filter(Boolean).map((block,i)=><p key={i} style={{whiteSpace:'pre-line',lineHeight:1.7,...(block.includes('TG-G0')?{backgroundColor:'rgba(221,162,43,0.12)',borderLeft:'4px solid #c08a23',padding:'10px 12px',borderRadius:8}:{})}}>{block.replace(/^### /,'').replace(/\*\*/g,'').replace(/^\*(.*?)\*$/,'$1')}</p>)}</div>
           </details>
-          <details className="episode-outline"><summary>Timing, contact issue &amp; Grok marker locations</summary>
+          <details className="episode-outline"><summary>Complete timed drill &amp; Grok change register</summary>
             {shreyaBeat10.timeMarks.map((time,i)=><p key={i}><strong>{time.clock}:</strong> {time.moment}</p>)}
             <p><strong>What was weak:</strong> {shreyaBeat10.editorialReview.issue}</p>
-            <p><strong>Revised proposal:</strong> {shreyaBeat10.editorialReview.thisDraftChoice}</p>
+            <p><strong>Integrated version:</strong> {shreyaBeat10.editorialReview.thisDraftChoice}</p>
             {shreyaBeat10.grokInsertions.map(g=><p key={g.id}><strong>{g.id}:</strong> {g.purpose}</p>)}
             <p className="source-note"><strong>Author approval still needed:</strong> {shreyaBeat10.editorialReview.notYetAuthorized}</p>
           </details>
