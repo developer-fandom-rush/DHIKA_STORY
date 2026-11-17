@@ -14,8 +14,8 @@ type ShivaniSceneReference={schemaVersion:number;id:string;title:string;status:s
 type ShivaniNewBeat={id:string;time:string;title:string;cast:string[];plot:string;dialogue?:{speaker:string;line:string}[];reaction?:string;narratorDirection?:string;knowledge?:{readerOnly:boolean;shivaniAware:boolean;actualContact:boolean}};
 type ShivaniSocietyReturn={title:string;status:string;proseStatus:string;date:string;time:{start:string;end:string};priorFoundation:string[];beats:ShivaniNewBeat[];restrictions:string[]};
 type ShivaniNightPlan={title:string;status:string;proseStatus:string;date:string;episodePlacement:string;time:{firstHomeBeat:string;nightEncounter:string};beats:ShivaniNewBeat[];continuityLocks:string[];relationshipSetup:{shivaniOm:{established:string;proposedNewCharacterAngle:string;fantasyPresentation:string;tone:string};deepuShivani:{established:string;proposedTonight:string};deepuKavya:{new:string;agency:string};twinsKavya:{new:string;distinctVoices:string}};futureArc:Record<string,string>};
-type TaniyaEpisode03Beat={id:string;time:string;title:string;location:string;cast:string[];purpose:string;action:string;visual:string;dialogue:{speaker:string;line:string}[];turn:string;status:string};
-type TaniyaEpisode03Plot={schemaVersion:number;episode:string;lead:string;title:string;date:string;start:string;end:string|null;status:string;goal:string;timeIntegrity?:{verifiedStart:string;verifiedCutoff:string;officeEnd:string;commuteAfterWork:string;societyArrival:string;soniyaFirstAppearance:string;consequence:string};plotPhases?:{key:string;beatIds:string[];time:string;state:string;note?:string}[];interactionAudit?:{status:string;officeWomen:{name:string;age:number;role:string;status:string}[];males:{name:string;age:number;beatIds:string[];physical:string;relationship:string}[];note:string};figureMapping:{group:string;members:string[];why:string}[];wardrobeStatus:string;wardrobe:string;beats:TaniyaEpisode03Beat[];authorLocks:string[];ending:string;sourceAnchors:{source:string;facts:string}[]};
+type TaniyaEpisode03Beat={id:string;time:string;title:string;location:string;cast:string[];purpose:string;action:string;physical?:string;teasing?:string;visual:string;dialogue:{speaker:string;line:string}[];turn:string;status:string};
+type TaniyaEpisode03Plot={schemaVersion:number;episode:string;lead:string;title:string;date:string;start:string;end:string|null;status:string;goal:string;timeIntegrity?:{verifiedStart:string;verifiedCutoff:string;officeEnd:string;commuteAfterWork:string;societyArrival:string;soniyaFirstAppearance:string;consequence:string};plotPhases?:{key:string;beatIds:string[];time:string;state:string;note?:string}[];interactionAudit?:{status:string;officeWomen:{name:string;age:number|null;role:string;status:string}[];males:{name:string;age:number;beatIds:string[];physical:string;relationship:string}[];femalePhysical?:{pair:string;beatId:string;contact:string;reaction:string}[];taniyaReaction?:string;uncleFantasyHint?:string;note:string};figureMapping:{group:string;members:string[];why:string}[];wardrobeStatus:string;wardrobe:string;beats:TaniyaEpisode03Beat[];authorLocks:string[];ending:string;sourceAnchors:{source:string;facts:string}[]};
 type ShreyaBeat={editorialIssueToDiscuss?:{id:string;status:string;headline:string;reason:string;requiredDiscussion:string;approvalBoundary:string};id:string;time:string|null;type?:string;status:string;title:string;place:string|null;characters:string[];history:string;distinctEvent:string;reaction:string;dialogue?:string[][];exit:string;readerOnlyAfterbeat?:string;readerOnlyFantasy?:{trigger:string;fantasy:string;status?:string};wardrobeProposals?:Record<string,string>;wardrobeContinuity?:string;approvalScope?:string;sceneBeats?:{id:string;time:string;heading:string;plot:string;narration?:string;dialogue?:string[][];reaction?:string}[];sharedMemory?:{status:string;event:string;shreya:string;karan:string;aman:string;laterUse:string;sharedBanter:string};styleLock?:string;futureArc?:{coreConflict:string;nonsexualStakes:string;trajectory:string};};
 type ShreyaEpisode03Proposal={title:string;status:string;date:string;weekday:string;dayScope:{start:string;end:string;certainty:string};anchor:string;userLocks:string[];timeline:ShreyaBeat[];parkedFutureEncounters:ShreyaBeat[];mergedTransitions:{from:string;into:string;time:string;text:string;status:string}[];reviewBeatSequence:{number:number;id:string;kind:string;title:string;label:string}[];reviewSequencePolicy:string;editorial:{approvalRule:string;sequence:string;sourceIntegrity:string}};
 type ShivaniStaffroomPlot={scene:string;status:string;date:string;start:string;end:string;location:string;purpose:string;wardrobeStatus:string;wardrobe:{name:string;age:number;role:string;outfit:string;narratorView:string;referenceColor:string}[];imageReference:{origin:string;status:string;use:string};beats:{id:string;time:string;title:string;focus:string;action:string;narrator?:string;dialogue?:{speaker:string;line:string}[];seed?:string;note?:string}[];plotLocks:string[];};
@@ -87,12 +87,12 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
   {active==='taniya'&&<section className="continuity-cards" id="taniya-ep03-timeline">
     <article className="episode-plan-card">
       <span className="eyebrow">Taniya · Episode 03 · 1 January 2026 · author review draft</span>
-      <h2>Taniya — Solo Afternoon: Office → Society → Home</h2>
-      <p className="source-note"><strong>UNAPPROVED WORKING PLOT — OFFICE TIMING CORRECTED:</strong> Twelve-beat sequence only. User confirmed a nine-hour CA-office shift: 10:30 AM–7:30 PM. Society encounters remain CONDITIONAL on actual post-shift commute and character availability. Do not treat the old afternoon homecoming times as canon. Episode 02 is untouched.</p>
+      <h2>Taniya — Episode 03: 10:50 AM Office → Second Flat Choice → Society → Home</h2>
+      <p className="source-note"><strong>AUTHOR-REQUESTED FULL EPISODE PLOT SAVED TO UI · PROSE NOT WRITTEN:</strong> Twelve encounter beats in Phase A (10:50 AM–1:15 PM; deferred EP02 TS12–TS16), Phase B (1:15–7:30 PM office), Phase C (commute/society/home). Taniya romance and kisses are held for future episodes. Episode 02 source remains unchanged.</p>
       <p><strong>Absolute POV boundary:</strong> Soniya does not enter the story until Taniya reaches the shared flat in the final doorway beat. There are no earlier Soniya calls, messages, cutaways or dialogue.</p>
       {taniyaEpisode03Plot?<>
-        <p><strong>Office shift (author-confirmed): 10:30 AM–7:30 PM (9 hours).</strong> Episode 02 ends at 1:15 PM while Taniya is still at the CA office. Society arrival is estimated only after commute, not yet locked.</p>
-        <p className="source-note"><strong>AUTHOR REVIEW — TIMING CORRECTION:</strong> The earlier 4:05 PM office exit, 4:42 PM society arrival and 5:09 PM home arrival were assistant assumptions, not established canon. Those time slots are cancelled; plots remain drafts.</p>
+        <p><strong>Office shift (author-confirmed): 10:30 AM–7:30 PM (9 hours).</strong> Episode 03 officially OPENS ON-PAGE at 10:50 AM, adapting the intentionally deferred EP02 office plot; former TS16 at 1:15 PM ends Phase A, not this episode. Society arrival is only an estimate after commute.</p>
+        <p className="source-note"><strong>CONTINUITY NOTE:</strong> The earlier 1:15 PM episode start and 4:05 PM office exit were superseded assistant assumptions. Defer original EP02 office TS12, TS13, TS14 and TS16 into the EP03 Phase A beats, without editing EP02 source prose or promoting old TS15 (Soniya-at-home) into the office.</p>
         {taniyaEpisode03Plot.timeIntegrity&&<p><strong>Scheduling impact:</strong> {taniyaEpisode03Plot.timeIntegrity.consequence}</p>}
         {taniyaEpisode03Plot.plotPhases&&<div className="beat-list">{taniyaEpisode03Plot.plotPhases.map(phase=><div className="beat-item" key={phase.key}><p><strong>{phase.key.toUpperCase()}:</strong> {phase.time} — {phase.state}</p>{phase.note&&<p>{phase.note}</p>}</div>)}</div>}
         <p>{taniyaEpisode03Plot.goal}</p>
@@ -104,15 +104,18 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
           </div>)}</div>
         </details>
         {taniyaEpisode03Plot.interactionAudit&&<details className="episode-outline" open id="taniya-ep03-contact-audit">
-          <summary><strong>NEW · Male-by-male physical contact audit + all four office women</strong></summary>
-          <p className="source-note"><strong>Existing draft conclusion:</strong> No actual male body-touch is written yet. The single Raghav screen handover is close proximity, not physical contact.</p>
-          <h3>Office women (presence vs missing beats)</h3>
-          <div className="beat-list">{taniyaEpisode03Plot.interactionAudit.officeWomen.map(w=><div className="beat-item" key={w.name}><p><strong>{w.name} ({w.age}) — {w.role}:</strong> {w.status}</p></div>)}</div>
-          <h3>Male interactions — exact current draft, no invented touches</h3>
+          <summary><strong>CONTACT AUDIT · Taniya reactions, female duo progression and Uncle's private fantasy</strong></summary>
+          <p className="source-note"><strong>Current plot boundary:</strong> Taniya–Raghav have one brief practical clothed-waist stabilization + Taniya reflex shirt grip, NO kiss or romance. Andrea gives Chirag one playful cheek peck. Punit's proper personal encounter is reserved for the next office day. Vivek Suri's desire is reader-only, not an actual advance.</p>
+          <h3>Female duo vs backend colleagues</h3>
+          <div className="beat-list">{taniyaEpisode03Plot.interactionAudit.officeWomen.map(w=><div className="beat-item" key={w.name}><p><strong>{w.name} {w.age!==null?`(${w.age})`:''} — {w.role}:</strong> {w.status}</p></div>)}</div>
+          <h3>Male interactions — exact plot physical contact</h3>
           <div className="beat-list">{taniyaEpisode03Plot.interactionAudit.males.map(m=><div className="beat-item" key={m.name}>
             <p><strong>{m.name} ({m.age}) · {m.beatIds.join(', ')}</strong></p>
             <p><strong>Physical:</strong> {m.physical}</p><p><strong>Relationship:</strong> {m.relationship}</p>
           </div>)}</div>
+          {taniyaEpisode03Plot.interactionAudit.femalePhysical&&<><h3>Female-duo physical progression</h3><div className="beat-list">{taniyaEpisode03Plot.interactionAudit.femalePhysical.map(w=><div className="beat-item" key={w.pair}><p><strong>{w.pair} · {w.beatId}</strong></p><p><strong>Actual contact:</strong> {w.contact}</p><p><strong>Immediate reaction:</strong> {w.reaction}</p></div>)}</div></>}
+          {taniyaEpisode03Plot.interactionAudit.taniyaReaction&&<p><strong>Taniya's reaction:</strong> {taniyaEpisode03Plot.interactionAudit.taniyaReaction}</p>}
+          {taniyaEpisode03Plot.interactionAudit.uncleFantasyHint&&<p><strong>UNCLE · Reader-only fantasy hint:</strong> {taniyaEpisode03Plot.interactionAudit.uncleFantasyHint}</p>}
           <p>{taniyaEpisode03Plot.interactionAudit.note}</p>
         </details>}
         <details className="episode-outline">
@@ -126,6 +129,8 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
             <p><strong>Location:</strong> {beat.location} · <strong>Cast:</strong> {beat.cast.join(', ')}</p>
             <p><strong>Reason for this beat:</strong> {beat.purpose}</p>
             <p><strong>Plot:</strong> {beat.action}</p>
+            {beat.physical&&<p><strong>Physical contact / staging:</strong> {beat.physical}</p>}
+            {beat.teasing&&<p><strong>Teasing / speech direction:</strong> {beat.teasing}</p>}
             <p className="source-note"><strong>Visual direction:</strong> {beat.visual}</p>
             {beat.dialogue?.map((line,j)=><p className="dialogue" key={j}><strong>{line.speaker}:</strong> {line.line}</p>)}
             <p><strong>After-effect / transition:</strong> {beat.turn}</p>
