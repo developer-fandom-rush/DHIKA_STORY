@@ -6,7 +6,7 @@
   "episode": "04",
   "part": "B",
   "storyDate": "2026-01-02",
-  "status": "DISCUSSION_ONLY__UNAPPROVED__NO_EXISTING_SCENE_OVERRIDDEN",
+  "status": "REJECTED_BY_AUTHOR__ARCHIVED_FOR_REDISCUSSION__HIDDEN_FROM_UI",
   "editorialPurpose": "Design the whole Jan2 workday after the author's Jan1 EP03 Babloo introduction, without copying Dhika's plot or retroactively replacing approved Jan1 scenes. The word 'first show' denotes Meenakshi's distinct voluntary presentation to an adult helper; exact wardrobe and degree of exposure remain for author review and are not treated as approved.",
   "sourcePriority": [
     "episode-03-meenakshi-scene-04-babloo-intro.json B01–B05 establishes prior trust, Babloo's first personal compliment, and next-day help with her car.",
@@ -426,5 +426,10 @@
     "Exact degree of the evening first-show visual is unapproved; the current plot uses a deliberate clothed off-duty presentation. Author may replace this beat without touching the accident or hospital clocks.",
     "Keep first gratitude hug optional and separately agreed; do not force multiple physical contacts for arithmetic.",
     "No published Jan1 Episode03 prose or the older unapproved Jan2 planning file is modified by this new discussion source."
-  ]
+  ],
+  "reviewDisposition": {
+    "decision": "Rejected by author on 2026-11-18",
+    "reason": "Meenakshi 04B plot and hospital Chotu sequence do not meet the author's intended story; await fresh discussion before any new scenes are approved or re-used.",
+    "instruction": "Do not show this suggested plot in Planning UI. Do not copy into prose or represent its beats/timings as approved. Preserve file only as historical rejected reference."
+  }
 }
