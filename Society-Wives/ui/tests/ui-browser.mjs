@@ -26,6 +26,7 @@ try {
   const content=await page.locator('#episode04-next-day').innerText();
   assert.ok(content.includes(chotu),'Office Chotu missing for '+lead);
   assert.ok(content.includes('Twins absent'),'Twins absence lock missing for '+lead);
+  assert.ok(content.includes('Colleague track'),'parallel colleague scenes missing for '+lead);
  }
  assert.equal(await page.locator('img').count(),0);
  console.log('Browser smoke check passed: Reader 01–03 and Planning 04A/B.');
