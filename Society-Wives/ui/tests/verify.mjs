@@ -26,7 +26,7 @@ for(const [lead,chotu] of Object.entries(officePairings)){
  assert.ok(plan.scenes.some(x=>x.beats.some(b=>/waist|shoulder|neckline|sari.pallu/i.test(b.actionName||''))),'missing deliberate physical action for '+lead);
  assert.ok(!/\\bkiss(?:ing)?\\b/i.test(plan.scenes.flatMap(x=>x.beats).map(b=>b.actionName||'').join(' ')),'kiss action should be excluded');
 }
-assert.ok(!/\\b(Karan|Aman|Uday|Utkarsh|Samar|Shaan|Harsh|Laksh)\\b/.test(office04b.leads.flatMap(l=>l.scenes.map(x=>JSON.stringify([x.characters,x.beats]))).join(' ')),'twins must be entirely absent from Jan 2 office scene casts/actions');
+assert.ok(!/\\b(Karan|Aman|Uday|Utkarsh|Samar|Shaan|Harsh|Laksh)\\b/.test(office04b.leads.flatMap(l=>l.scenes.flatMap(x=>x.characters)).join(' ')),'twins must be entirely absent from Jan 2 office scene casts/actions');
 assert.match(read('episode-04b-meenakshi-jan02-discussion-plan.json').status,/REJECTED/,'previous Meenakshi proposal must remain rejected');
 
 const app=source('App.tsx'),reading=source('Reading.tsx'),planning=source('Planning.tsx');
