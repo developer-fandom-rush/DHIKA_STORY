@@ -1,0 +1,430 @@
+{
+  "schemaVersion": 1,
+  "id": "SW-MEENAKSHI-EP04B-JAN02-2026-REVIEW",
+  "title": "Meenakshi Episode 04B — 2 January: Babloo Uncertain Glimpse, Naveen, Hospital, First Show",
+  "lead": "meenakshi",
+  "episode": "04",
+  "part": "B",
+  "storyDate": "2026-01-02",
+  "status": "DISCUSSION_ONLY__UNAPPROVED__NO_EXISTING_SCENE_OVERRIDDEN",
+  "editorialPurpose": "Design the whole Jan2 workday after the author's Jan1 EP03 Babloo introduction, without copying Dhika's plot or retroactively replacing approved Jan1 scenes. The word 'first show' denotes Meenakshi's distinct voluntary presentation to an adult helper; exact wardrobe and degree of exposure remain for author review and are not treated as approved.",
+  "sourcePriority": [
+    "episode-03-meenakshi-scene-04-babloo-intro.json B01–B05 establishes prior trust, Babloo's first personal compliment, and next-day help with her car.",
+    "episode-03-meenakshi-scene-03-twins.json T07: the car would not start near the badminton court Jan1; it has NOT magically returned to society.",
+    "episode-02-meenakshi-plan.json M01: black-lace marital surprise for Nikhil; Jan1 night payoff only a separate unapproved 04A proposal.",
+    "episode-03-meenakshi-plan.json: older unapproved Jan2 event slots M3-02..M3-13 and a user-directed move of M08 to 2 January 11:00–11:40.",
+    "episode-04-chotu-six-leads-review.json: Babloo society Chotu 07:35–07:56 and 18:10–18:28; Naveen hospital Chotu 11:45–12:15 and 13:50–14:10.",
+    "Dhika Complete Episode Archive, EP04 Part1: ordinary helper errand and unexpected change in heroine's presentation form a STRUCTURAL reference only. No copied child-in-adult-scene staging, noodle delivery, or scene dialogue."
+  ],
+  "criticalAnswer": {
+    "currentDraftProblem": "Older stuck-hatch accident contained upper-arm grip/shoulder proximity only; it NEVER created uncertainty over whether Babloo saw anything intimate. User was correct to question that.",
+    "newAccidentMechanics": "At the offsite badminton-court car, Meenakshi reaches into the open boot for papers. Her dupatta catches near the hatch edge. As she tries to free it, the supported hatch dips; Babloo steadies it and Meenakshi instinctively catches his upper arm and steps close. The snag moves her dupatta and the line of her kurta briefly. Babloo lifts his gaze once and looks away. Neither a deliberate look nor the precise scope of visibility is asserted.",
+    "meenakshiUncertainty": "Did he notice only the snagged dupatta, the kurta shifting at the neckline, or something more? From her angle she cannot tell and he does not volunteer an answer. Separate from her other question: why did she so readily grab his arm and later remember that contact?",
+    "bablooUncertainty": "Babloo does not know if Meenakshi noticed his brief startled glance or how she interpreted it; his private conclusion remains unrevealed here.",
+    "whatIsNOTCanon": "No definitively seen nudity or explicit anatomical glimpse is established. The uncertainty is intentional and may be resolved only in the later author-controlled conversation."
+  },
+  "timingDependencies": {
+    "location": "Car is still near the offsite badminton court at Jan2 07:20; not in the society parking bay before recovery.",
+    "vehicle": "Mechanic must inspect engine non-start and safe hatch operation. Proposed clearance by 08:20 lets Meenakshi drive to the hospital and later use the car; if not cleared, switch to hired transport and DELETE the old 14:35 in-her-own-car ride rather than magically restoring the vehicle.",
+    "hospital": "Meenakshi's clinical duties and M08 11:00–11:40 take precedence. Naveen's 11:45 incident and 13:50 demo are distinct from Jan1 14:15 unresolved handoff.",
+    "formerDay2Draft": "Older Jan2 second car ride/front-seat rivalry and Babloo first-box/missing-packet/second-bell are unapproved, mechanically repetitive with Jan1 farmhouse ride and Babloo B01–B05. They need reconciliation, NOT automatic duplication.",
+    "newFirstShow": "The evening 18:10 encounter is a separately chosen, fully clothed off-duty presentation and direct interaction in response to the morning doubt. The author can later approve or revise its visual intensity. It is not the same event as the morning accident.",
+    "family": "Vihaan is a toddler in independent family-care only. Nikhil's exact Jan2 commute is open; Mohan is an unrelated resident elder with one-sided reader-only history. Dev and Ishita's Jan2 whereabouts are open."
+  },
+  "scenes": [
+    {
+      "id": "M04B-S01",
+      "number": "01",
+      "start": "06:40",
+      "end": "07:25",
+      "title": "Morning at the Kapoor household",
+      "location": "Kapoor flat → society departure",
+      "characters": [
+        "Meenakshi",
+        "Nikhil",
+        "Vihaan",
+        "Babloo (phone)"
+      ],
+      "beats": [
+        {
+          "id": "M04B-01",
+          "time": "06:40–07:05",
+          "title": "Wake, afterglow and family care",
+          "action": "Meenakshi wakes after an eventful Jan1. If the proposed married surprise is later approved, it adds private warmth with Nikhil, but this file does not presume that unwritten scene happened.",
+          "reaction": "She feels unusually self-aware, not guilty by default; her relationship to Nikhil remains affectionate."
+        },
+        {
+          "id": "M04B-02",
+          "time": "07:05–07:25",
+          "title": "Car pickup confirmed",
+          "action": "Meenakshi tends to Vihaan's ordinary morning care before leaving. Babloo confirms the mechanic and a lift to the offsite badminton court. She wears an appropriate non-explicit everyday kurta and dupatta; exact Jan2 colors remain open.",
+          "continuity": "Child's confirmed safe home caregiver and husband travel schedule require placement before prose."
+        }
+      ],
+      "status": "NEW_PROPOSAL_NOT_APPROVED"
+    },
+    {
+      "id": "M04B-S02",
+      "number": "02",
+      "start": "07:25",
+      "end": "08:25",
+      "title": "Society Babloo A — the hatch and unknown glimpse",
+      "location": "Offsite badminton-court car park",
+      "characters": [
+        "Meenakshi",
+        "Babloo",
+        "Mechanic (service only)"
+      ],
+      "beats": [
+        {
+          "id": "M04B-03",
+          "time": "07:25–07:35",
+          "title": "At the car, no magic relocation",
+          "action": "They reach her car where the Jan1 badminton incident left it. A professional checks why the car would not start. Babloo opens and supports the hatch so Meenakshi can collect hospital papers.",
+          "mechanics": "The hatch is being manually held; its movement is a separate handling mishap, not a secretly invented total vehicle failure."
+        },
+        {
+          "id": "M04B-04",
+          "time": "07:35–07:46",
+          "title": "The dupatta snag and Babloo's reflex",
+          "action": "Meenakshi's dupatta catches near the hatch edge. As she tries to free it, the hatch dips toward her. Babloo prevents it from closing while she reflexively grips his upper arm and steps close. In that single scramble the drape of her kurta shifts; Babloo briefly looks up and looks away.",
+          "physical": "A short emergency arm hold, accidental clothing shift, immediate release when stable. No invented deliberate grab or detailed body exposure.",
+          "sightline": "No spectators within the small working zone; precise visibility to Babloo remains withheld, not misrepresented as definite.",
+          "reaction": "Meenakshi is startled both by the fabric moving and by her own impulsive reach. Babloo becomes quiet and refocuses on the car."
+        },
+        {
+          "id": "M04B-05",
+          "time": "07:46–07:56",
+          "title": "Two doubts, no forced answer",
+          "action": "Meenakshi straightens her clothing and returns to the practical problem. She cannot tell exactly what Babloo noticed, nor why the small contact stays with her. He does not turn the moment into a repetitive apology or flirty compliment.",
+          "memory": "She will privately recall the surprise but not assume he definitely saw exposed skin."
+        },
+        {
+          "id": "M04B-06",
+          "time": "07:56–08:25",
+          "title": "Professional recovery and travel check",
+          "action": "Mechanic checks the starter/battery and hatch safety, without an invented definitive diagnosis. PROPOSED branch: car is safely cleared by about 08:20 and Meenakshi leaves for duty. If not cleared, she hires alternate transport and the afternoon four-person car ride must be changed.",
+          "dependency": "No car seat competition can be planned as a fact unless her car is genuinely driveable."
+        }
+      ],
+      "status": "NEW_PROPOSAL_NOT_APPROVED"
+    },
+    {
+      "id": "M04B-S03",
+      "number": "03",
+      "start": "08:25",
+      "end": "10:45",
+      "title": "Back on duty: Avi, Yash and Aditi after yesterday",
+      "location": "Hospital rounds and staff coffee alcove",
+      "characters": [
+        "Meenakshi",
+        "Avi",
+        "Yash",
+        "Aditi"
+      ],
+      "beats": [
+        {
+          "id": "M04B-07",
+          "time": "08:25–09:10",
+          "title": "Arrival, change and rounds",
+          "action": "Meenakshi reaches the hospital on whichever safe transport the morning outcome permits. Avi and Yash are already familiar from Jan1, not new admirers. Hospital work comes first.",
+          "reaction": "While reviewing files, she briefly remembers Babloo's silence, then returns to patient and team work."
+        },
+        {
+          "id": "M04B-08",
+          "time": "09:10–10:20",
+          "title": "Three peers respond differently",
+          "action": "Avi volunteers for a time-sensitive case summary, Yash quietly checks a numerical discrepancy, and Aditi leads a separate follow-up. Avoid re-running Jan1 farmhouse flirt from its first beat.",
+          "reaction": "Meenakshi notes different kinds of reliability and attention; no assumed romantic decision from one look."
+        },
+        {
+          "id": "M04B-09",
+          "time": "10:20–10:45",
+          "title": "Staff-only teasing, not a reset",
+          "action": "A brief coffee alcove remark by Avi is met with Meenakshi's confident comeback; Yash offers an understated observation; Aditi is independent rather than a prop. Meenakshi's mood has a privately buoyant edge but she stays professional."
+        }
+      ],
+      "status": "NEW_PROPOSAL_NOT_APPROVED"
+    },
+    {
+      "id": "M04B-S04",
+      "number": "04",
+      "start": "11:00",
+      "end": "12:15",
+      "title": "Shifted M08 then hospital Chotu Naveen A",
+      "location": "Senior conference → admin annexure/copy room",
+      "characters": [
+        "Meenakshi",
+        "Kunal",
+        "Khurana",
+        "Naveen"
+      ],
+      "beats": [
+        {
+          "id": "M04B-10",
+          "time": "11:00–11:40",
+          "title": "M08 Senior Review",
+          "action": "Preserve the user-shifted January 2 senior review with Kunal and Khurana. Its earlier source review is a dependency and not rewritten as new flirt."
+        },
+        {
+          "id": "M04B-11",
+          "time": "11:45–12:00",
+          "title": "Naveen and the annexure",
+          "action": "Hospital helper Naveen (22) returns with the needed annexure for a genuine administrative reason. He is known from Jan1 work, not a newly introduced society Babloo. A binder clip slips while they move pages in a narrow admin room.",
+          "physical": "Their hands/forearms cross briefly to stop pages falling; no wardrobe failure or contrived patient-room scene."
+        },
+        {
+          "id": "M04B-12",
+          "time": "12:00–12:15",
+          "title": "Her different reaction to Naveen",
+          "action": "Meenakshi notices Naveen's composed response as he restores the file order and thanks him. The interaction contrasts Babloo's spontaneous physical rescue with Naveen's quiet precision.",
+          "reaction": "The effect is interest in a different side of a known colleague, not a generalized right to touch."
+        }
+      ],
+      "status": "NEW_PROPOSAL_NOT_APPROVED"
+    },
+    {
+      "id": "M04B-S05",
+      "number": "05",
+      "start": "12:15",
+      "end": "14:10",
+      "title": "Midday work, Naveen B voluntary demonstration",
+      "location": "Hospital ward → authorized training area",
+      "characters": [
+        "Meenakshi",
+        "Naveen",
+        "Hospital volunteers"
+      ],
+      "beats": [
+        {
+          "id": "M04B-13",
+          "time": "12:15–13:45",
+          "title": "Rounds and team duties",
+          "action": "Clinical rounds and paperwork. Meenakshi briefly thinks of the unresolved morning glimpse but does not spend hours daydreaming or miss patient care."
+        },
+        {
+          "id": "M04B-14",
+          "time": "13:50–14:10",
+          "title": "A chosen professional demonstration",
+          "action": "At a legitimate wellness-camp volunteer orientation, Meenakshi offers to demonstrate safe hand/wrist support using Naveen only after he agrees. This is his administrative volunteer duty, not medical treatment.",
+          "physical": "A short guided grip then release; mutually accepted and context-specific.",
+          "reaction": "She is surprised by how smoothly he handles the attention; he responds sincerely rather than becoming a duplicate of Babloo."
+        }
+      ],
+      "status": "NEW_PROPOSAL_NOT_APPROVED"
+    },
+    {
+      "id": "M04B-S06",
+      "number": "06",
+      "start": "14:35",
+      "end": "17:00",
+      "title": "Clinic/vendor logistics — no repeat of Jan1 car-seat rivalry",
+      "location": "Hospital team → camp supplier → return",
+      "characters": [
+        "Meenakshi",
+        "Avi",
+        "Yash",
+        "Aditi"
+      ],
+      "beats": [
+        {
+          "id": "M04B-15",
+          "time": "14:35–15:20",
+          "title": "Vendor records for the medical camp",
+          "action": "An established camp-related supply verification requires four colleagues, each with a specific role. Use Meenakshi's own car ONLY if the morning mechanic cleared it; otherwise their logistical plan must use a different safe transport.",
+          "continuity": "The unapproved Jan2 M3-05..M3-09 plan repeats the already-used Jan1 F15–F19 front-seat contest; remove that repeated conflict before prose."
+        },
+        {
+          "id": "M04B-16",
+          "time": "15:20–16:15",
+          "title": "Different workplace stakes",
+          "action": "At the supplier they discover a batch/label mismatch. Aditi checks procurement, Yash spots a discrepancy, Avi handles the contact. Meenakshi directs the correction. This is a new work challenge with psychological follow-through instead of another staged fall/waist rescue.",
+          "reaction": "Avi wants credit, Yash is effective without displaying it, and Meenakshi notices how their conduct changes under professional pressure."
+        },
+        {
+          "id": "M04B-17",
+          "time": "16:15–17:00",
+          "title": "Return and real separation",
+          "action": "They finish vendor duties, separate at suitable pickup points if appropriate, and Meenakshi returns to society. No invented kiss, repeated jealousy complaint or second intimate road trip."
+        }
+      ],
+      "status": "NEW_PROPOSAL_NOT_APPROVED"
+    },
+    {
+      "id": "M04B-S07",
+      "number": "07",
+      "start": "17:10",
+      "end": "17:40",
+      "title": "Uday and Utkarsh — continuing the existing bets",
+      "location": "Society wellness board → Kapoor household",
+      "characters": [
+        "Meenakshi",
+        "Uday",
+        "Utkarsh"
+      ],
+      "beats": [
+        {
+          "id": "M04B-18",
+          "time": "17:10–17:35",
+          "title": "Volunteer board check",
+          "action": "She finds the established twins working with the wellness programme. Uday banters openly about their previous badminton result; Utkarsh is quieter and recalls their last encounter. Do not rerun beginner stance coaching, the unsafe three-person bike ride, or yesterday's first touch.",
+          "reaction": "She acknowledges her developing familiarity without escalating each character at once."
+        },
+        {
+          "id": "M04B-19",
+          "time": "17:35–17:40",
+          "title": "Meenakshi goes upstairs",
+          "action": "She leaves the twins to their event tasks and reaches home. No Babloo meet is silently inserted before the dedicated later follow-up."
+        }
+      ],
+      "status": "NEW_PROPOSAL_NOT_APPROVED"
+    },
+    {
+      "id": "M04B-S08",
+      "number": "08",
+      "start": "17:40",
+      "end": "18:10",
+      "title": "Home transition and her own decision",
+      "location": "Kapoor flat",
+      "characters": [
+        "Meenakshi",
+        "Vihaan",
+        "Mohan (elsewhere in household)"
+      ],
+      "beats": [
+        {
+          "id": "M04B-20",
+          "time": "17:40–17:55",
+          "title": "Family responsibility first",
+          "action": "Meenakshi checks Vihaan's care and normal home routine. Nikhil's evening arrival, Mohan's location, and Dev/Ishita whereabouts are tracked but not invented as witnesses."
+        },
+        {
+          "id": "M04B-21",
+          "time": "17:55–18:10",
+          "title": "From a wardrobe accident to a deliberate choice",
+          "action": "After changing out of her clinical white coat into a comfortable off-duty outfit, Meenakshi remembers Babloo's startled silence. She makes an intentional decision not to hide behind her work identity or dupatta during the upcoming car-document handover; the exact visual styling is for author review.",
+          "reaction": "This is her private decision. Babloo cannot know her motives until she says or shows them."
+        }
+      ],
+      "status": "NEW_PROPOSAL_NOT_APPROVED"
+    },
+    {
+      "id": "M04B-S09",
+      "number": "09",
+      "start": "18:10",
+      "end": "18:28",
+      "title": "Society Babloo B — first deliberate show and gratitude",
+      "location": "Kapoor flat doorway / outside corridor",
+      "characters": [
+        "Meenakshi",
+        "Babloo"
+      ],
+      "beats": [
+        {
+          "id": "M04B-22",
+          "time": "18:10–18:15",
+          "title": "A grounded return reason",
+          "action": "Babloo brings the mechanic's completed car-status note and repair receipt/keys for signature, as discussed earlier. If the car was not repaired, he instead brings the actual inspection estimate. He does not arrive with missing noodles, a repeated lost packet, or unearned access to her bedroom."
+        },
+        {
+          "id": "M04B-23",
+          "time": "18:15–18:21",
+          "title": "First chosen presentation after the accident",
+          "action": "Meenakshi meets Babloo in an ordinary but personally chosen off-duty look, without immediately covering herself with the dupatta. Unlike the morning, she knowingly lets him observe her appearance and asks with dry, teasing confidence why he was so quiet after the hatch mishap.",
+          "physical": "Voluntary, clothed first deliberate presentation. No graphic anatomy, forced touching or previously unapproved nudity.",
+          "reaction": "Babloo is clearly flustered; Meenakshi notices his reaction but still does not gain omniscient certainty about what he saw at 07:40."
+        },
+        {
+          "id": "M04B-24",
+          "time": "18:21–18:25",
+          "title": "The response and a voluntary thank-you",
+          "action": "Babloo answers carefully that he was surprised by the mishap. Meenakshi can choose the already-proposed brief thank-you hug for his car help after he agrees; they separate naturally.",
+          "physical": "Optional brief, mutually welcomed, fully clothed gratitude hug; if the author chooses a different first-show execution, keep the hug separate and optional.",
+          "reaction": "She feels the difference between a morning reflex and an evening choice. Babloo takes the warmth seriously, not as guaranteed permission later."
+        },
+        {
+          "id": "M04B-25",
+          "time": "18:25–18:28",
+          "title": "A real ending, not a promise",
+          "action": "Babloo departs with his operational task complete. Meenakshi closes the door and privately thinks about why she wanted his reaction; this remains a question rather than an immediate affair or guaranteed next scene."
+        }
+      ],
+      "status": "NEW_PROPOSAL_NOT_APPROVED"
+    },
+    {
+      "id": "M04B-S10",
+      "number": "10",
+      "start": "18:28",
+      "end": "19:15",
+      "title": "Evening close and protected family track",
+      "location": "Kapoor flat",
+      "characters": [
+        "Meenakshi",
+        "Vihaan",
+        "Nikhil (return TBD)",
+        "Mohan (private track only)"
+      ],
+      "beats": [
+        {
+          "id": "M04B-26",
+          "time": "18:28–19:15",
+          "title": "A working mother returns to the household",
+          "action": "Meenakshi resumes normal time with Vihaan, makes sure the recovered car arrangement is complete, and leaves relationship decisions unforced. Nikhil's return can be slotted after his work schedule is confirmed; Mohan's one-sided private plot must not be falsely treated as Meenakshi's knowledge.",
+          "reaction": "Her own confidence is more deliberate than at the start of Jan2, but no blanket consent or sudden romance is implied."
+        }
+      ],
+      "status": "NEW_PROPOSAL_NOT_APPROVED"
+    }
+  ],
+  "priorJan2SceneReconciliation": [
+    {
+      "old": "M3-02/M3-03",
+      "now": "M04B-S03",
+      "status": "Retain dates/times, reframe as continuation rather than new first introduction."
+    },
+    {
+      "old": "M08",
+      "now": "M04B-S04",
+      "status": "Preserve user-shifted senior review Jan2 11:00–11:40."
+    },
+    {
+      "old": "M3-04 and 04B Naveen A",
+      "now": "M04B-S04",
+      "status": "Merge as one 11:45–12:15 annexure encounter; do not add an extra missing-page event."
+    },
+    {
+      "old": "Naveen B",
+      "now": "M04B-S05",
+      "status": "Keep separate deliberate first-aid/wellness training 13:50–14:10."
+    },
+    {
+      "old": "M3-05..M3-09",
+      "now": "M04B-S06",
+      "status": "Revise because Jan1 F15–F19 already covers road/seat tension. Keep valid professional vendor logistics, not a duplicated erotic dynamic."
+    },
+    {
+      "old": "M3-10",
+      "now": "M04B-S07",
+      "status": "Retain Jan2 society wellness board, no extra ride."
+    },
+    {
+      "old": "M3-11..M3-13",
+      "now": "M04B-S08/S09",
+      "status": "Replace repetitive first-box/missing-item/second-doorbell sketch with one evening car-service handover and new first deliberately chosen appearance; existing old plan not overwritten."
+    }
+  ],
+  "householdLocations": {
+    "nikhil": "Husband; before workday return his location/time remains unconfirmed. For Jan2 late afternoon, keep offscreen until a believable arrival is selected.",
+    "vihaan": "18-month-old son; cared for safely at home, no involvement in any adult attraction scene. Specific responsible caregiver during Meenakshi's hospital shift requires confirmation in prose.",
+    "mohan": "Unrelated resident elder; reader-only Jan1 fixation remains separate; no invented Jan2 sighting or new behavior during the Babloo doorway encounter.",
+    "dev": "Adult devar; Jan2 exact location and return not yet set; no arbitrary witnessing role.",
+    "ishita": "Younger sister; Jan2 exact location and return not yet set; no arbitrary witnessing role."
+  },
+  "authorDecisionsOpen": [
+    "Whether the Jan1 Nikhil black-lace surprise has been approved; only then can Jan2 morning afterglow become an established fact.",
+    "Morning repair by 08:20 requires credible mechanic clearance. If not, adapt transport and afternoon vendor scene instead of assuming her car is back.",
+    "Exact degree of the evening first-show visual is unapproved; the current plot uses a deliberate clothed off-duty presentation. Author may replace this beat without touching the accident or hospital clocks.",
+    "Keep first gratitude hug optional and separately agreed; do not force multiple physical contacts for arithmetic.",
+    "No published Jan1 Episode03 prose or the older unapproved Jan2 planning file is modified by this new discussion source."
+  ]
+}
