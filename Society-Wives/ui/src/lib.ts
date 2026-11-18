@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-export const HOME = '#/home';
+export const HOME = '#/reading?episode=01';
 /** Navigate inside the single-page story app; source files never become destinations. */
 export const openPage = (page:string,params:Record<string,string|undefined>={})=>{
  const query=new URLSearchParams();
@@ -12,9 +12,9 @@ export const titleCase = (v: string) => v.charAt(0).toUpperCase()+v.slice(1);
 export const assetUrl = (path: string) => import.meta.env.BASE_URL + path.replace(/^\.\//,'');
 export const sourceUrl = (path: string) => 'https://github.com/developer-fandom-rush/DHIKA_STORY/blob/main/Society-Wives/'+path;
 export function readRoute(): {page:string; params:URLSearchParams} {
-  const raw = window.location.hash.replace(/^#/,'') || '/home';
+  const raw = window.location.hash.replace(/^#/,'') || '/reading?episode=01';
   const [path,search=''] = raw.split('?');
-  return { page: path.replace(/^\//,'').split('/')[0] || 'home', params:new URLSearchParams(search) };
+  return { page: path.replace(/^\//,'').split('/')[0] || 'reading', params:new URLSearchParams(search) };
 }
 export function useRoute() {
   const [route,setRoute]=useState(readRoute);
