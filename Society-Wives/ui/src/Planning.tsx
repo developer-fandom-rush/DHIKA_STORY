@@ -48,7 +48,7 @@ function WorkshopDetails({tracks}:{tracks:WorkshopTrack[]}){
 }
 export default function Planning({lead='ankita',part='A'}:{lead?:string;part?:string}){
  const active=leads.find(x=>x===lead)||'ankita';
- const selectedPart=part==='B'?'B':'A';
+ const selectedPart=active==='meenakshi'?'A':part==='B'?'B':'A';
  const {data:ankita,error:ankitaError}=useData<PlotDocument>('episode-04a-ankita-plan.json');
  const {data:shivani,error:shivaniError}=useData<PlotDocument>('episode-04a-shivani-plan.json');
  const {data:shreya,error:shreyaError}=useData<PlotDocument>('episode-04a-shreya-night-plan.json');
@@ -57,13 +57,13 @@ export default function Planning({lead='ankita',part='A'}:{lead?:string;part?:st
  const {data:ankitaArchive,error:ankitaArchiveError}=useData<AnkitaArchive>('episode-04b-ankita-chotu-archive.json');
  const doc=active==='ankita'?ankita:active==='shivani'?shivani:active==='shreya'?shreya:active==='taniya'||active==='soniya'?taniya:null;
  const error=ankitaError||shivaniError||shreyaError||taniyaError||workshopError||ankitaArchiveError;
- const tracks=active==='ankita'?(ankitaArchive?.tracks||[]):(workshop?.leads.find(x=>x.id===active)?.tracks||[]);
- const go=(who:string=active,p:'A'|'B'=selectedPart)=>openPage('planning',{lead:who,part:p});
+ const tracks=active==='meenakshi'?[]:active==='ankita'?(ankitaArchive?.tracks||[]):(workshop?.leads.find(x=>x.id===active)?.tracks||[]);
+ const go=(who:string=active,p:'A'|'B'=selectedPart)=>openPage('planning',{lead:who,part:who==='meenakshi'?'A':p});
  return <main className="page-width">
   <header className="section-intro"><span className="eyebrow">Next planning · Episode 04</span><h1>Episode 04 · Plot Planning</h1><p>Character-wise story plots and new scenes only. Episodes 01–03 are in Reading, not repeated here.</p></header>
   <div className="episode-picker" role="group" aria-label="Choose planning episode">
    <button className={selectedPart==='A'?'episode-picker-current':''} aria-pressed={selectedPart==='A'} type="button" onClick={()=>go(active,'A')}>Episode 04A · Evening</button>
-   <button className={selectedPart==='B'?'episode-picker-current':''} aria-pressed={selectedPart==='B'} type="button" onClick={()=>go(active,'B')}>Episode 04B · Next Day</button>
+   {active!=='meenakshi'&&<button className={selectedPart==='B'?'episode-picker-current':''} aria-pressed={selectedPart==='B'} type="button" onClick={()=>go(active,'B')}>Episode 04B · Next Day</button>}
   </div>
   <div className="perspective-tabs" role="group" aria-label="Choose character">{leads.map(w=><button key={w} type="button" aria-pressed={active===w} className={active===w?'selected':''} onClick={()=>go(w)}>{titleCase(w)}</button>)}</div>
   {error&&<p role="alert" className="error">Some planning sources could not load: {error}</p>}
