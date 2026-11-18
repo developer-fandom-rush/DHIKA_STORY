@@ -8,6 +8,8 @@ type WorkshopTrack={chotu:string;lane?:string;setting?:string;a:Record<string,un
 type Workshop={leads:{id:string;name:string;tracks:WorkshopTrack[]}[]};
 type AnkitaArchive={tracks:WorkshopTrack[]};
 type OfficeLead={id:string;name:string;office:string;workday:string;wardrobe:string;lockedExposure:string;lockedAction:string;sceneIntent:string;chotu:{name:string;age?:number;role?:string};scenes:Scene[];secondaryEncounters?:Scene[]};
+type SocietyLead={id:string;name:string;chotu:string;age:number;officeExit:string;societyWindow:string;officeCarryover:string;visualSignature:string;chosenAction:string;personalEscalation:string;scenes:Scene[]};
+type SocietyMaster={title:string;date:string;status:string;leads:SocietyLead[]};
 type OfficeMaster={title:string;date:string;status:string;leads:OfficeLead[]};
 
 const leads=['ankita','shivani','taniya','soniya','meenakshi','shreya'] as const;
@@ -34,7 +36,7 @@ function BeatDetails({beat}:{beat:Beat}){
 function SceneDetails({scene,index}:{scene:Scene;index:number}){
  const number=scene.sceneNumber||scene.number||scene.scene||String(index+1).padStart(2,'0');
  return <details className="episode-outline" open={index===0} id={'episode04-scene-'+number}>
-  <summary><strong>Scene {number} · {scene.title}</strong>{scene.track==='OTHER_COLLEAGUES'&&<span> · Colleague track</span>} {scene.start&&<span>· {scene.start}{scene.end?'–'+scene.end:''}</span>}</summary>
+  <summary><strong>Scene {number} · {scene.title}</strong>{scene.track==='OTHER_COLLEAGUES'&&<span> · Colleague track</span>}{scene.track==='SOCIETY_CHOTU'&&<span> · Society Chotu</span>} {scene.start&&<span>· {scene.start}{scene.end?'–'+scene.end:''}</span>}</summary>
   {scene.location&&<p className="muted">{scene.location}</p>}
   <div className="continuity-cards">{(scene.beats||[]).map(b=><BeatDetails key={b.id} beat={b}/>)}</div>
  </details>;
@@ -58,9 +60,11 @@ export default function Planning({lead='ankita',part='A'}:{lead?:string;part?:st
  const {data:workshop,error:workshopError}=useData<Workshop>('episode-04-chotu-six-leads-review.json');
  const {data:ankitaArchive,error:ankitaArchiveError}=useData<AnkitaArchive>('episode-04b-ankita-chotu-archive.json');
  const {data:officeDay,error:officeDayError}=useData<OfficeMaster>('episode-04b-office-chotu-jan02-five-leads.json');
+ const {data:societyDay,error:societyDayError}=useData<SocietyMaster>('episode-04b-society-chotu-jan02-five-leads.json');
  const doc=active==='ankita'?ankita:active==='shivani'?shivani:active==='shreya'?shreya:active==='taniya'||active==='soniya'?taniya:null;
- const error=ankitaError||shivaniError||shreyaError||taniyaError||workshopError||ankitaArchiveError||officeDayError;
+ const error=ankitaError||shivaniError||shreyaError||taniyaError||workshopError||ankitaArchiveError||officeDayError||societyDayError;
  const officeLead=officeDay?.leads.find(x=>x.id===active);
+ const societyLead=societyDay?.leads.find(x=>x.id===active);
  const tracks=active==='meenakshi'?[]:active==='ankita'?(ankitaArchive?.tracks||[]):(workshop?.leads.find(x=>x.id===active)?.tracks||[]);
  const go=(who:string=active,p:'A'|'B'=selectedPart)=>openPage('planning',{lead:who,part:p});
  return <main className="page-width">
@@ -83,8 +87,9 @@ export default function Planning({lead='ankita',part='A'}:{lead?:string;part?:st
      <p><strong>Planned exposure:</strong> {officeLead.lockedExposure}</p>
      <p><strong>Planned actions:</strong> {officeLead.lockedAction} · No kissing</p>
      <p><strong>Character direction:</strong> {officeLead.sceneIntent}</p>
-     <p className="muted">Office Chotu action choices are set. Colleague interactions are new parallel proposals; all scenes remain prose-review only. Time order includes both tracks.</p>
-     {[...(officeLead.scenes||[]),...(officeLead.secondaryEncounters||[])].sort((a,b)=>(a.start||'').localeCompare(b.start||'')).map((s,i)=><SceneDetails key={s.id||i} scene={s} index={i}/>)}
+     <p className="muted">Office Chotu actions are set; parallel colleagues and society Chotu scenes are planning proposals, not approved prose. Chronological view keeps the full workday and home return together.</p>
+     {societyLead&&<div className="episode-plan-card"><h3>Society Chotu continuation · {societyLead.chotu}</h3><p className="muted">After office · {societyLead.societyWindow} · Twins absent</p><p><strong>Chosen styling:</strong> {societyLead.visualSignature}</p><p><strong>Physical choice:</strong> {societyLead.chosenAction}</p><p><strong>Character escalation:</strong> {societyLead.personalEscalation}</p></div>}
+     {[...(officeLead.scenes||[]),...(officeLead.secondaryEncounters||[]),...(societyLead?.scenes||[])].sort((a,b)=>(a.start||'').localeCompare(b.start||'')).map((s,i)=><SceneDetails key={s.id||i} scene={s} index={i}/>)}
     </section>
    :tracks.length?<section id="episode04-next-day"><h2>Episode 04B · {titleCase(active)}</h2><WorkshopDetails tracks={tracks}/></section>
    :<p role="status">Loading Episode 04B plot…</p>}
