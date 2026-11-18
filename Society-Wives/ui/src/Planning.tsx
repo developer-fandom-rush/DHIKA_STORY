@@ -7,6 +7,8 @@ type PlotDocument={title:string;scenes:Scene[];proseDraft?:{title?:string;url?:s
 type WorkshopTrack={chotu:string;lane?:string;setting?:string;a:Record<string,unknown>;b:Record<string,unknown>};
 type Workshop={leads:{id:string;name:string;tracks:WorkshopTrack[]}[]};
 type AnkitaArchive={tracks:WorkshopTrack[]};
+type OfficeLead={id:string;name:string;office:string;workday:string;wardrobe:string;lockedExposure:string;lockedAction:string;sceneIntent:string;chotu:{name:string;age?:number;role?:string};scenes:Scene[]};
+type OfficeMaster={title:string;date:string;status:string;leads:OfficeLead[]};
 
 const leads=['ankita','shivani','taniya','soniya','meenakshi','shreya'] as const;
 const words:Record<string,string>={plot:'Plot',action:'Action',physical:'Staging',reaction:'Reaction',internal:'Inner thought',turn:'After-effect',continuity:'Continuity',dialogue:'Dialogue',dialogueSample:'Dialogue',mentalPOV:'Point of view',prosePreview:'Prose preview',reason:'Purpose',purpose:'Purpose',choice:'Choice',cause:'Cause',test:'Character test',result:'Result',after:'After-effect',hook:'Next beat',time:'Time',setting:'Setting'};
@@ -48,22 +50,24 @@ function WorkshopDetails({tracks}:{tracks:WorkshopTrack[]}){
 }
 export default function Planning({lead='ankita',part='A'}:{lead?:string;part?:string}){
  const active=leads.find(x=>x===lead)||'ankita';
- const selectedPart=active==='meenakshi'?'A':part==='B'?'B':'A';
+ const selectedPart=part==='B'?'B':'A';
  const {data:ankita,error:ankitaError}=useData<PlotDocument>('episode-04a-ankita-plan.json');
  const {data:shivani,error:shivaniError}=useData<PlotDocument>('episode-04a-shivani-plan.json');
  const {data:shreya,error:shreyaError}=useData<PlotDocument>('episode-04a-shreya-night-plan.json');
  const {data:taniya,error:taniyaError}=useData<PlotDocument>('episode-04a-taniya-soniya-night-review.json');
  const {data:workshop,error:workshopError}=useData<Workshop>('episode-04-chotu-six-leads-review.json');
  const {data:ankitaArchive,error:ankitaArchiveError}=useData<AnkitaArchive>('episode-04b-ankita-chotu-archive.json');
+ const {data:officeDay,error:officeDayError}=useData<OfficeMaster>('episode-04b-office-chotu-jan02-five-leads.json');
  const doc=active==='ankita'?ankita:active==='shivani'?shivani:active==='shreya'?shreya:active==='taniya'||active==='soniya'?taniya:null;
- const error=ankitaError||shivaniError||shreyaError||taniyaError||workshopError||ankitaArchiveError;
+ const error=ankitaError||shivaniError||shreyaError||taniyaError||workshopError||ankitaArchiveError||officeDayError;
+ const officeLead=officeDay?.leads.find(x=>x.id===active);
  const tracks=active==='meenakshi'?[]:active==='ankita'?(ankitaArchive?.tracks||[]):(workshop?.leads.find(x=>x.id===active)?.tracks||[]);
- const go=(who:string=active,p:'A'|'B'=selectedPart)=>openPage('planning',{lead:who,part:who==='meenakshi'?'A':p});
+ const go=(who:string=active,p:'A'|'B'=selectedPart)=>openPage('planning',{lead:who,part:p});
  return <main className="page-width">
   <header className="section-intro"><span className="eyebrow">Next planning · Episode 04</span><h1>Episode 04 · Plot Planning</h1><p>Character-wise story plots and new scenes only. Episodes 01–03 are in Reading, not repeated here.</p></header>
   <div className="episode-picker" role="group" aria-label="Choose planning episode">
    <button className={selectedPart==='A'?'episode-picker-current':''} aria-pressed={selectedPart==='A'} type="button" onClick={()=>go(active,'A')}>Episode 04A · Evening</button>
-   {active!=='meenakshi'&&<button className={selectedPart==='B'?'episode-picker-current':''} aria-pressed={selectedPart==='B'} type="button" onClick={()=>go(active,'B')}>Episode 04B · Next Day</button>}
+   <button className={selectedPart==='B'?'episode-picker-current':''} aria-pressed={selectedPart==='B'} type="button" onClick={()=>go(active,'B')}>Episode 04B · Next Day</button>
   </div>
   <div className="perspective-tabs" role="group" aria-label="Choose character">{leads.map(w=><button key={w} type="button" aria-pressed={active===w} className={active===w?'selected':''} onClick={()=>go(w)}>{titleCase(w)}</button>)}</div>
   {error&&<p role="alert" className="error">Some planning sources could not load: {error}</p>}
@@ -73,6 +77,15 @@ export default function Planning({lead='ankita',part='A'}:{lead?:string;part?:st
     {(doc.scenes||[]).map((s,i)=><SceneDetails key={s.id||s.scene||i} scene={s} index={i}/>)}
     {doc.proseDraft?.url&&<p className="source-note"><strong>Working prose draft:</strong> <a href={doc.proseDraft.url} target="_blank" rel="noreferrer">{doc.proseDraft.title||'Open draft prose'}</a></p>}
    </section>:<p role="status">Loading Episode 04A plot…</p>)
+   :officeLead?<section id="episode04-next-day"><h2>Episode 04B · {titleCase(active)} · Office Chotu</h2>
+     <p className="muted">2 January 2026 · {officeLead.office} · Office shift: {officeLead.workday} · Twins absent</p>
+     <p><strong>Office Chotu:</strong> {officeLead.chotu.name} · {officeLead.chotu.role}</p>
+     <p><strong>Planned exposure:</strong> {officeLead.lockedExposure}</p>
+     <p><strong>Planned actions:</strong> {officeLead.lockedAction} · No kissing</p>
+     <p><strong>Character direction:</strong> {officeLead.sceneIntent}</p>
+     <p className="muted">Action choices set; prose and exact staging still subject to review.</p>
+     {(officeLead.scenes||[]).map((s,i)=><SceneDetails key={s.id||i} scene={s} index={i}/>)}
+    </section>
    :tracks.length?<section id="episode04-next-day"><h2>Episode 04B · {titleCase(active)}</h2><WorkshopDetails tracks={tracks}/></section>
    :<p role="status">Loading Episode 04B plot…</p>}
  </main>;
