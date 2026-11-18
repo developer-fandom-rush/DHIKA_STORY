@@ -37,6 +37,26 @@ for(const [lead,chotu] of Object.entries(officePairings)){
 assert.ok(!/\b(Karan|Aman|Uday|Utkarsh|Samar|Shaan|Harsh|Laksh)\b/.test(office04b.leads.flatMap(l=>l.scenes.flatMap(x=>x.characters)).join(' ')),'twins must be entirely absent from Jan 2 office scene casts/actions');
 assert.match(read('episode-04b-meenakshi-jan02-discussion-plan.json').status,/REJECTED/,'previous Meenakshi proposal must remain rejected');
 assert.ok(read('episode-04b-office-chotu-jan02-five-leads.json').leads.reduce((n,l)=>n+l.secondaryEncounters.length,0)===20,'20 colleague scenes required');
+const society04b=read('episode-04b-society-chotu-jan02-five-leads.json');
+assert.equal(society04b.date,'2026-01-02');
+assert.equal(society04b.leads.length,5);
+const societyPairs={ankita:'Rinku',shivani:'Deepu',taniya:'Guddu',shreya:'Chintu',meenakshi:'Babloo'};
+const twinsRegex=/\\b(?:Karan|Aman|Uday|Utkarsh|Samar|Shaan|Harsh|Laksh)\\b/;
+for(const [lead,chotu] of Object.entries(societyPairs)){
+ const work=office04b.leads.find(x=>x.id===lead),plot=society04b.leads.find(x=>x.id===lead);
+ assert.ok(work&&plot,'Missing 04B society extension for '+lead);
+ assert.equal(plot.chotu,chotu,'Wrong society Chotu for '+lead);
+ assert.equal(plot.scenes.length,3,'Society 04B needs return, encounter and after-effect for '+lead);
+ assert.ok(plot.scenes.every(s=>s.track==='SOCIETY_CHOTU'),'Wrong scene track for '+lead);
+ assert.ok(plot.scenes.every(s=>s.start<s.end),'Invalid society clock for '+lead);
+ assert.ok(plot.scenes[0].start>=work.scenes.at(-1).end,'Society beat before office exit for '+lead);
+ assert.ok(!twinsRegex.test(plot.scenes.flatMap(s=>s.characters).join(' ')),'Twins must be absent in society encounters for '+lead);
+ assert.ok(plot.scenes.some(s=>s.beats.some(b=>/reveal|display|back|waist/i.test(b.actionName||''))),'No deliberate visual action for '+lead);
+ assert.ok(plot.scenes.some(s=>s.beats.some(b=>/consensual|mutually agreed/i.test(b.actionName||''))),'No clearly agreed contact for '+lead);
+ assert.ok(!plot.scenes.some(s=>s.beats.some(b=>/\\bkiss\\b/i.test(b.actionName||''))),'Kissing is excluded for '+lead);
+}
+assert.match(read('episode-04b-meenakshi-jan02-discussion-plan.json').status,/REJECTED/,'Old rejected plot must remain rejected');
+
 
 const app=source('App.tsx'),reading=source('Reading.tsx'),planning=source('Planning.tsx');
 assert.ok(app.includes("['reading','Read Story']")&&app.includes("['planning','Episode 04 Plot']"));
