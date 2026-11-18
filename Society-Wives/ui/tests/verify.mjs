@@ -30,11 +30,11 @@ for(const [lead,chotu] of Object.entries(officePairings)){
   assert.ok(subplot.characters.length>=2,'missing adult colleague cast for '+lead);
   assert.ok(subplot.beats.length>=2,'missing plot progression for '+lead);
  }
- assert.ok(!/\\b(Karan|Aman|Uday|Utkarsh|Samar|Shaan|Harsh|Laksh)\\b/.test(plan.secondaryEncounters.flatMap(x=>x.characters).join(' ')),'twins in parallel scenes for '+lead);
+ assert.ok(!/\b(Karan|Aman|Uday|Utkarsh|Samar|Shaan|Harsh|Laksh)\b/.test(plan.secondaryEncounters.flatMap(x=>x.characters).join(' ')),'twins in parallel scenes for '+lead);
  assert.ok(plan.scenes.some(x=>x.beats.some(b=>/waist|shoulder|neckline|sari.pallu|back/i.test(b.actionName||''))),'missing deliberate physical action for '+lead);
- assert.ok(!/\\bkiss(?:ing)?\\b/i.test(plan.scenes.flatMap(x=>x.beats).map(b=>b.actionName||'').join(' ')),'kiss action should be excluded');
+ assert.ok(!/\bkiss(?:ing)?\b/i.test(plan.scenes.flatMap(x=>x.beats).map(b=>b.actionName||'').join(' ')),'kiss action should be excluded');
 }
-assert.ok(!/\\b(Karan|Aman|Uday|Utkarsh|Samar|Shaan|Harsh|Laksh)\\b/.test(office04b.leads.flatMap(l=>l.scenes.flatMap(x=>x.characters)).join(' ')),'twins must be entirely absent from Jan 2 office scene casts/actions');
+assert.ok(!/\b(Karan|Aman|Uday|Utkarsh|Samar|Shaan|Harsh|Laksh)\b/.test(office04b.leads.flatMap(l=>l.scenes.flatMap(x=>x.characters)).join(' ')),'twins must be entirely absent from Jan 2 office scene casts/actions');
 assert.match(read('episode-04b-meenakshi-jan02-discussion-plan.json').status,/REJECTED/,'previous Meenakshi proposal must remain rejected');
 assert.ok(read('episode-04b-office-chotu-jan02-five-leads.json').leads.reduce((n,l)=>n+l.secondaryEncounters.length,0)===20,'20 colleague scenes required');
 
@@ -43,6 +43,6 @@ assert.ok(app.includes("['reading','Read Story']")&&app.includes("['planning','E
 assert.ok(reading.includes('EpisodeSelector')&&reading.includes("episode==='01'")&&reading.includes("episode==='03'"));
 assert.ok(planning.includes("Episode 04 · Plot Planning")&&planning.includes('episode-04a-ankita-plan.json')&&planning.includes('episode-04-chotu-six-leads-review.json'));
 assert.ok(!app.includes('Gallery')&&!app.includes('Characters'),'Unused image and character screens should not be rendered');
-assert.ok(!/<img\\b/i.test(app+reading+planning+source('Home.tsx')),'Published Society Wives UI must not request image assets');
+assert.ok(!/<img\b/i.test(app+reading+planning+source('Home.tsx')),'Published Society Wives UI must not request image assets');
 for(const path of ['Gallery.tsx','FemaleLibrary.tsx','Characters.tsx','data/gallery.json','data/female-library.json'])assert.ok(!existsSync(resolve(ui,'src/'+path)),'Unused UI module still present: '+path);
 console.log('Verified: Episode 01–03 story, Episode 04A/B plot, no image UI, no unused image modules.');
