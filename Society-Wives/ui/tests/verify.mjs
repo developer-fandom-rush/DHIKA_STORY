@@ -41,7 +41,7 @@ const society04b=read('episode-04b-society-chotu-jan02-five-leads.json');
 assert.equal(society04b.date,'2026-01-02');
 assert.equal(society04b.leads.length,5);
 const societyPairs={ankita:'Rinku',shivani:'Deepu',taniya:'Guddu',shreya:'Chintu',meenakshi:'Babloo'};
-const twinsRegex=/\\b(?:Karan|Aman|Uday|Utkarsh|Samar|Shaan|Harsh|Laksh)\\b/;
+const twinsRegex=/\b(?:Karan|Aman|Uday|Utkarsh|Samar|Shaan|Harsh|Laksh)\b/;
 for(const [lead,chotu] of Object.entries(societyPairs)){
  const work=office04b.leads.find(x=>x.id===lead),plot=society04b.leads.find(x=>x.id===lead);
  assert.ok(work&&plot,'Missing 04B society extension for '+lead);
@@ -53,7 +53,7 @@ for(const [lead,chotu] of Object.entries(societyPairs)){
  assert.ok(!twinsRegex.test(plot.scenes.flatMap(s=>s.characters).join(' ')),'Twins must be absent in society encounters for '+lead);
  assert.ok(plot.scenes.some(s=>s.beats.some(b=>/reveal|display|back|waist/i.test(b.actionName||''))),'No deliberate visual action for '+lead);
  assert.ok(plot.scenes.some(s=>s.beats.some(b=>/consensual|mutually agreed/i.test(b.actionName||''))),'No clearly agreed contact for '+lead);
- assert.ok(!plot.scenes.some(s=>s.beats.some(b=>/\\bkiss\\b/i.test(b.actionName||''))),'Kissing is excluded for '+lead);
+ assert.ok(!plot.scenes.some(s=>s.beats.some(b=>/\bkiss\b/i.test(b.actionName||''))),'Kissing is excluded for '+lead);
 }
 assert.match(read('episode-04b-meenakshi-jan02-discussion-plan.json').status,/REJECTED/,'Old rejected plot must remain rejected');
 
