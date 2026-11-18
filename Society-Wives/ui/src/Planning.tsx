@@ -7,7 +7,7 @@ type PlotDocument={title:string;scenes:Scene[];proseDraft?:{title?:string;url?:s
 type WorkshopTrack={chotu:string;lane?:string;setting?:string;a:Record<string,unknown>;b:Record<string,unknown>};
 type Workshop={leads:{id:string;name:string;tracks:WorkshopTrack[]}[]};
 type AnkitaArchive={tracks:WorkshopTrack[]};
-type OfficeLead={id:string;name:string;office:string;workday:string;wardrobe:string;lockedExposure:string;lockedAction:string;sceneIntent:string;chotu:{name:string;age?:number;role?:string};scenes:Scene[]};
+type OfficeLead={id:string;name:string;office:string;workday:string;wardrobe:string;lockedExposure:string;lockedAction:string;sceneIntent:string;chotu:{name:string;age?:number;role?:string};scenes:Scene[];secondaryEncounters?:Scene[]};
 type OfficeMaster={title:string;date:string;status:string;leads:OfficeLead[]};
 
 const leads=['ankita','shivani','taniya','soniya','meenakshi','shreya'] as const;
@@ -34,7 +34,7 @@ function BeatDetails({beat}:{beat:Beat}){
 function SceneDetails({scene,index}:{scene:Scene;index:number}){
  const number=scene.sceneNumber||scene.number||scene.scene||String(index+1).padStart(2,'0');
  return <details className="episode-outline" open={index===0} id={'episode04-scene-'+number}>
-  <summary><strong>Scene {number} · {scene.title}</strong> {scene.start&&<span>· {scene.start}{scene.end?'–'+scene.end:''}</span>}</summary>
+  <summary><strong>Scene {number} · {scene.title}</strong>{scene.track==='OTHER_COLLEAGUES'&&<span> · Colleague track</span>} {scene.start&&<span>· {scene.start}{scene.end?'–'+scene.end:''}</span>}</summary>
   {scene.location&&<p className="muted">{scene.location}</p>}
   <div className="continuity-cards">{(scene.beats||[]).map(b=><BeatDetails key={b.id} beat={b}/>)}</div>
  </details>;
@@ -83,8 +83,8 @@ export default function Planning({lead='ankita',part='A'}:{lead?:string;part?:st
      <p><strong>Planned exposure:</strong> {officeLead.lockedExposure}</p>
      <p><strong>Planned actions:</strong> {officeLead.lockedAction} · No kissing</p>
      <p><strong>Character direction:</strong> {officeLead.sceneIntent}</p>
-     <p className="muted">Action choices set; prose and exact staging still subject to review.</p>
-     {(officeLead.scenes||[]).map((s,i)=><SceneDetails key={s.id||i} scene={s} index={i}/>)}
+     <p className="muted">Office Chotu action choices are set. Colleague interactions are new parallel proposals; all scenes remain prose-review only. Time order includes both tracks.</p>
+     {[...(officeLead.scenes||[]),...(officeLead.secondaryEncounters||[])].sort((a,b)=>(a.start||'').localeCompare(b.start||'')).map((s,i)=><SceneDetails key={s.id||i} scene={s} index={i}/>)}
     </section>
    :tracks.length?<section id="episode04-next-day"><h2>Episode 04B · {titleCase(active)}</h2><WorkshopDetails tracks={tracks}/></section>
    :<p role="status">Loading Episode 04B plot…</p>}
