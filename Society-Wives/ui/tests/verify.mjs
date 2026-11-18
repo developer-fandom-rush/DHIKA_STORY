@@ -23,11 +23,20 @@ for(const [lead,chotu] of Object.entries(officePairings)){
  assert.ok(plan,'Jan 2 office Chotu plot missing '+lead);
  assert.ok(plan.chotu.name.includes(chotu),'wrong office Chotu for '+lead);
  assert.ok(plan.scenes.length>=5,'incomplete Jan 2 office day for '+lead);
+ assert.equal(plan.secondaryEncounters?.length,4,'parallel colleague scenes missing for '+lead);
+ for(const subplot of plan.secondaryEncounters){
+  assert.equal(subplot.track,'OTHER_COLLEAGUES');
+  assert.ok(subplot.start<subplot.end,'bad colleague clock for '+lead);
+  assert.ok(subplot.characters.length>=2,'missing adult colleague cast for '+lead);
+  assert.ok(subplot.beats.length>=2,'missing plot progression for '+lead);
+ }
+ assert.ok(!/\\b(Karan|Aman|Uday|Utkarsh|Samar|Shaan|Harsh|Laksh)\\b/.test(plan.secondaryEncounters.flatMap(x=>x.characters).join(' ')),'twins in parallel scenes for '+lead);
  assert.ok(plan.scenes.some(x=>x.beats.some(b=>/waist|shoulder|neckline|sari.pallu|back/i.test(b.actionName||''))),'missing deliberate physical action for '+lead);
  assert.ok(!/\\bkiss(?:ing)?\\b/i.test(plan.scenes.flatMap(x=>x.beats).map(b=>b.actionName||'').join(' ')),'kiss action should be excluded');
 }
 assert.ok(!/\\b(Karan|Aman|Uday|Utkarsh|Samar|Shaan|Harsh|Laksh)\\b/.test(office04b.leads.flatMap(l=>l.scenes.flatMap(x=>x.characters)).join(' ')),'twins must be entirely absent from Jan 2 office scene casts/actions');
 assert.match(read('episode-04b-meenakshi-jan02-discussion-plan.json').status,/REJECTED/,'previous Meenakshi proposal must remain rejected');
+assert.ok(read('episode-04b-office-chotu-jan02-five-leads.json').leads.reduce((n,l)=>n+l.secondaryEncounters.length,0)===20,'20 colleague scenes required');
 
 const app=source('App.tsx'),reading=source('Reading.tsx'),planning=source('Planning.tsx');
 assert.ok(app.includes("['reading','Read Story']")&&app.includes("['planning','Episode 04 Plot']"));
