@@ -1,0 +1,785 @@
+{
+  "schemaVersion": 1,
+  "id": "SW-EP04B-JAN02-5-OFFICE-CHOTU-PLAN",
+  "title": "Society Wives · Episode 04B · Five Office Chotu Encounters",
+  "date": "2026-01-02",
+  "weekday": "Friday",
+  "timezone": "Asia/Kolkata",
+  "status": "AUTHOR_APPROVED_ACTIONS__PLOTTED_DAY_NOT_APPROVED_PROSE",
+  "scope": "Office/workday plots for Ankita, Shivani, Taniya, Shreya, Meenakshi only. Does NOT overwrite separate society/helper plans or approved previous episodes.",
+  "approvedActionLock": "Ankita—intentional neckline/waist reveal and consensual waist hold; Shivani—front-facing reveal, slow turn, consensual upper-back caress; Taniya—deliberate neckline/midriff reveal, close pose, consensual waist contact; Shreya—intentional neckline display and consensual frontal embrace; Meenakshi—deliberate sari-pallu reveal and consensual waist embrace. No kissing.",
+  "twins": {
+    "policy": "ABSENT_02JAN_OFFICE_DAY_FOR_ALL_FIVE",
+    "reference": "Dhika original Episode 04 'First Show' has zero scenes or interactions with twins.",
+    "allTwinsExcluded": [
+      "Karan",
+      "Aman",
+      "Uday",
+      "Utkarsh",
+      "Samar",
+      "Shaan",
+      "Harsh",
+      "Laksh"
+    ],
+    "note": "No twin characters in any scenes or beats. Do not reinterpret 'same intensity as Dhika' as license to insert separate twin subplots."
+  },
+  "boundaryRules": [
+    "All named characters are adult; no student, child or patient participates in intimate staging.",
+    "No kissing. No nudity or explicit sexual acts; voluntary adult styling and non-graphic consensual contact only.",
+    "Do not confuse workplace/supervisory hierarchy with a free yes. The junior may decline; no consequence at work. Personal contact is away from duty and service decisions.",
+    "Office Chotu is Rohit, Sunny, Punit, Station chai helper (unconfirmed name), Naveen. Society Chotus Deepu, Guddu, Babloo, Chintu, Rinku are separate and NOT substituted.",
+    "Do not restore rejected 04B office accidents: camera retake, feedback burst, falling file tray, tipping kettle, falling binder or first-aid demo.",
+    "Preserve 1 January approved prior source scenes, their outfits and knowledge states; Jan2 outfits may differ as separate choice.",
+    "Meenakshi's user-shifted M08 remains 2 January 11:00–11:40; her Jan1 Naveen cutpoint remains unresolved, not silently completed.",
+    "Taniya's established nine-hour CA shift ends 19:30; Shreya changes only after booking off duty; Shivani student audience excluded.",
+    "Do not insert twins into any 2 January office plots; source Dhika Episode 04 first show had none."
+  ],
+  "leads": [
+    {
+      "id": "ankita",
+      "name": "Ankita",
+      "office": "Cyber City IT office",
+      "chotu": {
+        "name": "Rohit",
+        "age": 22,
+        "role": "IT support junior"
+      },
+      "workday": "09:00–18:15",
+      "wardrobe": "2 January's own selected tailored layered outfit: blazer over a deep neckline with a visible waist detail; NOT yesterday's cream kurti with its buttons already closed",
+      "lockedExposure": "Deep cleavage and bare waist",
+      "lockedAction": "Intentional neckline/waist reveal + consensual waist hold",
+      "sceneIntent": "Ankita tests whether she can remain composed while openly choosing to be noticed; she controls the change from senior work-lead to consenting off-duty adult and does not repeat the Jan1 Bhalla/Sandeep two-button experiment.",
+      "scenes": [
+        {
+          "id": "E04B-ANKITA-01",
+          "number": "01",
+          "start": "09:00",
+          "end": "10:30",
+          "title": "Day start: release work and familiar technical support",
+          "location": "IT release floor",
+          "characters": [
+            "Ankita",
+            "Priya",
+            "Rohit"
+          ],
+          "beats": [
+            {
+              "id": "AN4B-01",
+              "title": "Working-day anchor",
+              "action": "Ankita starts with release follow-up and normal team standup, not personal drama. Her husband Kabir is not inserted into the office."
+            },
+            {
+              "id": "AN4B-02",
+              "title": "The original Jan1 handoff",
+              "action": "Rohit is already the 'Rohit Babu' IT helper introduced Jan1, with a genuine unresolved equipment acknowledgement slip due today; no first-introduction replay."
+            }
+          ],
+          "status": "LOCKED_OFFICE_CHOTU_ACTIONS__PROSE_NOT_APPROVED"
+        },
+        {
+          "id": "E04B-ANKITA-02",
+          "number": "02",
+          "start": "10:30",
+          "end": "10:48",
+          "title": "Rohit brings the equipment slip",
+          "location": "Support / inventory counter",
+          "characters": [
+            "Ankita",
+            "Rohit"
+          ],
+          "beats": [
+            {
+              "id": "AN4B-03",
+              "title": "Early reaction, not a false accident",
+              "action": "Rohit returns the corrected inventory signature and notices Ankita's differently styled 2 January outfit when she removes her blazer to check the serial numbers. Their conversation stays work-related and he leaves to complete equipment work.",
+              "innerThought": "Ankita notices his brief change of expression but does not assume consent or fabricate what he saw."
+            }
+          ],
+          "status": "LOCKED_OFFICE_CHOTU_ACTIONS__PROSE_NOT_APPROVED"
+        },
+        {
+          "id": "E04B-ANKITA-03",
+          "number": "03",
+          "start": "10:48",
+          "end": "16:10",
+          "title": "Actual workday: releases, tests and handovers",
+          "location": "Product / QA floors",
+          "characters": [
+            "Ankita",
+            "Priya",
+            "Aishwarya",
+            "Rohit (work only)"
+          ],
+          "beats": [
+            {
+              "id": "AN4B-04",
+              "title": "No twins, no repeated senior-flirt scene",
+              "action": "Planning and QA tasks advance. Neither Karan nor Aman appears, and no office Chotu escalation is staged during release-critical duties."
+            }
+          ],
+          "status": "LOCKED_OFFICE_CHOTU_ACTIONS__PROSE_NOT_APPROVED"
+        },
+        {
+          "id": "E04B-ANKITA-04",
+          "number": "04",
+          "start": "16:10",
+          "end": "16:32",
+          "title": "The controlled reveal — her own choice",
+          "location": "Empty but accessible staff styling / equipment-demo area",
+          "characters": [
+            "Ankita",
+            "Rohit"
+          ],
+          "beats": [
+            {
+              "id": "AN4B-05",
+              "title": "Reason they meet again",
+              "action": "Ankita signs the completed AV return without inventing a second breakdown or repeated missing item."
+            },
+            {
+              "id": "AN4B-06",
+              "title": "Deliberate display and clear choice",
+              "action": "She chooses to set aside the blazer and face Rohit wearing her distinctive deep-neckline, visible-waist outfit, pausing long enough for his spontaneous reaction rather than manufacturing accidental exposure.",
+              "bodyParts": "Deep cleavage; bare waist",
+              "actionName": "Intentional neckline reveal; waist reveal",
+              "reaction": "She enjoys taking initiative yet privately questions how much his reaction matters to her."
+            },
+            {
+              "id": "AN4B-07",
+              "title": "A single consent-based contact",
+              "action": "Away from colleagues, she asks whether he is comfortable with a brief waist hold while they stand close for a private, non-recorded pose. He can freely refuse; if he clearly agrees, he briefly touches her waist over/at the clothing edge, then releases when she steps away.",
+              "bodyParts": "Waist",
+              "actionName": "Consensual waist hold",
+              "limits": "No kiss, no photo recording, no work consequences for refusal."
+            }
+          ],
+          "status": "LOCKED_OFFICE_CHOTU_ACTIONS__PROSE_NOT_APPROVED"
+        },
+        {
+          "id": "E04B-ANKITA-05",
+          "number": "05",
+          "start": "16:32",
+          "end": "18:15",
+          "title": "After-effect and office departure",
+          "location": "IT office / exit",
+          "characters": [
+            "Ankita",
+            "Priya"
+          ],
+          "beats": [
+            {
+              "id": "AN4B-08",
+              "title": "Personality-specific consequence",
+              "action": "Ankita resumes work with outward poise; the real inner change is that she intentionally invited attention rather than merely controlling an accidental glimpse. Rohit's future response is not presumed."
+            }
+          ],
+          "status": "LOCKED_OFFICE_CHOTU_ACTIONS__PROSE_NOT_APPROVED"
+        }
+      ]
+    },
+    {
+      "id": "shivani",
+      "name": "Shivani",
+      "office": "Gurgaon college",
+      "chotu": {
+        "name": "Sunny",
+        "age": 22,
+        "role": "College AV / academic office assistant"
+      },
+      "workday": "08:30–16:30",
+      "wardrobe": "Staff-only cultural-rehearsal outfit with a deliberate asymmetric neckline, visible shoulders and upper back, chosen by Shivani rather than a sudden wardrobe failure",
+      "lockedExposure": "Cleavage, bare shoulders, upper back",
+      "lockedAction": "Front-facing reveal + slow turn + consensual upper-back caress",
+      "sceneIntent": "Shivani normally owns the joke and the room; Sunny's unexpectedly composed reaction makes her lose that easy command, which is a new emotional reversal rather than a generic accidental brush.",
+      "scenes": [
+        {
+          "id": "E04B-SHIVANI-01",
+          "number": "01",
+          "start": "08:30",
+          "end": "10:05",
+          "title": "Faculty duties before AV preparation",
+          "location": "College classroom and faculty office",
+          "characters": [
+            "Shivani",
+            "Pooja",
+            "Sunny (AV duty)"
+          ],
+          "beats": [
+            {
+              "id": "SH4B-01",
+              "title": "Academic responsibilities first",
+              "action": "Shivani teaches or performs assigned academic responsibilities. No student is included in an adult attraction beat and no twins attend the office story."
+            }
+          ],
+          "status": "LOCKED_OFFICE_CHOTU_ACTIONS__PROSE_NOT_APPROVED"
+        },
+        {
+          "id": "E04B-SHIVANI-02",
+          "number": "02",
+          "start": "10:05",
+          "end": "10:25",
+          "title": "A private question left by the AV setup",
+          "location": "Authorized staff-only AV booth",
+          "characters": [
+            "Shivani",
+            "Sunny"
+          ],
+          "beats": [
+            {
+              "id": "SH4B-02",
+              "title": "Real task, no speaker feedback accident",
+              "action": "Shivani checks an AV cue and notices Sunny's care in staying focused on equipment after the earlier phone/photo privacy thread; Sunny's prior partial knowledge remains uncertain, and she does not magically learn what happened to her phone.",
+              "continuity": "Do not repeat the phone-gallery incident, speaker-feedback wrist collision or first-time teasing."
+            }
+          ],
+          "status": "LOCKED_OFFICE_CHOTU_ACTIONS__PROSE_NOT_APPROVED"
+        },
+        {
+          "id": "E04B-SHIVANI-03",
+          "number": "03",
+          "start": "10:25",
+          "end": "15:05",
+          "title": "Faculty, documentation, cultural prep",
+          "location": "College offices and rehearsal hall",
+          "characters": [
+            "Shivani",
+            "Kriti",
+            "Pooja"
+          ],
+          "beats": [
+            {
+              "id": "SH4B-03",
+              "title": "Rehearsal is scheduled, not a manufactured rescue",
+              "action": "Shivani has staff cultural-event cue-sheet work in addition to classes. Sunny helps with AV duties; other people are not drawn into her private interaction."
+            }
+          ],
+          "status": "LOCKED_OFFICE_CHOTU_ACTIONS__PROSE_NOT_APPROVED"
+        },
+        {
+          "id": "E04B-SHIVANI-04",
+          "number": "04",
+          "start": "15:05",
+          "end": "15:27",
+          "title": "The backstage invitation — not a mic adjustment excuse",
+          "location": "Staff-only rehearsal space with exit available",
+          "characters": [
+            "Shivani",
+            "Sunny"
+          ],
+          "beats": [
+            {
+              "id": "SH4B-04",
+              "title": "First deliberate visual move",
+              "action": "After ordinary rehearsal she intentionally changes into / removes her rehearsal cover layer, revealing the chosen neckline, bare shoulders and upper back. She turns slowly so Sunny can see the complete costume silhouette and openly asks if he is comfortable with the personal tone.",
+              "bodyParts": "Cleavage, bare shoulders, upper back",
+              "actionName": "Front-facing reveal; slow turn",
+              "reaction": "Sunny's reserve means she cannot instantly read his interest."
+            },
+            {
+              "id": "SH4B-05",
+              "title": "The requested physical move",
+              "action": "Only if Sunny clearly welcomes the move, Shivani asks for a brief upper-back caress, outside their equipment-task context, then steps away of her own accord.",
+              "bodyParts": "Upper back",
+              "actionName": "Consensual upper-back caress",
+              "limits": "No kiss, no student audience, no use of supervisory authority or involuntary exposure."
+            },
+            {
+              "id": "SH4B-06",
+              "title": "Nature shift",
+              "action": "Sunny's calmness surprises the usually quick-witted Shivani. She has knowingly done something personally daring and cannot reduce it to a technical rehearsal."
+            }
+          ],
+          "status": "LOCKED_OFFICE_CHOTU_ACTIONS__PROSE_NOT_APPROVED"
+        },
+        {
+          "id": "E04B-SHIVANI-05",
+          "number": "05",
+          "start": "15:27",
+          "end": "16:30",
+          "title": "Return to college closeout",
+          "location": "Faculty desk / campus gate",
+          "characters": [
+            "Shivani",
+            "Kriti"
+          ],
+          "beats": [
+            {
+              "id": "SH4B-07",
+              "title": "Don't add society twins",
+              "action": "Shivani completes the remaining programme tasks and exits campus. Karan–Aman and any separate society twins have no January 2 appearance in this plan."
+            }
+          ],
+          "status": "LOCKED_OFFICE_CHOTU_ACTIONS__PROSE_NOT_APPROVED"
+        }
+      ]
+    },
+    {
+      "id": "taniya",
+      "name": "Taniya",
+      "office": "CA firm",
+      "chotu": {
+        "name": "Punit",
+        "age": 22,
+        "role": "CA trainee / office helper"
+      },
+      "workday": "10:30–19:30",
+      "wardrobe": "Wedding-related fitting outfit brought as a sealed personal pickup for her after-office appointment; deliberately chosen deep neckline and exposed midriff, distinct from Jan1 sky-blue shirt",
+      "lockedExposure": "Deep neckline and exposed midriff",
+      "lockedAction": "Deliberate close pose + consensual bare-waist contact",
+      "sceneIntent": "Taniya converts her audit-like teasing into an unusually personal request; the tension is that she knowingly tests someone outside her normal fiancé-and-work conversation, not a repeated file-tray accident.",
+      "scenes": [
+        {
+          "id": "E04B-TANIYA-01",
+          "number": "01",
+          "start": "10:30",
+          "end": "12:05",
+          "title": "Client reconciliation, serious CA shift",
+          "location": "CA firm workstations",
+          "characters": [
+            "Taniya",
+            "Neha",
+            "Raghav",
+            "Chirag",
+            "Punit"
+          ],
+          "beats": [
+            {
+              "id": "TA4B-01",
+              "title": "Workday carries Jan1 backlog",
+              "action": "Taniya continues CA reconciliation and wedding scheduling separately; her engagement with Aditya is not forgotten. No twins appear."
+            }
+          ],
+          "status": "LOCKED_OFFICE_CHOTU_ACTIONS__PROSE_NOT_APPROVED"
+        },
+        {
+          "id": "E04B-TANIYA-02",
+          "number": "02",
+          "start": "12:05",
+          "end": "12:22",
+          "title": "Punit's audit update",
+          "location": "Open records desk",
+          "characters": [
+            "Taniya",
+            "Punit"
+          ],
+          "beats": [
+            {
+              "id": "TA4B-02",
+              "title": "Real professional reason",
+              "action": "Punit brings corrected reconciliation totals and learns whether his figures are accepted. He already knows Taniya's working style from Jan1; no falling tray or sudden touch."
+            },
+            {
+              "id": "TA4B-03",
+              "title": "A glimpse of a different side",
+              "action": "Taniya's playful critique of his meticulous record checks catches him off guard. She notices that she enjoys being listened to by him; she doesn't ask for intimate contact while supervising work."
+            }
+          ],
+          "status": "LOCKED_OFFICE_CHOTU_ACTIONS__PROSE_NOT_APPROVED"
+        },
+        {
+          "id": "E04B-TANIYA-03",
+          "number": "03",
+          "start": "12:22",
+          "end": "17:25",
+          "title": "Client reports and deadline",
+          "location": "Audit desks / meeting rooms",
+          "characters": [
+            "Taniya",
+            "Neha",
+            "Andrea",
+            "Punit (work only)"
+          ],
+          "beats": [
+            {
+              "id": "TA4B-04",
+              "title": "Real workload, not a fake early closure",
+              "action": "Taniya remains at the CA firm with scheduled reporting and client sign-offs. A personal wedding-clothing pickup is delivered for an evening fitting appointment; no colleague is sent to fetch it as a romantic contrivance."
+            }
+          ],
+          "status": "LOCKED_OFFICE_CHOTU_ACTIONS__PROSE_NOT_APPROVED"
+        },
+        {
+          "id": "E04B-TANIYA-04",
+          "number": "04",
+          "start": "17:25",
+          "end": "17:46",
+          "title": "The bride's deliberate close pose",
+          "location": "Office private changing / non-working reception alcove",
+          "characters": [
+            "Taniya",
+            "Punit"
+          ],
+          "beats": [
+            {
+              "id": "TA4B-05",
+              "title": "A credible change of wardrobe",
+              "action": "On her personal break before an evening fitting, Taniya changes into the outfit she is collecting/trying on, with a deep neckline and exposed midriff. This is her own choice, not a wardrobe failure.",
+              "bodyParts": "Deep neckline, exposed midriff",
+              "actionName": "Deliberate neckline and midriff reveal"
+            },
+            {
+              "id": "TA4B-06",
+              "title": "The daring personal invitation",
+              "action": "Punit happens to be finishing the file sign-off in the adjacent reception area. Taniya knowingly invites his opinion on the look and proposes a brief close pose; Punit can decline without pressure.",
+              "actionName": "Deliberate close pose",
+              "reaction": "Her customary wit masks genuine curiosity about whether he sees her differently."
+            },
+            {
+              "id": "TA4B-07",
+              "title": "Chosen touch with clear agreement",
+              "action": "If Punit freely agrees to their private moment, she invites a brief bare-waist contact while they stand close, then ends it promptly. No photo taken, no kissing, no claims of future entitlement.",
+              "bodyParts": "Bare waist",
+              "actionName": "Consensual bare-waist contact",
+              "limits": "No coercion through manager/trainee hierarchy."
+            }
+          ],
+          "status": "LOCKED_OFFICE_CHOTU_ACTIONS__PROSE_NOT_APPROVED"
+        },
+        {
+          "id": "E04B-TANIYA-05",
+          "number": "05",
+          "start": "17:46",
+          "end": "19:30",
+          "title": "Complete the CA shift, no rushed return home",
+          "location": "CA office → scheduled exit",
+          "characters": [
+            "Taniya",
+            "Neha",
+            "Andrea"
+          ],
+          "beats": [
+            {
+              "id": "TA4B-08",
+              "title": "After-effect and proper exit",
+              "action": "Taniya returns to her working clothes or suitable professional cover, completes reconciliation and leaves at about 19:30 as her Jan1 shift established. Her own conflicting excitement and engagement remain distinct; society Guddu is not inserted into this office-only sequence."
+            }
+          ],
+          "status": "LOCKED_OFFICE_CHOTU_ACTIONS__PROSE_NOT_APPROVED"
+        }
+      ]
+    },
+    {
+      "id": "shreya",
+      "name": "Shreya",
+      "office": "Police station",
+      "chotu": {
+        "name": "Station Chotu (chai vendor, name not confirmed)",
+        "age": 23,
+        "role": "Station tea-service helper"
+      },
+      "workday": "09:00–17:45",
+      "wardrobe": "After-duty sleeveless civilian outfit with an intentionally striking neckline exposing cleavage, collarbone and shoulders; no uniform manipulation",
+      "lockedExposure": "Cleavage, shoulders, collarbone",
+      "lockedAction": "Intentional neckline display + consensual close frontal embrace",
+      "sceneIntent": "Shreya voluntarily drops the visible police role before pursuing any personal moment; power difference is kept real and explicit rather than treating the station helper as unable to refuse.",
+      "scenes": [
+        {
+          "id": "E04B-SHREYA-01",
+          "number": "01",
+          "start": "09:00",
+          "end": "11:16",
+          "title": "Station intake, case paperwork and team brief",
+          "location": "Police station duty area",
+          "characters": [
+            "Shreya",
+            "Poonam",
+            "Kavita"
+          ],
+          "beats": [
+            {
+              "id": "SR4B-01",
+              "title": "Station work first",
+              "action": "Shreya arrives on duty, handles normal administrative and policing responsibilities. No college or society twins have Jan2 appearances here."
+            }
+          ],
+          "status": "LOCKED_OFFICE_CHOTU_ACTIONS__PROSE_NOT_APPROVED"
+        },
+        {
+          "id": "E04B-SHREYA-02",
+          "number": "02",
+          "start": "11:16",
+          "end": "11:34",
+          "title": "Strong chai and the remembered observation",
+          "location": "Station authorized tea counter",
+          "characters": [
+            "Shreya",
+            "Station Chotu"
+          ],
+          "beats": [
+            {
+              "id": "SR4B-02",
+              "title": "Existing rapport",
+              "action": "The chai helper already knows her preference for strong tea from Jan1. He remembers her receipt and timed routines; no tipping-kettle accident or wrist safety rescue."
+            },
+            {
+              "id": "SR4B-03",
+              "title": "Her private curiosity",
+              "action": "Shreya finds herself testing whether he recognizes her only by uniform and rank, or also as a person. She says little while on duty and does not give him a personal instruction."
+            }
+          ],
+          "status": "LOCKED_OFFICE_CHOTU_ACTIONS__PROSE_NOT_APPROVED"
+        },
+        {
+          "id": "E04B-SHREYA-03",
+          "number": "03",
+          "start": "11:34",
+          "end": "15:10",
+          "title": "Case work and station coordination",
+          "location": "Police station",
+          "characters": [
+            "Shreya",
+            "Poonam",
+            "Anjali"
+          ],
+          "beats": [
+            {
+              "id": "SR4B-04",
+              "title": "No authority-driven intimacy",
+              "action": "Shreya completes official reporting and checks; any personal contact later must be off duty and genuinely optional for the helper."
+            }
+          ],
+          "status": "LOCKED_OFFICE_CHOTU_ACTIONS__PROSE_NOT_APPROVED"
+        },
+        {
+          "id": "E04B-SHREYA-04",
+          "number": "04",
+          "start": "15:10",
+          "end": "15:25",
+          "title": "A private decision, not a kettle accident",
+          "location": "Staff corridor / office",
+          "characters": [
+            "Shreya"
+          ],
+          "beats": [
+            {
+              "id": "SR4B-05",
+              "title": "Her chosen change",
+              "action": "During break she considers the civilian outfit she brought for after her shift. She deliberately postpones the personal moment until duty ends, rather than dressing provocatively while exercising police authority."
+            }
+          ],
+          "status": "LOCKED_OFFICE_CHOTU_ACTIONS__PROSE_NOT_APPROVED"
+        },
+        {
+          "id": "E04B-SHREYA-05",
+          "number": "05",
+          "start": "17:45",
+          "end": "18:07",
+          "title": "Beyond the uniform — after duty",
+          "location": "Police station public canteen seating / safe nearby staff exit",
+          "characters": [
+            "Shreya",
+            "Station Chotu"
+          ],
+          "beats": [
+            {
+              "id": "SR4B-06",
+              "title": "Presentation without uniform",
+              "action": "After booking off duty she changes to the chosen sleeveless civilian outfit; neckline, collarbone and shoulders are visibly different from her official appearance. She returns as herself, not as an officer issuing instructions.",
+              "bodyParts": "Cleavage, shoulders, collarbone",
+              "actionName": "Intentional neckline display"
+            },
+            {
+              "id": "SR4B-07",
+              "title": "An adult personal invitation",
+              "action": "Shreya asks whether the chai helper would like to speak personally for a minute; his ability to decline is respected. Their earlier work familiarity gives the exchange a grounded reason."
+            },
+            {
+              "id": "SR4B-08",
+              "title": "Deliberate voluntary contact",
+              "action": "If he freely agrees, she initiates a single close frontal embrace and steps away. She is unsettled by how actively she wanted his reaction rather than relying on her usual confident official self.",
+              "bodyParts": "Clothed torso, shoulders",
+              "actionName": "Consensual close frontal embrace",
+              "limits": "No kiss, no badge/authority pressure, no recording or public crowd."
+            }
+          ],
+          "status": "LOCKED_OFFICE_CHOTU_ACTIONS__PROSE_NOT_APPROVED"
+        },
+        {
+          "id": "E04B-SHREYA-06",
+          "number": "06",
+          "start": "18:07",
+          "end": "18:20",
+          "title": "Exit and separate private reflection",
+          "location": "Station exit",
+          "characters": [
+            "Shreya"
+          ],
+          "beats": [
+            {
+              "id": "SR4B-09",
+              "title": "Relationship state",
+              "action": "Shreya goes home without an assumed affair or promised next contact. Her existing husband Vikram, daughter Anaya and station duties are not erased."
+            }
+          ],
+          "status": "LOCKED_OFFICE_CHOTU_ACTIONS__PROSE_NOT_APPROVED"
+        }
+      ]
+    },
+    {
+      "id": "meenakshi",
+      "name": "Meenakshi",
+      "office": "Hospital",
+      "chotu": {
+        "name": "Naveen",
+        "age": 22,
+        "role": "Hospital administrative assistant"
+      },
+      "workday": "09:10–17:45",
+      "wardrobe": "A chosen off-duty sari with a deep neckline, visible cleavage, bare midriff and upper back; distinct from the clinical white coat and not the Jan1 Nikhil-surprise lingerie",
+      "lockedExposure": "Cleavage, bare midriff, upper back",
+      "lockedAction": "Deliberate sari-pallu reveal + consensual waist embrace",
+      "sceneIntent": "Meenakshi's self-awareness is mature and deliberate; she feels unsettled that she chose a private reaction from Naveen, without replacing the husband's Jan1 surprise or turning the previous rejected binder/first-aid plots into canon.",
+      "scenes": [
+        {
+          "id": "E04B-MEENAKSHI-01",
+          "number": "01",
+          "start": "09:10",
+          "end": "10:55",
+          "title": "Clinical work, quiet memory without invented accident",
+          "location": "Hospital wards and staff office",
+          "characters": [
+            "Meenakshi",
+            "Aditi",
+            "Rupa",
+            "Naveen (administrative only)"
+          ],
+          "beats": [
+            {
+              "id": "ME4B-01",
+              "title": "Doctor's duty first",
+              "action": "Meenakshi focuses on actual patient and ward responsibilities after an emotionally active Jan1. No twins at the hospital or in an after-work society visit."
+            },
+            {
+              "id": "ME4B-02",
+              "title": "Known colleague, unresolved Jan1 Naveen handoff",
+              "action": "Naveen is an established hospital assistant. January 1 14:15 interaction remains an unresolved earlier cutpoint; neither an accident nor any hidden intimacy from it is invented."
+            }
+          ],
+          "status": "LOCKED_OFFICE_CHOTU_ACTIONS__PROSE_NOT_APPROVED"
+        },
+        {
+          "id": "E04B-MEENAKSHI-02",
+          "number": "02",
+          "start": "11:00",
+          "end": "11:40",
+          "title": "M08 — shifted senior review remains fixed",
+          "location": "Senior review conference",
+          "characters": [
+            "Meenakshi",
+            "Kunal",
+            "Khurana"
+          ],
+          "beats": [
+            {
+              "id": "ME4B-03",
+              "title": "Locked shifted time",
+              "action": "The user-shifted M08 senior review goes from 11:00 to 11:40. It is not replaced by Chotu flirting or another medically implausible scene."
+            }
+          ],
+          "status": "LOCKED_OFFICE_CHOTU_ACTIONS__PROSE_NOT_APPROVED"
+        },
+        {
+          "id": "E04B-MEENAKSHI-03",
+          "number": "03",
+          "start": "11:45",
+          "end": "12:05",
+          "title": "Naveen's real administrative handover",
+          "location": "Administrative counter",
+          "characters": [
+            "Meenakshi",
+            "Naveen"
+          ],
+          "beats": [
+            {
+              "id": "ME4B-04",
+              "title": "Operational reason",
+              "action": "Naveen hands off approved review documents and wellness records, without a falling binder, missing page or fake emergency. She notices his attentive presence while checking the document dates."
+            },
+            {
+              "id": "ME4B-05",
+              "title": "An unresolved personal question",
+              "action": "Their routine conversation leaves Meenakshi wondering why she wants his attention outside the work he performs; she does not use senior clinical authority to obtain it."
+            }
+          ],
+          "status": "LOCKED_OFFICE_CHOTU_ACTIONS__PROSE_NOT_APPROVED"
+        },
+        {
+          "id": "E04B-MEENAKSHI-04",
+          "number": "04",
+          "start": "12:05",
+          "end": "17:15",
+          "title": "Rounds, case work, discharge documents",
+          "location": "Hospital clinical wing",
+          "characters": [
+            "Meenakshi",
+            "Rupa",
+            "Leena",
+            "Aditi"
+          ],
+          "beats": [
+            {
+              "id": "ME4B-06",
+              "title": "Work and family remain real",
+              "action": "Meenakshi finishes clinical duties, with Vihaan's childcare arranged offstage in ordinary family care. The abandoned Jan2 car-seat rivalry, Babloo hatch, repeated twin flirting and first-aid hand demonstration are NOT revived."
+            }
+          ],
+          "status": "LOCKED_OFFICE_CHOTU_ACTIONS__PROSE_NOT_APPROVED"
+        },
+        {
+          "id": "E04B-MEENAKSHI-05",
+          "number": "05",
+          "start": "17:15",
+          "end": "17:40",
+          "title": "The sari-pallu decision",
+          "location": "Hospital private staff changing → non-clinical administrative reception",
+          "characters": [
+            "Meenakshi",
+            "Naveen"
+          ],
+          "beats": [
+            {
+              "id": "ME4B-07",
+              "title": "Independent wardrobe choice",
+              "action": "After clinical duty Meenakshi dresses in her own selected sari with a deep neckline, bare midriff and upper back, while preserving normal changing-room privacy. Her sari-pallu drape is deliberately chosen; it is not accidentally pulled aside.",
+              "bodyParts": "Cleavage; bare midriff; upper back",
+              "actionName": "Deliberate sari-pallu reveal"
+            },
+            {
+              "id": "ME4B-08",
+              "title": "A personal question, outside patient care",
+              "action": "Meenakshi sees Naveen during final wellness paperwork at the nonclinical reception and chooses to ask if he is comfortable with a private, clearly personal moment. His reaction surprises her precisely because she intended to notice it."
+            },
+            {
+              "id": "ME4B-09",
+              "title": "Mutually agreed waist embrace",
+              "action": "If Naveen freely accepts the contact, she invites a single close waist embrace; it ends as soon as she releases him. This is her deliberately chosen gesture, not a nurse demonstration, duty-related touch, or proof of later consent.",
+              "bodyParts": "Waist",
+              "actionName": "Consensual waist embrace",
+              "limits": "No kiss; no patient spectators; no senior-pressure dynamic; no explicit exposure."
+            }
+          ],
+          "status": "LOCKED_OFFICE_CHOTU_ACTIONS__PROSE_NOT_APPROVED"
+        },
+        {
+          "id": "E04B-MEENAKSHI-06",
+          "number": "06",
+          "start": "17:40",
+          "end": "18:00",
+          "title": "Meenakshi leaves for family",
+          "location": "Hospital exit",
+          "characters": [
+            "Meenakshi"
+          ],
+          "beats": [
+            {
+              "id": "ME4B-10",
+              "title": "End without invented crossover",
+              "action": "She turns back toward Vihaan and Nikhil's household routine, privately surprised by the intentional choice she made; no Babloo society accident, twins, or work-related consequence is invented as a fact."
+            }
+          ],
+          "status": "LOCKED_OFFICE_CHOTU_ACTIONS__PROSE_NOT_APPROVED"
+        }
+      ]
+    }
+  ]
+}
