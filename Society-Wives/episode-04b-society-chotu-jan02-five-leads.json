@@ -4,9 +4,9 @@
   "title": "Society Wives · Episode 04B · Society Chotu after office: five distinct home/society encounters",
   "date": "2026-01-02",
   "timezone": "Asia/Kolkata",
-  "status": "NEW_AUTHOR_REQUESTED_SOCIETY_ESCALATION__PLOT_FOR_REVIEW_NOT_APPROVED_PROSE",
+  "status": "USER_REVISED_SHREYA_JAN02_SOCIETY_BROKEN_UNIFORM_CALLBACK__PLOT_FOR_REVIEW_NOT_PROSE",
   "scope": "Adds one short after-work society/helper track per lead, after each lead's pre-existing office Chotu scene and colleague encounters; preserves those existing scenes and their locks.",
-  "comparisonRule": "One step bolder in chosen visual styling and active adult agency relative to that lead's office scene; NOT a repeat of accidents, kissing, nude exposure or generic sustained embraces.",
+  "comparisonRule": "Station game is voluntary verbal flirting and then a consensual upper-back balm gesture; society callback is a deliberately staged, non-nude outer-shirt unbuttoning/removal with the SAME repaired uniform shirt Chintu saw snag at the door on Jan1.",
   "twins": "ABSENT_DAY2_ALL_FIVE",
   "chotuPairings": {
     "ankita": "Rinku",
@@ -25,7 +25,10 @@
     "Meenakshi's car stopped near the badminton court on Jan1; repair or movement must be checked, never silently assumed.",
     "Taniya exits CA firm 19:30; Ankita 18:15; Shivani 16:30; Shreya station 18:20; Meenakshi hospital 18:00.",
     "Office action locks from Jan2 remain intact. Society scenes are distinct from office settings and appear chronologically after them.",
-    "Soniya is a sixth woman on the shared society Guddu track and NOT one of these five; her prior author-corrected 1 Jan history remains separate."
+    "Soniya is a sixth woman on the shared society Guddu track and NOT one of these five; her prior author-corrected 1 Jan history remains separate.",
+    "The Jan1 Shreya uniform had TWO already loosened buttons and TWO actually broken buttons. Any Jan2 fastened look requires Shreya to have replacement buttons sewn in BEFORE she asks Chintu to check them; do not magically button missing buttons.",
+    "Station tea helper and society Chintu are different adult men. Shreya privately remembers her Jan1 accident but neither a photo nor CCTV disclosure exists in canon.",
+    "Shreya ends her station Chotu scene 18:35; her society Chintu encounter may start only after a believable commute, currently 19:42."
   ],
   "leads": [
     {
@@ -320,33 +323,38 @@
       "name": "Shreya",
       "chotu": "Chintu",
       "age": 23,
-      "officeExit": "18:20",
-      "societyWindow": "19:10–20:15",
-      "officeCarryover": "Station tea-helper scene has an off-duty civilian neckline display and consensual close frontal embrace. Chintu is instead the society security helper from the Jan1 broken-buttons incident.",
-      "visualSignature": "Intentional deep-back and sleeveless evening sari look, visible shoulders, upper back and side waist; avoids repeating yesterday's uniform-button accident.",
-      "chosenAction": "A purposeful still reveal and a brief mutually agreed side-waist framing hold—NO second front embrace or damaged shirt.",
-      "personalEscalation": "Shreya knows what happened to her uniform after the Jan1 latch incident but does not know exactly what Chintu saw; in her own chosen clothes she tests whether she can be seen without the accident defining the encounter.",
+      "officeExit": "18:35",
+      "societyWindow": "19:42–20:30",
+      "officeCarryover": "Station voluntary flirting game ended without the women provoking the chai helper. After duty Shreya requested a bounded upper-back balm application; her personal excitement is hers alone. Society Chintu has a separate and older Jan1 broken-uniform sightline, without access to that station incident.",
+      "visualSignature": "Same damaged-then-repaired khaki uniform outer shirt worn over a fully opaque camisole and trousers; she unfastens and slips off only that OUTER uniform, exposing shoulders and upper back while chest/lower body stay covered.",
+      "chosenAction": "Voluntary shirt-button check with two sewn-on replacement buttons, then Shreya herself unbuttons and removes outer uniform over opaque clothes; she teases Chintu and checks his reaction.",
+      "personalEscalation": "Shreya deliberately recreates the moment that embarrassed her on Jan1, except this time she decides exactly what to show and what to keep covered. Her own warm tingling and vulnerability are the payoff, not a fabricated witness or a voyeur shot.",
       "scenes": [
         {
           "id": "E04B-SOC-SR-01",
-          "start": "18:20",
-          "end": "19:07",
-          "title": "From station to society, not two places at once",
-          "location": "Station departure → Gulmohar Heights",
+          "start": "18:35",
+          "end": "19:35",
+          "title": "Station exit, family checkpoint and repaired shirt remembered",
+          "location": "Police station → society apartment entrance",
           "characters": [
             "Shreya",
-            "Chintu (guard duty)"
+            "Chintu (off-duty callback arranged)"
           ],
           "beats": [
             {
               "id": "SOC-SR-01",
-              "title": "Time and family anchor",
-              "action": "Shreya ends her station interaction by 18:20 and commutes. At home Anaya's care is separately arranged, Vikram's Jan2 return is not yet confirmed, and Arvind's private track must not be conflated with Chintu."
+              "title": "Post-shift time without teleporting",
+              "action": "Shreya leaves the station about 18:35 following the separately voluntary station Chotu scene, travels to Gulmohar Heights and checks that Anaya is being cared for by family in a separate space. The identity and exact Jan2 movements of the caregiver, Vikram and Arvind remain unresolved; the adult encounter is held away from Anaya."
             },
             {
               "id": "SOC-SR-02",
-              "title": "Prior personal history stays single",
-              "action": "Chintu is not new. He remembers the one Jan1 latch incident, and Shreya is aware of the unexpected button damage only after reaching home that evening. No invented follow-up view or second tearing incident."
+              "title": "The shirt is genuinely damaged",
+              "action": "She remembers the Jan1 corridor latch mishap: two upper buttons were deliberately loosened and two adjacent lower buttons broke. The source never established exactly what Chintu saw. The shirt has been retained, not casually treated as if those missing buttons still worked."
+            },
+            {
+              "id": "SOC-SR-02B",
+              "title": "Spare buttons and a non-work invitation",
+              "action": "Shreya has two spare replacement buttons sewn into the damaged shirt before this encounter, keeping that repair offstage rather than inventing how Chintu could fasten missing buttons. Chintu returns separately about the latch status, after his service duty; she asks whether he would be willing to help check the new buttons as a personal favour. He is free to say no."
             }
           ],
           "track": "SOCIETY_CHOTU",
@@ -354,10 +362,10 @@
         },
         {
           "id": "E04B-SOC-SR-02",
-          "start": "19:12",
-          "end": "19:32",
-          "title": "A chosen look without the uniform accident",
-          "location": "Society security-desk side corridor / publicly accessible foyer",
+          "start": "19:42",
+          "end": "20:06",
+          "title": "The broken uniform: she chooses a second view",
+          "location": "Shreya apartment entry dressing nook, away from family rooms",
           "characters": [
             "Shreya",
             "Chintu"
@@ -365,25 +373,34 @@
           "beats": [
             {
               "id": "SOC-SR-03",
-              "title": "Visual from choice, not damage",
-              "action": "Shreya returns in a deliberate sleeveless evening sari with open upper back, visible shoulders, a defined neckline and draped side waist. As she checks the visitor return confirmation, she deliberately stands without a shawl and turns enough for Chintu to see the styling rather than hiding the new outfit.",
-              "bodyParts": "Shoulders, collarbone, open upper back, side waist, neckline",
-              "actionName": "Intentional off-duty open-back reveal",
-              "sightline": "Accessible security/foyer area; no private home access or imagined voyeur"
+              "title": "The old uniform returns on purpose",
+              "action": "Shreya has deliberately put the very same repaired khaki uniform shirt over an opaque, secure camisole and trousers; the garment carries an unmistakable connection to yesterday's latch incident. A towel is loosely draped at the waist for her forthcoming change, but her body remains fully covered.",
+              "bodyParts": "Uniform neckline, shoulders; opaque camisole and trousers below",
+              "actionName": "Deliberate broken-uniform callback",
+              "continuity": "No torn fabric from a fresh accident; spare buttons were sewn in beforehand."
             },
             {
               "id": "SOC-SR-04",
-              "title": "An explicitly separate voluntary step",
-              "action": "After Chintu closes the register work, Shreya tentatively asks if he would be comfortable standing beside her for one brief, posed line-of-sight test; only if he accepts does she guide his hand to her side waist over the sari edge, then release and return to her evening.",
-              "bodyParts": "Side waist",
-              "actionName": "Consensual side-waist framing pose",
-              "limits": "No police rank pressure; no kiss, no second frontal embrace, no security camera footage treated as romance."
+              "title": "She requests buttoning and checks whether he remembers",
+              "action": "She asks Chintu if he can check whether the repaired front buttons close correctly. If he freely agrees, he fastens the two replacement buttons by their placket while she holds the shirt steady, carefully keeping his touch on fabric rather than her body. She lightly teases him about looking so alarmed the day before.",
+              "bodyParts": "Shirt-front placket only",
+              "actionName": "Consensual replacement-button check",
+              "reaction": "Chintu checks the repair and answers with surprised, respectful humor; neither can know what was seen yesterday beyond their own POV."
             },
             {
               "id": "SOC-SR-05",
-              "title": "A more difficult uncertainty",
-              "action": "Chintu's earlier shock had belonged to an accident; now Shreya knowingly observes his reaction to an outfit she selected. She cannot simply read his thoughts or conclude he saw more in the Jan1 incident than he admits.",
-              "psychological": "For Shreya, the controlled choice creates more vulnerability than the ripped-button scene."
+              "title": "She decides to undo what was just fastened",
+              "action": "Instead of a second accident, Shreya chooses to release the repaired buttons herself, slips the outer khaki shirt off her shoulders and keeps the opaque camisole and trousers/towel securely in place. She faces Chintu and intentionally asks whether he now understands that yesterday was an accident and tonight is her own choice to appear differently.",
+              "bodyParts": "Exposed shoulders and upper back; fully covered chest and lower body",
+              "actionName": "Voluntary outer-shirt removal over opaque layer",
+              "sightline": "Adult-only apartment entry nook, no child, elder, CCTV recording or public spectator."
+            },
+            {
+              "id": "SOC-SR-06",
+              "title": "The encounter actually changes her",
+              "action": "Chintu is momentarily speechless at her directness rather than claiming he saw a specific amount in the Jan1 accident; he responds with a small, gently teasing line, and she notices his gaze. Shreya experiences an unexpected warm rush, brief skin tingling and flushed self-awareness because she initiated the moment, then restores her shirt and ends the exchange.",
+              "psychological": "Her desired escalation is a personally chosen reversal of the earlier embarrassment, not unconsented nudity or compulsory contact.",
+              "limits": "No kissing, explicit breast/genital exposure, coercive job pressure, photographs, or voyeurism."
             }
           ],
           "track": "SOCIETY_CHOTU",
@@ -391,19 +408,19 @@
         },
         {
           "id": "E04B-SOC-SR-03",
-          "start": "19:32",
-          "end": "20:10",
-          "title": "The mother and officer continue home",
-          "location": "Shreya apartment / family-only routine",
+          "start": "20:06",
+          "end": "20:30",
+          "title": "After Chintu leaves: warmth and the household return",
+          "location": "Shreya's family apartment",
           "characters": [
             "Shreya",
-            "Anaya (family care only)"
+            "Anaya (family-only after encounter)"
           ],
           "beats": [
             {
-              "id": "SOC-SR-06",
-              "title": "Child care remains nonsexual",
-              "action": "Shreya returns to Anaya and her normal household responsibilities. Anaya is never present during or referenced inside the adult Chintu interaction; Sameer/Shruti's Jan2 return dates remain undefined; no twins."
+              "id": "SOC-SR-07",
+              "title": "Family is real, not a disappearance",
+              "action": "Chintu leaves, Shreya dresses privately and checks on Anaya. Her husband Vikram's Jan2 schedule and other relatives' locations are not invented; Shreya's internal warm/tingling after-effect remains private and non-graphic. Twins absent."
             }
           ],
           "track": "SOCIETY_CHOTU",
