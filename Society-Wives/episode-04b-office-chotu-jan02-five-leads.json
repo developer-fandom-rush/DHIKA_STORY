@@ -5,9 +5,9 @@
   "date": "2026-01-02",
   "weekday": "Friday",
   "timezone": "Asia/Kolkata",
-  "status": "AUTHOR_APPROVED_ACTIONS__PLOTTED_DAY_NOT_APPROVED_PROSE",
+  "status": "USER_REVISED_SHREYA_JAN02_ENCOUNTERS__OFFICE_AND_SOCIETY_CONTINUITY_PLOTTED__PROSE_NOT_APPROVED",
   "scope": "Office/workday plots for Ankita, Shivani, Taniya, Shreya, Meenakshi only. Does NOT overwrite separate society/helper plans or approved previous episodes.",
-  "approvedActionLock": "Ankita—intentional neckline/waist reveal and consensual waist hold; Shivani—front-facing reveal, slow turn, consensual upper-back caress; Taniya—deliberate neckline/midriff reveal, close pose, consensual waist contact; Shreya—intentional neckline display and consensual frontal embrace; Meenakshi—deliberate sari-pallu reveal and consensual waist embrace. No kissing.",
+  "approvedActionLock": "Ankita—intentional neckline/waist reveal and consensual waist hold; Shivani—front-facing reveal, slow turn, consensual upper-back caress; Taniya—deliberate neckline/midriff reveal, close pose, consensual waist contact; Shreya—after-duty voluntary verbal charm challenge and intentional upper-back reveal/consensual balm application; Meenakshi—deliberate sari-pallu reveal and consensual waist embrace. No kissing.",
   "twins": {
     "policy": "ABSENT_02JAN_OFFICE_DAY_FOR_ALL_FIVE",
     "reference": "Dhika original Episode 04 'First Show' has zero scenes or interactions with twins.",
@@ -32,7 +32,9 @@
     "Preserve 1 January approved prior source scenes, their outfits and knowledge states; Jan2 outfits may differ as separate choice.",
     "Meenakshi's user-shifted M08 remains 2 January 11:00–11:40; her Jan1 Naveen cutpoint remains unresolved, not silently completed.",
     "Taniya's established nine-hour CA shift ends 19:30; Shreya changes only after booking off duty; Shivani student audience excluded.",
-    "Do not insert twins into any 2 January office plots; source Dhika Episode 04 first show had none."
+    "Do not insert twins into any 2 January office plots; source Dhika Episode 04 first show had none.",
+    "Shreya's 'Seduce Him' is a private voluntary acting game after duty, NOT official police training or a mandatory seduction assignment; the station chai helper must agree and be free to refuse.",
+    "Shreya's 1 Jan torn shirt was witnessed only by society Chintu; station Chotu never saw it and cannot know it through a fabricated photograph."
   ],
   "leads": [
     {
@@ -822,11 +824,11 @@
         "age": 23,
         "role": "Station tea-service helper"
       },
-      "workday": "09:00–17:45",
+      "workday": "09:00–17:45 duty; remains at station voluntarily until 18:35",
       "wardrobe": "After-duty sleeveless civilian outfit with an intentionally striking neckline exposing cleavage, collarbone and shoulders; no uniform manipulation",
-      "lockedExposure": "Cleavage, shoulders, collarbone",
-      "lockedAction": "Intentional neckline display + consensual close frontal embrace",
-      "sceneIntent": "Shreya voluntarily drops the visible police role before pursuing any personal moment; power difference is kept real and explicit rather than treating the station helper as unable to refuse.",
+      "lockedExposure": "After-duty sleeveless civilian top with exposed shoulders and upper back; no explicit exposure",
+      "lockedAction": "Voluntary 'Seduce Him' group acting challenge (no success); Shreya's willing upper-back balm application with station Chotu",
+      "sceneIntent": "Shreya separates officer authority from private agency: four adult women voluntarily try different verbal charm styles without pressuring the chai helper; only later, after duty and away from group, she knowingly initiates one bounded personal upper-back touch and feels unexpectedly stirred.",
       "scenes": [
         {
           "id": "E04B-SHREYA-01",
@@ -900,7 +902,7 @@
           "number": "04",
           "start": "15:10",
           "end": "15:25",
-          "title": "A private decision, not a kettle accident",
+          "title": "A voluntary after-duty charm exercise is proposed",
           "location": "Staff corridor / office",
           "characters": [
             "Shreya"
@@ -908,8 +910,13 @@
           "beats": [
             {
               "id": "SR4B-05",
-              "title": "Her chosen change",
-              "action": "During break she considers the civilian outfit she brought for after her shift. She deliberately postpones the personal moment until duty ends, rather than dressing provocatively while exercising police authority."
+              "title": "Not official police training",
+              "action": "During an ordinary break Shreya proposes an informal after-duty acting exercise called 'Seduce Him' to four adult colleagues. It is an optional theatrical flirting challenge, not a police instruction or evaluation; no one is assigned a task, including the chai helper."
+            },
+            {
+              "id": "SR4B-05B",
+              "title": "Consent and roles",
+              "action": "Kavita, Meera, Poonam, Anjali and the station tea helper may opt out with no consequences. He is told the premise before any teasing starts, and nobody uses uniform, badge or authority to pressure him."
             }
           ],
           "status": "LOCKED_OFFICE_CHOTU_ACTIONS__PROSE_NOT_APPROVED"
@@ -918,33 +925,54 @@
           "id": "E04B-SHREYA-05",
           "number": "05",
           "start": "17:45",
-          "end": "18:07",
-          "title": "Beyond the uniform — after duty",
-          "location": "Police station public canteen seating / safe nearby staff exit",
+          "end": "18:10",
+          "title": "Seduce Him — a voluntary acting challenge",
+          "location": "After-duty staff tea corner, publicly accessible exit nearby",
           "characters": [
-            "Shreya",
-            "Station Chotu"
+            "Shreya (off duty)",
+            "Kavita (voluntary participant)",
+            "Meera (voluntary participant)",
+            "Poonam (voluntary participant)",
+            "Anjali (voluntary participant)",
+            "Station Chotu (voluntary participant)"
           ],
           "beats": [
             {
               "id": "SR4B-06",
-              "title": "Presentation without uniform",
-              "action": "After booking off duty she changes to the chosen sleeveless civilian outfit; neckline, collarbone and shoulders are visibly different from her official appearance. She returns as herself, not as an officer issuing instructions.",
-              "bodyParts": "Cleavage, shoulders, collarbone",
-              "actionName": "Intentional neckline display"
+              "title": "A playful proposition, not a command",
+              "action": "At the end of duty, Shreya suggests a short acting-game experiment among willing adults. Each volunteer tries a different style of flirtatious conversation with the chai helper, who explicitly accepts the game but is free to stop.",
+              "actionName": "Voluntary flirting challenge",
+              "limits": "No official training credit, compelled participation, grade, touching, or humiliation."
             },
             {
               "id": "SR4B-07",
-              "title": "An adult personal invitation",
-              "action": "Shreya asks whether the chai helper would like to speak personally for a minute; his ability to decline is respected. Their earlier work familiarity gives the exchange a grounded reason."
+              "title": "Kavita — bold humor",
+              "action": "Kavita tries a mischievous, witty compliment. The tea helper replies with a dry observation and continues pouring tea, unfazed.",
+              "reaction": "Kavita laughs; no romantic success or coerced attraction."
             },
             {
               "id": "SR4B-08",
-              "title": "Deliberate voluntary contact",
-              "action": "If he freely agrees, she initiates a single close frontal embrace and steps away. She is unsettled by how actively she wanted his reaction rather than relying on her usual confident official self.",
-              "bodyParts": "Clothed torso, shoulders",
-              "actionName": "Consensual close frontal embrace",
-              "limits": "No kiss, no badge/authority pressure, no recording or public crowd."
+              "title": "Meera — gentle sincerity",
+              "action": "Meera tests a quiet, gracious tone and thanks him for remembering everyone's order. He smiles warmly but treats her as a valued colleague, not a flirtation invitation.",
+              "reaction": "She accepts his kindness without treating it as a failed person."
+            },
+            {
+              "id": "SR4B-09",
+              "title": "Poonam — direct confidence",
+              "action": "Poonam delivers one direct personal compliment and holds eye contact. He answers politely but keeps the conversation ordinary.",
+              "reaction": "Poonam leaves amused rather than embarrassed; prior ACP Verma dynamic is not disclosed."
+            },
+            {
+              "id": "SR4B-10",
+              "title": "Anjali — clever banter",
+              "action": "Anjali's administrative wit turns the encounter into an exchange about who reads people better. He returns an equally clever line, keeping his composure.",
+              "reaction": "No one forces him to choose a winner; the four approaches differ."
+            },
+            {
+              "id": "SR4B-11",
+              "title": "Shreya notices an untouched question",
+              "action": "Seeing the four voluntary attempts not unsettle him, Shreya remembers the Jan1 accidental torn-uniform moment with SOCIETY Chintu—not a scene witnessed by this STATION chai helper. She wonders whether the difference is self-presentation rather than a script.",
+              "continuity": "No invented photo, CCTV clip or shared knowledge of Jan1 Chintu accident."
             }
           ],
           "status": "LOCKED_OFFICE_CHOTU_ACTIONS__PROSE_NOT_APPROVED"
@@ -952,18 +980,37 @@
         {
           "id": "E04B-SHREYA-06",
           "number": "06",
-          "start": "18:07",
-          "end": "18:20",
-          "title": "Exit and separate private reflection",
-          "location": "Station exit",
+          "start": "18:10",
+          "end": "18:35",
+          "title": "Shreya's private, willing upper-back gesture",
+          "location": "Staff-side refreshment alcove near station exit; female coworkers remain elsewhere",
           "characters": [
-            "Shreya"
+            "Shreya (off duty)",
+            "Station Chotu"
           ],
           "beats": [
             {
-              "id": "SR4B-09",
-              "title": "Relationship state",
-              "action": "Shreya goes home without an assumed affair or promised next contact. Her existing husband Vikram, daughter Anaya and station duties are not erased."
+              "id": "SR4B-12",
+              "title": "A new private invitation",
+              "action": "With the other four women outside the alcove, Shreya is already changed into a sleeveless civilian top and trousers. She privately asks Chotu if he is comfortable helping apply a small amount of her own muscle-relief balm to the upper shoulder-blade area after the previous day's physical training. He may refuse freely and is not acting under an officer's order.",
+              "bodyParts": "Exposed shoulders and upper back, civilian outfit",
+              "actionName": "Deliberate upper-back reveal",
+              "limits": "She remains clothed and appropriately covered; no patient, trainee or child is present."
+            },
+            {
+              "id": "SR4B-13",
+              "title": "A defined, welcomed contact",
+              "action": "Only after he agrees, Shreya turns away and moves her hair aside. He applies the balm briefly to her upper back; she checks his response through a short question and a glance rather than a camera or a witness.",
+              "bodyParts": "Upper back/shoulder blades",
+              "actionName": "Consensual upper-back balm application",
+              "reaction": "He remains careful and attentive; one momentary personal pause is visible but not a declaration of desire."
+            },
+            {
+              "id": "SR4B-14",
+              "title": "Heat without forced escalation",
+              "action": "Shreya notices an involuntary wave of warmth, quickened breathing and self-conscious excitement, surprising herself because she intentionally invited the encounter. She thanks him, repositions her outer layer and leaves. The interaction ends there.",
+              "psychological": "Compared with the group challenge, she values the fact that she made a personal choice instead of giving an instruction.",
+              "limits": "No kissing, explicit exposure, genital/breast touching or new promise."
             }
           ],
           "status": "LOCKED_OFFICE_CHOTU_ACTIONS__PROSE_NOT_APPROVED"
