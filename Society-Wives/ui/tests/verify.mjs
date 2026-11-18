@@ -14,6 +14,21 @@ for(const lead of ['ankita','shivani','taniya','soniya','meenakshi','shreya'])as
 for(const filename of ['episode-04a-ankita-plan.json','episode-04a-shivani-plan.json','episode-04a-shreya-night-plan.json','episode-04a-taniya-soniya-night-review.json'])assert.ok(read(filename).scenes.length,'Episode 04A plot missing: '+filename);
 assert.equal(read('episode-04-chotu-six-leads-review.json').leads.length,5);
 assert.equal(read('episode-04b-ankita-chotu-archive.json').tracks.length,2);
+const office04b=read('episode-04b-office-chotu-jan02-five-leads.json');
+assert.equal(office04b.date,'2026-01-02');
+assert.equal(office04b.leads.length,5);
+const officePairings={ankita:'Rohit',shivani:'Sunny',taniya:'Punit',shreya:'Station Chotu',meenakshi:'Naveen'};
+for(const [lead,chotu] of Object.entries(officePairings)){
+ const plan=office04b.leads.find(x=>x.id===lead);
+ assert.ok(plan,'Jan 2 office Chotu plot missing '+lead);
+ assert.ok(plan.chotu.name.includes(chotu),'wrong office Chotu for '+lead);
+ assert.ok(plan.scenes.length>=5,'incomplete Jan 2 office day for '+lead);
+ assert.ok(plan.scenes.some(x=>x.beats.some(b=>/waist|shoulder|neckline|sari.pallu/i.test(b.actionName||''))),'missing deliberate physical action for '+lead);
+ assert.ok(!/\\bkiss(?:ing)?\\b/i.test(plan.scenes.flatMap(x=>x.beats).map(b=>b.actionName||'').join(' ')),'kiss action should be excluded');
+}
+assert.ok(!/\\b(Karan|Aman|Uday|Utkarsh|Samar|Shaan|Harsh|Laksh)\\b/.test(office04b.leads.flatMap(l=>l.scenes.map(x=>JSON.stringify([x.characters,x.beats]))).join(' ')),'twins must be entirely absent from Jan 2 office scene casts/actions');
+assert.match(read('episode-04b-meenakshi-jan02-discussion-plan.json').status,/REJECTED/,'previous Meenakshi proposal must remain rejected');
+
 const app=source('App.tsx'),reading=source('Reading.tsx'),planning=source('Planning.tsx');
 assert.ok(app.includes("['reading','Read Story']")&&app.includes("['planning','Episode 04 Plot']"));
 assert.ok(reading.includes('EpisodeSelector')&&reading.includes("episode==='01'")&&reading.includes("episode==='03'"));
