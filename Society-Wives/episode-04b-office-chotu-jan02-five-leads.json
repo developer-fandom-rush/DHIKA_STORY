@@ -175,6 +175,125 @@
           ],
           "status": "LOCKED_OFFICE_CHOTU_ACTIONS__PROSE_NOT_APPROVED"
         }
+      ],
+      "secondaryEncounters": [
+        {
+          "id": "E04B-ANKITA-PAR-01",
+          "number": "P01",
+          "start": "09:42",
+          "end": "10:03",
+          "title": "The presentation she does not need to prove",
+          "location": "IT release test area",
+          "characters": [
+            "Ankita",
+            "Vivan",
+            "Priya Nair"
+          ],
+          "beats": [
+            {
+              "id": "ANK-P01A",
+              "title": "QA reality",
+              "action": "A patch review needs Ankita's release decision. Vivan explains the new interaction path; Priya's acceptance test is the practical reason all three stand at the demo screen."
+            },
+            {
+              "id": "ANK-P01B",
+              "title": "Ankita and Vivan—chosen proximity",
+              "action": "Vivan keeps his distance despite yesterday's unusually playful group dance and rescue. Ankita knowingly pulls a second chair alongside him instead of discussing the UI from across the table; his lower, confidential remark about her calm under pressure draws an amused private response.",
+              "physical": "Two adults willingly sit close; no second fall, waist rescue, exposed-body accident or photos.",
+              "psychological": "Ankita tests whether she can stay composed when she chooses the closeness; it is not proof of a relationship."
+            }
+          ],
+          "track": "OTHER_COLLEAGUES",
+          "status": "NEW_PARALLEL_SCENE_PROPOSAL_NOT_FINAL_PROSE",
+          "continuityNote": "January 1 Vivan/Reyansh dance, fall and rescue have already happened; these are remembered, not repeated."
+        },
+        {
+          "id": "E04B-ANKITA-PAR-02",
+          "number": "P02",
+          "start": "11:43",
+          "end": "12:02",
+          "title": "Ira and Reyansh: the design review becomes personal",
+          "location": "Design table / staff collaboration room",
+          "characters": [
+            "Ira Mehta",
+            "Reyansh"
+          ],
+          "beats": [
+            {
+              "id": "ANK-P02A",
+              "title": "Independent female character",
+              "action": "Ira discovers a contrast issue in Reyansh's design handoff and requests an unscheduled peer review. Both are adult designers, neither works under the other's authority."
+            },
+            {
+              "id": "ANK-P02B",
+              "title": "Quiet charge after the fix",
+              "action": "Reyansh lets Ira take his chair to inspect the preview. She returns it with a playful comment that he is more attentive in person than over chat. He responds with unusual directness; they share a meaningful pause and agree to continue the design debate over coffee after work.",
+              "physical": "Intentional shoulder-to-shoulder screen review only; no sexual contact presumed.",
+              "psychological": "Ira feels mildly flattered but makes no promise or public announcement."
+            }
+          ],
+          "track": "OTHER_COLLEAGUES",
+          "status": "NEW_PARALLEL_SCENE_PROPOSAL_NOT_FINAL_PROSE",
+          "continuityNote": "New potential peer chemistry; neither is assumed to be a couple."
+        },
+        {
+          "id": "E04B-ANKITA-PAR-03",
+          "number": "P03",
+          "start": "13:42",
+          "end": "14:04",
+          "title": "Ankita and Reyansh: the unsaid yesterday",
+          "location": "Empty client-demo room before next booking",
+          "characters": [
+            "Ankita",
+            "Reyansh"
+          ],
+          "beats": [
+            {
+              "id": "ANK-P03A",
+              "title": "Real follow-through",
+              "action": "During a feature walkthrough Reyansh asks whether the team should adjust the interface before a client call. Ankita leads the professional decision."
+            },
+            {
+              "id": "ANK-P03B",
+              "title": "A deliberate pause, not another accident",
+              "action": "After the client leaves, Ankita lightly alludes to how quickly Reyansh caught her the previous day. He answers that he only wanted her safe. She holds his gaze for a moment and deliberately lets the personal tension remain rather than dismissing it as a joke.",
+              "physical": "No repeat abdomen grip, rescue, waist touch or deliberate clothing malfunction.",
+              "reaction": "Reyansh is surprised she remembers; Ankita sees the effect without claiming he agreed to more."
+            }
+          ],
+          "track": "OTHER_COLLEAGUES",
+          "status": "NEW_PARALLEL_SCENE_PROPOSAL_NOT_FINAL_PROSE",
+          "continuityNote": "Respects Episode 03 Reyansh direct abdomen contact and her completed recovery."
+        },
+        {
+          "id": "E04B-ANKITA-PAR-04",
+          "number": "P04",
+          "start": "17:00",
+          "end": "17:20",
+          "title": "Sana and Vivan: no one is staging a second dance",
+          "location": "QA desk / office lounge",
+          "characters": [
+            "Sana Khan",
+            "Vivan"
+          ],
+          "beats": [
+            {
+              "id": "ANK-P04A",
+              "title": "End-of-day QA close",
+              "action": "Sana and Vivan reconcile the last test case. The mischievous group energy of January 1 is familiar, but no office dance, fall or prank recurs."
+            },
+            {
+              "id": "ANK-P04B",
+              "title": "Two adults notice a separate spark",
+              "action": "Sana offers a deliberately cheeky private compliment about Vivan staying late to fix her bug; he counters with a personal invitation to join a casual group tea after sign-off. She says the bug fix comes first and leaves him smiling.",
+              "physical": "No invasive touching, new kiss or implied after-hours sexual encounter.",
+              "psychological": "This is Sana's own tentative interest, not an extension of Ankita's POV."
+            }
+          ],
+          "track": "OTHER_COLLEAGUES",
+          "status": "NEW_PARALLEL_SCENE_PROPOSAL_NOT_FINAL_PROSE",
+          "continuityNote": "Sana previously teased Vivan and Reyansh in the Jan1 group; first personal follow-up, not a second party rehearsal."
+        }
       ]
     },
     {
@@ -310,6 +429,124 @@
             }
           ],
           "status": "LOCKED_OFFICE_CHOTU_ACTIONS__PROSE_NOT_APPROVED"
+        }
+      ],
+      "secondaryEncounters": [
+        {
+          "id": "E04B-SHIVANI-PAR-01",
+          "number": "P01",
+          "start": "09:07",
+          "end": "09:26",
+          "title": "Shivani and Aarav: two faculty voices",
+          "location": "Faculty office",
+          "characters": [
+            "Shivani",
+            "Dr. Aarav Sethi"
+          ],
+          "beats": [
+            {
+              "id": "SHI-P01A",
+              "title": "A realistic academic exchange",
+              "action": "Aarav brings revised prose for the cultural programme and asks Shivani to check the on-stage transitions before print. They are adult faculty peers."
+            },
+            {
+              "id": "SHI-P01B",
+              "title": "The subtle test",
+              "action": "He admires her ability to make an auditorium fall silent. Shivani counters that silence is harder to win from one person at a table. He understands the double meaning, meets her eye and then lets the conversation return to the script.",
+              "physical": "Mutually chosen closeness at a shared programme sheet, no teacher/student dynamic or shoulder contact.",
+              "psychological": "Shivani likes that Aarav is not intimidated by her sharper humour."
+            }
+          ],
+          "track": "OTHER_COLLEAGUES",
+          "status": "NEW_PARALLEL_SCENE_PROPOSAL_NOT_FINAL_PROSE",
+          "continuityNote": "Aarav's earlier tentative attraction is only a seed; no established affair."
+        },
+        {
+          "id": "E04B-SHIVANI-PAR-02",
+          "number": "P02",
+          "start": "11:38",
+          "end": "11:58",
+          "title": "Kriti and Aarav: rehearsal chemistry",
+          "location": "Staff-only cultural rehearsal area",
+          "characters": [
+            "Kriti",
+            "Dr. Aarav Sethi"
+          ],
+          "beats": [
+            {
+              "id": "SHI-P02A",
+              "title": "Independent staff colleagues",
+              "action": "Kriti needs Aarav to read his faculty cue as she times the sequence. They work as equals and voluntarily try the two-person opening position."
+            },
+            {
+              "id": "SHI-P02B",
+              "title": "A look that lasts",
+              "action": "Kriti steps into the marked space beside Aarav, both square to the stage, and they briefly join hands for a ceremonial introduction pose. When the cue ends they release, smile and privately agree they were more conscious of each other than expected.",
+              "physical": "One explicitly welcomed ceremonial hand clasp for rehearsal, not Shivani/Sunny's separate back contact.",
+              "psychological": "Kriti's attraction is an optional author-proposed possibility, not source-established romance."
+            }
+          ],
+          "track": "OTHER_COLLEAGUES",
+          "status": "NEW_PARALLEL_SCENE_PROPOSAL_NOT_FINAL_PROSE",
+          "continuityNote": "Kriti and Aarav are new peer-pair seeds, not twins or students."
+        },
+        {
+          "id": "E04B-SHIVANI-PAR-03",
+          "number": "P03",
+          "start": "13:30",
+          "end": "13:48",
+          "title": "Pooja sees the change in Shivani",
+          "location": "Faculty pantry",
+          "characters": [
+            "Shivani",
+            "Pooja",
+            "Kriti"
+          ],
+          "beats": [
+            {
+              "id": "SHI-P03A",
+              "title": "Women's own voices",
+              "action": "Pooja and Kriti discuss the faculty programme's costumes and who seems unusually invested in rehearsals. Shivani joins with her habitual teasing but refuses to explain a private reaction."
+            },
+            {
+              "id": "SHI-P03B",
+              "title": "An honest near-confession",
+              "action": "Pooja observes that Shivani keeps finding reasons to continue a conversation with Aarav; Shivani says she just likes someone who can answer back. Kriti has her own independent read of Aarav's composure.",
+              "psychological": "A small, realistic female-friend/colleague reflection; not a choreographed jealousy confrontation."
+            }
+          ],
+          "track": "OTHER_COLLEAGUES",
+          "status": "NEW_PARALLEL_SCENE_PROPOSAL_NOT_FINAL_PROSE",
+          "continuityNote": "Shivani does not learn the earlier phone-photo violation. Nothing is made into a students' rumour."
+        },
+        {
+          "id": "E04B-SHIVANI-PAR-04",
+          "number": "P04",
+          "start": "15:53",
+          "end": "16:12",
+          "title": "Shivani and Aarav: after the proper rehearsal",
+          "location": "Closed faculty review corner, not a hidden room",
+          "characters": [
+            "Shivani",
+            "Dr. Aarav Sethi"
+          ],
+          "beats": [
+            {
+              "id": "SHI-P04A",
+              "title": "Different from Sunny",
+              "action": "Sunny's dedicated Chotu scene has finished. Aarav arrives to sign a faculty-only script proof, not to adjust Shivani's costume or repeat a stage-body display."
+            },
+            {
+              "id": "SHI-P04B",
+              "title": "Two confident colleagues negotiate a personal note",
+              "action": "Shivani tells Aarav his earlier remark about holding an audience bothered her because she thought about it all afternoon. Aarav replies that he meant to compliment her discipline, but did notice her as a woman too. Both understand the boundary and end on a deliberate mutual smile.",
+              "physical": "No upper-back caress, mic adjustment, staged physical rescue or unsolicited touch.",
+              "psychological": "She is not automatically shy; she dislikes that she cannot easily read what he wants."
+            }
+          ],
+          "track": "OTHER_COLLEAGUES",
+          "status": "NEW_PARALLEL_SCENE_PROPOSAL_NOT_FINAL_PROSE",
+          "continuityNote": "Aarav remains a colleague rather than Sunny's substitute Chotu."
         }
       ]
     },
@@ -455,6 +692,124 @@
             }
           ],
           "status": "LOCKED_OFFICE_CHOTU_ACTIONS__PROSE_NOT_APPROVED"
+        }
+      ],
+      "secondaryEncounters": [
+        {
+          "id": "E04B-TANIYA-PAR-01",
+          "number": "P01",
+          "start": "11:06",
+          "end": "11:27",
+          "title": "Raghav and Taniya: the drawer is history",
+          "location": "CA firm audit desk",
+          "characters": [
+            "Taniya",
+            "Raghav"
+          ],
+          "beats": [
+            {
+              "id": "TAN-P01A",
+              "title": "Audit task",
+              "action": "Raghav presents a revised client discrepancy explanation. She checks his figures and stops a speculative assumption before sign-off."
+            },
+            {
+              "id": "TAN-P01B",
+              "title": "Charged acknowledgment",
+              "action": "When Raghav mentions the previous day's filing-drawer chaos, Taniya responds that he should be glad he was more reliable than the cabinet. He answers that she surprised him by trusting him, and she lets the eye contact remain a moment longer than strictly necessary.",
+              "physical": "No second collapsing drawer or waist-saving touch.",
+              "psychological": "Their new tension is both remembering the unexpected closeness, not needing a new collision."
+            }
+          ],
+          "track": "OTHER_COLLEAGUES",
+          "status": "NEW_PARALLEL_SCENE_PROPOSAL_NOT_FINAL_PROSE",
+          "continuityNote": "January 1 Raghav supported Taniya's clothed waist once; don't retell it as a fresh event."
+        },
+        {
+          "id": "E04B-TANIYA-PAR-02",
+          "number": "P02",
+          "start": "13:34",
+          "end": "13:54",
+          "title": "Neha and Raghav: a different kind of teasing",
+          "location": "Shared analytics workstation",
+          "characters": [
+            "Neha",
+            "Raghav"
+          ],
+          "beats": [
+            {
+              "id": "TAN-P02A",
+              "title": "Peer cooperation",
+              "action": "Neha needs Raghav to verify an audit-trail formula. Their work roles are comparable and they share access to the check sheet."
+            },
+            {
+              "id": "TAN-P02B",
+              "title": "Two-person flirt",
+              "action": "Neha jokes that Raghav is unusually thorough only when someone is watching. He responds that she could stay and test the theory; she deliberately keeps her chair beside his for the next five minutes while finishing the actual work.",
+              "physical": "A voluntary close-seated working interaction, no staged touch or implied couple status.",
+              "psychological": "Neha is curious whether he meant it personally and chooses not to resolve the ambiguity yet."
+            }
+          ],
+          "track": "OTHER_COLLEAGUES",
+          "status": "NEW_PARALLEL_SCENE_PROPOSAL_NOT_FINAL_PROSE",
+          "continuityNote": "Optional mutual peer interest; not an already approved romance."
+        },
+        {
+          "id": "E04B-TANIYA-PAR-03",
+          "number": "P03",
+          "start": "15:13",
+          "end": "15:34",
+          "title": "Andrea and Chirag: after yesterday's cheek peck",
+          "location": "CA firm's staff coffee corner",
+          "characters": [
+            "Andrea",
+            "Chirag"
+          ],
+          "beats": [
+            {
+              "id": "TAN-P03A",
+              "title": "Acknowledge the existing beat",
+              "action": "Andrea and Chirag review the document they solved together yesterday. Both remember that she gave him a celebratory cheek peck on January 1, which remains a single completed earlier event."
+            },
+            {
+              "id": "TAN-P03B",
+              "title": "Choice rather than a repeat kiss",
+              "action": "Andrea asks whether he thought she crossed a line. Chirag says he was surprised but not uncomfortable. She smiles, offers him her hand as a simple personal gesture after they finish the work, and he chooses to take it briefly.",
+              "physical": "Brief mutually welcomed hand clasp; absolutely no second cheek kiss or forced escalation.",
+              "psychological": "They acknowledge their separate mutual possibility without changing the office team's dynamic into a confirmed couple."
+            }
+          ],
+          "track": "OTHER_COLLEAGUES",
+          "status": "NEW_PARALLEL_SCENE_PROPOSAL_NOT_FINAL_PROSE",
+          "continuityNote": "January 1 Andrea–Chirag kiss-on-cheek is established. New scene carries that forward rather than replaying it."
+        },
+        {
+          "id": "E04B-TANIYA-PAR-04",
+          "number": "P04",
+          "start": "18:12",
+          "end": "18:34",
+          "title": "Taniya and Chirag: a different mirror",
+          "location": "CA firm closeout room",
+          "characters": [
+            "Taniya",
+            "Chirag"
+          ],
+          "beats": [
+            {
+              "id": "TAN-P04A",
+              "title": "Close of the audit",
+              "action": "Chirag asks Taniya to sign a recovered exception summary after her planned Punit break. She is visibly back in full work mode and the ledger is accurate."
+            },
+            {
+              "id": "TAN-P04B",
+              "title": "Unexpectedly personal conversation",
+              "action": "Chirag notices she seems more reflective than she did at morning's wedding jokes; she replies she can be both an exacting auditor and a woman who enjoys a compliment. Chirag offers a modest, non-invasive response and she teasingly thanks him for not sounding like a client.",
+              "physical": "No touch or secret kiss; Taniya's engagement to Aditya remains unchanged.",
+              "psychological": "Unlike with Raghav, Chirag's appeal is his restraint and candid listening."
+            }
+          ],
+          "track": "OTHER_COLLEAGUES",
+          "status": "NEW_PARALLEL_SCENE_PROPOSAL_NOT_FINAL_PROSE",
+          "continuityNote": "Don't overwrite Taniya's 19:30 established office shift end or Aditya engagement."
         }
       ]
     },
@@ -612,6 +967,125 @@
             }
           ],
           "status": "LOCKED_OFFICE_CHOTU_ACTIONS__PROSE_NOT_APPROVED"
+        }
+      ],
+      "secondaryEncounters": [
+        {
+          "id": "E04B-SHREYA-PAR-01",
+          "number": "P01",
+          "start": "09:52",
+          "end": "10:12",
+          "title": "Shreya and Rohas: attention under discipline",
+          "location": "Station training office",
+          "characters": [
+            "Shreya",
+            "Rohas"
+          ],
+          "beats": [
+            {
+              "id": "SHR-P01A",
+              "title": "Police training assignment",
+              "action": "Rohas returns a completed training roster after yesterday's group challenge. Shreya checks timings and corrects one procedural detail; no unnecessary fitness demonstration."
+            },
+            {
+              "id": "SHR-P01B",
+              "title": "A private recognition",
+              "action": "Rohas respectfully acknowledges that her confidence outside the paperwork is difficult to ignore. Shreya reminds him that focus is mandatory on duty, but privately registers the personal warmth of the remark.",
+              "physical": "No physical coercion, recreated touching or power-based proposition.",
+              "psychological": "Shreya understands attention without treating a junior's politeness as permission."
+            }
+          ],
+          "track": "OTHER_COLLEAGUES",
+          "status": "NEW_PARALLEL_SCENE_PROPOSAL_NOT_FINAL_PROSE",
+          "continuityNote": "Yesterday's Rohas glance is acknowledged once, not repeated as a new surprise."
+        },
+        {
+          "id": "E04B-SHREYA-PAR-02",
+          "number": "P02",
+          "start": "12:18",
+          "end": "12:37",
+          "title": "Poonam and ACP Verma: private unfinished tension",
+          "location": "ACP review office",
+          "characters": [
+            "Poonam",
+            "ACP Verma"
+          ],
+          "beats": [
+            {
+              "id": "SHR-P02A",
+              "title": "Official review",
+              "action": "Poonam independently delivers a report requiring Verma's sign-off. Their prior ambiguous private history remains reader-only and separate from Shreya's knowledge."
+            },
+            {
+              "id": "SHR-P02B",
+              "title": "A boundary under pressure",
+              "action": "Verma starts to make a personal remark, but Poonam holds the conversation to the file and requests clear work feedback. A charged pause remains unspoken as she leaves.",
+              "physical": "No coerced contact or assumption that rank grants sexual access.",
+              "psychological": "Poonam has agency to keep an uneasy private dynamic from controlling her shift."
+            }
+          ],
+          "track": "OTHER_COLLEAGUES",
+          "status": "NEW_PARALLEL_SCENE_PROPOSAL_NOT_FINAL_PROSE",
+          "continuityNote": "Earlier Poonam/Verma private involvement is reader-only; Shreya does not suddenly know."
+        },
+        {
+          "id": "E04B-SHREYA-PAR-03",
+          "number": "P03",
+          "start": "14:01",
+          "end": "14:23",
+          "title": "Kavita and Lokesh: an equal-rank spark",
+          "location": "Police training store and open training area",
+          "characters": [
+            "Kavita",
+            "Lokesh",
+            "Meera (brief)"
+          ],
+          "beats": [
+            {
+              "id": "SHR-P03A",
+              "title": "Practical teamwork",
+              "action": "Kavita asks Lokesh to help lay out the training flags and report an inaccurate count. Meera observes only a normal professional exchange and exits."
+            },
+            {
+              "id": "SHR-P03B",
+              "title": "Their own moment",
+              "action": "After correcting the count Kavita deliberately lingers beside Lokesh and playfully challenges him to match her speed on tomorrow's individual fitness practice. He agrees with visible enthusiasm. Both notice their mutual interest without declaring a relationship.",
+              "physical": "A friendly consensual shoulder-side pose for checking a duty sheet; no kiss or sexualized training exercise.",
+              "psychological": "Kavita's independent attraction is tentative, unrelated to Shreya's authority."
+            }
+          ],
+          "track": "OTHER_COLLEAGUES",
+          "status": "NEW_PARALLEL_SCENE_PROPOSAL_NOT_FINAL_PROSE",
+          "continuityNote": "Both are adults in training roles; no invented voyeur audience."
+        },
+        {
+          "id": "E04B-SHREYA-PAR-04",
+          "number": "P04",
+          "start": "16:04",
+          "end": "16:25",
+          "title": "Shreya and Lokesh: composure instead of bravado",
+          "location": "Training report counter",
+          "characters": [
+            "Shreya",
+            "Lokesh"
+          ],
+          "beats": [
+            {
+              "id": "SHR-P04A",
+              "title": "Professional basis",
+              "action": "Shreya signs the five-person training outcome and asks Lokesh for a concise, honest critique of the drill as an instructor."
+            },
+            {
+              "id": "SHR-P04B",
+              "title": "Quietly direct response",
+              "action": "Lokesh says her calm gaze during the drill made him pay closer attention than a shouted instruction would. She replies with dry humour but notices that, unlike Rohas, Lokesh leaves the personal implication for her to interpret.",
+              "physical": "No direct body touch; no office Chotu overlap.",
+              "psychological": "Her private response is distinct from the later after-duty chai-helper scene."
+            }
+          ],
+          "track": "OTHER_COLLEAGUES",
+          "status": "NEW_PARALLEL_SCENE_PROPOSAL_NOT_FINAL_PROSE",
+          "continuityNote": "Shreya remains the senior officer; there is no duty-for-intimacy exchange."
         }
       ]
     },
@@ -779,7 +1253,142 @@
           ],
           "status": "LOCKED_OFFICE_CHOTU_ACTIONS__PROSE_NOT_APPROVED"
         }
+      ],
+      "secondaryEncounters": [
+        {
+          "id": "E04B-MEENAKSHI-PAR-01",
+          "number": "P01",
+          "start": "09:42",
+          "end": "10:03",
+          "title": "Meenakshi and Yash: after yesterday's startling closeness",
+          "location": "Hospital staff-only data counter",
+          "characters": [
+            "Meenakshi",
+            "Yash",
+            "Aditi (brief)"
+          ],
+          "beats": [
+            {
+              "id": "MEE-P01A",
+              "title": "Work first",
+              "action": "Yash flags a mismatch in the morning clinical-camp statistics. Meenakshi listens, gives a precise correction, and signs off only after he verifies the figures."
+            },
+            {
+              "id": "MEE-P01B",
+              "title": "Shared memory, new direction",
+              "action": "When Aditi leaves with the corrected file, Yash acknowledges that yesterday's unexpectedly close car moment has stayed with him. Meenakshi says she remembers it too, but makes no claim that this gives him a new invitation.",
+              "physical": "No repeat abdomen touch, passenger-seat rivalry or car incident.",
+              "psychological": "Her maturity lets her acknowledge attraction while controlling timing and boundary."
+            }
+          ],
+          "track": "OTHER_COLLEAGUES",
+          "status": "NEW_PARALLEL_SCENE_PROPOSAL_NOT_FINAL_PROSE",
+          "continuityNote": "Yesterday's F19 direct abdominal contact happened once and isn't staged again."
+        },
+        {
+          "id": "E04B-MEENAKSHI-PAR-02",
+          "number": "P02",
+          "start": "12:34",
+          "end": "12:55",
+          "title": "Aditi and Avi: their existing playful rapport",
+          "location": "Hospital staff document desk",
+          "characters": [
+            "Dr. Aditi",
+            "Avi"
+          ],
+          "beats": [
+            {
+              "id": "MEE-P02A",
+              "title": "Medical camp rationale",
+              "action": "Aditi asks Avi to correct a consent-form template before the afternoon briefing. They are peers in the programme and work at a desk away from patient rooms."
+            },
+            {
+              "id": "MEE-P02B",
+              "title": "A different peer spark",
+              "action": "Avi jokes that she has been harder to impress since the farmhouse evening. Aditi replies that good work and good conversation both count; he makes the correction and waits for her approval, then asks if she would join coffee when their shifts permit.",
+              "physical": "Mutual willingness to sit closely over a shared document, no staff/patient exposure or compulsory touching.",
+              "psychological": "Their prior farmhouse chemistry develops rather than being reset to first meeting."
+            }
+          ],
+          "track": "OTHER_COLLEAGUES",
+          "status": "NEW_PARALLEL_SCENE_PROPOSAL_NOT_FINAL_PROSE",
+          "continuityNote": "Aditi/Avi farmhouse teasing was in Episode03 and remains separate from Yash/Meenakshi."
+        },
+        {
+          "id": "E04B-MEENAKSHI-PAR-03",
+          "number": "P03",
+          "start": "14:32",
+          "end": "14:53",
+          "title": "Meenakshi and Avi: the new question",
+          "location": "Hospital administrative staff lounge",
+          "characters": [
+            "Meenakshi",
+            "Avi"
+          ],
+          "beats": [
+            {
+              "id": "MEE-P03A",
+              "title": "A justified follow-up",
+              "action": "Avi brings the revised camp inventory to Meenakshi for sign-off and asks why Yash handled the review so quietly today. She tells him to focus on his own evidence."
+            },
+            {
+              "id": "MEE-P03B",
+              "title": "Flirtation without repeated touch",
+              "action": "His teasing nearly turns the talk into yesterday's rivalry. Meenakshi stops him and says that if he wants her attention, a confident answer to the actual work question will impress her more. Avi meets her direct gaze, replies correctly, and sees that she is smiling.",
+              "physical": "No repeat waist/abdomen touching or intentional wardrobe slip.",
+              "psychological": "For Meenakshi, attention is a choice she directs, not a reward granted by seniority."
+            }
+          ],
+          "track": "OTHER_COLLEAGUES",
+          "status": "NEW_PARALLEL_SCENE_PROPOSAL_NOT_FINAL_PROSE",
+          "continuityNote": "Don't repeat the farmhouse conversation or car-seat competition."
+        },
+        {
+          "id": "E04B-MEENAKSHI-PAR-04",
+          "number": "P04",
+          "start": "16:22",
+          "end": "16:42",
+          "title": "Rupa and Yash: their own quiet rapport",
+          "location": "Staff-only nursing admin desk",
+          "characters": [
+            "Rupa",
+            "Yash"
+          ],
+          "beats": [
+            {
+              "id": "MEE-P04A",
+              "title": "Clinical handoff",
+              "action": "Rupa asks Yash to check a lab sample pickup list against the nurse handover. Both work within normal assigned duties with no patient contact staged."
+            },
+            {
+              "id": "MEE-P04B",
+              "title": "An independent possibility",
+              "action": "Yash notices that Rupa has stayed late to get the list right; Rupa replies that she values people who can be attentive without being loud. Yash smiles and offers to bring her tea during the next genuine break, and she says she might take him up on it.",
+              "physical": "No intimate touching, no invented couple status.",
+              "psychological": "Rupa's agency and independent work style are foregrounded; no automatic triangle with Meenakshi."
+            }
+          ],
+          "track": "OTHER_COLLEAGUES",
+          "status": "NEW_PARALLEL_SCENE_PROPOSAL_NOT_FINAL_PROSE",
+          "continuityNote": "Rupa's first independent peer interest is a proposal, not a source-established relationship."
+        }
       ]
     }
-  ]
+  ],
+  "secondaryEncounterReview": {
+    "status": "NEW_AUTHOR_REQUESTED_EXPANSION__OFFICE_DAY_PARALLEL_ENCOUNTERS__PROSE_NOT_FINAL",
+    "plotRule": "The primary five Chotu scenes remain unchanged. These are separate optional mutually interested adult colleague pairings and main-lead follow-ups; no new encounter is forced or treated as a confirmed relationship.",
+    "characterPairPolicy": "Existing cast only, and independently chosen female-colleague turns as well as male colleagues interacting with each main female lead.",
+    "officeTwins": "ABSENT",
+    "wardrobeRule": "Only the already approved 2 January Chotu wardrobe changes are displayed in the primary scenes; parallel encounters do not duplicate deliberate body reveals or camera tests.",
+    "romanceRule": "Mutual flirtation and charged looks are proposed; no kisses, sex, explicit acts, nonconsensual contact, supervisory leverage, patient/student inclusion or unintended photographs are added.",
+    "continuityReferences": [
+      "Ankita: EP03 Vivan/Reyansh rescue and Sana/Aishwarya dance already happened.",
+      "Taniya: Jan1 Raghav filing-drawer waist support and Andrea–Chirag celebratory cheek kiss each already happened.",
+      "Shreya: Poonam–ACP Verma reader-only history, Shreya does not know; separate Rohas/Lokesh training.",
+      "Meenakshi: Jan1 F18/F19 abdomen touch already happened, and M08 Jan2 11:00–11:40 remains unchanged.",
+      "Shivani: Aarav tentatively interested as peer, phone-gallery incident unresolved and unknown to her."
+    ],
+    "noSceneOverwrite": true
+  }
 }
