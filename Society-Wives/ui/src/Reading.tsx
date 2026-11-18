@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import DOMPurify from 'dompurify';
-import { Archive, assetUrl, episodePath, peopleOrder, openPage, titleCase, useData } from './lib';
+import { Archive, episodePath, peopleOrder, openPage, titleCase, useData } from './lib';
 type Props={character:string;scene:string|null;episode?:string|null};
 
 function Episode02Reading({character,scene}:Props){
@@ -14,7 +14,7 @@ function Episode02Reading({character,scene}:Props){
  useEffect(()=>{if(!selected)return;setVisited(prev=>({...prev,[active]:Array.from(new Set([...(prev[active]||[]),selected.scene_id]))}));},[active,selected?.scene_id]);
  const goScene=(id:string,who=active)=>openPage('reading',{character:who,scene:id});
  const html=selected?.source_html_lines_exact?.join('\n')||'';
- const safeHtml=DOMPurify.sanitize(html,{USE_PROFILES:{html:true},FORBID_ATTR:['href','target','rel']});
+ const safeHtml=DOMPurify.sanitize(html,{USE_PROFILES:{html:true},FORBID_ATTR:['href','target','rel'],FORBID_TAGS:['img','picture','svg','canvas']});
  // Episode 02 is author-approved in full. Keep historical archive metadata intact, but do not display obsolete per-scene review statuses.
  return <main className="page-width ep02-final-reader">
   <header className="section-intro"><span className="eyebrow">The Story · 1 January 2026 · Author-approved final</span><h1>Episode 02</h1><p>The New Year's Unspoken Secrets · Entire existing episode approved and frozen; select a perspective.</p></header>
@@ -167,7 +167,6 @@ function Episode03Reading({character,scene}:Props){
     <div className="story-toolbar"><span>{titleCase(active)} · Scene {selected.id}</span><span className="meta-pill">{storyTag(selected.status)}</span></div>
     <div className="ep03-scene-intro"><h2>{selected.title}</h2><p>{selected.date} · {selected.time} · {selected.place}</p></div>
     {(selected.reviewNotes?.length??0)>0&&<section className="source-note" id="taniya-scene-continuity-flag"><strong>Source-preserved continuity review:</strong> {selected.reviewNotes?.join(' ')} <em>Not final approved prose.</em></section>}
-    {active==='ankita'&&selected.id==='03'&&<figure className="ankita-scene03-image" style={{margin:'1rem 0'}}><img src={assetUrl('assets/ankita-ep03-scene03-private-briefing.webp')} alt="Ankita at the office private-briefing presentation, illustrated reference" loading="lazy" style={{width:'min(100%, 440px)',height:'auto',borderRadius:'12px',display:'block'}}/><figcaption>Scene 03 illustration · now beside the written scene in Reading</figcaption></figure>}
      {active==='ankita'&&selected.id==='06'?<><Scene06CleanVersion/><details className="source-footnote" id="scene06-submitted-archive"><summary>Original submitted beat versions · preserved archive</summary><Scene06SubmittedRevisions/></details><details className="source-footnote" id="scene06-earlier-draft"><summary>Earlier Scene 06 prose draft — preserved unchanged</summary><Ep03Body scene={selected}/></details></>:<Ep03Body scene={selected}/>}
     <div className="chapter-controls"><button type="button" className="button subtle" disabled={selectedIndex<=0} onClick={()=>go(scenes[selectedIndex-1].id)}>← Previous scene</button><span>Scene {selectedIndex+1} of {scenes.length}</span><button type="button" className="button primary" disabled={selectedIndex>=scenes.length-1} onClick={()=>go(scenes[selectedIndex+1].id)}>Next scene →</button></div>
     <details className="source-footnote"><summary>About this prose edition</summary><p>This reading uses the original saved story text. Mixed review or draft status is shown without granting extra approval. Planning plots have not been substituted for prose.</p></details>

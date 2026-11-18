@@ -2,13 +2,12 @@ import { useEffect, useState } from 'react';
 import { HOME, openPage, useRoute } from './lib';
 import Home from './Home';
 import Characters from './Characters';
-import Gallery from './Gallery';
 import Reading from './Reading';
 import Planning from './Planning';
 import GlobalTimeline from './GlobalTimeline';
 import DhikaReader from './DhikaReader';
 
-const swNavigation=[['home','Home'],['characters','Characters'],['gallery','Image Gallery'],['reading','Episode Reading'],['planning','Episode Planning']] as const;
+const swNavigation=[['home','Home'],['characters','Characters'],['reading','Episode Reading'],['planning','Episode Planning']] as const;
 const dhikaNavigation=[['dhika-timeline','Universal Timeline'],['dhika-reader','Original Dhika Reader']] as const;
 
 export default function App(){
@@ -18,6 +17,7 @@ export default function App(){
  const queryDate=params.get('date');
  useEffect(()=>{if(queryDate&&(/^2026-\d{2}-\d{2}$/.test(queryDate)||queryDate==='pending'))setDate(queryDate)},[queryDate]);
  useEffect(()=>{document.title=(isDhika?'Dhika':'Society Wives')+' — '+(page.includes('timeline')?'Universal Timeline':page==='dhika-reader'?'Original Reader':swNavigation.find(x=>x[0]===page)?.[1]||'Story');window.scrollTo({top:0,behavior:'instant'});},[page,params.toString(),isDhika]);
+ useEffect(()=>{if(page==='gallery')openPage('characters')},[page]);
  const switchTo=(target:'sw'|'dhika')=>target==='sw'?openPage('timeline',{date}):openPage('dhika-timeline',{date});
  const valid=page==='timeline'||page==='dhika-timeline'||page==='dhika-reader'||swNavigation.some(x=>x[0]===page);
  return <div className="universe-shell">
@@ -40,7 +40,6 @@ export default function App(){
    </header>
    {page==='home'&&<Home scene={params.get('scene')}/>}
    {page==='characters'&&<Characters lead={params.get('lead')||'ankita'} personId={params.get('person')}/>}
-   {page==='gallery'&&<Gallery initialCharacter={params.get('character')||'all'}/>}
    {page==='reading'&&<Reading character={params.get('character')||'ankita'} scene={params.get('scene')} episode={params.get('episode')}/>}
    {page==='planning'&&<Planning lead={params.get('lead')||'meenakshi'} initialScene={params.get('scene')}/>}
    {page==='timeline'&&<GlobalTimeline universe="sw" date={date} onDateChange={d=>{setDate(d);openPage('timeline',{date:d})}}/>}

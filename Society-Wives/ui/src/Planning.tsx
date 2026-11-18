@@ -330,12 +330,7 @@ export default function Planning({lead,initialScene}:{lead:string;initialScene?:
             <p className="source-note"><strong>Visual direction:</strong> {beat.visual}</p>
             {beat.dialogue?.map((line,j)=><p className="dialogue" key={j}><strong>{line.speaker}:</strong> {line.line}</p>)}
             <p><strong>After-effect / transition:</strong> {beat.turn}</p>
-            {taniyaEpisode03Plot.visualAssets?.filter(img=>img.beatId===beat.id).map(img=><div className="source-note" key={img.id}>
-              <p><strong>EP03 GENERATED SCENE IMAGE · FOR REVIEW:</strong> <a href={img.url} target="_blank" rel="noopener noreferrer">{img.title} — View in Drive</a></p>
-              <p><strong>Continuity note:</strong> {img.continuity}</p>
-            </div>)}
           </details>)}</div>
-        {taniyaEpisode03Plot.visualAssetFolder&&<p className="source-note"><strong>Episode 03 visual library:</strong> <a href={taniyaEpisode03Plot.visualAssetFolder.url} target="_blank" rel="noopener noreferrer">{taniyaEpisode03Plot.visualAssetFolder.title} — Drive folder</a>. {taniyaEpisode03Plot.visualAssetFolder.note}</p>}
         <p><strong>Cut at home:</strong> {taniyaEpisode03Plot.ending}</p>
       </>:<p role="status">{taniyaEpisode03PlotError||'Loading Taniya Episode 03 working draft…'}</p>}
     </article>
