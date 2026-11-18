@@ -19,6 +19,14 @@ try {
  await page.locator('#episode04-active-plan details').first().waitFor();
  await page.getByRole('button',{name:'Episode 04B · Next Day'}).click();
  await page.locator('#episode04-next-day').waitFor();
+ assert.ok((await page.locator('#episode04-next-day').innerText()).includes('Rohit'));
+ for(const [lead,chotu] of [['Shivani','Sunny'],['Taniya','Punit'],['Shreya','Station Chotu'],['Meenakshi','Naveen']]){
+  await page.getByRole('button',{name:lead,exact:true}).click();
+  await page.locator('#episode04-next-day').waitFor();
+  const content=await page.locator('#episode04-next-day').innerText();
+  assert.ok(content.includes(chotu),'Office Chotu missing for '+lead);
+  assert.ok(content.includes('Twins absent'),'Twins absence lock missing for '+lead);
+ }
  assert.equal(await page.locator('img').count(),0);
  console.log('Browser smoke check passed: Reader 01–03 and Planning 04A/B.');
 } finally {await browser.close();}
