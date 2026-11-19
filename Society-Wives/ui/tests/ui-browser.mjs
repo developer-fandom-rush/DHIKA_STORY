@@ -25,6 +25,7 @@ try {
  await page.locator('#episode04-next-day').waitFor();
  assert.ok((await page.locator('#episode04-next-day').innerText()).includes('Rohit'));
  assert.ok((await page.locator('#episode04-next-day').innerText()).includes('Rinku'),'Ankita society continuation missing');
+ assert.equal(await page.locator('#episode04b-working-prose-ankita details').count(),5);
  await page.locator('#society-chotu-continuity-b-ankita').waitFor();
  await page.locator('#episode04b-working-prose-ankita').waitFor();
  assert.equal(await page.locator('#episode04b-working-prose-ankita details').count(),4,'Ankita must have four working prose scenes');
@@ -38,6 +39,8 @@ try {
   assert.ok(content.includes('Twins absent'),'Twins absence lock missing for '+lead);
   assert.ok(content.includes('Colleague track'),'parallel colleague scenes missing for '+lead);
   assert.ok(content.includes('Society Chotu'),'after-office society Chotu scenes missing for '+lead);
+  assert.ok(content.includes('Morning society'),'morning society bridge missing for '+lead);
+  assert.ok(content.includes('Expanded prose draft'),'expanded prose not shown for '+lead);
   await page.locator('#society-chotu-continuity-b-'+lead.toLowerCase()).waitFor();
   assert.equal(await page.locator('#episode04b-working-prose-'+lead.toLowerCase()+' details').count(),4,'Working prose drafts missing for '+lead);
   assert.ok(content.includes('Full-day plot and prose'),'Full-day chronology heading missing '+lead);
