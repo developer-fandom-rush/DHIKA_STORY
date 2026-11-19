@@ -11,6 +11,8 @@ type OfficeLead={id:string;name:string;office:string;workday:string;wardrobe:str
 type SocietyLead={id:string;name:string;chotu:string;age:number;officeExit:string;societyWindow:string;officeCarryover:string;visualSignature:string;chosenAction:string;personalEscalation:string;scenes:Scene[]};
 type SocietyMaster={title:string;date:string;status:string;leads:SocietyLead[]};
 type OfficeMaster={title:string;date:string;status:string;leads:OfficeLead[]};
+type ContinuityRecord={id:string;name:string;societyChotu:string;reference:string;incident:string;visibleConfirmed:string;bodyRegions:{chestBreast:string;navelAbdomen:string;back:string;hipsButtocks:string};touchConfirmed:string;herResponse:string;hisResponse:string;uncertainty:string;proposed04AMicrobeat:string;followUp04B:string;dontRepeat:string;reviewStatus:string};
+type ContinuityMaster={title:string;status:string;leads:ContinuityRecord[]};
 
 const leads=['ankita','shivani','taniya','soniya','meenakshi','shreya'] as const;
 const words:Record<string,string>={plot:'Plot',action:'Action',physical:'Staging',reaction:'Reaction',internal:'Inner thought',turn:'After-effect',continuity:'Continuity',dialogue:'Dialogue',dialogueSample:'Dialogue',mentalPOV:'Point of view',prosePreview:'Prose preview',reason:'Purpose',purpose:'Purpose',choice:'Choice',cause:'Cause',test:'Character test',result:'Result',after:'After-effect',hook:'Next beat',time:'Time',setting:'Setting'};
@@ -41,6 +43,31 @@ function SceneDetails({scene,index}:{scene:Scene;index:number}){
   <div className="continuity-cards">{(scene.beats||[]).map(b=><BeatDetails key={b.id} beat={b}/>)}</div>
  </details>;
 }
+function ContinuityDetails({record,part}:{record:ContinuityRecord;part:'A'|'B'}){
+ return <section className="episode-plan-card" id={'society-chotu-continuity-'+part.toLowerCase()+'-'+record.id}>
+  <h3>{part==='A'?'04A · Confirmed sightline and unresolved question':'04A → 04B · Deliberate callback'} · {record.societyChotu}</h3>
+  <p className="muted">Continuity reference · Existing 04A facts vs proposed follow-up, not approved prose</p>
+  <p><strong>Original source:</strong> {record.reference}</p>
+  <p><strong>What actually happened:</strong> {record.incident}</p>
+  <p><strong>What was visibly confirmed:</strong> {record.visibleConfirmed}</p>
+  {part==='A'&&<>
+   <p><strong>Chest / breast:</strong> {record.bodyRegions.chestBreast}</p>
+   <p><strong>Navel / abdomen:</strong> {record.bodyRegions.navelAbdomen}</p>
+   <p><strong>Back:</strong> {record.bodyRegions.back}</p>
+   <p><strong>Hips / buttocks:</strong> {record.bodyRegions.hipsButtocks}</p>
+   <p><strong>Accidental touch:</strong> {record.touchConfirmed}</p>
+   <p><strong>Her reaction:</strong> {record.herResponse}</p>
+   <p><strong>His observed reaction:</strong> {record.hisResponse}</p>
+  </>}
+  <p><strong>Still uncertain:</strong> {record.uncertainty}</p>
+  <details className="episode-outline" open={part==='B'}>
+   <summary><strong>{part==='A'?'Optional 04A inner-thought refinement':'Saved 04B Society Chotu idea'}</strong></summary>
+   <p><strong>04A proposed POV beat:</strong> {record.proposed04AMicrobeat}</p>
+   <p><strong>04B deliberate check / saved continuation:</strong> {record.followUp04B}</p>
+   <p><strong>Do not repeat or invent:</strong> {record.dontRepeat}</p>
+  </details>
+ </section>;
+}
 function WorkshopDetails({tracks}:{tracks:WorkshopTrack[]}){
  return <div className="continuity-cards">{tracks.map((track,i)=><article className="episode-plan-card" key={track.chotu+'-'+i}>
   <h2>{track.chotu}{track.lane?' · '+track.lane:''}</h2>{track.setting&&<p>{track.setting}</p>}
@@ -61,10 +88,12 @@ export default function Planning({lead='ankita',part='A'}:{lead?:string;part?:st
  const {data:ankitaArchive,error:ankitaArchiveError}=useData<AnkitaArchive>('episode-04b-ankita-chotu-archive.json');
  const {data:officeDay,error:officeDayError}=useData<OfficeMaster>('episode-04b-office-chotu-jan02-five-leads.json');
  const {data:societyDay,error:societyDayError}=useData<SocietyMaster>('episode-04b-society-chotu-jan02-five-leads.json');
+ const {data:continuity,error:continuityError}=useData<ContinuityMaster>('episode-04a-society-chotu-uncertainty-register.json');
  const doc=active==='ankita'?ankita:active==='shivani'?shivani:active==='shreya'?shreya:active==='taniya'||active==='soniya'?taniya:null;
- const error=ankitaError||shivaniError||shreyaError||taniyaError||workshopError||ankitaArchiveError||officeDayError||societyDayError;
+ const error=ankitaError||shivaniError||shreyaError||taniyaError||workshopError||ankitaArchiveError||officeDayError||societyDayError||continuityError;
  const officeLead=officeDay?.leads.find(x=>x.id===active);
  const societyLead=societyDay?.leads.find(x=>x.id===active);
+ const continuityRecord=continuity?.leads.find(x=>x.id===active);
  const tracks=active==='meenakshi'?[]:active==='ankita'?(ankitaArchive?.tracks||[]):(workshop?.leads.find(x=>x.id===active)?.tracks||[]);
  const go=(who:string=active,p:'A'|'B'=selectedPart)=>openPage('planning',{lead:who,part:p});
  return <main className="page-width">
@@ -75,12 +104,12 @@ export default function Planning({lead='ankita',part='A'}:{lead?:string;part?:st
   </div>
   <div className="perspective-tabs" role="group" aria-label="Choose character">{leads.map(w=><button key={w} type="button" aria-pressed={active===w} className={active===w?'selected':''} onClick={()=>go(w)}>{titleCase(w)}</button>)}</div>
   {error&&<p role="alert" className="error">Some planning sources could not load: {error}</p>}
-  {selectedPart==='A'?(active==='meenakshi'
+  {selectedPart==='A'?<>{continuityRecord&&<ContinuityDetails record={continuityRecord} part="A"/>}{active==='meenakshi'
    ?<section className="episode-plan-card" id="ep04-meenakshi-handoff"><h2>Meenakshi · Naveen · 14:15 handoff</h2><p>Episode 03 Scene 01 ended at the hospital after Naveen arrived with the handover copy. The next interaction remains open for Episode 04 discussion. No additional action or prose has been approved.</p><button type="button" className="button subtle" onClick={()=>openPage('reading',{episode:'03',character:'meenakshi',scene:'01'})}>Read the preceding scene</button></section>
    :doc?<section id="episode04-active-plan"><h2>{doc.title}</h2>{active==='soniya'&&<p className="muted">Shared Taniya and Soniya household scenes.</p>}
     {(doc.scenes||[]).map((s,i)=><SceneDetails key={s.id||s.scene||i} scene={s} index={i}/>)}
     {doc.proseDraft?.url&&<p className="source-note"><strong>Working prose draft:</strong> <a href={doc.proseDraft.url} target="_blank" rel="noreferrer">{doc.proseDraft.title||'Open draft prose'}</a></p>}
-   </section>:<p role="status">Loading Episode 04A plot…</p>)
+   </section>:<p role="status">Loading Episode 04A plot…</p>}</>
    :officeLead?<section id="episode04-next-day"><h2>Episode 04B · {titleCase(active)} · Office Chotu</h2>
      <p className="muted">2 January 2026 · {officeLead.office} · Office shift: {officeLead.workday} · Twins absent</p>
      <p><strong>Office Chotu:</strong> {officeLead.chotu.name} · {officeLead.chotu.role}</p>
@@ -88,6 +117,7 @@ export default function Planning({lead='ankita',part='A'}:{lead?:string;part?:st
      <p><strong>Planned actions:</strong> {officeLead.lockedAction} · No kissing</p>
      <p><strong>Character direction:</strong> {officeLead.sceneIntent}</p>
      <p className="muted">Office Chotu actions are set; parallel colleagues and society Chotu scenes are planning proposals, not approved prose. Chronological view keeps the full workday and home return together.</p>
+     {continuityRecord&&<ContinuityDetails record={continuityRecord} part="B"/>}
      {societyLead&&<div className="episode-plan-card"><h3>Society Chotu continuation · {societyLead.chotu}</h3><p className="muted">After office · {societyLead.societyWindow} · Twins absent</p><p><strong>Chosen styling:</strong> {societyLead.visualSignature}</p><p><strong>Physical choice:</strong> {societyLead.chosenAction}</p><p><strong>Character escalation:</strong> {societyLead.personalEscalation}</p></div>}
      {[...(officeLead.scenes||[]),...(officeLead.secondaryEncounters||[]),...(societyLead?.scenes||[])].sort((a,b)=>(a.start||'').localeCompare(b.start||'')).map((s,i)=><SceneDetails key={s.id||i} scene={s} index={i}/>)}
     </section>
