@@ -1,5 +1,8 @@
 # Society Wives — Five Veils of Desire
 
+**Multi-writer collaboration & plot planning:** [WRITING-COLLABORATION-PROTOCOL.md](WRITING-COLLABORATION-PROTOCOL.md) — author approval, ChatGPT plot/continuity role, external writer independence, optional insertion ledger, sensory-mode metadata, POV and cross-scene continuity.
+
+
 ## NEW, INDEPENDENT UNIVERSE
 
 This directory is the new Society Wives story universe. It does **not** inherit the characters, professions, spouses, episode chronology, or character relationships from the older `Society_Story` project or its Drive archives. Those are out-of-scope reference archives, not canon for this story.
