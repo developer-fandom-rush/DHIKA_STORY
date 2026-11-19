@@ -94,7 +94,7 @@ function ProseDetails({chapter}:{chapter:ProseDraft['chapters'][number]}){
    <p className="muted">{scene.location}</p>
    <div className="continuity-cards">
     {scene.lines.map((line,j)=><p key={j} className={line.kind==='thought'?'source-note':undefined}>
-     {line.kind==='dialogue'?<><strong>{line.speaker}: </strong>{line.text}</>:line.kind==='thought'?<em>{line.text}</>:line.text}
+     {line.kind==='dialogue'?<><strong>{line.speaker}: </strong>{line.text}</>:line.kind==='thought'?<em>{line.text}</em>:line.text}
     </p>)}
    </div>
   </details>)}
