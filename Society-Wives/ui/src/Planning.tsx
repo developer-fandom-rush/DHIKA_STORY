@@ -11,6 +11,10 @@ type OfficeLead={id:string;name:string;office:string;workday:string;wardrobe:str
 type SocietyLead={id:string;name:string;chotu:string;age:number;officeExit:string;societyWindow:string;officeCarryover:string;visualSignature:string;chosenAction:string;personalEscalation:string;scenes:Scene[]};
 type SocietyMaster={title:string;date:string;status:string;leads:SocietyLead[]};
 type OfficeMaster={title:string;date:string;status:string;leads:OfficeLead[]};
+type MergedDay={title:string;date:string;status:string;leads:{id:string;name:string;officeShift:string;events:Scene[];proseSceneIds:string[]}[]};
+type ProseLine={kind:'narration'|'dialogue'|'thought';speaker?:string;text:string};
+type ProseScene={id:string;start:string;end:string;title:string;location:string;sourceRefs:string[];lines:ProseLine[];approval:string};
+type ProseDraft={title:string;status:string;chapters:{id:string;name:string;scenes:ProseScene[]}[]};
 type ContinuityRecord={id:string;name:string;societyChotu:string;reference:string;incident:string;visibleConfirmed:string;bodyRegions:{chestBreast:string;navelAbdomen:string;back:string;hipsButtocks:string};touchConfirmed:string;herResponse:string;hisResponse:string;uncertainty:string;proposed04AMicrobeat:string;followUp04B:string;dontRepeat:string;reviewStatus:string};
 type ContinuityMaster={title:string;status:string;leads:ContinuityRecord[]};
 
@@ -37,8 +41,8 @@ function BeatDetails({beat}:{beat:Beat}){
 }
 function SceneDetails({scene,index}:{scene:Scene;index:number}){
  const number=scene.sceneNumber||scene.number||scene.scene||String(index+1).padStart(2,'0');
- return <details className="episode-outline" open={index===0} id={'episode04-scene-'+number}>
-  <summary><strong>Scene {number} · {scene.title}</strong>{scene.track==='OTHER_COLLEAGUES'&&<span> · Colleague track</span>}{scene.track==='SOCIETY_CHOTU'&&<span> · Society Chotu</span>} {scene.start&&<span>· {scene.start}{scene.end?'–'+scene.end:''}</span>}</summary>
+ return <details className="episode-outline" open={index===0} id={'episode04-scene-'+(scene.id||number)}>
+  <summary><strong>Scene {number} · {scene.title}</strong>{scene.track==='OTHER_COLLEAGUES'&&<span> · Colleague track</span>}{scene.track==='SOCIETY_CHOTU'&&<span> · Society Chotu</span>}{scene.track==='SOCIETY_BEFORE_OFFICE'&&<span> · Society before office</span>}{scene.track==='HOME_BEFORE_OFFICE'&&<span> · Home before office</span>} {scene.start&&<span>· {scene.start}{scene.end?'–'+scene.end:''}</span>}</summary>
   {scene.location&&<p className="muted">{scene.location}</p>}
   <div className="continuity-cards">{(scene.beats||[]).map(b=><BeatDetails key={b.id} beat={b}/>)}</div>
  </details>;
@@ -68,6 +72,21 @@ function ContinuityDetails({record,part}:{record:ContinuityRecord;part:'A'|'B'})
   </details>
  </section>;
 }
+function ProseDetails({chapter}:{chapter:ProseDraft['chapters'][number]}){
+ return <section className="episode-plan-card" id={'episode04b-working-prose-'+chapter.id}>
+  <h3>Episode 04B · {chapter.name} · Working scene prose</h3>
+  <p className="muted">Four fully written scenes. Scene actions and dialogue are a working draft, NOT author-approved publication. Existing peer subplots remain plot-only.</p>
+  {chapter.scenes.map((scene,i)=><details className="episode-outline" key={scene.id} id={'episode04b-prose-scene-'+scene.id} open={false}>
+   <summary><strong>Prose {i+1} · {scene.title}</strong> · {scene.start}–{scene.end}</summary>
+   <p className="muted">{scene.location}</p>
+   <div className="continuity-cards">
+    {scene.lines.map((line,j)=><p key={j} className={line.kind==='thought'?'source-note':undefined}>
+     {line.kind==='dialogue'?<><strong>{line.speaker}: </strong>{line.text}</>:line.kind==='thought'?<em>{line.text}</>:line.text}
+    </p>)}
+   </div>
+  </details>)}
+ </section>;
+}
 function WorkshopDetails({tracks}:{tracks:WorkshopTrack[]}){
  return <div className="continuity-cards">{tracks.map((track,i)=><article className="episode-plan-card" key={track.chotu+'-'+i}>
   <h2>{track.chotu}{track.lane?' · '+track.lane:''}</h2>{track.setting&&<p>{track.setting}</p>}
@@ -89,11 +108,15 @@ export default function Planning({lead='ankita',part='A'}:{lead?:string;part?:st
  const {data:officeDay,error:officeDayError}=useData<OfficeMaster>('episode-04b-office-chotu-jan02-five-leads.json');
  const {data:societyDay,error:societyDayError}=useData<SocietyMaster>('episode-04b-society-chotu-jan02-five-leads.json');
  const {data:continuity,error:continuityError}=useData<ContinuityMaster>('episode-04a-society-chotu-uncertainty-register.json');
+ const {data:mergedDay,error:mergedError}=useData<MergedDay>('episode-04b-five-leads-merged-chronology.json');
+ const {data:proseDraft,error:proseError}=useData<ProseDraft>('episode-04b-five-leads-prose-drafts.json');
  const doc=active==='ankita'?ankita:active==='shivani'?shivani:active==='shreya'?shreya:active==='taniya'||active==='soniya'?taniya:null;
- const error=ankitaError||shivaniError||shreyaError||taniyaError||workshopError||ankitaArchiveError||officeDayError||societyDayError||continuityError;
+ const error=ankitaError||shivaniError||shreyaError||taniyaError||workshopError||ankitaArchiveError||officeDayError||societyDayError||continuityError||mergedError||proseError;
  const officeLead=officeDay?.leads.find(x=>x.id===active);
  const societyLead=societyDay?.leads.find(x=>x.id===active);
  const continuityRecord=continuity?.leads.find(x=>x.id===active);
+ const mergedLead=mergedDay?.leads.find(x=>x.id===active);
+ const proseChapter=proseDraft?.chapters.find(x=>x.id===active);
  const tracks=active==='meenakshi'?[]:active==='ankita'?(ankitaArchive?.tracks||[]):(workshop?.leads.find(x=>x.id===active)?.tracks||[]);
  const go=(who:string=active,p:'A'|'B'=selectedPart)=>openPage('planning',{lead:who,part:p});
  return <main className="page-width">
@@ -110,16 +133,17 @@ export default function Planning({lead='ankita',part='A'}:{lead?:string;part?:st
     {(doc.scenes||[]).map((s,i)=><SceneDetails key={s.id||s.scene||i} scene={s} index={i}/>)}
     {doc.proseDraft?.url&&<p className="source-note"><strong>Working prose draft:</strong> <a href={doc.proseDraft.url} target="_blank" rel="noreferrer">{doc.proseDraft.title||'Open draft prose'}</a></p>}
    </section>:<p role="status">Loading Episode 04A plot…</p>}</>
-   :officeLead?<section id="episode04-next-day"><h2>Episode 04B · {titleCase(active)} · Office Chotu</h2>
+   :officeLead?<section id="episode04-next-day"><h2>Episode 04B · {titleCase(active)} · Full-day plot and prose</h2>
      <p className="muted">2 January 2026 · {officeLead.office} · Office shift: {officeLead.workday} · Twins absent</p>
      <p><strong>Office Chotu:</strong> {officeLead.chotu.name} · {officeLead.chotu.role}</p>
      <p><strong>Planned exposure:</strong> {officeLead.lockedExposure}</p>
      <p><strong>Planned actions:</strong> {officeLead.lockedAction} · No kissing</p>
      <p><strong>Character direction:</strong> {officeLead.sceneIntent}</p>
-     <p className="muted">Office Chotu actions are set; parallel colleagues and society Chotu scenes are planning proposals, not approved prose. Chronological view keeps the full workday and home return together.</p>
+     <p className="muted">Merged 2 January timeline: society/home before work → office Chotu and colleagues → society Chotu after work. Working prose is available below; it is not yet author-approved.</p>
      {continuityRecord&&<ContinuityDetails record={continuityRecord} part="B"/>}
      {societyLead&&<div className="episode-plan-card"><h3>Society Chotu continuation · {societyLead.chotu}</h3><p className="muted">After office · {societyLead.societyWindow} · Twins absent</p><p><strong>Chosen styling:</strong> {societyLead.visualSignature}</p><p><strong>Physical choice:</strong> {societyLead.chosenAction}</p><p><strong>Character escalation:</strong> {societyLead.personalEscalation}</p></div>}
-     {[...(officeLead.scenes||[]),...(officeLead.secondaryEncounters||[]),...(societyLead?.scenes||[])].sort((a,b)=>(a.start||'').localeCompare(b.start||'')).map((s,i)=><SceneDetails key={s.id||i} scene={s} index={i}/>)}
+     {(mergedLead?.events||[...(officeLead.scenes||[]),...(officeLead.secondaryEncounters||[]),...(societyLead?.scenes||[])].sort((a,b)=>(a.start||'').localeCompare(b.start||''))).map((s,i)=><SceneDetails key={s.id||i} scene={s} index={i}/>)}
+     {proseChapter&&<ProseDetails chapter={proseChapter}/>}
     </section>
    :tracks.length?<section id="episode04-next-day"><h2>Episode 04B · {titleCase(active)}</h2><WorkshopDetails tracks={tracks}/></section>
    :<p role="status">Loading Episode 04B plot…</p>}
