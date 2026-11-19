@@ -51,7 +51,7 @@ for(const [id,[officeChotu,societyChotu]] of Object.entries(expectedChotus)){
  assert.ok(lead.chronologicalScenes.some(x=>x.track==='SOCIETY_CHOTU'),'Missing evening society: '+id);
  assert.equal(lead.proseScenes.length,5,'Five expanded dialogue-driven prose anchor scenes required: '+id);
  assert.ok(lead.proseScenes.every(x=>x.paragraphs.length>=2),'Prose passage too vague or absent: '+id);
- assert.ok(!/\\b(Karan|Aman|Uday|Utkarsh|Samar|Shaan|Harsh|Laksh)\\b/.test(lead.chronologicalScenes.flatMap(x=>x.characters).join(' ')),'Twins absent 2 Jan: '+id);
+ assert.ok(!/\b(Karan|Aman|Uday|Utkarsh|Samar|Shaan|Harsh|Laksh)\b/.test(lead.chronologicalScenes.flatMap(x=>x.characters).join(' ')),'Twins absent 2 Jan: '+id);
 }
 const society04b=read('episode-04b-society-chotu-jan02-five-leads.json');
 assert.equal(society04b.date,'2026-01-02');
