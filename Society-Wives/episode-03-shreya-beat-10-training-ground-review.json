@@ -7,7 +7,7 @@
   "title": "Beat 10 — The Training Ground Challenge",
   "time": "15:40–16:05",
   "place": "Police station training ground",
-  "status": "GROK_SYNCED_CONSOLIDATED_FULL_PROSE_IN_READER_AND_PLANNING_UI_PENDING_AUTHOR_APPROVAL_2026_11_17",
+  "status": "AUTHOR_APPROVED_FINAL_EP03_2026_11_19",
   "sourcePlot": "episode-03-shreya-jan01-proposed-timeline.json#S03-05",
   "styleSources": [
     "WRITING-STYLE-DHIKA-EP01-EP03-RECALIBRATION.md",
@@ -127,5 +127,7 @@
     "All five participants, 25-minute timeline and both approved winners remain intact",
     "No other scenes or earlier approved prose changed",
     "Older planning notes have a wardrobe contradiction with current author-requested post-training khaki change; next beat must use resolved continuity"
-  ]
+  ],
+  "historicalStatus": "GROK_SYNCED_CONSOLIDATED_FULL_PROSE_IN_READER_AND_PLANNING_UI_PENDING_AUTHOR_APPROVAL_2026_11_17",
+  "finalApprovedOn": "2026-11-19"
 }

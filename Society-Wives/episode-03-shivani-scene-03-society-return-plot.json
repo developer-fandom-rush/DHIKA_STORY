@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "id": "SW-SHIVANI-EP03-S03-SOCIETY-RETURN",
   "title": "Shivani — Episode 03 · Scene 03 — Return to Gulmohar Heights",
-  "status": "USER_DIRECTED_WORKING_PLOT_SAVED__NOT_APPROVED_PROSE",
-  "proseStatus": "NOT_WRITTEN",
+  "status": "EP03_SCENE03_FINAL_IN_CANONICAL_READER",
+  "proseStatus": "AUTHOR_APPROVED_FINAL",
   "date": "2026-01-01",
   "timezone": "Asia/Kolkata",
   "time": {
@@ -19,7 +19,7 @@
     "Ayaan (23)",
     "Armaan (23)"
   ],
-  "authorStatus": "The user asked to upload the discussed return plot; timing/lines are working author-directed notes, not published prose. Existing Shreya, Soniya and Ankita approved sources remain unchanged.",
+  "authorStatus": "Scene 03 existing reader prose approved final by author 19 November 2026; historical planning beats retained.",
   "sourceReferences": {
     "scene02": "episode-03-shivani-scene02-master-reference.json",
     "ep01": "episode-01.json · S02 (Deepu acquaintance), S12 (Shivani coordinates children's programme; prologue date unspecified)",
@@ -154,5 +154,8 @@
     "nextFile": "episode-04a-shivani-plan.json",
     "next": "Episode 04A is the canonical Shivani next-episode plan: Om home setup, Deepu backdrop accident BEFORE Kavya first meeting, twins, home dinner, mistaken Om surprise and Rohan close; non-graphic Google Doc is a prose DRAFT, not final canon",
     "nextProseDocUrl": "https://docs.google.com/document/d/1779t20ygHv8Q9PzJuH5u8SgxVcLHg9ZGm7cbmnXFs88/edit?usp=drivesdk"
-  }
+  },
+  "historicalStatus": "USER_DIRECTED_WORKING_PLOT_SAVED__NOT_APPROVED_PROSE",
+  "historicalProseStatus": "NOT_WRITTEN",
+  "historicalAuthorStatus": "The user asked to upload the discussed return plot; timing/lines are working author-directed notes, not published prose. Existing Shreya, Soniya and Ankita approved sources remain unchanged."
 }

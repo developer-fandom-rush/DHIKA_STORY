@@ -10,7 +10,7 @@
     "end": "18:25"
   },
   "title": "The Quiet Reset — Rinku at the Door",
-  "status": "ASSISTANT_AUTHORED_FULL_SCENE08_DRAFT_PENDING_USER_REVIEW",
+  "status": "AUTHOR_APPROVED_FINAL_EP03_2026_11_19",
   "sourcePlot": "episode-03-ankita-scene-08-rinku-setup.json",
   "continuityLocks": [
     "Scene07 reaches apartment at 17:50; Scene08 starts later at 18:10.",
@@ -52,5 +52,8 @@
       "raw": "6:24 PM.\n\nDarwaze ki bell baji.\n\nAnkita ne kitchen counter par rakha phone uthaya. Rinku ka message ab bhi screen par tha—*“Abhi aata hoon.”*\n\nWoh samajh gayi ki shayad wahi aaya hoga.\n\nUsne ek baar filter ke connector ki taraf dekha, jaise yaad kar rahi ho ki problem exactly kahan thi. Phir living room cross karke entrance ki taraf badhi.\n\nWoh ab bhi apni comfortable home kurti aur trousers mein thi, bina dupatte ke. Darwaze ke doosri taraf kaun khada tha, usse verify karna aur repair ke baare mein baat karna agla step tha.\n\nAnkita ne door ke paas pahunchkar haath aage badhaya.\n\nBell ki awaaz ab band ho chuki thi. Ankita darwaze ke bilkul paas thi.\n\n**6:25 PM — darwaza abhi khula nahi tha.**"
     }
   ],
-  "proseStatus": "DRAFT_NOT_AUTHOR_APPROVED"
+  "proseStatus": "AUTHOR_APPROVED_FINAL",
+  "historicalStatus": "ASSISTANT_AUTHORED_FULL_SCENE08_DRAFT_PENDING_USER_REVIEW",
+  "finalApprovedOn": "2026-11-19",
+  "historicalProseStatus": "DRAFT_NOT_AUTHOR_APPROVED"
 }

@@ -91,5 +91,8 @@
     "sourceProtection": "The original Google Doc, its chronological index and original source beat bank are not modified by this UI publishing action.",
     "ritika": "The latest Ritika R01–R05 discussion remains provisional until explicitly author-approved.",
     "historicalTime": "Former 2:10–2:35 PM outline is an archived earlier proposal. Current working scene clock is 5:00–5:20 PM on January 1."
-  }
+  },
+  "publishedSceneStatus": "AUTHOR_APPROVED_FINAL_IN_EP03_READER",
+  "publishedApprovalDate": "2026-11-19",
+  "referenceClarification": "This is a source/reference file, not alternate final prose. Canonical approved Scene 02 is in episode-03-reader.json; the original reference-only status is historical."
 }

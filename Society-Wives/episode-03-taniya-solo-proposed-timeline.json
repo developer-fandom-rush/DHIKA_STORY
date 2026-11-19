@@ -7,7 +7,7 @@
   "title": "The New Year Secret — Taniya & Soniya Episode 03 · Approved Plot",
   "date": "2026-01-01",
   "timezone": "Asia/Kolkata",
-  "status": "AUTHOR_APPROVED_EP03_PLOT__ALL_12_GROK_PROSE_DRAFTS_PUBLISHED_PENDING_AUTHOR_APPROVAL",
+  "status": "AUTHOR_APPROVED_FINAL_EP03_PROSE",
   "start": "10:50",
   "end": null,
   "goal": "AUTHOR-APPROVED PLOT (NOT PROSE): Jan 1 episode begins 10:50 AM using deferred TS12–TS16 office material, 10:30–19:30 full CA-office shift. Office establishes Raghav/Chirag, Neha/Andrea, Punit and reader-only Vivek Suri attraction; no Taniya office romance or kiss. After 19:30, Taniya chooses Soniya's society home rather than still-active near-office rental (35–50-minute estimated commute). Compress redundant standalone travel/home exposition: Guddu (society CHOTU) wedding vendor papers at ~20:08, Karan/Aman returning event boards at ~20:16 after their 19:11–19:23 Shivani/Kavya/Deepu crossover, one accidental covered-hip contact with Karan and immediate withdrawal, then Soniya and proposed Rahul return at home ~20:25–21:00. Soniya opens the topic of morning gym Vivek Rao with Rahul; cut before long private disclosure. No private character knowledge transfers, no further intimacy.",
@@ -920,9 +920,25 @@
     ],
     "pendingSceneIds": [],
     "lastUpdated": "2026-11-17",
-    "status": "SCENES_01_TO_12_GROK_MERGED_DRAFTS_PUBLISHED_PENDING_AUTHOR_REVIEW",
+    "status": "ALL_12_SCENES_AUTHOR_APPROVED_FINAL",
     "sourceDoc": "https://docs.google.com/document/d/1W8GmTAD4cjrWJRt3Au9CS7AHkXezV-YJdWZegQhb7m4/edit?tab=t.l2sduveoxam2",
-    "caveats": [
+    "historicalStatus": "SCENES_01_TO_12_GROK_MERGED_DRAFTS_PUBLISHED_PENDING_AUTHOR_REVIEW",
+    "approvedSceneIds": [
+      "T03-01",
+      "T03-02",
+      "T03-03",
+      "T03-04",
+      "T03-05",
+      "T03-06",
+      "T03-07",
+      "T03-08",
+      "T03-09",
+      "T03-10",
+      "T03-11",
+      "T03-12"
+    ],
+    "finalApprovedOn": "2026-11-19",
+    "archivedReviewNotes": [
       "Grok insert G01, the surrounding GPT passage, and G02 all narrate the same brief contact. G02 places the hands together again after the source has already said they were released. Source text is preserved; continuity reconciliation is pending.",
       "Grok G01 illustrates Punit and Taniya standing in the corridor, although its insertion is after the 12:39 ledger check. This is a staging/time-position mismatch for author review; the source remains unchanged.",
       "Grok G01 says Andrea is taking the photograph and Taniya is posing, while the surrounding GPT prose has Andrea assembling the group and Taniya operating the camera.",
@@ -935,5 +951,6 @@
       "Grok G02 repeats Rahul–Soniya's familiar hug and forehead kiss already narrated; this is one greeting, not a second embrace.",
       "Rahul homecoming hour remains proposed, not separately canon-locked."
     ]
-  }
+  },
+  "historicalStatus": "AUTHOR_APPROVED_EP03_PLOT__ALL_12_GROK_PROSE_DRAFTS_PUBLISHED_PENDING_AUTHOR_APPROVAL"
 }

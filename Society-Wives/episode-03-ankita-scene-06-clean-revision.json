@@ -5,16 +5,14 @@
   "date": "2026-01-01",
   "time": "16:40–17:20 (proposed)",
   "title": "The Stamina Challenge — Author-Corrected Seven Beats",
-  "status": "CLEAN_DRAFT_FOR_AUTHOR_REVIEW_B6_RECONSTRUCTED_NOT_AUTHOR_VERBATIM",
+  "status": "AUTHOR_APPROVED_FINAL_EP03_2026_11_19",
   "originalRevisions": [
     "episode-03-ankita-scene-06-author-revision-part-a.json",
     "episode-03-ankita-scene-06-author-revision-part-b.json"
   ],
   "priorDraft": "episode-03-ankita-scene-06-dance-draft.json",
   "notes": [
-    "B2-B selected; B2-A remains archived in original revisions and is not included here.",
-    "B6 exact original text not found; non-graphic short boundary bridge newly drafted by assistant, pending author review.",
-    "No changes were made to original revision files or earlier published full dance draft."
+    "Existing published Scene 06 version approved final 19 November 2026; historical review notes archived."
   ],
   "beats": [
     {
@@ -59,5 +57,12 @@
       "raw": "**Beat 7: Wind Down**\n\nDance dheere dheere slow ho rahi thi. Sana abhi bhi Vivan ke close thi, lekin intensity kam ho gayi thi. Aishwarya Reyansh ke paas khadi thi. Ankita thodi door hat gayi thi. Usne apna kurti theek kiya aur time dekha.\n\n**Ankita:** “Mujhe nikalna padega. Ghar 6 baje se pehle pahunchna hai.”\n\n**Sana:** “Itni jaldi? Stamina challenge abhi adhoora hai.”\n\n**Ankita:** “Kal continue karenge. Aaj ke liye itna kaafi hai.”\n\nVivan ne Ankita ki taraf dekha. Uski nazar abhi bhi uske figure pe thi, lekin pehle jaisi intense nahi. Reyansh ne bhi last look diya.\n\n**Reyansh:** “Drop chahiye?”\n\n**Ankita:** “Nahi. Main manage kar lungi.”\n\nSana hasi.\n\n**Sana:** “Ankita, aaj tumne bhi thoda join kiya. Next time full stamina dikhana.”\n\n**Ankita:** “Dekhte hain.”\n\nMusic ab background mein thi. Floor pe bodies ka gap badh gaya tha. Tension dheere se drop ho rahi thi. Ankita ne chair se apna beige blazer aur bag uthaya. Uska chehra abhi bhi thoda warm tha, lekin expression normal. Woh exit ki taraf badhi. Baaki log abhi floor pe the.",
       "provenance": "USER_B7_WITH_APPROVED_CONTINUITY_FIXES"
     }
+  ],
+  "historicalStatus": "CLEAN_DRAFT_FOR_AUTHOR_REVIEW_B6_RECONSTRUCTED_NOT_AUTHOR_VERBATIM",
+  "finalApprovedOn": "2026-11-19",
+  "archivedReviewNotes": [
+    "B2-B selected; B2-A remains archived in original revisions and is not included here.",
+    "B6 exact original text not found; non-graphic short boundary bridge newly drafted by assistant, pending author review.",
+    "No changes were made to original revision files or earlier published full dance draft."
   ]
 }

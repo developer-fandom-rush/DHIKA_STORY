@@ -5,7 +5,7 @@
   "date": "2026-01-01",
   "title": "The Unexpected Hold — Ankita, Karan & Aman",
   "time": "17:20–17:50",
-  "status": "AUTHOR_REVISED_PROSE_IN_UI_PENDING_OVERALL_APPROVAL",
+  "status": "AUTHOR_APPROVED_FINAL_EP03_2026_11_19",
   "sourceNote": "Prior assistant's 8-beat prose adapted only to apply user-requested additions/replacement; removed duplicate Beat7 ride question. The original Scene07 plot remains unchanged.",
   "legend": {
     "author": "Author-provided exact text",
@@ -144,5 +144,7 @@
         }
       ]
     }
-  ]
+  ],
+  "historicalStatus": "AUTHOR_REVISED_PROSE_IN_UI_PENDING_OVERALL_APPROVAL",
+  "finalApprovedOn": "2026-11-19"
 }

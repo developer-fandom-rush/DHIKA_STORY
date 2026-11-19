@@ -6,7 +6,7 @@
   "date": "2026-01-01",
   "time": "18:45–19:00 target (provisional)",
   "title": "The First Different Look — Babloo",
-  "status": "B01_B05_APPROVED_PLOT_FULL_PROSE_DRAFT_SAVED_FOR_REVIEW",
+  "status": "AUTHOR_APPROVED_FINAL_EP03_2026_11_19",
   "introAndHistory": "Babloo (23) society mein pharmacy pickups aur deliveries sambhalta hai. Meenakshi use pehle se jaanti hai aur uski reliable service par bharosa karti hai. Woh delivery instructions carefully follow karta hai. Abhi tak unka relationship familiar doctor–helper ka hai; koi romantic encounter establish nahi hua.",
   "ep04Handoff": "Possible next-day car recovery / assistance involving Babloo; details remain unplanned. The separate 14:15 Naveen EP04 handoff remains unresolved and unchanged.",
   "priorCanon": "Babloo's name/role are in character-directory.json. Older episode-01.json S04 was proposed, not approved or published; no Babloo meeting is confirmed in published Meenakshi EP02 scenes. Do not invent a previous personal encounter.",
@@ -15,7 +15,7 @@
   "start": "18:45",
   "end": "19:00",
   "location": "Gulmohar Heights · Tower C entrance and lift lobby",
-  "approval": "USER_APPROVED_SCENE_DIRECTION",
+  "approval": "USER_APPROVED_FINAL_PROSE",
   "previousUnapprovedDraft": {
     "title": "The Bell — Babloo's Introduction",
     "status": "USER_DIRECTED_INTRO_ONLY_FIRST_ENCOUNTER_DEFERRED_EP04",
@@ -145,5 +145,8 @@
       "Do not invent deep romance already existing; future developments must be earned through new events."
     ],
     "forwardGuidance": "Treat Episode 03 Scene 04 as a completed foundation. Future interactions must progress from existing familiarity, trust, initial personal warmth and noticed attraction, without redoing B01–B05."
-  }
+  },
+  "historicalStatus": "B01_B05_APPROVED_PLOT_FULL_PROSE_DRAFT_SAVED_FOR_REVIEW",
+  "finalApprovedOn": "2026-11-19",
+  "historicalApproval": "USER_APPROVED_SCENE_DIRECTION"
 }

@@ -8,7 +8,7 @@
   "timezone": "Asia/Kolkata",
   "lead": "shreya",
   "leadName": "Shreya",
-  "status": "SR10_AND_S03_01_FINAL_AUTHOR_APPROVED_PUBLISHED__LATER_EP03_BEATS_NOT_FULLY_LOCKED",
+  "status": "EP03_PUBLISHED_READER_SCENES_AUTHOR_APPROVED_FINAL",
   "continuityFrom": {
     "sourceEpisode": 2,
     "sourceDate": "2026-01-01",
@@ -400,27 +400,62 @@
   },
   "approvedPublishedScenes": [
     {
-      "id": "SR10",
+      "id": "10",
       "source": "episode-03-reader.json",
       "chapter": "10",
-      "status": "AUTHOR_APPROVED_FINAL_PROSE_PUBLISHED_2026_11_17",
+      "status": "AUTHOR_APPROVED_FINAL",
       "frozen": true
     },
     {
       "id": "S03-01",
       "source": "episode-03-reader.json",
       "chapter": "S03-01",
-      "status": "AUTHOR_APPROVED_FINAL_PROSE_PUBLISHED_2026_11_17",
+      "status": "AUTHOR_APPROVED_FINAL",
+      "frozen": true
+    },
+    {
+      "id": "SR11",
+      "source": "episode-03-reader.json",
+      "chapter": "SR11",
+      "status": "AUTHOR_APPROVED_FINAL",
+      "frozen": true
+    },
+    {
+      "id": "S03-05",
+      "source": "episode-03-reader.json",
+      "chapter": "S03-05",
+      "status": "AUTHOR_APPROVED_FINAL",
+      "frozen": true
+    },
+    {
+      "id": "S03-06",
+      "source": "episode-03-reader.json",
+      "chapter": "S03-06",
+      "status": "AUTHOR_APPROVED_FINAL",
+      "frozen": true
+    },
+    {
+      "id": "S03-07",
+      "source": "episode-03-reader.json",
+      "chapter": "S03-07",
+      "status": "AUTHOR_APPROVED_FINAL",
+      "frozen": true
+    },
+    {
+      "id": "S03-08",
+      "source": "episode-03-reader.json",
+      "chapter": "S03-08",
+      "status": "AUTHOR_APPROVED_FINAL",
       "frozen": true
     }
   ],
   "authorFinalLockThrough": {
     "date": "2026-01-01",
-    "time": "11:25",
-    "sceneId": "S03-01",
-    "label": "Strong-Chai Moment",
-    "status": "AUTHOR_APPROVED_FINAL_PROSE_PUBLISHED",
-    "note": "Existing EP02 final/frozen and EP03 SR10 + S03-01 final/frozen. SR11 DCP remains proposed and is not modified."
+    "time": "5:35–5:45 PM",
+    "sceneId": "S03-08",
+    "label": "Beat 13 — Chintu: The Register That Wasn't Changed",
+    "status": "AUTHOR_APPROVED_FINAL",
+    "note": "All seven reader entries approved by author 19 November 2026; older plot-only records are historical and not additional final scenes."
   },
   "episode04FuturePlan": {
     "path": "episode-04-shreya-future-plan.json",
@@ -431,5 +466,15 @@
     "identity": "Three disguised professional male trainers posing as inmates (male-side setup knows; female trainees do not)",
     "condition": "After personal training starts in Episode 03",
     "notes": "Old SR12 plot preserved in EP04 file; no timing assigned; retain Episode 03 Beat 06 number."
-  }
+  },
+  "historicalStatus": "SR10_AND_S03_01_FINAL_AUTHOR_APPROVED_PUBLISHED__LATER_EP03_BEATS_NOT_FULLY_LOCKED",
+  "historicalFinalLockThrough": {
+    "date": "2026-01-01",
+    "time": "11:25",
+    "sceneId": "S03-01",
+    "label": "Strong-Chai Moment",
+    "status": "AUTHOR_APPROVED_FINAL_PROSE_PUBLISHED",
+    "note": "Existing EP02 final/frozen and EP03 SR10 + S03-01 final/frozen. SR11 DCP remains proposed and is not modified."
+  },
+  "historicalTimelineNote": "Existing SR13 plan timeline and any earlier review labels are retained as historical planning and are not added to Episode 03 published scene count."
 }
