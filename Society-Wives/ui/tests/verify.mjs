@@ -100,6 +100,13 @@ assert.match(merged04b.status,/NOT_AUTHOR_APPROVED/);
 
 
 
+const readerPage=readFileSync(resolve(repo,'episode-04b-reader.html'),'utf8');
+const readerTemplate=readFileSync(resolve(ui,'public/episode-04b-reader.html'),'utf8');
+assert.equal(readerPage,readerTemplate,'Standalone Episode 04B reader must survive Vite rebuild');
+assert.equal(readFileSync(resolve(ui,'public/episode-04b-five-leads-merged-chronology.json'),'utf8'),readFileSync(resolve(repo,'episode-04b-five-leads-merged-chronology.json'),'utf8'),'Vite public timeline must match source');
+assert.equal(readFileSync(resolve(ui,'public/episode-04b-five-leads-prose-drafts.json'),'utf8'),readFileSync(resolve(repo,'episode-04b-five-leads-prose-drafts.json'),'utf8'),'Vite public prose must match source');
+assert.ok(readFileSync(resolve(ui,'index.html'),'utf8').includes('ep04b-reader-shortcut'),'Vite template must offer Episode 04B reader link');
+assert.ok(readFileSync(resolve(repo,'index.html'),'utf8').includes('ep04b-reader-shortcut'),'Current deployed index must offer Episode 04B reader link');
 const app=source('App.tsx'),reading=source('Reading.tsx'),planning=source('Planning.tsx');
 assert.ok(app.includes("['reading','Read Story']")&&app.includes("['planning','Episode 04 Plot']"));
 assert.ok(reading.includes('EpisodeSelector')&&reading.includes("episode==='01'")&&reading.includes("episode==='03'"));
