@@ -311,8 +311,8 @@
           "id": "E04B-SOC-AN-01",
           "start": "19:05",
           "end": "19:35",
-          "title": "Return after the Cyber City office",
-          "location": "Ankita apartment → shared society décor corridor",
+          "title": "Return from office: finish the filter repair, then event-light pickup",
+          "location": "Ankita kitchen filter and shared corridor decoration niche",
           "characters": [
             "Ankita",
             "Rinku (service update)"
@@ -325,8 +325,9 @@
             },
             {
               "id": "SOC-AN-02",
-              "title": "Rinku has a real service job",
-              "action": "Rinku is the society helper assigned to collect a leftover New Year LED dimmer and safely remove decorative wiring in the shared corridor. He is not suddenly a photographer, romantic confidant or participant in yesterday's Rohit encounter."
+              "title": "Actual connector callback first, lighting work second",
+              "action": "Rinku returns as a familiar helper because the Jan1 water-filter coupler was only temporarily secured. With the exact replacement part, he shuts water, completes the repair and checks pressure safely; no second spray or accidental physical contact. He also has a separate legitimate assignment to collect New Year corridor-light dimmer. Any later styling discussion is Ankita's separate voluntary choice, not an electrical safety task.",
+              "continuity": "Connect E04A-S01 A05 unfinished fitting to evening work before she invites an independent personal pose."
             }
           ],
           "track": "SOCIETY_CHOTU",
@@ -347,7 +348,7 @@
             {
               "id": "SOC-AN-03",
               "title": "New visual accent",
-              "action": "After getting ready for the evening at home, Ankita steps out in a deliberately chosen, more open-back festive drape that also shows her side waist and midriff. She removes the loose wrap she would normally use and looks toward Rinku only after he has finished the electrical safety check.",
+              "action": "After getting ready for the evening at home, Ankita steps out in a deliberately chosen, more open-back festive drape that also shows her side waist and midriff. She removes the loose wrap she would normally use and looks toward Rinku only after he has finished the electrical safety check. The leak has been repaired before she starts a personal conversation; she is not still standing in a wet kitchen.",
               "bodyParts": "Open back, shoulders, visible side waist and midriff; neckline",
               "actionName": "Intentional full back/waist reveal with wrap set aside",
               "sightline": "Common-space alcove with no secret locked room and no child involvement"
@@ -404,7 +405,29 @@
         "episode-04b-society-chotu-jan02-five-leads.json",
         "episode-04b-five-leads-prose-drafts.json"
       ],
-      "notes": "Morning is placed BEFORE office only when grounded; Shreya has a home continuity check, not an invented morning Chintu duty encounter."
+      "notes": "Morning is placed BEFORE office only when grounded; Shreya has a home continuity check, not an invented morning Chintu duty encounter.",
+      "dhikaInspiredProgression": [
+        {
+          "stage": "04A uncertainty",
+          "mechanism": "Filter leak made covered inner garment outline visible; Rinku abruptly quiet. No bare-breast or navel view established."
+        },
+        {
+          "stage": "Ordinary return",
+          "mechanism": "Morning verifies that exact replacement connector remains pending; Rinku finishes actual repair in evening before any personal interaction."
+        },
+        {
+          "stage": "Willing choice",
+          "mechanism": "After office Ankita removes her wrap of her own choosing, asks Rinku to look at selected festive drape, and proposes a single consensual non-recorded close pose."
+        },
+        {
+          "stage": "Reaction",
+          "mechanism": "Rinku names the safety worry from Jan1 and responds courteously to her chosen look; he does not confess an imagined sightline."
+        },
+        {
+          "stage": "After-effect",
+          "mechanism": "Ankita's warm cheeks, lingering hands and private thought contrast her intentional choice with Jan1 involuntary shock."
+        }
+      ]
     },
     {
       "id": "shivani",
@@ -786,7 +809,29 @@
         "episode-04b-society-chotu-jan02-five-leads.json",
         "episode-04b-five-leads-prose-drafts.json"
       ],
-      "notes": "Morning is placed BEFORE office only when grounded; Shreya has a home continuity check, not an invented morning Chintu duty encounter."
+      "notes": "Morning is placed BEFORE office only when grounded; Shreya has a home continuity check, not an invented morning Chintu duty encounter.",
+      "dhikaInspiredProgression": [
+        {
+          "stage": "04A uncertainty",
+          "mechanism": "Backstage latch sent Shivani close to Deepu; shirt grabbed, clothed upper back steadied. His confident answer left her unsure how personally he felt."
+        },
+        {
+          "stage": "Ordinary return",
+          "mechanism": "Morning poster/latch check with Deepu; her sister Kavya's independent spark remains separate."
+        },
+        {
+          "stage": "Willing choice",
+          "mechanism": "After Sunny's distinct office rehearsal, Shivani deliberately removes outer event wrap and invites Deepu into a mutually agreed three-count stage silhouette."
+        },
+        {
+          "stage": "Reaction",
+          "mechanism": "Deepu confidently marks her position, maintains boundaries and releases at her cue."
+        },
+        {
+          "stage": "After-effect",
+          "mechanism": "Shivani herself misses the easy comeback and has to process why his composure unsettled her."
+        }
+      ]
     },
     {
       "id": "taniya",
@@ -1179,7 +1224,29 @@
         "episode-04b-society-chotu-jan02-five-leads.json",
         "episode-04b-five-leads-prose-drafts.json"
       ],
-      "notes": "Morning is placed BEFORE office only when grounded; Shreya has a home continuity check, not an invented morning Chintu duty encounter."
+      "notes": "Morning is placed BEFORE office only when grounded; Shreya has a home continuity check, not an invented morning Chintu duty encounter.",
+      "dhikaInspiredProgression": [
+        {
+          "stage": "04A uncertainty",
+          "mechanism": "A trolley snagged her crossbody strap, drawing her to Guddu's forearm; clothing stayed fully in place, so there is no false breast/navel glimpse."
+        },
+        {
+          "stage": "Ordinary return",
+          "mechanism": "Morning registers that approval sleeve was returned, vendor page still pending; she leaves for CA office on time."
+        },
+        {
+          "stage": "Willing choice",
+          "mechanism": "After Punit's separate office close pose, Taniya chooses a different bridal home-trial outfit and invites Guddu into a no-photo mirror-frame pose."
+        },
+        {
+          "stage": "Reaction",
+          "mechanism": "Guddu responds with his own dry humour, keeps the pose brief, then returns to vendor paperwork."
+        },
+        {
+          "stage": "After-effect",
+          "mechanism": "Taniya feels self-aware about actually inviting attention while acknowledging fiancé Aditya and sister Soniya's separate life."
+        }
+      ]
     },
     {
       "id": "shreya",
@@ -1643,7 +1710,29 @@
         "episode-04b-society-chotu-jan02-five-leads.json",
         "episode-04b-five-leads-prose-drafts.json"
       ],
-      "notes": "Morning is placed BEFORE office only when grounded; Shreya has a home continuity check, not an invented morning Chintu duty encounter."
+      "notes": "Morning is placed BEFORE office only when grounded; Shreya has a home continuity check, not an invented morning Chintu duty encounter.",
+      "dhikaInspiredProgression": [
+        {
+          "stage": "04A uncertainty",
+          "mechanism": "Two top shirt buttons were loosened and two additional ones tore at apartment latch; exactly how much Chintu saw remains unknown."
+        },
+        {
+          "stage": "Ordinary return",
+          "mechanism": "Morning repaired uniform checked at home; no invented Chintu guard shift. Station chai Chotu is another man."
+        },
+        {
+          "stage": "Willing choice",
+          "mechanism": "Following an off-duty voluntary charm game and upper-back balm with station Chotu, Shreya asks Chintu to check replaced buttons; then unfastens and removes only OUTER uniform over opaque inner clothing herself."
+        },
+        {
+          "stage": "Reaction",
+          "mechanism": "Chintu courteously identifies her greater comfort and does not claim an exact Jan1 view."
+        },
+        {
+          "stage": "After-effect",
+          "mechanism": "Shreya experiences warm cheeks, finger tingling and quiet relief from reversing the earlier helpless moment without an involuntary tear."
+        }
+      ]
     },
     {
       "id": "meenakshi",
@@ -2059,7 +2148,35 @@
         "episode-04b-society-chotu-jan02-five-leads.json",
         "episode-04b-five-leads-prose-drafts.json"
       ],
-      "notes": "Morning is placed BEFORE office only when grounded; Shreya has a home continuity check, not an invented morning Chintu duty encounter."
+      "notes": "Morning is placed BEFORE office only when grounded; Shreya has a home continuity check, not an invented morning Chintu duty encounter.",
+      "dhikaInspiredProgression": [
+        {
+          "stage": "04A uncertainty",
+          "mechanism": "No Meenakshi–Babloo 04A accident. Their genuine Jan1 first personal scene is EP03: outfit compliment and offer to help with stalled car."
+        },
+        {
+          "stage": "Ordinary return",
+          "mechanism": "Morning Babloo offers a mechanic-status update, no repaired vehicle or made-up trip; Meenakshi uses a cab and attends shifted M08 11:00–11:40."
+        },
+        {
+          "stage": "Willing choice",
+          "mechanism": "After distinct hospital Naveen encounter, Meenakshi privately asks Babloo about her chosen evening sari; a brief lower-back pose follows only if welcomed."
+        },
+        {
+          "stage": "Reaction",
+          "mechanism": "Babloo notices her confidence without repeating the Jan1 flattering line or assuming more intimate access."
+        },
+        {
+          "stage": "After-effect",
+          "mechanism": "She separates curiosity and feeling from practical car problem, her role as mother to Vihaan and married life with Nikhil."
+        }
+      ]
     }
-  ]
+  ],
+  "scopes": {
+    "source": "Original Dhika Episode04 structure only, reauthored in five distinct adult character timelines.",
+    "sourceEvidence": "episode-04a-society-chotu-uncertainty-register.json",
+    "prose": "episode-04b-five-leads-prose-drafts.json",
+    "applied": "Every lead has a concrete, source-grounded initial incident, unresolved uncertainty, action with choice, observed reaction, and aftermath. No unsupported exposure percentage."
+  }
 }
