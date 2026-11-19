@@ -16,7 +16,7 @@ function Episode02Reading({character,scene}:Props){
  const safeHtml=DOMPurify.sanitize(html,{USE_PROFILES:{html:true},FORBID_ATTR:['href','target','rel'],FORBID_TAGS:['img','picture','svg','canvas']});
  // Episode 02 is author-approved in full. Keep historical archive metadata intact, but do not display obsolete per-scene review statuses.
  return <main className="page-width ep02-final-reader">
-  <header className="section-intro"><span className="eyebrow">The Story · 1 January 2026 · Author-approved final</span><h1>Episode 02</h1><p>The New Year's Unspoken Secrets · Entire existing episode approved and frozen; select a perspective.</p></header>
+  <header className="section-intro"><span className="eyebrow">The Story · 1 January 2026</span><h1>Episode 02</h1><p>The New Year's Unspoken Secrets · Choose a perspective.</p></header>
   <p className="reader-intro">Pick a character below, then continue scene by scene. Your place in this reading session is shown underneath.</p>
   <div role="group" aria-label="Choose character perspective" className="perspective-tabs">{peopleOrder.map(w=><button type="button" key={w} onClick={()=>openPage('reading',{character:w})} aria-pressed={w===active} className={w===active?'selected':''}>{titleCase(w)}</button>)}</div>
   <div className="reader-layout">
@@ -55,7 +55,7 @@ function Scene07RevisedProse(){
     <div className="ep03-beat-heading"><strong>{beat.id} · {beat.title}</strong><small>{beat.time}</small></div>
     {beat.segments.map((seg,i)=>seg.origin==='author'
       ?<div key={i} className="scene07-author-highlight" id={'scene07-change-'+beat.id+'-'+i} style={{borderLeft:'4px solid #d99f2f',backgroundColor:'rgba(218,158,48,0.16)',padding:'10px 14px',borderRadius:'8px',margin:'12px 0'}}>
-         <strong style={{fontSize:'0.78rem',letterSpacing:'0.04em'}}>AUTHOR'S CHANGE · HIGHLIGHTED</strong>
+         
          <StoryParagraphs raw={seg.text}/>
        </div>
       :<div key={i} className="scene07-original-text"><StoryParagraphs raw={seg.text}/></div>)}
@@ -75,7 +75,7 @@ function Scene08DraftProse(){
    </section>)}
  </section>;
 }
-const ShivaniParagraphs=({raw}:{raw:string})=><>{raw.replace(/^(#{1,3} [^\n]+)$/gm,'\n\n$1\n\n').split(/\n\s*\n/).filter(Boolean).map((part,i)=>{
+const ShivaniParagraphs=({raw}:{raw:string})=><>{raw.replace(/^(#{1,3} [^\n]+)$/gm,'\n\n$1\n\n').split(/\n\s*\n/).filter(Boolean).filter(part=>!/^\*{0,2}FINAL PUBLISHED EDITION\b/i.test(part.trim())).map((part,i)=>{
  const value=part.trim(),heading=value.match(/^(#{1,3})\s+([^\n]+)$/);
  if(heading)return heading[1].length===3?<h4 key={i}>{storyInline(heading[2])}</h4>:<h3 key={i}>{storyInline(heading[2])}</h3>;
  if(/^---+$/.test(value))return <hr key={i}/>;
@@ -84,7 +84,7 @@ const ShivaniParagraphs=({raw}:{raw:string})=><>{raw.replace(/^(#{1,3} [^\n]+)$/
 function ShivaniMergedProse({scene}:{scene:Ep03Scene}){
  return <div className="source-scene prose-exact ep03-original ep03-shivani-source">
   {(scene.segments||[]).map((part,i)=><section key={part.id||i} className={part.origin==='grok'?'ep03-shivani-grok':'ep03-shivani-base'} id={part.origin==='grok'?'ep03-shivani-insert-'+part.id:undefined} style={part.origin==='grok'?{borderLeft:'4px solid #c08a23',backgroundColor:'rgba(221,162,43,0.14)',padding:'12px 16px',borderRadius:'8px',margin:'14px 0'}:undefined}>
-   {part.origin==='grok'&&<p style={{fontSize:'0.8rem',fontWeight:800,letterSpacing:'0.04em'}}>GROK ADDITION · {part.id} · HIGHLIGHTED</p>}
+   
    <ShivaniParagraphs raw={part.raw}/>
   </section>)}
  </div>;
@@ -102,7 +102,7 @@ type Scene06CleanRevision={title:string;status:string;beats:{id:string;title:str
 function Scene06CleanVersion(){
  const {data,error,loading}=useData<Scene06CleanRevision>('episode-03-ankita-scene-06-clean-revision.json');
  return <section className="source-scene prose-exact ep03-original" id="scene06-clean-revision">
-  <h3>Scene 06 · Clean seven-beat review draft</h3>
+  <h3>Scene 06</h3>
   {loading&&<p role="status">Loading corrected seven-beat draft…</p>}
   {error&&<p role="alert">Scene 06 clean revision unavailable: {error}</p>}
   {(data?.beats||[]).map(beat=><section className="ep03-beat" id={'scene06-clean-'+beat.id} key={beat.id}>
@@ -119,7 +119,7 @@ function Episode03Reading({character,scene}:Props){
  const selectedIndex=scenes.findIndex(x=>x.id===selected?.id);
  const go=(id:string,who=active)=>openPage('reading',{episode:'03',character:who,scene:id});
  return <main className="page-width" id="episode03-final-prose">
-  <header className="section-intro"><span className="eyebrow">The Story · 1 January 2026</span><h1>Episode 03 · Prose</h1></header>
+  <header className="section-intro"><span className="eyebrow">The Story · 1 January 2026</span><h1>Episode 03</h1></header>
   <div className="perspective-tabs" role="group" aria-label="Choose prose character">
    {['ankita','shivani','meenakshi','shreya','taniya'].map(w=><button key={w} type="button" className={active===w?'selected':''} aria-pressed={active===w} onClick={()=>go(w==='shreya'?'10':'01',w)}>{titleCase(w)}</button>)}
   </div>
@@ -128,7 +128,7 @@ function Episode03Reading({character,scene}:Props){
   {data&&<div className="reader-layout">
    <aside className="scene-sidebar"><p className="aside-title">{titleCase(active)} · Episode 03</p>
     {scenes.map(s=><button type="button" key={s.id} className={'scene-link'+(selected?.id===s.id?' active':'')} aria-pressed={selected?.id===s.id} onClick={()=>go(s.id)}><span>Scene {s.id}<small className="ep03-scene-name">{s.title}</small></span></button>)}
-    <button type="button" className="button subtle ep03-planning-link" onClick={()=>openPage('planning',{lead:active})}>Unwritten plots →</button>
+    <button type="button" className="button subtle ep03-planning-link" onClick={()=>openPage('planning',{lead:active})}>Episode 04 planning →</button>
    </aside>
    <div className="reading-surface">{selected&&<>
     <div className="story-toolbar"><span>{titleCase(active)} · Scene {selected.id}</span></div>

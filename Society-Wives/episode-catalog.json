@@ -1,7 +1,7 @@
 {
   "series": "Society Wives — Five Veils of Desire",
-  "catalogVersion": "2026-11-14",
-  "policy": "Episode 01 and all existing Episode 02 story material are author-approved and frozen as of 2026-11-17; historical scene-status/provenance metadata and missing prose are retained in raw sources. Episode 03 prose completeness and approval are tracked separately. Future plots are not automatically canon prose.",
+  "catalogVersion": "2026-11-19-EP03-FINAL",
+  "policy": "Episodes 01 and 02 and all 34 existing Episode 03 reader scenes are author-approved final. Episode 04A and 04B are separately tracked as plots and drafts. Historical sources are retained.",
   "episodes": [
     {
       "number": "01",
@@ -92,10 +92,10 @@
     },
     {
       "number": "03",
-      "title": "Continuations",
-      "subtitle": "Meenakshi Jan 1 continuation; older future-day drafts retained",
-      "status": "EP03_WRITTEN_TEXT_IN_READER__UNWRITTEN_PLOTS_IN_PLANNING__MIXED_PROSE_APPROVAL",
-      "date": "1 January 2026 for Meenakshi Scene 01; separate 2–3 January drafts remain",
+      "title": "The New Year's Continuing Encounters",
+      "subtitle": "Five perspectives · 34 final scenes",
+      "status": "AUTHOR_APPROVED_FINAL_FROZEN",
+      "date": "2026-01-01",
       "mainPath": "index.html#/reading?episode=03&character=ankita&scene=01",
       "relatedPaths": [
         "episode-03-reader.json",
@@ -114,8 +114,352 @@
         "episode-03-shreya-plan.json",
         "episode-03-meenakshi-planning.html"
       ],
-      "note": "All written Ankita Scenes 01–08, Meenakshi Scenes 01–04 and Shreya's available written SR10/Strong-Chai/DCP scenes are in unified Episode Reading, with their existing distinct prose approval statuses preserved. Planning displays remaining unwritten EP03 story beats and future setups only. Taniya–Soniya's 12-beat plot is author-approved but prose is unwritten; Shivani Episode 03 plot remains in Planning. The global Jan1 chronology is synchronized, without rewriting source prose or future plot files.",
+      "note": "All 34 existing Episode 03 reader scenes approved final 19 November 2026: Ankita 8, Shivani 3, Taniya 12 (Soniya shared homecoming), Meenakshi 4, Shreya 7. Superseded plot-only plans remain historical sources.",
       "chapters": [
+        {
+          "lead": "Ankita",
+          "sceneId": "01",
+          "title": "Rajeev’s Parcel Call & Private Afterbeat",
+          "date": "2026-01-01",
+          "time": "13:05–13:15",
+          "place": "Cyber City office / Gulmohar Heights",
+          "status": "AUTHOR_APPROVED_FINAL",
+          "readerRoute": "#/reading?episode=03&character=ankita&scene=01"
+        },
+        {
+          "lead": "Ankita",
+          "sceneId": "02",
+          "title": "The Five-Person Stamina Challenge",
+          "date": "2026-01-01",
+          "time": "13:15–13:45",
+          "place": "Cyber City IT office",
+          "status": "AUTHOR_APPROVED_FINAL",
+          "readerRoute": "#/reading?episode=03&character=ankita&scene=02"
+        },
+        {
+          "lead": "Ankita",
+          "sceneId": "03",
+          "title": "The Private Briefing — Beauty Test & Aishwarya’s Cliff",
+          "date": "2026-01-01",
+          "time": "14:30–15:10 (Beats 1–3; no 20-minute presentation)",
+          "place": "Cyber City IT office · private briefing room",
+          "status": "AUTHOR_APPROVED_FINAL",
+          "readerRoute": "#/reading?episode=03&character=ankita&scene=03"
+        },
+        {
+          "lead": "Ankita",
+          "sceneId": "04",
+          "title": "Office Chotu — Rohit Babu’s Introduction",
+          "date": "2026-01-01",
+          "time": "From approx. 15:15 (within proposed 15:10–16:00 window)",
+          "place": "Cyber City IT office · Ankita’s desk / support bay",
+          "status": "AUTHOR_APPROVED_FINAL",
+          "readerRoute": "#/reading?episode=03&character=ankita&scene=04"
+        },
+        {
+          "lead": "Ankita",
+          "sceneId": "05",
+          "title": "Three Against Two — The Surprise Ride",
+          "date": "2026-01-01",
+          "time": "16:00–16:40 (proposed)",
+          "place": "Gurgaon · office exit → Reyansh’s car → nearby surprise venue",
+          "status": "AUTHOR_APPROVED_FINAL",
+          "readerRoute": "#/reading?episode=03&character=ankita&scene=05"
+        },
+        {
+          "lead": "Ankita",
+          "sceneId": "06",
+          "title": "The Stamina Challenge — The Five-Person Dance",
+          "date": "2026-01-01",
+          "time": "16:40–17:20",
+          "place": "Private dance floor; exact venue not yet finalized",
+          "status": "AUTHOR_APPROVED_FINAL",
+          "readerRoute": "#/reading?episode=03&character=ankita&scene=06"
+        },
+        {
+          "lead": "Ankita",
+          "sceneId": "07",
+          "title": "The Unexpected Hold — Ankita, Karan & Aman",
+          "date": "2026-01-01",
+          "time": "17:20–17:50",
+          "place": "Gurgaon · lounge exit → twin pickup → scooty & bike → Gulmohar Heights",
+          "status": "AUTHOR_APPROVED_FINAL",
+          "readerRoute": "#/reading?episode=03&character=ankita&scene=07"
+        },
+        {
+          "lead": "Ankita",
+          "sceneId": "08",
+          "title": "The Quiet Reset — Rinku at the Door",
+          "date": "2026-01-01",
+          "time": "18:10–18:25",
+          "place": "Gulmohar Heights · Ankita apartment",
+          "status": "AUTHOR_APPROVED_FINAL",
+          "readerRoute": "#/reading?episode=03&character=ankita&scene=08"
+        },
+        {
+          "lead": "Meenakshi",
+          "sceneId": "01",
+          "title": "The Glance at the Corridor",
+          "date": "2026-01-01",
+          "time": "13:50–14:15",
+          "place": "Hospital",
+          "status": "AUTHOR_APPROVED_FINAL",
+          "readerRoute": "#/reading?episode=03&character=meenakshi&scene=01"
+        },
+        {
+          "lead": "Meenakshi",
+          "sceneId": "02",
+          "title": "The Farmhouse Evening",
+          "date": "2026-01-01",
+          "time": "17:00 onward; scene closed at F19",
+          "place": "Hospital / Farmhouse / return drive",
+          "status": "AUTHOR_APPROVED_FINAL",
+          "readerRoute": "#/reading?episode=03&character=meenakshi&scene=02"
+        },
+        {
+          "lead": "Meenakshi",
+          "sceneId": "03",
+          "title": "The Badminton Bet",
+          "date": "2026-01-01",
+          "time": "Evening proposed; time under review",
+          "place": "Gulmohar Heights",
+          "status": "AUTHOR_APPROVED_FINAL",
+          "readerRoute": "#/reading?episode=03&character=meenakshi&scene=03"
+        },
+        {
+          "lead": "Meenakshi",
+          "sceneId": "04",
+          "title": "The First Different Look — Babloo",
+          "date": "2026-01-01",
+          "time": "Evening; exact time provisional",
+          "place": "Tower C lobby",
+          "status": "AUTHOR_APPROVED_FINAL",
+          "readerRoute": "#/reading?episode=03&character=meenakshi&scene=04"
+        },
+        {
+          "lead": "Shreya",
+          "sceneId": "10",
+          "title": "SR10 / Beat 02 — The Unexpected Review",
+          "date": "2026-01-01",
+          "time": "10:30–11:10 AM",
+          "place": "Police Station — Training/Assessment Room",
+          "status": "AUTHOR_APPROVED_FINAL",
+          "readerRoute": "#/reading?episode=03&character=shreya&scene=10"
+        },
+        {
+          "lead": "Shreya",
+          "sceneId": "S03-01",
+          "title": "Beat 03 — The Strong-Chai Moment (Station Chotu)",
+          "date": "2026-01-01",
+          "time": "11:12–11:25 AM",
+          "place": "Police Station — Authorized Tea Counter",
+          "status": "AUTHOR_APPROVED_FINAL",
+          "readerRoute": "#/reading?episode=03&character=shreya&scene=S03-01"
+        },
+        {
+          "lead": "Shreya",
+          "sceneId": "SR11",
+          "title": "Beat 04 — DCP Rathod: The Review and Private Imagined Evening",
+          "date": "2026-01-01",
+          "time": "11:30–11:40 AM",
+          "place": "District Police Reporting Room",
+          "status": "AUTHOR_APPROVED_FINAL",
+          "readerRoute": "#/reading?episode=03&character=shreya&scene=SR11"
+        },
+        {
+          "lead": "Shreya",
+          "sceneId": "S03-05",
+          "title": "Beat 10 — The Training Ground Challenge · Consolidated Grok-Synced Prose",
+          "date": "2026-01-01",
+          "time": "3:40–4:05 PM",
+          "place": "Police Station Training Ground",
+          "status": "AUTHOR_APPROVED_FINAL",
+          "readerRoute": "#/reading?episode=03&character=shreya&scene=S03-05"
+        },
+        {
+          "lead": "Shreya",
+          "sceneId": "S03-06",
+          "title": "Beat 11 — Two-Line Return & Recollection",
+          "date": "2026-01-01",
+          "time": "4:05–5:05 PM",
+          "place": "Police Station → Gulmohar Heights",
+          "status": "AUTHOR_APPROVED_FINAL",
+          "readerRoute": "#/reading?episode=03&character=shreya&scene=S03-06"
+        },
+        {
+          "lead": "Shreya",
+          "sceneId": "S03-07",
+          "title": "Beat 12 — Samar & Shaan: One Coordinated Interception",
+          "date": "2026-01-01",
+          "time": "5:10–5:33 PM",
+          "place": "Gulmohar Heights Fitness Courtyard",
+          "status": "AUTHOR_APPROVED_FINAL",
+          "readerRoute": "#/reading?episode=03&character=shreya&scene=S03-07"
+        },
+        {
+          "lead": "Shreya",
+          "sceneId": "S03-08",
+          "title": "Beat 13 — Chintu: The Register That Wasn't Changed",
+          "date": "2026-01-01",
+          "time": "5:35–5:45 PM",
+          "place": "Gulmohar Heights Security Desk",
+          "status": "AUTHOR_APPROVED_FINAL",
+          "readerRoute": "#/reading?episode=03&character=shreya&scene=S03-08"
+        },
+        {
+          "lead": "Shivani",
+          "sceneId": "01",
+          "title": "The Presentation Nobody Heard",
+          "date": "2026-01-01",
+          "time": "13:40–14:10",
+          "place": "Gurgaon Arts & Science College · presentation room",
+          "status": "AUTHOR_APPROVED_FINAL",
+          "readerRoute": "#/reading?episode=03&character=shivani&scene=01"
+        },
+        {
+          "lead": "Shivani",
+          "sceneId": "02",
+          "title": "The Candid Frame",
+          "date": "2026-01-01",
+          "time": "17:00–17:20",
+          "place": "Gurgaon Arts & Science College · staffroom",
+          "status": "AUTHOR_APPROVED_FINAL",
+          "readerRoute": "#/reading?episode=03&character=shivani&scene=02"
+        },
+        {
+          "lead": "Shivani",
+          "sceneId": "03",
+          "title": "Return to Gulmohar Heights",
+          "date": "2026-01-01",
+          "time": "17:20–17:57",
+          "place": "Gurgaon Arts & Science College → Gulmohar Heights society parking and foyer",
+          "status": "AUTHOR_APPROVED_FINAL",
+          "readerRoute": "#/reading?episode=03&character=shivani&scene=03"
+        },
+        {
+          "lead": "Taniya",
+          "sceneId": "01",
+          "title": "The Wedding Girl — Four-Person Circle",
+          "date": "2026-01-01",
+          "time": "10:50–11:05 AM",
+          "place": "Gurgaon CA office · audit desks",
+          "status": "AUTHOR_APPROVED_FINAL",
+          "readerRoute": "#/reading?episode=03&character=taniya&scene=01"
+        },
+        {
+          "lead": "Taniya",
+          "sceneId": "02",
+          "title": "The Filing Drawer — A Close Call",
+          "date": "2026-01-01",
+          "time": "11:05–11:45 AM",
+          "place": "Gurgaon CA office · filing cabinet and audit desks",
+          "status": "AUTHOR_APPROVED_FINAL",
+          "readerRoute": "#/reading?episode=03&character=taniya&scene=02"
+        },
+        {
+          "lead": "Taniya",
+          "sceneId": "03",
+          "title": "Senior Review — The Hidden Uncle Track",
+          "date": "2026-01-01",
+          "time": "11:45 AM–12:25 PM",
+          "place": "Gurgaon CA office · conference room",
+          "status": "AUTHOR_APPROVED_FINAL",
+          "readerRoute": "#/reading?episode=03&character=taniya&scene=03"
+        },
+        {
+          "lead": "Taniya",
+          "sceneId": "04",
+          "title": "Office Chotu Punit Enters",
+          "date": "2026-01-01",
+          "time": "12:25–13:15",
+          "place": "Gurgaon CA office · corridor, records desks",
+          "status": "AUTHOR_APPROVED_FINAL",
+          "readerRoute": "#/reading?episode=03&character=taniya&scene=04"
+        },
+        {
+          "lead": "Taniya",
+          "sceneId": "05",
+          "title": "Lunch & Laughter",
+          "date": "2026-01-01",
+          "time": "13:15–14:15",
+          "place": "Gurgaon CA office · cafeteria",
+          "status": "AUTHOR_APPROVED_FINAL",
+          "readerRoute": "#/reading?episode=03&character=taniya&scene=05"
+        },
+        {
+          "lead": "Taniya",
+          "sceneId": "06",
+          "title": "A Small Celebration — Andrea & Chirag",
+          "date": "2026-01-01",
+          "time": "14:15–15:15",
+          "place": "Gurgaon CA office · audit department",
+          "status": "AUTHOR_APPROVED_FINAL",
+          "readerRoute": "#/reading?episode=03&character=taniya&scene=06"
+        },
+        {
+          "lead": "Taniya",
+          "sceneId": "07",
+          "title": "The Second Flat — An Active Address",
+          "date": "2026-01-01",
+          "time": "15:15–16:20",
+          "place": "Gurgaon CA office · audit desks",
+          "status": "AUTHOR_APPROVED_FINAL",
+          "readerRoute": "#/reading?episode=03&character=taniya&scene=07"
+        },
+        {
+          "lead": "Taniya",
+          "sceneId": "08",
+          "title": "Uncle's Second Look",
+          "date": "2026-01-01",
+          "time": "16:20–17:30",
+          "place": "Gurgaon CA office · partner review room",
+          "status": "AUTHOR_APPROVED_FINAL",
+          "readerRoute": "#/reading?episode=03&character=taniya&scene=08"
+        },
+        {
+          "lead": "Taniya",
+          "sceneId": "09",
+          "title": "The Last Office Hours",
+          "date": "2026-01-01",
+          "time": "17:30–19:30",
+          "place": "Gurgaon CA office · closing shift",
+          "status": "AUTHOR_APPROVED_FINAL",
+          "readerRoute": "#/reading?episode=03&character=taniya&scene=09"
+        },
+        {
+          "lead": "Taniya",
+          "sceneId": "10",
+          "title": "Guddu — The Wedding Quotation",
+          "date": "2026-01-01",
+          "time": "20:08–20:15",
+          "place": "Gulmohar Heights society · service desk",
+          "status": "AUTHOR_APPROVED_FINAL",
+          "readerRoute": "#/reading?episode=03&character=taniya&scene=10"
+        },
+        {
+          "lead": "Taniya",
+          "sceneId": "11",
+          "title": "Karan & Aman — The Unexpected Lobby Collision",
+          "date": "2026-01-01",
+          "time": "20:16–20:24 (proposed)",
+          "place": "Gurugram society · foyer and elevator",
+          "status": "AUTHOR_APPROVED_FINAL",
+          "readerRoute": "#/reading?episode=03&character=taniya&scene=11"
+        },
+        {
+          "lead": "Taniya",
+          "sceneId": "12",
+          "title": "Soniya & Rahul — The Homecoming and the Unsaid Morning",
+          "date": "2026-01-01",
+          "time": "20:25–21:00 (proposed)",
+          "place": "Tower C · Soniya and Rahul's flat",
+          "status": "AUTHOR_APPROVED_FINAL",
+          "readerRoute": "#/reading?episode=03&character=taniya&scene=12"
+        }
+      ],
+      "archivedCatalogNote": "Old draft/review entries are preserved under historicalCatalogEntries only and no longer represent publication status.",
+      "readerDataPath": "episode-03-reader.json",
+      "historicalCatalogEntries": [
         {
           "lead": "Ankita",
           "title": "Rajeev's Parcel Call & Private Afterbeat — Scene 01",
@@ -200,18 +544,30 @@
           "description": "Archived earlier Jan2 proposal, not current EP03 Scene 01. 14 chronological slots incl retained M08; 60 microbeats; hospital Avi/Yash/Aditi, Naveen; car ride; society Uday/Utkarsh and Babloo; second knock."
         }
       ],
-      "archivedCatalogNote": "Scene01 Jan1 13:50–14:15 now author-approved compact prose published; M12 locker thought has passed; Naveen is a 1.5-year familiar coworker; Scene02 Jan1 from 17:00: author approved Grok compact redlines F01–F04; F06 second Grok submission confirmed as direct continuation, original F05–F09 text visible as drafts. Original raw archive and prior GPT edits retained separately. F10–F22 still outline only; Scene03 same-day society twins badminton around 18:15 is review-only proposal, NOT timeline-approved until Scene02 return travel is feasible. EP04 Naveen 14:15 continuation open, no follow-up published. Older Jan2 planner preserved. Scene03 former doubles invitation deferred and old ending removed; new five-minute ride proposal now archived as user-verbatim planning requirement, full prose not approved. Meenakshi EP03 now ends after Babloo B01–B05 approved first personal encounter at Tower C; next-day car assistance is a possible EP04 follow-up; no doorbell-only ending.",
-      "readerDataPath": "episode-03-reader.json"
+      "approvalDate": "2026-11-19"
     },
     {
       "number": "04",
-      "title": "Meenakshi × Naveen — Cut-Point",
-      "subtitle": "Scene to be discussed",
-      "status": "HANDOFF_ONLY_NOT_WRITTEN",
+      "title": "Episode 04A — Evening Continuations",
+      "subtitle": "January 1 evening · story plotting",
+      "status": "EP04A_PLOT_DOCUMENTED_FULL_PROSE_NOT_FINAL",
       "date": "2026-01-01",
       "start": "14:15",
-      "mainPath": "episode-04-meenakshi-cutpoint.html",
-      "note": "Direct continuation from EP03 Meenakshi Scene 01; no EP04 scene actions or prose have been approved. Babloo's first personal encounter is approved in EP03 B01–B05; potential car-recovery follow-up can occur later, kept separate from unresolved 14:15 Naveen handoff."
+      "mainPath": "index.html#/planning?lead=ankita&part=A",
+      "note": "04A contains 23 planned scene entries in four source plans (Ankita, Shivani, Shreya, shared Taniya/Soniya). Meenakshi has continuity and handoff notes, not a full standalone 04A plan. Part 1 prose has not been author-approved final.",
+      "historicalHandoff": {
+        "title": "Meenakshi × Naveen — Cut-Point",
+        "status": "HANDOFF_ONLY_NOT_WRITTEN",
+        "mainPath": "episode-04-meenakshi-cutpoint.html",
+        "note": "Direct continuation from EP03 Meenakshi Scene 01; no EP04 scene actions or prose have been approved. Babloo's first personal encounter is approved in EP03 B01–B05; potential car-recovery follow-up can occur later, kept separate from unresolved 14:15 Naveen handoff."
+      },
+      "plottedScenesByLead": {
+        "ankita": 7,
+        "shivani": 7,
+        "shreya": 4,
+        "taniya-soniya": 5
+      },
+      "totalStandalonePlottedScenes": 23
     }
   ]
 }
