@@ -15,6 +15,9 @@ type MergedDay={title:string;date:string;status:string;leads:{id:string;name:str
 type ProseLine={kind:'narration'|'dialogue'|'thought';speaker?:string;text:string};
 type ProseScene={id:string;start:string;end:string;title:string;location:string;sourceRefs:string[];lines:ProseLine[];approval:string};
 type ProseDraft={title:string;status:string;chapters:{id:string;name:string;scenes:ProseScene[]}[]};
+type UnifiedProseScene={id:string;time:string;title:string;status:string;paragraphs:string[]};
+type UnifiedLead={id:string;name:string;officeChotu:string;societyChotu:string;source04A:string;oldQuestion:string;chronologicalScenes:Scene[];proseScenes:UnifiedProseScene[];endTime:string};
+type UnifiedDay={title:string;status:string;date:string;leads:UnifiedLead[]};
 type ContinuityRecord={id:string;name:string;societyChotu:string;reference:string;incident:string;visibleConfirmed:string;bodyRegions:{chestBreast:string;navelAbdomen:string;back:string;hipsButtocks:string};touchConfirmed:string;herResponse:string;hisResponse:string;uncertainty:string;proposed04AMicrobeat:string;followUp04B:string;dontRepeat:string;reviewStatus:string};
 type ContinuityMaster={title:string;status:string;leads:ContinuityRecord[]};
 
@@ -42,7 +45,7 @@ function BeatDetails({beat}:{beat:Beat}){
 function SceneDetails({scene,index}:{scene:Scene;index:number}){
  const number=scene.sceneNumber||scene.number||scene.scene||String(index+1).padStart(2,'0');
  return <details className="episode-outline" open={index===0} id={'episode04-scene-'+(scene.id||number)}>
-  <summary><strong>Scene {number} · {scene.title}</strong>{scene.track==='OTHER_COLLEAGUES'&&<span> · Colleague track</span>}{scene.track==='SOCIETY_CHOTU'&&<span> · Society Chotu</span>}{scene.track==='SOCIETY_BEFORE_OFFICE'&&<span> · Society before office</span>}{scene.track==='HOME_BEFORE_OFFICE'&&<span> · Home before office</span>} {scene.start&&<span>· {scene.start}{scene.end?'–'+scene.end:''}</span>}</summary>
+  <summary><strong>Scene {number} · {scene.title}</strong>{scene.track==='OTHER_COLLEAGUES'&&<span> · Colleague track</span>}{scene.track==='SOCIETY_CHOTU'&&<span> · Society Chotu</span>}{scene.track==='SOCIETY_MORNING_BRIDGE'&&<span> · Morning society</span>}{scene.track==='OFFICE_CHOTU_WORKDAY'&&<span> · Office day</span>}{scene.track==='SOCIETY_BEFORE_OFFICE'&&<span> · Society before office</span>}{scene.track==='HOME_BEFORE_OFFICE'&&<span> · Home before office</span>} {scene.start&&<span>· {scene.start}{scene.end?'–'+scene.end:''}</span>}</summary>
   {scene.location&&<p className="muted">{scene.location}</p>}
   <div className="continuity-cards">{(scene.beats||[]).map(b=><BeatDetails key={b.id} beat={b}/>)}</div>
  </details>;
@@ -70,6 +73,16 @@ function ContinuityDetails({record,part}:{record:ContinuityRecord;part:'A'|'B'})
    <p><strong>04B deliberate check / saved continuation:</strong> {record.followUp04B}</p>
    <p><strong>Do not repeat or invent:</strong> {record.dontRepeat}</p>
   </details>
+ </section>;
+}
+function UnifiedProseDetails({scenes,lead}:{scenes:UnifiedProseScene[];lead:string}){
+ return <section className="episode-plan-card" id={'episode04b-working-prose-'+lead}>
+  <h3>Episode 04B · {titleCase(lead)} · Expanded prose draft</h3>
+  <p className="muted">Five detailed connected prose scenes: morning Society continuity, office Chotu, deliberate office choice, after-office Society Chotu and private after-effect. These drafts are NOT approved final prose.</p>
+  {scenes.map((scene,i)=><details className="episode-outline" key={scene.id} id={'episode04b-prose-scene-'+scene.id} open={i===0}>
+   <summary><strong>Prose {i+1} · {scene.title}</strong> · {scene.time}</summary>
+   <div className="reading-surface">{scene.paragraphs.map((p,j)=><p key={j}>{p}</p>)}</div>
+  </details>)}
  </section>;
 }
 function ProseDetails({chapter}:{chapter:ProseDraft['chapters'][number]}){
@@ -110,13 +123,15 @@ export default function Planning({lead='ankita',part='A'}:{lead?:string;part?:st
  const {data:continuity,error:continuityError}=useData<ContinuityMaster>('episode-04a-society-chotu-uncertainty-register.json');
  const {data:mergedDay,error:mergedError}=useData<MergedDay>('episode-04b-five-leads-merged-chronology.json');
  const {data:proseDraft,error:proseError}=useData<ProseDraft>('episode-04b-five-leads-prose-drafts.json');
+ const {data:unifiedDay,error:unifiedError}=useData<UnifiedDay>('episode-04b-jan02-merged-day-five-leads.json');
  const doc=active==='ankita'?ankita:active==='shivani'?shivani:active==='shreya'?shreya:active==='taniya'||active==='soniya'?taniya:null;
- const error=ankitaError||shivaniError||shreyaError||taniyaError||workshopError||ankitaArchiveError||officeDayError||societyDayError||continuityError||mergedError||proseError;
+ const error=ankitaError||shivaniError||shreyaError||taniyaError||workshopError||ankitaArchiveError||officeDayError||societyDayError||continuityError||mergedError||proseError||unifiedError;
  const officeLead=officeDay?.leads.find(x=>x.id===active);
  const societyLead=societyDay?.leads.find(x=>x.id===active);
  const continuityRecord=continuity?.leads.find(x=>x.id===active);
  const mergedLead=mergedDay?.leads.find(x=>x.id===active);
  const proseChapter=proseDraft?.chapters.find(x=>x.id===active);
+ const unifiedLead=unifiedDay?.leads.find(x=>x.id===active);
  const tracks=active==='meenakshi'?[]:active==='ankita'?(ankitaArchive?.tracks||[]):(workshop?.leads.find(x=>x.id===active)?.tracks||[]);
  const go=(who:string=active,p:'A'|'B'=selectedPart)=>openPage('planning',{lead:who,part:p});
  return <main className="page-width">
@@ -142,8 +157,8 @@ export default function Planning({lead='ankita',part='A'}:{lead?:string;part?:st
      <p className="muted">Merged 2 January timeline: society/home before work → office Chotu and colleagues → society Chotu after work. Working prose is available below; it is not yet author-approved.</p>
      {continuityRecord&&<ContinuityDetails record={continuityRecord} part="B"/>}
      {societyLead&&<div className="episode-plan-card"><h3>Society Chotu continuation · {societyLead.chotu}</h3><p className="muted">After office · {societyLead.societyWindow} · Twins absent</p><p><strong>Chosen styling:</strong> {societyLead.visualSignature}</p><p><strong>Physical choice:</strong> {societyLead.chosenAction}</p><p><strong>Character escalation:</strong> {societyLead.personalEscalation}</p></div>}
-     {(mergedLead?.events||[...(officeLead.scenes||[]),...(officeLead.secondaryEncounters||[]),...(societyLead?.scenes||[])].sort((a,b)=>(a.start||'').localeCompare(b.start||''))).map((s,i)=><SceneDetails key={s.id||i} scene={s} index={i}/>)}
-     {proseChapter&&<ProseDetails chapter={proseChapter}/>}
+     {(unifiedLead?.chronologicalScenes||mergedLead?.events||[...(officeLead.scenes||[]),...(officeLead.secondaryEncounters||[]),...(societyLead?.scenes||[])].sort((a,b)=>(a.start||'').localeCompare(b.start||''))).map((s,i)=><SceneDetails key={s.id||i} scene={s} index={i}/>)}
+     {unifiedLead?<UnifiedProseDetails scenes={unifiedLead.proseScenes} lead={active}/>:proseChapter?<ProseDetails chapter={proseChapter}/>:null}
     </section>
    :tracks.length?<section id="episode04-next-day"><h2>Episode 04B · {titleCase(active)}</h2><WorkshopDetails tracks={tracks}/></section>
    :<p role="status">Loading Episode 04B plot…</p>}
