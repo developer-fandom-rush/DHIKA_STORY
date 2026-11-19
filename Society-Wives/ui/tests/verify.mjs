@@ -69,6 +69,35 @@ for(const [lead,chotu] of Object.entries(societyPairs)){
  assert.ok(!plot.scenes.some(s=>s.beats.some(b=>/\bkiss\b/i.test(b.actionName||''))),'Kissing is excluded for '+lead);
 }
 assert.match(read('episode-04b-meenakshi-jan02-discussion-plan.json').status,/REJECTED/,'Old rejected plot must remain rejected');
+const merged04b=read('episode-04b-five-leads-merged-chronology.json');
+const prose04b=read('episode-04b-five-leads-prose-drafts.json');
+assert.equal(merged04b.date,'2026-01-02');
+assert.equal(merged04b.leads.length,5);
+assert.equal(prose04b.chapters.length,5);
+for(const lead of ['ankita','shivani','taniya','shreya','meenakshi']){
+ const chapter=prose04b.chapters.find(x=>x.id===lead);
+ const timeline=merged04b.leads.find(x=>x.id===lead);
+ const office=office04b.leads.find(x=>x.id===lead);
+ const society=society04b.leads.find(x=>x.id===lead);
+ assert.ok(timeline&&chapter&&office&&society,'missing merged/prose lead '+lead);
+ assert.equal(chapter.scenes.length,4,'Four draft prose scenes needed for '+lead);
+ assert.equal(timeline.events.length,1+office.scenes.length+office.secondaryEncounters.length+society.scenes.length,'Chronology must include all original scenes without duplication for '+lead);
+ assert.equal(timeline.events[0].sourceProseId,chapter.scenes[0].id,'Morning society/home callback must link prose for '+lead);
+ assert.ok(timeline.events.every((scene,i,arr)=>i===0||scene.start>=arr[i-1].start),'Unsorted timeline for '+lead);
+ assert.ok(timeline.events.some(e=>e.track==='SOCIETY_CHOTU'),'After-office society Chotu missing '+lead);
+ assert.ok(timeline.events.some(e=>e.track==='OTHER_COLLEAGUES'),'Other colleague track missing '+lead);
+ assert.equal(timeline.dhikaInspiredProgression.length,5,'Source-derived emotional progression must be five clear beats '+lead);
+ assert.deepEqual(timeline.proseSceneIds,chapter.scenes.map(x=>x.id),'Prose IDs do not match for '+lead);
+ for(const prose of chapter.scenes){
+  assert.ok(prose.start<prose.end,'Invalid prose time '+prose.id);
+  assert.ok(prose.lines.length>=3,'Vague/empty prose scene '+prose.id);
+  assert.ok(prose.lines.every(line=>line.text&&['narration','dialogue','thought'].includes(line.kind)),'Invalid prose block '+prose.id);
+ }
+ assert.ok(!/\b(Karan|Aman|Uday|Utkarsh|Samar|Shaan|Harsh|Laksh)\b/.test(timeline.events.flatMap(e=>e.characters).join(' ')),'Twins must be absent on 2 Jan in all tracks '+lead);
+}
+assert.match(prose04b.status,/NOT_AUTHOR_APPROVED/);
+assert.match(merged04b.status,/NOT_AUTHOR_APPROVED/);
+
 
 
 const app=source('App.tsx'),reading=source('Reading.tsx'),planning=source('Planning.tsx');
@@ -76,6 +105,7 @@ assert.ok(app.includes("['reading','Read Story']")&&app.includes("['planning','E
 assert.ok(reading.includes('EpisodeSelector')&&reading.includes("episode==='01'")&&reading.includes("episode==='03'"));
 assert.ok(planning.includes("Episode 04 · Plot Planning")&&planning.includes('episode-04a-ankita-plan.json')&&planning.includes('episode-04-chotu-six-leads-review.json'));
 assert.ok(planning.includes('episode-04a-society-chotu-uncertainty-register.json')&&planning.includes('ContinuityDetails record={continuityRecord} part="A"')&&planning.includes('ContinuityDetails record={continuityRecord} part="B"'),'04A/04B must display source-verified visual/touch continuity');
+assert.ok(planning.includes('episode-04b-five-leads-merged-chronology.json')&&planning.includes('episode-04b-five-leads-prose-drafts.json')&&planning.includes('ProseDetails chapter={proseChapter}'),'04B must show merged chronology and actual prose drafts');
 assert.ok(!app.includes('Gallery')&&!app.includes('Characters'),'Unused image and character screens should not be rendered');
 assert.ok(!/<img\b/i.test(app+reading+planning+source('Home.tsx')),'Published Society Wives UI must not request image assets');
 for(const path of ['Gallery.tsx','FemaleLibrary.tsx','Characters.tsx','data/gallery.json','data/female-library.json'])assert.ok(!existsSync(resolve(ui,'src/'+path)),'Unused UI module still present: '+path);
