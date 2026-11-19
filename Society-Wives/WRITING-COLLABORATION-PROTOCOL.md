@@ -1,6 +1,6 @@
 # Society Wives — Author, ChatGPT & External Writer Collaboration Protocol
 
-**Version:** 1.0 · **Status:** Workflow guidance; NOT approved story canon · **Creative director:** Author  
+**Version:** 1.1 · **Status:** Workflow guidance; NOT approved story canon · **Creative director:** Author  
 **Applies to:** Society Wives story discussions, scene drafting, external-writer handoffs, reviews and continuity audits.  
 **Purpose:** Preserve the author's choices while allowing different writers to contribute different prose styles without silently rewriting the plot.
 
@@ -44,6 +44,53 @@ Narrative intensity must follow **significant change**, not be applied to every 
 
 **Precision rule:** Not every dimension goes in every paragraph. Use only what is motivated by source and point of view. Do not replace an author-stated private motivation with the vague word "comfortable" if that loses the intended causal meaning.
 
+## 2A. MICRO-BEAT CONTRACT — author-requested update, 19 November 2026
+
+This expands the existing scene-level beats into **writer-ready micro-beats**, without assuming a rewrite or plot approval. The author wants encounter-led fiction, not a requirement to delay physical progression across successive meetings. Episode-specific pace and action selection remain the author's choice.
+
+### Beat-size rule (applies when creating or revising beat breakdowns)
+
+- **One primary action per micro-beat**; at most **two directly connected actions** when splitting would break the causal mechanism. A costume decision, physical contact, dialogue question, direct reaction, change of position, and aftermath are separately traceable transitions when they alter the scene state.
+- Identify **actor / receiver** and **before-action / after-action**. Separating actions is an **editorial clarity technique**, not a mandate to extend or invent the encounter.
+- Never treat an unmentioned action as completed. Mark it `NOT SPECIFIED — AUTHOR REVIEW`, and leave the neutral insertion space to the appropriate writer.
+- Prior existing A01–A05 or N01–N10 **macro-beat IDs stay intact** as parent IDs. New IDs use `A01.1`, `A01.2`, etc.; the parent plan remains unchanged until the author approves a rewrite.
+
+### POV and character-thought field — mandatory per micro-beat
+
+Each micro-beat must carry **`pov`**, **`thought_or_interpretation`**, **`visible_response`** and **`knowledge_limit`**. When no thought can be credibly inferred or sourced, write `UNSPECIFIED / N/A — do not invent` rather than manufacture an interior monologue. **Do not give one character another person's private thought.** The author can decide when to switch POV.
+
+### Sensory/physical checklist — mandatory tracking, not mandatory invention
+
+For each micro-beat, independently record:
+
+- `contact_or_touch`: who touches what, or `N/A`.
+- `sound`: speech, ambient/mechanical sound, silence, or `N/A`.
+- `temperature_or_environment`: water, airflow, fabric, room conditions, or `UNSPECIFIED`.
+- `physical_response`: **source-confirmed** body motion or response, otherwise `UNSPECIFIED`.
+- `emotional_response`: **source-confirmed** immediate reaction or `UNSPECIFIED`.
+- `clothing_state`, `position`, `object_state` and `exit_state`: record only details materially changed.
+
+**Quality rule:** Sensory fields must be considered individually, but a scene without touch or a stated temperature must **not** be padded with invented touching, heat, sounds or reactions. `N/A` and `UNSPECIFIED` are legitimate data.
+
+### Distinguish all similarly labeled men / uncles
+
+Where several older male characters are involved, every micro-beat identifies **the actual named person**, age/role/relationship if verified, current location and knowledge; never use vague group labels in place of actor/receiver. **Rajeev's "Uncle" is a social address, not proof he is a biological or legal father-in-law**. Do not combine Gopal, Rajeev, Mahendra, Om, Subhash, Mohan or Arvind into a single assumed actor. When a named person is only a reference or private thought, mark them **not present**, not a participant.
+
+### External-writer handoff / word-budget field
+
+- Author-requested **target: 300–400 words per selected *expanded* micro-beat** in a Grok or other external-writer assignment. Record `target_word_count: "300–400 (author target)"` in the sidecar handoff.
+- This is a **target, not a licence to repeat descriptions, fabricate interiority, add unsourced acts or overwrite author lines**. For normal quick banter, use a concise prose mode unless the author specifically assigns expansion.
+- At scene scale, show the math: e.g. 15 selected expanded beats × 300–400 = **4,500–6,000 words**. The author may adjust scope or word budget; do not compress against their wishes without highlighting the tradeoff.
+- Preserve the author's **requested_style** as a tag for the assigned writer. Do not prescribe the other writer's limits or exact prose techniques. ChatGPT may supply source-grounded structure and neutral action labels, not explicit erotic prose generation briefs.
+
+### Micro-beat record fields
+
+`micro_beat_id | parent_beat_id | source_status | time | location | primary_action | actor | receiver | entry_state | contact_or_touch | sound | temperature_or_environment | clothing_state | object_state | physical_response | emotional_response | pov | thought_or_interpretation | visible_response | knowledge_limit | exit_state | next_beat_anchor | writer_assignment | requested_style | target_word_count | approval_status`.
+
+**Review gates:** (a) action count ≤2; (b) every field completed or explicitly `N/A / UNSPECIFIED`; (c) source vs author proposal separate; (d) no continuity leak; (e) cross-scene state preserved. This is a planning/review aid; **no automatic canon change**.
+
+**Episode 04A application:** [EP04A-ANKITA-MICROBEAT-REWRITE-PREP.md](EP04A-ANKITA-MICROBEAT-REWRITE-PREP.md) maps current seven scenes into the more precise breakdown before any future rewrite.
+
 ## 3. Scene development — step by step
 
 1. **Retrieve source** — read the linked planning UI, existing prose, previous and overlapping character scenes. Record exact source paths and approval status.
@@ -57,6 +104,9 @@ Narrative intensity must follow **significant change**, not be applied to every 
 9. **Integration** — insert accepted text at specified beat anchors; check transitions and semantic consistency; never claim that a placeholder is an already-written scene.
 10. **Continuity and author review** — clothing, location, duration, participants, actor/receiver, character knowledge, active intentions, outcomes and cross-episode overlap.
 11. **Approval and publishing** — explicit author sign-off before marking **APPROVED / FINAL** or updating reader canon. Review drafts remain drafts. Publishing is a separate action.
+
+
+**Micro-beat expansion:** After step 5, apply the `§2A MICRO-BEAT CONTRACT` (one major action, per-beat thought/knowledge and sensory fields, named participants, author-set word budget) before authoring external-writer assignments.
 
 ## 4. Optional insertion markers and action ledger
 
