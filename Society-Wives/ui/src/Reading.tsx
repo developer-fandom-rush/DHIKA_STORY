@@ -38,7 +38,7 @@ function Episode02Reading({character,scene}:Props){
 type Ep03Block={order:number;time:string;type:string;text:string};
 type Ep03Line={time?:string|null;kind?:string;speaker?:string;text:string};
 type Ep03Beat={id:string;title:string;status:string;parts:{raw:string;origin:string}[]};
-type Ep03Scene={id:string;title:string;date:string;time:string;place:string;status:string;source:string;reviewNotes?:string[];format:'blocks'|'raw'|'lines'|'beats'|'revision'|'scene08-draft';blocks?:Ep03Block[];raw?:string;lines?:Ep03Line[];beats?:Ep03Beat[];addenda?:{id:string;raw:string;status:string}[]};
+type Ep03Scene={id:string;title:string;date:string;time:string;place:string;status:string;source:string;reviewNotes?:string[];format:'blocks'|'raw'|'lines'|'beats'|'revision'|'scene08-draft'|'shivani-merged';segments?:{id:string;origin:'base'|'grok';raw:string;source?:string}[];blocks?:Ep03Block[];raw?:string;lines?:Ep03Line[];beats?:Ep03Beat[];addenda?:{id:string;raw:string;status:string}[]};
 type Ep03Data={episode:string;title:string;date:string;chapters:Record<string,Ep03Scene[]>};
 const storyInline=(text:string)=>text.split(/(\*\*[^*]+\*\*|__[^_]+__|\*[^*]+\*)/g).map((part,i)=>
  part.startsWith('**')&&part.endsWith('**')?<strong key={i}>{part.slice(2,-2)}</strong>:
@@ -75,7 +75,22 @@ function Scene08DraftProse(){
    </section>)}
  </section>;
 }
+const ShivaniParagraphs=({raw}:{raw:string})=><>{raw.replace(/^(#{1,3} [^\n]+)$/gm,'\n\n$1\n\n').split(/\n\s*\n/).filter(Boolean).map((part,i)=>{
+ const value=part.trim(),heading=value.match(/^(#{1,3})\s+([^\n]+)$/);
+ if(heading)return heading[1].length===3?<h4 key={i}>{storyInline(heading[2])}</h4>:<h3 key={i}>{storyInline(heading[2])}</h3>;
+ if(/^---+$/.test(value))return <hr key={i}/>;
+ return <p className="ep03-paragraph" style={{whiteSpace:'pre-line'}} key={i}>{storyInline(value)}</p>;
+})}</>;
+function ShivaniMergedProse({scene}:{scene:Ep03Scene}){
+ return <div className="source-scene prose-exact ep03-original ep03-shivani-source">
+  {(scene.segments||[]).map((part,i)=><section key={part.id||i} className={part.origin==='grok'?'ep03-shivani-grok':'ep03-shivani-base'} id={part.origin==='grok'?'ep03-shivani-insert-'+part.id:undefined} style={part.origin==='grok'?{borderLeft:'4px solid #c08a23',backgroundColor:'rgba(221,162,43,0.14)',padding:'12px 16px',borderRadius:'8px',margin:'14px 0'}:undefined}>
+   {part.origin==='grok'&&<p style={{fontSize:'0.8rem',fontWeight:800,letterSpacing:'0.04em'}}>GROK ADDITION · {part.id} · HIGHLIGHTED</p>}
+   <ShivaniParagraphs raw={part.raw}/>
+  </section>)}
+ </div>;
+}
 function Ep03Body({scene}:{scene:Ep03Scene}){
+ if(scene.format==='shivani-merged')return <ShivaniMergedProse scene={scene}/>;
  if(scene.format==='scene08-draft')return <Scene08DraftProse/>;
  if(scene.format==='revision')return <Scene07RevisedProse/>;
  if(scene.format==='raw')return <div className="source-scene prose-exact ep03-original"><StoryParagraphs raw={scene.raw||''}/></div>;
@@ -97,7 +112,7 @@ function Scene06CleanVersion(){
  </section>;
 }
 function Episode03Reading({character,scene}:Props){
- const active=['ankita','meenakshi','shreya','taniya'].includes(character)?character:'ankita';
+ const active=['ankita','shivani','meenakshi','shreya','taniya'].includes(character)?character:'ankita';
  const {data,loading,error}=useData<Ep03Data>('episode-03-reader.json');
  const scenes=data?.chapters?.[active]||[];
  const selected=scenes.find(x=>x.id===scene)||scenes[0];
@@ -106,7 +121,7 @@ function Episode03Reading({character,scene}:Props){
  return <main className="page-width" id="episode03-final-prose">
   <header className="section-intro"><span className="eyebrow">The Story · 1 January 2026</span><h1>Episode 03 · Prose</h1></header>
   <div className="perspective-tabs" role="group" aria-label="Choose prose character">
-   {['ankita','meenakshi','shreya','taniya'].map(w=><button key={w} type="button" className={active===w?'selected':''} aria-pressed={active===w} onClick={()=>go(w==='shreya'?'10':'01',w)}>{titleCase(w)}</button>)}
+   {['ankita','shivani','meenakshi','shreya','taniya'].map(w=><button key={w} type="button" className={active===w?'selected':''} aria-pressed={active===w} onClick={()=>go(w==='shreya'?'10':'01',w)}>{titleCase(w)}</button>)}
   </div>
   {loading&&<p role="status">Loading Episode 03 prose…</p>}
   {error&&<p role="alert" className="error">SOURCE MISSING: {error}</p>}

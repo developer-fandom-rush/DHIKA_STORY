@@ -9,6 +9,8 @@ const source=path=>readFileSync(resolve(ui,'src/'+path),'utf8');
 const ep01=read('episode-01.json'),ep03=read('episode-03-reader.json');
 assert.equal(ep01.scenes.length,17,'Episode 01 prose scenes must remain');
 assert.equal(ep03.episode,'03');
+assert.equal(ep03.chapters.shivani.length,3,'Shivani EP03 must have all three final scenes');
+assert.ok(ep03.chapters.shivani.slice(1).every(s=>s.format==='shivani-merged'&&s.segments?.some(p=>p.origin==='grok')),'Shivani Grok-highlighted segments must remain intact');
 for(const lead of ['ankita','shivani','taniya','meenakshi','shreya'])assert.ok(ep03.chapters[lead]?.length,'Episode 03 prose missing for '+lead);
 for(const lead of ['ankita','shivani','taniya','soniya','meenakshi','shreya'])assert.ok(read('continuity-verbatim/episode-02/'+lead+'.json').scenes.length,'Episode 02 source missing for '+lead);
 for(const filename of ['episode-04a-ankita-plan.json','episode-04a-shivani-plan.json','episode-04a-shreya-night-plan.json','episode-04a-taniya-soniya-night-review.json'])assert.ok(read(filename).scenes.length,'Episode 04A plot missing: '+filename);
@@ -126,6 +128,8 @@ assert.ok(readFileSync(resolve(repo,'index.html'),'utf8').includes('ep04b-reader
 const app=source('App.tsx'),reading=source('Reading.tsx'),planning=source('Planning.tsx');
 assert.ok(app.includes("['reading','Read Story']")&&app.includes("['planning','Episode 04 Plot']"));
 assert.ok(reading.includes('EpisodeSelector')&&reading.includes("episode==='01'")&&reading.includes("episode==='03'"));
+assert.ok(reading.includes("['ankita','shivani','meenakshi','shreya','taniya']"),'Episode 03 must expose Shivani tab and route');
+assert.ok(reading.includes("scene.format==='shivani-merged'")&&reading.includes('ep03-shivani-grok'),'Shivani Episode 03 source segments must render with highlights');
 assert.ok(planning.includes("Episode 04 · Plot Planning")&&planning.includes('episode-04a-ankita-plan.json')&&planning.includes('episode-04-chotu-six-leads-review.json'));
 assert.ok(planning.includes('episode-04a-society-chotu-uncertainty-register.json')&&planning.includes('ContinuityDetails record={continuityRecord} part="A"')&&planning.includes('ContinuityDetails record={continuityRecord} part="B"'),'04A/04B must display source-verified visual/touch continuity');
 assert.ok(planning.includes('episode-04b-jan02-merged-day-five-leads.json')&&planning.includes('UnifiedProseDetails scenes={unifiedLead.proseScenes}'),'Expanded merged 04B plot and prose must render in Planning');

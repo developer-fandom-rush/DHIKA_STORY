@@ -14,6 +14,16 @@ try {
  await page.getByRole('button',{name:'Episode 03 · Prose'}).click();
  await page.locator('.scene-link').first().waitFor();
  assert.ok((await page.locator('h1').allTextContents()).some(x=>x.includes('Episode 03')));
+ await page.locator('.perspective-tabs').getByRole('button',{name:'Shivani',exact:true}).click();
+ await page.locator('.ep03-scene-intro h2').waitFor();
+ assert.equal(await page.locator('.scene-link').count(),3,'Shivani Episode 03 must show three scenes');
+ assert.match(await page.locator('.ep03-scene-intro h2').innerText(),/Presentation Nobody Heard/);
+ await page.locator('.scene-link').nth(1).click();
+ await page.locator('.ep03-shivani-grok').first().waitFor();
+ assert.ok(await page.locator('.ep03-shivani-grok').count()>0,'Shivani Scene 02 Grok additions must be highlighted');
+ await page.locator('.scene-link').nth(2).click();
+ await page.locator('.ep03-shivani-grok').first().waitFor();
+ assert.match(await page.locator('.ep03-scene-intro h2').innerText(),/Return to Gulmohar Heights/);
  await page.getByRole('link',{name:'Episode 04 Plot'}).click();
  await page.getByRole('heading',{name:'Episode 04 · Plot Planning'}).waitFor();
  await page.locator('#episode04-active-plan details').first().waitFor();
