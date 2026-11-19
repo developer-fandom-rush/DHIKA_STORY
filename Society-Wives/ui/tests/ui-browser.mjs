@@ -43,5 +43,14 @@ try {
   assert.ok(content.includes('Full-day plot and prose'),'Full-day chronology heading missing '+lead);
  }
  assert.equal(await page.locator('img').count(),0);
- console.log('Browser smoke check passed: Reader 01–03 and Planning 04A/B.');
+ await page.goto(base+'episode-04b-reader.html?lead=ankita&mode=prose');
+ await page.locator('#content .card').first().waitFor();
+ assert.equal(await page.locator('#content .card').count(),4,'Four Ankita prose scenes required in standalone reader');
+ await page.getByRole('button',{name:'Merged full-day plot'}).click();
+ assert.equal(await page.locator('#content .card').count(),13,'Ankita merged timeline must have thirteen entries');
+ await page.getByRole('button',{name:'Shreya',exact:true}).click();
+ assert.equal(await page.locator('#content .card').count(),14,'Shreya merged timeline must have fourteen entries');
+ await page.getByRole('button',{name:'Read working prose'}).click();
+ assert.equal(await page.locator('#content .card').count(),4,'Shreya prose must have four scenes');
+ console.log('Browser smoke check passed: Reader 01–03, Planning 04A/B, standalone Episode 04B plot and prose.');
 } finally {await browser.close();}
