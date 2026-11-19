@@ -26,6 +26,10 @@ try {
  assert.ok((await page.locator('#episode04-next-day').innerText()).includes('Rohit'));
  assert.ok((await page.locator('#episode04-next-day').innerText()).includes('Rinku'),'Ankita society continuation missing');
  await page.locator('#society-chotu-continuity-b-ankita').waitFor();
+ await page.locator('#episode04b-working-prose-ankita').waitFor();
+ assert.equal(await page.locator('#episode04b-working-prose-ankita details').count(),4,'Ankita must have four working prose scenes');
+ assert.ok((await page.locator('#episode04-next-day').innerText()).includes('Society before office'));
+
  for(const [lead,chotu] of [['Shivani','Sunny'],['Taniya','Punit'],['Shreya','Station Chotu'],['Meenakshi','Naveen']]){
   await page.getByRole('button',{name:lead,exact:true}).click();
   await page.locator('#episode04-next-day').waitFor();
@@ -35,6 +39,8 @@ try {
   assert.ok(content.includes('Colleague track'),'parallel colleague scenes missing for '+lead);
   assert.ok(content.includes('Society Chotu'),'after-office society Chotu scenes missing for '+lead);
   await page.locator('#society-chotu-continuity-b-'+lead.toLowerCase()).waitFor();
+  assert.equal(await page.locator('#episode04b-working-prose-'+lead.toLowerCase()+' details').count(),4,'Working prose drafts missing for '+lead);
+  assert.ok(content.includes('Full-day plot and prose'),'Full-day chronology heading missing '+lead);
  }
  assert.equal(await page.locator('img').count(),0);
  console.log('Browser smoke check passed: Reader 01–03 and Planning 04A/B.');
