@@ -40,6 +40,19 @@ assert.ok(read('episode-04b-office-chotu-jan02-five-leads.json').leads.reduce((n
 const society04b=read('episode-04b-society-chotu-jan02-five-leads.json');
 assert.equal(society04b.date,'2026-01-02');
 assert.equal(society04b.leads.length,5);
+const society04aContinuity=read('episode-04a-society-chotu-uncertainty-register.json');
+assert.equal(society04aContinuity.leads.length,5,'04A/04B continuity register must cover five leads');
+for(const [lead,chotu] of Object.entries({ankita:'Rinku',shivani:'Deepu',taniya:'Guddu',shreya:'Chintu',meenakshi:'Babloo'})){
+ const row=society04aContinuity.leads.find(x=>x.id===lead);
+ assert.ok(row&&row.societyChotu===chotu,'Wrong 04A continuity reference for '+lead);
+ assert.ok(row.bodyRegions.chestBreast&&row.bodyRegions.navelAbdomen&&row.bodyRegions.back&&row.bodyRegions.hipsButtocks,'Missing specific sightline fields: '+lead);
+ assert.ok(row.touchConfirmed&&row.herResponse&&row.hisResponse&&row.uncertainty,'Incomplete uncertainty and sensation record: '+lead);
+ assert.ok(row.proposed04AMicrobeat&&row.followUp04B,'Missing 04A POV proposal or 04B follow-up: '+lead);
+}
+assert.match(society04aContinuity.leads.find(x=>x.id==='meenakshi').reference,/NO confirmed Babloo encounter in 04A/);
+assert.match(society04aContinuity.leads.find(x=>x.id==='taniya').visibleConfirmed,/NO garment exposure/);
+assert.match(society04aContinuity.leads.find(x=>x.id==='shreya').uncertainty,/UNKNOWN/);
+
 const societyPairs={ankita:'Rinku',shivani:'Deepu',taniya:'Guddu',shreya:'Chintu',meenakshi:'Babloo'};
 const twinsRegex=/\b(?:Karan|Aman|Uday|Utkarsh|Samar|Shaan|Harsh|Laksh)\b/;
 for(const [lead,chotu] of Object.entries(societyPairs)){
@@ -62,6 +75,7 @@ const app=source('App.tsx'),reading=source('Reading.tsx'),planning=source('Plann
 assert.ok(app.includes("['reading','Read Story']")&&app.includes("['planning','Episode 04 Plot']"));
 assert.ok(reading.includes('EpisodeSelector')&&reading.includes("episode==='01'")&&reading.includes("episode==='03'"));
 assert.ok(planning.includes("Episode 04 · Plot Planning")&&planning.includes('episode-04a-ankita-plan.json')&&planning.includes('episode-04-chotu-six-leads-review.json'));
+assert.ok(planning.includes('episode-04a-society-chotu-uncertainty-register.json')&&planning.includes('ContinuityDetails record={continuityRecord} part="A"')&&planning.includes('ContinuityDetails record={continuityRecord} part="B"'),'04A/04B must display source-verified visual/touch continuity');
 assert.ok(!app.includes('Gallery')&&!app.includes('Characters'),'Unused image and character screens should not be rendered');
 assert.ok(!/<img\b/i.test(app+reading+planning+source('Home.tsx')),'Published Society Wives UI must not request image assets');
 for(const path of ['Gallery.tsx','FemaleLibrary.tsx','Characters.tsx','data/gallery.json','data/female-library.json'])assert.ok(!existsSync(resolve(ui,'src/'+path)),'Unused UI module still present: '+path);
