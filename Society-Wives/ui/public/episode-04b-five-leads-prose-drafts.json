@@ -1,0 +1,1173 @@
+{
+  "schemaVersion": 1,
+  "id": "SW-EP04B-JAN02-FIVE-LEAD-WORKING-PROSE",
+  "title": "Episode 04B · 2 January · Five Veils of Desire · Full Scene Drafts",
+  "date": "2026-01-02",
+  "timezone": "Asia/Kolkata",
+  "status": "WORKING_PROSE_DRAFTS__NOT_AUTHOR_APPROVED",
+  "sourceModel": "Dhika original EP04 'First Show'—structural beat sequence only: prior uncertain glance → ordinary errand → deliberate self-presentation → observable partner response → private bodily/emotional after-effect. No text or dialogue copied.",
+  "scope": "Twenty full scene drafts, four per female lead: morning society/household check, workday office Chotu, evening society Chotu, after-effect. The twenty existing parallel male–female colleague scenes remain plot-only in the master timeline until independently drafted; do not misrepresent them as full prose.",
+  "continuityLocks": [
+    "Five leads are adults; all office and society Chotu helpers adults. No kisses or explicit sexual acts.",
+    "Office hierarchy, police role, medical hierarchy or resident/service status never forces physical contact; consent is separate and revocable.",
+    "No 2 January twins encounters in these five tracks.",
+    "04A facts are recalled but not altered: no breast fractions or navel exposure invented where none exists.",
+    "Babloo's car recovery is still unresolved; no repaired car claim.",
+    "Shreya's two missing uniform buttons were replaced before Chintu checks the shirt; chest and lower body remain covered during voluntary outer shirt removal.",
+    "Taniya ends work 19:30; Shreya station after-duty 18:35; M08 hospital review 11:00–11:40.",
+    "Children not in or witnessing adult intimate scenes."
+  ],
+  "chapters": [
+    {
+      "id": "ankita",
+      "name": "Ankita",
+      "societyChotu": "Rinku",
+      "officeChotu": "Rohit",
+      "scenes": [
+        {
+          "id": "ANK-04B-P01",
+          "start": "07:12",
+          "end": "07:25",
+          "title": "The connector they still hadn't replaced",
+          "location": "Gulmohar Heights service corridor",
+          "sourceRefs": [
+            "E04A-S01 A03–A05",
+            "04A uncertainty register"
+          ],
+          "lines": [
+            {
+              "kind": "narration",
+              "text": "Subah apartment ke service corridor mein Ankita ko kal ki kitchen tiles yaad aayi. Wet kurti badal chuki thi, lekin Rinku ka achanak chup ho jaana ab bhi uske dimaag mein atka tha. Kya usne sirf paani dekha tha? Ya kuch aur? Ankita ke paas koi answer nahin tha."
+            },
+            {
+              "kind": "narration",
+              "text": "Rinku electrician board ke paas khada maintenance register check kar raha tha. Ankita ne office cab ki timing dekhi aur seedhe uske paas gayi."
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Ankita",
+              "text": "Rinku, filter ka connector mila? Kal temporary fitting hi lagayi thi."
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Rinku",
+              "text": "Exact model ka part order kar diya hai, madam. Aaj evening tak confirm karke bataunga. Abhi tap kholte waqt pressure kam rakhiyega."
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Ankita",
+              "text": "Achha. Kal toh kitchen ne dono ko surprise de diya."
+            },
+            {
+              "kind": "narration",
+              "text": "Usne bilkul casually kaha, lekin Rinku ne pehle register band kiya, phir dekha. Uski nazar seedhi thi."
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Rinku",
+              "text": "Haan. Aap fisal jaati toh problem hoti. Accha hua balance mil gaya."
+            },
+            {
+              "kind": "thought",
+              "text": "Bas itna? Kal ka awkward silence iske liye sirf safety ka moment tha?"
+            },
+            {
+              "kind": "narration",
+              "text": "Ankita ne uske haath mein slip dekhi—uspar replacement model likha tha. Woh kisi confession ko push nahin karti. Cab ka message aaya, aur woh lift ki taraf badh gayi, lekin aaj shaam usse dobara normal tarah se baat karne ka iraada bana chuki thi."
+            }
+          ],
+          "approval": "WORKING_PROSE_DRAFT_NOT_AUTHOR_APPROVED"
+        },
+        {
+          "id": "ANK-04B-P02",
+          "start": "10:30",
+          "end": "16:32",
+          "title": "Rohit Babu, two very different looks",
+          "location": "Cyber City IT office: inventory counter and private demo bay",
+          "sourceRefs": [
+            "E04B-ANKITA-02 AN4B-03",
+            "E04B-ANKITA-04 AN4B-05–07",
+            "EP03 Rohit introduction"
+          ],
+          "lines": [
+            {
+              "kind": "narration",
+              "text": "Morning inventory handover mein Rohit corrected AV acknowledgement lekar aaya. Ankita ne beige blazer chair par rakha, serial numbers padhne ke liye jhuki, aur ek second ke liye Rohit ki speech ruk gayi. Uska open-neck office outfit kal wali cotton kurti se alag tha. Ankita ne pause notice kiya, uska matlab nahin."
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Ankita",
+              "text": "Rohit Babu, adapter number match karna hai. Mera face nahi."
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Rohit",
+              "text": "Sorry ma'am. Yeh do serials interchange hue hain. Main theek karke deta hoon."
+            },
+            {
+              "kind": "narration",
+              "text": "Woh jaldbaazi mein bahana nahin banata. Sheet palatkar dono numbers clear karta hai. Ankita ke chehre par aadhi muskaan aati hai. Din ka baaki hissa Priya ke QA sign-off, Vivan ke release remarks aur Reyansh ke demo review mein nikalta hai. Kal ki office closeness repeat nahin hoti."
+            },
+            {
+              "kind": "narration",
+              "text": "16:10 par Rohit final slip lekar laut-ta hai. Ab equipment checked hai; unhe invented failure ka bahana nahi chahiye. Demo bay khali hai, door accessible hai. Ankita khud blazer utaar kar side mein rakhti hai, apni waist ke paas outfit ka drape seedha karti hai aur uski taraf mudti hai."
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Ankita",
+              "text": "Subah tum ekdum chup kyun ho gaye the? Serial ki wajah se?"
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Rohit",
+              "text": "Aapka look different tha. Main apni line bhool gaya. Mujhe aise stare nahin karna chahiye tha."
+            },
+            {
+              "kind": "narration",
+              "text": "Ankita ne uske seedhe jawab ko kuch pal process kiya. Dhyaan se dekha—woh usse jhooth bolne ya hero banne ki koshish nahin kar raha tha."
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Ankita",
+              "text": "Theek hai. Ab main jaanboojhkar pooch rahi hoon—yeh outfit kaisa lag raha hai? Personal question hai. Answer dena zaroori nahin."
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Rohit",
+              "text": "Aap confident lag rahi hain. Aur aaj... bilkul alag."
+            },
+            {
+              "kind": "narration",
+              "text": "Uski awaaz dhimi hui. Ankita ne ek chhota step paas liya, par uski taraf haath nahin badhaya."
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Ankita",
+              "text": "Ek close pose ke liye comfortable ho? Main mana karne par bura nahin maanungi."
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Rohit",
+              "text": "Haan. Agar aap comfortable hain."
+            },
+            {
+              "kind": "narration",
+              "text": "Ankita ne ek moment ke liye uska haath apni waist ke paas place karne diya. Hold chhota aur deliberate tha; photo nahi li gayi. Usne khud ek kadam peeche liya, blazer uthaya aur slip sign kar di. Is baar woh jaanti thi ki closeness accident nahin thi."
+            },
+            {
+              "kind": "thought",
+              "text": "Kal aur aaj mein farq yahi hai. Kal kisi reaction ko samajhne ki koshish thi. Aaj maine khud jawab poochha."
+            },
+            {
+              "kind": "narration",
+              "text": "Corridor mein aate hi uska normal office voice laut aaya—'Priya, deployment checklist bhejo.' Lekin fingers thodi der tak folder ke corner par thehri rahi."
+            }
+          ],
+          "approval": "WORKING_PROSE_DRAFT_NOT_AUTHOR_APPROVED"
+        },
+        {
+          "id": "ANK-04B-P03",
+          "start": "19:05",
+          "end": "20:02",
+          "title": "Rinku returns for the real repair",
+          "location": "Apartment kitchen and society decoration alcove",
+          "sourceRefs": [
+            "E04A-S01 A05",
+            "E04B-SOC-AN-01–02"
+          ],
+          "lines": [
+            {
+              "kind": "narration",
+              "text": "18:15 office exit ke baad Ankita Gurgaon traffic se hoti hui society pahunchi. Kitchen ke filter par temporary fitting ab bhi lagi thi. Rinku replacement part ki packet ke saath aaya; side mein decorative light dimmer bhi collect karna tha, magar pehla kaam filter ka permanent connector check karna tha."
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Rinku",
+              "text": "Madam, pehle paani bandh. Kal wali galti dobara nahi."
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Ankita",
+              "text": "Mujhe bhi woh repeat nahi chahiye. Bas pressure test complete kara do."
+            },
+            {
+              "kind": "narration",
+              "text": "Is baar Ankita threshold par ruki. Rinku ne fitting replace ki, shut-off khola, phir do short pressure checks kiye. Paani seedhe outlet mein gaya. Tiles dry thi. Koi accidental touch nahin hua."
+            },
+            {
+              "kind": "narration",
+              "text": "Rinku ne tool pouch band kiya. Ankita ne kuch der use dekha, phir side mein rakhi festive drape pehni. Open-back cut, visible waist aur ek light wrap—sab uski apni styling thi. Corridor mein event lights abhi on thi. Usne wrap apne haath mein rakha aur decoration alcove mein uske saamne aayi."
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Ankita",
+              "text": "Kal tumne dekha bhi tha, aur kuch bole bhi nahin. Aaj main khud pooch rahi hoon—yeh look kaisa hai?"
+            },
+            {
+              "kind": "narration",
+              "text": "Rinku samajh gaya ki yeh valve ka sawal nahin. Usne pehle uski aankhon mein dekha, phir costume ka overall outline."
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Rinku",
+              "text": "Kal main leak aur aapke fisalne se pareshan tha. Aaj... aapne yeh khud choose kiya hai. Achha lag raha hai."
+            },
+            {
+              "kind": "narration",
+              "text": "Ankita ke chehre par jaani-pehchaani teasing smile aayi, magar usne kal ki wet-clothes incident ko kisi specific body view mein badalne ki koshish nahin ki."
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Ankita",
+              "text": "Aur agar main bolun ek still pose check karna hai? No picture. Bas lights ke saamne."
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Rinku",
+              "text": "Aap comfortable hain toh theek. Bas ek minute."
+            },
+            {
+              "kind": "narration",
+              "text": "Woh saath khade hue. Ankita ne clear permission ke baad uska haath briefly apni lower back ke paas guide kiya, phir khud alag hui. Usne Rinku ki reaction dekhi—na forced shock, na filmy confession. Uske paas pehli baar choice ka ek seedha answer tha."
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Ankita",
+              "text": "Filter aur light dono check ho gaye. Thanks, Rinku."
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Rinku",
+              "text": "Good night, madam."
+            },
+            {
+              "kind": "narration",
+              "text": "Door band hone ke baad Ankita ne wrap dobara shoulder par rakha. Uske gaal garam the. Woh khud hansi—repair ke liye bulaya tha, personal sawal poochhna uska apna decision tha."
+            }
+          ],
+          "approval": "WORKING_PROSE_DRAFT_NOT_AUTHOR_APPROVED"
+        },
+        {
+          "id": "ANK-04B-P04",
+          "start": "20:02",
+          "end": "20:35",
+          "title": "The kitchen is dry; the question has changed",
+          "location": "Ankita's apartment",
+          "sourceRefs": [
+            "E04B-SOC-AN-03",
+            "04A uncertainty"
+          ],
+          "lines": [
+            {
+              "kind": "narration",
+              "text": "Kitchen floor poori tarah sookh gayi thi. Ankita ne glass bhara, filter ka flow dekha aur replacement receipt drawer mein rakhi. Kal paani ke chhinton ne use helpless feel karaya tha; aaj usne bina kisi accident ke Rinku ki nazar ka saamna kiya."
+            },
+            {
+              "kind": "thought",
+              "text": "Kal usne kitna dekha tha? Shayad main kabhi na jaanun. Lekin aaj maine kya kiya, yeh main jaanti hoon."
+            },
+            {
+              "kind": "narration",
+              "text": "Kabir ki existing marriage routine, evening household aur baaki family apni jagah thi. Ankita ne kisi ko story sunane ki jaldi nahin ki. Usne apna festive outfit sahi kiya, phone par office ka ek pending message dekha aur wapas normal evening mein aa gayi. Uncertainty khatam nahi hui thi—uska meaning badal gaya tha."
+            }
+          ],
+          "approval": "WORKING_PROSE_DRAFT_NOT_AUTHOR_APPROVED"
+        }
+      ]
+    },
+    {
+      "id": "shivani",
+      "name": "Shivani",
+      "societyChotu": "Deepu",
+      "officeChotu": "Sunny",
+      "scenes": [
+        {
+          "id": "SHI-04B-P01",
+          "start": "07:15",
+          "end": "07:25",
+          "title": "Deepu is not the same frightened boy",
+          "location": "Society cultural-event service bay",
+          "sourceRefs": [
+            "E04A-SH-S02 SH04–SH06",
+            "E04A-SH-S03 SH07–SH08"
+          ],
+          "lines": [
+            {
+              "kind": "narration",
+              "text": "College nikalne se pehle Shivani ne cultural event desk par ek proof check kiya. Deepu backdrop ke clips gin raha tha. Kal panel slip hua tha; Shivani ne uski shirt pakdi thi aur Deepu ka haath ek pal uski clothed upper back par aaya tha. Isse zyada kuch hua tha, aisa source mein nahin."
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Shivani",
+              "text": "Aaj backdrop ko sambhal kar rakhna. Kal toh hum dono ka rehearsal free mein ho gaya."
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Deepu",
+              "text": "Aaj latch double check kiya hai, ma'am. Aur kal main aapko girne nahi dene wala tha."
+            },
+            {
+              "kind": "narration",
+              "text": "Baat mazaak mein thi, lekin Deepu ka tone bilkul composed tha. Shivani ne ek second uski taraf dekha, phir poster par sign kiya. Usse Kavya aur Deepu ke kal wale alag, sincere smile exchange bhi yaad aaye."
+            },
+            {
+              "kind": "thought",
+              "text": "Yeh meri teasing ko jawab de sakta hai. Aur Kavya ke saath bhi apni alag baat banata hai. Main isko sirf apne joke ka character nahi bana sakti."
+            },
+            {
+              "kind": "narration",
+              "text": "Woh college ke liye nikal gayi. Is baar koi backdrop accident nahi hua, aur Deepu ne use rokne ki koshish bhi nahi ki."
+            }
+          ],
+          "approval": "WORKING_PROSE_DRAFT_NOT_AUTHOR_APPROVED"
+        },
+        {
+          "id": "SHI-04B-P02",
+          "start": "10:05",
+          "end": "15:27",
+          "title": "Sunny, the quiet rehearsal",
+          "location": "College AV desk and staff-only rehearsal hall",
+          "sourceRefs": [
+            "E04B-SHIVANI-02",
+            "E04B-SHIVANI-04"
+          ],
+          "lines": [
+            {
+              "kind": "narration",
+              "text": "Campus mein faculty work chalta raha. Aarav ne stage programme ka draft diya, Kriti ne cultural timing aur Pooja ne cue-sheet review ki. Sunny AV console par slides aur sound levels check karta raha. Shivani ne uske saath personal moment banane ke liye sound-feedback accident invent nahi kiya."
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Shivani",
+              "text": "Sunny, cue number seven ko ek baar aur dekhna. Staff presentation hai, students ka section nahi."
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Sunny",
+              "text": "Ji ma'am. Main recheck karke script bhej dunga."
+            },
+            {
+              "kind": "narration",
+              "text": "Subah jab usne outer jacket utarkar inventory papers check kiye the, Sunny ki nazar ek pal ke liye badli thi; par usne comment nahi kiya. Shivani ko isi reserve ne pareshan kiya, kisi dramatic stare ne nahin."
+            },
+            {
+              "kind": "narration",
+              "text": "15:05 ki staff-only rehearsal mein Shivani selected asymmetrical stage outfit mein aayi. Usne cover layer khud side mein rakhi. Bare shoulder aur upper-back design stage light mein clean dikh raha tha. Usne Sunny ko dekha; dono ke beech equipment table ki distance ab bhi thi."
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Shivani",
+              "text": "Cue toh check ho gaya. Ek personal feedback poochhun? Comfortable ho toh."
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Sunny",
+              "text": "Poochiye."
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Shivani",
+              "text": "Yeh costume stage par confident lagta hai, ya main overdo kar rahi hoon?"
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Sunny",
+              "text": "Stage ke liye sahi hai. Aur aapko kisi aur ki permission chahiye bhi nahi lagti."
+            },
+            {
+              "kind": "narration",
+              "text": "Shivani hansi, phir sachmuch chup ho gayi. Woh quick comeback dhoondh rahi thi aur mil nahin raha tha."
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Shivani",
+              "text": "Ek second, upper-back drape alignment check kar sakte ho? Sirf agar tum comfortable ho."
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Sunny",
+              "text": "Haan, ma'am."
+            },
+            {
+              "kind": "narration",
+              "text": "Shivani ne hair side kiye. Sunny ne uski clear permission se upper-back garment edge ke paas ek brief touch kiya, drape ka angle bataya aur turant haath hata liya. Shivani ne mirror mein look check kiya. Touch ke baad jo chhoti si garmi uske chehre tak aayi, woh isliye unexpected thi kyunki situation usne khud choose ki thi."
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Shivani",
+              "text": "Good. Ab cue sheet final karo."
+            },
+            {
+              "kind": "narration",
+              "text": "Sunny wapas console par chala gaya. Shivani kuch pal stage mark par akeli khadi rahi—uska joke pehli baar uske saamne poora nahi hua tha."
+            }
+          ],
+          "approval": "WORKING_PROSE_DRAFT_NOT_AUTHOR_APPROVED"
+        },
+        {
+          "id": "SHI-04B-P03",
+          "start": "18:12",
+          "end": "18:34",
+          "title": "Three counts with Deepu",
+          "location": "Adult-only society cultural rehearsal lane",
+          "sourceRefs": [
+            "E04B-SOC-SH-02 SOC-SH-03–05",
+            "E04A-SH-S02 SH05–SH06"
+          ],
+          "lines": [
+            {
+              "kind": "narration",
+              "text": "College se aakar Shivani ghar par family routine check kar chuki thi. Society ke cultural corridor mein evening setup jaari tha. Deepu poster ka last light mark check kar raha tha; Kavya wahan maujood nahin thi aur uski alag story ko Shivani ke encounter mein merge nahi kiya gaya."
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Deepu",
+              "text": "Ma'am, kal wala backdrop stable hai. Bas silhouette ka shadow right ja raha hai."
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Shivani",
+              "text": "Kal toh tumne mujhe catch kiya tha. Aaj main khud mark par khadi hoti hoon."
+            },
+            {
+              "kind": "narration",
+              "text": "Shivani ne draped sari aur deep-back blouse ka chosen look adjust kiya. Outer wrap usne khud ek side rakhi; design ki back aur waistline light ke saamne dikh rahi thi. Woh stage par dheere mudi aur Deepu se poochha, bina kisi costume tear ya fake accident ke."
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Shivani",
+              "text": "Ab batao. Light balanced hai? Ya tum phir itne confident ho ki mujhe hi correction de doge?"
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Deepu",
+              "text": "Correction toh dena padega. Aap left mark se thoda aage hain."
+            },
+            {
+              "kind": "narration",
+              "text": "Shivani ne uski baat maan li. Usse is unexpected assurance mein ajeeb si khushi mili."
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Shivani",
+              "text": "Three-count partner position check karoge? No audience, no photo. Mana kar sakte ho."
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Deepu",
+              "text": "Theek hai."
+            },
+            {
+              "kind": "narration",
+              "text": "Unhone mark par position li. Shivani ne uska forearm pakda; clear agreement ke baad uska haath brief side-waist placement par aaya. Ek... do... teen. Shivani ne khud release kiya. Koi panel nahi gira. Iss baar usne hi proximity ka samay decide kiya."
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Deepu",
+              "text": "Ab shadow bilkul sahi hai."
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Shivani",
+              "text": "Aur tumhari timing bhi."
+            },
+            {
+              "kind": "narration",
+              "text": "Shivani usual laugh ke saath upar chali gayi, magar lift mein smile apne aap halki ho gayi. Kal use lag raha tha usne Deepu ko unprepared pakad liya. Aaj usne dekha ki woh surprisingly steady rehta hai."
+            }
+          ],
+          "approval": "WORKING_PROSE_DRAFT_NOT_AUTHOR_APPROVED"
+        },
+        {
+          "id": "SHI-04B-P04",
+          "start": "18:34",
+          "end": "19:05",
+          "title": "The joke she doesn't repeat",
+          "location": "Shivani household",
+          "sourceRefs": [
+            "E04B-SOC-SH-03",
+            "E04A-SH-S03 Kavya/Deepu distinction"
+          ],
+          "lines": [
+            {
+              "kind": "narration",
+              "text": "Apartment mein Tara ke family routine ki awaaz thi, aur Shivani ne stage outfit ko carefully fold kiya. Rohan, Kavya aur baaki family ki day-two locations ko usne apni imagination se fix nahi kiya."
+            },
+            {
+              "kind": "thought",
+              "text": "Main usse bas tease nahi kar rahi thi. Mujhe uska seedha jawab sunna tha. Aur Kavya ko lekar uski apni kahani hai—woh main decide nahi kar sakti."
+            },
+            {
+              "kind": "narration",
+              "text": "Usne Kriti ko final poster approval bheja aur ek glass paani piya. Gaalon ki garmahat dheere dheere kam hui, lekin subah ki baat aur shaam ke teen counts uske mann mein alag-alag tarah se reh gaye. Yeh naya moment tha; kal ke accidental upper-back support ka replay nahi."
+            }
+          ],
+          "approval": "WORKING_PROSE_DRAFT_NOT_AUTHOR_APPROVED"
+        }
+      ]
+    },
+    {
+      "id": "taniya",
+      "name": "Taniya",
+      "societyChotu": "Guddu",
+      "officeChotu": "Punit",
+      "scenes": [
+        {
+          "id": "TAN-04B-P01",
+          "start": "09:02",
+          "end": "09:13",
+          "title": "A sleeve, a strap, and no second mishap",
+          "location": "Society service counter",
+          "sourceRefs": [
+            "E04A Taniya × Guddu TS04A-02–04",
+            "EP03 wedding quotation"
+          ],
+          "lines": [
+            {
+              "kind": "narration",
+              "text": "Soniya ke ghar se office nikalne se pehle Taniya society desk par ruki. Kal trolley ne uska bag-strap kheench liya tha aur usne balance ke liye Guddu ka forearm pakda tha. Kapde nahin khise the. Koi private body view bhi nahi hua tha. Phir bhi ek ajeeb self-consciousness use yaad thi."
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Taniya",
+              "text": "Guddu, kal ke trolley ko warning de di? Main wedding papers lene aati hoon, obstacle course nahi."
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Guddu",
+              "text": "Brake lag gaya hai, madam. Aur approval sleeve aapko kal hi return kar di thi. Vendor page ka status abhi pending hai."
+            },
+            {
+              "kind": "narration",
+              "text": "Guddu ne register dikhaya—pending ka red circle. Taniya khush thi ki woh details jaanta hai. Ek pal ke liye use yaad aaya ki Soniya ne bhi kal Guddu se apne andaaz mein baat ki thi; uske exact exchange ki jaankari Taniya ko nahi thi."
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Taniya",
+              "text": "Shaam ko update mile toh message karna. Main 7:30 ke baad hi office se nikalungi."
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Guddu",
+              "text": "Noted. Is baar file bhi safe aur strap bhi."
+            },
+            {
+              "kind": "narration",
+              "text": "Taniya hansi, taxi-booking app kholi aur kaam ke liye nikal gayi. Yeh encounter short, practical aur ekdum different tha—pichhle din ke accident ka koi re-enactment nahi."
+            }
+          ],
+          "approval": "WORKING_PROSE_DRAFT_NOT_AUTHOR_APPROVED"
+        },
+        {
+          "id": "TAN-04B-P02",
+          "start": "12:05",
+          "end": "17:46",
+          "title": "The bride isn't an audit annexure",
+          "location": "CA firm, audit desk and private fitting break area",
+          "sourceRefs": [
+            "E04B-TANIYA-02",
+            "E04B-TANIYA-04",
+            "EP03 Punit known junior"
+          ],
+          "lines": [
+            {
+              "kind": "narration",
+              "text": "Subah se client reconciliation chal rahi thi. Raghav ne fresh figures explain kiye, Neha ne formula check kiya, aur Andrea-Chirag ki pichhle din ki cheek-peck wali awkwardness ab ek private joke se zyada kuch confirmed nahi thi. Punit corrected totals lekar 12:05 par aaya."
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Taniya",
+              "text": "Punit, tumhari sheet mein variance zero hai. Finally."
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Punit",
+              "text": "Aaj aap meri report reject nahi kar sakti, ma'am."
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Taniya",
+              "text": "Main shaadi kar rahi hoon, standards retire nahi kar rahi."
+            },
+            {
+              "kind": "narration",
+              "text": "Punit hansa. Usne Taniya ke neat office outfit ko appreciate karne ke bajaye figures par focus rakha. Shaam tak kaam ke beech Taniya ko yahi restraint yaad raha."
+            },
+            {
+              "kind": "narration",
+              "text": "17:25 ki scheduled personal break mein Taniya apna wedding-fitting outfit trial karne non-working staff area gayi. Deep neckline aur midriff design uska khud chuna hua tha. Punit completed handover slip ke liye reception corner tak aaya; usne koi wardrobe incident nahi dekha."
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Taniya",
+              "text": "One non-audit question, Punit. Yeh styling too much hai? Answer dena optional hai."
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Punit",
+              "text": "Aap pehli baar meri opinion par depend kar rahi hain?"
+            },
+            {
+              "kind": "narration",
+              "text": "Taniya ne mock glare diya, magar woh hans rahi thi."
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Taniya",
+              "text": "Depend? Nahi. Interested? Maybe."
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Punit",
+              "text": "I think it suits you. Aap comfortable lag rahi hain."
+            },
+            {
+              "kind": "narration",
+              "text": "Taniya ne mirror ke paas ek step liya aur poochha ki woh ek close standing pose ke liye comfortable hai ya nahi. Punit ne haan kaha. Usne waistline ke paas brief light placement allow kiya, pose ko ek second hold kiya aur pehle khud door ho gayi."
+            },
+            {
+              "kind": "narration",
+              "text": "Usne phir outfit ko suitable cover se adjust kiya, desk par wapas aayi aur sign-off complete kiya. Punit ne na dramatic reaction di na aage ke encounter ka haq samjha."
+            },
+            {
+              "kind": "thought",
+              "text": "Main normally uski mistakes dhoondhti hoon. Aaj main uski honest opinion dhoondh rahi thi. Strange."
+            },
+            {
+              "kind": "narration",
+              "text": "Taniya ne 19:30 ka office exit change nahi kiya. Reports close hui, bag shoulder par aaya, aur woh society ke liye nikli."
+            }
+          ],
+          "approval": "WORKING_PROSE_DRAFT_NOT_AUTHOR_APPROVED"
+        },
+        {
+          "id": "TAN-04B-P03",
+          "start": "20:38",
+          "end": "20:58",
+          "title": "Guddu and the unfinished quotation",
+          "location": "Soniya apartment foyer, adult-only entrance",
+          "sourceRefs": [
+            "E04B-SOC-TA-02",
+            "E04A Taniya–Guddu TS04A-03"
+          ],
+          "lines": [
+            {
+              "kind": "narration",
+              "text": "Society pahunchne mein traffic laga. Taniya ne Soniya ke ghar par bag rakha, fresh hui aur apna alag bridal home-trial blouse/drape pehna. Iska back-cut aur waistline office outfit se alag tha; yeh uski personal choice thi, kisi designer malfunction ka result nahi."
+            },
+            {
+              "kind": "narration",
+              "text": "Guddu vendor ka latest rate-sheet update lekar aaya. Missing page abhi officially incomplete thi; usne completed invoice ka drama nahin kiya. Taniya ne document dekha aur bedroom ke bajaye entrance foyer ke mirror ke paas ruki."
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Taniya",
+              "text": "Aaj koi trolley accident nahi hona chahiye."
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Guddu",
+              "text": "Maine counter se wheels hi hata diye, madam."
+            },
+            {
+              "kind": "narration",
+              "text": "Taniya hansi. Usne apne drape ko shoulder se adjust kiya, open-back design mirror mein check kiya aur knowingly Guddu ki taraf mudi."
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Taniya",
+              "text": "Ek personal question. Yeh bridal look formal lag raha hai, ya thoda daring?"
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Guddu",
+              "text": "Aap audit mein bhi seedha verdict chahti hain. Aaj answer thoda mushkil hai."
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Taniya",
+              "text": "Good. Matlab tum soch rahe ho."
+            },
+            {
+              "kind": "narration",
+              "text": "Usne side-by-side mirror pose suggest kiya, saaf kehkar ki koi photo nahi aur koi pressure nahi. Guddu ne accept kiya. Dono briefly saath khade hue; uska haath Taniya ki permission se side waist ke paas ek framing placement par aaya, aur Taniya ne khud pose khatam kar diya."
+            },
+            {
+              "kind": "narration",
+              "text": "Taniya ne mirror ke bajaye ek baar seedha Guddu ka expression dekha. Usne pehli baar openly accept kiya ki usse yeh attention chahiye tha—sirf vendor ki tareef nahi."
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Guddu",
+              "text": "Quotation page ka update main kal bhi confirm karunga."
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Taniya",
+              "text": "Aur next time bag strap check karke aana."
+            },
+            {
+              "kind": "narration",
+              "text": "Uski awaaz teasing thi, par Guddu ke jaane ke baad woh kuch der doorway par ruki. Office ki boldness aur society ki personal familiarity alag lag rahi thi."
+            }
+          ],
+          "approval": "WORKING_PROSE_DRAFT_NOT_AUTHOR_APPROVED"
+        },
+        {
+          "id": "TAN-04B-P04",
+          "start": "20:58",
+          "end": "21:18",
+          "title": "Two women, different stories",
+          "location": "Soniya's shared family flat",
+          "sourceRefs": [
+            "E04B-SOC-TA-03",
+            "E04A Soniya–Guddu independent exchange"
+          ],
+          "lines": [
+            {
+              "kind": "narration",
+              "text": "Guddu chala gaya toh Taniya ne quotation packet dining table par rakha. Soniya ki routine aur Rahul ke saath uska existing conversation alag thi. Taniya ko Guddu aur Soniya ke kal ke playful exchange ki poori details nahi thi, isliye woh unke behalf par koi conclusion nahi banati."
+            },
+            {
+              "kind": "thought",
+              "text": "Kal mera bag-strap uske haath tak mujhe le gaya tha. Aaj main khud uske saamne ruki. Dono moments same nahi hain."
+            },
+            {
+              "kind": "narration",
+              "text": "Usne Aditya ka pending wedding message dekha, reply kiya aur trial outfit carefully rakh diya. Uski engagement ek real commitment thi; personal curiosity usko erase nahi karti. Aaj ke sawal ka answer usse chhupa nahi tha: usne khud attention maangi thi."
+            }
+          ],
+          "approval": "WORKING_PROSE_DRAFT_NOT_AUTHOR_APPROVED"
+        }
+      ]
+    },
+    {
+      "id": "shreya",
+      "name": "Shreya",
+      "societyChotu": "Chintu",
+      "officeChotu": "Station Chotu",
+      "scenes": [
+        {
+          "id": "SHR-04B-P01",
+          "start": "07:20",
+          "end": "07:35",
+          "title": "The shirt in the cupboard",
+          "location": "Shreya's apartment, family-only morning",
+          "sourceRefs": [
+            "SHR04A-S01 SC01–SC04",
+            "04A uncertainty register"
+          ],
+          "lines": [
+            {
+              "kind": "narration",
+              "text": "Shreya ne kal wali khaki shirt cupboard se nikali. Upar ke do buttons usne khud loosen kiye the; latch ne agle do tod diye the. Ab replacement buttons sew kar diye gaye the, lekin kal ka moment stitching se disappear nahi hua."
+            },
+            {
+              "kind": "narration",
+              "text": "Mirror ke saamne woh shirt ko dekhti rahi. Chintu ne kitna dekha tha? Usne kabhi poochha nahi. Aur Chintu ne kabhi explain nahi kiya. Shreya kisi exact view ka proof invent nahi kar sakti thi."
+            },
+            {
+              "kind": "narration",
+              "text": "Anaya ki morning care alag chal rahi thi. Shreya ne shirt fold ki, duty uniform sahi tarah pehni aur station ke liye nikli. Usne decide kiya tha ki shaam ko woh old shirt ko ek practical question ki tarah check karegi—sirf agar Chintu comfortable hua."
+            }
+          ],
+          "approval": "WORKING_PROSE_DRAFT_NOT_AUTHOR_APPROVED"
+        },
+        {
+          "id": "SHR-04B-P02",
+          "start": "17:45",
+          "end": "18:35",
+          "title": "A game no one wins, and her own question",
+          "location": "Police station off-duty staff tea corner",
+          "sourceRefs": [
+            "E04B-SHREYA-05–06",
+            "station chai helper ≠ Chintu"
+          ],
+          "lines": [
+            {
+              "kind": "narration",
+              "text": "Din bhar station files, Rohas ki training notes, Poonam ki review sheet aur Kavita ka flag count complete hua. 17:45 par duty close karke Shreya ne staff tea corner mein ek optional acting-game suggest kiya. Name usne haste hue rakha—'Seduce Him'. Iska policing grade ya official training se koi lena dena nahi tha."
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Shreya",
+              "text": "Only if everyone wants. Chotu bhi agar mana kare, game wahi khatam."
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Station Chotu",
+              "text": "Theek hai, madam. Chai bhi hai aur game bhi. Bas koi meri duty ka mark mat kaatna."
+            },
+            {
+              "kind": "narration",
+              "text": "Kavita ne bold joke maara. Meera ne sincere thank-you kaha. Poonam seedhi aankhon mein dekhkar compliment deti hai. Anjali ne uske quick observation ko challenge kiya. Chotu sabko alag, witty jawab deta raha; kisi ke charm se woh visibly flustered nahi hua. Saari women hansi aur game wahin khatam hua."
+            },
+            {
+              "kind": "narration",
+              "text": "Baaki staff corner se bahar aaya. Shreya ab civilian sleeveless top aur trousers mein thi. Kal ki training ke baad shoulder-blade ke paas stiffness thi; uske bag mein apna balm tha. Usne chai helper ko kisi officer ki tarah nahi bulaya."
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Shreya",
+              "text": "Ek personal favour poochhun? Agar comfortable ho toh upper back par thoda balm laga doge? Mana karoge toh main khud manage kar lungi."
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Station Chotu",
+              "text": "Agar aapko help chahiye toh kar deta hoon."
+            },
+            {
+              "kind": "narration",
+              "text": "Usne sleeves aur hair ko khud side kiya; chest covered thi. Chotu ne sirf agreed upper-back area par thoda balm lagaya, phir haath hata liya. Shreya ne uske reflection ki taraf dekha. Uska expression flustered se zyada attentive tha."
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Shreya",
+              "text": "Sabki teasing handle kar li. Tum sach mein difficult candidate ho."
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Station Chotu",
+              "text": "Game mein toh mujhe chai banana hi aasaan laga."
+            },
+            {
+              "kind": "narration",
+              "text": "Shreya ki saans ek pal ko tez hui, phir usne balm cap band ki aur uska shukriya ada kiya. Uska reaction uske apne decision se tha, Chotu ke kisi implied promise se nahi. 18:35 par woh station se nikal gayi."
+            }
+          ],
+          "approval": "WORKING_PROSE_DRAFT_NOT_AUTHOR_APPROVED"
+        },
+        {
+          "id": "SHR-04B-P03",
+          "start": "19:42",
+          "end": "20:06",
+          "title": "The same uniform, this time her decision",
+          "location": "Gulmohar Heights apartment entry dressing nook",
+          "sourceRefs": [
+            "E04B-SOC-SR-02",
+            "SHR04A-S01"
+          ],
+          "lines": [
+            {
+              "kind": "narration",
+              "text": "Ghar lautkar Shreya ne pehle Anaya ke care arrangement ka haal liya. Chintu se baat sirf us waqt hui jab bachchi family area mein thi aur entrance dressing nook alag, private tha. Khaki shirt kal wali hi thi; do replacement buttons ab us jagah lage the jahan latch ne fabric khinch li thi."
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Shreya",
+              "text": "Chintu, kal ke incident ki wajah se yeh shirt repair karani padi. Check karoge buttons properly close hote hain? Personal favour hai. Mana kar sakte ho."
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Chintu",
+              "text": "Haan, madam. Kal toh latch bhi alag hi behave kar raha tha."
+            },
+            {
+              "kind": "narration",
+              "text": "Shreya ne opaque camisole aur trousers pehne the. Chintu ne shirt-front ka placket sambhal kar sirf repaired buttons close kiye; uska haath fabric par raha. Shreya ne shirt ka tension mirror mein check kiya."
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Shreya",
+              "text": "Kal tum itne chup kyun ho gaye the? Door ki wajah se?"
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Chintu",
+              "text": "Door bhi tha. Aur aapko pareshan dekhkar samajh nahi aaya kya bolun."
+            },
+            {
+              "kind": "narration",
+              "text": "Yeh answer kal ki uncertainty ko poori tarah resolve nahi karta tha. Shreya ne use force nahin kiya. Usne ek chhota pause liya, phir khud repaired buttons khole aur OUTER uniform shirt utar kar haath mein rakh li. Camisole aur trousers apni jagah the."
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Shreya",
+              "text": "Kal shirt apne aap khuli thi. Aaj main khud decide kar rahi hoon ki kis tarah khadi rahun. Difference samajh aa raha hai?"
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Chintu",
+              "text": "Ji. Aaj aap uncomfortable nahi lag rahi."
+            },
+            {
+              "kind": "narration",
+              "text": "Shreya ne uske jawab par aankhen neeche ki, phir seedha dekha. Yeh compliment nahi, observation thi. Woh chahti thi ki woh use kal ki helpless officer se alag dekhe. Usne Chintu ko thanks kaha aur outer shirt wapas pehen li."
+            },
+            {
+              "kind": "narration",
+              "text": "Chintu chala gaya. Shreya ne door softly band kiya. Chehre par garmi thi, ungliyon mein halki si sensation, aur ek ajeeb relief: kal ki awkwardness usne khud ek chosen conversation mein badal di thi."
+            }
+          ],
+          "approval": "WORKING_PROSE_DRAFT_NOT_AUTHOR_APPROVED"
+        },
+        {
+          "id": "SHR-04B-P04",
+          "start": "20:06",
+          "end": "20:30",
+          "title": "Not a report she has to file",
+          "location": "Shreya's family living area",
+          "sourceRefs": [
+            "E04B-SOC-SR-03",
+            "Family Anaya care only"
+          ],
+          "lines": [
+            {
+              "kind": "narration",
+              "text": "Shreya ne repaired shirt neatly rakh di aur family room mein Anaya ko dekha. Yeh uski duty report ka hissa nahi tha. Station Chotu aur society Chintu do alag log the; ek ko doosre encounter ka knowledge nahi mil gaya."
+            },
+            {
+              "kind": "thought",
+              "text": "Kal mujhe laga tha door ka latch mere control ke bahar tha. Aaj button kholne ka decision mera tha. Phir bhi kitna alag feel hua."
+            },
+            {
+              "kind": "narration",
+              "text": "Vikram ki Jan2 return timing aur dusre relatives ki exact location verified nahi thi, isliye story ne koi sudden witness insert nahi kiya. Shreya ne normal mother-wife routine resume ki. Uski private warmth ek pal ke liye thi, aur woh kisi ko elaborate confession banakar dene wali nahi thi."
+            }
+          ],
+          "approval": "WORKING_PROSE_DRAFT_NOT_AUTHOR_APPROVED"
+        }
+      ]
+    },
+    {
+      "id": "meenakshi",
+      "name": "Meenakshi",
+      "societyChotu": "Babloo",
+      "officeChotu": "Naveen",
+      "scenes": [
+        {
+          "id": "MEE-04B-P01",
+          "start": "07:40",
+          "end": "07:52",
+          "title": "The car that hasn't come home",
+          "location": "Kapoor flat and society call",
+          "sourceRefs": [
+            "EP03 Babloo B01–B05",
+            "04A register: no Babloo incident"
+          ],
+          "lines": [
+            {
+              "kind": "narration",
+              "text": "Meenakshi ne morning schedule check karte hue hospital report folder side mein rakha. Vihaan ki routine apni jagah thi; gaadi abhi bhi badminton court ke paas bandh padi thi. Kal Babloo ne pehli baar personal compliment diya tha aur bina kahe help offer ki thi."
+            },
+            {
+              "kind": "narration",
+              "text": "Usne Babloo ko phone kiya, kisi romance ke bahane nahi—car ke liye."
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Meenakshi",
+              "text": "Babloo, mechanic se baat hui? Car ko koi bina check kiye move mat karna."
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Babloo",
+              "text": "Doctor Madam, model aur location bhej diya hai. Estimate confirm hoga tab batata hoon. Bina aapke kehne ke tow nahi karwaunga."
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Meenakshi",
+              "text": "Good. Main aaj cab se hospital jaa rahi hoon."
+            },
+            {
+              "kind": "narration",
+              "text": "Call khatam hua toh use kal ka unexpected compliment yaad aaya. Babloo aaj bilkul practical tha, jaise pehle se hamesha rehta tha. Usko apne mann ka badlav zyada curious laga. Usne cab book ki aur duty ke liye nikli."
+            }
+          ],
+          "approval": "WORKING_PROSE_DRAFT_NOT_AUTHOR_APPROVED"
+        },
+        {
+          "id": "MEE-04B-P02",
+          "start": "11:00",
+          "end": "17:40",
+          "title": "After the senior review, a personal choice",
+          "location": "Hospital senior-review room, admin desk, staff changing",
+          "sourceRefs": [
+            "M08 shifted Jan2 11:00–11:40",
+            "E04B-MEENAKSHI-03/05",
+            "Jan1 Naveen unresolved"
+          ],
+          "lines": [
+            {
+              "kind": "narration",
+              "text": "Hospital mein Meenakshi ne rounds complete kiye. 11 baje ka Senior Review exactly 11:00–11:40 hua; usmein senior doctors aur pending case documentation ki baat hui. Naveen se personal moment banane ke liye meeting ko short nahi kiya gaya."
+            },
+            {
+              "kind": "narration",
+              "text": "11:45 par Naveen approved documents lekar aaya. Usne papers ki proper order mein copies rakh di. Meenakshi ko yaad raha ki Jan1 ka unka handover abhi separate unresolved thread hai; usne koi imagined incident unke beech nahi joda."
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Meenakshi",
+              "text": "Naveen, yeh wellness-camp list final hai?"
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Naveen",
+              "text": "Maine signatures match kiye. Ek contact field blank hai, woh highlighted hai."
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Meenakshi",
+              "text": "Good catch. Tum details chhodte nahi ho."
+            },
+            {
+              "kind": "narration",
+              "text": "Aaj clinic mein Avi aur Yash apne reports le kar aaye, Aditi ne correction explain kiya aur Rupa ne nursing records cross-check kiye. Kal ke car-contact moments kisi second accidental touch mein nahi badle."
+            },
+            {
+              "kind": "narration",
+              "text": "17:15 ke baad Meenakshi duty complete karke private changing room gayi. Off-duty sari aur sleeveless blouse, carefully chosen drape aur visible waistline—yeh morning scrubs se alag tha. Woh apni styling ko professional white coat ki shield ke peeche nahi chhupana chahti thi."
+            },
+            {
+              "kind": "narration",
+              "text": "Naveen final wellness paperwork lekar non-clinical reception mein tha. Meenakshi ne file close hone ke baad hi personal question uthaya."
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Meenakshi",
+              "text": "Naveen, kaam khatam. Ek personal opinion poochh sakti hoon? Comfortable nahi ho toh chhod dete hain."
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Naveen",
+              "text": "Ji, poochhiye."
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Meenakshi",
+              "text": "Yeh look mere hospital wale look se kitna different lag raha hai?"
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Naveen",
+              "text": "Bilkul different. Aaj aap zyada relaxed hain."
+            },
+            {
+              "kind": "narration",
+              "text": "Meenakshi muskuraayi. Usne ek short close pose ke liye clearly permission poochhi. Naveen ne agree kiya; unhone briefly waist-level embrace share kiya aur Meenakshi ne pehle release kiya. Usne physical response ko wordlessly register kiya—cheeks warm, breath ek second slow, aur khud ki initiative par chhota surprise."
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Meenakshi",
+              "text": "Thank you. Ab paperwork sach mein over."
+            },
+            {
+              "kind": "narration",
+              "text": "Woh clinical area se nikal gayi. Is encounter mein nurse demonstration, binder accident ya patient ki presence nahi thi."
+            }
+          ],
+          "approval": "WORKING_PROSE_DRAFT_NOT_AUTHOR_APPROVED"
+        },
+        {
+          "id": "MEE-04B-P03",
+          "start": "18:35",
+          "end": "19:36",
+          "title": "Babloo's estimate and the unexpected personal question",
+          "location": "Kapoor flat entrance, adult-only foyer",
+          "sourceRefs": [
+            "EP03 Babloo car recovery offer",
+            "E04B-SOC-ME-01–02"
+          ],
+          "lines": [
+            {
+              "kind": "narration",
+              "text": "18 baje hospital se nikalne ke baad Meenakshi society pahunchi. Usne pehle Vihaan ka haal liya aur family care ensure ki. Babloo ka message aaya: mechanic ko model aur location confirm ho gayi thi, estimate ka final number abhi pending tha. Car ko recovered nahi bataya gaya."
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Meenakshi",
+              "text": "Theek hai, Babloo. Written quote mile toh bhejna. Andar aakar de sakte ho agar free ho."
+            },
+            {
+              "kind": "narration",
+              "text": "Babloo foyer tak aaya. Uske paas service details thi, koi concealed photograph nahi. Meenakshi ne ghar mein apna evening sari look select kiya tha—open-back blouse, side-waist drape, hair loose. Usne hair ek taraf karne ka decision khud liya."
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Babloo",
+              "text": "Doctor Madam, gaadi ka kaam pehle ho jaaye. Mechanic kal morning check karega tab exact cost milegi."
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Meenakshi",
+              "text": "Bilkul. Aur ek personal sawal bhi hai—kal tumne kaha tha main different lag rahi thi. Aaj?"
+            },
+            {
+              "kind": "narration",
+              "text": "Babloo ek pal ke liye ruka. Woh same plum kurta nahi tha jisme usne kal first compliment diya tha. Meenakshi ne uski gaze ko challenge nahi banaya; bas seedha answer maanga."
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Babloo",
+              "text": "Aaj aapne khud tayyar hone mein time diya hai. Aapko khud achha lag raha hai, wahi sabse alag hai."
+            },
+            {
+              "kind": "narration",
+              "text": "Meenakshi ne smile roki, phir khulkar hansi. Woh uski maturity se hairan thi."
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Meenakshi",
+              "text": "Tumhare paas har sawal ka safe answer hota hai kya?"
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Babloo",
+              "text": "Safe nahi, jo sahi lage."
+            },
+            {
+              "kind": "narration",
+              "text": "Meenakshi ne poochha kya woh ek single standing pose ke liye comfortable hai. Usne haan kaha; Meenakshi ne light lower-back hand placement allow ki, ek breath ke liye pose hold kiya aur khud distance banayi. No photo, no dramatized stumble."
+            },
+            {
+              "kind": "narration",
+              "text": "Uski skin par ek chhoti warmth aayi aur haath apne aap drape par ruk gaye. Kal Babloo ka compliment unexpected tha. Aaj usne deliberately use personal jawab dene ka mauka diya."
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Meenakshi",
+              "text": "Estimate aate hi bata dena. Aur car bina permission move nahi."
+            },
+            {
+              "kind": "dialogue",
+              "speaker": "Babloo",
+              "text": "Of course, Doctor Madam."
+            },
+            {
+              "kind": "narration",
+              "text": "Babloo nikal gaya. Meenakshi ne foyer ka light band kiya; unki practical conversation aur personal pause dono alag the, koi dusre ka replacement nahi."
+            }
+          ],
+          "approval": "WORKING_PROSE_DRAFT_NOT_AUTHOR_APPROVED"
+        },
+        {
+          "id": "MEE-04B-P04",
+          "start": "19:36",
+          "end": "20:06",
+          "title": "A doctor, a mother, and her own question",
+          "location": "Kapoor home: family-only room",
+          "sourceRefs": [
+            "E04B-SOC-ME-03",
+            "04A register no Babloo accident"
+          ],
+          "lines": [
+            {
+              "kind": "narration",
+              "text": "Meenakshi Vihaan ke paas aayi. Nikhil ki marriage track aur ghar ki existing responsibilities uski duniya se gayab nahi hui thi. Usne baby ki routine arrange ki aur kitchen mein thoda paani piya."
+            },
+            {
+              "kind": "thought",
+              "text": "Naveen ke saath hospital mein ek decision liya. Babloo ke saamne ghar par doosra. Kya har choice ka matlab same hota hai? Nahi."
+            },
+            {
+              "kind": "narration",
+              "text": "Use khas taur par yeh sochne mein ajeeb laga ki Babloo ne kal sirf outfit nahi, uski relaxed mood notice ki thi. Aaj woh khud sunna chahti thi ki usse koi fark nazar aaya ya nahi. Uski cheeks ki garmahat dheere se kam ho gayi. Car ka status pending tha; personal curiosity bhi, lekin usne dono ko confuse nahi kiya."
+            }
+          ],
+          "approval": "WORKING_PROSE_DRAFT_NOT_AUTHOR_APPROVED"
+        }
+      ]
+    }
+  ]
+}
