@@ -17,10 +17,15 @@ try {
  await page.getByRole('link',{name:'Episode 04 Plot'}).click();
  await page.getByRole('heading',{name:'Episode 04 · Plot Planning'}).waitFor();
  await page.locator('#episode04-active-plan details').first().waitFor();
+ await page.locator('#society-chotu-continuity-a-ankita').waitFor();
+ assert.ok((await page.locator('#society-chotu-continuity-a-ankita').innerText()).includes('What was visibly confirmed'));
+ assert.ok((await page.locator('#society-chotu-continuity-a-ankita').innerText()).includes('Navel / abdomen'));
+
  await page.getByRole('button',{name:'Episode 04B · Next Day'}).click();
  await page.locator('#episode04-next-day').waitFor();
  assert.ok((await page.locator('#episode04-next-day').innerText()).includes('Rohit'));
  assert.ok((await page.locator('#episode04-next-day').innerText()).includes('Rinku'),'Ankita society continuation missing');
+ await page.locator('#society-chotu-continuity-b-ankita').waitFor();
  for(const [lead,chotu] of [['Shivani','Sunny'],['Taniya','Punit'],['Shreya','Station Chotu'],['Meenakshi','Naveen']]){
   await page.getByRole('button',{name:lead,exact:true}).click();
   await page.locator('#episode04-next-day').waitFor();
@@ -29,6 +34,7 @@ try {
   assert.ok(content.includes('Twins absent'),'Twins absence lock missing for '+lead);
   assert.ok(content.includes('Colleague track'),'parallel colleague scenes missing for '+lead);
   assert.ok(content.includes('Society Chotu'),'after-office society Chotu scenes missing for '+lead);
+  await page.locator('#society-chotu-continuity-b-'+lead.toLowerCase()).waitFor();
  }
  assert.equal(await page.locator('img').count(),0);
  console.log('Browser smoke check passed: Reader 01–03 and Planning 04A/B.');
