@@ -9,6 +9,22 @@
 
 This file is the **public review companion** to the 7-section Word document titled `अंकिता एपिसोड फोर पार्ट एक — Review.docx`. It is a structured reference, **not** the complete narrative manuscript. The Word file has the complete seven-scene prose, purple marks for existing romantic/sexual tension, amber slots for author review, blue factual locks, and grey exclusions. Do not infer that an unwritten or missing action occurred.
 
+## GROK HANDOFF UPDATE — MICRO-BEAT RULES (AUTHOR REQUESTED, 19 NOV 2026)
+
+**Protocol:** [WRITING-COLLABORATION-PROTOCOL.md](WRITING-COLLABORATION-PROTOCOL.md#2a-micro-beat-contract--author-requested-update-19-november-2026)  
+**Episode-specific rewrite preparation:** [EP04A-ANKITA-MICROBEAT-REWRITE-PREP.md](EP04A-ANKITA-MICROBEAT-REWRITE-PREP.md)  
+**Status:** Instructions for future re-drafting, not new canon and not an edit of the already-written Google Doc.
+
+1. **One major action per micro-beat (at most two inseparable actions)**. Keep old A01–A05 / N01–N10 as parent IDs, use child IDs.
+2. **Each beat must identify the POV character's thought/interpretation and observable response**, or explicitly mark `UNSPECIFIED` if the source offers no reliable thought. Preserve knowledge gaps.
+3. **Check touch/contact, sound, temperature/environment, physical reaction and emotional reaction in each beat**; `N/A` is valid, invented sensory material is not.
+4. **Every participant must be named** with their role, location, presence and knowledge; distinguish similarly addressed men/"uncles" when relevant. In this scene Rinku (23) is the society helper and **not** office helper Rohit (22).
+5. **External-writer target: 300–400 words per author-selected expanded micro-beat**, with the word count shown as a field. Do not pad normal conversation to hit a quota or change plot events without author confirmation.
+6. **Entry and exit continuity is required**: dry/wet clothes, room position, tools/valve/water, physical contact, elapsed time, next participant's knowledge.
+7. **Grok or another writer owns its assigned prose voice; author owns style and final decision.** Mark action/wardrobe ambiguity, do not silently choose. Multiple draft insertion markers are optional and map to separate ledger IDs.
+8. **Current discrepancy for author review:** EP03 homewear has no locked undergarment state; EP04A draft describes an inner clothing outline; a later no-innerwear idea is still a proposed change. Do not resolve this by assumption.
+9. **No source is being rewritten or approved through this update.** Rewrite order: author agrees on microbeat map → draft selected beat(s) → author reviews → reconcile seven-scene timeline → save approved changes.
+
 ## Writing boundaries
 
 1. Scenes 01–06 proceed **on-page** with normal continuity; no off-page jump is used to conceal an event.
