@@ -4,7 +4,7 @@
   "title": "Society Wives · Episode 04B · Society Chotu after office: five distinct home/society encounters",
   "date": "2026-01-02",
   "timezone": "Asia/Kolkata",
-  "status": "USER_REVISED_SHREYA_JAN02_SOCIETY_BROKEN_UNIFORM_CALLBACK__PLOT_FOR_REVIEW_NOT_PROSE",
+  "status": "SOCIETY_CHOTU_PLOT_PRESERVED__MORNING_CALLBACKS_LINKED__WORKING_PROSE_DRAFTED",
   "scope": "Adds one short after-work society/helper track per lead, after each lead's pre-existing office Chotu scene and colleague encounters; preserves those existing scenes and their locks.",
   "comparisonRule": "Station game is voluntary verbal flirting and then a consensual upper-back balm gesture; society callback is a deliberately staged, non-nude outer-shirt unbuttoning/removal with the SAME repaired uniform shirt Chintu saw snag at the door on Jan1.",
   "twins": "ABSENT_DAY2_ALL_FIVE",
@@ -133,7 +133,7 @@
       "age": 23,
       "officeExit": "18:15",
       "societyWindow": "19:15–20:40",
-      "officeCarryover": "Rohit office scene: Annie intentionally styled a deep neckline and visible waist and initiated a brief consensual waist hold. Rinku is a different society helper with no approved personal encounter yet.",
+      "officeCarryover": "Rohit office scene: Annie intentionally styled a deep neckline and visible waist and initiated a brief consensual waist hold. Rinku is a different society helper with no approved personal encounter yet. Morning society check-in at 07:12 covers the pending connector, not a new sexual/physical accident; return at 19:05 for the actual replacement.",
       "visualSignature": "New Year evening lehenga-style drape with open back, exposed shoulders, side waist and visible midriff, with a light wrap she intentionally leaves off while judging décor light.",
       "chosenAction": "Open-back and waist display; consensual lower-back-guided single pose, no second generic waist hold identical to Rohit.",
       "personalEscalation": "The social risk is inviting a known building helper to see her in off-duty attire and then openly acknowledging the fact she chose not to cover up. She is self-aware, less performative than with Rohit; Rinku's consent and distance remain essential.",
@@ -142,8 +142,8 @@
           "id": "E04B-SOC-AN-01",
           "start": "19:05",
           "end": "19:35",
-          "title": "Return after the Cyber City office",
-          "location": "Ankita apartment → shared society décor corridor",
+          "title": "Return from office: finish the filter repair, then event-light pickup",
+          "location": "Ankita kitchen filter and shared corridor decoration niche",
           "characters": [
             "Ankita",
             "Rinku (service update)"
@@ -156,8 +156,9 @@
             },
             {
               "id": "SOC-AN-02",
-              "title": "Rinku has a real service job",
-              "action": "Rinku is the society helper assigned to collect a leftover New Year LED dimmer and safely remove decorative wiring in the shared corridor. He is not suddenly a photographer, romantic confidant or participant in yesterday's Rohit encounter."
+              "title": "Actual connector callback first, lighting work second",
+              "action": "Rinku returns as a familiar helper because the Jan1 water-filter coupler was only temporarily secured. With the exact replacement part, he shuts water, completes the repair and checks pressure safely; no second spray or accidental physical contact. He also has a separate legitimate assignment to collect New Year corridor-light dimmer. Any later styling discussion is Ankita's separate voluntary choice, not an electrical safety task.",
+              "continuity": "Connect E04A-S01 A05 unfinished fitting to evening work before she invites an independent personal pose."
             }
           ],
           "track": "SOCIETY_CHOTU",
@@ -177,7 +178,7 @@
             {
               "id": "SOC-AN-03",
               "title": "New visual accent",
-              "action": "After getting ready for the evening at home, Ankita steps out in a deliberately chosen, more open-back festive drape that also shows her side waist and midriff. She removes the loose wrap she would normally use and looks toward Rinku only after he has finished the electrical safety check.",
+              "action": "After getting ready for the evening at home, Ankita steps out in a deliberately chosen, more open-back festive drape that also shows her side waist and midriff. She removes the loose wrap she would normally use and looks toward Rinku only after he has finished the electrical safety check. The leak has been repaired before she starts a personal conversation; she is not still standing in a wet kitchen.",
               "bodyParts": "Open back, shoulders, visible side waist and midriff; neckline",
               "actionName": "Intentional full back/waist reveal with wrap set aside",
               "sightline": "Common-space alcove with no secret locked room and no child involvement"
@@ -525,5 +526,44 @@
         }
       ]
     }
-  ]
+  ],
+  "beforeOfficeAnchors": {
+    "ankita": {
+      "start": "07:12",
+      "end": "07:25",
+      "track": "SOCIETY_BEFORE_OFFICE",
+      "proseRef": "ANK-04B-P01",
+      "purpose": "Real unfinished water-filter replacement part/status, no second spill."
+    },
+    "shivani": {
+      "start": "07:15",
+      "end": "07:25",
+      "track": "SOCIETY_BEFORE_OFFICE",
+      "proseRef": "SHI-04B-P01",
+      "purpose": "Deepu checks backdrop latch and poster, not another falling panel."
+    },
+    "taniya": {
+      "start": "09:02",
+      "end": "09:13",
+      "track": "SOCIETY_BEFORE_OFFICE",
+      "proseRef": "TAN-04B-P01",
+      "purpose": "Guddu confirms returned approval sleeve and still-pending vendor quotation page."
+    },
+    "shreya": {
+      "start": "07:20",
+      "end": "07:35",
+      "track": "HOME_BEFORE_OFFICE",
+      "proseRef": "SHR-04B-P01",
+      "purpose": "Same repaired shirt checked at home; Chintu's morning duty unverified, so no meeting invented."
+    },
+    "meenakshi": {
+      "start": "07:40",
+      "end": "07:52",
+      "track": "SOCIETY_BEFORE_OFFICE",
+      "proseRef": "MEE-04B-P01",
+      "purpose": "Babloo on phone with unresolved mechanic status; cab to hospital, no invented recovered car."
+    }
+  },
+  "mergedChronologySource": "episode-04b-five-leads-merged-chronology.json",
+  "proseSource": "episode-04b-five-leads-prose-drafts.json"
 }
