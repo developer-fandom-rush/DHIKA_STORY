@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "id": "SW-EP04A-04B-SOCIETY-CHOTU-UNCERTAINTY-REGISTER",
+  "title": "Episode 04A → 04B · What was actually seen, touched, felt and later deliberately tested",
+  "status": "USER_REQUESTED_REFERENCE_IN_PLANNING_UI__FACTS_VERIFIED__NEW_POV_MICROBEATS_PROPOSALS_ONLY",
+  "purpose": "Keep all earlier 04B society Chotu ideas available while mapping every existing 04A incident to a source-grounded uncertainty, physical response and 04B deliberate follow-up. Never turn a proposed body-part observation into an established sightline.",
+  "policy": {
+    "sourcePriority": "Source-approved story beats override this editorial register. Unknown does not mean visible.",
+    "scope": "04A source look-back and 04B planning reminder; not final prose.",
+    "measurement": "Breast fraction, nipple visibility, navel visibility, exposed back or buttocks must NOT be invented. Only record visibly supported body/clothing regions and what remained unconfirmed.",
+    "contact": "Separate accidental contact from deliberate, freely agreed contact. Do not infer consent for the next encounter.",
+    "storyBoundaries": "No students, children or patients in adult intimacy; society and office Chotu roles must stay distinct. No kissing in 04B; twins absent 2 January.",
+    "priorIdeas": "Preserve all five existing 04B society Chotu scenarios and time slots in episode-04b-society-chotu-jan02-five-leads.json without replacing them with this register."
+  },
+  "leads": [
+    {
+      "id": "ankita",
+      "name": "Ankita",
+      "societyChotu": "Rinku",
+      "reference": "episode-04a-ankita-plan.json · E04A-S01 · A03–A05",
+      "incident": "1 Jan 18:25–18:45: water-filter coupler sprays her cotton kurti; she grabs Rinku's clothed upper arm to avoid slipping, and their shoulders come close.",
+      "visibleConfirmed": "Wet kurti momentarily outlines the existing inner clothing; he briefly notices the changed fabric.",
+      "bodyRegions": {
+        "chestBreast": "Wet, covered upper-torso/inner-layer outline only. No exposed breast; no measurable fraction of breast observed.",
+        "navelAbdomen": "Covered. No visible navel supported.",
+        "back": "Covered; no back reveal established.",
+        "hipsButtocks": "Covered; no exposed buttocks or distinct view established."
+      },
+      "touchConfirmed": "Ankita's hand on Rinku's clothed upper arm; shoulders near for about 2–3 seconds; no breast, navel, buttock or exposed-back touch.",
+      "herResponse": "A brief shiver/thrill and unresolved question about why Rinku went quiet, while managing the leak.",
+      "hisResponse": "He falls silent briefly and returns attention to repair; source does not say what he privately thought.",
+      "uncertainty": "Did Rinku notice only wet fabric, the outline beneath it, or the risk of the leak? Ankita cannot know. No anatomy percentages.",
+      "proposed04AMicrobeat": "If the author revises A04–A05 later, preserve her uncertainty as one short private question tied to his silence; do not manufacture a second exposure or alter what the water actually showed.",
+      "followUp04B": "Use Rinku's still-unfinished replacement water-filter connector as a genuine callback/repair thread; keep previously saved evening styling idea as her separate voluntary choice. She may ask whether the leak unsettled him and test his reaction to her chosen open-back/midriff look; the brief low-back pose is only by mutual agreement.",
+      "dontRepeat": "Do not substitute LED lighting as the only reason to see Rinku, re-stage the water spray, imply a bare-breast view, or replay Rohit's office waist-hold beat verbatim.",
+      "reviewStatus": "EXISTING_04A_FACTS_LOCKED__MICROBEAT_PROPOSED"
+    },
+    {
+      "id": "shivani",
+      "name": "Shivani",
+      "societyChotu": "Deepu",
+      "reference": "episode-04a-shivani-plan.json · E04A-SH-S02 · SH04–SH06",
+      "incident": "1 Jan 18:51–19:05: unstable backdrop panel forces a close front-to-front position; Shivani grips Deepu's shirt edge while Deepu steadies her clothed upper back.",
+      "visibleConfirmed": "Ordinary clothed front-to-front closeness; the source describes no displaced garment or bare-body reveal.",
+      "bodyRegions": {
+        "chestBreast": "Both clothed; no exposed breast or measured neckline sightline established.",
+        "navelAbdomen": "Covered; navel not exposed.",
+        "back": "Deepu's steadying hand on clothing over Shivani's upper back; no bare back seen or touched.",
+        "hipsButtocks": "Covered; no buttock view or touch established."
+      },
+      "touchConfirmed": "Shivani's hand briefly on Deepu's shirt; Deepu's hand at her clothed upper back as he steadies her. Not her bare waist.",
+      "herResponse": "Her fluent teasing briefly gives way to surprise, then she delivers a knowing line.",
+      "hisResponse": "Unexpectedly confident comeback; he does not initiate further touching.",
+      "uncertainty": "Was Deepu startled by their proximity or personally interested? His calm, confident answer gives no proof. Anatomical exposure is NOT the uncertainty in 04A.",
+      "proposed04AMicrobeat": "Option for SH06: a single internal line asks whether he had simply steadied her or deliberately held her gaze; don't add new garment exposure or erase Kavya's distinct spark with Deepu moments later.",
+      "followUp04B": "Keep the already saved cultural-light silhouette and side-waist 3-count pose as Shivani's separately chosen, consent-based test of whether Deepu still responds with that unexpected confidence. The new focus is duration and her loss of conversational control, not pretending an earlier body display happened.",
+      "dontRepeat": "Do not re-stage a backdrop accident, convert the 04A upper-back touch into bare-skin contact, or claim Kavya witnessed the accident.",
+      "reviewStatus": "EXISTING_04A_FACTS_LOCKED__MICROBEAT_PROPOSED"
+    },
+    {
+      "id": "taniya",
+      "name": "Taniya",
+      "societyChotu": "Guddu",
+      "reference": "episode-04a-taniya-soniya-night-review.json · Taniya × Guddu · TS04A-02–04",
+      "incident": "1 Jan 21:09–21:22: a trolley catches her crossbody strap, pulling Taniya nearer; she grasps Guddu's forearm for balance, they release, and he returns the wedding approval sleeve.",
+      "visibleConfirmed": "Clothing and body remain covered. The scene explicitly says NO garment exposure.",
+      "bodyRegions": {
+        "chestBreast": "Covered; no breast glimpse, no measured cleavage display.",
+        "navelAbdomen": "Covered; navel not exposed.",
+        "back": "Covered; no bare-back sightline.",
+        "hipsButtocks": "Covered; no buttock exposure or touching."
+      },
+      "touchConfirmed": "Taniya grips Guddu's forearm during a balance incident; no waist/breast/buttock contact.",
+      "herResponse": "Momentarily thrown off, then makes a teasing parting remark and privately notices being caught off guard.",
+      "hisResponse": "Stabilizes trolley, points out the brake, returns to delivery work; no documented erotic gaze.",
+      "uncertainty": "Did he notice only the bag-strap problem or that she had become suddenly self-conscious around him? There is no uncertain nudity or anatomy view.",
+      "proposed04AMicrobeat": "Optional TS04A-04 inner line contrasting her usual witty confidence with her sudden need to joke after a harmless forearm grip. Do NOT invent a lost button, wet outfit or accidental body display.",
+      "followUp04B": "Keep the prior wedding-quotation/approval-sleeve handoff, and separately preserve the saved bridal mirror-pose idea. In 04B she willingly chooses the outfit and may invite a side-waist pose, contrasting 04A's involuntary forearm grip; Guddu's earlier Soniya interaction remains his separate knowledge.",
+      "dontRepeat": "Do not call Jan1 a wet-body accident or erase Soniya's 04A Guddu challenge; do not claim Taniya knows its hidden details.",
+      "reviewStatus": "EXISTING_04A_FACTS_LOCKED__MICROBEAT_PROPOSED"
+    },
+    {
+      "id": "shreya",
+      "name": "Shreya",
+      "societyChotu": "Chintu",
+      "reference": "episode-04a-shreya-night-plan.json · SHR04A-S01 · SC01–SC04",
+      "incident": "1 Jan 17:52–18:07: she first loosens two top uniform buttons; door latch catches the ID/placket and breaks two adjacent buttons. Chintu steadies the door and leaves. She only discovers damaged shirt in her bedroom mirror.",
+      "visibleConfirmed": "Unexpected opening in uniform front; neither narrator nor Shreya can quantify exactly what Chintu saw.",
+      "bodyRegions": {
+        "chestBreast": "An uncertain shirt-front/neckline gap; exposed breast or any fraction is NOT established. Do not invent nipples, quantity or an unobstructed view.",
+        "navelAbdomen": "No navel exposure is established.",
+        "back": "No back exposure from the latch event.",
+        "hipsButtocks": "No buttock exposure or touch established."
+      },
+      "touchConfirmed": "Chintu steadies the door, not Shreya's body. Their contact is with latch/door; no direct breast or waist touch documented.",
+      "herResponse": "Surprised embarrassment upon later mirror check and lingering uncertainty about his stunned expression.",
+      "hisResponse": "Brief stunned expression followed by polite departure; no confirmed interpretation of what he saw.",
+      "uncertainty": "Precisely how much of the unexpected shirt opening Chintu saw remains UNKNOWN. This is closest to Dhika's original visual-uncertainty device, without claiming an anatomical percentage.",
+      "proposed04AMicrobeat": "SC04 may retain one specific private question: did Chintu see only loosened buttons, the torn placket, or more of the neckline than she intended? Source answer must stay unstated.",
+      "followUp04B": "Preserve the recently saved deliberate callback: replace the two actually broken buttons first; Chintu may agree to check the repaired shirt front; then Shreya herself unbuttons and removes only the outer uniform over an opaque inner layer, asking his reaction. No second wardrobe accident.",
+      "dontRepeat": "Do not call the 04A incident a rain scene or say Chintu saw a certain breast percentage. Society Chintu ≠ station chai helper.",
+      "reviewStatus": "EXISTING_04A_FACTS_LOCKED__MICROBEAT_PROPOSED"
+    },
+    {
+      "id": "meenakshi",
+      "name": "Meenakshi",
+      "societyChotu": "Babloo",
+      "reference": "episode-03-meenakshi-scene-04-babloo-intro.json · B01–B05; NO confirmed Babloo encounter in 04A",
+      "incident": "1 Jan near 18:45–19:00 (EP03, not 04A): Babloo notices Meenakshi after badminton drop-off; compliments her plum kurta and loose hair, and offers to arrange a check/recovery for her stalled car.",
+      "visibleConfirmed": "Normal plum-kurta silhouette and hair; NOT a wardrobe accident, wet-clothes reveal or accidental bare-body sightline.",
+      "bodyRegions": {
+        "chestBreast": "Clothed appearance only; no exposed breast or cleavage amount verified.",
+        "navelAbdomen": "Covered by plum kurta; no visible navel supported.",
+        "back": "Clothed; no exposed back recorded.",
+        "hipsButtocks": "Clothed; he notices general silhouette, not any specific exposed area."
+      },
+      "touchConfirmed": "No Meenakshi–Babloo body touch in the confirmed Jan1 introduction.",
+      "herResponse": "Playful surprise at a normally practical helper's personal compliment; she is pleased and intrigued by his confidence.",
+      "hisResponse": "Brief appreciative look, unexpected direct compliment, then practical offer about car recovery.",
+      "uncertainty": "Not 'what did he see beneath clothing?' but 'why did a familiar helper speak to her so differently today?' There is no 04A Babloo accident to retroactively invent.",
+      "proposed04AMicrobeat": "04A planning reference ONLY: preserve the existing EP03 B01–B05 hook; do not write a new Babloo accident or body exposure into 04A as if previously approved. If author later requests a separate Jan1 scene, time and knowledge require review.",
+      "followUp04B": "Use real car-repair news or quote first; no assumed recovered car. Preserve earlier chosen open-back evening-sari and light lower-back pose as a voluntary, separate interaction, not proof that Babloo had previously seen her exposed body. Husband Nikhil and toddler Vihaan remain in household continuity.",
+      "dontRepeat": "Do not imply she was already touched/exposed by Babloo in 04A; do not restore rejected car-hatch accident, copy an office waist embrace or remove Vihaan from the timeline.",
+      "reviewStatus": "EP03_SEED_ONLY__NO_04A_INCIDENT__MICROBEAT_FOR_REVIEW"
+    }
+  ]
+}
