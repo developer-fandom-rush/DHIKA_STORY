@@ -202,7 +202,12 @@ function reader(){
  el("reader-detail").textContent=ep.passages.length+" original paragraphs · "+ep.parts+" parts · exact Google Docs text";
  el("reader-body").innerHTML=ep.passages.map(p=>{
   const mark=q&&p.txt.toLocaleLowerCase().includes(q.toLocaleLowerCase());
-  return '<div class="reader-line'+(p.kind==="note"?" note":p.kind==="part"?" part":mark?" matched":"")+'" id="'+p.id+'"><span class="num">'+p.id.split("-").pop()+'</span><div class="source-text">'+hilite(p.raw,q)+'</div>'+(p.url?'<a href="'+esc(p.url)+'" target="_blank" rel="noopener" title="Original source">↗</a>':'<span></span>')+'</div>';
+  // Image insertions are additive. Source text is never shortened or reworded.
+  const image=ep.n!==4?"":p.raw.includes("As soon as Dhika opened the door")
+   ?'<figure class="reader-visual"><img src="./Society-Wives/assets/dhika-ep04/dhika-ep04-door-opening.jpg" loading="lazy" alt="Dhika and Chotu at the door, EP04 visual interpretation"><figcaption>Dhika · Episode 04 — Doorway</figcaption></figure>'
+   :p.raw.includes("Here my Chotu Babu")&&p.raw.includes("bent down to give it to him")
+   ?'<figure class="reader-visual"><img src="./Society-Wives/assets/dhika-ep04/dhika-ep04-lemon-juice.jpg" loading="lazy" alt="Dhika offering a lemon drink to Chotu, EP04 visual interpretation"><figcaption>Dhika · Episode 04 — Lemon juice</figcaption></figure>':"";
+  return '<div class="reader-line'+(p.kind==="note"?" note":p.kind==="part"?" part":mark?" matched":"")+'" id="'+p.id+'"><span class="num">'+p.id.split("-").pop()+'</span><div class="source-text">'+hilite(p.raw,q)+'</div>'+(p.url?'<a href="'+esc(p.url)+'" target="_blank" rel="noopener" title="Original source">↗</a>':'<span></span>')+'</div>'+image;
  }).join("");
 }
 function exportEpisode(){
