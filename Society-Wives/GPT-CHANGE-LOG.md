@@ -82,3 +82,16 @@ Use the exact label **Changed by GPT** in the Git commit message AND add a dated
 - **Scope:** No changes to author manuscript, characters, Episode 02/03, top navigation architecture, or other leads' planning layouts.
 - **Deployment verification:** GitHub Actions run `44681326207` completed **successfully**, including TypeScript/Vite build and `Deploy GitHub Pages` step. Generated bundle `Society-Wives/assets/index-B6ih2aWk.js` was re-read and verified to contain `episode04a-reader-first` and `episode-04a-ankita-final-source.json`. **Live browser screenshot check was not run.**
 - **Source attribution:** Author wrote the manuscript; GPT changed rendering and layout only.
+
+
+### 2026-11-20 — Changed by GPT — Correctly archive and place two Dhika Episode 04 images
+
+- **Issue:** Two previously generated Dhika EP04 scene illustrations (door opening and lemon-juice exchange) were mistakenly not identified as distinct from the Ankita/Rinku illustrations and had not been shown in the original Dhika reader. The author repeatedly asked to see them and had previously requested placement in their story.
+- **Image source attribution:** Existing user-session generated illustrations, not newly invented or regenerated and not actual reference photos. The illustrated red outfit may not match all canonical source attire; no changes were made to the story text to fit the images.
+- **Stored original PNGs on Drive:** [Dhika EP04 originals folder](https://drive.google.com/drive/folders/1759k_Y3E_KA34r1GzmXaynGjW8Rh4dqF), including `dhika-ep04-original-door-opening.png` and `dhika-ep04-original-lemon-juice.png`, plus smaller JPEG display copies.
+- **Added to GitHub:** `Society-Wives/assets/dhika-ep04/dhika-ep04-door-opening.jpg` and `.../dhika-ep04-lemon-juice.jpg`; binary asset commit `b647e8cba343098fcd8375aa43594c84e91acf4b`.
+- **Inline story placement:** `app.js`, commit `c81a3a1c7126366af6b4a882cf5649f4a5901622`; both images inserted after matching original EP04 lines (Dhika opens door and later gives Chotu lemon juice) without changing any source prose, other episodes, or main navigation.
+- **Styling:** `styles.css`, commit `54478a88a950e48efe6f48d611c1cae41b30a80a`; scoped `.reader-visual` styles only.
+- **Publication status:** GitHub Actions Pages deployment run `44682983396` completed successfully, including the `Deploy GitHub Pages` step. No independent browser screenshot test was performed.
+- **Reader route:** `https://developer-fandom-rush.github.io/DHIKA_STORY/#episode=4` or embedded at `https://developer-fandom-rush.github.io/DHIKA_STORY/Society-Wives/#/dhika-reader?episode=4`.
+- **Unaffected:** All existing original Dhika source paragraphs, Society Wives Ankita EP04A, frozen SW Episodes 02–03, and Society Wives navigation structure.
