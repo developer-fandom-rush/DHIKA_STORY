@@ -62,3 +62,14 @@ Use the exact label **Changed by GPT** in the Git commit message AND add a dated
 - **Files retained:** `episode-04a-ankita-final.html` is a source-hosted working manuscript; this correction changes its navigation, **not the author's text or archived images**.
 - **Approval/source:** Explicit author correction; GPT integration only.
 - **Unaffected:** Episodes 02–03 (approved/frozen), all story texts, prior scene status, the 04B unapproved planning sources.
+
+
+### 2026-11-20 — Changed by GPT — Critical correction: Ankita 04A Planning must show the full original manuscript
+
+- **Author's complaint:** The main Episode 04A Planning UI showed the stale `episode-04a-ankita-plan.json` beat summaries instead of the author-provided final prose, even after GPT incorrectly claimed that the document had been published as intended. This was a GPT implementation and communication failure, not a defect in the author's prompt.
+- **Source verification:** Read `FINAL EP_04.` tab (`t.q9uiye5366b7`) from Google Doc `1zcFlF9rWeIzaenBEmatt4K8bw3L-LcH3c_45JwoNM3o` again. Concatenated source text and GitHub `episode-04a-ankita-final-source.json` text were **identical (6,852 characters)**. The mistake was that the React planning view never rendered the final source, not that source words were deleted.
+- **Change:** Updated `Society-Wives/ui/src/Planning.tsx` only. Selecting **Episode 04A → Ankita** now renders `episode-04a-ankita-final-source.json` directly as unabridged paragraphs (no plot-card substitution), with existing A01/A02/A03/A04 scene illustrations inline and the previous/incorrect images in a collapsed archive. The source's own short Scene 02/03 lines and late-Kabir planning notes remain as given; they are not deceptively expanded into final prose.
+- **Scope control:** No top-level navigation added, no alteration to approved EP02–03, no edits to author-written Google Doc, source JSON, image assets, or other leads' planning views. Previous `episode-04a-ankita-plan.json` remains intact as a historical planning record, but is no longer used as Ankita 04A's primary visible story.
+- **Attribution:** Source prose = author's text. Rendering and image integration = GPT's code changes.
+- **Commit:** `0b7b2df4a35922f5987ef3a3bd0b8c257a984bfe`.
+- **Deployment caveat:** Verify live page separately after GitHub Pages rebuild; GitHub source readback alone does not prove public UI deployment.
