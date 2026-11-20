@@ -33,6 +33,30 @@
         "ANKITA-SUNDAY-KARAN-AMAN-PARTY-FUTURE-PROPOSAL.md"
       ],
       "nextAction": "Before choosing a scene, discuss exact date/time, who is at home, why a game begins, what actually changes, character POV/knowledge, whether the idea is worth writing, and continuity with all intersecting leads."
+    },
+    {
+      "id": "FI-SHIVANI-DEEPU-DANCE-KISS-LATER-01",
+      "lead": "Shivani",
+      "referenceCharacters": [
+        "Shivani",
+        "Deepu",
+        "Kavya"
+      ],
+      "workingTitle": "One Song, No Audience — future Shivani–Deepu kiss setup",
+      "priority": "Saved for later; explicitly NOT the current Episode 04A Scene 02",
+      "episodeNumber": "NOT ASSIGNED",
+      "candidateDate": "NOT ASSIGNED",
+      "dateStatus": "FUTURE_ONLY__UNSCHEDULED",
+      "premise": "At a future society programme soundcheck, Deepu is testing an upbeat track when Shivani arrives to check display placement. He stops it, she jokes 'Mere aate hi music bandh?', he surprises her with 'Aap dance karengi toh phir chala deta hoon', and she says 'Chalao.' She initiates a spontaneous short dance; they discover a different, mutual chemistry beyond event coordination. After the song, he says 'Ma'am... gaana khatam ho gaya' and she replies 'Pata hai.' A brief mutually initiated kiss MAY be considered only much later, when the author decides the narrative has reached an appropriate kiss beat. If Kavya arrives afterward, she has not witnessed any private moment; the meaning of her arrival must be separately reviewed.",
+      "userDirection": "Author on 2026-11-20: Save this plot for a future kiss setup, NOT NOW. For current Shivani–Deepu scene, explore only accidental glimpse/show and curiosity. Do not discuss or schedule a kiss until the source Dhika story reaches the kiss point.",
+      "prohibitedForCurrentScene": [
+        "Do not bring dance or kiss into current Episode 04A Scene 02",
+        "Do not silently import elements from the rejected backdrop accident or previously rejected Deepu interaction options",
+        "Do not turn a future idea into approved canon, prose, or published UI"
+      ],
+      "originalSource": "GPT-proposed in live conversation, author explicitly requested saving as future idea; no prose approval",
+      "approval": "AUTHOR_SAVED_FUTURE_IDEA__NOT_APPROVED_PROSE__NOT_CURRENT_CANON",
+      "nextAction": "Later, at author's direction, reread relevant original Dhika source before discussing the first kiss; reconfirm setting, timing, costumes, POV, Kavya involvement and whether any kiss is wanted."
     }
   ]
 }
