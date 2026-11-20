@@ -23,6 +23,14 @@ Use the exact label **Changed by GPT** in the Git commit message AND add a dated
 
 ## Entries
 
+### 2026-11-20 — Changed by GPT — Shivani–Deepu dance/kiss idea saved for future only
+- **Affected path:** `Society-Wives/future-ideas.json` (added `FI-SHIVANI-DEEPU-DANCE-KISS-LATER-01`).
+- **Source attribution:** GPT originally proposed “One Song, No Audience”; author explicitly directed saving it for a future kiss setup, but rejected its use for the current encounter.
+- **What and why:** Archived soundcheck, improvised dance, end-of-song line and possible mutual kiss as a future-only candidate. Author instructed that current Shivani–Deepu planning involve only accidental visual glimpse and curiosity, with **no kiss now**, and that the original Dhika story's future kiss timing should be consulted before discussing a kiss again.
+- **Approval/status:** `AUTHOR_SAVED_FUTURE_IDEA__NOT_APPROVED_PROSE__NOT_CURRENT_CANON`. No approval of episode prose, no UI publication, no edits to Scene 01, existing EP04A plan or frozen EP02–03.
+- **Commit:** `4c19d7d3214bd6039676ae67029ae04e3221baab` — https://github.com/developer-fandom-rush/DHIKA_STORY/commit/4c19d7d3214bd6039676ae67029ae04e3221baab
+
+
 ### 2026-11-20 — Changed by GPT — Provenance rule established
 - **Affected paths:** `Society-Wives/GPT-CHANGE-LOG.md` (created); `Society-Wives/WRITING-COLLABORATION-PROTOCOL.md` (policy appendix added).
 - **Source of change:** Author requested permanent visible identification of future GPT-applied GitHub changes and froze Episodes 02 and 03. GPT implemented the supporting documentation.
