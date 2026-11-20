@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "title": "Future Ideas to be referred before planning next scene",
+  "instruction": "Read this ledger before planning any new scene. Ideas are inspirations, not automatically canon or approved scenes.",
+  "lastUpdated": "2026-11-20",
+  "status": "IDEAS_ONLY_NOT_PUBLISHED_STORY",
+  "ideas": [
+    {
+      "id": "FI-ANKITA-TWINS-SUNDAY-01",
+      "lead": "Ankita",
+      "referenceCharacters": [
+        "Karan",
+        "Aman"
+      ],
+      "relationship": "Karan and Aman are adult twin brothers and Kabir's younger brothers; they are Ankita's devars",
+      "workingTitle": "Sexcapades with Karan and Aman",
+      "priority": "Future planning candidate",
+      "candidateDate": "2026-01-04",
+      "dateStatus": "SUNDAY_ONLY_OPTIONAL_NOT_LOCKED",
+      "episodeNumber": "NOT ASSIGNED",
+      "briefScene": "A future late-evening at home: Ankita and twins Karan and Aman have an informal cards/game night or small home party. Kabir may be away or delayed for a credible, separately grounded reason, but this is NOT a prerequisite. The three share familiar banter informed by established earlier episodes; if a genuinely new accident or unexpected reversal grows organically out of the game, it may change the mood and end with an abrupt departure. None of those exact steps is confirmed: we may keep only the cards premise, modify the turning point, or discard the whole scene.",
+      "purpose": "Offer a credible, distinctive follow-up for Ankita–Karan–Aman after EP03's scooter/household history without adding one more major incident to Jan 1.",
+      "approval": "AUTHOR_PROPOSED_IDEA_SAVED_NOT_FINAL_SCENE",
+      "noLock": [
+        "No guaranteed sexual escalation",
+        "Do not copy Dhika beats verbatim",
+        "Kabir working late on Sunday not established",
+        "No invented first-meeting history",
+        "Never change EP02/03"
+      ],
+      "previousSources": [
+        "episode-03-ankita-scene-07-revised-prose.json",
+        "ANKITA-SUNDAY-KARAN-AMAN-PARTY-FUTURE-PROPOSAL.md"
+      ],
+      "nextAction": "Before choosing a scene, discuss exact date/time, who is at home, why a game begins, what actually changes, character POV/knowledge, whether the idea is worth writing, and continuity with all intersecting leads."
+    }
+  ]
+}
