@@ -145,7 +145,7 @@ export default function Planning({lead='ankita',part='A'}:{lead?:string;part?:st
   {error&&<p role="alert" className="error">Some planning sources could not load: {error}</p>}
   {selectedPart==='A'?<>{continuityRecord&&<ContinuityDetails record={continuityRecord} part="A"/>}{active==='meenakshi'
    ?<section className="episode-plan-card" id="ep04-meenakshi-handoff"><h2>Meenakshi · Naveen · 14:15 handoff</h2><p>Episode 03 Scene 01 ended at the hospital after Naveen arrived with the handover copy. The next interaction remains open for Episode 04 discussion. No additional action or prose has been approved.</p><button type="button" className="button subtle" onClick={()=>openPage('reading',{episode:'03',character:'meenakshi',scene:'01'})}>Read the preceding scene</button></section>
-   :doc?<section id="episode04-active-plan"><h2>{doc.title}</h2>{active==='soniya'&&<p className="muted">Shared Taniya and Soniya household scenes.</p>}
+   :doc?<section id="episode04-active-plan"><h2>{doc.title}</h2>{active==='ankita'&&<p className="source-note"><strong>EP04A · Author-shared manuscript with images:</strong> <a href="./episode-04a-ankita-final.html">Open Ankita 04A story</a>. Kept within Episode 04A Planning; not promoted to the final-episodes reader.</p>}{active==='soniya'&&<p className="muted">Shared Taniya and Soniya household scenes.</p>}
     {(doc.scenes||[]).map((s,i)=><SceneDetails key={s.id||s.scene||i} scene={s} index={i}/>)}
     {doc.proseDraft?.url&&<p className="source-note"><strong>Working prose draft:</strong> <a href={doc.proseDraft.url} target="_blank" rel="noreferrer">{doc.proseDraft.title||'Open draft prose'}</a></p>}
    </section>:<p role="status">Loading Episode 04A plot…</p>}</>
