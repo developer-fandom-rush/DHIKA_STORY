@@ -26,7 +26,7 @@ export default function App(){
    <header className="site-header"><div className="header-inner">
     <div className="brand-row"><a href={isDhika?'#/dhika-reader':HOME} className="home-icon" title="Read story" aria-label="Read story">⌂</a>
      <a href={isDhika?'#/dhika-reader':HOME} className="wordmark"><span>{isDhika?'DHIKA':'SOCIETY WIVES'}</span><small>{isDhika?'ORIGINAL STORY ARCHIVE':'FIVE VEILS OF DESIRE'}</small></a></div>
-    <nav aria-label="Primary navigation" className="main-nav">{(isDhika?dhikaNavigation:swNavigation).map(([id,label])=><a key={id} href={'#/'+id} className={page===id?'current':''} aria-current={page===id?'page':undefined}>{label}</a>)}{!isDhika&&<><a href="./episode-04a-ankita-final.html">Ankita EP04A</a><a href="./future-ideas.html">Future Ideas Before Planning</a></>}</nav>
+    <nav aria-label="Primary navigation" className="main-nav">{(isDhika?dhikaNavigation:swNavigation).map(([id,label])=><a key={id} href={'#/'+id} className={page===id?'current':''} aria-current={page===id?'page':undefined}>{label}</a>)}</nav>
    </div></header>
    {page==='reading'&&<Reading character={params.get('character')||'ankita'} scene={params.get('scene')} episode={params.get('episode')}/>}
    {page==='planning'&&<Planning lead={params.get('lead')||'ankita'} part={params.get('part')||'A'}/>}
