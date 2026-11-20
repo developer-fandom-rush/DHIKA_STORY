@@ -273,3 +273,22 @@ No option is endorsed as canon until author selection.
 - `Society-Wives/episode-04a-ankita-plan.json` — Jan 1 scene beats, under review.
 - `Society-Wives/episode-04b-ankita-chotu-archive.json` — separate Jan 2 follow-up proposal, not approved.
 - `Society-Wives/EP04A-ANKITA-GROK-PUBLIC-REVIEW.md` — public episode-specific review companion.
+
+
+## 12. GPT change provenance and Episode 02–03 freeze
+
+> **Changed by GPT — 2026-11-20. Author-directed repository tracking rule.**
+>
+> **AUTHOR LOCK:** All existing Episode 02 and Episode 03 material is **AUTHOR APPROVED / FROZEN**. No GPT-authored or GPT-applied edit to those episodes, including text, formatting, scene order, timing, files, reader publication, or approval metadata, without the author's explicit approval of the exact proposed change.
+
+From this point on, every **GPT-applied** GitHub write must:
+
+1. Have a Git commit message beginning with the literal **`Changed by GPT:`**.
+2. Have a dated entry in [GPT-CHANGE-LOG.md](GPT-CHANGE-LOG.md), specifying edited paths, exact change, reason, approval status, and source attribution (`Author-provided`, `Grok-provided`, `GPT-authored`, or `GPT integration only`).
+3. Preserve author/Grok wording attribution: a GPT-assisted upload does not make the underlying prose GPT-authored.
+4. Keep GPT attribution **out of in-world story prose**. Prefer Git history, the change log, or non-narrative metadata/comments.
+5. Keep proposals and audits distinct from **applied** changes; never claim a discussed idea was saved, approved, or published.
+
+If the author reports a possible older GPT-made unauthorized change, compare the exact original source with Git history, identify the verified difference, flag **`Suspected prior GPT change — author review`**, and **do not silently repair or replace it**.
+
+This provenance-policy addition changes no previously approved story material and does not retroactively accuse any past commit of unauthorized modification.
