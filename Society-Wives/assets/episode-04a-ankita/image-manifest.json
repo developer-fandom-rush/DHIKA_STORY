@@ -1,0 +1,57 @@
+{
+  "generatedBy": "Changed by GPT",
+  "date": "2026-11-20",
+  "sourceDocument": "https://docs.google.com/document/d/1zcFlF9rWeIzaenBEmatt4K8bw3L-LcH3c_45JwoNM3o/edit?tab=t.q9uiye5366b7",
+  "driveArchiveFolder": "https://drive.google.com/drive/folders/1QhoIMjpfq71WDc_JKLSQfS1Die2pVZv4",
+  "driveOriginalsZip": "https://drive.google.com/file/d/15cLKMblD98qG1Zb6ZF4mg3r8YDey-Qp8/view",
+  "totalOriginalLocalVersionsInDriveArchive": 22,
+  "sourceDocEmbeddedImageCount": 7,
+  "githubDisplayCopies": [
+    {
+      "path": "a01-doorway.jpg",
+      "placement": "supplemental post A04 gallery",
+      "review": "alternate"
+    },
+    {
+      "path": "a01-doorway-storyboard.jpg",
+      "placement": "A01 doorstep story",
+      "review": "scene-aligned"
+    },
+    {
+      "path": "a02-filter-inspection.jpg",
+      "placement": "A02 under-sink repair",
+      "review": "scene-aligned"
+    },
+    {
+      "path": "a03-water-burst.jpg",
+      "placement": "A03 water spray and balance",
+      "review": "scene-aligned"
+    },
+    {
+      "path": "a04-silent-exit.jpg",
+      "placement": "A04 quiet exit",
+      "review": "scene-aligned"
+    },
+    {
+      "path": "a03-a04-previous-storyboard.jpg",
+      "placement": "supplemental gallery",
+      "review": "previous story variant, retained"
+    },
+    {
+      "path": "a04-previous-exit.jpg",
+      "placement": "supplemental gallery",
+      "review": "wrong outfit/continuity, retained"
+    },
+    {
+      "path": "a05-cleanup-previous.jpg",
+      "placement": "supplemental gallery",
+      "review": "not final story, retained"
+    },
+    {
+      "path": "a01-alternate-storyboard.jpg",
+      "placement": "supplemental gallery",
+      "review": "alternate, retained"
+    }
+  ],
+  "caveat": "Doc's seven source inline image IDs are retained in episode-04a-ankita-final-source.json. Current displayed images are scene-matched conversation illustrations; do not assert each is byte-identical with an embedded Google Doc image. This manifest does not identify two separate Dhika character images, if any."
+}
