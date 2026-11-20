@@ -136,6 +136,7 @@ export default function Planning({lead='ankita',part='A'}:{lead?:string;part?:st
  const go=(who:string=active,p:'A'|'B'=selectedPart)=>openPage('planning',{lead:who,part:p});
  return <main className="page-width">
   <header className="section-intro"><span className="eyebrow">Next planning · Episode 04</span><h1>Episode 04 · Plot Planning</h1><p>Character-wise story plots and new scenes only. Episodes 01–03 are in Reading, not repeated here.</p></header>
+  <p className="source-note"><strong>Before planning the next scene:</strong> <a href="./future-ideas.html">Future Ideas to be referred before planning next scene</a> — proposals only, not approved canon.</p>
   <div className="episode-picker" role="group" aria-label="Choose planning episode">
    <button className={selectedPart==='A'?'episode-picker-current':''} aria-pressed={selectedPart==='A'} type="button" onClick={()=>go(active,'A')}>Episode 04A · Evening</button>
    <button className={selectedPart==='B'?'episode-picker-current':''} aria-pressed={selectedPart==='B'} type="button" onClick={()=>go(active,'B')}>Episode 04B · Next Day</button>
