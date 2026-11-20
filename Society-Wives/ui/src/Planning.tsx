@@ -1,5 +1,5 @@
 import type { ReactNode } from 'react';
-import { openPage, titleCase, useData } from './lib';
+import { assetUrl, openPage, titleCase, useData } from './lib';
 
 type Beat={id:string;title:string;time?:string;[key:string]:unknown};
 type Scene={id?:string;scene?:string;sceneNumber?:string;number?:string;title:string;start?:string;end?:string;location?:string;beats:Beat[];[key:string]:unknown};
@@ -109,6 +109,44 @@ function WorkshopDetails({tracks}:{tracks:WorkshopTrack[]}){
   </details>)}
  </article>)}</div>;
 }
+
+type AnkitaFinalSource={
+ source:{url:string;tabTitle:string;title:string};
+ content:{sourceElementIndex:number;text:string;imageObjectIds:string[]}[];
+};
+const ankitaSceneImages:Record<number,{file:string;alt:string}>={
+ 12:{file:'a01-doorway-storyboard.jpg',alt:'A01 — Ankita and Rinku at the doorway'},
+ 29:{file:'a02-filter-inspection.jpg',alt:'A02 — Rinku examines the water-filter connector'},
+ 42:{file:'a03-water-burst.jpg',alt:'A03 — The water burst and balance hold'},
+ 66:{file:'a04-silent-exit.jpg',alt:'A04 — Rinku leaves without explaining'}
+};
+function Ankita04AExactManuscript(){
+ const {data,loading,error}=useData<AnkitaFinalSource>('episode-04a-ankita-final-source.json');
+ return <section id="episode04-active-plan" aria-label="Ankita Episode 04A exact author manuscript">
+  <h2>Ankita · Episode 04A — Final Document Manuscript</h2>
+  <p className="source-note">Full text from the author's Google Docs tab <strong>FINAL EP_04.</strong>, shown in its original sequence. This is the manuscript as provided, not the old plot-beat summary. The source's closing planning notes are also retained verbatim, not expanded into invented prose. <a href="./episode-04a-ankita-final.html">Full-page reading view</a> · <a href={data?.source.url || 'https://docs.google.com/document/d/1zcFlF9rWeIzaenBEmatt4K8bw3L-LcH3c_45JwoNM3o/edit?tab=t.q9uiye5366b7'} target="_blank" rel="noreferrer">Original Google Doc</a></p>
+  {loading&&<p role="status">Loading exact 04A manuscript…</p>}
+  {error&&<p role="alert" className="error">Unable to load author manuscript: {error}</p>}
+  {data&&<article className="reading-surface" style={{maxWidth:'850px',margin:'0 auto'}}>
+   {data.content.map((entry,i)=>{
+    const image=ankitaSceneImages[entry.sourceElementIndex];
+    const readable=entry.text.replace(/\u000b/g,'\n');
+    return <div key={entry.sourceElementIndex+'-'+i}>
+      {readable.trim()&&<p style={{whiteSpace:'pre-wrap',lineHeight:1.85,overflowWrap:'anywhere',marginBottom:'1.1em'}}>{readable}</p>}
+      {image&&<figure style={{margin:'24px auto 30px',maxWidth:'640px'}}>
+       <img loading="lazy" style={{width:'100%',height:'auto',borderRadius:'10px'}} src={assetUrl('assets/episode-04a-ankita/'+image.file)} alt={image.alt}/>
+       <figcaption className="muted">{image.alt}</figcaption>
+      </figure>}
+    </div>;
+   })}
+   <details className="episode-outline"><summary><strong>Earlier / incorrect visual versions — retained as references, not story events</strong></summary>
+    <p className="muted">Previously generated variations are archived rather than silently substituted into approved prose.</p>
+    {['a01-doorway.jpg','a01-alternate-storyboard.jpg','a03-a04-previous-storyboard.jpg','a04-previous-exit.jpg','a05-cleanup-previous.jpg'].map(file=><figure key={file} style={{margin:'18px 0',maxWidth:'600px'}}><img loading="lazy" src={assetUrl('assets/episode-04a-ankita/'+file)} alt={'Archived reference: '+file} style={{width:'100%',height:'auto',borderRadius:'10px'}}/><figcaption className="muted">{file} — archived visual, not new canon</figcaption></figure>)}
+   </details>
+  </article>}
+ </section>;
+}
+
 export default function Planning({lead='ankita',part='A'}:{lead?:string;part?:string}){
  const active=leads.find(x=>x===lead)||'ankita';
  const selectedPart=part==='B'?'B':'A';
@@ -143,12 +181,12 @@ export default function Planning({lead='ankita',part='A'}:{lead?:string;part?:st
   </div>
   <div className="perspective-tabs" role="group" aria-label="Choose character">{leads.map(w=><button key={w} type="button" aria-pressed={active===w} className={active===w?'selected':''} onClick={()=>go(w)}>{titleCase(w)}</button>)}</div>
   {error&&<p role="alert" className="error">Some planning sources could not load: {error}</p>}
-  {selectedPart==='A'?<>{continuityRecord&&<ContinuityDetails record={continuityRecord} part="A"/>}{active==='meenakshi'
+  {selectedPart==='A'?(active==='ankita'?<Ankita04AExactManuscript/>:<>{continuityRecord&&<ContinuityDetails record={continuityRecord} part="A"/>}{active==='meenakshi'
    ?<section className="episode-plan-card" id="ep04-meenakshi-handoff"><h2>Meenakshi · Naveen · 14:15 handoff</h2><p>Episode 03 Scene 01 ended at the hospital after Naveen arrived with the handover copy. The next interaction remains open for Episode 04 discussion. No additional action or prose has been approved.</p><button type="button" className="button subtle" onClick={()=>openPage('reading',{episode:'03',character:'meenakshi',scene:'01'})}>Read the preceding scene</button></section>
    :doc?<section id="episode04-active-plan"><h2>{doc.title}</h2>{active==='ankita'&&<p className="source-note"><strong>EP04A · Author-shared manuscript with images:</strong> <a href="./episode-04a-ankita-final.html">Open Ankita 04A story</a>. Kept within Episode 04A Planning; not promoted to the final-episodes reader.</p>}{active==='soniya'&&<p className="muted">Shared Taniya and Soniya household scenes.</p>}
     {(doc.scenes||[]).map((s,i)=><SceneDetails key={s.id||s.scene||i} scene={s} index={i}/>)}
     {doc.proseDraft?.url&&<p className="source-note"><strong>Working prose draft:</strong> <a href={doc.proseDraft.url} target="_blank" rel="noreferrer">{doc.proseDraft.title||'Open draft prose'}</a></p>}
-   </section>:<p role="status">Loading Episode 04A plot…</p>}</>
+   </section>:<p role="status">Loading Episode 04A plot…</p>}</>)
    :officeLead?<section id="episode04-next-day"><h2>Episode 04B · {titleCase(active)} · Full-day plot and prose</h2>
      <p className="muted">2 January 2026 · {officeLead.office} · Office shift: {officeLead.workday} · Twins absent</p>
      <p><strong>Office Chotu:</strong> {officeLead.chotu.name} · {officeLead.chotu.role}</p>
