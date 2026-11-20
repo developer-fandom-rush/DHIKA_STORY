@@ -73,3 +73,12 @@ Use the exact label **Changed by GPT** in the Git commit message AND add a dated
 - **Attribution:** Source prose = author's text. Rendering and image integration = GPT's code changes.
 - **Commit:** `0b7b2df4a35922f5987ef3a3bd0b8c257a984bfe`.
 - **Deployment caveat:** Verify live page separately after GitHub Pages rebuild; GitHub source readback alone does not prove public UI deployment.
+
+
+### 2026-11-20 — Changed by GPT — Fix reader-first EP04A and failing Pages deploy
+- **Issue reported:** Author saw the old beat-by-beat planner, excessive editor-facing continuity labels, and not the full readable story. Previous GPT claims of completed UI updates were premature.
+- **Verified root cause:** GitHub Pages workflow run `44680673298` failed in the Society Wives build step with `TS2367` at `ui/src/Planning.tsx(186,66)`: after narrowing to non-Ankita leads, stale code still checked `active==='ankita'`. Because deployment failed, the previous Pages bundle stayed live.
+- **Correction:** `Society-Wives/ui/src/Planning.tsx`, commit `ba934bd5a74eb5eb63d9c4a6af874d5e98b71abd`. Eliminated the dead condition and rendered **Ankita Episode 04A as a reader-first page within the existing Planning route**. Unabridged author-supplied prose and existing A01–A04 illustrations appear immediately. Optional source/context and historical plot beats are collapsed below the story; navigation controls are below the story, not blocking reading.
+- **Scope:** No changes to author manuscript, characters, Episode 02/03, top navigation architecture, or other leads' planning layouts.
+- **Deployment verification:** GitHub Actions run `44681326207` completed **successfully**, including TypeScript/Vite build and `Deploy GitHub Pages` step. Generated bundle `Society-Wives/assets/index-B6ih2aWk.js` was re-read and verified to contain `episode04a-reader-first` and `episode-04a-ankita-final-source.json`. **Live browser screenshot check was not run.**
+- **Source attribution:** Author wrote the manuscript; GPT changed rendering and layout only.
