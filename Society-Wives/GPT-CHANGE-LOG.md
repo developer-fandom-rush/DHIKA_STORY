@@ -52,3 +52,13 @@ Use the exact label **Changed by GPT** in the Git commit message AND add a dated
 - **Workflow handoff:** `Society-Wives/EP04A-MULTI-LEAD-CHAT-HANDOFF-PROMPT.md`, commit `04bdeb07cb5891b068276b2548b0be50f4112d83`, has a shared multi-lead prompt requiring the author to select the woman before discussing scenes.
 - **Unresolved image identity:** The author mentioned two distinct "Dhika images" for Dhika's original EP04, but their specific IDs/filenames have not been verified. Do not pretend those separate Dhika images were embedded in the original Dhika storyline. The two new water-filter images belong to **Ankita A03/A04**, and are placed in Ankita's Episode 04A.
 - **Approval/freeze:** User explicitly instructed to publish the author-shared FINAL tab and record the future idea; this does not automatically approve the other leads' EP04A plots. No edits to Episodes 02 or 03 or to original Dhika episode text.
+
+
+### 2026-11-20 — Changed by GPT — Correct unauthorized navigation architecture
+
+- **Reason:** Author explicitly objected to GPT adding standalone Ankita EP04A and Future Ideas links to the global navigation. This was an unauthorized UI architecture choice and is now corrected; future UI architecture ideas must be explicitly identified as **UI IDEAS / PROPOSALS** and discussed before implementation.
+- **Change 1:** `Society-Wives/ui/src/App.tsx` — removed GPT-added top-level `Ankita EP04A` and `Future Ideas Before Planning` links; original global navigation (`Read Story`, `Episode 04 Plot`) retained. Commit `0422570c333eacdfe0999dc64ccde3a852b0cc73`.
+- **Change 2:** `Society-Wives/ui/src/Planning.tsx` — placed the author-provided Ankita EP04A manuscript-with-images link **inside Ankita's Episode 04A Planning view only**; no final-episodes reader promotion. Future Ideas remains referenced from the planning area, as author previously requested. Commit `36a366c3d352d269db1ed1103f9d0185e831e15d`.
+- **Files retained:** `episode-04a-ankita-final.html` is a source-hosted working manuscript; this correction changes its navigation, **not the author's text or archived images**.
+- **Approval/source:** Explicit author correction; GPT integration only.
+- **Unaffected:** Episodes 02–03 (approved/frozen), all story texts, prior scene status, the 04B unapproved planning sources.
