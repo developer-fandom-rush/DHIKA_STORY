@@ -29,3 +29,12 @@ Use the exact label **Changed by GPT** in the Git commit message AND add a dated
 - **Approval:** Author explicitly requested this rule; no story-text modification was authorized or performed.
 - **Story content:** None changed. Episodes 02 and 03 left untouched.
 - **Commits:** Locate the commits beginning `Changed by GPT:` in Git history for these two documentation files.
+
+
+### 2026-11-20 — Changed by GPT — Sunday Ankita–twins idea deferred
+- **Affected path:** `Society-Wives/ANKITA-SUNDAY-KARAN-AMAN-PARTY-FUTURE-PROPOSAL.md` (created; proposal only).
+- **Source attribution:** `Author-provided` idea and potential working title; `GPT integration only` for organizing the alternatives and editorial pacing recommendation.
+- **What and why:** Preserved a possible Sunday, 2026-01-04, card-night/party with Karan, Aman and Ankita for future discussion instead of forcing another accident into Episode 04A on January 1. Kabir's possible late return is not fixed as Sunday canon.
+- **Approval/status:** Author requested saving this future idea conditionally. Story encounter, physical details, and Sunday slot all remain **NOT APPROVED PROSE / PROPOSAL ONLY**.
+- **Episodes 02–03:** No modifications.
+- **Commit:** `b57ad2cb72f3fb55e8fb9064fbd9a1944c2a5cbf` — https://github.com/developer-fandom-rush/DHIKA_STORY/commit/b57ad2cb72f3fb55e8fb9064fbd9a1944c2a5cbf
