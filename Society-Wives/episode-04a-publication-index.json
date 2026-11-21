@@ -73,7 +73,7 @@
       "name": "Taniya",
       "source": "episode-04a-taniya-soniya-source.json",
       "sourceType": "scene-wise-verbatim-and-author-chat",
-      "publicationStatus": "SCENES_01_02_AUTHOR_CONFIRMED_PUBLISHED__SCENE03_DISCUSSION_PENDING",
+      "publicationStatus": "SCENES_01_02_PUBLISHED__SCENE03_PARTIAL_DRAFT_VISIBLE_FOR_REVIEW",
       "publishedSceneIds": [
         "01",
         "02"
@@ -87,7 +87,10 @@
         "04",
         "05"
       ],
-      "publicationScope": "Taniya Episode 04A Scenes 01–02 published in Read Story with inline Guddu sightline image. Scenes 01–02 physically removed from the active 04A plot file. Only Scenes 03, 04, 05 remain to be written. Original prior plans recoverable via Git history."
+      "publicationScope": "Scenes 01–02 complete and published. Scene 03 is displayed in Read Story as PARTIAL WORKING DRAFT (including author-supplied Soniya–Guddu and Rahul–Taniya passages verbatim); it remains in active Plot Planning, is not completed and may be extended. Scenes 04–05 pending.",
+      "visibleDraftSceneIds": [
+        "03"
+      ]
     }
   }
 }
