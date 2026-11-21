@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "title": "Society Wives — Episode 04A Reader Publication Index",
+  "episode": "04A",
+  "instruction": "Once author approves and source prose is saved, update publication metadata here. The main Reading UI renders published prose; Planning displays only unpublished work and a Read Story status link. Never infer publication from a plot outline alone.",
+  "status": "ACTIVE_PUBLICATION_INDEX",
+  "leads": {
+    "ankita": {
+      "name": "Ankita",
+      "source": "episode-04a-ankita-final-source.json",
+      "sourceType": "google-doc-verbatim-manuscript",
+      "publicationStatus": "AUTHOR_CONFIRMED_PUBLISHED_IN_READ_STORY",
+      "publishedSceneIds": [
+        "manuscript"
+      ],
+      "completedPlanSceneIds": [
+        "E04A-S01",
+        "E04A-S02",
+        "E04A-S03",
+        "E04A-S04",
+        "E04A-S05",
+        "E04A-S06",
+        "E04A-S07"
+      ],
+      "pendingPlanSceneIds": [],
+      "publicationScope": "Author-provided FINAL EP_04 tab, reproduced as supplied; legacy plot is reference archive and may differ from the manuscript."
+    },
+    "shivani": {
+      "name": "Shivani",
+      "source": "episode-04a-shivani-source.json",
+      "sourceType": "scene-wise-verbatim-and-author-chat",
+      "publicationStatus": "AUTHOR_CONFIRMED_PUBLISHED_THROUGH_SCENE_04_EXIT",
+      "publishedSceneIds": [
+        "01",
+        "02",
+        "03",
+        "04"
+      ],
+      "completedPlanSceneIds": [
+        "E04A-SH-S01",
+        "E04A-SH-S02",
+        "E04A-SH-S03",
+        "E04A-SH-S04"
+      ],
+      "pendingPlanSceneIds": [
+        "E04A-SH-S05",
+        "E04A-SH-S06",
+        "E04A-SH-S07"
+      ],
+      "publicationScope": "Scenes 01–04 published as currently provided, through twins' apology and flat entry; home/husband follow-up scenes remain to be written. B05/B06 action is deferred to future-only reference, not this scene."
+    }
+  }
+}
