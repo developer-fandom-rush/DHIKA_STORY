@@ -24,7 +24,7 @@ Use the exact label **Changed by GPT** in the Git commit message AND add a dated
 ## Entries
 
 ### 2026-11-21 — Changed by GPT — Shivani Episode 04A source imported as 3-scene UI reader
-- **Affected paths:** `Society-Wives/episode-04a-shivani-source.json` (new), `Society-Wives/episode-04a-shivani-reader.html` (new), `Society-Wives/index.html` (Shivani planning shortcut only).
+- **Affected paths:** `Society-Wives/episode-04a-shivani-source.json` (new), `Society-Wives/episode-04a-shivani-reader.html` (new), `Society-Wives/ui/index.html` (persistent Vite-source planning shortcut), `Society-Wives/index.html` (built shortcut, synced by Pages workflow).
 - **Source attribution:** Author's Google Doc `Episode 4A.`, tab `SHIVANI EP-04 A` (https://docs.google.com/document/d/1zcFlF9rWeIzaenBEmatt4K8bw3L-LcH3c_45JwoNM3o/edit?tab=t.6exlxaqxwcq); GPT only extracted, preserved paragraph order, and installed the UI reader without rewriting any prose.
 - **Scene count:** 3 source scenes — Scene 01, Scene 02, Scene 03. No Scene 04 included. Ankita tab and Episodes 01–03 unchanged.
 - **Images:** 11 inline-image references preserved as metadata, not uploaded as GitHub assets; original images remain in the linked Google Doc. Text is saved in the UI; image binaries are not presented as imported.
