@@ -61,7 +61,13 @@
       "home": "Bhasin–Soniya family",
       "color": "#b18b42",
       "husband": "aditya",
-      "sourceStatus": "CURRENT_ATLAS"
+      "sourceStatus": "CURRENT_ATLAS",
+      "futureHouseholdResponsibility": {
+        "status": "AUTHOR_CONFIRMED",
+        "task": "Care for shared flat while Soniya and Rahul are away for wedding preparations led by Soniya.",
+        "notTask": "Taking over wedding preparation from Soniya",
+        "schedule": "Not fixed"
+      }
     },
     {
       "id": "meenakshi",
@@ -243,7 +249,19 @@
       "group": "family",
       "house": "taniya",
       "sourceStatus": "CURRENT_ATLAS",
-      "notes": "Original new-universe Atlas roster, subject to user refinements"
+      "notes": "Original new-universe Atlas roster, subject to user refinements",
+      "characterVoiceLock": {
+        "status": "AUTHOR_CONFIRMED_PERMANENT_2026-11-21",
+        "direction": "SONIYA ACTS LIKE SHARMI: outgoing, mischievous, boldly teasing, playful, candid, proactive and self-directed social energy as shown in the author's Dhika source. Character behavior and voice for future Society Wives scenes; not just one Guddu encounter.",
+        "sourceReference": "Dhika — Complete Episode Archive (Tabs), original Sharmi introduction and Raj/Sharmi interactions",
+        "boundary": "Same character dynamic, not literally the same woman, family, biography, wardrobe, sexual history or a direction to import Dhika plot/events. Honor Soniya's own existing facts and decisions."
+      },
+      "futureWeddingPreparationRole": {
+        "status": "AUTHOR_CONFIRMED",
+        "responsibility": "Soniya takes the lead on preparations for Taniya and Aditya's wedding.",
+        "absence": "Soniya and Rahul will need to be away from the shared flat for this reason; timing/duration/location unspecified.",
+        "householdCover": "Taniya cares for home while they are away; she is not responsible for replacing Soniya as wedding-preparation lead."
+      }
     },
     {
       "id": "rahul",
@@ -253,7 +271,16 @@
       "group": "family",
       "house": "taniya",
       "sourceStatus": "CURRENT_ATLAS",
-      "notes": "Original new-universe Atlas roster, subject to user refinements"
+      "notes": "Original new-universe Atlas roster, subject to user refinements",
+      "futureCharacterVoiceReference": {
+        "status": "AUTHOR_CONFIRMED_COMPARISON_2026-11-21",
+        "reference": "Raj's relatively courteous, reserved personality as counterpoint to Sharmi, when Rahul returns. Not literal Raj history."
+      },
+      "futureWeddingPreparationRole": {
+        "status": "AUTHOR_CONFIRMED",
+        "responsibility": "Accompanies Soniya for Soniya-led wedding preparations; no travel dates or return time fixed.",
+        "homeCaretaker": "Taniya"
+      }
     },
     {
       "id": "subhash",
@@ -2990,5 +3017,13 @@
     "biologicalTwinsNote": "Harsh and Laksh are also biological twins by existing canon. Nandini and Ritika are same-age peers only.",
     "sourceProtection": "Do not retroactively rewrite or delete published Episode 02 student and staff scenes.",
     "episode03PlotStatus": "CAST_LOCK_ONLY_NO_SCENES_APPROVED"
+  },
+  "authorConfirmedCharacterDirections20261121": {
+    "status": "LOCKED_FOR_FUTURE_WRITING_ONLY",
+    "soniya": "Soniya behaves like the Sharmi counterpart in Society Wives: bold, mischievous, teasing, confident, spontaneous, self-directed. Preserve Soniya's established continuity.",
+    "rahul": "Raj-like contrast upon future return (polite/reserved), without imported events.",
+    "weddingResponsibility": "Soniya handles Taniya–Aditya wedding preparations; Soniya and Rahul eventually leave home for this purpose.",
+    "flatDuringAbsence": "Taniya minds the flat; departure/return schedules remain open.",
+    "source": "Author direction 21 Nov 2026; original Sharmi and Raj characterization verified against Dhika complete archive."
   }
 }
