@@ -19,6 +19,7 @@ export default function FutureReference({lead='ankita'}:{lead?:string}){
  const leads=['ankita','shivani','taniya','soniya','meenakshi','shreya'] as const;
  const active=leads.find(x=>x===lead)||'ankita';
  const ownIdeas=(ideas?.ideas||[]).filter(idea=>idea.lead.toLowerCase()===active);
+ const soniyaVoiceLock=ownIdeas.find(idea=>idea.id==='FI-SONIYA-SHARMI-PERMANENT-CHARACTER-LOCK');
  const countFor=(who:string)=>(ideas?.ideas||[]).filter(idea=>idea.lead.toLowerCase()===who).length;
  const changeLead=(who:string)=>openPage('future-reference',{lead:who});
  return <main className="page-width" id="future-reference">
@@ -31,6 +32,13 @@ export default function FutureReference({lead='ankita'}:{lead?:string}){
    {leads.map(w=><button type="button" key={w} onClick={()=>changeLead(w)} aria-pressed={w===active} className={w===active?'selected':''}>{w.charAt(0).toUpperCase()+w.slice(1)} <span className="muted">({ideasLoading?'…':countFor(w)})</span></button>)}
   </div>
   <p className="source-note"><strong>{active.charAt(0).toUpperCase()+active.slice(1)} — future references.</strong> {ideasLoading?'Loading saved references…':ownIdeas.length+' saved idea'+(ownIdeas.length===1?'':'s')}. {active==='shivani'?'One additional Scene 04 decision record is available below.':'Only ideas explicitly saved in the reference ledger are counted here; existing plot drafts are not treated as future-approved ideas.'}</p>
+  {active==='soniya'&&soniyaVoiceLock&&<section className="episode-plan-card" id="soniya-permanent-character-direction">
+   <h2>Soniya · Permanent characterization lock</h2>
+   <p className="source-note"><strong>Author confirmed:</strong> Soniya acts like Sharmi in Society Wives throughout future scenes, not just a one-off encounter.</p>
+   <p>{soniyaVoiceLock.authorDirection}</p>
+   <p><strong>Wedding &amp; home:</strong> {soniyaVoiceLock.currentStoryLock}</p>
+   <p className="muted">Voice and wedding responsibility are locked; departure and return timing are not.</p>
+  </section>}
   {active==='shivani'&&decisionLoading&&<p role="status">Loading Shivani decision reference…</p>}
   {active==='shivani'&&decisionError&&<p role="alert" className="error">Unable to load decision reference: {decisionError}</p>}
   {active==='shivani'&&decision&&<section className="episode-plan-card" id="shivani-scene04-decision-reference">
