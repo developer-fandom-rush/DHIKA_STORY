@@ -114,7 +114,7 @@ type Episode04PublicationIndex={leads:Record<string,{name:string;source:string;p
 
 export default function Planning({lead='ankita',part='A'}:{lead?:string;part?:string}){
  const active=leads.find(x=>x===lead)||'ankita';
- const selectedPart=part==='B'?'B':'A';
+ const selectedPart=(part==='B'?'A':'A') as 'A'|'B';
  const {data:publicationIndex,error:publicationError,loading:publicationLoading}=useData<Episode04PublicationIndex>('episode-04a-publication-index.json');
  const {data:ankita,error:ankitaError}=useData<PlotDocument>('episode-04a-ankita-plan.json');
  const {data:shivani,error:shivaniError}=useData<PlotDocument>('episode-04a-shivani-plan.json');
@@ -137,34 +137,14 @@ export default function Planning({lead='ankita',part='A'}:{lead?:string;part?:st
  const proseChapter=proseDraft?.chapters.find(x=>x.id===active);
  const unifiedLead=unifiedDay?.leads.find(x=>x.id===active);
  const tracks=active==='meenakshi'?[]:active==='ankita'?(ankitaArchive?.tracks||[]):(workshop?.leads.find(x=>x.id===active)?.tracks||[]);
- const go=(who:string=active,p:'A'|'B'=selectedPart)=>openPage('planning',{lead:who,part:p});
+ const go=(who:string=active,_p:'A'|'B'=selectedPart)=>openPage('planning',{lead:who,part:'A'});
  const published=publicationIndex?.leads[active];
  const completed=new Set(published?.completedPlanSceneIds||[]);
  const superseded=new Set(published?.supersededPlanSceneIds||[]);
  const outstandingScenes=(doc?.scenes||[]).filter(scene=>{const sceneId=scene.id||scene.scene||scene.sceneNumber||scene.number;return !sceneId||(!completed.has(sceneId)&&!superseded.has(sceneId))});
  return <main className="page-width">
-  <header className="section-intro"><span className="eyebrow">Next planning · Episode 04</span><h1>Episode 04 · Plot Planning</h1><p>Only unfinished scenes remain in this active plot. Published prose and scene images are in Read Story; earlier plot versions remain in Git history.</p></header>
+  <header className="section-intro"><span className="eyebrow">Episode 04A</span><h1>Episode 04A · Story status</h1><p>Completed scenes are in Read Story. Only unfinished Episode 04A scenes, if any, remain here.</p></header>
   <p className="source-note"><strong>Before planning the next scene:</strong> <a href={'#/future-reference?lead='+active}>Future Reference &amp; Locked Decisions</a> — current scene locks, deferred ideas and pending editorial issues, not new story prose.</p>
-
-  <section className="episode-plan-card" id="neutral-action-choreography-rule" aria-label="Neutral actor receiver action workflow">
-   <h2>Writing workflow · Actor → Receiver → Action</h2>
-   <p><strong>Author instruction (all characters):</strong> Asking for actor, receiver, exact action name, witness, reaction and sensory transition is a <strong>neutral breakdown</strong>, not automatically a request for graphic prose. Keep the named action instead of quietly deleting it or replacing it with a vague euphemism.</p>
-   <p>Use one row per action: <strong>Actor → receiver / observer → exact action → what changes → reaction → knowledge limit → next state</strong>. Record ordinary sensory facts (water, airflow, door, position, clothing/object state). Do not invent erotic details or presume another person's private thoughts. Ask once only about truly unresolved facts; keep approvals locked.</p>
-   {active==='shreya'&&<details className="episode-outline" open>
-    <summary><strong>Shreya · Scene 02 — worked example (for review, not approved prose)</strong></summary>
-    <ol>
-     <li><strong>Shreya → Self:</strong> Private self-touch; author's action name: fingering, while recalling Vivek.</li>
-     <li><strong>Arvind → Door / observes Shreya:</strong> Unexpectedly opens door and witnesses her private action before she notices him.</li>
-     <li><strong>Door / airflow → Shreya:</strong> Change in air alerts her to the open doorway.</li>
-     <li><strong>Shreya → Self / Arvind:</strong> Startled vocal reaction, stops further shouting, turns away and becomes still.</li>
-     <li><strong>Arvind → observes Shreya:</strong> Brief view of her bare back; his earlier interest is reader-only knowledge.</li>
-     <li><strong>Arvind → Self:</strong> Regains composure, leaves and retrieves a towel. Her immediate privacy and comfort take priority.</li>
-     <li><strong>Arvind → Shreya:</strong> Returns with towel, offers it, apologizes and withdraws.</li>
-    </ol>
-    <p className="muted">Working author-corrected breakdown, not approved final prose. This workflow update does not rewrite the existing Episode 04A plan.</p>
-   </details>}
-   <p className="muted">For a separately authored missing passage, keep a stable insertion ID and exact placeholder location; this UI does not contact Grok. Full standard: <a href="https://github.com/developer-fandom-rush/DHIKA_STORY/blob/main/Society-Wives/WRITING-COLLABORATION-PROTOCOL.md" target="_blank" rel="noreferrer">Writing Collaboration Protocol §2B</a>.</p>
-  </section>
 
   {active==='shreya'&&selectedPart==='A'&&<section className="episode-plan-card" id="shreya-04a-author-manuscript">
    <h2>Shreya · Episode 04A — Updated manuscript and illustrations</h2>
@@ -179,10 +159,6 @@ export default function Planning({lead='ankita',part='A'}:{lead?:string;part?:st
    <p className="muted">Current timeline: Vikram expected home around 6:00 AM on 2 January; Shreya 04A manuscript ends after the new SC09 night closure. Final author freeze still pending.</p>
    <button type="button" className="button primary" onClick={()=>openPage('reading',{episode:'04A',character:'shreya'})}>Read full Shreya 04A →</button>
   </section>}
-  <div className="episode-picker" role="group" aria-label="Choose planning episode">
-   <button className={selectedPart==='A'?'episode-picker-current':''} aria-pressed={selectedPart==='A'} type="button" onClick={()=>go(active,'A')}>Episode 04A · Evening</button>
-   <button className={selectedPart==='B'?'episode-picker-current':''} aria-pressed={selectedPart==='B'} type="button" onClick={()=>go(active,'B')}>Episode 04B · Next Day</button>
-  </div>
   <div className="perspective-tabs" role="group" aria-label="Choose character">{leads.map(w=><button key={w} type="button" aria-pressed={active===w} className={active===w?'selected':''} onClick={()=>go(w)}>{titleCase(w)}</button>)}</div>
   {error&&<p role="alert" className="error">Some planning sources could not load: {error}</p>}
   {selectedPart==='A'&&published&&<section className="episode-plan-card" id={'episode04-published-status-'+active} aria-label="Published prose status">
