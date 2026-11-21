@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#241c2e"><title>Shivani — Episode 04A · Society Wives</title>
+<style>
+:root{color-scheme:dark;--bg:#17141a;--panel:#241e29;--text:#f4edf1;--muted:#bcadbb;--accent:#efb9cf;--border:#493845}*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.75 system-ui,-apple-system,Segoe UI,sans-serif}
+header{padding:24px max(18px,calc((100vw - 840px)/2));background:#251d2c;border-bottom:1px solid var(--border)}nav{display:flex;gap:16px;flex-wrap:wrap;font-size:14px}
+a{color:var(--accent)}h1{font:bold clamp(28px,4vw,40px)/1.15 Georgia,serif;margin:17px 0 7px}
+main{max-width:840px;margin:0 auto;padding:24px 18px 90px}.muted{color:var(--muted)}.scene{margin:18px 0 34px;border:1px solid var(--border);border-radius:14px;background:var(--panel);overflow:hidden}
+.scene summary{cursor:pointer;padding:17px 20px;font-weight:750;font-size:19px;color:var(--accent)}.scene-body{padding:0 20px 20px}
+.scene p{margin:0 0 12px;white-space:pre-wrap;overflow-wrap:anywhere}.scene p.heading{font-size:18px;font-weight:650;margin:20px 0 14px}
+.scene .missing-asset{padding:8px 11px;color:var(--muted);border-left:2px solid var(--border);font-size:13px;margin:10px 0;background:#1c1820}
+.note{border:1px solid var(--border);border-radius:12px;padding:13px 17px;margin:20px 0;color:var(--muted);font-size:14px}
+footer{max-width:840px;margin:auto;padding:0 18px 40px;color:var(--muted);font-size:13px}
+@media(max-width:600px){.scene summary{font-size:17px;padding:14px}.scene-body{padding:0 14px 14px}}
+</style></head><body><header><nav><a href="./index.html#/planning?lead=shivani">Society Wives · Shivani Planning</a><a href="https://docs.google.com/document/d/1zcFlF9rWeIzaenBEmatt4K8bw3L-LcH3c_45JwoNM3o/edit?tab=t.6exlxaqxwcq" target="_blank" rel="noreferrer">Source Google Doc (including images)</a></nav>
+<h1>Shivani · Episode 04A</h1><div class="muted">1 January 2026 · Source-tab manuscript · Saved scenes: <strong id="scene-count">…</strong></div>
+</header><main><div class="note">This reader reproduces the Shivani tab's text in original paragraph order. Illustrations remain in the source Google Doc; their placement references are preserved in the source JSON. Scene 04 is not in this document and has not been added.</div><div id="scenes" aria-label="Shivani scenes"></div></main>
+<footer>Source: Episode 4A. → SHIVANI EP-04 A. Saved for reading, without modifying the Ankita tab or approved Episodes 01–03.</footer>
+<script>(async function(){
+const target=document.getElementById('scenes');
+try{
+const response=await fetch('./episode-04a-shivani-source.json',{cache:'no-store'});
+if(!response.ok)throw new Error('Story data unavailable');
+const data=await response.json();document.getElementById('scene-count').textContent=String(data.scenes.length);
+for(const [index,scene] of data.scenes.entries()){
+const el=document.createElement('details');el.className='scene';el.id='scene-'+scene.id;el.open=index===0;
+const summary=document.createElement('summary');summary.textContent=scene.title;el.appendChild(summary);
+const content=document.createElement('div');content.className='scene-body';
+for(const block of scene.blocks){
+if(block.type==='text'){
+const p=document.createElement('p');p.textContent=block.text;
+if(block.style?.startsWith('HEADING')||/^Episode 04A ·/.test(block.text))p.className='heading';
+content.appendChild(p);
+}else if(block.type==='sourceImageReference'){
+// Retain placement in source JSON without displaying temporary or broken image URLs.
+}
+}
+el.appendChild(content);target.appendChild(el);
+}
+}catch(error){const p=document.createElement('p');p.setAttribute('role','alert');p.textContent='Unable to load the Shivani source content. Open the Google Doc using the link above.';target.appendChild(p);}
+})();</script></body></html>
