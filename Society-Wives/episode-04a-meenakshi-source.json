@@ -4,18 +4,19 @@
   "episode": "04A",
   "lead": "meenakshi",
   "title": "Episode 04A — Meenakshi",
-  "status": "SCENE01_AUTHOR_REQUESTED_PUBLISHED__FINAL_FREEZE_PENDING",
+  "status": "SCENES01_03_PUBLISHED__SCENE04_PARTIAL_VISIBLE__AUTHOR_REQUESTED__FINAL_FREEZE_PENDING",
   "source": {
     "type": "GPT-authored revised chat prose selected by author for publication",
     "date": "2026-11-21",
     "title": "Scene 01 — The Ride That Stayed With Her (revised)"
   },
-  "savedSceneCount": 1,
+  "savedSceneCount": 4,
   "assetRoot": "assets/episode-04a-meenakshi",
   "notes": {
     "continuity": "Continues approved Episode 03 Babloo farewell at Tower C lift. Uday drives; Meenakshi had been seated between Uday and Utkarsh. Car remains stalled near the badminton court. No new Babloo visit, second accident or repair is inserted.",
-    "artwork": "Two user-requested generated illustrations. Source prose controls outfit/hair continuity; visual wet-hair styling is illustrative, not a newly asserted in-story shower. Scene 02 and all later encounters remain unwritten.",
-    "planning": "Meenakshi's separate Episode 03 Scene 01 Naveen 14:15 hospital cut-point remains an unwritten source handoff, not replaced or approved by this evening Scene 01."
+    "artwork": "Existing Scene 01 illustrations preserved; no new images imported from the Google Doc tab.",
+    "planning": "Meenakshi's separate Episode 03 Scene 01 Naveen 14:15 hospital cut-point remains an unwritten source handoff, not replaced or approved by this evening Scene 01.",
+    "meenakshi04aDocPublication": "Scenes 02 and 03 published from Google Doc; Scene 04 visible as a partial draft through M04A-04.07. Source wording retained, editorial chatter/separators removed; M04A-04.08–04.12 remain unwritten here. Existing separate Naveen 14:15 thread unaffected."
   },
   "scenes": [
     {
@@ -123,6 +124,877 @@
           "text": "*\"Aur aaj ka din abhi khatam bhi kahan hua hai...\"*"
         }
       ]
+    },
+    {
+      "id": "02",
+      "title": "A Marriage of Their Own",
+      "date": "2026-01-01",
+      "time": "After 7:00 PM; exact time unspecified",
+      "location": "Kapoor flat · bathroom / marriage-history retrospective",
+      "status": "PUBLISHED_AT_AUTHOR_REQUEST__FINAL_FREEZE_PENDING",
+      "sourceManuscript": {
+        "url": "https://docs.google.com/document/d/1zcFlF9rWeIzaenBEmatt4K8bw3L-LcH3c_45JwoNM3o/edit?tab=t.eqc1lixgpfbx",
+        "tabTitle": "Meenakshi 4A",
+        "revisionId": "AHj4eMRK6r1TTUWOCyV2d25Ks_ocxrAwrQbh-pejzQabfMZKkRyJhRUhkhiyi95IhF8L4Vq9QI34NsLTd5qytRPWvAf7aICyiWjyzmnZVDQ",
+        "sourceParagraphRange": [
+          0,
+          25
+        ]
+      },
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Bathroom ka darwaaza band hua.",
+          "sourceParagraph": 1
+        },
+        {
+          "type": "text",
+          "text": "Garam shower lete hue Meenakshi ke dimaag mein din bhar ki baatein chal rahi thi. Uday aur Utkarsh ke saath woh unexpected ride, Babloo ka compliment, aur ab dressing-table ke drawer mein Nikhil ke liye rakha surprise.",
+          "sourceParagraph": 2
+        },
+        {
+          "type": "text",
+          "text": "Nikhil.",
+          "sourceParagraph": 3
+        },
+        {
+          "type": "text",
+          "text": "Uska naam sochte hi Meenakshi muskura di.",
+          "sourceParagraph": 4
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi, 32, profession se doctor thi. Hospital mein uski personality confident aur decisive thi. Woh difficult situations mein bhi jaldi decisions le leti thi. Lekin ghar mein Nikhil ke saath uska ek alag hi andaaz tha.",
+          "sourceParagraph": 5
+        },
+        {
+          "type": "text",
+          "text": "Nikhil, 35, calm aur observant tha. Uska humour bhi bada understated tha. Kabhi itni serious shakal banakar teasing karta ki Meenakshi ko ek pal ke liye samajh hi nahi aata ki woh mazaak kar raha hai.",
+          "sourceParagraph": 6
+        },
+        {
+          "type": "text",
+          "text": "Shaadi ke shuruaati dino mein dono ko ek-doosre ko samajhne mein waqt laga tha.",
+          "sourceParagraph": 7
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi ko Nikhil ki ek aadat bahut achhi lagti thi. Woh uske har silence ko problem nahi samajhta tha.",
+          "sourceParagraph": 8
+        },
+        {
+          "type": "text",
+          "text": "Ek baar usne poochha tha—",
+          "sourceParagraph": 9
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi: \"Tum har waqt itne shaant kaise rehte ho?\"",
+          "sourceParagraph": 10
+        },
+        {
+          "type": "text",
+          "text": "Nikhil: \"Kyunki meri wife hum dono ki taraf se bol leti hai.\"",
+          "sourceParagraph": 11
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi: \"Achha ji? Main bahut bolti hoon?\"",
+          "sourceParagraph": 12
+        },
+        {
+          "type": "text",
+          "text": "Nikhil: \"Maine aisa kab kaha, Doctor sahiba?\"",
+          "sourceParagraph": 13
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi hans padi thi.",
+          "sourceParagraph": 14
+        },
+        {
+          "type": "text",
+          "text": "Unki married life mein affection sirf daily conversations tak limited nahi tha. Kissing, mutual physical affection aur sexual intercourse bhi unke relationship ka natural hissa ban gaye the.",
+          "sourceParagraph": 15
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi ke liye ek interesting contrast tha: medicine aur human anatomy ke baare mein uska professional knowledge bahut extensive tha, lekin apne husband ke saath personal desires express karna ek bilkul alag experience tha.",
+          "sourceParagraph": 16
+        },
+        {
+          "type": "text",
+          "text": "Nikhil bhi dheere-dheere uski personality ke dono sides samajhne laga tha—woh confident doctor jo kisi emergency mein nahi ghabrati, aur woh playful wife jo kabhi khud teasing shuru karti toh Nikhil ko bhi jawab sochna padta.",
+          "sourceParagraph": 17
+        },
+        {
+          "type": "text",
+          "text": "Unka marriage relationship sirf responsibility se nahi chal raha tha. Usmein friendship, attraction, intimacy aur ek-doosre ki aadaton ki familiarity bhi thi.",
+          "sourceParagraph": 18
+        },
+        {
+          "type": "text",
+          "text": "Phir Vihaan unki zindagi mein aaya.",
+          "sourceParagraph": 19
+        },
+        {
+          "type": "text",
+          "text": "Ab dedh saal ke Vihaan, hospital duties aur household responsibilities ke beech unka routine badal gaya tha.",
+          "sourceParagraph": 20
+        },
+        {
+          "type": "text",
+          "text": "Lekin Meenakshi ke liye motherhood ka matlab apni romantic personality ko chhod dena nahi tha.",
+          "sourceParagraph": 21
+        },
+        {
+          "type": "text",
+          "text": "Aaj woh Nikhil ke saath kuch special waqt bitana chahti thi.",
+          "sourceParagraph": 22
+        },
+        {
+          "type": "text",
+          "text": "Kisi argument ke baad reconciliation ke liye nahi. Na hi kisi ko kuch prove karne ke liye.",
+          "sourceParagraph": 23
+        },
+        {
+          "type": "text",
+          "text": "Bas kyunki uska khud ka mann tha.",
+          "sourceParagraph": 24
+        },
+        {
+          "type": "text",
+          "text": "Shower band karke woh bahar aayi.",
+          "sourceParagraph": 25
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Nikhil's Call",
+      "date": "2026-01-01",
+      "time": "Evening, before Nikhil's return; exact time unspecified",
+      "location": "Kapoor flat · Vihaan's room / bedroom",
+      "status": "PUBLISHED_AT_AUTHOR_REQUEST__FINAL_FREEZE_PENDING",
+      "sourceManuscript": {
+        "url": "https://docs.google.com/document/d/1zcFlF9rWeIzaenBEmatt4K8bw3L-LcH3c_45JwoNM3o/edit?tab=t.eqc1lixgpfbx",
+        "tabTitle": "Meenakshi 4A",
+        "revisionId": "AHj4eMRK6r1TTUWOCyV2d25Ks_ocxrAwrQbh-pejzQabfMZKkRyJhRUhkhiyi95IhF8L4Vq9QI34NsLTd5qytRPWvAf7aICyiWjyzmnZVDQ",
+        "sourceParagraphRange": [
+          26,
+          52
+        ]
+      },
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Kuch der baad Meenakshi Vihaan ko breastfeed kara rahi thi.",
+          "sourceParagraph": 27
+        },
+        {
+          "type": "text",
+          "text": "Vihaan uski god mein aaraam se tha. Din bhar ke routine ke baad yeh kuch shaant pal dono ke liye familiar the.",
+          "sourceParagraph": 28
+        },
+        {
+          "type": "text",
+          "text": "Tabhi side-table par phone vibrate hua.",
+          "sourceParagraph": 29
+        },
+        {
+          "type": "text",
+          "text": "Screen par naam tha—Nikhil ❤️",
+          "sourceParagraph": 30
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi ne phone uthaya.",
+          "sourceParagraph": 31
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi: \"Hello, Mr. Kapoor!\"",
+          "sourceParagraph": 32
+        },
+        {
+          "type": "text",
+          "text": "Nikhil: \"Doctor sahiba, aaj bada cheerful mood hai.\"",
+          "sourceParagraph": 33
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi: \"Haan toh? Koi objection hai?\"",
+          "sourceParagraph": 34
+        },
+        {
+          "type": "text",
+          "text": "Nikhil: \"Bilkul nahi. Bas poochhna tha, ghar mein sab theek?\"",
+          "sourceParagraph": 35
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi: \"Haan. Vihaan ko feed kara rahi hoon.\"",
+          "sourceParagraph": 36
+        },
+        {
+          "type": "text",
+          "text": "Nikhil: \"Achha. Mera little champion kaisa hai?\"",
+          "sourceParagraph": 37
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi ne Vihaan ki taraf dekha.",
+          "sourceParagraph": 38
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi: \"Aaj toh bada shareef bana hua hai.\"",
+          "sourceParagraph": 39
+        },
+        {
+          "type": "text",
+          "text": "Nikhil: \"Matlab saari shararat mummy ke paas hai?\"",
+          "sourceParagraph": 40
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi: \"Nikhil!\"",
+          "sourceParagraph": 41
+        },
+        {
+          "type": "text",
+          "text": "Woh hans padi.",
+          "sourceParagraph": 42
+        },
+        {
+          "type": "text",
+          "text": "Nikhil: \"Achha baba. Main laut raha hoon. Kuch chahiye?\"",
+          "sourceParagraph": 43
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi: \"Nahi. Bas tum aa jao.\"",
+          "sourceParagraph": 44
+        },
+        {
+          "type": "text",
+          "text": "Nikhil: \"Everything okay?\"",
+          "sourceParagraph": 45
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi: \"Everything perfect.\"",
+          "sourceParagraph": 46
+        },
+        {
+          "type": "text",
+          "text": "Call khatam hua.",
+          "sourceParagraph": 47
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi ne phone rakh diya aur Vihaan ki taraf dekha. Usne feeding poori hone di, phir use aaraam se settle kiya.",
+          "sourceParagraph": 48
+        },
+        {
+          "type": "text",
+          "text": "Vihaan ke sone aur uski dekhbhaal ka intezam karne ke baad woh bedroom mein lauti.",
+          "sourceParagraph": 49
+        },
+        {
+          "type": "text",
+          "text": "Ab uska dhyaan ek baar phir dressing-table ke drawer par gaya.",
+          "sourceParagraph": 50
+        },
+        {
+          "type": "text",
+          "text": "Aaj ka surprise abhi baaki tha.",
+          "sourceParagraph": 51
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi — Episode 04A",
+          "sourceParagraph": 52
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "The Surprise — through M04A-04.07",
+      "date": "2026-01-01",
+      "time": "Evening/night; exact time unspecified",
+      "location": "Kapoor flat · private bedroom",
+      "status": "PARTIAL_WORKING_DRAFT_VISIBLE_AT_AUTHOR_REQUEST__FINAL_FREEZE_PENDING",
+      "sourceManuscript": {
+        "url": "https://docs.google.com/document/d/1zcFlF9rWeIzaenBEmatt4K8bw3L-LcH3c_45JwoNM3o/edit?tab=t.eqc1lixgpfbx",
+        "tabTitle": "Meenakshi 4A",
+        "revisionId": "AHj4eMRK6r1TTUWOCyV2d25Ks_ocxrAwrQbh-pejzQabfMZKkRyJhRUhkhiyi95IhF8L4Vq9QI34NsLTd5qytRPWvAf7aICyiWjyzmnZVDQ",
+        "availableBeats": [
+          "04.01",
+          "04.02",
+          "04.03",
+          "04.04",
+          "04.05",
+          "04.06",
+          "04.07"
+        ],
+        "editorialExclusions": [
+          "M04A-04.03 END.",
+          "Assistant responses preceding M04A-04.05, 04.06 and 04.07",
+          "Standalone --- separators"
+        ]
+      },
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "M04A-04.01 — Nikhil Returns Home",
+          "sourceParagraph": 54
+        },
+        {
+          "type": "text",
+          "text": "Main door ka lock khulne ki awaaz aayi.",
+          "sourceParagraph": 55
+        },
+        {
+          "type": "text",
+          "text": "Nikhil ghar aa gaya tha. Laptop bag kandhe par tha aur din bhar ki thakaan uske chehre par dikh rahi thi.",
+          "sourceParagraph": 56
+        },
+        {
+          "type": "text",
+          "text": "Nikhil: \"Hello! Doctor sahiba, kahan hain?\"",
+          "sourceParagraph": 57
+        },
+        {
+          "type": "text",
+          "text": "Bedroom se Meenakshi ki awaaz aayi.",
+          "sourceParagraph": 58
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi: \"Aa rahi hoon, Mr. Kapoor!\"",
+          "sourceParagraph": 59
+        },
+        {
+          "type": "text",
+          "text": "Woh bahar aayi aur Nikhil ko dekhkar muskura di.",
+          "sourceParagraph": 60
+        },
+        {
+          "type": "text",
+          "text": "Nikhil: \"Aaj bada cheerful welcome mil raha hai!\"",
+          "sourceParagraph": 61
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi: \"Toh kya roz tumhari aarti utaara karoon?\"",
+          "sourceParagraph": 62
+        },
+        {
+          "type": "text",
+          "text": "Nikhil hans pada.",
+          "sourceParagraph": 63
+        },
+        {
+          "type": "text",
+          "text": "Nikhil: \"Nahi baba. Aisa welcome hi achha hai.\"",
+          "sourceParagraph": 64
+        },
+        {
+          "type": "text",
+          "text": "Usne bag side mein rakha.",
+          "sourceParagraph": 65
+        },
+        {
+          "type": "text",
+          "text": "Nikhil: \"Vihaan so gaya?\"",
+          "sourceParagraph": 66
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi: \"Haan. Abhi thodi der pehle feed karaya tha. Phir sula diya.\"",
+          "sourceParagraph": 67
+        },
+        {
+          "type": "text",
+          "text": "Nikhil: \"Achha. Mera champion aaj jaldi so gaya.\"",
+          "sourceParagraph": 68
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi muskuraayi.",
+          "sourceParagraph": 69
+        },
+        {
+          "type": "heading",
+          "text": "M04A-04.02 — A Familiar Welcome",
+          "sourceParagraph": 70
+        },
+        {
+          "type": "text",
+          "text": "Nikhil uske paas aaya.",
+          "sourceParagraph": 71
+        },
+        {
+          "type": "text",
+          "text": "Nikhil: \"Aur meri doctor ka din kaisa raha?\"",
+          "sourceParagraph": 72
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi: \"Bahut interesting.\"",
+          "sourceParagraph": 73
+        },
+        {
+          "type": "text",
+          "text": "Nikhil: \"Interesting? Hospital mein kuch special?\"",
+          "sourceParagraph": 74
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi: \"Sirf hospital hi meri life mein interesting cheez hai kya?\"",
+          "sourceParagraph": 75
+        },
+        {
+          "type": "text",
+          "text": "Nikhil ne eyebrow uthayi.",
+          "sourceParagraph": 76
+        },
+        {
+          "type": "text",
+          "text": "Nikhil: \"Achha! Toh koi aur kahaani bhi hai?\"",
+          "sourceParagraph": 77
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi ko ek pal ke liye shaam ki car ride yaad aayi.",
+          "sourceParagraph": 78
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi: \"Kahaani toh bahut hain. Lekin aaj nahi.\"",
+          "sourceParagraph": 79
+        },
+        {
+          "type": "text",
+          "text": "Nikhil: \"Kyun?\"",
+          "sourceParagraph": 80
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi: \"Kyunki aaj maine kuch aur plan kiya hai.\"",
+          "sourceParagraph": 81
+        },
+        {
+          "type": "text",
+          "text": "Nikhil: \"Oh! Ab mujhe curiosity ho rahi hai.\"",
+          "sourceParagraph": 82
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi: \"Very good. Thodi der curious raho.\"",
+          "sourceParagraph": 83
+        },
+        {
+          "type": "text",
+          "text": "Nikhil hansa.",
+          "sourceParagraph": 84
+        },
+        {
+          "type": "text",
+          "text": "Nikhil: \"Koi hint?\"",
+          "sourceParagraph": 85
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi: \"Bilkul nahi.\"",
+          "sourceParagraph": 86
+        },
+        {
+          "type": "text",
+          "text": "Woh uske paas aayi, uske gaal par kiss kiya aur muskura kar peeche hati.",
+          "sourceParagraph": 87
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi: \"Ab jao, fresh ho jao.\"",
+          "sourceParagraph": 88
+        },
+        {
+          "type": "text",
+          "text": "Nikhil: \"Yes, madam.\"",
+          "sourceParagraph": 89
+        },
+        {
+          "type": "text",
+          "text": "Nikhil fresh hone bathroom chala gaya.",
+          "sourceParagraph": 90
+        },
+        {
+          "type": "heading",
+          "text": "M04A-04.03 — Meenakshi Prepares Her Surprise",
+          "sourceParagraph": 91
+        },
+        {
+          "type": "text",
+          "text": "Nikhil ke bathroom ka darwaaza band hote hi Meenakshi bedroom mein aayi.",
+          "sourceParagraph": 92
+        },
+        {
+          "type": "text",
+          "text": "Uski nazar dressing-table ke drawer par gayi.",
+          "sourceParagraph": 93
+        },
+        {
+          "type": "text",
+          "text": "Subah jo surprise usne Nikhil ke liye taiyaar kiya tha, woh abhi bhi wahin rakha tha.",
+          "sourceParagraph": 94
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi ne drawer khola.",
+          "sourceParagraph": 95
+        },
+        {
+          "type": "text",
+          "text": "Andar black-lace teddy, matching panties aur silk blindfold tha.",
+          "sourceParagraph": 96
+        },
+        {
+          "type": "text",
+          "text": "Woh muskuraayi.",
+          "sourceParagraph": 97
+        },
+        {
+          "type": "text",
+          "text": "Finally!",
+          "sourceParagraph": 98
+        },
+        {
+          "type": "text",
+          "text": "Yeh plan usne khud banaya tha. Aaj woh Nikhil ke saath apni married life ka ek special, private evening enjoy karna chahti thi.",
+          "sourceParagraph": 99
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi ne apne pehne hue kapde badle aur pehle se chuna hua surprise outfit pehen liya.",
+          "sourceParagraph": 100
+        },
+        {
+          "type": "text",
+          "text": "Silk blindfold usne dressing-table par alag rakh diya.",
+          "sourceParagraph": 101
+        },
+        {
+          "type": "text",
+          "text": "Bathroom se paani ki awaaz aa rahi thi.",
+          "sourceParagraph": 102
+        },
+        {
+          "type": "text",
+          "text": "Nikhil ko abhi tak uske surprise ka pata nahi tha.",
+          "sourceParagraph": 103
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi dressing-table ke saamne khadi thi.",
+          "sourceParagraph": 104
+        },
+        {
+          "type": "heading",
+          "text": "M04A-04.04 — The Surprise Reveal",
+          "editorialHeading": true
+        },
+        {
+          "type": "text",
+          "text": "Nikhil bathroom se nikal kar bedroom mein aaya toh uske kadam ek pal ke liye ruk gaye.",
+          "sourceParagraph": 107
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi dressing table ke saamne khadi thi. Baal loosely updo mein bandhe hue the, kuch strands gardan par gir rahe the. Gale mein patli gold chain thi, jiske neeche uska deep cleavage clearly dikh raha tha. Usne black sheer lace teddy pehna hua tha — floral pattern ka transparent lace, deep plunging cups jo uske full breasts ko barely hold kar rahe the, underbust par chhoti black ribbon bow bandhi hui thi. Teddy ka open back uski poori peeth aur waistline expose kar raha tha, halter ties neck par bandhe hue the. Neeche matching thong-style lace panty thi, jo uske hips aur ass ko tightly frame kar rahi thi. Sheer fabric se uski skin ka tone aur body ki curves clearly visible the.",
+          "sourceParagraph": 108
+        },
+        {
+          "type": "text",
+          "text": "Woh thodi si side angle mein khadi thi, ek haath dressing table par, doosra haath apni thigh par. Uski posture confident thi, lekin jab usne Nikhil ko dekha toh uske honthon par halki si muskaan aa gayi aur gaalon par laali chadh gayi.",
+          "sourceParagraph": 109
+        },
+        {
+          "type": "text",
+          "text": "Nikhil ki nazar uske face se neeche gayi — lace ke through breasts, ribbon bow, open waist, phir hips aur thong tak. Uski saans ek second ke liye ruk gayi. Aankhein thodi si wide ho gayin, aur woh seedha uski taraf dekhne laga, jaise usne expected nahi kiya tha ki surprise itna bold hoga.",
+          "sourceParagraph": 110
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi ne uski reaction dekh kar apna weight ek pair se doosre par shift kiya. Teddy ka lace uski movement ke saath thoda shift hua. Usne dheere se kaha, awaaz mein halki si shararat ke saath:",
+          "sourceParagraph": 111
+        },
+        {
+          "type": "text",
+          "text": "“Mr. Kapoor… aaj shaam ka surprise dekh liya?”",
+          "sourceParagraph": 112
+        },
+        {
+          "type": "text",
+          "text": "Nikhil ne kuch seconds tak kuch nahi kaha. Sirf uski taraf dekhta raha, throat mein thoda movement hua jaise woh bolna chahta ho lekin words nahi nikal rahe the. Phir usne dheere se sir hilaaya, aankhon mein clearly visible appreciation aur surprise dono the.",
+          "sourceParagraph": 113
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi ne uski nazar pakad li aur muskuraayi. Blindfold abhi bhi dressing table par pada hua tha, untouched. Room mein sirf un dono ki saansen aur is pehli complete visual reaction ka moment tha.",
+          "sourceParagraph": 114
+        },
+        {
+          "type": "heading",
+          "text": "M04A-04.05 — Nikhil Responds",
+          "sourceParagraph": 120
+        },
+        {
+          "type": "text",
+          "text": "Nikhil ne finally saans li. Uski nazar abhi bhi Meenakshi ke lace teddy par thi, lekin ab usme sirf surprise nahi, clearly visible heat bhi thi.",
+          "sourceParagraph": 121
+        },
+        {
+          "type": "text",
+          "text": "Woh do kadam aage badha aur uske bilkul saamne ruk gaya.",
+          "sourceParagraph": 122
+        },
+        {
+          "type": "text",
+          "text": "Nikhil (awaz thodi low, thodi dry): “Mr. Kapoor ne dekh liya. Aur Mr. Kapoor abhi bhi process kar raha hai ki aaj shaam unki biwi ne itna dangerous surprise plan kiya hai.”",
+          "sourceParagraph": 123
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi halki si hansi. Usne apna weight ek taraf shift kiya, teddy ka lace uski movement ke saath thoda stretch hua.",
+          "sourceParagraph": 124
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi: “Process kar rahe ho ya bas dekh rahe ho?”",
+          "sourceParagraph": 125
+        },
+        {
+          "type": "text",
+          "text": "Nikhil ne uski aankhon mein dekha, phir dheere se uski waist ke paas haath rakha — abhi sirf touch, koi pull nahi.",
+          "sourceParagraph": 126
+        },
+        {
+          "type": "text",
+          "text": "Nikhil: “Dono. Pehle dekh raha hoon. Phir process karunga. Aur phir… shayad kuch aur.”",
+          "sourceParagraph": 127
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi ne uske haath par apna haath rakha. Uski ungliyan uski skin par warm feel ho rahi thi.",
+          "sourceParagraph": 128
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi: “Kuch aur ka matlab?”",
+          "sourceParagraph": 129
+        },
+        {
+          "type": "text",
+          "text": "Nikhil thoda paas aaya. Uski awaz aur dheemi ho gayi.",
+          "sourceParagraph": 130
+        },
+        {
+          "type": "text",
+          "text": "Nikhil: “Matlab aaj tumne jo plan kiya hai, usme main bhi shamil hoon. Aur main us plan ko seriously lene wala hoon.”",
+          "sourceParagraph": 131
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi ki saans thodi tez hui. Usne uski taraf thoda jhuk kar dheere se kaha:",
+          "sourceParagraph": 132
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi: “Achha. Toh seriously lene se pehle… ek baar aur clearly dekh lo. Blindfold abhi bhi table par pada hai.”",
+          "sourceParagraph": 133
+        },
+        {
+          "type": "text",
+          "text": "Nikhil ne dressing table ki taraf ek nazar daali, phir wapas uski taraf.",
+          "sourceParagraph": 134
+        },
+        {
+          "type": "text",
+          "text": "Nikhil: “Pehle yeh dekhna hai. Blindfold baad mein decide karenge.”",
+          "sourceParagraph": 135
+        },
+        {
+          "type": "text",
+          "text": "Dono ek doosre ko dekhte rahe. Room mein sirf unki saansen aur unke beech ki garam, familiar tension thi. Conversation abhi khatam nahi hui thi, lekin dono jaan chuke the ki aaj raat ka mood kahan ja raha hai.",
+          "sourceParagraph": 136
+        },
+        {
+          "type": "heading",
+          "text": "M04A-04.06 — Mutual Affection",
+          "editorialHeading": true
+        },
+        {
+          "type": "text",
+          "text": "Nikhil ne apna haath Meenakshi ki waist se upar ki taraf slide kiya, uski bare back par lace ke edge tak. Uski ungliyan uski skin par dheere chali. Meenakshi ne aankhein band ki aur thoda saans andar khinchi.",
+          "sourceParagraph": 140
+        },
+        {
+          "type": "text",
+          "text": "Woh khud aage badhi. Uski chaati Nikhil ki chaati se touch hui, lace ke through uske breasts ka soft pressure clearly mehsoos hua. Usne dono haath uske shoulders par rakhe aur uski taraf jhuki.",
+          "sourceParagraph": 141
+        },
+        {
+          "type": "text",
+          "text": "Unke honth mile.",
+          "sourceParagraph": 142
+        },
+        {
+          "type": "text",
+          "text": "Pehla kiss soft tha — familiar, warm, jaise woh pehle bhi kai baar kar chuke the. Nikhil ne uske lower lip ko dheere se pakda. Meenakshi ne uska jawab diya, apna muh thoda aur khola. Kiss gehra hua. Usne uski gardan ke peeche haath daala, ungliyan uske baalon mein ghus gayi. Nikhil ne uski waist ko dono haathon se pakda aur use apne seene se chipka liya.",
+          "sourceParagraph": 143
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi ko uska hard chest, uski saans, aur uske haathon ka pressure clearly feel ho raha tha. Lace teddy uski body aur Nikhil ke kapdon ke beech mein ragad kha raha tha. Uski saans tez ho gayi. Woh thodi si moan ki, awaaz uske muh ke andar hi dabi rahi.",
+          "sourceParagraph": 144
+        },
+        {
+          "type": "text",
+          "text": "Nikhil ne kiss toda, lekin honth uske honthon se sirf ek inch door the. Dono ki saansein mil rahi thi.",
+          "sourceParagraph": 145
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi (dheere se, aankhein abhi bhi aadhi band): “Itna seriously?”",
+          "sourceParagraph": 146
+        },
+        {
+          "type": "text",
+          "text": "Nikhil ne uske forehead par ek chhota sa kiss kiya, phir uski aankhon mein dekha.",
+          "sourceParagraph": 147
+        },
+        {
+          "type": "text",
+          "text": "Nikhil: “Tumne surprise diya hai. Main uska jawab de raha hoon.”",
+          "sourceParagraph": 148
+        },
+        {
+          "type": "text",
+          "text": "Usne phir se uske honthon ko chuma — is baar thoda aur deep, thoda aur lamba. Meenakshi ne uska poora jawab diya. Uski ungliyan uske baalon mein tight ho gayi. Room mein sirf unke kissing ki soft awaaz aur unki tez saansein thi.",
+          "sourceParagraph": 149
+        },
+        {
+          "type": "text",
+          "text": "Jab woh alag hue, dono ke honth geele the, saansein heavy. Meenakshi ne uske seene par sir rakh diya, ek pal ke liye. Nikhil ne uski peeth par haath phera, lace ke upar se.",
+          "sourceParagraph": 150
+        },
+        {
+          "type": "text",
+          "text": "Dono abhi bhi ek doosre se chipke hue the. Blindfold dressing table par pada hua tha. Koi naya decision nahi hua tha, lekin dono ki body language clearly keh rahi thi ki aaj raat yahin rukegi.",
+          "sourceParagraph": 151
+        },
+        {
+          "type": "heading",
+          "text": "M04A-04.07 — The Blindfold",
+          "editorialHeading": true
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi ne Nikhil ke seene se sir uthaya. Uski saans abhi bhi thodi tez thi. Usne uski aankhon mein dekha, phir dheere se dressing table ki taraf ishara kiya.",
+          "sourceParagraph": 155
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi: “Ek aur cheez hai.”",
+          "sourceParagraph": 156
+        },
+        {
+          "type": "text",
+          "text": "Nikhil ne uski nazar follow ki. Silk blindfold abhi bhi wahi pada hua tha, black aur soft, bilkul untouched.",
+          "sourceParagraph": 157
+        },
+        {
+          "type": "text",
+          "text": "Nikhil: “Woh?”",
+          "sourceParagraph": 158
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi ne uske haath ko pakda aur use apne saath dressing table ke paas le gayi. Usne blindfold uthaya, uski silk texture apni ungliyon se mehsoos ki, phir Nikhil ki taraf badhaya.",
+          "sourceParagraph": 159
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi: “Aaj raat ke surprise ka hissa. Agar tum chaho.”",
+          "sourceParagraph": 160
+        },
+        {
+          "type": "text",
+          "text": "Nikhil ne blindfold ko dekha, phir uski aankhon mein. Uske chehre par halki si smile thi, lekin usne turant haath nahi badhaya.",
+          "sourceParagraph": 161
+        },
+        {
+          "type": "text",
+          "text": "Nikhil: “Tum pehnogi… ya main?”",
+          "sourceParagraph": 162
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi ne thoda socha. Uske gaalon par laali abhi bhi thi. Woh uske bilkul paas khadi thi, lace teddy uski body se chipka hua.",
+          "sourceParagraph": 163
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi: “Jo tum comfortable ho. Main dono tarah se ready hoon. Bas… yeh raat thodi alag honi chahiye.”",
+          "sourceParagraph": 164
+        },
+        {
+          "type": "text",
+          "text": "Nikhil ne blindfold uske haath se liya. Silk uski ungliyon mein soft feel hui. Usne use ek pal ke liye apni mutthi mein rakha, phir Meenakshi ki taraf dekha.",
+          "sourceParagraph": 165
+        },
+        {
+          "type": "text",
+          "text": "Nikhil: “Pehle tum decide karo. Main uske hisaab se chalunga.”",
+          "sourceParagraph": 166
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi ne uski aankhon mein dekha. Ek chhoti si smile uske honthon par aayi. Usne apna haath uske seene par rakha.",
+          "sourceParagraph": 167
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi: “Theek hai. Abhi mat pehno. Table par hi rehne do. Jab dono ready hon… tab.”",
+          "sourceParagraph": 168
+        },
+        {
+          "type": "text",
+          "text": "Nikhil ne sir hilaya. Usne blindfold wapas dressing table par rakh diya, bilkul wahi jagah. Silk ab bhi folded, untouched.",
+          "sourceParagraph": 169
+        },
+        {
+          "type": "text",
+          "text": "Nikhil: “Jab tum kaho.”",
+          "sourceParagraph": 170
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi ne uska haath pakda aur use wapas bed ki taraf kheench liya. Dono ki body language abhi bhi close thi, lekin blindfold abhi bhi table par pada hua tha. Koi decision final nahi hua tha. Sirf possibility khuli hui thi.",
+          "sourceParagraph": 171
+        }
+      ]
+    }
+  ],
+  "additionalSources": [
+    {
+      "url": "https://docs.google.com/document/d/1zcFlF9rWeIzaenBEmatt4K8bw3L-LcH3c_45JwoNM3o/edit?tab=t.eqc1lixgpfbx",
+      "tabTitle": "Meenakshi 4A",
+      "revisionId": "AHj4eMRK6r1TTUWOCyV2d25Ks_ocxrAwrQbh-pejzQabfMZKkRyJhRUhkhiyi95IhF8L4Vq9QI34NsLTd5qytRPWvAf7aICyiWjyzmnZVDQ",
+      "provenance": "User-directed Google Doc tab, mixed user/GPT/external-writer manuscript; source authorship per paragraph not verified",
+      "publicationScope": "Scene 02, Scene 03, Scene 04 through 04.07"
     }
   ]
 }
