@@ -80,7 +80,15 @@
           "text": "Shivani ne haste hue bag rakha aur final check ke liye neeche nikal gayi.",
           "style": "NORMAL_TEXT",
           "sourceParagraph": 9
-        },
+        }
+      ],
+      "sourceTabParagraphStart": 2,
+      "sourceTabParagraphEnd": 10
+    },
+    {
+      "id": "02",
+      "title": "Scene 02 — Ek Nazar Ka Raaz",
+      "blocks": [
         {
           "type": "text",
           "text": "Episode 04A · Shivani · Scene 02",
@@ -91,15 +99,7 @@
           "type": "sourceImageReference",
           "inlineObjectId": "kix.fs4qsc6ozfng",
           "sourceParagraph": 10
-        }
-      ],
-      "sourceTabParagraphStart": 2,
-      "sourceTabParagraphEnd": 10
-    },
-    {
-      "id": "02",
-      "title": "Scene 02 — Ek Nazar Ka Raaz",
-      "blocks": [
+        },
         {
           "type": "text",
           "text": "Scene 02 — Ek Nazar Ka Raaz",
