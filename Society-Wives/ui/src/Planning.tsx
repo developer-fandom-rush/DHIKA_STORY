@@ -1,5 +1,5 @@
 import type { ReactNode } from 'react';
-import { assetUrl, openPage, titleCase, useData } from './lib';
+import { openPage, titleCase, useData } from './lib';
 
 type Beat={id:string;title:string;time?:string;[key:string]:unknown};
 type Scene={id?:string;scene?:string;sceneNumber?:string;number?:string;title:string;start?:string;end?:string;location?:string;beats:Beat[];[key:string]:unknown};
@@ -110,49 +110,12 @@ function WorkshopDetails({tracks}:{tracks:WorkshopTrack[]}){
  </article>)}</div>;
 }
 
-type AnkitaFinalSource={
- source:{url:string;tabTitle:string;title:string};
- content:{sourceElementIndex:number;text:string;imageObjectIds:string[]}[];
-};
-const ankitaSceneImages:Record<number,{file:string;alt:string}>={
- 12:{file:'a01-doorway-storyboard.jpg',alt:'A01 — Ankita and Rinku at the doorway'},
- 29:{file:'a02-filter-inspection.jpg',alt:'A02 — Rinku examines the water-filter connector'},
- 42:{file:'a03-water-burst.jpg',alt:'A03 — The water burst and balance hold'},
- 66:{file:'a04-silent-exit.jpg',alt:'A04 — Rinku leaves without explaining'}
-};
-function Ankita04AExactManuscript(){
- const {data,loading,error}=useData<AnkitaFinalSource>('episode-04a-ankita-final-source.json');
- return <section id="episode04-active-plan" aria-label="Ankita Episode 04A exact author manuscript">
-  <h2>Ankita · Episode 04A</h2>
-  {loading&&<p role="status">Loading exact 04A manuscript…</p>}
-  {error&&<p role="alert" className="error">Unable to load author manuscript: {error}</p>}
-  {data&&<article className="reading-surface" style={{maxWidth:'850px',margin:'0 auto'}}>
-   {data.content.map((entry,i)=>{
-    const image=ankitaSceneImages[entry.sourceElementIndex];
-    const readable=entry.text.replace(/\u000b/g,'\n');
-    return <div key={entry.sourceElementIndex+'-'+i}>
-      {readable.trim()&&<p style={{whiteSpace:'pre-wrap',lineHeight:1.85,overflowWrap:'anywhere',marginBottom:'1.1em'}}>{readable}</p>}
-      {image&&<figure style={{margin:'24px auto 30px',maxWidth:'640px'}}>
-       <img loading="lazy" style={{width:'100%',height:'auto',borderRadius:'10px'}} src={assetUrl('assets/episode-04a-ankita/'+image.file)} alt={image.alt}/>
-       <figcaption className="muted">{image.alt}</figcaption>
-      </figure>}
-    </div>;
-   })}
-   <details className="episode-outline"><summary><strong>Earlier / incorrect visual versions — retained as references, not story events</strong></summary>
-    <p className="muted">Previously generated variations are archived rather than silently substituted into approved prose.</p>
-    {['a01-doorway.jpg','a01-alternate-storyboard.jpg','a03-a04-previous-storyboard.jpg','a04-previous-exit.jpg','a05-cleanup-previous.jpg'].map(file=><figure key={file} style={{margin:'18px 0',maxWidth:'600px'}}><img loading="lazy" src={assetUrl('assets/episode-04a-ankita/'+file)} alt={'Archived reference: '+file} style={{width:'100%',height:'auto',borderRadius:'10px'}}/><figcaption className="muted">{file} — archived visual, not new canon</figcaption></figure>)}
-   </details>
-  </article>}
-  <details className="episode-outline" style={{marginTop:'28px'}}>
-   <summary><strong>Source document and editor notes (optional)</strong></summary>
-   <p className="source-note">Story text appears in the original paragraph order from the author's FINAL EP_04. Google Docs tab. The closing lines include the author's short scene transitions and planning notes, not invented extended prose. <a href="./episode-04a-ankita-final.html">Full-page story view</a> · <a href={data?.source.url || 'https://docs.google.com/document/d/1zcFlF9rWeIzaenBEmatt4K8bw3L-LcH3c_45JwoNM3o/edit?tab=t.q9uiye5366b7'} target="_blank" rel="noreferrer">Google Doc</a></p>
-  </details>
- </section>;
-}
+type Episode04PublicationIndex={leads:Record<string,{name:string;source:string;publicationStatus:string;publishedSceneIds:string[];completedPlanSceneIds:string[];pendingPlanSceneIds:string[];publicationScope:string}>};
 
 export default function Planning({lead='ankita',part='A'}:{lead?:string;part?:string}){
  const active=leads.find(x=>x===lead)||'ankita';
  const selectedPart=part==='B'?'B':'A';
+ const {data:publicationIndex,error:publicationError}=useData<Episode04PublicationIndex>('episode-04a-publication-index.json');
  const {data:ankita,error:ankitaError}=useData<PlotDocument>('episode-04a-ankita-plan.json');
  const {data:shivani,error:shivaniError}=useData<PlotDocument>('episode-04a-shivani-plan.json');
  const {data:shreya,error:shreyaError}=useData<PlotDocument>('episode-04a-shreya-night-plan.json');
@@ -166,7 +129,7 @@ export default function Planning({lead='ankita',part='A'}:{lead?:string;part?:st
  const {data:proseDraft,error:proseError}=useData<ProseDraft>('episode-04b-five-leads-prose-drafts.json');
  const {data:unifiedDay,error:unifiedError}=useData<UnifiedDay>('episode-04b-jan02-merged-day-five-leads.json');
  const doc=active==='ankita'?ankita:active==='shivani'?shivani:active==='shreya'?shreya:active==='taniya'||active==='soniya'?taniya:null;
- const error=ankitaError||shivaniError||shreyaError||taniyaError||workshopError||ankitaArchiveError||officeDayError||societyDayError||continuityError||mergedError||proseError||unifiedError;
+ const error=publicationError||ankitaError||shivaniError||shreyaError||taniyaError||workshopError||ankitaArchiveError||officeDayError||societyDayError||continuityError||mergedError||proseError||unifiedError;
  const officeLead=officeDay?.leads.find(x=>x.id===active);
  const societyLead=societyDay?.leads.find(x=>x.id===active);
  const continuityRecord=continuity?.leads.find(x=>x.id===active);
@@ -175,22 +138,11 @@ export default function Planning({lead='ankita',part='A'}:{lead?:string;part?:st
  const unifiedLead=unifiedDay?.leads.find(x=>x.id===active);
  const tracks=active==='meenakshi'?[]:active==='ankita'?(ankitaArchive?.tracks||[]):(workshop?.leads.find(x=>x.id===active)?.tracks||[]);
  const go=(who:string=active,p:'A'|'B'=selectedPart)=>openPage('planning',{lead:who,part:p});
- // Reader-first: approved manuscript appears without any clicks or editor material above it.
- if(selectedPart==='A'&&active==='ankita')return <main className="page-width" id="episode04a-reader-first">
-  <Ankita04AExactManuscript/>
-  <details className="episode-outline" style={{marginTop:'28px'}}>
-   <summary><strong>Editor-only: prior plot beats and continuity (optional)</strong></summary>
-   {continuityRecord&&<ContinuityDetails record={continuityRecord} part="A"/>}
-   {(ankita?.scenes||[]).map((scene,index)=><SceneDetails key={scene.id||index} scene={scene} index={index}/>)}
-  </details>
-  <div className="episode-picker" role="group" aria-label="Choose planning episode" style={{marginTop:'28px'}}>
-   <button className="episode-picker-current" type="button" aria-pressed="true">Episode 04A · Evening</button>
-   <button type="button" onClick={()=>go('ankita','B')}>Episode 04B · Next Day</button>
-  </div>
-  <div className="perspective-tabs" role="group" aria-label="Choose character">{leads.map(w=><button key={w} type="button" aria-pressed={active===w} className={active===w?'selected':''} onClick={()=>go(w,'A')}>{titleCase(w)}</button>)}</div>
- </main>;
+ const published=publicationIndex?.leads[active];
+ const completed=new Set(published?.completedPlanSceneIds||[]);
+ const outstandingScenes=(doc?.scenes||[]).filter(scene=>!scene.id||!completed.has(scene.id));
  return <main className="page-width">
-  <header className="section-intro"><span className="eyebrow">Next planning · Episode 04</span><h1>Episode 04 · Plot Planning</h1><p>Character-wise story plots and new scenes only. Episodes 01–03 are in Reading, not repeated here.</p></header>
+  <header className="section-intro"><span className="eyebrow">Next planning · Episode 04</span><h1>Episode 04 · Plot Planning</h1><p>Only unfinished scenes remain here. Published Episode 04A prose is in Read Story, with the former plan retained as an archive.</p></header>
   <p className="source-note"><strong>Before planning the next scene:</strong> <a href="./future-ideas.html">Future Ideas to be referred before planning next scene</a> — proposals only, not approved canon.</p>
   <div className="episode-picker" role="group" aria-label="Choose planning episode">
    <button className={selectedPart==='A'?'episode-picker-current':''} aria-pressed={selectedPart==='A'} type="button" onClick={()=>go(active,'A')}>Episode 04A · Evening</button>
@@ -198,7 +150,19 @@ export default function Planning({lead='ankita',part='A'}:{lead?:string;part?:st
   </div>
   <div className="perspective-tabs" role="group" aria-label="Choose character">{leads.map(w=><button key={w} type="button" aria-pressed={active===w} className={active===w?'selected':''} onClick={()=>go(w)}>{titleCase(w)}</button>)}</div>
   {error&&<p role="alert" className="error">Some planning sources could not load: {error}</p>}
-  {selectedPart==='A'?(active==='ankita'?<Ankita04AExactManuscript/>:<>{continuityRecord&&<ContinuityDetails record={continuityRecord} part="A"/>}{active==='meenakshi'
+  {selectedPart==='A'&&published&&<section className="episode-plan-card" id={'episode04-published-status-'+active} aria-label="Published prose status">
+   <h2>{titleCase(active)} · Episode 04A</h2>
+   <p><strong>Published in Read Story.</strong> {published.publishedSceneIds.length===1&&published.publishedSceneIds[0]==='manuscript'?'Author-approved manuscript':published.publishedSceneIds.length+' scene entries'} are available in the main reader.</p>
+   <p className="muted">{published.publicationScope}</p>
+   <button type="button" className="button primary" onClick={()=>openPage('reading',{episode:'04A',character:active})}>Read published prose →</button>
+   <p className="muted">Completed plot notes are retained as source archive but are no longer repeated in Planning.</p>
+  </section>}
+  {selectedPart==='A'?(published
+   ?(outstandingScenes.length>0?<section id="episode04-active-plan">
+     <h2>{titleCase(active)} · Still to write</h2><p className="muted">These remaining plot scenes are not yet in Read Story.</p>
+     {outstandingScenes.map((scene,index)=><SceneDetails key={scene.id||index} scene={scene} index={index}/>)}
+    </section>:<p className="source-note">No unfinished Episode 04A plot scenes remain for this character. Future work belongs to the next episode or a newly approved scene.</p>)
+   :<>{continuityRecord&&<ContinuityDetails record={continuityRecord} part="A"/>}{active==='meenakshi'
    ?<section className="episode-plan-card" id="ep04-meenakshi-handoff"><h2>Meenakshi · Naveen · 14:15 handoff</h2><p>Episode 03 Scene 01 ended at the hospital after Naveen arrived with the handover copy. The next interaction remains open for Episode 04 discussion. No additional action or prose has been approved.</p><button type="button" className="button subtle" onClick={()=>openPage('reading',{episode:'03',character:'meenakshi',scene:'01'})}>Read the preceding scene</button></section>
    :doc?<section id="episode04-active-plan"><h2>{doc.title}</h2>{active==='soniya'&&<p className="muted">Shared Taniya and Soniya household scenes.</p>}
     {(doc.scenes||[]).map((s,i)=><SceneDetails key={s.id||s.scene||i} scene={s} index={i}/>)}
