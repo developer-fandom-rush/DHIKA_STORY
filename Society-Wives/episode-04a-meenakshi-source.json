@@ -4,7 +4,7 @@
   "episode": "04A",
   "lead": "meenakshi",
   "title": "Episode 04A — Meenakshi",
-  "status": "SCENES01_03_PUBLISHED__SCENE04_PARTIAL_VISIBLE__AUTHOR_REQUESTED__FINAL_FREEZE_PENDING",
+  "status": "SCENES01_04_PUBLISHED_AT_AUTHOR_REQUEST__FINAL_FREEZE_PENDING",
   "source": {
     "type": "GPT-authored revised chat prose selected by author for publication",
     "date": "2026-11-21",
@@ -16,7 +16,7 @@
     "continuity": "Continues approved Episode 03 Babloo farewell at Tower C lift. Uday drives; Meenakshi had been seated between Uday and Utkarsh. Car remains stalled near the badminton court. No new Babloo visit, second accident or repair is inserted.",
     "artwork": "Existing Scene 01 illustrations preserved; no new images imported from the Google Doc tab.",
     "planning": "Meenakshi's separate Episode 03 Scene 01 Naveen 14:15 hospital cut-point remains an unwritten source handoff, not replaced or approved by this evening Scene 01.",
-    "meenakshi04aDocPublication": "Scenes 02–03 published; Scene 04 visible as partial draft through available M04A-04.09 manuscript. Source prose retained, editorial chatter and obsolete insert marker excluded. M04A-04.10–04.12 not included yet; separate Naveen 14:15 thread unaffected."
+    "meenakshi04aDocPublication": "Scenes 01–04 published in reader. All available M04A-04.01–04.12 manuscript text from Meenakshi 4A Google Doc incorporated into Scene 04 with source paragraphs preserved, assistant preambles/separators excluded and a neutral 04.12 heading added. Story evening ends with husband and wife sleeping. Separate EP03 Naveen 14:15 handoff remains independently open."
   },
   "scenes": [
     {
@@ -415,15 +415,15 @@
     },
     {
       "id": "04",
-      "title": "The Surprise — through M04A-04.09 (partial)",
+      "title": "The Surprise",
       "date": "2026-01-01",
       "time": "Evening/night; exact time unspecified",
       "location": "Kapoor flat · private bedroom",
-      "status": "PARTIAL_WORKING_DRAFT_VISIBLE_AT_AUTHOR_REQUEST__FINAL_FREEZE_PENDING",
+      "status": "PUBLISHED_AT_AUTHOR_REQUEST__FINAL_FREEZE_PENDING",
       "sourceManuscript": {
         "url": "https://docs.google.com/document/d/1zcFlF9rWeIzaenBEmatt4K8bw3L-LcH3c_45JwoNM3o/edit?tab=t.eqc1lixgpfbx",
         "tabTitle": "Meenakshi 4A",
-        "revisionId": "AHj4eMSUNjSNSsZ8S2N53nmiO6CsdYRQVWMV157C4zI2ZP71WaPs8CmZfTUCNOSGQ4J-dOwBbDVmj6nIU0DZZeXIKhKI7dE0eQ84cQ7cviA",
+        "revisionId": "AHj4eMQLvnqYg0BjNVUm61dpGQCXAVzVvHuB6BN1kRBPXAiWdDzt70C6dezQ-hAOravXvtytreEqOBrIvnKTRlInDV-BBCqHGhdIP8iNAIE",
         "availableBeats": [
           "04.01",
           "04.02",
@@ -433,15 +433,20 @@
           "04.06",
           "04.07",
           "04.08",
-          "04.09"
+          "04.09",
+          "04.10",
+          "04.11",
+          "04.12"
         ],
         "editorialExclusions": [
           "M04A-04.03 END.",
           "Assistant responses preceding M04A-04.05, 04.06 and 04.07",
           "Standalone --- separators",
           "M04A-04.08 preamble and standalone --- separators",
-          "04.09 assistant preamble and obsolete [GRAPHICAL DESCRIPTION REQUIRED] marker because source prose is supplied"
-        ]
+          "04.09 assistant preamble and obsolete [GRAPHICAL DESCRIPTION REQUIRED] marker because source prose is supplied",
+          "04.10–04.11 assistant preambles and --- separators; 04.12 editorial heading added to unlabeled final sleep paragraphs"
+        ],
+        "sourceParagraphEnd": 239
       },
       "blocks": [
         {
@@ -1103,6 +1108,176 @@
           "type": "text",
           "text": "Meenakshi pehle climax par pahunchi. Uski body kaanp gayi, pussy uske lund ke around tightly squeeze hui. Nikhil ne kuch aur deep thrusts maare, phir uske andar hi release kar diya — warm, thick cum. Dono ek doosre se chipke rahe, saansein dheere-dheere normal hoti hui.",
           "sourceParagraph": 201
+        },
+        {
+          "type": "heading",
+          "text": "M04A-04.10 — Encounter Ends",
+          "editorialHeading": true
+        },
+        {
+          "type": "text",
+          "text": "Nikhil ne dheere se apna weight Meenakshi se hataaya, lekin poori tarah se alag nahi hua. Woh uske bagal mein let gaya, ek haath abhi bhi uski kamar par. Dono ki saansein abhi bhi thodi tez thi, skin geeli aur warm.",
+          "sourceParagraph": 205
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi ne aankhein dheere se kholi. Uski body abhi bhi soft aftershocks mehsoos kar rahi thi. Usne apna sir uske shoulder par rakh diya aur uski chaati par haath phera.",
+          "sourceParagraph": 206
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi (dheere se, thodi thaki hui awaaz mein): “Itna seriously le liya tumne surprise ko.”",
+          "sourceParagraph": 207
+        },
+        {
+          "type": "text",
+          "text": "Nikhil ne uske baalon mein ungliyan chalayi, loose updo ab thoda bigad chuka tha. Usne uske forehead par ek soft kiss kiya.",
+          "sourceParagraph": 208
+        },
+        {
+          "type": "text",
+          "text": "Nikhil: “Tumne plan kiya tha. Main ne sirf follow kiya.”",
+          "sourceParagraph": 209
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi halki si hansi. Usne uski taraf thoda aur chipak gayi. Lace teddy abhi bhi uski body par adha khula hua tha, thong side mein, lekin ab usme koi urgency nahi thi. Sirf comfort.",
+          "sourceParagraph": 210
+        },
+        {
+          "type": "text",
+          "text": "Nikhil ne bed ke side se soft tissue uthaya aur dheere se uski thighs aur beech ko clean kiya. Meenakshi ne use karne diya, aankhein aadhi band. Jab woh khatam hua, usne tissue side mein rakh diya aur Meenakshi ko apni baahon mein kheench liya.",
+          "sourceParagraph": 211
+        },
+        {
+          "type": "text",
+          "text": "Dono chup rahe kuch seconds. Room mein sirf unki normal hoti saansein aur door ke bahar ki halki si silence thi. Blindfold abhi bhi bed ke side mein pada hua tha, unused.",
+          "sourceParagraph": 212
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi ne uske seene par ek chhota sa kiss kiya.",
+          "sourceParagraph": 213
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi: “Achha laga.”",
+          "sourceParagraph": 214
+        },
+        {
+          "type": "text",
+          "text": "Nikhil: “Mujhe bhi.”",
+          "sourceParagraph": 215
+        },
+        {
+          "type": "text",
+          "text": "Unhone ek doosre ko aur tightly hold kiya. Koi naya word nahi tha. Sirf bodies ka weight, warm skin, aur familiar comfort.",
+          "sourceParagraph": 216
+        },
+        {
+          "type": "heading",
+          "text": "M04A-04.11 — Comfortable Embrace",
+          "editorialHeading": true
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi ne apna sir Nikhil ke seene par aur aaraam se rakh diya. Uski ungliyan uski chaati par dheere-dheere ghoom rahi thi, koi urgency nahi, sirf familiar touch. Nikhil ne uski peeth par haath phera, lace ke bache hue straps ke upar se, phir neeche uski bare skin par.",
+          "sourceParagraph": 220
+        },
+        {
+          "type": "text",
+          "text": "Kuch der dono chup rahe. Sirf unki saansein aur room ki halki si thand mehsoos ho rahi thi.",
+          "sourceParagraph": 221
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi (dheere se): “Vihaan so gaya hoga ab tak.”",
+          "sourceParagraph": 222
+        },
+        {
+          "type": "text",
+          "text": "Nikhil: “Haan. Subah tak nahi uthega.”",
+          "sourceParagraph": 223
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi ne thodi si hansi. Usne uski taraf thoda aur chipak gayi, ek taang uski taang par rakh di.",
+          "sourceParagraph": 224
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi: “Aaj wala surprise… theek tha?”",
+          "sourceParagraph": 225
+        },
+        {
+          "type": "text",
+          "text": "Nikhil ne uske sir par chin rakh diya. Uski awaaz soft thi.",
+          "sourceParagraph": 226
+        },
+        {
+          "type": "text",
+          "text": "Nikhil: “Theek nahi. Achha tha. Bahut.”",
+          "sourceParagraph": 227
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi ne uske seene par ek chhota sa kiss kiya, phir aankhein band kar li. Nikhil ne blanket un dono ke upar kheench liya. Uski ungliyan ab bhi uski kamar par thi, steady aur warm.",
+          "sourceParagraph": 228
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi: “Agli baar main blindfold bhi use karungi.”",
+          "sourceParagraph": 229
+        },
+        {
+          "type": "text",
+          "text": "Nikhil halka sa hansa.",
+          "sourceParagraph": 230
+        },
+        {
+          "type": "text",
+          "text": "Nikhil: “Jab tum kaho.”",
+          "sourceParagraph": 231
+        },
+        {
+          "type": "text",
+          "text": "Dono aur paas aa gaye. Meenakshi ki saans uske seene par regular ho rahi thi. Nikhil ne uske baalon ko dheere se sahlaaya. Koi aur baat nahi hui. Sirf unka weight, unki warmth, aur ek doosre ko pakadne ka familiar ehsaas.",
+          "sourceParagraph": 232
+        },
+        {
+          "type": "heading",
+          "text": "M04A-04.12 — Falling Asleep",
+          "editorialHeading": true
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi ki saans dheere-dheere aur gehri hoti gayi. Uski ungliyan Nikhil ki chaati par ab almost still thi. Nikhil ne uske sir par ek aakhri soft kiss kiya, phir khud bhi aankhein band kar li.",
+          "sourceParagraph": 234
+        },
+        {
+          "type": "text",
+          "text": "Blanket un dono ko cover kiye hue tha. Meenakshi uski baahon mein poori tarah se settle ho chuki thi, ek taang ab bhi uski taang par, sir uske seene par. Nikhil ka haath uski kamar par relaxed tha.",
+          "sourceParagraph": 235
+        },
+        {
+          "type": "text",
+          "text": "Room mein sirf unki regular saansein thi. Door ke bahar ki halki si awaaz bhi ab un tak nahi pahunch rahi thi.",
+          "sourceParagraph": 236
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi ne ek baar halki si hili, phir aur paas chipak gayi. Uski aankhein poori tarah band ho chuki thi. Nikhil ne use thoda aur tightly hold kiya, phir khud bhi neend mein chala gaya.",
+          "sourceParagraph": 237
+        },
+        {
+          "type": "text",
+          "text": "Dono so gaye. Ek doosre ko pakde hue. Blindfold bed ke side mein pada hua tha. Lace teddy abhi bhi Meenakshi ke body par adha khula hua tha. Koi aur movement nahi hui.",
+          "sourceParagraph": 238
+        },
+        {
+          "type": "text",
+          "text": "Subah ka koi scene nahi tha. Sirf yeh raat, yeh warmth, aur unka saath mein so jaana.",
+          "sourceParagraph": 239
         }
       ]
     }
@@ -1111,9 +1286,9 @@
     {
       "url": "https://docs.google.com/document/d/1zcFlF9rWeIzaenBEmatt4K8bw3L-LcH3c_45JwoNM3o/edit?tab=t.eqc1lixgpfbx",
       "tabTitle": "Meenakshi 4A",
-      "revisionId": "AHj4eMSUNjSNSsZ8S2N53nmiO6CsdYRQVWMV157C4zI2ZP71WaPs8CmZfTUCNOSGQ4J-dOwBbDVmj6nIU0DZZeXIKhKI7dE0eQ84cQ7cviA",
+      "revisionId": "AHj4eMQLvnqYg0BjNVUm61dpGQCXAVzVvHuB6BN1kRBPXAiWdDzt70C6dezQ-hAOravXvtytreEqOBrIvnKTRlInDV-BBCqHGhdIP8iNAIE",
       "provenance": "User-directed Google Doc tab, mixed user/GPT/external-writer manuscript; source authorship per paragraph not verified",
-      "publicationScope": "Scene 02, Scene 03, Scene 04 through 04.09 (partial)"
+      "publicationScope": "Scene 02, Scene 03, complete Scene 04 through 04.12"
     }
   ]
 }
