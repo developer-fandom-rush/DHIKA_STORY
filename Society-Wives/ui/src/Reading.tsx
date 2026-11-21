@@ -142,7 +142,7 @@ function Episode03Reading({character,scene}:Props){
 
 type Ep04LeadPublication={
  name:string;source:string;sourceType:string;publicationStatus:string;
- publishedSceneIds:string[];completedPlanSceneIds:string[];pendingPlanSceneIds:string[];publicationScope:string;
+ publishedSceneIds:string[];visibleDraftSceneIds?:string[];completedPlanSceneIds:string[];pendingPlanSceneIds:string[];publicationScope:string;
 };
 type Ep04PublicationIndex={episode:string;leads:Record<string,Ep04LeadPublication>};
 type Ep04ManuscriptIllustration={id:string;afterSourceElementIndex:number;file:string;alt:string;caption:string;display:'inline'|'concept'};
@@ -172,13 +172,13 @@ function Episode04Reading({character,scene}:Props){
  const isScenes=lead?.sourceType==='scene-wise-verbatim-and-author-chat';
  const {data:ankita,loading:ankitaLoading,error:ankitaError}=useData<Ep04AnkitaSource>(isManuscript?lead?.source||null:null);
  const {data:shivani,loading:shivaniLoading,error:shivaniError}=useData<Ep04ShivaniSource>(isScenes?lead?.source||null:null);
- const publishedScenes=(shivani?.scenes||[]).filter(s=>lead?.publishedSceneIds.includes(s.id));
+ const publishedScenes=(shivani?.scenes||[]).filter(s=>lead?.publishedSceneIds.includes(s.id)||lead?.visibleDraftSceneIds?.includes(s.id));
  const selected=publishedScenes.find(s=>s.id===scene)||publishedScenes[0];
  const selectedIndex=publishedScenes.findIndex(s=>s.id===selected?.id);
  const go=(who:string,id?:string)=>openPage('reading',{episode:'04A',character:who,scene:id});
  return <main className="page-width ep04-final-reader" id="episode04a-reader">
   <header className="section-intro"><span className="eyebrow">The Story · 1 January 2026</span><h1>Episode 04A · Read Story</h1>
-   <p>Published manuscript by character. Completed story portions belong here; unfinished scenes remain in Plot Planning.</p>
+   <p>Read published manuscripts or partial drafts by character. In-progress scenes remain in Plot Planning until complete.</p>
   </header>
   <div role="group" aria-label="Choose Episode 04A character" className="perspective-tabs">
    {availableLeads.map(w=><button key={w} type="button" onClick={()=>go(w)} aria-pressed={active===w} className={w===active?'selected':''}>{titleCase(w)}</button>)}
@@ -228,18 +228,18 @@ function Episode04Reading({character,scene}:Props){
    {shivaniLoading&&<p role="status">Loading {titleCase(active)} Episode 04A…</p>}
    {shivaniError&&<p role="alert" className="error">{titleCase(active)} manuscript unavailable: {shivaniError}</p>}
    {shivani&&<div className="reader-layout">
-    <aside className="scene-sidebar"><p className="aside-title">{titleCase(active)} · published scenes</p>
-     {publishedScenes.map(s=><button type="button" key={s.id} aria-pressed={selected?.id===s.id} className={'scene-link'+(selected?.id===s.id?' active':'')} onClick={()=>go(active,s.id)}><span>Scene {s.id}<small className="ep03-scene-name">{s.title}</small></span></button>)}
+    <aside className="scene-sidebar"><p className="aside-title">{titleCase(active)} · reader scenes</p>
+     {publishedScenes.map(s=><button type="button" key={s.id} aria-pressed={selected?.id===s.id} className={'scene-link'+(selected?.id===s.id?' active':'')} onClick={()=>go(active,s.id)}><span>Scene {s.id}{lead?.visibleDraftSceneIds?.includes(s.id)?' · DRAFT':''}<small className="ep03-scene-name">{s.title}</small></span></button>)}
      <button type="button" className="button subtle" onClick={()=>openPage('planning',{lead:active,part:'A'})}>Remaining scenes · Planning →</button>
     </aside>
     <article className="reading-surface source-scene prose-exact">
      {selected&&<>
-      <div className="story-toolbar"><span>{titleCase(active)} · Scene {selected.id} of {publishedScenes.length}</span></div>
+      <div className="story-toolbar"><span>{titleCase(active)} · Scene {selected.id} of {publishedScenes.length}{lead?.visibleDraftSceneIds?.includes(selected.id)?' · PARTIAL WORKING DRAFT — NOT COMPLETE':''}</span></div>
       <h2>{selected.title}</h2>
       {selected.blocks.map((block,i)=>block.type==='heading'
        ?<h3 key={i} className="ep03-beat-heading" style={{marginTop:'24px'}}>{block.text}</h3>
        :block.type==='text'
-        ?<p key={i} className={block.style?.startsWith('HEADING')?'ep03-beat-heading':'ep03-paragraph'} style={{whiteSpace:'pre-wrap',overflowWrap:'anywhere'}}>{block.text}</p>
+        ?<p key={i} className={block.style?.startsWith('HEADING')?'ep03-beat-heading':'ep03-paragraph'} style={{whiteSpace:'pre-wrap',overflowWrap:'anywhere'}}>{storyInline(block.text||'')}</p>
         :block.type==='image'&&block.src
          ?<figure key={i} className="ep04-scene-illustration" style={{margin:'18px auto 26px',maxWidth:'850px'}}>
            <a href={assetUrl(block.src)} target="_blank" rel="noreferrer" aria-label="Open scene illustration in full size">
