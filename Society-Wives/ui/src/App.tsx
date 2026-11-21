@@ -2,9 +2,10 @@ import { useEffect, useState } from 'react';
 import { HOME, openPage, useRoute } from './lib';
 import Reading from './Reading';
 import Planning from './Planning';
+import FutureReference from './FutureReference';
 import GlobalTimeline from './GlobalTimeline';
 import DhikaReader from './DhikaReader';
-const swNavigation=[['reading','Read Story'],['planning','Episode 04 Plot']] as const;
+const swNavigation=[['reading','Read Story'],['planning','Episode 04 Plot'],['future-reference','Future Reference']] as const;
 const dhikaNavigation=[['dhika-timeline','Timeline'],['dhika-reader','Original Reader']] as const;
 export default function App(){
  const {page,params}=useRoute();
@@ -14,7 +15,7 @@ export default function App(){
  useEffect(()=>{if(queryDate&&(/^2026-\d{2}-\d{2}$/.test(queryDate)||queryDate==='pending'))setDate(queryDate)},[queryDate]);
  useEffect(()=>{document.title=(isDhika?'Dhika':'Society Wives')+' — '+(page==='planning'?'Episode 04 Planning':'Story');window.scrollTo({top:0,behavior:'instant'});},[page,isDhika]);
  useEffect(()=>{if(['home','gallery','characters','timeline'].includes(page))openPage('reading',{episode:'01'})},[page]);
- const valid=page==='reading'||page==='planning'||page==='dhika-timeline'||page==='dhika-reader'||['home','gallery','characters','timeline'].includes(page);
+ const valid=page==='reading'||page==='planning'||page==='future-reference'||page==='dhika-timeline'||page==='dhika-reader'||['home','gallery','characters','timeline'].includes(page);
  return <div className="universe-shell">
   <aside className="universe-sidebar" aria-label="Story universe switcher">
    <div className="universe-sidebar-heading"><span className="universe-monogram">S</span><span>STORY UNIVERSES</span></div>
@@ -30,6 +31,7 @@ export default function App(){
    </div></header>
    {page==='reading'&&<Reading character={params.get('character')||'ankita'} scene={params.get('scene')} episode={params.get('episode')}/>}
    {page==='planning'&&<Planning lead={params.get('lead')||'ankita'} part={params.get('part')||'A'}/>}
+   {page==='future-reference'&&<FutureReference/>}
    {page==='dhika-timeline'&&<GlobalTimeline universe="dhika" date={date} onDateChange={d=>{setDate(d);openPage('dhika-timeline',{date:d})}}/>}
    {page==='dhika-reader'&&<DhikaReader episode={params.get('episode')} paragraph={params.get('paragraph')}/>}
    {!valid&&<main className="page-width"><h1>Page not found</h1><button type="button" className="button primary" onClick={()=>openPage('reading',{episode:'01'})}>Read Story</button></main>}
