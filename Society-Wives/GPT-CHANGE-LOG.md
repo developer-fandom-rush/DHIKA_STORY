@@ -23,6 +23,14 @@ Use the exact label **Changed by GPT** in the Git commit message AND add a dated
 
 ## Entries
 
+### 2026-11-21 — Changed by GPT — Correct slow-burn rationale for Shivani Scene 04
+- **Changed:** `Society-Wives/episode-04a-shivani-decision-reference.json`, `Society-Wives/future-ideas.json`.
+- **Author clarification:** The cut after B04 was intentional to avoid over-escalating Shivani's *first* encounter with Karan and Aman. The originally proposed stronger breast touch/squeeze, buttock touching and slap ideas are reserved as future **categories**, not scheduled scenes. Previous mild contact can become familiar as relationships develop, allowing later changes to have impact.
+- **Critical distinction:** B04's already-published chest contact remains unchanged and distinct from an unexecuted breast squeeze. B05–B07-related categories are future-intended; B08/B09 other historical ledger proposals are not approved or automatically assigned to the future. Consent and actor details need separate story decisions at the time.
+- **No prose modifications:** UI source notes/ledger corrected only. Published Scene 04 remains B01–B04 → apology → entry. Earlier 01–03 frozen prose unchanged.
+- **Commits:** decision ledger `83c6292be939ddac255958f41d78b67ae8b679ea`; future-ideas ledger `7b2fd64cf3602172f6a78c910ff2a7731861a06d`.
+
+
 ### 2026-11-21 — Changed by GPT — Future Reference split into six labeled character tabs
 - **Changed paths:** `Society-Wives/ui/src/FutureReference.tsx`, `Society-Wives/ui/src/App.tsx`, `Society-Wives/ui/src/Planning.tsx`.
 - **Author request:** Display Future Reference by woman, like Plot Planning and Read Story, and distinguish saved entries from missing ones.
