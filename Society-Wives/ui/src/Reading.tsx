@@ -1,3 +1,4 @@
+import { Fragment } from 'react';
 import DOMPurify from 'dompurify';
 import { Archive, assetUrl, episodePath, peopleOrder, openPage, titleCase, useData } from './lib';
 import Home from './Home';
@@ -164,6 +165,28 @@ const ep04AnkitaImages:Record<number,{file:string;alt:string}>={
  42:{file:'a03-water-burst.jpg',alt:'A03 — Water burst'},
  66:{file:'a04-silent-exit.jpg',alt:'A04 — Rinku leaves'}
 };
+const meenakshiIncorrectImages=[
+ {file:'incorrect-blindfold-01.png',caption:'Incorrect output 01 — black lace costume, no blindfold worn'},
+ {file:'incorrect-blindfold-02.png',caption:'Incorrect output 02 — altered character appearance, no blindfold worn'},
+ {file:'incorrect-blindfold-03.png',caption:'Incorrect output 03 — blindfold on the dressing table'},
+ {file:'incorrect-blindfold-04.png',caption:'Incorrect output 04 — blindfold worn, incorrect character likeness'}
+] as const;
+function MeenakshiIncorrectImageEvidence(){
+ return <section id="meenakshi-04a-04-incorrect-image-evidence" aria-label="Four incorrect generated image outputs" className="episode-plan-card" style={{margin:'20px 0 30px',padding:'18px'}}>
+  <h3 style={{margin:'0 0 8px'}}>Dress reveal · Incorrect generated visuals (4)</h3>
+  <p className="muted" style={{margin:'0 0 16px'}}>Evidence of earlier image-generation attempts. These four original images are incorrect, not approved Meenakshi likeness or canonical illustrations. Story text is preserved unchanged.</p>
+  <div style={{display:'grid',gridTemplateColumns:'repeat(auto-fit,minmax(210px,1fr))',gap:'14px'}}>
+   {meenakshiIncorrectImages.map((item,i)=><figure key={item.file} style={{margin:0}}>
+    <a href={assetUrl('evidence/'+item.file)} target="_blank" rel="noreferrer" aria-label={'Open original incorrect generated image '+(i+1)}>
+     <img loading="lazy" src={assetUrl('evidence/'+item.file)} alt={item.caption} style={{width:'100%',height:'auto',display:'block',borderRadius:'10px'}}/>
+    </a>
+    <figcaption className="muted" style={{marginTop:'7px',fontSize:'12px'}}>{item.caption}</figcaption>
+   </figure>)}
+  </div>
+  <p className="muted" style={{fontSize:'12px',marginBottom:0}}>Original PNGs and verification hashes: <a href={assetUrl('evidence/incorrect-blindfold-outputs.html')} target="_blank" rel="noreferrer">Evidence archive</a>.</p>
+ </section>;
+}
+
 function Episode04Reading({character,scene}:Props){
  const {data:publication,loading:publicationLoading,error:publicationError}=useData<Ep04PublicationIndex>('episode-04a-publication-index.json');
  const availableLeads=publication?Object.keys(publication.leads):['ankita','shivani'];
@@ -252,7 +275,7 @@ function Episode04Reading({character,scene}:Props){
       {selected.blocks.map((block,i)=>block.type==='heading'
        ?<h3 key={i} className="ep03-beat-heading" style={{marginTop:'24px'}}>{block.text}</h3>
        :block.type==='text'
-        ?<p key={i} className={block.style?.startsWith('HEADING')?'ep03-beat-heading':'ep03-paragraph'} style={{whiteSpace:'pre-wrap',overflowWrap:'anywhere'}}>{storyInline(block.text||'')}</p>
+        ?<Fragment key={i}><p className={block.style?.startsWith('HEADING')?'ep03-beat-heading':'ep03-paragraph'} style={{whiteSpace:'pre-wrap',overflowWrap:'anywhere'}}>{storyInline(block.text||'')}</p>{active==='meenakshi'&&selected.id==='04'&&i===53&&<MeenakshiIncorrectImageEvidence/>}</Fragment>
         :block.type==='image'&&block.src
          ?<figure key={i} className="ep04-scene-illustration" style={{margin:'18px auto 26px',maxWidth:'850px'}}>
            <a href={assetUrl(block.src)} target="_blank" rel="noreferrer" aria-label="Open scene illustration in full size">
