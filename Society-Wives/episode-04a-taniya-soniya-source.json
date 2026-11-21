@@ -13,9 +13,11 @@
     "characterKnowledge": "Rahul's earlier unobserved incident remains reader-only. Taniya does not know what Guddu saw during the wardrobe shift.",
     "wardrobe": "Taniya remains in her sky-blue office shirt and charcoal trousers until she returns from the service bay. The uploaded burgundy festive photograph is a FACE reference, not her night-time outfit.",
     "image": "Scene 02 approved moment preview stored in GitHub as a WebP thumbnail at assets/episode-04a-taniya/taniya-guddu-service-bay.webp. Derived from generated original, downscaled for the UI; the original high-resolution image remains in conversation.",
-    "nextScene": "Scene 03 closes with a single sentence and is complete in reader; Scenes 04–05 remain in active plot. Scene 04 now sets up a future temporary absence of Soniya and Rahul with Taniya minding the home. No dates/reason assigned. Scene 05 follows Taniya's imagination.",
+    "nextScene": "Scenes 01–03 complete in Read Story (author-supplied passages unchanged). Scene 04: Soniya leads Taniya–Aditya wedding preparations and will go away from the flat with Rahul for that work, leaving Taniya caring for home. Exact destination/departure/duration/return UNKNOWN. Scene 05: Taniya's imagination.",
     "scene03": "Two doorway incidents are complete; Soniya and Guddu passage and Rahul and Taniya passage remain word-for-word author supplied. No Vivek disclosure continuation.",
-    "futureDirection": "Soniya and Rahul will eventually be away, leaving Taniya in charge of the flat for an unspecified period. Soniya has Sharmi-inspired playful temperament; Rahul has Raj-inspired reserved temperament upon future return. These are character analogies, not exact event imports. Reason and date unspecified."
+    "futureDirection": "PERMANENT CHARACTER LOCK: SONIYA IS TO ACT LIKE SHARMI from the original Dhika story — outspoken, bold, vivacious, mischievous, teasing, confident and proactive in future Society Wives scenes. This is about her sustained voice and behavioral role, without copying Sharmi's biography/events. Rahul is the Raj-like relatively polite/reserved counterpart on future return. Soniya takes responsibility for wedding preparations; she and Rahul will be away for the preparations while Taniya cares for the home. Timing/destination unknown.",
+    "weddingPreparationOwner": "Soniya (author-confirmed); Taniya is the flat caretaker during Soniya/Rahul absence, not wedding-preparation lead.",
+    "characterVoiceLock": "2026-11-21 permanent author instruction: Soniya acts like Sharmi in Society Wives, not a one-off scene styling choice."
   },
   "scenes": [
     {
