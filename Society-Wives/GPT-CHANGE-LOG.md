@@ -262,3 +262,11 @@ Use the exact label **Changed by GPT** in the Git commit message AND add a dated
 - Added Reader Scene `03 / SHR04A-SC09-NIGHT-CLOSURE` after completed Scenes 01 and 02. Current existing Reader code renders any added sceneIndex entries without further change.
 - Updated the Shreya publication index, Planning completed summary and Future Reference continuity. Older superseded Scene 03/04 plan entries are still archived, not confused with the new Reader scene.
 - No new images. Author requested saving, not a final freeze.
+
+## 2026-11-21 — Taniya/Soniya 04A new direction: cancel couple disclosure continuation; future house handover
+
+- Author cancels the planned Scene 04 Rahul–Soniya follow-up disclosure and requests instead that the two eventually leave the shared flat in Taniya's care for an unspecified period. No reason, destination, departure date, duration or return date approved. The earlier frozen Episode 03 line that Soniya begins a conversation is untouched; it must not generate a new detailed disclosure scene.
+- Scene 03 is complete with exactly one neutral closing line. Original user-supplied Soniya/Guddu and Rahul/Taniya passages are preserved verbatim in the reader; two obsolete GPT-authored disclosure-expansion sentences were removed. Scene 03 is marked complete in publication index and removed physically from active Plot Planning. Scene 04 and 05 remain active.
+- Author requests Soniya to take inspiration from Sharmi's outgoing, mischievous social energy and Rahul from Raj's reserved/polite dynamic upon future return. The source characterization was checked against the connected 'Dhika — Complete Episode Archive (Tabs)' around the Sharmi introduction and the Sharmi/Raj material. Analogies are not permission to import Dhika events or assign a return time.
+- Scene 04's new plot is a short temporary-absence setup and same-night household close. Scene 05's focus is Taniya's imagination/doorway replay and waking distinction; already-saved Scene 03 Rahul apology is factual and stays unchanged. No prose is approved for Scenes 04–05 yet.
+- GitHub: plot, reader, and publication index updated; live deployment may lag individual commits. No other characters' scenes touched.
