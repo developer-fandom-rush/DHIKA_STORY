@@ -208,3 +208,8 @@ Use the exact label **Changed by GPT** in the Git commit message AND add a dated
 - **Open:** Arvind's exact door-entry motive; remaining SC07/SC08; author approval of final continuous prose. No direct Grok connector was available.
 - **Unaffected:** Frozen EP02/03, approved reader text, other leads, existing 04A plot JSON and status labels.
 - **Commits:** JSON 721169928b9d2ef6adf280d10b4cbe585d5e7bbd; UI 3981374ccf4401a88c8424893dcdadb386d64679. Live deployment not yet verified.
+
+### 2026-11-21 — Changed by GPT — Link current Shreya Episode 04A manuscript
+- Author requested the Shreya tab from the Episode 4A Google Doc in the 04A UI. Connector verified tab `t.90gza05r7hjd`, title `SHREYA EP-04A`.
+- Edited `Society-Wives/ui/src/Planning.tsx`: added a Shreya-only, Part A current manuscript link to the exact original tab. Earlier Scene 02 Part 1 remains in a collapsed archive. No manuscript text was copied or rewritten; no document sharing settings, reader approval status, frozen episodes, or images changed.
+- Attribution: author-supplied source link; GPT UI integration only. Commit `2a41caa6c66f961c46e915cb1ad9394d79bf2c5b`. Deployment verification pending.
