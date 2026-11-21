@@ -1,5 +1,5 @@
 import DOMPurify from 'dompurify';
-import { Archive, episodePath, peopleOrder, openPage, titleCase, useData } from './lib';
+import { Archive, assetUrl, episodePath, peopleOrder, openPage, titleCase, useData } from './lib';
 import Home from './Home';
 import EpisodeSelector from './EpisodeSelector';
 type Props={character:string;scene:string|null;episode?:string|null};
@@ -139,7 +139,92 @@ function Episode03Reading({character,scene}:Props){
   </div>}
  </main>;
 }
+
+type Ep04LeadPublication={
+ name:string;source:string;sourceType:string;publicationStatus:string;
+ publishedSceneIds:string[];completedPlanSceneIds:string[];pendingPlanSceneIds:string[];publicationScope:string;
+};
+type Ep04PublicationIndex={episode:string;leads:Record<string,Ep04LeadPublication>};
+type Ep04AnkitaSource={
+ source:{url:string;tabTitle:string;title:string};
+ content:{sourceElementIndex:number;text:string;imageObjectIds:string[]}[];
+};
+type Ep04ShivaniBlock={type:'text'|'heading'|'sourceImageReference';text?:string;style?:string;sourceParagraph?:number;inlineObjectId?:string;chatBeatId?:string};
+type Ep04ShivaniScene={id:string;title:string;blocks:Ep04ShivaniBlock[]};
+type Ep04ShivaniSource={source:{url:string;tabTitle:string;title:string};scenes:Ep04ShivaniScene[];savedSceneCount:number};
+const ep04AnkitaImages:Record<number,{file:string;alt:string}>={
+ 12:{file:'a01-doorway-storyboard.jpg',alt:'A01 — Doorway encounter'},
+ 29:{file:'a02-filter-inspection.jpg',alt:'A02 — Water-filter inspection'},
+ 42:{file:'a03-water-burst.jpg',alt:'A03 — Water burst'},
+ 66:{file:'a04-silent-exit.jpg',alt:'A04 — Rinku leaves'}
+};
+function Episode04Reading({character,scene}:Props){
+ const {data:publication,loading:publicationLoading,error:publicationError}=useData<Ep04PublicationIndex>('episode-04a-publication-index.json');
+ const active=character==='shivani'?'shivani':'ankita';
+ const lead=publication?.leads[active];
+ const {data:ankita,loading:ankitaLoading,error:ankitaError}=useData<Ep04AnkitaSource>(active==='ankita'?lead?.source||null:null);
+ const {data:shivani,loading:shivaniLoading,error:shivaniError}=useData<Ep04ShivaniSource>(active==='shivani'?lead?.source||null:null);
+ const publishedScenes=(shivani?.scenes||[]).filter(s=>lead?.publishedSceneIds.includes(s.id));
+ const selected=publishedScenes.find(s=>s.id===scene)||publishedScenes[0];
+ const selectedIndex=publishedScenes.findIndex(s=>s.id===selected?.id);
+ const go=(who:string,id?:string)=>openPage('reading',{episode:'04A',character:who,scene:id});
+ return <main className="page-width ep04-final-reader" id="episode04a-reader">
+  <header className="section-intro"><span className="eyebrow">The Story · 1 January 2026</span><h1>Episode 04A · Read Story</h1>
+   <p>Published manuscript by character. Completed story portions belong here; unfinished scenes remain in Plot Planning.</p>
+  </header>
+  <div role="group" aria-label="Choose Episode 04A character" className="perspective-tabs">
+   {['ankita','shivani'].map(w=><button key={w} type="button" onClick={()=>go(w)} aria-pressed={active===w} className={w===active?'selected':''}>{titleCase(w)}</button>)}
+  </div>
+  {publicationLoading&&<p role="status">Loading publication index…</p>}
+  {publicationError&&<p role="alert" className="error">Publication index unavailable: {publicationError}</p>}
+  {lead&&<p className="source-note"><strong>{lead.name} · Published in Read Story.</strong> {active==='shivani'?'Scenes 01–04 through the corridor exit. Later home scenes remain in planning.':'The author-provided Episode 04A manuscript, preserved as supplied.'}</p>}
+  {active==='ankita'&&<>
+   {ankitaLoading&&<p role="status">Loading Ankita Episode 04A…</p>}
+   {ankitaError&&<p role="alert" className="error">Ankita manuscript unavailable: {ankitaError}</p>}
+   {ankita&&<article className="reading-surface source-scene prose-exact" id="ep04a-ankita-manuscript" style={{maxWidth:'850px',margin:'0 auto'}}>
+    <h2>Ankita · Episode 04A</h2>
+    {ankita.content.map(entry=>{
+     const text=entry.text.replace(/\u000b/g,'\n'),image=ep04AnkitaImages[entry.sourceElementIndex];
+     return <div key={entry.sourceElementIndex}>
+      {text.trim()&&<p className="ep03-paragraph" style={{whiteSpace:'pre-wrap',overflowWrap:'anywhere'}}>{text}</p>}
+      {image&&<figure style={{margin:'24px auto 30px',maxWidth:'640px'}}>
+       <img loading="lazy" style={{width:'100%',height:'auto',borderRadius:'10px'}} src={assetUrl('assets/episode-04a-ankita/'+image.file)} alt={image.alt}/>
+       <figcaption className="muted">{image.alt}</figcaption>
+      </figure>}
+     </div>;
+    })}
+   </article>}
+  </>}
+  {active==='shivani'&&<>
+   {shivaniLoading&&<p role="status">Loading Shivani Episode 04A…</p>}
+   {shivaniError&&<p role="alert" className="error">Shivani manuscript unavailable: {shivaniError}</p>}
+   {shivani&&<div className="reader-layout">
+    <aside className="scene-sidebar"><p className="aside-title">Shivani · published scenes</p>
+     {publishedScenes.map(s=><button type="button" key={s.id} aria-pressed={selected?.id===s.id} className={'scene-link'+(selected?.id===s.id?' active':'')} onClick={()=>go('shivani',s.id)}><span>Scene {s.id}<small className="ep03-scene-name">{s.title}</small></span></button>)}
+     <button type="button" className="button subtle" onClick={()=>openPage('planning',{lead:'shivani',part:'A'})}>Remaining scenes · Planning →</button>
+    </aside>
+    <article className="reading-surface source-scene prose-exact">
+     {selected&&<>
+      <div className="story-toolbar"><span>Shivani · Scene {selected.id} of {publishedScenes.length}</span></div>
+      <h2>{selected.title}</h2>
+      {selected.blocks.map((block,i)=>block.type==='heading'
+       ?<h3 key={i} className="ep03-beat-heading" style={{marginTop:'24px'}}>{block.text}</h3>
+       :block.type==='text'
+        ?<p key={i} className={block.style?.startsWith('HEADING')?'ep03-beat-heading':'ep03-paragraph'} style={{whiteSpace:'pre-wrap',overflowWrap:'anywhere'}}>{block.text}</p>
+        :null)}
+      <div className="chapter-controls">
+       <button type="button" className="button subtle" disabled={selectedIndex<=0} onClick={()=>go('shivani',publishedScenes[selectedIndex-1]?.id)}>← Previous scene</button>
+       <span>Scene {selectedIndex+1} of {publishedScenes.length}</span>
+       <button type="button" className="button primary" disabled={selectedIndex>=publishedScenes.length-1} onClick={()=>go('shivani',publishedScenes[selectedIndex+1]?.id)}>Next scene →</button>
+      </div>
+     </>}
+    </article>
+   </div>}
+  </>}
+ </main>;
+}
+
 export default function Reading(props:Props){
- const episode=['01','02','03'].includes(props.episode||'') ? props.episode! : '01';
- return <><EpisodeSelector episode={episode}/>{episode==='01'?<Home scene={props.scene}/>:episode==='03'?<Episode03Reading {...props}/>:<Episode02Reading {...props}/>}</>;
+ const episode=(props.episode==='04A'||props.episode==='04')?'04A':['01','02','03'].includes(props.episode||'') ? props.episode! : '01';
+ return <><EpisodeSelector episode={episode}/>{episode==='01'?<Home scene={props.scene}/>:episode==='03'?<Episode03Reading {...props}/>:episode==='04A'?<Episode04Reading {...props}/>:<Episode02Reading {...props}/>}</>;
 }
