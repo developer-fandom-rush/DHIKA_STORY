@@ -23,6 +23,15 @@ Use the exact label **Changed by GPT** in the Git commit message AND add a dated
 
 ## Entries
 
+### 2026-11-21 — Changed by GPT — Future Reference split into six labeled character tabs
+- **Changed paths:** `Society-Wives/ui/src/FutureReference.tsx`, `Society-Wives/ui/src/App.tsx`, `Society-Wives/ui/src/Planning.tsx`.
+- **Author request:** Display Future Reference by woman, like Plot Planning and Read Story, and distinguish saved entries from missing ones.
+- **UI:** Ankita, Shivani, Taniya, Soniya, Meenakshi and Shreya now have separate tabs with a count of saved future ideas. Their selections use `#/future-reference?lead=<character>`. Planning opens the matching woman's tab. Shivani's scene-04 decision ledger only displays on Shivani's tab.
+- **Source and accuracy:** The structured `future-ideas.json` currently holds **3 explicit ideas** (Ankita 1; Shivani 2; all others 0). An additional Shivani Scene 04 decision record contains saved continuity and current-vs-deferred discussion. Zero entries appear as `No specific Future Reference entries saved`, not invented content. No claim is made that every potential future hook in all historic plan files was migrated.
+- **Unchanged:** Episodes 01–03, published Episode 04A prose, and Google Drive sources. No new idea is automatically canon.
+- **Git commits:** character tab source `e16d60e350d906a76cc33a62e93d9b000b91fb1e`; main route `31a28e9864b382792c29e7cd9f959d5ae7d57268`; Planning route `cffad1addd17511257e5d37f9d79d03ce3397d30`.
+
+
 ### 2026-11-21 — Changed by GPT — Future Reference moved into main Society Wives UI
 - **Affected paths:** `Society-Wives/episode-04a-shivani-decision-reference.json` (new); `Society-Wives/ui/src/FutureReference.tsx` (new); `Society-Wives/ui/src/App.tsx`; `Society-Wives/ui/src/Planning.tsx`; `Society-Wives/future-ideas.html` (legacy redirect).
 - **Author direction:** Save all agreed current-vs-future decisions in the **main UI**, clearly separated from current published story and unfinished planning.
