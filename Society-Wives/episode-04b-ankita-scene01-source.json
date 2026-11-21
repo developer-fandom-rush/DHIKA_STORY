@@ -216,8 +216,9 @@
       "afterSection": "B01",
       "beforeSection": "B02",
       "location": "After 03:20 AM and before morning wake-up",
-      "assetPath": null,
-      "status": "ORIGINAL_BYTES_NOT_UPLOADED__EXPORT_403"
+      "assetPath": "assets/episode-04b-ankita/scene01-original-01.png",
+      "status": "ORIGINAL_EXPORTED_IMAGE_STORED_IN_DRIVE_AND_GITHUB",
+      "driveFileUrl": "https://drive.google.com/file/d/1RgTvNwVDaa-DppIDoMaT7Q4rhlnFmOWR/view"
     },
     {
       "order": 2,
@@ -226,8 +227,9 @@
       "afterSection": "B05",
       "beforeSection": "B06",
       "location": "Immediately before B06 heading",
-      "assetPath": null,
-      "status": "ORIGINAL_BYTES_NOT_UPLOADED__EXPORT_403"
+      "assetPath": "assets/episode-04b-ankita/scene01-original-02.png",
+      "status": "ORIGINAL_EXPORTED_IMAGE_STORED_IN_DRIVE_AND_GITHUB",
+      "driveFileUrl": "https://drive.google.com/file/d/1RIWJuB73z_rnEFxYOv3H-cWXNShH6Cqp/view"
     },
     {
       "order": 3,
@@ -236,8 +238,9 @@
       "afterSection": "B06",
       "beforeSection": null,
       "location": "After final B06 paragraph, Scene 01 end",
-      "assetPath": null,
-      "status": "ORIGINAL_BYTES_NOT_UPLOADED__EXPORT_403"
+      "assetPath": "assets/episode-04b-ankita/scene01-original-03.png",
+      "status": "ORIGINAL_EXPORTED_IMAGE_STORED_IN_DRIVE_AND_GITHUB",
+      "driveFileUrl": "https://drive.google.com/file/d/1DBcTE7zYfpKQMU7NSFH2ZPyg067I_IJv/view"
     }
   ],
   "imageTransferAudit": {
@@ -245,33 +248,40 @@
     "sourceTabId": "t.ouch4dqht9mi",
     "sourceTabTitle": "ANKITA_4B",
     "totalOriginalImages": 3,
-    "sourceDocumentExport": "BLOCKED_GOOGLE_DRIVE_EXPORT_403",
-    "readerStatus": "DIRECT_GOOGLE_DOC_SOURCE_URLS_REFERENCED__PUBLIC_IMAGE_ACCESS_NOT_VERIFIED",
+    "sourceDocumentExport": "SUCCESS_AFTER_TEMP_COPY_TAB_ISOLATION",
+    "readerStatus": "THREE_ORIGINAL_PNG_ASSETS_VERIFIED_IN_REPOSITORY",
     "preserveProseVerbatim": true,
-    "assetPolicy": "Direct refs used as requested; transient Google-managed contentUri may expire; source Document link remains fallback",
-    "updatedAt": "2026-11-21"
+    "assetPolicy": "GitHub-hosted original PNG assets for public reader; Drive retains separate archival copies",
+    "updatedAt": "2026-11-21",
+    "driveArchiveFolder": "https://drive.google.com/drive/folders/1nF0NrIdeLimXshiW05P1DaDzMzqM6BTE"
   },
   "externalOriginalImages": [
     {
       "order": 1,
       "inlineObjectId": "kix.diltrnniraat",
       "afterSection": "B01",
-      "externalSrc": "https://docs.google.com/docs-images-rt/AIpPl2AJphkY93o0TL2iTtypflEuyHoySbRrH3HZU_LXW3hKX6uvYPYW-Fv8Z7eRTt6Ah-K_ItmcEGN0aH2jAYuh_Je415CRALEDLnjIoVXkn1K55ETGytLsBeDd37leID6mrD-ikKWKDHrmzHb8wCpGy2lIDW5zD8a_yo_cvEdWoEXG5l4BTbw=s2048?key=KR3xZL-1IVYhNKGomYObdw",
-      "sourceDocUrl": "https://docs.google.com/document/d/1zcFlF9rWeIzaenBEmatt4K8bw3L-LcH3c_45JwoNM3o/edit?tab=t.ouch4dqht9mi"
+      "sourceDocUrl": "https://docs.google.com/document/d/1zcFlF9rWeIzaenBEmatt4K8bw3L-LcH3c_45JwoNM3o/edit?tab=t.ouch4dqht9mi",
+      "assetPath": "assets/episode-04b-ankita/scene01-original-01.png",
+      "driveFileUrl": "https://drive.google.com/file/d/1RgTvNwVDaa-DppIDoMaT7Q4rhlnFmOWR/view",
+      "sha256": "cd0d3252c07ba4dba0786f3fae6a18880042687713b8c96c5f39b430a56ccc1d"
     },
     {
       "order": 2,
       "inlineObjectId": "kix.ic86fwgob7bf",
       "afterSection": "B05",
-      "externalSrc": "https://docs.google.com/docs-images-rt/AIpPl2CuIFZ3oFNIWxEnbqaJDy_MqVyIDR5Mah7ECxlvi411wUCrdvtMAzBRO7Qb89yLeYjwLt4wNO5JrjDGpvjRYxJC7AmevtiihZKIIQRuDoduJKRjPAAYzQ_0ah4V81uCwvgPvVXtfiC_8LUr7ivpXregnHbx0vzw2fGCPVE6NYQrHrHDGQY=s2048?key=KR3xZL-1IVYhNKGomYObdw",
-      "sourceDocUrl": "https://docs.google.com/document/d/1zcFlF9rWeIzaenBEmatt4K8bw3L-LcH3c_45JwoNM3o/edit?tab=t.ouch4dqht9mi"
+      "sourceDocUrl": "https://docs.google.com/document/d/1zcFlF9rWeIzaenBEmatt4K8bw3L-LcH3c_45JwoNM3o/edit?tab=t.ouch4dqht9mi",
+      "assetPath": "assets/episode-04b-ankita/scene01-original-02.png",
+      "driveFileUrl": "https://drive.google.com/file/d/1RIWJuB73z_rnEFxYOv3H-cWXNShH6Cqp/view",
+      "sha256": "14c1e1985c8ab31270f11e8f73c18e139649bd5d019f3af5a268e089b70235ea"
     },
     {
       "order": 3,
       "inlineObjectId": "kix.c58hgye1ihp5",
       "afterSection": "B06",
-      "externalSrc": "https://docs.google.com/docs-images-rt/AIpPl2DfLCJMB2T8myBPzrhheh2SBdgjZMKvUSHkxEVEBiEzPsv6_qZhoHQvg5qCx5I61OEE9gdYe2Z3q98P93csU-UHj9xozBXY-SC_YbR23HvkVAL5ClILk0ERPpcM-8nOe-VD3qPPsE3cFOlgho4L9ecv9NlDE-659zG1dGxWwNq5NoM0=s2048?key=KR3xZL-1IVYhNKGomYObdw",
-      "sourceDocUrl": "https://docs.google.com/document/d/1zcFlF9rWeIzaenBEmatt4K8bw3L-LcH3c_45JwoNM3o/edit?tab=t.ouch4dqht9mi"
+      "sourceDocUrl": "https://docs.google.com/document/d/1zcFlF9rWeIzaenBEmatt4K8bw3L-LcH3c_45JwoNM3o/edit?tab=t.ouch4dqht9mi",
+      "assetPath": "assets/episode-04b-ankita/scene01-original-03.png",
+      "driveFileUrl": "https://drive.google.com/file/d/1DBcTE7zYfpKQMU7NSFH2ZPyg067I_IJv/view",
+      "sha256": "da2f39013f271f1f769acf6010edbeeeb553cfa0e156b0d867dd66d6919bb6c7"
     }
   ]
 }

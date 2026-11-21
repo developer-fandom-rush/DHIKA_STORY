@@ -294,16 +294,17 @@ function Episode04Reading({character,scene}:Props){
 
 
 type Ep04BSection={id:string;title:string;time:string;paragraphs:string[]};
-type Ep04BOriginalImageData={order:number;inlineObjectId:string;afterSection:string;externalSrc:string;sourceDocUrl:string};
+type Ep04BOriginalImageData={order:number;inlineObjectId:string;afterSection:string;assetPath:string;sourceDocUrl:string;driveFileUrl?:string};
 type Ep04BSource={title:string;status:string;sections:Ep04BSection[];externalOriginalImages?:Ep04BOriginalImageData[]};
 
 function Ep04BOriginalImage({item}:{item:Ep04BOriginalImageData}){
  const [failed,setFailed]=useState(false);
+ const imageSrc=assetUrl(item.assetPath);
  return <figure className="ep04-scene-illustration" data-image-order={item.order} data-source-object={item.inlineObjectId} style={{margin:'20px auto 28px',maxWidth:'640px'}}>
   {failed
     ?<a href={item.sourceDocUrl} target="_blank" rel="noreferrer">View original image {item.order} in the Ankita 4B Google Doc</a>
-    :<a href={item.sourceDocUrl} target="_blank" rel="noreferrer" aria-label={'Open original document for Ankita 4B image '+item.order}>
-      <img loading="lazy" src={item.externalSrc} alt={'Original Ankita EP04B illustration '+item.order} onError={()=>setFailed(true)}
+    :<a href={imageSrc} target="_blank" rel="noreferrer" aria-label={'Open original Ankita 4B image '+item.order}>
+      <img loading="lazy" src={imageSrc} alt={'Original Ankita EP04B illustration '+item.order} onError={()=>setFailed(true)}
        style={{width:'100%',height:'auto',borderRadius:'10px',display:'block'}}/>
      </a>}
  </figure>;
