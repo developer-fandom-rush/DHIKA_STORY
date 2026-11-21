@@ -167,11 +167,17 @@ export default function Planning({lead='ankita',part='A'}:{lead?:string;part?:st
    <p className="muted">For a separately authored missing passage, keep a stable insertion ID and exact placeholder location; this UI does not contact Grok. Full standard: <a href="https://github.com/developer-fandom-rush/DHIKA_STORY/blob/main/Society-Wives/WRITING-COLLABORATION-PROTOCOL.md" target="_blank" rel="noreferrer">Writing Collaboration Protocol §2B</a>.</p>
   </section>
 
+  {active==='shreya'&&selectedPart==='A'&&<section className="episode-plan-card" id="shreya-04a-author-manuscript">
+   <h2>Shreya · Episode 04A — Current manuscript</h2>
+   <p className="muted">Author-supplied Google Docs tab · SHREYA EP-04A</p>
+   <p><a className="button primary" href="https://docs.google.com/document/d/1zcFlF9rWeIzaenBEmatt4K8bw3L-LcH3c_45JwoNM3o/edit?tab=t.90gza05r7hjd" target="_blank" rel="noopener noreferrer">Open Shreya Episode 04A manuscript</a></p>
+   <p className="muted">Opens the exact Shreya tab in its original document. Document access remains subject to its existing sharing settings. Earlier working material is retained below as an archive.</p>
+  </section>}
   {active==='shreya'&&selectedPart==='A'&&<section className="episode-plan-card" id="shreya-scene02-part1-draft">
-   <h2>Shreya · Scene 02 · Part 1 — Working Draft</h2>
+   <h2>Shreya · Scene 02 · Part 1 — Earlier Draft Archive</h2>
    <p className="muted">18:07–18:29 · SC05 / SC06.1 / SC06.2 · Not approved and not published to Read Story</p>
    {shreyaPart1Error&&<p role="alert" className="error">Draft could not load: {shreyaPart1Error}</p>}
-   {!shreyaPart1?<p role="status">Loading scene draft…</p>:<details className="episode-outline" open>
+   {!shreyaPart1?<p role="status">Loading scene draft…</p>:<details className="episode-outline">
     <summary><strong>Read assembled Part 1 — with Grok-provided SC06.2 verbatim</strong></summary>
     <div className="reading-surface">
      {shreyaPart1.opening.map((p,i)=>p.startsWith('### ')?<h3 key={'o'+i}>{p.slice(4)}</h3>:<p key={'o'+i}>{p}</p>)}
