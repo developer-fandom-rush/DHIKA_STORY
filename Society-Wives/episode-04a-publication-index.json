@@ -66,6 +66,26 @@
         "SHR04A-S04"
       ],
       "publicationScope": "Shreya 04A manuscript through the comforting dinner ending is available in Read Story for review. Author-provided/Grok-provided original text preserved; author-requested non-graphic towel consolation, full-coverage floral nightwear and actual dinner payoff added by GPT. This is not a final author freeze. Vikram returns at 06:00 the next morning in the updated manuscript; old 20:40–20:50 Vikram arrival and night plan SC11–SC15 need replot."
+    },
+    "taniya": {
+      "name": "Taniya",
+      "source": "episode-04a-taniya-soniya-source.json",
+      "sourceType": "scene-wise-verbatim-and-author-chat",
+      "publicationStatus": "SCENES_01_02_AUTHOR_CONFIRMED_PUBLISHED__SCENE03_DISCUSSION_PENDING",
+      "publishedSceneIds": [
+        "01",
+        "02"
+      ],
+      "completedPlanSceneIds": [
+        "01",
+        "02"
+      ],
+      "pendingPlanSceneIds": [
+        "03",
+        "04",
+        "05"
+      ],
+      "publicationScope": "Scene 01 shortened home bridge and Scene 02 Guddu backdrop accident, with Taniya's source-verified sky-blue shirt and charcoal trousers. Approved by author for publication 21 Nov 2026. Scene 03 onward remain for discussion. The exact last-generation image is not yet hosted in GitHub."
     }
   }
 }
