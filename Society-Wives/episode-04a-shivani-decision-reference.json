@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "title": "Shivani — EP04A Scene 04 · Story Decision & Continuity Reference",
+  "lead": "shivani",
+  "episode": "04A",
+  "scene": "04",
+  "dateRecorded": "2026-11-21",
+  "status": "EDITORIAL_REFERENCE__CURRENT_READER_TEXT_PUBLISHED__OPEN_CORRECTIONS_NOT_APPLIED",
+  "source": "Author-approved current prose source: episode-04a-shivani-source.json (Google Doc Part A/B buildup + author-supplied B01–B04 and apology/exit). This record is an editorial index, not a replacement for the manuscript.",
+  "sections": [
+    {
+      "id": "current",
+      "title": "Current Scene 04 — what is in Read Story",
+      "status": "PUBLISHED_AS_SUPPLIED",
+      "items": [
+        {
+          "label": "Sequence",
+          "note": "Part A: Kavya–Deepu exit from introduction → Shivani challenges Karan/Aman → lift/corridor buildup → B01 Karan initiates first handhold/pull → B02 Aman takes other hand/pull → B03 Aman kisses Shivani's neck → B04 close chest contact → apology and separation → Shivani says 'Arre, utho dono. I liked it.' → enters the flat.",
+          "decisionStatus": "CURRENT_PUBLISHED_SEQUENCE"
+        },
+        {
+          "label": "Source fidelity",
+          "note": "B01–B04 and the apology are author-supplied text. The pre-B01 duplicate handholds were suppressed in the UI version of buildup only; original document paragraphs remain archived. No prose rewording is approved by this reference.",
+          "decisionStatus": "PRESERVE_WORD_FOR_WORD"
+        },
+        {
+          "label": "Scene finish versus episode finish",
+          "note": "The corridor encounter is complete through flat entry; Scene 05–07 household/Om/Rohan follow-up remain unwritten in Episode 04A.",
+          "decisionStatus": "CURRENT_SCENE_CLOSED__EPISODE_OPEN"
+        }
+      ]
+    },
+    {
+      "id": "deferred",
+      "title": "Future-only / not in current encounter",
+      "status": "FUTURE_REFERENCE",
+      "items": [
+        {
+          "label": "Deferred squeeze/pressure beat",
+          "note": "An earlier B05 action label involving squeeze/pressure was deliberately omitted when the newer scene ended after B04. Author requested that this idea be held for possible future use, not inserted into the current encounter. Future episode, actor/receiver, consent, pacing and setting are not assigned.",
+          "decisionStatus": "FUTURE_INTENT__DETAILS_UNASSIGNED",
+          "futureIdeaId": "FI-SHIVANI-KARAN-AMAN-DEFERRED-SQUEEZE-01"
+        },
+        {
+          "label": "Other earlier unsubmitted action-ledger candidates",
+          "note": "The older multi-action escalation plan contained beats beyond B04. Those do not occur in the current published version. They are historical working-plan material, not approved future scenes; do not add them automatically.",
+          "decisionStatus": "ARCHIVED_OLD_PLAN__NOT_FUTURE_APPROVED"
+        },
+        {
+          "label": "No auto-import",
+          "note": "A Future Idea is not approved story canon. Revisit only after the author selects a specific future scene and approves its role in the plot.",
+          "decisionStatus": "AUTHOR_APPROVAL_REQUIRED"
+        }
+      ]
+    },
+    {
+      "id": "pacing",
+      "title": "Pacing and scene structure",
+      "status": "DISCUSSION_RECORD",
+      "items": [
+        {
+          "label": "Earlier duration proposal superseded",
+          "note": "The earlier idea of 30–60 seconds for each physical beat, roughly 5 minutes encounter plus 3 minutes apology, was a proposed schedule, not a final locked duration. B04→apology is shorter than the original escalation plan; do not pad it just to match eight minutes.",
+          "decisionStatus": "OLD_TIMING_NOT_LOCKED"
+        },
+        {
+          "label": "Repetition risk",
+          "note": "B01–B04 repeatedly refer to breathing, held hands, the dupatta, short pauses and proximity. Review for repeated descriptions before any author-approved line edit. A slow-burn effect should come from changing stakes, reactions and meaningful choices, not repeated mechanics.",
+          "decisionStatus": "EDITORIAL_REVIEW_PENDING"
+        },
+        {
+          "label": "Karan versus Aman",
+          "note": "Karan initiates B01, then Aman carries B02–B04. Check whether Karan's much quieter presence is deliberate or needs an approved character beat. Do not invent additional actions.",
+          "decisionStatus": "CHARACTER_BALANCE_REVIEW_PENDING"
+        },
+        {
+          "label": "Shivani POV",
+          "note": "Track her own decisions and reactions beat by beat. Her later 'I liked it' does not retroactively establish consent for all earlier contact; reaction and willingness should be clear at each escalation where relevant.",
+          "decisionStatus": "POV_CONSENT_REVIEW_PENDING"
+        }
+      ]
+    },
+    {
+      "id": "unresolved",
+      "title": "Two exact continuity issues — text not silently changed",
+      "status": "PENDING_AUTHOR_DECISION",
+      "items": [
+        {
+          "label": "B04 handoff",
+          "note": "The supplied B04 exit still says 'Ready for B05', but the next supplied text begins apology/separation. Preserve source until author approves a transition edit; do not invent B05.",
+          "decisionStatus": "NEEDS_APPROVED_LINE_EDIT"
+        },
+        {
+          "label": "Apology posture",
+          "note": "The line 'Arre, utho dono' implies the twins should rise, but no preceding crouching/kneeling/lowering action is in the supplied apology. Resolve whether to add a plausible preceding action or revise that dialogue, only with author approval.",
+          "decisionStatus": "NEEDS_APPROVED_LINE_EDIT"
+        }
+      ]
+    },
+    {
+      "id": "publishing",
+      "title": "UI and handoff rules",
+      "status": "WORKFLOW_LOCK",
+      "items": [
+        {
+          "label": "Where final prose lives",
+          "note": "Published author-confirmed scenes appear only in main Society Wives → Read Story → Episode 04A. Planning shows completed/published indexing and unfinished scenes, not duplicated prose. Keep source plot files as an archival record, not active published content.",
+          "decisionStatus": "UI_WORKFLOW_APPROVED"
+        },
+        {
+          "label": "Future Ideas access",
+          "note": "Future Reference is a separate main UI section. Ideas and editorial references are not displayed as prose in Read Story.",
+          "decisionStatus": "REFERENCE_ONLY"
+        },
+        {
+          "label": "No unsolicited changes",
+          "note": "Discuss plot, escalation, pacing and continuity before writing or publishing. Preserve author/Grok supplied manuscript verbatim unless an exact adjustment is approved. Keep approval and change-log status visible.",
+          "decisionStatus": "AUTHOR_APPROVAL_REQUIRED"
+        },
+        {
+          "label": "Illustrations",
+          "note": "Shivani Google Doc contains 14 inline image references, but images have not yet been uploaded into the main reader. Keep discussion separate from future Drive organization and image-selection work.",
+          "decisionStatus": "IMAGES_PENDING"
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "label": "Read current Shivani Scene 04",
+      "route": "#/reading?episode=04A&character=shivani&scene=04"
+    },
+    {
+      "label": "Shivani remaining Episode 04A planning",
+      "route": "#/planning?lead=shivani&part=A"
+    },
+    {
+      "label": "Source manuscript in GitHub",
+      "path": "episode-04a-shivani-source.json"
+    },
+    {
+      "label": "Future ideas ledger",
+      "path": "future-ideas.json"
+    }
+  ]
+}
