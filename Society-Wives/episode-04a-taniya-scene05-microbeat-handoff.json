@@ -38,7 +38,7 @@
     {
       "insert_id": "SW04A-TANIYA-S05-G01",
       "micro_beat_id": "TS04A-11.3",
-      "anchor": "AFTER 'Rahul saamne tha.' AND BEFORE TANIYA'S FIRST SUSTAINED QUESTION",
+      "anchor": "AFTER EXACT LINE 'Taniya: “Jiju? Aap? Di kahaan hain?”' AND BEFORE EXACT LINE 'Taniya: “Jiju, ek minute.”'",
       "writer_assignment": "Grok (separate contribution only)",
       "prose_insert_marker": "[GRAPHICAL DESCRIPTION REQUIRED]",
       "review_decision": "PENDING"
@@ -46,7 +46,7 @@
     {
       "insert_id": "SW04A-TANIYA-S05-G02",
       "micro_beat_id": "TS04A-11.4",
-      "anchor": "AFTER 'Taniya: “Jiju, ek minute.”' AND BEFORE THE SHORT EXCHANGE THAT ENDS THE APPARENT CONVERSATION",
+      "anchor": "AFTER EXACT LINE 'Taniya: “Jiju, ek minute.”' AND BEFORE THE NEXT SEPARATE INSERTION MARKER (G03)",
       "writer_assignment": "Grok (separate contribution only)",
       "prose_insert_marker": "[GRAPHICAL DESCRIPTION REQUIRED]",
       "review_decision": "PENDING"
@@ -54,7 +54,7 @@
     {
       "insert_id": "SW04A-TANIYA-S05-G03",
       "micro_beat_id": "TS04A-11.5",
-      "anchor": "AFTER LAST AUDIT-BANTER EXCHANGE AND BEFORE WAKE-UP REVEAL",
+      "anchor": "THIRD INSERTION MARKER: AFTER G02 AND IMMEDIATELY BEFORE EXACT LINE 'Taniya ki aankhein khul gayin.'",
       "writer_assignment": "UNASSIGNED — AUTHOR MUST CHOOSE EXACT ACTION AND STYLE BEFORE HANDOFF",
       "prose_insert_marker": "[GRAPHICAL DESCRIPTION REQUIRED]",
       "review_decision": "NOT_SPECIFIED__AUTHOR_REVIEW"
@@ -98,7 +98,8 @@
       "pov": "External, showing Soniya's Sharmi-like initiative",
       "exit_state": "Soniya owns wedding preparations",
       "next_beat_anchor": "TS04A-09.2",
-      "writer_assignment": "GPT"
+      "writer_assignment": "GPT",
+      "position": "Where specified by parent beat; otherwise UNSPECIFIED"
     },
     {
       "source_status": "AUTHOR_DIRECTED_PLAN_OR_METADATA_UNLESS_NOTED",
@@ -126,7 +127,8 @@
       "pov": "External / Taniya's practical response",
       "exit_state": "Household handover decided, departure date not scheduled",
       "next_beat_anchor": "TS04A-10.1",
-      "writer_assignment": "GPT"
+      "writer_assignment": "GPT",
+      "position": "Where specified by parent beat; otherwise UNSPECIFIED"
     },
     {
       "source_status": "AUTHOR_DIRECTED_PLAN_OR_METADATA_UNLESS_NOTED",
@@ -154,7 +156,8 @@
       "pov": "External",
       "exit_state": "Soniya and Rahul absent; Taniya minds flat",
       "next_beat_anchor": "TS04A-11.1",
-      "writer_assignment": "GPT"
+      "writer_assignment": "GPT",
+      "position": "At the home departure; no travel route assigned"
     },
     {
       "source_status": "AUTHOR_DIRECTED_PLAN_OR_METADATA_UNLESS_NOTED",
@@ -182,7 +185,8 @@
       "pov": "Taniya, with reader-facing transition concealing dream mechanism",
       "exit_state": "Apparent doorway replay begins",
       "next_beat_anchor": "TS04A-11.2",
-      "writer_assignment": "GPT"
+      "writer_assignment": "GPT",
+      "position": "Taniya's room and doorway; no extra proximity/contact implied"
     },
     {
       "source_status": "AUTHOR_DIRECTED_PLAN_OR_METADATA_UNLESS_NOTED",
@@ -210,7 +214,8 @@
       "pov": "Taniya-limited apparent present",
       "exit_state": "Apparent Rahul present at threshold",
       "next_beat_anchor": "TS04A-11.3",
-      "writer_assignment": "GPT"
+      "writer_assignment": "GPT",
+      "position": "Taniya's room and doorway; no extra proximity/contact implied"
     },
     {
       "source_status": "AUTHOR_DIRECTED_PLAN_OR_METADATA_UNLESS_NOTED",
@@ -238,7 +243,8 @@
       "pov": "Taniya-limited dream appearance, not disclosed to reader",
       "exit_state": "Taniya ready to initiate familiar banter",
       "next_beat_anchor": "TS04A-11.4",
-      "writer_assignment": "Grok — G01 only"
+      "writer_assignment": "Grok — G01 only",
+      "position": "Taniya's room and doorway; no extra proximity/contact implied"
     },
     {
       "source_status": "AUTHOR_DIRECTED_PLAN_OR_METADATA_UNLESS_NOTED",
@@ -266,7 +272,8 @@
       "pov": "Taniya-limited",
       "exit_state": "An altered, daring conversational rhythm is established",
       "next_beat_anchor": "TS04A-11.5",
-      "writer_assignment": "Grok — G02 only"
+      "writer_assignment": "Grok — G02 only",
+      "position": "Taniya's room and doorway; no extra proximity/contact implied"
     },
     {
       "source_status": "AUTHOR_DIRECTED_PLAN_OR_METADATA_UNLESS_NOTED",
@@ -294,7 +301,8 @@
       "pov": "Taniya-limited",
       "exit_state": "Must lead directly to end reveal without a premature dream explanation",
       "next_beat_anchor": "TS04A-12.1",
-      "writer_assignment": "UNASSIGNED — AUTHOR CHOICE THEN ONE-BEAT HANDOFF"
+      "writer_assignment": "UNASSIGNED — AUTHOR CHOICE THEN ONE-BEAT HANDOFF",
+      "position": "Taniya's room and doorway; no extra proximity/contact implied"
     },
     {
       "source_status": "AUTHOR_DIRECTED_PLAN_OR_METADATA_UNLESS_NOTED",
@@ -322,7 +330,8 @@
       "pov": "Taniya waking",
       "exit_state": "Apparent encounter understood as imaginary; Rahul/Soniya are away",
       "next_beat_anchor": "TS04A-13.1",
-      "writer_assignment": "GPT"
+      "writer_assignment": "GPT",
+      "position": "Where specified by parent beat; otherwise UNSPECIFIED"
     },
     {
       "source_status": "AUTHOR_DIRECTED_PLAN_OR_METADATA_UNLESS_NOTED",
@@ -350,7 +359,8 @@
       "pov": "Taniya-limited",
       "exit_state": "Home remains in Taniya's care, future story open",
       "next_beat_anchor": "END",
-      "writer_assignment": "GPT"
+      "writer_assignment": "GPT",
+      "position": "Where specified by parent beat; otherwise UNSPECIFIED"
     }
   ]
 }
