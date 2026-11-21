@@ -31,7 +31,7 @@ export default function App(){
    </div></header>
    {page==='reading'&&<Reading character={params.get('character')||'ankita'} scene={params.get('scene')} episode={params.get('episode')}/>}
    {page==='planning'&&<Planning lead={params.get('lead')||'ankita'} part={params.get('part')||'A'}/>}
-   {page==='future-reference'&&<FutureReference/>}
+   {page==='future-reference'&&<FutureReference lead={params.get('lead')||'ankita'}/>}
    {page==='dhika-timeline'&&<GlobalTimeline universe="dhika" date={date} onDateChange={d=>{setDate(d);openPage('dhika-timeline',{date:d})}}/>}
    {page==='dhika-reader'&&<DhikaReader episode={params.get('episode')} paragraph={params.get('paragraph')}/>}
    {!valid&&<main className="page-width"><h1>Page not found</h1><button type="button" className="button primary" onClick={()=>openPage('reading',{episode:'01'})}>Read Story</button></main>}
