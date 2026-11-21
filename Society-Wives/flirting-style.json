@@ -23,7 +23,10 @@
   "characterVoices": {
     "rohan": "34; Shivani's husband; social, cheeky and expressive; black fitted sports tee suggestion",
     "nikhil": "35; Meenakshi's husband; observant, calm, dry wit; midnight-blue sleeveless performance top suggestion",
-    "ankita": "30; confident and witty, shy for a beat then reclaims agency; neither outfit promise nor implied affair"
+    "ankita": "30; confident and witty, shy for a beat then reclaims agency; neither outfit promise nor implied affair",
+    "soniya": "AUTHOR-LOCKED 2026-11-21: SONIYA ACTS LIKE SHARMI in this story (original Dhika source) — outspoken, lively, teasing, daring in social presentation, impishly confident, playful and proactive; voice and agency throughout upcoming scenes. Do not automatically turn her into apologetic/shy dialogue or copy Sharmi's precise Dhika situations. Her own Soniya history and participant consent/knowledge remain distinct.",
+    "rahul": "AUTHOR-REFERENCE 2026-11-21: Rahul is a polite, relatively reserved contrast (Raj-like) for future appearances/return; retain Rahul's existing continuity and do not import Raj's plot.",
+    "taniya": "Author role lock 2026-11-21: Taniya handles the shared home while Soniya and Rahul are away for Soniya-led wedding preparations; she does not take over those preparations. She remains professionally sharp and engaged to Aditya."
   },
   "continuity": [
     "Both men are married adults, not boys.",
@@ -265,5 +268,13 @@
       "memories": "A brief involuntary sight and immediate distinct visible reaction, never an extended stare or public shame",
       "status": "AUTHOR_CORRECTED_PLOT_DIRECTION_DRAFT_PROSE_PENDING_FINAL_APPROVAL"
     }
+  },
+  "authorConfirmedSharmiRole20261121": {
+    "priority": "LATEST_AUTHOR_DIRECTION",
+    "soniya": "Permanent Sharmi-like character voice/behavior, not only Scene 03; Soniya confidently initiates teasing, has her own agency and choices.",
+    "rahul": "Raj-like social contrast in later return; not an imported biography.",
+    "wedding": "Soniya leads wedding preparations; she and Rahul will leave home for that reason, with Taniya house-sitting.",
+    "time": "Unspecified; do not assume when they leave/return.",
+    "source": "original Dhika archive for reference; user instruction for Society Wives lock"
   }
 }
