@@ -8,7 +8,7 @@
   "title": "Episode 04A — Shivani: Deepu, Kavya, Twins, Surprise for Rohan",
   "storyDate": "2026-01-01",
   "timezone": "Asia/Kolkata",
-  "status": "AUTHOR_REVISED_EP04A_PLOT__REVIEW_NOT_APPROVED_PROSE",
+  "status": "SCENES_01_TO_05_CURRENT__OM_SURPRISE_DEFERRED__NEXT_SCENE_DISCUSSION",
   "scope": "January 1 evening after Episode 03 through Shivani's own sleep; January 2 Rohan/Ankita and Sunny office Chotu encounters are not scheduled here.",
   "continuity": {
     "latestApprovedHandoff": "EP03 Scene03 society return concludes around 17:57 after Ayaan/Armaan and the poster stand; that different contact is not rewritten.",
@@ -16,9 +16,9 @@
     "twinsTransport": "Karan and Aman accompany Ankita home around 17:50; they become available at the society common area after that. Their next Taniya encounter is ~20:16–20:24; Shivani events end ~19:23.",
     "deepu": "Deepu 22, society cultural helper. Already familiar with Shivani from EP01 S02 noticeboard/poster work; never call him Sunny.",
     "kavya": "Kavya (24) assisted with Tara earlier; meets Deepu at 19:05 and Karan/Aman at 19:11. The first mutual Deepu attraction and separately distinct twin attraction must all occur BEFORE Shivani's final 'I liked it' and exit.",
-    "husband": "Rohan (34), Shivani's husband, is at home with Tara during 18:51–19:23 society programme. Proposed Om-requested important errand takes him out around 21:47–22:28. He returns before husband-wife night intimacy. There is no witness overlap at the society encounter.",
-    "om": "Om (63) is an unrelated adult household elder, NOT Rohan's actual father or Shivani's real father-in-law. He is at home; later Rohan temporarily leaves for an important task he requests. At ~22:02 Om accidentally sees Shivani in her clothed burgundy surprise outfit. No touching, no private Om fantasy or reaction after this specific reveal, and no invented disclosure to Rohan.",
-    "tara": "Tara (2), safe family-care context only, with Rohan for society encounter and Om briefly during Rohan's errand. The surprise is a clothing mistaken-identity moment, not an adult intimacy scene. Tara calls for mother, interrupting it; Shivani then settles her in a separate room before couple intimacy begins.",
+    "husband": "Rohan is at home with Tara during 18:51–19:23, then joins Scene 05 family dinner. No Om-initiated night errand is scheduled; the timing/location of the next private husband-wife scene remain to be discussed.",
+    "om": "Existing household presence and the earlier ordinary dinner beat are unchanged. No additional Om–Shivani contact, surprise sightline, or Om-caused outing after Scene 05 on Jan 1. Future-only reference FI-SHIVANI-OM-OUTFIT-ACCIDENT-FUTURE-01.",
+    "tara": "Tara is in ordinary family care at dinner and not a participant or witness in any future private couple scene. Next sleep/childcare arrangements to be planned without inventing Om coverage.",
     "manav": "Manav (23) is Rohan's younger brother, Shivani's devar. New proposed continuity: returns to household from own errands at ~20:10, joins family dinner, then stays in his own room from ~21:40; not a witness to Om's accidental surprise.",
     "reactions": "Shivani's final words to Karan/Aman at 19:23 are exactly 'I liked it.' She laughs and leaves; any later thoughts happen back inside the house. Her statement reflects her own immediate response only and never licenses unwanted future contact.",
     "surpriseOutfit": "Burgundy saree and blouse from EP02 Shivani A03 private, non-nude photograph intended only for Rohan but never sent. Not her campus clothes; outfit is worn again as a spouse surprise, not invented as a new separate dress.",
@@ -308,119 +308,35 @@
     {
       "id": "E04A-SH-S06",
       "sceneNumber": "06",
-      "title": "The wrong surprise — Om in the living room",
-      "start": "21:45",
-      "end": "22:20",
-      "location": "Ahuja household · hallway and living room, then Tara's bedroom",
-      "status": "AUTHOR_REVISED_2026_11_17__REVIEW_NOT_PROSE_APPROVED",
-      "beats": [
-        {
-          "id": "SH18",
-          "time": "21:45–21:52",
-          "title": "Om's important errand sends Rohan out",
-          "plot": "Om asks Rohan to handle an important, time-sensitive household matter outside. Its precise purpose is not revealed to the readers. Rohan takes his keys and leaves; he expects to be back shortly. Tara is safely with Om in the living room for these minutes. Shivani, still in her bedroom dressing for her husband, does not hear the change of plans.",
-          "physical": "No adult touching.",
-          "reaction": "This is a practical timeline switch, not a contrivance that Rohan remains absent all night."
-        },
-        {
-          "id": "SH19",
-          "time": "21:52–22:02",
-          "title": "Burgundy surprise outfit, no new photograph",
-          "plot": "Shivani changes into the same burgundy saree and fitted blouse that she had worn for the private, non-nude photo intended for Rohan that morning. She checks the drape and her reflection, unaware that Rohan has already left. She does not take or share a new photograph.",
-          "physical": "She is fully clothed; neckline, shoulders and silhouette are consistent with the outfit. No invented exposure, undressing or child presence in the dressing room.",
-          "reaction": "She anticipates only a warm, private surprise for her own husband."
-        },
-        {
-          "id": "SH20",
-          "time": "22:02–22:05",
-          "title": "Surprise — but not Rohan",
-          "plot": "Shivani opens the bedroom door toward the living room with a playful 'Surprise!' meant for Rohan. Instead, she sees Om sitting with Tara. Both adults realize the mistake in an instant. Om has seen her in a dressed-up outfit that she intended to reveal privately to her husband; she freezes for a moment in surprise, visibly startled. No touch, extended inspection, private fantasy or follow-on Om reaction is narrated.",
-          "physical": "A brief unexpected view of a fully clothed adult in a fitted burgundy outfit; no nudity or tactile contact. This is not a sexual encounter and the young child is only in an ordinary family living room.",
-          "sightline": "Hallway-to-living-room doorway. The mistaken-identity surprise lasts moments, not a prolonged spectacle.",
-          "reaction": "Shivani's expression changes from playful confidence to astonishment. Om's private emotional reaction is explicitly reserved for a later author discussion."
-        },
-        {
-          "id": "SH21",
-          "time": "22:05–22:20",
-          "title": "Tara's call ends the moment",
-          "plot": "Tara calls 'Mumma!' from the living room. Shivani responds to her daughter immediately. Om quietly excuses himself and goes to another household area; Shivani takes over childcare, comforts Tara, offers her milk and settles her in her own bed. Om does not return to the scene, and no further reaction or conversation with him is written.",
-          "physical": "Caregiving only, separate from the adults' later bedroom intimacy.",
-          "reaction": "Shivani regains composure. She does not tell Rohan about the mistaken surprise when he returns."
-        }
-      ]
-    },
-    {
-      "id": "E04A-SH-S07",
-      "sceneNumber": "07",
-      "title": "Rohan returns — loving, passionate night",
-      "start": "22:20",
-      "end": "23:15",
-      "location": "Ahuja household · married couple's private bedroom",
-      "status": "AUTHOR_REVISED_2026_11_17__REVIEW_NOT_PROSE_APPROVED",
-      "beats": [
-        {
-          "id": "SH22",
-          "time": "22:20–22:37",
-          "title": "Rohan back home; surprise finally reaches him",
-          "plot": "Rohan finishes Om's errand and returns home. Tara is safely settled asleep in her own room, Manav and Kavya remain in their own rooms, and Om is elsewhere in the household. Shivani is still dressed in her original burgundy surprise outfit, ready at last for Rohan to see it. She chooses not to recount the earlier accidental meeting with Om.",
-          "physical": "Ordinary loving greeting in private, no graphic detail.",
-          "reaction": "Rohan is delighted and affectionate, naturally responding to a surprise meant for him."
-        },
-        {
-          "id": "SH23",
-          "time": "22:37–22:51",
-          "title": "The day's encounters remain in Shivani's mind",
-          "plot": "Privately Shivani recalls the Deepu backdrop accident, the separate spark between Kavya and Deepu, the twins' daring teasing and her own 'I liked it', and the abrupt shock of seeing Om while wearing Rohan's intended surprise. She is unsettled by how vividly these moments stay with her, yet wants her husband and acts on that desire. No private reader-only Om thoughts are placed into her consciousness.",
-          "physical": "Mutual affectionate closeness between husband and wife; no explicit sex acts narrated.",
-          "reaction": "She is more eager and proactive than on an ordinary evening, and Rohan notices her excitement. The story does not treat Om's unexpected view as an invitation or permission."
-        },
-        {
-          "id": "SH24",
-          "time": "22:51–23:00",
-          "title": "A playful husband-wife connection — fade to black",
-          "plot": "Rohan compliments her burgundy look and answers her initiative with enthusiasm. He has a brief passing thought that he may see Ankita during the next morning's society walk, but this remains a possibility, not a scheduled meeting; the night remains focused on Shivani. Husband and wife willingly share an unusually passionate, deeply enjoyable intimate night. The narrative fades to black without describing sexual actions or erotic vocalization in detail.",
-          "physical": "Husband-wife intimacy acknowledged, but not depicted graphically.",
-          "reaction": "Shivani and Rohan mutually enjoy each other's affection and feel closer. A brief breathless laugh and quiet shared sigh before the fade are sufficient non-graphic tonal cues.",
-          "dialogue": [
-            {
-              "speaker": "Rohan",
-              "line": "Aaj toh tumne sach mein surprise kar diya."
-            },
-            {
-              "speaker": "Shivani",
-              "line": "Yehi toh plan tha."
-            }
-          ]
-        },
-        {
-          "id": "SH25",
-          "time": "23:00–23:15",
-          "title": "Loving afterglow and sleep",
-          "plot": "After the fade to black, both partners are content. Rohan checks that Shivani is comfortable, they exchange a few affectionate words and fall asleep close together. No explicit post-sex detail, no late visit by Om, no unexplained movement by Tara, Kavya or Manav. Episode 04A ends for Shivani.",
-          "physical": "Quiet affectionate closeness and sleeping; no on-page sex details.",
-          "reaction": "Their established good marriage feels energized and affectionate; the Om incident remains unspoken and his reaction unrevealed."
-        }
+      "title": "Shivani and Rohan — burgundy surprise (discussion pending)",
+      "start": "After 21:45; exact start to discuss",
+      "end": "NOT LOCKED",
+      "location": "Ahuja household — private space",
+      "status": "UNAPPROVED_NEXT_SCENE_DISCUSSION_ONLY",
+      "cast": [
+        "Shivani",
+        "Rohan"
       ],
-      "fadeToBlack": true,
-      "prosePreview": "Shivani ne Rohan ko dekha aur uske liye subah se sambhaal kar rakha surprise aakhir us tak pahunch gaya. Uski aankhon mein khushi dekhkar Shivani khud aage badhi. Rohan uski aaj ki bejhijhak, alag-si energy se hairaan bhi tha aur khush bhi.\n\nDono ek-doosre ke kareeb aaye; halka-sa hansna aur ek saath chhuti saans kamre ki khamoshi mein ghul gaye. Us raat unki pehle se pyaari married chemistry aur gehri mehsoos hui.\n\n*Fade to black.*\n\nBaad mein ek-doosre ka khayal rakhte hue dono pyaar aur sukoon se so gaye."
+      "beats": [],
+      "note": "Om encounter removed by author decision. Next scene to be discussed first; no prose approved or written."
     }
   ],
   "household": {
     "rohan": {
-      "location": "Home with Tara before 19:23; with family dinner; out on Om's important errand ~21:45–22:20; home again ~22:20 onward",
-      "status": "PROPOSED_CLOCK"
+      "location": "At home during society event and family dinner; no Om errand tonight",
+      "status": "AUTHOR_UPDATED_2026_11_21"
     },
     "tara": {
-      "location": "Safe with Rohan during society event; temporarily with Om while Rohan completes errand; calls for Shivani ~22:05; settled in her own room before couple intimacy",
-      "status": "FAMILY_ONLY"
+      "location": "In family care during Scene 05; later settling to be discussed for next private couple scene",
+      "status": "FAMILY_ONLY__NEXT_SCENE_PENDING"
     },
     "kavya": {
       "location": "Home before 19:05; society with Shivani 19:05–19:23; upstairs 19:28 onward; in own room after ~21:40",
       "status": "CURRENT_WORKING_PLAN"
     },
     "om": {
-      "location": "Household early evening; sends Rohan on unspecified important errand ~21:45; sitting with Tara in living room at ~22:02; exits to different area after Tara calls; later response NOT WRITTEN",
-      "status": "ONE_UNEXPECTED_SIGHTLINE_ONLY"
+      "location": "Present in existing Scene 05 family dinner as written; no later encounter/sightline tonight",
+      "status": "FUTURE_ENCOUNTER_DEFERRED"
     },
     "manav": {
       "location": "Out on unspecified personal errands until ~20:10; dinner with household; in own room from ~21:40 onward",
@@ -440,15 +356,15 @@
     "All three adult men's distinct attraction to Kavya is established before Shivani's twin-teasing cliff; Kavya's first preference is for her practical interaction with Deepu, not automatic interest in everyone.",
     "Rohan is Shivani's husband and is HOME while society twins' encounter takes place. He is not a spectator at the community event; he is with Tara. This avoids unexplained husband ignorance.",
     "Original burgundy saree/blouse from Shivani EP02 morning private photo is used for the late night attempted surprise; do not invent a new outfit or expose her.",
-    "Om is an unrelated household elder, not Shivani's actual father-in-law. Om is allowed to see the accidental surprise, but NO Om internal reaction, fantasy, gossip, touching, or later initiative is written after that event.",
-    "Tara is a child and appears ONLY in family caregiving; no intimacy involving or witnessed by Tara. Om exits when she calls, and intimacy occurs privately only after Tara is asleep.",
+    "Om is an unrelated household elder, not Shivani's actual father-in-law. No post-dinner surprise sightline or further Om–Shivani contact on Jan 1; that concept is saved strictly for an unscheduled later episode.",
+    "Tara remains only in ordinary family-care context and must not witness adult private intimacy; arrangements before the next couple scene require discussion.",
     "Manav's evening status now proposed: ~20:10 arrival from personal errands, family dinner, own room from 21:40. No unsupported occupation or side plot.",
     "Husband-wife intimacy is willing, intense but non-graphic: acknowledge it, then fade-to-black and caring sleep. Do not write explicit acts, detailed moans or bodily anatomy.",
     "Rohan's Jan2 curiosity to see Ankita is a future private thought only, not a new January 2 meeting, sightline or bold touching scheduled here.",
     "EP03 and older source plans are not retrospectively rewritten; this 04A plan replaces only its own earlier proposed night details."
   ],
   "revisionNotes": {
-    "date": "2026-11-17",
+    "date": "2026-11-21",
     "userRevisions": [
       "Drop consent/boundary lecture after twin apology; final smiling 'I liked it' cliff and exit",
       "Attraction to Kavya: Deepu, Karan and Aman must each be individually visible before twin teasing",
@@ -457,7 +373,8 @@
       "Manav now has provisional time and location",
       "Burgundy morning private photo outfit is recreated for Rohan; mistaken Om witness, Tara interruption, Om response deferred",
       "Rohan return, private passionate fade-to-black married intimacy and loving sleep",
-      "Next morning possible Ankita sighting remains only a thought, not promised physical scene"
+      "Next morning possible Ankita sighting remains only a thought, not promised physical scene",
+      "21 Nov: author removes tonight's Om wrong-surprise encounter, Om-induced Rohan errand, and subsequent Om contact from Episode 04A; saves possibility of similar accidental outfit sightline for an unscheduled future episode; Scene 06 requires fresh discussion."
     ],
     "sourceAnchors": [
       "Society-Wives/episode-02-shivani-plan.json A02/A03 burgundy surprise & private non-nude photo",
@@ -668,12 +585,123 @@
     "url": "https://docs.google.com/document/d/1779t20ygHv8Q9PzJuH5u8SgxVcLHg9ZGm7cbmnXFs88/edit?usp=drivesdk",
     "documentId": "1779t20ygHv8Q9PzJuH5u8SgxVcLHg9ZGm7cbmnXFs88",
     "format": "native_google_doc",
-    "status": "COMPLETE_NON_GRAPHIC_DRAFT_WITH_12_GROK_VISUAL_HANDOVERS__AUTHOR_REVIEW_PENDING",
+    "status": "HISTORICAL_2026_11_17_DRAFT_REFERENCES_OM_SCENE__NOT_CURRENT_APPROVED_PROSE",
     "sceneCount": 7,
     "beatRange": "SH01–SH25",
     "finalSceneClock": "23:15",
     "createdOn": "2026-11-17",
     "primaryNarrativeSource": "episode-04a-shivani-plan.json",
-    "graphicExpansionsNotInserted": true
-  }
+    "graphicExpansionsNotInserted": true,
+    "authorDecisionOverride": "Scene 06 Om encounter removed 21 Nov; prior full seven-scene draft superseded for this section."
+  },
+  "authorLatestDecision": {
+    "date": "2026-11-21",
+    "status": "APPROVED_REMOVAL_FROM_CURRENT_EPISODE__FUTURE_IDEA_SAVED",
+    "decision": "Skip the proposed post-dinner Om encounter and mistaken outfit surprise tonight. Reserve that type of sightline for a later episode. Scene 05 existing ordinary family dinner and earlier Om glance are not revoked.",
+    "futureIdeaId": "FI-SHIVANI-OM-OUTFIT-ACCIDENT-FUTURE-01",
+    "next": "Discuss private Shivani–Rohan burgundy-outfit surprise as the next scene; do not draft until reviewed."
+  },
+  "deferredPriorPlanScenarios": [
+    {
+      "id": "E04A-SH-S06",
+      "sceneNumber": "06",
+      "title": "The wrong surprise — Om in the living room",
+      "start": "21:45",
+      "end": "22:20",
+      "location": "Ahuja household · hallway and living room, then Tara's bedroom",
+      "status": "ARCHIVED_SUPERSEDED_NOT_ACTIVE",
+      "beats": [
+        {
+          "id": "SH18",
+          "time": "21:45–21:52",
+          "title": "Om's important errand sends Rohan out",
+          "plot": "Om asks Rohan to handle an important, time-sensitive household matter outside. Its precise purpose is not revealed to the readers. Rohan takes his keys and leaves; he expects to be back shortly. Tara is safely with Om in the living room for these minutes. Shivani, still in her bedroom dressing for her husband, does not hear the change of plans.",
+          "physical": "No adult touching.",
+          "reaction": "This is a practical timeline switch, not a contrivance that Rohan remains absent all night."
+        },
+        {
+          "id": "SH19",
+          "time": "21:52–22:02",
+          "title": "Burgundy surprise outfit, no new photograph",
+          "plot": "Shivani changes into the same burgundy saree and fitted blouse that she had worn for the private, non-nude photo intended for Rohan that morning. She checks the drape and her reflection, unaware that Rohan has already left. She does not take or share a new photograph.",
+          "physical": "She is fully clothed; neckline, shoulders and silhouette are consistent with the outfit. No invented exposure, undressing or child presence in the dressing room.",
+          "reaction": "She anticipates only a warm, private surprise for her own husband."
+        },
+        {
+          "id": "SH20",
+          "time": "22:02–22:05",
+          "title": "Surprise — but not Rohan",
+          "plot": "Shivani opens the bedroom door toward the living room with a playful 'Surprise!' meant for Rohan. Instead, she sees Om sitting with Tara. Both adults realize the mistake in an instant. Om has seen her in a dressed-up outfit that she intended to reveal privately to her husband; she freezes for a moment in surprise, visibly startled. No touch, extended inspection, private fantasy or follow-on Om reaction is narrated.",
+          "physical": "A brief unexpected view of a fully clothed adult in a fitted burgundy outfit; no nudity or tactile contact. This is not a sexual encounter and the young child is only in an ordinary family living room.",
+          "sightline": "Hallway-to-living-room doorway. The mistaken-identity surprise lasts moments, not a prolonged spectacle.",
+          "reaction": "Shivani's expression changes from playful confidence to astonishment. Om's private emotional reaction is explicitly reserved for a later author discussion."
+        },
+        {
+          "id": "SH21",
+          "time": "22:05–22:20",
+          "title": "Tara's call ends the moment",
+          "plot": "Tara calls 'Mumma!' from the living room. Shivani responds to her daughter immediately. Om quietly excuses himself and goes to another household area; Shivani takes over childcare, comforts Tara, offers her milk and settles her in her own bed. Om does not return to the scene, and no further reaction or conversation with him is written.",
+          "physical": "Caregiving only, separate from the adults' later bedroom intimacy.",
+          "reaction": "Shivani regains composure. She does not tell Rohan about the mistaken surprise when he returns."
+        }
+      ],
+      "reason": "Author deferred Om encounter to future, not current episode"
+    },
+    {
+      "id": "E04A-SH-S07",
+      "sceneNumber": "07",
+      "title": "Rohan returns — loving, passionate night",
+      "start": "22:20",
+      "end": "23:15",
+      "location": "Ahuja household · married couple's private bedroom",
+      "status": "ARCHIVED_SUPERSEDED_NOT_ACTIVE",
+      "beats": [
+        {
+          "id": "SH22",
+          "time": "22:20–22:37",
+          "title": "Rohan back home; surprise finally reaches him",
+          "plot": "Rohan finishes Om's errand and returns home. Tara is safely settled asleep in her own room, Manav and Kavya remain in their own rooms, and Om is elsewhere in the household. Shivani is still dressed in her original burgundy surprise outfit, ready at last for Rohan to see it. She chooses not to recount the earlier accidental meeting with Om.",
+          "physical": "Ordinary loving greeting in private, no graphic detail.",
+          "reaction": "Rohan is delighted and affectionate, naturally responding to a surprise meant for him."
+        },
+        {
+          "id": "SH23",
+          "time": "22:37–22:51",
+          "title": "The day's encounters remain in Shivani's mind",
+          "plot": "Privately Shivani recalls the Deepu backdrop accident, the separate spark between Kavya and Deepu, the twins' daring teasing and her own 'I liked it', and the abrupt shock of seeing Om while wearing Rohan's intended surprise. She is unsettled by how vividly these moments stay with her, yet wants her husband and acts on that desire. No private reader-only Om thoughts are placed into her consciousness.",
+          "physical": "Mutual affectionate closeness between husband and wife; no explicit sex acts narrated.",
+          "reaction": "She is more eager and proactive than on an ordinary evening, and Rohan notices her excitement. The story does not treat Om's unexpected view as an invitation or permission."
+        },
+        {
+          "id": "SH24",
+          "time": "22:51–23:00",
+          "title": "A playful husband-wife connection — fade to black",
+          "plot": "Rohan compliments her burgundy look and answers her initiative with enthusiasm. He has a brief passing thought that he may see Ankita during the next morning's society walk, but this remains a possibility, not a scheduled meeting; the night remains focused on Shivani. Husband and wife willingly share an unusually passionate, deeply enjoyable intimate night. The narrative fades to black without describing sexual actions or erotic vocalization in detail.",
+          "physical": "Husband-wife intimacy acknowledged, but not depicted graphically.",
+          "reaction": "Shivani and Rohan mutually enjoy each other's affection and feel closer. A brief breathless laugh and quiet shared sigh before the fade are sufficient non-graphic tonal cues.",
+          "dialogue": [
+            {
+              "speaker": "Rohan",
+              "line": "Aaj toh tumne sach mein surprise kar diya."
+            },
+            {
+              "speaker": "Shivani",
+              "line": "Yehi toh plan tha."
+            }
+          ]
+        },
+        {
+          "id": "SH25",
+          "time": "23:00–23:15",
+          "title": "Loving afterglow and sleep",
+          "plot": "After the fade to black, both partners are content. Rohan checks that Shivani is comfortable, they exchange a few affectionate words and fall asleep close together. No explicit post-sex detail, no late visit by Om, no unexplained movement by Tara, Kavya or Manav. Episode 04A ends for Shivani.",
+          "physical": "Quiet affectionate closeness and sleeping; no on-page sex details.",
+          "reaction": "Their established good marriage feels energized and affectionate; the Om incident remains unspoken and his reaction unrevealed."
+        }
+      ],
+      "fadeToBlack": true,
+      "prosePreview": "Shivani ne Rohan ko dekha aur uske liye subah se sambhaal kar rakha surprise aakhir us tak pahunch gaya. Uski aankhon mein khushi dekhkar Shivani khud aage badhi. Rohan uski aaj ki bejhijhak, alag-si energy se hairaan bhi tha aur khush bhi.\n\nDono ek-doosre ke kareeb aaye; halka-sa hansna aur ek saath chhuti saans kamre ki khamoshi mein ghul gaye. Us raat unki pehle se pyaari married chemistry aur gehri mehsoos hui.\n\n*Fade to black.*\n\nBaad mein ek-doosre ka khayal rakhte hue dono pyaar aur sukoon se so gaye.",
+      "reason": "Old husband-return scenario depended on Om's errand and must not be imported without replanning"
+    }
+  ]
 }
