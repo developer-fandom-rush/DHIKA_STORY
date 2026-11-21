@@ -3,6 +3,10 @@
 **Multi-writer collaboration & plot planning:** [WRITING-COLLABORATION-PROTOCOL.md](WRITING-COLLABORATION-PROTOCOL.md) — author approval, ChatGPT plot/continuity role, external writer independence, optional insertion ledger, sensory-mode metadata, POV and cross-scene continuity.
 
 
+### Dhika source rights statement (author-provided; 21 November 2026)
+
+The repository owner states that they hold the permissions/clearances needed for their intended use, verbatim reference, editing and adaptation of the separate **Dhika** source archive. This records the owner's assertion, **not independently verified license documentation**. See the repository [Dhika rights statement](../README.md#author-rights-and-permitted-use-assertion-21-november-2026). Society Wives remains a separate fictional universe; source reuse does not change its character canon or approval rules.
+
 ## NEW, INDEPENDENT UNIVERSE
 
 This directory is the new Society Wives story universe. It does **not** inherit the characters, professions, spouses, episode chronology, or character relationships from the older `Society_Story` project or its Drive archives. Those are out-of-scope reference archives, not canon for this story.
