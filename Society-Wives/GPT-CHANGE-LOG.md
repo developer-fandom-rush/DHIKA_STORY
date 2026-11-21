@@ -23,6 +23,15 @@ Use the exact label **Changed by GPT** in the Git commit message AND add a dated
 
 ## Entries
 
+### 2026-11-21 — Changed by GPT — Shivani Scene 05 selected dinner images added to main reader
+- **Scope:** `Society-Wives/assets/episode-04a-shivani/sc05-dinner-gazes-01.png`, `.../sc05-dinner-gazes-02.png`, `Society-Wives/episode-04a-shivani-source.json`, `Society-Wives/ui/src/Reading.tsx`.
+- **Author direction:** Upload both latest approved-looking Scene 05 dinner illustration variants from this chat into the **main Read Story** (not a separate reader). This was expressly requested; no change to existing prose and no added new scene.
+- **Media provenance:** Two images generated in the chat, selected for Scene 05 by the author. The source PNGs were uploaded to Google Drive under `Society Wives — Image Library / Shivani / Episode 04A / Scene 05 — Dinner` (folder ID `1owQ01QVdK9JaDmoFEV5H-B2mCz2AAU2B`) and separately stored as real GitHub binary PNG assets. Drive file IDs: `1vMsn53jfEcrdiyVMmy2z7I0mrYr-rXDr`, `1SUNPoFIx5bw2JI9AWkUPLz5d5vL_ekMM`.
+- **UI:** Source JSON has two `image` blocks after the ~20:10 dinner glance beat; React main reader renders both full-width with captions. Original seven narrative text blocks unchanged. Direct asset PNGs stored in repo so the publicly deployed site does not depend on Drive sharing.
+- **Status:** Image file bytes, repo paths and Drive folder read back successfully. Live GitHub Pages deployment may lag the commit and remains to be browser-verified. Scene 05 remains a review draft; Scenes 06–07 remain only in planning. No edits to frozen EP02/03.
+- **Commits:** Binary media `68d52205d5c2186ecb38e8ae1e56b0a560333a23`, reader data `224c9b9e084c2ef34e3bfcec73a7788776d96ba4`, React renderer `e1dea8801f1e98f085edf5384e5f127db52839a2`.
+
+
 ### 2026-11-21 — Changed by GPT — Add Om Uncle's unseen private gaze to Scene 05
 - **Changed path:** `Society-Wives/episode-04a-shivani-source.json` only; no edits to author-supplied Scene 04 or other leads.
 - **Author correction:** During ~20:10 Ahuja family-room scene, in addition to Rohan looking at Shivani and Manav looking at Kavya, Om privately looks at both adult women with hidden attraction. Crucially **no one catches or learns of Om's look**, even though the other men's looks are noticed.
