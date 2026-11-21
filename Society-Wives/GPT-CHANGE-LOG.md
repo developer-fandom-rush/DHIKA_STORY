@@ -23,6 +23,14 @@ Use the exact label **Changed by GPT** in the Git commit message AND add a dated
 
 ## Entries
 
+### 2026-11-21 — Changed by GPT — Shivani Episode 04A source imported as 3-scene UI reader
+- **Affected paths:** `Society-Wives/episode-04a-shivani-source.json` (new), `Society-Wives/episode-04a-shivani-reader.html` (new), `Society-Wives/index.html` (Shivani planning shortcut only).
+- **Source attribution:** Author's Google Doc `Episode 4A.`, tab `SHIVANI EP-04 A` (https://docs.google.com/document/d/1zcFlF9rWeIzaenBEmatt4K8bw3L-LcH3c_45JwoNM3o/edit?tab=t.6exlxaqxwcq); GPT only extracted, preserved paragraph order, and installed the UI reader without rewriting any prose.
+- **Scene count:** 3 source scenes — Scene 01, Scene 02, Scene 03. No Scene 04 included. Ankita tab and Episodes 01–03 unchanged.
+- **Images:** 11 inline-image references preserved as metadata, not uploaded as GitHub assets; original images remain in the linked Google Doc. Text is saved in the UI; image binaries are not presented as imported.
+- **Approval:** Source imported at author's save request; import is not an independent final-prose approval. Commit SHA: see repository history for the new files and index update.
+
+
 ### 2026-11-20 — Changed by GPT — Shivani–Deepu dance/kiss idea saved for future only
 - **Affected path:** `Society-Wives/future-ideas.json` (added `FI-SHIVANI-DEEPU-DANCE-KISS-LATER-01`).
 - **Source attribution:** GPT originally proposed “One Song, No Audience”; author explicitly directed saving it for a future kiss setup, but rejected its use for the current encounter.
