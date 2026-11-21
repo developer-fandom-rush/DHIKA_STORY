@@ -23,6 +23,13 @@ Use the exact label **Changed by GPT** in the Git commit message AND add a dated
 
 ## Entries
 
+### 2026-11-21 — Changed by GPT — Record author's Dhika copyright/permission assertion
+- **Author request:** Document in GitHub the author's statement that required rights/permissions for their intended exact references, editing, and adaptation of the Dhika archive are held by the project owner.
+- **Paths:** `README.md`, `Society-Wives/README.md`, and this change log.
+- **Provenance:** Author-provided rights assertion; GPT-authored accurate disclosure and repository integration. No license or permission documents reviewed or independently verified.
+- **Scope:** Documentation only. No Dhika corpus, Society Wives scene prose, episode canon, image, or approval state changed.
+- **Commits:** `ebff5571d3f4e3560302dc00ab9436cfdad9fcbf`, `c7fca6b56ae0ea25e18a46032044224d1851f5e1`. This entry is saved in a separate `Changed by GPT:` commit.
+
 ### 2026-11-21 — Changed by GPT — Meenakshi Episode 04A Scene 01 and two images in Read Story
 - **Author instruction:** Publish both generated Scene 01 images and the shortened revised Scene 01 exactly in the main Episode 04A reader.
 - **Paths:** `Society-Wives/assets/episode-04a-meenakshi/sc01-lift-mirror.png`, `.../sc01-flat-entry.png`, `Society-Wives/episode-04a-meenakshi-source.json`, `Society-Wives/episode-04a-publication-index.json`, `Society-Wives/ui/src/Planning.tsx` and this log. No Episode 02 or 03 file changed.
