@@ -29,25 +29,26 @@
       "name": "Shivani",
       "source": "episode-04a-shivani-source.json",
       "sourceType": "scene-wise-verbatim-and-author-chat",
-      "publicationStatus": "AUTHOR_CONFIRMED_PUBLISHED_THROUGH_SCENE_04_EXIT",
+      "publicationStatus": "SCENES01_04_AUTHOR_PUBLISHED__SCENE05_GPT_DRAFT_IN_READER_REVIEW_PENDING",
       "publishedSceneIds": [
         "01",
         "02",
         "03",
-        "04"
+        "04",
+        "05"
       ],
       "completedPlanSceneIds": [
         "E04A-SH-S01",
         "E04A-SH-S02",
         "E04A-SH-S03",
-        "E04A-SH-S04"
+        "E04A-SH-S04",
+        "E04A-SH-S05"
       ],
       "pendingPlanSceneIds": [
-        "E04A-SH-S05",
         "E04A-SH-S06",
         "E04A-SH-S07"
       ],
-      "publicationScope": "Scenes 01–04 published as currently provided, through twins' apology and flat entry; home/husband follow-up scenes remain to be written. B05/B06 action is deferred to future-only reference, not this scene."
+      "publicationScope": "Scenes 01–04 are the author-supplied published prose through the twins' apology and flat entry. Scene 05 is a short GPT-authored home-return/dinner bridge added to Read Story at the author's request and still open for prose review. Scenes 06–07 remain in planning."
     }
   }
 }
