@@ -181,3 +181,11 @@ Use the exact label **Changed by GPT** in the Git commit message AND add a dated
 - **Publication status:** GitHub Actions Pages deployment run `44682983396` completed successfully, including the `Deploy GitHub Pages` step. No independent browser screenshot test was performed.
 - **Reader route:** `https://developer-fandom-rush.github.io/DHIKA_STORY/#episode=4` or embedded at `https://developer-fandom-rush.github.io/DHIKA_STORY/Society-Wives/#/dhika-reader?episode=4`.
 - **Unaffected:** All existing original Dhika source paragraphs, Society Wives Ankita EP04A, frozen SW Episodes 02–03, and Society Wives navigation structure.
+
+
+### 2026-11-21 — Changed by GPT — Neutral choreography workflow and Shreya example
+- **Reason / author direction:** A request for exact actor, receiver, named action, witnessing, response and neutral sensory choreography is not inherently a request for graphic sexual prose. Earlier assistant drafts mistakenly deleted an author-specified action and Arvind's privacy-first turning point.
+- **Paths:** Society-Wives/WRITING-COLLABORATION-PROTOCOL.md (new §2B, exact neutral action labels, witness/POV, staging, handover and no redundant approvals); Society-Wives/ui/src/Planning.tsx (inline, all-lead workflow and Shreya Scene 02 worked example).
+- **Provenance:** Author-provided correction; GPT-authored workflow/editorial UI implementation. Shreya example is a working outline, NOT approved prose or an amendment of her existing Episode 04A JSON plan.
+- **Unaffected:** Frozen Episode 02–03 reader, current narrative prose, all approval metadata, other characters' plots, existing navigation.
+- **Commits:** Protocol bbb673106d8f60f55618732b638628f705534e52; planning source 4a346d7df3c19603d47b5500c8d4ef9098eee891. Deployment to be verified separately.
