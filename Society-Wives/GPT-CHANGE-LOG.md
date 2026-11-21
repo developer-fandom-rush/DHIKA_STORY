@@ -23,6 +23,14 @@ Use the exact label **Changed by GPT** in the Git commit message AND add a dated
 
 ## Entries
 
+### 2026-11-21 — Changed by GPT — Add Om Uncle's unseen private gaze to Scene 05
+- **Changed path:** `Society-Wives/episode-04a-shivani-source.json` only; no edits to author-supplied Scene 04 or other leads.
+- **Author correction:** During ~20:10 Ahuja family-room scene, in addition to Rohan looking at Shivani and Manav looking at Kavya, Om privately looks at both adult women with hidden attraction. Crucially **no one catches or learns of Om's look**, even though the other men's looks are noticed.
+- **Treatment:** Inserted one restrained, non-graphic paragraph within existing scene-05 draft (source paragraph 3) and kept Scene 05 in review status rather than author-final. No physical contact, nudity, or exposed intimate content added.
+- **Continuity scope:** The separate Scene 06 planned ~22:02 unexpected burgundy-outfit encounter explicitly still has NO on-page private Om fantasy/reaction following that reveal; new setup pertains to the earlier dinner time only.
+- **Image status:** Text-only GitHub correction. Any newly generated visual proposals are for author review and not assumed to be image assets already in GitHub or Google Drive.
+
+
 ### 2026-11-21 — Changed by GPT — Shivani Episode 04A Scene 05 concise home/dinner draft
 - **Changed paths:** `Society-Wives/episode-04a-shivani-source.json` (new Scene 05), `Society-Wives/episode-04a-publication-index.json` (reader/planning mapping).
 - **Author request:** Immediately write a concise Scene 05 connecting flat entry to the later Rohan surprise; explicitly add a moment in which Rohan notices Shivani and Manav notices Kavya, and establish where Om Uncle is.
