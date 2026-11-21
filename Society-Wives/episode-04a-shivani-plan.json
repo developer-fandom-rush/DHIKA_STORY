@@ -8,7 +8,7 @@
   "title": "Episode 04A — Shivani: Deepu, Kavya, Twins, Surprise for Rohan",
   "storyDate": "2026-01-01",
   "timezone": "Asia/Kolkata",
-  "status": "SCENES_01_TO_05_CURRENT__OM_SURPRISE_DEFERRED__NEXT_SCENE_DISCUSSION",
+  "status": "SCENES01_TO_05_CURRENT__SCENE06_OPENING_HISTORY_PARTIALLY_PUBLISHED__PRESENT_CONTINUATION_UNDER_DISCUSSION__OM_DEFERRED",
   "scope": "January 1 evening after Episode 03 through Shivani's own sleep; January 2 Rohan/Ankita and Sunny office Chotu encounters are not scheduled here.",
   "continuity": {
     "latestApprovedHandoff": "EP03 Scene03 society return concludes around 17:57 after Ayaan/Armaan and the poster stand; that different contact is not rewritten.",
@@ -308,17 +308,27 @@
     {
       "id": "E04A-SH-S06",
       "sceneNumber": "06",
-      "title": "Shivani and Rohan — burgundy surprise (discussion pending)",
+      "title": "Shivani and Rohan — burgundy surprise (opening + marriage history published; present continuation pending)",
       "start": "After 21:45; exact start to discuss",
       "end": "NOT LOCKED",
       "location": "Ahuja household — private space",
-      "status": "UNAPPROVED_NEXT_SCENE_DISCUSSION_ONLY",
+      "status": "AUTHOR_APPROVED_PUBLISHED_PARTIAL_THROUGH_MARRIAGE_HISTORY__PRESENT_CONTINUATION_UNAPPROVED",
       "cast": [
         "Shivani",
         "Rohan"
       ],
       "beats": [],
-      "note": "Om encounter removed by author decision. Next scene to be discussed first; no prose approved or written."
+      "note": "Published in Read Story Scene 06 through marriage-history flashback only. After heading 'Back to the Present — Burgundy Surprise', the present-day intimacy scene remains unapproved and unpublished. Author requests strong married-couple teasing, on-page sex clearly identified without graphic mechanics, and Shivani's later recollection of Deepu's abrupt withdrawal (she does NOT know what he saw) and the twins' known corridor encounter. Before-vs-after timing, exact prose, character thought order and endpoint are still being discussed. Do NOT reintroduce Om encounter tonight.",
+      "discussionOnly": {
+        "status": "AUTHOR_DIRECTION_NOT_YET_APPROVED_AS_PROSE",
+        "knownContinuity": [
+          "Deepu's sudden silence and departure in published Scene 02 is unexplained to Shivani; she may remember his change but cannot know the reason.",
+          "With twins Karan/Aman Scene 04: recorded close contact, apology, Shivani's own words 'I liked it'; these may enter her later private memory without reinterpreting her knowledge.",
+          "Om outfit encounter remains future-only, not present tonight.",
+          "Husband Rohan is unaware of the Deepu/twins interactions and of unauthorized copies of the earlier burgundy photo."
+        ],
+        "authorRequest": "Discuss more intense husband-wife private scene with meaningful undressing and sexual intimacy, and concise charged recollections of Deepu and twins before or after. No publication or finalization of this part yet."
+      }
     }
   ],
   "household": {
@@ -596,10 +606,10 @@
   },
   "authorLatestDecision": {
     "date": "2026-11-21",
-    "status": "APPROVED_REMOVAL_FROM_CURRENT_EPISODE__FUTURE_IDEA_SAVED",
-    "decision": "Skip the proposed post-dinner Om encounter and mistaken outfit surprise tonight. Reserve that type of sightline for a later episode. Scene 05 existing ordinary family dinner and earlier Om glance are not revoked.",
-    "futureIdeaId": "FI-SHIVANI-OM-OUTFIT-ACCIDENT-FUTURE-01",
-    "next": "Discuss private Shivani–Rohan burgundy-outfit surprise as the next scene; do not draft until reviewed."
+    "status": "AUTHOR_APPROVED_PARTIAL_SCENE06_PREFIX_FOR_PUBLICATION__REMAINDER_DISCUSSION_PENDING",
+    "decision": "Publish current GPT draft of Scene 06 from opening through marriage backstory, stopping before Back to the Present. Do not publish current continuation; discuss more intense husband-wife scene and Shivani's Deepu/twins recollections. Preserve earlier Om deferral.",
+    "next": "Discuss exact placement and continuity of Shivani's private reflections relative to current married intimacy; no final prose/publish without next approval.",
+    "futureIdeaId": "FI-SHIVANI-OM-OUTFIT-ACCIDENT-FUTURE-01"
   },
   "deferredPriorPlanScenarios": [
     {
