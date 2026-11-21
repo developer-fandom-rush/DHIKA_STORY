@@ -246,7 +246,32 @@
     "sourceTabTitle": "ANKITA_4B",
     "totalOriginalImages": 3,
     "sourceDocumentExport": "BLOCKED_GOOGLE_DRIVE_EXPORT_403",
-    "readerStatus": "IMAGE_BYTES_NOT_PRESENT__DO_NOT_SHOW_BROKEN_REFERENCES",
-    "preserveProseVerbatim": true
-  }
+    "readerStatus": "DIRECT_GOOGLE_DOC_SOURCE_URLS_REFERENCED__PUBLIC_IMAGE_ACCESS_NOT_VERIFIED",
+    "preserveProseVerbatim": true,
+    "assetPolicy": "Direct refs used as requested; transient Google-managed contentUri may expire; source Document link remains fallback",
+    "updatedAt": "2026-11-21"
+  },
+  "externalOriginalImages": [
+    {
+      "order": 1,
+      "inlineObjectId": "kix.diltrnniraat",
+      "afterSection": "B01",
+      "externalSrc": "https://docs.google.com/docs-images-rt/AIpPl2AJphkY93o0TL2iTtypflEuyHoySbRrH3HZU_LXW3hKX6uvYPYW-Fv8Z7eRTt6Ah-K_ItmcEGN0aH2jAYuh_Je415CRALEDLnjIoVXkn1K55ETGytLsBeDd37leID6mrD-ikKWKDHrmzHb8wCpGy2lIDW5zD8a_yo_cvEdWoEXG5l4BTbw=s2048?key=KR3xZL-1IVYhNKGomYObdw",
+      "sourceDocUrl": "https://docs.google.com/document/d/1zcFlF9rWeIzaenBEmatt4K8bw3L-LcH3c_45JwoNM3o/edit?tab=t.ouch4dqht9mi"
+    },
+    {
+      "order": 2,
+      "inlineObjectId": "kix.ic86fwgob7bf",
+      "afterSection": "B05",
+      "externalSrc": "https://docs.google.com/docs-images-rt/AIpPl2CuIFZ3oFNIWxEnbqaJDy_MqVyIDR5Mah7ECxlvi411wUCrdvtMAzBRO7Qb89yLeYjwLt4wNO5JrjDGpvjRYxJC7AmevtiihZKIIQRuDoduJKRjPAAYzQ_0ah4V81uCwvgPvVXtfiC_8LUr7ivpXregnHbx0vzw2fGCPVE6NYQrHrHDGQY=s2048?key=KR3xZL-1IVYhNKGomYObdw",
+      "sourceDocUrl": "https://docs.google.com/document/d/1zcFlF9rWeIzaenBEmatt4K8bw3L-LcH3c_45JwoNM3o/edit?tab=t.ouch4dqht9mi"
+    },
+    {
+      "order": 3,
+      "inlineObjectId": "kix.c58hgye1ihp5",
+      "afterSection": "B06",
+      "externalSrc": "https://docs.google.com/docs-images-rt/AIpPl2DfLCJMB2T8myBPzrhheh2SBdgjZMKvUSHkxEVEBiEzPsv6_qZhoHQvg5qCx5I61OEE9gdYe2Z3q98P93csU-UHj9xozBXY-SC_YbR23HvkVAL5ClILk0ERPpcM-8nOe-VD3qPPsE3cFOlgho4L9ecv9NlDE-659zG1dGxWwNq5NoM0=s2048?key=KR3xZL-1IVYhNKGomYObdw",
+      "sourceDocUrl": "https://docs.google.com/document/d/1zcFlF9rWeIzaenBEmatt4K8bw3L-LcH3c_45JwoNM3o/edit?tab=t.ouch4dqht9mi"
+    }
+  ]
 }
