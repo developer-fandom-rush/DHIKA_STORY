@@ -3,7 +3,7 @@
   "series": "Society Wives — Five Veils of Desire",
   "episode": "04A",
   "lead": "shivani",
-  "status": "AUTHOR_CONFIRMED_PUBLISHED_IN_MAIN_READ_STORY__SCENES_01_04__HOME_FOLLOWUP_PENDING",
+  "status": "AUTHOR_REQUESTED_SCENE05_SHORT_BRIDGE_IN_READER__REVIEW_PENDING",
   "source": {
     "title": "Episode 4A.",
     "googleDocId": "1zcFlF9rWeIzaenBEmatt4K8bw3L-LcH3c_45JwoNM3o",
@@ -12,7 +12,7 @@
     "url": "https://docs.google.com/document/d/1zcFlF9rWeIzaenBEmatt4K8bw3L-LcH3c_45JwoNM3o/edit?tab=t.6exlxaqxwcq",
     "revisionId": "AHj4eMQtaEMJXPfYekJ56EYgNCkLuxqmf71I2ImdhkqEPJzorNNcaAB9GcNIRN1WrSnssHE5l6x5BBKlHvkBtaWclE75_m9e5L7812-FF2I"
   },
-  "savedSceneCount": 4,
+  "savedSceneCount": 5,
   "scenes": [
     {
       "id": "01",
@@ -1665,6 +1665,73 @@
         "The scene's pacing and overlap of visible breathing reactions await author discussion; no prose rewrite performed.",
         "No images imported in this update; image placement references preserved from Google Drive source."
       ]
+    },
+    {
+      "id": "05",
+      "title": "Scene 05 — Ghar Wapsi, Nazar Aur Dinner",
+      "date": "2026-01-01",
+      "time": "19:28–21:45",
+      "place": "Ahuja Residence — living room, dining area and bedroom",
+      "status": "AUTHOR_REQUESTED_SHORT_BRIDGE_DRAFT_PUBLISHED_FOR_REVIEW",
+      "origin": "GPT draft requested by author in chat, based on Scene 05 plan SH14–SH17 plus explicit direction: Rohan/Manav gaze at Shivani/Kavya; Om present throughout",
+      "sourcePlanId": "E04A-SH-S05",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "7:28 PM · Ahuja Residence",
+          "style": "HEADING_3",
+          "origin": "gpt-author-directed-scene05",
+          "draftParagraph": 0
+        },
+        {
+          "type": "text",
+          "text": "Shivani ne flat ka darwaaza band kiya. Living room mein Rohan Tara ko picture book dikha raha tha. Om Uncle dining table par programme ki list aur pen lekar baithe the. “Registration ka kaam ho gaya?” Om ne poochha. “Haan, Uncle. Ab bas ghar ka kaam,” Shivani ne apni usual muskurahat ke saath kaha. Corridor ki baat usne kisi ko nahi bataayi.",
+          "style": "NORMAL_TEXT",
+          "origin": "gpt-author-directed-scene05",
+          "draftParagraph": 1
+        },
+        {
+          "type": "text",
+          "text": "Thodi der baad Kavya bhi final poster proof lekar aa gayi. “Di, arrow sahi kar diya.” Shivani ne ek nazar phone par daali aur approval mein sir hila diya. Rohan ne dono ko dekha. “Event poora tum behnon ke bharose chal raha hai kya?” Shivani hans padi. “Aur tum bas commentary karoge?” Tara ne ‘Mumma!’ kehkar dono ke beech ki baat khatam kar di.",
+          "style": "NORMAL_TEXT",
+          "origin": "gpt-author-directed-scene05",
+          "draftParagraph": 2
+        },
+        {
+          "type": "text",
+          "text": "8:10 PM ke aas-paas Manav apne kaam se ghar lauta. Sabko hello kehkar woh paani lene gaya. Kavya aur Shivani dining table ke paas programme ki sheet samet rahi thi. Rohan ki nazar Shivani par pal bhar zyada thahri; Manav ki Kavya par. Dono behnon ne woh nazar pakad li. “List dekhni hai ya hum dono ka inspection chal raha hai?” Shivani ne seedha poochha. Rohan hansa. Manav ne glass uthaya. “Main toh paani lene aaya tha.” Kavya ki hansi chhoot gayi. Baat wahin khatam ho gayi, lekin ek chhoti-si awkward smile reh gayi.",
+          "style": "NORMAL_TEXT",
+          "origin": "gpt-author-directed-scene05",
+          "draftParagraph": 3
+        },
+        {
+          "type": "text",
+          "text": "Dinner mein Om Uncle ne programme ki timing phir confirm ki. Rohan ne Tara ko sambhala, Kavya ne din bhar ki do-chaar baatein bataayi, aur Manav ne bina koi nayi kahaani chhede sabke saath khana khaaya. Shivani bhi roz ki tarah sabke beech thi. Usne shaam ki har baat ka explanation dene ki koshish nahi ki.",
+          "style": "NORMAL_TEXT",
+          "origin": "gpt-author-directed-scene05",
+          "draftParagraph": 4
+        },
+        {
+          "type": "text",
+          "text": "9:40 PM ke baad ghar dheere-dheere shaant hone laga. Kavya apne kamre mein chali gayi, Manav bhi. Tara abhi poori tarah soyi nahi thi. Om Uncle living room mein the; Rohan unke paas baithkar ghar ki baat kar raha tha.",
+          "style": "NORMAL_TEXT",
+          "origin": "gpt-author-directed-scene05",
+          "draftParagraph": 5
+        },
+        {
+          "type": "text",
+          "text": "Apne kamre mein Shivani ko subah wala burgundy saree aur blouse yaad aaya—Rohan ke liye socha hua surprise, jo tab adhura reh gaya tha. Usne kapde wardrobe se nikaale aur ek baar living room ki taraf dekha. Rohan wahin tha. Shivani muskurayi. Is baar surprise poora karna tha. Use abhi nahi pata tha ki kuch hi der mein Om Uncle Rohan ko bahar ek zaroori kaam se bhejne wale hain.",
+          "style": "NORMAL_TEXT",
+          "origin": "gpt-author-directed-scene05",
+          "draftParagraph": 6
+        }
+      ],
+      "reviewNotes": [
+        "Pairings of glances: Rohan notices Shivani; Manav notices Kavya. Does not establish a new romance or physical escalation.",
+        "Om Uncle is explicitly present at dining table, then living room near Rohan before Scene 06 errand.",
+        "Original EP04A Scene05 planned as four beats; compressed into short connecting prose. This is not author-final-locked until review.",
+        "No changes to previous scene, images or approved EP01–03."
+      ]
     }
   ],
   "prelude": [
@@ -1700,6 +1767,7 @@
     "untouched": "Scenes 01–03 remain exactly as previously imported. EP01–03 and Ankita are not edited.",
     "newUserContent": "B03 and B04 author-supplied prose; apology and flat entry author-supplied prose; only plain-text layout normalization, no prose edits.",
     "canonicalUI": "Main Society Wives Read Story → Episode 04A → Shivani. Published source and index drives reader; planning only tracks scenes 05–07.",
-    "approvalScope": "Author confirmed moving currently supplied scenes through the scene-04 exit into Read Story; this does not mark remaining home or Rohan scenes as completed."
+    "approvalScope": "Author confirmed moving currently supplied scenes through the scene-04 exit into Read Story; this does not mark remaining home or Rohan scenes as completed.",
+    "scene05": "GPT-written concise draft supplied at author's explicit request; included Rohan→Shivani and Manav→Kavya noticing looks, and Om Uncle at home; scene prose review pending."
   }
 }
