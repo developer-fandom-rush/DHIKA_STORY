@@ -135,6 +135,35 @@
         "No unapproved future intimate event"
       ],
       "nextAction": "Apply Soniya's Sharmi-like characterization in all future writing and plot/continuity checks. Use the wedding-preparation travel reason when Scene 04 is drafted, but do not invent dates or departure before author chooses."
+    },
+    {
+      "id": "FI-ANKITA-B08-THREE-VIEWS-FUTURE",
+      "lead": "Ankita",
+      "referenceCharacters": [
+        "Ankita",
+        "Karan",
+        "Aman",
+        "Rajeev"
+      ],
+      "workingTitle": "B08 three distinct household views — accidental wet-nighty encounter",
+      "status": "AUTHOR_REQUESTED_SAVED_FUTURE_ONLY__NOT_SCENE01__NOT_PUBLISHED_PROSE",
+      "originalLabel": "B08 3 views",
+      "date": "UNSCHEDULED",
+      "episode": "UNASSIGNED",
+      "nextScene": "NOT_NOW",
+      "wardrobeState": "Only dusty-rose nighty; author specifies no bra and no panties",
+      "premise": "At a separately planned future moment, Ankita's nighty is accidentally wet. Three distinct encounters are reserved in order: first Karan, then Aman, then Rajeev. Distinguish their observations, dialogue, personalities and Ankita's POV. Nothing is automatically staged in current Scene 01 or present Jan 2 morning.",
+      "continuityLocks": [
+        "Separate from 2 January B06's deliberate water action; no accidental second filter burst",
+        "Karan, Aman and Rajeev are not witnesses during Rinku's current B06",
+        "Rajeev's whereabouts and return time must be established before any future encounter",
+        "No involuntary physical touching or slap is locked; author explicitly withdrew the earlier slap suggestion",
+        "All three actual reactions and location transitions must be discussed before writing",
+        "Do not auto-publish in episode reader or active chronology; future concept only"
+      ],
+      "authorDirection": "2026-11-21: Save the B08 three-views idea for future, end current Scene 01 at B06, and keep future accidental wet-nighty version distinct.",
+      "approval": "IDEA_SAVED__NO_PROSE_APPROVAL",
+      "nextAction": "When requested, discuss scheduling, household presence, accidental cause and distinct Karan/Aman/Rajeev reactions before drafting."
     }
   ]
 }
