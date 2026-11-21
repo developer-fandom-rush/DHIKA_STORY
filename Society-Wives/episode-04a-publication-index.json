@@ -73,24 +73,22 @@
       "name": "Taniya",
       "source": "episode-04a-taniya-soniya-source.json",
       "sourceType": "scene-wise-verbatim-and-author-chat",
-      "publicationStatus": "SCENES_01_02_PUBLISHED__SCENE03_PARTIAL_DRAFT_VISIBLE_FOR_REVIEW",
+      "publicationStatus": "SCENES_01_02_03_IN_READ_STORY__04_05_PENDING",
       "publishedSceneIds": [
         "01",
-        "02"
+        "02",
+        "03"
       ],
       "completedPlanSceneIds": [
         "01",
-        "02"
+        "02",
+        "03"
       ],
       "pendingPlanSceneIds": [
-        "03",
         "04",
         "05"
       ],
-      "publicationScope": "Scenes 01–02 complete and published. Scene 03 is displayed in Read Story as PARTIAL WORKING DRAFT (including author-supplied Soniya–Guddu and Rahul–Taniya passages verbatim); it remains in active Plot Planning, is not completed and may be extended. Scenes 04–05 pending.",
-      "visibleDraftSceneIds": [
-        "03"
-      ]
+      "publicationScope": "Scenes 01–03 have completed prose in Read Story. Scene 03's closing is one sentence and the author-provided Soniya–Guddu and Rahul–Taniya passages remain verbatim. Scene 03 and the unwanted planned Soniya–Rahul Vivek disclosure continuation have been removed from the active plot. Active plot contains only 04 (future temporary absence setup, no date fixed) and 05 (Taniya imagination)."
     },
     "meenakshi": {
       "name": "Meenakshi",
