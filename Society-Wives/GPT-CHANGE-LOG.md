@@ -247,3 +247,10 @@ Use the exact label **Changed by GPT** in the Git commit message AND add a dated
 - **Publication & active plot:** `episode-04a-publication-index.json` marks `SHR04A-S01` and `SHR04A-S02` as read-story completed, `SHR04A-S03` and `SHR04A-S04` as superseded archived plans (NOT completed prose), and no remaining active 04A plan cards. The old outlines presuppose Vikram arriving 20:40–20:50, contrary to the current manuscript's ~06:00 next-day arrival. `ui/src/Planning.tsx` removes the duplicate Part-1 draft and completed/obsolete plot cards. `ui/src/FutureReference.tsx` stores the closure and continuity conditions without implying author final freeze.
 - **Image provenance / cleanup:** Images were taken from actual generated conversation files, not regenerated. Temporary Drive staging copies used to transfer binary images to GitHub were moved to Trash after confirming all seven GitHub assets. Previously embedded manuscript images in the Google Doc remain intact and accessible through its link.
 - **Status:** Live build and deployment verified successful via GitHub Actions run `44890203452` (on commit `d7e63ab319f4e7097be57e7225e1a2d53e95df7a`) before this log-only commit. Full reader is published for review, **not author-approved/frozen final canon**. No other leads' prose was changed.
+
+### 2026-11-21 — Changed by GPT — Shreya SC09 Night Closure saved
+- Author asked to save the immediately preceding short SC09.1 and SC09.2 nighttime closing prose in the Shreya 04A UI.
+- Appended that passage unchanged to the original Google Doc's `SHREYA EP-04A` tab, then synchronized all 284 paragraphs to `Society-Wives/episode-04a-shreya-source.json`.
+- Added Reader Scene `03 / SHR04A-SC09-NIGHT-CLOSURE` after completed Scenes 01 and 02. Current existing Reader code renders any added sceneIndex entries without further change.
+- Updated the Shreya publication index, Planning completed summary and Future Reference continuity. Older superseded Scene 03/04 plan entries are still archived, not confused with the new Reader scene.
+- No new images. Author requested saving, not a final freeze.
