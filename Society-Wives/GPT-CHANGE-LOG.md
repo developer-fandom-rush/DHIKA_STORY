@@ -23,6 +23,16 @@ Use the exact label **Changed by GPT** in the Git commit message AND add a dated
 
 ## Entries
 
+### 2026-11-21 — Changed by GPT — Future Reference moved into main Society Wives UI
+- **Affected paths:** `Society-Wives/episode-04a-shivani-decision-reference.json` (new); `Society-Wives/ui/src/FutureReference.tsx` (new); `Society-Wives/ui/src/App.tsx`; `Society-Wives/ui/src/Planning.tsx`; `Society-Wives/future-ideas.html` (legacy redirect).
+- **Author direction:** Save all agreed current-vs-future decisions in the **main UI**, clearly separated from current published story and unfinished planning.
+- **What is recorded:** Shivani Scene 04 Part A/B plus B01–B04 → apology/flat entry is the current supplied narrative. Older B05 squeeze/pressure is **future-only, unscheduled**, and other old action-ledger escalation candidates are historical/unapproved—not automatically future-approved. Five-plus-three-minute pacing was proposed, not final; trim/character balance and consent/choice tracking remain editorial review. B04 `Ready for B05` and apology `Arre, utho dono` are flagged as unresolved; **no manuscript prose changed**.
+- **Additional saved ideas:** The new main Future Reference screen reads all existing `future-ideas.json` entries including Ankita Sunday idea and deferred Shivani–Deepu dance/kiss setup. The prior standalone `future-ideas.html` redirects to the new route `#/future-reference`.
+- **UI access:** Adds `Future Reference` to Society Wives homepage navigation, with an in-app decision ledger and links back to Read Story and unfinished planning. This is an archival/editorial view, not approval to generate or publish new scenes.
+- **Other content:** Read Story prose for Shivani, Ankita, and frozen EP01–03 unchanged. Drive and images untouched. Build/deployment status must be checked independently.
+- **GitHub commits:** decision reference `f056c13bd5baff33f4db998df9692abca07c9891`; UI screen `35ce844399ddc8c7dadd8a02472b492c14b77022`; homepage navigation `3adb0697af93afa5aee2556660c1e8f97e5f5d4c`; planning link `8a6c870a58d721ad6aa93b82ffa72b351e1fde4e`.
+
+
 ### 2026-11-21 — Changed by GPT — Canonical Episode 04A reader in main UI, with completed planning archived
 - **Affected paths:** `Society-Wives/episode-04a-publication-index.json` (new); `Society-Wives/ui/src/Reading.tsx`; `Society-Wives/ui/src/EpisodeSelector.tsx`; `Society-Wives/ui/src/Planning.tsx`; `Society-Wives/ui/index.html`; built `Society-Wives/index.html`; `Society-Wives/episode-04a-shivani-source.json` (status metadata only); `Society-Wives/future-ideas.json` (new deferred idea).
 - **Authority and source:** Author explicitly directed that finalized Ankita and Shivani Episode 04A prose appear in the homepage **Read Story**, not the Episode 04 Plot Planning screen or separate floating shortcuts. Original Google Doc prose and author-supplied B01–B04/apology remain in existing source JSON; no narrative rewriting.
