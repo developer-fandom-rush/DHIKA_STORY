@@ -4,6 +4,7 @@ import { openPage, titleCase, useData } from './lib';
 type Beat={id:string;title:string;time?:string;[key:string]:unknown};
 type Scene={id?:string;scene?:string;sceneNumber?:string;number?:string;title:string;start?:string;end?:string;location?:string;beats:Beat[];[key:string]:unknown};
 type PlotDocument={title:string;scenes:Scene[];proseDraft?:{title?:string;url?:string};[key:string]:unknown};
+type ShreyaScene02Part1={id:string;status:string;opening:string[];grokSC062:string[];notes?:string[]};
 type WorkshopTrack={chotu:string;lane?:string;setting?:string;a:Record<string,unknown>;b:Record<string,unknown>};
 type Workshop={leads:{id:string;name:string;tracks:WorkshopTrack[]}[]};
 type AnkitaArchive={tracks:WorkshopTrack[]};
@@ -119,6 +120,7 @@ export default function Planning({lead='ankita',part='A'}:{lead?:string;part?:st
  const {data:ankita,error:ankitaError}=useData<PlotDocument>('episode-04a-ankita-plan.json');
  const {data:shivani,error:shivaniError}=useData<PlotDocument>('episode-04a-shivani-plan.json');
  const {data:shreya,error:shreyaError}=useData<PlotDocument>('episode-04a-shreya-night-plan.json');
+ const {data:shreyaPart1,error:shreyaPart1Error}=useData<ShreyaScene02Part1>('episode-04a-shreya-scene02-part1-working-draft.json');
  const {data:taniya,error:taniyaError}=useData<PlotDocument>('episode-04a-taniya-soniya-night-review.json');
  const {data:workshop,error:workshopError}=useData<Workshop>('episode-04-chotu-six-leads-review.json');
  const {data:ankitaArchive,error:ankitaArchiveError}=useData<AnkitaArchive>('episode-04b-ankita-chotu-archive.json');
@@ -129,7 +131,7 @@ export default function Planning({lead='ankita',part='A'}:{lead?:string;part?:st
  const {data:proseDraft,error:proseError}=useData<ProseDraft>('episode-04b-five-leads-prose-drafts.json');
  const {data:unifiedDay,error:unifiedError}=useData<UnifiedDay>('episode-04b-jan02-merged-day-five-leads.json');
  const doc=active==='ankita'?ankita:active==='shivani'?shivani:active==='shreya'?shreya:active==='taniya'||active==='soniya'?taniya:null;
- const error=publicationError||ankitaError||shivaniError||shreyaError||taniyaError||workshopError||ankitaArchiveError||officeDayError||societyDayError||continuityError||mergedError||proseError||unifiedError;
+ const error=shreyaPart1Error||publicationError||ankitaError||shivaniError||shreyaError||taniyaError||workshopError||ankitaArchiveError||officeDayError||societyDayError||continuityError||mergedError||proseError||unifiedError;
  const officeLead=officeDay?.leads.find(x=>x.id===active);
  const societyLead=societyDay?.leads.find(x=>x.id===active);
  const continuityRecord=continuity?.leads.find(x=>x.id===active);
@@ -164,6 +166,21 @@ export default function Planning({lead='ankita',part='A'}:{lead?:string;part?:st
    </details>}
    <p className="muted">For a separately authored missing passage, keep a stable insertion ID and exact placeholder location; this UI does not contact Grok. Full standard: <a href="https://github.com/developer-fandom-rush/DHIKA_STORY/blob/main/Society-Wives/WRITING-COLLABORATION-PROTOCOL.md" target="_blank" rel="noreferrer">Writing Collaboration Protocol §2B</a>.</p>
   </section>
+
+  {active==='shreya'&&selectedPart==='A'&&<section className="episode-plan-card" id="shreya-scene02-part1-draft">
+   <h2>Shreya · Scene 02 · Part 1 — Working Draft</h2>
+   <p className="muted">18:07–18:29 · SC05 / SC06.1 / SC06.2 · Not approved and not published to Read Story</p>
+   {shreyaPart1Error&&<p role="alert" className="error">Draft could not load: {shreyaPart1Error}</p>}
+   {!shreyaPart1?<p role="status">Loading scene draft…</p>:<details className="episode-outline" open>
+    <summary><strong>Read assembled Part 1 — with Grok-provided SC06.2 verbatim</strong></summary>
+    <div className="reading-surface">
+     {shreyaPart1.opening.map((p,i)=>p.startsWith('### ')?<h3 key={'o'+i}>{p.slice(4)}</h3>:<p key={'o'+i}>{p}</p>)}
+     <h3>SC06.2 — Grok-provided passage</h3>
+     {shreyaPart1.grokSC062.map((p,i)=><p key={'g'+i}>{p}</p>)}
+    </div>
+    <p className="muted">SC07–SC08 follow after this cut. Earlier repetitive bridge remains unchanged pending review. Door-opening reason is not locked.</p>
+   </details>}
+  </section>}
   <div className="episode-picker" role="group" aria-label="Choose planning episode">
    <button className={selectedPart==='A'?'episode-picker-current':''} aria-pressed={selectedPart==='A'} type="button" onClick={()=>go(active,'A')}>Episode 04A · Evening</button>
    <button className={selectedPart==='B'?'episode-picker-current':''} aria-pressed={selectedPart==='B'} type="button" onClick={()=>go(active,'B')}>Episode 04B · Next Day</button>
