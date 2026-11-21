@@ -23,6 +23,14 @@ Use the exact label **Changed by GPT** in the Git commit message AND add a dated
 
 ## Entries
 
+### 2026-11-21 — Changed by GPT — Add author's three Meenakshi face references to Episode 04A reader
+- **Author instruction:** After rejecting generated character likenesses, the author supplied Meenakshi reference images and requested these three images only in Episode 04A UI, with no images depicting sex or sexual action.
+- **Source files:** User-uploaded PNGs `image(20261121-122015).png`, `image(20261121-122225).png`, and `image(20261121-122137).png`. The first and third uploads are byte-identical; they are preserved as three reference entries while Git stores the same blob only once.
+- **Affected paths:** Three files under `Society-Wives/assets/episode-04a-meenakshi/author-face-reference-*.png`; `Society-Wives/episode-04a-meenakshi-source.json`; `Society-Wives/ui/src/Reading.tsx`; and this change log.
+- **Integration:** The existing main Episode 04A Meenakshi Scene 04 reader displays an explicitly labeled author-provided *character identity reference* gallery with all three images. None is asserted to depict the surprise dress or any intimate action. No new image was generated and no story action illustration was added.
+- **Preserved:** Meenakshi scenes 01–04 and their prose, the previous Scene 01 illustrations, and Episode 02–03 frozen files unchanged. No status or scene timeline changes.
+- **Commits:** Original PNG blobs committed at `bd59bda86ba76c4d0d99ca7b207c08d5ba3ec98e`; JSON reference index `4206d8d9873088167640333896c7589a228c4520`; reader UI `4d02ffd3716cc8f989d8efa4fb568f8d77851893`. Live Pages status is verified separately.
+
 ### 2026-11-21 — Changed by GPT — Complete Meenakshi Episode 04A publication from Google Doc
 - **Author instruction:** The user confirmed the `Meenakshi 4A` Google Doc tab is finished and requested uploading the entire Episode 04A to the existing main reader UI and GitHub.
 - **Source:** `https://docs.google.com/document/d/1zcFlF9rWeIzaenBEmatt4K8bw3L-LcH3c_45JwoNM3o/edit?tab=t.eqc1lixgpfbx` (Google Doc tab `Meenakshi 4A`; revision captured in reading source). After the previously published 04.01–04.09 beats, it contains 04.10, 04.11, and the closing 04.12 sleep paragraphs.
