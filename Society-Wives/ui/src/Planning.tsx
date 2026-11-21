@@ -142,7 +142,7 @@ export default function Planning({lead='ankita',part='A'}:{lead?:string;part?:st
  const go=(who:string=active,p:'A'|'B'=selectedPart)=>openPage('planning',{lead:who,part:p});
  const published=publicationIndex?.leads[active];
  const completed=new Set(published?.completedPlanSceneIds||[]);
- const outstandingScenes=(doc?.scenes||[]).filter(scene=>!scene.id||!completed.has(scene.id));
+ const outstandingScenes=(doc?.scenes||[]).filter(scene=>{const sceneId=scene.id||scene.scene||scene.sceneNumber||scene.number;return !sceneId||!completed.has(sceneId)});
  return <main className="page-width">
   <header className="section-intro"><span className="eyebrow">Next planning · Episode 04</span><h1>Episode 04 · Plot Planning</h1><p>Only unfinished scenes remain here. Published Episode 04A prose is in Read Story, with the former plan retained as an archive.</p></header>
   <p className="source-note"><strong>Before planning the next scene:</strong> <a href={'#/future-reference?lead='+active}>Future Reference &amp; Locked Decisions</a> — current scene locks, deferred ideas and pending editorial issues, not new story prose.</p>
