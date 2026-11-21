@@ -58,7 +58,8 @@
           "sourceStatus": "LATEST_AUTHOR_DIRECTED_ABSENCE_DURING_IMAGINATION__PROSE_UNAPPROVED",
           "knowledgeLimit": "No known travel schedule. Rahul is NOT physically home during Scene 05's imagined encounter."
         }
-      ]
+      ],
+      "proseRequirement": "AUTHOR_DIRECTED: Scene 04 entire wedding-preparations/leaving discussion and later departure should be ONE paragraph only, no expanded exchange, no separate extra closing paragraph. Scene 03 ends in its existing single line."
     },
     {
       "scene": "05",
@@ -171,6 +172,7 @@
     "writerWorkflow": "Micro-beat handoff only; neutral ledger with actor/receiver/POV/knowledge/sensory fields, per-assigned 300–400 word author target; no entire-scene Grok assignment; no publication until author review.",
     "rejectedDraft": "Prior ChatGPT one-pass non-graphic draft for Scene04–05 rejected by author; never integrate as approved text or use its invented ending.",
     "grokSidecar": "episode-04a-taniya-scene05-microbeat-handoff.json",
-    "manuscriptScaffold": "episode-04a-taniya-scenes04-05-working-scaffold.md"
+    "manuscriptScaffold": "episode-04a-taniya-scenes04-05-working-scaffold.md",
+    "scene04LengthLock": "One prose paragraph only (includes wedding role, home handover and later unspecified departure); Scene03 one-line close preserved."
   }
 }
