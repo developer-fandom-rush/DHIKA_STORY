@@ -1610,8 +1610,10 @@
               "action": "Kavita, Meera, Poonam, Anjali and the station tea helper may opt out with no consequences. He is told the premise before any teasing starts, and nobody uses uniform, badge or authority to pressure him."
             }
           ],
-          "status": "LOCKED_OFFICE_CHOTU_ACTIONS__PROSE_NOT_APPROVED",
-          "track": "OFFICE_CHOTU_WORKDAY"
+          "status": "DEFERRED_TO_FUTURE_REFERENCE__NOT_EP04B",
+          "track": "OFFICE_CHOTU_WORKDAY",
+          "previousStatus": "LOCKED_OFFICE_CHOTU_ACTIONS__PROSE_NOT_APPROVED",
+          "futureReferenceId": "FI-SHREYA-STATION-CHOTU-FOUR-WOMEN-CHARM-GAME-FUTURE"
         },
         {
           "id": "E04B-SHREYA-PAR-04",
@@ -1696,8 +1698,10 @@
               "continuity": "No invented photo, CCTV clip or shared knowledge of Jan1 Chintu accident."
             }
           ],
-          "status": "LOCKED_OFFICE_CHOTU_ACTIONS__PROSE_NOT_APPROVED",
-          "track": "OFFICE_CHOTU_WORKDAY"
+          "status": "DEFERRED_TO_FUTURE_REFERENCE__NOT_EP04B",
+          "track": "OFFICE_CHOTU_WORKDAY",
+          "previousStatus": "LOCKED_OFFICE_CHOTU_ACTIONS__PROSE_NOT_APPROVED",
+          "futureReferenceId": "FI-SHREYA-STATION-CHOTU-FOUR-WOMEN-CHARM-GAME-FUTURE"
         },
         {
           "id": "E04B-SHREYA-06",
@@ -1735,8 +1739,10 @@
               "limits": "No kissing, explicit exposure, genital/breast touching or new promise."
             }
           ],
-          "status": "LOCKED_OFFICE_CHOTU_ACTIONS__PROSE_NOT_APPROVED",
-          "track": "OFFICE_CHOTU_WORKDAY"
+          "status": "OLD_INDIVIDUAL_DRAFT_PENDING_NEW_ACCIDENT_FIRST_REPLAN",
+          "track": "OFFICE_CHOTU_WORKDAY",
+          "priorStatus": "LOCKED_OFFICE_CHOTU_ACTIONS__PROSE_NOT_APPROVED",
+          "continuityReview": "Previous upper-back private encounter is an unapproved proposal, not a continuation of a Jan02 group game. Author is discussing a new prior accidental office helper event; do not preemptively publish this beat."
         },
         {
           "id": "E04B-SOC-SR-01",
@@ -1850,23 +1856,26 @@
           "id": "E04B-PROSE-SHREYA-02",
           "time": "17:45–18:10",
           "title": "Seduce Him — the challenge changes its meaning",
-          "status": "DRAFT_NOT_APPROVED",
+          "status": "ARCHIVED_AS_FUTURE_REFERENCE_ONLY__NOT_EP04B",
           "paragraphs": [
             "Police duty khatam hone ke baad staff tea corner mein Shreya ne chaar willing colleagues se kaha, 'Ek acting game try karna hai? Different styles of charm. No marks, no duty instructions. Jo comfortable na ho, woh skip kare.' Chai helper ne premise suna aur smile karke haan ki. Shreya ne clear kiya ki woh judge karne ya kisi ko embarrass karne ka task nahi hai.",
             "Kavita ne audacious joke maara; Chotu ne equally dry reply de diya. Meera ne sincere appreciation ki; usne dil se thanks bola, par composed raha. Poonam ne direct eye contact ke saath compliment diya, phir apne aap hansi. Anjali ne clever wordplay chhedi; dono ne ek-dusre ko verbal punchlines de di. Koi 'winner' nahi bana.",
             "Shreya side se dekh rahi thi. Usse laga, command dene aur kisi ki genuine attention jeetne mein kitna farq hai. Kal society mein Chintu ki aankhon ka jo stunned expression tha, uski yaad achanak aayi. Lekin chai helper ne woh accident dekha hi nahi tha. Dono men ko woh aapas mein confuse nahi kar sakti thi."
-          ]
+          ],
+          "previousStatus": "DRAFT_NOT_APPROVED",
+          "futureReferenceId": "FI-SHREYA-STATION-CHOTU-FOUR-WOMEN-CHARM-GAME-FUTURE"
         },
         {
           "id": "E04B-PROSE-SHREYA-03",
           "time": "18:10–18:35",
           "title": "A choice, not a police instruction",
-          "status": "DRAFT_NOT_APPROVED",
+          "status": "WORKING_DRAFT_REPLAN_REQUIRED_NEW_ACCIDENT_FIRST",
           "paragraphs": [
             "Colleagues bahar nikal gayi toh Shreya ne apna after-duty sleeveless top pehna. Training ke baad shoulder blades tight lag rahe the. Usne Chotu se seedha poocha, 'Ek personal favour? Upper back par thoda balm laga doge? Agar awkward lage toh mat karna.' Chotu ne pehle poocha, 'Aap sure hain?' 'Haan. Aur tum sure ho toh hi.'",
             "Uske agree karne par Shreya ne baal ek taraf kiye, upper-back area uncovered rakha. Chotu ne sirf utna balm apply kiya jitna usne kaha tha. Na unnecessary touch, na hidden audience. Ek pal ki khamoshi mein Shreya ne apni breathing notice ki. Woh pehle laugh karne ko ready thi, lekin is baar words dheere aaye.",
             "'Bas, thanks,' usne kaha aur outer layer theek kar li. Chotu ne bhi halka smile diya, bina unke moment ko kisi promise mein badle. Shreya ko apni initiative se jo warmth mehsoos hui, woh kal ki accidental embarrassment se alag thi."
-          ]
+          ],
+          "previousStatus": "DRAFT_NOT_APPROVED"
         },
         {
           "id": "E04B-PROSE-SHREYA-04",
