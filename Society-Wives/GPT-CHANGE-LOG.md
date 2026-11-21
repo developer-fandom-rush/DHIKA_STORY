@@ -198,3 +198,13 @@ Use the exact label **Changed by GPT** in the Git commit message AND add a dated
 - **Provenance:** Author-provided correction; GPT-authored workflow/editorial UI implementation. Shreya example is a working outline, NOT approved prose or an amendment of her existing Episode 04A JSON plan.
 - **Unaffected:** Frozen Episode 02–03 reader, current narrative prose, all approval metadata, other characters' plots, existing navigation.
 - **Commits:** Protocol bbb673106d8f60f55618732b638628f705534e52; planning source 4a346d7df3c19603d47b5500c8d4ef9098eee891. Deployment to be verified separately.
+
+
+### 2026-11-21 — Changed by GPT — Save Shreya Episode 04A Scene 02 Part 1 as planning draft
+- **Author intent:** Asked whether assembled Scene 02 Part 1 is saved in the UI and requested the remaining Grok passes. Previous assistant explicitly had not saved/published Part 1, so GPT saved it now as a clearly unapproved working draft.
+- **New file:** `Society-Wives/episode-04a-shreya-scene02-part1-working-draft.json` containing ChatGPT SC05/SC06.1 opening and author-pasted Grok SC06.2 paragraphs unchanged.
+- **UI display:** `Society-Wives/ui/src/Planning.tsx` renders Part 1 in Shreya's Episode 04A Planning view, before the remaining plan scenes, without promotion to Read Story.
+- **Attribution:** SC06.2 = Grok-provided via user; SC05/06.1 = GPT assembled prior draft; UI integration = GPT-authored. The assembled draft retains a repetition at the SC06.1/SC06.2 seam pending author review.
+- **Open:** Arvind's exact door-entry motive; remaining SC07/SC08; author approval of final continuous prose. No direct Grok connector was available.
+- **Unaffected:** Frozen EP02/03, approved reader text, other leads, existing 04A plot JSON and status labels.
+- **Commits:** JSON 721169928b9d2ef6adf280d10b4cbe585d5e7bbd; UI 3981374ccf4401a88c8424893dcdadb386d64679. Live deployment not yet verified.
