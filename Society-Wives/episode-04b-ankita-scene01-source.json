@@ -207,5 +207,46 @@
     "B06 ends.",
     "\u000b"
   ],
-  "sceneEnd": "B06 ends."
+  "sceneEnd": "B06 ends.",
+  "pendingOriginalIllustrations": [
+    {
+      "order": 1,
+      "inlineObjectId": "kix.diltrnniraat",
+      "originalSourceElementIndex": 45,
+      "afterSection": "B01",
+      "beforeSection": "B02",
+      "location": "After 03:20 AM and before morning wake-up",
+      "assetPath": null,
+      "status": "ORIGINAL_BYTES_NOT_UPLOADED__EXPORT_403"
+    },
+    {
+      "order": 2,
+      "inlineObjectId": "kix.ic86fwgob7bf",
+      "originalSourceElementIndex": 51,
+      "afterSection": "B05",
+      "beforeSection": "B06",
+      "location": "Immediately before B06 heading",
+      "assetPath": null,
+      "status": "ORIGINAL_BYTES_NOT_UPLOADED__EXPORT_403"
+    },
+    {
+      "order": 3,
+      "inlineObjectId": "kix.c58hgye1ihp5",
+      "originalSourceElementIndex": 79,
+      "afterSection": "B06",
+      "beforeSection": null,
+      "location": "After final B06 paragraph, Scene 01 end",
+      "assetPath": null,
+      "status": "ORIGINAL_BYTES_NOT_UPLOADED__EXPORT_403"
+    }
+  ],
+  "imageTransferAudit": {
+    "sourceDocumentId": "1zcFlF9rWeIzaenBEmatt4K8bw3L-LcH3c_45JwoNM3o",
+    "sourceTabId": "t.ouch4dqht9mi",
+    "sourceTabTitle": "ANKITA_4B",
+    "totalOriginalImages": 3,
+    "sourceDocumentExport": "BLOCKED_GOOGLE_DRIVE_EXPORT_403",
+    "readerStatus": "IMAGE_BYTES_NOT_PRESENT__DO_NOT_SHOW_BROKEN_REFERENCES",
+    "preserveProseVerbatim": true
+  }
 }
