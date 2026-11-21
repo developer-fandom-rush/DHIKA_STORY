@@ -8,14 +8,14 @@ header{padding:24px max(18px,calc((100vw - 840px)/2));background:#251d2c;border-
 a{color:var(--accent)}h1{font:bold clamp(28px,4vw,40px)/1.15 Georgia,serif;margin:17px 0 7px}
 main{max-width:840px;margin:0 auto;padding:24px 18px 90px}.muted{color:var(--muted)}.scene{margin:18px 0 34px;border:1px solid var(--border);border-radius:14px;background:var(--panel);overflow:hidden}
 .scene summary{cursor:pointer;padding:17px 20px;font-weight:750;font-size:19px;color:var(--accent)}.scene-body{padding:0 20px 20px}
-.scene p{margin:0 0 12px;white-space:pre-wrap;overflow-wrap:anywhere}.scene p.heading{font-size:18px;font-weight:650;margin:20px 0 14px}
+.scene p{margin:0 0 12px;white-space:pre-wrap;overflow-wrap:anywhere}.scene p.heading{font-size:18px;font-weight:650;margin:20px 0 14px}.scene-part-heading{font:700 19px/1.35 Georgia,serif;color:var(--accent);margin:26px 0 14px;border-top:1px solid var(--border);padding-top:20px}
 .scene .missing-asset{padding:8px 11px;color:var(--muted);border-left:2px solid var(--border);font-size:13px;margin:10px 0;background:#1c1820}
 .note{border:1px solid var(--border);border-radius:12px;padding:13px 17px;margin:20px 0;color:var(--muted);font-size:14px}
 footer{max-width:840px;margin:auto;padding:0 18px 40px;color:var(--muted);font-size:13px}
 @media(max-width:600px){.scene summary{font-size:17px;padding:14px}.scene-body{padding:0 14px 14px}}
 </style></head><body><header><nav><a href="./index.html#/planning?lead=shivani">Society Wives · Shivani Planning</a><a href="https://docs.google.com/document/d/1zcFlF9rWeIzaenBEmatt4K8bw3L-LcH3c_45JwoNM3o/edit?tab=t.6exlxaqxwcq" target="_blank" rel="noreferrer">Source Google Doc (including images)</a></nav>
 <h1>Shivani · Episode 04A</h1><div class="muted">1 January 2026 · Source-tab manuscript · Saved scenes: <strong id="scene-count">…</strong></div>
-</header><main><div class="note">This reader reproduces the Shivani tab's text in original paragraph order. Illustrations remain in the source Google Doc; their placement references are preserved in the source JSON. Scene 04 is not in this document and has not been added.</div><div id="scenes" aria-label="Shivani scenes"></div></main>
+</header><main><div class="note">This reader preserves author-supplied prose and the latest Google Doc source order. Illustrations remain in the source Google Doc; their placement references are preserved in the source JSON. Scene 04 Part A and Part B buildup are imported from the latest source tab; B01 and B02 come from the author-provided conversation. The two duplicated hand-hold lines were removed from the published buildup only. Scene 04 continues beyond B02 and is not yet complete.</div><div id="scenes" aria-label="Shivani scenes"></div></main>
 <footer>Source: Episode 4A. → SHIVANI EP-04 A. Saved for reading, without modifying the Ankita tab or approved Episodes 01–03.</footer>
 <script>(async function(){
 const target=document.getElementById('scenes');
@@ -28,7 +28,9 @@ const el=document.createElement('details');el.className='scene';el.id='scene-'+s
 const summary=document.createElement('summary');summary.textContent=scene.title;el.appendChild(summary);
 const content=document.createElement('div');content.className='scene-body';
 for(const block of scene.blocks){
-if(block.type==='text'){
+if(block.type==='heading'){
+const h=document.createElement('h3');h.className='scene-part-heading';h.textContent=block.text;content.appendChild(h);
+}else if(block.type==='text'){
 const p=document.createElement('p');p.textContent=block.text;
 if(block.style?.startsWith('HEADING')||/^Episode 04A ·/.test(block.text))p.className='heading';
 content.appendChild(p);
