@@ -37,14 +37,14 @@
       "items": [
         {
           "label": "Deferred squeeze/pressure beat",
-          "note": "Old ledger B05 was the breast-squeeze action label, actor not assigned. Author specifically moved it out of this Scene 04 encounter for potential future use. Future episode, actor/receiver, consent, pacing and setting are not assigned; no automatic reintroduction.",
-          "decisionStatus": "FUTURE_INTENT__DETAILS_UNASSIGNED",
+          "note": "AUTHOR'S EXPLICIT SLOW-BURN DECISION (21 Nov 2026): defer stronger breast-focused touching/squeeze and buttock touching/slap to potential future encounters with Shivani and the twins. Reason is escalation pacing, NOT a wish merely to shorten prose. Current scene is an initial, more limited encounter (B01–B04 then apology); retaining more intimate actions for later allows today's surprising closeness to become familiar over time, while subsequent interactions can introduce distinct developments. Existing B04 chest-to-chest contact remains part of the current manuscript and is not the deferred breast-squeeze beat. Future placement/details are unassigned, and each interaction still requires independent in-scene willingness.",
+          "decisionStatus": "AUTHOR_CONFIRMED_FUTURE_INTENT__SLOW_BURN_ESCALATION_NOT_CURRENT",
           "futureIdeaId": "FI-SHIVANI-KARAN-AMAN-DEFERRED-SQUEEZE-01"
         },
         {
           "label": "Other earlier unsubmitted action-ledger candidates",
-          "note": "Exact historical labels from the earlier 12-beat handoff: B05 breast squeeze (actor unassigned; explicitly reserved as future-only); B06 buttock slap by Karan; B07 buttock slap by Aman; B08 deliberate pelvis-to-body pressing/movement with both twins; B09 close-body press with both twins. These were proposed in an older handoff, are absent from the latest author-provided B01–B04→apology prose, and are NOT approved future events. Only B05 has explicit future-intent status; do not silently reintroduce the others.",
-          "decisionStatus": "B05_FUTURE_INTENT__B06_B09_HISTORICAL_UNAPPROVED"
+          "note": "Historical handoff: B05 unassigned breast squeeze, B06 Karan buttock slap, B07 Aman buttock slap, B08 pelvis-to-body pressing/movement, B09 close-body press. The author now explicitly states that stronger breast/buttock touch and slap were removed TO RESERVE escalation for later. Therefore B05–B07-style categories are future-intended but are NOT approved as a specific occurrence, actor assignment, date or prose. B08/B09 remain historical/unapproved since the author has not separately reconfirmed those. No action from B05–B09 appears in the current Scene 04.",
+          "decisionStatus": "B05_B07_FUTURE_CATEGORIES__B08_B09_HISTORICAL_UNAPPROVED"
         },
         {
           "label": "No auto-import",
@@ -58,6 +58,11 @@
       "title": "Pacing and scene structure",
       "status": "DISCUSSION_RECORD",
       "items": [
+        {
+          "label": "Why the escalation was deliberately cut",
+          "note": "Author's reasoning: one first encounter should NOT contain too much physical escalation. Repeated gradual encounters can normalize earlier mild closeness before a later, stronger beat is introduced. Avoid exhausting the relationship's progression in the first scene. This is a story-structure decision, not an instruction to pad or trim a fixed number of words.",
+          "decisionStatus": "AUTHOR_EXPLICIT_SLOW_BURN_RULE"
+        },
         {
           "label": "Earlier duration proposal superseded",
           "note": "The earlier idea of 30–60 seconds for each physical beat, roughly 5 minutes encounter plus 3 minutes apology, was a proposed schedule, not a final locked duration. B04→apology is shorter than the original escalation plan; do not pad it just to match eight minutes.",
