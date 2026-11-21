@@ -3,7 +3,7 @@
   "series": "Society Wives — Five Veils of Desire",
   "episode": "04A",
   "lead": "shivani",
-  "status": "FOUR_SCENES_IN_READER__SCENE04_AUTHOR_SUPPLIED_THROUGH_APOLOGY_REVIEW_PENDING",
+  "status": "AUTHOR_CONFIRMED_PUBLISHED_IN_MAIN_READ_STORY__SCENES_01_04__HOME_FOLLOWUP_PENDING",
   "source": {
     "title": "Episode 4A.",
     "googleDocId": "1zcFlF9rWeIzaenBEmatt4K8bw3L-LcH3c_45JwoNM3o",
@@ -716,7 +716,7 @@
       "title": "Scene 04 — Kavya, Twins & The Challenge",
       "date": "2026-01-01",
       "time": "19:11 onwards",
-      "status": "AUTHOR_SUPPLIED_SCENE_THROUGH_APOLOGY__AWAITING_REVIEW",
+      "status": "AUTHOR_CONFIRMED_PUBLISHED_THROUGH_APOLOGY_AND_FLAT_ENTRY__NEXT_HOME_SCENE_PENDING",
       "blocks": [
         {
           "type": "heading",
@@ -1698,6 +1698,8 @@
     "authorProvidedBeats": "B01 and B02 copied as provided in the conversation, with no rewriting.",
     "future": "Scene 04 supplied through B04 and apology/flat entry. B05/B06 not submitted. Next: discuss pacing and continuity before any rewriting.",
     "untouched": "Scenes 01–03 remain exactly as previously imported. EP01–03 and Ankita are not edited.",
-    "newUserContent": "B03 and B04 author-supplied prose; apology and flat entry author-supplied prose; only plain-text layout normalization, no prose edits."
+    "newUserContent": "B03 and B04 author-supplied prose; apology and flat entry author-supplied prose; only plain-text layout normalization, no prose edits.",
+    "canonicalUI": "Main Society Wives Read Story → Episode 04A → Shivani. Published source and index drives reader; planning only tracks scenes 05–07.",
+    "approvalScope": "Author confirmed moving currently supplied scenes through the scene-04 exit into Read Story; this does not mark remaining home or Rohan scenes as completed."
   }
 }
