@@ -1672,7 +1672,7 @@
       "date": "2026-01-01",
       "time": "19:28–21:45",
       "place": "Ahuja Residence — living room, dining area and bedroom",
-      "status": "SCENE05_WITH_AUTHOR_SELECTED_IMAGES_IN_READER__PROSE_REVIEW_OPEN",
+      "status": "SCENE05_SAVED__OM_POST_DINNER_FORESHADOW_REMOVED__PROSE_REVIEW_OPEN",
       "origin": "GPT draft requested by author in chat, extended by author direction: Rohan notices Shivani, Manav notices Kavya, Om privately notices both and is not caught; Om present at home",
       "sourcePlanId": "E04A-SH-S05",
       "blocks": [
@@ -1736,7 +1736,7 @@
         },
         {
           "type": "text",
-          "text": "Apne kamre mein Shivani ko subah wala burgundy saree aur blouse yaad aaya—Rohan ke liye socha hua surprise, jo tab adhura reh gaya tha. Usne kapde wardrobe se nikaale aur ek baar living room ki taraf dekha. Rohan wahin tha. Shivani muskurayi. Is baar surprise poora karna tha. Use abhi nahi pata tha ki kuch hi der mein Om Uncle Rohan ko bahar ek zaroori kaam se bhejne wale hain.",
+          "text": "Apne kamre mein Shivani ko subah wala burgundy saree aur blouse yaad aaya—Rohan ke liye socha hua surprise, jo tab adhura reh gaya tha. Usne kapde wardrobe se nikaale aur ek baar living room ki taraf dekha. Rohan wahin tha. Shivani muskurayi. Is baar surprise poora karna tha.",
           "style": "NORMAL_TEXT",
           "origin": "gpt-author-directed-scene05",
           "draftParagraph": 6
@@ -1744,12 +1744,11 @@
       ],
       "reviewNotes": [
         "Pairings of glances: Rohan notices Shivani; Manav notices Kavya. Does not establish a new romance or physical escalation.",
-        "Om Uncle is explicitly present at dining table, then living room near Rohan before Scene 06 errand.",
         "Original EP04A Scene05 planned as four beats; compressed into short connecting prose. This is not author-final-locked until review.",
         "No changes to previous scene, images or approved EP01–03.",
         "Om Uncle's private, unobserved attraction toward both adult women is now subtly foreshadowed at ~20:10, without overt contact or graphic fantasy. Nobody catches his gaze.",
-        "Do not infer a reaction/explicit fantasy during the separate ~22:02 surprise: current Scene 06 plan prohibits private Om POV after that reveal. His earlier private glance remains unknown to others.",
-        "Author-selected dinner images added from generated chat images (not the previously rejected dinner references), stored as original PNGs in GitHub assets and in Society Wives Image Library/Shivani/Episode 04A/Scene 05 Dinner on Google Drive."
+        "Author-selected dinner images added from generated chat images (not the previously rejected dinner references), stored as original PNGs in GitHub assets and in Society Wives Image Library/Shivani/Episode 04A/Scene 05 Dinner on Google Drive.",
+        "21 Nov author update: post-dinner Om wrong-surprise/errand removed from EP04A and reserved in future-ideas.json. Remove only its now-invalid foreshadowing sentence; the already-written dinner and preceding Om observations remain."
       ],
       "imageAssets": [
         {
@@ -1788,7 +1787,7 @@
     "kix.qcyu89bqz129"
   ],
   "imageImportStatus": "14 inline-image references recorded from the updated Google Doc; no images imported into UI at author's request; original images remain in Drive.",
-  "editorialNote": "Only the Shivani tab from Episode 4A. Ankita tab untouched. Scene 04 not present in this source. This is a word-for-word imported document text, not a newly approved/revised story.",
+  "editorialNote": "Only the Shivani tab from Episode 4A. Ankita tab untouched. Scene 04 not present in this source. This is a word-for-word imported document text, not a newly approved/revised story. 21 Nov 2026: no post-dinner Om wrong-surprise in current EP04A; future-only idea FI-SHIVANI-OM-OUTFIT-ACCIDENT-FUTURE-01.",
   "publicationNotes": {
     "sourceTextPreserved": "The sourceParagraphs array stores verbatim Scene04 Google Docs paragraphs. UI excludes only three duplicate transition lines by author instruction.",
     "authorProvidedBeats": "B01 and B02 copied as provided in the conversation, with no rewriting.",
