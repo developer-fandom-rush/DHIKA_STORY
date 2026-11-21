@@ -334,3 +334,12 @@ Use the exact label **Changed by GPT** in the Git commit message AND add a dated
 - Flagged original planned `E04B-SHREYA-04`/`05` as deferred and the old individual scene `06` as requiring an accident-first replan in office, merged chronology and prose reference JSON. Kept old text and all other leads' data intact. Changed `ui/src/Planning.tsx` to hide those old Shreya group/current-sequence cards while showing a Future Reference link; no new 04B prose published.
 - User's requested morning change remains in DISCUSSION: Vikram returns after night work, Shreya skips gym and phones Vivek for family time; no morning walk. Vivek's earlier rematch was in EP02, but no contest occurs during her absence, so the assistant's prior 'absence advantage' dialogue was invalid and withdrawn.
 - The accident timing, mechanism, distinct helper name and later deliberate follow-up remain open for author discussion.
+
+## 2026-11-21 — Taniya Google Doc inline images imported and Episode 04A planning UI decluttered
+
+- **Source:** User-supplied Google Doc `Episode 4A.`, Taniya tab `t.265eheolgvsu`; 8 original inline images read using Docs inlineObject IDs and document order.
+- **Assets:** Eight original PNG bytes (not AI regenerated or transient Docs contentUri links), stored at `assets/episode-04a-taniya/doc-taniya-01.png` through `doc-taniya-08.png`. Verified all eight asset paths exist on GitHub.
+- **Sequential reading:** Scene 03 adds 2 image blocks surrounding the original Soniya/Guddu passage; Scene 05 adds 6 image blocks in original document order: before the night heading, after Taniya's doorway question, before shirt-transition passage, after Rahul's approach passage, after wake-up line, and at scene end. Existing scenes 01–05 prose preserved verbatim; image captions omitted.
+- **Reference metadata:** `taniya-image-import.json` now records eight stable object IDs, asset paths and SHA256 checksums and has status `completed`; temporary signed Google URLs cleared from its latest version.
+- **Planning cleanup:** Removed global broad actor–receiver workflow panel and Episode 04B picker from the live Episode 04A planning UI, changed title to `Episode 04A · Story status`, and forced the planning route to display Episode 04A only. Legacy 04B source records remain in repository for future continuity; not deleted.
+- **Verification:** GitHub Actions `Import original Taniya Google Doc inline images` workflow completed successfully and wrote image blocks. Latest Pages deployment subsequently rebuilt to include both assets and UI source.
