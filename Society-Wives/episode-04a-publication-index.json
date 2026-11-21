@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "title": "Society Wives — Episode 04A Reader Publication Index",
   "episode": "04A",
-  "instruction": "Once author approves and source prose is saved, update publication metadata here. The main Reading UI renders published prose; Planning displays only unpublished work and a Read Story status link. Never infer publication from a plot outline alone.",
+  "instruction": "MANDATORY: When the author approves a completed scene for publication, save scene prose and approved image thumbnails into the episode Reading source, mark the scene as published/completed in this index, and physically remove that scene object from the active plot JSON. The Planning UI and active plot must contain only unwritten/unpublished scenes. Do not merely hide completed scenes using UI filters. Verify GitHub source and, where possible, the live Pages deployment before claiming success.",
   "status": "ACTIVE_PUBLICATION_INDEX",
   "leads": {
     "ankita": {
@@ -85,7 +85,7 @@
         "04",
         "05"
       ],
-      "publicationScope": "Scenes 01–02 author-approved for publication 21 Nov 2026. Scene 02 Guddu-glance image is embedded as a GitHub-hosted WebP thumbnail. Scene 03 and later remain unpublished and open for discussion."
+      "publicationScope": "Taniya Episode 04A Scenes 01–02 published in Read Story with inline Guddu sightline image. Scenes 01–02 physically removed from the active 04A plot file. Only Scenes 03, 04, 05 remain to be written. Original prior plans recoverable via Git history."
     }
   }
 }
