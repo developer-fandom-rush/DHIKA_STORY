@@ -23,6 +23,13 @@ Use the exact label **Changed by GPT** in the Git commit message AND add a dated
 
 ## Entries
 
+### 2026-11-21 — Changed by GPT — Shivani Scene 04 B03, B04 and apology/exit published for author review
+- **Affected path:** `Society-Wives/episode-04a-shivani-source.json` (reader consumes this source).
+- **Attribution:** Author-provided conversation passages for B03, B04 and apology/flat entry, integrated as submitted. Only markdown presentation markers are normalized; wording, dialogue and sequence unchanged.
+- **Status:** Scene 04 now contains author-supplied material through the scene cut; **review pending**. B05/B06 were not supplied and were not invented. B04 exit-state's `Ready for B05` and apology's `Arre, utho dono` remain source-faithful and flagged for subsequent continuity review.
+- **No unrelated changes:** Episodes 01–03, Ankita, Drive original, and all image assets unchanged. No new images added.
+
+
 ### 2026-11-21 — Changed by GPT — Publish Shivani Episode 04A Scene 04 Part A, Part B buildup, B01 and B02
 - **Affected paths:** `Society-Wives/episode-04a-shivani-source.json`, `Society-Wives/episode-04a-shivani-reader.html`, `Society-Wives/ui/index.html`.
 - **Source attribution:** Google Docs `Episode 4A.` → `SHIVANI EP-04 A` (new Scene 04 Part A and Part B buildup); author-supplied chat excerpts labeled B01 and B02. GPT only integrated the supplied prose, preserved B01/B02 exact text, and reconciled the lead-in as directed.
