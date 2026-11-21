@@ -1408,6 +1408,84 @@
     "Shreya wears full-coverage white floral night-suit after dressing, not revealing clothes.",
     "Vikram's return at 06:00 the next morning makes old SC11–SC15 plan obsolete pending author-directed replot.",
     "Published for reading and review; not an author-approved final freeze.",
-    "GPT-added image illustration at towel consolation and dressed dinner exists in the original Google Doc; images are not yet inline in the GitHub reader."
-  ]
+    "Seven image assets are now durably stored in GitHub Society-Wives/assets/episode-04a-shreya, including two labelled alternate concepts separate from manuscript canon.",
+    "Scene 01 and Scene 02 are the only existing prose chapters in the author-provided Google Doc; no Scene 03 or 04 prose was invented."
+  ],
+  "illustrations": [
+    {
+      "id": "img-shower",
+      "afterSourceElementIndex": 117,
+      "file": "shreya-04a-01-shower.jpg",
+      "alt": "Shreya's private shower after the long day, cinematic steamy atmosphere",
+      "caption": "Scene 02 · Evening shower · Atmosphere reference",
+      "display": "inline"
+    },
+    {
+      "id": "img-towel",
+      "afterSourceElementIndex": 180,
+      "file": "shreya-04a-02-towel-reflection.jpg",
+      "alt": "Shreya wrapped in a towel, gathering herself emotionally after the interruption",
+      "caption": "Scene 02 · A quiet moment to recover",
+      "display": "inline"
+    },
+    {
+      "id": "img-reassurance",
+      "afterSourceElementIndex": 190,
+      "file": "shreya-04a-03-towel-reassurance.jpg",
+      "alt": "Arvind offers a reassuring, respectful moment while Shreya is wrapped in her towel",
+      "caption": "Scene 02 · Reassurance and personal space",
+      "display": "inline"
+    },
+    {
+      "id": "img-shoulder",
+      "afterSourceElementIndex": 197,
+      "file": "shreya-04a-04-towel-shoulder.jpg",
+      "alt": "Shreya leans beside Arvind while he offers quiet comfort",
+      "caption": "Scene 02 · The trust bridge",
+      "display": "inline"
+    },
+    {
+      "id": "img-sofa",
+      "afterSourceElementIndex": 197,
+      "file": "shreya-04a-05-towel-sofa.jpg",
+      "alt": "An alternate comforting sofa embrace concept with Shreya and Arvind",
+      "caption": "Alternative framing · A longer embrace is not established in the manuscript",
+      "display": "concept"
+    },
+    {
+      "id": "img-dinner",
+      "afterSourceElementIndex": 267,
+      "file": "shreya-04a-06-dressed-dinner.jpg",
+      "alt": "Fully dressed Shreya smiles as Arvind serves a home-cooked dinner",
+      "caption": "Scene 02 · Dressed dinner and her smile returns",
+      "display": "inline"
+    },
+    {
+      "id": "img-kitchen-concept",
+      "afterSourceElementIndex": 270,
+      "file": "shreya-04a-07-alt-towel-kitchen-concept.jpg",
+      "alt": "Alternative kitchen concept with Shreya in a towel",
+      "caption": "Unused concept · Towel in kitchen conflicts with the approved dressed-dinner continuity",
+      "display": "concept"
+    }
+  ],
+  "sceneIndex": [
+    {
+      "id": "01",
+      "title": "The Latch and the Loose Uniform Buttons",
+      "startSourceElementIndex": 0,
+      "endSourceElementIndex": 91,
+      "plotId": "SHR04A-S01",
+      "status": "READ_STORY_REVIEW_DRAFT"
+    },
+    {
+      "id": "02",
+      "title": "An Unexpected Evening — Shower, Consolation and Dinner",
+      "startSourceElementIndex": 92,
+      "endSourceElementIndex": 274,
+      "plotId": "SHR04A-S02",
+      "status": "READ_STORY_REVIEW_DRAFT"
+    }
+  ],
+  "assetRoot": "assets/episode-04a-shreya"
 }
