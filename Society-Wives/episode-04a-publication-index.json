@@ -88,7 +88,7 @@
         "04",
         "05"
       ],
-      "publicationScope": "Scenes 01–03 complete and in Read Story. Scenes 04–05 remain active plot only. In upcoming Scene 04, Soniya owns Taniya–Aditya wedding preparations, and she and Rahul leave home for that purpose at an unspecified future time; Taniya cares for the flat, not the wedding planning. AUTHOR CONFIRMED PERMANENT VOICE: Soniya acts like Sharmi (mischievous/bold/teasing), Rahul has Raj-like reserved contrast for future return. Soniya–Guddu and Rahul–Taniya Scene 03 author prose unchanged.",
+      "publicationScope": "Scenes 01–03 completed in Read Story. Scenes 04–05 remain only in active Planning; they have an unapproved working scaffold and per-beat Grok handoff ledger, NOT final prose. Scene 04: Soniya handles wedding preparations, couple later departs at unspecified date, Taniya cares for flat. Scene 05: both Soniya/Rahul physically absent; any apparent Rahul visit occurs only in Taniya's imagined scene, with dream reveal for reader at end. Permanent Soniya-as-Sharmi voice lock remains active.",
       "authorConfirmedFutureLocks": {
         "soniyaVoice": "SONIYA ACTS LIKE SHARMI, a permanent future-story character direction (not a literal transfer of Dhika events)",
         "soniyaWeddingRole": "Soniya personally handles wedding preparations for Taniya and Aditya",
@@ -96,6 +96,11 @@
         "taniyaHouseCare": "Taniya looks after their home during their absence, not the wedding work",
         "travelTime": "UNKNOWN",
         "rahulReference": "Raj-like polite/reserved counterpart on eventual return"
+      },
+      "workingDrafts": {
+        "scenes04_05": "episode-04a-taniya-scenes04-05-working-scaffold.md",
+        "scene05NeutralHandoff": "episode-04a-taniya-scene05-microbeat-handoff.json",
+        "status": "PENDING_EXTERNAL_MICROBEAT_INSERTIONS_AND_AUTHOR_APPROVAL__NOT_PUBLISHED"
       }
     },
     "meenakshi": {
