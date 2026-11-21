@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "episode": "04A",
   "lead": "shreya",
-  "manuscriptStatus": "WORKING_MANUSCRIPT_PUBLISHED_FOR_AUTHOR_REVIEW__NOT_FROZEN",
+  "manuscriptStatus": "SCENES_01_03_AUTHOR_REQUESTED_SAVED_FOR_READING__FINAL_FREEZE_PENDING",
   "source": {
     "type": "google-doc-author-manuscript-with-GPT-author-requested-revision",
     "url": "https://docs.google.com/document/d/1zcFlF9rWeIzaenBEmatt4K8bw3L-LcH3c_45JwoNM3o/edit?tab=t.90gza05r7hjd",
@@ -1401,15 +1401,60 @@
       "sourceElementIndex": 274,
       "text": "\u000b",
       "imageObjectIds": []
+    },
+    {
+      "sourceElementIndex": 275,
+      "text": "Scene 03 — Night Closure",
+      "imageObjectIds": []
+    },
+    {
+      "sourceElementIndex": 276,
+      "text": "SC09.1 — Shreya · Bedroom",
+      "imageObjectIds": []
+    },
+    {
+      "sourceElementIndex": 277,
+      "text": "Anaya ko doodh pilate hue Shreya ne din bhar ke lamhe yaad kiye—Vivek, training ground, Chintu aur shaam ka woh unexpected incident. Arvind Uncle ka baad ka caring behaviour bhi yaad aaya.",
+      "imageObjectIds": []
+    },
+    {
+      "sourceElementIndex": 278,
+      "text": "Usne Anaya ko pyaar se sulaya aur dheere se muskurayi.",
+      "imageObjectIds": []
+    },
+    {
+      "sourceElementIndex": 279,
+      "text": "\"Bas, Shreya. Aaj ke liye bahut ho gaya. Kal phir fresh start.\"",
+      "imageObjectIds": []
+    },
+    {
+      "sourceElementIndex": 280,
+      "text": "Woh bhi thakaan se so gayi.",
+      "imageObjectIds": []
+    },
+    {
+      "sourceElementIndex": 281,
+      "text": "SC09.2 — Meanwhile, Arvind · Private Room",
+      "imageObjectIds": []
+    },
+    {
+      "sourceElementIndex": 282,
+      "text": "Arvind apne kamre mein akele the. Bathroom ka unexpected encounter baar-baar unki yaadon mein laut raha tha. Dinner ke waqt unhone Shreya ki privacy aur comfort ko priority di thi, lekin unki purani attraction ab bhi maujood thi.",
+      "imageObjectIds": []
+    },
+    {
+      "sourceElementIndex": 283,
+      "text": "Akele mein woh phir apni purani masturbation habit ki taraf laut gaye. Shreya ko unki is private reaction ka koi pata nahi tha.",
+      "imageObjectIds": []
     }
   ],
   "notes": [
     "New towel consolation stays in living room; Arvind never re-enters bathroom.",
     "Shreya wears full-coverage white floral night-suit after dressing, not revealing clothes.",
-    "Vikram's return at 06:00 the next morning makes old SC11–SC15 plan obsolete pending author-directed replot.",
     "Published for reading and review; not an author-approved final freeze.",
     "Seven image assets are now durably stored in GitHub Society-Wives/assets/episode-04a-shreya, including two labelled alternate concepts separate from manuscript canon.",
-    "Scene 01 and Scene 02 are the only existing prose chapters in the author-provided Google Doc; no Scene 03 or 04 prose was invented."
+    "Author-requested SC09 night closure saved as a third 04A reader scene; child feeding and sleep remain Shreya's experience while Arvind's old private habit is named only as off-page fact. No new sexual depiction introduced.",
+    "The original Google Doc now includes this closing section; 04A ends with Shreya asleep and Arvind alone, not dinner."
   ],
   "illustrations": [
     {
@@ -1485,6 +1530,14 @@
       "endSourceElementIndex": 274,
       "plotId": "SHR04A-S02",
       "status": "READ_STORY_REVIEW_DRAFT"
+    },
+    {
+      "id": "03",
+      "title": "Night Closure — Shreya Sleeps, Arvind's Private Aftermath",
+      "startSourceElementIndex": 275,
+      "endSourceElementIndex": 283,
+      "plotId": "SHR04A-SC09-NIGHT-CLOSURE",
+      "status": "AUTHOR_REQUESTED_SAVED_FOR_READING__FINAL_FREEZE_PENDING"
     }
   ],
   "assetRoot": "assets/episode-04a-shreya"
