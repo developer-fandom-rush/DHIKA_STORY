@@ -50,8 +50,8 @@ export default function FutureReference({lead='ankita'}:{lead?:string}){
   </section>}
   {active==='shreya'&&<section className="episode-plan-card" id="shreya-ep04a-current-closure">
    <h2>Shreya · Episode 04A — Current continuity lock</h2>
-   <p><strong>Scenes 01 and 02:</strong> Shreya's author-provided manuscript, including the Chintu door-latch event, shower, accidental interruption, separate towel consolation, full-coverage white floral night-suit and dinner, has been transferred into Read Story. Images are included there.</p>
-   <p><strong>Closing beat:</strong> Dinner with Arvind and Shreya's restored smile. No later 04A prose has been established in this manuscript. Final author freeze remains pending.</p>
+   <p><strong>Scenes 01–03:</strong> Shreya's author-provided manuscript, including the Chintu door-latch event, shower, accidental interruption, separate towel consolation, full-coverage white floral night-suit, dinner and SC09 Night Closure, has been transferred into Read Story. Images are included there.</p>
+   <p><strong>Closing beat:</strong> SC09 Night Closure follows the dinner. Shreya's and Arvind's separate nighttime viewpoints close this episode. No additional 04A prose is established beyond SC09. Final author freeze remains pending.</p>
    <p><strong>Vikram:</strong> His call sets a return of approximately 6:00 AM on 2 January 2026. The older plot's 8:40–8:50 PM arrival and married-night continuation conflict and are archived as superseded, not approved events.</p>
    <p><strong>Deferred:</strong> Arvind's pre-existing private attraction remains his own knowledge. No automatic romantic reciprocity or future event is confirmed for Shreya.</p>
    <button type="button" className="button subtle" onClick={()=>openPage('reading',{episode:'04A',character:'shreya'})}>Read Shreya Episode 04A</button>
