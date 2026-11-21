@@ -7,7 +7,7 @@
   "date": "2026-01-01",
   "timezone": "Asia/Kolkata",
   "title": "Episode 04A — Taniya & Soniya: Guddu, Rahul, the Night and the Dream",
-  "status": "ACTIVE_PLOT_ONLY__SCENES_03_04_05_PENDING__SCENES_01_02_PUBLISHED_IN_READER",
+  "status": "ACTIVE_PLOT_ONLY__SCENES_04_05_PENDING__SCENE03_MOVED_TO_READER__DISCLOSURE_TRACK_DISCONTINUED",
   "canonChecks": {
     "episode02": "Taniya × Karan–Aman morning gym familiarity is Episode 02 TS05, not the later lobby collision.",
     "episode03": "Episode 03 T03-10 Guddu wedding quotation ~20:08–20:15; T03-11 Karan and Aman lobby ~20:16–20:24; T03-12 Soniya/Rahul shared flat ~20:25–21:00. Published Episode 03 prose is author-approved and frozen; do not migrate any of those scenes into 04A.",
@@ -36,84 +36,25 @@
   ],
   "scenes": [
     {
-      "scene": "03",
-      "start": "21:22",
-      "end": "21:36",
-      "title": "Soniya's bold test at the door / Taniya's real mix-up",
-      "location": "Shared flat · entryway and separate Taniya bedroom",
-      "beats": [
-        {
-          "id": "TS04A-05",
-          "time": "21:22–21:26",
-          "title": "Guddu returns Taniya's dropped pen",
-          "plot": "As Taniya settles back inside, Guddu comes to the flat door with her pen and a small docket she dropped in the service bay; Soniya opens, having heard about the accident. Soniya wears her own fitted, ordinary athletic/lounge top, and deliberately treats the exchange as a chance for cheeky flirtation rather than pretending to be shy.",
-          "dialogue": [
-            {
-              "speaker": "Soniya",
-              "line": "Guddu babu, Taniya ke saath accident ho gaya? Ya har kisi ko aise hi nervous kar dete ho?"
-            },
-            {
-              "speaker": "Guddu",
-              "line": "Arre didi, bag ka strap phansa tha. Sach mein."
-            }
-          ]
-        },
-        {
-          "id": "TS04A-06",
-          "time": "21:26–21:33",
-          "title": "A concrete three-question confidence test",
-          "plot": "Soniya steps into the bright entryway, takes off her loose outer shrug to show the athletic top she intentionally chose, and challenges Guddu to make eye contact, say which color he thinks suits her better, and offer one honest non-work compliment without looking at his delivery note. She lightly offers a short hand-hold when he agrees. Guddu manages a witty answer about her confidence rather than stumbling; Soniya laughs and releases his hand. The test is her chosen presentation, a direct spoken challenge and a moment of mutually welcomed physical closeness—not an accidental exposure or a repeat of Taniya's trolley.",
-          "physical": "Fully clothed self-presentation, brief hand-hold and direct gaze; no forced intimate touching or on-page sex.",
-          "dialogue": [
-            {
-              "speaker": "Soniya",
-              "line": "Teen sawaal. Aankhon mein dekh ke bolo: yeh colour mujh par suit karta hai? Main confident lag rahi hoon? Aur ek compliment — bina receipt dekhe."
-            },
-            {
-              "speaker": "Guddu",
-              "line": "Colour bhi, confidence bhi. Aur aapke sawaal... sabse zyada dangerous."
-            },
-            {
-              "speaker": "Soniya",
-              "line": "Wah, Guddu babu. Aaj audit pass."
-            }
-          ],
-          "reaction": "Soniya is openly amused and in control; Guddu is interested but practical, and leaves with no sudden commitment or invented sexual encounter."
-        },
-        {
-          "id": "TS04A-07",
-          "time": "21:26–21:29",
-          "title": "Reality: Rahul opens the wrong door and immediately leaves",
-          "plot": "In a separate simultaneous room, Taniya is changing into night clothes. Rahul, looking for a charger he thought had been left there, pushes open the door without realizing she is midway through changing. He briefly sees her in her bra and trousers, apologizes and turns away immediately, without stepping closer or touching her. The actual accident ends there. The source's earlier reader-only privacy incident remains unknown to Taniya.",
-          "knowledge": "To the reader, this first version may cut on the sudden doorway interruption. The expanded suggestive banter seen later is deliberately a dream, not reality."
-        },
-        {
-          "id": "TS04A-08",
-          "time": "21:33–21:36",
-          "title": "Soniya says goodnight to Guddu",
-          "plot": "Soniya takes the returned pen and docket. Guddu departs to finish the counter closure; Soniya goes back inside. No one is told Taniya's private room mix-up as gossip.",
-          "reaction": "Home returns to the existing three adult residents, with all three in distinct spaces."
-        }
-      ]
-    },
-    {
       "scene": "04",
       "start": "21:36",
       "end": "22:45",
-      "title": "Sisters, married couple, and separate bedtime",
+      "title": "Temporary household handover — future absence setup and bedtime",
       "location": "Shared flat",
       "beats": [
         {
           "id": "TS04A-09",
           "time": "21:36–22:15",
-          "title": "Normal evening, no public confession",
-          "plot": "Taniya and Soniya settle household tasks and wedding paperwork; Rahul and Soniya continue their pre-existing private conversation about the morning gym encounter without an invented list of sexual rules. Their marriage is not rewritten as a new agreement granting automatic consent to everything. Soniya's independent later romantic/sexual decisions are not a lesson Taniya must follow."
+          "title": "Set up Soniya–Rahul temporary absence; Taniya to care for flat",
+          "plot": "Soniya and Rahul set up a forthcoming period away from the shared flat, leaving its day-to-day care to Taniya. This is a future absence setup, NOT their actual departure tonight. Exact reason, departure date, duration, destination and return date are NOT SPECIFIED — AUTHOR REVIEW. Keep household arrangement practical and concise. Do not write or continue the Vivek gym-event disclosure or invent Rahul's response. Taniya's existing knowledge of morning events is not erased, but this story track is discontinued.",
+          "sourceStatus": "AUTHOR_DIRECTED_NEW_PLOT__PROSE_PENDING",
+          "knowledgeLimit": "No calendar date or return time. The couple has not yet left. No new claims about Rahul's reaction to Vivek."
         },
         {
           "id": "TS04A-10",
           "time": "22:15–22:45",
-          "title": "Each resident retires",
-          "plot": "Taniya goes to her own bedroom; Rahul and Soniya retire as an established married couple. The home has only Taniya, Soniya and Rahul for the night. Taniya is tired after her confirmed long office shift."
+          "title": "Night closes; couple still at home, Taniya has the forthcoming responsibility",
+          "plot": "On this same night, Taniya retires in her own bedroom after a long workday; Soniya and Rahul retire separately in their shared room. A later period when the couple is away and Taniya minds the flat is set up but has not started. Keep transition short; the next narrative focus is Taniya's imagination."
         }
       ]
     },
@@ -121,14 +62,14 @@
       "scene": "05",
       "start": "22:45",
       "end": "23:10",
-      "title": "The doorway replays — dream and delayed reveal",
+      "title": "Taniya's imagination — doorway replay and waking reality",
       "location": "Taniya's sleeping mind / the actual shared flat",
       "beats": [
         {
           "id": "TS04A-11",
           "time": "22:45–22:58",
-          "title": "A continuation that initially appears real",
-          "plot": "In Taniya's dream, the earlier doorway interruption appears to continue: instead of leaving, Rahul engages in their familiar audit-style jiju-saali banter. She challenges his teasing and the conversation becomes unusually daring. The dream uses close looks, charged pauses and mischievous retorts, not graphic undressing or genital exposure. Their banter ends as she playfully ushers him toward the door; in the imagined ending there is a brief affectionate cheek kiss and hug. This is only the imagined scenario, not a real encounter or proof of Rahul's consent in waking life.",
+          "title": "Taniya imagines the doorway encounter continuing",
+          "plot": "Taniya's imagination replays the earlier Rahul doorway interruption and takes it in a direction different from the actual incident. Preserve her familiar audit-style jiju–saali banter, gradual shift in confidence, and that this is not a new waking-life encounter. Keep exact author-selected actions for review; do not fabricate further real contact. Earlier Scene 03 manuscript already shows Rahul's apology and retreat, so the scene's effect is the difference between reality and imagination rather than a hidden factual revelation.",
           "dialogue": [
             {
               "speaker": "Taniya",
@@ -147,14 +88,14 @@
         {
           "id": "TS04A-12",
           "time": "22:58–23:05",
-          "title": "The reality switch",
-          "plot": "Taniya wakes and recalls the actual moment correctly: Rahul had apologized and turned away as soon as he noticed she was changing. The daring conversation and imagined affectionate contact never occurred. Narrator reveals only here that the longer scene was a dream, without retroactively altering the earlier consent or secret-knowledge locks."
+          "title": "Taniya wakes; distinguishes imagination from what happened",
+          "plot": "Taniya wakes and recognizes that the alternate interaction was imagined. In reality Rahul apologized, avoided further observation and exited immediately; the author-supplied Scene 03 event stands unchanged. Taniya does not gain knowledge of Rahul's unrelated earlier covert observation."
         },
         {
           "id": "TS04A-13",
           "time": "23:05–23:10",
           "title": "1 January ends",
-          "plot": "She settles the bedding and sleeps, still curious about the day's surprising social encounters but with no real sexual encounter with Rahul. Soniya and Rahul are already in their own room. Fade out to the quiet apartment."
+          "plot": "She settles back to sleep. Soniya and Rahul remain in their own bedroom tonight; their temporary absence begins at an unspecified later time. End January 1 without assigning a departure or return date."
         }
       ]
     }
@@ -166,11 +107,13 @@
   },
   "approvalRules": [
     "Episode 03 T03-10/11/12 are approved frozen prose; do not revise, duplicate or migrate into Episode 04A.",
-    "Distinguish actual Rahul door-opening (brief glimpse, apology, retreat, no touch) from Taniya's imagined dream continuation (teasing, non-graphic affectionate contact). Reveal the dream only in Scene 05.",
     "Prior EP02 Rahul secret watching is reader-only; Taniya has not learned of it. TS01 married couple banter is not a disclosure of that secret.",
     "Soniya is the initiator of her own bold verbal/visual outfit test with Guddu; he has a clear opportunity to respond, and there is no forced contact.",
     "Past Soniya–Rahul marital facts remain intact; future choice to have sex with another adult, when/if decided, needs its own separate scene and consensual off-page fade-to-black. Do not claim it already occurred.",
-    "All newly proposed clock times remain review-only pending author approval. No prose or earlier episode is overwritten."
+    "All newly proposed clock times remain review-only pending author approval. No prose or earlier episode is overwritten.",
+    "Published Scene 03 real Rahul/Taniya retreat remains canon; Scene 05 expands Taniya's imagination, not the real encounter.",
+    "Do not write a Soniya–Rahul Vivek disclosure follow-up in Scene 04. The previously frozen Episode 03 beginning of the conversation remains unchanged; do not invent its conclusion.",
+    "Soniya and Rahul's future absence is only a setup: Taniya minds the flat; exact departure and return time, duration and reason are unspecified. Sharmi/Raj are reference character dynamics, not literal substitute identities."
   ],
   "writerReviewCorrections": {
     "status": "AUTHOR_REQUESTED_REVIEW_NOTES_ONLY__NO_EXISTING_SCENES_EDITED",
@@ -179,7 +122,7 @@
       {
         "beat": "TS04A-07",
         "issue": "Existing Scene 03 labels waking reality and Rahul's immediate exit before the imagined continuation is shown. This spoils the eventual reveal.",
-        "toReview": "At prose drafting, conceal the true version until the later reveal. The actual occurrence is only the brief accidental door opening, apology and Rahul leaving; a longer conversation is not real."
+        "toReview": "Preserve the already published Scene 03 Rahul/Taniya passage verbatim and its immediate retreat. Scene 05 is explicitly an imaginative contrast, not a retroactive rewrite."
       },
       {
         "beat": "TS04A-11",
@@ -189,7 +132,7 @@
       {
         "beat": "TS04A-12",
         "issue": "A title mentioning a dream and the word 'In Taniya's dream' in upfront writer text can accidentally make its way into narration and disclose the twist early.",
-        "toReview": "Only reveal after the apparent scene ends: Taniya wakes, and the narration shows Rahul had apologized and left promptly. Keep both timeline levels distinct in internal metadata."
+        "toReview": "Taniya wakes and recognizes her imagined continuation as unreal. Scene 03 has already narrated the actual retreat; do not claim the reader only discovers the real event here."
       },
       {
         "beat": "TS04A-13",
@@ -222,10 +165,22 @@
   "completedAndMovedToReader": {
     "sceneIds": [
       "01",
-      "02"
+      "02",
+      "03"
     ],
     "readingSource": "episode-04a-taniya-soniya-source.json",
     "publicationIndex": "episode-04a-publication-index.json",
-    "note": "Completed scenes physically removed from this active plot JSON, not just hidden in UI. The approved prose and scene imagery live in the reading source. The previous plot versions remain recoverable in Git history, not duplicated in active planning."
+    "note": "Episode 04A Scenes 01-03 are now reader content. Scene 03 closes in one sentence. Earlier plot versions remain in Git history."
+  },
+  "futureDirection": {
+    "authorConfirmedAt": "2026-11-21",
+    "soniya": "Sharmi-inspired playful, bold social energy; analogy is characterization only, not Dhika plot import",
+    "rahul": "Raj-inspired relatively polite/reserved social presence after his eventual return; future return date UNKNOWN",
+    "homeCaretaker": "Taniya",
+    "absenceSetup": "Soniya and Rahul will leave their shared flat in Taniya's care for some time. Reason, departure time, duration and return time undecided.",
+    "startDate": null,
+    "endDate": null,
+    "sourceReference": "Dhika — Complete Episode Archive (Tabs), Sharmi/Raj characterization around early introduction and EP12; author direction in conversation",
+    "notApprovedForProse": "No concrete travel reason or timeframe has been chosen."
   }
 }
