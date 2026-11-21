@@ -97,7 +97,12 @@ jobs:
           git add Society-Wives/index.html Society-Wives/assets/
           if ! git diff --cached --quiet; then
             git commit -m "fix(pages): sync built Society Wives reader into source [skip ci]"
-            git push origin HEAD:main
+            # Concurrent manuscript edits may advance main after checkout.
+            # The Pages artifact below already contains the correct Vite build,
+            # so a rejected optional source sync must NOT block deployment.
+            if ! git push origin HEAD:main; then
+              echo "::warning::Compiled UI source sync skipped because main advanced; proceeding with Pages artifact."
+            fi
           fi
 
       - name: Prepare static site
