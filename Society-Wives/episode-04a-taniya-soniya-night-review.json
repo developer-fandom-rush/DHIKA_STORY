@@ -7,7 +7,7 @@
   "date": "2026-01-01",
   "timezone": "Asia/Kolkata",
   "title": "Episode 04A — Taniya & Soniya: Guddu, Rahul, the Night and the Dream",
-  "status": "ACTIVE_PLOT__SCENES_04_05_WRITER_INTEGRATION_PENDING__SCENE03_PUBLISHED",
+  "status": "EPISODE_04A_TANIYA_SCENES_01_TO_05_COMPLETE_IN_READ_STORY__NO_ACTIVE_PLOT",
   "canonChecks": {
     "episode02": "Taniya × Karan–Aman morning gym familiarity is Episode 02 TS05, not the later lobby collision.",
     "episode03": "Episode 03 T03-10 Guddu wedding quotation ~20:08–20:15; T03-11 Karan and Aman lobby ~20:16–20:24; T03-12 Soniya/Rahul shared flat ~20:25–21:00. Published Episode 03 prose is author-approved and frozen; do not migrate any of those scenes into 04A.",
@@ -34,82 +34,7 @@
       "role": "23 · Society Chotu; wedding quotation and errands helper"
     }
   ],
-  "scenes": [
-    {
-      "scene": "04",
-      "start": "21:36",
-      "end": "LATER — UNSCHEDULED",
-      "title": "Wedding-preparation handover and later departure",
-      "location": "Shared flat; later departure at unspecified date",
-      "beats": [
-        {
-          "id": "TS04A-09",
-          "time": "21:36 onwards, 1 January 2026",
-          "title": "Soniya assumes wedding preparations; Taniya will look after home",
-          "plot": "Soniya, acting with her permanent Sharmi-like mischievous confidence, takes charge of Taniya–Aditya wedding arrangements and establishes that she and Rahul must be away for them. Taniya will care for the shared flat while they are away; wedding planning stays with Soniya. Keep dialogue short and in-character. No Vivek disclosure scene.",
-          "sourceStatus": "AUTHOR_CONFIRMED_DIRECTION__PROSE_UNAPPROVED",
-          "knowledgeLimit": "Exact travel date, destination, length and return time not specified."
-        },
-        {
-          "id": "TS04A-10",
-          "time": "AFTER SCENE 03 — LATER DATE UNSCHEDULED",
-          "title": "Soniya and Rahul actually leave for preparations; Taniya remains home",
-          "plot": "After the setup, in a later undated transition, Soniya and Rahul leave for wedding preparations. Taniya is the sole resident present during the subsequent imagined replay. The departure must precede Scene 05; do not retain the earlier draft that kept them both in their room on the dream night. Do not invent itinerary, departure time, duration, destination or return. This is author-directed source continuity, but prose is pending.",
-          "sourceStatus": "LATEST_AUTHOR_DIRECTED_ABSENCE_DURING_IMAGINATION__PROSE_UNAPPROVED",
-          "knowledgeLimit": "No known travel schedule. Rahul is NOT physically home during Scene 05's imagined encounter."
-        }
-      ],
-      "proseRequirement": "AUTHOR_DIRECTED: Scene 04 entire wedding-preparations/leaving discussion and later departure should be ONE paragraph only, no expanded exchange, no separate extra closing paragraph. Scene 03 ends in its existing single line."
-    },
-    {
-      "scene": "05",
-      "start": "LATER DATE — UNSCHEDULED",
-      "end": "UNSCHEDULED",
-      "title": "The apparent return — Taniya's doorway replay and reader-only end reveal",
-      "location": "Shared flat; Taniya alone in waking reality",
-      "beats": [
-        {
-          "id": "TS04A-11",
-          "time": "Later night; exact date/time NOT SPECIFIED",
-          "title": "Apparent Rahul return and doorway continuation — imagined",
-          "plot": "The reader initially experiences an apparently real Rahul/Taniya encounter while Soniya and Rahul are, in waking reality, absent for Soniya-led wedding preparations. Taniya replays the previously established January 1 doorway incident through a changed, more daring interaction using their familiar audit-style jiju–saali voice. Writer-side metadata marks the whole apparent exchange as IMAGINED; reader-facing prose must NOT reveal that fact before the final wake-up beat. Exact newly desired actions/intensity beyond previously outlined teasing and imagined affectionate contact require the author's beat-level choices; no automatic explicit invention. Assign only individual selected expanded micro-beats to Grok, 300–400 target per selected beat, with separate insertion anchors.",
-          "sourceStatus": "AUTHOR_DIRECTED_PLOT_STRUCTURE__WRITER_INSERTS_PENDING",
-          "knowledgeLimit": "Rahul/Soniya are physically away; Taniya cannot know Rahul's EP02 secret observation; no real Rahul contact at this time.",
-          "microBeats": [
-            "TS04A-11.1",
-            "TS04A-11.2",
-            "TS04A-11.3",
-            "TS04A-11.4",
-            "TS04A-11.5"
-          ]
-        },
-        {
-          "id": "TS04A-12",
-          "time": "End of apparent encounter; later date/time unknown",
-          "title": "Reader reveal — Taniya wakes alone",
-          "plot": "The final reader-facing reveal shows Taniya waking alone in the flat. Rahul was not present during any of the apparent continuation. His actual January 1 doorway apology and immediate exit remain word-for-word as already published in Scene 03; the reader is only now told the expanded encounter they just experienced was imagined. Keep no 'dream' heading, 'imagined' status or narrator aside in the opening/insertions of Scene 05.",
-          "sourceStatus": "AUTHOR_DIRECTED_REVEAL_POSITION__PROSE_UNAPPROVED",
-          "knowledgeLimit": "No awakening confers knowledge of Rahul's unrelated earlier EP02 voyeurism.",
-          "microBeats": [
-            "TS04A-12.1"
-          ]
-        },
-        {
-          "id": "TS04A-13",
-          "time": "Immediately after reveal; later date unknown",
-          "title": "Brief closing; house still under Taniya's care",
-          "plot": "One brief line of aftermath at most; Soniya and Rahul remain away. Do not invent their return, another physical encounter or a Jan 1 time stamp. End reader-facing scene after the reveal without an overlong recap.",
-          "sourceStatus": "DRAFT_CLOSURE_PLAN__AUTHOR_REVIEW",
-          "microBeats": [
-            "TS04A-13.1"
-          ]
-        }
-      ],
-      "preparedMicroBeatSheet": "episode-04a-taniya-scene05-beat-sheet.md",
-      "preparedMicroBeatHandoff": "episode-04a-taniya-scene05-microbeat-handoff.json",
-      "microBeatStatus": "SEVEN_BEATS_PREPARED_FOR_AUTHOR_REVIEW__G01_G02_PENDING_WRITER__G03_UNDECIDED"
-    }
-  ],
+  "scenes": [],
   "day2Scope": {
     "punitOffice": "First Punit accident is still Jan2 ~12:05, separate from these scenes",
     "guddu": "January 1 Scene 02 is the published backdrop-and-displaced-shirt accident, NOT the discarded trolley/strap draft. January 2 drafts must not call a new Guddu accident their first encounter; deliberate follow-up requires its own approval.",
@@ -162,11 +87,13 @@
     "sceneIds": [
       "01",
       "02",
-      "03"
+      "03",
+      "04",
+      "05"
     ],
     "readingSource": "episode-04a-taniya-soniya-source.json",
     "publicationIndex": "episode-04a-publication-index.json",
-    "note": "Episode 04A Scenes 01-03 are now reader content. Scene 03 closes in one sentence. Earlier plot versions remain in Git history."
+    "note": "All five scenes now published in Read Story. Scenes 04–05 copied from author Google Doc tab Taniya (t.265eheolgvsu), preserving original 04 paragraph, full 05 scene, final wake-up reveal. Old Grok handoffs and working scaffold are superseded archives, not incomplete live plan."
   },
   "futureDirection": {
     "authorConfirmedAt": "2026-11-21",
@@ -177,7 +104,7 @@
     "startDate": null,
     "endDate": null,
     "sourceReference": "Dhika — Complete Episode Archive (Tabs), Sharmi/Raj characterization around early introduction and EP12; author direction in conversation",
-    "notApprovedForProse": "Scenes 04–05 remain writer-integration working drafts until author sign-off. Author-confirmed: wedding trip reason, Taniya house care, both adults absent during dream, and dream reader reveal only at end. New intimate actions and precise schedule not approved.",
+    "notApprovedForProse": "HISTORICAL ONLY. Author requested UI publication of Google Doc Scenes 04–05; source manuscript is now in Read Story. Do not treat prior Grok scaffold as currently pending.",
     "weddingPreparationsOwner": "Soniya",
     "flatCaretakerDuringAbsence": "Taniya",
     "tripPurpose": "Soniya-led wedding preparations, Rahul accompanying",
@@ -187,9 +114,19 @@
     "readerReveal": "END_OF_SCENE_05_ONLY__DO_NOT_LABEL_READER_PROSE_A_DREAM_EARLY",
     "writerWorkflow": "Micro-beat handoff only; neutral ledger with actor/receiver/POV/knowledge/sensory fields, per-assigned 300–400 word author target; no entire-scene Grok assignment; no publication until author review.",
     "rejectedDraft": "Prior ChatGPT one-pass non-graphic draft for Scene04–05 rejected by author; never integrate as approved text or use its invented ending.",
-    "grokSidecar": "episode-04a-taniya-scene05-microbeat-handoff.json",
-    "manuscriptScaffold": "episode-04a-taniya-scenes04-05-working-scaffold.md",
+    "grokSidecar": "ARCHIVED_WORKING_REFERENCE_ONLY__episode-04a-taniya-scene05-microbeat-handoff.json",
+    "manuscriptScaffold": "ARCHIVED_WORKING_REFERENCE_ONLY__episode-04a-taniya-scenes04-05-working-scaffold.md",
     "scene04LengthLock": "One prose paragraph only (includes wedding role, home handover and later unspecified departure); Scene03 one-line close preserved.",
-    "scene05BeatPreparation": "Seven prepared micro-beats: alone, doorway, G01 observation, G02 audit challenge, G03 unresolved endpoint, wake-up reveal, one-line closure; Rahul/Soniya physically away."
+    "scene05BeatPreparation": "Seven prepared micro-beats: alone, doorway, G01 observation, G02 audit challenge, G03 unresolved endpoint, wake-up reveal, one-line closure; Rahul/Soniya physically away.",
+    "manuscriptStatus": "PUBLISHED_IN_READ_STORY__FROM_AUTHOR_GOOGLE_DOC"
+  },
+  "authorPublishedDocument": {
+    "url": "https://docs.google.com/document/d/1zcFlF9rWeIzaenBEmatt4K8bw3L-LcH3c_45JwoNM3o/edit?tab=t.265eheolgvsu",
+    "tabId": "t.265eheolgvsu",
+    "publishedSceneIds": [
+      "04",
+      "05"
+    ],
+    "note": "Author explicitly requested UI update 2026-11-21; content imported directly, no invented completion beyond supplied manuscript."
   }
 }
