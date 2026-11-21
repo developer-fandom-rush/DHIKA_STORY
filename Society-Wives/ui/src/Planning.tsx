@@ -208,14 +208,15 @@ export default function Planning({lead='ankita',part='A'}:{lead?:string;part?:st
    :officeLead?<section id="episode04-next-day"><h2>Episode 04B · {titleCase(active)} · Full-day plot and prose</h2>
      <p className="muted">2 January 2026 · {officeLead.office} · Office shift: {officeLead.workday} · Twins absent</p>
      <p><strong>Office Chotu:</strong> {officeLead.chotu.name} · {officeLead.chotu.role}</p>
-     <p><strong>Planned exposure:</strong> {officeLead.lockedExposure}</p>
-     <p><strong>Planned actions:</strong> {officeLead.lockedAction} · No kissing</p>
-     <p><strong>Character direction:</strong> {officeLead.sceneIntent}</p>
-     <p className="muted">Merged 2 January timeline: society/home before work → office Chotu and colleagues → society Chotu after work. Working prose is available below; it is not yet author-approved.</p>
+     {active==='shreya'?<p className="source-note"><strong>Author update · Station Chotu:</strong> The four-women 'Seduce Him' group game has moved to <a href="#/future-reference?lead=shreya">Future Reference</a> for an unscheduled episode. It is not a January 2 event. The old after-duty individual draft is pending an accident-first replan. The Station tea helper is not Society Chintu.</p>:<>
+      <p><strong>Planned exposure:</strong> {officeLead.lockedExposure}</p>
+      <p><strong>Planned actions:</strong> {officeLead.lockedAction} · No kissing</p>
+      <p><strong>Character direction:</strong> {officeLead.sceneIntent}</p></>}
+     <p className="muted">{active==='shreya'?'Jan 2 revision under discussion: Vikram returns early after night duty; Shreya skips gym and phones Vivek, then leaves for station duty. The new Station Chotu accident and deliberate follow-up have not yet been drafted or approved. Other existing story records remain available for continuity reference.':'Merged 2 January timeline: society/home before work → office Chotu and colleagues → society Chotu after work. Working prose is available below; it is not yet author-approved.'}</p>
      {continuityRecord&&<ContinuityDetails record={continuityRecord} part="B"/>}
      {societyLead&&<div className="episode-plan-card"><h3>Society Chotu continuation · {societyLead.chotu}</h3><p className="muted">After office · {societyLead.societyWindow} · Twins absent</p><p><strong>Chosen styling:</strong> {societyLead.visualSignature}</p><p><strong>Physical choice:</strong> {societyLead.chosenAction}</p><p><strong>Character escalation:</strong> {societyLead.personalEscalation}</p></div>}
-     {(unifiedLead?.chronologicalScenes||mergedLead?.events||[...(officeLead.scenes||[]),...(officeLead.secondaryEncounters||[]),...(societyLead?.scenes||[])].sort((a,b)=>(a.start||'').localeCompare(b.start||''))).map((s,i)=><SceneDetails key={s.id||i} scene={s} index={i}/>)}
-     {unifiedLead?<UnifiedProseDetails scenes={unifiedLead.proseScenes} lead={active}/>:proseChapter?<ProseDetails chapter={proseChapter}/>:null}
+     {(unifiedLead?.chronologicalScenes||mergedLead?.events||[...(officeLead.scenes||[]),...(officeLead.secondaryEncounters||[]),...(societyLead?.scenes||[])].sort((a,b)=>(a.start||'').localeCompare(b.start||''))).filter(s=>active!=='shreya'||!['E04B-SHREYA-04','E04B-SHREYA-05','E04B-SHREYA-06'].includes(s.id||'')).map((s,i)=><SceneDetails key={s.id||i} scene={s} index={i}/>)}
+     {unifiedLead?<UnifiedProseDetails scenes={active==='shreya'?unifiedLead.proseScenes.filter(s=>!['E04B-PROSE-SHREYA-02','E04B-PROSE-SHREYA-03'].includes(s.id)):unifiedLead.proseScenes} lead={active}/>:proseChapter?<ProseDetails chapter={proseChapter}/>:null}
     </section>
    :tracks.length?<section id="episode04-next-day"><h2>Episode 04B · {titleCase(active)}</h2><WorkshopDetails tracks={tracks}/></section>
    :<p role="status">Loading Episode 04B plot…</p>}
