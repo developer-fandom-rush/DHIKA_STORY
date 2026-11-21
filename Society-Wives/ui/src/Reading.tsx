@@ -296,7 +296,43 @@ function Episode04Reading({character,scene}:Props){
  </main>;
 }
 
+
+type Ep04BSection={id:string;title:string;time:string;paragraphs:string[]};
+type Ep04BSource={title:string;status:string;sections:Ep04BSection[]};
+// Episode 04B is independently published scene by scene. Only the authored
+// Scene 01 (B01–B06) is available; future ideas and working plot stay outside Read Story.
+function Episode04BReading(){
+ const {data,loading,error}=useData<Ep04BSource>('episode-04b-ankita-scene01-source.json');
+ return <main className="page-width ep04-final-reader" id="episode04b-integrated-reader">
+  <header className="section-intro"><span className="eyebrow">The Story · 2 January 2026</span><h1>Episode 04B · Read Story</h1>
+   <p>Published prose only · Ankita Scene 01 (B01–B06). Other scenes remain in planning until publication.</p>
+  </header>
+  <div role="group" aria-label="Episode 04B published character" className="perspective-tabs">
+   <button type="button" className="selected" aria-pressed="true" onClick={()=>openPage('reading',{episode:'04B',character:'ankita',scene:'01'})}>Ankita</button>
+  </div>
+  {loading&&<p role="status">Loading Episode 04B Scene 01…</p>}
+  {error&&<p role="alert" className="error">Episode 04B source unavailable: {error}</p>}
+  <div className="reader-layout">
+   <aside className="scene-sidebar"><p className="aside-title">Ankita · Episode 04B</p>
+    <button type="button" className="scene-link active" aria-pressed="true" onClick={()=>openPage('reading',{episode:'04B',character:'ankita',scene:'01'})}><span>Scene 01<small className="ep03-scene-name">B01–B06 · Morning at home</small></span></button>
+    <button type="button" className="button subtle ep03-planning-link" onClick={()=>openPage('planning',{lead:'ankita',part:'B'})}>Next scene · Planning →</button>
+   </aside>
+   <article className="reading-surface source-scene prose-exact">
+    {data&&<><div className="story-toolbar"><span>Ankita · Scene 01 of 01 · Published</span></div>
+     <div className="ep03-scene-intro"><h2>{data.title}</h2><p>2 January 2026 · B01–B06 · Scene 01 ends after Rinku departs</p></div>
+     {(data.sections||[]).map(section=><section className="ep03-beat" id={'ep04b-'+section.id.toLowerCase()} key={section.id}>
+      <div className="ep03-beat-heading"><strong>{section.id} · {section.title}</strong></div>
+      <p className="ep03-time">{section.time}</p>
+      {section.paragraphs.map((paragraph,index)=><p key={index} className="ep03-paragraph" style={{whiteSpace:'pre-line'}}>{storyInline(paragraph)}</p>)}
+     </section>)}
+     <div className="chapter-controls"><span>End of published Scene 01 · Scene 02 under discussion</span></div>
+    </>}
+   </article>
+  </div>
+ </main>;
+}
+
 export default function Reading(props:Props){
- const episode=(props.episode==='04A'||props.episode==='04')?'04A':['01','02','03'].includes(props.episode||'') ? props.episode! : '01';
- return <><EpisodeSelector episode={episode}/>{episode==='01'?<Home scene={props.scene}/>:episode==='03'?<Episode03Reading {...props}/>:episode==='04A'?<Episode04Reading {...props}/>:<Episode02Reading {...props}/>}</>;
+ const episode=props.episode==='04B'?'04B':(props.episode==='04A'||props.episode==='04')?'04A':['01','02','03'].includes(props.episode||'') ? props.episode! : '01';
+ return <><EpisodeSelector episode={episode}/>{episode==='01'?<Home scene={props.scene}/>:episode==='03'?<Episode03Reading {...props}/>:episode==='04A'?<Episode04Reading {...props}/>:episode==='04B'?<Episode04BReading/>:<Episode02Reading {...props}/>}</>;
 }
