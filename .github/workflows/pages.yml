@@ -9,9 +9,11 @@ permissions:
   pages: write
   id-token: write
 
+# Keep an in-flight Pages publish alive during rapid successive manuscript commits.
+# GitHub retains the newest pending run, preventing perpetual cancellation/starvation.
 concurrency:
   group: pages
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   build-and-deploy:
