@@ -145,9 +145,14 @@ type Ep04LeadPublication={
  publishedSceneIds:string[];completedPlanSceneIds:string[];pendingPlanSceneIds:string[];publicationScope:string;
 };
 type Ep04PublicationIndex={episode:string;leads:Record<string,Ep04LeadPublication>};
+type Ep04ManuscriptIllustration={id:string;afterSourceElementIndex:number;file:string;alt:string;caption:string;display:'inline'|'concept'};
+type Ep04ManuscriptScene={id:string;title:string;startSourceElementIndex:number;endSourceElementIndex:number;plotId?:string;status?:string};
 type Ep04AnkitaSource={
  source:{url:string;tabTitle:string;title:string};
  content:{sourceElementIndex:number;text:string;imageObjectIds:string[]}[];
+ illustrations?:Ep04ManuscriptIllustration[];
+ sceneIndex?:Ep04ManuscriptScene[];
+ assetRoot?:string;
 };
 type Ep04ShivaniBlock={type:'text'|'heading'|'sourceImageReference'|'image';text?:string;style?:string;sourceParagraph?:number;inlineObjectId?:string;chatBeatId?:string;src?:string;alt?:string;caption?:string;sourceDriveFileId?:string};
 type Ep04ShivaniScene={id:string;title:string;blocks:Ep04ShivaniBlock[]};
@@ -184,19 +189,40 @@ function Episode04Reading({character,scene}:Props){
   {isManuscript&&<>
    {ankitaLoading&&<p role="status">Loading Episode 04A manuscript…</p>}
    {ankitaError&&<p role="alert" className="error">Episode 04A manuscript unavailable: {ankitaError}</p>}
-   {ankita&&<>{active==='shreya'&&<p className="source-note"><a href="https://docs.google.com/document/d/1zcFlF9rWeIzaenBEmatt4K8bw3L-LcH3c_45JwoNM3o/edit?tab=t.90gza05r7hjd" target="_blank" rel="noopener noreferrer">Open the original Shreya 04A Google Doc tab</a> · User-facing review manuscript, not final author freeze</p>}<article className="reading-surface source-scene prose-exact" id="ep04a-ankita-manuscript" style={{maxWidth:'850px',margin:'0 auto'}}>
+   {ankita&&<>{active==='shreya'&&<p className="source-note"><a href="https://docs.google.com/document/d/1zcFlF9rWeIzaenBEmatt4K8bw3L-LcH3c_45JwoNM3o/edit?tab=t.90gza05r7hjd" target="_blank" rel="noopener noreferrer">Original Shreya 04A Google Doc</a> · Complete source prose is reproduced below, with scene navigation and image illustrations. Working manuscript, pending final author freeze.</p>}
+    {active==='shreya'&&<div role="group" aria-label="Choose Shreya Episode 04A reading section" className="perspective-tabs">
+      <button type="button" aria-pressed={!scene||!ankita.sceneIndex?.some(s=>s.id===scene)} className={!scene||!ankita.sceneIndex?.some(s=>s.id===scene)?'selected':''} onClick={()=>go(active)}>Complete Episode 04A</button>
+      {(ankita.sceneIndex||[]).map(s=><button type="button" key={s.id} aria-pressed={scene===s.id} className={scene===s.id?'selected':''} onClick={()=>go(active,s.id)}>Scene {s.id} · {s.title}</button>)}
+     </div>}
+    <article className="reading-surface source-scene prose-exact" id={active==='shreya'?'ep04a-shreya-manuscript':'ep04a-ankita-manuscript'} style={{maxWidth:'850px',margin:'0 auto'}}>
     <h2>{titleCase(active)} · Episode 04A</h2>
-    {ankita.content.map(entry=>{
+    {(active==='shreya'&&ankita.sceneIndex?.some(s=>s.id===scene)
+      ?ankita.content.filter(entry=>{const section=ankita.sceneIndex!.find(s=>s.id===scene)!;return entry.sourceElementIndex>=section.startSourceElementIndex&&entry.sourceElementIndex<=section.endSourceElementIndex})
+      :ankita.content).map(entry=>{
      const text=entry.text.replace(/\u000b/g,'\n'),image=active==='ankita'?ep04AnkitaImages[entry.sourceElementIndex]:undefined;
+     const illustrations=active==='shreya'?(ankita.illustrations||[]).filter(img=>img.afterSourceElementIndex===entry.sourceElementIndex&&img.display==='inline'):[];
      return <div key={entry.sourceElementIndex}>
       {text.trim()&&<p className="ep03-paragraph" style={{whiteSpace:'pre-wrap',overflowWrap:'anywhere'}}>{text}</p>}
       {image&&<figure style={{margin:'24px auto 30px',maxWidth:'640px'}}>
        <img loading="lazy" style={{width:'100%',height:'auto',borderRadius:'10px'}} src={assetUrl('assets/episode-04a-ankita/'+image.file)} alt={image.alt}/>
        <figcaption className="muted">{image.alt}</figcaption>
       </figure>}
+      {illustrations.map(img=><figure key={img.id} style={{margin:'24px auto 30px',maxWidth:'640px'}}>
+       <img loading="lazy" style={{width:'100%',height:'auto',borderRadius:'10px'}} src={assetUrl((ankita.assetRoot||'assets/episode-04a-shreya')+'/'+img.file)} alt={img.alt}/>
+       <figcaption className="muted">{img.caption}</figcaption>
+      </figure>)}
      </div>;
     })}
-   </article></>}
+   </article>
+   {active==='shreya'&&(!scene||scene==='02')&&(ankita.illustrations||[]).some(img=>img.display==='concept')&&<details className="episode-outline" style={{maxWidth:'850px',margin:'20px auto'}}><summary><strong>Additional generated images · Alternate concepts (not manuscript canon)</strong></summary>
+    <p className="muted">These were generated earlier in this chat. They are kept as references, not literal evidence that the extra actions or outfits occurred in Scene 02.</p>
+    <div style={{display:'grid',gridTemplateColumns:'repeat(auto-fit,minmax(240px,1fr))',gap:'16px',marginTop:'16px'}}>
+     {(ankita.illustrations||[]).filter(img=>img.display==='concept').map(img=><figure key={img.id} style={{margin:0}}>
+      <img loading="lazy" style={{width:'100%',height:'auto',borderRadius:'10px'}} src={assetUrl((ankita.assetRoot||'assets/episode-04a-shreya')+'/'+img.file)} alt={img.alt}/>
+      <figcaption className="muted">{img.caption}</figcaption>
+     </figure>)}
+    </div>
+   </details>}</>}
   </>}
   {isScenes&&<>
    {shivaniLoading&&<p role="status">Loading {titleCase(active)} Episode 04A…</p>}
