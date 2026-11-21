@@ -9,37 +9,7 @@ Soniya ne main door band kiya; Rahul living area mein laut aaya, aur Taniya apne
 
 ## Scene 04 — Wedding Preparations
 
-Soniya ne wedding quotations apni taraf kheench liye.
-
-**Soniya:** “Bas, madam auditor. Teri shaadi ki arrangements ab main sambhaalungi.”
-
-**Taniya:** “Aise kaise? Budget approve kaun karega?”
-
-**Soniya:** “Tu. Lekin vendors ke peeche main bhaagungi. Rahul mere saath rahega.”
-
-Rahul ne table se ek sheet uthayi.
-
-**Rahul:** “Haan, jo bhi arrangements final honge, tumhe update dete rahenge.”
-
-**Taniya:** “Aur tum dono jab bahar rahoge, ghar?”
-
-**Soniya:** “Woh meri favourite chhoti behen ke hawale. Ghar ka charge tera, shaadi ki command meri. Fair deal?”
-
-**Taniya:** “Favourite? Abhi toh kaam nikaal rahi ho.”
-
-**Soniya:** “Aur kya! Itni intelligent behen ko sirf tarif karne ke liye rakha hai?”
-
-Taniya hans padi.
-
-**Taniya:** “Theek hai, di. Tum wedding preparations dekho. Ghar main sambhaal lungi.”
-
-**Soniya:** “Good. Aur meri almari ki audit mat shuru kar dena.”
-
-**Taniya:** “Di!”
-
-Rahul ne muskura kar apni file band ki.
-
-Baad mein, jab Soniya aur Rahul wedding preparations ke silsile mein ghar se nikle, flat ki zimmedari Taniya ke paas aa gayi. Departure ka waqt ya return ka din abhi kisi ne fix nahi kiya tha.
+Soniya ne wedding folder apni taraf kheenchkar shararti muskurahat ke saath kaha, “Madam Auditor, teri shaadi ki preparations ab main sambhaalungi. Arrangements ke liye Rahul aur mujhe kuch waqt bahar rehna padega.” Taniya ne poochha, “Aur ghar?” Soniya hansi, “Ghar ka charge tera, shaadi ki command meri!” Taniya ne haan kar di. Baad mein Soniya aur Rahul wedding preparations ke liye ghar se nikle, aur flat ki zimmedari Taniya ke paas aa gayi.
 
 ---
 
