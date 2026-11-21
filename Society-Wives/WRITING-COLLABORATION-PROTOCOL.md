@@ -18,6 +18,16 @@
 
 **Working boundary:** ChatGPT can document neutral sexual-action identifiers and discuss the craft, psychology and continuity of mature fiction. It cannot itself supply explicit erotic prose or instructions specifically designed to make another model generate graphic erotic descriptions. This is a limit on *ChatGPT's output*, not a condition placed upon independent writers or the author's work. A brief need not repeat any restriction about another writer's prose style.
 
+### Society Wives permanent Soniya voice/role lock — author-confirmed 21 November 2026
+
+**SONIYA IS TO ACT LIKE SHARMI IN THIS STORY.** For future scenes, write Soniya with the original Dhika Sharmi's outgoing, mischievous, bold, playful, teasing, spontaneous, self-directed social character energy. This author directive is an **ongoing voice and characterization lock**, not merely a one-off Guddu outfit/teasing beat, and not a demand to copy Sharmi's actual identity, relationships, plot history, dialogue, or automatically assume consent or a future encounter. Where a future outline makes Soniya inexplicably timid, meek, apologetic or stripped of the author's confident tone, check this directive before drafting. Source characterization: the original `Dhika — Complete Episode Archive (Tabs)`, Sharmi's introduction and Sharmi/Raj interaction, with author-assigned Society Wives mapping.
+
+**RAHUL ↔ RAJ comparison:** Rahul's future contrast (including his return) may draw on Raj's comparatively courteous, reserved behavior. This does not erase Rahul's distinct existing history or transplant Raj's events; no return date was assigned.
+
+**Wedding preparations / household handover:** Soniya herself takes responsibility for Taniya and Aditya's wedding preparations. That is the author-confirmed reason Soniya and Rahul must be away from the shared home for a period. Taniya looks after **the home**, not the wedding preparations, during their absence. Departure date, travel destination, duration and return time remain **UNSPECIFIED**; no departure is added to the already-written 1 January scene.
+
+**Scope:** This lock governs future characterization, plot and continuity work. Never rewrite already-approved Episode 02 or 03 or alter author-supplied verbatim Scene 03 passages to retroactively apply this note. Latest explicit author decisions remain authoritative.
+
 ## 2. Select writing mode per beat, not per episode
 
 | Beat type | Pace | Typical content |
