@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 1,
+  "id": "SW-EP04A-TANIYA-SONIYA-READ-STORY",
+  "title": "Episode 04A — Taniya & Soniya",
+  "status": "SCENES_01_02_AUTHOR_CONFIRMED_PUBLISHED__SCENE_03_PENDING_DISCUSSION",
+  "source": {
+    "url": "https://github.com/developer-fandom-rush/DHIKA_STORY/blob/main/Society-Wives/episode-04a-taniya-soniya-source.json",
+    "tabTitle": "Taniya–Soniya Episode 04A",
+    "title": "Read Story — Taniya and Soniya"
+  },
+  "savedSceneCount": 2,
+  "notes": {
+    "characterKnowledge": "Rahul's earlier unobserved incident remains reader-only. Taniya does not know what Guddu saw during the wardrobe shift.",
+    "wardrobe": "Taniya remains in her sky-blue office shirt and charcoal trousers until she returns from the service bay. The uploaded burgundy festive photograph is a FACE reference, not her night-time outfit.",
+    "image": "Scene 02 illustration generated in conversation. Binary web asset upload to be verified separately; no broken image URL inserted.",
+    "nextScene": "Soniya × Guddu doorway interaction followed by separate Rahul–Taniya doorway reality. Scene 03 not yet approved or published."
+  },
+  "scenes": [
+    {
+      "id": "01",
+      "title": "Back at the Flat",
+      "time": "21:00–21:09",
+      "location": "Soniya and Rahul's flat",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Rahul ki nazar ek pal ke liye Taniya par thehar gayi. Uski nazron mein sirf aam familiarity nahi thi. Taniya ki nazar usse mili, lekin woh aankhein hata kar apne wedding documents check karne lagi."
+        },
+        {
+          "type": "text",
+          "text": "Tabhi Guddu ka message aaya."
+        },
+        {
+          "type": "text",
+          "text": "Guddu: “Madam, aapki approval sleeve counter par reh gayi hai.”"
+        },
+        {
+          "type": "text",
+          "text": "Taniya phone uthakar, bina office clothes change kiye, neeche chali gayi."
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "The Unexpected Accident",
+      "time": "21:09–21:22",
+      "location": "Gulmohar Heights · Wedding-vendor service bay",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Guddu wedding decoration ke samples pack kar raha tha. Taniya ko aate dekh usne counter par rakhi approval sleeve uthayi."
+        },
+        {
+          "type": "text",
+          "text": "Guddu: “Madam, shaadi aapki hai, lekin paperwork sambhalne ki responsibility meri lag rahi hai.”"
+        },
+        {
+          "type": "text",
+          "text": "Taniya: “Zyada khush mat ho. Abhi tumhara quotation approve nahi hua hai.”"
+        },
+        {
+          "type": "text",
+          "text": "Guddu hans diya."
+        },
+        {
+          "type": "text",
+          "text": "Counter ke side mein ek wedding backdrop laga hua tha, jiska upper sample panel abhi remove karna baaki tha. Taniya documents check karte hue uske paas pahunchi."
+        },
+        {
+          "type": "text",
+          "text": "Taniya: “Achha, ye design bhi quotation mein included hai?”"
+        },
+        {
+          "type": "text",
+          "text": "Guddu: “Haan madam, bas iska colour change ho jayega.”"
+        },
+        {
+          "type": "text",
+          "text": "Guddu sample frame ka lower adjustment kar hi raha tha ki upar ka lightweight panel achanak ek taraf jhuk gaya."
+        },
+        {
+          "type": "text",
+          "text": "Guddu: “Madam, sambhalna!”"
+        },
+        {
+          "type": "text",
+          "text": "Taniya ne instinctively dono haath upar uthakar panel ko girne se rok liya. Guddu ne frame ka support sambhala aur fitting dobara secure kar di."
+        },
+        {
+          "type": "text",
+          "text": "Sudden movement mein Taniya ki sky-blue shirt ka tuck loose ho gaya tha, lekin uska poora dhyaan panel par tha. Guddu ki nazar ek lamhe ke liye shirt ke displaced hem par gayi; usne turant nazar hata kar fitting ki taraf dekhna shuru kar diya. Taniya ko uski exact sightline pata nahi chali."
+        },
+        {
+          "type": "text",
+          "text": "Taniya: “Ho gaya? Haath neeche kar sakti hoon ab?”"
+        },
+        {
+          "type": "text",
+          "text": "Guddu: “Ji madam, ho gaya. Sorry.”"
+        },
+        {
+          "type": "text",
+          "text": "Taniya: “Wedding decoration hai ya adventure activity?”"
+        },
+        {
+          "type": "text",
+          "text": "Guddu muskura diya, lekin is baar uske paas koi teasing reply nahi tha. Woh supplies ki taraf jaldi se laut gaya."
+        },
+        {
+          "type": "text",
+          "text": "Taniya ne approval sleeve uthayi aur lift ki taraf chali gayi."
+        },
+        {
+          "type": "heading",
+          "text": "Inside the Lift — Curiosity Begins"
+        },
+        {
+          "type": "text",
+          "text": "Lift ke mirror mein khud ko dekhte hi Taniya ki nazar apni shirt par padi. Usne loose hem theek kiya."
+        },
+        {
+          "type": "text",
+          "text": "Tab use Guddu ki achanak khamoshi yaad aayi."
+        },
+        {
+          "type": "text",
+          "text": "Ek minute… us waqt Guddu ki nazar kahan thi?"
+        },
+        {
+          "type": "text",
+          "text": "Usne kuch notice kiya tha, ya woh sirf frame girne se ghabra gaya tha? Agar notice kiya bhi tha, toh kitna?"
+        },
+        {
+          "type": "text",
+          "text": "Lift ka door khula. Taniya documents lekar bahar nikal gayi, lekin sawaal unanswered raha."
+        }
+      ]
+    }
+  ]
+}
