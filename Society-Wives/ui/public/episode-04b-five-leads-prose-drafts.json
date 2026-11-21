@@ -835,7 +835,9 @@
               "text": "Shreya ki saans ek pal ko tez hui, phir usne balm cap band ki aur uska shukriya ada kiya. Uska reaction uske apne decision se tha, Chotu ke kisi implied promise se nahi. 18:35 par woh station se nikal gayi."
             }
           ],
-          "approval": "WORKING_PROSE_DRAFT_NOT_AUTHOR_APPROVED"
+          "approval": "WORKING_PROSE_DRAFT_NOT_AUTHOR_APPROVED",
+          "status": "ARCHIVED_AS_FUTURE_REFERENCE_ONLY__NOT_EP04B",
+          "futureReferenceId": "FI-SHREYA-STATION-CHOTU-FOUR-WOMEN-CHARM-GAME-FUTURE"
         },
         {
           "id": "SHR-04B-P03",
@@ -899,7 +901,8 @@
               "text": "Chintu chala gaya. Shreya ne door softly band kiya. Chehre par garmi thi, ungliyon mein halki si sensation, aur ek ajeeb relief: kal ki awkwardness usne khud ek chosen conversation mein badal di thi."
             }
           ],
-          "approval": "WORKING_PROSE_DRAFT_NOT_AUTHOR_APPROVED"
+          "approval": "WORKING_PROSE_DRAFT_NOT_AUTHOR_APPROVED",
+          "status": "WORKING_DRAFT_REPLAN_REQUIRED_NEW_ACCIDENT_FIRST"
         },
         {
           "id": "SHR-04B-P04",
