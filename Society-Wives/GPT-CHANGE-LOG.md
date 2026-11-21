@@ -23,6 +23,14 @@ Use the exact label **Changed by GPT** in the Git commit message AND add a dated
 
 ## Entries
 
+### 2026-11-21 — Changed by GPT — Shivani Episode 04A Scene 05 concise home/dinner draft
+- **Changed paths:** `Society-Wives/episode-04a-shivani-source.json` (new Scene 05), `Society-Wives/episode-04a-publication-index.json` (reader/planning mapping).
+- **Author request:** Immediately write a concise Scene 05 connecting flat entry to the later Rohan surprise; explicitly add a moment in which Rohan notices Shivani and Manav notices Kavya, and establish where Om Uncle is.
+- **Source:** Existing approved reader Scene 04 exit, plus `episode-04a-shivani-plan.json` Scene 05 beats SH14–SH17, and the author's direct chat addition. New scene prose authored by GPT; not a verbatim Google Docs passage.
+- **Continuity:** Om is at dining table early and in living room near Rohan near 21:45, ahead of the Scene 06 errand. Manav arrives ~20:10, leaves to his room later. Tara remains in family routine. Rohan's intended burgundy surprise remains unknown to him. B01–B04 and apology not altered.
+- **Status:** Scene 05 included in main Read Story at author's request as a **draft for review**, not falsely marked final approved. Planning retains pending scenes 06–07; original Scene 05 plot JSON archived without deletion. No images added. EP01–03 unchanged.
+
+
 ### 2026-11-21 — Changed by GPT — Correct slow-burn rationale for Shivani Scene 04
 - **Changed:** `Society-Wives/episode-04a-shivani-decision-reference.json`, `Society-Wives/future-ideas.json`.
 - **Author clarification:** The cut after B04 was intentional to avoid over-escalating Shivani's *first* encounter with Karan and Aman. The originally proposed stronger breast touch/squeeze, buttock touching and slap ideas are reserved as future **categories**, not scheduled scenes. Previous mild contact can become familiar as relationships develop, allowing later changes to have impact.
