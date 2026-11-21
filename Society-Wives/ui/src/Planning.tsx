@@ -4,7 +4,6 @@ import { openPage, titleCase, useData } from './lib';
 type Beat={id:string;title:string;time?:string;[key:string]:unknown};
 type Scene={id?:string;scene?:string;sceneNumber?:string;number?:string;title:string;start?:string;end?:string;location?:string;beats:Beat[];[key:string]:unknown};
 type PlotDocument={title:string;scenes:Scene[];proseDraft?:{title?:string;url?:string};[key:string]:unknown};
-type ShreyaScene02Part1={id:string;status:string;opening:string[];grokSC062:string[];notes?:string[]};
 type WorkshopTrack={chotu:string;lane?:string;setting?:string;a:Record<string,unknown>;b:Record<string,unknown>};
 type Workshop={leads:{id:string;name:string;tracks:WorkshopTrack[]}[]};
 type AnkitaArchive={tracks:WorkshopTrack[]};
@@ -111,7 +110,7 @@ function WorkshopDetails({tracks}:{tracks:WorkshopTrack[]}){
  </article>)}</div>;
 }
 
-type Episode04PublicationIndex={leads:Record<string,{name:string;source:string;publicationStatus:string;publishedSceneIds:string[];completedPlanSceneIds:string[];pendingPlanSceneIds:string[];publicationScope:string}>};
+type Episode04PublicationIndex={leads:Record<string,{name:string;source:string;publicationStatus:string;publishedSceneIds:string[];completedPlanSceneIds:string[];supersededPlanSceneIds?:string[];pendingPlanSceneIds:string[];publicationScope:string}>};
 
 export default function Planning({lead='ankita',part='A'}:{lead?:string;part?:string}){
  const active=leads.find(x=>x===lead)||'ankita';
@@ -120,7 +119,6 @@ export default function Planning({lead='ankita',part='A'}:{lead?:string;part?:st
  const {data:ankita,error:ankitaError}=useData<PlotDocument>('episode-04a-ankita-plan.json');
  const {data:shivani,error:shivaniError}=useData<PlotDocument>('episode-04a-shivani-plan.json');
  const {data:shreya,error:shreyaError}=useData<PlotDocument>('episode-04a-shreya-night-plan.json');
- const {data:shreyaPart1,error:shreyaPart1Error}=useData<ShreyaScene02Part1>('episode-04a-shreya-scene02-part1-working-draft.json');
  const {data:taniya,error:taniyaError}=useData<PlotDocument>('episode-04a-taniya-soniya-night-review.json');
  const {data:workshop,error:workshopError}=useData<Workshop>('episode-04-chotu-six-leads-review.json');
  const {data:ankitaArchive,error:ankitaArchiveError}=useData<AnkitaArchive>('episode-04b-ankita-chotu-archive.json');
@@ -131,7 +129,7 @@ export default function Planning({lead='ankita',part='A'}:{lead?:string;part?:st
  const {data:proseDraft,error:proseError}=useData<ProseDraft>('episode-04b-five-leads-prose-drafts.json');
  const {data:unifiedDay,error:unifiedError}=useData<UnifiedDay>('episode-04b-jan02-merged-day-five-leads.json');
  const doc=active==='ankita'?ankita:active==='shivani'?shivani:active==='shreya'?shreya:active==='taniya'||active==='soniya'?taniya:null;
- const error=shreyaPart1Error||publicationError||ankitaError||shivaniError||shreyaError||taniyaError||workshopError||ankitaArchiveError||officeDayError||societyDayError||continuityError||mergedError||proseError||unifiedError;
+ const error=publicationError||ankitaError||shivaniError||shreyaError||taniyaError||workshopError||ankitaArchiveError||officeDayError||societyDayError||continuityError||mergedError||proseError||unifiedError;
  const officeLead=officeDay?.leads.find(x=>x.id===active);
  const societyLead=societyDay?.leads.find(x=>x.id===active);
  const continuityRecord=continuity?.leads.find(x=>x.id===active);
@@ -142,7 +140,8 @@ export default function Planning({lead='ankita',part='A'}:{lead?:string;part?:st
  const go=(who:string=active,p:'A'|'B'=selectedPart)=>openPage('planning',{lead:who,part:p});
  const published=publicationIndex?.leads[active];
  const completed=new Set(published?.completedPlanSceneIds||[]);
- const outstandingScenes=(doc?.scenes||[]).filter(scene=>{const sceneId=scene.id||scene.scene||scene.sceneNumber||scene.number;return !sceneId||!completed.has(sceneId)});
+ const superseded=new Set(published?.supersededPlanSceneIds||[]);
+ const outstandingScenes=(doc?.scenes||[]).filter(scene=>{const sceneId=scene.id||scene.scene||scene.sceneNumber||scene.number;return !sceneId||(!completed.has(sceneId)&&!superseded.has(sceneId))});
  return <main className="page-width">
   <header className="section-intro"><span className="eyebrow">Next planning · Episode 04</span><h1>Episode 04 · Plot Planning</h1><p>Only unfinished scenes remain in this active plot. Published prose and scene images are in Read Story; earlier plot versions remain in Git history.</p></header>
   <p className="source-note"><strong>Before planning the next scene:</strong> <a href={'#/future-reference?lead='+active}>Future Reference &amp; Locked Decisions</a> — current scene locks, deferred ideas and pending editorial issues, not new story prose.</p>
@@ -171,21 +170,14 @@ export default function Planning({lead='ankita',part='A'}:{lead?:string;part?:st
    <h2>Shreya · Episode 04A — Updated manuscript and illustrations</h2>
    <p className="muted">Author-supplied Google Docs tab · SHREYA EP-04A</p>
    <p><a className="button primary" href="https://docs.google.com/document/d/1zcFlF9rWeIzaenBEmatt4K8bw3L-LcH3c_45JwoNM3o/edit?tab=t.90gza05r7hjd" target="_blank" rel="noopener noreferrer">Open Shreya Episode 04A manuscript</a></p>
-   <p className="muted">The Google Doc now contains the towel consolation and dressed dinner illustrations. The same revised story text is also available in Read Story for review; images are currently embedded in the Google Doc, not yet inline in the GitHub reader. Older working material stays below as an archive.</p>
+   <p className="muted">Complete Scenes 01 and 02 are available in Read Story, with images placed in sequence. The original Google Doc is retained as the source manuscript.</p>
   </section>}
-  {active==='shreya'&&selectedPart==='A'&&<section className="episode-plan-card" id="shreya-scene02-part1-draft">
-   <h2>Shreya · Scene 02 · Part 1 — Earlier Draft Archive</h2>
-   <p className="muted">18:07–18:29 · SC05 / SC06.1 / SC06.2 · Not approved and not published to Read Story</p>
-   {shreyaPart1Error&&<p role="alert" className="error">Draft could not load: {shreyaPart1Error}</p>}
-   {!shreyaPart1?<p role="status">Loading scene draft…</p>:<details className="episode-outline">
-    <summary><strong>Read assembled Part 1 — with Grok-provided SC06.2 verbatim</strong></summary>
-    <div className="reading-surface">
-     {shreyaPart1.opening.map((p,i)=>p.startsWith('### ')?<h3 key={'o'+i}>{p.slice(4)}</h3>:<p key={'o'+i}>{p}</p>)}
-     <h3>SC06.2 — Grok-provided passage</h3>
-     {shreyaPart1.grokSC062.map((p,i)=><p key={'g'+i}>{p}</p>)}
-    </div>
-    <p className="muted">SC07–SC08 follow after this cut. Earlier repetitive bridge remains unchanged pending review. Door-opening reason is not locked.</p>
-   </details>}
+  {active==='shreya'&&selectedPart==='A'&&published&&<section className="episode-plan-card" id="shreya-04a-completion">
+   <h2>Shreya · Episode 04A — Reading transfer complete</h2>
+   <p><strong>Completed:</strong> Scene 01 (Chintu / latch) and Scene 02 (shower → consolation → fully dressed dinner). The full text and scene illustrations are in Read Story.</p>
+   <p><strong>Legacy plans archived, not completed:</strong> old SHR04A-S03 and SHR04A-S04 used a husband-return timeline that conflicts with the current manuscript. They are not active unfinished scenes and are not duplicated here.</p>
+   <p className="muted">Current timeline: Vikram expected home around 6:00 AM on 2 January; Shreya 04A manuscript ends after dinner. Final author freeze still pending.</p>
+   <button type="button" className="button primary" onClick={()=>openPage('reading',{episode:'04A',character:'shreya'})}>Read full Shreya 04A →</button>
   </section>}
   <div className="episode-picker" role="group" aria-label="Choose planning episode">
    <button className={selectedPart==='A'?'episode-picker-current':''} aria-pressed={selectedPart==='A'} type="button" onClick={()=>go(active,'A')}>Episode 04A · Evening</button>
