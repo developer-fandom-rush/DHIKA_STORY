@@ -10,8 +10,8 @@
     "Author permanent voice direction: Soniya acts like Sharmi; Rahul Raj-like comparison upon later real return"
   ],
   "authorControls": {
-    "scene03": "VERBATIM_COMPLETE__DO_NOT_REWRITE",
-    "scene04": "Wedding preparations Soniya-led; couple leaves later date unknown; Taniya looks after home",
+    "scene03": "ONE-LINE ENDING ALREADY SAVED VERBATIM — do not expand",
+    "scene04": "ONE PARAGRAPH TOTAL for Soniya wedding preparations, Rahul traveling, Taniya home handover, and their eventual departure; do not subdivide prose even though ledger tracks actions separately",
     "scene05": "Later date unknown, Taniya alone in waking flat; apparent encounter is imagination; reader only learns at final waking reveal",
     "grokScope": "ONE SELECTED MICRO-BEAT PER HANDOFF, NEVER ENTIRE SCENE",
     "requestedIntensity": "AUTHOR_SELECTED; metadata to be specified per assigned beat, not silently overwritten by GPT",
