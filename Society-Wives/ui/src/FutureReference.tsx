@@ -11,7 +11,7 @@ type DecisionItem={label:string;note:string;decisionStatus:string;futureIdeaId?:
 type DecisionSection={id:string;title:string;status:string;items:DecisionItem[]};
 type DecisionReference={title:string;status:string;lead:string;episode:string;scene:string;sections:DecisionSection[]};
 
-const humanStatus=(value:string)=>value.replaceAll('_',' ').replaceAll('  ',' ').toLowerCase();
+const humanStatus=(value:string)=>value.replace(/_/g,' ').replace(/\s+/g,' ').toLowerCase();
 
 export default function FutureReference(){
  const {data:ideas,loading:ideasLoading,error:ideasError}=useData<IdeasData>('future-ideas.json');
