@@ -160,10 +160,13 @@ const ep04AnkitaImages:Record<number,{file:string;alt:string}>={
 };
 function Episode04Reading({character,scene}:Props){
  const {data:publication,loading:publicationLoading,error:publicationError}=useData<Ep04PublicationIndex>('episode-04a-publication-index.json');
- const active=character==='shivani'?'shivani':'ankita';
+ const availableLeads=publication?Object.keys(publication.leads):['ankita','shivani'];
+ const active=availableLeads.includes(character)?character:(availableLeads[0]||'ankita');
  const lead=publication?.leads[active];
- const {data:ankita,loading:ankitaLoading,error:ankitaError}=useData<Ep04AnkitaSource>(active==='ankita'?lead?.source||null:null);
- const {data:shivani,loading:shivaniLoading,error:shivaniError}=useData<Ep04ShivaniSource>(active==='shivani'?lead?.source||null:null);
+ const isManuscript=lead?.sourceType==='google-doc-verbatim-manuscript';
+ const isScenes=lead?.sourceType==='scene-wise-verbatim-and-author-chat';
+ const {data:ankita,loading:ankitaLoading,error:ankitaError}=useData<Ep04AnkitaSource>(isManuscript?lead?.source||null:null);
+ const {data:shivani,loading:shivaniLoading,error:shivaniError}=useData<Ep04ShivaniSource>(isScenes?lead?.source||null:null);
  const publishedScenes=(shivani?.scenes||[]).filter(s=>lead?.publishedSceneIds.includes(s.id));
  const selected=publishedScenes.find(s=>s.id===scene)||publishedScenes[0];
  const selectedIndex=publishedScenes.findIndex(s=>s.id===selected?.id);
@@ -173,18 +176,18 @@ function Episode04Reading({character,scene}:Props){
    <p>Published manuscript by character. Completed story portions belong here; unfinished scenes remain in Plot Planning.</p>
   </header>
   <div role="group" aria-label="Choose Episode 04A character" className="perspective-tabs">
-   {['ankita','shivani'].map(w=><button key={w} type="button" onClick={()=>go(w)} aria-pressed={active===w} className={w===active?'selected':''}>{titleCase(w)}</button>)}
+   {availableLeads.map(w=><button key={w} type="button" onClick={()=>go(w)} aria-pressed={active===w} className={w===active?'selected':''}>{titleCase(w)}</button>)}
   </div>
   {publicationLoading&&<p role="status">Loading publication index…</p>}
   {publicationError&&<p role="alert" className="error">Publication index unavailable: {publicationError}</p>}
-  {lead&&<p className="source-note"><strong>{lead.name} · Published in Read Story.</strong> {active==='shivani'?'Scenes 01–04 through the corridor exit. Later home scenes remain in planning.':'The author-provided Episode 04A manuscript, preserved as supplied.'}</p>}
-  {active==='ankita'&&<>
+  {lead&&<p className="source-note"><strong>{lead.name} · Published in Read Story.</strong> {lead.publicationScope}</p>}
+  {isManuscript&&<>
    {ankitaLoading&&<p role="status">Loading Ankita Episode 04A…</p>}
    {ankitaError&&<p role="alert" className="error">Ankita manuscript unavailable: {ankitaError}</p>}
    {ankita&&<article className="reading-surface source-scene prose-exact" id="ep04a-ankita-manuscript" style={{maxWidth:'850px',margin:'0 auto'}}>
-    <h2>Ankita · Episode 04A</h2>
+    <h2>{titleCase(active)} · Episode 04A</h2>
     {ankita.content.map(entry=>{
-     const text=entry.text.replace(/\u000b/g,'\n'),image=ep04AnkitaImages[entry.sourceElementIndex];
+     const text=entry.text.replace(/\u000b/g,'\n'),image=active==='ankita'?ep04AnkitaImages[entry.sourceElementIndex]:undefined;
      return <div key={entry.sourceElementIndex}>
       {text.trim()&&<p className="ep03-paragraph" style={{whiteSpace:'pre-wrap',overflowWrap:'anywhere'}}>{text}</p>}
       {image&&<figure style={{margin:'24px auto 30px',maxWidth:'640px'}}>
@@ -195,17 +198,17 @@ function Episode04Reading({character,scene}:Props){
     })}
    </article>}
   </>}
-  {active==='shivani'&&<>
+  {isScenes&&<>
    {shivaniLoading&&<p role="status">Loading Shivani Episode 04A…</p>}
    {shivaniError&&<p role="alert" className="error">Shivani manuscript unavailable: {shivaniError}</p>}
    {shivani&&<div className="reader-layout">
-    <aside className="scene-sidebar"><p className="aside-title">Shivani · published scenes</p>
-     {publishedScenes.map(s=><button type="button" key={s.id} aria-pressed={selected?.id===s.id} className={'scene-link'+(selected?.id===s.id?' active':'')} onClick={()=>go('shivani',s.id)}><span>Scene {s.id}<small className="ep03-scene-name">{s.title}</small></span></button>)}
-     <button type="button" className="button subtle" onClick={()=>openPage('planning',{lead:'shivani',part:'A'})}>Remaining scenes · Planning →</button>
+    <aside className="scene-sidebar"><p className="aside-title">{titleCase(active)} · published scenes</p>
+     {publishedScenes.map(s=><button type="button" key={s.id} aria-pressed={selected?.id===s.id} className={'scene-link'+(selected?.id===s.id?' active':'')} onClick={()=>go(active,s.id)}><span>Scene {s.id}<small className="ep03-scene-name">{s.title}</small></span></button>)}
+     <button type="button" className="button subtle" onClick={()=>openPage('planning',{lead:active,part:'A'})}>Remaining scenes · Planning →</button>
     </aside>
     <article className="reading-surface source-scene prose-exact">
      {selected&&<>
-      <div className="story-toolbar"><span>Shivani · Scene {selected.id} of {publishedScenes.length}</span></div>
+      <div className="story-toolbar"><span>{titleCase(active)} · Scene {selected.id} of {publishedScenes.length}</span></div>
       <h2>{selected.title}</h2>
       {selected.blocks.map((block,i)=>block.type==='heading'
        ?<h3 key={i} className="ep03-beat-heading" style={{marginTop:'24px'}}>{block.text}</h3>
@@ -213,9 +216,9 @@ function Episode04Reading({character,scene}:Props){
         ?<p key={i} className={block.style?.startsWith('HEADING')?'ep03-beat-heading':'ep03-paragraph'} style={{whiteSpace:'pre-wrap',overflowWrap:'anywhere'}}>{block.text}</p>
         :null)}
       <div className="chapter-controls">
-       <button type="button" className="button subtle" disabled={selectedIndex<=0} onClick={()=>go('shivani',publishedScenes[selectedIndex-1]?.id)}>← Previous scene</button>
+       <button type="button" className="button subtle" disabled={selectedIndex<=0} onClick={()=>go(active,publishedScenes[selectedIndex-1]?.id)}>← Previous scene</button>
        <span>Scene {selectedIndex+1} of {publishedScenes.length}</span>
-       <button type="button" className="button primary" disabled={selectedIndex>=publishedScenes.length-1} onClick={()=>go('shivani',publishedScenes[selectedIndex+1]?.id)}>Next scene →</button>
+       <button type="button" className="button primary" disabled={selectedIndex>=publishedScenes.length-1} onClick={()=>go(active,publishedScenes[selectedIndex+1]?.id)}>Next scene →</button>
       </div>
      </>}
     </article>
