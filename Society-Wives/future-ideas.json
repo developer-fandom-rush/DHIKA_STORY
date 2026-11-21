@@ -164,6 +164,35 @@
       "authorDirection": "2026-11-21: Save the B08 three-views idea for future, end current Scene 01 at B06, and keep future accidental wet-nighty version distinct.",
       "approval": "IDEA_SAVED__NO_PROSE_APPROVAL",
       "nextAction": "When requested, discuss scheduling, household presence, accidental cause and distinct Karan/Aman/Rajeev reactions before drafting."
+    },
+    {
+      "id": "FI-SHREYA-STATION-CHOTU-FOUR-WOMEN-CHARM-GAME-FUTURE",
+      "lead": "Shreya",
+      "referenceCharacters": [
+        "Shreya",
+        "Station Chotu (police tea helper, personal name not confirmed)",
+        "Kavita",
+        "Meera",
+        "Poonam",
+        "Anjali"
+      ],
+      "workingTitle": "Station Chotu — voluntary four-women 'Seduce Him' acting game (FUTURE ONLY)",
+      "priority": "AUTHOR_DIRECTED_DEFER_FROM_EP04B__DO_NOT_STAGE_NOW",
+      "episodeNumber": "UNASSIGNED",
+      "candidateDate": "UNASSIGNED",
+      "dateStatus": "FUTURE_ONLY__UNSCHEDULED",
+      "originalSource": "Society-Wives/episode-04b-office-chotu-jan02-five-leads.json · E04B-SHREYA-04/05 · SR4B-05, SR4B-05B, SR4B-06–11",
+      "premise": "Saved original after-duty station tea-counter group game. Shreya, Kavita, Meera, Poonam, and Anjali discuss and voluntarily try distinct acting/flirting styles with the adult station chai helper. He knows the premise, may freely opt out, and no romantic outcome is guaranteed. All women maintain distinct voices. Preserve source beats and their original roles for later author-directed scheduling.",
+      "authorDirection": "2026-11-21: Move the office Station Chotu 'Seduce Him' group challenge by female colleagues to Future Reference, NOT Episode 04B. Current Shreya 04B will instead focus on an initial NEW accidental encounter with this OFFICE helper followed by a separately decided deliberate, consensual response. Do not reuse society Chintu's Jan 1 latch incident as the office event.",
+      "exclusionsForCurrentEpisode": [
+        "Do not stage the four-women game on 2 January in 04B",
+        "Do not assume consent to a future game",
+        "Station Chotu's personal name is not established in approved reading; do not silently rename him Chintu",
+        "Society Chintu remains a distinct person with a different Jan 1 history",
+        "Do not infer that anyone witnessed or knows Shreya's household bathroom incident"
+      ],
+      "approval": "AUTHOR_CONFIRMED_FUTURE_REFERENCE_ONLY__NO_DATE_NO_PROSE",
+      "nextAction": "When the author explicitly returns to this future idea, recover each woman's existing approved history and separately plan the context, timing, and verbal responses. Keep original scene identifiers as archived references, not current 04B actions."
     }
   ]
 }
