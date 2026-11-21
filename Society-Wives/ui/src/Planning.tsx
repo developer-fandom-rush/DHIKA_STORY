@@ -174,9 +174,9 @@ export default function Planning({lead='ankita',part='A'}:{lead?:string;part?:st
   </section>}
   {active==='shreya'&&selectedPart==='A'&&published&&<section className="episode-plan-card" id="shreya-04a-completion">
    <h2>Shreya · Episode 04A — Reading transfer complete</h2>
-   <p><strong>Completed:</strong> Scene 01 (Chintu / latch) and Scene 02 (shower → consolation → fully dressed dinner). The full text and scene illustrations are in Read Story.</p>
+   <p><strong>Completed:</strong> Scene 01 (Chintu / latch), Scene 02 (shower → consolation → dinner), and Scene 03 (SC09 — Night Closure). The full text is in Read Story, with illustrations in the earlier scenes.</p>
    <p><strong>Legacy plans archived, not completed:</strong> old SHR04A-S03 and SHR04A-S04 used a husband-return timeline that conflicts with the current manuscript. They are not active unfinished scenes and are not duplicated here.</p>
-   <p className="muted">Current timeline: Vikram expected home around 6:00 AM on 2 January; Shreya 04A manuscript ends after dinner. Final author freeze still pending.</p>
+   <p className="muted">Current timeline: Vikram expected home around 6:00 AM on 2 January; Shreya 04A manuscript ends after the new SC09 night closure. Final author freeze still pending.</p>
    <button type="button" className="button primary" onClick={()=>openPage('reading',{episode:'04A',character:'shreya'})}>Read full Shreya 04A →</button>
   </section>}
   <div className="episode-picker" role="group" aria-label="Choose planning episode">
@@ -196,7 +196,7 @@ export default function Planning({lead='ankita',part='A'}:{lead?:string;part?:st
    ?<p role="status">{publicationLoading?'Checking published Episode 04A scenes…':'Publication index unavailable. The legacy plot is archived; check Read Story for the saved manuscript.'}</p>
    :published
    ?(outstandingScenes.length>0?<section id="episode04-active-plan">
-     <h2>{active==='shreya'?'Shreya · Legacy later beats — author review required':titleCase(active)+' · Still to write'}</h2><p className="muted">{active==='shreya'?'The new manuscript ends after dinner. Vikram now returns around 6 AM next morning; old 20:40–20:50 arrival and the planned married-night beats below conflict and must be superseded or re-plotted before drafting. These are reference notes only, not approved future events.':'These remaining plot scenes are not yet in Read Story.'}</p>
+     <h2>{active==='shreya'?'Shreya · Legacy later beats — author review required':titleCase(active)+' · Still to write'}</h2><p className="muted">{active==='shreya'?'The new manuscript ends after the SC09 night closure. Vikram now returns around 6 AM next morning; old 20:40–20:50 arrival and the planned married-night beats below conflict and must be superseded or re-plotted before drafting. These are reference notes only, not approved future events.':'These remaining plot scenes are not yet in Read Story.'}</p>
      {outstandingScenes.map((scene,index)=><SceneDetails key={scene.id||index} scene={scene} index={index}/>)}
     </section>:<p className="source-note">No unfinished Episode 04A plot scenes remain for this character. Future work belongs to the next episode or a newly approved scene.</p>)
    :<>{continuityRecord&&<ContinuityDetails record={continuityRecord} part="A"/>}{active==='meenakshi'
