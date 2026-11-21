@@ -827,8 +827,8 @@
       "workday": "09:00–17:45 duty; remains at station voluntarily until 18:35",
       "wardrobe": "After-duty sleeveless civilian outfit with an intentionally striking neckline exposing cleavage, collarbone and shoulders; no uniform manipulation",
       "lockedExposure": "After-duty sleeveless civilian top with exposed shoulders and upper back; no explicit exposure",
-      "lockedAction": "Voluntary 'Seduce Him' group acting challenge (no success); Shreya's willing upper-back balm application with station Chotu",
-      "sceneIntent": "Shreya separates officer authority from private agency: four adult women voluntarily try different verbal charm styles without pressuring the chai helper; only later, after duty and away from group, she knowingly initiates one bounded personal upper-back touch and feels unexpectedly stirred.",
+      "lockedAction": "Prior 04B group acting game moved to Shreya Future Reference. New Station Chotu accident-first and deliberate follow-up are under author discussion, not yet locked.",
+      "sceneIntent": "Original after-duty group acting game is future-only. Current Jan2 04B focuses on Shreya and the station tea helper, with timing and incident pending author discussion. Existing office duties and colleague histories remain retained.",
       "scenes": [
         {
           "id": "E04B-SHREYA-01",
@@ -919,7 +919,9 @@
               "action": "Kavita, Meera, Poonam, Anjali and the station tea helper may opt out with no consequences. He is told the premise before any teasing starts, and nobody uses uniform, badge or authority to pressure him."
             }
           ],
-          "status": "LOCKED_OFFICE_CHOTU_ACTIONS__PROSE_NOT_APPROVED"
+          "status": "DEFERRED_TO_FUTURE_REFERENCE__NOT_EP04B",
+          "previousStatus": "LOCKED_OFFICE_CHOTU_ACTIONS__PROSE_NOT_APPROVED",
+          "futureReferenceId": "FI-SHREYA-STATION-CHOTU-FOUR-WOMEN-CHARM-GAME-FUTURE"
         },
         {
           "id": "E04B-SHREYA-05",
@@ -975,7 +977,9 @@
               "continuity": "No invented photo, CCTV clip or shared knowledge of Jan1 Chintu accident."
             }
           ],
-          "status": "LOCKED_OFFICE_CHOTU_ACTIONS__PROSE_NOT_APPROVED"
+          "status": "DEFERRED_TO_FUTURE_REFERENCE__NOT_EP04B",
+          "previousStatus": "LOCKED_OFFICE_CHOTU_ACTIONS__PROSE_NOT_APPROVED",
+          "futureReferenceId": "FI-SHREYA-STATION-CHOTU-FOUR-WOMEN-CHARM-GAME-FUTURE"
         },
         {
           "id": "E04B-SHREYA-06",
@@ -1013,7 +1017,9 @@
               "limits": "No kissing, explicit exposure, genital/breast touching or new promise."
             }
           ],
-          "status": "LOCKED_OFFICE_CHOTU_ACTIONS__PROSE_NOT_APPROVED"
+          "status": "OLD_INDIVIDUAL_DRAFT_PENDING_NEW_ACCIDENT_FIRST_REPLAN",
+          "priorStatus": "LOCKED_OFFICE_CHOTU_ACTIONS__PROSE_NOT_APPROVED",
+          "continuityReview": "Previous upper-back private encounter is an unapproved proposal, not a continuation of a Jan02 group game. Author is discussing a new prior accidental office helper event; do not preemptively publish this beat."
         }
       ],
       "secondaryEncounters": [
