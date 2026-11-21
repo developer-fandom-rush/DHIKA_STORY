@@ -67,16 +67,16 @@
         "Aman"
       ],
       "workingTitle": "Deferred touch / squeeze action — future-only continuity reminder",
-      "priority": "FUTURE_ONLY__DO_NOT_INCLUDE_IN_CURRENT_EP04A_S04",
+      "priority": "AUTHOR_INTENDS_FUTURE_USE__NOT_CURRENT_EP04A_S04",
       "episodeNumber": "NOT ASSIGNED",
       "candidateDate": "NOT ASSIGNED",
       "dateStatus": "UNSCHEDULED",
       "actionLabel": "Squeeze / pressure beat discussed in earlier external-writer action ledger (B05); the author now wants it removed from the present encounter and reserved only for possible future consideration.",
       "sourceConflict": "Original handoff had B05/B06 before apology; latest author-supplied story jumps from B04 directly to apology and exit. Do not insert B05/B06 in the current reader.",
       "consentAndContinuity": "Future adaptation requires separate author direction, physical staging and consent/response continuity; no specific future action, recipient, location, or occurrence is yet approved.",
-      "authorDirection": "Save the deferred beat for future reference, not now. Discuss any reintroduction before writing or publishing.",
+      "authorDirection": "Author direction: Reserve this action for a future scene, NOT the current Episode 04A Scene 04. The future placement is intended, but the exact future episode, timing, actor, receiver, consent/staging and prose are not yet approved.",
       "currentStoryLock": "Shivani 04A Scene 04 ends after B04 with apology, 'I liked it' and flat entry, as supplied.",
-      "approval": "AUTHOR_REQUESTED_FUTURE_REFERENCE__NOT_PUBLISHED_PROSE__NOT_CURRENT_CANON",
+      "approval": "AUTHOR_CONFIRMED_FUTURE_INTENT__EVENT_DETAILS_UNASSIGNED__NOT_CURRENT_CANON",
       "nextAction": "When author chooses future scene, clarify whether action is still desired, its exact actor/receiver, positions, timing, consent and effect. Do not repeat earlier five-minute overextension."
     }
   ]
