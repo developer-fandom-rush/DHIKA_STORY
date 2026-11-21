@@ -4,7 +4,7 @@
   "title": "Ankita — Episode 04B · Scene 01 (B01–B06)",
   "date": "2026-01-02",
   "lead": "ankita",
-  "status": "AUTHOR_DECLARED_SCENE01_COMPLETE_PUBLISHED_SOURCE__EPISODE04B_CONTINUES",
+  "status": "AUTHOR_DECLARED_SCENE01_COMPLETE_PUBLISHED_SOURCE__AUTHOR_REQUESTED_B06_REACTION_ADDED_FOR_REVIEW__EPISODE04B_CONTINUES",
   "source": {
     "type": "google-doc-tab",
     "url": "https://docs.google.com/document/d/1zcFlF9rWeIzaenBEmatt4K8bw3L-LcH3c_45JwoNM3o/edit?tab=t.ouch4dqht9mi",
@@ -12,12 +12,12 @@
     "documentTitle": "Episode 4A and 4B.",
     "revisionId": "AHj4eMS0gA2L-rXbYvsP6tiV_lRY02IZVvpCfO8fTFas7yiy1A8_5qKSQoKXaGM8j2hXMh5JPrcxb55G-wnMF5uhFtwVhuuryItbW2-9m_U"
   },
-  "publicationPolicy": "Text transferred from the author-shared Google Doc tab as provided. No rewriting or hidden editing; formatting displayed by UI only.",
+  "publicationPolicy": "Original author-shared Google Doc tab is retained verbatim in originalTabParagraphs. Sections B01–B05 and other B06 paragraphs remain intact; one author-requested, assistant-drafted internal physical reaction afterbeat has been added to rendered B06 for review. sectionSourceRanges refer to original tab, not inserted text.",
   "continuity": {
     "B01": "Kabir returns at 03:00; dialogue present exactly as supplied in source document",
     "B02_B04": "Morning routine, genuine filter maintenance and recollection of yesterday",
     "B05": "Only dusty-rose nighty",
-    "B06": "Deliberate wet-nighty moment and Rinku departs; Scene 01 ends",
+    "B06": "Deliberate wet-nighty moment; Rinku departs; new author-requested short non-graphic Ankita internal physical reaction added after the original decision line; Scene 01 ends. Rinku's mind-reading remains unknown.",
     "next": "Office preparation and departure; morning walk shifted to evening",
     "futureIdeaReference": "FI-ANKITA-B08-THREE-VIEWS-FUTURE__NOT_CURRENT_SCENE"
   },
@@ -144,6 +144,7 @@
         "Rinku: “Shaam ko update kar dunga.”",
         "Ankita wahi khadi reh gayi.",
         "Is baar usse pata tha ki paani achanak nahi gira tha. Usne khud yeh decision liya tha.",
+        "Rinku ke jaane ke baad bhi Ankita ki dhadkan tez thi. Chehre par garmi aur lower abdomen mein halki si tingling se use apni excitement ka ehsaas hua; apni hi boldness yaad karke uske honthon par ek chhoti muskaan aa gayi.",
         "Lekin Rinku ne actually kya samjha?",
         "B06 ends."
       ]
@@ -250,10 +251,11 @@
     "totalOriginalImages": 3,
     "sourceDocumentExport": "SUCCESS_AFTER_TEMP_COPY_TAB_ISOLATION",
     "readerStatus": "THREE_ORIGINAL_PNG_ASSETS_VERIFIED_IN_REPOSITORY",
-    "preserveProseVerbatim": true,
+    "preserveProseVerbatim": false,
     "assetPolicy": "GitHub-hosted original PNG assets for public reader; Drive retains separate archival copies",
     "updatedAt": "2026-11-21",
-    "driveArchiveFolder": "https://drive.google.com/drive/folders/1nF0NrIdeLimXshiW05P1DaDzMzqM6BTE"
+    "driveArchiveFolder": "https://drive.google.com/drive/folders/1nF0NrIdeLimXshiW05P1DaDzMzqM6BTE",
+    "preserveOriginalTabParagraphsVerbatim": true
   },
   "externalOriginalImages": [
     {
@@ -282,6 +284,17 @@
       "assetPath": "assets/episode-04b-ankita/scene01-original-03.png",
       "driveFileUrl": "https://drive.google.com/file/d/1DBcTE7zYfpKQMU7NSFH2ZPyg067I_IJv/view",
       "sha256": "da2f39013f271f1f769acf6010edbeeeb553cfa0e156b0d867dd66d6919bb6c7"
+    }
+  ],
+  "editorialAddenda": [
+    {
+      "id": "ANK-04B-B06-REACTION-20261121",
+      "section": "B06",
+      "afterOriginalParagraph": "Is baar usse pata tha ki paani achanak nahi gira tha. Usne khud yeh decision liya tha.",
+      "insertedText": "Rinku ke jaane ke baad bhi Ankita ki dhadkan tez thi. Chehre par garmi aur lower abdomen mein halki si tingling se use apni excitement ka ehsaas hua; apni hi boldness yaad karke uske honthon par ek chhoti muskaan aa gayi.",
+      "source": "User-requested physical-response continuity update, discussed after review of Dhika original EP04",
+      "status": "PROVISIONAL_AUTHOR_REVIEW__NOT_ORIGINAL_GOOGLE_DOC_VERBATIM",
+      "originalTabPreserved": true
     }
   ]
 }
