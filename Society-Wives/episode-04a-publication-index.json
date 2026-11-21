@@ -107,15 +107,25 @@
       "name": "Meenakshi",
       "source": "episode-04a-meenakshi-source.json",
       "sourceType": "scene-wise-verbatim-and-author-chat",
-      "publicationStatus": "SCENE01_AUTHOR_REQUESTED_PUBLISHED__FINAL_FREEZE_PENDING",
+      "publicationStatus": "SCENES01_03_PUBLISHED__SCENE04_PARTIAL_VISIBLE__FINAL_FREEZE_PENDING",
       "publishedSceneIds": [
-        "01"
+        "01",
+        "02",
+        "03"
       ],
       "completedPlanSceneIds": [
-        "M04A-S01"
+        "M04A-S01",
+        "M04A-S02",
+        "M04A-S03"
       ],
-      "pendingPlanSceneIds": [],
-      "publicationScope": "Scene 01 (Tower C lift to Kapoor flat) is published with two author-selected generated illustrations. Further home/night scenes and the independent Naveen 14:15 hospital cut-point remain unwritten; publication does not freeze their future decisions."
+      "pendingPlanSceneIds": [
+        "M04A-S04"
+      ],
+      "publicationScope": "Read Story has Scene 01 (homecoming), Scene 02 (marriage history), Scene 03 (Vihaan feeding and Nikhil phone call), and Scene 04 as a partial published draft through M04A-04.07. The 04.08–04.12 intimate-session/ending beats are not present in the linked Meenakshi 4A Doc tab and are pending; Scene 04 must not be marked complete or frozen. The separate Naveen 14:15 hospital cut-point remains unresolved.",
+      "visibleDraftSceneIds": [
+        "04"
+      ],
+      "sourceDocumentUrl": "https://docs.google.com/document/d/1zcFlF9rWeIzaenBEmatt4K8bw3L-LcH3c_45JwoNM3o/edit?tab=t.eqc1lixgpfbx"
     }
   }
 }
