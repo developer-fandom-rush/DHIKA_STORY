@@ -180,11 +180,11 @@ function Episode04Reading({character,scene}:Props){
   </div>
   {publicationLoading&&<p role="status">Loading publication index…</p>}
   {publicationError&&<p role="alert" className="error">Publication index unavailable: {publicationError}</p>}
-  {lead&&<p className="source-note"><strong>{lead.name} · Published in Read Story.</strong> {lead.publicationScope}</p>}
+  {lead&&<p className="source-note"><strong>{lead.name} · {lead.publicationStatus.includes('REVIEW')?'Working manuscript available for review':'Published in Read Story'}.</strong> {lead.publicationScope}</p>}
   {isManuscript&&<>
-   {ankitaLoading&&<p role="status">Loading Ankita Episode 04A…</p>}
-   {ankitaError&&<p role="alert" className="error">Ankita manuscript unavailable: {ankitaError}</p>}
-   {ankita&&<article className="reading-surface source-scene prose-exact" id="ep04a-ankita-manuscript" style={{maxWidth:'850px',margin:'0 auto'}}>
+   {ankitaLoading&&<p role="status">Loading Episode 04A manuscript…</p>}
+   {ankitaError&&<p role="alert" className="error">Episode 04A manuscript unavailable: {ankitaError}</p>}
+   {ankita&&<>{active==='shreya'&&<p className="source-note"><a href="https://docs.google.com/document/d/1zcFlF9rWeIzaenBEmatt4K8bw3L-LcH3c_45JwoNM3o/edit?tab=t.90gza05r7hjd" target="_blank" rel="noopener noreferrer">Open the original Shreya 04A Google Doc tab</a> · User-facing review manuscript, not final author freeze</p>}<article className="reading-surface source-scene prose-exact" id="ep04a-ankita-manuscript" style={{maxWidth:'850px',margin:'0 auto'}}>
     <h2>{titleCase(active)} · Episode 04A</h2>
     {ankita.content.map(entry=>{
      const text=entry.text.replace(/\u000b/g,'\n'),image=active==='ankita'?ep04AnkitaImages[entry.sourceElementIndex]:undefined;
@@ -196,7 +196,7 @@ function Episode04Reading({character,scene}:Props){
       </figure>}
      </div>;
     })}
-   </article>}
+   </article></>}
   </>}
   {isScenes&&<>
    {shivaniLoading&&<p role="status">Loading Shivani Episode 04A…</p>}
