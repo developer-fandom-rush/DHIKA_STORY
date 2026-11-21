@@ -21,15 +21,15 @@ export function useRoute() {
   useEffect(()=>{const update=()=>setRoute(readRoute());window.addEventListener('hashchange',update);return ()=>window.removeEventListener('hashchange',update)},[]);
   return route;
 }
-const cache = new Map<string,unknown>();
+// Reader/planning sources are updated by independent GitHub commits.
+// Avoid retaining stale publication and plot JSON in a tab-wide cache.
 export function useData<T>(path: string | null) {
   const [state,setState] = useState<{data:T|null;error:string;loading:boolean}>({data:null,error:'',loading:!!path});
   useEffect(()=>{
     if(!path){setState({data:null,error:'',loading:false});return}
-    if(cache.has(path)){setState({data:cache.get(path) as T,error:'',loading:false});return}
     let cancelled=false;
     setState({data:null,error:'',loading:true});
-    fetch(assetUrl(path)).then(r=>{if(!r.ok)throw new Error('HTTP '+r.status+' — '+path);return r.json() as Promise<T>}).then(data=>{cache.set(path,data);if(!cancelled)setState({data,error:'',loading:false})}).catch(e=>{if(!cancelled)setState({data:null,error:String(e),loading:false})});
+    fetch(assetUrl(path),{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error('HTTP '+r.status+' — '+path);return r.json() as Promise<T>}).then(data=>{if(!cancelled)setState({data,error:'',loading:false})}).catch(e=>{if(!cancelled)setState({data:null,error:String(e),loading:false})});
     return ()=>{cancelled=true};
   },[path]);
   return state;
