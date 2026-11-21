@@ -45,16 +45,16 @@
         {
           "id": "TS04A-09",
           "time": "21:36–22:15",
-          "title": "Set up Soniya–Rahul temporary absence; Taniya to care for flat",
-          "plot": "Soniya and Rahul set up a forthcoming period away from the shared flat, leaving its day-to-day care to Taniya. This is a future absence setup, NOT their actual departure tonight. Exact reason, departure date, duration, destination and return date are NOT SPECIFIED — AUTHOR REVIEW. Keep household arrangement practical and concise. Do not add an unrelated couple-confession discussion. Previously established history remains unchanged, but this scene focuses solely on the practical future house handover.",
+          "title": "Soniya takes wedding-preparation responsibility; Taniya minding flat",
+          "plot": "Soniya explicitly takes responsibility for Taniya and Aditya's wedding preparations. Soniya and Rahul need to be away from their shared home for those preparations, and Taniya is entrusted with looking after the flat while they are gone. This is a future trip/absence setup; they do not depart during this same-night scene. Soniya owns the wedding-preparation work; Taniya's responsibility during their absence is the flat/household (alongside her existing office commitments), not taking over wedding preparations. No Vivek disclosure continuation. The exact departure date, destination, travel arrangements, duration, and return time remain UNSPECIFIED — AUTHOR REVIEW. Keep the dialogue concise and practical.",
           "sourceStatus": "AUTHOR_DIRECTED_NEW_PLOT__PROSE_PENDING",
-          "knowledgeLimit": "Exact departure, return and duration remain open. No unrelated private conversation is resumed."
+          "knowledgeLimit": "The author confirmed the reason (Soniya handles wedding preparations, Rahul accompanies) and Taniya's home caretaking role. Date, duration, destination and return unknown; do not invent them."
         },
         {
           "id": "TS04A-10",
           "time": "22:15–22:45",
           "title": "Night closes; couple still at home, Taniya has the forthcoming responsibility",
-          "plot": "On this same night, Taniya retires in her own bedroom after a long workday; Soniya and Rahul retire separately in their shared room. A later period when the couple is away and Taniya minds the flat is set up but has not started. Keep transition short; the next narrative focus is Taniya's imagination."
+          "plot": "Same night after the wedding-preparation travel setup, Taniya retires separately after a long workday; Soniya and Rahul remain home and retire together in their room. Their temporary trip has not begun; no unapproved departure or return date. Taniya will look after the shared home during their absence while Soniya handles the wedding arrangements. Next focus: Taniya's imagination."
         }
       ]
     },
@@ -174,13 +174,18 @@
   },
   "futureDirection": {
     "authorConfirmedAt": "2026-11-21",
-    "soniya": "Sharmi-inspired playful, bold social energy; analogy is characterization only, not Dhika plot import",
-    "rahul": "Raj-inspired relatively polite/reserved social presence after his eventual return; future return date UNKNOWN",
+    "soniya": "AUTHOR-CONFIRMED PERMANENT CHARACTER DIRECTION: SONIYA IS TO ACT LIKE SHARMI in Society Wives. Carry Sharmi's vivacious, openly cheeky, bold, spontaneous, teasing and self-directed social personality into Soniya's future choices and voice. This is an ongoing character-voice/behavior lock, not a one-scene outfit prompt; do not copy Dhika's Sharmi plots, biography, exact dialogue or assume automatic consent to particular encounters. Source: Dhika archive Sharmi/Raj characterization.",
+    "rahul": "AUTHOR-CONFIRMED CHARACTER COMPARISON: Rahul's future role, including when he returns, draws on Raj's polite, socially reserved contrast to Sharmi. Do not import Raj's events or infer a scheduled return.",
     "homeCaretaker": "Taniya",
-    "absenceSetup": "Soniya and Rahul will leave their shared flat in Taniya's care for some time. Reason, departure time, duration and return time undecided.",
+    "absenceSetup": "Soniya and Rahul will leave the shared home for wedding preparations that SONIYA handles (Taniya–Aditya wedding). During their absence TANIYA cares for the home, not the preparations. Departure date, duration, destination and return time remain unspecified. This setup is future-only; no departure tonight.",
     "startDate": null,
     "endDate": null,
     "sourceReference": "Dhika — Complete Episode Archive (Tabs), Sharmi/Raj characterization around early introduction and EP12; author direction in conversation",
-    "notApprovedForProse": "No concrete travel reason or timeframe has been chosen."
+    "notApprovedForProse": "Trip reason and character roles are author-confirmed, but travel timing/destination, detailed Scene 04 dialogue, and later plot events are not approved. Scenes 04–05 remain pending.",
+    "weddingPreparationsOwner": "Soniya",
+    "flatCaretakerDuringAbsence": "Taniya",
+    "tripPurpose": "Soniya-led wedding preparations, Rahul accompanying",
+    "reasonStatus": "AUTHOR_CONFIRMED",
+    "characterizationStatus": "AUTHOR_CONFIRMED_PERMANENT"
   }
 }
