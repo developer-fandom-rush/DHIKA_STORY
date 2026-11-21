@@ -1469,8 +1469,10 @@
               "action": "Kavita, Meera, Poonam, Anjali and the station tea helper may opt out with no consequences. He is told the premise before any teasing starts, and nobody uses uniform, badge or authority to pressure him."
             }
           ],
-          "status": "LOCKED_OFFICE_CHOTU_ACTIONS__PROSE_NOT_APPROVED",
-          "origin": "episode-04b-office-chotu-jan02-five-leads.json"
+          "status": "DEFERRED_TO_FUTURE_REFERENCE__NOT_EP04B",
+          "origin": "episode-04b-office-chotu-jan02-five-leads.json",
+          "previousStatus": "LOCKED_OFFICE_CHOTU_ACTIONS__PROSE_NOT_APPROVED",
+          "futureReferenceId": "FI-SHREYA-STATION-CHOTU-FOUR-WOMEN-CHARM-GAME-FUTURE"
         },
         {
           "id": "E04B-SHREYA-PAR-04",
@@ -1556,8 +1558,10 @@
               "continuity": "No invented photo, CCTV clip or shared knowledge of Jan1 Chintu accident."
             }
           ],
-          "status": "LOCKED_OFFICE_CHOTU_ACTIONS__PROSE_NOT_APPROVED",
-          "origin": "episode-04b-office-chotu-jan02-five-leads.json"
+          "status": "DEFERRED_TO_FUTURE_REFERENCE__NOT_EP04B",
+          "origin": "episode-04b-office-chotu-jan02-five-leads.json",
+          "previousStatus": "LOCKED_OFFICE_CHOTU_ACTIONS__PROSE_NOT_APPROVED",
+          "futureReferenceId": "FI-SHREYA-STATION-CHOTU-FOUR-WOMEN-CHARM-GAME-FUTURE"
         },
         {
           "id": "E04B-SHREYA-06",
@@ -1595,8 +1599,10 @@
               "limits": "No kissing, explicit exposure, genital/breast touching or new promise."
             }
           ],
-          "status": "LOCKED_OFFICE_CHOTU_ACTIONS__PROSE_NOT_APPROVED",
-          "origin": "episode-04b-office-chotu-jan02-five-leads.json"
+          "status": "OLD_INDIVIDUAL_DRAFT_PENDING_NEW_ACCIDENT_FIRST_REPLAN",
+          "origin": "episode-04b-office-chotu-jan02-five-leads.json",
+          "priorStatus": "LOCKED_OFFICE_CHOTU_ACTIONS__PROSE_NOT_APPROVED",
+          "continuityReview": "Previous upper-back private encounter is an unapproved proposal, not a continuation of a Jan02 group game. Author is discussing a new prior accidental office helper event; do not preemptively publish this beat."
         },
         {
           "id": "E04B-SOC-SR-01",
@@ -1710,7 +1716,7 @@
         "episode-04b-society-chotu-jan02-five-leads.json",
         "episode-04b-five-leads-prose-drafts.json"
       ],
-      "notes": "Morning is placed BEFORE office only when grounded; Shreya has a home continuity check, not an invented morning Chintu duty encounter.",
+      "notes": "2026-11-21 author update: office Station Chotu group game deferred to Future Reference (not active Jan2). Morning is placed BEFORE office only when grounded; Shreya has a home continuity check, not an invented morning Chintu duty encounter.",
       "dhikaInspiredProgression": [
         {
           "stage": "04A uncertainty",
