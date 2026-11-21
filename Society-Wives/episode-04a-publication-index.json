@@ -48,6 +48,24 @@
       ],
       "pendingPlanSceneIds": [],
       "publicationScope": "Scenes 01–04 author-published; Scene 05 GPT dinner bridge in reader pending review. Scene 06 author-approved opening and marriage history retained word-for-word; GPT continuation with married intimacy and private recollections is now available in Read Story as a complete draft, pending author approval/freeze. No further Shivani 04A scenes planned. Om sightline future-only."
+    },
+    "shreya": {
+      "name": "Shreya",
+      "source": "episode-04a-shreya-source.json",
+      "sourceType": "google-doc-verbatim-manuscript",
+      "publicationStatus": "WORKING_MANUSCRIPT_IN_READ_STORY__AUTHOR_FINAL_REVIEW_PENDING",
+      "publishedSceneIds": [
+        "manuscript"
+      ],
+      "completedPlanSceneIds": [
+        "SHR04A-S01",
+        "SHR04A-S02"
+      ],
+      "pendingPlanSceneIds": [
+        "SHR04A-S03",
+        "SHR04A-S04"
+      ],
+      "publicationScope": "Shreya 04A manuscript through the comforting dinner ending is available in Read Story for review. Author-provided/Grok-provided original text preserved; author-requested non-graphic towel consolation, full-coverage floral nightwear and actual dinner payoff added by GPT. This is not a final author freeze. Vikram returns at 06:00 the next morning in the updated manuscript; old 20:40–20:50 Vikram arrival and night plan SC11–SC15 need replot."
     }
   }
 }
