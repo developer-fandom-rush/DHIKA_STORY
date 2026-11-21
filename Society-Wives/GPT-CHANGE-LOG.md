@@ -23,6 +23,15 @@ Use the exact label **Changed by GPT** in the Git commit message AND add a dated
 
 ## Entries
 
+### 2026-11-21 — Changed by GPT — Publish Shivani Episode 04A Scene 04 Part A, Part B buildup, B01 and B02
+- **Affected paths:** `Society-Wives/episode-04a-shivani-source.json`, `Society-Wives/episode-04a-shivani-reader.html`, `Society-Wives/ui/index.html`.
+- **Source attribution:** Google Docs `Episode 4A.` → `SHIVANI EP-04 A` (new Scene 04 Part A and Part B buildup); author-supplied chat excerpts labeled B01 and B02. GPT only integrated the supplied prose, preserved B01/B02 exact text, and reconciled the lead-in as directed.
+- **Precise UI-only continuity adjustment:** In the Part B buildup, suppressed paragraph 147 (Karan handhold), paragraph 150 (Aman handhold), and paragraph 151 (mood transition) because B01 and B02 describe those actions in full. Verbatim source paragraphs remain retained under `scene04.sourceParagraphs` and are unchanged in the Google Doc. No edits to B01 or B02.
+- **State:** Four scene entries visible through Shivani 04A reader; Scene 04 remains partial through B02; B03 onward not imported. Images intentionally not uploaded; 14 inline-object source identifiers retained.
+- **Isolation:** No edits to Ankita's Drive tab, EP01–03 approved content, or Shivani's earlier three scene text. Source document itself untouched.
+- **GitHub commits:** content `7116d7d1bcf5baf84e05a38f20be4d8c1b405e38`; reader `e795699319f7b1820a93fcf15c7f8b979e95354e`; navigation `6762767f6843930d8183d810fffcf24046083a5f`.
+
+
 ### 2026-11-21 — Changed by GPT — Shivani Episode 04A source imported as 3-scene UI reader
 - **Affected paths:** `Society-Wives/episode-04a-shivani-source.json` (new), `Society-Wives/episode-04a-shivani-reader.html` (new), `Society-Wives/ui/index.html` (persistent Vite-source planning shortcut), `Society-Wives/index.html` (built shortcut, synced by Pages workflow).
 - **Source attribution:** Author's Google Doc `Episode 4A.`, tab `SHIVANI EP-04 A` (https://docs.google.com/document/d/1zcFlF9rWeIzaenBEmatt4K8bw3L-LcH3c_45JwoNM3o/edit?tab=t.6exlxaqxwcq); GPT only extracted, preserved paragraph order, and installed the UI reader without rewriting any prose.
