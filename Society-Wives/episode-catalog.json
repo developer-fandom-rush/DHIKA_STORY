@@ -1,7 +1,7 @@
 {
   "series": "Society Wives — Five Veils of Desire",
-  "catalogVersion": "2026-11-19-EP03-FINAL",
-  "policy": "Episodes 01 and 02 and all 34 existing Episode 03 reader scenes are author-approved final. Episode 04A and 04B are separately tracked as plots and drafts. Historical sources are retained.",
+  "catalogVersion": "2026-11-21-EP04B-ANKITA-SCENE01",
+  "policy": "Episodes 01–03 have their existing approved/frozen statuses. Episode 04A publication is tracked separately. Episode 04B Ankita Scene 01 (B01–B06) is published in Read Story; subsequent 04B material remains in planning and future ideas are not published events.",
   "episodes": [
     {
       "number": "01",
@@ -568,6 +568,27 @@
         "taniya-soniya": 5
       },
       "totalStandalonePlottedScenes": 23
+    },
+    {
+      "number": "04B",
+      "title": "Episode 04B — The Next Day",
+      "subtitle": "Ankita · Scene 01 published",
+      "status": "PARTIALLY_PUBLISHED_SCENE01_ONLY",
+      "date": "2026-01-02",
+      "mainPath": "index.html#/reading?episode=04B&character=ankita&scene=01",
+      "sourcePath": "episode-04b-ankita-scene01-source.json",
+      "chapters": [
+        {
+          "lead": "Ankita",
+          "sceneId": "01",
+          "title": "Morning at Home (B01–B06)",
+          "date": "2026-01-02",
+          "time": "03:00–around 07:30",
+          "status": "AUTHOR_DECLARED_COMPLETE_PUBLISHED_SOURCE",
+          "readerRoute": "#/reading?episode=04B&character=ankita&scene=01"
+        }
+      ],
+      "note": "Scene 01 ends after Rinku departs and Ankita's final question. B08 three views remains future-only, not part of the published scene. Scene 02 office preparation is proposed, not written/published."
     }
   ]
 }
