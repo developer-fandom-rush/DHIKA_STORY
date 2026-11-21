@@ -72,23 +72,24 @@
     "taniya": {
       "name": "Taniya",
       "source": "episode-04a-taniya-soniya-source.json",
-      "sourceType": "scene-wise-verbatim-and-author-chat",
-      "publicationStatus": "SCENES_01_02_03_IN_READ_STORY__04_05_PENDING",
+      "sourceType": "scene-wise-verbatim-and-author-google-doc-tab",
+      "publicationStatus": "SCENES_01_02_03_04_05_PUBLISHED_IN_READ_STORY",
       "publishedSceneIds": [
         "01",
         "02",
-        "03"
+        "03",
+        "04",
+        "05"
       ],
       "completedPlanSceneIds": [
         "01",
         "02",
-        "03"
-      ],
-      "pendingPlanSceneIds": [
+        "03",
         "04",
         "05"
       ],
-      "publicationScope": "Scenes 01–03 completed in Read Story. Scenes 04–05 remain only in active Planning; they have an unapproved working scaffold and per-beat Grok handoff ledger, NOT final prose. Scene 04: Soniya handles wedding preparations, couple later departs at unspecified date, Taniya cares for flat. Scene 05: both Soniya/Rahul physically absent; any apparent Rahul visit occurs only in Taniya's imagined scene, with dream reveal for reader at end. Permanent Soniya-as-Sharmi voice lock remains active.",
+      "pendingPlanSceneIds": [],
+      "publicationScope": "All Taniya Episode 04A Scenes 01–05 published. Scenes 04 (one-paragraph wedding-preparation/household handover) and 05 (full doorway dream and final waking reveal) were imported directly from the author's Episode 4A Google Doc Taniya tab t.265eheolgvsu; preceding Scenes 01–03 remain unchanged. Original planning/Grok placeholders are historical drafts, not pending production.",
       "authorConfirmedFutureLocks": {
         "soniyaVoice": "SONIYA ACTS LIKE SHARMI, a permanent future-story character direction (not a literal transfer of Dhika events)",
         "soniyaWeddingRole": "Soniya personally handles wedding preparations for Taniya and Aditya",
@@ -100,7 +101,15 @@
       "workingDrafts": {
         "scenes04_05": "episode-04a-taniya-scenes04-05-working-scaffold.md",
         "scene05NeutralHandoff": "episode-04a-taniya-scene05-microbeat-handoff.json",
-        "status": "PENDING_EXTERNAL_MICROBEAT_INSERTIONS_AND_AUTHOR_APPROVAL__NOT_PUBLISHED"
+        "status": "SUPERSEDED_BY_PUBLISHED_GOOGLE_DOC_MANUSCRIPT__DO_NOT_DISPLAY_AS_PENDING"
+      },
+      "publishedFromGoogleDoc": {
+        "url": "https://docs.google.com/document/d/1zcFlF9rWeIzaenBEmatt4K8bw3L-LcH3c_45JwoNM3o/edit?tab=t.265eheolgvsu",
+        "tabId": "t.265eheolgvsu",
+        "sceneIds": [
+          "04",
+          "05"
+        ]
       }
     },
     "meenakshi": {
