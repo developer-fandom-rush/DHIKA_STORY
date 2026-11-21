@@ -13,19 +13,27 @@ type DecisionReference={title:string;status:string;lead:string;episode:string;sc
 
 const humanStatus=(value:string)=>value.replace(/_/g,' ').replace(/\s+/g,' ').toLowerCase();
 
-export default function FutureReference(){
+export default function FutureReference({lead='ankita'}:{lead?:string}){
  const {data:ideas,loading:ideasLoading,error:ideasError}=useData<IdeasData>('future-ideas.json');
  const {data:decision,loading:decisionLoading,error:decisionError}=useData<DecisionReference>('episode-04a-shivani-decision-reference.json');
+ const leads=['ankita','shivani','taniya','soniya','meenakshi','shreya'] as const;
+ const active=leads.find(x=>x===lead)||'ankita';
+ const ownIdeas=(ideas?.ideas||[]).filter(idea=>idea.lead.toLowerCase()===active);
+ const countFor=(who:string)=>(ideas?.ideas||[]).filter(idea=>idea.lead.toLowerCase()===who).length;
+ const changeLead=(who:string)=>openPage('future-reference',{lead:who});
  return <main className="page-width" id="future-reference">
   <header className="section-intro">
    <span className="eyebrow">Society Wives · Editorial archive</span>
    <h1>Future Reference &amp; Locked Decisions</h1>
-   <p>Reference material and continuity decisions, not prose. Current published scenes remain in Read Story. An idea in this archive is not automatically a future canon scene.</p>
+   <p>Character-wise archive of saved ideas and editorial decisions. Future references are not automatically approved story scenes.</p>
   </header>
-  <p className="source-note"><strong>Where to read:</strong> <a href="#/reading?episode=04A&character=shivani&scene=04">Shivani EP04A Scene 04</a> · <a href="#/reading?episode=04A&character=ankita">Ankita EP04A</a> · <a href="#/planning?lead=shivani&part=A">Unfinished Shivani scenes</a></p>
-  {decisionLoading&&<p role="status">Loading Shivani decision reference…</p>}
-  {decisionError&&<p role="alert" className="error">Unable to load decision reference: {decisionError}</p>}
-  {decision&&<section className="episode-plan-card" id="shivani-scene04-decision-reference">
+  <div className="perspective-tabs" role="group" aria-label="Choose a woman for future references">
+   {leads.map(w=><button type="button" key={w} onClick={()=>changeLead(w)} aria-pressed={w===active} className={w===active?'selected':''}>{w.charAt(0).toUpperCase()+w.slice(1)} <span className="muted">({ideasLoading?'…':countFor(w)})</span></button>)}
+  </div>
+  <p className="source-note"><strong>{active.charAt(0).toUpperCase()+active.slice(1)} — future references.</strong> {ideasLoading?'Loading saved references…':ownIdeas.length+' saved idea'+(ownIdeas.length===1?'':'s')}. {active==='shivani'?'One additional Scene 04 decision record is available below.':'Only ideas explicitly saved in the reference ledger are counted here; existing plot drafts are not treated as future-approved ideas.'}</p>
+  {active==='shivani'&&decisionLoading&&<p role="status">Loading Shivani decision reference…</p>}
+  {active==='shivani'&&decisionError&&<p role="alert" className="error">Unable to load decision reference: {decisionError}</p>}
+  {active==='shivani'&&decision&&<section className="episode-plan-card" id="shivani-scene04-decision-reference">
    <h2>{decision.title}</h2>
    <p className="muted">Current scene published · older action plan preserved separately · author approval required for revisions</p>
    {decision.sections.map(section=><details className="episode-outline" key={section.id} id={'reference-'+section.id} open={section.id==='current'||section.id==='deferred'||section.id==='unresolved'}>
@@ -41,11 +49,12 @@ export default function FutureReference(){
    </details>)}
   </section>}
   <section className="episode-plan-card" id="saved-future-ideas">
-   <h2>Saved future ideas</h2>
-   <p className="muted">Future-only ideas for different characters. Not published story, and not permission to import physical actions into a current scene.</p>
+   <h2>{active.charAt(0).toUpperCase()+active.slice(1)} · Saved Future Ideas</h2>
+   <p className="muted">Only ideas explicitly saved for this character appear below. They are not automatically canon.</p>
    {ideasLoading&&<p role="status">Loading saved future ideas…</p>}
    {ideasError&&<p role="alert" className="error">Unable to load saved ideas: {ideasError}</p>}
-   {(ideas?.ideas||[]).map(idea=><details className="episode-outline" id={idea.id} key={idea.id} open={idea.id==='FI-SHIVANI-KARAN-AMAN-DEFERRED-SQUEEZE-01'}>
+   {!ideasLoading&&!ideasError&&ownIdeas.length===0&&<p className="source-note">No specific Future Reference entries saved for this character yet. Do not infer missing ideas from unfinished plot scenes.</p>}
+   {ownIdeas.map(idea=><details className="episode-outline" id={idea.id} key={idea.id} open={idea.id==='FI-SHIVANI-KARAN-AMAN-DEFERRED-SQUEEZE-01'}>
     <summary><strong>{idea.workingTitle}</strong> · {idea.lead}</summary>
     <p className="muted"><strong>Status:</strong> {humanStatus(idea.approval)}</p>
     {idea.purpose&&<p><strong>Purpose:</strong> {idea.purpose}</p>}
@@ -60,7 +69,7 @@ export default function FutureReference(){
    </details>)}
   </section>
   <div className="chapter-controls">
-   <button type="button" className="button subtle" onClick={()=>openPage('reading',{episode:'04A',character:'shivani',scene:'04'})}>← Read current Shivani scene</button>
+   <button type="button" className="button subtle" onClick={()=>openPage('planning',{lead:active,part:'A'})}>← {active.charAt(0).toUpperCase()+active.slice(1)} Episode 04 Planning</button>
    <a className="button subtle" href={assetUrl('future-ideas.json')}>Structured idea ledger</a>
   </div>
  </main>;
