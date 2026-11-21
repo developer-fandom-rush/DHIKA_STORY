@@ -21,6 +21,10 @@ One-time setup: **[Repository Settings → Pages](https://github.com/developer-f
 
 No AI-generated summaries or plot lines are inserted into the story source. Search classifications are **lexical/heuristic hints only**: a character name in the same or adjacent paragraph does *not* prove a physical encounter, consent, or a specific action; the UI labels these results as references to verify against text.
 
+## Author rights and permitted-use assertion (21 November 2026)
+
+The project owner states that the required copyright permissions and clearances for the **Dhika** story material held in this project are in their possession, and that they intend to use the material for verbatim reference, comparison, editing, and adaptation in their private writing workflow. This is an **author-provided assertion**, recorded here at the owner's request; no underlying license or rights documentation has been independently reviewed or verified in this repository. This note does not itself grant rights beyond those actually held, nor change third-party attribution or the status of the publicly hosted source archive.
+
 ## Privacy
 
 **This GitHub repository and GitHub Pages website are public.** Story source is shipped with the site and can be downloaded by visitors. Do not publish confidential text in this repository.
