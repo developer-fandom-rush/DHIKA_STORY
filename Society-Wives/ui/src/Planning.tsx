@@ -144,7 +144,7 @@ export default function Planning({lead='ankita',part='A'}:{lead?:string;part?:st
  const completed=new Set(published?.completedPlanSceneIds||[]);
  const outstandingScenes=(doc?.scenes||[]).filter(scene=>{const sceneId=scene.id||scene.scene||scene.sceneNumber||scene.number;return !sceneId||!completed.has(sceneId)});
  return <main className="page-width">
-  <header className="section-intro"><span className="eyebrow">Next planning · Episode 04</span><h1>Episode 04 · Plot Planning</h1><p>Only unfinished scenes remain here. Published Episode 04A prose is in Read Story, with the former plan retained as an archive.</p></header>
+  <header className="section-intro"><span className="eyebrow">Next planning · Episode 04</span><h1>Episode 04 · Plot Planning</h1><p>Only unfinished scenes remain in this active plot. Published prose and scene images are in Read Story; earlier plot versions remain in Git history.</p></header>
   <p className="source-note"><strong>Before planning the next scene:</strong> <a href={'#/future-reference?lead='+active}>Future Reference &amp; Locked Decisions</a> — current scene locks, deferred ideas and pending editorial issues, not new story prose.</p>
 
   <section className="episode-plan-card" id="neutral-action-choreography-rule" aria-label="Neutral actor receiver action workflow">
@@ -198,7 +198,7 @@ export default function Planning({lead='ankita',part='A'}:{lead?:string;part?:st
    <p><strong>Published in Read Story.</strong> {published.publishedSceneIds.length===1&&published.publishedSceneIds[0]==='manuscript'?'Author-approved manuscript':published.publishedSceneIds.length+' scene entries'} are available in the main reader.</p>
    <p className="muted">{published.publicationScope}</p>
    <button type="button" className="button primary" onClick={()=>openPage('reading',{episode:'04A',character:active})}>Read published prose →</button>
-   <p className="muted">Completed plot notes are retained as source archive but are no longer repeated in Planning.</p>
+   <p className="muted">Completed scenes have been moved out of the active plot into Read Story.</p>
   </section>}
   {selectedPart==='A'?((active==='ankita'||active==='shivani')&&!publicationIndex
    ?<p role="status">{publicationLoading?'Checking published Episode 04A scenes…':'Publication index unavailable. The legacy plot is archived; check Read Story for the saved manuscript.'}</p>
