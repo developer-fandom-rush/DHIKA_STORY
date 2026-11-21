@@ -282,7 +282,7 @@
         "revisionId": "AHj4eMRK6r1TTUWOCyV2d25Ks_ocxrAwrQbh-pejzQabfMZKkRyJhRUhkhiyi95IhF8L4Vq9QI34NsLTd5qytRPWvAf7aICyiWjyzmnZVDQ",
         "sourceParagraphRange": [
           26,
-          52
+          51
         ]
       },
       "blocks": [
@@ -410,11 +410,6 @@
           "type": "text",
           "text": "Aaj ka surprise abhi baaki tha.",
           "sourceParagraph": 51
-        },
-        {
-          "type": "text",
-          "text": "Meenakshi — Episode 04A",
-          "sourceParagraph": 52
         }
       ]
     },
