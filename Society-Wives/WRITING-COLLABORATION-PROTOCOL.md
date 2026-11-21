@@ -91,6 +91,37 @@ Where several older male characters are involved, every micro-beat identifies **
 
 **Episode 04A application:** [EP04A-ANKITA-MICROBEAT-REWRITE-PREP.md](EP04A-ANKITA-MICROBEAT-REWRITE-PREP.md) maps current seven scenes into the more precise breakdown before any future rewrite.
 
+
+## 2B. Neutral choreography and named-action requests — author correction, 21 November 2026
+
+**Default mode:** When the author requests who acts, who receives an action, its **exact concise action name**, who observes it, physical positions, sensory transitions and immediate reactions, respond with a **neutral planning breakdown**. This is NOT inherently a request for explicit sexual prose. Keep literal author-specified identifiers, such as **self-touch (fingering)**, in a factual ledger when needed. Do not silently substitute vague memories or omit the event. Do not supply anatomically graphic detail, sexual technique or erotic prose instructions.
+
+**Steps to apply to every lead and scene:**
+
+1. **Identify requested output mode:** neutral ledger, plot discussion, ordinary prose, or a separately authored insert. Do not treat action identification as a request for graphic narration.
+2. **Preserve author event order:** one primary action per micro-beat; record **actor → receiver/affected → action name → observable effect → immediate reaction → exit state**. Use **Self** as receiver when appropriate.
+3. **Separate the witness row:** **observer → observed person → witnessed action**. An observer does not become the actor of another person's action. Distinguish what they saw from what they thought, and what the observed person knows.
+4. **Track neutral sensory causality:** sound, water, door movement, airflow, warmth, posture, clothing/object states, turning or stillness, and pauses when grounded. Mark unsourced additions as **PROPOSAL**, not canon. No invented erotic detail.
+5. **Preserve the real turning point:** note the precise cause of a character's shift in attention and the subsequent choice. Established private attraction does not automatically mean the other person knows or reciprocates it.
+6. **Handover without erasure:** If an external author will supply missing manuscript text, put **[GRAPHICAL DESCRIPTION REQUIRED]** only at the exact unwritten insertion anchor and keep a separate neutral ledger with a stable ID. Do not claim to have contacted Grok or received prose. Do not write a prompt specifically designed to generate graphic sexual content.
+7. **Clarify genuine uncertainty once:** ask only where it affects plot causality or continuity; do not reconfirm an approved decision. Do not publish or alter approved episodes just because a planning workflow was updated.
+
+**Worked case — Shreya Episode 04A Scene 02 (author-corrected working breakdown, not approved story prose):**
+
+| Beat | Actor → receiver / witness | Exact neutral action | Effect / information |
+|---|---|---|---|
+| SC06 | Shreya → Self | Private self-touch; author label: **fingering** while recalling Vivek Rao | Her private activity; Arvind not invited |
+| SC07.1 | Arvind → Bathroom door; Arvind witnesses Shreya | Opens the door unexpectedly and sees Shreya's ongoing private action | Shreya has not noticed him yet |
+| SC07.2 | Door/airflow → Shreya | Airflow changes when door opens | She becomes aware of an interruption |
+| SC07.3 | Shreya → Self / Arvind | Startled vocal reaction; suppresses further shouting, turns away and becomes still | Shreya faces away from the doorway |
+| SC07.4 | Arvind → observes Shreya | Brief sightline of her unclothed back, not a prolonged inspection | His prior one-sided interest is reader-only knowledge |
+| SC07.5 | Arvind → Self | Regains composure, exits and collects a towel | Shreya's privacy and comfort now take immediate priority |
+| SC08 | Arvind → Shreya | Returns with towel, offers coverage, apologizes and withdraws | Privacy restored; no assumption of shared attraction |
+
+**Source status:** The example records the author's correction to an earlier assistant draft, **not a final change to Episode 04A canon**. Exact door-entry motive and any unclear interval or physical staging remain open for author review. Do not frame the assistant's previous omission as an author's decision.
+
+**Anti-pattern:** Do not answer a neutral action ledger request by removing the named action and reducing the scene to generic reminiscence. Instead deliver actor/receiver/witness, action names, sensory transitions, reactions, and the actual character turning point.
+
 ## 3. Scene development — step by step
 
 1. **Retrieve source** — read the linked planning UI, existing prose, previous and overlapping character scenes. Record exact source paths and approval status.
