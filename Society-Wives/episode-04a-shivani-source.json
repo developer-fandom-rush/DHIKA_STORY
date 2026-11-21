@@ -1672,8 +1672,8 @@
       "date": "2026-01-01",
       "time": "19:28–21:45",
       "place": "Ahuja Residence — living room, dining area and bedroom",
-      "status": "AUTHOR_REQUESTED_SHORT_BRIDGE_DRAFT_PUBLISHED_FOR_REVIEW",
-      "origin": "GPT draft requested by author in chat, based on Scene 05 plan SH14–SH17 plus explicit direction: Rohan/Manav gaze at Shivani/Kavya; Om present throughout",
+      "status": "AUTHOR_REQUESTED_OM_HIDDEN_GAZE_ADDED__SCENE05_DRAFT_FOR_REVIEW",
+      "origin": "GPT draft requested by author in chat, extended by author direction: Rohan notices Shivani, Manav notices Kavya, Om privately notices both and is not caught; Om present at home",
       "sourcePlanId": "E04A-SH-S05",
       "blocks": [
         {
@@ -1699,7 +1699,7 @@
         },
         {
           "type": "text",
-          "text": "8:10 PM ke aas-paas Manav apne kaam se ghar lauta. Sabko hello kehkar woh paani lene gaya. Kavya aur Shivani dining table ke paas programme ki sheet samet rahi thi. Rohan ki nazar Shivani par pal bhar zyada thahri; Manav ki Kavya par. Dono behnon ne woh nazar pakad li. “List dekhni hai ya hum dono ka inspection chal raha hai?” Shivani ne seedha poochha. Rohan hansa. Manav ne glass uthaya. “Main toh paani lene aaya tha.” Kavya ki hansi chhoot gayi. Baat wahin khatam ho gayi, lekin ek chhoti-si awkward smile reh gayi.",
+          "text": "8:10 PM ke aas-paas Manav apne kaam se ghar lauta. Sabko hello kehkar woh paani lene gaya. Kavya aur Shivani dining table ke paas programme ki sheet samet rahi thi. Rohan ki nazar Shivani par pal bhar zyada thahri; Manav ki Kavya par. Dono behnon ne woh nazar pakad li. “List dekhni hai ya hum dono ka inspection chal raha hai?” Shivani ne seedha poochha. Rohan hansa. Manav ne glass uthaya. “Main toh paani lene aaya tha.” Kavya ki hansi chhoot gayi. Baat wahin khatam ho gayi, lekin ek chhoti-si awkward smile reh gayi. Om Uncle ne programme list se nazar uthayi. Unka dhyaan bhi Shivani aur Kavya par thama, magar unhone apni nazar kisi ke saamne zahir nahi hone di. Dono ko lekar ek chhupa hua, zyada personal khayal unke mann mein aaya; unhone use apne tak hi rakha. Jab baaki log hans rahe the, Om ka pen phir list par chal raha tha. Shivani, Kavya, Rohan aur Manav—kisi ne bhi Om ki us nazar ko notice nahi kiya.",
           "style": "NORMAL_TEXT",
           "origin": "gpt-author-directed-scene05",
           "draftParagraph": 3
@@ -1730,7 +1730,9 @@
         "Pairings of glances: Rohan notices Shivani; Manav notices Kavya. Does not establish a new romance or physical escalation.",
         "Om Uncle is explicitly present at dining table, then living room near Rohan before Scene 06 errand.",
         "Original EP04A Scene05 planned as four beats; compressed into short connecting prose. This is not author-final-locked until review.",
-        "No changes to previous scene, images or approved EP01–03."
+        "No changes to previous scene, images or approved EP01–03.",
+        "Om Uncle's private, unobserved attraction toward both adult women is now subtly foreshadowed at ~20:10, without overt contact or graphic fantasy. Nobody catches his gaze.",
+        "Do not infer a reaction/explicit fantasy during the separate ~22:02 surprise: current Scene 06 plan prohibits private Om POV after that reveal. His earlier private glance remains unknown to others."
       ]
     }
   ],
@@ -1768,6 +1770,6 @@
     "newUserContent": "B03 and B04 author-supplied prose; apology and flat entry author-supplied prose; only plain-text layout normalization, no prose edits.",
     "canonicalUI": "Main Society Wives Read Story → Episode 04A → Shivani. Published source and index drives reader; planning only tracks scenes 05–07.",
     "approvalScope": "Author confirmed moving currently supplied scenes through the scene-04 exit into Read Story; this does not mark remaining home or Rohan scenes as completed.",
-    "scene05": "GPT-written concise draft supplied at author's explicit request; included Rohan→Shivani and Manav→Kavya noticing looks, and Om Uncle at home; scene prose review pending."
+    "scene05": "Short Scene 05 GPT draft in Read Story. Rohan→Shivani and Manav→Kavya glances visible to the sisters; Om→both adult women hidden desire/gaze noticed by nobody, no exposed fantasy details. Scene 05 awaiting author review. Later Scene 06 surprise reaction remains open under earlier plan constraint."
   }
 }
