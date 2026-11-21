@@ -35,7 +35,7 @@ export default function FutureReference(){
      {section.items.map(item=><article className="encounter-card" key={item.label}>
       <h3>{item.label}</h3><p>{item.note}</p>
       <p className="muted"><strong>Decision:</strong> {humanStatus(item.decisionStatus)}</p>
-      {item.futureIdeaId&&<p className="muted">Linked future idea: <a href={'#'+item.futureIdeaId}>{item.futureIdeaId}</a></p>}
+      {item.futureIdeaId&&<p className="muted">Linked future idea: <button type="button" className="button subtle" onClick={()=>document.getElementById(item.futureIdeaId!)?.scrollIntoView({behavior:'smooth',block:'start'})}>Jump to saved idea</button></p>}
      </article>)}
     </div>
    </details>)}
