@@ -115,7 +115,7 @@ type Episode04PublicationIndex={leads:Record<string,{name:string;source:string;p
 export default function Planning({lead='ankita',part='A'}:{lead?:string;part?:string}){
  const active=leads.find(x=>x===lead)||'ankita';
  const selectedPart=part==='B'?'B':'A';
- const {data:publicationIndex,error:publicationError}=useData<Episode04PublicationIndex>('episode-04a-publication-index.json');
+ const {data:publicationIndex,error:publicationError,loading:publicationLoading}=useData<Episode04PublicationIndex>('episode-04a-publication-index.json');
  const {data:ankita,error:ankitaError}=useData<PlotDocument>('episode-04a-ankita-plan.json');
  const {data:shivani,error:shivaniError}=useData<PlotDocument>('episode-04a-shivani-plan.json');
  const {data:shreya,error:shreyaError}=useData<PlotDocument>('episode-04a-shreya-night-plan.json');
@@ -157,7 +157,9 @@ export default function Planning({lead='ankita',part='A'}:{lead?:string;part?:st
    <button type="button" className="button primary" onClick={()=>openPage('reading',{episode:'04A',character:active})}>Read published prose →</button>
    <p className="muted">Completed plot notes are retained as source archive but are no longer repeated in Planning.</p>
   </section>}
-  {selectedPart==='A'?(published
+  {selectedPart==='A'?((active==='ankita'||active==='shivani')&&!publicationIndex
+   ?<p role="status">{publicationLoading?'Checking published Episode 04A scenes…':'Publication index unavailable. The legacy plot is archived; check Read Story for the saved manuscript.'}</p>
+   :published
    ?(outstandingScenes.length>0?<section id="episode04-active-plan">
      <h2>{titleCase(active)} · Still to write</h2><p className="muted">These remaining plot scenes are not yet in Read Story.</p>
      {outstandingScenes.map((scene,index)=><SceneDetails key={scene.id||index} scene={scene} index={index}/>)}
