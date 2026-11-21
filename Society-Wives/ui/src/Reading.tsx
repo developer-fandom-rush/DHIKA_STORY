@@ -170,7 +170,7 @@ function Episode04Reading({character,scene}:Props){
  const active=availableLeads.includes(character)?character:(availableLeads[0]||'ankita');
  const lead=publication?.leads[active];
  const isManuscript=lead?.sourceType==='google-doc-verbatim-manuscript';
- const isScenes=lead?.sourceType==='scene-wise-verbatim-and-author-chat';
+ const isScenes=lead?.sourceType?.startsWith('scene-wise-')===true;
  const {data:ankita,loading:ankitaLoading,error:ankitaError}=useData<Ep04AnkitaSource>(isManuscript?lead?.source||null:null);
  const {data:shivani,loading:shivaniLoading,error:shivaniError}=useData<Ep04ShivaniSource>(isScenes?lead?.source||null:null);
  const publishedScenes=(shivani?.scenes||[]).filter(s=>lead?.publishedSceneIds.includes(s.id)||lead?.visibleDraftSceneIds?.includes(s.id));
