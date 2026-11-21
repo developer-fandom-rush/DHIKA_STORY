@@ -25,7 +25,7 @@
         },
         {
           "label": "Scene finish versus episode finish",
-          "note": "The corridor encounter is complete through flat entry; Scene 05–07 household/Om/Rohan follow-up remain unwritten in Episode 04A.",
+          "note": "Scene 04 is published through flat entry. Scene 05 family dinner and burgundy-outfit reminder are saved in Read Story. The previous Om surprise Scene 06 is removed from tonight's plan; the next Shivani–Rohan scene is pending discussion.",
           "decisionStatus": "CURRENT_SCENE_CLOSED__EPISODE_OPEN"
         }
       ]
@@ -50,6 +50,12 @@
           "label": "No auto-import",
           "note": "A Future Idea is not approved story canon. Revisit only after the author selects a specific future scene and approves its role in the plot.",
           "decisionStatus": "AUTHOR_APPROVAL_REQUIRED"
+        },
+        {
+          "label": "Om's mistaken outfit sightline — deferred",
+          "note": "AUTHOR LOCK (21 Nov): no further Om–Shivani encounter or mistimed surprise on the same Jan 1 night. Save the broad idea of Om seeing Shivani in a similar outfit for a later unscheduled episode. Do not add the prior Om-caused errand to tonight's story. Family dinner's existing Om presence is unaffected.",
+          "decisionStatus": "FUTURE_ONLY__CURRENT_OM_SCENE_CANCELLED",
+          "futureIdeaId": "FI-SHIVANI-OM-OUTFIT-ACCIDENT-FUTURE-01"
         }
       ]
     },
