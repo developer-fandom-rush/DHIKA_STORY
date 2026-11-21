@@ -132,6 +132,15 @@ Where several older male characters are involved, every micro-beat identifies **
 
 **Anti-pattern:** Do not answer a neutral action ledger request by removing the named action and reducing the scene to generic reminiscence. Instead deliver actor/receiver/witness, action names, sensory transitions, reactions, and the actual character turning point.
 
+### Author's pre-planning check-first / ask-first rule — 21 November 2026
+
+Before proposing, discussing, drafting or publishing the next scene for any lead:
+1. **CHECK HISTORY FIRST:** Review the latest live Reader, GitHub prose and writing rules, relevant earlier episodes, already-approved decisions, scene cut-points, cast/wardrobe/time continuity and the latest discussion history. Use the newest author-approved source over superseded older drafts.
+2. **CHECK FUTURE PLANNING NEXT:** Review active plot files, future-ideas.json, parked events, deferred encounters and relevant cast-specific future references. List potential collisions or omissions; never silently bring a future-only event into the current scene.
+3. **NEVER ASSUME:** Separate confirmed canon from old working drafts and new suggestions. When an event, person's presence, clothing, timing, reaction, image or location is unspecified or conflicts, **ask the author** rather than inventing it. Do not repeatedly ask for already approved decisions.
+4. **DISCUSS BEFORE WRITING:** Present the next unresolved decision, its source options and continuity implications; wait for author choice before new prose or canon publication.
+5. **PUBLISH IMAGES FAITHFULLY:** When an approved source Doc includes images, inspect their original positions and include exact original assets where accessible. If source bytes cannot be retrieved, report the blocker and ask for the originals; never silently substitute, omit while claiming completion, or use temporary inaccessible links as a verified upload.
+
 ## 3. Scene development — step by step
 
 1. **Retrieve source** — read the linked planning UI, existing prose, previous and overlapping character scenes. Record exact source paths and approval status.
