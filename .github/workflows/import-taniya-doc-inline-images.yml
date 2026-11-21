@@ -1,0 +1,50 @@
+name: Import original Taniya Google Doc inline images
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'Society-Wives/taniya-image-import.json'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  import-originals:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+          fetch-depth: 0
+      - name: Download actual Google Doc images and insert sequential reader blocks
+        run: python Society-Wives/tools/import_taniya_doc_images.py
+      - name: Commit images and updated reader data
+        shell: bash
+        run: |
+          if [ ! -f Society-Wives/taniya-image-import.json ]; then
+            exit 1
+          fi
+          if ! grep -q '"status": "completed"' Society-Wives/taniya-image-import.json; then
+            echo 'Import not completed'
+            exit 1
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add Society-Wives/assets/episode-04a-taniya/ Society-Wives/episode-04a-taniya-soniya-source.json Society-Wives/taniya-image-import.json
+          if git diff --cached --quiet; then
+            echo 'No changed assets'
+            exit 0
+          fi
+          git commit -m "assets(taniya 04A): import 8 original doc images in reading order"
+          for attempt in 1 2 3 4 5; do
+            git fetch origin main
+            git rebase origin/main
+            if git push origin HEAD:main; then
+              echo 'Original image assets successfully published to main'
+              exit 0
+            fi
+            sleep 3
+          done
+          echo 'Could not push image commit after five attempts'
+          exit 1
