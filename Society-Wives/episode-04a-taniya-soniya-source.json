@@ -2,23 +2,33 @@
   "schemaVersion": 1,
   "id": "SW-EP04A-TANIYA-SONIYA-READ-STORY",
   "title": "Episode 04A — Taniya & Soniya",
-  "status": "SCENES_01_02_03_IN_READER__SCENE04_05_ACTIVE_PLOT",
+  "status": "SCENES_01_02_03_04_05_IN_READER__SCENE04_05_SYNCED_FROM_TANIYA_GOOGLE_DOC",
   "source": {
     "url": "https://github.com/developer-fandom-rush/DHIKA_STORY/blob/main/Society-Wives/episode-04a-taniya-soniya-source.json",
     "tabTitle": "Taniya–Soniya Episode 04A",
     "title": "Read Story — Taniya and Soniya"
   },
-  "savedSceneCount": 3,
+  "savedSceneCount": 5,
   "notes": {
     "characterKnowledge": "Rahul's earlier unobserved incident remains reader-only. Taniya does not know what Guddu saw during the wardrobe shift.",
     "wardrobe": "Taniya remains in her sky-blue office shirt and charcoal trousers until she returns from the service bay. The uploaded burgundy festive photograph is a FACE reference, not her night-time outfit.",
     "image": "Scene 02 approved moment preview stored in GitHub as a WebP thumbnail at assets/episode-04a-taniya/taniya-guddu-service-bay.webp. Derived from generated original, downscaled for the UI; the original high-resolution image remains in conversation.",
-    "nextScene": "Scene 03 completed with one-line closure, prose unchanged. Scene 04 later wedding-preparation handover: Soniya owns wedding prep; Rahul accompanies; couple leaves on unspecified later date, leaving Taniya to mind flat. Scene 05 apparent Rahul return occurs when BOTH adults are physically away. Reader learns that the apparent encounter was Taniya's dream ONLY at end. Working scaffold and neutral microbeat handoff saved separately; no approval/publishing for 04/05.",
+    "nextScene": "Scenes 01–05 now in Read Story. Scenes 04–05 copied from author-linked Google Doc Episode 4A Taniya tab t.265eheolgvsu (paragraph indices 90,92–117); Scene 03 and its approved prose preserved unchanged. No new separate Scene 06 drafted.",
     "scene03": "Two doorway incidents are complete; Soniya and Guddu passage and Rahul and Taniya passage remain word-for-word author supplied. No Vivek disclosure continuation.",
     "futureDirection": "PERMANENT CHARACTER LOCK: SONIYA IS TO ACT LIKE SHARMI from the original Dhika story — outspoken, bold, vivacious, mischievous, teasing, confident and proactive in future Society Wives scenes. This is about her sustained voice and behavioral role, without copying Sharmi's biography/events. Rahul is the Raj-like relatively polite/reserved counterpart on future return. Soniya takes responsibility for wedding preparations; she and Rahul will be away for the preparations while Taniya cares for the home. Timing/destination unknown.",
     "weddingPreparationOwner": "Soniya (author-confirmed); Taniya is the flat caretaker during Soniya/Rahul absence, not wedding-preparation lead.",
     "characterVoiceLock": "2026-11-21 permanent author instruction: Soniya acts like Sharmi in Society Wives, not a one-off scene styling choice.",
-    "scene05Workflow": "Use episode-04a-taniya-scene05-microbeat-handoff.json for individually assigned inserts and episode-04a-taniya-scenes04-05-working-scaffold.md for unapproved draft. Never insert into reader source until author approves."
+    "scene05Workflow": "Scene 05 authored in Google Doc tab t.265eheolgvsu and now published verbatim into reader source; earlier Grok working scaffold and handoff are archived historical planning only, not authoritative manuscript.",
+    "googleDocSync": {
+      "url": "https://docs.google.com/document/d/1zcFlF9rWeIzaenBEmatt4K8bw3L-LcH3c_45JwoNM3o/edit?tab=t.265eheolgvsu",
+      "tabId": "t.265eheolgvsu",
+      "documentRevisionId": "AHj4eMSHr-jG5GXkFcKL25tLfCtiPvH15-VXYtF0ZHSjznAQZXQc8bl4r2jz8e4tCiaiStqiXcPZJAZes_aP_mk509qqd3L4Skw_6QIk6l4",
+      "publishedScenes": [
+        "04",
+        "05"
+      ],
+      "preservation": "Original paragraph text (vertical-tab soft line breaks normalized to newline); story prose Scene01–03 unchanged; editorial conversation p31–50 excluded."
+    }
   },
   "scenes": [
     {
@@ -293,6 +303,149 @@
         "rahulTaniya": "Exact user-supplied passage from current turn, no corrections"
       },
       "completeness": "COMPLETE; one-line closing per author. Removed from active Plot Planning. Existing author-supplied passages preserved verbatim."
+    },
+    {
+      "id": "04",
+      "title": "Wedding Preparations — Home Handover",
+      "time": "After Scene 03 · departure later, exact time unspecified",
+      "location": "Shared flat",
+      "status": "AUTHOR_SOURCE_DOCUMENT_PUBLISHED",
+      "provenance": {
+        "documentId": "1zcFlF9rWeIzaenBEmatt4K8bw3L-LcH3c_45JwoNM3o",
+        "tabId": "t.265eheolgvsu",
+        "sourceParagraphIndices": [
+          90
+        ],
+        "revisionId": "AHj4eMSHr-jG5GXkFcKL25tLfCtiPvH15-VXYtF0ZHSjznAQZXQc8bl4r2jz8e4tCiaiStqiXcPZJAZes_aP_mk509qqd3L4Skw_6QIk6l4"
+      },
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Soniya ne wedding folder apni taraf kheenchkar shararti muskurahat ke saath kaha, “Madam Auditor, teri shaadi ki preparations ab main sambhaalungi. Arrangements ke liye Rahul aur mujhe kuch waqt bahar rehna padega.” Taniya ne poochha, “Aur ghar?” Soniya hansi, “Ghar ka charge tera, shaadi ki command meri!” Taniya ne haan kar di. Baad mein Soniya aur Rahul wedding preparations ke liye ghar se nikle, aur flat ki zimmedari Taniya ke paas aa gayi."
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "The Unexpected Return",
+      "time": "LATER THAT NIGHT (as written in source)",
+      "location": "Taniya's bedroom · apparent incident and waking reveal",
+      "status": "AUTHOR_SOURCE_DOCUMENT_PUBLISHED",
+      "provenance": {
+        "documentId": "1zcFlF9rWeIzaenBEmatt4K8bw3L-LcH3c_45JwoNM3o",
+        "tabId": "t.265eheolgvsu",
+        "sourceParagraphIndices": [
+          92,
+          117
+        ],
+        "revisionId": "AHj4eMSHr-jG5GXkFcKL25tLfCtiPvH15-VXYtF0ZHSjznAQZXQc8bl4r2jz8e4tCiaiStqiXcPZJAZes_aP_mk509qqd3L4Skw_6QIk6l4"
+      },
+      "blocks": [
+        {
+          "type": "text",
+          "text": "LATER THAT NIGHT"
+        },
+        {
+          "type": "text",
+          "text": "Raat ka sannata tha. Taniya apne room mein thi. Ghar mein Soniya aur Rahul nahi the; wedding arrangements ki responsibility lekar dono bahar gaye hue the."
+        },
+        {
+          "type": "text",
+          "text": "Uske dimaag mein wohi pal ghoom raha tha — shaam wala darwaza. Rahul ne charger ke liye awaaz di thi, phir handle ghuma diya tha. Click. Woh cupboard ke saamne thi, sky-blue shirt ke bottom buttons open, charcoal trousers pehne hue. Usne turant palat kar dekha tha. Rahul ek second freeze hua tha, nazar uske open shirt hem aur midriff pe ruki thi, phir turant “sorry” bolke peeche nikal gaya tha. Koi contact nahi hua tha."
+        },
+        {
+          "type": "text",
+          "text": "Ab phir se door handle hila.\n Click.\n Taniya ne palat kar dekha.\n Rahul dehleez par khada tha — bilkul usi tarah, soft cotton shirt mein, shoulder lightly against the frame."
+        },
+        {
+          "type": "text",
+          "text": "Taniya: “Jiju? Aap? Di kahaan hain?”\n"
+        },
+        {
+          "type": "text",
+          "text": "Uske andar ek second ke liye sab ruk gaya. Pichhli baar bhi yahi darwaza khula tha. Us din woh cupboard ke saamne thi aur Rahul ne turant nazar hata li thi. Aaj woh khud pehle hi dekh chuki thi. Uske haath abhi bhi nightwear ke set pe the. Usne unhe side pe rakh diye. Collar ke paas halki si tightness feel hui."
+        },
+        {
+          "type": "text",
+          "text": "Rahul ne kuch nahi kaha. Usne bas ek chhota sa nod diya, jaise confirm kar raha ho ki woh wahi hai. Uske lips thode parted the, lekin awaaz nahi aayi. Uske andar ek ajeeb sa pull hua — curiosity aur thodi si daring. Woh nahi chahti thi ki yeh baar bhi sirf ek short “sorry” pe khatam ho jaaye."
+        },
+        {
+          "type": "text",
+          "text": "Usne saans li, dheere se."
+        },
+        {
+          "type": "text",
+          "text": "Taniya: “Jiju, ek minute.”"
+        },
+        {
+          "type": "text",
+          "text": "Usne door fully open nahi kiya, bas itna ki woh khud doorway ke frame pe haath rakh sake. Rahul abhi bhi threshold pe tha. Uske soft cotton shirt ke collar se halki si heat aa rahi thi. Taniya ne apni nightwear ke set ko side pe phenk diya aur ek kadam aage badhi."
+        },
+        {
+          "type": "text",
+          "text": "**Taniya:** “Pichhli baar aapne door kholte hi nazar hata li thi. Aaj bhi wahi karenge?”"
+        },
+        {
+          "type": "text",
+          "text": "Rahul ki awaaz thodi low thi.  "
+        },
+        {
+          "type": "text",
+          "text": "**Rahul:** “Taniya… main sirf charger ke liye—”"
+        },
+        {
+          "type": "text",
+          "text": "**Taniya:** “Charger toh nahi dikh raha. Kuch aur dekh rahe ho?”"
+        },
+        {
+          "type": "text",
+          "text": "Usne apni shirt ke remaining buttons dheere se khole. Fabric loose hua, collarbone aur upper chest open ho gaye. Room ki dim light uski skin pe pad rahi thi. Rahul ne nazar nahi hatayi is baar. Uske throat pe movement dikhi."
+        },
+        {
+          "type": "text",
+          "text": "Taniya ne shirt shoulders se sarkayi. Woh bra + panty mein aa gayi — simple cotton, straps thin, waistband low. Usne ek haath door frame pe rakha, doosra apne stomach pe, aur uski taraf dekha."
+        },
+        {
+          "type": "text",
+          "text": "**Taniya:** “Ab bhi sorry bolne ka mood hai? Ya aaj audit complete karenge?”"
+        },
+        {
+          "type": "text",
+          "text": "Rahul ne ek kadam aage badhaya. Uske trousers mein clear pressure dikh raha tha. Taniya ki nazar wahan gayi, phir uske face pe. Usne halki si smile di."
+        },
+        {
+          "type": "text",
+          "text": "**Taniya:** “Itna interested ho toh pehle permission lo.”"
+        },
+        {
+          "type": "text",
+          "text": "Usne peeche mudkar door ki taraf bhaagna shuru kiya, abhi bhi bra + panty mein.  "
+        },
+        {
+          "type": "text",
+          "text": "**Taniya:** “Get out, shameless!”"
+        },
+        {
+          "type": "text",
+          "text": "Rahul uske peeche ek step badha. Taniya ne darwaze ke paas ruk kar peeche dekha. Uske trousers ke against clear twitch dikha — ek sharp, involuntary movement. Uske lips parted the, saans tez thi.\n"
+        },
+        {
+          "type": "text",
+          "text": "Taniya ne apne peeche haath le jaakar bra ka hook khola. Straps loose hue. Bra aage se open hua aur girne wala tha, fabric uske chest pe atka hua, neeche sarak raha tha. Usne Rahul ki taraf dekha — uski aankhein uske open bra pe thi, body tight."
+        },
+        {
+          "type": "text",
+          "text": "Tabhi—"
+        },
+        {
+          "type": "text",
+          "text": "Taniya ki aankhein khul gayin."
+        },
+        {
+          "type": "text",
+          "text": "Room andhera tha. Door band tha. Koi nahi tha. Uske haath apne chest pe the, bra abhi bhi pehna hua, hook tight. Saans tez thi. Bahar se koi awaaz nahi aa rahi thi. Soniya aur Rahul abhi bhi ghar pe nahi the.\n"
+        }
+      ]
     }
   ]
 }
