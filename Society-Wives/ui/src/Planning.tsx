@@ -168,10 +168,10 @@ export default function Planning({lead='ankita',part='A'}:{lead?:string;part?:st
   </section>
 
   {active==='shreya'&&selectedPart==='A'&&<section className="episode-plan-card" id="shreya-04a-author-manuscript">
-   <h2>Shreya · Episode 04A — Current manuscript</h2>
+   <h2>Shreya · Episode 04A — Updated manuscript and illustrations</h2>
    <p className="muted">Author-supplied Google Docs tab · SHREYA EP-04A</p>
    <p><a className="button primary" href="https://docs.google.com/document/d/1zcFlF9rWeIzaenBEmatt4K8bw3L-LcH3c_45JwoNM3o/edit?tab=t.90gza05r7hjd" target="_blank" rel="noopener noreferrer">Open Shreya Episode 04A manuscript</a></p>
-   <p className="muted">Opens the exact Shreya tab in its original document. Document access remains subject to its existing sharing settings. Earlier working material is retained below as an archive.</p>
+   <p className="muted">The Google Doc now contains the towel consolation and dressed dinner illustrations. The same revised story text is also available in Read Story for review; images are currently embedded in the Google Doc, not yet inline in the GitHub reader. Older working material stays below as an archive.</p>
   </section>}
   {active==='shreya'&&selectedPart==='A'&&<section className="episode-plan-card" id="shreya-scene02-part1-draft">
    <h2>Shreya · Scene 02 · Part 1 — Earlier Draft Archive</h2>
@@ -204,7 +204,7 @@ export default function Planning({lead='ankita',part='A'}:{lead?:string;part?:st
    ?<p role="status">{publicationLoading?'Checking published Episode 04A scenes…':'Publication index unavailable. The legacy plot is archived; check Read Story for the saved manuscript.'}</p>
    :published
    ?(outstandingScenes.length>0?<section id="episode04-active-plan">
-     <h2>{titleCase(active)} · Still to write</h2><p className="muted">These remaining plot scenes are not yet in Read Story.</p>
+     <h2>{active==='shreya'?'Shreya · Legacy later beats — author review required':titleCase(active)+' · Still to write'}</h2><p className="muted">{active==='shreya'?'The new manuscript ends after dinner. Vikram now returns around 6 AM next morning; old 20:40–20:50 arrival and the planned married-night beats below conflict and must be superseded or re-plotted before drafting. These are reference notes only, not approved future events.':'These remaining plot scenes are not yet in Read Story.'}</p>
      {outstandingScenes.map((scene,index)=><SceneDetails key={scene.id||index} scene={scene} index={index}/>)}
     </section>:<p className="source-note">No unfinished Episode 04A plot scenes remain for this character. Future work belongs to the next episode or a newly approved scene.</p>)
    :<>{continuityRecord&&<ContinuityDetails record={continuityRecord} part="A"/>}{active==='meenakshi'
