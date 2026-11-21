@@ -74,7 +74,14 @@
           "title": "Apparent Rahul return and doorway continuation — imagined",
           "plot": "The reader initially experiences an apparently real Rahul/Taniya encounter while Soniya and Rahul are, in waking reality, absent for Soniya-led wedding preparations. Taniya replays the previously established January 1 doorway incident through a changed, more daring interaction using their familiar audit-style jiju–saali voice. Writer-side metadata marks the whole apparent exchange as IMAGINED; reader-facing prose must NOT reveal that fact before the final wake-up beat. Exact newly desired actions/intensity beyond previously outlined teasing and imagined affectionate contact require the author's beat-level choices; no automatic explicit invention. Assign only individual selected expanded micro-beats to Grok, 300–400 target per selected beat, with separate insertion anchors.",
           "sourceStatus": "AUTHOR_DIRECTED_PLOT_STRUCTURE__WRITER_INSERTS_PENDING",
-          "knowledgeLimit": "Rahul/Soniya are physically away; Taniya cannot know Rahul's EP02 secret observation; no real Rahul contact at this time."
+          "knowledgeLimit": "Rahul/Soniya are physically away; Taniya cannot know Rahul's EP02 secret observation; no real Rahul contact at this time.",
+          "microBeats": [
+            "TS04A-11.1",
+            "TS04A-11.2",
+            "TS04A-11.3",
+            "TS04A-11.4",
+            "TS04A-11.5"
+          ]
         },
         {
           "id": "TS04A-12",
@@ -82,16 +89,25 @@
           "title": "Reader reveal — Taniya wakes alone",
           "plot": "The final reader-facing reveal shows Taniya waking alone in the flat. Rahul was not present during any of the apparent continuation. His actual January 1 doorway apology and immediate exit remain word-for-word as already published in Scene 03; the reader is only now told the expanded encounter they just experienced was imagined. Keep no 'dream' heading, 'imagined' status or narrator aside in the opening/insertions of Scene 05.",
           "sourceStatus": "AUTHOR_DIRECTED_REVEAL_POSITION__PROSE_UNAPPROVED",
-          "knowledgeLimit": "No awakening confers knowledge of Rahul's unrelated earlier EP02 voyeurism."
+          "knowledgeLimit": "No awakening confers knowledge of Rahul's unrelated earlier EP02 voyeurism.",
+          "microBeats": [
+            "TS04A-12.1"
+          ]
         },
         {
           "id": "TS04A-13",
           "time": "Immediately after reveal; later date unknown",
           "title": "Brief closing; house still under Taniya's care",
           "plot": "One brief line of aftermath at most; Soniya and Rahul remain away. Do not invent their return, another physical encounter or a Jan 1 time stamp. End reader-facing scene after the reveal without an overlong recap.",
-          "sourceStatus": "DRAFT_CLOSURE_PLAN__AUTHOR_REVIEW"
+          "sourceStatus": "DRAFT_CLOSURE_PLAN__AUTHOR_REVIEW",
+          "microBeats": [
+            "TS04A-13.1"
+          ]
         }
-      ]
+      ],
+      "preparedMicroBeatSheet": "episode-04a-taniya-scene05-beat-sheet.md",
+      "preparedMicroBeatHandoff": "episode-04a-taniya-scene05-microbeat-handoff.json",
+      "microBeatStatus": "SEVEN_BEATS_PREPARED_FOR_AUTHOR_REVIEW__G01_G02_PENDING_WRITER__G03_UNDECIDED"
     }
   ],
   "day2Scope": {
@@ -173,6 +189,7 @@
     "rejectedDraft": "Prior ChatGPT one-pass non-graphic draft for Scene04–05 rejected by author; never integrate as approved text or use its invented ending.",
     "grokSidecar": "episode-04a-taniya-scene05-microbeat-handoff.json",
     "manuscriptScaffold": "episode-04a-taniya-scenes04-05-working-scaffold.md",
-    "scene04LengthLock": "One prose paragraph only (includes wedding role, home handover and later unspecified departure); Scene03 one-line close preserved."
+    "scene04LengthLock": "One prose paragraph only (includes wedding role, home handover and later unspecified departure); Scene03 one-line close preserved.",
+    "scene05BeatPreparation": "Seven prepared micro-beats: alone, doorway, G01 observation, G02 audit challenge, G03 unresolved endpoint, wake-up reveal, one-line closure; Rahul/Soniya physically away."
   }
 }
