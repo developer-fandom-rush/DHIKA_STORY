@@ -38,7 +38,7 @@
     {
       "insert_id": "SW04A-TANIYA-S05-G01",
       "micro_beat_id": "TS04A-11.3",
-      "anchor": "AFTER EXACT LINE 'Taniya: “Jiju? Aap? Di kahaan hain?”' AND BEFORE EXACT LINE 'Taniya: “Jiju, ek minute.”'",
+      "anchor": "AFTER EXACT MARKDOWN LINE '**Taniya:** “Jiju? Aap? Di kahaan hain?”' AND BEFORE NEXT MARKDOWN LINE '**Taniya:** “Jiju, ek minute.”'",
       "writer_assignment": "Grok (separate contribution only)",
       "prose_insert_marker": "[GRAPHICAL DESCRIPTION REQUIRED]",
       "review_decision": "PENDING"
@@ -46,7 +46,7 @@
     {
       "insert_id": "SW04A-TANIYA-S05-G02",
       "micro_beat_id": "TS04A-11.4",
-      "anchor": "AFTER EXACT LINE 'Taniya: “Jiju, ek minute.”' AND BEFORE THE NEXT SEPARATE INSERTION MARKER (G03)",
+      "anchor": "AFTER EXACT MARKDOWN LINE '**Taniya:** “Jiju, ek minute.”' AND BEFORE THE THIRD [GRAPHICAL DESCRIPTION REQUIRED] MARKER (G03)",
       "writer_assignment": "Grok (separate contribution only)",
       "prose_insert_marker": "[GRAPHICAL DESCRIPTION REQUIRED]",
       "review_decision": "PENDING"
