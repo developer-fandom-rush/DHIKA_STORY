@@ -23,6 +23,15 @@ Use the exact label **Changed by GPT** in the Git commit message AND add a dated
 
 ## Entries
 
+### 2026-11-21 — Changed by GPT — Complete Meenakshi Episode 04A publication from Google Doc
+- **Author instruction:** The user confirmed the `Meenakshi 4A` Google Doc tab is finished and requested uploading the entire Episode 04A to the existing main reader UI and GitHub.
+- **Source:** `https://docs.google.com/document/d/1zcFlF9rWeIzaenBEmatt4K8bw3L-LcH3c_45JwoNM3o/edit?tab=t.eqc1lixgpfbx` (Google Doc tab `Meenakshi 4A`; revision captured in reading source). After the previously published 04.01–04.09 beats, it contains 04.10, 04.11, and the closing 04.12 sleep paragraphs.
+- **Paths:** `Society-Wives/episode-04a-meenakshi-source.json`, `Society-Wives/episode-04a-publication-index.json`, `Society-Wives/ui/src/Planning.tsx`, and `Society-Wives/GPT-CHANGE-LOG.md`.
+- **Provenance:** User-selected Google Doc manuscript with mixed prior GPT and external-writer sections; GPT integration only. Story text preserved verbatim. Non-story author-assistant introductions, separator rules, and obsolete placeholders excluded; section 04.12 labeled with a neutral editorial heading because the source's ending paragraphs were unheaded.
+- **Publication:** Scenes 01–04 in Read Story, M04A-04.01–04.12 complete; Scene 04 changed from partial to published-at-author-request, without claiming a final freeze. `publishedSceneIds` 01–04; `completedPlanSceneIds` M04A-S01–S04; `pendingPlanSceneIds` empty; no new images. Planning now indicates 04A has no remaining scenes.
+- **Preserved:** Existing Scene 01 prose and illustrations and Episode 02/03 files remain unchanged; the separate earlier Naveen 14:15 hospital handoff remains independently pending.
+- **Commits:** Manuscript `c9a0918930d83db13783c92355e4728e0ec3c763`, publication index `7d360d323edede40be168881eb3c7a6a9b183992`, Planning UI `52a19769beaee9076495aa29aa0871b45138db43`. GitHub Pages deployment to be verified separately.
+
 ### 2026-11-21 — Changed by GPT — Publish Meenakshi 04A Google Doc manuscript through M04A-04.09 (partial)
 - **Author instruction:** Publish all currently available Meenakshi 4A tab story scenes from the specified Google Doc into the existing Episode 04A main Read Story UI and GitHub.
 - **Google Doc source:** `https://docs.google.com/document/d/1zcFlF9rWeIzaenBEmatt4K8bw3L-LcH3c_45JwoNM3o/edit?tab=t.eqc1lixgpfbx` (tab: `Meenakshi 4A`). Source revision captured on fetch. The tab was actively being expanded during integration. Latest captured snapshot contains Scene 02, Scene 03, and Scene 04 beats M04A-04.01–04.09.
