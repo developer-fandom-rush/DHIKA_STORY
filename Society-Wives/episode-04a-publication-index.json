@@ -91,6 +91,20 @@
       "visibleDraftSceneIds": [
         "03"
       ]
+    },
+    "meenakshi": {
+      "name": "Meenakshi",
+      "source": "episode-04a-meenakshi-source.json",
+      "sourceType": "scene-wise-verbatim-and-author-chat",
+      "publicationStatus": "SCENE01_AUTHOR_REQUESTED_PUBLISHED__FINAL_FREEZE_PENDING",
+      "publishedSceneIds": [
+        "01"
+      ],
+      "completedPlanSceneIds": [
+        "M04A-S01"
+      ],
+      "pendingPlanSceneIds": [],
+      "publicationScope": "Scene 01 (Tower C lift to Kapoor flat) is published with two author-selected generated illustrations. Further home/night scenes and the independent Naveen 14:15 hospital cut-point remain unwritten; publication does not freeze their future decisions."
     }
   }
 }

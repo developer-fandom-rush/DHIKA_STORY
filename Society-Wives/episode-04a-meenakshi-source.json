@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "id": "SW-EP04A-MEENAKSHI-READ-STORY",
+  "episode": "04A",
+  "lead": "meenakshi",
+  "title": "Episode 04A — Meenakshi",
+  "status": "SCENE01_AUTHOR_REQUESTED_PUBLISHED__FINAL_FREEZE_PENDING",
+  "source": {
+    "type": "GPT-authored revised chat prose selected by author for publication",
+    "date": "2026-11-21",
+    "title": "Scene 01 — The Ride That Stayed With Her (revised)"
+  },
+  "savedSceneCount": 1,
+  "assetRoot": "assets/episode-04a-meenakshi",
+  "notes": {
+    "continuity": "Continues approved Episode 03 Babloo farewell at Tower C lift. Uday drives; Meenakshi had been seated between Uday and Utkarsh. Car remains stalled near the badminton court. No new Babloo visit, second accident or repair is inserted.",
+    "artwork": "Two user-requested generated illustrations. Source prose controls outfit/hair continuity; visual wet-hair styling is illustrative, not a newly asserted in-story shower. Scene 02 and all later encounters remain unwritten.",
+    "planning": "Meenakshi's separate Episode 03 Scene 01 Naveen 14:15 hospital cut-point remains an unwritten source handoff, not replaced or approved by this evening Scene 01."
+  },
+  "scenes": [
+    {
+      "id": "01",
+      "title": "The Ride That Stayed With Her",
+      "date": "2026-01-01",
+      "time": "7:00 PM",
+      "location": "Gulmohar Heights · Tower C lift → Kapoor flat",
+      "status": "PUBLISHED_AT_AUTHOR_REQUEST__FINAL_FREEZE_PENDING",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Lift ka darwaaza band hua."
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi ne mirror mein khud ko dekha. Plum kurta, cream palazzo, khule baal aur haath mein cardigan."
+        },
+        {
+          "type": "image",
+          "src": "assets/episode-04a-meenakshi/sc01-lift-mirror.png",
+          "alt": "Meenakshi pausing before the elevator mirror in a plum embroidered outfit",
+          "caption": "Scene 01 · Lift mirror — cinematic illustration; hairstyle and styling are interpretive."
+        },
+        {
+          "type": "text",
+          "text": "Uske chehre par ek muskurahat aa gayi."
+        },
+        {
+          "type": "text",
+          "text": "*Uff... kya ride thi!*"
+        },
+        {
+          "type": "text",
+          "text": "Uday aur Utkarsh ke beech woh paanch minute abhi bhi uske dimaag mein ghoom rahe the. Unki unexpected closeness, har speedbreaker par khud ko sambhalna, aur sabse badhkar apni reaction."
+        },
+        {
+          "type": "text",
+          "text": "*\"Aur mujhe woh sab achha bhi laga...\"*"
+        },
+        {
+          "type": "text",
+          "text": "Yeh sochkar woh khud hi hans padi."
+        },
+        {
+          "type": "text",
+          "text": "Phir Babloo ka compliment yaad aaya."
+        },
+        {
+          "type": "text",
+          "text": "*\"Babloo bhi aaj bade confidence mein tha!\"*"
+        },
+        {
+          "type": "text",
+          "text": "**Ding!**"
+        },
+        {
+          "type": "text",
+          "text": "Lift khuli."
+        },
+        {
+          "type": "text",
+          "text": "Flat mein enter karte hi Ishita ki awaaz aayi."
+        },
+        {
+          "type": "image",
+          "src": "assets/episode-04a-meenakshi/sc01-flat-entry.png",
+          "alt": "Meenakshi arriving at the Kapoor flat while Ishita greets her from inside",
+          "caption": "Scene 01 · Back at the flat — cinematic illustration."
+        },
+        {
+          "type": "text",
+          "text": "**Ishita:** \"Diii! Itni late? Aur car kahan hai?\""
+        },
+        {
+          "type": "text",
+          "text": "**Meenakshi:** \"Ishu, ek glass paani pila de. Car ki kahaani baad mein!\""
+        },
+        {
+          "type": "text",
+          "text": "Woh handbag rakhkar bedroom ki taraf badhi."
+        },
+        {
+          "type": "text",
+          "text": "**Ishita:** \"Arre! Kahan ja rahi ho?\""
+        },
+        {
+          "type": "text",
+          "text": "**Meenakshi:** \"Garam shower lene. Aaj bahut lamba din tha!\""
+        },
+        {
+          "type": "text",
+          "text": "Bedroom mein pahunchkar uski nazar dressing-table ke drawer par padi."
+        },
+        {
+          "type": "text",
+          "text": "Nikhil ke liye subah taiyaar kiya surprise abhi wahin tha."
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi muskuraayi."
+        },
+        {
+          "type": "text",
+          "text": "*\"Aur aaj ka din abhi khatam bhi kahan hua hai...\"*"
+        }
+      ]
+    }
+  ]
+}

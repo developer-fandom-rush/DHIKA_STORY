@@ -23,6 +23,14 @@ Use the exact label **Changed by GPT** in the Git commit message AND add a dated
 
 ## Entries
 
+### 2026-11-21 — Changed by GPT — Meenakshi Episode 04A Scene 01 and two images in Read Story
+- **Author instruction:** Publish both generated Scene 01 images and the shortened revised Scene 01 exactly in the main Episode 04A reader.
+- **Paths:** `Society-Wives/assets/episode-04a-meenakshi/sc01-lift-mirror.png`, `.../sc01-flat-entry.png`, `Society-Wives/episode-04a-meenakshi-source.json`, `Society-Wives/episode-04a-publication-index.json`, `Society-Wives/ui/src/Planning.tsx` and this log. No Episode 02 or 03 file changed.
+- **Provenance:** The prose is GPT-authored from this conversation, shortened and explicitly selected by the author; the two images are ChatGPT-generated and explicitly selected by the author. They are stored as original PNG assets in GitHub. Mirror-image styling is an illustration rather than a new in-story outfit/hair event.
+- **Publication state:** Scene 01 visible in Read Story with inline images, not asserted final-frozen. No Meenakshi Scene 01 was present in the active 04A plan JSON, so no completed plan object required removal. The distinct 14:15 Naveen hospital handoff remains explicitly pending in Planning, and later home scenes remain unapproved.
+- **Source of media:** Images from the same chat were first saved as GitHub blobs and committed in `afb8f4ab57bb90b76fe5e0ae62670c5595259950` with the required `Changed by GPT:` marker; original copies were uploaded to Drive for transfer.
+- **Applied source/index commit:** `Changed by GPT: publish Meenakshi 04A Scene 01 in reader` (the commit adding this entry). Verify GitHub Pages deployment separately.
+
 ### 2026-11-21 — Changed by GPT — Shivani Scene 05 selected dinner images added to main reader
 - **Scope:** `Society-Wives/assets/episode-04a-shivani/sc05-dinner-gazes-01.png`, `.../sc05-dinner-gazes-02.png`, `Society-Wives/episode-04a-shivani-source.json`, `Society-Wives/ui/src/Reading.tsx`.
 - **Author direction:** Upload both latest approved-looking Scene 05 dinner illustration variants from this chat into the **main Read Story** (not a separate reader). This was expressly requested; no change to existing prose and no added new scene.
