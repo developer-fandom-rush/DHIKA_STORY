@@ -149,7 +149,7 @@ type Ep04AnkitaSource={
  source:{url:string;tabTitle:string;title:string};
  content:{sourceElementIndex:number;text:string;imageObjectIds:string[]}[];
 };
-type Ep04ShivaniBlock={type:'text'|'heading'|'sourceImageReference';text?:string;style?:string;sourceParagraph?:number;inlineObjectId?:string;chatBeatId?:string};
+type Ep04ShivaniBlock={type:'text'|'heading'|'sourceImageReference'|'image';text?:string;style?:string;sourceParagraph?:number;inlineObjectId?:string;chatBeatId?:string;src?:string;alt?:string;caption?:string;sourceDriveFileId?:string};
 type Ep04ShivaniScene={id:string;title:string;blocks:Ep04ShivaniBlock[]};
 type Ep04ShivaniSource={source:{url:string;tabTitle:string;title:string};scenes:Ep04ShivaniScene[];savedSceneCount:number};
 const ep04AnkitaImages:Record<number,{file:string;alt:string}>={
@@ -214,7 +214,14 @@ function Episode04Reading({character,scene}:Props){
        ?<h3 key={i} className="ep03-beat-heading" style={{marginTop:'24px'}}>{block.text}</h3>
        :block.type==='text'
         ?<p key={i} className={block.style?.startsWith('HEADING')?'ep03-beat-heading':'ep03-paragraph'} style={{whiteSpace:'pre-wrap',overflowWrap:'anywhere'}}>{block.text}</p>
-        :null)}
+        :block.type==='image'&&block.src
+         ?<figure key={i} className="ep04-scene-illustration" style={{margin:'18px auto 26px',maxWidth:'850px'}}>
+           <a href={assetUrl(block.src)} target="_blank" rel="noreferrer" aria-label="Open scene illustration in full size">
+            <img loading="lazy" src={assetUrl(block.src)} alt={block.alt||'Scene illustration'} style={{width:'100%',height:'auto',borderRadius:'12px',display:'block'}}/>
+           </a>
+           {block.caption&&<figcaption className="muted" style={{marginTop:'8px',fontSize:'13px'}}>{block.caption}</figcaption>}
+          </figure>
+         :null)}
       <div className="chapter-controls">
        <button type="button" className="button subtle" disabled={selectedIndex<=0} onClick={()=>go(active,publishedScenes[selectedIndex-1]?.id)}>← Previous scene</button>
        <span>Scene {selectedIndex+1} of {publishedScenes.length}</span>
