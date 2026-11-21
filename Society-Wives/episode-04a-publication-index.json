@@ -107,24 +107,22 @@
       "name": "Meenakshi",
       "source": "episode-04a-meenakshi-source.json",
       "sourceType": "scene-wise-verbatim-and-author-chat",
-      "publicationStatus": "SCENES01_03_PUBLISHED__SCENE04_PARTIAL_VISIBLE__FINAL_FREEZE_PENDING",
+      "publicationStatus": "SCENES01_04_PUBLISHED_AT_AUTHOR_REQUEST__FINAL_FREEZE_PENDING",
       "publishedSceneIds": [
         "01",
         "02",
-        "03"
+        "03",
+        "04"
       ],
       "completedPlanSceneIds": [
         "M04A-S01",
         "M04A-S02",
-        "M04A-S03"
-      ],
-      "pendingPlanSceneIds": [
+        "M04A-S03",
         "M04A-S04"
       ],
-      "publicationScope": "Read Story includes published Scenes 01–03 and a visible PARTIAL Scene 04 manuscript from Meenakshi 4A Google Doc through M04A-04.09. M04A-04.10–04.12 are not present in the current source tab. Scene 04 is not complete or frozen. Separate Naveen 14:15 hospital cut-point is still pending.",
-      "visibleDraftSceneIds": [
-        "04"
-      ],
+      "pendingPlanSceneIds": [],
+      "publicationScope": "Meenakshi Episode 04A Scenes 01, 02, 03 and 04 have been published to Read Story. Scene 04 includes M04A-04.01 through M04A-04.12 and concludes with Meenakshi and Nikhil asleep. All four scenes published at the author's request; final freeze is not implied. Separate Episode 03 Naveen 14:15 hospital cut-point remains an unrelated pending thread.",
+      "visibleDraftSceneIds": [],
       "sourceDocumentUrl": "https://docs.google.com/document/d/1zcFlF9rWeIzaenBEmatt4K8bw3L-LcH3c_45JwoNM3o/edit?tab=t.eqc1lixgpfbx"
     }
   }
