@@ -12,7 +12,7 @@
   "notes": {
     "characterKnowledge": "Rahul's earlier unobserved incident remains reader-only. Taniya does not know what Guddu saw during the wardrobe shift.",
     "wardrobe": "Taniya remains in her sky-blue office shirt and charcoal trousers until she returns from the service bay. The uploaded burgundy festive photograph is a FACE reference, not her night-time outfit.",
-    "image": "Scene 02 illustration generated in conversation. Binary web asset upload to be verified separately; no broken image URL inserted.",
+    "image": "Scene 02 approved moment preview stored in GitHub as a WebP thumbnail at assets/episode-04a-taniya/taniya-guddu-service-bay.webp. Derived from generated original, downscaled for the UI; the original high-resolution image remains in conversation.",
     "nextScene": "Soniya × Guddu doorway interaction followed by separate Rahul–Taniya doorway reality. Scene 03 not yet approved or published."
   },
   "scenes": [
@@ -89,6 +89,12 @@
         {
           "type": "text",
           "text": "Sudden movement mein Taniya ki sky-blue shirt ka tuck loose ho gaya tha, lekin uska poora dhyaan panel par tha. Guddu ki nazar ek lamhe ke liye shirt ke displaced hem par gayi; usne turant nazar hata kar fitting ki taraf dekhna shuru kar diya. Taniya ko uski exact sightline pata nahi chali."
+        },
+        {
+          "type": "image",
+          "src": "assets/episode-04a-taniya/taniya-guddu-service-bay.webp",
+          "alt": "Taniya helps steady the wedding panel as Guddu briefly glances toward her unexpectedly displaced shirt.",
+          "caption": "Scene 02 · The split-second sightline — Taniya cannot know exactly what Guddu noticed."
         },
         {
           "type": "text",
