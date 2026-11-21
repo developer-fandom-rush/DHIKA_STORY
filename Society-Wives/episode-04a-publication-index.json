@@ -72,7 +72,7 @@
     "taniya": {
       "name": "Taniya",
       "source": "episode-04a-taniya-soniya-source.json",
-      "sourceType": "scene-wise-verbatim-and-author-google-doc-tab",
+      "sourceType": "scene-wise-verbatim-and-author-chat",
       "publicationStatus": "SCENES_01_02_03_04_05_PUBLISHED_IN_READ_STORY",
       "publishedSceneIds": [
         "01",
@@ -110,7 +110,8 @@
           "04",
           "05"
         ]
-      }
+      },
+      "sourceProvenance": "Scenes 01–03 from author chat, Scenes 04–05 from linked Google Doc Taniya tab. The sourceType flag describes renderer data shape (scene blocks), not provenance."
     },
     "meenakshi": {
       "name": "Meenakshi",
