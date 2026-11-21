@@ -16,7 +16,8 @@
     "continuity": "Continues approved Episode 03 Babloo farewell at Tower C lift. Uday drives; Meenakshi had been seated between Uday and Utkarsh. Car remains stalled near the badminton court. No new Babloo visit, second accident or repair is inserted.",
     "artwork": "Existing Scene 01 illustrations preserved; no new images imported from the Google Doc tab.",
     "planning": "Meenakshi's separate Episode 03 Scene 01 Naveen 14:15 hospital cut-point remains an unwritten source handoff, not replaced or approved by this evening Scene 01.",
-    "meenakshi04aDocPublication": "Scenes 01–04 published in reader. All available M04A-04.01–04.12 manuscript text from Meenakshi 4A Google Doc incorporated into Scene 04 with source paragraphs preserved, assistant preambles/separators excluded and a neutral 04.12 heading added. Story evening ends with husband and wife sleeping. Separate EP03 Naveen 14:15 handoff remains independently open."
+    "meenakshi04aDocPublication": "Scenes 01–04 published in reader. All available M04A-04.01–04.12 manuscript text from Meenakshi 4A Google Doc incorporated into Scene 04 with source paragraphs preserved, assistant preambles/separators excluded and a neutral 04.12 heading added. Story evening ends with husband and wife sleeping. Separate EP03 Naveen 14:15 handoff remains independently open.",
+    "referenceImages": "Three author-uploaded Meenakshi reference-image entries added to Episode 04A UI. Ref 1 and 3 are byte-identical user submissions (Git blobs deduplicated). These show character identity only, not the Scene 04 surprise outfit and not any sexual action. Existing Scene 01 illustrations and story prose unchanged."
   },
   "scenes": [
     {
@@ -1289,6 +1290,35 @@
       "revisionId": "AHj4eMQLvnqYg0BjNVUm61dpGQCXAVzVvHuB6BN1kRBPXAiWdDzt70C6dezQ-hAOravXvtytreEqOBrIvnKTRlInDV-BBCqHGhdIP8iNAIE",
       "provenance": "User-directed Google Doc tab, mixed user/GPT/external-writer manuscript; source authorship per paragraph not verified",
       "publicationScope": "Scene 02, Scene 03, complete Scene 04 through 04.12"
+    }
+  ],
+  "referenceImages": [
+    {
+      "id": "M04A-REF01",
+      "src": "assets/episode-04a-meenakshi/author-face-reference-01-elevator.png",
+      "alt": "Meenakshi reference photo — maroon embroidered kurta, lift mirror",
+      "caption": "Author-supplied Meenakshi face reference 1 · Elevator portrait · Not Scene 04 outfit canon",
+      "sourceType": "user-uploaded-original-png",
+      "sourceFileName": "image(20261121-122015).png",
+      "status": "AUTHOR_SUPPLIED_CHARACTER_IDENTITY_REFERENCE"
+    },
+    {
+      "id": "M04A-REF02",
+      "src": "assets/episode-04a-meenakshi/author-face-reference-02-sari.png",
+      "alt": "Meenakshi reference photo — maroon sari and festive lights",
+      "caption": "Author-supplied Meenakshi face reference 2 · Festive portrait · Not Scene 04 outfit canon",
+      "sourceType": "user-uploaded-original-png",
+      "sourceFileName": "image(20261121-122225).png",
+      "status": "AUTHOR_SUPPLIED_CHARACTER_IDENTITY_REFERENCE"
+    },
+    {
+      "id": "M04A-REF03",
+      "src": "assets/episode-04a-meenakshi/author-face-reference-03-elevator-repeat.png",
+      "alt": "Meenakshi reference photo — repeated elevator mirror image",
+      "caption": "Author-supplied Meenakshi face reference 3 · Repeated elevator upload · Identical to reference 1",
+      "sourceType": "user-uploaded-original-png",
+      "sourceFileName": "image(20261121-122137).png",
+      "status": "AUTHOR_SUPPLIED_DUPLICATE_REFERENCE"
     }
   ]
 }
