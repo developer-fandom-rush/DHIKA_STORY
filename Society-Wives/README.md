@@ -19,6 +19,15 @@ Dhika is a separate fiction. The *technique* of slow-burn interactions, contrast
 | Meenakshi, 32 | Doctor | Nikhil (husband) |
 | Shreya, 33 | Police Inspector | Vikram (husband) |
 
+### Soniya / Rahul / Taniya — current author-confirmed future direction (21 November 2026)
+
+- **SONIYA ACTS LIKE SHARMI**: the author explicitly assigns Soniya the bold, mischievous, outgoing, spontaneous, teasing Sharmi-like social character energy **throughout future Society Wives scenes**; do not quietly soften her into generic apologetic banter. This is a character/voice direction, not a literal identity replacement or permission to import Sharmi's Dhika events.
+- **Rahul as the Raj-like contrast on eventual return**: comparatively reserved/polite, but retain Rahul's own separate canon. **Return time is unknown.**
+- **Wedding planning belongs to Soniya**: Soniya herself handles Taniya–Aditya wedding preparations and will be away from the flat with Rahul for that purpose.
+- **Home care belongs to Taniya** while Soniya and Rahul are away. Taniya's office responsibilities remain; she is **not taking over the wedding preparations**.
+- **Timing not decided**: departure, trip destination, duration and return are intentionally unspecified. This is an upcoming absence setup, not an event inserted into completed Jan 1 prose.
+- This author directive is persisted in `character-directory.json`, `flirting-style.json`, `future-ideas.json`, the active `episode-04a-taniya-soniya-night-review.json` plan and the collaboration protocol; avoid contradicting these sources when drafting Scene 04 and later.
+ 
 ### Story architecture
 
 - Five personal society/home environments
