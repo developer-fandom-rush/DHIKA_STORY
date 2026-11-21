@@ -7,10 +7,10 @@
   "date": "2026-01-01",
   "timezone": "Asia/Kolkata",
   "title": "Episode 04A — Taniya & Soniya: Guddu, Rahul, the Night and the Dream",
-  "status": "NEW_AUTHOR_DISCUSSION_DRAFT__NOT_APPROVED_PROSE",
+  "status": "ACTIVE_PLOT_ONLY__SCENES_03_04_05_PENDING__SCENES_01_02_PUBLISHED_IN_READER",
   "canonChecks": {
     "episode02": "Taniya × Karan–Aman morning gym familiarity is Episode 02 TS05, not the later lobby collision.",
-    "episode03": "T03-10 Guddu wedding quotation at ~20:08–20:15; T03-11 Karan & Aman foyer collision at ~20:16–20:24; T03-12 Soniya/Rahul shared flat ~20:25–21:00. These are AUTHOR-APPROVED EP03 PLOTS, not complete prose; T03-06–T03-12 remain pending prose.",
+    "episode03": "Episode 03 T03-10 Guddu wedding quotation ~20:08–20:15; T03-11 Karan and Aman lobby ~20:16–20:24; T03-12 Soniya/Rahul shared flat ~20:25–21:00. Published Episode 03 prose is author-approved and frozen; do not migrate any of those scenes into 04A.",
     "otherKnowledge": "Episode 02 TS01: Taniya is aware of Soniya/Rahul's ordinary married flirtation. Episode 02 TS02: Rahul secretly observed Taniya changing; Taniya did NOT know of that event. Her dream cannot recall that unreported secret.",
     "sameDate": "This EP04A review begins AFTER EP03 T03-12 ends ~21:00; no duplicate of the earlier Guddu quotation or Karan/Aman lobby collision.",
     "marriage": "Soniya and Rahul are married; Rahul is Taniya's brother-in-law. Taniya is engaged to Aditya, not married.",
@@ -35,52 +35,6 @@
     }
   ],
   "scenes": [
-    {
-      "scene": "01",
-      "start": "21:00",
-      "end": "21:09",
-      "title": "Flat after the approved EP03 homecoming",
-      "location": "Shared flat",
-      "beats": [
-        {
-          "id": "TS04A-01",
-          "time": "21:00–21:09",
-          "title": "A quiet reset, with one paperwork reason",
-          "plot": "After the approved T03-12 opening of Soniya's gym-related disclosure to Rahul, Taniya sits with her quotation envelope and discovers she left its outside approval sleeve at Guddu's society counter while handling the later foyer incident. Guddu texts that it is still there and he can meet her at the service bay. Taniya steps down briefly before changing from work clothes.",
-          "knowledge": "Rahul knows Soniya wants to discuss the gym event but is not silently assumed to have agreed to any new intimacy. The twins are not summoned back."
-        }
-      ]
-    },
-    {
-      "scene": "02",
-      "start": "21:09",
-      "end": "21:22",
-      "title": "Taniya × Guddu — first actual accidental closeness",
-      "location": "Society service bay, near event supplies",
-      "beats": [
-        {
-          "id": "TS04A-02",
-          "time": "21:09–21:13",
-          "title": "Approval sleeve, not another missing quotation page",
-          "plot": "Guddu is putting away community vendor supplies; he returns Taniya's forgotten approval sleeve, not a magically completed missing quotation page. She jokes that his service counter has become her wedding-document lost-and-found."
-        },
-        {
-          "id": "TS04A-03",
-          "time": "21:13–21:16",
-          "title": "The bag-strap snag",
-          "plot": "A small stock trolley starts moving as Guddu tries to make room at the counter. Taniya's crossbody-bag strap catches its handle, drawing her unexpectedly closer. She catches his forearm for balance as he stabilizes the trolley; both separate once she unhooks the strap. No garment exposure and no planned grab.",
-          "physical": "Brief forearm grip, close shoulder proximity for a second or two, then immediate release.",
-          "reaction": "Taniya is startled and then annoyed at the trolley; she recovers with a joking 'Tumhari counter pe audit ke saath hazard test bhi hota hai?' Guddu apologizes and offers to double-check the wheels."
-        },
-        {
-          "id": "TS04A-04",
-          "time": "21:16–21:22",
-          "title": "A self-aware exit",
-          "plot": "Guddu points out the trolley brake and she gives one last teasing remark before returning to the flat. Her response is a new awareness of being caught off guard, not an automatic romantic confession. The sleeve now gives Guddu a specific next-day wedding follow-up.",
-          "reaction": "First accidental touch is complete. Do not repeat it as the 'first' accident in a Jan2 workshop."
-        }
-      ]
-    },
     {
       "scene": "03",
       "start": "21:22",
@@ -207,11 +161,11 @@
   ],
   "day2Scope": {
     "punitOffice": "First Punit accident is still Jan2 ~12:05, separate from these scenes",
-    "guddu": "The previous Jan2 Guddu first-accident slot is now a continuity conflict with the proposed Jan1 strap-snag; decide whether to make Jan2 a voluntary follow-up AFTER author approves this draft",
+    "guddu": "January 1 Scene 02 is the published backdrop-and-displaced-shirt accident, NOT the discarded trolley/strap draft. January 2 drafts must not call a new Guddu accident their first encounter; deliberate follow-up requires its own approval.",
     "soniya": "Her previous Jan2 morning Guddu trolley accident remains a distinct proposal until approved; if reused, ensure it is not an exact repeat of Taniya's trolley mechanism"
   },
   "approvalRules": [
-    "Preserve Episode 03 T03-10/11/12 as approved plot and pending prose. Never migrate the Karan/Aman foyer incident into EP04A.",
+    "Episode 03 T03-10/11/12 are approved frozen prose; do not revise, duplicate or migrate into Episode 04A.",
     "Distinguish actual Rahul door-opening (brief glimpse, apology, retreat, no touch) from Taniya's imagined dream continuation (teasing, non-graphic affectionate contact). Reveal the dream only in Scene 05.",
     "Prior EP02 Rahul secret watching is reader-only; Taniya has not learned of it. TS01 married couple banter is not a disclosure of that secret.",
     "Soniya is the initiator of her own bold verbal/visual outfit test with Guddu; he has a clear opportunity to respond, and there is no forced contact.",
@@ -259,9 +213,19 @@
     "continuity": [
       "Guddu in the shared flat occurs only after Taniya's 21:09–21:22 service-bay accident; keep the scene at the agreed 21:22–21:36 draft window until author fixes exact execution.",
       "Three residents for the night: Taniya, Soniya and Rahul; Guddu is only a visitor and leaves.",
-      "Existing Jan2 workshop 'first' Guddu accidents must be reclassified if the Jan1 accident is approved.",
+      "January 2 Guddu workshop ideas must not treat its accident as a first encounter; January 1 published scene 02 already establishes Guddu's momentary glance during a backdrop incident.",
       "Do not amend previously approved Episode03 Karan–Aman lobby event or change any earlier scene prose."
     ],
     "approval": "NOT APPROVED. The above are annotations for next writer pass, not implementation or scene rewrite."
+  },
+  "activePlotOnly": true,
+  "completedAndMovedToReader": {
+    "sceneIds": [
+      "01",
+      "02"
+    ],
+    "readingSource": "episode-04a-taniya-soniya-source.json",
+    "publicationIndex": "episode-04a-publication-index.json",
+    "note": "Completed scenes physically removed from this active plot JSON, not just hidden in UI. The approved prose and scene imagery live in the reading source. The previous plot versions remain recoverable in Git history, not duplicated in active planning."
   }
 }
