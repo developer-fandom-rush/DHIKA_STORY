@@ -1,4 +1,4 @@
-import { Fragment } from 'react';
+import { Fragment, useState } from 'react';
 import DOMPurify from 'dompurify';
 import { Archive, assetUrl, episodePath, peopleOrder, openPage, titleCase, useData } from './lib';
 import Home from './Home';
@@ -294,7 +294,20 @@ function Episode04Reading({character,scene}:Props){
 
 
 type Ep04BSection={id:string;title:string;time:string;paragraphs:string[]};
-type Ep04BSource={title:string;status:string;sections:Ep04BSection[]};
+type Ep04BOriginalImageData={order:number;inlineObjectId:string;afterSection:string;externalSrc:string;sourceDocUrl:string};
+type Ep04BSource={title:string;status:string;sections:Ep04BSection[];externalOriginalImages?:Ep04BOriginalImageData[]};
+
+function Ep04BOriginalImage({item}:{item:Ep04BOriginalImageData}){
+ const [failed,setFailed]=useState(false);
+ return <figure className="ep04-scene-illustration" data-image-order={item.order} data-source-object={item.inlineObjectId} style={{margin:'20px auto 28px',maxWidth:'640px'}}>
+  {failed
+    ?<a href={item.sourceDocUrl} target="_blank" rel="noreferrer">View original image {item.order} in the Ankita 4B Google Doc</a>
+    :<a href={item.sourceDocUrl} target="_blank" rel="noreferrer" aria-label={'Open original document for Ankita 4B image '+item.order}>
+      <img loading="lazy" src={item.externalSrc} alt={'Original Ankita EP04B illustration '+item.order} onError={()=>setFailed(true)}
+       style={{width:'100%',height:'auto',borderRadius:'10px',display:'block'}}/>
+     </a>}
+ </figure>;
+}
 // Episode 04B is independently published scene by scene. Only the authored
 // Scene 01 (B01–B06) is available; future ideas and working plot stay outside Read Story.
 function Episode04BReading(){
@@ -316,11 +329,14 @@ function Episode04BReading(){
    <article className="reading-surface source-scene prose-exact">
     {data&&<><div className="story-toolbar"><span>Ankita · Scene 01 of 01 · Published</span></div>
      <div className="ep03-scene-intro"><h2>{data.title}</h2><p>2 January 2026 · B01–B06 · Scene 01 ends after Rinku departs</p></div>
-     {(data.sections||[]).map(section=><section className="ep03-beat" id={'ep04b-'+section.id.toLowerCase()} key={section.id}>
-      <div className="ep03-beat-heading"><strong>{section.id} · {section.title}</strong></div>
-      <p className="ep03-time">{section.time}</p>
-      {section.paragraphs.map((paragraph,index)=><p key={index} className="ep03-paragraph" style={{whiteSpace:'pre-line'}}>{storyInline(paragraph)}</p>)}
-     </section>)}
+     {(data.sections||[]).map(section=><Fragment key={section.id}>
+      <section className="ep03-beat" id={'ep04b-'+section.id.toLowerCase()}>
+       <div className="ep03-beat-heading"><strong>{section.id} · {section.title}</strong></div>
+       <p className="ep03-time">{section.time}</p>
+       {section.paragraphs.map((paragraph,index)=><p key={index} className="ep03-paragraph" style={{whiteSpace:'pre-line'}}>{storyInline(paragraph)}</p>)}
+      </section>
+      {(data.externalOriginalImages||[]).filter(item=>item.afterSection===section.id).map(item=><Ep04BOriginalImage key={item.inlineObjectId} item={item}/>)}
+     </Fragment>)}
      <div className="chapter-controls"><span>End of published Scene 01 · Scene 02 under discussion</span></div>
     </>}
    </article>
