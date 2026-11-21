@@ -29,7 +29,7 @@
       "name": "Shivani",
       "source": "episode-04a-shivani-source.json",
       "sourceType": "scene-wise-verbatim-and-author-chat",
-      "publicationStatus": "SCENES01_04_AUTHOR_PUBLISHED__SCENE05_REVIEW_PENDING__SCENE06_PARTIAL_OPENING_AND_HISTORY_APPROVED",
+      "publicationStatus": "SCENES01_04_AUTHOR_PUBLISHED__SCENE05_REVIEW_PENDING__SCENE06_COMPLETE_GPT_DRAFT_PENDING_AUTHOR_REVIEW",
       "publishedSceneIds": [
         "01",
         "02",
@@ -43,13 +43,11 @@
         "E04A-SH-S02",
         "E04A-SH-S03",
         "E04A-SH-S04",
-        "E04A-SH-S05"
+        "E04A-SH-S05",
+        "E04A-SH-S06"
       ],
-      "pendingPlanSceneIds": [
-        "E04A-SH-S06",
-        "E04A-SH-S07"
-      ],
-      "publicationScope": "Scenes 01–04 author-supplied published. Scene 05 GPT-authored dinner bridge remains review-pending. Scene 06 opening and marriage-history flashback are author-approved/published; present-day continuation (including Deepu/twins recollections, husband-wife intimacy, and conclusion) is NOT yet published and remains in planning."
+      "pendingPlanSceneIds": [],
+      "publicationScope": "Scenes 01–04 author-published; Scene 05 GPT dinner bridge in reader pending review. Scene 06 author-approved opening and marriage history retained word-for-word; GPT continuation with married intimacy and private recollections is now available in Read Story as a complete draft, pending author approval/freeze. No further Shivani 04A scenes planned. Om sightline future-only."
     }
   }
 }
