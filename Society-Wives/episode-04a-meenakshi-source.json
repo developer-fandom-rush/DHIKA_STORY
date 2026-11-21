@@ -16,7 +16,7 @@
     "continuity": "Continues approved Episode 03 Babloo farewell at Tower C lift. Uday drives; Meenakshi had been seated between Uday and Utkarsh. Car remains stalled near the badminton court. No new Babloo visit, second accident or repair is inserted.",
     "artwork": "Existing Scene 01 illustrations preserved; no new images imported from the Google Doc tab.",
     "planning": "Meenakshi's separate Episode 03 Scene 01 Naveen 14:15 hospital cut-point remains an unwritten source handoff, not replaced or approved by this evening Scene 01.",
-    "meenakshi04aDocPublication": "Scenes 02 and 03 published from Google Doc; Scene 04 visible as a partial draft through M04A-04.08. Story prose preserved verbatim with conversational preambles removed. M04A-04.09–04.12 remain unwritten in the current document snapshot. Separate Naveen 14:15 thread unaffected."
+    "meenakshi04aDocPublication": "Scenes 02–03 published; Scene 04 visible as partial draft through available M04A-04.09 manuscript. Source prose retained, editorial chatter and obsolete insert marker excluded. M04A-04.10–04.12 not included yet; separate Naveen 14:15 thread unaffected."
   },
   "scenes": [
     {
@@ -415,7 +415,7 @@
     },
     {
       "id": "04",
-      "title": "The Surprise — through M04A-04.08",
+      "title": "The Surprise — through M04A-04.09 (partial)",
       "date": "2026-01-01",
       "time": "Evening/night; exact time unspecified",
       "location": "Kapoor flat · private bedroom",
@@ -432,13 +432,15 @@
           "04.05",
           "04.06",
           "04.07",
-          "04.08"
+          "04.08",
+          "04.09"
         ],
         "editorialExclusions": [
           "M04A-04.03 END.",
           "Assistant responses preceding M04A-04.05, 04.06 and 04.07",
           "Standalone --- separators",
-          "M04A-04.08 preamble and standalone --- separators"
+          "M04A-04.08 preamble and standalone --- separators",
+          "04.09 assistant preamble and obsolete [GRAPHICAL DESCRIPTION REQUIRED] marker because source prose is supplied"
         ]
       },
       "blocks": [
@@ -1053,9 +1055,9 @@
           "sourceParagraph": 188
         },
         {
-          "type": "text",
-          "text": "**[GRAPHICAL DESCRIPTION REQUIRED]**",
-          "sourceParagraph": 192
+          "type": "heading",
+          "text": "M04A-04.09 — Husband-Wife Sexual Encounter",
+          "editorialHeading": true
         },
         {
           "type": "text",
@@ -1111,7 +1113,7 @@
       "tabTitle": "Meenakshi 4A",
       "revisionId": "AHj4eMSUNjSNSsZ8S2N53nmiO6CsdYRQVWMV157C4zI2ZP71WaPs8CmZfTUCNOSGQ4J-dOwBbDVmj6nIU0DZZeXIKhKI7dE0eQ84cQ7cviA",
       "provenance": "User-directed Google Doc tab, mixed user/GPT/external-writer manuscript; source authorship per paragraph not verified",
-      "publicationScope": "Scene 02, Scene 03, Scene 04 through 04.08"
+      "publicationScope": "Scene 02, Scene 03, Scene 04 through 04.09 (partial)"
     }
   ]
 }
