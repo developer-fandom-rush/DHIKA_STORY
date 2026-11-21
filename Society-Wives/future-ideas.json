@@ -79,6 +79,33 @@
       "approval": "AUTHOR_CONFIRMED_FUTURE_ESCALATION_CATEGORIES__NO_SCENE_ASSIGNED__NOT_CURRENT_CANON",
       "nextAction": "Discuss future escalation as a relationship arc: which prior contact has become familiar, what distinct change a later scene earns, why the characters choose it, and whether it preserves story pacing and consent. Never infer permission solely from prior 'I liked it'.",
       "userDirection": "The author cut these stronger beats on purpose because too much escalation in the first encounter would defeat the slow-burn arc. The current scene is intended to feel natural; after more character interactions, previously surprising closeness may become familiar, leaving room for new later developments."
+    },
+    {
+      "id": "FI-SHIVANI-OM-OUTFIT-ACCIDENT-FUTURE-01",
+      "lead": "Shivani",
+      "referenceCharacters": [
+        "Shivani",
+        "Om",
+        "Rohan"
+      ],
+      "workingTitle": "Om inadvertently sees Shivani in a similar special outfit — future-only encounter",
+      "priority": "AUTHOR_CONFIRMED_FUTURE_RESERVE__NOT_CURRENT_EP04A",
+      "episodeNumber": "NOT ASSIGNED",
+      "candidateDate": "NOT ASSIGNED",
+      "dateStatus": "FUTURE_ONLY__UNSCHEDULED",
+      "premise": "In a later episode, Om may unexpectedly see Shivani dressed in a similar type of special/surprise outfit. Context, place, how she is dressed, whether she realizes he has seen her, and immediate reactions will be decided during that later episode's planning. This is only a future dramatic possibility, not a confirmed enacted event.",
+      "authorDirection": "Author decision on 21 Nov 2026: DO NOT have another Om–Shivani contact or Om seeing Shivani in the outfit on Jan 1 Episode 04A after the family dinner. Skip the originally proposed 'wrong surprise — Om in living room' and retain the sightline premise for the future instead. Existing prior family dinner stays, with no added Om encounter tonight.",
+      "exclusionsForCurrentEpisode": [
+        "No Om-caused Rohan errand as a device for the surprise scene",
+        "No mistaken Om reveal in the living room",
+        "No extra Om–Shivani contact after dinner",
+        "Do not infer or publish Om's reaction tonight",
+        "Do not treat this future idea as scheduled or approved prose"
+      ],
+      "relationshipNote": "Om is an unrelated adult household elder, not Rohan's biological father and not Shivani's actual father-in-law.",
+      "sourcePlan": "episode-04a-shivani-plan.json prior draft S06 (SH18–SH21)",
+      "approval": "AUTHOR_APPROVED_DEFER_TO_FUTURE__NO_SCENE_ASSIGNED__NOT_CURRENT_CANON",
+      "nextAction": "When a future encounter is specifically selected, discuss chronology, household movement, outfit continuity, sightline and knowledge states before any prose."
     }
   ]
 }
