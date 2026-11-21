@@ -88,7 +88,15 @@
         "04",
         "05"
       ],
-      "publicationScope": "Scenes 01–03 have completed prose in Read Story. Scene 03's closing is one sentence and the author-provided Soniya–Guddu and Rahul–Taniya passages remain verbatim. Scene 03 and the unwanted planned Soniya–Rahul Vivek disclosure continuation have been removed from the active plot. Active plot contains only 04 (future temporary absence setup, no date fixed) and 05 (Taniya imagination)."
+      "publicationScope": "Scenes 01–03 complete and in Read Story. Scenes 04–05 remain active plot only. In upcoming Scene 04, Soniya owns Taniya–Aditya wedding preparations, and she and Rahul leave home for that purpose at an unspecified future time; Taniya cares for the flat, not the wedding planning. AUTHOR CONFIRMED PERMANENT VOICE: Soniya acts like Sharmi (mischievous/bold/teasing), Rahul has Raj-like reserved contrast for future return. Soniya–Guddu and Rahul–Taniya Scene 03 author prose unchanged.",
+      "authorConfirmedFutureLocks": {
+        "soniyaVoice": "SONIYA ACTS LIKE SHARMI, a permanent future-story character direction (not a literal transfer of Dhika events)",
+        "soniyaWeddingRole": "Soniya personally handles wedding preparations for Taniya and Aditya",
+        "travelReason": "Soniya and Rahul's future absence for wedding preparations",
+        "taniyaHouseCare": "Taniya looks after their home during their absence, not the wedding work",
+        "travelTime": "UNKNOWN",
+        "rahulReference": "Raj-like polite/reserved counterpart on eventual return"
+      }
     },
     "meenakshi": {
       "name": "Meenakshi",
