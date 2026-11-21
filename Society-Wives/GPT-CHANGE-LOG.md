@@ -23,6 +23,17 @@ Use the exact label **Changed by GPT** in the Git commit message AND add a dated
 
 ## Entries
 
+### 2026-11-21 — Changed by GPT — Canonical Episode 04A reader in main UI, with completed planning archived
+- **Affected paths:** `Society-Wives/episode-04a-publication-index.json` (new); `Society-Wives/ui/src/Reading.tsx`; `Society-Wives/ui/src/EpisodeSelector.tsx`; `Society-Wives/ui/src/Planning.tsx`; `Society-Wives/ui/index.html`; built `Society-Wives/index.html`; `Society-Wives/episode-04a-shivani-source.json` (status metadata only); `Society-Wives/future-ideas.json` (new deferred idea).
+- **Authority and source:** Author explicitly directed that finalized Ankita and Shivani Episode 04A prose appear in the homepage **Read Story**, not the Episode 04 Plot Planning screen or separate floating shortcuts. Original Google Doc prose and author-supplied B01–B04/apology remain in existing source JSON; no narrative rewriting.
+- **Published index:** Ankita has one full source-tab manuscript entry; Shivani has scenes 01–04, ending after the twins' apology and her flat entry. Shivani's proposed scenes 05–07 (household/Rohan follow-up) remain in Planning. Completed older plan beats are kept in repository reference files but are filtered out of Planning. The new publication index records current author-approved publication and the reader source path.
+- **UI:** Episode 04A added to the main episode picker and character reader; the reader is data-driven for future approved leads. Separate Shivani 04A and unapproved 04B floating reader shortcuts removed from the UI only; underlying reference pages and files were not deleted.
+- **Future-only reservation:** `FI-SHIVANI-KARAN-AMAN-DEFERRED-SQUEEZE-01` records the earlier action-ledger squeeze beat as possible future reference, **not** current Scene 04 canon. Current supplied encounter proceeds B04 → apology. Other former B05/B06 candidate actions remain unapproved and are not inserted.
+- **Editorial review retained:** The original B04 prose says `Ready for B05`, and the apology includes `Arre, utho dono` without a corresponding physical lowering action. Neither source passage was silently rewritten. Discuss pace, transitions and those contradictions before editing story prose.
+- **Review:** Existing Episode 01–03 approved/frozen prose was not touched. Google Drive files unchanged. Images were not moved or changed by this reader/navigation migration.
+- **Commits:** Reader source `4efb1aa8831ee82abe76b06f0bc8f87b632938f2`; planning filter `bc87c03b8b4bed5d9f668c2a8ebec5b68749b13f`; publication index `a775a93fc8311ce514f50ef7aea50d1cbb57310e`; future idea `6d10e87f66cbb2a728596d539aedeca776349239`.
+
+
 ### 2026-11-21 — Changed by GPT — Shivani Scene 04 B03, B04 and apology/exit published for author review
 - **Affected path:** `Society-Wives/episode-04a-shivani-source.json` (reader consumes this source).
 - **Attribution:** Author-provided conversation passages for B03, B04 and apology/flat entry, integrated as submitted. Only markdown presentation markers are normalized; wording, dialogue and sequence unchanged.
