@@ -1,0 +1,48 @@
+{
+  "title": "Incorrect blindfold surprise image outputs",
+  "date": "2026-11-21",
+  "context": "Society Wives / Meenakshi M04A 04.04",
+  "approved": false,
+  "source": "Images copied from ChatGPT Library; original PNG bytes preserved",
+  "exclusions": [
+    "Blindfolded in Golden Festive Elegance.png (different black-saree test, not one of the four)"
+  ],
+  "files": [
+    {
+      "no": 1,
+      "file": "incorrect-blindfold-01.png",
+      "name": "Elegant Vanity Bedroom Portrait.png",
+      "time": "2026-11-21 12:16 UTC",
+      "desc": "Black lace costume; no blindfold worn",
+      "sha256": "79e2dea8e2a57da86674b55dc511747e180ba1619ff3d1ac0001b57bb1b560b6",
+      "bytes": 2164890
+    },
+    {
+      "no": 2,
+      "file": "incorrect-blindfold-02.png",
+      "name": "Warm Vanity Portrait in an Elegant Bedroom.png",
+      "time": "2026-11-21 12:19 UTC",
+      "desc": "Black lace costume; different appearance, no blindfold worn",
+      "sha256": "da47f34b7ef3ae22179583dda5554e49b168a72f7a595cdfea15a48dd2eafd4d",
+      "bytes": 2189484
+    },
+    {
+      "no": 3,
+      "file": "incorrect-blindfold-03.png",
+      "name": "Glamorous Dressing Table Portrait.png",
+      "time": "2026-11-21 12:20 UTC",
+      "desc": "Black lace costume; blindfold placed on dressing table",
+      "sha256": "5918605adad86c78e6b72c5b3f5e3253f87da113dfcbcbf858b82572e052d04f",
+      "bytes": 2200450
+    },
+    {
+      "no": 4,
+      "file": "incorrect-blindfold-04.png",
+      "name": "Warm Candlelit Boudoir Portrait.png",
+      "time": "2026-11-21 12:52 UTC",
+      "desc": "Black lace costume; black satin blindfold worn",
+      "sha256": "6c096ec000ba7aad04fd3bfd3ac006a69004e32f51414b561da20eac513c33d3",
+      "bytes": 2216336
+    }
+  ]
+}
