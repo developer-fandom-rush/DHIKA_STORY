@@ -28,6 +28,24 @@
         "05"
       ],
       "preservation": "Original paragraph text (vertical-tab soft line breaks normalized to newline); story prose Scene01–03 unchanged; editorial conversation p31–50 excluded."
+    },
+    "googleDocInlineImages": {
+      "status": "ORIGINAL_EMBEDDED_ASSETS_IMPORTED",
+      "tabId": "t.265eheolgvsu",
+      "count": 8,
+      "scene03": 2,
+      "scene05": 6,
+      "order": [
+        "kix.nb32u514szy6",
+        "kix.9i2ryyvw35v9",
+        "kix.au8wxju2kodq",
+        "kix.x1edo5jmttgx",
+        "kix.z2dgbocjmomh",
+        "kix.uusu5njcnbou",
+        "kix.z5owvg8se4h8",
+        "kix.s3f0ha3ci1d2"
+      ],
+      "noProseChanges": true
     }
   },
   "scenes": [
@@ -273,9 +291,21 @@
           "text": "Parallel A · Soniya and Guddu"
         },
         {
+          "type": "image",
+          "src": "assets/episode-04a-taniya/doc-taniya-01.png",
+          "alt": "Episode 04A Soniya and Guddu — original Google Doc illustration 1",
+          "documentInlineObjectId": "kix.nb32u514szy6"
+        },
+        {
           "type": "text",
           "text": "Soniya ne doorway mein ek kadam aage badhaya aur haath door frame pe rakh diya. Uska wet dark hair shoulders pe bikhra hua tha, maroon lace crop top uske upper body pe tightly fitted tha — thin straps, deep neckline, aur neeche se midriff clearly open. Matching maroon drawstring bottoms uski waist pe snug the. Gold jhumkas aur necklace uske collarbone pe chamak rahe the. Usne Guddu ki taraf thoda tilt karke dekha, ek slow, knowing smile ke saath.\n\nGuddu ki nazar uske face se neeche gayi — lace ke through soft outline, wet skin pe light sheen, open midriff. Uska expression turant change ho gaya. Smile atak gayi, ears thode laal hue, aur woh ek step peeche hata. Haath mein pen abhi bhi tha lekin grip loose ho gayi.\n\nSoniya ne nazar nahi hatayi.\n\n**Soniya:** “Itni jaldi nazar kyun hat gayi, Guddu babu? Pehle toh fitting ki baat kar rahe the.”\n\nGuddu ne throat clear kiya, aankhein door frame pe rakh kar bola,\n\n**Guddu:** “Didi… main… counter band karne aaya tha. Bas.”\n\nUsne jaldi se pen uske haath mein diya aur peeche mud gaya. Soniya ne dekha uske shoulders tight the, aur woh bina dobara nazar uthaye lift ki taraf badh gaya. Doorway pe sirf uski maroon lace wali silhouette aur Guddu ki retreating back reh gayi.",
           "style": "AUTHOR_PROVIDED_VERBATIM"
+        },
+        {
+          "type": "image",
+          "src": "assets/episode-04a-taniya/doc-taniya-02.png",
+          "alt": "Episode 04A Soniya and Guddu — original Google Doc illustration 2",
+          "documentInlineObjectId": "kix.9i2ryyvw35v9"
         },
         {
           "type": "heading",
@@ -342,6 +372,12 @@
       },
       "blocks": [
         {
+          "type": "image",
+          "src": "assets/episode-04a-taniya/doc-taniya-03.png",
+          "alt": "Episode 04A Taniya and Rahul — original Google Doc illustration 3",
+          "documentInlineObjectId": "kix.au8wxju2kodq"
+        },
+        {
           "type": "text",
           "text": "LATER THAT NIGHT"
         },
@@ -360,6 +396,12 @@
         {
           "type": "text",
           "text": "Taniya: “Jiju? Aap? Di kahaan hain?”\n"
+        },
+        {
+          "type": "image",
+          "src": "assets/episode-04a-taniya/doc-taniya-04.png",
+          "alt": "Episode 04A Taniya and Rahul — original Google Doc illustration 4",
+          "documentInlineObjectId": "kix.x1edo5jmttgx"
         },
         {
           "type": "text",
@@ -398,6 +440,12 @@
           "text": "**Taniya:** “Charger toh nahi dikh raha. Kuch aur dekh rahe ho?”"
         },
         {
+          "type": "image",
+          "src": "assets/episode-04a-taniya/doc-taniya-05.png",
+          "alt": "Episode 04A Taniya and Rahul — original Google Doc illustration 5",
+          "documentInlineObjectId": "kix.z2dgbocjmomh"
+        },
+        {
           "type": "text",
           "text": "Usne apni shirt ke remaining buttons dheere se khole. Fabric loose hua, collarbone aur upper chest open ho gaye. Room ki dim light uski skin pe pad rahi thi. Rahul ne nazar nahi hatayi is baar. Uske throat pe movement dikhi."
         },
@@ -430,6 +478,12 @@
           "text": "Rahul uske peeche ek step badha. Taniya ne darwaze ke paas ruk kar peeche dekha. Uske trousers ke against clear twitch dikha — ek sharp, involuntary movement. Uske lips parted the, saans tez thi.\n"
         },
         {
+          "type": "image",
+          "src": "assets/episode-04a-taniya/doc-taniya-06.png",
+          "alt": "Episode 04A Taniya and Rahul — original Google Doc illustration 6",
+          "documentInlineObjectId": "kix.uusu5njcnbou"
+        },
+        {
           "type": "text",
           "text": "Taniya ne apne peeche haath le jaakar bra ka hook khola. Straps loose hue. Bra aage se open hua aur girne wala tha, fabric uske chest pe atka hua, neeche sarak raha tha. Usne Rahul ki taraf dekha — uski aankhein uske open bra pe thi, body tight."
         },
@@ -442,8 +496,20 @@
           "text": "Taniya ki aankhein khul gayin."
         },
         {
+          "type": "image",
+          "src": "assets/episode-04a-taniya/doc-taniya-07.png",
+          "alt": "Episode 04A Taniya and Rahul — original Google Doc illustration 7",
+          "documentInlineObjectId": "kix.z5owvg8se4h8"
+        },
+        {
           "type": "text",
           "text": "Room andhera tha. Door band tha. Koi nahi tha. Uske haath apne chest pe the, bra abhi bhi pehna hua, hook tight. Saans tez thi. Bahar se koi awaaz nahi aa rahi thi. Soniya aur Rahul abhi bhi ghar pe nahi the.\n"
+        },
+        {
+          "type": "image",
+          "src": "assets/episode-04a-taniya/doc-taniya-08.png",
+          "alt": "Episode 04A Taniya and Rahul — original Google Doc illustration 8",
+          "documentInlineObjectId": "kix.s3f0ha3ci1d2"
         }
       ]
     }

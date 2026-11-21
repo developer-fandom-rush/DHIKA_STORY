@@ -1,5 +1,5 @@
 {
-  "status": "pending",
+  "status": "completed",
   "docId": "1zcFlF9rWeIzaenBEmatt4K8bw3L-LcH3c_45JwoNM3o",
   "tabId": "t.265eheolgvsu",
   "docRevision": "AHj4eMSPXAkLUfEbQAcI0zgIBCS2v_Nd5XwCwMS60e97C89CQh0PsPj36epG-cg8mGT27BPBPBcwumw4_1sEq8UvwjKjl3wyRYOklR-eCog",
@@ -17,35 +17,43 @@
   "images": [
     {
       "objectId": "kix.nb32u514szy6",
-      "contentUri": "https://docs.google.com/docs-images-rt/AIpPl2BHMVae68HKhRLcccQ5R8m_NrwYTavHiEiecKKVI_U5RbkBVZWjWYPZze8qt-IIoX5MRKM5mYCvovByhg5VfTKEHoazXOQuMneQGftCaMYZxzYu12_7yCVxIa-YJbbl2Z8yYHOcDSJcj-RwGgd2Y0gNhxaNyCHRM5d2GaP8KCorsxFf6SM=s2048?key=KR3xZL-1IVYhNKGomYObdw"
+      "asset": "assets/episode-04a-taniya/doc-taniya-01.png",
+      "sha256": "e9905beb77a3ae3acf11da5094c119bf36e2a260f5b63b44d449a7bd79f4f971"
     },
     {
       "objectId": "kix.9i2ryyvw35v9",
-      "contentUri": "https://docs.google.com/docs-images-rt/AIpPl2CygnYUr8lZCgMN38Mc2Lz3h7Kf1jl47QLSeEVjDDW3evhLhw7a3_Cp3rElpxRBzBQ5tKAUdrBfALG2O2tTdV8EK8H864OWK9P9LBIg8RqY4mXcE_9mhsA3X1HNeVq5hpQAGHxLC9ZeMmuc-phdkDZyNUs8nmbodm8=s2048?key=KR3xZL-1IVYhNKGomYObdw"
+      "asset": "assets/episode-04a-taniya/doc-taniya-02.png",
+      "sha256": "477ea6782e6a1d5a9d4ae33e692eab495a3906ea8c1f0dc515e7c59626ad278c"
     },
     {
       "objectId": "kix.au8wxju2kodq",
-      "contentUri": "https://docs.google.com/docs-images-rt/AIpPl2CFjmW70TKzgFopt3r_nGBtC5xf6PE3yqxjmYeMDr3E_SWOilVvES21WXqzcxt4-eMNhv6igT1yTgnkgf7h9tdpmhtYg41Dz0YfKm-b0TDdb0h_FoJoIw6m3XnGpjnMia0oElvTKFk4HBph6LfBbVKaLLKvic-saGRRKZ7aoLEWAqpcKts=s2048?key=KR3xZL-1IVYhNKGomYObdw"
+      "asset": "assets/episode-04a-taniya/doc-taniya-03.png",
+      "sha256": "91ac19a6035c22406bb2478045417a6681568c75c3d6c959ab45c7a756bcb21e"
     },
     {
       "objectId": "kix.x1edo5jmttgx",
-      "contentUri": "https://docs.google.com/docs-images-rt/AIpPl2BOJMDTCXDjxuK8IosQ4TPPpdItpvCqqly8JgTDUBxNFfSXxRHyqWrEfzXFjcowjAfOpfZ6CG56z5TT5pc8enbiHkfPJg3r9vdXqYfINv-Oq3o-7IT6Qk-nQ_3q_7OPJiUTkudNG3BmxWXoW7LHQINWAcd12vM7YPTbd-SHLLH5cMTDDcc=s2048?key=KR3xZL-1IVYhNKGomYObdw"
+      "asset": "assets/episode-04a-taniya/doc-taniya-04.png",
+      "sha256": "f7b319e0e29cc9e4229f08706df65d60063c8a93f30f72c1cca2f11980fe9392"
     },
     {
       "objectId": "kix.z2dgbocjmomh",
-      "contentUri": "https://docs.google.com/docs-images-rt/AIpPl2BbI3y_ixaTg6HKFmcxFMIbvb7jQ-gyc3ppQNw18fe4Euq1g9UklL1H7gzw1qZTPZT0FuT28X6vWsrh6UwI58IJpwogzoMIXnbtc87rSoqAM-sirJn336HOGnLDKxESma3vJi1OcXaijWvV8VWlmDrcv7ABiJV47H2UFLgWflsm_by1=s2048?key=KR3xZL-1IVYhNKGomYObdw"
+      "asset": "assets/episode-04a-taniya/doc-taniya-05.png",
+      "sha256": "e6fd42f4adc9d54148618b476e785d328a63f10355d669018ff24c4473dd185f"
     },
     {
       "objectId": "kix.uusu5njcnbou",
-      "contentUri": "https://docs.google.com/docs-images-rt/AIpPl2CJfbQ8d2Q5uWakXBcH7ZcmstNJ_syTPs0TESG9HIyBoiQuNnFr8zBbA8TU1uUZFoaxyN76PA0dEcTF_dJ3I2_9Qhu7z-AMgjXu0RMXzMJA3dWypdbFBwnGij-3czdaeZyiwiou7coVhHKjNmZUMHXh9wr5cMbfPnilga0htT1BQPAZ=s2048?key=KR3xZL-1IVYhNKGomYObdw"
+      "asset": "assets/episode-04a-taniya/doc-taniya-06.png",
+      "sha256": "06b6e20317e3c53dd6522fce3a67a3473997b987d9c8415ad4d0af2ef49efbec"
     },
     {
       "objectId": "kix.z5owvg8se4h8",
-      "contentUri": "https://docs.google.com/docs-images-rt/AIpPl2BZStLJUr5TDuhaacQkszORU-BSaiW0HWx6ZLJzPYTVsL97Nb2sG5IvivwCmTrTzMbopY-l94bkWIlq7xHSAhlYX4F2vAdMLTgqWcWF4rH4cNkamKQk3FUVuUdIKDsPu4p271-bR0LMK_m2zUWxit48TWsc4Wyra-VzMYLqKe2LNI-djXM=s2048?key=KR3xZL-1IVYhNKGomYObdw"
+      "asset": "assets/episode-04a-taniya/doc-taniya-07.png",
+      "sha256": "54026c06629c821868e47e045d4cdeda360ee8180a69384a6cae02176b82a774"
     },
     {
       "objectId": "kix.s3f0ha3ci1d2",
-      "contentUri": "https://docs.google.com/docs-images-rt/AIpPl2DWOmMGTC9THeQoCujfzQRFUlOSxEy0v4GThw5FnyTHFIJK9rDU4-N8AsorlmAjf4ZB5u_vujNMvuaSpX8M8oOahrUUhZ7UOg_CebbdUGEyMMG1BUo2d-8j03LFYxJa5Qp6ozehHfO2t3VUZ_kL4LfG5USaPRJ-UgCN7Fu8wGxQS0VYI78=s2048?key=KR3xZL-1IVYhNKGomYObdw"
+      "asset": "assets/episode-04a-taniya/doc-taniya-08.png",
+      "sha256": "d1061492a82b95942eb78166f8e0906231def03d7f72b9033adc89a3e0ffe741"
     }
   ]
 }
