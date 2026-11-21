@@ -136,6 +136,20 @@ Where several older male characters are involved, every micro-beat identifies **
 10. **Continuity and author review** — clothing, location, duration, participants, actor/receiver, character knowledge, active intentions, outcomes and cross-episode overlap.
 11. **Approval and publishing** — explicit author sign-off before marking **APPROVED / FINAL** or updating reader canon. Review drafts remain drafts. Publishing is a separate action.
 
+### Mandatory scene migration after prose publication (author-confirmed, 21 November 2026)
+
+**Single-location rule:** Once a scene's prose is approved for publication and saved, its narrative prose (with approved images/thumbnails at the appropriate moment) belongs in **Episode Read Story**. The active **Episode Plot Planning** page and its active plot JSON contain **only scenes whose prose has not yet been written/published**. Physically remove each published scene from the active plot scene array in GitHub; do not just hide it with a UI filter, and do not duplicate its obsolete plot in Planning.
+
+**One-step publication checklist (complete before saying the UI is updated):**
+1. Save the approved scene text and any approved, accessible image to the character's Episode reading source. Preserve placement, source attribution, and approved wording.
+2. Register the published scene IDs and reader-source path in the Episode publication index; put the IDs in completedPlanSceneIds and remove them from pendingPlanSceneIds.
+3. Remove those same scene objects from the active planning JSON in GitHub. Preserve the remaining scene IDs. Prior versions remain in Git history for provenance; don't keep old plotted scenes in the active Planning file.
+4. Verify the Reading UI displays the correct character's published scenes and inline images, while Planning displays only remaining unwritten scenes. Do not silently publish the next discussed scene.
+5. Verify repository commits, reading source, planning JSON and image asset; independently verify GitHub Pages deployment when possible. If unavailable, explicitly distinguish a successful repository commit from an unverified live deployment.
+
+**Status semantics:** Discussion drafts, partial prose, or pending writer insertions are not automatically completed scenes. Migrate only when the author has authorized publication. Later revisions to an already-published scene are made at the reading source rather than reinserting its old plot into Planning. Nothing here changes frozen Episode 02/03 prose.
+
+
 
 **Micro-beat expansion:** After step 5, apply the `§2A MICRO-BEAT CONTRACT` (one major action, per-beat thought/knowledge and sensory fields, named participants, author-set word budget) before authoring external-writer assignments.
 
