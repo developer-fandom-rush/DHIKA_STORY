@@ -199,8 +199,8 @@ function Episode04Reading({character,scene}:Props){
    </article></>}
   </>}
   {isScenes&&<>
-   {shivaniLoading&&<p role="status">Loading Shivani Episode 04A…</p>}
-   {shivaniError&&<p role="alert" className="error">Shivani manuscript unavailable: {shivaniError}</p>}
+   {shivaniLoading&&<p role="status">Loading {titleCase(active)} Episode 04A…</p>}
+   {shivaniError&&<p role="alert" className="error">{titleCase(active)} manuscript unavailable: {shivaniError}</p>}
    {shivani&&<div className="reader-layout">
     <aside className="scene-sidebar"><p className="aside-title">{titleCase(active)} · published scenes</p>
      {publishedScenes.map(s=><button type="button" key={s.id} aria-pressed={selected?.id===s.id} className={'scene-link'+(selected?.id===s.id?' active':'')} onClick={()=>go(active,s.id)}><span>Scene {s.id}<small className="ep03-scene-name">{s.title}</small></span></button>)}
