@@ -9,7 +9,14 @@
     "title": "Episode 4A.",
     "tabTitle": "SHREYA EP-04A",
     "tabId": "t.90gza05r7hjd",
-    "attribution": "Unchanged text copied from author-owned Google Doc; GPT-authored non-graphic after-towel comfort and dinner revisions added at author's request"
+    "attribution": "Unchanged text copied from author-owned Google Doc; GPT-authored non-graphic after-towel comfort and dinner revisions added at author's request",
+    "imageObjectIds": [
+      "kix.d5vwmu68ywev",
+      "kix.52jxlj3wh8f5",
+      "kix.egk8s6acccb0",
+      "kix.3q8cb8cgsy8v"
+    ],
+    "imageNotes": "Includes original tab images and two GPT-generated scene illustrations embedded in the original Google Doc; Reader currently renders text and links to the illustrated Doc. Generated image asset URLs were not uploaded as durable GitHub assets."
   },
   "content": [
     {
@@ -345,7 +352,9 @@
     {
       "sourceElementIndex": 66,
       "text": "Usne darwaaza band kiya aur andar aa gayi.\u000b",
-      "imageObjectIds": []
+      "imageObjectIds": [
+        "kix.d5vwmu68ywev"
+      ]
     },
     {
       "sourceElementIndex": 67,
@@ -440,7 +449,9 @@
     {
       "sourceElementIndex": 85,
       "text": "Kitna dekha tha, woh Shreya nahi jaanti thi. Chintu ne bhi kuch kaha nahi tha.\u000b",
-      "imageObjectIds": []
+      "imageObjectIds": [
+        "kix.52jxlj3wh8f5"
+      ]
     },
     {
       "sourceElementIndex": 86,
@@ -1005,7 +1016,9 @@
     {
       "sourceElementIndex": 198,
       "text": "\"Uncle, thank you. Aapne mujhe abhi waqt diya, woh bahut zaroori tha.\"",
-      "imageObjectIds": []
+      "imageObjectIds": [
+        "kix.egk8s6acccb0"
+      ]
     },
     {
       "sourceElementIndex": 199,
@@ -1350,7 +1363,9 @@
     {
       "sourceElementIndex": 267,
       "text": "Shreya ne ek aur niwala liya, jaise jaan-boojhkar faisla rok rahi ho. Phir usne muskurakar kaha, \"Case dismissed. Dinner achha hai.\"",
-      "imageObjectIds": []
+      "imageObjectIds": [
+        "kix.3q8cb8cgsy8v"
+      ]
     },
     {
       "sourceElementIndex": 268,
@@ -1392,6 +1407,7 @@
     "New towel consolation stays in living room; Arvind never re-enters bathroom.",
     "Shreya wears full-coverage white floral night-suit after dressing, not revealing clothes.",
     "Vikram's return at 06:00 the next morning makes old SC11–SC15 plan obsolete pending author-directed replot.",
-    "Published for reading and review; not an author-approved final freeze."
+    "Published for reading and review; not an author-approved final freeze.",
+    "GPT-added image illustration at towel consolation and dressed dinner exists in the original Google Doc; images are not yet inline in the GitHub reader."
   ]
 }
