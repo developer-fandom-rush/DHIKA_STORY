@@ -106,6 +106,35 @@
       "sourcePlan": "episode-04a-shivani-plan.json prior draft S06 (SH18–SH21)",
       "approval": "AUTHOR_APPROVED_DEFER_TO_FUTURE__NO_SCENE_ASSIGNED__NOT_CURRENT_CANON",
       "nextAction": "When a future encounter is specifically selected, discuss chronology, household movement, outfit continuity, sightline and knowledge states before any prose."
+    },
+    {
+      "id": "FI-SONIYA-SHARMI-PERMANENT-CHARACTER-LOCK",
+      "lead": "Soniya",
+      "referenceCharacters": [
+        "Sharmi",
+        "Raj",
+        "Rahul",
+        "Taniya",
+        "Aditya"
+      ],
+      "workingTitle": "PERMANENT CHARACTER LOCK — Soniya plays Sharmi's role/energy in Society Wives",
+      "priority": "AUTHOR_CONFIRMED_PERMANENT_CHARACTERIZATION",
+      "approval": "AUTHOR_CONFIRMED_CHARACTER_VOICE_AND_WEDDING_ROLE__FUTURE_EVENT_TIMING_OPEN",
+      "statusCategory": "CHARACTER_DIRECTION_NOT_A_PROPOSED_INTIMATE_EVENT",
+      "authorDirection": "SONIYA IS TO ACT LIKE SHARMI IN THIS STORY, continuously: outgoing, mischievous, bold, playful, teasing and independently decisive in social exchanges. Do not turn her into timid, apologetic or generic 'safe dialogue' when writing her. Preserve established Soniya character history; Sharmi is a model for behavior and social energy, not a literal character swap or licence to copy scenes from Dhika. Rahul has the contrasting Raj-like reserved/polite presence when he returns; no timing yet.",
+      "currentStoryLock": "Soniya is responsible for Taniya and Aditya's wedding preparations. Soniya and Rahul are to be away from home for preparations, leaving Taniya responsible for the flat. Taniya is NOT asked to manage wedding preparations during their absence. Reason is confirmed; destination, departure, duration and return date are open.",
+      "dateStatus": "FUTURE_ABSENCE__TIME_NOT_ASSIGNED",
+      "candidateDate": "NOT ASSIGNED",
+      "episodeNumber": "NOT ASSIGNED",
+      "originalSource": "Author direct instruction 2026-11-21; Sharmi/Raj characterization in original Dhika — Complete Episode Archive (Tabs), verified.",
+      "noLock": [
+        "Departure time/date unknown",
+        "Return time/date unknown",
+        "Trip destination unknown",
+        "Do not import Sharmi's relationships or specific Dhika events as Soniya canon",
+        "No unapproved future intimate event"
+      ],
+      "nextAction": "Apply Soniya's Sharmi-like characterization in all future writing and plot/continuity checks. Use the wedding-preparation travel reason when Scene 04 is drafted, but do not invent dates or departure before author chooses."
     }
   ]
 }
