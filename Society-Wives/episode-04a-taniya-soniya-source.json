@@ -2,19 +2,20 @@
   "schemaVersion": 1,
   "id": "SW-EP04A-TANIYA-SONIYA-READ-STORY",
   "title": "Episode 04A — Taniya & Soniya",
-  "status": "SCENES_01_02_PUBLISHED__SCENE03_PARTIAL_WORKING_DRAFT_IN_READER__SCENE03_STILL_ACTIVE_PLOT",
+  "status": "SCENES_01_02_03_IN_READER__SCENE04_05_ACTIVE_PLOT",
   "source": {
     "url": "https://github.com/developer-fandom-rush/DHIKA_STORY/blob/main/Society-Wives/episode-04a-taniya-soniya-source.json",
     "tabTitle": "Taniya–Soniya Episode 04A",
     "title": "Read Story — Taniya and Soniya"
   },
-  "savedSceneCount": 2,
+  "savedSceneCount": 3,
   "notes": {
     "characterKnowledge": "Rahul's earlier unobserved incident remains reader-only. Taniya does not know what Guddu saw during the wardrobe shift.",
     "wardrobe": "Taniya remains in her sky-blue office shirt and charcoal trousers until she returns from the service bay. The uploaded burgundy festive photograph is a FACE reference, not her night-time outfit.",
     "image": "Scene 02 approved moment preview stored in GitHub as a WebP thumbnail at assets/episode-04a-taniya/taniya-guddu-service-bay.webp. Derived from generated original, downscaled for the UI; the original high-resolution image remains in conversation.",
-    "nextScene": "Scene 03 is visible in reader as partial working manuscript; its source scene remains in active plot and is NOT completed or frozen. Scenes 04–05 not written.",
-    "scene03": "Two-doorway tracks: Rahul's actual event is short and unplanned; no physical contact. Soniya–Rahul's earlier conversation about Vivek remains unresolved. Scene 05 dream reveal must remain distinct."
+    "nextScene": "Scene 03 closes with a single sentence and is complete in reader; Scenes 04–05 remain in active plot. Scene 04 now sets up a future temporary absence of Soniya and Rahul with Taniya minding the home. No dates/reason assigned. Scene 05 follows Taniya's imagination.",
+    "scene03": "Two doorway incidents are complete; Soniya and Guddu passage and Rahul and Taniya passage remain word-for-word author supplied. No Vivek disclosure continuation.",
+    "futureDirection": "Soniya and Rahul will eventually be away, leaving Taniya in charge of the flat for an unspecified period. Soniya has Sharmi-inspired playful temperament; Rahul has Raj-inspired reserved temperament upon future return. These are character analogies, not exact event imports. Reason and date unspecified."
   },
   "scenes": [
     {
@@ -145,10 +146,10 @@
     },
     {
       "id": "03",
-      "title": "Two Doorways — Soniya × Guddu / Rahul × Taniya (Partial Draft)",
+      "title": "Two Doorways — Soniya × Guddu / Rahul × Taniya",
       "time": "21:22–21:36",
       "location": "Shared flat · entrance and Taniya's bedroom",
-      "status": "PARTIAL_READER_DRAFT__AUTHOR_PROVIDED_RAHUL_TANIYA_VERBATIM__SCENE_NOT_COMPLETE",
+      "status": "AUTHOR_DIRECTED_SCENE_COMPLETE__READER",
       "blocks": [
         {
           "type": "heading",
@@ -176,10 +177,6 @@
         },
         {
           "type": "text",
-          "text": "Ek pal ke liye dono behno ki nazrein mili. Subah gym se lautne ke baad jo baat hui thi, woh ab Rahul ke saamne aa chuki thi."
-        },
-        {
-          "type": "text",
           "text": "Taniya: “Didi, main room mein jaa rahi hoon.”"
         },
         {
@@ -193,10 +190,6 @@
         {
           "type": "text",
           "text": "Taniya ne approval sleeve table par rakhi aur apne bedroom ki taraf chali gayi."
-        },
-        {
-          "type": "text",
-          "text": "Rahul abhi bhi Soniya ke saamne tha. Vivek ka naam woh sun chuka tha, lekin Soniya ki poori baat aur uski response abhi pending thi."
         },
         {
           "type": "text",
@@ -286,17 +279,17 @@
           "style": "AUTHOR_PROVIDED_VERBATIM"
         },
         {
-          "type": "heading",
-          "text": "Scene 03 continues — Soniya/Rahul private talk and remaining integration pending"
+          "type": "text",
+          "text": "Soniya ne main door band kiya; Rahul living area mein laut aaya, aur Taniya apne kamre mein reh gayi."
         }
       ],
       "sources": {
-        "bridge": "GPT draft from chat, pending author acceptance",
+        "bridge": "GPT draft from chat; disclosure-extension references removed at author's request; no external passages changed.",
         "soniyaGuddu": "User-supplied Grok passage, unmodified; author explicitly prohibited copy edits",
         "rahulBridge": "GPT-provided charger approach, from chat",
         "rahulTaniya": "Exact user-supplied passage from current turn, no corrections"
       },
-      "completeness": "PARTIAL; not moved out of Planning or marked completed."
+      "completeness": "COMPLETE; one-line closing per author. Removed from active Plot Planning. Existing author-supplied passages preserved verbatim."
     }
   ]
 }
