@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "SW-EP04A-TANIYA-SONIYA-READ-STORY",
   "title": "Episode 04A — Taniya & Soniya",
-  "status": "SCENES_01_02_AUTHOR_CONFIRMED_PUBLISHED__SCENE_03_PENDING_DISCUSSION",
+  "status": "SCENES_01_02_PUBLISHED__SCENE03_PARTIAL_WORKING_DRAFT_IN_READER__SCENE03_STILL_ACTIVE_PLOT",
   "source": {
     "url": "https://github.com/developer-fandom-rush/DHIKA_STORY/blob/main/Society-Wives/episode-04a-taniya-soniya-source.json",
     "tabTitle": "Taniya–Soniya Episode 04A",
@@ -13,7 +13,8 @@
     "characterKnowledge": "Rahul's earlier unobserved incident remains reader-only. Taniya does not know what Guddu saw during the wardrobe shift.",
     "wardrobe": "Taniya remains in her sky-blue office shirt and charcoal trousers until she returns from the service bay. The uploaded burgundy festive photograph is a FACE reference, not her night-time outfit.",
     "image": "Scene 02 approved moment preview stored in GitHub as a WebP thumbnail at assets/episode-04a-taniya/taniya-guddu-service-bay.webp. Derived from generated original, downscaled for the UI; the original high-resolution image remains in conversation.",
-    "nextScene": "Soniya × Guddu doorway interaction followed by separate Rahul–Taniya doorway reality. Scene 03 not yet approved or published."
+    "nextScene": "Scene 03 is visible in reader as partial working manuscript; its source scene remains in active plot and is NOT completed or frozen. Scenes 04–05 not written.",
+    "scene03": "Two-doorway tracks: Rahul's actual event is short and unplanned; no physical contact. Soniya–Rahul's earlier conversation about Vivek remains unresolved. Scene 05 dream reveal must remain distinct."
   },
   "scenes": [
     {
@@ -141,6 +142,181 @@
           "text": "Lift ka door khula. Taniya documents lekar bahar nikal gayi, lekin sawaal unanswered raha."
         }
       ]
+    },
+    {
+      "id": "03",
+      "title": "Two Doorways — Soniya × Guddu / Rahul × Taniya (Partial Draft)",
+      "time": "21:22–21:36",
+      "location": "Shared flat · entrance and Taniya's bedroom",
+      "status": "PARTIAL_READER_DRAFT__AUTHOR_PROVIDED_RAHUL_TANIYA_VERBATIM__SCENE_NOT_COMPLETE",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Scene 03 · In-progress · Not complete"
+        },
+        {
+          "type": "heading",
+          "text": "Bridge · Morning tension and Guddu's second visit"
+        },
+        {
+          "type": "text",
+          "text": "21:22 PM."
+        },
+        {
+          "type": "text",
+          "text": "Taniya flat mein wapas aayi."
+        },
+        {
+          "type": "text",
+          "text": "Dining table par Soniya aur Rahul saamne baithe the. Dono ki baatcheet uske andar aate hi ruk gayi."
+        },
+        {
+          "type": "text",
+          "text": "Soniya ne Taniya ko dekha."
+        },
+        {
+          "type": "text",
+          "text": "Ek pal ke liye dono behno ki nazrein mili. Subah gym se lautne ke baad jo baat hui thi, woh ab Rahul ke saamne aa chuki thi."
+        },
+        {
+          "type": "text",
+          "text": "Taniya: “Didi, main room mein jaa rahi hoon.”"
+        },
+        {
+          "type": "text",
+          "text": "Soniya ne sir hilaya."
+        },
+        {
+          "type": "text",
+          "text": "Soniya: “Haan. Hum baat kar rahe hain.”"
+        },
+        {
+          "type": "text",
+          "text": "Taniya ne approval sleeve table par rakhi aur apne bedroom ki taraf chali gayi."
+        },
+        {
+          "type": "text",
+          "text": "Rahul abhi bhi Soniya ke saamne tha. Vivek ka naam woh sun chuka tha, lekin Soniya ki poori baat aur uski response abhi pending thi."
+        },
+        {
+          "type": "text",
+          "text": "Tabhi doorbell baji."
+        },
+        {
+          "type": "text",
+          "text": "Soniya ne darwaze ki taraf dekha."
+        },
+        {
+          "type": "text",
+          "text": "Soniya: “Ek minute, Rahul. Dekhkar aati hoon.”"
+        },
+        {
+          "type": "text",
+          "text": "Woh darwaze ki taraf badhi."
+        },
+        {
+          "type": "text",
+          "text": "Rahul ne phone uthaya. Battery low thi. Charger dhoondhne ke liye woh bedroom corridor ki taraf chala gaya."
+        },
+        {
+          "type": "text",
+          "text": "Udhar Taniya apne room mein change karne jaa rahi thi."
+        },
+        {
+          "type": "text",
+          "text": "21:26 PM."
+        },
+        {
+          "type": "text",
+          "text": "Soniya ne main door khola."
+        },
+        {
+          "type": "text",
+          "text": "Guddu saamne tha."
+        },
+        {
+          "type": "text",
+          "text": "Guddu: “Didi, Taniya madam ka pen aur vendor docket neeche reh gaya tha.”"
+        },
+        {
+          "type": "text",
+          "text": "Soniya: “Tum phir aa gaye? Taniya abhi-abhi upar aayi hai.”"
+        },
+        {
+          "type": "text",
+          "text": "Guddu: “Haan didi. Counter band karte waqt mila.”"
+        },
+        {
+          "type": "text",
+          "text": "Soniya ne pen le liya."
+        },
+        {
+          "type": "text",
+          "text": "Soniya: “Waise tumhare backdrop ki kahani bhi sun li maine.”"
+        },
+        {
+          "type": "text",
+          "text": "Guddu ki smile thodi atak gayi."
+        },
+        {
+          "type": "text",
+          "text": "Guddu: “Arre didi, woh fitting loose thi.”"
+        },
+        {
+          "type": "text",
+          "text": "Soniya: “Maine fitting ke baare mein poochha bhi nahi. Itni safai kyun?”"
+        },
+        {
+          "type": "text",
+          "text": "Guddu ne uski taraf dekha, phir nazar hata li."
+        },
+        {
+          "type": "text",
+          "text": "Soniya ne notice kar liya."
+        },
+        {
+          "type": "text",
+          "text": "Usne doorway mein ek kadam aage badhaya."
+        },
+        {
+          "type": "text",
+          "text": "Soniya: “Guddu babu, meri taraf dekhkar baat karo na.”"
+        },
+        {
+          "type": "heading",
+          "text": "Parallel A · Soniya and Guddu"
+        },
+        {
+          "type": "text",
+          "text": "Soniya ne doorway mein ek kadam aage badhaya aur haath door frame pe rakh diya. Uska wet dark hair shoulders pe bikhra hua tha, maroon lace crop top uske upper body pe tightly fitted tha — thin straps, deep neckline, aur neeche se midriff clearly open. Matching maroon drawstring bottoms uski waist pe snug the. Gold jhumkas aur necklace uske collarbone pe chamak rahe the. Usne Guddu ki taraf thoda tilt karke dekha, ek slow, knowing smile ke saath.\n\nGuddu ki nazar uske face se neeche gayi — lace ke through soft outline, wet skin pe light sheen, open midriff. Uska expression turant change ho gaya. Smile atak gayi, ears thode laal hue, aur woh ek step peeche hata. Haath mein pen abhi bhi tha lekin grip loose ho gayi.\n\nSoniya ne nazar nahi hatayi.\n\n**Soniya:** “Itni jaldi nazar kyun hat gayi, Guddu babu? Pehle toh fitting ki baat kar rahe the.”\n\nGuddu ne throat clear kiya, aankhein door frame pe rakh kar bola,\n\n**Guddu:** “Didi… main… counter band karne aaya tha. Bas.”\n\nUsne jaldi se pen uske haath mein diya aur peeche mud gaya. Soniya ne dekha uske shoulders tight the, aur woh bina dobara nazar uthaye lift ki taraf badh gaya. Doorway pe sirf uski maroon lace wali silhouette aur Guddu ki retreating back reh gayi.",
+          "style": "AUTHOR_PROVIDED_VERBATIM"
+        },
+        {
+          "type": "heading",
+          "text": "Parallel B · Rahul and Taniya"
+        },
+        {
+          "type": "text",
+          "text": "Main door par Soniya aur Guddu ki baatcheet chal rahi thi.\n\nAndar Rahul ne apna phone uthaya. Battery low thi. Usne dining table par charger dhoondha, lekin wahan nahi mila.\n\nUse yaad aaya ki shayad charger Taniya ke bedroom mein reh gaya tha.\n\nWoh bedroom corridor ki taraf badha.\n\nUdhar Taniya apne room mein aa chuki thi. Usne laptop bag chair par rakha, approval documents dressing table par chhode aur cupboard se nightwear nikaalne lagi.\n\nRahul uske darwaze ke paas aakar ruka.\n\n**Rahul:** “Taniya? Mera charger tumhare room mein reh gaya kya?”\n\nAndar se koi clear jawab nahi aaya.\n\nRahul ne ek baar phir awaaz di.\n\n**Rahul:** “Taniya?”\n\nPhir usne door handle ghumaya.\n\n**Click.**\n\nDarwaza khul gaya.",
+          "style": "GPT_BRIDGE_FROM_CHAT"
+        },
+        {
+          "type": "text",
+          "text": "Door fully open hote hi Rahul ek second ke liye freeze ho gaya.\n\nTaniya cupboard ke saamne khadi thi, peeth thodi uski taraf. Usne sky-blue shirt ke bottom buttons open kiye hue the, shirt ka neeche wala hissa loose ho chuka tha aur charcoal trousers abhi pehne hue the. Uske haath mein nightwear ka set tha, aur woh abhi shirt nikaalne wali thi. Long dark hair ek shoulder pe the, neck aur collarbone pe light sheen.\n\nRahul ki nazar uske open shirt hem aur exposed midriff pe ek pal ruki. Taniya ne turant palat kar dekha, aankhein badi ho gayin. Shirt ka loose fabric uske against move hua.\n\n**Taniya:** “Rahul…!”\n**Rahul:** “Sorry—sorry. Door open tha. Main sirf charger…”\n\nUsne nazar jaldi hata li, haath utha kar back step liya aur door pull karke peeche nikal gaya. Koi contact nahi hua. Door band hote hi andar se Taniya ki tez saans sunai di. Rahul corridor mein khada raha, usne apna phone dekhkar charger dhoondhne ka intention clearly chhod diya aur wapas living area ki taraf mud gaya.",
+          "style": "AUTHOR_PROVIDED_VERBATIM"
+        },
+        {
+          "type": "heading",
+          "text": "Scene 03 continues — Soniya/Rahul private talk and remaining integration pending"
+        }
+      ],
+      "sources": {
+        "bridge": "GPT draft from chat, pending author acceptance",
+        "soniyaGuddu": "User-supplied Grok passage, unmodified; author explicitly prohibited copy edits",
+        "rahulBridge": "GPT-provided charger approach, from chat",
+        "rahulTaniya": "Exact user-supplied passage from current turn, no corrections"
+      },
+      "completeness": "PARTIAL; not moved out of Planning or marked completed."
     }
   ]
 }
