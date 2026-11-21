@@ -156,7 +156,8 @@ type Ep04AnkitaSource={
 };
 type Ep04ShivaniBlock={type:'text'|'heading'|'sourceImageReference'|'image';text?:string;style?:string;sourceParagraph?:number;inlineObjectId?:string;chatBeatId?:string;src?:string;alt?:string;caption?:string;sourceDriveFileId?:string};
 type Ep04ShivaniScene={id:string;title:string;blocks:Ep04ShivaniBlock[]};
-type Ep04ShivaniSource={source:{url:string;tabTitle:string;title:string};scenes:Ep04ShivaniScene[];savedSceneCount:number};
+type Ep04ReaderReference={id:string;src:string;alt:string;caption:string};
+type Ep04ShivaniSource={source?:{url:string;tabTitle:string;title:string};scenes:Ep04ShivaniScene[];savedSceneCount:number;referenceImages?:Ep04ReaderReference[]};
 const ep04AnkitaImages:Record<number,{file:string;alt:string}>={
  12:{file:'a01-doorway-storyboard.jpg',alt:'A01 — Doorway encounter'},
  29:{file:'a02-filter-inspection.jpg',alt:'A02 — Water-filter inspection'},
@@ -236,6 +237,18 @@ function Episode04Reading({character,scene}:Props){
      {selected&&<>
       <div className="story-toolbar"><span>{titleCase(active)} · Scene {selected.id} of {publishedScenes.length}{lead?.visibleDraftSceneIds?.includes(selected.id)?' · PARTIAL WORKING DRAFT — NOT COMPLETE':''}</span></div>
       <h2>{selected.title}</h2>
+      {active==='meenakshi'&&selected.id==='04'&&(shivani.referenceImages||[]).length>0&&<section className="episode-plan-card" aria-label="Meenakshi author-supplied face reference images" style={{margin:'18px 0 28px'}}>
+       <h3 style={{marginTop:0}}>Meenakshi · Author-supplied face references</h3>
+       <p className="muted">These are the three images supplied by the author for character likeness only. They do not depict the Scene 04 surprise outfit or any intimate action. Reference 1 and 3 are identical uploads.</p>
+       <div style={{display:'grid',gridTemplateColumns:'repeat(auto-fit,minmax(180px,1fr))',gap:'14px'}}>
+        {(shivani.referenceImages||[]).map(ref=><figure key={ref.id} style={{margin:0}}>
+         <a href={assetUrl(ref.src)} target="_blank" rel="noreferrer" aria-label={'Open '+ref.alt}>
+          <img loading="lazy" src={assetUrl(ref.src)} alt={ref.alt} style={{width:'100%',height:'auto',display:'block',borderRadius:'10px'}}/>
+         </a>
+         <figcaption className="muted" style={{marginTop:'6px',fontSize:'12px'}}>{ref.caption}</figcaption>
+        </figure>)}
+       </div>
+      </section>}
       {selected.blocks.map((block,i)=>block.type==='heading'
        ?<h3 key={i} className="ep03-beat-heading" style={{marginTop:'24px'}}>{block.text}</h3>
        :block.type==='text'
