@@ -240,7 +240,7 @@ export default function Planning({lead='ankita',part='A'}:{lead?:string;part?:st
    :active==='taniya'?(taniya04B?<section id="episode04-next-day">
       <h2>{taniya04B.title}</h2>
       <p className="muted">Friday 2 January 2026 · Author-directed plot only · Scene prose has NOT been approved or published.</p>
-      <p><strong>Current focus:</strong> empty flat → Vivek Rao gym → Guddu society/home → later CA office → Vivek Suri senior lane → Punit staged accident and deliberate follow-up.</p>
+      <p><strong>Current focus:</strong> empty flat → Vivek Rao gym → Guddu society/home → later CA office → Vivek Suri senior lane → Punit genuine unforeseen accident → separate deliberate follow-up.</p>
       <div className="continuity-cards">{taniya04B.scenes.map((scene,i)=><SceneDetails key={scene.id} scene={scene} index={i}/>)}</div>
       <section className="episode-plan-card">
        <h3>Open staging questions (no assumptions)</h3>
