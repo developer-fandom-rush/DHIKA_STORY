@@ -323,6 +323,7 @@ function Episode04BAnkitaReading({scene}:Props){
   <div className="perspective-tabs" role="group" aria-label="Episode 04B published character">
    <button type="button" className="selected" aria-pressed="true" onClick={()=>go('01')}>Ankita</button>
    <button type="button" onClick={()=>openPage('reading',{episode:'04B',character:'shreya',scene:'01'})}>Shreya</button>
+   <button type="button" onClick={()=>openPage('reading',{episode:'04B',character:'taniya',scene:'01'})}>Taniya</button>
   </div>
   <div className="reader-layout">
    <aside className="scene-sidebar"><p className="aside-title">Ankita · Episode 04B</p>
@@ -392,6 +393,7 @@ function Shreya04BReading({scene}:Props){
   <div className="perspective-tabs" role="group" aria-label="Episode 04B published character">
    <button type="button" onClick={()=>openPage('reading',{episode:'04B',character:'ankita',scene:'01'})}>Ankita</button>
    <button type="button" className="selected" aria-pressed="true" onClick={()=>go('01')}>Shreya</button>
+   <button type="button" onClick={()=>openPage('reading',{episode:'04B',character:'taniya',scene:'01'})}>Taniya</button>
   </div>
   <p className="source-note">Original manuscript: <a href={data?.source.url||'https://docs.google.com/document/d/1zcFlF9rWeIzaenBEmatt4K8bw3L-LcH3c_45JwoNM3o/edit?tab=t.xr77c5bqwj1p'} target="_blank" rel="noopener noreferrer">Shreya 4B Google Doc</a>. Text and source illustrations are placed in document order. Editorial approval/freeze is separate.</p>
   {loading&&<p role="status">Loading Shreya Episode 04B…</p>}
