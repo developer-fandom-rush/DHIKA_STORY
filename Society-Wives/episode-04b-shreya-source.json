@@ -12,8 +12,8 @@
     "revisionId": "AHj4eMSxHWvI3cBt011WqpXeFF4HKoVmUItmSUXUbfPhpxrWNNGPqd1ohAT5_Tx0zJrE7NzLeZ_9EgRpUvFeqYjeUGFv57jJs8D146Na3Iw"
   },
   "status": "AUTHOR_REQUESTED_READER_PUBLICATION__NOT_FINAL_FROZEN",
-  "imageStatus": "ORIGINAL_DOC_INLINE_IMAGES_PENDING_IMPORT",
-  "notes": "Text and exact image anchors transcribed from Shreya 4B Google Doc. No editorial rewriting, deduplication or expansion. Images to be downloaded into permanent GitHub assets.",
+  "imageStatus": "ALL_9_ORIGINAL_GOOGLE_DOC_IMAGES_IMPORTED",
+  "notes": "Verbatim Google Doc text and nine original images, in exact paragraph/inline-object order. Text unchanged. Working manuscript, not final frozen.",
   "imageCount": 9,
   "imageObjectIds": [
     "kix.in1fy52p835o",
@@ -43,7 +43,7 @@
           "type": "image",
           "inlineObjectId": "kix.in1fy52p835o",
           "sourceElementIndex": 1,
-          "asset": null,
+          "asset": "assets/episode-04b-shreya/shreya-doc-01.png",
           "alt": "Shreya 04B Google Doc original illustration 1"
         },
         {
@@ -74,7 +74,7 @@
           "type": "image",
           "inlineObjectId": "kix.xn5mttfd6red",
           "sourceElementIndex": 2060,
-          "asset": null,
+          "asset": "assets/episode-04b-shreya/shreya-doc-02.png",
           "alt": "Shreya 04B Google Doc original illustration 2"
         },
         {
@@ -311,7 +311,7 @@
           "type": "image",
           "inlineObjectId": "kix.jxox54do0p3d",
           "sourceElementIndex": 4264,
-          "asset": null,
+          "asset": "assets/episode-04b-shreya/shreya-doc-03.png",
           "alt": "Shreya 04B Google Doc original illustration 3"
         },
         {
@@ -420,7 +420,7 @@
           "type": "image",
           "inlineObjectId": "kix.9whue059agu9",
           "sourceElementIndex": 5088,
-          "asset": null,
+          "asset": "assets/episode-04b-shreya/shreya-doc-04.png",
           "alt": "Shreya 04B Google Doc original illustration 4"
         },
         {
@@ -433,7 +433,7 @@
           "type": "image",
           "inlineObjectId": "kix.z96bs8mlmc8j",
           "sourceElementIndex": 5101,
-          "asset": null,
+          "asset": "assets/episode-04b-shreya/shreya-doc-05.png",
           "alt": "Shreya 04B Google Doc original illustration 5"
         },
         {
@@ -638,7 +638,7 @@
           "type": "image",
           "inlineObjectId": "kix.2kxenzery943",
           "sourceElementIndex": 7052,
-          "asset": null,
+          "asset": "assets/episode-04b-shreya/shreya-doc-06.png",
           "alt": "Shreya 04B Google Doc original illustration 6"
         },
         {
@@ -831,7 +831,7 @@
           "type": "image",
           "inlineObjectId": "kix.8ao76fvaod1l",
           "sourceElementIndex": 9515,
-          "asset": null,
+          "asset": "assets/episode-04b-shreya/shreya-doc-07.png",
           "alt": "Shreya 04B Google Doc original illustration 7"
         },
         {
@@ -946,7 +946,7 @@
           "type": "image",
           "inlineObjectId": "kix.5ir5q02fjttb",
           "sourceElementIndex": 10075,
-          "asset": null,
+          "asset": "assets/episode-04b-shreya/shreya-doc-08.png",
           "alt": "Shreya 04B Google Doc original illustration 8"
         },
         {
@@ -959,7 +959,7 @@
           "type": "image",
           "inlineObjectId": "kix.xe73ef8iezuc",
           "sourceElementIndex": 10075,
-          "asset": null,
+          "asset": "assets/episode-04b-shreya/shreya-doc-09.png",
           "alt": "Shreya 04B Google Doc original illustration 9"
         },
         {
