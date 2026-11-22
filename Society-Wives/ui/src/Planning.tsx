@@ -218,7 +218,7 @@ export default function Planning({lead='ankita',part='A'}:{lead?:string;part?:st
    <button type="button" className="button primary" onClick={()=>openPage('reading',{episode:'04A',character:active})}>Read published prose →</button>
    <p className="muted">Completed scenes have been moved out of the active plot into Read Story.</p>
   </section>}
-  {selectedPart==='A'?((active==='ankita'||active==='shivani')&&!publicationIndex
+  {selectedPart==='A'?(active==='shivani'&&!publicationIndex
    ?<p role="status">{publicationLoading?'Checking published Episode 04A scenes…':'Publication index unavailable. The legacy plot is archived; check Read Story for the saved manuscript.'}</p>
    :published
    ?(active==='meenakshi'?<section className="episode-plan-card" id="ep04-meenakshi-handoff"><h2>Meenakshi · Episode 04A published</h2><p>All four Meenakshi Episode 04A scenes are now published in Read Story. Scene 04 includes every M04A-04.01–04.12 beat and ends with the couple sleeping together. No unfinished Episode 04A scene remains in the active plot.</p><button type="button" className="button subtle" onClick={()=>openPage('reading',{episode:'04A',character:'meenakshi',scene:'04'})}>Read completed Scene 04</button><p className="muted">Separate earlier-story thread: the Episode 03 Scene 01 hospital cut-point involving Naveen at 14:15 remains open. This is not a pending Meenakshi Episode 04A scene, and no extra incident has been added.</p><button type="button" className="button subtle" onClick={()=>openPage('reading',{episode:'03',character:'meenakshi',scene:'01'})}>Read earlier hospital scene</button></section>:outstandingScenes.length>0?<section id="episode04-active-plan">
