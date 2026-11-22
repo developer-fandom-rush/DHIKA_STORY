@@ -3,7 +3,7 @@
   "lead": "taniya",
   "episode": "04B",
   "status": "AUTHOR_SUPPLIED_WORKING_MANUSCRIPT_PUBLISHED_FOR_REVIEW_NOT_FINAL_FROZEN",
-  "imageStatus": "ORIGINAL_DOC_ASSETS_IMPORT_PENDING",
+  "imageStatus": "THREE_ORIGINAL_DOC_IMAGES_IMPORTED_VERIFIED",
   "publicationMode": "Verbatim from supplied Google Doc including unedited duplicate passages, with native images interleaved in original source order; separate editorial review required",
   "source": {
     "url": "https://docs.google.com/document/d/1zcFlF9rWeIzaenBEmatt4K8bw3L-LcH3c_45JwoNM3o/edit?tab=t.ev8l8ayp8dhq",
@@ -29,7 +29,7 @@
         {
           "type": "image",
           "inlineObjectId": "kix.6eyh6fkvghn9",
-          "asset": null,
+          "asset": "assets/episode-04b-taniya-doc/taniya04b-original-01.png",
           "sourceElementIndex": 1,
           "alt": "Original author's Episode 04B Taniya gym illustration"
         },
@@ -111,7 +111,7 @@
         {
           "type": "image",
           "inlineObjectId": "kix.u4krv1uhskzc",
-          "asset": null,
+          "asset": "assets/episode-04b-taniya-doc/taniya04b-original-02.png",
           "sourceElementIndex": 26,
           "alt": "Original author's Episode 04B Taniya gym illustration"
         },
@@ -133,7 +133,7 @@
         {
           "type": "image",
           "inlineObjectId": "kix.hc4unnzexqdu",
-          "asset": null,
+          "asset": "assets/episode-04b-taniya-doc/taniya04b-original-03.png",
           "sourceElementIndex": 31,
           "alt": "Original author's Episode 04B Taniya gym illustration"
         },
@@ -507,5 +507,10 @@
       "sourceContext": "Vivek falls backward onto mat; earlier generated concepts mostly show a standing catch, which would be nonliteral",
       "status": "USE_ORIGINAL_DOC_INLINE_ASSETS_FIRST__VISUAL_REVIEW_PENDING"
     }
+  ],
+  "imageOrder": [
+    "kix.6eyh6fkvghn9",
+    "kix.u4krv1uhskzc",
+    "kix.hc4unnzexqdu"
   ]
 }

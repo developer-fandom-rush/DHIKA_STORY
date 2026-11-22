@@ -1,5 +1,5 @@
 {
-  "status": "pending",
+  "status": "completed",
   "docId": "1zcFlF9rWeIzaenBEmatt4K8bw3L-LcH3c_45JwoNM3o",
   "tabId": "t.ev8l8ayp8dhq",
   "revisionId": "AHj4eMQTnw4owATPmKZpaO0ySdTYKhqSZlAIzVakfrk_H4-6nCIJ5gZV-ghCQzhviGZJBNMdr7s689V3rahWF4zDhd2VuCsjYC2xvtR1Gvw",
@@ -12,15 +12,18 @@
   "images": [
     {
       "objectId": "kix.6eyh6fkvghn9",
-      "contentUri": "https://docs.google.com/docs-images-rt/AIpPl2CZzSWvD2NO8pGPJYNnYxRIzK-S2lg6zMptE1nTrqOVDMGQxsAdMznR5TuS-U8MEIkQyt_RpV_sxmKOgvtbcTqaiWGTbuX_X3BUzVURXk5zAM16kekf6tTa4849Kqn7jXlZfduNOvpIRX1a5EdDa1apGfoTpUiV7NEbr6jiGrCX1Z0PT7c=s2048?key=KR3xZL-1IVYhNKGomYObdw"
+      "asset": "assets/episode-04b-taniya-doc/taniya04b-original-01.png",
+      "sha256": "422eb4c4bc2a86edd488a70f90e809e8f387240b5ccd4845a32a9b6d6fe65f48"
     },
     {
       "objectId": "kix.u4krv1uhskzc",
-      "contentUri": "https://docs.google.com/docs-images-rt/AIpPl2Au_mp3XoKiJKXF461Ct4dwgwKnwAJxQ8LyH1wQwvYOKlZD8swT1_D9BRBKe79kT6iITUJ9HvLOuqnSSrbWfXQp7LcGSKTrm9cnPntpvZLynI6sh7t01fMTlf_Vm7yPY4HhPm4apDK73guLnDqncrfC3o_3YBmrDXURCkt0J9SGdhgxsBI=s2048?key=KR3xZL-1IVYhNKGomYObdw"
+      "asset": "assets/episode-04b-taniya-doc/taniya04b-original-02.png",
+      "sha256": "f23d511e3f523726fd2205946d56c7ce25a3683792e27252c0e1cc0948d04e3b"
     },
     {
       "objectId": "kix.hc4unnzexqdu",
-      "contentUri": "https://docs.google.com/docs-images-rt/AIpPl2DdF4MxuteTQgn00ET_ixThJ8j0wAkUtYCJ3XN2a8cJ0ZlKOP2Nwo0KTm-eJH5-LjXYTLQm4axrkvX5TiNXZdqgadFzyzvpZEqh_vzTnVRj5D5LUtSMkYc1RitzVsvI6WX2-QmVqOkFNcVQPbuFIn0Pu6yepK186uVSq0hItiUNS0ml=s2048?key=KR3xZL-1IVYhNKGomYObdw"
+      "asset": "assets/episode-04b-taniya-doc/taniya04b-original-03.png",
+      "sha256": "3d8c840a27ea7c2bc1fd3136c0d4bc20c3067eb15df9e8f2bacc6dd67544b52c"
     }
   ]
 }
