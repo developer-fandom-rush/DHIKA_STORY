@@ -6,6 +6,7 @@ on:
 
 permissions:
   contents: write
+  actions: read
   pages: write
   id-token: write
 
@@ -127,6 +128,24 @@ jobs:
         uses: actions/upload-pages-artifact@v4
         with:
           path: _site
+
+      - name: Wait for uploaded Pages artifact to become visible
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          count=0
+          for attempt in $(seq 1 20); do
+            count=$(gh api "repos/${{ github.repository }}/actions/runs/${{ github.run_id }}/artifacts" --jq '[.artifacts[] | select(.name == "github-pages")] | length' || echo 0)
+            if [ "$count" = "1" ]; then
+              echo "Pages artifact is available on attempt $attempt"
+              sleep 4
+              break
+            fi
+            echo "Artifact metadata not yet visible; retry $attempt"
+            sleep 3
+          done
+          test "$count" = "1"
 
       - name: Deploy GitHub Pages
         id: deployment
