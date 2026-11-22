@@ -415,8 +415,55 @@ function Shreya04BReading({scene}:Props){
   </div>}
  </main>;
 }
+type Ep04BTaniyaBlock={type:'text'|'image';text?:string;inlineObjectId?:string;sourceElementIndex:number;asset?:string|null;alt?:string};
+type Ep04BTaniyaSource={
+ status:string;imageStatus:string;source:{url:string;tabTitle:string};
+ scenes:{id:string;title:string;date:string;time:string;location:string;status:string;blocks:Ep04BTaniyaBlock[]}[];
+ editorialFlags?:{issue:string;sourceContext:string;status:string}[];
+};
+function Taniya04BReading({scene}:Props){
+ const {data,loading,error}=useData<Ep04BTaniyaSource>('episode-04b-taniya-gym-source.json');
+ const scenes=data?.scenes||[];
+ const selected=scenes.find(s=>s.id===scene)||scenes[0];
+ const index=scenes.findIndex(s=>s.id===selected?.id);
+ const go=(id:string)=>openPage('reading',{episode:'04B',character:'taniya',scene:id});
+ return <main className="page-width ep04-final-reader" id="episode04b-taniya-reader">
+  <header className="section-intro"><span className="eyebrow">The Story · Friday, 2 January 2026</span>
+   <h1>Taniya · Episode 04B</h1>
+   <p>Original author-supplied Gym Scene 01 · work-in-review manuscript, not final frozen prose.</p>
+  </header>
+  <div className="perspective-tabs" role="group" aria-label="Choose Episode 04B published character">
+   <button type="button" onClick={()=>openPage('reading',{episode:'04B',character:'ankita',scene:'01'})}>Ankita</button>
+   <button type="button" onClick={()=>openPage('reading',{episode:'04B',character:'shreya',scene:'01'})}>Shreya</button>
+   <button type="button" className="selected" aria-pressed="true" onClick={()=>go('01')}>Taniya</button>
+  </div>
+  <p className="source-note"><strong>Future teaser · Author-directed:</strong> Sexy TANIYA — SOON TO BE MARRIED TO ADITYA… WITH VIVEK BEFORE THE WEDDING. This is a future-story direction, not an event established within the current gym scene.</p>
+  <p className="source-note">Original 4B gym manuscript: <a href={data?.source.url||'https://docs.google.com/document/d/1zcFlF9rWeIzaenBEmatt4K8bw3L-LcH3c_45JwoNM3o/edit?tab=t.ev8l8ayp8dhq'} target="_blank" rel="noopener noreferrer">Taniya 4B Google Doc tab</a>. All existing text remains in source order; editorial duplicates are preserved for author review.</p>
+  {loading&&<p role="status">Loading Taniya Episode 04B gym manuscript…</p>}
+  {error&&<p role="alert" className="error">Taniya 04B manuscript unavailable: {error}</p>}
+  {data&&<div className="reader-layout">
+   <aside className="scene-sidebar"><p className="aside-title">Taniya · Episode 04B</p>
+    {scenes.map(s=><button type="button" key={s.id} className={'scene-link'+(selected?.id===s.id?' active':'')} aria-pressed={selected?.id===s.id} onClick={()=>go(s.id)}><span>Scene {s.id}<small className="ep03-scene-name">{s.title}</small></span></button>)}
+    <button type="button" className="button subtle" onClick={()=>openPage('planning',{lead:'taniya',part:'B'})}>Discuss next scene · Guddu →</button>
+   </aside>
+   <article className="reading-surface source-scene prose-exact">
+   {selected&&<>
+    <div className="story-toolbar"><span>Taniya · Scene {selected.id} of {scenes.length} · AUTHOR MANUSCRIPT · REVIEW PENDING</span></div>
+    <div className="ep03-scene-intro"><h2>{selected.title}</h2><p>{selected.date} · {selected.time} · {selected.location}</p></div>
+    {selected.blocks.map((b,i)=>b.type==='image'
+      ?<figure key={'source-illustration-'+(b.inlineObjectId||i)} className="ep04-shreya-inline-image" style={{margin:'22px auto',maxWidth:'760px',textAlign:'center'}}>
+         {b.asset?<a href={assetUrl(b.asset)} target="_blank" rel="noopener noreferrer"><img loading="lazy" src={assetUrl(b.asset)} alt={b.alt||'Taniya 04B original Doc illustration'} style={{display:'block',width:'100%',height:'auto',borderRadius:'12px'}}/></a>:<p className="source-note">Original source illustration is being imported (ID {b.inlineObjectId}).</p>}
+       </figure>
+      :b.type==='text'&&b.text?.trim()?<p key={'source-text-'+i} className="ep03-paragraph" style={{whiteSpace:'pre-wrap',overflowWrap:'anywhere'}}>{storyInline(b.text.replace(/\u000b/g,'\n').trimEnd())}</p>:null)}
+    <p className="source-note">Next: Taniya's post-gym Guddu encounter · planning only; no Scene 02 prose published yet.</p>
+    <div className="chapter-controls"><button type="button" className="button subtle" disabled={index<=0} onClick={()=>go(scenes[index-1]?.id)}>← Previous scene</button><span>Scene {index+1} of {scenes.length}</span><button type="button" className="button primary" onClick={()=>openPage('planning',{lead:'taniya',part:'B'})}>Discuss Scene 02 (Guddu) →</button></div>
+   </>}
+   </article>
+  </div>}
+ </main>;
+}
 function Episode04BReading(props:Props){
- return props.character==='shreya'?<Shreya04BReading {...props}/>:<Episode04BAnkitaReading {...props}/>;
+ return props.character==='taniya'?<Taniya04BReading {...props}/>:props.character==='shreya'?<Shreya04BReading {...props}/>:<Episode04BAnkitaReading {...props}/>;
 }
 
 export default function Reading(props:Props){
