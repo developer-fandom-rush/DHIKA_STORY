@@ -1291,18 +1291,44 @@
           "number": "01",
           "start": "09:00",
           "end": "11:16",
-          "title": "Station intake, case paperwork and team brief",
+          "title": "Station intake, brief case handover and Keshav's office-support agreement",
           "location": "Police station duty area",
           "characters": [
             "Shreya",
             "Poonam",
-            "Kavita"
+            "Kavita",
+            "Keshav (Station Chotu)"
           ],
           "beats": [
             {
               "id": "SR4B-01",
               "title": "Station work first",
               "action": "Shreya arrives on duty, handles normal administrative and policing responsibilities. No college or society twins have Jan2 appearances here."
+            },
+            {
+              "id": "SR4B-01A-KESHAV-WORK-SETUP",
+              "title": "Keshav agrees to serve as Shreya's authorized office-support runner in addition to chai service",
+              "time": "09:10–09:20",
+              "action": "After an ordinary 3–4-line serious Shreya team handover, Shreya meets Keshav (Station Chotu, age 23), whom she already knows from the previous day's strong-chai counter exchange. Station office-support tasks need coverage. She asks whether he is willing to add scheduled basic administrative support—delivering authorized sealed packets, blank forms, outward dispatch slips, and tea to her cabin—without replacing his tea-counter responsibilities. Keshav clearly agrees. Shreya arranges the assignment through the existing station duty/admin schedule; no special unfounded police rank, unrestricted case-file access, extra character, or overtime assumed. He does not read evidence or confidential case contents. This makes future brief solo cabin deliveries natural, not staged. Professional interaction only; no teasing, flirting, touch, accidents or deliberate display yet.",
+              "dialogueSeed": [
+                {
+                  "speaker": "Shreya",
+                  "line": "Keshav, chai counter ke saath office-support ki kuch basic deliveries sambhal paoge? Duty roster mein properly note karwa dungi."
+                },
+                {
+                  "speaker": "Keshav",
+                  "line": "Ji, madam. Chai ke rounds ke beech forms aur sealed files cabin tak pahuncha dunga. Mujhe koi problem nahi."
+                },
+                {
+                  "speaker": "Shreya",
+                  "line": "Theek. Documents sirf designated desk se lena, aur bina permission kuch open nahi karna."
+                },
+                {
+                  "speaker": "Keshav",
+                  "line": "Samajh gaya, madam. Dono kaam time par karunga."
+                }
+              ],
+              "sourceStatus": "AUTHOR_REQUESTED_ROLE_SETUP_2026_11_22__NOT_PROSE_APPROVED"
             }
           ],
           "status": "LOCKED_OFFICE_CHOTU_ACTIONS__PROSE_NOT_APPROVED",
@@ -1350,6 +1376,11 @@
             "Station Chotu"
           ],
           "beats": [
+            {
+              "id": "SR4B-02-KESHAV-ROLE-CONTINUITY",
+              "title": "Role continuity",
+              "action": "Keshav's additional authorized basic office-support role was already accepted earlier at 09:10–09:20; his strong-chai/receipt familiarity predates this agreement. A cabin visit is possible through a legitimate delivery, but NO new accidental or deliberate encounter is approved yet."
+            },
             {
               "id": "SR4B-02",
               "title": "Existing rapport",
