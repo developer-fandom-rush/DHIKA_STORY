@@ -1,0 +1,44 @@
+name: Import original Taniya 04B Doc inline images
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'Society-Wives/taniya-04b-image-import.json'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  import-original-images:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+          fetch-depth: 0
+      - name: Download original Taniya 04B Google Doc images in native order
+        run: python Society-Wives/tools/import_taniya_04b_doc_images.py
+      - name: Publish the original assets with text/asset mapping
+        shell: bash
+        run: |
+          grep -q '"status": "completed"' Society-Wives/taniya-04b-image-import.json
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add Society-Wives/assets/episode-04b-taniya-doc/ Society-Wives/episode-04b-taniya-gym-source.json Society-Wives/taniya-04b-image-import.json
+          if git diff --cached --quiet; then
+            echo 'No changes'
+            exit 0
+          fi
+          git commit -m "assets(taniya 04B): import 3 original inline Doc images sequentially"
+          for attempt in 1 2 3 4 5; do
+            git fetch origin main
+            git rebase origin/main
+            if git push origin HEAD:main; then
+              echo 'Image import committed to main'
+              exit 0
+            fi
+            sleep 3
+          done
+          echo 'Unable to push original image assets'
+          exit 1
