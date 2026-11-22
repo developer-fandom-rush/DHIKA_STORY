@@ -1,0 +1,1581 @@
+{
+  "schemaVersion": "1.0",
+  "id": "SW-04B-TANIYA-ORIGINAL-UNMODIFIED-PLOT-ARCHIVE",
+  "title": "Taniya Episode 04B · original pre-revision plots and working prose — future reference only",
+  "lead": "taniya",
+  "date": "2026-01-02",
+  "status": "ARCHIVED_ORIGINAL_AS_IS__NOT_AUTHOR_APPROVED__NOT_CURRENT_PLAN",
+  "archivedReason": "Author explicitly replaced Jan02 active Taniya 04B plot with morning gym → Guddu → sparse CA office → senior Vivek Suri → Punit on 2026-11-22.",
+  "fidelity": "Each originalTaniyaContent entry is a direct JSON object copy from the identified GitHub source blob; all source files remain intact and unmodified, even where their older facts conflict with newly published Episode 04A.",
+  "sourceEntries": [
+    {
+      "sourcePath": "Society-Wives/episode-04b-five-leads-merged-chronology.json",
+      "sourceBlobSha": "80b1ee9e70fa6caacc8680bbed091422707503ce",
+      "sourceDocumentStatus": "MERGED_PLOT_CHRONOLOGY__WORKING_PROSE_AVAILABLE__NOT_AUTHOR_APPROVED",
+      "sourceTitle": "Episode 04B · 2 January · Society before office → office/colleagues → Society after office",
+      "originalTaniyaContent": {
+        "id": "taniya",
+        "name": "Taniya",
+        "officeChotu": "Punit",
+        "societyChotu": "Guddu",
+        "officeShift": "10:30–19:30",
+        "events": [
+          {
+            "id": "E04B-TANIYA-MORNING-01",
+            "start": "09:02",
+            "end": "09:13",
+            "title": "A sleeve, a strap, and no second mishap",
+            "location": "Society service counter",
+            "characters": [
+              "Taniya",
+              "Guddu"
+            ],
+            "beats": [
+              {
+                "id": "TA-M01",
+                "title": "The actual document hook",
+                "action": "At 09:02 Guddu confirms Taniya's approval sleeve was already returned Jan1; only the vendor quotation page remains pending."
+              },
+              {
+                "id": "TA-M02",
+                "title": "Yesterday's contact was accidental",
+                "action": "The trolley snagged her crossbody strap and she grabbed Guddu's forearm. Clothing remained in place; no exposed breast, waist/navel, buttocks or bare-back view is established."
+              },
+              {
+                "id": "TA-M03",
+                "title": "No duplication and on-time travel",
+                "action": "Taniya jokes about the now-secured trolley, asks for a vendor-page update and departs by about 09:30 so her 10:30 CA-office shift begins on time. Soniya's separate Guddu history is not leaked to Taniya."
+              }
+            ],
+            "track": "SOCIETY_BEFORE_OFFICE",
+            "sourceProseId": "TAN-04B-P01",
+            "origin": "Original 04A or Episode03 callback, newly planned Jan2 micro-encounter",
+            "status": "NEW_MERGED_MORNING_PLOT__PROSE_DRAFT"
+          },
+          {
+            "id": "E04B-TANIYA-01",
+            "number": "01",
+            "start": "10:30",
+            "end": "12:05",
+            "title": "Client reconciliation, serious CA shift",
+            "location": "CA firm workstations",
+            "characters": [
+              "Taniya",
+              "Neha",
+              "Raghav",
+              "Chirag",
+              "Punit"
+            ],
+            "beats": [
+              {
+                "id": "TA4B-01",
+                "title": "Workday carries Jan1 backlog",
+                "action": "Taniya continues CA reconciliation and wedding scheduling separately; her engagement with Aditya is not forgotten. No twins appear."
+              }
+            ],
+            "status": "LOCKED_OFFICE_CHOTU_ACTIONS__PROSE_NOT_APPROVED",
+            "origin": "episode-04b-office-chotu-jan02-five-leads.json"
+          },
+          {
+            "id": "E04B-TANIYA-PAR-01",
+            "number": "P01",
+            "start": "11:06",
+            "end": "11:27",
+            "title": "Raghav and Taniya: the drawer is history",
+            "location": "CA firm audit desk",
+            "characters": [
+              "Taniya",
+              "Raghav"
+            ],
+            "beats": [
+              {
+                "id": "TAN-P01A",
+                "title": "Audit task",
+                "action": "Raghav presents a revised client discrepancy explanation. She checks his figures and stops a speculative assumption before sign-off."
+              },
+              {
+                "id": "TAN-P01B",
+                "title": "Charged acknowledgment",
+                "action": "When Raghav mentions the previous day's filing-drawer chaos, Taniya responds that he should be glad he was more reliable than the cabinet. He answers that she surprised him by trusting him, and she lets the eye contact remain a moment longer than strictly necessary.",
+                "physical": "No second collapsing drawer or waist-saving touch.",
+                "psychological": "Their new tension is both remembering the unexpected closeness, not needing a new collision."
+              }
+            ],
+            "track": "OTHER_COLLEAGUES",
+            "status": "NEW_PARALLEL_SCENE_PROPOSAL_NOT_FINAL_PROSE",
+            "continuityNote": "January 1 Raghav supported Taniya's clothed waist once; don't retell it as a fresh event.",
+            "origin": "episode-04b-office-chotu-jan02-five-leads.json"
+          },
+          {
+            "id": "E04B-TANIYA-02",
+            "number": "02",
+            "start": "12:05",
+            "end": "12:22",
+            "title": "Punit's audit update",
+            "location": "Open records desk",
+            "characters": [
+              "Taniya",
+              "Punit"
+            ],
+            "beats": [
+              {
+                "id": "TA4B-02",
+                "title": "Real professional reason",
+                "action": "Punit brings corrected reconciliation totals and learns whether his figures are accepted. He already knows Taniya's working style from Jan1; no falling tray or sudden touch."
+              },
+              {
+                "id": "TA4B-03",
+                "title": "A glimpse of a different side",
+                "action": "Taniya's playful critique of his meticulous record checks catches him off guard. She notices that she enjoys being listened to by him; she doesn't ask for intimate contact while supervising work."
+              }
+            ],
+            "status": "LOCKED_OFFICE_CHOTU_ACTIONS__PROSE_NOT_APPROVED",
+            "origin": "episode-04b-office-chotu-jan02-five-leads.json"
+          },
+          {
+            "id": "E04B-TANIYA-03",
+            "number": "03",
+            "start": "12:22",
+            "end": "17:25",
+            "title": "Client reports and deadline",
+            "location": "Audit desks / meeting rooms",
+            "characters": [
+              "Taniya",
+              "Neha",
+              "Andrea",
+              "Punit (work only)"
+            ],
+            "beats": [
+              {
+                "id": "TA4B-04",
+                "title": "Real workload, not a fake early closure",
+                "action": "Taniya remains at the CA firm with scheduled reporting and client sign-offs. A personal wedding-clothing pickup is delivered for an evening fitting appointment; no colleague is sent to fetch it as a romantic contrivance."
+              }
+            ],
+            "status": "LOCKED_OFFICE_CHOTU_ACTIONS__PROSE_NOT_APPROVED",
+            "origin": "episode-04b-office-chotu-jan02-five-leads.json"
+          },
+          {
+            "id": "E04B-TANIYA-PAR-02",
+            "number": "P02",
+            "start": "13:34",
+            "end": "13:54",
+            "title": "Neha and Raghav: a different kind of teasing",
+            "location": "Shared analytics workstation",
+            "characters": [
+              "Neha",
+              "Raghav"
+            ],
+            "beats": [
+              {
+                "id": "TAN-P02A",
+                "title": "Peer cooperation",
+                "action": "Neha needs Raghav to verify an audit-trail formula. Their work roles are comparable and they share access to the check sheet."
+              },
+              {
+                "id": "TAN-P02B",
+                "title": "Two-person flirt",
+                "action": "Neha jokes that Raghav is unusually thorough only when someone is watching. He responds that she could stay and test the theory; she deliberately keeps her chair beside his for the next five minutes while finishing the actual work.",
+                "physical": "A voluntary close-seated working interaction, no staged touch or implied couple status.",
+                "psychological": "Neha is curious whether he meant it personally and chooses not to resolve the ambiguity yet."
+              }
+            ],
+            "track": "OTHER_COLLEAGUES",
+            "status": "NEW_PARALLEL_SCENE_PROPOSAL_NOT_FINAL_PROSE",
+            "continuityNote": "Optional mutual peer interest; not an already approved romance.",
+            "origin": "episode-04b-office-chotu-jan02-five-leads.json"
+          },
+          {
+            "id": "E04B-TANIYA-PAR-03",
+            "number": "P03",
+            "start": "15:13",
+            "end": "15:34",
+            "title": "Andrea and Chirag: after yesterday's cheek peck",
+            "location": "CA firm's staff coffee corner",
+            "characters": [
+              "Andrea",
+              "Chirag"
+            ],
+            "beats": [
+              {
+                "id": "TAN-P03A",
+                "title": "Acknowledge the existing beat",
+                "action": "Andrea and Chirag review the document they solved together yesterday. Both remember that she gave him a celebratory cheek peck on January 1, which remains a single completed earlier event."
+              },
+              {
+                "id": "TAN-P03B",
+                "title": "Choice rather than a repeat kiss",
+                "action": "Andrea asks whether he thought she crossed a line. Chirag says he was surprised but not uncomfortable. She smiles, offers him her hand as a simple personal gesture after they finish the work, and he chooses to take it briefly.",
+                "physical": "Brief mutually welcomed hand clasp; absolutely no second cheek kiss or forced escalation.",
+                "psychological": "They acknowledge their separate mutual possibility without changing the office team's dynamic into a confirmed couple."
+              }
+            ],
+            "track": "OTHER_COLLEAGUES",
+            "status": "NEW_PARALLEL_SCENE_PROPOSAL_NOT_FINAL_PROSE",
+            "continuityNote": "January 1 Andrea–Chirag kiss-on-cheek is established. New scene carries that forward rather than replaying it.",
+            "origin": "episode-04b-office-chotu-jan02-five-leads.json"
+          },
+          {
+            "id": "E04B-TANIYA-04",
+            "number": "04",
+            "start": "17:25",
+            "end": "17:46",
+            "title": "The bride's deliberate close pose",
+            "location": "Office private changing / non-working reception alcove",
+            "characters": [
+              "Taniya",
+              "Punit"
+            ],
+            "beats": [
+              {
+                "id": "TA4B-05",
+                "title": "A credible change of wardrobe",
+                "action": "On her personal break before an evening fitting, Taniya changes into the outfit she is collecting/trying on, with a deep neckline and exposed midriff. This is her own choice, not a wardrobe failure.",
+                "bodyParts": "Deep neckline, exposed midriff",
+                "actionName": "Deliberate neckline and midriff reveal"
+              },
+              {
+                "id": "TA4B-06",
+                "title": "The daring personal invitation",
+                "action": "Punit happens to be finishing the file sign-off in the adjacent reception area. Taniya knowingly invites his opinion on the look and proposes a brief close pose; Punit can decline without pressure.",
+                "actionName": "Deliberate close pose",
+                "reaction": "Her customary wit masks genuine curiosity about whether he sees her differently."
+              },
+              {
+                "id": "TA4B-07",
+                "title": "Chosen touch with clear agreement",
+                "action": "If Punit freely agrees to their private moment, she invites a brief bare-waist contact while they stand close, then ends it promptly. No photo taken, no kissing, no claims of future entitlement.",
+                "bodyParts": "Bare waist",
+                "actionName": "Consensual bare-waist contact",
+                "limits": "No coercion through manager/trainee hierarchy."
+              }
+            ],
+            "status": "LOCKED_OFFICE_CHOTU_ACTIONS__PROSE_NOT_APPROVED",
+            "origin": "episode-04b-office-chotu-jan02-five-leads.json"
+          },
+          {
+            "id": "E04B-TANIYA-05",
+            "number": "05",
+            "start": "17:46",
+            "end": "19:30",
+            "title": "Complete the CA shift, no rushed return home",
+            "location": "CA office → scheduled exit",
+            "characters": [
+              "Taniya",
+              "Neha",
+              "Andrea"
+            ],
+            "beats": [
+              {
+                "id": "TA4B-08",
+                "title": "After-effect and proper exit",
+                "action": "Taniya returns to her working clothes or suitable professional cover, completes reconciliation and leaves at about 19:30 as her Jan1 shift established. Her own conflicting excitement and engagement remain distinct; society Guddu is not inserted into this office-only sequence."
+              }
+            ],
+            "status": "LOCKED_OFFICE_CHOTU_ACTIONS__PROSE_NOT_APPROVED",
+            "origin": "episode-04b-office-chotu-jan02-five-leads.json"
+          },
+          {
+            "id": "E04B-TANIYA-PAR-04",
+            "number": "P04",
+            "start": "18:12",
+            "end": "18:34",
+            "title": "Taniya and Chirag: a different mirror",
+            "location": "CA firm closeout room",
+            "characters": [
+              "Taniya",
+              "Chirag"
+            ],
+            "beats": [
+              {
+                "id": "TAN-P04A",
+                "title": "Close of the audit",
+                "action": "Chirag asks Taniya to sign a recovered exception summary after her planned Punit break. She is visibly back in full work mode and the ledger is accurate."
+              },
+              {
+                "id": "TAN-P04B",
+                "title": "Unexpectedly personal conversation",
+                "action": "Chirag notices she seems more reflective than she did at morning's wedding jokes; she replies she can be both an exacting auditor and a woman who enjoys a compliment. Chirag offers a modest, non-invasive response and she teasingly thanks him for not sounding like a client.",
+                "physical": "No touch or secret kiss; Taniya's engagement to Aditya remains unchanged.",
+                "psychological": "Unlike with Raghav, Chirag's appeal is his restraint and candid listening."
+              }
+            ],
+            "track": "OTHER_COLLEAGUES",
+            "status": "NEW_PARALLEL_SCENE_PROPOSAL_NOT_FINAL_PROSE",
+            "continuityNote": "Don't overwrite Taniya's 19:30 established office shift end or Aditya engagement.",
+            "origin": "episode-04b-office-chotu-jan02-five-leads.json"
+          },
+          {
+            "id": "E04B-SOC-TA-01",
+            "start": "20:10",
+            "end": "20:32",
+            "title": "Late arrival at Soniya's household",
+            "location": "Taniya and Soniya's shared residence",
+            "characters": [
+              "Taniya",
+              "Soniya (home context)",
+              "Guddu (courier)"
+            ],
+            "beats": [
+              {
+                "id": "SOC-TA-01",
+                "title": "Travel is not skipped",
+                "action": "Taniya leaves the CA firm only at 19:30, then travels to society. She does not materialize at home at 19:45. Soniya and Rahul keep their independent Jan2 routines; neither is silently deleted."
+              },
+              {
+                "id": "SOC-TA-02",
+                "title": "Why Guddu returns",
+                "action": "Guddu arrives for the pre-established wedding quotation follow-up. He has a separate, unusually bold prior Jan1 Soniya encounter; Taniya does not automatically know exactly what happened. He remains professionally cautious and is not presumed eager to flirt."
+              }
+            ],
+            "track": "SOCIETY_CHOTU",
+            "status": "NEW_SOCIETY_CHOTU_PLAN_FOR_REVIEW__NOT_APPROVED_PROSE",
+            "origin": "episode-04b-society-chotu-jan02-five-leads.json"
+          },
+          {
+            "id": "E04B-SOC-TA-02",
+            "start": "20:38",
+            "end": "20:58",
+            "title": "The bridal look she chooses to test",
+            "location": "Apartment entrance / adult-only dressing foyer, not a bedroom",
+            "characters": [
+              "Taniya",
+              "Guddu"
+            ],
+            "beats": [
+              {
+                "id": "SOC-TA-03",
+                "title": "Different from her Punit scene",
+                "action": "Taniya has changed into a home-trial wedding blouse/drape with a pronounced open-back design, bare shoulders and midriff. She pauses to evaluate the fit in the entrance mirror, knowingly remaining in the chosen look when Guddu returns rather than improvising a wardrobe fault.",
+                "bodyParts": "Bare shoulders, open back, midriff, waistline",
+                "actionName": "Deliberate back-cut reveal with midriff profile",
+                "sightline": "Adult-only entry area; no child, no nudity, no unauthorized sightline"
+              },
+              {
+                "id": "SOC-TA-04",
+                "title": "The real social test",
+                "action": "Guddu brings the actual page or a vendor update, not a fake lost object. Taniya directly asks whether the silhouette looks too formal or suitably festive. If Guddu welcomes the personal exchange, they make a single side-by-side doorway-mirror pose with his arm lightly around her side waist after a spoken check.",
+                "bodyParts": "Side waist",
+                "actionName": "Consensual side-by-side mirror pose with waist framing",
+                "limits": "He can opt out while completing courier work; no photos, kisses or groping."
+              },
+              {
+                "id": "SOC-TA-05",
+                "title": "Taniya checks herself",
+                "action": "The assertive bride-to-be expected to crack a joke, but she is privately struck by her own wish for Guddu to notice. It does not imply she forgot fiancé Aditya or suddenly knows about Soniya.",
+                "psychological": "The point is a conscious risk to her own self-image, not a revived wedding-vendor measurement gag."
+              }
+            ],
+            "track": "SOCIETY_CHOTU",
+            "status": "NEW_SOCIETY_CHOTU_PLAN_FOR_REVIEW__NOT_APPROVED_PROSE",
+            "origin": "episode-04b-society-chotu-jan02-five-leads.json"
+          },
+          {
+            "id": "E04B-SOC-TA-03",
+            "start": "20:58",
+            "end": "21:18",
+            "title": "Sister's evening remains independent",
+            "location": "Shared household, private family areas",
+            "characters": [
+              "Taniya",
+              "Soniya (if present, location TBD)"
+            ],
+            "beats": [
+              {
+                "id": "SOC-TA-06",
+                "title": "No invented sister witness",
+                "action": "Taniya returns to her normal evening. Soniya and Rahul's actual whereabouts must be checked before prose; no fabricated accidental witness, interruption or disclosure of Soniya's earlier encounter."
+              }
+            ],
+            "track": "SOCIETY_CHOTU",
+            "status": "NEW_SOCIETY_CHOTU_PLAN_FOR_REVIEW__NOT_APPROVED_PROSE",
+            "origin": "episode-04b-society-chotu-jan02-five-leads.json"
+          }
+        ],
+        "proseSceneIds": [
+          "TAN-04B-P01",
+          "TAN-04B-P02",
+          "TAN-04B-P03",
+          "TAN-04B-P04"
+        ],
+        "sourceReferences": [
+          "episode-04a-society-chotu-uncertainty-register.json",
+          "episode-04b-office-chotu-jan02-five-leads.json",
+          "episode-04b-society-chotu-jan02-five-leads.json",
+          "episode-04b-five-leads-prose-drafts.json"
+        ],
+        "notes": "Morning is placed BEFORE office only when grounded; Shreya has a home continuity check, not an invented morning Chintu duty encounter.",
+        "dhikaInspiredProgression": [
+          {
+            "stage": "04A uncertainty",
+            "mechanism": "A trolley snagged her crossbody strap, drawing her to Guddu's forearm; clothing stayed fully in place, so there is no false breast/navel glimpse."
+          },
+          {
+            "stage": "Ordinary return",
+            "mechanism": "Morning registers that approval sleeve was returned, vendor page still pending; she leaves for CA office on time."
+          },
+          {
+            "stage": "Willing choice",
+            "mechanism": "After Punit's separate office close pose, Taniya chooses a different bridal home-trial outfit and invites Guddu into a no-photo mirror-frame pose."
+          },
+          {
+            "stage": "Reaction",
+            "mechanism": "Guddu responds with his own dry humour, keeps the pose brief, then returns to vendor paperwork."
+          },
+          {
+            "stage": "After-effect",
+            "mechanism": "Taniya feels self-aware about actually inviting attention while acknowledging fiancé Aditya and sister Soniya's separate life."
+          }
+        ]
+      }
+    },
+    {
+      "sourcePath": "Society-Wives/episode-04b-jan02-merged-day-five-leads.json",
+      "sourceBlobSha": "843f72a9bec3c9beb51ebeadda80d446ed2d3366",
+      "sourceDocumentStatus": "USER_REQUESTED_FIVE_LEAD_MERGED_TIMELINE_AND_FULL_DIALOGUE_PROSE__DRAFT_FOR_AUTHOR_REVIEW",
+      "sourceTitle": "Society Wives · Episode 04B · Dhika EP04 Mechanic Applied · Integrated Day",
+      "originalTaniyaContent": {
+        "id": "taniya",
+        "name": "Taniya",
+        "officeChotu": "Punit",
+        "societyChotu": "Guddu",
+        "source04A": "episode-04a-taniya-soniya-night-review.json · Taniya × Guddu · TS04A-02–04",
+        "oldQuestion": "Did he notice only the bag-strap problem or that she had become suddenly self-conscious around him? There is no uncertain nudity or anatomy view.",
+        "morningSocietyPlan": {
+          "id": "TA-PRE-01",
+          "start": "09:00",
+          "end": "09:15",
+          "title": "The wedding sleeve and the forearm she remembers",
+          "location": "Soniya's apartment → society exit",
+          "characters": [
+            "Taniya",
+            "Soniya (household only)",
+            "Guddu (message only)"
+          ],
+          "track": "SOCIETY_MORNING_BRIDGE",
+          "status": "JAN02_PROPOSED_BRIDGE_BASED_ON_CONFIRMED_04A",
+          "beats": [
+            {
+              "id": "TA-PRE-01-B1",
+              "title": "04A unresolved fact",
+              "action": "In 04A the trolley snagged Taniya's bag strap; she held Guddu's FOREARM for balance and they separated. NO garment exposure happened. Guddu later had an independent playful encounter with Soniya that Taniya did not fully observe."
+            },
+            {
+              "id": "TA-PRE-01-B2",
+              "title": "2 Jan morning decision",
+              "action": "Guddu reports that wedding quotation supporting pages can be delivered to the flat later. Taniya jokingly tells him to leave the trolley parked and departs for her 10:30 CA shift; she refuses to pretend their earlier closeness was deliberately arranged."
+            }
+          ]
+        },
+        "officeSceneCount": 5,
+        "colleagueSceneCount": 4,
+        "societySceneCount": 3,
+        "chronologicalScenes": [
+          {
+            "id": "TA-PRE-01",
+            "start": "09:00",
+            "end": "09:15",
+            "title": "The wedding sleeve and the forearm she remembers",
+            "location": "Soniya's apartment → society exit",
+            "characters": [
+              "Taniya",
+              "Soniya (household only)",
+              "Guddu (message only)"
+            ],
+            "track": "SOCIETY_MORNING_BRIDGE",
+            "status": "JAN02_PROPOSED_BRIDGE_BASED_ON_CONFIRMED_04A",
+            "beats": [
+              {
+                "id": "TA-PRE-01-B1",
+                "title": "04A unresolved fact",
+                "action": "In 04A the trolley snagged Taniya's bag strap; she held Guddu's FOREARM for balance and they separated. NO garment exposure happened. Guddu later had an independent playful encounter with Soniya that Taniya did not fully observe."
+              },
+              {
+                "id": "TA-PRE-01-B2",
+                "title": "2 Jan morning decision",
+                "action": "Guddu reports that wedding quotation supporting pages can be delivered to the flat later. Taniya jokingly tells him to leave the trolley parked and departs for her 10:30 CA shift; she refuses to pretend their earlier closeness was deliberately arranged."
+              }
+            ]
+          },
+          {
+            "id": "E04B-TANIYA-01",
+            "number": "01",
+            "start": "10:30",
+            "end": "12:05",
+            "title": "Client reconciliation, serious CA shift",
+            "location": "CA firm workstations",
+            "characters": [
+              "Taniya",
+              "Neha",
+              "Raghav",
+              "Chirag",
+              "Punit"
+            ],
+            "beats": [
+              {
+                "id": "TA4B-01",
+                "title": "Workday carries Jan1 backlog",
+                "action": "Taniya continues CA reconciliation and wedding scheduling separately; her engagement with Aditya is not forgotten. No twins appear."
+              }
+            ],
+            "status": "LOCKED_OFFICE_CHOTU_ACTIONS__PROSE_NOT_APPROVED",
+            "track": "OFFICE_CHOTU_WORKDAY"
+          },
+          {
+            "id": "E04B-TANIYA-PAR-01",
+            "number": "P01",
+            "start": "11:06",
+            "end": "11:27",
+            "title": "Raghav and Taniya: the drawer is history",
+            "location": "CA firm audit desk",
+            "characters": [
+              "Taniya",
+              "Raghav"
+            ],
+            "beats": [
+              {
+                "id": "TAN-P01A",
+                "title": "Audit task",
+                "action": "Raghav presents a revised client discrepancy explanation. She checks his figures and stops a speculative assumption before sign-off."
+              },
+              {
+                "id": "TAN-P01B",
+                "title": "Charged acknowledgment",
+                "action": "When Raghav mentions the previous day's filing-drawer chaos, Taniya responds that he should be glad he was more reliable than the cabinet. He answers that she surprised him by trusting him, and she lets the eye contact remain a moment longer than strictly necessary.",
+                "physical": "No second collapsing drawer or waist-saving touch.",
+                "psychological": "Their new tension is both remembering the unexpected closeness, not needing a new collision."
+              }
+            ],
+            "track": "OTHER_COLLEAGUES",
+            "status": "NEW_PARALLEL_SCENE_PROPOSAL_NOT_FINAL_PROSE",
+            "continuityNote": "January 1 Raghav supported Taniya's clothed waist once; don't retell it as a fresh event."
+          },
+          {
+            "id": "E04B-TANIYA-02",
+            "number": "02",
+            "start": "12:05",
+            "end": "12:22",
+            "title": "Punit's audit update",
+            "location": "Open records desk",
+            "characters": [
+              "Taniya",
+              "Punit"
+            ],
+            "beats": [
+              {
+                "id": "TA4B-02",
+                "title": "Real professional reason",
+                "action": "Punit brings corrected reconciliation totals and learns whether his figures are accepted. He already knows Taniya's working style from Jan1; no falling tray or sudden touch."
+              },
+              {
+                "id": "TA4B-03",
+                "title": "A glimpse of a different side",
+                "action": "Taniya's playful critique of his meticulous record checks catches him off guard. She notices that she enjoys being listened to by him; she doesn't ask for intimate contact while supervising work."
+              }
+            ],
+            "status": "LOCKED_OFFICE_CHOTU_ACTIONS__PROSE_NOT_APPROVED",
+            "track": "OFFICE_CHOTU_WORKDAY"
+          },
+          {
+            "id": "E04B-TANIYA-03",
+            "number": "03",
+            "start": "12:22",
+            "end": "17:25",
+            "title": "Client reports and deadline",
+            "location": "Audit desks / meeting rooms",
+            "characters": [
+              "Taniya",
+              "Neha",
+              "Andrea",
+              "Punit (work only)"
+            ],
+            "beats": [
+              {
+                "id": "TA4B-04",
+                "title": "Real workload, not a fake early closure",
+                "action": "Taniya remains at the CA firm with scheduled reporting and client sign-offs. A personal wedding-clothing pickup is delivered for an evening fitting appointment; no colleague is sent to fetch it as a romantic contrivance."
+              }
+            ],
+            "status": "LOCKED_OFFICE_CHOTU_ACTIONS__PROSE_NOT_APPROVED",
+            "track": "OFFICE_CHOTU_WORKDAY"
+          },
+          {
+            "id": "E04B-TANIYA-PAR-02",
+            "number": "P02",
+            "start": "13:34",
+            "end": "13:54",
+            "title": "Neha and Raghav: a different kind of teasing",
+            "location": "Shared analytics workstation",
+            "characters": [
+              "Neha",
+              "Raghav"
+            ],
+            "beats": [
+              {
+                "id": "TAN-P02A",
+                "title": "Peer cooperation",
+                "action": "Neha needs Raghav to verify an audit-trail formula. Their work roles are comparable and they share access to the check sheet."
+              },
+              {
+                "id": "TAN-P02B",
+                "title": "Two-person flirt",
+                "action": "Neha jokes that Raghav is unusually thorough only when someone is watching. He responds that she could stay and test the theory; she deliberately keeps her chair beside his for the next five minutes while finishing the actual work.",
+                "physical": "A voluntary close-seated working interaction, no staged touch or implied couple status.",
+                "psychological": "Neha is curious whether he meant it personally and chooses not to resolve the ambiguity yet."
+              }
+            ],
+            "track": "OTHER_COLLEAGUES",
+            "status": "NEW_PARALLEL_SCENE_PROPOSAL_NOT_FINAL_PROSE",
+            "continuityNote": "Optional mutual peer interest; not an already approved romance."
+          },
+          {
+            "id": "E04B-TANIYA-PAR-03",
+            "number": "P03",
+            "start": "15:13",
+            "end": "15:34",
+            "title": "Andrea and Chirag: after yesterday's cheek peck",
+            "location": "CA firm's staff coffee corner",
+            "characters": [
+              "Andrea",
+              "Chirag"
+            ],
+            "beats": [
+              {
+                "id": "TAN-P03A",
+                "title": "Acknowledge the existing beat",
+                "action": "Andrea and Chirag review the document they solved together yesterday. Both remember that she gave him a celebratory cheek peck on January 1, which remains a single completed earlier event."
+              },
+              {
+                "id": "TAN-P03B",
+                "title": "Choice rather than a repeat kiss",
+                "action": "Andrea asks whether he thought she crossed a line. Chirag says he was surprised but not uncomfortable. She smiles, offers him her hand as a simple personal gesture after they finish the work, and he chooses to take it briefly.",
+                "physical": "Brief mutually welcomed hand clasp; absolutely no second cheek kiss or forced escalation.",
+                "psychological": "They acknowledge their separate mutual possibility without changing the office team's dynamic into a confirmed couple."
+              }
+            ],
+            "track": "OTHER_COLLEAGUES",
+            "status": "NEW_PARALLEL_SCENE_PROPOSAL_NOT_FINAL_PROSE",
+            "continuityNote": "January 1 Andrea–Chirag kiss-on-cheek is established. New scene carries that forward rather than replaying it."
+          },
+          {
+            "id": "E04B-TANIYA-04",
+            "number": "04",
+            "start": "17:25",
+            "end": "17:46",
+            "title": "The bride's deliberate close pose",
+            "location": "Office private changing / non-working reception alcove",
+            "characters": [
+              "Taniya",
+              "Punit"
+            ],
+            "beats": [
+              {
+                "id": "TA4B-05",
+                "title": "A credible change of wardrobe",
+                "action": "On her personal break before an evening fitting, Taniya changes into the outfit she is collecting/trying on, with a deep neckline and exposed midriff. This is her own choice, not a wardrobe failure.",
+                "bodyParts": "Deep neckline, exposed midriff",
+                "actionName": "Deliberate neckline and midriff reveal"
+              },
+              {
+                "id": "TA4B-06",
+                "title": "The daring personal invitation",
+                "action": "Punit happens to be finishing the file sign-off in the adjacent reception area. Taniya knowingly invites his opinion on the look and proposes a brief close pose; Punit can decline without pressure.",
+                "actionName": "Deliberate close pose",
+                "reaction": "Her customary wit masks genuine curiosity about whether he sees her differently."
+              },
+              {
+                "id": "TA4B-07",
+                "title": "Chosen touch with clear agreement",
+                "action": "If Punit freely agrees to their private moment, she invites a brief bare-waist contact while they stand close, then ends it promptly. No photo taken, no kissing, no claims of future entitlement.",
+                "bodyParts": "Bare waist",
+                "actionName": "Consensual bare-waist contact",
+                "limits": "No coercion through manager/trainee hierarchy."
+              }
+            ],
+            "status": "LOCKED_OFFICE_CHOTU_ACTIONS__PROSE_NOT_APPROVED",
+            "track": "OFFICE_CHOTU_WORKDAY"
+          },
+          {
+            "id": "E04B-TANIYA-05",
+            "number": "05",
+            "start": "17:46",
+            "end": "19:30",
+            "title": "Complete the CA shift, no rushed return home",
+            "location": "CA office → scheduled exit",
+            "characters": [
+              "Taniya",
+              "Neha",
+              "Andrea"
+            ],
+            "beats": [
+              {
+                "id": "TA4B-08",
+                "title": "After-effect and proper exit",
+                "action": "Taniya returns to her working clothes or suitable professional cover, completes reconciliation and leaves at about 19:30 as her Jan1 shift established. Her own conflicting excitement and engagement remain distinct; society Guddu is not inserted into this office-only sequence."
+              }
+            ],
+            "status": "LOCKED_OFFICE_CHOTU_ACTIONS__PROSE_NOT_APPROVED",
+            "track": "OFFICE_CHOTU_WORKDAY"
+          },
+          {
+            "id": "E04B-TANIYA-PAR-04",
+            "number": "P04",
+            "start": "18:12",
+            "end": "18:34",
+            "title": "Taniya and Chirag: a different mirror",
+            "location": "CA firm closeout room",
+            "characters": [
+              "Taniya",
+              "Chirag"
+            ],
+            "beats": [
+              {
+                "id": "TAN-P04A",
+                "title": "Close of the audit",
+                "action": "Chirag asks Taniya to sign a recovered exception summary after her planned Punit break. She is visibly back in full work mode and the ledger is accurate."
+              },
+              {
+                "id": "TAN-P04B",
+                "title": "Unexpectedly personal conversation",
+                "action": "Chirag notices she seems more reflective than she did at morning's wedding jokes; she replies she can be both an exacting auditor and a woman who enjoys a compliment. Chirag offers a modest, non-invasive response and she teasingly thanks him for not sounding like a client.",
+                "physical": "No touch or secret kiss; Taniya's engagement to Aditya remains unchanged.",
+                "psychological": "Unlike with Raghav, Chirag's appeal is his restraint and candid listening."
+              }
+            ],
+            "track": "OTHER_COLLEAGUES",
+            "status": "NEW_PARALLEL_SCENE_PROPOSAL_NOT_FINAL_PROSE",
+            "continuityNote": "Don't overwrite Taniya's 19:30 established office shift end or Aditya engagement."
+          },
+          {
+            "id": "E04B-SOC-TA-01",
+            "start": "20:10",
+            "end": "20:32",
+            "title": "Late arrival at Soniya's household",
+            "location": "Taniya and Soniya's shared residence",
+            "characters": [
+              "Taniya",
+              "Soniya (home context)",
+              "Guddu (courier)"
+            ],
+            "beats": [
+              {
+                "id": "SOC-TA-01",
+                "title": "Travel is not skipped",
+                "action": "Taniya leaves the CA firm only at 19:30, then travels to society. She does not materialize at home at 19:45. Soniya and Rahul keep their independent Jan2 routines; neither is silently deleted."
+              },
+              {
+                "id": "SOC-TA-02",
+                "title": "Why Guddu returns",
+                "action": "Guddu arrives for the pre-established wedding quotation follow-up. He has a separate, unusually bold prior Jan1 Soniya encounter; Taniya does not automatically know exactly what happened. He remains professionally cautious and is not presumed eager to flirt."
+              }
+            ],
+            "track": "SOCIETY_CHOTU",
+            "status": "NEW_SOCIETY_CHOTU_PLAN_FOR_REVIEW__NOT_APPROVED_PROSE"
+          },
+          {
+            "id": "E04B-SOC-TA-02",
+            "start": "20:38",
+            "end": "20:58",
+            "title": "The bridal look she chooses to test",
+            "location": "Apartment entrance / adult-only dressing foyer, not a bedroom",
+            "characters": [
+              "Taniya",
+              "Guddu"
+            ],
+            "beats": [
+              {
+                "id": "SOC-TA-03",
+                "title": "Different from her Punit scene",
+                "action": "Taniya has changed into a home-trial wedding blouse/drape with a pronounced open-back design, bare shoulders and midriff. She pauses to evaluate the fit in the entrance mirror, knowingly remaining in the chosen look when Guddu returns rather than improvising a wardrobe fault.",
+                "bodyParts": "Bare shoulders, open back, midriff, waistline",
+                "actionName": "Deliberate back-cut reveal with midriff profile",
+                "sightline": "Adult-only entry area; no child, no nudity, no unauthorized sightline"
+              },
+              {
+                "id": "SOC-TA-04",
+                "title": "The real social test",
+                "action": "Guddu brings the actual page or a vendor update, not a fake lost object. Taniya directly asks whether the silhouette looks too formal or suitably festive. If Guddu welcomes the personal exchange, they make a single side-by-side doorway-mirror pose with his arm lightly around her side waist after a spoken check.",
+                "bodyParts": "Side waist",
+                "actionName": "Consensual side-by-side mirror pose with waist framing",
+                "limits": "He can opt out while completing courier work; no photos, kisses or groping."
+              },
+              {
+                "id": "SOC-TA-05",
+                "title": "Taniya checks herself",
+                "action": "The assertive bride-to-be expected to crack a joke, but she is privately struck by her own wish for Guddu to notice. It does not imply she forgot fiancé Aditya or suddenly knows about Soniya.",
+                "psychological": "The point is a conscious risk to her own self-image, not a revived wedding-vendor measurement gag."
+              }
+            ],
+            "track": "SOCIETY_CHOTU",
+            "status": "NEW_SOCIETY_CHOTU_PLAN_FOR_REVIEW__NOT_APPROVED_PROSE"
+          },
+          {
+            "id": "E04B-SOC-TA-03",
+            "start": "20:58",
+            "end": "21:18",
+            "title": "Sister's evening remains independent",
+            "location": "Shared household, private family areas",
+            "characters": [
+              "Taniya",
+              "Soniya (if present, location TBD)"
+            ],
+            "beats": [
+              {
+                "id": "SOC-TA-06",
+                "title": "No invented sister witness",
+                "action": "Taniya returns to her normal evening. Soniya and Rahul's actual whereabouts must be checked before prose; no fabricated accidental witness, interruption or disclosure of Soniya's earlier encounter."
+              }
+            ],
+            "track": "SOCIETY_CHOTU",
+            "status": "NEW_SOCIETY_CHOTU_PLAN_FOR_REVIEW__NOT_APPROVED_PROSE"
+          }
+        ],
+        "proseScenes": [
+          {
+            "id": "E04B-PROSE-TANIYA-01",
+            "time": "09:00–09:15",
+            "title": "No trolley this morning",
+            "status": "DRAFT_NOT_APPROVED",
+            "paragraphs": [
+              "Taniya ne society gate se nikalte waqt Guddu ka message padha: 'Approval-sleeve ke supporting pages mil gaye. Shaam ko de dunga.' Kal trolley ki taraf khinchta bag strap aur balance ke liye Guddu ka forearm pakadna usse yaad aa gaya. Kapde nahi khisake the; bas ek chhota involuntary touch hua tha.",
+              "'Aaj trolley brake lagakar rakhna,' usne reply kiya. Guddu ka jawab aaya: 'Aapke liye double-check.' Taniya khud hansi. CA firm ka day lamba tha. Woh apne aap se jhooth nahi bol rahi thi ki last night's nervousness kisi dramatic exposure se hui thi. Wajah uska unexpected nearness tha."
+            ]
+          },
+          {
+            "id": "E04B-PROSE-TANIYA-02",
+            "time": "12:05–12:22",
+            "title": "Punit has facts, not lines",
+            "status": "DRAFT_NOT_APPROVED",
+            "paragraphs": [
+              "Audit desk par Punit corrected reconciliation figures lekar aaya. 'Tumne query ka answer dhoondha?' Taniya ne poocha. 'Haan. Aur is baar page number bhi likh diya.' 'Good boy,' Taniya ne kaha, phir uske expression ko dekhkar muskurayi. 'Sorry. Good auditor.'",
+              "Punit ne file open ki aur correction point out kiya. Taniya ne use dhyaan se suna. Kal Raghav ne drawer accident mein usse steady kiya tha—wo bhi alag tha; Punit ke saath aaj ka task entirely paperwork tha. Lekin jab Punit uske precise question ka bina nervous hue answer de raha tha, Taniya ko uski confidence interesting lagi.",
+              "'Kal tak tumhare jokes late aate the,' woh boli. Punit ne turant kaha, 'Aaj office close se pehle submit kar dunga.' Uski normal tone ne Taniya ko aur curious kar diya. Woh khud final figure verify karke aage badh gayi."
+            ]
+          },
+          {
+            "id": "E04B-PROSE-TANIYA-03",
+            "time": "17:25–17:46",
+            "title": "The bride chooses who gets an opinion",
+            "status": "DRAFT_NOT_APPROVED",
+            "paragraphs": [
+              "Wedding fitting ke liye rakha outfit Taniya ne personal break mein try kiya. Deep neckline aur midriff design usne khud select kiya tha; koi torn blouse ya accidental fall nahi. Punit file sign-off karke reception area ke paas aaya toh usne usko rok kar poocha, 'Ek non-audit opinion doge? Comfortable ho toh.'",
+              "Punit ne pehle surprise se dekha. 'Opinion ka bill banega, ma'am?' Taniya hansi. 'Itna confidence kab se?' 'Aapke questions ka answer dete-dete.' Woh mirror ke saamne khadi hui. 'Outfit festive hai ya overdone?' 'Aap sure hain poochhna chahti hain?' Punit ne poocha. 'Haan. Aur tum sach bolna.'",
+              "Punit ne clearly kaha ki fit balanced hai. Uske agree karne par unhone ek brief close pose hold kiya; waist ke paas ek carefully agreed touch raha, phir Taniya khud mirror se alag ho gayi. 'Theek hai. Ab kaam par waapas.' Lekin file lete waqt uske haath normal se thode warm the. Usne jaan kar kisi junior ki personal nazar maangi thi; yeh realise karke woh apni engagement ke baare mein bhi ek pal sochne lagi."
+            ]
+          },
+          {
+            "id": "E04B-PROSE-TANIYA-04",
+            "time": "20:38–20:58",
+            "title": "Guddu and the doorway mirror",
+            "status": "DRAFT_NOT_APPROVED",
+            "paragraphs": [
+              "Taniya 19:30 shift ke baad ghar pahunchi thi. Guddu ne supporting wedding pages diye. 'Aaj trolley saath nahi laaye?' Taniya ne poocha. 'Aaj toh brake lock karke chhoda hai.' Dono ki kal ki incident par seedhi hansi aayi. Soniya aur Rahul ka apna ghar ka schedule chal raha tha; unhe is exchange ka witness bana kar kuch assume nahi kiya gaya.",
+              "Entrance mirror mein Taniya ne apne chosen bridal drape ka open-back aur midriff profile check kiya. 'Ek personal favour poochhun?' Guddu ne docket band kiya. 'Boliye.' 'Mirror ke saamne look kaisa lag raha hai? Tumne itne wedding parcels dekhe hain.' Guddu ne uski taraf dekha. 'Aap toh mujhe fashion examiner bana rahi hain.' 'Haan. Kal file, aaj fashion.'",
+              "Taniya ne poocha ki kya woh ek short side-by-side frame ke liye comfortable hai. Guddu ki haan ke baad woh uske paas khadi hui. Waist line par ek brief placement, phir woh khud alag ho gayi. Kal ka forearm grip usne choose nahi kiya tha. Aaj usne apni curiosity ko challenge ke roop mein khud bola tha. Guddu ne zyada kuch claim nahi kiya—sirf 'Look suits you.' Taniya ki smile ab effortless nahi thi; woh khud apni request se unexpectedly conscious ho gayi."
+            ]
+          },
+          {
+            "id": "E04B-PROSE-TANIYA-05",
+            "time": "20:58–21:18",
+            "title": "Two sisters, separate stories",
+            "status": "DRAFT_NOT_APPROVED",
+            "paragraphs": [
+              "Guddu apna docket lekar gaya. Taniya ne bedroom mein outfit carefully fold kiya. Kal ki Guddu–Soniya ki alag exchange ka full detail use nahi maloom tha; woh uski taraf se koi conclusion nikaal kar apni feelings justify nahi karne wali thi.",
+              "Soniya ne ordinary sawal poocha, 'Wedding pages mil gaye?' 'Haan. Aur is baar bina accident,' Taniya ne kaha. Bas itna. Uska mind paperwork se hat kar ek deliberate decision par gaya—usne poocha, usne pose choose kiya, phir khud end kiya. Aditya ko bhool kar nahi, balki apni unexpected curiosity ko samajhne ki koshish mein."
+            ]
+          }
+        ],
+        "endTime": "21:18"
+      }
+    },
+    {
+      "sourcePath": "Society-Wives/episode-04b-office-chotu-jan02-five-leads.json",
+      "sourceBlobSha": "1153d95dd45cfb8bd845a31280b40ff11ae3033e",
+      "sourceDocumentStatus": "USER_REVISED_SHREYA_JAN02_ENCOUNTERS__OFFICE_AND_SOCIETY_CONTINUITY_PLOTTED__PROSE_NOT_APPROVED",
+      "sourceTitle": "Society Wives · Episode 04B · Five Office Chotu Encounters",
+      "originalTaniyaContent": {
+        "id": "taniya",
+        "name": "Taniya",
+        "office": "CA firm",
+        "chotu": {
+          "name": "Punit",
+          "age": 22,
+          "role": "CA trainee / office helper"
+        },
+        "workday": "10:30–19:30",
+        "wardrobe": "Wedding-related fitting outfit brought as a sealed personal pickup for her after-office appointment; deliberately chosen deep neckline and exposed midriff, distinct from Jan1 sky-blue shirt",
+        "lockedExposure": "Deep neckline and exposed midriff",
+        "lockedAction": "Deliberate close pose + consensual bare-waist contact",
+        "sceneIntent": "Taniya converts her audit-like teasing into an unusually personal request; the tension is that she knowingly tests someone outside her normal fiancé-and-work conversation, not a repeated file-tray accident.",
+        "scenes": [
+          {
+            "id": "E04B-TANIYA-01",
+            "number": "01",
+            "start": "10:30",
+            "end": "12:05",
+            "title": "Client reconciliation, serious CA shift",
+            "location": "CA firm workstations",
+            "characters": [
+              "Taniya",
+              "Neha",
+              "Raghav",
+              "Chirag",
+              "Punit"
+            ],
+            "beats": [
+              {
+                "id": "TA4B-01",
+                "title": "Workday carries Jan1 backlog",
+                "action": "Taniya continues CA reconciliation and wedding scheduling separately; her engagement with Aditya is not forgotten. No twins appear."
+              }
+            ],
+            "status": "LOCKED_OFFICE_CHOTU_ACTIONS__PROSE_NOT_APPROVED"
+          },
+          {
+            "id": "E04B-TANIYA-02",
+            "number": "02",
+            "start": "12:05",
+            "end": "12:22",
+            "title": "Punit's audit update",
+            "location": "Open records desk",
+            "characters": [
+              "Taniya",
+              "Punit"
+            ],
+            "beats": [
+              {
+                "id": "TA4B-02",
+                "title": "Real professional reason",
+                "action": "Punit brings corrected reconciliation totals and learns whether his figures are accepted. He already knows Taniya's working style from Jan1; no falling tray or sudden touch."
+              },
+              {
+                "id": "TA4B-03",
+                "title": "A glimpse of a different side",
+                "action": "Taniya's playful critique of his meticulous record checks catches him off guard. She notices that she enjoys being listened to by him; she doesn't ask for intimate contact while supervising work."
+              }
+            ],
+            "status": "LOCKED_OFFICE_CHOTU_ACTIONS__PROSE_NOT_APPROVED"
+          },
+          {
+            "id": "E04B-TANIYA-03",
+            "number": "03",
+            "start": "12:22",
+            "end": "17:25",
+            "title": "Client reports and deadline",
+            "location": "Audit desks / meeting rooms",
+            "characters": [
+              "Taniya",
+              "Neha",
+              "Andrea",
+              "Punit (work only)"
+            ],
+            "beats": [
+              {
+                "id": "TA4B-04",
+                "title": "Real workload, not a fake early closure",
+                "action": "Taniya remains at the CA firm with scheduled reporting and client sign-offs. A personal wedding-clothing pickup is delivered for an evening fitting appointment; no colleague is sent to fetch it as a romantic contrivance."
+              }
+            ],
+            "status": "LOCKED_OFFICE_CHOTU_ACTIONS__PROSE_NOT_APPROVED"
+          },
+          {
+            "id": "E04B-TANIYA-04",
+            "number": "04",
+            "start": "17:25",
+            "end": "17:46",
+            "title": "The bride's deliberate close pose",
+            "location": "Office private changing / non-working reception alcove",
+            "characters": [
+              "Taniya",
+              "Punit"
+            ],
+            "beats": [
+              {
+                "id": "TA4B-05",
+                "title": "A credible change of wardrobe",
+                "action": "On her personal break before an evening fitting, Taniya changes into the outfit she is collecting/trying on, with a deep neckline and exposed midriff. This is her own choice, not a wardrobe failure.",
+                "bodyParts": "Deep neckline, exposed midriff",
+                "actionName": "Deliberate neckline and midriff reveal"
+              },
+              {
+                "id": "TA4B-06",
+                "title": "The daring personal invitation",
+                "action": "Punit happens to be finishing the file sign-off in the adjacent reception area. Taniya knowingly invites his opinion on the look and proposes a brief close pose; Punit can decline without pressure.",
+                "actionName": "Deliberate close pose",
+                "reaction": "Her customary wit masks genuine curiosity about whether he sees her differently."
+              },
+              {
+                "id": "TA4B-07",
+                "title": "Chosen touch with clear agreement",
+                "action": "If Punit freely agrees to their private moment, she invites a brief bare-waist contact while they stand close, then ends it promptly. No photo taken, no kissing, no claims of future entitlement.",
+                "bodyParts": "Bare waist",
+                "actionName": "Consensual bare-waist contact",
+                "limits": "No coercion through manager/trainee hierarchy."
+              }
+            ],
+            "status": "LOCKED_OFFICE_CHOTU_ACTIONS__PROSE_NOT_APPROVED"
+          },
+          {
+            "id": "E04B-TANIYA-05",
+            "number": "05",
+            "start": "17:46",
+            "end": "19:30",
+            "title": "Complete the CA shift, no rushed return home",
+            "location": "CA office → scheduled exit",
+            "characters": [
+              "Taniya",
+              "Neha",
+              "Andrea"
+            ],
+            "beats": [
+              {
+                "id": "TA4B-08",
+                "title": "After-effect and proper exit",
+                "action": "Taniya returns to her working clothes or suitable professional cover, completes reconciliation and leaves at about 19:30 as her Jan1 shift established. Her own conflicting excitement and engagement remain distinct; society Guddu is not inserted into this office-only sequence."
+              }
+            ],
+            "status": "LOCKED_OFFICE_CHOTU_ACTIONS__PROSE_NOT_APPROVED"
+          }
+        ],
+        "secondaryEncounters": [
+          {
+            "id": "E04B-TANIYA-PAR-01",
+            "number": "P01",
+            "start": "11:06",
+            "end": "11:27",
+            "title": "Raghav and Taniya: the drawer is history",
+            "location": "CA firm audit desk",
+            "characters": [
+              "Taniya",
+              "Raghav"
+            ],
+            "beats": [
+              {
+                "id": "TAN-P01A",
+                "title": "Audit task",
+                "action": "Raghav presents a revised client discrepancy explanation. She checks his figures and stops a speculative assumption before sign-off."
+              },
+              {
+                "id": "TAN-P01B",
+                "title": "Charged acknowledgment",
+                "action": "When Raghav mentions the previous day's filing-drawer chaos, Taniya responds that he should be glad he was more reliable than the cabinet. He answers that she surprised him by trusting him, and she lets the eye contact remain a moment longer than strictly necessary.",
+                "physical": "No second collapsing drawer or waist-saving touch.",
+                "psychological": "Their new tension is both remembering the unexpected closeness, not needing a new collision."
+              }
+            ],
+            "track": "OTHER_COLLEAGUES",
+            "status": "NEW_PARALLEL_SCENE_PROPOSAL_NOT_FINAL_PROSE",
+            "continuityNote": "January 1 Raghav supported Taniya's clothed waist once; don't retell it as a fresh event."
+          },
+          {
+            "id": "E04B-TANIYA-PAR-02",
+            "number": "P02",
+            "start": "13:34",
+            "end": "13:54",
+            "title": "Neha and Raghav: a different kind of teasing",
+            "location": "Shared analytics workstation",
+            "characters": [
+              "Neha",
+              "Raghav"
+            ],
+            "beats": [
+              {
+                "id": "TAN-P02A",
+                "title": "Peer cooperation",
+                "action": "Neha needs Raghav to verify an audit-trail formula. Their work roles are comparable and they share access to the check sheet."
+              },
+              {
+                "id": "TAN-P02B",
+                "title": "Two-person flirt",
+                "action": "Neha jokes that Raghav is unusually thorough only when someone is watching. He responds that she could stay and test the theory; she deliberately keeps her chair beside his for the next five minutes while finishing the actual work.",
+                "physical": "A voluntary close-seated working interaction, no staged touch or implied couple status.",
+                "psychological": "Neha is curious whether he meant it personally and chooses not to resolve the ambiguity yet."
+              }
+            ],
+            "track": "OTHER_COLLEAGUES",
+            "status": "NEW_PARALLEL_SCENE_PROPOSAL_NOT_FINAL_PROSE",
+            "continuityNote": "Optional mutual peer interest; not an already approved romance."
+          },
+          {
+            "id": "E04B-TANIYA-PAR-03",
+            "number": "P03",
+            "start": "15:13",
+            "end": "15:34",
+            "title": "Andrea and Chirag: after yesterday's cheek peck",
+            "location": "CA firm's staff coffee corner",
+            "characters": [
+              "Andrea",
+              "Chirag"
+            ],
+            "beats": [
+              {
+                "id": "TAN-P03A",
+                "title": "Acknowledge the existing beat",
+                "action": "Andrea and Chirag review the document they solved together yesterday. Both remember that she gave him a celebratory cheek peck on January 1, which remains a single completed earlier event."
+              },
+              {
+                "id": "TAN-P03B",
+                "title": "Choice rather than a repeat kiss",
+                "action": "Andrea asks whether he thought she crossed a line. Chirag says he was surprised but not uncomfortable. She smiles, offers him her hand as a simple personal gesture after they finish the work, and he chooses to take it briefly.",
+                "physical": "Brief mutually welcomed hand clasp; absolutely no second cheek kiss or forced escalation.",
+                "psychological": "They acknowledge their separate mutual possibility without changing the office team's dynamic into a confirmed couple."
+              }
+            ],
+            "track": "OTHER_COLLEAGUES",
+            "status": "NEW_PARALLEL_SCENE_PROPOSAL_NOT_FINAL_PROSE",
+            "continuityNote": "January 1 Andrea–Chirag kiss-on-cheek is established. New scene carries that forward rather than replaying it."
+          },
+          {
+            "id": "E04B-TANIYA-PAR-04",
+            "number": "P04",
+            "start": "18:12",
+            "end": "18:34",
+            "title": "Taniya and Chirag: a different mirror",
+            "location": "CA firm closeout room",
+            "characters": [
+              "Taniya",
+              "Chirag"
+            ],
+            "beats": [
+              {
+                "id": "TAN-P04A",
+                "title": "Close of the audit",
+                "action": "Chirag asks Taniya to sign a recovered exception summary after her planned Punit break. She is visibly back in full work mode and the ledger is accurate."
+              },
+              {
+                "id": "TAN-P04B",
+                "title": "Unexpectedly personal conversation",
+                "action": "Chirag notices she seems more reflective than she did at morning's wedding jokes; she replies she can be both an exacting auditor and a woman who enjoys a compliment. Chirag offers a modest, non-invasive response and she teasingly thanks him for not sounding like a client.",
+                "physical": "No touch or secret kiss; Taniya's engagement to Aditya remains unchanged.",
+                "psychological": "Unlike with Raghav, Chirag's appeal is his restraint and candid listening."
+              }
+            ],
+            "track": "OTHER_COLLEAGUES",
+            "status": "NEW_PARALLEL_SCENE_PROPOSAL_NOT_FINAL_PROSE",
+            "continuityNote": "Don't overwrite Taniya's 19:30 established office shift end or Aditya engagement."
+          }
+        ]
+      }
+    },
+    {
+      "sourcePath": "Society-Wives/episode-04b-society-chotu-jan02-five-leads.json",
+      "sourceBlobSha": "b9dd9d9e8111937bd79ec2168769b148e2ab5eb0",
+      "sourceDocumentStatus": "SOCIETY_CHOTU_PLOT_PRESERVED__MORNING_CALLBACKS_LINKED__WORKING_PROSE_DRAFTED",
+      "sourceTitle": "Society Wives · Episode 04B · Society Chotu after office: five distinct home/society encounters",
+      "originalTaniyaContent": {
+        "id": "taniya",
+        "name": "Taniya",
+        "chotu": "Guddu",
+        "age": 23,
+        "officeExit": "19:30",
+        "societyWindow": "20:12–21:20",
+        "officeCarryover": "Punit office scene: Taniya deliberately wears a wedding-related outfit with neckline/midriff visible and invites a consensual close pose with brief waist contact. Her engagement to Aditya remains intact.",
+        "visualSignature": "A distinct home-trial bridal blouse with open-back cut, bare shoulders and midriff, paired with a drape she consciously adjusts for her own mirror evaluation; not the same office outfit.",
+        "chosenAction": "Chosen open-back + midriff presentation, and consensual side-by-side back/waist framing pose in front of the doorway mirror without copying a bridal measurement.",
+        "personalEscalation": "Taniya's normal audit sarcasm is still there, but this time she feels more nervous because the other visitor already has a separate unusual history with her sister Soniya; that hidden history is not magically known to her.",
+        "scenes": [
+          {
+            "id": "E04B-SOC-TA-01",
+            "start": "20:10",
+            "end": "20:32",
+            "title": "Late arrival at Soniya's household",
+            "location": "Taniya and Soniya's shared residence",
+            "characters": [
+              "Taniya",
+              "Soniya (home context)",
+              "Guddu (courier)"
+            ],
+            "beats": [
+              {
+                "id": "SOC-TA-01",
+                "title": "Travel is not skipped",
+                "action": "Taniya leaves the CA firm only at 19:30, then travels to society. She does not materialize at home at 19:45. Soniya and Rahul keep their independent Jan2 routines; neither is silently deleted."
+              },
+              {
+                "id": "SOC-TA-02",
+                "title": "Why Guddu returns",
+                "action": "Guddu arrives for the pre-established wedding quotation follow-up. He has a separate, unusually bold prior Jan1 Soniya encounter; Taniya does not automatically know exactly what happened. He remains professionally cautious and is not presumed eager to flirt."
+              }
+            ],
+            "track": "SOCIETY_CHOTU",
+            "status": "NEW_SOCIETY_CHOTU_PLAN_FOR_REVIEW__NOT_APPROVED_PROSE"
+          },
+          {
+            "id": "E04B-SOC-TA-02",
+            "start": "20:38",
+            "end": "20:58",
+            "title": "The bridal look she chooses to test",
+            "location": "Apartment entrance / adult-only dressing foyer, not a bedroom",
+            "characters": [
+              "Taniya",
+              "Guddu"
+            ],
+            "beats": [
+              {
+                "id": "SOC-TA-03",
+                "title": "Different from her Punit scene",
+                "action": "Taniya has changed into a home-trial wedding blouse/drape with a pronounced open-back design, bare shoulders and midriff. She pauses to evaluate the fit in the entrance mirror, knowingly remaining in the chosen look when Guddu returns rather than improvising a wardrobe fault.",
+                "bodyParts": "Bare shoulders, open back, midriff, waistline",
+                "actionName": "Deliberate back-cut reveal with midriff profile",
+                "sightline": "Adult-only entry area; no child, no nudity, no unauthorized sightline"
+              },
+              {
+                "id": "SOC-TA-04",
+                "title": "The real social test",
+                "action": "Guddu brings the actual page or a vendor update, not a fake lost object. Taniya directly asks whether the silhouette looks too formal or suitably festive. If Guddu welcomes the personal exchange, they make a single side-by-side doorway-mirror pose with his arm lightly around her side waist after a spoken check.",
+                "bodyParts": "Side waist",
+                "actionName": "Consensual side-by-side mirror pose with waist framing",
+                "limits": "He can opt out while completing courier work; no photos, kisses or groping."
+              },
+              {
+                "id": "SOC-TA-05",
+                "title": "Taniya checks herself",
+                "action": "The assertive bride-to-be expected to crack a joke, but she is privately struck by her own wish for Guddu to notice. It does not imply she forgot fiancé Aditya or suddenly knows about Soniya.",
+                "psychological": "The point is a conscious risk to her own self-image, not a revived wedding-vendor measurement gag."
+              }
+            ],
+            "track": "SOCIETY_CHOTU",
+            "status": "NEW_SOCIETY_CHOTU_PLAN_FOR_REVIEW__NOT_APPROVED_PROSE"
+          },
+          {
+            "id": "E04B-SOC-TA-03",
+            "start": "20:58",
+            "end": "21:18",
+            "title": "Sister's evening remains independent",
+            "location": "Shared household, private family areas",
+            "characters": [
+              "Taniya",
+              "Soniya (if present, location TBD)"
+            ],
+            "beats": [
+              {
+                "id": "SOC-TA-06",
+                "title": "No invented sister witness",
+                "action": "Taniya returns to her normal evening. Soniya and Rahul's actual whereabouts must be checked before prose; no fabricated accidental witness, interruption or disclosure of Soniya's earlier encounter."
+              }
+            ],
+            "track": "SOCIETY_CHOTU",
+            "status": "NEW_SOCIETY_CHOTU_PLAN_FOR_REVIEW__NOT_APPROVED_PROSE"
+          }
+        ]
+      }
+    },
+    {
+      "sourcePath": "Society-Wives/episode-04b-five-leads-prose-drafts.json",
+      "sourceBlobSha": "7bd34f31f1fe16e42ade6aa86ba4511aab8a6d8d",
+      "sourceDocumentStatus": "WORKING_PROSE_DRAFTS__NOT_AUTHOR_APPROVED",
+      "sourceTitle": "Episode 04B · 2 January · Five Veils of Desire · Full Scene Drafts",
+      "originalTaniyaContent": {
+        "id": "taniya",
+        "name": "Taniya",
+        "societyChotu": "Guddu",
+        "officeChotu": "Punit",
+        "scenes": [
+          {
+            "id": "TAN-04B-P01",
+            "start": "09:02",
+            "end": "09:13",
+            "title": "A sleeve, a strap, and no second mishap",
+            "location": "Society service counter",
+            "sourceRefs": [
+              "E04A Taniya × Guddu TS04A-02–04",
+              "EP03 wedding quotation"
+            ],
+            "lines": [
+              {
+                "kind": "narration",
+                "text": "Soniya ke ghar se office nikalne se pehle Taniya society desk par ruki. Kal trolley ne uska bag-strap kheench liya tha aur usne balance ke liye Guddu ka forearm pakda tha. Kapde nahin khise the. Koi private body view bhi nahi hua tha. Phir bhi ek ajeeb self-consciousness use yaad thi."
+              },
+              {
+                "kind": "dialogue",
+                "speaker": "Taniya",
+                "text": "Guddu, kal ke trolley ko warning de di? Main wedding papers lene aati hoon, obstacle course nahi."
+              },
+              {
+                "kind": "dialogue",
+                "speaker": "Guddu",
+                "text": "Brake lag gaya hai, madam. Aur approval sleeve aapko kal hi return kar di thi. Vendor page ka status abhi pending hai."
+              },
+              {
+                "kind": "narration",
+                "text": "Guddu ne register dikhaya—pending ka red circle. Taniya khush thi ki woh details jaanta hai. Ek pal ke liye use yaad aaya ki Soniya ne bhi kal Guddu se apne andaaz mein baat ki thi; uske exact exchange ki jaankari Taniya ko nahi thi."
+              },
+              {
+                "kind": "dialogue",
+                "speaker": "Taniya",
+                "text": "Shaam ko update mile toh message karna. Main 7:30 ke baad hi office se nikalungi."
+              },
+              {
+                "kind": "dialogue",
+                "speaker": "Guddu",
+                "text": "Noted. Is baar file bhi safe aur strap bhi."
+              },
+              {
+                "kind": "narration",
+                "text": "Taniya hansi, taxi-booking app kholi aur kaam ke liye nikal gayi. Yeh encounter short, practical aur ekdum different tha—pichhle din ke accident ka koi re-enactment nahi."
+              }
+            ],
+            "approval": "WORKING_PROSE_DRAFT_NOT_AUTHOR_APPROVED"
+          },
+          {
+            "id": "TAN-04B-P02",
+            "start": "12:05",
+            "end": "17:46",
+            "title": "The bride isn't an audit annexure",
+            "location": "CA firm, audit desk and private fitting break area",
+            "sourceRefs": [
+              "E04B-TANIYA-02",
+              "E04B-TANIYA-04",
+              "EP03 Punit known junior"
+            ],
+            "lines": [
+              {
+                "kind": "narration",
+                "text": "Subah se client reconciliation chal rahi thi. Raghav ne fresh figures explain kiye, Neha ne formula check kiya, aur Andrea-Chirag ki pichhle din ki cheek-peck wali awkwardness ab ek private joke se zyada kuch confirmed nahi thi. Punit corrected totals lekar 12:05 par aaya."
+              },
+              {
+                "kind": "dialogue",
+                "speaker": "Taniya",
+                "text": "Punit, tumhari sheet mein variance zero hai. Finally."
+              },
+              {
+                "kind": "dialogue",
+                "speaker": "Punit",
+                "text": "Aaj aap meri report reject nahi kar sakti, ma'am."
+              },
+              {
+                "kind": "dialogue",
+                "speaker": "Taniya",
+                "text": "Main shaadi kar rahi hoon, standards retire nahi kar rahi."
+              },
+              {
+                "kind": "narration",
+                "text": "Punit hansa. Usne Taniya ke neat office outfit ko appreciate karne ke bajaye figures par focus rakha. Shaam tak kaam ke beech Taniya ko yahi restraint yaad raha."
+              },
+              {
+                "kind": "narration",
+                "text": "17:25 ki scheduled personal break mein Taniya apna wedding-fitting outfit trial karne non-working staff area gayi. Deep neckline aur midriff design uska khud chuna hua tha. Punit completed handover slip ke liye reception corner tak aaya; usne koi wardrobe incident nahi dekha."
+              },
+              {
+                "kind": "dialogue",
+                "speaker": "Taniya",
+                "text": "One non-audit question, Punit. Yeh styling too much hai? Answer dena optional hai."
+              },
+              {
+                "kind": "dialogue",
+                "speaker": "Punit",
+                "text": "Aap pehli baar meri opinion par depend kar rahi hain?"
+              },
+              {
+                "kind": "narration",
+                "text": "Taniya ne mock glare diya, magar woh hans rahi thi."
+              },
+              {
+                "kind": "dialogue",
+                "speaker": "Taniya",
+                "text": "Depend? Nahi. Interested? Maybe."
+              },
+              {
+                "kind": "dialogue",
+                "speaker": "Punit",
+                "text": "I think it suits you. Aap comfortable lag rahi hain."
+              },
+              {
+                "kind": "narration",
+                "text": "Taniya ne mirror ke paas ek step liya aur poochha ki woh ek close standing pose ke liye comfortable hai ya nahi. Punit ne haan kaha. Usne waistline ke paas brief light placement allow kiya, pose ko ek second hold kiya aur pehle khud door ho gayi."
+              },
+              {
+                "kind": "narration",
+                "text": "Usne phir outfit ko suitable cover se adjust kiya, desk par wapas aayi aur sign-off complete kiya. Punit ne na dramatic reaction di na aage ke encounter ka haq samjha."
+              },
+              {
+                "kind": "thought",
+                "text": "Main normally uski mistakes dhoondhti hoon. Aaj main uski honest opinion dhoondh rahi thi. Strange."
+              },
+              {
+                "kind": "narration",
+                "text": "Taniya ne 19:30 ka office exit change nahi kiya. Reports close hui, bag shoulder par aaya, aur woh society ke liye nikli."
+              }
+            ],
+            "approval": "WORKING_PROSE_DRAFT_NOT_AUTHOR_APPROVED"
+          },
+          {
+            "id": "TAN-04B-P03",
+            "start": "20:38",
+            "end": "20:58",
+            "title": "Guddu and the unfinished quotation",
+            "location": "Soniya apartment foyer, adult-only entrance",
+            "sourceRefs": [
+              "E04B-SOC-TA-02",
+              "E04A Taniya–Guddu TS04A-03"
+            ],
+            "lines": [
+              {
+                "kind": "narration",
+                "text": "Society pahunchne mein traffic laga. Taniya ne Soniya ke ghar par bag rakha, fresh hui aur apna alag bridal home-trial blouse/drape pehna. Iska back-cut aur waistline office outfit se alag tha; yeh uski personal choice thi, kisi designer malfunction ka result nahi."
+              },
+              {
+                "kind": "narration",
+                "text": "Guddu vendor ka latest rate-sheet update lekar aaya. Missing page abhi officially incomplete thi; usne completed invoice ka drama nahin kiya. Taniya ne document dekha aur bedroom ke bajaye entrance foyer ke mirror ke paas ruki."
+              },
+              {
+                "kind": "dialogue",
+                "speaker": "Taniya",
+                "text": "Aaj koi trolley accident nahi hona chahiye."
+              },
+              {
+                "kind": "dialogue",
+                "speaker": "Guddu",
+                "text": "Maine counter se wheels hi hata diye, madam."
+              },
+              {
+                "kind": "narration",
+                "text": "Taniya hansi. Usne apne drape ko shoulder se adjust kiya, open-back design mirror mein check kiya aur knowingly Guddu ki taraf mudi."
+              },
+              {
+                "kind": "dialogue",
+                "speaker": "Taniya",
+                "text": "Ek personal question. Yeh bridal look formal lag raha hai, ya thoda daring?"
+              },
+              {
+                "kind": "dialogue",
+                "speaker": "Guddu",
+                "text": "Aap audit mein bhi seedha verdict chahti hain. Aaj answer thoda mushkil hai."
+              },
+              {
+                "kind": "dialogue",
+                "speaker": "Taniya",
+                "text": "Good. Matlab tum soch rahe ho."
+              },
+              {
+                "kind": "narration",
+                "text": "Usne side-by-side mirror pose suggest kiya, saaf kehkar ki koi photo nahi aur koi pressure nahi. Guddu ne accept kiya. Dono briefly saath khade hue; uska haath Taniya ki permission se side waist ke paas ek framing placement par aaya, aur Taniya ne khud pose khatam kar diya."
+              },
+              {
+                "kind": "narration",
+                "text": "Taniya ne mirror ke bajaye ek baar seedha Guddu ka expression dekha. Usne pehli baar openly accept kiya ki usse yeh attention chahiye tha—sirf vendor ki tareef nahi."
+              },
+              {
+                "kind": "dialogue",
+                "speaker": "Guddu",
+                "text": "Quotation page ka update main kal bhi confirm karunga."
+              },
+              {
+                "kind": "dialogue",
+                "speaker": "Taniya",
+                "text": "Aur next time bag strap check karke aana."
+              },
+              {
+                "kind": "narration",
+                "text": "Uski awaaz teasing thi, par Guddu ke jaane ke baad woh kuch der doorway par ruki. Office ki boldness aur society ki personal familiarity alag lag rahi thi."
+              }
+            ],
+            "approval": "WORKING_PROSE_DRAFT_NOT_AUTHOR_APPROVED"
+          },
+          {
+            "id": "TAN-04B-P04",
+            "start": "20:58",
+            "end": "21:18",
+            "title": "Two women, different stories",
+            "location": "Soniya's shared family flat",
+            "sourceRefs": [
+              "E04B-SOC-TA-03",
+              "E04A Soniya–Guddu independent exchange"
+            ],
+            "lines": [
+              {
+                "kind": "narration",
+                "text": "Guddu chala gaya toh Taniya ne quotation packet dining table par rakha. Soniya ki routine aur Rahul ke saath uska existing conversation alag thi. Taniya ko Guddu aur Soniya ke kal ke playful exchange ki poori details nahi thi, isliye woh unke behalf par koi conclusion nahi banati."
+              },
+              {
+                "kind": "thought",
+                "text": "Kal mera bag-strap uske haath tak mujhe le gaya tha. Aaj main khud uske saamne ruki. Dono moments same nahi hain."
+              },
+              {
+                "kind": "narration",
+                "text": "Usne Aditya ka pending wedding message dekha, reply kiya aur trial outfit carefully rakh diya. Uski engagement ek real commitment thi; personal curiosity usko erase nahi karti. Aaj ke sawal ka answer usse chhupa nahi tha: usne khud attention maangi thi."
+              }
+            ],
+            "approval": "WORKING_PROSE_DRAFT_NOT_AUTHOR_APPROVED"
+          }
+        ]
+      }
+    },
+    {
+      "sourcePath": "Society-Wives/episode-04-chotu-six-leads-review.json",
+      "sourceBlobSha": "34a96f8c390165ec05160ebac2f7bac373a553aa",
+      "sourceDocumentStatus": "SAVED_TO_UI_FOR_DISCUSSION__NOT_APPROVED_PLOT_OR_PROSE",
+      "sourceTitle": "Episode 04A/04B — Remaining Five Women · Chotu workshop",
+      "originalTaniyaContent": {
+        "id": "taniya",
+        "name": "Taniya",
+        "endJan01": "EP03 office shift closes 19:30; Guddu quotation 20:08–20:15, twins lobby 20:16–20:24, Soniya/Rahul home to approx. 21:00.",
+        "twins": "Karan–Aman Jan1 lobby incident preserved, not duplicated. Raghav–Chirag are not biological twins.",
+        "tracks": [
+          {
+            "lead": "taniya",
+            "chotu": "Punit",
+            "lane": "CA office",
+            "age": 22,
+            "setting": "Chartered-accounting office · records/filing room",
+            "twinsContext": "Raghav/Chirag are work duo, not twins. Karan/Aman's Jan1 lobby contact remains separate; neither appears at the firm.",
+            "a": {
+              "date": "2026-01-02",
+              "start": "12:05",
+              "end": "12:20",
+              "title": "The collapsing file tray",
+              "cause": "Punit opens the misaligned bottom filing tray as Taniya retrieves a reconciliation binder; the overloaded tray slips forward.",
+              "physical": "Both catch the binder together. Her hand closes over his fingers beneath its spine while his other forearm steadies the tray; their shoulders bump before they regain footing.",
+              "sightline": "Closed records aisle; hands, binder and brief shoulder collision visible, not a wardrobe incident. Nobody sees the split-second contact.",
+              "duration": "Shared grip ~3 seconds.",
+              "reaction": "Taniya initially scolds the cabinet, then recognizes the tremor in her own voice when Punit apologizes. He laughs with unexpected composure.",
+              "hook": "His corrected client totals are due before 19:30 shift end."
+            },
+            "b": {
+              "date": "2026-01-02",
+              "start": "17:25",
+              "end": "17:42",
+              "title": "The unplanned celebration she chooses",
+              "choice": "The reconciliation clears. Rather than giving a routine managerial nod, Taniya asks Punit for a spontaneous two-step victory turn in an empty meeting corner; he says yes.",
+              "physical": "She takes both his hands and initiates a single light turn, then they separate with a startled laugh.",
+              "test": "Will her usually serious junior freeze, or answer her unexpected physical playfulness?",
+              "result": "Punit confidently completes the step and jokes that she underestimates him. Taniya enjoys the surprise and feels an electric little thrill at having initiated something so unlike her desk persona.",
+              "after": "Work continues until 19:30; no new romantic claim."
+            }
+          },
+          {
+            "lead": "taniya",
+            "chotu": "Guddu",
+            "lane": "Society",
+            "age": 23,
+            "setting": "Gulmohar Heights · wedding-event vendor counter",
+            "twinsContext": "Jan1 Guddu quotation handover at 20:08–20:15 and later Karan/Aman lobby brush remain unchanged. The new physical setup belongs to Jan2 only.",
+            "a": {
+              "date": "2026-01-02",
+              "start": "20:12",
+              "end": "20:25",
+              "title": "The sliding sample frame",
+              "cause": "Guddu has the missing wedding-quotation page and a compact venue-fabric sample on a wheeled frame. A latch slips while Taniya checks the invoice.",
+              "physical": "Taniya catches the rolling bar; Guddu braces the other end. Their clothed shoulders touch as they stop the frame before it tips.",
+              "sightline": "Service sample bay; others have already cleared the counter, but no claim of secluded romance. Focus on the moving frame, shoulders and joined grip.",
+              "duration": "Brief shoulder contact ~2 seconds.",
+              "reaction": "Taniya remembers Guddu's Jan1 teasing and finds his decisive action unexpectedly attractive; he is amused by her immediate joke about quality control.",
+              "hook": "The secured frame is needed for a true side-by-side height check minutes later."
+            },
+            "b": {
+              "date": "2026-01-02",
+              "start": "20:28",
+              "end": "20:42",
+              "title": "The bride's deliberately chosen measurement",
+              "choice": "Taniya asks Guddu to hold the sample backdrop while she stands beside him and checks how its edge frames two adult silhouettes. She steps into the marked area willingly.",
+              "physical": "Her hand rests briefly on his clothed shoulder to position the banner; he holds the frame still, then both step clear when the measurement is done.",
+              "test": "Instead of waiting for a compliment, Taniya asks whether the placement makes her look more like a client or a bride.",
+              "result": "Guddu replies with cheerful, direct honesty rather than Punit's surprised composure. She feels a warm, self-conscious charge but walks home in control of the moment.",
+              "after": "No claim that the wedding or fiancé Aditya's status has changed."
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
