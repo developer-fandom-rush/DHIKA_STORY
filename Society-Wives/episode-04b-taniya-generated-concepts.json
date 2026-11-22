@@ -1,0 +1,58 @@
+{
+  "schemaVersion": "1.0",
+  "title": "Taniya Episode 04B — four generated gym visual concepts",
+  "status": "FOUR_GENERATED_IMAGES_COMMITTED_AS_SEPARATE_REPO_ASSETS",
+  "provenance": "Four previously generated in-chat images from this conversation, not the three author-embedded images in Taniya's Google Doc",
+  "display": "additional-reference-gallery",
+  "sourceGymDoc": "episode-04b-taniya-gym-source.json",
+  "sourceTextModified": false,
+  "originalDocImageCount": 3,
+  "imageCount": 4,
+  "notes": [
+    "Saved high-quality 1200px WebP optimizations of four original in-chat generated PNGs; PNG originals remain conversation attachments",
+    "Not documentary evidence of exact manuscript actions; several AI concepts show alternate trainer stance/fall geometry",
+    "Preserve all three independently imported original inline Google Doc illustrations, distinct from these four concepts"
+  ],
+  "images": [
+    {
+      "id": "TANIYA04B-GEN-01",
+      "src": "assets/episode-04b-taniya-concepts/01-assisted-stretch.webp",
+      "alt": "Taniya and Vivek in a gym during a partner-assisted lunge; visual concept, with Vivek kneeling instead of the manuscript's standing position",
+      "caption": "Assisted balance — first concept",
+      "sourceOriginalFilename": "a_crisp_realistic_cinematic_gym_scene_shot_in_br.png",
+      "sha256": "52bdd1cedea1134a4f016cb055d90e539c2be1c2eb11938ee0b4de187bb54c0f",
+      "bytes": 48494,
+      "category": "visual_concept_not_manuscript_canon"
+    },
+    {
+      "id": "TANIYA04B-GEN-02",
+      "src": "assets/episode-04b-taniya-concepts/02-fall-sequence.webp",
+      "alt": "Triptych showing a gym stretch, a surprise balance slip, and Taniya and Vivek smiling afterward; approximate concept, not the manuscript's literal mat fall",
+      "caption": "Balance slip — three-frame concept",
+      "sourceOriginalFilename": "a_three_panel_collage_style_photographic_scene_in.png",
+      "sha256": "625399f11a9689385b194a2f7dd5b85c6c80e8fc2bfe4bc0705e2e143c10045b",
+      "bytes": 62978,
+      "category": "visual_concept_not_manuscript_canon"
+    },
+    {
+      "id": "TANIYA04B-GEN-03",
+      "src": "assets/episode-04b-taniya-concepts/03-gym-triptych.webp",
+      "alt": "Three-panel concept of assisted gym stretch, near-fall and confident post-workout exchange; does not reproduce exact original prose geometry",
+      "caption": "Training progression — second triptych",
+      "sourceOriginalFilename": "a_realistic_cinematic_gym_collage_triptych_scene.png",
+      "sha256": "b12fb4bc9bc078c95551158fec54bc15eaefa629581f6561c598063776d6a7c1",
+      "bytes": 59756,
+      "category": "visual_concept_not_manuscript_canon"
+    },
+    {
+      "id": "TANIYA04B-GEN-04",
+      "src": "assets/episode-04b-taniya-concepts/04-close-training.webp",
+      "alt": "Close photographic concept of Taniya holding Vivek's shoulders during a balance exercise with gym equipment behind them",
+      "caption": "Close balance exercise — fourth concept",
+      "sourceOriginalFilename": "a_realistic_cinematic_gym_scene_a_close_detaile.png",
+      "sha256": "e91f5440dbbe37663d400cc9b6491226856e70f8af83babb3d077b488ef437ee",
+      "bytes": 53450,
+      "category": "visual_concept_not_manuscript_canon"
+    }
+  ]
+}
