@@ -8,7 +8,7 @@
     "ankita": {
       "name": "Ankita",
       "source": "episode-04b-ankita-scene01-source.json; episode-04b-ankita-scene02-source.json; episode-04b-ankita-scene03-rohit-source.json",
-      "publicationStatus": "READER_COMPLETE__EDITORIAL_FREEZE_SEPARATE",
+      "publicationStatus": "READER_COMPLETE__FOUR_AUTHOR_DOC_IMAGES_IMPORTED__EDITORIAL_FREEZE_SEPARATE",
       "publishedSceneIds": [
         "01",
         "02",
@@ -16,7 +16,8 @@
       ],
       "originalImageCount": 4,
       "imageManifest": "ankita-04b-image-import.json",
-      "imageScope": "Original Ankita 04B Google Doc illustrations only, at B01/B06/scene transitions."
+      "imageScope": "Original Ankita 04B Google Doc illustrations only, at B01/B06/scene transitions.",
+      "imageImportStatus": "COMPLETED__FOUR_ORIGINAL_FILES_PRESENT"
     },
     "shreya": {
       "name": "Shreya",
