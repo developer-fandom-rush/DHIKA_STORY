@@ -1,7 +1,7 @@
 import { assetUrl, openPage, useData } from './lib';
 
 type Idea={
- id:string;lead:string;workingTitle:string;priority:string;approval:string;
+ id:string;lead:string;workingTitle:string;priority:string;approval:string;archivePath?:string;
  premise?:string;briefScene?:string;purpose?:string;actionLabel?:string;authorDirection?:string;
  userDirection?:string;currentStoryLock?:string;nextAction?:string;dateStatus?:string;
  prohibitedForCurrentScene?:string[];noLock?:string[];
@@ -73,6 +73,7 @@ export default function FutureReference({lead='ankita'}:{lead?:string}){
    {ownIdeas.map(idea=><details className="episode-outline" id={idea.id} key={idea.id} open={idea.id==='FI-SHIVANI-KARAN-AMAN-DEFERRED-SQUEEZE-01'}>
     <summary><strong>{idea.workingTitle}</strong> · {idea.lead}</summary>
     <p className="muted"><strong>Status:</strong> {humanStatus(idea.approval)}</p>
+    {idea.archivePath&&<p><a className="button subtle" href={'https://github.com/developer-fandom-rush/DHIKA_STORY/blob/main/Society-Wives/'+idea.archivePath} target="_blank" rel="noopener noreferrer">Open full original archived plot and prose</a></p>}
     {idea.purpose&&<p><strong>Purpose:</strong> {idea.purpose}</p>}
     {idea.briefScene&&<p><strong>Proposal:</strong> {idea.briefScene}</p>}
     {idea.premise&&<p><strong>Proposal:</strong> {idea.premise}</p>}
