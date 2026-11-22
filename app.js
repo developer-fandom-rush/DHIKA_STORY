@@ -231,10 +231,17 @@ function network(){
 async function start(){
  try{
   const [response,pairResponse]=await Promise.all([fetch("./data/corpus.json",{cache:"no-cache"}),fetch("./data/pair_evidence_v2.json",{cache:"no-cache"})]);
-  if(!response.ok||!pairResponse.ok)throw Error("Archive HTTP "+response.status+" / pair index HTTP "+pairResponse.status);
-  const [data,pairs]=await Promise.all([response.json(),pairResponse.json()]);
-  PAIR_INDEX=pairs;
-  if(pairs.summary.paragraphs!==10450||Object.keys(pairs.pairs).length!==210)throw Error("Relationship index integrity check failed");
+  // Episode reading requires only corpus.json. An optional pair index outage
+  // must never prevent readers from opening original episodes.
+  if(!response.ok)throw Error("Archive HTTP "+response.status);
+  const data=await response.json();
+  if(pairResponse.ok){
+   try{
+    const pairs=await pairResponse.json();
+    if(pairs.summary?.paragraphs===10450&&Object.keys(pairs.pairs||{}).length===210)PAIR_INDEX=pairs;
+    else console.warn("Pair index integrity check failed; original episodes remain available");
+   }catch(error){console.warn("Pair index parse failed; original episodes remain available",error);}
+  }else console.warn("Pair index HTTP "+pairResponse.status+"; original episodes remain available");
   library=parseArchive(data);
   if(library.length!==41)throw Error("Incomplete archive: "+library.length+" episodes");
   el("loading").classList.add("hidden");el("search-view").classList.remove("hidden");
