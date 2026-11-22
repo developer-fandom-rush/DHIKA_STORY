@@ -824,16 +824,6 @@
       "notes": "Original new-universe Atlas roster, subject to user refinements"
     },
     {
-      "id": "javed",
-      "name": "Javed",
-      "age": 22,
-      "role": "Police station office support",
-      "group": "office",
-      "house": "shreya",
-      "sourceStatus": "CURRENT_ATLAS",
-      "notes": "Original new-universe Atlas roster, subject to user refinements"
-    },
-    {
       "id": "rohas",
       "name": "Rohas",
       "age": 24,
@@ -1213,13 +1203,13 @@
     },
     {
       "id": "shreya_station_chotu",
-      "name": "Chotu (station chai wala)",
+      "name": "Keshav (Station Chotu)",
       "age": 23,
-      "role": "Police-station canteen and tea service helper — Episode03 proposed recurring character",
+      "role": "Police-station service assistant: staff tea counter and authorized office support/file runner",
       "group": "office",
       "house": "shreya",
-      "sourceStatus": "USER_REQUESTED_EP03_NEW_CHARACTER_ROLE_2026_11_16; NAME_AGE_PROVISIONAL",
-      "notes": "Distinct from society-security Chintu (23) and station office support Javed. Adult age 23 proposed for planning; full personal name and background not established. Serves tea in station canteen/public counter or authorized break area, not evidence-interview room. Familiarity with Shreya is a PROPOSED brief backstory, not an earlier published meeting."
+      "sourceStatus": "AUTHOR_DIRECTED_NAME_AND_ROLE_2026_11_22__FUTURE_CANON",
+      "notes": "User removed Javed from active character roster on 2026-11-22. Keshav, known at the station as Chotu, takes the former office-support/file-delivery duties alongside preparing/serving strong chai. He may deliver authorized packets/administrative files but does not independently access confidential evidence or chain-of-custody materials. Distinct from Society security helper Chintu (23). Shreya's prior published Episode 03 strong-chai dialogue establishes basic familiarity; the personal name Keshav is newly chosen, not mentioned in the approved older dialogue. Preserve already approved historical Reading scenes as archival text until separate author instruction to retcon."
     }
   ],
   "relations": [
@@ -3024,6 +3014,16 @@
     "rahul": "Raj-like contrast upon future return (polite/reserved), without imported events.",
     "weddingResponsibility": "Soniya handles Taniya–Aditya wedding preparations; Soniya and Rahul eventually leave home for this purpose.",
     "flatDuringAbsence": "Taniya minds the flat; departure/return schedules remain open.",
-    "source": "Author direction 21 Nov 2026; original Sharmi and Raj characterization verified against Dhika complete archive."
+    "source": "Author direction 21 Nov 2026; original Sharmi and Raj characterization verified against Dhika complete archive.",
+    "shreyaStationChotu20261122": {
+      "id": "shreya_station_chotu",
+      "name": "Keshav",
+      "nickname": "Chotu",
+      "role": "tea service + authorized office support",
+      "javed": "RETIRED_FROM_ACTIVE_CANON__DO_NOT_APPEAR_IN_NEW_EPISODES",
+      "prosePolicy": "No automatic rewriting of approved historical EP01/EP03 text; Keshav now performs future file runner work.",
+      "shreyaWorkContext": "Office team only 3–4 serious greeting/briefing lines, no group flirtation today; focus Shreya × Keshav cabin accident first, deliberate second encounter pending author review.",
+      "wardrobe": "Do not replicate one-button experiment; SC01 intact khaki uniform."
+    }
   }
 }
