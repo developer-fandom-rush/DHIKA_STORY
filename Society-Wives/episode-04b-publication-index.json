@@ -13,7 +13,10 @@
         "01",
         "02",
         "03"
-      ]
+      ],
+      "originalImageCount": 4,
+      "imageManifest": "ankita-04b-image-import.json",
+      "imageScope": "Original Ankita 04B Google Doc illustrations only, at B01/B06/scene transitions."
     },
     "shreya": {
       "name": "Shreya",

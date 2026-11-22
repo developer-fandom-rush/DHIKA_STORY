@@ -35,5 +35,7 @@
   "completionScope": "Ankita's narrative Episode 04B ends. Individual draft prose approvals, if required, are separate; do not append new after-office incidents to this episode.",
   "nextActivePlanning": "episode-05-ankita-plan.json",
   "olderMergedAndOfficePlotSources": "Historical draft proposals, superseded as active Ankita 04B plot. Keep them only as archived references; other leads' plans unaffected.",
-  "imagePolicy": "No images or image references in Ankita 04B published data."
+  "imagePolicy": "Import four original author-provided Google Doc illustrations only, at their exact 04B section boundaries; do not generate or substitute images.",
+  "originalImageCount": 4,
+  "imageManifest": "ankita-04b-image-import.json"
 }

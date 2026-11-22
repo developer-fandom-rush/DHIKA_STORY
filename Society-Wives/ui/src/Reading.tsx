@@ -301,11 +301,14 @@ type Ep04BScene03={title:string;sections:{id:string;time:string;title:string;lin
 
 // Ankita Episode 04B closes at 14:40 on Friday 2 January 2026.
 // Read Story displays all three manuscript scenes; the next active work is Episode 05 planning.
-// Author's inline story text is preserved, and no illustration assets or reference galleries are rendered.
+// Author's inline story text is preserved, and four original author Google Doc illustrations render at their section boundaries.
+type Ep04BAnkitaImageManifest={status:string;images:{objectId:string;placement:string;asset?:string|null;alt?:string}[]};
 function Episode04BAnkitaReading({scene}:Props){
  const {data:scene01,loading:loading01,error:error01}=useData<Ep04BSource>('episode-04b-ankita-scene01-source.json');
  const {data:scene02,loading:loading02,error:error02}=useData<Ep04BScene02>('episode-04b-ankita-scene02-source.json');
  const {data:scene03,loading:loading03,error:error03}=useData<Ep04BScene03>('episode-04b-ankita-scene03-rohit-source.json');
+ const {data:ankitaImages}=useData<Ep04BAnkitaImageManifest>('ankita-04b-image-import.json');
+ const imageAt=(position:string)=>(ankitaImages?.images||[]).filter(x=>x.placement===position&&x.asset).map(x=><figure key={x.objectId} className="ep04-shreya-inline-image" style={{margin:'24px auto',maxWidth:'760px',textAlign:'center'}}><img loading="lazy" src={assetUrl(x.asset!)} alt={x.alt||'Ankita Episode 04B original source illustration'} style={{display:'block',width:'100%',height:'auto',borderRadius:'12px'}}/></figure>);
  const selected=scene==='02'||scene==='03'?scene:'01';
  const order=['01','02','03'];
  const index=order.indexOf(selected);
@@ -319,6 +322,7 @@ function Episode04BAnkitaReading({scene}:Props){
   </header>
   <div className="perspective-tabs" role="group" aria-label="Episode 04B published character">
    <button type="button" className="selected" aria-pressed="true" onClick={()=>go('01')}>Ankita</button>
+   <button type="button" onClick={()=>openPage('reading',{episode:'04B',character:'shreya',scene:'01'})}>Shreya</button>
   </div>
   <div className="reader-layout">
    <aside className="scene-sidebar"><p className="aside-title">Ankita · Episode 04B</p>
@@ -332,15 +336,17 @@ function Episode04BAnkitaReading({scene}:Props){
     {selected==='01'&&scene01&&<>
      <div className="story-toolbar"><span>Ankita · Scene 01 of 03 · Rinku</span></div>
      <div className="ep03-scene-intro"><h2>{scene01.title}</h2><p>03:00–07:30 · Author Google Doc with tracked B06 reaction addendum</p></div>
-     {scene01.sections.map(section=><section className="ep03-beat" key={section.id} id={'ep04b-'+section.id.toLowerCase()}>
+     {scene01.sections.map(section=><Fragment key={section.id}>{section.id==='B06'&&imageAt('before:B06')}<section className="ep03-beat" id={'ep04b-'+section.id.toLowerCase()}>
       <div className="ep03-beat-heading"><strong>{section.id} · {section.title}</strong></div>
       <p className="ep03-time">{section.time}</p>
       {section.paragraphs.map((text,i)=><p key={i} className="ep03-paragraph" style={{whiteSpace:'pre-line'}}>{storyInline(text)}</p>)}
-     </section>)}
+      {section.id==='B01'&&imageAt('after:B01')}
+     </section></Fragment>)}
     </>}
     {selected==='02'&&scene02&&<>
      <div className="story-toolbar"><span>Ankita · Scene 02 of 03 · Home-to-office</span></div>
      <div className="ep03-scene-intro"><h2>{scene02.title}</h2><p>07:30–09:00 · Text from author's Episode 04B Google Doc</p></div>
+     {imageAt('before:scene02')}
      {scene02.sections.map(section=><section className="ep03-beat" key={section.id} id={'ep04b-'+section.id.toLowerCase()}>
       <div className="ep03-beat-heading"><strong>{section.title}</strong><small>{section.time}</small></div>
       {section.paragraphs.map((text,i)=><p key={i} className="ep03-paragraph" style={{whiteSpace:'pre-line'}}>{storyInline(text)}</p>)}
@@ -349,6 +355,7 @@ function Episode04BAnkitaReading({scene}:Props){
     {selected==='03'&&scene03&&<>
      <div className="story-toolbar"><span>Ankita · Scene 03 of 03 · Rohit</span></div>
      <div className="ep03-scene-intro"><h2>{scene03.title}</h2><p>09:00–14:40 · Author's R-G1/R-G2 inserts retained · Working prose</p></div>
+     {imageAt('before:scene03')}
      {scene03.sections.map(section=><section className="ep03-beat" key={section.id} id={'ep04b-'+section.id.toLowerCase()}>
       <div className="ep03-beat-heading"><strong>{section.title}</strong><small>{section.time}</small></div>
       {section.lines.map((line,i)=>{
