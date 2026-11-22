@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "lead": "ankita",
+  "episode": "04B",
+  "status": "AUTHOR_DECLARED_EPISODE_04B_ENDED_AT_14_40__THREE_SCENES_PUBLISHED",
+  "date": "2026-01-02",
+  "lastClock": "14:40",
+  "endEvent": "Ankita leaves the Cyber City office following the Rohit encounter.",
+  "scenes": [
+    {
+      "id": "01",
+      "title": "Rinku · Morning at Home",
+      "source": "episode-04b-ankita-scene01-source.json",
+      "time": "03:00–07:30",
+      "published": true,
+      "authorSource": "Google Doc tab t.ouch4dqht9mi; tracked B06 editorial afterbeat"
+    },
+    {
+      "id": "02",
+      "title": "The Morning She Skipped",
+      "source": "episode-04b-ankita-scene02-source.json",
+      "time": "07:30–09:00",
+      "published": true,
+      "authorSource": "Google Doc tab t.ouch4dqht9mi"
+    },
+    {
+      "id": "03",
+      "title": "Rohit Babu — The First Look",
+      "source": "episode-04b-ankita-scene03-rohit-source.json",
+      "time": "09:00–14:40",
+      "published": true,
+      "authorSource": "Chat-authored working prose with user-supplied R-G1/R-G2 inserts"
+    }
+  ],
+  "completionScope": "Ankita's narrative Episode 04B ends. Individual draft prose approvals, if required, are separate; do not append new after-office incidents to this episode.",
+  "nextActivePlanning": "episode-05-ankita-plan.json",
+  "olderMergedAndOfficePlotSources": "Historical draft proposals, superseded as active Ankita 04B plot. Keep them only as archived references; other leads' plans unaffected.",
+  "imagePolicy": "No images or image references in Ankita 04B published data."
+}
