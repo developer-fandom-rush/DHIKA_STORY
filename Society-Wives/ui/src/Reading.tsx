@@ -423,8 +423,10 @@ type Ep04BTaniyaSource={
  scenes:{id:string;title:string;date:string;time:string;location:string;status:string;blocks:Ep04BTaniyaBlock[]}[];
  editorialFlags?:{issue:string;sourceContext:string;status:string}[];
 };
+type Ep04BTaniyaConcepts={title:string;status:string;imageCount:number;images:{id:string;src:string;alt:string;caption:string;category:string}[]};
 function Taniya04BReading({scene}:Props){
  const {data,loading,error}=useData<Ep04BTaniyaSource>('episode-04b-taniya-gym-source.json');
+ const {data:concepts,error:conceptsError}=useData<Ep04BTaniyaConcepts>('episode-04b-taniya-generated-concepts.json');
  const scenes=data?.scenes||[];
  const selected=scenes.find(s=>s.id===scene)||scenes[0];
  const index=scenes.findIndex(s=>s.id===selected?.id);
@@ -452,6 +454,19 @@ function Taniya04BReading({scene}:Props){
    {selected&&<>
     <div className="story-toolbar"><span>Taniya · Scene {selected.id} of {scenes.length} · AUTHOR MANUSCRIPT · REVIEW PENDING</span></div>
     <div className="ep03-scene-intro"><h2>{selected.title}</h2><p>{selected.date} · {selected.time} · {selected.location}</p></div>
+    {concepts&&concepts.images.length>0&&<section className="episode-plan-card" id="taniya-04b-generated-gym-gallery" style={{margin:'18px 0 28px'}}>
+     <h3>Four previously generated gym images · Visual references</h3>
+     <p className="muted">These are the four images generated in this chat, now saved as permanent GitHub assets. They are additional concepts—not the three inline images supplied in the author's Google Doc, and not exact evidence for every action or position in the manuscript.</p>
+     <div style={{display:'grid',gridTemplateColumns:'repeat(auto-fit,minmax(240px,1fr))',gap:'16px'}}>
+      {concepts.images.map(img=><figure key={img.id} style={{margin:0}}>
+       <a href={assetUrl(img.src)} target="_blank" rel="noopener noreferrer" aria-label={'Open '+img.caption+' full size'}>
+        <img loading="lazy" src={assetUrl(img.src)} alt={img.alt} style={{display:'block',width:'100%',height:'auto',borderRadius:'10px'}}/>
+       </a>
+       <figcaption className="muted" style={{fontSize:'13px',marginTop:'6px'}}>{img.caption}</figcaption>
+      </figure>)}
+     </div>
+    </section>}
+    {conceptsError&&<p role="status" className="source-note">Additional generated gym images are temporarily unavailable. The original Doc images and story are still preserved.</p>}
     {selected.blocks.map((b,i)=>b.type==='image'
       ?<figure key={'source-illustration-'+(b.inlineObjectId||i)} className="ep04-shreya-inline-image" style={{margin:'22px auto',maxWidth:'760px',textAlign:'center'}}>
          {b.asset?<a href={assetUrl(b.asset)} target="_blank" rel="noopener noreferrer"><img loading="lazy" src={assetUrl(b.asset)} alt={b.alt||'Taniya 04B original Doc illustration'} style={{display:'block',width:'100%',height:'auto',borderRadius:'12px'}}/></a>:<p className="source-note">Original source illustration is being imported (ID {b.inlineObjectId}).</p>}
