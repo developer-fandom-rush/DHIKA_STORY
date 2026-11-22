@@ -302,7 +302,7 @@ type Ep04BScene03={title:string;sections:{id:string;time:string;title:string;lin
 // Ankita Episode 04B closes at 14:40 on Friday 2 January 2026.
 // Read Story displays all three manuscript scenes; the next active work is Episode 05 planning.
 // Author's inline story text is preserved, and no illustration assets or reference galleries are rendered.
-function Episode04BReading({scene}:Props){
+function Episode04BAnkitaReading({scene}:Props){
  const {data:scene01,loading:loading01,error:error01}=useData<Ep04BSource>('episode-04b-ankita-scene01-source.json');
  const {data:scene02,loading:loading02,error:error02}=useData<Ep04BScene02>('episode-04b-ankita-scene02-source.json');
  const {data:scene03,loading:loading03,error:error03}=useData<Ep04BScene03>('episode-04b-ankita-scene03-rohit-source.json');
@@ -368,6 +368,48 @@ function Episode04BReading({scene}:Props){
    </article>
   </div>
  </main>;
+}
+
+type Ep04BShreyaBlock={type:'text'|'image';text?:string;inlineObjectId?:string;sourceElementIndex?:number;asset?:string|null;alt?:string};
+type Ep04BShreyaSource={status:string;imageStatus:string;source:{url:string;tabTitle:string};scenes:{id:string;title:string;time:string;location:string;blocks:Ep04BShreyaBlock[]}[]};
+function Shreya04BReading({scene}:Props){
+ const {data,loading,error}=useData<Ep04BShreyaSource>('episode-04b-shreya-source.json');
+ const scenes=data?.scenes||[];
+ const selected=scenes.find(s=>s.id===scene)||scenes[0];
+ const index=scenes.findIndex(s=>s.id===selected?.id);
+ const go=(id:string)=>openPage('reading',{episode:'04B',character:'shreya',scene:id});
+ return <main className="page-width ep04-final-reader" id="episode04b-shreya-reader">
+  <header className="section-intro"><span className="eyebrow">The Story · Friday, 2 January 2026</span><h1>Shreya · Episode 04B</h1>
+   <p>Author's Shreya 4B Google Doc · read in exact source order · working manuscript, not final frozen.</p>
+  </header>
+  <div className="perspective-tabs" role="group" aria-label="Episode 04B published character">
+   <button type="button" onClick={()=>openPage('reading',{episode:'04B',character:'ankita',scene:'01'})}>Ankita</button>
+   <button type="button" className="selected" aria-pressed="true" onClick={()=>go('01')}>Shreya</button>
+  </div>
+  <p className="source-note">Original manuscript: <a href={data?.source.url||'https://docs.google.com/document/d/1zcFlF9rWeIzaenBEmatt4K8bw3L-LcH3c_45JwoNM3o/edit?tab=t.xr77c5bqwj1p'} target="_blank" rel="noopener noreferrer">Shreya 4B Google Doc</a>. Text and source illustrations are placed in document order. Editorial approval/freeze is separate.</p>
+  {loading&&<p role="status">Loading Shreya Episode 04B…</p>}
+  {error&&<p role="alert" className="error">Shreya 04B source unavailable: {error}</p>}
+  {data&&<div className="reader-layout">
+   <aside className="scene-sidebar"><p className="aside-title">Shreya · Episode 04B</p>
+    {scenes.map((s,i)=><button key={s.id} className={'scene-link'+(selected?.id===s.id?' active':'')} aria-pressed={selected?.id===s.id} type="button" onClick={()=>go(s.id)}><span>Scene {s.id}<small className="ep03-scene-name">{s.title}</small></span></button>)}
+    <button type="button" className="button subtle ep03-planning-link" onClick={()=>openPage('planning',{lead:'shreya'})}>Continue Shreya planning →</button>
+   </aside>
+   <article className="reading-surface source-scene prose-exact">
+    {selected&&<><div className="story-toolbar"><span>Shreya · Scene {selected.id} of {scenes.length}</span></div>
+     <div className="ep03-scene-intro"><h2>{selected.title}</h2><p>{selected.time} · {selected.location}</p></div>
+     {selected.blocks.map((b,i)=>b.type==='image'
+       ?<figure key={'image-'+(b.inlineObjectId||i)} className="ep04-shreya-inline-image" style={{margin:'24px auto',maxWidth:'760px',textAlign:'center'}}>
+          {b.asset?<img loading="lazy" src={assetUrl(b.asset)} alt={b.alt||'Shreya Episode 04B source illustration'} style={{display:'block',width:'100%',height:'auto',borderRadius:'12px'}}/>:<p className="source-note">Original Google Doc illustration {b.inlineObjectId} · asset import pending</p>}
+        </figure>
+       :b.type==='text'&&b.text?.trim()?<p key={'text-'+i} className="ep03-paragraph" style={{whiteSpace:'pre-wrap'}}>{b.text.replace(/\u000b/g,'\n').trimEnd()}</p>:null)}
+     <div className="chapter-controls"><button type="button" className="button subtle" disabled={index<=0} onClick={()=>go(scenes[index-1].id)}>← Previous scene</button><span>Scene {index+1} of {scenes.length}</span><button type="button" className="button primary" disabled={index>=scenes.length-1} onClick={()=>go(scenes[index+1].id)}>Next scene →</button></div>
+    </>}
+   </article>
+  </div>}
+ </main>;
+}
+function Episode04BReading(props:Props){
+ return props.character==='shreya'?<Shreya04BReading {...props}/>:<Episode04BAnkitaReading {...props}/>;
 }
 
 export default function Reading(props:Props){
