@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "SW-EP05-ANKITA-PLANNING",
+  "title": "Ankita · Episode 05 — Planning after 04B closure",
+  "lead": "ankita",
+  "episode": "05",
+  "status": "DISCUSSION_OPEN__NO_EP05_SCENE_PROSE_APPROVED",
+  "storyDate": "NOT_LOCKED",
+  "previous": {
+    "episode": "04B",
+    "date": "2026-01-02",
+    "time": "14:40",
+    "event": "Ankita leaves Cyber City office early after two Rohit encounters.",
+    "status": "AUTHOR_DECLARED_EP04B_END"
+  },
+  "dhikaSource": {
+    "title": "EP 05 — Dhika catches Uncle",
+    "documentId": "1CSST1VjhIivB1X2pPM93JEHhTJAjyiV0nLCOnMXKbIA",
+    "tabId": "t.3t2zibt2d6e8",
+    "sourceEventOrder": "John homecoming -> relationship backstory -> Sunday family visit -> outfit decision -> older man's inappropriate interest during lunch -> private underwear intrusion -> Dhika catches him -> shock/cliffhanger",
+    "adaptationRule": "Use narrative functions, not literal character transplants or assumptions."
+  },
+  "comparison": [
+    {
+      "id": "D05-01",
+      "sourceBeat": "John returns home tired; Dhika feels conflicted after Chotu",
+      "ankitaCoverage": "PARTIAL",
+      "already": "Kabir returned exhausted at 03:00 on Friday and promised an earlier return. Ankita's private excitement from Rinku/Rohit has been narrated.",
+      "left": "Ankita has left office at 14:40; no Friday-evening Kabir reunion or response has yet been written."
+    },
+    {
+      "id": "D05-02",
+      "sourceBeat": "John and Dhika marital backstory explains Dhika's conservative self-image, John's confidence and encouragement",
+      "ankitaCoverage": "DIFFERENT_BASELINE",
+      "already": "Ankita's self-directed boldness is established in EP03 office, Friday Rinku and Rohit encounters; she is not Dhika's shy beginner.",
+      "left": "If her marriage with Kabir is revisited, characterize their own dynamic instead of copying John."
+    },
+    {
+      "id": "D05-03",
+      "sourceBeat": "Sunday invitation to Aunty and Uncle's house with family; clothing suggestion before going",
+      "ankitaCoverage": "NOT_STAGED",
+      "already": "Ankita's 02 Jan Friday outfit and earlier societal relationships are established.",
+      "left": "No corresponding Sunday invitation, hosting couple or visit is canon. Wardrobe for an upcoming visit is undecided."
+    },
+    {
+      "id": "D05-04",
+      "sourceBeat": "Uncle's glances at Dhika during lunch; John notices, Dhika unaware",
+      "ankitaCoverage": "THEMATIC_SEEDS_ONLY",
+      "already": "Elders' one-sided attention and Gopal's changed behavior appear in earlier Ankita story. Kabir has no confirmed knowledge of the parcel tampering.",
+      "left": "Choose exact observer, host, time and who knows what; do not import John's knowledge into Kabir."
+    },
+    {
+      "id": "D05-05",
+      "sourceBeat": "Uncle enters private house on pretext of fetching an item and interferes with Dhika's personal clothing without permission",
+      "ankitaCoverage": "SEPARATE_PRIOR_SECRET_ALREADY_OCCURRED",
+      "already": "In Ankita EP02's P01–P08 reader-only parcel chain, Gopal and several individual older men breached privacy; Rajeev later took custody of what remained.",
+      "left": "Ankita has not discovered the parcel tampering. Any new intrusion must be separately motivated; the existing secret is a possible discovery thread, not something she witnessed."
+    },
+    {
+      "id": "D05-06",
+      "sourceBeat": "Dhika follows Uncle, discovers what he is doing, and freezes in shock",
+      "ankitaCoverage": "NOT_OCCURRED",
+      "already": "Ankita knows Rajeev has her parcel from the earlier tracking conversation; she does not know the contents were interfered with.",
+      "left": "Determine whether Episode 05's key turn is learning about parcel discrepancies, witnessing a privacy violation, or a different grounded discovery. The named responsible person and location must be chosen first."
+    }
+  ],
+  "continuityLocks": [
+    "Episode 04B ends at Friday 2 January 2026, 14:40. No evening continuation is part of 04B.",
+    "Rinku's evening filter-part update is outstanding, not automatically fulfilled.",
+    "Kabir's promised early return on Friday is outstanding; exact return is unwritten.",
+    "Karan's 20 push-ups challenge was discussed for Friday evening at breakfast; author wants it deferred to Saturday Jan 3 only when the evening scene is written, not retroactively promised in the morning.",
+    "Aman has promised to send Java/backend interview questions on Friday, follow-up unverified.",
+    "Rajeev is socially called Uncle but not Ankita's father-in-law. His parcel custody is known to Ankita, not the earlier private chain.",
+    "Gopal's EP02 parcel breach and separate older men's private removals are reader knowledge only, not Ankita's.",
+    "Vivan/Reyansh/Sana/Aishwarya post-party sleeping arrangement has UNKNOWN details; no new inference.",
+    "No images or image references in this planning page."
+  ],
+  "openDecisions": [
+    {
+      "id": "EP05-Q1",
+      "question": "First Episode 05 anchor?",
+      "options": [
+        "Friday Jan 2 after Ankita leaves office at 14:40",
+        "Saturday Jan 3, including deferred gym challenge",
+        "Sunday Jan 4, adapting Dhika's visit-day rhythm"
+      ],
+      "status": "DISCUSS_BEFORE_LOCK"
+    },
+    {
+      "id": "EP05-Q2",
+      "question": "What is the main secret-discovery mechanism?",
+      "options": [
+        "Gopal-specific clue to the breached delivery",
+        "Rajeev's retained parcel and unexplained missing contents",
+        "One precisely named elder's item leads to discovery",
+        "A different author-chosen incident"
+      ],
+      "status": "DISCUSS_BEFORE_LOCK"
+    },
+    {
+      "id": "EP05-Q3",
+      "question": "Should the husband/family beat precede the mystery?",
+      "options": [
+        "Kabir homecoming contrast and normal household rhythm",
+        "Short bridge only; go directly to the discovery set-up"
+      ],
+      "status": "DISCUSS_BEFORE_LOCK"
+    }
+  ],
+  "episode05ScenePlan": [],
+  "notes": "Planning index only, deliberately no new prose, witness assignments or discovery outcome invented. Other leads' Episode 04 planning unchanged."
+}
