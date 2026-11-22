@@ -1,0 +1,194 @@
+{
+  "schemaVersion": 1,
+  "id": "SW-EP05-SHREYA-DHIKA-ALIGNED-TRANSITION",
+  "lead": "shreya",
+  "episode": "05",
+  "status": "AUTHOR_DIRECTION_CAPTURED__DISCUSSION_PLOT_ONLY__NOT_PROSE__NOT_FROZEN",
+  "title": "Shreya · Homecoming, marriage and Chintu's second choice",
+  "dateRange": [
+    "2026-01-02",
+    "2026-01-03"
+  ],
+  "references": {
+    "sourceShreya04B": "episode-04b-shreya-source.json",
+    "originalDhikaSource": "data/corpus.json",
+    "originalDhikaTimeline": "ui/src/data/dhika-universal-timeline.json",
+    "priorShreyaChintuWorkingDraft": "episode-04b-society-chotu-jan02-five-leads.json",
+    "sourceLastPublishedBeat": "Friday Jan 02, Shreya is at station after Keshav's chai incident; the published source has no departure or home return yet.",
+    "originalDhikaEp04Cutpoint": "2026-01-02 morning, Episode 04 P0088–P0146",
+    "originalDhikaEp05Beat1": "2026-01-02 ~18:00, John comes home, Episode 05 P0008–P0028",
+    "originalDhikaEp05Beat2": "2026-01-03 morning, family visit sequence, Episode 05 P0029–P0088",
+    "originalStoryCaution": "Dhika/John plot belongs to original Dhika universe; Shreya/Vikram/Anaya belong to Society Wives. Use the narrative rhythm and shared calendar anchor, not swapped identities, cloned intimate incidents, or an assumption their households share actions."
+  },
+  "direction": {
+    "authorRequested": "Send Shreya home after the current station 04B material; include husband-wife romance and consensual off-screen intimacy with Vikram; map to original Dhika EP05's Jan2 evening–Jan3 morning span; only after the original Dhika EP05 concludes, stage one private second deliberate encounter with society Chintu, including a mutually chosen kiss.",
+    "prosePolicy": "Planning beats only. No erotic explicitness; if prose follows, intimate married moment fades to black, and Chintu interaction is non-graphic.",
+    "approval": "Sequence is author-specified; precise clock times, household absence, body presentation and Chintu kiss staging remain proposed until discussed."
+  },
+  "scenes": [
+    {
+      "id": "SR04B-BRIDGE-03",
+      "part": "04B closing bridge",
+      "date": "2026-01-02",
+      "time": "Afternoon to early evening; exact shift-end unconfirmed",
+      "title": "Station closure and a credible trip home",
+      "setting": "Gurgaon Police Station → Gulmohar Heights",
+      "status": "PLOT_ONLY__UNWRITTEN",
+      "participants": [
+        "Shreya",
+        "Poonam or desk colleague (functional only)"
+      ],
+      "beats": [
+        "Resume from the last saved Keshav incident without replaying the hot-tea accident or making the station helper into society Chintu.",
+        "Treat the hot tea spill and her response seriously; check any burn/discomfort and allow her to change into a clean appropriate outer layer before continuing duty.",
+        "Complete pending case-file handoff and notify colleagues; do not invent a hidden romantic station detour or the old four-woman acting game.",
+        "Shreya leaves after a believable shift and commute, and confirms Anaya's childcare; Vikram arrived at roughly 06:00 and was told to sleep earlier.",
+        "Do not silently promote the legacy proposed 18:35 station exit to canon; choose a final clock when the bridge is written."
+      ],
+      "end": "Shreya reaches her family home; no Chintu romantic interaction on Jan 02."
+    },
+    {
+      "id": "SR05-01",
+      "part": "Episode 05 · home evening",
+      "date": "2026-01-02",
+      "time": "After arrival and dinner; provisional evening",
+      "title": "Vikram and Shreya — the missing married evening",
+      "setting": "Rathore home, common room → private bedroom",
+      "status": "PLOT_ONLY__UNWRITTEN",
+      "participants": [
+        "Shreya (33)",
+        "Vikram (36)"
+      ],
+      "beats": [
+        "Vikram is rested after the night shift rather than magically home for all of Jan 02; Shreya notices his recovery and he notices she is unsettled.",
+        "Rebuild their familiar wit with small domestic gestures and a real conversation about work stress, without recounting Keshav's private incident as a required confession.",
+        "Ensure Anaya (~20 months) is safely asleep or with an established caregiver before any private adult intimacy. Never show her within the intimacy scene.",
+        "Shreya initiates a warm, welcome embrace and kiss. Vikram reciprocates and explicitly checks she feels comfortable after her long day.",
+        "The married couple share private, mutually chosen intimacy; scene fades to black rather than describing sex graphically.",
+        "Morning domestic warmth echoes the original Dhika Episode 05 homecoming rhythm while preserving the distinct Shreya/Vikram couple."
+      ],
+      "end": "Married relationship reaffirmed, no Chintu kiss on this date."
+    },
+    {
+      "id": "SR05-02",
+      "part": "Episode 05 · next-day bridge",
+      "date": "2026-01-03",
+      "time": "Morning through early afternoon; after original Dhika EP05's Sunday morning/visit segment in story order",
+      "title": "A believable family day and space for a later private choice",
+      "setting": "Rathore residence, Gulmohar Heights",
+      "status": "PLOT_ONLY__UNWRITTEN",
+      "participants": [
+        "Shreya",
+        "Vikram",
+        "Anaya"
+      ],
+      "beats": [
+        "Show one grounded morning family interaction and the aftermath of the couple's renewed closeness, avoiding graphic flashbacks.",
+        "Keep Vikram's actual Jan 03 plans and Anaya's supervision unresolved until a credible reason for their absence is set; do not teleport husband, child, Arvind, Sameer or Shruti offstage.",
+        "Only after the original Dhika EP05 concluding morning/visit beats, arrange an independent Shreya-world afternoon/evening private time slot.",
+        "Do not present the original Dhika Sunday weekday as the 2026 calendar weekday: mapped 3 Jan 2026 is Saturday, with original labels stored separately."
+      ],
+      "end": "The private slot is possible only after childcare and adult household presence are independently resolved."
+    },
+    {
+      "id": "SR05-03",
+      "part": "Episode 05 · final encounter setup",
+      "date": "2026-01-03",
+      "time": "After Dhika EP05 cutpoint, afternoon/early evening tentative — exact clock not locked",
+      "title": "Chintu returns: a deliberate callback, not another accident",
+      "setting": "Gulmohar Heights · Shreya's home entry area",
+      "status": "PLOT_ONLY__UNWRITTEN",
+      "participants": [
+        "Shreya (33)",
+        "Chintu (23)"
+      ],
+      "beats": [
+        "Carry the Jan 01 latch event truth: two upper uniform buttons had been loosened and two lower buttons broke. The same damaged shirt cannot fasten normally without two replacement buttons being sewn on.",
+        "Give Chintu one legitimate latch-status/maintenance follow-up, not a fabricated new breakdown. Keep his work task separate from any personal invitation.",
+        "Verify that Vikram, Anaya and other household members are genuinely elsewhere for known reasons, and that Anaya has a responsible caregiver; the scene must have only Shreya and Chintu physically present.",
+        "Shreya is off duty and not using a police role or service authority. She can refer to the repaired old uniform as a memory, but changes into civilian outerwear over a secure opaque inner layer.",
+        "She deliberately chooses a more open, self-aware presentation than at their Jan 01 accidental encounter, with a clear reversal of embarrassment, while remaining clothed and without graphic anatomy.",
+        "Chintu has independent space to step away; he does not owe intimacy as a repair worker and does not know Keshav's station incident.",
+        "Use a brief pause and direct consent check before any personal physical contact; keep the physical staging voluntary and private."
+      ],
+      "end": "Only Shreya and Chintu remain in the room; tension has been established, not yet resolved."
+    },
+    {
+      "id": "SR05-04",
+      "part": "Episode 05 · final emotional beat",
+      "date": "2026-01-03",
+      "time": "Immediately after SR05-03; exact clock open",
+      "title": "One brief consensual kiss — stop, silence, consequence",
+      "setting": "Shreya's home, private entry/sitting area",
+      "status": "PLOT_ONLY__UNWRITTEN",
+      "participants": [
+        "Shreya",
+        "Chintu"
+      ],
+      "beats": [
+        "Let Shreya acknowledge that the first incident was accidental and this second encounter is deliberately initiated by her.",
+        "Chintu states or clearly signals that he wants to remain; she checks for mutual comfort before the kiss.",
+        "One mutually welcomed, brief kiss; then they separate rather than escalating to a sexual act.",
+        "Shreya restores her composure and makes no promise or coercive demand. Chintu leaves or prepares to leave before other family members return.",
+        "End on the emotional tension of her deliberate choice, not a voyeur reveal, a photographic record, or a surprise witness."
+      ],
+      "end": "Shreya's Episode 05 thread can close here; no further physical escalation is pre-approved."
+    }
+  ],
+  "continuityLocks": [
+    "Both Shreya (33) and Chintu (23) are adults, and Chintu is not police-station Keshav.",
+    "Shreya is married to Vikram (36); daughter Anaya is ~20 months, must have real childcare outside any adult romantic scene.",
+    "Vikram returned at ~06:00 on Jan 02 and slept; don't reuse the superseded Jan 01 20:40 return.",
+    "The original Dhika EP05 starts Jan 02 around 18:00 with John at home, then continues Jan 03 morning. Dhika's story and Shreya's are distinct narratives.",
+    "Previously proposed Shreya-Chintu Jan 02 19:42–20:06 and no-kiss rules belong to unapproved legacy plans, not published prose; author now directs a distinct post-Dhika-EP05 kiss in Episode 05.",
+    "Do not transplant Keshav's Jan 02 station incident or his reactions into Chintu's personal knowledge.",
+    "The prior Shreya station group acting challenge is on hold, not an evening beat to insert before her return home.",
+    "Two damaged Jan 01 uniform buttons need a believable repair if that physical shirt is worn again.",
+    "Vikram/Anaya/Arvind/Sameer/Shruti whereabouts are not established for the private Chintu encounter; never assert empty home without an on-page credible arrangement.",
+    "All adult interactions must be voluntary and separate from Chintu's maintenance employment or Shreya's police authority.",
+    "Sexual intimacy with husband can be implied offscreen; no graphic sex, anatomy or nudity."
+  ],
+  "openDecisions": [
+    {
+      "id": "SR-05-U1",
+      "issue": "Exact station departure and home arrival",
+      "state": "NOT_LOCKED",
+      "options": [
+        "Finish legitimate report handoff, then commute",
+        "Close duty as scheduled after relevant paperwork"
+      ]
+    },
+    {
+      "id": "SR-05-U2",
+      "issue": "Where Vikram and Anaya actually are when Chintu is alone with Shreya on Jan 03",
+      "state": "MUST_ESTABLISH_ON_PAGE_BEFORE_PROSE",
+      "options": [
+        "Vikram attends a separately grounded errand; Anaya supervised with Shruti",
+        "Vikram at an agreed work duty; Anaya cared for at relatives' home"
+      ]
+    },
+    {
+      "id": "SR-05-U3",
+      "issue": "How the earlier repaired shirt is used as a callback without turning the encounter into a replay",
+      "state": "OPEN",
+      "options": [
+        "Visible repaired shirt on a hanger, but Shreya chooses civilian clothes",
+        "Brief button-check before changing into civilian outerwear"
+      ]
+    },
+    {
+      "id": "SR-05-U4",
+      "issue": "Exact relative position of Chintu's scene after the original Dhika Episode 05 cutpoint",
+      "state": "OPEN",
+      "options": [
+        "Jan 03 afternoon",
+        "Jan 03 early evening"
+      ]
+    }
+  ],
+  "publication": {
+    "readingStatus": "NOT_PUBLISHED",
+    "planningStatus": "SAVED_FOR_DISCUSSION",
+    "preserveExistingSources": true
+  }
+}

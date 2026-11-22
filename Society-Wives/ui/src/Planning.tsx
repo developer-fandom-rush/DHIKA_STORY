@@ -113,6 +113,12 @@ function WorkshopDetails({tracks}:{tracks:WorkshopTrack[]}){
 
 type Episode04PublicationIndex={leads:Record<string,{name:string;source:string;publicationStatus:string;publishedSceneIds:string[];completedPlanSceneIds:string[];supersededPlanSceneIds?:string[];pendingPlanSceneIds:string[];publicationScope:string}>};
 
+type Shreya05Plan={
+ title:string;status:string;dateRange:string[];
+ references:{originalDhikaEp05Beat1:string;originalDhikaEp05Beat2:string};
+ scenes:{id:string;part:string;date:string;time:string;title:string;setting:string;status:string;participants:string[];beats:string[];end:string}[];
+ continuityLocks:string[];openDecisions:{id:string;issue:string;state:string;options:string[]}[];
+};
 type Ep05Plan={
  title:string;status:string;
  previous:{episode:string;date:string;time:string;event:string};
@@ -141,6 +147,7 @@ export default function Planning({lead='ankita',part='A'}:{lead?:string;part?:st
  const {data:proseDraft,error:proseError}=useData<ProseDraft>('episode-04b-five-leads-prose-drafts.json');
  const {data:unifiedDay,error:unifiedError}=useData<UnifiedDay>('episode-04b-jan02-merged-day-five-leads.json');
  const {data:episode05,loading:episode05Loading,error:episode05Error}=useData<Ep05Plan>('episode-05-ankita-plan.json');
+ const {data:shreya05,loading:shreya05Loading,error:shreya05Error}=useData<Shreya05Plan>('episode-05-shreya-plan.json');
  const doc=active==='ankita'?ankita:active==='shivani'?shivani:active==='shreya'?shreya:active==='taniya'||active==='soniya'?taniya:null;
  const error=publicationError||ankitaError||shivaniError||shreyaError||taniyaError||(active==='taniya'&&selectedPart==='B'&&taniya04BError)||workshopError||ankitaArchiveError||officeDayError||societyDayError||continuityError||mergedError||proseError||unifiedError;
  const officeLead=officeDay?.leads.find(x=>x.id===active);
@@ -156,6 +163,37 @@ export default function Planning({lead='ankita',part='A'}:{lead?:string;part?:st
  const superseded=new Set(published?.supersededPlanSceneIds||[]);
  const outstandingScenes=(doc?.scenes||[]).filter(scene=>{const sceneId=scene.id||scene.scene||scene.sceneNumber||scene.number;return !sceneId||(!completed.has(sceneId)&&!superseded.has(sceneId))});
 
+ if(active==='shreya'&&part==='05')return <main className="page-width" id="shreya-episode05-planning">
+  <header className="section-intro"><span className="eyebrow">Next planning · Episode 05</span><h1>Shreya · Episode 05 · Plot setup</h1>
+   <p>Shreya's homecoming, Vikram's private married evening and a later Chintu encounter, aligned to original Dhika Episode 05's Jan 2 evening–Jan 3 morning source order. Plot only, not approved prose.</p></header>
+  <div className="perspective-tabs" role="group" aria-label="Episode 05 characters">
+   <button type="button" className="selected" aria-pressed="true">Shreya</button>
+   <button type="button" onClick={()=>openPage('planning',{lead:'ankita',part:'05'})}>Ankita</button>
+   <button type="button" onClick={()=>openPage('reading',{episode:'04B',character:'shreya',scene:'02'})}>Read Shreya 04B</button>
+  </div>
+  {shreya05Loading&&<p role="status">Loading Shreya Episode 05 outline…</p>}
+  {shreya05Error&&<p role="alert" className="error">Shreya Episode 05 outline unavailable: {shreya05Error}</p>}
+  {shreya05&&<>
+   <section className="episode-plan-card"><h2>Dhika Episode 05 · chronological anchors</h2>
+    <p><strong>2 January:</strong> {shreya05.references.originalDhikaEp05Beat1}</p>
+    <p><strong>3 January:</strong> {shreya05.references.originalDhikaEp05Beat2}</p>
+    <p className="muted">Dhika/John's original timeline supplies the rhythm only. Shreya/Vikram is a separate narrative. No scene below is final or part of the published 4B reader.</p>
+   </section>
+   <section id="shreya-ep05-sequence"><h2>Scene order · proposal</h2>
+    {shreya05.scenes.map((s,i)=><details key={s.id} className="episode-outline" open={i===0}>
+     <summary><strong>{i+1}. {s.title}</strong> · {s.date}</summary>
+     <p className="muted">{s.part} · {s.time} · {s.setting}</p>
+     <ol>{s.beats.map((b,j)=><li key={j}>{b}</li>)}</ol>
+     <p><strong>End beat:</strong> {s.end}</p>
+     <p className="muted">{s.status.replace(/_/g,' ')}</p>
+    </details>)}
+   </section>
+   <section className="episode-plan-card"><h2>Continuity locks</h2>{shreya05.continuityLocks.map((x,i)=><p key={i}>{x}</p>)}</section>
+   <section className="episode-plan-card"><h2>Still open for scene writing</h2>
+    {shreya05.openDecisions.map(d=><details key={d.id} className="episode-outline"><summary><strong>{d.issue}</strong> · Open</summary><p>{d.options.join(' / ')}</p></details>)}
+   </section>
+  </>}
+ </main>;
  if(active==='ankita')return <main className="page-width" id="ankita-episode05-planning">
   <header className="section-intro"><span className="eyebrow">Next planning · Episode 05</span><h1>Ankita · Episode 05 · Plot discussion</h1><p>Episode 04B ends Friday, 2 January 2026 at 02:40 PM. No Episode 05 scenes are approved or written yet.</p></header>
   <div className="perspective-tabs" role="group" aria-label="Choose character">{leads.map(w=><button key={w} type="button" aria-pressed={active===w} className={active===w?'selected':''} onClick={()=>go(w)}>{titleCase(w)}</button>)}</div>
@@ -198,6 +236,10 @@ export default function Planning({lead='ankita',part='A'}:{lead?:string;part?:st
   <header className="section-intro"><span className="eyebrow">{selectedPart==='B'?'Episode 04B · Friday 2 January 2026':'Episode 04A'}</span><h1>{selectedPart==='B'?'Taniya · Episode 04B · Plot discussion':'Episode 04A · Story status'}</h1><p>{selectedPart==='B'?'Author-supplied new plot sequence · discussion only; no prose published. Original 04B preserved intact in Future Reference.':'Completed scenes are in Read Story. Only unfinished Episode 04A scenes, if any, remain here.'}</p></header>
   <p className="source-note"><strong>Before planning the next scene:</strong> <a href={'#/future-reference?lead='+active}>Future Reference &amp; Locked Decisions</a> — current scene locks, deferred ideas and pending editorial issues, not new story prose.</p>
 
+  {active==='shreya'&&<section className="episode-plan-card" id="shreya-05-next-plan"><h2>Shreya · next: Episode 05</h2>
+    <p>Friday evening homecoming and Vikram relationship beat; original Dhika EP05 chronological bridge; then a proposed separate private society-Chintu continuation after the Dhika EP05 cutpoint.</p>
+    <button type="button" className="button primary" onClick={()=>openPage('planning',{lead:'shreya',part:'05'})}>Open Shreya Episode 05 planning →</button>
+  </section>}
   {active==='shreya'&&selectedPart==='A'&&<section className="episode-plan-card" id="shreya-04a-author-manuscript">
    <h2>Shreya · Episode 04A — Updated manuscript and illustrations</h2>
    <p className="muted">Author-supplied Google Docs tab · SHREYA EP-04A</p>
