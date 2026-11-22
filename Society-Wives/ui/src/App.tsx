@@ -5,7 +5,7 @@ import Planning from './Planning';
 import FutureReference from './FutureReference';
 import GlobalTimeline from './GlobalTimeline';
 import DhikaReader from './DhikaReader';
-const swNavigation=[['reading','Read Story'],['planning','Episode 04 Plot'],['future-reference','Future Reference']] as const;
+const swNavigation=[['reading','Read Story'],['planning','Story Plot'],['future-reference','Future Reference']] as const;
 const dhikaNavigation=[['dhika-timeline','Timeline'],['dhika-reader','Original Reader']] as const;
 export default function App(){
  const {page,params}=useRoute();
@@ -13,7 +13,7 @@ export default function App(){
  const isDhika=page.startsWith('dhika-');
  const queryDate=params.get('date');
  useEffect(()=>{if(queryDate&&(/^2026-\d{2}-\d{2}$/.test(queryDate)||queryDate==='pending'))setDate(queryDate)},[queryDate]);
- useEffect(()=>{document.title=(isDhika?'Dhika':'Society Wives')+' — '+(page==='planning'?'Episode 04 Planning':'Story');window.scrollTo({top:0,behavior:'instant'});},[page,isDhika]);
+ useEffect(()=>{document.title=(isDhika?'Dhika':'Society Wives')+' — '+(page==='planning'?'Story Planning':'Story');window.scrollTo({top:0,behavior:'instant'});},[page,isDhika]);
  useEffect(()=>{if(['home','gallery','characters','timeline'].includes(page))openPage('reading',{episode:'01'})},[page]);
  const valid=page==='reading'||page==='planning'||page==='future-reference'||page==='dhika-timeline'||page==='dhika-reader'||['home','gallery','characters','timeline'].includes(page);
  return <div className="universe-shell">
