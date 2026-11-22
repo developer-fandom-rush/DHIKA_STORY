@@ -110,7 +110,11 @@ jobs:
         run: |
           mkdir -p _site/data
           cp index.html app.js styles.css _site/
-          cp data/corpus.json _site/data/
+          # The original Dhika reader needs BOTH data files to initialize.
+          # Missing pair_evidence_v2.json causes the whole episode reader to fail.
+          cp data/corpus.json data/pair_evidence_v2.json _site/data/
+          test -s _site/data/corpus.json
+          test -s _site/data/pair_evidence_v2.json
           cp -r Society-Wives _site/
           cp -r Society-Wives/ui/dist/. _site/Society-Wives/
           rm -rf _site/Society-Wives/ui/node_modules _site/Society-Wives/ui/dist
