@@ -24,7 +24,8 @@
     "Guddu home encounter: 'body modification' means only intentional adjustment of gymwear, stance/posture and presentation—not physical/anatomical modification. Author specifies approximately one-third (1/3) upper-bust/cleavage visibility, back presentation, close/tight leggings emphasizing hip and buttock contours, and Taniya enjoying the effect and her own initiative. Keep coverage, actual sightline and consent consistent; no nudity asserted.",
     "Office Punit plot: FIRST encounter is a genuinely unforeseen accident, NOT staged, engineered, caused or invited by Taniya. SECOND encounter is her separately deliberate visual/personal presentation after the accident; exact mechanics remain OPEN for author discussion.",
     "No forced kissing, no added intercourse, no unapproved sexual acts or guaranteed response. Track source facts, observation, agency and stage exits; exact explicit body anatomy narration not part of this plot.",
-    "Older 04B outlines, parallel colleague encounters and four working prose drafts remain verbatim in dedicated Future Reference archive; no old prose reused, deleted or overwritten."
+    "Older 04B outlines, parallel colleague encounters and four working prose drafts remain verbatim in dedicated Future Reference archive; no old prose reused, deleted or overwritten.",
+    "AUTHOR-DIRECTED FUTURE STORY EVENT (22 November 2026): Adult Taniya and gym trainer Vivek Rao will have consensual sex BEFORE Taniya's planned marriage to Aditya. This is a future narrative endpoint, not proof the act occurs in Jan 2 gym Scene 01, and does not change Aditya's identity as intended groom. Exact episode/date, location, circumstances, progression and wording are NOT YET DECIDED. Maintain no-kiss author direction for the currently submitted gym scene unless separately revised."
   ],
   "priorCanon": {
     "gym": "Episode02 TS04–TS05 at Gulmohar Heights: Taniya and gym trainer Vivek Rao already familiar, Taniya used double meanings and accepted workout form adjustments; original scenes also contain separate Soniya interactions; January2 Taniya does not automatically repeat Soniya's Jan1 actions.",
@@ -44,7 +45,8 @@
     "officeAccidentMechanism": "OPEN: First Punit encounter must be an authentically unforeseen, non-engineered accident. Exact physical cause and sightline TBD. Taniya does not manufacture or invite it. After it happens, she knowingly creates a separate deliberate presentation. Older intentional-paper-drop proposals are superseded and must NOT be used.",
     "olderSeniorAttendance": "SOURCE-GROUNDED: Vivek Suri 55 and Pradeep Khanna 48 existing; author referred to several older senior management people. Exact on-site roster remains adjustable; Mr Mehra previously remote, do not teleport without approval.",
     "seniorEncounterTurn": "OPEN: whether Vivek Suri only engages in sharper professional-but-personal verbal exchange, or an independently author-selected physical event. Do not automatically add touch.",
-    "closingScene": "OPEN: exact episode endpoint after Punit and senior beats. Do not auto-restore old evening Guddu or Soniya at home."
+    "closingScene": "OPEN: exact episode endpoint after Punit and senior beats. Do not auto-restore old evening Guddu or Soniya at home.",
+    "vivekPremaritalEncounter": "AUTHOR-DIRECTED FUTURE EVENT: Taniya and Vivek Rao will have consensual sex before her marriage to Aditya. The precise episode/date and whether it follows the proposed Jan 3 private trial are OPEN; do not invent it within the already written Jan 2 gym scene."
   },
   "scenes": [
     {
@@ -116,7 +118,14 @@
           "action": "No kiss occurs. Taniya leaves in the established post-workout state, while the trainer's unshown private motivations are not invented."
         }
       ],
-      "timePhase": "Morning, after wake / before Guddu"
+      "timePhase": "Morning, after wake / before Guddu",
+      "currentReaderScene": {
+        "readerEpisode": "04B",
+        "readerSceneId": "01",
+        "source": "episode-04b-taniya-gym-source.json",
+        "status": "AUTHOR_DOC_WORKING_MANUSCRIPT_IMPORTED_FOR_REVIEW",
+        "notes": "Scene 01 in reader = the first authored gym manuscript, even though the master plot labels gym TAN04B-02; prior home/missing-garment prelude remains unwritten."
+      }
     },
     {
       "id": "TAN04B-03",
@@ -145,7 +154,13 @@
           "action": "She walks back to the flat; her gym encounter and Guddu's awkwardness inform her decision to initiate a new encounter rather than accepting an invented accident."
         }
       ],
-      "timePhase": "Immediately after gym · before changing"
+      "timePhase": "Immediately after gym · before changing",
+      "currentReaderScene": {
+        "readerEpisode": "04B",
+        "readerSceneId": "02",
+        "status": "PLOT_DISCUSSION_ONLY_NO_PROSE",
+        "notes": "Guddu avoidance immediately after gym; author requested next discussion. Do not publish as written."
+      }
     },
     {
       "id": "TAN04B-04",
