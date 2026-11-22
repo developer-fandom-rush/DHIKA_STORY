@@ -230,6 +230,32 @@
         "Do not overwrite the author-updated Jan02 plot with any archived original action"
       ],
       "nextAction": "Original archive may be selectively revisited only on author request. Crucial current correction: Punit first encounter genuinely accidental, whereas Taniya's second encounter is intentional. Taniya's Guddu home presentation includes an author-specified 1/3 upper-bust neckline reveal, visible back, fitted leggings highlighting hips/seat silhouette, and her enjoyment of the teasing; no anatomical modification is implied."
+    },
+    {
+      "id": "FI-TANIYA-VIVEK-ROA-PREMARITAL-CONSENSUAL-ENCOUNTER",
+      "lead": "Taniya",
+      "referenceCharacters": [
+        "Taniya",
+        "Vivek Rao",
+        "Aditya"
+      ],
+      "workingTitle": "Taniya × Vivek Rao — consensual adult sexual encounter before marriage to Aditya",
+      "priority": "AUTHOR_DIRECTED_FUTURE_EVENT",
+      "approval": "AUTHOR_DIRECTED_ENDPOINT__TIMING_AND_STAGING_NOT_APPROVED",
+      "statusCategory": "FUTURE_CANON_DIRECTION__NOT_CURRENT_GYM_SCENE",
+      "dateStatus": "UNSCHEDULED_BEFORE_TANIYA_MARRIAGE",
+      "candidateDate": "NOT ASSIGNED",
+      "episodeNumber": "NOT ASSIGNED",
+      "source": "User's 22 November 2026 explicit instruction in chat: 'sex hoga dono kay beech .. before her actual marriage'",
+      "premise": "Author confirms a consensual sexual relationship milestone between adult Taniya and society gym trainer Vivek Rao before Taniya's planned wedding to Aditya. This does not make Vivek the groom and does not retroactively add sex to Jan2 Gym Reader Scene 01.",
+      "currentStoryLock": "Episode04B Taniya original Gym Doc is imported verbatim as Reader Scene01 (Jan2). Existing no-kiss beat and accidental slip remain unmodified; pending Guddu scene is Reader Scene02 planning. Exact timing/place of future intimacy, including whether a future private-training session is relevant, stays undecided.",
+      "prohibitedForCurrentScene": [
+        "Do not insert the eventual sexual encounter as if already happened in Jan2 gym manuscript",
+        "Do not reinterpret intended groom Aditya as Vivek",
+        "Do not silently turn future consent into assumed consent during any earlier exercise",
+        "Do not rewrite author manuscript without discussion"
+      ],
+      "nextAction": "Discuss Scene02 Guddu next; choose timing and circumstances of Taniya–Vivek future encounter separately before writing or publication."
     }
   ]
 }
