@@ -1,0 +1,635 @@
+{
+  "schemaVersion": 1,
+  "id": "SW-EP04B-ANKITA-SCENE03-ROHIT",
+  "title": "Ankita — Episode 04B · Scene 03: Rohit Babu — The First Look",
+  "date": "2026-01-02",
+  "lead": "ankita",
+  "time": "09:00–14:40",
+  "status": "AUTHOR_DIRECTED_UI_PUBLICATION__PROSE_WORKING_DRAFT_NOT_FINAL_FROZEN",
+  "venue": "Cyber City IT — office and private equipment area",
+  "source": [
+    "Assistant working draft presented in chat (09:00–02:40); no new scene events added",
+    "Author-supplied verbatim inserts R-G1 and R-G2 from subsequent chat",
+    "One assistant-added non-graphic reaction line after R-G2, as requested"
+  ],
+  "provenance": {
+    "authorInsertIDs": [
+      "R-G1",
+      "R-G2"
+    ],
+    "assistantReactionLine": "Rohit ki awaaz ek pal ko saath nahi de rahi thi; Ankita ka dil tez dhadak raha tha, lekin usne nazrein nahi hatayi.",
+    "verbatimUserInsertPreserved": true,
+    "priorScene01Untouched": true,
+    "scene02NotPublishedHere": true
+  },
+  "wardrobe": "One Friday-casual outfit throughout: dusty-rose scoop-neck/open-back fitted top, cream overshirt (removed only for deliberate moment), dark jeans. No burgundy color swap.",
+  "constraints": {
+    "onlyOnPageOfficeCharacters": [
+      "Ankita",
+      "Rohit"
+    ],
+    "groupPartyNightDetails": "UNKNOWN; no implied sex",
+    "noContact": true,
+    "accidentalFirst": true,
+    "deliberateSecond": true,
+    "exactOfficeDeparture": "14:40",
+    "firstShowTime": "09:40",
+    "deliberateTime": "14:15",
+    "authorSpecifiedVisibility": "one-third (1/3) in R-G1"
+  },
+  "sections": [
+    {
+      "id": "R00",
+      "title": "Cyber City Office",
+      "time": "09:00–09:40",
+      "lines": [
+        {
+          "kind": "narration",
+          "text": "Office floor unusually quiet tha.",
+          "origin": "assistant"
+        },
+        {
+          "kind": "narration",
+          "text": "Kal New Year celebration drinks ke saath kaafi late tak chali thi. Vivan, Reyansh, Sana aur Aishwarya aaj office nahi aaye the. Kuch log leave par the, kuch WFH kar rahe the. Raat ko unke beech exactly kya hua tha, iski koi confirmed information nahi thi.",
+          "origin": "assistant"
+        },
+        {
+          "kind": "narration",
+          "text": "Ankita ne apna laptop khola. Overnight deployment stable tha.",
+          "origin": "assistant"
+        },
+        {
+          "kind": "narration",
+          "text": "Usne support counter ki taraf dekha. Rohit ek equipment box ke saamne jhukkar serial numbers check kar raha tha.",
+          "origin": "assistant"
+        },
+        {
+          "kind": "thought",
+          "text": "Yeh ladka bhi kal se laga hua hai.",
+          "origin": "assistant"
+        }
+      ]
+    },
+    {
+      "id": "R01-R07",
+      "title": "The Forgotten Acknowledgment — Accidental Encounter",
+      "time": "09:40–10:20",
+      "lines": [
+        {
+          "kind": "dialogue",
+          "speaker": "Ankita",
+          "text": "Good morning, Rohit Babu!",
+          "origin": "assistant"
+        },
+        {
+          "kind": "narration",
+          "text": "Rohit ne mudkar dekha.",
+          "origin": "assistant"
+        },
+        {
+          "kind": "dialogue",
+          "speaker": "Rohit",
+          "text": "Good morning, ma'am. Aur aap phir Rohit Babu!",
+          "origin": "assistant"
+        },
+        {
+          "kind": "dialogue",
+          "speaker": "Ankita",
+          "text": "Naam change karne ke liye application deni padegi. Kal wali acknowledgment sheet laaye?",
+          "origin": "assistant"
+        },
+        {
+          "kind": "dialogue",
+          "speaker": "Rohit",
+          "text": "Ji. Correction kar diya. Bas adapter ka cap doosre box mein reh gaya hai.",
+          "origin": "assistant"
+        },
+        {
+          "kind": "dialogue",
+          "speaker": "Ankita",
+          "text": "Toh jao, le aao. Aaj inventory complete karke hi jaana.",
+          "origin": "assistant"
+        },
+        {
+          "kind": "narration",
+          "text": "Rohit hansa aur adjoining equipment section mein chala gaya.",
+          "origin": "assistant"
+        },
+        {
+          "kind": "narration",
+          "text": "Ankita ne documents lower cabinet par rakhe. Cream overshirt ke andar dusty-rose top tha—Friday ke liye uska casual choice. Ek cable cabinet ke neeche sarak gayi thi.",
+          "origin": "assistant"
+        },
+        {
+          "kind": "insert",
+          "id": "R-G1",
+          "origin": "author",
+          "text": "Ankita ne cable uthane ke liye neeche jhuki. Cream overshirt saamne se khul gaya. Dusty-rose scoop-neck top ka neckline neeche sarak gaya. Rohit adapter leke laut aaya aur usi waqt uski nazar giri.\n\nUski viewing angle se Ankita ki left breast ka almost **one-third** clearly dikh raha tha. Top ke andar bra ka edge bhi visible tha. Fabric stretch hua hua tha, isliye cleavage aur upper curve clearly outline ho raha tha. Rohit ka haath adapter pe ruk gaya. Uski nazar wahan se nahi hati.\n\n**Rohit:** “Ma'am, yeh... main... adapter...”"
+        },
+        {
+          "kind": "narration",
+          "text": "Uska sentence adhoora reh gaya.",
+          "origin": "assistant"
+        },
+        {
+          "kind": "narration",
+          "text": "Ankita ne cable uthakar seedha hote hue uski taraf dekha.",
+          "origin": "assistant"
+        },
+        {
+          "kind": "dialogue",
+          "speaker": "Ankita",
+          "text": "Kya hua? Adapter nahi mila kya?",
+          "origin": "assistant"
+        },
+        {
+          "kind": "dialogue",
+          "speaker": "Rohit",
+          "text": "Mila, ma'am.",
+          "origin": "assistant"
+        },
+        {
+          "kind": "dialogue",
+          "speaker": "Ankita",
+          "text": "Toh aise kyun dekh rahe ho jaise production server crash ho gaya?",
+          "origin": "assistant"
+        },
+        {
+          "kind": "narration",
+          "text": "Rohit ne jaldi se file kholi.",
+          "origin": "assistant"
+        },
+        {
+          "kind": "dialogue",
+          "speaker": "Rohit",
+          "text": "Nahi ma'am. Main serial number confirm kar raha tha.",
+          "origin": "assistant"
+        },
+        {
+          "kind": "dialogue",
+          "speaker": "Ankita",
+          "text": "Achha? Serial number mere paas hai. Idhar dikhao.",
+          "origin": "assistant"
+        },
+        {
+          "kind": "narration",
+          "text": "Woh uske paas aayi aur document check kiya. Rohit ne box ka label table par rakh diya.",
+          "origin": "assistant"
+        },
+        {
+          "kind": "narration",
+          "text": "Ankita ne sign karke file uski taraf badha di.",
+          "origin": "assistant"
+        },
+        {
+          "kind": "dialogue",
+          "speaker": "Ankita",
+          "text": "Done. Ab isko sambhalna. Kal se isi ek paper ke peeche bhaag rahe ho.",
+          "origin": "assistant"
+        },
+        {
+          "kind": "dialogue",
+          "speaker": "Rohit",
+          "text": "Thank you, ma'am.",
+          "origin": "assistant"
+        },
+        {
+          "kind": "dialogue",
+          "speaker": "Ankita",
+          "text": "Chai piyoge?",
+          "origin": "assistant"
+        },
+        {
+          "kind": "dialogue",
+          "speaker": "Rohit",
+          "text": "Abhi ek aur kit check karni hai. Main chalta hoon.",
+          "origin": "assistant"
+        },
+        {
+          "kind": "narration",
+          "text": "Woh equipment box lekar nikal gaya.",
+          "origin": "assistant"
+        },
+        {
+          "kind": "narration",
+          "text": "Ankita ne table dekha. Signed acknowledgment wahi padi thi.",
+          "origin": "assistant"
+        },
+        {
+          "kind": "dialogue",
+          "speaker": "Ankita",
+          "text": "Arre! Rohit Babu!",
+          "origin": "assistant"
+        },
+        {
+          "kind": "narration",
+          "text": "Lekin Rohit ja chuka tha.",
+          "origin": "assistant"
+        },
+        {
+          "kind": "thought",
+          "text": "Itna jaldi kis baat ki thi?",
+          "origin": "assistant"
+        },
+        {
+          "kind": "narration",
+          "text": "Ankita ne apni overshirt dekhi. Jhukte waqt neckline ka angle badla tha—yeh use ab samajh aaya.",
+          "origin": "assistant"
+        },
+        {
+          "kind": "narration",
+          "text": "Kya Rohit ne woh notice kiya tha?",
+          "origin": "assistant"
+        },
+        {
+          "kind": "narration",
+          "text": "Uski dhadkan kuch pal tez rahi. Chehre par halki warmth aayi, phir use apni hi curiosity par muskurahat aa gayi.",
+          "origin": "assistant"
+        },
+        {
+          "kind": "narration",
+          "text": "Kal Bhalla aur Sandeep ke saamne usne jaanbujhkar presentation badli thi. Aaj subah Rinku ke saath bhi decision uska apna tha.",
+          "origin": "assistant"
+        },
+        {
+          "kind": "narration",
+          "text": "Lekin Rohit ke saamne abhi jo hua, woh planned nahi tha.",
+          "origin": "assistant"
+        },
+        {
+          "kind": "thought",
+          "text": "Interesting, Rohit Babu.",
+          "origin": "assistant"
+        },
+        {
+          "kind": "narration",
+          "text": "Usne signed paper apni desk par rakh diya.",
+          "origin": "assistant"
+        }
+      ]
+    },
+    {
+      "id": "R08-R12",
+      "title": "The Return — Quiet Office",
+      "time": "01:55–02:15",
+      "lines": [
+        {
+          "kind": "narration",
+          "text": "Ankita ne deployment dashboard par last verification complete ki.",
+          "origin": "assistant"
+        },
+        {
+          "kind": "narration",
+          "text": "Rohit ko message kiya:",
+          "origin": "assistant"
+        },
+        {
+          "kind": "thought",
+          "text": "Your signed acknowledgment is still on my desk.",
+          "origin": "assistant"
+        },
+        {
+          "kind": "narration",
+          "text": "Reply turant aaya.",
+          "origin": "assistant"
+        },
+        {
+          "kind": "thought",
+          "text": "Sorry ma'am. Collect karne aa raha hoon.",
+          "origin": "assistant"
+        },
+        {
+          "kind": "narration",
+          "text": "Kuch minute baad Rohit door par tha.",
+          "origin": "assistant"
+        },
+        {
+          "kind": "dialogue",
+          "speaker": "Ankita",
+          "text": "Welcome back. Aaj kitni baar inventory complete karoge?",
+          "origin": "assistant"
+        },
+        {
+          "kind": "dialogue",
+          "speaker": "Rohit",
+          "text": "Sorry, ma'am. Subah jaldi mein paper reh gaya.",
+          "origin": "assistant"
+        },
+        {
+          "kind": "dialogue",
+          "speaker": "Ankita",
+          "text": "Haan, woh toh maine notice kar liya. Lunch kiya?",
+          "origin": "assistant"
+        },
+        {
+          "kind": "dialogue",
+          "speaker": "Rohit",
+          "text": "Thoda late ho gaya. Bas sandwich khaya.",
+          "origin": "assistant"
+        },
+        {
+          "kind": "dialogue",
+          "speaker": "Ankita",
+          "text": "Yahan ek extra sandwich hai. Chai ke saath kha lo. Waise bhi aaj poora floor khaali hai.",
+          "origin": "assistant"
+        },
+        {
+          "kind": "narration",
+          "text": "Rohit pehle hichkichaya, phir chair kheenchkar baith gaya.",
+          "origin": "assistant"
+        },
+        {
+          "kind": "narration",
+          "text": "Ankita ne apna cup uthaya.",
+          "origin": "assistant"
+        },
+        {
+          "kind": "dialogue",
+          "speaker": "Ankita",
+          "text": "Kal bhi tum support mein the, aaj bhi. Kya office ki saari machines tumhari responsibility hain?",
+          "origin": "assistant"
+        },
+        {
+          "kind": "dialogue",
+          "speaker": "Rohit",
+          "text": "Nahi ma'am. Lekin kuch bhi issue hota hai toh log support ko hi bulate hain.",
+          "origin": "assistant"
+        },
+        {
+          "kind": "dialogue",
+          "speaker": "Ankita",
+          "text": "Tech Lead ki life bhi kuch alag nahi. Sabko lagta hai main ek button dabaungi aur problem solve ho jayegi.",
+          "origin": "assistant"
+        },
+        {
+          "kind": "narration",
+          "text": "Rohit hans pada.",
+          "origin": "assistant"
+        },
+        {
+          "kind": "dialogue",
+          "speaker": "Rohit",
+          "text": "Aap handle kar leti hain.",
+          "origin": "assistant"
+        },
+        {
+          "kind": "dialogue",
+          "speaker": "Ankita",
+          "text": "Itna confidence? Kal hi toh mile the.",
+          "origin": "assistant"
+        },
+        {
+          "kind": "dialogue",
+          "speaker": "Rohit",
+          "text": "Aapko kaam karte dekha hai, ma'am.",
+          "origin": "assistant"
+        },
+        {
+          "kind": "narration",
+          "text": "Ankita ne uski taraf dekha. Jawab seedha tha, bina unnecessary flattery ke.",
+          "origin": "assistant"
+        },
+        {
+          "kind": "narration",
+          "text": "Kuch pal baad Rohit ne kaha:",
+          "origin": "assistant"
+        },
+        {
+          "kind": "dialogue",
+          "speaker": "Rohit",
+          "text": "Waise aaj aapka look different hai.",
+          "origin": "assistant"
+        },
+        {
+          "kind": "dialogue",
+          "speaker": "Ankita",
+          "text": "Different achha ya different strange?",
+          "origin": "assistant"
+        },
+        {
+          "kind": "dialogue",
+          "speaker": "Rohit",
+          "text": "Achha. Friday casual aap par suit karta hai.",
+          "origin": "assistant"
+        },
+        {
+          "kind": "narration",
+          "text": "Ankita ki muskurahat thodi badh gayi.",
+          "origin": "assistant"
+        },
+        {
+          "kind": "dialogue",
+          "speaker": "Ankita",
+          "text": "Thank you, Rohit Babu. Dekha? Compliment dena bhi seekh gaye.",
+          "origin": "assistant"
+        },
+        {
+          "kind": "dialogue",
+          "speaker": "Rohit",
+          "text": "Maine bas sach bola.",
+          "origin": "assistant"
+        },
+        {
+          "kind": "narration",
+          "text": "Rohit ne cups ek taraf kiye aur equipment label check karne ke liye adjacent shelf ki taraf badha.",
+          "origin": "assistant"
+        },
+        {
+          "kind": "narration",
+          "text": "Ankita kuch pal khadi rahi.",
+          "origin": "assistant"
+        },
+        {
+          "kind": "thought",
+          "text": "Rinku ka silence. Bhalla aur Sandeep ki confident compliments. Aur ab Rohit ka yeh seedha-sa jawab.",
+          "origin": "assistant"
+        },
+        {
+          "kind": "narration",
+          "text": "Sab ek jaise nahi the.",
+          "origin": "assistant"
+        },
+        {
+          "kind": "narration",
+          "text": "Usne glass cabinet mein apna reflection dekha.",
+          "origin": "assistant"
+        },
+        {
+          "kind": "narration",
+          "text": "Is baar uske mann mein ek deliberate decision tha.",
+          "origin": "assistant"
+        }
+      ]
+    },
+    {
+      "id": "R13-R14",
+      "title": "Her Own Choice — Deliberate Encounter",
+      "time": "02:15–02:30",
+      "lines": [
+        {
+          "kind": "narration",
+          "text": "Room mein halka warm temperature tha. Ankita ne cream overshirt utarkar chair par rakh di.",
+          "origin": "assistant"
+        },
+        {
+          "kind": "narration",
+          "text": "Dusty-rose top wahi tha jo subah se pehna tha. Uske open-back design ko ab outer layer cover nahi kar rahi thi.",
+          "origin": "assistant"
+        },
+        {
+          "kind": "narration",
+          "text": "Rohit shelf se equipment label lekar lauta.",
+          "origin": "assistant"
+        },
+        {
+          "kind": "dialogue",
+          "speaker": "Rohit",
+          "text": "Ma'am, final serial number bhi match ho gaya.",
+          "origin": "assistant"
+        },
+        {
+          "kind": "dialogue",
+          "speaker": "Ankita",
+          "text": "Good. Yeh last file bhi de do.",
+          "origin": "assistant"
+        },
+        {
+          "kind": "insert",
+          "id": "R-G2",
+          "origin": "author",
+          "text": "Ankita ne overshirt utar di thi. Dusty-rose top ka open-back ab fully exposed tha. Woh file lene ke liye jhuki aur thoda mud gayi. Is baar movement deliberate tha.\n\nRohit ne dekha. Open-back se uski poori back aur side waist clearly dikh rahi thi. Front se neckline neeche sarak gaya tha. Is angle se breast ka upper portion aur cleavage pehle se zyada visible tha. Bra ka shape soft outline mein aa raha tha. Rohit ek pal ke liye freeze ho gaya.\n\n**Ankita:** “Rohit Babu?”\n\nDono ki nazrein mili. Ankita ne dheere se smile di. Usko pata tha is baar usne jaan-bujh ke kiya hai."
+        },
+        {
+          "kind": "narration",
+          "text": "Rohit ki awaaz ek pal ko saath nahi de rahi thi; Ankita ka dil tez dhadak raha tha, lekin usne nazrein nahi hatayi.",
+          "origin": "assistant-added-reaction"
+        },
+        {
+          "kind": "dialogue",
+          "speaker": "Rohit",
+          "text": "Ji, ma'am?",
+          "origin": "assistant"
+        },
+        {
+          "kind": "dialogue",
+          "speaker": "Ankita",
+          "text": "Paper loge ya main tumhare naam se file kar doon?",
+          "origin": "assistant"
+        },
+        {
+          "kind": "narration",
+          "text": "Rohit ki muskurahat wapas aayi.",
+          "origin": "assistant"
+        },
+        {
+          "kind": "dialogue",
+          "speaker": "Rohit",
+          "text": "Nahi, ma'am. Le raha hoon.",
+          "origin": "assistant"
+        },
+        {
+          "kind": "narration",
+          "text": "Usne document liya.",
+          "origin": "assistant"
+        },
+        {
+          "kind": "dialogue",
+          "speaker": "Ankita",
+          "text": "Aaj ka support work finally complete?",
+          "origin": "assistant"
+        },
+        {
+          "kind": "dialogue",
+          "speaker": "Rohit",
+          "text": "Haan. Aapka toh complete hai.",
+          "origin": "assistant"
+        },
+        {
+          "kind": "dialogue",
+          "speaker": "Ankita",
+          "text": "Good. Phir Monday ko naye problems ke saath milenge.",
+          "origin": "assistant"
+        },
+        {
+          "kind": "dialogue",
+          "speaker": "Rohit",
+          "text": "Hopefully problems kam hongi.",
+          "origin": "assistant"
+        },
+        {
+          "kind": "dialogue",
+          "speaker": "Ankita",
+          "text": "IT mein aisi hope rakhna dangerous hai.",
+          "origin": "assistant"
+        },
+        {
+          "kind": "narration",
+          "text": "Dono hans pade.",
+          "origin": "assistant"
+        },
+        {
+          "kind": "narration",
+          "text": "Rohit ne documents sambhale aur bahar chala gaya.",
+          "origin": "assistant"
+        }
+      ]
+    },
+    {
+      "id": "R15",
+      "title": "Afterward & Departure",
+      "time": "02:30–02:40",
+      "lines": [
+        {
+          "kind": "narration",
+          "text": "Ankita kuch pal wahi khadi rahi.",
+          "origin": "assistant"
+        },
+        {
+          "kind": "narration",
+          "text": "Subah Rohit ki reaction unexpected thi. Doosri baar woh khud jaana chahti thi ki uska attention phir badlega ya nahi.",
+          "origin": "assistant"
+        },
+        {
+          "kind": "narration",
+          "text": "Uski heartbeat abhi bhi normal se tez thi. Chehre par warmth aur pet mein ek halki tingling thi. Lekin is baar nervousness se zyada apne decision ki awareness thi.",
+          "origin": "assistant"
+        },
+        {
+          "kind": "thought",
+          "text": "Main khud bhi badal rahi hoon.",
+          "origin": "assistant"
+        },
+        {
+          "kind": "narration",
+          "text": "Woh muskuraayi, overshirt pehni aur laptop band kar diya.",
+          "origin": "assistant"
+        },
+        {
+          "kind": "narration",
+          "text": "Final deployment checks stable the. Ankita ne remaining handover notes update kiye aur apne early departure ka message work channel mein bhej diya.",
+          "origin": "assistant"
+        },
+        {
+          "kind": "narration",
+          "text": "Laptop bag kandhe par daalkar woh office se nikli.",
+          "origin": "assistant"
+        },
+        {
+          "kind": "narration",
+          "text": "Phone par Kabir ka kal raat wala promise yaad aaya—woh aaj jaldi ghar aayega.",
+          "origin": "assistant"
+        },
+        {
+          "kind": "narration",
+          "text": "Ankita lift mein chali gayi.",
+          "origin": "assistant"
+        },
+        {
+          "kind": "narration",
+          "text": "02:40 PM. Scene 03 ends.",
+          "origin": "assistant"
+        }
+      ]
+    }
+  ]
+}
