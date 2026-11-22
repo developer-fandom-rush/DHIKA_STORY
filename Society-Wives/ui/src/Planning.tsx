@@ -281,7 +281,9 @@ export default function Planning({lead='ankita',part='A'}:{lead?:string;part?:st
    </section>:<p role="status">Loading Episode 04A plot…</p>}</>)
    :active==='taniya'?(taniya04B?<section id="episode04-next-day">
       <h2>{taniya04B.title}</h2>
-      <p className="muted">Friday 2 January 2026 · Author-directed plot only · Scene prose has NOT been approved or published.</p>
+      <p className="muted">Friday 2 January 2026 · Gym Reader Scene 01 is now imported from the author's Doc, as a working manuscript with 3 source images. Editing/final freeze is pending. The other scenes remain plot-only.</p>
+      <p><button type="button" className="button primary" onClick={()=>openPage('reading',{episode:'04B',character:'taniya',scene:'01'})}>Read Taniya Gym · Scene 01 + 3 original images →</button></p>
+      <p className="source-note"><strong>Scene numbering:</strong> Master plot TAN04B-01 (empty flat/missing garments) is an unwritten morning prelude. The first written reader scene is the gym (TAN04B-02). Our next Reader Scene 02 discussion covers Guddu after the gym; not yet prose.</p>
       <p><strong>Current focus:</strong> empty flat → Vivek Rao gym → Guddu society/home → later CA office → Vivek Suri senior lane → Punit genuine unforeseen accident → separate deliberate follow-up.</p>
       <div className="continuity-cards">{taniya04B.scenes.map((scene,i)=><SceneDetails key={scene.id} scene={scene} index={i}/>)}</div>
       <section className="episode-plan-card">
