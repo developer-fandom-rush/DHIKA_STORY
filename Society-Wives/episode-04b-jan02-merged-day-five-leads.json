@@ -1406,79 +1406,6 @@
       "societySceneCount": 3,
       "chronologicalScenes": [
         {
-          "id": "SR-PRE-01",
-          "start": "07:40",
-          "end": "08:00",
-          "title": "Four buttons, two different causes",
-          "location": "Shreya apartment dressing area → society gate",
-          "characters": [
-            "Shreya",
-            "Chintu (service notice only)"
-          ],
-          "track": "SOCIETY_MORNING_BRIDGE",
-          "status": "JAN02_PROPOSED_BRIDGE_BASED_ON_CONFIRMED_04A",
-          "beats": [
-            {
-              "id": "SR-PRE-01-B1",
-              "title": "04A unresolved fact",
-              "action": "Yesterday she loosened the top two uniform buttons, then a jammed door latch BROKE two more. In her mirror later she could not know exactly what Chintu saw; he held the door, not her body."
-            },
-            {
-              "id": "SR-PRE-01-B2",
-              "title": "2 Jan morning decision",
-              "action": "Shreya puts the damaged shirt aside for a button repair, gets ready in an intact uniform and reads a society notice that the apartment latch works. Chintu is not summoned to view a repaired shirt while she is rushing for duty."
-            }
-          ]
-        },
-        {
-          "id": "E04B-SHREYA-01",
-          "number": "01",
-          "start": "09:00",
-          "end": "11:16",
-          "title": "Station intake, brief case handover and Keshav's office-support agreement",
-          "location": "Police station duty area",
-          "characters": [
-            "Shreya",
-            "Poonam",
-            "Kavita",
-            "Keshav (Station Chotu)"
-          ],
-          "beats": [
-            {
-              "id": "SR4B-01",
-              "title": "Station work first",
-              "action": "Shreya arrives on duty, handles normal administrative and policing responsibilities. No college or society twins have Jan2 appearances here."
-            },
-            {
-              "id": "SR4B-01A-KESHAV-WORK-SETUP",
-              "title": "Keshav agrees to serve as Shreya's authorized office-support runner in addition to chai service",
-              "time": "09:10–09:20",
-              "action": "After an ordinary 3–4-line serious Shreya team handover, Shreya meets Keshav (Station Chotu, age 23), whom she already knows from the previous day's strong-chai counter exchange. Station office-support tasks need coverage. She asks whether he is willing to add scheduled basic administrative support—delivering authorized sealed packets, blank forms, outward dispatch slips, and tea to her cabin—without replacing his tea-counter responsibilities. Keshav clearly agrees. Shreya arranges the assignment through the existing station duty/admin schedule; no special unfounded police rank, unrestricted case-file access, extra character, or overtime assumed. He does not read evidence or confidential case contents. This makes future brief solo cabin deliveries natural, not staged. Professional interaction only; no teasing, flirting, touch, accidents or deliberate display yet.",
-              "dialogueSeed": [
-                {
-                  "speaker": "Shreya",
-                  "line": "Keshav, chai counter ke saath office-support ki kuch basic deliveries sambhal paoge? Duty roster mein properly note karwa dungi."
-                },
-                {
-                  "speaker": "Keshav",
-                  "line": "Ji, madam. Chai ke rounds ke beech forms aur sealed files cabin tak pahuncha dunga. Mujhe koi problem nahi."
-                },
-                {
-                  "speaker": "Shreya",
-                  "line": "Theek. Documents sirf designated desk se lena, aur bina permission kuch open nahi karna."
-                },
-                {
-                  "speaker": "Keshav",
-                  "line": "Samajh gaya, madam. Dono kaam time par karunga."
-                }
-              ],
-              "sourceStatus": "AUTHOR_REQUESTED_ROLE_SETUP_2026_11_22__NOT_PROSE_APPROVED"
-            }
-          ],
-          "status": "LOCKED_OFFICE_CHOTU_ACTIONS__PROSE_NOT_APPROVED",
-          "track": "OFFICE_CHOTU_WORKDAY"
-        },
-        {
           "id": "E04B-SHREYA-PAR-01",
           "number": "P01",
           "start": "09:52",
@@ -1506,37 +1433,6 @@
           "track": "OTHER_COLLEAGUES",
           "status": "NEW_PARALLEL_SCENE_PROPOSAL_NOT_FINAL_PROSE",
           "continuityNote": "Yesterday's Rohas glance is acknowledged once, not repeated as a new surprise."
-        },
-        {
-          "id": "E04B-SHREYA-02",
-          "number": "02",
-          "start": "11:16",
-          "end": "11:34",
-          "title": "Strong chai and the remembered observation",
-          "location": "Station authorized tea counter",
-          "characters": [
-            "Shreya",
-            "Station Chotu"
-          ],
-          "beats": [
-            {
-              "id": "SR4B-02-KESHAV-ROLE-CONTINUITY",
-              "title": "Role continuity",
-              "action": "Keshav's additional authorized basic office-support role was already accepted earlier at 09:10–09:20; his strong-chai/receipt familiarity predates this agreement. A cabin visit is possible through a legitimate delivery, but NO new accidental or deliberate encounter is approved yet."
-            },
-            {
-              "id": "SR4B-02",
-              "title": "Existing rapport",
-              "action": "The chai helper already knows her preference for strong tea from Jan1. He remembers her receipt and timed routines; no tipping-kettle accident or wrist safety rescue."
-            },
-            {
-              "id": "SR4B-03",
-              "title": "Her private curiosity",
-              "action": "Shreya finds herself testing whether he recognizes her only by uniform and rank, or also as a person. She says little while on duty and does not give him a personal instruction."
-            }
-          ],
-          "status": "LOCKED_OFFICE_CHOTU_ACTIONS__PROSE_NOT_APPROVED",
-          "track": "OFFICE_CHOTU_WORKDAY"
         },
         {
           "id": "E04B-SHREYA-03",
@@ -1930,7 +1826,13 @@
           ]
         }
       ],
-      "endTime": "20:30"
+      "endTime": "20:30",
+      "publishedSource": "episode-04b-shreya-source.json",
+      "completedReaderSceneIds": [
+        "01",
+        "02"
+      ],
+      "publicationNote": "2 Jan morning and 09:00–Keshav cabin accident already saved verbatim in Episode 04B Read Story from author's Google Doc; only unwritten proposals remain in active Planning. Final author freeze pending."
     },
     {
       "id": "meenakshi",
