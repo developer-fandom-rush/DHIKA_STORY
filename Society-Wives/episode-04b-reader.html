@@ -67,13 +67,13 @@ footer{max-width:1020px;padding:0 18px 32px;margin:auto;font-size:12px;color:var
 <div id="intro" class="intro"></div>
 <section id="content" aria-live="polite"></section>
 <div id="error" role="alert"></div>
-<div class="note"><strong>Editorial state:</strong> 04A facts remain unchanged. Ankita 04B Scene 01 (B01–B06) is published from the author-shared Google Doc with one separately tracked author-requested B06 internal-reaction addendum; other story beats remain working drafts. B08 three views is a future-only idea, not a current event. No images are included in this reader.</div>
+<div class="note"><strong>Editorial state:</strong> Ankita 04B Scene 01 (Rinku) retains the original Google Doc text and a separately tracked internal-reaction addendum. Scene 03 (Rohit, 09:00–14:40) now includes the author-provided R-G1 / R-G2 inserts verbatim and one additional reaction line; it is published as working prose, not frozen canon. Scene 02 morning bridge has not been added here. No other leads or 04A scenes were changed.</div>
 </main>
 <footer>Story planning source: DHIKA_STORY / Society-Wives · Data and prose are intentionally editable in the connected GitHub repository.</footer>
 <script>
 (function(){
 "use strict";
-var state={lead:"ankita",mode:"prose",merged:null,prose:null,ankitaScene01:null};
+var state={lead:"ankita",mode:"prose",merged:null,prose:null,ankitaScene01:null,ankitaScene03:null};
 var pairs={ankita:["Ankita","Rohit","Rinku"],shivani:["Shivani","Sunny","Deepu"],taniya:["Taniya","Punit","Guddu"],shreya:["Shreya","Station Chotu","Chintu"],meenakshi:["Meenakshi","Naveen","Babloo"]};
 var params=new URLSearchParams(location.search);
 if(pairs[params.get("lead")])state.lead=params.get("lead");
@@ -85,7 +85,7 @@ function updateUrl(){var q=new URLSearchParams();q.set("lead",state.lead);q.set(
 function renderNav(){
  var root=document.getElementById("characters"),mode=document.getElementById("modes");clear(root);clear(mode);
  Object.keys(pairs).forEach(function(id){var b=add(root,"button","",pairs[id][0]);b.type="button";b.setAttribute("aria-pressed",id===state.lead?"true":"false");b.onclick=function(){state.lead=id;updateUrl();render();};});
- (state.lead==="ankita"?[["timeline","Scene 01 beats"],["prose","Read Scene 01"]]:[["timeline","Merged full-day plot"],["prose","Read working prose"]]).forEach(function(x){var b=add(mode,"button","",x[1]);b.type="button";b.setAttribute("aria-pressed",x[0]===state.mode?"true":"false");b.onclick=function(){state.mode=x[0];updateUrl();render();};});
+ (state.lead==="ankita"?[["timeline","Scene overview"],["prose","Read Ankita scenes"]]:[["timeline","Merged full-day plot"],["prose","Read working prose"]]).forEach(function(x){var b=add(mode,"button","",x[1]);b.type="button";b.setAttribute("aria-pressed",x[0]===state.mode?"true":"false");b.onclick=function(){state.mode=x[0];updateUrl();render();};});
 }
 function label(track){
  return {SOCIETY_BEFORE_OFFICE:"Society before office",HOME_BEFORE_OFFICE:"Home before office",SOCIETY_CHOTU:"Society Chotu",OTHER_COLLEAGUES:"Other colleagues"}[track]||"Office Chotu / workday";
@@ -94,12 +94,13 @@ function renderIntro(){
  var r=document.getElementById("intro");clear(r);
  if(state.lead==="ankita" && state.ankitaScene01){
    add(r,"div","kicker","Ankita · Episode 04B · 2 January 2026");
-   add(r,"h2","","Scene 01 complete · B01–B06");
-   add(r,"p","","Author-shared ANKITA_4B Google Doc text, plus one author-requested provisional B06 internal-reaction addendum. Original source paragraphs are preserved; Episode 04B continues after Rinku leaves.");
-   add(r,"p","small","Continuity: Only dusty-rose nighty · Next proposed sequence: office preparation and departure; gym / morning walk moved to evening.");
+   add(r,"h2","","Scene 01 · Rinku + Scene 03 · Rohit");
+   add(r,"p","","Scene 01: Rinku, 03:00–07:30 (original Google Doc plus one tracked addendum). Scene 03: Rohit, 09:00–14:40 (working draft with the author\u2019s verbatim R-G1 / R-G2 inserts and a final reaction line).");
+   add(r,"p","small","Scene 02 morning transition is not published here. Office outfit: dusty-rose top, cream overshirt and dark jeans throughout. Rohit two-stage visual encounters; she leaves office at exactly 14:40.");
    var a=add(r,"a","small","Open source Google Doc");a.href=state.ankitaScene01.source.url;a.target="_blank";a.rel="noreferrer";
    var m=add(r,"div","metrics");
-   add(m,"span","","6 beats · 03:00–07:30");
+   add(m,"span","","Scene 01 · 03:00–07:30");
+   add(m,"span","","Scene 03 · 09:00–14:40");
    add(m,"span","","B08 three views saved as future idea only");
    return;
  }
@@ -167,14 +168,54 @@ function renderAnkitaScene01(){
    var p=add(body,"p",/^\*[^*].*\*$/.test(txt)?"thought":"",txt.replace(/^\*([^*]+)\*$/,"$1"));
   });
  });
- add(root,"p","note","Scene 01 ends at B06. B08 three-view wet-nighty idea remains future-only and is not part of this episode publication.");
+ add(root,"p","note","Scene 01 ends at B06. Scene 02 morning bridge is not published here. Scene 03 follows below. B08 three views remains a future-only idea.");
 }
-function render(){if(!state.merged||!state.prose||!state.ankitaScene01)return;renderNav();renderIntro();if(state.lead==="ankita"){renderAnkitaScene01();return;}if(state.mode==="prose")renderProse();else renderTimeline();}
+
+function renderAnkitaScene03(){
+ var root=document.getElementById("content"),src=state.ankitaScene03;
+ var heading=add(root,"section","intro");
+ add(heading,"div","kicker","ANKITA · SCENE 03 · ROHIT BABU");
+ add(heading,"h2","","The First Look · 09:00 AM–02:40 PM");
+ add(heading,"p","small","Working prose, published for author review · R-G1 and R-G2 are preserved verbatim from the author; the extra reaction sentence is separately identified in the source file.");
+ (src.sections||[]).forEach(function(sc,i){
+  var card=add(root,"details","card");card.open=state.mode==="prose"||i===0;
+  var sum=add(card,"summary");
+  add(sum,"span","time",sc.time);
+  add(sum,"span","track",sc.id);
+  add(sum,"h3","",sc.title);
+  var body=add(card,"div","body");
+  if(state.mode==="timeline"){
+    add(body,"p","small",sc.lines.length+" source entries · switch to Read Ankita scenes for prose.");
+    return;
+  }
+  (sc.lines||[]).forEach(function(line){
+    if(line.kind==="dialogue"){
+      var p=add(body,"p","dialogue");add(p,"strong","",(line.speaker||"Speaker")+": ");
+      p.appendChild(document.createTextNode(line.text));return;
+    }
+    if(line.kind==="thought"){add(body,"p","thought",line.text);return;}
+    if(line.kind==="insert"){
+      String(line.text).split(/\n\s*\n/).forEach(function(para){
+        var m=para.match(/^\*\*([^*]+):\*\*\s*(.*)$/);
+        if(m){var p=add(body,"p","dialogue");add(p,"strong","",m[1]+": ");p.appendChild(document.createTextNode(m[2]));return;}
+        var p=add(body,"p","");
+        String(para).split(/(\*\*[^*]+\*\*)/).forEach(function(part){
+          if(/^\*\*[^*]+\*\*$/.test(part))add(p,"strong","",part.slice(2,-2));
+          else p.appendChild(document.createTextNode(part));
+        });
+      });return;
+    }
+    add(body,"p","",line.text);
+  });
+ });
+}
+function render(){if(!state.merged||!state.prose||!state.ankitaScene01||!state.ankitaScene03)return;renderNav();renderIntro();if(state.lead==="ankita"){renderAnkitaScene01();renderAnkitaScene03();return;}if(state.mode==="prose")renderProse();else renderTimeline();}
 Promise.all([
  fetch("./episode-04b-five-leads-merged-chronology.json",{cache:"no-store"}).then(function(r){if(!r.ok)throw Error("Timeline "+r.status);return r.json();}),
  fetch("./episode-04b-five-leads-prose-drafts.json",{cache:"no-store"}).then(function(r){if(!r.ok)throw Error("Prose "+r.status);return r.json();}),
- fetch("./episode-04b-ankita-scene01-source.json",{cache:"no-store"}).then(function(r){if(!r.ok)throw Error("Ankita Scene 01 "+r.status);return r.json();})
-]).then(function(x){state.merged=x[0];state.prose=x[1];state.ankitaScene01=x[2];render();}).catch(function(err){document.getElementById("error").textContent="Could not load saved story data: "+String(err);});
+ fetch("./episode-04b-ankita-scene01-source.json",{cache:"no-store"}).then(function(r){if(!r.ok)throw Error("Ankita Scene 01 "+r.status);return r.json();}),
+ fetch("./episode-04b-ankita-scene03-rohit-source.json",{cache:"no-store"}).then(function(r){if(!r.ok)throw Error("Ankita Scene 03 "+r.status);return r.json();})
+]).then(function(x){state.merged=x[0];state.prose=x[1];state.ankitaScene01=x[2];state.ankitaScene03=x[3];render();}).catch(function(err){document.getElementById("error").textContent="Could not load saved story data: "+String(err);});
 })();
 </script>
 </body>
