@@ -820,15 +820,15 @@
       "name": "Shreya",
       "office": "Police station",
       "chotu": {
-        "name": "Station Chotu (chai vendor, name not confirmed)",
+        "name": "Keshav (Station Chotu)",
         "age": 23,
-        "role": "Station tea-service helper"
+        "role": "Station tea service and authorized office support / file runner"
       },
       "workday": "09:00–17:45 duty; remains at station voluntarily until 18:35",
       "wardrobe": "After-duty sleeveless civilian outfit with an intentionally striking neckline exposing cleavage, collarbone and shoulders; no uniform manipulation",
       "lockedExposure": "After-duty sleeveless civilian top with exposed shoulders and upper back; no explicit exposure",
       "lockedAction": "Prior 04B group acting game moved to Shreya Future Reference. New Station Chotu accident-first and deliberate follow-up are under author discussion, not yet locked.",
-      "sceneIntent": "Original after-duty group acting game is future-only. Current Jan2 04B focuses on Shreya and the station tea helper, with timing and incident pending author discussion. Existing office duties and colleague histories remain retained.",
+      "sceneIntent": "Shreya–Keshav (Station Chotu): after brief serious office work, focus on a credible accidental cabin encounter before any separately approved deliberate follow-up. Javed removed from active cast; old group game future-only.",
       "scenes": [
         {
           "id": "E04B-SHREYA-01",
