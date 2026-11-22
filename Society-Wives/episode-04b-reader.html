@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="color-scheme" content="light">
-<title>Society Wives — Episode 04B • Full Day & Working Prose</title>
+<title>Society Wives — Ankita Episode 04B Complete</title>
 <style>
 :root{--ink:#321f2b;--muted:#735f69;--line:#e7d9df;--paper:#fffaf9;--warm:#f6eef0;--wine:#7b3454;--gold:#ad8261;--shadow:0 12px 36px #4b293112}
 *{box-sizing:border-box}
@@ -56,8 +56,8 @@ footer{max-width:1020px;padding:0 18px 32px;margin:auto;font-size:12px;color:var
 <header>
 <a href="./#/planning?lead=ankita&amp;part=B">← Back to Episode 04 Planning</a>
 <div class="eyebrow">Society Wives · Five Veils of Desire</div>
-<h1>Episode 04B · The Next Day</h1>
-<p>2 January 2026 · Society before office → Office & colleagues → Society after office</p>
+<h1>Episode 04B · Ankita Finished</h1>
+<p>Friday 2 January 2026 · Ankita: home → office → 02:40 PM departure. Episode 05 is next in planning.</p>
 </header>
 <main>
 <div class="controls">
@@ -67,13 +67,13 @@ footer{max-width:1020px;padding:0 18px 32px;margin:auto;font-size:12px;color:var
 <div id="intro" class="intro"></div>
 <section id="content" aria-live="polite"></section>
 <div id="error" role="alert"></div>
-<div class="note"><strong>Editorial state:</strong> Ankita 04B Scene 01 (Rinku) retains the original Google Doc text and a separately tracked internal-reaction addendum. Scene 03 (Rohit, 09:00–14:40) now includes the author-provided R-G1 / R-G2 inserts verbatim and one additional reaction line; it is published as working prose, not frozen canon. Scene 02 morning bridge has not been added here. No other leads or 04A scenes were changed.</div>
+<div class="note"><strong>Ankita 04B complete:</strong> All three scenes are in the reader. Scene 01 preserves the Rinku manuscript with a tracked addendum; Scene 02 follows the author Google Doc; Scene 03 retains the Rohit draft and author inserts. Ankita leaves office at 02:40 PM. No new after-office scene is part of 04B; further work belongs to Episode 05. No images are included.</div>
 </main>
 <footer>Story planning source: DHIKA_STORY / Society-Wives · Data and prose are intentionally editable in the connected GitHub repository.</footer>
 <script>
 (function(){
 "use strict";
-var state={lead:"ankita",mode:"prose",merged:null,prose:null,ankitaScene01:null,ankitaScene03:null};
+var state={lead:"ankita",mode:"prose",merged:null,prose:null,ankitaScene01:null,ankitaScene02:null,ankitaScene03:null};
 var pairs={ankita:["Ankita","Rohit","Rinku"],shivani:["Shivani","Sunny","Deepu"],taniya:["Taniya","Punit","Guddu"],shreya:["Shreya","Station Chotu","Chintu"],meenakshi:["Meenakshi","Naveen","Babloo"]};
 var params=new URLSearchParams(location.search);
 if(pairs[params.get("lead")])state.lead=params.get("lead");
@@ -94,13 +94,15 @@ function renderIntro(){
  var r=document.getElementById("intro");clear(r);
  if(state.lead==="ankita" && state.ankitaScene01){
    add(r,"div","kicker","Ankita · Episode 04B · 2 January 2026");
-   add(r,"h2","","Scene 01 · Rinku + Scene 03 · Rohit");
-   add(r,"p","","Scene 01: Rinku, 03:00–07:30 (original Google Doc plus one tracked addendum). Scene 03: Rohit, 09:00–14:40 (working draft with the author\u2019s verbatim R-G1 / R-G2 inserts and a final reaction line).");
-   add(r,"p","small","Scene 02 morning transition is not published here. Office outfit: dusty-rose top, cream overshirt and dark jeans throughout. Rohit two-stage visual encounters; she leaves office at exactly 14:40.");
+   add(r,"h2","","Episode 04B ended · 02:40 PM");
+   add(r,"p","","Three scenes are available: 01 Rinku (03:00–07:30), 02 home-to-office (07:30–09:00), 03 Rohit (09:00–14:40). All three are published; Episode 04B is closed for Ankita, with editorial freeze separate.");
+   add(r,"p","small","No images in this reader. Office scene ends at exactly 14:40; old later 04B plot drafts are superseded by the published episode.");
    var a=add(r,"a","small","Open source Google Doc");a.href=state.ankitaScene01.source.url;a.target="_blank";a.rel="noreferrer";
    var m=add(r,"div","metrics");
    add(m,"span","","Scene 01 · 03:00–07:30");
+   add(m,"span","","Scene 02 · 07:30–09:00");
    add(m,"span","","Scene 03 · 09:00–14:40");
+   var next=add(r,"a","small","Open Ankita Episode 05 planning");next.href="./#/planning?lead=ankita&part=05";
    add(m,"span","","B08 three views saved as future idea only");
    return;
  }
@@ -168,7 +170,27 @@ function renderAnkitaScene01(){
    var p=add(body,"p",/^\*[^*].*\*$/.test(txt)?"thought":"",txt.replace(/^\*([^*]+)\*$/,"$1"));
   });
  });
- add(root,"p","note","Scene 01 ends at B06. Scene 02 morning bridge is not published here. Scene 03 follows below. B08 three views remains a future-only idea.");
+ add(root,"p","note","Scene 01 ends at B06. Scene 02 and Scene 03 follow below; Ankita Episode 04B concludes at the 02:40 PM office exit.");
+}
+
+function renderAnkitaScene02(){
+ var root=document.getElementById("content"),src=state.ankitaScene02;
+ var heading=add(root,"section","intro");
+ add(heading,"div","kicker","ANKITA · SCENE 02 · HOME TO OFFICE");
+ add(heading,"h2","","The Morning She Skipped · 07:30–09:00 AM");
+ add(heading,"p","small","Author's current Episode 04B Google Doc text; no images.");
+ (src.sections||[]).forEach(function(sc,i){
+  var card=add(root,"details","card");card.open=state.mode==="prose"||i===0;
+  var sum=add(card,"summary");
+  add(sum,"span","time",sc.time);add(sum,"span","track",sc.id);add(sum,"h3","",sc.title);
+  var body=add(card,"div","body");
+  if(state.mode==="timeline"){add(body,"p","small",sc.paragraphs.length+" source paragraphs. Select Read Ankita scenes for complete text.");return;}
+  (sc.paragraphs||[]).forEach(function(t){
+    var m=String(t).match(/^([A-Za-z ]+):\s*[“"](.+)[”"]$/);
+    if(m){var p=add(body,"p","dialogue");add(p,"strong","",m[1]+": ");p.appendChild(document.createTextNode(m[2]));return;}
+    add(body,"p","",t);
+  });
+ });
 }
 
 function renderAnkitaScene03(){
@@ -209,13 +231,14 @@ function renderAnkitaScene03(){
   });
  });
 }
-function render(){if(!state.merged||!state.prose||!state.ankitaScene01||!state.ankitaScene03)return;renderNav();renderIntro();if(state.lead==="ankita"){renderAnkitaScene01();renderAnkitaScene03();return;}if(state.mode==="prose")renderProse();else renderTimeline();}
+function render(){if(!state.merged||!state.prose||!state.ankitaScene01||!state.ankitaScene02||!state.ankitaScene03)return;renderNav();renderIntro();if(state.lead==="ankita"){renderAnkitaScene01();renderAnkitaScene02();renderAnkitaScene03();return;}if(state.mode==="prose")renderProse();else renderTimeline();}
 Promise.all([
  fetch("./episode-04b-five-leads-merged-chronology.json",{cache:"no-store"}).then(function(r){if(!r.ok)throw Error("Timeline "+r.status);return r.json();}),
  fetch("./episode-04b-five-leads-prose-drafts.json",{cache:"no-store"}).then(function(r){if(!r.ok)throw Error("Prose "+r.status);return r.json();}),
  fetch("./episode-04b-ankita-scene01-source.json",{cache:"no-store"}).then(function(r){if(!r.ok)throw Error("Ankita Scene 01 "+r.status);return r.json();}),
- fetch("./episode-04b-ankita-scene03-rohit-source.json",{cache:"no-store"}).then(function(r){if(!r.ok)throw Error("Ankita Scene 03 "+r.status);return r.json();})
-]).then(function(x){state.merged=x[0];state.prose=x[1];state.ankitaScene01=x[2];state.ankitaScene03=x[3];render();}).catch(function(err){document.getElementById("error").textContent="Could not load saved story data: "+String(err);});
+ fetch("./episode-04b-ankita-scene03-rohit-source.json",{cache:"no-store"}).then(function(r){if(!r.ok)throw Error("Ankita Scene 03 "+r.status);return r.json();}),
+ fetch("./episode-04b-ankita-scene02-source.json",{cache:"no-store"}).then(function(r){if(!r.ok)throw Error("Ankita Scene 02 "+r.status);return r.json();})
+]).then(function(x){state.merged=x[0];state.prose=x[1];state.ankitaScene01=x[2];state.ankitaScene03=x[3];state.ankitaScene02=x[4];render();}).catch(function(err){document.getElementById("error").textContent="Could not load saved story data: "+String(err);});
 })();
 </script>
 </body>
