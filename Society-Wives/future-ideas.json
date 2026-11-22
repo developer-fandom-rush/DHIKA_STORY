@@ -195,6 +195,41 @@
       "approval": "AUTHOR_CONFIRMED_FUTURE_REFERENCE_ONLY__NO_DATE_NO_PROSE",
       "nextAction": "When the author explicitly returns to this future idea, recover each woman's existing approved history and separately plan the context, timing, and verbal responses. Keep original scene identifiers as archived references, not current 04B actions.",
       "pacingIntent": "Author wants this group seduction/acting game much later, roughly 10–15 episodes after Shreya EP04B if the organic relationship buildup warrants it; this is an approximate editorial horizon, not a scheduled episode/date or approved encounter."
+    },
+    {
+      "id": "FI-TANIYA-04B-ORIGINAL-PLOT-ARCHIVE-20261122",
+      "lead": "Taniya",
+      "referenceCharacters": [
+        "Taniya",
+        "Guddu",
+        "Punit",
+        "Vivek Suri",
+        "Pradeep Khanna",
+        "Soniya",
+        "Rahul",
+        "Raghav",
+        "Chirag",
+        "Neha",
+        "Andrea"
+      ],
+      "workingTitle": "Episode 04B · Original 2 January outline & working prose — archived intact, FUTURE ONLY",
+      "priority": "AUTHOR_DIRECTED_ARCHIVE_NOT_ACTIVE_CANON",
+      "approval": "ORIGINAL_DRAFT_ARCHIVED__NOT_AUTHOR_APPROVED__SUPERSEDED_FOR_JAN02",
+      "statusCategory": "HISTORICAL_PLOT_PRESERVED_FOR_FUTURE_REUSE",
+      "dateStatus": "UNSCHEDULED_FUTURE__DO_NOT_APPLY_AUTOMATICALLY",
+      "candidateDate": "NOT ASSIGNED",
+      "episodeNumber": "NOT ASSIGNED",
+      "archivePath": "episode-04b-taniya-original-future-archive.json",
+      "originalSource": "Six existing Taniya 04B sources: master merged chronology, integrated Jan02 timeline, office/society Chotu plans, old prose drafts, early Chotu review. Original lead objects copied verbatim as JSON objects. Source files remain unchanged.",
+      "premise": "Preserve ALL original Taniya 04B work intact as historical/future reference: society morning callback, full CA team, office Punit wardrobe/close-pose plan, parallel younger colleagues, after-office Guddu bridal look, Soniya household ending and four working prose drafts. Not the current Jan02 plot after author revision.",
+      "currentStoryLock": "Active Taniya Episode04B instead follows Jan02 empty flat → gym Vivek Rao → Guddu post-gym avoidance → Taniya calls Guddu for gymwear/stretching at home → late on-site sparse CA Friday → senior Vivek Suri encounter → Taniya self-staged office accident and deliberate Punit follow-up.",
+      "prohibitedForCurrentScene": [
+        "Do not bring Soniya/Rahul home on Jan02 without an approved return",
+        "Do not reuse trolley-strap Guddu incident as 04A canon",
+        "Do not put party-attending younger CA colleagues physically in an office designated mostly WFH",
+        "Do not overwrite the author-updated Jan02 plot with any archived original action"
+      ],
+      "nextAction": "Original archive may be selectively revisited only when author explicitly chooses to reassign an event to a future scene; first reconcile with already published Episode04A, office sparse staffing and author-selected action sequence."
     }
   ]
 }
