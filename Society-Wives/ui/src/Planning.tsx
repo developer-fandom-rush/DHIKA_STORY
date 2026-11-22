@@ -112,6 +112,16 @@ function WorkshopDetails({tracks}:{tracks:WorkshopTrack[]}){
 
 type Episode04PublicationIndex={leads:Record<string,{name:string;source:string;publicationStatus:string;publishedSceneIds:string[];completedPlanSceneIds:string[];supersededPlanSceneIds?:string[];pendingPlanSceneIds:string[];publicationScope:string}>};
 
+type Ep05Plan={
+ title:string;status:string;
+ previous:{episode:string;date:string;time:string;event:string};
+ comparison:{id:string;sourceBeat:string;ankitaCoverage:string;already:string;left:string}[];
+ continuityLocks:string[];
+ openDecisions:{id:string;question:string;options:string[];status:string}[];
+ episode05ScenePlan:unknown[];
+};
+
+
 export default function Planning({lead='ankita',part='A'}:{lead?:string;part?:string}){
  const active=leads.find(x=>x===lead)||'ankita';
  const selectedPart=(part==='B'?'A':'A') as 'A'|'B';
@@ -128,6 +138,7 @@ export default function Planning({lead='ankita',part='A'}:{lead?:string;part?:st
  const {data:mergedDay,error:mergedError}=useData<MergedDay>('episode-04b-five-leads-merged-chronology.json');
  const {data:proseDraft,error:proseError}=useData<ProseDraft>('episode-04b-five-leads-prose-drafts.json');
  const {data:unifiedDay,error:unifiedError}=useData<UnifiedDay>('episode-04b-jan02-merged-day-five-leads.json');
+ const {data:episode05,loading:episode05Loading,error:episode05Error}=useData<Ep05Plan>('episode-05-ankita-plan.json');
  const doc=active==='ankita'?ankita:active==='shivani'?shivani:active==='shreya'?shreya:active==='taniya'||active==='soniya'?taniya:null;
  const error=publicationError||ankitaError||shivaniError||shreyaError||taniyaError||workshopError||ankitaArchiveError||officeDayError||societyDayError||continuityError||mergedError||proseError||unifiedError;
  const officeLead=officeDay?.leads.find(x=>x.id===active);
@@ -142,6 +153,45 @@ export default function Planning({lead='ankita',part='A'}:{lead?:string;part?:st
  const completed=new Set(published?.completedPlanSceneIds||[]);
  const superseded=new Set(published?.supersededPlanSceneIds||[]);
  const outstandingScenes=(doc?.scenes||[]).filter(scene=>{const sceneId=scene.id||scene.scene||scene.sceneNumber||scene.number;return !sceneId||(!completed.has(sceneId)&&!superseded.has(sceneId))});
+
+ if(active==='ankita')return <main className="page-width" id="ankita-episode05-planning">
+  <header className="section-intro"><span className="eyebrow">Next planning · Episode 05</span><h1>Ankita · Episode 05 · Plot discussion</h1><p>Episode 04B ends Friday, 2 January 2026 at 02:40 PM. No Episode 05 scenes are approved or written yet.</p></header>
+  <div className="perspective-tabs" role="group" aria-label="Choose character">{leads.map(w=><button key={w} type="button" aria-pressed={active===w} className={active===w?'selected':''} onClick={()=>go(w)}>{titleCase(w)}</button>)}</div>
+  <section className="episode-plan-card" id="ankita-04b-ended">
+   <h2>Ankita · Episode 04B — ended</h2>
+   <p><strong>Story endpoint:</strong> Friday 2 January · 02:40 PM · Ankita leaves the Cyber City office after Rohit's second encounter.</p>
+   <p className="muted">Read Story now contains Scene 01 (Rinku), Scene 02 (home to office), and Scene 03 (Rohit). Closure does not silently freeze editorial revisions. Historical 04B side-plot drafts are not active planning.</p>
+   <button type="button" className="button primary" onClick={()=>openPage('reading',{episode:'04B',character:'ankita',scene:'01'})}>Read complete Episode 04B →</button>
+   <button type="button" className="button subtle" onClick={()=>openPage('reading',{episode:'04A',character:'ankita'})}>Read earlier Episode 04A</button>
+  </section>
+  {episode05Loading&&<p role="status">Loading Ankita Episode 05 planning…</p>}
+  {episode05Error&&<p role="alert" className="error">Episode 05 planning unavailable: {episode05Error}</p>}
+  {episode05&&<>
+   <section className="episode-plan-card" id="ankita-ep05-compare">
+    <h2>Dhika Episode 05 → Ankita: covered vs left</h2>
+    <p className="muted">Dhika's Episode 05 is a reference, not a command to reuse its events. Ankita's knowledge and past choices remain distinct.</p>
+    {episode05.comparison.map((item,i)=><details className="episode-outline" key={item.id} open={item.id==='D05-06'}>
+     <summary><strong>{i+1}. {item.sourceBeat}</strong> · {item.ankitaCoverage.replace(/_/g,' ').toLowerCase()}</summary>
+     <p><strong>Already established:</strong> {item.already}</p>
+     <p><strong>Still open:</strong> {item.left}</p>
+    </details>)}
+   </section>
+   <section className="episode-plan-card" id="ankita-ep05-decisions">
+    <h2>Episode 05 — decisions to discuss</h2>
+    <p className="muted">No scene is decided by this page. These are open alternatives, not prose or an approved timeline.</p>
+    {episode05.openDecisions.map(d=><article key={d.id} className="encounter-card">
+     <h3>{d.question}</h3>
+     <p>{d.options.join(' / ')}</p>
+     <p className="muted">Status: open for author discussion</p>
+    </article>)}
+   </section>
+   <section className="episode-plan-card" id="ankita-ep05-continuity">
+    <h2>Continuity to carry into Episode 05</h2>
+    <div className="continuity-cards">{episode05.continuityLocks.map((note,i)=><p key={i}>{note}</p>)}</div>
+   </section>
+  </>}
+ </main>;
+
  return <main className="page-width">
   <header className="section-intro"><span className="eyebrow">Episode 04A</span><h1>Episode 04A · Story status</h1><p>Completed scenes are in Read Story. Only unfinished Episode 04A scenes, if any, remain here.</p></header>
   <p className="source-note"><strong>Before planning the next scene:</strong> <a href={'#/future-reference?lead='+active}>Future Reference &amp; Locked Decisions</a> — current scene locks, deferred ideas and pending editorial issues, not new story prose.</p>
