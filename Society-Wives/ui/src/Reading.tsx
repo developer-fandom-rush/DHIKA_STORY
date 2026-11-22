@@ -391,7 +391,7 @@ function Shreya04BReading({scene}:Props){
   {error&&<p role="alert" className="error">Shreya 04B source unavailable: {error}</p>}
   {data&&<div className="reader-layout">
    <aside className="scene-sidebar"><p className="aside-title">Shreya · Episode 04B</p>
-    {scenes.map((s,i)=><button key={s.id} className={'scene-link'+(selected?.id===s.id?' active':'')} aria-pressed={selected?.id===s.id} type="button" onClick={()=>go(s.id)}><span>Scene {s.id}<small className="ep03-scene-name">{s.title}</small></span></button>)}
+    {scenes.map(s=><button key={s.id} className={'scene-link'+(selected?.id===s.id?' active':'')} aria-pressed={selected?.id===s.id} type="button" onClick={()=>go(s.id)}><span>Scene {s.id}<small className="ep03-scene-name">{s.title}</small></span></button>)}
     <button type="button" className="button subtle ep03-planning-link" onClick={()=>openPage('planning',{lead:'shreya'})}>Continue Shreya planning →</button>
    </aside>
    <article className="reading-surface source-scene prose-exact">
