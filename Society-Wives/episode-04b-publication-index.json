@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "episode": "04B",
+  "date": "2026-01-02",
+  "status": "ACTIVE_PUBLICATION_INDEX",
+  "instruction": "Reader-only completed scenes are removed from active Planning JSON; keep other characters and unresolved future work unchanged. Author approval to publish a working manuscript does not freeze prose.",
+  "leads": {
+    "ankita": {
+      "name": "Ankita",
+      "source": "episode-04b-ankita-scene01-source.json; episode-04b-ankita-scene02-source.json; episode-04b-ankita-scene03-rohit-source.json",
+      "publicationStatus": "READER_COMPLETE__EDITORIAL_FREEZE_SEPARATE",
+      "publishedSceneIds": [
+        "01",
+        "02",
+        "03"
+      ]
+    },
+    "shreya": {
+      "name": "Shreya",
+      "source": "episode-04b-shreya-source.json",
+      "sourceType": "google-doc-verbatim-with-original-inline-illustrations",
+      "sourceUrl": "https://docs.google.com/document/d/1zcFlF9rWeIzaenBEmatt4K8bw3L-LcH3c_45JwoNM3o/edit?tab=t.xr77c5bqwj1p",
+      "publicationStatus": "AUTHOR_REQUESTED_READER_PUBLICATION__NOT_FINAL_FROZEN",
+      "publishedSceneIds": [
+        "01",
+        "02"
+      ],
+      "completedPlanSceneIds": [
+        "SR-PRE-01",
+        "E04B-SHREYA-MORNING-01",
+        "E04B-SHREYA-01",
+        "E04B-SHREYA-02"
+      ],
+      "pendingPlanSceneIds": [
+        "E04B-SHREYA-03",
+        "E04B-SOC-SR-01",
+        "E04B-SOC-SR-02",
+        "E04B-SOC-SR-03"
+      ],
+      "futureDeferredSceneIds": [
+        "E04B-SHREYA-04",
+        "E04B-SHREYA-05",
+        "E04B-SHREYA-06"
+      ],
+      "originalImageCount": 9,
+      "assetFolder": "assets/episode-04b-shreya/",
+      "scope": "Full author-provided Shreya 4B Google Doc imported verbatim, including original images inline and text including current revisions; only new continuations require planning."
+    }
+  }
+}
