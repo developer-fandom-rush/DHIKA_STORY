@@ -4,6 +4,7 @@ import { openPage, titleCase, useData } from './lib';
 type Beat={id:string;title:string;time?:string;[key:string]:unknown};
 type Scene={id?:string;scene?:string;sceneNumber?:string;number?:string;title:string;start?:string;end?:string;location?:string;beats:Beat[];[key:string]:unknown};
 type PlotDocument={title:string;scenes:Scene[];proseDraft?:{title?:string;url?:string};[key:string]:unknown};
+type Taniya04BPlan=PlotDocument&{status:string;authorLocks:string[];unassigned:Record<string,string>;originalPlotFutureArchive:string};
 type WorkshopTrack={chotu:string;lane?:string;setting?:string;a:Record<string,unknown>;b:Record<string,unknown>};
 type Workshop={leads:{id:string;name:string;tracks:WorkshopTrack[]}[]};
 type AnkitaArchive={tracks:WorkshopTrack[]};
@@ -124,12 +125,13 @@ type Ep05Plan={
 
 export default function Planning({lead='ankita',part='A'}:{lead?:string;part?:string}){
  const active=leads.find(x=>x===lead)||'ankita';
- const selectedPart=(part==='B'?'A':'A') as 'A'|'B';
+ const selectedPart=(active==='taniya'&&part==='B'?'B':'A') as 'A'|'B';
  const {data:publicationIndex,error:publicationError,loading:publicationLoading}=useData<Episode04PublicationIndex>('episode-04a-publication-index.json');
  const {data:ankita,error:ankitaError}=useData<PlotDocument>('episode-04a-ankita-plan.json');
  const {data:shivani,error:shivaniError}=useData<PlotDocument>('episode-04a-shivani-plan.json');
  const {data:shreya,error:shreyaError}=useData<PlotDocument>('episode-04a-shreya-night-plan.json');
  const {data:taniya,error:taniyaError}=useData<PlotDocument>('episode-04a-taniya-soniya-night-review.json');
+ const {data:taniya04B,error:taniya04BError,loading:taniya04BLoading}=useData<Taniya04BPlan>('episode-04b-taniya-author-updated-plan.json');
  const {data:workshop,error:workshopError}=useData<Workshop>('episode-04-chotu-six-leads-review.json');
  const {data:ankitaArchive,error:ankitaArchiveError}=useData<AnkitaArchive>('episode-04b-ankita-chotu-archive.json');
  const {data:officeDay,error:officeDayError}=useData<OfficeMaster>('episode-04b-office-chotu-jan02-five-leads.json');
@@ -140,7 +142,7 @@ export default function Planning({lead='ankita',part='A'}:{lead?:string;part?:st
  const {data:unifiedDay,error:unifiedError}=useData<UnifiedDay>('episode-04b-jan02-merged-day-five-leads.json');
  const {data:episode05,loading:episode05Loading,error:episode05Error}=useData<Ep05Plan>('episode-05-ankita-plan.json');
  const doc=active==='ankita'?ankita:active==='shivani'?shivani:active==='shreya'?shreya:active==='taniya'||active==='soniya'?taniya:null;
- const error=publicationError||ankitaError||shivaniError||shreyaError||taniyaError||workshopError||ankitaArchiveError||officeDayError||societyDayError||continuityError||mergedError||proseError||unifiedError;
+ const error=publicationError||ankitaError||shivaniError||shreyaError||taniyaError||(active==='taniya'&&selectedPart==='B'&&taniya04BError)||workshopError||ankitaArchiveError||officeDayError||societyDayError||continuityError||mergedError||proseError||unifiedError;
  const officeLead=officeDay?.leads.find(x=>x.id===active);
  const societyLead=societyDay?.leads.find(x=>x.id===active);
  const continuityRecord=continuity?.leads.find(x=>x.id===active);
@@ -148,7 +150,7 @@ export default function Planning({lead='ankita',part='A'}:{lead?:string;part?:st
  const proseChapter=proseDraft?.chapters.find(x=>x.id===active);
  const unifiedLead=unifiedDay?.leads.find(x=>x.id===active);
  const tracks=active==='meenakshi'?[]:active==='ankita'?(ankitaArchive?.tracks||[]):(workshop?.leads.find(x=>x.id===active)?.tracks||[]);
- const go=(who:string=active,_p:'A'|'B'=selectedPart)=>openPage('planning',{lead:who,part:'A'});
+ const go=(who:string=active,p:'A'|'B'=selectedPart)=>openPage('planning',{lead:who,part:who==='taniya'?p:'A'});
  const published=publicationIndex?.leads[active];
  const completed=new Set(published?.completedPlanSceneIds||[]);
  const superseded=new Set(published?.supersededPlanSceneIds||[]);
@@ -193,7 +195,7 @@ export default function Planning({lead='ankita',part='A'}:{lead?:string;part?:st
  </main>;
 
  return <main className="page-width">
-  <header className="section-intro"><span className="eyebrow">Episode 04A</span><h1>Episode 04A · Story status</h1><p>Completed scenes are in Read Story. Only unfinished Episode 04A scenes, if any, remain here.</p></header>
+  <header className="section-intro"><span className="eyebrow">{selectedPart==='B'?'Episode 04B · Friday 2 January 2026':'Episode 04A'}</span><h1>{selectedPart==='B'?'Taniya · Episode 04B · Plot discussion':'Episode 04A · Story status'}</h1><p>{selectedPart==='B'?'Author-supplied new plot sequence · discussion only; no prose published. Original 04B preserved intact in Future Reference.':'Completed scenes are in Read Story. Only unfinished Episode 04A scenes, if any, remain here.'}</p></header>
   <p className="source-note"><strong>Before planning the next scene:</strong> <a href={'#/future-reference?lead='+active}>Future Reference &amp; Locked Decisions</a> — current scene locks, deferred ideas and pending editorial issues, not new story prose.</p>
 
   {active==='shreya'&&selectedPart==='A'&&<section className="episode-plan-card" id="shreya-04a-author-manuscript">
@@ -210,6 +212,10 @@ export default function Planning({lead='ankita',part='A'}:{lead?:string;part?:st
    <button type="button" className="button primary" onClick={()=>openPage('reading',{episode:'04A',character:'shreya'})}>Read full Shreya 04A →</button>
   </section>}
   <div className="perspective-tabs" role="group" aria-label="Choose character">{leads.map(w=><button key={w} type="button" aria-pressed={active===w} className={active===w?'selected':''} onClick={()=>go(w)}>{titleCase(w)}</button>)}</div>
+  {active==='taniya'&&<div className="episode-picker" role="group" aria-label="Choose Taniya episode planning">
+   <button type="button" className={selectedPart==='A'?'episode-picker-current':''} aria-pressed={selectedPart==='A'} onClick={()=>go('taniya','A')}>04A · Completed</button>
+   <button type="button" className={selectedPart==='B'?'episode-picker-current':''} aria-pressed={selectedPart==='B'} onClick={()=>go('taniya','B')}>04B · 2 January · Active plot</button>
+  </div>}
   {error&&<p role="alert" className="error">Some planning sources could not load: {error}</p>}
   {selectedPart==='A'&&published&&<section className="episode-plan-card" id={'episode04-published-status-'+active} aria-label="Published prose status">
    <h2>{titleCase(active)} · Episode 04A</h2>
@@ -231,6 +237,17 @@ export default function Planning({lead='ankita',part='A'}:{lead?:string;part?:st
     {(doc.scenes||[]).map((s,i)=><SceneDetails key={s.id||s.scene||i} scene={s} index={i}/>)}
     {doc.proseDraft?.url&&<p className="source-note"><strong>Working prose draft:</strong> <a href={doc.proseDraft.url} target="_blank" rel="noreferrer">{doc.proseDraft.title||'Open draft prose'}</a></p>}
    </section>:<p role="status">Loading Episode 04A plot…</p>}</>)
+   :active==='taniya'?(taniya04B?<section id="episode04-next-day">
+      <h2>{taniya04B.title}</h2>
+      <p className="muted">Friday 2 January 2026 · Author-directed plot only · Scene prose has NOT been approved or published.</p>
+      <p><strong>Current focus:</strong> empty flat → Vivek Rao gym → Guddu society/home → later CA office → Vivek Suri senior lane → Punit staged accident and deliberate follow-up.</p>
+      <div className="continuity-cards">{taniya04B.scenes.map((scene,i)=><SceneDetails key={scene.id} scene={scene} index={i}/>)}</div>
+      <section className="episode-plan-card">
+       <h3>Open staging questions (no assumptions)</h3>
+       {Object.entries(taniya04B.unassigned).map(([key,value])=><p key={key}><strong>{human(key)}:</strong> {value}</p>)}
+      </section>
+      <p className="source-note"><strong>Historical plot archived unchanged:</strong> <a href="#/future-reference?lead=taniya">Taniya Future Reference</a>. Do not use old full-team / post-office Guddu drafts as current 04B scenes.</p>
+     </section>:<p role="status">{taniya04BLoading?'Loading author-updated Taniya Episode 04B plot…':'Taniya Episode 04B plot is unavailable; check repository for source.'}</p>)
    :officeLead?<section id="episode04-next-day"><h2>Episode 04B · {titleCase(active)} · Full-day plot and prose</h2>
      <p className="muted">2 January 2026 · {officeLead.office} · Office shift: {officeLead.workday} · Twins absent</p>
      <p><strong>Office Chotu:</strong> {officeLead.chotu.name} · {officeLead.chotu.role}</p>
