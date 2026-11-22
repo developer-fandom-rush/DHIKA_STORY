@@ -62,7 +62,8 @@
       "No auto-repeat of Karan/Aman January 1 arrival"
     ],
     "entry": "Taniya has noticed her missing garment set in an author-directed pre-gym discovery beat; Soniya/Rahul are away; she is supposed to work at sparsely attended CA office later.",
-    "exit": "Taniya leaves gym after a voluntary, more confident interaction; Guddu observes her at the society common passage and avoids eye contact in next Scene 03."
+    "exit": "Taniya leaves gym after a voluntary, more confident interaction; Guddu observes her at the society common passage and avoids eye contact in next Scene 03.",
+    "coreNewAccident": "Author selected ONE unplanned partner-drill fall: Taniya lands on Vivek's abdomen, his hands come to rest below bust level and pause, she notices unexpected pressure/jolt at her rear, Vivek teases about private training requiring extra time/fees. Exact cause, geometric feasibility, consent/reaction, and meaning of 'jerk inside her' remain open; no penetration assumed."
   },
   "preGymBridge": {
     "sourceFact": "On January 1 Subhash stole two bra-and-panty sets from shared laundry (one Taniya, one Soniya), falsely assuming both Soniya's; neither woman learned about the theft then.",
@@ -80,21 +81,21 @@
     "possibleInsertPositions": [
       {
         "id": "SW04B-TANIYA-GYM-X01",
-        "afterBeat": "TAN04B-02.4.3",
-        "beforeBeat": "TAN04B-02.4.4",
-        "anchor": "At the not-yet-selected next contact moment after mutual exercise setup, before its observable immediate response",
+        "afterBeat": "TAN04B-02.4.4",
+        "beforeBeat": "TAN04B-02.4.5",
+        "anchor": "Reserved boundary after workout setup and before the single accidental loss of balance; exact author-selected description pending",
         "marker": "[GRAPHICAL DESCRIPTION REQUIRED]",
-        "assignment": "UNASSIGNED — author must select exact named action, participants, limits and position first",
-        "status": "RESERVED_ONLY__NOT_SENDABLE_TO_EXTERNAL_WRITER"
+        "assignment": "UNASSIGNED; author-supplied fall/contact facts tracked separately in neutral ledger. No graphic-writing instructions.",
+        "status": "RESERVED_ONLY__NOT_SENDABLE"
       },
       {
         "id": "SW04B-TANIYA-GYM-X02",
-        "afterBeat": "TAN04B-02.4.4",
-        "beforeBeat": "TAN04B-02.5.1",
-        "anchor": "At any author-selected moment of additional adult visual description after an approved interaction and before gym departure",
+        "afterBeat": "TAN04B-02.4.9",
+        "beforeBeat": "TAN04B-02.4.10",
+        "anchor": "Reserved after Vivek's joke and before regaining footing; Taniya's reaction, exact contact release, and POV pending author discussion",
         "marker": "[GRAPHICAL DESCRIPTION REQUIRED]",
         "assignment": "OPTIONAL — do not add unless author selects a specific content slot",
-        "status": "OPTIONAL_PLACEHOLDER__NOT_APPROVED"
+        "status": "OPTIONAL_UNASSIGNED__NOT_SENDABLE"
       }
     ],
     "requested_style": "Author-selected mature Hinglish scene voice, continuity-accurate character differentiation, event-led pacing, no repetitive filler; independent external author controls their own prose",
@@ -123,16 +124,6 @@
       "status": "AUTHOR_REVIEW"
     },
     {
-      "id": "OD03",
-      "subject": "Physical progression exact action",
-      "options": [
-        "Voluntary extended assisted exercise with Taniya initiating an additional trainer correction and clearly selected support contact",
-        "New partner-assisted balance/stretch with mutual support from both parties"
-      ],
-      "status": "AUTHOR_REVIEW",
-      "note": "Prior Jan1 waist/hip/outer thigh corrections already occurred. Any stronger change must be author-selected and cannot be invented as canon."
-    },
-    {
       "id": "OD04",
       "subject": "Gym crowd",
       "options": [
@@ -141,6 +132,13 @@
       ],
       "status": "AUTHOR_REVIEW",
       "note": "No automatic Karan/Aman cameo."
+    },
+    {
+      "id": "OD03",
+      "subject": "Single fall in partner resistance drill",
+      "status": "AUTHOR_LOCKED_CORE_EVENT__STAGING_PENDING",
+      "locked": "Unplanned fall, abdominal landing, hands pause at under-bust area, unexpected pressure/jolt, Vivek's private-training joke",
+      "unresolved": "Precise cause/positions, Taniya's immediate response, whether continued contact is mutually welcome, and interpretation of ambiguous 'jerk inside her'; do not invent penetration."
     }
   ],
   "micro_beats": [
@@ -403,7 +401,181 @@
       "receiver": "Taniya / Vivek Rao (RECEIVER PENDING)",
       "entry_state": "Only after Taniya's chosen support and Vivek's agreement; no new contact yet",
       "exit_state": "Contact ends at the first requested boundary; immediate reactions recorded after author chooses action",
-      "next_beat_anchor": "SW04B-TANIYA-GYM-X01 / TAN04B-02.3.2"
+      "next_beat_anchor": "TAN04B-02.4.5"
+    },
+    {
+      "source_status": "AUTHOR_DIRECTED_PLOT_EVENT__STAGING_FOR_REVIEW",
+      "time": "Friday 2 January 2026, morning; exact clock UNSPECIFIED",
+      "location": "Gulmohar Heights society gym",
+      "sound": "UNSPECIFIED",
+      "temperature_or_environment": "UNSPECIFIED",
+      "clothing_state": "Both remain in chosen gymwear throughout; garment adjustment or removal not specified.",
+      "object_state": "Exercise props and exact fall cause UNSPECIFIED",
+      "physical_response": "Both fall unexpectedly (author direction)",
+      "emotional_response": "UNSPECIFIED unless stated",
+      "pov": "External / Taniya-limited (review required)",
+      "thought_or_interpretation": "UNSPECIFIED; do not invent reciprocated desire",
+      "visible_response": "Unexpected loss of balance; no staged accident",
+      "knowledge_limit": "No private thoughts assigned to Vivek or inferred consent to sustained contact. No penetration or additional sexual act is established by ambiguous phrasing.",
+      "writer_assignment": "Unassigned; neutral plot ledger only, not an explicit prose brief",
+      "requested_style": "One believable interruption and awkward, teasing Hinglish; no filler or repeated falls",
+      "target_word_count": "Concise unless independently selected by author",
+      "approval_status": "AUTHOR_SPECIFIED_EVENT__EXECUTION_NOT_APPROVED",
+      "micro_beat_id": "TAN04B-02.4.5",
+      "parent_beat_id": "02.4",
+      "primary_action": "During the assisted partner drill, both unexpectedly lose balance in ONE accident",
+      "actor": "Taniya and Vivek Rao",
+      "receiver": "Each other",
+      "entry_state": "Exercise support underway, both still standing; cause of imbalance not specified",
+      "position": "Standing partner drill → loss of balance; which foot slips and order of descent UNSPECIFIED",
+      "contact_or_touch": "Training support transitions into inadvertent fall; exact hand positions during descent UNSPECIFIED",
+      "exit_state": "Vivek is on the floor; Taniya continues into landing",
+      "next_beat_anchor": "TAN04B-02.4.6"
+    },
+    {
+      "source_status": "AUTHOR_DIRECTED_PLOT_EVENT__STAGING_FOR_REVIEW",
+      "time": "Friday 2 January 2026, morning; exact clock UNSPECIFIED",
+      "location": "Gulmohar Heights society gym",
+      "sound": "UNSPECIFIED",
+      "temperature_or_environment": "UNSPECIFIED",
+      "clothing_state": "Both remain in chosen gymwear throughout; garment adjustment or removal not specified.",
+      "object_state": "Exercise props and exact fall cause UNSPECIFIED",
+      "physical_response": "Landing contact occurs",
+      "emotional_response": "UNSPECIFIED unless stated",
+      "pov": "External / Taniya-limited (review required)",
+      "thought_or_interpretation": "UNSPECIFIED; do not invent reciprocated desire",
+      "visible_response": "UNSPECIFIED",
+      "knowledge_limit": "The exact positions of limbs and pelvic contact are not established; don't invent anatomical effects.",
+      "writer_assignment": "Unassigned; neutral plot ledger only, not an explicit prose brief",
+      "requested_style": "One believable interruption and awkward, teasing Hinglish; no filler or repeated falls",
+      "target_word_count": "Concise unless independently selected by author",
+      "approval_status": "AUTHOR_SPECIFIED_EVENT__EXECUTION_NOT_APPROVED",
+      "micro_beat_id": "TAN04B-02.4.6",
+      "parent_beat_id": "02.4",
+      "primary_action": "Taniya lands across Vivek's abdominal/stomach area",
+      "actor": "Taniya",
+      "receiver": "Vivek Rao",
+      "entry_state": "Both have lost balance; Vivek is on floor",
+      "position": "Taniya falls onto Vivek's abdomen; exact rotation and supporting limbs need physical-geometry review",
+      "contact_or_touch": "Brief accidental body-to-body contact due to landing",
+      "exit_state": "Both are momentarily in an awkward close position",
+      "next_beat_anchor": "TAN04B-02.4.7"
+    },
+    {
+      "source_status": "AUTHOR_DIRECTED_PLOT_EVENT__STAGING_FOR_REVIEW",
+      "time": "Friday 2 January 2026, morning; exact clock UNSPECIFIED",
+      "location": "Gulmohar Heights society gym",
+      "sound": "UNSPECIFIED",
+      "temperature_or_environment": "UNSPECIFIED",
+      "clothing_state": "Both remain in chosen gymwear throughout; garment adjustment or removal not specified.",
+      "object_state": "Exercise props and exact fall cause UNSPECIFIED",
+      "physical_response": "UNSPECIFIED unless stated",
+      "emotional_response": "UNSPECIFIED unless stated",
+      "pov": "External / Taniya-limited (review required)",
+      "thought_or_interpretation": "UNSPECIFIED; do not invent reciprocated desire",
+      "visible_response": "Hands remain at the position rather than immediately withdrawing; Taniya's reaction/permission unspecified",
+      "knowledge_limit": "Do not infer that either person has consented to prolonged intimate contact simply because the fall was accidental.",
+      "writer_assignment": "Unassigned; neutral plot ledger only, not an explicit prose brief",
+      "requested_style": "One believable interruption and awkward, teasing Hinglish; no filler or repeated falls",
+      "target_word_count": "Concise unless independently selected by author",
+      "approval_status": "AUTHOR_SPECIFIED_EVENT__EXECUTION_NOT_APPROVED",
+      "micro_beat_id": "TAN04B-02.4.7",
+      "parent_beat_id": "02.4",
+      "primary_action": "Vivek's hands end up supporting Taniya near the lower chest / under-bust area, and remain there for a pause",
+      "actor": "Vivek Rao",
+      "receiver": "Taniya",
+      "entry_state": "Taniya has landed across Vivek's abdomen",
+      "position": "Both on floor; hands at under-bust/lower-rib area, exact garment coverage and why the hands stay there UNSPECIFIED",
+      "contact_or_touch": "Author specified: contact beneath bust level, sustained briefly after the fall; support vs intentional lingering needs author review",
+      "exit_state": "Contact persists for a brief pause",
+      "next_beat_anchor": "TAN04B-02.4.8"
+    },
+    {
+      "source_status": "AUTHOR_DIRECTED_PLOT_EVENT__STAGING_FOR_REVIEW",
+      "time": "Friday 2 January 2026, morning; exact clock UNSPECIFIED",
+      "location": "Gulmohar Heights society gym",
+      "sound": "UNSPECIFIED",
+      "temperature_or_environment": "UNSPECIFIED",
+      "clothing_state": "Both remain in chosen gymwear throughout; garment adjustment or removal not specified.",
+      "object_state": "Exercise props and exact fall cause UNSPECIFIED",
+      "physical_response": "Brief jolt and noticed pressure are author-provided; no further bodily action inferred",
+      "emotional_response": "UNSPECIFIED unless stated",
+      "pov": "External / Taniya-limited (review required)",
+      "thought_or_interpretation": "UNSPECIFIED; do not invent reciprocated desire",
+      "visible_response": "UNSPECIFIED",
+      "knowledge_limit": "The stated sensation is not evidence of penetration or intentional thrusting. Neither of these acts is added.",
+      "writer_assignment": "Unassigned; neutral plot ledger only, not an explicit prose brief",
+      "requested_style": "One believable interruption and awkward, teasing Hinglish; no filler or repeated falls",
+      "target_word_count": "Concise unless independently selected by author",
+      "approval_status": "AUTHOR_SPECIFIED_EVENT__EXECUTION_NOT_APPROVED",
+      "micro_beat_id": "TAN04B-02.4.8",
+      "parent_beat_id": "02.4",
+      "primary_action": "Taniya perceives unexpected pressure/poking at her rear and a brief jolt during the fall aftermath",
+      "actor": "Taniya",
+      "receiver": "Self (sensation from unintended close contact)",
+      "entry_state": "Both on floor in awkward contact",
+      "position": "Physical origin and exact geometry of pressure UNSPECIFIED; do not infer penetration",
+      "contact_or_touch": "Author's 'something poking her bum / jerk inside her' wording is ambiguous; register only a perceived unexpected pressure and jolt until clarified",
+      "exit_state": "Taniya notices an awkward sensation; interpretation not established",
+      "next_beat_anchor": "TAN04B-02.4.9"
+    },
+    {
+      "source_status": "AUTHOR_DIRECTED_PLOT_EVENT__STAGING_FOR_REVIEW",
+      "time": "Friday 2 January 2026, morning; exact clock UNSPECIFIED",
+      "location": "Gulmohar Heights society gym",
+      "sound": "Author's Hinglish joke: 'Yeh private training hai—extra fees aur time lagega.' Exact wording can be author adjusted",
+      "temperature_or_environment": "UNSPECIFIED",
+      "clothing_state": "Both remain in chosen gymwear throughout; garment adjustment or removal not specified.",
+      "object_state": "Exercise props and exact fall cause UNSPECIFIED",
+      "physical_response": "UNSPECIFIED unless stated",
+      "emotional_response": "UNSPECIFIED unless stated",
+      "pov": "External / Taniya-limited (review required)",
+      "thought_or_interpretation": "UNSPECIFIED; do not invent reciprocated desire",
+      "visible_response": "Vivek speaks teasingly; Taniya's reaction not specified",
+      "knowledge_limit": "Joke does not establish permission for continuing bodily contact.",
+      "writer_assignment": "Unassigned; neutral plot ledger only, not an explicit prose brief",
+      "requested_style": "One believable interruption and awkward, teasing Hinglish; no filler or repeated falls",
+      "target_word_count": "Concise unless independently selected by author",
+      "approval_status": "AUTHOR_SPECIFIED_EVENT__EXECUTION_NOT_APPROVED",
+      "micro_beat_id": "TAN04B-02.4.9",
+      "parent_beat_id": "02.4",
+      "primary_action": "Vivek makes the private-training extra-fee-and-time joke",
+      "actor": "Vivek Rao",
+      "receiver": "Taniya",
+      "entry_state": "After unexpected fall and short pause",
+      "position": "Still recovering from fall; whether separated before speaking UNSPECIFIED",
+      "contact_or_touch": "No new contact initiated by this dialogue beat",
+      "exit_state": "Humorous double entendre lands, requiring a response/physical reset before gym exit",
+      "next_beat_anchor": "TAN04B-02.4.10"
+    },
+    {
+      "source_status": "GPT_CONNECTIVE_PROPOSAL__AUTHOR_REVIEW_REQUIRED",
+      "time": "Friday 2 January 2026, morning; exact clock UNSPECIFIED",
+      "location": "Gulmohar Heights society gym",
+      "sound": "UNSPECIFIED",
+      "temperature_or_environment": "UNSPECIFIED",
+      "clothing_state": "Both remain in chosen gymwear throughout; garment adjustment or removal not specified.",
+      "object_state": "Exercise props and exact fall cause UNSPECIFIED",
+      "physical_response": "UNSPECIFIED unless stated",
+      "emotional_response": "UNSPECIFIED unless stated",
+      "pov": "External / Taniya-limited (review required)",
+      "thought_or_interpretation": "UNSPECIFIED; do not invent reciprocated desire",
+      "visible_response": "Reaction to joke and contact not yet selected",
+      "knowledge_limit": "No private thoughts assigned to Vivek or inferred consent to sustained contact. No penetration or additional sexual act is established by ambiguous phrasing.",
+      "writer_assignment": "Unassigned; neutral plot ledger only, not an explicit prose brief",
+      "requested_style": "One believable interruption and awkward, teasing Hinglish; no filler or repeated falls",
+      "target_word_count": "Concise unless independently selected by author",
+      "approval_status": "AUTHOR_SPECIFIED_EVENT__EXECUTION_NOT_APPROVED",
+      "micro_beat_id": "TAN04B-02.4.10",
+      "parent_beat_id": "02.4",
+      "primary_action": "Both safely separate and regain their standing positions",
+      "actor": "Taniya and Vivek Rao",
+      "receiver": "Each other",
+      "entry_state": "Post-fall situation with unspecific hand contact, joke spoken",
+      "position": "Floor → standing; how they separate remains to be selected",
+      "contact_or_touch": "Any assisting hand is expressly separate from prior accidental/lingering contact; exact assistance TBD",
+      "exit_state": "Training incident concludes; Taniya can choose next gym beat",
+      "next_beat_anchor": "TAN04B-02.3.2"
     },
     {
       "source_status": "AUTHOR_DIRECTION__PHYSICAL_POSITION_UNSPECIFIED",
@@ -432,7 +604,7 @@
       "receiver": "Self / visible to Vivek",
       "entry_state": "Exercise interaction ends; outfit remains in approved layers",
       "exit_state": "Her increased visual confidence registers as an intentional choice",
-      "next_beat_anchor": "SW04B-TANIYA-GYM-X02 / TAN04B-02.5.1"
+      "next_beat_anchor": "TAN04B-02.5.1"
     },
     {
       "source_status": "AUTHOR_LOCKED_EXIT__TIME_OPEN",
@@ -461,7 +633,8 @@
       "receiver": "Self",
       "entry_state": "Workout completed; no kiss and no new approved sexual action",
       "exit_state": "Taniya reaches society exit, next Guddu scene begins in common passage",
-      "next_beat_anchor": "TAN04B-03.1 (Guddu avoidance follows gym)"
+      "next_beat_anchor": "TAN04B-03.1 — Guddu avoids eye contact after gym"
     }
-  ]
+  ],
+  "revisionNote20261122": "Author selected one accidental fall during partner drill; replaces prior generic prolonged-balance-only climax. Separate physical beats preserve ambiguity and consent boundaries. No explicit sexual act is inferred. No prose approved."
 }
