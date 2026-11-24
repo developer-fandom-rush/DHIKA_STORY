@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1100" viewBox="0 0 900 1100">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#efe8e2"/><stop offset="1" stop-color="#d7e1df"/></linearGradient><linearGradient id="sari" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8d1734"/><stop offset="1" stop-color="#5a1027"/></linearGradient></defs>
+<rect width="900" height="1100" fill="url(#bg)"/><rect x="50" y="55" width="800" height="990" rx="38" fill="#fff" opacity=".6"/>
+<text x="450" y="125" text-anchor="middle" font-family="Arial,sans-serif" font-size="34" font-weight="700" fill="#394b46">CITYVIEW MEDICAL CENTRE</text>
+<text x="450" y="168" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" fill="#607d75">INTERNAL MEDICINE · CHARACTER REFERENCE</text>
+<ellipse cx="450" cy="420" rx="180" ry="205" fill="#c88e72"/><path d="M285 397c-8-170 67-263 168-263 112 0 187 99 171 270-37-73-95-118-171-122-77-4-128 35-168 115z" fill="#30221f"/><ellipse cx="450" cy="178" rx="83" ry="49" fill="#30221f"/>
+<circle cx="450" cy="377" r="7" fill="#9b1c32"/><ellipse cx="389" cy="423" rx="16" ry="11" fill="#2b211f"/><ellipse cx="511" cy="423" rx="16" ry="11" fill="#2b211f"/><path d="M413 507q38 23 76 0" fill="none" stroke="#8e454d" stroke-width="8" stroke-linecap="round"/>
+<path d="M265 1010c22-242 82-326 185-326 103 0 163 84 185 326z" fill="#fafafa" stroke="#d6dadd" stroke-width="4"/><path d="M350 700c56 30 110 80 167 195l77-26c-51-136-109-204-180-233z" fill="url(#sari)" opacity=".96"/><path d="M372 690q-22 102 6 186M528 690q22 102-6 186" fill="none" stroke="#263238" stroke-width="12"/><circle cx="378" cy="887" r="23" fill="#b0bec5"/><circle cx="522" cy="887" r="23" fill="#b0bec5"/>
+<rect x="475" y="815" width="145" height="165" rx="10" fill="#f8fbff" stroke="#b0bec5" stroke-width="4"/><text x="548" y="856" text-anchor="middle" font-family="Arial" font-size="18" fill="#234">CITYVIEW</text><text x="548" y="907" text-anchor="middle" font-family="Arial" font-size="25" font-weight="700" fill="#51203a">Dr. Leena</text><text x="548" y="943" text-anchor="middle" font-family="Arial" font-size="19" fill="#455a64">Senior Physician · 39</text>
+<text x="450" y="1068" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#546e7a">Reference visual only · not literal scene evidence</text>
+</svg>
