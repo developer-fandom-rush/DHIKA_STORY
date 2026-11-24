@@ -129,6 +129,38 @@ type Ep05Plan={
 };
 
 
+/** Proposal-only narrative tension cues, drawn from the saved Shivani 04B beats.
+ * This guide deliberately does not approve prose or turn older 04A accident drafts into canon. */
+const shivani04BTensionByScene:Record<string,{kind:string;note:string}>={
+ 'SH-PRE-01':{
+  kind:'Unresolved curiosity — not a physical encounter',
+  note:'Morning bridge is still under review. Latest 04A Reader: Deepu fell silent and left the registration counter unexpectedly; Shivani does NOT know why. Older backdrop-catch language is superseded.'
+ },
+ 'E04B-SHIVANI-PAR-01':{
+  kind:'Verbal attraction / teasing (proposal)',
+  note:'Aarav and Shivani exchange quick faculty banter. No established affair and no invented physical escalation.'
+ },
+ 'E04B-SHIVANI-02':{
+  kind:'Private uncertainty (planned)',
+  note:'Sunny remains reserved during genuine AV work. Shivani has no confirmed knowledge of the unauthorized photo copies.'
+ },
+ 'E04B-SHIVANI-04':{
+  kind:'Adult attraction / physical tension (unapproved prose)',
+  note:'In the saved rehearsal plan, Shivani chooses an outfit reveal and offers a brief upper-back caress only if Sunny willingly agrees. No kiss or coercive workplace staging.'
+ },
+ 'E04B-SHIVANI-PAR-04':{
+  kind:'Verbal attraction (proposal)',
+  note:'Aarav acknowledges noticing Shivani personally. Both remain adult faculty peers; no assumed relationship.'
+ },
+ 'E04B-SOC-SH-02':{
+  kind:'Deliberate mutual tension (unapproved prose)',
+  note:'The saved society plan proposes Shivani showing the event-sari silhouette and a mutually agreed three-count pose with Deepu. No kiss, nudity or further escalation is approved.'
+ },
+ 'E04B-SOC-SH-03':{
+  kind:'After-effect / introspection (proposal)',
+  note:'Her private reaction may carry into the home scene, but Deepu’s intentions are not presented as known facts.'
+ }
+};
 export default function Planning({lead='ankita',part='A'}:{lead?:string;part?:string}){
  const active=leads.find(x=>x===lead)||'ankita';
  const selectedPart=(active==='taniya'&&part==='B'?'B':'A') as 'A'|'B';
@@ -303,7 +335,7 @@ export default function Planning({lead='ankita',part='A'}:{lead?:string;part?:st
      {active==='shreya'&&<p><button type="button" className="button primary" onClick={()=>openPage('reading',{episode:'04B',character:'shreya',scene:'01'})}>Read Shreya 04B · published Doc and 9 images →</button></p>}
      {continuityRecord&&<ContinuityDetails record={continuityRecord} part="B"/>}
      {societyLead&&<div className="episode-plan-card"><h3>Society Chotu continuation · {societyLead.chotu}</h3><p className="muted">After office · {societyLead.societyWindow} · Twins absent</p><p><strong>Chosen styling:</strong> {societyLead.visualSignature}</p><p><strong>Physical choice:</strong> {societyLead.chosenAction}</p><p><strong>Character escalation:</strong> {societyLead.personalEscalation}</p></div>}
-     {(unifiedLead?.chronologicalScenes||mergedLead?.events||[...(officeLead.scenes||[]),...(officeLead.secondaryEncounters||[]),...(societyLead?.scenes||[])].sort((a,b)=>(a.start||'').localeCompare(b.start||''))).filter(s=>active!=='shreya'||!['E04B-SHREYA-04','E04B-SHREYA-05','E04B-SHREYA-06'].includes(s.id||'')).map((s,i)=><SceneDetails key={s.id||i} scene={s} index={i}/>)}
+     {(unifiedLead?.chronologicalScenes||mergedLead?.events||[...(officeLead.scenes||[]),...(officeLead.secondaryEncounters||[]),...(societyLead?.scenes||[])].sort((a,b)=>(a.start||'').localeCompare(b.start||''))).filter(s=>active!=='shreya'||!['E04B-SHREYA-04','E04B-SHREYA-05','E04B-SHREYA-06'].includes(s.id||'')).map((s,i)=><div key={s.id||i}><SceneDetails scene={s} index={i}/>{active==='shivani'&&s.id&&shivani04BTensionByScene[s.id]&&<div className="source-note" style={{borderLeft:'3px solid var(--accent)',paddingLeft:'14px',margin:'0 0 16px'}}><strong>Attraction / erotic tension — planning marker:</strong> <strong>{shivani04BTensionByScene[s.id].kind}</strong><p>{shivani04BTensionByScene[s.id].note}</p><small>Proposal / source distinction only; not a published story beat or approved physical action.</small></div>}</div>)}
      {active==='shreya'?null:unifiedLead?<UnifiedProseDetails scenes={unifiedLead.proseScenes} lead={active}/>:proseChapter?<ProseDetails chapter={proseChapter}/>:null}
     </section>
    :tracks.length?<section id="episode04-next-day"><h2>Episode 04B · {titleCase(active)}</h2><WorkshopDetails tracks={tracks}/></section>
