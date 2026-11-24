@@ -422,6 +422,7 @@ function Shreya04BReading({scene}:Props){
 type Ep04BTaniyaBlock={type:'text'|'image';text?:string;inlineObjectId?:string;sourceElementIndex:number;asset?:string|null;alt?:string};
 type Ep04BTaniyaSource={
  status:string;imageStatus:string;source:{url:string;tabTitle:string};
+ supplementalSources?:{url:string;docId:string;tabId:string;tabTitle:string;revisionId:string;scope:string}[];
  scenes:{id:string;title:string;date:string;time:string;location:string;status:string;blocks:Ep04BTaniyaBlock[]}[];
  editorialFlags?:{issue:string;sourceContext:string;status:string}[];
 };
@@ -433,10 +434,11 @@ function Taniya04BReading({scene}:Props){
  const selected=scenes.find(s=>s.id===scene)||scenes[0];
  const index=scenes.findIndex(s=>s.id===selected?.id);
  const go=(id:string)=>openPage('reading',{episode:'04B',character:'taniya',scene:id});
+ const continuationSource=data?.supplementalSources?.[0];
  return <main className="page-width ep04-final-reader" id="episode04b-taniya-reader">
   <header className="section-intro"><span className="eyebrow">The Story · Friday, 2 January 2026</span>
    <h1>Taniya · Episode 04B</h1>
-   <p>Original author-supplied Gym Scene 01 · work-in-review manuscript, not final frozen prose.</p>
+   <p>Scene 01 original author manuscript + Scenes 02–04 working continuation drafts · review pending, not frozen.</p>
   </header>
   <div className="perspective-tabs" role="group" aria-label="Choose Episode 04B published character">
    <button type="button" onClick={()=>openPage('reading',{episode:'04B',character:'ankita',scene:'01'})}>Ankita</button>
@@ -444,20 +446,20 @@ function Taniya04BReading({scene}:Props){
    <button type="button" className="selected" aria-pressed="true" onClick={()=>go('01')}>Taniya</button>
    <button type="button" onClick={()=>openPage('reading',{episode:'04B',character:'meenakshi',scene:'06'})}>Meenakshi</button>
   </div>
-  <p className="source-note"><strong>Future teaser · Author-directed:</strong> Sexy TANIYA — SOON TO BE MARRIED TO ADITYA… WITH VIVEK BEFORE THE WEDDING. This is a future-story direction, not an event established within the current gym scene.</p>
-  <p className="source-note">Original 4B gym manuscript: <a href={data?.source.url||'https://docs.google.com/document/d/1zcFlF9rWeIzaenBEmatt4K8bw3L-LcH3c_45JwoNM3o/edit?tab=t.ev8l8ayp8dhq'} target="_blank" rel="noopener noreferrer">Taniya 4B Google Doc tab</a>. All existing text remains in source order; editorial duplicates are preserved for author review.</p>
-  {loading&&<p role="status">Loading Taniya Episode 04B gym manuscript…</p>}
-  {error&&<p role="alert" className="error">Taniya 04B manuscript unavailable: {error}</p>}
+  <p className="source-note"><strong>Future teaser · Author-directed:</strong> Sexy TANIYA — SOON TO BE MARRIED TO ADITYA… WITH VIVEK BEFORE THE WEDDING. This remains a future-story direction, not an event established in these current review scenes.</p>
+  <p className="source-note">Scene 01 source: <a href={data?.source.url||'https://docs.google.com/document/d/1zcFlF9rWeIzaenBEmatt4K8bw3L-LcH3c_45JwoNM3o/edit?tab=t.ev8l8ayp8dhq'} target="_blank" rel="noopener noreferrer">original Taniya 4B gym Doc</a>. {continuationSource&&<>Scenes 02–04 source: <a href={continuationSource.url} target="_blank" rel="noopener noreferrer">working TANIYA 4B continuation Doc</a>.</>} All continuation scenes remain review drafts.</p>
+  {loading&&<p role="status">Loading Taniya Episode 04B working reader…</p>}
+  {error&&<p role="alert" className="error">Taniya 04B source unavailable: {error}</p>}
   {data&&<div className="reader-layout">
    <aside className="scene-sidebar"><p className="aside-title">Taniya · Episode 04B</p>
     {scenes.map(s=><button type="button" key={s.id} className={'scene-link'+(selected?.id===s.id?' active':'')} aria-pressed={selected?.id===s.id} onClick={()=>go(s.id)}><span>Scene {s.id}<small className="ep03-scene-name">{s.title}</small></span></button>)}
-    <button type="button" className="button subtle" onClick={()=>openPage('planning',{lead:'taniya',part:'B'})}>Discuss next scene · Guddu →</button>
+    <button type="button" className="button subtle" onClick={()=>openPage('planning',{lead:'taniya',part:'B'})}>Continue Taniya planning →</button>
    </aside>
    <article className="reading-surface source-scene prose-exact">
    {selected&&<>
-    <div className="story-toolbar"><span>Taniya · Scene {selected.id} of {scenes.length} · AUTHOR MANUSCRIPT · REVIEW PENDING</span></div>
+    <div className="story-toolbar"><span>Taniya · Scene {selected.id} of {scenes.length} · {selected.id==='01'?'AUTHOR MANUSCRIPT':'WORKING DRAFT'} · REVIEW PENDING</span></div>
     <div className="ep03-scene-intro"><h2>{selected.title}</h2><p>{selected.date} · {selected.time} · {selected.location}</p></div>
-    {concepts&&concepts.images.length>0&&<section className="episode-plan-card" id="taniya-04b-generated-gym-gallery" style={{margin:'18px 0 28px'}}>
+    {selected.id==='01'&&concepts&&concepts.images.length>0&&<section className="episode-plan-card" id="taniya-04b-generated-gym-gallery" style={{margin:'18px 0 28px'}}>
      <h3>Four previously generated gym images · Visual references</h3>
      <p className="muted">These are the four images generated in this chat, now saved as permanent GitHub assets. They are additional concepts—not the three inline images supplied in the author's Google Doc, and not exact evidence for every action or position in the manuscript.</p>
      <div style={{display:'grid',gridTemplateColumns:'repeat(auto-fit,minmax(240px,1fr))',gap:'16px'}}>
@@ -469,14 +471,18 @@ function Taniya04BReading({scene}:Props){
       </figure>)}
      </div>
     </section>}
-    {conceptsError&&<p role="status" className="source-note">Additional generated gym images are temporarily unavailable. The original Doc images and story are still preserved.</p>}
+    {selected.id==='01'&&conceptsError&&<p role="status" className="source-note">Additional generated gym images are temporarily unavailable. The original Doc images and story are still preserved.</p>}
     {selected.blocks.map((b,i)=>b.type==='image'
       ?<figure key={'source-illustration-'+(b.inlineObjectId||i)} className="ep04-shreya-inline-image" style={{margin:'22px auto',maxWidth:'760px',textAlign:'center'}}>
          {b.asset?<a href={assetUrl(b.asset)} target="_blank" rel="noopener noreferrer"><img loading="lazy" src={assetUrl(b.asset)} alt={b.alt||'Taniya 04B original Doc illustration'} style={{display:'block',width:'100%',height:'auto',borderRadius:'12px'}}/></a>:<p className="source-note">Original source illustration is being imported (ID {b.inlineObjectId}).</p>}
        </figure>
-      :b.type==='text'&&b.text?.trim()?<p key={'source-text-'+i} className="ep03-paragraph" style={{whiteSpace:'pre-wrap',overflowWrap:'anywhere'}}>{storyInline(b.text.replace(/\u000b/g,'\n').trimEnd())}</p>:null)}
-    <p className="source-note">Next: Taniya's post-gym Guddu encounter · planning only; no Scene 02 prose published yet.</p>
-    <div className="chapter-controls"><button type="button" className="button subtle" disabled={index<=0} onClick={()=>go(scenes[index-1]?.id)}>← Previous scene</button><span>Scene {index+1} of {scenes.length}</span><button type="button" className="button primary" onClick={()=>openPage('planning',{lead:'taniya',part:'B'})}>Discuss Scene 02 (Guddu) →</button></div>
+      :b.type==='text'&&b.text?.trim()?<p key={'source-text-'+i} className="ep03-paragraph" style={{whiteSpace:'pre-wrap',overflowWrap:'anywhere',...(b.text.includes('GROK INSERT')?{borderLeft:'4px solid #c08a23',backgroundColor:'rgba(221,162,43,0.14)',padding:'12px 14px',borderRadius:'8px'}:{})}}>{storyInline(b.text.replace(/\u000b/g,'\n').trimEnd())}</p>:null)}
+    {selected.id==='04'?<p className="source-note"><strong>GROK expansion slot:</strong> one small sensory beat is highlighted above. Expand only that beat; preserve the accident → deliberate-risk sequence and current outcome.</p>:<p className="source-note">Working continuation · review pending. Nothing here is marked final/frozen.</p>}
+    <div className="chapter-controls">
+     <button type="button" className="button subtle" disabled={index<=0} onClick={()=>go(scenes[index-1]?.id)}>← Previous scene</button>
+     <span>Scene {index+1} of {scenes.length}</span>
+     <button type="button" className="button primary" onClick={()=>index<scenes.length-1?go(scenes[index+1].id):openPage('planning',{lead:'taniya',part:'B'})}>{index<scenes.length-1?'Next scene →':'Continue planning →'}</button>
+    </div>
    </>}
    </article>
   </div>}
