@@ -379,3 +379,13 @@ Use the exact label **Changed by GPT** in the Git commit message AND add a dated
 - **Shreya:** does not jump straight to anger; she separates Arvind's genuine past care from the newly confirmed privacy violations/sexual fixation and decides to compare facts with Ankita first.
 - **Ankita:** has fewer facts, connects the visible arousal, “unhe poora pata nahi hai” line and disturbed damaged parcel, and chooses investigation before confrontation.
 - **UI scope:** detailed meeting/discovery prose stays in the source Google Doc for now; the reader carries only the established lead-up plus this concise next-morning reaction note.
+
+
+## 2026-11-24 — Changed by GPT — Taniya 04B working continuation + GROK expansion beat
+- **Author direction:** Continue Taniya Episode 04B through Guddu, Vivek Suri office review, and Punit's office sequence; first Punit event remains a genuine accident, followed by a separate deliberate risk choice.
+- **Working Google Doc:** updated the TANIYA 4B continuation tab with Scene 04 and corrected office outfit continuity to a dark-plum wrap cropped blouse + charcoal tailored skirt + beige blazer so the later midriff/navel presentation is mechanically consistent.
+- **Scene 04 visual lock:** deliberate follow-up uses roughly **50% upper-bust/cleavage visibility plus visible abs/navel**. This is recorded as a working review draft, not final/frozen canon.
+- **GROK INSERT:** added one small expansion slot inside Scene 04 for Punit's observable concentration break and Taniya's intensified sensory/body-awareness. The insert is constrained to expand texture only; no new touch, changed clothing state, dialogue outcome or scene ending.
+- **Reader source:** `Society-Wives/episode-04b-taniya-gym-source.json` now preserves Scene 01 original author manuscript and adds Scenes 02–04 as GPT working drafts synced from the continuation Google Doc.
+- **UI:** `Society-Wives/ui/src/Reading.tsx` now exposes Taniya Scenes 01–04, labels continuation scenes as working drafts, links both source Docs, limits gym concept images to Scene 01, and highlights the GROK INSERT beat in Scene 04.
+- **Status:** review pending; nothing in Scenes 02–04 is marked approved/frozen.
