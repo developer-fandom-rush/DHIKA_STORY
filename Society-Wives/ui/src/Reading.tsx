@@ -324,6 +324,7 @@ function Episode04BAnkitaReading({scene}:Props){
    <button type="button" className="selected" aria-pressed="true" onClick={()=>go('01')}>Ankita</button>
    <button type="button" onClick={()=>openPage('reading',{episode:'04B',character:'shreya',scene:'01'})}>Shreya</button>
    <button type="button" onClick={()=>openPage('reading',{episode:'04B',character:'taniya',scene:'01'})}>Taniya</button>
+   <button type="button" onClick={()=>openPage('reading',{episode:'04B',character:'meenakshi',scene:'06'})}>Meenakshi</button>
   </div>
   <div className="reader-layout">
    <aside className="scene-sidebar"><p className="aside-title">Ankita · Episode 04B</p>
@@ -394,6 +395,7 @@ function Shreya04BReading({scene}:Props){
    <button type="button" onClick={()=>openPage('reading',{episode:'04B',character:'ankita',scene:'01'})}>Ankita</button>
    <button type="button" className="selected" aria-pressed="true" onClick={()=>go('01')}>Shreya</button>
    <button type="button" onClick={()=>openPage('reading',{episode:'04B',character:'taniya',scene:'01'})}>Taniya</button>
+   <button type="button" onClick={()=>openPage('reading',{episode:'04B',character:'meenakshi',scene:'06'})}>Meenakshi</button>
   </div>
   <p className="source-note">Original manuscript: <a href={data?.source.url||'https://docs.google.com/document/d/1zcFlF9rWeIzaenBEmatt4K8bw3L-LcH3c_45JwoNM3o/edit?tab=t.xr77c5bqwj1p'} target="_blank" rel="noopener noreferrer">Shreya 4B Google Doc</a>. Text and source illustrations are placed in document order. Editorial approval/freeze is separate.</p>
   {loading&&<p role="status">Loading Shreya Episode 04B…</p>}
@@ -440,6 +442,7 @@ function Taniya04BReading({scene}:Props){
    <button type="button" onClick={()=>openPage('reading',{episode:'04B',character:'ankita',scene:'01'})}>Ankita</button>
    <button type="button" onClick={()=>openPage('reading',{episode:'04B',character:'shreya',scene:'01'})}>Shreya</button>
    <button type="button" className="selected" aria-pressed="true" onClick={()=>go('01')}>Taniya</button>
+   <button type="button" onClick={()=>openPage('reading',{episode:'04B',character:'meenakshi',scene:'06'})}>Meenakshi</button>
   </div>
   <p className="source-note"><strong>Future teaser · Author-directed:</strong> Sexy TANIYA — SOON TO BE MARRIED TO ADITYA… WITH VIVEK BEFORE THE WEDDING. This is a future-story direction, not an event established within the current gym scene.</p>
   <p className="source-note">Original 4B gym manuscript: <a href={data?.source.url||'https://docs.google.com/document/d/1zcFlF9rWeIzaenBEmatt4K8bw3L-LcH3c_45JwoNM3o/edit?tab=t.ev8l8ayp8dhq'} target="_blank" rel="noopener noreferrer">Taniya 4B Google Doc tab</a>. All existing text remains in source order; editorial duplicates are preserved for author review.</p>
@@ -479,8 +482,71 @@ function Taniya04BReading({scene}:Props){
   </div>}
  </main>;
 }
+
+type Ep04BMeenakshiBlock={
+ type:'heading'|'text'|'dialogue'|'thought'|'image';
+ text?:string;speaker?:string;asset?:string;alt?:string;caption?:string;
+};
+type Ep04BMeenakshiSource={
+ title:string;status:string;
+ scenes:{id:string;title:string;time:string;location:string;blocks:Ep04BMeenakshiBlock[]}[];
+};
+function Meenakshi04BReading({scene}:Props){
+ const {data,loading,error}=useData<Ep04BMeenakshiSource>('episode-04b-meenakshi-source.json');
+ const scenes=data?.scenes||[];
+ const selected=scenes.find(s=>s.id===scene)||scenes[0];
+ const index=scenes.findIndex(s=>s.id===selected?.id);
+ const go=(id:string)=>openPage('reading',{episode:'04B',character:'meenakshi',scene:id});
+ return <main className="page-width ep04-final-reader" id="episode04b-meenakshi-reader">
+  <header className="section-intro">
+   <span className="eyebrow">The Story · Friday, 2 January 2026</span>
+   <h1>Meenakshi · Episode 04B</h1>
+   <p>Working manuscript · Scene 06 · non-graphic rough-intensity curiosity seed · author review pending.</p>
+  </header>
+  <div className="perspective-tabs" role="group" aria-label="Episode 04B character">
+   <button type="button" onClick={()=>openPage('reading',{episode:'04B',character:'ankita',scene:'01'})}>Ankita</button>
+   <button type="button" onClick={()=>openPage('reading',{episode:'04B',character:'shreya',scene:'01'})}>Shreya</button>
+   <button type="button" onClick={()=>openPage('reading',{episode:'04B',character:'taniya',scene:'01'})}>Taniya</button>
+   <button type="button" className="selected" aria-pressed="true" onClick={()=>go('06')}>Meenakshi</button>
+  </div>
+  <p className="source-note">Rupa and Dr. Leena illustrations are character/setting references only; they are not literal evidence of intimate staging. Scene remains a working draft, not frozen canon.</p>
+  {loading&&<p role="status">Loading Meenakshi Episode 04B…</p>}
+  {error&&<p role="alert" className="error">Meenakshi 04B source unavailable: {error}</p>}
+  {data&&<div className="reader-layout">
+   <aside className="scene-sidebar">
+    <p className="aside-title">Meenakshi · Episode 04B</p>
+    {scenes.map(s=><button key={s.id} type="button" className={'scene-link'+(selected?.id===s.id?' active':'')} aria-pressed={selected?.id===s.id} onClick={()=>go(s.id)}>
+     <span>Scene {s.id}<small className="ep03-scene-name">{s.title}</small></span>
+    </button>)}
+    <p className="source-note">Current Reader contains the newly discussed Scene 06 continuation. Earlier 04B material remains in its working Google Doc until separately imported.</p>
+   </aside>
+   <article className="reading-surface source-scene prose-exact">
+    {selected&&<>
+     <div className="story-toolbar"><span>Meenakshi · Scene {selected.id} of {scenes.length}</span></div>
+     <div className="ep03-scene-intro"><h2>{selected.title}</h2><p>{selected.time} · {selected.location}</p></div>
+     {selected.blocks.map((b,i)=>
+      b.type==='heading'?<h3 key={i} className="ep03-beat-heading" style={{marginTop:'24px'}}>{b.text}</h3>
+      :b.type==='image'?<figure key={i} className="ep04-shreya-inline-image" style={{margin:'24px auto',maxWidth:'560px',textAlign:'center'}}>
+       {b.asset&&<img loading="lazy" src={assetUrl(b.asset)} alt={b.alt||'Meenakshi Episode 04B reference visual'} style={{display:'block',width:'100%',height:'auto',borderRadius:'12px'}}/>}
+       {b.caption&&<figcaption className="muted" style={{marginTop:'8px',fontSize:'13px'}}>{b.caption}</figcaption>}
+      </figure>
+      :b.type==='dialogue'?<p key={i} className="dialogue"><strong>{b.speaker}: </strong>{b.text}</p>
+      :b.type==='thought'?<p key={i} className="inner"><em>{b.text}</em></p>
+      :<p key={i} className="ep03-paragraph" style={{whiteSpace:'pre-wrap'}}>{b.text}</p>
+     )}
+     <div className="chapter-controls">
+      <button type="button" className="button subtle" disabled={index<=0} onClick={()=>go(scenes[index-1]?.id)}>← Previous scene</button>
+      <span>Scene {index+1} of {scenes.length}</span>
+      <button type="button" className="button primary" disabled={index>=scenes.length-1} onClick={()=>go(scenes[index+1]?.id)}>Next scene →</button>
+     </div>
+    </>}
+   </article>
+  </div>}
+ </main>;
+}
+
 function Episode04BReading(props:Props){
- return props.character==='taniya'?<Taniya04BReading {...props}/>:props.character==='shreya'?<Shreya04BReading {...props}/>:<Episode04BAnkitaReading {...props}/>;
+ return props.character==='meenakshi'?<Meenakshi04BReading {...props}/>:props.character==='taniya'?<Taniya04BReading {...props}/>:props.character==='shreya'?<Shreya04BReading {...props}/>:<Episode04BAnkitaReading {...props}/>;
 }
 
 
