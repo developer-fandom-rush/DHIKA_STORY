@@ -2,9 +2,9 @@
   "schemaVersion": "1.0",
   "lead": "taniya",
   "episode": "04B",
-  "status": "AUTHOR_SUPPLIED_WORKING_MANUSCRIPT_PUBLISHED_FOR_REVIEW_NOT_FINAL_FROZEN",
+  "status": "WORKING_READER__SCENE01_AUTHOR_MANUSCRIPT__SCENES02_04_GPT_DRAFTS_FOR_REVIEW_NOT_FROZEN",
   "imageStatus": "THREE_ORIGINAL_DOC_IMAGES_IMPORTED_VERIFIED",
-  "publicationMode": "Verbatim from supplied Google Doc including unedited duplicate passages, with native images interleaved in original source order; separate editorial review required",
+  "publicationMode": "Scene 01 preserves the original author-supplied gym manuscript. Scenes 02–04 are working continuation drafts synced from the separate TANIYA 4B Google Doc for author review; they are not final/frozen.",
   "source": {
     "url": "https://docs.google.com/document/d/1zcFlF9rWeIzaenBEmatt4K8bw3L-LcH3c_45JwoNM3o/edit?tab=t.ev8l8ayp8dhq",
     "docId": "1zcFlF9rWeIzaenBEmatt4K8bw3L-LcH3c_45JwoNM3o",
@@ -483,13 +483,291 @@
           "sourceElementIndex": 83
         }
       ]
+    },
+    {
+      "id": "02",
+      "title": "Taniya × Guddu — Deliberate Stretching",
+      "date": "Friday, 2 January 2026",
+      "time": "After gym",
+      "location": "Shared flat",
+      "status": "GPT_WORKING_DRAFT__REVIEW_PENDING__NOT_FROZEN",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Guddu ke nazar churaane ka tareeka Taniya ke dimaag mein gym se flat tak bana raha. Kal wedding backdrop ke waqt bhi woh achanak chup ho gaya tha; aaj toh usne properly uski taraf dekha hi nahi. Flat khaali tha—Soniya aur Rahul wedding preparations ke liye bahar the. Taniya ne gym bag sofa ke paas rakha; deep-plum fitted cropped tank aur black high-waisted leggings abhi bhi wahi the jo gym mein pehne the. Mirror ke saamne rukkar usne posture seedha kiya. Kal jo hua tha, woh accident tha. Aaj nahi.",
+          "sourceElementIndex": 117,
+          "origin": "TANIYA_4B_GOOGLE_DOC_WORKING_CONTINUATION"
+        },
+        {
+          "type": "text",
+          "text": "**Gym ki garmahat abhi uski body mein thi; fitted fabric har movement ke saath usse apni choice ka ehsaas kara raha tha. Is baar woh kisi accident ko repair nahi kar rahi thi—woh khud decide kar rahi thi ki Guddu usse notice kare.**",
+          "sourceElementIndex": 621,
+          "origin": "TANIYA_4B_GOOGLE_DOC_WORKING_CONTINUATION"
+        },
+        {
+          "type": "text",
+          "text": "Uske lips par chhoti si smile aayi. “Dekhte hain, Mr. Guddu.” Usne call kiya, “Ek minute upar aa sakte ho? Stretching mein help chahiye.” Do second ki khamoshi ke baad jawab aaya, “Ji… madam.”",
+          "sourceElementIndex": 851,
+          "origin": "TANIYA_4B_GOOGLE_DOC_WORKING_CONTINUATION"
+        },
+        {
+          "type": "text",
+          "text": "Doorbell baji toh Taniya ne door khola. Guddu saamne tha. Usne pehle Taniya ke face ki taraf dekha, ek pal ke liye nazar neeche gayi aur almost immediately side mein hat gayi. Taniya ne kuch nahi kaha; bas doorframe ke paas relaxed khadi rahi.",
+          "sourceElementIndex": 1045,
+          "origin": "TANIYA_4B_GOOGLE_DOC_WORKING_CONTINUATION"
+        },
+        {
+          "type": "text",
+          "text": "**Guddu ki nazar ka woh chhota sa break Taniya se miss nahi hua. Uske reply se pehle ka pause, aankhon ka turant hat jaana aur thodi si tight breathing usse enough laga; usne bas reaction register kiya, uska matlab force nahi kiya.**",
+          "sourceElementIndex": 1290,
+          "origin": "TANIYA_4B_GOOGLE_DOC_WORKING_CONTINUATION"
+        },
+        {
+          "type": "text",
+          "text": "“Inside aao,” Taniya ne casually kaha. Guddu andar aaya aur poochha, “Madam, stretching?” Taniya ne “Haan” kaha aur living room ke clear floor area ki taraf chal di, jaan-boojhkar bina jaldi ke. Guddu peeche aaya. Taniya ne mudkar poochha, “Tum stretching jaante ho na?” Guddu thoda defensive hua, “Thoda bahut.” Taniya hansi. “Thoda bahut ka audit karte hain.” Usne yoga mat floor par bichha diya.",
+          "sourceElementIndex": 1521,
+          "origin": "TANIYA_4B_GOOGLE_DOC_WORKING_CONTINUATION"
+        },
+        {
+          "type": "text",
+          "text": "**SIDE-LYING LEG RAISE**",
+          "sourceElementIndex": 1924,
+          "origin": "TANIYA_4B_GOOGLE_DOC_WORKING_CONTINUATION"
+        },
+        {
+          "type": "text",
+          "text": "Taniya mat par ek side let gayi, ek haath se head support kiya, lower leg straight rakha aur upper leg dheere-dheere upar uthaya. Guddu saamne thodi distance par crouch karke dekh raha tha. Do repetitions ke baad Taniya ne uski taraf dekha. “Kya hua? Form dekhne bulaya hai. Ceiling nahi.” Guddu ne awkward smile di. “Form hi dekh raha hoon.”",
+          "sourceElementIndex": 1946,
+          "origin": "TANIYA_4B_GOOGLE_DOC_WORKING_CONTINUATION"
+        },
+        {
+          "type": "text",
+          "text": "Taniya ne leg dobara raise ki, is baar thoda zyada. Guddu turant bola, “Bas.” Taniya ruk gayi. “Bas?” Guddu ne mat ki taraf gesture kiya. “Aap leg zyada upar le ja rahi ho. Hip peeche roll ho rahi hai. Straight rakho. Height kam hogi, control better hoga.” Taniya kuch seconds usse dekhti rahi; yeh answer expected nahi tha. “Achha. Phir se?” Guddu ne sir hilaya. Is baar Taniya ne movement controlled rakha. “Yahan?” — “Thoda aur neeche.” Usne adjust kiya. “Ab?” Guddu ne kaha, “Haan. Ab hip move nahi ho rahi.” Taniya ke face par genuinely impressed smile aa gayi. “Society helper ke package mein trainer service bhi included hai?” Guddu hasa. “Free trial.” Taniya bhi hans padi.",
+          "sourceElementIndex": 2290,
+          "origin": "TANIYA_4B_GOOGLE_DOC_WORKING_CONTINUATION"
+        },
+        {
+          "type": "text",
+          "text": "**Guddu ka achanak confident ho jaana Taniya ko expected se zyada hit kar gaya. Uska breath ek beat ke liye halka sa ruk gaya. Ek garam si tingling uski body mein neeche utar kar uski taangon ke beech tak aa ruki. Woh usse fluster karne aayi thi; ab ek pal ke liye Guddu ne hi uska balance andar se disturb kar diya tha.**",
+          "sourceElementIndex": 2973,
+          "origin": "TANIYA_4B_GOOGLE_DOC_WORKING_CONTINUATION"
+        },
+        {
+          "type": "text",
+          "text": "Taniya ne next repetition ki aur is baar uski nazar Guddu par ek second extra ruki. “Not bad.” Guddu ne shrug kiya. “Simple exercise hai.” Taniya ne tease kiya, “Confidence dekho.” Bas itna sunte hi uski temporary confidence almost khatam ho gayi; Guddu ne nazar mat ki taraf kar li. Taniya ne switch notice kiya aur uski smile thodi aur badh gayi.",
+          "sourceElementIndex": 3293,
+          "origin": "TANIYA_4B_GOOGLE_DOC_WORKING_CONTINUATION"
+        },
+        {
+          "type": "text",
+          "text": "**CAT–COW**",
+          "sourceElementIndex": 3643,
+          "origin": "TANIYA_4B_GOOGLE_DOC_WORKING_CONTINUATION"
+        },
+        {
+          "type": "text",
+          "text": "Taniya hands-and-knees position mein aa gayi. Guddu ne poochha, “Next kaunsa?” — “Cat-cow.” Taniya neutral spine se dheere cow stretch mein gayi, phir back round karke cat position mein aayi. Guddu side mein khada raha aur woh movement repeat karne lagi.",
+          "sourceElementIndex": 3652,
+          "origin": "TANIYA_4B_GOOGLE_DOC_WORKING_CONTINUATION"
+        },
+        {
+          "type": "text",
+          "text": "**Room unusually quiet lag raha tha. Har slow transition ke saath fitted fabric body ke movement ko follow kar raha tha, aur Taniya ko pata tha Guddu form dekh raha hai. Awareness wahi thi jo usne chahi thi; difference sirf itna tha ki ab woh khud bhi us attention ko consciously feel kar rahi thi.**",
+          "sourceElementIndex": 3908,
+          "origin": "TANIYA_4B_GOOGLE_DOC_WORKING_CONTINUATION"
+        },
+        {
+          "type": "text",
+          "text": "Second repetition ke beech Guddu ne kaha, “Slow.” Taniya rukkar uski taraf dekhi. “Hm?” Guddu bola, “Aap transition fast kar rahi ho. Ek-ek part move karo—pehle lower back, phir middle, phir shoulders. Warna bas pose change ho raha hai.” Taniya ki teasing smile ek pal ke liye genuine surprise mein badal gayi. “Tumhe seriously pata hai?” Guddu ne shoulders utha diye. “Main bhi kabhi workout karta tha.” Taniya ne kaha, “Aaj pata chal raha hai,” aur dobara start kiya. Is baar Guddu quietly count karta raha: “Good… ab round. Hold… ab slowly release.” Taniya ne instructions follow kiye; final transition ke baad Guddu ne sir hilaya. “Better.”",
+          "sourceElementIndex": 4206,
+          "origin": "TANIYA_4B_GOOGLE_DOC_WORKING_CONTINUATION"
+        },
+        {
+          "type": "text",
+          "text": "Taniya ne usse dekha. Strange reversal tha—usne Guddu ko bulaya tha uski reaction dekhne ke liye, aur ab kuch seconds se woh genuinely uski instructions follow kar rahi thi.",
+          "sourceElementIndex": 4852,
+          "origin": "TANIYA_4B_GOOGLE_DOC_WORKING_CONTINUATION"
+        },
+        {
+          "type": "text",
+          "text": "**Guddu ke calm instructions follow karte hue woh flutter dobara aaya, is baar thoda clearer. Breath controlled tha, movement controlled tha, lekin body ke andar ka warm pulse usse yaad dila raha tha ki yeh situation usne khud create ki thi—and surprisingly, control share hote hi thrill kam nahi hua.**",
+          "sourceElementIndex": 5027,
+          "origin": "TANIYA_4B_GOOGLE_DOC_WORKING_CONTINUATION"
+        },
+        {
+          "type": "text",
+          "text": "Final repetition ke baad Taniya seedhi baith gayi aur Guddu phir se visibly uncomfortable lagne laga. Exercise khatam hote hi competent Guddu gaya aur wahi awkward Guddu wapas aa gaya. Taniya ne poochha, “Ab nazar kyun chura rahe ho?” Guddu almost choke kar gaya. “Main nahi—” Taniya hansi. “Relax. Stretching khatam ho gayi.” Guddu turant khada hua. “Main neeche jaata hoon.” Taniya ne mat fold karte hue usse roka. “Guddu… correction achha tha.” Uske face par chhoti smile aayi. “Thank you.” Taniya ne kaha, “Free trial approved.” Is baar dono hans diye. Door par Guddu ne ek baar Taniya ki taraf dekha; woh already usse dekh rahi thi. Guddu ne nazar hata kar kaha, “Bye, madam.” Taniya ka jawab tha, “Bye, trainer saab.”",
+          "sourceElementIndex": 5328,
+          "origin": "TANIYA_4B_GOOGLE_DOC_WORKING_CONTINUATION"
+        },
+        {
+          "type": "text",
+          "text": "**AFTERMATH**",
+          "sourceElementIndex": 6053,
+          "origin": "TANIYA_4B_GOOGLE_DOC_WORKING_CONTINUATION"
+        },
+        {
+          "type": "text",
+          "text": "Door band hone ke baad Taniya kuch seconds wahin rahi, phir mirror mein khud ko dekha. Uske lips par automatically smile aa gayi. Woh Guddu ko tease karna chahti thi aur successful bhi hui, lekin jo part usne plan nahi kiya tha woh zyada interesting nikla—Guddu ka woh kuch-minute ka unexpectedly confident version.",
+          "sourceElementIndex": 6064,
+          "origin": "TANIYA_4B_GOOGLE_DOC_WORKING_CONTINUATION"
+        },
+        {
+          "type": "text",
+          "text": "**Guddu ke jaane ke baad bhi woh halki tingling poori tarah gayi nahi thi. Post-workout warmth ke saath ek private satisfaction bhi thi: usne encounter khud initiate kiya, Guddu ko tease kiya, aur beech mein yeh bhi discover kar liya ki reaction sirf ek taraf ka nahi tha—situation ne usse bhi affect kiya tha.**",
+          "sourceElementIndex": 6381,
+          "origin": "TANIYA_4B_GOOGLE_DOC_WORKING_CONTINUATION"
+        },
+        {
+          "type": "text",
+          "text": "Taniya ne softly khud se kaha, “Didi ka influence dangerous hai,” aur khud hi hansi. Soniya exactly kya karti, ya Guddu ke saath kya hua tha, woh Taniya ko nahi pata tha; lekin aaj ka decision uska khud ka tha, aur usse maza aaya tha. Usne yoga mat side mein rakha, bedroom ki taraf mud gayi aur office ke liye ready hone chali gayi.",
+          "sourceElementIndex": 6691,
+          "origin": "TANIYA_4B_GOOGLE_DOC_WORKING_CONTINUATION"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Friday Office — Vivek Suri",
+      "date": "Friday, 2 January 2026",
+      "time": "Late morning",
+      "location": "CA firm",
+      "status": "GPT_WORKING_DRAFT__REVIEW_PENDING__NOT_FROZEN",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Guddu ke jaane ke baad Taniya ne shower liya aur gymwear completely change kar diya. Friday casual ke liye usne fitted dark-plum wrap-style cropped blouse, charcoal tailored skirt aur ek lightweight beige blazer choose kiya. Blouse ka overlap office-normal position mein tied tha, isliye midriff mostly covered tha. Jan1 ke sky-blue shirt–charcoal trousers se look clearly different tha. Office group already WFH mode mein tha, isliye usne styling thodi less formal aur consciously sharper rakhi. Flat lock karke woh late morning office ke liye nikli.",
+          "sourceElementIndex": 7088,
+          "origin": "TANIYA_4B_GOOGLE_DOC_WORKING_CONTINUATION"
+        },
+        {
+          "type": "text",
+          "text": "CA floor usual weekday se almost aadha suna tha. Younger desks mostly empty the; senior wing mein lights on thi. Punit records/printing side par kaam kar raha tha. Taniya ne usse bas ek normal nod diya, laptop bag desk par rakha aur system on hi kiya tha ki senior review room se Vivek Suri ki awaaz aayi, “Taniya, two minutes.”",
+          "sourceElementIndex": 7641,
+          "origin": "TANIYA_4B_GOOGLE_DOC_WORKING_CONTINUATION"
+        },
+        {
+          "type": "text",
+          "text": "Vivek Suri desk ke peeche files ke saath tha. Usne pehle clock ki taraf dekha, phir Taniya ki taraf. “Late?” Taniya bina defensive hue chair kheenchkar baith gayi. “Sir, jab poori junior team WFH ka audit pass karwa chuki hai toh meri physical attendance thodi premium service ho gayi.” Vivek ke lips par restrained smile aayi. “Premium service late deliver hui hai.” Taniya ne file ki taraf haath badhaya. “Penalty clause dikha dijiye, calculate kar deti hoon.”",
+          "sourceElementIndex": 7971,
+          "origin": "TANIYA_4B_GOOGLE_DOC_WORKING_CONTINUATION"
+        },
+        {
+          "type": "text",
+          "text": "Review practical hi start hua—do client folders, ek reconciliation point aur pending sign-off. Taniya quickly numbers explain kar rahi thi jab Vivek ne file se nazar utha kar usse dekha. **“Casual Friday ka interpretation kaafi confident hai.”** Taniya ek second ruki, phir apne blouse, skirt aur blazer ki taraf glance karke boli, “Interpretation subjective hota hai, sir. Compliance clear hona chahiye.” Vivek ne pen rotate kiya. “Compliance mein issue nahi hai.” Ek beat ke baad usne add kiya, **“Presentation noticeable hai.”**",
+          "sourceElementIndex": 8435,
+          "origin": "TANIYA_4B_GOOGLE_DOC_WORKING_CONTINUATION"
+        },
+        {
+          "type": "text",
+          "text": "Taniya ne eyebrow utha diya. “File ki?” Vivek ki restrained smile thodi aur visible hui. “Dono.” Is baar Taniya ko line samajhne mein koi effort nahi laga. Usne bas halki si smile ke saath file uski taraf slide ki. “Good. At least ek presentation toh partner approval le gayi.” Conversation wahi ruk sakti thi, lekin tone usual senior-review meetings se ek shade zyada personal ho chuka tha.",
+          "sourceElementIndex": 8960,
+          "origin": "TANIYA_4B_GOOGLE_DOC_WORKING_CONTINUATION"
+        },
+        {
+          "type": "text",
+          "text": "Vivek ki purani private attraction reader ke liye already ek separate layer thi; Taniya uske exact thoughts nahi jaanti thi. Usne sirf itna register kiya ki aaj Vivek usse numbers ke bahar bhi notice kar raha tha. Woh neither shy hui, neither us observation ko relationship meaning diya. Usne next reconciliation point khola aur calmly kaha, “Ab actual audit pe aa jaayein?” Vivek ne file sign karte hue kaha, “Tum hamesha conversation ko numbers par wapas le aati ho.” Taniya ka answer turant tha, **“Numbers kam se kam double meaning nahi rakhte, sir.”** Vivek ne usse ek beat dekha. **“Depends who is reading them.”**",
+          "sourceElementIndex": 9353,
+          "origin": "TANIYA_4B_GOOGLE_DOC_WORKING_CONTINUATION"
+        },
+        {
+          "type": "text",
+          "text": "Taniya hansi—short, surprised, controlled. “Aaj office khaali hai, isliye senior management ka humour quota bhi mujhe hi handle karna padega?” Vivek ne signed file uski taraf badha di. “Consider it additional responsibility.” Taniya khadi hui, blazer forearm par settle kiya aur file le li. “Additional responsibility ka billing alag hoga.” Vivek ne kaha, “Send the invoice.” Taniya doorway par mudkar boli, “Approved kara lena.”",
+          "sourceElementIndex": 9967,
+          "origin": "TANIYA_4B_GOOGLE_DOC_WORKING_CONTINUATION"
+        },
+        {
+          "type": "text",
+          "text": "Wapas apni desk ki taraf aate waqt usne bas ek cheez note ki: Vivek Suri ke saath aaj ka exchange pehli baar purely formal review se thoda bahar nikla tha. Woh uska meaning decide karne nahi baithi. Desk ke paas pahunchte hi Punit ne records side se awaaz di, “Ma’am, ek file aapke naam se printing station par rakhi hai.” Taniya ne laptop unlock karte hue jawab diya, “Haan, aa rahi hoon.”",
+          "sourceElementIndex": 10398,
+          "origin": "TANIYA_4B_GOOGLE_DOC_WORKING_CONTINUATION"
+        },
+        {
+          "type": "text",
+          "text": "Woh file lene ke liye records side ki taraf mud gayi.",
+          "sourceElementIndex": 10790,
+          "origin": "TANIYA_4B_GOOGLE_DOC_WORKING_CONTINUATION"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "Punit — Accident → First Deliberate Risk",
+      "date": "Friday, 2 January 2026",
+      "time": "Late morning",
+      "location": "CA firm · records / printing station",
+      "status": "GPT_WORKING_DRAFT__GROK_INSERT_PENDING__REVIEW_PENDING__NOT_FROZEN",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Punit printing station ke paas revised file ready kar raha tha. Taniya counter ke opposite side aayi aur upper folder nikaalne ke liye haath badhaya. Neeche ka thick folder saath slide hua; Punit ne stack pakda aur Taniya instinctively aage badhi. Folder bach gaya, lekin usi movement mein beige blazer ka lower edge half-open drawer handle mein atak gaya aur wrap blouse ka overlap ek pal ke liye shift ho gaya. **Taniya ka toned midriff aur navel unexpectedly visible ho gaye, neckline bhi intended position se lower aa gaya.** Punit ki nazar ek second ke liye ruk gayi, phir turant side ho gayi.",
+          "sourceElementIndex": 10939,
+          "origin": "TANIYA_4B_GOOGLE_DOC_WORKING_CONTINUATION"
+        },
+        {
+          "type": "text",
+          "text": "“Sorry, ma’am.” Taniya ne pehle drawer dekha, phir apne clothes. Usne blazer free kiya, blouse normal position mein set kiya aur poochha, “Drawer open chhoda tha?” Punit ne close karte hue kaha, “Haan… meri mistake.” Taniya ne file utha li. “Good. Culprit identify ho gaya.” Accident wahi khatam ho gaya; Taniya ne usse repeat ya stage nahi kiya.",
+          "sourceElementIndex": 11535,
+          "origin": "TANIYA_4B_GOOGLE_DOC_WORKING_CONTINUATION"
+        },
+        {
+          "type": "text",
+          "text": "Desk ki taraf lautte waqt usne senior corridor cross kiya. Vivek Suri aur Pradeep Khanna baat kar rahe the. Conversation rukhi nahi, lekin dono ki attention mein chhota sa visual pause aaya. Taniya ne bas itna notice kiya ki aaj log usse usual formal frame se thoda zyada register kar rahe the. Vivek ke exact private thoughts woh nahi jaanti thi; Pradeep ke glance ko bhi usne bas glance hi maana.",
+          "sourceElementIndex": 11883,
+          "origin": "TANIYA_4B_GOOGLE_DOC_WORKING_CONTINUATION"
+        },
+        {
+          "type": "text",
+          "text": "**Uske stomach ke andar warm flutter phir se activate hua. Gym aur Guddu ke baad jo body-awareness settle ho rahi thi, office ke sterile corridor mein woh unexpectedly wapas aa gayi. Punit ka accidental reaction uske dimaag mein ek clean distinction chhod gaya: pehla moment usne choose nahi kiya tha. Agla karegi.**",
+          "sourceElementIndex": 12283,
+          "origin": "TANIYA_4B_GOOGLE_DOC_WORKING_CONTINUATION"
+        },
+        {
+          "type": "text",
+          "text": "Washroom mirror ke saamne Taniya ne blazer utaar kar forearm par rakha aur wrap blouse ka overlap consciously lower angle par retie kiya. **Ab roughly half upper-bust/cleavage visible tha; cropped cut se toned abs aur navel clearly visible the. Yeh accident ka remainder nahi tha—yeh uski first deliberate office risk choice thi.**",
+          "sourceElementIndex": 12597,
+          "origin": "TANIYA_4B_GOOGLE_DOC_WORKING_CONTINUATION"
+        },
+        {
+          "type": "text",
+          "text": "Woh printing station par wapas aayi. Punit ne mudkar “Haan ma’am, revised copy—” kaha aur sentence ke beech ek fraction ka pause aa gaya. Usne gaze wapas printer par la di. Taniya counter ke paas ruki, file pages dekhte hue apne torso ko hide nahi kiya. “Problem?” usne poochha. “Nahi, ma’am.” Taniya ne bas halki smile di.",
+          "sourceElementIndex": 12926,
+          "origin": "TANIYA_4B_GOOGLE_DOC_WORKING_CONTINUATION"
+        },
+        {
+          "type": "text",
+          "text": "__GROK INSERT — EXPAND THIS SMALL BEAT ONLY: Punit ka delayed reply, ek page-order mistake, uska baar-baar task par gaze wapas lana, aur Taniya ka woh reaction notice karna. Taniya ki already-established warm tingling ko thoda intensify karo through breath, heat, pulse and self-awareness. Exact outfit visibility same rahe: roughly 50% upper-bust/cleavage + visible abs/navel. Plot, dialogue outcome, touch, clothing state aur scene ending change mat karna.__",
+          "sourceElementIndex": 13251,
+          "origin": "TANIYA_4B_GOOGLE_DOC_WORKING_CONTINUATION"
+        },
+        {
+          "type": "text",
+          "text": "Punit ne printout nikala aur ek page ulta rakh diya. Taniya ne turant point kiya. “Wrong order.” Punit ne page dekha. “Oh.” Taniya ne eyebrow uthaya. “Concentration issue?” Punit ne printer ki taraf dekha. “Printer—” Taniya ki smile thodi badhi. “Printer ki bhi aankhen hain?” Punit chup ho gaya aur pages dobara arrange karne laga.",
+          "sourceElementIndex": 13709,
+          "origin": "TANIYA_4B_GOOGLE_DOC_WORKING_CONTINUATION"
+        },
+        {
+          "type": "text",
+          "text": "**Taniya ke andar ki tingling stronger ho gayi. Warm pulse stomach se neeche utar kar usse ek second ke liye apni breathing deliberately normal rakhni padi. Interesting part sirf Punit ka reaction nahi tha; interesting part yeh tha ki is baar button usne khud press kiya tha.**",
+          "sourceElementIndex": 14043,
+          "origin": "TANIYA_4B_GOOGLE_DOC_WORKING_CONTINUATION"
+        },
+        {
+          "type": "text",
+          "text": "“Print complete karo,” Taniya ne calmly kaha. Punit ne sir hilaya. “Ji.” Taniya ne blazer forearm par hi rakha, file li aur mud gayi. Usse peeche dekhne ki zarurat nahi thi. Accident ne reaction dikhaya tha; first deliberate risk ne usse control ka difference dikha diya.",
+          "sourceElementIndex": 14318,
+          "origin": "TANIYA_4B_GOOGLE_DOC_WORKING_CONTINUATION"
+        }
+      ]
     }
   ],
   "continuity": {
     "publishedContentScope": "Only the supplied Gym manuscript; morning empty-home and missing-garments opening has not been written/published",
-    "lateGymBridge": "Next Guddu scene is for discussion, not yet published",
+    "lateGymBridge": "Scene 02 Guddu working draft is now visible in Reader for review.",
     "marriage": "Taniya engaged to Aditya; Vivek Rao is the gym trainer, not her groom",
-    "futureAdultEncounter": "Author confirmed adult Taniya–Vivek consensual sex before her wedding; actual when/where/action not yet chosen and not added to gym prose"
+    "futureAdultEncounter": "Author confirmed adult Taniya–Vivek consensual sex before her wedding; actual when/where/action not yet chosen and not added to gym prose",
+    "officeBridge": "Scene 03 Vivek Suri and Scene 04 Punit working drafts are visible in Reader for review. Scene 04 contains one GROK INSERT expansion slot; no final/frozen status.",
+    "punitSequence": "Genuine accident first; separate deliberate risk follows. Deliberate visual lock: roughly 50% upper-bust/cleavage plus visible abs/navel in the selected wrap-crop office outfit."
   },
   "editorialFlags": [
     {
@@ -512,5 +790,15 @@
     "kix.6eyh6fkvghn9",
     "kix.u4krv1uhskzc",
     "kix.hc4unnzexqdu"
+  ],
+  "supplementalSources": [
+    {
+      "url": "https://docs.google.com/document/d/1GeiSTel7TNGt9x7OHqKL7594B40xlACz1qAmJ5D-6yY/edit?tab=t.g2mlcnt3eezd",
+      "docId": "1GeiSTel7TNGt9x7OHqKL7594B40xlACz1qAmJ5D-6yY",
+      "tabId": "t.g2mlcnt3eezd",
+      "tabTitle": "TANIYA 4B",
+      "revisionId": "AHj4eMR39GO8S8ieDTJhZAV1zg6IIV6vMmgggwDC8SeElLM53CiRDZCF0VJuAb82btzMGvQiGd-DpkzH-3dDK2-LLIL-oijadHjYUe1SoAo",
+      "scope": "Scenes 02–04 working continuation"
+    }
   ]
 }
