@@ -1,7 +1,7 @@
 {
   "series": "Society Wives — Five Veils of Desire",
-  "catalogVersion": "2026-11-21-EP04B-ANKITA-SCENE01",
-  "policy": "Episodes 01–03 have their existing approved/frozen statuses. Episode 04A publication is tracked separately. Episode 04B Ankita Scene 01 (B01–B06) is published in Read Story; subsequent 04B material remains in planning and future ideas are not published events.",
+  "catalogVersion": "2026-11-24-EP05-ANKITA-SHREYA-BEAT3",
+  "policy": "Episodes 01–03 retain approved/frozen statuses. Episode 04A/04B publication is tracked separately. Episode 05 Ankita × Shreya is published in Read Story through the author-finalized Beat 3; later shared visit beats remain unwritten.",
   "episodes": [
     {
       "number": "01",
@@ -589,6 +589,18 @@
         }
       ],
       "note": "Scene 01 ends after Rinku departs and Ankita's final question. B08 three views remains future-only, not part of the published scene. Scene 02 office preparation is proposed, not written/published."
+    },
+    {
+      "number": "05",
+      "title": "Ankita × Shreya",
+      "subtitle": "Same-Day Family Visit",
+      "status": "AUTHOR_FINALIZED_THROUGH_BEAT_3__NEXT_SHARED_SCENE_PENDING",
+      "date": "2026-01-02",
+      "mainPath": "index.html#/reading?episode=05&scene=01",
+      "relatedPaths": [
+        "episode-05-reader.json"
+      ],
+      "note": "Combined Episode 05 reader published through same-day call, Chintu doorway follow-up, Arvind market preparation and the two-house outfit challenge. Next shared scene begins with arrival / first-look reactions."
     }
   ]
 }

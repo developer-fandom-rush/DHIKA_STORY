@@ -361,3 +361,14 @@ Use the exact label **Changed by GPT** in the Git commit message AND add a dated
 - **Paths changed (GPT integration only):** `Society-Wives/episode-04b-taniya-author-updated-plan.json` (scene 04 styling, scene 05 Guddu intentions/visual fraction, scene 08 genuine accident, scene 09 follow-up timing, all author locks and candidate mechanisms); `Society-Wives/ui/src/Planning.tsx` (remove inaccurate 'staged accident' display wording); `Society-Wives/future-ideas.json` (correct current-plan summary/continuity note; maintain original archive).
 - **Original prose and archive untouched:** Do not change or silently reinterpret the original pre-revision archived 04B plot; it remains a historical record, not current canon. All approved 02/03 and published 04A unchanged. No Episode 04B prose authored or approved in this change.
 - **Attribution:** Plot correction entirely **Author-provided**; file modification, status and routing **GPT integration only**.
+
+## 2026-11-24 — Changed by GPT — Episode 05 Ankita × Shreya published through Beat 3
+- **Author direction:** Mark the current same-day Ankita × Shreya material as Episode 05 and move it into **Read Story**.
+- Added a new **Episode 05 · Ankita × Shreya** selector entry and reader route.
+- Published four reader scenes: same-day Shreya call/duty exit; Shreya–Chintu deliberate wink with no-kiss lock; Arvind's market-list preparation; and the two-house Shreya–Vikram / Ankita–Kabir outfit challenge.
+- Preserved the causal lock that button opening happens **after** the husbands discuss Rajeev and Arvind's staring: Shreya opens one top button; Ankita opens two small top buttons.
+- Preserved continuity that Shreya's Chintu after-effect and Ankita's post-Rohit warmth are carried forward rather than reset.
+- Public reader uses a non-graphic version of author-only intimate reaction wording while preserving event order, choices and continuity.
+- Current final Shreya ivory visual remains outside GitHub until its chat-upload bytes can be transferred as a stable repo asset; no older/mismatched visual was substituted.
+- **Next story handoff:** shared Ankita × Shreya arrival / first-look reactions; no later Uncle arousal reveal is published in this commit.
+
