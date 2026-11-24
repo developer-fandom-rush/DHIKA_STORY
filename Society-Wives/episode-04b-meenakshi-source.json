@@ -1,11 +1,774 @@
 {
-  "schemaVersion": 1,
-  "id": "SW-EP04B-MEENAKSHI-SCENE06-SEED",
-  "title": "Meenakshi · Episode 04B · Scene 06 — The Seed",
-  "status": "WORKING_DRAFT_FOR_AUTHOR_REVIEW_NOT_FROZEN",
+  "schemaVersion": 2,
+  "id": "SW-EP04B-MEENAKSHI",
+  "title": "Meenakshi · Episode 04B",
+  "status": "SCENES_01_TO_05_IMPORTED_FROM_WORKING_GOOGLE_DOC_SCENE_06_WORKING_DRAFT",
   "date": "2026-01-02",
-  "sourceNote": "Chat-approved non-graphic continuation after Naveen M5.07. Rupa and Dr. Leena visuals are character/setting references, not literal evidence of intimate staging.",
+  "source": {
+    "type": "google-doc",
+    "url": "https://docs.google.com/document/d/1GeiSTel7TNGt9x7OHqKL7594B40xlACz1qAmJ5D-6yY/edit?tab=t.0",
+    "tabId": "t.0",
+    "note": "Scenes 01–05 imported from the author's working Episode 04B document. Editorial/meta commentary and duplicate alternate draft lines were excluded from the reader; story prose and the final Scene 01 accident version were retained. Scene 06 is the current non-graphic working continuation."
+  },
   "scenes": [
+    {
+      "id": "01",
+      "title": "The Accident",
+      "time": "Morning · before hospital arrival",
+      "location": "Home → society badminton-court parking",
+      "status": "APPROVED_IN_WORKING_DOC",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Nikhil ne chai banayi thi. Meenakshi uske paas baith gayi, hospital ka bag abhi bedroom mein hi pada tha. Kal raat ke baad subah pehli baar dono ko aaraam se baithne ka waqt mila tha. Nikhil ne uska cup apni taraf kheenchkar dekha."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Nikhil",
+          "text": "“Thandi ho gayi?”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Meenakshi",
+          "text": "“Thodi si. Rehne do, pee lungi.”"
+        },
+        {
+          "type": "text",
+          "text": "Taiyaar hone ke baad usne teal kurte ke upar cream shawl daali aur kandhe ke paas pin laga li. Bag uthaate waqt use gaadi ki chaabi yaad aayi. Kal badminton court ke paas gaadi start nahi hui thi. Babloo ne kaha tha ki zarurat padi toh woh mechanic bula dega."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Nikhil",
+          "text": "“Main chalun tumhare saath?”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Meenakshi",
+          "text": "“Abhi sirf chaabi deni hai. Tum Vihaan ke paas raho. Mechanic kuch bolega toh phone karungi.”"
+        },
+        {
+          "type": "text",
+          "text": "Auto ne use court ke bahar utaara. Babloo gaadi ke paas khada tha. Meenakshi ko dekhkar usne phone jeb mein rakha aur gaadi ke usi taraf aa gaya jahan woh khadi thi."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Babloo",
+          "text": "“Madam, mechanic ne bola das minute.”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Meenakshi",
+          "text": "“Kal bhi gaadi ne mujhe kaafi wait karwa liya. Aaj main hospital jaaungi. Tum mujhe phone kar dena.”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Babloo",
+          "text": "“Ji. Chaabi de dijiye.”"
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi ne bag khola aur chaabi ungli mein atka kar bahar nikaali. Ring ke saath shawl ka ek dhaaga bhi upar aa gaya. Usne doosre haath se shawl pakdi aur ring ko zara sa ghumaya. Dhaaga chhootne ke bajaay aur andar phans gaya."
+        },
+        {
+          "type": "text",
+          "text": "Usne neeche dekhte hue chaabi apni taraf kheench li. Shawl tan gayi. Gale ke paas halki si tik hui."
+        },
+        {
+          "type": "text",
+          "text": "Tik."
+        },
+        {
+          "type": "text",
+          "text": "Babloo ka haath chaabi lene ke liye aage tha. Aadha raasta aakar ruk gaya."
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi ne ring se nazar uthayi. Ek pal pehle woh chaabi dekh raha tha. Ab uski nazar thodi upar thi. Meenakshi samajh paati ki woh kahan dekh raha tha, usse pehle hi Babloo gaadi ki taraf mud gaya."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Babloo",
+          "text": "“Madam… pin khinch gayi hai.”"
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi ne neeche dekha. Kurte ka upar wala button khul gaya tha. Usne shawl apni taraf kheench li."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Meenakshi",
+          "text": "“Ek second.”"
+        },
+        {
+          "type": "text",
+          "text": "Usne chaabi phir se shawl ke paas laayi. Dhaaga dheela pada toh ring nikal gayi. Button band karte waqt uski ungli pehli baar loop se phisal gayi."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Meenakshi",
+          "text": "“Haan. Ab lo.”"
+        },
+        {
+          "type": "text",
+          "text": "Babloo muda. Is baar usne seedha Meenakshi ke chehre ki taraf dekha. Chaabi lekar usne poochha:"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Babloo",
+          "text": "“Mechanic jo bole, aapko phone kar doon?”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Meenakshi",
+          "text": "“Haan. Main hospital jaa rahi hoon.”"
+        },
+        {
+          "type": "text",
+          "text": "Sadak tak pahunchte hi usne cab book ki. App par gaadi ka number aa gaya, lekin woh ek pal screen ko dekhti reh gayi."
+        },
+        {
+          "type": "thought",
+          "text": "Babloo ne pin ke baare mein toh bata diya tha. Par uska haath uske bolne se pehle kyun ruk gaya tha?"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "The M08 Review",
+      "time": "08:55 AM–11:45 AM",
+      "location": "CityCare Hospital · administrative wing → conference room",
+      "status": "APPROVED_IN_WORKING_DOC",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "08:55 AM · Aditi's morning — reader-only cutaway"
+        },
+        {
+          "type": "text",
+          "text": "New Year party ki lights abhi bhi bedroom ke ek kone mein jal rahi thi. Aditi ne aankhein kholi. Avi aur Yash uske paas the. Kal raat ki lambi baaton, hansi aur affectionate kisses ke baad teeno ko der se neend aayi thi."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Aditi",
+          "text": "“Tum log abhi bhi yahin ho?”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Avi",
+          "text": "“Good morning toh kehne do.”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Yash",
+          "text": "“Aaj hospital ka plan kya hai?”"
+        },
+        {
+          "type": "text",
+          "text": "Aditi ka phone vibrate hua. Screen par Meenakshi ka naam tha. Usne call utha li."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Meenakshi (phone)",
+          "text": "“Aditi, M08 review hai aaj. Tum aa rahi ho?”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Aditi",
+          "text": "“Haan, Meenu. Thodi late ho sakti hoon. Tum review shuru kar lena.”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Meenakshi",
+          "text": "“Okay. See you.”"
+        },
+        {
+          "type": "text",
+          "text": "Call khatam hui. Meenakshi ko Aditi ki private New Year night ke baare mein kuch pata nahi tha."
+        },
+        {
+          "type": "heading",
+          "text": "09:00 AM · Hospital arrival"
+        },
+        {
+          "type": "text",
+          "text": "Cab hospital ke entrance par ruki. Meenakshi ne payment ki, apna bag sambhala aur seedha administrative wing mein chali gayi. Teal embroidered kurta, cream trousers aur subah wali cream fringed shawl ab bhi uske saath thi. White coat pehente hue usne shawl ko kandhe ke paas adjust kar liya. Keyring ke jhatke ke baad upper fastening ab bhi theek se tik nahi raha tha; usne use jaisa-taisa secure samajhkar chhod diya."
+        },
+        {
+          "type": "text",
+          "text": "Desk par phone silent karte hue usne Babloo ka pending mechanic update dekha. Subah chaabi lete waqt Babloo ka haath ek pal ko kyun ruk gaya tha, yeh sawaal abhi bhi uske dimaag mein tha."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Meenakshi (to herself)",
+          "text": "“Ab report par dhyaan do.”"
+        },
+        {
+          "type": "heading",
+          "text": "10:20 AM · Report preparation"
+        },
+        {
+          "type": "text",
+          "text": "Usne M08 file kholi, supporting sheets sahi order mein rakhi aur presentation ka last section dobara check kiya. Aaj normal routine ko stretch karne ka waqt nahi tha: do senior doctors ke saamne briefing deni thi."
+        },
+        {
+          "type": "heading",
+          "text": "10:55 AM · Conference room"
+        },
+        {
+          "type": "text",
+          "text": "Dr. Kunal Bedi pehle se apne notes dekh rahe the. Dr. S. P. Khurana saamne wali chair par baithe the."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Kunal",
+          "text": "“Good morning, Doctor Meenakshi.”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Meenakshi",
+          "text": "“Good morning, sir.”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Khurana",
+          "text": "“Complete M08 report ready?”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Meenakshi",
+          "text": "“Yes, sir. Presentation aur supporting sheets dono.”"
+        },
+        {
+          "type": "text",
+          "text": "Usne laptop connect kiya, remote uthaya aur file table par rakhi."
+        },
+        {
+          "type": "heading",
+          "text": "11:00 AM · The review begins"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Meenakshi",
+          "text": "“Sir, first section mein revised observations hain. Main supporting figures bhi share karungi.”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Kunal",
+          "text": "“Show us the supporting page.”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Meenakshi",
+          "text": "“Of course.”"
+        },
+        {
+          "type": "heading",
+          "text": "11:18 AM · The accidental moment"
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi jaise hi report uthane ke liye aage jhuki, white coat ke dono panels alag ho gaye aur kurte ka upper button khula hone ki wajah se uski deep cleavage aur breasts ka upper curve dono seniors ko clearly dikh raha tha. Meenakshi ka poora dhyaan report par tha, isliye use bilkul ehsaas nahi hua."
+        },
+        {
+          "type": "text",
+          "text": "Kunal ki nazar report se ek pal ke liye hati. Khurana ne bhi sir uthaya. Meenakshi page nikaal kar unki taraf badha rahi thi; unhone kitni der aur kya dekha, uska use andaza nahi tha."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Meenakshi",
+          "text": "“Here, sir. Yeh revised figures hain.”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Khurana",
+          "text": "“Hmm. Continue.”"
+        },
+        {
+          "type": "heading",
+          "text": "11:19 AM · Still unaware"
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi seedhi hui, screen ki taraf mud kar next slide explain karne lagi. White coat ka front khula hi raha; shawl apni original position par nahi aayi thi. Usne discussion khatam kiya, questions ka jawab diya aur note kiye hue changes confirm kar liye."
+        },
+        {
+          "type": "heading",
+          "text": "11:40 AM · Review concludes"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Kunal",
+          "text": "“Report satisfactory hai. Signed copy administration ko de dijiye.”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Meenakshi",
+          "text": "“Certainly, sir.”"
+        },
+        {
+          "type": "text",
+          "text": "Laptop disconnect karke woh file lekar bahar aa gayi."
+        },
+        {
+          "type": "heading",
+          "text": "11:45 AM · Realisation"
+        },
+        {
+          "type": "text",
+          "text": "Staff washroom ke mirror ke saamne woh ruk gayi. Cream shawl ek taraf khisaki hui thi aur teal kurte ka upper fastening phir khula hua tha. Usne pehle coat ka front milaya, phir kurte aur shawl ko sambhala."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Meenakshi (under her breath)",
+          "text": "“Oh God... main meeting mein bhi aise hi thi?”"
+        },
+        {
+          "type": "text",
+          "text": "Use table par aage jhukna yaad aaya. Kunal aur Khurana dono saamne baithe the. Usse apne kapdon ki position ab saaf samajh aa rahi thi, lekin woh unke exact reactions ya nazar ki duration confirm nahi kar sakti thi."
+        },
+        {
+          "type": "text",
+          "text": "Subah Babloo ka ruka hua haath bhi yaad aaya. Usne ek baar dobara fastening check ki, file uthayi aur staff room ki taraf chal di."
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "The Locker-Room Discoveries",
+      "time": "11:47 AM–after 11:58 AM",
+      "location": "Women's staff changing-area corridor",
+      "status": "APPROVED_IN_WORKING_DOC",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "11:47 AM · Changing-area corridor"
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi conference room se nikal kar staff changing-area corridor ki taraf badhi. Teal kurta ka upper fastening phir se khul gaya tha. Usne cream shawl se usse cover karne ki koshish ki, lekin walking ke dauran baar-baar slip ho raha tha. White coat abhi uske kandhe par tha."
+        },
+        {
+          "type": "text",
+          "text": "Usse pata tha ki women’s staff changing area ke andar uska assigned locker hai. Usmein spare formal suit rakha hua tha — dark green kurta-set jo usne emergency ke liye rakha tha. Ab usse change karna zaroori lag raha tha. Rounds aur departmental kaam abhi baaki the, aur damaged fastening ke saath aage badhna practical nahi tha."
+        },
+        {
+          "type": "text",
+          "text": "Corridor mein traffic kam tha. Do nurses door se nikal kar opposite direction mein chali gayin. Meenakshi ne apna ID card adjust kiya aur changing area ke door ke paas pahunchi. Usne ek baar peeche dekha. Koi senior nazar nahi aa raha tha. Usne door push kiya aur andar enter kar gayi."
+        },
+        {
+          "type": "text",
+          "text": "Andar lockers ka row saamne tha. Uska locker right side se teesra tha. Spare suit usi mein tha. Usne coat utaar kar bench par rakha aur locker key nikaali."
+        },
+        {
+          "type": "heading",
+          "text": "M3.02 · First unexpected discovery"
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi ne locker key lock mein daali aur turn kiya. Door khulte hi uski nazar andar gayi."
+        },
+        {
+          "type": "text",
+          "text": "Dr. Kunal Bedi locker ke bilkul saamne khada tha. Uska haath abhi bhi uske folded spare suit ke paas tha. Dark green kurta ka ek corner uski ungliyon ke neeche se dikh raha tha. Kunal ne turant haath peeche kheench liya."
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi ruk gayi. Key abhi bhi uske haath mein thi. Kunal ne uski taraf dekha, phir locker ki taraf, phir wapas uski aankhon mein. Uska chehra tight ho gaya."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Kunal",
+          "text": "“Meenakshi… main… door khula laga.”"
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi ne kuch nahi kaha. Usne sirf dekha — Kunal ka position, uska haath jo ab side mein tha, aur locker ke andar ka suit jo thoda sa bahar nikal aaya tha. Uski saans ek second ke liye ruki, lekin usne chehra neutral rakha."
+        },
+        {
+          "type": "text",
+          "text": "Usne key wapas lock mein daali, door dheere se band kiya, aur bina kisi aur word ke do kadam peeche hati. Kunal ne usse rokne ki koshish nahi ki. Woh wahi khada raha."
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi corridor ki taraf mud gayi. Uski chaal normal thi, lekin uske haath mein key ab bhi tightly pakdi hui thi."
+        },
+        {
+          "type": "heading",
+          "text": "M3.03 · Waiting outside"
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi corridor mein kuch kadam aage badh kar ruki. Usne peeche mud kar nahi dekha. Changing area ka door ab band tha. Kunal andar hi tha."
+        },
+        {
+          "type": "text",
+          "text": "Uski ungliyan abhi bhi locker key ko tightly pakde hue thi. Usne key ko apni coat ki pocket mein daal diya. Saans dheere se chhodi, lekin uska dil tez chal raha tha."
+        },
+        {
+          "type": "text",
+          "text": "Usne jo dekha tha, woh clear tha — Kunal uske locker ke saamne khada tha, haath uske spare suit ke paas. Door pehle se open tha ya usne khola, yeh usse nahi pata tha. Usne koi sawal nahi kiya. Na usne Kunal ko roka, na kuch kaha."
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi ne apna shawl theek kiya. Teal kurta ka fastening abhi bhi loose tha, lekin ab uska dhyaan us par nahi tha. Usne socha ki abhi andar wapas jaana theek nahi. Kunal abhi wahan tha. Usse change karne ke liye room khaali chahiye tha."
+        },
+        {
+          "type": "text",
+          "text": "Woh corridor ke end tak gayi, nursing station ke opposite wall ke paas ruki, aur phone nikaal kar screen dekhne lagi. Koi message nahi bheja. Sirf time pass kiya. Uski aankhein screen par thi, lekin dimaag mein wahi image ghoom rahi thi — Kunal ka haath, uska suit, aur uska turant peeche hatna."
+        },
+        {
+          "type": "text",
+          "text": "Kuch minute baad usne phone band kiya. Usne decide kiya ki thodi der aur wait karegi. Jab room clear ho jaaye, tab wapas jaayegi. Abhi kuch nahi bolegi. Na Kunal ko, na kisi aur ko."
+        },
+        {
+          "type": "heading",
+          "text": "M3.04 · Second separate discovery · 11:58 AM"
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi ne phir se changing area ke door ki taraf dekha. Corridor ab khaali tha. Usne socha shayad Kunal nikal gaya hoga. Usne door dheere se push kiya aur andar jhaki."
+        },
+        {
+          "type": "text",
+          "text": "Dr. S. P. Khurana locker row ke paas khada tha. Meenakshi ka locker ab band tha, lekin Khurana ka haath door ke handle par tha. Woh jaise use check kar raha tha ki latch properly engage hua hai ya nahi. Uske doosre haath mein koi file nahi thi. Sirf woh aur locker."
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi ruk gayi. Is baar usne door poora nahi khola. Sirf itna ki Khurana clearly dikh raha tha. Khurana ne abhi usse notice nahi kiya tha. Uska dhyaan locker par tha."
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi ne dekha — Khurana ne handle ko ek baar aur turn karke check kiya, phir haath hata liya. Uska chehra serious tha. Woh ek pal locker ki plate ko dekhta raha, phir mudne laga."
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi ne turant door dheere se band kar diya. Usne peeche hati aur corridor ke kone mein chali gayi. Khurana ko pata nahi chala ki use kisi ne dekha."
+        },
+        {
+          "type": "text",
+          "text": "Uske dimaag mein do images ab saath mein thi — pehle Kunal ka haath uske suit ke paas, ab Khurana ka haath uske locker ke handle par. Dono alag the. Dono ne kuch kaha nahi. Aur usne bhi kuch nahi kaha."
+        },
+        {
+          "type": "heading",
+          "text": "M3.05 · Second silent withdrawal"
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi corridor ke kone mein khadi rahi. Uski peeth wall se lagi hui thi. Usne aankhein band ki aur ek gehri saans li."
+        },
+        {
+          "type": "text",
+          "text": "Pehle Kunal. Ab Khurana."
+        },
+        {
+          "type": "text",
+          "text": "Dono alag-alag time par uske locker ke paas the. Dono ne usse kuch nahi kaha. Aur usne bhi kuch nahi kaha. Uska dimaag tez chal raha tha. Surprise tha, discomfort tha, aur neeche se ek halki si gussa bhi. Lekin usne abhi kisi ko confront karne ka faisla nahi kiya."
+        },
+        {
+          "type": "text",
+          "text": "Usne socha — agar woh abhi andar jaati aur sawal karti, toh kya hota? Khurana chairman hai. Kunal senior hai. Uske paas koi clear evidence nahi tha ki unhone andar kya kiya. Sirf unka presence tha. Aur usse change bhi karna tha. Teal kurta ka fastening abhi bhi loose tha. Rounds baaki the."
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "The Overhead File",
+      "time": "12:07 PM–12:35 PM",
+      "location": "Records office",
+      "status": "APPROVED_IN_WORKING_DOC",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "12:07 PM · Same outfit, different decision"
+        },
+        {
+          "type": "text",
+          "text": "Changing area ka corridor aakhir khaali ho gaya. Meenakshi dheere se andar gayi, bench par rakha white coat uthaya aur locker par ek nazar daali. Dark green spare suit ab bhi wahi tha. Usne use haath nahi lagaya."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Meenakshi",
+          "text": "“Rehne do. Aaj nahi.”"
+        },
+        {
+          "type": "text",
+          "text": "Teal kurte ka upar wala fastening ab bhi bharosemand nahi tha. Usne shawl ko pin ke paas se zara better set kiya, white coat pehni aur file lekar records office ki taraf chal di. Woh same cream shawl, teal embroidered kurta aur white coat mein thi. Kapde badalne ka iraada badal gaya tha; kapde nahi."
+        },
+        {
+          "type": "heading",
+          "text": "12:15 PM · Naveen enters"
+        },
+        {
+          "type": "text",
+          "text": "Records room mein Naveen M08 ke signed-copy register ke saath aaya. Woh Meenakshi ko dekhkar usual smile rok nahi paaya."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Naveen",
+          "text": "“Madam, senior review finally khatam? Subah se aapki appointment lena mushkil ho gaya hai.”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Meenakshi",
+          "text": "“Appointment? Tum toh bina appointment ke roz aa jaate ho.”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Naveen",
+          "text": "“Main official kaam se aata hoon.”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Meenakshi",
+          "text": "“Haan haan, official kaam. Register dikhao.”"
+        },
+        {
+          "type": "text",
+          "text": "Naveen ne register desk par rakha. Meenakshi ne signatures check kiye. Kunal aur Khurana ke naam dekhte hi use changing room ka corridor yaad aaya. Ek pal ke liye uska mood phir badla, magar Naveen ki saamne-se aayi chhoti-si complaint ne use wapas current moment mein la diya."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Naveen",
+          "text": "“Annexure B ka hard copy nahi mil raha. Aapki shelf mein hoga?”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Meenakshi",
+          "text": "“Upper rack. Kal maine wahi dekha tha.”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Naveen",
+          "text": "“Main nikaal deta hoon.”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Meenakshi",
+          "text": "“Arre, itni si height se main haar maan loon? Hato zara.”"
+        },
+        {
+          "type": "heading",
+          "text": "12:21 PM · The overhead-file accident"
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi shelf ke paas gayi aur file tak pahunchne ke liye haath upar badhaya. Uski white coat ka front khul kar dono taraf ho gaya. Cream shawl kandhe se sarak aayi. Kurte ka pehle se loose upper fastening bhi apni jagah se hat gaya; neckline khulne se upper chest aur cleavage ek pal ke liye zyada visible ho gayi."
+        },
+        {
+          "type": "text",
+          "text": "Naveen uske saamne se file number dekhne ki koshish kar raha tha. Uski nazar ek pal ko neeche gayi, phir woh turant side mein dekhne laga. Meenakshi ka poora dhyaan folder ke spine par tha; usne abhi situation notice nahi ki."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Meenakshi",
+          "text": "“Yahi rahi… M08-B. Batao, tumne poori shelf kaise miss kar di?”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Naveen",
+          "text": "“Madam… shawl ek baar dekh lijiye.”"
+        },
+        {
+          "type": "heading",
+          "text": "12:23 PM · An easier laugh"
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi ne file neeche laakar dekha. Shawl khisak gayi thi aur fastening phir khula tha. Usne shawl theek ki aur coat ke front panels mila diye. Ek pal ke liye usse subah Babloo aur 11 baje ki briefing dono yaad aa gaye."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Meenakshi",
+          "text": "“Great. Aaj toh meri dress bhi overtime kar rahi hai.”"
+        },
+        {
+          "type": "text",
+          "text": "Naveen ne halka sa hanskar nazar file par kar li."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Naveen",
+          "text": "“Aap change kar leti toh shayad aaram rehta.”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Meenakshi",
+          "text": "“Haan, socha tha. Phir mann badal diya.”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Naveen",
+          "text": "“Kyun?”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Meenakshi",
+          "text": "“Tumhare register ki wajah se. Pehle yeh complete karao.”"
+        },
+        {
+          "type": "text",
+          "text": "Dono hans diye. Meenakshi ka tone relaxed tha. Woh nahi chahti thi ki changing area ki baat abhi kisi aur conversation mein aaye. Naveen ne bhi kapdon par aur discussion nahi ki."
+        },
+        {
+          "type": "heading",
+          "text": "12:30 PM · A deliberate but ordinary compliment"
+        },
+        {
+          "type": "text",
+          "text": "Naveen pages arrange kar raha tha. Meenakshi ne shawl ek kandhe par comfortably set ki aur blue folder band kar diya. Is baar usne jaan-boojhkar usse halka sa personal sawaal poochha."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Meenakshi",
+          "text": "“Waise sach batao. Teal colour mujh par kaisa lagta hai?”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Naveen",
+          "text": "“Achha lagta hai, madam.”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Meenakshi",
+          "text": "“Bas achha? Itne time se saath kaam kar rahe ho.”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Naveen",
+          "text": "“Bahut achha lagta hai. Bas aap logon ko compliment dene mein risk lagta hai.”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Meenakshi",
+          "text": "“Risk lene ko kisne kaha? File sahi jagah rakha karo, bas.”"
+        },
+        {
+          "type": "text",
+          "text": "Naveen hans diya. Meenakshi ne uska expression dekha aur khud bhi muskura di. Uske aas-paas ka pressure poori tarah gaya nahi tha, lekin uske paas ab ek normal conversation thi jisme woh apne aap ko phir se sambhaal pa rahi thi."
+        },
+        {
+          "type": "heading",
+          "text": "12:35 PM · Scene pause"
+        },
+        {
+          "type": "text",
+          "text": "Naveen signed copies lekar bahar gaya. Meenakshi wahi teal kurta, cream shawl aur white coat pehne desk par rahi. Spare suit locker mein hi tha. Agla deliberate interaction alag scene mein plan hoga; yahan sirf accidental moment aur ek light conversational seed complete hua hai."
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "First Show to Naveen",
+      "time": "03:40 PM",
+      "location": "Meenakshi's office",
+      "status": "APPROVED_IN_WORKING_DOC",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "M5.01–M5.06 · Before the first show"
+        },
+        {
+          "type": "text",
+          "text": "Nikhil ka phone aaya."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Nikhil",
+          "text": "“Aaj thoda late ho jaunga. Nine tak pahunchunga shayad.”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Meenakshi",
+          "text": "“Achha, theek hai. Nikalte waqt bata dena.”"
+        },
+        {
+          "type": "text",
+          "text": "Phone rakhne ke baad Meenakshi chair par kuch der baithi rahi. Subah Babloo ka expression, presentation ka accident, locker room mein Kunal aur Khurana ko dekhna aur Naveen ki dopahar wali reaction — sab uske zehan mein laut aaye."
+        },
+        {
+          "type": "text",
+          "text": "Usne apne andar badhti sexual curiosity aur excitement ko recognize kiya."
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi ne white coat chair par rakh diya aur cream shawl fold karke bag ke paas rakh di. Usne mirror mein apni appearance dekhi aur ek conscious wardrobe decision liya."
+        },
+        {
+          "type": "text",
+          "text": "Kuch der baad door par knock hua."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Naveen",
+          "text": "“Madam, last signature.”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Meenakshi",
+          "text": "“Phir last signature? Aao.”"
+        },
+        {
+          "type": "text",
+          "text": "Naveen papers lekar desk ke paas aaya."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Meenakshi",
+          "text": "“Waise, dopahar mein tum itne chup kyun ho gaye the?”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Naveen",
+          "text": "“Madam, aap bhi na...”"
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi muskura di."
+        },
+        {
+          "type": "heading",
+          "text": "M5.07 · First Show — author-supplied passage"
+        },
+        {
+          "type": "text",
+          "text": "Naveen desk ke bilkul paas khada tha. Meenakshi ne file khinchte hue jhuki. Teal kurta ka upper portion aur khul gaya. Deep cleavage clearly dikh rahi thi, kurta ke andar se uske full breasts ka shape aur nipples ka halka outline fabric ke against visible tha."
+        },
+        {
+          "type": "text",
+          "text": "Naveen ki nazar wahan tik gayi. Usne turant nazar nahi hatayi. Uski saans clearly ruki, aur uska stance thoda stiff ho gaya. Meenakshi ne notice kiya."
+        },
+        {
+          "type": "text",
+          "text": "Usko apne andar ki heat clearly mehsoos hui. Kurta ka fabric uski skin se chipak raha tha. Nipples tight ho gaye the. Neeche halki si wetness bhi feel ho rahi thi. Subah se jo curiosity build hui thi, ab body clearly respond kar rahi thi."
+        },
+        {
+          "type": "text",
+          "text": "Usne signature karte waqt jaan-bujhkar thoda aur jhuki. Cleavage aur deep ho gaya. Naveen ki nazar ab bhi wahi thi. Uski ungliyan papers par tight ho gayi thi."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Meenakshi",
+          "text": "“Dopahar se tumhari nazar file se zyada mere upar thi.”"
+        },
+        {
+          "type": "text",
+          "text": "Naveen ne kuch nahi kaha. Sirf uski taraf dekhta raha, kaan laal, saans tez. Meenakshi ne file uski taraf badhate hue apni aankhein uski aankhon se milayi. Ek second ke liye unke haath almost touch hue. Warmth clear thi."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Meenakshi",
+          "text": "“Main dekh rahi hoon. Aur mujhe pasand aa raha hai.”"
+        },
+        {
+          "type": "text",
+          "text": "Naveen ne file le li. Koi aur contact nahi hua. Lekin uski nazar ab bhi uske open kurta par thi jab woh peeche hata."
+        },
+        {
+          "type": "text",
+          "text": "Naveen ke jaate hi Meenakshi ne gehri saans li. Uski body abhi bhi garam thi, kurta ke andar nipples tight, aur neeche halki si wetness clearly mehsoos ho rahi thi. Usne aankhein band karke kursi par sir tikaya aur dheere se muskurayi — excitement abhi bhi uske andar ghoom rahi thi."
+        }
+      ]
+    },
     {
       "id": "06",
       "title": "The Seed",
