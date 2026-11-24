@@ -372,3 +372,10 @@ Use the exact label **Changed by GPT** in the Git commit message AND add a dated
 - Current final Shreya ivory visual remains outside GitHub until its chat-upload bytes can be transferred as a stable repo asset; no older/mismatched visual was substituted.
 - **Next story handoff:** shared Ankita × Shreya arrival / first-look reactions; no later Uncle arousal reveal is published in this commit.
 
+
+
+## 2026-11-24 — Changed by GPT — Episode 05 next-morning reaction note
+- **Author direction:** Add only two short UI paragraphs for the morning after the Episode 05 meeting, one for Shreya and one for Ankita; no confrontation yet.
+- **Shreya:** does not jump straight to anger; she separates Arvind's genuine past care from the newly confirmed privacy violations/sexual fixation and decides to compare facts with Ankita first.
+- **Ankita:** has fewer facts, connects the visible arousal, “unhe poora pata nahi hai” line and disturbed damaged parcel, and chooses investigation before confrontation.
+- **UI scope:** detailed meeting/discovery prose stays in the source Google Doc for now; the reader carries only the established lead-up plus this concise next-morning reaction note.

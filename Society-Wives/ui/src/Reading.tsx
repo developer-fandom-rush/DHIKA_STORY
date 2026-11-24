@@ -560,14 +560,14 @@ function Episode05Reading({scene}:Props){
  const go=(id:string)=>openPage('reading',{episode:'05',character:'ankita',scene:id});
  return <main className="page-width ep04-final-reader" id="episode05-ankita-shreya-reader">
   <header className="section-intro"><span className="eyebrow">The Story · Friday, 2 January 2026</span><h1>Episode 05 · Ankita × Shreya</h1>
-   <p>Same-day family visit · finalized through Beat 3 · next shared scene begins with arrival and first-look reactions.</p>
+   <p>Same-day family visit · established lead-up plus a short next-morning reaction note. Detailed meeting/discovery prose remains in the source manuscript.</p>
   </header>
   <div className="perspective-tabs" role="group" aria-label="Episode 05 combined leads"><button type="button" className="selected" aria-pressed="true">Ankita × Shreya</button></div>
   {loading&&<p role="status">Loading Episode 05…</p>}{error&&<p role="alert" className="error">Episode 05 source unavailable: {error}</p>}
   {data&&<div className="reader-layout">
    <aside className="scene-sidebar"><p className="aside-title">Episode 05 · combined</p>
     {scenes.map((s,i)=><button type="button" key={s.id} className={'scene-link'+(selected?.id===s.id?' active':'')} aria-pressed={selected?.id===s.id} onClick={()=>go(s.id)}><span>Scene {i+1}<small className="ep03-scene-name">{s.lead} · {s.title}</small></span></button>)}
-    <p className="source-note"><strong>Author finalized:</strong> current Episode 05 path through Beat 3. Next shared Ankita × Shreya scene is not yet written here.</p>
+    <p className="source-note"><strong>Current reader:</strong> lead-up through Beat 3 plus a short next-morning reaction note. Detailed meeting/discovery beats remain in the source manuscript until the author freezes them for full UI publication.</p>
    </aside>
    <article className="reading-surface source-scene prose-exact">{selected&&<>
     <div className="story-toolbar"><span>{selected.lead} · Scene {index+1} of {scenes.length}</span></div>
