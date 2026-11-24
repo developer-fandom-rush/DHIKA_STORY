@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1100" viewBox="0 0 900 1100">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f6eee9"/><stop offset="1" stop-color="#d8e3e7"/></linearGradient><linearGradient id="scrub" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#7d183f"/><stop offset="1" stop-color="#4e102e"/></linearGradient></defs>
+<rect width="900" height="1100" fill="url(#bg)"/><rect x="50" y="55" width="800" height="990" rx="38" fill="#fff" opacity=".58"/>
+<text x="450" y="125" text-anchor="middle" font-family="Arial,sans-serif" font-size="34" font-weight="700" fill="#243b53">CITYCARE HOSPITAL</text>
+<text x="450" y="168" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" fill="#607d8b">NURSES' STATION · CHARACTER REFERENCE</text>
+<ellipse cx="450" cy="430" rx="185" ry="205" fill="#d79d7f"/><path d="M265 420c0-190 80-282 190-282 126 0 210 106 194 291-45-88-106-140-196-144-86-4-141 44-188 135z" fill="#3a261f"/>
+<path d="M284 405c-22 260 70 330 164 332 111 3 194-83 181-335-20 154-83 232-181 232-91 0-145-71-164-229z" fill="#3a261f" opacity=".92"/>
+<ellipse cx="386" cy="431" rx="17" ry="12" fill="#2b211f"/><ellipse cx="514" cy="431" rx="17" ry="12" fill="#2b211f"/><path d="M412 515q38 25 77 0" fill="none" stroke="#8d4a4d" stroke-width="8" stroke-linecap="round"/>
+<path d="M250 1010c20-245 84-330 200-330s180 85 200 330z" fill="url(#scrub)"/><path d="M375 690l75 92 75-92" fill="none" stroke="#e79ab6" stroke-width="14"/>
+<path d="M340 710q-30 95 5 175M560 710q30 95-5 175" fill="none" stroke="#263238" stroke-width="12"/><circle cx="345" cy="887" r="24" fill="#b0bec5"/><circle cx="555" cy="887" r="24" fill="#b0bec5"/>
+<rect x="475" y="820" width="126" height="156" rx="10" fill="#f8fbff" stroke="#b0bec5" stroke-width="4"/><text x="538" y="866" text-anchor="middle" font-family="Arial" font-size="18" fill="#234">CityCare</text><text x="538" y="917" text-anchor="middle" font-family="Arial" font-size="28" font-weight="700" fill="#51203a">Rupa</text><text x="538" y="953" text-anchor="middle" font-family="Arial" font-size="22" fill="#455a64">RN · 26</text>
+<text x="450" y="1068" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#546e7a">Reference visual only · not literal scene evidence</text>
+</svg>
