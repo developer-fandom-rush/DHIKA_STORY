@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "id": "SW-EP04B-MEENAKSHI-SCENE06-SEED",
+  "title": "Meenakshi · Episode 04B · Scene 06 — The Seed",
+  "status": "WORKING_DRAFT_FOR_AUTHOR_REVIEW_NOT_FROZEN",
+  "date": "2026-01-02",
+  "sourceNote": "Chat-approved non-graphic continuation after Naveen M5.07. Rupa and Dr. Leena visuals are character/setting references, not literal evidence of intimate staging.",
+  "scenes": [
+    {
+      "id": "06",
+      "title": "The Seed",
+      "time": "After 03:40 PM · before hospital exit",
+      "location": "Meenakshi's office → service corridor → semi-private staff wing",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "M6.01 · After Naveen"
+        },
+        {
+          "type": "text",
+          "text": "Naveen ke jaate hi office ka door band hua. Meenakshi kuch seconds wahi khadi rahi. Din bhar ke accidents, glances aur ab uska apna deliberate choice — sab ek hi line mein jud gaye the."
+        },
+        {
+          "type": "text",
+          "text": "Usne white coat aur cream shawl wapas pehenne ki jaldi nahi ki. Teal front-button kurta waise hi raha. Glass cabinet ke reflection mein khud ko dekhkar uske chehre par ek chhoti, almost naughty smile aayi."
+        },
+        {
+          "type": "thought",
+          "text": "“Ek baccha hone ke baad bhi… I still have it.”"
+        },
+        {
+          "type": "text",
+          "text": "Thought vanity se zyada self-recognition tha. Usse Naveen ki reaction pasand aayi thi, aur ye maanna ab uske liye pehle se aasaan tha."
+        },
+        {
+          "type": "heading",
+          "text": "M6.02 · Her name in the corridor"
+        },
+        {
+          "type": "text",
+          "text": "Bag close karke woh service corridor ki taraf nikli. Store-room side se Harish Pal aur Sunil Yadav ki dheemi awaaz aa rahi thi. Woh seedha nikal jaati — phir usne apna naam suna."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Harish",
+          "text": "“Doctor Meenakshi…”"
+        },
+        {
+          "type": "text",
+          "text": "Bas itna kaafi tha. Meenakshi ke steps ruk gaye. Aaj pehli baar usse genuinely jaan-na tha ki hospital ke men uske baare mein uski absence mein kya kehte hain. Woh door ke paas gayi, lekin andar enter nahi kiya."
+        },
+        {
+          "type": "heading",
+          "text": "M6.03 · Rupa"
+        },
+        {
+          "type": "image",
+          "asset": "assets/episode-04b-meenakshi/rupa-reference.svg",
+          "alt": "Rupa RN character reference",
+          "caption": "Rupa, 26 · established hospital nurse. Character reference only; not literal scene evidence."
+        },
+        {
+          "type": "text",
+          "text": "Door poora band nahi tha. Meenakshi ko pehle Rupa dikhi. Rupa clearly wahan apni marzi se thi; uski body language mein panic ya exit ki koshish nahi thi. Harish aur Sunil uske bahut kareeb the, aur room ka mood ordinary staff gossip se kaafi zyada private aur intense lag raha tha."
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi peeche hatne hi wali thi jab Rupa ki awaaz ne use rok diya."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Rupa",
+          "text": "“Soft mat karo. Main theek hoon. Jo limit decide ki thi, uske andar raho.”"
+        },
+        {
+          "type": "text",
+          "text": "Us line ne Meenakshi ka interpretation badal diya. Rupa sirf situation tolerate nahi kar rahi thi; woh intensity khud define kar rahi thi. Control uske liye silence ka naam nahi tha — woh apni boundary bol rahi thi aur usi boundary ke andar zyada firmness chahti thi."
+        },
+        {
+          "type": "thought",
+          "text": "“Woh khud ye intensity choose kar rahi hai?”"
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi ne aur dekhne ki koshish nahi ki. Woh quietly corridor mein aage badh gayi. Lekin question uske saath aa gaya."
+        },
+        {
+          "type": "heading",
+          "text": "M6.04 · Dr. Leena gives it language"
+        },
+        {
+          "type": "image",
+          "asset": "assets/episode-04b-meenakshi/leena-reference.svg",
+          "alt": "Dr. Leena character reference",
+          "caption": "Dr. Leena, 39 · established senior physician. Character reference only; not literal scene evidence."
+        },
+        {
+          "type": "text",
+          "text": "Staff wing ke doosre end par ek semi-private consultation room se Dr. Leena ki awaaz sunayi di. Door almost closed tha. Meenakshi ko koi act nazar nahi aaya; bas Leena aur ek older adult male ki silhouettes aur unki low conversation."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Leena",
+          "text": "“Intensity mujhe problem nahi hai. Ambiguity problem hai. Boundaries pehle clear hongi.”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Older man",
+          "text": "“Aur agar tumhe zyada chahiye?”"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Leena",
+          "text": "“Main bolungi. Assume mat karna. Stop ka matlab stop.”"
+        },
+        {
+          "type": "text",
+          "text": "Meenakshi wahi ek pal ke liye still ho gayi. Rupa ne usse behavior dikhaya tha; Leena ne us behavior ko language de di — control, intensity, restraint, limit, consent."
+        },
+        {
+          "type": "heading",
+          "text": "M6.05 · The seed"
+        },
+        {
+          "type": "text",
+          "text": "Usne is thought ko kisi aadmi ke face ke saath attach nahi kiya. Naveen nahi. Babloo nahi. Nikhil bhi automatically nahi. Abhi partner ka sawal hi nahi tha."
+        },
+        {
+          "type": "thought",
+          "text": "“Kisi woman ko roughness pasand kaise aa sakti hai… aur agar sab kuch uski choice ke andar ho, toh feel kaisa hota hoga?”"
+        },
+        {
+          "type": "text",
+          "text": "Confusion tha. Hesitation bhi. Lekin curiosity ab abstract nahi rahi thi. Meenakshi ne bag shoulder par set kiya aur hospital exit ki taraf chal di, question ko solve kiye bina apne saath lete hue."
+        },
+        {
+          "type": "text",
+          "text": "SCENE END · Rough/intense consensual intimacy enters Meenakshi's conscious curiosity for the first time. No partner chosen; no immediate action decided."
+        }
+      ]
+    }
+  ]
+}
