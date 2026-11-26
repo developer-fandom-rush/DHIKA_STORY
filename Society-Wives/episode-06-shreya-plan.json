@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "id": "SW-SHREYA-EP06",
+  "lead": "shreya",
+  "episode": "06",
+  "dates": [
+    "2026-01-03",
+    "2026-01-05"
+  ],
+  "status": "SCENE01_SHREYA_VIKRAM_MARRIAGE_FOUNDATION_FIRST_ORDER_AUTHOR_LOCKED__DETAILS_OPEN",
+  "title": "Shreya EP06 — Marriage Foundation Before All Other Threads",
+  "authorDirection": "First scene of Shreya's NEXT episode (06) is Shreya × Vikram married-life foundation, mirroring Ankita × Kabir first-scene ordering and John–Dhika narrative function with distinct characters. New storytelling prose will be discussed before author approval; preserve previous Episode05 nights.",
+  "sceneOrder": [
+    {
+      "id": "SHR06-S01-MARRIAGE",
+      "order": 1,
+      "title": "Shreya × Vikram — Marriage, Trust & the Inspector's Private Life",
+      "dateCandidate": "2026-01-03",
+      "time": "Saturday morning / morning-to-early-afternoon candidate, exact hour open; EP05 Saturday-morning reaction stays earlier in source continuity",
+      "location": "Rathore home, couple's ordinary private domestic space; Anaya's appropriate family care kept consistent, not in intimate frame",
+      "cast": [
+        "Shreya",
+        "Vikram"
+      ],
+      "status": "FIRST_SCENE_ORDER_AUTHOR_APPROVED__DETAILED_PLOT_BLUEPRINT__PROSE_PENDING",
+      "purpose": "Create Shreya's marital history, emotional baseline, mutual support and comfort, with John/Dhika structural inspiration but authentic Shreya/Vikram dynamic.",
+      "existingAnchors": [
+        "Shreya is a Police Inspector (33), Vikram her husband (36), Anaya their toddler daughter. Exact marriage date/length and Vikram profession are not source-confirmed.",
+        "Original EP05 2 Jan night: after the two-Uncle storage privacy violation she returns home composed outwardly but worried; she initiates consensual private reunion with Vikram. The couple's connection already exists, so this opening is a distinct backstory reflection, not a second reenactment.",
+        "EP05 Saturday morning Shreya separates facts from feelings and is considering comparing evidence with Ankita. She has more direct information than Ankita; Vikram does not know the depth yet."
+      ],
+      "beats": [
+        {
+          "id": "S1",
+          "title": "Inspector at home",
+          "action": "Open with work-trained observational habit softening into trusted home conversation. Shreya is not interrogating Vikram or pretending she has already confronted Arvind."
+        },
+        {
+          "id": "S2",
+          "title": "Where their marriage began",
+          "action": "Ground a warm recalled first meeting/early marriage moment through one present-day cue. Wedding year, courtship specifics and family structure beyond existing characters remain OPEN until author supplies or approves them."
+        },
+        {
+          "id": "S3",
+          "title": "Trust mechanism",
+          "action": "Vikram knows her strength, irregular duties and need for independent judgment. He supports her choices without being portrayed as secretly knowing the stolen-garment truth. Shreya trusts him even while needing time to verify evidence."
+        },
+        {
+          "id": "S4",
+          "title": "Everyday intimacy",
+          "action": "Light mutually welcome gesture, familiar banter and domestic rhythm. Keep it affectionate and non-graphic in GPT planning; any external writer's richer treatment must preserve agency and avoid copying John–Dhika verbatim."
+        },
+        {
+          "id": "S5",
+          "title": "Profession, family responsibilities and consequences",
+          "action": "Account for police duty scheduling, toddler Anaya's care, and Vikram's unconfirmed job/schedule without inventing a shift or leaving child unsupervised. A brief warm family beat is separate from couple privacy."
+        },
+        {
+          "id": "S6",
+          "title": "Thread to the next scenes",
+          "action": "End with Shreya deciding she will compare notes with Ankita, preserving different evidence levels, and enter her separate Chintu/Keshav/work plot later. No new Uncle discovery and no repeat Friday night reunion."
+        }
+      ],
+      "publication": "PLOT-FIRST-SCENE-SAVED__NO_PUBLISHED_PROSE"
+    }
+  ],
+  "nextScenes": [
+    "Shreya × Ankita private evidence comparison; exact clock joint with Ankita EP06 and after both marriage openers",
+    "Next Chintu relationship progression remains source-authority from episode-05-shreya-plan; date and care schedule must be verified",
+    "Work/Anaya/Vikram timing needed before any multi-household meetings"
+  ],
+  "rules": [
+    "No overwrite/rewrite of previous EP05 Reader or Google Doc manuscript",
+    "No actual detailed wedding timeline invented; discuss and lock origin later",
+    "Shreya–Vikram relationship is distinct from John–Dhika and Ankita–Kabir",
+    "No explicit sexual graphics in the stored plot; another writer can use same source boundaries after approval",
+    "No automatic Jan3–5 household or husband whereabouts"
+  ],
+  "links": {
+    "previous": "episode-05-shreya-plan.json",
+    "ep05": "episode-05-reader.json",
+    "combinedEpisode5Source": "https://docs.google.com/document/d/1_4-W_GU8ws_Nr5bFfBYAjK9tZnDTILrmRBVLfT6B6oI/edit",
+    "societyGate": "episode-06-cross-household-hold.json",
+    "ankita": "episode-06-ankita-plan.json",
+    "twins": "episode-06-karan-aman-shared-availability.json"
+  }
+}
