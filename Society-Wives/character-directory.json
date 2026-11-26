@@ -59,6 +59,10 @@
       "crossLeadPlotReferences": [
         "Society-Wives/cross-lead-ayaan-armaan-jam-2026.json",
         "Society-Wives/episode-06-cross-household-hold.json"
+      ],
+      "authorVerbatimSourceReferences": [
+        "source-vault/ep04b-shivani-office-jan02.json",
+        "source-vault/ep05-meenakshi-shivani-jan02.json"
       ]
     },
     {
@@ -79,6 +83,10 @@
       "crossLeadPlotReferences": [
         "Society-Wives/cross-lead-ayaan-armaan-jam-2026.json",
         "Society-Wives/episode-06-cross-household-hold.json"
+      ],
+      "authorVerbatimSourceReferences": [
+        "source-vault/ep05-taniya-jan02.json",
+        "source-vault/ep04b-taniya-existing-plot-frozen.json"
       ]
     },
     {
@@ -93,6 +101,9 @@
       "crossLeadPlotReferences": [
         "Society-Wives/cross-lead-ayaan-armaan-jam-2026.json",
         "Society-Wives/episode-06-cross-household-hold.json"
+      ],
+      "authorVerbatimSourceReferences": [
+        "source-vault/ep05-meenakshi-shivani-jan02.json"
       ]
     },
     {
@@ -3077,5 +3088,12 @@
       "status": "AUTHOR_DIRECTED_ON_HOLD_UNTIL_ALL_FIVE_THREE_DAY_PLOTS_AND_SPOUSE_AVAILABILITY",
       "handoff": "Before planning next female EP06 or society interaction, read gate, match households, work/college duties, children and five main women; movie not booked."
     }
-  ]
+  ],
+  "authorLockedSourceVault": {
+    "index": "Society-Wives/source-vault/index.json",
+    "uiRoute": "#/source-vault",
+    "handoff": "Society-Wives/source-vault/NEW-CHAT-HANDOFF.md",
+    "status": "THREE_VERBATIM_GDOC_TEXT_SNAPSHOTS_PLUS_ONE_TANIYA_04B_PLOT_LOCKED",
+    "immutable": true
+  }
 }
