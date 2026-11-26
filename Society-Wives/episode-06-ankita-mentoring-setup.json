@@ -4,7 +4,7 @@
   "title": "Ankita EP06 — Three Separate Pair Lanes, Honest Expertise, Weekly Rhythm, Accidental Beats",
   "createdAt": "2026-11-26",
   "lead": "Ankita",
-  "status": "AUTHOR_CONFIRMED_CAST_AND_RELATIONSHIPS__EDITOR_PROPOSED_SCHEDULE_AND_ACCIDENTS_PENDING_APPROVAL",
+  "status": "AUTHOR_CONFIRMED_PAIR_CONNECTIONS__ANKITA_DIRECT_JAM_APPROACH_PROPOSED__SCHEDULE_AWAITING_CROSS_LEAD_REVIEW",
   "authorPrinciples": [
     "Karan and Aman share Ankita/Kabir's household; daily casual contact and short flexible doubts need no artificial appointment.",
     "Technical sessions for Vivan/Reyansh/Sana may occur after office, office overtime, or by coordinated home visit with a legitimate learning goal; not a daily tutoring fiction.",
@@ -204,11 +204,37 @@
       ],
       "source": "cross-lead-ayaan-armaan-jam-2026.json",
       "mentoringFit": "Shivani: primary Biology mentor approved. Meenakshi: in-principle biochemistry/chemistry support. Ankita: candidate for CBT interface, mock-test tooling, time analytics; NOT Physics tutor unless credible competence established.",
-      "schedule": "On Sat3 Shivani request candidate; Mon5 Shivani biology 06:45–07:45 proposed. Ankita may accept a future remote CBT setup only after Shivani communicates approved details. No Ankita in-person meeting yet.",
+      "schedule": "Proposed: direct request Sat 3 Jan 16:20–16:35; Ankita CBT help Tue 19:30–20:15 and Sat 17:00–17:45 subject to Kabir household discussion and cross-lead clock review. Shivani's Mon/Wed/Fri Biology plan remains separate and unbooked.",
       "firstAccidentalSlipProposal": {
-        "status": "RESERVED_ONLY__DO_NOT_STAGE_IN_EP06",
-        "reason": "Author wants caution as there is not sufficient Ankita-specific interaction history to justify a visual escalation. First demonstrate respectful academic rapport; later modest accidental clothing shift can be discussed without retconning first contact."
-      }
+        "status": "POSTPONED_OPTIONAL_FUTURE__NOT_IN_FIRST_SESSION",
+        "reason": "Ankita already has credible direct academic rapport, so no clothing incident is necessary to establish it. Revisit only if it serves the story naturally."
+      },
+      "introduction": "Existing 1 Jan lift rapport with Ankita allows Ayaan and Armaan to ask her directly for CBT/mock-test help. Shivani introduction is not required; her Biology teaching lane remains independent.",
+      "frequency": "Ankita: two 45-minute weekly candidate sessions; biology and other science mentors use separate schedules.",
+      "formalSessions": "Tuesday CBT interface/practice; Saturday timed-mock error log, score/time analysis. Not Physics tuition without verified expertise.",
+      "firstWeekCandidates": [
+        {
+          "date": "2026-01-03",
+          "day": "Saturday",
+          "time": "16:20–16:35",
+          "location": "Society quiet common area — two learners ask Ankita directly",
+          "status": "PROPOSED__NOT_BOOKED"
+        },
+        {
+          "date": "2026-01-06",
+          "day": "Tuesday",
+          "time": "19:30–20:15",
+          "location": "Online/quiet space — CBT interface demonstration",
+          "status": "PROPOSED__NOT_BOOKED"
+        },
+        {
+          "date": "2026-01-10",
+          "day": "Saturday",
+          "time": "17:00–17:45",
+          "location": "Online/quiet space — timed mock analysis",
+          "status": "PROPOSED__NOT_BOOKED"
+        }
+      ]
     }
   ],
   "scheduleCollisionPolicy": [
