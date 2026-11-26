@@ -572,23 +572,69 @@
     {
       "number": "04B",
       "title": "Episode 04B — The Next Day",
-      "subtitle": "Ankita · Scene 01 published",
-      "status": "PARTIALLY_PUBLISHED_SCENE01_ONLY",
+      "subtitle": "Four leads have Reader entries; Shivani's Jan 2 office material remains in working plan",
+      "status": "PARTIAL_MULTI_LEAD_READER__SHIVANI_PLAN_ONLY__NOT_ALL_FROZEN",
       "date": "2026-01-02",
       "mainPath": "index.html#/reading?episode=04B&character=ankita&scene=01",
       "sourcePath": "episode-04b-ankita-scene01-source.json",
       "chapters": [
         {
           "lead": "Ankita",
-          "sceneId": "01",
-          "title": "Morning at Home (B01–B06)",
-          "date": "2026-01-02",
-          "time": "03:00–around 07:30",
-          "status": "AUTHOR_DECLARED_COMPLETE_PUBLISHED_SOURCE",
+          "publishedScenes": [
+            "01",
+            "02",
+            "03"
+          ],
+          "status": "READER_COMPLETE__EDITORIAL_FREEZE_SEPARATE",
+          "source": "episode-04b-publication-index.json",
           "readerRoute": "#/reading?episode=04B&character=ankita&scene=01"
+        },
+        {
+          "lead": "Shreya",
+          "publishedScenes": [
+            "01",
+            "02"
+          ],
+          "status": "IN_READER__NOT_FINAL_FROZEN",
+          "source": "episode-04b-shreya-source.json",
+          "readerRoute": "#/reading?episode=04B&character=shreya&scene=01"
+        },
+        {
+          "lead": "Taniya",
+          "publishedScenes": [
+            "01",
+            "02",
+            "03",
+            "04"
+          ],
+          "status": "WORKING_READER__SCENE01_MANUSCRIPT_AND_02_TO_04_DRAFTS",
+          "source": "episode-04b-taniya-gym-source.json",
+          "readerRoute": "#/reading?episode=04B&character=taniya&scene=01"
+        },
+        {
+          "lead": "Meenakshi",
+          "publishedScenes": [
+            "01",
+            "02",
+            "03",
+            "04",
+            "05",
+            "06",
+            "07"
+          ],
+          "status": "IN_READER__MIXED_WORKING_APPROVAL",
+          "source": "episode-04b-meenakshi-source.json",
+          "readerRoute": "#/reading?episode=04B&character=meenakshi&scene=01"
+        },
+        {
+          "lead": "Shivani",
+          "publishedScenes": [],
+          "status": "JAN02_OFFICE_PLAN_ONLY__NOT_IN_04B_READER",
+          "sourceUrl": "https://docs.google.com/document/d/1NKs5JgmIL2Vf7MgErbOqZllJHbZ14Gc9h10gcZJGLNM/edit",
+          "plotRoute": "#/planning?lead=shivani"
         }
       ],
-      "note": "Scene 01 ends after Rinku departs and Ankita's final question. B08 three views remains future-only, not part of the published scene. Scene 02 office preparation is proposed, not written/published.\nMetadata reconciliation: the publication index records additional existing lead sources and Shivani's discussion-only office plan. Existing reader routes and individual approvals are unchanged.",
+      "note": "Corrected 26 Nov 2026 after source and UI code audit. 04B is NOT scene01-only. Four leads have reader components with mixed publication/editorial statuses; Shivani remains a separate office working plan. Original 04B reader/source prose untouched. Do not infer each published scene is frozen.",
       "publicationIndex": "episode-04b-publication-index.json",
       "dressLedger": "episode-04b-05-dress-ledger.json"
     },
@@ -596,7 +642,7 @@
       "number": "05",
       "title": "Ankita × Shreya",
       "subtitle": "Same-Day Family Visit",
-      "status": "AUTHOR_FINALIZED_THROUGH_BEAT_3__NEXT_SHARED_SCENE_PENDING",
+      "status": "WORKING_READER_5_SCENES__TWO_EXTERNAL_9_SCENE_DOCS_UNIMPORTED",
       "date": "2026-01-02",
       "mainPath": "index.html#/reading?episode=05&scene=01",
       "relatedPaths": [
@@ -604,8 +650,37 @@
         "episode-05-publication-index.json",
         "episode-04b-05-dress-ledger.json"
       ],
-      "note": "Combined Episode 05 reader published through same-day call, Chintu doorway follow-up, Arvind market preparation and the two-house outfit challenge. Next shared scene begins with arrival / first-look reactions.\nTwo additional draft source tracks registered for author review; no new reader prose or publication implied.",
-      "publicationIndex": "episode-05-publication-index.json"
+      "note": "Current 05 Reader holds five Ankita/Shreya scene entries (including 3 Jan next-morning reactions); editorial approval is mixed. Separate Meenakshi–Shivani and Taniya nine-scene Google Docs registered in publication index are NOT imported to Read Story. Earlier catalog description stopping at Beat3 was stale; original text remains unchanged.",
+      "publicationIndex": "episode-05-publication-index.json",
+      "relatedTracks": {
+        "ankitaShreya": {
+          "reader": "episode-05-reader.json",
+          "count": 5,
+          "status": "WORKING_READER"
+        },
+        "meenakshiShivani": {
+          "sourceUrl": "https://docs.google.com/document/d/1dp6egUTgTME1B2DHg0kPUuejorEBevVao7VF-4TSf7I/edit",
+          "count": 9,
+          "status": "WORKING_DOC_NOT_IMPORTED"
+        },
+        "taniya": {
+          "sourceUrl": "https://docs.google.com/document/d/1ZE-AGCpTSLs2S7-3q1YQ1NAA1tTrZr4yCk0_ibtmmD8/edit",
+          "count": 9,
+          "status": "WORKING_DOC_NOT_IMPORTED"
+        }
+      }
+    },
+    {
+      "number": "06",
+      "title": "Shivani · Jan 3–5 Global Plot",
+      "subtitle": "Three-day outline, other leads' connected episodes forthcoming",
+      "status": "PLOT_ONLY__GROUPS_A_B_C_D_APPROVED__KAVYA_BRIDGE_REVIEW__SOCIETY_GATE_HOLD",
+      "date": "2026-01-03 to 2026-01-05",
+      "mainPath": "index.html#/planning?lead=shivani&part=06",
+      "plotSource": "shivani-episode-06-three-day-plot.json",
+      "crossHouseholdGate": "episode-06-cross-household-hold.json",
+      "crossMentorSource": "cross-lead-ayaan-armaan-jam-2026.json",
+      "note": "No episode 06 final prose; Group D boundary-reversal approved, Kavya first physical bridge proposed, optional inter-household society encounters and movie on hold until all five lead/partner windows are reconciled."
     }
   ]
 }
