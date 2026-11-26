@@ -3169,7 +3169,18 @@
       "reyansh"
     ],
     "officeDuoTwins": false,
-    "ep06Plan": "episode-06-ankita-plan.json"
+    "ep06Plan": "episode-06-ankita-plan.json",
+    "expertiseAndRoles": {
+      "technicalProject": [
+        "Ankita (IT Tech Lead)",
+        "Vivan (designer)",
+        "Reyansh (designer)",
+        "Sana (QA automation)"
+      ],
+      "Aishwarya": "HR/Event Coordination. Optional observer/friend at group sessions; not technical trainee. Optional separate Karan MBA/career interview coach after introduction/consent.",
+      "trainingSource": "Society-Wives/episode-06-ankita-mentoring-setup.json",
+      "proposal": "Mon/Wed/Fri office prototype technical group; Tue/Thu/Sat optional Aishwarya–Karan HR career coaching"
+    }
   },
   "karanAmanFiveLeadAvailability": {
     "source": "episode-06-karan-aman-shared-availability.json",
@@ -3186,7 +3197,12 @@
       "Shreya"
     ],
     "kavya": "Separate candidate",
-    "authorDirective": "26 Nov 2026: pair should remain recurring across Ankita/Shivani/Taniya/Meenakshi/Shreya; calendar daily soft holds and sunday Shivani/Kavya split must be reconciled before final times. Other three leads' actual pair meetings not source-established."
+    "authorDirective": "26 Nov 2026: pair should remain recurring across Ankita/Shivani/Taniya/Meenakshi/Shreya; calendar daily soft holds and sunday Shivani/Kavya split must be reconciled before final times. Other three leads' actual pair meetings not source-established.",
+    "dailyAnkitaContact": "Household shared with Ankita: daily ordinary conversations, breakfast, exercise and 10–20 min quick doubts do NOT require artificially fixed appointments.",
+    "technicalFit": {
+      "Karan": "MBA/freelancing cases, presentations, fitness",
+      "Aman": "Java, Spring Boot, REST, SQL, mock interview with Ankita"
+    }
   },
   "spouseAvailabilityStatus": {
     "kabir": {
