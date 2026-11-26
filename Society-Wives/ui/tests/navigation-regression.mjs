@@ -46,4 +46,14 @@ for(const file of [
 for(const image of ['ankita-ep06-office-slip-01.svg','ankita-ep06-office-slip-02.svg'])
  assert.ok(ep06.includes(image),'Episode06 office visual is no longer linked: '+image);
 
+const ep05=JSON.parse(readFileSync(resolve(root,'episode-05-reader.json'),'utf8'));
+const sh06=JSON.parse(readFileSync(resolve(root,'episode-06-shreya-plan.json'),'utf8'));
+assert.equal(ep05.scenes.find(x=>x.id==='06A')?.lead,'Ankita','Ankita original marriage ending must remain in EP05');
+assert.equal(ep05.scenes.find(x=>x.id==='06B')?.lead,'Shreya','Shreya original marriage ending must remain in EP05');
+assert.ok(ep05.scenes.find(x=>x.id==='06B')?.raw.includes('SHREYA × VIKRAM'),'Shreya original source text missing');
+assert.ok(ep05.episode06MorningBridgeOriginal?.raw,'Original Saturday morning reaction must be preserved for EP06, not discarded');
+assert.equal(sh06.sceneOrder[0]?.id,'SHR06-S01-MORNING-TWINS','Shreya Episode06 must not repeat Episode05 marriage ending');
+assert.ok(sh06.historicalMarriageBlueprintMovedToEp05,'Old marriage blueprint must be preserved as superseded history');
+assert.ok(ep06.includes('Saturday morning twins and sister track'),'UI must title Shreya Episode06 as twin/sister morning, not another marriage opening');
+console.log('PASS EP05 original marriage ending and EP06 morning handoff contract.');
 console.log('PASS episode navigation contract: Reader/Plot, EP04B/05/06, all five wives, preserved sources, EP06 images.');
