@@ -11,13 +11,32 @@
     "meenakshi-shivani": {
       "sourceUrl": "https://docs.google.com/document/d/1dp6egUTgTME1B2DHg0kPUuejorEBevVao7VF-4TSf7I/edit",
       "status": "WORKING_READER_DRAFT__AUTHOR_REVIEW__NOT_IMPORTED",
-      "sceneCount": 9
+      "sceneCount": 9,
+      "sourceVault": {
+        "text": "source-vault/ep05-meenakshi-shivani-jan02.txt",
+        "paragraphs": "source-vault/ep05-meenakshi-shivani-jan02.json",
+        "uiRoute": "#/source-vault?item=ep05-meenakshi-shivani",
+        "exactTextVerified": true,
+        "sourceStatus": "AUTHOR_LOCKED_VERBATIM_BASELINE__NINE_SCENES_PLUS_ADDENDUM"
+      }
     },
     "taniya": {
       "sourceUrl": "https://docs.google.com/document/d/1ZE-AGCpTSLs2S7-3q1YQ1NAA1tTrZr4yCk0_ibtmmD8/edit",
       "status": "WORKING_READER_DRAFT__AUTHOR_REVIEW__NOT_IMPORTED",
-      "sceneCount": 9
+      "sceneCount": 9,
+      "sourceVault": {
+        "text": "source-vault/ep05-taniya-jan02.txt",
+        "paragraphs": "source-vault/ep05-taniya-jan02.json",
+        "uiRoute": "#/source-vault?item=ep05-taniya",
+        "exactTextVerified": true,
+        "sourceStatus": "AUTHOR_LOCKED_VERBATIM_BASELINE__NINE_SCENES"
+      }
     }
   },
-  "note": "Sources registered only. No new reader prose or UI changes."
+  "note": "Sources registered only. No new reader prose or UI changes.",
+  "verbatimArchive": {
+    "index": "source-vault/index.json",
+    "uiRoute": "#/source-vault",
+    "lock": "AUTHOR_APPROVED_ORIGINAL_SOURCE_BASELINE__NEVER_REWRITE_OR_OVERWRITE_SNAPSHOTS"
+  }
 }
