@@ -2,7 +2,6 @@ import { Fragment } from 'react';
 import DOMPurify from 'dompurify';
 import { Archive, assetUrl, episodePath, peopleOrder, openPage, titleCase, useData } from './lib';
 import Home from './Home';
-import EpisodeSelector from './EpisodeSelector';
 import Episode05Wives from './Episode05Wives';
 type Props={character:string;scene:string|null;episode?:string|null};
 
@@ -566,5 +565,5 @@ function Episode04BReading(props:Props){
 
 export default function Reading(props:Props){
  const episode=props.episode==='05'?'05':props.episode==='04B'?'04B':(props.episode==='04A'||props.episode==='04')?'04A':['01','02','03'].includes(props.episode||'') ? props.episode! : '01';
- return <><EpisodeSelector episode={episode}/>{episode==='01'?<Home scene={props.scene}/>:episode==='03'?<Episode03Reading {...props}/>:episode==='04A'?<Episode04Reading {...props}/>:episode==='04B'?<Episode04BReading {...props}/>:episode==='05'?<Episode05Wives character={props.character} scene={props.scene}/>:<Episode02Reading {...props}/>}</>;
+ return <>{episode==='01'?<Home scene={props.scene}/>:episode==='03'?<Episode03Reading {...props}/>:episode==='04A'?<Episode04Reading {...props}/>:episode==='04B'?<Episode04BReading {...props}/>:episode==='05'?<Episode05Wives character={props.character} scene={props.scene}/>:<Episode02Reading {...props}/>}</>;
 }
