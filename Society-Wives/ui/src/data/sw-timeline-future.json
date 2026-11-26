@@ -11,7 +11,8 @@
     "EP05 original source statuses reconciled as separate markers; older Jan2 proposals not deleted or marked as published. EP06 Jan3-5 is plot-only; index sort positions are not guaranteed event times.",
     "2026-11-26: Group D Boundary-Reversal physically approved in episode06; Kavya first linked-arm bridge candidate, NOT author-final. Society cross-household marker is an editorial hold and does not assert an in-universe 23:00 event.",
     "2026-11-26: Ankita EP06 first marriage scene ordering approved; Jan3 gym and Jan5 technical demo times merely candidate windows. Aishwarya HR role separate, not a technical pupil; Karan–Aman home contact daily without appointment.",
-    "2026-11-26: Ankita Jan3–5 wife-wise Episode06 plot markers refreshed from user approvals: marriage-first, Saturday private Karan/Aman fitness look, flexible Aman study, direct Ayaan/Armaan CBT request, Monday Aishwarya HR favour and office project kickoff. Jan4 availability is not an invented canonical encounter. Wednesday Jan7 four office visitors arrive in Reyansh's same five-seater car; small overshirt-slip beat approved in plot but not written as final prose. Clock times remain candidate unless explicitly grounded."
+    "2026-11-26: Ankita Jan3–5 wife-wise Episode06 plot markers refreshed from user approvals: marriage-first, Saturday private Karan/Aman fitness look, flexible Aman study, direct Ayaan/Armaan CBT request, Monday Aishwarya HR favour and office project kickoff. Jan4 availability is not an invented canonical encounter. Wednesday Jan7 four office visitors arrive in Reyansh's same five-seater car; small overshirt-slip beat approved in plot but not written as final prose. Clock times remain candidate unless explicitly grounded.",
+    "2026-11-26: Shreya three-day group direction now indexed: Saturday society twin rematch and sister invite, Sunday four-person civil-service preparation, Monday existing police training. Clock placeholders are only sort keys, not author-approved session times. Future Karan–Aman interaction is outside active EP06; no additional public event invented."
   ],
   "events": [
     {
@@ -2832,6 +2833,146 @@
         "Plot planning only; not new published prose"
       ],
       "detail": "Candidate Friday office/online code-and-design integration check after Wednesday group visit. Review UI flows, REST integration and QA test cases. Not a committed meeting until workload and calendars are agreed."
+    },
+    {
+      "id": "shr06-03-rematch",
+      "date": "2026-01-03",
+      "sort": "08:40",
+      "start": null,
+      "end": null,
+      "timeLabel": "Saturday gym/morning candidate, exact time unconfirmed",
+      "universe": "sw",
+      "title": "Shreya × Samar–Shaan · rematch results and genuine UPSC/IAS mentoring request",
+      "lead": "Shreya",
+      "characters": [
+        "Shreya",
+        "Samar",
+        "Shaan"
+      ],
+      "mentions": [],
+      "episode": "06 plot",
+      "scene": "SHR06-S01-GYM-REMATCH",
+      "kind": "planned",
+      "state": "review",
+      "status": "AUTHOR GROUP DIRECTION CONFIRMED · SCENE TIMING/DETAILS OPEN",
+      "source": "episode-06-shreya-plan.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "shreya",
+        "part": "06",
+        "scene": "SHR06-S01-GYM-REMATCH"
+      },
+      "flags": [
+        "Chronological sort is for display only, NOT a confirmed clock time.",
+        "Official police duty and private home group must stay distinct."
+      ],
+      "detail": "Two twins win separate rematches. Coffee and conditional get-together teasing, then civil-service study request. Changing-area accident is optional, not a locked physical reveal."
+    },
+    {
+      "id": "shr06-03-study",
+      "date": "2026-01-03",
+      "sort": "10:00",
+      "start": null,
+      "end": null,
+      "timeLabel": "Saturday following gym, clock and Anaya care open",
+      "universe": "sw",
+      "title": "Shreya × Shruti · sister study and physical-exam plan",
+      "lead": "Shreya",
+      "characters": [
+        "Shreya",
+        "Shruti"
+      ],
+      "mentions": [],
+      "episode": "06 plot",
+      "scene": "SHR06-S02-SHRUTI-HOME-STUDY",
+      "kind": "planned",
+      "state": "review",
+      "status": "AUTHOR GROUP DIRECTION CONFIRMED · SCENE TIMING/DETAILS OPEN",
+      "source": "episode-06-shreya-plan.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "shreya",
+        "part": "06",
+        "scene": "SHR06-S02-SHRUTI-HOME-STUDY"
+      },
+      "flags": [
+        "Chronological sort is for display only, NOT a confirmed clock time.",
+        "Official police duty and private home group must stay distinct."
+      ],
+      "detail": "Independent exam goals and flexible shifts. No mandatory home visitors or fixed duration."
+    },
+    {
+      "id": "shr06-04-session",
+      "date": "2026-01-04",
+      "sort": "14:00",
+      "start": null,
+      "end": null,
+      "timeLabel": "Sunday window open, only if Shreya off duty",
+      "universe": "sw",
+      "title": "Shreya, Shruti, Samar and Shaan · first small-group study option",
+      "lead": "Shreya",
+      "characters": [
+        "Shreya",
+        "Shruti",
+        "Samar",
+        "Shaan"
+      ],
+      "mentions": [],
+      "episode": "06 plot",
+      "scene": "SHR06-S03-FOUR-PERSON-SESSION",
+      "kind": "planned",
+      "state": "review",
+      "status": "AUTHOR GROUP DIRECTION CONFIRMED · SCENE TIMING/DETAILS OPEN",
+      "source": "episode-06-shreya-plan.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "shreya",
+        "part": "06",
+        "scene": "SHR06-S03-FOUR-PERSON-SESSION"
+      },
+      "flags": [
+        "Chronological sort is for display only, NOT a confirmed clock time.",
+        "Official police duty and private home group must stay distinct."
+      ],
+      "detail": "Venue candidates: Rathore study area, shared lobby, twins' bachelor flat. Group study is user direction, exact venue and scene pending."
+    },
+    {
+      "id": "shr06-05-continuity",
+      "date": "2026-01-05",
+      "sort": "18:30",
+      "start": null,
+      "end": null,
+      "timeLabel": "Monday shift changes; no fixed departure or private time",
+      "universe": "sw",
+      "title": "Shreya × police unit · existing training maintained, private workout optional",
+      "lead": "Shreya",
+      "characters": [
+        "Shreya",
+        "Rohas",
+        "Lokesh",
+        "Meera",
+        "Kavita",
+        "Poonam",
+        "Anjali"
+      ],
+      "mentions": [],
+      "episode": "06 plot",
+      "scene": "SHR06-S04-DUTY-CONTINUITY",
+      "kind": "planned",
+      "state": "review",
+      "status": "AUTHOR GROUP DIRECTION CONFIRMED · SCENE TIMING/DETAILS OPEN",
+      "source": "episode-06-shreya-plan.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "shreya",
+        "part": "06",
+        "scene": "SHR06-S04-DUTY-CONTINUITY"
+      },
+      "flags": [
+        "Chronological sort is for display only, NOT a confirmed clock time.",
+        "Official police duty and private home group must stay distinct."
+      ],
+      "detail": "Already authored station rounds unchanged; off-duty personal practice only by separate agreement and suitable venue."
     }
   ],
   "sourcePolicy": " | Shreya January 3 working scenes SR10–SR13 were moved into the January 1 calendar by direct author instruction 2026-11-16, original plan archived in episode-03-shreya-plan-archive-jan03.json; no content removed from story source."
