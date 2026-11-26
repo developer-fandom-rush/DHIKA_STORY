@@ -204,5 +204,17 @@
     "lead": "Shreya",
     "status": "HOLD until all five main leads 3–5 Jan 2026 plots and spouse/fiancé work/family positions mapped",
     "mustCheck": "Before optional society interactions, weekends/movie booking, Shivani cross-over or Karan/Aman slots, compare this lead's next 3 days and partner whereabouts. Existing prose untouched."
+  },
+  "nextEpisodeMarriageSetupHandoff": {
+    "status": "AUTHOR_REQUESTED_DISCUSSION_ONLY__NOT_FINAL_STORY_PROSE",
+    "title": "Shreya × Vikram — distinct marriage relationship backstory in Shreya's next episode",
+    "sourceOfExistingScene": "Original Episode05 Shreya×Ankita 2 Jan night document; already contains consensual husband-wife reunion after Uncle storage discovery.",
+    "required": "Create a character-grounded marriage backstory and married-life dynamics before assigning new intimate plot beats. Similar narrative function to John–Dhika without copying unverified specifics. Check latest confirmed Shreya work/childcare and Vikram's job/availability. Do not repeat 2 Jan night or retroactively assert both women know identical evidence.",
+    "sharedAgenda": "Society-Wives/episode-06-ankita-discussion-agenda.json",
+    "readBeforeWriting": [
+      "Society-Wives/episode-05-reader.json",
+      "Society-Wives/episode-06-cross-household-hold.json"
+    ],
+    "statusOfVikramWork": "UNCONFIRMED__DISCUSS_WITH_AUTHOR"
   }
 }
