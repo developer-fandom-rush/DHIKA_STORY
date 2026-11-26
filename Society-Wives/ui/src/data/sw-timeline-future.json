@@ -12,7 +12,8 @@
     "2026-11-26: Group D Boundary-Reversal physically approved in episode06; Kavya first linked-arm bridge candidate, NOT author-final. Society cross-household marker is an editorial hold and does not assert an in-universe 23:00 event.",
     "2026-11-26: Ankita EP06 first marriage scene ordering approved; Jan3 gym and Jan5 technical demo times merely candidate windows. Aishwarya HR role separate, not a technical pupil; Karan–Aman home contact daily without appointment.",
     "2026-11-26: Ankita Jan3–5 wife-wise Episode06 plot markers refreshed from user approvals: marriage-first, Saturday private Karan/Aman fitness look, flexible Aman study, direct Ayaan/Armaan CBT request, Monday Aishwarya HR favour and office project kickoff. Jan4 availability is not an invented canonical encounter. Wednesday Jan7 four office visitors arrive in Reyansh's same five-seater car; small overshirt-slip beat approved in plot but not written as final prose. Clock times remain candidate unless explicitly grounded.",
-    "2026-11-26: Shreya three-day group direction now indexed: Saturday society twin rematch and sister invite, Sunday four-person civil-service preparation, Monday existing police training. Clock placeholders are only sort keys, not author-approved session times. Future Karan–Aman interaction is outside active EP06; no additional public event invented."
+    "2026-11-26: Shreya three-day group direction now indexed: Saturday society twin rematch and sister invite, Sunday four-person civil-service preparation, Monday existing police training. Clock placeholders are only sort keys, not author-approved session times. Future Karan–Aman interaction is outside active EP06; no additional public event invented.",
+    "2026-11-26 editorial time reconciliation for Shreya EP06: Jan3 10:15–11:20 twin rematch/brief bra changing-area sightline, 12:15–12:45 sister planning; Jan4 14:00–15:15 twin bachelor apartment group; Jan5 15:35–16:25 police escape/hold-break drill (shift-dependent), 20:10–20:35 optional call. Cross-lead Saturdays: 08:40–09:05 Ankita/Shreya evidence call, 15:00–15:25 Shivani with Ayaan/Armaan, 16:20–16:35 Ankita with same pair. Sundays: Karan/Aman 11:30–12:15 Shivani, 16:30–17:05 Kavya; household calendar does not book them. This is conflict-checked across events with explicit time windows, while open/unscheduled markers are not assumed attendance."
   ],
   "events": [
     {
@@ -1857,12 +1858,12 @@
     {
       "id": "ep05-link-jan03-morning",
       "date": "2026-01-03",
-      "sort": "08:00",
-      "start": null,
-      "end": null,
-      "timeLabel": "Saturday morning; clock open",
+      "sort": "07:55",
+      "start": "07:55",
+      "end": "08:15",
+      "timeLabel": "Saturday 07:55–08:15 · parallel separate homes · source recap",
       "universe": "sw",
-      "title": "EP05 Ankita/Shreya next-morning reactions",
+      "title": "Saturday morning · two distinct homes, not a joint visit",
       "lead": "Ankita × Shreya",
       "characters": [
         "Ankita",
@@ -1873,16 +1874,19 @@
       "scene": "05",
       "kind": "planned",
       "state": "source-review",
-      "status": "SOURCE INDEX · ORIGINAL TEXT PRESERVED",
+      "status": "SOURCE RECAP / PARALLEL INDEPENDENT HOME MOMENTS",
       "source": "shivani-episode-06-three-day-plot.json",
       "reader": {
         "type": "sw-episode05",
         "scene": "05"
       },
       "flags": [
-        "Clock is proposed/index order unless explicitly source-confirmed."
+        "Clock is proposed/index order unless explicitly source-confirmed.",
+        "EDITOR-RECONCILED_TIME__NOT_ORIGINALLY_AUTHOR_SPECIFIED",
+        "PARALLEL_SEPARATE_LOCATIONS__NOT_COLOCATED",
+        "DO_NOT_INTERPRET_AS_SHARED_ATTENDANCE"
       ],
-      "detail": "Existing combined reader Scene05; avoid overriding it."
+      "detail": "Ankita and Shreya independently process EP05 events at their own homes. This combined index entry is NOT a physical meeting between them."
     },
     {
       "id": "sh06-03-uncle",
@@ -1950,9 +1954,9 @@
       "id": "sh06-03-ayaan",
       "date": "2026-01-03",
       "sort": "15:00",
-      "start": null,
-      "end": null,
-      "timeLabel": "Afternoon candidate",
+      "start": "15:00",
+      "end": "15:25",
+      "timeLabel": "Saturday 15:00–15:25 · editor-proposed",
       "universe": "sw",
       "title": "Ayaan–Armaan tuition request & Meenakshi call",
       "lead": "Shivani",
@@ -1976,9 +1980,10 @@
         "scene": "SH06-SAT-AYAAN"
       },
       "flags": [
-        "Clock is proposed/index order unless explicitly source-confirmed."
+        "Clock is proposed/index order unless explicitly source-confirmed.",
+        "EDITOR-RECONCILED_TIME__NOT_ORIGINALLY_AUTHOR_SPECIFIED"
       ],
-      "detail": "Biology focus Shivani, Chemistry help Meenakshi agrees in principle by phone, exact timing later. No accidental show yet."
+      "detail": "Shivani receives Ayaan–Armaan tuition request and proposed Meenakshi coordination; finish and allow 55-minute buffer before separate Ankita mentoring request."
     },
     {
       "id": "sh06-03-evening",
@@ -2046,9 +2051,9 @@
       "id": "sh06-04-group-a",
       "date": "2026-01-04",
       "sort": "11:30",
-      "start": null,
-      "end": null,
-      "timeLabel": "Late morning/afternoon candidate",
+      "start": "11:30",
+      "end": "12:15",
+      "timeLabel": "Sunday 11:30–12:15 · editor-proposed hold",
       "universe": "sw",
       "title": "Group A · Karan/Aman/Shivani romantic callback",
       "lead": "Shivani",
@@ -2071,9 +2076,10 @@
         "scene": "SH06-SUN-GROUP-A"
       },
       "flags": [
-        "Clock is proposed/index order unless explicitly source-confirmed."
+        "Clock is proposed/index order unless explicitly source-confirmed.",
+        "EDITOR-RECONCILED_TIME__NOT_ORIGINALLY_AUTHOR_SPECIFIED"
       ],
-      "detail": "Pallu shift, Shivani's knowing smile, previous intimacy callback, mutually chosen affectionate reunion, playful ending and Kavya/double-timing joke. No fixed 11:30 appointment."
+      "detail": "Shivani × Karan–Aman Group A; only a time reconciliation, original date and user approval status remain per source."
     },
     {
       "id": "sh06-04-society",
@@ -2139,9 +2145,9 @@
       "id": "sh06-05-bio",
       "date": "2026-01-05",
       "sort": "06:45",
-      "start": null,
-      "end": null,
-      "timeLabel": "Proposed 06:45–07:45",
+      "start": "06:45",
+      "end": "07:45",
+      "timeLabel": "Monday 06:45–07:45 · existing draft window",
       "universe": "sw",
       "title": "Group B · Ayaan/Armaan Biology class",
       "lead": "Shivani",
@@ -2164,9 +2170,10 @@
         "scene": "SH06-MON-BIO"
       },
       "flags": [
-        "Clock is proposed/index order unless explicitly source-confirmed."
+        "Clock is proposed/index order unless explicitly source-confirmed.",
+        "EDITOR-RECONCILED_TIME__NOT_ORIGINALLY_AUTHOR_SPECIFIED"
       ],
-      "detail": "Real IIT JAM Biology, approved overhead-reach/waist slip belongs to a later session."
+      "detail": "Shivani's Biology mentoring for Ayaan and Armaan; does not involve Shreya or Karan/Aman."
     },
     {
       "id": "sh06-05-college",
@@ -2311,9 +2318,9 @@
       "id": "sh06-04-kavya-bridge",
       "date": "2026-01-04",
       "sort": "16:30",
-      "start": null,
-      "end": null,
-      "timeLabel": "Late afternoon option; no fixed clock",
+      "start": "16:30",
+      "end": "17:05",
+      "timeLabel": "Sunday 16:30–17:05 · editor-proposed hold",
       "universe": "sw",
       "title": "Kavya × Karan–Aman · approved no-touch doorway farewell",
       "lead": "Kavya",
@@ -2338,9 +2345,10 @@
       "flags": [
         "Author-approved plot, no word-for-word episode prose yet",
         "Sunday 4 Jan sorting slot only—five-household gate and Karan/Aman availability remain open",
-        "No shirt/outfit details invented beyond deliberate removal of an upper garment at a private threshold"
+        "No shirt/outfit details invented beyond deliberate removal of an upper garment at a private threshold",
+        "EDITOR-RECONCILED_TIME__NOT_ORIGINALLY_AUTHOR_SPECIFIED"
       ],
-      "detail": "After earned teasing about being understood rather than merely complimented, Kavya steps inside her personal doorway and deliberately shows the two brothers her bare back for a brief, tasteful farewell. Karan loses his usual smooth line; Aman understands Kavya's intentional challenge; she is briefly struck by his insight and ends with a teasing good night. Neither enters. No physical touch or kiss. Earlier linked-arm/handholding proposal replaced. Deepu remains a separate existing spark."
+      "detail": "Kavya × Karan–Aman no-touch doorway continuation; separated from Shivani slot by 4h15m including travel."
     },
     {
       "id": "ep06-five-household-hold",
@@ -2382,9 +2390,9 @@
       "id": "ank06-03-marriage-opening-proposed-time",
       "date": "2026-01-03",
       "sort": "06:45",
-      "start": null,
-      "end": null,
-      "timeLabel": "Saturday · first Ankita EP06 scene; exact clock open",
+      "start": "06:45",
+      "end": "07:20",
+      "timeLabel": "Saturday 06:45–07:20 · editor-proposed",
       "universe": "sw",
       "title": "Ankita × Kabir · first EP06 marriage foundation",
       "lead": "Ankita",
@@ -2408,17 +2416,18 @@
       "flags": [
         "EDITORIAL TIME PROPOSAL only, not confirmed attendance",
         "No prose, accident or result has been written for this event",
-        "Check five-household spouses, travel and outside lead availability before locking"
+        "Check five-household spouses, travel and outside lead availability before locking",
+        "EDITOR-RECONCILED_TIME__NOT_ORIGINALLY_AUTHOR_SPECIFIED"
       ],
-      "detail": "Open with Ankita/Kabir relationship backstory, trust and familiar emotional comfort. No wedding date invented; prior Friday night affection is already in EP05. Begin with marital foundation, then honor the existing EP05 morning reaction and Shreya comparison before arranging later household beats."
+      "detail": "Existing Ankita × Kabir marriage-foundation setup; retained before twin workout. Exact author prose and scene timing still open."
     },
     {
       "id": "ank06-03-gym-challenge-suggested",
       "date": "2026-01-03",
-      "sort": "07:30",
-      "start": null,
-      "end": null,
-      "timeLabel": "Saturday home workout · clock to align after marriage opening",
+      "sort": "07:35",
+      "start": "07:35",
+      "end": "08:20",
+      "timeLabel": "Saturday 07:35–08:20 · editor-proposed",
       "universe": "sw",
       "title": "Ankita × Karan–Aman · approved home workout look + push-up challenge",
       "lead": "Ankita",
@@ -2443,9 +2452,10 @@
       "flags": [
         "Exact Saturday timing not locked; ensure EP06 marriage-first scene and existing EP05 morning reactions come first",
         "Home workout selected; former society-gym bag strap mechanism was rejected",
-        "Do not mislabel selected look as a promise, public exposure or published prose"
+        "Do not mislabel selected look as a promise, public exposure or published prose",
+        "EDITOR-RECONCILED_TIME__NOT_ORIGINALLY_AUTHOR_SPECIFIED"
       ],
-      "detail": "At Malhotra home, Ankita willingly fulfills Karan's earlier workout-look request (not a promise), wearing the selected olive sports bra and athletic shorts in an indoor setting. Front/back look and brothers' distinct banter are the approved visual reference; 20-push-up challenge leads to exercise regardless of score. Aman can discuss Java/backend questions solo. A separate dining-table accident idea exists but is OPTIONAL/POSTPONABLE and is not part of the outfit visual."
+      "detail": "Ankita home-workout challenge with Karan and Aman, after marriage scene. Do not insert Shreya into this household session."
     },
     {
       "id": "ank06-05-office-tech-group-candidate",
@@ -2486,10 +2496,10 @@
     {
       "id": "ank06-03-evidence-compare",
       "date": "2026-01-03",
-      "sort": "08:30",
-      "start": null,
-      "end": null,
-      "timeLabel": "Saturday · after existing morning reactions; clock open",
+      "sort": "08:40",
+      "start": "08:40",
+      "end": "09:05",
+      "timeLabel": "Saturday 08:40–09:05 · editor-proposed call",
       "universe": "sw",
       "title": "Ankita × Shreya · compare their different EP05 evidence",
       "lead": "Ankita",
@@ -2502,7 +2512,7 @@
       "scene": "ANK06-S02-UNCLE-COMPARISON",
       "kind": "planned",
       "state": "review",
-      "status": "AUTHOR-APPROVED PLOT DIRECTION · TIME/PROSE OPEN",
+      "status": "AUTHOR-AGREED DIRECTION / EDITOR CLOCK",
       "source": "episode-06-ankita-plan.json",
       "reader": {
         "type": "sw-plan",
@@ -2512,17 +2522,18 @@
       },
       "flags": [
         "EP05 reader already contains individual morning reactions; this is a follow-up, not a replay",
-        "Plot planning only; not new published prose"
+        "Plot planning only; not new published prose",
+        "EDITOR-RECONCILED_TIME__NOT_ORIGINALLY_AUTHOR_SPECIFIED"
       ],
-      "detail": "After their separately written Saturday morning reactions, they compare what each actually knows, without giving Ankita Shreya's unseen parcel evidence. Exact contact medium and time not yet selected."
+      "detail": "Private Ankita × Shreya evidence-comparison call after independent morning reactions; no travel time assumed, completes before Shreya gym arrival."
     },
     {
       "id": "ank06-03-aman-doubts",
       "date": "2026-01-03",
-      "sort": "13:00",
-      "start": null,
-      "end": null,
-      "timeLabel": "Saturday · flexible study, exact clock open",
+      "sort": "13:05",
+      "start": "13:05",
+      "end": "13:30",
+      "timeLabel": "Saturday 13:05–13:30 · editor-proposed",
       "universe": "sw",
       "title": "Aman × Ankita · flexible Java/backend doubt session",
       "lead": "Ankita",
@@ -2545,17 +2556,18 @@
       },
       "flags": [
         "Avoid a made-up fixed tuition appointment for people who share a home",
-        "Plot planning only; not new published prose"
+        "Plot planning only; not new published prose",
+        "EDITOR-RECONCILED_TIME__NOT_ORIGINALLY_AUTHOR_SPECIFIED"
       ],
-      "detail": "Household-based mentoring on Java, Spring Boot and mock interviews. Solo is allowed; later Sana/Vivan/Reyansh tech participation is optional rather than obligatory."
+      "detail": "Ankita guides Aman in Java/backend; Shreya and Samar–Shaan study circle not involved."
     },
     {
       "id": "ank06-03-ayaan-armaan-direct",
       "date": "2026-01-03",
       "sort": "16:20",
-      "start": null,
-      "end": null,
-      "timeLabel": "Saturday 16:20–16:35 CANDIDATE",
+      "start": "16:20",
+      "end": "16:35",
+      "timeLabel": "Saturday 16:20–16:35 · editor-proposed",
       "universe": "sw",
       "title": "Ayaan–Armaan · direct CBT mentoring request to Ankita",
       "lead": "Ankita",
@@ -2580,27 +2592,29 @@
       "flags": [
         "Their own academic qualifications/registration and 1 Jan lift chronology still require source audit",
         "Ankita is not automatically a Physics teacher",
-        "Plot planning only; not new published prose"
+        "Plot planning only; not new published prose",
+        "EDITOR-RECONCILED_TIME__NOT_ORIGINALLY_AUTHOR_SPECIFIED"
       ],
-      "detail": "Existing 1 Jan contact can support their direct approach about IIT JAM Biotechnology computer-based mocks, timed practice and score analytics. They do not need Shivani as intermediary. Their biological twin relation is NOT confirmed. Initial academic rapport takes priority; accidental slip optional later."
+      "detail": "Ayaan–Armaan separately ask Ankita about IIT JAM CBT; distinct from Shivani's earlier 15:00–15:25 request."
     },
     {
       "id": "ank06-04-family-calendar",
       "date": "2026-01-04",
-      "sort": "12:30",
-      "start": null,
-      "end": null,
-      "timeLabel": "Sunday · flexible; no exact scene booked",
+      "sort": "08:00",
+      "start": "08:00",
+      "end": "08:30",
+      "timeLabel": "Sunday 08:00–08:30 · editor-proposed planning-only hold",
       "universe": "sw",
-      "title": "Ankita × Kabir · hold for family plans and tutoring timetable",
+      "title": "Ankita × Kabir · household calendar check (twins not required)",
       "lead": "Ankita",
       "characters": [
         "Ankita",
-        "Kabir",
+        "Kabir"
+      ],
+      "mentions": [
         "Karan",
         "Aman"
       ],
-      "mentions": [],
       "episode": "06 plot",
       "scene": "ANK06-S01-MARRIAGE",
       "kind": "planned",
@@ -2616,26 +2630,29 @@
       "flags": [
         "Editorial availability marker, NOT a confirmed in-universe event or encounter",
         "Cross-household Sunday plans remain pending",
-        "Plot planning only; not new published prose"
+        "Plot planning only; not new published prose",
+        "KARAN_AMAN_MENTIONED_NOT_ATTENDEES",
+        "EDITOR-RECONCILED_TIME__NOT_ORIGINALLY_AUTHOR_SPECIFIED"
       ],
-      "detail": "Sunday is left flexible. The family may coordinate weekday office hours, Karan/Aman household study and two separate proposed JAM CBT appointments; no invented meeting or romantic encounter is booked."
+      "detail": "This is a spouse-level household coordination placeholder; it does NOT book Karan and Aman, so their planned Shivani late-morning and Kavya late-afternoon windows remain clear."
     },
     {
       "id": "ank06-05-aishwarya-favour",
       "date": "2026-01-05",
       "sort": "13:00",
-      "start": null,
-      "end": null,
-      "timeLabel": "Monday lunch · exact minutes open",
+      "start": "13:00",
+      "end": "13:15",
+      "timeLabel": "Monday 13:00–13:15 · editor-proposed",
       "universe": "sw",
       "title": "Ankita asks Aishwarya to help Karan with CV/interviews",
       "lead": "Ankita",
       "characters": [
         "Ankita",
-        "Aishwarya",
+        "Aishwarya"
+      ],
+      "mentions": [
         "Karan"
       ],
-      "mentions": [],
       "episode": "06 plot",
       "scene": "ANK06-S04-OFFICE",
       "kind": "planned",
@@ -2651,9 +2668,11 @@
       "flags": [
         "Existing Karan–Aishwarya direct acquaintance not verified; plan a genuine introduction Wednesday",
         "Aishwarya is HR, not Java/backend tutor",
-        "Plot planning only; not new published prose"
+        "Plot planning only; not new published prose",
+        "EDITOR-RECONCILED_TIME__NOT_ORIGINALLY_AUTHOR_SPECIFIED",
+        "KARAN_REFERENCED_NOT_PHYSICALLY_PRESENT"
       ],
-      "detail": "At Monday office lunch/coffee Ankita asks HR colleague Aishwarya for a voluntary mock-interview/CV communication session for her 22-year-old brother-in-law Karan (Kabir's younger brother). Aishwarya's earlier 1 Jan private-briefing follow-up remains a separate light teasing thread. Karan is NOT present at Monday office lunch, only discussed."
+      "detail": "Ankita asks Aishwarya for career-help favour regarding Karan. Karan does not have to attend the office discussion."
     },
     {
       "id": "ank06-05-kabir-guest-discussion",
@@ -2837,12 +2856,12 @@
     {
       "id": "shr06-03-rematch",
       "date": "2026-01-03",
-      "sort": "08:40",
-      "start": null,
-      "end": null,
-      "timeLabel": "Saturday gym/morning candidate, exact time unconfirmed",
+      "sort": "10:15",
+      "start": "10:15",
+      "end": "11:20",
+      "timeLabel": "Saturday 10:15–11:20 · editor-selected slot",
       "universe": "sw",
-      "title": "Shreya × Samar–Shaan · rematch results and genuine UPSC/IAS mentoring request",
+      "title": "Shreya × Samar–Shaan · winning gym rematches → study request → changing-area accident",
       "lead": "Shreya",
       "characters": [
         "Shreya",
@@ -2854,7 +2873,7 @@
       "scene": "SHR06-S01-GYM-REMATCH",
       "kind": "planned",
       "state": "review",
-      "status": "AUTHOR GROUP DIRECTION CONFIRMED · SCENE TIMING/DETAILS OPEN",
+      "status": "USER STORY DIRECTION / CLOCK EDITOR-RECONCILED / PROSE OPEN",
       "source": "episode-06-shreya-plan.json",
       "reader": {
         "type": "sw-plan",
@@ -2864,19 +2883,20 @@
       },
       "flags": [
         "Chronological sort is for display only, NOT a confirmed clock time.",
-        "Official police duty and private home group must stay distinct."
+        "Official police duty and private home group must stay distinct.",
+        "EDITOR-RECONCILED_TIME__NOT_ORIGINALLY_AUTHOR_SPECIFIED"
       ],
-      "detail": "Two twins win separate rematches. Coffee and conditional get-together teasing, then civil-service study request. Changing-area accident is optional, not a locked physical reveal."
+      "detail": "10:15–10:30 separate rematches won by twins; 10:30–10:42 old coffee/saree/get-together wager teasing; 10:42–10:54 IAS/competitive-exam mentoring request; 11:05–11:12 brief accidental sightline when changing-cubicle latch fails and Shreya is seen in her bra; normal exit by 11:20."
     },
     {
       "id": "shr06-03-study",
       "date": "2026-01-03",
-      "sort": "10:00",
-      "start": null,
-      "end": null,
-      "timeLabel": "Saturday following gym, clock and Anaya care open",
+      "sort": "12:15",
+      "start": "12:15",
+      "end": "12:45",
+      "timeLabel": "Saturday 12:15–12:45 · editor-selected slot",
       "universe": "sw",
-      "title": "Shreya × Shruti · sister study and physical-exam plan",
+      "title": "Shreya × Shruti · exam prep and four-person study invitation",
       "lead": "Shreya",
       "characters": [
         "Shreya",
@@ -2887,7 +2907,7 @@
       "scene": "SHR06-S02-SHRUTI-HOME-STUDY",
       "kind": "planned",
       "state": "review",
-      "status": "AUTHOR GROUP DIRECTION CONFIRMED · SCENE TIMING/DETAILS OPEN",
+      "status": "USER STORY DIRECTION / CLOCK EDITOR-RECONCILED / PROSE OPEN",
       "source": "episode-06-shreya-plan.json",
       "reader": {
         "type": "sw-plan",
@@ -2897,19 +2917,20 @@
       },
       "flags": [
         "Chronological sort is for display only, NOT a confirmed clock time.",
-        "Official police duty and private home group must stay distinct."
+        "Official police duty and private home group must stay distinct.",
+        "EDITOR-RECONCILED_TIME__NOT_ORIGINALLY_AUTHOR_SPECIFIED"
       ],
-      "detail": "Independent exam goals and flexible shifts. No mandatory home visitors or fixed duration."
+      "detail": "Sisters at Rathore home. Shruti accepts planned mentoring group; exam streams distinguished; Anaya's household arrangements independent."
     },
     {
       "id": "shr06-04-session",
       "date": "2026-01-04",
       "sort": "14:00",
-      "start": null,
-      "end": null,
-      "timeLabel": "Sunday window open, only if Shreya off duty",
+      "start": "14:00",
+      "end": "15:15",
+      "timeLabel": "Sunday 14:00–15:15 · editor-selected slot",
       "universe": "sw",
-      "title": "Shreya, Shruti, Samar and Shaan · first small-group study option",
+      "title": "Shreya × Shruti × Samar–Shaan · first IAS/competitive-exam study at twins' apartment",
       "lead": "Shreya",
       "characters": [
         "Shreya",
@@ -2922,7 +2943,7 @@
       "scene": "SHR06-S03-FOUR-PERSON-SESSION",
       "kind": "planned",
       "state": "review",
-      "status": "AUTHOR GROUP DIRECTION CONFIRMED · SCENE TIMING/DETAILS OPEN",
+      "status": "USER STORY DIRECTION / CLOCK EDITOR-RECONCILED / PROSE OPEN",
       "source": "episode-06-shreya-plan.json",
       "reader": {
         "type": "sw-plan",
@@ -2932,35 +2953,37 @@
       },
       "flags": [
         "Chronological sort is for display only, NOT a confirmed clock time.",
-        "Official police duty and private home group must stay distinct."
+        "Official police duty and private home group must stay distinct.",
+        "EDITOR-RECONCILED_TIME__NOT_ORIGINALLY_AUTHOR_SPECIFIED"
       ],
-      "detail": "Venue candidates: Rathore study area, shared lobby, twins' bachelor flat. Group study is user direction, exact venue and scene pending."
+      "detail": "Four adults meet at Samar and Shaan's shared bachelor flat. Quiet living-room study, practical mock discussion, future gym plan; no Karan/Aman or Ayaan/Armaan present."
     },
     {
       "id": "shr06-05-continuity",
       "date": "2026-01-05",
-      "sort": "18:30",
-      "start": null,
-      "end": null,
-      "timeLabel": "Monday shift changes; no fixed departure or private time",
+      "sort": "15:35",
+      "start": "15:35",
+      "end": "16:25",
+      "timeLabel": "Monday 15:35–16:25 · editor-proposed / shift-dependent",
       "universe": "sw",
-      "title": "Shreya × police unit · existing training maintained, private workout optional",
+      "title": "Shreya + police team · new close-contact escape-and-recovery training round",
       "lead": "Shreya",
       "characters": [
         "Shreya",
         "Rohas",
         "Lokesh",
         "Meera",
-        "Kavita",
+        "Kavita"
+      ],
+      "mentions": [
         "Poonam",
         "Anjali"
       ],
-      "mentions": [],
       "episode": "06 plot",
       "scene": "SHR06-S04-DUTY-CONTINUITY",
       "kind": "planned",
       "state": "review",
-      "status": "AUTHOR GROUP DIRECTION CONFIRMED · SCENE TIMING/DETAILS OPEN",
+      "status": "NEW ROUND PROPOSED / NO PREVIOUS PROSE CHANGED / SHIFT-DEPENDENT",
       "source": "episode-06-shreya-plan.json",
       "reader": {
         "type": "sw-plan",
@@ -2970,9 +2993,47 @@
       },
       "flags": [
         "Chronological sort is for display only, NOT a confirmed clock time.",
-        "Official police duty and private home group must stay distinct."
+        "Official police duty and private home group must stay distinct.",
+        "EDITOR-RECONCILED_TIME__NOT_ORIGINALLY_AUTHOR_SPECIFIED",
+        "POONAM_ANJALI_REVIEW_AND_ADMIN_NOT_ACTIVE_TRAINEES"
       ],
-      "detail": "Already authored station rounds unchanged; off-duty personal practice only by separate agreement and suitable venue."
+      "detail": "Existing station setting; not a repeat of Episode03 flag-control. Meera/Rohas controlled hold-break; Kavita/Lokesh mat-recovery; partner rotation; Shreya coaches; Poonam review and Anjali paperwork only. Exact duty slot requires roster confirmation."
+    },
+    {
+      "id": "shr06-05-evening-review",
+      "date": "2026-01-05",
+      "sort": "20:10",
+      "start": "20:10",
+      "end": "20:35",
+      "timeLabel": "Monday 20:10–20:35 · conditional if Shreya off duty",
+      "universe": "sw",
+      "title": "Shreya–Shruti–Samar–Shaan · brief optional study recap call",
+      "lead": "Shreya",
+      "characters": [
+        "Shreya",
+        "Shruti",
+        "Samar",
+        "Shaan"
+      ],
+      "mentions": [],
+      "episode": "06 plot",
+      "scene": "SHR06-S05-OPTIONAL-REVISION",
+      "kind": "planned",
+      "state": "review",
+      "status": "OPTIONAL FOLLOW-UP / NOT A BOOKED APPOINTMENT",
+      "source": "episode-06-shreya-plan.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "shreya",
+        "part": "06",
+        "scene": "SHR06-S05-OPTIONAL-REVISION"
+      },
+      "flags": [
+        "CANCEL_IF_ON_POLICE_DUTY",
+        "NO_TRAVEL_OR_PHYSICAL_CONTACT",
+        "EDITOR-RECONCILED_TIME__NOT_ORIGINALLY_AUTHOR_SPECIFIED"
+      ],
+      "detail": "Short remote revision/check-in on mock answers only if Shreya has actually finished duty; does not schedule a second in-person meeting."
     }
   ],
   "sourcePolicy": " | Shreya January 3 working scenes SR10–SR13 were moved into the January 1 calendar by direct author instruction 2026-11-16, original plan archived in episode-03-shreya-plan-archive-jan03.json; no content removed from story source."
