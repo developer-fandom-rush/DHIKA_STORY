@@ -1,0 +1,294 @@
+{
+  "schemaVersion": 1,
+  "id": "SW-EP06-KARAN-AMAN-FIVE-LEAD-DAILY-CALENDAR",
+  "title": "Karan × Aman · Five-Lead Shared Daily Availability and Household Tutoring",
+  "dateRange": [
+    "2026-01-03",
+    "2026-01-05"
+  ],
+  "status": "AUTHOR_DIRECTED_SHARED_CAST_AND_DAILY_COORDINATION__PROVISIONAL_WINDOW_PROPOSALS__NO_FINAL_TIMES",
+  "pair": {
+    "names": [
+      "Karan",
+      "Aman"
+    ],
+    "age": [
+      22,
+      22
+    ],
+    "relationship": "Confirmed twin brothers, Kabir's younger brothers; same Malhotra household with Ankita",
+    "academics": {
+      "Karan": "MBA preparation + freelancing (based on prior family atlas)",
+      "Aman": "Java/backend technical interviews, Spring Boot, resume and coding exercises (source-backed)"
+    },
+    "independentMovement": "Aman's scooter and Karan's separate motorbike are established in 1 Jan EP03; distinct transport and whereabouts must be tracked",
+    "priorScene": "episode-03-ankita-scene-07-revised-prose.json: 1 Jan ~17:20–17:50; Ankita drove Aman's scooter with him pillion, asked him to adjust a support grip, and Karan rode separately. This existing physical-comfort beat may not be repeated as a new first encounter.",
+    "routine": "In shared home, Ankita can give short Q&A/gym guidance flexibly only when she and the brothers are actually free; do not treat 'same home' as unlimited permission to intrude or as evidence of always being present."
+  },
+  "fiveLeadLinks": [
+    {
+      "lead": "Ankita",
+      "status": "ESTABLISHED_SAME_HOUSEHOLD__MORNING_WALK_AND_TRAINING_CAN_RECUR",
+      "existing": "Home breakfast, Java questions with Aman and 20-push-up challenge with Karan; previous ride already happened",
+      "dateStatus": "Sat morning exercise discussion open; Mon brief homework possible, not locked"
+    },
+    {
+      "lead": "Shivani",
+      "status": "GROUP_A_PLOT_APPROVED__SUN_4_DATE_CANDIDATE_ONLY",
+      "existing": "Shivani EP06 Group A romantic callback pre-planned",
+      "dateStatus": "Suggest Jan4 11:30–12:15 as provisional nonoverlap block, NOT a promise from Shivani source"
+    },
+    {
+      "lead": "Taniya",
+      "status": "NEW_AUTHOR_SHARED_CROSSLEAD_DIRECTION__STORY_MEETING_NOT_YET_SOURCED",
+      "existing": "User now requests Karan/Aman cross-lead availability as recurring; no validated Taniya appearance already witnessed",
+      "dateStatus": "Open until Taniya full Jan3–5 plot/care duties approved"
+    },
+    {
+      "lead": "Meenakshi",
+      "status": "NEW_AUTHOR_SHARED_CROSSLEAD_DIRECTION__STORY_MEETING_NOT_YET_SOURCED",
+      "existing": "No established Karan/Aman scene independently confirmed in the current audit",
+      "dateStatus": "Open until Meenakshi hospital shifts and family availability checked"
+    },
+    {
+      "lead": "Shreya",
+      "status": "NEW_AUTHOR_SHARED_CROSSLEAD_DIRECTION__STORY_MEETING_NOT_YET_SOURCED",
+      "existing": "No established Karan/Aman scene independently confirmed in the current audit",
+      "dateStatus": "Open until Shreya's police shifts, Anaya care and Vikram work checked"
+    },
+    {
+      "lead": "Kavya",
+      "status": "SIX_BEAT_VISUAL_BRIDGE_PLOT_APPROVED__DAY_CANDIDATE",
+      "existing": "Shivani's younger sister, approved doorway farewell action/reactions",
+      "dateStatus": "Suggest Jan4 16:30–17:05 as provisional nonoverlap block; Sunday gate still open"
+    }
+  ],
+  "dailyFramework": [
+    {
+      "date": "2026-01-03",
+      "label": "Saturday",
+      "slots": [
+        {
+          "window": "06:45–07:20",
+          "use": "Ankita × Kabir EP06 first-scene marriage setup (twins not in scene)",
+          "participants": [
+            "Ankita",
+            "Kabir"
+          ],
+          "status": "EDITORIAL_SORT_PLACEHOLDER__NOT_LOCKED",
+          "notes": "First scene order fixed, clock pending; this is NOT a Karan/Aman appointment"
+        },
+        {
+          "window": "07:30–08:15",
+          "use": "Ankita–Karan/Aman morning mobility + 20-push-up challenge candidate; Aman Java question follow-up separately",
+          "participants": [
+            "Ankita",
+            "Karan",
+            "Aman"
+          ],
+          "status": "TENTATIVE_HOUSEHOLD_WINDOW",
+          "notes": "2 Jan walk skipped because Kabir arrived 03:00 and Rinku filter service disrupted morning; not because of sex. Prior Friday challenge deferred to Saturday, never completed"
+        },
+        {
+          "window": "08:15–10:30",
+          "use": "Individual breakfast/family chores and personal study; availability not guaranteed",
+          "participants": [
+            "Karan",
+            "Aman"
+          ],
+          "status": "UNVERIFIED_FREE"
+        },
+        {
+          "window": "10:30–13:00",
+          "use": "Cross-lead requests Taniya/Meenakshi/Shreya can only be fitted after their 3-day plots are known; no meeting booked",
+          "participants": [
+            "Karan",
+            "Aman"
+          ],
+          "status": "UNASSIGNED_NEEDS_OTHER_LEADS"
+        },
+        {
+          "window": "14:00–18:00",
+          "use": "Flexible personal/society interests and Saturday study; no recurring external meeting invented",
+          "participants": [
+            "Karan",
+            "Aman"
+          ],
+          "status": "UNASSIGNED_NEEDS_OTHER_LEADS"
+        },
+        {
+          "window": "Evening",
+          "use": "Family/household availability and movie possibility unconfirmed",
+          "participants": [
+            "Karan",
+            "Aman"
+          ],
+          "status": "UNBOOKED"
+        }
+      ]
+    },
+    {
+      "date": "2026-01-04",
+      "label": "Sunday",
+      "slots": [
+        {
+          "window": "07:00–07:45",
+          "use": "Ankita regular society walk/mobility and optional brothers' home guidance",
+          "participants": [
+            "Ankita",
+            "Karan",
+            "Aman"
+          ],
+          "status": "TENTATIVE_HOUSEHOLD_WINDOW"
+        },
+        {
+          "window": "10:45–11:30",
+          "use": "Preparation / local transit buffer before Shivani slot",
+          "participants": [
+            "Karan",
+            "Aman"
+          ],
+          "status": "PROPOSED_BUFFER"
+        },
+        {
+          "window": "11:30–12:15",
+          "use": "Shivani EP06 Group A candidate; source says late-morning/afternoon, no exact time approved",
+          "participants": [
+            "Shivani",
+            "Karan",
+            "Aman"
+          ],
+          "status": "PROPOSED_HOLD__REQUIRES_AUTHOR_AND_HOUSEHOLD_APPROVAL"
+        },
+        {
+          "window": "12:15–13:00",
+          "use": "Leave Shivani site and household return/travel buffer",
+          "participants": [
+            "Karan",
+            "Aman"
+          ],
+          "status": "PROPOSED_BUFFER"
+        },
+        {
+          "window": "13:00–15:30",
+          "use": "Cross-lead Taniya/Meenakshi/Shreya potential, currently EMPTY; check partner shifts and consent before booking",
+          "participants": [
+            "Karan",
+            "Aman"
+          ],
+          "status": "UNASSIGNED_NEEDS_OTHER_LEADS"
+        },
+        {
+          "window": "15:30–16:30",
+          "use": "Travel / gap / home commitments before Kavya contact",
+          "participants": [
+            "Karan",
+            "Aman"
+          ],
+          "status": "PROPOSED_BUFFER"
+        },
+        {
+          "window": "16:30–17:05",
+          "use": "Kavya six-beat no-touch doorway farewell, author-approved action, clock remains candidate",
+          "participants": [
+            "Kavya",
+            "Karan",
+            "Aman"
+          ],
+          "status": "PROPOSED_HOLD__REQUIRES_AUTHOR_AND_HOUSEHOLD_APPROVAL"
+        },
+        {
+          "window": "17:05–18:00",
+          "use": "Travel and return; no additional relationship beat assumed",
+          "participants": [
+            "Karan",
+            "Aman"
+          ],
+          "status": "PROPOSED_BUFFER"
+        },
+        {
+          "window": "Evening",
+          "use": "All-five-lead society/movie/family possibilities on hold",
+          "participants": [
+            "Karan",
+            "Aman"
+          ],
+          "status": "UNBOOKED"
+        }
+      ]
+    },
+    {
+      "date": "2026-01-05",
+      "label": "Monday",
+      "slots": [
+        {
+          "window": "06:45–07:30",
+          "use": "Optional Ankita morning walk or Java revision in shared household; contingent on work/study wake-up",
+          "participants": [
+            "Ankita",
+            "Karan",
+            "Aman"
+          ],
+          "status": "TENTATIVE_HOUSEHOLD_WINDOW"
+        },
+        {
+          "window": "07:30–09:00",
+          "use": "Breakfast/commute/private study; Karan MBA and Aman Java goals, exact schedule unknown",
+          "participants": [
+            "Karan",
+            "Aman"
+          ],
+          "status": "UNVERIFIED"
+        },
+        {
+          "window": "09:00–18:00",
+          "use": "Employment/study/errands not source-locked; DO NOT promise cross-lead meetings here",
+          "participants": [
+            "Karan",
+            "Aman"
+          ],
+          "status": "NO_AVAILABILITY_CLAIM"
+        },
+        {
+          "window": "19:15–20:00",
+          "use": "Possible Ankita home Java QA / fitness debrief if all three free",
+          "participants": [
+            "Ankita",
+            "Karan",
+            "Aman"
+          ],
+          "status": "TENTATIVE_HOUSEHOLD_WINDOW"
+        },
+        {
+          "window": "Remaining evening",
+          "use": "Taniya/Meenakshi/Shreya requests only after their plots; no invented engagements",
+          "participants": [
+            "Karan",
+            "Aman"
+          ],
+          "status": "UNASSIGNED_NEEDS_OTHER_LEADS"
+        }
+      ]
+    }
+  ],
+  "schedulingRules": [
+    "The two twins move as individuals when realistic; do not require both at all five lead encounters. Keep individual itinerary for each if they separate.",
+    "Existing Sunday Shivani and Kavya author-approved action chains may be placed in separate proposed windows but their dates/hours are NOT confirmed; earlier Shivani plot only says option.",
+    "Do not assign the same brother to simultaneous leads. Include realistic travel buffers and household checks; no automatic appearance simply because they live in shared society.",
+    "Priority: hard published source times > existing author-approved plot actions > provisional holds > unscheduled suggestions.",
+    "Ankita has first access to short household guidance by convenience, not exclusive ownership of the brothers' entire day.",
+    "Other three women Taniya/Meenakshi/Shreya have author-requested cross-lead roles but no verified actual new meetings in the schedule. Each requires her own EP06 plan.",
+    "Karan/Aman are distinct from workplace duo Vivan/Reyansh, society duo Ayaan/Armaan, and Shivani college students Harsh/Laksh.",
+    "Same-household recurring guidance includes Karan MBA presentations, business cases and soft skills, Aman Java/Spring Boot/DSA mock-interview sessions, not ungrounded sudden proficiency in all subjects.",
+    "Never publish proposed travel/event timing as a confirmed in-universe appointment before author approves."
+  ],
+  "sources": [
+    "episode-03-ankita-scene-07-revised-prose.json",
+    "episode-04b-ankita-scene02-source.json",
+    "shivani-episode-06-three-day-plot.json",
+    "episode-06-cross-household-hold.json",
+    "episode-06-ankita-plan.json",
+    "episode-06-shreya-plan.json"
+  ],
+  "timelineRule": "This availability grid is an EDITORIAL PROPOSAL stored in planning UI, not a plot event inserted into the global timeline."
+}
