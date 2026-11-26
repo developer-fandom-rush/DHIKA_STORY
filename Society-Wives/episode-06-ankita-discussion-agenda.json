@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "SW-ANKITA-EP06-PREREQUISITE-CONTINUITY-AGENDA",
   "createdAt": "2026-11-26",
-  "status": "FIRST_MARRIAGE_SCENE_ORDER_LOCKED__SHREYA_PARALLEL_SAVED__NEXT_TOPIC_KARAN_AMAN",
+  "status": "MARRIAGE_SCENES_FIRST_AUTHOR_LOCKED__PAIR_CAST_AND_EXPERTISE_LOCKED__CLOCKS_AND_ACCIDENTS_UNDER_DISCUSSION",
   "principle": "Discuss one question at a time and finish all source-backed prerequisites before distributing plots into Jan 3–5 timeline; do not re-write already established 2 Jan Uncle discovery, freeze unseen content, or invent spouse jobs/time slots.",
   "topics": [
     {
@@ -36,28 +36,28 @@
       "order": 4,
       "id": "ANKITA_KARAN_AMAN",
       "title": "Karan–Aman family twins and recurring guidance/20-push-up challenge",
-      "source": "episode-06-karan-aman-shared-availability.json",
+      "source": "episode-06-ankita-mentoring-setup.json",
       "known": "Karan (22), Aman (22) are Kabir's younger twin brothers; Karan MBA/freelancing, Aman Java/backend interview prep; 20-push-up challenge wagers one week of morning exercise if Karan loses; Friday moved to Saturday 3 Jan; Aman asked to send questions.",
       "outstanding": "Set exact fair push-up scoring and genuine Ankita tutoring/guidance subjects; calendar alignment with Shivani Group A and Kavya Sunday interactions",
-      "status": "SOURCE_HISTORY_VERIFIED__FIVE_LEAD_CALENDAR_SOFT_HOLDS__FIRST_ACCIDENT_REVIEW_PENDING"
+      "status": "DAILY_FAMILY_INTERACTION_CONFIRMED__20_PUSHUPS_PENDING__NEW_GYM_SLIP_REVIEW"
     },
     {
       "order": 5,
       "id": "ANKITA_OFFICE_DUO_AND_WOMEN",
       "title": "Vivan/Reyansh home upskilling with existing office women",
-      "source": "character-directory.json",
+      "source": "episode-06-ankita-mentoring-setup.json",
       "known": "Vivan/Reyansh both 24 are coworkers/design professionals, NOT twins. Sana Khan 24 QA automation and Aishwarya Rao 24 HR already participate in 1 Jan office five-person stamina/dance scene. Priya Nair 29 QA lead, Ira Mehta 32 product design and Ayesha Malik 31 HRBP exist in directory but their reader participation is not yet confirmed.",
       "outstanding": "Choose credible cross-functional API/Java/backend upskilling project; identify which women actually attend and why; set off-hours reason, family permissions and safe transportation. User's proposal for three adults on one motorcycle is not locked; source must not presume unsafe triple riding. Any unplanned clothing incident remains a proposal, not existing plot.",
-      "status": "SANA_AISHWARYA_ONLY_ACTIVE__VIVAN_REYANSH_PLOT_OPEN"
+      "status": "VIVAN_REYANSH_SANA_TECHNICAL__AISHWARYA_HR_OBSERVER_ONLY__CANDIDATE_MWF"
     },
     {
       "order": 6,
       "id": "AYAAN_ARMAAN_JAM_CONTRIBUTION",
       "title": "Three or more mentor commitments before assigning timetable",
-      "source": "cross-lead-ayaan-armaan-jam-2026.json",
+      "source": "episode-06-ankita-mentoring-setup.json",
       "known": "Shivani proposed regular Biology lead, Meenakshi chemistry help in principle, Taniya mathematics candidate, Ankita Physics only if actually qualified, Shreya study strategy optional. Do not infer all three confirmed yes responses.",
       "outstanding": "Choose a legitimate call sequence and obtain plausible subject expertise and availability before hard booking any Ayaan/Armaan classes. Their student registration/degree assumptions remain unconfirmed.",
-      "status": "CROSS_LEAD_HANDOFF_EXISTS__SCHEDULE_UNBOOKED"
+      "status": "ANKITA_CBT_MOCK_TECH_CANDIDATE__PHYSICS_UNVERIFIED__FIRST_SLIP_RESERVED"
     },
     {
       "order": 7,
@@ -82,6 +82,13 @@
     "shreyaOpening": "First scene of Episode06 Shreya × Vikram marriage backstory, not repeat Friday night.",
     "twinCrossleads": "Same Karan–Aman twin pair recurs with ALL five main leads as author-direction; specific Taniya/Meenakshi/Shreya meetings not falsely claimed as already published."
   },
-  "nextDecision": "After discussing Karan–Aman first accidental garment slip proposal and training/guidance subject, ask whether to tackle society or office duo next; do not schedule other leads until five-lead availability checked.",
-  "savingPolicy": "Only first scene position approved; other acts and clock placeholders are not final episode prose."
+  "nextDecision": "Review Karan and Aman's first gym-related accidental outer-layer shift: establish exact sightline, their differentiated reactions, and Ankita's comfort. This is not a first touch; Jan1 Aman scooter boundary already authored. Then proceed to office project and optional HR mentor schedule.",
+  "savingPolicy": "Only first scene position approved; other acts and clock placeholders are not final episode prose.",
+  "officeCastScope": "Sana is active technical QA collaborator; Aishwarya HR, OPTIONAL social observer, not a backend study learner. Independent Karan career-interview mentorship can be offered separately after mutual professional introduction.",
+  "cadencePointer": {
+    "source": "episode-06-ankita-mentoring-setup.json",
+    "monWedFri": "Office tech project sample-data only; 45–60 min proposed after work",
+    "tueThuSat": "Optional Aishwarya HR communication/career mock mentoring for Karan; session proposal, not existing canon",
+    "daily": "Karan/Aman household casual contact is continuous; no artificial appointment loop"
+  }
 }
