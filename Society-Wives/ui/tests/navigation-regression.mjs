@@ -91,6 +91,22 @@ for(const filename of allVisuals){
  assert.ok(svg.includes('data:image/webp;base64,'),'Shreya preview must contain actual image data');
 }
 assert.ok(ep06.includes('Husband whereabouts · Jan 3–5'),'Husband whereabouts section missing from UI');
+const taniya=JSON.parse(readFileSync(resolve(root,'episode-06-taniya-plan.json'),'utf8'));
+const taniyaPage=read('src/Taniya06Planning.tsx');
+assert.ok(app.includes("currentLead==='taniya'?<Taniya06Planning/>"),'Taniya EP06 must be routable in Story Plot');
+assert.ok(taniyaPage.includes("episode-06-taniya-plan.json"),'Taniya planning page must load saved source');
+assert.deepEqual(taniya.scenes.filter(s=>s.id.includes('RAO')).map(s=>s.start),['05:00','05:00','05:00'],'User requested 5AM Vivek Rao morning sessions');
+assert.ok(taniya.scenes.some(s=>s.id==='TAN06-S02-SONIYA-CALL'),'Keep Soniya wedding-access teasing phone call');
+assert.ok(taniya.scenes.some(s=>s.id==='TAN06-S04-CA-HOME-LESSON'),'Office duo home tuition required');
+assert.ok(taniya.scenes.some(s=>s.id==='TAN06-S05-SOCIETY-TWINS'&&s.status.includes('GATE')),'Karan/Aman cross-lead appearance must remain conditional until household gate clears');
+assert.ok(taniya.scenes.some(s=>s.id==='TAN06-S08-MONDAY-CA-OFFICE'),'Taniya Monday office return required');
+assert.ok(taniya.excludedFromActiveEpisode06FemaleCoworkers.includes('Neha')&&taniya.excludedFromActiveEpisode06FemaleCoworkers.includes('Andrea'),'Existing office women stay out of active EP06 without deleting history');
+assert.ok(existsSync(resolve(root,'source-vault/ep05-taniya-jan02.json')),'Taniya original EP05 source must remain');
+for(const sc of taniya.scenes){
+ assert.ok(future.events.some(e=>e.scene===sc.id),'Taniya plot missing global timeline event '+sc.id);
+}
+assert.ok(taniya.canonLocks.some(x=>x.includes('DREAM')),'Do not re-import Episode05 dream as a real encounter');
+console.log('PASS Taniya 5AM coaching, sister call, work/social tuition, Monday office, archived females and collision contract.');
 console.log('PASS Shreya visuals, 3 husbands and no-leave police roster.');
 console.log('PASS Shreya 3-day rematch/changing-area/flat-study and cross-lead no-overlap checks.');
 console.log('PASS EP05 original marriage ending and EP06 morning handoff contract.');
