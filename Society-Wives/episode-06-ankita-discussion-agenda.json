@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "SW-ANKITA-EP06-PREREQUISITE-CONTINUITY-AGENDA",
   "createdAt": "2026-11-26",
-  "status": "USER_REQUESTED_DISCUSSION_AGENDA__NO_NEW_SCENES_OR_HUSBAND_SCHEDULES_APPROVED",
+  "status": "FIRST_MARRIAGE_SCENE_ORDER_LOCKED__SHREYA_PARALLEL_SAVED__NEXT_TOPIC_KARAN_AMAN",
   "principle": "Discuss one question at a time and finish all source-backed prerequisites before distributing plots into Jan 3–5 timeline; do not re-write already established 2 Jan Uncle discovery, freeze unseen content, or invent spouse jobs/time slots.",
   "topics": [
     {
@@ -18,37 +18,37 @@
       "order": 2,
       "id": "ANKITA_KABIR_MARRIAGE",
       "title": "Ankita–Kabir marriage relationship backstory, inspired by John–Dhika story function but not copied",
-      "source": "2 Jan EP05 Scene11 marriage-night and 2 Jan EP04B early morning are existing, NOT missing",
+      "source": "episode-06-ankita-plan.json",
       "known": "Kabir returns ~03:00 Fri after IT production incident, affectionate married relationship; Fri after 2 Jan discovery they reconnect privately and Ankita initiates closeness. A distinct marriage backstory/history scene is not yet locked.",
       "outstanding": "How long married, meeting, trust/communication, their respective personalities; place concise flashback/character grounding only after author decision; no gratuitous repetition or new explicit scene",
-      "status": "DISCUSS_BEFORE_LOCK"
+      "status": "FIRST_EP06_SCENE_LOCKED__CONTENT_BLUEPRINT_SAVED__PROSE_PENDING"
     },
     {
       "order": 3,
       "id": "SHREYA_VIKRAM_MARRIAGE",
       "title": "Next Shreya episode includes parallel marriage relationship backstory for Shreya–Vikram",
-      "source": "episode-05-reader.json combined night + episode-05-shreya-plan.json",
+      "source": "episode-06-shreya-plan.json",
       "known": "Vikram/Shreya marital affection and mutual evening closeness already in original Episode05",
       "outstanding": "Relationship origin, married-life baseline, scheduling and timeline placement after comparing existing Shreya approved scenes",
-      "status": "USER_DIRECTION_SAVED_AS_FUTURE_PLOT_REQUIREMENT__NOT_PROSE"
+      "status": "FIRST_SHREYA_EP06_SCENE_LOCKED__CONTENT_BLUEPRINT_SAVED__PROSE_PENDING"
     },
     {
       "order": 4,
       "id": "ANKITA_KARAN_AMAN",
       "title": "Karan–Aman family twins and recurring guidance/20-push-up challenge",
-      "source": "episode-04b-ankita-scene02-source.json / C02; episode-03-reader.json",
+      "source": "episode-06-karan-aman-shared-availability.json",
       "known": "Karan (22), Aman (22) are Kabir's younger twin brothers; Karan MBA/freelancing, Aman Java/backend interview prep; 20-push-up challenge wagers one week of morning exercise if Karan loses; Friday moved to Saturday 3 Jan; Aman asked to send questions.",
       "outstanding": "Set exact fair push-up scoring and genuine Ankita tutoring/guidance subjects; calendar alignment with Shivani Group A and Kavya Sunday interactions",
-      "status": "DISCUSS_NEXT_AFTER_MARRIAGE"
+      "status": "SOURCE_HISTORY_VERIFIED__FIVE_LEAD_CALENDAR_SOFT_HOLDS__FIRST_ACCIDENT_REVIEW_PENDING"
     },
     {
       "order": 5,
       "id": "ANKITA_OFFICE_DUO_AND_WOMEN",
       "title": "Vivan/Reyansh home upskilling with existing office women",
-      "source": "character-directory.json + 1 Jan episode-03-reader.json",
+      "source": "character-directory.json",
       "known": "Vivan/Reyansh both 24 are coworkers/design professionals, NOT twins. Sana Khan 24 QA automation and Aishwarya Rao 24 HR already participate in 1 Jan office five-person stamina/dance scene. Priya Nair 29 QA lead, Ira Mehta 32 product design and Ayesha Malik 31 HRBP exist in directory but their reader participation is not yet confirmed.",
       "outstanding": "Choose credible cross-functional API/Java/backend upskilling project; identify which women actually attend and why; set off-hours reason, family permissions and safe transportation. User's proposal for three adults on one motorcycle is not locked; source must not presume unsafe triple riding. Any unplanned clothing incident remains a proposal, not existing plot.",
-      "status": "DISCUSS_IN_ORDER__NO_NEW_SCENE_APPROVED"
+      "status": "SANA_AISHWARYA_ONLY_ACTIVE__VIVAN_REYANSH_PLOT_OPEN"
     },
     {
       "order": 6,
@@ -74,5 +74,14 @@
     "Society-Wives/shivani-episode-06-three-day-plot.json",
     "Society-Wives/cross-lead-ayaan-armaan-jam-2026.json"
   ],
-  "editorialHold": "No date-scoped new event or fictional husband profession was added to timeline by this agenda."
+  "editorialHold": "No date-scoped new event or fictional husband profession was added to timeline by this agenda.",
+  "confirmedSourceCorrections": {
+    "jan2MissedWalk": "Kabir returned ~03:00 from overnight production incident and early Rinku filter work delayed routine; do not attribute missed walk to intense intercourse.",
+    "jan1TwinsRide": "EP03 Scene07 author-approved 1 Jan: Ankita drove Aman on scooty, Karan rode separate bike, Aman hand support relocated after her cue. Not first physical familiar contact.",
+    "officeFemaleCast": "Only Sana and Aishwarya newly active; Priya/Ira/Nisha/Diya/Ayesha retired from future scenes but historical source left intact.",
+    "shreyaOpening": "First scene of Episode06 Shreya × Vikram marriage backstory, not repeat Friday night.",
+    "twinCrossleads": "Same Karan–Aman twin pair recurs with ALL five main leads as author-direction; specific Taniya/Meenakshi/Shreya meetings not falsely claimed as already published."
+  },
+  "nextDecision": "After discussing Karan–Aman first accidental garment slip proposal and training/guidance subject, ask whether to tackle society or office duo next; do not schedule other leads until five-lead availability checked.",
+  "savingPolicy": "Only first scene position approved; other acts and clock placeholders are not final episode prose."
 }
