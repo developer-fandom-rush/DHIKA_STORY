@@ -268,6 +268,11 @@ export default function Planning({lead='ankita',part='A'}:{lead?:string;part?:st
   <header className="section-intro"><span className="eyebrow">{selectedPart==='B'?'Episode 04B · Friday 2 January 2026':'Episode 04A'}</span><h1>{selectedPart==='B'?'Taniya · Episode 04B · Plot discussion':'Episode 04A · Story status'}</h1><p>{selectedPart==='B'?'Author-supplied new plot sequence · discussion only; no prose published. Original 04B preserved intact in Future Reference.':'Completed scenes are in Read Story. Only unfinished Episode 04A scenes, if any, remain here.'}</p></header>
   <p className="source-note"><strong>Before planning the next scene:</strong> <a href={'#/future-reference?lead='+active}>Future Reference &amp; Locked Decisions</a> — current scene locks, deferred ideas and pending editorial issues, not new story prose.</p>
 
+  {active==='shivani'&&<section className="episode-plan-card" id="shivani-ep06-entry">
+    <h2>Shivani · Episode 06 · 3–5 January 2026</h2>
+    <p>Approved A/B/C plot, Group D and Kavya open, society/movie options and five-lead Episode 05 audit. Plot only; existing prose unchanged.</p>
+    <button type="button" className="button primary" onClick={()=>openPage('planning',{lead:'shivani',part:'06'})}>Open Shivani EP06 three-day plot →</button>
+   </section>}
   {active==='shreya'&&<section className="episode-plan-card" id="shreya-05-next-plan"><h2>Shreya · next: Episode 05</h2>
     <p>Friday evening homecoming and Vikram relationship beat; original Dhika EP05 chronological bridge; then a proposed separate private society-Chintu continuation after the Dhika EP05 cutpoint.</p>
     <button type="button" className="button primary" onClick={()=>openPage('planning',{lead:'shreya',part:'05'})}>Open Shreya Episode 05 planning →</button>
