@@ -54,7 +54,14 @@
       "name": "Shivani",
       "sourceUrl": "https://docs.google.com/document/d/1NKs5JgmIL2Vf7MgErbOqZllJHbZ14Gc9h10gcZJGLNM/edit",
       "publicationStatus": "PLAN_DISCUSSION_ONLY__PROSE_PENDING",
-      "morningSourcePreserved": true
+      "morningSourcePreserved": true,
+      "sourceVault": {
+        "text": "source-vault/ep04b-shivani-office-jan02.txt",
+        "paragraphs": "source-vault/ep04b-shivani-office-jan02.json",
+        "uiRoute": "#/source-vault?item=ep04b-shivani-office",
+        "exactTextVerified": true,
+        "sourceStatus": "DOCUMENT_WORDING_LOCKED__PLAN_REMAINS_ORIGINAL_PLAN"
+      }
     },
     "meenakshi": {
       "name": "Meenakshi",
@@ -85,8 +92,19 @@
         "03",
         "04"
       ],
-      "unpublishedMorning": true
+      "unpublishedMorning": true,
+      "plotSnapshot": {
+        "source": "source-vault/ep04b-taniya-existing-plot-frozen.json",
+        "uiRoute": "#/source-vault?item=ep04b-taniya-plot",
+        "exactSourceCopied": true,
+        "sourceStatus": "EXISTING_PLOT_LOCKED_SOURCE_SNAPSHOT__NO_REWRITE"
+      }
     }
   },
-  "dressLedger": "episode-04b-05-dress-ledger.json"
+  "dressLedger": "episode-04b-05-dress-ledger.json",
+  "verbatimArchive": {
+    "index": "source-vault/index.json",
+    "uiRoute": "#/source-vault",
+    "lock": "AUTHOR_APPROVED_ORIGINAL_SOURCE_BASELINE__NEVER_REWRITE_OR_OVERWRITE_SNAPSHOTS"
+  }
 }
