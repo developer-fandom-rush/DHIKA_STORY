@@ -122,5 +122,33 @@
     },
     "continuity": "No accidental exposure is already published in this new event. Do not duplicate Shivani pallu, do not imply either brother touches her or has newly obtained consent, do not describe an underwear/breast view without separate author direction.",
     "reviewQuestion": "Does this gym-bag/outer-layer mishap match the first accidental reveal you want with Karan and Aman, or should we redesign its physical staging before approval?"
-  }
+  },
+  "mentoringProgramme": {
+    "source": "episode-06-ankita-mentoring-setup.json",
+    "status": "MENTOR_ROLES_AND_ACTIVE_OFFICE_CAST_AUTHOR_CONFIRMED__WEEKLY_HOURS_AND_NEW_MILESTONES_EDITOR_PROPOSALS",
+    "technicalGroup": [
+      "Ankita",
+      "Vivan",
+      "Reyansh",
+      "Sana Khan"
+    ],
+    "HRObserver": "Aishwarya Rao may be present optionally but is not a learner for Java/backend technical lessons",
+    "AishwaryaKaran": "Separate suggested Tue/Thu/Sat career/HR-interview coaching for Karan, if both agree and are introduced; outside the 3–5 Jan plot",
+    "AnkitaAman": "Ankita is IT Tech Lead, direct coach for Java/Spring Boot/SQL/backend mock interviews; daily unbooked small doubts permitted at home",
+    "AnkitaKaran": "Case study/presentation/fitness guidance while sharing a household",
+    "JAM": "Ankita can support CBT/mock-test tech, Physics only if verified qualified. Ayaan/Armaan first inadvertent clothing incident reserved for future after rapport.",
+    "officeSessionWeek": "Mon/Wed/Fri optional, first candidate Mon 5 Jan 18:10–19:00 office; not locked"
+  },
+  "romanticAndClothingContinuity": {
+    "priorKaranAman": "1 Jan EP03 author-approved Ankita drove Aman's scooter, briefly allowed practical waist-support grip before asking him to shift; Karan rode a separate motorcycle and teased them at the gate. Therefore no claim of first-ever close proximity.",
+    "firstWorkoutShift": "The gym athletic outer-layer strap scenario with different Karan vs Aman responses remains an editorial candidate and is not published/approved.",
+    "officeDuo": "1 Jan EP03 car/dance already developed familiar playful chemistry with Vivan/Reyansh; their proposed later incident cannot pretend first encounter.",
+    "studyPair": "Ayaan/Armaan with Ankita do NOT have established direct close history. Reserve any such incident until real academic rapport."
+  },
+  "officeCastRoles": {
+    "Sana": "ACTIVE_TECHNICAL_GROUP_QA_AUTOMATION",
+    "Aishwarya": "ACTIVE_STORY_PERSON__OPTIONAL_GROUP_OBSERVER_AND_POTENTIAL_KARAN_CAREER_MENTOR__NOT_PART_OF_TECH_TUITION",
+    "otherWomen": "HISTORICAL_ONLY__NO_NEW_EP06_TUITION"
+  },
+  "nextDiscussion": "Review Karan/Aman workout accidental-garment moment and explicit reaction chain first; only after author agrees finalize exact beat and 3–5 Jan placement. Then office technical group and Aishwarya career mentoring."
 }
