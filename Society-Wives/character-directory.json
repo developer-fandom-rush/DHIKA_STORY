@@ -912,7 +912,9 @@
       "group": "office",
       "house": "ankita",
       "sourceStatus": "PROPOSED",
-      "notes": "From recent new-universe character discussion; not yet confirmed for on-page episodes."
+      "notes": "From recent new-universe character discussion; not yet confirmed for on-page episodes.",
+      "futureEpisodeParticipation": "USER_DISCARDED_AS_FUTURE_ACTIVE_CAST__HISTORICAL_ROSTER_ONLY",
+      "retentionPolicy": "Preserve previous published appearances, reader prose and identity metadata; do not delete history."
     },
     {
       "id": "ankita_woman_03",
@@ -922,7 +924,9 @@
       "group": "office",
       "house": "ankita",
       "sourceStatus": "PROPOSED",
-      "notes": "From recent new-universe character discussion; not yet confirmed for on-page episodes."
+      "notes": "From recent new-universe character discussion; not yet confirmed for on-page episodes.",
+      "futureEpisodeParticipation": "USER_DISCARDED_AS_FUTURE_ACTIVE_CAST__HISTORICAL_ROSTER_ONLY",
+      "retentionPolicy": "Preserve previous published appearances, reader prose and identity metadata; do not delete history."
     },
     {
       "id": "ankita_woman_04",
@@ -932,7 +936,9 @@
       "group": "office",
       "house": "ankita",
       "sourceStatus": "PROPOSED",
-      "notes": "From recent new-universe character discussion; not yet confirmed for on-page episodes."
+      "notes": "From recent new-universe character discussion; not yet confirmed for on-page episodes.",
+      "futureEpisodeParticipation": "USER_DISCARDED_AS_FUTURE_ACTIVE_CAST__HISTORICAL_ROSTER_ONLY",
+      "retentionPolicy": "Preserve previous published appearances, reader prose and identity metadata; do not delete history."
     },
     {
       "id": "ankita_woman_05",
@@ -942,7 +948,9 @@
       "group": "office",
       "house": "ankita",
       "sourceStatus": "PROPOSED",
-      "notes": "From recent new-universe character discussion; not yet confirmed for on-page episodes."
+      "notes": "From recent new-universe character discussion; not yet confirmed for on-page episodes.",
+      "futureEpisodeParticipation": "USER_DISCARDED_AS_FUTURE_ACTIVE_CAST__HISTORICAL_ROSTER_ONLY",
+      "retentionPolicy": "Preserve previous published appearances, reader prose and identity metadata; do not delete history."
     },
     {
       "id": "ankita_woman_06",
@@ -952,7 +960,9 @@
       "group": "office",
       "house": "ankita",
       "sourceStatus": "PROPOSED",
-      "notes": "From recent new-universe character discussion; not yet confirmed for on-page episodes."
+      "notes": "From recent new-universe character discussion; not yet confirmed for on-page episodes.",
+      "futureEpisodeParticipation": "AUTHOR_APPROVED_ACTIVE_OFFICE_CAST_FOR_EP06",
+      "retentionPolicy": "Preserve previous published appearances, reader prose and identity metadata; do not delete history."
     },
     {
       "id": "ankita_woman_07",
@@ -963,7 +973,9 @@
       "house": "ankita",
       "sourceStatus": "USER_CONFIRMED_IDENTITY__PLOT_PENDING",
       "notes": "From recent new-universe character discussion; not yet confirmed for on-page episodes. Existing responsibilities include onboarding, employee engagement and policy; identity renamed without changing history or evening-surprise plan. Reference face pending.",
-      "portraitStatus": "PENDING_VERIFIED_REFERENCE"
+      "portraitStatus": "PENDING_VERIFIED_REFERENCE",
+      "futureEpisodeParticipation": "AUTHOR_APPROVED_ACTIVE_OFFICE_CAST_FOR_EP06",
+      "retentionPolicy": "Preserve previous published appearances, reader prose and identity metadata; do not delete history."
     },
     {
       "id": "ankita_woman_08",
@@ -973,7 +985,9 @@
       "group": "office",
       "house": "ankita",
       "sourceStatus": "PROPOSED",
-      "notes": "From recent new-universe character discussion; not yet confirmed for on-page episodes."
+      "notes": "From recent new-universe character discussion; not yet confirmed for on-page episodes.",
+      "futureEpisodeParticipation": "USER_DISCARDED_AS_FUTURE_ACTIVE_CAST__HISTORICAL_ROSTER_ONLY",
+      "retentionPolicy": "Preserve previous published appearances, reader prose and identity metadata; do not delete history."
     },
     {
       "id": "shivani_woman_01",
@@ -3095,5 +3109,67 @@
     "handoff": "Society-Wives/source-vault/NEW-CHAT-HANDOFF.md",
     "status": "THREE_VERBATIM_GDOC_TEXT_SNAPSHOTS_PLUS_ONE_TANIYA_04B_PLOT_LOCKED",
     "immutable": true
+  },
+  "ankitaOfficeEp06Cast": {
+    "status": "AUTHOR_CONFIRMED_2026_11_26",
+    "activeFemaleCast": [
+      {
+        "id": "ankita_woman_06",
+        "name": "Sana Khan",
+        "role": "QA Automation Engineer",
+        "age": 24
+      },
+      {
+        "id": "ankita_woman_07",
+        "name": "Aishwarya Rao",
+        "role": "HR Executive / Event Coordination",
+        "age": 24
+      }
+    ],
+    "inactiveFutureFemaleCast": [
+      {
+        "id": "ankita_woman_01",
+        "name": "Priya Nair"
+      },
+      {
+        "id": "ankita_woman_03",
+        "name": "Ira Mehta"
+      },
+      {
+        "id": "ankita_woman_04",
+        "name": "Nisha Gupta"
+      },
+      {
+        "id": "ankita_woman_05",
+        "name": "Diya Sen"
+      },
+      {
+        "id": "ankita_woman_08",
+        "name": "Ayesha Malik"
+      }
+    ],
+    "continuity": "Sana and Aishwarya existing EP03 office interactions remain preserved. Other previously listed female characters are not to be planned into new Ankita tuition / EP06 scenes. Historical text stays intact; no destructive deletion or retroactive edits.",
+    "officeMaleDuo": [
+      "vivan",
+      "reyansh"
+    ],
+    "officeDuoTwins": false,
+    "ep06Plan": "episode-06-ankita-plan.json"
+  },
+  "karanAmanFiveLeadAvailability": {
+    "source": "episode-06-karan-aman-shared-availability.json",
+    "status": "DAILY_PROVISIONAL_WINDOWS__CROSSLEAD_AND_HOUSEHOLD_CONFLICT_CHECK",
+    "names": [
+      "Karan",
+      "Aman"
+    ],
+    "household": "Ankita–Kabir",
+    "otherMainLeads": [
+      "Shivani",
+      "Taniya",
+      "Meenakshi",
+      "Shreya"
+    ],
+    "kavya": "Separate candidate"
   }
 }
