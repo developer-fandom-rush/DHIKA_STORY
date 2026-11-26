@@ -636,7 +636,17 @@
       ],
       "note": "Corrected 26 Nov 2026 after source and UI code audit. 04B is NOT scene01-only. Four leads have reader components with mixed publication/editorial statuses; Shivani remains a separate office working plan. Original 04B reader/source prose untouched. Do not infer each published scene is frozen.",
       "publicationIndex": "episode-04b-publication-index.json",
-      "dressLedger": "episode-04b-05-dress-ledger.json"
+      "dressLedger": "episode-04b-05-dress-ledger.json",
+      "sourceVault": {
+        "manifest": "source-vault/index.json",
+        "shivani": "source-vault/ep04b-shivani-office-jan02.json",
+        "taniyaPlot": "source-vault/ep04b-taniya-existing-plot-frozen.json",
+        "uiLinks": [
+          "#/source-vault?item=ep04b-shivani-office",
+          "#/source-vault?item=ep04b-taniya-plot"
+        ],
+        "status": "VERBATIM_SNAPSHOT_SOURCE_LOCKED__NOT_A_NEW_04B_PROSE_APPROVAL"
+      }
     },
     {
       "number": "05",
@@ -668,6 +678,16 @@
           "count": 9,
           "status": "WORKING_DOC_NOT_IMPORTED"
         }
+      },
+      "sourceVault": {
+        "manifest": "source-vault/index.json",
+        "meenakshiShivani": "source-vault/ep05-meenakshi-shivani-jan02.json",
+        "taniya": "source-vault/ep05-taniya-jan02.json",
+        "uiLinks": [
+          "#/source-vault?item=ep05-meenakshi-shivani",
+          "#/source-vault?item=ep05-taniya"
+        ],
+        "status": "EXACT_GOOGLE_DOC_PARAGRAPH_TEXT_ARCHIVED__READER_PUBLICATION_SEPARATE"
       }
     },
     {
@@ -682,5 +702,6 @@
       "crossMentorSource": "cross-lead-ayaan-armaan-jam-2026.json",
       "note": "No episode 06 final prose; Group D boundary-reversal approved, Kavya first physical bridge proposed, optional inter-household society encounters and movie on hold until all five lead/partner windows are reconciled."
     }
-  ]
+  ],
+  "verbatimArchiveRule": "2026-11-26 author request: the three original Google Docs and existing Taniya 04B plot are copied word for word to source-vault. These source snapshots are locked/immutable; all future edits must create new named versions. Preserve original working/frozen editorial labels inside documents; Source Vault visibility is not proof of final prose publication."
 }
