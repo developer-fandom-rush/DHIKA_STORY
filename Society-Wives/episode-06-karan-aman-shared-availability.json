@@ -6,7 +6,7 @@
     "2026-01-03",
     "2026-01-05"
   ],
-  "status": "AUTHOR_DIRECTED_SHARED_CAST_AND_DAILY_COORDINATION__PROVISIONAL_WINDOW_PROPOSALS__NO_FINAL_TIMES",
+  "status": "AUTHOR_CONFIRMED_DAILY_SAME_HOUSEHOLD_CONTACT__PROPOSED_FORMAL_TIMES__NO_COLLISION_LOCK_UNTIL_AUTHOR_REVIEW",
   "pair": {
     "names": [
       "Karan",
@@ -23,7 +23,12 @@
     },
     "independentMovement": "Aman's scooter and Karan's separate motorbike are established in 1 Jan EP03; distinct transport and whereabouts must be tracked",
     "priorScene": "episode-03-ankita-scene-07-revised-prose.json: 1 Jan ~17:20–17:50; Ankita drove Aman's scooter with him pillion, asked him to adjust a support grip, and Karan rode separately. This existing physical-comfort beat may not be repeated as a new first encounter.",
-    "routine": "In shared home, Ankita can give short Q&A/gym guidance flexibly only when she and the brothers are actually free; do not treat 'same home' as unlimited permission to intrude or as evidence of always being present."
+    "routine": "In shared home, Ankita can give short Q&A/gym guidance flexibly only when she and the brothers are actually free; do not treat 'same home' as unlimited permission to intrude or as evidence of always being present.",
+    "casualMeetingRule": "Karan/Aman live in the same household as Ankita, so daily incidental breakfast, hall/fitness exchanges and small doubts happen organically with no fictional appointment clock. Only formal sessions and external travel need calendar blocks.",
+    "trainingFit": {
+      "Karan": "MBA case prep, soft-skills/presentation and fitness; qualified HR mentor Aishwarya separately optional",
+      "Aman": "Java, Spring Boot, SQL, DSA, code review and system design with Ankita (IT Tech Lead)"
+    }
   },
   "fiveLeadLinks": [
     {
@@ -80,7 +85,7 @@
         },
         {
           "window": "07:30–08:15",
-          "use": "Ankita–Karan/Aman morning mobility + 20-push-up challenge candidate; Aman Java question follow-up separately",
+          "use": "Ankita's ordinary gym / morning routine with Karan and Aman: deferred 20-push-up challenge if author confirms scoring; optional short Java Q&A after exercise. FIRST accidental minor sports outer-layer slip proposal separately pending approval.",
           "participants": [
             "Ankita",
             "Karan",
@@ -250,14 +255,15 @@
           "status": "NO_AVAILABILITY_CLAIM"
         },
         {
-          "window": "19:15–20:00",
-          "use": "Possible Ankita home Java QA / fitness debrief if all three free",
+          "window": "20:30–20:50",
+          "use": "Optional Aman Java/backend mock at home, after Ankita's potential office kickoff/commute and household routine; Karan's ordinary evening interaction possible but unbooked",
           "participants": [
             "Ankita",
             "Karan",
             "Aman"
           ],
-          "status": "TENTATIVE_HOUSEHOLD_WINDOW"
+          "status": "OPTIONAL_NOT_BOOKED__NO_PRESUMED_COMMUTE_TIME",
+          "notes": "Mon5 office technical group 18:10–19:00 provisional; ensure Ankita actually reaches home and is available before micro-session."
         },
         {
           "window": "Remaining evening",
@@ -267,6 +273,18 @@
             "Aman"
           ],
           "status": "UNASSIGNED_NEEDS_OTHER_LEADS"
+        },
+        {
+          "window": "18:10–19:00",
+          "use": "Ankita, Vivan, Reyansh and Sana: optional after-office technical demo project kickoff, NOT a Karan/Aman appointment and NOT confirmed. Aishwarya no technical obligation.",
+          "participants": [
+            "Ankita",
+            "Vivan",
+            "Reyansh",
+            "Sana"
+          ],
+          "status": "EDITOR_PROPOSED_OFFICE_SESSION__NOT_BOOKED",
+          "notes": "Office site or authorized meeting area; Ankita must preserve work, commute and Kabir household time."
         }
       ]
     }
@@ -280,7 +298,10 @@
     "Other three women Taniya/Meenakshi/Shreya have author-requested cross-lead roles but no verified actual new meetings in the schedule. Each requires her own EP06 plan.",
     "Karan/Aman are distinct from workplace duo Vivan/Reyansh, society duo Ayaan/Armaan, and Shivani college students Harsh/Laksh.",
     "Same-household recurring guidance includes Karan MBA presentations, business cases and soft skills, Aman Java/Spring Boot/DSA mock-interview sessions, not ungrounded sudden proficiency in all subjects.",
-    "Never publish proposed travel/event timing as a confirmed in-universe appointment before author approves."
+    "Never publish proposed travel/event timing as a confirmed in-universe appointment before author approves.",
+    "Do not represent a daily fixed Karan/Aman meeting with Ankita; they are housemates. Only structured class and external visits require booked time.",
+    "Aishwarya is HR; do not enroll her in Java/backend tuition. She can be optional Karan career interview mentor on Tue/Thu/Sat, after introduction and availability checks.",
+    "Proposed Mon5 after-office cross-functional technical project is Vivan/Reyansh/Sana/Ankita only; if implemented, no Ankita-at-home 19:15 event without commute confirmation."
   ],
   "sources": [
     "episode-03-ankita-scene-07-revised-prose.json",
@@ -288,7 +309,16 @@
     "shivani-episode-06-three-day-plot.json",
     "episode-06-cross-household-hold.json",
     "episode-06-ankita-plan.json",
-    "episode-06-shreya-plan.json"
+    "episode-06-shreya-plan.json",
+    "episode-06-ankita-mentoring-setup.json"
   ],
-  "timelineRule": "This availability grid is an EDITORIAL PROPOSAL stored in planning UI, not a plot event inserted into the global timeline."
+  "timelineRule": "This availability grid is an EDITORIAL PROPOSAL stored in planning UI, not a plot event inserted into the global timeline.",
+  "weeklyTrainingRhythm": {
+    "status": "EDITOR_SELECTED_PROPOSAL__ALL_CLOCKS_PENDING_AUTHOR_CONFIRMATION",
+    "AnkitaWithAman": "Daily incidental questions; suggested 20–25 min Mon/Wed/Fri when she is home and rested, no automatic fixed clock.",
+    "AnkitaWithKaran": "Fitness/morning walks and spontaneous household banter; challenge on Sat 3 Jan remains pending, not logged as completed.",
+    "OfficeGroup": "Mon/Wed/Fri 45–60 min after office, first proposed Jan5 Monday 18:10–19:00 at office; Wed Jan7 19:15–20:15 at Ankita home only after household coordination; Fri Jan9 office/remote.",
+    "AishwaryaWithKaran": "Optional HR/career coaching Tue/Thu/Sat outside EP06, first Jan6 Tue 18:30–19:15, Jan8 Thu 18:30–19:15, Jan10 Sat 18:00–18:45; introduction and mutual agreement are not yet written.",
+    "JAM": "Ayaan/Armaan Shivani morning Biology Monday candidate 06:45–07:45, but Ankita not booked for Physics or in-person session."
+  }
 }
