@@ -109,5 +109,18 @@
   "officeOthers": "Other candidate women remain historical-only; do not create new 06 active tuition scenes for them",
   "scheduleGate": "episode-06-cross-household-hold.json",
   "twinsAvailability": "episode-06-karan-aman-shared-availability.json",
-  "authorDiscussion": "FIRST scene lock only; time and full backstory not locked, rest of scenes not written"
+  "authorDiscussion": "FIRST scene lock only; time and full backstory not locked, rest of scenes not written",
+  "karanAmanFirstAccidentalVisibilityProposal": {
+    "status": "EDITORIAL_PROPOSAL_ONLY__AUTHOR_DISCUSSION_REQUIRED",
+    "relativePlacement": "After morning-walk gym challenge or return-home cool-down (3 Jan candidate), but only after marriage-foundation first scene",
+    "purpose": "A credible gym-context first inadvertent clothing slip with the household twins; separate from Shivani Group A's sari/pallu story and from Aman’s already approved scooter hand-support.",
+    "mechanism": "After a workout, as Ankita reaches for a mat or adjusts her gym bag, the strap briefly catches the edge of a loose outer layer; it shifts enough to reveal a little shoulder/upper-back and fitted athletic top underneath. She calmly straightens it herself. Exact outfit/visibility and whether both twins have a real sightline are not yet frozen.",
+    "reactions": {
+      "Karan": "He starts a teasing comment but sees Ankita’s self-aware look and switches to a joke about the unfinished 20 push-ups.",
+      "Aman": "He notices the slipped strap first, indicates it without reaching for her clothes, remembers the prior scooter boundary, and returns to her Java question instead of staring.",
+      "Ankita": "She recognizes the different reactions and responds with familiar, confident banter; not written as unaware or embarrassed by default."
+    },
+    "continuity": "No accidental exposure is already published in this new event. Do not duplicate Shivani pallu, do not imply either brother touches her or has newly obtained consent, do not describe an underwear/breast view without separate author direction.",
+    "reviewQuestion": "Does this gym-bag/outer-layer mishap match the first accidental reveal you want with Karan and Aman, or should we redesign its physical staging before approval?"
+  }
 }
