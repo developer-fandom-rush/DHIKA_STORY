@@ -588,7 +588,9 @@
           "readerRoute": "#/reading?episode=04B&character=ankita&scene=01"
         }
       ],
-      "note": "Scene 01 ends after Rinku departs and Ankita's final question. B08 three views remains future-only, not part of the published scene. Scene 02 office preparation is proposed, not written/published."
+      "note": "Scene 01 ends after Rinku departs and Ankita's final question. B08 three views remains future-only, not part of the published scene. Scene 02 office preparation is proposed, not written/published.\nMetadata reconciliation: the publication index records additional existing lead sources and Shivani's discussion-only office plan. Existing reader routes and individual approvals are unchanged.",
+      "publicationIndex": "episode-04b-publication-index.json",
+      "dressLedger": "episode-04b-05-dress-ledger.json"
     },
     {
       "number": "05",
@@ -598,9 +600,12 @@
       "date": "2026-01-02",
       "mainPath": "index.html#/reading?episode=05&scene=01",
       "relatedPaths": [
-        "episode-05-reader.json"
+        "episode-05-reader.json",
+        "episode-05-publication-index.json",
+        "episode-04b-05-dress-ledger.json"
       ],
-      "note": "Combined Episode 05 reader published through same-day call, Chintu doorway follow-up, Arvind market preparation and the two-house outfit challenge. Next shared scene begins with arrival / first-look reactions."
+      "note": "Combined Episode 05 reader published through same-day call, Chintu doorway follow-up, Arvind market preparation and the two-house outfit challenge. Next shared scene begins with arrival / first-look reactions.\nTwo additional draft source tracks registered for author review; no new reader prose or publication implied.",
+      "publicationIndex": "episode-05-publication-index.json"
     }
   ]
 }

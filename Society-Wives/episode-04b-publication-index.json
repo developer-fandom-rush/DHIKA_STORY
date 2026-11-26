@@ -49,6 +49,44 @@
       "originalImageCount": 9,
       "assetFolder": "assets/episode-04b-shreya/",
       "scope": "Full author-provided Shreya 4B Google Doc imported verbatim, including original images inline and text including current revisions; only new continuations require planning."
+    },
+    "shivani": {
+      "name": "Shivani",
+      "sourceUrl": "https://docs.google.com/document/d/1NKs5JgmIL2Vf7MgErbOqZllJHbZ14Gc9h10gcZJGLNM/edit",
+      "publicationStatus": "PLAN_DISCUSSION_ONLY__PROSE_PENDING",
+      "morningSourcePreserved": true
+    },
+    "meenakshi": {
+      "name": "Meenakshi",
+      "source": "episode-04b-meenakshi-source.json",
+      "publicationStatus": "EXISTING_SOURCE_STATUSES_PRESERVED",
+      "approvedInWorkingDoc": [
+        "01",
+        "02",
+        "03",
+        "04",
+        "05"
+      ],
+      "workingDraft": [
+        "06"
+      ],
+      "userApproved": [
+        "07"
+      ]
+    },
+    "taniya": {
+      "name": "Taniya",
+      "source": "episode-04b-taniya-gym-source.json",
+      "planSource": "episode-04b-taniya-author-updated-plan.json",
+      "publicationStatus": "WORKING_READER__REVIEW_PENDING_NOT_FROZEN",
+      "reviewSceneIds": [
+        "01",
+        "02",
+        "03",
+        "04"
+      ],
+      "unpublishedMorning": true
     }
-  }
+  },
+  "dressLedger": "episode-04b-05-dress-ledger.json"
 }

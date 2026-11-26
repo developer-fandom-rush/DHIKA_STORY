@@ -1,0 +1,223 @@
+{
+  "schemaVersion": 1,
+  "storyDate": "2026-01-02",
+  "timezone": "Asia/Calcutta",
+  "source": "https://docs.google.com/document/d/1Mffk4gQ8NH0leDVxThYzKJ7Q74KveWDAcyhI1oaDYEc/edit",
+  "status": "APPROVED_METADATA_CLASSIFICATION_ONLY",
+  "policy": "Existing approvals preserved. No new story or wardrobe choices approved by this metadata update.",
+  "frozenEpisodes": [
+    "02",
+    "03"
+  ],
+  "canon": {
+    "relationships": "Preserve existing character-directory relationships and distinct identities; Aditya is Taniya's fiancé; Vivek Rao and Vivek Suri are distinct.",
+    "twins": [
+      "Karan–Aman",
+      "Ayaan–Armaan",
+      "Harsh–Laksh"
+    ],
+    "office": "Students in classes at 09:00; no twins on office floor thereafter.",
+    "knowledge": "Separate character knowledge; no new shared discovery, confrontation, or disclosure.",
+    "parcel": "Existing P01–P08 unchanged.",
+    "family": "Soniya and Rahul absent on 2 January night; Tara and Vihaan family-only.",
+    "reference": "Dhika is a reference only, not shared canon."
+  },
+  "wardrobe": [
+    {
+      "person": "Shivani",
+      "time": "07:15",
+      "clothing": "Garment bag and cream jacket",
+      "status": "LOCKED",
+      "notes": "Packed items only"
+    },
+    {
+      "person": "Shivani",
+      "time": "Leaving home",
+      "clothing": "Exact outfit",
+      "status": "UNKNOWN"
+    },
+    {
+      "person": "Shivani",
+      "time": "09:07–14:45",
+      "clothing": "Ink-blue cotton-silk kurta, churidar, ivory dupatta",
+      "status": "ASSUMPTION"
+    },
+    {
+      "person": "Shivani",
+      "time": "11:05–11:20",
+      "clothing": "Dupatta removed for fitting, then restored",
+      "status": "APPROVED_IN_SOURCE_DOC",
+      "notes": "Office plan only; not approved prose"
+    },
+    {
+      "person": "Shivani",
+      "time": "15:10",
+      "clothing": "Costume-change state",
+      "status": "UNKNOWN"
+    },
+    {
+      "person": "Shivani",
+      "time": "15:25",
+      "clothing": "Cream jacket; rehearsal trousers or palazzo, no saree",
+      "status": "LOCKED",
+      "notes": "Cover layer and no-saree plan constraint"
+    },
+    {
+      "person": "Shivani",
+      "time": "15:25",
+      "clothing": "Darker ink/teal rehearsal costume, sleeve/cut",
+      "status": "ASSUMPTION"
+    },
+    {
+      "person": "Shivani",
+      "time": "15:25",
+      "clothing": "Back design",
+      "status": "UNKNOWN",
+      "notes": "Open question"
+    },
+    {
+      "person": "Shivani",
+      "time": "18:00–18:12",
+      "clothing": "Campus exit clothing",
+      "status": "UNKNOWN"
+    },
+    {
+      "person": "Shivani",
+      "time": "20:15–21:08",
+      "clothing": "Dusty-rose kurta, light cardigan",
+      "status": "APPROVED_IN_SOURCE_DOC"
+    },
+    {
+      "person": "Shivani",
+      "time": "Later",
+      "clothing": "Same evening wardrobe at scene start",
+      "status": "APPROVED_IN_SOURCE_DOC"
+    },
+    {
+      "person": "Meenakshi",
+      "time": "04B S01–S05, S07",
+      "clothing": "Teal embroidered front-button kurta, cream trousers, cream fringed shawl; white coat where specified",
+      "status": "LOCKED"
+    },
+    {
+      "person": "Meenakshi",
+      "time": "04B S06",
+      "clothing": "Same daytime wardrobe",
+      "status": "APPROVED_IN_SOURCE_DOC",
+      "notes": "Scene remains working draft"
+    },
+    {
+      "person": "Meenakshi",
+      "time": "04B S07",
+      "clothing": "Kurta buttons restored before entering home",
+      "status": "LOCKED"
+    },
+    {
+      "person": "Meenakshi",
+      "time": "20:15–21:10 onward",
+      "clothing": "Navy knit front-button kurti, cream palazzo, light grey cardigan",
+      "status": "APPROVED_IN_SOURCE_DOC"
+    },
+    {
+      "person": "Taniya",
+      "time": "Morning gym",
+      "clothing": "Exact colour/cut",
+      "status": "UNKNOWN"
+    },
+    {
+      "person": "Taniya",
+      "time": "Friday office",
+      "clothing": "Dark-plum knee-length wrap dress OR dark-plum wrap blouse, charcoal skirt, beige blazer",
+      "status": "ASSUMPTION",
+      "notes": "Conflicting draft options; neither frozen"
+    },
+    {
+      "person": "Taniya",
+      "time": "21:00",
+      "clothing": "Dark-plum wrap, buttoned beige blazer",
+      "status": "ASSUMPTION"
+    },
+    {
+      "person": "Taniya",
+      "time": "21:15 onward",
+      "clothing": "Soft grey home top, fitted lounge pants",
+      "status": "ASSUMPTION"
+    },
+    {
+      "person": "Taniya",
+      "time": "Laundry",
+      "clothing": "Gym set worn earlier that day",
+      "status": "LOCKED",
+      "notes": "Exact appearance remains unknown"
+    },
+    {
+      "person": "Taniya",
+      "time": "3 Jan morning",
+      "clothing": "Replacement outfit",
+      "status": "UNKNOWN"
+    },
+    {
+      "person": "Pooja and Kriti",
+      "time": "Office",
+      "clothing": "Base outfits and colours",
+      "status": "UNKNOWN"
+    },
+    {
+      "person": "Pooja and Kriti",
+      "time": "14:45",
+      "clothing": "Safety-pin and clothing continuity cues",
+      "status": "APPROVED_IN_SOURCE_DOC",
+      "notes": "Plan only"
+    },
+    {
+      "person": "Om",
+      "time": "Dinner",
+      "clothing": "Ordinary winter home clothes",
+      "status": "APPROVED_IN_SOURCE_DOC"
+    },
+    {
+      "person": "Om",
+      "time": "Ahuja",
+      "clothing": "Own T-shirt and cotton lounge shorts",
+      "status": "APPROVED_IN_SOURCE_DOC"
+    },
+    {
+      "person": "Mohan",
+      "time": "Dinner",
+      "clothing": "Ordinary winter home shirt",
+      "status": "APPROVED_IN_SOURCE_DOC"
+    },
+    {
+      "person": "Mohan",
+      "time": "Kapoor",
+      "clothing": "Own T-shirt and cotton lounge shorts",
+      "status": "APPROVED_IN_SOURCE_DOC"
+    },
+    {
+      "person": "Subhash",
+      "time": "Arrival",
+      "clothing": "Winter coat, shirt, trousers",
+      "status": "APPROVED_IN_SOURCE_DOC"
+    },
+    {
+      "person": "Gopal",
+      "time": "Duty",
+      "clothing": "Duty jacket",
+      "status": "APPROVED_IN_SOURCE_DOC"
+    },
+    {
+      "person": "Other men",
+      "time": "2 Jan",
+      "clothing": "Full wardrobe not specified",
+      "status": "UNKNOWN"
+    }
+  ],
+  "pending": [
+    "Deepu 18:12 optional",
+    "Shivani rehearsal costume back and ink-blue design",
+    "EP02 A03/C03 interpretation; frozen files unchanged",
+    "Campus departure and staff outfits",
+    "Taniya office outfit and unpublished morning gap",
+    "Shivani 5–9 January ideas unscheduled"
+  ]
+}

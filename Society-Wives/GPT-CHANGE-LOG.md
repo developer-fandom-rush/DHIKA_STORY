@@ -389,3 +389,10 @@ Use the exact label **Changed by GPT** in the Git commit message AND add a dated
 - **Reader source:** `Society-Wives/episode-04b-taniya-gym-source.json` now preserves Scene 01 original author manuscript and adds Scenes 02–04 as GPT working drafts synced from the continuation Google Doc.
 - **UI:** `Society-Wives/ui/src/Reading.tsx` now exposes Taniya Scenes 01–04, labels continuation scenes as working drafts, links both source Docs, limits gym concept images to Scene 01, and highlights the GROK INSERT beat in Scene 04.
 - **Status:** review pending; nothing in Scenes 02–04 is marked approved/frozen.
+
+## 2026-11-26 — Changed by GPT — Existing canon and wardrobe status classification
+- **Approval:** Author explicitly authorized the locking update and commit in chat. No new pending choices approved.
+- **Paths:** `episode-catalog.json`, `episode-04b-publication-index.json`, `episode-05-publication-index.json`, `episode-04b-05-dress-ledger.json`, `GPT-CHANGE-LOG.md`.
+- **Authorship:** GPT integrated source-document metadata and existing approval classifications only; no story prose added or modified.
+- **Status:** EP02/03 frozen and untouched; existing EP04B statuses preserved; new EP05 sources registered for review, not imported or published. Open wardrobe and timeline questions remain open.
+- **Commit:** `Changed by GPT: Record existing canon locks and draft status metadata` (this commit).

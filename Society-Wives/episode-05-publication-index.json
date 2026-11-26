@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "episode": "05",
+  "date": "2026-01-02",
+  "status": "TRACK_METADATA_ONLY",
+  "tracks": {
+    "ankita-shreya": {
+      "source": "episode-05-reader.json",
+      "status": "EXISTING_READER_UNCHANGED"
+    },
+    "meenakshi-shivani": {
+      "sourceUrl": "https://docs.google.com/document/d/1dp6egUTgTME1B2DHg0kPUuejorEBevVao7VF-4TSf7I/edit",
+      "status": "WORKING_READER_DRAFT__AUTHOR_REVIEW__NOT_IMPORTED",
+      "sceneCount": 9
+    },
+    "taniya": {
+      "sourceUrl": "https://docs.google.com/document/d/1ZE-AGCpTSLs2S7-3q1YQ1NAA1tTrZr4yCk0_ibtmmD8/edit",
+      "status": "WORKING_READER_DRAFT__AUTHOR_REVIEW__NOT_IMPORTED",
+      "sceneCount": 9
+    }
+  },
+  "note": "Sources registered only. No new reader prose or UI changes."
+}
