@@ -56,6 +56,22 @@ export default function GlobalTimeline({universe,date,onDateChange}:{universe:'s
    <p>{isDhika?'Dhika Day 1 = 1 January 2026, Day 2 = 2 January, and so on. Original weekdays and later arc-relative day numbers remain separate.':'Time comes first, not lead or episode. All five lead perspectives share one clock. Click any event for its original source or existing plan.'}</p>
   </header>
   <div className="timeline-anchor"><div><span className="eyebrow">Common story-day anchor</span><strong>Day 1 = 1 January 2026</strong><p>Day N corresponds to 1 Jan + (N−1) days for both universes.</p></div><div className="timeline-origin"><span>START</span><strong>00:01</strong><small>No event invented at midnight</small></div></div>
+  {!isDhika&&<section className="episode-plan-card" id="ankita-ep06-three-day-timeline">
+   <h2>Ankita · Episode 06 · 3–5 January</h2>
+   <p>The same three-day clock as Shivani's timeline, with Ankita's own plot beats separated from published prose. All unspecified hours are proposals, not bookings.</p>
+   <div className="continuity-cards">
+    {(['2026-01-03','2026-01-04','2026-01-05'] as const).map(day=>{
+     const entries=swEvents.filter(e=>e.date===day&&e.episode==='06 plot'&&e.lead==='Ankita').sort((a,b)=>(a.sort||'').localeCompare(b.sort||''));
+     return <article className="encounter-card" key={day}>
+      <h3>{friendlyDate(day)}</h3>
+      {entries.map(e=><p key={e.id}><strong>{e.title}</strong><span className="muted"> · {e.timeLabel}</span></p>)}
+      <button className="button subtle" type="button" onClick={()=>{setFilter('all');setQuery('Ankita');onDateChange(day)}}>Open day · Ankita events</button>
+     </article>;
+    })}
+   </div>
+   <p className="muted"><strong>Wednesday 7 January:</strong> the separately approved later office-group home visit, same Reyansh car, Karan/Aishwarya introduction and modest accidental overshirt slip stay on their real later date—not compressed into 3–5 January.</p>
+   <button className="button subtle" type="button" onClick={()=>{setFilter('all');setQuery('Ankita');onDateChange('2026-01-07')}}>Open Wednesday 7 January continuation</button>
+  </section>}
   <div className="timeline-tools">
    <label>Date / story day<select aria-label="Timeline date" value={target} onChange={e=>onDateChange(e.target.value)}>{available.map(d=><option value={d} key={d}>{friendlyDate(d)}{d!=='pending'?' · Day '+storyDay(d):''}</option>)}</select></label>
    <label>Show<select aria-label="Timeline status filter" value={filter} onChange={e=>setFilter(e.target.value)}><option value="all">All events</option><option value="prose">Published source scenes</option><option value="planned">Planning / future</option><option value="rescheduled">Rescheduled</option><option value="review">Needs review</option></select></label>
