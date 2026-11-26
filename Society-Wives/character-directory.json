@@ -30,8 +30,14 @@
       "storyStatus": "EP02_WORKING_DRAFT",
       "crossLeadPlotReferences": [
         "Society-Wives/cross-lead-ayaan-armaan-jam-2026.json",
-        "Society-Wives/episode-06-cross-household-hold.json"
-      ]
+        "Society-Wives/episode-06-cross-household-hold.json",
+        "Society-Wives/episode-06-karan-aman-shared-availability.json"
+      ],
+      "episode06MarriageFirst": {
+        "plan": "Society-Wives/episode-06-ankita-plan.json",
+        "scene": "ANK06-S01-MARRIAGE",
+        "status": "FIRST_SCENE_ORDER_APPROVED__PROSE_PENDING"
+      }
     },
     {
       "id": "shivani",
@@ -58,7 +64,8 @@
       "subjectProposal": "English Literature — BA final-year lecture group (proposal; not user-approved)",
       "crossLeadPlotReferences": [
         "Society-Wives/cross-lead-ayaan-armaan-jam-2026.json",
-        "Society-Wives/episode-06-cross-household-hold.json"
+        "Society-Wives/episode-06-cross-household-hold.json",
+        "Society-Wives/episode-06-karan-aman-shared-availability.json"
       ],
       "authorVerbatimSourceReferences": [
         "source-vault/ep04b-shivani-office-jan02.json",
@@ -82,7 +89,8 @@
       },
       "crossLeadPlotReferences": [
         "Society-Wives/cross-lead-ayaan-armaan-jam-2026.json",
-        "Society-Wives/episode-06-cross-household-hold.json"
+        "Society-Wives/episode-06-cross-household-hold.json",
+        "Society-Wives/episode-06-karan-aman-shared-availability.json"
       ],
       "authorVerbatimSourceReferences": [
         "source-vault/ep05-taniya-jan02.json",
@@ -100,7 +108,8 @@
       "sourceStatus": "CURRENT_ATLAS",
       "crossLeadPlotReferences": [
         "Society-Wives/cross-lead-ayaan-armaan-jam-2026.json",
-        "Society-Wives/episode-06-cross-household-hold.json"
+        "Society-Wives/episode-06-cross-household-hold.json",
+        "Society-Wives/episode-06-karan-aman-shared-availability.json"
       ],
       "authorVerbatimSourceReferences": [
         "source-vault/ep05-meenakshi-shivani-jan02.json"
@@ -122,8 +131,14 @@
       "sisterImageStatus": "USER_TO_SUPPLY_LATER",
       "crossLeadPlotReferences": [
         "Society-Wives/cross-lead-ayaan-armaan-jam-2026.json",
-        "Society-Wives/episode-06-cross-household-hold.json"
-      ]
+        "Society-Wives/episode-06-cross-household-hold.json",
+        "Society-Wives/episode-06-karan-aman-shared-availability.json"
+      ],
+      "episode06MarriageFirst": {
+        "plan": "Society-Wives/episode-06-shreya-plan.json",
+        "scene": "SHR06-S01-MARRIAGE",
+        "status": "FIRST_SCENE_ORDER_APPROVED__PROSE_PENDING"
+      }
     }
   ],
   "people": [
@@ -3170,6 +3185,20 @@
       "Meenakshi",
       "Shreya"
     ],
-    "kavya": "Separate candidate"
+    "kavya": "Separate candidate",
+    "authorDirective": "26 Nov 2026: pair should remain recurring across Ankita/Shivani/Taniya/Meenakshi/Shreya; calendar daily soft holds and sunday Shivani/Kavya split must be reconciled before final times. Other three leads' actual pair meetings not source-established."
+  },
+  "spouseAvailabilityStatus": {
+    "kabir": {
+      "profession": "IT-related production/software work evident; exact job title unconfirmed",
+      "jan03to05": "UNCONFIRMED_AUTHOR_DISCUSSION_PENDING",
+      "linkedPlan": "Society-Wives/episode-06-ankita-plan.json"
+    },
+    "rohan": {
+      "profession": "Office work and urgent work calls evident; exact job title unconfirmed",
+      "jan03to05": "UNCONFIRMED_AUTHOR_DISCUSSION_PENDING",
+      "linkedPlan": "Society-Wives/shivani-episode-06-three-day-plot.json"
+    },
+    "policy": "No invented jobs, office shifts, holiday or overnight presence; explicit author approval needed before any hard bookings."
   }
 }
