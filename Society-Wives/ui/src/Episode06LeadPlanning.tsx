@@ -56,6 +56,24 @@ export default function Episode06LeadPlanning({lead}:{lead:'ankita'|'shreya'}){
     <p><strong>Kabir:</strong> After the marriage-foundation opening, Ankita discusses these two commitments with her husband and agrees a household routine together. Ayaan–Armaan's accident idea stays postponed until their academic rapport is established.</p>
     <p className="muted">Plot-only reference. <a href="https://github.com/developer-fandom-rush/DHIKA_STORY/blob/main/Society-Wives/ankita-ep06-home-workout-reference.json" target="_blank" rel="noreferrer">Full status, schedule and continuity record</a>.</p>
    </section>}
+   {lead==='ankita'&&<section className="episode-plan-card" id="ep06-office-home-visit-visuals">
+    <h2>Office Guys · Wednesday 7 January home-visit visuals</h2>
+    <p><strong>Plot approved:</strong> Vivan, Reyansh, Sana and Aishwarya visit Ankita at home in Reyansh's established five-seat car. During the project demo, her loose outer shirt shifts accidentally at the workstation and she adjusts it herself.</p>
+    <p className="muted">Both images below are saved in this GitHub project as compressed previews of the author's two illustrations. They are illustrative variations, not two required sequential actions; differences in outfits or faces are not new canon.</p>
+    <div className="continuity-cards" role="group" aria-label="Two illustration references for Ankita Wednesday office visit">
+     {([
+      {src:'assets/ankita-ep06-office-slip-01.svg',name:'Visual 01 · Unexpected overshirt shift',alt:'Ankita in a home work corner with two male and two female coworkers around a monitor, surprised by a loose overshirt shifting'},
+      {src:'assets/ankita-ep06-office-slip-02.svg',name:'Visual 02 · Team response at monitor',alt:'Ankita near a monitor while her colleagues react to the accidental overshirt movement and return focus to the project'}
+     ] as const).map(item=><figure className="encounter-card" key={item.src} style={{margin:0}}>
+      <a href={assetUrl(item.src)} target="_blank" rel="noreferrer" aria-label={'Open '+item.name}>
+       <img src={assetUrl(item.src)} alt={item.alt} loading="lazy" style={{display:'block',width:'100%',height:'auto',borderRadius:'10px'}}/>
+      </a>
+      <figcaption style={{marginTop:'10px',fontWeight:700}}>{item.name}</figcaption>
+      <p className="muted">Image stored in repository · 320px preview · original full-resolution version remains in chat</p>
+     </figure>)}
+    </div>
+    <p className="muted"><a href="https://github.com/developer-fandom-rush/DHIKA_STORY/blob/main/Society-Wives/episode-06-ankita-office-visuals.json" target="_blank" rel="noreferrer">Visual manifest and continuity rules</a> · Episode 06 planning only; no new final Reader prose.</p>
+   </section>}
    {lead==='ankita'&&<section className="episode-plan-card" id="ep06-office-cast"><h2>Ankita office group · active cast</h2><p>Female colleagues: <strong>{plan.officeActiveWomen?.join(' and ')}</strong>. Vivan–Reyansh are a workplace design duo, not biological twins. All other tentative female office names are archived historically, but excluded from new EP06 participation.</p><p>{plan.officeOthers}</p><p><strong>2 January missed walk:</strong> {plan.societyRoutine?.jan02MissedReason}</p></section>}
    {lead==='ankita'&&<section className="episode-plan-card" id="ep06-ankita-mentor-lanes"><h2>Ankita's three separate pair tracks · schedule under review</h2>
     <p>Household Karan–Aman are already in daily contact with Ankita. Only long structured practice and outside meetings require calendar bookings. An office design duo is not biological twins, and the JAM study pair is separate.</p>
