@@ -255,6 +255,18 @@
           "status": "NO_AVAILABILITY_CLAIM"
         },
         {
+          "window": "18:10–19:00",
+          "use": "Ankita, Vivan, Reyansh and Sana: optional after-office technical demo project kickoff, NOT a Karan/Aman appointment and NOT confirmed. Aishwarya no technical obligation.",
+          "participants": [
+            "Ankita",
+            "Vivan",
+            "Reyansh",
+            "Sana"
+          ],
+          "status": "EDITOR_PROPOSED_OFFICE_SESSION__NOT_BOOKED",
+          "notes": "Office site or authorized meeting area; Ankita must preserve work, commute and Kabir household time."
+        },
+        {
           "window": "20:30–20:50",
           "use": "Optional Aman Java/backend mock at home, after Ankita's potential office kickoff/commute and household routine; Karan's ordinary evening interaction possible but unbooked",
           "participants": [
@@ -273,18 +285,6 @@
             "Aman"
           ],
           "status": "UNASSIGNED_NEEDS_OTHER_LEADS"
-        },
-        {
-          "window": "18:10–19:00",
-          "use": "Ankita, Vivan, Reyansh and Sana: optional after-office technical demo project kickoff, NOT a Karan/Aman appointment and NOT confirmed. Aishwarya no technical obligation.",
-          "participants": [
-            "Ankita",
-            "Vivan",
-            "Reyansh",
-            "Sana"
-          ],
-          "status": "EDITOR_PROPOSED_OFFICE_SESSION__NOT_BOOKED",
-          "notes": "Office site or authorized meeting area; Ankita must preserve work, commute and Kabir household time."
         }
       ]
     }
