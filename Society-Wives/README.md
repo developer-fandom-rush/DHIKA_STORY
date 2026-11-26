@@ -1,5 +1,7 @@
 # Society Wives — Five Veils of Desire
 
+**EP06 3–5 January society crossover hold:** [five-lead household gate](episode-06-cross-household-hold.json) — resolve every lead's next 3 days, spouse/fiancé and child/work schedule before inventing guards/trainers/uncles/other husbands or booking a weekend movie. [Reader and Uncle source audit for EP04B–EP06](EP04B-EP06-READER-TIMELINE-AUDIT-20261126.md) distinguishes what readers actually see, working Docs, approved plot, and future-only ideas. [Shivani EP06 full action/reaction planning](shivani-episode-06-three-day-plot.json) includes approved Group D Boundary-Reversal and Kavya first physical bridge awaiting review.
+
 **Shared Jan 2026 Ayaan–Armaan IIT JAM mentoring:** [single-source five-lead coordination JSON](cross-lead-ayaan-armaan-jam-2026.json) · [handoff for other ChatGPT chats](CROSS-LEAD-AYAAN-ARMAAN-JAM-2026-HANDOFF.md) · [shared UI](https://developer-fandom-rush.github.io/DHIKA_STORY/Society-Wives/#/study-circle). Applies to Ankita, Shivani, Taniya, Meenakshi and Shreya. Qualifications and non-Shivani schedules remain open; reader prose is unchanged. Other chats must read the shared source explicitly rather than assume automatic memory synchronization.
 
 **Multi-writer collaboration & plot planning:** [WRITING-COLLABORATION-PROTOCOL.md](WRITING-COLLABORATION-PROTOCOL.md) — author approval, ChatGPT plot/continuity role, external writer independence, optional insertion ledger, sensory-mode metadata, POV and cross-scene continuity.
