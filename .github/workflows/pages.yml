@@ -51,6 +51,8 @@ jobs:
           # Deployment should not be blocked by narrative regression assertions.
           # Full tests run in the separate Society Wives UI check workflow.
           npm run build
+          # Prevent regressions where Episode 06 hides Episode 05 or Shivani 04B.
+          npm run test:nav
 
       - name: Install browser for visual smoke tests
         if: false # Browser smoke tests belong to separate verification, not deployment.
