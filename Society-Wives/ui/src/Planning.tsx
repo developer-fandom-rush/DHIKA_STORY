@@ -195,14 +195,34 @@ export default function Planning({lead='ankita',part='A'}:{lead?:string;part?:st
  const superseded=new Set(published?.supersededPlanSceneIds||[]);
  const outstandingScenes=(doc?.scenes||[]).filter(scene=>{const sceneId=scene.id||scene.scene||scene.sceneNumber||scene.number;return !sceneId||(!completed.has(sceneId)&&!superseded.has(sceneId))});
 
+ const ep05Wives=['ankita','shivani','taniya','meenakshi','shreya'] as const;
+ const ep05Nav=<div className="perspective-tabs" role="group" aria-label="Episode 05 plot by wife">
+  {ep05Wives.map(w=><button type="button" key={w} className={active===w?'selected':''} aria-pressed={active===w} onClick={()=>openPage('planning',{lead:w,part:'05'})}>{titleCase(w)}</button>)}
+  <button type="button" onClick={()=>openPage('reading',{episode:'05',character:active})}>Read {titleCase(active)} EP05 →</button>
+ </div>;
+ 
+ if(part==='05'&&active!=='ankita'&&active!=='shreya')return <main className="page-width" id={'ep05-'+active+'-source-plan'}>
+  <header className="section-intro"><span className="eyebrow">Episode 05 · Wife-wise planning</span><h1>{titleCase(active)} · Episode 05</h1>
+   <p>Keep the author’s original episode source separate from an independently approved planning or final-reader version.</p>
+  </header>
+  {ep05Nav}
+  <section className="episode-plan-card">
+   <h2>{active==='shivani'||active==='meenakshi'?'Meenakshi × Shivani · shared night source':'Taniya · night source'}</h2>
+   <p>The original 2 January Episode 05 document is preserved verbatim in the Source Vault. It contains nine scene headings, but has not been republished as separate final prose for every wife.</p>
+   <p className="muted">A shared source does not imply each woman has nine individual scenes. Read the exact author text before approving any new wife-specific plot.</p>
+   <div className="chapter-controls">
+    <button type="button" className="button primary" onClick={()=>openPage('reading',{episode:'05',character:active})}>Read {titleCase(active)} Episode 05 →</button>
+    <button type="button" className="button subtle" onClick={()=>openPage('source-vault',{item:active==='taniya'?'ep05-taniya':'ep05-meenakshi-shivani'})}>View preserved source →</button>
+   </div>
+  </section>
+  <p className="source-note">Soniya has no separate Episode 05 story document in the current index; her role is retained in Taniya’s established source context.</p>
+ </main>;
+
  if(active==='shreya'&&part==='05')return <main className="page-width" id="shreya-episode05-planning">
   <header className="section-intro"><span className="eyebrow">Next planning · Episode 05</span><h1>Shreya · Episode 05 · Plot setup</h1>
    <p>Shreya's homecoming, Vikram's private married evening and a later Chintu encounter, aligned to original Dhika Episode 05's Jan 2 evening–Jan 3 morning source order. Plot only, not approved prose.</p></header>
-  <div className="perspective-tabs" role="group" aria-label="Episode 05 characters">
-   <button type="button" className="selected" aria-pressed="true">Shreya</button>
-   <button type="button" onClick={()=>openPage('planning',{lead:'ankita',part:'05'})}>Ankita</button>
-   <button type="button" onClick={()=>openPage('reading',{episode:'04B',character:'shreya',scene:'02'})}>Read Shreya 04B</button>
-  </div>
+  {ep05Nav}
+  <button className="button subtle" type="button" onClick={()=>openPage('reading',{episode:'04B',character:'shreya',scene:'02'})}>Read Shreya 04B</button>
   {shreya05Loading&&<p role="status">Loading Shreya Episode 05 outline…</p>}
   {shreya05Error&&<p role="alert" className="error">Shreya Episode 05 outline unavailable: {shreya05Error}</p>}
   {shreya05&&<>
@@ -227,8 +247,9 @@ export default function Planning({lead='ankita',part='A'}:{lead?:string;part?:st
   </>}
  </main>;
  if(active==='ankita')return <main className="page-width" id="ankita-episode05-planning">
-  <header className="section-intro"><span className="eyebrow">Next planning · Episode 05</span><h1>Ankita · Episode 05 · Plot discussion</h1><p>Episode 04B ends Friday, 2 January 2026 at 02:40 PM. No Episode 05 scenes are approved or written yet.</p></header>
-  <div className="perspective-tabs" role="group" aria-label="Choose character">{leads.map(w=><button key={w} type="button" aria-pressed={active===w} className={active===w?'selected':''} onClick={()=>go(w)}>{titleCase(w)}</button>)}</div>
+  <header className="section-intro"><span className="eyebrow">Next planning · Episode 05</span><h1>Ankita · Episode 05 · Plot discussion</h1><p>Episode 04B ends Friday, 2 January 2026 at 02:40 PM. This planning file predates the separate Episode 05 reader, so its open alternatives are historical discussion notes, not proof that the published shared scene is missing.</p></header>
+  {ep05Nav}
+
   <section className="episode-plan-card" id="ankita-04b-ended">
    <h2>Ankita · Episode 04B — ended</h2>
    <p><strong>Story endpoint:</strong> Friday 2 January · 02:40 PM · Ankita leaves the Cyber City office after Rohit's second encounter.</p>
