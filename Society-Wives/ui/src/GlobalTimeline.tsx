@@ -5,7 +5,7 @@ import swLater from './data/sw-timeline-future.json';
 import dhikaIndex from './data/dhika-universal-timeline.json';
 
 type Beat={id?:string;title?:string;at?:string|null;body?:string;internal?:string};
-type LinkTarget={type:string;character?:string;scene?:string;episode?:number;paragraph?:string};
+type LinkTarget={type:string;character?:string;scene?:string;episode?:number;paragraph?:string;part?:string};
 type Event={id:string;date:string|null;storyDay?:number|null;sort:string|null;start?:string|null;end?:string|null;timeLabel:string;title:string;subtitle?:string|null;lead:string;characters?:string[];mentions?:string[];episode:string;scene:string;kind:string;state:string;status:string;source:string;reader:LinkTarget;flags?:string[];detail?:string|null;beats?:Beat[];originalWeekday?:string|null;sourceEvidence?:string};
 const swEvents=([...swJan.events,...swLater.events]) as Event[];
 const dhikaEvents=dhikaIndex.events as Event[];
@@ -19,8 +19,9 @@ const routeTo=(event:Event)=>{
  if(r.type==='dhika')return openPage('dhika-reader',{episode:String(r.episode||1),paragraph:r.paragraph});
  if(r.type==='sw-episode02')return openPage('reading',{character:r.character,scene:r.scene});
  if(r.type==='sw-episode03')return openPage('reading',{episode:'03',character:r.character,scene:r.scene});
+ if(r.type==='sw-episode05')return openPage('reading',{episode:'05',scene:r.scene});
  if(r.type==='sw-prologue')return openPage('home',{scene:r.scene});
- return openPage('planning',{lead:r.character||'meenakshi',scene:r.scene});
+ return openPage('planning',{lead:r.character||'meenakshi',part:r.part,scene:r.scene});
 };
 function Summary({event}:{event:Event}){
  const flags=event.flags||[];
