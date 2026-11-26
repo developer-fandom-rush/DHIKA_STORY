@@ -115,5 +115,12 @@
     "uiRoute": "#/study-circle",
     "lead": "Ankita",
     "info": "Read shared mentor responsibilities and open skill/time questions before placing January scenes. Adding this pointer does not approve a new physical or tuition scene."
+  },
+  "sharedEpisode06SocietyGate": {
+    "source": "episode-06-cross-household-hold.json",
+    "project": "SW-EP06-CROSS-HOUSEHOLD-HOLD",
+    "lead": "Ankita",
+    "status": "HOLD until all five main leads 3–5 Jan 2026 plots and spouse/fiancé work/family positions mapped",
+    "mustCheck": "Before optional society interactions, weekends/movie booking, Shivani cross-over or Karan/Aman slots, compare this lead's next 3 days and partner whereabouts. Existing prose untouched."
   }
 }
