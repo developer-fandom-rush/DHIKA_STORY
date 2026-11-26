@@ -54,7 +54,7 @@
       "time": "After arrival and dinner; provisional evening",
       "title": "Vikram and Shreya — the missing married evening",
       "setting": "Rathore home, common room → private bedroom",
-      "status": "PLOT_ONLY__UNWRITTEN",
+      "status": "HISTORICAL_PLOT_ONLY__MARRIED_EP05_NIGHT_ALREADY_WRITTEN__NEW_EP06_MARRIAGE_BACKSTORY_FIRST_SCENE",
       "participants": [
         "Shreya (33)",
         "Vikram (36)"
@@ -219,5 +219,6 @@
     "savedFullBlueprint": "episode-06-shreya-plan.json",
     "uiRoute": "#/planning?lead=shreya&part=06",
     "order": "SHR06-S01-MARRIAGE must be first Episode06 Shreya story scene; original EP05 night scene already written, preserve it"
-  }
+  },
+  "episode05RealityCorrection": "EP05 original full joint Google Doc already includes Friday night Shreya/Vikram consensual private reunion. Do NOT re-draft it as a missing marriage scene. Separate Shreya EP06 Scene 01 is the ordered origin/trust/comfort backstory."
 }
