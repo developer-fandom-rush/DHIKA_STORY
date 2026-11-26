@@ -13,7 +13,8 @@
     "2026-11-26: Ankita EP06 first marriage scene ordering approved; Jan3 gym and Jan5 technical demo times merely candidate windows. Aishwarya HR role separate, not a technical pupil; Karan–Aman home contact daily without appointment.",
     "2026-11-26: Ankita Jan3–5 wife-wise Episode06 plot markers refreshed from user approvals: marriage-first, Saturday private Karan/Aman fitness look, flexible Aman study, direct Ayaan/Armaan CBT request, Monday Aishwarya HR favour and office project kickoff. Jan4 availability is not an invented canonical encounter. Wednesday Jan7 four office visitors arrive in Reyansh's same five-seater car; small overshirt-slip beat approved in plot but not written as final prose. Clock times remain candidate unless explicitly grounded.",
     "2026-11-26: Shreya three-day group direction now indexed: Saturday society twin rematch and sister invite, Sunday four-person civil-service preparation, Monday existing police training. Clock placeholders are only sort keys, not author-approved session times. Future Karan–Aman interaction is outside active EP06; no additional public event invented.",
-    "2026-11-26 editorial time reconciliation for Shreya EP06: Jan3 10:15–11:20 twin rematch/brief bra changing-area sightline, 12:15–12:45 sister planning; Jan4 14:00–15:15 twin bachelor apartment group; Jan5 15:35–16:25 police escape/hold-break drill (shift-dependent), 20:10–20:35 optional call. Cross-lead Saturdays: 08:40–09:05 Ankita/Shreya evidence call, 15:00–15:25 Shivani with Ayaan/Armaan, 16:20–16:35 Ankita with same pair. Sundays: Karan/Aman 11:30–12:15 Shivani, 16:30–17:05 Kavya; household calendar does not book them. This is conflict-checked across events with explicit time windows, while open/unscheduled markers are not assumed attendance."
+    "2026-11-26 editorial time reconciliation for Shreya EP06: Jan3 10:15–11:20 twin rematch/brief bra changing-area sightline, 12:15–12:45 sister planning; Jan4 14:00–15:15 twin bachelor apartment group; Jan5 15:35–16:25 police escape/hold-break drill (shift-dependent), 20:10–20:35 optional call. Cross-lead Saturdays: 08:40–09:05 Ankita/Shreya evidence call, 15:00–15:25 Shivani with Ayaan/Armaan, 16:20–16:35 Ankita with same pair. Sundays: Karan/Aman 11:30–12:15 Shivani, 16:30–17:05 Kavya; household calendar does not book them. This is conflict-checked across events with explicit time windows, while open/unscheduled markers are not assumed attendance.",
+    "2026-11-26: New police-duty alignment: Shreya Jan3 08:30–16:30, Jan4 08:00–13:00, Jan5 08:00–17:00 (NO LEAVE any day; fictional roster, not universal police rule). Shreya gym moved BEFORE Saturday shift to 06:20–07:30; evidence call after duty 17:40–18:00, sister study 18:15–18:45. Sunday twins apartment study 15:00–16:15, Monday training earlier 10:30–11:20. Kabir/Rohan/Vikram household presence recorded separately as envelopes with honest profession uncertainty; not independent encounter events."
   ],
   "events": [
     {
@@ -1858,23 +1859,24 @@
     {
       "id": "ep05-link-jan03-morning",
       "date": "2026-01-03",
-      "sort": "07:55",
-      "start": "07:55",
-      "end": "08:15",
-      "timeLabel": "Saturday 07:55–08:15 · parallel separate homes · source recap",
+      "sort": "06:10",
+      "start": "06:10",
+      "end": "06:25",
+      "timeLabel": "06:10–06:25 · editor-selected / source author timing not frozen",
       "universe": "sw",
-      "title": "Saturday morning · two distinct homes, not a joint visit",
+      "title": "Ankita · separate next-morning Episode05 memory",
       "lead": "Ankita × Shreya",
       "characters": [
-        "Ankita",
+        "Ankita"
+      ],
+      "mentions": [
         "Shreya"
       ],
-      "mentions": [],
       "episode": "05",
       "scene": "05",
       "kind": "planned",
       "state": "source-review",
-      "status": "SOURCE RECAP / PARALLEL INDEPENDENT HOME MOMENTS",
+      "status": "SOURCE RECAP / NO NEW PROSE",
       "source": "shivani-episode-06-three-day-plot.json",
       "reader": {
         "type": "sw-episode05",
@@ -1883,10 +1885,11 @@
       "flags": [
         "Clock is proposed/index order unless explicitly source-confirmed.",
         "EDITOR-RECONCILED_TIME__NOT_ORIGINALLY_AUTHOR_SPECIFIED",
-        "PARALLEL_SEPARATE_LOCATIONS__NOT_COLOCATED",
-        "DO_NOT_INTERPRET_AS_SHARED_ATTENDANCE"
+        "DO_NOT_INTERPRET_AS_SHARED_ATTENDANCE",
+        "EDITOR_CHOSEN_CLOCK__NOT_SOURCE_FIXED",
+        "RECAP_ONLY_NOT_JOINT_MEETING"
       ],
-      "detail": "Ankita and Shreya independently process EP05 events at their own homes. This combined index entry is NOT a physical meeting between them."
+      "detail": "Ankita reacts privately to Friday night's discoveries at home before her 06:45 spouse scene; Shreya has a distinct earlier morning record. Original text preserved."
     },
     {
       "id": "sh06-03-uncle",
@@ -2496,12 +2499,12 @@
     {
       "id": "ank06-03-evidence-compare",
       "date": "2026-01-03",
-      "sort": "08:40",
-      "start": "08:40",
-      "end": "09:05",
-      "timeLabel": "Saturday 08:40–09:05 · editor-proposed call",
+      "sort": "17:40",
+      "start": "17:40",
+      "end": "18:00",
+      "timeLabel": "17:40–18:00 · editor-selected / source author timing not frozen",
       "universe": "sw",
-      "title": "Ankita × Shreya · compare their different EP05 evidence",
+      "title": "Ankita × Shreya · after-duty evidence comparison call",
       "lead": "Ankita",
       "characters": [
         "Ankita",
@@ -2512,7 +2515,7 @@
       "scene": "ANK06-S02-UNCLE-COMPARISON",
       "kind": "planned",
       "state": "review",
-      "status": "AUTHOR-AGREED DIRECTION / EDITOR CLOCK",
+      "status": "USER-SOURCED PLOT / EDITOR-SELECTED POST-SHIFT TIME",
       "source": "episode-06-ankita-plan.json",
       "reader": {
         "type": "sw-plan",
@@ -2523,9 +2526,10 @@
       "flags": [
         "EP05 reader already contains individual morning reactions; this is a follow-up, not a replay",
         "Plot planning only; not new published prose",
-        "EDITOR-RECONCILED_TIME__NOT_ORIGINALLY_AUTHOR_SPECIFIED"
+        "EDITOR-RECONCILED_TIME__NOT_ORIGINALLY_AUTHOR_SPECIFIED",
+        "EDITOR_CHOSEN_CLOCK__NOT_SOURCE_FIXED"
       ],
-      "detail": "Private Ankita × Shreya evidence-comparison call after independent morning reactions; no travel time assumed, completes before Shreya gym arrival."
+      "detail": "Move the approved private comparison after Shreya's Saturday 08:30–16:30 station shift. No physical travel, Shreya at home before later sister study."
     },
     {
       "id": "ank06-03-aman-doubts",
@@ -2856,12 +2860,12 @@
     {
       "id": "shr06-03-rematch",
       "date": "2026-01-03",
-      "sort": "10:15",
-      "start": "10:15",
-      "end": "11:20",
-      "timeLabel": "Saturday 10:15–11:20 · editor-selected slot",
+      "sort": "06:20",
+      "start": "06:20",
+      "end": "07:30",
+      "timeLabel": "06:20–07:30 · editor-selected / source author timing not frozen",
       "universe": "sw",
-      "title": "Shreya × Samar–Shaan · winning gym rematches → study request → changing-area accident",
+      "title": "Shreya × Samar–Shaan · early gym rematch, request and changing-area mishap",
       "lead": "Shreya",
       "characters": [
         "Shreya",
@@ -2873,7 +2877,7 @@
       "scene": "SHR06-S01-GYM-REMATCH",
       "kind": "planned",
       "state": "review",
-      "status": "USER STORY DIRECTION / CLOCK EDITOR-RECONCILED / PROSE OPEN",
+      "status": "EDITOR-SELECTED BEFORE-DUTY CLOCK / PLOT ONLY",
       "source": "episode-06-shreya-plan.json",
       "reader": {
         "type": "sw-plan",
@@ -2884,19 +2888,20 @@
       "flags": [
         "Chronological sort is for display only, NOT a confirmed clock time.",
         "Official police duty and private home group must stay distinct.",
-        "EDITOR-RECONCILED_TIME__NOT_ORIGINALLY_AUTHOR_SPECIFIED"
+        "EDITOR-RECONCILED_TIME__NOT_ORIGINALLY_AUTHOR_SPECIFIED",
+        "EDITOR_CHOSEN_CLOCK__NOT_SOURCE_FIXED"
       ],
-      "detail": "10:15–10:30 separate rematches won by twins; 10:30–10:42 old coffee/saree/get-together wager teasing; 10:42–10:54 IAS/competitive-exam mentoring request; 11:05–11:12 brief accidental sightline when changing-cubicle latch fails and Shreya is seen in her bra; normal exit by 11:20."
+      "detail": "Shreya meets Samar/Shaan before Saturday duty: 06:20–06:35 rematches, 06:35–06:47 coffee/get-together teasing, 06:47–07:00 exam mentoring request, 07:10–07:17 changing-cubicle door accident; by 07:30 she leaves with 60 minutes to report at the station."
     },
     {
       "id": "shr06-03-study",
       "date": "2026-01-03",
-      "sort": "12:15",
-      "start": "12:15",
-      "end": "12:45",
-      "timeLabel": "Saturday 12:15–12:45 · editor-selected slot",
+      "sort": "18:15",
+      "start": "18:15",
+      "end": "18:45",
+      "timeLabel": "18:15–18:45 · editor-selected / source author timing not frozen",
       "universe": "sw",
-      "title": "Shreya × Shruti · exam prep and four-person study invitation",
+      "title": "Shreya × Shruti · after-duty sister study invitation",
       "lead": "Shreya",
       "characters": [
         "Shreya",
@@ -2907,7 +2912,7 @@
       "scene": "SHR06-S02-SHRUTI-HOME-STUDY",
       "kind": "planned",
       "state": "review",
-      "status": "USER STORY DIRECTION / CLOCK EDITOR-RECONCILED / PROSE OPEN",
+      "status": "EDITOR-SELECTED AFTER-DUTY CLOCK / PLOT ONLY",
       "source": "episode-06-shreya-plan.json",
       "reader": {
         "type": "sw-plan",
@@ -2918,19 +2923,20 @@
       "flags": [
         "Chronological sort is for display only, NOT a confirmed clock time.",
         "Official police duty and private home group must stay distinct.",
-        "EDITOR-RECONCILED_TIME__NOT_ORIGINALLY_AUTHOR_SPECIFIED"
+        "EDITOR-RECONCILED_TIME__NOT_ORIGINALLY_AUTHOR_SPECIFIED",
+        "EDITOR_CHOSEN_CLOCK__NOT_SOURCE_FIXED"
       ],
-      "detail": "Sisters at Rathore home. Shruti accepts planned mentoring group; exam streams distinguished; Anaya's household arrangements independent."
+      "detail": "After station shift and Ankita call, Shreya and Shruti discuss exam prep and Sunday's four-person study at twins' bachelor apartment; Vikram's care for Anaya remains a separate proposed arrangement."
     },
     {
       "id": "shr06-04-session",
       "date": "2026-01-04",
-      "sort": "14:00",
-      "start": "14:00",
-      "end": "15:15",
-      "timeLabel": "Sunday 14:00–15:15 · editor-selected slot",
+      "sort": "15:00",
+      "start": "15:00",
+      "end": "16:15",
+      "timeLabel": "15:00–16:15 · editor-selected / source author timing not frozen",
       "universe": "sw",
-      "title": "Shreya × Shruti × Samar–Shaan · first IAS/competitive-exam study at twins' apartment",
+      "title": "Shreya, Shruti, Samar and Shaan · after-duty group study",
       "lead": "Shreya",
       "characters": [
         "Shreya",
@@ -2943,7 +2949,7 @@
       "scene": "SHR06-S03-FOUR-PERSON-SESSION",
       "kind": "planned",
       "state": "review",
-      "status": "USER STORY DIRECTION / CLOCK EDITOR-RECONCILED / PROSE OPEN",
+      "status": "EDITOR-SELECTED AFTER-SHORTER-DUTY CLOCK / PLOT ONLY",
       "source": "episode-06-shreya-plan.json",
       "reader": {
         "type": "sw-plan",
@@ -2954,19 +2960,20 @@
       "flags": [
         "Chronological sort is for display only, NOT a confirmed clock time.",
         "Official police duty and private home group must stay distinct.",
-        "EDITOR-RECONCILED_TIME__NOT_ORIGINALLY_AUTHOR_SPECIFIED"
+        "EDITOR-RECONCILED_TIME__NOT_ORIGINALLY_AUTHOR_SPECIFIED",
+        "EDITOR_CHOSEN_CLOCK__NOT_SOURCE_FIXED"
       ],
-      "detail": "Four adults meet at Samar and Shaan's shared bachelor flat. Quiet living-room study, practical mock discussion, future gym plan; no Karan/Aman or Ayaan/Armaan present."
+      "detail": "Shreya works Sunday 08:00–13:00, then meets the other three at Samar/Shaan's shared apartment from 15:00–16:15; no Sunday holiday assumed."
     },
     {
       "id": "shr06-05-continuity",
       "date": "2026-01-05",
-      "sort": "15:35",
-      "start": "15:35",
-      "end": "16:25",
-      "timeLabel": "Monday 15:35–16:25 · editor-proposed / shift-dependent",
+      "sort": "10:30",
+      "start": "10:30",
+      "end": "11:20",
+      "timeLabel": "10:30–11:20 · editor-selected / source author timing not frozen",
       "universe": "sw",
-      "title": "Shreya + police team · new close-contact escape-and-recovery training round",
+      "title": "Shreya + trainees · early Monday controlled hold-break session",
       "lead": "Shreya",
       "characters": [
         "Shreya",
@@ -2983,7 +2990,7 @@
       "scene": "SHR06-S04-DUTY-CONTINUITY",
       "kind": "planned",
       "state": "review",
-      "status": "NEW ROUND PROPOSED / NO PREVIOUS PROSE CHANGED / SHIFT-DEPENDENT",
+      "status": "DUTY-ROSTER-ALIGNED / NEW ROUND PLOT ONLY",
       "source": "episode-06-shreya-plan.json",
       "reader": {
         "type": "sw-plan",
@@ -2995,9 +3002,10 @@
         "Chronological sort is for display only, NOT a confirmed clock time.",
         "Official police duty and private home group must stay distinct.",
         "EDITOR-RECONCILED_TIME__NOT_ORIGINALLY_AUTHOR_SPECIFIED",
-        "POONAM_ANJALI_REVIEW_AND_ADMIN_NOT_ACTIVE_TRAINEES"
+        "POONAM_ANJALI_REVIEW_AND_ADMIN_NOT_ACTIVE_TRAINEES",
+        "EDITOR_CHOSEN_CLOCK__NOT_SOURCE_FIXED"
       ],
-      "detail": "Existing station setting; not a repeat of Episode03 flag-control. Meera/Rohas controlled hold-break; Kavita/Lokesh mat-recovery; partner rotation; Shreya coaches; Poonam review and Anjali paperwork only. Exact duty slot requires roster confirmation."
+      "detail": "Within 08:00–17:00 Monday police shift, Shreya runs a new controlled technique round; Rohas–Meera, Lokesh–Kavita and rotated partners. Poonam review/Anjali admin are not active trainees."
     },
     {
       "id": "shr06-05-evening-review",
@@ -3034,6 +3042,452 @@
         "EDITOR-RECONCILED_TIME__NOT_ORIGINALLY_AUTHOR_SPECIFIED"
       ],
       "detail": "Short remote revision/check-in on mock answers only if Shreya has actually finished duty; does not schedule a second in-person meeting."
+    },
+    {
+      "id": "ep05-shreya-jan03-solo-morning",
+      "date": "2026-01-03",
+      "sort": "05:50",
+      "start": "05:50",
+      "end": "06:05",
+      "timeLabel": "05:50–06:05 · editor-selected recap position",
+      "universe": "sw",
+      "title": "Shreya · separate next-morning memory at Rathore home",
+      "lead": "Shreya",
+      "characters": [
+        "Shreya"
+      ],
+      "mentions": [
+        "Vikram"
+      ],
+      "episode": "05 → 06 bridge",
+      "scene": "EP05-SHREYA-RECAP",
+      "kind": "reference",
+      "state": "review",
+      "status": "ORIGINAL TEXT ARCHIVED / NO REWRITING",
+      "source": "episode-05-reader.json#episode06MorningBridgeOriginal",
+      "reader": {
+        "type": "sw-episode05",
+        "scene": "06B"
+      },
+      "flags": [
+        "RECAP_ONLY",
+        "EDITOR_CHOSEN_CLOCK__NOT_SOURCE_FIXED"
+      ],
+      "detail": "Shreya's existing morning reaction precedes a 06:20 gym departure. No second marital scene."
+    },
+    {
+      "id": "shr06-03-duty-envelope",
+      "date": "2026-01-03",
+      "sort": "08:30",
+      "start": "08:30",
+      "end": "16:30",
+      "timeLabel": "08:30–16:30 · editorial police-duty roster",
+      "universe": "sw",
+      "title": "Shreya · police station shift · Full Saturday roster, no leave",
+      "lead": "Shreya",
+      "characters": [
+        "Shreya"
+      ],
+      "mentions": [
+        "Rohas",
+        "Lokesh",
+        "Meera",
+        "Kavita"
+      ],
+      "episode": "06 plot",
+      "scene": "SHR06-DUTY-2026-01-03",
+      "kind": "availability",
+      "state": "review",
+      "status": "NO LEAVE / EDITOR-PROPOSED DUTY NOT ACTUAL GOVERNMENT ROSTER",
+      "source": "episode-06-household-spouse-availability.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "shreya",
+        "part": "06"
+      },
+      "flags": [
+        "DUTY_ENVELOPE_NOT_ADDITIONAL_SCENE",
+        "EDITOR_CHOSEN_CLOCK__NOT_SOURCE_FIXED"
+      ],
+      "detail": "Full Saturday roster, no leave. Office commute accounted for; Shreya's nested drills are part of this shift, not conflicting separate attendance."
+    },
+    {
+      "id": "shr06-04-duty-envelope",
+      "date": "2026-01-04",
+      "sort": "08:00",
+      "start": "08:00",
+      "end": "13:00",
+      "timeLabel": "08:00–13:00 · editorial police-duty roster",
+      "universe": "sw",
+      "title": "Shreya · police station shift · Shorter Sunday roster, on duty, no leave",
+      "lead": "Shreya",
+      "characters": [
+        "Shreya"
+      ],
+      "mentions": [
+        "Rohas",
+        "Lokesh",
+        "Meera",
+        "Kavita"
+      ],
+      "episode": "06 plot",
+      "scene": "SHR06-DUTY-2026-01-04",
+      "kind": "availability",
+      "state": "review",
+      "status": "NO LEAVE / EDITOR-PROPOSED DUTY NOT ACTUAL GOVERNMENT ROSTER",
+      "source": "episode-06-household-spouse-availability.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "shreya",
+        "part": "06"
+      },
+      "flags": [
+        "DUTY_ENVELOPE_NOT_ADDITIONAL_SCENE",
+        "EDITOR_CHOSEN_CLOCK__NOT_SOURCE_FIXED"
+      ],
+      "detail": "Shorter Sunday roster, on duty, no leave. Office commute accounted for; Shreya's nested drills are part of this shift, not conflicting separate attendance."
+    },
+    {
+      "id": "shr06-05-duty-envelope",
+      "date": "2026-01-05",
+      "sort": "08:00",
+      "start": "08:00",
+      "end": "17:00",
+      "timeLabel": "08:00–17:00 · editorial police-duty roster",
+      "universe": "sw",
+      "title": "Shreya · police station shift · Full Monday roster, 10:30 technique training inside duty",
+      "lead": "Shreya",
+      "characters": [
+        "Shreya"
+      ],
+      "mentions": [
+        "Rohas",
+        "Lokesh",
+        "Meera",
+        "Kavita"
+      ],
+      "episode": "06 plot",
+      "scene": "SHR06-DUTY-2026-01-05",
+      "kind": "availability",
+      "state": "review",
+      "status": "NO LEAVE / EDITOR-PROPOSED DUTY NOT ACTUAL GOVERNMENT ROSTER",
+      "source": "episode-06-household-spouse-availability.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "shreya",
+        "part": "06"
+      },
+      "flags": [
+        "DUTY_ENVELOPE_NOT_ADDITIONAL_SCENE",
+        "EDITOR_CHOSEN_CLOCK__NOT_SOURCE_FIXED"
+      ],
+      "detail": "Full Monday roster, 10:30 technique training inside duty. Office commute accounted for; Shreya's nested drills are part of this shift, not conflicting separate attendance."
+    },
+    {
+      "id": "spouse06-kabir-03",
+      "date": "2026-01-03",
+      "sort": "06:35",
+      "start": "06:35",
+      "end": "07:30",
+      "timeLabel": "06:35–07:30 · household presence reference",
+      "universe": "sw",
+      "title": "Kabir · Ankita's husband whereabouts (planning hold)",
+      "lead": "Ankita",
+      "characters": [
+        "Kabir"
+      ],
+      "mentions": [
+        "Ankita"
+      ],
+      "episode": "06 planning",
+      "scene": "HOUSEHOLD-KABIR-2026-01-03",
+      "kind": "availability",
+      "state": "review",
+      "status": "SOURCE COUPLE SCENE / PRESENCE WINDOW EDITOR-PROPOSED",
+      "source": "episode-06-household-spouse-availability.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "ankita",
+        "part": "06"
+      },
+      "flags": [
+        "HOUSEHOLD_PRESENCE_ENVELOPE_NOT_ADDITIONAL_SCENE",
+        "EDITOR_CHOSEN_CLOCK__NOT_SOURCE_FIXED",
+        "SPOUSE_PROFESSION_DO_NOT_INVENT"
+      ],
+      "detail": "At Malhotra home, couple morning scene before Ankita's home workout"
+    },
+    {
+      "id": "spouse06-kabir-04",
+      "date": "2026-01-04",
+      "sort": "08:00",
+      "start": "08:00",
+      "end": "08:30",
+      "timeLabel": "08:00–08:30 · household presence reference",
+      "universe": "sw",
+      "title": "Kabir · Ankita's husband whereabouts (planning hold)",
+      "lead": "Ankita",
+      "characters": [
+        "Kabir"
+      ],
+      "mentions": [
+        "Ankita"
+      ],
+      "episode": "06 planning",
+      "scene": "HOUSEHOLD-KABIR-2026-01-04",
+      "kind": "availability",
+      "state": "review",
+      "status": "SOURCE PLOT / CLOCK EDITOR-PROPOSED",
+      "source": "episode-06-household-spouse-availability.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "ankita",
+        "part": "06"
+      },
+      "flags": [
+        "HOUSEHOLD_PRESENCE_ENVELOPE_NOT_ADDITIONAL_SCENE",
+        "EDITOR_CHOSEN_CLOCK__NOT_SOURCE_FIXED",
+        "SPOUSE_PROFESSION_DO_NOT_INVENT"
+      ],
+      "detail": "At home with Ankita for household calendar check; Karan/Aman not necessarily present"
+    },
+    {
+      "id": "spouse06-kabir-05",
+      "date": "2026-01-05",
+      "sort": "20:00",
+      "start": "20:00",
+      "end": "20:20",
+      "timeLabel": "20:00–20:20 · household presence reference",
+      "universe": "sw",
+      "title": "Kabir · Ankita's husband whereabouts (planning hold)",
+      "lead": "Ankita",
+      "characters": [
+        "Kabir"
+      ],
+      "mentions": [
+        "Ankita"
+      ],
+      "episode": "06 planning",
+      "scene": "HOUSEHOLD-KABIR-2026-01-05",
+      "kind": "availability",
+      "state": "review",
+      "status": "SOURCE PLOT / CLOCK EDITOR-PROPOSED",
+      "source": "episode-06-household-spouse-availability.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "ankita",
+        "part": "06"
+      },
+      "flags": [
+        "HOUSEHOLD_PRESENCE_ENVELOPE_NOT_ADDITIONAL_SCENE",
+        "EDITOR_CHOSEN_CLOCK__NOT_SOURCE_FIXED",
+        "SPOUSE_PROFESSION_DO_NOT_INVENT"
+      ],
+      "detail": "At home with Ankita to coordinate Wednesday visiting office teammates; profession IT production supported"
+    },
+    {
+      "id": "spouse06-rohan-03",
+      "date": "2026-01-03",
+      "sort": "07:30",
+      "start": "07:30",
+      "end": "13:00",
+      "timeLabel": "07:30–13:00 · household presence reference",
+      "universe": "sw",
+      "title": "Rohan · Shivani's husband whereabouts (planning hold)",
+      "lead": "Shivani",
+      "characters": [
+        "Rohan"
+      ],
+      "mentions": [
+        "Shivani"
+      ],
+      "episode": "06 planning",
+      "scene": "HOUSEHOLD-ROHAN-2026-01-03",
+      "kind": "availability",
+      "state": "review",
+      "status": "PRESENCE EDITOR-PROPOSED NOT APPROVED PROSE",
+      "source": "episode-06-household-spouse-availability.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "shivani",
+        "part": "06"
+      },
+      "flags": [
+        "HOUSEHOLD_PRESENCE_ENVELOPE_NOT_ADDITIONAL_SCENE",
+        "EDITOR_CHOSEN_CLOCK__NOT_SOURCE_FIXED",
+        "SPOUSE_PROFESSION_DO_NOT_INVENT"
+      ],
+      "detail": "Proposed at home with Tara while Shivani handles preexisting society/duty routines. His profession is UNKNOWN."
+    },
+    {
+      "id": "spouse06-rohan-04",
+      "date": "2026-01-04",
+      "sort": "09:00",
+      "start": "09:00",
+      "end": "13:00",
+      "timeLabel": "09:00–13:00 · household presence reference",
+      "universe": "sw",
+      "title": "Rohan · Shivani's husband whereabouts (planning hold)",
+      "lead": "Shivani",
+      "characters": [
+        "Rohan"
+      ],
+      "mentions": [
+        "Shivani"
+      ],
+      "episode": "06 planning",
+      "scene": "HOUSEHOLD-ROHAN-2026-01-04",
+      "kind": "availability",
+      "state": "review",
+      "status": "CHILDCARE EDITOR-PROPOSED",
+      "source": "episode-06-household-spouse-availability.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "shivani",
+        "part": "06"
+      },
+      "flags": [
+        "HOUSEHOLD_PRESENCE_ENVELOPE_NOT_ADDITIONAL_SCENE",
+        "EDITOR_CHOSEN_CLOCK__NOT_SOURCE_FIXED",
+        "SPOUSE_PROFESSION_DO_NOT_INVENT"
+      ],
+      "detail": "Proposed at home looking after Tara during Shivani Group A late morning. His profession is UNKNOWN."
+    },
+    {
+      "id": "spouse06-rohan-05",
+      "date": "2026-01-05",
+      "sort": "19:00",
+      "start": "19:00",
+      "end": "20:00",
+      "timeLabel": "19:00–20:00 · household presence reference",
+      "universe": "sw",
+      "title": "Rohan · Shivani's husband whereabouts (planning hold)",
+      "lead": "Shivani",
+      "characters": [
+        "Rohan"
+      ],
+      "mentions": [
+        "Shivani"
+      ],
+      "episode": "06 planning",
+      "scene": "HOUSEHOLD-ROHAN-2026-01-05",
+      "kind": "availability",
+      "state": "review",
+      "status": "PRESENCE EDITOR-PROPOSED",
+      "source": "episode-06-household-spouse-availability.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "shivani",
+        "part": "06"
+      },
+      "flags": [
+        "HOUSEHOLD_PRESENCE_ENVELOPE_NOT_ADDITIONAL_SCENE",
+        "EDITOR_CHOSEN_CLOCK__NOT_SOURCE_FIXED",
+        "SPOUSE_PROFESSION_DO_NOT_INVENT"
+      ],
+      "detail": "Proposed returned home for family after Shivani college/faculty day. Employment location and profession unknown."
+    },
+    {
+      "id": "spouse06-vikram-03",
+      "date": "2026-01-03",
+      "sort": "06:00",
+      "start": "06:00",
+      "end": "16:30",
+      "timeLabel": "06:00–16:30 · household presence reference",
+      "universe": "sw",
+      "title": "Vikram · Shreya's husband whereabouts (planning hold)",
+      "lead": "Shreya",
+      "characters": [
+        "Vikram"
+      ],
+      "mentions": [
+        "Shreya"
+      ],
+      "episode": "06 planning",
+      "scene": "HOUSEHOLD-VIKRAM-2026-01-03",
+      "kind": "availability",
+      "state": "review",
+      "status": "CHILDCARE EDITOR-PROPOSED",
+      "source": "episode-06-household-spouse-availability.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "shreya",
+        "part": "06"
+      },
+      "flags": [
+        "HOUSEHOLD_PRESENCE_ENVELOPE_NOT_ADDITIONAL_SCENE",
+        "EDITOR_CHOSEN_CLOCK__NOT_SOURCE_FIXED",
+        "SPOUSE_PROFESSION_DO_NOT_INVENT"
+      ],
+      "detail": "Proposed at Rathore home to provide Anaya care during Shreya gym and full station shift; historical night-duty work known, specific job not."
+    },
+    {
+      "id": "spouse06-vikram-04",
+      "date": "2026-01-04",
+      "sort": "07:30",
+      "start": "07:30",
+      "end": "16:45",
+      "timeLabel": "07:30–16:45 · household presence reference",
+      "universe": "sw",
+      "title": "Vikram · Shreya's husband whereabouts (planning hold)",
+      "lead": "Shreya",
+      "characters": [
+        "Vikram"
+      ],
+      "mentions": [
+        "Shreya"
+      ],
+      "episode": "06 planning",
+      "scene": "HOUSEHOLD-VIKRAM-2026-01-04",
+      "kind": "availability",
+      "state": "review",
+      "status": "CHILDCARE EDITOR-PROPOSED",
+      "source": "episode-06-household-spouse-availability.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "shreya",
+        "part": "06"
+      },
+      "flags": [
+        "HOUSEHOLD_PRESENCE_ENVELOPE_NOT_ADDITIONAL_SCENE",
+        "EDITOR_CHOSEN_CLOCK__NOT_SOURCE_FIXED",
+        "SPOUSE_PROFESSION_DO_NOT_INVENT"
+      ],
+      "detail": "Proposed at Rathore home with Anaya across Shreya Sunday duty and afternoon twins-apartment study; no asserted employer."
+    },
+    {
+      "id": "spouse06-vikram-05",
+      "date": "2026-01-05",
+      "sort": "07:30",
+      "start": "07:30",
+      "end": "17:30",
+      "timeLabel": "07:30–17:30 · household presence reference",
+      "universe": "sw",
+      "title": "Vikram · Shreya's husband whereabouts (planning hold)",
+      "lead": "Shreya",
+      "characters": [
+        "Vikram"
+      ],
+      "mentions": [
+        "Shreya"
+      ],
+      "episode": "06 planning",
+      "scene": "HOUSEHOLD-VIKRAM-2026-01-05",
+      "kind": "availability",
+      "state": "review",
+      "status": "MONDAY CARE COVERAGE STILL NEEDS AUTHOR CONFIRMATION",
+      "source": "episode-06-household-spouse-availability.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "shreya",
+        "part": "06"
+      },
+      "flags": [
+        "HOUSEHOLD_PRESENCE_ENVELOPE_NOT_ADDITIONAL_SCENE",
+        "EDITOR_CHOSEN_CLOCK__NOT_SOURCE_FIXED",
+        "SPOUSE_PROFESSION_DO_NOT_INVENT"
+      ],
+      "detail": "Provisional childcare coverage at home or handoff to an established caregiver while Shreya is on duty; Vikram's actual Monday work hours remain UNCONFIRMED."
     }
   ],
   "sourcePolicy": " | Shreya January 3 working scenes SR10–SR13 were moved into the January 1 calendar by direct author instruction 2026-11-16, original plan archived in episode-03-shreya-plan-archive-jan03.json; no content removed from story source."
