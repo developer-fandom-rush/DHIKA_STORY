@@ -163,7 +163,7 @@ const shivani04BTensionByScene:Record<string,{kind:string;note:string}>={
 };
 export default function Planning({lead='ankita',part='A'}:{lead?:string;part?:string}){
  const active=leads.find(x=>x===lead)||'ankita';
- const selectedPart=(active==='taniya'&&part==='B'?'B':'A') as 'A'|'B';
+ const selectedPart=(part==='B'||part==='04B'?'B':'A') as 'A'|'B';
  const {data:publicationIndex,error:publicationError,loading:publicationLoading}=useData<Episode04PublicationIndex>('episode-04a-publication-index.json');
  const {data:ankita,error:ankitaError}=useData<PlotDocument>('episode-04a-ankita-plan.json');
  const {data:shivani,error:shivaniError}=useData<PlotDocument>('episode-04a-shivani-plan.json');
@@ -189,7 +189,7 @@ export default function Planning({lead='ankita',part='A'}:{lead?:string;part?:st
  const proseChapter=proseDraft?.chapters.find(x=>x.id===active);
  const unifiedLead=unifiedDay?.leads.find(x=>x.id===active);
  const tracks=active==='meenakshi'?[]:active==='ankita'?(ankitaArchive?.tracks||[]):(workshop?.leads.find(x=>x.id===active)?.tracks||[]);
- const go=(who:string=active,p:'A'|'B'=selectedPart)=>openPage('planning',{lead:who,part:who==='taniya'?p:'A'});
+ const go=(who:string=active,p:'A'|'B'=selectedPart)=>openPage('planning',{lead:who,part:p==='B'?'04B':'04A'});
  const published=publicationIndex?.leads[active];
  const completed=new Set(published?.completedPlanSceneIds||[]);
  const superseded=new Set(published?.supersededPlanSceneIds||[]);
@@ -246,7 +246,7 @@ export default function Planning({lead='ankita',part='A'}:{lead?:string;part?:st
    </section>
   </>}
  </main>;
- if(active==='ankita')return <main className="page-width" id="ankita-episode05-planning">
+ if(active==='ankita'&&part==='05')return <main className="page-width" id="ankita-episode05-planning">
   <header className="section-intro"><span className="eyebrow">Next planning · Episode 05</span><h1>Ankita · Episode 05 · Plot discussion</h1><p>Episode 04B ends Friday, 2 January 2026 at 02:40 PM. This planning file predates the separate Episode 05 reader, so its open alternatives are historical discussion notes, not proof that the published shared scene is missing.</p></header>
   {ep05Nav}
 
@@ -286,7 +286,7 @@ export default function Planning({lead='ankita',part='A'}:{lead?:string;part?:st
  </main>;
 
  return <main className="page-width">
-  <header className="section-intro"><span className="eyebrow">{selectedPart==='B'?'Episode 04B · Friday 2 January 2026':'Episode 04A'}</span><h1>{selectedPart==='B'?'Taniya · Episode 04B · Plot discussion':'Episode 04A · Story status'}</h1><p>{selectedPart==='B'?'Author-supplied new plot sequence · discussion only; no prose published. Original 04B preserved intact in Future Reference.':'Completed scenes are in Read Story. Only unfinished Episode 04A scenes, if any, remain here.'}</p></header>
+  <header className="section-intro"><span className="eyebrow">{selectedPart==='B'?'Episode 04B · Friday 2 January 2026':'Episode 04A'}</span><h1>{selectedPart==='B'?titleCase(active)+' · Episode 04B · Plot discussion':titleCase(active)+' · Episode 04A · Story status'}</h1><p>{selectedPart==='B'?'Author-supplied new plot sequence · discussion only; no prose published. Original 04B preserved intact in Future Reference.':'Completed scenes are in Read Story. Only unfinished Episode 04A scenes, if any, remain here.'}</p></header>
   <p className="source-note"><strong>Episode 06 marriage-first planning:</strong> <a href="#/planning?lead=ankita&part=06">Ankita × Kabir — Scene 01</a> · <a href="#/planning?lead=shreya&part=06">Shreya × Vikram — Scene 01</a>. Both source-backed opening plot blueprints are saved; detailed marriage origin and dates still need discussion. <a href="https://github.com/developer-fandom-rush/DHIKA_STORY/blob/main/Society-Wives/episode-06-karan-aman-shared-availability.json" target="_blank" rel="noreferrer">Karan–Aman daily five-lead calendar</a> uses provisional windows, not confirmed scenes.</p>
   <p className="source-note"><strong>Episode 06 five-household hold:</strong> <a href="#/planning?lead=shivani&part=06">3–5 January cross-lead society dependency</a> · <a href="https://github.com/developer-fandom-rush/DHIKA_STORY/blob/main/Society-Wives/episode-06-cross-household-hold.json" target="_blank" rel="noreferrer">Central gate</a>. Before planning any next lead, map all five households' work, partners, children, and society/movie availability; do not invent husband/fiancé positions.</p>
   <p className="source-note"><strong>Original manuscript archive:</strong> <a href="#/source-vault">Read exact Google Docs copies — Shivani 04B, Meenakshi × Shivani 05, Taniya 05 and Taniya 04B preserved plot</a>. Source text is locked; new scenes belong in new versions, not edits to these copies.</p>
@@ -314,6 +314,14 @@ export default function Planning({lead='ankita',part='A'}:{lead?:string;part?:st
    <p><strong>Legacy plans archived, not completed:</strong> old SHR04A-S03 and SHR04A-S04 used a husband-return timeline that conflicts with the current manuscript. They are not active unfinished scenes and are not duplicated here.</p>
    <p className="muted">Current timeline: Vikram expected home around 6:00 AM on 2 January; Shreya 04A manuscript ends after the new SC09 night closure. Final author freeze still pending.</p>
    <button type="button" className="button primary" onClick={()=>openPage('reading',{episode:'04A',character:'shreya'})}>Read full Shreya 04A →</button>
+  </section>}
+  {active==='shivani'&&selectedPart==='B'&&<section className="episode-plan-card" id="shivani-04b-source-path">
+   <h2>Shivani · Episode 04B · office plot</h2>
+   <p>The original working office outline remains preserved separately from published reader prose. The plotting notes below and the unchanged full source are both accessible.</p>
+   <div className="chapter-controls">
+    <button type="button" className="button primary" onClick={()=>openPage('source-vault',{item:'ep04b-shivani-office'})}>Shivani 04B · original source →</button>
+    <button type="button" className="button subtle" onClick={()=>openPage('reading',{episode:'04B',character:'shivani'})}>Shivani 04B · reader status →</button>
+   </div>
   </section>}
   <div className="perspective-tabs" role="group" aria-label="Choose character">{leads.map(w=><button key={w} type="button" aria-pressed={active===w} className={active===w?'selected':''} onClick={()=>go(w)}>{titleCase(w)}</button>)}</div>
   {active==='taniya'&&<div className="episode-picker" role="group" aria-label="Choose Taniya episode planning">
