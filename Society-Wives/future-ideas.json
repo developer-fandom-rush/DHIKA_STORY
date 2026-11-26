@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "title": "Future Ideas to be referred before planning next scene",
   "instruction": "Read this ledger before planning any new scene. Ideas are inspirations, not automatically canon or approved scenes.",
-  "lastUpdated": "2026-11-21",
+  "lastUpdated": "2026-11-26",
   "status": "IDEAS_ONLY_NOT_PUBLISHED_STORY",
   "ideas": [
     {
@@ -256,6 +256,33 @@
         "Do not rewrite author manuscript without discussion"
       ],
       "nextAction": "Discuss Scene02 Guddu next; choose timing and circumstances of Taniya–Vivek future encounter separately before writing or publication."
+    },
+    {
+      "id": "FI-SHIVANI-MEENAKSHI-OM-MOHAN-FUTURE-ADULT-FASHION-CHALLENGE-01",
+      "lead": "Shivani and Meenakshi",
+      "referenceCharacters": [
+        "Shivani",
+        "Meenakshi",
+        "Om",
+        "Mohan"
+      ],
+      "workingTitle": "Next Uncle encounter — optional clothing-change and adult banter setup",
+      "priority": "Future-only concept saved at author request",
+      "candidateDate": "UNASSIGNED_AFTER_2026-01-02",
+      "dateStatus": "FUTURE_ENCOUNTER_ONLY_NOT_CURRENT_DINNER",
+      "episodeNumber": "NOT_ASSIGNED",
+      "idea": "When Om and Mohan re-encounter Shivani and Meenakshi after the January 2 private discoveries, an uncle-initiated bold, double-meaning flirting exchange may lead to a consensual, adults-only fashion/styling challenge, with the women voluntarily loosening or removing selected clothing layers if they choose. The older men may also choose to change their outfits. An optional playful challenge/Truth-or-Dare concept may be considered as an alternative at that later encounter. Nothing is automatic or mandatory; exact scene, participants, clothing, touch, limits and timing require fresh author discussion.",
+      "narrativeRole": "Long-term curiosity, awkwardness resolution, active agency and trust evolution after EP05 discoveries; not a replacement for existing incidents.",
+      "approval": "IDEA_SAVED_ONLY_NOT_SCENE_APPROVED",
+      "hardLocks": [
+        "DO NOT insert this fashion/clothing-removal challenge into the existing 2026-01-02 dinner",
+        "DO NOT overwrite any published or working episode text from this reference",
+        "No predetermined undressing, explicit interaction, game, touch, participants' level of involvement or outcome",
+        "No extrapolation from prior flirtation or arousal to present consent; each person's freedom to stop is preserved",
+        "Keep distinct Om/Mohan and Shivani/Meenakshi histories and existing EP05 knowledge asymmetry"
+      ],
+      "followUp": "Bring up for discussion at the next Om/Mohan group encounter, not now",
+      "sourceCrossReference": "Society-Wives/episode-05-jan02-uncle-cross-encounters-working-plot.json"
     }
   ]
 }
