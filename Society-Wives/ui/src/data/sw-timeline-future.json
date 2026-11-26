@@ -2312,7 +2312,7 @@
       "end": null,
       "timeLabel": "Late afternoon option; no fixed clock",
       "universe": "sw",
-      "title": "Kavya × Karan–Aman · first romantic bridge",
+      "title": "Kavya × Karan–Aman · approved no-touch doorway farewell",
       "lead": "Kavya",
       "characters": [
         "Kavya",
@@ -2324,7 +2324,7 @@
       "scene": "SH06-SUN-KAVYA-BRIDGE",
       "kind": "planned",
       "state": "review",
-      "status": "SELECTED EDITORIAL PROPOSAL · AUTHOR REVIEW BEFORE LOCK",
+      "status": "SIX-BEAT PLOT APPROVED · CLOCK NOT LOCKED · NO TOUCH",
       "source": "shivani-episode-06-three-day-plot.json",
       "reader": {
         "type": "sw-plan",
@@ -2333,10 +2333,11 @@
         "scene": "SH06-SUN-KAVYA-BRIDGE"
       },
       "flags": [
-        "Candidate sorting clock only, not locked event time",
-        "Cross-household gate must be checked before finalizing attendance"
+        "Author-approved plot, no word-for-word episode prose yet",
+        "Sunday 4 Jan sorting slot only—five-household gate and Karan/Aman availability remain open",
+        "No shirt/outfit details invented beyond deliberate removal of an upper garment at a private threshold"
       ],
-      "detail": "After Jan1 introduction, Kavya leads mutual teasing during an ordinary society crossing. She offers a brief welcome handhold to both brothers and they share a short arm-linked walk; Karan responds openly, Aman unexpectedly personally, Kavya's own feelings shift. They may exchange contacts. No kiss, accidental show, or Deepu retcon. Can shift if Ankita/Group A/movie conflict."
+      "detail": "After earned teasing about being understood rather than merely complimented, Kavya steps inside her personal doorway and deliberately shows the two brothers her bare back for a brief, tasteful farewell. Karan loses his usual smooth line; Aman understands Kavya's intentional challenge; she is briefly struck by his insight and ends with a teasing good night. Neither enters. No physical touch or kiss. Earlier linked-arm/handholding proposal replaced. Deepu remains a separate existing spark."
     },
     {
       "id": "ep06-five-household-hold",
