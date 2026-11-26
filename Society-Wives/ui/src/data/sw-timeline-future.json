@@ -7,7 +7,8 @@
     "M08 and Shreya SR10–SR13 are rescheduled, NOT cancelled/deferred.",
     "Older Jan2 Meenakshi outline is archived; the discarded photographic opening has been removed and must not be revived.",
     "Ankita Jan1 EP03 ends at 18:25 with Rinku doorbell. The 17 Nov EP04 Chotu workshop now proposes Jan1 Rinku follow-through and Jan2 Rohit A/B; previous undated Rinku/future-episode Rohit treatment is kept only as historical planning, not a duplicate scheduled clock entry. New slots require author approval.",
-    "Jan2 Episode 04 Chotu A/B proposals are under author review; earlier Rohit and Naveen plan records are retained as historical variants without double-booking Jan2."
+    "Jan2 Episode 04 Chotu A/B proposals are under author review; earlier Rohit and Naveen plan records are retained as historical variants without double-booking Jan2.",
+    "EP05 original source statuses reconciled as separate markers; older Jan2 proposals not deleted or marked as published. EP06 Jan3-5 is plot-only; index sort positions are not guaranteed event times."
   ],
   "events": [
     {
@@ -1667,6 +1668,638 @@
         "Source planning file preserved unchanged"
       ],
       "detail": "Chotu-equivalent in the hospital is Naveen (22), an admin assistant already present in 1 Jan M06; not a newly invented stranger. Introduce his established function and familiarity through reliable shift-sheet work; any family hardship, tuition or nickname backstory is only a proposal until accepted. He delivers the senior-review annexure, discovers one page is missing, offers to retrieve it and returns after a short interval. Meenakshi nicknames his speed 'express service'; his private impression is that her encouragement feels personal, while she regards it as friendly senior-colleague warmth. The missing-document-and-second-visit mechanism is separate from Babloo's society delivery."
+    },
+    {
+      "id": "ep05-link-call",
+      "date": "2026-01-02",
+      "sort": "16:30",
+      "start": null,
+      "end": null,
+      "timeLabel": "Late afternoon; time open",
+      "universe": "sw",
+      "title": "EP05 Shreya same-day call",
+      "lead": "Shreya",
+      "characters": [
+        "Shreya"
+      ],
+      "mentions": [],
+      "episode": "05",
+      "scene": "01",
+      "kind": "planned",
+      "state": "source-review",
+      "status": "SOURCE INDEX · ORIGINAL TEXT PRESERVED",
+      "source": "shivani-episode-06-three-day-plot.json",
+      "reader": {
+        "type": "sw-episode05",
+        "scene": "01"
+      },
+      "flags": [
+        "Clock is proposed/index order unless explicitly source-confirmed."
+      ],
+      "detail": "Existing EP05 working reader Scene01 indexed, not rewritten."
+    },
+    {
+      "id": "ep05-link-chintu",
+      "date": "2026-01-02",
+      "sort": "17:15",
+      "start": null,
+      "end": null,
+      "timeLabel": "~17:15–17:35",
+      "universe": "sw",
+      "title": "EP05 Chintu encounter",
+      "lead": "Shreya",
+      "characters": [
+        "Shreya",
+        "Chintu"
+      ],
+      "mentions": [],
+      "episode": "05",
+      "scene": "02",
+      "kind": "planned",
+      "state": "source-review",
+      "status": "SOURCE INDEX · ORIGINAL TEXT PRESERVED",
+      "source": "shivani-episode-06-three-day-plot.json",
+      "reader": {
+        "type": "sw-episode05",
+        "scene": "02"
+      },
+      "flags": [
+        "Clock is proposed/index order unless explicitly source-confirmed."
+      ],
+      "detail": "EP05 working reader Scene02, not an old draft."
+    },
+    {
+      "id": "ep05-link-arvind",
+      "date": "2026-01-02",
+      "sort": "17:45",
+      "start": null,
+      "end": null,
+      "timeLabel": "~17:45 onward",
+      "universe": "sw",
+      "title": "EP05 Arvind market preparation",
+      "lead": "Shreya",
+      "characters": [
+        "Shreya",
+        "Arvind"
+      ],
+      "mentions": [],
+      "episode": "05",
+      "scene": "03",
+      "kind": "planned",
+      "state": "source-review",
+      "status": "SOURCE INDEX · ORIGINAL TEXT PRESERVED",
+      "source": "shivani-episode-06-three-day-plot.json",
+      "reader": {
+        "type": "sw-episode05",
+        "scene": "03"
+      },
+      "flags": [
+        "Clock is proposed/index order unless explicitly source-confirmed."
+      ],
+      "detail": "EP05 working reader Scene03."
+    },
+    {
+      "id": "ep05-link-ankita-shreya",
+      "date": "2026-01-02",
+      "sort": "18:20",
+      "start": null,
+      "end": null,
+      "timeLabel": "~18:20–18:50",
+      "universe": "sw",
+      "title": "EP05 Ankita & Shreya two-house challenge",
+      "lead": "Ankita × Shreya",
+      "characters": [
+        "Ankita",
+        "Shreya"
+      ],
+      "mentions": [],
+      "episode": "05",
+      "scene": "04",
+      "kind": "planned",
+      "state": "source-review",
+      "status": "SOURCE INDEX · ORIGINAL TEXT PRESERVED",
+      "source": "shivani-episode-06-three-day-plot.json",
+      "reader": {
+        "type": "sw-episode05",
+        "scene": "04"
+      },
+      "flags": [
+        "Clock is proposed/index order unless explicitly source-confirmed."
+      ],
+      "detail": "EP05 combined reader Scene04; indexed once for two leads."
+    },
+    {
+      "id": "ep05-link-meenakshi-shivani",
+      "date": "2026-01-02",
+      "sort": "23:45",
+      "start": null,
+      "end": null,
+      "timeLabel": "2 Jan, true source clock pending",
+      "universe": "sw",
+      "title": "EP05 Meenakshi–Shivani Uncle source audit",
+      "lead": "Shivani × Meenakshi",
+      "characters": [
+        "Shivani",
+        "Meenakshi"
+      ],
+      "mentions": [],
+      "episode": "05 source",
+      "scene": "history",
+      "kind": "planned",
+      "state": "source-review",
+      "status": "SOURCE INDEX · ORIGINAL TEXT PRESERVED",
+      "source": "shivani-episode-06-three-day-plot.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "shivani",
+        "part": "06",
+        "scene": "history"
+      },
+      "flags": [
+        "Clock is proposed/index order unless explicitly source-confirmed."
+      ],
+      "detail": "External 9-scene Doc is working manuscript; 23:45 is index order, NOT actual story time."
+    },
+    {
+      "id": "ep05-link-taniya",
+      "date": "2026-01-02",
+      "sort": "23:46",
+      "start": null,
+      "end": null,
+      "timeLabel": "2 Jan, source time review",
+      "universe": "sw",
+      "title": "EP05 Taniya working Doc audit",
+      "lead": "Taniya",
+      "characters": [
+        "Taniya"
+      ],
+      "mentions": [],
+      "episode": "05 source",
+      "scene": "history",
+      "kind": "planned",
+      "state": "source-review",
+      "status": "SOURCE INDEX · ORIGINAL TEXT PRESERVED",
+      "source": "shivani-episode-06-three-day-plot.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "taniya",
+        "scene": "history"
+      },
+      "flags": [
+        "Clock is proposed/index order unless explicitly source-confirmed."
+      ],
+      "detail": "EP05 registered 9-scene working Doc not imported; preserve its status. No 23:46 actual event."
+    },
+    {
+      "id": "ep05-link-jan03-morning",
+      "date": "2026-01-03",
+      "sort": "08:00",
+      "start": null,
+      "end": null,
+      "timeLabel": "Saturday morning; clock open",
+      "universe": "sw",
+      "title": "EP05 Ankita/Shreya next-morning reactions",
+      "lead": "Ankita × Shreya",
+      "characters": [
+        "Ankita",
+        "Shreya"
+      ],
+      "mentions": [],
+      "episode": "05",
+      "scene": "05",
+      "kind": "planned",
+      "state": "source-review",
+      "status": "SOURCE INDEX · ORIGINAL TEXT PRESERVED",
+      "source": "shivani-episode-06-three-day-plot.json",
+      "reader": {
+        "type": "sw-episode05",
+        "scene": "05"
+      },
+      "flags": [
+        "Clock is proposed/index order unless explicitly source-confirmed."
+      ],
+      "detail": "Existing combined reader Scene05; avoid overriding it."
+    },
+    {
+      "id": "sh06-03-uncle",
+      "date": "2026-01-03",
+      "sort": "08:15",
+      "start": null,
+      "end": null,
+      "timeLabel": "Already-written morning; exact clock open",
+      "universe": "sw",
+      "title": "Shivani Uncle beat preserved",
+      "lead": "Shivani",
+      "characters": [
+        "Shivani"
+      ],
+      "mentions": [],
+      "episode": "06 plot",
+      "scene": "SH06-SAT-UNCLE",
+      "kind": "planned",
+      "state": "review",
+      "status": "EXISTING MANUSCRIPT · DO NOT REWRITE",
+      "source": "shivani-episode-06-three-day-plot.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "shivani",
+        "part": "06",
+        "scene": "SH06-SAT-UNCLE"
+      },
+      "flags": [
+        "Clock is proposed/index order unless explicitly source-confirmed."
+      ],
+      "detail": "Preservation marker, NOT a new scene."
+    },
+    {
+      "id": "sh06-03-society",
+      "date": "2026-01-03",
+      "sort": "12:00",
+      "start": null,
+      "end": null,
+      "timeLabel": "After Uncle scene; OPEN",
+      "universe": "sw",
+      "title": "Shivani society interactions reserved",
+      "lead": "Shivani",
+      "characters": [
+        "Shivani"
+      ],
+      "mentions": [],
+      "episode": "06 plot",
+      "scene": "SH06-SAT-OPEN",
+      "kind": "planned",
+      "state": "review",
+      "status": "OPEN CAST / NO ENCOUNTER",
+      "source": "shivani-episode-06-three-day-plot.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "shivani",
+        "part": "06",
+        "scene": "SH06-SAT-OPEN"
+      },
+      "flags": [
+        "Clock is proposed/index order unless explicitly source-confirmed."
+      ],
+      "detail": "Trainer, milkman, guard, other husbands and older society men require five-lead reconciliation."
+    },
+    {
+      "id": "sh06-03-ayaan",
+      "date": "2026-01-03",
+      "sort": "15:00",
+      "start": null,
+      "end": null,
+      "timeLabel": "Afternoon candidate",
+      "universe": "sw",
+      "title": "Ayaan–Armaan tuition request & Meenakshi call",
+      "lead": "Shivani",
+      "characters": [
+        "Shivani",
+        "Ayaan",
+        "Armaan",
+        "Meenakshi"
+      ],
+      "mentions": [],
+      "episode": "06 plot",
+      "scene": "SH06-SAT-AYAAN",
+      "kind": "planned",
+      "state": "review",
+      "status": "APPROVED PLOT FOUNDATION · TIME OPEN",
+      "source": "shivani-episode-06-three-day-plot.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "shivani",
+        "part": "06",
+        "scene": "SH06-SAT-AYAAN"
+      },
+      "flags": [
+        "Clock is proposed/index order unless explicitly source-confirmed."
+      ],
+      "detail": "Biology focus Shivani, Chemistry help Meenakshi agrees in principle by phone, exact timing later. No accidental show yet."
+    },
+    {
+      "id": "sh06-03-evening",
+      "date": "2026-01-03",
+      "sort": "19:00",
+      "start": null,
+      "end": null,
+      "timeLabel": "Evening open",
+      "universe": "sw",
+      "title": "Saturday family/society/movie space",
+      "lead": "Shivani",
+      "characters": [
+        "Shivani"
+      ],
+      "mentions": [],
+      "episode": "06 plot",
+      "scene": "SH06-SAT-EVENING",
+      "kind": "planned",
+      "state": "review",
+      "status": "UNBOOKED MOVIE OPTION",
+      "source": "shivani-episode-06-three-day-plot.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "shivani",
+        "part": "06",
+        "scene": "SH06-SAT-EVENING"
+      },
+      "flags": [
+        "Clock is proposed/index order unless explicitly source-confirmed."
+      ],
+      "detail": "No confirmed movie, household locations or Karan/Aman availability."
+    },
+    {
+      "id": "sh06-04-family",
+      "date": "2026-01-04",
+      "sort": "09:00",
+      "start": null,
+      "end": null,
+      "timeLabel": "Sunday morning open",
+      "universe": "sw",
+      "title": "Family and society — no mandatory class",
+      "lead": "Shivani",
+      "characters": [
+        "Shivani"
+      ],
+      "mentions": [],
+      "episode": "06 plot",
+      "scene": "SH06-SUN-MORNING",
+      "kind": "planned",
+      "state": "review",
+      "status": "OPEN",
+      "source": "shivani-episode-06-three-day-plot.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "shivani",
+        "part": "06",
+        "scene": "SH06-SUN-MORNING"
+      },
+      "flags": [
+        "Clock is proposed/index order unless explicitly source-confirmed."
+      ],
+      "detail": "Keep normal society contacts and Rohan/Tara care open."
+    },
+    {
+      "id": "sh06-04-group-a",
+      "date": "2026-01-04",
+      "sort": "11:30",
+      "start": null,
+      "end": null,
+      "timeLabel": "Late morning/afternoon candidate",
+      "universe": "sw",
+      "title": "Group A · Karan/Aman/Shivani romantic callback",
+      "lead": "Shivani",
+      "characters": [
+        "Shivani",
+        "Karan",
+        "Aman"
+      ],
+      "mentions": [],
+      "episode": "06 plot",
+      "scene": "SH06-SUN-GROUP-A",
+      "kind": "planned",
+      "state": "review",
+      "status": "PLOT APPROVED · DATE NOT LOCKED",
+      "source": "shivani-episode-06-three-day-plot.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "shivani",
+        "part": "06",
+        "scene": "SH06-SUN-GROUP-A"
+      },
+      "flags": [
+        "Clock is proposed/index order unless explicitly source-confirmed."
+      ],
+      "detail": "Pallu shift, Shivani's knowing smile, previous intimacy callback, mutually chosen affectionate reunion, playful ending and Kavya/double-timing joke. No fixed 11:30 appointment."
+    },
+    {
+      "id": "sh06-04-society",
+      "date": "2026-01-04",
+      "sort": "16:00",
+      "start": null,
+      "end": null,
+      "timeLabel": "Afternoon OPEN",
+      "universe": "sw",
+      "title": "Shivani other society encounters reserved",
+      "lead": "Shivani",
+      "characters": [
+        "Shivani"
+      ],
+      "mentions": [],
+      "episode": "06 plot",
+      "scene": "SH06-SUN-SOCIETY",
+      "kind": "planned",
+      "state": "review",
+      "status": "OPEN CAST / NO ENCOUNTER",
+      "source": "shivani-episode-06-three-day-plot.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "shivani",
+        "part": "06",
+        "scene": "SH06-SUN-SOCIETY"
+      },
+      "flags": [
+        "Clock is proposed/index order unless explicitly source-confirmed."
+      ],
+      "detail": "Gym, guards, milkman, elders, other husbands; compare household schedules first."
+    },
+    {
+      "id": "sh06-04-movie",
+      "date": "2026-01-04",
+      "sort": "19:00",
+      "start": null,
+      "end": null,
+      "timeLabel": "Weekend evening option",
+      "universe": "sw",
+      "title": "Friends' possible movie outing",
+      "lead": "Shared society",
+      "characters": [],
+      "mentions": [],
+      "episode": "06 plot",
+      "scene": "SH06-SUN-MOVIE",
+      "kind": "planned",
+      "state": "review",
+      "status": "NOT BOOKED / CAN MOVE TO SATURDAY",
+      "source": "shivani-episode-06-three-day-plot.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "shivani",
+        "part": "06",
+        "scene": "SH06-SUN-MOVIE"
+      },
+      "flags": [
+        "Clock is proposed/index order unless explicitly source-confirmed."
+      ],
+      "detail": "One conditional group movie slot, no confirmed cinema/participants."
+    },
+    {
+      "id": "sh06-05-bio",
+      "date": "2026-01-05",
+      "sort": "06:45",
+      "start": null,
+      "end": null,
+      "timeLabel": "Proposed 06:45–07:45",
+      "universe": "sw",
+      "title": "Group B · Ayaan/Armaan Biology class",
+      "lead": "Shivani",
+      "characters": [
+        "Shivani",
+        "Ayaan",
+        "Armaan"
+      ],
+      "mentions": [],
+      "episode": "06 plot",
+      "scene": "SH06-MON-BIO",
+      "kind": "planned",
+      "state": "review",
+      "status": "APPROVED ROUTINE · HOUR PROPOSED",
+      "source": "shivani-episode-06-three-day-plot.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "shivani",
+        "part": "06",
+        "scene": "SH06-MON-BIO"
+      },
+      "flags": [
+        "Clock is proposed/index order unless explicitly source-confirmed."
+      ],
+      "detail": "Real IIT JAM Biology, approved overhead-reach/waist slip belongs to a later session."
+    },
+    {
+      "id": "sh06-05-college",
+      "date": "2026-01-05",
+      "sort": "09:00",
+      "start": null,
+      "end": null,
+      "timeLabel": "Proposed 09:00–15:30",
+      "universe": "sw",
+      "title": "College Biology / February competition",
+      "lead": "Shivani",
+      "characters": [
+        "Shivani",
+        "Harsh",
+        "Laksh",
+        "Nandini",
+        "Ritika",
+        "Arjun"
+      ],
+      "mentions": [],
+      "episode": "06 plot",
+      "scene": "SH06-MON-COLLEGE",
+      "kind": "planned",
+      "state": "review",
+      "status": "APPROVED PLOT · HOUR PROPOSED",
+      "source": "shivani-episode-06-three-day-plot.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "shivani",
+        "part": "06",
+        "scene": "SH06-MON-COLLEGE"
+      },
+      "flags": [
+        "Clock is proposed/index order unless explicitly source-confirmed."
+      ],
+      "detail": "Harsh/Laksh/Nandini/Ritika/Arjun. Arts play paused. Home extra classes Tue/Thu/Sat."
+    },
+    {
+      "id": "sh06-05-faculty",
+      "date": "2026-01-05",
+      "sort": "16:00",
+      "start": null,
+      "end": null,
+      "timeLabel": "Proposed 16:00–17:45",
+      "universe": "sw",
+      "title": "Group D · faculty-only science seminar",
+      "lead": "Shivani",
+      "characters": [
+        "Shivani",
+        "Pooja",
+        "Kriti",
+        "Aarav"
+      ],
+      "mentions": [],
+      "episode": "06 plot",
+      "scene": "SH06-MON-FACULTY",
+      "kind": "planned",
+      "state": "review",
+      "status": "PROFESSIONAL PREP · PHYSICAL BEAT OPEN",
+      "source": "shivani-episode-06-three-day-plot.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "shivani",
+        "part": "06",
+        "scene": "SH06-MON-FACULTY"
+      },
+      "flags": [
+        "Clock is proposed/index order unless explicitly source-confirmed."
+      ],
+      "detail": "Pooja/Kriti/Aarav. Too-early three separate kisses deferred to Future Reference; new present physical milestone is not chosen."
+    },
+    {
+      "id": "sh06-05-home",
+      "date": "2026-01-05",
+      "sort": "18:10",
+      "start": null,
+      "end": null,
+      "timeLabel": "~18:10 onward",
+      "universe": "sw",
+      "title": "Family time, limited weekday society",
+      "lead": "Shivani",
+      "characters": [
+        "Shivani"
+      ],
+      "mentions": [],
+      "episode": "06 plot",
+      "scene": "SH06-MON-FAMILY",
+      "kind": "planned",
+      "state": "review",
+      "status": "OPEN / NO NIGHT SCENE LOCKED",
+      "source": "shivani-episode-06-three-day-plot.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "shivani",
+        "part": "06",
+        "scene": "SH06-MON-FAMILY"
+      },
+      "flags": [
+        "Clock is proposed/index order unless explicitly source-confirmed."
+      ],
+      "detail": "Rohan, Tara and family time; weekdays now busy."
+    },
+    {
+      "id": "sh06-06-group-c-follow-on",
+      "date": "2026-01-06",
+      "sort": "17:30",
+      "start": null,
+      "end": null,
+      "timeLabel": "Tue ~17:30–18:30 proposed",
+      "universe": "sw",
+      "title": "Group C · five-student home tuition",
+      "lead": "Shivani",
+      "characters": [
+        "Shivani",
+        "Harsh",
+        "Laksh",
+        "Arjun",
+        "Nandini",
+        "Ritika"
+      ],
+      "mentions": [],
+      "episode": "06 plot",
+      "scene": "FOLLOW-ON",
+      "kind": "planned",
+      "state": "review",
+      "status": "ACCIDENT BASE PLOT APPROVED",
+      "source": "shivani-episode-06-three-day-plot.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "shivani",
+        "part": "06",
+        "scene": "FOLLOW-ON"
+      },
+      "flags": [
+        "Clock is proposed/index order unless explicitly source-confirmed."
+      ],
+      "detail": "Biology chart/dupatta accident approved; distinct Harsh/Laksh/Arjun gaze and Nandini/Ritika active competitive responses retained. Outside Jan3–5 plot."
     }
   ],
   "sourcePolicy": " | Shreya January 3 working scenes SR10–SR13 were moved into the January 1 calendar by direct author instruction 2026-11-16, original plan archived in episode-03-shreya-plan-archive-jan03.json; no content removed from story source."
