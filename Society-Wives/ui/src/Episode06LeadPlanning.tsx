@@ -4,6 +4,11 @@ type Beat={id:string;title:string;plot?:string;action?:string};
 type PlanScene={id:string;order:number;title:string;dateCandidate?:string;time?:string;location?:string;status:string;purpose?:string;cast?:string[];beats?:Beat[];historyAnchors?:string[];existingAnchors?:string[];proseStatus?:string;publication?:string};
 type SlipProposal={status:string;relativePlacement:string;purpose:string;mechanism:string;reactions:Record<string,string>;continuity:string;reviewQuestion:string};
 type LeadPlan={title:string;lead:string;episode:string;status:string;authorDirection:string;sceneOrder:PlanScene[];marriageSetupLocks?:Record<string,unknown>;societyRoutine?:Record<string,string>;officeActiveWomen?:string[];officeOthers?:string;nextScenes?:string[];rules?:string[];karanAmanFirstAccidentalVisibilityProposal?:SlipProposal};
+type MentorMember={name:string;age?:number;profession?:string;sourceOccupation?:string;mentoringFit?:string;role?:string;expertise?:string};
+type MentorWindow={date:string;day:string;time:string;location:string;status:string};
+type MentorSlip={status:string;candidate?:string;mechanism?:string;reactionOrder?:string[];reactions?:string;reason?:string;novelty?:string};
+type MentorLane={id:string;label:string;kind:string;members:MentorMember[];frequency?:string;formalSessions?:string;project?:{name:string;objective:string;roles:Record<string,string>};firstWeekCandidates?:MentorWindow[];firstAccidentalSlipProposal?:MentorSlip;introduction?:string;outsideTechSession?:string;mentoringFit?:string;schedule?:string};
+type MentorPlan={title:string;status:string;authorPrinciples:string[];lanes:MentorLane[];scheduleCollisionPolicy:string[]};
 type Slot={window:string;use:string;participants:string[];status:string;notes?:string};
 type Availability={title:string;status:string;pair:{names:string[];relationship:string;priorScene:string;academics:Record<string,string>};fiveLeadLinks:{lead:string;status:string;existing:string;dateStatus:string}[];dailyFramework:{date:string;label:string;slots:Slot[]}[];schedulingRules:string[]};
 const routes=[{id:'ankita',label:'Ankita × Kabir'},{id:'shreya',label:'Shreya × Vikram'}];
@@ -11,6 +16,7 @@ const tidy=(s:string)=>s.replace(/_/g,' ');
 export default function Episode06LeadPlanning({lead}:{lead:'ankita'|'shreya'}){
  const {data:plan,loading,error}=useData<LeadPlan>(lead==='ankita'?'episode-06-ankita-plan.json':'episode-06-shreya-plan.json');
  const {data:twins,loading:twinsLoading,error:twinsError}=useData<Availability>('episode-06-karan-aman-shared-availability.json');
+ const {data:mentoring,loading:mentoringLoading,error:mentoringError}=useData<MentorPlan>('episode-06-ankita-mentoring-setup.json');
  return <main className="page-width" id={'episode06-plan-'+lead}>
   <header className="section-intro"><span className="eyebrow">Story Plot · Episode 06 · 3–5 January 2026</span>
    <h1>{lead==='ankita'?'Ankita':'Shreya'} · Marriage first</h1>
@@ -35,7 +41,27 @@ export default function Episode06LeadPlanning({lead}:{lead:'ankita'|'shreya'}){
     </details>)}
    </section>
    {lead==='ankita'&&<section className="episode-plan-card" id="ep06-office-cast"><h2>Ankita office group · active cast</h2><p>Female colleagues: <strong>{plan.officeActiveWomen?.join(' and ')}</strong>. Vivan–Reyansh are a workplace design duo, not biological twins. All other tentative female office names are archived historically, but excluded from new EP06 participation.</p><p>{plan.officeOthers}</p><p><strong>2 January missed walk:</strong> {plan.societyRoutine?.jan02MissedReason}</p></section>}
-   {lead==='ankita'&&plan.karanAmanFirstAccidentalVisibilityProposal&&<section className="episode-plan-card" id="ep06-twin-accident-proposal"><h2>Karan–Aman · first accidental wardrobe shift (proposal only)</h2><p><strong>{tidy(plan.karanAmanFirstAccidentalVisibilityProposal.status)}</strong></p><p>{plan.karanAmanFirstAccidentalVisibilityProposal.mechanism}</p><p><strong>Why here:</strong> {plan.karanAmanFirstAccidentalVisibilityProposal.purpose}</p>{Object.entries(plan.karanAmanFirstAccidentalVisibilityProposal.reactions).map(([name,reaction])=><p key={name}><strong>{name}:</strong> {reaction}</p>)}<p className="muted">{plan.karanAmanFirstAccidentalVisibilityProposal.continuity}</p><p><strong>Awaiting discussion:</strong> {plan.karanAmanFirstAccidentalVisibilityProposal.reviewQuestion}</p></section>}
+   {lead==='ankita'&&<section className="episode-plan-card" id="ep06-ankita-mentor-lanes"><h2>Ankita's three separate pair tracks · schedule under review</h2>
+    <p>Household Karan–Aman are already in daily contact with Ankita. Only long structured practice and outside meetings require calendar bookings. An office design duo is not biological twins, and the JAM study pair is separate.</p>
+    {mentoringLoading&&<p role="status">Loading learning paths…</p>}
+    {mentoringError&&<p role="alert" className="error">{mentoringError}</p>}
+    {mentoring&&<><p className="muted"><strong>Source status:</strong> {tidy(mentoring.status)}</p>
+     {mentoring.lanes.map((lane,i)=><details className="episode-outline" key={lane.id} open={i===0} id={'ep06-mentor-'+lane.id}>
+      <summary><strong>{lane.label}</strong> · {tidy(lane.kind)}</summary>
+      <p><strong>Participants:</strong> {lane.members.map(x=>x.name).join(' · ')}</p>
+      {lane.mentoringFit&&<p><strong>Ankita's credible fit:</strong> {lane.mentoringFit}</p>}
+      {lane.frequency&&<p><strong>Cadence:</strong> {lane.frequency}</p>}
+      {lane.formalSessions&&<p><strong>Structured sessions:</strong> {lane.formalSessions}</p>}
+      {lane.introduction&&<p><strong>First connection:</strong> {lane.introduction}</p>}
+      {lane.project&&<><p><strong>Legitimate project:</strong> {lane.project.name} — {lane.project.objective}</p>{Object.entries(lane.project.roles).map(([name,role])=><p key={name}><strong>{name}:</strong> {role}</p>)}</>}
+      {lane.outsideTechSession&&<p><strong>HR role:</strong> {lane.outsideTechSession}</p>}
+      {lane.schedule&&<p><strong>Study constraint:</strong> {lane.schedule}</p>}
+      {lane.firstWeekCandidates&&<><h3>First-week session suggestions — not booked</h3>{lane.firstWeekCandidates.map(w=><p key={w.date}><strong>{w.day} {w.date} · {w.time}:</strong> {w.location} · {tidy(w.status)}</p>)}</>}
+      {lane.firstAccidentalSlipProposal&&<><h3>Accidental moment · {tidy(lane.firstAccidentalSlipProposal.status)}</h3>{lane.firstAccidentalSlipProposal.candidate&&<p><strong>When:</strong> {lane.firstAccidentalSlipProposal.candidate}</p>}{lane.firstAccidentalSlipProposal.mechanism&&<p><strong>Staging:</strong> {lane.firstAccidentalSlipProposal.mechanism}</p>}{lane.firstAccidentalSlipProposal.reactionOrder?.map((r,i)=><p key={i}><strong>Reaction {i+1}:</strong> {r}</p>)}{lane.firstAccidentalSlipProposal.reactions&&<p>{lane.firstAccidentalSlipProposal.reactions}</p>}{lane.firstAccidentalSlipProposal.reason&&<p><strong>Why reserved:</strong> {lane.firstAccidentalSlipProposal.reason}</p>}</>}
+     </details>)}
+     <p className="muted">Canonical source: <a href="https://github.com/developer-fandom-rush/DHIKA_STORY/blob/main/Society-Wives/episode-06-ankita-mentoring-setup.json" target="_blank" rel="noreferrer">Ankita's three-pair mentoring plan</a>. All newly proposed times and wardrobe beats require author confirmation.</p></>}
+   </section>}
+      {lead==='ankita'&&plan.karanAmanFirstAccidentalVisibilityProposal&&<section className="episode-plan-card" id="ep06-twin-accident-proposal"><h2>Karan–Aman · first accidental wardrobe shift (proposal only)</h2><p><strong>{tidy(plan.karanAmanFirstAccidentalVisibilityProposal.status)}</strong></p><p>{plan.karanAmanFirstAccidentalVisibilityProposal.mechanism}</p><p><strong>Why here:</strong> {plan.karanAmanFirstAccidentalVisibilityProposal.purpose}</p>{Object.entries(plan.karanAmanFirstAccidentalVisibilityProposal.reactions).map(([name,reaction])=><p key={name}><strong>{name}:</strong> {reaction}</p>)}<p className="muted">{plan.karanAmanFirstAccidentalVisibilityProposal.continuity}</p><p><strong>Awaiting discussion:</strong> {plan.karanAmanFirstAccidentalVisibilityProposal.reviewQuestion}</p></section>}
       {lead==='shreya'&&<section className="episode-plan-card" id="ep06-shreya-next"><h2>After the marriage opening</h2><ul>{(plan.nextScenes||[]).map((s,i)=><li key={i}>{s}</li>)}</ul></section>}
   </>}
   <section className="episode-plan-card" id="ep06-twin-calendar"><h2>Karan–Aman · shared 3-day availability (soft holds)</h2><p>One twin pair across five female leads, with Kavya's separate approved bridge. Provisional windows prevent conflicts, but are <strong>not confirmed visits</strong>.</p>
