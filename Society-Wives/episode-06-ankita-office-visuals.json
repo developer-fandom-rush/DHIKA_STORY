@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "SW-ANKITA-EP06-WEDNESDAY-OFFICE-VISUAL-REFERENCES",
+  "title": "Ankita Episode 06 — Office Duo Wednesday Home Visit Visual References",
+  "storyDate": "2026-01-07",
+  "scene": "ANK06-S04-OFFICE",
+  "status": "AUTHOR_APPROVED_PLOT__ILLUSTRATIVE_VISUALS__FULL_RESOLUTION_ORIGINALS_IN_CONVERSATION",
+  "location": "Malhotra home · work corner",
+  "imagePolicy": "User requested both approved illustration alternatives to be shown in Episode06 planning UI. Each is a compressed 320×180 preview embedded in SVG; original source PNGs remain in the originating ChatGPT conversation. Images are illustrative alternatives, not two locked sequential frames. Do not treat inconsistent clothing/face approximations as canonical.",
+  "assets": [
+    {
+      "number": 1,
+      "title": "The unexpected overshirt shift",
+      "path": "assets/ankita-ep06-office-slip-01.svg",
+      "mediaType": "image/svg+xml",
+      "previewSize": "320x180",
+      "description": "Group around a monitor in a private home workspace, with Ankita's loose overshirt shifted and the group reacting.",
+      "status": "VISUAL_REFERENCE_ONLY"
+    },
+    {
+      "number": 2,
+      "title": "Regaining composure at the workstation",
+      "path": "assets/ankita-ep06-office-slip-02.svg",
+      "mediaType": "image/svg+xml",
+      "previewSize": "320x180",
+      "description": "Ankita near the monitor, office teammates responding, loose overshirt falling off shoulder over an inner top.",
+      "status": "VISUAL_REFERENCE_ONLY"
+    }
+  ],
+  "continuity": {
+    "officeGuests": [
+      "Vivan",
+      "Reyansh",
+      "Sana",
+      "Aishwarya"
+    ],
+    "transport": "Reyansh's five-seater car, matching approved 1 Jan ride",
+    "wardrobe": "Canon only: sleeveless inner top + loose open overshirt + trousers; exact colors/fit of visuals are not outfit locks",
+    "behavior": "No forced intimate exposure; she fixes outer clothing herself, colleagues refocus on the project."
+  },
+  "notFinalProse": true
+}
