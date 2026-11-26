@@ -39,6 +39,17 @@
       "frequency": "Daily ordinary contact; 10–20-minute doubts or banter when both available, not a booked daily class.",
       "formalSessions": "Saturday 3 Jan morning fitness challenge candidate; Monday 5 Jan ~20:00–20:25 optional Aman Java mock after dinner only if Ankita free; Mon/Wed/Fri small Aman study blocks after actual hours known.",
       "firstAccidentalSlipProposal": {
+        "status": "USER_REJECTED_GYM_BAG_STRAP_IDEA__NOT_IN_JAN3_PLAN",
+        "candidate": "No accidental wardrobe moment assigned to Saturday, 3 January",
+        "mechanism": "Withdrawn. No replacement scene or visual exposure has been selected.",
+        "reactionOrder": [
+          "Karan: react to workout banter/challenge naturally, not to an invented wardrobe incident.",
+          "Aman: continue Java preparation and respect already established Jan1 scooter boundary.",
+          "Ankita: retain natural family comfort; no invented slip to manufacture escalation."
+        ],
+        "novelty": "The pair's previous family and scooty history remains canon, independent of a new accident."
+      },
+      "rejectedFormerSlipProposal": {
         "status": "EDITOR_PROPOSAL__NOT_APPROVED",
         "candidate": "Saturday 3 Jan after push-up game in society gym/common exercise corner",
         "mechanism": "Ankita reaches for a rolled mat or bag. A loose outer athletic layer catches briefly on its strap and slips slightly across one shoulder, showing the upper-back line and sport top beneath. She adjusts the outfit herself immediately; do not invent exposure of intimate areas or physical assistance.",
@@ -215,5 +226,5 @@
     "Ankita × office technical group: Monday kickoff only if approved",
     "Shivani-based JAM mentorship contact for Ankita technical CBT role optional, no invented physics class"
   ],
-  "nextAuthorDecision": "Approve or revise Karan/Aman first mild accidental gym strap/outerwear moment, including which twin sees it first. Then choose details of the technical after-hours project and proposed weekly schedule."
+  "nextAuthorDecision": "Discuss only Jan 3 encounter chronology: first Ankita/Kabir marriage scene, existing Saturday morning reaction, Shreya comparison, Ankita walk, pending Karan challenge, optional Aman Java questions. No gym-bag strap scene. Propose time windows for review; do not lock them without author approval."
 }
