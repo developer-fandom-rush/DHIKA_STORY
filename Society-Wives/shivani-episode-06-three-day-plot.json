@@ -144,21 +144,23 @@
         {
           "id": "SH06-SUN-KAVYA-BRIDGE",
           "time": "Late afternoon candidate only; after Group A if both happen same day; no rigid clock",
-          "title": "Kavya × Karan/Aman — first conscious romantic/physical bridge",
-          "status": "EDITORIAL_SOLUTION_SELECTED__AUTHOR_REVIEW_BEFORE_LOCKING",
+          "title": "Kavya × Karan–Aman — approved No-Touch Visual Bridge",
+          "status": "AUTHOR_APPROVED_SIX_BEAT_PLOT__CLOCK_AND_HOUSEHOLD_AVAILABILITY_OPEN",
           "people": [
             "Kavya",
             "Karan",
             "Aman"
           ],
           "actions": [
-            "This is a follow-up to their actual introduction on 1 Jan, NOT their first-ever encounter. Kavya is Shivani's adult younger sister; she did not witness all private details of Shivani and the brothers, and is not omniscient.",
-            "Natural entry: the three cross paths in the shared society courtyard/foyer returning from normal errands. No new rehearsal, forced Biology tutoring or identical office/society setup.",
-            "Kavya recognizes both brothers' separate interest. She starts witty teasing herself, asking how each of them plans to distinguish himself rather than making a generic 'same twins' recognition joke.",
-            "First PHYSICAL BRIDGE, her own chosen gesture: Kavya reaches toward both brothers' hands, each accepts a brief mutually welcome handhold; while walking a short stretch, she hooks an arm lightly with each. This is public, ordinary clothed affectionate contact, not a kiss or garment slip.",
-            "Karan responds with an openly teasing line and playful pace; Aman answers more sparingly but unexpectedly directs a personal observation to Kavya, causing her to look back at him even after they let go. She thought she controlled the joke; she now notices genuine different chemistry with each.",
-            "They exchange a practical way to communicate—individual phone contacts or a shared group chat only if each willingly agrees—allowing later meetings without contrived assignments. Kavya's pre-existing Deepu spark stays real; no exclusive relationship with anyone is declared.",
-            "Knowledge: Shivani learns only what is actually shared; she does not silently witness the touch. Karan/Aman keep the earlier Shivani encounter history separate. Three-person first bridge is a PLOT PROPOSAL, not final author-locked prose."
+            "Continuity: Kavya (adult, 24) already met Karan and Aman (both 22) on 1 January, and has an earlier genuine spark with Deepu. This is a new meeting, not a first introduction. Shivani's separate private encounters with the twins are not automatically known to Kavya.",
+            "BEAT 1 — Earned chemistry: After a normal society errand, the three walk towards Kavya's doorway. Karan offers confident predictable compliments. Kavya challenges him for seeing only appearances; Aman notices she wants to be understood, not simply praised. Kavya responds to Aman recognizing her intention.",
+            "BEAT 2 — Two individual challenges: Kavya asks who understands her better. Karan confidently expects to surprise her; Aman leaves room for her own choice. She turns their answers into a playful challenge: one expects to surprise her, one anticipates she may be the one who surprises them.",
+            "BEAT 3 — Deliberate visual reveal at a private threshold: Kavya steps inside her own doorway, facing away from both adults, and briefly removes her upper shirt so only her bare back, shoulders and natural posture are seen from behind, with her front fully obscured by her orientation and the doorway. The sightline is modest, tasteful and non-explicit; no chest or frontal nudity. Warm interior light outlines shoulder blades and the gentle line of her back as she reaches one hand up to the doorway.",
+            "BEAT 4 — Karan's specific response: His usual effortless joking rhythm stops mid-reply; he is visibly surprised by her confidence and understands he misread who would control the ending. He gathers himself to acknowledge that she genuinely surprised him.",
+            "BEAT 5 — Aman's distinct response: He notices the deliberate gesture but, unlike Karan, reads the challenge beneath it. When she asks why he is quiet, he calmly observes that she wanted both brothers to remember her farewell. This thoughtful answer creates genuine pause for Kavya as well.",
+            "BEAT 6 — Unfinished farewell: Kavya laughs, says she has finally left both brothers without prepared replies and wishes them good night. Karan accepts the challenge; Aman returns a quiet personal counter-challenge for their next conversation. She smiles, closes the door, and the brothers exchange a brief remark outside; Karan acknowledges being surprised, while Aman says remaining quiet did not mean he was unmoved.",
+            "Consequence: This is a character-driven No-Touch Visual Bridge, based on banter, surprise and different reactions. It does not establish exclusivity with either brother or erase Deepu. Neither brother enters the flat; the scene ends at Kavya's chosen boundary. No future escalation is automatically approved.",
+            "Status gate: plot/action–reaction sequence author-approved 26 Nov 2026; exact Sunday slot, her precise prior garment, other people in the vicinity, and Karan/Aman's household availability remain unconfirmed until five-lead society scheduling review."
           ]
         },
         {
@@ -297,7 +299,7 @@
   ],
   "open": [
     "Group D physical encounter",
-    "Kavya–Karan/Aman first bridge now SELECTED FOR AUTHOR REVIEW (Sun Jan 4 candidate), not final prose: she initiates distinctive warm handholds/short linked-arm walk with both, and they establish voluntary contact for follow-ups. Deepu interest remains. After approval, freeze exact location/clock; do not auto-retcon first Jan1 introduction.",
+    "Kavya/Karan–Aman six-beat no-touch doorway visual bridge PLOT APPROVED; exact Jan4 candidate timing, twins' Ankita-household availability and other witnesses pending society five-household gate. Supersedes earlier handholding/linked-arm proposal; no prose/publication yet.",
     "Society personnel/husbands' clocks, family care, cinema option",
     "Meenakshi Chemistry timing, qualifications, Feb visit dates",
     "EP05 source/readers inconsistently frozen; preserve separate statuses"
@@ -430,15 +432,26 @@
     }
   ],
   "kavyaBridge": {
-    "status": "EDITOR_SELECTED_FIRST_BRIDGE__AUTHOR_REVIEW_PENDING",
+    "status": "AUTHOR_APPROVED_SIX_BEAT_NO_TOUCH_VISUAL_BRIDGE__CLOCK_NOT_FINAL",
+    "name": "Earned Visual Reveal + Two Distinct Reactions + Unfinished Farewell",
     "dateCandidate": "2026-01-04",
-    "history": "Kavya met the brothers on 1 Jan via Shivani; already sparked with Deepu. Shivani/Karan/Aman prior private closeness is NOT automatically known by Kavya.",
-    "setting": "Ordinary social encounter in shared courtyard/foyer, after separate Shivani encounter if on same day; no repetitive performance rehearsal or staged tuition.",
+    "history": "Kavya (24), younger sister of Shivani, already met Karan/Aman on Jan 1; independently has a prior Deepu spark. Karan/Aman twins (22) have private history with Shivani that Kavya does not automatically know.",
+    "setting": "Ordinary society return to Kavya's personal doorway, with only the two brothers present and not other adults or children; exact day/household positioning to confirm.",
     "activeInitiator": "Kavya",
-    "firstPhysicalBridge": "A short mutually welcome handhold with each brother and, as they walk a few steps together, a light arm-linked three-person walk. Clothing stays ordinary; no accidental show or kiss.",
-    "differentiatedResponse": "Karan responds with confident spoken teasing; Aman offers one quieter, unusually direct personal observation that catches Kavya off guard. Her own reaction shows mutual attraction can develop, not just her teasing them.",
-    "nextConnection": "They can mutually exchange phone contacts as a credible recurring setup, with no invented exclusivity or automatic group chat.",
-    "continuity": "Deepu spark preserved. Karan/Aman's previous personal history with Shivani remains separate; timing must be checked against Ankita's household and possible movie plan."
+    "firstPhysicalBridge": "A no-touch visual bridge: from within her private doorway, Kavya briefly removes her upper shirt while facing away; an unobstructed adult bare back is visible but her front is not. She controls the brief glimpse and teasing farewell; no physical contact or kiss.",
+    "differentiatedResponse": "Karan's habitual smooth compliment stops in surprise; he admits she outsmarted his prediction. Aman remains composed and recognizes that she intentionally wanted to leave both with a memorable farewell. Kavya momentarily pauses at his perceptive response.",
+    "nextConnection": "Her parting line challenges both to be better prepared next time; Karan accepts, Aman answers with his own quiet challenge. Contact arrangements can be negotiated later, not invented as already exchanged.",
+    "continuity": "Warm, non-graphic romantic plot. Deepu interest remains. The same-day Shivani–twins candidate and other household schedules must be checked; no invented exclusive relationship or permission for further intimacy.",
+    "beats": [
+      "BEAT 1 — Earned chemistry: After a normal society errand, the three walk towards Kavya's doorway. Karan offers confident predictable compliments. Kavya challenges him for seeing only appearances; Aman notices she wants to be understood, not simply praised. Kavya responds to Aman recognizing her intention.",
+      "BEAT 2 — Two individual challenges: Kavya asks who understands her better. Karan confidently expects to surprise her; Aman leaves room for her own choice. She turns their answers into a playful challenge: one expects to surprise her, one anticipates she may be the one who surprises them.",
+      "BEAT 3 — Deliberate visual reveal at a private threshold: Kavya steps inside her own doorway, facing away from both adults, and briefly removes her upper shirt so only her bare back, shoulders and natural posture are seen from behind, with her front fully obscured by her orientation and the doorway. The sightline is modest, tasteful and non-explicit; no chest or frontal nudity. Warm interior light outlines shoulder blades and the gentle line of her back as she reaches one hand up to the doorway.",
+      "BEAT 4 — Karan's specific response: His usual effortless joking rhythm stops mid-reply; he is visibly surprised by her confidence and understands he misread who would control the ending. He gathers himself to acknowledge that she genuinely surprised him.",
+      "BEAT 5 — Aman's distinct response: He notices the deliberate gesture but, unlike Karan, reads the challenge beneath it. When she asks why he is quiet, he calmly observes that she wanted both brothers to remember her farewell. This thoughtful answer creates genuine pause for Kavya as well.",
+      "BEAT 6 — Unfinished farewell: Kavya laughs, says she has finally left both brothers without prepared replies and wishes them good night. Karan accepts the challenge; Aman returns a quiet personal counter-challenge for their next conversation. She smiles, closes the door, and the brothers exchange a brief remark outside; Karan acknowledges being surprised, while Aman says remaining quiet did not mean he was unmoved."
+    ],
+    "approvalSource": "Author explicitly approved the six-beat version and asked to save it on 26 November 2026.",
+    "supersedes": "Earlier linked-arm/handholding bridge was a proposal only and is now superseded; it is NOT part of the approved current bridge."
   },
   "referenceSource": {
     "groupsFullLedger": "https://docs.google.com/document/d/1c4SSeRtuTWI91Kt990rdF370ia6MdyMwo4gQqQ08xDw/edit",
