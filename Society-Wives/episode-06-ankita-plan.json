@@ -7,7 +7,7 @@
     "2026-01-03",
     "2026-01-05"
   ],
-  "status": "SCENE01_MARRIAGE_FOUNDATION_ORDER_AUTHOR_LOCKED__PLOT_DETAILS_FOR_DISCUSSION__REST_OPEN",
+  "status": "MARRIAGE_OPENING_AUTHOR_LOCKED__KARAN_AMAN_HOME_PLOT_AND_OFFICE_VISIT_AUTHOR_APPROVED__CROSS_LEAD_CLOCKS_PENDING",
   "title": "Ankita — Three Days · Marriage First, Then Discovery and Twin Guidance",
   "authorDirection": "The FIRST scene of Ankita's EP06 must be Ankita × Kabir marriage foundation; do not start with Uncle discovery, workout, or office. John–Dhika narrative-function parallel okay, but retain Ankita/Kabir's own personality and established marriage. Scenes after opening remain discussion-only.",
   "sceneOrder": [
@@ -79,8 +79,59 @@
     {
       "id": "ANK06-S04-OFFICE",
       "order": 4,
-      "title": "Office duo Vivan–Reyansh + Sana–Aishwarya cross-functional upskilling at home",
-      "status": "CAST_APPROVED__TUITION_REASON_AND_RETURN_TRAVEL_DISCUSSION_OPEN"
+      "title": "Office group · Monday kickoff, Aishwarya's HR favour & Wednesday home visit",
+      "status": "AUTHOR_APPROVED_SCENE_PLOT__TIMES_CANDIDATE__PROSE_UNWRITTEN",
+      "dateCandidate": "2026-01-05; continuation 2026-01-07 and optionally 2026-01-09",
+      "time": "Monday lunch Aishwarya request (clock open); Monday office 18:10–19:00 candidate; Wednesday home 19:15–20:15 candidate",
+      "location": "Cyber City office → Wednesday Malhotra household home work corner",
+      "cast": [
+        "Ankita",
+        "Vivan",
+        "Reyansh",
+        "Sana Khan",
+        "Aishwarya Rao",
+        "Karan",
+        "Aman (possible brief cameo)",
+        "Kabir (household discussion)"
+      ],
+      "purpose": "A credible office project unites four colleagues at home while giving Aishwarya an independent reason to advise Ankita's brother-in-law Karan. Preserve Reyansh's existing five-seat car and the non-graphic overshirt slip; no motorcycle.",
+      "beats": [
+        {
+          "id": "OFF01",
+          "title": "Monday lunch — Aishwarya & Karan favour",
+          "plot": "Ankita asks HR colleague Aishwarya to help Karan, Kabir's younger twin brother, with CV review, MBA-related presentations and mock interviews. Aishwarya is willing after a proper introduction. Keep 1 Jan briefing callback light and separate; Karan is not at office lunch."
+        },
+        {
+          "id": "OFF02",
+          "title": "Monday 18:10–19:00 — team project kickoff",
+          "plot": "Ankita leads Java REST/API architecture discussion for a sample appointment portal; Vivan and Reyansh handle design/workflow; Sana owns QA and negative test cases. Time remains tentative."
+        },
+        {
+          "id": "OFF03",
+          "title": "Monday/Tuesday — Kabir home guest scheduling",
+          "plot": "Ankita consults Kabir about having four visiting office colleagues and Karan's interview conversation at their shared home. No asserted profession, shift, or unearned automatic consent."
+        },
+        {
+          "id": "OFF04",
+          "title": "Wednesday — Reyansh's five-seat car",
+          "plot": "Same car and seats as approved 1 Jan outing: Reyansh driver; Aishwarya front passenger; Vivan, Ankita and Sana back. Four colleagues arrive together; no four-person bike ride."
+        },
+        {
+          "id": "OFF05",
+          "title": "Wednesday — home tour and parallel mentoring",
+          "plot": "Ankita shows normal living/dining/workspace; Karan/Aishwarya meet properly for HR career advice; Vivan/Reyansh/Sana and Ankita set up sample portal demo. Aman can naturally raise a Java QA question if present."
+        },
+        {
+          "id": "OFF06",
+          "title": "Wednesday — incidental outer-layer slip",
+          "plot": "While connecting monitor cable at the work corner, Ankita's loose overshirt catches on chair arm and slips off one shoulder. Her sleeveless inner top stays worn. She adjusts it herself; Vivan surprised, Reyansh fixes cable, Sana gestures discreetly, Aishwarya returns group to work. Non-graphic and no surprise touch."
+        },
+        {
+          "id": "OFF07",
+          "title": "Friday — optional professional check-in",
+          "plot": "An office or online project review of UI/API/QA updates; time and outcome still optional, no extra on-page scene currently locked."
+        }
+      ]
     },
     {
       "id": "ANK06-S05-CROSS-MENTORS",
