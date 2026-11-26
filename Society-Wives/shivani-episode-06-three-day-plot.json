@@ -1,0 +1,282 @@
+{
+  "schemaVersion": 1,
+  "episode": "06",
+  "lead": "Shivani",
+  "title": "Shivani · Episode 06 · Jan 3–5 Three-Day Plot Map",
+  "dateRange": [
+    "2026-01-03",
+    "2026-01-05"
+  ],
+  "status": "PLOT_FOUNDATIONS_A_B_C_AUTHOR_APPROVED__D_KAVYA_SOCIETY_OPEN__NOT_PROSE",
+  "policy": "Plot approval preserves future storytelling possibilities; existing 1–2 Jan and already-written 3 Jan Uncle scenes remain unchanged. No existing prose overwritten.",
+  "pre06Audit": [
+    {
+      "lead": "Ankita",
+      "source": "EP04B reader 01–03; EP05 combined Ankita–Shreya working reader",
+      "status": "READER_EXISTS__EDITORIAL_FREEZE_SEPARATE",
+      "constraint": "Ankita and Karan's Saturday push-up challenge remains a timing check; EP05 Jan 3 morning reaction present."
+    },
+    {
+      "lead": "Shreya",
+      "source": "EP04B reader; EP05 combined working reader",
+      "status": "READER_EXISTS__NOT_FULLY_FROZEN",
+      "constraint": "2 Jan EP05 Chintu/Arvind/family and Jan 3 reactions cannot be overwritten."
+    },
+    {
+      "lead": "Shivani",
+      "source": "EP04B office plan; EP05 Meenakshi–Shivani working Doc",
+      "status": "PLOT_SOURCE_OR_WORKING_READER__AUTHOR_TREATS_JAN02_COVERED",
+      "constraint": "Jan 3 morning Uncle sequence already written; do not duplicate or invent the clock."
+    },
+    {
+      "lead": "Meenakshi",
+      "source": "EP04B mixed source; EP05 cross-Uncle working Doc",
+      "status": "MIXED_APPROVED_BEATS_AND_WORKING_DRAFT",
+      "constraint": "Chemistry/medical concepts mentoring can be accepted by phone, but hospital availability remains open."
+    },
+    {
+      "lead": "Taniya",
+      "source": "EP04B working reader; EP05 separate working Doc",
+      "status": "WORKING_DOC__NOT_IMPORTED_OR_FROZEN",
+      "constraint": "Maths help optional; Soniya is supporting sister, not main lead."
+    }
+  ],
+  "days": [
+    {
+      "date": "2026-01-03",
+      "label": "Saturday — society foundation",
+      "blocks": [
+        {
+          "id": "SH06-SAT-UNCLE",
+          "time": "Morning, source clock pending",
+          "title": "Already-written Uncle morning",
+          "status": "PRESERVE_EXISTING_PROSE",
+          "people": [
+            "Shivani",
+            "Existing Uncle cast"
+          ],
+          "actions": [
+            "Do not re-create this scene or overwrite older morning. Cross-check the manuscript before scheduling after it."
+          ]
+        },
+        {
+          "id": "SH06-SAT-OPEN",
+          "time": "After existing morning, time open",
+          "title": "Open society interactions",
+          "status": "RESERVED_NOT_BOOKED",
+          "people": [
+            "Shivani",
+            "Gym trainers / guards / milkman / older men / husbands TBD"
+          ],
+          "actions": [
+            "Family and other four leads' location must be known first; no automatic flirting or physical contact."
+          ]
+        },
+        {
+          "id": "SH06-SAT-AYAAN",
+          "time": "Afternoon candidate, NOT fixed time",
+          "title": "Ayaan–Armaan ask for IIT JAM BT Biology tuition",
+          "status": "PLOT_FOUNDATION_APPROVED__CLOCK_OPEN",
+          "people": [
+            "Shivani",
+            "Ayaan",
+            "Armaan"
+          ],
+          "actions": [
+            "Existing society event/printing helpers propose Life Sciences/Biotechnology graduation background; confirm qualification/registration before canon.",
+            "Shivani primary Biology mentor. She calls Meenakshi about Chemistry/medical practical examples; Meenakshi agrees in principle, timetable deliberately postponed.",
+            "Taniya possible Mathematics, Ankita conditional Physics, Shreya exam strategy; none auto-booked.",
+            "NO old chart-cabinet accident; raised-arm waist/navel slip belongs to later lesson."
+          ]
+        },
+        {
+          "id": "SH06-SAT-EVENING",
+          "time": "Evening open",
+          "title": "Friends, family and optional cinema slot",
+          "status": "UNSCHEDULED",
+          "people": [
+            "Shivani",
+            "Others after cross-lead checks"
+          ],
+          "actions": [
+            "No confirmed movie/showtime or husbands' attendance; possibility may move to Sunday.",
+            "Karan's pending Ankita fitness challenge must not conflict."
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-01-04",
+      "label": "Sunday — society and relationships",
+      "blocks": [
+        {
+          "id": "SH06-SUN-MORNING",
+          "time": "Morning flexible",
+          "title": "Home, family and society",
+          "status": "OPEN",
+          "people": [
+            "Shivani",
+            "Rohan",
+            "Tara",
+            "Society people TBD"
+          ],
+          "actions": [
+            "No compulsory Sunday biology class; space for normal society connections and family."
+          ]
+        },
+        {
+          "id": "SH06-SUN-GROUP-A",
+          "time": "Late morning/afternoon OPTION",
+          "title": "Karan–Aman with Shivani — Group A",
+          "status": "AUTHOR_APPROVED_PLOT__NOT_FIXED_DATE",
+          "people": [
+            "Shivani",
+            "Karan",
+            "Aman"
+          ],
+          "actions": [
+            "Continuity: Jan1 handholds, Aman neck kiss and close contact, followed by Shivani's 'I liked it'.",
+            "Brief pallu slip, Shivani's knowing smile; brothers contrast sudden glimpse with earlier intentionally chosen intimacy.",
+            "Author-approved next romance includes chosen repeated affection and a playful stopping moment controlled by Shivani; retain possibilities for later prose rather than flattening to verbal banter.",
+            "She jokes about Kavya and 'double timing'; not literal cheating. Check Ankita/Kavya/households before fixing Sunday time."
+          ]
+        },
+        {
+          "id": "SH06-SUN-SOCIETY",
+          "time": "Afternoon flexible",
+          "title": "Non-twin society encounters reserved",
+          "status": "OPEN",
+          "people": [
+            "Shivani",
+            "Staff, friends' husbands and elders TBD"
+          ],
+          "actions": [
+            "Different households and men must first be reconciled; not an approved new scene."
+          ]
+        },
+        {
+          "id": "SH06-SUN-MOVIE",
+          "time": "Weekend evening option",
+          "title": "Group movie possibility",
+          "status": "RESERVED_NOT_BOOKED",
+          "people": [
+            "Friends and partners TBD"
+          ],
+          "actions": [
+            "Cinema, exact date/time and travel not confirmed; can shift to Saturday."
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-01-05",
+      "label": "Monday — college routine",
+      "blocks": [
+        {
+          "id": "SH06-MON-BIO",
+          "time": "06:45–07:45 draft",
+          "title": "Ayaan–Armaan morning Biology",
+          "status": "REGULAR_ROUTINE_PLOT__HOUR_PROPOSED",
+          "people": [
+            "Shivani",
+            "Ayaan",
+            "Armaan"
+          ],
+          "actions": [
+            "Real JAM BT Biology lesson; proposed Mon/Wed/Fri morning + Sat later morning, not seven days.",
+            "The Group B approved accident—raising arms shifts top hem and briefly reveals waist/navel/hip, with two differing glances and Shivani hesitation—is reserved for a subsequent lesson, NOT this first class."
+          ]
+        },
+        {
+          "id": "SH06-MON-COLLEGE",
+          "time": "09:00–15:30 proposed",
+          "title": "Biology lectures + February inter-college competition setup",
+          "status": "PLOT_APPROVED__HOURS_PROPOSED",
+          "people": [
+            "Shivani",
+            "Harsh",
+            "Laksh",
+            "Nandini",
+            "Ritika",
+            "Arjun"
+          ],
+          "actions": [
+            "Scientific topics and February 5–6 day competition preparation, separate from IIT JAM 15 Feb. Existing college drama play paused, not erased.",
+            "Five students' home tuition Tue/Thu 17:30–18:30 and Sat 16:30–17:30 proposed; none Monday."
+          ]
+        },
+        {
+          "id": "SH06-MON-FACULTY",
+          "time": "16:00–17:45 proposed",
+          "title": "Faculty-only science seminar work — Group D",
+          "status": "PLOT_SETUP_APPROVED__PHYSICAL_BEAT_OPEN",
+          "people": [
+            "Shivani",
+            "Pooja",
+            "Kriti",
+            "Aarav"
+          ],
+          "actions": [
+            "Authentic models, slides, non-invasive demonstrations. Aarav remains an English lecturer in science communication.",
+            "Established bold banter is background; new immediate physical escalation remains undecided.",
+            "Separate three-first-kiss sequence moved to Shivani Future Reference, NOT Monday."
+          ]
+        },
+        {
+          "id": "SH06-MON-FAMILY",
+          "time": "Around 18:10 onward",
+          "title": "Family/rest, narrower society access",
+          "status": "OPEN",
+          "people": [
+            "Shivani",
+            "Rohan",
+            "Tara",
+            "Kavya where present"
+          ],
+          "actions": [
+            "Busy weekday: do not auto-insert major society encounters or movie."
+          ]
+        }
+      ]
+    }
+  ],
+  "groups": [
+    {
+      "group": "A",
+      "status": "PLOT APPROVED",
+      "placement": "Potential Jan4 society window, not locked",
+      "summary": "Known intimacy; new pallu shift → smile/history callback → willingly renewed romantic physical closeness and Shivani's playful stop; Kavya double-timing joke."
+    },
+    {
+      "group": "B",
+      "status": "PLOT APPROVED",
+      "placement": "Later tuition after orientation and familiarity",
+      "summary": "High-neck homewear, overhead reach causes waist/navel/side-hip view, Ayaan expressive, Armaan reserved, Shivani hesitant; not a deep neckline."
+    },
+    {
+      "group": "C",
+      "status": "MAIN ACCIDENT APPROVED",
+      "placement": "Next day Tue 6 Jan, proposed home tuition 17:30–18:30",
+      "summary": "Chart/dupatta slip; Harsh, Laksh and Arjun each different sightlines. Nandini and Ritika move from jealousy to distinct active affectionate peer interactions; Arjun keeps his tailored flirting. No prose yet."
+    },
+    {
+      "group": "D",
+      "status": "CURRENT PHYSICAL BEAT OPEN",
+      "placement": "After faculty seminar work, later discussion",
+      "summary": "Faculty already bold. Three future first kisses saved, explicitly not current; an intermediate physical milestone still to plan."
+    }
+  ],
+  "weeklyTemplate": [
+    "Mon/Wed/Fri 06:45–07:45 Ayaan/Armaan Biology, college 09:00–15:30, faculty seminar 16:00–17:45.",
+    "Tue/Thu college and 17:30–18:30 five-student home tutoring; Ayaan/Armaan self-study.",
+    "Saturday from Jan10: 08:30–09:30 Ayaan/Armaan and 16:30–17:30 college student tuition.",
+    "Sunday no mandatory classes; society/family/recovery/movie option."
+  ],
+  "open": [
+    "Group D physical encounter",
+    "Kavya–Karan/Aman separate discussion (Kavya not in current lead scene)",
+    "Society personnel/husbands' clocks, family care, cinema option",
+    "Meenakshi Chemistry timing, qualifications, Feb visit dates",
+    "EP05 source/readers inconsistently frozen; preserve separate statuses"
+  ]
+}
