@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "id": "SW-EP05-JAN02-UNCLE-CROSS-ENCOUNTERS",
+  "title": "Episode 05 — 2 January Dinner: Uncle-Led Flirting, Cross-Encounters, Pre-Discovery Plot Addendum",
+  "date": "2026-01-02",
+  "timezone": "Asia/Kolkata",
+  "status": "AUTHOR_APPROVED_DINNER_BANTER_DIRECTION__USER_REQUESTED_CROSS_PAIR_BEATS__PLOT_ONLY_NOT_FINAL_PROSE",
+  "sourceGoogleDoc": "https://docs.google.com/document/d/1dp6egUTgTME1B2DHg0kPUuejorEBevVao7VF-4TSf7I/edit",
+  "scope": "New beats before already-written private discoveries; do not replace source night prose or retroactively assert these inserts are published.",
+  "history": {
+    "shivani": "02 Jan college Sunny intentional reveal is plotted in Google Doc plan v2, not author-final prose; Aarav flirt and private photo secret persist.",
+    "meenakshi": "02 Jan hospital Naveen first show approved in working source; Babloo return scene author-approved; strong accumulated arousal and desire for Nikhil established.",
+    "existingNight": "Dinner 20:25–20:50; Shivani–Om accidental glimpse ~20:50; leave ~20:55; Meenakshi finds Mohan alone ~20:58; Shivani finds Om alone ~21:05; husbands later; working source unchanged.",
+    "crossKnowledge": "Before this insert Shivani has not privately discovered Mohan's fetish and Meenakshi has not privately discovered Om's. New encounter should not make them omniscient."
+  },
+  "proposedTimeline": [
+    {
+      "id": "U01",
+      "time": "20:25–20:32",
+      "place": "Kapoor dinner table",
+      "cast": [
+        "Om",
+        "Mohan",
+        "Shivani",
+        "Meenakshi"
+      ],
+      "event": "Om and Mohan initiate bold, experienced, double-meaning flirtation about attraction; dry dark humor, compliments and teasing. Shivani and Meenakshi respond voluntarily, each with distinct hesitation/humor informed by day's strong sexual tension. No competition initiated by women, no truth-or-dare game and no immediate group undressing.",
+      "status": "APPROVED_DIRECTION_PLOT_ONLY"
+    },
+    {
+      "id": "U02",
+      "time": "20:32–20:45 (working slot)",
+      "place": "Kapoor residence, dining-to-cleanup area; not a planned private show",
+      "cast": [
+        "Shivani",
+        "Mohan"
+      ],
+      "event": "A genuine spill on Shivani's clothing interrupts dinner. Mohan offers water/towel/outer-garment cleanup and Shivani allows practical help. Damp or shifted clothing briefly outlines more of her clothed chest and backside than her normal dinner styling; Mohan notices, shows a clearly flustered/visibly attracted reaction, and Shivani notices that reaction. No deliberate intimate touching by Mohan is presumed from cleanup consent. This is the new cross-pair accidental-visibility beat; preserve Shivani's agency.",
+      "status": "AUTHOR_REQUESTED_WORKING_PLOT_NOT_PUBLISHED"
+    },
+    {
+      "id": "U03",
+      "time": "20:32–20:45 (parallel to U02, working slot)",
+      "place": "Ahuja residence, private adult-only study/corridor away from Tara",
+      "cast": [
+        "Meenakshi",
+        "Om"
+      ],
+      "event": "Existing committee-paper need provides a reason for Om and Meenakshi to step to Ahuja residence together. Following earlier mutual teasing, Meenakshi explicitly agrees to a brief intimate touch to her clothed breasts and hips/buttocks; it is her limited choice, not a general permission. Om impulsively voices a sexual fantasy; Meenakshi is surprised, immediately steps back and withdraws permission. Om stops at once. This leaves awkwardness and new knowledge, not a consummated relationship.",
+      "status": "AUTHOR_REQUESTED_WORKING_PLOT_NOT_PUBLISHED"
+    },
+    {
+      "id": "U04",
+      "time": "20:45–20:55",
+      "place": "Kapoor residence",
+      "cast": [
+        "Shivani",
+        "Meenakshi",
+        "Om",
+        "Mohan"
+      ],
+      "event": "Everyone regroups; neither woman shares the full private encounter immediately. Original ~20:50 Shivani–Om dinner accident remains, but her response may need consistency review. Preserve original departure around 20:55 if routes work. No second staged group game.",
+      "status": "TIMELINE_RECONCILIATION_REQUIRED"
+    },
+    {
+      "id": "U05",
+      "time": "20:58 and 21:05",
+      "place": "Kapoor and Ahuja residences separately",
+      "cast": [
+        "Meenakshi",
+        "Mohan",
+        "Shivani",
+        "Om"
+      ],
+      "event": "Original Meenakshi witnessing Mohan alone ~20:58 and Shivani witnessing Om alone ~21:05 remain untouched. New cross-encounters amplify their interpretations but do not grant knowledge of the other woman's private discovery. Existing Rohan/Nikhil night scenes remain unchanged unless author reviews consequence continuity.",
+      "status": "EXISTING_SOURCE_PRESERVED"
+    }
+  ],
+  "safeguardsAndOpenChecks": [
+    "Plot-only neutral sexual-action labels; no erotic prose or visual generation.",
+    "The women's arousal is established, but willingness for a particular touch must be in that scene; separate acceptance of cleanup does not authorize intimate touching.",
+    "When Meenakshi withdraws consent, Om stops immediately; no coercion, pressure or retaliatory behavior.",
+    "No child or uninvolved party present during adult intimate exchange. Tara remains with Rohan elsewhere in the Ahuja residence; Vihaan remains asleep and uninvolved at Kapoor.",
+    "The working 20:32–20:45 cross-house transfer needs travel/arrival feasibility; preserve 20:50/20:58/21:05 legacy chronology or flag precise timing for author revision.",
+    "No automatic intimacy competition, truth-or-dare or mutual undressing. Those are deferred possibilities, not approved 02 Jan content.",
+    "Original 02 Jan night manuscript is not silently rewritten. Later reconciliation may adjust dialogue/reactions only after author review."
+  ]
+}
