@@ -10,11 +10,11 @@ type Section={title:string;paragraphs:Paragraph[]};
 const wives:Wife[]=['ankita','shivani','taniya','meenakshi','shreya'];
 const names:Record<Wife,string>={ankita:'Ankita',shivani:'Shivani',taniya:'Taniya',meenakshi:'Meenakshi',shreya:'Shreya'};
 const where:Record<Wife,{label:string;detail:string;kind:'reader'|'vault';path?:string;vault?:string}>={
- ankita:{label:'Reader · 2 joint scenes',detail:'Shared with Shreya; Ankita’s own paragraphs are displayed in her perspective.',kind:'reader'},
+ ankita:{label:'Reader · shared preparation + original marital ending',detail:'Ankita’s joint outfit-preparation scene and the original Ankita–Kabir Episode 05 final marital passage, imported verbatim.',kind:'reader'},
  shivani:{label:'Source Vault · 9 scenes',detail:'Same 2 January evening document as Meenakshi; archive source, not yet promoted to the main reader.',kind:'vault',path:'source-vault/ep05-meenakshi-shivani-jan02.json',vault:'ep05-meenakshi-shivani'},
  taniya:{label:'Source Vault · 9 scenes',detail:'Taniya’s separate 2 January evening document. Soniya is part of her continuity, not a separate EP05 standalone manuscript.',kind:'vault',path:'source-vault/ep05-taniya-jan02.json',vault:'ep05-taniya'},
  meenakshi:{label:'Source Vault · 9 scenes',detail:'Shared with Shivani in the same 2 January document; full original wording preserved.',kind:'vault',path:'source-vault/ep05-meenakshi-shivani-jan02.json',vault:'ep05-meenakshi-shivani'},
- shreya:{label:'Reader · 5 scenes',detail:'Three Shreya-led scenes followed by two shared Ankita–Shreya scenes.',kind:'reader'}
+ shreya:{label:'Reader · 5 scenes',detail:'Three original early Shreya scenes, joint outfit preparation and the original Shreya–Vikram marriage ending.',kind:'reader'}
 };
 const isWife=(s:string):s is Wife=>wives.includes(s as Wife);
 function displayRaw(scene:Scene,wife:Wife){
@@ -81,7 +81,7 @@ export default function Episode05Wives({character,scene}:{character:string;scene
   <section className="episode-plan-card">
    <h2>{names[active]} · {current.label}</h2>
    <p>{current.detail}</p>
-   {active==='ankita'||active==='shreya'?<p className="muted">The two shared scenes are displayed wife-wise using only the corresponding original paragraphs. The complete combined source remains unchanged.</p>:<p className="muted">This is the unchanged author-source archive. Its presence here does not mean it has been separately approved as final reader prose.</p>}
+   {active==='ankita'||active==='shreya'?<p className="muted">The shared preparation scene is split by wife. The Friday marital endings are reproduced verbatim from the existing 2 January source, not rewritten. The preserved Saturday morning reaction belongs to Episode 06 context.</p>:<p className="muted">This is the unchanged author-source archive. Its presence here does not mean it has been separately approved as final reader prose.</p>}
    <div className="chapter-controls">
     {active==='ankita'||active==='shreya'
      ?<><a href="#/reading?episode=05&character=ankita">Ankita reading</a><a href="#/reading?episode=05&character=shreya">Shreya reading</a>
