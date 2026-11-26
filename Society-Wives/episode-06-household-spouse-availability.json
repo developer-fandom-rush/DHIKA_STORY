@@ -1,0 +1,278 @@
+{
+  "schemaVersion": 1,
+  "id": "SW-EP06-HUSBANDS-AND-SHREYA-DUTY-3D",
+  "title": "Episode 06 · Kabir, Rohan, Vikram whereabouts and Shreya's roster · 3–5 January 2026",
+  "dateRange": [
+    "2026-01-03",
+    "2026-01-05"
+  ],
+  "status": "EDITOR_SELECTED_CONTINUITY_SLOTS__AUTHOR_CAN_REVISE__NOT_LOCKED_PROSE",
+  "scope": "Preserve prior wife/twin scenes and prevent double attendance. Only time ranges below marked proposed are fictional editorial choices; they are not sourced details about the real police or employers.",
+  "sourceFacts": {
+    "Kabir": [
+      "Husband of Ankita; age 33",
+      "IT production / technology operations are supported, but precise job title and working mode are not confirmed",
+      "Earlier IT production emergency ended around 03:00 Friday 2 Jan; rest was needed"
+    ],
+    "Rohan": [
+      "Husband of Shivani; age 34; Tara's father",
+      "Exact profession and employer unknown; cannot assign police/IT/company designation"
+    ],
+    "Vikram": [
+      "Husband of Shreya; age 36; Anaya's father",
+      "Returned from an earlier night shift at approximately 06:00 Friday 2 Jan",
+      "Exact profession, employer and rotating duty timetable not established"
+    ],
+    "Shreya": [
+      "Police Inspector; age 33",
+      "Prior episodes show active weekday police station and training duties; no author-approved leave for Jan 3–5"
+    ]
+  },
+  "husbands": [
+    {
+      "id": "Kabir",
+      "wife": "Ankita",
+      "profession": "IT production / technology operations (supported); exact designation UNKNOWN",
+      "days": [
+        {
+          "date": "2026-01-03",
+          "whereabouts": [
+            {
+              "time": "06:35–07:30",
+              "place": "Shared Malhotra apartment",
+              "reason": "Existing wife/husband morning scene; keep available before Ankita workout",
+              "status": "RECONCILED_PROPOSAL"
+            },
+            {
+              "time": "07:30–09:00",
+              "place": "Shared apartment · separate quiet work/rest area",
+              "reason": "No appearance in the Karan–Aman home workout or Ankita/Shreya independent morning call",
+              "status": "EDITOR_PROPOSED_NOT_SOURCE"
+            },
+            {
+              "time": "09:15–13:00",
+              "place": "At-home tech on-call or ordinary errands, exact location flexible",
+              "reason": "Preserve household availability without fabricating external travel or employer",
+              "status": "OPEN_LOCATION"
+            },
+            {
+              "time": "13:00 onward",
+              "place": "Shared apartment / personal family plans",
+              "reason": "No booked movie/society gathering",
+              "status": "EDITOR_PROPOSED"
+            }
+          ]
+        },
+        {
+          "date": "2026-01-04",
+          "whereabouts": [
+            {
+              "time": "08:00–08:30",
+              "place": "Malhotra apartment",
+              "reason": "Existing household calendar check with Ankita; Karan/Aman are mentioned but not automatically attendees",
+              "status": "TIMELINE_EDITOR_HOLD"
+            },
+            {
+              "time": "08:30–20:30",
+              "place": "At home, occasional private errands/on-call work as needed",
+              "reason": "Do not book him into Shivani/Kavya twin visits or speculative society events",
+              "status": "EDITOR_PROPOSED"
+            }
+          ]
+        },
+        {
+          "date": "2026-01-05",
+          "whereabouts": [
+            {
+              "time": "09:00–18:30",
+              "place": "Technology work commitment; office vs WFH unconfirmed",
+              "reason": "Do not assert a specific workplace",
+              "status": "EDITOR_WORK_WINDOW_PROPOSAL"
+            },
+            {
+              "time": "20:00–20:20",
+              "place": "Malhotra home",
+              "reason": "Ankita consults Kabir on Wednesday's office visitors",
+              "status": "EXISTING_EP06_PLOT_CLOCK_PROPOSED"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Rohan",
+      "wife": "Shivani",
+      "profession": "UNKNOWN — no occupation established in sourced roster",
+      "days": [
+        {
+          "date": "2026-01-03",
+          "whereabouts": [
+            {
+              "time": "07:30–13:00",
+              "place": "Rohan–Shivani home with Tara or ordinary family routine",
+              "reason": "Tara's home care available while Shivani manages existing morning/afternoon setup",
+              "status": "EDITOR_PROPOSED"
+            },
+            {
+              "time": "13:00–18:00",
+              "place": "Independent weekend activities; no asserted employer",
+              "reason": "No overlapping wife/twin event booked for Rohan",
+              "status": "LOCATION_OPEN"
+            },
+            {
+              "time": "18:00 onward",
+              "place": "Family home, not booked for group movie",
+              "reason": "Optional society plans remain HOLD",
+              "status": "EDITOR_PROPOSED"
+            }
+          ]
+        },
+        {
+          "date": "2026-01-04",
+          "whereabouts": [
+            {
+              "time": "09:00–13:00",
+              "place": "Shivani–Rohan home with Tara",
+              "reason": "Caregiver during Shivani's proposed Karan–Aman Group A 11:30–12:15",
+              "status": "EDITOR_SELECTED_CHILDCARE_PROPOSAL"
+            },
+            {
+              "time": "13:00 onward",
+              "place": "Family home / normal Sunday routine",
+              "reason": "No obligatory cinema or shared society meeting",
+              "status": "EDITOR_PROPOSED"
+            }
+          ]
+        },
+        {
+          "date": "2026-01-05",
+          "whereabouts": [
+            {
+              "time": "09:00–18:30",
+              "place": "Outside family home for ordinary work/commitments; exact employer/location UNKNOWN",
+              "reason": "Shivani college/faculty training remains as plotted; Tara childcare after school needs separate ordinary care",
+              "status": "EDITOR_WORK_WINDOW_PROPOSAL"
+            },
+            {
+              "time": "19:00 onward",
+              "place": "Family home",
+              "reason": "Weekend-to-weekday family recovery",
+              "status": "EDITOR_PROPOSED"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Vikram",
+      "wife": "Shreya",
+      "profession": "UNKNOWN — prior night duty confirmed, industry/job title NOT confirmed",
+      "days": [
+        {
+          "date": "2026-01-03",
+          "whereabouts": [
+            {
+              "time": "06:00–08:30",
+              "place": "Rathore home with Anaya",
+              "reason": "Shreya goes to gym, then police station after an ordinary commute",
+              "status": "EDITOR_SELECTED_CHILDCARE_PROPOSAL"
+            },
+            {
+              "time": "08:30–16:30",
+              "place": "Rathore home / primary Anaya care; personal errands only with Anaya accounted for",
+              "reason": "Shreya on full Saturday police shift; user requested no leave",
+              "status": "EDITOR_SELECTED_CHILDCARE_PROPOSAL"
+            },
+            {
+              "time": "16:30–20:30",
+              "place": "At home / flexible care",
+              "reason": "Shreya returns, calls Ankita and meets Shruti after duty",
+              "status": "EDITOR_PROPOSED"
+            }
+          ]
+        },
+        {
+          "date": "2026-01-04",
+          "whereabouts": [
+            {
+              "time": "07:30–13:00",
+              "place": "Rathore home with Anaya",
+              "reason": "Shreya Sunday station duty / shorter roster",
+              "status": "EDITOR_SELECTED_CHILDCARE_PROPOSAL"
+            },
+            {
+              "time": "14:30–16:45",
+              "place": "Rathore home with Anaya",
+              "reason": "Shreya and Shruti go to Samar–Shaan shared apartment for group study",
+              "status": "EDITOR_SELECTED_CHILDCARE_PROPOSAL"
+            },
+            {
+              "time": "17:00 onward",
+              "place": "Home / personal shift availability open",
+              "reason": "No specific occupational story invented",
+              "status": "OPEN_AFTER_17"
+            }
+          ]
+        },
+        {
+          "date": "2026-01-05",
+          "whereabouts": [
+            {
+              "time": "07:30–17:30",
+              "place": "Rathore home for Anaya care or handoff to an already-known family caregiver if Vikram has work",
+              "reason": "Childcare must be explicitly arranged; full Monday Vikram availability not source-confirmed",
+              "status": "PROVISIONAL__CARE_COVERAGE_NOT_SOURCE_CONFIRMED"
+            },
+            {
+              "time": "17:30 onward",
+              "place": "Rathore home or an independently assigned shift",
+              "reason": "No invented role or duty slot for Vikram",
+              "status": "OPEN_LOCATION"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "shreyaPoliceRoster": [
+    {
+      "date": "2026-01-03",
+      "shift": "08:30–16:30",
+      "workplace": "Police station / existing assignments",
+      "leave": false,
+      "status": "EDITOR-SELECTED_FULL_SHIFT",
+      "logistics": "Gym rematch 06:20–07:30, 60-minute buffer; after-duty Ankita evidence call 17:40–18:00 and Shruti home study 18:15–18:45"
+    },
+    {
+      "date": "2026-01-04",
+      "shift": "08:00–13:00",
+      "workplace": "Police station / scheduled shorter Sunday roster",
+      "leave": false,
+      "status": "EDITOR-SELECTED_SHORTER_ROSTER",
+      "logistics": "First four-person apartment study shifted to 15:00–16:15; 2-hour buffer after station release"
+    },
+    {
+      "date": "2026-01-05",
+      "shift": "08:00–17:00",
+      "workplace": "Police station incl. next technique training 10:30–11:20",
+      "leave": false,
+      "status": "EDITOR-SELECTED_FULL_SHIFT",
+      "logistics": "20:10–20:35 optional study recap call only if not called for evening duty"
+    }
+  ],
+  "operationalNotes": [
+    "Do not claim Haryana police have a universal 8-hour roster or automatic Sunday holiday; weekly-off policy and staffing vary by unit. This is a fictional plausible duty roster for Shreya, not a legal fact.",
+    "Sunday is a shorter rostered duty period, NOT a full leave/holiday. None of Jan3/Jan4/Jan5 is treated as Shreya's leave day.",
+    "Vikram has confirmed historical night-shift work but occupation remains unknown. Coverage for Anaya is assigned provisionally to Vikram where needed, and Monday work/childcare still requires story approval.",
+    "Exact Karan/Aman and Ayaan/Armaan preexisting commitments remain unaffected; the only shifted Shreya overlaps are older unsourced morning evidence slot and personal study time.",
+    "Do not automatically mark tentative Rohan/Kabir outside-home travel as canon. Protect spouse-home scene and children's care without manufacturing jobs."
+  ],
+  "sources": [
+    "character-directory.json",
+    "episode-06-ankita-plan.json",
+    "shivani-episode-06-three-day-plot.json",
+    "episode-05-shreya-plan.json",
+    "episode-06-shreya-plan.json",
+    "ui/src/data/sw-timeline-future.json"
+  ]
+}
