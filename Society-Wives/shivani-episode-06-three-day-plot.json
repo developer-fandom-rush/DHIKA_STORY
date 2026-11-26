@@ -334,7 +334,117 @@
   "auditCorrections": {
     "episode04B": "At least four lead reader components present for Ankita/Shreya/Taniya/Meenakshi; Shivani 04B is working office plan, NOT a reader component. Editorial freeze varies.",
     "episode05": "Ankita+Shreya combined reader has five scenes, working; Meenakshi+Shivani and Taniya separate 9-scene Google Doc tracks, not imported.",
-    "uncle": "2 Jan EP05 Uncle dinner is in working Google Doc plus plot-only cross-pair addendum; future uncle fashion challenge saved in future-ideas. The purported separately written 3 Jan morning Uncle scene has not been located in this audit: timeline remains source-unverified placeholder, NOT a newly established prose scene."
+    "uncle": "2 Jan EP05 Uncle dinner is in working Google Doc plus plot-only cross-pair addendum; future uncle fashion challenge saved in future-ideas. The purported separately written 3 Jan morning Uncle scene has not been located in this audit: timeline remains source-unverified placeholder, NOT a newly established prose scene.",
+    "episode04BReaderCounts": [
+      {
+        "lead": "Ankita",
+        "readerEntries": 3,
+        "status": "READER_COMPLETE_EDITORIAL_FREEZE_SEPARATE"
+      },
+      {
+        "lead": "Shreya",
+        "readerEntries": 2,
+        "status": "READER_PUBLISHED_NOT_FINAL_FROZEN"
+      },
+      {
+        "lead": "Taniya",
+        "readerEntries": 4,
+        "status": "WORKING_READER_SCENE01_MANUSCRIPT_02_TO_04_DRAFTS"
+      },
+      {
+        "lead": "Meenakshi",
+        "readerEntries": 7,
+        "status": "READER_MIXED_APPROVAL_SOURCE"
+      },
+      {
+        "lead": "Shivani",
+        "readerEntries": 0,
+        "status": "JAN2_OFFICE_PLAN_ONLY_NOT_IN_04B_READER"
+      }
+    ],
+    "episode05ReaderCounts": {
+      "combinedAnkitaShreya": 5,
+      "meenakshiShivaniExternalDoc": 9,
+      "taniyaExternalDoc": 9,
+      "separateDocsInReader": false
+    },
+    "uncleSources": {
+      "jan2NightGoogleDoc": "https://docs.google.com/document/d/1dp6egUTgTME1B2DHg0kPUuejorEBevVao7VF-4TSf7I/edit",
+      "jan2CrossPairAddendum": "episode-05-jan02-uncle-cross-encounters-working-plot.json",
+      "futureUncleIdea": "FI-SHIVANI-MEENAKSHI-OM-MOHAN-FUTURE-ADULT-FASHION-CHALLENGE-01 in future-ideas.json",
+      "jan3Morning": "Author reports scene already written; not independently identified in GitHub or Drive title search. Timeline marker is a preservation placeholder, NOT verified published prose."
+    }
   },
-  "lastSynced": "2026-11-26"
+  "lastSynced": "2026-11-26",
+  "groupReactionLedger": [
+    {
+      "group": "A",
+      "status": "AUTHOR_APPROVED_ACTION_CHAIN__PROSE_PENDING",
+      "history": "Jan1 published: two prior handholds, Aman neck kiss, close clothed contact, apology and Shivani's 'I liked it'; Kavya has not automatically witnessed those private beats.",
+      "trigger": "Existing society clothes/pallu unexpectedly shifts; Karan and Aman have different sightlines; outfit/whereabouts need scene lock.",
+      "actions": [
+        "Shivani smiles knowingly instead of having a first-time panic.",
+        "She refers to earlier voluntary closeness; brothers respond that an unexpected glimpse and consciously chosen closeness are different.",
+        "With Shivani's own willing participation, pallu/outer layer is repositioned, both brothers share recurring affectionate proximity and kisses, with distinct reactions and no assumption of all future permissions.",
+        "Shivani initiates the stopping point and playful exit; double-timing/Kavya line is teasing, not a literal accusation of cheating."
+      ],
+      "next": "Date/household positions need checking; Sunday 4 Jan is only a candidate."
+    },
+    {
+      "group": "B",
+      "status": "AUTHOR_APPROVED_ACTION_CHAIN__PROSE_PENDING",
+      "history": "Ayaan and Armaan 23-year-old event/printing workers; Armaan previously stabilized Shivani's clothed waist at a falling stand; no comparable romantic comfort with both men yet.",
+      "trigger": "During a later Biology tuition lesson, Shivani reaches high; comfortable ordinary top hem lifts, revealing her waist/navel/side hip briefly. Not deep neckline.",
+      "actions": [
+        "Ayaan is more expressive/flustered; Armaan quieter and observing from a different angle.",
+        "Shivani catches their attention, briefly hesitates and adjusts her clothes.",
+        "Lesson resumes; academic motivation remains serious and both characters respond differently."
+      ],
+      "next": "First tuition orientation Jan3 has NO accident. Trigger reserved for established later lesson."
+    },
+    {
+      "group": "C",
+      "status": "AUTHOR_APPROVED_BASE_EVENT__REACTION_DIRECTION_APPROVED__DETAIL_TIMING_PROPOSED",
+      "history": "Harsh and Laksh established adult students; Nandini's prior cheek-kiss with Harsh in EP03 is preserved, Ritika has distinct bold student-peer banter and Arjun tailors his flirting to peers.",
+      "trigger": "Tuesday Jan6 home tutoring candidate: Biology chart catches Shivani's dupatta, neckline briefly shifts, Shivani fixes it; avoid reusing in other groups.",
+      "actions": [
+        "Harsh front view and startled self-consciousness, Laksh oblique view, Arjun later indirect reaction-reading—NOT identical gazes.",
+        "Nandini and Ritika understand three male reactions, compare attention and show separate active peer jealousy/interest after class rather than only silent commentary.",
+        "Nandini–Harsh and Ritika–Laksh interactions remain individually chosen and differentiated; Arjun remains active in dynamic with all three men and two women.",
+        "Shivani is not omniscient about reader-only peer confrontation after the class."
+      ],
+      "next": "Not inside Jan3–5, remains Tue Jan6 follow-on anchor. Physical continuation choices can change with author review."
+    },
+    {
+      "group": "D",
+      "status": "AUTHOR_APPROVED_FIRST_PHYSICAL_MILESTONE__KISSES_FUTURE_ONLY",
+      "history": "EP02 B03 faculty banter; Jan2 office ticket-check is working plan in which Pooja/Kriti allow consensual closeness but Shivani blocks an unsolicited neckline check. Aarav photo secret reader-only; no current kiss decision.",
+      "trigger": "After serious teacher-only seminar work, shared playful exchanges resume, no fabricated accident or scientific body demonstration.",
+      "actions": [
+        "Boundary-Reversal Beat: Shivani takes Aarav's previously stopped hand and guides it to her clothed waist, initiates brief close embrace and ends it herself.",
+        "Pooja initiates familiar consensual closeness with outgoing style; Kriti retains a more measured, challenging handhold/face-to-face response. No identical new first-contact beats.",
+        "The group continues to meet three days weekly in seminar preparation; subsequent physical progression is potential, not booked.",
+        "Separate three first kisses are stored Future Reference only, explicitly too early for current Group D."
+      ],
+      "next": "Monday Jan5 faculty work proposed 16:00–17:45. Plot accepted; exact prose not written."
+    }
+  ],
+  "kavyaBridge": {
+    "status": "EDITOR_SELECTED_FIRST_BRIDGE__AUTHOR_REVIEW_PENDING",
+    "dateCandidate": "2026-01-04",
+    "history": "Kavya met the brothers on 1 Jan via Shivani; already sparked with Deepu. Shivani/Karan/Aman prior private closeness is NOT automatically known by Kavya.",
+    "setting": "Ordinary social encounter in shared courtyard/foyer, after separate Shivani encounter if on same day; no repetitive performance rehearsal or staged tuition.",
+    "activeInitiator": "Kavya",
+    "firstPhysicalBridge": "A short mutually welcome handhold with each brother and, as they walk a few steps together, a light arm-linked three-person walk. Clothing stays ordinary; no accidental show or kiss.",
+    "differentiatedResponse": "Karan responds with confident spoken teasing; Aman offers one quieter, unusually direct personal observation that catches Kavya off guard. Her own reaction shows mutual attraction can develop, not just her teasing them.",
+    "nextConnection": "They can mutually exchange phone contacts as a credible recurring setup, with no invented exclusivity or automatic group chat.",
+    "continuity": "Deepu spark preserved. Karan/Aman's previous personal history with Shivani remains separate; timing must be checked against Ankita's household and possible movie plan."
+  },
+  "referenceSource": {
+    "groupsFullLedger": "https://docs.google.com/document/d/1c4SSeRtuTWI91Kt990rdF370ia6MdyMwo4gQqQ08xDw/edit",
+    "weekPlanning": "https://docs.google.com/document/d/1tyEQ7s7vDH0zDptAOf842EcGseR8Tix61KJsLVyrvJ8/edit",
+    "crossMentors": "cross-lead-ayaan-armaan-jam-2026.json",
+    "uncleNight": "episode-05-jan02-uncle-cross-encounters-working-plot.json",
+    "uncleFuture": "future-ideas.json"
+  }
 }
