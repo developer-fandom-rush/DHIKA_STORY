@@ -3,6 +3,7 @@ import { HOME, openPage, useRoute } from './lib';
 import Reading from './Reading';
 import Planning from './Planning';
 import Shivani06Planning from './Shivani06Planning';
+import Episode06LeadPlanning from './Episode06LeadPlanning';
 import StudyCircle from './StudyCircle';
 import SourceVault from './SourceVault';
 import FutureReference from './FutureReference';
@@ -33,7 +34,7 @@ export default function App(){
     <nav aria-label="Primary navigation" className="main-nav">{(isDhika?dhikaNavigation:swNavigation).map(([id,label])=><a key={id} href={'#/'+id} className={page===id?'current':''} aria-current={page===id?'page':undefined}>{label}</a>)}</nav>
    </div></header>
    {page==='reading'&&<Reading character={params.get('character')||'ankita'} scene={params.get('scene')} episode={params.get('episode')}/>}
-   {page==='planning'&&(params.get('lead')==='shivani'&&params.get('part')==='06'?<Shivani06Planning/>:<Planning lead={params.get('lead')||'ankita'} part={params.get('part')||'A'}/>)}
+   {page==='planning'&&(params.get('part')==='06'&&params.get('lead')==='shivani'?<Shivani06Planning/>:params.get('part')==='06'&&(['ankita','shreya'].includes(params.get('lead')||''))?<Episode06LeadPlanning lead={(params.get('lead')||'ankita') as 'ankita'|'shreya'}/>:<Planning lead={params.get('lead')||'ankita'} part={params.get('part')||'A'}/>)}
    {page==='study-circle'&&<StudyCircle/>}
    {page==='source-vault'&&<SourceVault itemId={params.get('item')||undefined}/>}
    {page==='future-reference'&&<FutureReference lead={params.get('lead')||'ankita'}/>}
