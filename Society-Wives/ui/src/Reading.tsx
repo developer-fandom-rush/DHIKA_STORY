@@ -552,6 +552,13 @@ function Meenakshi04BReading({scene}:Props){
 }
 
 function Episode04BReading(props:Props){
+ if(props.character==='shivani')return <main className="page-width" id="shivani-04b-unpublished">
+  <header className="section-intro"><span className="eyebrow">Episode 04B · 2 January 2026</span><h1>Shivani · Working office plot, not Reader prose</h1>
+   <p>Shivani's Episode 04B office-day material is still in the author's working plan. Do not substitute Ankita's published scenes for Shivani.</p></header>
+  <div className="chapter-controls"><a className="button subtle" href="https://docs.google.com/document/d/1NKs5JgmIL2Vf7MgErbOqZllJHbZ14Gc9h10gcZJGLNM/edit" target="_blank" rel="noreferrer">Open 2 Jan office source →</a>
+   <button className="button primary" type="button" onClick={()=>openPage('planning',{lead:'shivani',part:'06'})}>Continue to EP06 approved plot →</button></div>
+ </main>;
+ if(props.character==='soniya')return <main className="page-width"><header className="section-intro"><span className="eyebrow">Episode 04B · 2 January 2026</span><h1>Soniya · No separate 04B Reader here</h1><p>Soniya is Taniya's supporting sister, not a fifth main lead; don't display Ankita's chapters as hers.</p></header><button className="button subtle" type="button" onClick={()=>openPage('reading',{episode:'04B',character:'taniya'})}>Open Taniya's reader →</button></main>;
  return props.character==='meenakshi'?<Meenakshi04BReading {...props}/>:props.character==='taniya'?<Taniya04BReading {...props}/>:props.character==='shreya'?<Shreya04BReading {...props}/>:<Episode04BAnkitaReading {...props}/>;
 }
 
