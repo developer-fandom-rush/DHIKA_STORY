@@ -67,7 +67,8 @@
     "future-ideas.json",
     "episode-06-ankita-plan.json",
     "episode-06-shreya-plan.json",
-    "episode-06-karan-aman-shared-availability.json"
+    "episode-06-karan-aman-shared-availability.json",
+    "episode-06-ankita-mentoring-setup.json"
   ],
   "otherLeadHandoff": "When starting Ankita, Taniya, Meenakshi or Shreya next three-day Episode 06 plot, check this cross-household gate and central JAM mentor contract, add the lead's true availability to the three-day global timeline, and DO NOT finalize other husbands' presence from imagination. Prioritize Ankita and Shreya's marriage-foundation scene as first EP06 scene in their respective arcs. Read shared Karan/Aman calendar before confirming lead meetings. No other husbands' hours invented.",
   "sharedKaranAmanLedger": {
@@ -96,5 +97,14 @@
       "title": "Shreya × Vikram married-life foundations",
       "status": "FIRST_SCENE_ORDER_APPROVED"
     }
+  },
+  "ankitaLearningLanes": {
+    "source": "episode-06-ankita-mentoring-setup.json",
+    "status": "TECHNICAL_MENTOR_ROLES_AND_HR_SEPARATION_CONFIRMED__PROPOSED_CLOCKS_ONLY",
+    "dailyHousehold": "No artificial appointments for Ankita–Karan/Aman living together",
+    "officeGroup": "Ankita+Vivan+Reyansh+Sana, MWF after-office proposal, Mon5 18:10–19:00 candidate",
+    "AishwaryaKaran": "Independent HR/career mentorship Tue/Thu/Sat proposal, first Tue6, after voluntary professional introduction",
+    "JAM": "Ayaan/Armaan Ankita tech/CBT candidate; accidental incident reserved until normal relationship foundation",
+    "sourceOfTruth": "User direction 26 Nov 2026, no new episode prose."
   }
 }
