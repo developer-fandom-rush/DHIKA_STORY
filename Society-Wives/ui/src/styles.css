@@ -257,3 +257,21 @@ h1,h2,h3{font-family:Georgia,"Times New Roman",serif;letter-spacing:-.025em}h1{f
 
 /* Episode 03: author-review underlines for adult tension, selective double meanings and narrator observations. */
 .ep03-original .ep03-story-emphasis { text-decoration: underline; text-decoration-color: #a65a79; text-decoration-thickness: 2px; text-underline-offset: 3px; background: rgba(218,158,48,.13); font-weight: 650; }
+
+
+/* Persistent episode navigator: same controls on Reader and Plot pages.
+   Historical routes must remain accessible when a new episode is introduced. */
+.story-episode-nav.page-width{padding:16px 20px 14px;margin:14px auto 0;border:1px solid #dfd0d8;border-radius:14px;background:#fffdfa;box-shadow:0 2px 12px #3d233010}
+.story-episode-nav-head{display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 15px;margin-bottom:11px}
+.story-episode-nav-head strong{font:700 17px Georgia,serif;color:#573248}
+.story-episode-nav-head span{font-size:12px;color:#826c79}
+.story-episode-nav-modes,.story-episode-nav-episodes,.story-episode-nav-leads{display:flex;flex-wrap:wrap;align-items:center;gap:7px;margin:8px 0}
+.story-episode-nav-modes{padding-bottom:10px;border-bottom:1px solid #eee0e8}
+.story-episode-nav a{color:#69445c;text-decoration:none;border:1px solid #dfcdd7;border-radius:8px;background:#fff;padding:8px 12px;font-size:12px;font-weight:750;line-height:1.35;display:inline-flex;align-items:center;gap:7px;min-height:36px}
+.story-episode-nav a:hover,.story-episode-nav a:focus-visible{border-color:#9c647f;background:#fff5fa}
+.story-episode-nav a.selected,.story-episode-nav a[aria-current="page"]{background:#70425b;color:#fff;border-color:#70425b}
+.story-episode-nav a small{font-size:9px;opacity:.85}
+.story-episode-nav-leads{border-top:1px solid #eee0e8;padding-top:10px}
+.story-episode-nav-leads>span{font-size:12px;color:#826c79;font-weight:760;margin-right:6px}
+.story-episode-nav-note{font-size:11px;color:#84667a;margin:10px 0 0}
+@media(max-width:600px){.story-episode-nav.page-width{padding:12px;margin:10px auto 0}.story-episode-nav a{font-size:11px;padding:7px 9px;min-height:34px}.story-episode-nav-head strong{font-size:15px}}
