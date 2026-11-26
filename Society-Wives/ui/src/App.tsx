@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { HOME, openPage, useRoute } from './lib';
 import Reading from './Reading';
 import Planning from './Planning';
+import Shivani06Planning from './Shivani06Planning';
 import FutureReference from './FutureReference';
 import GlobalTimeline from './GlobalTimeline';
 import DhikaReader from './DhikaReader';
@@ -30,7 +31,7 @@ export default function App(){
     <nav aria-label="Primary navigation" className="main-nav">{(isDhika?dhikaNavigation:swNavigation).map(([id,label])=><a key={id} href={'#/'+id} className={page===id?'current':''} aria-current={page===id?'page':undefined}>{label}</a>)}</nav>
    </div></header>
    {page==='reading'&&<Reading character={params.get('character')||'ankita'} scene={params.get('scene')} episode={params.get('episode')}/>}
-   {page==='planning'&&<Planning lead={params.get('lead')||'ankita'} part={params.get('part')||'A'}/>}
+   {page==='planning'&&(params.get('lead')==='shivani'&&params.get('part')==='06'?<Shivani06Planning/>:<Planning lead={params.get('lead')||'ankita'} part={params.get('part')||'A'}/>)}
    {page==='future-reference'&&<FutureReference lead={params.get('lead')||'ankita'}/>}
    {page==='sw-timeline'&&<GlobalTimeline universe="sw" date={date} onDateChange={d=>{setDate(d);openPage('sw-timeline',{date:d})}}/>}
    {page==='dhika-timeline'&&<GlobalTimeline universe="dhika" date={date} onDateChange={d=>{setDate(d);openPage('dhika-timeline',{date:d})}}/>}
