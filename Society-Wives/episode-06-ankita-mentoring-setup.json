@@ -1,0 +1,219 @@
+{
+  "schemaVersion": 1,
+  "id": "SW-EP06-ANKITA-THREE-PAIR-MENTORING-PLAN",
+  "title": "Ankita EP06 — Three Separate Pair Lanes, Honest Expertise, Weekly Rhythm, Accidental Beats",
+  "createdAt": "2026-11-26",
+  "lead": "Ankita",
+  "status": "AUTHOR_CONFIRMED_CAST_AND_RELATIONSHIPS__EDITOR_PROPOSED_SCHEDULE_AND_ACCIDENTS_PENDING_APPROVAL",
+  "authorPrinciples": [
+    "Karan and Aman share Ankita/Kabir's household; daily casual contact and short flexible doubts need no artificial appointment.",
+    "Technical sessions for Vivan/Reyansh/Sana may occur after office, office overtime, or by coordinated home visit with a legitimate learning goal; not a daily tutoring fiction.",
+    "Aishwarya is HR/event coordination, NOT a Java learner in the technical group. Her independent Karan mentorship is optional, tied to her recruiting/career expertise, with mutual agreement.",
+    "Ayaan–Armaan are a separate society/JAM learning pair, not presumed confirmed biological twins or immediate flirtation leads.",
+    "Do not publish newly imagined accidental garment incidents as already happened. Distinguish confirmed past contact from future proposed visual milestones.",
+    "Ankita's own comfort, work/private boundaries and choice remain consistent; friendly attraction does not mean automatic permission for touching."
+  ],
+  "lanes": [
+    {
+      "id": "HOME-KARAN-AMAN",
+      "label": "Family twins · Karan & Aman",
+      "kind": "CONFIRMED_BIOLOGICAL_TWINS",
+      "members": [
+        {
+          "name": "Karan",
+          "age": 22,
+          "sourceOccupation": "MBA/management entrance preparation; occasional freelance work",
+          "mentoringFit": "Ankita can coach structured problem-solving, presentations, project/product cases, basic analytics, executive communication and fitness habits; not claim expertise in every MBA subject.",
+          "existingRelationship": "Outgoing and playful devar; breakfast jokes, home routines and prior pickup where he traveled separately on his bike.",
+          "firstAccidentResponse": "Mild teasing, then realizes his banter risks making Ankita uncomfortable and moves conversation back to workout challenge."
+        },
+        {
+          "name": "Aman",
+          "age": 22,
+          "sourceOccupation": "Java/backend job interview preparation",
+          "mentoringFit": "Direct source-backed fit: Ankita IT Tech Lead teaches Java, Spring Boot, REST APIs, SQL basics, concurrency, backend system design, CV reviews and mock interviews.",
+          "existingRelationship": "Quieter, observant; asks Ankita for interview help. On 1 Jan she drove his scooty with him pillion; he briefly supported himself at her waist, she explicitly asked him to shift, he complied and remembered the boundary.",
+          "firstAccidentResponse": "He notices a shifted strap, tells her briefly, averts his gaze and returns to the Java question. His prior accepted cue changes how he behaves."
+        }
+      ],
+      "frequency": "Daily ordinary contact; 10–20-minute doubts or banter when both available, not a booked daily class.",
+      "formalSessions": "Saturday 3 Jan morning fitness challenge candidate; Monday 5 Jan ~20:00–20:25 optional Aman Java mock after dinner only if Ankita free; Mon/Wed/Fri small Aman study blocks after actual hours known.",
+      "firstAccidentalSlipProposal": {
+        "status": "EDITOR_PROPOSAL__NOT_APPROVED",
+        "candidate": "Saturday 3 Jan after push-up game in society gym/common exercise corner",
+        "mechanism": "Ankita reaches for a rolled mat or bag. A loose outer athletic layer catches briefly on its strap and slips slightly across one shoulder, showing the upper-back line and sport top beneath. She adjusts the outfit herself immediately; do not invent exposure of intimate areas or physical assistance.",
+        "reactionOrder": [
+          "Aman first notices and warns politely, informed by the earlier scooty boundary.",
+          "Karan makes one reflexive joke, pauses when she looks at him and pivots back to the push-up result.",
+          "Ankita knowingly fixes the strap, responds with a confident challenge, and is aware each brother reacted differently."
+        ],
+        "novelty": "First *garment shift* with these two; NOT first accidental proximity, touch, or chemistry.",
+        "knowledge": "Ankita knows exactly what slipped. Neither twin acquires permission to touch or to use the incident against her."
+      }
+    },
+    {
+      "id": "WORK-VIVAN-REYANSH-SANA",
+      "label": "Office design duo + QA colleague",
+      "kind": "VIVAN_REYANSH_ARE_NOT_BIOLOGICAL_TWINS",
+      "members": [
+        {
+          "name": "Vivan",
+          "age": 24,
+          "profession": "Design professional",
+          "expertise": "User journey, visual design and interaction decisions; asks how interfaces translate to API contracts."
+        },
+        {
+          "name": "Reyansh",
+          "age": 24,
+          "profession": "Design professional",
+          "expertise": "Prototype implementation coordination and UI flow rationale; asks about backend feasibility and performance."
+        },
+        {
+          "name": "Sana Khan",
+          "age": 24,
+          "profession": "QA Automation Engineer",
+          "expertise": "Creates API assertions, contract tests and QA failure cases; can challenge edge cases rather than become a passive third woman."
+        },
+        {
+          "name": "Ankita",
+          "age": 30,
+          "profession": "IT Tech Lead",
+          "expertise": "Owns technical mentoring, design-to-backend integration, REST/Spring Boot/SQL and test integration."
+        }
+      ],
+      "project": {
+        "name": "Mock Service Booking / Appointment Portal Prototype",
+        "objective": "A portfolio-style demo linking two designers' clickable UI flows to a Java Spring Boot REST backend and QA API automation.",
+        "roles": {
+          "Ankita": "Architecture, API contract, database design and code reviews.",
+          "Vivan": "Figma/interaction design, error and success states.",
+          "Reyansh": "Workflow screens and performance/accessibility critique; may coordinate a small frontend prototype only if actual skills agreed.",
+          "Sana": "Test plan, Postman or REST Assured/API regression, negative/edge test cases."
+        },
+        "policy": "Use only fictional/sample data and personally authorized demo assets; no confidential company production information in private home sessions.",
+        "reasonForMeeting": "They need a cross-functional portfolio prototype or genuine mentoring help, not contrived visits to Ankita's home."
+      },
+      "frequency": "Propose three evenings per week: Mon/Wed/Fri for 45–60 minutes, subject to employer policy and household schedule.",
+      "firstWeekCandidates": [
+        {
+          "date": "2026-01-05",
+          "day": "Monday",
+          "time": "18:10–19:00",
+          "location": "Office meeting space after working hours; first project kickoff",
+          "status": "SUGGESTED__NOT_BOOKED"
+        },
+        {
+          "date": "2026-01-07",
+          "day": "Wednesday",
+          "time": "19:15–20:15",
+          "location": "Ankita/Kabir shared home, only if invited and all household residents informed",
+          "status": "SUGGESTED__OUTSIDE_EP06"
+        },
+        {
+          "date": "2026-01-09",
+          "day": "Friday",
+          "time": "18:10–19:00",
+          "location": "Office meeting space or approved online session",
+          "status": "SUGGESTED__OUTSIDE_EP06"
+        }
+      ],
+      "alreadyEstablished": [
+        "1 Jan office five-person stamina/dance story included Vivan/Reyansh, Sana, Aishwarya and Ankita; car journey already gave proximity and playful office rapport.",
+        "2 Jan office had a separate Rohit encounter; no reason to pretend these two were present Friday 2 Jan."
+      ],
+      "firstAccidentalSlipProposal": {
+        "status": "REVIEW_AFTER_HOME_PAIR__NO_TIME_BOOKED",
+        "candidate": "A later team prototype session, if author selects an in-person setting",
+        "mechanism": "Reaching across a wide desk to reset a monitor/cable makes the strap of Ankita's loose cardigan shift momentarily over her shoulder, revealing an ordinary athletic/casual top underneath. She corrects it, no forced prolonged gaze.",
+        "reactions": "Vivan briefly loses his prepared technical line and refocuses; Reyansh notices a practical cable problem and instinctively shifts the monitor, not her clothing; Sana remains an active collaborator and restores project pace.",
+        "continuity": "Not a first-ever shared close-space moment; car and dance history already exist."
+      }
+    },
+    {
+      "id": "HR-AISHWARYA-KARAN",
+      "label": "Optional independent HR interview / MBA career mentor",
+      "kind": "NOT_PART_OF_TECHNICAL_TUITION",
+      "members": [
+        {
+          "name": "Aishwarya Rao",
+          "age": 24,
+          "profession": "HR Executive / Event Coordination",
+          "role": "Interview structures, CV feedback, behavioral answers, recruiting expectations, workplace communication; NO asserted Java/backend teaching, finance/MBA specialization or guaranteed business consulting knowledge."
+        },
+        {
+          "name": "Karan",
+          "age": 22,
+          "profession": "MBA preparation and freelancing",
+          "role": "Requests practical hiring, aptitude/interview confidence and presentation feedback; separate from brother Aman's Java studies."
+        }
+      ],
+      "introduction": "No verified prior direct Karan–Aishwarya acquaintance in the preserved Jan1 pickup: office group went back before the brothers arrived. Ankita may make a voluntary professional introduction by message/phone with both consenting, rather than implying they are already friends.",
+      "frequency": "Optional three sessions/week (Tue/Thu/Sat) only after both agree; first formal session outside 3–5 January Episode06.",
+      "firstWeekCandidates": [
+        {
+          "date": "2026-01-06",
+          "day": "Tuesday",
+          "time": "18:30–19:15",
+          "location": "Online or company/society common area after work, by mutual choice",
+          "status": "SUGGESTED__NOT_BOOKED"
+        },
+        {
+          "date": "2026-01-08",
+          "day": "Thursday",
+          "time": "18:30–19:15",
+          "location": "Online resume/interview drills",
+          "status": "SUGGESTED__NOT_BOOKED"
+        },
+        {
+          "date": "2026-01-10",
+          "day": "Saturday",
+          "time": "18:00–18:45",
+          "location": "Society common area or video, not automatically Ankita's home",
+          "status": "SUGGESTED__NOT_BOOKED"
+        }
+      ],
+      "outsideTechSession": "Aishwarya may attend group sessions as an invited observer/friend, but she has no obligation to sit through technical work and no reason to be written as a backend student.",
+      "romanticPlot": "Do not assume flirtation or attraction between Karan and Aishwarya merely because mentoring is proposed."
+    },
+    {
+      "id": "SOCIETY-AYAAN-ARMAAN",
+      "label": "Society JAM candidates · Ayaan and Armaan",
+      "kind": "PAIR__BIOLOGICAL_TWIN_RELATIONSHIP_UNCONFIRMED",
+      "members": [
+        {
+          "name": "Ayaan",
+          "age": 23,
+          "role": "Student candidate; exact background and qualification still open"
+        },
+        {
+          "name": "Armaan",
+          "age": 23,
+          "role": "Student candidate; exact background and qualification still open"
+        }
+      ],
+      "source": "cross-lead-ayaan-armaan-jam-2026.json",
+      "mentoringFit": "Shivani: primary Biology mentor approved. Meenakshi: in-principle biochemistry/chemistry support. Ankita: candidate for CBT interface, mock-test tooling, time analytics; NOT Physics tutor unless credible competence established.",
+      "schedule": "On Sat3 Shivani request candidate; Mon5 Shivani biology 06:45–07:45 proposed. Ankita may accept a future remote CBT setup only after Shivani communicates approved details. No Ankita in-person meeting yet.",
+      "firstAccidentalSlipProposal": {
+        "status": "RESERVED_ONLY__DO_NOT_STAGE_IN_EP06",
+        "reason": "Author wants caution as there is not sufficient Ankita-specific interaction history to justify a visual escalation. First demonstrate respectful academic rapport; later modest accidental clothing shift can be discussed without retconning first contact."
+      }
+    }
+  ],
+  "scheduleCollisionPolicy": [
+    "No Karan/Aman overlapping with approved Shivani/Kavya action candidates: Sunday 4 Jan Shivani 11:30–12:15, Kavya 16:30–17:05 are PROPOSED soft holds with transit buffers, not final dates.",
+    "Ankita's household contact is continuous possibility, not a schedule of constant intimate interactions.",
+    "Jan5 after-office session uses only Vivan/Reyansh/Sana/Ankita; Aishwarya has NO technical assignment and Karan has NO scheduled Aishwarya meeting on Monday.",
+    "Crossover on Jan3–5 with Taniya/Meenakshi/Shreya remains unbooked until all household availability is checked.",
+    "Rohan and Kabir exact professions and weekend work/childcare schedule are unconfirmed; no claim that husbands gave permission in advance. Coordinate household guests and work hours realistically.",
+    "Ayaan/Armaan are separate individuals from Karan/Aman, Vivan/Reyansh and faculty Harsh/Laksh."
+  ],
+  "episode06ImmediateSequence": [
+    "Ankita × Kabir marriage foundation is Scene01 author-locked order",
+    "Ankita × Shreya Uncle evidence comparison needs author confirmation of placement",
+    "Ankita × Karan/Aman household push-up challenge and proposed mild workout garment shift, time still candidate",
+    "Ankita × office technical group: Monday kickoff only if approved",
+    "Shivani-based JAM mentorship contact for Ankita technical CBT role optional, no invented physics class"
+  ],
+  "nextAuthorDecision": "Approve or revise Karan/Aman first mild accidental gym strap/outerwear moment, including which twin sees it first. Then choose details of the technical after-hours project and proposed weekly schedule."
+}
