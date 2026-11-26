@@ -14,7 +14,7 @@ const ep06=read('src/Episode06LeadPlanning.tsx');
 const leads=['ankita','shivani','taniya','meenakshi','shreya'];
 const episodes=['04A','04B','05','06'];
 
-for(const name of leads)assert.match(nav,new RegExp("['\\\"]"+name+"['\\\"]"),'Missing navigable wife '+name);
+for(const name of leads)assert.ok(nav.includes("'"+name+"'"),'Missing navigable wife '+name);
 for(const ep of ['01','02','03',...episodes])assert.ok(nav.includes("'"+ep+"'"),'Missing episode '+ep);
 assert.ok(nav.includes("requestedLead"),'Episode links must preserve current wife');
 assert.ok(nav.includes("route(ep,w,mode)"),'Switching wife must preserve episode and mode');
