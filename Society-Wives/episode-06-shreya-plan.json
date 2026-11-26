@@ -31,7 +31,7 @@
         "Shreya and Vikram's original non-graphic Friday night reunion exists in Episode 05 original document and Reader scene 06B; do not repeat.",
         "Shruti is 23 and Shreya’s sister; sister training is author requested, method/time open.",
         "Samar and Shaan are confirmed 24-year-old biological twins; Shreya knows them from 1 January courtyard. Shruti's own romantic familiarity with either is not confirmed.",
-        "Karan and Aman are confirmed 22-year-old brothers in Ankita's household; no independent Shreya encounter is yet confirmed.",
+        "Karan and Aman (22) are established through Shreya's Episode 02 parking-gate interaction 08:13–08:15 and Episode 03 public cyber-safety college prep-room incident; they are NOT strangers. The college encounter is a separate working plot/review, not final prose.",
         "Rohas and Lokesh, both 24 in Shreya police training group, are a workplace duo, NOT biological twins.",
         "The original Shreya 3 Jan morning evidence reflection remains preserved in episode-05-reader.json#episode06MorningBridgeOriginal but belongs as EP06 context, not a rewrite of the Friday marital scene."
       ],
@@ -59,7 +59,7 @@
         {
           "id": "T2-05",
           "title": "Karan–Aman separate cross-lead opportunity",
-          "action": "Do not bring Karan/Aman into the same fitness group by default. Arrange a second credible household/technical-study contact only after the Ankita household timeline and Sunday holds are checked."
+          "action": "A second Shreya–Karan/Aman meeting needs a new legitimate purpose and clock; build on their established Jan1 parking-gate and public college prep-room familiarity. Do not invent a first introduction or overlap the Ankita household's planned time."
         },
         {
           "id": "T2-06",
@@ -73,7 +73,7 @@
   "nextScenes": [
     "Saturday Shreya–Shruti self-defence/fitness scene with each sister's distinct personality (proposed; clock open)",
     "Samar–Shaan existing society sports connection; separate optional Shruti pairing proposal, no instant mutual romance",
-    "Karan–Aman access via actual shared-family contact; date and separate session still need verification",
+    "Karan–Aman: continue verified 1 Jan gate acquaintance and working public-college encounter; choose a fresh purpose, date and separate session after availability audit",
     "Police peers Rohas–Lokesh, Meera, Kavita, Poonam and Anjali stay distinct workplace/coworker group, not biologic twins",
     "Shreya–Ankita private Uncle evidence comparison remains a follow-up and does not repeat discovery"
   ],
@@ -155,5 +155,11 @@
     ],
     "sourceCopiedVerbatim": true
   },
-  "episode06MorningBridge": "episode-05-reader.json#episode06MorningBridgeOriginal"
+  "episode06MorningBridge": "episode-05-reader.json#episode06MorningBridgeOriginal",
+  "sourceAuditCorrections": [
+    "2026-11-26: Confirmed from episode-02-shreya-plan.json and episode-03-shreya-jan01-proposed-timeline.json: Karan–Aman already met Shreya at parking gate (EP02 SR05, 08:13–08:15) and in the public college cyber-safety context. Earlier note saying no previous Shreya contact was incorrect.",
+    "Samar–Shaan (24) confirmed biological twin sports volunteers, with author-approved Episode 03 courtyard scene.",
+    "Rohas–Lokesh (24) are police workplace duo, NOT twins; female coworkers Meera 24, Kavita 23, Poonam 29, Anjali 36 are not twin sisters.",
+    "Shruti (23) is Shreya’s actual younger sister, not a police-workplace twin; her pairing with society sport twins is a proposed romance, not established canon."
+  ]
 }
