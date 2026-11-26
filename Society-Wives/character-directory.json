@@ -27,7 +27,10 @@
       "appearanceReference": "https://drive.google.com/file/d/1y5-YMWLqT1SV4qWD1nqxCu1PzwztUbQ6/view",
       "fitness": "Daily 25–30 min brisk walk and mobility stretches at Gulmohar Heights park; group trainer Vivek Rao is recurring society contact.",
       "dailyRoutine": "06:05 wake-up; 06:20–06:52 fitness; 07:03 breakfast; 07:19 getting ready; 08:05 company cab on 2026-01-01.",
-      "storyStatus": "EP02_WORKING_DRAFT"
+      "storyStatus": "EP02_WORKING_DRAFT",
+      "crossLeadPlotReferences": [
+        "Society-Wives/cross-lead-ayaan-armaan-jam-2026.json"
+      ]
     },
     {
       "id": "shivani",
@@ -51,7 +54,10 @@
       "proposedCommute": "Own scooty, 08:20 depart / 08:45 arrive / 15:45 depart / ~16:15 reach home (draft, traffic dependent)",
       "episodeTitleStatus": "PROPOSAL_ONLY_NOT_APPROVED",
       "discardedWorkingPlot": "The Winter Holiday Secret (all-home school-holiday Shivani schedule) is NOT CANON and must not be reused.",
-      "subjectProposal": "English Literature — BA final-year lecture group (proposal; not user-approved)"
+      "subjectProposal": "English Literature — BA final-year lecture group (proposal; not user-approved)",
+      "crossLeadPlotReferences": [
+        "Society-Wives/cross-lead-ayaan-armaan-jam-2026.json"
+      ]
     },
     {
       "id": "taniya",
@@ -67,7 +73,10 @@
         "task": "Care for shared flat while Soniya and Rahul are away for wedding preparations led by Soniya.",
         "notTask": "Taking over wedding preparation from Soniya",
         "schedule": "Not fixed"
-      }
+      },
+      "crossLeadPlotReferences": [
+        "Society-Wives/cross-lead-ayaan-armaan-jam-2026.json"
+      ]
     },
     {
       "id": "meenakshi",
@@ -77,7 +86,10 @@
       "home": "Kapoor household",
       "color": "#328f87",
       "husband": "nikhil",
-      "sourceStatus": "CURRENT_ATLAS"
+      "sourceStatus": "CURRENT_ATLAS",
+      "crossLeadPlotReferences": [
+        "Society-Wives/cross-lead-ayaan-armaan-jam-2026.json"
+      ]
     },
     {
       "id": "shreya",
@@ -92,7 +104,10 @@
       "episode02Status": "USER_ACCEPTED_WORKING_PLOT_STOPS_1315",
       "portraitSource": "Saved Shreya face reference only; three existing generated 2026-01-01 illustrations uploaded to project Drive folder",
       "sister": "shruti",
-      "sisterImageStatus": "USER_TO_SUPPLY_LATER"
+      "sisterImageStatus": "USER_TO_SUPPLY_LATER",
+      "crossLeadPlotReferences": [
+        "Society-Wives/cross-lead-ayaan-armaan-jam-2026.json"
+      ]
     }
   ],
   "people": [
@@ -3025,5 +3040,22 @@
       "shreyaWorkContext": "Office team only 3–4 serious greeting/briefing lines, no group flirtation today; focus Shreya × Keshav cabin accident first, deliberate second encounter pending author review.",
       "wardrobe": "Do not replicate one-button experiment; SC01 intact khaki uniform."
     }
-  }
+  },
+  "crossLeadSharedProjects": [
+    {
+      "id": "SW-CROSS-AYAAN-ARMAAN-JAM2026",
+      "title": "Ayaan and Armaan IIT JAM Biotechnology — five-lead mentor collaboration",
+      "source": "Society-Wives/cross-lead-ayaan-armaan-jam-2026.json",
+      "uiRoute": "#/study-circle",
+      "leads": [
+        "Ankita",
+        "Shivani",
+        "Taniya",
+        "Meenakshi",
+        "Shreya"
+      ],
+      "status": "AUTHOR_APPROVED_PLOT_FOUNDATION__EACH_SUBJECT_ROLE_PARTLY_PENDING",
+      "handoff": "Load canonical shared JSON before planning any of these leads' January 2026 encounters, education, or free time."
+    }
+  ]
 }
