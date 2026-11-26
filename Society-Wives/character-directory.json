@@ -29,7 +29,8 @@
       "dailyRoutine": "06:05 wake-up; 06:20–06:52 fitness; 07:03 breakfast; 07:19 getting ready; 08:05 company cab on 2026-01-01.",
       "storyStatus": "EP02_WORKING_DRAFT",
       "crossLeadPlotReferences": [
-        "Society-Wives/cross-lead-ayaan-armaan-jam-2026.json"
+        "Society-Wives/cross-lead-ayaan-armaan-jam-2026.json",
+        "Society-Wives/episode-06-cross-household-hold.json"
       ]
     },
     {
@@ -56,7 +57,8 @@
       "discardedWorkingPlot": "The Winter Holiday Secret (all-home school-holiday Shivani schedule) is NOT CANON and must not be reused.",
       "subjectProposal": "English Literature — BA final-year lecture group (proposal; not user-approved)",
       "crossLeadPlotReferences": [
-        "Society-Wives/cross-lead-ayaan-armaan-jam-2026.json"
+        "Society-Wives/cross-lead-ayaan-armaan-jam-2026.json",
+        "Society-Wives/episode-06-cross-household-hold.json"
       ]
     },
     {
@@ -75,7 +77,8 @@
         "schedule": "Not fixed"
       },
       "crossLeadPlotReferences": [
-        "Society-Wives/cross-lead-ayaan-armaan-jam-2026.json"
+        "Society-Wives/cross-lead-ayaan-armaan-jam-2026.json",
+        "Society-Wives/episode-06-cross-household-hold.json"
       ]
     },
     {
@@ -88,7 +91,8 @@
       "husband": "nikhil",
       "sourceStatus": "CURRENT_ATLAS",
       "crossLeadPlotReferences": [
-        "Society-Wives/cross-lead-ayaan-armaan-jam-2026.json"
+        "Society-Wives/cross-lead-ayaan-armaan-jam-2026.json",
+        "Society-Wives/episode-06-cross-household-hold.json"
       ]
     },
     {
@@ -106,7 +110,8 @@
       "sister": "shruti",
       "sisterImageStatus": "USER_TO_SUPPLY_LATER",
       "crossLeadPlotReferences": [
-        "Society-Wives/cross-lead-ayaan-armaan-jam-2026.json"
+        "Society-Wives/cross-lead-ayaan-armaan-jam-2026.json",
+        "Society-Wives/episode-06-cross-household-hold.json"
       ]
     }
   ],
@@ -3056,6 +3061,21 @@
       ],
       "status": "AUTHOR_APPROVED_PLOT_FOUNDATION__EACH_SUBJECT_ROLE_PARTLY_PENDING",
       "handoff": "Load canonical shared JSON before planning any of these leads' January 2026 encounters, education, or free time."
+    },
+    {
+      "id": "SW-EP06-CROSS-HOUSEHOLD-HOLD",
+      "title": "Jan 3–5 five-lead society/husbands crossover gating",
+      "source": "Society-Wives/episode-06-cross-household-hold.json",
+      "uiRoute": "#/planning?lead=shivani&part=06",
+      "leads": [
+        "Ankita",
+        "Shivani",
+        "Taniya",
+        "Meenakshi",
+        "Shreya"
+      ],
+      "status": "AUTHOR_DIRECTED_ON_HOLD_UNTIL_ALL_FIVE_THREE_DAY_PLOTS_AND_SPOUSE_AVAILABILITY",
+      "handoff": "Before planning next female EP06 or society interaction, read gate, match households, work/college duties, children and five main women; movie not booked."
     }
   ]
 }
