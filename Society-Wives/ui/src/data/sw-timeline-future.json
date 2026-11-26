@@ -10,7 +10,8 @@
     "Jan2 Episode 04 Chotu A/B proposals are under author review; earlier Rohit and Naveen plan records are retained as historical variants without double-booking Jan2.",
     "EP05 original source statuses reconciled as separate markers; older Jan2 proposals not deleted or marked as published. EP06 Jan3-5 is plot-only; index sort positions are not guaranteed event times.",
     "2026-11-26: Group D Boundary-Reversal physically approved in episode06; Kavya first linked-arm bridge candidate, NOT author-final. Society cross-household marker is an editorial hold and does not assert an in-universe 23:00 event.",
-    "2026-11-26: Ankita EP06 first marriage scene ordering approved; Jan3 gym and Jan5 technical demo times merely candidate windows. Aishwarya HR role separate, not a technical pupil; Karan–Aman home contact daily without appointment."
+    "2026-11-26: Ankita EP06 first marriage scene ordering approved; Jan3 gym and Jan5 technical demo times merely candidate windows. Aishwarya HR role separate, not a technical pupil; Karan–Aman home contact daily without appointment.",
+    "2026-11-26: Ankita Jan3–5 wife-wise Episode06 plot markers refreshed from user approvals: marriage-first, Saturday private Karan/Aman fitness look, flexible Aman study, direct Ayaan/Armaan CBT request, Monday Aishwarya HR favour and office project kickoff. Jan4 availability is not an invented canonical encounter. Wednesday Jan7 four office visitors arrive in Reyansh's same five-seater car; small overshirt-slip beat approved in plot but not written as final prose. Clock times remain candidate unless explicitly grounded."
   ],
   "events": [
     {
@@ -2382,7 +2383,7 @@
       "sort": "06:45",
       "start": null,
       "end": null,
-      "timeLabel": "First scene; ~06:45–07:20 placeholder",
+      "timeLabel": "Saturday · first Ankita EP06 scene; exact clock open",
       "universe": "sw",
       "title": "Ankita × Kabir · first EP06 marriage foundation",
       "lead": "Ankita",
@@ -2408,7 +2409,7 @@
         "No prose, accident or result has been written for this event",
         "Check five-household spouses, travel and outside lead availability before locking"
       ],
-      "detail": "Open with Ankita/Kabir relationship backstory, trust and familiar emotional comfort. No wedding date invented; prior Friday night affection is already in EP05."
+      "detail": "Open with Ankita/Kabir relationship backstory, trust and familiar emotional comfort. No wedding date invented; prior Friday night affection is already in EP05. Begin with marital foundation, then honor the existing EP05 morning reaction and Shreya comparison before arranging later household beats."
     },
     {
       "id": "ank06-03-gym-challenge-suggested",
@@ -2416,9 +2417,9 @@
       "sort": "07:30",
       "start": null,
       "end": null,
-      "timeLabel": "SATURDAY TIME TO REPLAN · previous 07:30–08:15 is NOT booked",
+      "timeLabel": "Saturday home workout · clock to align after marriage opening",
       "universe": "sw",
-      "title": "Ankita × Karan–Aman · pending gym challenge",
+      "title": "Ankita × Karan–Aman · approved home workout look + push-up challenge",
       "lead": "Ankita",
       "characters": [
         "Ankita",
@@ -2430,7 +2431,7 @@
       "scene": "ANK06-S03-KARAN-AMAN",
       "kind": "planned",
       "state": "review",
-      "status": "PENDING SATURDAY REORDER · REJECTED GYM-BAG SLIP NOT ACTIVE",
+      "status": "AUTHOR-AGREED PLOT / OUTFIT · CLOCK OPEN · PROSE NOT WRITTEN",
       "source": "episode-06-ankita-mentoring-setup.json",
       "reader": {
         "type": "sw-plan",
@@ -2439,13 +2440,11 @@
         "scene": "ANK06-S03-KARAN-AMAN"
       },
       "flags": [
-        "EDITORIAL TIME PROPOSAL only, not confirmed attendance",
-        "No prose, accident or result has been written for this event",
-        "Check five-household spouses, travel and outside lead availability before locking",
-        "2026-11-26 author explicitly rejected gym bag strap slip; no new accidental incident on Jan3",
-        "Keep marriage foundation first and respect Jan3 morning reaction plus Shreya evidence comparison"
+        "Exact Saturday timing not locked; ensure EP06 marriage-first scene and existing EP05 morning reactions come first",
+        "Home workout selected; former society-gym bag strap mechanism was rejected",
+        "Do not mislabel selected look as a promise, public exposure or published prose"
       ],
-      "detail": "Karan's original 20 pushups challenge remains pending; only timing and scoring need discussion. Aman remains a Java learner and daily household contact. The former strap incident is withdrawn; not an approved scene."
+      "detail": "At Malhotra home, Ankita willingly fulfills Karan's earlier workout-look request (not a promise), wearing the selected olive sports bra and athletic shorts in an indoor setting. Front/back look and brothers' distinct banter are the approved visual reference; 20-push-up challenge leads to exercise regardless of score. Aman can discuss Java/backend questions solo. A separate dining-table accident idea exists but is OPTIONAL/POSTPONABLE and is not part of the outfit visual."
     },
     {
       "id": "ank06-05-office-tech-group-candidate",
@@ -2468,7 +2467,7 @@
       "scene": "ANK06-S04-OFFICE",
       "kind": "planned",
       "state": "review",
-      "status": "MENTOR ROLES CONFIRMED · TECH SESSION CLOCK PROPOSED",
+      "status": "AUTHOR-AGREED CAST + KICKOFF IDEA · 18:10–19:00 CANDIDATE",
       "source": "episode-06-ankita-mentoring-setup.json",
       "reader": {
         "type": "sw-plan",
@@ -2481,7 +2480,358 @@
         "No prose, accident or result has been written for this event",
         "Check five-household spouses, travel and outside lead availability before locking"
       ],
-      "detail": "Legitimate sample booking app with UI/UX duo, Sana QA automation and Ankita Spring Boot APIs. Aishwarya is HR and no technical tuition participant. Longer Mon/Wed/Fri schedule and optional Aishwarya/Karan Tue/Thu/Sat are unbooked candidates."
+      "detail": "Reyansh/Vivan/Sana and Ankita plan sample Service Booking Portal: UI/UX, frontend workflow, REST/API architecture, QA. Monday work meeting; Aishwarya is not a backend student. Four-guest home visit planned Wednesday 7 January, not Monday."
+    },
+    {
+      "id": "ank06-03-evidence-compare",
+      "date": "2026-01-03",
+      "sort": "08:30",
+      "start": null,
+      "end": null,
+      "timeLabel": "Saturday · after existing morning reactions; clock open",
+      "universe": "sw",
+      "title": "Ankita × Shreya · compare their different EP05 evidence",
+      "lead": "Ankita",
+      "characters": [
+        "Ankita",
+        "Shreya"
+      ],
+      "mentions": [],
+      "episode": "06 plot",
+      "scene": "ANK06-S02-UNCLE-COMPARISON",
+      "kind": "planned",
+      "state": "review",
+      "status": "AUTHOR-APPROVED PLOT DIRECTION · TIME/PROSE OPEN",
+      "source": "episode-06-ankita-plan.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "ankita",
+        "part": "06",
+        "scene": "ANK06-S02-UNCLE-COMPARISON"
+      },
+      "flags": [
+        "EP05 reader already contains individual morning reactions; this is a follow-up, not a replay",
+        "Plot planning only; not new published prose"
+      ],
+      "detail": "After their separately written Saturday morning reactions, they compare what each actually knows, without giving Ankita Shreya's unseen parcel evidence. Exact contact medium and time not yet selected."
+    },
+    {
+      "id": "ank06-03-aman-doubts",
+      "date": "2026-01-03",
+      "sort": "13:00",
+      "start": null,
+      "end": null,
+      "timeLabel": "Saturday · flexible study, exact clock open",
+      "universe": "sw",
+      "title": "Aman × Ankita · flexible Java/backend doubt session",
+      "lead": "Ankita",
+      "characters": [
+        "Ankita",
+        "Aman"
+      ],
+      "mentions": [],
+      "episode": "06 plot",
+      "scene": "ANK06-S03-KARAN-AMAN",
+      "kind": "planned",
+      "state": "review",
+      "status": "AUTHOR-APPROVED PLOT DIRECTION · TIME/PROSE OPEN",
+      "source": "episode-06-ankita-mentoring-setup.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "ankita",
+        "part": "06",
+        "scene": "ANK06-S03-KARAN-AMAN"
+      },
+      "flags": [
+        "Avoid a made-up fixed tuition appointment for people who share a home",
+        "Plot planning only; not new published prose"
+      ],
+      "detail": "Household-based mentoring on Java, Spring Boot and mock interviews. Solo is allowed; later Sana/Vivan/Reyansh tech participation is optional rather than obligatory."
+    },
+    {
+      "id": "ank06-03-ayaan-armaan-direct",
+      "date": "2026-01-03",
+      "sort": "16:20",
+      "start": null,
+      "end": null,
+      "timeLabel": "Saturday 16:20–16:35 CANDIDATE",
+      "universe": "sw",
+      "title": "Ayaan–Armaan · direct CBT mentoring request to Ankita",
+      "lead": "Ankita",
+      "characters": [
+        "Ankita",
+        "Ayaan",
+        "Armaan"
+      ],
+      "mentions": [],
+      "episode": "06 plot",
+      "scene": "ANK06-S05-CROSS-MENTORS",
+      "kind": "planned",
+      "state": "review",
+      "status": "AUTHOR-APPROVED PLOT DIRECTION · TIME/PROSE OPEN",
+      "source": "ankita-ep06-home-workout-reference.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "ankita",
+        "part": "06",
+        "scene": "ANK06-S05-CROSS-MENTORS"
+      },
+      "flags": [
+        "Their own academic qualifications/registration and 1 Jan lift chronology still require source audit",
+        "Ankita is not automatically a Physics teacher",
+        "Plot planning only; not new published prose"
+      ],
+      "detail": "Existing 1 Jan contact can support their direct approach about IIT JAM Biotechnology computer-based mocks, timed practice and score analytics. They do not need Shivani as intermediary. Their biological twin relation is NOT confirmed. Initial academic rapport takes priority; accidental slip optional later."
+    },
+    {
+      "id": "ank06-04-family-calendar",
+      "date": "2026-01-04",
+      "sort": "12:30",
+      "start": null,
+      "end": null,
+      "timeLabel": "Sunday · flexible; no exact scene booked",
+      "universe": "sw",
+      "title": "Ankita × Kabir · hold for family plans and tutoring timetable",
+      "lead": "Ankita",
+      "characters": [
+        "Ankita",
+        "Kabir",
+        "Karan",
+        "Aman"
+      ],
+      "mentions": [],
+      "episode": "06 plot",
+      "scene": "ANK06-S01-MARRIAGE",
+      "kind": "planned",
+      "state": "review",
+      "status": "AUTHOR-APPROVED PLOT DIRECTION · TIME/PROSE OPEN",
+      "source": "episode-06-ankita-plan.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "ankita",
+        "part": "06",
+        "scene": "ANK06-S01-MARRIAGE"
+      },
+      "flags": [
+        "Editorial availability marker, NOT a confirmed in-universe event or encounter",
+        "Cross-household Sunday plans remain pending",
+        "Plot planning only; not new published prose"
+      ],
+      "detail": "Sunday is left flexible. The family may coordinate weekday office hours, Karan/Aman household study and two separate proposed JAM CBT appointments; no invented meeting or romantic encounter is booked."
+    },
+    {
+      "id": "ank06-05-aishwarya-favour",
+      "date": "2026-01-05",
+      "sort": "13:00",
+      "start": null,
+      "end": null,
+      "timeLabel": "Monday lunch · exact minutes open",
+      "universe": "sw",
+      "title": "Ankita asks Aishwarya to help Karan with CV/interviews",
+      "lead": "Ankita",
+      "characters": [
+        "Ankita",
+        "Aishwarya",
+        "Karan"
+      ],
+      "mentions": [],
+      "episode": "06 plot",
+      "scene": "ANK06-S04-OFFICE",
+      "kind": "planned",
+      "state": "review",
+      "status": "AUTHOR-APPROVED PLOT DIRECTION · TIME/PROSE OPEN",
+      "source": "episode-06-ankita-mentoring-setup.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "ankita",
+        "part": "06",
+        "scene": "ANK06-S04-OFFICE"
+      },
+      "flags": [
+        "Existing Karan–Aishwarya direct acquaintance not verified; plan a genuine introduction Wednesday",
+        "Aishwarya is HR, not Java/backend tutor",
+        "Plot planning only; not new published prose"
+      ],
+      "detail": "At Monday office lunch/coffee Ankita asks HR colleague Aishwarya for a voluntary mock-interview/CV communication session for her 22-year-old brother-in-law Karan (Kabir's younger brother). Aishwarya's earlier 1 Jan private-briefing follow-up remains a separate light teasing thread. Karan is NOT present at Monday office lunch, only discussed."
+    },
+    {
+      "id": "ank06-05-kabir-guest-discussion",
+      "date": "2026-01-05",
+      "sort": "20:00",
+      "start": null,
+      "end": null,
+      "timeLabel": "Monday evening OR Tuesday · clock pending",
+      "universe": "sw",
+      "title": "Ankita × Kabir · discuss Wednesday home guests",
+      "lead": "Ankita",
+      "characters": [
+        "Ankita",
+        "Kabir"
+      ],
+      "mentions": [],
+      "episode": "06 plot",
+      "scene": "ANK06-S04-OFFICE",
+      "kind": "planned",
+      "state": "review",
+      "status": "AUTHOR-APPROVED PLOT DIRECTION · TIME/PROSE OPEN",
+      "source": "episode-06-ankita-plan.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "ankita",
+        "part": "06",
+        "scene": "ANK06-S04-OFFICE"
+      },
+      "flags": [
+        "Kabir's profession/shift exact details not locked; do not assume he is home at a fixed hour",
+        "Plot planning only; not new published prose"
+      ],
+      "detail": "After office, Ankita tells Kabir that four adult colleagues (Vivan, Reyansh, Sana, Aishwarya) may come to their shared home Wednesday for a legitimate project demo. They coordinate household space, schedule and consent; Wednesday visit only after mutual practical agreement."
+    },
+    {
+      "id": "ank06-07-office-car-home-visit",
+      "date": "2026-01-07",
+      "sort": "19:00",
+      "start": null,
+      "end": null,
+      "timeLabel": "Wednesday evening · 19:15–20:15 session CANDIDATE",
+      "universe": "sw",
+      "title": "Reyansh's car · four guests visit Ankita's home",
+      "lead": "Ankita",
+      "characters": [
+        "Ankita",
+        "Vivan",
+        "Reyansh",
+        "Sana",
+        "Aishwarya"
+      ],
+      "mentions": [],
+      "episode": "06 plot",
+      "scene": "ANK06-S04-OFFICE",
+      "kind": "planned",
+      "state": "review",
+      "status": "AUTHOR-APPROVED PLOT DIRECTION · TIME/PROSE OPEN",
+      "source": "episode-03-ankita-scene-05-combined-surprise-ride.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "ankita",
+        "part": "06",
+        "scene": "ANK06-S04-OFFICE"
+      },
+      "flags": [
+        "Wednesday is after the Jan3–5 core period; later episode placement and household clearance pending",
+        "Plot planning only; not new published prose"
+      ],
+      "detail": "Same established 1 Jan five-seater car owned/driven by Reyansh. Seating continuity: Reyansh driver, Aishwarya front, Vivan–Ankita–Sana rear; no motorcycle or sixth passenger. They arrive for a project practice session and naturally meet household residents."
+    },
+    {
+      "id": "ank06-07-karan-aish-intro",
+      "date": "2026-01-07",
+      "sort": "19:25",
+      "start": null,
+      "end": null,
+      "timeLabel": "Wednesday · during home visit; clock tentative",
+      "universe": "sw",
+      "title": "Karan × Aishwarya · first proper HR mentoring introduction",
+      "lead": "Ankita",
+      "characters": [
+        "Ankita",
+        "Karan",
+        "Aishwarya",
+        "Aman",
+        "Sana",
+        "Vivan",
+        "Reyansh"
+      ],
+      "mentions": [],
+      "episode": "06 plot",
+      "scene": "ANK06-S04-OFFICE",
+      "kind": "planned",
+      "state": "review",
+      "status": "AUTHOR-APPROVED PLOT DIRECTION · TIME/PROSE OPEN",
+      "source": "episode-06-ankita-mentoring-setup.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "ankita",
+        "part": "06",
+        "scene": "ANK06-S04-OFFICE"
+      },
+      "flags": [
+        "Aishwarya's meeting purpose is Karan's HR/CV guidance; separate from technical work",
+        "Plot planning only; not new published prose"
+      ],
+      "detail": "Ankita introduces her brother-in-law Karan to Aishwarya, who offers CV/presentation/mock interview feedback; meanwhile Vivan/Reyansh/Sana prepare the service-booking demo with Ankita. Aman may ask a brief Java/QA question only if available. No automatic romantic implication."
+    },
+    {
+      "id": "ank06-07-workcorner-slip",
+      "date": "2026-01-07",
+      "sort": "19:45",
+      "start": null,
+      "end": null,
+      "timeLabel": "Wednesday · after team arrival, minute open",
+      "universe": "sw",
+      "title": "Ankita home work-corner · accidental overshirt slip",
+      "lead": "Ankita",
+      "characters": [
+        "Ankita",
+        "Vivan",
+        "Reyansh",
+        "Sana",
+        "Aishwarya"
+      ],
+      "mentions": [],
+      "episode": "06 plot",
+      "scene": "ANK06-S04-OFFICE",
+      "kind": "planned",
+      "state": "review",
+      "status": "AUTHOR-APPROVED PLOT DIRECTION · TIME/PROSE OPEN",
+      "source": "episode-06-ankita-mentoring-setup.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "ankita",
+        "part": "06",
+        "scene": "ANK06-S04-OFFICE"
+      },
+      "flags": [
+        "Author has approved the proposed beat, but no exact clock, dialogue or final prose is locked",
+        "Do not recycle Karan–Aman workout visuals or treat incidental visibility as consent",
+        "Plot planning only; not new published prose"
+      ],
+      "detail": "While connecting a demo monitor cable, the edge of Ankita's loose overshirt catches on a chair arm and shifts off one shoulder. Her sleeveless inner top remains properly worn. She adjusts the outer layer herself. Vivan is surprised, Reyansh fixes the cable, Sana discreetly signals, Aishwarya defuses tension; keep this modest and non-graphic. A separate approved-in-principle story beat, not a photo-documentary proof."
+    },
+    {
+      "id": "ank06-09-tech-review",
+      "date": "2026-01-09",
+      "sort": "18:10",
+      "start": null,
+      "end": null,
+      "timeLabel": "Friday 18:10–19:00 CANDIDATE",
+      "universe": "sw",
+      "title": "Office group · prototype progress review",
+      "lead": "Ankita",
+      "characters": [
+        "Ankita",
+        "Vivan",
+        "Reyansh",
+        "Sana"
+      ],
+      "mentions": [],
+      "episode": "06 plot",
+      "scene": "ANK06-S04-OFFICE",
+      "kind": "planned",
+      "state": "review",
+      "status": "AUTHOR-APPROVED PLOT DIRECTION · TIME/PROSE OPEN",
+      "source": "episode-06-ankita-mentoring-setup.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "ankita",
+        "part": "06",
+        "scene": "ANK06-S04-OFFICE"
+      },
+      "flags": [
+        "Future Friday continuation; not in Jan3–5 core timeline",
+        "Plot planning only; not new published prose"
+      ],
+      "detail": "Candidate Friday office/online code-and-design integration check after Wednesday group visit. Review UI flows, REST integration and QA test cases. Not a committed meeting until workload and calendars are agreed."
     }
   ],
   "sourcePolicy": " | Shreya January 3 working scenes SR10–SR13 were moved into the January 1 calendar by direct author instruction 2026-11-16, original plan archived in episode-03-shreya-plan-archive-jan03.json; no content removed from story source."
