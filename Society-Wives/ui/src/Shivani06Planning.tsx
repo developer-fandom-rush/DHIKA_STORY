@@ -15,6 +15,7 @@ export default function Shivani06Planning(){
   </header>
   <div className="chapter-controls">
    <button className="button primary" type="button" onClick={()=>openPage('sw-timeline',{date:'2026-01-03'})}>Universal Timeline · 3 Jan →</button>
+   <button className="button subtle" type="button" onClick={()=>openPage('study-circle')}>Shared five-lead JAM mentoring →</button>
    <button className="button subtle" type="button" onClick={()=>openPage('future-reference',{lead:'shivani'})}>Shivani Future Reference →</button>
    <button className="button subtle" type="button" onClick={()=>openPage('planning',{lead:'shivani',part:'A'})}>Earlier plot →</button>
   </div>
