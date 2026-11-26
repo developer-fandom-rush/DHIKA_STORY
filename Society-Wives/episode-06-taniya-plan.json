@@ -1,0 +1,379 @@
+{
+  "schemaVersion": 1,
+  "id": "SW-TANIYA-EP06-JAN03-05-AUTHOR-DIRECTION",
+  "title": "Taniya Episode 06 · 3–5 January · private coaching, sister call, three study-pair routes, Monday CA office",
+  "lead": "taniya",
+  "episode": "06",
+  "dateRange": [
+    "2026-01-03",
+    "2026-01-05"
+  ],
+  "timezone": "Asia/Kolkata",
+  "status": "AUTHOR_PLOT_DIRECTION_RECORDED__EDITOR_CLOCKS_PROPOSED__PROSE_NOT_WRITTEN",
+  "mode": "PLOT_ONLY__NO_NEW_FINAL_STORY_PROSE",
+  "sourcePriority": [
+    "source-vault/ep05-taniya-jan02.json (real and dream events explicitly separated)",
+    "episode-04b-taniya-author-updated-plan.json (Friday gym/Guddu/Punit continuity)",
+    "episode-03-taniya-solo-proposed-timeline.json (Raghav/Chirag/Neha/Andrea, Karan/Aman lobby contact)",
+    "episode-02-taniya-soniya-plan.json (Riya/Megha/Saloni earlier proposed records)",
+    "episode-06-karan-aman-shared-availability.json",
+    "cross-lead-ayaan-armaan-jam-2026.json",
+    "ui/src/data/sw-timeline-future.json"
+  ],
+  "canonLocks": [
+    "Taniya is 23, a Chartered Accountant and Aditya's fiancée, NOT married to Aditya. Soniya and Rahul are away handling wedding arrangements; she is in the shared flat on her own.",
+    "EP05 Friday night: real Subhash bathroom discovery, real Gopal cabin discovery, real Aditya video call. Later Gopal/Mahendra intimate continuation was only a DREAM, revealed in Saturday early-morning scene. Do not treat dream imagery as physical encounter or repeat Uncle fantasy in EP06 scene one.",
+    "EP05 end: Taniya did NOT complete Vivek Rao's building access with Gopal; resolve security access separately before a real 05:00 Saturday visit.",
+    "Vivek Rao 30 is society gym trainer; Vivek Suri 55 is CA office partner; not the same man and not the same type of appointment.",
+    "Past gym rapport and agreed form correction with Vivek Rao already exist. The proposed later intimate attraction is entirely between adults, requires clear agreement at each stage, and no intercourse takes place simply because an exercise session was booked.",
+    "Raghav and Chirag are two CA articled assistants/working duo (24), NOT biological twins. They know Taniya from prior office scenes; no fabricated first introduction.",
+    "Neha and Andrea have existing Episode03 office presence; Riya, Megha and Saloni appear in prior working sources. Do not erase source history, and do not create new Episode06 active scenes for any female coworkers.",
+    "Actual biological twins Karan and Aman (22) are Kabir's younger brothers. Taniya has an Episode03 proposed lobby collision with them; not strangers.",
+    "Ayaan and Armaan are an existing academic pair in Shivani's IIT JAM preparation track; biological twin status remains unconfirmed. Do not divert Biology tutoring to Taniya or duplicate earlier mentors.",
+    "An on-page guest invitation is not permission for sexual contact. Consent and practical scheduling are distinct.",
+    "This author-requested future romantic storyline is only a future direction; the Episode06 scenes below do not pre-approve or depict intercourse."
+  ],
+  "groups": {
+    "trainer": {
+      "members": [
+        "Taniya",
+        "Vivek Rao"
+      ],
+      "role": "Recurring 05:00 home coaching by explicit adult invitation",
+      "cadence": "Daily 3/4/5 Jan morning 05:00–05:45/05:55 proposed; future cadence by their independent agreement"
+    },
+    "officeTuition": {
+      "members": [
+        "Taniya",
+        "Raghav",
+        "Chirag"
+      ],
+      "role": "CA articleship/audit working practice + home mock, not a biological twin tuition",
+      "cadence": "First home lesson Sun4 11:00–11:55 candidate, Mon5 office callback, recurring home sessions only after availability check"
+    },
+    "societyTwins": {
+      "members": [
+        "Taniya",
+        "Karan",
+        "Aman"
+      ],
+      "role": "Karan MBA accounting/cashflow explanation, Aman only if interested; independent adult acquaintances",
+      "cadence": "Sun4 13:15–14:00 tentative in-gap visit after Shivani Group A, before Kavya; requires cross-household reconfirmation"
+    },
+    "jamPair": {
+      "members": [
+        "Taniya",
+        "Ayaan",
+        "Armaan"
+      ],
+      "role": "Optional basic quantitative reasoning/time budgeting, NOT Biotechnology teacher or confirmed biological twins",
+      "cadence": "Sunday message/introduction only; no fixed home tuition before direct request and mentor feasibility"
+    },
+    "family": {
+      "members": [
+        "Taniya",
+        "Soniya",
+        "Aditya"
+      ],
+      "role": "Saturday Soniya phone about visitor scheduling and affectionate double-meaning teasing; Aditya existing fiancé contact not rewritten",
+      "cadence": "Phone Sat3 09:15–09:30 proposal"
+    },
+    "officeSeniors": {
+      "members": [
+        "Taniya",
+        "Vivek Suri",
+        "Pradeep Khanna",
+        "Punit"
+      ],
+      "role": "Monday actual CA business at office; Vivek Suri review weekly candidate, no improvised private trainer session",
+      "cadence": "Mon5 10:30–19:30 work candidate, mid-afternoon senior review"
+    }
+  },
+  "scenes": [
+    {
+      "id": "TAN06-S01-RAO-0500",
+      "order": 1,
+      "date": "2026-01-03",
+      "start": "05:00",
+      "end": "05:55",
+      "title": "Saturday 05:00 · Vivek Rao comes to Taniya's home",
+      "location": "Tower C · shared flat, private exercise/common area",
+      "characters": [
+        "Taniya",
+        "Vivek Rao"
+      ],
+      "status": "USER_REQUESTED_VISIT_AND_FUTURE_CONSENT_DIRECTION__EDITOR_TIME_BUFFER",
+      "beats": [
+        {
+          "id": "T1-A",
+          "label": "04:40–04:58 · Dream-to-reality transition and access",
+          "action": "Keep EP05's early-morning dream wake as source history, without a fresh Uncle fantasy. Taniya verifies the trainer's entry with society visitor control directly. No invented Gopal confrontation or prior permission."
+        },
+        {
+          "id": "T1-B",
+          "label": "05:00–05:12 · Honest private discussion",
+          "action": "Taniya and Vivek explicitly establish that today's session is in her home, clarify mutual comfort, and speak openly about her curiosity, attraction and the difference between ordinary physical fitness and intimate choices. Vivek must ask before any close contact."
+        },
+        {
+          "id": "T1-C",
+          "label": "05:12–05:35 · First-day exercises",
+          "action": "Pelvic-floor awareness/Kegel contractions, breathing, posture and clothed seated balance practise. Their existing workout familiarity permits a close partner-supported balance variation only when Taniya agrees; pause/check/reposition if uncomfortable. Do not pretend Kegels require sexual contact."
+        },
+        {
+          "id": "T1-D",
+          "label": "05:35–05:48 · New emotional beat",
+          "action": "The session feels more personal than an ordinary gym class. Taniya verbally chooses the boundaries of closeness, notices her attraction toward Vivek and privately struggles to name it; the later intimate trajectory remains prospective, not an act performed today."
+        },
+        {
+          "id": "T1-E",
+          "label": "05:48–05:55 · Exit",
+          "action": "Trainer leaves through the logged visitor route, Taniya resets the flat and her Saturday plans. No Uncle flashback inserted."
+        }
+      ]
+    },
+    {
+      "id": "TAN06-S02-SONIYA-CALL",
+      "order": 2,
+      "date": "2026-01-03",
+      "start": "09:15",
+      "end": "09:30",
+      "title": "Saturday · Sister Soniya teases Taniya about inviting male study visitors",
+      "location": "Taniya's home ↔ Soniya/Rahul off-site wedding planning (exact destination unknown)",
+      "characters": [
+        "Taniya",
+        "Soniya"
+      ],
+      "status": "USER_DIALOGUE_DIRECTION__EDITOR_TIME",
+      "beats": [
+        {
+          "id": "T2-A",
+          "label": "Wedding logistics check",
+          "action": "Taniya asks whether she can host short adult study sessions at their shared flat while Soniya and Rahul are away. Soniya is responsible for wedding arrangements, not Taniya."
+        },
+        {
+          "id": "T2-B",
+          "label": "Older sister banter",
+          "action": "Soniya jokingly calls Taniya grown up for entertaining male classmates/colleagues and teases her with double meanings. Taniya is embarrassed but playful, not pressured into romantic commitments."
+        },
+        {
+          "id": "T2-C",
+          "label": "Practical permission",
+          "action": "Soniya accepts limited study visits to the common room after Taniya confirms visitor registration, suitable hours and responsibility for the household. This is use-of-home permission, not permission for intimacy."
+        }
+      ]
+    },
+    {
+      "id": "TAN06-S03-RAO-SUNDAY",
+      "order": 3,
+      "date": "2026-01-04",
+      "start": "05:00",
+      "end": "05:45",
+      "title": "Sunday · second 05:00 Vivek Rao private coaching",
+      "location": "Tower C · common exercise corner",
+      "characters": [
+        "Taniya",
+        "Vivek Rao"
+      ],
+      "status": "RECURRING_MORNING_DIRECTION__EDITOR_CLOCK",
+      "beats": [
+        {
+          "id": "T3-A",
+          "label": "Technique follow-up",
+          "action": "Review Saturday's pelvic-floor and movement practice with realistic rest, breathing and form correction; no new intimacy assumed by yesterday's agreement."
+        },
+        {
+          "id": "T3-B",
+          "label": "Connection",
+          "action": "Taniya asks Vivek questions about changing their routine and how they want to handle attraction outside professional gym coaching; he respects her response and exits on schedule."
+        }
+      ]
+    },
+    {
+      "id": "TAN06-S04-CA-HOME-LESSON",
+      "order": 4,
+      "date": "2026-01-04",
+      "start": "11:00",
+      "end": "11:55",
+      "title": "Sunday · Raghav–Chirag first CA doubts session at Taniya's home",
+      "location": "Tower C · living-room study desk",
+      "characters": [
+        "Taniya",
+        "Raghav",
+        "Chirag"
+      ],
+      "status": "USER_HOME_TUITION_DIRECTION__CLOCK_EDITOR_CANDIDATE",
+      "beats": [
+        {
+          "id": "T4-A",
+          "label": "Invitation, not surprise visit",
+          "action": "Raghav and Chirag request help with an audit/tax/articleship practice case; both know Taniya from CA office but receive her address only through an authorized invitation."
+        },
+        {
+          "id": "T4-B",
+          "label": "Distinct personalities",
+          "action": "Raghav leads questions and banter, Chirag notices accounting errors and responds with drier humour. Taniya sets a short revision agenda rather than inventing a new first meeting."
+        },
+        {
+          "id": "T4-C",
+          "label": "First new accidental wardrobe beat",
+          "action": "Taniya's lightweight overshirt catches briefly on the study lamp support as she stands to pin a case sheet; the outer layer shifts, making an already-worn athletic underlayer momentarily visible. She corrects it herself, both guests redirect attention to the problem, and the class continues. Not the earlier Episode03 filing-drawer/waist-support incident; no nudity or engineered accident."
+        },
+        {
+          "id": "T4-D",
+          "label": "Plan next study",
+          "action": "They agree to bring their own case summaries to Monday's CA office. Home tuition can recur when convenient; it does not replace office work."
+        }
+      ]
+    },
+    {
+      "id": "TAN06-S05-SOCIETY-TWINS",
+      "order": 5,
+      "date": "2026-01-04",
+      "start": "13:15",
+      "end": "14:00",
+      "title": "Sunday · Karan–Aman MBA-finance help and familiarity callback",
+      "location": "Tower C · living-room desk or nearby common study area",
+      "characters": [
+        "Taniya",
+        "Karan",
+        "Aman"
+      ],
+      "status": "CROSSLEAD_CANDIDATE_ONLY__FIVE_LEAD_GATE_NOT_YET_CLEARED",
+      "beats": [
+        {
+          "id": "T5-A",
+          "label": "History recalled",
+          "action": "They already know Taniya from a 1 Jan society/lobby interaction in the Episode03 working plot; no duplicate introduction. Both are Ankita/Kabir household twins."
+        },
+        {
+          "id": "T5-B",
+          "label": "Useful academic reason",
+          "action": "Karan requests MBA financial-accounting/cashflow revision. Aman attends only if he chooses; his separate Java studies with Ankita do not become compulsory CA tuition."
+        },
+        {
+          "id": "T5-C",
+          "label": "Independent reactions",
+          "action": "Brief friendly banter and respectful social familiarity; no invented sexual accident. Their existing Shivani Group A slot ends 12:15 with buffer before 13:15, and Kavya slot starts 16:30 with buffer afterward."
+        }
+      ]
+    },
+    {
+      "id": "TAN06-S06-AYAAN-ARMAAN-HOLD",
+      "order": 6,
+      "date": "2026-01-04",
+      "start": null,
+      "end": null,
+      "title": "Sunday · Ayaan–Armaan academic-pair introduction only if requested",
+      "location": "Phone/chat routed through existing academic contact (not yet booked)",
+      "characters": [],
+      "mentions": [
+        "Taniya",
+        "Ayaan",
+        "Armaan"
+      ],
+      "status": "FUTURE_ONLY__NO_PHYSICAL_APPOINTMENT__EXAM_FIT_TO_CONFIRM",
+      "beats": [
+        {
+          "id": "T6-A",
+          "label": "No false twin identity",
+          "action": "Biological twin status not source-confirmed. If Taniya is approached, she may explain quantitative/time-budgeting methods, but IIT JAM Biology remains with its existing mentors; no automatic home visit or first physical encounter."
+        }
+      ]
+    },
+    {
+      "id": "TAN06-S07-RAO-MONDAY",
+      "order": 7,
+      "date": "2026-01-05",
+      "start": "05:00",
+      "end": "05:45",
+      "title": "Monday · early Vivek Rao coaching before CA office",
+      "location": "Tower C · exercise area",
+      "characters": [
+        "Taniya",
+        "Vivek Rao"
+      ],
+      "status": "RECURRING_MORNING_DIRECTION__EDITOR_CLOCK",
+      "beats": [
+        {
+          "id": "T7-A",
+          "label": "Early third session",
+          "action": "Training and open conversation continue with a refreshed consent check. Taniya and Vivek acknowledge their increasing personal rapport; no particular future sexual act is presented as a completed morning event."
+        },
+        {
+          "id": "T7-B",
+          "label": "Return to working day",
+          "action": "Finish by 05:45 so Taniya can prepare for ordinary CA-office day without rushed commute assumptions."
+        }
+      ]
+    },
+    {
+      "id": "TAN06-S08-MONDAY-CA-OFFICE",
+      "order": 8,
+      "date": "2026-01-05",
+      "start": "10:30",
+      "end": "19:30",
+      "title": "Monday · Taniya back at CA firm; Raghav–Chirag, Punit and seniors",
+      "location": "Existing CA firm · working floor and review room",
+      "characters": [
+        "Taniya",
+        "Raghav",
+        "Chirag",
+        "Punit",
+        "Vivek Suri",
+        "Pradeep Khanna"
+      ],
+      "status": "USER_MONDAY_RETURN__EDITOR_WORK_WINDOW",
+      "beats": [
+        {
+          "id": "T8-A",
+          "label": "10:30–12:15 · back to work",
+          "action": "Taniya receives ordinary audit/reconciliation assignments. Raghav and Chirag continue as her office duo and recall Sunday's accounting exercises without making the office into a repeat of the earlier filing-drawer accident."
+        },
+        {
+          "id": "T8-B",
+          "label": "12:15–13:00 · Punit callback",
+          "action": "Punit handles records/printing as his established role; continue his Friday incident's interpersonal aftermath, without inventing a second accidental show."
+        },
+        {
+          "id": "T8-C",
+          "label": "16:00–16:25 · Vivek Suri professional review",
+          "action": "Vivek Suri (55) is a senior partner reviewing Taniya's CA work; distinct from 05:00 private gym trainer Vivek Rao (30). Office review is Monday business, not a daily sexual-coaching slot. His precise weekly cadence remains pending professional calendar."
+        },
+        {
+          "id": "T8-D",
+          "label": "19:30 · exit",
+          "action": "End work without invented unplanned visitors. Wedding coordination, visitors and next tutorials can be discussed on later dates."
+        }
+      ]
+    }
+  ],
+  "futureAuthorDirection": {
+    "vivekRao": "The author wants repeated early private sessions, increasingly close consensual physical work and frank adult discussion, with Taniya attracted to Vivek Rao and a future consensual sexual relationship before the wedding. No sex act is locked to Jan3–5; each new physical boundary must be chosen by Taniya and agreed by Vivek, not implied by gym services.",
+    "officeRaghavChirag": "A recurring visiting study lane with playful relationship ambiguity is desired; current tutoring is legitimate CA subject work. Raghav and Chirag are not biological twins.",
+    "societyKaranAman": "Potential further social/romantic contact remains for later discussion; this episode only proposes a credible finance-study callback and respects household holds.",
+    "academicAyaanArmaan": "They are a separate academic pair, not confirmed twins; only help in Taniya's accounting/quantitative expertise if requested.",
+    "soc_Future": "Further relationships, accidental glimpses or private adult scenes are future author decisions, not an excuse to rewrite already-authored EP03/04B/05."
+  },
+  "excludedFromActiveEpisode06FemaleCoworkers": [
+    "Neha",
+    "Andrea",
+    "Riya",
+    "Megha",
+    "Saloni"
+  ],
+  "historicalOfficeWomenPreserved": {
+    "Neha": "EP02 planned, EP03 active office circle with Andrea",
+    "Andrea": "EP03 author-selected office duo; she is not Riya renamed",
+    "Riya": "EP02 previous plan TS12/TS14; not active in EP06",
+    "Megha": "EP02 previous plan TS13; not active in EP06",
+    "Saloni": "EP02 previous plan TS14 and EP03 supporting logistics message; not active in EP06"
+  },
+  "schedulePolicies": [
+    "Saturday 5 AM private trainer visit needs independent gate/visitor registration because the Friday Gopal notification was missed.",
+    "Saturday 15:00–15:25 Shivani/Ayaan/Armaan and 16:20–16:35 Ankita/Ayaan/Armaan are unaffected; Taniya does not attend.",
+    "Sunday Karan/Aman 11:30–12:15 Shivani Group A, 16:30–17:05 Kavya remain editor holds, with Sunday Taniya 13:15–14:00 separated by buffers.",
+    "The whole five-lead society encounter gate is still open; the Sunday Karan/Aman meeting is a candidate, not a confirmed published fact.",
+    "Monday Taniya CA work begins 10:30 and ends 19:30 as existing office workday baseline; the 5AM gym does not overlap.",
+    "No reader prose, dream source or old female office records are deleted by this plot."
+  ]
+}
