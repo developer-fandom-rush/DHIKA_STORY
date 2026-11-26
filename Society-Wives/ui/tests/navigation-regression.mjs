@@ -65,7 +65,8 @@ for(const ep of sh06.sceneOrder){
  assert.ok(t,'Global Timeline missing Shreya plot scene '+ep.id);
 }
 const hm=s=>s.split(':').map(Number).reduce((a,b)=>a*60+b,0);
-const dated=future.events.filter(x=>['2026-01-03','2026-01-04','2026-01-05'].includes(x.date)&&x.start&&x.end&&!x.flags?.includes('PARALLEL_SEPARATE_LOCATIONS__NOT_COLOCATED'));
+const nonBookings=['PARALLEL_SEPARATE_LOCATIONS__NOT_COLOCATED','HOUSEHOLD_PRESENCE_ENVELOPE_NOT_ADDITIONAL_SCENE','DUTY_ENVELOPE_NOT_ADDITIONAL_SCENE','RECAP_ONLY','RECAP_ONLY_NOT_JOINT_MEETING'];
+const dated=future.events.filter(x=>['2026-01-03','2026-01-04','2026-01-05'].includes(x.date)&&x.start&&x.end&&!x.flags?.some(f=>nonBookings.includes(f)));
 for(let i=0;i<dated.length;i++)for(let k=i+1;k<dated.length;k++){
  const a=dated[i],b=dated[k];
  if(a.date!==b.date||hm(a.start)>=hm(b.end)||hm(b.start)>=hm(a.end))continue;
@@ -74,6 +75,23 @@ for(let i=0;i<dated.length;i++)for(let k=i+1;k<dated.length;k++){
 }
 const twinsCross=JSON.parse(readFileSync(resolve(root,'episode-06-karan-aman-shared-availability.json'),'utf8'));
 assert.ok(/EP02/.test(twinsCross.fiveLeadLinks.find(x=>x.lead==='Shreya')?.existing||''),'Restore confirmed Shreya Karan/Aman EP02 acquaintance');
+const family=JSON.parse(readFileSync(resolve(root,'episode-06-household-spouse-availability.json'),'utf8'));
+assert.deepEqual(family.husbands.map(x=>x.id).sort(),['Kabir','Rohan','Vikram'],'Husband availability must be recorded separately for all 3 men');
+assert.deepEqual(family.shreyaPoliceRoster.map(x=>x.leave),[false,false,false],'Shreya must have no leave for Jan3–5 in selected fictional roster');
+assert.deepEqual(family.shreyaPoliceRoster.map(x=>x.shift),['08:30–16:30','08:00–13:00','08:00–17:00'],'Selected Shreya station shifts must match story plan');
+for(const [date,shift] of [['2026-01-03','08:30'],['2026-01-04','08:00'],['2026-01-05','08:00']]){
+ const envelope=future.events.find(x=>x.id==='shr06-'+date.slice(-2)+'-duty-envelope');
+ assert.equal(envelope?.start,shift,'Missing expected police duty window on '+date);
+}
+const allVisuals=[1,2,3,4].map(n=>'assets/shreya-ep06-visual-concept-0'+n+'.svg');
+for(const filename of allVisuals){
+ assert.ok(existsSync(resolve(root,filename)),'Shreya original concept preview missing from GitHub '+filename);
+ assert.ok(ep06.includes(filename),'Shreya concept gallery must display uploaded image '+filename);
+ const svg=readFileSync(resolve(root,filename),'utf8');
+ assert.match(svg,/data:image\\/webp;base64,/,'Shreya preview must contain actual image data');
+}
+assert.ok(ep06.includes('Husband whereabouts · Jan 3–5'),'Husband whereabouts section missing from UI');
+console.log('PASS Shreya visuals, 3 husbands and no-leave police roster.');
 console.log('PASS Shreya 3-day rematch/changing-area/flat-study and cross-lead no-overlap checks.');
 console.log('PASS EP05 original marriage ending and EP06 morning handoff contract.');
 console.log('PASS episode navigation contract: Reader/Plot, EP04B/05/06, all five wives, preserved sources, EP06 images.');
