@@ -393,5 +393,12 @@
     "grokWordBudget": "300–400 per selected expanded microbeat when author assigns, not for ordinary banter."
   },
   "editorialDecision": "New author-directed outline is active for discussion; no scene prose or FINAL/APPROVED text has been written.",
-  "revisionNote20261122": "Author correction: Punit first encounter must genuinely happen by accident. 'Body modification' for Guddu means intentional visual presentation of curves through gymwear and posture with exact one-third (1/3) cleavage visibility, back, tight leggings, and Taniya enjoying the teasing; no anatomical alteration. Previous intentional-staging proposals revoked."
+  "revisionNote20261122": "Author correction: Punit first encounter must genuinely happen by accident. 'Body modification' for Guddu means intentional visual presentation of curves through gymwear and posture with exact one-third (1/3) cleavage visibility, back, tight leggings, and Taniya enjoying the teasing; no anatomical alteration. Previous intentional-staging proposals revoked.",
+  "sharedStudyCircleHandoff": {
+    "projectId": "SW-CROSS-AYAAN-ARMAAN-JAM2026",
+    "source": "cross-lead-ayaan-armaan-jam-2026.json",
+    "uiRoute": "#/study-circle",
+    "lead": "Taniya",
+    "info": "Read shared mentor responsibilities and open skill/time questions before placing January scenes. Adding this pointer does not approve a new physical or tuition scene."
+  }
 }
