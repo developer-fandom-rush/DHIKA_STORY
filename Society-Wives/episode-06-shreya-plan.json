@@ -8,186 +8,236 @@
     "2026-01-04",
     "2026-01-05"
   ],
-  "status": "AUTHOR_DIRECTION_LOCKED__SCENE_ORDER_AND_GROUPS__EXACT_CLOCKS_AND_FINAL_PROSE_OPEN",
-  "title": "Shreya Episode 06 — Saturday to Monday twin mentoring, rematch and professional continuities",
-  "authorDirection": "Friday 2 January closes Episode 05 with existing original Shreya–Vikram marital prose and existing Uncle discovery. Do not repeat them in Episode 06. Saturday morning begins with Shreya's longstanding society twins Samar–Shaan gym rematch; they win, tease about pending bets, then ask for preparation support for competitive civil-service exams. Shreya brings her younger adult sister Shruti into the four-person study group. Shreya's changing police-duty roster means tutoring is by arrangement, never a fictional fixed daily class. Karan–Aman are a separate future lane, not active in these three days. Police station training remains independent and already established.",
+  "status": "USER_PLOT_DIRECTION_RECORDED__EDITOR_TIMING_RECONCILED__NOT_FINAL_PROSE",
+  "title": "Shreya Episode 06 — Society twins rematch, sister study and next police training round",
+  "authorDirection": "Shreya's Uncle discoveries and Shreya–Vikram intimate marriage closing already happened in Episode05; do not repeat. Episode06 is Saturday 3 through Monday 5 January 2026. Samar–Shaan beat Shreya in separate gym rematches; they revive old lighthearted wagers, then request exam-study guidance. Shreya recruits her sister Shruti for the four-person IAS/competitive-exam study circle. A private changing-room sightline accident follows the workout: Samar and Shaan momentarily see Shreya in her bra, Shreya notices and secures privacy; their established rapport continues. Bachelor twin flat is an established user-directed recurring study setting. Karan–Aman are prior Shreya acquaintances but held outside this three-day active plot. Existing police unit continues its professional training with an advanced new drill, not another flag-capture replay.",
   "sceneOrder": [
     {
       "id": "SHR06-S01-GYM-REMATCH",
       "order": 1,
-      "title": "Saturday · Samar and Shaan win their gym rematches; genuine study request",
+      "title": "Saturday · Samar–Shaan win rematches, ask for exam mentoring; changing-room accident",
       "date": "2026-01-03",
-      "time": "Morning candidate · exact clock unconfirmed",
-      "location": "Existing Gulmohar Heights fitness corner / gym (do not invent an event)",
+      "time": "10:15–11:20 (editor-proposed clock, not final)",
+      "location": "Gulmohar Heights gym / adjoining private changing cubicle",
       "cast": [
-        "Shreya, 33",
-        "Samar, 24",
-        "Shaan, 24"
+        "Shreya",
+        "Samar",
+        "Shaan"
       ],
-      "status": "USER_SELECTED_DIRECTION__SCENE_CLOCK_AND_WORDING_OPEN",
-      "purpose": "Pay off previously established gym bets, then reveal meaningful competitive-exam aspirations and create a credible reason for continued four-person contact.",
+      "status": "USER_DIRECTION_CAPTURED__CLOCK_EDITOR_PROPOSED__PROSE_NOT_WRITTEN",
+      "purpose": "Cash in earlier plank/balance bets with new result, create a real reason for study group, and establish one distinct brief accidental changing-area sightline.",
       "existingAnchors": [
-        "Episode02 SR01: Shreya previously won Samar's two-minute plank and Shaan's single-leg balance challenge; Samar's coffee appeal and Shaan's conditional saree/get-together remark remain unresolved rather than being debts she already owes.",
-        "Episode03 SR12: resistance-band balance recovery involved Samar briefly supporting upper back/outer arm and Shaan clothed side-waist. No prior breast contact or unclothed view for these two.",
-        "Samar's energetic teasing and Shaan's quieter, observant personality remain distinct.",
-        "Both brothers are adult bachelor roommates in the user's new setup; the exact apartment and private study suitability are author-proposed additions, not an earlier approved fact."
+        "Episode02 SR01 06:55–07:28 on 1 Jan: Shreya won Samar's two-minute plank and Shaan's single-leg balance competition; Samar's coffee bet and Shaan's tentative saree/get-together condition remain unresolved and subject to their mutual teasing.",
+        "Episode03 1 Jan ~5:19 PM: during resistance-band recovery Samar supported Shreya's upper back and outer arm, Shaan her clothed side-waist, with immediate release; no breast touch or changing-room view in that approved scene.",
+        "Samar is expressive and playful; Shaan is quieter and precise. Both are adults, brothers and already familiar training partners.",
+        "Sat Ankita × Shreya evidence-comparison placeholder is scheduled earlier, 08:40–09:05, with buffer before gym. Karan–Aman and Ayaan–Armaan are NOT in this scene."
       ],
       "beats": [
         {
           "id": "R1",
-          "title": "Friendly competition",
-          "action": "Shreya competes in a repeat plank/balance challenge; this time Samar and Shaan win honestly and separately; preserve the contrast in their personalities."
+          "title": "10:15–10:30 · Distinct rematches",
+          "action": "Samar wins the two-minute plank variation and Shaan wins a controlled single-leg balance rematch on merit; Shreya's competitive teasing and their established rapport continue. Do not replay the earlier resistance-band rescue."
         },
         {
           "id": "R2",
-          "title": "Old bets brought back",
-          "action": "They jokingly mention Samar's coffee appeal and Shaan's conditional saree/get-together suggestion, then stop short of turning clothing/romance into a debt or imposed condition."
+          "title": "10:30–10:42 · Old wager banter",
+          "action": "Samar reopens his coffee appeal; Shaan reminds Shreya of the earlier conditional saree/get-together remark. The twins mischievously build suspense about what they will ask before revealing their real request."
         },
         {
           "id": "R3",
-          "title": "The real request",
-          "action": "They explain their interest in civil service / IAS preparation, ask Shreya for exam mentoring, and openly clarify written-study topics versus physical preparation."
+          "title": "10:42–10:54 · Genuine ask",
+          "action": "The brothers ask Shreya to mentor them for IAS/competitive examinations, with interview/current-affairs study and physical fitness as appropriate. Shreya remembers Shruti is preparing too and agrees to form a four-person study group, conditional only on practical duty scheduling."
         },
         {
           "id": "R4",
-          "title": "Shruti completes the group",
-          "action": "Shreya mentions her adult younger sister Shruti's exam preparation and agrees in principle to a flexible four-person mentoring group. Shruti's goals and availability remain hers to choose; no instant romance."
+          "title": "11:05–11:12 · Changing-area accident",
+          "action": "After the workout Shreya changes in a separate cubicle. Its latch does not catch completely; as she adjusts her clothes, the door opens briefly onto the passage while Samar and Shaan pass to collect gym equipment. Both unexpectedly see Shreya in her bra. Samar's talk stops, Shaan looks away and alerts her; Shreya notices the door, closes it properly and later says she will check the latch next time. It is an unintended brief sightline, not a planned display or invitation."
         },
         {
           "id": "R5",
-          "title": "Private changing-area mishap option",
-          "action": "Following a workout, a changing-area sightline briefly opens by mistake while Shreya is in ordinary supportive exercise clothing; the men immediately avert their eyes, she restores privacy and later agrees to take more care. This is an optional non-explicit illustration of an accidental wardrobe moment, not a permission for intrusive entry or repeated display."
+          "title": "11:12–11:20 · Exit and continuity",
+          "action": "She is dressed before continuing the conversation. No confrontation, ongoing humiliation, second accident or abrupt breakup of the friendship. Confirm group-study follow-up with Shruti later, then each leaves via an ordinary separate route."
         }
       ],
-      "publication": "PLOT_OUTLINE_ONLY__NO_NEW_FINAL_PROSE"
+      "publication": "PLOT_ONLY__NO_IMAGES_OR_FINAL_PROSE"
     },
     {
       "id": "SHR06-S02-SHRUTI-HOME-STUDY",
       "order": 2,
-      "title": "Saturday · Shruti and Shreya agree first study goals",
+      "title": "Saturday · Shreya and Shruti settle study topics and first invite",
       "date": "2026-01-03",
-      "time": "After rematch and household schedule · clock open",
-      "location": "Rathore home · common study area",
+      "time": "12:15–12:45 (editor-proposed clock)",
+      "location": "Rathore home · common study table",
       "cast": [
         "Shreya",
         "Shruti"
       ],
-      "status": "AUTHOR_DIRECTION_CAPTURED__CLOCK_OPEN",
-      "purpose": "Ground Shruti's military/police recruitment and/or civil-services aspirations without conflating exam formats.",
+      "status": "USER_DIRECTION_CAPTURED__CLOCK_EDITOR_PROPOSED",
+      "purpose": "Make Shruti independently invested in preparation and arrange next day's four-person meeting without inventing Shreya's fixed police shift.",
       "beats": [
         {
           "id": "S1",
-          "title": "Sister rapport",
-          "action": "Short affectionate, witty sister conversation on fitness, confidence and realistic revision goals."
+          "title": "Sisters' opening",
+          "action": "Shreya tells Shruti how the two brothers finally won their gym rematches and asks about Shruti's preparation. Their familiar teasing, confidence and affection remain distinct from the twins' banter."
         },
         {
           "id": "S2",
-          "title": "Scheduling",
-          "action": "Shreya offers duty-roster-dependent coaching; verify Anaya's care and Vikram's actual availability, without inventing permissions that replace other adults' agency."
+          "title": "Exam preparation split",
+          "action": "Clarify which exam each adult is actually preparing for before claiming a shared syllabus: IAS/UPSC written/interview versus police or military recruitment physical criteria. Shreya can mentor interview mindset, study discipline and fitness without asserting she personally qualified as IAS."
         },
         {
           "id": "S3",
-          "title": "Invite",
-          "action": "Shruti is invited to meet the brothers and agrees on her own terms; any attraction is a future possibility rather than canon."
+          "title": "Sunday arrangement",
+          "action": "Shruti accepts a four-person study meeting. Samar and Shaan's shared bachelor flat is the first candidate venue with a usable quiet living room; contact and address are not invented. Confirm Anaya's household care separately."
         }
       ],
-      "publication": "PLOT_OUTLINE_ONLY"
+      "publication": "PLOT_ONLY__NO_IMAGES_OR_FINAL_PROSE"
     },
     {
       "id": "SHR06-S03-FOUR-PERSON-SESSION",
       "order": 3,
-      "title": "Sunday · Shreya, Shruti, Samar and Shaan small-group study and fitness",
+      "title": "Sunday · Shreya–Shruti–Samar–Shaan first home study session",
       "date": "2026-01-04",
-      "time": "Flexible, only when Shreya is off duty; exact time open",
-      "location": "Either Rathore home common room, shared building lobby, or Samar–Shaan's bachelor flat; venue to be selected once practical household privacy is checked",
+      "time": "14:00–15:15 (editor-proposed clock)",
+      "location": "Samar–Shaan shared bachelor apartment · living-room study table",
       "cast": [
         "Shreya",
         "Shruti",
         "Samar",
         "Shaan"
       ],
-      "status": "AUTHOR_GROUP_APPROVED__EXACT_VENUE_CLOCK_OPEN",
-      "purpose": "Create a recurring, practical reason for four adults to meet and interact outside one-off gym accidents.",
+      "status": "USER_DIRECTION_CAPTURED__CLOCK_EDITOR_PROPOSED",
+      "purpose": "Establish a repeatable home-study channel, separate from gym competition and official station rounds.",
+      "existingAnchors": [
+        "Samar and Shaan are bachelor roommates living alone in their shared apartment (new user direction).",
+        "Shreya's duty roster varies; future sessions cannot be assumed daily at the same time.",
+        "Karan–Aman are booked separately for Shivani late morning and Kavya late afternoon as candidate Sunday holds. They do not attend this scene."
+      ],
       "beats": [
         {
           "id": "G1",
-          "title": "Exam-topic split",
-          "action": "Shreya distinguishes IAS/UPSC studies and recruitment-physical drills; participants choose specific goals and a rotating timetable."
+          "title": "Arrive and settle",
+          "action": "The twins welcome the two women to their shared apartment. Establish only its private living-room study setting; no arbitrary roommates or family visitors."
         },
         {
           "id": "G2",
-          "title": "Bachelor flat possibility",
-          "action": "Samar and Shaan's shared flat is a possible quiet venue; Shreya and Shruti may visit for group study when invited and comfortable. Their privacy remains respected; no automatic intimate access or nudity."
+          "title": "Four different learning goals",
+          "action": "Shreya asks each learner for their strengths; Samar leads energetic discussion, Shaan works methodically, Shruti answers boldly and questions them. Build teasing through character differences, not instant relationship claims."
         },
         {
           "id": "G3",
-          "title": "Training activity",
-          "action": "Mock questions, current-affairs discussion, basic endurance form, mobility coaching and voluntary partner drills with safe contact."
+          "title": "First concrete study material",
+          "action": "One short current-affairs/constitutional-reasoning set, explanation of a mock answer, and a simple written revision schedule. Competitive-exam questions are chosen after individual exam types are confirmed."
         },
         {
           "id": "G4",
-          "title": "Independent connections",
-          "action": "Shruti may flirt or joke with either brother, but her choice and both brothers' responses are individually established. No relationship is assumed."
+          "title": "Future workouts",
+          "action": "Agree to continue gym and running drills separately, rotating the location among the twins' apartment, Shreya's home and the existing society common area by permission and convenience. No duplicate changing-area accident."
+        },
+        {
+          "id": "G5",
+          "title": "Group exit",
+          "action": "Shreya and Shruti return on their own schedule. No sudden forced intimacy, no planned undressing. Leave some natural mutual interest/awkward humour for future scenes."
         }
       ],
-      "publication": "PLOT_OUTLINE_ONLY"
+      "publication": "PLOT_ONLY__NO_IMAGES_OR_FINAL_PROSE"
     },
     {
       "id": "SHR06-S04-DUTY-CONTINUITY",
       "order": 4,
-      "title": "Monday · police-station team already operating, personal practice optional",
+      "title": "Monday · new controlled police training round and colleague viewpoints",
       "date": "2026-01-05",
-      "time": "Police shifts variable; no invented departure/arrival or fixed 19:00 study",
-      "location": "Existing police station/training area; off-duty personal practice at separately agreed non-official location",
+      "time": "15:35–16:25 (editor-proposed duty-slot, roster check pending)",
+      "location": "Existing police station training area, not society gym",
       "cast": [
         "Shreya",
         "Rohas",
         "Lokesh",
         "Meera",
         "Kavita",
-        "Poonam",
-        "Anjali"
+        "Poonam (supervisor only)",
+        "Anjali (administrative follow-up only)"
       ],
-      "status": "EXISTING_POLICE_TRACK_PRESERVED__FUTURE_PRACTICE_OPTIONAL",
-      "purpose": "Maintain published training rounds and independently develop women coworkers' agency and career goals.",
+      "status": "EXISTING_TEAM_CONTINUATION__NEW_BEATS_PROPOSED__CLOCK_DUTY_CONDITIONAL",
+      "purpose": "Move beyond the already-written flag-control challenge by adding purposeful close-contact defensive techniques, more demanding teamwork and distinct female officer perspectives; no replay of 1 Jan touching incidents.",
       "existingAnchors": [
-        "Rohas and Lokesh are adult police trainees and not biologic twins.",
-        "Meera is a trainee, Kavita is a constable; Poonam is a Sub-Inspector and Anjali is personnel/admin. Do not rewrite their seniority or institutional roles.",
-        "The official station is not an intimate or sexual-training venue. Any off-duty personal workout requires independent consent, a suitable setting and clear adult boundaries."
+        "1 Jan published Beat 10 15:40–16:05: flag-control and contested cone/tag runs. Kavita wins first; Meera and Kavita collide briefly with Rohas/Lokesh, whose rescue supports end immediately. Those exact incidents are not repeated.",
+        "Meera 24 trainee; Kavita 23 constable; Rohas and Lokesh 24 male trainees, not biological twins. Poonam 29 Sub-Inspector, Anjali 36 personnel/admin.",
+        "This is police training, not a sexual practice drill. A later private fitness request is a different optional plot lane, not something already carried out here."
       ],
       "beats": [
         {
           "id": "P1",
-          "title": "Official duty continues",
-          "action": "Existing drill, records, case-log/CCTV work and police teamwork proceed; no new previously written accident or workplace group encounter inserted."
+          "title": "15:35–15:40 · Next-round premise",
+          "action": "Shreya acknowledges Kavita's previous flag win; new exercise changes from tag-grabbing to a controlled two-person escape/hold-break technique on padded mats. Each participant knows its stop signal."
         },
         {
           "id": "P2",
-          "title": "Female peer viewpoints",
-          "action": "Future optional viewpoint snippets for Meera (skill improvement), Kavita (competitive leadership), Poonam (supervision) and Anjali (staff welfare/logistics), not compulsory intimacy or coercive exposure."
+          "title": "15:40–15:50 · Rohas + Meera",
+          "action": "Rohas plays the resistance partner, Meera rehearses forearm/shoulder framing and safe disengagement. She asks for a harder second attempt and earns it by escaping cleanly. Their competitive energy is stronger than in the previous flag run; contact is technique-driven."
         },
         {
           "id": "P3",
-          "title": "Private fitness request",
-          "action": "If the women want extra self-defence/strength practice, choose a non-official venue, schedule off duty, and establish each participant's independent comfort/consent. Vikram's support is a domestic scheduling conversation, not permission for others' bodies."
+          "title": "15:50–16:00 · Lokesh + Kavita",
+          "action": "Kavita rehearses counterbalance and a controlled fall-recovery with Lokesh. Their positions come closer for the hold-break but the exercise ends on the release cue. She finishes with a tactical improvement rather than another clothing mishap."
+        },
+        {
+          "id": "P4",
+          "title": "16:00–16:10 · Rotated challenge",
+          "action": "Partners swap briefly, so each trainee solves a new technique: a two-step grip escape and coordinated recovery. Shreya corrects foot placement and safety; no repetition of yesterday's same waist/hip rescue."
+        },
+        {
+          "id": "P5",
+          "title": "16:10–16:20 · Female perspectives",
+          "action": "Meera notices her confidence in direct contact has improved; Kavita notices Rohas adapts to her speed; Shreya evaluates measured restraint. Keep their emotional intensity in competition and professional trust rather than invented consent."
+        },
+        {
+          "id": "P6",
+          "title": "16:20–16:25 · Supervisor and future private request",
+          "action": "Poonam reviews training results, Anjali notes a possible separately organized off-duty fitness session requested by women colleagues. Any separate private practice will be planned later with each adult's own choice, location and timetable; it is not Monday's official round."
         }
       ],
-      "publication": "PLOT_OUTLINE_ONLY"
+      "publication": "PLOT_ONLY__NO_IMAGES_OR_FINAL_PROSE"
+    },
+    {
+      "id": "SHR06-S05-OPTIONAL-REVISION",
+      "order": 5,
+      "title": "Monday · brief four-person revision check if Shreya has finished duty",
+      "date": "2026-01-05",
+      "time": "20:10–20:35 (conditional editor-proposed slot; may be canceled if on duty)",
+      "location": "Short group call, no travel or home visit",
+      "cast": [
+        "Shreya",
+        "Shruti",
+        "Samar",
+        "Shaan"
+      ],
+      "status": "OPTIONAL_FOLLOW_UP__NOT_MANDATORY",
+      "purpose": "Support the recurring study group without assuming an off-duty police shift.",
+      "beats": [
+        {
+          "id": "M1",
+          "title": "Mini follow-up",
+          "action": "Share mock-question homework and next available study date over a short group call. No scene if Shreya is still on shift."
+        }
+      ],
+      "publication": "OPTIONAL_PLOT_ONLY"
     }
   ],
   "nextScenes": [
-    "Revise Saturday gym competition result and two old bets; no exact clock until Shreya duty roster grounded",
-    "Saturday after rematch: sister Shruti invited for civil-service/recruitment mentoring",
-    "Sunday four-person study group (venue among home/common area/twins apartment, no forced visit)",
-    "Monday official police training remains as authored, with possible optional off-duty voluntary personal fitness",
-    "Karan–Aman future continuity held outside Episode06; existing EP02 gate and EP03 college encounter preserved"
+    "3 Jan 08:40–09:05 Shreya–Ankita evidence-comparison call (separate preexisting Ankita plot; not repeated here)",
+    "3 Jan 10:15–11:20 gym rematches → study request → changing cubicle moment",
+    "3 Jan 12:15–12:45 Shreya–Shruti home planning",
+    "4 Jan 14:00–15:15 all four at Samar–Shaan's shared bachelor flat",
+    "5 Jan 15:35–16:25 police technique round; duty timing conditional",
+    "5 Jan 20:10–20:35 short optional group call if off duty"
   ],
   "rules": [
-    "No overwrite/rewrite of previous EP05 Reader or Google Doc manuscript",
-    "No actual detailed wedding timeline invented; discuss and lock origin later",
-    "Shreya–Vikram relationship is distinct from John–Dhika and Ankita–Kabir",
-    "No explicit sexual graphics in the stored plot; another writer can use same source boundaries after approval",
-    "No automatic Jan3–5 household or husband whereabouts"
+    "Preserve all already approved previous episode prose and imagery unchanged.",
+    "All listed clocks are editor reconciliations against existing shared timeline, not original author-specified timings.",
+    "Do not create/rewrite Episode05 marriage scene or Uncle discovery.",
+    "Do not overlap Karan–Aman or Ayaan–Armaan with Shreya Episode06; they have their own previously planned schedules.",
+    "Home-study and police-station duties are distinct scenes and locations."
   ],
   "links": {
     "previous": "episode-05-shreya-plan.json",
@@ -199,57 +249,9 @@
   },
   "historicalMarriageBlueprintMovedToEp05": {
     "id": "SHR06-S01-MARRIAGE",
-    "order": 1,
-    "title": "Shreya × Vikram — Marriage, Trust & the Inspector's Private Life",
-    "dateCandidate": "2026-01-03",
-    "time": "Saturday morning / morning-to-early-afternoon candidate, exact hour open; EP05 Saturday-morning reaction stays earlier in source continuity",
-    "location": "Rathore home, couple's ordinary private domestic space; Anaya's appropriate family care kept consistent, not in intimate frame",
-    "cast": [
-      "Shreya",
-      "Vikram"
-    ],
-    "status": "SUPERSEDED_AS_EP06_OPENING__ORIGINAL_EP05_MARRIAGE_SCENE_ALREADY_WRITTEN_AND_IMPORTED",
-    "purpose": "Create Shreya's marital history, emotional baseline, mutual support and comfort, with John/Dhika structural inspiration but authentic Shreya/Vikram dynamic.",
-    "existingAnchors": [
-      "Shreya is a Police Inspector (33), Vikram her husband (36), Anaya their toddler daughter. Exact marriage date/length and Vikram profession are not source-confirmed.",
-      "Original EP05 2 Jan night: after the two-Uncle storage privacy violation she returns home composed outwardly but worried; she initiates consensual private reunion with Vikram. The couple's connection already exists, so this opening is a distinct backstory reflection, not a second reenactment.",
-      "EP05 Saturday morning Shreya separates facts from feelings and is considering comparing evidence with Ankita. She has more direct information than Ankita; Vikram does not know the depth yet."
-    ],
-    "beats": [
-      {
-        "id": "S1",
-        "title": "Inspector at home",
-        "action": "Open with work-trained observational habit softening into trusted home conversation. Shreya is not interrogating Vikram or pretending she has already confronted Arvind."
-      },
-      {
-        "id": "S2",
-        "title": "Where their marriage began",
-        "action": "Ground a warm recalled first meeting/early marriage moment through one present-day cue. Wedding year, courtship specifics and family structure beyond existing characters remain OPEN until author supplies or approves them."
-      },
-      {
-        "id": "S3",
-        "title": "Trust mechanism",
-        "action": "Vikram knows her strength, irregular duties and need for independent judgment. He supports her choices without being portrayed as secretly knowing the stolen-garment truth. Shreya trusts him even while needing time to verify evidence."
-      },
-      {
-        "id": "S4",
-        "title": "Everyday intimacy",
-        "action": "Light mutually welcome gesture, familiar banter and domestic rhythm. Keep it affectionate and non-graphic in GPT planning; any external writer's richer treatment must preserve agency and avoid copying John–Dhika verbatim."
-      },
-      {
-        "id": "S5",
-        "title": "Profession, family responsibilities and consequences",
-        "action": "Account for police duty scheduling, toddler Anaya's care, and Vikram's unconfirmed job/schedule without inventing a shift or leaving child unsupervised. A brief warm family beat is separate from couple privacy."
-      },
-      {
-        "id": "S6",
-        "title": "Thread to the next scenes",
-        "action": "End with Shreya deciding she will compare notes with Ankita, preserving different evidence levels, and enter her separate Chintu/Keshav/work plot later. No new Uncle discovery and no repeat Friday night reunion."
-      }
-    ],
-    "publication": "PLOT-FIRST-SCENE-SAVED__NO_PUBLISHED_PROSE",
-    "source": "episode-05-reader.json#scenes/06B",
-    "reason": "Author correction: Shreya × Vikram intimate reunion already written in Episode 05 Google Doc, now imported verbatim into Episode 05 wife-wise Reader. Do not recreate marital origin/intimacy scene in Episode 06."
+    "status": "SUPERSEDED_NOT_AN_EP06_SCENE",
+    "source": "episode-05-reader.json#06B",
+    "note": "The actual marital closing was already written for Episode05. No Episode06 wedding-orientation rewrite."
   },
   "episode05EndingReference": {
     "reader": "episode-05-reader.json#06B",
@@ -268,23 +270,17 @@
     "Shruti (23) is Shreya’s actual younger sister, not a police-workplace twin; her pairing with society sport twins is a proposed romance, not established canon."
   ],
   "groupGuide": {
-    "A_SamarShaanShruti": "Primary Episode06 active track: exam study plus voluntary fitness, Sunday venue open. Samar and Shaan live as bachelor roommates (new user-directed setup).",
-    "B_KaranAman": "HOLD for future after Episode06. Existing EP02 parking-gate teasing + EP03 college prep-room accidental glimpse already happened as approved plot/draft, not finished new prose. Future attraction/kissing remains a separate unapproved consensual adult relationship possibility; do not count as current Episode06 event.",
-    "C_Police": "Existing official rounds: Shreya/Rohas/Lokesh/Meera/Kavita, with Poonam/Anjali through current roles. Preserve separately from home-coaching group.",
-    "D_FemaleOffDuty": "Only an optional future non-official voluntary workout/study request, not a sexual training obligation."
+    "societyTwinGroup": "Samar and Shaan are Shreya's actual twin pair and bachelor roommates. Their prior gym challenges, new winning rematch, study request, and new changing-area accident are separate, chronological beats.",
+    "shruti": "Shruti is Shreya's adult younger sister and a member of the same home-study group; her exam and romantic choices are independent.",
+    "karanAman": "Karan and Aman already know Shreya from EP02 gate and EP03 college review draft (private collar glimpse). Excluded from active Shreya EP06 timetable as user requested. Future relationship direction deliberately left for a later discussion.",
+    "ayaanArmaan": "Ayaan and Armaan are Shivani's established study pair, not confirmed biological twins. Saturday Shivani 15:00 and Ankita 16:20 request and Monday Shivani 06:45 study window stay untouched; neither appears in Shreya Episode06.",
+    "policeTeam": "Rohas/Lokesh are police trainee duo, not twins. Meera/Kavita training continuity is existing; Poonam and Anjali remain in their established supervisory/admin lanes, not silently reassigned.",
+    "offDutyPersonalTraining": "Only a proposed future off-duty request from women colleagues; next arrangement is unresolved and not a Monday second session."
   },
   "relationshipNotes": {
-    "samarShaan": "Existing familiarity + previous shoulder/waist catch; future romance and privacy boundaries require specific mutual choices.",
-    "shruti": "Adult sister, exam participant. Her approved face portrait not available, so no canonical face or generated look should be invented.",
-    "karanAman": "Keep outside the current three-day active Shreya scenes. Do not clone the already-proposed college accident or treat future physical intimacy as a commitment.",
-    "future": "User discussed possible later romantic group developments. None is approved as a depicted act in Episode06; retain only as a non-graphic, consent-dependent future concept."
-  },
-  "originalFirstSceneHistory": [
-    "Shreya and Vikram's original non-graphic Friday night reunion exists in Episode 05 original document and Reader scene 06B; do not repeat.",
-    "Shruti is 23 and Shreya’s sister; sister training is author requested, method/time open.",
-    "Samar and Shaan are confirmed 24-year-old biological twins; Shreya knows them from 1 January courtyard. Shruti's own romantic familiarity with either is not confirmed.",
-    "Karan and Aman (22) are established through Shreya's Episode 02 parking-gate interaction 08:13–08:15 and Episode 03 public cyber-safety college prep-room incident; they are NOT strangers. The college encounter is a separate working plot/review, not final prose.",
-    "Rohas and Lokesh, both 24 in Shreya police training group, are a workplace duo, NOT biological twins.",
-    "The original Shreya 3 Jan morning evidence reflection remains preserved in episode-05-reader.json#episode06MorningBridgeOriginal but belongs as EP06 context, not a rewrite of the Friday marital scene."
-  ]
+    "samarShaan": "Longtime gym familiarity; continue both separately: Samar playful, Shaan precise. Changing-area sightline is a brief accident after workout, not the same EP03 shoulder/waist catch.",
+    "shruti": "Shreya's younger sister joins study by mutual agreement. Her saved character reference exists; no new images generated or uploaded.",
+    "karanAman": "Keep outside active EP06 3–5 Jan Shreya plot. Preserve earlier one-third glimpse in EP03 author's review draft as history, not a new EP06 event.",
+    "future": "Other personal or romantic scenes require separate author discussion; no future physical scene is claimed as already written."
+  }
 }
