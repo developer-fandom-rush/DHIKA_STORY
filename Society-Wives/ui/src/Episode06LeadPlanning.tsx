@@ -19,7 +19,7 @@ export default function Episode06LeadPlanning({lead}:{lead:'ankita'|'shreya'}){
  const {data:mentoring,loading:mentoringLoading,error:mentoringError}=useData<MentorPlan>('episode-06-ankita-mentoring-setup.json');
  return <main className="page-width" id={'episode06-plan-'+lead}>
   <header className="section-intro"><span className="eyebrow">Story Plot · Episode 06 · 3–5 January 2026</span>
-   <h1>{lead==='ankita'?'Ankita':'Shreya'} · Marriage first</h1>
+   <h1>{lead==='ankita'?'Ankita · Marriage first':'Shreya · Saturday morning twins and sister track'}</h1>
    <p>The author has locked scene order, not an invented wedding date or unpublished prose. Start with the husband-wife relationship foundation, then discuss other encounters one at a time.</p></header>
   <div className="chapter-controls" role="group" aria-label="Choose Episode 06 lead">
    {routes.map(r=><button key={r.id} className={lead===r.id?'button primary':'button subtle'} type="button" aria-pressed={lead===r.id} onClick={()=>openPage('planning',{lead:r.id,part:'06'})}>{r.label}</button>)}
@@ -96,7 +96,16 @@ export default function Episode06LeadPlanning({lead}:{lead:'ankita'|'shreya'}){
      <p className="muted">Canonical source: <a href="https://github.com/developer-fandom-rush/DHIKA_STORY/blob/main/Society-Wives/episode-06-ankita-mentoring-setup.json" target="_blank" rel="noreferrer">Ankita's three-pair mentoring plan</a>. All newly proposed times and wardrobe beats require author confirmation.</p></>}
    </section>}
       {lead==='ankita'&&plan.karanAmanFirstAccidentalVisibilityProposal&&<section className="episode-plan-card" id="ep06-twin-accident-proposal"><h2>Karan–Aman · first accidental wardrobe shift (proposal only)</h2><p><strong>{tidy(plan.karanAmanFirstAccidentalVisibilityProposal.status)}</strong></p><p>{plan.karanAmanFirstAccidentalVisibilityProposal.mechanism}</p><p><strong>Why here:</strong> {plan.karanAmanFirstAccidentalVisibilityProposal.purpose}</p>{Object.entries(plan.karanAmanFirstAccidentalVisibilityProposal.reactions).map(([name,reaction])=><p key={name}><strong>{name}:</strong> {reaction}</p>)}<p className="muted">{plan.karanAmanFirstAccidentalVisibilityProposal.continuity}</p><p><strong>Awaiting discussion:</strong> {plan.karanAmanFirstAccidentalVisibilityProposal.reviewQuestion}</p></section>}
-      {lead==='shreya'&&<section className="episode-plan-card" id="ep06-shreya-next"><h2>After the marriage opening</h2><ul>{(plan.nextScenes||[]).map((s,i)=><li key={i}>{s}</li>)}</ul></section>}
+      {lead==='shreya'&&<section className="episode-plan-card" id="ep06-shreya-next">
+        <h2>Shreya · Saturday 3 January · Track 2 begins</h2>
+        <p><strong>Friday marriage ending is already written.</strong> Both original marital endings have been restored to the Episode 05 wife-wise Reader, so Episode 06 does not repeat Shreya–Vikram's private scene or write a second baseline.</p>
+        <p>The prior Episode 06 marriage-first outline is preserved in the planning JSON as historical material, not an active scene. First active track: Shruti's training request; Samar–Shaan society sports twins; separately scheduled Karan–Aman contact, with police peers categorized correctly.</p>
+        <div className="chapter-controls">
+          <button type="button" className="button subtle" onClick={()=>openPage('reading',{episode:'05',character:'shreya',scene:'06B'})}>Read original Shreya × Vikram EP05 ending →</button>
+          <button type="button" className="button subtle" onClick={()=>openPage('reading',{episode:'05',character:'ankita',scene:'06A'})}>Read Ankita × Kabir EP05 ending →</button>
+        </div>
+        <ul>{(plan.nextScenes||[]).map((s,i)=><li key={i}>{s}</li>)}</ul>
+       </section>}
   </>}
   <section className="episode-plan-card" id="ep06-twin-calendar"><h2>Karan–Aman · shared 3-day availability (soft holds)</h2><p>One twin pair across five female leads, with Kavya's separate approved bridge. Provisional windows prevent conflicts, but are <strong>not confirmed visits</strong>.</p>
    {twinsLoading&&<p role="status">Loading shared calendar…</p>}{twinsError&&<p role="alert" className="error">{twinsError}</p>}
