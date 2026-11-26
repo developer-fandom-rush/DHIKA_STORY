@@ -692,22 +692,59 @@
     },
     {
       "number": "06",
-      "title": "Shivani · Jan 3–5 Global Plot",
-      "subtitle": "Three-day outline, other leads' connected episodes forthcoming",
-      "status": "PLOT_ONLY__GROUPS_A_B_C_D_AND_KAVYA_BRIDGE_APPROVED__SOCIETY_GATE_HOLD",
+      "title": "EP06 · Five-Lead Three-Day Story Planning",
+      "subtitle": "Ankita/Shreya marriage-first scene blueprints, Shivani Group A–D/Kavya plot and linked twins daily availability",
+      "status": "PLOT_ONLY__ANKITA_SHREYA_MARRIAGE_FIRST_SCENE_LOCKED__SHIVANI_A_D_KAVYA_APPROVED__SOCIETY_GATE_HOLD",
       "date": "2026-01-03 to 2026-01-05",
       "mainPath": "index.html#/planning?lead=shivani&part=06",
       "plotSource": "shivani-episode-06-three-day-plot.json",
       "crossHouseholdGate": "episode-06-cross-household-hold.json",
       "crossMentorSource": "cross-lead-ayaan-armaan-jam-2026.json",
-      "note": "No EP06 final prose. Group D boundary reversal approved; Kavya six-beat no-touch visual doorway farewell approved on 26 Nov. Exact Jan 4 clock and other household availability remain subject to five-lead cross-household gate.",
+      "note": "Order of Ankita and Shreya first scenes author approved. Detailed relationship origin, new prose and the Monday/weekend clock slots remain open. Shivani Group D and Kavya visual bridge action-chain approvals preserved. Sunday Shivani and Kavya times proposed in shared pair ledger only, not final.",
       "kavyaFirstBridge": {
         "status": "SIX_BEAT_PLOT_APPROVED__TIME_OPEN",
         "source": "shivani-episode-06-three-day-plot.json",
         "scene": "SH06-SUN-KAVYA-BRIDGE",
         "label": "No-Touch Visual Bridge — brief bare-back doorway farewell; Karan/Aman reactions distinct",
         "supersedes": "linked-arm/handhold proposal"
-      }
+      },
+      "leadPlans": {
+        "ankita": {
+          "source": "episode-06-ankita-plan.json",
+          "uiRoute": "#/planning?lead=ankita&part=06",
+          "openingScene": "ANK06-S01-MARRIAGE",
+          "status": "FIRST_SCENE_POSITION_AUTHOR_APPROVED__PROSE_PENDING"
+        },
+        "shreya": {
+          "source": "episode-06-shreya-plan.json",
+          "uiRoute": "#/planning?lead=shreya&part=06",
+          "openingScene": "SHR06-S01-MARRIAGE",
+          "status": "FIRST_SCENE_POSITION_AUTHOR_APPROVED__PROSE_PENDING"
+        },
+        "shivani": {
+          "source": "shivani-episode-06-three-day-plot.json",
+          "uiRoute": "#/planning?lead=shivani&part=06",
+          "status": "GROUPS_A_B_C_D_KAVYA_APPROVED_ACTIONS__TIMES_OPEN"
+        },
+        "taniya": {
+          "status": "JAN03_TO_05_PLAN_OPEN",
+          "source": "episode-04b-taniya-author-updated-plan.json"
+        },
+        "meenakshi": {
+          "status": "JAN03_TO_05_PLAN_OPEN",
+          "source": "episode-04b-meenakshi-jan02-discussion-plan.json"
+        }
+      },
+      "sharedPair": {
+        "names": [
+          "Karan",
+          "Aman"
+        ],
+        "source": "episode-06-karan-aman-shared-availability.json",
+        "status": "FIVE_LEAD_DAILY_PROVISIONAL_WINDOW_LEDGER__CLOCKS_NOT_CANON"
+      },
+      "officeCastPolicy": "For Ankita EP06 only Sana Khan and Aishwarya Rao active female office roles, prior historical mentions of other office women preserved.",
+      "spouseAvailabilityPolicy": "Kabir and Rohan job titles and Jan3–5 presence not verified; no hard household bookings until discussed."
     }
   ],
   "verbatimArchiveRule": "2026-11-26 author request: the three original Google Docs and existing Taniya 04B plot are copied word for word to source-vault. These source snapshots are locked/immutable; all future edits must create new named versions. Preserve original working/frozen editorial labels inside documents; Source Vault visibility is not proof of final prose publication."
