@@ -18,9 +18,10 @@ export default function FutureReference({lead='ankita'}:{lead?:string}){
  const {data:decision,loading:decisionLoading,error:decisionError}=useData<DecisionReference>('episode-04a-shivani-decision-reference.json');
  const leads=['ankita','shivani','taniya','soniya','meenakshi','shreya'] as const;
  const active=leads.find(x=>x===lead)||'ankita';
- const ownIdeas=(ideas?.ideas||[]).filter(idea=>idea.lead.toLowerCase()===active);
+ const matchesLead=(idea:Idea,who:string)=>idea.lead.toLowerCase().split(/\s+(?:and|&|×)\s+/).includes(who);
+ const ownIdeas=(ideas?.ideas||[]).filter(idea=>matchesLead(idea,active));
  const soniyaVoiceLock=ownIdeas.find(idea=>idea.id==='FI-SONIYA-SHARMI-PERMANENT-CHARACTER-LOCK');
- const countFor=(who:string)=>(ideas?.ideas||[]).filter(idea=>idea.lead.toLowerCase()===who).length;
+ const countFor=(who:string)=>(ideas?.ideas||[]).filter(idea=>matchesLead(idea,who)).length;
  const changeLead=(who:string)=>openPage('future-reference',{lead:who});
  return <main className="page-width" id="future-reference">
   <header className="section-intro">
@@ -28,6 +29,7 @@ export default function FutureReference({lead='ankita'}:{lead?:string}){
    <h1>Future Reference &amp; Locked Decisions</h1>
    <p>Character-wise archive of saved ideas and editorial decisions. Future references are not automatically approved story scenes.</p>
   </header>
+  <p className="source-note"><strong>Jan 3–5 society coordination:</strong> <a href="https://github.com/developer-fandom-rush/DHIKA_STORY/blob/main/Society-Wives/episode-06-cross-household-hold.json" target="_blank" rel="noreferrer">Five-lead spouses/partners availability gate</a> — leave optional society encounters and movie on hold until all five next-three-day plots are reconciled.</p>
   <p className="source-note"><strong>Shared five-lead academic plot:</strong> <a href="#/study-circle">Ayaan–Armaan IIT JAM Biotechnology mentoring handoff</a>. Visible to Ankita, Shivani, Taniya, Meenakshi and Shreya; each person’s actual availability remains separate.</p>
   <div className="perspective-tabs" role="group" aria-label="Choose a woman for future references">
    {leads.map(w=><button type="button" key={w} onClick={()=>changeLead(w)} aria-pressed={w===active} className={w===active?'selected':''}>{w.charAt(0).toUpperCase()+w.slice(1)} <span className="muted">({ideasLoading?'…':countFor(w)})</span></button>)}
