@@ -14,7 +14,8 @@
     "2026-11-26: Ankita Jan3–5 wife-wise Episode06 plot markers refreshed from user approvals: marriage-first, Saturday private Karan/Aman fitness look, flexible Aman study, direct Ayaan/Armaan CBT request, Monday Aishwarya HR favour and office project kickoff. Jan4 availability is not an invented canonical encounter. Wednesday Jan7 four office visitors arrive in Reyansh's same five-seater car; small overshirt-slip beat approved in plot but not written as final prose. Clock times remain candidate unless explicitly grounded.",
     "2026-11-26: Shreya three-day group direction now indexed: Saturday society twin rematch and sister invite, Sunday four-person civil-service preparation, Monday existing police training. Clock placeholders are only sort keys, not author-approved session times. Future Karan–Aman interaction is outside active EP06; no additional public event invented.",
     "2026-11-26 editorial time reconciliation for Shreya EP06: Jan3 10:15–11:20 twin rematch/brief bra changing-area sightline, 12:15–12:45 sister planning; Jan4 14:00–15:15 twin bachelor apartment group; Jan5 15:35–16:25 police escape/hold-break drill (shift-dependent), 20:10–20:35 optional call. Cross-lead Saturdays: 08:40–09:05 Ankita/Shreya evidence call, 15:00–15:25 Shivani with Ayaan/Armaan, 16:20–16:35 Ankita with same pair. Sundays: Karan/Aman 11:30–12:15 Shivani, 16:30–17:05 Kavya; household calendar does not book them. This is conflict-checked across events with explicit time windows, while open/unscheduled markers are not assumed attendance.",
-    "2026-11-26: New police-duty alignment: Shreya Jan3 08:30–16:30, Jan4 08:00–13:00, Jan5 08:00–17:00 (NO LEAVE any day; fictional roster, not universal police rule). Shreya gym moved BEFORE Saturday shift to 06:20–07:30; evidence call after duty 17:40–18:00, sister study 18:15–18:45. Sunday twins apartment study 15:00–16:15, Monday training earlier 10:30–11:20. Kabir/Rohan/Vikram household presence recorded separately as envelopes with honest profession uncertainty; not independent encounter events."
+    "2026-11-26: New police-duty alignment: Shreya Jan3 08:30–16:30, Jan4 08:00–13:00, Jan5 08:00–17:00 (NO LEAVE any day; fictional roster, not universal police rule). Shreya gym moved BEFORE Saturday shift to 06:20–07:30; evidence call after duty 17:40–18:00, sister study 18:15–18:45. Sunday twins apartment study 15:00–16:15, Monday training earlier 10:30–11:20. Kabir/Rohan/Vikram household presence recorded separately as envelopes with honest profession uncertainty; not independent encounter events.",
+    "2026-11-26 Taniya EP06 three-day planning (not final prose): Sat3 trainer Vivek Rao 05:00–05:55 real 5AM invite with visitor log, Soniya study-guest permission call 09:15–09:30; Sun4 Vivek 05:00–05:45, CA Raghav–Chirag home tutoring 11:00–11:55, potential Karan–Aman 13:15–14:00 crossover ONLY IF five-household scheduling hold cleared, Ayaan/Armaan not booked; Mon5 Vivek 05:00–05:45, CA office 10:30–19:30 with professional Vivek Suri review. Old Episode03 office women preserved but none introduced in Episode06. Check with character-collision tests before author approval."
   ],
   "events": [
     {
@@ -3488,6 +3489,270 @@
         "SPOUSE_PROFESSION_DO_NOT_INVENT"
       ],
       "detail": "Provisional childcare coverage at home or handoff to an established caregiver while Shreya is on duty; Vikram's actual Monday work hours remain UNCONFIRMED."
+    },
+    {
+      "id": "tan06-03-vivek-0500",
+      "date": "2026-01-03",
+      "sort": "05:00",
+      "start": "05:00",
+      "end": "05:55",
+      "timeLabel": "Saturday 05:00–05:55 · requested arrival; finish time proposed",
+      "universe": "sw",
+      "title": "Taniya × Vivek Rao · private 05:00 first home coaching",
+      "lead": "Taniya",
+      "characters": [
+        "Taniya",
+        "Vivek Rao"
+      ],
+      "mentions": [],
+      "episode": "06 plot",
+      "scene": "TAN06-S01-RAO-0500",
+      "kind": "planned",
+      "state": "review",
+      "status": "AUTHOR DIRECTION / EDITOR SLOT / PLOT NOT FINAL",
+      "source": "episode-06-taniya-plan.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "taniya",
+        "part": "06",
+        "scene": "TAN06-S01-RAO-0500"
+      },
+      "flags": [
+        "EDITOR_TIME_PROPOSED_NOT_AUTHOR_LOCKED"
+      ],
+      "detail": "Real Saturday trainer visit after independently clearing the building visitor gate. Pelvic-floor/breathing/body-control basics and adult mutual comfort discussion; no Uncle dream repeated, no completed intercourse."
+    },
+    {
+      "id": "tan06-03-soniya",
+      "date": "2026-01-03",
+      "sort": "09:15",
+      "start": "09:15",
+      "end": "09:30",
+      "timeLabel": "Saturday 09:15–09:30 · editor proposed",
+      "universe": "sw",
+      "title": "Taniya × Soniya · wedding call and study-guest permission",
+      "lead": "Taniya",
+      "characters": [
+        "Taniya",
+        "Soniya"
+      ],
+      "mentions": [],
+      "episode": "06 plot",
+      "scene": "TAN06-S02-SONIYA-CALL",
+      "kind": "planned",
+      "state": "review",
+      "status": "AUTHOR DIRECTION / EDITOR SLOT / PLOT NOT FINAL",
+      "source": "episode-06-taniya-plan.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "taniya",
+        "part": "06",
+        "scene": "TAN06-S02-SONIYA-CALL"
+      },
+      "flags": [
+        "EDITOR_TIME_PROPOSED_NOT_AUTHOR_LOCKED"
+      ],
+      "detail": "Taniya asks Soniya about hosting male tuition visitors while she and Rahul are away. Soniya answers with good-natured double-meaning jokes; they agree on practical household access. No assumption Soniya has returned."
+    },
+    {
+      "id": "tan06-04-vivek",
+      "date": "2026-01-04",
+      "sort": "05:00",
+      "start": "05:00",
+      "end": "05:45",
+      "timeLabel": "Sunday 05:00–05:45 · editor proposed",
+      "universe": "sw",
+      "title": "Taniya × Vivek Rao · follow-up early private coaching",
+      "lead": "Taniya",
+      "characters": [
+        "Taniya",
+        "Vivek Rao"
+      ],
+      "mentions": [],
+      "episode": "06 plot",
+      "scene": "TAN06-S03-RAO-SUNDAY",
+      "kind": "planned",
+      "state": "review",
+      "status": "AUTHOR DIRECTION / EDITOR SLOT / PLOT NOT FINAL",
+      "source": "episode-06-taniya-plan.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "taniya",
+        "part": "06",
+        "scene": "TAN06-S03-RAO-SUNDAY"
+      },
+      "flags": [
+        "EDITOR_TIME_PROPOSED_NOT_AUTHOR_LOCKED"
+      ],
+      "detail": "Follow-up on breathing/mobility and the personally discussed attraction; check comfort anew. Recurring visit does not automatically escalate intimacy."
+    },
+    {
+      "id": "tan06-04-ca-tuition",
+      "date": "2026-01-04",
+      "sort": "11:00",
+      "start": "11:00",
+      "end": "11:55",
+      "timeLabel": "Sunday 11:00–11:55 · editor proposed",
+      "universe": "sw",
+      "title": "Taniya × Raghav–Chirag · first CA home-study visit",
+      "lead": "Taniya",
+      "characters": [
+        "Taniya",
+        "Raghav",
+        "Chirag"
+      ],
+      "mentions": [],
+      "episode": "06 plot",
+      "scene": "TAN06-S04-CA-HOME-LESSON",
+      "kind": "planned",
+      "state": "review",
+      "status": "AUTHOR DIRECTION / EDITOR SLOT / PLOT NOT FINAL",
+      "source": "episode-06-taniya-plan.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "taniya",
+        "part": "06",
+        "scene": "TAN06-S04-CA-HOME-LESSON"
+      },
+      "flags": [
+        "EDITOR_TIME_PROPOSED_NOT_AUTHOR_LOCKED"
+      ],
+      "detail": "Two known CA office associates request audit/tax revision at Tower C. One accidental shift of a loose overshirt around a lamp stand briefly shows an underlying athletic layer; Taniya straightens it and tutoring continues. Raghav and Chirag are not biological twins."
+    },
+    {
+      "id": "tan06-04-karan-aman",
+      "date": "2026-01-04",
+      "sort": "13:15",
+      "start": "13:15",
+      "end": "14:00",
+      "timeLabel": "Sunday 13:15–14:00 · conditional crossover hold, not final",
+      "universe": "sw",
+      "title": "Taniya × Karan–Aman · MBA finance/household twin callback",
+      "lead": "Taniya",
+      "characters": [
+        "Taniya",
+        "Karan",
+        "Aman"
+      ],
+      "mentions": [],
+      "episode": "06 plot",
+      "scene": "TAN06-S05-SOCIETY-TWINS",
+      "kind": "planned",
+      "state": "review",
+      "status": "CROSSLEAD_HOLD__NOT_A_CONFIRMED_SCENE",
+      "source": "episode-06-taniya-plan.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "taniya",
+        "part": "06",
+        "scene": "TAN06-S05-SOCIETY-TWINS"
+      },
+      "flags": [
+        "EDITOR_TIME_PROPOSED_NOT_AUTHOR_LOCKED",
+        "CROSS_HOUSEHOLD_GATE_HOLD"
+      ],
+      "detail": "Potential finance/cashflow help for Karan (MBA), Aman joins only if interested. Both knew Taniya from the prior working lobby collision. After Shivani 11:30–12:15 and before Kavya 16:30–17:05, with buffers. Five-lead society gate still pending."
+    },
+    {
+      "id": "tan06-04-ayaan-armaan-hold",
+      "date": "2026-01-04",
+      "sort": "23:58",
+      "start": null,
+      "end": null,
+      "timeLabel": "Sunday · UNSCHEDULED; no visit or lesson booked",
+      "universe": "sw",
+      "title": "Taniya / Ayaan–Armaan · quantitative guidance contact only if requested",
+      "lead": "Taniya",
+      "characters": [],
+      "mentions": [
+        "Taniya",
+        "Ayaan",
+        "Armaan"
+      ],
+      "episode": "06 plot",
+      "scene": "TAN06-S06-AYAAN-ARMAAN-HOLD",
+      "kind": "planned",
+      "state": "review",
+      "status": "UNBOOKED_ACADEMIC_INTRODUCTION_ONLY",
+      "source": "episode-06-taniya-plan.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "taniya",
+        "part": "06",
+        "scene": "TAN06-S06-AYAAN-ARMAAN-HOLD"
+      },
+      "flags": [
+        "UNBOOKED_NO_ATTENDANCE"
+      ],
+      "detail": "Possible future aptitude/time-planning help only; pair biological twin status unknown. Biotechnology/JAM tuition stays with existing mentors. No arrival, wardrobe accident or appointment is implied."
+    },
+    {
+      "id": "tan06-05-vivek",
+      "date": "2026-01-05",
+      "sort": "05:00",
+      "start": "05:00",
+      "end": "05:45",
+      "timeLabel": "Monday 05:00–05:45 · editor proposed",
+      "universe": "sw",
+      "title": "Taniya × Vivek Rao · Monday morning home-coaching routine",
+      "lead": "Taniya",
+      "characters": [
+        "Taniya",
+        "Vivek Rao"
+      ],
+      "mentions": [],
+      "episode": "06 plot",
+      "scene": "TAN06-S07-RAO-MONDAY",
+      "kind": "planned",
+      "state": "review",
+      "status": "AUTHOR DIRECTION / EDITOR SLOT / PLOT NOT FINAL",
+      "source": "episode-06-taniya-plan.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "taniya",
+        "part": "06",
+        "scene": "TAN06-S07-RAO-MONDAY"
+      },
+      "flags": [
+        "EDITOR_TIME_PROPOSED_NOT_AUTHOR_LOCKED"
+      ],
+      "detail": "Early workout conversation and mutual check-in before Monday CA shift. Repeated sessions are consensual; no predetermined further act."
+    },
+    {
+      "id": "tan06-05-ca-office",
+      "date": "2026-01-05",
+      "sort": "10:30",
+      "start": "10:30",
+      "end": "19:30",
+      "timeLabel": "Monday 10:30–19:30 · prior CA shift baseline/editor held",
+      "universe": "sw",
+      "title": "Taniya · Monday CA office with Raghav–Chirag and seniors",
+      "lead": "Taniya",
+      "characters": [
+        "Taniya",
+        "Raghav",
+        "Chirag",
+        "Punit",
+        "Vivek Suri",
+        "Pradeep Khanna"
+      ],
+      "mentions": [],
+      "episode": "06 plot",
+      "scene": "TAN06-S08-MONDAY-CA-OFFICE",
+      "kind": "planned",
+      "state": "review",
+      "status": "AUTHOR DIRECTION / EDITOR SLOT / PLOT NOT FINAL",
+      "source": "episode-06-taniya-plan.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "taniya",
+        "part": "06",
+        "scene": "TAN06-S08-MONDAY-CA-OFFICE"
+      },
+      "flags": [
+        "EDITOR_TIME_PROPOSED_NOT_AUTHOR_LOCKED"
+      ],
+      "detail": "Actual CA work; Raghav/Chirag tuition homework callback, Punit established duties, Vivek Suri professional senior review about 16:00 (weekly not daily private coaching). No newly activated female office colleague; old female characters' histories remain archived."
     }
   ],
   "sourcePolicy": " | Shreya January 3 working scenes SR10–SR13 were moved into the January 1 calendar by direct author instruction 2026-11-16, original plan archived in episode-03-shreya-plan-archive-jan03.json; no content removed from story source."
