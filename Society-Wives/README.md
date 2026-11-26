@@ -1,5 +1,7 @@
 # Society Wives — Five Veils of Desire
 
+**Shared Jan 2026 Ayaan–Armaan IIT JAM mentoring:** [single-source five-lead coordination JSON](cross-lead-ayaan-armaan-jam-2026.json) · [handoff for other ChatGPT chats](CROSS-LEAD-AYAAN-ARMAAN-JAM-2026-HANDOFF.md) · [shared UI](https://developer-fandom-rush.github.io/DHIKA_STORY/Society-Wives/#/study-circle). Applies to Ankita, Shivani, Taniya, Meenakshi and Shreya. Qualifications and non-Shivani schedules remain open; reader prose is unchanged. Other chats must read the shared source explicitly rather than assume automatic memory synchronization.
+
 **Multi-writer collaboration & plot planning:** [WRITING-COLLABORATION-PROTOCOL.md](WRITING-COLLABORATION-PROTOCOL.md) — author approval, ChatGPT plot/continuity role, external writer independence, optional insertion ledger, sensory-mode metadata, POV and cross-scene continuity.
 
 
