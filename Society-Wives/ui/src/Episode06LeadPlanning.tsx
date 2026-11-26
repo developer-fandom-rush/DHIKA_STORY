@@ -1,4 +1,4 @@
-import { openPage, useData } from './lib';
+import { assetUrl, openPage, useData } from './lib';
 
 type Beat={id:string;title:string;plot?:string;action?:string};
 type PlanScene={id:string;order:number;title:string;dateCandidate?:string;time?:string;location?:string;status:string;purpose?:string;cast?:string[];beats?:Beat[];historyAnchors?:string[];existingAnchors?:string[];proseStatus?:string;publication?:string};
@@ -40,6 +40,22 @@ export default function Episode06LeadPlanning({lead}:{lead:'ankita'|'shreya'}){
      {scene.beats?.length?<><h3>Action & emotional outline</h3><ol>{scene.beats.map(b=><li key={b.id}><strong>{b.title}:</strong> {b.plot||b.action}</li>)}</ol></>:<p className="muted">Discussion remains open; no new prose or encounter invented.</p>}
     </details>)}
    </section>
+   {lead==='ankita'&&<section className="episode-plan-card" id="ep06-ankita-home-workout-reference">
+    <h2>Ankita × Karan–Aman · indoor workout look</h2>
+    <p><strong>Visual reference selected:</strong> olive racerback sports bra and matching fitted athletic shorts. It fulfills Karan's earlier request by Ankita's own choice; it was not a prior promise.</p>
+    <figure style={{margin:'1rem 0',maxWidth:'520px'}}>
+      <a href={assetUrl('assets/ankita-home-workout-reference.svg')} target="_blank" rel="noreferrer" aria-label="Open front and back workout reference">
+        <img src={assetUrl('assets/ankita-home-workout-reference.svg')} alt="Indoor front and back outfit views of Ankita in olive gym clothes, with Karan and Aman reacting naturally" loading="lazy" style={{display:'block',width:'100%',height:'auto',borderRadius:'12px'}} />
+      </a>
+      <figcaption className="muted">Front / back / reactions · private home workout, no accident. Compressed preview of the generated reference image.</figcaption>
+    </figure>
+    <p><strong>3 January:</strong> Keep the 20-push-up challenge, teasing and Aman Java doubts unchanged. A separate accidental slip is optional and not depicted here.</p>
+    <h3>Ayaan–Armaan · independent JAM support proposal</h3>
+    <p>The existing 1 January lift contact can lead to a direct request to Ankita. Proposed first approach: Saturday 3 January, 16:20–16:35, in the society's quiet common area. No Shivani introduction is required.</p>
+    <p><strong>Ankita's credible subjects:</strong> CBT test interface, mock timing, mistake tracking, score analysis. Tuesday 19:30–20:15 and Saturday 17:00–17:45 are suggested—not confirmed—weekly blocks.</p>
+    <p><strong>Kabir:</strong> After the marriage-foundation opening, Ankita discusses these two commitments with her husband and agrees a household routine together. Ayaan–Armaan's accident idea stays postponed until their academic rapport is established.</p>
+    <p className="muted">Plot-only reference. <a href="https://github.com/developer-fandom-rush/DHIKA_STORY/blob/main/Society-Wives/ankita-ep06-home-workout-reference.json" target="_blank" rel="noreferrer">Full status, schedule and continuity record</a>.</p>
+   </section>}
    {lead==='ankita'&&<section className="episode-plan-card" id="ep06-office-cast"><h2>Ankita office group · active cast</h2><p>Female colleagues: <strong>{plan.officeActiveWomen?.join(' and ')}</strong>. Vivan–Reyansh are a workplace design duo, not biological twins. All other tentative female office names are archived historically, but excluded from new EP06 participation.</p><p>{plan.officeOthers}</p><p><strong>2 January missed walk:</strong> {plan.societyRoutine?.jan02MissedReason}</p></section>}
    {lead==='ankita'&&<section className="episode-plan-card" id="ep06-ankita-mentor-lanes"><h2>Ankita's three separate pair tracks · schedule under review</h2>
     <p>Household Karan–Aman are already in daily contact with Ankita. Only long structured practice and outside meetings require calendar bookings. An office design duo is not biological twins, and the JAM study pair is separate.</p>
