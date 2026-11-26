@@ -694,13 +694,13 @@
       "number": "06",
       "title": "EP06 · Five-Lead Three-Day Story Planning",
       "subtitle": "Ankita/Shreya marriage-first scene blueprints, Shivani Group A–D/Kavya plot and linked twins daily availability",
-      "status": "PLOT_ONLY__ANKITA_SHREYA_MARRIAGE_FIRST_SCENE_LOCKED__SHIVANI_A_D_KAVYA_APPROVED__SOCIETY_GATE_HOLD",
+      "status": "PLOT_ONLY__MARRIAGE_FIRST_SCENES_APPROVED__MENTOR_LANES_PREPARED__KARAN_AMAN_AND_OFFICE_TIMES_REVIEW__SOCIETY_GATE_HOLD",
       "date": "2026-01-03 to 2026-01-05",
       "mainPath": "index.html#/planning?lead=shivani&part=06",
       "plotSource": "shivani-episode-06-three-day-plot.json",
       "crossHouseholdGate": "episode-06-cross-household-hold.json",
       "crossMentorSource": "cross-lead-ayaan-armaan-jam-2026.json",
-      "note": "Order of Ankita and Shreya first scenes author approved. Detailed relationship origin, new prose and the Monday/weekend clock slots remain open. Shivani Group D and Kavya visual bridge action-chain approvals preserved. Sunday Shivani and Kavya times proposed in shared pair ledger only, not final.",
+      "note": "Order of Ankita and Shreya first scenes author approved. Detailed relationship origin, new prose and the Monday/weekend clock slots remain open. Shivani Group D and Kavya visual bridge action-chain approvals preserved. Sunday Shivani and Kavya times proposed in shared pair ledger only, not final. Ankita cross-functional mentoring tracks have source-backed jobs, with MWF office POC and Tue/Thu/Sat Aishwarya–Karan mock HR session only provisional. Same household Karan/Aman daily contact is not booked as class. No new accidental slip scene is author approved.",
       "kavyaFirstBridge": {
         "status": "SIX_BEAT_PLOT_APPROVED__TIME_OPEN",
         "source": "shivani-episode-06-three-day-plot.json",
@@ -743,8 +743,24 @@
         "source": "episode-06-karan-aman-shared-availability.json",
         "status": "FIVE_LEAD_DAILY_PROVISIONAL_WINDOW_LEDGER__CLOCKS_NOT_CANON"
       },
-      "officeCastPolicy": "For Ankita EP06 only Sana Khan and Aishwarya Rao active female office roles, prior historical mentions of other office women preserved.",
-      "spouseAvailabilityPolicy": "Kabir and Rohan job titles and Jan3–5 presence not verified; no hard household bookings until discussed."
+      "officeCastPolicy": "EP06 technical group uses Vivan/Reyansh/Sana/Ankita. Aishwarya remains HR; optional observer, and separate Karan HR/career mentoring candidate. Other candidates inactive as future cast, original Reader history preserved.",
+      "spouseAvailabilityPolicy": "Kabir and Rohan job titles and Jan3–5 presence not verified; no hard household bookings until discussed.",
+      "ankitaMentoring": {
+        "source": "episode-06-ankita-mentoring-setup.json",
+        "uiRoute": "#/planning?lead=ankita&part=06",
+        "status": "HOME_PAIR_DAILY_AND_OFFICE_CAST_CONFIRMED__WEEKLY_SCHEDULE_PROPOSALS__ACCIDENTS_UNAPPROVED",
+        "technicalTeam": [
+          "Ankita",
+          "Vivan",
+          "Reyansh",
+          "Sana"
+        ],
+        "HRSeparate": [
+          "Aishwarya",
+          "Karan"
+        ],
+        "JAM": "Ankita as CBT/mock-tech mentor only unless physics qualification proven"
+      }
     }
   ],
   "verbatimArchiveRule": "2026-11-26 author request: the three original Google Docs and existing Taniya 04B plot are copied word for word to source-vault. These source snapshots are locked/immutable; all future edits must create new named versions. Preserve original working/frozen editorial labels inside documents; Source Vault visibility is not proof of final prose publication."
