@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "id": "SW-EP06-CROSS-HOUSEHOLD-HOLD",
+  "title": "Episode 06 · Jan 3–5 · Society Cross-Household Scheduling Gate",
+  "dateRange": [
+    "2026-01-03",
+    "2026-01-05"
+  ],
+  "status": "AUTHOR_DIRECTED_HOLD__DO_NOT_FILL_OPTIONAL_SOCIETY_SCENES",
+  "leadPriority": "All five main women's Episode 06 three-day arcs and all linked spouses/partners must be mapped before optional shared-society encounters are scheduled.",
+  "fiveLeadHouseholdAudit": [
+    {
+      "lead": "Ankita",
+      "partner": "Kabir (husband)",
+      "nextThreeDays": "NOT YET FULLY PLANNED/FROZEN",
+      "important": "Karan/Aman live in Ankita/Kabir household; Saturday push-up challenge and possible Sunday family plans must be checked."
+    },
+    {
+      "lead": "Shivani",
+      "partner": "Rohan (husband)",
+      "nextThreeDays": "EP06 THREE-DAY PLOT SAVED__SOME OPEN",
+      "important": "Uncle morning Jan3 source must be verified; Jan4 Group A is candidate, Kavya bridge proposed; Jan5 college 9–3:30 and faculty 4–5:45."
+    },
+    {
+      "lead": "Taniya",
+      "partner": "Aditya (fiancé, NOT husband)",
+      "nextThreeDays": "NOT YET FULLY PLANNED/FROZEN",
+      "important": "CA office, wedding/home and sister Soniya's current location must not be invented."
+    },
+    {
+      "lead": "Meenakshi",
+      "partner": "Nikhil (husband)",
+      "nextThreeDays": "NOT YET FULLY PLANNED/FROZEN",
+      "important": "Hospital shifts, Om/Mohan current-household interactions, and proposed Chemistry help timing open."
+    },
+    {
+      "lead": "Shreya",
+      "partner": "Vikram (husband)",
+      "nextThreeDays": "NOT YET FULLY PLANNED/FROZEN",
+      "important": "Station duty, household, Chintu/Keshav (distinct helpers), and existing EP05 Saturday morning notes."
+    }
+  ],
+  "holdScope": [
+    "Shivani's other society interactions with trainers, guards, milkman, uncles and the other women's husbands",
+    "Five-friend movie plan and who joins",
+    "Any episode-six simultaneous inter-household encounter with more than one female lead or partner",
+    "Specific physical/romantic action involving an unverified-other-household character"
+  ],
+  "exceptions": [
+    "Previously plotted Group A Shivani–Karan/Aman remains approved as an action chain but Sunday Jan4 placement is not locked; confirm Ankita household.",
+    "Kavya–Karan/Aman first bridge is a selected candidate for author review, not final nor an automatic lock on Sunday.",
+    "Ayaan–Armaan academic contact and Shivani college/faculty seminar do not require speculative other husband's availability, but do require family/shift check."
+  ],
+  "reopenAfter": [
+    "Each of the five lead's Jan 3–5 plot exists as a source-backed timeline, not just an idea",
+    "Husband/fiancé, children, society staff and visiting uncles are placed at relevant clocks and locations",
+    "No overlap with existing EP04B/EP05 reader and working documents",
+    "Saturday/Sunday movie preference and attendance explicitly discussed",
+    "Knowledge states mapped: who witnesses/knows private events"
+  ],
+  "sources": [
+    "shivani-episode-06-three-day-plot.json",
+    "cross-lead-ayaan-armaan-jam-2026.json",
+    "episode-04b-publication-index.json",
+    "episode-05-publication-index.json",
+    "episode-05-jan02-uncle-cross-encounters-working-plot.json",
+    "future-ideas.json"
+  ],
+  "otherLeadHandoff": "When starting Ankita, Taniya, Meenakshi or Shreya next three-day Episode 06 plot, check this cross-household gate and central JAM mentor contract, add the lead's true availability to the three-day global timeline, and DO NOT finalize other husbands' presence from imagination."
+}
