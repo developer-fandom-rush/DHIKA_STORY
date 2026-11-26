@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "SW-ANKITA-EP06",
+  "lead": "ankita",
+  "episode": "06",
+  "dates": [
+    "2026-01-03",
+    "2026-01-05"
+  ],
+  "status": "SCENE01_MARRIAGE_FOUNDATION_ORDER_AUTHOR_LOCKED__PLOT_DETAILS_FOR_DISCUSSION__REST_OPEN",
+  "title": "Ankita — Three Days · Marriage First, Then Discovery and Twin Guidance",
+  "authorDirection": "The FIRST scene of Ankita's EP06 must be Ankita × Kabir marriage foundation; do not start with Uncle discovery, workout, or office. John–Dhika narrative-function parallel okay, but retain Ankita/Kabir's own personality and established marriage. Scenes after opening remain discussion-only.",
+  "sceneOrder": [
+    {
+      "id": "ANK06-S01-MARRIAGE",
+      "order": 1,
+      "title": "Ankita × Kabir — The Marriage Behind the Banter",
+      "dateCandidate": "2026-01-03",
+      "time": "Saturday morning candidate; exact clock open; after EP05 night and compatible with EP05 separate morning reactions",
+      "location": "Malhotra home · couple's private living/bedroom space (exact staging open)",
+      "status": "FIRST_SCENE_ORDER_AUTHOR_APPROVED__HISTORY_DETAILS_AND_PROSE_OPEN",
+      "cast": [
+        "Ankita",
+        "Kabir"
+      ],
+      "purpose": "Give their relationship its own trust, comfort, affectionate teasing, and professional-work context before Uncle evidence comparison or family twin training. Not a second replay of EP05 sex.",
+      "historyAnchors": [
+        "Already married adults; Ankita 30, Kabir 33, IT Tech Lead and husband's IT production overnight emergency on Thu Jan1/Fri Jan2 ending ~03:00 Fri.",
+        "Fri 2 Jan Kabir was tired and Ankita respected his sleep; she missed the morning walk because of disrupted rest and early filter maintenance, not because of a newly invented intense-sex scene.",
+        "Fri 2 Jan night after Uncle discovery they choose mutual private marital affection; original manuscript already contains this, no need to recreate it."
+      ],
+      "beats": [
+        {
+          "id": "A1",
+          "title": "Quiet domestic start",
+          "plot": "Open on two married partners after a difficult Friday. Ankita's unsettling memories are present but she does not disclose information she has not yet checked. Kabir's familiar presence steadies daily routines."
+        },
+        {
+          "id": "A2",
+          "title": "Marriage-history framing",
+          "plot": "A small ordinary object, old photograph or memory prompts their marriage backstory: how they grew comfortable with each other's habits, what Kabir admires in Ankita's independence, and how Ankita trusts him to listen without dismissing her. Specific wedding date, duration, how they first met and first-house location are AUTHOR-OPEN; never invent as frozen facts."
+        },
+        {
+          "id": "A3",
+          "title": "John–Dhika structural parallel without copy",
+          "plot": "Retain the source function of an attentive husband encouraging his wife's self-expression; Ankita is already assertive, a capable tech lead, and not a shy beginner. Kabir must not copy John's every line, profession, intimacy progression, or personality."
+        },
+        {
+          "id": "A4",
+          "title": "Small familiar intimacy",
+          "plot": "Their comfortable marriage can show ordinary consensual affection, eye contact, unhurried discussion and playful teasing. Any more intimate material stays brief/fade-to-black; do not fabricate explicit sensory or anatomical detail or import an unrelated source's description."
+        },
+        {
+          "id": "A5",
+          "title": "Present-day work-life tradeoff",
+          "plot": "Friday's overnight production incident, exhaustion, Saturday rest/errands and domestic commitments show why scheduling matters. Kabir's precise role/title is not locked. No unverified leave/office shift claims."
+        },
+        {
+          "id": "A6",
+          "title": "Emotional exit hook",
+          "plot": "Ankita chooses to compare what she witnessed with Shreya, while protecting Kabir from an accusation she cannot yet substantiate. She transitions into her already-established fitness/twins household routine only after this opening scene."
+        }
+      ],
+      "proseStatus": "NOT_WRITTEN",
+      "referenceToPriorIntimacy": "EP05 2 Jan original manuscript Scene11 exists; no duplicate physical scene"
+    },
+    {
+      "id": "ANK06-S02-UNCLE-COMPARISON",
+      "order": 2,
+      "title": "Ankita × Shreya — Compare what each actually witnessed",
+      "status": "NEXT_DISCUSSION_REQUIRED__NO_PROSE"
+    },
+    {
+      "id": "ANK06-S03-KARAN-AMAN",
+      "order": 3,
+      "title": "Karan–Aman · morning exercise and technical study, five-household timing dependent",
+      "status": "PRIOR_20_PUSHUPS_CHALLENGE_EXISTS__NEW_ACCIDENTAL_WARDROBE_BEAT_REVIEW_PENDING"
+    },
+    {
+      "id": "ANK06-S04-OFFICE",
+      "order": 4,
+      "title": "Office duo Vivan–Reyansh + Sana–Aishwarya cross-functional upskilling at home",
+      "status": "CAST_APPROVED__TUITION_REASON_AND_RETURN_TRAVEL_DISCUSSION_OPEN"
+    },
+    {
+      "id": "ANK06-S05-CROSS-MENTORS",
+      "order": 5,
+      "title": "Ayaan–Armaan IIT JAM consultation with genuinely qualified mentor participants",
+      "status": "SHARED_HANDOFF_EXISTS__SCHEDULE_OPEN"
+    }
+  ],
+  "marriageSetupLocks": {
+    "husband": "Kabir",
+    "age": 33,
+    "profession": "IT production/technology work is supported, precise designation OPEN",
+    "marriageDuration": "UNKNOWN—confirm before writing origin",
+    "flashbackSource": "Only anchored married dynamic and old productions/nighttime; first meeting and wedding date yet undecided",
+    "groKContinuation": "Third-party expansion may develop emotional texture after approval; do not overwrite the preserved EP05 manuscript or silently add explicit scenes."
+  },
+  "societyRoutine": {
+    "canonical": "Ankita usually walks about 25–30 minutes and stretches/mobility at Gulmohar Heights park",
+    "jan02MissedReason": "Kabir returned at ~03:00 from production incident, Ankita woke, shifted her walk, and filter maintenance took her morning; NOT due to intense sex",
+    "ankitaTwins": "Karan and Aman same home; Aman Java/backend/resume questions, Karan MBA/freelance/fitness motivation. Daily interaction can be flexible, but no collision with Shivani/Kavya/other leads."
+  },
+  "officeActiveWomen": [
+    "Sana Khan",
+    "Aishwarya Rao"
+  ],
+  "officeOthers": "Other candidate women remain historical-only; do not create new 06 active tuition scenes for them",
+  "scheduleGate": "episode-06-cross-household-hold.json",
+  "twinsAvailability": "episode-06-karan-aman-shared-availability.json",
+  "authorDiscussion": "FIRST scene lock only; time and full backstory not locked, rest of scenes not written"
+}
