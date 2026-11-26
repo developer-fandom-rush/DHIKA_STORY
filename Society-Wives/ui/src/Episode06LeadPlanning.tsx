@@ -20,7 +20,7 @@ export default function Episode06LeadPlanning({lead}:{lead:'ankita'|'shreya'}){
  return <main className="page-width" id={'episode06-plan-'+lead}>
   <header className="section-intro"><span className="eyebrow">Story Plot · Episode 06 · 3–5 January 2026</span>
    <h1>{lead==='ankita'?'Ankita · Marriage first':'Shreya · Saturday morning twins and sister track'}</h1>
-   <p>The author has locked scene order, not an invented wedding date or unpublished prose. Start with the husband-wife relationship foundation, then discuss other encounters one at a time.</p></header>
+   <p>{lead==='ankita'?'Ankita’s marriage-foundation-first plot remains in progress; do not invent a wedding date or already-published prose.':'Shreya × Vikram’s written marital closure belongs at the end of Episode 05. Episode 06 begins Saturday morning with Shreya, Shruti and her established twin connections. Uncle evidence remains a parallel follow-up.'}</p></header>
   <div className="chapter-controls" role="group" aria-label="Choose Episode 06 lead">
    {routes.map(r=><button key={r.id} className={lead===r.id?'button primary':'button subtle'} type="button" aria-pressed={lead===r.id} onClick={()=>openPage('planning',{lead:r.id,part:'06'})}>{r.label}</button>)}
    <button className="button subtle" type="button" onClick={()=>openPage('planning',{lead:'shivani',part:'06'})}>Shivani · EP06 →</button>
@@ -30,7 +30,7 @@ export default function Episode06LeadPlanning({lead}:{lead:'ankita'|'shreya'}){
   {plan&&<>
    <section className="episode-plan-card" id="ep06-first-scene"><h2>Scene 01 · Author-locked first position</h2><p><strong>{plan.sceneOrder[0]?.title}</strong></p>
     <p><strong>Status:</strong> {tidy(plan.sceneOrder[0]?.status||'OPEN')}</p><p>{plan.authorDirection}</p>
-    <p className="muted">This is the source-backed planning order, not final Reader prose. Exact Saturday clock and relationship origin are still open.</p>
+    <p className="muted">{lead==='ankita'?'This is a planning order, not final Reader prose. Exact clock and marriage history remain open.':'This is a planning outline, not final Reader prose. Exact Saturday time, Shruti training details and additional twin meetings remain open; Friday marriage is already written in Episode 05.'}</p>
    </section>
    <section className="episode-plan-card" id="ep06-scene-list"><h2>Episode 06 · Scene sequence</h2>
     {plan.sceneOrder.map((scene,i)=><details className="episode-outline" key={scene.id} open={i===0} id={'ep06-scene-'+scene.id}>
