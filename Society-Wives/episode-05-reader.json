@@ -6,7 +6,7 @@
   "date": "2026-01-02",
   "status": "WORKING_READER_WITH_NEXT_MORNING_SEPARATE_REACTIONS",
   "sourceDoc": "https://docs.google.com/document/d/1_4-W_GU8ws_Nr5bFfBYAjK9tZnDTILrmRBVLfT6B6oI/edit?tab=t.0",
-  "publicationNote": "Read Story keeps the established lead-up through Beat 3 and adds a short next-morning reaction note after the meeting discovery. Detailed meeting/discovery prose remains in the source Google Doc; this reader entry records only each woman's private processing before confrontation.",
+  "publicationNote": "Episode 05 Reader now includes original unmodified marital closing paragraphs for both wives (SCENE 11, Friday night). The earlier Saturday morning reaction scene is retained in episode06MorningBridgeOriginal for Episode 06 continuity, not deleted. Full Uncle discovery and meeting text remains in the authored Google Doc; the short Reader scenes before the closing remain the existing condensed edition.",
   "scenes": [
     {
       "id": "01",
@@ -41,12 +41,45 @@
       "raw": "SHREYA × VIKRAM\n\nBy the time kitchen preparation settles, Shreya is in front of the wardrobe and Vikram is home.\n\nVikram teases her that both Rajeev and Arvind tend to notice her more than they admit. Shreya challenges the softer word “notice,” and Vikram finally says what he means: they stare.\n\nThe joke lands differently because Shreya also remembers Arvind's earlier accidental privacy incident—and the care he showed afterward by keeping his distance, protecting her comfort, helping with Anaya and making dinner.\n\nVikram suggests something bold.\n\n“No,” Shreya answers immediately.\n\nHe laughs. “Fine. Revealing nahi. Something different.”\n\nShe selects the ivory embroidered long button-front dress: three-quarter sleeves, shaped waist, ankle-length fall, simple and family-evening appropriate.\n\nThen Vikram's teasing about the two Uncles' gaze echoes in her mind. Chintu's startled pause and the playful heat still left from the doorway moment mix into the same thought.\n\n“Bold nahi,” Shreya says. “Bas ek chhota change.”\n\nOnly after that discussion, she deliberately opens the first top button.\n\nVikram raises an eyebrow. “Bas ek?”\n\n“Bas ek.”\n\n“Control?”\n\n“Discipline.”\n\nHe jokes that both Uncles' attention will lock onto her.\n\nShreya looks straight at him. “Main unke liye ready nahi ho rahi.”\n\n“I know.”\n\n“But mujhe tease karne ke liye?” Vikram asks.\n\n“Woh tum guess karo.”\n\nHer final look is ivory, open hair, small studs and one top button open—controlled, elegant and noticeably different from what Rajeev and Arvind have seen her wear before.\n\nANKITA × KABIR\n\nAt the Malhotra home, Ankita's office day has also not completely left her. Her heartbeat has settled after the Rohit encounter, but the earlier warmth and light tingling remain part of her mood rather than being reset.\n\nRajeev casually suggests the wine-colored button dress.\n\n“Uncle, aap kab se fashion consultant ban gaye?” Ankita jokes.\n\nKabir joins in, then admits that he has noticed Rajeev gives Ankita extra attention—and that Arvind is not exactly subtle either.\n\nAnkita narrows her eyes at her husband. “Aur Mr. Husband ko sab pata hai?”\n\n“Main observe karta hoon.”\n\nKabir suggests something bold.\n\nAnkita refuses.\n\nShe chooses the deep burgundy sleeveless button-front midi dress instead: simple silhouette, softly shaped waist and unlike her normal office/family wardrobe.\n\nOnly after Kabir's discussion about Rajeev and Arvind's gaze—and after Rajeev's own wine-color suggestion becomes more interesting in retrospect—does Ankita look at herself in the mirror again.\n\n“Revealing nahi,” she says with a smile. “Bas thoda sa difference.”\n\nThen she deliberately opens the top two small buttons.\n\nKabir looks at her. “Ye tumhara simple hai?”\n\n“Maine revealing mana kiya tha. Boring nahi.”\n\nWhen he asks whether she wants outfit advice or is trying to distract him, Ankita answers, “Both.”\n\nKabir jokes that Rajeev and Arvind will have to pay a stare tax.\n\nAnkita's final choice remains her own: burgundy dress, open hair, understated earrings, two top buttons open.\n\nBoth women have refused the husbands' more-revealing challenge. Both have still chosen a small, deliberate change after discussing the Uncles' gaze.\n\nThe evening is ready to move into the shared arrival scene."
     },
     {
-      "id": "05",
-      "lead": "Ankita × Shreya",
-      "title": "Next Morning — Separate Reactions",
-      "time": "Saturday morning, 3 January 2026",
-      "place": "Rathore Home / Malhotra Home",
-      "raw": "Shreya: Subah Shreya ka pehla reaction seedha gussa nahi tha; police-trained mind pehle facts alag kar raha tha. Arvind ki genuine care, Anaya ke liye uski help aur accidental privacy incident ke baad ka respectful behavior uske liye fake nahi ho gaya tha, lekin kal raat ka stolen pink set, uska red gymwear aur Rajeev–Arvind ki sexual fixation bhi ab undeniable thi. Uske dimaag mein ek hi sawaal tik gaya: “Care real thi… toh phir yeh side kya hai?” Confront karne se pehle woh Ankita se exact details compare karna chahti thi.\n\nAnkita: Ankita ke paas Shreya jitne facts nahi the, isliye uska morning reaction zyada investigative tha—Rajeev aur Arvind ke visible arousal, unki private line “unhe poora pata nahi hai,” aur ghar par damaged parcel ka disturbed look ek doosre se judne lage. Use ab yakeen tha ki yeh sirf casual staring nahi thi aur kuch pehle se chal raha tha, lekin kya, kitna aur kisne kya kiya—yeh abhi unclear tha. Isliye usne bhi immediate confrontation hold ki aur decide kiya ki pehle Shreya se privately compare karegi."
+      "date": "2026-01-02",
+      "time": "Friday late night, after family visit",
+      "place": "Malhotra home",
+      "status": "SOURCE_PARAGRAPHS_IMPORTED_VERBATIM_AUTHOR_ACKNOWLEDGED",
+      "sourceDoc": "https://docs.google.com/document/d/1_4-W_GU8ws_Nr5bFfBYAjK9tZnDTILrmRBVLfT6B6oI/edit",
+      "sourceScene": "SCENE 11 — BEAT 10 · TWO HOMES, ONE RESTLESS NIGHT",
+      "id": "06A",
+      "lead": "Ankita",
+      "title": "Episode 05 ending — Ankita × Kabir · Original marriage scene",
+      "sourceParagraphIndices": [
+        502,
+        539
+      ],
+      "raw": "ANKITA × KABIRDrive ke baad ghar relatively quiet tha.Rajeev apne room ki taraf chala gaya. Kabir keys side table par rakh raha tha jab Ankita ki nazar corridor mein rakhe damaged parcel box par padi.Uska naam ab bhi carton par tha.Flap properly closed nahi tha.Andar jo ek remaining pink lace set hona chahiye tha, woh folded state mein tha, lekin packaging disturbed lag rahi thi.Ankita ruk gayi.Rajeev ne peeche se aakar box ko almost casually close kiya.“Beta, kal de dunga. Personal parcel hai.”Ankita ne bas usse dekha.Corridor mein uska visible arousal.“Unhe poora pata nahi hai.”Aur ab yeh parcel.Teen alag clues ek hi line mein aa gaye.Usne confrontation nahi ki.“Okay, Uncle.”Bedroom mein Kabir ne immediately notice kiya ki woh unusually quiet hai.“Kya hua?”Ankita ne uski taraf dekha.“Long evening.”Kabir paas aaya. “Sirf long?”Ankita ne answer dene ke bajaye uska collar pakad kar use kiss kiya.Kabir surprise hua, phir reciprocate kiya.Usne ek baar pause karke poochha, “You okay?”Ankita: “Haan. Bas aaj mujhe tumhare paas rehna hai.”Us raat Ankita usual se zyada direct thi—affection initiate karne mein, Kabir ko paas kheenchne mein, aur apni attention us par rakhne mein.Kabir ko difference feel hua.“Madam, aaj energy kuch alag hai.”Ankita ne bas smile ki.“Enjoy it.”Private married intimacy mutually welcome thi. Scene physical detail par nahi rukta.Fade to black.Baad mein Ankita ki body ka earlier restless heat settle ho gaya.Mind nahi.Rajeev.Arvind.Parcel.Aur Shreya ka “Haan.”"
+    },
+    {
+      "date": "2026-01-02",
+      "time": "Friday late night, after family visit",
+      "place": "Rathore home",
+      "status": "SOURCE_PARAGRAPHS_IMPORTED_VERBATIM_AUTHOR_ACKNOWLEDGED",
+      "sourceDoc": "https://docs.google.com/document/d/1_4-W_GU8ws_Nr5bFfBYAjK9tZnDTILrmRBVLfT6B6oI/edit",
+      "sourceScene": "SCENE 11 — BEAT 10 · TWO HOMES, ONE RESTLESS NIGHT",
+      "id": "06B",
+      "lead": "Shreya",
+      "title": "Episode 05 ending — Shreya × Vikram · Original marriage scene",
+      "sourceParagraphIndices": [
+        540,
+        565
+      ],
+      "raw": "SHREYA × VIKRAMRathore home mein guests ke jaane ke baad Shreya ne kitchen lights off kiye.Outer storage door ko usne dobara dekha.Uske mind mein pink lace set, apna red sports set, Rajeev-Arvind ki low voices aur unke clothing ke through visible arousal ek saath replay hua.Vikram bedroom mein tha.Shreya andar aayi toh usne turant poochha, “You sure everything was okay?”Shreya ne uski taraf dekha.“Abhi?”“Hm?”“Abhi bas husband mode.”Vikram smiled. “That I can do.”Shreya khud uske paas gayi aur kiss initiate ki.Vikram ne reciprocate kiya, phir ek beat ke liye distance banaya.“Comfortable?”“Haan.”Us raat Shreya bhi unusually decisive thi—closeness initiate karne mein, Vikram ko paas rakhne mein, aur apne attention ko consciously marriage ke safe, familiar space mein anchor karne mein.Vikram ko bhi difference feel hua.“Aaj kuch toh hua hai.”Shreya ne uske shoulder par forehead tikaya.“Baad mein.”Private married intimacy mutual thi.Fade to black.Baad mein Chintu ke doorway se carry ho rahi sexual restlessness finally soften hui.Lekin storage-room discovery nahi.Heat settle ho gayi.Questions nahi."
     }
-  ]
+  ],
+  "episode06MorningBridgeOriginal": {
+    "id": "05",
+    "title": "Next Morning — Separate Reactions",
+    "time": "Saturday morning, 3 January 2026",
+    "lead": "Ankita × Shreya",
+    "raw": "Shreya: Subah Shreya ka pehla reaction seedha gussa nahi tha; police-trained mind pehle facts alag kar raha tha. Arvind ki genuine care, Anaya ke liye uski help aur accidental privacy incident ke baad ka respectful behavior uske liye fake nahi ho gaya tha, lekin kal raat ka stolen pink set, uska red gymwear aur Rajeev–Arvind ki sexual fixation bhi ab undeniable thi. Uske dimaag mein ek hi sawaal tik gaya: “Care real thi… toh phir yeh side kya hai?” Confront karne se pehle woh Ankita se exact details compare karna chahti thi.\n\nAnkita: Ankita ke paas Shreya jitne facts nahi the, isliye uska morning reaction zyada investigative tha—Rajeev aur Arvind ke visible arousal, unki private line “unhe poora pata nahi hai,” aur ghar par damaged parcel ka disturbed look ek doosre se judne lage. Use ab yakeen tha ki yeh sirf casual staring nahi thi aur kuch pehle se chal raha tha, lekin kya, kitna aur kisne kya kiya—yeh abhi unclear tha. Isliye usne bhi immediate confrontation hold ki aur decide kiya ki pehle Shreya se privately compare karegi.",
+    "status": "MOVED_TO_EP06_CONTEXT_UNMODIFIED"
+  },
+  "canonicalEnding": "06A/06B, Friday 2 January 2026. Episode 06 begins the Saturday morning track; no repeated marital origin/sex scene."
 }
