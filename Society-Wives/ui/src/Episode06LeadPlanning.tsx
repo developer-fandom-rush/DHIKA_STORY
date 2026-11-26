@@ -19,7 +19,7 @@ export default function Episode06LeadPlanning({lead}:{lead:'ankita'|'shreya'}){
  const {data:mentoring,loading:mentoringLoading,error:mentoringError}=useData<MentorPlan>('episode-06-ankita-mentoring-setup.json');
  return <main className="page-width" id={'episode06-plan-'+lead}>
   <header className="section-intro"><span className="eyebrow">Story Plot · Episode 06 · 3–5 January 2026</span>
-   <h1>{lead==='ankita'?'Ankita · Marriage first':'Shreya · Saturday morning twins and sister track'}</h1>
+   <h1>{lead==='ankita'?'Ankita · Marriage first':'Shreya · Society twin rematch and exam coaching · 3–5 Jan'}</h1>
    <p>{lead==='ankita'?'Ankita’s marriage-foundation-first plot remains in progress; do not invent a wedding date or already-published prose.':'Shreya × Vikram’s written marital closure belongs at the end of Episode 05. Episode 06 begins Saturday morning with Shreya, Shruti and her established twin connections. Uncle evidence remains a parallel follow-up.'}</p></header>
   <div className="chapter-controls" role="group" aria-label="Choose Episode 06 lead">
    {routes.map(r=><button key={r.id} className={lead===r.id?'button primary':'button subtle'} type="button" aria-pressed={lead===r.id} onClick={()=>openPage('planning',{lead:r.id,part:'06'})}>{r.label}</button>)}
@@ -99,7 +99,7 @@ export default function Episode06LeadPlanning({lead}:{lead:'ankita'|'shreya'}){
       {lead==='shreya'&&<section className="episode-plan-card" id="ep06-shreya-next">
         <h2>Shreya · Saturday 3 January · Track 2 begins</h2>
         <p><strong>Friday marriage ending is already written.</strong> Both original marital endings have been restored to the Episode 05 wife-wise Reader, so Episode 06 does not repeat Shreya–Vikram's private scene or write a second baseline.</p>
-        <p>The prior Episode 06 marriage-first outline is preserved in the planning JSON as historical material, not an active scene. First active track: Shruti's training request; Samar–Shaan society sports twins; separately scheduled Karan–Aman contact, with police peers categorized correctly.</p>
+        <p>Correct active plot: Saturday 10:15–11:20 Samar–Shaan rematches, their mentoring request and brief changing-cubicle accident; Saturday 12:15 Shreya–Shruti planning; Sunday 14:00 four-person study at the brothers' shared flat; Monday 15:35 controlled police training round, conditional on duty. These are editor-reconciled clocks, not final prose. Karan–Aman are not in these active scenes.</p>
         <div className="chapter-controls">
           <button type="button" className="button subtle" onClick={()=>openPage('reading',{episode:'05',character:'shreya',scene:'06B'})}>Read original Shreya × Vikram EP05 ending →</button>
           <button type="button" className="button subtle" onClick={()=>openPage('reading',{episode:'05',character:'ankita',scene:'06A'})}>Read Ankita × Kabir EP05 ending →</button>
@@ -107,7 +107,7 @@ export default function Episode06LeadPlanning({lead}:{lead:'ankita'|'shreya'}){
         <ul>{(plan.nextScenes||[]).map((s,i)=><li key={i}>{s}</li>)}</ul>
        </section>}
   </>}
-  <section className="episode-plan-card" id="ep06-twin-calendar"><h2>Karan–Aman · shared 3-day availability (soft holds)</h2><p>One twin pair across five female leads, with Kavya's separate approved bridge. Provisional windows prevent conflicts, but are <strong>not confirmed visits</strong>.</p>
+  {lead==='ankita'&&<section className="episode-plan-card" id="ep06-twin-calendar"><h2>Karan–Aman · shared 3-day availability (soft holds)</h2><p>One twin pair across five female leads, with Kavya's separate approved bridge. Provisional windows prevent conflicts, but are <strong>not confirmed visits</strong>.</p>
    {twinsLoading&&<p role="status">Loading shared calendar…</p>}{twinsError&&<p role="alert" className="error">{twinsError}</p>}
    {twins&&<>
     <p><strong>{twins.pair.relationship}</strong></p><p><strong>Previous approved ride:</strong> {twins.pair.priorScene}</p>
@@ -118,6 +118,6 @@ export default function Episode06LeadPlanning({lead}:{lead:'ankita'|'shreya'}){
     <h3>Who needs cross-lead confirmation?</h3>{twins.fiveLeadLinks.map(x=><p key={x.lead}><strong>{x.lead}:</strong> {x.dateStatus} · <span className="muted">{tidy(x.status)}</span></p>)}
     <p className="muted">Planning source: <a href="https://github.com/developer-fandom-rush/DHIKA_STORY/blob/main/Society-Wives/episode-06-karan-aman-shared-availability.json" target="_blank" rel="noreferrer">Five-lead daily availability ledger</a></p>
    </>}
-  </section>
+  </section>}
  </main>;
 }
