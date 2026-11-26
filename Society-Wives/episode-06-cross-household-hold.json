@@ -13,13 +13,13 @@
       "lead": "Ankita",
       "partner": "Kabir (husband)",
       "nextThreeDays": "NOT YET FULLY PLANNED/FROZEN",
-      "important": "Karan/Aman live in Ankita/Kabir household; Saturday push-up challenge and possible Sunday family plans must be checked."
+      "important": "Karan/Aman live in Ankita/Kabir household; Saturday push-up challenge and possible Sunday family plans must be checked. Kabir technology production/ops supported but specific job designation unknown; mapped presence Jan3 morning, Jan4 calendar, Jan5 guest talk in husband ledger."
     },
     {
       "lead": "Shivani",
       "partner": "Rohan (husband)",
       "nextThreeDays": "EP06 THREE-DAY PLOT SAVED__SOME OPEN",
-      "important": "Uncle morning Jan3 source must be verified; Jan4 Group A is candidate, Kavya bridge proposed; Jan5 college 9–3:30 and faculty 4–5:45."
+      "important": "Uncle morning Jan3 source must be verified; Jan4 Group A is candidate, Kavya bridge proposed; Jan5 college 9–3:30 and faculty 4–5:45. Rohan profession unknown; proposed Tara childcare at home Sunday during Group A, with separate household ledger."
     },
     {
       "lead": "Taniya",
@@ -36,8 +36,8 @@
     {
       "lead": "Shreya",
       "partner": "Vikram (husband)",
-      "nextThreeDays": "NOT YET FULLY PLANNED/FROZEN",
-      "important": "Station duty, household, Chintu/Keshav (distinct helpers), and existing EP05 Saturday morning notes."
+      "nextThreeDays": "JAN3–5 POLICE ROSTER PROPOSED__NO LEAVE__HUSBAND CARE INDEPENDENTLY MAPPED",
+      "important": "Saturday 06:20 twin gym then 08:30–16:30 station; Sunday 08:00–13:00 station then 15:00 apartment study; Monday 08:00–17:00 station and 10:30 training. Vikram prior night duty known, exact job unknown; childcare proposed in husband ledger."
     }
   ],
   "holdScope": [
@@ -68,9 +68,10 @@
     "episode-06-ankita-plan.json",
     "episode-06-shreya-plan.json",
     "episode-06-karan-aman-shared-availability.json",
-    "episode-06-ankita-mentoring-setup.json"
+    "episode-06-ankita-mentoring-setup.json",
+    "episode-06-household-spouse-availability.json"
   ],
-  "otherLeadHandoff": "When starting Ankita, Taniya, Meenakshi or Shreya next three-day Episode 06 plot, check this cross-household gate and central JAM mentor contract, add the lead's true availability to the three-day global timeline, and DO NOT finalize other husbands' presence from imagination. Prioritize Ankita and Shreya's marriage-foundation scene as first EP06 scene in their respective arcs. Read shared Karan/Aman calendar before confirming lead meetings. No other husbands' hours invented.",
+  "otherLeadHandoff": "Use episode-06-household-spouse-availability.json as the explicit provisional Jan3–5 spouse and Shreya duty source. The prior Shreya marriage-first premise is superseded by existing Shreya×Vikram Episode05 ending. Check all five leads before unlocking optional shared society gatherings. Do not invent husband's profession or automatic household absence.",
   "sharedKaranAmanLedger": {
     "source": "episode-06-karan-aman-shared-availability.json",
     "status": "AUTHOR_DIRECTED_FIVE_LEAD_RECURRING_PAIR__DAILY_PROVISIONAL_HOLDS",
@@ -93,9 +94,9 @@
     },
     "Shreya": {
       "source": "episode-06-shreya-plan.json",
-      "scene": "SHR06-S01-MARRIAGE",
-      "title": "Shreya × Vikram married-life foundations",
-      "status": "FIRST_SCENE_ORDER_APPROVED"
+      "scene": "SHR06-S01-GYM-REMATCH",
+      "title": "Shreya society twin rematches → prep request → changing-room accidental sightline",
+      "status": "CORRECTED_EP06_OPENING__EP05_MARRIAGE_ALREADY_WRITTEN"
     }
   },
   "ankitaLearningLanes": {
@@ -106,5 +107,15 @@
     "AishwaryaKaran": "Independent HR/career mentorship Tue/Thu/Sat proposal, first Tue6, after voluntary professional introduction",
     "JAM": "Ayaan/Armaan Ankita tech/CBT candidate; accidental incident reserved until normal relationship foundation",
     "sourceOfTruth": "User direction 26 Nov 2026, no new episode prose."
+  },
+  "husbandAvailabilityLedger": {
+    "source": "episode-06-household-spouse-availability.json",
+    "status": "THREE_HUSBAND_PRESENCE_EDITOR_SELECTED__NOT CANON LOCKED",
+    "professionSummary": {
+      "Kabir": "IT production/technology work supported; exact title open",
+      "Rohan": "unknown",
+      "Vikram": "night duty observed historically, precise job unknown"
+    },
+    "ShreyaLeave": "No leave Jan3–5 in story's selected roster; Sunday shorter duty, not holiday"
   }
 }
