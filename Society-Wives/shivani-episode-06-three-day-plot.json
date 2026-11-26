@@ -142,6 +142,26 @@
           ]
         },
         {
+          "id": "SH06-SUN-KAVYA-BRIDGE",
+          "time": "Late afternoon candidate only; after Group A if both happen same day; no rigid clock",
+          "title": "Kavya × Karan/Aman — first conscious romantic/physical bridge",
+          "status": "EDITORIAL_SOLUTION_SELECTED__AUTHOR_REVIEW_BEFORE_LOCKING",
+          "people": [
+            "Kavya",
+            "Karan",
+            "Aman"
+          ],
+          "actions": [
+            "This is a follow-up to their actual introduction on 1 Jan, NOT their first-ever encounter. Kavya is Shivani's adult younger sister; she did not witness all private details of Shivani and the brothers, and is not omniscient.",
+            "Natural entry: the three cross paths in the shared society courtyard/foyer returning from normal errands. No new rehearsal, forced Biology tutoring or identical office/society setup.",
+            "Kavya recognizes both brothers' separate interest. She starts witty teasing herself, asking how each of them plans to distinguish himself rather than making a generic 'same twins' recognition joke.",
+            "First PHYSICAL BRIDGE, her own chosen gesture: Kavya reaches toward both brothers' hands, each accepts a brief mutually welcome handhold; while walking a short stretch, she hooks an arm lightly with each. This is public, ordinary clothed affectionate contact, not a kiss or garment slip.",
+            "Karan responds with an openly teasing line and playful pace; Aman answers more sparingly but unexpectedly directs a personal observation to Kavya, causing her to look back at him even after they let go. She thought she controlled the joke; she now notices genuine different chemistry with each.",
+            "They exchange a practical way to communicate—individual phone contacts or a shared group chat only if each willingly agrees—allowing later meetings without contrived assignments. Kavya's pre-existing Deepu spark stays real; no exclusive relationship with anyone is declared.",
+            "Knowledge: Shivani learns only what is actually shared; she does not silently witness the touch. Karan/Aman keep the earlier Shivani encounter history separate. Three-person first bridge is a PLOT PROPOSAL, not final author-locked prose."
+          ]
+        },
+        {
           "id": "SH06-SUN-SOCIETY",
           "time": "Afternoon flexible",
           "title": "Non-twin society encounters reserved",
@@ -208,8 +228,8 @@
         {
           "id": "SH06-MON-FACULTY",
           "time": "16:00–17:45 proposed",
-          "title": "Faculty-only science seminar work — Group D",
-          "status": "PLOT_SETUP_APPROVED__PHYSICAL_BEAT_OPEN",
+          "title": "Group D · science seminar + approved Boundary-Reversal Beat",
+          "status": "AUTHOR_APPROVED_GROUP_D_PHYSICAL_PROGRESSION__CLOCK_PROPOSED__NO_KISS",
           "people": [
             "Shivani",
             "Pooja",
@@ -217,9 +237,12 @@
             "Aarav"
           ],
           "actions": [
-            "Authentic models, slides, non-invasive demonstrations. Aarav remains an English lecturer in science communication.",
-            "Established bold banter is background; new immediate physical escalation remains undecided.",
-            "Separate three-first-kiss sequence moved to Shivani Future Reference, NOT Monday."
+            "16:00 onwards: Shivani, Pooja, Kriti and Aarav work sincerely on biology/science-communication seminar materials, slides, teaching models and delivery; students do not attend. Aarav remains English faculty, not an invented Biotechnology professor.",
+            "After substantive preparation, established bold faculty teasing continues naturally; it is background, not the scene's only milestone. Pooja and Kriti recall the 2 Jan working-plan wrist-block boundary, but do not silently make that draft final prose.",
+            "BOUNDARY-REVERSAL BEAT — Shivani makes her own new decision: she takes Aarav's previously withdrawn hand and guides it to her clothed waist, willingly steps closer, reciprocates a brief close embrace, then freely steps back. Their previous refusal of clothing/neckline inspection remains valid; no kiss or further intimacy is assumed.",
+            "Pooja's style: expressive and spontaneous, she responds with familiar consensual closeness and playful conversation; Kriti's style: deliberate, gives Aarav an independent close handhold/face-to-face challenge rather than copying Pooja. Their existing bolder history is not reset to first touch.",
+            "Group D has three female peers with distinct confidence; future three-kiss milestones are saved in Future Reference for later, not inserted on 5 Jan. More physical progression during three weekly seminar days is possible but requires subsequent plot decisions.",
+            "Aarav's private-photo knowledge, acquired without Shivani's permission, remains reader-only secret and does not grant permission. Pooja/Kriti/Shivani do not know about the photograph; their knowledge remains asymmetric."
           ]
         },
         {
@@ -261,9 +284,9 @@
     },
     {
       "group": "D",
-      "status": "CURRENT PHYSICAL BEAT OPEN",
-      "placement": "After faculty seminar work, later discussion",
-      "summary": "Faculty already bold. Three future first kisses saved, explicitly not current; an intermediate physical milestone still to plan."
+      "status": "PHYSICAL PLOT APPROVED__NO_KISS__FUTURE_PROGRESS_OPEN",
+      "placement": "Monday Jan 5 faculty-only after substantive seminar work, proposed 16:00–17:45",
+      "summary": "Approved Boundary-Reversal Beat: Shivani consciously guides Aarav's earlier stopped hand to her clothed waist, chooses a brief close embrace and decides its end. Pooja and Kriti have individually differentiated familiar physical/social responses. Aarav carries secret photo knowledge; first kisses stay future-only. Three-times-weekly seminar allows later escalation, not prescheduled."
     }
   ],
   "weeklyTemplate": [
@@ -274,7 +297,7 @@
   ],
   "open": [
     "Group D physical encounter",
-    "Kavya–Karan/Aman separate discussion (Kavya not in current lead scene)",
+    "Kavya–Karan/Aman first bridge now SELECTED FOR AUTHOR REVIEW (Sun Jan 4 candidate), not final prose: she initiates distinctive warm handholds/short linked-arm walk with both, and they establish voluntary contact for follow-ups. Deepu interest remains. After approval, freeze exact location/clock; do not auto-retcon first Jan1 introduction.",
     "Society personnel/husbands' clocks, family care, cinema option",
     "Meenakshi Chemistry timing, qualifications, Feb visit dates",
     "EP05 source/readers inconsistently frozen; preserve separate statuses"
@@ -285,5 +308,33 @@
     "uiRoute": "#/study-circle",
     "lead": "Shivani",
     "info": "Read shared mentor roles and open competence/availability questions before placing this person's January scenes. Metadata pointer only; existing prose and previous plot decisions unchanged."
-  }
+  },
+  "societyCrossHouseholdGate": {
+    "status": "AUTHOR_DIRECTED_HOLD__REOPEN_ONLY_AFTER_ALL_FIVE_EP06_THREE_DAY_PLOTS_AND_HUSBAND_AVAILABILITY_MAP",
+    "dateRange": [
+      "2026-01-03",
+      "2026-01-05"
+    ],
+    "scope": "All optional Shivani interactions with gym trainers, guards, milkman, uncles, other women's husbands, shared cinema and inter-household chance meetings",
+    "rule": "No new non-twin Shivani society physical encounter or group movie booking before the five female leads' Jan3–5 plots are mapped and each spouse/household/member's availability and knowledge are checked. The existence of free Saturday/Sunday windows is not authorization to fill them.",
+    "nextLeads": [
+      "Ankita",
+      "Meenakshi",
+      "Taniya",
+      "Shreya"
+    ],
+    "details": "Keep previously reserved windows visible as HOLD (not cancelled), and compare the other leads' husbands and live cross-overs. No fictional automatic simultaneous availability.",
+    "reference": "episode-06-cross-household-hold.json",
+    "doNotBlock": [
+      "Approved Group A conceptual slot remains provisional, pending clash check.",
+      "Kavya first bridge stays proposed; can move if Karan/Aman or movie plans collide.",
+      "Group B tutoring continuity and Group D college seminar are independent of optional society encounters."
+    ]
+  },
+  "auditCorrections": {
+    "episode04B": "At least four lead reader components present for Ankita/Shreya/Taniya/Meenakshi; Shivani 04B is working office plan, NOT a reader component. Editorial freeze varies.",
+    "episode05": "Ankita+Shreya combined reader has five scenes, working; Meenakshi+Shivani and Taniya separate 9-scene Google Doc tracks, not imported.",
+    "uncle": "2 Jan EP05 Uncle dinner is in working Google Doc plus plot-only cross-pair addendum; future uncle fashion challenge saved in future-ideas. The purported separately written 3 Jan morning Uncle scene has not been located in this audit: timeline remains source-unverified placeholder, NOT a newly established prose scene."
+  },
+  "lastSynced": "2026-11-26"
 }
