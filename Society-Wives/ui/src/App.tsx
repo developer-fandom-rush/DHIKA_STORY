@@ -4,6 +4,7 @@ import Reading from './Reading';
 import StoryNavigation from './StoryNavigation';
 import Planning from './Planning';
 import Shivani06Planning from './Shivani06Planning';
+import Taniya06Planning from './Taniya06Planning';
 import Episode06LeadPlanning from './Episode06LeadPlanning';
 import StudyCircle from './StudyCircle';
 import SourceVault from './SourceVault';
@@ -48,6 +49,7 @@ export default function App(){
    {page==='reading'&&<Reading character={params.get('character')||'ankita'} scene={params.get('scene')} episode={params.get('episode')}/>}
    {page==='planning'&&(params.get('part')==='06'
     ? currentLead==='shivani'?<Shivani06Planning/>
+     :currentLead==='taniya'?<Taniya06Planning/>
      :currentLead==='ankita'||currentLead==='shreya'?<Episode06LeadPlanning lead={currentLead}/>
      :<main className="page-width" id="episode06-lead-not-yet-plotted">
        <header className="section-intro"><span className="eyebrow">Episode 06 · Plot only</span>
