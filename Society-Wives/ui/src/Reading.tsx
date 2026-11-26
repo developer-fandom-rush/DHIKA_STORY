@@ -555,7 +555,7 @@ function Episode04BReading(props:Props){
  if(props.character==='shivani')return <main className="page-width" id="shivani-04b-unpublished">
   <header className="section-intro"><span className="eyebrow">Episode 04B · 2 January 2026</span><h1>Shivani · Working office plot, not Reader prose</h1>
    <p>Shivani's Episode 04B office-day material is still in the author's working plan. Do not substitute Ankita's published scenes for Shivani.</p></header>
-  <div className="chapter-controls"><a className="button subtle" href="https://docs.google.com/document/d/1NKs5JgmIL2Vf7MgErbOqZllJHbZ14Gc9h10gcZJGLNM/edit" target="_blank" rel="noreferrer">Open 2 Jan office source →</a>
+  <div className="chapter-controls"><button className="button primary" type="button" onClick={()=>openPage('source-vault',{item:'ep04b-shivani-office'})}>Read full locked Shivani 04B original →</button>
    <button className="button primary" type="button" onClick={()=>openPage('planning',{lead:'shivani',part:'06'})}>Continue to EP06 approved plot →</button></div>
  </main>;
  if(props.character==='soniya')return <main className="page-width"><header className="section-intro"><span className="eyebrow">Episode 04B · 2 January 2026</span><h1>Soniya · No separate 04B Reader here</h1><p>Soniya is Taniya's supporting sister, not a fifth main lead; don't display Ankita's chapters as hers.</p></header><button className="button subtle" type="button" onClick={()=>openPage('reading',{episode:'04B',character:'taniya'})}>Open Taniya's reader →</button></main>;
@@ -575,6 +575,8 @@ function Episode05Reading({scene}:Props){
   <header className="section-intro"><span className="eyebrow">The Story · Friday, 2 January 2026</span><h1>Episode 05 · Ankita × Shreya</h1>
    <p>Same-day family visit · established lead-up plus a short next-morning reaction note. Detailed meeting/discovery prose remains in the source manuscript.</p>
   </header>
+  <div className="chapter-controls"><button type="button" className="button subtle" onClick={()=>openPage('source-vault',{item:'ep05-meenakshi-shivani'})}>Meenakshi × Shivani · full EP05 source →</button>
+   <button type="button" className="button subtle" onClick={()=>openPage('source-vault',{item:'ep05-taniya'})}>Taniya · full EP05 source →</button></div>
   <div className="perspective-tabs" role="group" aria-label="Episode 05 combined leads"><button type="button" className="selected" aria-pressed="true">Ankita × Shreya</button></div>
   {loading&&<p role="status">Loading Episode 05…</p>}{error&&<p role="alert" className="error">Episode 05 source unavailable: {error}</p>}
   {data&&<div className="reader-layout">
