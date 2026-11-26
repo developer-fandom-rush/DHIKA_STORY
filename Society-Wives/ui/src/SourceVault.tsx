@@ -1,4 +1,4 @@
-import { assetUrl, openPage, useData } from './lib';
+import { openPage, useData } from './lib';
 
 type VaultItem={
  id:string;title:string;lead:string;episode:string;date:string;kind:'google-doc-paragraphs'|'original-json-plot';
