@@ -88,7 +88,7 @@ for(const filename of allVisuals){
  assert.ok(existsSync(resolve(root,filename)),'Shreya original concept preview missing from GitHub '+filename);
  assert.ok(ep06.includes(filename),'Shreya concept gallery must display uploaded image '+filename);
  const svg=readFileSync(resolve(root,filename),'utf8');
- assert.match(svg,/data:image\\/webp;base64,/,'Shreya preview must contain actual image data');
+ assert.ok(svg.includes('data:image/webp;base64,'),'Shreya preview must contain actual image data');
 }
 assert.ok(ep06.includes('Husband whereabouts · Jan 3–5'),'Husband whereabouts section missing from UI');
 console.log('PASS Shreya visuals, 3 husbands and no-leave police roster.');
