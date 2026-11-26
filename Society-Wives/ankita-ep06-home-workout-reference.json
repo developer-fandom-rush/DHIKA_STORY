@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "SW-ANKITA-EP06-JAN03-WORKOUT-AND-STUDY-REFERENCE",
+  "title": "Ankita · Saturday Home Workout Reference & Independent JAM Study Planning",
+  "date": "2026-01-03",
+  "authorStatus": "KARAN_AMAN_EXISTING_SETUP_UNCHANGED__WORKOUT_LOOK_REFERENCE_SELECTED__AYAAN_ARMAAN_TIMING_PROPOSED",
+  "workout": {
+    "image": "assets/ankita-home-workout-reference.svg",
+    "imageType": "compressed preview of the exact previously generated indoor front/back collage",
+    "location": "Ankita and Kabir's home, private indoor exercise area",
+    "clothing": "Olive-green supportive racerback sports bra and coordinated fitted athletic shorts. Not yoga pants.",
+    "relationship": "Ankita voluntarily chooses to fulfill an earlier Karan request. It was NOT an earlier promise or obligation.",
+    "scene": "Front view, a natural turn to show the back of her workout outfit, and Karan/Aman's distinct pleased reactions; no accident in this visual",
+    "pair": "Karan and Aman, age 22, Kabir's younger twin brothers; daily household contact",
+    "locked": "OUTFIT_LOOK_SELECTED__VISUAL_ONLY__NOT_FINAL_PROSE",
+    "reminder": "Keep the existing 20-push-up challenge, banter, and Aman Java/interview mentoring setup unchanged."
+  },
+  "ayaanArmaan": {
+    "pair": "Ayaan and Armaan, society JAM study pair; do not claim biological twin relationship without source confirmation",
+    "ages": [
+      23,
+      23
+    ],
+    "priorConnection": "1 Jan lift/playful encounter is an earlier direct connection; complete lift chronology should be verified before writing",
+    "contactProposal": "Saturday 3 January, 16:20–16:35, society lobby/quiet common seating: Ayaan and Armaan approach Ankita directly to ask for support with computer-based mock-test setup; no Shivani introduction required",
+    "studyPurpose": "IIT JAM 2026 Biotechnology CBT tools, timed mocks, computer interface navigation, score/error tracking; physics only if her qualification is genuinely established",
+    "weeklyAnkita": [
+      {
+        "day": "Tuesday",
+        "time": "19:30–20:15",
+        "subject": "CBT interface and timed question sets",
+        "status": "PROPOSED_NOT_BOOKED"
+      },
+      {
+        "day": "Saturday",
+        "time": "17:00–17:45",
+        "subject": "Mock-test review, time analytics and error log",
+        "status": "PROPOSED_NOT_BOOKED"
+      }
+    ],
+    "otherMentors": "Shivani Biology Mon/Wed/Fri morning only as proposed in the shared JAM file; Meenakshi and Taniya subject and availability remain separate and unconfirmed",
+    "kabirTalk": "After EP06's author-locked Ankita–Kabir marriage foundation, she explains the two short commitments and consults him on family/work timing; Kabir answers supportively. A mutually respectful household conversation, not permission-as-ownership.",
+    "accidentalSlip": "POSTPONED_OPTIONAL_FUTURE; first build academic trust, then choose an ordinary non-intimate accident if the author wants one."
+  },
+  "otherContinuity": {
+    "karanAmanAccident": "Original scene proposal retained as a separate discussion item; not depicted by the workout reference visual, exact timing still optional and not published prose.",
+    "amanDoubts": "Aman can receive solo Java/backend mentoring, plus future genuine technical sessions with Sana and Vivan/Reyansh; Aishwarya is HR and not an invented Java student.",
+    "noPublicFashionShow": true,
+    "noSocietyEventBooking": true,
+    "episode06FirstScene": "Ankita and Kabir marriage foundation must precede training and JAM scenes",
+    "provenance": "2026-11-26 author discussion; proposed times remain subject to cross-lead continuity review."
+  }
+}
