@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "id": "SW-ANKITA-EP06-PREREQUISITE-CONTINUITY-AGENDA",
+  "createdAt": "2026-11-26",
+  "status": "USER_REQUESTED_DISCUSSION_AGENDA__NO_NEW_SCENES_OR_HUSBAND_SCHEDULES_APPROVED",
+  "principle": "Discuss one question at a time and finish all source-backed prerequisites before distributing plots into Jan 3–5 timeline; do not re-write already established 2 Jan Uncle discovery, freeze unseen content, or invent spouse jobs/time slots.",
+  "topics": [
+    {
+      "order": 1,
+      "id": "UNCLES_DISCOVERY",
+      "title": "Ankita/Shreya vs Rajeev/Arvind exact evidence and 2 Jan consequences",
+      "source": "Episode 5 original combined Google Doc + episode-05-reader.json",
+      "known": "Ankita saw Rajeev and Arvind together with overt arousal evident through their clothing ~20:22. Shreya independently encountered BOTH in storage ~20:47 and learned about stolen Ankita parcel item and misuse of her gymwear. At night both couples have mutually chosen intimate reconciliatory encounters. No bare anatomy witnessed by either woman. They have not confronted either elder.",
+      "outstanding": "Ankita/Shreya private comparison on Jan3, no repeating the same exposure or implying Ankita knows what only Shreya saw",
+      "status": "EXISTING_SCENE_PRESENT__NEXT_CONVERSATION_OPEN"
+    },
+    {
+      "order": 2,
+      "id": "ANKITA_KABIR_MARRIAGE",
+      "title": "Ankita–Kabir marriage relationship backstory, inspired by John–Dhika story function but not copied",
+      "source": "2 Jan EP05 Scene11 marriage-night and 2 Jan EP04B early morning are existing, NOT missing",
+      "known": "Kabir returns ~03:00 Fri after IT production incident, affectionate married relationship; Fri after 2 Jan discovery they reconnect privately and Ankita initiates closeness. A distinct marriage backstory/history scene is not yet locked.",
+      "outstanding": "How long married, meeting, trust/communication, their respective personalities; place concise flashback/character grounding only after author decision; no gratuitous repetition or new explicit scene",
+      "status": "DISCUSS_BEFORE_LOCK"
+    },
+    {
+      "order": 3,
+      "id": "SHREYA_VIKRAM_MARRIAGE",
+      "title": "Next Shreya episode includes parallel marriage relationship backstory for Shreya–Vikram",
+      "source": "episode-05-reader.json combined night + episode-05-shreya-plan.json",
+      "known": "Vikram/Shreya marital affection and mutual evening closeness already in original Episode05",
+      "outstanding": "Relationship origin, married-life baseline, scheduling and timeline placement after comparing existing Shreya approved scenes",
+      "status": "USER_DIRECTION_SAVED_AS_FUTURE_PLOT_REQUIREMENT__NOT_PROSE"
+    },
+    {
+      "order": 4,
+      "id": "ANKITA_KARAN_AMAN",
+      "title": "Karan–Aman family twins and recurring guidance/20-push-up challenge",
+      "source": "episode-04b-ankita-scene02-source.json / C02; episode-03-reader.json",
+      "known": "Karan (22), Aman (22) are Kabir's younger twin brothers; Karan MBA/freelancing, Aman Java/backend interview prep; 20-push-up challenge wagers one week of morning exercise if Karan loses; Friday moved to Saturday 3 Jan; Aman asked to send questions.",
+      "outstanding": "Set exact fair push-up scoring and genuine Ankita tutoring/guidance subjects; calendar alignment with Shivani Group A and Kavya Sunday interactions",
+      "status": "DISCUSS_NEXT_AFTER_MARRIAGE"
+    },
+    {
+      "order": 5,
+      "id": "ANKITA_OFFICE_DUO_AND_WOMEN",
+      "title": "Vivan/Reyansh home upskilling with existing office women",
+      "source": "character-directory.json + 1 Jan episode-03-reader.json",
+      "known": "Vivan/Reyansh both 24 are coworkers/design professionals, NOT twins. Sana Khan 24 QA automation and Aishwarya Rao 24 HR already participate in 1 Jan office five-person stamina/dance scene. Priya Nair 29 QA lead, Ira Mehta 32 product design and Ayesha Malik 31 HRBP exist in directory but their reader participation is not yet confirmed.",
+      "outstanding": "Choose credible cross-functional API/Java/backend upskilling project; identify which women actually attend and why; set off-hours reason, family permissions and safe transportation. User's proposal for three adults on one motorcycle is not locked; source must not presume unsafe triple riding. Any unplanned clothing incident remains a proposal, not existing plot.",
+      "status": "DISCUSS_IN_ORDER__NO_NEW_SCENE_APPROVED"
+    },
+    {
+      "order": 6,
+      "id": "AYAAN_ARMAAN_JAM_CONTRIBUTION",
+      "title": "Three or more mentor commitments before assigning timetable",
+      "source": "cross-lead-ayaan-armaan-jam-2026.json",
+      "known": "Shivani proposed regular Biology lead, Meenakshi chemistry help in principle, Taniya mathematics candidate, Ankita Physics only if actually qualified, Shreya study strategy optional. Do not infer all three confirmed yes responses.",
+      "outstanding": "Choose a legitimate call sequence and obtain plausible subject expertise and availability before hard booking any Ayaan/Armaan classes. Their student registration/degree assumptions remain unconfirmed.",
+      "status": "CROSS_LEAD_HANDOFF_EXISTS__SCHEDULE_UNBOOKED"
+    },
+    {
+      "order": 7,
+      "id": "SPOUSE_PROFESSIONS_AVAILABILITY",
+      "title": "Kabir and Rohan professions and Jan3–4/5 availability",
+      "source": "character-directory.json + Shivani EP02 and EP04A + Ankita EP04B; episode-06-cross-household-hold.json",
+      "known": "Kabir had overnight production issue and work/laptop; precise title not locked. Rohan's office and urgent work call established; precise profession not locked. Jan3–4/5 shifts, family plans, children and commute are unconfirmed.",
+      "outstanding": "Set professions/working pattern with author before future save of availability; account for Tara, twins, Kabir–Ankita couple, and Shivani Monday campus.",
+      "status": "MUST_DISCUSS_BEFORE_SCHEDULING"
+    }
+  ],
+  "linkedScopes": [
+    "Society-Wives/episode-06-cross-household-hold.json",
+    "Society-Wives/shivani-episode-06-three-day-plot.json",
+    "Society-Wives/cross-lead-ayaan-armaan-jam-2026.json"
+  ],
+  "editorialHold": "No date-scoped new event or fictional husband profession was added to timeline by this agenda."
+}
