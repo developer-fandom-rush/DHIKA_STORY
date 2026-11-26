@@ -190,5 +190,12 @@
     "readingStatus": "NOT_PUBLISHED",
     "planningStatus": "SAVED_FOR_DISCUSSION",
     "preserveExistingSources": true
+  },
+  "sharedStudyCircleHandoff": {
+    "projectId": "SW-CROSS-AYAAN-ARMAAN-JAM2026",
+    "source": "cross-lead-ayaan-armaan-jam-2026.json",
+    "uiRoute": "#/study-circle",
+    "lead": "Shreya",
+    "info": "Read shared mentor roles and open competence/availability questions before placing this person's January scenes. Metadata pointer only; existing prose and previous plot decisions unchanged."
   }
 }
