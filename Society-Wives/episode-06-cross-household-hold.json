@@ -48,7 +48,7 @@
   ],
   "exceptions": [
     "Previously plotted Group A Shivani–Karan/Aman remains approved as an action chain but Sunday Jan4 placement is not locked; confirm Ankita household.",
-    "Kavya–Karan/Aman first bridge is a selected candidate for author review, not final nor an automatic lock on Sunday.",
+    "Kavya–Karan/Aman SIX-BEAT no-touch visual bridge PLOT APPROVED; Sunday 4 Jan day and 16:30–17:05 remain provisional availability holds, not confirmed appointments.",
     "Ayaan–Armaan academic contact and Shivani college/faculty seminar do not require speculative other husband's availability, but do require family/shift check."
   ],
   "reopenAfter": [
@@ -64,7 +64,37 @@
     "episode-04b-publication-index.json",
     "episode-05-publication-index.json",
     "episode-05-jan02-uncle-cross-encounters-working-plot.json",
-    "future-ideas.json"
+    "future-ideas.json",
+    "episode-06-ankita-plan.json",
+    "episode-06-shreya-plan.json",
+    "episode-06-karan-aman-shared-availability.json"
   ],
-  "otherLeadHandoff": "When starting Ankita, Taniya, Meenakshi or Shreya next three-day Episode 06 plot, check this cross-household gate and central JAM mentor contract, add the lead's true availability to the three-day global timeline, and DO NOT finalize other husbands' presence from imagination."
+  "otherLeadHandoff": "When starting Ankita, Taniya, Meenakshi or Shreya next three-day Episode 06 plot, check this cross-household gate and central JAM mentor contract, add the lead's true availability to the three-day global timeline, and DO NOT finalize other husbands' presence from imagination. Prioritize Ankita and Shreya's marriage-foundation scene as first EP06 scene in their respective arcs. Read shared Karan/Aman calendar before confirming lead meetings. No other husbands' hours invented.",
+  "sharedKaranAmanLedger": {
+    "source": "episode-06-karan-aman-shared-availability.json",
+    "status": "AUTHOR_DIRECTED_FIVE_LEAD_RECURRING_PAIR__DAILY_PROVISIONAL_HOLDS",
+    "household": "Ankita and Kabir share the home with Karan/Aman",
+    "otherLeads": [
+      "Shivani",
+      "Taniya",
+      "Meenakshi",
+      "Shreya"
+    ],
+    "kavyaStatus": "APPROVED_SIX_BEAT_PLOT__SUN_4_PROVISIONAL_CLOCK_ONLY",
+    "mustCheck": "Before booking ANY two-lead Karan/Aman scene, use the same daily ledger, respect both brothers' independent whereabouts and realistic travel buffers. Sunday candidate Shivani 11:30–12:15 vs Kavya 16:30–17:05 are soft holds, not canon appointments."
+  },
+  "episode06FirstSceneOrders": {
+    "Ankita": {
+      "source": "episode-06-ankita-plan.json",
+      "scene": "ANK06-S01-MARRIAGE",
+      "title": "Ankita × Kabir married-life foundations",
+      "status": "FIRST_SCENE_ORDER_APPROVED"
+    },
+    "Shreya": {
+      "source": "episode-06-shreya-plan.json",
+      "scene": "SHR06-S01-MARRIAGE",
+      "title": "Shreya × Vikram married-life foundations",
+      "status": "FIRST_SCENE_ORDER_APPROVED"
+    }
+  }
 }
