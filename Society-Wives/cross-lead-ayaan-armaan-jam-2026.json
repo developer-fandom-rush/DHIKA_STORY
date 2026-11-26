@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "id": "SW-CROSS-AYAAN-ARMAAN-JAM2026",
+  "title": "Ayaan and Armaan — IIT JAM Biotechnology · Five-Lead Coordination",
+  "date": "2026-11-26",
+  "status": "AUTHOR_APPROVED_MULTIMENTOR_PLOT_FOUNDATION__QUALIFICATIONS_AND_TIMES_PARTLY_OPEN",
+  "fiveMainLeads": [
+    "Ankita",
+    "Shivani",
+    "Taniya",
+    "Meenakshi",
+    "Shreya"
+  ],
+  "notIncluded": "Soniya is Taniya's sister and NOT a fifth lead or Physics tutor.",
+  "intent": "Ayaan and Armaan's exam preparations create credible recurring cross-lead relationships without inventing a reason to seek Java, biology or career advice from an unrelated professional.",
+  "learners": [
+    {
+      "name": "Ayaan",
+      "age": 23,
+      "established": "Society event/printing work; expressive personality",
+      "proposed": "Life Sciences B.Sc. graduate; confirmation of degree and JAM registration pending"
+    },
+    {
+      "name": "Armaan",
+      "age": 23,
+      "established": "Society event/printing work; reserved, attentive personality",
+      "proposed": "Biotechnology B.Sc. graduate; confirmation of degree and JAM registration pending"
+    }
+  ],
+  "pairLock": "Their being biological twins is NOT confirmed in character directory. Karan/Aman and Harsh/Laksh are separate confirmed pairs.",
+  "exam": {
+    "name": "IIT JAM 2026 Biotechnology (BT)",
+    "date": "2026-02-15",
+    "subjects": [
+      "Biology/Biotechnology",
+      "Chemistry",
+      "Mathematics",
+      "Physics"
+    ],
+    "mode": "Computer-based written/MCQ-type exam, not clinical practical examination",
+    "syllabus": "https://jam2026.iitb.ac.in/files/syllabus_BT.pdf",
+    "schedule": "https://jam2026.iitb.ac.in/TestSchedule.html",
+    "contestDistinction": "The fictional college 5–6-day Life Sciences competition + faculty seminar is a separate event; avoid collision with JAM exam day."
+  },
+  "mentors": [
+    {
+      "lead": "Shivani",
+      "profession": "College Biology lecturer",
+      "focus": "Biology / Biotechnology",
+      "role": "Primary mentor",
+      "status": "AUTHOR_APPROVED_PLOT",
+      "ability": "Biology theory, genetics, biotechnology and revision",
+      "availability": "Proposed Mon/Wed/Fri 06:45–07:45 and Sat from Jan10 08:30–09:30; household/college clock still to confirm"
+    },
+    {
+      "lead": "Meenakshi",
+      "profession": "Doctor",
+      "focus": "Chemistry / Biochemistry / clinical practical-context concepts",
+      "role": "Secondary science mentor",
+      "status": "IN_PRINCIPLE_PHONE_AGREEMENT_IN_APPROVED_PLOT__NOT_WRITTEN_PROSE",
+      "ability": "Medical biochemistry, human physiology, applied examples; full JAM Chemistry expertise needs separate verification",
+      "availability": "OPEN; to decide in Meenakshi's hospital/family plot, NOT Shivani's schedule"
+    },
+    {
+      "lead": "Taniya",
+      "profession": "Chartered Accountant",
+      "focus": "Mathematics",
+      "role": "Possible mathematics mentor",
+      "status": "PROPOSED__COMPETENCE_AND_TIME_OPEN",
+      "ability": "Quantitative arithmetic and relevant mathematics if she knows syllabus; CA credential alone does not prove calculus expertise",
+      "availability": "OPEN; fit CA office/wedding/family timeline first"
+    },
+    {
+      "lead": "Ankita",
+      "profession": "IT Tech Lead",
+      "focus": "Physics candidate or CBT mock-test technical guidance",
+      "role": "Possible Physics/technical mentor",
+      "status": "PROPOSED__PHYSICS_QUALIFICATION_OPEN",
+      "ability": "Physics only if credible academic proficiency exists, otherwise assist CBT/mock-test workflow; separate qualified tutor fallback",
+      "availability": "OPEN; check IT work/Kabir/twins household"
+    },
+    {
+      "lead": "Shreya",
+      "profession": "Police Inspector",
+      "focus": "Exam strategies / time management / discipline",
+      "role": "Optional fifth-person support, NOT fifth JAM subject",
+      "status": "PROPOSED__SESSION_AND_TIME_OPEN",
+      "ability": "Test discipline, revision tactics, confidence and timed practice; not an automatic Physics teacher",
+      "availability": "OPEN; verify policing shifts and family commitments"
+    }
+  ],
+  "timeAnchors": [
+    {
+      "date": "2026-01-03",
+      "status": "AUTHOR_APPROVED_PLOT_DIRECTION__CLOCK_OPEN",
+      "event": "Following the already-written Uncle morning, a candidate afternoon request from Ayaan/Armaan to Shivani; Shivani phones Meenakshi, who agrees in principle. No first tuition accident here."
+    },
+    {
+      "date": "2026-01-04",
+      "status": "NO_MANDATORY_TUITION",
+      "event": "Sunday self-study or optional doubt contact; Shivani society/family/movie window stays open."
+    },
+    {
+      "date": "2026-01-05",
+      "status": "FIRST_BIOLOGY_LESSON_CANDIDATE__CLOCK_PROPOSED",
+      "event": "Shivani proposed 06:45–07:45 JAM Biology session, but other women have no automatically booked lessons."
+    },
+    {
+      "date": "2026-01-06",
+      "status": "SEPARATE_STUDENT_GROUP",
+      "event": "Shivani's Harsh/Laksh/Arjun/Nandini/Ritika extra-class group is NOT Ayaan/Armaan's JAM study group."
+    }
+  ],
+  "academicRule": "JAM BT has four academic knowledge areas, not five. Shreya exam strategy is supplemental. No assumption all five women must teach weekly or even agree.",
+  "openDecisions": [
+    "Degrees and exam registration for Ayaan/Armaan",
+    "Meenakshi's actual Chemistry command and hospital timing",
+    "Taniya's precise Mathematics curriculum ability and calendar",
+    "Ankita's Physics proficiency versus external tutor; potential CBT mentorship",
+    "Shreya's separate credible meeting reason and police-duty availability",
+    "Other women’s spouse/household commitments, and January cinema plan",
+    "Fictional competition/faculty seminar travel dates relative to IIT JAM"
+  ],
+  "handoff": {
+    "rule": "In EVERY new chat planning Ankita/Shivani/Taniya/Meenakshi/Shreya January story, explicitly retrieve this shared GitHub file first, then compare the relevant lead's current episode reader/plot before changing a mentoring assignment or a time slot.",
+    "source": "Society-Wives/cross-lead-ayaan-armaan-jam-2026.json",
+    "uiRoute": "#/study-circle",
+    "noAutoSync": "A GitHub reference is accessible to another chat when linked/available, but is not automatically loaded into that chat's model memory. The new chat must read the file or be given its URL.",
+    "updatePolicy": "Approved plot remains preserved before prose. Whenever another lead agrees to a time or changes competence, update THIS same canonical ledger and linked lead plan, not an isolated local-only note."
+  }
+}
