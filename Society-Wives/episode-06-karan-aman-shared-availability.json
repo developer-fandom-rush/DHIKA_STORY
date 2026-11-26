@@ -45,9 +45,9 @@
     },
     {
       "lead": "Taniya",
-      "status": "NEW_AUTHOR_SHARED_CROSSLEAD_DIRECTION__STORY_MEETING_NOT_YET_SOURCED",
-      "existing": "User now requests Karan/Aman cross-lead availability as recurring; no validated Taniya appearance already witnessed",
-      "dateStatus": "Open until Taniya full Jan3–5 plot/care duties approved"
+      "status": "PREEXISTING_EP03_LOBBY_ACQUAINTANCE__SUNDAY_FINANCE_STUDY_HOLD_EDITORIAL__FIVE_LEAD_GATE_OPEN",
+      "existing": "Episode 03 T03-11 working plot: Karan–Aman and Taniya have already met in an unplanned lobby passage collision; no need to invent a first introduction, but this is a working plot and not locked final prose.",
+      "dateStatus": "Sun 4 Jan 13:15–14:00 proposed Taniya MBA-finance help for Karan; Aman may join freely. Follows Shivani 11:30–12:15 with an hour gap and precedes Kavya 16:30–17:05 with over two hours. Conditional five-lead shared-society gate; scene not yet frozen."
     },
     {
       "lead": "Meenakshi",
@@ -175,13 +175,33 @@
           "status": "PROPOSED_BUFFER"
         },
         {
-          "window": "13:00–15:30",
-          "use": "Cross-lead Taniya/Meenakshi/Shreya potential, currently EMPTY; check partner shifts and consent before booking",
+          "window": "13:00–13:15",
+          "use": "After Shivani, reserved travel/rest buffer before a possible Taniya study appointment; no new scene",
           "participants": [
             "Karan",
             "Aman"
           ],
-          "status": "UNASSIGNED_NEEDS_OTHER_LEADS"
+          "status": "EDITOR_PROPOSED_BUFFER"
+        },
+        {
+          "window": "13:15–14:00",
+          "use": "Taniya EP06 conditional finance/MBA-help visit for Karan; Aman joins if interested. New scheduling hold within prior open 13:00–15:30 window, NOT confirmed prose or a five-household gate release.",
+          "participants": [
+            "Taniya",
+            "Karan",
+            "Aman"
+          ],
+          "status": "CROSSLEAD_CANDIDATE_HOLD__NOT_AUTHOR_FROZEN__GATE_OPEN",
+          "notes": "Taniya and both brothers already have EP03 working lobby history. Do not call this their first acquaintance. Leave both free for Kavya 16:30–17:05."
+        },
+        {
+          "window": "14:00–15:30",
+          "use": "Remaining personal/society and Meenakshi possibilities still unassigned; allow exit from Taniya site and long buffer before Kavya",
+          "participants": [
+            "Karan",
+            "Aman"
+          ],
+          "status": "UNASSIGNED_AFTER_CANDIDATE"
         },
         {
           "window": "15:30–16:30",
@@ -301,7 +321,8 @@
     "Never publish proposed travel/event timing as a confirmed in-universe appointment before author approves.",
     "Do not represent a daily fixed Karan/Aman meeting with Ankita; they are housemates. Only structured class and external visits require booked time.",
     "Aishwarya is HR; do not enroll her in Java/backend tuition. She can be optional Karan career interview mentor on Tue/Thu/Sat, after introduction and availability checks.",
-    "Proposed Mon5 after-office cross-functional technical project is Vivan/Reyansh/Sana/Ankita only; if implemented, no Ankita-at-home 19:15 event without commute confirmation."
+    "Proposed Mon5 after-office cross-functional technical project is Vivan/Reyansh/Sana/Ankita only; if implemented, no Ankita-at-home 19:15 event without commute confirmation.",
+    "Sunday 4 Jan 13:15–14:00 Taniya visit is a non-frozen candidate, explicitly visible in ledger. Do not convert it to approved prose or double-book Karan/Aman against Shivani or Kavya."
   ],
   "sources": [
     "episode-03-ankita-scene-07-revised-prose.json",
