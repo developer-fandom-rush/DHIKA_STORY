@@ -694,13 +694,20 @@
       "number": "06",
       "title": "Shivani · Jan 3–5 Global Plot",
       "subtitle": "Three-day outline, other leads' connected episodes forthcoming",
-      "status": "PLOT_ONLY__GROUPS_A_B_C_D_APPROVED__KAVYA_BRIDGE_REVIEW__SOCIETY_GATE_HOLD",
+      "status": "PLOT_ONLY__GROUPS_A_B_C_D_AND_KAVYA_BRIDGE_APPROVED__SOCIETY_GATE_HOLD",
       "date": "2026-01-03 to 2026-01-05",
       "mainPath": "index.html#/planning?lead=shivani&part=06",
       "plotSource": "shivani-episode-06-three-day-plot.json",
       "crossHouseholdGate": "episode-06-cross-household-hold.json",
       "crossMentorSource": "cross-lead-ayaan-armaan-jam-2026.json",
-      "note": "No episode 06 final prose; Group D boundary-reversal approved, Kavya first physical bridge proposed, optional inter-household society encounters and movie on hold until all five lead/partner windows are reconciled."
+      "note": "No EP06 final prose. Group D boundary reversal approved; Kavya six-beat no-touch visual doorway farewell approved on 26 Nov. Exact Jan 4 clock and other household availability remain subject to five-lead cross-household gate.",
+      "kavyaFirstBridge": {
+        "status": "SIX_BEAT_PLOT_APPROVED__TIME_OPEN",
+        "source": "shivani-episode-06-three-day-plot.json",
+        "scene": "SH06-SUN-KAVYA-BRIDGE",
+        "label": "No-Touch Visual Bridge — brief bare-back doorway farewell; Karan/Aman reactions distinct",
+        "supersedes": "linked-arm/handhold proposal"
+      }
     }
   ],
   "verbatimArchiveRule": "2026-11-26 author request: the three original Google Docs and existing Taniya 04B plot are copied word for word to source-vault. These source snapshots are locked/immutable; all future edits must create new named versions. Preserve original working/frozen editorial labels inside documents; Source Vault visibility is not proof of final prose publication."
