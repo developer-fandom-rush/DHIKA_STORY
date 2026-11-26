@@ -4,7 +4,7 @@ type Beat={id:string;time:string;title:string;status:string;people:string[];acti
 type Day={date:string;label:string;blocks:Beat[]};
 type Audit={lead:string;source:string;status:string;constraint:string};
 type Group={group:string;status:string;placement:string;summary:string};
-type Episode06={title:string;status:string;policy:string;pre06Audit:Audit[];days:Day[];groups:Group[];weeklyTemplate:string[];open:string[]};
+type Episode06={title:string;status:string;policy:string;pre06Audit:Audit[];days:Day[];groups:Group[];weeklyTemplate:string[];open:string[];societyCrossHouseholdGate?:{status:string;scope:string;rule:string;nextLeads:string[];reference:string};auditCorrections?:{episode04B:string;episode05:string;uncle:string}};
 
 export default function Shivani06Planning(){
  const {data:plot,loading,error}=useData<Episode06>('shivani-episode-06-three-day-plot.json');
@@ -43,7 +43,9 @@ export default function Shivani06Planning(){
    <section className="episode-plan-card" id="sh06-calendar"><h2>Monday onward · proposed weekly calendar</h2>
     {plot.weeklyTemplate.map((line,i)=><p key={i}>{line}</p>)}
    </section>
-   <section className="episode-plan-card" id="sh06-unresolved"><h2>Remaining discussion · not removed</h2>
+   {plot.societyCrossHouseholdGate&&<section className="episode-plan-card" id="sh06-society-hold"><h2>Five-lead society timeline · HOLD</h2><p><strong>{plot.societyCrossHouseholdGate.status.replace(/_/g,' ')}</strong></p><p>{plot.societyCrossHouseholdGate.rule}</p><p><strong>Scope:</strong> {plot.societyCrossHouseholdGate.scope}</p><p><strong>Other lead plots to reconcile:</strong> {plot.societyCrossHouseholdGate.nextLeads.join(' · ')}.</p><p><a href="https://github.com/developer-fandom-rush/DHIKA_STORY/blob/main/Society-Wives/episode-06-cross-household-hold.json" target="_blank" rel="noreferrer">Full five-household scheduling gate</a></p></section>}
+   {plot.auditCorrections&&<section className="episode-plan-card" id="sh06-reader-audit"><h2>Reader and Uncle source audit</h2><p><strong>EP04B:</strong> {plot.auditCorrections.episode04B}</p><p><strong>EP05:</strong> {plot.auditCorrections.episode05}</p><p><strong>Uncle material:</strong> {plot.auditCorrections.uncle}</p><p><a href="https://github.com/developer-fandom-rush/DHIKA_STORY/blob/main/Society-Wives/episode-catalog.json" target="_blank" rel="noreferrer">Publication statuses (catalog)</a></p></section>}
+      <section className="episode-plan-card" id="sh06-unresolved"><h2>Remaining discussion · not removed</h2>
     <ul>{plot.open.map((issue,i)=><li key={i}>{issue}</li>)}</ul>
    </section>
   </>}
