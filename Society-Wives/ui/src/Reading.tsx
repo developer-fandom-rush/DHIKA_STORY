@@ -3,6 +3,7 @@ import DOMPurify from 'dompurify';
 import { Archive, assetUrl, episodePath, peopleOrder, openPage, titleCase, useData } from './lib';
 import Home from './Home';
 import EpisodeSelector from './EpisodeSelector';
+import Episode05Wives from './Episode05Wives';
 type Props={character:string;scene:string|null;episode?:string|null};
 
 function Episode02Reading({character,scene}:Props){
@@ -563,38 +564,7 @@ function Episode04BReading(props:Props){
 }
 
 
-type Ep05Scene={id:string;lead:string;title:string;time:string;place:string;raw:string};
-type Ep05Data={episode:string;title:string;subtitle:string;date:string;status:string;sourceDoc:string;publicationNote:string;scenes:Ep05Scene[]};
-function Episode05Reading({scene}:Props){
- const {data,loading,error}=useData<Ep05Data>('episode-05-reader.json');
- const scenes=data?.scenes||[];
- const selected=scenes.find(s=>s.id===scene)||scenes[0];
- const index=scenes.findIndex(s=>s.id===selected?.id);
- const go=(id:string)=>openPage('reading',{episode:'05',character:'ankita',scene:id});
- return <main className="page-width ep04-final-reader" id="episode05-ankita-shreya-reader">
-  <header className="section-intro"><span className="eyebrow">The Story · Friday, 2 January 2026</span><h1>Episode 05 · Ankita × Shreya</h1>
-   <p>Same-day family visit · established lead-up plus a short next-morning reaction note. Detailed meeting/discovery prose remains in the source manuscript.</p>
-  </header>
-  <div className="chapter-controls"><button type="button" className="button subtle" onClick={()=>openPage('source-vault',{item:'ep05-meenakshi-shivani'})}>Meenakshi × Shivani · full EP05 source →</button>
-   <button type="button" className="button subtle" onClick={()=>openPage('source-vault',{item:'ep05-taniya'})}>Taniya · full EP05 source →</button></div>
-  <div className="perspective-tabs" role="group" aria-label="Episode 05 combined leads"><button type="button" className="selected" aria-pressed="true">Ankita × Shreya</button></div>
-  {loading&&<p role="status">Loading Episode 05…</p>}{error&&<p role="alert" className="error">Episode 05 source unavailable: {error}</p>}
-  {data&&<div className="reader-layout">
-   <aside className="scene-sidebar"><p className="aside-title">Episode 05 · combined</p>
-    {scenes.map((s,i)=><button type="button" key={s.id} className={'scene-link'+(selected?.id===s.id?' active':'')} aria-pressed={selected?.id===s.id} onClick={()=>go(s.id)}><span>Scene {i+1}<small className="ep03-scene-name">{s.lead} · {s.title}</small></span></button>)}
-    <p className="source-note"><strong>Current reader:</strong> lead-up through Beat 3 plus a short next-morning reaction note. Detailed meeting/discovery beats remain in the source manuscript until the author freezes them for full UI publication.</p>
-   </aside>
-   <article className="reading-surface source-scene prose-exact">{selected&&<>
-    <div className="story-toolbar"><span>{selected.lead} · Scene {index+1} of {scenes.length}</span></div>
-    <div className="ep03-scene-intro"><h2>{selected.title}</h2><p>{selected.time} · {selected.place}</p></div>
-    <StoryParagraphs raw={selected.raw}/>
-    <div className="chapter-controls"><button type="button" className="button subtle" disabled={index<=0} onClick={()=>go(scenes[index-1]?.id)}>← Previous scene</button><span>Scene {index+1} of {scenes.length}</span><button type="button" className="button primary" disabled={index>=scenes.length-1} onClick={()=>go(scenes[index+1]?.id)}>Next scene →</button></div>
-   </>}</article>
-  </div>}
- </main>;
-}
-
 export default function Reading(props:Props){
  const episode=props.episode==='05'?'05':props.episode==='04B'?'04B':(props.episode==='04A'||props.episode==='04')?'04A':['01','02','03'].includes(props.episode||'') ? props.episode! : '01';
- return <><EpisodeSelector episode={episode}/>{episode==='01'?<Home scene={props.scene}/>:episode==='03'?<Episode03Reading {...props}/>:episode==='04A'?<Episode04Reading {...props}/>:episode==='04B'?<Episode04BReading {...props}/>:episode==='05'?<Episode05Reading {...props}/>:<Episode02Reading {...props}/>}</>;
+ return <><EpisodeSelector episode={episode}/>{episode==='01'?<Home scene={props.scene}/>:episode==='03'?<Episode03Reading {...props}/>:episode==='04A'?<Episode04Reading {...props}/>:episode==='04B'?<Episode04BReading {...props}/>:episode==='05'?<Episode05Wives character={props.character} scene={props.scene}/>:<Episode02Reading {...props}/>}</>;
 }
