@@ -2416,7 +2416,7 @@
       "sort": "07:30",
       "start": null,
       "end": null,
-      "timeLabel": "7:30–8:15 AM draft, not locked",
+      "timeLabel": "SATURDAY TIME TO REPLAN · previous 07:30–08:15 is NOT booked",
       "universe": "sw",
       "title": "Ankita × Karan–Aman · pending gym challenge",
       "lead": "Ankita",
@@ -2430,7 +2430,7 @@
       "scene": "ANK06-S03-KARAN-AMAN",
       "kind": "planned",
       "state": "review",
-      "status": "20-PUSHUPS CHALLENGE EXISTS · NEW SLIP/TIME UNAPPROVED",
+      "status": "PENDING SATURDAY REORDER · REJECTED GYM-BAG SLIP NOT ACTIVE",
       "source": "episode-06-ankita-mentoring-setup.json",
       "reader": {
         "type": "sw-plan",
@@ -2441,9 +2441,11 @@
       "flags": [
         "EDITORIAL TIME PROPOSAL only, not confirmed attendance",
         "No prose, accident or result has been written for this event",
-        "Check five-household spouses, travel and outside lead availability before locking"
+        "Check five-household spouses, travel and outside lead availability before locking",
+        "2026-11-26 author explicitly rejected gym bag strap slip; no new accidental incident on Jan3",
+        "Keep marriage foundation first and respect Jan3 morning reaction plus Shreya evidence comparison"
       ],
-      "detail": "Karan's twenty push-ups wager and Aman as witness come from 2 Jan breakfast; 1 Jan scooter ride with Aman already approved. Minor sports outer-layer shift is proposed only, not another first touch."
+      "detail": "Karan's original 20 pushups challenge remains pending; only timing and scoring need discussion. Aman remains a Java learner and daily household contact. The former strap incident is withdrawn; not an approved scene."
     },
     {
       "id": "ank06-05-office-tech-group-candidate",
