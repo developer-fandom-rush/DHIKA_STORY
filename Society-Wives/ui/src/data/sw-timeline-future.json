@@ -9,7 +9,8 @@
     "Ankita Jan1 EP03 ends at 18:25 with Rinku doorbell. The 17 Nov EP04 Chotu workshop now proposes Jan1 Rinku follow-through and Jan2 Rohit A/B; previous undated Rinku/future-episode Rohit treatment is kept only as historical planning, not a duplicate scheduled clock entry. New slots require author approval.",
     "Jan2 Episode 04 Chotu A/B proposals are under author review; earlier Rohit and Naveen plan records are retained as historical variants without double-booking Jan2.",
     "EP05 original source statuses reconciled as separate markers; older Jan2 proposals not deleted or marked as published. EP06 Jan3-5 is plot-only; index sort positions are not guaranteed event times.",
-    "2026-11-26: Group D Boundary-Reversal physically approved in episode06; Kavya first linked-arm bridge candidate, NOT author-final. Society cross-household marker is an editorial hold and does not assert an in-universe 23:00 event."
+    "2026-11-26: Group D Boundary-Reversal physically approved in episode06; Kavya first linked-arm bridge candidate, NOT author-final. Society cross-household marker is an editorial hold and does not assert an in-universe 23:00 event.",
+    "2026-11-26: Ankita EP06 first marriage scene ordering approved; Jan3 gym and Jan5 technical demo times merely candidate windows. Aishwarya HR role separate, not a technical pupil; Karan–Aman home contact daily without appointment."
   ],
   "events": [
     {
@@ -2374,6 +2375,111 @@
         "Cross-household gate must be checked before finalizing attendance"
       ],
       "detail": "No guard/trainer/milkman/uncle/other husbands encounter or group movie booked until five leads and their partners' 3–5 Jan availability and knowledge are reconciled. This is a source-index marker, NOT a late-night story scene."
+    },
+    {
+      "id": "ank06-03-marriage-opening-proposed-time",
+      "date": "2026-01-03",
+      "sort": "06:45",
+      "start": null,
+      "end": null,
+      "timeLabel": "First scene; ~06:45–07:20 placeholder",
+      "universe": "sw",
+      "title": "Ankita × Kabir · first EP06 marriage foundation",
+      "lead": "Ankita",
+      "characters": [
+        "Ankita",
+        "Kabir"
+      ],
+      "mentions": [],
+      "episode": "06 plot",
+      "scene": "ANK06-S01-MARRIAGE",
+      "kind": "planned",
+      "state": "review",
+      "status": "SCENE ORDER AUTHOR APPROVED · CLOCK OPEN",
+      "source": "episode-06-ankita-plan.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "ankita",
+        "part": "06",
+        "scene": "ANK06-S01-MARRIAGE"
+      },
+      "flags": [
+        "EDITORIAL TIME PROPOSAL only, not confirmed attendance",
+        "No prose, accident or result has been written for this event",
+        "Check five-household spouses, travel and outside lead availability before locking"
+      ],
+      "detail": "Open with Ankita/Kabir relationship backstory, trust and familiar emotional comfort. No wedding date invented; prior Friday night affection is already in EP05."
+    },
+    {
+      "id": "ank06-03-gym-challenge-suggested",
+      "date": "2026-01-03",
+      "sort": "07:30",
+      "start": null,
+      "end": null,
+      "timeLabel": "7:30–8:15 AM draft, not locked",
+      "universe": "sw",
+      "title": "Ankita × Karan–Aman · pending gym challenge",
+      "lead": "Ankita",
+      "characters": [
+        "Ankita",
+        "Karan",
+        "Aman"
+      ],
+      "mentions": [],
+      "episode": "06 plot",
+      "scene": "ANK06-S03-KARAN-AMAN",
+      "kind": "planned",
+      "state": "review",
+      "status": "20-PUSHUPS CHALLENGE EXISTS · NEW SLIP/TIME UNAPPROVED",
+      "source": "episode-06-ankita-mentoring-setup.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "ankita",
+        "part": "06",
+        "scene": "ANK06-S03-KARAN-AMAN"
+      },
+      "flags": [
+        "EDITORIAL TIME PROPOSAL only, not confirmed attendance",
+        "No prose, accident or result has been written for this event",
+        "Check five-household spouses, travel and outside lead availability before locking"
+      ],
+      "detail": "Karan's twenty push-ups wager and Aman as witness come from 2 Jan breakfast; 1 Jan scooter ride with Aman already approved. Minor sports outer-layer shift is proposed only, not another first touch."
+    },
+    {
+      "id": "ank06-05-office-tech-group-candidate",
+      "date": "2026-01-05",
+      "sort": "18:10",
+      "start": null,
+      "end": null,
+      "timeLabel": "6:10–7:00 PM after-office candidate",
+      "universe": "sw",
+      "title": "Ankita × Vivan–Reyansh + Sana · sample-app kickoff",
+      "lead": "Ankita",
+      "characters": [
+        "Ankita",
+        "Vivan",
+        "Reyansh",
+        "Sana"
+      ],
+      "mentions": [],
+      "episode": "06 plot",
+      "scene": "ANK06-S04-OFFICE",
+      "kind": "planned",
+      "state": "review",
+      "status": "MENTOR ROLES CONFIRMED · TECH SESSION CLOCK PROPOSED",
+      "source": "episode-06-ankita-mentoring-setup.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "ankita",
+        "part": "06",
+        "scene": "ANK06-S04-OFFICE"
+      },
+      "flags": [
+        "EDITORIAL TIME PROPOSAL only, not confirmed attendance",
+        "No prose, accident or result has been written for this event",
+        "Check five-household spouses, travel and outside lead availability before locking"
+      ],
+      "detail": "Legitimate sample booking app with UI/UX duo, Sana QA automation and Ankita Spring Boot APIs. Aishwarya is HR and no technical tuition participant. Longer Mon/Wed/Fri schedule and optional Aishwarya/Karan Tue/Thu/Sat are unbooked candidates."
     }
   ],
   "sourcePolicy": " | Shreya January 3 working scenes SR10–SR13 were moved into the January 1 calendar by direct author instruction 2026-11-16, original plan archived in episode-03-shreya-plan-archive-jan03.json; no content removed from story source."
