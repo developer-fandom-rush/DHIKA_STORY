@@ -46,6 +46,6 @@ export default function StoryNavigation({mode,episode,lead}:{mode:Mode;episode:s
    <span>Perspective</span>
    {leads.map(w=><a key={w} href={route(ep,w,mode)} aria-current={w===who?'page':undefined} className={w===who?'selected':''}>{titleCase(w)}</a>)}
   </div>
-  {ep==='06'&&<p className="story-episode-nav-note">Episode 06 is a plot, not published prose. Ankita, Shivani and Shreya have saved EP06 plans; other leads keep their own placeholders until plotted.</p>}
+  {ep==='06'&&<p className="story-episode-nav-note">Episode 06 is a plot, not published prose. Ankita, Shivani, Taniya and Shreya have EP06 plans; Meenakshi remains a placeholder until its own plot is completed.</p>}
  </nav>;
 }
