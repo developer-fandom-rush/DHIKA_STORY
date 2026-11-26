@@ -10,6 +10,7 @@ type MentorSlip={status:string;candidate?:string;mechanism?:string;reactionOrder
 type MentorLane={id:string;label:string;kind:string;members:MentorMember[];frequency?:string;formalSessions?:string;project?:{name:string;objective:string;roles:Record<string,string>};firstWeekCandidates?:MentorWindow[];firstAccidentalSlipProposal?:MentorSlip;introduction?:string;outsideTechSession?:string;mentoringFit?:string;schedule?:string};
 type MentorPlan={title:string;status:string;authorPrinciples:string[];lanes:MentorLane[];scheduleCollisionPolicy:string[]};
 type Slot={window:string;use:string;participants:string[];status:string;notes?:string};
+type HouseholdLedger={status:string;husbands:{id:string;wife:string;profession:string;days:{date:string;whereabouts:{time:string;place:string;reason:string;status:string}[]}[]}[];shreyaPoliceRoster:{date:string;shift:string;leave:boolean;status:string;logistics:string}[]};
 type Availability={title:string;status:string;pair:{names:string[];relationship:string;priorScene:string;academics:Record<string,string>};fiveLeadLinks:{lead:string;status:string;existing:string;dateStatus:string}[];dailyFramework:{date:string;label:string;slots:Slot[]}[];schedulingRules:string[]};
 const routes=[{id:'ankita',label:'Ankita × Kabir'},{id:'shreya',label:'Shreya × Vikram'}];
 const tidy=(s:string)=>s.replace(/_/g,' ');
@@ -17,6 +18,7 @@ export default function Episode06LeadPlanning({lead}:{lead:'ankita'|'shreya'}){
  const {data:plan,loading,error}=useData<LeadPlan>(lead==='ankita'?'episode-06-ankita-plan.json':'episode-06-shreya-plan.json');
  const {data:twins,loading:twinsLoading,error:twinsError}=useData<Availability>('episode-06-karan-aman-shared-availability.json');
  const {data:mentoring,loading:mentoringLoading,error:mentoringError}=useData<MentorPlan>('episode-06-ankita-mentoring-setup.json');
+ const {data:household,loading:householdLoading,error:householdError}=useData<HouseholdLedger>('episode-06-household-spouse-availability.json');
  return <main className="page-width" id={'episode06-plan-'+lead}>
   <header className="section-intro"><span className="eyebrow">Story Plot · Episode 06 · 3–5 January 2026</span>
    <h1>{lead==='ankita'?'Ankita · Marriage first':'Shreya · Society twin rematch and exam coaching · 3–5 Jan'}</h1>
@@ -28,9 +30,9 @@ export default function Episode06LeadPlanning({lead}:{lead:'ankita'|'shreya'}){
   {loading&&<p role="status">Loading Episode 06 plan…</p>}
   {error&&<p role="alert" className="error">Episode 06 plan unavailable: {error}</p>}
   {plan&&<>
-   <section className="episode-plan-card" id="ep06-first-scene"><h2>Scene 01 · Author-locked first position</h2><p><strong>{plan.sceneOrder[0]?.title}</strong></p>
+   <section className="episode-plan-card" id="ep06-first-scene"><h2>Scene 01 · First plotted position (current working order)</h2><p><strong>{plan.sceneOrder[0]?.title}</strong></p>
     <p><strong>Status:</strong> {tidy(plan.sceneOrder[0]?.status||'OPEN')}</p><p>{plan.authorDirection}</p>
-    <p className="muted">{lead==='ankita'?'This is a planning order, not final Reader prose. Exact clock and marriage history remain open.':'This is a planning outline, not final Reader prose. Exact Saturday time, Shruti training details and additional twin meetings remain open; Friday marriage is already written in Episode 05.'}</p>
+    <p className="muted">{lead==='ankita'?'This is a planning order, not final Reader prose. Exact clock and marriage history remain open.':'This is a working plot, not final Reader prose. Editor-selected clocks are visible in scene details; Shreya works all three dates without planned leave. Friday marriage is already written in Episode 05.'}</p>
    </section>
    <section className="episode-plan-card" id="ep06-scene-list"><h2>Episode 06 · Scene sequence</h2>
     {plan.sceneOrder.map((scene,i)=><details className="episode-outline" key={scene.id} open={i===0} id={'ep06-scene-'+scene.id}>
@@ -99,7 +101,7 @@ export default function Episode06LeadPlanning({lead}:{lead:'ankita'|'shreya'}){
       {lead==='shreya'&&<section className="episode-plan-card" id="ep06-shreya-next">
         <h2>Shreya · Saturday 3 January · Track 2 begins</h2>
         <p><strong>Friday marriage ending is already written.</strong> Both original marital endings have been restored to the Episode 05 wife-wise Reader, so Episode 06 does not repeat Shreya–Vikram's private scene or write a second baseline.</p>
-        <p>Correct active plot: Saturday 10:15–11:20 Samar–Shaan rematches, their mentoring request and brief changing-cubicle accident; Saturday 12:15 Shreya–Shruti planning; Sunday 14:00 four-person study at the brothers' shared flat; Monday 15:35 controlled police training round, conditional on duty. These are editor-reconciled clocks, not final prose. Karan–Aman are not in these active scenes.</p>
+        <p><strong>Reconciled duty roster:</strong> Saturday 08:30–16:30, Sunday 08:00–13:00 (shorter duty, not holiday), Monday 08:00–17:00. Gym rematch and changing-area accident Saturday 06:20–07:30 <em>before</em> station duty; Ankita evidence call 17:40–18:00 and Shruti study discussion 18:15–18:45 after duty. Sunday 15:00–16:15 four-person study at Samar–Shaan's bachelor apartment. Monday early 10:30–11:20 advanced police training. These are editorial scheduling choices, not source-confirmed service shifts or final prose. Karan–Aman are not in these active scenes.</p>
         <div className="chapter-controls">
           <button type="button" className="button subtle" onClick={()=>openPage('reading',{episode:'05',character:'shreya',scene:'06B'})}>Read original Shreya × Vikram EP05 ending →</button>
           <button type="button" className="button subtle" onClick={()=>openPage('reading',{episode:'05',character:'ankita',scene:'06A'})}>Read Ankita × Kabir EP05 ending →</button>
@@ -107,6 +109,43 @@ export default function Episode06LeadPlanning({lead}:{lead:'ankita'|'shreya'}){
         <ul>{(plan.nextScenes||[]).map((s,i)=><li key={i}>{s}</li>)}</ul>
        </section>}
   </>}
+  {lead==='shreya'&&<section className="episode-plan-card" id="ep06-shreya-visuals">
+    <h2>Shreya · Four existing concept visuals</h2>
+    <p><strong>For visual staging only.</strong> These four illustrations were generated earlier and added at the author's request. They are NOT canonical portraits or factual documentation of the scene; some faces, ages, roles, outfit details and poster captions are wrong. Only the episode's written character directory and saved plot determine canon.</p>
+    <div className="continuity-cards" role="group" aria-label="Four Shreya Episode 06 conceptual images">
+     {([
+      {file:'assets/shreya-ep06-visual-concept-01.svg',name:'01 · Gym changing-area staging',desc:'Doorway, workout outfit and separate twin reactions; invented face, not the saved Shreya reference.'},
+      {file:'assets/shreya-ep06-visual-concept-02.svg',name:'02 · Gym, changing, and study storyboard',desc:'Collage for scene placement only. Cast labels and some styling may be inaccurate.'},
+      {file:'assets/shreya-ep06-visual-concept-03.svg',name:'03 · Group training costume concept',desc:'Six-woman group exercise outfit moodboard; not the approved women’s actual faces.'},
+      {file:'assets/shreya-ep06-visual-concept-04.svg',name:'04 · Three-day planning poster',desc:'Overview visual with known incorrect Shreya age and staff designations; written plan supersedes text on image.'}
+     ] as const).map(item=><figure className="encounter-card" key={item.file} style={{margin:0}}>
+       <a href={assetUrl(item.file)} target="_blank" rel="noreferrer" aria-label={'Open '+item.name}>
+         <img src={assetUrl(item.file)} alt={item.name+' — non-canonical visual reference, incorrect faces or labels possible'} loading="lazy" style={{display:'block',width:'100%',maxWidth:'400px',height:'auto',borderRadius:'10px'}}/>
+       </a>
+       <figcaption style={{marginTop:'9px',fontWeight:700}}>{item.name}</figcaption>
+       <p className="muted">{item.desc}</p>
+       <p className="muted">Stored in GitHub as a compressed 200px preview. Full-size originals are in the originating ChatGPT conversation.</p>
+      </figure>)}
+    </div>
+   </section>}
+  {(lead==='ankita'||lead==='shreya')&&<section className="episode-plan-card" id="ep06-household-whereabouts">
+    <h2>Husband whereabouts · Jan 3–5 and Shreya duty</h2>
+    <p>Presence windows are editorial continuity holds, not completed prose and not proof of employment. Kabir's IT production work is source-supported; Rohan's occupation and Vikram's exact occupation remain unknown. Vikram is known to have returned from a prior night shift.</p>
+    {householdLoading&&<p role="status">Loading husband and duty ledger…</p>}
+    {householdError&&<p role="alert" className="error">Household ledger unavailable: {householdError}</p>}
+    {household&&<>
+      <h3>Proposed whereabouts for all three husbands</h3>
+      {household.husbands.map(h=><details className="episode-outline" key={h.id} open={h.id===(lead==='ankita'?'Kabir':'Vikram')}>
+       <summary><strong>{h.id} × {h.wife}</strong> · {h.profession}</summary>
+       {h.days.map(day=><div key={day.date}><p><strong>{day.date}</strong></p>
+        <ul>{day.whereabouts.map((slot,i)=><li key={i}><strong>{slot.time}</strong> · {slot.place} — {slot.reason}. <span className="muted">{tidy(slot.status)}</span></li>)}</ul>
+       </div>)}
+      </details>)}
+      <h3>Shreya's proposed station roster — no leave</h3>
+      {household.shreyaPoliceRoster.map(day=><p key={day.date}><strong>{day.date} · {day.shift}</strong> · {day.logistics}</p>)}
+      <p className="muted"><a target="_blank" rel="noreferrer" href="https://github.com/developer-fandom-rush/DHIKA_STORY/blob/main/Society-Wives/episode-06-household-spouse-availability.json">Full source/status ledger, including open childcare availability</a></p>
+    </>}
+   </section>}
   {lead==='ankita'&&<section className="episode-plan-card" id="ep06-twin-calendar"><h2>Karan–Aman · shared 3-day availability (soft holds)</h2><p>One twin pair across five female leads, with Kavya's separate approved bridge. Provisional windows prevent conflicts, but are <strong>not confirmed visits</strong>.</p>
    {twinsLoading&&<p role="status">Loading shared calendar…</p>}{twinsError&&<p role="alert" className="error">{twinsError}</p>}
    {twins&&<>
