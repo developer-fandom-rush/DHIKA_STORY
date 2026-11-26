@@ -74,7 +74,7 @@
       "id": "ANK06-S03-KARAN-AMAN",
       "order": 3,
       "title": "Karan–Aman · morning exercise and technical study, five-household timing dependent",
-      "status": "PRIOR_20_PUSHUPS_CHALLENGE_EXISTS__NEW_ACCIDENTAL_WARDROBE_BEAT_REVIEW_PENDING"
+      "status": "SATURDAY_PLACEMENT_UNDER_DISCUSSION__20_PUSHUPS_EXISTING__NO_ACTIVE_GYM_SLIP"
     },
     {
       "id": "ANK06-S04-OFFICE",
@@ -111,17 +111,13 @@
   "twinsAvailability": "episode-06-karan-aman-shared-availability.json",
   "authorDiscussion": "FIRST scene lock only; time and full backstory not locked, rest of scenes not written",
   "karanAmanFirstAccidentalVisibilityProposal": {
-    "status": "EDITORIAL_PROPOSAL_ONLY__AUTHOR_DISCUSSION_REQUIRED",
-    "relativePlacement": "After morning-walk gym challenge or return-home cool-down (3 Jan candidate), but only after marriage-foundation first scene",
-    "purpose": "A credible gym-context first inadvertent clothing slip with the household twins; separate from Shivani Group A's sari/pallu story and from Aman’s already approved scooter hand-support.",
-    "mechanism": "After a workout, as Ankita reaches for a mat or adjusts her gym bag, the strap briefly catches the edge of a loose outer layer; it shifts enough to reveal a little shoulder/upper-back and fitted athletic top underneath. She calmly straightens it herself. Exact outfit/visibility and whether both twins have a real sightline are not yet frozen.",
-    "reactions": {
-      "Karan": "He starts a teasing comment but sees Ankita’s self-aware look and switches to a joke about the unfinished 20 push-ups.",
-      "Aman": "He notices the slipped strap first, indicates it without reaching for her clothes, remembers the prior scooter boundary, and returns to her Java question instead of staring.",
-      "Ankita": "She recognizes the different reactions and responds with familiar, confident banter; not written as unaware or embarrassed by default."
-    },
-    "continuity": "No accidental exposure is already published in this new event. Do not duplicate Shivani pallu, do not imply either brother touches her or has newly obtained consent, do not describe an underwear/breast view without separate author direction.",
-    "reviewQuestion": "Does this gym-bag/outer-layer mishap match the first accidental reveal you want with Karan and Aman, or should we redesign its physical staging before approval?"
+    "status": "USER_REJECTED_PRIOR_GYM_BAG_STRAP_MECHANISM__DO_NOT_STAGE",
+    "relativePlacement": "NONE_ON_2026-01-03_UNLESS_AUTHOR_AGREES_LATER",
+    "purpose": "No mandatory accidental exposure; workout and household intimacy of conversation can develop on its own.",
+    "mechanism": "The earlier bag strap catching loose gym outer-layer was specifically rejected as implausible by the author on 26 Nov 2026. It is withdrawn from active staging.",
+    "reactions": {},
+    "continuity": "Ankita and Aman have an already approved scooter support/boundary incident on Jan1. Don't recreate another first contact. Karan and Aman can have distinct believable reactions to the workout and Java dialogue without an accidental wardrobe event.",
+    "reviewQuestion": "Discuss credible locations and chronological Saturday scene placement first. Do not write a replacement exposure until the author requests and approves a mechanism."
   },
   "mentoringProgramme": {
     "source": "episode-06-ankita-mentoring-setup.json",
@@ -150,5 +146,18 @@
     "Aishwarya": "ACTIVE_STORY_PERSON__OPTIONAL_GROUP_OBSERVER_AND_POTENTIAL_KARAN_CAREER_MENTOR__NOT_PART_OF_TECH_TUITION",
     "otherWomen": "HISTORICAL_ONLY__NO_NEW_EP06_TUITION"
   },
-  "nextDiscussion": "Review Karan/Aman workout accidental-garment moment and explicit reaction chain first; only after author agrees finalize exact beat and 3–5 Jan placement. Then office technical group and Aishwarya career mentoring."
+  "nextDiscussion": "Review Karan/Aman workout accidental-garment moment and explicit reaction chain first; only after author agrees finalize exact beat and 3–5 Jan placement. Then office technical group and Aishwarya career mentoring.",
+  "withdrawnAccidentalProposal": {
+    "status": "EDITORIAL_PROPOSAL_ONLY__AUTHOR_DISCUSSION_REQUIRED",
+    "relativePlacement": "After morning-walk gym challenge or return-home cool-down (3 Jan candidate), but only after marriage-foundation first scene",
+    "purpose": "A credible gym-context first inadvertent clothing slip with the household twins; separate from Shivani Group A's sari/pallu story and from Aman’s already approved scooter hand-support.",
+    "mechanism": "After a workout, as Ankita reaches for a mat or adjusts her gym bag, the strap briefly catches the edge of a loose outer layer; it shifts enough to reveal a little shoulder/upper-back and fitted athletic top underneath. She calmly straightens it herself. Exact outfit/visibility and whether both twins have a real sightline are not yet frozen.",
+    "reactions": {
+      "Karan": "He starts a teasing comment but sees Ankita’s self-aware look and switches to a joke about the unfinished 20 push-ups.",
+      "Aman": "He notices the slipped strap first, indicates it without reaching for her clothes, remembers the prior scooter boundary, and returns to her Java question instead of staring.",
+      "Ankita": "She recognizes the different reactions and responds with familiar, confident banter; not written as unaware or embarrassed by default."
+    },
+    "continuity": "No accidental exposure is already published in this new event. Do not duplicate Shivani pallu, do not imply either brother touches her or has newly obtained consent, do not describe an underwear/breast view without separate author direction.",
+    "reviewQuestion": "Does this gym-bag/outer-layer mishap match the first accidental reveal you want with Karan and Aman, or should we redesign its physical staging before approval?"
+  }
 }
