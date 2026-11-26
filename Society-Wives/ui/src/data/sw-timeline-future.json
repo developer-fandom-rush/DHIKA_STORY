@@ -8,7 +8,8 @@
     "Older Jan2 Meenakshi outline is archived; the discarded photographic opening has been removed and must not be revived.",
     "Ankita Jan1 EP03 ends at 18:25 with Rinku doorbell. The 17 Nov EP04 Chotu workshop now proposes Jan1 Rinku follow-through and Jan2 Rohit A/B; previous undated Rinku/future-episode Rohit treatment is kept only as historical planning, not a duplicate scheduled clock entry. New slots require author approval.",
     "Jan2 Episode 04 Chotu A/B proposals are under author review; earlier Rohit and Naveen plan records are retained as historical variants without double-booking Jan2.",
-    "EP05 original source statuses reconciled as separate markers; older Jan2 proposals not deleted or marked as published. EP06 Jan3-5 is plot-only; index sort positions are not guaranteed event times."
+    "EP05 original source statuses reconciled as separate markers; older Jan2 proposals not deleted or marked as published. EP06 Jan3-5 is plot-only; index sort positions are not guaranteed event times.",
+    "2026-11-26: Group D Boundary-Reversal physically approved in episode06; Kavya first linked-arm bridge candidate, NOT author-final. Society cross-household marker is an editorial hold and does not assert an in-universe 23:00 event."
   ],
   "events": [
     {
@@ -2208,7 +2209,7 @@
       "end": null,
       "timeLabel": "Proposed 16:00–17:45",
       "universe": "sw",
-      "title": "Group D · faculty-only science seminar",
+      "title": "Group D · faculty seminar + approved Boundary-Reversal Beat",
       "lead": "Shivani",
       "characters": [
         "Shivani",
@@ -2221,7 +2222,7 @@
       "scene": "SH06-MON-FACULTY",
       "kind": "planned",
       "state": "review",
-      "status": "PROFESSIONAL PREP · PHYSICAL BEAT OPEN",
+      "status": "GROUP D PHYSICAL PLOT APPROVED · CLOCK PROPOSED · NO KISS",
       "source": "shivani-episode-06-three-day-plot.json",
       "reader": {
         "type": "sw-plan",
@@ -2230,9 +2231,11 @@
         "scene": "SH06-MON-FACULTY"
       },
       "flags": [
-        "Clock is proposed/index order unless explicitly source-confirmed."
+        "EXACT clock and physical prose not frozen; action chain plot approved",
+        "Students excluded from faculty seminar",
+        "Future kiss beats remain future references"
       ],
-      "detail": "Pooja/Kriti/Aarav. Too-early three separate kisses deferred to Future Reference; new present physical milestone is not chosen."
+      "detail": "16:00–17:45 faculty-only science seminar prep. After serious work, Shivani voluntarily guides Aarav's earlier stopped hand to her clothed waist and chooses a brief close embrace; she ends it. Pooja/Kriti keep different, already established playful confidence and consensual closeness. Aarav's unauthorized-photo secret remains reader-only. Three separate kisses are future-only, not this encounter."
     },
     {
       "id": "sh06-05-home",
@@ -2300,6 +2303,76 @@
         "Clock is proposed/index order unless explicitly source-confirmed."
       ],
       "detail": "Biology chart/dupatta accident approved; distinct Harsh/Laksh/Arjun gaze and Nandini/Ritika active competitive responses retained. Outside Jan3–5 plot."
+    },
+    {
+      "id": "sh06-04-kavya-bridge",
+      "date": "2026-01-04",
+      "sort": "16:30",
+      "start": null,
+      "end": null,
+      "timeLabel": "Late afternoon option; no fixed clock",
+      "universe": "sw",
+      "title": "Kavya × Karan–Aman · first romantic bridge",
+      "lead": "Kavya",
+      "characters": [
+        "Kavya",
+        "Karan",
+        "Aman"
+      ],
+      "mentions": [],
+      "episode": "06 plot",
+      "scene": "SH06-SUN-KAVYA-BRIDGE",
+      "kind": "planned",
+      "state": "review",
+      "status": "SELECTED EDITORIAL PROPOSAL · AUTHOR REVIEW BEFORE LOCK",
+      "source": "shivani-episode-06-three-day-plot.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "shivani",
+        "part": "06",
+        "scene": "SH06-SUN-KAVYA-BRIDGE"
+      },
+      "flags": [
+        "Candidate sorting clock only, not locked event time",
+        "Cross-household gate must be checked before finalizing attendance"
+      ],
+      "detail": "After Jan1 introduction, Kavya leads mutual teasing during an ordinary society crossing. She offers a brief welcome handhold to both brothers and they share a short arm-linked walk; Karan responds openly, Aman unexpectedly personally, Kavya's own feelings shift. They may exchange contacts. No kiss, accidental show, or Deepu retcon. Can shift if Ankita/Group A/movie conflict."
+    },
+    {
+      "id": "ep06-five-household-hold",
+      "date": "2026-01-04",
+      "sort": "23:00",
+      "start": null,
+      "end": null,
+      "timeLabel": "3–5 Jan scheduling dependency, NOT 11 PM scene",
+      "universe": "sw",
+      "title": "All five leads · society/husbands/movie decisions on hold",
+      "lead": "Shared planning",
+      "characters": [
+        "Ankita",
+        "Shivani",
+        "Taniya",
+        "Meenakshi",
+        "Shreya"
+      ],
+      "mentions": [],
+      "episode": "06 plot",
+      "scene": "CROSS-HOUSEHOLD-HOLD",
+      "kind": "planned",
+      "state": "review",
+      "status": "HOLD · REOPEN AFTER FIVE LEAD EP06 PLOTS",
+      "source": "shivani-episode-06-three-day-plot.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "shivani",
+        "part": "06",
+        "scene": "CROSS-HOUSEHOLD-HOLD"
+      },
+      "flags": [
+        "Candidate sorting clock only, not locked event time",
+        "Cross-household gate must be checked before finalizing attendance"
+      ],
+      "detail": "No guard/trainer/milkman/uncle/other husbands encounter or group movie booked until five leads and their partners' 3–5 Jan availability and knowledge are reconciled. This is a source-index marker, NOT a late-night story scene."
     }
   ],
   "sourcePolicy": " | Shreya January 3 working scenes SR10–SR13 were moved into the January 1 calendar by direct author instruction 2026-11-16, original plan archived in episode-03-shreya-plan-archive-jan03.json; no content removed from story source."
