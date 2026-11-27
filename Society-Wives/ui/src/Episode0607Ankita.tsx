@@ -22,6 +22,7 @@ export default function Episode0607Ankita({episode,character,scene}:Props){
  const selected=scenes.find(s=>s.id===scene)||scenes[0];
  const index=scenes.findIndex(s=>s.id===selected?.id);
  const paras=selected?.raw.split(/\n\s*\n/).filter(Boolean)||[];
+ const hasInlineGrokMarkers=paras.some(p=>/^\[\[GROK:\d+\]\]$/.test(p.trim()));
  if(!isAnkita)return <main className="page-width" id="ep0607-lead-not-published">
   <header className="section-intro"><span className="eyebrow">Society Wives · Episode {episode}</span><h1>{character.charAt(0).toUpperCase()+character.slice(1)} · Reader not yet written</h1>
    <p>Only Ankita’s Episode {episode} working prose is available for review. This reader will never substitute Ankita’s manuscript for another lead.</p></header>
@@ -57,15 +58,25 @@ export default function Episode0607Ankita({episode,character,scene}:Props){
      <div className="source-scene ep0607-story-prose">
       <h2>{selected.title}</h2>
       <p className="ep0607-when">{selected.date} · {selected.time} · {selected.place}</p>
-      {paras.map((p,i)=><Fragment key={i}>
-       <p className="ep03-paragraph" style={{whiteSpace:'pre-wrap'}}>{p}</p>
-       {(selected.visuals||[]).map((frame,j)=>{
-        const insertAfter=Math.floor((j+1)*(paras.length+1)/((selected.visuals||[]).length+1));
-        return insertAfter===i+1?<aside key={j} className="ep0607-grok-frame" aria-label={'Storyboard direction '+(j+1)}>
-         <span>GROK VISUAL INSERT · {j+1} / {(selected.visuals||[]).length}</span><p>{frame}</p>
+      {paras.map((p,i)=>{
+       const inlineMarker=p.trim().match(/^\[\[GROK:(\d+)\]\]$/);
+       if(inlineMarker){
+        const visualIndex=Number(inlineMarker[1]);
+        const frame=(selected.visuals||[])[visualIndex];
+        return frame?<aside key={'grok-'+i} className="ep0607-grok-frame" aria-label={'Storyboard direction '+(visualIndex+1)}>
+         <span>GROK VISUAL INSERT · {visualIndex+1} / {(selected.visuals||[]).length}</span><p>{frame}</p>
         </aside>:null;
-       })}
-      </Fragment>)}
+       }
+       return <Fragment key={i}>
+        <p className="ep03-paragraph" style={{whiteSpace:'pre-wrap'}}>{p}</p>
+        {!hasInlineGrokMarkers&&(selected.visuals||[]).map((frame,j)=>{
+         const insertAfter=Math.floor((j+1)*(paras.length+1)/((selected.visuals||[]).length+1));
+         return insertAfter===i+1?<aside key={j} className="ep0607-grok-frame" aria-label={'Storyboard direction '+(j+1)}>
+          <span>GROK VISUAL INSERT · {j+1} / {(selected.visuals||[]).length}</span><p>{frame}</p>
+         </aside>:null;
+        })}
+       </Fragment>;
+      })}
       {(selected.notes||[]).length>0&&<details className="source-footnote"><summary>Continuity notes for this scene</summary>
        {(selected.notes||[]).map((n,i)=><p key={i}>{n}</p>)}
       </details>}
