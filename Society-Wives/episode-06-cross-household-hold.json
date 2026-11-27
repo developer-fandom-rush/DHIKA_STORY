@@ -6,7 +6,7 @@
     "2026-01-03",
     "2026-01-05"
   ],
-  "status": "AUTHOR_DIRECTED_HOLD__DO_NOT_FILL_OPTIONAL_SOCIETY_SCENES",
+  "status": "AUTHOR_APPROVED_INITIAL_SOCIETY_PLOT_WITH_SOFT_WINDOWS__FINAL_ATTENDANCE_AND_CHILDCARE_HOLD",
   "leadPriority": "All five main women's Episode 06 three-day arcs and all linked spouses/partners must be mapped before optional shared-society encounters are scheduled.",
   "fiveLeadHouseholdAudit": [
     {
@@ -73,7 +73,8 @@
     "episode-06-meenakshi-jan03-05-plan.json",
     "episode-06-global-audit-approved-plots-20261127.json",
     "episode-06-taniya-plan.json",
-    "episode-06-global-society-crossovers-jan03-05.json"
+    "episode-06-global-society-crossovers-jan03-05.json",
+    "episode-06-society-location-and-collision-audit-20261127.json"
   ],
   "otherLeadHandoff": "Use episode-06-household-spouse-availability.json as the explicit provisional Jan3–5 spouse and Shreya duty source. The prior Shreya marriage-first premise is superseded by existing Shreya×Vikram Episode05 ending. Check all five leads before unlocking optional shared society gatherings. Do not invent husband's profession or automatic household absence.",
   "sharedKaranAmanLedger": {
@@ -128,19 +129,22 @@
     "note": "All five female leads have Jan3–5 plot files. Current source statuses distinguish approved plot parameters from times not locked. Four husbands Kabir/Rohan/Vikram/Nikhil added to availability ledger; Aditya is Taniya fiancé. Do not call all husbands free or all women in office on Monday. User's next stage is five-lead society schedule, spouses, children, outings and cross-lead encounters."
   },
   "proposedSocietyInteractions20261127": {
-    "status": "AUTHOR_REQUESTED_BOLDER_ADULT_SOCIETY_PLOT_REVISED__NOT_FINAL_SCENES__FIVE_HOUSEHOLD_HOLD_ACTIVE",
+    "status": "AUTHOR_SAVED_INITIAL_BOLD_CROSSOVER_PLOT__TIMES_PROVISIONAL__NO_FINAL_EPISODE_PROSE",
     "source": "episode-06-global-society-crossovers-jan03-05.json",
     "timelineSource": "ui/src/data/sw-timeline-future.json",
     "provisionalWindows": [
-      "2026-01-03 19:10–19:30 committee/close beats",
-      "2026-01-04 07:15–07:35 chosen fitness closeness",
-      "2026-01-04 18:45–19:25 garden group distinct pair beats",
-      "2026-01-04 19:40–19:58 projector-corner first-embrace/kiss OPTION ONLY",
-      "2026-01-05 20:20–20:35 Monday knowledge callback"
+      "2026-01-03 19:10–19:30",
+      "2026-01-04 07:15–07:35",
+      "2026-01-04 18:45–19:25",
+      "2026-01-04 19:40–19:58 OPTIONAL",
+      "2026-01-05 20:50–21:05"
     ],
     "knowledgeLedger": "In same source per-pair and per-spouse: shown, heard, only inferred, not known. No automatic disclosure of private gestures.",
     "research": "DHIKA Raj–Sharmi EP12/EP14/EP15 checked from original archive for narrative structure, scenes and choreography not copied.",
     "approvedIntent": "Author wants bolder accidental / intentional visual flirting, close touch and spouse knowledge as main purpose; specific newly designed actions remain open until timing and author lock.",
-    "holdRule": "Do not commit to any unsourced Nikhil/Rohan/Kabir/Vikram shift, duty, childcare, cinema booking, or private kiss as having occurred."
+    "holdRule": "Do not commit to any unsourced Nikhil/Rohan/Kabir/Vikram shift, duty, childcare, cinema booking, or private kiss as having occurred.",
+    "collisionAudit": "episode-06-society-location-and-collision-audit-20261127.json",
+    "protected": "Shreya police Sat 08:30–16:30, Sun 08:00–13:00, Mon 08:00–17:00 + Sat/Sun after-duty studies. Other women work and tutoring scenes not moved.",
+    "remainingGate": "Spouse duties and childcare confirm before fixing who actually attends a scene. A stronger optional private kiss is not a confirmed event."
   }
 }
