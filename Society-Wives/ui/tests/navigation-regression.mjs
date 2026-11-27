@@ -100,7 +100,7 @@ assert.ok(taniya.scenes.some(s=>s.id==='TAN06-S02-SONIYA-CALL'),'Keep Soniya wed
 assert.ok(taniya.scenes.some(s=>s.id==='TAN06-S04-CA-HOME-LESSON'),'Office duo home tuition required');
 assert.ok(taniya.scenes.some(s=>s.id==='TAN06-S05-SOCIETY-TWINS'&&s.status.includes('CONDITIONAL')),'Karan/Aman author-approved plot still requires household time reconciliation');
 assert.ok(taniya.scenes.some(s=>s.id==='TAN06-S08-MONDAY-CA-OFFICE'),'Taniya Monday office return required');
-assert.ok(taniya.authorApproval20261127?.karanAccident?.includes('stole'),'Karan stole-slip content must stay author-approved and visible');
+assert.ok(taniya.authorApproval20261127?.karanAccident?.toLowerCase().includes('stole'),'Karan stole-slip content must stay author-approved and visible');
 assert.ok(taniya.scenes.some(s=>s.id==='TAN06-S02B-KARAN-REQUEST'&&s.characters.join(',')==='Taniya,Karan'),'Karan, not Aman, makes the first society finance request');
 const tKaran=taniya.scenes.find(s=>s.id==='TAN06-S05-SOCIETY-TWINS');
 assert.ok(tKaran?.beats.some(b=>b.action.includes('Expense Tracker')),'Aman requires independent Finance API business-rule questions');
