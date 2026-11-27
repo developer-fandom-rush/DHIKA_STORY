@@ -98,8 +98,21 @@ assert.ok(taniyaPage.includes("episode-06-taniya-plan.json"),'Taniya planning pa
 assert.deepEqual(taniya.scenes.filter(s=>s.id.includes('RAO')).map(s=>s.start),['05:00','05:00','05:00'],'User requested 5AM Vivek Rao morning sessions');
 assert.ok(taniya.scenes.some(s=>s.id==='TAN06-S02-SONIYA-CALL'),'Keep Soniya wedding-access teasing phone call');
 assert.ok(taniya.scenes.some(s=>s.id==='TAN06-S04-CA-HOME-LESSON'),'Office duo home tuition required');
-assert.ok(taniya.scenes.some(s=>s.id==='TAN06-S05-SOCIETY-TWINS'&&s.status.includes('GATE')),'Karan/Aman cross-lead appearance must remain conditional until household gate clears');
+assert.ok(taniya.scenes.some(s=>s.id==='TAN06-S05-SOCIETY-TWINS'&&s.status.includes('CONDITIONAL')),'Karan/Aman author-approved plot still requires household time reconciliation');
 assert.ok(taniya.scenes.some(s=>s.id==='TAN06-S08-MONDAY-CA-OFFICE'),'Taniya Monday office return required');
+assert.ok(taniya.authorApproval20261127?.karanAccident?.includes('stole'),'Karan stole-slip content must stay author-approved and visible');
+assert.ok(taniya.scenes.some(s=>s.id==='TAN06-S02B-KARAN-REQUEST'&&s.characters.join(',')==='Taniya,Karan'),'Karan, not Aman, makes the first society finance request');
+const tKaran=taniya.scenes.find(s=>s.id==='TAN06-S05-SOCIETY-TWINS');
+assert.ok(tKaran?.beats.some(b=>b.action.includes('Expense Tracker')),'Aman requires independent Finance API business-rule questions');
+assert.ok(tKaran?.beats.some(b=>b.action.includes('Karan')&&b.action.includes('stole')),'Approved Karan stole moment must retain differentiated viewpoints');
+const tJAM=taniya.scenes.find(s=>s.id==='TAN06-S06-AYAAN-ARMAAN-HOLD');
+assert.deepEqual(tJAM?.characters,['Taniya','Ayaan','Armaan'],'Sunday Ayaan/Armaan introductory visit must be physically scheduled');
+assert.equal(tJAM.start,'17:30','First Taniya/Ayaan/Armaan visit editor clock must stay coherent');
+assert.ok(tJAM.beats.some(b=>b.action.includes('Shivani')),'First introduction must be referred by Shivani');
+assert.ok(tJAM.beats.some(b=>b.action.includes('No accidental')),'Ayaan/Armaan first meeting has no slip');
+assert.ok(future.events.some(x=>x.id==='tan06-03-shivani-referral'&&x.characters.includes('Shivani')),'Separate Saturday Shivani/Taniya referral must be indexed');
+assert.ok(taniyaPage.includes('tan06-author-approved-pair-logic'),'UI must expose author-approved distinct pair motivations');
+
 assert.ok(taniya.excludedFromActiveEpisode06FemaleCoworkers.includes('Neha')&&taniya.excludedFromActiveEpisode06FemaleCoworkers.includes('Andrea'),'Existing office women stay out of active EP06 without deleting history');
 assert.ok(existsSync(resolve(root,'source-vault/ep05-taniya-jan02.json')),'Taniya original EP05 source must remain');
 for(const sc of taniya.scenes){
