@@ -2,7 +2,7 @@ import {openPage,useData} from './lib';
 
 type Beat={id:string;label:string;action:string};
 type Scene={id:string;order:number;date:string;start:string|null;end:string|null;title:string;location:string;characters:string[];mentions?:string[];status:string;beats:Beat[]};
-type TaniyaPlan={title:string;status:string;mode:string;scenes:Scene[];canonLocks:string[];groups:Record<string,{members:string[];role:string;cadence:string}>;excludedFromActiveEpisode06FemaleCoworkers:string[];historicalOfficeWomenPreserved:Record<string,string>;schedulePolicies:string[];futureAuthorDirection:Record<string,string>};
+type TaniyaPlan={title:string;status:string;mode:string;scenes:Scene[];canonLocks:string[];groups:Record<string,{members:string[];role:string;cadence:string}>;excludedFromActiveEpisode06FemaleCoworkers:string[];historicalOfficeWomenPreserved:Record<string,string>;schedulePolicies:string[];futureAuthorDirection:Record<string,string>;authorApproval20261127?:Record<string,string>};
 const displayDate=(d:string)=>d==='2026-01-03'?'Saturday · 3 January':d==='2026-01-04'?'Sunday · 4 January':'Monday · 5 January';
 const time=(s:Scene)=>s.start&&s.end?s.start+'–'+s.end:'Unscheduled / future hold';
 const label=(s:string)=>s.replace(/_/g,' ').toLowerCase();
@@ -11,7 +11,7 @@ export default function Taniya06Planning(){
  return <main className="page-width" id="taniya-episode06-plot">
   <header className="section-intro"><span className="eyebrow">Society Wives · Story Plot · Episode 06</span>
    <h1>Taniya · 3–5 January · Trainer, study groups &amp; CA office</h1>
-   <p>Plot-only working handoff: Friday Episode 05 is preserved exactly. Saturday 5:00 AM Vivek Rao visit, Soniya's call, separate real twin and CA colleagues' tutoring tracks; Monday returns to CA work. Timing is editorial and not frozen prose.</p>
+   <p>Plot-only working handoff: Friday Episode 05 is preserved exactly. Saturday 5:00 AM Vivek Rao visit, Soniya's call and Karan's independent request; Sunday separately motivated Karan–Aman finance teaching with an approved stole-slip beat, and Shivani-referred Ayaan–Armaan's first diagnostic meeting. Monday returns to CA work. Scene beats are author-approved; clocks remain editorial and no final prose is claimed.</p>
   </header>
   <div className="chapter-controls">
    <button className="button primary" type="button" onClick={()=>openPage('sw-timeline',{date:'2026-01-03'})}>Global Timeline · 3 Jan →</button>
@@ -27,6 +27,13 @@ export default function Taniya06Planning(){
     <p>Uncle and Gopal discoveries in Episode 05 were real. The later Gopal/Mahendra continuation was a dream. No separate Uncle fantasy is written into Saturday's first scene. Taniya remains Aditya's fiancée, not his wife.</p>
     <p>Vivek Rao (30, trainer) and Vivek Suri (55, CA senior partner) are distinct adults. Their appointments remain separate.</p>
    </section>
+   {plan.authorApproval20261127&&<section className="episode-plan-card" id="tan06-author-approved-pair-logic">
+    <h2>Approved pair logic · separate purposes and reactions</h2>
+    <p><strong>Approval scope:</strong> {plan.authorApproval20261127.scope}</p>
+    <p><strong>Karan:</strong> {plan.authorApproval20261127.karanAccident}</p>
+    <p><strong>Aman's independent motive:</strong> {plan.authorApproval20261127.karanAman}</p>
+    <p><strong>Ayaan &amp; Armaan:</strong> {plan.authorApproval20261127.ayaanArmaan}</p>
+   </section>}
    <section className="episode-plan-card" id="tan06-three-days">
     <h2>Three-day scene/beat sheet</h2>
     {['2026-01-03','2026-01-04','2026-01-05'].map((d,i)=><details className="episode-outline" key={d} open={i===0}>
