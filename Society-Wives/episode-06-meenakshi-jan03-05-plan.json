@@ -1,0 +1,327 @@
+{
+  "schemaVersion": 1,
+  "id": "SW-EP06-MEENAKSHI-JAN03-05",
+  "title": "Meenakshi Episode 06 — Saturday Hospital / Two Academic Groups / Family Permission",
+  "episode": "06",
+  "lead": "Meenakshi",
+  "dateRange": [
+    "2026-01-03",
+    "2026-01-05"
+  ],
+  "timezone": "Asia/Kolkata",
+  "status": "AUTHOR_DIRECTED_PLOT_FOUNDATIONS__TIMES_EDITOR_PROPOSED__EPISODE_PROSE_NOT_WRITTEN",
+  "dateInterpretation": {
+    "selected": "2026-01-03 (Saturday), consistent with existing EP06 Jan 3–5 sequence and Sunday Jan 4",
+    "ambiguity": "The user once said '17 तारीख' while describing this, but all surrounding chronology references 3 Jan. Do not silently move the scene to 17 Jan without explicit author correction.",
+    "days": [
+      {
+        "date": "2026-01-03",
+        "weekday": "Saturday"
+      },
+      {
+        "date": "2026-01-04",
+        "weekday": "Sunday"
+      },
+      {
+        "date": "2026-01-05",
+        "weekday": "Monday"
+      }
+    ]
+  },
+  "sourcePriority": [
+    "episode-03-meenakshi-scene-02.json (farmhouse, actual cab/car departures)",
+    "episode-03-meenakshi-scene-02-author-selected.json (source and approval status)",
+    "episode-04b-meenakshi-source.json (Rupa/Harish/Sunil; Dr Leena)",
+    "source-vault/ep05-meenakshi-shivani-jan02.json (verbatim nine scenes remain untouched)",
+    "episode-05-jan02-uncle-cross-encounters-working-plot.json (Meenakshi two-elder correction only author-directed at present)",
+    "meenakshi-cast-baseline.json",
+    "cross-lead-ayaan-armaan-jam-2026.json",
+    "shivani-episode-06-three-day-plot.json",
+    "episode-06-taniya-plan.json",
+    "episode-06-cross-household-hold.json"
+  ],
+  "continuityLocks": [
+    "Hospital trainees are AVI (24) and YASH (24); 'Abhi' in spontaneous author speech interpreted as Avi, NOT a new fourth character or a confirmed renaming.",
+    "Dr Aditi (24) is a junior resident; Avi and Yash are hospital trainees, not confirmed biological twins.",
+    "Jan 1 farmhouse evening: Meenakshi, Aditi, Avi, Yash danced and flirted. In F15 Aditi leaves by cab, Meenakshi drives Avi/Yash and drops them off. Do NOT assert Aditi/Avi/Yash stayed overnight together at farmhouse unless future author explicitly approves a new off-page continuation and reconciles the source.",
+    "Meenakshi's approved F18/F19 parked-car contact with Avi/Yash remains a separate already-written history; no invented first meeting or first flirt.",
+    "Rupa's previous EP04B scene includes Harish and Sunil, affirmative verbal boundaries; Dr Leena's separate conversation is with an unnamed older adult companion. New rough-action names for EP06 are EDITOR PROPOSALS, not previously published actions.",
+    "Shivani's Ayaan/Armaan track is IIT JAM Biotechnology; Meenakshi secondary Medical Biochemistry/physiology consultant, not assumed to teach the entire JAM Chemistry syllabus.",
+    "Ayaan/Armaan are NOT yet confirmed biological twins; not the society Uday/Utkarsh twins or hospital Avi/Yash.",
+    "Ayaan/Armaan first direct Meenakshi encounter on Sat 3 Jan has NO accidental wardrobe incident, no erotic physical touch; practical academic orientation only.",
+    "Aditi/Avi/Yash and Ayaan/Armaan are distinct student groups, never merged into an unexplained simultaneous tuition.",
+    "Home session depends on Nikhil's household consultation, childcare and work shifts. Hosting permission is not permission for physical/sexual contact.",
+    "Sunday Jan 4 is an EDITOR PROPOSED hospital rest day for Meenakshi, NOT proof of a universal Sunday hospital policy.",
+    "All adult physical contact in scene proposals is consensual; hospital professional boundaries and patient care take priority.",
+    "No children appear in adult flirtation or other private adult scenes.",
+    "No EP05 frozen source, EP04B original, or other lead's episode prose is modified by this file."
+  ],
+  "hospitalGroup": {
+    "name": "Meenakshi Clinical Revision Group",
+    "members": [
+      "Meenakshi (doctor, mentor)",
+      "Dr Aditi (junior resident)",
+      "Avi (trainee)",
+      "Yash (trainee)"
+    ],
+    "scope": [
+      "Case presentation and differential diagnosis",
+      "Clinical reasoning, physiology and basic medical biochemistry as appropriate",
+      "Viva/mock oral questions and documentation",
+      "Patient confidentiality and consent"
+    ],
+    "examStatus": "Internal clinical assessment / exam-preparation objective as EDITOR-PROPOSED until exact trainees' qualifications and exam type confirmed",
+    "firstRequest": "Saturday Jan 3 in staff lounge during designated break",
+    "initialMeeting": "Monday Jan 5, 18:30–19:15 at Meenakshi's home, CONDITIONAL on Nikhil conversation, Vihaan care and all four hospital shifts; otherwise postpone, not assume a simultaneous fallback",
+    "relationshipDynamic": [
+      "Aditi confidently initiates playful double-meaning banter; Avi is open and quick to respond; Yash is quieter and witty.",
+      "Recall Jan 1 group dance and flirting without falsely inventing a shared overnight stay.",
+      "In a closed adult staff break lounge, brief willing hug, arm-pull closer and Aditi momentarily sitting on Avi's lap may show how their personal ease surprises Meenakshi; no intimate contact during patient care.",
+      "Meenakshi lightly rebukes the lack of workplace discretion, then asks them to bring a real syllabus, mock papers and their duty roster before agreeing to lessons.",
+      "Continuing flirt is secondary to a credible teaching request; no coercion or assumed sexual permission from acquaintance."
+    ],
+    "status": "REQUEST_ACCEPTED_IN_PRINCIPLE__HOME_AND_SCHEDULE_PENDING"
+  },
+  "ruPaLeenaCuriosity": {
+    "priorFromEP04B": "Meenakshi saw Rupa with Harish and Sunil using chosen intensity, boundaries and a stop limit. Later Dr Leena with an unnamed older companion expressed precise acceptable contact, control and stop rules. Seed = curiosity about consensual intensity and control; no intended partner.",
+    "newEncounters": [
+      {
+        "time": "12:20–12:27",
+        "observed": "Rupa with Harish and Sunil",
+        "proposedActionNames": [
+          {
+            "actor": "Harish",
+            "name": "consensual wall pin"
+          },
+          {
+            "actor": "Sunil",
+            "name": "controlled waist pull-in"
+          }
+        ],
+        "focus": "Brief non-graphic accidental sightline. Rupa's explicit direction and a check-in; observers should not be presumed to consent to being watched.",
+        "status": "EDITOR_ACTION_PROPOSAL_NOT_AUTHOR_FINAL"
+      },
+      {
+        "time": "12:30–12:37",
+        "observed": "Dr Leena with the same unnamed adult companion as previous source, identity not invented",
+        "proposedActionNames": [
+          {
+            "actor": "adult companion, unnamed",
+            "name": "firm embrace and controlled release"
+          }
+        ],
+        "focus": "She states a boundary, chooses the pace and receives verbal check-in; Meenakshi sees only a brief moment.",
+        "status": "EDITOR_ACTION_PROPOSAL_NOT_AUTHOR_FINAL"
+      }
+    ],
+    "observationReason": "Meenakshi follows Rupa for a legitimate patient handover/query and incidentally notices an adult private moment; she disengages rather than deliberately intruding. Dr Leena later seen in a separate nearby corridor moment.",
+    "newCuriosityQuestion": "Beyond how someone can choose intense closeness, what does trust, clear limits and aftercare/check-in change about the emotional experience?",
+    "status": "SECOND_CURIOSITY_PHASE_PROPOSED__NO_SELECTED_PARTNER__NO_NEW_ACTUAL_EVENT_PUBLISHED"
+  },
+  "studyCircle": {
+    "name": "Ayaan–Armaan IIT JAM BT support",
+    "characters": [
+      "Ayaan",
+      "Armaan",
+      "Shivani",
+      "Meenakshi"
+    ],
+    "referralSequence": "Shivani meets pair ~15:00–15:25 Jan 3; then calls Meenakshi ~15:30–15:40 for a first academic introduction; pair can walk/travel to Meenakshi's society home 15:55–16:20. No guarantee they knew the exact door/address beforehand.",
+    "meetingType": "FIRST_FACE_TO_FACE_AND_SHORT_ORIENTATION_ONLY",
+    "role": "Meenakshi can assess physiology / medical Biochemistry questions and review a short Chemistry topic list; no blanket claim of full Physics/Math/Chemistry tuition",
+    "nextSession": "Not booked on Jan 3 or 4; provisional separate later Chemistry support session after hospital timetable verified",
+    "relationshipNotes": "Ayaan expressive, Armaan restrained; they are not confirmed twins; Meenakshi's friendly professionalism and previous indirect referral establish their acquaintance without forced romantic event",
+    "crossLeadProtection": "Sunday 4 Jan 17:30–18:05 belongs to Taniya's first quantitative diagnostic meeting; no competing Meenakshi appointment for the pair."
+  },
+  "scenes": [
+    {
+      "id": "MEN06-S01",
+      "date": "2026-01-03",
+      "time": "08:30–10:30",
+      "place": "CityCare Hospital",
+      "people": [
+        "Meenakshi",
+        "Dr Aditi",
+        "Avi",
+        "Yash"
+      ],
+      "name": "Saturday half-day duty begins",
+      "action": "Ordinary patients, cases and handover. No new high-intensity personal encounter in patient area.",
+      "status": "USER_HALF_DAY_DIRECTION__EDITOR_CLOCK"
+    },
+    {
+      "id": "MEN06-S02",
+      "date": "2026-01-03",
+      "time": "10:35–10:55",
+      "place": "Adult staff lounge on designated break",
+      "people": [
+        "Meenakshi",
+        "Dr Aditi",
+        "Avi",
+        "Yash"
+      ],
+      "name": "Clinical coaching request and established trio chemistry",
+      "action": "Aditi leads playful exam-themed double meanings; consented hug/brief closer pull, one brief lap-sitting beat in private lounge as EDITOR IDEA, not a confirmed action. Meenakshi surprised but demands professional boundaries and a syllabus; initial coaching accepted in principle. Jan1 farmhouse dance callback, no claim of overnight co-sleep.",
+      "status": "AUTHOR_REQUESTED_GROUP_SETUP__PHYSICAL_CHOREOGRAPHY_EDITOR_PROPOSAL"
+    },
+    {
+      "id": "MEN06-S03",
+      "date": "2026-01-03",
+      "time": "11:00–12:15",
+      "place": "Hospital wards / rounds",
+      "people": [
+        "Meenakshi",
+        "Hospital team"
+      ],
+      "name": "Complete duty obligations",
+      "action": "Real patients and charts; trio has separate duty responsibilities.",
+      "status": "EDITOR_CLOCK"
+    },
+    {
+      "id": "MEN06-S04",
+      "date": "2026-01-03",
+      "time": "12:20–12:27",
+      "place": "Hospital staff wing, incidental view",
+      "people": [
+        "Meenakshi",
+        "Rupa",
+        "Harish",
+        "Sunil"
+      ],
+      "name": "Rupa second private-intensity discovery",
+      "action": "Short accidental sightline, named non-graphic actions = consensual wall pin (Harish) and controlled waist pull-in (Sunil). Rupa explicitly guides pace; Meenakshi leaves their private space.",
+      "status": "AUTHOR_REQUESTED_SECOND_DISCOVERY__EDITOR_ACTION_NAMES"
+    },
+    {
+      "id": "MEN06-S05",
+      "date": "2026-01-03",
+      "time": "12:30–12:37",
+      "place": "Separate semi-private staff area",
+      "people": [
+        "Meenakshi",
+        "Dr Leena",
+        "Unnamed older adult companion"
+      ],
+      "name": "Leena's distinct second boundary example",
+      "action": "Non-graphic named action = firm embrace and controlled release with clear check-in. Meenakshi leaves; do not invent companion identity.",
+      "status": "EDITOR_ACTION_PROPOSAL"
+    },
+    {
+      "id": "MEN06-S06",
+      "date": "2026-01-03",
+      "time": "12:40–13:05",
+      "place": "Hospital nurse station / exit",
+      "people": [
+        "Meenakshi",
+        "Hospital team"
+      ],
+      "name": "Handover and departure",
+      "action": "Finish duty before leaving; curiosity remains internal and she chooses to think rather than immediately act.",
+      "status": "EDITOR_CLOCK"
+    },
+    {
+      "id": "MEN06-S07",
+      "date": "2026-01-03",
+      "time": "13:05–14:30",
+      "place": "Drive, Kapoor residence",
+      "people": [
+        "Meenakshi"
+      ],
+      "name": "Return and family time",
+      "action": "Home by ~13:45 after travel buffer, lunch and Vihaan's ordinary care as household logistics permit; Mohan and Nikhil availability not invented.",
+      "status": "EDITOR_CLOCK_AND_HOUSEHOLD_OPEN"
+    },
+    {
+      "id": "MEN06-S08",
+      "date": "2026-01-03",
+      "time": "15:30–15:40",
+      "place": "Shivani phone call to Meenakshi",
+      "people": [
+        "Shivani",
+        "Meenakshi"
+      ],
+      "name": "Referrals made after Shivani's 15:00–15:25 pair contact",
+      "action": "Shivani asks for credible medical Chemistry/physiology guidance, Meenakshi agrees to an introductory visit today, not automatic tuition.",
+      "status": "AUTHOR_REQUESTED_REFERRAL__EDITOR_CLOCK"
+    },
+    {
+      "id": "MEN06-S09",
+      "date": "2026-01-03",
+      "time": "15:55–16:20",
+      "place": "Kapoor residence, public living-room study table",
+      "people": [
+        "Meenakshi",
+        "Ayaan",
+        "Armaan"
+      ],
+      "name": "Ayaan–Armaan first direct meeting",
+      "action": "Basic qualifications and JAM topics discussed, accessible study setup agreed in principle. No physical accident or romantic contact. Pair departs before Shivani's 16:45 Taniya call.",
+      "status": "AUTHOR_APPROVED_FIRST_INTRO_INTENT__EDITOR_CLOCK"
+    },
+    {
+      "id": "MEN06-S10",
+      "date": "2026-01-03",
+      "time": "18:00–18:30 candidate call window",
+      "place": "Kapoor residence / Nikhil phone",
+      "people": [
+        "Meenakshi",
+        "Nikhil"
+      ],
+      "name": "Discuss home-clinical-study arrangement",
+      "action": "She asks Nikhil about hosting Aditi/Avi/Yash one weekday evening, privacy, Vihaan care, visitor logistics. If unavailable, await a reply; no assumed agreement.",
+      "status": "AUTHOR_REQUESTED_SPOUSE_CONSULTATION__OUTCOME_OPEN"
+    },
+    {
+      "id": "MEN06-S11",
+      "date": "2026-01-04",
+      "time": "All day, exact routine open",
+      "place": "Kapoor home / ordinary local activities",
+      "people": [
+        "Meenakshi",
+        "Nikhil",
+        "Vihaan"
+      ],
+      "name": "Sunday rest / family provisional",
+      "action": "No forced hospital duty or automatic tutoring. Ayaan/Armaan have separate first Taniya quantitative check Sunday 17:30–18:05.",
+      "status": "EDITOR_REST_DAY_PROPOSAL__NOT_CANON_SHIFT"
+    },
+    {
+      "id": "MEN06-S12",
+      "date": "2026-01-05",
+      "time": "18:30–19:15 conditional",
+      "place": "Kapoor residence study corner",
+      "people": [
+        "Meenakshi",
+        "Dr Aditi",
+        "Avi",
+        "Yash"
+      ],
+      "name": "First clinical group revision if confirmed",
+      "action": "45 minute case-based mock viva; only if hospital roster, Nikhil household discussion and Vihaan coverage permit. Explicitly no Ayaan/Armaan visit at same time.",
+      "status": "EDITOR_PROPOSED_FIRST_SESSION__NOT_AUTO_CANON"
+    }
+  ],
+  "scheduleSanity": [
+    "Saturday 10:35 staff lounge request does not overlap with 12:20 / 12:30 two separate observation windows.",
+    "Saturday hospital ends 13:05; home arrival 13:45 assumption leaves 25–40 min of travel. Verify road distance in story if ever specified.",
+    "Shivani with pair 15:00–15:25, calls Meenakshi 15:30–15:40, pair arrives 15:55. No call/visit overlap.",
+    "Ayaan/Armaan end 16:20, before Shivani-to-Taniya 16:45–16:55 call, Taniya first in-person Sunday 17:30–18:05.",
+    "Monday Meenakshi group 18:30–19:15 separate from Shivani's 06:45–07:45 Biology pair and Taniya's Sunday diagnostic.",
+    "No Monday resident group confirmed until Nikhil and hospital duty windows verified; staff's final exam type still open.",
+    "Five-lead household overlap gate still applies to optional social/movie scenes. No cross-household meeting is considered globally frozen."
+  ],
+  "publication": {
+    "plotOnly": true,
+    "noNewStoryProse": true,
+    "doNotAlterExistingLockedSources": true,
+    "reviewRequired": [
+      "Exact hospital examination name and academic levels",
+      "Aditi/Avi/Yash specific personal-contact staging at work versus private flashback",
+      "Second observation action choices and physicality",
+      "Nikhil response; Vihaan care",
+      "Hospital Monday roster, session place/time",
+      "Date ambiguity 3rd versus 17th if author truly meant 17 January"
+    ]
+  },
+  "created": "2026-11-27"
+}
