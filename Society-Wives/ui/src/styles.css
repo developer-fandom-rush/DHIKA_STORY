@@ -275,3 +275,17 @@ h1,h2,h3{font-family:Georgia,"Times New Roman",serif;letter-spacing:-.025em}h1{f
 .story-episode-nav-leads>span{font-size:12px;color:#826c79;font-weight:760;margin-right:6px}
 .story-episode-nav-note{font-size:11px;color:#84667a;margin:10px 0 0}
 @media(max-width:600px){.story-episode-nav.page-width{padding:12px;margin:10px auto 0}.story-episode-nav a{font-size:11px;padding:7px 9px;min-height:34px}.story-episode-nav-head strong{font-size:15px}}
+
+
+/* EP06/EP07 Ankita: author-review story pages with cinematic text-only storyboard markers. */
+.ep0607-reader .perspective-tabs button{border:1px solid #decbd6;background:#fff;border-radius:9px;color:#6b465c;font-weight:760;font-size:12px;padding:10px 13px;cursor:pointer}
+.ep0607-reader .perspective-tabs button:hover,.ep0607-reader .perspective-tabs button.selected{background:#70425b;color:#fff;border-color:#70425b}
+.ep0607-reader .ep0607-when{font:700 12px/1.6 ui-sans-serif,system-ui,sans-serif;color:#8a6177;border-bottom:1px solid #ecdee4;padding-bottom:15px;margin-bottom:22px}
+.ep0607-reader .ep0607-story-prose>.ep03-paragraph{font:17px/1.9 Georgia,"Times New Roman",serif;white-space:pre-wrap;color:#342b32;margin-bottom:19px}
+.ep0607-reader .ep0607-grok-frame{background:linear-gradient(135deg,#f8f0e4,#f8f2f7);border-left:4px solid #b88b54;border-radius:9px;padding:12px 17px;margin:24px 0}
+.ep0607-reader .ep0607-grok-frame span{display:block;font:800 10px/1.5 ui-sans-serif,system-ui,sans-serif;color:#835d6e;letter-spacing:.13em}
+.ep0607-reader .ep0607-grok-frame p{font:13px/1.75 ui-sans-serif,system-ui,sans-serif;color:#5e4c57;margin:5px 0 0}
+.ep0607-reader .scene-sidebar .scene-link{width:100%;text-align:left}
+.ep0607-reader .scene-sidebar .ep03-scene-name{display:block;white-space:normal;color:#856b79;font-size:11px;margin-top:4px;line-height:1.4}
+.ep0607-reader .scene-sidebar .scene-link.active .ep03-scene-name{color:#73455c}
+@media(max-width:700px){.ep0607-reader .ep0607-story-prose>.ep03-paragraph{font-size:16px;line-height:1.82}.ep0607-reader .scene-sidebar .scene-link{min-width:170px;max-width:215px;flex:none}.ep0607-reader .ep0607-grok-frame{margin:17px 0;padding:10px 12px}}
