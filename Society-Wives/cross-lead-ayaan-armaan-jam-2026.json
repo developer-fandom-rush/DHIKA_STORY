@@ -57,9 +57,9 @@
       "profession": "Doctor",
       "focus": "Chemistry / Biochemistry / clinical practical-context concepts",
       "role": "Secondary science mentor",
-      "status": "IN_PRINCIPLE_PHONE_AGREEMENT_IN_APPROVED_PLOT__NOT_WRITTEN_PROSE",
+      "status": "AUTHOR_DIRECTED_FIRST_IN_PERSON_INTRO_JAN03__RECURRING_TEACHING_NOT_BOOKED",
       "ability": "Medical biochemistry, human physiology, applied examples; full JAM Chemistry expertise needs separate verification",
-      "availability": "OPEN; to decide in Meenakshi's hospital/family plot, NOT Shivani's schedule"
+      "availability": "Saturday 3 Jan first meet 15:55–16:20 (editor-proposed, after Shivani referral 15:30–15:40); full future teaching slot remains OPEN subject to hospital and home."
     },
     {
       "lead": "Taniya",
@@ -92,8 +92,9 @@
   "timeAnchors": [
     {
       "date": "2026-01-03",
-      "status": "AUTHOR_APPROVED_PLOT_DIRECTION__CLOCK_OPEN",
-      "event": "Following the already-written Uncle morning, a candidate afternoon request from Ayaan/Armaan to Shivani; Shivani phones Meenakshi, who agrees in principle. No first tuition accident here. After ~16:35, separate proposed Shivani→Taniya 16:45–16:55 call for a possible quantitative assessment. Does not place Ayaan/Armaan in a second Saturday meeting."
+      "status": "AUTHOR_DIRECTED_MEENAKSHI_FIRST_INTRO__CLOCKS_EDITOR_PROPOSED__SHIVANI_SEQUENCE_RECONCILED",
+      "event": "Shivani meets Ayaan/Armaan ~15:00–15:25 for their JAM Biotechnology plan; she calls Meenakshi ~15:30–15:40. The pair separately visits Meenakshi's Kapoor living-room study table ~15:55–16:20 for the FIRST direct introduction, with no wardrobe incident or hands-on romantic event. Meenakshi agrees to consider medical biochemistry/physiology topics, but no recurring Chemistry session is booked. Shivani later calls Taniya ~16:45–16:55 for Sunday's separate diagnostic; no duplicate pair appointment.",
+      "linkedSource": "episode-06-meenakshi-jan03-05-plan.json"
     },
     {
       "date": "2026-01-04",
@@ -120,7 +121,9 @@
     "Other women’s spouse/household commitments, and January cinema plan",
     "Fictional competition/faculty seminar travel dates relative to IIT JAM",
     "Taniya's precise JAM Mathematics syllabus coverage after first introductory three-question diagnostic; advanced tutoring must be confirmed separately.",
-    "Final timing for Sunday first Taniya/Ayaan/Armaan meeting still subject to unbooked five-household society/movie plan; content/character beats approved, not prose."
+    "Final timing for Sunday first Taniya/Ayaan/Armaan meeting still subject to unbooked five-household society/movie plan; content/character beats approved, not prose.",
+    "Ayaan/Armaan Saturday first Meenakshi meeting is a plot clock and still subject to household/transport feasibility; no second evening lesson.",
+    "Hospital trainees Avi/Yash/Aditi belong to Meenakshi's separate clinical study group; they are NOT part of IIT JAM pair."
   ],
   "handoff": {
     "rule": "In EVERY new chat planning Ankita/Shivani/Taniya/Meenakshi/Shreya January story, explicitly retrieve this shared GitHub file first, then compare the relevant lead's current episode reader/plot before changing a mentoring assignment or a time slot.",
@@ -128,5 +131,6 @@
     "uiRoute": "#/study-circle",
     "noAutoSync": "A GitHub reference is accessible to another chat when linked/available, but is not automatically loaded into that chat's model memory. The new chat must read the file or be given its URL.",
     "updatePolicy": "Approved plot remains preserved before prose. Whenever another lead agrees to a time or changes competence, update THIS same canonical ledger and linked lead plan, not an isolated local-only note."
-  }
+  },
+  "lastSynced": "2026-11-27"
 }
