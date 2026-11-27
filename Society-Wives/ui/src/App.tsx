@@ -20,9 +20,9 @@ export default function App(){
  const queryDate=params.get('date');
  const currentLead=params.get('lead')||params.get('character')||'ankita';
  const currentEpisode=page==='reading'?(params.get('episode')||'01'):(params.get('part')||'04A');
- const isExistingEpisode=['04A','04B','05','06','A','B'].includes(currentEpisode);
+ const isExistingEpisode=['04A','04B','05','06','07','A','B'].includes(currentEpisode);
  const plotEpisode=currentEpisode==='A'?'04A':currentEpisode==='B'?'04B':isExistingEpisode?currentEpisode:'04A';
- const readerEpisode=['01','02','03','04A','04B','05'].includes(currentEpisode)?currentEpisode:'05';
+ const readerEpisode=['01','02','03','04A','04B','05','06','07'].includes(currentEpisode)?currentEpisode:'05';
  const navHref=(id:string)=>id==='planning'
   ?'#/planning?lead='+currentLead+'&part='+plotEpisode
   :id==='reading'
