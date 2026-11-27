@@ -412,7 +412,7 @@
     "Novelty over Dhika: multi-household adult social complexity and shared activity lead the scene, no clone of a single-secret observer or repeated garment accident."
   ],
   "decisionGate": {
-    "status": "BOLDER_PLOT_PREPARED__HOUSEHOLD_AND_SOCIETY_HOLD_NOT_LIFTED__AUTHOR_CAN_LOCK_SCENES_LATER",
+    "status": "INITIAL_PLOTS_AND_SOFT_TIMINGS_APPROVED__FINAL_ATTENDANCE_AND_PRIVATE_OPTION_HOLD",
     "nextLocks": [
       "Sunday Nikhil short morning walk and evening presence plus Vihaan care, including Saturday 18:00 husband meeting in person vs phone",
       "Sunday 18:45 family event participants and care shifts for Tara/Vihaan/Anaya",
@@ -432,7 +432,8 @@
       "episode-06-household-spouse-availability.json",
       "episode-06-global-audit-approved-plots-20261127.json",
       "episode-06-cross-household-hold.json"
-    ]
+    ],
+    "auditSource": "episode-06-society-location-and-collision-audit-20261127.json"
   },
   "publication": {
     "plotSourceOnly": true,
@@ -814,5 +815,6 @@
     },
     "childcare": "Tara, Vihaan and Anaya must be with a parent or an established adult caregiver; no generic unsourced babysitter invented.",
     "husbandWorkReality": "Kabir on-call/IT, Rohan occupation unverified, Nikhil office work mode unverified, Vikram shift unverified. Society slots reflect optional presence, not guaranteed attendance."
-  }
+  },
+  "protectionAuditSource": "episode-06-society-location-and-collision-audit-20261127.json"
 }
