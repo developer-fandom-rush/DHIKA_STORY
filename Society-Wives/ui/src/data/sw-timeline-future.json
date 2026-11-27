@@ -17,7 +17,8 @@
     "2026-11-26: New police-duty alignment: Shreya Jan3 08:30–16:30, Jan4 08:00–13:00, Jan5 08:00–17:00 (NO LEAVE any day; fictional roster, not universal police rule). Shreya gym moved BEFORE Saturday shift to 06:20–07:30; evidence call after duty 17:40–18:00, sister study 18:15–18:45. Sunday twins apartment study 15:00–16:15, Monday training earlier 10:30–11:20. Kabir/Rohan/Vikram household presence recorded separately as envelopes with honest profession uncertainty; not independent encounter events.",
     "2026-11-26 Taniya EP06 three-day planning (not final prose): Sat3 trainer Vivek Rao 05:00–05:55 real 5AM invite with visitor log, Soniya study-guest permission call 09:15–09:30; Sun4 Vivek 05:00–05:45, CA Raghav–Chirag home tutoring 11:00–11:55, potential Karan–Aman 13:15–14:00 crossover ONLY IF five-household scheduling hold cleared, Ayaan/Armaan not booked; Mon5 Vivek 05:00–05:45, CA office 10:30–19:30 with professional Vivek Suri review. Old Episode03 office women preserved but none introduced in Episode06. Check with character-collision tests before author approval.",
     "2026-11-27 user-approved Taniya plot refinement (clocks editorial): Sat3 10:40–10:55 Karan independently asks MBA finance help; Aman is absent from first request and separately seeks invited finance-domain review for a proposed Java/Spring Boot Expense Tracker API. Sat3 16:45–16:55 Shivani separately refers Ayaan/Armaan to Taniya. Sun4 13:15–14:00 Karan/Aman home tutorial includes approved fan-scattered papers / stole-shift moment (different viewpoints, not a second Episode03 collision); Sun4 17:30–18:05 Ayaan/Armaan meet Taniya for the first time for an introductory quantitative diagnostic, with zero wardrobe accident. Actual twins: Karan/Aman only. Shared-character timed event collisions found: zero; five-household society final date still provisional.",
-    "2026-11-27: Four author-requested EP06 cross-household SOCIAL CANDIDATES indexed Jan3 19:10, Jan4 07:15 and 18:45, Jan5 20:20. No individual husband/female duty overlaps found in existing fixed time envelopes; spouses' unknown job shifts and childcare mean these are NOT bookings. Source episode-06-global-society-crossovers-jan03-05.json. Nikhil occupation and actual Jan3–5 work schedule remain unknown. Original five-lead scenes unchanged. Room for society gate review remains."
+    "2026-11-27: Four author-requested EP06 cross-household SOCIAL CANDIDATES indexed Jan3 19:10, Jan4 07:15 and 18:45, Jan5 20:20. No individual husband/female duty overlaps found in existing fixed time envelopes; spouses' unknown job shifts and childcare mean these are NOT bookings. Source episode-06-global-society-crossovers-jan03-05.json. Nikhil occupation and actual Jan3–5 work schedule remain unknown. Original five-lead scenes unchanged. Room for society gate review remains.",
+    "2026-11-27: Global society design upgraded on user request to deliberate adult physical closeness, garment/fitness visual moments and separate spouse-knowledge states. Jan3 setup, Jan4 morning walk + evening garden + optional projector-corner, Jan5 after-work reminder; five candidate events source episode-06-global-society-crossovers-jan03-05.json. Status REVIEW and all husband/childcare gates remain, no final story prose. DHIKA Raj/Sharmi EP12/14/15 researched for narrative pattern, NOT copied."
   ],
   "events": [
     {
@@ -3834,7 +3835,7 @@
       "end": "19:30",
       "timeLabel": "19:10–19:30",
       "universe": "sw",
-      "title": "Saturday · Courtyard board setup, not a large party",
+      "title": "Saturday · After-duty society safety and setup — first cross-spouse close beats",
       "lead": "Shared society",
       "characters": [
         "Ankita",
@@ -3856,36 +3857,37 @@
       "scene": "SW06-GS01",
       "kind": "planned",
       "state": "review",
-      "status": "AUTHOR-REQUESTED SOCIAL PLOT · PROPOSED WINDOW · FIVE-HOUSEHOLD HOLD ACTIVE",
+      "status": "BOLD SOCIETY PLOT DISCUSSION · NOT FINAL BOOKING / SPOUSE-KNOWLEDGE HOLD",
       "source": "episode-06-global-society-crossovers-jan03-05.json",
       "reader": {
         "type": "source-url",
         "url": "https://github.com/developer-fandom-rush/DHIKA_STORY/blob/main/Society-Wives/episode-06-global-society-crossovers-jan03-05.json"
       },
       "flags": [
-        "DISCUSSION CANDIDATE ONLY: new society scenes and participant attendance NOT final/canon",
-        "Four husbands' Jan3–5 shifts and childcare remain conditional",
-        "Do not displace existing five-lead office, study, police or family scenes"
+        "EDITOR PLOT CANDIDATE: BOLDER_SOCIAL_PLOT_REVISED__SATURDAY_LOCATION_AND_CHILDCARE_PENDING",
+        "No confirmed husband day-off/work shift or childcare beyond source proposals",
+        "Existing lead work/study/family/EP05 canon not modified",
+        "Private attraction and spouse awareness are separate knowledge states; see full linked knowledge ledger"
       ],
-      "detail": "Follow-up to EP01 committee calendar: attach signup sheets and identify Sunday walking route / family health-camp prep; Sharmi can leave notice via group message and does not need to appear. Physical/romantic development: A shared poster corner/handbrush; otherwise normal personal space and friendly humor. Source status: EDITOR_CONDITIONAL__SHREYA_AFTER_18_45_AND_SPOUSES_FAMILY_CHECK_NEEDED.",
+      "detail": "Continuation of existing community noticeboard and safety roles; prioritize Shreya's police shift and Ankita/Kabir marriage-first scene. Kabir and Rohan may be there, Vikram/Shreya only after 18:45; no Nikhil needed. Visual motif: Ankita's jacket hem rides up while she reaches to fasten the banner, briefly showing her fitted workout layer and narrow waist. She sees Rohan notice, chooses to finish the task without immediately fussing over it, then smooths the jacket. No breast exposure; visually different from DHIKA or Meenakshi's separate society mishap.. Chosen contact: Invited palm to clothed side waist while balancing; Shreya's chosen jacket-front pull for a camera demonstration; light but noticeable chemistry.. Important: events shown here are candidate scenes, not something that has already happened.",
       "beats": [
         {
-          "id": "SW06-GS01-01",
+          "id": "SW06-GS01-1",
           "at": null,
-          "title": "Moment 1",
-          "body": "Ankita and Rohan recall the earlier New Year's walking challenge while adjusting the noticeboard; a folded paper edge requires them to share a board corner, with only a brief handbrush if they both willingly move."
+          "title": "Beat 1",
+          "body": "Ankita reaches for a high registration banner while Rohan stabilizes the step. She deliberately asks him to hold at her side waist over her jacket for one careful second, and teases him when he becomes unusually quiet. Mutual contact is chosen, then released; no forced stumble or uninvited grip."
         },
         {
-          "id": "SW06-GS01-02",
+          "id": "SW06-GS01-2",
           "at": null,
-          "title": "Moment 2",
-          "body": "Kabir joins Ankita after checking his own work phone and sees competent cooperative neighborly work, not a presumption that Ankita is hiding a new relationship."
+          "title": "Beat 2",
+          "body": "Shreya, after station duty, asks Kabir to stand inside the camera's blind-spot line. To demonstrate, she draws him closer by his open jacket front with a playful, clearly intended move; he matches her teasing without turning it into a covert affair. Vikram sees only the practical demonstration while managing Anaya's needs."
         },
         {
-          "id": "SW06-GS01-03",
+          "id": "SW06-GS01-3",
           "at": null,
-          "title": "Moment 3",
-          "body": "Shivani asks Rohan to take Tara back if she needs to finish noticeboard labels, and Vikram can appear briefly with Anaya after Shreya's study, if their evening routine allows."
+          "title": "Beat 3",
+          "body": "Shivani notices her own husband Rohan's changed composure near Ankita but has no basis to infer the precise waist support or private attraction. Kabir sees the banner assistance but not Ankita's deliberate choice."
         }
       ]
     },
@@ -3897,7 +3899,7 @@
       "end": "07:35",
       "timeLabel": "07:15–07:35",
       "universe": "sw",
-      "title": "Sunday · The three-lap step-count challenge",
+      "title": "Sunday · Fitness circuit challenge — Ankita, Rohan, Nikhil",
       "lead": "Shared society",
       "characters": [
         "Ankita",
@@ -3916,36 +3918,43 @@
       "scene": "SW06-GS02",
       "kind": "planned",
       "state": "review",
-      "status": "AUTHOR-REQUESTED SOCIAL PLOT · PROPOSED WINDOW · FIVE-HOUSEHOLD HOLD ACTIVE",
+      "status": "BOLD SOCIETY PLOT DISCUSSION · NOT FINAL BOOKING / SPOUSE-KNOWLEDGE HOLD",
       "source": "episode-06-global-society-crossovers-jan03-05.json",
       "reader": {
         "type": "source-url",
         "url": "https://github.com/developer-fandom-rush/DHIKA_STORY/blob/main/Society-Wives/episode-06-global-society-crossovers-jan03-05.json"
       },
       "flags": [
-        "DISCUSSION CANDIDATE ONLY: new society scenes and participant attendance NOT final/canon",
-        "Four husbands' Jan3–5 shifts and childcare remain conditional",
-        "Do not displace existing five-lead office, study, police or family scenes"
+        "EDITOR PLOT CANDIDATE: STRONG_WALK_PLOT_REVISED__MORNING_CHILDCARE_ARRANGEMENTS_TO_CONFIRM",
+        "No confirmed husband day-off/work shift or childcare beyond source proposals",
+        "Existing lead work/study/family/EP05 canon not modified",
+        "Private attraction and spouse awareness are separate knowledge states; see full linked knowledge ledger"
       ],
-      "detail": "EP02 Ankita A02 already placed Rohan and Nikhil beside her on a society morning walk; a short Sunday return creates an earned callback instead of a new first encounter. Physical/romantic development: One voluntary high-five and a few normal neighborly steps together. Source status: SUNDAY_WALK_CANDIDATE__ROHAN_NIKHIL_CHILDCARE_HANDOFF_NOT_CONFIRMED.",
+      "detail": "EP02 A02/A03 already established an Ankita–Rohan–Nikhil morning routine; this time voluntary partner exercise creates meaningful adult attraction. With Vikram supervising Anaya and Shreya preparing for police, no Shreya attendance. Visual motif: Self-aware fitted workout styling, no staged accidental breast exposure and no duplicate Saturday jacket mishap.. Chosen contact: Invited one-hand support at the clothed waist during balance drill, intentional forearm hold, prolonged private eye contact, confident compliment and answer.. Important: events shown here are candidate scenes, not something that has already happened.",
       "beats": [
         {
-          "id": "SW06-GS02-01",
+          "id": "SW06-GS02-1",
           "at": null,
-          "title": "Moment 1",
-          "body": "Ankita informally sets a three-lap/step-count challenge; Rohan undercuts the seriousness with a familiar joke and Ankita enjoys banter without acting as if it is a secret relationship."
+          "title": "Beat 1",
+          "body": "After warm-up Ankita challenges Rohan to the two-person resistance-band balance drill. She instructs exactly where his hand may support her waist over her zipped sports jacket; after correcting his posture she holds his forearm for another heartbeat, notices his reaction and jokes about losing his competitive confidence."
         },
         {
-          "id": "SW06-GS02-02",
+          "id": "SW06-GS02-2",
           "at": null,
-          "title": "Moment 2",
-          "body": "Nikhil finishes a brisk lap and checks time because Meenakshi is home with Vihaan; he notices Ankita's consistent pace and gives a dry compliment."
+          "title": "Beat 2",
+          "body": "Ankita has removed her outer fleece for the warm-up, revealing a fitted athletic top she deliberately chose. When Rohan compliments her discipline and style, she returns an openly flirtatious one-liner rather than pretending she heard nothing."
         },
         {
-          "id": "SW06-GS02-03",
+          "id": "SW06-GS02-3",
           "at": null,
-          "title": "Moment 3",
-          "body": "At hydration/step tally, Rohan offers a friendly high-five and steps back; no forced couple contact, no staged costume malfunction."
+          "title": "Beat 3",
+          "body": "Nikhil arrives after his own lap and catches only the playful end of the exercise. He and Ankita tease each other about pace; he notices the changing tone but does not know how long Rohan and Ankita stayed close."
+        },
+        {
+          "id": "SW06-GS02-4",
+          "at": null,
+          "title": "Beat 4",
+          "body": "Rohan mentions the walk to Shivani as routine exercise; he does not automatically tell her about the private flirt. Ankita can choose later whether to disclose the training contact to Kabir."
         }
       ]
     },
@@ -3957,7 +3966,7 @@
       "end": "19:25",
       "timeLabel": "18:45–19:25",
       "universe": "sw",
-      "title": "Sunday · Community garden health-walk and children’s activities prep",
+      "title": "Sunday · Health-fair garden prep — cross-spouse attraction and chosen closeness",
       "lead": "Shared society",
       "characters": [
         "Ankita",
@@ -3981,48 +3990,49 @@
       "scene": "SW06-GS03",
       "kind": "planned",
       "state": "review",
-      "status": "AUTHOR-REQUESTED SOCIAL PLOT · PROPOSED WINDOW · FIVE-HOUSEHOLD HOLD ACTIVE",
+      "status": "BOLD SOCIETY PLOT DISCUSSION · NOT FINAL BOOKING / SPOUSE-KNOWLEDGE HOLD",
       "source": "episode-06-global-society-crossovers-jan03-05.json",
       "reader": {
         "type": "source-url",
         "url": "https://github.com/developer-fandom-rush/DHIKA_STORY/blob/main/Society-Wives/episode-06-global-society-crossovers-jan03-05.json"
       },
       "flags": [
-        "DISCUSSION CANDIDATE ONLY: new society scenes and participant attendance NOT final/canon",
-        "Four husbands' Jan3–5 shifts and childcare remain conditional",
-        "Do not displace existing five-lead office, study, police or family scenes"
+        "EDITOR PLOT CANDIDATE: SOCIAL_EVENT_PLOT_REVISED__FULL_ATTENDANCE_AND_CHILDCARE_STILL_UNBOOKED",
+        "No confirmed husband day-off/work shift or childcare beyond source proposals",
+        "Existing lead work/study/family/EP05 canon not modified",
+        "Private attraction and spouse awareness are separate knowledge states; see full linked knowledge ledger"
       ],
-      "detail": "EP01 community-week programme already needs registrations (Ankita), children’s activity (Shivani), basic accounts (Taniya), first-aid/health-camp details (Meenakshi), safety/entry-list advice (Shreya), and chairs/mats/QR/water distribution help from spouses. Physical/romantic development: One shared-board handbrush, one practical forearm steady, one marker pass, one handshake; no kissing, erotic touching, wardrobe slip, or choreographed every-person close-contact ladder.. Source status: FULL_GATHERING_CANDIDATE__REQUIRES_NIKHIL_SUNDAY_DAY_OFF_AND_CHILDCARE__UNBOOKED.",
+      "detail": "Use established community-week responsibilities to rotate distinct adult pair conversations across a garden event; partners and children are still present, so romantic subtext stays mostly in task-related adult micro-moments. Ensure no second garment mishap for Meenakshi Sunday, Taniya Sunday, or Shivani's existing Group A. Visual motif: Adult clothing choices are deliberate: Ankita fitted activewear after earlier walk, Shivani elegant evening outfit, Taniya evening jacket, Meenakshi warm layer, Shreya after-duty casual clothes. No additional strip/strap/pallu accident — those individual leads already have their distinct episode wardrobe beats.. Chosen contact: One chosen waist support for demo, one consented mock-dance turn, one hand-at-waist partner move, plus off-to-side intimate verbal compliments. No mandatory kiss in the family event itself.. Important: events shown here are candidate scenes, not something that has already happened.",
       "beats": [
         {
-          "id": "SW06-GS03-01",
+          "id": "SW06-GS03-1",
           "at": "18:50–18:57",
-          "title": "Ankita × Rohan",
-          "body": "Registration QR board: they jointly straighten the sign and share one brief accidental handbrush before giving each other space; callback to morning-walk teasing. Rohan has a private moment of interest but Ankita merely enjoys his humor and capability."
-        },
-        {
-          "id": "SW06-GS03-02",
-          "at": "18:58–19:05",
           "title": "Meenakshi × Kabir",
-          "body": "First-aid sign/cable layout: Kabir catches a wobbly lightweight display before it tips; Meenakshi briefly steadies his forearm to pass him a clamp. A quick smile and respect for each other's problem-solving, not an established affair."
+          "body": "Meenakshi leads the adult volunteer balance-station demonstration and invites Kabir to support her by the side waist over her sweater while she steps off a low platform. They remain close slightly longer than necessary before she moves away with a direct teasing compliment. Nikhil observes the safety demonstration, not the mutual private pause."
         },
         {
-          "id": "SW06-GS03-03",
-          "at": "19:05–19:11",
+          "id": "SW06-GS03-2",
+          "at": "18:58–19:05",
           "title": "Shivani × Nikhil",
-          "body": "Children's instruction board and height marking: Nikhil passes a marker; their fingers brush naturally; both make a light school-vs-clinic joke while alternating Vihaan's care with Meenakshi. No private disclosure."
+          "body": "A music timing test makes Shivani challenge Nikhil to one slow dance-count turn for the society fundraiser. She places his hand at her waist over her outfit herself, catches the expression he tries to hide, and compliments his unexpected confidence. Meenakshi sees a public demonstration, but neither woman's prior private encounter knowledge transfers."
         },
         {
-          "id": "SW06-GS03-04",
-          "at": "19:12–19:18",
+          "id": "SW06-GS03-3",
+          "at": "19:05–19:12",
           "title": "Taniya × Vikram",
-          "body": "Budget for safety volunteers/mats: Vikram shifts chairs to clear the walkway while Taniya checks quantities; they exchange a playful confident handshake when the count agrees, no assumed reciprocal attraction."
+          "body": "Taniya joins Vikram in arranging the event's walking-game lanes and initiates a mock partner-turn to demonstrate the game's timing; she pulls him gently by the lapel, invites one hand at her waist, and holds a playful gaze until she chooses to finish. Shreya sees an open committee demonstration, not a secret private relationship. Taniya remains engaged to Aditya."
         },
         {
-          "id": "SW06-GS03-05",
+          "id": "SW06-GS03-4",
+          "at": "19:12–19:18",
+          "title": "Ankita × Rohan",
+          "body": "While finalizing the projection screen plan, Ankita and Rohan revisit the morning fitness dare. She quietly suggests that he owe her a proper compliment later, not another generic one about discipline. Their easy familiarity becomes privately charged; Kabir/Shivani only know they are checking equipment."
+        },
+        {
+          "id": "SW06-GS03-5",
           "at": "19:18–19:23",
           "title": "Shreya × Kabir",
-          "body": "Parking/safety checklist: Shreya notices a blind spot; Kabir asks a practical follow-up and they share quick appreciative banter. No obligatory physical touch or pre-planned flirt."
+          "body": "Shreya privately thanks Kabir for fixing the safety blind spot and makes a crisp, teasing observation about how easily she got him to follow instructions; he responds with a personal compliment. It stays a conversation, not a second mandatory physical accident."
         }
       ]
     },
@@ -4034,7 +4044,7 @@
       "end": "20:35",
       "timeLabel": "20:20–20:35",
       "universe": "sw",
-      "title": "Monday · Lift-lobby volunteer handoff after work",
+      "title": "Monday · After-work lift — covert callback, no weekday escalation ladder",
       "lead": "Shared society",
       "characters": [
         "Ankita",
@@ -4053,36 +4063,104 @@
       "scene": "SW06-GS04",
       "kind": "planned",
       "state": "review",
-      "status": "AUTHOR-REQUESTED SOCIAL PLOT · PROPOSED WINDOW · FIVE-HOUSEHOLD HOLD ACTIVE",
+      "status": "BOLD SOCIETY PLOT DISCUSSION · NOT FINAL BOOKING / SPOUSE-KNOWLEDGE HOLD",
       "source": "episode-06-global-society-crossovers-jan03-05.json",
       "reader": {
         "type": "source-url",
         "url": "https://github.com/developer-fandom-rush/DHIKA_STORY/blob/main/Society-Wives/episode-06-global-society-crossovers-jan03-05.json"
       },
       "flags": [
-        "DISCUSSION CANDIDATE ONLY: new society scenes and participant attendance NOT final/canon",
-        "Four husbands' Jan3–5 shifts and childcare remain conditional",
-        "Do not displace existing five-lead office, study, police or family scenes"
+        "EDITOR PLOT CANDIDATE: BUSY_WEEKDAY_CALLBACK_CANDIDATE__COMMUTES_UNVERIFIED",
+        "No confirmed husband day-off/work shift or childcare beyond source proposals",
+        "Existing lead work/study/family/EP05 canon not modified",
+        "Private attraction and spouse awareness are separate knowledge states; see full linked knowledge ledger"
       ],
-      "detail": "Ankita's 18:10–19:00 office technical meeting and Taniya's 10:30–19:30 CA shift create a plausible later arrival. Rohan may collect updated community forms from the building, but no asserted office occupation. Physical/romantic development: Passing an envelope with ordinary hand contact only if natural; no second high-five or repeated accidental reveal.. Source status: OPTIONAL_EDITOR_SLOT__COMMUTES_OFFICE_END_AND_ROHAN_PRESENCE_UNVERIFIED.",
+      "detail": "Monday is heavily booked: Ankita IT 18:10–19:00, Taniya CA 10:30–19:30; Rohan may return from unverified work. Keep a short late-night aftermath, not another engineered physical setup. Visual motif: No wardrobe slip. Work-to-home outfits retained from character work schedules.. Chosen contact: No forced repeat touch; the attraction progresses through recognition of what happened Sunday.. Important: events shown here are candidate scenes, not something that has already happened.",
       "beats": [
         {
-          "id": "SW06-GS04-01",
+          "id": "SW06-GS04-1",
           "at": null,
-          "title": "Moment 1",
-          "body": "Ankita, arriving after her office wrap-up and commute, briefly asks if the QR form works; Taniya arrives separately carrying her expense notes."
+          "title": "Beat 1",
+          "body": "Ankita and Taniya meet by society lift after returning separately from work; Taniya makes a perceptive joke about how Sunday committee partners behaved. Ankita answers lightly but does not disclose what Taniya did not witness."
         },
         {
-          "id": "SW06-GS04-02",
+          "id": "SW06-GS04-2",
           "at": null,
-          "title": "Moment 2",
-          "body": "Rohan collects the committee envelope only if he is home and willing; he remembers Ankita's Sunday joke and the exchange stays warm but public."
+          "title": "Beat 2",
+          "body": "If Rohan arrives for committee forms, he exchanges one charged line with Ankita. The emotional change is in knowledge and response, not another grab or wardrobe accident."
         },
         {
-          "id": "SW06-GS04-03",
+          "id": "SW06-GS04-3",
           "at": null,
-          "title": "Moment 3",
-          "body": "Meenakshi's clinical lesson may have run earlier and Shreya may have an independent 20:10 study call: neither is automatically pulled into Monday's scene."
+          "title": "Beat 3",
+          "body": "Taniya may tell Aditya about the community event in ordinary wedding-planning context; she does not have to recount her teasing with Vikram unless she chooses."
+        }
+      ]
+    },
+    {
+      "id": "sw06-gs05",
+      "date": "2026-01-04",
+      "sort": "19:40",
+      "start": "19:40",
+      "end": "19:58",
+      "timeLabel": "19:40–19:58",
+      "universe": "sw",
+      "title": "Sunday · Projector-corner private choice — the only possible first crossing of a stronger boundary",
+      "lead": "Shared society",
+      "characters": [
+        "Ankita",
+        "Rohan"
+      ],
+      "mentions": [
+        "Kabir",
+        "Shivani",
+        "Meenakshi",
+        "Nikhil",
+        "Taniya",
+        "Vikram",
+        "Shreya"
+      ],
+      "episode": "06 plot",
+      "scene": "SW06-GS05",
+      "kind": "planned",
+      "state": "review",
+      "status": "BOLD SOCIETY PLOT DISCUSSION · NOT FINAL BOOKING / SPOUSE-KNOWLEDGE HOLD",
+      "source": "episode-06-global-society-crossovers-jan03-05.json",
+      "reader": {
+        "type": "source-url",
+        "url": "https://github.com/developer-fandom-rush/DHIKA_STORY/blob/main/Society-Wives/episode-06-global-society-crossovers-jan03-05.json"
+      },
+      "flags": [
+        "EDITOR PLOT CANDIDATE: OPTIONAL_FIRST_KISS_CANDIDATE__NO_AUTHOR_LOCK__NOT_A_FINAL_SECRET_EVENT",
+        "No confirmed husband day-off/work shift or childcare beyond source proposals",
+        "Existing lead work/study/family/EP05 canon not modified",
+        "Private attraction and spouse awareness are separate knowledge states; see full linked knowledge ledger"
+      ],
+      "detail": "Unlike DHIKA's preassigned cinema seats and horror jump scare, two established morning-walk friends voluntarily check sound and image cables behind a community movie projector after garden event. Neither is assigned child care during this beat; their spouses remain in public area by choice. Visual motif: No clothing accident, no nudity; the tension comes from active choice, closeness, private admission and the consequence of incomplete knowledge.. Chosen contact: Mutually chosen embrace; possible brief kiss ONLY if author approves this stronger milestone and both characters reciprocate in final prose.. Important: events shown here are candidate scenes, not something that has already happened.",
+      "beats": [
+        {
+          "id": "SW06-GS05-1",
+          "at": null,
+          "title": "Beat 1",
+          "body": "Ankita initiates: she calls Rohan aside to test the projector after public teasing; instead of immediately returning she asks whether he has been flirting with her all morning. He answers directly, not with a fake accident."
+        },
+        {
+          "id": "SW06-GS05-2",
+          "at": null,
+          "title": "Beat 2",
+          "body": "Rohan responds to her invitation and moves closer. They share an unhurried embrace; she returns it knowingly and makes it clear she can stop at any moment."
+        },
+        {
+          "id": "SW06-GS05-3",
+          "at": null,
+          "title": "Beat 3",
+          "body": "Optional stronger step: a brief mutually chosen kiss, immediately followed by their separate decision whether to disclose, deflect or maintain privacy. This is the sole optional outside-marriage kiss proposal, NOT a completed episode fact."
+        },
+        {
+          "id": "SW06-GS05-4",
+          "at": null,
+          "title": "Beat 4",
+          "body": "They return by different routes to the courtyard. Kabir and Shivani may observe that both were assisting with equipment; they cannot automatically infer a kiss or choose a truthful account for either character."
         }
       ]
     }
