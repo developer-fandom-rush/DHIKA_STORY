@@ -692,11 +692,11 @@
     },
     {
       "number": "06",
-      "title": "EP06 · Five-Lead Three-Day Story Planning",
+      "title": "Episode 06 — Ankita · The Choices She Can Name",
       "subtitle": "Ankita/Shreya marriage-first scene blueprints, Shivani Group A–D/Kavya plot and linked twins daily availability",
-      "status": "PLOT_ONLY__MARRIAGE_FIRST_SCENES_APPROVED__MENTOR_LANES_PREPARED__KARAN_AMAN_AND_OFFICE_TIMES_REVIEW__SOCIETY_GATE_HOLD",
+      "status": "ANKITA_NINE_SCENE_WORKING_READER__OTHER_FEMALE_LEADS_PLOT_ONLY__NOT_FINAL_FROZEN",
       "date": "2026-01-03 to 2026-01-05",
-      "mainPath": "index.html#/planning?lead=shivani&part=06",
+      "mainPath": "index.html#/reading?episode=06&character=ankita&scene=01",
       "plotSource": "shivani-episode-06-three-day-plot.json",
       "crossHouseholdGate": "episode-06-cross-household-hold.json",
       "crossMentorSource": "cross-lead-ayaan-armaan-jam-2026.json",
@@ -760,7 +760,44 @@
           "Karan"
         ],
         "JAM": "Ankita as CBT/mock-tech mentor only unless physics qualification proven"
+      },
+      "relatedPaths": [
+        "episode-06-ankita-reader-working.json",
+        "episode-06-ankita-plan.json"
+      ],
+      "ankitaReader": {
+        "status": "NEW_WORKING_PROSE_FOR_AUTHOR_REVIEW",
+        "count": 9,
+        "source": "episode-06-ankita-reader-working.json",
+        "dateRange": [
+          "2026-01-03",
+          "2026-01-05"
+        ],
+        "uiRoute": "#/reading?episode=06&character=ankita&scene=01"
       }
+    },
+    {
+      "number": "07",
+      "title": "Episode 07 — Ankita · Two Conversations She Chose",
+      "status": "ANKITA_SIX_SCENE_WORKING_READER__TWO_KISSES_IN_DRAFT__NOT_FINAL_FROZEN",
+      "mainPath": "index.html#/reading?episode=07&character=ankita&scene=01",
+      "relatedPaths": [
+        "episode-07-ankita-reader-working.json",
+        "episode-07-ankita-rohit-rinku-jan07-plan.json",
+        "ui/src/Episode0607Ankita.tsx"
+      ],
+      "ankitaReader": {
+        "count": 6,
+        "dateRange": [
+          "2026-01-06",
+          "2026-01-07"
+        ],
+        "status": "NEW_WORKING_PROSE_FOR_AUTHOR_REVIEW",
+        "twoKisses": "Rohit approx 17:22 Wed7; Rinku approx 21:27 Wed7",
+        "firstTuition": "NONE_COMPLETED",
+        "uiRoute": "#/reading?episode=07&character=ankita&scene=01"
+      },
+      "note": "Other leads have no Episode 07 story reader; do not silently reuse Ankita prose or call this final approval."
     }
   ],
   "verbatimArchiveRule": "2026-11-26 author request: the three original Google Docs and existing Taniya 04B plot are copied word for word to source-vault. These source snapshots are locked/immutable; all future edits must create new named versions. Preserve original working/frozen editorial labels inside documents; Source Vault visibility is not proof of final prose publication."
