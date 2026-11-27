@@ -1,5 +1,5 @@
 import { openPage } from './lib';
-const episodes=[{id:'01',label:'Episode 01 · Prologue'},{id:'02',label:'Episode 02 · Story'},{id:'03',label:'Episode 03 · Prose'},{id:'04A',label:'Episode 04A · Story'},{id:'04B',label:'Episode 04B · Story'},{id:'05',label:'Episode 05 · Five perspectives'}] as const;
+const episodes=[{id:'01',label:'Episode 01 · Prologue'},{id:'02',label:'Episode 02 · Story'},{id:'03',label:'Episode 03 · Prose'},{id:'04A',label:'Episode 04A · Story'},{id:'04B',label:'Episode 04B · Story'},{id:'05',label:'Episode 05 · Five perspectives'},{id:'06',label:'Episode 06 · Ankita working story'},{id:'07',label:'Episode 07 · Ankita working story'}] as const;
 export default function EpisodeSelector({episode}:{episode:string}){
  return <div className="page-width" style={{paddingTop:24}}>
   <div className="episode-picker" role="group" aria-label="Choose episode">
