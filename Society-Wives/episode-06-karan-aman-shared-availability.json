@@ -45,9 +45,9 @@
     },
     {
       "lead": "Taniya",
-      "status": "PREEXISTING_EP03_LOBBY_ACQUAINTANCE__SUNDAY_FINANCE_STUDY_HOLD_EDITORIAL__FIVE_LEAD_GATE_OPEN",
-      "existing": "Episode 03 T03-11 working plot: Karan–Aman and Taniya have already met in an unplanned lobby passage collision; no need to invent a first introduction, but this is a working plot and not locked final prose.",
-      "dateStatus": "Sun 4 Jan 13:15–14:00 proposed Taniya MBA-finance help for Karan; Aman may join freely. Follows Shivani 11:30–12:15 with an hour gap and precedes Kavya 16:30–17:05 with over two hours. Conditional five-lead shared-society gate; scene not yet frozen."
+      "status": "AUTHOR_APPROVED_STUDY_MOTIVES_AND_STOLE_SLIP__SUNDAY_CLOCK_RECONCILIATION_OPEN",
+      "existing": "Taniya and both biological twins have prior Episode03 T03-11 working lobby contact. Saturday Karan's independent MBA finance request is a NEW author-approved Episode06 setup, distinct from old physical incident.",
+      "dateStatus": "Sat3 10:40–10:55 Karan alone asks Taniya for MBA financial-case help. Sun4 13:15–14:00 both attend invited tuition—Karan MBA cash flow, Aman proposed Java/Spring Boot Finance API business rules. Karan-only clear stole-slip sightline, Aman secondary reaction. Exact time remains provisional against five-lead household gate."
     },
     {
       "lead": "Meenakshi",
@@ -104,13 +104,26 @@
           "status": "UNVERIFIED_FREE"
         },
         {
-          "window": "10:30–13:00",
-          "use": "Cross-lead requests Taniya/Meenakshi/Shreya can only be fitted after their 3-day plots are known; no meeting booked",
+          "window": "10:30–10:40",
+          "use": "Ordinary Saturday activities, no attendance claimed",
+          "participants": [],
+          "status": "UNASSIGNED"
+        },
+        {
+          "window": "10:40–10:55",
+          "use": "Karan independently meets Taniya by Tower C foyer and asks for MBA/cash-flow help; Aman NOT present at this request",
           "participants": [
             "Karan",
-            "Aman"
+            "Taniya"
           ],
-          "status": "UNASSIGNED_NEEDS_OTHER_LEADS"
+          "status": "AUTHOR_APPROVED_PLOT_REQUEST__CLOCK_EDITOR_PROPOSED",
+          "notes": "Aman later learns from Karan and asks separately whether he may bring Finance API domain questions to Sunday's meeting."
+        },
+        {
+          "window": "10:55–13:00",
+          "use": "Individual Saturday availability open; Karan and Aman not automatically co-located",
+          "participants": [],
+          "status": "UNASSIGNED"
         },
         {
           "window": "14:00–18:00",
@@ -185,14 +198,14 @@
         },
         {
           "window": "13:15–14:00",
-          "use": "Taniya EP06 conditional finance/MBA-help visit for Karan; Aman joins if interested. New scheduling hold within prior open 13:00–15:30 window, NOT confirmed prose or a five-household gate release.",
+          "use": "Taniya's approved Sunday MBA/Finance API plot: Karan's MBA cash-flow exercise and Aman's separate new proposed Expense Tracker / Spring Boot financial-domain rules. Accident: fan scatters papers and Taniya's stole slips; Karan sees inner-top strap momentarily, Aman is reading his own worksheet and mostly notices reactions. All resume tuition. Exact cross-household day/time still provisional.",
           "participants": [
             "Taniya",
             "Karan",
             "Aman"
           ],
-          "status": "CROSSLEAD_CANDIDATE_HOLD__NOT_AUTHOR_FROZEN__GATE_OPEN",
-          "notes": "Taniya and both brothers already have EP03 working lobby history. Do not call this their first acquaintance. Leave both free for Kavya 16:30–17:05."
+          "status": "AUTHOR_APPROVED_TANIYA_PLOT__SHARED_HOUSEHOLD_CLOCK_CONDITIONAL",
+          "notes": "The content and each brother's purpose are author-approved, not final prose. Still preserve Shivani 11:30–12:15, Kavya 16:30–17:05, and five-lead shared-society gate."
         },
         {
           "window": "14:00–15:30",
@@ -322,7 +335,8 @@
     "Do not represent a daily fixed Karan/Aman meeting with Ankita; they are housemates. Only structured class and external visits require booked time.",
     "Aishwarya is HR; do not enroll her in Java/backend tuition. She can be optional Karan career interview mentor on Tue/Thu/Sat, after introduction and availability checks.",
     "Proposed Mon5 after-office cross-functional technical project is Vivan/Reyansh/Sana/Ankita only; if implemented, no Ankita-at-home 19:15 event without commute confirmation.",
-    "Sunday 4 Jan 13:15–14:00 Taniya visit is a non-frozen candidate, explicitly visible in ledger. Do not convert it to approved prose or double-book Karan/Aman against Shivani or Kavya."
+    "Sunday 4 Jan 13:15–14:00 Taniya visit is a non-frozen candidate, explicitly visible in ledger. Do not convert it to approved prose or double-book Karan/Aman against Shivani or Kavya.",
+    "Do not portray Aman as a voyeur or passive chaperone: his proposed Expense Tracker/Finance API learning objective is a distinct reason to be invited to Taniya's Sunday study."
   ],
   "sources": [
     "episode-03-ankita-scene-07-revised-prose.json",
