@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "SW-EP06-FIVE-LEAD-GLOBAL-SOCIETY-CROSSOVERS-20260103-05",
   "title": "Episode 06 — Four Husbands × Five Leads · Morning Walk, Garden and Cross-Household Social Plot",
-  "status": "AUTHOR_REQUESTED_BOLD_SOCIETY_ROMANTIC_PLOT_DESIGNED__SCENES_CANDIDATE__STILL_REQUIRES_CLOCK_AND_KNOWLEDGE_APPROVAL",
+  "status": "AUTHOR_APPROVED_INITIAL_SOCIAL_PLOT_AND_PROVISIONAL_WINDOWS__EXISTING_EP06_SCHEDULES_PROTECTED__UNVERIFIED_SPOUSE_SHIFTS_STILL_CONDITIONAL",
   "createdOn": "2026-11-27",
   "timezone": "Asia/Kolkata",
   "dates": [
@@ -103,7 +103,7 @@
         "Shivani notices her own husband Rohan's changed composure near Ankita but has no basis to infer the precise waist support or private attraction. Kabir sees the banner assistance but not Ankita's deliberate choice."
       ],
       "physicalLevel": "Invited palm to clothed side waist while balancing; Shreya's chosen jacket-front pull for a camera demonstration; light but noticeable chemistry.",
-      "status": "BOLDER_SOCIAL_PLOT_REVISED__SATURDAY_LOCATION_AND_CHILDCARE_PENDING",
+      "status": "INITIAL_SOCIAL_PLOT_APPROVED__19_10_19_30_PROVISIONAL__SHREYA_POST_STATION_AND_HOME_STUDY_ONLY",
       "fallback": "If family energy is low or production call occurs, committee confirms digitally; no forced scene.",
       "visualMoment": "Ankita's jacket hem rides up while she reaches to fasten the banner, briefly showing her fitted workout layer and narrow waist. She sees Rohan notice, chooses to finish the task without immediately fussing over it, then smooths the jacket. No breast exposure; visually different from DHIKA or Meenakshi's separate society mishap.",
       "emotionalRule": "Ankita and Shreya actively choose the moves; Rohan and Kabir can reciprocate or disengage. No person is forced to touch.",
@@ -112,7 +112,14 @@
         "Shivani": "Sees Rohan participating in committee prep; may register fleeting awkwardness, but not the exact private intention.",
         "Vikram": "Sees Shreya/Kabir checking a camera blind spot and reads it as her police expertise; private joke not heard.",
         "Ankita": "Sees Kabir cooperate with Shreya, does not infer that Shreya drew him close intentionally."
-      }
+      },
+      "timingStatus": "AUTHOR_SAVED_INITIAL_PLOT__PROVISIONAL_LOCAL_TIME__NO_OVERRIDE_OF_EXISTING_PERSONAL_TIMELINES",
+      "schedulingConditions": [
+        "Shreya police 08:30–16:30; existing 17:40–18:00 Ankita call and 18:15–18:45 Shruti study at Rathore home cannot be moved.",
+        "Shreya can go from Rathore home to same-society courtyard only after 18:45; 19:10 allows ~25 minutes; she can skip if station overtime, fatigue or Anaya needs her.",
+        "Vikram supervises Anaya or accompanies Anaya; Rohan/Shivani and Tara have separate childcare responsibilities; Kabir may be on tech on-call.",
+        "Nikhil and Meenakshi are not mandatory; Sat 18:00 Nikhil consultation with Meenakshi is left intact."
+      ]
     },
     {
       "id": "SW06-GS02",
@@ -145,7 +152,7 @@
       ],
       "physicalLevel": "Invited one-hand support at the clothed waist during balance drill, intentional forearm hold, prolonged private eye contact, confident compliment and answer.",
       "childcare": "Shivani stays with Tara and Meenakshi with Vihaan for this short candidate window; they are not simultaneously assigned elsewhere.",
-      "status": "STRONG_WALK_PLOT_REVISED__MORNING_CHILDCARE_ARRANGEMENTS_TO_CONFIRM",
+      "status": "INITIAL_SOCIAL_PLOT_APPROVED__07_15_07_35_SOFT_LOCK__PARENT_HANDOFFS_CONDITIONAL",
       "fallback": "If Nikhil is on duty, Ankita and Rohan walk; if Rohan needs Tara care, Ankita walks independently. Do not use Vikram because he has Anaya during Shreya's station duty.",
       "visualMoment": "Self-aware fitted workout styling, no staged accidental breast exposure and no duplicate Saturday jacket mishap.",
       "spouseKnowledge": {
@@ -153,7 +160,14 @@
         "Shivani": "Knows Rohan left for short fitness circuit while she watches Tara; hears a routine workout account only.",
         "Meenakshi": "Knows Nikhil went out for a short run while she supervises Vihaan; exact interactions unknown.",
         "Nikhil": "Personally witnesses the closing banter, not the earlier waist-support exercise."
-      }
+      },
+      "timingStatus": "AUTHOR_SAVED_INITIAL_PLOT__PROVISIONAL_LOCAL_TIME__NO_OVERRIDE_OF_EXISTING_PERSONAL_TIMELINES",
+      "schedulingConditions": [
+        "Only Ankita, Rohan, Nikhil; Shreya is NOT a Sunday-morning participant because she works 08:00–13:00 and Anaya care needs Vikram.",
+        "Shivani supervises Tara and Meenakshi supervises Vihaan during Rohan/Nikhil's brief walk; roles reverse later for Meenakshi's 11:10 badminton court candidate.",
+        "Walk ends 07:35, allowing return home before Kabir/Ankita 08:00 family calendar and Rohan's 09:00–13:00 Tara care candidate.",
+        "If Nikhil is not free on Sunday, remove him from the walk; do not invent leave."
+      ]
     },
     {
       "id": "SW06-GS03",
@@ -234,7 +248,7 @@
       "childcareRule": "Children remain with their own parents at all times; when a parent joins a short adult volunteer task, the other parent must supervise. The adults' light romantic subtext is not acted out around the children.",
       "emotionalRule": "Only the source-backed Ankita–Rohan possibility is pre-existing. All other cross-spouse sparks are reader-only new potential, not claims of mutual attraction or permission for intimacy; keep subtle and not uniform.",
       "physicalLevel": "One chosen waist support for demo, one consented mock-dance turn, one hand-at-waist partner move, plus off-to-side intimate verbal compliments. No mandatory kiss in the family event itself.",
-      "status": "SOCIAL_EVENT_PLOT_REVISED__FULL_ATTENDANCE_AND_CHILDCARE_STILL_UNBOOKED",
+      "status": "INITIAL_SOCIETY_GARDEN_PLOT_APPROVED__18_45_19_25_SOFT_LOCK__ATTENDEES_CONDITIONAL",
       "fallback": "If one spouse cannot attend, run a smaller volunteer cluster; do not invent absent person's attraction scene, and do not force all five women or four men into the same hour.",
       "visualMoment": "Adult clothing choices are deliberate: Ankita fitted activewear after earlier walk, Shivani elegant evening outfit, Taniya evening jacket, Meenakshi warm layer, Shreya after-duty casual clothes. No additional strip/strap/pallu accident — those individual leads already have their distinct episode wardrobe beats.",
       "spouseKnowledge": {
@@ -247,7 +261,16 @@
         "Vikram": "Participates in Taniya's dance-count game, aware she invited his hand placement. He does not infer Shreya's separate safety-area thoughts.",
         "Shreya": "Sees Vikram and Taniya in the open game area; can read their laughter, but not each private thought.",
         "Aditya": "Not onsite unless independently booked; cannot know Taniya's participation unless someone messages or tells him."
-      }
+      },
+      "timingStatus": "AUTHOR_SAVED_INITIAL_PLOT__PROVISIONAL_LOCAL_TIME__NO_OVERRIDE_OF_EXISTING_PERSONAL_TIMELINES",
+      "schedulingConditions": [
+        "Shreya police 08:00–13:00, Sunday 15:00–16:15 Samar/Shaan shared-apartment study; allow at least 60 minutes for exit/return before 18:45 garden.",
+        "Taniya 17:30–18:05 Ayaan/Armaan first meeting at her home; allow 40 minutes to wrap, change and walk to society garden.",
+        "Shivani/Kavya 16:30–17:05 twin event is primarily Kavya's; do not pull Shivani from an incompatible source scene.",
+        "Meenakshi's 11:10–11:25 Uday/Utkarsh plot and Nikhil Vihaan-care candidate remain distinct, not repeated here.",
+        "All five women and four husbands are ATTENDANCE CANDIDATES only. If any spouse works or a parent must care for a child, keep a smaller event with the actually present adult subgroup.",
+        "Sunday full-group movie remains unbooked; garden meeting does not also force cinema."
+      ]
     },
     {
       "id": "SW06-GS05",
@@ -285,21 +308,23 @@
         "Ankita": "Fully knows her own decision and Rohan's consent.",
         "Rohan": "Fully knows his response and Ankita's decision."
       },
-      "status": "OPTIONAL_FIRST_KISS_CANDIDATE__NO_AUTHOR_LOCK__NOT_A_FINAL_SECRET_EVENT",
+      "status": "INITIAL_PRIVATE_SCENE_PLOT_SAVED_AS_OPTION__19_40_19_58_SOFT_WINDOW__KISS_NOT_LOCKED",
       "fallback": "No kiss variant: brief waist-close embrace followed by a candid private admission; still a meaningful step beyond earlier gym/help touches.",
       "publication": "PLOT_ONLY__NOT_FINAL_PROSE",
       "schedulingConditions": [
-        "Starts at least 15 minutes after garden prep wraps",
-        "Requires both adults voluntarily to leave the public event without childcare obligations",
-        "If any spouse is actually there, avoid invented unseen privacy; place them in line of sight/earshot realistically",
-        "If family event cancelled, this optional side encounter is cancelled"
-      ]
+        "Must follow garden event ending 19:25 with at least 15 minutes for separate transition to equipment alcove; no simultaneous garden duties for Ankita or Rohan.",
+        "Ankita and Rohan mutually choose any private closeness; no physical act is implied by mere proximity.",
+        "Possible first kiss is OPTIONAL and NOT approved as occurred by simply saving initial plot.",
+        "If public sightlines, spouse supervision or the event venue deny a private moment, only the public flirtation remains; do not invent concealed access.",
+        "Cancelled if Sunday garden gathering is cancelled or either adult's family responsibility conflicts."
+      ],
+      "timingStatus": "AUTHOR_SAVED_INITIAL_PLOT__PROVISIONAL_LOCAL_TIME__NO_OVERRIDE_OF_EXISTING_PERSONAL_TIMELINES"
     },
     {
       "id": "SW06-GS04",
       "date": "2026-01-05",
-      "start": "20:20",
-      "end": "20:35",
+      "start": "20:50",
+      "end": "21:05",
       "title": "Monday · After-work lift — covert callback, no weekday escalation ladder",
       "place": "Tower C entrance/lift and courtyard board",
       "type": "OPTIONAL_SMALL_AFTER_WORK_CROSSOVER",
@@ -316,21 +341,33 @@
         "Vikram",
         "Shreya"
       ],
-      "storyReason": "Monday is heavily booked: Ankita IT 18:10–19:00, Taniya CA 10:30–19:30; Rohan may return from unverified work. Keep a short late-night aftermath, not another engineered physical setup.",
+      "storyReason": "Only a 15-minute optional Monday lobby check-in after Ankita IT team ends ~19:00 and Taniya CA office ends 19:30. New 20:50 start provides 80 minutes for Taniya commute and 30 minutes after Ankita's 20:00–20:20 home conversation; Rohan can come down after family time. No compulsory event if traffic, shift or family needs run late.",
       "individualBeats": [
         "Ankita and Taniya meet by society lift after returning separately from work; Taniya makes a perceptive joke about how Sunday committee partners behaved. Ankita answers lightly but does not disclose what Taniya did not witness.",
         "If Rohan arrives for committee forms, he exchanges one charged line with Ankita. The emotional change is in knowledge and response, not another grab or wardrobe accident.",
         "Taniya may tell Aditya about the community event in ordinary wedding-planning context; she does not have to recount her teasing with Vikram unless she chooses."
       ],
       "physicalLevel": "No forced repeat touch; the attraction progresses through recognition of what happened Sunday.",
-      "status": "BUSY_WEEKDAY_CALLBACK_CANDIDATE__COMMUTES_UNVERIFIED",
+      "status": "INITIAL_PLOT_APPROVED__LATE_MONDAY_WINDOW_20_50_TO_21_05_PROVISIONAL__DROP_IF_COMMUTE_LONG",
       "fallback": "If either woman works late or is tired, push the handoff to Tuesday; no mandatory Monday meet.",
       "visualMoment": "No wardrobe slip. Work-to-home outfits retained from character work schedules.",
       "spouseKnowledge": {
         "Kabir": "Sees only ordinary Monday home/work routines unless Ankita volunteers Sunday details.",
         "Shivani": "No automatic new knowledge from the lobby unless she is physically present.",
         "Aditya": "May hear about planning but not automatically know Taniya's physical flirt."
-      }
+      },
+      "previousWindow": {
+        "start": "20:20",
+        "end": "20:35",
+        "reason": "Old 20:20 start immediately followed Ankita–Kabir household consultation 20:00–20:20, with no movement margin; Taniya CA office exit 19:30 also deserved more buffer."
+      },
+      "schedulingConditions": [
+        "Taniya must have left the CA office by 19:30 and actually reached home before about 20:40; if not, cancel, do not teleport.",
+        "Ankita must have finished 18:10–19:00 office activity, traveled home, and completed or rescheduled 20:00–20:20 Kabir household talk without overlap; at least 20 minutes movement buffer.",
+        "Rohan present only if his real work schedule and Tara home-care arrangements allow; optional absence changes this to an Ankita–Taniya exchange.",
+        "Shreya, Meenakshi and Shivani are NOT scheduled for this Monday lobby event."
+      ],
+      "timingStatus": "AUTHOR_SAVED_INITIAL_PLOT__PROVISIONAL_LOCAL_TIME__NO_OVERRIDE_OF_EXISTING_PERSONAL_TIMELINES"
     }
   ],
   "crossPairPersonalityAndEthics": [
@@ -405,7 +442,12 @@
     "readerImport": false,
     "plotRevision": "2026-11-27-stronger-romantic-society",
     "knowledgeLedgerIncluded": true,
-    "previousDraftPreserved": true
+    "previousDraftPreserved": true,
+    "initialPlotSavedByAuthor20261127": true,
+    "timingsProvisional": true,
+    "scenesMandatory": false,
+    "originalLeadTimelinesOverwritten": false,
+    "notes": "User requested no double booking especially Shreya station. Initial plots and candidate times saved, Monday moved later for realistic commute."
   },
   "priorConservativeVersion": {
     "status": "SUPERSEDED_2026-11-27_BY_AUTHOR_REQUESTED_BOLDER_SOCIAL_ROMANTIC_PLOT",
@@ -716,5 +758,61 @@
       ],
       "status": "CANDIDATE"
     }
-  ]
+  ],
+  "timingApproval20261127": {
+    "authorDirection": "Save the initial cross-spouse society attraction plot and timing candidates without changing previous lead schedule. Shreya cannot be at police station and society simultaneously. Preserve earlier scenes even if a new society candidate must move.",
+    "scope": "Initial scene sequence, proposed time windows, physical/flirtatious plot intentions and separate spouse-knowledge ledger accepted for planning; no new final prose or automatic husband day-off approval.",
+    "priorities": [
+      "1 Preserve all previous five-lead episode scenes and source-vault prose",
+      "2 No police duty or office double-presence for Shreya; Sunday station + apartment study protected",
+      "3 Protect Taniya Mon CA-office release at 19:30 and Ankita Mon office group until about 19:00",
+      "4 Society events only when each spouse and child-care handoff can realistically be fulfilled",
+      "5 Any conditional character absence removes that beat rather than causing teleportation"
+    ],
+    "dateConfirmedAsStoryCalendar": "2026-01-03 Saturday, 2026-01-04 Sunday, 2026-01-05 Monday",
+    "timezone": "Asia/Kolkata",
+    "timingNature": "AUTHOR_SAVED_PLOT_WITH_PROVISIONAL_CLOCKS__NO_FIXED_SPOUSE_WORK_ROSTER_OR_PERSONAL_OUTING"
+  },
+  "locationTransferAndFamilySafety": {
+    "locationAssumption": "All Society Wives / four-husband neighborhood events in Gulmohar Heights within short walk, no implied intercity instant travel.",
+    "policeDuty": "Shreya must remain at station Sat 08:30–16:30, Sun 08:00–13:00, Mon 08:00–17:00; scene at gym Sat 06:20–07:30 and Sunday apartment 15:00–16:15 are protected.",
+    "shreyaSaturday": {
+      "studyEnds": "18:45",
+      "societyStarts": "19:10",
+      "minGapMinutes": 25,
+      "transfer": "Rathore household → society courtyard by foot; feasible only with post-duty home arrival and no overrun"
+    },
+    "shreyaSunday": {
+      "studyEnds": "16:15",
+      "societyStarts": "18:45",
+      "gapMinutes": 150,
+      "transfer": "Samar/Shaan apartment → Rathore home → courtyard, with suggested >=60m transfer/rest buffer"
+    },
+    "shreyaMonday": {
+      "policeEnds": "17:00",
+      "societyEvent": "NONE",
+      "possibleEveningCall": "20:10–20:35; not interrupted"
+    },
+    "taniyaSunday": {
+      "meetingEnds": "18:05",
+      "gardenStarts": "18:45",
+      "gapMinutes": 40,
+      "transfer": "Tower C study table → society garden after guest exit/cleanup"
+    },
+    "taniyaMonday": {
+      "officeEnds": "19:30",
+      "lobbyStarts": "20:50",
+      "gapMinutes": 80,
+      "transfer": "CA firm → Tower C, requires actual arrival by 20:40, otherwise cancel"
+    },
+    "ankitaMonday": {
+      "officeCandidateEnds": "19:00",
+      "homeKabirTalk": "20:00–20:20",
+      "lobbyStarts": "20:50",
+      "gapAfterHomeMinutes": 30,
+      "transfer": "Office → Malhotra home → lobby; only if commute works"
+    },
+    "childcare": "Tara, Vihaan and Anaya must be with a parent or an established adult caregiver; no generic unsourced babysitter invented.",
+    "husbandWorkReality": "Kabir on-call/IT, Rohan occupation unverified, Nikhil office work mode unverified, Vikram shift unverified. Society slots reflect optional presence, not guaranteed attendance."
+  }
 }
