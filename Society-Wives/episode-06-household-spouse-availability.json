@@ -7,7 +7,7 @@
     "2026-01-05"
   ],
   "status": "EDITOR_SELECTED_CONTINUITY_SLOTS__AUTHOR_CAN_REVISE__NOT_LOCKED_PROSE",
-  "scope": "Preserve prior wife/twin scenes and prevent double attendance. Only time ranges below marked proposed are fictional editorial choices; they are not sourced details about the real police or employers.",
+  "scope": "Preserve prior wife/twin scenes and prevent double attendance. Only time ranges below marked proposed are fictional editorial choices; they are not sourced details about the real police or employers. Added Nikhil with explicit unconfirmed location options; preserves prior three husbands' slots.",
   "sourceFacts": {
     "Kabir": [
       "Husband of Ankita; age 33",
@@ -26,6 +26,11 @@
     "Shreya": [
       "Police Inspector; age 33",
       "Prior episodes show active weekday police station and training duties; no author-approved leave for Jan 3–5"
+    ],
+    "Nikhil": [
+      "Husband of Meenakshi, age 35; father of Vihaan",
+      "Jan1 arrives with a laptop bag; Jan2 late return due to an unspecified meeting; no occupation or Jan3–5 shift verified",
+      "Jan3–5 location remains unapproved; options are clearly distinguished from existing canon"
     ]
   },
   "husbands": [
@@ -232,6 +237,95 @@
           ]
         }
       ]
+    },
+    {
+      "id": "Nikhil",
+      "wife": "Meenakshi",
+      "profession": "UNKNOWN — Jan1 laptop bag and Jan2 late work meeting confirm professional commitments, not occupation/employer or the Jan3–5 office duty calendar",
+      "days": [
+        {
+          "date": "2026-01-03",
+          "whereabouts": [
+            {
+              "time": "08:00–13:45",
+              "place": "Kapoor residence with Vihaan, as an OPTION; otherwise name another existing caregiver",
+              "reason": "Meenakshi at CityCare half-day 08:30–13:05 and commute until ~13:45; child cannot be left without established care",
+              "status": "EDITOR_CARE_OPTION_A__NOT_APPROVED_LOCATION"
+            },
+            {
+              "time": "13:45–17:30",
+              "place": "Kapoor residence or family errand, location unconfirmed",
+              "reason": "Meenakshi returns; Ayaan/Armaan academic introduction 15:55–16:20 requires normal visitor awareness, not automatic Nikhil absence",
+              "status": "LOCATION_OPEN__AUTHOR_DECISION_REQUIRED"
+            },
+            {
+              "time": "17:30–19:00",
+              "place": "Outside on an ordinary personal errand OPTION, or inside home and then conversation in person",
+              "reason": "Meenakshi's 18:00–18:30 phone consultation about Monday Aditi/Avi/Yash visit works only if he is elsewhere; otherwise change to in-person discussion without creating an imaginary trip",
+              "status": "TWO_CONSISTENT_OPTIONS__NO_LOCK"
+            },
+            {
+              "time": "19:00 onward",
+              "place": "Kapoor household preferred family-evening candidate",
+              "reason": "Possible weekend couple/family time; no cinema/outing booked",
+              "status": "EDITOR_PROPOSAL__NOT_APPROVED"
+            }
+          ]
+        },
+        {
+          "date": "2026-01-04",
+          "whereabouts": [
+            {
+              "time": "08:00–13:00",
+              "place": "Kapoor home/family routine OR declared errand",
+              "reason": "Meenakshi's 11:10–11:25 optional society Uday/Utkarsh scene needs clear Vihaan supervision if she goes out",
+              "status": "OPEN__CHILDCARE_LOCK_REQUIRED"
+            },
+            {
+              "time": "13:00–18:00",
+              "place": "Optional family/society outing window, not booked",
+              "reason": "No Sunday work shift or free day sourced; do not assume both spouses are available or assign a theater/mall",
+              "status": "EDITOR_OUTING_CANDIDATE__AUTHOR_REVIEW"
+            },
+            {
+              "time": "18:00 onward",
+              "place": "Kapoor household, proposed family evening",
+              "reason": "Maintain ordinary care for Vihaan and protect rest before Monday",
+              "status": "EDITOR_PROPOSAL__NOT_APPROVED"
+            }
+          ]
+        },
+        {
+          "date": "2026-01-05",
+          "whereabouts": [
+            {
+              "time": "08:30–18:30",
+              "place": "Work commitment candidate; office vs hybrid vs WFH unknown",
+              "reason": "Jan1 and Jan2 establish work/meetings, but not a Monday shift or commute length",
+              "status": "EDITOR_WORKDAY_OPTION__NOT_VERIFIED"
+            },
+            {
+              "time": "18:30–19:15",
+              "place": "Either home supervising Vihaan or away if another established caregiver is present",
+              "reason": "Meenakshi's proposed Aditi/Avi/Yash first home session cannot occur without clear family arrangement and agreement; move tuition if duty or care conflicts",
+              "status": "BLOCKED_PENDING_LOCATION_AND_CHILDCARE"
+            },
+            {
+              "time": "19:15 onward",
+              "place": "Kapoor family evening after work, subject to return time",
+              "reason": "No work end or return time approved",
+              "status": "ARRIVAL_TIME_OPEN"
+            }
+          ]
+        }
+      ],
+      "sourceAnchors": [
+        "episode-04a-meenakshi-source.json: Jan1 Nikhil comes home with laptop bag",
+        "episode-04b-meenakshi-source.json: Jan2 Nikhil tells Meenakshi he may return about 21:00",
+        "source-vault/ep05-meenakshi-shivani-jan02.json: Jan2 he arrives at Kapoor home ~21:08–21:10 after a meeting",
+        "episode-06-meenakshi-jan03-05-plan.json: Sat phone consultation 18:00–18:30 candidate, Sun at home/outing optional, Mon first clinical session 18:30–19:15 conditional"
+      ],
+      "status": "NEW_CONTINUITY_AUDIT__AUTHOR_LOCATION_NOT_YET_DECIDED__NO_MADE_UP_PROFESSION"
     }
   ],
   "shreyaPoliceRoster": [
@@ -273,6 +367,16 @@
     "shivani-episode-06-three-day-plot.json",
     "episode-05-shreya-plan.json",
     "episode-06-shreya-plan.json",
-    "ui/src/data/sw-timeline-future.json"
-  ]
+    "ui/src/data/sw-timeline-future.json",
+    "episode-06-meenakshi-jan03-05-plan.json",
+    "episode-04a-meenakshi-source.json",
+    "episode-04b-meenakshi-source.json",
+    "source-vault/ep05-meenakshi-shivani-jan02.json"
+  ],
+  "episode06FiveLeadReview": {
+    "date": "2026-11-27",
+    "status": "AUTHOR_REQUESTED_GLOBAL_AVAILABILITY_REVIEW__FOUR_HUSBANDS_COVERED__ALL_UNCONFIRMED_SLOTS_RETAINED",
+    "source": "episode-06-global-audit-approved-plots-20261127.json",
+    "fianceException": "Aditya is Taniya's fiancé, not husband; Jan3–5 whereabouts remain open"
+  }
 }
