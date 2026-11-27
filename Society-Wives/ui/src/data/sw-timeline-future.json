@@ -15,7 +15,8 @@
     "2026-11-26: Shreya three-day group direction now indexed: Saturday society twin rematch and sister invite, Sunday four-person civil-service preparation, Monday existing police training. Clock placeholders are only sort keys, not author-approved session times. Future Karan–Aman interaction is outside active EP06; no additional public event invented.",
     "2026-11-26 editorial time reconciliation for Shreya EP06: Jan3 10:15–11:20 twin rematch/brief bra changing-area sightline, 12:15–12:45 sister planning; Jan4 14:00–15:15 twin bachelor apartment group; Jan5 15:35–16:25 police escape/hold-break drill (shift-dependent), 20:10–20:35 optional call. Cross-lead Saturdays: 08:40–09:05 Ankita/Shreya evidence call, 15:00–15:25 Shivani with Ayaan/Armaan, 16:20–16:35 Ankita with same pair. Sundays: Karan/Aman 11:30–12:15 Shivani, 16:30–17:05 Kavya; household calendar does not book them. This is conflict-checked across events with explicit time windows, while open/unscheduled markers are not assumed attendance.",
     "2026-11-26: New police-duty alignment: Shreya Jan3 08:30–16:30, Jan4 08:00–13:00, Jan5 08:00–17:00 (NO LEAVE any day; fictional roster, not universal police rule). Shreya gym moved BEFORE Saturday shift to 06:20–07:30; evidence call after duty 17:40–18:00, sister study 18:15–18:45. Sunday twins apartment study 15:00–16:15, Monday training earlier 10:30–11:20. Kabir/Rohan/Vikram household presence recorded separately as envelopes with honest profession uncertainty; not independent encounter events.",
-    "2026-11-26 Taniya EP06 three-day planning (not final prose): Sat3 trainer Vivek Rao 05:00–05:55 real 5AM invite with visitor log, Soniya study-guest permission call 09:15–09:30; Sun4 Vivek 05:00–05:45, CA Raghav–Chirag home tutoring 11:00–11:55, potential Karan–Aman 13:15–14:00 crossover ONLY IF five-household scheduling hold cleared, Ayaan/Armaan not booked; Mon5 Vivek 05:00–05:45, CA office 10:30–19:30 with professional Vivek Suri review. Old Episode03 office women preserved but none introduced in Episode06. Check with character-collision tests before author approval."
+    "2026-11-26 Taniya EP06 three-day planning (not final prose): Sat3 trainer Vivek Rao 05:00–05:55 real 5AM invite with visitor log, Soniya study-guest permission call 09:15–09:30; Sun4 Vivek 05:00–05:45, CA Raghav–Chirag home tutoring 11:00–11:55, potential Karan–Aman 13:15–14:00 crossover ONLY IF five-household scheduling hold cleared, Ayaan/Armaan not booked; Mon5 Vivek 05:00–05:45, CA office 10:30–19:30 with professional Vivek Suri review. Old Episode03 office women preserved but none introduced in Episode06. Check with character-collision tests before author approval.",
+    "2026-11-27 user-approved Taniya plot refinement (clocks editorial): Sat3 10:40–10:55 Karan independently asks MBA finance help; Aman is absent from first request and separately seeks invited finance-domain review for a proposed Java/Spring Boot Expense Tracker API. Sat3 16:45–16:55 Shivani separately refers Ayaan/Armaan to Taniya. Sun4 13:15–14:00 Karan/Aman home tutorial includes approved fan-scattered papers / stole-shift moment (different viewpoints, not a second Episode03 collision); Sun4 17:30–18:05 Ayaan/Armaan meet Taniya for the first time for an introductory quantitative diagnostic, with zero wardrobe accident. Actual twins: Karan/Aman only. Shared-character timed event collisions found: zero; five-household society final date still provisional."
   ],
   "events": [
     {
@@ -3627,7 +3628,7 @@
       "end": "14:00",
       "timeLabel": "Sunday 13:15–14:00 · conditional crossover hold, not final",
       "universe": "sw",
-      "title": "Taniya × Karan–Aman · MBA finance/household twin callback",
+      "title": "Taniya × Karan–Aman · approved MBA/Finance API tutoring and accidental stole shift",
       "lead": "Taniya",
       "characters": [
         "Taniya",
@@ -3639,7 +3640,7 @@
       "scene": "TAN06-S05-SOCIETY-TWINS",
       "kind": "planned",
       "state": "review",
-      "status": "CROSSLEAD_HOLD__NOT_A_CONFIRMED_SCENE",
+      "status": "AUTHOR APPROVED PLOT & ACCIDENT / CROSS-HOUSEHOLD CLOCK PROVISIONAL",
       "source": "episode-06-taniya-plan.json",
       "reader": {
         "type": "sw-plan",
@@ -3649,31 +3650,35 @@
       },
       "flags": [
         "EDITOR_TIME_PROPOSED_NOT_AUTHOR_LOCKED",
-        "CROSS_HOUSEHOLD_GATE_HOLD"
+        "CROSS_HOUSEHOLD_GATE_HOLD",
+        "KARAN_AMAN_DIFFERENT_LEARNING_PURPOSES",
+        "KARAN_DIRECT_SIGHTLINE_AMAN_SECONDARY_REACTION"
       ],
-      "detail": "Potential finance/cashflow help for Karan (MBA), Aman joins only if interested. Both knew Taniya from the prior working lobby collision. After Shivani 11:30–12:15 and before Kavya 16:30–17:05, with buffers. Five-lead society gate still pending."
+      "detail": "Karan comes for MBA finance/cash flow, while Aman is invited separately to consult Taniya on proposed Java/Spring Boot Expense Tracker API domain rules. Fan scatters study papers, Taniya turns and her lightweight stole slips to show an inner-top strap briefly; Karan notices clearly, Aman chiefly notices the sudden pause while studying a different worksheet. Taniya adjusts it herself and jokes in her familiar confident style. Approved plot; cross-household date/clock remains provisional."
     },
     {
       "id": "tan06-04-ayaan-armaan-hold",
       "date": "2026-01-04",
-      "sort": "23:58",
-      "start": null,
-      "end": null,
-      "timeLabel": "Sunday · UNSCHEDULED; no visit or lesson booked",
+      "sort": "17:30",
+      "start": "17:30",
+      "end": "18:05",
+      "timeLabel": "Sunday 17:30–18:05 · editor-selected first meeting, clock not frozen",
       "universe": "sw",
-      "title": "Taniya / Ayaan–Armaan · quantitative guidance contact only if requested",
+      "title": "Taniya × Ayaan–Armaan · first introduced quantitative diagnostic",
       "lead": "Taniya",
-      "characters": [],
-      "mentions": [
+      "characters": [
         "Taniya",
         "Ayaan",
         "Armaan"
+      ],
+      "mentions": [
+        "Shivani"
       ],
       "episode": "06 plot",
       "scene": "TAN06-S06-AYAAN-ARMAAN-HOLD",
       "kind": "planned",
       "state": "review",
-      "status": "UNBOOKED_ACADEMIC_INTRODUCTION_ONLY",
+      "status": "AUTHOR APPROVED FIRST-MEETING PLOT / CLOCK PROVISIONAL",
       "source": "episode-06-taniya-plan.json",
       "reader": {
         "type": "sw-plan",
@@ -3682,9 +3687,10 @@
         "scene": "TAN06-S06-AYAAN-ARMAAN-HOLD"
       },
       "flags": [
-        "UNBOOKED_NO_ATTENDANCE"
+        "NO_WARDROBE_ACCIDENT_FIRST_MEETING",
+        "FIRST_TANIYA_FACE_TO_FACE_NOT_PREVIOUS_SHIVANI_CONTACT"
       ],
-      "detail": "Possible future aptitude/time-planning help only; pair biological twin status unknown. Biotechnology/JAM tuition stays with existing mentors. No arrival, wardrobe accident or appointment is implied."
+      "detail": "Their first actual face-to-face with Taniya after Shivani's Saturday separate referral. Ayaan (expressive) opens with a playful remark; Armaan (quiet/attentive) asks specific IIT JAM BT calculation questions. Taniya confidently limits her promises to topics she knows and sets a three-question diagnostic. They notice her attractive, confident presentation and speak respectfully; no accidental wardrobe slip in this first visit. Both biological twin status and degree/registration remain unverified."
     },
     {
       "id": "tan06-05-vivek",
@@ -3753,6 +3759,71 @@
         "EDITOR_TIME_PROPOSED_NOT_AUTHOR_LOCKED"
       ],
       "detail": "Actual CA work; Raghav/Chirag tuition homework callback, Punit established duties, Vivek Suri professional senior review about 16:00 (weekly not daily private coaching). No newly activated female office colleague; old female characters' histories remain archived."
+    },
+    {
+      "id": "tan06-03-karan-request",
+      "date": "2026-01-03",
+      "sort": "10:40",
+      "start": "10:40",
+      "end": "10:55",
+      "timeLabel": "2026-01-03 10:40–10:55 · editor-selected plot clock",
+      "universe": "sw",
+      "title": "Taniya × Karan · MBA finance help requested at Tower C foyer",
+      "lead": "Taniya",
+      "characters": [
+        "Taniya",
+        "Karan"
+      ],
+      "mentions": [],
+      "episode": "06 plot",
+      "scene": "TAN06-S02B-KARAN-REQUEST",
+      "kind": "planned",
+      "state": "review",
+      "status": "AUTHOR APPROVED STUDY REQUEST / EDITOR CLOCK / PLOT ONLY",
+      "source": "episode-06-taniya-plan.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "taniya",
+        "part": "06",
+        "scene": "TAN06-S02B-KARAN-REQUEST"
+      },
+      "flags": [
+        "EDITOR_TIME_PROPOSED_NOT_AUTHOR_LOCKED"
+      ],
+      "detail": "Karan meets established acquaintance Taniya during an ordinary society errand and asks about MBA finance/cash-flow help. After her independent Soniya household-guest call, Taniya offers conditional Sunday 13:15–14:00 tuition. Aman is NOT in this initial conversation; he separately seeks permission to join for an original Java/Spring Boot Expense Tracker API business-rules question."
+    },
+    {
+      "id": "tan06-03-shivani-referral",
+      "date": "2026-01-03",
+      "sort": "16:45",
+      "start": "16:45",
+      "end": "16:55",
+      "timeLabel": "2026-01-03 16:45–16:55 · editor-selected plot clock",
+      "universe": "sw",
+      "title": "Shivani ↔ Taniya · academic referral for Ayaan–Armaan",
+      "lead": "Taniya",
+      "characters": [
+        "Shivani",
+        "Taniya"
+      ],
+      "mentions": [],
+      "episode": "06 plot",
+      "scene": "TAN06-S06-AYAAN-ARMAAN-HOLD",
+      "kind": "planned",
+      "state": "review",
+      "status": "AUTHOR APPROVED REFERRAL / EDITOR CLOCK / PLOT ONLY",
+      "source": "episode-06-taniya-plan.json",
+      "reader": {
+        "type": "sw-plan",
+        "character": "taniya",
+        "part": "06",
+        "scene": "TAN06-S06-AYAAN-ARMAAN-HOLD"
+      },
+      "flags": [
+        "EDITOR_TIME_PROPOSED_NOT_AUTHOR_LOCKED",
+        "REFERRAL_ONLY_NOT_FIRST_PHYSICAL_MEETING"
+      ],
+      "detail": "Following Shivani's 15:00–15:25 JAM meeting and the separate Ankita/Ayaan/Armaan 16:20–16:35 request, Shivani calls Taniya to ask whether she can assess basic quantitative topics within her CA competence. Taniya agrees to a short introductory Sunday diagnostic, with no presumptive full JAM mathematics qualification. The two students are not on this call."
     }
   ],
   "sourcePolicy": " | Shreya January 3 working scenes SR10–SR13 were moved into the January 1 calendar by direct author instruction 2026-11-16, original plan archived in episode-03-shreya-plan-archive-jan03.json; no content removed from story source."
