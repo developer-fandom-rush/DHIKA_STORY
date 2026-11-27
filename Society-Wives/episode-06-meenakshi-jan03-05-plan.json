@@ -321,7 +321,8 @@
       "Nikhil response; Vihaan care",
       "Hospital Monday roster, session place/time",
       "Date ambiguity 3rd versus 17th if author truly meant 17 January"
-    ]
+    ],
+    "plotApproval20261127": "User explicitly said save the percentage-based all-pair encounter suggestions; this update records plot directions only. No reader prose has been modified."
   },
   "created": "2026-11-27",
   "wardrobeProposal": {
@@ -340,7 +341,9 @@
     "jan04Society": {
       "time": "Candidate late morning 11:05–11:30",
       "outfit": "Dusty-rose, hip-length loose sports top, charcoal high-waisted track trousers and unzipped warm cream fleece; fully appropriate for a short society-court stop in January.",
-      "logic": "Credible for a brief badminton/wellness stop; normal secure layers throughout, no exposed intimate areas."
+      "logic": "Replaces former loose sports-top side-waist-only plan; no automatic accidental exposure in the current stored story.",
+      "status": "REVISE_FOR_AUTHOR_APPROVED_EQUIPMENT_SNAG_CONCEPT__NOT_FINAL_WARDROBE",
+      "clothing": "Candidate wrap/crossover athletic tunic over charcoal high-waisted track trousers and cream fleece jacket; fastening and angle need realistic clothing geometry review"
     }
   },
   "societyTwinAccidentalCandidate": {
@@ -354,15 +357,15 @@
       "Utkarsh"
     ],
     "preexistingHistory": "Both society twins (24) know Meenakshi already, from Jan1 health/wellness interactions, badminton stance help and the three-person motorbike ride after her car would not start. Do not write a first meeting.",
-    "wardrobeRef": "wardrobeProposal.jan04Society",
-    "nonGraphicAccident": "As Meenakshi crouches to lift the shuttle basket beside the bench, her loose sports top briefly rides up at the side above her track-trouser waistband, showing a narrow side-waist strip before she straightens and smooths it down. No intimate body exposure or staged display.",
+    "wardrobeRef": "wardrobeProposal.jan04Society requires revision to believable crossover top fastening compatible with badminton-net scene",
+    "nonGraphicAccident": "SUPERSEDED by accidentalEncounterApproval20261127.tracks[0]: net/equipment snag loosens a crossover garment fastening; brief unequal upper-breast sightlines; no dropped handbag, saree pallu, or repeated staged slips.",
     "reactions": {
-      "Uday": "Notices first, turns a quick compliment into a teasing badminton quip, keeps hands to himself.",
-      "Utkarsh": "Notices the brief clothing shift from the side, avert gaze and quietly offers to take the basket; no unsolicited contact.",
-      "Meenakshi": "Notices their changed expressions, adjusts her top, answers lightly and resumes the practical conversation; private curiosity from hospital does not turn into forced escalation."
+      "Uday": "Abrupt surprise, pauses teasing after roughly 33% frontal upper-breast glimpse",
+      "Utkarsh": "Composed equipment help after roughly 20–25% side-angle glimpse",
+      "Meenakshi": "Briefly surprised and self-conscious but promptly adjusts garment; no automatic horrified retreat."
     },
     "significance": "Distinct from prior Jan1 consensual clothed-waist stance guidance and Jan1 bike proximity; only a fleeting clothing accident, not a sexual encounter.",
-    "status": "OPTIONAL_EDITOR_PROPOSAL__PENDING_USER_APPROVAL__SOCIETY_CROSS_HOUSEHOLD_SCHEDULING_HOLD",
+    "status": "AUTHOR_APPROVED_ENCOUNTER_CONCEPT_AND_ROUGH_PERCENTAGES__DATE_TIME_AND_WARDROBE_NOT_CANON_LOCKED",
     "blockedBy": [
       "episode-06-cross-household-hold.json still requires five female lead and spouse schedule clearance before optional society encounter is booked.",
       "Uday and Utkarsh whereabouts Jan4 11:10–11:25 are not confirmed.",
@@ -372,12 +375,143 @@
       "No overlap with Shivani-Karan/Aman Group A; they are different twin brothers.",
       "Ayaan/Armaan Jan3 first meeting remains no accident, no touch.",
       "No assumption that Meenakshi and twins' earlier closeness implies permission for further touch."
-    ]
+    ],
+    "supersedes": "Earlier sports-top hem/side-waist-only shuttle basket proposal (never final published canon)"
   },
   "otherPotentialAccidentalBeats": {
-    "status": "IDEAS_ONLY__NOT_SCHEDULED",
-    "hospitalAviYash": "Their Jan1 parked-car contact is already canon. No second automatic accident on Sat Jan3 tuition request or conditional Mon Jan5 first group lesson; revisit a different non-graphic clothing snag only after ordinary lesson familiarity and scheduling.",
-    "ayaanArmaan": "Explicitly NO on Sat Jan3 first direct meeting. Future teaching/accident only separately discussed, not inferred from Shivani's own character plot.",
-    "rupaLeena": "Separate accidental private observation in existing Sat Jan3 plan, not a 'Meenakshi wardrobe slip' and not a society twins scene."
+    "status": "AUTHOR_APPROVED_OPTIONAL_FUTURE_PLOT_BEATS__UNSCHEDULED__SEE_accidentalEncounterApproval20261127",
+    "hospitalAviYash": "Later clinical model/outer-layer snag; Avi 15–20% upper-cleavage sightline, Yash 10–15%; NOT automatically first lesson on Mon Jan 5.",
+    "ayaanArmaan": "First Meenakshi introduction Sat Jan3 explicitly NO accident; later reflection glimpse Ayaan 10–15%, Armaan no direct view, clock unbooked.",
+    "rupaLeena": "Separate accidental private observation in existing Sat Jan3 plan, not a 'Meenakshi wardrobe slip' and not a society twins scene.",
+    "karanAman": "No Meenakshi first meeting in canon; first outreach 0% exposure, based on a genuine health-camp reason if it occurs.",
+    "harshLaksh": "No confirmed direct contact with Meenakshi; academic introduction only 0%, future date open."
+  },
+  "accidentalEncounterApproval20261127": {
+    "title": "Meenakshi — distinct office and society encounter tracks and percentage benchmarks",
+    "approvedOn": "2026-11-27",
+    "status": "USER_APPROVED_PLOT_PARAMETERS_ONLY__NOT_PROSE__SCENE_CLOCKS_CONDITIONAL",
+    "intent": "Use DHIKA as a relative benchmark without copying the dropped-handbag/saree-pallu incident, or repeating identical effects and reactions for every group.",
+    "interpretation": "Percentages describe rough intended visible upper-breast or cleavage area from character sightlines in proposed fictional scenes; creative rough benchmarks, not objective measurements. No nipple exposure proposed.",
+    "tracks": [
+      {
+        "pair": "Uday–Utkarsh",
+        "category": "Confirmed society twin brothers (both 24)",
+        "existingHistory": "Jan 1 badminton stance guidance and close motorcycle ride",
+        "date": "2026-01-04",
+        "time": "11:10–11:25 provisional",
+        "setting": "Society badminton court",
+        "mechanism": "An equipment-snag / crossover-garment fastening malfunction at net adjustment, NOT the original side-waist/shuttle-basket-only accident, and NOT DHIKA's dropped handbag/pallu slip",
+        "viewByPerson": [
+          {
+            "name": "Uday",
+            "approxVisible": "33% upper-breast glimpse",
+            "role": "front perspective, abruptly stops teasing"
+          },
+          {
+            "name": "Utkarsh",
+            "approxVisible": "20–25% side-angle glimpse",
+            "role": "more composed, helps manage equipment"
+          }
+        ],
+        "meenakshiReaction": "Surprised and briefly self-conscious, quickly fixes clothing while retaining established confidence; does not flee or assume intimacy",
+        "status": "PLOT_BEAT_APPROVED__WARDROBE_MECHANICS_AND_SOCIETY_CLOCK_STILL_NEED_REALISM_CHECK"
+      },
+      {
+        "pair": "Avi–Yash",
+        "category": "Hospital trainee duo; NOT biological twins",
+        "existingHistory": "Jan 1 farmhouse dancing/flirtation plus parked-car interaction with Meenakshi; Dr Aditi is part of established hospital group",
+        "date": "Later coaching session; NOT automatically the Jan 3 request or first Jan 5 appointment",
+        "time": "Unbooked",
+        "setting": "Adult clinical revision setting, away from patients",
+        "mechanism": "Teaching-model or outer-garment snag causes brief neckline displacement; distinct from society net fastening accident",
+        "viewByPerson": [
+          {
+            "name": "Avi",
+            "approxVisible": "15–20% upper cleavage",
+            "role": "outwardly flustered"
+          },
+          {
+            "name": "Yash",
+            "approxVisible": "10–15% upper cleavage",
+            "role": "redirects to academic question"
+          }
+        ],
+        "meenakshiReaction": "Professional composure with brief surprise; Aditi may notice and tease verbally without compromising patient care",
+        "status": "PLOT_BEAT_APPROVED__LATER_SESSION_CLOCK_NOT_BOOKED"
+      },
+      {
+        "pair": "Ayaan–Armaan",
+        "category": "IIT JAM Biotechnology study pair; biological-twin status NOT confirmed",
+        "existingHistory": "First direct Meenakshi introduction protected on Jan 3, 15:55–16:20",
+        "date": "Later study session ONLY",
+        "time": "Unbooked",
+        "setting": "Home science revision after first academic rapport",
+        "mechanism": "Glass-cabinet reflection / unequal vantage, not a direct reciprocal viewing accident",
+        "viewByPerson": [
+          {
+            "name": "Ayaan",
+            "approxVisible": "10–15% upper cleavage",
+            "role": "sees an accidental reflection briefly"
+          },
+          {
+            "name": "Armaan",
+            "approxVisible": "0%; no direct view",
+            "role": "notices Ayaan's distraction, not the clothing accident"
+          }
+        ],
+        "meenakshiReaction": "May discover the misunderstanding later; no first-visit touch or show",
+        "status": "PLOT_BEAT_APPROVED__FIRST_MEETING_NO_ACCIDENT__LATER_CLOCK_OPEN"
+      },
+      {
+        "pair": "Karan–Aman",
+        "category": "Confirmed twins from Ankita/Kabir household",
+        "existingHistory": "No direct first Meenakshi encounter canon established",
+        "date": "Not booked",
+        "time": "Not booked",
+        "setting": "Possible community health-camp setup",
+        "mechanism": "Outer garment shifts while equipment is moved, but base outfit remains secure",
+        "viewByPerson": [
+          {
+            "name": "Karan",
+            "approxVisible": "0%"
+          },
+          {
+            "name": "Aman",
+            "approxVisible": "0%"
+          }
+        ],
+        "meenakshiReaction": "Practical coordination rather than manufactured intimacy",
+        "status": "PLOT_FOUNDATION_ONLY__MEETING_NOT_YET_SOURCED"
+      },
+      {
+        "pair": "Harsh–Laksh",
+        "category": "Confirmed twins; Shivani's college student track",
+        "existingHistory": "No direct Meenakshi encounter verified",
+        "date": "Not booked",
+        "time": "Not booked",
+        "setting": "Possible future medical-quiz judging",
+        "mechanism": "Academic first introduction; NO accidental exposure",
+        "viewByPerson": [
+          {
+            "name": "Harsh",
+            "approxVisible": "0%"
+          },
+          {
+            "name": "Laksh",
+            "approxVisible": "0%"
+          }
+        ],
+        "meenakshiReaction": "Professional academic recognition",
+        "status": "PLOT_FOUNDATION_ONLY__MEETING_NOT_YET_SOURCED"
+      }
+    ],
+    "boundaries": [
+      "These are author-approved rough percentages and mechanisms, not final story prose or a claim that the events already occurred.",
+      "Separate Uday and Utkarsh witness angles within ONE society-court mishap, rather than create two independent staged accidents.",
+      "Maintain Aditi/Avi/Yash professional hospital roles and distinct knowledge; patient spaces cannot host the accident.",
+      "Ayaan/Armaan's Saturday first visit remains purely academic with 0% accidental exposure; their Sunday Jan 4 17:30–18:05 Taniya quantitative assessment is protected.",
+      "All Monday clinical home tuition clocks and Sunday society scenes remain subject to other leads', spouses' and families' availability checks.",
+      "No nipple exposure proposed; no inferred permission for physical contact based on observation or prior familiarity."
+    ]
   }
 }
