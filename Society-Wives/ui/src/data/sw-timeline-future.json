@@ -20,7 +20,8 @@
     "2026-11-27: Four author-requested EP06 cross-household SOCIAL CANDIDATES indexed Jan3 19:10, Jan4 07:15 and 18:45, Jan5 20:20. No individual husband/female duty overlaps found in existing fixed time envelopes; spouses' unknown job shifts and childcare mean these are NOT bookings. Source episode-06-global-society-crossovers-jan03-05.json. Nikhil occupation and actual Jan3–5 work schedule remain unknown. Original five-lead scenes unchanged. Room for society gate review remains.",
     "2026-11-27: Global society design upgraded on user request to deliberate adult physical closeness, garment/fitness visual moments and separate spouse-knowledge states. Jan3 setup, Jan4 morning walk + evening garden + optional projector-corner, Jan5 after-work reminder; five candidate events source episode-06-global-society-crossovers-jan03-05.json. Status REVIEW and all husband/childcare gates remain, no final story prose. DHIKA Raj/Sharmi EP12/14/15 researched for narrative pattern, NOT copied.",
     "2026-11-27 AUTHOR INITIAL PLOT SAVE: society crossover windows Sat3 19:10–19:30, Sun4 07:15–07:35 and 18:45–19:25 plus optional 19:40–19:58, Mon5 20:50–21:05 (moved from 20:20 to allow Ankita-Kabir 20:00–20:20 talk and Taniya CA 19:30 finish). Five existing lead scenes and shifts untouched. Timed collision scan against earlier events excluding presence envelopes found none. Shreya does NOT attend society during police station hours. Exact husband schedules and family care still soft-gated. Source episode-06-global-society-crossovers-jan03-05.json.",
-    "AUTHOR-UPDATED EP07 ANKITA Jan7: TWO FIRST KISSES now AUTHOR-DIRECTED PLOT OUTCOMES, not published events. Rohit 16:35–17:30 includes office task 16:35–17:00 and mutually chosen kiss ~17:22 at campus kiosk during actual break. Rinku 20:55–21:40 includes water-filter repair 20:55–21:12 and mutually chosen kiss ~21:27 at lit society walkway after prior home guest departure. Both times still soft due staff/household availability; uphold plot outcome, adjust slot if unavoidable. No structured Ankita tuition had occurred as of Jan7: Aman informal Java questions, Ayaan request only, Tue CBT unbooked, Mon office kickoff and Wed project/home intro not tuition. Source episode-07-ankita-rohit-rinku-jan07-plan.json."
+    "AUTHOR-UPDATED EP07 ANKITA Jan7: TWO FIRST KISSES now AUTHOR-DIRECTED PLOT OUTCOMES, not published events. Rohit 16:35–17:30 includes office task 16:35–17:00 and mutually chosen kiss ~17:22 at campus kiosk during actual break. Rinku 20:55–21:40 includes water-filter repair 20:55–21:12 and mutually chosen kiss ~21:27 at lit society walkway after prior home guest departure. Both times still soft due staff/household availability; uphold plot outcome, adjust slot if unavoidable. No structured Ankita tuition had occurred as of Jan7: Aman informal Java questions, Ayaan request only, Tue CBT unbooked, Mon office kickoff and Wed project/home intro not tuition. Source episode-07-ankita-rohit-rinku-jan07-plan.json.",
+    "EP06/07 Ankita working reader is now navigable from mapped 2026-01-03 through 2026-01-07 Global Timeline entries. Reader source episode-06-ankita-reader-working.json and episode-07-ankita-reader-working.json. Two Jan7 kiss scenes have been written for REVIEW, not final/frozen; no first formal tuition held as of Jan7."
   ],
   "events": [
     {
@@ -2414,19 +2415,20 @@
       "scene": "ANK06-S01-MARRIAGE",
       "kind": "planned",
       "state": "review",
-      "status": "SCENE ORDER AUTHOR APPROVED · CLOCK OPEN",
+      "status": "WORKING EP06 READER SCENE 01 · NOT FINAL",
       "source": "episode-06-ankita-plan.json",
       "reader": {
-        "type": "sw-plan",
+        "type": "sw-working-ankita",
         "character": "ankita",
-        "part": "06",
-        "scene": "ANK06-S01-MARRIAGE"
+        "episode": 6,
+        "scene": "01"
       },
       "flags": [
         "EDITORIAL TIME PROPOSAL only, not confirmed attendance",
         "No prose, accident or result has been written for this event",
         "Check five-household spouses, travel and outside lead availability before locking",
-        "EDITOR-RECONCILED_TIME__NOT_ORIGINALLY_AUTHOR_SPECIFIED"
+        "EDITOR-RECONCILED_TIME__NOT_ORIGINALLY_AUTHOR_SPECIFIED",
+        "WORKING_READER_V1_REVIEW_REQUIRED__NOT_AUTHOR_FROZEN"
       ],
       "detail": "Existing Ankita × Kabir marriage-foundation setup; retained before twin workout. Exact author prose and scene timing still open."
     },
@@ -2450,19 +2452,20 @@
       "scene": "ANK06-S03-KARAN-AMAN",
       "kind": "planned",
       "state": "review",
-      "status": "AUTHOR-AGREED PLOT / OUTFIT · CLOCK OPEN · PROSE NOT WRITTEN",
+      "status": "WORKING EP06 READER SCENE 02 · NO WARDROBE INCIDENT",
       "source": "episode-06-ankita-mentoring-setup.json",
       "reader": {
-        "type": "sw-plan",
+        "type": "sw-working-ankita",
         "character": "ankita",
-        "part": "06",
-        "scene": "ANK06-S03-KARAN-AMAN"
+        "episode": 6,
+        "scene": "02"
       },
       "flags": [
         "Exact Saturday timing not locked; ensure EP06 marriage-first scene and existing EP05 morning reactions come first",
         "Home workout selected; former society-gym bag strap mechanism was rejected",
         "Do not mislabel selected look as a promise, public exposure or published prose",
-        "EDITOR-RECONCILED_TIME__NOT_ORIGINALLY_AUTHOR_SPECIFIED"
+        "EDITOR-RECONCILED_TIME__NOT_ORIGINALLY_AUTHOR_SPECIFIED",
+        "WORKING_READER_V1_REVIEW_REQUIRED__NOT_AUTHOR_FROZEN"
       ],
       "detail": "Ankita home-workout challenge with Karan and Aman, after marriage scene. Do not insert Shreya into this household session."
     },
@@ -2487,18 +2490,19 @@
       "scene": "ANK06-S04-OFFICE",
       "kind": "planned",
       "state": "review",
-      "status": "AUTHOR-AGREED CAST + KICKOFF IDEA · 18:10–19:00 CANDIDATE",
+      "status": "WORKING EP06 READER SCENE 08 · OFFICE PROJECT, NOT TUITION",
       "source": "episode-06-ankita-mentoring-setup.json",
       "reader": {
-        "type": "sw-plan",
+        "type": "sw-working-ankita",
         "character": "ankita",
-        "part": "06",
-        "scene": "ANK06-S04-OFFICE"
+        "episode": 6,
+        "scene": "08"
       },
       "flags": [
         "EDITORIAL TIME PROPOSAL only, not confirmed attendance",
         "No prose, accident or result has been written for this event",
-        "Check five-household spouses, travel and outside lead availability before locking"
+        "Check five-household spouses, travel and outside lead availability before locking",
+        "WORKING_READER_V1_REVIEW_REQUIRED__NOT_AUTHOR_FROZEN"
       ],
       "detail": "Reyansh/Vivan/Sana and Ankita plan sample Service Booking Portal: UI/UX, frontend workflow, REST/API architecture, QA. Monday work meeting; Aishwarya is not a backend student. Four-guest home visit planned Wednesday 7 January, not Monday."
     },
@@ -2521,19 +2525,20 @@
       "scene": "ANK06-S02-UNCLE-COMPARISON",
       "kind": "planned",
       "state": "review",
-      "status": "USER-SOURCED PLOT / EDITOR-SELECTED POST-SHIFT TIME",
+      "status": "WORKING EP06 READER SCENE 04 · NOT FINAL",
       "source": "episode-06-ankita-plan.json",
       "reader": {
-        "type": "sw-plan",
+        "type": "sw-working-ankita",
         "character": "ankita",
-        "part": "06",
-        "scene": "ANK06-S02-UNCLE-COMPARISON"
+        "episode": 6,
+        "scene": "04"
       },
       "flags": [
         "EP05 reader already contains individual morning reactions; this is a follow-up, not a replay",
         "Plot planning only; not new published prose",
         "EDITOR-RECONCILED_TIME__NOT_ORIGINALLY_AUTHOR_SPECIFIED",
-        "EDITOR_CHOSEN_CLOCK__NOT_SOURCE_FIXED"
+        "EDITOR_CHOSEN_CLOCK__NOT_SOURCE_FIXED",
+        "WORKING_READER_V1_REVIEW_REQUIRED__NOT_AUTHOR_FROZEN"
       ],
       "detail": "Move the approved private comparison after Shreya's Saturday 08:30–16:30 station shift. No physical travel, Shreya at home before later sister study."
     },
@@ -2556,19 +2561,20 @@
       "scene": "ANK06-S03-KARAN-AMAN",
       "kind": "planned",
       "state": "review",
-      "status": "AUTHOR-APPROVED PLOT DIRECTION · TIME/PROSE OPEN",
+      "status": "WORKING EP06 READER SCENE 03 · INFORMAL DOUBT ONLY",
       "source": "episode-06-ankita-mentoring-setup.json",
       "reader": {
-        "type": "sw-plan",
+        "type": "sw-working-ankita",
         "character": "ankita",
-        "part": "06",
-        "scene": "ANK06-S03-KARAN-AMAN"
+        "episode": 6,
+        "scene": "03"
       },
       "flags": [
         "Avoid a made-up fixed tuition appointment for people who share a home",
         "Plot planning only; not new published prose",
         "EDITOR-RECONCILED_TIME__NOT_ORIGINALLY_AUTHOR_SPECIFIED",
-        "INFORMAL_SAME_HOUSEHOLD_TECH_QUESTIONS__NOT_FIRST_FORMAL_TUITION"
+        "INFORMAL_SAME_HOUSEHOLD_TECH_QUESTIONS__NOT_FIRST_FORMAL_TUITION",
+        "WORKING_READER_V1_REVIEW_REQUIRED__NOT_AUTHOR_FROZEN"
       ],
       "detail": "Ankita guides Aman in Java/backend; Shreya and Samar–Shaan study circle not involved."
     },
@@ -2592,20 +2598,21 @@
       "scene": "ANK06-S05-CROSS-MENTORS",
       "kind": "planned",
       "state": "review",
-      "status": "AUTHOR-APPROVED PLOT DIRECTION · TIME/PROSE OPEN",
+      "status": "WORKING EP06 READER SCENE 04 · INTRODUCTORY REQUEST, NO FORMAL TUITION",
       "source": "ankita-ep06-home-workout-reference.json",
       "reader": {
-        "type": "sw-plan",
+        "type": "sw-working-ankita",
         "character": "ankita",
-        "part": "06",
-        "scene": "ANK06-S05-CROSS-MENTORS"
+        "episode": 6,
+        "scene": "04"
       },
       "flags": [
         "Their own academic qualifications/registration and 1 Jan lift chronology still require source audit",
         "Ankita is not automatically a Physics teacher",
         "Plot planning only; not new published prose",
         "EDITOR-RECONCILED_TIME__NOT_ORIGINALLY_AUTHOR_SPECIFIED",
-        "INTRODUCTORY_REQUEST_ONLY__NO_TEACHING_SESSION_YET"
+        "INTRODUCTORY_REQUEST_ONLY__NO_TEACHING_SESSION_YET",
+        "WORKING_READER_V1_REVIEW_REQUIRED__NOT_AUTHOR_FROZEN"
       ],
       "detail": "Ayaan–Armaan separately ask Ankita about IIT JAM CBT; distinct from Shivani's earlier 15:00–15:25 request."
     },
@@ -2669,20 +2676,21 @@
       "scene": "ANK06-S04-OFFICE",
       "kind": "planned",
       "state": "review",
-      "status": "AUTHOR-APPROVED PLOT DIRECTION · TIME/PROSE OPEN",
+      "status": "WORKING EP06 READER SCENE 08 · NOT FINAL",
       "source": "episode-06-ankita-mentoring-setup.json",
       "reader": {
-        "type": "sw-plan",
+        "type": "sw-working-ankita",
         "character": "ankita",
-        "part": "06",
-        "scene": "ANK06-S04-OFFICE"
+        "episode": 6,
+        "scene": "08"
       },
       "flags": [
         "Existing Karan–Aishwarya direct acquaintance not verified; plan a genuine introduction Wednesday",
         "Aishwarya is HR, not Java/backend tutor",
         "Plot planning only; not new published prose",
         "EDITOR-RECONCILED_TIME__NOT_ORIGINALLY_AUTHOR_SPECIFIED",
-        "KARAN_REFERENCED_NOT_PHYSICALLY_PRESENT"
+        "KARAN_REFERENCED_NOT_PHYSICALLY_PRESENT",
+        "WORKING_READER_V1_REVIEW_REQUIRED__NOT_AUTHOR_FROZEN"
       ],
       "detail": "Ankita asks Aishwarya for career-help favour regarding Karan. Karan does not have to attend the office discussion."
     },
@@ -2705,17 +2713,18 @@
       "scene": "ANK06-S04-OFFICE",
       "kind": "planned",
       "state": "review",
-      "status": "AUTHOR-APPROVED PLOT DIRECTION · TIME/PROSE OPEN",
+      "status": "WORKING EP06 READER SCENE 09 · NOT FINAL",
       "source": "episode-06-ankita-plan.json",
       "reader": {
-        "type": "sw-plan",
+        "type": "sw-working-ankita",
         "character": "ankita",
-        "part": "06",
-        "scene": "ANK06-S04-OFFICE"
+        "episode": 6,
+        "scene": "09"
       },
       "flags": [
         "Kabir's profession/shift exact details not locked; do not assume he is home at a fixed hour",
-        "Plot planning only; not new published prose"
+        "Plot planning only; not new published prose",
+        "WORKING_READER_V1_REVIEW_REQUIRED__NOT_AUTHOR_FROZEN"
       ],
       "detail": "After office, Ankita tells Kabir that four adult colleagues (Vivan, Reyansh, Sana, Aishwarya) may come to their shared home Wednesday for a legitimate project demo. They coordinate household space, schedule and consent; Wednesday visit only after mutual practical agreement."
     },
@@ -2741,19 +2750,20 @@
       "scene": "ANK06-S04-OFFICE",
       "kind": "planned",
       "state": "review",
-      "status": "AUTHOR-APPROVED PLOT DIRECTION · TIME/PROSE OPEN",
+      "status": "ORIGINAL APPROVED PLOT · WORKING EP07 READER SCENE 04 AVAILABLE · NOT FROZEN",
       "source": "episode-03-ankita-scene-05-combined-surprise-ride.json",
       "reader": {
-        "type": "sw-plan",
+        "type": "sw-working-ankita",
         "character": "ankita",
-        "part": "06",
-        "scene": "ANK06-S04-OFFICE"
+        "episode": 7,
+        "scene": "04"
       },
       "flags": [
         "Wednesday is after the Jan3–5 core period; later episode placement and household clearance pending",
         "Plot planning only; not new published prose",
         "WED7_FIRST_PROJECT_ORIENTATION_DEMO_AND_HR_INTRO__NOT_ANKITA_FORMAL_TUITION_COMPLETED",
-        "EP07 Ankita Rohit kiss at 17:22–17:25 is prior and separate; Rinku at 21:27–21:31 only after guests exit"
+        "EP07 Ankita Rohit kiss at 17:22–17:25 is prior and separate; Rinku at 21:27–21:31 only after guests exit",
+        "WORKING_READER_V1_REVIEW_REQUIRED__NOT_AUTHOR_FROZEN"
       ],
       "detail": "Same established 1 Jan five-seater car owned/driven by Reyansh. Seating continuity: Reyansh driver, Aishwarya front, Vivan–Ankita–Sana rear; no motorcycle or sixth passenger. They arrive for a project practice session and naturally meet household residents."
     },
@@ -2781,19 +2791,20 @@
       "scene": "ANK06-S04-OFFICE",
       "kind": "planned",
       "state": "review",
-      "status": "AUTHOR-APPROVED PLOT DIRECTION · TIME/PROSE OPEN",
+      "status": "ORIGINAL APPROVED PLOT · WORKING EP07 READER SCENE 04 AVAILABLE · NO TUITION",
       "source": "episode-06-ankita-mentoring-setup.json",
       "reader": {
-        "type": "sw-plan",
+        "type": "sw-working-ankita",
         "character": "ankita",
-        "part": "06",
-        "scene": "ANK06-S04-OFFICE"
+        "episode": 7,
+        "scene": "04"
       },
       "flags": [
         "Aishwarya's meeting purpose is Karan's HR/CV guidance; separate from technical work",
         "Plot planning only; not new published prose",
         "WED7_FIRST_PROJECT_ORIENTATION_DEMO_AND_HR_INTRO__NOT_ANKITA_FORMAL_TUITION_COMPLETED",
-        "EP07 Ankita Rohit kiss at 17:22–17:25 is prior and separate; Rinku at 21:27–21:31 only after guests exit"
+        "EP07 Ankita Rohit kiss at 17:22–17:25 is prior and separate; Rinku at 21:27–21:31 only after guests exit",
+        "WORKING_READER_V1_REVIEW_REQUIRED__NOT_AUTHOR_FROZEN"
       ],
       "detail": "Ankita introduces her brother-in-law Karan to Aishwarya, who offers CV/presentation/mock interview feedback; meanwhile Vivan/Reyansh/Sana prepare the service-booking demo with Ankita. Aman may ask a brief Java/QA question only if available. No automatic romantic implication."
     },
@@ -2819,20 +2830,21 @@
       "scene": "ANK06-S04-OFFICE",
       "kind": "planned",
       "state": "review",
-      "status": "AUTHOR-APPROVED PLOT DIRECTION · TIME/PROSE OPEN",
+      "status": "ORIGINAL APPROVED PLOT · WORKING EP07 READER SCENE 04 AVAILABLE · NOT FROZEN",
       "source": "episode-06-ankita-mentoring-setup.json",
       "reader": {
-        "type": "sw-plan",
+        "type": "sw-working-ankita",
         "character": "ankita",
-        "part": "06",
-        "scene": "ANK06-S04-OFFICE"
+        "episode": 7,
+        "scene": "04"
       },
       "flags": [
         "Author has approved the proposed beat, but no exact clock, dialogue or final prose is locked",
         "Do not recycle Karan–Aman workout visuals or treat incidental visibility as consent",
         "Plot planning only; not new published prose",
         "WED7_FIRST_PROJECT_ORIENTATION_DEMO_AND_HR_INTRO__NOT_ANKITA_FORMAL_TUITION_COMPLETED",
-        "EP07 Ankita Rohit kiss at 17:22–17:25 is prior and separate; Rinku at 21:27–21:31 only after guests exit"
+        "EP07 Ankita Rohit kiss at 17:22–17:25 is prior and separate; Rinku at 21:27–21:31 only after guests exit",
+        "WORKING_READER_V1_REVIEW_REQUIRED__NOT_AUTHOR_FROZEN"
       ],
       "detail": "While connecting a demo monitor cable, the edge of Ankita's loose overshirt catches on a chair arm and shifts off one shoulder. Her sleeveless inner top remains properly worn. She adjusts the outer layer herself. Vivan is surprised, Reyansh fixes the cable, Sana discreetly signals, Aishwarya defuses tension; keep this modest and non-graphic. A separate approved-in-principle story beat, not a photo-documentary proof."
     },
@@ -4198,11 +4210,13 @@
       "scene": "ANK07-R01-ROHIT-OFFICE",
       "kind": "planned",
       "state": "review",
-      "status": "AUTHOR-DIRECTED FIRST KISS IN EP07 PLOT · TIME SOFT-BOOKED · NOT PROSE-PUBLISHED",
+      "status": "AUTHOR-REQUESTED WORKING EP07 READER SCENE 03 · ROHIT KISS WRITTEN · NOT FROZEN",
       "source": "episode-07-ankita-rohit-rinku-jan07-plan.json",
       "reader": {
-        "type": "source-url",
-        "url": "https://github.com/developer-fandom-rush/DHIKA_STORY/blob/main/Society-Wives/episode-07-ankita-rohit-rinku-jan07-plan.json"
+        "type": "sw-working-ankita",
+        "character": "ankita",
+        "episode": 7,
+        "scene": "03"
       },
       "flags": [
         "Jan2 Rohit acknowledgment and prior deliberate reaction are already complete; no second missing form or repeated accident",
@@ -4212,7 +4226,8 @@
         "ROHIT_KISS_PLOT_LOCK_AT_17_22_17_25__MUTUAL_CHOICE__NOT_WRITTEN",
         "First scene is a genuine projector adapter handoff; romantic conversation at accessible office-complex tea kiosk after support task ends",
         "Rohit on break voluntarily; no supervisor authority/working-hours favors; workplace reputation risk",
-        "Ankita leaves to join Vivan/Reyansh/Sana/Aishwarya for Reyansh car around 18:00–18:15; no time collision"
+        "Ankita leaves to join Vivan/Reyansh/Sana/Aishwarya for Reyansh car around 18:00–18:15; no time collision",
+        "WORKING_READER_V1_REVIEW_REQUIRED__NOT_AUTHOR_FROZEN"
       ],
       "detail": "16:35–17:00 Rohit checks actual presentation cable for Wednesday home Service Booking Portal demo, with Friday Jan2 office history remembered rather than re-enacted. 17:05–17:30 at normal public office-campus kiosk during independent break, they mutually tease, show care and choose a first brief kiss ~17:22–17:25. Consequences: potential workplace gossip, boundary and confidentiality; no witness is canon. Underlying explicit plot source episode-07-ankita-rohit-rinku-jan07-plan.json."
     },
@@ -4240,11 +4255,13 @@
       "scene": "ANK07-R02-RINKU-RETURN",
       "kind": "planned",
       "state": "review",
-      "status": "AUTHOR-DIRECTED FIRST KISS IN EP07 PLOT · TIME SOFT-BOOKED · LATE-SERVICE/PRESENCE UNVERIFIED",
+      "status": "AUTHOR-REQUESTED WORKING EP07 READER SCENE 05 · RINKU KISS WRITTEN · NOT FROZEN",
       "source": "episode-07-ankita-rohit-rinku-jan07-plan.json",
       "reader": {
-        "type": "source-url",
-        "url": "https://github.com/developer-fandom-rush/DHIKA_STORY/blob/main/Society-Wives/episode-07-ankita-rohit-rinku-jan07-plan.json"
+        "type": "sw-working-ankita",
+        "character": "ankita",
+        "episode": 7,
+        "scene": "05"
       },
       "flags": [
         "Jan2 Rinku repair connector pending, Jan2 evening promise unfulfilled in source; explanation must be provided, no invented bereavement",
@@ -4258,7 +4275,8 @@
         "Ankita's Wednesday guest group scheduled 19:15–20:15 and exit/home reset ends by 20:55 candidate",
         "Kabir, Karan, Aman, Rajeev are household residents; do not magically move them off premises",
         "After repair, chosen private conversation occurs at accessible tower walkway; realistic third-party visibility risk, no confirmed witness",
-        "Rinku late-night society service shift/access requires in-story confirmation; no fixed actual attendance claim"
+        "Rinku late-night society service shift/access requires in-story confirmation; no fixed actual attendance claim",
+        "WORKING_READER_V1_REVIEW_REQUIRED__NOT_AUTHOR_FROZEN"
       ],
       "detail": "A delayed replacement water-filter coupler resolves the actual Jan2 Rinku promise. After a real 20:55–21:12 fit/check and 20:15–20:55 prior home-guest clearance buffer, Ankita chooses a changed evening look and accompanies Rinku toward standard society exit. They honestly revisit Jan2 chosen teasing; Rinku responds with specific words, not repetitive silent staring. Mutual first brief kiss ~21:27–21:31 in open accessible covered walkway is an AUTHOR-DIRECTED EP07 scene outcome, still not published prose. Family members remain present in normal household unless individual movements established; site visibility/maintenance authorization are realism gates."
     }
