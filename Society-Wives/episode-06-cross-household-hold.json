@@ -128,15 +128,19 @@
     "note": "All five female leads have Jan3–5 plot files. Current source statuses distinguish approved plot parameters from times not locked. Four husbands Kabir/Rohan/Vikram/Nikhil added to availability ledger; Aditya is Taniya fiancé. Do not call all husbands free or all women in office on Monday. User's next stage is five-lead society schedule, spouses, children, outings and cross-lead encounters."
   },
   "proposedSocietyInteractions20261127": {
-    "status": "NEW_SOCIETY_SCENES_PREPARED__REVIEW_ONLY__HOLD_NOT_LIFTED",
+    "status": "AUTHOR_REQUESTED_BOLDER_ADULT_SOCIETY_PLOT_REVISED__NOT_FINAL_SCENES__FIVE_HOUSEHOLD_HOLD_ACTIVE",
     "source": "episode-06-global-society-crossovers-jan03-05.json",
     "timelineSource": "ui/src/data/sw-timeline-future.json",
     "provisionalWindows": [
-      "2026-01-03 19:10–19:30",
-      "2026-01-04 07:15–07:35",
-      "2026-01-04 18:45–19:25",
-      "2026-01-05 20:20–20:35"
+      "2026-01-03 19:10–19:30 committee/close beats",
+      "2026-01-04 07:15–07:35 chosen fitness closeness",
+      "2026-01-04 18:45–19:25 garden group distinct pair beats",
+      "2026-01-04 19:40–19:58 projector-corner first-embrace/kiss OPTION ONLY",
+      "2026-01-05 20:20–20:35 Monday knowledge callback"
     ],
-    "note": "EP01 community-week courtyard and Ankita EP02 walking circle are genuine source anchors; cross-spouse new light attraction/action is unapproved proposed writing. Do not invent real shift commitments. Children supervised by parents."
+    "knowledgeLedger": "In same source per-pair and per-spouse: shown, heard, only inferred, not known. No automatic disclosure of private gestures.",
+    "research": "DHIKA Raj–Sharmi EP12/EP14/EP15 checked from original archive for narrative structure, scenes and choreography not copied.",
+    "approvedIntent": "Author wants bolder accidental / intentional visual flirting, close touch and spouse knowledge as main purpose; specific newly designed actions remain open until timing and author lock.",
+    "holdRule": "Do not commit to any unsourced Nikhil/Rohan/Kabir/Vikram shift, duty, childcare, cinema booking, or private kiss as having occurred."
   }
 }
