@@ -1,0 +1,162 @@
+{
+  "schemaVersion": 1,
+  "universe": "Society Wives",
+  "episode": "06",
+  "lead": "ankita",
+  "title": "The Choices She Can Name",
+  "subtitle": "3–5 January 2026 · Kabir, the brothers, society and office",
+  "dateRange": [
+    "2026-01-03",
+    "2026-01-05"
+  ],
+  "status": "NEW_AUTHOR_REQUESTED_UI_WORKING_MANUSCRIPT__NOT_FROZEN",
+  "publicationNote": "New scene-wise prose is published for author review, not declared final. Existing EP04B and EP05 manuscripts remain unchanged. January 3–5 provisional society event clocks are story-working choices. No completed first formal tuition.",
+  "sourceRefs": [
+    "episode-06-ankita-plan.json",
+    "episode-06-ankita-mentoring-setup.json",
+    "episode-06-karan-aman-shared-availability.json",
+    "episode-06-global-society-crossovers-jan03-05.json",
+    "episode-05-reader.json"
+  ],
+  "scenes": [
+    {
+      "id": "01",
+      "date": "2026-01-03",
+      "time": "06:10–07:25",
+      "place": "Malhotra apartment · bedroom, then breakfast corner",
+      "title": "The Marriage Behind the Banter",
+      "raw": "Subah 6:10 par Ankita ki aankh khuli toh kal raat ki family gathering ka shor jaise abhi bhi dimag ke kisi kone mein tha. Rajeev aur Arvind ke aas-paas jo ajeeb sa discomfort usne mehsoos kiya tha, usse abhi naam dena mushkil tha. Kabir uske paas so raha tha. Friday ki late-night conversation aur unki apni closeness ko woh ek reassurance ki tarah yaad karti hai; us memory ko dobara enact karne ka koi matlab nahi tha.\n\nUsne bedroom se bahar aate hue dekha ki kitchen mein coffee jar phir se aadha khula pada hai. Kabir ki aadat. Kitchen counter par ek purani trip ki photo rakhi thi, jisme dono hansi rokne ki koshish kar rahe the. Ankita ne photo seedhi ki aur apni coffee banayi.\n\n6:45 ke aas-paas Kabir ne doorway se kaha, “Tum subah chhe baje bhi itni organised kaise reh leti ho?”\n\n“Main organised nahi hoon, tum disorganised ho. Difference samjho.”\n\nKabir muskuraya. “Kal raat ke baad mujhe laga tum mujhe ek full-day leave sanction kar dogi.”\n\n“Production incident ko weekend holiday nahi bolte. Aur haan, phone ko breakfast ke dauran side par rakhna padega.”\n\nWoh paas aaya, uske haath se coffee ka cup nahi liya—bas apna cup utha kar saamne wali chair par baith gaya. Ankita ko uski yahi baat achhi lagti thi: woh uski decisions par joke kar sakta tha, unhe chheen leta nahi tha.\n\nKabir ne poocha, “Tum theek ho na? Kal family dinner ke baad thodi quiet thi.”\n\nAnkita ne cup ka handle ghumaya. “Kuch cheezein clear nahi hain. Shreya se baat karungi. Guess karke kisi ko accuse nahi karna chahti.”\n\n“Fair. Par kuch bhi uncomfortable ho toh mujhe batana.”\n\nWoh seedha jawab tha, kisi interrogation ke bina. Ankita ne uske haath ke paas apni ungli rakhi aur halki si smile di. “Aur tum mujhe mere hi ghar mein IT incident report mat bana dena.”\n\nKabir hasa. Household ke doosre kamron mein Rajeev, Karan aur Aman ki apni morning routines chal rahi thi. Yeh ghar khaali backdrop nahi tha. Isi ghar mein Ankita ko apne decisions ka matlab samajhna padna tha.\n\n7:20 tak Kabir apni coffee aur next week's on-call calendar dekhne chala gaya. Ankita fitness mat uthane ke liye hall mein aayi. Karan ki awaaz pehle se aa rahi thi: “Bhabhi, woh twenty push-ups wala challenge bhooli toh nahi?”",
+      "visuals": [
+        "FRAME 01 · 06:10 bedroom: soft morning light, two untouched pillows, no reenactment of Friday intimacy.",
+        "FRAME 02 · 06:45 breakfast table: Ankita and Kabir seated face-to-face; old travel photograph in foreground, separate household doors visible."
+      ],
+      "notes": [
+        "EP05 original marital ending is not repeated",
+        "Marriage foundation first; wedding-date/backstory details left uninvented"
+      ]
+    },
+    {
+      "id": "02",
+      "date": "2026-01-03",
+      "time": "07:35–08:20",
+      "place": "Malhotra apartment · open living / workout area",
+      "title": "Twenty Push-Ups, Two Different Brothers",
+      "raw": "7:35 par Karan ne mat seedha kiya. Aman apni phone notes mein kuch save kar raha tha. Ankita dark charcoal track pants aur loose athletic top mein aayi; yeh uska normal home-workout look tha, kisi secret costume experiment ka setup nahi.\n\n“Twenty,” Karan ne yaad dilaya.\n\n“Count karne se pehle khud try kar lo. Form bigda toh ten bhi count nahi honge,” Ankita ne kaha.\n\nAman ne mobile rakh diya. “Main timer chalata hoon. Par uske baad ek Java question hai.”\n\nKaran ne aankhein ghumayi. “Iska romance bhi Java ke saath hi hoga.”\n\n“Tumhara MBA case study kab tak mere dining table par rahega, tab dekhna,” Ankita ne palat kar kaha. Dono hans pade.\n\nWorkout serious bhi tha, funny bhi. Karan baar-baar fast reps ki taraf jaata; Ankita usse pace aur breathing par correct karti. Aman ne pehle few rounds kiye, phir timer dekhkar dry comment pass kiya: “Twenty ka challenge tha, lecture forty-minute ka mil raha hai.”\n\nAnkita ne uski taraf challenge wali nazar se dekha. “Debugging free mein nahi milti, Aman.”\n\nEk point par Karan ne apni push-up position chhodi aur exaggerated victory pose banaya. Ankita hansi. Is family banter ke beech use woh 1 January ki scooty ride bhi yaad aayi jab Aman ne uske kehne par support grip adjust kiya tha. Woh physical familiarity already exist karti thi—use naye 'first touch' ki tarah stage karne ki zarurat nahi thi.\n\n8:15 ke aas-paas workout khatam hua. Ankita ne paani ka bottle Karan ko pass kiya. Aman ne kaha, “Aaj afternoon mein ek doubt poochhunga, bas fifteen minutes.”\n\n“Doubt poochhna. Class book mat kar dena,” Ankita ne jawab diya.\n\nKaran ne phir tease kiya, “Dekha, bhabhi ne tumhe bhi scheduling link de diya.”\n\nAnkita ne towel kandhe par rakha aur muskura kar kitchen ki taraf gayi. Apne household ke inn dono brothers ke beech uska confidence already settled tha; naye weekend ka drama kisi fabricated wardrobe slip se shuru nahi hota.",
+      "visuals": [
+        "FRAME 01 · Home workout mat, two different notebooks—MBA and Java—and a visible wall clock.",
+        "FRAME 02 · Three clothed adults laughing during exercise; clean wide shot, no wardrobe incident."
+      ],
+      "notes": [
+        "Jan3 gym-bag strap accident was withdrawn",
+        "Jan1 scooter grip already happened"
+      ]
+    },
+    {
+      "id": "03",
+      "date": "2026-01-03",
+      "time": "13:05–13:30",
+      "place": "Malhotra dining table",
+      "title": "Aman’s Question Is Not Tuition",
+      "raw": "Lunch ke baad dining table ka ek kona temporary coding desk ban gaya. Aman ne laptop ghuma kar dikhaya: “Spring Boot REST controller se service layer call hoti hai. Agar database update fail ho gaya toh response kab decide karenge?”\n\nAnkita ne spoon rakh diya. “Pehle batao transaction boundary kahan rakhoge.”\n\n“Service mein,” Aman ne turant kaha.\n\n“Good. Ab failure mein rollback kaise handle karoge? Bas annotation ka naam mat bolo, mechanism batao.”\n\nAman ne sochna shuru kiya. Karan paas se guzarte hue bol pada, “Isko Saturday ko bhi interview dena hai?”\n\n“Tumhe cash-flow statement samajhni hai. Dusron ko judge karne se pehle apna worksheet complete karna,” Ankita ne kaha.\n\n“Main Taniya se poochh loonga,” Karan ne jawab diya. Usne bataya ki society mein usse MBA finance help ke baare mein baat hui thi. Ankita ne bina extra romantic meaning nikale kaha, “Good. Clearly explain karna kis topic mein help chahiye.”\n\nAman ne phir sawaal complete kiya. Ankita ne sirf architecture ka rough flow napkin par banaya—controller, service, repository, transaction; phir laptop wapas uski taraf kar diya.\n\n“Ab tum isko khud run karo. Aaj ka session formal tuition nahi. Tumhara doubt tha, maine hint diya.”\n\n“Bhabhi, main already notes bana raha hoon.”\n\n“Exactly. Notes tumhare. Work bhi tumhara.”\n\n13:30 tak laptop band hua. Chhoti si household interaction ne ek learning thread seed kiya, koi booked class shuru nahi ki.",
+      "visuals": [
+        "FRAME 01 · Dining table with laptop diagram and MBA worksheet, natural daytime light."
+      ],
+      "notes": [
+        "Informal doubt only, no formal tuition session"
+      ]
+    },
+    {
+      "id": "04",
+      "date": "2026-01-03",
+      "time": "16:20–18:00",
+      "place": "Gulmohar Heights common area / Ankita’s phone",
+      "title": "Questions, Then the Call",
+      "raw": "Shaam 4:20 ke aas-paas Ayaan aur Armaan ka short introductory message Ankita tak pahuncha. Dono IIT JAM preparation ke liye CBT interface aur practice-test workflow samajhna chahte the. Shivani Biology aur Meenakshi chemistry-side guidance ke liye alag contacts thi; Ankita ka role computer-based testing aur technical setup tak hi tha.\n\nCommon seating mein Ankita ne seedha poocha, “Tum logon ne actual mock-test interface use kiya hai?”\n\n“Basic hi,” Ayaan ne kaha.\n\n“Achha. Main tumhe demo ka time de sakti hoon, lekin abhi class nahi. First meri work calendar se match karenge.”\n\nArmaan ne kaha, “Physics bhi poochh lenge?”\n\n“Qualification verify kiye bina main Physics expert nahi banungi. CBT aur error analysis mein help kar sakti hoon.”\n\nDono ne agree kiya. Conversation fifteen minutes mein khatam hui. Kisi ne tuition start nahi ki, aur unhe Karan–Aman ya office colleagues ki tarah treat nahi kiya gaya.\n\n5:40 par Shreya ka call aaya. Ankita garden-facing window ke paas aayi, phone speaker off rakha.\n\n“Duty khatam?” Ankita ne poocha.\n\n“Haan. Aur tum? Kal raat ki baat soch rahi thi?”\n\n“Exactly. Lekin hum jo khud dekha hai bas wohi discuss karenge. Uncles ke baare mein mujhe ek doubt hai, accusation nahi.”\n\nShreya ne apne observations bataye. Kuch points match nahi kar rahe the. Ankita ko yeh uncomfortable laga, par usne missing details ko imagination se fill nahi kiya.\n\n“Shreya, mujhe ek cheez aur notice ho rahi hai,” Ankita ne dheere kaha. “Jab main kisi ki attention deliberately invite karti hoon, main usually jaanti hoon kya kar rahi hoon. Par Friday se logon ke reactions mere dimaag mein baar-baar aa rahe hain.”\n\n“Rohit aur Rinku?”\n\nAnkita ek second chup rahi. “Unke naam maine nahi liye.”\n\nShreya hansi. “Lene bhi nahi pade.”\n\nCall khatam hote-hote Ankita samajh gayi ki curiosity ko bas joke samajhkar dismiss karna mushkil ho raha hai. Lekin kisi ek look ko commitment bhi nahi kaha ja sakta tha. Us raat society courtyard ka practical work abhi baaki tha.",
+      "visuals": [
+        "FRAME 01 · Common-area bench with CBT schedule note, two adult visitors standing at a respectful distance.",
+        "FRAME 02 · Split-frame phone conversation: Ankita at window, Shreya at home after duty."
+      ],
+      "notes": [
+        "Ayaan–Armaan merely request CBT guidance",
+        "Shreya duty ends 16:30"
+      ]
+    },
+    {
+      "id": "05",
+      "date": "2026-01-03",
+      "time": "19:10–19:30",
+      "place": "Gulmohar Heights courtyard noticeboard",
+      "title": "The Board and the People Watching",
+      "raw": "7:10 ki evening light courtyard mein lag chuki thi. Noticeboard par agle din ke health-fair aur children's programme ke poster lag rahe the. Ankita registration QR code check kar rahi thi; Rohan ne folding stand steady kiya. Shreya duty se lautkar safety sightline dekhne aayi thi, aur Kabir ne extension lead ko raaste se hataane mein help ki.\n\n“Tum logon ko har simple announcement ke liye technology chahiye?” Rohan ne poocha.\n\nAnkita ne QR code seedha kiya. “Simple tab hai jab Sunday ko fifty log ek hi pen maangne na aa jaayein.”\n\n“Point taken,” Rohan ne kaha. Usne stand sambhalte hue poocha, “Is baar bhi morning walk mein tum lead logi?”\n\n“Race start hone do. Winners pehle announce mat karo.”\n\nShreya ne paas aakar kaha, “Camera ka angle is exit ko cover karta hai. Poster isko block nahi karega, bas stand side mein kar do.”\n\nKabir ne Ankita ko dekha. “Registration aur safety dono tumhari team jeet gayi lagti hai.”\n\n“Team? Tum cable sambhal rahe ho. Tum bhi recruited ho,” Ankita ne jawab diya.\n\nRohan aur Ankita ki banter halka sa personal lag sakti thi, lekin sabke saamne ordinary committee kaam hi hua. Shreya ne koi private confession nahi suna; Kabir ne koi secret kiss nahi dekhi. Kisi ko bhi doosron ke mind ka shortcut access nahi milta.\n\n7:30 tak setup khatam hua. Ankita aur Kabir ghar ki taraf saath chale. Society ke sounds normal the, lekin Ankita notice kar rahi thi ki pichhle do din mein woh logon ki attention ko pehle se zyada actively read karne lagi hai.",
+      "visuals": [
+        "FRAME 01 · Community board, QR poster, four adults in a well-lit shared courtyard, clear exits."
+      ],
+      "notes": [
+        "Initial proposed crossover written as working draft, not frozen canon"
+      ]
+    },
+    {
+      "id": "06",
+      "date": "2026-01-04",
+      "time": "07:15–08:30",
+      "place": "Society walking path → Malhotra breakfast table",
+      "title": "The Sunday Circuit",
+      "raw": "Sunday subah park mein halka thanda hawa tha. Ankita apna regular 25-minute walking loop complete kar rahi thi jab Rohan aur Nikhil opposite corner se mile. New Year ke baad yeh unki pehli mulaqat nahi thi.\n\nRohan ne kaha, “Aaj stopwatch nahi?”\n\n“Tumhare liye? Zaroorat hi nahi,” Ankita ne tease kiya.\n\nNikhil hansa. “Main witness hoon, Rohan. Tumne challenge accept kiya tha.”\n\nTeeno ne route ka ek short segment saath walk kiya. Kabhi steps match hote, kabhi Ankita aage nikal jaati. Koi staged collision nahi hua; unki chemistry unki banter aur familiarity mein thi. Ankita ko notice hua ki Rohan usse baat karte waqt kabhi unusually serious ho jaata hai, phir agle hi pal joke kar deta hai. Woh is contrast ko remember karti hai, lekin apne mind mein koi outcome invent nahi karti.\n\n7:35 ke baad Ankita apne building entrance ki taraf mud gayi. Rohan Shivani aur Tara ke morning routine mein lautna tha; Nikhil ko bhi Vihaan ke saath ghar ki planning dekhni thi. Ankita ne koi extra walk fabricate nahi ki.\n\n8 baje Kabir dining table par calendar dekh raha tha.\n\n“Sunday ko bhi project?” usne poocha.\n\n“Kal office hai. Bas Monday ka schedule check kar rahi hoon. Aur tumhare bhaiyon ka training bhi independent rahega.”\n\nKabir ne usse ek spoon se toast ka corner chura liya. “At least meri meeting ko optional mat banana.”\n\nAnkita ne uski taraf dekha. “Tumhari meeting toh sabse important hai—coffee with the husband.”\n\nKabir ne uski wrist ko lightly touch kiya, phir chhod diya. Unki familiarity comfortable thi. Ankita ke liye duniya ke doosre reactions ki curiosity aur is relationship ki warmth ek hi waqt mein exist karti thi. Isi contradiction ko Sunday ka baaki din aur sharp karne wala tha.",
+      "visuals": [
+        "FRAME 01 · Wide park walking route with three adults at arm's length and early morning light.",
+        "FRAME 02 · Two-person breakfast at Malhotra home, Sunday calendar on phone."
+      ],
+      "notes": []
+    },
+    {
+      "id": "07",
+      "date": "2026-01-04",
+      "time": "18:45–19:58",
+      "place": "Gulmohar Heights garden fair / projector station",
+      "title": "The Garden and the Unfinished Sentence",
+      "raw": "Sunday shaam garden mein chhote health-fair ka setup tha. Meenakshi medicines aur wellness information table arrange kar rahi thi; Shivani children's activity music check kar rahi thi; Taniya budget slips ko clip kar rahi thi. Shreya safety walk-through ke liye thodi der ruki, Sunday duty aur earlier study ke baad. Ankita registration pe thi. Yeh sab ek hi time par alag tasks kar rahe the—koi bhi bina reason dusre corner mein teleport nahi hua.\n\nKabir ne registration ke pehle round mein Ankita ki help ki aur phir entrance par equipment crate ka weight check karne gaya. Rajeev society event mein kab tak rukenge, woh exact known nahi tha; Ankita ne unki location ka koi secret benefit nahi uthaya. Dusri taraf Rohan Shivani aur Tara ke programme ke aas-paas aa-ja raha tha. Nikhil Vihaan ke saath family side mein visible tha. Vikram Anaya ke dekhbhaal mein involved tha. Koi anonymous babysitter nahi.\n\n“Tumne mera QR registration perfect kara diya,” Rohan ne ek waqt kaha.\n\n“Compliment technology ko do,” Ankita ne reply diya.\n\n“Nahi, tumhe.”\n\nAnkita ne ek pal use dekha. “Itna serious mat ho. Public event hai.”\n\nRohan hansa, par woh smile Ankita ne remember ki. Usse pehle ke casually exchanged jokes se yeh thoda alag tha.\n\n7:25 par formal event wrap hone laga. Thoda baad projector ke equipment corner par paper forms return karne ka kaam bacha tha. Ankita aur Rohan few minutes ke liye saath aaye; public garden ab bhi logon se khaali nahi tha.\n\n“Subah tum jaanbujhkar fast walk kar rahi thi?” Rohan ne poocha.\n\n“Shayad. Aur tum jaanbujhkar slow?”\n\n“Shayad.”\n\nDono hase. Ek pause aaya—aisa pause jahan dono ko pata tha ki mazaak ka meaning badal sakta hai. Ankita ne apni file chest ke paas hold ki aur kaha, “Forms kal complete kar lenge. Ghar bhi jaana hai.”\n\nRohan ne stand ko side kiya. “Okay. Good night, Ankita.”\n\nWoh apne family groups ki taraf alag-alag laut gaye. Is working version mein koi secret Rohan kiss nahi hoti. Sirf ek unresolved attraction rehti hai, jo Ankita ke EP07 decisions par pressure daal sakti hai—without inventing an event that has not been approved.",
+      "visuals": [
+        "FRAME 01 · Garden activity map: five separate volunteer tables, parents/children visible in family background.",
+        "FRAME 02 · Projector corner under event lights, two people conversing without hidden witnesses or intimate action."
+      ],
+      "notes": [
+        "Ankita–Rohan Sunday kiss remains optional and NOT written"
+      ]
+    },
+    {
+      "id": "08",
+      "date": "2026-01-05",
+      "time": "13:00–13:15 / 18:10–19:00",
+      "place": "Cyber City office · HR desk and technical meeting room",
+      "title": "A Team That Is Not a Tuition Class",
+      "raw": "Monday lunch ke baad Ankita Aishwarya ke desk tak gayi. Unhone Friday ke office-party gossip ko side rakha. Ankita ne clearly kaha, “Kabir ka younger brother Karan MBA preparation kar raha hai. CV review aur presentation feedback ke liye tum usse milogi? Professional favour hai, koi pressure nahi.”\n\nAishwarya ne calendar dekha. “Introduction kara do. Main usko ek honest review de sakti hoon. Promise of placement nahi.”\n\n“Exactly. Wednesday ko hum ghar par sample project-demo rakh rahe hain. Wahan normal introduction possible hai.”\n\n“Fine. Main usko interview preparation ka perspective de doongi,” Aishwarya ne kaha.\n\nShaam 6:10 par Vivan, Reyansh, Sana aur Ankita meeting room mein aaye. Whiteboard par likha tha: Service Booking Portal. Vivan ne user flow draw kiya, Reyansh ne client-side workflow, Sana ne negative QA cases aur Ankita ne REST API boundaries. Yeh learning circle nahi, colleagues ka project discussion tha.\n\n“User ek slot select karta hai. Race condition?” Sana ne poocha.\n\nAnkita ne marker uthaya. “Backend transaction aur capacity check. Design ki beauty baad mein. Pehle booking double mat hone dena.”\n\nVivan ne kaha, “Aur agar UI kahe seat available hai?”\n\n“Server final source of truth,” Ankita ne jawab diya. Reyansh ne mock screen khola. Discussion mein laughter bhi tha, professional disagreements bhi. Kisi ka personal admiration automatically romantic confession nahi bana.\n\nRohit support counter par apna kaam kar raha tha; aaj ke is four-colleague meeting mein woh participant nahi tha. Friday ki uski awkwardness Ankita ko do-teen baar yaad aayi, lekin usne koi invented encounter insert nahi kiya. Ghar par Wednesday demo ke liye ek genuine AV cable ki zarurat ab identify ho chuki thi.\n\n7 baje ke aas-paas meeting close hui. Ankita ko Kabir se Wednesday visitors ke baare mein baat karni thi. Work commitment ka end aur family conversation ka start physically separated tha—Cyber City se Gulmohar Heights tak commute ka waqt lagta hai.",
+      "visuals": [
+        "FRAME 01 · Office HR desk with separate CV folder, no Karan physically present.",
+        "FRAME 02 · Project whiteboard showing REST/API, UI flow and QA; four colleagues in a normal meeting."
+      ],
+      "notes": [
+        "Work kickoff and Wednesday demo are not tuition sessions"
+      ]
+    },
+    {
+      "id": "09",
+      "date": "2026-01-05",
+      "time": "20:00–21:05",
+      "place": "Malhotra apartment → optional Tower C lobby",
+      "title": "The Guest List",
+      "raw": "Ghar pahunchne ke baad Ankita ne bag side mein rakha aur Kabir ko Monday technical meeting ka short recap diya. 8 baje ke aas-paas woh dining table par baithkar Wednesday ka plan discuss karne lage.\n\n“Four people?” Kabir ne dobara count kiya.\n\n“Vivan, Reyansh, Sana, Aishwarya. Reyansh car drive karega. Main back seat mein. Aishwarya Karan ko CV advice degi. Aman ko agar koi quick domain question ho toh woh poochh sakta hai. Formal class nahi hai.”\n\nKabir ne table par rakhe family calendar ko scroll kiya. “Bas common room clear kar dena. Agar meri production call hui toh main side room use karunga.”\n\n“Okay. Aur Karan ka HR conversation main schedule karwa doongi. Tumhare bhai ko lecture nahi, feedback chahiye.”\n\nKabir ne smile ki. “Tum meri team se zyada meri family manage kar rahi ho.”\n\n“Tum log tickets raise karna band kar do,” Ankita ne palat kar kaha.\n\n8:20 par unki baat khatam hui. Late lobby paperwork exchange ke liye Ankita neeche aane ka soch rahi thi, lekin travel aur family obligations ke wajah se usko mandatory appointment nahi banaya. 8:50 ke aas-paas agar Taniya aur Rohan committee forms ke saath milte hain, toh woh sirf brief public exchange hoga; is draft mein kisi additional physical beat ko locked fact nahi banaya gaya.\n\nRaat ko laptop kholte hue Ankita ne do names phone screen par dekhe—Wednesday ke team group aur maintenance ka still-pending ticket. Rohit ka professional task naturally project-demo mein fit ho sakta tha. Rinku ke connector ka update ab tak nahi aaya tha. Dono ke saath Friday ki unsaid conversation jaise alag-alag directions mein atki hui thi.",
+      "visuals": [
+        "FRAME 01 · Home dining calendar with four guests and clearly separate home-tech and HR labels.",
+        "FRAME 02 · Phone notifications, support cable and outstanding filter ticket, no invented private encounter."
+      ],
+      "notes": [
+        "Monday late lobby is only a continuity possibility, not guaranteed additional scene"
+      ]
+    }
+  ],
+  "readerNext": {
+    "episode": "07",
+    "scene": "01"
+  },
+  "imagePolicy": "Text-only non-explicit Grok storyboard markers; no old images restored."
+}
