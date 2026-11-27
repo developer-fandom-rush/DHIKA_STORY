@@ -16,7 +16,8 @@
     "2026-11-26 editorial time reconciliation for Shreya EP06: Jan3 10:15–11:20 twin rematch/brief bra changing-area sightline, 12:15–12:45 sister planning; Jan4 14:00–15:15 twin bachelor apartment group; Jan5 15:35–16:25 police escape/hold-break drill (shift-dependent), 20:10–20:35 optional call. Cross-lead Saturdays: 08:40–09:05 Ankita/Shreya evidence call, 15:00–15:25 Shivani with Ayaan/Armaan, 16:20–16:35 Ankita with same pair. Sundays: Karan/Aman 11:30–12:15 Shivani, 16:30–17:05 Kavya; household calendar does not book them. This is conflict-checked across events with explicit time windows, while open/unscheduled markers are not assumed attendance.",
     "2026-11-26: New police-duty alignment: Shreya Jan3 08:30–16:30, Jan4 08:00–13:00, Jan5 08:00–17:00 (NO LEAVE any day; fictional roster, not universal police rule). Shreya gym moved BEFORE Saturday shift to 06:20–07:30; evidence call after duty 17:40–18:00, sister study 18:15–18:45. Sunday twins apartment study 15:00–16:15, Monday training earlier 10:30–11:20. Kabir/Rohan/Vikram household presence recorded separately as envelopes with honest profession uncertainty; not independent encounter events.",
     "2026-11-26 Taniya EP06 three-day planning (not final prose): Sat3 trainer Vivek Rao 05:00–05:55 real 5AM invite with visitor log, Soniya study-guest permission call 09:15–09:30; Sun4 Vivek 05:00–05:45, CA Raghav–Chirag home tutoring 11:00–11:55, potential Karan–Aman 13:15–14:00 crossover ONLY IF five-household scheduling hold cleared, Ayaan/Armaan not booked; Mon5 Vivek 05:00–05:45, CA office 10:30–19:30 with professional Vivek Suri review. Old Episode03 office women preserved but none introduced in Episode06. Check with character-collision tests before author approval.",
-    "2026-11-27 user-approved Taniya plot refinement (clocks editorial): Sat3 10:40–10:55 Karan independently asks MBA finance help; Aman is absent from first request and separately seeks invited finance-domain review for a proposed Java/Spring Boot Expense Tracker API. Sat3 16:45–16:55 Shivani separately refers Ayaan/Armaan to Taniya. Sun4 13:15–14:00 Karan/Aman home tutorial includes approved fan-scattered papers / stole-shift moment (different viewpoints, not a second Episode03 collision); Sun4 17:30–18:05 Ayaan/Armaan meet Taniya for the first time for an introductory quantitative diagnostic, with zero wardrobe accident. Actual twins: Karan/Aman only. Shared-character timed event collisions found: zero; five-household society final date still provisional."
+    "2026-11-27 user-approved Taniya plot refinement (clocks editorial): Sat3 10:40–10:55 Karan independently asks MBA finance help; Aman is absent from first request and separately seeks invited finance-domain review for a proposed Java/Spring Boot Expense Tracker API. Sat3 16:45–16:55 Shivani separately refers Ayaan/Armaan to Taniya. Sun4 13:15–14:00 Karan/Aman home tutorial includes approved fan-scattered papers / stole-shift moment (different viewpoints, not a second Episode03 collision); Sun4 17:30–18:05 Ayaan/Armaan meet Taniya for the first time for an introductory quantitative diagnostic, with zero wardrobe accident. Actual twins: Karan/Aman only. Shared-character timed event collisions found: zero; five-household society final date still provisional.",
+    "2026-11-27: Four author-requested EP06 cross-household SOCIAL CANDIDATES indexed Jan3 19:10, Jan4 07:15 and 18:45, Jan5 20:20. No individual husband/female duty overlaps found in existing fixed time envelopes; spouses' unknown job shifts and childcare mean these are NOT bookings. Source episode-06-global-society-crossovers-jan03-05.json. Nikhil occupation and actual Jan3–5 work schedule remain unknown. Original five-lead scenes unchanged. Room for society gate review remains."
   ],
   "events": [
     {
@@ -3824,6 +3825,266 @@
         "REFERRAL_ONLY_NOT_FIRST_PHYSICAL_MEETING"
       ],
       "detail": "Following Shivani's 15:00–15:25 JAM meeting and the separate Ankita/Ayaan/Armaan 16:20–16:35 request, Shivani calls Taniya to ask whether she can assess basic quantitative topics within her CA competence. Taniya agrees to a short introductory Sunday diagnostic, with no presumptive full JAM mathematics qualification. The two students are not on this call."
+    },
+    {
+      "id": "sw06-gs01",
+      "date": "2026-01-03",
+      "sort": "19:10",
+      "start": "19:10",
+      "end": "19:30",
+      "timeLabel": "19:10–19:30",
+      "universe": "sw",
+      "title": "Saturday · Courtyard board setup, not a large party",
+      "lead": "Shared society",
+      "characters": [
+        "Ankita",
+        "Kabir",
+        "Shivani",
+        "Rohan",
+        "Shreya",
+        "Vikram"
+      ],
+      "mentions": [
+        "Sharmi",
+        "Meenakshi",
+        "Nikhil",
+        "Taniya",
+        "Tara",
+        "Anaya"
+      ],
+      "episode": "06 plot",
+      "scene": "SW06-GS01",
+      "kind": "planned",
+      "state": "review",
+      "status": "AUTHOR-REQUESTED SOCIAL PLOT · PROPOSED WINDOW · FIVE-HOUSEHOLD HOLD ACTIVE",
+      "source": "episode-06-global-society-crossovers-jan03-05.json",
+      "reader": {
+        "type": "source-url",
+        "url": "https://github.com/developer-fandom-rush/DHIKA_STORY/blob/main/Society-Wives/episode-06-global-society-crossovers-jan03-05.json"
+      },
+      "flags": [
+        "DISCUSSION CANDIDATE ONLY: new society scenes and participant attendance NOT final/canon",
+        "Four husbands' Jan3–5 shifts and childcare remain conditional",
+        "Do not displace existing five-lead office, study, police or family scenes"
+      ],
+      "detail": "Follow-up to EP01 committee calendar: attach signup sheets and identify Sunday walking route / family health-camp prep; Sharmi can leave notice via group message and does not need to appear. Physical/romantic development: A shared poster corner/handbrush; otherwise normal personal space and friendly humor. Source status: EDITOR_CONDITIONAL__SHREYA_AFTER_18_45_AND_SPOUSES_FAMILY_CHECK_NEEDED.",
+      "beats": [
+        {
+          "id": "SW06-GS01-01",
+          "at": null,
+          "title": "Moment 1",
+          "body": "Ankita and Rohan recall the earlier New Year's walking challenge while adjusting the noticeboard; a folded paper edge requires them to share a board corner, with only a brief handbrush if they both willingly move."
+        },
+        {
+          "id": "SW06-GS01-02",
+          "at": null,
+          "title": "Moment 2",
+          "body": "Kabir joins Ankita after checking his own work phone and sees competent cooperative neighborly work, not a presumption that Ankita is hiding a new relationship."
+        },
+        {
+          "id": "SW06-GS01-03",
+          "at": null,
+          "title": "Moment 3",
+          "body": "Shivani asks Rohan to take Tara back if she needs to finish noticeboard labels, and Vikram can appear briefly with Anaya after Shreya's study, if their evening routine allows."
+        }
+      ]
+    },
+    {
+      "id": "sw06-gs02",
+      "date": "2026-01-04",
+      "sort": "07:15",
+      "start": "07:15",
+      "end": "07:35",
+      "timeLabel": "07:15–07:35",
+      "universe": "sw",
+      "title": "Sunday · The three-lap step-count challenge",
+      "lead": "Shared society",
+      "characters": [
+        "Ankita",
+        "Rohan",
+        "Nikhil"
+      ],
+      "mentions": [
+        "Shivani",
+        "Meenakshi",
+        "Tara",
+        "Vihaan",
+        "Kabir",
+        "Vikram"
+      ],
+      "episode": "06 plot",
+      "scene": "SW06-GS02",
+      "kind": "planned",
+      "state": "review",
+      "status": "AUTHOR-REQUESTED SOCIAL PLOT · PROPOSED WINDOW · FIVE-HOUSEHOLD HOLD ACTIVE",
+      "source": "episode-06-global-society-crossovers-jan03-05.json",
+      "reader": {
+        "type": "source-url",
+        "url": "https://github.com/developer-fandom-rush/DHIKA_STORY/blob/main/Society-Wives/episode-06-global-society-crossovers-jan03-05.json"
+      },
+      "flags": [
+        "DISCUSSION CANDIDATE ONLY: new society scenes and participant attendance NOT final/canon",
+        "Four husbands' Jan3–5 shifts and childcare remain conditional",
+        "Do not displace existing five-lead office, study, police or family scenes"
+      ],
+      "detail": "EP02 Ankita A02 already placed Rohan and Nikhil beside her on a society morning walk; a short Sunday return creates an earned callback instead of a new first encounter. Physical/romantic development: One voluntary high-five and a few normal neighborly steps together. Source status: SUNDAY_WALK_CANDIDATE__ROHAN_NIKHIL_CHILDCARE_HANDOFF_NOT_CONFIRMED.",
+      "beats": [
+        {
+          "id": "SW06-GS02-01",
+          "at": null,
+          "title": "Moment 1",
+          "body": "Ankita informally sets a three-lap/step-count challenge; Rohan undercuts the seriousness with a familiar joke and Ankita enjoys banter without acting as if it is a secret relationship."
+        },
+        {
+          "id": "SW06-GS02-02",
+          "at": null,
+          "title": "Moment 2",
+          "body": "Nikhil finishes a brisk lap and checks time because Meenakshi is home with Vihaan; he notices Ankita's consistent pace and gives a dry compliment."
+        },
+        {
+          "id": "SW06-GS02-03",
+          "at": null,
+          "title": "Moment 3",
+          "body": "At hydration/step tally, Rohan offers a friendly high-five and steps back; no forced couple contact, no staged costume malfunction."
+        }
+      ]
+    },
+    {
+      "id": "sw06-gs03",
+      "date": "2026-01-04",
+      "sort": "18:45",
+      "start": "18:45",
+      "end": "19:25",
+      "timeLabel": "18:45–19:25",
+      "universe": "sw",
+      "title": "Sunday · Community garden health-walk and children’s activities prep",
+      "lead": "Shared society",
+      "characters": [
+        "Ankita",
+        "Shivani",
+        "Taniya",
+        "Meenakshi",
+        "Shreya",
+        "Kabir",
+        "Rohan",
+        "Nikhil",
+        "Vikram"
+      ],
+      "mentions": [
+        "Sharmi",
+        "Aditya",
+        "Tara",
+        "Vihaan",
+        "Anaya"
+      ],
+      "episode": "06 plot",
+      "scene": "SW06-GS03",
+      "kind": "planned",
+      "state": "review",
+      "status": "AUTHOR-REQUESTED SOCIAL PLOT · PROPOSED WINDOW · FIVE-HOUSEHOLD HOLD ACTIVE",
+      "source": "episode-06-global-society-crossovers-jan03-05.json",
+      "reader": {
+        "type": "source-url",
+        "url": "https://github.com/developer-fandom-rush/DHIKA_STORY/blob/main/Society-Wives/episode-06-global-society-crossovers-jan03-05.json"
+      },
+      "flags": [
+        "DISCUSSION CANDIDATE ONLY: new society scenes and participant attendance NOT final/canon",
+        "Four husbands' Jan3–5 shifts and childcare remain conditional",
+        "Do not displace existing five-lead office, study, police or family scenes"
+      ],
+      "detail": "EP01 community-week programme already needs registrations (Ankita), children’s activity (Shivani), basic accounts (Taniya), first-aid/health-camp details (Meenakshi), safety/entry-list advice (Shreya), and chairs/mats/QR/water distribution help from spouses. Physical/romantic development: One shared-board handbrush, one practical forearm steady, one marker pass, one handshake; no kissing, erotic touching, wardrobe slip, or choreographed every-person close-contact ladder.. Source status: FULL_GATHERING_CANDIDATE__REQUIRES_NIKHIL_SUNDAY_DAY_OFF_AND_CHILDCARE__UNBOOKED.",
+      "beats": [
+        {
+          "id": "SW06-GS03-01",
+          "at": "18:50–18:57",
+          "title": "Ankita × Rohan",
+          "body": "Registration QR board: they jointly straighten the sign and share one brief accidental handbrush before giving each other space; callback to morning-walk teasing. Rohan has a private moment of interest but Ankita merely enjoys his humor and capability."
+        },
+        {
+          "id": "SW06-GS03-02",
+          "at": "18:58–19:05",
+          "title": "Meenakshi × Kabir",
+          "body": "First-aid sign/cable layout: Kabir catches a wobbly lightweight display before it tips; Meenakshi briefly steadies his forearm to pass him a clamp. A quick smile and respect for each other's problem-solving, not an established affair."
+        },
+        {
+          "id": "SW06-GS03-03",
+          "at": "19:05–19:11",
+          "title": "Shivani × Nikhil",
+          "body": "Children's instruction board and height marking: Nikhil passes a marker; their fingers brush naturally; both make a light school-vs-clinic joke while alternating Vihaan's care with Meenakshi. No private disclosure."
+        },
+        {
+          "id": "SW06-GS03-04",
+          "at": "19:12–19:18",
+          "title": "Taniya × Vikram",
+          "body": "Budget for safety volunteers/mats: Vikram shifts chairs to clear the walkway while Taniya checks quantities; they exchange a playful confident handshake when the count agrees, no assumed reciprocal attraction."
+        },
+        {
+          "id": "SW06-GS03-05",
+          "at": "19:18–19:23",
+          "title": "Shreya × Kabir",
+          "body": "Parking/safety checklist: Shreya notices a blind spot; Kabir asks a practical follow-up and they share quick appreciative banter. No obligatory physical touch or pre-planned flirt."
+        }
+      ]
+    },
+    {
+      "id": "sw06-gs04",
+      "date": "2026-01-05",
+      "sort": "20:20",
+      "start": "20:20",
+      "end": "20:35",
+      "timeLabel": "20:20–20:35",
+      "universe": "sw",
+      "title": "Monday · Lift-lobby volunteer handoff after work",
+      "lead": "Shared society",
+      "characters": [
+        "Ankita",
+        "Taniya",
+        "Rohan"
+      ],
+      "mentions": [
+        "Kabir",
+        "Shivani",
+        "Meenakshi",
+        "Nikhil",
+        "Vikram",
+        "Shreya"
+      ],
+      "episode": "06 plot",
+      "scene": "SW06-GS04",
+      "kind": "planned",
+      "state": "review",
+      "status": "AUTHOR-REQUESTED SOCIAL PLOT · PROPOSED WINDOW · FIVE-HOUSEHOLD HOLD ACTIVE",
+      "source": "episode-06-global-society-crossovers-jan03-05.json",
+      "reader": {
+        "type": "source-url",
+        "url": "https://github.com/developer-fandom-rush/DHIKA_STORY/blob/main/Society-Wives/episode-06-global-society-crossovers-jan03-05.json"
+      },
+      "flags": [
+        "DISCUSSION CANDIDATE ONLY: new society scenes and participant attendance NOT final/canon",
+        "Four husbands' Jan3–5 shifts and childcare remain conditional",
+        "Do not displace existing five-lead office, study, police or family scenes"
+      ],
+      "detail": "Ankita's 18:10–19:00 office technical meeting and Taniya's 10:30–19:30 CA shift create a plausible later arrival. Rohan may collect updated community forms from the building, but no asserted office occupation. Physical/romantic development: Passing an envelope with ordinary hand contact only if natural; no second high-five or repeated accidental reveal.. Source status: OPTIONAL_EDITOR_SLOT__COMMUTES_OFFICE_END_AND_ROHAN_PRESENCE_UNVERIFIED.",
+      "beats": [
+        {
+          "id": "SW06-GS04-01",
+          "at": null,
+          "title": "Moment 1",
+          "body": "Ankita, arriving after her office wrap-up and commute, briefly asks if the QR form works; Taniya arrives separately carrying her expense notes."
+        },
+        {
+          "id": "SW06-GS04-02",
+          "at": null,
+          "title": "Moment 2",
+          "body": "Rohan collects the committee envelope only if he is home and willing; he remembers Ankita's Sunday joke and the exchange stays warm but public."
+        },
+        {
+          "id": "SW06-GS04-03",
+          "at": null,
+          "title": "Moment 3",
+          "body": "Meenakshi's clinical lesson may have run earlier and Shreya may have an independent 20:10 study call: neither is automatically pulled into Monday's scene."
+        }
+      ]
     }
   ],
   "sourcePolicy": " | Shreya January 3 working scenes SR10–SR13 were moved into the January 1 calendar by direct author instruction 2026-11-16, original plan archived in episode-03-shreya-plan-archive-jan03.json; no content removed from story source."
