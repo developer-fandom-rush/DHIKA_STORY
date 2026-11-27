@@ -5,8 +5,8 @@
   "date": "2026-01-07",
   "weekday": "Wednesday",
   "timezone": "Asia/Kolkata",
-  "status": "AUTHOR_REQUESTED_INITIAL_ROHIT_RINKU_JAN07_WINDOW_BOOKING__STORY_AND_KISS_DECISION_PENDING",
-  "productionStage": "PREPROSE_BOOKED_PROVISIONAL_TIMES__ORIGINAL_EP04B_EP05_EP06_UNTOUCHED",
+  "status": "AUTHOR_DIRECTED_TWO_FIRST_KISSES_APPROVED_FOR_EP07_PLOT__NON_GRAPHIC_PROSE_NOT_YET_WRITTEN__TIMES_SOFT_LOCKED",
+  "productionStage": "TWO_KISS_OUTCOMES_AUTHOR_DIRECTED__TIMELINE_RECONCILED__AUTHOR_PROSE_REVIEW_PENDING",
   "sourceAnchors": [
     "episode-04b-ankita-scene01-source.json: Jan2 Rinku 07:15–07:30 deliberate appearance, filter connector pending and evening update promised but no fulfilled service completion verified",
     "episode-04b-ankita-scene03-rohit-source.json: Jan2 office 09:40–10:20 accident, 14:15–14:30 deliberately chosen second encounter, 14:40 exit",
@@ -53,22 +53,23 @@
   "integratedClock": {
     "rohit": {
       "start": "16:35",
-      "end": "17:00",
-      "place": "Cyber City IT · staffed AV equipment desk / small technical support bay",
+      "end": "17:30",
+      "place": "16:35–17:00 Cyber City staffed support bay; 17:05–17:30 publicly accessible office-complex tea kiosk/covered pedestrian seating after the equipment sign-off",
       "characters": [
         "Ankita",
         "Rohit"
       ],
       "personnelRole": "Office support technician",
-      "timeNature": "AUTHOR_REQUESTED_PROVISIONAL_BOOKING",
+      "timeNature": "AUTHOR_DIRECTED_FIRST_KISS_PLOT_SOFT_BOOKING__ROHIT_BREAK_AND_NO_COLLEAGUE_SIGHTLINE_NEED_SCENE_CHECK",
       "priorFromJan2": "Friday sign-off complete; do not resurrect missing serial number.",
-      "next": "Office team readies for Wednesday offsite 19:15–20:15, no Rohit home visit.",
-      "workHoursGate": "Only if both are actually onsite at Cyber City Wednesday 16:35–17:00."
+      "next": "17:30 individual departure; Ankita rejoins Vivan/Reyansh/Sana/Aishwarya at about 18:00–18:15 for Reyansh car commute, evening home project 19:15–20:15.",
+      "workHoursGate": "Rohit must have a normal personal break at ~17:05 and have completed the AV equipment job; neither person may exchange professional favors for a kiss. Team members have no established witness status.",
+      "kissTime": "17:22–17:25"
     },
     "travelAndGuestAnchor": {
-      "fromOffice": "18:00–18:15 departure candidate after work tasks",
+      "fromOffice": "18:00–18:15 departure after Rohit scene concluded by 17:30",
       "travel": "Travel as group in Reyansh's established five-seat car; Reyansh driver, Aishwarya front, Vivan/Ankita/Sana rear; arrival cannot precede physical commute",
-      "guestHome": "19:15–20:15 prior approved plot candidate",
+      "guestHome": "19:15–20:15 existing author-approved home working-session candidate: first project demo/orientation/HR career intro, NOT formal tuition",
       "guestDeparture": "20:15–20:35 working buffer, not yet frozen",
       "homeReset": "20:35–20:55 working buffer, not yet frozen",
       "participants": [
@@ -84,114 +85,136 @@
     },
     "rinku": {
       "start": "20:55",
-      "end": "21:25",
-      "place": "Malhotra kitchen water-filter point, then visible service exit / short corridor after service",
+      "end": "21:40",
+      "place": "20:55–21:12 Malhotra home's actual water-filter service point; 21:12–21:40 tower entrance / covered open society walkway near usual service exit after service is closed",
       "characters": [
         "Ankita",
         "Rinku"
       ],
       "personnelRole": "Society maintenance/helper",
-      "timeNature": "AUTHOR_REQUESTED_PROVISIONAL_BOOKING__LATE_SERVICE_APPROVAL_AND_HOUSEHOLD_PRIVACY_UNVERIFIED",
+      "timeNature": "AUTHOR_DIRECTED_FIRST_KISS_PLOT_SOFT_BOOKING__LATE_SERVICE_SHIFT_AND_COMMUNITY_WALKWAY_NEED_SCENE_CHECK",
       "serviceReason": "Final replacement coupler delivery and quick fit/pressure check only if society maintenance permits this time. The existing temporary isolation/repair must have made Jan2–7 kitchen safe without continuous uncontrolled leak; otherwise rework timeline.",
       "absenceExplanationCandidates": [
         "Supplier delayed the unusual connector, Rinku kept other building assignments; he apologizes for failing to confirm earlier promised update",
         "Rinku had ordinary roster/day-off change, but never imply death in family as in original DHIKA without author direction"
       ],
-      "absenceTruth": "No final on-page source establishes Rinku taking sudden personal leave. A chosen logistical explanation must appear in dialogue before readers take it as fact.",
-      "householdGate": "Kabir, Karan, Aman and Rajeev are normal residents. No fabricated absence or sleeping children. Their actual positions and whether the kitchen/corridor has privacy must be verified. If privacy fails, keep only verbal closeness and postpone kiss, not the service appointment."
+      "absenceTruth": "No source confirmed Rinku's sudden private leave. Selected explanation is a NEW Jan7 plot resolution, not a retroactive fact from existing EP04B text.",
+      "householdGate": "Kabir, Karan, Aman and Rajeev are not silently removed from the house. Service happens while people can be at home. Ankita and Rinku step into a normal open-air tower walkway after service closure; they choose a personal conversation and brief kiss without claiming camera-blindness. Actual household locations, Rinku late-shift permission, society foot traffic and possible witness remain plotting gates, not a reason to delete the kiss milestone. Shift kiss time/date if a real obstruction is authored.",
+      "kissTime": "21:27–21:31",
+      "absenceExplanationSelectedAsPlot": "Jan2 promised connector arrived later than supplier estimate after a stockout; temporary valve was safely isolated while replacement awaited. Rinku handled other repair calls and failed to text an update promptly. No personal tragedy or fabricated rural leave."
     }
   },
   "proposedRohitScene": {
-    "title": "The Adapter That Wasn't Missing",
-    "coreReason": "Rohit signs out one actual projector display/HDMI adapter or approved test cable for Ankita's known after-office Service Booking Portal home demo; he does not repeat Friday's signed equipment acknowledgment and does not become an unauthorized fifth house guest.",
+    "title": "When the Checklist Ends",
+    "coreReason": "A genuine test-cable/AV adapter check for Wednesday evening four-colleague Service Booking Portal home work session; Friday equipment acknowledgment is done and may not be reopened.",
+    "outfitContinuity": "Ankita chooses dark tailored trousers, a slate-blue sleeveless inner top and a loose ivory overshirt for Wednesday. She is fully dressed at work; the same overshirt remains for the separately already-planned home work-corner incidental slip; no two new wardrobe mishaps.",
     "beats": [
       {
-        "at": "16:35–16:39",
-        "id": "R1",
-        "what": "Office staff support handoff, current client/asset work grounded; he jokes Friday's advice about new problems came true"
+        "id": "ROH07-01",
+        "at": "16:35–16:47",
+        "action": "Rohit prepares and checks the genuinely needed presentation cable at the staffed AV desk. Ankita notices that he no longer loses his words. The exchange acknowledges Jan2 without a repeated equipment accident."
       },
       {
-        "at": "16:39–16:45",
-        "id": "R2",
-        "what": "Ankita deliberately invites his opinion about a new professional presentation look and holds his gaze, maintaining normal, fully dressed outfit; no reenacted garment slip"
+        "id": "ROH07-02",
+        "at": "16:47–17:00",
+        "action": "Ankita chooses a playful look at him and asks whether Friday made him uncomfortable. Rohit says the awkwardness was real but he respected her enough not to presume or gossip. His steadiness, not another astonished gaze, interests her."
       },
       {
-        "at": "16:45–16:51",
-        "id": "R3",
-        "what": "Rohit answers more confidently than Friday; acknowledges previous awkwardness without claiming he was unaware or generating a new first exposure"
+        "id": "ROH07-03",
+        "at": "17:05–17:15",
+        "action": "After work handoff ends, she invites him to walk to the office-complex tea kiosk during a real break. It is a voluntary off-task conversation in a public accessible place; not a hidden AV-room kiss or a manager rewarding subordinate."
       },
       {
-        "at": "16:51–16:57",
-        "id": "R4",
-        "what": "Mutual interest emerges through witty back-and-forth and a genuine private compliment while any independent workplace obligations continue; workplace roles never create a duty to flirt"
+        "id": "ROH07-04",
+        "at": "17:15–17:22",
+        "action": "Light teasing turns personal. Rohit jokes she always tests a system before trusting it; Ankita says people are harder to read. He returns her teasing and offers a sincere compliment about her courage and warmth, not only her clothing. Their hands meet briefly when she accepts the small cable pouch he forgot to pass; both consciously remain close after it is no longer required."
       },
       {
-        "at": "16:57–17:00",
-        "id": "R5",
-        "what": "Practical equipment checklist closes; Ankita returns to own team and commute planning, Rohit stays at office support counter"
+        "id": "ROH07-05",
+        "at": "17:22–17:25",
+        "action": "FIRST KISS — SELECTED PLOT OUTCOME. After mutual acknowledgment and clear welcome, Ankita initiates a brief kiss and Rohit reciprocates. No uninvited grab, exhibition or sexual act. This is an emotional threshold, not an office work obligation."
+      },
+      {
+        "id": "ROH07-06",
+        "at": "17:25–17:30",
+        "action": "Rohit is visibly surprised, then laughs softly instead of freezing into the same Jan2 response. Ankita returns toward office project teammates before 18:00; both know workplace awkwardness and confidentiality are now real potential consequences."
       }
     ],
     "sampleLines": [
-      "Ankita: 'Friday kaha tha na, Monday naye problems aayenge. Ab Wednesday hai aur tumhara adapter phir kaam aa raha hai.'",
-      "Rohit: 'Is baar paper complete hain, ma'am. Aur main sentence bhi complete kar sakta hoon.'",
-      "Ankita: 'Achha? Toh Friday ki woh khamoshi kis baat ki thi?'",
-      "Rohit: 'Aapka sawaal expected nahi tha. Jawab sochne mein der hui, bas.'"
+      "Ankita: 'Friday tum do baar chup hue the. Aaj checklist ke baad bhi chup rahoge?'",
+      "Rohit: 'Friday samajh nahi paaya tha aap mazaak kar rahi thi ya serious. Is baar pooch sakta hoon.'",
+      "Ankita: 'Toh poochho, Rohit. Main har sawaal ka answer mail par nahi deti.'",
+      "Rohit: 'Ab agar yeh personal hai, toh main bilkul clear rehna chahta hoon.'",
+      "Ankita: 'Haan, personal hai. Aur main yahan apni marzi se khadi hoon.'"
     ],
-    "reaction": "Ankita likes direct self-possession; Rohit blushes initially but takes ownership of reply and chooses normal work closure. Their bond is not identical to Rinku's familial-society familiarity.",
-    "kiss": "NO_AUTOMATIC_OFFICE_KISS__JAN07_IS_PERSONAL_RECOGNITION_BEAT"
+    "romanticDifference": "No forced second technical accident. Jan2 he was overwhelmed by external presentation; Jan7 he recognizes HER and answers with respect. Personal conversation and a kiss occur outside the work task after clear choice.",
+    "reaction": "Ankita feels seen as a woman and respected as a senior colleague; Rohit blushes briefly yet responds confidently, checks her eyes after kiss, and lets her go on her schedule.",
+    "kiss": "SELECTED_FIRST_KISS_ON_2026-01-07_17:22_TO_17:25__PLOT_NOT_PUBLISHED_PROSE",
+    "complications": [
+      "Office hierarchy/appearance of favoritism; Rohit works in technical support while Ankita is a Tech Lead. Keep role boundaries and independent consent clear.",
+      "CCTV/other visitors may exist around kiosk; no secret recording or discovered witness invented.",
+      "She joins the exact same four colleagues for 19:15 home project; any observable emotional shift does not mean they know the kiss.",
+      "A later Rohit encounter must address whether this boundary can coexist with work, not automatically become repetitive kissing."
+    ]
   },
   "proposedRinkuScene": {
-    "title": "The Part That Took Five Days",
-    "coreReason": "Complete delayed service visit with actual replacement connector after prior Jan2 promise; no ice-cream, pantry favor, artificial forgotten goods or fabricated tragedy.",
+    "title": "The Repair Was Finished; the Question Wasn't",
+    "coreReason": "One overdue replacement water-filter coupler after Jan2 promised follow-up. The replacement and safe pressure check are completed first, then an optional personal conversation chosen by both adults.",
+    "outfitContinuity": "After Wednesday work-demo guests leave ~20:15–20:35, Ankita changes for a comfortable home evening into a distinct deep-teal casual wrap kurta and trousers. She chooses to look attractive, but this is not John/Dhika's rejected skirt, not Friday's wet nightdress and not a new exposure accident.",
     "beats": [
       {
-        "at": "20:55–21:01",
-        "id": "K1",
-        "what": "Ankita after family team visit and reset asks if this is finally correct connector. Rinku acknowledges delay and lack of update; she is amused but has right to be annoyed"
+        "id": "RIN07-01",
+        "at": "20:55–21:06",
+        "action": "Rinku arrives through regular late service-access route with the exact matching coupler. Ankita opens the ticket, jokes that he has taken five days to remember her water filter. He apologizes for stock delay and failing to update her Friday as promised."
       },
       {
-        "at": "21:01–21:08",
-        "id": "K2",
-        "what": "Quick mechanical repair/test and receipt. No new leak/clothing accident. Service task concludes before any personal direction."
+        "id": "RIN07-02",
+        "at": "21:06–21:12",
+        "action": "He installs and tests the connector safely and signs the receipt. Ankita knows he is there to complete an actual duty; no touching becomes an entitlement of the repair visit. Their returning easy banter is different from Friday's visible self-consciousness."
       },
       {
-        "at": "21:08–21:14",
-        "id": "K3",
-        "what": "Ankita initiates verbal teasing about Jan2 awkward silence. She may choose a composed deliberate look or remove an already loose overshirt, without restaging an anatomical exposure. Rinku is less startled than before and answers sincerely."
+        "id": "RIN07-03",
+        "at": "21:12–21:19",
+        "action": "He heads toward the normal tower exit. Ankita voluntarily accompanies him down for some fresh air after long office/team activity. They keep their conversation in the covered courtyard path rather than relying on every family member magically vanishing from the kitchen."
       },
       {
-        "at": "21:14–21:19",
-        "id": "K4",
-        "what": "Rinku reveals he remembered her kindness and the unusual attention; he is honest about his uncertainty. Ankita admits she was deliberately teasing on Jan2. Each checks whether the mutual interest is welcome, separate from repair work."
+        "id": "RIN07-04",
+        "at": "21:19–21:26",
+        "action": "She reveals that on Jan2 she had deliberately tested whether he noticed her. He admits his silence meant he was attracted and uncertain whether she wanted him to say anything. He offers his own small honest answer—not fabricated bereavement or life crisis. She responds by asking him to speak to her as a person rather than only a service worker."
       },
       {
-        "at": "21:19–21:23",
-        "id": "K5",
-        "what": "FIRST KISS CANDIDATE, not factual canon: only if household sightlines and both adults' explicit choice credibly allow. A short mutually initiated kiss, not a startled unasked-for imitation of DHIKA. If conditions fail, end at a personal admission and move the milestone later."
+        "id": "RIN07-05",
+        "at": "21:26–21:31",
+        "action": "Their teasing pauses into a mutually chosen closeness. Ankita touches his hand of her own choice; he first gives her space to change her mind. They explicitly welcome a first brief kiss, SELECTED OUTCOME. It is neither a replay of DHIKA ice-cream finger incident nor a sudden involuntary kiss."
       },
       {
-        "at": "21:23–21:25",
-        "id": "K6",
-        "what": "Aftershock is distinct: Rinku initially falls silent, then checks her reaction. Ankita is confident but now understands this would affect her marriage; she does not erase or automatically confess. Rinku exits through normal service route."
+        "id": "RIN07-06",
+        "at": "21:31–21:40",
+        "action": "His first reaction is disbelief followed by a shy smile and direct check that she is comfortable. Ankita's second kiss of the evening changes her own assessment of what she is doing. Rinku takes a normal exit; returning to Kabir and the brothers brings genuine secrecy/relationship conflict, with no invented confession or witness."
       }
     ],
     "sampleLines": [
-      "Ankita: 'Paanch din mein connector mila hai ya mujhse bachne ka bahana?'",
-      "Rinku: 'Part late tha, madam. Aur... Friday ke baad main kya bolun, samajh nahi aaya.'",
-      "Ankita: 'Friday ko jo tumne notice kiya, woh itna accidental nahi tha.'",
-      "Rinku: 'Main andaza nahi lagana chahta tha.'",
-      "Ankita: 'Iss baar andaza mat lagao. Poochho.'"
+      "Ankita: 'Rinku, connector itna rare tha ya tumhari Friday wali khamoshi?'",
+      "Rinku: 'Part nahi mila tha. Update na karna meri galti thi... aur us din ki baat bhi yaad thi.'",
+      "Ankita: 'Achha? Toh jo main jaanbujhkar kar rahi thi, usko tumne kya samjha?'",
+      "Rinku: 'Maine samjha shayad aap chahti thi main notice karun. Lekin main assume nahi karna chahta tha.'",
+      "Ankita: 'Ab main tumse seedha poochh rahi hoon. Mujhe dekhkar tum kya feel karte ho?'"
     ],
-    "wardrobe": "Whatever she genuinely changed into for Wednesday household project session; no late-night surprise costume change, no duplicated sleeve/placket incident.",
-    "reaction": "Rinku's hesitation turns to articulate sincerity and explicit reciprocation; Ankita has actual second thoughts after a potentially chosen boundary crossing, unlike a shy newcomer. Neither has to mirror original Chotu's misunderstanding.",
-    "kiss": "PROPOSED_FIRST_KISS__REQUIRES_CONSENT_PRIVACY_AUTHOR_SCENE_APPROVAL",
-    "privacyFallback": "No kiss if Kabir or a family member is at the kitchen/service counter, public camera area, or overhearing distance; visitor dialogue remains."
+    "romanticDifference": "He knows Ankita outside her professional identity; closeness and teasing grow from familiar household service, earlier trust and his restraint. The new outfit is her own evening choice; visual presentation has meaning, not a duplicate anatomical reveal.",
+    "reaction": "Rinku moves from Jan2 avoidance to genuine, specific words and a returned kiss. Ankita is not naïve: she knows the choice affects Kabir's marriage and can have community consequences.",
+    "kiss": "SELECTED_FIRST_KISS_ON_2026-01-07_21:27_TO_21:31__PLOT_NOT_PUBLISHED_PROSE",
+    "complications": [
+      "Kabir, Karan, Aman and Rajeev remain real household residents; no invented empty home.",
+      "Publicly accessible community walkway means possible neighbors/CCTV without asserting a witnessed kiss.",
+      "Rinku's after-hours service authorization and true departure status require consistent story setup.",
+      "After both Rohit and Rinku kisses on the same day, Ankita must carry meaningful choice, consequence and contrast rather than being reset as bashful/innocent next morning."
+    ]
   },
   "knowledgeLedger": {
-    "Ankita": "Knows Jan2 chosen Rinku/Rohit attention tests and Wed7 different personal replies; Sunday optional Rohan event not assumed occurred.",
-    "Rohit": "Knows only Friday office events + his Wednesday office dialogue; never knows Rinku society visit without independent source.",
-    "Rinku": "Knows only Jan1/Jan2 home filter interactions plus Wednesday repair/private conversation; does not know Rohit or Ankita–Rohan private thoughts.",
-    "Kabir": "Knows regular family/home project guests and overdue filter work only if told or witnessed. Does not magically know any private kiss.",
+    "Ankita": "Knows both selected Jan7 kisses as separate actions, EP05 marriage, EP06 social attraction; cannot treat optional Sunday Rohan kiss as accomplished.",
+    "Rohit": "Knows Jan2 office and Wed7 kiss; has no independent knowledge of Rinku or family private matters.",
+    "Rinku": "Knows Jan1/Jan2 filter and Wed7 reciprocal kiss; has no independent knowledge of Rohit.",
+    "Kabir": "Knows ordinary Wednesday project visitors and filter service as warranted by his actual household presence; does not know either kiss without an established sightline/confession. His marriage with Ankita remains real.",
     "KaranAman": "Present in home community by default but not assigned spectators to kitchen/private dialogue. Actual whereabouts must be explicit.",
     "otherWednesdayGuests": "Vivan/Reyansh/Sana/Aishwarya leave around 20:15–20:35 candidate; no witness claim unless clock changes."
   },
@@ -208,6 +231,16 @@
     "sourceManuscriptsOverwritten": false,
     "globalTimelineBookingRequested": true,
     "uiReadStoryPublished": false,
-    "nextVerification": "If Wednesday 19:15–20:15 home group overruns, Rinku 20:55 must move. No overlap may be resolved by teleporting."
+    "nextVerification": "Reconcile newly longer Wed7 Rohit 16:35–17:30 and Rinku 20:55–21:40 slots against 18:00–18:15 car departure, 19:15–20:15 working visit, 20:15–20:55 exit/reset; story still needs credible Rohit break and Rinku late-service permission, but do not silently drop either author-selected kiss.",
+    "firstKissRohit": "AUTHOR_DIRECTED_PLOT_LOCK__NOT_YET_IN_PROSE",
+    "firstKissRinku": "AUTHOR_DIRECTED_PLOT_LOCK__NOT_YET_IN_PROSE",
+    "kissOutcomeNowRequiredInFinalEP07": true
+  },
+  "revisedByAuthorDirection20261127": {
+    "direction": "Ankita kisses BOTH Rohit and Rinku on Wed 7 January as two earned, differentiated relationship milestones. Do not insert another preliminary-only teasing scene; the two kisses are selected plot outcomes, not already-published manuscript facts.",
+    "formalTuitionLock": "NO FIRST FORMAL ANKITA TUITION SESSION HAS OCCURRED AS OF END 7 JAN: Saturday Aman Java query was informal at-home doubts, Ayaan-Armaan Saturday only requested mentoring, Tue6 online CBT 19:30–20:15 was unbooked and not held, Monday office kickoff was work planning, and Wed7 home project visit is orientation/practice/demo with Aishwarya–Karan introduction, not the first structured tuition class.",
+    "sourceRule": "Use January 1 Rinku water-filter incident; Jan 2 early Ankita/Rinku deliberately chosen visibility; Jan 2 twice Rohit office encounters, prior self-awareness; EP05 Kabir marriage close, EP06 family/twins/society self-awareness. No stolen DHIKA ice-cream, Pappu, rejected John dress, or bereavement plots.",
+    "motivation": "Two men respond differently to the same confident adult woman's private curiosity: Rohit sees her judgment and defends her dignity as a professional; Rinku knows the unguarded domestic Ankita and respects that her boldness is voluntary. One is not consolation or replacement for the other.",
+    "framing": "Romantic/adulterous tension in tasteful adult non-graphic prose; distinct mutual kisses with chosen timing, emotional consequence, no assumption that work authority or maintenance access grants intimacy."
   }
 }
