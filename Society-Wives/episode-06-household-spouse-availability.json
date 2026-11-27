@@ -381,31 +381,36 @@
     "fianceException": "Aditya is Taniya's fiancé, not husband; Jan3–5 whereabouts remain open"
   },
   "societyCrossoverProposals20261127": {
-    "status": "AUTHOR_REQUESTED_SOCIAL_SCENARIO__FOUR_HUSBAND_LOCATIONS_STILL_EDITOR_OPTIONS_NOT_CANON",
+    "status": "BOLDER_SOCIAL_SCENARIO_DESIGNED__SPOUSE_LOCATION_STILL_NOT_CANON",
     "source": "episode-06-global-society-crossovers-jan03-05.json",
     "dayWindows": [
       {
         "date": "2026-01-03",
         "window": "19:10–19:30",
-        "purpose": "Optional small committee-board prep; Kabir and Rohan with spouses, Vikram only after Shreya's 18:45 study and with Anaya care; Nikhil NOT required"
+        "purpose": "Ankita–Rohan invited waist support at committee banner, Shreya–Kabir close CCTV demonstration; family/children care still required"
       },
       {
         "date": "2026-01-04",
         "window": "07:15–07:35",
-        "purpose": "Ankita/Rohan/Nikhil step challenge; Shivani supervises Tara, Meenakshi supervises Vihaan; Vikram remains with Anaya while Shreya later on police duty"
+        "purpose": "Ankita–Rohan consented waist support fitness challenge, Nikhil witness only partial public banter; Shivani with Tara, Meenakshi with Vihaan, Vikram with Anaya"
       },
       {
         "date": "2026-01-04",
         "window": "18:45–19:25",
-        "purpose": "Potential family garden gathering (4 husbands and 5 female leads) with all three children supervised by their own parents; must confirm all four male weekend work shifts before locking"
+        "purpose": "Potential all-nine adult garden committee with Meenakshi–Kabir, Shivani–Nikhil, Taniya–Vikram, Ankita–Rohan and Shreya–Kabir distinct adult romantic threads; children supervised"
+      },
+      {
+        "date": "2026-01-04",
+        "window": "19:40–19:58",
+        "purpose": "Ankita–Rohan mutual embrace; optional kiss only if author later locks. Private spouse knowledge cannot be invented"
       },
       {
         "date": "2026-01-05",
         "window": "20:20–20:35",
-        "purpose": "Small Ankita–Taniya–Rohan lobby envelope handoff after office, optional and commute-dependent"
+        "purpose": "Small after-office society knowledge callback, no obligatory weekday repeat sexual touching"
       }
     ],
-    "nikhilNote": "Preferred coherent Sunday scenario = short morning walk 07:15 with Meenakshi watching Vihaan; 11:10 with Vihaan when Meenakshi at court; family evening 18:45 garden. Not proof of leave; ask author before publishing.",
-    "husbandReality": "None of Kabir/Rohan/Vikram/Nikhil has a fully verified Jan3–5 real-world-type shift; all proposed social windows remain soft holds."
+    "nikhilNote": "Jan4 short morning garden circuit as candidate only while Meenakshi cares for Vihaan; Nikhil with Vihaan at 11:10 Meenakshi society court; Jan4 18:45 evening outing conditional. His actual occupation/time off still unverified.",
+    "husbandReality": "No full Jan3–5 free-time guarantee for any husband. Proposed physical actions do not constitute confirmed attendance."
   }
 }
