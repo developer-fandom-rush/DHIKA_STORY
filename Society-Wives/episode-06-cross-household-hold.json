@@ -72,7 +72,8 @@
     "episode-06-household-spouse-availability.json",
     "episode-06-meenakshi-jan03-05-plan.json",
     "episode-06-global-audit-approved-plots-20261127.json",
-    "episode-06-taniya-plan.json"
+    "episode-06-taniya-plan.json",
+    "episode-06-global-society-crossovers-jan03-05.json"
   ],
   "otherLeadHandoff": "Use episode-06-household-spouse-availability.json as the explicit provisional Jan3–5 spouse and Shreya duty source. The prior Shreya marriage-first premise is superseded by existing Shreya×Vikram Episode05 ending. Check all five leads before unlocking optional shared society gatherings. Do not invent husband's profession or automatic household absence.",
   "sharedKaranAmanLedger": {
@@ -125,5 +126,17 @@
     "status": "SAVED_AND_SOURCE_RECONCILED__OPTIONAL_SOCIETY_CROSSOVERS_STILL_ON_HOLD",
     "source": "episode-06-global-audit-approved-plots-20261127.json",
     "note": "All five female leads have Jan3–5 plot files. Current source statuses distinguish approved plot parameters from times not locked. Four husbands Kabir/Rohan/Vikram/Nikhil added to availability ledger; Aditya is Taniya fiancé. Do not call all husbands free or all women in office on Monday. User's next stage is five-lead society schedule, spouses, children, outings and cross-lead encounters."
+  },
+  "proposedSocietyInteractions20261127": {
+    "status": "NEW_SOCIETY_SCENES_PREPARED__REVIEW_ONLY__HOLD_NOT_LIFTED",
+    "source": "episode-06-global-society-crossovers-jan03-05.json",
+    "timelineSource": "ui/src/data/sw-timeline-future.json",
+    "provisionalWindows": [
+      "2026-01-03 19:10–19:30",
+      "2026-01-04 07:15–07:35",
+      "2026-01-04 18:45–19:25",
+      "2026-01-05 20:20–20:35"
+    ],
+    "note": "EP01 community-week courtyard and Ankita EP02 walking circle are genuine source anchors; cross-spouse new light attraction/action is unapproved proposed writing. Do not invent real shift commitments. Children supervised by parents."
   }
 }
