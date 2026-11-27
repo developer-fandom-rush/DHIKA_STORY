@@ -21,6 +21,7 @@ const routeTo=(event:Event)=>{
  if(r.type==='sw-episode02')return openPage('reading',{character:r.character,scene:r.scene});
  if(r.type==='sw-episode03')return openPage('reading',{episode:'03',character:r.character,scene:r.scene});
  if(r.type==='sw-episode05')return openPage('reading',{episode:'05',scene:r.scene});
+ if(r.type==='sw-working-ankita')return openPage('reading',{episode:String(r.episode||'06'),character:'ankita',scene:r.scene});
  if(r.type==='sw-prologue')return openPage('home',{scene:r.scene});
  return openPage('planning',{lead:r.character||'meenakshi',part:r.part,scene:r.scene});
 };
@@ -38,7 +39,7 @@ function Summary({event}:{event:Event}){
    {event.sourceEvidence&&<p className="timeline-evidence"><strong>Source passage begins:</strong> {event.sourceEvidence}</p>}
    {event.originalWeekday&&<p className="timeline-weekday">Original Dhika weekday: <strong>{event.originalWeekday}</strong>. Calendar mapping follows your Jan 2026 anchor; original wording remains unchanged.</p>}
    {flags.length>0&&<div className="timeline-flags"><strong>Continuity review</strong><ul>{flags.map((flag,i)=><li key={i}>{flag}</li>)}</ul></div>}
-   <div className="timeline-event-actions"><button type="button" className="button primary" onClick={()=>routeTo(event)}>{event.reader.type==='source-url'?'Open source plot':event.reader.type==='dhika'?'Read in original Dhika reader':event.kind==='source-scene'?'Read original scene':event.kind==='published-prose'?'Read approved scene':event.kind==='prologue'?'Read prologue':'Open related planning'}</button></div>
+   <div className="timeline-event-actions"><button type="button" className="button primary" onClick={()=>routeTo(event)}>{event.reader.type==='sw-working-ankita'?'Read working scene':event.reader.type==='source-url'?'Open source plot':event.reader.type==='dhika'?'Read in original Dhika reader':event.kind==='source-scene'?'Read original scene':event.kind==='published-prose'?'Read approved scene':event.kind==='prologue'?'Read prologue':'Open related planning'}</button></div>
   </div>
  </details>;
 }
