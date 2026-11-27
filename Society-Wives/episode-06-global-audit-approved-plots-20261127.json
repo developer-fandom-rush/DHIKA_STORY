@@ -203,7 +203,7 @@
   ],
   "globalGate": {
     "source": "episode-06-cross-household-hold.json",
-    "status": "KEEP_HOLD__SOCIETY_CANDIDATES_INDEXED__HUSBAND_AND_CHILDCARE_CLOCKS_NOT_CONFIRMED",
+    "status": "KEEP_HOLD__BOLD_SOCIETY_CANDIDATES_INDEXED__HUSBAND_AND_CHILDCARE_CLOCKS_NOT_CONFIRMED",
     "outstandingDecisions": [
       "Decide Nikhil's actual Saturday, Sunday and Monday office/errand/home windows and who watches Vihaan; reconcile Saturday phone and Monday clinic session",
       "Confirm Kabir's Sunday on-call status, Rohan's real occupation/commitments, Vikram shift and Anaya care, and Aditya's relationship-specific plans",
@@ -238,16 +238,18 @@
     "episode-06-global-society-crossovers-jan03-05.json"
   ],
   "societyCrossoverProposal20261127": {
-    "status": "DESIGNED_AND_ADDED_TO_UNIVERSAL_TIMELINE_AS_REVIEW_CANDIDATES__NO_BOOKINGS",
+    "status": "BOLD_REVISION_SAVED_AND_INDEXED_TO_UNIVERSAL_TIMELINE_AS_CANDIDATES__NOT_BOOKED",
     "source": "episode-06-global-society-crossovers-jan03-05.json",
     "events": [
       "SW06-GS01",
       "SW06-GS02",
       "SW06-GS03",
+      "SW06-GS05",
       "SW06-GS04"
     ],
-    "candidateSundayMain": "2026-01-04 18:45–19:25",
-    "globalGate": "HOLD remains active until 4 husbands/3 children and participants' availability confirmed",
-    "episodeProse": "Unwritten"
+    "candidateSundayMain": "2026-01-04 18:45–19:25 garden; 19:40–19:58 projector optional",
+    "globalGate": "Four husbands work/childcare and exact scene choices are not fully verified. All-five attendance remains tentative.",
+    "episodeProse": "Unwritten",
+    "romanticGoal": "Intentional, adult, non-graphic close physical gestures, couple-specific flirt, optional bolder private milestone and asymmetric spouse knowledge; not generic colleague-only interactions"
   }
 }
