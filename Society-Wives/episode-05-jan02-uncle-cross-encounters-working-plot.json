@@ -84,5 +84,45 @@
     "The working 20:32–20:45 cross-house transfer needs travel/arrival feasibility; preserve 20:50/20:58/21:05 legacy chronology or flag precise timing for author revision.",
     "No automatic intimacy competition, truth-or-dare or mutual undressing. Those are deferred possibilities, not approved 02 Jan content.",
     "Original 02 Jan night manuscript is not silently rewritten. Later reconciliation may adjust dialogue/reactions only after author review."
-  ]
+  ],
+  "authorDirectedMeenakshiTwoElderDiscovery": {
+    "updatedOn": "2026-11-27",
+    "userDirection": "Apply the same two-older-men discovery continuity to Meenakshi that the author reports for Shivani: Meenakshi notices Om and Mohan separately in a visibly aroused, upright/standing state. Do not replace the original one-man discovery or merge them into a simultaneous scene.",
+    "status": "AUTHOR_DIRECTED_PLOT_LOCK__SECOND_OBSERVATION_NEEDS_TIMELINE_INTEGRATION__NOT_YET_PUBLISHED_EP05_PROSE",
+    "existingVerifiedBeat": {
+      "observer": "Meenakshi",
+      "observed": "Mohan",
+      "scene": "EP05 Scene 05 — Meenakshi, Alone",
+      "time": "2026-01-02 20:58",
+      "place": "Kapoor residence, Mohan's room doorway",
+      "knowledge": "Meenakshi witnesses his private arousal, then withdraws without being noticed.",
+      "sourceStatus": "EXISTING_VERBATIM_SCENE_UNCHANGED"
+    },
+    "additionalAuthorDirectedBeat": {
+      "observer": "Meenakshi",
+      "observed": "Om",
+      "action": "At a separate adult-only moment, she also observes Om visibly aroused while standing and is surprised by that discovery. Present the observation briefly and non-graphically; maintain her choice to disengage and clear consent boundaries.",
+      "candidatePriorWork": "U03 separate Ahuja-study cross-encounter was already proposed for roughly 20:32–20:45, but its route, duration, and sequence relative to the 20:50 dinner and 20:55 departure must be reconciled.",
+      "sourceStatus": "AUTHOR_DIRECTED_NEW_CONTINUITY__SCENE_LOCATION_AND_CLOCK_NOT_YET_CANON",
+      "constraints": [
+        "No invented common room where both men are discovered at once.",
+        "Do not claim Meenakshi directly witnessed Shivani's private discovery.",
+        "Do not imply observation of arousal provides consent to physical contact.",
+        "Do not involve Vihaan or Tara in private adult scenes."
+      ]
+    },
+    "counterpart": {
+      "character": "Shivani",
+      "authorReport": "User reports Shivani's earlier update also establishes observing both older men in visibly aroused standing states.",
+      "verifiedExistingSource": "The preserved nine-scene EP05 document independently establishes Shivani observing Om. Her separate observation of Mohan is not yet in that preserved nine-scene version.",
+      "rule": "Treat counterpart update as author-supplied direction; do not silently rewrite or certify an unseen separate Shivani manuscript."
+    },
+    "consequence": "For Meenakshi, the two separate discoveries inform her unsettled reaction and make the already-written private evening with Nikhil feel different; preserve her agency and their established affectionate marriage. The exact emotional interpretation is for author review, not a new finished intimacy scene.",
+    "continuityLocks": [
+      "Original nine-scene Google Doc and immutable Source Vault snapshot remain unchanged.",
+      "Do not promote this new author-directed beat to approved published prose until a separately versioned revised scene is written and chronologically checked.",
+      "Neither woman automatically shares her independent discovery with the other or with her husband.",
+      "Mohan is an unrelated older household guest, not Meenakshi's biological or legal father-in-law."
+    ]
+  }
 }
