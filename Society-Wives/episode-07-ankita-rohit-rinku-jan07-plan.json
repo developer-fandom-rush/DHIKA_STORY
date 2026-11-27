@@ -230,11 +230,18 @@
     "storyboardImagesCreated": false,
     "sourceManuscriptsOverwritten": false,
     "globalTimelineBookingRequested": true,
-    "uiReadStoryPublished": false,
+    "uiReadStoryPublished": true,
     "nextVerification": "Reconcile newly longer Wed7 Rohit 16:35–17:30 and Rinku 20:55–21:40 slots against 18:00–18:15 car departure, 19:15–20:15 working visit, 20:15–20:55 exit/reset; story still needs credible Rohit break and Rinku late-service permission, but do not silently drop either author-selected kiss.",
     "firstKissRohit": "AUTHOR_DIRECTED_PLOT_LOCK__NOT_YET_IN_PROSE",
     "firstKissRinku": "AUTHOR_DIRECTED_PLOT_LOCK__NOT_YET_IN_PROSE",
-    "kissOutcomeNowRequiredInFinalEP07": true
+    "kissOutcomeNowRequiredInFinalEP07": true,
+    "draftKissScenesWritten": true,
+    "statusClarification": "Two first kisses appear in new WORKING READER prose under author review; this is not a final frozen canonical event record. Original EP04B/EP05 source is untouched.",
+    "readerUrl": "https://developer-fandom-rush.github.io/DHIKA_STORY/Society-Wives/#/reading?episode=07&character=ankita&scene=01",
+    "readerSources": [
+      "episode-06-ankita-reader-working.json",
+      "episode-07-ankita-reader-working.json"
+    ]
   },
   "revisedByAuthorDirection20261127": {
     "direction": "Ankita kisses BOTH Rohit and Rinku on Wed 7 January as two earned, differentiated relationship milestones. Do not insert another preliminary-only teasing scene; the two kisses are selected plot outcomes, not already-published manuscript facts.",
