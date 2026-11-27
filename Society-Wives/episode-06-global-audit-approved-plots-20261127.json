@@ -203,7 +203,7 @@
   ],
   "globalGate": {
     "source": "episode-06-cross-household-hold.json",
-    "status": "KEEP_HOLD__BOLD_SOCIETY_CANDIDATES_INDEXED__HUSBAND_AND_CHILDCARE_CLOCKS_NOT_CONFIRMED",
+    "status": "AUTHOR_INITIAL_CROSSOVER_PLOT_SAVED__FINAL_ATTENDANCE_HOLD",
     "outstandingDecisions": [
       "Decide Nikhil's actual Saturday, Sunday and Monday office/errand/home windows and who watches Vihaan; reconcile Saturday phone and Monday clinic session",
       "Confirm Kabir's Sunday on-call status, Rohan's real occupation/commitments, Vikram shift and Anaya care, and Aditya's relationship-specific plans",
@@ -211,7 +211,8 @@
       "Discuss one society outing scenario (Sat night vs Sun evening vs subset) and all participant names; do not invent a complete five-couple movie",
       "Separate core five-women locations from husbands, children, twins, elders, guards, gym and hospital workers; only then release hold"
     ],
-    "proposedSocietyPlan": "episode-06-global-society-crossovers-jan03-05.json"
+    "proposedSocietyPlan": "episode-06-global-society-crossovers-jan03-05.json",
+    "collisionAudit": "episode-06-society-location-and-collision-audit-20261127.json"
   },
   "publication": {
     "mode": "APPROVED_PLOT_SECTION_AUDIT",
@@ -235,10 +236,11 @@
     "episode-05-publication-index.json",
     "source-vault/ep05-meenakshi-shivani-jan02.json",
     "character-directory.json",
-    "episode-06-global-society-crossovers-jan03-05.json"
+    "episode-06-global-society-crossovers-jan03-05.json",
+    "episode-06-society-location-and-collision-audit-20261127.json"
   ],
   "societyCrossoverProposal20261127": {
-    "status": "BOLD_REVISION_SAVED_AND_INDEXED_TO_UNIVERSAL_TIMELINE_AS_CANDIDATES__NOT_BOOKED",
+    "status": "AUTHOR_APPROVED_INITIAL_PLOT__TIMES_SAVED_AS_PROVISIONAL__EXISTING_LEAD_CLOCKS_UNTOUCHED",
     "source": "episode-06-global-society-crossovers-jan03-05.json",
     "events": [
       "SW06-GS01",
@@ -250,6 +252,18 @@
     "candidateSundayMain": "2026-01-04 18:45–19:25 garden; 19:40–19:58 projector optional",
     "globalGate": "Four husbands work/childcare and exact scene choices are not fully verified. All-five attendance remains tentative.",
     "episodeProse": "Unwritten",
-    "romanticGoal": "Intentional, adult, non-graphic close physical gestures, couple-specific flirt, optional bolder private milestone and asymmetric spouse knowledge; not generic colleague-only interactions"
+    "romanticGoal": "Intentional, adult, non-graphic close physical gestures, couple-specific flirt, optional bolder private milestone and asymmetric spouse knowledge; not generic colleague-only interactions",
+    "collisionAudit": "episode-06-society-location-and-collision-audit-20261127.json",
+    "timings": [
+      "2026-01-03 19:10–19:30",
+      "2026-01-04 07:15–07:35",
+      "2026-01-04 18:45–19:25",
+      "2026-01-04 19:40–19:58 optional",
+      "2026-01-05 20:50–21:05"
+    ],
+    "shreyaDutyRule": "Sat police 08:30–16:30, Sun police 08:00–13:00, Mon police 08:00–17:00; never society during duty. Sat after 18:45 home study, Sun after 16:15 apartment study; none Mon.",
+    "optionalMilestone": "Ankita–Rohan kiss still not locked as occurred",
+    "confirmedAttendance": false,
+    "collisionCountKnownTimed": 0
   }
 }
