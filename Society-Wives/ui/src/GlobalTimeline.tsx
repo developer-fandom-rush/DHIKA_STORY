@@ -5,7 +5,7 @@ import swLater from './data/sw-timeline-future.json';
 import dhikaIndex from './data/dhika-universal-timeline.json';
 
 type Beat={id?:string;title?:string;at?:string|null;body?:string;internal?:string};
-type LinkTarget={type:string;character?:string;scene?:string;episode?:number;paragraph?:string;part?:string};
+type LinkTarget={type:string;character?:string;scene?:string;episode?:number;paragraph?:string;part?:string;url?:string};
 type Event={id:string;date:string|null;storyDay?:number|null;sort:string|null;start?:string|null;end?:string|null;timeLabel:string;title:string;subtitle?:string|null;lead:string;characters?:string[];mentions?:string[];episode:string;scene:string;kind:string;state:string;status:string;source:string;reader:LinkTarget;flags?:string[];detail?:string|null;beats?:Beat[];originalWeekday?:string|null;sourceEvidence?:string};
 const swEvents=([...swJan.events,...swLater.events]) as Event[];
 const dhikaEvents=dhikaIndex.events as Event[];
@@ -16,6 +16,7 @@ const statusColor=(s:string)=>s==='rescheduled'?'timeline-rescheduled':s==='alig
 const shortStatus=(e:Event)=>e.state==='rescheduled'?'Rescheduled, not removed':e.state==='aligned'?'Mapped story day':e.state==='approved-prose'?'Approved prose':e.state==='source-review'?'Published · review':e.state==='date-review'?'Date review':e.status;
 const routeTo=(event:Event)=>{
  const r=event.reader;
+ if(r.type==='source-url'&&r.url){window.open(r.url,'_blank','noopener,noreferrer');return;}
  if(r.type==='dhika')return openPage('dhika-reader',{episode:String(r.episode||1),paragraph:r.paragraph});
  if(r.type==='sw-episode02')return openPage('reading',{character:r.character,scene:r.scene});
  if(r.type==='sw-episode03')return openPage('reading',{episode:'03',character:r.character,scene:r.scene});
@@ -37,7 +38,7 @@ function Summary({event}:{event:Event}){
    {event.sourceEvidence&&<p className="timeline-evidence"><strong>Source passage begins:</strong> {event.sourceEvidence}</p>}
    {event.originalWeekday&&<p className="timeline-weekday">Original Dhika weekday: <strong>{event.originalWeekday}</strong>. Calendar mapping follows your Jan 2026 anchor; original wording remains unchanged.</p>}
    {flags.length>0&&<div className="timeline-flags"><strong>Continuity review</strong><ul>{flags.map((flag,i)=><li key={i}>{flag}</li>)}</ul></div>}
-   <div className="timeline-event-actions"><button type="button" className="button primary" onClick={()=>routeTo(event)}>{event.reader.type==='dhika'?'Read in original Dhika reader':event.kind==='source-scene'?'Read original scene':event.kind==='published-prose'?'Read approved scene':event.kind==='prologue'?'Read prologue':'Open related planning'}</button></div>
+   <div className="timeline-event-actions"><button type="button" className="button primary" onClick={()=>routeTo(event)}>{event.reader.type==='source-url'?'Open source plot':event.reader.type==='dhika'?'Read in original Dhika reader':event.kind==='source-scene'?'Read original scene':event.kind==='published-prose'?'Read approved scene':event.kind==='prologue'?'Read prologue':'Open related planning'}</button></div>
   </div>
  </details>;
 }
