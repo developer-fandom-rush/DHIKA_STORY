@@ -371,12 +371,41 @@
     "episode-06-meenakshi-jan03-05-plan.json",
     "episode-04a-meenakshi-source.json",
     "episode-04b-meenakshi-source.json",
-    "source-vault/ep05-meenakshi-shivani-jan02.json"
+    "source-vault/ep05-meenakshi-shivani-jan02.json",
+    "episode-06-global-society-crossovers-jan03-05.json"
   ],
   "episode06FiveLeadReview": {
     "date": "2026-11-27",
     "status": "AUTHOR_REQUESTED_GLOBAL_AVAILABILITY_REVIEW__FOUR_HUSBANDS_COVERED__ALL_UNCONFIRMED_SLOTS_RETAINED",
     "source": "episode-06-global-audit-approved-plots-20261127.json",
     "fianceException": "Aditya is Taniya's fiancé, not husband; Jan3–5 whereabouts remain open"
+  },
+  "societyCrossoverProposals20261127": {
+    "status": "AUTHOR_REQUESTED_SOCIAL_SCENARIO__FOUR_HUSBAND_LOCATIONS_STILL_EDITOR_OPTIONS_NOT_CANON",
+    "source": "episode-06-global-society-crossovers-jan03-05.json",
+    "dayWindows": [
+      {
+        "date": "2026-01-03",
+        "window": "19:10–19:30",
+        "purpose": "Optional small committee-board prep; Kabir and Rohan with spouses, Vikram only after Shreya's 18:45 study and with Anaya care; Nikhil NOT required"
+      },
+      {
+        "date": "2026-01-04",
+        "window": "07:15–07:35",
+        "purpose": "Ankita/Rohan/Nikhil step challenge; Shivani supervises Tara, Meenakshi supervises Vihaan; Vikram remains with Anaya while Shreya later on police duty"
+      },
+      {
+        "date": "2026-01-04",
+        "window": "18:45–19:25",
+        "purpose": "Potential family garden gathering (4 husbands and 5 female leads) with all three children supervised by their own parents; must confirm all four male weekend work shifts before locking"
+      },
+      {
+        "date": "2026-01-05",
+        "window": "20:20–20:35",
+        "purpose": "Small Ankita–Taniya–Rohan lobby envelope handoff after office, optional and commute-dependent"
+      }
+    ],
+    "nikhilNote": "Preferred coherent Sunday scenario = short morning walk 07:15 with Meenakshi watching Vihaan; 11:10 with Vihaan when Meenakshi at court; family evening 18:45 garden. Not proof of leave; ask author before publishing.",
+    "husbandReality": "None of Kabir/Rohan/Vikram/Nikhil has a fully verified Jan3–5 real-world-type shift; all proposed social windows remain soft holds."
   }
 }
