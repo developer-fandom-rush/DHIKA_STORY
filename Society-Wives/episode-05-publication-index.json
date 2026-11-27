@@ -18,6 +18,12 @@
         "uiRoute": "#/source-vault?item=ep05-meenakshi-shivani",
         "exactTextVerified": true,
         "sourceStatus": "AUTHOR_LOCKED_VERBATIM_BASELINE__NINE_SCENES_PLUS_ADDENDUM"
+      },
+      "authorDirectedContinuityCorrection": {
+        "source": "episode-05-jan02-uncle-cross-encounters-working-plot.json",
+        "key": "authorDirectedMeenakshiTwoElderDiscovery",
+        "status": "AUTHOR_DIRECTION_RECORDED_IN_WORKING_PLOT__ORIGINAL_9_SCENE_SOURCE_UNCHANGED__PROSE_AND_CLOCK_PENDING",
+        "description": "Meenakshi separately notices Om and Mohan in visibly aroused standing states; Mohan moment is already in preserved Scene 05, Om observation is new direction requiring a feasible separate scene."
       }
     },
     "taniya": {
