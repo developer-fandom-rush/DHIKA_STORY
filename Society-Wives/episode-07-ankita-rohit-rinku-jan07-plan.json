@@ -5,8 +5,8 @@
   "date": "2026-01-07",
   "weekday": "Wednesday",
   "timezone": "Asia/Kolkata",
-  "status": "AUTHOR_WORKING_EP07_PART01_ROHIT_SCENE_SAVED_WITH_GROK_INSERTS__PART02_RINKU_NOT_FINAL",
-  "productionStage": "PART01_ROHIT_REVISED_PROSE_IN_EP07_READER_UI__PART02_RINKU_WORKING_SCENE_STILL_AUTHOR_REVIEW_PENDING",
+  "status": "EP07_PART01_ROHIT_WRONG_PROSE_RETRACTED__AUTHOR_PLOT_RECORD_ONLY__PART02_RINKU_NOT_FINAL",
+  "productionStage": "PART01_ROHIT_PREVIOUS_INACCURATE_READER_TEXT_REMOVED__NO_COMPLETED_PROSE__PART02_RINKU_REMAINS_UNFINISHED",
   "sourceAnchors": [
     "episode-04b-ankita-scene01-source.json: Jan2 Rinku 07:15–07:30 deliberate appearance, filter connector pending and evening update promised but no fulfilled service completion verified",
     "episode-04b-ankita-scene03-rohit-source.json: Jan2 office 09:40–10:20 accident, 14:15–14:30 deliberately chosen second encounter, 14:40 exit",
@@ -105,44 +105,49 @@
     }
   },
   "proposedRohitScene": {
-    "title": "Part 01 — The Coffee Break That Changed Everything",
+    "title": "Part 01 — Rohit Coffee Scene (previous working prose retracted, revision NOT approved)",
     "coreReason": "A genuine test-cable/AV adapter check for Wednesday evening four-colleague Service Booking Portal home work session; Friday equipment acknowledgment is done and may not be reopened.",
     "outfitContinuity": "Wednesday Jan7: deep wine-burgundy fitted knee-length sleeveless dress, square neckline, defined waist, subtle side slit, black block heels, berry lipstick, long loose waves. Ivory blazer worn as general office layer before meeting; consciously removed and placed in tote at ~16:28 so she meets Rohit 16:35 WITHOUT WHITE BLAZER. Blazer worn again for the 19:15 home-team demonstration, so pre-approved minor outer-layer chair snag survives with new dress under it. No fake neckline or deliberate anatomical exposure accident.",
     "beats": [
       {
         "id": "ROH07-01",
-        "at": "08:05;16:25–16:35",
-        "action": "Ankita picks deep burgundy dress with Rohit consciously in mind; ivory office blazer on at breakfast but deliberately removed before 16:35 Rohit AV bay. Friday Jan2 history remembered."
+        "at": "08:05,16:25–16:35",
+        "action": "Rohit-specific deliberate burgundy dress choice; Ankita takes ivory blazer off before Rohit; Friday 2 Jan history stays relevant."
       },
       {
         "id": "ROH07-02",
-        "at": "16:35–17:00",
-        "action": "Rohit in blue collared men's shirt sees Ankita in sleeveless burgundy dress, says good unexpected look; playful testing/system jokes and reciprocal confidence. AV adapter sign-off completed, not a resurrected Jan2 inventory task."
+        "at": "16:35–17:05",
+        "action": "Real AV adapter job, first look and stronger playful dialogue. Rohit notices and is more confident. Do not copy or delete Friday's initial/second visibility history."
       },
       {
         "id": "ROH07-03",
-        "at": "17:00–17:08",
-        "action": "He checks out for a real work break, walks to public café counter to order two cappuccinos, their independent internal thoughts shown; office-marriage boundaries acknowledged."
+        "at": "17:09",
+        "action": "Ankita foam on lips: prior observation-only substitution was WRONG; user-specified intimate active response remains unrendered."
       },
       {
         "id": "ROH07-04",
-        "at": "17:09–17:12",
-        "action": "Foam appears on Ankita upper lip; Rohit notices and she teases his inspection. Reciprocal foam on Rohit's lips; Ankita willingly touches with finger to clear spot, and he confidently jokes back."
+        "at": "17:12",
+        "action": "Reciprocal Rohit lip foam, Ankita finger-based response and author-specified follow-through; not just neutral wiping. No new prose authorized."
       },
       {
         "id": "ROH07-05",
-        "at": "17:14–17:17",
-        "action": "Girlfriend and past relationship teasing; Rohit answers personally without presuming. Only 2–3 coffee drops by light cup tilt near Ankita dress neckline, no cup-wide spill or wet-clothing replay. Author's next direct-contact beat remains AUTHOR-RESERVED; no napkin substitute is approved."
+        "at": "17:14",
+        "action": "Girlfriend and kissing-experience teasing, reciprocal flirtation and both characters' inner thoughts."
       },
       {
         "id": "ROH07-06",
-        "at": "17:20–17:25",
-        "action": "Ankita and Rohit mutually choose the first brief kiss; Ankita draws him close again for continued kissing including brief shoulder/neck affection. Further author-requested intimate dress/strap choreography is AUTHOR-RESERVED in working prose, without substitution; 2–3-minute window preserved."
+        "at": "17:17",
+        "action": "Precisely 2–3 coffee drops on Ankita's skin near neckline, user-directed intimate response (not dress/napkin wiping). No graphic narration in current reader."
       },
       {
         "id": "ROH07-07",
+        "at": "17:20–17:25",
+        "action": "Mutual first kiss, short separation, renewed 2–3 min kiss, brief shoulder/neck affection, hair hold, small Rohit-caused dress/strap shift, Ankita's welcomed embrace. Author-controlled plot; currently not fully written."
+      },
+      {
+        "id": "ROH07-08",
         "at": "17:26–17:30",
-        "action": "Sana project-demo/parking message interrupts; Ankita adjusts dress shoulder/shifted strap; Rohit straightens lanyard; both reflect on marriage and job consequences. Return separately to office team; scheduled 18:00 Reyansh car remains intact."
+        "action": "Interruption, Ankita adjusts dress and strap, public café visibility considered, separate exit and thoughts. Maintain 18:00 team car departure."
       }
     ],
     "sampleLines": [
@@ -155,7 +160,7 @@
     ],
     "romanticDifference": "No forced second technical accident. Jan2 he was overwhelmed by external presentation; Jan7 he recognizes HER and answers with respect. Personal conversation and a kiss occur outside the work task after clear choice.",
     "reaction": "Ankita feels seen as a woman and respected as a senior colleague; Rohit blushes briefly yet responds confidently, checks her eyes after kiss, and lets her go on her schedule.",
-    "kiss": "AUTHOR_DIRECTED_FIRST_KISS_2026-01-07_APPROVED_AS_WORKING_PLOT__NON_GRAPHIC_SCENE_AND_INLINE_GROK_INSERTS_PUBLISHED__SENSORY_AUTHOR_RESERVED",
+    "kiss": "AUTHOR_APPROVED_PLOT_OUTCOME_ONLY__DETAILED_SCENE03_DRAFT_RETRACTED_FOR_MISMATCH__NOT_COMPLETE",
     "complications": [
       "Office hierarchy/appearance of favoritism; Rohit works in technical support while Ankita is a Tech Lead. Keep role boundaries and independent consent clear.",
       "CCTV/other visitors may exist around kiosk; no secret recording or discovered witness invented.",
@@ -171,14 +176,14 @@
       "notCopy": "Original DHIKA's ice-cream retrieval and over-shelf wardrobe reveal are NOT copied; a believable queue at public tea counter separates their POVs, not a borrowed spill or forced touch."
     },
     "coffeeScene": {
-      "status": "PART01_WORKING_STORY_PUBLISHED_AUTHOR_APPROVAL_NOT_FROZEN",
-      "imageCharacterLock": "ONLY Ankita wears burgundy sleeveless dress; ONLY Rohit wears light-blue collared men's shirt and dark trousers, ID lanyard; no gender-swapped wardrobe.",
-      "foamFirst": "Ankita foam on upper lip; playful observation.",
-      "foamReversal": "Rohit foam on lip; Ankita finger-cleans by mutually comfortable gesture.",
-      "teasing": "Girlfriend questions, confidence beyond nervous Jan2 reaction.",
-      "spill": "Precisely 2–3 drops from tilted coffee cup at upper dress neckline; intimate author-requested action reserved without graphic detail; no clothing wipe or napkin replacement.",
-      "kiss": "Two-stage mutually chosen kiss, 2–3-minute continued affection; author-specific intimate choreography reserved; interruption followed by her shoulder/strap readjustment.",
-      "visuals": "11 precise GROK visual text inserts anchored to EP07 scene03 narrative, public café and AV bay; user-facing generated corrected collage remains chat-only and not a repository image."
+      "status": "INCORRECT_PRIOR_PROSE_RETRACTED__ONLY_AUTHOR_PLOT_INVENTORY_REMAINS",
+      "imageCharacterLock": "ONLY Ankita in burgundy sleeveless fitted dress, Rohit ONLY in light-blue men's collared office shirt and dark trousers; blazer off at 16:35 meeting.",
+      "foamFirst": "Ankita lip foam first; user's intended active intimate response was omitted in prior draft. It is NOT an observation-only joke.",
+      "foamReversal": "Foam then on Rohit lips; Ankita initiates finger-based removal with intended follow-through. Previous prose omitted part of this beat.",
+      "teasing": "Girlfriend/dating and kissing-experience playful discussion. Different from a solely technical checklist conversation.",
+      "spill": "Only 2–3 drops from coffee glass on skin near neckline NOT the dress cloth. User intends direct sensual reaction; no wiping or napkin substitute has been approved.",
+      "kiss": "Initial kiss and short separation; Rohit shoulder/neck kisses and small dress/strap shift; Ankita reciprocates, hand in his hair and draws him closer for a roughly 2–3 min continued kiss; then realistic interruption and outfit adjustment. Non-graphic high-level editor continuity only.",
+      "visuals": "All 11 inaccurate Grok inserts deleted from Reader until author's intended chronological visual list is accurately reworked. Earlier generated collages are chat-only and are not site image assets."
     }
   },
   "proposedRinkuScene": {
@@ -274,5 +279,5 @@
     "motivation": "Two men respond differently to the same confident adult woman's private curiosity: Rohit sees her judgment and defends her dignity as a professional; Rinku knows the unguarded domestic Ankita and respects that her boldness is voluntary. One is not consolation or replacement for the other.",
     "framing": "Romantic/adulterous tension in tasteful adult non-graphic prose; distinct mutual kisses with chosen timing, emotional consequence, no assumption that work authority or maintenance access grants intimacy."
   },
-  "productionNote": "EP07 Part02 (Ankita×Rinku, Jan7 20:55–21:40) remains separate, incomplete and not author-frozen despite a pre-existing drafted Scene05; this update does not approve or modify its story."
+  "productionNote": "At author's request (2026-11-27), the previously posted Rohit Jan7 Scene03 was inaccurate and has been removed from the Reader together with all 11 mismatched Grok inserts. Only a status/continuity inventory of user-selected beats remains in Scene03; it is NOT story prose and is NOT approved as final. Never claim that author-approved erotic actions were rendered or substitute a napkin/observation. Rinku Part02 remains unfinalized; no new Rinku changes."
 }
