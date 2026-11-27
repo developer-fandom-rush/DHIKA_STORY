@@ -12,32 +12,32 @@
     {
       "lead": "Ankita",
       "partner": "Kabir (husband)",
-      "nextThreeDays": "NOT YET FULLY PLANNED/FROZEN",
-      "important": "Karan/Aman live in Ankita/Kabir household; Saturday push-up challenge and possible Sunday family plans must be checked. Kabir technology production/ops supported but specific job designation unknown; mapped presence Jan3 morning, Jan4 calendar, Jan5 guest talk in husband ledger."
+      "nextThreeDays": "EP06 THREE-DAY APPROVED PLOT DIRECTIONS SAVED__SATURDAY SCENE ORDER AND GLOBAL CLOCKS OPEN",
+      "important": "Marriage-first approved, weekend Karan/Aman household track and Mon5 technical office group approved as plot. Kabir's role and Monday office/WFH location unverified, Karan/Aman cross-household overlaps and workout scheduling open. See episode-06-ankita-plan.json and four-husband ledger."
     },
     {
       "lead": "Shivani",
       "partner": "Rohan (husband)",
-      "nextThreeDays": "EP06 THREE-DAY PLOT SAVED__SOME OPEN",
-      "important": "Uncle morning Jan3 source must be verified; Jan4 Group A is candidate, Kavya bridge proposed; Jan5 college 9–3:30 and faculty 4–5:45. Rohan profession unknown; proposed Tara childcare at home Sunday during Group A, with separate household ledger."
+      "nextThreeDays": "EP06 THREE-DAY PLOT SAVED__MAIN PLOT APPROVED__SUNDAY GROUP A CLOCK OPEN",
+      "important": "Preserve existing Jan3 Uncle morning; Sat 15:00–15:25 JAM referral, Meenakshi 15:30 phone, Taniya 16:45 follow-up; Sunday Karan/Aman and Kavya candidate, Monday college 09:00–15:30 + faculty 16:00–17:45. Rohan's profession unknown; Tara care candidates in spouse ledger."
     },
     {
       "lead": "Taniya",
       "partner": "Aditya (fiancé, NOT husband)",
-      "nextThreeDays": "NOT YET FULLY PLANNED/FROZEN",
-      "important": "CA office, wedding/home and sister Soniya's current location must not be invented."
+      "nextThreeDays": "EP06 JAN3–5 EIGHT SCENES SAVED__PLOT APPROVED__TIMES EDITOR PROPOSED",
+      "important": "Saturday early trainer 05:00, Soniya phone 09:15, Karan request 10:40; Sunday trainer 05:00, CA pair 11:00, Karan/Aman 13:15, JAM pair 17:30; Monday trainer 05:00 and CA office 10:30–19:30. Aditya is fiancé not husband, his Jan3–5 whereabouts remain unknown; Soniya/Rahul wedding location remains unknown. See episode-06-taniya-plan.json."
     },
     {
       "lead": "Meenakshi",
       "partner": "Nikhil (husband)",
-      "nextThreeDays": "EP06 JAN3–5 PLOT NOW SAVED__TIMES EDITOR PROPOSED__HOUSEHOLD AND MONDAY SESSION CONDITIONAL",
-      "important": "Jan3 CityCare half-day 08:30–13:05 proposed; Aditi/Avi/Yash clinical tutoring request 10:35; Rupa/Leena private curiosity 12:20–12:37; Shivani JAM referral 15:30 after her 15:00 pair meeting; Ayaan/Armaan first Meenakshi visit 15:55–16:20, with no accident; Nikhil home-session logistics phone later; Mon5 18:30–19:15 staff revision candidate conditional on Nikhil, Vihaan and duty shifts. Source episode-06-meenakshi-jan03-05-plan.json. Jan4 Sunday rest editor-proposed; optional cross-household social events still on HOLD."
+      "nextThreeDays": "EP06 JAN3–5 PLOT SAVED__PERCENTAGES APPROVED AS PROPOSAL__NIKHIL 3-DAY LOCATION OPTIONS LOGGED BUT NOT APPROVED",
+      "important": "Saturday hospital half-day and separated academic group invitations; 15:55–16:20 first JAM pair introduction; Sunday Uday/Utkarsh encounter 11:10 proposed and still on household gate; Monday 18:30 clinical tuition CONDITIONAL. Nikhil source anchors: Jan1 laptop bag and Jan2 late meeting, occupation unknown, child Vihaan needs carer during Meenakshi duty/visits. No actual Jan3–5 work timetable sourced. See episode-06-meenakshi-jan03-05-plan.json and four-husband ledger."
     },
     {
       "lead": "Shreya",
       "partner": "Vikram (husband)",
-      "nextThreeDays": "JAN3–5 POLICE ROSTER PROPOSED__NO LEAVE__HUSBAND CARE INDEPENDENTLY MAPPED",
-      "important": "Saturday 06:20 twin gym then 08:30–16:30 station; Sunday 08:00–13:00 station then 15:00 apartment study; Monday 08:00–17:00 station and 10:30 training. Vikram prior night duty known, exact job unknown; childcare proposed in husband ledger."
+      "nextThreeDays": "EP06 JAN3–5 PLOT SAVED__NO-LEAVE POLICE ROSTER EDITOR-SELECTED__VIKRAM CARE CONDITIONAL",
+      "important": "Sat gym 06:20–07:30, police 08:30–16:30, Ankita call 17:40 and Shruti study 18:15; Sun police 08:00–13:00 then twin study 15:00–16:15; Monday police 08:00–17:00 with training 10:30. Vikram's profession/actual shifts unknown; Anaya childcare needs source alignment."
     }
   ],
   "holdScope": [
@@ -70,7 +70,9 @@
     "episode-06-karan-aman-shared-availability.json",
     "episode-06-ankita-mentoring-setup.json",
     "episode-06-household-spouse-availability.json",
-    "episode-06-meenakshi-jan03-05-plan.json"
+    "episode-06-meenakshi-jan03-05-plan.json",
+    "episode-06-global-audit-approved-plots-20261127.json",
+    "episode-06-taniya-plan.json"
   ],
   "otherLeadHandoff": "Use episode-06-household-spouse-availability.json as the explicit provisional Jan3–5 spouse and Shreya duty source. The prior Shreya marriage-first premise is superseded by existing Shreya×Vikram Episode05 ending. Check all five leads before unlocking optional shared society gatherings. Do not invent husband's profession or automatic household absence.",
   "sharedKaranAmanLedger": {
@@ -118,5 +120,10 @@
       "Vikram": "night duty observed historically, precise job unknown"
     },
     "ShreyaLeave": "No leave Jan3–5 in story's selected roster; Sunday shorter duty, not holiday"
+  },
+  "globalAudit20261127": {
+    "status": "SAVED_AND_SOURCE_RECONCILED__OPTIONAL_SOCIETY_CROSSOVERS_STILL_ON_HOLD",
+    "source": "episode-06-global-audit-approved-plots-20261127.json",
+    "note": "All five female leads have Jan3–5 plot files. Current source statuses distinguish approved plot parameters from times not locked. Four husbands Kabir/Rohan/Vikram/Nikhil added to availability ledger; Aditya is Taniya fiancé. Do not call all husbands free or all women in office on Monday. User's next stage is five-lead society schedule, spouses, children, outings and cross-lead encounters."
   }
 }
