@@ -1,0 +1,181 @@
+{
+  "schemaVersion": 1,
+  "id": "SW-EP06-GLOBAL-SOCIETY-CLOCK-TRAVEL-CHECK-20261127",
+  "title": "EP06 Global Society · Initial Time Windows and No-Teleport Location Audit",
+  "dateRange": [
+    "2026-01-03",
+    "2026-01-05"
+  ],
+  "timezone": "Asia/Kolkata",
+  "createdOn": "2026-11-27",
+  "status": "AUTHOR_APPROVED_INITIAL_PLOT__PROVISIONAL_CLOCKS_CONFLICT_CHECKED__SPOUSE_WORK_AND_CHILDCARE_UNVERIFIED",
+  "sourcePlot": "episode-06-global-society-crossovers-jan03-05.json",
+  "sourceTimeline": "ui/src/data/sw-timeline-future.json",
+  "analysisBasis": "Compared five new 3–5 Jan society event attendees against previous timed Global Timeline events. Excluded family presence availability envelopes from hard-collision detection; then manually checked travel / family handoffs against per-lead EP06 plans. Zero known hard timed character overlaps; does not prove unknown spouse work shifts or commute.",
+  "beforeEventCount": 116,
+  "afterEventCount": 121,
+  "hardTimedCharacterOverlapCount": 0,
+  "provisionalScenes": [
+    {
+      "id": "SW06-GS01",
+      "day": "2026-01-03",
+      "slot": "19:10–19:30",
+      "place": "Gulmohar Heights courtyard noticeboard",
+      "participants": [
+        "Ankita",
+        "Kabir",
+        "Shivani",
+        "Rohan",
+        "Shreya",
+        "Vikram"
+      ],
+      "status": "INITIAL_PLOT_AUTHOR_SAVED__LOCAL_CLOCK_SOFT",
+      "shreyaCheck": "Sat police 08:30–16:30 -> home after duty; Ankita call 17:40–18:00; Shruti home-study 18:15–18:45 -> 25m walk/setup buffer to 19:10. No presence at station while in society.",
+      "husbandCheck": "Vikram can accompany Anaya or stay to supervise; no claim he was absent during Anaya care. Kabir on-call can skip. Rohan and Shivani/Tara availability conditional.",
+      "fallback": "Partial attendance or cancel if station overtime or family needs"
+    },
+    {
+      "id": "SW06-GS02",
+      "day": "2026-01-04",
+      "slot": "07:15–07:35",
+      "place": "Gulmohar Heights garden walking path",
+      "participants": [
+        "Ankita",
+        "Rohan",
+        "Nikhil"
+      ],
+      "status": "INITIAL_PLOT_AUTHOR_SAVED__LOCAL_CLOCK_SOFT",
+      "shreyaCheck": "Shreya not attending; Sun police 08:00–13:00 remains intact; Vikram stays with Anaya.",
+      "husbandCheck": "Shivani watches Tara and Meenakshi watches Vihaan for only this 20-minute interval; Nikhil actual free status still open.",
+      "fallback": "Drop unavailable husband's participation, no forced appearance"
+    },
+    {
+      "id": "SW06-GS03",
+      "day": "2026-01-04",
+      "slot": "18:45–19:25",
+      "place": "Gulmohar Heights family garden / courtyard",
+      "participants": [
+        "Ankita",
+        "Shivani",
+        "Taniya",
+        "Meenakshi",
+        "Shreya",
+        "Kabir",
+        "Rohan",
+        "Nikhil",
+        "Vikram"
+      ],
+      "status": "AUTHOR_SAVED_MAIN_EVENT__ATTENDANCE_SOFT",
+      "shreyaCheck": "Sun station 08:00–13:00; shared apartment study 15:00–16:15; 150m before garden includes return travel + rest/change. No lunch/afternoon collision.",
+      "taniyaCheck": "Sun Ayaan/Armaan first meeting 17:30–18:05 at Tower C; 40m before 18:45 garden.",
+      "meenakshiCheck": "Sun 11:10–11:25 Uday/Utkarsh society-court candidate independent and earlier. Nikhil cares for Vihaan if scene goes forward; must be at garden as family only if off-duty.",
+      "childcare": "Tara, Vihaan, Anaya under one parent or known caregiver; don't schedule both parents away at once.",
+      "fallback": "Smaller gathering with realistic present subset, no fabricated event for absent people"
+    },
+    {
+      "id": "SW06-GS05",
+      "day": "2026-01-04",
+      "slot": "19:40–19:58",
+      "place": "Clubhouse garden-side projector equipment alcove",
+      "participants": [
+        "Ankita",
+        "Rohan"
+      ],
+      "status": "OPTIONAL_AFTER_GARDEN__STRONGER_CONTACT_NOT_CANON",
+      "dependency": "Garden ends 19:25; at least 15m walking/closing buffer. Children and spouses remain at public garden for normal reasons, no invented unseen witness or secrecy. Any kiss remains separately optional.",
+      "fallback": "Drop alcove if privacy/schedule/family attention not credible"
+    },
+    {
+      "id": "SW06-GS04",
+      "day": "2026-01-05",
+      "slot": "20:50–21:05",
+      "previousSlot": "20:20–20:35 REPLACED",
+      "place": "Tower C lobby/entrance",
+      "participants": [
+        "Ankita",
+        "Taniya",
+        "Rohan"
+      ],
+      "status": "INITIAL_PLOT_AUTHOR_SAVED__AFTER_WORK_SOFT",
+      "taniyaCheck": "CA office ends 19:30; 80m to start at 20:50. Must actually be home by ~20:40; drop if commute slower.",
+      "ankitaCheck": "Mon office candidate until 19:00, home Kabir talk 20:00–20:20. From talk ending 20:20 to lobby 20:50 = 30m buffer.",
+      "rohanCheck": "Home by around 19:00 proposal, actual profession/work mode unknown; may skip.",
+      "shreyaCheck": "Shreya police 08:00–17:00 and optional remote study 20:10–20:35 are untouched; she is NOT in lobby scene.",
+      "fallback": "Skip or move to next day if fatigue/late return"
+    }
+  ],
+  "protectedExistingTimelines": [
+    {
+      "lead": "Ankita",
+      "blocks": [
+        "Sat 06:45–07:20 marriage first",
+        "Sat 07:35–08:20 Karan/Aman home workout candidate",
+        "Sat 17:40–18:00 Shreya evidence call",
+        "Mon 18:10–19:00 technical office team candidate",
+        "Mon 20:00–20:20 Kabir discussion candidate"
+      ],
+      "change": "NONE"
+    },
+    {
+      "lead": "Shivani",
+      "blocks": [
+        "Sat original Uncle morning existing source preserved",
+        "Sat 15:00–15:25 Ayaan/Armaan",
+        "Sun 11:30–12:15 Karan/Aman Group A candidate",
+        "Mon 06:45–07:45 Ayaan/Armaan Bio",
+        "Mon college 09:00–15:30, faculty 16:00–17:45"
+      ],
+      "change": "NONE"
+    },
+    {
+      "lead": "Taniya",
+      "blocks": [
+        "Sat 05:00–05:55 Vivek Rao, 09:15 Soniya, 10:40 Karan",
+        "Sun 11:00–11:55 CA pair, 13:15–14:00 Karan/Aman, 17:30–18:05 Ayaan/Armaan",
+        "Mon 05:00–05:45 Vivek, CA firm 10:30–19:30"
+      ],
+      "change": "NONE"
+    },
+    {
+      "lead": "Meenakshi",
+      "blocks": [
+        "Sat hospital 08:30–13:05 and home ~13:45, 15:55–16:20 Ayaan/Armaan, 18:00–18:30 Nikhil consultation candidate",
+        "Sun 11:10–11:25 Uday/Utkarsh candidate",
+        "Mon hospital duration open and 18:30–19:15 Aditi/Avi/Yash clinical tuition conditional"
+      ],
+      "change": "NONE"
+    },
+    {
+      "lead": "Shreya",
+      "blocks": [
+        "Sat gym 06:20–07:30; police 08:30–16:30; Ankita call 17:40–18:00; Shruti home study 18:15–18:45",
+        "Sun police 08:00–13:00; Samar/Shaan apartment study 15:00–16:15",
+        "Mon police 08:00–17:00 incl 10:30–11:20 training; possible remote call 20:10–20:35"
+      ],
+      "change": "NONE"
+    }
+  ],
+  "spouseWhereaboutsStillOpen": {
+    "Kabir": "Jan3 late evening tech on-call uncertain; Jan4 possible family garden; Jan5 after tech work. No exact office location.",
+    "Rohan": "Jan3 family care, Jan4 brief morning walk with Tara handoff, Sunday garden; Jan5 possible evening return. Occupation unknown.",
+    "Nikhil": "Jan3 with Vihaan candidate; Jan4 Sunday walk/family outing candidates; Jan5 office vs hybrid vs WFH unknown. Need actual availability/Vihaan care confirmation.",
+    "Vikram": "Jan3 and Jan4 Anaya care while Shreya on police duty; garden possible if with Anaya; Jan5 actual work shifts unknown.",
+    "Aditya": "Taniya is engaged to him, not married; Jan3–5 location and wedding commitments open."
+  },
+  "validationRules": [
+    "Never override or move original plot episode locations and times to create the cross-society scene.",
+    "Presence envelopes and open schedules are not confirmed free-time. Do not treat zero timed overlap as proof of attendance.",
+    "If two scenes share a person and travel cannot be completed between them, cancel/shift the NEW society candidate, not the pre-existing scene.",
+    "Shreya is never placed at two locations at once; Sat and Sun evening only, no Monday compulsory outing.",
+    "Home/childcare for Tara, Vihaan and Anaya must be agreed; otherwise downgrade a full-group event to subset.",
+    "Romantic contact and knowledge ledgers are initial plot intentions; optional private kiss is not yet canon.",
+    "Rerun collision and commute checks if any earlier approved EP06 timeline gets revised."
+  ],
+  "publication": {
+    "sourceOnly": true,
+    "finalProse": false,
+    "readerModified": false,
+    "previousLeadPlansModified": false,
+    "globalTimelineIndexed": true
+  }
+}
