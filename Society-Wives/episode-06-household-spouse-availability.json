@@ -372,7 +372,8 @@
     "episode-04a-meenakshi-source.json",
     "episode-04b-meenakshi-source.json",
     "source-vault/ep05-meenakshi-shivani-jan02.json",
-    "episode-06-global-society-crossovers-jan03-05.json"
+    "episode-06-global-society-crossovers-jan03-05.json",
+    "episode-06-society-location-and-collision-audit-20261127.json"
   ],
   "episode06FiveLeadReview": {
     "date": "2026-11-27",
@@ -381,36 +382,37 @@
     "fianceException": "Aditya is Taniya's fiancé, not husband; Jan3–5 whereabouts remain open"
   },
   "societyCrossoverProposals20261127": {
-    "status": "BOLDER_SOCIAL_SCENARIO_DESIGNED__SPOUSE_LOCATION_STILL_NOT_CANON",
+    "status": "AUTHOR_APPROVED_INITIAL_SOCIAL_PLOTS__TIMES_SOFT__HUSBANDS_DUTY_UNKNOWN",
     "source": "episode-06-global-society-crossovers-jan03-05.json",
     "dayWindows": [
       {
         "date": "2026-01-03",
         "window": "19:10–19:30",
-        "purpose": "Ankita–Rohan invited waist support at committee banner, Shreya–Kabir close CCTV demonstration; family/children care still required"
+        "purpose": "Society after-duty setup with Ankita/Rohan and Shreya/Kabir; Shreya ends Rathore home study at 18:45, so 25m to walk to courtyard; Vikram must cover Anaya"
       },
       {
         "date": "2026-01-04",
         "window": "07:15–07:35",
-        "purpose": "Ankita–Rohan consented waist support fitness challenge, Nikhil witness only partial public banter; Shivani with Tara, Meenakshi with Vihaan, Vikram with Anaya"
+        "purpose": "Ankita/Rohan/Nikhil walking challenge; Shivani watches Tara, Meenakshi watches Vihaan; not Shreya/Vikram"
       },
       {
         "date": "2026-01-04",
         "window": "18:45–19:25",
-        "purpose": "Potential all-nine adult garden committee with Meenakshi–Kabir, Shivani–Nikhil, Taniya–Vikram, Ankita–Rohan and Shreya–Kabir distinct adult romantic threads; children supervised"
+        "purpose": "Potential garden health-fair setup involving 5 leads+4 spouses subject to childcare and work availability; Shreya arrives 150m after apartment session ends"
       },
       {
         "date": "2026-01-04",
         "window": "19:40–19:58",
-        "purpose": "Ankita–Rohan mutual embrace; optional kiss only if author later locks. Private spouse knowledge cannot be invented"
+        "purpose": "Optional Ankita/Rohan projector-corner follow-up; kiss not canon; 15m buffer after garden"
       },
       {
         "date": "2026-01-05",
-        "window": "20:20–20:35",
-        "purpose": "Small after-office society knowledge callback, no obligatory weekday repeat sexual touching"
+        "window": "20:50–21:05",
+        "purpose": "After-office optional Ankita/Taniya/Rohan foyer meeting, MOVED FROM 20:20; Taniya gets 80m after 19:30 office end and Ankita gets 30m after Kabir 20:20 talk"
       }
     ],
     "nikhilNote": "Jan4 short morning garden circuit as candidate only while Meenakshi cares for Vihaan; Nikhil with Vihaan at 11:10 Meenakshi society court; Jan4 18:45 evening outing conditional. His actual occupation/time off still unverified.",
-    "husbandReality": "No full Jan3–5 free-time guarantee for any husband. Proposed physical actions do not constitute confirmed attendance."
+    "husbandReality": "No exact guaranteed shift/free time for Kabir/Rohan/Nikhil/Vikram; provisional attendance only. New society scenes cancel/drop cast rather than moving an earlier approved plan.",
+    "collisionAudit": "episode-06-society-location-and-collision-audit-20261127.json"
   }
 }
