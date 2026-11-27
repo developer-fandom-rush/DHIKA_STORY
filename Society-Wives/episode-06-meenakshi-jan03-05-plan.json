@@ -323,5 +323,61 @@
       "Date ambiguity 3rd versus 17th if author truly meant 17 January"
     ]
   },
-  "created": "2026-11-27"
+  "created": "2026-11-27",
+  "wardrobeProposal": {
+    "status": "EDITOR_DESIGN_PROPOSAL__NOT_AUTHOR_APPROVED_OR_CANON",
+    "jan03Hospital": {
+      "time": "08:30–13:05",
+      "outfit": "Muted teal/slate-blue straight cotton kurta with a comfortable modest neckline and full sleeves, ivory slim straight trousers, oatmeal lightweight shawl, white hospital coat, comfortable closed shoes.",
+      "logic": "Fresh clothing from 2 January's locked teal embroidered front-button kurta; hospital-appropriate; coat and shoes matter in clinical areas.",
+      "visualReference": "Meenakshi saved Library reference image; retain face/identity, not necessarily the source outfit."
+    },
+    "jan03Home": {
+      "time": "13:45–evening",
+      "outfit": "Same blue kurta and ivory trousers after removing hospital coat; oatmeal shawl or light cardigan in cool January evening.",
+      "logic": "No forced outfit change during short lunch/call/academic introduction; same outfit to 16:20."
+    },
+    "jan04Society": {
+      "time": "Candidate late morning 11:05–11:30",
+      "outfit": "Dusty-rose, hip-length loose sports top, charcoal high-waisted track trousers and unzipped warm cream fleece; fully appropriate for a short society-court stop in January.",
+      "logic": "Credible for a brief badminton/wellness stop; normal secure layers throughout, no exposed intimate areas."
+    }
+  },
+  "societyTwinAccidentalCandidate": {
+    "id": "MEN06-CANDIDATE-SUN04-UDAY-UTKARSH",
+    "date": "2026-01-04",
+    "time": "11:10–11:25 CANDIDATE ONLY; NOT BOOKED",
+    "setting": "Society badminton-court walkway / equipment bench, separate from hospital or home study.",
+    "characters": [
+      "Meenakshi",
+      "Uday",
+      "Utkarsh"
+    ],
+    "preexistingHistory": "Both society twins (24) know Meenakshi already, from Jan1 health/wellness interactions, badminton stance help and the three-person motorbike ride after her car would not start. Do not write a first meeting.",
+    "wardrobeRef": "wardrobeProposal.jan04Society",
+    "nonGraphicAccident": "As Meenakshi crouches to lift the shuttle basket beside the bench, her loose sports top briefly rides up at the side above her track-trouser waistband, showing a narrow side-waist strip before she straightens and smooths it down. No intimate body exposure or staged display.",
+    "reactions": {
+      "Uday": "Notices first, turns a quick compliment into a teasing badminton quip, keeps hands to himself.",
+      "Utkarsh": "Notices the brief clothing shift from the side, avert gaze and quietly offers to take the basket; no unsolicited contact.",
+      "Meenakshi": "Notices their changed expressions, adjusts her top, answers lightly and resumes the practical conversation; private curiosity from hospital does not turn into forced escalation."
+    },
+    "significance": "Distinct from prior Jan1 consensual clothed-waist stance guidance and Jan1 bike proximity; only a fleeting clothing accident, not a sexual encounter.",
+    "status": "OPTIONAL_EDITOR_PROPOSAL__PENDING_USER_APPROVAL__SOCIETY_CROSS_HOUSEHOLD_SCHEDULING_HOLD",
+    "blockedBy": [
+      "episode-06-cross-household-hold.json still requires five female lead and spouse schedule clearance before optional society encounter is booked.",
+      "Uday and Utkarsh whereabouts Jan4 11:10–11:25 are not confirmed.",
+      "Meenakshi Sunday family availability/Nikhil and Vihaan care are open."
+    ],
+    "protect": [
+      "No overlap with Shivani-Karan/Aman Group A; they are different twin brothers.",
+      "Ayaan/Armaan Jan3 first meeting remains no accident, no touch.",
+      "No assumption that Meenakshi and twins' earlier closeness implies permission for further touch."
+    ]
+  },
+  "otherPotentialAccidentalBeats": {
+    "status": "IDEAS_ONLY__NOT_SCHEDULED",
+    "hospitalAviYash": "Their Jan1 parked-car contact is already canon. No second automatic accident on Sat Jan3 tuition request or conditional Mon Jan5 first group lesson; revisit a different non-graphic clothing snag only after ordinary lesson familiarity and scheduling.",
+    "ayaanArmaan": "Explicitly NO on Sat Jan3 first direct meeting. Future teaching/accident only separately discussed, not inferred from Shivani's own character plot.",
+    "rupaLeena": "Separate accidental private observation in existing Sat Jan3 plan, not a 'Meenakshi wardrobe slip' and not a society twins scene."
+  }
 }
