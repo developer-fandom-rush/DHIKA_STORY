@@ -4233,13 +4233,13 @@
     },
     {
       "id": "ank07-07-rinku-evening-return",
-      "date": "2026-01-07",
-      "sort": "20:55",
-      "start": "20:55",
-      "end": "21:40",
-      "timeLabel": "Wed 7 Jan 20:55–21:40 · part fitted 20:55–21:12, kiss candidate ~21:27–21:31",
+      "date": "2026-01-09",
+      "sort": "11:00",
+      "start": "11:00",
+      "end": "12:20",
+      "timeLabel": "Friday 9 Jan · 11:00–12:20 conditional, NOT confirmed empty-house availability",
       "universe": "sw",
-      "title": "Ankita × Rinku · delayed connector return and first chosen kiss",
+      "title": "Ankita × Rinku · relocated daytime maintenance and private-scene candidate",
       "lead": "Ankita",
       "characters": [
         "Ankita",
@@ -4255,7 +4255,7 @@
       "scene": "ANK07-R02-RINKU-RETURN",
       "kind": "planned",
       "state": "review",
-      "status": "AUTHOR-REQUESTED WORKING EP07 READER SCENE 05 · RINKU KISS WRITTEN · NOT FROZEN",
+      "status": "JAN07_LATE_EVENING_WITHDRAWN__JAN09_CONDITIONAL_HOUSEHOLD_ABSENCE_NOT_PROVEN__NO_ROMANTIC_PROSE_LOCK",
       "source": "episode-07-ankita-rohit-rinku-jan07-plan.json",
       "reader": {
         "type": "sw-working-ankita",
@@ -4264,21 +4264,14 @@
         "scene": "05"
       },
       "flags": [
-        "Jan2 Rinku repair connector pending, Jan2 evening promise unfulfilled in source; explanation must be provided, no invented bereavement",
-        "First fit/pressure check 20:55–21:08; separate chosen teasing/attraction after service, no repeat wet-clothing incident",
-        "Wednesday Vivan/Reyansh/Sana/Aishwarya planned 19:15–20:15; guest-exit buffer until 20:35 and home reset until 20:55 required",
-        "Kabir, Karan, Aman, Rajeev live in same household: no invented empty home, their locations and sightlines must be verified",
-        "First kiss only a proposal after explicit two-way interest and credible privacy; if family present or shift later, retain dialogue and cancel/defer kiss",
-        "Rinku society service shift and exact late-evening availability not yet verified. End-time booking soft, not confirmed attendance",
-        "RINKU_KISS_PLOT_LOCK_AT_21_27_21_31__MUTUAL_CHOICE__NOT_WRITTEN",
-        "Service part delay from Jan2 must be credibly explained, no invented grandmother or sudden bereavement",
-        "Ankita's Wednesday guest group scheduled 19:15–20:15 and exit/home reset ends by 20:55 candidate",
-        "Kabir, Karan, Aman, Rajeev are household residents; do not magically move them off premises",
-        "After repair, chosen private conversation occurs at accessible tower walkway; realistic third-party visibility risk, no confirmed witness",
-        "Rinku late-night society service shift/access requires in-story confirmation; no fixed actual attendance claim",
-        "WORKING_READER_V1_REVIEW_REQUIRED__NOT_AUTHOR_FROZEN"
+        "Original Wednesday 7 Jan 20:55–21:40 Rinku repair/romance RETRACTED: Kabir, Rajeev, Karan and Aman at home; do not claim private residence.",
+        "Friday 9 Jan 11:00–12:20 is not a booked appointment or verified privacy; must seed all four male household members' credible departures and Ankita WFH",
+        "Weekday candidate does not prove Rinku's society service availability or delayed connector arrival",
+        "Friday 18:10–19:00 office prototype review remains candidate after the morning scene; no collision if commute respected",
+        "No fixed 21:27 first-kiss clock; outcome depends on author-approved home privacy and authentic shared activity",
+        "Keep next twins-specific romantic arc distinct from Rinku's scene and avoid scheduling a romantic encounter around the twins"
       ],
-      "detail": "A delayed replacement water-filter coupler resolves the actual Jan2 Rinku promise. After a real 20:55–21:12 fit/check and 20:15–20:55 prior home-guest clearance buffer, Ankita chooses a changed evening look and accompanies Rinku toward standard society exit. They honestly revisit Jan2 chosen teasing; Rinku responds with specific words, not repetitive silent staring. Mutual first brief kiss ~21:27–21:31 in open accessible covered walkway is an AUTHOR-DIRECTED EP07 scene outcome, still not published prose. Family members remain present in normal household unless individual movements established; site visibility/maintenance authorization are realism gates."
+      "detail": "Conditional Friday daytime WFH/repair: Ankita intentionally chooses an attractive distinct home look, Rinku returns with delayed filter connector, genuine fitting/pressure check and purge create time for personally meaningful playful conversation grounded in Jan2 wet-nighty history. Only if Kabir/Rajeev/Karan/Aman are each actually away (not yet verified) can a private domestic encounter develop. No forced evening home-visit after Wednesday office team; no pre-specified kiss time."
     }
   ],
   "sourcePolicy": " | Shreya January 3 working scenes SR10–SR13 were moved into the January 1 calendar by direct author instruction 2026-11-16, original plan archived in episode-03-shreya-plan-archive-jan03.json; no content removed from story source."
