@@ -1,0 +1,238 @@
+{
+  "schemaVersion": 1,
+  "id": "SW-EP06-GLOBAL-COVERAGE-AUDIT-20261127",
+  "title": "EP06 — Five Female Leads, Spouses, Visitors, and Society Planning Gate · Jan 3–5 2026",
+  "status": "AUTHOR_REQUESTED_APPROVED_PLOT_COVERAGE_AUDIT__GLOBAL_CLOCKS_AND_SPOUSE_AVAILABILITY_NOT_FROZEN__NO_EPISODE_PROSE",
+  "approvalInterpretation": "The user approves keeping this complete-planning audit and all previously author-approved character plot directions under EP06 planning. This does not newly approve unverified Nikhil shifts, optional outings, or conflicting timetable candidates.",
+  "dates": [
+    {
+      "date": "2026-01-03",
+      "weekday": "Saturday"
+    },
+    {
+      "date": "2026-01-04",
+      "weekday": "Sunday"
+    },
+    {
+      "date": "2026-01-05",
+      "weekday": "Monday"
+    }
+  ],
+  "fiveLeadPlanningCoverage": [
+    {
+      "lead": "Ankita",
+      "partner": "Kabir (husband)",
+      "source": "episode-06-ankita-plan.json",
+      "coverage": "Saved marriage-first, uncle-knowledge comparison, Karan/Aman household/technical guidance, Monday office Vivan/Reyansh/Sana setup and HR referral",
+      "status": "PLOT_FOUNDATIONS_PARTLY_AUTHOR_APPROVED__FIRST_SCENE_ORDER_APPROVED__SOME_SATURDAY_ORDER_AND_CLOCKS_OPEN",
+      "missing": [
+        "Exact Saturday scene order after first marriage scene",
+        "Saturday Karan–Aman exercise time and gym accident remains withdrawn",
+        "Monday exact work travel vs home slots",
+        "Marriage details/prose and shared family outing windows"
+      ]
+    },
+    {
+      "lead": "Shivani",
+      "partner": "Rohan (husband)",
+      "source": "shivani-episode-06-three-day-plot.json",
+      "coverage": "Saved Saturday protected existing uncle morning; Saturday 15:00 Ayaan/Armaan request, 15:30 Meenakshi referral and 16:45 Taniya referral; Sunday Group A Karan/Aman and Kavya bridge; Monday Biology college/faculty preparation",
+      "status": "MAIN_PLOT_DIRECTIONS_APPROVED__SCENE_CANDIDATE_CLOCKS_NOT_FROZEN",
+      "missing": [
+        "Verify exact Saturday uncle morning source clock",
+        "Rohan work profession/duty and Tara childcare for all society options",
+        "Sunday Group A vs Kavya, Taniya shared twins; optional Sunday movie window",
+        "Monday faculty and college exit commute"
+      ]
+    },
+    {
+      "lead": "Taniya",
+      "partner": "Aditya (fiancé, NOT husband)",
+      "source": "episode-06-taniya-plan.json",
+      "coverage": "Saved 8 scenes: Sat Vivek Rao 05:00, Soniya phone 09:15, Karan study request 10:40; Sun Vivek Rao 05:00, Raghav/Chirag 11:00, Karan/Aman 13:15, Ayaan/Armaan 17:30; Mon Vivek Rao 05:00 and CA office 10:30–19:30",
+      "status": "AUTHOR_APPROVED_PLOT_TRACKS__EDITOR_DAILY_CLOCKS_NOT_FROZEN",
+      "missing": [
+        "Aditya whereabouts and wedding-related availability three days",
+        "Soniya/Rahul actual offsite location and household coverage; Soniya is not a fifth lead",
+        "Sunday guest timetable and transition buffers",
+        "Monday work release and realistic home return"
+      ]
+    },
+    {
+      "lead": "Meenakshi",
+      "partner": "Nikhil (husband)",
+      "source": "episode-06-meenakshi-jan03-05-plan.json",
+      "coverage": "Saved Sat CityCare half day 08:30–13:05, Aditi/Avi/Yash coaching request 10:35, separate Rupa/Leena second sightings 12:20/12:30, Shivani referral 15:30, first Ayaan/Armaan meeting 15:55; Sun Uday/Utkarsh badminton court accident proposal 11:10; Mon clinical home group revision 18:30 conditional. Author-approved view-angle percentages exist separately in plan.",
+      "status": "AUTHOR_APPROVED_PLOT_PARAMETERS__SUNDAY_SOCIETY_GATE_AND_WARDROBE_GEOMETRY_OPEN",
+      "missing": [
+        "Nikhil's exact Jan3/4/5 location/work mode and Vihaan supervision, now explicitly audited in four-husband availability ledger",
+        "Resolve Sat 18:00 phone vs in-person husband discussion based on Nikhil's location",
+        "Confirm Sun Uday and Utkarsh whereabouts, consent/garment mechanics and family commitments",
+        "Monday Meenakshi hospital work end, resident duty hours and Nikhil/Vihaan home-study logistics",
+        "Jan2 EP05 two-elder continuity amendment remains plot-only; original manuscript source intact"
+      ]
+    },
+    {
+      "lead": "Shreya",
+      "partner": "Vikram (husband)",
+      "source": "episode-06-shreya-plan.json",
+      "coverage": "Saved Sat Samar–Shaan gym 06:20–07:30, station 08:30–16:30, Ankita discussion after 17:40, Shruti study 18:15; Sun station 08:00–13:00 and study 15:00–16:15; Mon station 08:00–17:00, drill 10:30",
+      "status": "AUTHOR_REQUESTED_PLOT_SAVED__SHREYA_NO_LEAVE_EDITOR_ROSTER__SPOUSE_CARE_PROPOSED",
+      "missing": [
+        "Vikram profession and exact work shifts on Jan3/4/5",
+        "Anaya supervised childcare for all duty/study windows",
+        "Actual travel times and police calls outside proposed duty",
+        "Shreya does not have an approved leave or globally free Sunday"
+      ]
+    }
+  ],
+  "spouseAvailabilityAudit": {
+    "source": "episode-06-household-spouse-availability.json",
+    "status": "FOUR_MARRIED_COUPLES_AUDITED__HUSBAND_SLOTS_PARTLY_PROPOSED__NO_FALSE_FREEDOM_CLAIMS",
+    "husbands": [
+      {
+        "name": "Kabir",
+        "partner": "Ankita",
+        "profession": "IT production/technology ops; exact role/work mode open",
+        "saturday": "Home 06:35–09:00 proposed, 09:15–13:00 on-call/errands option, afternoon family flexibility not booked",
+        "sunday": "Home 08:00–08:30 anchor candidate; rest flexible/on-call, no verified outing",
+        "monday": "09:00–18:30 work window candidate (office/WFH unresolved), home around 20:00 proposal",
+        "actualFreeStatus": "NOT_CONFIRMED"
+      },
+      {
+        "name": "Rohan",
+        "partner": "Shivani",
+        "profession": "UNKNOWN",
+        "saturday": "07:30–13:00 Tara/home care proposal; 13:00–18:00 whereabouts open; evening home proposal",
+        "sunday": "09:00–13:00 Tara care candidate; afternoon family/home, no fixed outing",
+        "monday": "09:00–18:30 outside commitments proposed but employer/work mode UNKNOWN; ~19:00 home possible",
+        "actualFreeStatus": "NOT_CONFIRMED"
+      },
+      {
+        "name": "Vikram",
+        "partner": "Shreya",
+        "profession": "UNKNOWN; prior night shift historical anchor",
+        "saturday": "At Rathore home caring for Anaya while Shreya at station until 16:30; external outings depend on care",
+        "sunday": "At home 07:30–13:00 and 14:30–16:45 care option; 17:00+ open",
+        "monday": "Childcare coverage proposed 07:30–17:30, true shift/workplace unverified; 17:30+ open",
+        "actualFreeStatus": "NOT_CONFIRMED"
+      },
+      {
+        "name": "Nikhil",
+        "partner": "Meenakshi",
+        "profession": "UNKNOWN; Jan1 laptop bag and Jan2 late meeting established",
+        "saturday": "May be at Kapoor home with Vihaan 08:30–13:45; 15:55 study visitor awareness needed; 18:00 phone only if outside, otherwise in-person consultation",
+        "sunday": "Family/home work schedule entirely unverified; 13:00–18:00 family/society outing possible after explicit choice, not booked",
+        "monday": "09:00–18:30 workday candidate; must locate him or another approved caregiver for proposed 18:30–19:15 clinic group",
+        "actualFreeStatus": "MISSING_DECISION__NEW_AUDIT_OPTIONS_NOT_APPROVED"
+      }
+    ],
+    "fiance": {
+      "name": "Aditya",
+      "partner": "Taniya",
+      "relationship": "Fiancé, not husband",
+      "location": "Jan3–5 whereabouts unresolved; cannot include him as a husband, but important for wedding/outing coordination."
+    },
+    "childcare": [
+      "Tara — Shivani/Rohan home",
+      "Vihaan — Meenakshi/Nikhil home",
+      "Anaya — Shreya/Vikram home"
+    ]
+  },
+  "dayByDaySocietyReadiness": [
+    {
+      "date": "2026-01-03",
+      "weekday": "Saturday",
+      "fixedOrProtected": [
+        "Meenakshi half-day CityCare 08:30–13:05",
+        "Shreya police 08:30–16:30, gym 06:20–07:30",
+        "Taniya 05:00 coaching, 10:40 Karan approach",
+        "Shivani 15:00 Ayaan/Armaan and 15:30 Meenakshi referral",
+        "Meenakshi 15:55–16:20 Ayaan/Armaan academic intro",
+        "Ankita marriage-first and household scenes are concept-approved but exact order remains open"
+      ],
+      "societyOptions": [
+        "After 19:00 family/social gathering only if spouses, children and travel mapped",
+        "Afternoon micro-encounters for otherwise free individuals need individual availability checks",
+        "Do not assign a group outing during Meenakshi duty or Shreya police roster"
+      ],
+      "status": "CANDIDATE_WINDOWS_ONLY__NO_GROUP_OUTING_APPROVED"
+    },
+    {
+      "date": "2026-01-04",
+      "weekday": "Sunday",
+      "fixedOrProtected": [
+        "Shreya shorter police roster 08:00–13:00 and Samar/Shaan study 15:00–16:15",
+        "Taniya home study 11:00–11:55, Karan/Aman 13:15–14:00, Ayaan/Armaan 17:30–18:05",
+        "Shivani Karan/Aman Group A late morning option and Kavya bridge 16:30–17:05 soft hold",
+        "Meenakshi Uday/Utkarsh society badminton 11:10–11:25 optional subject to twins, Nikhil and Vihaan care"
+      ],
+      "societyOptions": [
+        "Shared Sunday evening 18:30 onward is only a POTENTIAL family/social discussion slot after the last Taniya study; do not treat Tara, Vihaan, Anaya care or spouses' work as already solved",
+        "Sunday afternoon multi-person movie unlikely for all five due to different bookings; a subset outing is easier if users choose"
+      ],
+      "status": "MOST_POSSIBLE_SOCIAL_DAY__FIVE_HOUSEHOLD_GATE_ACTIVE"
+    },
+    {
+      "date": "2026-01-05",
+      "weekday": "Monday",
+      "fixedOrProtected": [
+        "Shivani college 09:00–15:30 then faculty 16:00–17:45",
+        "Taniya CA office 10:30–19:30",
+        "Shreya station 08:00–17:00 and 10:30 training",
+        "Ankita office technical team 18:10–19:00 candidate",
+        "Meenakshi hospital duration UNKNOWN; optional Aditi/Avi/Yash home study 18:30–19:15 only if confirmed",
+        "Kabir tech work proposed, Rohan work unknown, Nikhil work unknown, Vikram childcare/work unsettled"
+      ],
+      "societyOptions": [
+        "After 19:45/20:00 might allow short society overlaps only if commutes, fatigue and care align",
+        "Not all husbands are automatically in office, nor all five leads are free on Monday",
+        "Cross-household exchanges of 1–2 participants more plausible than a five-lead same-time meeting"
+      ],
+      "status": "WORKDAY_MULTI-LOCATION__NO_FULL_GROUP_WINDOW_CONFIRMED"
+    }
+  ],
+  "crossLeadConstraints": [
+    "Do not merge Uday/Utkarsh, Samar/Shaan, Karan/Aman, Ayaan/Armaan, Harsh/Laksh, or Avi/Yash; different pairs and not all are confirmed twins.",
+    "Karan and Aman Sunday Shivani 11:30–12:15, Taniya 13:15–14:00, Kavya 16:30–17:05 are SOFT chronological candidates, not independent locked appointments; check transit and one-person attendance.",
+    "Ayaan and Armaan Saturday Shivani 15:00–15:25, Meenakshi 15:55–16:20; Taniya Sunday 17:30–18:05, Shivani Monday 06:45–07:45 proposed.",
+    "No implicit knowledge-sharing across five women about private observations, household elders, wardrobe mishaps or other characters' motivations.",
+    "Ankita/Shreya prior 2 January events and Meenakshi/Shivani/Taniya source-vault locked manuscript lines must remain unchanged.",
+    "No new final Episode06 reader prose or illustrations were produced by this audit.",
+    "UI planning components may not automatically display this new source unless explicitly wired; repository save and UI publication are different actions."
+  ],
+  "globalGate": {
+    "source": "episode-06-cross-household-hold.json",
+    "status": "KEEP_HOLD__SOCIETY_DISCUSSION_NEXT__NO_INVENTED_GROUP_EVENT",
+    "outstandingDecisions": [
+      "Decide Nikhil's actual Saturday, Sunday and Monday office/errand/home windows and who watches Vihaan; reconcile Saturday phone and Monday clinic session",
+      "Confirm Kabir's Sunday on-call status, Rohan's real occupation/commitments, Vikram shift and Anaya care, and Aditya's relationship-specific plans",
+      "Confirm each female lead's 3–5 Jan travel, precise start/finish and family duties, especially Sunday overlapping twins and Monday return home",
+      "Discuss one society outing scenario (Sat night vs Sun evening vs subset) and all participant names; do not invent a complete five-couple movie",
+      "Separate core five-women locations from husbands, children, twins, elders, guards, gym and hospital workers; only then release hold"
+    ]
+  },
+  "publication": {
+    "mode": "APPROVED_PLOT_SECTION_AUDIT",
+    "finalProse": false,
+    "readerUpdated": false,
+    "overwritePriorFiles": false,
+    "datesLocked": false,
+    "meetingLocked": false
+  },
+  "created": "2026-11-27",
+  "sources": [
+    "episode-06-meenakshi-jan03-05-plan.json",
+    "episode-06-ankita-plan.json",
+    "shivani-episode-06-three-day-plot.json",
+    "episode-06-taniya-plan.json",
+    "episode-06-shreya-plan.json",
+    "episode-06-household-spouse-availability.json",
+    "episode-06-cross-household-hold.json",
+    "episode-06-karan-aman-shared-availability.json",
+    "cross-lead-ayaan-armaan-jam-2026.json",
+    "episode-05-publication-index.json",
+    "source-vault/ep05-meenakshi-shivani-jan02.json",
+    "character-directory.json"
+  ]
+}
