@@ -19,7 +19,8 @@
     "2026-11-27 user-approved Taniya plot refinement (clocks editorial): Sat3 10:40–10:55 Karan independently asks MBA finance help; Aman is absent from first request and separately seeks invited finance-domain review for a proposed Java/Spring Boot Expense Tracker API. Sat3 16:45–16:55 Shivani separately refers Ayaan/Armaan to Taniya. Sun4 13:15–14:00 Karan/Aman home tutorial includes approved fan-scattered papers / stole-shift moment (different viewpoints, not a second Episode03 collision); Sun4 17:30–18:05 Ayaan/Armaan meet Taniya for the first time for an introductory quantitative diagnostic, with zero wardrobe accident. Actual twins: Karan/Aman only. Shared-character timed event collisions found: zero; five-household society final date still provisional.",
     "2026-11-27: Four author-requested EP06 cross-household SOCIAL CANDIDATES indexed Jan3 19:10, Jan4 07:15 and 18:45, Jan5 20:20. No individual husband/female duty overlaps found in existing fixed time envelopes; spouses' unknown job shifts and childcare mean these are NOT bookings. Source episode-06-global-society-crossovers-jan03-05.json. Nikhil occupation and actual Jan3–5 work schedule remain unknown. Original five-lead scenes unchanged. Room for society gate review remains.",
     "2026-11-27: Global society design upgraded on user request to deliberate adult physical closeness, garment/fitness visual moments and separate spouse-knowledge states. Jan3 setup, Jan4 morning walk + evening garden + optional projector-corner, Jan5 after-work reminder; five candidate events source episode-06-global-society-crossovers-jan03-05.json. Status REVIEW and all husband/childcare gates remain, no final story prose. DHIKA Raj/Sharmi EP12/14/15 researched for narrative pattern, NOT copied.",
-    "2026-11-27 AUTHOR INITIAL PLOT SAVE: society crossover windows Sat3 19:10–19:30, Sun4 07:15–07:35 and 18:45–19:25 plus optional 19:40–19:58, Mon5 20:50–21:05 (moved from 20:20 to allow Ankita-Kabir 20:00–20:20 talk and Taniya CA 19:30 finish). Five existing lead scenes and shifts untouched. Timed collision scan against earlier events excluding presence envelopes found none. Shreya does NOT attend society during police station hours. Exact husband schedules and family care still soft-gated. Source episode-06-global-society-crossovers-jan03-05.json."
+    "2026-11-27 AUTHOR INITIAL PLOT SAVE: society crossover windows Sat3 19:10–19:30, Sun4 07:15–07:35 and 18:45–19:25 plus optional 19:40–19:58, Mon5 20:50–21:05 (moved from 20:20 to allow Ankita-Kabir 20:00–20:20 talk and Taniya CA 19:30 finish). Five existing lead scenes and shifts untouched. Timed collision scan against earlier events excluding presence envelopes found none. Shreya does NOT attend society during police station hours. Exact husband schedules and family care still soft-gated. Source episode-06-global-society-crossovers-jan03-05.json.",
+    "AUTHOR-REQUESTED 2026-11-27 EP07 ANKITA Jan7 provisional time booking: Rohit Cyber City 16:35–17:00, Rinku Gulmohar home-service 20:55–21:25. Preserves Jan7 19:15–20:15 project home guests and 20:15–20:55 departure/reset. Both helpers' Jan2 histories are already written; do not repeat their first incidents. Rinku absence/late shift and family privacy are unresolved; first kiss only a conditional proposed beat, not completed canon. Source episode-07-ankita-rohit-rinku-jan07-plan.json."
   ],
   "events": [
     {
@@ -4164,6 +4165,84 @@
           "body": "Taniya may tell Aditya about the community event in ordinary wedding-planning context; she does not have to recount her teasing with Vikram unless she chooses."
         }
       ]
+    },
+    {
+      "id": "ank07-07-rohit-office-callback",
+      "date": "2026-01-07",
+      "sort": "16:35",
+      "start": "16:35",
+      "end": "17:00",
+      "timeLabel": "Wed 7 Jan 16:35–17:00 · booked proposed office scene",
+      "universe": "sw",
+      "title": "Ankita × Rohit · The Adapter That Wasn't Missing",
+      "lead": "Ankita",
+      "characters": [
+        "Ankita",
+        "Rohit"
+      ],
+      "mentions": [
+        "Vivan",
+        "Reyansh",
+        "Sana",
+        "Aishwarya"
+      ],
+      "episode": "07 plot",
+      "scene": "ANK07-R01-ROHIT-OFFICE",
+      "kind": "planned",
+      "state": "review",
+      "status": "AUTHOR REQUESTED JAN 7 TIME BOOKING · PROPOSED / NO FINAL PROSE",
+      "source": "episode-07-ankita-rohit-rinku-jan07-plan.json",
+      "reader": {
+        "type": "source-url",
+        "url": "https://github.com/developer-fandom-rush/DHIKA_STORY/blob/main/Society-Wives/episode-07-ankita-rohit-rinku-jan07-plan.json"
+      },
+      "flags": [
+        "Jan2 Rohit acknowledgment and prior deliberate reaction are already complete; no second missing form or repeated accident",
+        "Ankita and Rohit at Cyber City 16:35–17:00 only; Wednesday Malhotra-home team arrives later 19:15–20:15 candidate",
+        "Rohit is not a Wednesday home-team guest; office relationships remain independent from society helper Rinku",
+        "Mutual flirting is optional and consensual; no work hierarchy leverage or booked kiss"
+      ],
+      "detail": "Genuine AV demo adapter/test-cable pickup and professional receipt handoff before Ankita leaves with four existing colleagues later. Friday's teasing is remembered by both; Rohit's response can become more direct. This is an EP07 first-pass booking, not final prose or a prior author-approved intimate scene."
+    },
+    {
+      "id": "ank07-07-rinku-evening-return",
+      "date": "2026-01-07",
+      "sort": "20:55",
+      "start": "20:55",
+      "end": "21:25",
+      "timeLabel": "Wed 7 Jan 20:55–21:25 · booked conditional society return",
+      "universe": "sw",
+      "title": "Ankita × Rinku · The Part That Took Five Days",
+      "lead": "Ankita",
+      "characters": [
+        "Ankita",
+        "Rinku"
+      ],
+      "mentions": [
+        "Kabir",
+        "Karan",
+        "Aman",
+        "Rajeev"
+      ],
+      "episode": "07 plot",
+      "scene": "ANK07-R02-RINKU-RETURN",
+      "kind": "planned",
+      "state": "review",
+      "status": "AUTHOR REQUESTED JAN 7 TIME BOOKING · LATE SERVICE & PRIVATE KISS CONDITIONAL",
+      "source": "episode-07-ankita-rohit-rinku-jan07-plan.json",
+      "reader": {
+        "type": "source-url",
+        "url": "https://github.com/developer-fandom-rush/DHIKA_STORY/blob/main/Society-Wives/episode-07-ankita-rohit-rinku-jan07-plan.json"
+      },
+      "flags": [
+        "Jan2 Rinku repair connector pending, Jan2 evening promise unfulfilled in source; explanation must be provided, no invented bereavement",
+        "First fit/pressure check 20:55–21:08; separate chosen teasing/attraction after service, no repeat wet-clothing incident",
+        "Wednesday Vivan/Reyansh/Sana/Aishwarya planned 19:15–20:15; guest-exit buffer until 20:35 and home reset until 20:55 required",
+        "Kabir, Karan, Aman, Rajeev live in same household: no invented empty home, their locations and sightlines must be verified",
+        "First kiss only a proposal after explicit two-way interest and credible privacy; if family present or shift later, retain dialogue and cancel/defer kiss",
+        "Rinku society service shift and exact late-evening availability not yet verified. End-time booking soft, not confirmed attendance"
+      ],
+      "detail": "Overdue unusual water-filter connector gets a genuine evening service closure after earlier Friday contact and Wednesday home-team visit. Emotional escalation from preexisting Jan1/Jan2 familiarity: Rinku admits why he went quiet; Ankita confirms earlier teasing was intentional; a mutually chosen first kiss is a conditional dramatic turning point, not an event already narrated."
     }
   ],
   "sourcePolicy": " | Shreya January 3 working scenes SR10–SR13 were moved into the January 1 calendar by direct author instruction 2026-11-16, original plan archived in episode-03-shreya-plan-archive-jan03.json; no content removed from story source."
