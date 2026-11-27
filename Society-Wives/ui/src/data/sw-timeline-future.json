@@ -2380,8 +2380,8 @@
       "scene": "CROSS-HOUSEHOLD-HOLD",
       "kind": "planned",
       "state": "review",
-      "status": "HOLD · REOPEN AFTER FIVE LEAD EP06 PLOTS",
-      "source": "shivani-episode-06-three-day-plot.json",
+      "status": "INITIAL SOCIETY PLOT SAVED · HUSBAND SHIFTS / CHILDCARE / PRIVATE OPTION STILL ON HOLD",
+      "source": "episode-06-cross-household-hold.json",
       "reader": {
         "type": "sw-plan",
         "character": "shivani",
@@ -2392,7 +2392,7 @@
         "Candidate sorting clock only, not locked event time",
         "Cross-household gate must be checked before finalizing attendance"
       ],
-      "detail": "No guard/trainer/milkman/uncle/other husbands encounter or group movie booked until five leads and their partners' 3–5 Jan availability and knowledge are reconciled. This is a source-index marker, NOT a late-night story scene."
+      "detail": "All five lead EP06 plot directions are saved. Five new global society time windows were inserted with zero known timed character overlaps; final husband attendance, care and private-scene decisions remain conditional. See episode-06-society-location-and-collision-audit-20261127.json."
     },
     {
       "id": "ank06-03-marriage-opening-proposed-time",
@@ -3858,7 +3858,7 @@
       "scene": "SW06-GS01",
       "kind": "planned",
       "state": "review",
-      "status": "AUTHOR-APPROVED INITIAL PLOT · PROVISIONAL TIME · DUTY/TRAVEL VERIFIED",
+      "status": "AUTHOR-APPROVED INITIAL PLOT · PROVISIONAL TIME · NO KNOWN TIMED OVERLAP",
       "source": "episode-06-global-society-crossovers-jan03-05.json",
       "reader": {
         "type": "source-url",
@@ -3919,7 +3919,7 @@
       "scene": "SW06-GS02",
       "kind": "planned",
       "state": "review",
-      "status": "AUTHOR-APPROVED INITIAL PLOT · PROVISIONAL TIME · DUTY/TRAVEL VERIFIED",
+      "status": "AUTHOR-APPROVED INITIAL PLOT · PROVISIONAL TIME · NO KNOWN TIMED OVERLAP",
       "source": "episode-06-global-society-crossovers-jan03-05.json",
       "reader": {
         "type": "source-url",
@@ -3991,7 +3991,7 @@
       "scene": "SW06-GS03",
       "kind": "planned",
       "state": "review",
-      "status": "AUTHOR-APPROVED INITIAL PLOT · PROVISIONAL TIME · DUTY/TRAVEL VERIFIED",
+      "status": "AUTHOR-APPROVED INITIAL PLOT · PROVISIONAL TIME · NO KNOWN TIMED OVERLAP",
       "source": "episode-06-global-society-crossovers-jan03-05.json",
       "reader": {
         "type": "source-url",
@@ -4131,7 +4131,7 @@
       "scene": "SW06-GS04",
       "kind": "planned",
       "state": "review",
-      "status": "AUTHOR-APPROVED INITIAL PLOT · PROVISIONAL TIME · DUTY/TRAVEL VERIFIED",
+      "status": "AUTHOR-APPROVED INITIAL PLOT · PROVISIONAL TIME · NO KNOWN TIMED OVERLAP",
       "source": "episode-06-global-society-crossovers-jan03-05.json",
       "reader": {
         "type": "source-url",
