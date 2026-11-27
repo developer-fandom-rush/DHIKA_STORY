@@ -107,22 +107,22 @@
   "proposedRohitScene": {
     "title": "When the Checklist Ends",
     "coreReason": "A genuine test-cable/AV adapter check for Wednesday evening four-colleague Service Booking Portal home work session; Friday equipment acknowledgment is done and may not be reopened.",
-    "outfitContinuity": "Ankita chooses dark tailored trousers, a slate-blue sleeveless inner top and a loose ivory overshirt for Wednesday. She is fully dressed at work; the same overshirt remains for the separately already-planned home work-corner incidental slip; no two new wardrobe mishaps.",
+    "outfitContinuity": "Wednesday Jan7: deep wine-burgundy fitted knee-length sleeveless dress, square neckline, defined waist, subtle side slit, black block heels, berry lipstick, long loose waves. Ivory blazer worn as general office layer before meeting; consciously removed and placed in tote at ~16:28 so she meets Rohit 16:35 WITHOUT WHITE BLAZER. Blazer worn again for the 19:15 home-team demonstration, so pre-approved minor outer-layer chair snag survives with new dress under it. No fake neckline or deliberate anatomical exposure accident.",
     "beats": [
       {
         "id": "ROH07-01",
         "at": "16:35–16:47",
-        "action": "Rohit prepares and checks the genuinely needed presentation cable at the staffed AV desk. Ankita notices that he no longer loses his words. The exchange acknowledges Jan2 without a repeated equipment accident."
+        "action": "16:28 Ankita intentionally takes ivory blazer off before the AV bay; Rohit returns actual demo adapter at 16:35 and registers her wine-burgundy fitted dress, bare shoulders and confident smile, not another accidental revealing posture. Work exchange completes professionally."
       },
       {
         "id": "ROH07-02",
         "at": "16:47–17:00",
-        "action": "Ankita chooses a playful look at him and asks whether Friday made him uncomfortable. Rohit says the awkwardness was real but he respected her enough not to presume or gossip. His steadiness, not another astonished gaze, interests her."
+        "action": "Ankita teases his first startled glance: adapter issue or operator slow? Rohit returns a playful response, then compliments her confidence and outfit without turning it into a body inspection; she likes his reciprocity more than his Jan2 silence."
       },
       {
         "id": "ROH07-03",
         "at": "17:05–17:15",
-        "action": "After work handoff ends, she invites him to walk to the office-complex tea kiosk during a real break. It is a voluntary off-task conversation in a public accessible place; not a hidden AV-room kiss or a manager rewarding subordinate."
+        "action": "After the handover Rohit has a genuine break. At public campus tea kiosk he orders cups while Ankita waits; show both internal viewpoints about their previous awkwardness, genuine attraction, workplace and marital constraints. This function parallels the emotional breathing-room of DHIKA EP07 without copying ice cream choreography."
       },
       {
         "id": "ROH07-04",
@@ -141,11 +141,12 @@
       }
     ],
     "sampleLines": [
-      "Ankita: 'Friday tum do baar chup hue the. Aaj checklist ke baad bhi chup rahoge?'",
-      "Rohit: 'Friday samajh nahi paaya tha aap mazaak kar rahi thi ya serious. Is baar pooch sakta hoon.'",
-      "Ankita: 'Toh poochho, Rohit. Main har sawaal ka answer mail par nahi deti.'",
-      "Rohit: 'Ab agar yeh personal hai, toh main bilkul clear rehna chahta hoon.'",
-      "Ankita: 'Haan, personal hai. Aur main yahan apni marzi se khadi hoon.'"
+      "Ankita: 'Rohit Babu, aaj phir adapter atak gaya? Ya tum?'",
+      "Rohit: 'Adapter toh tested hai. Shayad operator Friday ko thoda slow tha.'",
+      "Ankita: 'Different achha hai, ya mujhe dress change karni chahiye?'",
+      "Rohit: 'Achha hai. Bahut. Lekin expected nahi tha.'",
+      "Ankita: 'Professional observation complete. Personal observation bhi?'",
+      "Rohit: 'Aapko pata hai ki main notice kar raha hoon. Lekin main assume nahi karna chahta.'"
     ],
     "romanticDifference": "No forced second technical accident. Jan2 he was overwhelmed by external presentation; Jan7 he recognizes HER and answers with respect. Personal conversation and a kiss occur outside the work task after clear choice.",
     "reaction": "Ankita feels seen as a woman and respected as a senior colleague; Rohit blushes briefly yet responds confidently, checks her eyes after kiss, and lets her go on her schedule.",
@@ -155,7 +156,15 @@
       "CCTV/other visitors may exist around kiosk; no secret recording or discovered witness invented.",
       "She joins the exact same four colleagues for 19:15 home project; any observable emotional shift does not mean they know the kiss.",
       "A later Rohit encounter must address whether this boundary can coexist with work, not automatically become repetitive kissing."
-    ]
+    ],
+    "visualStoryLogic": "Unlike Jan2 dusty-rose open-back and accidental/repeated revealing incident, Jan7 deliberate presentation is clean full-body silhouette, exposed shoulders, structured neckline, posture, direct eye contact and lively banter. Her goal is an articulate reciprocal compliment and playful challenge, not another involuntary visual surprise or nakedness. Rohit registers dress, then shows confidence and restraint.",
+    "preTeaBeat": {
+      "time": "16:25–17:08",
+      "ankitaThought": "She remembers Jan2's first accident and chosen second attention test; decides today to let Rohit see a different, deliberate look and hopes he will answer her teasing confidently instead of falling silent.",
+      "rohitThought": "He notices the entirely different dress, then the fact she is intentionally meeting him and enjoying his jokes. He appreciates her style but does not infer entitlement. Her role as senior colleague and marriage remain in mind.",
+      "onPageAction": "~16:28 blazer intentionally put in bag; ~16:35 Rohit returns adapter and notices dress with brief respectful glance; Ankita catches pause and teases about adapter vs operator, then she laughs when he returns joke; ~17:00 work task ends; ~17:05 he walks to tea counter, she waits on bench, both have separate internal reflections before personal conversation.",
+      "notCopy": "Original DHIKA's ice-cream retrieval and over-shelf wardrobe reveal are NOT copied; a believable queue at public tea counter separates their POVs, not a borrowed spill or forced touch."
+    }
   },
   "proposedRinkuScene": {
     "title": "The Repair Was Finished; the Question Wasn't",
@@ -236,7 +245,7 @@
     "firstKissRinku": "AUTHOR_DIRECTED_PLOT_LOCK__NOT_YET_IN_PROSE",
     "kissOutcomeNowRequiredInFinalEP07": true,
     "draftKissScenesWritten": true,
-    "statusClarification": "Two first kisses appear in new WORKING READER prose under author review; this is not a final frozen canonical event record. Original EP04B/EP05 source is untouched.",
+    "statusClarification": "Ankita EP07 WORKING Reader now reflects Rohit-specific deliberate burgundy outfit, no blazer at Rohit meeting, his private thoughts before tea, and renewed blazer at home-demo, plus existing Jan7 dual-kiss draft. No final frozen canon.",
     "readerUrl": "https://developer-fandom-rush.github.io/DHIKA_STORY/Society-Wives/#/reading?episode=07&character=ankita&scene=01",
     "readerSources": [
       "episode-06-ankita-reader-working.json",
