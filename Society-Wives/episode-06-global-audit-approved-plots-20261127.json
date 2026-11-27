@@ -203,14 +203,15 @@
   ],
   "globalGate": {
     "source": "episode-06-cross-household-hold.json",
-    "status": "KEEP_HOLD__SOCIETY_DISCUSSION_NEXT__NO_INVENTED_GROUP_EVENT",
+    "status": "KEEP_HOLD__SOCIETY_CANDIDATES_INDEXED__HUSBAND_AND_CHILDCARE_CLOCKS_NOT_CONFIRMED",
     "outstandingDecisions": [
       "Decide Nikhil's actual Saturday, Sunday and Monday office/errand/home windows and who watches Vihaan; reconcile Saturday phone and Monday clinic session",
       "Confirm Kabir's Sunday on-call status, Rohan's real occupation/commitments, Vikram shift and Anaya care, and Aditya's relationship-specific plans",
       "Confirm each female lead's 3–5 Jan travel, precise start/finish and family duties, especially Sunday overlapping twins and Monday return home",
       "Discuss one society outing scenario (Sat night vs Sun evening vs subset) and all participant names; do not invent a complete five-couple movie",
       "Separate core five-women locations from husbands, children, twins, elders, guards, gym and hospital workers; only then release hold"
-    ]
+    ],
+    "proposedSocietyPlan": "episode-06-global-society-crossovers-jan03-05.json"
   },
   "publication": {
     "mode": "APPROVED_PLOT_SECTION_AUDIT",
@@ -233,6 +234,20 @@
     "cross-lead-ayaan-armaan-jam-2026.json",
     "episode-05-publication-index.json",
     "source-vault/ep05-meenakshi-shivani-jan02.json",
-    "character-directory.json"
-  ]
+    "character-directory.json",
+    "episode-06-global-society-crossovers-jan03-05.json"
+  ],
+  "societyCrossoverProposal20261127": {
+    "status": "DESIGNED_AND_ADDED_TO_UNIVERSAL_TIMELINE_AS_REVIEW_CANDIDATES__NO_BOOKINGS",
+    "source": "episode-06-global-society-crossovers-jan03-05.json",
+    "events": [
+      "SW06-GS01",
+      "SW06-GS02",
+      "SW06-GS03",
+      "SW06-GS04"
+    ],
+    "candidateSundayMain": "2026-01-04 18:45–19:25",
+    "globalGate": "HOLD remains active until 4 husbands/3 children and participants' availability confirmed",
+    "episodeProse": "Unwritten"
+  }
 }
