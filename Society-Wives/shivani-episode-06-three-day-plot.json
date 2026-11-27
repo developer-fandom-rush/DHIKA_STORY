@@ -74,9 +74,9 @@
         },
         {
           "id": "SH06-SAT-AYAAN",
-          "time": "Afternoon candidate, NOT fixed time",
+          "time": "15:00–15:25 (editor-proposed; after already-written Uncle morning)",
           "title": "Ayaan–Armaan ask for IIT JAM BT Biology tuition",
-          "status": "PLOT_FOUNDATION_APPROVED__CLOCK_OPEN",
+          "status": "AUTHOR_APPROVED_ACADEMIC_FOUNDATION__SATURDAY_CLOCK_RECONCILED_EDITOR_PROPOSAL",
           "people": [
             "Shivani",
             "Ayaan",
@@ -84,9 +84,10 @@
           ],
           "actions": [
             "Existing society event/printing helpers propose Life Sciences/Biotechnology graduation background; confirm qualification/registration before canon.",
-            "Shivani primary Biology mentor. She calls Meenakshi about Chemistry/medical practical examples; Meenakshi agrees in principle, timetable deliberately postponed.",
             "Taniya possible Mathematics, Ankita conditional Physics, Shreya exam strategy; none auto-booked.",
-            "NO old chart-cabinet accident; raised-arm waist/navel slip belongs to later lesson."
+            "NO old chart-cabinet accident; raised-arm waist/navel slip belongs to later lesson.",
+            "Post-meeting Shivani phone referral to Meenakshi 15:30–15:40 editor slot; Ayaan/Armaan first short direct visit to Meenakshi 15:55–16:20 at Kapoor home. No early tuition/wardrobe incident.",
+            "Separate Shivani→Taniya 16:45–16:55 referral remains after pair has left Meenakshi's home; the pair's actual Taniya visit is Sunday Jan 4 17:30–18:05, not Saturday."
           ]
         },
         {
@@ -309,7 +310,9 @@
     "source": "cross-lead-ayaan-armaan-jam-2026.json",
     "uiRoute": "#/study-circle",
     "lead": "Shivani",
-    "info": "Read shared mentor roles and open competence/availability questions before placing this person's January scenes. Metadata pointer only; existing prose and previous plot decisions unchanged."
+    "info": "Read shared mentor roles and open competence/availability questions before placing this person's January scenes. Metadata pointer only; existing prose and previous plot decisions unchanged.",
+    "meenakshiNewJan03Plan": "episode-06-meenakshi-jan03-05-plan.json",
+    "clockStatus": "EDITOR_PROPOSED_NO_PROSE"
   },
   "societyCrossHouseholdGate": {
     "status": "AUTHOR_DIRECTED_HOLD__REOPEN_ONLY_AFTER_ALL_FIVE_EP06_THREE_DAY_PLOTS_AND_HUSBAND_AVAILABILITY_MAP",
@@ -377,7 +380,7 @@
       "jan3Morning": "Author reports scene already written; not independently identified in GitHub or Drive title search. Timeline marker is a preservation placeholder, NOT verified published prose."
     }
   },
-  "lastSynced": "2026-11-26",
+  "lastSynced": "2026-11-27",
   "groupReactionLedger": [
     {
       "group": "A",
