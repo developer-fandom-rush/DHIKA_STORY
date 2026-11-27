@@ -30,8 +30,8 @@
     {
       "lead": "Meenakshi",
       "partner": "Nikhil (husband)",
-      "nextThreeDays": "NOT YET FULLY PLANNED/FROZEN",
-      "important": "Hospital shifts, Om/Mohan current-household interactions, and proposed Chemistry help timing open."
+      "nextThreeDays": "EP06 JAN3–5 PLOT NOW SAVED__TIMES EDITOR PROPOSED__HOUSEHOLD AND MONDAY SESSION CONDITIONAL",
+      "important": "Jan3 CityCare half-day 08:30–13:05 proposed; Aditi/Avi/Yash clinical tutoring request 10:35; Rupa/Leena private curiosity 12:20–12:37; Shivani JAM referral 15:30 after her 15:00 pair meeting; Ayaan/Armaan first Meenakshi visit 15:55–16:20, with no accident; Nikhil home-session logistics phone later; Mon5 18:30–19:15 staff revision candidate conditional on Nikhil, Vihaan and duty shifts. Source episode-06-meenakshi-jan03-05-plan.json. Jan4 Sunday rest editor-proposed; optional cross-household social events still on HOLD."
     },
     {
       "lead": "Shreya",
@@ -69,7 +69,8 @@
     "episode-06-shreya-plan.json",
     "episode-06-karan-aman-shared-availability.json",
     "episode-06-ankita-mentoring-setup.json",
-    "episode-06-household-spouse-availability.json"
+    "episode-06-household-spouse-availability.json",
+    "episode-06-meenakshi-jan03-05-plan.json"
   ],
   "otherLeadHandoff": "Use episode-06-household-spouse-availability.json as the explicit provisional Jan3–5 spouse and Shreya duty source. The prior Shreya marriage-first premise is superseded by existing Shreya×Vikram Episode05 ending. Check all five leads before unlocking optional shared society gatherings. Do not invent husband's profession or automatic household absence.",
   "sharedKaranAmanLedger": {
