@@ -76,7 +76,7 @@ for(let i=0;i<dated.length;i++)for(let k=i+1;k<dated.length;k++){
 const twinsCross=JSON.parse(readFileSync(resolve(root,'episode-06-karan-aman-shared-availability.json'),'utf8'));
 assert.ok(/EP02/.test(twinsCross.fiveLeadLinks.find(x=>x.lead==='Shreya')?.existing||''),'Restore confirmed Shreya Karan/Aman EP02 acquaintance');
 const family=JSON.parse(readFileSync(resolve(root,'episode-06-household-spouse-availability.json'),'utf8'));
-assert.deepEqual(family.husbands.map(x=>x.id).sort(),['Kabir','Rohan','Vikram'],'Husband availability must be recorded separately for all 3 men');
+assert.deepEqual(family.husbands.map(x=>x.id).sort(),['Kabir','Nikhil','Rohan','Vikram'],'Husband availability must be recorded separately for all four married leads');
 assert.deepEqual(family.shreyaPoliceRoster.map(x=>x.leave),[false,false,false],'Shreya must have no leave for Jan3–5 in selected fictional roster');
 assert.deepEqual(family.shreyaPoliceRoster.map(x=>x.shift),['08:30–16:30','08:00–13:00','08:00–17:00'],'Selected Shreya station shifts must match story plan');
 for(const [date,shift] of [['2026-01-03','08:30'],['2026-01-04','08:00'],['2026-01-05','08:00']]){
@@ -119,6 +119,18 @@ for(const sc of taniya.scenes){
  assert.ok(future.events.some(e=>e.scene===sc.id),'Taniya plot missing global timeline event '+sc.id);
 }
 assert.ok(taniya.canonLocks.some(x=>x.includes('DREAM')),'Do not re-import Episode05 dream as a real encounter');
+const ankita06=JSON.parse(readFileSync(resolve(root,'episode-06-ankita-reader-working.json'),'utf8'));
+const ankita07=JSON.parse(readFileSync(resolve(root,'episode-07-ankita-reader-working.json'),'utf8'));
+assert.equal(ankita06.scenes.length,9,'Ankita EP06 reader needs all nine new scenes');
+assert.equal(ankita07.scenes.length,6,'Ankita EP07 reader needs all six new scenes');
+assert.ok(reader.includes("Episode0607Ankita")&&nav.includes("'07'"),'EP06 and EP07 Ankita must be linked in persistent Read Story');
+assert.ok(ankita07.scenes.find(x=>x.id==='03')?.raw.includes('kiss karna chahti hoon'),'Rohit first-kiss scene is absent');
+assert.ok(ankita07.scenes.find(x=>x.id==='05')?.raw.includes('kiss kar sakta hoon'),'Rinku first-kiss scene is absent');
+assert.ok(ankita06.scenes.every(x=>x.visuals?.length>=1)&&ankita07.scenes.every(x=>x.visuals?.length>=1),'Every new scene needs Grok visual insert framing');
+assert.ok(ankita07.scenes.find(x=>x.id==='04')?.raw.includes('tuition nahi'),'Wednesday project must not be mistaken for formal tuition');
+assert.ok(future.events.find(x=>x.id==='ank07-07-rohit-office-callback')?.reader?.type==='sw-working-ankita','Global Timeline must link Rohit to Reader');
+assert.ok(future.events.find(x=>x.id==='ank07-07-rinku-evening-return')?.reader?.scene==='05','Global Timeline must link Rinku scene');
+console.log('PASS Ankita 9+6 working reader scenes, two chosen first kisses, storyboard markers, routes and no premature tuition.');
 console.log('PASS Taniya 5AM coaching, sister call, work/social tuition, Monday office, archived females and collision contract.');
 console.log('PASS Shreya visuals, 3 husbands and no-leave police roster.');
 console.log('PASS Shreya 3-day rematch/changing-area/flat-study and cross-lead no-overlap checks.');
