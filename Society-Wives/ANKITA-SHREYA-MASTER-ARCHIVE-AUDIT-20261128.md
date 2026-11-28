@@ -1,9 +1,24 @@
 # Ankita & Shreya — Master archive / completeness audit
+
+## UPDATE — 28 NOV 2026 · SHREYA EP07 CURRENT ACTIVE REFERENCES
+
+**Working prose / Grok handover:** [Shreya EP07 Keshav–Chintu updated scenes](episode-07-shreya-keshav-chintu-working-prose.md). **Dedicated Story Plot UI:** https://developer-fandom-rush.github.io/DHIKA_STORY/Society-Wives/#/planning?lead=shreya&part=07 (source committed; live deployment must be checked). **Four-tab master Google Doc:** https://docs.google.com/document/d/1oitHtN4K_O7OTP_aciNcN7bB9LMMpH-OspHLX4v9MAk/edit (native tabs: Ankita–Rohit + historic full archive, Ankita–Rinku, Shreya–Keshav, Shreya–Chintu). Each tab contains its associated image.
+
+**CURRENT IMAGE ZIP:** ChatGPT Library `/SW/SW-Ankita-Shreya-Reference-Images.zip` has **20 active entries (18 Ankita historical images + 2 NEW Shreya images)**. The three older Shreya placeholders (#19 wrong-face red, #20 wrong-face indigo, #21 rejected joint concept) have been **removed from the current ZIP**. New files are:
+- `Shreya-EP07/19-Shreya-Keshav-Red-Front-Mirror.png`
+- `Shreya-EP07/20-Shreya-Chintu-Indigo-Front-Mirror.png`
+
+The withdrawn Shreya images remain in pre-existing chat history/Git revision history where applicable; they are NOT current identity or dress references. Their old filenames below are historic audit records only, not entries in the updated ZIP. `SW-Image-Contact-Sheet-02.jpg` (old images) was moved to Library trash and `SW-Shreya-EP07-Corrected-Contact-Sheet.jpg` was saved.
+
+**Author correction for CHINTU:** Rathore home empty during visit, Chintu leaves, THEN Shreya privately changes from indigo dress into ordinary home clothes. Earlier Chintu rental-flat proposal and outer-layer-before-departure ending are superseded. Safe childcare/whereabouts of Vikram and Anaya unresolved; do not invent them. Both solo scenes remain working prose, **not frozen Reader canon**.
+
+---
+
 **As of:** 28 November 2026
 **Master Word-ready Google document (view + File → Download → Microsoft Word):** https://docs.google.com/document/d/1oitHtN4K_O7OTP_aciNcN7bB9LMMpH-OspHLX4v9MAk/edit?usp=drivesdk
 **Direct Microsoft Word (.docx) on Google Drive:** https://docs.google.com/document/d/1T1HdTYNS_ZfjRmftaD_Ykfbrt48328vq/edit?usp=drivesdk&ouid=117598066758558147321&rtpof=true&sd=true\n**Exported DOCX in ChatGPT Library:** `/SW/SW-Ankita-Shreya-Master-Prose-and-Approved-Plots.docx`.
-**All selected 21 generated image references in Library ZIP:** `/SW/SW-Ankita-Shreya-Reference-Images.zip`.
-**Two contact sheets:** `/SW/SW-Image-Contact-Sheet-01.jpg`, `/SW/SW-Image-Contact-Sheet-02.jpg`.
+**Historical 21-item inventory below; updated current 20-item ZIP (18 Ankita + 2 corrected Shreya):** `/SW/SW-Ankita-Shreya-Reference-Images.zip`.
+**Current contact sheets:** `/SW/SW-Image-Contact-Sheet-01.jpg`, `/SW/SW-Shreya-EP07-Corrected-Contact-Sheet.jpg`.
 
 ## Authoritative save-state definitions
 - **Approved plot**: Story beat/visual/timing is approved, but it does not guarantee complete scene prose.
@@ -22,8 +37,8 @@
 | Shreya × Chintu Wed7 | Same source | Concept approved; indigo outfit WORKING; image face rejected | Correct-face image, flat/shift/childcare, full narrative |
 | Shreya + both later | Same source, FUTURE HOLD | Concept approved, no date / no plot choreography | Joint date, motivation, family availability, visual/story text |
 
-## Image reference inventory (21 originals, including rejected variants)
-**Important:** The repository's existing `/Society-Wives/assets/` images from earlier episodes remain available separately. The 21 generated images below are collected in the user's ChatGPT Library ZIP; they are **not publicly hosted by this GitHub Pages site**, and plain Library paths are not direct web links.
+## Historical image reference inventory (21 previous items, including three now-withdrawn Shreya variants)
+**Important:** The repository's existing `/Society-Wives/assets/` images from earlier episodes remain available separately. The 21 images below are the **PRE-CORRECTION historical inventory**. The three Shreya images #19–21 are no longer in the current ZIP; the two replacement images are listed in the update above. Earlier images were collected in the user's ChatGPT Library ZIP; they are **not publicly hosted by this GitHub Pages site**, and plain Library paths are not direct web links.
 | # | Track | Original image filename | Honest status |
 |---|---|---|---|
 | 1 | Ankita × Rohit | `a_cinematic_collage_style_storyboard_image_two_la.png` | Working reference; verify continuity |
