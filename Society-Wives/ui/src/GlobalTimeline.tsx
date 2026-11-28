@@ -57,6 +57,7 @@ export default function GlobalTimeline({universe,date,onDateChange}:{universe:'s
    <h1>Universal Timeline</h1>
    <p>{isDhika?'Dhika Day 1 = 1 January 2026, Day 2 = 2 January, and so on. Original weekdays and later arc-relative day numbers remain separate.':'Time comes first, not lead or episode. All five lead perspectives share one clock. Click any event for its original source or existing plan.'}</p>
   </header>
+  {!isDhika&&<p className="source-note"><strong>Ankita &amp; Shreya archive:</strong> <a href="https://docs.google.com/document/d/1oitHtN4K_O7OTP_aciNcN7bB9LMMpH-OspHLX4v9MAk/edit?usp=drivesdk" target="_blank" rel="noreferrer">Master Word-ready document ↗</a> · <a href="https://github.com/developer-fandom-rush/DHIKA_STORY/blob/main/Society-Wives/ANKITA-SHREYA-MASTER-ARCHIVE-AUDIT-20261128.md" target="_blank" rel="noreferrer">Image reference register (includes rejected drafts) ↗</a>. Event statuses remain individual: approved plot is not always finished prose.</p>}
   <div className="timeline-anchor"><div><span className="eyebrow">Common story-day anchor</span><strong>Day 1 = 1 January 2026</strong><p>Day N corresponds to 1 Jan + (N−1) days for both universes.</p></div><div className="timeline-origin"><span>START</span><strong>00:01</strong><small>No event invented at midnight</small></div></div>
   {!isDhika&&<section className="episode-plan-card" id="ankita-ep06-three-day-timeline">
    <h2>Ankita · Episode 06 · 3–5 January</h2>
