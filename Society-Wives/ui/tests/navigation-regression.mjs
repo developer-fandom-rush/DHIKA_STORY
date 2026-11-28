@@ -130,7 +130,7 @@ assert.ok(roh07?.raw.includes('VERBATIM USER MESSAGE')&&roh07.visuals.length===0
 assert.ok(rink07?.raw.includes('BEAT 13')&&rink07.visuals.length===13,'Rinku Jan09 requires all 13 author-approved visual beats and source handoff');
 assert.equal(rink07.date,'2026-01-09','Rinku scene must not return to the conflicted Jan7 evening');
 assert.ok(ankita06.scenes.every(x=>x.visuals?.length>=1)&&ankita07.scenes.filter(x=>!['03','06'].includes(x.id)).every(x=>x.visuals?.length>=1),'Working narrative scenes need visual directions; Rohit verbatim handoff and short Rinku exit are correctly exempt');
-assert.ok(nav.includes('Master Word-ready document')&&nav.includes('ANKITA-SHREYA-MASTER-ARCHIVE-AUDIT-20261128.md'),'UI must link verified master Word-ready document and image reference audit');
+assert.ok(nav.includes('Actual Word .docx file')&&nav.includes('Editable master document')&&nav.includes('ANKITA-SHREYA-MASTER-ARCHIVE-AUDIT-20261128.md'),'UI must link verified master Word-ready document and image reference audit');
 assert.ok(future.events.some(x=>x.id==='shr07-jan06-keshav-private-red-dress-candidate')&&future.events.some(x=>x.id==='shr07-jan07-chintu-private-blue-dress-candidate')&&future.events.some(x=>x.id==='shr-chotu-future-keshav-chintu-shreya-joint-hold'),'Shreya two solo candidates and undated joint hold must remain in global timeline');
 assert.ok(ankita07.scenes.find(x=>x.id==='04')?.raw.includes('tuition nahi'),'Wednesday project must not be mistaken for formal tuition');
 assert.ok(future.events.find(x=>x.id==='ank07-07-rohit-office-callback')?.reader?.type==='sw-working-ankita','Global Timeline must link Rohit to Reader');
