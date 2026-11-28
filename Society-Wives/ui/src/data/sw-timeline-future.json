@@ -22,7 +22,8 @@
     "2026-11-27 AUTHOR INITIAL PLOT SAVE: society crossover windows Sat3 19:10–19:30, Sun4 07:15–07:35 and 18:45–19:25 plus optional 19:40–19:58, Mon5 20:50–21:05 (moved from 20:20 to allow Ankita-Kabir 20:00–20:20 talk and Taniya CA 19:30 finish). Five existing lead scenes and shifts untouched. Timed collision scan against earlier events excluding presence envelopes found none. Shreya does NOT attend society during police station hours. Exact husband schedules and family care still soft-gated. Source episode-06-global-society-crossovers-jan03-05.json.",
     "AUTHOR-UPDATED EP07 ANKITA Jan7: TWO FIRST KISSES now AUTHOR-DIRECTED PLOT OUTCOMES, not published events. Rohit 16:35–17:30 includes office task 16:35–17:00 and mutually chosen kiss ~17:22 at campus kiosk during actual break. Rinku 20:55–21:40 includes water-filter repair 20:55–21:12 and mutually chosen kiss ~21:27 at lit society walkway after prior home guest departure. Both times still soft due staff/household availability; uphold plot outcome, adjust slot if unavoidable. No structured Ankita tuition had occurred as of Jan7: Aman informal Java questions, Ayaan request only, Tue CBT unbooked, Mon office kickoff and Wed project/home intro not tuition. Source episode-07-ankita-rohit-rinku-jan07-plan.json.",
     "EP06/07 Ankita working reader is now navigable from mapped 2026-01-03 through 2026-01-07 Global Timeline entries. Reader source episode-06-ankita-reader-working.json and episode-07-ankita-reader-working.json. Two Jan7 kiss scenes have been written for REVIEW, not final/frozen; no first formal tuition held as of Jan7.",
-    "EP07 Rinku author-approved storyboard source: Society-Wives/EP07-Ankita-Rinku-Part02-09Jan-Approved-Storyboard.md; dated Fri 9 Jan 2026 11:00–12:20, with four new household absences and 13 beats. Prior Wed7 evening Rinku event was withdrawn. User-approved plot does not mean Grok full prose has been authored."
+    "EP07 Rinku author-approved storyboard source: Society-Wives/EP07-Ankita-Rinku-Part02-09Jan-Approved-Storyboard.md; dated Fri 9 Jan 2026 11:00–12:20, with four new household absences and 13 beats. Prior Wed7 evening Rinku event was withdrawn. User-approved plot does not mean Grok full prose has been authored.",
+    "Shreya Chotu Jan6-7 solo structure is author-approved; time/dress/addresses only proposed, not canon. Undated future joint Keshav+Chintu hold added. Source Shreya-Chotu-Solo-Jan06-07-and-Joint-Future-Approved-Concept.md. Do not alter earlier Shreya source scenes."
   ],
   "events": [
     {
@@ -4393,6 +4394,111 @@
         "12:25 can return to WFH duties"
       ],
       "detail": "After playful, mutually chosen romantic encounter, Rinku exits via normal service door with tools and signed receipt. Ankita smiles and reflects on her own teasing backfiring, then resumes WFH. No new twins plot."
+    },
+    {
+      "id": "shr07-jan06-keshav-private-red-dress-candidate",
+      "date": "2026-01-06",
+      "sort": "17:45",
+      "start": "17:45",
+      "end": "19:00",
+      "timeLabel": "Tuesday 6 Jan · 17:45–19:00 · candidate off-duty",
+      "title": "Shreya × Keshav · the red dress test (solo)",
+      "lead": "Shreya",
+      "characters": [
+        "Shreya",
+        "Keshav"
+      ],
+      "mentions": [
+        "Vikram",
+        "Anaya"
+      ],
+      "episode": "07 future plot",
+      "scene": "SHR-CHOTU-SOLO-K01",
+      "kind": "planned",
+      "state": "review",
+      "status": "AUTHOR APPROVED SOLO CONCEPT; EXACT CLOCK/DRESS/HOME ACCESS AWAIT REVIEW",
+      "source": "Shreya-Chotu-Solo-Jan06-07-and-Joint-Future-Approved-Concept.md",
+      "reader": {
+        "type": "source-url",
+        "url": "https://github.com/developer-fandom-rush/DHIKA_STORY/blob/main/Society-Wives/Shreya-Chotu-Solo-Jan06-07-and-Joint-Future-Approved-Concept.md"
+      },
+      "flags": [
+        "Police roster currently verified in planning only through 5 Jan; Tuesday Jan6 17:00 duty end is new proposal, not an established actual shift",
+        "Keshav independent rented flat near station and address-sharing are new story facts to seed; no official records used",
+        "Vikram/Anaya safe care during off-duty visit must be established; no pretending flat empty",
+        "Age of Keshav from earlier workshop provisional 23; an adult"
+      ],
+      "detail": "Keshav independently shares his off-duty home address. Shreya arrives covered, brings red satin dress to try privately and willingly seeks his feedback; earlier Jan2 open-uniform/cream-on-desk history used correctly. Girlfriend teasing, Keshav's sincere response and his first-initiated mutually welcomed kiss, followed by her short 'I liked it' response and departure. Concept accepted, outfit and exact timing pending author review."
+    },
+    {
+      "id": "shr07-jan07-chintu-private-blue-dress-candidate",
+      "date": "2026-01-07",
+      "sort": "18:10",
+      "start": "18:10",
+      "end": "19:25",
+      "timeLabel": "Wednesday 7 Jan · 18:10–19:25 · candidate off-duty",
+      "title": "Shreya × Chintu · the wink he remembered (solo)",
+      "lead": "Shreya",
+      "characters": [
+        "Shreya",
+        "Chintu"
+      ],
+      "mentions": [
+        "Vikram",
+        "Anaya"
+      ],
+      "episode": "07 future plot",
+      "scene": "SHR-CHOTU-SOLO-C01",
+      "kind": "planned",
+      "state": "review",
+      "status": "AUTHOR APPROVED SOLO CONCEPT; EXACT CLOCK/DRESS/HOME ACCESS AWAIT REVIEW",
+      "source": "Shreya-Chotu-Solo-Jan06-07-and-Joint-Future-Approved-Concept.md",
+      "reader": {
+        "type": "source-url",
+        "url": "https://github.com/developer-fandom-rush/DHIKA_STORY/blob/main/Society-Wives/Shreya-Chotu-Solo-Jan06-07-and-Joint-Future-Approved-Concept.md"
+      },
+      "flags": [
+        "Wednesday Jan7 no other Shreya event in existing timeline; 17:00 police-duty end is proposed, not confirmed",
+        "Chintu off-duty relief before 18:10 and personally supplied rental-flat address must be established; do not pretend he has an already-known independent flat",
+        "Safe Anaya care at Rathore home and Vikram's real whereabouts are unresolved",
+        "First Chintu uniform latch visibility is source-uncertain; second Jan2 wink did happen, no prior kiss"
+      ],
+      "detail": "After Shreya finishes policing and Chintu is legitimately off-shift, she visits his nearby private flat; she arrives in covered outer layer, then reveals distinctive ink-blue asymmetric back-detailed outfit deliberately. Girlfriend/wink teasing, samosa-and-chutney spot at Chintu's lip as separate playful catalyst, freely chosen affectionate kisses, Shreya surprises him and vice versa. Different from Keshav's red dress trial; full prose not final."
+    },
+    {
+      "id": "shr-chotu-future-keshav-chintu-shreya-joint-hold",
+      "date": null,
+      "sort": null,
+      "start": null,
+      "end": null,
+      "timeLabel": "FUTURE HOLD · date/time not chosen",
+      "title": "Shreya × Keshav × Chintu · first joint follow-up after both solos",
+      "lead": "Shreya",
+      "characters": [
+        "Shreya",
+        "Keshav",
+        "Chintu"
+      ],
+      "mentions": [
+        "Vikram",
+        "Anaya"
+      ],
+      "episode": "Later Shreya future",
+      "scene": "SHR-CHOTU-JOINT-HOLD",
+      "kind": "planned",
+      "state": "review",
+      "status": "AUTHOR APPROVED CONCEPT ONLY — NO DATE OR SCENE DETAILS LOCKED",
+      "source": "Shreya-Chotu-Solo-Jan06-07-and-Joint-Future-Approved-Concept.md",
+      "reader": {
+        "type": "source-url",
+        "url": "https://github.com/developer-fandom-rush/DHIKA_STORY/blob/main/Society-Wives/Shreya-Chotu-Solo-Jan06-07-and-Joint-Future-Approved-Concept.md"
+      },
+      "flags": [
+        "Must be AFTER both separate solo encounters; do not merge into Tue6 or Wed7",
+        "Only concept of two men together later is approved; host, address, dress, food, kiss order and choreography entirely open",
+        "Do not infer office-police authority or force service visits; independently willing adults, family and childcare coherence required"
+      ],
+      "detail": "Author accepted future joint concept with both male characters together and photo/storyboard eventually showing both. Hold the event for later decision; do not write or time-lock it during individual Jan6-7 encounters."
     }
   ],
   "sourcePolicy": " | Shreya January 3 working scenes SR10–SR13 were moved into the January 1 calendar by direct author instruction 2026-11-16, original plan archived in episode-03-shreya-plan-archive-jan03.json; no content removed from story source."
