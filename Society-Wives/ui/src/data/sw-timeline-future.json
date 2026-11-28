@@ -21,7 +21,8 @@
     "2026-11-27: Global society design upgraded on user request to deliberate adult physical closeness, garment/fitness visual moments and separate spouse-knowledge states. Jan3 setup, Jan4 morning walk + evening garden + optional projector-corner, Jan5 after-work reminder; five candidate events source episode-06-global-society-crossovers-jan03-05.json. Status REVIEW and all husband/childcare gates remain, no final story prose. DHIKA Raj/Sharmi EP12/14/15 researched for narrative pattern, NOT copied.",
     "2026-11-27 AUTHOR INITIAL PLOT SAVE: society crossover windows Sat3 19:10–19:30, Sun4 07:15–07:35 and 18:45–19:25 plus optional 19:40–19:58, Mon5 20:50–21:05 (moved from 20:20 to allow Ankita-Kabir 20:00–20:20 talk and Taniya CA 19:30 finish). Five existing lead scenes and shifts untouched. Timed collision scan against earlier events excluding presence envelopes found none. Shreya does NOT attend society during police station hours. Exact husband schedules and family care still soft-gated. Source episode-06-global-society-crossovers-jan03-05.json.",
     "AUTHOR-UPDATED EP07 ANKITA Jan7: TWO FIRST KISSES now AUTHOR-DIRECTED PLOT OUTCOMES, not published events. Rohit 16:35–17:30 includes office task 16:35–17:00 and mutually chosen kiss ~17:22 at campus kiosk during actual break. Rinku 20:55–21:40 includes water-filter repair 20:55–21:12 and mutually chosen kiss ~21:27 at lit society walkway after prior home guest departure. Both times still soft due staff/household availability; uphold plot outcome, adjust slot if unavoidable. No structured Ankita tuition had occurred as of Jan7: Aman informal Java questions, Ayaan request only, Tue CBT unbooked, Mon office kickoff and Wed project/home intro not tuition. Source episode-07-ankita-rohit-rinku-jan07-plan.json.",
-    "EP06/07 Ankita working reader is now navigable from mapped 2026-01-03 through 2026-01-07 Global Timeline entries. Reader source episode-06-ankita-reader-working.json and episode-07-ankita-reader-working.json. Two Jan7 kiss scenes have been written for REVIEW, not final/frozen; no first formal tuition held as of Jan7."
+    "EP06/07 Ankita working reader is now navigable from mapped 2026-01-03 through 2026-01-07 Global Timeline entries. Reader source episode-06-ankita-reader-working.json and episode-07-ankita-reader-working.json. Two Jan7 kiss scenes have been written for REVIEW, not final/frozen; no first formal tuition held as of Jan7.",
+    "EP07 Rinku author-approved storyboard source: Society-Wives/EP07-Ankita-Rinku-Part02-09Jan-Approved-Storyboard.md; dated Fri 9 Jan 2026 11:00–12:20, with four new household absences and 13 beats. Prior Wed7 evening Rinku event was withdrawn. User-approved plot does not mean Grok full prose has been authored."
   ],
   "events": [
     {
@@ -4237,9 +4238,9 @@
       "sort": "11:00",
       "start": "11:00",
       "end": "12:20",
-      "timeLabel": "Friday 9 Jan · 11:00–12:20 conditional, NOT confirmed empty-house availability",
+      "timeLabel": "Friday 9 Jan · 11:00 AM–12:20 PM · AUTHOR APPROVED",
       "universe": "sw",
-      "title": "Ankita × Rinku · relocated daytime maintenance and private-scene candidate",
+      "title": "Ankita × Rinku · Playing with Rinku Backfires a Little (approved 13-beat visual plot)",
       "lead": "Ankita",
       "characters": [
         "Ankita",
@@ -4254,9 +4255,9 @@
       "episode": "07 plot",
       "scene": "ANK07-R02-RINKU-RETURN",
       "kind": "planned",
-      "state": "review",
-      "status": "JAN07_LATE_EVENING_WITHDRAWN__JAN09_CONDITIONAL_HOUSEHOLD_ABSENCE_NOT_PROVEN__NO_ROMANTIC_PROSE_LOCK",
-      "source": "episode-07-ankita-rohit-rinku-jan07-plan.json",
+      "state": "author-approved-plot",
+      "status": "AUTHOR_APPROVED_DATE_WARDROBE_13BEAT_STORYBOARD_AND_FICTIONAL_HOUSEHOLD_ABSENCES__GROK_FINAL_PROSE_PENDING",
+      "source": "EP07-Ankita-Rinku-Part02-09Jan-Approved-Storyboard.md",
       "reader": {
         "type": "sw-working-ankita",
         "character": "ankita",
@@ -4264,14 +4265,134 @@
         "scene": "05"
       },
       "flags": [
-        "Original Wednesday 7 Jan 20:55–21:40 Rinku repair/romance RETRACTED: Kabir, Rajeev, Karan and Aman at home; do not claim private residence.",
-        "Friday 9 Jan 11:00–12:20 is not a booked appointment or verified privacy; must seed all four male household members' credible departures and Ankita WFH",
-        "Weekday candidate does not prove Rinku's society service availability or delayed connector arrival",
-        "Friday 18:10–19:00 office prototype review remains candidate after the morning scene; no collision if commute respected",
-        "No fixed 21:27 first-kiss clock; outcome depends on author-approved home privacy and authentic shared activity",
-        "Keep next twins-specific romantic arc distinct from Rinku's scene and avoid scheduling a romantic encounter around the twins"
+        "User approved visual-board sequence, wardrobe, first/continued kiss and exit across exactly 11:00–12:20 on Friday January 9.",
+        "Jan7 Wednesday 20:55 Rinku visit/kiss was withdrawn; maintain Jan7 Rohit café and 19:15–20:15 home-demo schedule unchanged.",
+        "NEW fictional availability: Kabir offsite IT 09:30–17:30, Karan MBA mock interview 10:30–13:00, Aman outside Java prep 10:00–13:00, Rajeev personal errand 10:30–12:45. Seed them on Jan8 and Jan9 departures.",
+        "Ankita WFH morning and Rinku daytime service confirmed by author as revised story plan, not facts pre-existing in earlier manuscript.",
+        "Friday 18:10–19:00 office prototype review remains candidate, does not overlap daytime visit.",
+        "Next twins-specific adventure belongs to later episode; no double-booking.",
+        "Full 13-beat source document: EP07-Ankita-Rinku-Part02-09Jan-Approved-Storyboard.md; Reader EP07 Scene05 and Scene06; preview image in ChatGPT Library /SW/EP07-Ankita-Rinku-Part02-Approved-Storyboard-09Jan2026.png."
       ],
-      "detail": "Conditional Friday daytime WFH/repair: Ankita intentionally chooses an attractive distinct home look, Rinku returns with delayed filter connector, genuine fitting/pressure check and purge create time for personally meaningful playful conversation grounded in Jan2 wet-nighty history. Only if Kabir/Rajeev/Karan/Aman are each actually away (not yet verified) can a private domestic encounter develop. No forced evening home-visit after Wednesday office team; no pre-specified kiss time."
+      "detail": "Approved Friday private domestic sequence: 11:00 doorway/grey hoodie over forest-green racerback athletic top + charcoal cycling shorts; 11:10 hoodie off; 11:15 teasing; 11:25 brief deliberately shown navel; 11:35 ice-cream after water filter repair; 11:40 playful ice-cream; 11:45 small drop on exposed upper chest just above neckline, approved intimate mouth-cleaning beat recorded at storyboard level; 11:50 shoulder/neck affection; 11:55 first longer kiss; 12:00–12:10 continued willing closeness, then 12:20 Rinku exit and Ankita reaction. Only Ankita/Rinku home because all four residents have newly established offsite schedules."
+    },
+    {
+      "id": "ank07-08-rinku-thu-household-setup",
+      "date": "2026-01-08",
+      "sort": "20:00",
+      "start": null,
+      "end": null,
+      "timeLabel": "Thu Jan 8 · family calendar & Rinku service setup; exact clock open",
+      "universe": "sw",
+      "title": "Ankita household · Friday service and out-of-home schedule setup",
+      "lead": "Ankita",
+      "characters": [
+        "Ankita",
+        "Kabir",
+        "Karan",
+        "Aman",
+        "Rajeev"
+      ],
+      "mentions": [
+        "Rinku",
+        "Aishwarya"
+      ],
+      "episode": "07 plot",
+      "scene": "ANK07-R02-PREPARATION",
+      "kind": "planned",
+      "state": "author-approved-plot",
+      "status": "AUTHOR_APPROVED_PREQUEL_REQUIREMENT__DIALOGUE_TIME_PENDING",
+      "source": "EP07-Ankita-Rinku-Part02-09Jan-Approved-Storyboard.md",
+      "reader": {
+        "type": "sw-working-ankita",
+        "character": "ankita",
+        "episode": 7,
+        "scene": "05"
+      },
+      "flags": [
+        "Seed real upcoming Friday responsibilities to prevent magical household disappearance",
+        "Rinku confirms normal daytime service and connector after Jan2 delay",
+        "No Jan8 romance implied; this is schedule/logistics only",
+        "Exact Thu hour not provided by author; 20:00 sorting placeholder, not a locked appointment"
+      ],
+      "detail": "On Thu Jan8 establish Ankita WFH Friday, Kabir out to IT site Jan9 09:30–17:30, Karan MBA mock 10:30–13:00, Aman external Java prep 10:00–13:00, Rajeev independent errand 10:30–12:45, and Rinku daytime connector service 11:00. Rajeev destination can be supplied during prose drafting."
+    },
+    {
+      "id": "ank07-09-household-outbound-0930-1030",
+      "date": "2026-01-09",
+      "sort": "09:30",
+      "start": "09:30",
+      "end": "10:30",
+      "timeLabel": "Fri Jan9 · 09:30–10:30 staggered household departures",
+      "universe": "sw",
+      "title": "Malhotra home · privacy established before Rinku maintenance",
+      "lead": "Ankita",
+      "characters": [
+        "Kabir",
+        "Karan",
+        "Aman",
+        "Rajeev",
+        "Ankita"
+      ],
+      "mentions": [
+        "Rinku"
+      ],
+      "episode": "07 plot",
+      "scene": "ANK07-R02-HOUSEHOLD-OUTBOUND",
+      "kind": "planned",
+      "state": "author-approved-plot",
+      "status": "AUTHOR_APPROVED_NEW_FICTIONAL_SCHEDULE__EXACT_DEPARTURES_TO_SHOW_ON_PAGE",
+      "source": "EP07-Ankita-Rinku-Part02-09Jan-Approved-Storyboard.md",
+      "reader": {
+        "type": "sw-working-ankita",
+        "character": "ankita",
+        "episode": 7,
+        "scene": "05"
+      },
+      "flags": [
+        "Kabir away 09:30–17:30, Aman 10:00–13:00, Karan 10:30–13:00, Rajeev 10:30–12:45",
+        "Ankita WFH home, Rinku only guest 11:00–12:20",
+        "No twins personal event this scene"
+      ],
+      "detail": "Four adult male residents have distinct already-introduced Friday duties. All depart by 10:30 for appointments outside. Ankita remains WFH, Rinku arrives 11:00 and exits 12:20; first possible resident return is Rajeev after 12:45."
+    },
+    {
+      "id": "ank07-09-rinku-exit-1220",
+      "date": "2026-01-09",
+      "sort": "12:20",
+      "start": "12:20",
+      "end": "12:25",
+      "timeLabel": "Fri Jan9 · 12:20–12:25 · departure and private reaction",
+      "universe": "sw",
+      "title": "Ankita × Rinku · departure and smile after playing backfires",
+      "lead": "Ankita",
+      "characters": [
+        "Ankita",
+        "Rinku"
+      ],
+      "mentions": [
+        "Kabir",
+        "Karan",
+        "Aman",
+        "Rajeev"
+      ],
+      "episode": "07 plot",
+      "scene": "ANK07-R02-EXIT",
+      "kind": "planned",
+      "state": "author-approved-plot",
+      "status": "AUTHOR_APPROVED_EXIT_BEAT__GROK_EXPANDED_PROSE_PENDING",
+      "source": "EP07-Ankita-Rinku-Part02-09Jan-Approved-Storyboard.md",
+      "reader": {
+        "type": "sw-working-ankita",
+        "character": "ankita",
+        "episode": 7,
+        "scene": "06"
+      },
+      "flags": [
+        "Rinku takes tools and leaves at 12:20",
+        "Ankita's own brief satisfied reaction; no four household members return before 12:45",
+        "12:25 can return to WFH duties"
+      ],
+      "detail": "After playful, mutually chosen romantic encounter, Rinku exits via normal service door with tools and signed receipt. Ankita smiles and reflects on her own teasing backfiring, then resumes WFH. No new twins plot."
     }
   ],
   "sourcePolicy": " | Shreya January 3 working scenes SR10–SR13 were moved into the January 1 calendar by direct author instruction 2026-11-16, original plan archived in episode-03-shreya-plan-archive-jan03.json; no content removed from story source."
