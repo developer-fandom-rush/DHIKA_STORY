@@ -1,7 +1,7 @@
 # Shreya × Keshav / Chintu — Two Solo Encounters, Then Future Joint Encounter
 
 **Author decision:** All three formats (Keshav solo, Chintu solo, eventual joint meeting) accepted in concept. **Current focus:** two solo encounters Tuesday **6 January 2026** and Wednesday **7 January 2026**. **Future:** both men meet Shreya together again at a later, still-undated occasion. No later date or exact choreography locked.  
-**Status:** AUTHOR-APPROVED STRUCTURE; suggested times, addresses, dress designs and individual actions below are **new EDITORIAL PROPOSALS awaiting author's review**. This is a plot/visual planning document, **not completed prose or approved source revisions**.  
+**Status:** AUTHOR-APPROVED STRUCTURE; **Keshav's scarlet-red satin dress look approved by author**; Chintu's latest indigo outfit design retained as working reference but **generated FACE REJECTED**. Proposed time slots, residential conditions and detailed dialogue/actions still await author review. This is a plot/visual planning document, **not completed prose or approved source revisions**.  
 **Original characters:** Shreya Rathore 33, married police inspector; Keshav 23 (station tea/distribution staff; age provisional), Chintu 23 (society security/visitor desk). Vikram is Shreya's husband, Anaya her young daughter. All participants are adults.
 
 ## Source history — retain the differences
@@ -91,3 +91,73 @@ Earlier stored police roster covers **3–5 Jan only**. The global future timeli
 - Don't edit frozen EP02/EP03/EP04A/EP04B/EP05, especially the Keshav cream-on-desk and Chintu exposure uncertainty, without author's explicit approval.
 - No new image should use the mistaken generated plum-dress woman's face as Shreya. Shreya's saved reference is the adult woman with long dark wavy hair, softly rounded face, warm medium skin, dark eyes, small nose stud and earrings, from the rain-side balcony reference. Use outfit-only redesign for Keshav red and Chintu blue.
 - Full final scene prose and precise kiss choreography remain **future author review**, separate from this scene planning.
+
+
+---
+
+## GROK / IMAGE PROMPTS — SOLO VISUAL HANDOFF
+
+**Purpose:** Copyable visual prompts with correct Shreya identity and two DIFFERENT solo storylines. These prompts expand only the existing planning concepts; they do not make the draft dialogue, undressing, kiss choreography, addresses, or duty/childcare schedules final canon.
+
+### Character / reference lock (apply to EVERY frame)
+
+- **Shreya must look like the user's saved SHREYA reference portrait**, not the newly generated placeholder woman. In ChatGPT saved reference: adult Indian woman with long, loose dark wavy hair, softly rounded face, warm-medium complexion, brown/dark eyes, small nose stud and earrings; original saved photo has a champagne-beige draped outfit outdoors near a railing in the rain. **Use the person's face/hair as the identity reference only; do not copy that image's clothes, weather or background.**
+- For Grok or another image generator, the user must **attach the actual Shreya reference photo** to the request; the ChatGPT-only saved asset is not automatically accessible to Grok. The previous red-dress and indigo generated pictures are **outfit/composition references**, never Shreya face references.
+- Shreya is an adult **33-year-old police inspector**, but private scenes happen *off duty* and are distinct from her formal khaki uniform.
+- **Keshav**: one adult male ~23, station tea/vendor and authorized paperwork support; distinct from Chintu; no uniformed police rank. In private scene wear a dark charcoal casual button-front shirt and fitted black/dark jeans; short dark hair.
+- **Chintu**: a *different* adult male ~23, society visitor-register/security operations helper; off-duty private scene in simple slate-grey or olive casual T-shirt and dark trousers; not Keshav, not Rohit or Rinku, and not dressed as a woman.
+- Never generate both men in either solo scene. Never change Shreya's face between panels. No image of Vikram or Anaya in the adult-only private scenes. No rain, wet saree, police-station chai spill replay, or fake missing clothing.
+- Show natural expressions and realistic proportions. Safe fully clothed fashion and affectionate romance; no accidental anatomy duplication. Plot status remains working and author-controlled.
+
+### A. Tuesday 6 Jan 2026 — Keshav solo / red satin dress
+
+**Status:** **Red dress design APPROVED by author** following generated image; generated picture's face is **not** the canonical Shreya identity. Keshav's flat/address/off-duty window 17:45–19:00 are proposed details.
+
+**WARDROBE:** Shreya changes *in private* into a scarlet-red fitted satin dress with thin straps, squared neckline, a low V-back, short above-knee hem and small side slit. Fully opaque, proper full coverage. No jacket required for the dress try-on itself; she arrived in ordinary public clothes with the dress in a garment bag.
+
+**Exact copyable main image prompt:**
+
+> Use the ATTACHED SAVED REFERENCE PHOTO as Shreya's exact face/hair identity (same round-soft face, warm medium skin, tiny nose stud, wavy black hair) — do not use the face from prior AI-generated red-dress photo. Cinematic realistic Indian romantic-drama film still. Tuesday 6 January 2026, 6:00 PM, intimate but ordinary warm-lit small rented apartment near a police station. One adult Indian woman Shreya, age 33, confidently models a satin scarlet-red fitted thin-strap above-knee dress with a square neckline, low V-back and a neat side slit; full-length mirror shows back construction. One adult man Keshav age 23 in charcoal casual collared shirt and dark trousers, smiling with surprised admiration, standing respectfully a step away. Her look is a deliberate private outfit fitting, not a public display or accidental wardrobe failure. Realistic styling, natural skin and hands, believable furniture, no other people, no labels, no wet clothing, no erotic nudity.
+
+**Visual storyboard prompts (four frames)**
+
+1. **17:50, arrival:** Private apartment doorway, Shreya still in normal covered public outfit holding a garment bag; Keshav receives her and shows her where she may change. First moment is friendly and voluntary, not a police-station official visit.
+2. **18:05, dress reveal / reaction:** Same saved Shreya face, exact red satin dress, front view with mirror showing V-back, Keshav in charcoal shirt genuinely surprised, Shreya smiles and asks his honest opinion.
+3. **18:25, personal teasing:** Both sitting in normal living-room distance, Shreya stays in the same red dress; Keshav talks about his earlier first-aid concern and is visibly more confident, she tilts her head and smiles while teasing him about a girlfriend. No repeated hot-chai accident.
+4. **18:45, affectionate turning point:** Same two adults, same wardrobe. Keshav initiates a mutually welcomed brief kiss, Shreya reciprocates with one hand lightly at his shoulder/cheek; full medium two-shot with both faces and hands visible, fully dressed. Their after-kiss reaction stays distinct: his surprised sincerity, her gentle smile. A separate normal departure at 19:00 can follow.
+
+**Known continuity/approval gap:** Keshav handed over first-aid cream in the current Jan2 source; do not visually rewrite that he applied it. His exact rented-flat address, relationship status and shift-release have not been established in canon.
+
+### B. Wednesday 7 Jan 2026 — Chintu solo / indigo back-detail dress
+
+**Status:** Indigo silhouette accepted as a **working design** for this candidate; **the just-generated face is explicitly REJECTED**, so face must be replaced with Shreya's saved reference on every future render. Exact time 18:10–19:25 and independent rental flat remain proposed.
+
+**WARDROBE:** Fitted deep midnight-indigo halter-neck knee-length dress with **open upper back**, slim side-waist design feature and side slit. Travel layer is a charcoal shawl/long outer jacket; put aside privately. Fully opaque dress worn throughout the reference story, no wet fabric. This distinct visual emphasizes a confident **back/side-angle fashion reveal**, unlike Keshav's scarlet-red front-and-mirror look.
+
+**Exact copyable main image prompt:**
+
+> Use the ATTACHED SAVED SHREYA REFERENCE PHOTO for the same woman's face/hair identity — NOT the face on the previous newly generated midnight-indigo dress picture. Cinematic realistic Indian romantic-drama film still, Wednesday 7 January 2026 6:30 PM, tasteful warm-lit modest bachelor apartment sitting room near Gulmohar Heights, indoors after work. One adult Indian woman, Shreya age 33, in an opaque form-fitted midnight-indigo halter-neck knee-length cocktail dress with a striking open upper back, a refined side-waist design feature and one neat knee-level slit, long dark wavy hair, tiny nose stud and stud earrings. She has removed and is holding a charcoal shawl/outer jacket to show the back design, looking over her shoulder with a knowing smile. One DIFFERENT adult man Chintu age 23 wearing a slate-grey casual T-shirt and dark trousers is a step away, smiling with friendly amused admiration. Their relationship remembers an earlier door-latch mishap and a knowing wink; this is a self-chosen fashion reveal, not another torn-button accident. Normal proportions and hands, clear full-body clothes, no other men, no second woman, no rain, no labels, no nudity.
+
+**Visual storyboard prompts (four frames)**
+
+1. **18:15, arrival:** Chintu (separate 23-year-old society helper, now clearly off shift) opens his own proposed private flat door to Shreya in a covered dark outer layer over indigo dress; both smile at the old wink callback. One man only.
+2. **18:30, deliberate fashion reveal:** Shreya sets charcoal shawl aside, same saved Shreya face and indigo halter dress. Rear three-quarter view makes the back styling clear. Chintu reacts with an unexpectedly witty smile rather than becoming frozen; she catches his look.
+3. **18:55, samosa/chutney teasing:** Both fully dressed, seated at a small table with two samosas and a small chutney bowl. A tiny chutney mark near CHINTU's lip, Shreya notices and makes a playful comment while both look at one another. Any kiss is their own clearly chosen decision after the joke, not an automatically sexual act of cleaning and not a third-party interruption.
+4. **19:10, mutual affectionate turn:** Same faces/wardrobe, a comfortable, mutually welcomed kiss or warm close embrace. Shreya initiates through an affectionate gesture; Chintu returns it confidently. Her hand at his cheek/shoulder, his hand at her upper back *on clothing*, readable expressions, no forced wardrobe accident. They part before the proposed 19:25 departure.
+
+**Known continuity/approval gap:** Chintu already knows Shreya's society flat from door-latch history, but **his own independent flat and address are NOT source-confirmed**. Story must show where he lives, how Shreya gets his location, and his real shift relief. The Chintu broken-button incident's exact amount of exposure was uncertain in earlier source; do not create false recollections.
+
+### C. Later both together — future image handoff only
+
+> Future idea ON HOLD. Shreya + adult Keshav + adult Chintu together in one later scene, with correct distinct faces/outfits. **Do not create a specific image, date, visit reason, dress, food action, or physical sequence yet.** This future concept has only broad author approval; the user wants both solo stories developed first.
+
+### Production checklist
+
+- [x] Preserve concept for two solo events Tue 6 / Wed 7 January and a **date-free** later joint meeting.
+- [x] Keshav's red satin dress design accepted; original generated woman's facial identity NOT authoritative.
+- [x] Chintu's indigo dress visual can guide garment styling, but **prior generated face rejected**.
+- [ ] Acquire/attach actual Shreya saved-face photo in the image generator used, and verify new preview before calling images approved.
+- [ ] Verify the Keshav private-flat and Chintu private-flat location/addresses, ordinary work shifts and legitimate invitation.
+- [ ] Establish Vikram/Anaya home-care continuity on both nights; police duty end ~17:00 is still a **proposal**.
+- [ ] Author reviews the detailed interaction/romance scene before promoting it from proposed to final prose.
+- [ ] Only after solos: schedule and develop future joint event.
