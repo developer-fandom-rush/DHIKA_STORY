@@ -5,8 +5,8 @@
   "date": "2026-01-09",
   "weekday": "Friday",
   "timezone": "Asia/Kolkata",
-  "status": "EP07_ROHIT_PART01_AUTHOR_VERBATIM_HANDOFF__RINKU_JAN07_RETRACTED_AND_JAN09_DAYTIME_CANDIDATE",
-  "productionStage": "JAN07_ROHIT_USER_HANDOFF_PROTECTED__JAN07_EVENING_RINKU_PLOT_DELETED_FROM_CURRENT_READER__JAN09_PRIVATE_HOME_UNVERIFIED",
+  "status": "EP07_PART01_ROHIT_VERBATIM_HANDOFF_PRESERVED__RINKU_PART02_JAN09_13BEAT_AUTHOR_APPROVED",
+  "productionStage": "ROHIT_JAN7_GROK_WRITING_PENDING__RINKU_JAN9_AUTHOR_APPROVED_STORYBOARD_IN_READER_AND_GLOBAL_TIMELINE",
   "sourceAnchors": [
     "episode-04b-ankita-scene01-source.json: Jan2 Rinku 07:15–07:30 deliberate appearance, filter connector pending and evening update promised but no fulfilled service completion verified",
     "episode-04b-ankita-scene03-rohit-source.json: Jan2 office 09:40–10:20 accident, 14:15–14:30 deliberately chosen second encounter, 14:40 exit",
@@ -87,22 +87,24 @@
       "date": "2026-01-09",
       "start": "11:00",
       "end": "12:20",
-      "status": "CONDITIONAL_PLACEMENT_ONLY__HOUSEHOLD_EMPTY_NOT_YET_ESTABLISHED",
-      "place": "Malhotra flat, only if all 4 male household members have genuine separate whereabouts; normal weekday daytime filter appointment",
+      "status": "AUTHOR_APPROVED_FICTIONAL_SCHEDULE_AND_VISUAL_STORYBOARD__REQUIRES_JAN08_SETUP_IN_PROSE",
+      "place": "Malhotra flat · sunny private kitchen with only Ankita and Rinku during window",
       "characters": [
         "Ankita",
         "Rinku"
       ],
       "personnelRole": "Society maintenance/helper",
-      "continuityReason": "Jan2 pending replacement connector and failed follow-up. Jan7 is NOT a Rinku service date; delay tentatively from unusual-part supplier stockout.",
-      "householdGate": "ALL FOUR actual departures required and written in advance: Kabir off-site technology work; Karan outside MBA/interview follow-up after Aishwarya Jan7 guidance; Aman outside Java-interview preparation/library; Rajeev genuine separate daytime errand. Exact Jan9 appointments are NOT established; author must approve/seed. If anyone home, move day.",
-      "ankitaGate": "Confirm WFH/comp-off/flexible remote morning, without disrupting tentative Fri 18:10–19:00 prototype review and commute.",
-      "rinkuGate": "Confirm society daytime roster/appointment, connector arrival, real repair and pressure/purge test.",
-      "noFakePrivacy": "Do not place intimate scene in shared home while family present or pretend empty house. Keep following twins-specific story for EP08.",
-      "emotionalOutcome": "Author-directed possibility of first Rinku romantic milestone, but exact kiss/time NOT LOCKED until true staging and response.",
-      "fallback": "Monday 12 Jan late morning is fallback only if same absences/work constraints are established; changing date does not guarantee privacy.",
       "priorWednesdayRinkuLateEveningStatus": "RETRACTED_2026-01-07_20_55_TO_21_40",
-      "prevSelection": "21:27–21:31"
+      "repairContinuity": "Jan2 connector pending; now Jan9 daytime confirmed in author-approved plot. Part-stock delay and service authorization established via new Thursday/Friday intro, not pre-existing fact.",
+      "householdGate": "Author has now APPROVED fictional absences: Kabir offsite 09:30–17:30, Karan MBA mock interview 10:30–13:00, Aman Java prep outside 10:00–13:00, Rajeev outside personal errand 10:30–12:45. Need plant Jan8 setup and actual Friday departures. Exact Rajeev errand still editable, not his approved absence.",
+      "ankitaGate": "Author-approved WFH 9 Jan morning; preserve tentative 18:10–19:00 prototype review separated from midday visit.",
+      "rinkuGate": "Daytime maintenance 11:00; replacement part and genuine filter pressure/purge testing required.",
+      "wardrobe": "Forest-green dry fitted sleeveless cropped racerback tank with charcoal high-waist mid-thigh cycling shorts; gray hoodie worn initially then removed, open dark hair. Rinku beige polo, dark work trousers.",
+      "emotionalOutcome": "Author-approved intentional body-language teasing, ice cream beat, first and continued kisses, leaving/afterglow; exact approved 13-beat order in linked storyboard, not replacement with generic confession.",
+      "kissWindow": "11:50–12:10 affection and mutual kissing as distinct staged beats; one exact uninterrupted duration is not newly asserted",
+      "exit": "12:20",
+      "sourceDocument": "Society-Wives/EP07-Ankita-Rinku-Part02-09Jan-Approved-Storyboard.md",
+      "visualAsset": "ChatGPT Library /SW/EP07-Ankita-Rinku-Part02-Approved-Storyboard-09Jan2026.png"
     }
   },
   "proposedRohitScene": {
@@ -117,81 +119,81 @@
     "imagePolicy": "Old inaccurate Grok prompts deleted; new images should be generated from author-reviewed instructions, without gender-swapped clothing."
   },
   "proposedRinkuScene": {
-    "title": "Playing with Rinku Backfires a Little — deliberate at-home escalation",
-    "status": "JAN09_CANDIDATE__NOT_PUBLISHED_COMPLETE__AUTHOR_REVIEW",
-    "sceneComparison": {
-      "jan02Original": "Wet dusty-rose satin nighty, deliberately poured water, shoulders/shifted neckline/upper cleavage and waist outline more apparent. Fabric NOT transparent; no verified innerwear state. Rinku's prior significant visual reaction is established.",
-      "dhikaFunction": "Alone in home, deliberate outfit, genuine shared activity, growing relaxed teasing, Rinku thoughts/response, not immediately repair→confession→kiss.",
-      "distinctFromRohit": "Rohit Jan7 uses burgundy corporate dress and café foam; Rinku should be personal home/athletic style plus domestic activity, not same scene in new location.",
-      "allowedRepeat": "User explicitly allows repeated motifs with additions and development; no no-repeat rule."
-    },
-    "outfitProposal": "Forest-green fitted racerback athletic top, dark high-waisted leggings and warm zip hoodie for a plausible cool January WFH morning. Chosen intentionally for Rinku, with dry athletic shoulders/back and confidence instead of a forced water accident. NOT author-final; can restyle.",
-    "scheduleProposal": {
-      "date": "2026-01-09",
-      "arrival": "11:00–11:10 actual daytime service call",
-      "repair": "11:10–11:30 connector replacement and pressure check",
-      "purgeWait": "11:30–11:45 genuine filter purge/water check, not false delay",
-      "interaction": "11:45–12:05 shared water test, personal teasing, his Jan2 thoughts and her intentional choice",
-      "emotionalTurn": "12:05–12:15 mutually chosen romantic milestone only if author approves",
-      "exit": "12:15–12:20 normal departure before household returns"
-    },
-    "householdWhereaboutsNeeded": [
+    "title": "Playing with Rinku Backfires a Little",
+    "status": "AUTHOR_APPROVED_JAN09_13BEAT_STORYBOARD__GROK_FULL_PROSE_PENDING",
+    "approvedDate": "2026-01-09",
+    "time": "11:00–12:20",
+    "sourceDocument": "Society-Wives/EP07-Ankita-Rinku-Part02-09Jan-Approved-Storyboard.md",
+    "readerScenes": [
+      "05",
+      "06"
+    ],
+    "imageAssetLibraryPath": "/SW/EP07-Ankita-Rinku-Part02-Approved-Storyboard-09Jan2026.png",
+    "lockedLook": "dry forest-green sleeveless cropped racerback sports tank + charcoal fitted mid-thigh cycling shorts; open grey hoodie only at beginning. Rinku beige service polo.",
+    "approvedSequence": [
       {
-        "name": "Kabir",
-        "workingOption": "Off-site IT incident-review work",
-        "status": "EDITORIAL_OPTION_NOT_CANON"
+        "time": "11:00",
+        "name": "arrival + first look"
       },
       {
-        "name": "Karan",
-        "workingOption": "In-person MBA presentation/mock interview after Aishwarya advice",
-        "status": "EDITORIAL_OPTION_NOT_CANON"
+        "time": "11:10",
+        "name": "hoodie off + first tease"
       },
       {
-        "name": "Aman",
-        "workingOption": "Outside Java interview-prep practice/library",
-        "status": "EDITORIAL_OPTION_NOT_CANON"
+        "time": "11:15",
+        "name": "counter turn, athletic silhouette and Rinku noticing"
       },
       {
-        "name": "Rajeev",
-        "workingOption": "Specific bank/society/relative errand planted beforehand",
-        "status": "EDITORIAL_OPTION_NOT_CANON"
+        "time": "11:25",
+        "name": "deliberate navel reveal teasing + Rinku reaction"
+      },
+      {
+        "time": "11:35",
+        "name": "ice cream break after completed RO repair"
+      },
+      {
+        "time": "11:40",
+        "name": "playful ice cream around lips/finger"
+      },
+      {
+        "time": "11:45",
+        "name": "small ice cream drop on exposed upper-chest skin near neckline, author-selected consensual mouth-cleaning beat; scene-level note only"
+      },
+      {
+        "time": "11:50",
+        "name": "brief shoulder/neck kisses"
+      },
+      {
+        "time": "11:55",
+        "name": "longer mutual lip kiss, visible hands at waist/upper back and hair/shoulders"
+      },
+      {
+        "time": "12:00",
+        "name": "continued close embrace and kiss"
+      },
+      {
+        "time": "12:05",
+        "name": "mutual eye contact and renewed embrace"
+      },
+      {
+        "time": "12:10",
+        "name": "lingering kiss and pause before departure"
+      },
+      {
+        "time": "12:20",
+        "name": "Rinku exits, Ankita smiles and processes her playful plan backfiring"
       }
     ],
-    "rejectionRule": "If any of four cannot be credibly away, or Ankita not home, Jan9 is not locked; shift rather than invent privacy.",
-    "beats": [
-      {
-        "id": "RIN-09-A",
-        "action": "Establish Rinku daytime service and all family departures beforehand, not retroactively; prepare Ankita WFH."
-      },
-      {
-        "id": "RIN-09-B",
-        "action": "Ankita deliberately chooses her distinct home outfit with Jan2 Rinku memory and anticipation."
-      },
-      {
-        "id": "RIN-09-C",
-        "action": "Rinku does real fitting and checks; notices a changed outfit and responds with reciprocal teasing rather than only silence."
-      },
-      {
-        "id": "RIN-09-D",
-        "action": "Legitimate filter purge/testing gives them shared activity and time for personal jokes, Jan2 callback and internal thoughts."
-      },
-      {
-        "id": "RIN-09-E",
-        "action": "Only after shared interaction can freely chosen romantic progression happen; no forced timer or inevitable outcome."
-      },
-      {
-        "id": "RIN-09-F",
-        "action": "Normal exit and aftermath before family returns; keep EP08 twins-specific arc distinct."
-      }
-    ],
-    "sampleLines": [],
-    "authorReviewRequired": [
-      "Family Friday whereabouts",
-      "Ankita WFH vs office",
-      "Rinku daytime roster and part ETA",
-      "Wardrobe design approval",
-      "Romantic pacing"
-    ]
+    "householdPresence": {
+      "Kabir": "away offsite IT work 09:30–17:30",
+      "Karan": "away MBA/mock interview 10:30–13:00",
+      "Aman": "away Java interview prep 10:00–13:00",
+      "Rajeev": "away personal errand 10:30–12:45",
+      "Ankita": "WFH home",
+      "Rinku": "scheduled RO service 11:00–12:20"
+    },
+    "nextEpisode": "Twins-centered encounters after current EP07, not inserted into Rinku scene",
+    "proseCompletion": "Full final GROK story has not been written; author approves events/timing/look from reference image."
   },
   "knowledgeLedger": {
     "Ankita": "Knows both selected Jan7 kisses as separate actions, EP05 marriage, EP06 social attraction; cannot treat optional Sunday Rohan kiss as accomplished.",
@@ -233,5 +235,5 @@
     "motivation": "Two men respond differently to the same confident adult woman's private curiosity: Rohit sees her judgment and defends her dignity as a professional; Rinku knows the unguarded domestic Ankita and respects that her boldness is voluntary. One is not consolation or replacement for the other.",
     "framing": "Romantic/adulterous tension in tasteful adult non-graphic prose; distinct mutual kisses with chosen timing, emotional consequence, no assumption that work authority or maintenance access grants intimacy."
   },
-  "productionNote": "User requested remove the forced Wednesday 7 Jan late Rinku scene, because Kabir/Rajeev/Karan/Aman are home and DHIKA Chotu-alone-house emotional structure must not be forced into an occupied home. Existing Jan7 Rinku Scene05/06 story and Grok prompts withdrawn in active Reader, former source remains only in GitHub history. Friday 9 Jan 11:00–12:20 chosen as tentative daytime target with no known direct diary collision, but four distinct absences and Ankita WFH + Rinku availability UNVERIFIED; if not natural, shift again. Keep Rohit Jan7 Part01 untouched and next twins-centered EP08 separate."
+  "productionNote": "User explicitly approved the Rinku visual sequence and Friday 9 Jan 11:00–12:20. Its 13 numbered beats, new fictional household absence schedules, correct clothing, actor continuity and 12:20 departure are preserved in Society-Wives/EP07-Ankita-Rinku-Part02-09Jan-Approved-Storyboard.md and episode-07-ankita-reader-working.json Scenes05/06. Earlier Wed7 20:55–21:40 Rinku story remains withdrawn. Rohit Part01 (author original messages in Reader Scene03) untouched. An expanded Grok prose narrative remains unwritten; do not claim otherwise. Next twins romantic arc belongs later."
 }
