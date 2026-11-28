@@ -37,6 +37,7 @@ export default function Episode0607Ankita({episode,character,scene}:Props){
    <p>{data?.subtitle||'Scene-by-scene working story for author review'}</p>
   </header>
   <p className="source-note"><strong>Working manuscript for review — not frozen canon.</strong> {data?.publicationNote||'This episode is being loaded.'} Visual insert cards are text-only cinematic storyboard directions; they are not photos or explicit imagery.</p>
+  <p className="source-note"><strong>Master document and visual archive:</strong> <a href="https://docs.google.com/document/d/1oitHtN4K_O7OTP_aciNcN7bB9LMMpH-OspHLX4v9MAk/edit?usp=drivesdk" target="_blank" rel="noreferrer">Master Word-ready document (Google Docs; download .docx) ↗</a> · <a href="https://github.com/developer-fandom-rush/DHIKA_STORY/blob/main/Society-Wives/ANKITA-SHREYA-MASTER-ARCHIVE-AUDIT-20261128.md" target="_blank" rel="noreferrer">All Ankita &amp; Shreya reference images / audit ↗</a>. This includes rejected previews marked as references, not canon.</p>
   <div className="perspective-tabs" role="group" aria-label="Move between Ankita episodes">
    <button type="button" className={episode==='06'?'selected':''} aria-pressed={episode==='06'} onClick={()=>go('06')}>Episode 06 · Jan 3–5</button>
    <button type="button" className={episode==='07'?'selected':''} aria-pressed={episode==='07'} onClick={()=>go('07')}>Episode 07 · Jan 6–9</button>
