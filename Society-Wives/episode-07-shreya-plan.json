@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "id": "SW-SHREYA-EP07",
+  "lead": "shreya",
+  "episode": "07",
+  "status": "AUTHOR_APPROVED_SOLO_CONCEPTS__NEW_IMAGES_APPROVED__WORKING_PROSE_NOT_FROZEN",
+  "title": "Shreya — Red Dress Test / The Wink He Remembered",
+  "source": "episode-07-shreya-keshav-chintu-working-prose.md",
+  "masterDocument": "https://docs.google.com/document/d/1oitHtN4K_O7OTP_aciNcN7bB9LMMpH-OspHLX4v9MAk/edit",
+  "imageStatus": "New face-corrected red and indigo images saved in Google Docs tabs 03/04 and ChatGPT Library ZIP; old wrong-face Shreya visual references withdrawn. Not yet hosted as GitHub image files.",
+  "characters": [
+    "Shreya 33, Police Inspector",
+    "Keshav ~23, station tea/vendor support",
+    "Chintu ~23, society security desk"
+  ],
+  "faceLock": "Author supplied January 2 police-station Shreya photograph. Strong active athletic-curvy physique, same face/hair/nose stud, not skinny.",
+  "scenes": [
+    {
+      "id": "S07-KESHAV",
+      "name": "Keshav solo — Red Dress Test",
+      "date": "2026-01-06",
+      "time": "17:45–19:00 tentative",
+      "location": "Keshav private rented flat — address not yet established",
+      "status": "Author approved concept; story working",
+      "outfit": "scarlet-red fitted satin dress, slender straps, back design follows newest approved image; front and mirror back both visible",
+      "beats": [
+        "Shreya arrives in regular clothes with garment bag after duty",
+        "Private clothes change before being seen in red satin dress",
+        "Keshav notices; Jan2 chai/cream incident remembered accurately (cream put on desk, not applied)",
+        "Girlfriend teasing; he responds with sincerity rather than only nervousness",
+        "Keshav asks and initiates first mutually chosen kiss; Shreya reassures",
+        "She changes back in privacy and departs for ordinary commute"
+      ],
+      "draftLink": "episode-07-shreya-keshav-chintu-working-prose.md"
+    },
+    {
+      "id": "S07-CHINTU",
+      "name": "Chintu solo — The Wink He Remembered",
+      "date": "2026-01-07",
+      "time": "18:10–19:25 tentative",
+      "location": "Rathore home, empty during visit — AUTHOR CORRECTION replaces Chintu rental",
+      "status": "Author approved concept and new home/departure correction; story working",
+      "outfit": "midnight-indigo fitted halter dress, open back, side-waist cutout, distinct side slit; charcoal travel layer removed indoors",
+      "beats": [
+        "Chintu arrives off duty to Shreya's home; nobody else present",
+        "Shreya shows front/back dress near actual mirror, recalls Jan1 latch accident",
+        "Jan2 wink becomes teasing conversation; no invented history or new wardrobe accident",
+        "Samosa/chutney scene; Shreya initiates first mutually chosen kiss",
+        "Chintu's unexpectedly confident reply reverses her teasing test",
+        "Chintu LEAVES the Rathore apartment; door closes",
+        "AFTER he leaves, Shreya changes privately into NORMAL HOME CLOTHES; no one at home; he does not witness change"
+      ],
+      "draftLink": "episode-07-shreya-keshav-chintu-working-prose.md"
+    }
+  ],
+  "continuityHolds": [
+    "Confirm Shreya duty release and Chintu shift relief, rather than assume",
+    "Resolve whereabouts and safe childcare for Anaya when home is empty",
+    "Keshav flat address, distance and independent access are not previously established",
+    "Explicit author review needed before Reader prose publication"
+  ],
+  "grokHandover": "Read author-updated working prose Markdown and four-tab Google Doc; preserve distinct Keshav vs Chintu reactions; natural Hinglish; source-first plot beats; private intimacy beyond written non-graphic romance is unwritten and requires separate author approval. No direct-copy of original Dhika EP07."
+}
