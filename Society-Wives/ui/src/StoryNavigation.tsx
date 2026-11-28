@@ -47,5 +47,7 @@ export default function StoryNavigation({mode,episode,lead}:{mode:Mode;episode:s
    {leads.map(w=><a key={w} href={route(ep,w,mode)} aria-current={w===who?'page':undefined} className={w===who?'selected':''}>{titleCase(w)}</a>)}
   </div>
   {(ep==='06'||ep==='07')&&<p className="story-episode-nav-note">Ankita Episode {ep} working manuscript is now in Read Story for review, not final/frozen. Other perspectives remain in their own existing plots or sources; their pages will not display Ankita prose.</p>}
+  <p className="story-episode-nav-note"><strong>Document archive:</strong> <a href="https://docs.google.com/document/d/1oitHtN4K_O7OTP_aciNcN7bB9LMMpH-OspHLX4v9MAk/edit?usp=drivesdk" target="_blank" rel="noreferrer">Master Word-ready document ↗</a> · <a href="https://github.com/developer-fandom-rush/DHIKA_STORY/blob/main/Society-Wives/ANKITA-SHREYA-MASTER-ARCHIVE-AUDIT-20261128.md" target="_blank" rel="noreferrer">All reference images and completeness audit ↗</a>. Wrong-face or wrong-outfit images remain labelled as rejected references.</p>
  </nav>;
+} </nav>;
 }
