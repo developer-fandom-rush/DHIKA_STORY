@@ -19,6 +19,7 @@ export default function StoryNavigation({mode,episode,lead}:{mode:Mode;episode:s
  const who=normalizedLead(lead);
  const isPlot=mode==='planning';
  const route=(requestedEpisode:string,requestedLead:Lead,requestedMode:Mode)=>{
+  if(requestedMode==='planning'&&requestedEpisode==='07'&&requestedLead==='shreya')return '#/planning?lead=shreya&part=07';
   if(requestedMode==='planning'&&(requestedEpisode==='06'||requestedEpisode==='07'))return '#/planning?lead='+requestedLead+'&part=06';
   if(requestedMode==='planning'){
    const p=['04A','04B','05'].includes(requestedEpisode)?requestedEpisode:'04A';
@@ -27,7 +28,7 @@ export default function StoryNavigation({mode,episode,lead}:{mode:Mode;episode:s
   return '#/reading?episode='+requestedEpisode+'&character='+requestedLead;
  };
  const inMode=(nextMode:Mode)=>route(ep,who,nextMode);
- const episodesForPlot=episodes.filter(x=>!['01','02','03','07'].includes(x));
+ const episodesForPlot=episodes.filter(x=>!['01','02','03'].includes(x)&&(x!=='07'||who==='shreya'));
  return <nav className="story-episode-nav page-width" aria-label="Society Wives persistent episode navigation">
   <div className="story-episode-nav-head">
    <strong>Episodes &amp; perspectives</strong>
@@ -39,7 +40,7 @@ export default function StoryNavigation({mode,episode,lead}:{mode:Mode;episode:s
   </div>
   <div className="story-episode-nav-episodes" aria-label="Select episode">
    {(isPlot?episodesForPlot:episodes).map(item=><a key={item} href={route(item,who,isPlot?'planning':'reading')} aria-current={item===ep?'page':undefined} className={item===ep?'selected':''}>
-    Episode {item}{(item==='06'||item==='07')?<small>{who==='ankita'?'Working reader':item==='06'?'Plot only':'Not written'}</small>:null}
+    Episode {item}{(item==='06'||item==='07')?<small>{who==='ankita'?'Working reader':item==='06'?'Plot only':'Working plot + images in Doc'}</small>:null}
    </a>)}
   </div>
   <div className="story-episode-nav-leads" aria-label="Choose wife perspective">
