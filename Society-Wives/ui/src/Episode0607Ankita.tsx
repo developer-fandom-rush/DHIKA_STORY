@@ -39,7 +39,7 @@ export default function Episode0607Ankita({episode,character,scene}:Props){
   <p className="source-note"><strong>Working manuscript for review — not frozen canon.</strong> {data?.publicationNote||'This episode is being loaded.'} Visual insert cards are text-only cinematic storyboard directions; they are not photos or explicit imagery.</p>
   <div className="perspective-tabs" role="group" aria-label="Move between Ankita episodes">
    <button type="button" className={episode==='06'?'selected':''} aria-pressed={episode==='06'} onClick={()=>go('06')}>Episode 06 · Jan 3–5</button>
-   <button type="button" className={episode==='07'?'selected':''} aria-pressed={episode==='07'} onClick={()=>go('07')}>Episode 07 · Jan 6–7</button>
+   <button type="button" className={episode==='07'?'selected':''} aria-pressed={episode==='07'} onClick={()=>go('07')}>Episode 07 · Jan 6–9</button>
    <button type="button" onClick={()=>go('05')}>Episode 05 original →</button>
    <button type="button" onClick={()=>openPage('planning',{lead:'ankita',part:'06'})}>EP06 source planning →</button>
   </div>
@@ -58,6 +58,7 @@ export default function Episode0607Ankita({episode,character,scene}:Props){
      <div className="source-scene ep0607-story-prose">
       <h2>{selected.title}</h2>
       <p className="ep0607-when">{selected.date} · {selected.time} · {selected.place}</p>
+      {episode==='07'&&(selected.id==='05'||selected.id==='06')&&<p className="source-note"><a href="https://github.com/developer-fandom-rush/DHIKA_STORY/blob/main/Society-Wives/EP07-Ankita-Rinku-Part02-09Jan-Approved-Storyboard.md" target="_blank" rel="noreferrer">Open Rinku Part 02 · author-approved 13-beat source document ↗</a></p>}
       {paras.map((p,i)=>{
        const inlineMarker=p.trim().match(/^\[\[GROK:(\d+)\]\]$/);
        if(inlineMarker){
@@ -86,8 +87,8 @@ export default function Episode0607Ankita({episode,character,scene}:Props){
        ← {index>0?'Previous scene':episode==='07'?'Episode 06 end':'Episode 05'}
       </button>
       <span>Scene {index+1} / {scenes.length}</span>
-      <button type="button" className="button primary" onClick={()=>index<scenes.length-1?go(episode,scenes[index+1].id):episode==='06'?go('07','01'):openPage('sw-timeline',{date:'2026-01-07'})}>
-       {index<scenes.length-1?'Next scene →':episode==='06'?'Continue to Episode 07 →':'See Jan 7 timeline →'}
+      <button type="button" className="button primary" onClick={()=>index<scenes.length-1?go(episode,scenes[index+1].id):episode==='06'?go('07','01'):openPage('sw-timeline',{date:'2026-01-09'})}>
+       {index<scenes.length-1?'Next scene →':episode==='06'?'Continue to Episode 07 →':'See Jan 9 timeline →'}
       </button>
      </div>
     </>}
