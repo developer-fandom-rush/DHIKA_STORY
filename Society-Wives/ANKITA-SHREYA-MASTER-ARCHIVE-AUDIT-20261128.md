@@ -1,7 +1,7 @@
 # Ankita & Shreya — Master archive / completeness audit
 **As of:** 28 November 2026
 **Master Word-ready Google document (view + File → Download → Microsoft Word):** https://docs.google.com/document/d/1oitHtN4K_O7OTP_aciNcN7bB9LMMpH-OspHLX4v9MAk/edit?usp=drivesdk
-**Exported DOCX in ChatGPT Library:** `/SW/SW-Ankita-Shreya-Master-Prose-and-Approved-Plots.docx`.
+**Direct Microsoft Word (.docx) on Google Drive:** https://docs.google.com/document/d/1T1HdTYNS_ZfjRmftaD_Ykfbrt48328vq/edit?usp=drivesdk&ouid=117598066758558147321&rtpof=true&sd=true\n**Exported DOCX in ChatGPT Library:** `/SW/SW-Ankita-Shreya-Master-Prose-and-Approved-Plots.docx`.
 **All selected 21 generated image references in Library ZIP:** `/SW/SW-Ankita-Shreya-Reference-Images.zip`.
 **Two contact sheets:** `/SW/SW-Image-Contact-Sheet-01.jpg`, `/SW/SW-Image-Contact-Sheet-02.jpg`.
 
