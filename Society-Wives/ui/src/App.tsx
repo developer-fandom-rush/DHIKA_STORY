@@ -6,6 +6,7 @@ import Planning from './Planning';
 import Shivani06Planning from './Shivani06Planning';
 import Taniya06Planning from './Taniya06Planning';
 import Episode06LeadPlanning from './Episode06LeadPlanning';
+import Shreya07Planning from './Shreya07Planning';
 import StudyCircle from './StudyCircle';
 import SourceVault from './SourceVault';
 import FutureReference from './FutureReference';
@@ -47,7 +48,7 @@ export default function App(){
    </div></header>
    {(page==='reading'||page==='planning')&&<StoryNavigation mode={page} episode={currentEpisode} lead={currentLead}/>}
    {page==='reading'&&<Reading character={params.get('character')||'ankita'} scene={params.get('scene')} episode={params.get('episode')}/>}
-   {page==='planning'&&(params.get('part')==='06'
+   {page==='planning'&&(params.get('part')==='07'&&currentLead==='shreya'?<Shreya07Planning/>:params.get('part')==='06'
     ? currentLead==='shivani'?<Shivani06Planning/>
      :currentLead==='taniya'?<Taniya06Planning/>
      :currentLead==='ankita'||currentLead==='shreya'?<Episode06LeadPlanning lead={currentLead}/>
